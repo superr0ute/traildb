@@ -1,0 +1,82 @@
+[
+  {
+    "name": "alpine-hut",
+    "selector": "nw[tourism=alpine_hut][name]",
+    "maxDistance": 2100
+  },
+  {
+    "name": "campsite",
+    "selector": "nw[tourism=camp_site]",
+    "maxDistance": 2100
+  },
+  {
+    "name": "foodshop_supermarket",
+    "selector": "nw[shop=supermarket][name]",
+    "maxDistance": 10000
+  },
+  {
+    "name": "foodshop_convenience",
+    "selector": "nw[shop=convenience][name]",
+    "maxDistance": 10000
+  },
+  {
+    "name": "shelter_shelter",
+    "selector": "nw[amenity=shelter]",
+    "maxDistance": 3100
+  },
+  {
+    "name": "shelter_wilderness-hut",
+    "selector": "nw[tourism=wilderness_hut]",
+    "maxDistance": 3100
+  },
+  {
+    "name": "shelter_cave",
+    "selector": "node[natural=cave_entrance]",
+    "maxDistance": 3100
+  },
+  {
+    "name": "mountain-pass",
+    "selector": "node[natural=saddle][name]",
+    "maxDistance": 100
+  },
+  {
+    "name": "peak_peak",
+    "selector": "node[natural=peak][name][wikidata]",
+    "maxDistance": 4200
+  },
+  {
+    "name": "peak_volcano",
+    "selector": "node[natural=volcano][name][wikidata]",
+    "maxDistance": 4200
+  },
+  {
+    "name": "place_city",
+    "selector": "node[place=city][name]",
+    "maxDistance": 10000
+  },
+  {
+    "name": "place_hamlet",
+    "selector": "nw[place=hamlet][name]",
+    "maxDistance": 30
+  },
+  {
+    "name": "place_town",
+    "selector": "node[place=town][name]",
+    "maxDistance": 10000
+  },
+  {
+    "name": "place_village",
+    "selector": "nw[place=village][name]",
+    "maxDistance": 4100
+  },
+  {
+    "name": "water_drinking-water",
+    "selector": "node[amenity=drinking_water]",
+    "maxDistance": 3100
+  },
+  {
+    "name": "water_spring",
+    "selector": "node[natural=spring]",
+    "maxDistance": 3100
+  }
+]
