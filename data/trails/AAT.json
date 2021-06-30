@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-06-28T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-06-29T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -109,11 +109,11 @@
     {
       "type": "relation",
       "id": 3176522,
-      "timestamp": "2021-06-26T05:00:58Z",
-      "version": 631,
-      "changeset": 106990555,
-      "user": "d1og3n3s",
-      "uid": 3241876,
+      "timestamp": "2021-06-29T19:49:29Z",
+      "version": 632,
+      "changeset": 107168000,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
       "members": [
         {"type": "node", "ref": 2911861581, "role": ""},
         {"type": "node", "ref": 2912812289, "role": ""},
@@ -2392,6 +2392,7 @@
         {"type": "way", "ref": 30261854, "role": ""},
         {"type": "way", "ref": 427447354, "role": ""},
         {"type": "way", "ref": 792907430, "role": ""},
+        {"type": "way", "ref": 959550119, "role": ""},
         {"type": "relation", "ref": 12684904, "role": ""}
       ],
       "tags": {
@@ -70478,17 +70479,15 @@
     {
       "type": "way",
       "id": 792907430,
-      "timestamp": "2020-12-28T11:20:03Z",
-      "version": 4,
-      "changeset": 96530783,
-      "user": "Gorka115",
-      "uid": 9458168,
-      "nodes": [7414526259, 7414526256],
+      "timestamp": "2021-06-29T19:49:29Z",
+      "version": 5,
+      "changeset": 107168000,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
+      "nodes": [7414526259, 6775569537],
       "geometry": [
         {"lat": 45.6035894, "lon": 13.7697199},
-        {"lat": 45.6034996, "lon": 13.7694326},
-        {"lat": 45.6035058, "lon": 13.7695931},
-        {"lat": 45.6034973, "lon": 13.7697121}
+        {"lat": 45.6034996, "lon": 13.7694326}
       ],
       "tags": {
         "cycleway:right": "no",
@@ -76827,6 +76826,28 @@
         {"lat": 45.6992674, "lon": 13.7405431}
       ],
       "tags": {"highway": "unclassified", "name": "Via San Nazario"}
+    },
+    {
+      "type": "way",
+      "id": 959550119,
+      "timestamp": "2021-06-29T19:49:29Z",
+      "version": 1,
+      "changeset": 107168000,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
+      "nodes": [6775569537, 7414526256],
+      "geometry": [
+        {"lat": 45.6034996, "lon": 13.7694326},
+        {"lat": 45.6035058, "lon": 13.7695931},
+        {"lat": 45.6034973, "lon": 13.7697121}
+      ],
+      "tags": {
+        "cycleway:right": "no",
+        "highway": "secondary",
+        "name": "Piazza della Repubblica",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",

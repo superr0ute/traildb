@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-06-26T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-06-29T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2008,9 +2008,9 @@
     {
       "type": "way",
       "id": 235841110,
-      "timestamp": "2021-06-26T07:35:41Z",
-      "version": 3,
-      "changeset": 106993083,
+      "timestamp": "2021-06-29T20:18:45Z",
+      "version": 4,
+      "changeset": 107168879,
       "user": "Faustas",
       "uid": 447381,
       "nodes": [2439158365, 2439158363],
@@ -2023,6 +2023,8 @@
         "cycleway:both": "no",
         "highway": "secondary",
         "lanes": "2",
+        "maxspeed": "50",
+        "maxspeed:type": "sign",
         "name": "Canal New Road",
         "ref": "R874",
         "surface": "asphalt"
@@ -2031,9 +2033,9 @@
     {
       "type": "way",
       "id": 235841113,
-      "timestamp": "2021-06-26T07:35:33Z",
-      "version": 3,
-      "changeset": 106993083,
+      "timestamp": "2021-06-29T20:14:21Z",
+      "version": 4,
+      "changeset": 107168879,
       "user": "Faustas",
       "uid": 447381,
       "nodes": [2439158363, 240143828],
@@ -2046,6 +2048,8 @@
         "highway": "secondary",
         "lanes": "3",
         "lanes:backward": "2",
+        "maxspeed": "50",
+        "maxspeed:type": "sign",
         "name": "Canal New Road",
         "ref": "R874",
         "surface": "asphalt"
@@ -2054,9 +2058,9 @@
     {
       "type": "way",
       "id": 235842264,
-      "timestamp": "2021-06-26T07:35:28Z",
-      "version": 5,
-      "changeset": 106993083,
+      "timestamp": "2021-06-29T20:12:37Z",
+      "version": 6,
+      "changeset": 107168879,
       "user": "Faustas",
       "uid": 447381,
       "nodes": [5082736018, 2439158365],
@@ -2070,6 +2074,8 @@
         "highway": "secondary",
         "lanes": "3",
         "lanes:backward": "2",
+        "maxspeed": "60",
+        "maxspeed:type": "sign",
         "name": "Canal New Road",
         "ref": "R874",
         "surface": "asphalt",
@@ -2547,9 +2553,9 @@
     {
       "type": "way",
       "id": 25639380,
-      "timestamp": "2021-06-26T23:04:02Z",
-      "version": 9,
-      "changeset": 107018937,
+      "timestamp": "2021-06-29T20:11:52Z",
+      "version": 11,
+      "changeset": 107168903,
       "user": "Faustas",
       "uid": 447381,
       "nodes": [240143828, 279474433],
@@ -2563,8 +2569,11 @@
         {"lat": 52.2647488, "lon": -9.7178415}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "residential",
         "lit": "yes",
+        "maxspeed": "15",
+        "maxspeed:type": "sign",
         "name": "The Marina",
         "sidewalk": "left",
         "surface": "asphalt"
@@ -8582,11 +8591,11 @@
     {
       "type": "way",
       "id": 91819022,
-      "timestamp": "2018-08-06T08:24:11Z",
-      "version": 7,
-      "changeset": 61394428,
-      "user": "Marabu_Too",
-      "uid": 745875,
+      "timestamp": "2021-06-29T20:17:11Z",
+      "version": 12,
+      "changeset": 107169090,
+      "user": "Faustas",
+      "uid": 447381,
       "nodes": [1066932074, 1316141262],
       "geometry": [
         {"lat": 52.2573312, "lon": -9.7354381},
@@ -8594,11 +8603,16 @@
       ],
       "tags": {
         "bridge": "yes",
+        "cycleway:both": "no",
         "highway": "primary",
+        "lanes": "2",
         "layer": "1",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Blennerville Bridge",
-        "ref": "N86"
+        "ref": "N86",
+        "sidewalk": "both",
+        "surface": "asphalt"
       }
     },
     {
