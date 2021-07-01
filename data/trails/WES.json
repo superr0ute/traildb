@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-06-28T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-06-30T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -5688,11 +5688,11 @@
     {
       "type": "way",
       "id": 131189878,
-      "timestamp": "2016-02-16T18:12:21Z",
-      "version": 5,
-      "changeset": 37251479,
-      "user": "MichaOSM",
-      "uid": 2030591,
+      "timestamp": "2021-06-30T13:28:46Z",
+      "version": 7,
+      "changeset": 107201455,
+      "user": "my__osm",
+      "uid": 8598252,
       "nodes": [288205202, 296161680],
       "geometry": [
         {"lat": 47.8960664, "lon": 8.1058636},
@@ -5724,8 +5724,10 @@
       "tags": {
         "foot": "designated",
         "highway": "path",
+        "lit": "no",
         "mtb:scale": "0",
-        "sac_scale": "hiking"
+        "sac_scale": "hiking",
+        "surface": "fine_gravel"
       }
     },
     {
@@ -5747,11 +5749,11 @@
     {
       "type": "way",
       "id": 131189884,
-      "timestamp": "2019-10-04T20:27:17Z",
-      "version": 4,
-      "changeset": 75303212,
-      "user": "hikingeurope",
-      "uid": 9364727,
+      "timestamp": "2021-06-30T13:37:27Z",
+      "version": 7,
+      "changeset": 107201455,
+      "user": "my__osm",
+      "uid": 8598252,
       "nodes": [3995951689, 519911306],
       "geometry": [
         {"lat": 47.8945779, "lon": 8.107513},
@@ -5760,7 +5762,10 @@
       "tags": {
         "fixme": "name",
         "highway": "residential",
-        "name": "Bruderstiegweg"
+        "lit": "no",
+        "name": "Bruderstiegweg",
+        "sidewalk": "none",
+        "surface": "asphalt"
       }
     },
     {
@@ -10306,17 +10311,22 @@
     {
       "type": "way",
       "id": 185005812,
-      "timestamp": "2012-10-09T21:36:08Z",
-      "version": 1,
-      "changeset": 13433710,
-      "user": "Stefan Karl",
-      "uid": 101348,
+      "timestamp": "2021-06-30T14:13:39Z",
+      "version": 3,
+      "changeset": 107209748,
+      "user": "my__osm",
+      "uid": 8598252,
       "nodes": [1879776164, 519911375],
       "geometry": [
         {"lat": 47.8976547, "lon": 8.110135},
         {"lat": 47.8976715, "lon": 8.1102695}
       ],
-      "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade2"}
+      "tags": {
+        "check_date:tracktype": "2021-06-30",
+        "highway": "track",
+        "surface": "compacted",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
@@ -11686,11 +11696,11 @@
     {
       "type": "way",
       "id": 226149467,
-      "timestamp": "2020-08-30T09:11:40Z",
-      "version": 7,
-      "changeset": 90139528,
-      "user": "Karthoo",
-      "uid": 3232636,
+      "timestamp": "2021-06-30T20:52:45Z",
+      "version": 8,
+      "changeset": 107228185,
+      "user": "kjon",
+      "uid": 44217,
       "nodes": [3558523369, 3558523369],
       "geometry": [
         {"lat": 48.7098624, "lon": 8.4156117},
@@ -11720,6 +11730,7 @@
         "operator": "Schwarzwaldverein",
         "tower:type": "observation",
         "viewpoint": "yes",
+        "wikidata": "Q98228018",
         "wikimedia_commons": "File:Hohlohturm.JPG",
         "year_of_construction": "1897"
       }
@@ -13538,11 +13549,11 @@
     {
       "type": "way",
       "id": 247928469,
-      "timestamp": "2019-10-05T21:03:50Z",
-      "version": 4,
-      "changeset": 75327979,
-      "user": "Karthoo",
-      "uid": 3232636,
+      "timestamp": "2021-06-30T20:24:40Z",
+      "version": 5,
+      "changeset": 107227338,
+      "user": "kjon",
+      "uid": 44217,
       "nodes": [2547734956, 2547734956],
       "geometry": [
         {"lat": 48.6014605, "lon": 8.2006418},
@@ -13562,7 +13573,8 @@
         "start_date": "1910",
         "tourism": "viewpoint",
         "tower:type": "observation",
-        "wheelchair": "no"
+        "wheelchair": "no",
+        "wikidata": "Q98813044"
       }
     },
     {
@@ -25020,11 +25032,11 @@
     {
       "type": "way",
       "id": 35009713,
-      "timestamp": "2016-02-08T18:30:47Z",
-      "version": 6,
-      "changeset": 37085970,
-      "user": "MichaOSM",
-      "uid": 2030591,
+      "timestamp": "2021-06-30T13:37:26Z",
+      "version": 7,
+      "changeset": 107201437,
+      "user": "my__osm",
+      "uid": 8598252,
       "nodes": [3995951689, 288205202],
       "geometry": [
         {"lat": 47.8945779, "lon": 8.107513},
@@ -25045,7 +25057,7 @@
         {"lat": 47.8960006, "lon": 8.1060519},
         {"lat": 47.8960664, "lon": 8.1058636}
       ],
-      "tags": {"highway": "path"}
+      "tags": {"highway": "path", "surface": "dirt"}
     },
     {
       "type": "way",
@@ -29159,11 +29171,11 @@
     {
       "type": "way",
       "id": 41957947,
-      "timestamp": "2012-10-09T21:36:25Z",
-      "version": 7,
-      "changeset": 13433710,
-      "user": "Stefan Karl",
-      "uid": 101348,
+      "timestamp": "2021-06-30T14:27:48Z",
+      "version": 9,
+      "changeset": 107209748,
+      "user": "my__osm",
+      "uid": 8598252,
       "nodes": [519911375, 519911380],
       "geometry": [
         {"lat": 47.8976715, "lon": 8.1102695},
@@ -29171,7 +29183,7 @@
         {"lat": 47.897439, "lon": 8.1110861},
         {"lat": 47.8974234, "lon": 8.1114046}
       ],
-      "tags": {"highway": "track", "tracktype": "grade4"}
+      "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade3"}
     },
     {
       "type": "way",
