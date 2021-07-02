@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-01T08:31:35Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-02T02:08:36Z"},
   "elements": [
     {
       "type": "relation",
@@ -446,9 +446,9 @@
     {
       "type": "relation",
       "id": 10603079,
-      "timestamp": "2020-11-03T13:15:19Z",
-      "version": 4,
-      "changeset": 93485619,
+      "timestamp": "2021-07-01T13:19:13Z",
+      "version": 5,
+      "changeset": 107262004,
       "user": "mcompte",
       "uid": 2096551,
       "members": [
@@ -512,6 +512,8 @@
         {"type": "way", "ref": 261011006, "role": ""},
         {"type": "way", "ref": 79543092, "role": ""},
         {"type": "way", "ref": 79543132, "role": ""},
+        {"type": "way", "ref": 960096991, "role": ""},
+        {"type": "way", "ref": 960096990, "role": ""},
         {"type": "way", "ref": 32470122, "role": ""}
       ],
       "tags": {
@@ -9149,11 +9151,11 @@
     {
       "type": "way",
       "id": 122438860,
-      "timestamp": "2019-12-19T08:48:55Z",
-      "version": 4,
-      "changeset": 78626300,
-      "user": "Marc Ramírez",
-      "uid": 7477546,
+      "timestamp": "2021-07-01T13:19:13Z",
+      "version": 5,
+      "changeset": 107262004,
+      "user": "mcompte",
+      "uid": 2096551,
       "nodes": [365045555, 365045851],
       "geometry": [
         {"lat": 42.39179, "lon": 2.766336, "z": 362.6},
@@ -9164,6 +9166,7 @@
       ],
       "tags": {
         "highway": "unclassified",
+        "maxspeed": "30",
         "maxweight": "12",
         "name": "Carretera de Maçanet de Cabrenys a la Vajol",
         "width": "4"
@@ -9172,11 +9175,11 @@
     {
       "type": "way",
       "id": 122438870,
-      "timestamp": "2020-12-21T14:43:22Z",
-      "version": 7,
-      "changeset": 96202560,
-      "user": "tgdbepe4",
-      "uid": 11082202,
+      "timestamp": "2021-07-01T13:19:13Z",
+      "version": 8,
+      "changeset": 107262004,
+      "user": "mcompte",
+      "uid": 2096551,
       "nodes": [365045934, 365046012],
       "geometry": [
         {"lat": 42.4036739, "lon": 2.7891282, "z": 552.7},
@@ -9214,6 +9217,7 @@
       ],
       "tags": {
         "highway": "unclassified",
+        "maxspeed": "30",
         "maxweight": "12",
         "name": "Carretera de les Mines",
         "width": "4"
@@ -13263,11 +13267,11 @@
     {
       "type": "way",
       "id": 150096820,
-      "timestamp": "2017-06-15T14:39:42Z",
-      "version": 2,
-      "changeset": 49565621,
-      "user": "ansuta",
-      "uid": 3188422,
+      "timestamp": "2021-07-01T07:46:36Z",
+      "version": 3,
+      "changeset": 107244963,
+      "user": "Jaka Kranjc",
+      "uid": 2442070,
       "nodes": [1315371431, 592396549],
       "geometry": [
         {"lat": 42.8176293, "lon": -0.2887336, "z": 2163.6},
@@ -13280,7 +13284,7 @@
         {"lat": 42.8170173, "lon": -0.2878331, "z": 2142.9},
         {"lat": 42.8168609, "lon": -0.2878273, "z": 2137.1}
       ],
-      "tags": {"surface": "unpaved", "foot": "yes", "highway": "path"}
+      "tags": {"foot": "yes", "highway": "path", "surface": "dirt"}
     },
     {
       "type": "way",
@@ -27158,19 +27162,22 @@
     {
       "type": "way",
       "id": 261011855,
-      "timestamp": "2014-02-11T00:14:42Z",
-      "version": 2,
-      "changeset": 20494829,
-      "user": "jcphal",
-      "uid": 387627,
+      "timestamp": "2021-07-01T13:19:13Z",
+      "version": 3,
+      "changeset": 107262004,
+      "user": "mcompte",
+      "uid": 2096551,
       "nodes": [365046043, 365046016],
       "geometry": [
-        {"lat": 42.4036476, "lon": 2.8009281, "z": 534},
-        {"lat": 42.4037558, "lon": 2.8008385, "z": 534.7},
-        {"lat": 42.4037876, "lon": 2.8008272, "z": 534.8}
+        {"lat": 42.4037001, "lon": 2.8009253, "z": 534.1},
+        {"lat": 42.4037162, "lon": 2.8008648, "z": 534.5},
+        {"lat": 42.4037372, "lon": 2.8008365, "z": 534.7},
+        {"lat": 42.403759, "lon": 2.8008223, "z": 534.8},
+        {"lat": 42.4037856, "lon": 2.8008146, "z": 534.9}
       ],
       "tags": {
         "highway": "tertiary",
+        "maxspeed": "30",
         "name": "Carretera de les Mines",
         "ref": "GI-501"
       }
@@ -27178,18 +27185,21 @@
     {
       "type": "way",
       "id": 261012554,
-      "timestamp": "2020-08-16T08:14:47Z",
-      "version": 2,
-      "changeset": 89465077,
+      "timestamp": "2021-07-01T13:19:13Z",
+      "version": 3,
+      "changeset": 107262004,
       "user": "mcompte",
       "uid": 2096551,
       "nodes": [365046016, 1332122127],
       "geometry": [
-        {"lat": 42.4037876, "lon": 2.8008272, "z": 534.8},
-        {"lat": 42.4039476, "lon": 2.8009258, "z": 534},
+        {"lat": 42.4037856, "lon": 2.8008146, "z": 534.9},
+        {"lat": 42.4038294, "lon": 2.80083, "z": 534.8},
+        {"lat": 42.4038836, "lon": 2.8008609, "z": 534.6},
+        {"lat": 42.4039501, "lon": 2.8009137, "z": 534.1},
         {"lat": 42.4040343, "lon": 2.8009468, "z": 533.5},
-        {"lat": 42.4041035, "lon": 2.8009385, "z": 533.2},
-        {"lat": 42.4041606, "lon": 2.800904, "z": 533.3},
+        {"lat": 42.4041003, "lon": 2.8009524, "z": 533.1},
+        {"lat": 42.4041545, "lon": 2.8009253, "z": 533.1},
+        {"lat": 42.4041925, "lon": 2.8008957, "z": 533.2},
         {"lat": 42.4042638, "lon": 2.8007294, "z": 534.4},
         {"lat": 42.4043142, "lon": 2.8006243, "z": 535.1},
         {"lat": 42.4043225, "lon": 2.8005948, "z": 535.3},
@@ -27207,6 +27217,7 @@
       ],
       "tags": {
         "highway": "tertiary",
+        "maxspeed": "30",
         "name": "Carretera de les Mines",
         "ref": "GI-501"
       }
@@ -34463,22 +34474,23 @@
     {
       "type": "way",
       "id": 32470122,
-      "timestamp": "2014-02-11T00:03:53Z",
-      "version": 8,
-      "changeset": 20494829,
-      "user": "jcphal",
-      "uid": 387627,
-      "nodes": [297365599, 365046043],
+      "timestamp": "2021-07-01T13:19:13Z",
+      "version": 9,
+      "changeset": 107262004,
+      "user": "mcompte",
+      "uid": 2096551,
+      "nodes": [365046027, 365046043],
       "geometry": [
-        {"lat": 42.404635, "lon": 2.801102, "z": 528.3},
-        {"lat": 42.4043003, "lon": 2.8011771, "z": 530.3},
-        {"lat": 42.4040282, "lon": 2.8011846, "z": 531.5},
+        {"lat": 42.4040613, "lon": 2.8011674, "z": 531.5},
         {"lat": 42.4038049, "lon": 2.8011245, "z": 532.5},
+        {"lat": 42.4037609, "lon": 2.8010901, "z": 532.8},
         {"lat": 42.4037358, "lon": 2.8010555, "z": 533.1},
-        {"lat": 42.4036476, "lon": 2.8009281, "z": 534}
+        {"lat": 42.4037124, "lon": 2.8009961, "z": 533.5},
+        {"lat": 42.4037001, "lon": 2.8009253, "z": 534.1}
       ],
       "tags": {
         "highway": "tertiary",
+        "maxspeed": "30",
         "name": "Carretera de les Mines",
         "ref": "GI-501"
       }
@@ -66619,11 +66631,11 @@
     {
       "type": "way",
       "id": 79543092,
-      "timestamp": "2013-07-21T14:58:35Z",
-      "version": 5,
-      "changeset": 17036568,
-      "user": "jcphal",
-      "uid": 387627,
+      "timestamp": "2021-07-01T13:19:13Z",
+      "version": 6,
+      "changeset": 107262004,
+      "user": "mcompte",
+      "uid": 2096551,
       "nodes": [297365626, 297365642],
       "geometry": [
         {"lat": 42.4063361, "lon": 2.8143753, "z": 388.9},
@@ -66680,7 +66692,7 @@
         {"lat": 42.4043066, "lon": 2.8253894, "z": 316.1},
         {"lat": 42.4040988, "lon": 2.8257409, "z": 312.6}
       ],
-      "tags": {"highway": "tertiary", "ref": "GI-501"}
+      "tags": {"highway": "tertiary", "maxspeed": "70", "ref": "GI-501"}
     },
     {
       "type": "way",
@@ -66815,15 +66827,13 @@
     {
       "type": "way",
       "id": 79543132,
-      "timestamp": "2010-11-20T20:29:50Z",
-      "version": 2,
-      "changeset": 6417719,
-      "user": "Moggyl",
-      "uid": 333472,
-      "nodes": [297365599, 297365626],
+      "timestamp": "2021-07-01T13:19:13Z",
+      "version": 3,
+      "changeset": 107262004,
+      "user": "mcompte",
+      "uid": 2096551,
+      "nodes": [996752880, 297365626],
       "geometry": [
-        {"lat": 42.404635, "lon": 2.801102, "z": 528.3},
-        {"lat": 42.4048865, "lon": 2.8009948, "z": 526.7},
         {"lat": 42.4051505, "lon": 2.8008044, "z": 524.8},
         {"lat": 42.4056527, "lon": 2.8005595, "z": 518.1},
         {"lat": 42.4057883, "lon": 2.8005026, "z": 515.7},
@@ -66926,7 +66936,7 @@
         {"lat": 42.4062732, "lon": 2.8143079, "z": 389.5},
         {"lat": 42.4063361, "lon": 2.8143753, "z": 388.9}
       ],
-      "tags": {"highway": "tertiary", "ref": "GI-501"}
+      "tags": {"highway": "tertiary", "maxspeed": "70", "ref": "GI-501"}
     },
     {
       "type": "way",
@@ -71189,9 +71199,9 @@
     {
       "type": "way",
       "id": 837526618,
-      "timestamp": "2020-08-16T08:14:47Z",
-      "version": 1,
-      "changeset": 89465077,
+      "timestamp": "2021-07-01T13:19:13Z",
+      "version": 2,
+      "changeset": 107262004,
       "user": "mcompte",
       "uid": 2096551,
       "nodes": [1332122127, 365046317],
@@ -71204,6 +71214,7 @@
       ],
       "tags": {
         "highway": "tertiary",
+        "maxspeed": "30",
         "name": "Carretera de les Mines",
         "ref": "GI-501"
       }
@@ -71211,9 +71222,9 @@
     {
       "type": "way",
       "id": 837526619,
-      "timestamp": "2020-08-16T08:14:47Z",
-      "version": 1,
-      "changeset": 89465077,
+      "timestamp": "2021-07-01T13:19:13Z",
+      "version": 2,
+      "changeset": 107262004,
       "user": "mcompte",
       "uid": 2096551,
       "nodes": [365046317, 365046012],
@@ -71223,6 +71234,7 @@
       ],
       "tags": {
         "highway": "tertiary",
+        "maxspeed": "30",
         "name": "Carretera de les Mines",
         "ref": "GI-501"
       }
@@ -72819,6 +72831,43 @@
         "surface": "wood",
         "width": "1"
       }
+    },
+    {
+      "type": "way",
+      "id": 960096990,
+      "timestamp": "2021-07-01T13:19:13Z",
+      "version": 1,
+      "changeset": 107262004,
+      "user": "mcompte",
+      "uid": 2096551,
+      "nodes": [297365599, 365046027],
+      "geometry": [
+        {"lat": 42.404635, "lon": 2.801102, "z": 528.3},
+        {"lat": 42.4043003, "lon": 2.8011771, "z": 530.3},
+        {"lat": 42.4040613, "lon": 2.8011674, "z": 531.5}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Carretera de les Mines",
+        "ref": "GI-501"
+      }
+    },
+    {
+      "type": "way",
+      "id": 960096991,
+      "timestamp": "2021-07-01T13:19:13Z",
+      "version": 1,
+      "changeset": 107262004,
+      "user": "mcompte",
+      "uid": 2096551,
+      "nodes": [297365599, 996752880],
+      "geometry": [
+        {"lat": 42.404635, "lon": 2.801102, "z": 528.3},
+        {"lat": 42.4048865, "lon": 2.8009948, "z": 526.7},
+        {"lat": 42.4051505, "lon": 2.8008044, "z": 524.8}
+      ],
+      "tags": {"highway": "tertiary", "maxspeed": "50", "ref": "GI-501"}
     },
     {
       "type": "way",
