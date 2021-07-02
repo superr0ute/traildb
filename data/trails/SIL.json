@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-06-27T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-06-29T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2661,11 +2661,11 @@
     {
       "type": "relation",
       "id": 7704541,
-      "timestamp": "2021-04-07T16:14:23Z",
-      "version": 27,
-      "changeset": 102495662,
-      "user": "LorenzoBassi_SICAI_Team",
-      "uid": 3286661,
+      "timestamp": "2021-06-29T14:50:24Z",
+      "version": 28,
+      "changeset": 107155124,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "members": [
         {"type": "way", "ref": 699289092, "role": ""},
         {"type": "way", "ref": 437144398, "role": ""},
@@ -2677,6 +2677,7 @@
         {"type": "way", "ref": 337215346, "role": ""},
         {"type": "way", "ref": 699289089, "role": ""},
         {"type": "way", "ref": 300992157, "role": ""},
+        {"type": "way", "ref": 959160378, "role": ""},
         {"type": "way", "ref": 846399435, "role": ""},
         {"type": "way", "ref": 337213474, "role": ""},
         {"type": "way", "ref": 225584999, "role": ""},
@@ -13284,11 +13285,11 @@
     {
       "type": "way",
       "id": 159517649,
-      "timestamp": "2012-04-14T15:06:03Z",
-      "version": 1,
-      "changeset": 11299783,
-      "user": "Sergio P",
-      "uid": 633272,
+      "timestamp": "2021-06-29T13:21:31Z",
+      "version": 2,
+      "changeset": 107151032,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1692072364, 1045068920],
       "geometry": [
         {"lat": 46.0391134, "lon": 8.7439495},
@@ -13299,7 +13300,6 @@
       "tags": {
         "foot": "designated",
         "highway": "path",
-        "name": "111-3V Maccagno_Luino",
         "sac_scale": "mountain_hiking",
         "surface": "ground",
         "tracktype": "grade2"
@@ -13308,11 +13308,11 @@
     {
       "type": "way",
       "id": 159523206,
-      "timestamp": "2014-07-21T07:23:13Z",
-      "version": 4,
-      "changeset": 24267149,
-      "user": "Angelo Campoleoni",
-      "uid": 1955625,
+      "timestamp": "2021-06-29T13:21:31Z",
+      "version": 5,
+      "changeset": 107151032,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1692072154, 1692072364],
       "geometry": [
         {"lat": 46.034588, "lon": 8.753456},
@@ -13457,7 +13457,6 @@
         "foot": "yes",
         "highway": "path",
         "mtb:scale": "3",
-        "name": "111-3V Maccagno_Luino",
         "sac_scale": "mountain_hiking",
         "surface": "ground",
         "tracktype": "grade3"
@@ -92164,20 +92163,23 @@
     {
       "type": "way",
       "id": 757070509,
-      "timestamp": "2019-12-19T20:14:01Z",
-      "version": 1,
-      "changeset": 78654008,
-      "user": "Fabio Tremari",
-      "uid": 4254454,
-      "nodes": [3283832342, 5086545032],
+      "timestamp": "2021-06-29T11:20:33Z",
+      "version": 2,
+      "changeset": 107144310,
+      "user": "Marty5550",
+      "uid": 10901495,
+      "nodes": [5086545032, 3283832342],
       "geometry": [
-        {"lat": 46.1730587, "lon": 9.4036881},
-        {"lat": 46.1721526, "lon": 9.4042786}
+        {"lat": 46.1721526, "lon": 9.4042786},
+        {"lat": 46.1730587, "lon": 9.4036881}
       ],
       "tags": {
+        "bicycle": "designated",
         "bridge": "yes",
+        "foot": "designated",
         "highway": "cycleway",
         "layer": "1",
+        "oneway": "no",
         "surface": "paved"
       }
     },
@@ -96029,15 +96031,13 @@
     {
       "type": "way",
       "id": 846399435,
-      "timestamp": "2020-09-11T11:38:36Z",
-      "version": 1,
-      "changeset": 90755774,
-      "user": "Carlo Folini",
-      "uid": 3964885,
-      "nodes": [4301173998, 1567113572],
+      "timestamp": "2021-06-29T14:50:24Z",
+      "version": 2,
+      "changeset": 107155124,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
+      "nodes": [3443105133, 1567113572],
       "geometry": [
-        {"lat": 46.2231122, "lon": 10.0588198},
-        {"lat": 46.2232737, "lon": 10.0586585},
         {"lat": 46.2233613, "lon": 10.0583343},
         {"lat": 46.2233777, "lon": 10.0578597},
         {"lat": 46.2232026, "lon": 10.0571638},
@@ -98686,6 +98686,30 @@
         {"lat": 46.20673, "lon": 9.6597797}
       ],
       "tags": {"highway": "track", "sac_scale": "mountain_hiking"}
+    },
+    {
+      "type": "way",
+      "id": 959160378,
+      "timestamp": "2021-06-29T14:50:24Z",
+      "version": 1,
+      "changeset": 107155124,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
+      "nodes": [4301173998, 3443105133],
+      "geometry": [
+        {"lat": 46.2231122, "lon": 10.0588198},
+        {"lat": 46.2232737, "lon": 10.0586585},
+        {"lat": 46.2233613, "lon": 10.0583343}
+      ],
+      "tags": {
+        "highway": "path",
+        "horse": "no",
+        "mtb:scale": "3",
+        "mtb:scale:imba": "2",
+        "sac_scale": "mountain_hiking",
+        "surface": "earth",
+        "width": "0"
+      }
     },
     {
       "type": "way",
