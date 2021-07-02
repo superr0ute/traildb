@@ -97,7 +97,7 @@ import { pause, yesterdayDate, utcToUnix } from "../src/common";
   // build changelog
   const log = [
     [
-      `[${checkedDate.split("T")[0]}] [trails]`,
+      `[${checkedDate.split("T")[0]}] [trails] [update]`,
       brokenTrails.length > 0 ? ` (BROKEN: ${brokenTrails.join(" ")})` : "",
       fixedTrails.length > 0 ? ` (FIXED: ${fixedTrails.join(" ")})` : "",
       ` ${
