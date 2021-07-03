@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-01T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-02T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -109,9 +109,9 @@
     {
       "type": "relation",
       "id": 3176522,
-      "timestamp": "2021-07-01T19:03:31Z",
-      "version": 633,
-      "changeset": 107275988,
+      "timestamp": "2021-07-02T20:34:53Z",
+      "version": 634,
+      "changeset": 107330522,
       "user": "alessandrocarmeli",
       "uid": 12294600,
       "members": [
@@ -1200,7 +1200,6 @@
         {"type": "way", "ref": 166817923, "role": ""},
         {"type": "way", "ref": 850642326, "role": ""},
         {"type": "way", "ref": 850642325, "role": ""},
-        {"type": "way", "ref": 497711773, "role": ""},
         {"type": "way", "ref": 200167817, "role": ""},
         {"type": "way", "ref": 497711774, "role": ""},
         {"type": "way", "ref": 148985830, "role": ""},
@@ -35624,9 +35623,9 @@
     {
       "type": "way",
       "id": 292325265,
-      "timestamp": "2021-06-07T09:18:04Z",
-      "version": 7,
-      "changeset": 105959083,
+      "timestamp": "2021-07-02T19:24:26Z",
+      "version": 8,
+      "changeset": 107328220,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [334907077, 334911252],
@@ -35651,8 +35650,12 @@
       ],
       "tags": {
         "highway": "unclassified",
+        "lanes": "1",
+        "maxspeed": "50",
         "name": "Hohenwartweg",
-        "source": "plan.at 2009"
+        "note": "Bei der Streckentour „Köstenberg-Sternberg-Oberwinklern-Runde“ trifft man auf:\n + iwn:  Alpe-Adria-Trail\n + nrw: \n + rwn: \n + lwn: Stallhofen-Sternberg-Hohenwart",
+        "source": "plan.at 2009",
+        "surface": "asphalt"
       }
     },
     {
@@ -40183,9 +40186,9 @@
     {
       "type": "way",
       "id": 302253141,
-      "timestamp": "2021-06-07T09:57:51Z",
-      "version": 4,
-      "changeset": 105961869,
+      "timestamp": "2021-07-02T18:54:42Z",
+      "version": 5,
+      "changeset": 107327105,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [334909195, 334907576],
@@ -40229,8 +40232,10 @@
       ],
       "tags": {
         "highway": "residential",
+        "lanes": "1",
         "maxspeed": "50",
         "name": "Sakoparnigweg",
+        "note": "Bei der Streckentour „Köstenberg-Sternberg-Oberwinklern-Runde“ trifft man auf:\n + iwn:  Alpe-Adria-Trail\n + nrw: \n + rwn: \n + lwn:",
         "source": "plan.at 2009,geoimage.at",
         "surface": "asphalt"
       }
@@ -58921,29 +58926,6 @@
     },
     {
       "type": "way",
-      "id": 497711773,
-      "timestamp": "2020-09-23T20:54:52Z",
-      "version": 10,
-      "changeset": 91390926,
-      "user": "MitjaJez",
-      "uid": 1553347,
-      "nodes": [283864048, 313292853],
-      "geometry": [
-        {"lat": 45.6449037, "lon": 13.8621413},
-        {"lat": 45.6447948, "lon": 13.8623111},
-        {"lat": 45.6447236, "lon": 13.8624186},
-        {"lat": 45.6447138, "lon": 13.8624334}
-      ],
-      "tags": {
-        "cycleway:both": "no",
-        "highway": "secondary",
-        "oneway": "no",
-        "ref": "SP1",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
       "id": 497711774,
       "timestamp": "2020-09-08T19:00:11Z",
       "version": 5,
@@ -72034,13 +72016,16 @@
     {
       "type": "way",
       "id": 850642325,
-      "timestamp": "2020-09-23T20:54:52Z",
-      "version": 1,
-      "changeset": 91390926,
-      "user": "MitjaJez",
-      "uid": 1553347,
-      "nodes": [313292853, 293157143],
+      "timestamp": "2021-07-02T20:34:53Z",
+      "version": 2,
+      "changeset": 107330522,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
+      "nodes": [283864048, 293157143],
       "geometry": [
+        {"lat": 45.6449037, "lon": 13.8621413},
+        {"lat": 45.6447948, "lon": 13.8623111},
+        {"lat": 45.6447236, "lon": 13.8624186},
         {"lat": 45.6447138, "lon": 13.8624334},
         {"lat": 45.6445693, "lon": 13.8626304}
       ],
@@ -76402,9 +76387,9 @@
     {
       "type": "way",
       "id": 951959710,
-      "timestamp": "2021-06-07T09:57:51Z",
-      "version": 1,
-      "changeset": 105961869,
+      "timestamp": "2021-07-02T18:54:42Z",
+      "version": 2,
+      "changeset": 107327105,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [2103892209, 334909195],
@@ -76421,7 +76406,6 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Sakoparnigweg",
-        "note": "Bei der Streckentour „Köstenberg-Sternberg-Oberwinklern-Runde“ trifft man auf:\n + iwn:  Alpe-Adria-Trail\n + nrw: \n + rwn: \n + lwn:",
         "source": "plan.at 2009,geoimage.at",
         "surface": "asphalt"
       }
@@ -76429,9 +76413,9 @@
     {
       "type": "way",
       "id": 951962588,
-      "timestamp": "2021-06-07T10:07:21Z",
-      "version": 1,
-      "changeset": 105962543,
+      "timestamp": "2021-07-02T18:54:42Z",
+      "version": 2,
+      "changeset": 107327105,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [334907576, 334909183],
@@ -76446,8 +76430,10 @@
       ],
       "tags": {
         "highway": "residential",
+        "lanes": "1",
         "maxspeed": "50",
         "name": "Oberdorfer Weg",
+        "note": "Bei der Streckentour „Köstenberg-Sternberg-Oberwinklern-Runde“ trifft man auf:\n + iwn:  Alpe-Adria-Trail\n + nrw: \n + rwn: \n + lwn:",
         "source": "plan.at 2009,geoimage.at",
         "surface": "asphalt"
       }
