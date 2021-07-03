@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-01T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-02T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 7610425,
-      "timestamp": "2021-06-28T09:31:30Z",
-      "version": 52,
-      "changeset": 107076052,
+      "timestamp": "2021-07-02T14:31:24Z",
+      "version": 53,
+      "changeset": 107315954,
       "user": "Qwave",
       "uid": 55912,
       "members": [
@@ -173,6 +173,8 @@
         {"type": "way", "ref": 550947320, "role": ""},
         {"type": "way", "ref": 550947322, "role": ""},
         {"type": "way", "ref": 527598529, "role": ""},
+        {"type": "way", "ref": 960763802, "role": ""},
+        {"type": "way", "ref": 960763801, "role": ""},
         {"type": "way", "ref": 534306495, "role": ""},
         {"type": "way", "ref": 852138547, "role": ""},
         {"type": "way", "ref": 852138548, "role": ""},
@@ -4889,11 +4891,11 @@
     {
       "type": "way",
       "id": 527598528,
-      "timestamp": "2020-09-27T17:31:24Z",
-      "version": 4,
-      "changeset": 91591916,
-      "user": "benoitdd",
-      "uid": 1205555,
+      "timestamp": "2021-07-02T08:56:09Z",
+      "version": 5,
+      "changeset": 107299781,
+      "user": "Qwave",
+      "uid": 55912,
       "nodes": [5128941429, 3669786193],
       "geometry": [
         {"lat": 57.6585799, "lon": -7.2012269},
@@ -4979,6 +4981,7 @@
         {"lat": 57.6830031, "lon": -7.2049204},
         {"lat": 57.6830232, "lon": -7.2054152},
         {"lat": 57.6831723, "lon": -7.205658},
+        {"lat": 57.6832481, "lon": -7.2059973},
         {"lat": 57.6832543, "lon": -7.206025},
         {"lat": 57.6833572, "lon": -7.2060619},
         {"lat": 57.6834254, "lon": -7.2060716},
@@ -4989,15 +4992,14 @@
     {
       "type": "way",
       "id": 527598529,
-      "timestamp": "2018-01-04T21:05:22Z",
-      "version": 2,
-      "changeset": 55170169,
-      "user": "aftertea",
-      "uid": 6664628,
-      "nodes": [5128941493, 5320883830],
+      "timestamp": "2021-07-02T14:31:24Z",
+      "version": 3,
+      "changeset": 107315954,
+      "user": "Qwave",
+      "uid": 55912,
+      "nodes": [8887931333, 5320883830],
       "geometry": [
-        {"lat": 57.6463849, "lon": -7.188457},
-        {"lat": 57.6465242, "lon": -7.1884757},
+        {"lat": 57.6465709, "lon": -7.1885076},
         {"lat": 57.6466821, "lon": -7.188467},
         {"lat": 57.6467976, "lon": -7.1882893},
         {"lat": 57.6470047, "lon": -7.1881894}
@@ -7217,11 +7219,11 @@
     {
       "type": "way",
       "id": 550947322,
-      "timestamp": "2018-01-04T21:05:18Z",
-      "version": 1,
-      "changeset": 55170169,
-      "user": "aftertea",
-      "uid": 6664628,
+      "timestamp": "2021-07-02T14:31:24Z",
+      "version": 2,
+      "changeset": 107315954,
+      "user": "Qwave",
+      "uid": 55912,
       "nodes": [5320883830, 5128941489],
       "geometry": [
         {"lat": 57.6470047, "lon": -7.1881894},
@@ -7230,7 +7232,8 @@
       "tags": {
         "bridge": "boardwalk",
         "bridge:structure": "beam",
-        "highway": "path"
+        "highway": "path",
+        "surface": "wood"
       }
     },
     {
@@ -14860,16 +14863,17 @@
     {
       "type": "way",
       "id": 852138544,
-      "timestamp": "2020-09-27T17:50:40Z",
-      "version": 1,
-      "changeset": 91592477,
-      "user": "benoitdd",
-      "uid": 1205555,
+      "timestamp": "2021-07-02T08:56:09Z",
+      "version": 2,
+      "changeset": 107299781,
+      "user": "Qwave",
+      "uid": 55912,
       "nodes": [3567732670, 3567732671],
       "geometry": [
         {"lat": 57.6886553, "lon": -7.2042966},
         {"lat": 57.6889251, "lon": -7.2045191},
         {"lat": 57.6896399, "lon": -7.2049811},
+        {"lat": 57.6897552, "lon": -7.2050345},
         {"lat": 57.6898691, "lon": -7.2050477}
       ],
       "tags": {"highway": "tertiary", "lanes": "2", "surface": "asphalt"}
@@ -16348,6 +16352,36 @@
         {"lat": 57.3118874, "lon": -7.3687879}
       ],
       "tags": {"bridge": "yes", "highway": "path", "layer": "1"}
+    },
+    {
+      "type": "way",
+      "id": 960763801,
+      "timestamp": "2021-07-02T14:31:24Z",
+      "version": 1,
+      "changeset": 107315954,
+      "user": "Qwave",
+      "uid": 55912,
+      "nodes": [5128941493, 5128941492],
+      "geometry": [
+        {"lat": 57.6463849, "lon": -7.188457},
+        {"lat": 57.6465515, "lon": -7.188532}
+      ],
+      "tags": {"highway": "path"}
+    },
+    {
+      "type": "way",
+      "id": 960763802,
+      "timestamp": "2021-07-02T14:31:24Z",
+      "version": 1,
+      "changeset": 107315954,
+      "user": "Qwave",
+      "uid": 55912,
+      "nodes": [5128941492, 8887931333],
+      "geometry": [
+        {"lat": 57.6465515, "lon": -7.188532},
+        {"lat": 57.6465709, "lon": -7.1885076}
+      ],
+      "tags": {"bridge": "boardwalk", "highway": "path", "surface": "wood"}
     },
     {
       "type": "way",

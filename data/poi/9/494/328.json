@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-07-01T23:59:59Z",
-    "timestamp_osm_base": "2021-07-02T05:14:12Z",
+    "timestamp_osm_date": "2021-07-02T23:59:59Z",
+    "timestamp_osm_base": "2021-07-03T05:23:13Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -422,39 +422,6 @@
         "name": "Brod Bay Campsite",
         "operator": "Department of Conservation",
         "tourism": "camp_site"
-      }
-    },
-    {
-      "type": "node",
-      "id": 1751642265,
-      "lat": -45.3895368,
-      "lon": 167.5718238,
-      "timestamp": "2018-01-04T20:26:00Z",
-      "version": 4,
-      "changeset": 55169317,
-      "user": "gullwstravels",
-      "uid": 3062936,
-      "tags": {
-        "amenity": "shelter",
-        "ele": "1270",
-        "name": "Forest Burn Saddle Emergency Shelter",
-        "shelter_type": "basic_hut"
-      }
-    },
-    {
-      "type": "node",
-      "id": 1751655602,
-      "lat": -45.3829004,
-      "lon": 167.5362744,
-      "timestamp": "2016-04-19T02:35:29Z",
-      "version": 3,
-      "changeset": 38682801,
-      "user": "gullwstravels",
-      "uid": 3062936,
-      "tags": {
-        "amenity": "shelter",
-        "name": "Hanging Valley Emergency Shelter",
-        "shelter_type": "basic_hut"
       }
     },
     {
@@ -1356,23 +1323,24 @@
     {
       "type": "way",
       "id": 244431389,
-      "timestamp": "2018-06-23T19:51:04Z",
-      "version": 8,
-      "changeset": 60107869,
-      "user": "gaddman",
-      "uid": 365177,
+      "timestamp": "2021-07-02T01:56:09Z",
+      "version": 9,
+      "changeset": 107284284,
+      "user": "petenz",
+      "uid": 38928,
       "center": {
-        "lat": -45.3852585,
-        "lon": 167.619213
+        "lat": -45.3852613,
+        "lon": 167.6191928
       },
       "nodes": [],
       "tags": {
-        "tourism": "wilderness_hut",
         "building": "yes",
+        "capacity": "54",
         "ele": "1085",
         "name": "Luxmore Hut",
         "operator": "Department of Conservation",
-        "ref:doc": "100033374"
+        "ref:doc": "100033374",
+        "tourism": "wilderness_hut"
       }
     },
     {
@@ -1416,18 +1384,20 @@
     {
       "type": "way",
       "id": 362144223,
-      "timestamp": "2015-07-24T20:30:39Z",
-      "version": 1,
-      "changeset": 32859648,
-      "user": "gullwstravels",
-      "uid": 3062936,
+      "timestamp": "2021-07-02T01:59:20Z",
+      "version": 2,
+      "changeset": 107284318,
+      "user": "petenz",
+      "uid": 38928,
       "center": {
-        "lat": -45.3895533,
-        "lon": 167.5718582
+        "lat": -45.3895224,
+        "lon": 167.5718574
       },
       "nodes": [],
       "tags": {
-        "amenity": "shelter"
+        "amenity": "shelter",
+        "name": "Forest Burn Shelter",
+        "shelter_type": "basic_hut"
       }
     },
     {
@@ -1485,44 +1455,49 @@
     {
       "type": "way",
       "id": 411547718,
-      "timestamp": "2016-04-19T02:35:29Z",
-      "version": 1,
-      "changeset": 38682801,
-      "user": "gullwstravels",
-      "uid": 3062936,
+      "timestamp": "2021-07-02T02:02:18Z",
+      "version": 2,
+      "changeset": 107284354,
+      "user": "petenz",
+      "uid": 38928,
       "center": {
-        "lat": -45.3829336,
-        "lon": 167.5362768
+        "lat": -45.3828822,
+        "lon": 167.5362156
       },
       "nodes": [],
       "tags": {
+        "amenity": "shelter",
         "name": "Hanging Valley Emergency Shelter",
-        "amenity": "shelter"
+        "operator": "Department of Conservation",
+        "shelter_type": "basic_hut"
       }
     },
     {
       "type": "way",
       "id": 411908598,
-      "timestamp": "2020-12-17T13:15:54Z",
-      "version": 3,
-      "changeset": 96008432,
-      "user": "Cassini97",
-      "uid": 1648836,
+      "timestamp": "2021-07-02T02:05:03Z",
+      "version": 5,
+      "changeset": 107284383,
+      "user": "petenz",
+      "uid": 38928,
       "center": {
-        "lat": -45.3852585,
-        "lon": 167.619213
+        "lat": -45.3852613,
+        "lon": 167.6191928
       },
       "nodes": [],
       "tags": {
-        "name": "Luxmore Hut",
-        "contact:website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/things-to-do/huts/luxmore-hut/#3",
-        "ele": "1085",
-        "tourism": "alpine_hut",
-        "description": "Contact-Data of the Visitor Centre (Te Anau) and not the hut itself!",
-        "contact:phone": "+64 3 249 7924",
+        "building": "yes",
         "capacity": "54",
         "contact:email": "fiordlandvc@doc.govt.nz",
-        "contact:fax": "+64 4 471 1117"
+        "contact:fax": "+64 4 471 1117",
+        "contact:phone": "+64 3 249 7924",
+        "description": "Contact-Data of the Visitor Centre (Te Anau) and not the hut itself!",
+        "ele": "1085",
+        "name": "Luxmore Hut",
+        "operator": "Department of Conservation",
+        "ref:doc": "100033374",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/fiordland/places/fiordland-national-park/things-to-do/huts/luxmore-hut/"
       }
     }
   ]
