@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-02T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-03T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1736379,
-      "timestamp": "2021-06-15T09:13:35Z",
-      "version": 542,
-      "changeset": 106387291,
-      "user": "Andrea Del Sarto",
-      "uid": 3215770,
+      "timestamp": "2021-07-03T21:30:58Z",
+      "version": 543,
+      "changeset": 107369873,
+      "user": "Robhubi",
+      "uid": 3105686,
       "members": [
         {"type": "node", "ref": 1779769997, "role": "stop"},
         {"type": "node", "ref": 475738007, "role": ""},
@@ -1374,6 +1374,7 @@
         {"type": "way", "ref": 296885452, "role": ""},
         {"type": "way", "ref": 186544733, "role": ""},
         {"type": "way", "ref": 692538671, "role": ""},
+        {"type": "way", "ref": 961136072, "role": ""},
         {"type": "way", "ref": 175820480, "role": ""},
         {"type": "way", "ref": 175820481, "role": ""},
         {"type": "way", "ref": 296845871, "role": ""},
@@ -16709,17 +16710,24 @@
     {
       "type": "way",
       "id": 175820480,
-      "timestamp": "2019-05-26T08:29:12Z",
-      "version": 5,
-      "changeset": 70626964,
-      "user": "mapperue",
-      "uid": 4887311,
+      "timestamp": "2021-07-03T21:30:58Z",
+      "version": 6,
+      "changeset": 107369873,
+      "user": "Robhubi",
+      "uid": 3105686,
       "nodes": [1863754620, 21683347],
       "geometry": [
         {"lat": 45.4824291, "lon": 12.5456834},
         {"lat": 45.4826373, "lon": 12.5462618}
       ],
-      "tags": {"highway": "tertiary", "name": "Via Pordelio"}
+      "tags": {
+        "cycleway:left": "track",
+        "cycleway:left:bicycle": "designated",
+        "cycleway:left:oneway": "no",
+        "cycleway:left:segregated": "no",
+        "highway": "tertiary",
+        "name": "Via Pordelio"
+      }
     },
     {
       "type": "way",
@@ -44405,14 +44413,13 @@
     {
       "type": "way",
       "id": 692538671,
-      "timestamp": "2019-05-26T08:29:11Z",
-      "version": 1,
-      "changeset": 70626964,
-      "user": "mapperue",
-      "uid": 4887311,
-      "nodes": [21683347, 1972749831],
+      "timestamp": "2021-07-03T21:30:58Z",
+      "version": 2,
+      "changeset": 107369873,
+      "user": "Robhubi",
+      "uid": 3105686,
+      "nodes": [1695794231, 1972749831],
       "geometry": [
-        {"lat": 45.4826373, "lon": 12.5462618},
         {"lat": 45.4838633, "lon": 12.5500742},
         {"lat": 45.4838614, "lon": 12.5502384},
         {"lat": 45.4837937, "lon": 12.5504428}
@@ -53437,6 +53444,28 @@
         {"lat": 46.4266857, "lon": 11.9141037}
       ],
       "tags": {"highway": "unclassified"}
+    },
+    {
+      "type": "way",
+      "id": 961136072,
+      "timestamp": "2021-07-03T21:30:58Z",
+      "version": 1,
+      "changeset": 107369873,
+      "user": "Robhubi",
+      "uid": 3105686,
+      "nodes": [21683347, 1695794231],
+      "geometry": [
+        {"lat": 45.4826373, "lon": 12.5462618},
+        {"lat": 45.4838633, "lon": 12.5500742}
+      ],
+      "tags": {
+        "cycleway:left": "track",
+        "cycleway:left:bicycle": "designated",
+        "cycleway:left:oneway": "no",
+        "cycleway:left:segregated": "no",
+        "highway": "tertiary",
+        "name": "Via Pordelio"
+      }
     },
     {
       "type": "way",

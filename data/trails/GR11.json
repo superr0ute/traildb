@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-03T02:24:14Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-04T02:28:01Z"},
   "elements": [
     {
       "type": "relation",
@@ -13367,18 +13367,18 @@
     {
       "type": "way",
       "id": 154317835,
-      "timestamp": "2014-02-13T09:25:19Z",
-      "version": 3,
-      "changeset": 20537301,
-      "user": "jcphal",
-      "uid": 387627,
+      "timestamp": "2021-07-03T12:58:27Z",
+      "version": 5,
+      "changeset": 107352628,
+      "user": "schulzpin",
+      "uid": 169995,
       "nodes": [1668638544, 932080543],
       "geometry": [
         {"lat": 42.4496342, "lon": 1.876621, "z": 1411.8},
         {"lat": 42.4498651, "lon": 1.876125, "z": 1417.3},
         {"lat": 42.4502889, "lon": 1.8751984, "z": 1426.6}
       ],
-      "tags": {"highway": "track"}
+      "tags": {"highway": "track", "surface": "ground", "tracktype": "grade2"}
     },
     {
       "type": "way",
@@ -18085,9 +18085,9 @@
     {
       "type": "way",
       "id": 190452588,
-      "timestamp": "2021-02-25T13:50:02Z",
-      "version": 6,
-      "changeset": 99981214,
+      "timestamp": "2021-07-03T11:31:42Z",
+      "version": 7,
+      "changeset": 107349829,
       "user": "schulzpin",
       "uid": 169995,
       "nodes": [2010827782, 823781553],
@@ -18101,6 +18101,7 @@
         "highway": "unclassified",
         "lanes": "2",
         "layer": "1",
+        "maxweight:signed": "no",
         "name": "Carrer de l'Estació",
         "surface": "asphalt"
       }
@@ -29104,11 +29105,11 @@
     {
       "type": "way",
       "id": 261363283,
-      "timestamp": "2014-02-13T09:25:13Z",
-      "version": 1,
-      "changeset": 20537301,
-      "user": "jcphal",
-      "uid": 387627,
+      "timestamp": "2021-07-03T12:57:51Z",
+      "version": 3,
+      "changeset": 107352628,
+      "user": "schulzpin",
+      "uid": 169995,
       "nodes": [932080543, 933671958],
       "geometry": [
         {"lat": 42.4502889, "lon": 1.8751984, "z": 1426.6},
@@ -29116,7 +29117,7 @@
         {"lat": 42.4499542, "lon": 1.8742355, "z": 1436},
         {"lat": 42.4498894, "lon": 1.8740521, "z": 1438.6}
       ],
-      "tags": {"highway": "track"}
+      "tags": {"highway": "track", "surface": "ground", "tracktype": "grade2"}
     },
     {
       "type": "way",
@@ -38170,11 +38171,11 @@
     {
       "type": "way",
       "id": 368447475,
-      "timestamp": "2015-08-31T11:45:22Z",
-      "version": 2,
-      "changeset": 33701485,
-      "user": "janes",
-      "uid": 428521,
+      "timestamp": "2021-07-03T21:28:45Z",
+      "version": 3,
+      "changeset": 107369744,
+      "user": "Toni Serra",
+      "uid": 3859465,
       "nodes": [1991666716, 1991184062],
       "geometry": [
         {"lat": 42.6079081, "lon": 0.7680332, "z": 1510.5},
@@ -38195,18 +38196,19 @@
         {"lat": 42.6115791, "lon": 0.7684707, "z": 1545.1},
         {"lat": 42.6118649, "lon": 0.7684837, "z": 1548},
         {"lat": 42.6121583, "lon": 0.7684541, "z": 1550.7},
-        {"lat": 42.612618, "lon": 0.7685161, "z": 1556},
-        {"lat": 42.6128782, "lon": 0.7685282, "z": 1557.7},
-        {"lat": 42.6131427, "lon": 0.7685009, "z": 1558.5},
+        {"lat": 42.6125701, "lon": 0.7683656, "z": 1553.8},
+        {"lat": 42.6128485, "lon": 0.7683732, "z": 1555.7},
+        {"lat": 42.6131989, "lon": 0.7685413, "z": 1559},
+        {"lat": 42.6133931, "lon": 0.7685918, "z": 1559.9},
         {"lat": 42.6135549, "lon": 0.7685456, "z": 1559.6},
-        {"lat": 42.6136712, "lon": 0.7685089, "z": 1559.2}
+        {"lat": 42.6136762, "lon": 0.7684797, "z": 1558.9}
       ],
       "tags": {
         "highway": "track",
         "motor_vehicle": "no",
         "sac_scale": "hiking",
         "smoothness": "horrible",
-        "surface": "gravel",
+        "surface": "dirt",
         "tracktype": "grade4",
         "width": "3"
       }
@@ -38221,7 +38223,7 @@
       "uid": 428521,
       "nodes": [1991184062, 940185405],
       "geometry": [
-        {"lat": 42.6136712, "lon": 0.7685089, "z": 1559.2},
+        {"lat": 42.6136762, "lon": 0.7684797, "z": 1558.9},
         {"lat": 42.6137589, "lon": 0.7686882, "z": 1560.5},
         {"lat": 42.6138674, "lon": 0.7687759, "z": 1561.6},
         {"lat": 42.6140846, "lon": 0.7689064, "z": 1563.5},
@@ -67838,17 +67840,23 @@
     {
       "type": "way",
       "id": 79853731,
-      "timestamp": "2019-08-27T16:15:26Z",
-      "version": 5,
-      "changeset": 73806087,
-      "user": "yopaseopor",
-      "uid": 500572,
+      "timestamp": "2021-07-03T12:59:39Z",
+      "version": 8,
+      "changeset": 107352681,
+      "user": "schulzpin",
+      "uid": 169995,
       "nodes": [932080490, 1668638544],
       "geometry": [
         {"lat": 42.4495003, "lon": 1.8769087, "z": 1408.6},
         {"lat": 42.4496342, "lon": 1.876621, "z": 1411.8}
       ],
-      "tags": {"highway": "residential", "name": "Carrer de Catalunya"}
+      "tags": {
+        "highway": "residential",
+        "lit": "no",
+        "name": "Carrer de Catalunya",
+        "sidewalk": "none",
+        "surface": "ground"
+      }
     },
     {
       "type": "way",
