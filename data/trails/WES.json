@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-03T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-04T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -657,9 +657,9 @@
     {
       "type": "relation",
       "id": 48073,
-      "timestamp": "2021-06-27T12:15:31Z",
-      "version": 372,
-      "changeset": 107033914,
+      "timestamp": "2021-07-04T09:40:24Z",
+      "version": 373,
+      "changeset": 107382463,
       "user": "wuff57",
       "uid": 2583033,
       "members": [
@@ -810,6 +810,7 @@
         {"type": "way", "ref": 112450972, "role": ""},
         {"type": "way", "ref": 195615815, "role": ""},
         {"type": "way", "ref": 137641639, "role": ""},
+        {"type": "way", "ref": 961258812, "role": ""},
         {"type": "way", "ref": 684249051, "role": ""},
         {"type": "way", "ref": 503413369, "role": ""},
         {"type": "way", "ref": 684249052, "role": ""},
@@ -864,7 +865,10 @@
         {"type": "node", "ref": 726837366, "role": "guidepost"},
         {"type": "node", "ref": 360894896, "role": "guidepost"},
         {"type": "node", "ref": 369126194, "role": "guidepost"},
-        {"type": "node", "ref": 360870438, "role": "guidepost"},
+        {"type": "node", "ref": 8892094077, "role": "guidepost"},
+        {"type": "node", "ref": 8892106930, "role": "guidepost"},
+        {"type": "node", "ref": 8892106926, "role": "guidepost"},
+        {"type": "node", "ref": 360870533, "role": "guidepost"},
         {"type": "node", "ref": 1350791541, "role": "guidepost"},
         {"type": "node", "ref": 726837346, "role": "guidepost"},
         {"type": "node", "ref": 1350791552, "role": "guidepost"},
@@ -2960,11 +2964,11 @@
     {
       "type": "way",
       "id": 112450972,
-      "timestamp": "2019-05-07T18:42:01Z",
-      "version": 8,
-      "changeset": 69994995,
-      "user": "Geofreund1",
-      "uid": 179581,
+      "timestamp": "2021-07-04T09:40:24Z",
+      "version": 9,
+      "changeset": 107382463,
+      "user": "wuff57",
+      "uid": 2583033,
       "nodes": [1278060848, 1278060852],
       "geometry": [
         {"lat": 48.8074673, "lon": 8.5414226},
@@ -2973,7 +2977,7 @@
         {"lat": 48.8073545, "lon": 8.5373533},
         {"lat": 48.8073825, "lon": 8.5370453}
       ],
-      "tags": {"highway": "track", "tracktype": "grade2"}
+      "tags": {"highway": "track", "name": "Hohrißweg", "tracktype": "grade2"}
     },
     {
       "type": "way",
@@ -6827,20 +6831,18 @@
     {
       "type": "way",
       "id": 137641639,
-      "timestamp": "2020-01-02T16:38:35Z",
-      "version": 5,
-      "changeset": 79121860,
-      "user": "slavey",
-      "uid": 481005,
-      "nodes": [1278060857, 6410266252],
+      "timestamp": "2021-07-04T09:40:24Z",
+      "version": 6,
+      "changeset": 107382463,
+      "user": "wuff57",
+      "uid": 2583033,
+      "nodes": [1278060857, 1509622714],
       "geometry": [
         {"lat": 48.8082491, "lon": 8.5344304},
         {"lat": 48.8083764, "lon": 8.5342566},
-        {"lat": 48.808597, "lon": 8.5340015},
-        {"lat": 48.8087253, "lon": 8.5338638},
-        {"lat": 48.8088333, "lon": 8.5336341}
+        {"lat": 48.808597, "lon": 8.5340015}
       ],
-      "tags": {"highway": "track", "surface": "ground", "tracktype": "grade3"}
+      "tags": {"highway": "path", "surface": "ground"}
     },
     {
       "type": "way",
@@ -11414,11 +11416,11 @@
     {
       "type": "way",
       "id": 195615815,
-      "timestamp": "2020-01-02T16:38:35Z",
-      "version": 5,
-      "changeset": 79121860,
-      "user": "slavey",
-      "uid": 481005,
+      "timestamp": "2021-07-04T09:40:24Z",
+      "version": 6,
+      "changeset": 107382463,
+      "user": "wuff57",
+      "uid": 2583033,
       "nodes": [1278060852, 1278060857],
       "geometry": [
         {"lat": 48.8073825, "lon": 8.5370453},
@@ -11427,7 +11429,7 @@
         {"lat": 48.8082177, "lon": 8.5348881},
         {"lat": 48.8082491, "lon": 8.5344304}
       ],
-      "tags": {"highway": "track", "tracktype": "grade2"}
+      "tags": {"highway": "track", "name": "Hohrißweg", "tracktype": "grade2"}
     },
     {
       "type": "way",
@@ -40010,8 +40012,8 @@
         {"lat": 48.814306, "lon": 8.5500591},
         {"lat": 48.8147264, "lon": 8.5504617},
         {"lat": 48.8151014, "lon": 8.5509851},
-        {"lat": 48.815393, "lon": 8.5514509},
-        {"lat": 48.8155415, "lon": 8.5513845}
+        {"lat": 48.815257, "lon": 8.5510378},
+        {"lat": 48.8154585, "lon": 8.5510895}
       ],
       "tags": {"foot": "yes", "highway": "path"}
     },
@@ -41761,8 +41763,8 @@
       "uid": 95367,
       "nodes": [1278060890, 369126131],
       "geometry": [
-        {"lat": 48.8075261, "lon": 8.5461819},
-        {"lat": 48.8077499, "lon": 8.5464008},
+        {"lat": 48.8076815, "lon": 8.5465386},
+        {"lat": 48.8079972, "lon": 8.5464303},
         {"lat": 48.808652, "lon": 8.5464968},
         {"lat": 48.809228, "lon": 8.546736}
       ],
@@ -41771,21 +41773,24 @@
     {
       "type": "way",
       "id": 684249056,
-      "timestamp": "2019-04-16T20:00:13Z",
-      "version": 1,
-      "changeset": 69285557,
-      "user": "OSMachim",
-      "uid": 95367,
+      "timestamp": "2021-07-04T09:40:24Z",
+      "version": 2,
+      "changeset": 107382463,
+      "user": "wuff57",
+      "uid": 2583033,
       "nodes": [1278060890, 1278060848],
       "geometry": [
-        {"lat": 48.8075261, "lon": 8.5461819},
-        {"lat": 48.8075913, "lon": 8.5455341},
+        {"lat": 48.8076815, "lon": 8.5465386},
+        {"lat": 48.8075029, "lon": 8.5461456},
+        {"lat": 48.8075065, "lon": 8.5458586},
+        {"lat": 48.8074906, "lon": 8.5456521},
         {"lat": 48.8078348, "lon": 8.54511},
-        {"lat": 48.8080523, "lon": 8.5446347},
-        {"lat": 48.8081412, "lon": 8.5443996},
+        {"lat": 48.807971, "lon": 8.5446615},
+        {"lat": 48.8080599, "lon": 8.5443245},
         {"lat": 48.8081149, "lon": 8.5435241},
         {"lat": 48.8079402, "lon": 8.5429037},
-        {"lat": 48.8075152, "lon": 8.5421383},
+        {"lat": 48.8076407, "lon": 8.5424924},
+        {"lat": 48.8074834, "lon": 8.5421517},
         {"lat": 48.807446, "lon": 8.541688},
         {"lat": 48.8074673, "lon": 8.5414226}
       ],
@@ -41793,7 +41798,7 @@
         "highway": "track",
         "name": "Hohrißweg",
         "surface": "gravel",
-        "tracktype": "grade3"
+        "tracktype": "grade2"
       }
     },
     {
@@ -41827,7 +41832,7 @@
       "uid": 95367,
       "nodes": [5696302124, 1509622727],
       "geometry": [
-        {"lat": 48.8155415, "lon": 8.5513845},
+        {"lat": 48.8154585, "lon": 8.5510895},
         {"lat": 48.8157621, "lon": 8.5519651},
         {"lat": 48.8159975, "lon": 8.5526267},
         {"lat": 48.8160676, "lon": 8.5528237},
@@ -48676,6 +48681,22 @@
         "trail_visibility": "good",
         "width": "1.5"
       }
+    },
+    {
+      "type": "way",
+      "id": 961258812,
+      "timestamp": "2021-07-04T09:40:24Z",
+      "version": 1,
+      "changeset": 107382463,
+      "user": "wuff57",
+      "uid": 2583033,
+      "nodes": [1509622714, 6410266252],
+      "geometry": [
+        {"lat": 48.808597, "lon": 8.5340015},
+        {"lat": 48.8087253, "lon": 8.5338638},
+        {"lat": 48.8088333, "lon": 8.5336341}
+      ],
+      "tags": {"highway": "track", "surface": "ground", "tracktype": "grade3"}
     }
   ]
 }

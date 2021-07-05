@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-02T02:07:34Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-05T02:24:42Z"},
   "elements": [
     {
       "type": "relation",
@@ -15106,11 +15106,11 @@
     {
       "type": "way",
       "id": 51990844,
-      "timestamp": "2019-07-19T11:37:17Z",
-      "version": 11,
-      "changeset": 72426825,
-      "user": "Walk60",
-      "uid": 571665,
+      "timestamp": "2021-07-04T16:35:34Z",
+      "version": 12,
+      "changeset": 107398140,
+      "user": "Valerio_Bozzolan",
+      "uid": 1875845,
       "nodes": [1660916443, 662933323],
       "geometry": [
         {"lat": 45.7130044, "lon": 6.9515744, "z": 1468},
@@ -15131,7 +15131,7 @@
         {"lat": 45.7162636, "lon": 6.9495894, "z": 1456.2},
         {"lat": 45.7163543, "lon": 6.94954, "z": 1455.7}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {"highway": "tertiary", "surface": "asphalt"}
     },
     {
       "type": "way",
@@ -16513,11 +16513,11 @@
     {
       "type": "way",
       "id": 610197869,
-      "timestamp": "2018-07-23T11:13:44Z",
-      "version": 1,
-      "changeset": 60982879,
-      "user": "dikkeknodel",
-      "uid": 3485107,
+      "timestamp": "2021-07-04T16:47:29Z",
+      "version": 4,
+      "changeset": 107398448,
+      "user": "Valerio_Bozzolan",
+      "uid": 1875845,
       "nodes": [307701224, 1477983278],
       "geometry": [
         {"lat": 45.7092764, "lon": 6.9550103, "z": 1486.8},
@@ -16525,7 +16525,13 @@
         {"lat": 45.7091783, "lon": 6.9550513, "z": 1486.7},
         {"lat": 45.7091726, "lon": 6.9551189, "z": 1487.2}
       ],
-      "tags": {"highway": "tertiary", "junction": "roundabout"}
+      "tags": {
+        "cycleway:right": "no",
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "lane_markings": "no",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -18091,11 +18097,11 @@
     {
       "type": "way",
       "id": 705729990,
-      "timestamp": "2019-07-19T11:37:17Z",
-      "version": 1,
-      "changeset": 72426825,
-      "user": "Walk60",
-      "uid": 571665,
+      "timestamp": "2021-07-04T16:43:12Z",
+      "version": 4,
+      "changeset": 107398448,
+      "user": "Valerio_Bozzolan",
+      "uid": 1875845,
       "nodes": [307701224, 1660916443],
       "geometry": [
         {"lat": 45.7092764, "lon": 6.9550103, "z": 1486.8},
@@ -18112,7 +18118,12 @@
         {"lat": 45.7128958, "lon": 6.9519395, "z": 1471.1},
         {"lat": 45.7130044, "lon": 6.9515744, "z": 1468}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
