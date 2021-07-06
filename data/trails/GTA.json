@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-06-27T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-05T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1078763,
-      "timestamp": "2021-05-09T17:49:36Z",
-      "version": 312,
-      "changeset": 104405590,
-      "user": "kräckel",
-      "uid": 1092114,
+      "timestamp": "2021-07-05T21:53:51Z",
+      "version": 314,
+      "changeset": 107461437,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
         {"type": "way", "ref": 24238914, "role": ""},
         {"type": "way", "ref": 66594239, "role": ""},
@@ -32,11 +32,6 @@
         {"type": "way", "ref": 436187080, "role": ""},
         {"type": "way", "ref": 202075754, "role": ""},
         {"type": "way", "ref": 202075745, "role": ""},
-        {"type": "way", "ref": 682524786, "role": ""},
-        {"type": "way", "ref": 804924942, "role": ""},
-        {"type": "way", "ref": 804924941, "role": ""},
-        {"type": "way", "ref": 177971389, "role": ""},
-        {"type": "way", "ref": 804924943, "role": ""},
         {"type": "way", "ref": 171038815, "role": ""},
         {"type": "way", "ref": 678886863, "role": ""},
         {"type": "way", "ref": 174643350, "role": ""},
@@ -522,32 +517,35 @@
         "osmc:symbol": "red:red:white_stripe:gta:black",
         "ref": "GTA",
         "route": "hiking",
+        "symbol": "White horizontal stripe on red rectangular background",
         "type": "route",
         "wikidata": "Q942020",
-        "wikipedia": "fr:Grande Traversata delle Alpi"
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3158370,
-      "timestamp": "2021-05-15T10:04:31Z",
-      "version": 19,
-      "changeset": 104724658,
-      "user": "pablitoz",
-      "uid": 8761200,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 20,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
         {"type": "way", "ref": 622838969, "role": ""},
         {"type": "way", "ref": 111617925, "role": ""},
         {"type": "way", "ref": 922190746, "role": ""},
         {"type": "way", "ref": 523909613, "role": ""},
+        {"type": "way", "ref": 534159145, "role": ""},
+        {"type": "way", "ref": 622838970, "role": ""},
         {"type": "way", "ref": 126064418, "role": ""},
         {"type": "way", "ref": 700723665, "role": ""},
         {"type": "way", "ref": 126064417, "role": ""},
         {"type": "way", "ref": 622838971, "role": ""},
         {"type": "way", "ref": 126064419, "role": ""},
         {"type": "way", "ref": 922197182, "role": ""},
-        {"type": "way", "ref": 922190747, "role": ""},
         {"type": "way", "ref": 943188812, "role": ""},
+        {"type": "way", "ref": 922190747, "role": ""},
         {"type": "way", "ref": 219629120, "role": ""},
         {"type": "way", "ref": 453081775, "role": ""},
         {"type": "way", "ref": 942882482, "role": ""},
@@ -568,42 +566,44 @@
         "osmc:symbol": "red:red:white_stripe:gta:black",
         "ref": "GTA",
         "route": "hiking",
+        "symbol": "White horizontal stripe on red rectangular background",
         "type": "route",
-        "wikipedia": "fr:Grande Traversata delle Alpi"
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3159979,
-      "timestamp": "2020-05-18T19:43:54Z",
-      "version": 34,
-      "changeset": 85400811,
-      "user": "Jrachi",
-      "uid": 2976645,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 35,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
-        {"type": "relation", "ref": 3158370, "role": ""},
-        {"type": "relation", "ref": 3160202, "role": ""},
-        {"type": "relation", "ref": 3161389, "role": ""},
-        {"type": "relation", "ref": 3161429, "role": ""},
-        {"type": "relation", "ref": 3161445, "role": ""},
-        {"type": "relation", "ref": 3161485, "role": ""},
-        {"type": "relation", "ref": 3161545, "role": ""},
-        {"type": "relation", "ref": 3161576, "role": ""},
-        {"type": "relation", "ref": 3161823, "role": ""},
-        {"type": "relation", "ref": 3161834, "role": ""},
-        {"type": "relation", "ref": 3162774, "role": ""},
-        {"type": "relation", "ref": 3162776, "role": ""},
-        {"type": "relation", "ref": 3162779, "role": ""},
-        {"type": "relation", "ref": 3162796, "role": ""},
-        {"type": "relation", "ref": 3162819, "role": ""},
-        {"type": "relation", "ref": 3162840, "role": ""},
-        {"type": "relation", "ref": 3163227, "role": ""},
-        {"type": "relation", "ref": 3163255, "role": ""},
-        {"type": "relation", "ref": 3163306, "role": ""},
-        {"type": "relation", "ref": 3163340, "role": ""},
-        {"type": "relation", "ref": 3163378, "role": ""},
-        {"type": "relation", "ref": 3163432, "role": ""},
-        {"type": "relation", "ref": 3163437, "role": ""},
+        {"type": "relation", "ref": 3158370, "role": "main"},
+        {"type": "relation", "ref": 3160202, "role": "main"},
+        {"type": "relation", "ref": 3161389, "role": "main"},
+        {"type": "relation", "ref": 3161429, "role": "main"},
+        {"type": "relation", "ref": 3161445, "role": "main"},
+        {"type": "relation", "ref": 3161485, "role": "main"},
+        {"type": "relation", "ref": 3161545, "role": "main"},
+        {"type": "relation", "ref": 3161576, "role": "main"},
+        {"type": "relation", "ref": 3161823, "role": "main"},
+        {"type": "relation", "ref": 3161834, "role": "main"},
+        {"type": "relation", "ref": 3162774, "role": "main"},
+        {"type": "relation", "ref": 3162776, "role": "main"},
+        {"type": "relation", "ref": 3162779, "role": "main"},
+        {"type": "relation", "ref": 3162796, "role": "main"},
+        {"type": "relation", "ref": 3162819, "role": "main"},
+        {"type": "relation", "ref": 3162840, "role": "main"},
+        {"type": "relation", "ref": 3163227, "role": "main"},
+        {"type": "relation", "ref": 3163255, "role": "main"},
+        {"type": "relation", "ref": 3163306, "role": "main"},
+        {"type": "relation", "ref": 3163340, "role": "main"},
+        {"type": "relation", "ref": 3163378, "role": "main"},
+        {"type": "relation", "ref": 3163432, "role": "main"},
+        {"type": "relation", "ref": 3163437, "role": "main"},
         {"type": "relation", "ref": 1078763, "role": ""}
       ],
       "tags": {
@@ -614,18 +614,20 @@
         "ref": "GTA",
         "route": "hiking",
         "rwn:name": "Rete Patrimonio Escursionistico Piemonte (RPE)",
+        "symbol": "White horizontal stripe on red rectangular background",
         "type": "superroute",
+        "wikidata": "Q942020",
         "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3160202,
-      "timestamp": "2021-05-15T09:51:51Z",
-      "version": 15,
-      "changeset": 104724131,
-      "user": "pablitoz",
-      "uid": 8761200,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 16,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
         {"type": "way", "ref": 817792046, "role": ""},
         {"type": "way", "ref": 817792047, "role": ""},
@@ -634,8 +636,8 @@
         {"type": "way", "ref": 167184743, "role": ""},
         {"type": "way", "ref": 219426961, "role": ""},
         {"type": "way", "ref": 219426960, "role": ""},
-        {"type": "way", "ref": 270575912, "role": ""},
         {"type": "way", "ref": 943186646, "role": ""},
+        {"type": "way", "ref": 270575912, "role": ""},
         {"type": "way", "ref": 534159149, "role": ""},
         {"type": "way", "ref": 788109467, "role": ""},
         {"type": "way", "ref": 788109465, "role": ""},
@@ -647,6 +649,7 @@
         {"type": "way", "ref": 299917169, "role": ""},
         {"type": "way", "ref": 299917168, "role": ""},
         {"type": "way", "ref": 299917170, "role": ""},
+        {"type": "way", "ref": 534159153, "role": ""},
         {"type": "way", "ref": 302370987, "role": ""},
         {"type": "way", "ref": 302370989, "role": ""},
         {"type": "way", "ref": 218559465, "role": ""},
@@ -660,18 +663,20 @@
         "osmc:symbol": "red:red:white_stripe:gta:black",
         "ref": "GTA",
         "route": "hiking",
+        "symbol": "White horizontal stripe on red rectangular background",
         "type": "route",
-        "wikipedia": "fr:Grande Traversata delle Alpi"
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3161389,
-      "timestamp": "2021-05-13T16:21:35Z",
-      "version": 11,
-      "changeset": 104648412,
-      "user": "pablitoz",
-      "uid": 8761200,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 12,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
         {"type": "way", "ref": 605980073, "role": ""},
         {"type": "way", "ref": 757301102, "role": ""},
@@ -698,60 +703,68 @@
       "tags": {
         "name": "GTA: Alpe Baranca - Carcoforo",
         "network": "nwn",
+        "osmc:symbol": "red:red:white_stripe:GTA:black",
         "ref": "GTA",
         "route": "hiking",
-        "type": "route"
+        "symbol": "White horizontal stripe on red rectangular background",
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3161429,
-      "timestamp": "2020-11-28T14:11:08Z",
-      "version": 11,
-      "changeset": 94945384,
-      "user": "Jrachi",
-      "uid": 2976645,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 12,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
-        {"type": "way", "ref": 499682370, "role": ""},
-        {"type": "way", "ref": 126262571, "role": ""},
-        {"type": "way", "ref": 499682358, "role": ""},
-        {"type": "way", "ref": 216422421, "role": ""},
-        {"type": "way", "ref": 272808879, "role": ""},
-        {"type": "way", "ref": 216497615, "role": ""},
-        {"type": "way", "ref": 216724109, "role": ""},
-        {"type": "way", "ref": 824242362, "role": ""},
-        {"type": "way", "ref": 824242361, "role": ""},
-        {"type": "way", "ref": 216724108, "role": ""},
-        {"type": "way", "ref": 824242360, "role": ""},
-        {"type": "way", "ref": 824242359, "role": ""},
-        {"type": "way", "ref": 126210359, "role": ""},
         {"type": "way", "ref": 129123733, "role": ""},
-        {"type": "way", "ref": 846994468, "role": ""}
+        {"type": "way", "ref": 846994468, "role": ""},
+        {"type": "way", "ref": 126210359, "role": ""},
+        {"type": "way", "ref": 824242359, "role": ""},
+        {"type": "way", "ref": 824242360, "role": ""},
+        {"type": "way", "ref": 216724108, "role": ""},
+        {"type": "way", "ref": 824242361, "role": ""},
+        {"type": "way", "ref": 824242362, "role": ""},
+        {"type": "way", "ref": 216724109, "role": ""},
+        {"type": "way", "ref": 216497615, "role": ""},
+        {"type": "way", "ref": 272808879, "role": ""},
+        {"type": "way", "ref": 216422421, "role": ""},
+        {"type": "way", "ref": 499682358, "role": ""},
+        {"type": "way", "ref": 126262571, "role": ""},
+        {"type": "way", "ref": 499682370, "role": ""}
       ],
       "tags": {
         "from": "Carcoforo",
+        "name": "GTA: Carcoforo - Rima",
         "network": "nwn",
         "osmc:symbol": "red:red:white_stripe:gta:black",
         "ref": "GTA",
         "route": "hiking",
         "rwn:name": "Rete Patrimonio Escursionistico Piemonte (RPE)",
+        "symbol": "White horizontal stripe on red rectangular background",
         "to": "Rima",
-        "type": "route"
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3161445,
-      "timestamp": "2020-11-23T17:20:26Z",
-      "version": 21,
-      "changeset": 94651957,
-      "user": "popilen",
-      "uid": 2212883,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 22,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
-        {"type": "way", "ref": 60433346, "role": ""},
         {"type": "way", "ref": 177977637, "role": ""},
         {"type": "way", "ref": 534159155, "role": ""},
         {"type": "way", "ref": 534159156, "role": ""},
+        {"type": "way", "ref": 499682360, "role": ""},
         {"type": "way", "ref": 500466348, "role": ""},
         {"type": "way", "ref": 126290056, "role": ""},
         {"type": "way", "ref": 216422313, "role": ""},
@@ -759,11 +772,14 @@
         {"type": "way", "ref": 216422306, "role": ""},
         {"type": "way", "ref": 208866274, "role": ""},
         {"type": "way", "ref": 208866277, "role": ""},
-        {"type": "way", "ref": 876240629, "role": ""},
         {"type": "way", "ref": 301733554, "role": ""},
         {"type": "way", "ref": 208866275, "role": ""},
         {"type": "way", "ref": 208866276, "role": ""},
         {"type": "way", "ref": 177706074, "role": ""},
+        {"type": "way", "ref": 208271065, "role": ""},
+        {"type": "way", "ref": 208271062, "role": ""},
+        {"type": "way", "ref": 67337835, "role": ""},
+        {"type": "way", "ref": 60433346, "role": ""},
         {"type": "way", "ref": 60433340, "role": ""},
         {"type": "way", "ref": 177706065, "role": ""},
         {"type": "way", "ref": 660521493, "role": ""},
@@ -793,17 +809,20 @@
         "network": "nwn",
         "osmc:symbol": "red:red:white_stripe:gta:black",
         "route": "hiking",
-        "type": "route"
+        "symbol": "White horizontal stripe on red rectangular background",
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3161485,
-      "timestamp": "2020-11-28T13:54:17Z",
-      "version": 12,
-      "changeset": 94944681,
-      "user": "Jrachi",
-      "uid": 2976645,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 13,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
         {"type": "way", "ref": 234905517, "role": ""},
         {"type": "way", "ref": 127559606, "role": ""},
@@ -829,91 +848,100 @@
       ],
       "tags": {
         "from": "Sant'Antonio di Valvogna",
+        "name": "GTA: Sant'Antonio di Valvogna - Rifugio Rivetti",
         "network": "nwn",
         "osmc:symbol": "red:red:white_stripe:gta:black",
         "ref": "GTA",
         "route": "hiking",
         "rwn:name": "Rete Patrimonio Escursionistico Piemonte (RPE)",
+        "symbol": "White horizontal stripe on red rectangular background",
         "to": "Rifugio Rivetti",
-        "type": "route"
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3161545,
-      "timestamp": "2020-11-28T13:38:26Z",
-      "version": 26,
-      "changeset": 94944097,
-      "user": "Jrachi",
-      "uid": 2976645,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 27,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
-        {"type": "way", "ref": 176978970, "role": ""},
-        {"type": "way", "ref": 177810431, "role": ""},
-        {"type": "way", "ref": 576197728, "role": ""},
-        {"type": "way", "ref": 596170602, "role": ""},
-        {"type": "way", "ref": 596170601, "role": ""},
-        {"type": "way", "ref": 542944937, "role": ""},
-        {"type": "way", "ref": 542944938, "role": ""},
-        {"type": "way", "ref": 542944936, "role": ""},
-        {"type": "way", "ref": 177971389, "role": ""},
-        {"type": "way", "ref": 804924941, "role": ""},
-        {"type": "way", "ref": 804924942, "role": ""},
-        {"type": "way", "ref": 177971392, "role": ""},
-        {"type": "way", "ref": 538370771, "role": ""},
-        {"type": "way", "ref": 538370642, "role": ""},
-        {"type": "way", "ref": 538370641, "role": ""},
-        {"type": "way", "ref": 538370744, "role": ""},
-        {"type": "way", "ref": 538370636, "role": ""},
-        {"type": "way", "ref": 106880282, "role": ""},
-        {"type": "way", "ref": 348860876, "role": ""},
-        {"type": "way", "ref": 177703529, "role": ""},
-        {"type": "way", "ref": 547962084, "role": ""},
-        {"type": "way", "ref": 174901563, "role": ""},
-        {"type": "way", "ref": 682525243, "role": ""},
-        {"type": "way", "ref": 177703528, "role": ""},
-        {"type": "way", "ref": 477465281, "role": ""},
-        {"type": "way", "ref": 538370633, "role": ""},
-        {"type": "way", "ref": 176593804, "role": ""},
-        {"type": "way", "ref": 477465288, "role": ""},
-        {"type": "way", "ref": 177203904, "role": ""},
-        {"type": "way", "ref": 477465286, "role": ""},
-        {"type": "way", "ref": 439445843, "role": ""},
-        {"type": "way", "ref": 439445844, "role": ""},
-        {"type": "way", "ref": 177051231, "role": ""},
-        {"type": "way", "ref": 174885415, "role": ""},
-        {"type": "way", "ref": 139842493, "role": ""},
-        {"type": "way", "ref": 234929745, "role": ""},
-        {"type": "way", "ref": 177210145, "role": ""},
-        {"type": "way", "ref": 537180245, "role": ""},
-        {"type": "way", "ref": 538793371, "role": ""},
-        {"type": "way", "ref": 439404677, "role": ""},
-        {"type": "way", "ref": 439404678, "role": ""},
-        {"type": "way", "ref": 537180239, "role": ""},
-        {"type": "way", "ref": 538793370, "role": ""},
-        {"type": "way", "ref": 537479040, "role": ""},
-        {"type": "way", "ref": 537180241, "role": ""},
+        {"type": "way", "ref": 821135523, "role": ""},
         {"type": "way", "ref": 821135524, "role": ""},
-        {"type": "way", "ref": 821135523, "role": ""}
+        {"type": "way", "ref": 537180241, "role": ""},
+        {"type": "way", "ref": 537479040, "role": ""},
+        {"type": "way", "ref": 538793370, "role": ""},
+        {"type": "way", "ref": 537180239, "role": ""},
+        {"type": "way", "ref": 439404678, "role": ""},
+        {"type": "way", "ref": 439404677, "role": ""},
+        {"type": "way", "ref": 538793371, "role": ""},
+        {"type": "way", "ref": 537180245, "role": ""},
+        {"type": "way", "ref": 825748141, "role": ""},
+        {"type": "way", "ref": 177210145, "role": ""},
+        {"type": "way", "ref": 234929745, "role": ""},
+        {"type": "way", "ref": 139842493, "role": ""},
+        {"type": "way", "ref": 174885415, "role": ""},
+        {"type": "way", "ref": 177051231, "role": ""},
+        {"type": "way", "ref": 439445844, "role": ""},
+        {"type": "way", "ref": 439445843, "role": ""},
+        {"type": "way", "ref": 477465286, "role": ""},
+        {"type": "way", "ref": 177203904, "role": ""},
+        {"type": "way", "ref": 477465288, "role": ""},
+        {"type": "way", "ref": 176593804, "role": ""},
+        {"type": "way", "ref": 538370633, "role": ""},
+        {"type": "way", "ref": 477465281, "role": ""},
+        {"type": "way", "ref": 177703528, "role": ""},
+        {"type": "way", "ref": 682525243, "role": ""},
+        {"type": "way", "ref": 174901563, "role": ""},
+        {"type": "way", "ref": 547962084, "role": ""},
+        {"type": "way", "ref": 177703529, "role": ""},
+        {"type": "way", "ref": 348860876, "role": ""},
+        {"type": "way", "ref": 106880282, "role": ""},
+        {"type": "way", "ref": 538370636, "role": ""},
+        {"type": "way", "ref": 538370744, "role": ""},
+        {"type": "way", "ref": 538370641, "role": ""},
+        {"type": "way", "ref": 538370642, "role": ""},
+        {"type": "way", "ref": 538370771, "role": ""},
+        {"type": "way", "ref": 177971392, "role": ""},
+        {"type": "way", "ref": 804924942, "role": ""},
+        {"type": "way", "ref": 804924941, "role": ""},
+        {"type": "way", "ref": 177971389, "role": ""},
+        {"type": "way", "ref": 542944936, "role": ""},
+        {"type": "way", "ref": 542944938, "role": ""},
+        {"type": "way", "ref": 542944937, "role": ""},
+        {"type": "way", "ref": 596170601, "role": ""},
+        {"type": "way", "ref": 596170602, "role": ""},
+        {"type": "way", "ref": 576197728, "role": ""},
+        {"type": "way", "ref": 177810431, "role": ""},
+        {"type": "way", "ref": 176978970, "role": ""}
       ],
       "tags": {
         "from": "Rifugio Rivetti",
+        "name": "GTA: Rifugio Rivetti - Santuario San Giovanni",
         "network": "nwn",
         "osmc:symbol": "red:red:white_stripe:gta:black",
         "ref": "GTA",
         "route": "hiking",
         "rwn:name": "Rete Patrimonio Escursionistico Piemonte (RPE)",
+        "symbol": "White horizontal stripe on red rectangular background",
         "to": "Santuario San Giovanni",
-        "type": "route"
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3161576,
-      "timestamp": "2021-05-05T07:44:25Z",
-      "version": 18,
-      "changeset": 104167814,
-      "user": "Andrea Musuruane",
-      "uid": 90379,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 19,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
         {"type": "way", "ref": 820437675, "role": ""},
         {"type": "way", "ref": 857117991, "role": ""},
@@ -938,6 +966,7 @@
         {"type": "way", "ref": 659513628, "role": ""},
         {"type": "way", "ref": 819874429, "role": ""},
         {"type": "way", "ref": 659513627, "role": ""},
+        {"type": "way", "ref": 819875919, "role": ""},
         {"type": "way", "ref": 176984082, "role": ""},
         {"type": "way", "ref": 176984086, "role": ""},
         {"type": "way", "ref": 75077871, "role": ""},
@@ -951,24 +980,30 @@
       "tags": {
         "name": "GTA: Santuario San Giovanni - Oropa",
         "network": "nwn",
+        "osmc:symbol": "red:red:white_stripe:GTA:black",
+        "ref": "GTA",
         "route": "hiking",
-        "type": "route"
+        "symbol": "White horizontal stripe on red rectangular background",
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3161823,
-      "timestamp": "2020-11-28T13:38:26Z",
-      "version": 9,
-      "changeset": 94944097,
-      "user": "Jrachi",
-      "uid": 2976645,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 10,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
         {"type": "way", "ref": 220331398, "role": ""},
         {"type": "way", "ref": 129751175, "role": ""},
         {"type": "way", "ref": 176984100, "role": ""},
         {"type": "way", "ref": 220331389, "role": ""},
         {"type": "way", "ref": 220331391, "role": ""},
+        {"type": "way", "ref": 961720296, "role": ""},
         {"type": "way", "ref": 176997391, "role": ""},
         {"type": "way", "ref": 64537421, "role": ""},
         {"type": "way", "ref": 176997389, "role": ""},
@@ -991,65 +1026,77 @@
       ],
       "tags": {
         "from": "Oropa",
+        "name": "GTA: Oropa - Rifugio Coda",
         "network": "nwn",
         "osmc:symbol": "red:red:white_stripe:gta:black",
         "ref": "GTA",
         "route": "hiking",
         "rwn:name": "Rete Patrimonio Escursionistico Piemonte (RPE)",
+        "symbol": "White horizontal stripe on red rectangular background",
         "to": "Rifugio Coda",
-        "type": "route"
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3161834,
-      "timestamp": "2021-04-24T13:10:54Z",
-      "version": 20,
-      "changeset": 103536570,
-      "user": "marcogino",
-      "uid": 1550808,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 21,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
-        {"type": "way", "ref": 700872120, "role": ""},
-        {"type": "way", "ref": 700872118, "role": ""},
-        {"type": "way", "ref": 809183014, "role": ""},
-        {"type": "way", "ref": 934669272, "role": ""},
-        {"type": "way", "ref": 117979722, "role": ""},
-        {"type": "way", "ref": 248465258, "role": ""},
-        {"type": "way", "ref": 177018415, "role": ""},
-        {"type": "way", "ref": 421617589, "role": ""},
-        {"type": "way", "ref": 174895890, "role": ""},
-        {"type": "way", "ref": 177016218, "role": ""},
-        {"type": "way", "ref": 177016238, "role": ""},
-        {"type": "way", "ref": 627271506, "role": ""},
-        {"type": "way", "ref": 627271507, "role": ""},
-        {"type": "way", "ref": 421624033, "role": ""},
-        {"type": "way", "ref": 200807897, "role": ""},
-        {"type": "way", "ref": 812524301, "role": ""},
-        {"type": "way", "ref": 421998156, "role": ""},
-        {"type": "way", "ref": 626273157, "role": ""},
-        {"type": "way", "ref": 626273156, "role": ""},
-        {"type": "way", "ref": 122495242, "role": ""},
+        {"type": "way", "ref": 815630581, "role": ""},
         {"type": "way", "ref": 234931500, "role": ""},
-        {"type": "way", "ref": 815630581, "role": ""}
+        {"type": "way", "ref": 122495242, "role": ""},
+        {"type": "way", "ref": 626273156, "role": ""},
+        {"type": "way", "ref": 626273157, "role": ""},
+        {"type": "way", "ref": 421998156, "role": ""},
+        {"type": "way", "ref": 812524301, "role": ""},
+        {"type": "way", "ref": 200807897, "role": ""},
+        {"type": "way", "ref": 421624033, "role": ""},
+        {"type": "way", "ref": 627271507, "role": ""},
+        {"type": "way", "ref": 629581091, "role": ""},
+        {"type": "way", "ref": 627271506, "role": ""},
+        {"type": "way", "ref": 627271505, "role": ""},
+        {"type": "way", "ref": 421617590, "role": ""},
+        {"type": "way", "ref": 177016238, "role": ""},
+        {"type": "way", "ref": 177016218, "role": ""},
+        {"type": "way", "ref": 174895890, "role": ""},
+        {"type": "way", "ref": 421617589, "role": ""},
+        {"type": "way", "ref": 177018415, "role": ""},
+        {"type": "way", "ref": 248465258, "role": ""},
+        {"type": "way", "ref": 117979722, "role": ""},
+        {"type": "way", "ref": 934669272, "role": ""},
+        {"type": "way", "ref": 809183014, "role": ""},
+        {"type": "way", "ref": 700872118, "role": ""},
+        {"type": "way", "ref": 700872120, "role": ""}
       ],
       "tags": {
         "from": "Rifugio Coda",
+        "name": "GTA: Rifugio Coda - Maletto",
         "network": "nwn",
+        "osmc:symbol": "red:red:white_stripe:GTA:black",
         "ref": "GTA",
         "route": "hiking",
         "rwn:name": "Rete Patrimonio Escursionistico Piemonte (RPE)",
+        "symbol": "White horizontal stripe on red rectangular background",
         "to": "Maletto",
-        "type": "route"
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3162774,
-      "timestamp": "2021-04-22T08:35:51Z",
-      "version": 32,
-      "changeset": 103394419,
-      "user": "marcogino",
-      "uid": 1550808,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 33,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
         {"type": "way", "ref": 700872118, "role": ""},
         {"type": "way", "ref": 700872120, "role": ""},
@@ -1078,7 +1125,6 @@
         {"type": "way", "ref": 82898349, "role": ""},
         {"type": "way", "ref": 233948561, "role": ""},
         {"type": "way", "ref": 295803888, "role": ""},
-        {"type": "way", "ref": 295803863, "role": ""},
         {"type": "way", "ref": 847917331, "role": ""},
         {"type": "way", "ref": 770326425, "role": ""},
         {"type": "way", "ref": 295803873, "role": ""},
@@ -1118,20 +1164,27 @@
         {"type": "way", "ref": 233912294, "role": ""}
       ],
       "tags": {
+        "from": "Maletto",
         "name": "GTA: Maletto - Le Capanne",
         "network": "nwn",
+        "osmc:symbol": "red:red:white_stripe:GTA:black",
+        "ref": "GTA",
         "route": "hiking",
-        "type": "route"
+        "symbol": "White horizontal stripe on red rectangular background",
+        "to": "Le Capanne",
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3162776,
-      "timestamp": "2020-11-28T14:05:45Z",
-      "version": 13,
-      "changeset": 94945160,
-      "user": "Jrachi",
-      "uid": 2976645,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 14,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
         {"type": "way", "ref": 174895888, "role": ""},
         {"type": "way", "ref": 174895884, "role": ""},
@@ -1149,31 +1202,36 @@
         {"type": "way", "ref": 740335335, "role": ""},
         {"type": "way", "ref": 745623909, "role": ""},
         {"type": "way", "ref": 740335338, "role": ""},
-        {"type": "way", "ref": 453485922, "role": ""},
+        {"type": "way", "ref": 745623910, "role": ""},
         {"type": "way", "ref": 740335337, "role": ""},
         {"type": "way", "ref": 174892747, "role": ""},
         {"type": "way", "ref": 174892748, "role": ""},
+        {"type": "way", "ref": 453485922, "role": ""},
         {"type": "way", "ref": 174892746, "role": ""}
       ],
       "tags": {
         "from": "Le Capanne",
+        "name": "GTA: Le Capanne - Fondo",
         "network": "nwn",
         "osmc:symbol": "red:red:white_stripe:gta:black",
         "ref": "GTA",
         "route": "hiking",
         "rwn:name": "Rete Patrimonio Escursionistico Piemonte (RPE)",
+        "symbol": "White horizontal stripe on red rectangular background",
         "to": "Fondo",
-        "type": "route"
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3162779,
-      "timestamp": "2020-11-28T14:05:45Z",
-      "version": 8,
-      "changeset": 94945160,
-      "user": "Jrachi",
-      "uid": 2976645,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 9,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
         {"type": "way", "ref": 127169418, "role": ""},
         {"type": "way", "ref": 230790107, "role": ""},
@@ -1191,24 +1249,29 @@
       ],
       "tags": {
         "from": "Le Fondo",
+        "name": "GTA: Le Fondo - Piamprato",
         "network": "nwn",
         "osmc:symbol": "red:red:white_stripe:gta:black",
         "ref": "GTA",
         "route": "hiking",
         "rwn:name": "Rete Patrimonio Escursionistico Piemonte (RPE)",
+        "symbol": "White horizontal stripe on red rectangular background",
         "to": "Piamprato",
-        "type": "route"
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3162796,
-      "timestamp": "2020-11-28T13:38:26Z",
-      "version": 9,
-      "changeset": 94944097,
-      "user": "Jrachi",
-      "uid": 2976645,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 10,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
+        {"type": "way", "ref": 233954578, "role": ""},
         {"type": "way", "ref": 205206258, "role": ""},
         {"type": "way", "ref": 205206259, "role": ""},
         {"type": "way", "ref": 233954577, "role": ""},
@@ -1246,23 +1309,27 @@
       ],
       "tags": {
         "from": "Piamprato",
+        "name": "GTA: Piamprato - Ronco Canavese",
         "network": "nwn",
         "osmc:symbol": "red:red:white_stripe:gta:black",
         "ref": "GTA",
         "route": "hiking",
         "rwn:name": "Rete Patrimonio Escursionistico Piemonte (RPE)",
+        "symbol": "White horizontal stripe on red rectangular background",
         "to": "Ronco Canavese",
-        "type": "route"
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3162819,
-      "timestamp": "2021-05-29T07:28:13Z",
-      "version": 15,
-      "changeset": 105522389,
-      "user": "marcogino",
-      "uid": 1550808,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 16,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
         {"type": "way", "ref": 233960401, "role": ""},
         {"type": "way", "ref": 534151737, "role": ""},
@@ -1316,18 +1383,21 @@
         "ref": "GTA",
         "route": "hiking",
         "rwn:name": "Rete Patrimonio Escursionistico Piemonte (RPE)",
+        "symbol": "White horizontal stripe on red rectangular background",
         "to": "Talosio",
-        "type": "route"
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3162840,
-      "timestamp": "2020-02-08T10:52:21Z",
-      "version": 12,
-      "changeset": 80719963,
-      "user": "Jrachi",
-      "uid": 2976645,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 13,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
         {"type": "way", "ref": 202968257, "role": ""},
         {"type": "way", "ref": 174887068, "role": ""},
@@ -1368,18 +1438,21 @@
         "ref": "GTA",
         "route": "hiking",
         "rwn:name": "Rete Patrimonio Escursionistico Piemonte (RPE)",
+        "symbol": "White horizontal stripe on red rectangular background",
         "to": "San Lorenzo di Piantonetto",
-        "type": "route"
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3163227,
-      "timestamp": "2020-08-06T13:47:29Z",
-      "version": 15,
-      "changeset": 89043068,
-      "user": "Marco Barbieri70",
-      "uid": 271894,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 16,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
         {"type": "way", "ref": 234986357, "role": ""},
         {"type": "way", "ref": 202067128, "role": ""},
@@ -1428,18 +1501,21 @@
         "ref": "GTA",
         "route": "hiking",
         "rwn:name": "Rete Patrimonio Escursionistico Piemonte (RPE)",
+        "symbol": "White horizontal stripe on red rectangular background",
         "to": "Noasca",
-        "type": "route"
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3163255,
-      "timestamp": "2020-11-01T15:03:13Z",
-      "version": 14,
-      "changeset": 93370872,
-      "user": "marcogino",
-      "uid": 1550808,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 15,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
         {"type": "way", "ref": 93423444, "role": ""},
         {"type": "way", "ref": 802891905, "role": ""},
@@ -1481,21 +1557,24 @@
         "ref": "GTA",
         "route": "hiking",
         "rwn:name": "Rete Patrimonio Escursionistico Piemonte (RPE)",
+        "symbol": "White horizontal stripe on red rectangular background",
         "to": "Ceresole Reale",
-        "type": "route"
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3163306,
-      "timestamp": "2021-01-04T14:10:54Z",
-      "version": 16,
-      "changeset": 96914372,
-      "user": "enz1an",
-      "uid": 9098126,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 17,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
-        {"type": "way", "ref": 69277708, "role": ""},
         {"type": "way", "ref": 891916160, "role": ""},
+        {"type": "way", "ref": 69277708, "role": ""},
         {"type": "way", "ref": 174752265, "role": ""},
         {"type": "way", "ref": 68810714, "role": ""},
         {"type": "way", "ref": 812545671, "role": ""},
@@ -1536,18 +1615,21 @@
         "ref": "GTA",
         "route": "hiking",
         "rwn:name": "Rete Patrimonio Escursionistico Piemonte (RPE)",
+        "symbol": "White horizontal stripe on red rectangular background",
         "to": "Pialpetta",
-        "type": "route"
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3163340,
-      "timestamp": "2020-04-27T13:30:53Z",
-      "version": 14,
-      "changeset": 84202488,
-      "user": "Jrachi",
-      "uid": 2976645,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 15,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
         {"type": "way", "ref": 234445617, "role": ""},
         {"type": "way", "ref": 295029606, "role": ""},
@@ -1584,18 +1666,21 @@
         "ref": "GTA",
         "route": "hiking",
         "rwn:name": "Rete Patrimonio Escursionistico Piemonte (RPE)",
+        "symbol": "White horizontal stripe on red rectangular background",
         "to": "Balme",
-        "type": "route"
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3163378,
-      "timestamp": "2020-05-19T11:31:24Z",
-      "version": 16,
-      "changeset": 85438687,
-      "user": "Jrachi",
-      "uid": 2976645,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 17,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
         {"type": "way", "ref": 721533712, "role": ""},
         {"type": "way", "ref": 134769141, "role": ""},
@@ -1638,72 +1723,77 @@
         "ref": "GTA",
         "route": "hiking",
         "rwn:name": "Rete Patrimonio Escursionistico Piemonte (RPE)",
+        "symbol": "White horizontal stripe on red rectangular background",
         "to": "Usseglio",
-        "type": "route"
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3163432,
-      "timestamp": "2021-02-06T14:13:10Z",
-      "version": 32,
-      "changeset": 98815071,
-      "user": "Jrachi",
-      "uid": 2976645,
+      "timestamp": "2021-07-05T21:40:14Z",
+      "version": 34,
+      "changeset": 107461142,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
-        {"type": "way", "ref": 416190823, "role": ""},
-        {"type": "way", "ref": 174732072, "role": ""},
-        {"type": "way", "ref": 118479138, "role": ""},
-        {"type": "way", "ref": 466046973, "role": ""},
-        {"type": "way", "ref": 288075814, "role": ""},
-        {"type": "way", "ref": 891953419, "role": ""},
-        {"type": "way", "ref": 439568342, "role": ""},
-        {"type": "way", "ref": 439568341, "role": ""},
-        {"type": "way", "ref": 288075811, "role": ""},
-        {"type": "way", "ref": 288075813, "role": ""},
-        {"type": "way", "ref": 288075810, "role": ""},
-        {"type": "way", "ref": 288075812, "role": ""},
-        {"type": "way", "ref": 330950480, "role": ""},
-        {"type": "way", "ref": 530297155, "role": ""},
-        {"type": "way", "ref": 174732075, "role": ""},
-        {"type": "way", "ref": 155512877, "role": ""},
-        {"type": "way", "ref": 155512876, "role": ""},
-        {"type": "way", "ref": 174732080, "role": ""},
-        {"type": "way", "ref": 466050825, "role": ""},
-        {"type": "way", "ref": 118375512, "role": ""},
-        {"type": "way", "ref": 330950476, "role": ""},
-        {"type": "way", "ref": 174734374, "role": ""},
-        {"type": "way", "ref": 527111075, "role": ""},
-        {"type": "way", "ref": 790393254, "role": ""},
-        {"type": "way", "ref": 790393255, "role": ""},
-        {"type": "way", "ref": 466057620, "role": ""},
-        {"type": "way", "ref": 760481093, "role": ""},
-        {"type": "way", "ref": 124872623, "role": ""},
-        {"type": "way", "ref": 124872724, "role": ""},
-        {"type": "way", "ref": 174734372, "role": ""},
-        {"type": "way", "ref": 527233604, "role": ""},
-        {"type": "way", "ref": 418601506, "role": ""},
-        {"type": "way", "ref": 521238854, "role": ""},
-        {"type": "way", "ref": 741626669, "role": ""},
-        {"type": "way", "ref": 526772609, "role": ""},
-        {"type": "way", "ref": 526772610, "role": ""},
-        {"type": "way", "ref": 526772611, "role": ""},
-        {"type": "way", "ref": 526772608, "role": ""},
-        {"type": "way", "ref": 374554378, "role": ""},
-        {"type": "way", "ref": 527119464, "role": ""},
-        {"type": "way", "ref": 383463973, "role": ""},
-        {"type": "way", "ref": 383463964, "role": ""},
-        {"type": "way", "ref": 530980035, "role": ""},
-        {"type": "way", "ref": 234579813, "role": ""},
-        {"type": "way", "ref": 710003813, "role": ""},
-        {"type": "way", "ref": 891953417, "role": ""},
-        {"type": "way", "ref": 365764628, "role": ""},
-        {"type": "way", "ref": 365764629, "role": ""},
-        {"type": "way", "ref": 365518400, "role": ""},
         {"type": "way", "ref": 365518399, "role": ""},
+        {"type": "way", "ref": 365518400, "role": ""},
+        {"type": "way", "ref": 365764629, "role": ""},
+        {"type": "way", "ref": 365764628, "role": ""},
+        {"type": "way", "ref": 891953417, "role": ""},
+        {"type": "way", "ref": 710003813, "role": ""},
+        {"type": "way", "ref": 234579813, "role": ""},
+        {"type": "way", "ref": 530980035, "role": ""},
+        {"type": "way", "ref": 383463964, "role": ""},
+        {"type": "way", "ref": 383463973, "role": ""},
+        {"type": "way", "ref": 527119464, "role": ""},
+        {"type": "way", "ref": 374554378, "role": ""},
+        {"type": "way", "ref": 526772608, "role": ""},
+        {"type": "way", "ref": 526772611, "role": ""},
+        {"type": "way", "ref": 526772610, "role": ""},
+        {"type": "way", "ref": 526772609, "role": ""},
+        {"type": "way", "ref": 741626669, "role": ""},
+        {"type": "way", "ref": 521238854, "role": ""},
+        {"type": "way", "ref": 418601506, "role": ""},
+        {"type": "way", "ref": 527233604, "role": ""},
+        {"type": "way", "ref": 174734372, "role": ""},
+        {"type": "way", "ref": 124872724, "role": ""},
+        {"type": "way", "ref": 124872623, "role": ""},
+        {"type": "way", "ref": 760481093, "role": ""},
+        {"type": "way", "ref": 466057620, "role": ""},
+        {"type": "way", "ref": 790393255, "role": ""},
+        {"type": "way", "ref": 790393254, "role": ""},
+        {"type": "way", "ref": 527111075, "role": ""},
+        {"type": "way", "ref": 174734374, "role": ""},
+        {"type": "way", "ref": 330950476, "role": ""},
+        {"type": "way", "ref": 118375512, "role": ""},
+        {"type": "way", "ref": 466050825, "role": ""},
+        {"type": "way", "ref": 174732080, "role": ""},
+        {"type": "way", "ref": 155512876, "role": ""},
+        {"type": "way", "ref": 155512877, "role": ""},
+        {"type": "way", "ref": 174732075, "role": ""},
+        {"type": "way", "ref": 530297155, "role": ""},
+        {"type": "way", "ref": 330950480, "role": ""},
+        {"type": "way", "ref": 288075812, "role": ""},
+        {"type": "way", "ref": 288075810, "role": ""},
+        {"type": "way", "ref": 288075813, "role": ""},
+        {"type": "way", "ref": 288075811, "role": ""},
+        {"type": "way", "ref": 439568341, "role": ""},
+        {"type": "way", "ref": 439568342, "role": ""},
+        {"type": "way", "ref": 891953419, "role": ""},
+        {"type": "way", "ref": 288075814, "role": ""},
+        {"type": "way", "ref": 466046973, "role": ""},
+        {"type": "way", "ref": 118479138, "role": ""},
+        {"type": "way", "ref": 174732072, "role": ""},
+        {"type": "way", "ref": 416190823, "role": ""},
         {"type": "way", "ref": 416190825, "role": ""},
         {"type": "way", "ref": 174729621, "role": ""},
-        {"type": "way", "ref": 530582643, "role": ""}
+        {"type": "way", "ref": 530582643, "role": ""},
+        {"type": "way", "ref": 770864919, "role": ""},
+        {"type": "way", "ref": 234580338, "role": ""}
       ],
       "tags": {
         "from": "Usseglio",
@@ -1713,21 +1803,22 @@
         "ref": "GTA",
         "route": "hiking",
         "rwn:name": "Rete Patrimonio Escursionistico Piemonte (RPE)",
+        "symbol": "White horizontal stripe on red rectangular background",
         "to": "Il Truc",
-        "type": "route"
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
       "type": "relation",
       "id": 3163437,
-      "timestamp": "2020-05-31T15:10:48Z",
-      "version": 23,
-      "changeset": 86011875,
-      "user": "Jrachi",
-      "uid": 2976645,
+      "timestamp": "2021-07-05T21:40:14Z",
+      "version": 25,
+      "changeset": 107461142,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
-        {"type": "way", "ref": 627889421, "role": ""},
-        {"type": "way", "ref": 810243986, "role": ""},
         {"type": "way", "ref": 133522322, "role": ""},
         {"type": "way", "ref": 136729623, "role": ""},
         {"type": "way", "ref": 547961996, "role": ""},
@@ -1776,8 +1867,11 @@
         "ref": "GTA",
         "route": "hiking",
         "rwn:name": "Rete Patrimonio Escursionistico Piemonte (RPE)",
+        "symbol": "White horizontal stripe on red rectangular background",
         "to": "Susa",
-        "type": "route"
+        "type": "route",
+        "wikidata": "Q942020",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
@@ -5416,7 +5510,7 @@
       "timestamp": "2021-06-02T09:49:24Z",
       "version": 5,
       "changeset": 105716018,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [2294625560, 1430852811],
       "geometry": [
@@ -5446,7 +5540,7 @@
       "timestamp": "2021-06-02T09:51:05Z",
       "version": 3,
       "changeset": 105715482,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [1430852805, 1430852861],
       "geometry": [
@@ -10377,7 +10471,7 @@
       "timestamp": "2020-11-15T17:35:59Z",
       "version": 11,
       "changeset": 94157567,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [1838099493, 442297361],
       "geometry": [
@@ -11643,7 +11737,7 @@
       "timestamp": "2020-11-15T17:35:59Z",
       "version": 12,
       "changeset": 94157567,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [442297361, 442297329],
       "geometry": [
@@ -13502,7 +13596,7 @@
       "timestamp": "2020-05-02T09:36:55Z",
       "version": 11,
       "changeset": 84513158,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [1445603285, 1331314518],
       "geometry": [
@@ -16318,7 +16412,7 @@
       "timestamp": "2020-11-23T11:33:38Z",
       "version": 4,
       "changeset": 94634338,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [1783509014, 1855352202],
       "geometry": [
@@ -20738,7 +20832,7 @@
       "timestamp": "2021-02-13T15:57:23Z",
       "version": 6,
       "changeset": 99218905,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [2069404602, 824512172],
       "geometry": [
@@ -20761,7 +20855,7 @@
       "timestamp": "2021-02-13T15:57:23Z",
       "version": 5,
       "changeset": 99218905,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [824512172, 303968377],
       "geometry": [
@@ -22673,6 +22767,59 @@
         "source": "Bing Sat",
         "surface": "cobblestone"
       }
+    },
+    {
+      "type": "way",
+      "id": 208271062,
+      "timestamp": "2019-06-01T09:09:54Z",
+      "version": 4,
+      "changeset": 70830888,
+      "user": "Alecs01",
+      "uid": 1476146,
+      "nodes": [2185838925, 813401178],
+      "geometry": [
+        {"lat": 45.8597, "lon": 7.9357531},
+        {"lat": 45.8598045, "lon": 7.9360561}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "source": "pcn 2006",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 208271065,
+      "timestamp": "2019-06-01T09:09:54Z",
+      "version": 4,
+      "changeset": 70830888,
+      "user": "Alecs01",
+      "uid": 1476146,
+      "nodes": [813401178, 813364902],
+      "geometry": [
+        {"lat": 45.8598045, "lon": 7.9360561},
+        {"lat": 45.8598204, "lon": 7.9361239},
+        {"lat": 45.8598436, "lon": 7.9361753},
+        {"lat": 45.8598737, "lon": 7.9362232},
+        {"lat": 45.8599491, "lon": 7.936291},
+        {"lat": 45.8600942, "lon": 7.9363898},
+        {"lat": 45.8601666, "lon": 7.9364478},
+        {"lat": 45.8602349, "lon": 7.9365025},
+        {"lat": 45.8602942, "lon": 7.93655},
+        {"lat": 45.8604622, "lon": 7.9366947},
+        {"lat": 45.8605537, "lon": 7.9367762},
+        {"lat": 45.8605739, "lon": 7.9367941},
+        {"lat": 45.8605859, "lon": 7.9368048},
+        {"lat": 45.8607743, "lon": 7.9369895},
+        {"lat": 45.8607898, "lon": 7.9370053},
+        {"lat": 45.8609124, "lon": 7.9371226},
+        {"lat": 45.8609592, "lon": 7.9371667},
+        {"lat": 45.8610295, "lon": 7.9372328},
+        {"lat": 45.861074, "lon": 7.93728}
+      ],
+      "tags": {"highway": "unclassified"}
     },
     {
       "type": "way",
@@ -24713,7 +24860,7 @@
       "timestamp": "2021-06-02T09:49:29Z",
       "version": 2,
       "changeset": 105715482,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [1430852811, 1430852805],
       "geometry": [
@@ -26443,6 +26590,21 @@
     },
     {
       "type": "way",
+      "id": 233954578,
+      "timestamp": "2014-08-29T22:21:03Z",
+      "version": 2,
+      "changeset": 25107159,
+      "user": "emsqosm",
+      "uid": 158204,
+      "nodes": [1075435425, 1075435443],
+      "geometry": [
+        {"lat": 45.5537967, "lon": 7.5757496},
+        {"lat": 45.5538563, "lon": 7.575695}
+      ],
+      "tags": {"highway": "tertiary", "ref": "SP48"}
+    },
+    {
+      "type": "way",
       "id": 233954579,
       "timestamp": "2013-08-18T10:54:56Z",
       "version": 1,
@@ -27221,7 +27383,7 @@
       "timestamp": "2021-02-13T15:57:23Z",
       "version": 8,
       "changeset": 99218905,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [3064827727, 3064822652],
       "geometry": [
@@ -27250,7 +27412,7 @@
       "timestamp": "2021-02-13T15:57:23Z",
       "version": 4,
       "changeset": 99218905,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [303968373, 303968374],
       "geometry": [
@@ -27525,7 +27687,7 @@
       "timestamp": "2019-06-25T07:58:57Z",
       "version": 4,
       "changeset": 71589266,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [1566285701, 1566286020],
       "geometry": [
@@ -27566,7 +27728,7 @@
       "timestamp": "2019-09-04T15:15:05Z",
       "version": 14,
       "changeset": 74093452,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [838422170, 1481261686],
       "geometry": [
@@ -27714,6 +27876,24 @@
         "mtb:scale:uphill": "0",
         "tracktype": "grade2"
       }
+    },
+    {
+      "type": "way",
+      "id": 234580338,
+      "timestamp": "2020-02-08T14:59:21Z",
+      "version": 7,
+      "changeset": 80725551,
+      "user": "Jrachi",
+      "uid": 2976645,
+      "nodes": [3375272603, 3375272604],
+      "geometry": [
+        {"lat": 45.1649779, "lon": 7.0617592},
+        {"lat": 45.1649009, "lon": 7.0618994},
+        {"lat": 45.1648496, "lon": 7.0619319},
+        {"lat": 45.1647619, "lon": 7.0619729},
+        {"lat": 45.1647279, "lon": 7.0619779}
+      ],
+      "tags": {"highway": "track", "tracktype": "grade2"}
     },
     {
       "type": "way",
@@ -29485,7 +29665,7 @@
       "timestamp": "2021-02-13T15:57:23Z",
       "version": 16,
       "changeset": 99218905,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [303968378, 2069404467],
       "geometry": [
@@ -30290,33 +30470,6 @@
         "maxspeed": "50",
         "surface": "asphalt"
       }
-    },
-    {
-      "type": "way",
-      "id": 295803863,
-      "timestamp": "2020-09-16T08:50:07Z",
-      "version": 4,
-      "changeset": 90972858,
-      "user": "LorenzoBassi_SICAI_Team",
-      "uid": 3286661,
-      "nodes": [2995649429, 2995649547],
-      "geometry": [
-        {"lat": 45.5632, "lon": 7.8096485},
-        {"lat": 45.5631597, "lon": 7.8096507},
-        {"lat": 45.5631229, "lon": 7.8096748},
-        {"lat": 45.5630955, "lon": 7.8097171},
-        {"lat": 45.5630814, "lon": 7.8097712},
-        {"lat": 45.5630829, "lon": 7.8098289},
-        {"lat": 45.5630998, "lon": 7.8098814},
-        {"lat": 45.5631295, "lon": 7.8099206},
-        {"lat": 45.5631674, "lon": 7.8099407},
-        {"lat": 45.5632077, "lon": 7.8099385},
-        {"lat": 45.5632445, "lon": 7.8099144},
-        {"lat": 45.5632719, "lon": 7.809872},
-        {"lat": 45.563286, "lon": 7.8098179},
-        {"lat": 45.5632851, "lon": 7.8097862}
-      ],
-      "tags": {"highway": "secondary", "junction": "roundabout"}
     },
     {
       "type": "way",
@@ -36581,6 +36734,28 @@
     },
     {
       "type": "way",
+      "id": 421617590,
+      "timestamp": "2018-10-01T16:58:59Z",
+      "version": 3,
+      "changeset": 63100744,
+      "user": "gianfox",
+      "uid": 1753173,
+      "nodes": [5921539738, 1874864298],
+      "geometry": [
+        {"lat": 45.6004551, "lon": 7.8816383},
+        {"lat": 45.600509, "lon": 7.8818321},
+        {"lat": 45.6005442, "lon": 7.881934},
+        {"lat": 45.6005709, "lon": 7.8820326}
+      ],
+      "tags": {
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "source": "gps",
+        "trail_visibility": "bad"
+      }
+    },
+    {
+      "type": "way",
       "id": 421624033,
       "timestamp": "2016-05-29T13:51:05Z",
       "version": 1,
@@ -38708,7 +38883,7 @@
       "timestamp": "2021-02-13T15:57:23Z",
       "version": 2,
       "changeset": 99218905,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [2069404467, 1083295414],
       "geometry": [
@@ -38794,6 +38969,22 @@
         {"lat": 45.8860698, "lon": 7.9995822},
         {"lat": 45.8861769, "lon": 7.9997441},
         {"lat": 45.8863277, "lon": 7.9999165}
+      ],
+      "tags": {"highway": "footway"}
+    },
+    {
+      "type": "way",
+      "id": 499682360,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 3,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
+      "nodes": [2257703373, 4909248251],
+      "geometry": [
+        {"lat": 45.8860634, "lon": 7.9988337},
+        {"lat": 45.886068, "lon": 7.9989192},
+        {"lat": 45.8860572, "lon": 7.9990203}
       ],
       "tags": {"highway": "footway"}
     },
@@ -39853,7 +40044,7 @@
       "timestamp": "2021-01-03T17:22:58Z",
       "version": 2,
       "changeset": 96856948,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [3238296838, 5075012741],
       "geometry": [
@@ -45229,7 +45420,7 @@
       "timestamp": "2021-02-13T15:57:23Z",
       "version": 2,
       "changeset": 99218905,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [303968377, 303968378],
       "geometry": [
@@ -45269,7 +45460,7 @@
       "timestamp": "2021-02-13T15:57:23Z",
       "version": 2,
       "changeset": 99218905,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [3064822652, 2063560978],
       "geometry": [
@@ -45292,7 +45483,7 @@
       "timestamp": "2021-02-13T15:57:23Z",
       "version": 2,
       "changeset": 99218905,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [303969851, 3064827727],
       "geometry": [
@@ -45318,7 +45509,7 @@
       "timestamp": "2021-02-13T15:57:23Z",
       "version": 2,
       "changeset": 99218905,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [825166010, 303969851],
       "geometry": [
@@ -46108,6 +46299,32 @@
     },
     {
       "type": "way",
+      "id": 534159145,
+      "timestamp": "2020-12-20T19:49:40Z",
+      "version": 7,
+      "changeset": 96152769,
+      "user": "Jrachi",
+      "uid": 2976645,
+      "nodes": [1398513212, 1398513203],
+      "geometry": [
+        {"lat": 45.9364086, "lon": 8.2359991},
+        {"lat": 45.9363353, "lon": 8.2358856},
+        {"lat": 45.9362977, "lon": 8.235813},
+        {"lat": 45.9362435, "lon": 8.2355617},
+        {"lat": 45.936212, "lon": 8.2353553},
+        {"lat": 45.936161, "lon": 8.2351353},
+        {"lat": 45.9361079, "lon": 8.2348826},
+        {"lat": 45.9360846, "lon": 8.2346454}
+      ],
+      "tags": {
+        "highway": "path",
+        "historic": "mule_path",
+        "sac_scale": "hiking",
+        "trail_visibility": "intermediate"
+      }
+    },
+    {
+      "type": "way",
       "id": 534159149,
       "timestamp": "2020-04-05T07:47:11Z",
       "version": 3,
@@ -46139,6 +46356,43 @@
     },
     {
       "type": "way",
+      "id": 534159153,
+      "timestamp": "2020-04-04T08:58:54Z",
+      "version": 2,
+      "changeset": 83063791,
+      "user": "Francoerbi41",
+      "uid": 4982687,
+      "nodes": [2278527165, 2127743712],
+      "geometry": [
+        {"lat": 45.9052289, "lon": 8.1487521},
+        {"lat": 45.9053708, "lon": 8.1486509},
+        {"lat": 45.9056569, "lon": 8.1484098},
+        {"lat": 45.9058033, "lon": 8.1482555},
+        {"lat": 45.9059984, "lon": 8.1480342},
+        {"lat": 45.9062205, "lon": 8.1477834},
+        {"lat": 45.9063297, "lon": 8.1476654},
+        {"lat": 45.9064323, "lon": 8.1475326},
+        {"lat": 45.9065172, "lon": 8.1474012},
+        {"lat": 45.9065835, "lon": 8.1472738},
+        {"lat": 45.9074568, "lon": 8.1454482},
+        {"lat": 45.9077051, "lon": 8.1449373},
+        {"lat": 45.907841, "lon": 8.1446626},
+        {"lat": 45.9080138, "lon": 8.1443573},
+        {"lat": 45.9081476, "lon": 8.1441214},
+        {"lat": 45.908213, "lon": 8.1439823},
+        {"lat": 45.9082788, "lon": 8.1438092},
+        {"lat": 45.9083011, "lon": 8.1437238}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "ref": "SP104",
+        "source": "pcn 2006",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
       "id": 534159155,
       "timestamp": "2017-10-21T22:50:53Z",
       "version": 1,
@@ -46165,7 +46419,7 @@
       "geometry": [
         {"lat": 45.8856965, "lon": 7.9987727},
         {"lat": 45.8859916, "lon": 7.9989768},
-        {"lat": 45.8860571, "lon": 7.99902}
+        {"lat": 45.8860572, "lon": 7.9990203}
       ],
       "tags": {"highway": "footway"}
     },
@@ -48265,6 +48519,32 @@
     },
     {
       "type": "way",
+      "id": 622838970,
+      "timestamp": "2020-12-20T19:49:40Z",
+      "version": 5,
+      "changeset": 96152769,
+      "user": "Jrachi",
+      "uid": 2976645,
+      "nodes": [1398513203, 1398513189],
+      "geometry": [
+        {"lat": 45.9360846, "lon": 8.2346454},
+        {"lat": 45.9360268, "lon": 8.2343212},
+        {"lat": 45.935973, "lon": 8.234054},
+        {"lat": 45.9359519, "lon": 8.2339747},
+        {"lat": 45.9358745, "lon": 8.2338196},
+        {"lat": 45.9358388, "lon": 8.2336816},
+        {"lat": 45.9357842, "lon": 8.2335713},
+        {"lat": 45.9357098, "lon": 8.2333172}
+      ],
+      "tags": {
+        "highway": "path",
+        "historic": "mule_path",
+        "sac_scale": "hiking",
+        "trail_visibility": "intermediate"
+      }
+    },
+    {
+      "type": "way",
       "id": 622838971,
       "timestamp": "2020-12-20T19:49:40Z",
       "version": 3,
@@ -48584,6 +48864,27 @@
     },
     {
       "type": "way",
+      "id": 627271505,
+      "timestamp": "2018-09-21T21:22:47Z",
+      "version": 1,
+      "changeset": 62810959,
+      "user": "gianfox",
+      "uid": 1753173,
+      "nodes": [5921539738, 4213698474],
+      "geometry": [
+        {"lat": 45.6004551, "lon": 7.8816383},
+        {"lat": 45.6005224, "lon": 7.8817694}
+      ],
+      "tags": {
+        "highway": "path",
+        "name": "841-GTA",
+        "sac_scale": "mountain_hiking",
+        "surface": "ground",
+        "trail_visibility": "bad"
+      }
+    },
+    {
+      "type": "way",
       "id": 627271506,
       "timestamp": "2018-09-21T21:22:47Z",
       "version": 1,
@@ -48639,31 +48940,6 @@
     },
     {
       "type": "way",
-      "id": 627889421,
-      "timestamp": "2020-05-31T15:10:48Z",
-      "version": 5,
-      "changeset": 86011875,
-      "user": "Jrachi",
-      "uid": 2976645,
-      "nodes": [6386183498, 5152011070],
-      "geometry": [
-        {"lat": 45.1650341, "lon": 7.0624173},
-        {"lat": 45.1650616, "lon": 7.0624626},
-        {"lat": 45.1650712, "lon": 7.0625134},
-        {"lat": 45.1651061, "lon": 7.0625963},
-        {"lat": 45.1651392, "lon": 7.0626962},
-        {"lat": 45.1651943, "lon": 7.0627929}
-      ],
-      "tags": {
-        "highway": "track",
-        "incline": "up",
-        "mtb:scale": "1",
-        "mtb:scale:uphill": "4",
-        "surface": "unpaved"
-      }
-    },
-    {
-      "type": "way",
       "id": 627889680,
       "timestamp": "2021-03-29T08:09:50Z",
       "version": 4,
@@ -48695,6 +48971,27 @@
         "name": "GTA / 529",
         "sac_scale": "mountain_hiking",
         "surface": "unpaved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 629581091,
+      "timestamp": "2018-10-01T16:58:59Z",
+      "version": 1,
+      "changeset": 63100744,
+      "user": "gianfox",
+      "uid": 1753173,
+      "nodes": [4213698486, 4213698487],
+      "geometry": [
+        {"lat": 45.6011279, "lon": 7.8824517},
+        {"lat": 45.6011447, "lon": 7.8822827},
+        {"lat": 45.6011222, "lon": 7.8821513},
+        {"lat": 45.6011051, "lon": 7.8820557}
+      ],
+      "tags": {
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "trail_visibility": "horrible"
       }
     },
     {
@@ -49684,6 +49981,27 @@
         "layer": "-1",
         "noname": "yes",
         "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 67337835,
+      "timestamp": "2019-07-15T10:58:52Z",
+      "version": 9,
+      "changeset": 72258821,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
+      "nodes": [813401007, 2185838925],
+      "geometry": [
+        {"lat": 45.8596807, "lon": 7.9356939},
+        {"lat": 45.8597, "lon": 7.9357531}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "name": "Grande Traversata delle Alpi",
+        "source": "pcn 2006",
+        "surface": "asphalt",
+        "wikipedia": "it:Grande Traversata delle Alpi"
       }
     },
     {
@@ -51181,21 +51499,6 @@
     },
     {
       "type": "way",
-      "id": 682524786,
-      "timestamp": "2019-04-08T20:00:01Z",
-      "version": 1,
-      "changeset": 69021123,
-      "user": "AlfredoSP",
-      "uid": 2175620,
-      "nodes": [1828301866, 6391852348],
-      "geometry": [
-        {"lat": 45.6721022, "lon": 7.9818897},
-        {"lat": 45.6719791, "lon": 7.9819789}
-      ],
-      "tags": {"highway": "secondary", "ref": "SP513"}
-    },
-    {
-      "type": "way",
       "id": 682525243,
       "timestamp": "2019-06-30T20:06:31Z",
       "version": 2,
@@ -51757,7 +52060,7 @@
       "timestamp": "2021-02-13T15:57:23Z",
       "version": 6,
       "changeset": 99218905,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [303968374, 2069404602],
       "geometry": [
@@ -54226,6 +54529,29 @@
     },
     {
       "type": "way",
+      "id": 745623910,
+      "timestamp": "2019-11-15T08:30:03Z",
+      "version": 1,
+      "changeset": 77112465,
+      "user": "Marco Barbieri70",
+      "uid": 271894,
+      "nodes": [4804003606, 4598090148],
+      "geometry": [
+        {"lat": 45.5320278, "lon": 7.7106226},
+        {"lat": 45.5319052, "lon": 7.7105399},
+        {"lat": 45.5316601, "lon": 7.7104453}
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "track",
+        "motor_vehicle": "private",
+        "smoothness": "bad",
+        "surface": "compacted",
+        "tracktype": "grade2"
+      }
+    },
+    {
+      "type": "way",
       "id": 75077870,
       "timestamp": "2020-06-26T09:47:19Z",
       "version": 6,
@@ -55019,6 +55345,21 @@
         "sac_scale": "hiking",
         "trail_visibility": "good"
       }
+    },
+    {
+      "type": "way",
+      "id": 770864919,
+      "timestamp": "2020-02-08T14:59:21Z",
+      "version": 1,
+      "changeset": 80725551,
+      "user": "Jrachi",
+      "uid": 2976645,
+      "nodes": [1688988511, 3375272603],
+      "geometry": [
+        {"lat": 45.1649761, "lon": 7.0618689},
+        {"lat": 45.1649779, "lon": 7.0617592}
+      ],
+      "tags": {"highway": "track", "tracktype": "grade2"}
     },
     {
       "type": "way",
@@ -56405,7 +56746,7 @@
       "timestamp": "2021-02-13T15:57:23Z",
       "version": 2,
       "changeset": 99218905,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [7510332862, 1083295417],
       "geometry": [
@@ -56519,21 +56860,6 @@
         {"lat": 45.6716844, "lon": 7.9823216},
         {"lat": 45.6715972, "lon": 7.982395},
         {"lat": 45.6715434, "lon": 7.9824422}
-      ],
-      "tags": {"highway": "secondary", "ref": "SP513"}
-    },
-    {
-      "type": "way",
-      "id": 804924943,
-      "timestamp": "2020-05-17T15:03:19Z",
-      "version": 1,
-      "changeset": 85337795,
-      "user": "Jrachi",
-      "uid": 2976645,
-      "nodes": [1828301855, 1806528378],
-      "geometry": [
-        {"lat": 45.6699028, "lon": 7.985381},
-        {"lat": 45.6696877, "lon": 7.9855063}
       ],
       "tags": {"highway": "secondary", "ref": "SP513"}
     },
@@ -56733,31 +57059,6 @@
         "sac_scale": "mountain_hiking",
         "source": "gps",
         "trail_visibility": "intermediate"
-      }
-    },
-    {
-      "type": "way",
-      "id": 810243986,
-      "timestamp": "2021-05-24T12:43:12Z",
-      "version": 2,
-      "changeset": 105227158,
-      "user": "Martj9",
-      "uid": 675302,
-      "nodes": [3375272604, 6386183498],
-      "geometry": [
-        {"lat": 45.1647279, "lon": 7.0619779},
-        {"lat": 45.1646985, "lon": 7.0620781},
-        {"lat": 45.164883, "lon": 7.0624374},
-        {"lat": 45.1649712, "lon": 7.0624512},
-        {"lat": 45.1650341, "lon": 7.0624173}
-      ],
-      "tags": {
-        "highway": "path",
-        "incline": "up",
-        "mtb:scale": "1",
-        "mtb:scale:uphill": "4",
-        "sac_scale": "hiking",
-        "surface": "unpaved"
       }
     },
     {
@@ -57617,6 +57918,28 @@
     },
     {
       "type": "way",
+      "id": 819875919,
+      "timestamp": "2020-06-26T14:52:10Z",
+      "version": 1,
+      "changeset": 87201182,
+      "user": "Jrachi",
+      "uid": 2976645,
+      "nodes": [1828509320, 1828509321],
+      "geometry": [
+        {"lat": 45.6310451, "lon": 7.97986},
+        {"lat": 45.6310238, "lon": 7.9798726},
+        {"lat": 45.6309513, "lon": 7.9798695}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "maxspeed": "30",
+        "name": "Strada alla Galleria di Rosazza",
+        "ref": "SP513",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
       "id": 819878662,
       "timestamp": "2020-06-26T15:01:11Z",
       "version": 1,
@@ -58238,6 +58561,21 @@
         "surface": "gravel",
         "tracktype": "grade3"
       }
+    },
+    {
+      "type": "way",
+      "id": 825748141,
+      "timestamp": "2020-07-13T08:16:43Z",
+      "version": 1,
+      "changeset": 87909171,
+      "user": "Marco Barbieri70",
+      "uid": 271894,
+      "nodes": [7667068208, 1876627935],
+      "geometry": [
+        {"lat": 45.6896025, "lon": 7.9527869},
+        {"lat": 45.6895704, "lon": 7.9528387}
+      ],
+      "tags": {"highway": "footway", "surface": "cobblestone"}
     },
     {
       "type": "way",
@@ -59242,25 +59580,6 @@
     },
     {
       "type": "way",
-      "id": 876240629,
-      "timestamp": "2020-11-23T17:20:26Z",
-      "version": 1,
-      "changeset": 94651957,
-      "user": "popilen",
-      "uid": 2212883,
-      "nodes": [8155340325, 2187350920],
-      "geometry": [
-        {"lat": 45.8807576, "lon": 7.9633937},
-        {"lat": 45.8801648, "lon": 7.9632112},
-        {"lat": 45.8795013, "lon": 7.9632112},
-        {"lat": 45.878885, "lon": 7.9631977},
-        {"lat": 45.8779392, "lon": 7.9633126},
-        {"lat": 45.8776263, "lon": 7.9633145}
-      ],
-      "tags": {"source": "pcn 2006+gps", "waterway": "stream"}
-    },
-    {
-      "type": "way",
       "id": 879640398,
       "timestamp": "2020-12-01T10:09:25Z",
       "version": 1,
@@ -60145,7 +60464,7 @@
       "timestamp": "2021-02-13T15:57:23Z",
       "version": 11,
       "changeset": 99218905,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [1083295417, 303968388],
       "geometry": [
@@ -60166,7 +60485,7 @@
       "timestamp": "2021-02-13T15:57:23Z",
       "version": 10,
       "changeset": 99218905,
-      "user": "canfe",
+      "user": "Ferruccio Cantone",
       "uid": 6645382,
       "nodes": [1083295414, 7510332862],
       "geometry": [
@@ -60640,6 +60959,22 @@
         "surface": "gravel",
         "tracktype": "grade3"
       }
+    },
+    {
+      "type": "way",
+      "id": 961720296,
+      "timestamp": "2021-07-05T21:34:39Z",
+      "version": 1,
+      "changeset": 107460997,
+      "user": "Hillhome",
+      "uid": 76164,
+      "nodes": [7651931939, 295956749],
+      "geometry": [
+        {"lat": 45.6298964, "lon": 7.976875},
+        {"lat": 45.6298985, "lon": 7.9768175},
+        {"lat": 45.6298407, "lon": 7.9765915}
+      ],
+      "tags": {"highway": "secondary", "name": "Strada alla Teleferica"}
     },
     {
       "type": "way",

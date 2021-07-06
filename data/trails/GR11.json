@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-05T02:25:43Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-06T02:28:24Z"},
   "elements": [
     {
       "type": "relation",
@@ -17997,11 +17997,11 @@
     {
       "type": "way",
       "id": 190399480,
-      "timestamp": "2012-11-12T10:19:42Z",
-      "version": 1,
-      "changeset": 13844658,
-      "user": "EliziR",
-      "uid": 605366,
+      "timestamp": "2021-07-05T12:55:43Z",
+      "version": 3,
+      "changeset": 107439612,
+      "user": "schulzpin",
+      "uid": 169995,
       "nodes": [2010349093, 2010349329],
       "geometry": [
         {"lat": 42.4438441, "lon": 1.9048944, "z": 1204.3},
@@ -18009,7 +18009,12 @@
         {"lat": 42.4444736, "lon": 1.9041465, "z": 1212},
         {"lat": 42.4446068, "lon": 1.9035479, "z": 1215.4}
       ],
-      "tags": {"highway": "residential", "name": "Avinguda del President Macià"}
+      "tags": {
+        "highway": "residential",
+        "name": "Avinguda del President Macià",
+        "sidewalk": "left",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -18064,20 +18069,22 @@
     {
       "type": "way",
       "id": 190399537,
-      "timestamp": "2019-08-27T16:15:26Z",
-      "version": 3,
-      "changeset": 73806087,
-      "user": "yopaseopor",
-      "uid": 500572,
+      "timestamp": "2021-07-05T12:57:30Z",
+      "version": 5,
+      "changeset": 107439612,
+      "user": "schulzpin",
+      "uid": 169995,
       "nodes": [2010348988, 2010349053],
       "geometry": [
         {"lat": 42.4435137, "lon": 1.9052151, "z": 1201.5},
         {"lat": 42.4437246, "lon": 1.9050103, "z": 1203.2}
       ],
       "tags": {
+        "cycleway:right": "no",
         "highway": "tertiary_link",
         "name": "Avinguda del President Macià",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -22066,20 +22073,22 @@
     {
       "type": "way",
       "id": 228940563,
-      "timestamp": "2019-08-27T16:15:26Z",
-      "version": 2,
-      "changeset": 73806087,
-      "user": "yopaseopor",
-      "uid": 500572,
+      "timestamp": "2021-07-05T12:57:05Z",
+      "version": 4,
+      "changeset": 107439612,
+      "user": "schulzpin",
+      "uid": 169995,
       "nodes": [2010349053, 2010349093],
       "geometry": [
         {"lat": 42.4437246, "lon": 1.9050103, "z": 1203.2},
         {"lat": 42.4438441, "lon": 1.9048944, "z": 1204.3}
       ],
       "tags": {
+        "cycleway:right": "no",
         "highway": "tertiary_link",
         "name": "Avinguda del President Macià",
-        "oneway": "yes"
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -71765,9 +71774,9 @@
     {
       "type": "way",
       "id": 86351377,
-      "timestamp": "2021-02-25T13:46:42Z",
-      "version": 4,
-      "changeset": 99976220,
+      "timestamp": "2021-07-05T13:15:01Z",
+      "version": 5,
+      "changeset": 107441180,
       "user": "schulzpin",
       "uid": 169995,
       "nodes": [252847392, 1003111933],
@@ -71782,6 +71791,7 @@
       "tags": {
         "highway": "residential",
         "name": "Carrer de la Vall",
+        "sidewalk": "none",
         "surface": "asphalt"
       }
     },
