@@ -4002,13 +4002,14 @@
         "@poi": "water_drinking-water",
         "@distance": 34.2,
         "@id": "n473892229",
-        "@changeset": 41497503,
-        "@timestamp": "2016-08-16T19:37:04Z",
-        "@version": 4,
+        "@changeset": 107508429,
+        "@timestamp": "2021-07-06T16:08:56Z",
+        "@version": 5,
         "@uid": 863649,
         "@user": "Uranzu",
         "amenity": "drinking_water",
-        "name": "Trampa"
+        "name": "Trampa",
+        "natural": "spring"
       },
       "geometry": {
         "type": "Point",
@@ -23308,27 +23309,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 830.5,
-        "@id": "n3452361595",
-        "@changeset": 30170184,
-        "@timestamp": "2015-04-12T18:51:15Z",
-        "@version": 1,
-        "@uid": 548834,
-        "@user": "dr_grijando",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.5400336,
-          43.1454766
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 8051.6,
         "@id": "n4054671230",
@@ -26294,6 +26274,27 @@
         "coordinates": [
           2.9530811,
           42.5309302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 830.5,
+        "@id": "n3452361595",
+        "@changeset": 30170184,
+        "@timestamp": "2015-04-12T18:51:15Z",
+        "@version": 1,
+        "@uid": 548834,
+        "@user": "dr_grijando",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5400336,
+          43.1454766
         ]
       }
     },
@@ -41920,47 +41921,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "alpine-hut",
-        "@distance": 107.7,
-        "@id": "w173110833",
-        "@changeset": 91377007,
-        "@timestamp": "2020-09-23T15:22:06Z",
-        "@version": 9,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
-        "building": "yes",
-        "capacity": 40,
-        "drinking_water": "yes",
-        "ele": 2240,
-        "email": "certascan.refugi@feec.cat",
-        "fee": "yes",
-        "name": "Refugi de Certascan",
-        "name:fr": "Refuge de Certascan",
-        "operator": "Federacio d'Entitats Excursionistes de Catalunya",
-        "phone": "+34 973092315",
-        "phone:mobile": "+34 647961946",
-        "reservation": "recommended",
-        "shower": "yes",
-        "start_date": "25/09/1988",
-        "toilets": "yes",
-        "tourism": "alpine_hut",
-        "website": "http://www.refugicertascan.cat",
-        "wikidata": "Q11945076",
-        "wikipedia": "ca:Refugi de Certascan",
-        "winter_room": "20"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.3064563,
-          42.7038842
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 178.6,
         "@id": "n7837399499",
@@ -42888,6 +42848,47 @@
         "coordinates": [
           -1.7953704,
           43.367012
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "alpine-hut",
+        "@distance": 107.7,
+        "@id": "w173110833",
+        "@changeset": 91377007,
+        "@timestamp": "2020-09-23T15:22:06Z",
+        "@version": 9,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "building": "yes",
+        "capacity": 40,
+        "drinking_water": "yes",
+        "ele": 2240,
+        "email": "certascan.refugi@feec.cat",
+        "fee": "yes",
+        "name": "Refugi de Certascan",
+        "name:fr": "Refuge de Certascan",
+        "operator": "Federacio d'Entitats Excursionistes de Catalunya",
+        "phone": "+34 973092315",
+        "phone:mobile": "+34 647961946",
+        "reservation": "recommended",
+        "shower": "yes",
+        "start_date": "25/09/1988",
+        "toilets": "yes",
+        "tourism": "alpine_hut",
+        "website": "http://www.refugicertascan.cat",
+        "wikidata": "Q11945076",
+        "wikipedia": "ca:Refugi de Certascan",
+        "winter_room": "20"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3064563,
+          42.7038842
         ]
       }
     },

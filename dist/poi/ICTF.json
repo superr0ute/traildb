@@ -821,17 +821,19 @@
         "@poi": "shelter_shelter",
         "@distance": 36.9,
         "@id": "n821277090",
-        "@changeset": 64421316,
-        "@timestamp": "2018-11-12T21:01:31Z",
-        "@version": 2,
+        "@changeset": 107497812,
+        "@timestamp": "2021-07-06T12:34:58Z",
+        "@version": 3,
         "@uid": 47882,
         "@user": "Javier Sanchez",
         "amenity": "shelter",
+        "bench": "yes",
         "covered": "yes",
+        "drinking_water": "yes",
         "ele": 1256,
         "fireplace": "no",
-        "leisure": "picnic_table",
         "name": "Las Canales",
+        "picnic_table": "yes",
         "shelter_type": "picnic_shelter",
         "tourism": "picnic_site"
       },
@@ -1756,12 +1758,12 @@
         "@poi": "foodshop_supermarket",
         "@distance": 4313.6,
         "@id": "n863062438",
-        "@changeset": 23132489,
-        "@timestamp": "2014-06-24T22:28:06Z",
-        "@version": 2,
-        "@uid": 2064919,
-        "@user": "eo44",
-        "name": "Alteza",
+        "@changeset": 107507675,
+        "@timestamp": "2021-07-06T15:53:46Z",
+        "@version": 3,
+        "@uid": 5592573,
+        "@user": "ceever",
+        "name": "Hiperdino Express",
         "shop": "supermarket"
       },
       "geometry": {
@@ -1951,13 +1953,14 @@
         "@poi": "water_drinking-water",
         "@distance": 1209,
         "@id": "n1013120789",
-        "@changeset": 74848126,
-        "@timestamp": "2019-09-24T10:24:33Z",
-        "@version": 2,
-        "@uid": 9382746,
-        "@user": "JonasCz",
+        "@changeset": 107507675,
+        "@timestamp": "2021-07-06T15:53:51Z",
+        "@version": 3,
+        "@uid": 5592573,
+        "@user": "ceever",
         "access": "yes",
         "amenity": "drinking_water",
+        "description": "Still uf as o 2021. This a great place, even though no major hiking trail goes through here. Do not wash anything in the sink, since this is the drinking water. Take the water out and wash away from the spring. 👍",
         "fee": "no",
         "note": "Small hut with covered spring / pool where you can get water (for hiking). Water is piped from the surrounding Gallerias. OK as of Dec '18."
       },
@@ -3930,29 +3933,6 @@
         "coordinates": [
           -16.736877,
           28.0863119
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 4683,
-        "@id": "n1523074505",
-        "@changeset": 11696161,
-        "@timestamp": "2012-05-25T08:41:42Z",
-        "@version": 4,
-        "@uid": 338866,
-        "@user": "tiger",
-        "name": "HiperDino",
-        "opening_hours": "09:30-22:00",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -16.7392994,
-          28.0911796
         ]
       }
     },
@@ -6927,31 +6907,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
-        "@distance": 5006,
-        "@id": "n6653090115",
-        "@changeset": 86285861,
-        "@timestamp": "2020-06-06T17:19:18Z",
-        "@version": 3,
-        "@uid": 3392826,
-        "@user": "Hugoren Martinako",
-        "brand": "Spar",
-        "brand:wikidata": "Q610492",
-        "brand:wikipedia": "en:Spar (retailer)",
-        "name": "Spar",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -16.7443296,
-          28.0941445
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
         "@distance": 4471.4,
         "@id": "n6752424087",
         "@changeset": 73826175,
@@ -6971,6 +6926,30 @@
         "coordinates": [
           -16.7301563,
           28.0811698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 1588.9,
+        "@id": "n6907334919",
+        "@changeset": 82654116,
+        "@timestamp": "2020-03-26T10:16:37Z",
+        "@version": 2,
+        "@uid": 2904,
+        "@user": "Emilio Gomez",
+        "ele": 2221,
+        "name": "Montaña Bermeja",
+        "natural": "peak",
+        "wikidata": "Q23987844"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.5582177,
+          28.2361981
         ]
       }
     },
@@ -7950,30 +7929,6 @@
         "coordinates": [
           -16.3766722,
           28.330704
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 1588.9,
-        "@id": "n6907334919",
-        "@changeset": 82654116,
-        "@timestamp": "2020-03-26T10:16:37Z",
-        "@version": 2,
-        "@uid": 2904,
-        "@user": "Emilio Gomez",
-        "ele": 2221,
-        "name": "Montaña Bermeja",
-        "natural": "peak",
-        "wikidata": "Q23987844"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -16.5582177,
-          28.2361981
         ]
       }
     },
