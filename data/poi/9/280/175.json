@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-07-05T23:59:59Z",
-    "timestamp_osm_base": "2021-07-06T04:42:42Z",
+    "timestamp_osm_date": "2021-07-06T23:59:59Z",
+    "timestamp_osm_base": "2021-07-07T04:46:17Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1569,12 +1569,14 @@
       "id": 951471964,
       "lat": 49.1570696,
       "lon": 17.1470932,
-      "timestamp": "2010-10-16T12:17:31Z",
-      "version": 1,
-      "changeset": 6057068,
-      "user": "honny",
-      "uid": 54223,
+      "timestamp": "2021-07-06T23:01:10Z",
+      "version": 2,
+      "changeset": 107524352,
+      "user": "poiuztr",
+      "uid": 13704503,
       "tags": {
+        "drinking_water": "yes",
+        "drinking_water:legal": "yes",
         "natural": "spring",
         "source": "survey"
       }
@@ -14711,6 +14713,23 @@
       }
     },
     {
+      "type": "node",
+      "id": 8897293142,
+      "lat": 49.2821804,
+      "lon": 17.0016324,
+      "timestamp": "2021-07-06T07:22:30Z",
+      "version": 1,
+      "changeset": 107477313,
+      "user": "Richard Janda",
+      "uid": 4054181,
+      "tags": {
+        "brand": "Hruška",
+        "brand:wikidata": "Q58196374",
+        "name": "Hruška",
+        "shop": "supermarket"
+      }
+    },
+    {
       "type": "way",
       "id": 28900783,
       "timestamp": "2019-10-24T09:14:53Z",
@@ -17398,6 +17417,28 @@
         "building": "transportation",
         "building:ruian:type": "17",
         "ref:ruian:building": "43610200",
+        "shelter_type": "public_transport",
+        "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "way",
+      "id": 548326214,
+      "timestamp": "2021-07-06T07:22:30Z",
+      "version": 2,
+      "changeset": 107477313,
+      "user": "Richard Janda",
+      "uid": 4054181,
+      "center": {
+        "lat": 49.2905406,
+        "lon": 17.010323
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "building:ruian:type": "17",
+        "ref:ruian:building": "45891613",
         "shelter_type": "public_transport",
         "source": "cuzk:ruian"
       }
