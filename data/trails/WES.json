@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-04T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-06T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -657,9 +657,9 @@
     {
       "type": "relation",
       "id": 48073,
-      "timestamp": "2021-07-04T09:40:24Z",
-      "version": 373,
-      "changeset": 107382463,
+      "timestamp": "2021-07-06T12:41:25Z",
+      "version": 374,
+      "changeset": 107498135,
       "user": "wuff57",
       "uid": 2583033,
       "members": [
@@ -786,6 +786,7 @@
         {"type": "way", "ref": 28934242, "role": ""},
         {"type": "way", "ref": 27498009, "role": ""},
         {"type": "way", "ref": 58663548, "role": ""},
+        {"type": "way", "ref": 961930588, "role": ""},
         {"type": "way", "ref": 58663540, "role": ""},
         {"type": "way", "ref": 6144036, "role": ""},
         {"type": "way", "ref": 58663539, "role": ""},
@@ -2150,12 +2151,38 @@
     {
       "type": "relation",
       "id": 905950,
-      "timestamp": "2021-03-21T13:04:49Z",
-      "version": 31,
-      "changeset": 101438377,
-      "user": "Karthoo",
-      "uid": 3232636,
+      "timestamp": "2021-07-06T06:46:16Z",
+      "version": 32,
+      "changeset": 107475026,
+      "user": "Ze0zohk1",
+      "uid": 4565074,
       "members": [
+        {"type": "node", "ref": 387503112, "role": "night_stop"},
+        {"type": "node", "ref": 3035714928, "role": "join:4"},
+        {"type": "node", "ref": 727717541, "role": "guidepost"},
+        {"type": "node", "ref": 727717224, "role": "guidepost"},
+        {"type": "node", "ref": 727776902, "role": "guidepost"},
+        {"type": "node", "ref": 727776756, "role": "guidepost"},
+        {"type": "node", "ref": 727776954, "role": "guidepost"},
+        {"type": "node", "ref": 727776682, "role": "guidepost"},
+        {"type": "node", "ref": 727776989, "role": "guidepost"},
+        {"type": "node", "ref": 727776792, "role": "guidepost"},
+        {"type": "node", "ref": 727776810, "role": "guidepost"},
+        {"type": "node", "ref": 727776740, "role": "guidepost"},
+        {"type": "node", "ref": 727776878, "role": "guidepost"},
+        {"type": "node", "ref": 727776734, "role": "water"},
+        {"type": "node", "ref": 727776897, "role": "water"},
+        {"type": "node", "ref": 1361022000, "role": "guidepost"},
+        {"type": "node", "ref": 727776753, "role": "shelter"},
+        {"type": "node", "ref": 727776765, "role": "guidepost"},
+        {"type": "node", "ref": 727816287, "role": "guidepost"},
+        {"type": "node", "ref": 727816328, "role": "guidepost"},
+        {"type": "node", "ref": 727816285, "role": "guidepost"},
+        {"type": "node", "ref": 727816304, "role": "guidepost"},
+        {"type": "node", "ref": 727816300, "role": "guidepost"},
+        {"type": "node", "ref": 727816227, "role": "guidepost"},
+        {"type": "node", "ref": 727829584, "role": "guidepost"},
+        {"type": "node", "ref": 727816366, "role": "join:6"},
         {"type": "way", "ref": 24528950, "role": "first"},
         {"type": "way", "ref": 36134157, "role": ""},
         {"type": "way", "ref": 299569741, "role": ""},
@@ -2203,33 +2230,7 @@
         {"type": "way", "ref": 775614307, "role": "last"},
         {"type": "way", "ref": 241567576, "role": "shelter"},
         {"type": "way", "ref": 241567537, "role": "shelter"},
-        {"type": "node", "ref": 3035714928, "role": "join:4"},
-        {"type": "node", "ref": 387503112, "role": "night_stop"},
-        {"type": "node", "ref": 727717541, "role": "guidepost"},
-        {"type": "node", "ref": 727717224, "role": "guidepost"},
-        {"type": "node", "ref": 727776902, "role": "guidepost"},
-        {"type": "node", "ref": 727776756, "role": "guidepost"},
-        {"type": "node", "ref": 727776954, "role": "guidepost"},
-        {"type": "node", "ref": 727776682, "role": "guidepost"},
-        {"type": "node", "ref": 727776989, "role": "guidepost"},
-        {"type": "node", "ref": 727776792, "role": "guidepost"},
-        {"type": "node", "ref": 727776810, "role": "guidepost"},
-        {"type": "node", "ref": 727776740, "role": "guidepost"},
-        {"type": "node", "ref": 727776878, "role": "guidepost"},
-        {"type": "node", "ref": 727776734, "role": "water"},
-        {"type": "node", "ref": 727776897, "role": "water"},
-        {"type": "node", "ref": 1361022000, "role": "guidepost"},
-        {"type": "node", "ref": 727776753, "role": "shelter"},
-        {"type": "node", "ref": 727776765, "role": "guidepost"},
-        {"type": "node", "ref": 727816287, "role": "guidepost"},
-        {"type": "node", "ref": 727816328, "role": "guidepost"},
-        {"type": "node", "ref": 727816285, "role": "guidepost"},
-        {"type": "node", "ref": 727816304, "role": "guidepost"},
-        {"type": "node", "ref": 727816245, "role": "shelter"},
-        {"type": "node", "ref": 727816300, "role": "guidepost"},
-        {"type": "node", "ref": 727816227, "role": "guidepost"},
-        {"type": "node", "ref": 727829584, "role": "guidepost"},
-        {"type": "node", "ref": 727816366, "role": "join:6"}
+        {"type": "way", "ref": 293097970, "role": ""}
       ],
       "tags": {
         "description": "Alexanderschanze - Hark",
@@ -6477,11 +6478,11 @@
     {
       "type": "way",
       "id": 135877074,
-      "timestamp": "2018-07-06T18:11:09Z",
-      "version": 3,
-      "changeset": 60474292,
-      "user": "rurseekatze",
-      "uid": 81244,
+      "timestamp": "2021-07-06T13:12:12Z",
+      "version": 5,
+      "changeset": 107499603,
+      "user": "my__osm",
+      "uid": 8598252,
       "nodes": [1491465148, 1491465145],
       "geometry": [
         {"lat": 47.8990703, "lon": 8.1537986},
@@ -6493,7 +6494,9 @@
         "highway": "pedestrian",
         "layer": "1",
         "lcn": "yes",
+        "lit": "no",
         "name": "Seestraße",
+        "surface": "asphalt",
         "taxi": "yes",
         "vehicle:conditional": "delivery @ (08:00-12:00)"
       }
@@ -6501,11 +6504,11 @@
     {
       "type": "way",
       "id": 135877078,
-      "timestamp": "2020-12-28T15:04:41Z",
-      "version": 8,
-      "changeset": 96544299,
-      "user": "EinEngener",
-      "uid": 6654469,
+      "timestamp": "2021-07-06T13:12:22Z",
+      "version": 9,
+      "changeset": 107499581,
+      "user": "my__osm",
+      "uid": 8598252,
       "nodes": [1491465145, 4223416583],
       "geometry": [
         {"lat": 47.8990098, "lon": 8.1539218},
@@ -6520,6 +6523,7 @@
         "lcn": "yes",
         "lit": "yes",
         "name": "Seestraße",
+        "surface": "asphalt",
         "taxi": "yes",
         "vehicle:conditional": "delivery @ (08:00-12:00)"
       }
@@ -7860,11 +7864,11 @@
     {
       "type": "way",
       "id": 149258427,
-      "timestamp": "2020-09-07T20:55:20Z",
-      "version": 9,
-      "changeset": 90548676,
-      "user": "skyper",
-      "uid": 152744,
+      "timestamp": "2021-07-06T15:05:07Z",
+      "version": 10,
+      "changeset": 107504320,
+      "user": "my__osm",
+      "uid": 8598252,
       "nodes": [132113626, 708128160],
       "geometry": [
         {"lat": 47.9012062, "lon": 8.151708},
@@ -7884,6 +7888,7 @@
         "lanes:backward": "1",
         "lanes:forward": "1",
         "lcn": "yes",
+        "lit": "yes",
         "maxspeed": "40",
         "name": "Strandbadstraße",
         "ref": "K 4962",
@@ -10266,11 +10271,11 @@
     {
       "type": "way",
       "id": 185005808,
-      "timestamp": "2016-02-09T18:21:05Z",
-      "version": 2,
-      "changeset": 37107402,
-      "user": "MichaOSM",
-      "uid": 2030591,
+      "timestamp": "2021-07-06T15:10:45Z",
+      "version": 3,
+      "changeset": 107504320,
+      "user": "my__osm",
+      "uid": 8598252,
       "nodes": [1955826022, 519907885],
       "geometry": [
         {"lat": 47.8999587, "lon": 8.1477002},
@@ -10278,22 +10283,27 @@
         {"lat": 47.9000031, "lon": 8.1480126},
         {"lat": 47.9000273, "lon": 8.1480678}
       ],
-      "tags": {"highway": "footway", "surface": "paving_stones"}
+      "tags": {"highway": "footway", "lit": "no", "surface": "paving_stones"}
     },
     {
       "type": "way",
       "id": 185005809,
-      "timestamp": "2012-10-09T21:36:08Z",
-      "version": 1,
-      "changeset": 13433710,
-      "user": "Stefan Karl",
-      "uid": 101348,
+      "timestamp": "2021-07-06T15:10:35Z",
+      "version": 3,
+      "changeset": 107504320,
+      "user": "my__osm",
+      "uid": 8598252,
       "nodes": [519907885, 1955826023],
       "geometry": [
         {"lat": 47.9000273, "lon": 8.1480678},
         {"lat": 47.899998, "lon": 8.1483482}
       ],
-      "tags": {"highway": "footway", "surface": "paving_stones"}
+      "tags": {
+        "check_date:surface": "2021-07-06",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "paving_stones"
+      }
     },
     {
       "type": "way",
@@ -12687,11 +12697,11 @@
     {
       "type": "way",
       "id": 24057280,
-      "timestamp": "2018-07-06T18:11:09Z",
-      "version": 14,
-      "changeset": 60474292,
-      "user": "rurseekatze",
-      "uid": 81244,
+      "timestamp": "2021-07-06T14:47:07Z",
+      "version": 16,
+      "changeset": 107504320,
+      "user": "my__osm",
+      "uid": 8598252,
       "nodes": [132113626, 1491465148],
       "geometry": [
         {"lat": 47.9012062, "lon": 8.151708},
@@ -12712,7 +12722,9 @@
         "bicycle": "yes",
         "highway": "pedestrian",
         "lcn": "yes",
+        "lit": "yes",
         "name": "Seestraße",
+        "surface": "asphalt",
         "taxi": "yes",
         "vehicle:conditional": "delivery @ (08:00-12:00)"
       }
@@ -20721,6 +20733,35 @@
         "surface": "paved",
         "trail_visibility": "good",
         "width": "1.5"
+      }
+    },
+    {
+      "type": "way",
+      "id": 293097970,
+      "timestamp": "2021-07-06T11:51:28Z",
+      "version": 4,
+      "changeset": 107495252,
+      "user": "Ze0zohk1",
+      "uid": 4565074,
+      "nodes": [2966544699, 2966544699],
+      "geometry": [
+        {"lat": 48.4007197, "lon": 8.2239491},
+        {"lat": 48.4007407, "lon": 8.2239036},
+        {"lat": 48.4006831, "lon": 8.2238434},
+        {"lat": 48.4006621, "lon": 8.2238889},
+        {"lat": 48.4007197, "lon": 8.2239491}
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "shelter",
+        "building": "yes",
+        "capacity": "4",
+        "lockable": "yes",
+        "locked": "no",
+        "name": "Haaghütte",
+        "note": "Vielleicht access=permissive?",
+        "shelter_type": "basic_hut",
+        "surface": "wood"
       }
     },
     {
@@ -29119,11 +29160,11 @@
     {
       "type": "way",
       "id": 41956916,
-      "timestamp": "2021-06-24T15:06:13Z",
-      "version": 8,
-      "changeset": 106908304,
-      "user": "JannikK",
-      "uid": 10114379,
+      "timestamp": "2021-07-06T15:11:47Z",
+      "version": 9,
+      "changeset": 107504320,
+      "user": "my__osm",
+      "uid": 8598252,
       "nodes": [1955826023, 708128184],
       "geometry": [
         {"lat": 47.899998, "lon": 8.1483482},
@@ -29136,6 +29177,7 @@
       "tags": {
         "foot": "designated",
         "highway": "footway",
+        "lit": "yes",
         "surface": "compacted"
       }
     },
@@ -33007,11 +33049,11 @@
     {
       "type": "way",
       "id": 56473672,
-      "timestamp": "2021-06-02T18:29:14Z",
-      "version": 6,
-      "changeset": 105735148,
-      "user": "Mateusz Konieczny - bot account",
-      "uid": 3199858,
+      "timestamp": "2021-07-06T15:21:15Z",
+      "version": 7,
+      "changeset": 107504320,
+      "user": "my__osm",
+      "uid": 8598252,
       "nodes": [708128184, 708128160],
       "geometry": [
         {"lat": 47.8999696, "lon": 8.1503855},
@@ -33019,7 +33061,12 @@
         {"lat": 47.9008167, "lon": 8.1501254},
         {"lat": 47.9008464, "lon": 8.1501116}
       ],
-      "tags": {"foot": "designated", "highway": "footway", "surface": "gravel"}
+      "tags": {
+        "foot": "designated",
+        "highway": "footway",
+        "lit": "no",
+        "surface": "gravel"
+      }
     },
     {
       "type": "way",
@@ -34760,12 +34807,12 @@
     {
       "type": "way",
       "id": 58663548,
-      "timestamp": "2010-05-08T21:35:25Z",
-      "version": 2,
-      "changeset": 4643381,
-      "user": "Netzwolf",
-      "uid": 32786,
-      "nodes": [726837348, 301888067],
+      "timestamp": "2021-07-06T12:41:25Z",
+      "version": 3,
+      "changeset": 107498135,
+      "user": "wuff57",
+      "uid": 2583033,
+      "nodes": [726837348, 301888056],
       "geometry": [
         {"lat": 48.8443975, "lon": 8.5567665},
         {"lat": 48.8442615, "lon": 8.5566802},
@@ -34787,8 +34834,7 @@
         {"lat": 48.8421046, "lon": 8.5516516},
         {"lat": 48.8420425, "lon": 8.5515572},
         {"lat": 48.8419408, "lon": 8.5514714},
-        {"lat": 48.8417661, "lon": 8.5513799},
-        {"lat": 48.8416845, "lon": 8.5514105}
+        {"lat": 48.841767, "lon": 8.5513947}
       ],
       "tags": {
         "highway": "track",
@@ -39781,11 +39827,11 @@
     {
       "type": "way",
       "id": 58862290,
-      "timestamp": "2020-09-07T20:55:20Z",
-      "version": 7,
-      "changeset": 90548676,
-      "user": "skyper",
-      "uid": 152744,
+      "timestamp": "2021-07-06T15:07:21Z",
+      "version": 8,
+      "changeset": 107504320,
+      "user": "my__osm",
+      "uid": 8598252,
       "nodes": [708128160, 132113667],
       "geometry": [
         {"lat": 47.9008464, "lon": 8.1501116},
@@ -39798,6 +39844,7 @@
         "lanes:backward": "1",
         "lanes:forward": "1",
         "lcn": "yes",
+        "lit": "no",
         "maxspeed": "40",
         "name": "Strandbadstraße",
         "ref": "K 4962",
@@ -48697,6 +48744,26 @@
         {"lat": 48.8088333, "lon": 8.5336341}
       ],
       "tags": {"highway": "track", "surface": "ground", "tracktype": "grade3"}
+    },
+    {
+      "type": "way",
+      "id": 961930588,
+      "timestamp": "2021-07-06T12:41:25Z",
+      "version": 1,
+      "changeset": 107498135,
+      "user": "wuff57",
+      "uid": 2583033,
+      "nodes": [301888056, 301888067],
+      "geometry": [
+        {"lat": 48.841767, "lon": 8.5513947},
+        {"lat": 48.8416845, "lon": 8.5514105}
+      ],
+      "tags": {
+        "highway": "track",
+        "name": "Aussichtsweg",
+        "surface": "gravel",
+        "tracktype": "grade2"
+      }
     }
   ]
 }
