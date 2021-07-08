@@ -21275,29 +21275,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 347.3,
-        "@id": "w184158080",
-        "@changeset": 13360911,
-        "@timestamp": "2012-10-04T13:46:47Z",
-        "@version": 1,
-        "@uid": 227306,
-        "@user": "caminaspe",
-        "amenity": "shelter",
-        "name": "Cabane Neuve de Pescamou",
-        "source": "SIGPAC (Espagne)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.7468607,
-          42.9649843
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 97.4,
         "@id": "n2438089331",
@@ -24740,6 +24717,29 @@
         "coordinates": [
           -1.3644667,
           43.1909553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 347.3,
+        "@id": "w184158080",
+        "@changeset": 13360911,
+        "@timestamp": "2012-10-04T13:46:47Z",
+        "@version": 1,
+        "@uid": 227306,
+        "@user": "caminaspe",
+        "amenity": "shelter",
+        "name": "Cabane Neuve de Pescamou",
+        "source": "SIGPAC (Espagne)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7468607,
+          42.9649843
         ]
       }
     },
@@ -48833,56 +48833,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "campsite",
-        "@distance": 542.2,
-        "@id": "w170423070",
-        "@changeset": 105362490,
-        "@timestamp": "2021-05-26T13:51:17Z",
-        "@version": 6,
-        "@uid": 13117230,
-        "@user": "nellytenet",
-        "addr:city": "Sare",
-        "addr:street": "Quartier Lehenbizkai",
-        "email": "contact@lapetiterhune.com",
-        "name": "La Petite Rhune",
-        "phone": "+33 5 59 54 23 97",
-        "postal_code": "64310",
-        "tourism": "camp_site",
-        "website": "https://www.lapetiterhune.com/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.5873354,
-          43.3018751
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 1180.8,
-        "@id": "w170748855",
-        "@changeset": 12162567,
-        "@timestamp": "2012-07-09T14:00:35Z",
-        "@version": 1,
-        "@uid": 493192,
-        "@user": "Santi2222",
-        "name": "Aire Goyenetche",
-        "tourism": "camp_site"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.580225,
-          43.2899176
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
         "@distance": 159.4,
         "@id": "w202803243",
         "@changeset": 90489535,
@@ -49409,36 +49359,6 @@
         "coordinates": [
           1.1203447,
           42.8305022
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 168.6,
-        "@id": "w434539811",
-        "@changeset": 91365841,
-        "@timestamp": "2020-09-23T12:09:34Z",
-        "@version": 3,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "building": "yes",
-        "description": "2020-07 : - 6 lits superposés au rez de chaussée mais seulement 4 matelas disponibles. Plancher en bois au 1er étage (8 places). - Poêle au tirage médiocre.",
-        "ele": 1550,
-        "fireplace": "yes",
-        "name": "Cabane d'Aula",
-        "note": "37",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
-        "stove": "yes",
-        "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/3876/cabane-non-gardee/Couserans/Cabane-d-Aula/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.1075134,
-          42.7836801
         ]
       }
     },
@@ -50171,6 +50091,56 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "campsite",
+        "@distance": 542.2,
+        "@id": "w170423070",
+        "@changeset": 105362490,
+        "@timestamp": "2021-05-26T13:51:17Z",
+        "@version": 6,
+        "@uid": 13117230,
+        "@user": "nellytenet",
+        "addr:city": "Sare",
+        "addr:street": "Quartier Lehenbizkai",
+        "email": "contact@lapetiterhune.com",
+        "name": "La Petite Rhune",
+        "phone": "+33 5 59 54 23 97",
+        "postal_code": "64310",
+        "tourism": "camp_site",
+        "website": "https://www.lapetiterhune.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5873354,
+          43.3018751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 1180.8,
+        "@id": "w170748855",
+        "@changeset": 12162567,
+        "@timestamp": "2012-07-09T14:00:35Z",
+        "@version": 1,
+        "@uid": 493192,
+        "@user": "Santi2222",
+        "name": "Aire Goyenetche",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.580225,
+          43.2899176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 1359.6,
         "@id": "w206726037",
@@ -50681,6 +50651,36 @@
         "coordinates": [
           -1.6264492,
           43.3267347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 168.6,
+        "@id": "w434539811",
+        "@changeset": 91365841,
+        "@timestamp": "2020-09-23T12:09:34Z",
+        "@version": 3,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "building": "yes",
+        "description": "2020-07 : - 6 lits superposés au rez de chaussée mais seulement 4 matelas disponibles. Plancher en bois au 1er étage (8 places). - Poêle au tirage médiocre.",
+        "ele": 1550,
+        "fireplace": "yes",
+        "name": "Cabane d'Aula",
+        "note": "37",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "stove": "yes",
+        "tourism": "wilderness_hut",
+        "website": "https://www.refuges.info/point/3876/cabane-non-gardee/Couserans/Cabane-d-Aula/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1075134,
+          42.7836801
         ]
       }
     },

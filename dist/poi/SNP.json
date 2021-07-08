@@ -15804,13 +15804,14 @@
         "@poi": "shelter_shelter",
         "@distance": 2784.8,
         "@id": "n1606823963",
-        "@changeset": 70946807,
-        "@timestamp": "2019-06-05T07:46:50Z",
-        "@version": 3,
-        "@uid": 498648,
-        "@user": "tkk",
+        "@changeset": 107590049,
+        "@timestamp": "2021-07-07T21:26:59Z",
+        "@version": 4,
+        "@uid": 461574,
+        "@user": "Mar4s",
         "amenity": "shelter",
         "fireplace": "yes",
+        "note": "Dá se zde přespat",
         "shelter_type": "weather_shelter",
         "source": "survey"
       },
@@ -23002,13 +23003,13 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_convenience",
-        "@distance": 3804,
+        "@distance": 3806.6,
         "@id": "n691083874",
-        "@changeset": 15920662,
-        "@timestamp": "2013-04-30T12:50:10Z",
-        "@version": 4,
-        "@uid": 70938,
-        "@user": "isidor",
+        "@changeset": 107568084,
+        "@timestamp": "2021-07-07T13:34:42Z",
+        "@version": 5,
+        "@uid": 13716010,
+        "@user": "Matus Bjako",
         "name": "Biopotraviny",
         "shop": "convenience",
         "source": "local knowledge"
@@ -23016,8 +23017,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.2597897,
-          48.7198934
+          21.2599949,
+          48.7199509
         ]
       }
     },
@@ -50725,27 +50726,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_cave",
-        "@distance": 3058.2,
-        "@id": "n4079867409",
-        "@changeset": 38081890,
-        "@timestamp": "2016-03-26T12:48:10Z",
-        "@version": 1,
-        "@uid": 477858,
-        "@user": "georgo21",
-        "natural": "cave_entrance"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.4297533,
-          48.9839538
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 7597.6,
         "@id": "n6758732748",
@@ -58336,26 +58316,27 @@
         "@poi": "alpine-hut",
         "@distance": 177.4,
         "@id": "w159314805",
-        "@changeset": 88945623,
-        "@timestamp": "2020-08-04T19:37:50Z",
-        "@version": 4,
-        "@uid": 379917,
-        "@user": "Tombo",
-        "alt_name": "Horská chata Vyškovec",
+        "@changeset": 107590049,
+        "@timestamp": "2021-07-07T21:26:59Z",
+        "@version": 5,
+        "@uid": 461574,
+        "@user": "Mar4s",
         "amenity": "restaurant",
         "building": "civic",
+        "building:levels": "1",
         "building:ruian:type": "15",
         "name": "Horská chata Vyškovec",
         "outdoor_seating": "yes",
         "ref:ruian:building": "47894679",
         "source": "cuzk:ruian",
+        "start_date": "2010-12-22",
         "tourism": "alpine_hut"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.8330171,
-          48.9428361
+          17.8330212,
+          48.9428357
         ]
       }
     },
@@ -58593,31 +58574,6 @@
         "coordinates": [
           17.9788396,
           48.972325
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 4049.8,
-        "@id": "w441381323",
-        "@changeset": 82224227,
-        "@timestamp": "2020-03-15T18:08:07Z",
-        "@version": 3,
-        "@uid": 463033,
-        "@user": "synalik",
-        "building": "retail",
-        "building:levels": "2",
-        "name": "Lidl",
-        "roof:shape": "pitched",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.1370306,
-          48.9415884
         ]
       }
     },
@@ -59926,6 +59882,27 @@
         "coordinates": [
           18.1385134,
           48.9107629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_cave",
+        "@distance": 3058.2,
+        "@id": "n4079867409",
+        "@changeset": 38081890,
+        "@timestamp": "2016-03-26T12:48:10Z",
+        "@version": 1,
+        "@uid": 477858,
+        "@user": "georgo21",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4297533,
+          48.9839538
         ]
       }
     },
@@ -66984,6 +66961,31 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
+        "@distance": 4049.8,
+        "@id": "w441381323",
+        "@changeset": 82224227,
+        "@timestamp": "2020-03-15T18:08:07Z",
+        "@version": 3,
+        "@uid": 463033,
+        "@user": "synalik",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "Lidl",
+        "roof:shape": "pitched",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1370306,
+          48.9415884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
         "@distance": 8478,
         "@id": "w547449519",
         "@changeset": 69634044,
@@ -67408,11 +67410,13 @@
         "@poi": "water_spring",
         "@distance": 194.8,
         "@id": "n6665121187",
-        "@changeset": 100860096,
-        "@timestamp": "2021-03-11T19:02:38Z",
-        "@version": 2,
-        "@uid": 513818,
-        "@user": "radokado",
+        "@changeset": 107590049,
+        "@timestamp": "2021-07-07T21:26:59Z",
+        "@version": 3,
+        "@uid": 461574,
+        "@user": "Mar4s",
+        "drinking_water": "yes",
+        "name": "Na Čapci",
         "natural": "spring"
       },
       "geometry": {
