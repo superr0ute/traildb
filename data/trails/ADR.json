@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-07T02:25:22Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-08T02:25:24Z"},
   "elements": [
     {
       "type": "relation",
@@ -14221,17 +14221,22 @@
     {
       "type": "way",
       "id": 37488883,
-      "timestamp": "2016-06-23T20:31:28Z",
-      "version": 5,
-      "changeset": 40244576,
-      "user": "ReinerMeyer",
-      "uid": 111529,
+      "timestamp": "2021-07-07T19:37:43Z",
+      "version": 7,
+      "changeset": 107585818,
+      "user": "aronkvh",
+      "uid": 12411427,
       "nodes": [288035662, 902332755],
       "geometry": [
         {"lat": 44.8171564, "lon": 13.8952451, "z": 0.6},
         {"lat": 44.8172733, "lon": 13.8952339, "z": 0.3}
       ],
-      "tags": {"bicycle": "yes", "highway": "footway"}
+      "tags": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "lit": "no",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -25970,11 +25975,11 @@
     {
       "type": "way",
       "id": 864860533,
-      "timestamp": "2020-10-29T02:05:58Z",
-      "version": 2,
-      "changeset": 93206551,
-      "user": "simulator1",
-      "uid": 7595534,
+      "timestamp": "2021-07-07T19:37:44Z",
+      "version": 4,
+      "changeset": 107586505,
+      "user": "aronkvh",
+      "uid": 12411427,
       "nodes": [288035662, 903731887],
       "geometry": [
         {"lat": 44.8171564, "lon": 13.8952451, "z": 0.6},
@@ -25984,7 +25989,12 @@
         {"lat": 44.8165943, "lon": 13.8975759, "z": 4},
         {"lat": 44.8164768, "lon": 13.8979072, "z": 4.6}
       ],
-      "tags": {"highway": "secondary", "ref": "5136"}
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "ref": "5136",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",

@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-06T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-07T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1558,11 +1558,11 @@
     {
       "type": "relation",
       "id": 7690503,
-      "timestamp": "2021-03-11T09:42:16Z",
-      "version": 12,
-      "changeset": 100831487,
-      "user": "Andrea Del Sarto",
-      "uid": 3215770,
+      "timestamp": "2021-07-07T21:18:55Z",
+      "version": 13,
+      "changeset": 107589865,
+      "user": "hindair",
+      "uid": 225057,
       "members": [
         {"type": "way", "ref": 536586736, "role": ""},
         {"type": "way", "ref": 786324653, "role": ""},
@@ -1582,9 +1582,11 @@
         {"type": "way", "ref": 447975261, "role": ""},
         {"type": "way", "ref": 447975242, "role": ""},
         {"type": "way", "ref": 447975256, "role": ""},
-        {"type": "way", "ref": 289215605, "role": ""},
-        {"type": "way", "ref": 428917138, "role": ""},
         {"type": "way", "ref": 428917046, "role": ""},
+        {"type": "way", "ref": 428917138, "role": ""},
+        {"type": "way", "ref": 962384797, "role": ""},
+        {"type": "way", "ref": 962384798, "role": ""},
+        {"type": "way", "ref": 289215605, "role": ""},
         {"type": "way", "ref": 289215603, "role": ""},
         {"type": "way", "ref": 165378712, "role": ""},
         {"type": "way", "ref": 165378689, "role": ""},
@@ -36343,21 +36345,13 @@
     {
       "type": "way",
       "id": 289215605,
-      "timestamp": "2016-10-16T11:48:14Z",
-      "version": 4,
-      "changeset": 42934123,
-      "user": "Alecs01",
-      "uid": 1476146,
-      "nodes": [1769293353, 1769307091],
+      "timestamp": "2021-07-07T21:18:55Z",
+      "version": 5,
+      "changeset": 107589865,
+      "user": "hindair",
+      "uid": 225057,
+      "nodes": [1712355051, 1769307091],
       "geometry": [
-        {"lat": 46.0053681, "lon": 8.7912888},
-        {"lat": 46.0052548, "lon": 8.7916755},
-        {"lat": 46.005191, "lon": 8.7918948},
-        {"lat": 46.0052516, "lon": 8.7919299},
-        {"lat": 46.0055675, "lon": 8.7921213},
-        {"lat": 46.0056856, "lon": 8.7921824},
-        {"lat": 46.0057269, "lon": 8.7921992},
-        {"lat": 46.0057441, "lon": 8.7921992},
         {"lat": 46.0058342, "lon": 8.7922721},
         {"lat": 46.0059201, "lon": 8.792252},
         {"lat": 46.0059472, "lon": 8.7922312},
@@ -98712,6 +98706,54 @@
         "sac_scale": "mountain_hiking",
         "surface": "earth",
         "width": "0"
+      }
+    },
+    {
+      "type": "way",
+      "id": 962384797,
+      "timestamp": "2021-07-07T21:18:55Z",
+      "version": 1,
+      "changeset": 107589865,
+      "user": "hindair",
+      "uid": 225057,
+      "nodes": [1769293351, 1712355051],
+      "geometry": [
+        {"lat": 46.005191, "lon": 8.7918948},
+        {"lat": 46.0052516, "lon": 8.7919299},
+        {"lat": 46.0055675, "lon": 8.7921213},
+        {"lat": 46.0056856, "lon": 8.7921824},
+        {"lat": 46.0057269, "lon": 8.7921992},
+        {"lat": 46.0057441, "lon": 8.7921992},
+        {"lat": 46.0058342, "lon": 8.7922721}
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "path",
+        "name": "207-3V Muceno_Dumenza",
+        "sac_scale": "mountain_hiking",
+        "tracktype": "grade2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 962384798,
+      "timestamp": "2021-07-07T21:18:55Z",
+      "version": 1,
+      "changeset": 107589865,
+      "user": "hindair",
+      "uid": 225057,
+      "nodes": [1769293353, 1769293351],
+      "geometry": [
+        {"lat": 46.0053681, "lon": 8.7912888},
+        {"lat": 46.0052548, "lon": 8.7916755},
+        {"lat": 46.005191, "lon": 8.7918948}
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "path",
+        "name": "207-3V Muceno_Dumenza",
+        "sac_scale": "mountain_hiking",
+        "tracktype": "grade2"
       }
     },
     {
