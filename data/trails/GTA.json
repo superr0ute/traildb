@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-07T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-08T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -690,9 +690,9 @@
     {
       "type": "relation",
       "id": 3158370,
-      "timestamp": "2021-07-07T20:19:17Z",
-      "version": 22,
-      "changeset": 107588098,
+      "timestamp": "2021-07-08T17:29:34Z",
+      "version": 23,
+      "changeset": 107652275,
       "user": "Hillhome",
       "uid": 76164,
       "members": [
@@ -709,14 +709,16 @@
         {"type": "way", "ref": 942882482, "role": ""},
         {"type": "way", "ref": 942882481, "role": ""},
         {"type": "way", "ref": 219441053, "role": ""},
-        {"type": "way", "ref": 219441059, "role": ""},
-        {"type": "way", "ref": 219441508, "role": ""},
-        {"type": "way", "ref": 817799258, "role": ""},
-        {"type": "way", "ref": 817799257, "role": ""},
+        {"type": "way", "ref": 817796035, "role": ""},
+        {"type": "way", "ref": 817796036, "role": ""},
         {"type": "way", "ref": 817796040, "role": ""},
-        {"type": "way", "ref": 817796042, "role": ""},
-        {"type": "way", "ref": 817796047, "role": ""},
-        {"type": "way", "ref": 219441057, "role": ""}
+        {"type": "way", "ref": 817799257, "role": ""},
+        {"type": "way", "ref": 962668663, "role": ""},
+        {"type": "way", "ref": 962668664, "role": ""},
+        {"type": "way", "ref": 962668667, "role": ""},
+        {"type": "way", "ref": 962668666, "role": ""},
+        {"type": "way", "ref": 962668668, "role": ""},
+        {"type": "way", "ref": 817802993, "role": ""}
       ],
       "tags": {
         "from": "Campello Monti",
@@ -785,39 +787,47 @@
     {
       "type": "relation",
       "id": 3160202,
-      "timestamp": "2021-07-07T20:19:17Z",
-      "version": 17,
-      "changeset": 107588098,
+      "timestamp": "2021-07-08T17:29:34Z",
+      "version": 18,
+      "changeset": 107652275,
       "user": "Hillhome",
       "uid": 76164,
       "members": [
-        {"type": "way", "ref": 817792046, "role": ""},
-        {"type": "way", "ref": 817792047, "role": ""},
-        {"type": "way", "ref": 177977636, "role": ""},
-        {"type": "way", "ref": 943186645, "role": ""},
-        {"type": "way", "ref": 167184743, "role": ""},
-        {"type": "way", "ref": 219426961, "role": ""},
-        {"type": "way", "ref": 219426960, "role": ""},
-        {"type": "way", "ref": 943186646, "role": ""},
-        {"type": "way", "ref": 270575912, "role": ""},
-        {"type": "way", "ref": 534159149, "role": ""},
-        {"type": "way", "ref": 788109467, "role": ""},
-        {"type": "way", "ref": 788109465, "role": ""},
-        {"type": "way", "ref": 218691700, "role": ""},
-        {"type": "way", "ref": 200723481, "role": ""},
-        {"type": "way", "ref": 218691704, "role": ""},
-        {"type": "way", "ref": 682534933, "role": ""},
-        {"type": "way", "ref": 299917167, "role": ""},
-        {"type": "way", "ref": 299917169, "role": ""},
-        {"type": "way", "ref": 299917168, "role": ""},
-        {"type": "way", "ref": 299917170, "role": ""},
-        {"type": "way", "ref": 534159153, "role": ""},
-        {"type": "way", "ref": 302370987, "role": ""},
-        {"type": "way", "ref": 302370989, "role": ""},
-        {"type": "way", "ref": 218559465, "role": ""},
-        {"type": "way", "ref": 787883039, "role": ""},
-        {"type": "way", "ref": 787883038, "role": ""},
-        {"type": "way", "ref": 234824009, "role": ""}
+        {"type": "way", "ref": 817792050, "role": "main"},
+        {"type": "way", "ref": 817792049, "role": "main"},
+        {"type": "way", "ref": 817792048, "role": "main"},
+        {"type": "way", "ref": 962668661, "role": "main"},
+        {"type": "way", "ref": 817792047, "role": "main"},
+        {"type": "way", "ref": 177977636, "role": "main"},
+        {"type": "way", "ref": 943186645, "role": "main"},
+        {"type": "way", "ref": 167184743, "role": "main"},
+        {"type": "way", "ref": 219426961, "role": "main"},
+        {"type": "way", "ref": 219426960, "role": "main"},
+        {"type": "way", "ref": 943186646, "role": "main"},
+        {"type": "way", "ref": 270575912, "role": "main"},
+        {"type": "way", "ref": 534159149, "role": "main"},
+        {"type": "way", "ref": 788109467, "role": "main"},
+        {"type": "way", "ref": 788109465, "role": "main"},
+        {"type": "way", "ref": 218691700, "role": "main"},
+        {"type": "way", "ref": 200723481, "role": "main"},
+        {"type": "way", "ref": 218691704, "role": "main"},
+        {"type": "way", "ref": 682534933, "role": "main"},
+        {"type": "way", "ref": 299917167, "role": "main"},
+        {"type": "way", "ref": 299917169, "role": "main"},
+        {"type": "way", "ref": 299917168, "role": "main"},
+        {"type": "way", "ref": 299917170, "role": "main"},
+        {"type": "way", "ref": 534159153, "role": "main"},
+        {"type": "way", "ref": 302370987, "role": "main"},
+        {"type": "way", "ref": 302370989, "role": "main"},
+        {"type": "way", "ref": 218559465, "role": "main"},
+        {"type": "way", "ref": 787883039, "role": "main"},
+        {"type": "way", "ref": 787883038, "role": "main"},
+        {"type": "way", "ref": 234824009, "role": "main"},
+        {"type": "way", "ref": 962668660, "role": "alternative"},
+        {"type": "way", "ref": 962668659, "role": "alternative"},
+        {"type": "way", "ref": 218648201, "role": "alternative"},
+        {"type": "way", "ref": 534159152, "role": "alternative"},
+        {"type": "way", "ref": 218648199, "role": "alternative"}
       ],
       "tags": {
         "from": "Rimella",
@@ -24894,6 +24904,72 @@
     },
     {
       "type": "way",
+      "id": 218648199,
+      "timestamp": "2018-08-10T11:35:51Z",
+      "version": 2,
+      "changeset": 61532293,
+      "user": "popilen",
+      "uid": 2212883,
+      "nodes": [2278776900, 2278776785],
+      "geometry": [
+        {"lat": 45.9010032, "lon": 8.1586712},
+        {"lat": 45.900954, "lon": 8.1586642},
+        {"lat": 45.9008954, "lon": 8.1586559},
+        {"lat": 45.9007564, "lon": 8.1585757},
+        {"lat": 45.9006721, "lon": 8.1585133},
+        {"lat": 45.9006088, "lon": 8.1584919},
+        {"lat": 45.9005257, "lon": 8.1585043},
+        {"lat": 45.9004214, "lon": 8.158499},
+        {"lat": 45.9003507, "lon": 8.158515},
+        {"lat": 45.9003011, "lon": 8.15854},
+        {"lat": 45.9002564, "lon": 8.1585418},
+        {"lat": 45.9001795, "lon": 8.1585222},
+        {"lat": 45.9001162, "lon": 8.1585275},
+        {"lat": 45.9000554, "lon": 8.1585097},
+        {"lat": 45.8999897, "lon": 8.1584758},
+        {"lat": 45.8998774, "lon": 8.1583724}
+      ],
+      "tags": {
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "source": "pcn 2006",
+        "trail_visibility": "intermediate"
+      }
+    },
+    {
+      "type": "way",
+      "id": 218648201,
+      "timestamp": "2021-07-08T17:29:34Z",
+      "version": 3,
+      "changeset": 107652275,
+      "user": "Hillhome",
+      "uid": 76164,
+      "nodes": [8904887148, 2093098458],
+      "geometry": [
+        {"lat": 45.8973774, "lon": 8.1579851},
+        {"lat": 45.8975392, "lon": 8.1579764},
+        {"lat": 45.8977402, "lon": 8.1580014},
+        {"lat": 45.89794, "lon": 8.1580317},
+        {"lat": 45.8981906, "lon": 8.1580656},
+        {"lat": 45.8983494, "lon": 8.158087},
+        {"lat": 45.8985182, "lon": 8.1581173},
+        {"lat": 45.8986931, "lon": 8.158144},
+        {"lat": 45.8988259, "lon": 8.158169},
+        {"lat": 45.8989239, "lon": 8.1581672},
+        {"lat": 45.8990356, "lon": 8.1581583},
+        {"lat": 45.8991088, "lon": 8.1581583},
+        {"lat": 45.8992018, "lon": 8.1581832},
+        {"lat": 45.8992949, "lon": 8.15821},
+        {"lat": 45.8994178, "lon": 8.1582637}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "source": "pcn 2006",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
       "id": 218691700,
       "timestamp": "2013-04-24T08:18:31Z",
       "version": 2,
@@ -25086,12 +25162,12 @@
     {
       "type": "way",
       "id": 219441053,
-      "timestamp": "2020-06-27T19:38:02Z",
-      "version": 6,
-      "changeset": 87234164,
-      "user": "Jrachi",
-      "uid": 2976645,
-      "nodes": [1398918224, 1632400849],
+      "timestamp": "2021-07-08T17:29:34Z",
+      "version": 7,
+      "changeset": 107652275,
+      "user": "Hillhome",
+      "uid": 76164,
+      "nodes": [1398918224, 3410239624],
       "geometry": [
         {"lat": 45.91027, "lon": 8.1867282},
         {"lat": 45.9103589, "lon": 8.1866777},
@@ -25105,81 +25181,9 @@
         {"lat": 45.9097472, "lon": 8.1864159},
         {"lat": 45.9096059, "lon": 8.186315},
         {"lat": 45.9095391, "lon": 8.1862963},
-        {"lat": 45.9094826, "lon": 8.1862941},
-        {"lat": 45.9092608, "lon": 8.1862827}
+        {"lat": 45.9094826, "lon": 8.1862941}
       ],
       "tags": {"highway": "unclassified"}
-    },
-    {
-      "type": "way",
-      "id": 219441057,
-      "timestamp": "2020-06-20T08:44:02Z",
-      "version": 7,
-      "changeset": 86904177,
-      "user": "Francoerbi41",
-      "uid": 4982687,
-      "nodes": [1632400847, 7637545014],
-      "geometry": [
-        {"lat": 45.907551, "lon": 8.1819381},
-        {"lat": 45.9076403, "lon": 8.1819822},
-        {"lat": 45.9076543, "lon": 8.1819958}
-      ],
-      "tags": {
-        "highway": "path",
-        "name": "Grande Traversata delle Alpi Variante Walser",
-        "ref": "548 - GTA - SI",
-        "sac_scale": "mountain_hiking",
-        "trail_visibility": "intermediate"
-      }
-    },
-    {
-      "type": "way",
-      "id": 219441059,
-      "timestamp": "2019-01-15T15:20:31Z",
-      "version": 2,
-      "changeset": 66334939,
-      "user": "rbon56",
-      "uid": 7903615,
-      "nodes": [1632400849, 1398918196],
-      "geometry": [
-        {"lat": 45.9092608, "lon": 8.1862827},
-        {"lat": 45.9093386, "lon": 8.1861363},
-        {"lat": 45.9092308, "lon": 8.1860535},
-        {"lat": 45.9091763, "lon": 8.1858538},
-        {"lat": 45.9091668, "lon": 8.1857232},
-        {"lat": 45.9088798, "lon": 8.1852901},
-        {"lat": 45.9090102, "lon": 8.1847415},
-        {"lat": 45.9090565, "lon": 8.1845565}
-      ],
-      "tags": {
-        "highway": "path",
-        "name": "Grande Traversata delle Alpi Variante Walser",
-        "ref": "548 - GTA - SI",
-        "sac_scale": "mountain_hiking",
-        "trail_visibility": "intermediate"
-      }
-    },
-    {
-      "type": "way",
-      "id": 219441508,
-      "timestamp": "2013-04-29T19:15:09Z",
-      "version": 1,
-      "changeset": 15912638,
-      "user": "nuvolabianca",
-      "uid": 439413,
-      "nodes": [1398918186, 1398918196],
-      "geometry": [
-        {"lat": 45.9089897, "lon": 8.1843824},
-        {"lat": 45.9090267, "lon": 8.1843885},
-        {"lat": 45.909059, "lon": 8.1844295},
-        {"lat": 45.9090702, "lon": 8.1844973},
-        {"lat": 45.9090565, "lon": 8.1845565}
-      ],
-      "tags": {
-        "highway": "unclassified",
-        "source": "pcn 2006",
-        "surface": "asphalt"
-      }
     },
     {
       "type": "way",
@@ -49892,6 +49896,30 @@
     },
     {
       "type": "way",
+      "id": 534159152,
+      "timestamp": "2017-10-21T22:50:53Z",
+      "version": 1,
+      "changeset": 53140026,
+      "user": "Gianfranco2014",
+      "uid": 1928626,
+      "nodes": [2278776785, 2093098458],
+      "geometry": [
+        {"lat": 45.8998774, "lon": 8.1583724},
+        {"lat": 45.8998625, "lon": 8.1583702},
+        {"lat": 45.8997367, "lon": 8.1583182},
+        {"lat": 45.8996109, "lon": 8.1582737},
+        {"lat": 45.8995316, "lon": 8.1582489},
+        {"lat": 45.8994178, "lon": 8.1582637}
+      ],
+      "tags": {
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "source": "pcn 2006",
+        "trail_visibility": "intermediate"
+      }
+    },
+    {
+      "type": "way",
       "id": 534159153,
       "timestamp": "2020-04-04T08:58:54Z",
       "version": 2,
@@ -62788,40 +62816,6 @@
     },
     {
       "type": "way",
-      "id": 817792046,
-      "timestamp": "2020-06-20T08:10:13Z",
-      "version": 1,
-      "changeset": 86903461,
-      "user": "Francoerbi41",
-      "uid": 4982687,
-      "nodes": [1221818763, 1632400847],
-      "geometry": [
-        {"lat": 45.908746, "lon": 8.1814344},
-        {"lat": 45.9087166, "lon": 8.1814168},
-        {"lat": 45.9086592, "lon": 8.1813633},
-        {"lat": 45.9086086, "lon": 8.1812836},
-        {"lat": 45.9085253, "lon": 8.1811163},
-        {"lat": 45.9084696, "lon": 8.1810214},
-        {"lat": 45.9083956, "lon": 8.180952},
-        {"lat": 45.9082723, "lon": 8.180924},
-        {"lat": 45.9082055, "lon": 8.1809357},
-        {"lat": 45.908118, "lon": 8.1809823},
-        {"lat": 45.9079823, "lon": 8.1810838},
-        {"lat": 45.9078879, "lon": 8.1812102},
-        {"lat": 45.9078273, "lon": 8.1813246},
-        {"lat": 45.9077289, "lon": 8.1815103},
-        {"lat": 45.9076423, "lon": 8.1817079},
-        {"lat": 45.9075839, "lon": 8.1818467},
-        {"lat": 45.907551, "lon": 8.1819381}
-      ],
-      "tags": {
-        "highway": "tertiary",
-        "source": "pcn 2006",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
       "id": 817792047,
       "timestamp": "2020-06-27T19:38:02Z",
       "version": 2,
@@ -62839,6 +62833,94 @@
         "layer": "1",
         "surface": "asphalt"
       }
+    },
+    {
+      "type": "way",
+      "id": 817792048,
+      "timestamp": "2020-06-20T08:10:13Z",
+      "version": 1,
+      "changeset": 86903461,
+      "user": "Francoerbi41",
+      "uid": 4982687,
+      "nodes": [2285881663, 7637468619],
+      "geometry": [
+        {"lat": 45.9083956, "lon": 8.180952},
+        {"lat": 45.908306, "lon": 8.181035}
+      ],
+      "tags": {"highway": "steps"}
+    },
+    {
+      "type": "way",
+      "id": 817792049,
+      "timestamp": "2020-06-20T08:10:13Z",
+      "version": 1,
+      "changeset": 86903461,
+      "user": "Francoerbi41",
+      "uid": 4982687,
+      "nodes": [7637468619, 7637468620],
+      "geometry": [
+        {"lat": 45.908306, "lon": 8.181035},
+        {"lat": 45.9082638, "lon": 8.1810506}
+      ],
+      "tags": {"highway": "footway", "layer": "-1", "tunnel": "yes"}
+    },
+    {
+      "type": "way",
+      "id": 817792050,
+      "timestamp": "2020-06-20T08:44:02Z",
+      "version": 2,
+      "changeset": 86904177,
+      "user": "Francoerbi41",
+      "uid": 4982687,
+      "nodes": [7637468620, 2285881566],
+      "geometry": [
+        {"lat": 45.9082638, "lon": 8.1810506},
+        {"lat": 45.9081893, "lon": 8.1810642},
+        {"lat": 45.9081425, "lon": 8.1810996},
+        {"lat": 45.908028, "lon": 8.181335},
+        {"lat": 45.9079502, "lon": 8.1814428},
+        {"lat": 45.9079284, "lon": 8.1814928},
+        {"lat": 45.9079139, "lon": 8.1815549},
+        {"lat": 45.9078963, "lon": 8.1816411},
+        {"lat": 45.9079168, "lon": 8.1817471}
+      ],
+      "tags": {"highway": "footway"}
+    },
+    {
+      "type": "way",
+      "id": 817796035,
+      "timestamp": "2021-07-08T17:29:34Z",
+      "version": 2,
+      "changeset": 107652275,
+      "user": "Hillhome",
+      "uid": 76164,
+      "nodes": [2285881566, 7637545024],
+      "geometry": [
+        {"lat": 45.9079168, "lon": 8.1817471},
+        {"lat": 45.9079895, "lon": 8.1818393},
+        {"lat": 45.9080527, "lon": 8.1819379},
+        {"lat": 45.908069, "lon": 8.1819429},
+        {"lat": 45.9080966, "lon": 8.1819656},
+        {"lat": 45.9081417, "lon": 8.1819591},
+        {"lat": 45.9081502, "lon": 8.1819579},
+        {"lat": 45.9082225, "lon": 8.1820923}
+      ],
+      "tags": {"access": "yes", "highway": "steps", "surface": "cobblestone"}
+    },
+    {
+      "type": "way",
+      "id": 817796036,
+      "timestamp": "2020-06-20T08:44:02Z",
+      "version": 1,
+      "changeset": 86904177,
+      "user": "Francoerbi41",
+      "uid": 4982687,
+      "nodes": [7637545024, 7637545025],
+      "geometry": [
+        {"lat": 45.9082225, "lon": 8.1820923},
+        {"lat": 45.9079586, "lon": 8.1824418}
+      ],
+      "tags": {"highway": "footway"}
     },
     {
       "type": "way",
@@ -62864,70 +62946,18 @@
     },
     {
       "type": "way",
-      "id": 817796042,
-      "timestamp": "2020-06-20T08:44:02Z",
-      "version": 1,
-      "changeset": 86904177,
-      "user": "Francoerbi41",
-      "uid": 4982687,
-      "nodes": [7637545027, 7637545025],
-      "geometry": [
-        {"lat": 45.9078544, "lon": 8.1822806},
-        {"lat": 45.9079586, "lon": 8.1824418}
-      ],
-      "tags": {
-        "highway": "steps",
-        "name": "Grande Traversata delle Alpi Variante Walser",
-        "ref": "548 - GTA - SI",
-        "sac_scale": "mountain_hiking",
-        "trail_visibility": "intermediate"
-      }
-    },
-    {
-      "type": "way",
-      "id": 817796047,
-      "timestamp": "2020-06-20T08:44:02Z",
-      "version": 1,
-      "changeset": 86904177,
-      "user": "Francoerbi41",
-      "uid": 4982687,
-      "nodes": [7637545014, 7637545027],
-      "geometry": [
-        {"lat": 45.9076543, "lon": 8.1819958},
-        {"lat": 45.9076762, "lon": 8.1820171},
-        {"lat": 45.9077005, "lon": 8.182054},
-        {"lat": 45.9077185, "lon": 8.1821092},
-        {"lat": 45.9077159, "lon": 8.1821626},
-        {"lat": 45.907721, "lon": 8.1822105},
-        {"lat": 45.907739, "lon": 8.1822565},
-        {"lat": 45.9077851, "lon": 8.1822988},
-        {"lat": 45.9078273, "lon": 8.1823246},
-        {"lat": 45.9078463, "lon": 8.182268},
-        {"lat": 45.9078544, "lon": 8.1822806}
-      ],
-      "tags": {
-        "highway": "path",
-        "name": "Grande Traversata delle Alpi Variante Walser",
-        "ref": "548 - GTA - SI",
-        "sac_scale": "mountain_hiking",
-        "trail_visibility": "intermediate"
-      }
-    },
-    {
-      "type": "way",
       "id": 817799257,
-      "timestamp": "2020-06-20T09:08:55Z",
-      "version": 1,
-      "changeset": 86904738,
-      "user": "Francoerbi41",
-      "uid": 4982687,
-      "nodes": [2285881591, 1398918172],
+      "timestamp": "2021-07-08T17:29:34Z",
+      "version": 2,
+      "changeset": 107652275,
+      "user": "Hillhome",
+      "uid": 76164,
+      "nodes": [2285881591, 3410239266],
       "geometry": [
         {"lat": 45.9080347, "lon": 8.1825597},
         {"lat": 45.9080147, "lon": 8.1826562},
         {"lat": 45.9080687, "lon": 8.1827421},
-        {"lat": 45.908184, "lon": 8.1828005},
-        {"lat": 45.9081948, "lon": 8.1828116}
+        {"lat": 45.908184, "lon": 8.1828005}
       ],
       "tags": {
         "highway": "footway",
@@ -62940,37 +62970,46 @@
     },
     {
       "type": "way",
-      "id": 817799258,
-      "timestamp": "2020-06-20T09:08:55Z",
-      "version": 1,
-      "changeset": 86904738,
-      "user": "Francoerbi41",
-      "uid": 4982687,
-      "nodes": [1398918172, 1398918186],
+      "id": 817802993,
+      "timestamp": "2021-07-08T17:29:34Z",
+      "version": 4,
+      "changeset": 107652275,
+      "user": "Hillhome",
+      "uid": 76164,
+      "nodes": [1878539156, 3410239624],
       "geometry": [
-        {"lat": 45.9081948, "lon": 8.1828116},
-        {"lat": 45.9083295, "lon": 8.1827204},
-        {"lat": 45.9085195, "lon": 8.1828971},
-        {"lat": 45.9087028, "lon": 8.1830078},
-        {"lat": 45.908845, "lon": 8.1832022},
-        {"lat": 45.9088803, "lon": 8.1833645},
-        {"lat": 45.9088527, "lon": 8.1834116},
-        {"lat": 45.9088568, "lon": 8.1834368},
-        {"lat": 45.9087749, "lon": 8.1835229},
-        {"lat": 45.9088369, "lon": 8.1836663},
-        {"lat": 45.9088682, "lon": 8.183779},
-        {"lat": 45.9088746, "lon": 8.1838021},
-        {"lat": 45.9089275, "lon": 8.1839317},
-        {"lat": 45.9089228, "lon": 8.184039},
-        {"lat": 45.9090424, "lon": 8.1841833},
-        {"lat": 45.9089897, "lon": 8.1843824}
+        {"lat": 45.9093585, "lon": 8.1833508},
+        {"lat": 45.9093892, "lon": 8.1835666},
+        {"lat": 45.9093641, "lon": 8.1836423},
+        {"lat": 45.9092664, "lon": 8.1838264},
+        {"lat": 45.9093429, "lon": 8.1839056},
+        {"lat": 45.9094261, "lon": 8.1839425},
+        {"lat": 45.9093934, "lon": 8.1840185},
+        {"lat": 45.9093018, "lon": 8.1841428},
+        {"lat": 45.9094231, "lon": 8.1842035},
+        {"lat": 45.9094194, "lon": 8.184294},
+        {"lat": 45.9092352, "lon": 8.1845087},
+        {"lat": 45.9093858, "lon": 8.1846926},
+        {"lat": 45.9092468, "lon": 8.1847605},
+        {"lat": 45.9091746, "lon": 8.1849996},
+        {"lat": 45.9091704, "lon": 8.185071},
+        {"lat": 45.9091861, "lon": 8.1851267},
+        {"lat": 45.9091625, "lon": 8.1852009},
+        {"lat": 45.9090849, "lon": 8.185297},
+        {"lat": 45.9093547, "lon": 8.1855421},
+        {"lat": 45.9092553, "lon": 8.1856207},
+        {"lat": 45.9093544, "lon": 8.1857533},
+        {"lat": 45.9093751, "lon": 8.1858629},
+        {"lat": 45.9094135, "lon": 8.1860049},
+        {"lat": 45.9094591, "lon": 8.1862281},
+        {"lat": 45.9094826, "lon": 8.1862941}
       ],
       "tags": {
         "highway": "path",
-        "name": "Grande Traversata delle Alpi Variante Walser",
-        "ref": "548 - GTA - SI",
-        "sac_scale": "mountain_hiking",
-        "trail_visibility": "intermediate"
+        "ref": "547",
+        "sac_scale": "hiking",
+        "source": "Bing+gps",
+        "trail_visibility": "good"
       }
     },
     {
@@ -67212,6 +67251,207 @@
         {"lat": 45.6298407, "lon": 7.9765915}
       ],
       "tags": {"highway": "secondary", "name": "Strada alla Teleferica"}
+    },
+    {
+      "type": "way",
+      "id": 962668659,
+      "timestamp": "2021-07-08T17:29:34Z",
+      "version": 1,
+      "changeset": 107652275,
+      "user": "Hillhome",
+      "uid": 76164,
+      "nodes": [2093098370, 8904887148],
+      "geometry": [
+        {"lat": 45.8971355, "lon": 8.1587693},
+        {"lat": 45.8974511, "lon": 8.1585167},
+        {"lat": 45.8974296, "lon": 8.1582512},
+        {"lat": 45.8973176, "lon": 8.1582123},
+        {"lat": 45.8973774, "lon": 8.1579851}
+      ],
+      "tags": {"highway": "path"}
+    },
+    {
+      "type": "way",
+      "id": 962668660,
+      "timestamp": "2021-07-08T17:29:34Z",
+      "version": 1,
+      "changeset": 107652275,
+      "user": "Hillhome",
+      "uid": 76164,
+      "nodes": [2093098359, 2093098370],
+      "geometry": [
+        {"lat": 45.896119, "lon": 8.1609014},
+        {"lat": 45.8959701, "lon": 8.1605776},
+        {"lat": 45.8958958, "lon": 8.1603984},
+        {"lat": 45.8958399, "lon": 8.1602568},
+        {"lat": 45.8957918, "lon": 8.1601154},
+        {"lat": 45.8957624, "lon": 8.1599316},
+        {"lat": 45.8957509, "lon": 8.1598122},
+        {"lat": 45.8957611, "lon": 8.1596895},
+        {"lat": 45.895787, "lon": 8.159601},
+        {"lat": 45.8958303, "lon": 8.1595561},
+        {"lat": 45.8959025, "lon": 8.1594971},
+        {"lat": 45.8959613, "lon": 8.1594546},
+        {"lat": 45.8960703, "lon": 8.1593873},
+        {"lat": 45.8961669, "lon": 8.159329},
+        {"lat": 45.8962624, "lon": 8.1592928},
+        {"lat": 45.8963804, "lon": 8.1592527},
+        {"lat": 45.8964645, "lon": 8.1592072},
+        {"lat": 45.8965354, "lon": 8.1591555},
+        {"lat": 45.8966195, "lon": 8.1590702},
+        {"lat": 45.8967983, "lon": 8.1589453},
+        {"lat": 45.8969051, "lon": 8.1589014},
+        {"lat": 45.8969893, "lon": 8.1588729},
+        {"lat": 45.8970376, "lon": 8.1588679},
+        {"lat": 45.8970935, "lon": 8.1588502},
+        {"lat": 45.8971249, "lon": 8.1588264},
+        {"lat": 45.8971355, "lon": 8.1587693}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "source": "pcn 2006",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 962668661,
+      "timestamp": "2021-07-08T17:29:34Z",
+      "version": 1,
+      "changeset": 107652275,
+      "user": "Hillhome",
+      "uid": 76164,
+      "nodes": [1221818763, 2285881663],
+      "geometry": [
+        {"lat": 45.908746, "lon": 8.1814344},
+        {"lat": 45.9087166, "lon": 8.1814168},
+        {"lat": 45.9086592, "lon": 8.1813633},
+        {"lat": 45.9086086, "lon": 8.1812836},
+        {"lat": 45.9085253, "lon": 8.1811163},
+        {"lat": 45.9084696, "lon": 8.1810214},
+        {"lat": 45.9083956, "lon": 8.180952}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "source": "pcn 2006",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 962668663,
+      "timestamp": "2021-07-08T17:29:34Z",
+      "version": 1,
+      "changeset": 107652275,
+      "user": "Hillhome",
+      "uid": 76164,
+      "nodes": [3410239266, 1398918172],
+      "geometry": [
+        {"lat": 45.908184, "lon": 8.1828005},
+        {"lat": 45.9081948, "lon": 8.1828116}
+      ],
+      "tags": {
+        "highway": "footway",
+        "name": "Grande Traversata delle Alpi Variante Walser",
+        "ref": "548 - GTA - SI",
+        "sac_scale": "mountain_hiking",
+        "surface": "paved",
+        "trail_visibility": "intermediate"
+      }
+    },
+    {
+      "type": "way",
+      "id": 962668664,
+      "timestamp": "2021-07-08T17:29:34Z",
+      "version": 1,
+      "changeset": 107652275,
+      "user": "Hillhome",
+      "uid": 76164,
+      "nodes": [3099186969, 1398918172],
+      "geometry": [
+        {"lat": 45.9080839, "lon": 8.1836058},
+        {"lat": 45.9081287, "lon": 8.1835602},
+        {"lat": 45.908166, "lon": 8.18352},
+        {"lat": 45.9081884, "lon": 8.1834476},
+        {"lat": 45.9081567, "lon": 8.1833215},
+        {"lat": 45.908138, "lon": 8.1831713},
+        {"lat": 45.9081567, "lon": 8.183064},
+        {"lat": 45.908181, "lon": 8.1829031},
+        {"lat": 45.9081948, "lon": 8.1828116}
+      ],
+      "tags": {
+        "highway": "footway",
+        "ref": "548",
+        "sac_scale": "hiking",
+        "source": "pcn 2006+gps",
+        "surface": "cobblestone",
+        "trail_visibility": "intermediate"
+      }
+    },
+    {
+      "type": "way",
+      "id": 962668666,
+      "timestamp": "2021-07-08T17:29:34Z",
+      "version": 1,
+      "changeset": 107652275,
+      "user": "Hillhome",
+      "uid": 76164,
+      "nodes": [5311393200, 5760892526],
+      "geometry": [
+        {"lat": 45.9088369, "lon": 8.1836663},
+        {"lat": 45.9088682, "lon": 8.183779}
+      ],
+      "tags": {
+        "highway": "path",
+        "name": "Grande Traversata delle Alpi Variante Walser",
+        "ref": "548 - GTA - SI",
+        "sac_scale": "mountain_hiking",
+        "trail_visibility": "intermediate"
+      }
+    },
+    {
+      "type": "way",
+      "id": 962668667,
+      "timestamp": "2021-07-08T17:29:34Z",
+      "version": 1,
+      "changeset": 107652275,
+      "user": "Hillhome",
+      "uid": 76164,
+      "nodes": [5311393200, 3099186969],
+      "geometry": [
+        {"lat": 45.9088369, "lon": 8.1836663},
+        {"lat": 45.9087806, "lon": 8.1837215},
+        {"lat": 45.9087519, "lon": 8.1837339},
+        {"lat": 45.9086877, "lon": 8.18359},
+        {"lat": 45.9086658, "lon": 8.1835659},
+        {"lat": 45.9085249, "lon": 8.1836168},
+        {"lat": 45.9084512, "lon": 8.1835793},
+        {"lat": 45.9083075, "lon": 8.1837845},
+        {"lat": 45.908175, "lon": 8.1839186},
+        {"lat": 45.9080751, "lon": 8.1838354},
+        {"lat": 45.9080839, "lon": 8.1836058}
+      ],
+      "tags": {"highway": "path"}
+    },
+    {
+      "type": "way",
+      "id": 962668668,
+      "timestamp": "2021-07-08T17:29:34Z",
+      "version": 1,
+      "changeset": 107652275,
+      "user": "Hillhome",
+      "uid": 76164,
+      "nodes": [5760892526, 1878539156],
+      "geometry": [
+        {"lat": 45.9088682, "lon": 8.183779},
+        {"lat": 45.908948, "lon": 8.183697},
+        {"lat": 45.9090272, "lon": 8.1836076},
+        {"lat": 45.9090916, "lon": 8.1835139},
+        {"lat": 45.9091398, "lon": 8.1834628},
+        {"lat": 45.9092857, "lon": 8.1833681},
+        {"lat": 45.9093585, "lon": 8.1833508}
+      ],
+      "tags": {"highway": "path"}
     },
     {
       "type": "way",

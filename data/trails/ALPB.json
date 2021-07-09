@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-07T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-08T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -524,13 +524,14 @@
     {
       "type": "relation",
       "id": 11971158,
-      "timestamp": "2021-05-15T09:51:51Z",
-      "version": 3,
-      "changeset": 104724131,
-      "user": "pablitoz",
-      "uid": 8761200,
+      "timestamp": "2021-07-08T17:29:34Z",
+      "version": 4,
+      "changeset": 107652275,
+      "user": "Hillhome",
+      "uid": 76164,
       "members": [
         {"type": "way", "ref": 817792046, "role": ""},
+        {"type": "way", "ref": 962668661, "role": ""},
         {"type": "way", "ref": 817792047, "role": ""},
         {"type": "way", "ref": 177977636, "role": ""},
         {"type": "way", "ref": 943186645, "role": ""},
@@ -93993,19 +93994,13 @@
     {
       "type": "way",
       "id": 817792046,
-      "timestamp": "2020-06-20T08:10:13Z",
-      "version": 1,
-      "changeset": 86903461,
-      "user": "Francoerbi41",
-      "uid": 4982687,
-      "nodes": [1221818763, 1632400847],
+      "timestamp": "2021-07-08T17:29:34Z",
+      "version": 2,
+      "changeset": 107652275,
+      "user": "Hillhome",
+      "uid": 76164,
+      "nodes": [2285881663, 1632400847],
       "geometry": [
-        {"lat": 45.908746, "lon": 8.1814344},
-        {"lat": 45.9087166, "lon": 8.1814168},
-        {"lat": 45.9086592, "lon": 8.1813633},
-        {"lat": 45.9086086, "lon": 8.1812836},
-        {"lat": 45.9085253, "lon": 8.1811163},
-        {"lat": 45.9084696, "lon": 8.1810214},
         {"lat": 45.9083956, "lon": 8.180952},
         {"lat": 45.9082723, "lon": 8.180924},
         {"lat": 45.9082055, "lon": 8.1809357},
@@ -102347,6 +102342,30 @@
         "sac_scale": "mountain_hiking",
         "surface": "dirt",
         "trail_visibility": "good"
+      }
+    },
+    {
+      "type": "way",
+      "id": 962668661,
+      "timestamp": "2021-07-08T17:29:34Z",
+      "version": 1,
+      "changeset": 107652275,
+      "user": "Hillhome",
+      "uid": 76164,
+      "nodes": [1221818763, 2285881663],
+      "geometry": [
+        {"lat": 45.908746, "lon": 8.1814344},
+        {"lat": 45.9087166, "lon": 8.1814168},
+        {"lat": 45.9086592, "lon": 8.1813633},
+        {"lat": 45.9086086, "lon": 8.1812836},
+        {"lat": 45.9085253, "lon": 8.1811163},
+        {"lat": 45.9084696, "lon": 8.1810214},
+        {"lat": 45.9083956, "lon": 8.180952}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "source": "pcn 2006",
+        "surface": "asphalt"
       }
     },
     {

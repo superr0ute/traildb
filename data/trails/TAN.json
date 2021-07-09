@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-07T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-08T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -3396,11 +3396,11 @@
     {
       "type": "relation",
       "id": 9629100,
-      "timestamp": "2021-03-06T08:28:12Z",
-      "version": 16,
-      "changeset": 100525381,
-      "user": "ralley",
-      "uid": 670820,
+      "timestamp": "2021-07-08T00:39:50Z",
+      "version": 17,
+      "changeset": 107593860,
+      "user": "Robert Ancell",
+      "uid": 1430787,
       "members": [
         {"type": "way", "ref": 848233637, "role": ""},
         {"type": "way", "ref": 848233638, "role": ""},
@@ -3426,6 +3426,10 @@
         {"type": "way", "ref": 143680747, "role": ""},
         {"type": "way", "ref": 143680748, "role": ""},
         {"type": "way", "ref": 143680750, "role": ""},
+        {"type": "way", "ref": 962423498, "role": ""},
+        {"type": "way", "ref": 962423499, "role": ""},
+        {"type": "way", "ref": 962423497, "role": ""},
+        {"type": "way", "ref": 962423496, "role": ""},
         {"type": "way", "ref": 539904802, "role": ""},
         {"type": "way", "ref": 412570003, "role": ""},
         {"type": "way", "ref": 143680757, "role": ""},
@@ -6529,15 +6533,14 @@
     {
       "type": "way",
       "id": 143680750,
-      "timestamp": "2020-07-29T13:19:47Z",
-      "version": 7,
-      "changeset": 88681392,
-      "user": "AndjelaS",
-      "uid": 8951082,
-      "nodes": [1572427106, 1572427102],
+      "timestamp": "2021-07-08T00:39:50Z",
+      "version": 8,
+      "changeset": 107593860,
+      "user": "Robert Ancell",
+      "uid": 1430787,
+      "nodes": [8902420404, 1572427102],
       "geometry": [
-        {"lat": -39.0024448, "lon": 175.376759},
-        {"lat": -39.0024209, "lon": 175.3763297},
+        {"lat": -39.002004, "lon": 175.3716267},
         {"lat": -39.00192, "lon": 175.3709442},
         {"lat": -39.0014386, "lon": 175.365521},
         {"lat": -39.0014332, "lon": 175.3653109}
@@ -97495,6 +97498,144 @@
         "segregated": "no",
         "surface": "asphalt",
         "tactile_paving": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 962423496,
+      "timestamp": "2021-07-08T00:39:50Z",
+      "version": 1,
+      "changeset": 107593860,
+      "user": "Robert Ancell",
+      "uid": 1430787,
+      "nodes": [1572427106, 8902420403],
+      "geometry": [
+        {"lat": -39.0024448, "lon": 175.376759},
+        {"lat": -39.0024209, "lon": 175.3763297},
+        {"lat": -39.0020938, "lon": 175.372617}
+      ],
+      "tags": {
+        "attribution": "http://wiki.osm.org/wiki/Attribution#LINZ",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
+        "goods": "yes",
+        "hgv": "yes",
+        "highway": "unclassified",
+        "linz:RoadID": "9101",
+        "linz:garmin_road_class": "0",
+        "linz:garmin_type": "0x6",
+        "linz:sufi": "1030000002803",
+        "motorcar": "yes",
+        "name": "Kawautahi Road",
+        "psv": "yes",
+        "source_ref": "http://www.linz.govt.nz/topography/topo-maps/",
+        "surface": "paved",
+        "taxi": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 962423497,
+      "timestamp": "2021-07-08T00:39:50Z",
+      "version": 1,
+      "changeset": 107593860,
+      "user": "Robert Ancell",
+      "uid": 1430787,
+      "nodes": [8902420403, 8902420405],
+      "geometry": [
+        {"lat": -39.0020938, "lon": 175.372617},
+        {"lat": -39.0020587, "lon": 175.372229}
+      ],
+      "tags": {
+        "attribution": "http://wiki.osm.org/wiki/Attribution#LINZ",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
+        "goods": "yes",
+        "hgv": "yes",
+        "highway": "unclassified",
+        "lanes": "1",
+        "linz:RoadID": "9101",
+        "linz:garmin_road_class": "0",
+        "linz:garmin_type": "0x6",
+        "linz:sufi": "1030000002803",
+        "motorcar": "yes",
+        "name": "Kawautahi Road",
+        "psv": "yes",
+        "source_ref": "http://www.linz.govt.nz/topography/topo-maps/",
+        "surface": "paved",
+        "taxi": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 962423498,
+      "timestamp": "2021-07-08T00:39:50Z",
+      "version": 1,
+      "changeset": 107593860,
+      "user": "Robert Ancell",
+      "uid": 1430787,
+      "nodes": [8902420406, 8902420404],
+      "geometry": [
+        {"lat": -39.0020353, "lon": 175.3719714},
+        {"lat": -39.002004, "lon": 175.3716267}
+      ],
+      "tags": {
+        "attribution": "http://wiki.osm.org/wiki/Attribution#LINZ",
+        "bicycle": "yes",
+        "emergency": "yes",
+        "foot": "yes",
+        "goods": "yes",
+        "hgv": "yes",
+        "highway": "unclassified",
+        "lanes": "1",
+        "linz:RoadID": "9101",
+        "linz:garmin_road_class": "0",
+        "linz:garmin_type": "0x6",
+        "linz:sufi": "1030000002803",
+        "motorcar": "yes",
+        "name": "Kawautahi Road",
+        "psv": "yes",
+        "source_ref": "http://www.linz.govt.nz/topography/topo-maps/",
+        "surface": "paved",
+        "taxi": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 962423499,
+      "timestamp": "2021-07-08T00:39:50Z",
+      "version": 1,
+      "changeset": 107593860,
+      "user": "Robert Ancell",
+      "uid": 1430787,
+      "nodes": [8902420405, 8902420406],
+      "geometry": [
+        {"lat": -39.0020587, "lon": 175.372229},
+        {"lat": -39.0020353, "lon": 175.3719714}
+      ],
+      "tags": {
+        "attribution": "http://wiki.osm.org/wiki/Attribution#LINZ",
+        "bicycle": "yes",
+        "bridge": "yes",
+        "emergency": "yes",
+        "foot": "yes",
+        "goods": "yes",
+        "hgv": "yes",
+        "highway": "unclassified",
+        "lanes": "1",
+        "layer": "1",
+        "linz:RoadID": "9101",
+        "linz:garmin_road_class": "0",
+        "linz:garmin_type": "0x6",
+        "linz:sufi": "1030000002803",
+        "motorcar": "yes",
+        "name": "Kawautahi Road",
+        "psv": "yes",
+        "source_ref": "http://www.linz.govt.nz/topography/topo-maps/",
+        "surface": "paved",
+        "taxi": "yes"
       }
     },
     {
