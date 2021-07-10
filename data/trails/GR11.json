@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-08T02:32:41Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-10T02:27:56Z"},
   "elements": [
     {
       "type": "relation",
@@ -927,11 +927,11 @@
     {
       "type": "relation",
       "id": 10603164,
-      "timestamp": "2021-04-22T01:41:15Z",
-      "version": 7,
-      "changeset": 103370140,
-      "user": "mDav",
-      "uid": 7882299,
+      "timestamp": "2021-07-09T09:24:08Z",
+      "version": 8,
+      "changeset": 107690446,
+      "user": "schulzpin",
+      "uid": 169995,
       "members": [
         {"type": "way", "ref": 763347655, "role": ""},
         {"type": "way", "ref": 208593691, "role": ""},
@@ -991,6 +991,7 @@
         {"type": "way", "ref": 232258230, "role": ""},
         {"type": "way", "ref": 456246887, "role": ""},
         {"type": "way", "ref": 232258234, "role": ""},
+        {"type": "way", "ref": 962859144, "role": ""},
         {"type": "way", "ref": 915442833, "role": ""},
         {"type": "way", "ref": 38069312, "role": ""},
         {"type": "way", "ref": 356498154, "role": ""},
@@ -11941,11 +11942,11 @@
     {
       "type": "way",
       "id": 134751715,
-      "timestamp": "2019-10-22T18:46:41Z",
-      "version": 9,
-      "changeset": 76064842,
-      "user": "yopaseopor",
-      "uid": 500572,
+      "timestamp": "2021-07-09T13:20:05Z",
+      "version": 10,
+      "changeset": 107706815,
+      "user": "mcompte",
+      "uid": 2096551,
       "nodes": [365040464, 365040729],
       "geometry": [
         {"lat": 42.387402, "lon": 3.051974, "z": 103.4},
@@ -12002,6 +12003,8 @@
       ],
       "tags": {
         "highway": "unclassified",
+        "maxspeed": "30",
+        "maxweight": "12",
         "name": "Camí de Sant Quirc de Colera",
         "surface": "asphalt",
         "width": "5"
@@ -17777,9 +17780,9 @@
     {
       "type": "way",
       "id": 190276281,
-      "timestamp": "2021-03-01T11:46:18Z",
-      "version": 10,
-      "changeset": 100200809,
+      "timestamp": "2021-07-09T09:38:16Z",
+      "version": 11,
+      "changeset": 107691368,
       "user": "schulzpin",
       "uid": 169995,
       "nodes": [932080535, 932080679],
@@ -17799,6 +17802,7 @@
       "tags": {
         "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Carrer Major",
         "source:date": "2019",
         "surface": "asphalt"
@@ -17835,11 +17839,11 @@
     {
       "type": "way",
       "id": 190276301,
-      "timestamp": "2020-01-19T17:15:09Z",
-      "version": 8,
-      "changeset": 79760225,
-      "user": "yopaseopor",
-      "uid": 500572,
+      "timestamp": "2021-07-09T16:56:27Z",
+      "version": 9,
+      "changeset": 107717281,
+      "user": "schulzpin",
+      "uid": 169995,
       "nodes": [932080679, 2010295093],
       "geometry": [
         {"lat": 42.4184372, "lon": 1.9436636, "z": 1143.7},
@@ -17859,6 +17863,7 @@
         {"lat": 42.4214816, "lon": 1.9362067, "z": 1126.1},
         {"lat": 42.4216493, "lon": 1.9358447, "z": 1126.5},
         {"lat": 42.4218542, "lon": 1.9354904, "z": 1126.7},
+        {"lat": 42.4221866, "lon": 1.9349619, "z": 1126.7},
         {"lat": 42.4223704, "lon": 1.9346697, "z": 1126.9},
         {"lat": 42.4228106, "lon": 1.9340729, "z": 1128.5},
         {"lat": 42.4228252, "lon": 1.9340543, "z": 1128.5},
@@ -23099,18 +23104,23 @@
     {
       "type": "way",
       "id": 232258234,
-      "timestamp": "2021-03-10T11:26:05Z",
-      "version": 7,
-      "changeset": 100775184,
+      "timestamp": "2021-07-09T09:24:12Z",
+      "version": 10,
+      "changeset": 107690450,
       "user": "schulzpin",
       "uid": 169995,
-      "nodes": [932081019, 2406230260],
+      "nodes": [932081019, 8906737357],
       "geometry": [
         {"lat": 42.4275581, "lon": 1.9291753, "z": 1150.5},
         {"lat": 42.4276217, "lon": 1.929002, "z": 1151.1},
-        {"lat": 42.4280508, "lon": 1.9277751, "z": 1153.2}
+        {"lat": 42.4278592, "lon": 1.928323, "z": 1152.7}
       ],
-      "tags": {"highway": "residential", "name": "Carretera de Vilallobent"}
+      "tags": {
+        "highway": "residential",
+        "name": "Carretera de Vilallobent",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -26294,34 +26304,38 @@
     {
       "type": "way",
       "id": 260930531,
-      "timestamp": "2016-02-18T09:31:01Z",
-      "version": 2,
-      "changeset": 37283412,
-      "user": "EliziR",
-      "uid": 605366,
+      "timestamp": "2021-07-09T13:20:05Z",
+      "version": 3,
+      "changeset": 107706815,
+      "user": "mcompte",
+      "uid": 2096551,
       "nodes": [1493301241, 366596838],
       "geometry": [
         {"lat": 42.3759197, "lon": 3.067845, "z": 165.5},
         {"lat": 42.376033, "lon": 3.0684319, "z": 167.2},
         {"lat": 42.3761054, "lon": 3.0688053, "z": 166.5}
       ],
-      "tags": {"highway": "residential", "name": "Carrer de Tramuntana"}
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Carrer de Tramuntana"
+      }
     },
     {
       "type": "way",
       "id": 260930533,
-      "timestamp": "2016-02-18T09:31:02Z",
-      "version": 2,
-      "changeset": 37283412,
-      "user": "EliziR",
-      "uid": 605366,
+      "timestamp": "2021-07-09T13:20:05Z",
+      "version": 3,
+      "changeset": 107706815,
+      "user": "mcompte",
+      "uid": 2096551,
       "nodes": [366596825, 366596827],
       "geometry": [
         {"lat": 42.3754357, "lon": 3.0672116, "z": 159.7},
         {"lat": 42.3755721, "lon": 3.0671775, "z": 160.4},
         {"lat": 42.3757819, "lon": 3.0671367, "z": 160.6}
       ],
-      "tags": {"highway": "residential", "name": "GR11"}
+      "tags": {"highway": "residential", "maxspeed": "30", "name": "GR11"}
     },
     {
       "type": "way",
@@ -26353,11 +26367,11 @@
     {
       "type": "way",
       "id": 260930539,
-      "timestamp": "2016-02-18T09:31:02Z",
-      "version": 2,
-      "changeset": 37283412,
-      "user": "EliziR",
-      "uid": 605366,
+      "timestamp": "2021-07-09T13:20:05Z",
+      "version": 3,
+      "changeset": 107706815,
+      "user": "mcompte",
+      "uid": 2096551,
       "nodes": [366596838, 366596854],
       "geometry": [
         {"lat": 42.3761054, "lon": 3.0688053, "z": 166.5},
@@ -26368,7 +26382,7 @@
         {"lat": 42.3777649, "lon": 3.0695679, "z": 192.5},
         {"lat": 42.3780297, "lon": 3.0701408, "z": 193.6}
       ],
-      "tags": {"highway": "residential", "name": "GR11"}
+      "tags": {"highway": "residential", "maxspeed": "30", "name": "GR11"}
     },
     {
       "type": "way",
@@ -34569,11 +34583,11 @@
     {
       "type": "way",
       "id": 32470207,
-      "timestamp": "2019-10-22T18:46:41Z",
-      "version": 10,
-      "changeset": 76064842,
-      "user": "yopaseopor",
-      "uid": 500572,
+      "timestamp": "2021-07-09T13:20:05Z",
+      "version": 11,
+      "changeset": 107706815,
+      "user": "mcompte",
+      "uid": 2096551,
       "nodes": [365040367, 365040464],
       "geometry": [
         {"lat": 42.3754978, "lon": 3.0660746, "z": 150.6},
@@ -34607,6 +34621,8 @@
       ],
       "tags": {
         "highway": "unclassified",
+        "maxspeed": "30",
+        "maxweight": "12",
         "name": "Camí de Sant Quirc de Colera",
         "surface": "asphalt",
         "tracktype": "grade1"
@@ -35109,11 +35125,11 @@
     {
       "type": "way",
       "id": 32600259,
-      "timestamp": "2016-04-07T16:48:19Z",
-      "version": 7,
-      "changeset": 38385867,
-      "user": "lanxana",
-      "uid": 3735848,
+      "timestamp": "2021-07-09T13:20:05Z",
+      "version": 8,
+      "changeset": 107706815,
+      "user": "mcompte",
+      "uid": 2096551,
       "nodes": [365040367, 366596825],
       "geometry": [
         {"lat": 42.3754978, "lon": 3.0660746, "z": 150.6},
@@ -35128,6 +35144,7 @@
       ],
       "tags": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "GR11",
         "name:ca": "Pujada del Castell"
       }
@@ -41984,11 +42001,11 @@
     {
       "type": "way",
       "id": 398479174,
-      "timestamp": "2016-04-07T17:18:21Z",
-      "version": 2,
-      "changeset": 38385867,
-      "user": "lanxana",
-      "uid": 3735848,
+      "timestamp": "2021-07-09T13:20:05Z",
+      "version": 3,
+      "changeset": 107706815,
+      "user": "mcompte",
+      "uid": 2096551,
       "nodes": [366596827, 1493301241],
       "geometry": [
         {"lat": 42.3757819, "lon": 3.0671367, "z": 160.6},
@@ -41996,7 +42013,11 @@
         {"lat": 42.3758388, "lon": 3.0674456, "z": 163.3},
         {"lat": 42.3759197, "lon": 3.067845, "z": 165.5}
       ],
-      "tags": {"highway": "residential", "name": "Carrer de Tramuntana"}
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Carrer de Tramuntana"
+      }
     },
     {
       "type": "way",
@@ -67949,11 +67970,11 @@
     {
       "type": "way",
       "id": 79853727,
-      "timestamp": "2016-03-03T07:17:05Z",
-      "version": 6,
-      "changeset": 37580330,
-      "user": "EliziR",
-      "uid": 605366,
+      "timestamp": "2021-07-09T09:43:20Z",
+      "version": 9,
+      "changeset": 107691368,
+      "user": "schulzpin",
+      "uid": 169995,
       "nodes": [371365186, 932080535],
       "geometry": [
         {"lat": 42.4186619, "lon": 1.949523, "z": 1163.3},
@@ -67967,7 +67988,13 @@
         {"lat": 42.4185428, "lon": 1.9477095, "z": 1160.9},
         {"lat": 42.4185116, "lon": 1.9475266, "z": 1160.2}
       ],
-      "tags": {"highway": "unclassified", "name": "Carrer de Palau"}
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lanes": "2",
+        "name": "Carrer de Palau",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -73037,6 +73064,26 @@
         {"lat": 42.582155, "lon": 1.0100765, "z": 1922.7}
       ],
       "tags": {"highway": "steps", "surface": "dirt"}
+    },
+    {
+      "type": "way",
+      "id": 962859144,
+      "timestamp": "2021-07-09T09:24:12Z",
+      "version": 3,
+      "changeset": 107690450,
+      "user": "schulzpin",
+      "uid": 169995,
+      "nodes": [8906737357, 2406230260],
+      "geometry": [
+        {"lat": 42.4278592, "lon": 1.928323, "z": 1152.7},
+        {"lat": 42.4280508, "lon": 1.9277751, "z": 1153.2}
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Carretera de Vilallobent",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
