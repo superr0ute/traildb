@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-10T02:27:56Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-12T02:27:58Z"},
   "elements": [
     {
       "type": "relation",
@@ -2385,11 +2385,11 @@
     {
       "type": "relation",
       "id": 10605319,
-      "timestamp": "2020-09-18T07:36:44Z",
-      "version": 4,
-      "changeset": 91093519,
-      "user": "Hervé TUC",
-      "uid": 922338,
+      "timestamp": "2021-07-11T13:13:10Z",
+      "version": 5,
+      "changeset": 107782077,
+      "user": "jlrb+",
+      "uid": 10391725,
       "members": [
         {"type": "way", "ref": 696522637, "role": ""},
         {"type": "way", "ref": 40109830, "role": ""},
@@ -2420,6 +2420,7 @@
         {"type": "way", "ref": 75591860, "role": ""},
         {"type": "way", "ref": 247905910, "role": ""},
         {"type": "way", "ref": 247905911, "role": ""},
+        {"type": "way", "ref": 963397314, "role": ""},
         {"type": "way", "ref": 289427815, "role": ""},
         {"type": "way", "ref": 289427820, "role": ""},
         {"type": "way", "ref": 40031457, "role": ""},
@@ -31442,34 +31443,14 @@
     {
       "type": "way",
       "id": 289427815,
-      "timestamp": "2019-12-12T14:15:26Z",
-      "version": 2,
-      "changeset": 78322269,
-      "user": "Seraq",
-      "uid": 3148901,
-      "nodes": [782017196, 481318644],
+      "timestamp": "2021-07-11T13:13:10Z",
+      "version": 3,
+      "changeset": 107782077,
+      "user": "jlrb+",
+      "uid": 10391725,
+      "nodes": [481318548, 481318644],
       "geometry": [
-        {"lat": 42.6733588, "lon": 0.2152065, "z": 1196.4},
-        {"lat": 42.6733066, "lon": 0.2156613, "z": 1200.9},
-        {"lat": 42.6729986, "lon": 0.2161765, "z": 1205.8},
-        {"lat": 42.6725186, "lon": 0.2165327, "z": 1209.3},
-        {"lat": 42.6721779, "lon": 0.2166543, "z": 1208.4},
-        {"lat": 42.6718177, "lon": 0.2170162, "z": 1217.5},
-        {"lat": 42.6715774, "lon": 0.2172806, "z": 1223.5},
-        {"lat": 42.6716303, "lon": 0.2174414, "z": 1232},
-        {"lat": 42.671733, "lon": 0.2174117, "z": 1232.4},
-        {"lat": 42.6719874, "lon": 0.2172448, "z": 1229.1},
-        {"lat": 42.6722494, "lon": 0.217344, "z": 1238.3},
-        {"lat": 42.6724859, "lon": 0.2172594, "z": 1239},
-        {"lat": 42.6725565, "lon": 0.2173323, "z": 1243.9},
-        {"lat": 42.6725328, "lon": 0.217492, "z": 1254.1},
-        {"lat": 42.6709178, "lon": 0.2181445, "z": 1255.5},
-        {"lat": 42.6695759, "lon": 0.2185357, "z": 1256.6},
-        {"lat": 42.6689166, "lon": 0.219038, "z": 1281.4},
-        {"lat": 42.6687167, "lon": 0.2193736, "z": 1297.5},
-        {"lat": 42.6683571, "lon": 0.219628, "z": 1301.9},
-        {"lat": 42.6681184, "lon": 0.22013, "z": 1312.8},
-        {"lat": 42.6679717, "lon": 0.2209287, "z": 1325},
+        {"lat": 42.667977, "lon": 0.2210274, "z": 1327},
         {"lat": 42.6680325, "lon": 0.2210445, "z": 1329},
         {"lat": 42.668142, "lon": 0.2209429, "z": 1331.1},
         {"lat": 42.6684068, "lon": 0.2203628, "z": 1326},
@@ -57200,27 +57181,31 @@
     {
       "type": "way",
       "id": 639378152,
-      "timestamp": "2018-10-30T12:48:17Z",
-      "version": 1,
-      "changeset": 64010439,
-      "user": "Alaia",
-      "uid": 2778590,
+      "timestamp": "2021-07-11T16:45:45Z",
+      "version": 2,
+      "changeset": 107789945,
+      "user": "Mendi",
+      "uid": 214864,
       "nodes": [6024786455, 6024786454],
       "geometry": [
         {"lat": 42.8660788, "lon": -0.9292124, "z": 883.5},
         {"lat": 42.8660032, "lon": -0.9292983, "z": 886},
         {"lat": 42.8658721, "lon": -0.9294608, "z": 890.9}
       ],
-      "tags": {"highway": "track"}
+      "tags": {
+        "highway": "track",
+        "sac_scale": "mountain_hiking",
+        "trail_visibility": "intermediate"
+      }
     },
     {
       "type": "way",
       "id": 639378154,
-      "timestamp": "2018-10-30T12:48:17Z",
-      "version": 1,
-      "changeset": 64010439,
-      "user": "Alaia",
-      "uid": 2778590,
+      "timestamp": "2021-07-11T16:45:45Z",
+      "version": 2,
+      "changeset": 107789945,
+      "user": "Mendi",
+      "uid": 214864,
       "nodes": [6024786454, 890641361],
       "geometry": [
         {"lat": 42.8658721, "lon": -0.9294608, "z": 890.9},
@@ -57246,7 +57231,13 @@
         {"lat": 42.864335, "lon": -0.9284601, "z": 835.8},
         {"lat": 42.8643002, "lon": -0.928417, "z": 835.3}
       ],
-      "tags": {"highway": "path"}
+      "tags": {
+        "highway": "path",
+        "name": "GR-11 / Senda de Isaba a Saltsaderra por Idoya",
+        "name:es": "GR-11 / Senda de Isaba a Saltsaderra por Idoya",
+        "sac_scale": "mountain_hiking",
+        "trail_visibility": "intermediate"
+      }
     },
     {
       "type": "way",
@@ -61374,11 +61365,11 @@
     {
       "type": "way",
       "id": 75431480,
-      "timestamp": "2018-10-30T12:49:01Z",
-      "version": 3,
-      "changeset": 64010439,
-      "user": "Alaia",
-      "uid": 2778590,
+      "timestamp": "2021-07-11T16:45:45Z",
+      "version": 4,
+      "changeset": 107789945,
+      "user": "Mendi",
+      "uid": 214864,
       "nodes": [890640602, 890640744],
       "geometry": [
         {"lat": 42.8661638, "lon": -0.9661469, "z": 1350.3},
@@ -61435,16 +61426,16 @@
         {"lat": 42.8643293, "lon": -0.9538359, "z": 1353.9},
         {"lat": 42.8645139, "lon": -0.9535025, "z": 1351.6}
       ],
-      "tags": {"highway": "path"}
+      "tags": {"highway": "path", "sac_scale": "mountain_hiking"}
     },
     {
       "type": "way",
       "id": 75431484,
-      "timestamp": "2018-10-30T12:49:01Z",
-      "version": 3,
-      "changeset": 64010439,
-      "user": "Alaia",
-      "uid": 2778590,
+      "timestamp": "2021-07-11T16:45:45Z",
+      "version": 4,
+      "changeset": 107789945,
+      "user": "Mendi",
+      "uid": 214864,
       "nodes": [890640744, 890640990],
       "geometry": [
         {"lat": 42.8645139, "lon": -0.9535025, "z": 1351.6},
@@ -61502,16 +61493,16 @@
         {"lat": 42.8642178, "lon": -0.9448622, "z": 1251},
         {"lat": 42.8641899, "lon": -0.9447748, "z": 1250.3}
       ],
-      "tags": {"highway": "track"}
+      "tags": {"highway": "track", "sac_scale": "mountain_hiking"}
     },
     {
       "type": "way",
       "id": 75431489,
-      "timestamp": "2018-10-30T12:49:01Z",
-      "version": 3,
-      "changeset": 64010439,
-      "user": "Alaia",
-      "uid": 2778590,
+      "timestamp": "2021-07-11T16:45:45Z",
+      "version": 4,
+      "changeset": 107789945,
+      "user": "Mendi",
+      "uid": 214864,
       "nodes": [890640990, 6024786455],
       "geometry": [
         {"lat": 42.8641899, "lon": -0.9447748, "z": 1250.3},
@@ -61702,16 +61693,22 @@
         {"lat": 42.8661953, "lon": -0.9292915, "z": 888.1},
         {"lat": 42.8660788, "lon": -0.9292124, "z": 883.5}
       ],
-      "tags": {"highway": "path"}
+      "tags": {
+        "highway": "path",
+        "name": "GR-11 / Senda de Isaba a Saltsaderra por Idoya",
+        "name:es": "GR-11 / Senda de Isaba a Saltsaderra por Idoya",
+        "sac_scale": "mountain_hiking",
+        "trail_visibility": "intermediate"
+      }
     },
     {
       "type": "way",
       "id": 75431512,
-      "timestamp": "2018-10-30T12:49:01Z",
-      "version": 5,
-      "changeset": 64010439,
-      "user": "Alaia",
-      "uid": 2778590,
+      "timestamp": "2021-07-11T16:45:45Z",
+      "version": 6,
+      "changeset": 107789945,
+      "user": "Mendi",
+      "uid": 214864,
       "nodes": [890641361, 890641287],
       "geometry": [
         {"lat": 42.8643002, "lon": -0.928417, "z": 835.3},
@@ -61758,16 +61755,22 @@
         {"lat": 42.8591417, "lon": -0.9276112, "z": 781},
         {"lat": 42.8589912, "lon": -0.9275237, "z": 779.6}
       ],
-      "tags": {"highway": "track", "name": "GR 11"}
+      "tags": {
+        "highway": "track",
+        "name": "GR-11 / Senda de Isaba a Idoya",
+        "name:es": "GR-11 / Senda de Isaba a Idoya",
+        "sac_scale": "hiking",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
       "id": 75431517,
-      "timestamp": "2019-01-08T16:49:56Z",
-      "version": 10,
-      "changeset": 66134240,
-      "user": "Alaia",
-      "uid": 2778590,
+      "timestamp": "2021-07-11T16:45:45Z",
+      "version": 11,
+      "changeset": 107789945,
+      "user": "Mendi",
+      "uid": 214864,
       "nodes": [360176596, 890640602],
       "geometry": [
         {"lat": 42.8849964, "lon": -1.0007828, "z": 1307.1},
@@ -61890,7 +61893,12 @@
         {"lat": 42.86615, "lon": -0.9661779, "z": 1350.1},
         {"lat": 42.8661638, "lon": -0.9661469, "z": 1350.3}
       ],
-      "tags": {"highway": "track", "mtb:scale": "2", "surface": "dirt"}
+      "tags": {
+        "highway": "track",
+        "mtb:scale": "2",
+        "sac_scale": "mountain_hiking",
+        "surface": "dirt"
+      }
     },
     {
       "type": "way",
@@ -73084,6 +73092,42 @@
         "sidewalk": "right",
         "surface": "asphalt"
       }
+    },
+    {
+      "type": "way",
+      "id": 963397314,
+      "timestamp": "2021-07-11T13:13:10Z",
+      "version": 1,
+      "changeset": 107782077,
+      "user": "jlrb+",
+      "uid": 10391725,
+      "nodes": [782017196, 481318548],
+      "geometry": [
+        {"lat": 42.6733588, "lon": 0.2152065, "z": 1196.4},
+        {"lat": 42.6733066, "lon": 0.2156613, "z": 1200.9},
+        {"lat": 42.6729986, "lon": 0.2161765, "z": 1205.8},
+        {"lat": 42.6725186, "lon": 0.2165327, "z": 1209.3},
+        {"lat": 42.6721779, "lon": 0.2166543, "z": 1208.4},
+        {"lat": 42.6721306, "lon": 0.2167018, "z": 1209.7},
+        {"lat": 42.6718177, "lon": 0.2170162, "z": 1217.5},
+        {"lat": 42.6715774, "lon": 0.2172806, "z": 1223.5},
+        {"lat": 42.6716303, "lon": 0.2174414, "z": 1232},
+        {"lat": 42.671733, "lon": 0.2174117, "z": 1232.4},
+        {"lat": 42.6719874, "lon": 0.2172448, "z": 1229.1},
+        {"lat": 42.6722494, "lon": 0.217344, "z": 1238.3},
+        {"lat": 42.6724859, "lon": 0.2172594, "z": 1239},
+        {"lat": 42.6725565, "lon": 0.2173323, "z": 1243.9},
+        {"lat": 42.6725328, "lon": 0.217492, "z": 1254.1},
+        {"lat": 42.6709178, "lon": 0.2181445, "z": 1255.5},
+        {"lat": 42.6695759, "lon": 0.2185357, "z": 1256.6},
+        {"lat": 42.6689166, "lon": 0.219038, "z": 1281.4},
+        {"lat": 42.6687167, "lon": 0.2193736, "z": 1297.5},
+        {"lat": 42.6683571, "lon": 0.219628, "z": 1301.9},
+        {"lat": 42.6681184, "lon": 0.22013, "z": 1312.8},
+        {"lat": 42.6679558, "lon": 0.2209, "z": 1324},
+        {"lat": 42.667977, "lon": 0.2210274, "z": 1327}
+      ],
+      "tags": {"highway": "track", "incline": "up", "smoothness": "very_bad"}
     },
     {
       "type": "way",

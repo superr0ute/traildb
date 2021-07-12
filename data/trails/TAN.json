@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-10T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-11T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2018,11 +2018,11 @@
     {
       "type": "relation",
       "id": 9599093,
-      "timestamp": "2021-05-05T03:40:49Z",
-      "version": 15,
-      "changeset": 104153715,
-      "user": "callum_AT",
-      "uid": 9896539,
+      "timestamp": "2021-07-11T06:04:01Z",
+      "version": 16,
+      "changeset": 107768829,
+      "user": "kylenz",
+      "uid": 10140394,
       "members": [
         {"type": "way", "ref": 97467659, "role": ""},
         {"type": "way", "ref": 373835440, "role": ""},
@@ -2125,8 +2125,10 @@
         {"type": "way", "ref": 690810262, "role": ""},
         {"type": "way", "ref": 23616444, "role": ""},
         {"type": "way", "ref": 373839666, "role": ""},
+        {"type": "way", "ref": 963339079, "role": ""},
         {"type": "way", "ref": 115047504, "role": ""},
         {"type": "way", "ref": 584811450, "role": ""},
+        {"type": "way", "ref": 963339080, "role": ""},
         {"type": "way", "ref": 23616404, "role": ""},
         {"type": "way", "ref": 23616403, "role": ""},
         {"type": "way", "ref": 924327212, "role": ""},
@@ -2140,6 +2142,7 @@
         {"type": "way", "ref": 373839667, "role": ""},
         {"type": "way", "ref": 654182696, "role": ""},
         {"type": "way", "ref": 654182694, "role": ""},
+        {"type": "way", "ref": 963339092, "role": ""},
         {"type": "way", "ref": 23616367, "role": ""},
         {"type": "way", "ref": 7634810, "role": ""},
         {"type": "way", "ref": 7634822, "role": ""},
@@ -4817,21 +4820,24 @@
     {
       "type": "way",
       "id": 115047504,
-      "timestamp": "2020-08-05T00:17:05Z",
-      "version": 3,
-      "changeset": 88951567,
-      "user": "AlwynWellington",
-      "uid": 567640,
-      "nodes": [26898455, 6481602849],
+      "timestamp": "2021-07-11T06:04:01Z",
+      "version": 4,
+      "changeset": 107768829,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [255794399, 6481602849],
       "geometry": [
-        {"lat": -36.8241119, "lon": 174.8095608},
-        {"lat": -36.8238825, "lon": 174.8096165},
-        {"lat": -36.823409, "lon": 174.8092157}
+        {"lat": -36.8240414, "lon": 174.8096967},
+        {"lat": -36.8239561, "lon": 174.8096432},
+        {"lat": -36.8238709, "lon": 174.8096009},
+        {"lat": -36.8234251, "lon": 174.8091583}
       ],
       "tags": {
-        "highway": "footway",
-        "name": "Cheltenham Beach",
-        "surface": "sand"
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "surface": "paved",
+        "wheelchair": "yes"
       }
     },
     {
@@ -29297,26 +29303,26 @@
     {
       "type": "way",
       "id": 23616404,
-      "timestamp": "2021-03-31T10:46:29Z",
-      "version": 8,
-      "changeset": 102049060,
+      "timestamp": "2021-07-11T06:04:01Z",
+      "version": 9,
+      "changeset": 107768829,
       "user": "kylenz",
       "uid": 10140394,
-      "nodes": [6437186098, 5589582518],
+      "nodes": [6437186098, 5589582517],
       "geometry": [
         {"lat": -36.8256094, "lon": 174.8118911},
         {"lat": -36.8256178, "lon": 174.8118759},
         {"lat": -36.8256243, "lon": 174.811862},
         {"lat": -36.8256076, "lon": 174.8118474},
         {"lat": -36.8256013, "lon": 174.8118263},
-        {"lat": -36.8255971, "lon": 174.8116447},
-        {"lat": -36.8255889, "lon": 174.8115704},
+        {"lat": -36.8255462, "lon": 174.8114955},
+        {"lat": -36.8255345, "lon": 174.811445},
         {"lat": -36.8255607, "lon": 174.8113872},
         {"lat": -36.8255169, "lon": 174.8112404},
         {"lat": -36.8254268, "lon": 174.8109769},
-        {"lat": -36.8254239, "lon": 174.8109469}
+        {"lat": -36.8254011, "lon": 174.8109248}
       ],
-      "tags": {"highway": "footway"}
+      "tags": {"highway": "path", "surface": "sand"}
     },
     {
       "type": "way",
@@ -29344,11 +29350,11 @@
     {
       "type": "way",
       "id": 23616444,
-      "timestamp": "2020-08-05T00:17:05Z",
-      "version": 4,
-      "changeset": 88951567,
-      "user": "AlwynWellington",
-      "uid": 567640,
+      "timestamp": "2021-07-11T06:04:01Z",
+      "version": 5,
+      "changeset": 107768829,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [255796643, 255797076],
       "geometry": [
         {"lat": -36.8206851, "lon": 174.8065825},
@@ -29356,9 +29362,11 @@
         {"lat": -36.8199783, "lon": 174.8062648}
       ],
       "tags": {
-        "highway": "footway",
-        "name": "Cheltenham Beach",
-        "surface": "concrete"
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "surface": "concrete",
+        "wheelchair": "yes"
       }
     },
     {
@@ -38942,9 +38950,9 @@
     {
       "type": "way",
       "id": 31360055,
-      "timestamp": "2020-11-22T13:23:33Z",
-      "version": 20,
-      "changeset": 94575958,
+      "timestamp": "2021-07-11T16:21:53Z",
+      "version": 21,
+      "changeset": 107787253,
       "user": "LACDH",
       "uid": 4994674,
       "nodes": [349287651, 7784539650],
@@ -38966,6 +38974,7 @@
         "cycleway:both": "no",
         "highway": "unclassified",
         "lanes": "2",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Tavern Road",
         "source:maxspeed": "sign",
@@ -43621,17 +43630,17 @@
     {
       "type": "way",
       "id": 362578899,
-      "timestamp": "2021-03-31T10:46:29Z",
-      "version": 5,
-      "changeset": 102049060,
+      "timestamp": "2021-07-11T06:04:01Z",
+      "version": 6,
+      "changeset": 107768829,
       "user": "kylenz",
       "uid": 10140394,
       "nodes": [297807762, 3668527240],
       "geometry": [
         {"lat": -36.8287806, "lon": 174.8127349},
         {"lat": -36.82844, "lon": 174.8130627},
-        {"lat": -36.8281191, "lon": 174.8132769},
-        {"lat": -36.8277917, "lon": 174.8133469},
+        {"lat": -36.8281865, "lon": 174.813238},
+        {"lat": -36.8281233, "lon": 174.8132748},
         {"lat": -36.8277377, "lon": 174.8133584},
         {"lat": -36.8276451, "lon": 174.8133467},
         {"lat": -36.8272174, "lon": 174.8132929},
@@ -47960,26 +47969,21 @@
     {
       "type": "way",
       "id": 373839666,
-      "timestamp": "2020-08-05T00:17:05Z",
-      "version": 4,
-      "changeset": 88951567,
-      "user": "AlwynWellington",
-      "uid": 567640,
-      "nodes": [255796643, 6481602849],
+      "timestamp": "2021-07-11T06:04:01Z",
+      "version": 5,
+      "changeset": 107768829,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [255796643, 3772675126],
       "geometry": [
         {"lat": -36.8206851, "lon": 174.8065825},
         {"lat": -36.8206345, "lon": 174.806786},
         {"lat": -36.8208895, "lon": 174.8070454},
         {"lat": -36.8210262, "lon": 174.8071774},
-        {"lat": -36.8231736, "lon": 174.809075},
-        {"lat": -36.8233886, "lon": 174.8092035},
-        {"lat": -36.823409, "lon": 174.8092157}
+        {"lat": -36.8220669, "lon": 174.808097},
+        {"lat": -36.823216, "lon": 174.8090256}
       ],
-      "tags": {
-        "highway": "footway",
-        "name": "Cheltenham Beach",
-        "surface": "sand"
-      }
+      "tags": {"highway": "path", "surface": "sand"}
     },
     {
       "type": "way",
@@ -66556,31 +66560,28 @@
     {
       "type": "way",
       "id": 584811450,
-      "timestamp": "2020-08-05T00:17:05Z",
-      "version": 5,
-      "changeset": 88951567,
-      "user": "AlwynWellington",
-      "uid": 567640,
-      "nodes": [5589582518, 26898455],
+      "timestamp": "2021-07-11T06:04:01Z",
+      "version": 6,
+      "changeset": 107768829,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [8910938274, 255794399],
       "geometry": [
-        {"lat": -36.8254239, "lon": 174.8109469},
-        {"lat": -36.8253981, "lon": 174.8109159},
-        {"lat": -36.8253739, "lon": 174.8109258},
-        {"lat": -36.8252906, "lon": 174.8108407},
-        {"lat": -36.825068, "lon": 174.8105574},
-        {"lat": -36.8247798, "lon": 174.81025},
-        {"lat": -36.8244364, "lon": 174.8099003},
+        {"lat": -36.8250234, "lon": 174.8105057},
+        {"lat": -36.8249966, "lon": 174.8105118},
+        {"lat": -36.8249655, "lon": 174.8105062},
+        {"lat": -36.8246633, "lon": 174.8102174},
+        {"lat": -36.8243345, "lon": 174.8099088},
         {"lat": -36.8241754, "lon": 174.8099362},
         {"lat": -36.8241044, "lon": 174.8098866},
-        {"lat": -36.8240389, "lon": 174.8096878},
-        {"lat": -36.8241119, "lon": 174.8095608}
+        {"lat": -36.8240414, "lon": 174.8096967}
       ],
       "tags": {
-        "bicycle": "dismount",
-        "foot": "yes",
-        "highway": "footway",
-        "name": "Cheltenham Beach",
-        "surface": "grass"
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "surface": "concrete",
+        "wheelchair": "yes"
       }
     },
     {
@@ -72436,14 +72437,13 @@
     {
       "type": "way",
       "id": 654182694,
-      "timestamp": "2021-03-31T10:46:29Z",
-      "version": 4,
-      "changeset": 102049060,
+      "timestamp": "2021-07-11T06:04:01Z",
+      "version": 5,
+      "changeset": 107768829,
       "user": "kylenz",
       "uid": 10140394,
-      "nodes": [297807696, 255792907],
+      "nodes": [6481602858, 255792907],
       "geometry": [
-        {"lat": -36.8277046, "lon": 174.8105125},
         {"lat": -36.8275828, "lon": 174.810434},
         {"lat": -36.8273305, "lon": 174.8103359},
         {"lat": -36.8271708, "lon": 174.8102896},
@@ -72454,9 +72454,9 @@
     {
       "type": "way",
       "id": 654182696,
-      "timestamp": "2021-03-31T10:46:29Z",
-      "version": 4,
-      "changeset": 102049060,
+      "timestamp": "2021-07-11T06:04:01Z",
+      "version": 5,
+      "changeset": 107768829,
       "user": "kylenz",
       "uid": 10140394,
       "nodes": [6130252306, 297807696],
@@ -72467,8 +72467,11 @@
         {"lat": -36.8277046, "lon": 174.8105125}
       ],
       "tags": {
+        "access": "no",
+        "bicycle": "yes",
         "foot": "yes",
         "highway": "service",
+        "motor_vehicle": "no",
         "surface": "asphalt",
         "vehicle": "private"
       }
@@ -79722,9 +79725,9 @@
     {
       "type": "way",
       "id": 690810262,
-      "timestamp": "2020-11-30T10:20:20Z",
-      "version": 4,
-      "changeset": 95036438,
+      "timestamp": "2021-07-11T06:04:01Z",
+      "version": 5,
+      "changeset": 107768829,
       "user": "kylenz",
       "uid": 10140394,
       "nodes": [255797076, 8179109737],
@@ -79733,11 +79736,7 @@
         {"lat": -36.8199343, "lon": 174.8059727},
         {"lat": -36.8199258, "lon": 174.8059165}
       ],
-      "tags": {
-        "highway": "footway",
-        "name": "Cheltenham Beach access",
-        "surface": "grass"
-      }
+      "tags": {"highway": "path", "surface": "grass"}
     },
     {
       "type": "way",
@@ -97653,6 +97652,57 @@
         "surface": "paved",
         "taxi": "yes"
       }
+    },
+    {
+      "type": "way",
+      "id": 963339079,
+      "timestamp": "2021-07-11T06:04:01Z",
+      "version": 1,
+      "changeset": 107768829,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [3772675126, 6481602849],
+      "geometry": [
+        {"lat": -36.823216, "lon": 174.8090256},
+        {"lat": -36.8233168, "lon": 174.8090728},
+        {"lat": -36.8233965, "lon": 174.8091393},
+        {"lat": -36.8234251, "lon": 174.8091583}
+      ],
+      "tags": {"highway": "path", "surface": "grass"}
+    },
+    {
+      "type": "way",
+      "id": 963339080,
+      "timestamp": "2021-07-11T06:04:01Z",
+      "version": 1,
+      "changeset": 107768829,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [5589582517, 8910938274],
+      "geometry": [
+        {"lat": -36.8254011, "lon": 174.8109248},
+        {"lat": -36.8253739, "lon": 174.8109258},
+        {"lat": -36.8252906, "lon": 174.8108407},
+        {"lat": -36.825049, "lon": 174.8105218},
+        {"lat": -36.8250374, "lon": 174.810513},
+        {"lat": -36.8250234, "lon": 174.8105057}
+      ],
+      "tags": {"highway": "path", "surface": "grass"}
+    },
+    {
+      "type": "way",
+      "id": 963339092,
+      "timestamp": "2021-07-11T06:04:01Z",
+      "version": 1,
+      "changeset": 107768829,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [297807696, 6481602858],
+      "geometry": [
+        {"lat": -36.8277046, "lon": 174.8105125},
+        {"lat": -36.8275828, "lon": 174.810434}
+      ],
+      "tags": {"foot": "yes", "highway": "steps", "surface": "grass"}
     },
     {
       "type": "way",

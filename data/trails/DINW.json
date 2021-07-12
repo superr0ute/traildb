@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-08T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-11T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -874,20 +874,23 @@
     {
       "type": "relation",
       "id": 7388367,
-      "timestamp": "2019-10-10T04:36:33Z",
-      "version": 6,
-      "changeset": 75489606,
-      "user": "Serpico",
-      "uid": 11618,
+      "timestamp": "2021-07-11T12:10:56Z",
+      "version": 7,
+      "changeset": 107779553,
+      "user": "Badojo",
+      "uid": 8189075,
       "members": [
         {"type": "node", "ref": 3657979343, "role": ""},
         {"type": "way", "ref": 92747482, "role": ""},
         {"type": "way", "ref": 575124992, "role": ""},
         {"type": "way", "ref": 575122645, "role": ""},
+        {"type": "way", "ref": 963388333, "role": ""},
         {"type": "way", "ref": 506708664, "role": ""},
         {"type": "way", "ref": 163865803, "role": ""},
         {"type": "way", "ref": 163865802, "role": ""},
         {"type": "way", "ref": 575124995, "role": ""},
+        {"type": "way", "ref": 963388340, "role": ""},
+        {"type": "way", "ref": 963388341, "role": ""},
         {"type": "way", "ref": 506708663, "role": ""},
         {"type": "way", "ref": 506705481, "role": ""},
         {"type": "way", "ref": 262203004, "role": ""},
@@ -904,10 +907,15 @@
         {"type": "way", "ref": 229012089, "role": ""},
         {"type": "way", "ref": 733141571, "role": ""},
         {"type": "way", "ref": 164455474, "role": ""},
+        {"type": "way", "ref": 963388337, "role": ""},
+        {"type": "way", "ref": 963388336, "role": ""},
+        {"type": "way", "ref": 963388346, "role": ""},
+        {"type": "way", "ref": 963388347, "role": ""},
         {"type": "way", "ref": 94483129, "role": ""},
         {"type": "way", "ref": 361302749, "role": ""},
         {"type": "way", "ref": 361302748, "role": ""},
-        {"type": "way", "ref": 361302747, "role": ""}
+        {"type": "way", "ref": 361302747, "role": ""},
+        {"type": "way", "ref": 254905020, "role": ""}
       ],
       "tags": {
         "name": "Crnopac",
@@ -922,18 +930,21 @@
     {
       "type": "relation",
       "id": 7388422,
-      "timestamp": "2020-12-16T11:17:08Z",
-      "version": 13,
-      "changeset": 95937368,
-      "user": "hbogner",
-      "uid": 157407,
+      "timestamp": "2021-07-11T12:10:56Z",
+      "version": 14,
+      "changeset": 107779553,
+      "user": "Badojo",
+      "uid": 8189075,
       "members": [
         {"type": "way", "ref": 229023881, "role": ""},
         {"type": "way", "ref": 361302747, "role": ""},
         {"type": "way", "ref": 361302748, "role": ""},
         {"type": "way", "ref": 361302749, "role": ""},
-        {"type": "way", "ref": 94483129, "role": ""},
+        {"type": "way", "ref": 963388336, "role": ""},
+        {"type": "way", "ref": 963388337, "role": ""},
+        {"type": "way", "ref": 963388335, "role": ""},
         {"type": "way", "ref": 506708665, "role": ""},
+        {"type": "way", "ref": 94483129, "role": ""},
         {"type": "way", "ref": 627545275, "role": ""},
         {"type": "way", "ref": 168739548, "role": ""},
         {"type": "way", "ref": 168739549, "role": ""},
@@ -6659,11 +6670,11 @@
     {
       "type": "way",
       "id": 164455474,
-      "timestamp": "2019-11-16T11:36:49Z",
-      "version": 27,
-      "changeset": 77162379,
-      "user": "nbuzjak",
-      "uid": 534497,
+      "timestamp": "2021-07-11T12:10:56Z",
+      "version": 28,
+      "changeset": 107779553,
+      "user": "Badojo",
+      "uid": 8189075,
       "nodes": [6865442309, 1097439560],
       "geometry": [
         {"lat": 44.2986466, "lon": 15.8641921},
@@ -6686,9 +6697,11 @@
         {"lat": 44.2822936, "lon": 15.8923006},
         {"lat": 44.2821545, "lon": 15.8924641},
         {"lat": 44.2816043, "lon": 15.8931108},
-        {"lat": 44.2809528, "lon": 15.8938766},
-        {"lat": 44.2807161, "lon": 15.8942241},
-        {"lat": 44.2804846, "lon": 15.8946045}
+        {"lat": 44.2809375, "lon": 15.8938958},
+        {"lat": 44.2808423, "lon": 15.8940316},
+        {"lat": 44.2807207, "lon": 15.8942049},
+        {"lat": 44.2805752, "lon": 15.8944239},
+        {"lat": 44.2804502, "lon": 15.894643}
       ],
       "tags": {
         "designation": "državna cesta",
@@ -19346,6 +19359,49 @@
         {"lat": 45.3341174, "lon": 14.642001}
       ],
       "tags": {"highway": "path", "name": "Planinarska staza na Tuhobić"}
+    },
+    {
+      "type": "way",
+      "id": 254905020,
+      "timestamp": "2021-07-11T12:10:56Z",
+      "version": 4,
+      "changeset": 107779553,
+      "user": "Badojo",
+      "uid": 8189075,
+      "nodes": [8911405013, 8911405013],
+      "geometry": [
+        {"lat": 44.2998101, "lon": 15.8602404},
+        {"lat": 44.2998289, "lon": 15.8601978},
+        {"lat": 44.2998389, "lon": 15.8601497},
+        {"lat": 44.2998395, "lon": 15.8600996},
+        {"lat": 44.2998304, "lon": 15.8600503},
+        {"lat": 44.2998123, "lon": 15.8600062},
+        {"lat": 44.299778, "lon": 15.8599625},
+        {"lat": 44.2997352, "lon": 15.8599377},
+        {"lat": 44.2996889, "lon": 15.8599345},
+        {"lat": 44.2996606, "lon": 15.8599438},
+        {"lat": 44.2996345, "lon": 15.8599614},
+        {"lat": 44.2996061, "lon": 15.8599944},
+        {"lat": 44.2995851, "lon": 15.8600368},
+        {"lat": 44.2995732, "lon": 15.8600857},
+        {"lat": 44.2995712, "lon": 15.8601372},
+        {"lat": 44.2995787, "lon": 15.8601852},
+        {"lat": 44.2995949, "lon": 15.8602289},
+        {"lat": 44.2996195, "lon": 15.8602664},
+        {"lat": 44.2996504, "lon": 15.8602933},
+        {"lat": 44.2996854, "lon": 15.8603077},
+        {"lat": 44.2997218, "lon": 15.8603084},
+        {"lat": 44.2997544, "lon": 15.860297},
+        {"lat": 44.299784, "lon": 15.8602747},
+        {"lat": 44.2998101, "lon": 15.8602404}
+      ],
+      "tags": {
+        "highway": "primary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "ref": "D1",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -36642,9 +36698,9 @@
       "uid": 15720,
       "nodes": [1075738881, 1755354990],
       "geometry": [
-        {"lat": 44.2987848, "lon": 15.8444103},
-        {"lat": 44.2988129, "lon": 15.8445826},
-        {"lat": 44.2988373, "lon": 15.8447864},
+        {"lat": 44.2987809, "lon": 15.8443404},
+        {"lat": 44.2987949, "lon": 15.8444714},
+        {"lat": 44.2988386, "lon": 15.8447792},
         {"lat": 44.2988951, "lon": 15.8452683},
         {"lat": 44.2989458, "lon": 15.8457156},
         {"lat": 44.2989458, "lon": 15.8458491},
@@ -36673,14 +36729,14 @@
     {
       "type": "way",
       "id": 506708665,
-      "timestamp": "2019-10-10T04:36:33Z",
-      "version": 4,
-      "changeset": 75489606,
-      "user": "Serpico",
-      "uid": 11618,
-      "nodes": [1097439560, 1799581707],
+      "timestamp": "2021-07-11T12:10:56Z",
+      "version": 5,
+      "changeset": 107779553,
+      "user": "Badojo",
+      "uid": 8189075,
+      "nodes": [8911404960, 1799581707],
       "geometry": [
-        {"lat": 44.2804846, "lon": 15.8946045},
+        {"lat": 44.279997, "lon": 15.8955055},
         {"lat": 44.2794355, "lon": 15.8965913},
         {"lat": 44.2788486, "lon": 15.8981818},
         {"lat": 44.2775123, "lon": 15.9020012},
@@ -48033,24 +48089,26 @@
     {
       "type": "way",
       "id": 575122645,
-      "timestamp": "2018-03-31T20:58:19Z",
-      "version": 2,
-      "changeset": 57698956,
-      "user": "Kristijanko",
-      "uid": 7598915,
-      "nodes": [1592818737, 1075738881],
+      "timestamp": "2021-07-11T12:10:56Z",
+      "version": 3,
+      "changeset": 107779553,
+      "user": "Badojo",
+      "uid": 8189075,
+      "nodes": [1592818737, 1075738960],
       "geometry": [
         {"lat": 44.2955298, "lon": 15.843803},
         {"lat": 44.2957925, "lon": 15.843798},
-        {"lat": 44.2964153, "lon": 15.8438278},
+        {"lat": 44.2964127, "lon": 15.8438188},
         {"lat": 44.2971664, "lon": 15.8437874},
-        {"lat": 44.2982003, "lon": 15.8437319},
-        {"lat": 44.2983981, "lon": 15.8438439},
-        {"lat": 44.2985962, "lon": 15.8440265},
-        {"lat": 44.2987135, "lon": 15.8442274},
-        {"lat": 44.2987848, "lon": 15.8444103}
+        {"lat": 44.2981863, "lon": 15.8437365}
       ],
-      "tags": {"highway": "residential", "name": "Obrovačka ulica"}
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Obrovačka ulica",
+        "ref": "63191",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -48085,18 +48143,17 @@
     {
       "type": "way",
       "id": 575124995,
-      "timestamp": "2018-09-23T11:28:54Z",
-      "version": 2,
-      "changeset": 62847690,
-      "user": "J budissin",
-      "uid": 15720,
-      "nodes": [5519293182, 309281567],
+      "timestamp": "2021-07-11T12:10:56Z",
+      "version": 3,
+      "changeset": 107779553,
+      "user": "Badojo",
+      "uid": 8189075,
+      "nodes": [5519293182, 331150302],
       "geometry": [
         {"lat": 44.300389, "lon": 15.8575453},
         {"lat": 44.3002584, "lon": 15.858054},
         {"lat": 44.3000274, "lon": 15.8589571},
-        {"lat": 44.2998161, "lon": 15.8597191},
-        {"lat": 44.2997268, "lon": 15.8600436}
+        {"lat": 44.2998565, "lon": 15.8595675}
       ],
       "tags": {
         "highway": "tertiary",
@@ -54781,15 +54838,14 @@
     {
       "type": "way",
       "id": 733141571,
-      "timestamp": "2019-10-10T04:36:33Z",
-      "version": 1,
-      "changeset": 75489606,
-      "user": "Serpico",
-      "uid": 11618,
-      "nodes": [2606854639, 6865442309],
+      "timestamp": "2021-07-11T12:10:56Z",
+      "version": 2,
+      "changeset": 107779553,
+      "user": "Badojo",
+      "uid": 8189075,
+      "nodes": [1569158384, 6865442309],
       "geometry": [
-        {"lat": 44.299679, "lon": 15.8602182},
-        {"lat": 44.2995829, "lon": 15.8605631},
+        {"lat": 44.29958, "lon": 15.8605724},
         {"lat": 44.2994151, "lon": 15.8612216},
         {"lat": 44.2992445, "lon": 15.8618632},
         {"lat": 44.2986466, "lon": 15.8641921}
@@ -58428,14 +58484,14 @@
     {
       "type": "way",
       "id": 94483129,
-      "timestamp": "2017-06-12T14:23:30Z",
-      "version": 3,
-      "changeset": 49470712,
-      "user": "Janjko",
-      "uid": 244754,
-      "nodes": [1097439560, 1097440857],
+      "timestamp": "2021-07-11T12:10:56Z",
+      "version": 4,
+      "changeset": 107779553,
+      "user": "Badojo",
+      "uid": 8189075,
+      "nodes": [8911404961, 1097440857],
       "geometry": [
-        {"lat": 44.2804846, "lon": 15.8946045},
+        {"lat": 44.2800444, "lon": 15.8942271},
         {"lat": 44.2785826, "lon": 15.8930922},
         {"lat": 44.2781355, "lon": 15.8927302},
         {"lat": 44.2778572, "lon": 15.8925005},
@@ -58450,7 +58506,12 @@
         {"lat": 44.2753476, "lon": 15.888569},
         {"lat": 44.2752352, "lon": 15.8880202}
       ],
-      "tags": {"highway": "unclassified"}
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "ref": "63034",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -58783,6 +58844,208 @@
       "tags": {
         "highway": "primary",
         "name": "Ulica 7. gardijske brigade",
+        "ref": "D1",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 963388333,
+      "timestamp": "2021-07-11T12:10:56Z",
+      "version": 1,
+      "changeset": 107779553,
+      "user": "Badojo",
+      "uid": 8189075,
+      "nodes": [1075738960, 1075738881],
+      "geometry": [
+        {"lat": 44.2981863, "lon": 15.8437365},
+        {"lat": 44.2982915, "lon": 15.8437809},
+        {"lat": 44.2983601, "lon": 15.8438169},
+        {"lat": 44.2984332, "lon": 15.8438674},
+        {"lat": 44.2985307, "lon": 15.8439458},
+        {"lat": 44.2986317, "lon": 15.8440534},
+        {"lat": 44.2987058, "lon": 15.8441682},
+        {"lat": 44.2987517, "lon": 15.8442633},
+        {"lat": 44.2987809, "lon": 15.8443404}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "name": "Obrovačka ulica",
+        "oneway": "no",
+        "ref": "63191",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 963388335,
+      "timestamp": "2021-07-11T12:10:56Z",
+      "version": 1,
+      "changeset": 107779553,
+      "user": "Badojo",
+      "uid": 8189075,
+      "nodes": [1097439560, 8911404960],
+      "geometry": [
+        {"lat": 44.2804502, "lon": 15.894643},
+        {"lat": 44.279997, "lon": 15.8955055}
+      ],
+      "tags": {
+        "designation": "državna cesta",
+        "highway": "primary",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "maxspeed": "60",
+        "ref": "D1",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left|through"
+      }
+    },
+    {
+      "type": "way",
+      "id": 963388336,
+      "timestamp": "2021-07-11T12:10:56Z",
+      "version": 1,
+      "changeset": 107779553,
+      "user": "Badojo",
+      "uid": 8189075,
+      "nodes": [8911404961, 1097439560],
+      "geometry": [
+        {"lat": 44.2800444, "lon": 15.8942271},
+        {"lat": 44.2801792, "lon": 15.8943827},
+        {"lat": 44.2803503, "lon": 15.8945429},
+        {"lat": 44.2804502, "lon": 15.894643}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "oneway": "yes",
+        "ref": "63034",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 963388337,
+      "timestamp": "2021-07-11T12:10:56Z",
+      "version": 1,
+      "changeset": 107779553,
+      "user": "Badojo",
+      "uid": 8189075,
+      "nodes": [1097439560, 8911404961],
+      "geometry": [
+        {"lat": 44.2804502, "lon": 15.894643},
+        {"lat": 44.2804485, "lon": 15.8945606},
+        {"lat": 44.2804401, "lon": 15.8945058},
+        {"lat": 44.2804199, "lon": 15.8944571},
+        {"lat": 44.2803807, "lon": 15.8944093},
+        {"lat": 44.2803382, "lon": 15.8943714},
+        {"lat": 44.2802783, "lon": 15.8943304},
+        {"lat": 44.2800444, "lon": 15.8942271}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "oneway": "yes",
+        "ref": "63034",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 963388340,
+      "timestamp": "2021-07-11T12:10:56Z",
+      "version": 1,
+      "changeset": 107779553,
+      "user": "Badojo",
+      "uid": 8189075,
+      "nodes": [8911404983, 331150302],
+      "geometry": [
+        {"lat": 44.2998123, "lon": 15.8600062},
+        {"lat": 44.2998017, "lon": 15.8599403},
+        {"lat": 44.2998017, "lon": 15.8598866},
+        {"lat": 44.2998225, "lon": 15.8597669},
+        {"lat": 44.2998565, "lon": 15.8595675}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "oneway": "yes",
+        "ref": "63030",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 963388341,
+      "timestamp": "2021-07-11T12:10:56Z",
+      "version": 1,
+      "changeset": 107779553,
+      "user": "Badojo",
+      "uid": 8189075,
+      "nodes": [331150302, 2606854638],
+      "geometry": [
+        {"lat": 44.2998565, "lon": 15.8595675},
+        {"lat": 44.2997963, "lon": 15.8597265},
+        {"lat": 44.2997593, "lon": 15.8598285},
+        {"lat": 44.2997294, "lon": 15.859887},
+        {"lat": 44.2996889, "lon": 15.8599345}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "oneway": "yes",
+        "ref": "63030",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 963388346,
+      "timestamp": "2021-07-11T12:10:56Z",
+      "version": 1,
+      "changeset": 107779553,
+      "user": "Badojo",
+      "uid": 8189075,
+      "nodes": [2606854639, 1569158384],
+      "geometry": [
+        {"lat": 44.2995949, "lon": 15.8602289},
+        {"lat": 44.2996055, "lon": 15.8603128},
+        {"lat": 44.2996042, "lon": 15.8603927},
+        {"lat": 44.2995969, "lon": 15.8604653},
+        {"lat": 44.29958, "lon": 15.8605724}
+      ],
+      "tags": {
+        "designation": "državna cesta",
+        "highway": "primary",
+        "lanes": "1",
+        "oneway": "yes",
+        "ref": "D1",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 963388347,
+      "timestamp": "2021-07-11T12:10:56Z",
+      "version": 1,
+      "changeset": 107779553,
+      "user": "Badojo",
+      "uid": 8189075,
+      "nodes": [1569158384, 8911404980],
+      "geometry": [
+        {"lat": 44.29958, "lon": 15.8605724},
+        {"lat": 44.2996262, "lon": 15.860457},
+        {"lat": 44.2996556, "lon": 15.8603976},
+        {"lat": 44.299684, "lon": 15.8603501},
+        {"lat": 44.2997218, "lon": 15.8603084}
+      ],
+      "tags": {
+        "designation": "državna cesta",
+        "highway": "primary",
+        "lanes": "1",
+        "oneway": "yes",
         "ref": "D1",
         "surface": "asphalt"
       }
