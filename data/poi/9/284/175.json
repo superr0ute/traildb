@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-07-10T23:59:59Z",
-    "timestamp_osm_base": "2021-07-11T04:52:54Z",
+    "timestamp_osm_date": "2021-07-11T23:59:59Z",
+    "timestamp_osm_base": "2021-07-12T05:00:42Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1593,14 +1593,15 @@
     {
       "type": "node",
       "id": 35608658,
-      "lat": 49.0563816,
-      "lon": 19.9717606,
-      "timestamp": "2017-05-17T21:21:55Z",
-      "version": 12,
-      "changeset": 48773495,
-      "user": "rmikke",
-      "uid": 69607,
+      "lat": 49.0563174,
+      "lon": 19.9718209,
+      "timestamp": "2021-07-11T22:49:58Z",
+      "version": 13,
+      "changeset": 107800004,
+      "user": "aceman444",
+      "uid": 1617449,
       "tags": {
+        "charge": "6 EUR/person; 3 EUR/child",
         "depth": "0",
         "fee": "yes",
         "is_in": "Važec",
@@ -1609,7 +1610,9 @@
         "name:pl": "Jaskinia Ważecka",
         "name:ru": "Важецкая пещера",
         "natural": "cave_entrance",
-        "opening_hours": "Tu-Su",
+        "opening_hours": "Jun-Aug Tu-Su 09:00,10:00,11:00,12:00,13:00,14:00,15:00,16:00; Feb-May Tu-Su 09:30,11:00,12:30,14:00; Sep-Nov Tu-Su 09:30,11:00,12:30,14:00",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
         "source:name": "www.ssj.sk",
         "wikidata": "Q2297701",
         "wikipedia": "sk:Važecká jaskyňa"
@@ -9391,13 +9394,13 @@
     {
       "type": "node",
       "id": 1782381889,
-      "lat": 49.2712,
-      "lon": 20.27234,
-      "timestamp": "2012-06-10T08:34:35Z",
-      "version": 1,
-      "changeset": 11851724,
-      "user": "Walter Schlögl",
-      "uid": 78656,
+      "lat": 49.2712851,
+      "lon": 20.2722328,
+      "timestamp": "2021-07-11T19:41:33Z",
+      "version": 2,
+      "changeset": 107795823,
+      "user": "menganito",
+      "uid": 11199632,
       "tags": {
         "amenity": "drinking_water"
       }
@@ -39905,6 +39908,24 @@
         "amenity": "shelter",
         "building": "yes",
         "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 963467823,
+      "timestamp": "2021-07-11T19:41:33Z",
+      "version": 1,
+      "changeset": 107795823,
+      "user": "menganito",
+      "uid": 11199632,
+      "center": {
+        "lat": 49.3320144,
+        "lon": 20.3438046
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes"
       }
     }
   ]
