@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-10T02:25:57Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-13T02:30:24Z"},
   "elements": [
     {
       "type": "relation",
       "id": 9933591,
-      "timestamp": "2021-06-26T19:53:24Z",
-      "version": 66,
-      "changeset": 107015332,
-      "user": "Buraddo",
-      "uid": 2287200,
+      "timestamp": "2021-07-12T12:34:19Z",
+      "version": 67,
+      "changeset": 107839844,
+      "user": "123cargo_user",
+      "uid": 10938823,
       "members": [
         {"type": "way", "ref": 456209234, "role": ""},
         {"type": "way", "ref": 456209236, "role": ""},
@@ -429,6 +429,7 @@
         {"type": "way", "ref": 579047664, "role": ""},
         {"type": "way", "ref": 948990187, "role": ""},
         {"type": "way", "ref": 948990188, "role": ""},
+        {"type": "way", "ref": 963651538, "role": ""},
         {"type": "way", "ref": 35444774, "role": ""},
         {"type": "way", "ref": 35444773, "role": ""},
         {"type": "way", "ref": 368987009, "role": ""},
@@ -7909,11 +7910,11 @@
     {
       "type": "way",
       "id": 216941685,
-      "timestamp": "2017-11-25T16:15:51Z",
-      "version": 4,
-      "changeset": 54076171,
-      "user": "Traveller RDS",
-      "uid": 5810094,
+      "timestamp": "2021-07-12T12:38:10Z",
+      "version": 5,
+      "changeset": 107840060,
+      "user": "123cargo_user",
+      "uid": 10938823,
       "nodes": [2262617876, 2262617883],
       "geometry": [
         {"lat": 47.1859283, "lon": 26.1797494, "z": 567.4},
@@ -7922,25 +7923,27 @@
       ],
       "tags": {
         "bridge": "yes",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "maxspeed": "90",
+        "maxspeed:hgv": "80",
+        "name": "Strada Mănăstirilor",
         "oneway": "no",
         "ref": "DJ157F",
         "smoothness": "good",
         "surface": "asphalt",
-        "surface_survey": "2017NOV_"
+        "surface_survey": "2021JAN_"
       }
     },
     {
       "type": "way",
       "id": 216941686,
-      "timestamp": "2020-09-20T18:58:08Z",
-      "version": 6,
-      "changeset": 91185518,
-      "user": "johnnybegoode",
-      "uid": 10832296,
+      "timestamp": "2021-07-12T12:38:10Z",
+      "version": 7,
+      "changeset": 107840060,
+      "user": "123cargo_user",
+      "uid": 10938823,
       "nodes": [2262617883, 3672265603],
       "geometry": [
         {"lat": 47.1863038, "lon": 26.1792022, "z": 566.2},
@@ -7957,25 +7960,26 @@
         {"lat": 47.1893161, "lon": 26.1789965, "z": 567.6}
       ],
       "tags": {
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "maxspeed": "90",
-        "name": "Strada Manastirilor",
+        "maxspeed:hgv": "80",
+        "name": "Strada Mănăstirilor",
         "oneway": "no",
         "ref": "DJ157F",
         "smoothness": "good",
         "surface": "asphalt",
-        "surface_survey": "2017NOV_"
+        "surface_survey": "2021JAN_"
       }
     },
     {
       "type": "way",
       "id": 216941936,
-      "timestamp": "2020-09-20T18:58:08Z",
-      "version": 6,
-      "changeset": 91185518,
-      "user": "johnnybegoode",
-      "uid": 10832296,
+      "timestamp": "2021-07-12T12:38:10Z",
+      "version": 7,
+      "changeset": 107840060,
+      "user": "123cargo_user",
+      "uid": 10938823,
       "nodes": [288485578, 2262619867],
       "geometry": [
         {"lat": 47.1980183, "lon": 26.1809974, "z": 543.3},
@@ -7993,25 +7997,26 @@
         {"lat": 47.2005761, "lon": 26.1877812, "z": 531.3}
       ],
       "tags": {
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "maxspeed": "50",
-        "name": "Strada Manastirilor",
+        "maxspeed:type": "RO:urban",
+        "name": "Strada Mănăstirilor",
         "oneway": "no",
         "ref": "DJ157F",
         "smoothness": "good",
         "surface": "asphalt",
-        "surface_survey": "2017NOV_"
+        "surface_survey": "2021JAN_"
       }
     },
     {
       "type": "way",
       "id": 216941938,
-      "timestamp": "2019-01-29T01:33:17Z",
-      "version": 7,
-      "changeset": 66723045,
-      "user": "beep_boop",
-      "uid": 9368512,
+      "timestamp": "2021-07-12T12:38:10Z",
+      "version": 8,
+      "changeset": 107840060,
+      "user": "123cargo_user",
+      "uid": 10938823,
       "nodes": [2262619867, 3728637978],
       "geometry": [
         {"lat": 47.2005761, "lon": 26.1877812, "z": 531.3},
@@ -8021,14 +8026,16 @@
         {"lat": 47.2021195, "lon": 26.191991, "z": 535.3}
       ],
       "tags": {
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "maxspeed": "90",
+        "maxspeed:hgv": "80",
+        "name": "Strada Mănăstirilor",
         "oneway": "no",
         "ref": "DJ157F",
         "smoothness": "good",
         "surface": "asphalt",
-        "surface_survey": "2017NOV_"
+        "surface_survey": "2021JAN_"
       }
     },
     {
@@ -23142,11 +23149,11 @@
     {
       "type": "way",
       "id": 35444773,
-      "timestamp": "2017-11-25T16:15:50Z",
-      "version": 6,
-      "changeset": 54076171,
-      "user": "Traveller RDS",
-      "uid": 5810094,
+      "timestamp": "2021-07-12T12:34:19Z",
+      "version": 7,
+      "changeset": 107839844,
+      "user": "123cargo_user",
+      "uid": 10938823,
       "nodes": [3728637962, 415767491],
       "geometry": [
         {"lat": 47.2208644, "lon": 26.2103151, "z": 471.3},
@@ -23154,28 +23161,30 @@
       ],
       "tags": {
         "bridge": "yes",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "maxspeed": "90",
+        "maxspeed:hgv": "80",
+        "name": "Strada Mănăstirilor",
+        "oneway": "no",
         "ref": "DJ157F",
         "smoothness": "good",
         "surface": "asphalt",
-        "surface_survey": "2017NOV_"
+        "surface_survey": "2021JAN_"
       }
     },
     {
       "type": "way",
       "id": 35444774,
-      "timestamp": "2021-05-31T09:12:16Z",
-      "version": 12,
-      "changeset": 105610934,
-      "user": "Rus Ionut",
-      "uid": 1435498,
-      "nodes": [415767491, 6247606296],
+      "timestamp": "2021-07-12T12:34:19Z",
+      "version": 13,
+      "changeset": 107839844,
+      "user": "123cargo_user",
+      "uid": 10938823,
+      "nodes": [8913777734, 6247606296],
       "geometry": [
-        {"lat": 47.2219143, "lon": 26.2098126, "z": 468.5},
-        {"lat": 47.2220617, "lon": 26.2097469, "z": 468.9},
+        {"lat": 47.2229546, "lon": 26.2093525, "z": 470.4},
         {"lat": 47.223881, "lon": 26.2089334, "z": 472.7},
         {"lat": 47.2240378, "lon": 26.208831, "z": 473.2},
         {"lat": 47.2241073, "lon": 26.208751, "z": 473.5},
@@ -23186,15 +23195,16 @@
         {"lat": 47.2244629, "lon": 26.2079823, "z": 475.3}
       ],
       "tags": {
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "maxspeed": "50",
+        "maxspeed:type": "RO:urban",
         "name": "Strada Mănăstirilor",
         "oneway": "no",
         "ref": "DJ157F",
         "smoothness": "good",
         "surface": "asphalt",
-        "surface_survey": "2017NOV_"
+        "surface_survey": "2021JAN_"
       }
     },
     {
@@ -23871,11 +23881,11 @@
     {
       "type": "way",
       "id": 363013916,
-      "timestamp": "2017-11-25T16:15:52Z",
-      "version": 2,
-      "changeset": 54076171,
-      "user": "Traveller RDS",
-      "uid": 5810094,
+      "timestamp": "2021-07-12T12:38:10Z",
+      "version": 3,
+      "changeset": 107840060,
+      "user": "123cargo_user",
+      "uid": 10938823,
       "nodes": [3672265603, 3672265461],
       "geometry": [
         {"lat": 47.1893161, "lon": 26.1789965, "z": 567.6},
@@ -23883,25 +23893,27 @@
       ],
       "tags": {
         "bridge": "yes",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "maxspeed": "90",
+        "maxspeed:hgv": "80",
+        "name": "Strada Mănăstirilor",
         "oneway": "no",
         "ref": "DJ157F",
         "smoothness": "good",
         "surface": "asphalt",
-        "surface_survey": "2017NOV_"
+        "surface_survey": "2021JAN_"
       }
     },
     {
       "type": "way",
       "id": 363013927,
-      "timestamp": "2020-09-20T18:58:08Z",
-      "version": 5,
-      "changeset": 91185518,
-      "user": "johnnybegoode",
-      "uid": 10832296,
+      "timestamp": "2021-07-12T12:38:10Z",
+      "version": 6,
+      "changeset": 107840060,
+      "user": "123cargo_user",
+      "uid": 10938823,
       "nodes": [3672265607, 288485578],
       "geometry": [
         {"lat": 47.1926254, "lon": 26.1791841, "z": 552.8},
@@ -23917,25 +23929,26 @@
         {"lat": 47.1980183, "lon": 26.1809974, "z": 543.3}
       ],
       "tags": {
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "maxspeed": "90",
-        "name": "Strada Manastirilor",
+        "maxspeed:hgv": "80",
+        "name": "Strada Mănăstirilor",
         "oneway": "no",
         "ref": "DJ157F",
         "smoothness": "good",
         "surface": "asphalt",
-        "surface_survey": "2017NOV_"
+        "surface_survey": "2021JAN_"
       }
     },
     {
       "type": "way",
       "id": 363013934,
-      "timestamp": "2015-07-29T18:33:39Z",
-      "version": 1,
-      "changeset": 32963011,
-      "user": "razor74",
-      "uid": 128281,
+      "timestamp": "2021-07-12T12:38:10Z",
+      "version": 2,
+      "changeset": 107840060,
+      "user": "123cargo_user",
+      "uid": 10938823,
       "nodes": [288485393, 3672265607],
       "geometry": [
         {"lat": 47.1923854, "lon": 26.1794088, "z": 551.7},
@@ -23943,23 +23956,27 @@
       ],
       "tags": {
         "bridge": "yes",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "maxspeed": "90",
+        "maxspeed:hgv": "80",
+        "name": "Strada Mănăstirilor",
         "oneway": "no",
         "ref": "DJ157F",
-        "surface": "asphalt"
+        "smoothness": "good",
+        "surface": "asphalt",
+        "surface_survey": "2021JAN_"
       }
     },
     {
       "type": "way",
       "id": 363013940,
-      "timestamp": "2020-09-20T18:58:08Z",
-      "version": 5,
-      "changeset": 91185518,
-      "user": "johnnybegoode",
-      "uid": 10832296,
+      "timestamp": "2021-07-12T12:38:10Z",
+      "version": 6,
+      "changeset": 107840060,
+      "user": "123cargo_user",
+      "uid": 10938823,
       "nodes": [3672265461, 288485393],
       "geometry": [
         {"lat": 47.18954, "lon": 26.1789459, "z": 568.2},
@@ -23972,15 +23989,16 @@
         {"lat": 47.1923854, "lon": 26.1794088, "z": 551.7}
       ],
       "tags": {
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "maxspeed": "90",
-        "name": "Strada Manastirilor",
+        "maxspeed:hgv": "80",
+        "name": "Strada Mănăstirilor",
         "oneway": "no",
         "ref": "DJ157F",
         "smoothness": "good",
         "surface": "asphalt",
-        "surface_survey": "2017NOV_"
+        "surface_survey": "2021JAN_"
       }
     },
     {
@@ -24686,11 +24704,11 @@
     {
       "type": "way",
       "id": 368967207,
-      "timestamp": "2020-09-20T18:58:08Z",
-      "version": 8,
-      "changeset": 91185518,
-      "user": "johnnybegoode",
-      "uid": 10832296,
+      "timestamp": "2021-07-12T12:34:19Z",
+      "version": 9,
+      "changeset": 107839844,
+      "user": "123cargo_user",
+      "uid": 10938823,
       "nodes": [288485253, 288485096],
       "geometry": [
         {"lat": 47.212417, "lon": 26.2102571, "z": 489.6},
@@ -24714,25 +24732,26 @@
         {"lat": 47.2199285, "lon": 26.2120686, "z": 471.9}
       ],
       "tags": {
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "maxspeed": "90",
-        "name": "Strada Manastirilor",
+        "maxspeed:hgv": "80",
+        "name": "Strada Mănăstirilor",
         "oneway": "no",
         "ref": "DJ157F",
         "smoothness": "good",
         "surface": "asphalt",
-        "surface_survey": "2017NOV_"
+        "surface_survey": "2021JAN_"
       }
     },
     {
       "type": "way",
       "id": 368985573,
-      "timestamp": "2020-09-20T18:58:08Z",
-      "version": 4,
-      "changeset": 91185518,
-      "user": "johnnybegoode",
-      "uid": 10832296,
+      "timestamp": "2021-07-12T12:38:10Z",
+      "version": 5,
+      "changeset": 107840060,
+      "user": "123cargo_user",
+      "uid": 10938823,
       "nodes": [2262614278, 2262617876],
       "geometry": [
         {"lat": 47.1787557, "lon": 26.1752578, "z": 589.5},
@@ -24763,25 +24782,26 @@
         {"lat": 47.1859283, "lon": 26.1797494, "z": 567.4}
       ],
       "tags": {
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "maxspeed": "90",
-        "name": "Strada Manastirilor",
+        "maxspeed:hgv": "80",
+        "name": "Strada Mănăstirilor",
         "oneway": "no",
         "ref": "DJ157F",
         "smoothness": "good",
         "surface": "asphalt",
-        "surface_survey": "2017NOV_"
+        "surface_survey": "2021JAN_"
       }
     },
     {
       "type": "way",
       "id": 368987008,
-      "timestamp": "2015-09-03T19:21:44Z",
-      "version": 1,
-      "changeset": 33779918,
-      "user": "razor74",
-      "uid": 128281,
+      "timestamp": "2021-07-12T12:34:19Z",
+      "version": 2,
+      "changeset": 107839844,
+      "user": "123cargo_user",
+      "uid": 10938823,
       "nodes": [288485096, 3728246138],
       "geometry": [
         {"lat": 47.2199285, "lon": 26.2120686, "z": 471.9},
@@ -24789,23 +24809,27 @@
       ],
       "tags": {
         "bridge": "yes",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "maxspeed": "90",
+        "maxspeed:hgv": "80",
+        "name": "Strada Mănăstirilor",
         "oneway": "no",
         "ref": "DJ157F",
-        "surface": "asphalt"
+        "smoothness": "good",
+        "surface": "asphalt",
+        "surface_survey": "2021JAN_"
       }
     },
     {
       "type": "way",
       "id": 368987009,
-      "timestamp": "2020-09-20T18:58:08Z",
-      "version": 4,
-      "changeset": 91185518,
-      "user": "johnnybegoode",
-      "uid": 10832296,
+      "timestamp": "2021-07-12T12:34:19Z",
+      "version": 5,
+      "changeset": 107839844,
+      "user": "123cargo_user",
+      "uid": 10938823,
       "nodes": [3728246138, 3728637962],
       "geometry": [
         {"lat": 47.2200562, "lon": 26.2119085, "z": 472.3},
@@ -24818,25 +24842,26 @@
         {"lat": 47.2208644, "lon": 26.2103151, "z": 471.3}
       ],
       "tags": {
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "maxspeed": "90",
-        "name": "Strada Manastirilor",
+        "maxspeed:hgv": "80",
+        "name": "Strada Mănăstirilor",
         "oneway": "no",
         "ref": "DJ157F",
         "smoothness": "good",
         "surface": "asphalt",
-        "surface_survey": "2017NOV_"
+        "surface_survey": "2021JAN_"
       }
     },
     {
       "type": "way",
       "id": 369030748,
-      "timestamp": "2015-09-04T04:59:04Z",
-      "version": 1,
-      "changeset": 33785971,
-      "user": "razor74",
-      "uid": 128281,
+      "timestamp": "2021-07-12T12:38:10Z",
+      "version": 2,
+      "changeset": 107840060,
+      "user": "123cargo_user",
+      "uid": 10938823,
       "nodes": [3728637978, 288485582],
       "geometry": [
         {"lat": 47.2021195, "lon": 26.191991, "z": 535.3},
@@ -24844,23 +24869,27 @@
       ],
       "tags": {
         "bridge": "yes",
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "layer": "1",
         "maxspeed": "90",
+        "maxspeed:hgv": "80",
+        "name": "Strada Mănăstirilor",
         "oneway": "no",
         "ref": "DJ157F",
-        "surface": "asphalt"
+        "smoothness": "good",
+        "surface": "asphalt",
+        "surface_survey": "2021JAN_"
       }
     },
     {
       "type": "way",
       "id": 369030749,
-      "timestamp": "2019-01-29T23:32:13Z",
-      "version": 3,
-      "changeset": 66754367,
-      "user": "beep_boop",
-      "uid": 9368512,
+      "timestamp": "2021-07-12T12:38:10Z",
+      "version": 5,
+      "changeset": 107840060,
+      "user": "123cargo_user",
+      "uid": 10938823,
       "nodes": [288485582, 288485253],
       "geometry": [
         {"lat": 47.2022162, "lon": 26.1922875, "z": 535.5},
@@ -24880,14 +24909,16 @@
         {"lat": 47.212417, "lon": 26.2102571, "z": 489.6}
       ],
       "tags": {
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "maxspeed": "90",
+        "maxspeed:hgv": "80",
+        "name": "Strada Mănăstirilor",
         "oneway": "no",
         "ref": "DJ157F",
         "smoothness": "good",
         "surface": "asphalt",
-        "surface_survey": "2017NOV_"
+        "surface_survey": "2021JAN_"
       }
     },
     {
@@ -58977,11 +59008,11 @@
     {
       "type": "way",
       "id": 780252990,
-      "timestamp": "2020-09-20T18:58:08Z",
-      "version": 2,
-      "changeset": 91185518,
-      "user": "johnnybegoode",
-      "uid": 10832296,
+      "timestamp": "2021-07-12T12:38:10Z",
+      "version": 3,
+      "changeset": 107840060,
+      "user": "123cargo_user",
+      "uid": 10938823,
       "nodes": [3712044402, 2262614278],
       "geometry": [
         {"lat": 47.1749643, "lon": 26.1691868, "z": 610.3},
@@ -59013,7 +59044,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "50",
-        "name": "Strada Manastirilor",
+        "name": "Strada Mănăstirilor",
         "oneway": "no",
         "ref": "DJ157F",
         "surface": "asphalt"
@@ -67174,11 +67205,11 @@
     {
       "type": "way",
       "id": 948990188,
-      "timestamp": "2021-05-31T09:12:16Z",
-      "version": 1,
-      "changeset": 105610934,
-      "user": "Rus Ionut",
-      "uid": 1435498,
+      "timestamp": "2021-07-12T12:34:19Z",
+      "version": 2,
+      "changeset": 107839844,
+      "user": "123cargo_user",
+      "uid": 10938823,
       "nodes": [6247606296, 288485227],
       "geometry": [
         {"lat": 47.2244629, "lon": 26.2079823, "z": 475.3},
@@ -67186,15 +67217,16 @@
         {"lat": 47.2264907, "lon": 26.2079264, "z": 481.6}
       ],
       "tags": {
-        "highway": "tertiary",
+        "highway": "secondary",
         "lanes": "2",
         "maxspeed": "50",
+        "maxspeed:type": "RO:urban",
         "name": "Strada Mănăstirilor",
         "oneway": "no",
         "ref": "DJ157F",
         "smoothness": "good",
         "surface": "asphalt",
-        "surface_survey": "2017NOV_"
+        "surface_survey": "2021JAN_"
       }
     },
     {
@@ -68013,6 +68045,33 @@
         "smoothness": "good",
         "surface": "asphalt",
         "surface_survey": "20FEB2011_tud0r@motociclism.ro - drum nou, nemarcat inca"
+      }
+    },
+    {
+      "type": "way",
+      "id": 963651538,
+      "timestamp": "2021-07-12T12:34:19Z",
+      "version": 1,
+      "changeset": 107839844,
+      "user": "123cargo_user",
+      "uid": 10938823,
+      "nodes": [415767491, 8913777734],
+      "geometry": [
+        {"lat": 47.2219143, "lon": 26.2098126, "z": 468.5},
+        {"lat": 47.2220617, "lon": 26.2097469, "z": 468.9},
+        {"lat": 47.2229546, "lon": 26.2093525, "z": 470.4}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "90",
+        "maxspeed:hgv": "80",
+        "name": "Strada Mănăstirilor",
+        "oneway": "no",
+        "ref": "DJ157F",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "surface_survey": "2021JAN_"
       }
     },
     {
