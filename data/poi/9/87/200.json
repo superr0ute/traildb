@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-07-11T23:59:59Z",
-    "timestamp_osm_base": "2021-07-12T02:54:28Z",
+    "timestamp_osm_date": "2021-07-12T23:59:59Z",
+    "timestamp_osm_base": "2021-07-13T02:59:57Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -60,15 +60,16 @@
       "id": 150943454,
       "lat": 36.1012355,
       "lon": -118.8280675,
-      "timestamp": "2019-02-17T03:20:54Z",
-      "version": 4,
-      "changeset": 67268521,
-      "user": "b-jazz",
-      "uid": 5800005,
+      "timestamp": "2021-07-12T20:41:03Z",
+      "version": 5,
+      "changeset": 107861890,
+      "user": "AxelBoldt",
+      "uid": 175702,
       "tags": {
-        "addr:city": "Springville, CA",
+        "addr:city": "Springville",
         "addr:housenumber": "33100",
         "addr:postcode": "93265",
+        "addr:state": "CA",
         "addr:street": "California 190",
         "gnis:Class": "Populated Place",
         "gnis:County": "Tulare",
@@ -1721,22 +1722,6 @@
     },
     {
       "type": "node",
-      "id": 4915813021,
-      "lat": 36.18925,
-      "lon": -118.6641177,
-      "timestamp": "2018-11-08T01:45:52Z",
-      "version": 3,
-      "changeset": 64278633,
-      "user": "flockfinder",
-      "uid": 1616228,
-      "tags": {
-        "name": "Wishon Campground",
-        "name:en": "Wishon Campground",
-        "tourism": "camp_site"
-      }
-    },
-    {
-      "type": "node",
       "id": 5221939836,
       "lat": 36.5795537,
       "lon": -118.2935867,
@@ -2089,8 +2074,8 @@
       "user": "dima",
       "uid": 50743,
       "tags": {
-        "name": "Quaking Aspen",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "name": "Quaking Aspen"
       }
     },
     {
@@ -3400,15 +3385,15 @@
       },
       "nodes": [],
       "tags": {
+        "wheelchair": "yes",
+        "tourism": "camp_site",
+        "smoking": "yes",
         "barrier": "fence",
         "drinking_water": "yes",
         "internet_access": "no",
         "name": "Lower Peppermint Creek",
         "operator": "USFS",
-        "sanitary_dump_station": "no",
-        "smoking": "yes",
-        "tourism": "camp_site",
-        "wheelchair": "yes"
+        "sanitary_dump_station": "no"
       }
     },
     {
@@ -3513,6 +3498,45 @@
         "name": "Bearpaw Meadow High Sierra Camp",
         "tourism": "camp_site",
         "wikipedia": "en:Bearpaw Meadow High Sierra Camp"
+      }
+    },
+    {
+      "type": "way",
+      "id": 963703394,
+      "timestamp": "2021-07-12T16:16:23Z",
+      "version": 1,
+      "changeset": 107851182,
+      "user": "OddlyAngled",
+      "uid": 11607814,
+      "center": {
+        "lat": 36.5187462,
+        "lon": -118.5325456
+      },
+      "nodes": [],
+      "tags": {
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 963791764,
+      "timestamp": "2021-07-12T23:51:14Z",
+      "version": 1,
+      "changeset": 107866305,
+      "user": "OddlyAngled",
+      "uid": 11607814,
+      "center": {
+        "lat": 36.1896612,
+        "lon": -118.6634803
+      },
+      "nodes": [],
+      "tags": {
+        "capacity": "34",
+        "fee": "yes",
+        "name": "Wishon Campground",
+        "reservation": "recommended",
+        "tourism": "camp_site",
+        "website": "https://www.fs.usda.gov/recarea/sequoia/recreation/camping-cabins/recarea/?recid=79833&actid=29"
       }
     }
   ]

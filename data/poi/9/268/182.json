@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-07-11T23:59:59Z",
-    "timestamp_osm_base": "2021-07-12T04:28:07Z",
+    "timestamp_osm_date": "2021-07-12T23:59:59Z",
+    "timestamp_osm_base": "2021-07-13T04:30:30Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -48965,13 +48965,17 @@
       "id": 6740576200,
       "lat": 45.6995896,
       "lon": 8.4580035,
-      "timestamp": "2019-08-23T23:32:39Z",
-      "version": 1,
-      "changeset": 73685971,
-      "user": "simoz123osm",
-      "uid": 10209926,
+      "timestamp": "2021-07-12T16:54:11Z",
+      "version": 2,
+      "changeset": 107853021,
+      "user": "Francoerbi41",
+      "uid": 4982687,
       "tags": {
-        "amenity": "drinking_water"
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
+        "wheelchair": "yes"
       }
     },
     {
@@ -58758,6 +58762,26 @@
       }
     },
     {
+      "type": "node",
+      "id": 8913544561,
+      "lat": 45.6421126,
+      "lon": 8.61712,
+      "timestamp": "2021-07-12T10:52:40Z",
+      "version": 1,
+      "changeset": 107833069,
+      "user": "gallenblog",
+      "uid": 2101989,
+      "tags": {
+        "addr:city": "Pombia",
+        "addr:housenumber": "3",
+        "addr:postcode": "28050",
+        "addr:street": "Via Larino",
+        "name": "Safari Park",
+        "tourism": "camp_site",
+        "website": "https://safaripark.it/attrazioni/safari-camping/"
+      }
+    },
+    {
       "type": "way",
       "id": 26293953,
       "timestamp": "2016-05-05T19:34:54Z",
@@ -63202,9 +63226,9 @@
     {
       "type": "way",
       "id": 292796596,
-      "timestamp": "2021-03-10T12:19:28Z",
-      "version": 9,
-      "changeset": 100778698,
+      "timestamp": "2021-07-12T22:15:46Z",
+      "version": 11,
+      "changeset": 107864396,
       "user": "Aiman",
       "uid": 67550,
       "center": {
@@ -63214,12 +63238,15 @@
       "nodes": [],
       "tags": {
         "building": "retail",
+        "building:levels": "2",
         "changing_table": "no",
         "changing_table:fee": "no",
         "height": "12",
         "level": "1",
         "name": "Bennet",
         "opening_hours": "Mo-Su 09:00-20:30",
+        "roof:levels": "1",
+        "roof:shape": "flat",
         "shop": "supermarket",
         "source": "Bing",
         "toilets": "yes",
