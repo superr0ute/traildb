@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-07-12T23:59:59Z",
-    "timestamp_osm_base": "2021-07-13T02:59:57Z",
+    "timestamp_osm_date": "2021-07-13T23:59:59Z",
+    "timestamp_osm_base": "2021-07-14T02:55:29Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2068,14 +2068,18 @@
       "id": 6872498677,
       "lat": 36.1216877,
       "lon": -118.5458821,
-      "timestamp": "2019-10-12T02:42:04Z",
-      "version": 1,
-      "changeset": 75590884,
-      "user": "dima",
-      "uid": 50743,
+      "timestamp": "2021-07-13T00:29:47Z",
+      "version": 2,
+      "changeset": 107866864,
+      "user": "OddlyAngled",
+      "uid": 11607814,
       "tags": {
+        "capacity": "32",
+        "fee": "yes",
+        "name": "Quaking Aspen",
+        "reservation": "recommended",
         "tourism": "camp_site",
-        "name": "Quaking Aspen"
+        "website": "https://www.fs.usda.gov/recarea/sequoia/recarea/?recid=79812"
       }
     },
     {
@@ -3052,6 +3056,27 @@
       }
     },
     {
+      "type": "node",
+      "id": 8915009915,
+      "lat": 36.1415311,
+      "lon": -118.598367,
+      "timestamp": "2021-07-13T00:29:47Z",
+      "version": 1,
+      "changeset": 107866864,
+      "user": "OddlyAngled",
+      "uid": 11607814,
+      "tags": {
+        "capacity": "15",
+        "ele": "1504",
+        "fee": "yes",
+        "gnis:feature_id": "1667555",
+        "name": "Belknap Campground",
+        "reservation": "recommended",
+        "tourism": "camp_site",
+        "website": "https://www.fs.usda.gov/recarea/sequoia/recreation/camping-cabins/recarea/?recid=79889&actid=29"
+      }
+    },
+    {
       "type": "way",
       "id": 163726478,
       "timestamp": "2016-11-28T05:06:03Z",
@@ -3374,26 +3399,29 @@
     {
       "type": "way",
       "id": 438360307,
-      "timestamp": "2016-09-10T16:58:25Z",
-      "version": 2,
-      "changeset": 42062899,
-      "user": "Bryce C Nesbitt",
-      "uid": 355242,
+      "timestamp": "2021-07-13T00:29:47Z",
+      "version": 3,
+      "changeset": 107866864,
+      "user": "OddlyAngled",
+      "uid": 11607814,
       "center": {
         "lat": 36.0664637,
         "lon": -118.4906468
       },
       "nodes": [],
       "tags": {
-        "wheelchair": "yes",
-        "tourism": "camp_site",
-        "smoking": "yes",
         "barrier": "fence",
+        "capacity": "17",
         "drinking_water": "yes",
         "internet_access": "no",
         "name": "Lower Peppermint Creek",
         "operator": "USFS",
-        "sanitary_dump_station": "no"
+        "reservation": "no",
+        "sanitary_dump_station": "no",
+        "smoking": "yes",
+        "tourism": "camp_site",
+        "website": "https://www.fs.usda.gov/recarea/sequoia/recarea/?recid=79794",
+        "wheelchair": "yes"
       }
     },
     {
@@ -3537,6 +3565,28 @@
         "reservation": "recommended",
         "tourism": "camp_site",
         "website": "https://www.fs.usda.gov/recarea/sequoia/recreation/camping-cabins/recarea/?recid=79833&actid=29"
+      }
+    },
+    {
+      "type": "way",
+      "id": 963794929,
+      "timestamp": "2021-07-13T00:29:47Z",
+      "version": 1,
+      "changeset": 107866864,
+      "user": "OddlyAngled",
+      "uid": 11607814,
+      "center": {
+        "lat": 36.085445,
+        "lon": -118.5215271
+      },
+      "nodes": [],
+      "tags": {
+        "capacity": "19",
+        "fee": "no",
+        "name": "Upper Peppermint Dispersed Area",
+        "reservation": "no",
+        "tourism": "camp_site",
+        "website": "https://www.fs.usda.gov/recarea/sequoia/recarea/?recid=79829"
       }
     }
   ]
