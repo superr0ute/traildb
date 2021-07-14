@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-12T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-13T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -3001,12 +3001,13 @@
     {
       "type": "relation",
       "id": 9623483,
-      "timestamp": "2020-06-19T17:41:57Z",
-      "version": 9,
-      "changeset": 86888294,
-      "user": "Ddoolittle86",
-      "uid": 9366099,
+      "timestamp": "2021-07-13T07:49:23Z",
+      "version": 10,
+      "changeset": 107887685,
+      "user": "aleksaJov",
+      "uid": 7436199,
       "members": [
+        {"type": "way", "ref": 301152095, "role": ""},
         {"type": "way", "ref": 108714134, "role": ""},
         {"type": "way", "ref": 86575930, "role": ""},
         {"type": "way", "ref": 165095381, "role": ""},
@@ -3024,8 +3025,6 @@
         {"type": "way", "ref": 412553503, "role": ""},
         {"type": "way", "ref": 32005119, "role": ""},
         {"type": "way", "ref": 32005122, "role": ""},
-        {"type": "way", "ref": 412553482, "role": ""},
-        {"type": "way", "ref": 412553481, "role": ""},
         {"type": "way", "ref": 301152091, "role": ""},
         {"type": "way", "ref": 301152088, "role": ""},
         {"type": "way", "ref": 301152090, "role": ""},
@@ -38324,6 +38323,37 @@
     },
     {
       "type": "way",
+      "id": 301152095,
+      "timestamp": "2019-08-18T04:10:01Z",
+      "version": 3,
+      "changeset": 73455324,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [2480881236, 2480881236],
+      "geometry": [
+        {"lat": -37.7866556, "lon": 175.2805579},
+        {"lat": -37.7865965, "lon": 175.2805363},
+        {"lat": -37.7865694, "lon": 175.2805173},
+        {"lat": -37.7864899, "lon": 175.2804436},
+        {"lat": -37.7865764, "lon": 175.2802938},
+        {"lat": -37.786604, "lon": 175.2803206},
+        {"lat": -37.7866623, "lon": 175.2802181},
+        {"lat": -37.7866693, "lon": 175.280225},
+        {"lat": -37.7867667, "lon": 175.2803202},
+        {"lat": -37.7867715, "lon": 175.2803249},
+        {"lat": -37.786778, "lon": 175.280331},
+        {"lat": -37.7866556, "lon": 175.2805579}
+      ],
+      "tags": {
+        "area": "yes",
+        "bicycle": "dismount",
+        "highway": "pedestrian",
+        "motor_vehicle": "no",
+        "name": "Ward Street"
+      }
+    },
+    {
+      "type": "way",
       "id": 302352775,
       "timestamp": "2020-12-14T20:16:17Z",
       "version": 5,
@@ -53440,48 +53470,6 @@
         {"lat": -37.787165, "lon": 175.2796406},
         {"lat": -37.7872529, "lon": 175.2794907},
         {"lat": -37.7870233, "lon": 175.2798945}
-      ],
-      "tags": {
-        "area": "yes",
-        "bicycle": "dismount",
-        "highway": "pedestrian",
-        "motor_vehicle": "no",
-        "name": "Ward Street"
-      }
-    },
-    {
-      "type": "way",
-      "id": 412553481,
-      "timestamp": "2016-04-21T22:26:45Z",
-      "version": 1,
-      "changeset": 38770094,
-      "user": "more-ron",
-      "uid": 277782,
-      "nodes": [3052505948, 3052505949],
-      "geometry": [
-        {"lat": -37.7867715, "lon": 175.2803249},
-        {"lat": -37.786778, "lon": 175.280331}
-      ],
-      "tags": {
-        "area": "yes",
-        "bicycle": "dismount",
-        "highway": "pedestrian",
-        "motor_vehicle": "no",
-        "name": "Ward Street"
-      }
-    },
-    {
-      "type": "way",
-      "id": 412553482,
-      "timestamp": "2016-04-21T22:26:45Z",
-      "version": 1,
-      "changeset": 38770094,
-      "user": "more-ron",
-      "uid": 277782,
-      "nodes": [3052505949, 2480881236],
-      "geometry": [
-        {"lat": -37.786778, "lon": 175.280331},
-        {"lat": -37.7866556, "lon": 175.2805579}
       ],
       "tags": {
         "area": "yes",
