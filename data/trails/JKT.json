@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-13T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-14T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10909145,
-      "timestamp": "2021-06-19T21:12:01Z",
-      "version": 1412,
-      "changeset": 106646598,
+      "timestamp": "2021-07-14T20:48:03Z",
+      "version": 1413,
+      "changeset": 108001268,
       "user": "Wulz",
       "uid": 10773975,
       "members": [
@@ -1316,6 +1316,7 @@
         {"type": "way", "ref": 143918257, "role": ""},
         {"type": "way", "ref": 38160149, "role": ""},
         {"type": "way", "ref": 702209930, "role": ""},
+        {"type": "way", "ref": 964413500, "role": ""},
         {"type": "way", "ref": 389603358, "role": ""},
         {"type": "way", "ref": 389606529, "role": ""},
         {"type": "way", "ref": 816296338, "role": ""},
@@ -37755,11 +37756,11 @@
     {
       "type": "way",
       "id": 389603358,
-      "timestamp": "2020-12-18T10:49:30Z",
-      "version": 11,
-      "changeset": 96062753,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-07-14T20:50:49Z",
+      "version": 12,
+      "changeset": 108001360,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [402971575, 3927732677],
       "geometry": [
         {"lat": 46.609074, "lon": 12.8677883},
@@ -37785,8 +37786,8 @@
         "ele": "1970",
         "foot": "yes",
         "highway": "path",
-        "incline": "10%",
-        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: SI A02 + 144",
+        "incline": "5%",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: SI A02 + 144 + Anbindung E 25b",
         "sac_scale": "mountain_hiking",
         "surface": "gravel",
         "width": "1"
@@ -37830,11 +37831,11 @@
     {
       "type": "way",
       "id": 389606529,
-      "timestamp": "2020-12-17T11:27:13Z",
-      "version": 7,
-      "changeset": 96001959,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-07-14T20:52:38Z",
+      "version": 8,
+      "changeset": 108001403,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [3927732677, 3927732701],
       "geometry": [
         {"lat": 46.6110515, "lon": 12.867111},
@@ -37870,6 +37871,7 @@
         "highway": "path",
         "horse": "no",
         "incline": "15%",
+        "note": "Julius-Kugy-Alpin-Trail + Anbindung E 25b",
         "sac_scale": "hiking",
         "surface": "gravel",
         "trail_visibility": "intermediate",
@@ -56587,12 +56589,12 @@
     {
       "type": "way",
       "id": 702209930,
-      "timestamp": "2020-12-18T10:49:30Z",
-      "version": 8,
-      "changeset": 96062753,
-      "user": "gebux",
-      "uid": 1870749,
-      "nodes": [402971479, 402971575],
+      "timestamp": "2021-07-14T20:48:03Z",
+      "version": 9,
+      "changeset": 108001268,
+      "user": "Wulz",
+      "uid": 10773975,
+      "nodes": [402971479, 7276253680],
       "geometry": [
         {"lat": 46.6079516, "lon": 12.8682067},
         {"lat": 46.6080123, "lon": 12.8681654},
@@ -56601,8 +56603,7 @@
         {"lat": 46.6085225, "lon": 12.8680506},
         {"lat": 46.6087111, "lon": 12.8678506},
         {"lat": 46.6088544, "lon": 12.867802},
-        {"lat": 46.6089573, "lon": 12.8677956},
-        {"lat": 46.609074, "lon": 12.8677883}
+        {"lat": 46.6089573, "lon": 12.8677956}
       ],
       "tags": {
         "ele": "1970",
@@ -71488,6 +71489,30 @@
         "surface": "unpaved",
         "tracktype": "grade3",
         "width": "2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964413500,
+      "timestamp": "2021-07-14T20:50:49Z",
+      "version": 2,
+      "changeset": 108001360,
+      "user": "Wulz",
+      "uid": 10773975,
+      "nodes": [7276253680, 402971575],
+      "geometry": [
+        {"lat": 46.6089573, "lon": 12.8677956},
+        {"lat": 46.609074, "lon": 12.8677883}
+      ],
+      "tags": {
+        "ele": "1970",
+        "foot": "yes",
+        "highway": "path",
+        "incline": "10%",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: SI A01 + 144 + Anbindung e 25b",
+        "sac_scale": "mountain_hiking",
+        "surface": "gravel",
+        "width": "1"
       }
     },
     {

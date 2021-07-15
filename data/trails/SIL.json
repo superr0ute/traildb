@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-13T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-14T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1856,11 +1856,11 @@
     {
       "type": "relation",
       "id": 7700147,
-      "timestamp": "2021-01-12T09:52:10Z",
-      "version": 17,
-      "changeset": 97361935,
-      "user": "dannomaru",
-      "uid": 4719309,
+      "timestamp": "2021-07-14T09:02:55Z",
+      "version": 19,
+      "changeset": 107963755,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
       "members": [
         {"type": "way", "ref": 275344219, "role": ""},
         {"type": "way", "ref": 250878518, "role": ""},
@@ -1929,9 +1929,13 @@
         {"type": "way", "ref": 35554686, "role": ""},
         {"type": "way", "ref": 105392409, "role": ""},
         {"type": "way", "ref": 280289557, "role": ""},
-        {"type": "way", "ref": 47015269, "role": ""},
-        {"type": "way", "ref": 375809057, "role": ""},
-        {"type": "way", "ref": 894530602, "role": ""}
+        {"type": "way", "ref": 271908382, "role": ""},
+        {"type": "way", "ref": 271908372, "role": ""},
+        {"type": "way", "ref": 894519502, "role": ""},
+        {"type": "way", "ref": 964234409, "role": ""},
+        {"type": "way", "ref": 628331604, "role": ""},
+        {"type": "way", "ref": 375809075, "role": ""},
+        {"type": "way", "ref": 279408156, "role": ""}
       ],
       "tags": {
         "from": "Rifugio Boffalora",
@@ -32803,6 +32807,26 @@
     },
     {
       "type": "way",
+      "id": 271908372,
+      "timestamp": "2014-04-04T20:57:04Z",
+      "version": 1,
+      "changeset": 21503570,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [2768357750, 2768357775],
+      "geometry": [
+        {"lat": 46.0191938, "lon": 9.2236396},
+        {"lat": 46.0193067, "lon": 9.2235047},
+        {"lat": 46.0197733, "lon": 9.2228647}
+      ],
+      "tags": {
+        "highway": "service",
+        "service": "driveway",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
       "id": 271908377,
       "timestamp": "2014-04-04T20:57:04Z",
       "version": 1,
@@ -32918,6 +32942,28 @@
         "symbol": "painted red-white-red marks and flags plates with red-white-red bars and black number \"2\"",
         "trail_visibility": "good",
         "trailblazed": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 271908382,
+      "timestamp": "2021-07-14T09:00:45Z",
+      "version": 3,
+      "changeset": 107963600,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
+      "nodes": [2768357677, 2768357750],
+      "geometry": [
+        {"lat": 46.0188885, "lon": 9.2232926},
+        {"lat": 46.0190131, "lon": 9.2234039},
+        {"lat": 46.0190761, "lon": 9.2234861},
+        {"lat": 46.0191808, "lon": 9.2236227},
+        {"lat": 46.0191938, "lon": 9.2236396}
+      ],
+      "tags": {
+        "highway": "service",
+        "service": "driveway",
+        "surface": "paving_stones"
       }
     },
     {
@@ -34404,6 +34450,34 @@
     },
     {
       "type": "way",
+      "id": 279408156,
+      "timestamp": "2020-05-17T08:55:29Z",
+      "version": 5,
+      "changeset": 85327230,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [1338807661, 1209741520],
+      "geometry": [
+        {"lat": 46.0229614, "lon": 9.2148532},
+        {"lat": 46.0229761, "lon": 9.2148308},
+        {"lat": 46.0229898, "lon": 9.2148099},
+        {"lat": 46.0231399, "lon": 9.2145829},
+        {"lat": 46.0233056, "lon": 9.2142222},
+        {"lat": 46.0239307, "lon": 9.213314},
+        {"lat": 46.0239365, "lon": 9.2133056},
+        {"lat": 46.0240243, "lon": 9.213178}
+      ],
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "path",
+        "railway": "abandoned",
+        "segregated": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
       "id": 27960003,
       "timestamp": "2010-05-29T13:14:44Z",
       "version": 5,
@@ -34574,12 +34648,12 @@
     {
       "type": "way",
       "id": 280289557,
-      "timestamp": "2016-07-12T17:31:37Z",
-      "version": 3,
-      "changeset": 40693103,
-      "user": "jeka p",
-      "uid": 2385757,
-      "nodes": [1214132222, 599817108],
+      "timestamp": "2021-07-14T09:00:45Z",
+      "version": 4,
+      "changeset": 107963600,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
+      "nodes": [1214132222, 2768357677],
       "geometry": [
         {"lat": 46.0186843, "lon": 9.2244065},
         {"lat": 46.0186698, "lon": 9.2243281},
@@ -34587,13 +34661,7 @@
         {"lat": 46.0186715, "lon": 9.224017},
         {"lat": 46.0186987, "lon": 9.2238708},
         {"lat": 46.0187705, "lon": 9.2236592},
-        {"lat": 46.0188885, "lon": 9.2232926},
-        {"lat": 46.0191154, "lon": 9.2225663},
-        {"lat": 46.0192475, "lon": 9.2222981},
-        {"lat": 46.0193844, "lon": 9.2220597},
-        {"lat": 46.019521, "lon": 9.221792},
-        {"lat": 46.0196254, "lon": 9.2215219},
-        {"lat": 46.0205422, "lon": 9.2188017}
+        {"lat": 46.0188885, "lon": 9.2232926}
       ],
       "tags": {
         "highway": "secondary",
@@ -52313,35 +52381,6 @@
     },
     {
       "type": "way",
-      "id": 375809057,
-      "timestamp": "2021-05-21T18:50:54Z",
-      "version": 6,
-      "changeset": 105106491,
-      "user": "ivanbranco",
-      "uid": 11220113,
-      "nodes": [307773123, 1381532419],
-      "geometry": [
-        {"lat": 46.0237882, "lon": 9.212891},
-        {"lat": 46.0242157, "lon": 9.2121945},
-        {"lat": 46.0243183, "lon": 9.2119266},
-        {"lat": 46.024352, "lon": 9.2118229},
-        {"lat": 46.0243698, "lon": 9.2116819},
-        {"lat": 46.0244228, "lon": 9.2111476},
-        {"lat": 46.0244716, "lon": 9.210924},
-        {"lat": 46.0246637, "lon": 9.2104066},
-        {"lat": 46.0247059, "lon": 9.2102508}
-      ],
-      "tags": {
-        "highway": "secondary",
-        "maxspeed": "50",
-        "name": "Via Italia",
-        "oneway": "no",
-        "ref": "SS340",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
       "id": 375809065,
       "timestamp": "2020-04-29T11:09:16Z",
       "version": 3,
@@ -52399,6 +52438,22 @@
         "ref": "SP8",
         "surface": "asphalt"
       }
+    },
+    {
+      "type": "way",
+      "id": 375809075,
+      "timestamp": "2015-10-18T15:47:28Z",
+      "version": 1,
+      "changeset": 34713931,
+      "user": "sabas88",
+      "uid": 454589,
+      "nodes": [1338807659, 1338807661],
+      "geometry": [
+        {"lat": 46.0228515, "lon": 9.2156608},
+        {"lat": 46.0228726, "lon": 9.2153321},
+        {"lat": 46.0229614, "lon": 9.2148532}
+      ],
+      "tags": {"highway": "service", "surface": "dirt", "tracktype": "grade3"}
     },
     {
       "type": "way",
@@ -64122,30 +64177,6 @@
         {"lat": 46.0021691, "lon": 9.213612}
       ],
       "tags": {"highway": "path", "mtb:scale": "2", "trail_visibility": "good"}
-    },
-    {
-      "type": "way",
-      "id": 47015269,
-      "timestamp": "2020-07-22T20:59:12Z",
-      "version": 27,
-      "changeset": 88368741,
-      "user": "Ysogo",
-      "uid": 6220204,
-      "nodes": [599817108, 1338807666],
-      "geometry": [
-        {"lat": 46.0205422, "lon": 9.2188017},
-        {"lat": 46.0208992, "lon": 9.2176775},
-        {"lat": 46.0221148, "lon": 9.2157505},
-        {"lat": 46.0224162, "lon": 9.2148971},
-        {"lat": 46.0227257, "lon": 9.2144233}
-      ],
-      "tags": {
-        "highway": "secondary",
-        "maxspeed": "50",
-        "name": "Strada statale 340 Regina",
-        "ref": "SS340",
-        "surface": "asphalt"
-      }
     },
     {
       "type": "way",
@@ -81112,6 +81143,27 @@
     },
     {
       "type": "way",
+      "id": 628331604,
+      "timestamp": "2018-09-26T15:55:52Z",
+      "version": 1,
+      "changeset": 62950873,
+      "user": "Max--",
+      "uid": 34555,
+      "nodes": [1338807651, 1338807659],
+      "geometry": [
+        {"lat": 46.0222971, "lon": 9.2160273},
+        {"lat": 46.0223113, "lon": 9.2157769},
+        {"lat": 46.0224068, "lon": 9.2156669},
+        {"lat": 46.0225142, "lon": 9.2156542},
+        {"lat": 46.0226396, "lon": 9.2156834},
+        {"lat": 46.0226874, "lon": 9.2157373},
+        {"lat": 46.0227548, "lon": 9.2157489},
+        {"lat": 46.0228515, "lon": 9.2156608}
+      ],
+      "tags": {"highway": "track", "surface": "dirt", "tracktype": "grade3"}
+    },
+    {
+      "type": "way",
       "id": 628593235,
       "timestamp": "2021-02-02T17:18:39Z",
       "version": 3,
@@ -97199,26 +97251,34 @@
     },
     {
       "type": "way",
-      "id": 894530602,
-      "timestamp": "2021-05-21T18:50:54Z",
-      "version": 2,
-      "changeset": 105106491,
-      "user": "ivanbranco",
-      "uid": 11220113,
-      "nodes": [1338807666, 307773123],
+      "id": 894519502,
+      "timestamp": "2021-01-12T09:11:19Z",
+      "version": 1,
+      "changeset": 97358797,
+      "user": "dannomaru",
+      "uid": 4719309,
+      "nodes": [2768357775, 8314379924],
       "geometry": [
-        {"lat": 46.0227257, "lon": 9.2144233},
-        {"lat": 46.0235868, "lon": 9.2131942},
-        {"lat": 46.0237882, "lon": 9.212891}
+        {"lat": 46.0197733, "lon": 9.2228647},
+        {"lat": 46.0200293, "lon": 9.2225145},
+        {"lat": 46.0201279, "lon": 9.2222581},
+        {"lat": 46.0201796, "lon": 9.2220109},
+        {"lat": 46.0202684, "lon": 9.2218695},
+        {"lat": 46.020425, "lon": 9.2217675},
+        {"lat": 46.020574, "lon": 9.221589},
+        {"lat": 46.0207523, "lon": 9.2213424},
+        {"lat": 46.0208769, "lon": 9.2211541},
+        {"lat": 46.0210375, "lon": 9.2210789},
+        {"lat": 46.0211794, "lon": 9.220919},
+        {"lat": 46.0212721, "lon": 9.2208019},
+        {"lat": 46.0213294, "lon": 9.2206201},
+        {"lat": 46.0215212, "lon": 9.2205243},
+        {"lat": 46.0216309, "lon": 9.2204305},
+        {"lat": 46.0218104, "lon": 9.2202868},
+        {"lat": 46.0219436, "lon": 9.2201844},
+        {"lat": 46.0220577, "lon": 9.2200874}
       ],
-      "tags": {
-        "highway": "secondary",
-        "maxspeed": "50",
-        "name": "Via Italia",
-        "oneway": "no",
-        "ref": "SS340",
-        "surface": "asphalt"
-      }
+      "tags": {"highway": "footway"}
     },
     {
       "type": "way",
@@ -98767,6 +98827,37 @@
         "name": "207-3V Muceno_Dumenza",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964234409,
+      "timestamp": "2021-07-14T09:00:45Z",
+      "version": 1,
+      "changeset": 107963600,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
+      "nodes": [8314379924, 1338807651],
+      "geometry": [
+        {"lat": 46.0220577, "lon": 9.2200874},
+        {"lat": 46.0220454, "lon": 9.2197851},
+        {"lat": 46.0221357, "lon": 9.2192247},
+        {"lat": 46.0221015, "lon": 9.2186407},
+        {"lat": 46.0218608, "lon": 9.2172757},
+        {"lat": 46.0218266, "lon": 9.2170818},
+        {"lat": 46.0218336, "lon": 9.2168672},
+        {"lat": 46.0218856, "lon": 9.2166996},
+        {"lat": 46.0219697, "lon": 9.2165339},
+        {"lat": 46.0222971, "lon": 9.2160273}
+      ],
+      "tags": {
+        "highway": "cycleway",
+        "maxweight": "5",
+        "motorcycle": "no",
+        "name": "Pista CIclabile",
+        "railway": "abandoned",
+        "segregated": "no",
+        "surface": "asphalt"
       }
     },
     {
