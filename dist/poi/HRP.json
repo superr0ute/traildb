@@ -19412,15 +19412,15 @@
         "@poi": "mountain-pass",
         "@distance": 10.1,
         "@id": "n4817847064",
-        "@changeset": 107213921,
-        "@timestamp": "2021-06-30T14:56:43Z",
-        "@version": 4,
-        "@uid": 2047207,
-        "@user": "ramonz",
+        "@changeset": 107998220,
+        "@timestamp": "2021-07-14T19:12:51Z",
+        "@version": 5,
+        "@uid": 214864,
+        "@user": "Mendi",
         "alt_name": "Urdaitzeko Lephua",
         "ele": 1416,
         "mountain_pass": "yes",
-        "name": "Arrakogoitiko lepoa",
+        "name": "Collado de Arrakogoiti/Arrakogoitiko lepoa",
         "name:es": "Collado de Arrakogoiti",
         "name:fr": "Port d'Ourdayté",
         "natural": "saddle"
@@ -20424,11 +20424,11 @@
         "@poi": "alpine-hut",
         "@distance": 222.5,
         "@id": "w88737343",
-        "@changeset": 90841186,
-        "@timestamp": "2020-09-14T05:14:09Z",
-        "@version": 6,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 107998372,
+        "@timestamp": "2021-07-14T19:17:24Z",
+        "@version": 7,
+        "@uid": 214864,
+        "@user": "Mendi",
         "addr:city": "Isaba",
         "addr:housenumber": "137",
         "addr:postcode": "31417",
@@ -20437,7 +20437,7 @@
         "capacity": 56,
         "ele": 1418,
         "email": "belaguarefugio@gmail.com",
-        "name": "Belaguako aterpea",
+        "name": "Refugio de Belagua/Belaguako aterpea",
         "name:es": "Refugio de Belagua",
         "name:fr": "Refuge de Belagua",
         "phone": "+34 623 10 73 17",
@@ -35986,6 +35986,56 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 4622.6,
+        "@id": "n8919757401",
+        "@changeset": 107986403,
+        "@timestamp": "2021-07-14T14:33:02Z",
+        "@version": 1,
+        "@uid": 3160555,
+        "@user": "Frederic Pailler",
+        "brand": "Spar",
+        "brand:wikidata": "Q610492",
+        "brand:wikipedia": "en:Spar (retailer)",
+        "name": "Spar",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.070493,
+          42.5768201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 4816.5,
+        "@id": "n8919757404",
+        "@changeset": 107986403,
+        "@timestamp": "2021-07-14T14:33:02Z",
+        "@version": 1,
+        "@uid": 3160555,
+        "@user": "Frederic Pailler",
+        "brand": "Proxi",
+        "brand:wikidata": "Q3408522",
+        "brand:wikipedia": "fr:Proxi",
+        "name": "Proxi",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0722788,
+          42.5781051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "alpine-hut",
         "@distance": 117.5,
         "@id": "w62439423",
@@ -36200,39 +36250,6 @@
         "coordinates": [
           1.9783791,
           42.5644469
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 122.6,
-        "@id": "w358317385",
-        "@changeset": 99476261,
-        "@timestamp": "2021-02-17T20:31:18Z",
-        "@version": 6,
-        "@uid": 8833132,
-        "@user": "2-wheels",
-        "building": "yes",
-        "capacity": 10,
-        "description:fr": "2019-12 : Solide bâtisse en pierre. Ouvert toute l'année. Se divise en 2 parties : - La partie de gauche avec 10 sommiers métalliques superposés et un poêle - La partie de droite, réservée au berger plus : - 1 table - 1 banc - 1 cheminée - Pharmacie",
-        "ele": 2180,
-        "fireplace": "yes",
-        "name": "Refugi del Siscaró",
-        "note": "301",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
-        "stove": "no",
-        "tourism": "wilderness_hut",
-        "website": "https://visitandorra.com/es/dormir/refugio-cabana-de-siscaro/",
-        "wikidata": "Q11945090",
-        "wikipedia": "fr:Cabane de Siscaró"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.7059982,
-          42.5948629
         ]
       }
     },
@@ -38951,6 +38968,39 @@
         "coordinates": [
           1.2141049,
           42.7253667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 122.6,
+        "@id": "w358317385",
+        "@changeset": 99476261,
+        "@timestamp": "2021-02-17T20:31:18Z",
+        "@version": 6,
+        "@uid": 8833132,
+        "@user": "2-wheels",
+        "building": "yes",
+        "capacity": 10,
+        "description:fr": "2019-12 : Solide bâtisse en pierre. Ouvert toute l'année. Se divise en 2 parties : - La partie de gauche avec 10 sommiers métalliques superposés et un poêle - La partie de droite, réservée au berger plus : - 1 table - 1 banc - 1 cheminée - Pharmacie",
+        "ele": 2180,
+        "fireplace": "yes",
+        "name": "Refugi del Siscaró",
+        "note": "301",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "stove": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://visitandorra.com/es/dormir/refugio-cabana-de-siscaro/",
+        "wikidata": "Q11945090",
+        "wikipedia": "fr:Cabane de Siscaró"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7059982,
+          42.5948629
         ]
       }
     },
@@ -42706,15 +42756,16 @@
         "@poi": "foodshop_supermarket",
         "@distance": 7001.6,
         "@id": "w75998978",
-        "@changeset": 107686412,
-        "@timestamp": "2021-07-09T08:24:07Z",
-        "@version": 8,
-        "@uid": 128938,
-        "@user": "Patchanka",
+        "@changeset": 107965628,
+        "@timestamp": "2021-07-14T09:27:07Z",
+        "@version": 9,
+        "@uid": 6658891,
+        "@user": "marius851000",
         "brand": "Intermarché",
         "brand:wikidata": "Q3153200",
         "brand:wikipedia": "fr:Intermarché",
         "building": "retail",
+        "internet_access": "wlan",
         "name": "Intermarché",
         "opening_hours": "Mo-Sa 08:45-20:00, Jul-Aug: Su 08:00-12:00",
         "operator": "Groupement des Mousquetaires",
@@ -43306,14 +43357,14 @@
         "@poi": "foodshop_supermarket",
         "@distance": 9539.7,
         "@id": "w183087884",
-        "@changeset": 58184680,
-        "@timestamp": "2018-04-17T22:42:34Z",
-        "@version": 3,
-        "@uid": 6383530,
-        "@user": "frosm",
+        "@changeset": 107985541,
+        "@timestamp": "2021-07-14T14:14:05Z",
+        "@version": 4,
+        "@uid": 12507004,
+        "@user": "Flappy Pigeon",
         "brand": "Monoprix",
         "brand:wikidata": "Q3321241",
-        "brand:wikipedia": "fr:Monoprix (France)",
+        "brand:wikipedia": "en:Monoprix",
         "name": "Monoprix",
         "operator": "Groupe Casino",
         "shop": "supermarket"
@@ -46656,6 +46707,28 @@
         "coordinates": [
           2.4400865,
           42.5349504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 801.3,
+        "@id": "w964361375",
+        "@changeset": 107994786,
+        "@timestamp": "2021-07-14T17:36:36Z",
+        "@version": 1,
+        "@uid": 10213621,
+        "@user": "memories_den_rob",
+        "amenity": "shelter",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4300403,
+          42.4719412
         ]
       }
     }
