@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-11T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-15T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -4627,11 +4627,11 @@
     {
       "type": "way",
       "id": 122190058,
-      "timestamp": "2015-08-09T12:48:47Z",
-      "version": 2,
-      "changeset": 33218414,
-      "user": "Klaus88",
-      "uid": 704335,
+      "timestamp": "2021-07-15T14:12:20Z",
+      "version": 3,
+      "changeset": 108053987,
+      "user": "tabuja",
+      "uid": 262493,
       "nodes": [1366126109, 1366126103],
       "geometry": [
         {"lat": 48.1558749, "lon": 8.1759366},
@@ -4642,7 +4642,11 @@
         {"lat": 48.1547374, "lon": 8.1758989},
         {"lat": 48.1545466, "lon": 8.1758019}
       ],
-      "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade2"}
+      "tags": {
+        "highway": "track",
+        "surface": "compacted",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
@@ -32706,11 +32710,11 @@
     {
       "type": "way",
       "id": 54172045,
-      "timestamp": "2015-08-09T12:39:05Z",
-      "version": 4,
-      "changeset": 33218219,
-      "user": "Klaus88",
-      "uid": 704335,
+      "timestamp": "2021-07-15T14:12:29Z",
+      "version": 5,
+      "changeset": 108053987,
+      "user": "tabuja",
+      "uid": 262493,
       "nodes": [436516842, 436516846],
       "geometry": [
         {"lat": 48.1601503, "lon": 8.1765897},
@@ -32726,18 +32730,18 @@
       "tags": {
         "highway": "track",
         "name": "Silberbergweg",
-        "surface": "gravel",
+        "surface": "compacted",
         "tracktype": "grade2"
       }
     },
     {
       "type": "way",
       "id": 54172046,
-      "timestamp": "2011-07-18T21:36:15Z",
-      "version": 2,
-      "changeset": 8763339,
-      "user": "Stefan Karl",
-      "uid": 101348,
+      "timestamp": "2021-07-15T14:12:21Z",
+      "version": 3,
+      "changeset": 108057301,
+      "user": "tabuja",
+      "uid": 262493,
       "nodes": [436516849, 1366126109],
       "geometry": [
         {"lat": 48.1570035, "lon": 8.175496},
@@ -32748,7 +32752,12 @@
         {"lat": 48.1559723, "lon": 8.1758863},
         {"lat": 48.1558749, "lon": 8.1759366}
       ],
-      "tags": {"highway": "track", "surface": "asphalt", "tracktype": "grade1"}
+      "tags": {
+        "check_date:tracktype": "2021-07-15",
+        "highway": "track",
+        "surface": "asphalt",
+        "tracktype": "grade1"
+      }
     },
     {
       "type": "way",
@@ -37766,11 +37775,11 @@
     {
       "type": "way",
       "id": 58778901,
-      "timestamp": "2014-01-24T23:16:18Z",
-      "version": 3,
-      "changeset": 20185743,
-      "user": "EdAllen",
-      "uid": 559935,
+      "timestamp": "2021-07-15T14:13:19Z",
+      "version": 4,
+      "changeset": 108053987,
+      "user": "tabuja",
+      "uid": 262493,
       "nodes": [436516825, 436516828],
       "geometry": [
         {"lat": 48.1663164, "lon": 8.1784238},
@@ -37780,7 +37789,7 @@
         {"lat": 48.1657972, "lon": 8.1773824},
         {"lat": 48.1657323, "lon": 8.1771794}
       ],
-      "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade3"}
+      "tags": {"highway": "track", "surface": "ground", "tracktype": "grade3"}
     },
     {
       "type": "way",
@@ -37836,11 +37845,11 @@
     {
       "type": "way",
       "id": 58781481,
-      "timestamp": "2015-08-09T12:39:05Z",
-      "version": 3,
-      "changeset": 33218219,
-      "user": "Klaus88",
-      "uid": 704335,
+      "timestamp": "2021-07-15T14:12:26Z",
+      "version": 6,
+      "changeset": 108056401,
+      "user": "tabuja",
+      "uid": 262493,
       "nodes": [436516846, 436516849],
       "geometry": [
         {"lat": 48.1575101, "lon": 8.1760644},
@@ -37851,9 +37860,11 @@
       ],
       "tags": {
         "access": "destination",
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Silberberg",
-        "surface": "gravel"
+        "surface": "asphalt"
       }
     },
     {
