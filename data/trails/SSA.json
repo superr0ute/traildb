@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-14T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-16T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 136334,
-      "timestamp": "2021-07-14T19:54:38Z",
-      "version": 484,
-      "changeset": 107999587,
-      "user": "adriano colombini",
-      "uid": 12077784,
+      "timestamp": "2021-07-16T17:27:03Z",
+      "version": 485,
+      "changeset": 108131073,
+      "user": "giuliobranchetti",
+      "uid": 11329839,
       "members": [
         {"type": "node", "ref": 6533634744, "role": ""},
         {"type": "node", "ref": 7035357569, "role": ""},
@@ -470,6 +470,7 @@
         {"type": "way", "ref": 45060613, "role": ""},
         {"type": "way", "ref": 172412222, "role": ""},
         {"type": "way", "ref": 221073723, "role": ""},
+        {"type": "way", "ref": 965006738, "role": ""},
         {"type": "way", "ref": 245226773, "role": ""},
         {"type": "way", "ref": 39863326, "role": ""},
         {"type": "way", "ref": 220206438, "role": ""},
@@ -9495,12 +9496,12 @@
     {
       "type": "way",
       "id": 245226773,
-      "timestamp": "2018-03-08T13:45:47Z",
-      "version": 3,
-      "changeset": 56999844,
-      "user": "Pab09",
-      "uid": 178610,
-      "nodes": [478112777, 333318371],
+      "timestamp": "2021-07-16T17:27:03Z",
+      "version": 4,
+      "changeset": 108131073,
+      "user": "giuliobranchetti",
+      "uid": 11329839,
+      "nodes": [478112777, 404723285],
       "geometry": [
         {"lat": 44.0927122, "lon": 11.1625294},
         {"lat": 44.0925465, "lon": 11.1622484},
@@ -9508,8 +9509,7 @@
         {"lat": 44.0921204, "lon": 11.1614916},
         {"lat": 44.091893, "lon": 11.1612712},
         {"lat": 44.0917901, "lon": 11.1611714},
-        {"lat": 44.0907246, "lon": 11.1602106},
-        {"lat": 44.090686, "lon": 11.1601758}
+        {"lat": 44.0907246, "lon": 11.1602106}
       ],
       "tags": {
         "highway": "primary",
@@ -35076,6 +35076,29 @@
         {"lat": 44.4678191, "lon": 9.8467401}
       ],
       "tags": {"highway": "path"}
+    },
+    {
+      "type": "way",
+      "id": 965006738,
+      "timestamp": "2021-07-16T17:27:03Z",
+      "version": 1,
+      "changeset": 108131073,
+      "user": "giuliobranchetti",
+      "uid": 11329839,
+      "nodes": [404723285, 333318371],
+      "geometry": [
+        {"lat": 44.0907246, "lon": 11.1602106},
+        {"lat": 44.090686, "lon": 11.1601758}
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Via dell'Appennino",
+        "old_ref": "SS325",
+        "oneway": "no",
+        "ref": "SR325",
+        "reg_ref": "SR325"
+      }
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-15T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-16T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -109,11 +109,11 @@
     {
       "type": "relation",
       "id": 3176522,
-      "timestamp": "2021-07-14T17:08:09Z",
-      "version": 636,
-      "changeset": 107993691,
-      "user": "konradio",
-      "uid": 10395238,
+      "timestamp": "2021-07-16T13:24:47Z",
+      "version": 638,
+      "changeset": 108121095,
+      "user": "horstsun",
+      "uid": 685410,
       "members": [
         {"type": "node", "ref": 2911861581, "role": ""},
         {"type": "node", "ref": 2912812289, "role": ""},
@@ -1956,7 +1956,9 @@
         {"type": "way", "ref": 292325260, "role": ""},
         {"type": "way", "ref": 124053256, "role": ""},
         {"type": "way", "ref": 30368345, "role": ""},
+        {"type": "way", "ref": 964949743, "role": ""},
         {"type": "way", "ref": 187831607, "role": ""},
+        {"type": "way", "ref": 964960421, "role": ""},
         {"type": "way", "ref": 292325295, "role": ""},
         {"type": "way", "ref": 187831781, "role": ""},
         {"type": "way", "ref": 188068829, "role": ""},
@@ -1964,6 +1966,7 @@
         {"type": "way", "ref": 30353654, "role": ""},
         {"type": "way", "ref": 354193472, "role": ""},
         {"type": "way", "ref": 354193473, "role": ""},
+        {"type": "way", "ref": 964949745, "role": ""},
         {"type": "way", "ref": 192079072, "role": ""},
         {"type": "way", "ref": 292325311, "role": ""},
         {"type": "way", "ref": 144379950, "role": ""},
@@ -15903,26 +15906,18 @@
     {
       "type": "way",
       "id": 187831607,
-      "timestamp": "2021-01-31T07:26:46Z",
-      "version": 3,
-      "changeset": 98437995,
-      "user": "Laci",
-      "uid": 134881,
-      "nodes": [335023113, 334796109],
+      "timestamp": "2021-07-16T13:24:47Z",
+      "version": 5,
+      "changeset": 108121095,
+      "user": "horstsun",
+      "uid": 685410,
+      "nodes": [1984745315, 1984745311],
       "geometry": [
-        {"lat": 46.6240209, "lon": 14.0337067},
-        {"lat": 46.6238775, "lon": 14.0337087},
-        {"lat": 46.623749, "lon": 14.0337725},
-        {"lat": 46.6237052, "lon": 14.0338958},
-        {"lat": 46.6236176, "lon": 14.034002},
-        {"lat": 46.6234275, "lon": 14.0340107},
-        {"lat": 46.623268, "lon": 14.034018},
         {"lat": 46.6230491, "lon": 14.0339377},
         {"lat": 46.6228055, "lon": 14.0340219},
         {"lat": 46.6224315, "lon": 14.0340834},
         {"lat": 46.6220622, "lon": 14.0339498},
-        {"lat": 46.6217112, "lon": 14.0339437},
-        {"lat": 46.6214464, "lon": 14.0336176}
+        {"lat": 46.6217112, "lon": 14.0339437}
       ],
       "tags": {
         "foot": "yes",
@@ -15946,10 +15941,10 @@
         {"lat": 46.6213954, "lon": 14.033445},
         {"lat": 46.6212725, "lon": 14.0334306},
         {"lat": 46.6211148, "lon": 14.0332606},
-        {"lat": 46.6210623, "lon": 14.0332223},
-        {"lat": 46.6210185, "lon": 14.0332436},
-        {"lat": 46.6209542, "lon": 14.0332818},
-        {"lat": 46.6208841, "lon": 14.0334051},
+        {"lat": 46.621031, "lon": 14.0331687},
+        {"lat": 46.620954, "lon": 14.0331765},
+        {"lat": 46.6209026, "lon": 14.0332335},
+        {"lat": 46.6208436, "lon": 14.0333568},
         {"lat": 46.6206944, "lon": 14.0335539}
       ],
       "tags": {
@@ -76932,6 +76927,77 @@
         {"lat": 46.8404579, "lon": 13.5502251}
       ],
       "tags": {"highway": "path", "surface": "ground"}
+    },
+    {
+      "type": "way",
+      "id": 964949743,
+      "timestamp": "2021-07-16T12:44:24Z",
+      "version": 1,
+      "changeset": 108119288,
+      "user": "horstsun",
+      "uid": 685410,
+      "nodes": [335023113, 8380055947],
+      "geometry": [
+        {"lat": 46.6240209, "lon": 14.0337067},
+        {"lat": 46.6238775, "lon": 14.0337087},
+        {"lat": 46.623749, "lon": 14.0337725},
+        {"lat": 46.6237052, "lon": 14.0338958},
+        {"lat": 46.6236176, "lon": 14.034002},
+        {"lat": 46.6234275, "lon": 14.0340107}
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "path",
+        "sac_scale": "hiking",
+        "surface": "grass",
+        "trail_visibility": "good",
+        "width": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964949745,
+      "timestamp": "2021-07-16T12:44:24Z",
+      "version": 1,
+      "changeset": 108119288,
+      "user": "horstsun",
+      "uid": 685410,
+      "nodes": [8380055947, 1984745315],
+      "geometry": [
+        {"lat": 46.6234275, "lon": 14.0340107},
+        {"lat": 46.623268, "lon": 14.034018},
+        {"lat": 46.6230491, "lon": 14.0339377}
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "path",
+        "sac_scale": "hiking",
+        "surface": "grass",
+        "trail_visibility": "good",
+        "width": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 964960421,
+      "timestamp": "2021-07-16T13:24:47Z",
+      "version": 1,
+      "changeset": 108121095,
+      "user": "horstsun",
+      "uid": 685410,
+      "nodes": [1984745311, 334796109],
+      "geometry": [
+        {"lat": 46.6217112, "lon": 14.0339437},
+        {"lat": 46.6214464, "lon": 14.0336176}
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "steps",
+        "sac_scale": "hiking",
+        "surface": "grass",
+        "trail_visibility": "good",
+        "width": "1"
+      }
     },
     {
       "type": "way",
