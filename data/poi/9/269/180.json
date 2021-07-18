@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-07-16T23:59:59Z",
-    "timestamp_osm_base": "2021-07-17T04:37:29Z",
+    "timestamp_osm_date": "2021-07-17T23:59:59Z",
+    "timestamp_osm_base": "2021-07-18T04:37:13Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9837,21 +9837,6 @@
     },
     {
       "type": "node",
-      "id": 1817573871,
-      "lat": 46.5934046,
-      "lon": 9.7971924,
-      "timestamp": "2018-11-18T14:21:55Z",
-      "version": 2,
-      "changeset": 64621783,
-      "user": "Männedorf",
-      "uid": 105050,
-      "tags": {
-        "name": "Alp Zavretta",
-        "tourism": "alpine_hut"
-      }
-    },
-    {
-      "type": "node",
       "id": 1834391712,
       "lat": 46.7596039,
       "lon": 9.4435724,
@@ -12789,24 +12774,6 @@
       "tags": {
         "name": "Soladüra",
         "place": "hamlet"
-      }
-    },
-    {
-      "type": "node",
-      "id": 2623302584,
-      "lat": 47.006951,
-      "lon": 9.3623987,
-      "timestamp": "2019-12-08T16:56:35Z",
-      "version": 4,
-      "changeset": 78113830,
-      "user": "asdf2",
-      "uid": 1416503,
-      "tags": {
-        "is_in": "Mels",
-        "name": "Schwendi",
-        "place": "hamlet",
-        "population": "117",
-        "wikidata": "Q63974431"
       }
     },
     {
@@ -18125,21 +18092,6 @@
       "uid": 5675519,
       "tags": {
         "amenity": "drinking_water"
-      }
-    },
-    {
-      "type": "node",
-      "id": 5141342077,
-      "lat": 47.0062589,
-      "lon": 9.4617333,
-      "timestamp": "2018-08-19T20:09:30Z",
-      "version": 2,
-      "changeset": 61803080,
-      "user": "BAK365",
-      "uid": 3172889,
-      "tags": {
-        "name": "Paradiel Mittelsäss",
-        "tourism": "alpine_hut"
       }
     },
     {
@@ -26272,11 +26224,11 @@
     {
       "type": "way",
       "id": 204554483,
-      "timestamp": "2018-10-20T20:14:43Z",
-      "version": 3,
-      "changeset": 63713551,
-      "user": "SelfishSeahorse",
-      "uid": 3078118,
+      "timestamp": "2021-07-17T15:27:23Z",
+      "version": 4,
+      "changeset": 108164403,
+      "user": "Geonick",
+      "uid": 6087,
       "center": {
         "lat": 46.6978746,
         "lon": 9.559272
@@ -26285,11 +26237,11 @@
       "tags": {
         "access": "yes",
         "contact:phone": "+41 813842472",
-        "contact:website": "https://camping-lenzerheide.ch/",
         "fee": "yes",
         "internet_access": "wlan",
         "name": "St. Cassian",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "website": "http://www.camping.st-cassian.ch/"
       }
     },
     {
@@ -26474,6 +26426,28 @@
         "opening_hours": "Mo-We,Fr 08:00-12:00,15:00-18:30; Th,Sa 08:00-12:00",
         "shop": "supermarket",
         "website": "http://dorfmarktscharans.ch/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 256690855,
+      "timestamp": "2021-07-17T22:15:45Z",
+      "version": 2,
+      "changeset": 108175119,
+      "user": "SteBernd",
+      "uid": 4804397,
+      "center": {
+        "lat": 47.0079494,
+        "lon": 9.3629021
+      },
+      "nodes": [],
+      "tags": {
+        "is_in": "Mels",
+        "landuse": "residential",
+        "name": "Schwendi",
+        "place": "hamlet",
+        "population": "117",
+        "wikidata": "Q63974431"
       }
     },
     {
@@ -27301,19 +27275,24 @@
     {
       "type": "way",
       "id": 438886349,
-      "timestamp": "2016-08-24T19:39:28Z",
-      "version": 1,
-      "changeset": 41671723,
-      "user": "sigroeni",
-      "uid": 2480921,
+      "timestamp": "2021-07-17T15:25:21Z",
+      "version": 2,
+      "changeset": 108164326,
+      "user": "Geonick",
+      "uid": 6087,
       "center": {
         "lat": 46.6502733,
         "lon": 9.4481604
       },
       "nodes": [],
       "tags": {
+        "addr:city": "Zillis-Rania",
+        "addr:postcode": "7432",
+        "addr:street": "Italienische Strasse",
+        "fee": "yes",
         "name": "Rania",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "website": "https://www.campingrania.ch"
       }
     },
     {
@@ -27737,6 +27716,25 @@
         "operator": "Werner Stucki",
         "tourism": "camp_site",
         "website": "http://camping-carrera.ch/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 645967210,
+      "timestamp": "2021-07-17T17:59:05Z",
+      "version": 2,
+      "changeset": 108169222,
+      "user": "asdf2",
+      "uid": 1416503,
+      "center": {
+        "lat": 46.5934121,
+        "lon": 9.7971766
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Alp Zavretta",
+        "tourism": "alpine_hut"
       }
     },
     {
@@ -28405,6 +28403,24 @@
       "tags": {
         "amenity": "shelter",
         "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 965264476,
+      "timestamp": "2021-07-17T21:52:22Z",
+      "version": 1,
+      "changeset": 108174776,
+      "user": "SteBernd",
+      "uid": 4804397,
+      "center": {
+        "lat": 47.0060644,
+        "lon": 9.462089
+      },
+      "nodes": [],
+      "tags": {
+        "name": "Paradiel Mittelsäss",
+        "tourism": "alpine_hut"
       }
     }
   ]
