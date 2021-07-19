@@ -17246,15 +17246,15 @@
         "@poi": "foodshop_convenience",
         "@distance": 44.1,
         "@id": "n3651227742",
-        "@changeset": 52084850,
-        "@timestamp": "2017-09-16T02:00:28Z",
-        "@version": 4,
-        "@uid": 1443767,
-        "@user": "Olyon",
+        "@changeset": 108197219,
+        "@timestamp": "2021-07-18T15:32:52Z",
+        "@version": 5,
+        "@uid": 6891029,
+        "@user": "haanders",
         "addr:city": "Saint-Sauveur-sur-Tinée",
         "addr:postcode": "06420",
         "addr:street": "Avenue des Blavets",
-        "name": "Barengo Marie-Rose",
+        "name": "Proxi",
         "phone": "+33 4 93 02 06 61",
         "shop": "convenience",
         "wheelchair": "yes"
@@ -20037,6 +20037,27 @@
         "coordinates": [
           6.8978369,
           44.4239631
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 120.8,
+        "@id": "n7806647143",
+        "@changeset": 108197219,
+        "@timestamp": "2021-07-18T15:32:53Z",
+        "@version": 2,
+        "@uid": 6891029,
+        "@user": "haanders",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9286748,
+          44.1894041
         ]
       }
     },
@@ -30329,6 +30350,70 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "campsite",
+        "@distance": 113.4,
+        "@id": "n8930807805",
+        "@changeset": 108197219,
+        "@timestamp": "2021-07-18T15:32:51Z",
+        "@version": 1,
+        "@uid": 6891029,
+        "@user": "haanders",
+        "description": "wild but established",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2471062,
+          43.8997741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 29.5,
+        "@id": "n8930808202",
+        "@changeset": 108197219,
+        "@timestamp": "2021-07-18T15:32:52Z",
+        "@version": 1,
+        "@uid": 6891029,
+        "@user": "haanders",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1056836,
+          44.0832871
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 4.8,
+        "@id": "n8930817585",
+        "@changeset": 108197219,
+        "@timestamp": "2021-07-18T15:32:51Z",
+        "@version": 1,
+        "@uid": 6891029,
+        "@user": "haanders",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2475594,
+          43.9170315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 5949.7,
         "@id": "w63432232",
@@ -30835,35 +30920,6 @@
         "coordinates": [
           7.2838797,
           43.7073212
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2137,
-        "@id": "w137395691",
-        "@changeset": 80500110,
-        "@timestamp": "2020-02-03T22:08:56Z",
-        "@version": 4,
-        "@uid": 184969,
-        "@user": "EvanE",
-        "amenity": "shelter",
-        "building": "roof",
-        "fixme": "This is only the shelter not the whole platform.",
-        "name": "Palais des Expositions",
-        "public_transport": "platform",
-        "railway": "platform",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
-        "tram": "yes",
-        "wall": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.2837735,
-          43.70735
         ]
       }
     },
@@ -32395,6 +32451,35 @@
         "coordinates": [
           6.6313667,
           45.0169514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2137,
+        "@id": "w137395691",
+        "@changeset": 80500110,
+        "@timestamp": "2020-02-03T22:08:56Z",
+        "@version": 4,
+        "@uid": 184969,
+        "@user": "EvanE",
+        "amenity": "shelter",
+        "building": "roof",
+        "fixme": "This is only the shelter not the whole platform.",
+        "name": "Palais des Expositions",
+        "public_transport": "platform",
+        "railway": "platform",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+        "tram": "yes",
+        "wall": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2837735,
+          43.70735
         ]
       }
     },

@@ -16081,20 +16081,20 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_drinking-water",
-        "@distance": 697.4,
+        "@distance": 691.6,
         "@id": "n1502030559",
-        "@changeset": 17044649,
-        "@timestamp": "2013-07-22T07:18:08Z",
-        "@version": 2,
-        "@uid": 182645,
-        "@user": "walpino",
+        "@changeset": 108183755,
+        "@timestamp": "2021-07-18T08:46:59Z",
+        "@version": 3,
+        "@uid": 505667,
+        "@user": "Bullroarer",
         "amenity": "drinking_water"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.2450802,
-          46.4694627
+          8.2450788,
+          46.469401
         ]
       }
     },
@@ -24191,13 +24191,13 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
-        "@distance": 5638.2,
+        "@distance": 5648.2,
         "@id": "n4402297282",
-        "@changeset": 104742334,
-        "@timestamp": "2021-05-15T16:59:24Z",
-        "@version": 6,
-        "@uid": 13125546,
-        "@user": "Impact1113942",
+        "@changeset": 108180912,
+        "@timestamp": "2021-07-18T06:58:41Z",
+        "@version": 7,
+        "@uid": 427807,
+        "@user": "Tungmar",
         "brand": "Volg",
         "brand:wikidata": "Q2530746",
         "brand:wikipedia": "de:Volg",
@@ -24213,8 +24213,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.0620343,
-          46.3900838
+          8.0618971,
+          46.3900235
         ]
       }
     },
@@ -29621,6 +29621,31 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "campsite",
+        "@distance": 911.7,
+        "@id": "n8930993255",
+        "@changeset": 108201999,
+        "@timestamp": "2021-07-18T17:41:07Z",
+        "@version": 1,
+        "@uid": 6087,
+        "@user": "Geonick",
+        "description": "Wildcamping",
+        "fee": "yes",
+        "name": "Camping Lumnezia",
+        "tourism": "camp_site",
+        "website": "https://www.lumnezia.ch/de/tourismus/campieren-lumnezia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1837141,
+          46.7443385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 1058.1,
         "@id": "w47045542",
@@ -29930,78 +29955,6 @@
         "coordinates": [
           9.5432875,
           46.8606977
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 260.7,
-        "@id": "w637616712",
-        "@changeset": 105173115,
-        "@timestamp": "2021-05-23T15:37:50Z",
-        "@version": 2,
-        "@uid": 12852,
-        "@user": "Double Jojo",
-        "addr:city": "Valendas",
-        "addr:housenumber": "80",
-        "addr:postcode": "7122",
-        "addr:street": "Carrera",
-        "name": "Camping Carrera",
-        "operator": "Werner Stucki",
-        "tourism": "camp_site",
-        "website": "http://camping-carrera.ch/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.2973022,
-          46.7864977
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 941.2,
-        "@id": "w651753856",
-        "@changeset": 65102445,
-        "@timestamp": "2018-12-02T18:36:38Z",
-        "@version": 1,
-        "@uid": 3078118,
-        "@user": "SelfishSeahorse",
-        "amenity": "shelter",
-        "shelter_type": "public_transport"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.53759,
-          46.8603392
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2469.7,
-        "@id": "w659338451",
-        "@changeset": 65891415,
-        "@timestamp": "2018-12-30T16:31:24Z",
-        "@version": 1,
-        "@uid": 3078118,
-        "@user": "SelfishSeahorse",
-        "amenity": "shelter",
-        "shelter_type": "public_transport"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.5360638,
-          46.8761137
         ]
       }
     },
@@ -31152,6 +31105,78 @@
         "coordinates": [
           8.4975429,
           46.4669596
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 260.7,
+        "@id": "w637616712",
+        "@changeset": 105173115,
+        "@timestamp": "2021-05-23T15:37:50Z",
+        "@version": 2,
+        "@uid": 12852,
+        "@user": "Double Jojo",
+        "addr:city": "Valendas",
+        "addr:housenumber": "80",
+        "addr:postcode": "7122",
+        "addr:street": "Carrera",
+        "name": "Camping Carrera",
+        "operator": "Werner Stucki",
+        "tourism": "camp_site",
+        "website": "http://camping-carrera.ch/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2973022,
+          46.7864977
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 941.2,
+        "@id": "w651753856",
+        "@changeset": 65102445,
+        "@timestamp": "2018-12-02T18:36:38Z",
+        "@version": 1,
+        "@uid": 3078118,
+        "@user": "SelfishSeahorse",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.53759,
+          46.8603392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2469.7,
+        "@id": "w659338451",
+        "@changeset": 65891415,
+        "@timestamp": "2018-12-30T16:31:24Z",
+        "@version": 1,
+        "@uid": 3078118,
+        "@user": "SelfishSeahorse",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5360638,
+          46.8761137
         ]
       }
     },
@@ -33510,6 +33535,48 @@
         "coordinates": [
           8.6356348,
           46.5402512
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 1975.9,
+        "@id": "n8930868311",
+        "@changeset": 108200490,
+        "@timestamp": "2021-07-18T17:01:52Z",
+        "@version": 1,
+        "@uid": 12588308,
+        "@user": "DeuteriumTritium",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5798637,
+          46.5386511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 751.6,
+        "@id": "n8930868312",
+        "@changeset": 108200490,
+        "@timestamp": "2021-07-18T17:01:52Z",
+        "@version": 1,
+        "@uid": 12588308,
+        "@user": "DeuteriumTritium",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.5580463,
+          46.5171877
         ]
       }
     },
