@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-07-18T23:59:59Z",
-    "timestamp_osm_base": "2021-07-19T04:31:43Z",
+    "timestamp_osm_date": "2021-07-19T23:59:59Z",
+    "timestamp_osm_base": "2021-07-20T04:29:57Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -24315,18 +24315,21 @@
     {
       "type": "node",
       "id": 2674509977,
-      "lat": 46.9472997,
-      "lon": 7.3897067,
-      "timestamp": "2020-01-26T08:32:22Z",
-      "version": 10,
-      "changeset": 80091261,
-      "user": "iwismer",
-      "uid": 6461817,
+      "lat": 46.9473338,
+      "lon": 7.3897234,
+      "timestamp": "2021-07-19T20:06:21Z",
+      "version": 11,
+      "changeset": 108273589,
+      "user": "dafadllyn",
+      "uid": 7494825,
       "tags": {
-        "addr:full": "Fellerstrasse 28, 3027 Bern",
         "name": "Denner",
-        "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-17:00",
+        "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-17:00; Su,PH closed",
+        "opening_hours:url": "https://www.denner.ch/de/filialen/denner-filiale-und-oeffnungszeiten/store/ladenzentrum-tscharnergut-fellerstrasse-28-3027-bern",
+        "operator:wikidata": "Q379911",
+        "phone": "+41 58 999 06 01",
         "shop": "convenience",
+        "website": "https://www.denner.ch",
         "wheelchair": "yes"
       }
     },
@@ -28660,30 +28663,6 @@
       "tags": {
         "amenity": "drinking_water",
         "name": "Trinkwasserbrunnen"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4209707178,
-      "lat": 46.9475626,
-      "lon": 7.3892588,
-      "timestamp": "2016-05-26T20:29:44Z",
-      "version": 1,
-      "changeset": 39590290,
-      "user": "Ronny Standtke",
-      "uid": 65804,
-      "tags": {
-        "name": "Tan Phat",
-        "opening_hours": "Mo-Th 09:00-18:00; Fr 09:00-20:00; Sa 09:00-17:00",
-        "payment:coins": "yes",
-        "payment:diners_club": "yes",
-        "payment:discover_card": "yes",
-        "payment:maestro": "yes",
-        "payment:mastercard": "yes",
-        "payment:notes": "yes",
-        "payment:visa": "yes",
-        "payment:visa_electron": "yes",
-        "shop": "convenience"
       }
     },
     {
@@ -34269,22 +34248,6 @@
     },
     {
       "type": "node",
-      "id": 6300944889,
-      "lat": 46.9403888,
-      "lon": 7.3901539,
-      "timestamp": "2019-02-25T11:33:23Z",
-      "version": 1,
-      "changeset": 67545408,
-      "user": "paschagl",
-      "uid": 3868994,
-      "tags": {
-        "addr:street": "Bümplizstrasse",
-        "name": "Kiosk Venus",
-        "shop": "convenience"
-      }
-    },
-    {
-      "type": "node",
       "id": 6324181690,
       "lat": 46.8091995,
       "lon": 7.1750364,
@@ -35993,22 +35956,6 @@
         "fee": "no",
         "operator": "Commune de Villars-sur-Glâne",
         "wheelchair": "yes"
-      }
-    },
-    {
-      "type": "node",
-      "id": 7107849333,
-      "lat": 46.9516206,
-      "lon": 7.3920045,
-      "timestamp": "2020-01-04T19:08:41Z",
-      "version": 1,
-      "changeset": 79197132,
-      "user": "SelfishSeahorse",
-      "uid": 3078118,
-      "tags": {
-        "amenity": "shelter",
-        "building": "shelter",
-        "shelter_type": "public_transport"
       }
     },
     {
@@ -39260,6 +39207,22 @@
         "brand:wikidata": "Q379911",
         "brand:wikipedia": "en:Denner (supermarket)",
         "name": "Denner",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8934062324,
+      "lat": 46.9419982,
+      "lon": 7.3899147,
+      "timestamp": "2021-07-19T21:04:30Z",
+      "version": 1,
+      "changeset": 108275398,
+      "user": "dafadllyn",
+      "uid": 7494825,
+      "tags": {
+        "alt_name": "Thuy Linh Lebensmittel",
+        "name": "Thuy Linh",
         "shop": "supermarket"
       }
     },
@@ -50619,6 +50582,25 @@
       "tags": {
         "amenity": "shelter",
         "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 965707976,
+      "timestamp": "2021-07-19T18:33:28Z",
+      "version": 1,
+      "changeset": 108270421,
+      "user": "dafadllyn",
+      "uid": 7494825,
+      "center": {
+        "lat": 46.951604,
+        "lon": 7.3920191
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "roof",
+        "shelter_type": "public_transport"
       }
     }
   ]
