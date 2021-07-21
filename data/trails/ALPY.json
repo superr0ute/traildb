@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-14T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-20T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -472,11 +472,11 @@
     {
       "type": "relation",
       "id": 2969836,
-      "timestamp": "2021-05-20T09:30:23Z",
-      "version": 66,
-      "changeset": 105016260,
-      "user": "Andrea Del Sarto",
-      "uid": 3215770,
+      "timestamp": "2021-07-20T09:27:43Z",
+      "version": 67,
+      "changeset": 108304963,
+      "user": "Cascafico",
+      "uid": 361003,
       "members": [
         {"type": "way", "ref": 24922767, "role": "route"},
         {"type": "way", "ref": 24922724, "role": "route"},
@@ -715,6 +715,7 @@
         {"type": "way", "ref": 615156514, "role": ""},
         {"type": "way", "ref": 153580504, "role": ""},
         {"type": "way", "ref": 145241387, "role": ""},
+        {"type": "way", "ref": 965875906, "role": ""},
         {"type": "way", "ref": 145241390, "role": ""},
         {"type": "way", "ref": 73994737, "role": ""},
         {"type": "way", "ref": 180745132, "role": ""},
@@ -2152,12 +2153,12 @@
     {
       "type": "way",
       "id": 145241387,
-      "timestamp": "2020-12-11T13:56:58Z",
-      "version": 10,
-      "changeset": 95685351,
-      "user": "Wulz",
-      "uid": 10773975,
-      "nodes": [1586787443, 1586777076],
+      "timestamp": "2021-07-20T09:27:43Z",
+      "version": 11,
+      "changeset": 108304963,
+      "user": "Cascafico",
+      "uid": 361003,
+      "nodes": [1586787443, 1586777063],
       "geometry": [
         {"lat": 46.1861345, "lon": 13.6241988},
         {"lat": 46.1861333, "lon": 13.624133},
@@ -2333,14 +2334,7 @@
         {"lat": 46.1768638, "lon": 13.6043407},
         {"lat": 46.1768095, "lon": 13.6042903},
         {"lat": 46.1767746, "lon": 13.6042088},
-        {"lat": 46.1767733, "lon": 13.6041778},
-        {"lat": 46.176784, "lon": 13.6041058},
-        {"lat": 46.1767902, "lon": 13.6040371},
-        {"lat": 46.1768198, "lon": 13.6039814},
-        {"lat": 46.1768493, "lon": 13.6039484},
-        {"lat": 46.1769222, "lon": 13.6038772},
-        {"lat": 46.1770287, "lon": 13.6038647},
-        {"lat": 46.1770514, "lon": 13.6038246}
+        {"lat": 46.1767733, "lon": 13.6041778}
       ],
       "tags": {
         "highway": "path",
@@ -2354,18 +2348,19 @@
     {
       "type": "way",
       "id": 145241390,
-      "timestamp": "2020-04-11T06:06:33Z",
-      "version": 4,
-      "changeset": 83388506,
-      "user": "gpstracks",
-      "uid": 188429,
+      "timestamp": "2021-07-20T09:27:43Z",
+      "version": 5,
+      "changeset": 108304963,
+      "user": "Cascafico",
+      "uid": 361003,
       "nodes": [875587318, 1586777076],
       "geometry": [
-        {"lat": 46.1773478, "lon": 13.6034508},
-        {"lat": 46.1772241, "lon": 13.6035776},
-        {"lat": 46.1771393, "lon": 13.6036734},
-        {"lat": 46.1770702, "lon": 13.6037597},
-        {"lat": 46.1770514, "lon": 13.6038246}
+        {"lat": 46.1773408, "lon": 13.6034203},
+        {"lat": 46.177203, "lon": 13.6035634},
+        {"lat": 46.1770971, "lon": 13.6036653},
+        {"lat": 46.1770575, "lon": 13.6037312},
+        {"lat": 46.177046, "lon": 13.6037865},
+        {"lat": 46.1770348, "lon": 13.6038366}
       ],
       "tags": {
         "bicycle": "yes",
@@ -26554,7 +26549,7 @@
         {"lat": 46.1775136, "lon": 13.6033233},
         {"lat": 46.1774506, "lon": 13.6033289},
         {"lat": 46.1773963, "lon": 13.6034155},
-        {"lat": 46.1773478, "lon": 13.6034508}
+        {"lat": 46.1773408, "lon": 13.6034203}
       ],
       "tags": {
         "highway": "path",
@@ -29604,6 +29599,34 @@
         {"lat": 45.6992674, "lon": 13.7405431}
       ],
       "tags": {"highway": "unclassified", "name": "Via San Nazario"}
+    },
+    {
+      "type": "way",
+      "id": 965875906,
+      "timestamp": "2021-07-20T09:27:43Z",
+      "version": 1,
+      "changeset": 108304963,
+      "user": "Cascafico",
+      "uid": 361003,
+      "nodes": [1586777063, 1586777076],
+      "geometry": [
+        {"lat": 46.1767733, "lon": 13.6041778},
+        {"lat": 46.176784, "lon": 13.6041058},
+        {"lat": 46.1767902, "lon": 13.6040371},
+        {"lat": 46.1767776, "lon": 13.6039814},
+        {"lat": 46.1767846, "lon": 13.6039179},
+        {"lat": 46.1768148, "lon": 13.6038352},
+        {"lat": 46.1769696, "lon": 13.6038292},
+        {"lat": 46.1770348, "lon": 13.6038366}
+      ],
+      "tags": {
+        "highway": "footway",
+        "incline": "10%",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \nSI A16 + VA B5 + 746 + Valli del Natisone\n",
+        "sac_scale": "hiking",
+        "surface": "gravel",
+        "width": "1"
+      }
     },
     {
       "type": "way",

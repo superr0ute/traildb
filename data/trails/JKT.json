@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-18T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-20T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10909145,
-      "timestamp": "2021-07-18T18:04:22Z",
-      "version": 1414,
-      "changeset": 108202806,
-      "user": "gt3400",
-      "uid": 610648,
+      "timestamp": "2021-07-20T09:27:43Z",
+      "version": 1415,
+      "changeset": 108304963,
+      "user": "Cascafico",
+      "uid": 361003,
       "members": [
         {"type": "way", "ref": 389603359, "role": ""},
         {"type": "way", "ref": 358964255, "role": ""},
@@ -832,6 +832,7 @@
         {"type": "way", "ref": 180745132, "role": ""},
         {"type": "way", "ref": 73994737, "role": ""},
         {"type": "way", "ref": 145241390, "role": ""},
+        {"type": "way", "ref": 965875906, "role": ""},
         {"type": "way", "ref": 145241387, "role": ""},
         {"type": "way", "ref": 153580504, "role": ""},
         {"type": "way", "ref": 615156514, "role": ""},
@@ -9343,12 +9344,12 @@
     {
       "type": "way",
       "id": 145241387,
-      "timestamp": "2020-12-11T13:56:58Z",
-      "version": 10,
-      "changeset": 95685351,
-      "user": "Wulz",
-      "uid": 10773975,
-      "nodes": [1586787443, 1586777076],
+      "timestamp": "2021-07-20T09:27:43Z",
+      "version": 11,
+      "changeset": 108304963,
+      "user": "Cascafico",
+      "uid": 361003,
+      "nodes": [1586787443, 1586777063],
       "geometry": [
         {"lat": 46.1861345, "lon": 13.6241988},
         {"lat": 46.1861333, "lon": 13.624133},
@@ -9524,14 +9525,7 @@
         {"lat": 46.1768638, "lon": 13.6043407},
         {"lat": 46.1768095, "lon": 13.6042903},
         {"lat": 46.1767746, "lon": 13.6042088},
-        {"lat": 46.1767733, "lon": 13.6041778},
-        {"lat": 46.176784, "lon": 13.6041058},
-        {"lat": 46.1767902, "lon": 13.6040371},
-        {"lat": 46.1768198, "lon": 13.6039814},
-        {"lat": 46.1768493, "lon": 13.6039484},
-        {"lat": 46.1769222, "lon": 13.6038772},
-        {"lat": 46.1770287, "lon": 13.6038647},
-        {"lat": 46.1770514, "lon": 13.6038246}
+        {"lat": 46.1767733, "lon": 13.6041778}
       ],
       "tags": {
         "highway": "path",
@@ -9545,18 +9539,19 @@
     {
       "type": "way",
       "id": 145241390,
-      "timestamp": "2020-04-11T06:06:33Z",
-      "version": 4,
-      "changeset": 83388506,
-      "user": "gpstracks",
-      "uid": 188429,
+      "timestamp": "2021-07-20T09:27:43Z",
+      "version": 5,
+      "changeset": 108304963,
+      "user": "Cascafico",
+      "uid": 361003,
       "nodes": [875587318, 1586777076],
       "geometry": [
-        {"lat": 46.1773478, "lon": 13.6034508},
-        {"lat": 46.1772241, "lon": 13.6035776},
-        {"lat": 46.1771393, "lon": 13.6036734},
-        {"lat": 46.1770702, "lon": 13.6037597},
-        {"lat": 46.1770514, "lon": 13.6038246}
+        {"lat": 46.1773408, "lon": 13.6034203},
+        {"lat": 46.177203, "lon": 13.6035634},
+        {"lat": 46.1770971, "lon": 13.6036653},
+        {"lat": 46.1770575, "lon": 13.6037312},
+        {"lat": 46.177046, "lon": 13.6037865},
+        {"lat": 46.1770348, "lon": 13.6038366}
       ],
       "tags": {
         "bicycle": "yes",
@@ -16301,11 +16296,11 @@
     {
       "type": "way",
       "id": 190497587,
-      "timestamp": "2020-03-29T16:34:29Z",
-      "version": 5,
-      "changeset": 82784738,
-      "user": "pronti",
-      "uid": 51987,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 6,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [393924585, 140459850],
       "geometry": [
         {"lat": 46.5946737, "lon": 13.8041568},
@@ -16316,6 +16311,7 @@
         {"lat": 46.5949628, "lon": 13.8048123}
       ],
       "tags": {
+        "bicycle": "no",
         "foot": "yes",
         "highway": "track",
         "incline": "5%",
@@ -28091,11 +28087,11 @@
     {
       "type": "way",
       "id": 30359116,
-      "timestamp": "2021-04-10T07:54:57Z",
-      "version": 30,
-      "changeset": 102685039,
-      "user": "Wulz",
-      "uid": 10773975,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 31,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [334863638, 1608898803],
       "geometry": [
         {"lat": 46.612998, "lon": 13.6296776},
@@ -28134,9 +28130,10 @@
         {"lat": 46.6099722, "lon": 13.6421541}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "path",
+        "horse": "no",
         "note": "Beim “ Julius-Kugy-Dreiländerweg in 30 Tagen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 296\n + lwn: Nötsch-Dobratsch, Julius-Kugy-Dreiländerweg in 30 Tagen – Variante E 29a",
         "sac_scale": "mountain_hiking",
         "surface": "gravel",
@@ -28224,11 +28221,11 @@
     {
       "type": "way",
       "id": 30359664,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 14,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 15,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [292883934, 334872755],
       "geometry": [
         {"lat": 46.5973018, "lon": 13.7024896},
@@ -28240,7 +28237,9 @@
         {"lat": 46.5968124, "lon": 13.7066721}
       ],
       "tags": {
+        "bicycle": "no",
         "highway": "path",
+        "horse": "no",
         "incline": "15",
         "note": "GHW 229 und 291",
         "source": "plan.at 2009;survey",
@@ -30646,11 +30645,11 @@
     {
       "type": "way",
       "id": 32260948,
-      "timestamp": "2020-12-18T10:47:04Z",
-      "version": 7,
-      "changeset": 96062460,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 8,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [334735812, 334735816],
       "geometry": [
         {"lat": 46.5907991, "lon": 13.8236083},
@@ -30658,9 +30657,10 @@
         {"lat": 46.5899456, "lon": 13.8232009}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "track",
+        "horse": "no",
         "note": "Salzsteigweg 09",
         "smoothness": "bad",
         "surface": "gravel",
@@ -31390,11 +31390,11 @@
     {
       "type": "way",
       "id": 32449821,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 10,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 11,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [364818699, 364818734],
       "geometry": [
         {"lat": 46.5951398, "lon": 13.8168441},
@@ -31414,9 +31414,10 @@
         {"lat": 46.5943218, "lon": 13.8196993}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "path",
+        "horse": "no",
         "incline": "0%",
         "note": "GHW 229",
         "sac_scale": "hiking",
@@ -31828,11 +31829,11 @@
     {
       "type": "way",
       "id": 34156731,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 25,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 26,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [7126237243, 7126230955],
       "geometry": [
         {"lat": 46.5982101, "lon": 13.7829374},
@@ -31936,9 +31937,10 @@
         {"lat": 46.5962371, "lon": 13.7952514}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "track",
+        "horse": "no",
         "incline": "5",
         "motor_vehicle": "yes",
         "note": "GHW 229",
@@ -33329,11 +33331,11 @@
     {
       "type": "way",
       "id": 35278328,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 16,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 17,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [393924594, 140459850],
       "geometry": [
         {"lat": 46.5948063, "lon": 13.8149038},
@@ -33406,7 +33408,7 @@
         {"lat": 46.5949628, "lon": 13.8048123}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "track",
         "incline": "15%",
@@ -37469,11 +37471,11 @@
     {
       "type": "way",
       "id": 38838655,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 10,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 11,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [461101496, 364818688],
       "geometry": [
         {"lat": 46.5952518, "lon": 13.8152794},
@@ -37487,8 +37489,10 @@
         {"lat": 46.5949317, "lon": 13.8166748}
       ],
       "tags": {
+        "bicycle": "no",
         "foot": "yes",
         "highway": "track",
+        "horse": "no",
         "incline": "15%",
         "smoothness": "bad",
         "surface": "ground",
@@ -48171,11 +48175,11 @@
     {
       "type": "way",
       "id": 518844746,
-      "timestamp": "2021-04-10T08:03:32Z",
-      "version": 11,
-      "changeset": 102685280,
-      "user": "Wulz",
-      "uid": 10773975,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 12,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [1320878516, 292886675],
       "geometry": [
         {"lat": 46.6044259, "lon": 13.664796},
@@ -48281,6 +48285,7 @@
         "bicycle": "no",
         "foot": "yes",
         "highway": "path",
+        "horse": "no",
         "incline": "steep",
         "note": "Beim “ Julius-Kugy-Dreiländerweg in 30 Tagen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 296\n + lwn: Nötsch-Dobratsch, Julius-Kugy-Dreiländerweg in 30 Tagen – Variante E 29a",
         "sac_scale": "demanding_mountain_hiking",
@@ -48292,11 +48297,11 @@
     {
       "type": "way",
       "id": 518844752,
-      "timestamp": "2021-04-10T07:55:58Z",
-      "version": 6,
-      "changeset": 102685067,
-      "user": "Wulz",
-      "uid": 10773975,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 7,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [334858647, 334863638],
       "geometry": [
         {"lat": 46.6126404, "lon": 13.6262163},
@@ -48308,9 +48313,10 @@
         {"lat": 46.612998, "lon": 13.6296776}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "track",
+        "horse": "no",
         "motor_vehicle": "yes",
         "note": "Beim “ Julius-Kugy-Dreiländerweg in 30 Tagen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 296\n + lwn: Nötsch-Dobratsch, Julius-Kugy-Dreiländerweg in 30 Tagen – Variante E 29a",
         "surface": "unpaved",
@@ -57177,11 +57183,11 @@
     {
       "type": "way",
       "id": 723843566,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 4,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 5,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [334735816, 5093405643],
       "geometry": [
         {"lat": 46.5899456, "lon": 13.8232009},
@@ -57190,9 +57196,10 @@
         {"lat": 46.5892885, "lon": 13.8234505}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "track",
+        "horse": "no",
         "incline": "5%",
         "smoothness": "bad",
         "surface": "gravel",
@@ -57203,11 +57210,11 @@
     {
       "type": "way",
       "id": 723843569,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 6,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 7,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [364818734, 364818774],
       "geometry": [
         {"lat": 46.5943218, "lon": 13.8196993},
@@ -57248,8 +57255,10 @@
         {"lat": 46.5915516, "lon": 13.8207404}
       ],
       "tags": {
+        "bicycle": "no",
         "foot": "yes",
         "highway": "path",
+        "horse": "no",
         "incline": "15%",
         "note": "GHW 229",
         "sac_scale": "hiking",
@@ -57293,11 +57302,11 @@
     {
       "type": "way",
       "id": 723843707,
-      "timestamp": "2020-12-18T10:48:17Z",
-      "version": 6,
-      "changeset": 96062612,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 7,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [5093405643, 334735312],
       "geometry": [
         {"lat": 46.5892885, "lon": 13.8234505},
@@ -57310,9 +57319,10 @@
         {"lat": 46.5875649, "lon": 13.8247598}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "track",
+        "horse": "no",
         "note": "Salzsteigweg 09",
         "smoothness": "bad",
         "surface": "gravel",
@@ -57323,11 +57333,11 @@
     {
       "type": "way",
       "id": 723843708,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 4,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 5,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [5352583828, 334735812],
       "geometry": [
         {"lat": 46.590474, "lon": 13.823915},
@@ -57335,9 +57345,10 @@
         {"lat": 46.5907991, "lon": 13.8236083}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "track",
+        "horse": "no",
         "note": "GHW 229",
         "sac_scale": "hiking",
         "smoothness": "bad",
@@ -57689,7 +57700,7 @@
         {"lat": 46.1775136, "lon": 13.6033233},
         {"lat": 46.1774506, "lon": 13.6033289},
         {"lat": 46.1773963, "lon": 13.6034155},
-        {"lat": 46.1773478, "lon": 13.6034508}
+        {"lat": 46.1773408, "lon": 13.6034203}
       ],
       "tags": {
         "highway": "path",
@@ -58236,11 +58247,11 @@
     {
       "type": "way",
       "id": 762659018,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 6,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 7,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [2402939912, 255899563],
       "geometry": [
         {"lat": 46.6038644, "lon": 13.7663924},
@@ -58382,9 +58393,10 @@
         {"lat": 46.6016875, "lon": 13.7815968}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "track",
+        "horse": "no",
         "incline": "0%",
         "motor_vehicle": "yes",
         "note": "GHW 229 und Weg-Nr. 22",
@@ -59522,11 +59534,11 @@
     {
       "type": "way",
       "id": 783222661,
-      "timestamp": "2021-03-24T18:47:58Z",
-      "version": 7,
-      "changeset": 101668781,
-      "user": "Wulz",
-      "uid": 10773975,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 8,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [334872755, 472406175],
       "geometry": [
         {"lat": 46.5968124, "lon": 13.7066721},
@@ -59556,9 +59568,10 @@
         {"lat": 46.5970609, "lon": 13.7132463}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "track",
+        "horse": "no",
         "incline": "down",
         "motor_vehicle": "no",
         "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Tagen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: 291, Gailtaler Höhenweg 229\n + lwn: Julius-Kugy-Dreiländerweg – Variante – E 30b",
@@ -59731,11 +59744,11 @@
     {
       "type": "way",
       "id": 783520227,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 4,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 5,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [334735799, 364818774],
       "geometry": [
         {"lat": 46.5911556, "lon": 13.8236929},
@@ -59753,9 +59766,10 @@
         {"lat": 46.5915516, "lon": 13.8207404}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "track",
+        "horse": "no",
         "incline": "5",
         "note": "GHW 229 und Salzsteigweg 09",
         "smoothness": "bad",
@@ -59767,11 +59781,11 @@
     {
       "type": "way",
       "id": 783554803,
-      "timestamp": "2021-03-22T20:00:23Z",
-      "version": 10,
-      "changeset": 101526737,
-      "user": "Wulz",
-      "uid": 10773975,
+      "timestamp": "2021-07-20T10:17:42Z",
+      "version": 11,
+      "changeset": 108309033,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [601577618, 268199687],
       "geometry": [
         {"lat": 46.5198075, "lon": 13.9577769},
@@ -59808,6 +59822,7 @@
         {"lat": 46.5181966, "lon": 13.9602939}
       ],
       "tags": {
+        "bicycle": "no",
         "highway": "path",
         "horse": "no",
         "incline": "steep",
@@ -60635,11 +60650,11 @@
     {
       "type": "way",
       "id": 785271609,
-      "timestamp": "2021-03-24T19:48:18Z",
-      "version": 4,
-      "changeset": 101671081,
-      "user": "Wulz",
-      "uid": 10773975,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 5,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [292883935, 292884061],
       "geometry": [
         {"lat": 46.5973561, "lon": 13.7024566},
@@ -60806,9 +60821,10 @@
         {"lat": 46.6026621, "lon": 13.6788303}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "track",
+        "horse": "no",
         "incline": "10%",
         "motor_vehicle": "private",
         "mtb:scale:uphill": "3",
@@ -60823,11 +60839,11 @@
     {
       "type": "way",
       "id": 785290854,
-      "timestamp": "2021-03-24T19:53:34Z",
-      "version": 4,
-      "changeset": 101671280,
-      "user": "Wulz",
-      "uid": 10773975,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 5,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [292884083, 3451153320],
       "geometry": [
         {"lat": 46.6026088, "lon": 13.6783862},
@@ -60845,9 +60861,10 @@
         {"lat": 46.603011, "lon": 13.6771431}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "track",
+        "horse": "no",
         "incline": "10%",
         "motor_vehicle": "private",
         "mtb:scale:uphill": "3",
@@ -61447,11 +61464,11 @@
     {
       "type": "way",
       "id": 785639389,
-      "timestamp": "2020-12-09T17:28:31Z",
-      "version": 2,
-      "changeset": 95567999,
-      "user": "Wulz",
-      "uid": 10773975,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 3,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [393924580, 393924585],
       "geometry": [
         {"lat": 46.5942782, "lon": 13.8025745},
@@ -61467,7 +61484,7 @@
         {"lat": 46.5946737, "lon": 13.8041568}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "track",
         "incline": "20%",
@@ -66404,11 +66421,11 @@
     {
       "type": "way",
       "id": 794671360,
-      "timestamp": "2021-03-24T17:22:26Z",
-      "version": 4,
-      "changeset": 101664300,
-      "user": "Wulz",
-      "uid": 10773975,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 5,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [393924534, 2402939912],
       "geometry": [
         {"lat": 46.6044474, "lon": 13.7616438},
@@ -66442,7 +66459,7 @@
         {"lat": 46.6038644, "lon": 13.7663924}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "track",
         "incline": "0%",
@@ -66458,11 +66475,11 @@
     {
       "type": "way",
       "id": 794671361,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 3,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 4,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [255899563, 7126237243],
       "geometry": [
         {"lat": 46.6016875, "lon": 13.7815968},
@@ -66504,11 +66521,11 @@
         {"lat": 46.5982101, "lon": 13.7829374}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "track",
         "incline": "5",
-        "motor_vehicle": "yes",
+        "motor_vehicle": "no",
         "note": "GHW 229",
         "smoothness": "bad",
         "surface": "gravel",
@@ -69136,11 +69153,11 @@
     {
       "type": "way",
       "id": 851990037,
-      "timestamp": "2021-04-10T08:02:06Z",
-      "version": 4,
-      "changeset": 102685236,
-      "user": "Wulz",
-      "uid": 10773975,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 5,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [334863715, 1320878516],
       "geometry": [
         {"lat": 46.607427, "lon": 13.649487},
@@ -69226,6 +69243,7 @@
         "bicycle": "no",
         "foot": "yes",
         "highway": "path",
+        "horse": "no",
         "incline": "steep",
         "note": "Beim “ Julius-Kugy-Dreiländerweg in 30 Tagen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 296\n + lwn: Nötsch-Dobratsch, Julius-Kugy-Dreiländerweg in 30 Tagen – Variante E 29a",
         "sac_scale": "demanding_mountain_hiking",
@@ -69264,11 +69282,11 @@
     {
       "type": "way",
       "id": 851990040,
-      "timestamp": "2021-04-10T08:00:14Z",
-      "version": 4,
-      "changeset": 102685180,
-      "user": "Wulz",
-      "uid": 10773975,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 5,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [334863692, 334863709],
       "geometry": [
         {"lat": 46.6088104, "lon": 13.6458352},
@@ -69296,6 +69314,7 @@
         "bicycle": "no",
         "foot": "yes",
         "highway": "path",
+        "horse": "no",
         "incline": "steep",
         "note": "Beim “ Julius-Kugy-Dreiländerweg in 30 Tagen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 296\n + lwn: Nötsch-Dobratsch, Julius-Kugy-Dreiländerweg in 30 Tagen – Variante E 29a",
         "sac_scale": "demanding_mountain_hiking",
@@ -69307,11 +69326,11 @@
     {
       "type": "way",
       "id": 851990042,
-      "timestamp": "2021-04-10T07:57:10Z",
-      "version": 4,
-      "changeset": 102685106,
-      "user": "Wulz",
-      "uid": 10773975,
+      "timestamp": "2021-07-20T09:14:10Z",
+      "version": 5,
+      "changeset": 108303792,
+      "user": "RegionVillach",
+      "uid": 4090626,
       "nodes": [1608898803, 334863692],
       "geometry": [
         {"lat": 46.6099722, "lon": 13.6421541},
@@ -69327,9 +69346,10 @@
         {"lat": 46.6088104, "lon": 13.6458352}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "foot": "yes",
         "highway": "path",
+        "horse": "no",
         "note": "Beim “ Julius-Kugy-Dreiländerweg in 30 Tagen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 296\n + lwn: Nötsch-Dobratsch, Julius-Kugy-Dreiländerweg in 30 Tagen – Variante E 29a",
         "sac_scale": "mountain_hiking",
         "surface": "gravel",
@@ -71629,6 +71649,34 @@
         {"lat": 46.6640279, "lon": 13.3956906}
       ],
       "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade2"}
+    },
+    {
+      "type": "way",
+      "id": 965875906,
+      "timestamp": "2021-07-20T09:27:43Z",
+      "version": 1,
+      "changeset": 108304963,
+      "user": "Cascafico",
+      "uid": 361003,
+      "nodes": [1586777063, 1586777076],
+      "geometry": [
+        {"lat": 46.1767733, "lon": 13.6041778},
+        {"lat": 46.176784, "lon": 13.6041058},
+        {"lat": 46.1767902, "lon": 13.6040371},
+        {"lat": 46.1767776, "lon": 13.6039814},
+        {"lat": 46.1767846, "lon": 13.6039179},
+        {"lat": 46.1768148, "lon": 13.6038352},
+        {"lat": 46.1769696, "lon": 13.6038292},
+        {"lat": 46.1770348, "lon": 13.6038366}
+      ],
+      "tags": {
+        "highway": "footway",
+        "incline": "10%",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \nSI A16 + VA B5 + 746 + Valli del Natisone\n",
+        "sac_scale": "hiking",
+        "surface": "gravel",
+        "width": "1"
+      }
     },
     {
       "type": "way",
