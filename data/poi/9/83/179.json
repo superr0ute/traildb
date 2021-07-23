@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-07-21T23:59:59Z",
-    "timestamp_osm_base": "2021-07-22T02:52:12Z",
+    "timestamp_osm_date": "2021-07-22T23:59:59Z",
+    "timestamp_osm_base": "2021-07-23T02:51:00Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -910,14 +910,21 @@
       "id": 2095252936,
       "lat": 47.4019212,
       "lon": -121.1003822,
-      "timestamp": "2018-08-01T07:55:37Z",
-      "version": 3,
-      "changeset": 61253046,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-07-22T19:48:58Z",
+      "version": 4,
+      "changeset": 108448265,
+      "user": "wislander",
+      "uid": 384146,
       "tags": {
+        "backcountry": "no",
+        "caravans": "yes",
+        "drinking_water": "yes",
+        "fee": "yes",
         "name": "Salmon la Sac Campground",
-        "tourism": "camp_site"
+        "operator": "USFS",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "website": "https://www.fs.usda.gov/recarea/okawen/recreation/camping-cabins/recarea/?recid=57777&actid=29"
       }
     },
     {
@@ -1817,12 +1824,14 @@
       "id": 6638693162,
       "lat": 47.4990875,
       "lon": -121.1635767,
-      "timestamp": "2019-07-23T18:01:10Z",
-      "version": 3,
-      "changeset": 72570621,
-      "user": "Omnific",
-      "uid": 1408522,
+      "timestamp": "2021-07-22T19:20:33Z",
+      "version": 4,
+      "changeset": 108447236,
+      "user": "wislander",
+      "uid": 384146,
       "tags": {
+        "backcountry": "yes",
+        "fee": "no",
         "name": "Waptus Lake Camp",
         "tourism": "camp_site"
       }
@@ -1982,13 +1991,15 @@
       "id": 7043653302,
       "lat": 47.485104,
       "lon": -121.2593472,
-      "timestamp": "2019-12-09T10:56:38Z",
-      "version": 1,
-      "changeset": 78145637,
-      "user": "kylebarron",
-      "uid": 8122137,
+      "timestamp": "2021-07-22T19:27:27Z",
+      "version": 3,
+      "changeset": 108447498,
+      "user": "wislander",
+      "uid": 384146,
       "tags": {
         "backcountry": "yes",
+        "name": "Lemah Meadows",
+        "toilets": "no",
         "tourism": "camp_site"
       }
     },
@@ -2225,6 +2236,54 @@
       "user": "Adam Schneider",
       "uid": 5403394,
       "tags": {
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8942324356,
+      "lat": 47.5000482,
+      "lon": -121.2462188,
+      "timestamp": "2021-07-22T19:27:27Z",
+      "version": 2,
+      "changeset": 108447498,
+      "user": "wislander",
+      "uid": 384146,
+      "tags": {
+        "backcountry": "yes",
+        "toilets": "no",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8942337157,
+      "lat": 47.5040421,
+      "lon": -121.1717941,
+      "timestamp": "2021-07-22T19:20:33Z",
+      "version": 1,
+      "changeset": 108447236,
+      "user": "wislander",
+      "uid": 384146,
+      "tags": {
+        "backcountry": "yes",
+        "fee": "no",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8942371924,
+      "lat": 47.498999,
+      "lon": -121.2141539,
+      "timestamp": "2021-07-22T19:27:27Z",
+      "version": 1,
+      "changeset": 108447498,
+      "user": "wislander",
+      "uid": 384146,
+      "tags": {
+        "backcountry": "yes",
+        "fixme": "Exact location",
         "tourism": "camp_site"
       }
     },

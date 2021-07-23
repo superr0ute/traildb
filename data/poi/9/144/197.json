@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-07-21T23:59:59Z",
-    "timestamp_osm_base": "2021-07-22T03:42:27Z",
+    "timestamp_osm_date": "2021-07-22T23:59:59Z",
+    "timestamp_osm_base": "2021-07-23T03:39:41Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -8285,36 +8285,6 @@
     },
     {
       "type": "node",
-      "id": 4570884437,
-      "lat": 38.1180895,
-      "lon": -78.6614948,
-      "timestamp": "2016-12-24T21:05:13Z",
-      "version": 1,
-      "changeset": 44651904,
-      "user": "tjcabell",
-      "uid": 2442415,
-      "tags": {
-        "name": "Wyants Country Store",
-        "shop": "convenience"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4570884438,
-      "lat": 38.1191783,
-      "lon": -78.6639839,
-      "timestamp": "2016-12-24T21:05:13Z",
-      "version": 1,
-      "changeset": 44651904,
-      "user": "tjcabell",
-      "uid": 2442415,
-      "tags": {
-        "name": "Piedmont Store",
-        "shop": "convenience"
-      }
-    },
-    {
-      "type": "node",
       "id": 4570918456,
       "lat": 38.1282389,
       "lon": -78.7239152,
@@ -9767,6 +9737,45 @@
         "name": "Dundo Campground",
         "tents": "yes",
         "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 966350388,
+      "timestamp": "2021-07-22T04:52:47Z",
+      "version": 1,
+      "changeset": 108396817,
+      "user": "AndrewSnow",
+      "uid": 371121,
+      "center": {
+        "lat": 38.1191479,
+        "lon": -78.6641053
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Piedmont Store",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 966350416,
+      "timestamp": "2021-07-22T04:52:47Z",
+      "version": 1,
+      "changeset": 108396817,
+      "user": "AndrewSnow",
+      "uid": 371121,
+      "center": {
+        "lat": 38.1180941,
+        "lon": -78.6614712
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Wyants Country Store",
+        "shop": "convenience",
+        "source": "microsoft/BuildingFootprints"
       }
     }
   ]

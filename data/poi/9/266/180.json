@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-07-21T23:59:59Z",
-    "timestamp_osm_base": "2021-07-22T04:32:28Z",
+    "timestamp_osm_date": "2021-07-22T23:59:59Z",
+    "timestamp_osm_base": "2021-07-23T04:30:13Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -14664,13 +14664,13 @@
     {
       "type": "node",
       "id": 848516216,
-      "lat": 46.9568446,
+      "lat": 46.9568526,
       "lon": 7.6028303,
-      "timestamp": "2017-07-23T15:12:36Z",
-      "version": 3,
-      "changeset": 50504152,
-      "user": "jam9264",
-      "uid": 135755,
+      "timestamp": "2021-07-22T08:37:36Z",
+      "version": 4,
+      "changeset": 108412360,
+      "user": "Voonosm",
+      "uid": 4378872,
       "tags": {
         "ele": "907",
         "mountain_pass": "yes",
@@ -28240,13 +28240,17 @@
       "id": 4099325113,
       "lat": 46.7920742,
       "lon": 7.1697673,
-      "timestamp": "2016-06-15T10:30:58Z",
-      "version": 2,
-      "changeset": 40035685,
-      "user": "amilopowers",
-      "uid": 1514673,
+      "timestamp": "2021-07-22T06:26:12Z",
+      "version": 3,
+      "changeset": 108402468,
+      "user": "vmicho",
+      "uid": 1849074,
       "tags": {
-        "amenity": "drinking_water"
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "drinking_water": "yes",
+        "fee": "no"
       }
     },
     {
@@ -32483,13 +32487,17 @@
       "id": 5370476491,
       "lat": 46.7868051,
       "lon": 7.1668796,
-      "timestamp": "2020-01-17T21:23:53Z",
-      "version": 4,
-      "changeset": 79716235,
-      "user": "Bathyscapher",
-      "uid": 8889564,
+      "timestamp": "2021-07-22T06:26:12Z",
+      "version": 5,
+      "changeset": 108402468,
+      "user": "vmicho",
+      "uid": 1849074,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "drinking_water": "no",
+        "fee": "no",
+        "note": "Non potable! Un qui est potable se trouve ~700 m au nord ;)"
       }
     },
     {
@@ -50638,6 +50646,64 @@
         "amenity": "shelter",
         "building": "roof",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 966505668,
+      "timestamp": "2021-07-22T15:12:19Z",
+      "version": 1,
+      "changeset": 108436448,
+      "user": "haytigran",
+      "uid": 360562,
+      "center": {
+        "lat": 46.9343717,
+        "lon": 7.5050678
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 966563795,
+      "timestamp": "2021-07-22T19:40:29Z",
+      "version": 1,
+      "changeset": 108447933,
+      "user": "vmicho",
+      "uid": 1849074,
+      "center": {
+        "lat": 46.7986897,
+        "lon": 7.1242554
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 966569118,
+      "timestamp": "2021-07-22T20:10:06Z",
+      "version": 1,
+      "changeset": 108449068,
+      "user": "vmicho",
+      "uid": 1849074,
+      "center": {
+        "lat": 46.795225,
+        "lon": 7.1312527
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "no",
+        "bin": "no",
+        "building": "yes",
+        "shelter_type": "field_shelter"
       }
     }
   ]
