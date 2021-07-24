@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-07-22T23:59:59Z",
-    "timestamp_osm_base": "2021-07-23T04:30:13Z",
+    "timestamp_osm_date": "2021-07-23T23:59:59Z",
+    "timestamp_osm_base": "2021-07-24T04:25:13Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -20122,19 +20122,25 @@
       "id": 1710609713,
       "lat": 46.8031039,
       "lon": 7.1522113,
-      "timestamp": "2017-03-06T14:05:22Z",
-      "version": 5,
-      "changeset": 46624903,
-      "user": "amilopowers",
-      "uid": 1514673,
+      "timestamp": "2021-07-23T20:35:28Z",
+      "version": 6,
+      "changeset": 108512304,
+      "user": "vmicho",
+      "uid": 1849074,
       "tags": {
         "addr:city": "Fribourg",
         "addr:housenumber": "10",
         "addr:postcode": "1700",
         "addr:street": "Avenue de la Gare",
-        "name": "Coop city",
-        "shop": "supermarket",
+        "brand": "Coop",
+        "brand:wikidata": "Q432564",
+        "brand:wikipedia": "de:Coop (Schweiz)",
+        "name": "Coop City",
+        "opening_hours": "Mo-We 08:30-19:00; Th 08:30-20:00; Fr 08:30-19:00; Sa 08:00-16:00",
+        "opening_hours:covid19": "open",
+        "shop": "convenience",
         "toilets:wheelchair": "yes",
+        "website": "https://www.coop.ch/en/locations/coop-city-fribourg/2586_POS",
         "wheelchair": "yes"
       }
     },
@@ -21340,22 +21346,31 @@
       "id": 1939422056,
       "lat": 46.8037059,
       "lon": 7.1504196,
-      "timestamp": "2019-08-14T06:20:29Z",
-      "version": 9,
-      "changeset": 73332898,
-      "user": "FvGordon",
-      "uid": 161619,
+      "timestamp": "2021-07-23T20:41:35Z",
+      "version": 10,
+      "changeset": 108512494,
+      "user": "vmicho",
+      "uid": 1849074,
       "tags": {
+        "addr:city": "Fribourg",
+        "addr:housenumber": "4",
+        "addr:postcode": "1700",
+        "addr:street": "Rue Louis-d'Affry",
+        "brand": "Coop",
+        "brand:wikidata": "Q432564",
+        "brand:wikipedia": "de:Coop (Schweiz)",
         "internet_access": "wlan",
         "internet_access:fee": "no",
         "name": "Coop",
         "opening_hours": "Mo-Sa 06:00-21:00; Su 07:00-19:00",
+        "opening_hours:covid19": "open",
         "payment:cash": "yes",
         "payment:contactless": "yes",
         "payment:credit_cards": "yes",
         "payment:debit_cards": "yes",
-        "shop": "convenience",
-        "source": "survey"
+        "shop": "supermarket",
+        "source": "survey",
+        "website": "https://www.coop.ch/en/locations/coop-supermarche-fribourg-gare/4876_POS?lat=46.8125412&long=7.1276012"
       }
     },
     {
@@ -39250,6 +39265,31 @@
         "bottle": "yes",
         "fee": "no",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8945062569,
+      "lat": 46.8035996,
+      "lon": 7.1502969,
+      "timestamp": "2021-07-23T20:41:35Z",
+      "version": 1,
+      "changeset": 108512494,
+      "user": "vmicho",
+      "uid": 1849074,
+      "tags": {
+        "addr:city": "Fribourg",
+        "addr:housenumber": "2",
+        "addr:postcode": "1701",
+        "addr:street": "Rue Louis-d'Affry",
+        "brand": "Migros",
+        "brand:wikidata": "Q680727",
+        "brand:wikipedia": "en:Migros",
+        "name": "Migros",
+        "opening_hours": "Mo-Sa 06:00-21:00; Su 07:00-19:00",
+        "opening_hours:covid19": "open",
+        "shop": "supermarket",
+        "website": "https://filialen.migros.ch/fr/supermarche-migros-fribourg-gare"
       }
     },
     {
