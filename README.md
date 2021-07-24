@@ -7,7 +7,7 @@
 | --- | --- | --- | --- | --- | --- |
 |❌|[AAT](https://superroute.org/AAT)|Alpe Adria Trail [osm](https://osm.org/relation/3176522) [wiki](https://wikidata.org/wiki/Q15782535)||today||
 |✔️|[ACT](https://superroute.org/ACT)|Arctic Circle Trail [osm](https://osm.org/relation/8350961) [wiki](https://wikidata.org/wiki/Q638049)|![#FF73D7](https://via.placeholder.com/14/FF73D7/000000?text=+) #FF73D7|2021-06-08|28|
-|❌❌|[ADR](https://superroute.org/ADR)|Via Adriatica [osm](https://osm.org/relation/12205135) [wiki](https://wikidata.org/wiki/Q106421315)|![#00CAC7](https://via.placeholder.com/14/00CAC7/000000?text=+) #00CAC7|2021-07-12|679|
+|❌❌|[ADR](https://superroute.org/ADR)|Via Adriatica [osm](https://osm.org/relation/12205135) [wiki](https://wikidata.org/wiki/Q106421315)|![#00CAC7](https://via.placeholder.com/14/00CAC7/000000?text=+) #00CAC7|2021-07-12|678|
 |❌|[ALPB](https://superroute.org/ALPB)|Via Alpina Blue [osm](https://osm.org/relation/2389235) [wiki](https://wikidata.org/wiki/Q106564042)||today||
 |✔️|[ALPG](https://superroute.org/ALPG)|Via Alpina Green [osm](https://osm.org/relation/12579662) [wiki](https://wikidata.org/wiki/Q106564102)|![#70DD62](https://via.placeholder.com/14/70DD62/000000?text=+) #70DD62|today|1220|
 |❌|[ALPP](https://superroute.org/ALPP)|Via Alpina Purple [osm](https://osm.org/relation/271352) [wiki](https://wikidata.org/wiki/Q106564113)||today||
@@ -17,7 +17,7 @@
 |❌❌|[AND](https://superroute.org/AND)|GRP Andorra [osm](https://osm.org/relation/5511920) [wiki](https://wikidata.org/wiki/Q105993387)|![#FFA500](https://via.placeholder.com/14/FFA500/000000?text=+) #FFA500|2021-04-25|258|
 |✔️|[AOS1](https://superroute.org/AOS1)|Alta Via della Valle d'Aosta n. 1 [osm](https://osm.org/relation/1706143) [wiki](https://wikidata.org/wiki/Q3128549)|![#7B7DE2](https://via.placeholder.com/14/7B7DE2/000000?text=+) #7B7DE2|2021-07-19|683|
 |❌❌|[AOS2](https://superroute.org/AOS2)|Alta Via della Valle d'Aosta [osm](https://osm.org/relation/9898948) [wiki](https://wikidata.org/wiki/Q3128550)|![#FD4D4D](https://via.placeholder.com/14/FD4D4D/000000?text=+) #FD4D4D|2021-07-09|426|
-|✔️|[APT](https://superroute.org/APT)|Alpine Passes Trail [osm](https://osm.org/relation/132518) [wiki](https://wikidata.org/wiki/Q31840248)|![#F3A929](https://via.placeholder.com/14/F3A929/000000?text=+) #F3A929|today|1574|
+|✔️|[APT](https://superroute.org/APT)|Alpine Passes Trail [osm](https://osm.org/relation/132518) [wiki](https://wikidata.org/wiki/Q31840248)|![#F3A929](https://via.placeholder.com/14/F3A929/000000?text=+) #F3A929|today|1575|
 |✔️|[ARC](https://superroute.org/ARC)|Arctic Trail [osm](https://osm.org/relation/2437984) [wiki](https://wikidata.org/wiki/Q1042834)|![#A7FCFF](https://via.placeholder.com/14/A7FCFF/000000?text=+) #A7FCFF|2021-07-21|130|
 |✔️|[AT](https://superroute.org/AT)|Appalachian Trail [osm](https://osm.org/relation/156553) [wiki](https://wikidata.org/wiki/Q620648)|![#FFFFFF](https://via.placeholder.com/14/FFFFFF/000000?text=+) #FFFFFF|2021-07-21|2291|
 |❌|[AUS](https://superroute.org/AUS)|Australian Alps Walking Track [osm](https://osm.org/relation/1644959) [wiki](https://wikidata.org/wiki/Q4823802)||2021-07-22||
@@ -101,7 +101,7 @@
 |❌|[TMR](https://superroute.org/TMR)|Tour de Monte Rosa [osm](https://osm.org/relation/10353523) [wiki](https://wikidata.org/wiki/Q3533768)||2021-07-17||
 |✔️|[TPO](https://superroute.org/TPO)|Torres del Paine O Circuit [osm](https://osm.org/relation/7705906) [wiki](https://wikidata.org/wiki/Q106577166)||2021-07-03|13|
 |❌|[TPW](https://superroute.org/TPW)|Torres del Paine W Circuit [osm](https://osm.org/relation/2203617) [wiki](https://wikidata.org/wiki/Q106577165)||2021-07-03||
-|✔️|[TRT](https://superroute.org/TRT)|Tahoe Rim Trail [osm](https://osm.org/relation/3094865) [wiki](https://wikidata.org/wiki/Q925069)|![#69FFF5](https://via.placeholder.com/14/69FFF5/000000?text=+) #69FFF5|2021-06-09|109|
+|✔️|[TRT](https://superroute.org/TRT)|Tahoe Rim Trail [osm](https://osm.org/relation/3094865) [wiki](https://wikidata.org/wiki/Q925069)|![#69FFF5](https://via.placeholder.com/14/69FFF5/000000?text=+) #69FFF5|2021-06-09|110|
 |❌|[TST](https://superroute.org/TST)|Theodore Solomons Trail [osm](https://osm.org/relation/5549623) [wiki](https://wikidata.org/wiki/Q19578063)||2021-07-12||
 |✔️|[TVT](https://superroute.org/TVT)|Tsum Valley Trek [osm](https://osm.org/relation/11074323) [wiki](https://wikidata.org/wiki/Q106773720)|![#BB0C0C](https://via.placeholder.com/14/BB0C0C/000000?text=+) #BB0C0C|2021-05-27|11|
 |❌|[UD](https://superroute.org/UD)|Upper Dolpo Circuit [osm](https://osm.org/relation/11104197) [wiki](https://wikidata.org/wiki/Q106773619)||2021-05-28||
@@ -112,7 +112,7 @@
 |❌|[WES](https://superroute.org/WES)|Westweg [osm](https://osm.org/relation/62900) [wiki](https://wikidata.org/wiki/Q2565728)||today||
 |✔️✔️|[WON](https://superroute.org/WON)|Wonderland Trail [osm](https://osm.org/relation/4111743) [wiki](https://wikidata.org/wiki/Q3498361)|![#7968FF](https://via.placeholder.com/14/7968FF/000000?text=+) #7968FF|2021-06-27|50|
 
-### poidb version 2021-07-22
+### poidb version 2021-07-23
 
 | name | selector | maxDistance |
 |  --- | --- | --- |
