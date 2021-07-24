@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-11T02:32:25Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-24T02:37:23Z"},
   "elements": [
     {
       "type": "relation",
@@ -244,11 +244,11 @@
     {
       "type": "relation",
       "id": 10992548,
-      "timestamp": "2021-04-15T04:54:55Z",
-      "version": 26,
-      "changeset": 102963567,
-      "user": "MaxL",
-      "uid": 461719,
+      "timestamp": "2021-07-23T17:31:50Z",
+      "version": 27,
+      "changeset": 108506214,
+      "user": "AbeOrch",
+      "uid": 12481428,
       "members": [
         {"type": "way", "ref": 469378538, "role": "backward"},
         {"type": "way", "ref": 200857049, "role": "backward"},
@@ -383,6 +383,7 @@
         {"type": "way", "ref": 105250130, "role": "link"},
         {"type": "way", "ref": 16792961, "role": "link"},
         {"type": "way", "ref": 178599563, "role": "link"},
+        {"type": "way", "ref": 966797981, "role": "link"},
         {"type": "way", "ref": 834236417, "role": "link"},
         {"type": "way", "ref": 834236416, "role": "link"},
         {"type": "way", "ref": 178599565, "role": "link"},
@@ -1075,11 +1076,11 @@
     {
       "type": "way",
       "id": 105250130,
-      "timestamp": "2020-07-08T13:34:56Z",
-      "version": 14,
-      "changeset": 87713981,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2021-07-23T17:31:50Z",
+      "version": 15,
+      "changeset": 108506214,
+      "user": "AbeOrch",
+      "uid": 12481428,
       "nodes": [173781820, 173781728],
       "geometry": [
         {"lat": -43.8038191, "lon": 171.4374904, "z": 269.2},
@@ -1104,6 +1105,7 @@
       ],
       "tags": {
         "highway": "secondary",
+        "maxspeed": "100",
         "name": "Arundel Rakaia Gorge Road",
         "ref": "72",
         "surface": "asphalt"
@@ -2807,11 +2809,11 @@
     {
       "type": "way",
       "id": 16792961,
-      "timestamp": "2020-07-08T13:34:56Z",
-      "version": 17,
-      "changeset": 87713981,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2021-07-23T17:31:50Z",
+      "version": 18,
+      "changeset": 108506214,
+      "user": "AbeOrch",
+      "uid": 12481428,
       "nodes": [767829117, 173781820],
       "geometry": [
         {"lat": -43.8102439, "lon": 171.4300686, "z": 261.2},
@@ -2827,7 +2829,7 @@
         {"lat": -43.8051519, "lon": 171.4373342, "z": 267.6},
         {"lat": -43.8050071, "lon": 171.4374701, "z": 267.8},
         {"lat": -43.8048407, "lon": 171.4375675, "z": 267.9},
-        {"lat": -43.8047378, "lon": 171.4376096, "z": 268},
+        {"lat": -43.8047891, "lon": 171.4376176, "z": 268},
         {"lat": -43.8046452, "lon": 171.4376435, "z": 268.1},
         {"lat": -43.804542, "lon": 171.4376537, "z": 268.2},
         {"lat": -43.8043697, "lon": 171.4376547, "z": 268.4},
@@ -2836,7 +2838,9 @@
       ],
       "tags": {
         "highway": "secondary",
+        "maxspeed": "100",
         "name": "Arundel Rakaia Gorge Road",
+        "oneway": "no",
         "ref": "72",
         "surface": "asphalt"
       }
@@ -3283,11 +3287,11 @@
     {
       "type": "way",
       "id": 178599563,
-      "timestamp": "2020-07-08T13:34:56Z",
-      "version": 9,
-      "changeset": 87713981,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2021-07-23T17:39:49Z",
+      "version": 11,
+      "changeset": 108506577,
+      "user": "AbeOrch",
+      "uid": 12481428,
       "nodes": [767829117, 1526112474],
       "geometry": [
         {"lat": -43.8102439, "lon": 171.4300686, "z": 261.2},
@@ -3296,7 +3300,9 @@
       "tags": {
         "bridge": "yes",
         "highway": "secondary",
+        "lanes": "2",
         "layer": "1",
+        "maxspeed": "100",
         "name": "Arundel Rakaia Gorge Road",
         "ref": "72",
         "surface": "asphalt"
@@ -56709,21 +56715,23 @@
     {
       "type": "way",
       "id": 834236417,
-      "timestamp": "2020-08-05T13:40:03Z",
-      "version": 1,
-      "changeset": 88985659,
-      "user": "MajaMaravic",
-      "uid": 9357577,
-      "nodes": [767859154, 1526112474],
+      "timestamp": "2021-07-23T17:39:49Z",
+      "version": 3,
+      "changeset": 108506577,
+      "user": "AbeOrch",
+      "uid": 12481428,
+      "nodes": [8944712254, 1526112474],
       "geometry": [
-        {"lat": -43.8215369, "lon": 171.4216175, "z": 259.7},
-        {"lat": -43.8190828, "lon": 171.4233971, "z": 259.6},
+        {"lat": -43.8169911, "lon": 171.4248671, "z": 259.2},
         {"lat": -43.8121503, "lon": 171.428269, "z": 262.3},
         {"lat": -43.8110649, "lon": 171.4292715, "z": 261.2}
       ],
       "tags": {
         "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "100",
         "name": "Arundel Rakaia Gorge Road",
+        "oneway": "no",
         "ref": "72",
         "surface": "asphalt"
       }
@@ -59819,6 +59827,30 @@
         "highway": "residential",
         "name": "Birse Street",
         "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 966797981,
+      "timestamp": "2021-07-23T17:39:49Z",
+      "version": 2,
+      "changeset": 108506577,
+      "user": "AbeOrch",
+      "uid": 12481428,
+      "nodes": [767859154, 8944712254],
+      "geometry": [
+        {"lat": -43.8215369, "lon": 171.4216175, "z": 259.7},
+        {"lat": -43.8190828, "lon": 171.4233971, "z": 259.6},
+        {"lat": -43.8169911, "lon": 171.4248671, "z": 259.2}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Arundel Rakaia Gorge Road",
+        "oneway": "no",
+        "ref": "72",
+        "surface": "asphalt"
       }
     },
     {

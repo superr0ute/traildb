@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-19T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-23T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2218,11 +2218,11 @@
     {
       "type": "relation",
       "id": 7700287,
-      "timestamp": "2019-10-27T16:05:50Z",
-      "version": 20,
-      "changeset": 76269801,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-07-23T12:41:30Z",
+      "version": 21,
+      "changeset": 108494147,
+      "user": "Fabio Tremari",
+      "uid": 4254454,
       "members": [
         {"type": "way", "ref": 537357615, "role": ""},
         {"type": "way", "ref": 537357617, "role": ""},
@@ -2258,6 +2258,7 @@
         {"type": "way", "ref": 622843559, "role": ""},
         {"type": "way", "ref": 622843558, "role": ""},
         {"type": "way", "ref": 496990741, "role": ""},
+        {"type": "way", "ref": 966742152, "role": ""},
         {"type": "way", "ref": 691486736, "role": ""},
         {"type": "way", "ref": 691486735, "role": ""},
         {"type": "way", "ref": 413540253, "role": ""},
@@ -16807,11 +16808,11 @@
     {
       "type": "way",
       "id": 175567751,
-      "timestamp": "2019-08-11T13:13:43Z",
-      "version": 3,
-      "changeset": 73241358,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-07-23T12:52:40Z",
+      "version": 4,
+      "changeset": 108494710,
+      "user": "Fabio Tremari",
+      "uid": 4254454,
       "nodes": [748118363, 6700301985],
       "geometry": [
         {"lat": 46.5461741, "lon": 10.1497584},
@@ -16829,7 +16830,7 @@
       "tags": {
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "path",
+        "highway": "track",
         "mtb:scale": "1",
         "mtb:scale:uphill": "1"
       }
@@ -67446,12 +67447,12 @@
     {
       "type": "way",
       "id": 496990741,
-      "timestamp": "2019-05-21T17:06:35Z",
-      "version": 7,
-      "changeset": 70486643,
-      "user": "kaitu",
-      "uid": 69717,
-      "nodes": [298527579, 298527596],
+      "timestamp": "2021-07-23T12:41:30Z",
+      "version": 8,
+      "changeset": 108494147,
+      "user": "Fabio Tremari",
+      "uid": 4254454,
+      "nodes": [298527579, 5900067695],
       "geometry": [
         {"lat": 46.1640896, "lon": 9.2124666},
         {"lat": 46.1641149, "lon": 9.2126299},
@@ -67495,12 +67496,7 @@
         {"lat": 46.1669934, "lon": 9.2184293},
         {"lat": 46.1671663, "lon": 9.2183687},
         {"lat": 46.1672985, "lon": 9.2184372},
-        {"lat": 46.16749, "lon": 9.2185682},
-        {"lat": 46.1675661, "lon": 9.2184866},
-        {"lat": 46.1676961, "lon": 9.2182684},
-        {"lat": 46.1677494, "lon": 9.2181862},
-        {"lat": 46.167839, "lon": 9.2180953},
-        {"lat": 46.1678993, "lon": 9.2180719}
+        {"lat": 46.1674888, "lon": 9.2185843}
       ],
       "tags": {
         "highway": "path",
@@ -69945,7 +69941,7 @@
       "uid": 2175620,
       "nodes": [1861412320, 1861444518],
       "geometry": [
-        {"lat": 46.547367, "lon": 10.148661},
+        {"lat": 46.5473642, "lon": 10.1486856},
         {"lat": 46.5473949, "lon": 10.1485938},
         {"lat": 46.5473967, "lon": 10.1485133},
         {"lat": 46.5474502, "lon": 10.1484168},
@@ -84287,7 +84283,7 @@
       "uid": 69717,
       "nodes": [298527596, 6488823971],
       "geometry": [
-        {"lat": 46.1678993, "lon": 9.2180719},
+        {"lat": 46.1678919, "lon": 9.2180701},
         {"lat": 46.1679104, "lon": 9.2180923}
       ],
       "tags": {
@@ -88341,20 +88337,20 @@
     {
       "type": "way",
       "id": 712636233,
-      "timestamp": "2019-08-11T13:03:09Z",
-      "version": 1,
-      "changeset": 73241138,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-07-23T12:52:40Z",
+      "version": 2,
+      "changeset": 108494710,
+      "user": "Fabio Tremari",
+      "uid": 4254454,
       "nodes": [1861412320, 1861412360],
       "geometry": [
-        {"lat": 46.547367, "lon": 10.148661},
+        {"lat": 46.5473642, "lon": 10.1486856},
         {"lat": 46.547295, "lon": 10.1487517}
       ],
       "tags": {
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "track",
+        "highway": "path",
         "tracktype": "grade3"
       }
     },
@@ -99471,6 +99467,29 @@
         "highway": "path",
         "sac_scale": "hiking",
         "surface": "ground",
+        "trail_visibility": "good"
+      }
+    },
+    {
+      "type": "way",
+      "id": 966742152,
+      "timestamp": "2021-07-23T12:41:30Z",
+      "version": 1,
+      "changeset": 108494147,
+      "user": "Fabio Tremari",
+      "uid": 4254454,
+      "nodes": [5900067695, 298527596],
+      "geometry": [
+        {"lat": 46.1674888, "lon": 9.2185843},
+        {"lat": 46.1675661, "lon": 9.2184866},
+        {"lat": 46.1676961, "lon": 9.2182684},
+        {"lat": 46.1677494, "lon": 9.2181862},
+        {"lat": 46.1678563, "lon": 9.2180756},
+        {"lat": 46.1678919, "lon": 9.2180701}
+      ],
+      "tags": {
+        "highway": "track",
+        "sac_scale": "hiking",
         "trail_visibility": "good"
       }
     },

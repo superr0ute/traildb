@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-18T02:24:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-24T02:28:12Z"},
   "elements": [
     {
       "type": "relation",
@@ -17159,11 +17159,11 @@
     {
       "type": "way",
       "id": 30488079,
-      "timestamp": "2020-04-19T12:29:08Z",
-      "version": 9,
-      "changeset": 83771239,
-      "user": "47NOE",
-      "uid": 1811738,
+      "timestamp": "2021-07-23T20:39:20Z",
+      "version": 10,
+      "changeset": 108512432,
+      "user": "TimeWalker",
+      "uid": 9643180,
       "nodes": [336434524, 336434536],
       "geometry": [
         {"lat": 47.1433645, "lon": 9.5146168, "z": 458.2},
@@ -17185,6 +17185,7 @@
         "motor_vehicle": "no",
         "name": "Bammiliweg",
         "oneway": "no",
+        "segregated": "no",
         "surface": "asphalt"
       }
     },
@@ -34714,11 +34715,11 @@
     {
       "type": "way",
       "id": 609312946,
-      "timestamp": "2018-07-19T19:14:29Z",
-      "version": 1,
-      "changeset": 60881725,
-      "user": "domob",
-      "uid": 521541,
+      "timestamp": "2021-07-23T07:36:12Z",
+      "version": 3,
+      "changeset": 108472760,
+      "user": "TimeWalker",
+      "uid": 9643180,
       "nodes": [5771534111, 315637000],
       "geometry": [
         {"lat": 47.1421169, "lon": 9.5233523, "z": 496},
@@ -34728,7 +34729,12 @@
         {"lat": 47.1421442, "lon": 9.5235561, "z": 502.6},
         {"lat": 47.1421805, "lon": 9.5235937, "z": 504.1}
       ],
-      "tags": {"highway": "steps", "name": "Schlossweg", "surface": "unpaved"}
+      "tags": {
+        "highway": "steps",
+        "name": "Schlossweg",
+        "ramp": "no",
+        "surface": "sett"
+      }
     },
     {
       "type": "way",

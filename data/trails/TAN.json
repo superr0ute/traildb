@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-22T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-23T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -7317,11 +7317,11 @@
     {
       "type": "way",
       "id": 147608476,
-      "timestamp": "2020-07-27T08:48:32Z",
-      "version": 14,
-      "changeset": 88552649,
-      "user": "magrej",
-      "uid": 7345137,
+      "timestamp": "2021-07-23T18:58:02Z",
+      "version": 16,
+      "changeset": 108509320,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [251579673, 4597219899],
       "geometry": [
         {"lat": -36.6920822, "lon": 174.7494135},
@@ -7352,9 +7352,10 @@
       "tags": {
         "highway": "secondary",
         "lanes": "2",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Glenvar Road",
-        "surface": "paved"
+        "surface": "asphalt"
       }
     },
     {
@@ -32795,11 +32796,11 @@
     {
       "type": "way",
       "id": 263569011,
-      "timestamp": "2020-07-27T08:48:32Z",
-      "version": 6,
-      "changeset": 88552649,
-      "user": "magrej",
-      "uid": 7345137,
+      "timestamp": "2021-07-23T18:58:12Z",
+      "version": 8,
+      "changeset": 108509320,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [251579673, 3192066370],
       "geometry": [
         {"lat": -36.6920822, "lon": 174.7494135},
@@ -32812,9 +32813,10 @@
       "tags": {
         "highway": "tertiary",
         "lanes": "2",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Beach Road",
-        "surface": "paved"
+        "surface": "asphalt"
       }
     },
     {
@@ -62257,9 +62259,9 @@
     {
       "type": "way",
       "id": 464632959,
-      "timestamp": "2021-02-21T22:54:15Z",
-      "version": 7,
-      "changeset": 99702335,
+      "timestamp": "2021-07-23T18:57:49Z",
+      "version": 8,
+      "changeset": 108509320,
       "user": "LACDH",
       "uid": 4994674,
       "nodes": [3440521458, 4597219899],
@@ -62270,6 +62272,7 @@
       "tags": {
         "highway": "secondary",
         "lanes": "1",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Glenvar Road",
         "oneway": "yes",
@@ -62280,9 +62283,9 @@
     {
       "type": "way",
       "id": 464632960,
-      "timestamp": "2021-02-21T22:54:06Z",
-      "version": 7,
-      "changeset": 99702335,
+      "timestamp": "2021-07-23T18:57:56Z",
+      "version": 8,
+      "changeset": 108509320,
       "user": "LACDH",
       "uid": 4994674,
       "nodes": [1856373458, 3440521462],
@@ -62294,6 +62297,7 @@
       "tags": {
         "highway": "secondary",
         "lanes": "1",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Glenvar Road",
         "oneway": "yes",
@@ -73402,11 +73406,11 @@
     {
       "type": "way",
       "id": 663455698,
-      "timestamp": "2020-07-27T08:43:57Z",
-      "version": 2,
-      "changeset": 88552308,
-      "user": "magrej",
-      "uid": 7345137,
+      "timestamp": "2021-07-23T18:58:14Z",
+      "version": 4,
+      "changeset": 108509320,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [3192066370, 6210007909],
       "geometry": [
         {"lat": -36.6913362, "lon": 174.7493376},
@@ -73415,12 +73419,13 @@
       "tags": {
         "highway": "residential",
         "lanes": "1",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Beach Road",
         "oneway": "yes",
         "source:geometry": "LINZ NZ Aerial Imagery",
         "source:oneway": "LINZ NZ Aerial Imagery",
-        "surface": "paved"
+        "surface": "asphalt"
       }
     },
     {
@@ -89162,11 +89167,11 @@
     {
       "type": "way",
       "id": 819519827,
-      "timestamp": "2020-07-29T14:02:51Z",
-      "version": 2,
-      "changeset": 88683357,
-      "user": "MajaMaravic",
-      "uid": 9357577,
+      "timestamp": "2021-07-23T09:49:03Z",
+      "version": 3,
+      "changeset": 108482637,
+      "user": "Zaphod Harkonnen",
+      "uid": 234731,
       "nodes": [2271938289, 2527513249],
       "geometry": [
         {"lat": -41.2504838, "lon": 174.7729656},
@@ -89175,20 +89180,24 @@
       ],
       "tags": {
         "highway": "secondary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
         "maxspeed": "50",
         "name": "Waikowhai Street",
         "oneway": "no",
-        "surface": "paved"
+        "surface": "paved",
+        "turn:lanes:forward": "left|through;right"
       }
     },
     {
       "type": "way",
       "id": 819519828,
-      "timestamp": "2020-07-29T13:54:00Z",
-      "version": 2,
-      "changeset": 88682924,
-      "user": "MajaMaravic",
-      "uid": 9357577,
+      "timestamp": "2021-07-23T09:49:03Z",
+      "version": 3,
+      "changeset": 108482637,
+      "user": "Zaphod Harkonnen",
+      "uid": 234731,
       "nodes": [3998775083, 6321277912],
       "geometry": [
         {"lat": -41.2502341, "lon": 174.7733609},
@@ -89197,10 +89206,14 @@
       ],
       "tags": {
         "highway": "secondary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
         "maxspeed": "50",
         "name": "Ottawa Road",
         "source:maxspeed": "NZ:urban",
-        "surface": "paved"
+        "surface": "paved",
+        "turn:lanes:forward": "left|through;right"
       }
     },
     {
@@ -95977,9 +95990,9 @@
     {
       "type": "way",
       "id": 920450102,
-      "timestamp": "2021-07-01T01:13:44Z",
-      "version": 3,
-      "changeset": 107233016,
+      "timestamp": "2021-07-23T00:01:01Z",
+      "version": 4,
+      "changeset": 108454345,
       "user": "alpha-beta-soup",
       "uid": 2999068,
       "nodes": [2255101576, 1808114358],
@@ -95988,6 +96001,9 @@
         {"lat": -40.380169, "lon": 175.6147895},
         {"lat": -40.3801458, "lon": 175.6147443},
         {"lat": -40.3801402, "lon": 175.6147334},
+        {"lat": -40.3799275, "lon": 175.6143069},
+        {"lat": -40.3799024, "lon": 175.6142567},
+        {"lat": -40.3797447, "lon": 175.6139405},
         {"lat": -40.3797222, "lon": 175.6138953},
         {"lat": -40.3794548, "lon": 175.6134007},
         {"lat": -40.3793312, "lon": 175.6131553},
