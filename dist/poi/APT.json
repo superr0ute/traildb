@@ -4903,14 +4903,14 @@
         "@poi": "foodshop_supermarket",
         "@distance": 218.4,
         "@id": "n354481720",
-        "@changeset": 92114074,
-        "@timestamp": "2020-10-07T12:50:24Z",
-        "@version": 7,
-        "@uid": 210639,
-        "@user": "OSMfan",
+        "@changeset": 108527676,
+        "@timestamp": "2021-07-24T10:53:18Z",
+        "@version": 8,
+        "@uid": 15671,
+        "@user": "habi",
         "addr:housenumber": "41",
         "name": "Coop",
-        "opening_hours": "Mo-Fr 08:00-12:15, 14:15-18:30; Sa 08:00-12:15, 14:15-17:00",
+        "opening_hours": "Mo-Sa 08:00-12:15, 14:15-18:30; Su 09:00-12:15, 14:15-18:30",
         "payment:cash": "yes",
         "payment:credit_cards": "yes",
         "shop": "supermarket"
@@ -5215,21 +5215,23 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
+        "@poi": "foodshop_convenience",
         "@distance": 5988.3,
         "@id": "n429340413",
-        "@changeset": 75586463,
-        "@timestamp": "2019-10-11T21:27:12Z",
-        "@version": 6,
-        "@uid": 1514673,
-        "@user": "amilopowers",
+        "@changeset": 108524801,
+        "@timestamp": "2021-07-24T09:18:48Z",
+        "@version": 7,
+        "@uid": 15671,
+        "@user": "habi",
+        "brand": "Coop Pronto",
+        "brand:wikidata": "Q1129777",
+        "brand:wikipedia": "de:Coop Mineraloel",
         "cash_withdrawal": "postfinance_card",
         "cash_withdrawal:fee": "no",
         "cash_withdrawal:purchase_required": "no",
         "cash_withdrawal:type": "checkout",
-        "fixme": "brand data should be added",
         "name": "Coop Pronto",
-        "shop": "supermarket",
+        "shop": "convenience",
         "wheelchair": "yes"
       },
       "geometry": {
@@ -18362,27 +18364,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 2513.6,
-        "@id": "n3390717611",
-        "@changeset": 29347497,
-        "@timestamp": "2015-03-09T09:31:15Z",
-        "@version": 1,
-        "@uid": 2736151,
-        "@user": "briqo",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.5869922,
-          46.2152233
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "peak_peak",
         "@distance": 3800.4,
         "@id": "n1373111975",
@@ -20055,6 +20036,27 @@
         "coordinates": [
           6.9513581,
           46.0539178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 2513.6,
+        "@id": "n3390717611",
+        "@changeset": 29347497,
+        "@timestamp": "2015-03-09T09:31:15Z",
+        "@version": 1,
+        "@uid": 2736151,
+        "@user": "briqo",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5869922,
+          46.2152233
         ]
       }
     },
@@ -29687,6 +29689,32 @@
         "coordinates": [
           9.3523637,
           46.7944228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 936,
+        "@id": "n8946303251",
+        "@changeset": 108526458,
+        "@timestamp": "2021-07-24T10:11:56Z",
+        "@version": 1,
+        "@uid": 3868994,
+        "@user": "paschagl",
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
+        "lit": "no",
+        "lockable": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4669446,
+          46.8348841
         ]
       }
     },
