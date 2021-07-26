@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-07-24T23:59:59Z",
-    "timestamp_osm_base": "2021-07-25T02:40:21Z",
+    "timestamp_osm_date": "2021-07-25T23:59:59Z",
+    "timestamp_osm_base": "2021-07-26T02:39:49Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1511,21 +1511,6 @@
     },
     {
       "type": "node",
-      "id": 3011827976,
-      "lat": 42.305847,
-      "lon": -122.8780969,
-      "timestamp": "2019-11-30T05:22:23Z",
-      "version": 3,
-      "changeset": 77750177,
-      "user": "ninerbynature",
-      "uid": 10436705,
-      "tags": {
-        "name": "Country store",
-        "shop": "convenience"
-      }
-    },
-    {
-      "type": "node",
       "id": 3248875371,
       "lat": 42.3069436,
       "lon": -122.3668164,
@@ -2467,6 +2452,21 @@
       }
     },
     {
+      "type": "node",
+      "id": 8947760377,
+      "lat": 42.1929409,
+      "lon": -122.7064348,
+      "timestamp": "2021-07-25T04:51:33Z",
+      "version": 1,
+      "changeset": 108552105,
+      "user": "cbhackmeyer",
+      "uid": 2607010,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
       "type": "way",
       "id": 168720854,
       "timestamp": "2012-06-23T17:11:17Z",
@@ -3238,6 +3238,25 @@
         "website": "https://www.fs.usda.gov/recarea/rogue-siskiyou/recarea/?recid=70362",
         "wikidata": "Q86930847",
         "wikipedia": "fr:Squaw Peak Lookout"
+      }
+    },
+    {
+      "type": "way",
+      "id": 750987377,
+      "timestamp": "2021-07-25T03:39:10Z",
+      "version": 2,
+      "changeset": 108551454,
+      "user": "archpdx",
+      "uid": 12493764,
+      "center": {
+        "lat": 42.3058414,
+        "lon": -122.8780907
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Country store",
+        "shop": "convenience"
       }
     },
     {
@@ -4345,6 +4364,48 @@
         "amenity": "shelter",
         "building": "yes",
         "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 967131393,
+      "timestamp": "2021-07-25T02:59:43Z",
+      "version": 1,
+      "changeset": 108551100,
+      "user": "archpdx",
+      "uid": 12493764,
+      "center": {
+        "lat": 42.3344051,
+        "lon": -122.8775181
+      },
+      "nodes": [],
+      "tags": {
+        "addr:state": "OR",
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "gazebo",
+        "source": "esri/Jackson_County_OR_Buildings"
+      }
+    },
+    {
+      "type": "way",
+      "id": 967146364,
+      "timestamp": "2021-07-25T04:03:44Z",
+      "version": 1,
+      "changeset": 108551702,
+      "user": "archpdx",
+      "uid": 12493764,
+      "center": {
+        "lat": 42.3119624,
+        "lon": -122.8591689
+      },
+      "nodes": [],
+      "tags": {
+        "addr:state": "OR",
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "gazebo",
+        "source": "esri/Jackson_County_OR_Buildings"
       }
     }
   ]

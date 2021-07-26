@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-07-24T23:59:59Z",
-    "timestamp_osm_base": "2021-07-25T05:13:41Z",
+    "timestamp_osm_date": "2021-07-25T23:59:59Z",
+    "timestamp_osm_base": "2021-07-26T05:13:43Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -882,27 +882,6 @@
         "natural": "peak",
         "wikidata": "Q12769681",
         "wikipedia": "sk:Krasín"
-      }
-    },
-    {
-      "type": "node",
-      "id": 291202928,
-      "lat": 49.2951464,
-      "lon": 18.2298419,
-      "timestamp": "2019-02-22T19:40:46Z",
-      "version": 4,
-      "changeset": 67477879,
-      "user": "Marián Kyral",
-      "uid": 1182568,
-      "tags": {
-        "ele": "913",
-        "internet_access": "wlan",
-        "internet_access:fee": "no",
-        "name": "Horský hotel Kohútka",
-        "rooms": "14",
-        "smoking": "outside",
-        "tourism": "alpine_hut",
-        "website": "http://kohutka.cz/"
       }
     },
     {
@@ -5078,11 +5057,11 @@
       "id": 1598960990,
       "lat": 49.3369685,
       "lon": 18.1979346,
-      "timestamp": "2015-08-08T14:48:09Z",
-      "version": 2,
-      "changeset": 33202221,
-      "user": "Jezevec",
-      "uid": 102554,
+      "timestamp": "2021-07-25T16:32:56Z",
+      "version": 3,
+      "changeset": 108572218,
+      "user": "Milancer",
+      "uid": 1189910,
       "tags": {
         "name": "Nový Hrozenkov",
         "name:cs": "Nový Hrozenkov",
@@ -5090,7 +5069,9 @@
         "population": "2750",
         "ref:cobe": "107387",
         "ref:zsj": "107387",
-        "source": "csu:uir-zsj"
+        "source": "csu:uir-zsj",
+        "wikidata": "Q536625",
+        "wikipedia": "cs:Nový Hrozenkov"
       }
     },
     {
@@ -18217,6 +18198,36 @@
     },
     {
       "type": "way",
+      "id": 254876383,
+      "timestamp": "2021-07-25T16:32:56Z",
+      "version": 4,
+      "changeset": 108572218,
+      "user": "Milancer",
+      "uid": 1189910,
+      "center": {
+        "lat": 49.2951626,
+        "lon": 18.2298864
+      },
+      "nodes": [],
+      "tags": {
+        "building": "civic",
+        "building:flats": "1",
+        "building:levels": "1",
+        "building:ruian:type": "5",
+        "ele": "913",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Horský hotel Kohútka",
+        "ref:ruian:building": "21412642",
+        "rooms": "14",
+        "smoking": "outside",
+        "source": "cuzk:ruian",
+        "tourism": "alpine_hut",
+        "website": "http://kohutka.cz/"
+      }
+    },
+    {
+      "type": "way",
       "id": 254877972,
       "timestamp": "2018-05-23T12:32:28Z",
       "version": 4,
@@ -20572,6 +20583,25 @@
         "material": "wood",
         "note": "Dá se zde přespat",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 967347663,
+      "timestamp": "2021-07-25T18:07:42Z",
+      "version": 1,
+      "changeset": 108575881,
+      "user": "Miroslav Suchý",
+      "uid": 589904,
+      "center": {
+        "lat": 49.0906509,
+        "lon": 17.8763813
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "gazebo"
       }
     }
   ]
