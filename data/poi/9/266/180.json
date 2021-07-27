@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-07-25T23:59:59Z",
-    "timestamp_osm_base": "2021-07-26T04:38:21Z",
+    "timestamp_osm_date": "2021-07-26T23:59:59Z",
+    "timestamp_osm_base": "2021-07-27T04:27:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1498,8 +1498,8 @@
       "user": "donovaly",
       "uid": 1730904,
       "tags": {
-        "ele": "610",
         "is_in": "Amtsbezirk Thun,Bern;Berne,Schweiz,Europe",
+        "ele": "610",
         "name": "Thierachern",
         "openGeoDB:auto_update": "population,is_in",
         "openGeoDB:community_identification_number": "G0941",
@@ -2175,8 +2175,8 @@
       "user": "donovaly",
       "uid": 1730904,
       "tags": {
-        "ele": "544",
         "is_in": "Amtsbezirk Thun,Bern;Berne,Schweiz,Europe",
+        "ele": "544",
         "name": "Uttigen",
         "openGeoDB:auto_update": "population,is_in",
         "openGeoDB:community_identification_number": "G0885",
@@ -2376,8 +2376,8 @@
       "user": "filot",
       "uid": 131561,
       "tags": {
-        "ele": "560",
         "is_in": "Amtsbezirk Seftigen,Bern;Berne,Schweiz,Europe",
+        "ele": "560",
         "name": "Kaufdorf",
         "openGeoDB:auto_update": "population,place,name,is_in",
         "openGeoDB:community_identification_number": "G0869",
@@ -5087,8 +5087,8 @@
       "user": "donovaly",
       "uid": 1730904,
       "tags": {
-        "ele": "637",
         "is_in": "Amtsbezirk Thun,Bern;Berne,Schweiz,Europe",
+        "ele": "637",
         "name": "Amsoldingen",
         "openGeoDB:auto_update": "population,place,name,is_in",
         "openGeoDB:community_identification_number": "G0921",
@@ -18527,8 +18527,8 @@
       "user": "mjulius",
       "uid": 7412,
       "tags": {
-        "name": "Coop",
-        "shop": "supermarket"
+        "shop": "supermarket",
+        "name": "Coop"
       }
     },
     {
@@ -24325,8 +24325,8 @@
       "user": "mjulius",
       "uid": 7412,
       "tags": {
-        "name": "SPAR",
-        "shop": "convenience"
+        "shop": "convenience",
+        "name": "SPAR"
       }
     },
     {
@@ -26340,14 +26340,14 @@
       "user": "amilopowers",
       "uid": 1514673,
       "tags": {
+        "wheelchair": "limited",
+        "shop": "supermarket",
+        "opening_hours": "Mo-Fr 08:00-12:00; 14:00-18:30; Sa 08:00-16:00",
         "cash_withdrawal": "migros_bank;postfinance_card",
         "cash_withdrawal:fee": "no",
         "cash_withdrawal:purchase_required": "no",
         "cash_withdrawal:type": "checkout",
-        "name": "Denner",
-        "opening_hours": "Mo-Fr 08:00-12:00; 14:00-18:30; Sa 08:00-16:00",
-        "shop": "supermarket",
-        "wheelchair": "limited"
+        "name": "Denner"
       }
     },
     {
@@ -32486,13 +32486,13 @@
     {
       "type": "node",
       "id": 5351376448,
-      "lat": 46.7762295,
-      "lon": 7.7254127,
-      "timestamp": "2020-04-30T17:39:03Z",
-      "version": 2,
-      "changeset": 84429492,
-      "user": "asdf2",
-      "uid": 1416503,
+      "lat": 46.776192,
+      "lon": 7.7253168,
+      "timestamp": "2021-07-26T09:16:35Z",
+      "version": 3,
+      "changeset": 108609144,
+      "user": "Voonosm",
+      "uid": 4378872,
       "tags": {
         "ele": "957",
         "name": "Bahubel",
@@ -39311,6 +39311,20 @@
       }
     },
     {
+      "type": "node",
+      "id": 8952356189,
+      "lat": 46.8075703,
+      "lon": 7.1684298,
+      "timestamp": "2021-07-26T21:06:20Z",
+      "version": 1,
+      "changeset": 108646130,
+      "user": "vmicho",
+      "uid": 1849074,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
       "type": "way",
       "id": 23711568,
       "timestamp": "2020-02-19T16:03:45Z",
@@ -40263,6 +40277,9 @@
       },
       "nodes": [],
       "tags": {
+        "wheelchair": "limited",
+        "source:addr": "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern",
+        "source": "bing, Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern",
         "addr:city": "Uttigen",
         "addr:country": "CH",
         "addr:housenumber": "7",
@@ -40275,10 +40292,7 @@
         "cash_withdrawal:type": "checkout",
         "ele": "542",
         "name": "Volg",
-        "shop": "supermarket",
-        "source": "bing, Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern",
-        "source:addr": "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern",
-        "wheelchair": "limited"
+        "shop": "supermarket"
       }
     },
     {
@@ -43211,12 +43225,12 @@
       },
       "nodes": [],
       "tags": {
+        "shop": "supermarket",
+        "name": "Coop",
+        "man_made": "works",
         "addr:housenumber": "1",
         "addr:street": "Aarestrasse",
-        "building": "supermarket",
-        "man_made": "works",
-        "name": "Coop",
-        "shop": "supermarket"
+        "building": "supermarket"
       }
     },
     {
