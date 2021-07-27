@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-23T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-26T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -3090,11 +3090,11 @@
     {
       "type": "relation",
       "id": 9626091,
-      "timestamp": "2021-05-23T04:01:24Z",
-      "version": 8,
-      "changeset": 105152192,
-      "user": "Robert Ancell",
-      "uid": 1430787,
+      "timestamp": "2021-07-26T05:49:45Z",
+      "version": 9,
+      "changeset": 108593186,
+      "user": "StenSoft",
+      "uid": 255936,
       "members": [
         {"type": "way", "ref": 108555905, "role": ""},
         {"type": "way", "ref": 412559450, "role": ""},
@@ -3104,10 +3104,16 @@
         {"type": "way", "ref": 652456691, "role": ""},
         {"type": "way", "ref": 652456687, "role": ""},
         {"type": "way", "ref": 412559463, "role": ""},
+        {"type": "way", "ref": 967451834, "role": ""},
         {"type": "way", "ref": 34040302, "role": ""},
+        {"type": "way", "ref": 967451821, "role": ""},
         {"type": "way", "ref": 32425916, "role": ""},
         {"type": "way", "ref": 32425917, "role": ""},
+        {"type": "way", "ref": 967451830, "role": ""},
+        {"type": "way", "ref": 967451831, "role": ""},
+        {"type": "way", "ref": 967451832, "role": ""},
         {"type": "way", "ref": 412559456, "role": ""},
+        {"type": "way", "ref": 967451827, "role": ""},
         {"type": "way", "ref": 412559468, "role": ""},
         {"type": "way", "ref": 412559472, "role": ""},
         {"type": "way", "ref": 412559465, "role": ""},
@@ -39633,22 +39639,23 @@
     {
       "type": "way",
       "id": 32425916,
-      "timestamp": "2020-06-09T12:54:46Z",
-      "version": 5,
-      "changeset": 86409947,
-      "user": "Aleksandar1994",
-      "uid": 3733993,
-      "nodes": [251499454, 364637919],
+      "timestamp": "2021-07-26T05:49:45Z",
+      "version": 7,
+      "changeset": 108593186,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [8950243055, 364637919],
       "geometry": [
-        {"lat": -37.7978089, "lon": 175.1531645},
+        {"lat": -37.7978458, "lon": 175.1529217},
         {"lat": -37.7978968, "lon": 175.1526561},
-        {"lat": -37.7980349, "lon": 175.15215}
+        {"lat": -37.797963, "lon": 175.1523911},
+        {"lat": -37.798025, "lon": 175.1521573}
       ],
       "tags": {
         "alt_name": "State Highway 23",
         "highway": "primary",
         "lanes": "2",
-        "maxspeed": "100",
+        "maxspeed": "80",
         "name": "Main Road",
         "oneway": "no",
         "ref": "SH 23",
@@ -39658,19 +39665,19 @@
     {
       "type": "way",
       "id": 32425917,
-      "timestamp": "2020-06-09T12:54:46Z",
-      "version": 5,
-      "changeset": 86409947,
-      "user": "Aleksandar1994",
-      "uid": 3733993,
+      "timestamp": "2021-07-26T05:49:45Z",
+      "version": 6,
+      "changeset": 108593186,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [364637919, 364637921],
       "geometry": [
-        {"lat": -37.7980349, "lon": 175.15215},
+        {"lat": -37.798025, "lon": 175.1521573},
         {"lat": -37.7981296, "lon": 175.151794},
         {"lat": -37.7982292, "lon": 175.1515028},
-        {"lat": -37.7983138, "lon": 175.1512874},
+        {"lat": -37.7983129, "lon": 175.151279},
         {"lat": -37.798436, "lon": 175.1509758},
-        {"lat": -37.798601, "lon": 175.1506412}
+        {"lat": -37.7986054, "lon": 175.1506158}
       ],
       "tags": {
         "alt_name": "State Highway 23",
@@ -39678,7 +39685,7 @@
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
-        "maxspeed": "100",
+        "maxspeed": "80",
         "name": "Main Road",
         "oneway": "no",
         "ref": "SH 23",
@@ -43106,21 +43113,28 @@
     {
       "type": "way",
       "id": 34040302,
-      "timestamp": "2018-01-26T23:40:54Z",
-      "version": 3,
-      "changeset": 55789890,
-      "user": "Vadoola",
-      "uid": 5762037,
+      "timestamp": "2021-07-26T05:49:45Z",
+      "version": 5,
+      "changeset": 108593186,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [251499453, 251499454],
       "geometry": [
-        {"lat": -37.7977384, "lon": 175.153877},
-        {"lat": -37.7978089, "lon": 175.1531645}
+        {"lat": -37.7977478, "lon": 175.1538268},
+        {"lat": -37.7978061, "lon": 175.1532087}
       ],
       "tags": {
+        "destination:backward": "Pirongia;Otorohanga;Hamilton",
+        "destination:forward": "Raglan;Ngaruwahia",
+        "destination:ref:backward": "SH 39;SH 23",
+        "destination:ref:forward": "SH 23;SH 39",
         "highway": "primary",
+        "maxspeed": "80",
         "name": "Whatawhata Road",
         "ref": "SH 23;SH 39",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes:backward": "none|right",
+        "turn:lanes:forward": "none|right"
       }
     },
     {
@@ -53880,24 +53894,20 @@
     {
       "type": "way",
       "id": 412559456,
-      "timestamp": "2021-06-27T08:46:06Z",
-      "version": 4,
-      "changeset": 107027444,
-      "user": "Rudy355",
-      "uid": 142831,
-      "nodes": [3623073495, 364637921],
+      "timestamp": "2021-07-26T05:49:45Z",
+      "version": 5,
+      "changeset": 108593186,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [8950297459, 8950297471],
       "geometry": [
-        {"lat": -37.8041188, "lon": 175.1458195},
-        {"lat": -37.8028616, "lon": 175.1468038},
-        {"lat": -37.8024508, "lon": 175.1470635},
+        {"lat": -37.8035717, "lon": 175.1462307},
+        {"lat": -37.8030288, "lon": 175.1466667},
+        {"lat": -37.8027586, "lon": 175.1468636},
+        {"lat": -37.8026047, "lon": 175.1469636},
+        {"lat": -37.8024496, "lon": 175.1470575},
         {"lat": -37.8016786, "lon": 175.1474939},
-        {"lat": -37.8007377, "lon": 175.1480885},
-        {"lat": -37.8000652, "lon": 175.1486455},
-        {"lat": -37.7996918, "lon": 175.14901},
-        {"lat": -37.7993619, "lon": 175.1494035},
-        {"lat": -37.7990253, "lon": 175.1498814},
-        {"lat": -37.798768, "lon": 175.1503175},
-        {"lat": -37.798601, "lon": 175.1506412}
+        {"lat": -37.8014059, "lon": 175.1476551}
       ],
       "tags": {
         "alt_name": "State Highway 23",
@@ -53975,12 +53985,12 @@
     {
       "type": "way",
       "id": 412559463,
-      "timestamp": "2020-06-09T11:28:53Z",
-      "version": 9,
-      "changeset": 86405682,
-      "user": "miroslavuzice87",
-      "uid": 4611642,
-      "nodes": [6116683750, 251499453],
+      "timestamp": "2021-07-26T05:49:45Z",
+      "version": 11,
+      "changeset": 108593186,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [6116683750, 8950297494],
       "geometry": [
         {"lat": -37.8052447, "lon": 175.1578617},
         {"lat": -37.8050032, "lon": 175.1576418},
@@ -53991,7 +54001,7 @@
         {"lat": -37.7996346, "lon": 175.1540724},
         {"lat": -37.7992829, "lon": 175.1539211},
         {"lat": -37.7988665, "lon": 175.1538524},
-        {"lat": -37.7977384, "lon": 175.153877}
+        {"lat": -37.7982059, "lon": 175.1538619}
       ],
       "tags": {
         "alt_name": "State Highway 39",
@@ -54270,7 +54280,7 @@
       "uid": 277782,
       "nodes": [3623073495, 4139597328],
       "geometry": [
-        {"lat": -37.8041188, "lon": 175.1458195},
+        {"lat": -37.8038201, "lon": 175.1460302},
         {"lat": -37.8041788, "lon": 175.1460188},
         {"lat": -37.804333, "lon": 175.1462186},
         {"lat": -37.8047081, "lon": 175.1460631},
@@ -98039,6 +98049,177 @@
         {"lat": -36.093372, "lon": 174.5914616}
       ],
       "tags": {"highway": "path", "trail_visibility": "no"}
+    },
+    {
+      "type": "way",
+      "id": 967451821,
+      "timestamp": "2021-07-26T05:49:45Z",
+      "version": 1,
+      "changeset": 108593186,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [251499454, 8950243055],
+      "geometry": [
+        {"lat": -37.7978061, "lon": 175.1532087},
+        {"lat": -37.7978238, "lon": 175.1530807},
+        {"lat": -37.7978458, "lon": 175.1529217}
+      ],
+      "tags": {
+        "alt_name": "State Highway 23",
+        "destination:forward": "Raglan",
+        "destination:ref:forward": "SH 23",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "80",
+        "name": "Main Road",
+        "oneway": "no",
+        "ref": "SH 23",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 967451827,
+      "timestamp": "2021-07-26T05:49:45Z",
+      "version": 1,
+      "changeset": 108593186,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [3623073495, 8950297459],
+      "geometry": [
+        {"lat": -37.8038201, "lon": 175.1460302},
+        {"lat": -37.8035717, "lon": 175.1462307}
+      ],
+      "tags": {
+        "alt_name": "State Highway 23",
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lanes:forward": "1",
+        "maxspeed": "100",
+        "name": "Main Road",
+        "oneway": "no",
+        "ref": "SH 23",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left|none"
+      }
+    },
+    {
+      "type": "way",
+      "id": 967451830,
+      "timestamp": "2021-07-26T05:49:45Z",
+      "version": 1,
+      "changeset": 108593186,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [8950297475, 364637921],
+      "geometry": [
+        {"lat": -37.8005038, "lon": 175.148274},
+        {"lat": -37.8003237, "lon": 175.1484209},
+        {"lat": -37.8001828, "lon": 175.1485359},
+        {"lat": -37.8000694, "lon": 175.1486348},
+        {"lat": -37.7998986, "lon": 175.1487902},
+        {"lat": -37.7997899, "lon": 175.1489014},
+        {"lat": -37.7996918, "lon": 175.14901},
+        {"lat": -37.7995461, "lon": 175.1491735},
+        {"lat": -37.7994095, "lon": 175.1493354},
+        {"lat": -37.7992962, "lon": 175.1494813},
+        {"lat": -37.7991618, "lon": 175.1496706},
+        {"lat": -37.7990253, "lon": 175.1498801},
+        {"lat": -37.7988797, "lon": 175.1501095},
+        {"lat": -37.7987595, "lon": 175.1503188},
+        {"lat": -37.7986054, "lon": 175.1506158}
+      ],
+      "tags": {
+        "alt_name": "State Highway 23",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "80",
+        "name": "Main Road",
+        "oneway": "no",
+        "ref": "SH 23",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 967451831,
+      "timestamp": "2021-07-26T05:49:45Z",
+      "version": 1,
+      "changeset": 108593186,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [364637950, 8950297475],
+      "geometry": [
+        {"lat": -37.8007612, "lon": 175.1480796},
+        {"lat": -37.8005038, "lon": 175.148274}
+      ],
+      "tags": {
+        "alt_name": "State Highway 23",
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lanes:forward": "1",
+        "maxspeed": "80",
+        "name": "Main Road",
+        "oneway": "no",
+        "ref": "SH 23",
+        "surface": "asphalt",
+        "turn:lanes:backward": "none|right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 967451832,
+      "timestamp": "2021-07-26T05:49:45Z",
+      "version": 1,
+      "changeset": 108593186,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [8950297471, 364637950],
+      "geometry": [
+        {"lat": -37.8014059, "lon": 175.1476551},
+        {"lat": -37.8010671, "lon": 175.1478725},
+        {"lat": -37.8007612, "lon": 175.1480796}
+      ],
+      "tags": {
+        "alt_name": "State Highway 23",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "80",
+        "name": "Main Road",
+        "oneway": "no",
+        "ref": "SH 23",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 967451834,
+      "timestamp": "2021-07-26T05:49:45Z",
+      "version": 1,
+      "changeset": 108593186,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [8950297494, 251499453],
+      "geometry": [
+        {"lat": -37.7982059, "lon": 175.1538619},
+        {"lat": -37.7979944, "lon": 175.1538561},
+        {"lat": -37.7979131, "lon": 175.1538475},
+        {"lat": -37.7978225, "lon": 175.1538326},
+        {"lat": -37.7977478, "lon": 175.1538268}
+      ],
+      "tags": {
+        "alt_name": "State Highway 39",
+        "destination:backward": "Pirongia;Otorohanga",
+        "destination:ref:backward": "SH 39",
+        "highway": "primary",
+        "maxspeed": "80",
+        "maxspeed:type": "sign",
+        "name": "Kakaramea Road",
+        "ref": "SH 39",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
