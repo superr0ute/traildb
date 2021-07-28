@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-20T02:30:07Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-28T02:31:08Z"},
   "elements": [
     {
       "type": "relation",
@@ -907,11 +907,11 @@
     {
       "type": "relation",
       "id": 9678938,
-      "timestamp": "2019-06-12T10:06:43Z",
-      "version": 2,
-      "changeset": 71173822,
-      "user": "Walk60",
-      "uid": 571665,
+      "timestamp": "2021-07-27T10:47:46Z",
+      "version": 3,
+      "changeset": 108681955,
+      "user": "phaerrax",
+      "uid": 4890411,
       "members": [
         {"type": "way", "ref": 432805672, "role": ""},
         {"type": "way", "ref": 127510920, "role": ""},
@@ -952,10 +952,15 @@
         {"type": "way", "ref": 160843131, "role": ""},
         {"type": "way", "ref": 686300151, "role": ""},
         {"type": "way", "ref": 580977559, "role": ""},
-        {"type": "way", "ref": 580977560, "role": ""},
-        {"type": "way", "ref": 28021119, "role": ""},
+        {"type": "way", "ref": 967823407, "role": ""},
+        {"type": "way", "ref": 967823400, "role": ""},
+        {"type": "way", "ref": 967823401, "role": ""},
         {"type": "way", "ref": 95734507, "role": ""},
         {"type": "way", "ref": 686300154, "role": ""},
+        {"type": "way", "ref": 967823349, "role": ""},
+        {"type": "way", "ref": 967823350, "role": ""},
+        {"type": "way", "ref": 967823360, "role": ""},
+        {"type": "way", "ref": 967823361, "role": ""},
         {"type": "way", "ref": 184979505, "role": ""}
       ],
       "tags": {
@@ -13267,22 +13272,18 @@
     {
       "type": "way",
       "id": 184979505,
-      "timestamp": "2019-05-27T10:30:01Z",
-      "version": 6,
-      "changeset": 70656500,
-      "user": "Walk60",
-      "uid": 571665,
-      "nodes": [2929830295, 2929846004],
+      "timestamp": "2021-07-27T10:47:46Z",
+      "version": 7,
+      "changeset": 108681955,
+      "user": "phaerrax",
+      "uid": 4890411,
+      "nodes": [2929830295, 8953844308],
       "geometry": [
-        {"lat": 45.7909404, "lon": 6.9703885, "z": 1197},
-        {"lat": 45.7909441, "lon": 6.9703974, "z": 1197.1},
-        {"lat": 45.7909576, "lon": 6.97043, "z": 1197.5},
+        {"lat": 45.7909353, "lon": 6.9703908, "z": 1197},
+        {"lat": 45.7909386, "lon": 6.9704141, "z": 1197.2},
+        {"lat": 45.7909515, "lon": 6.9704455, "z": 1197.6},
         {"lat": 45.7909674, "lon": 6.9704537, "z": 1197.8},
-        {"lat": 45.7910626, "lon": 6.9704997, "z": 1198.7},
-        {"lat": 45.7910971, "lon": 6.9705166, "z": 1199.1},
-        {"lat": 45.7911982, "lon": 6.9706549, "z": 1200.9},
-        {"lat": 45.7912198, "lon": 6.9706926, "z": 1201.3},
-        {"lat": 45.7912431, "lon": 6.9707538, "z": 1202.1}
+        {"lat": 45.7909743, "lon": 6.9704563, "z": 1197.8}
       ],
       "tags": {"highway": "footway"}
     },
@@ -14712,29 +14713,6 @@
         {"lat": 45.6033364, "lon": 7.7673136, "z": 324.5}
       ],
       "tags": {"highway": "service", "note": "corsia piano rialzato"}
-    },
-    {
-      "type": "way",
-      "id": 28021119,
-      "timestamp": "2017-10-03T17:00:49Z",
-      "version": 18,
-      "changeset": 52601825,
-      "user": "Anonix35",
-      "uid": 2362150,
-      "nodes": [307716248, 307715907],
-      "geometry": [
-        {"lat": 45.791432, "lon": 6.971709, "z": 1212.2},
-        {"lat": 45.7913797, "lon": 6.9714427, "z": 1209.4},
-        {"lat": 45.7913216, "lon": 6.971187, "z": 1206.6},
-        {"lat": 45.791291, "lon": 6.9710574, "z": 1205.2},
-        {"lat": 45.7912604, "lon": 6.9709278, "z": 1203.8}
-      ],
-      "tags": {
-        "highway": "unclassified",
-        "lanes": "1",
-        "maxspeed": "30",
-        "oneway": "yes"
-      }
     },
     {
       "type": "way",
@@ -20080,36 +20058,25 @@
     {
       "type": "way",
       "id": 580977559,
-      "timestamp": "2018-04-17T20:15:03Z",
-      "version": 1,
-      "changeset": 58180485,
-      "user": "Van Heddegem Roeland",
-      "uid": 526137,
-      "nodes": [5560222990, 5560222991],
+      "timestamp": "2021-07-27T10:47:46Z",
+      "version": 2,
+      "changeset": 108681955,
+      "user": "phaerrax",
+      "uid": 4890411,
+      "nodes": [5560222990, 8953845396],
       "geometry": [
         {"lat": 45.7913503, "lon": 6.972804, "z": 1223.2},
         {"lat": 45.7913155, "lon": 6.9727269, "z": 1222.1},
         {"lat": 45.791353, "lon": 6.9725874, "z": 1221.1},
         {"lat": 45.7914343, "lon": 6.9724157, "z": 1219.9},
         {"lat": 45.791496, "lon": 6.9723433, "z": 1219.6},
-        {"lat": 45.79154, "lon": 6.9723085, "z": 1219.6}
+        {"lat": 45.7915171, "lon": 6.9723266, "z": 1219.6}
       ],
-      "tags": {"highway": "steps", "surface": "paving_stones"}
-    },
-    {
-      "type": "way",
-      "id": 580977560,
-      "timestamp": "2018-04-17T20:15:03Z",
-      "version": 1,
-      "changeset": 58180485,
-      "user": "Van Heddegem Roeland",
-      "uid": 526137,
-      "nodes": [5560222991, 307716248],
-      "geometry": [
-        {"lat": 45.79154, "lon": 6.9723085, "z": 1219.6},
-        {"lat": 45.791432, "lon": 6.971709, "z": 1212.2}
-      ],
-      "tags": {"highway": "residential"}
+      "tags": {
+        "highway": "steps",
+        "incline": "down",
+        "surface": "paving_stones"
+      }
     },
     {
       "type": "way",
@@ -22236,11 +22203,11 @@
     {
       "type": "way",
       "id": 686300154,
-      "timestamp": "2019-04-27T15:12:21Z",
-      "version": 1,
-      "changeset": 69642151,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-07-27T10:47:46Z",
+      "version": 2,
+      "changeset": 108681955,
+      "user": "phaerrax",
+      "uid": 4890411,
       "nodes": [2929846004, 4997952045],
       "geometry": [
         {"lat": 45.7912431, "lon": 6.9707538, "z": 1202.1},
@@ -24758,15 +24725,15 @@
     {
       "type": "way",
       "id": 95734507,
-      "timestamp": "2019-04-27T15:12:22Z",
-      "version": 8,
-      "changeset": 69642151,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-07-27T10:47:46Z",
+      "version": 9,
+      "changeset": 108681955,
+      "user": "phaerrax",
+      "uid": 4890411,
       "nodes": [307715907, 4997952045],
       "geometry": [
         {"lat": 45.7912604, "lon": 6.9709278, "z": 1203.8},
-        {"lat": 45.7912286, "lon": 6.9708657, "z": 1203},
+        {"lat": 45.7912246, "lon": 6.9708634, "z": 1202.9},
         {"lat": 45.7911958, "lon": 6.9707951, "z": 1202.1}
       ],
       "tags": {
@@ -24774,7 +24741,10 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Via Croux",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sidewalk": "right",
+        "sidewalk:right:kerb": "no",
+        "sidewalk:right:surface": "asphalt"
       }
     },
     {
@@ -24986,6 +24956,146 @@
         {"lat": 45.8438975, "lon": 7.2527475, "z": 2337.7}
       ],
       "tags": {"highway": "path", "sac_scale": "mountain_hiking"}
+    },
+    {
+      "type": "way",
+      "id": 967823349,
+      "timestamp": "2021-07-27T10:47:40Z",
+      "version": 1,
+      "changeset": 108681955,
+      "user": "phaerrax",
+      "uid": 4890411,
+      "nodes": [8953844295, 2929846004],
+      "geometry": [
+        {"lat": 45.7912337, "lon": 6.9707317, "z": 1201.8},
+        {"lat": 45.7912431, "lon": 6.9707538, "z": 1202.1}
+      ],
+      "tags": {"highway": "footway"}
+    },
+    {
+      "type": "way",
+      "id": 967823350,
+      "timestamp": "2021-07-27T10:47:40Z",
+      "version": 1,
+      "changeset": 108681955,
+      "user": "phaerrax",
+      "uid": 4890411,
+      "nodes": [8953844296, 8953844295],
+      "geometry": [
+        {"lat": 45.7911907, "lon": 6.9706366, "z": 1200.7},
+        {"lat": 45.7912085, "lon": 6.9706728, "z": 1201.1},
+        {"lat": 45.7912337, "lon": 6.9707317, "z": 1201.8}
+      ],
+      "tags": {
+        "footway": "crossing",
+        "highway": "footway",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 967823360,
+      "timestamp": "2021-07-27T10:47:40Z",
+      "version": 1,
+      "changeset": 108681955,
+      "user": "phaerrax",
+      "uid": 4890411,
+      "nodes": [8953844309, 8953844296],
+      "geometry": [
+        {"lat": 45.7910691, "lon": 6.9704921, "z": 1198.7},
+        {"lat": 45.7910759, "lon": 6.9704947, "z": 1198.7},
+        {"lat": 45.791187, "lon": 6.9706293, "z": 1200.6},
+        {"lat": 45.7911907, "lon": 6.9706366, "z": 1200.7}
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 967823361,
+      "timestamp": "2021-07-27T10:47:40Z",
+      "version": 1,
+      "changeset": 108681955,
+      "user": "phaerrax",
+      "uid": 4890411,
+      "nodes": [8953844308, 8953844309],
+      "geometry": [
+        {"lat": 45.7909743, "lon": 6.9704563, "z": 1197.8},
+        {"lat": 45.7910427, "lon": 6.9704822, "z": 1198.4},
+        {"lat": 45.7910691, "lon": 6.9704921, "z": 1198.7}
+      ],
+      "tags": {
+        "footway": "crossing",
+        "highway": "footway",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 967823400,
+      "timestamp": "2021-07-27T10:47:46Z",
+      "version": 1,
+      "changeset": 108681955,
+      "user": "phaerrax",
+      "uid": 4890411,
+      "nodes": [8953845400, 8953845403],
+      "geometry": [
+        {"lat": 45.7912846, "lon": 6.9711095, "z": 1205.6},
+        {"lat": 45.7912918, "lon": 6.9710609, "z": 1205.2}
+      ],
+      "tags": {
+        "footway": "crossing",
+        "highway": "footway",
+        "smoothness": "excellent",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 967823401,
+      "timestamp": "2021-07-27T10:47:46Z",
+      "version": 1,
+      "changeset": 108681955,
+      "user": "phaerrax",
+      "uid": 4890411,
+      "nodes": [8953845403, 307715907],
+      "geometry": [
+        {"lat": 45.7912918, "lon": 6.9710609, "z": 1205.2},
+        {"lat": 45.7912604, "lon": 6.9709278, "z": 1203.8}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "1",
+        "maxspeed": "30",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 967823407,
+      "timestamp": "2021-07-27T10:47:46Z",
+      "version": 1,
+      "changeset": 108681955,
+      "user": "phaerrax",
+      "uid": 4890411,
+      "nodes": [8953845396, 8953845400],
+      "geometry": [
+        {"lat": 45.7915171, "lon": 6.9723266, "z": 1219.6},
+        {"lat": 45.7914056, "lon": 6.9717171, "z": 1212},
+        {"lat": 45.7913539, "lon": 6.9714539, "z": 1209.3},
+        {"lat": 45.791296, "lon": 6.9711992, "z": 1206.6},
+        {"lat": 45.7912809, "lon": 6.971135, "z": 1205.9},
+        {"lat": 45.7912846, "lon": 6.9711095, "z": 1205.6}
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "incline": "down",
+        "surface": "paving_stones"
+      }
     }
   ]
 }
