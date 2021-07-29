@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-23T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-28T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -100,13 +100,15 @@
     {
       "type": "relation",
       "id": 11230787,
-      "timestamp": "2020-06-26T13:53:19Z",
-      "version": 5,
-      "changeset": 87199101,
-      "user": "Peter Van Geit",
-      "uid": 4421006,
+      "timestamp": "2021-07-28T21:03:47Z",
+      "version": 6,
+      "changeset": 108780095,
+      "user": "Kautilya3",
+      "uid": 6666041,
       "members": [
         {"type": "way", "ref": 397515760, "role": ""},
+        {"type": "way", "ref": 968282337, "role": ""},
+        {"type": "way", "ref": 968282336, "role": ""},
         {"type": "way", "ref": 819862631, "role": ""},
         {"type": "way", "ref": 397515761, "role": ""},
         {"type": "way", "ref": 238452797, "role": ""}
@@ -3190,12 +3192,12 @@
     {
       "type": "way",
       "id": 397515760,
-      "timestamp": "2016-02-12T18:54:41Z",
-      "version": 1,
-      "changeset": 37174451,
-      "user": "katpatuka",
-      "uid": 17497,
-      "nodes": [2462875139, 299657533],
+      "timestamp": "2021-07-28T21:03:47Z",
+      "version": 2,
+      "changeset": 108780095,
+      "user": "Kautilya3",
+      "uid": 6666041,
+      "nodes": [2462875139, 8958187679],
       "geometry": [
         {"lat": 32.9980251, "lon": 77.4084116},
         {"lat": 32.9976707, "lon": 77.4086717},
@@ -3297,8 +3299,7 @@
         {"lat": 32.9213885, "lon": 77.5784017},
         {"lat": 32.9202438, "lon": 77.5815129},
         {"lat": 32.9190347, "lon": 77.583491},
-        {"lat": 32.9179707, "lon": 77.5843745},
-        {"lat": 32.9121547, "lon": 77.5884452}
+        {"lat": 32.9187671, "lon": 77.58375}
       ],
       "tags": {"highway": "path", "name": "Table - Sarchu trek"}
     },
@@ -6378,6 +6379,42 @@
         "surface": "ground",
         "trail_visibility": "excellent",
         "width": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 968282336,
+      "timestamp": "2021-07-28T21:03:47Z",
+      "version": 1,
+      "changeset": 108780095,
+      "user": "Kautilya3",
+      "uid": 6666041,
+      "nodes": [8958187678, 299657533],
+      "geometry": [
+        {"lat": 32.9184102, "lon": 77.5840402},
+        {"lat": 32.9179707, "lon": 77.5843745},
+        {"lat": 32.9121547, "lon": 77.5884452}
+      ],
+      "tags": {"highway": "path", "name": "Table - Sarchu trek"}
+    },
+    {
+      "type": "way",
+      "id": 968282337,
+      "timestamp": "2021-07-28T21:03:47Z",
+      "version": 1,
+      "changeset": 108780095,
+      "user": "Kautilya3",
+      "uid": 6666041,
+      "nodes": [8958187679, 8958187678],
+      "geometry": [
+        {"lat": 32.9187671, "lon": 77.58375},
+        {"lat": 32.9184102, "lon": 77.5840402}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "path",
+        "layer": "1",
+        "name": "Table - Sarchu trek"
       }
     }
   ]
