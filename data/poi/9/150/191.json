@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-07-29T23:59:59Z",
-    "timestamp_osm_base": "2021-07-30T04:00:58Z",
+    "timestamp_osm_date": "2021-07-30T23:59:59Z",
+    "timestamp_osm_base": "2021-07-31T03:52:13Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -14488,9 +14488,9 @@
     {
       "type": "way",
       "id": 589125944,
-      "timestamp": "2018-05-18T04:41:20Z",
-      "version": 1,
-      "changeset": 59067511,
+      "timestamp": "2021-07-30T00:22:19Z",
+      "version": 2,
+      "changeset": 108851087,
       "user": "NJGeoMaster",
       "uid": 7127508,
       "center": {
@@ -14499,12 +14499,13 @@
       },
       "nodes": [],
       "tags": {
-        "amenity": "shelter",
         "addr:city": "Wayne",
         "addr:housenumber": "583",
         "addr:postcode": "07470",
         "addr:state": "NJ",
-        "addr:street": "Colfax Road"
+        "addr:street": "Colfax Road",
+        "amenity": "shelter",
+        "building": "yes"
       }
     },
     {
@@ -16544,6 +16545,44 @@
         "amenity": "shelter",
         "building": "yes",
         "shelter_type": "gazebo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 968641822,
+      "timestamp": "2021-07-30T03:00:24Z",
+      "version": 1,
+      "changeset": 108853076,
+      "user": "NJGeoMaster",
+      "uid": 7127508,
+      "center": {
+        "lat": 40.9908169,
+        "lon": -74.2797523
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 968687558,
+      "timestamp": "2021-07-30T06:16:13Z",
+      "version": 1,
+      "changeset": 108862993,
+      "user": "NJGeoMaster",
+      "uid": 7127508,
+      "center": {
+        "lat": 40.9825496,
+        "lon": -74.2750646
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
       }
     }
   ]
