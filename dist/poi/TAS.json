@@ -5,6 +5,31 @@
       "type": "Feature",
       "properties": {
         "@poi": "peak_peak",
+        "@distance": 1355.6,
+        "@id": "n1061036902",
+        "@changeset": 95367684,
+        "@timestamp": "2020-12-06T14:23:03Z",
+        "@version": 3,
+        "@uid": 1772368,
+        "@user": "pizzaiolo",
+        "ele": 630,
+        "name": "Spear Peak",
+        "natural": "peak",
+        "source": "LINZ & NZ Open GIS",
+        "wikidata": "Q31647840"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.96618,
+          -45.56991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
         "@distance": 1839.9,
         "@id": "n1061029510",
         "@changeset": 95367684,
@@ -305,31 +330,6 @@
         "coordinates": [
           167.9406259,
           -45.7792446
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 1355.6,
-        "@id": "n1061036902",
-        "@changeset": 95367684,
-        "@timestamp": "2020-12-06T14:23:03Z",
-        "@version": 3,
-        "@uid": 1772368,
-        "@user": "pizzaiolo",
-        "ele": 630,
-        "name": "Spear Peak",
-        "natural": "peak",
-        "source": "LINZ & NZ Open GIS",
-        "wikidata": "Q31647840"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.96618,
-          -45.56991
         ]
       }
     },
@@ -2180,31 +2180,35 @@
       "type": "Feature",
       "properties": {
         "@poi": "place_city",
-        "@distance": 1081.3,
+        "@distance": 1030.7,
         "@id": "n966608500",
-        "@changeset": 69191339,
-        "@timestamp": "2019-04-14T01:28:39Z",
-        "@version": 14,
-        "@uid": 158784,
-        "@user": "bjankuloski",
-        "wikipedia": "en:Invercargill",
-        "wikidata": "Q31805",
-        "population": 54800,
-        "place": "city",
+        "@changeset": 108853003,
+        "@timestamp": "2021-07-30T02:57:09Z",
+        "@version": 15,
+        "@uid": 255936,
+        "@user": "StenSoft",
         "is_in:country": "New Zealand",
         "is_in:country_code": "NZ",
+        "loc_name": "Invers",
         "name": "Invercargill",
+        "name:etymology": "Inbhir (Scottish for river mouth) of William Cargill",
+        "name:etymology:wikidata": "Q2578239",
         "name:gd": "Inbhir Chargaill",
         "name:ja": "インバーカーギル",
         "name:mi": "Waihōpai",
         "name:mk": "Инверкаргил",
-        "name:ru": "Инверкаргилл"
+        "name:ru": "Инверкаргилл",
+        "place": "city",
+        "population": 54800,
+        "start_date": "1853",
+        "wikidata": "Q31805",
+        "wikipedia": "en:Invercargill"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          168.3483269,
-          -46.4121229
+          168.3470632,
+          -46.4118465
         ]
       }
     },
@@ -2356,12 +2360,11 @@
         "@poi": "water_drinking-water",
         "@distance": 1022,
         "@id": "n4879717533",
-        "@changeset": 77776642,
-        "@timestamp": "2019-12-01T09:30:10Z",
-        "@version": 2,
-        "@uid": 1887753,
-        "@user": "brevans",
-        "name:de": "Trinkwasser",
+        "@changeset": 108853003,
+        "@timestamp": "2021-07-30T02:57:09Z",
+        "@version": 3,
+        "@uid": 255936,
+        "@user": "StenSoft",
         "access": "yes",
         "amenity": "drinking_water",
         "fee": "no"
@@ -4688,6 +4691,72 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "campsite",
+        "@distance": 86.6,
+        "@id": "n4439099948",
+        "@changeset": 64125776,
+        "@timestamp": "2018-11-02T19:51:46Z",
+        "@version": 2,
+        "@uid": 1715587,
+        "@user": "ivss_xx",
+        "name": "The Pines",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.2118307,
+          -44.1344872
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 36.9,
+        "@id": "n5441578470",
+        "@changeset": 56741456,
+        "@timestamp": "2018-02-28T03:24:30Z",
+        "@version": 1,
+        "@uid": 3506556,
+        "@user": "realthargor",
+        "name": "Overnight Camping Area",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.2207621,
+          -44.1586044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 36,
+        "@id": "n6136199485",
+        "@changeset": 65459598,
+        "@timestamp": "2018-12-14T02:04:20Z",
+        "@version": 1,
+        "@uid": 3782180,
+        "@user": "Sama Magham",
+        "name": "Freedom Camping for Self Contained Vehicles",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          170.2206544,
+          -44.1590457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "place_village",
         "@distance": 135.2,
         "@id": "n166733708",
@@ -5224,66 +5293,27 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "campsite",
-        "@distance": 86.6,
-        "@id": "n4439099948",
-        "@changeset": 64125776,
-        "@timestamp": "2018-11-02T19:51:46Z",
-        "@version": 2,
-        "@uid": 1715587,
-        "@user": "ivss_xx",
-        "name": "The Pines",
-        "tourism": "camp_site"
+        "@poi": "foodshop_convenience",
+        "@distance": 4549.3,
+        "@id": "w297010449",
+        "@changeset": 83388243,
+        "@timestamp": "2020-04-11T05:43:08Z",
+        "@version": 5,
+        "@uid": 2057798,
+        "@user": "Sarvihepo",
+        "amenity": "cafe",
+        "building": "yes",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Arthurs Pass Store & Café",
+        "outdoor_seating": "yes",
+        "shop": "convenience"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          170.2118307,
-          -44.1344872
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 36.9,
-        "@id": "n5441578470",
-        "@changeset": 56741456,
-        "@timestamp": "2018-02-28T03:24:30Z",
-        "@version": 1,
-        "@uid": 3506556,
-        "@user": "realthargor",
-        "name": "Overnight Camping Area",
-        "tourism": "camp_site"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          170.2207621,
-          -44.1586044
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 36,
-        "@id": "n6136199485",
-        "@changeset": 65459598,
-        "@timestamp": "2018-12-14T02:04:20Z",
-        "@version": 1,
-        "@uid": 3782180,
-        "@user": "Sama Magham",
-        "name": "Freedom Camping for Self Contained Vehicles",
-        "tourism": "camp_site"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          170.2206544,
-          -44.1590457
+          171.5613345,
+          -42.9393097
         ]
       }
     },
@@ -5652,33 +5682,6 @@
         "coordinates": [
           171.4574889,
           -43.2223407
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 4549.3,
-        "@id": "w297010449",
-        "@changeset": 83388243,
-        "@timestamp": "2020-04-11T05:43:08Z",
-        "@version": 5,
-        "@uid": 2057798,
-        "@user": "Sarvihepo",
-        "amenity": "cafe",
-        "building": "yes",
-        "internet_access": "yes",
-        "internet_access:fee": "no",
-        "name": "Arthurs Pass Store & Café",
-        "outdoor_seating": "yes",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          171.5613345,
-          -42.9393097
         ]
       }
     },
@@ -6172,162 +6175,6 @@
         "coordinates": [
           171.103505,
           -43.6427452
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 38.1,
-        "@id": "n377585255",
-        "@changeset": 82913418,
-        "@timestamp": "2020-04-01T09:16:21Z",
-        "@version": 8,
-        "@uid": 2057798,
-        "@user": "Sarvihepo",
-        "building": "yes",
-        "capacity": 5,
-        "drinking_water": "stream",
-        "ele": 870,
-        "fee": "no",
-        "fireplace": "yes",
-        "mattress": "yes",
-        "name": "West Harper Hut",
-        "ref:doc": "100061488",
-        "reservation": "no",
-        "toilets": "yes",
-        "tourism": "wilderness_hut",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/craigieburn-forest-park/things-to-do/huts/west-harper-hut/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          171.6070092,
-          -43.0997344
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 3575.2,
-        "@id": "n1451766219",
-        "@changeset": 95385074,
-        "@timestamp": "2020-12-07T00:14:49Z",
-        "@version": 4,
-        "@uid": 1772368,
-        "@user": "pizzaiolo",
-        "ele": 1874,
-        "name": "Mt Cockayne",
-        "natural": "peak",
-        "wikidata": "Q31687834"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          171.6614552,
-          -43.1512458
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 258.7,
-        "@id": "n4461208519",
-        "@changeset": 43114068,
-        "@timestamp": "2016-10-24T04:33:39Z",
-        "@version": 1,
-        "@uid": 4516038,
-        "@user": "shekk",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          171.6552274,
-          -43.5192848
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 2754.7,
-        "@id": "n5814086626",
-        "@changeset": 95385074,
-        "@timestamp": "2020-12-07T00:14:48Z",
-        "@version": 2,
-        "@uid": 1772368,
-        "@user": "pizzaiolo",
-        "ele": 1048,
-        "name": "Little Knuckles",
-        "natural": "peak",
-        "wikidata": "Q31687649"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          171.5656806,
-          -43.2417513
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 322.4,
-        "@id": "w89478640",
-        "@changeset": 83094186,
-        "@timestamp": "2020-04-05T10:31:13Z",
-        "@version": 4,
-        "@uid": 2057798,
-        "@user": "Sarvihepo",
-        "name": "Rakaia Gorge Camping Ground",
-        "phone": "+6433029353",
-        "tourism": "camp_site",
-        "website": "https://www.rakaiagorge.nz"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          171.6548107,
-          -43.5198783
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 534.1,
-        "@id": "w908021621",
-        "@changeset": 99441832,
-        "@timestamp": "2021-02-17T10:11:49Z",
-        "@version": 1,
-        "@uid": 38928,
-        "@user": "petenz",
-        "building": "yes",
-        "capacity": 20,
-        "fee": "yes",
-        "fireplace": "yes",
-        "mattress": "yes",
-        "name": "Hamilton Hut",
-        "operator": "Department of Conservation",
-        "ref:doc": "100063461",
-        "tourism": "wilderness_hut",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/craigieburn-forest-park/things-to-do/huts/hamilton-hut/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          171.6299216,
-          -43.1293245
         ]
       }
     },
@@ -7303,6 +7150,162 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 38.1,
+        "@id": "n377585255",
+        "@changeset": 82913418,
+        "@timestamp": "2020-04-01T09:16:21Z",
+        "@version": 8,
+        "@uid": 2057798,
+        "@user": "Sarvihepo",
+        "building": "yes",
+        "capacity": 5,
+        "drinking_water": "stream",
+        "ele": 870,
+        "fee": "no",
+        "fireplace": "yes",
+        "mattress": "yes",
+        "name": "West Harper Hut",
+        "ref:doc": "100061488",
+        "reservation": "no",
+        "toilets": "yes",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/craigieburn-forest-park/things-to-do/huts/west-harper-hut/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.6070092,
+          -43.0997344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 3575.2,
+        "@id": "n1451766219",
+        "@changeset": 95385074,
+        "@timestamp": "2020-12-07T00:14:49Z",
+        "@version": 4,
+        "@uid": 1772368,
+        "@user": "pizzaiolo",
+        "ele": 1874,
+        "name": "Mt Cockayne",
+        "natural": "peak",
+        "wikidata": "Q31687834"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.6614552,
+          -43.1512458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 258.7,
+        "@id": "n4461208519",
+        "@changeset": 43114068,
+        "@timestamp": "2016-10-24T04:33:39Z",
+        "@version": 1,
+        "@uid": 4516038,
+        "@user": "shekk",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.6552274,
+          -43.5192848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 2754.7,
+        "@id": "n5814086626",
+        "@changeset": 95385074,
+        "@timestamp": "2020-12-07T00:14:48Z",
+        "@version": 2,
+        "@uid": 1772368,
+        "@user": "pizzaiolo",
+        "ele": 1048,
+        "name": "Little Knuckles",
+        "natural": "peak",
+        "wikidata": "Q31687649"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.5656806,
+          -43.2417513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 322.4,
+        "@id": "w89478640",
+        "@changeset": 83094186,
+        "@timestamp": "2020-04-05T10:31:13Z",
+        "@version": 4,
+        "@uid": 2057798,
+        "@user": "Sarvihepo",
+        "name": "Rakaia Gorge Camping Ground",
+        "phone": "+6433029353",
+        "tourism": "camp_site",
+        "website": "https://www.rakaiagorge.nz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.6548107,
+          -43.5198783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 534.1,
+        "@id": "w908021621",
+        "@changeset": 99441832,
+        "@timestamp": "2021-02-17T10:11:49Z",
+        "@version": 1,
+        "@uid": 38928,
+        "@user": "petenz",
+        "building": "yes",
+        "capacity": 20,
+        "fee": "yes",
+        "fireplace": "yes",
+        "mattress": "yes",
+        "name": "Hamilton Hut",
+        "operator": "Department of Conservation",
+        "ref:doc": "100063461",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/craigieburn-forest-park/things-to-do/huts/hamilton-hut/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          171.6299216,
+          -43.1293245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "place_village",
         "@distance": 182.7,
         "@id": "n254814456",
@@ -7911,57 +7914,6 @@
         "coordinates": [
           172.8220679,
           -41.8756244
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 123.1,
-        "@id": "n2264754088",
-        "@changeset": 83056431,
-        "@timestamp": "2020-04-03T23:31:15Z",
-        "@version": 8,
-        "@uid": 2057798,
-        "@user": "Sarvihepo",
-        "capacity": 6,
-        "drinking_water": "stream",
-        "fee": "no",
-        "name": "Hope Halfway Hut",
-        "operator": "Department of Conservation",
-        "ref:doc": "100062861",
-        "reservation": "no",
-        "toilets": "yes",
-        "tourism": "wilderness_hut",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/lake-sumner-forest-park/things-to-do/huts/hope-halfway-hut/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          172.297893,
-          -42.6157696
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 943.4,
-        "@id": "n6202525120",
-        "@changeset": 66243167,
-        "@timestamp": "2019-01-12T02:43:27Z",
-        "@version": 1,
-        "@uid": 1715587,
-        "@user": "ivss_xx",
-        "amenity": "shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          172.3825332,
-          -42.5841841
         ]
       }
     },
@@ -8617,6 +8569,611 @@
         "coordinates": [
           172.6611176,
           -42.1801917
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 123.1,
+        "@id": "n2264754088",
+        "@changeset": 83056431,
+        "@timestamp": "2020-04-03T23:31:15Z",
+        "@version": 8,
+        "@uid": 2057798,
+        "@user": "Sarvihepo",
+        "capacity": 6,
+        "drinking_water": "stream",
+        "fee": "no",
+        "name": "Hope Halfway Hut",
+        "operator": "Department of Conservation",
+        "ref:doc": "100062861",
+        "reservation": "no",
+        "toilets": "yes",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/lake-sumner-forest-park/things-to-do/huts/hope-halfway-hut/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.297893,
+          -42.6157696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 943.4,
+        "@id": "n6202525120",
+        "@changeset": 66243167,
+        "@timestamp": "2019-01-12T02:43:27Z",
+        "@version": 1,
+        "@uid": 1715587,
+        "@user": "ivss_xx",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.3825332,
+          -42.5841841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_town",
+        "@distance": 9856.4,
+        "@id": "n204499880",
+        "@changeset": 92031657,
+        "@timestamp": "2020-10-06T08:22:39Z",
+        "@version": 9,
+        "@uid": 341519,
+        "@user": "lcmortensen",
+        "name": "Richmond",
+        "name:ckb": "ڕیچمۆند",
+        "name:mk": "Ричмонд",
+        "place": "town",
+        "population": 16300,
+        "source:population": "Statistics NZ 2019",
+        "wikidata": "Q1208462"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.1872264,
+          -41.3380953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 157.6,
+        "@id": "n988510767",
+        "@changeset": 82919334,
+        "@timestamp": "2020-04-01T11:07:44Z",
+        "@version": 8,
+        "@uid": 2057798,
+        "@user": "Sarvihepo",
+        "capacity": 8,
+        "drinking_water": "stream",
+        "fee": "yes",
+        "fireplace": "yes",
+        "mattress": "yes",
+        "name": "Browning Hut",
+        "operator": "Department of Conservation",
+        "payment:prepaid_card": "yes",
+        "payment:prepaid_ticket": "yes",
+        "ref:doc": "100065092",
+        "reservation": "no",
+        "toilets": "yes",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/mount-richmond-forest-park/things-to-do/huts/browning-hut/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.2767929,
+          -41.4137102
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 9823.6,
+        "@id": "n1214530406",
+        "@changeset": 43318364,
+        "@timestamp": "2016-11-01T04:16:27Z",
+        "@version": 3,
+        "@uid": 4804392,
+        "@user": "kennylogans",
+        "name": "Pak'n'Save",
+        "name:en": "Pak'nSave Richmond",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.1866589,
+          -41.3387236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 9790.9,
+        "@id": "n1214530417",
+        "@changeset": 73170194,
+        "@timestamp": "2019-08-08T20:16:59Z",
+        "@version": 2,
+        "@uid": 3366289,
+        "@user": "Adr1en",
+        "name": "Fresh Choice",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.1860688,
+          -41.3393681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 61,
+        "@id": "n2196592153",
+        "@changeset": 82919334,
+        "@timestamp": "2020-04-01T11:07:44Z",
+        "@version": 7,
+        "@uid": 2057798,
+        "@user": "Sarvihepo",
+        "building": "yes",
+        "capacity": 6,
+        "drinking_water": "boil",
+        "ele": 1170,
+        "fee": "yes",
+        "fireplace": "yes",
+        "mattress": "yes",
+        "name": "Starveall Hut",
+        "operator": "Department of Conservation",
+        "payment:prepaid_card": "yes",
+        "payment:prepaid_ticket": "yes",
+        "ref:doc": "100061740",
+        "reservation": "no",
+        "toilets": "yes",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/mount-richmond-forest-park/things-to-do/huts/starveall-hut/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.2411754,
+          -41.4578859
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 77.7,
+        "@id": "n2196616187",
+        "@changeset": 82919334,
+        "@timestamp": "2020-04-01T11:07:44Z",
+        "@version": 7,
+        "@uid": 2057798,
+        "@user": "Sarvihepo",
+        "building": "yes",
+        "capacity": 6,
+        "drinking_water": "boil",
+        "ele": 1400,
+        "fee": "yes",
+        "fireplace": "yes",
+        "mattress": "yes",
+        "name": "Slaty Hut",
+        "operator": "DoC",
+        "payment:prepaid_card": "yes",
+        "payment:prepaid_ticket": "yes",
+        "ref:doc": "100061149",
+        "reservation": "no",
+        "toilets": "yes",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/mount-richmond-forest-park/things-to-do/huts/slaty-hut/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.2784495,
+          -41.485479
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 18.3,
+        "@id": "n2196759327",
+        "@changeset": 82919334,
+        "@timestamp": "2020-04-01T11:07:44Z",
+        "@version": 8,
+        "@uid": 2057798,
+        "@user": "Sarvihepo",
+        "capacity": 6,
+        "drinking_water": "stream",
+        "ele": 270,
+        "fee": "yes",
+        "fireplace": "yes",
+        "mattress": "yes",
+        "name": "Hacket Hut",
+        "operator": "DoC",
+        "payment:prepaid_card": "yes",
+        "payment:prepaid_ticket": "yes",
+        "ref:doc": "100061147",
+        "reservation": "no",
+        "toilets": "yes",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/mount-richmond-forest-park/things-to-do/huts/hacket-hut/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.2459161,
+          -41.4158249
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 42.1,
+        "@id": "n2264684046",
+        "@changeset": 102031882,
+        "@timestamp": "2021-03-31T07:04:27Z",
+        "@version": 7,
+        "@uid": 1892481,
+        "@user": "skgrange",
+        "capacity": 6,
+        "drinking_water": "stream",
+        "fee": "yes",
+        "fireplace": "yes",
+        "mattress": "yes",
+        "name": "Captains Creek Hut",
+        "operator": "Department of Conservation",
+        "payment:prepaid_card": "yes",
+        "payment:prepaid_ticket": "yes",
+        "ref:doc": "100061254",
+        "reservation": "no",
+        "toilets": "yes",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/mount-richmond-forest-park/things-to-do/huts/captains-creek-hut/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.4352671,
+          -41.3739636
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 59.8,
+        "@id": "n2264684049",
+        "@changeset": 102007940,
+        "@timestamp": "2021-03-30T20:26:24Z",
+        "@version": 9,
+        "@uid": 1892481,
+        "@user": "skgrange",
+        "capacity": 6,
+        "drinking_water": "stream",
+        "fee": "yes",
+        "fireplace": "yes",
+        "mattress": "yes",
+        "name": "Middy Creek Hut",
+        "operator": "Department of Conservation",
+        "payment:prepaid_card": "yes",
+        "payment:prepaid_ticket": "yes",
+        "ref:doc": "100059887",
+        "reservation": "no",
+        "toilets": "yes",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/mount-richmond-forest-park/things-to-do/huts/middy-creek-hut/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.392726,
+          -41.3842358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 2.1,
+        "@id": "n2264698089",
+        "@changeset": 82919334,
+        "@timestamp": "2020-04-01T11:07:44Z",
+        "@version": 10,
+        "@uid": 2057798,
+        "@user": "Sarvihepo",
+        "capacity": 16,
+        "drinking_water": "boil",
+        "fee": "yes",
+        "fireplace": "yes",
+        "mattress": "yes",
+        "name": "Rocks Hut",
+        "operator": "Department of Conservation",
+        "payment:prepaid_card": "yes",
+        "payment:prepaid_ticket": "yes",
+        "ref:doc": "100061255",
+        "reservation": "no",
+        "toilets": "yes",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/mount-richmond-forest-park/things-to-do/huts/rocks-hut/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.3549261,
+          -41.3671861
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 3228.6,
+        "@id": "n2597917442",
+        "@changeset": 51079624,
+        "@timestamp": "2017-08-13T11:49:45Z",
+        "@version": 5,
+        "@uid": 341519,
+        "@user": "lcmortensen",
+        "ele": 1129,
+        "name": "Dun Mountain",
+        "natural": "peak",
+        "wikidata": "Q31700319"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.3759097,
+          -41.3425809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 3510.4,
+        "@id": "n3308744141",
+        "@changeset": 69826768,
+        "@timestamp": "2019-05-03T04:33:42Z",
+        "@version": 4,
+        "@uid": 1772368,
+        "@user": "pizzaiolo",
+        "ele": 1014,
+        "name": "Maungatapu",
+        "name:mi": "Maungatapu",
+        "natural": "peak",
+        "wikidata": "Q6792564"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.4149764,
+          -41.3229592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 3525.8,
+        "@id": "n3310759261",
+        "@changeset": 99566849,
+        "@timestamp": "2021-02-19T06:16:11Z",
+        "@version": 2,
+        "@uid": 341519,
+        "@user": "lcmortensen",
+        "ele": 1111,
+        "name": "Wooded Peak",
+        "natural": "peak",
+        "wikidata": "Q31655167"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.3484659,
+          -41.3355789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 3571.8,
+        "@id": "n3310759263",
+        "@changeset": 88514734,
+        "@timestamp": "2020-07-26T08:57:38Z",
+        "@version": 2,
+        "@uid": 341519,
+        "@user": "lcmortensen",
+        "ele": 1216,
+        "name": "Conical Knob",
+        "natural": "peak",
+        "wikidata": "Q31469359"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.3965004,
+          -41.4170005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 152.2,
+        "@id": "n3310867563",
+        "@changeset": 99566849,
+        "@timestamp": "2021-02-19T06:16:11Z",
+        "@version": 2,
+        "@uid": 341519,
+        "@user": "lcmortensen",
+        "ele": 939,
+        "name": "The Rocks",
+        "natural": "peak",
+        "wikidata": "Q31670586"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.3455596,
+          -41.3722993
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 2888,
+        "@id": "n3310867565",
+        "@changeset": 95385074,
+        "@timestamp": "2020-12-07T00:12:34Z",
+        "@version": 2,
+        "@uid": 1772368,
+        "@user": "pizzaiolo",
+        "ele": 938,
+        "name": "Blue Knob",
+        "natural": "peak",
+        "wikidata": "Q31469047"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.3280787,
+          -41.3504493
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 2620.8,
+        "@id": "n3310867567",
+        "@changeset": 99568215,
+        "@timestamp": "2021-02-19T06:34:15Z",
+        "@version": 2,
+        "@uid": 341519,
+        "@user": "lcmortensen",
+        "ele": 959,
+        "name": "Mt Malita",
+        "natural": "peak",
+        "wikidata": "Q31468970"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.2731475,
+          -41.3784999
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 3911.6,
+        "@id": "n5700908755",
+        "@changeset": 88514734,
+        "@timestamp": "2020-07-26T08:57:38Z",
+        "@version": 2,
+        "@uid": 341519,
+        "@user": "lcmortensen",
+        "ele": 1043,
+        "name": "Benbown",
+        "natural": "peak",
+        "source": "LINZ NZ Topo50 Gridless Maps",
+        "wikidata": "Q30509638"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.5832986,
+          -41.3333531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 399.2,
+        "@id": "n6245577266",
+        "@changeset": 98434665,
+        "@timestamp": "2021-01-31T01:49:56Z",
+        "@version": 2,
+        "@uid": 10140394,
+        "@user": "kylenz",
+        "amenity": "drinking_water",
+        "drinking_water": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.57565,
+          -41.3008143
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 9695.2,
+        "@id": "n6747851985",
+        "@changeset": 91859705,
+        "@timestamp": "2020-10-02T09:07:08Z",
+        "@version": 2,
+        "@uid": 341519,
+        "@user": "lcmortensen",
+        "name": "On The Spot",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.2011862,
+          -41.3339131
         ]
       }
     },
@@ -9745,560 +10302,6 @@
         "coordinates": [
           174.1745754,
           -41.0966227
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "place_town",
-        "@distance": 9856.4,
-        "@id": "n204499880",
-        "@changeset": 92031657,
-        "@timestamp": "2020-10-06T08:22:39Z",
-        "@version": 9,
-        "@uid": 341519,
-        "@user": "lcmortensen",
-        "name": "Richmond",
-        "name:ckb": "ڕیچمۆند",
-        "name:mk": "Ричмонд",
-        "place": "town",
-        "population": 16300,
-        "source:population": "Statistics NZ 2019",
-        "wikidata": "Q1208462"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.1872264,
-          -41.3380953
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 157.6,
-        "@id": "n988510767",
-        "@changeset": 82919334,
-        "@timestamp": "2020-04-01T11:07:44Z",
-        "@version": 8,
-        "@uid": 2057798,
-        "@user": "Sarvihepo",
-        "capacity": 8,
-        "drinking_water": "stream",
-        "fee": "yes",
-        "fireplace": "yes",
-        "mattress": "yes",
-        "name": "Browning Hut",
-        "operator": "Department of Conservation",
-        "payment:prepaid_card": "yes",
-        "payment:prepaid_ticket": "yes",
-        "ref:doc": "100065092",
-        "reservation": "no",
-        "toilets": "yes",
-        "tourism": "wilderness_hut",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/mount-richmond-forest-park/things-to-do/huts/browning-hut/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.2767929,
-          -41.4137102
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 9823.6,
-        "@id": "n1214530406",
-        "@changeset": 43318364,
-        "@timestamp": "2016-11-01T04:16:27Z",
-        "@version": 3,
-        "@uid": 4804392,
-        "@user": "kennylogans",
-        "name": "Pak'n'Save",
-        "name:en": "Pak'nSave Richmond",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.1866589,
-          -41.3387236
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 9790.9,
-        "@id": "n1214530417",
-        "@changeset": 73170194,
-        "@timestamp": "2019-08-08T20:16:59Z",
-        "@version": 2,
-        "@uid": 3366289,
-        "@user": "Adr1en",
-        "name": "Fresh Choice",
-        "opening_hours": "Mo-Su 07:00-21:00",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.1860688,
-          -41.3393681
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 61,
-        "@id": "n2196592153",
-        "@changeset": 82919334,
-        "@timestamp": "2020-04-01T11:07:44Z",
-        "@version": 7,
-        "@uid": 2057798,
-        "@user": "Sarvihepo",
-        "building": "yes",
-        "capacity": 6,
-        "drinking_water": "boil",
-        "ele": 1170,
-        "fee": "yes",
-        "fireplace": "yes",
-        "mattress": "yes",
-        "name": "Starveall Hut",
-        "operator": "Department of Conservation",
-        "payment:prepaid_card": "yes",
-        "payment:prepaid_ticket": "yes",
-        "ref:doc": "100061740",
-        "reservation": "no",
-        "toilets": "yes",
-        "tourism": "wilderness_hut",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/mount-richmond-forest-park/things-to-do/huts/starveall-hut/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.2411754,
-          -41.4578859
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 77.7,
-        "@id": "n2196616187",
-        "@changeset": 82919334,
-        "@timestamp": "2020-04-01T11:07:44Z",
-        "@version": 7,
-        "@uid": 2057798,
-        "@user": "Sarvihepo",
-        "building": "yes",
-        "capacity": 6,
-        "drinking_water": "boil",
-        "ele": 1400,
-        "fee": "yes",
-        "fireplace": "yes",
-        "mattress": "yes",
-        "name": "Slaty Hut",
-        "operator": "DoC",
-        "payment:prepaid_card": "yes",
-        "payment:prepaid_ticket": "yes",
-        "ref:doc": "100061149",
-        "reservation": "no",
-        "toilets": "yes",
-        "tourism": "wilderness_hut",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/mount-richmond-forest-park/things-to-do/huts/slaty-hut/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.2784495,
-          -41.485479
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 18.3,
-        "@id": "n2196759327",
-        "@changeset": 82919334,
-        "@timestamp": "2020-04-01T11:07:44Z",
-        "@version": 8,
-        "@uid": 2057798,
-        "@user": "Sarvihepo",
-        "capacity": 6,
-        "drinking_water": "stream",
-        "ele": 270,
-        "fee": "yes",
-        "fireplace": "yes",
-        "mattress": "yes",
-        "name": "Hacket Hut",
-        "operator": "DoC",
-        "payment:prepaid_card": "yes",
-        "payment:prepaid_ticket": "yes",
-        "ref:doc": "100061147",
-        "reservation": "no",
-        "toilets": "yes",
-        "tourism": "wilderness_hut",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/mount-richmond-forest-park/things-to-do/huts/hacket-hut/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.2459161,
-          -41.4158249
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 42.1,
-        "@id": "n2264684046",
-        "@changeset": 102031882,
-        "@timestamp": "2021-03-31T07:04:27Z",
-        "@version": 7,
-        "@uid": 1892481,
-        "@user": "skgrange",
-        "capacity": 6,
-        "drinking_water": "stream",
-        "fee": "yes",
-        "fireplace": "yes",
-        "mattress": "yes",
-        "name": "Captains Creek Hut",
-        "operator": "Department of Conservation",
-        "payment:prepaid_card": "yes",
-        "payment:prepaid_ticket": "yes",
-        "ref:doc": "100061254",
-        "reservation": "no",
-        "toilets": "yes",
-        "tourism": "wilderness_hut",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/mount-richmond-forest-park/things-to-do/huts/captains-creek-hut/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.4352671,
-          -41.3739636
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 59.8,
-        "@id": "n2264684049",
-        "@changeset": 102007940,
-        "@timestamp": "2021-03-30T20:26:24Z",
-        "@version": 9,
-        "@uid": 1892481,
-        "@user": "skgrange",
-        "capacity": 6,
-        "drinking_water": "stream",
-        "fee": "yes",
-        "fireplace": "yes",
-        "mattress": "yes",
-        "name": "Middy Creek Hut",
-        "operator": "Department of Conservation",
-        "payment:prepaid_card": "yes",
-        "payment:prepaid_ticket": "yes",
-        "ref:doc": "100059887",
-        "reservation": "no",
-        "toilets": "yes",
-        "tourism": "wilderness_hut",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/mount-richmond-forest-park/things-to-do/huts/middy-creek-hut/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.392726,
-          -41.3842358
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 2.1,
-        "@id": "n2264698089",
-        "@changeset": 82919334,
-        "@timestamp": "2020-04-01T11:07:44Z",
-        "@version": 10,
-        "@uid": 2057798,
-        "@user": "Sarvihepo",
-        "capacity": 16,
-        "drinking_water": "boil",
-        "fee": "yes",
-        "fireplace": "yes",
-        "mattress": "yes",
-        "name": "Rocks Hut",
-        "operator": "Department of Conservation",
-        "payment:prepaid_card": "yes",
-        "payment:prepaid_ticket": "yes",
-        "ref:doc": "100061255",
-        "reservation": "no",
-        "toilets": "yes",
-        "tourism": "wilderness_hut",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/mount-richmond-forest-park/things-to-do/huts/rocks-hut/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.3549261,
-          -41.3671861
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 3228.6,
-        "@id": "n2597917442",
-        "@changeset": 51079624,
-        "@timestamp": "2017-08-13T11:49:45Z",
-        "@version": 5,
-        "@uid": 341519,
-        "@user": "lcmortensen",
-        "ele": 1129,
-        "name": "Dun Mountain",
-        "natural": "peak",
-        "wikidata": "Q31700319"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.3759097,
-          -41.3425809
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 3510.4,
-        "@id": "n3308744141",
-        "@changeset": 69826768,
-        "@timestamp": "2019-05-03T04:33:42Z",
-        "@version": 4,
-        "@uid": 1772368,
-        "@user": "pizzaiolo",
-        "ele": 1014,
-        "name": "Maungatapu",
-        "name:mi": "Maungatapu",
-        "natural": "peak",
-        "wikidata": "Q6792564"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.4149764,
-          -41.3229592
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 3525.8,
-        "@id": "n3310759261",
-        "@changeset": 99566849,
-        "@timestamp": "2021-02-19T06:16:11Z",
-        "@version": 2,
-        "@uid": 341519,
-        "@user": "lcmortensen",
-        "ele": 1111,
-        "name": "Wooded Peak",
-        "natural": "peak",
-        "wikidata": "Q31655167"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.3484659,
-          -41.3355789
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 3571.8,
-        "@id": "n3310759263",
-        "@changeset": 88514734,
-        "@timestamp": "2020-07-26T08:57:38Z",
-        "@version": 2,
-        "@uid": 341519,
-        "@user": "lcmortensen",
-        "ele": 1216,
-        "name": "Conical Knob",
-        "natural": "peak",
-        "wikidata": "Q31469359"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.3965004,
-          -41.4170005
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 152.2,
-        "@id": "n3310867563",
-        "@changeset": 99566849,
-        "@timestamp": "2021-02-19T06:16:11Z",
-        "@version": 2,
-        "@uid": 341519,
-        "@user": "lcmortensen",
-        "ele": 939,
-        "name": "The Rocks",
-        "natural": "peak",
-        "wikidata": "Q31670586"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.3455596,
-          -41.3722993
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 2888,
-        "@id": "n3310867565",
-        "@changeset": 95385074,
-        "@timestamp": "2020-12-07T00:12:34Z",
-        "@version": 2,
-        "@uid": 1772368,
-        "@user": "pizzaiolo",
-        "ele": 938,
-        "name": "Blue Knob",
-        "natural": "peak",
-        "wikidata": "Q31469047"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.3280787,
-          -41.3504493
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 2620.8,
-        "@id": "n3310867567",
-        "@changeset": 99568215,
-        "@timestamp": "2021-02-19T06:34:15Z",
-        "@version": 2,
-        "@uid": 341519,
-        "@user": "lcmortensen",
-        "ele": 959,
-        "name": "Mt Malita",
-        "natural": "peak",
-        "wikidata": "Q31468970"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.2731475,
-          -41.3784999
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 3911.6,
-        "@id": "n5700908755",
-        "@changeset": 88514734,
-        "@timestamp": "2020-07-26T08:57:38Z",
-        "@version": 2,
-        "@uid": 341519,
-        "@user": "lcmortensen",
-        "ele": 1043,
-        "name": "Benbown",
-        "natural": "peak",
-        "source": "LINZ NZ Topo50 Gridless Maps",
-        "wikidata": "Q30509638"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.5832986,
-          -41.3333531
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 399.2,
-        "@id": "n6245577266",
-        "@changeset": 98434665,
-        "@timestamp": "2021-01-31T01:49:56Z",
-        "@version": 2,
-        "@uid": 10140394,
-        "@user": "kylenz",
-        "amenity": "drinking_water",
-        "drinking_water": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.57565,
-          -41.3008143
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 9695.2,
-        "@id": "n6747851985",
-        "@changeset": 91859705,
-        "@timestamp": "2020-10-02T09:07:08Z",
-        "@version": 2,
-        "@uid": 341519,
-        "@user": "lcmortensen",
-        "name": "On The Spot",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          173.2011862,
-          -41.3339131
         ]
       }
     },
