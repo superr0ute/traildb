@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-22T02:31:53Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-31T02:28:51Z"},
   "elements": [
     {
       "type": "relation",
@@ -1520,11 +1520,11 @@
     {
       "type": "way",
       "id": 150741214,
-      "timestamp": "2017-04-02T07:28:20Z",
-      "version": 3,
-      "changeset": 47374060,
-      "user": "Ice25T",
-      "uid": 157205,
+      "timestamp": "2021-07-30T19:34:23Z",
+      "version": 4,
+      "changeset": 108908001,
+      "user": "Chris Kerr",
+      "uid": 22485,
       "nodes": [470919453, 289461132],
       "geometry": [
         {"lat": 68.3591456, "lon": 18.7777307, "z": 372.6},
@@ -1536,7 +1536,7 @@
         {"lat": 68.358381, "lon": 18.7803472, "z": 375.9},
         {"lat": 68.3583503, "lon": 18.7807362, "z": 376.3}
       ],
-      "tags": {"foot": "yes", "highway": "service"}
+      "tags": {"foot": "yes", "highway": "service", "surface": "gravel"}
     },
     {
       "type": "way",
@@ -3040,18 +3040,23 @@
     {
       "type": "way",
       "id": 183176569,
-      "timestamp": "2019-04-26T16:06:45Z",
-      "version": 2,
-      "changeset": 69606703,
-      "user": "pangoSE",
-      "uid": 987207,
+      "timestamp": "2021-07-30T19:34:16Z",
+      "version": 5,
+      "changeset": 108908029,
+      "user": "Chris Kerr",
+      "uid": 22485,
       "nodes": [289461132, 437052997],
       "geometry": [
         {"lat": 68.3583503, "lon": 18.7807362, "z": 376.3},
         {"lat": 68.3582746, "lon": 18.7805372, "z": 376.9},
         {"lat": 68.3580906, "lon": 18.7802307, "z": 378.3}
       ],
-      "tags": {"highway": "unclassified", "surface": "paved"}
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -7109,11 +7114,11 @@
     {
       "type": "way",
       "id": 315437363,
-      "timestamp": "2018-10-21T21:54:51Z",
-      "version": 4,
-      "changeset": 63739190,
-      "user": "liberalex",
-      "uid": 6763597,
+      "timestamp": "2021-07-30T09:14:47Z",
+      "version": 5,
+      "changeset": 108877151,
+      "user": "Gazer75",
+      "uid": 715936,
       "nodes": [2421616597, 3731862121],
       "geometry": [
         {"lat": 68.064332, "lon": 17.7498511, "z": 901.4},
@@ -7196,7 +7201,6 @@
         {"lat": 68.0589007, "lon": 17.5928895, "z": 1005.6}
       ],
       "tags": {
-        "foot": "designated",
         "highway": "path",
         "sac_scale": "hiking",
         "trail_visibility": "intermediate",
@@ -9301,17 +9305,23 @@
     {
       "type": "way",
       "id": 39297981,
-      "timestamp": "2019-04-26T16:06:45Z",
-      "version": 4,
-      "changeset": 69606703,
-      "user": "pangoSE",
-      "uid": 987207,
+      "timestamp": "2021-07-30T19:34:17Z",
+      "version": 7,
+      "changeset": 108908029,
+      "user": "Chris Kerr",
+      "uid": 22485,
       "nodes": [437052997, 289461135],
       "geometry": [
         {"lat": 68.3580906, "lon": 18.7802307, "z": 378.3},
         {"lat": 68.3576813, "lon": 18.7796971, "z": 381.4}
       ],
-      "tags": {"highway": "unclassified", "maxheight": "3.5"}
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "maxheight": "3.5",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",

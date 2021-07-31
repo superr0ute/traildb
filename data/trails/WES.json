@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-29T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-07-30T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -3189,9 +3189,9 @@
     {
       "type": "way",
       "id": 116530624,
-      "timestamp": "2021-06-15T21:23:36Z",
-      "version": 4,
-      "changeset": 106424419,
+      "timestamp": "2021-07-30T10:57:40Z",
+      "version": 5,
+      "changeset": 108885014,
       "user": "Shaun das Schaf",
       "uid": 1228402,
       "nodes": [505709715, 441691126],
@@ -3207,7 +3207,12 @@
         {"lat": 47.6929207, "lon": 7.8785759},
         {"lat": 47.6929556, "lon": 7.8785951}
       ],
-      "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade2"}
+      "tags": {
+        "highway": "track",
+        "name": "Rotsruheweg",
+        "surface": "gravel",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
@@ -25044,16 +25049,16 @@
     {
       "type": "way",
       "id": 34925881,
-      "timestamp": "2020-02-22T19:50:34Z",
-      "version": 4,
-      "changeset": 81353187,
-      "user": "kfrah",
-      "uid": 1913534,
+      "timestamp": "2021-07-30T10:57:40Z",
+      "version": 5,
+      "changeset": 108885014,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
       "nodes": [565175930, 409779460],
       "geometry": [
-        {"lat": 47.6940918, "lon": 7.8878041},
-        {"lat": 47.6941951, "lon": 7.8878273},
-        {"lat": 47.6942727, "lon": 7.8877953},
+        {"lat": 47.6940309, "lon": 7.887491},
+        {"lat": 47.6941418, "lon": 7.8875846},
+        {"lat": 47.6942817, "lon": 7.8877792},
         {"lat": 47.6943297, "lon": 7.8877949},
         {"lat": 47.6944248, "lon": 7.8877941},
         {"lat": 47.6946327, "lon": 7.8877471},
@@ -25064,7 +25069,7 @@
         {"lat": 47.6956192, "lon": 7.8877108},
         {"lat": 47.6957181, "lon": 7.8877443}
       ],
-      "tags": {"highway": "track", "tracktype": "grade4"}
+      "tags": {"highway": "path", "mtb:scale": "0", "surface": "ground"}
     },
     {
       "type": "way",
@@ -28932,11 +28937,11 @@
     {
       "type": "way",
       "id": 41349837,
-      "timestamp": "2012-03-30T11:59:51Z",
-      "version": 3,
-      "changeset": 11152694,
-      "user": "Rotmann",
-      "uid": 547201,
+      "timestamp": "2021-07-30T10:57:40Z",
+      "version": 4,
+      "changeset": 108885014,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
       "nodes": [409777219, 505711207],
       "geometry": [
         {"lat": 47.6929792, "lon": 7.8745681},
@@ -28971,7 +28976,12 @@
         {"lat": 47.689946, "lon": 7.8753403},
         {"lat": 47.6898054, "lon": 7.8752714}
       ],
-      "tags": {"highway": "path"}
+      "tags": {
+        "highway": "path",
+        "mtb:scale": "1",
+        "mtb:scale:uphill": "3",
+        "surface": "ground"
+      }
     },
     {
       "type": "way",
@@ -41509,9 +41519,9 @@
     {
       "type": "way",
       "id": 68414407,
-      "timestamp": "2021-01-28T21:48:36Z",
-      "version": 5,
-      "changeset": 98321378,
+      "timestamp": "2021-07-30T10:57:40Z",
+      "version": 6,
+      "changeset": 108885014,
       "user": "Shaun das Schaf",
       "uid": 1228402,
       "nodes": [441691126, 409779421],
@@ -41536,7 +41546,7 @@
         {"lat": 47.6933444, "lon": 7.8856855},
         {"lat": 47.6934861, "lon": 7.8860778}
       ],
-      "tags": {"highway": "path", "surface": "ground"}
+      "tags": {"highway": "path", "mtb:scale": "0", "surface": "ground"}
     },
     {
       "type": "way",
@@ -42975,11 +42985,11 @@
     {
       "type": "way",
       "id": 75006464,
-      "timestamp": "2020-02-22T19:50:34Z",
-      "version": 2,
-      "changeset": 81353187,
-      "user": "kfrah",
-      "uid": 1913534,
+      "timestamp": "2021-07-30T10:57:40Z",
+      "version": 3,
+      "changeset": 108885014,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
       "nodes": [409779460, 409779466],
       "geometry": [
         {"lat": 47.6957181, "lon": 7.8877443},
@@ -42991,7 +43001,7 @@
         {"lat": 47.695417, "lon": 7.8899634},
         {"lat": 47.6954438, "lon": 7.8902991}
       ],
-      "tags": {"highway": "track", "tracktype": "grade3"}
+      "tags": {"highway": "track", "surface": "ground", "tracktype": "grade4"}
     },
     {
       "type": "way",
@@ -43008,7 +43018,7 @@
         {"lat": 47.6936769, "lon": 7.8866215},
         {"lat": 47.6938649, "lon": 7.8869708},
         {"lat": 47.6939972, "lon": 7.8873153},
-        {"lat": 47.6940918, "lon": 7.8878041}
+        {"lat": 47.6940309, "lon": 7.887491}
       ],
       "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade2"}
     },
@@ -43504,9 +43514,9 @@
     {
       "type": "way",
       "id": 775613718,
-      "timestamp": "2021-01-28T21:48:36Z",
-      "version": 2,
-      "changeset": 98321378,
+      "timestamp": "2021-07-30T10:57:40Z",
+      "version": 3,
+      "changeset": 108885014,
       "user": "Shaun das Schaf",
       "uid": 1228402,
       "nodes": [441691063, 505709715],
@@ -43538,7 +43548,12 @@
         {"lat": 47.6934033, "lon": 7.8769081},
         {"lat": 47.6934504, "lon": 7.8769306}
       ],
-      "tags": {"highway": "path", "surface": "dirt", "width": "0.5"}
+      "tags": {
+        "highway": "path",
+        "mtb:scale": "2",
+        "surface": "dirt",
+        "width": "0.5"
+      }
     },
     {
       "type": "way",
