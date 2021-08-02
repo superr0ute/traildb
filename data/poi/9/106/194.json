@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-07-31T23:59:59Z",
-    "timestamp_osm_base": "2021-08-01T03:30:44Z",
+    "timestamp_osm_date": "2021-08-01T23:59:59Z",
+    "timestamp_osm_base": "2021-08-02T03:04:13Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3593,11 +3593,11 @@
       "user": "jamesdosborne",
       "uid": 492960,
       "tags": {
-        "addr:housenumber": "5050",
-        "addr:postcode": "80121",
-        "addr:street": "East Arapahoe Road",
+        "shop": "supermarket",
         "name": "King Soopers",
-        "shop": "supermarket"
+        "addr:street": "East Arapahoe Road",
+        "addr:housenumber": "5050",
+        "addr:postcode": "80121"
       }
     },
     {
@@ -6024,8 +6024,8 @@
       "user": "Darbby",
       "uid": 919877,
       "tags": {
-        "name": "Natural Grocers",
-        "shop": "supermarket"
+        "shop": "supermarket",
+        "name": "Natural Grocers"
       }
     },
     {
@@ -22196,17 +22196,19 @@
     {
       "type": "way",
       "id": 282840058,
-      "timestamp": "2018-04-24T05:36:14Z",
-      "version": 2,
-      "changeset": 58361369,
-      "user": "Your Village Maps",
-      "uid": 227972,
+      "timestamp": "2021-08-01T22:27:53Z",
+      "version": 3,
+      "changeset": 108989280,
+      "user": "omgitsgela",
+      "uid": 6571172,
       "center": {
         "lat": 39.7114289,
         "lon": -104.9738734
       },
       "nodes": [],
       "tags": {
+        "brand": "Stinker",
+        "brand:wikidata": "Q95990164",
         "building": "retail",
         "name": "Stinker",
         "shop": "convenience",
@@ -24505,11 +24507,11 @@
     {
       "type": "way",
       "id": 364564141,
-      "timestamp": "2019-12-30T04:24:12Z",
-      "version": 3,
-      "changeset": 78998218,
-      "user": "Bike 2 End",
-      "uid": 2529030,
+      "timestamp": "2021-08-01T21:46:06Z",
+      "version": 4,
+      "changeset": 108988590,
+      "user": "omgitsgela",
+      "uid": 6571172,
       "center": {
         "lat": 39.7211903,
         "lon": -104.9992434
@@ -24524,11 +24526,13 @@
         "brand": "7-Eleven",
         "brand:wikidata": "Q259340",
         "brand:wikipedia": "en:7-Eleven",
-        "building": "yes",
+        "building": "commercial",
+        "height": "5",
         "name": "7-Eleven",
         "opening_hours": "24/7",
         "operator": "7-Eleven",
-        "shop": "convenience"
+        "shop": "convenience",
+        "source": "DRCOG PLANIMETRICS DATA"
       }
     },
     {
@@ -34303,8 +34307,8 @@
       "user": "chachafish",
       "uid": 2237750,
       "center": {
-        "lat": 39.7264275,
-        "lon": -104.9868895
+        "lat": 39.7264378,
+        "lon": -104.9868948
       },
       "nodes": [],
       "tags": {
@@ -37661,14 +37665,14 @@
       },
       "nodes": [],
       "tags": {
+        "shop": "convenience",
+        "name": "Stinker",
         "addr:city": "Centennial",
         "addr:housenumber": "12022",
         "addr:postcode": "80112",
         "addr:state": "CO",
         "addr:street": "East Arapahoe Road",
-        "building": "yes",
-        "name": "Stinker",
-        "shop": "convenience"
+        "building": "yes"
       }
     },
     {
@@ -39388,11 +39392,11 @@
     {
       "type": "way",
       "id": 815846053,
-      "timestamp": "2020-06-14T11:30:35Z",
-      "version": 1,
-      "changeset": 86621835,
-      "user": "chachafish",
-      "uid": 2237750,
+      "timestamp": "2021-08-01T20:44:54Z",
+      "version": 2,
+      "changeset": 108987433,
+      "user": "omgitsgela",
+      "uid": 6571172,
       "center": {
         "lat": 39.6926729,
         "lon": -104.9780799
@@ -39401,6 +39405,7 @@
       "tags": {
         "amenity": "shelter",
         "building": "yes",
+        "layer": "1",
         "shelter_type": "public_transport"
       }
     },
