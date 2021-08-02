@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-16T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-01T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 136334,
-      "timestamp": "2021-07-16T17:27:03Z",
-      "version": 485,
-      "changeset": 108131073,
-      "user": "giuliobranchetti",
-      "uid": 11329839,
+      "timestamp": "2021-08-01T15:49:30Z",
+      "version": 488,
+      "changeset": 108979023,
+      "user": "CarloPro",
+      "uid": 7575034,
       "members": [
         {"type": "node", "ref": 6533634744, "role": ""},
         {"type": "node", "ref": 7035357569, "role": ""},
@@ -79,7 +79,8 @@
         {"type": "way", "ref": 61459233, "role": ""},
         {"type": "way", "ref": 71594214, "role": ""},
         {"type": "way", "ref": 33900726, "role": ""},
-        {"type": "way", "ref": 455675306, "role": ""},
+        {"type": "way", "ref": 93317645, "role": ""},
+        {"type": "way", "ref": 928813732, "role": ""},
         {"type": "way", "ref": 455675307, "role": ""},
         {"type": "way", "ref": 927812631, "role": ""},
         {"type": "way", "ref": 61550017, "role": ""},
@@ -568,6 +569,7 @@
         {"type": "way", "ref": 204591482, "role": ""},
         {"type": "way", "ref": 276651856, "role": ""},
         {"type": "way", "ref": 342743626, "role": ""},
+        {"type": "way", "ref": 342743626, "role": ""},
         {"type": "way", "ref": 736297079, "role": ""},
         {"type": "way", "ref": 342743627, "role": ""},
         {"type": "way", "ref": 736297082, "role": ""},
@@ -748,8 +750,7 @@
         {"type": "way", "ref": 613835245, "role": ""},
         {"type": "way", "ref": 362470034, "role": ""},
         {"type": "way", "ref": 242736834, "role": ""},
-        {"type": "way", "ref": 132844508, "role": ""},
-        {"type": "way", "ref": 342743626, "role": ""}
+        {"type": "way", "ref": 132844508, "role": ""}
       ],
       "tags": {
         "ascent": "12731",
@@ -772,7 +773,7 @@
         "source:ref": "9226001",
         "survey:date": "2018-01-01",
         "symbol": "red square and white stripe with black text",
-        "symbol:it": "000 su bandierina bianca e rossa",
+        "symbol:it": "00 su bandierina bianca e rossa",
         "to": "Poggio del Castagnolo",
         "type": "route"
       }
@@ -17806,28 +17807,6 @@
     },
     {
       "type": "way",
-      "id": 455675306,
-      "timestamp": "2021-02-26T17:47:15Z",
-      "version": 5,
-      "changeset": 100067055,
-      "user": "CarloPro",
-      "uid": 7575034,
-      "nodes": [767806387, 767806396],
-      "geometry": [
-        {"lat": 44.4687231, "lon": 9.9408076},
-        {"lat": 44.4688983, "lon": 9.9418456},
-        {"lat": 44.4691563, "lon": 9.942672},
-        {"lat": 44.469138, "lon": 9.9446433}
-      ],
-      "tags": {
-        "highway": "path",
-        "mtb:description": "tratti a spinta per le vette",
-        "mtb:scale": "2",
-        "sac_scale": "mountain_hiking"
-      }
-    },
-    {
-      "type": "way",
       "id": 455675307,
       "timestamp": "2021-04-08T17:01:12Z",
       "version": 8,
@@ -34393,6 +34372,21 @@
     },
     {
       "type": "way",
+      "id": 928813732,
+      "timestamp": "2021-04-10T10:26:37Z",
+      "version": 1,
+      "changeset": 102690969,
+      "user": "capataz",
+      "uid": 169252,
+      "nodes": [767806396, 2769729766],
+      "geometry": [
+        {"lat": 44.469138, "lon": 9.9446433},
+        {"lat": 44.4691458, "lon": 9.9443951}
+      ],
+      "tags": {"highway": "path"}
+    },
+    {
+      "type": "way",
       "id": 929839199,
       "timestamp": "2021-04-12T17:57:26Z",
       "version": 1,
@@ -34869,6 +34863,44 @@
         {"lat": 43.7658552, "lon": 12.0042253},
         {"lat": 43.7658785, "lon": 12.0043206},
         {"lat": 43.7659093, "lon": 12.0045067}
+      ],
+      "tags": {"highway": "path"}
+    },
+    {
+      "type": "way",
+      "id": 93317645,
+      "timestamp": "2021-04-10T10:26:37Z",
+      "version": 3,
+      "changeset": 102690969,
+      "user": "capataz",
+      "uid": 169252,
+      "nodes": [2769729766, 767806387],
+      "geometry": [
+        {"lat": 44.4691458, "lon": 9.9443951},
+        {"lat": 44.4691882, "lon": 9.9443337},
+        {"lat": 44.4692955, "lon": 9.944274},
+        {"lat": 44.4693697, "lon": 9.9441506},
+        {"lat": 44.469496, "lon": 9.9439147},
+        {"lat": 44.4695918, "lon": 9.9437698},
+        {"lat": 44.4696932, "lon": 9.9437081},
+        {"lat": 44.4698099, "lon": 9.943582},
+        {"lat": 44.4698865, "lon": 9.943464},
+        {"lat": 44.4699171, "lon": 9.9433165},
+        {"lat": 44.4699305, "lon": 9.9431582},
+        {"lat": 44.4699516, "lon": 9.9429919},
+        {"lat": 44.469921, "lon": 9.9427559},
+        {"lat": 44.4698597, "lon": 9.9425735},
+        {"lat": 44.4697985, "lon": 9.9423589},
+        {"lat": 44.4697066, "lon": 9.9421873},
+        {"lat": 44.46963, "lon": 9.9418869},
+        {"lat": 44.4695216, "lon": 9.9416792},
+        {"lat": 44.4694112, "lon": 9.9415048},
+        {"lat": 44.4693679, "lon": 9.9413638},
+        {"lat": 44.4692882, "lon": 9.9412522},
+        {"lat": 44.4690788, "lon": 9.9410929},
+        {"lat": 44.4690087, "lon": 9.9410015},
+        {"lat": 44.4688338, "lon": 9.9409105},
+        {"lat": 44.4687231, "lon": 9.9408076}
       ],
       "tags": {"highway": "path"}
     },
