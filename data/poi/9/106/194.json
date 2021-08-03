@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-08-01T23:59:59Z",
-    "timestamp_osm_base": "2021-08-02T03:04:13Z",
+    "timestamp_osm_date": "2021-08-02T23:59:59Z",
+    "timestamp_osm_base": "2021-08-03T03:34:11Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3586,18 +3586,21 @@
       "type": "node",
       "id": 563984326,
       "lat": 39.5943915,
-      "lon": -104.9287588,
-      "timestamp": "2011-07-20T22:50:52Z",
-      "version": 2,
-      "changeset": 8783899,
-      "user": "jamesdosborne",
-      "uid": 492960,
+      "lon": -104.928758,
+      "timestamp": "2021-08-02T02:32:26Z",
+      "version": 3,
+      "changeset": 108992023,
+      "user": "Timothy Smith",
+      "uid": 115918,
       "tags": {
-        "shop": "supermarket",
-        "name": "King Soopers",
-        "addr:street": "East Arapahoe Road",
         "addr:housenumber": "5050",
-        "addr:postcode": "80121"
+        "addr:postcode": "80121",
+        "addr:street": "East Arapahoe Road",
+        "brand": "King Soopers",
+        "brand:wikidata": "Q6412065",
+        "brand:wikipedia": "en:King Soopers",
+        "name": "King Soopers",
+        "shop": "supermarket"
       }
     },
     {
@@ -6017,15 +6020,18 @@
       "type": "node",
       "id": 1932958150,
       "lat": 39.5938326,
-      "lon": -104.9587488,
-      "timestamp": "2012-09-25T22:30:12Z",
-      "version": 1,
-      "changeset": 13253201,
-      "user": "Darbby",
-      "uid": 919877,
+      "lon": -104.958748,
+      "timestamp": "2021-08-02T02:48:44Z",
+      "version": 2,
+      "changeset": 108992305,
+      "user": "Timothy Smith",
+      "uid": 115918,
       "tags": {
-        "shop": "supermarket",
-        "name": "Natural Grocers"
+        "brand": "Natural Grocers",
+        "brand:wikidata": "Q17146520",
+        "brand:wikipedia": "en:Vitamin Cottage Natural Grocers",
+        "name": "Natural Grocers",
+        "shop": "supermarket"
       }
     },
     {
@@ -19096,6 +19102,28 @@
         "name": "Safeway",
         "opening_hours": "24/7",
         "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 202318451,
+      "timestamp": "2021-08-02T02:32:26Z",
+      "version": 3,
+      "changeset": 108992023,
+      "user": "Timothy Smith",
+      "uid": 115918,
+      "center": {
+        "lat": 39.5479629,
+        "lon": -104.9924913
+      },
+      "nodes": [],
+      "tags": {
+        "brand": "Shell",
+        "brand:wikidata": "Q154950",
+        "brand:wikipedia": "en:Royal Dutch Shell",
+        "building": "yes",
+        "name": "Shell",
+        "shop": "convenience"
       }
     },
     {
@@ -37654,25 +37682,54 @@
     {
       "type": "way",
       "id": 787346893,
-      "timestamp": "2020-09-06T07:32:14Z",
-      "version": 2,
-      "changeset": 90471518,
-      "user": "gpserror",
-      "uid": 9637872,
+      "timestamp": "2021-08-02T02:48:44Z",
+      "version": 3,
+      "changeset": 108992305,
+      "user": "Timothy Smith",
+      "uid": 115918,
       "center": {
         "lat": 39.5945277,
         "lon": -104.8486611
       },
       "nodes": [],
       "tags": {
-        "shop": "convenience",
-        "name": "Stinker",
         "addr:city": "Centennial",
         "addr:housenumber": "12022",
         "addr:postcode": "80112",
         "addr:state": "CO",
         "addr:street": "East Arapahoe Road",
-        "building": "yes"
+        "brand": "Stinker",
+        "brand:wikidata": "Q95990164",
+        "building": "yes",
+        "name": "Stinker",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 787346902,
+      "timestamp": "2021-08-02T02:48:44Z",
+      "version": 2,
+      "changeset": 108992305,
+      "user": "Timothy Smith",
+      "uid": 115918,
+      "center": {
+        "lat": 39.5955852,
+        "lon": -104.8529281
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Centennial",
+        "addr:housenumber": "11753",
+        "addr:postcode": "80112",
+        "addr:state": "CO",
+        "addr:street": "East Arapahoe Road",
+        "brand": "Natural Grocers",
+        "brand:wikidata": "Q17146520",
+        "brand:wikipedia": "en:Vitamin Cottage Natural Grocers",
+        "building": "yes",
+        "name": "Natural Grocers",
+        "shop": "supermarket"
       }
     },
     {
