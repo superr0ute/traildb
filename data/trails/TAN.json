@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-01T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-02T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -4865,11 +4865,11 @@
     {
       "type": "way",
       "id": 115048006,
-      "timestamp": "2021-01-15T03:19:17Z",
-      "version": 8,
-      "changeset": 97524631,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-08-02T21:47:07Z",
+      "version": 10,
+      "changeset": 109052784,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [297807132, 1724356648],
       "geometry": [
         {"lat": -36.8316918, "lon": 174.7984798},
@@ -4878,7 +4878,13 @@
         {"lat": -36.8325075, "lon": 174.7969062},
         {"lat": -36.8325302, "lon": 174.796874}
       ],
-      "tags": {"bicycle": "yes", "foot": "yes", "highway": "footway"}
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "concrete"
+      }
     },
     {
       "type": "way",
@@ -7374,11 +7380,11 @@
     {
       "type": "way",
       "id": 147780261,
-      "timestamp": "2021-01-14T23:09:56Z",
-      "version": 10,
-      "changeset": 97519215,
-      "user": "StenSoft",
-      "uid": 255936,
+      "timestamp": "2021-08-02T12:19:57Z",
+      "version": 11,
+      "changeset": 109029172,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [297807180, 26898413],
       "geometry": [
         {"lat": -36.8307931, "lon": 174.8027435},
@@ -7393,6 +7399,7 @@
       "tags": {
         "highway": "tertiary",
         "lanes": "2",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "King Edward Parade",
         "surface": "asphalt"
@@ -29378,11 +29385,11 @@
     {
       "type": "way",
       "id": 23616437,
-      "timestamp": "2020-11-30T10:20:20Z",
-      "version": 5,
-      "changeset": 95036438,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-08-02T21:41:58Z",
+      "version": 7,
+      "changeset": 109052784,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [255796825, 8179109737],
       "geometry": [
         {"lat": -36.8199899, "lon": 174.8053928},
@@ -29392,6 +29399,8 @@
       ],
       "tags": {
         "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Bath Street",
         "source:maxspeed": "NZ:urban",
@@ -29401,11 +29410,11 @@
     {
       "type": "way",
       "id": 23616444,
-      "timestamp": "2021-07-11T06:04:01Z",
-      "version": 5,
-      "changeset": 107768829,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-08-02T21:40:51Z",
+      "version": 7,
+      "changeset": 109052785,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [255796643, 255797076],
       "geometry": [
         {"lat": -36.8206851, "lon": 174.8065825},
@@ -29416,6 +29425,8 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
+        "lit": "yes",
+        "segregated": "no",
         "surface": "concrete",
         "wheelchair": "yes"
       }
@@ -84562,11 +84573,11 @@
     {
       "type": "way",
       "id": 752729701,
-      "timestamp": "2020-08-04T13:34:01Z",
-      "version": 2,
-      "changeset": 88932206,
-      "user": "MajaMaravic",
-      "uid": 9357577,
+      "timestamp": "2021-08-02T21:03:07Z",
+      "version": 3,
+      "changeset": 109051958,
+      "user": "Zaphod Harkonnen",
+      "uid": 234731,
       "nodes": [7034007467, 7034007466],
       "geometry": [
         {"lat": -41.1645215, "lon": 174.8102132},
@@ -84670,7 +84681,7 @@
         {"lat": -41.1738419, "lon": 174.8023188},
         {"lat": -41.1738358, "lon": 174.8022141}
       ],
-      "tags": {"highway": "service", "surface": "paved"}
+      "tags": {"access": "private", "highway": "service", "surface": "paved"}
     },
     {
       "type": "way",

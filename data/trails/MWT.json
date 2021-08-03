@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-04-25T17:15:42Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-03T02:41:14Z"},
   "elements": [
     {
       "type": "relation",
       "id": 6172937,
-      "timestamp": "2021-04-22T00:31:52Z",
-      "version": 90,
-      "changeset": 103368645,
-      "user": "mDav",
-      "uid": 7882299,
+      "timestamp": "2021-08-02T14:59:10Z",
+      "version": 91,
+      "changeset": 109039367,
+      "user": "CRCulver",
+      "uid": 340741,
       "members": [
         {"type": "way", "ref": 206827157, "role": ""},
         {"type": "way", "ref": 206727760, "role": ""},
@@ -281,6 +281,7 @@
         {"type": "way", "ref": 374238371, "role": ""},
         {"type": "way", "ref": 573677588, "role": ""},
         {"type": "way", "ref": 573678767, "role": ""},
+        {"type": "way", "ref": 969829104, "role": ""},
         {"type": "way", "ref": 755810088, "role": ""},
         {"type": "way", "ref": 755810619, "role": ""},
         {"type": "way", "ref": 755809912, "role": ""},
@@ -14498,19 +14499,18 @@
     {
       "type": "way",
       "id": 755810088,
-      "timestamp": "2019-12-16T06:25:32Z",
-      "version": 1,
-      "changeset": 78455227,
-      "user": "Green Mountain",
-      "uid": 1737004,
-      "nodes": [5651112977, 5508959100],
+      "timestamp": "2021-08-02T14:59:10Z",
+      "version": 2,
+      "changeset": 109039367,
+      "user": "CRCulver",
+      "uid": 340741,
+      "nodes": [5651112977, 7059329164],
       "geometry": [
         {"lat": 42.7756348, "lon": 20.0907893, "z": 2097.3},
         {"lat": 42.7757868, "lon": 20.0904768, "z": 2094.2},
         {"lat": 42.7757316, "lon": 20.0900262, "z": 2088.5},
         {"lat": 42.7754009, "lon": 20.089243, "z": 2075.7},
-        {"lat": 42.7753536, "lon": 20.0884598, "z": 2068},
-        {"lat": 42.7753456, "lon": 20.0878446, "z": 2062.7}
+        {"lat": 42.7753536, "lon": 20.0884598, "z": 2068}
       ],
       "tags": {"highway": "path"}
     },
@@ -15669,6 +15669,21 @@
         "surface": "gravel",
         "tracktype": "grade2"
       }
+    },
+    {
+      "type": "way",
+      "id": 969829104,
+      "timestamp": "2021-08-02T14:59:10Z",
+      "version": 1,
+      "changeset": 109039367,
+      "user": "CRCulver",
+      "uid": 340741,
+      "nodes": [7059329164, 5508959100],
+      "geometry": [
+        {"lat": 42.7753536, "lon": 20.0884598, "z": 2068},
+        {"lat": 42.7753456, "lon": 20.0878446, "z": 2062.7}
+      ],
+      "tags": {"access": "permit", "highway": "path"}
     }
   ]
 }

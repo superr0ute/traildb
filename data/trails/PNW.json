@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-31T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-02T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1444,11 +1444,11 @@
     {
       "type": "way",
       "id": 13743489,
-      "timestamp": "2020-07-19T22:09:30Z",
-      "version": 2,
-      "changeset": 88212949,
-      "user": "TokyoJoe",
-      "uid": 1973844,
+      "timestamp": "2021-08-02T05:57:01Z",
+      "version": 3,
+      "changeset": 109001672,
+      "user": "Jerome1010",
+      "uid": 13064509,
       "nodes": [127323879, 127323902],
       "geometry": [
         {"lat": 48.8870975, "lon": -116.3296692},
@@ -1465,6 +1465,7 @@
       ],
       "tags": {
         "highway": "unclassified",
+        "surface": "unpaved",
         "tiger:cfcc": "A41",
         "tiger:county": "Boundary, ID",
         "tiger:reviewed": "no"
@@ -1743,11 +1744,11 @@
     {
       "type": "way",
       "id": 13746125,
-      "timestamp": "2020-07-19T22:09:30Z",
-      "version": 6,
-      "changeset": 88212949,
-      "user": "TokyoJoe",
-      "uid": 1973844,
+      "timestamp": "2021-08-02T05:38:14Z",
+      "version": 7,
+      "changeset": 109000233,
+      "user": "Jerome1010",
+      "uid": 13064509,
       "nodes": [127323902, 127375588],
       "geometry": [
         {"lat": 48.8904899, "lon": -116.3353534},
@@ -1790,6 +1791,7 @@
       "tags": {
         "highway": "unclassified",
         "name": "Brush Lake Road",
+        "surface": "unpaved",
         "tiger:cfcc": "A41",
         "tiger:county": "Boundary, ID",
         "tiger:name_base": "Brush Lake",
@@ -2293,11 +2295,11 @@
     {
       "type": "way",
       "id": 174583494,
-      "timestamp": "2019-04-21T21:00:59Z",
-      "version": 10,
-      "changeset": 69434844,
-      "user": "yasobara",
-      "uid": 1564381,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 11,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [1852508357, 5392517868],
       "geometry": [
         {"lat": 48.645561, "lon": -121.6748747},
@@ -2981,7 +2983,7 @@
         "horse": "designated",
         "motor_vehicle": "no",
         "name": "Baker Lake Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
@@ -3102,11 +3104,11 @@
     {
       "type": "way",
       "id": 180356571,
-      "timestamp": "2020-11-30T11:49:06Z",
-      "version": 9,
-      "changeset": 95042447,
-      "user": "ArtOfTheTrek_Sayyed",
-      "uid": 10959285,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 10,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [37161912, 1907973046],
       "geometry": [
         {"lat": 48.9101329, "lon": -121.5921943},
@@ -3181,17 +3183,17 @@
         "foot": "designated",
         "highway": "path",
         "name": "Hannegan Pass Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
       "type": "way",
       "id": 181210100,
-      "timestamp": "2020-03-05T09:08:22Z",
-      "version": 7,
-      "changeset": 81813814,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 8,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [7265768887, 37169904],
       "geometry": [
         {"lat": 48.7339328, "lon": -121.6623414},
@@ -3204,14 +3206,10 @@
         {"lat": 48.7355289, "lon": -121.6592544}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "unclassified",
         "name": "Baker Lake Road",
-        "name_1": "National Forest Development Road 11",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Whatcom, WA",
-        "tiger:name_base": "Baker Lake",
-        "tiger:name_base_1": "Natl Forest Develop Road 11",
-        "tiger:name_type": "Rd"
+        "name_1": "Forest Road 11"
       }
     },
     {
@@ -3268,11 +3266,11 @@
     {
       "type": "way",
       "id": 182469996,
-      "timestamp": "2018-02-25T09:16:11Z",
-      "version": 5,
-      "changeset": 56655347,
-      "user": "Alan Trick",
-      "uid": 1722904,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 6,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3458773831, 1907973111],
       "geometry": [
         {"lat": 48.9049407, "lon": -121.4398143},
@@ -3685,7 +3683,7 @@
         "name": "Chilliwack River Trail",
         "source": "USGS",
         "source:geometry": "strava",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
@@ -3754,38 +3752,33 @@
     {
       "type": "way",
       "id": 182787388,
-      "timestamp": "2013-05-08T15:00:53Z",
-      "version": 2,
-      "changeset": 16031361,
-      "user": "Ivan Komarov",
-      "uid": 69864,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 3,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [37169904, 37169905],
       "geometry": [
         {"lat": 48.7355289, "lon": -121.6592544},
         {"lat": 48.7356771, "lon": -121.6582892}
       ],
       "tags": {
+        "USFS": "yes",
         "bridge": "yes",
         "highway": "unclassified",
         "layer": "1",
         "name": "Baker Lake Road",
-        "name_1": "National Forest Development Road 11",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Whatcom, WA",
-        "tiger:name_base": "Baker Lake",
-        "tiger:name_base_1": "Natl Forest Develop Road 11",
-        "tiger:name_type": "Rd",
-        "tiger:reviewed": "no"
+        "name_1": "Forest Road 11"
       }
     },
     {
       "type": "way",
       "id": 182787389,
-      "timestamp": "2020-03-04T09:38:03Z",
-      "version": 5,
-      "changeset": 81766615,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 6,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [37169905, 37170068],
       "geometry": [
         {"lat": 48.7356771, "lon": -121.6582892},
@@ -4057,11 +4050,10 @@
         {"lat": 48.7458544, "lon": -121.5605109}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "unclassified",
         "name": "Baker Lake Road",
-        "name_1": "National Forest Development Road 11",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Whatcom, WA"
+        "name_1": "Forest Road 11"
       }
     },
     {
@@ -4110,11 +4102,11 @@
     {
       "type": "way",
       "id": 183446534,
-      "timestamp": "2018-02-08T09:59:16Z",
-      "version": 8,
-      "changeset": 56177682,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 9,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [5398035962, 1938146434],
       "geometry": [
         {"lat": 48.7068149, "lon": -121.8122447},
@@ -4293,7 +4285,7 @@
         "motor_vehicle": "no",
         "name": "Park Butte Trail",
         "source": "GPS",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
@@ -4654,11 +4646,11 @@
     {
       "type": "way",
       "id": 183930949,
-      "timestamp": "2020-03-13T07:16:29Z",
-      "version": 12,
-      "changeset": 82148150,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 13,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3748730686, 1943591474],
       "geometry": [
         {"lat": 48.7329288, "lon": -121.0699745},
@@ -5300,17 +5292,17 @@
         "foot": "designated",
         "highway": "path",
         "name": "Ross Dam Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
       "type": "way",
       "id": 183937633,
-      "timestamp": "2020-03-13T07:16:29Z",
-      "version": 5,
-      "changeset": 82148150,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 6,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [1943738894, 1943591478],
       "geometry": [
         {"lat": 48.8033278, "lon": -121.1250054},
@@ -5429,17 +5421,17 @@
         "foot": "designated",
         "highway": "path",
         "name": "Big Beaver Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
       "type": "way",
       "id": 184058516,
-      "timestamp": "2020-03-14T10:26:36Z",
-      "version": 10,
-      "changeset": 82190093,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 11,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [1944868344, 1388616258],
       "geometry": [
         {"lat": 48.8239932, "lon": -121.032468},
@@ -6081,7 +6073,7 @@
         "highway": "path",
         "horse": "designated",
         "name": "East Bank Trail",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Whatcom, WA"
       }
@@ -6947,11 +6939,11 @@
     {
       "type": "way",
       "id": 220198565,
-      "timestamp": "2017-08-10T05:15:24Z",
-      "version": 3,
-      "changeset": 50989023,
-      "user": "Natfoot",
-      "uid": 567792,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [2293308910, 2293308941],
       "geometry": [
         {"lat": 47.8990302, "lon": -124.6256765},
@@ -6981,7 +6973,7 @@
         "highway": "path",
         "motor_vehicle": "no",
         "name": "First Beach Tsunami Evacuation Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
@@ -8752,11 +8744,11 @@
     {
       "type": "way",
       "id": 239790272,
-      "timestamp": "2018-02-08T06:02:05Z",
-      "version": 9,
-      "changeset": 56170316,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 10,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [37163703, 1938180294],
       "geometry": [
         {"lat": 48.6968175, "lon": -121.9108267},
@@ -9069,7 +9061,7 @@
         "horse": "designated",
         "motor_vehicle": "no",
         "name": "Bell Pass Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
@@ -17848,11 +17840,11 @@
     {
       "type": "way",
       "id": 281136290,
-      "timestamp": "2020-02-06T05:29:42Z",
-      "version": 6,
-      "changeset": 80619951,
-      "user": "Jón",
-      "uid": 2205183,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 7,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [4785455727, 1363947462],
       "geometry": [
         {"lat": 48.4166604, "lon": -122.6444743},
@@ -17893,7 +17885,7 @@
         "fixme": "resurvey",
         "highway": "path",
         "lit": "no",
-        "surface": "dirt",
+        "surface": "ground",
         "width": "1"
       }
     },
@@ -17933,11 +17925,11 @@
     {
       "type": "way",
       "id": 281136295,
-      "timestamp": "2021-04-18T16:03:40Z",
-      "version": 6,
-      "changeset": 103144274,
-      "user": "yasobara",
-      "uid": 1564381,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 7,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [2920897576, 3838428741],
       "geometry": [
         {"lat": 48.4840272, "lon": -122.6364902},
@@ -17976,7 +17968,7 @@
         "fixme": "resurvey",
         "highway": "path",
         "name": "126",
-        "surface": "dirt",
+        "surface": "ground",
         "width": "1"
       }
     },
@@ -18076,11 +18068,11 @@
     {
       "type": "way",
       "id": 281136299,
-      "timestamp": "2019-11-30T18:04:01Z",
-      "version": 4,
-      "changeset": 77763832,
-      "user": "Jón",
-      "uid": 2205183,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 5,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [2851319275, 3853886119],
       "geometry": [
         {"lat": 48.4958855, "lon": -122.6441202},
@@ -18097,7 +18089,7 @@
         "bicycle": "yes",
         "highway": "path",
         "name": "106",
-        "surface": "dirt",
+        "surface": "ground",
         "width": "1"
       }
     },
@@ -18146,11 +18138,11 @@
     {
       "type": "way",
       "id": 281136302,
-      "timestamp": "2019-11-30T18:04:01Z",
-      "version": 4,
-      "changeset": 77763832,
-      "user": "Jón",
-      "uid": 2205183,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 5,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3853886119, 2851319287],
       "geometry": [
         {"lat": 48.4971805, "lon": -122.6423548},
@@ -18209,7 +18201,7 @@
         "bicycle": "yes",
         "highway": "path",
         "name": "104",
-        "surface": "dirt",
+        "surface": "ground",
         "width": "1"
       }
     },
@@ -20268,9 +20260,9 @@
     {
       "type": "way",
       "id": 286193387,
-      "timestamp": "2018-08-05T23:22:53Z",
-      "version": 10,
-      "changeset": 61385958,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 11,
+      "changeset": 109043744,
       "user": "Adam Schneider",
       "uid": 5403394,
       "nodes": [5810669861, 4320612516],
@@ -20293,32 +20285,33 @@
         {"lat": 48.8505503, "lon": -121.684467},
         {"lat": 48.8506465, "lon": -121.6843276},
         {"lat": 48.8507165, "lon": -121.6842886},
-        {"lat": 48.8508182, "lon": -121.6843091},
-        {"lat": 48.8508601, "lon": -121.6842672},
-        {"lat": 48.8508831, "lon": -121.6841834},
-        {"lat": 48.8509007, "lon": -121.6841132},
-        {"lat": 48.8509008, "lon": -121.6840604},
-        {"lat": 48.8508812, "lon": -121.6840138},
-        {"lat": 48.8508079, "lon": -121.6839413},
-        {"lat": 48.8507181, "lon": -121.6837257},
-        {"lat": 48.8506901, "lon": -121.6835408},
-        {"lat": 48.850745, "lon": -121.6833051},
+        {"lat": 48.8508164, "lon": -121.6842756},
+        {"lat": 48.850868, "lon": -121.6842458},
+        {"lat": 48.8508839, "lon": -121.6841868},
+        {"lat": 48.8508848, "lon": -121.684117},
+        {"lat": 48.8508708, "lon": -121.6840631},
+        {"lat": 48.8508512, "lon": -121.6840245},
+        {"lat": 48.8507886, "lon": -121.6839427},
+        {"lat": 48.850718, "lon": -121.6838354},
+        {"lat": 48.8506959, "lon": -121.6836986},
+        {"lat": 48.8507118, "lon": -121.6835243},
+        {"lat": 48.8507603, "lon": -121.683311},
         {"lat": 48.8508432, "lon": -121.6830899},
         {"lat": 48.8509615, "lon": -121.6829271},
         {"lat": 48.8510972, "lon": -121.682623},
         {"lat": 48.8511444, "lon": -121.6824836},
-        {"lat": 48.8511349, "lon": -121.6823885},
-        {"lat": 48.8512089, "lon": -121.6822357},
-        {"lat": 48.8512953, "lon": -121.6821288},
-        {"lat": 48.851321, "lon": -121.6820963},
-        {"lat": 48.851322, "lon": -121.6820219},
-        {"lat": 48.8513062, "lon": -121.6819936},
-        {"lat": 48.851238, "lon": -121.6819608},
-        {"lat": 48.8512122, "lon": -121.6819262},
-        {"lat": 48.8511314, "lon": -121.6817731},
-        {"lat": 48.8511292, "lon": -121.6817065},
-        {"lat": 48.8510407, "lon": -121.6816687},
-        {"lat": 48.8507907, "lon": -121.6815069},
+        {"lat": 48.8511446, "lon": -121.6823858},
+        {"lat": 48.8511822, "lon": -121.682277},
+        {"lat": 48.8512618, "lon": -121.6821315},
+        {"lat": 48.8512875, "lon": -121.682099},
+        {"lat": 48.8512885, "lon": -121.6820246},
+        {"lat": 48.8512727, "lon": -121.6819963},
+        {"lat": 48.8512045, "lon": -121.6819635},
+        {"lat": 48.8511584, "lon": -121.68189},
+        {"lat": 48.8511455, "lon": -121.6817718},
+        {"lat": 48.851116, "lon": -121.6817052},
+        {"lat": 48.8510233, "lon": -121.68164},
+        {"lat": 48.8508018, "lon": -121.6814831},
         {"lat": 48.8505953, "lon": -121.6812605},
         {"lat": 48.8505794, "lon": -121.6812283},
         {"lat": 48.8504082, "lon": -121.6810808},
@@ -20336,22 +20329,23 @@
         {"lat": 48.8496987, "lon": -121.6806489},
         {"lat": 48.8496302, "lon": -121.6806013},
         {"lat": 48.8495686, "lon": -121.6805642},
-        {"lat": 48.8495328, "lon": -121.6804458},
-        {"lat": 48.8494922, "lon": -121.6803438},
-        {"lat": 48.8494601, "lon": -121.6802309},
-        {"lat": 48.8494153, "lon": -121.6802181},
-        {"lat": 48.849402, "lon": -121.6802833},
-        {"lat": 48.8494384, "lon": -121.6803937},
-        {"lat": 48.849442, "lon": -121.6804598},
+        {"lat": 48.8495169, "lon": -121.6804619},
+        {"lat": 48.8494763, "lon": -121.6803599},
+        {"lat": 48.8494442, "lon": -121.680247},
+        {"lat": 48.8494154, "lon": -121.6802385},
+        {"lat": 48.8493995, "lon": -121.6802654},
+        {"lat": 48.8493967, "lon": -121.6803209},
+        {"lat": 48.8494225, "lon": -121.6804098},
+        {"lat": 48.8494261, "lon": -121.6804759},
         {"lat": 48.8494168, "lon": -121.6805832},
         {"lat": 48.8494377, "lon": -121.6808172},
         {"lat": 48.8494675, "lon": -121.6809635},
         {"lat": 48.8495863, "lon": -121.6811524},
         {"lat": 48.8496283, "lon": -121.6812615},
-        {"lat": 48.849656, "lon": -121.6813453},
-        {"lat": 48.8496475, "lon": -121.6813848},
-        {"lat": 48.8496147, "lon": -121.6814063},
-        {"lat": 48.8495704, "lon": -121.6813593},
+        {"lat": 48.8496631, "lon": -121.6813332},
+        {"lat": 48.8496546, "lon": -121.6813727},
+        {"lat": 48.8496218, "lon": -121.6813942},
+        {"lat": 48.8495775, "lon": -121.6813472},
         {"lat": 48.8495282, "lon": -121.6812477},
         {"lat": 48.8494453, "lon": -121.6811706},
         {"lat": 48.8493845, "lon": -121.6811196},
@@ -20365,12 +20359,12 @@
         {"lat": 48.8487831, "lon": -121.6804713},
         {"lat": 48.8486915, "lon": -121.6804289},
         {"lat": 48.8485756, "lon": -121.6803699},
-        {"lat": 48.8485124, "lon": -121.6803602},
-        {"lat": 48.8483735, "lon": -121.680332},
-        {"lat": 48.848352, "lon": -121.6803639},
-        {"lat": 48.8483732, "lon": -121.6803941},
+        {"lat": 48.8485124, "lon": -121.6803508},
+        {"lat": 48.8483735, "lon": -121.6803481},
+        {"lat": 48.848352, "lon": -121.68038},
+        {"lat": 48.8483732, "lon": -121.6804102},
         {"lat": 48.8485051, "lon": -121.6804614},
-        {"lat": 48.8485677, "lon": -121.6805285},
+        {"lat": 48.8485227, "lon": -121.6805647},
         {"lat": 48.8485326, "lon": -121.6806348},
         {"lat": 48.848605, "lon": -121.6808167},
         {"lat": 48.8487439, "lon": -121.6809285},
@@ -20383,7 +20377,10 @@
         {"lat": 48.848376, "lon": -121.6810657},
         {"lat": 48.8482632, "lon": -121.6809334},
         {"lat": 48.8481542, "lon": -121.6809284},
-        {"lat": 48.8478849, "lon": -121.6807722},
+        {"lat": 48.8478948, "lon": -121.6807348},
+        {"lat": 48.8477625, "lon": -121.6807187},
+        {"lat": 48.8476901, "lon": -121.6806489},
+        {"lat": 48.8476195, "lon": -121.6806087},
         {"lat": 48.8475454, "lon": -121.6805194},
         {"lat": 48.8473833, "lon": -121.6802446},
         {"lat": 48.8472531, "lon": -121.6800478},
@@ -20415,6 +20412,7 @@
         {"lat": 48.8453478, "lon": -121.6781732},
         {"lat": 48.845249, "lon": -121.6781679},
         {"lat": 48.8451652, "lon": -121.6781018},
+        {"lat": 48.845106, "lon": -121.6781142},
         {"lat": 48.8449559, "lon": -121.6781919},
         {"lat": 48.8447577, "lon": -121.6783601},
         {"lat": 48.844705, "lon": -121.6783615},
@@ -20431,7 +20429,7 @@
         "foot": "designated",
         "highway": "path",
         "name": "Lake Ann Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
@@ -20552,11 +20550,11 @@
     {
       "type": "way",
       "id": 294299917,
-      "timestamp": "2020-12-08T23:53:11Z",
-      "version": 2,
-      "changeset": 95515853,
-      "user": "deven_smith_",
-      "uid": 11801386,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 3,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50347319, 50347454],
       "geometry": [
         {"lat": 48.9156108, "lon": -117.0890578},
@@ -20628,15 +20626,10 @@
         {"lat": 48.9173127, "lon": -117.1390204}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "track",
         "motor_vehicle": "no",
-        "name_1": "National Forest Development Road 2220",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Pend Oreille, WA",
-        "tiger:name_base": "Sullivan Creek",
-        "tiger:name_base_1": "Natl Forest Develop Road 2220",
-        "tiger:name_type": "Rd",
-        "tiger:reviewed": "no",
+        "name_1": "Forest Road 2220",
         "tracktype": "grade4"
       }
     },
@@ -21379,23 +21372,21 @@
     {
       "type": "way",
       "id": 327591699,
-      "timestamp": "2015-02-11T14:57:59Z",
-      "version": 1,
-      "changeset": 28775243,
-      "user": "abel801",
-      "uid": 2377377,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [47992302, 47988773],
       "geometry": [
         {"lat": 48.923282, "lon": -118.377888},
         {"lat": 48.923304, "lon": -118.376512}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "residential",
-        "name": "National Forest Development Road 13",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Ferry, WA",
-        "tiger:name_base": "Natl Forest Develop Road 13",
-        "tiger:reviewed": "no"
+        "name": "Forest Road 13",
+        "ref": "NF 13"
       }
     },
     {
@@ -21996,11 +21987,11 @@
     {
       "type": "way",
       "id": 339479211,
-      "timestamp": "2020-09-15T02:14:03Z",
-      "version": 5,
-      "changeset": 90891097,
-      "user": "ppjj",
-      "uid": 6771650,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 6,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [1907973046, 1907973111],
       "geometry": [
         {"lat": 48.8829326, "lon": -121.5342917},
@@ -22024,7 +22015,7 @@
         "foot": "designated",
         "highway": "path",
         "name": "Hannegan Pass Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
@@ -22054,11 +22045,11 @@
     {
       "type": "way",
       "id": 339500055,
-      "timestamp": "2020-06-27T07:57:30Z",
-      "version": 3,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3467075528, 3467075653],
       "geometry": [
         {"lat": 48.8756675, "lon": -121.3635207},
@@ -22174,17 +22165,17 @@
         "foot": "designated",
         "highway": "path",
         "name": "Little Beaver Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
       "type": "way",
       "id": 339500056,
-      "timestamp": "2018-02-25T09:27:38Z",
-      "version": 5,
-      "changeset": 56655577,
-      "user": "Alan Trick",
-      "uid": 1722904,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 6,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3458773951, 3467075528],
       "geometry": [
         {"lat": 48.906443, "lon": -121.421658},
@@ -22557,18 +22548,18 @@
         "highway": "path",
         "name": "Brush Creek Trail",
         "source:geometry": "strava",
-        "surface": "dirt",
+        "surface": "ground",
         "tents": "3"
       }
     },
     {
       "type": "way",
       "id": 339500058,
-      "timestamp": "2015-04-23T18:11:20Z",
-      "version": 3,
-      "changeset": 30436029,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3467075653, 3467075839],
       "geometry": [
         {"lat": 48.8830313, "lon": -121.3116554},
@@ -22636,7 +22627,7 @@
         "foot": "designated",
         "highway": "path",
         "name": "Little Beaver Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
@@ -23297,11 +23288,11 @@
     {
       "type": "way",
       "id": 339695976,
-      "timestamp": "2020-03-15T09:10:25Z",
-      "version": 4,
-      "changeset": 82211806,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 5,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [1388621744, 1944868350],
       "geometry": [
         {"lat": 48.8370647, "lon": -121.0183364},
@@ -23475,7 +23466,7 @@
         "highway": "path",
         "horse": "designated",
         "name": "East Bank Trail",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Whatcom, WA"
       }
@@ -23604,15 +23595,16 @@
     {
       "type": "way",
       "id": 340367317,
-      "timestamp": "2018-02-25T07:02:31Z",
-      "version": 3,
-      "changeset": 56653149,
-      "user": "Alan Trick",
-      "uid": 1722904,
-      "nodes": [2898332712, 3475823461],
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
+      "nodes": [8975027148, 3475823461],
       "geometry": [
-        {"lat": 48.8335098, "lon": -121.6573813},
-        {"lat": 48.833486, "lon": -121.657515},
+        {"lat": 48.8336343, "lon": -121.657456},
+        {"lat": 48.833602, "lon": -121.6575712},
+        {"lat": 48.8335284, "lon": -121.6576384},
         {"lat": 48.833378, "lon": -121.657653},
         {"lat": 48.833268, "lon": -121.657894},
         {"lat": 48.833206, "lon": -121.657936},
@@ -23672,18 +23664,18 @@
         "foot": "designated",
         "highway": "path",
         "name": "Swift Creek Trail",
-        "sac_visibility": "intermediate",
-        "surface": "dirt"
+        "surface": "ground",
+        "trail_visibility": "bad"
       }
     },
     {
       "type": "way",
       "id": 340367318,
-      "timestamp": "2018-02-25T07:02:31Z",
-      "version": 3,
-      "changeset": 56653149,
-      "user": "Alan Trick",
-      "uid": 1722904,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3475823493, 3475823573],
       "geometry": [
         {"lat": 48.786184, "lon": -121.675366},
@@ -23739,17 +23731,17 @@
         "foot": "designated",
         "highway": "path",
         "name": "Swift Creek Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
       "type": "way",
       "id": 340534793,
-      "timestamp": "2018-02-08T06:02:04Z",
-      "version": 3,
-      "changeset": 56170316,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3477674387, 37163703],
       "geometry": [
         {"lat": 48.6801027, "lon": -121.8973866},
@@ -23908,7 +23900,7 @@
         "horse": "designated",
         "motor_vehicle": "no",
         "name": "Elbow Lake Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
@@ -24293,11 +24285,11 @@
     {
       "type": "way",
       "id": 350471853,
-      "timestamp": "2018-07-11T00:32:54Z",
-      "version": 4,
-      "changeset": 60592517,
-      "user": "Glassman",
-      "uid": 447903,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 5,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50219558, 1410710180],
       "geometry": [
         {"lat": 48.9694846, "lon": -120.5900543},
@@ -24492,17 +24484,17 @@
         "highway": "path",
         "horse": "designated",
         "name": "Boundary Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
       "type": "way",
       "id": 350473816,
-      "timestamp": "2015-05-31T23:38:38Z",
-      "version": 1,
-      "changeset": 31621163,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50140280, 50219558],
       "geometry": [
         {"lat": 48.9751263, "lon": -120.5718414},
@@ -24542,17 +24534,17 @@
         "highway": "path",
         "horse": "designated",
         "name": "Boundary Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
       "type": "way",
       "id": 350474943,
-      "timestamp": "2015-09-12T03:26:21Z",
-      "version": 2,
-      "changeset": 33973980,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 3,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50140306, 50102467],
       "geometry": [
         {"lat": 48.973717, "lon": -120.562992},
@@ -24569,7 +24561,7 @@
         "foot": "designated",
         "highway": "path",
         "horse": "designated",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Okanogan, WA",
         "tiger:reviewed": "no"
@@ -24578,11 +24570,11 @@
     {
       "type": "way",
       "id": 350474944,
-      "timestamp": "2020-06-27T07:57:30Z",
-      "version": 3,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50113232, 50037721],
       "geometry": [
         {"lat": 48.9650106, "lon": -120.3700558},
@@ -24615,7 +24607,7 @@
         "highway": "path",
         "horse": "designated",
         "name": "Boundary Trail",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Okanogan, WA",
         "tiger:reviewed": "no"
@@ -24624,11 +24616,11 @@
     {
       "type": "way",
       "id": 350474947,
-      "timestamp": "2015-09-11T19:46:27Z",
-      "version": 3,
-      "changeset": 33966688,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50037721, 50113285],
       "geometry": [
         {"lat": 48.9613274, "lon": -120.383719},
@@ -24648,7 +24640,7 @@
         "foot": "designated",
         "highway": "path",
         "horse": "designated",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Okanogan, WA",
         "tiger:reviewed": "no"
@@ -24657,11 +24649,11 @@
     {
       "type": "way",
       "id": 350496592,
-      "timestamp": "2015-06-01T04:10:20Z",
-      "version": 1,
-      "changeset": 31624280,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50069879, 50274497],
       "geometry": [
         {"lat": 48.96842, "lon": -120.32273},
@@ -24675,7 +24667,7 @@
         "foot": "yes",
         "highway": "path",
         "name": "Spanish Trail 503",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Okanogan, WA",
         "tiger:name_base": "Spanish Trail 503",
@@ -24685,11 +24677,11 @@
     {
       "type": "way",
       "id": 350497099,
-      "timestamp": "2015-09-11T04:35:59Z",
-      "version": 5,
-      "changeset": 33947403,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 6,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3562603131, 50307753],
       "geometry": [
         {"lat": 48.979498, "lon": -119.9351314},
@@ -25363,17 +25355,17 @@
         "highway": "path",
         "horse": "designated",
         "name": "Boundary Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
       "type": "way",
       "id": 350501191,
-      "timestamp": "2020-06-27T07:57:30Z",
-      "version": 2,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 3,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3562631909, 3562631773],
       "geometry": [
         {"lat": 48.9616039, "lon": -119.8433956},
@@ -25453,17 +25445,17 @@
         "foot": "yes",
         "highway": "path",
         "name": "Goodenough Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
       "type": "way",
       "id": 350501192,
-      "timestamp": "2015-06-01T05:12:27Z",
-      "version": 1,
-      "changeset": 31624280,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3562631773, 3562603131],
       "geometry": [
         {"lat": 48.9830058, "lon": -119.8787364},
@@ -25547,17 +25539,17 @@
         "foot": "designated",
         "highway": "path",
         "name": "Long Draw Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
       "type": "way",
       "id": 350502665,
-      "timestamp": "2020-06-27T07:57:30Z",
-      "version": 2,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 3,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3562642023, 3562642064],
       "geometry": [
         {"lat": 48.9498881, "lon": -119.8395225},
@@ -25587,16 +25579,16 @@
         {"lat": 48.9600883, "lon": -119.8386422},
         {"lat": 48.9605251, "lon": -119.8386959}
       ],
-      "tags": {"foot": "yes", "highway": "path", "surface": "dirt"}
+      "tags": {"foot": "yes", "highway": "path", "surface": "ground"}
     },
     {
       "type": "way",
       "id": 350502672,
-      "timestamp": "2015-06-01T05:25:21Z",
-      "version": 1,
-      "changeset": 31624280,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50081258, 3562642023],
       "geometry": [
         {"lat": 48.940315, "lon": -119.793722},
@@ -25726,17 +25718,17 @@
         "foot": "yes",
         "highway": "path",
         "name": "Chopaka Mountain Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
       "type": "way",
       "id": 350510253,
-      "timestamp": "2015-06-02T07:13:32Z",
-      "version": 2,
-      "changeset": 31655956,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 3,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [1938180087, 3565252447],
       "geometry": [
         {"lat": 48.6357235, "lon": -121.8729401},
@@ -25814,16 +25806,16 @@
         {"lat": 48.6093915, "lon": -121.8913146},
         {"lat": 48.6090091, "lon": -121.8919953}
       ],
-      "tags": {"highway": "track", "name": "National Forest Development Road"}
+      "tags": {"USFS": "yes", "highway": "track", "name": "Forest Road"}
     },
     {
       "type": "way",
       "id": 350510255,
-      "timestamp": "2018-02-08T07:27:21Z",
-      "version": 2,
-      "changeset": 56172411,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 3,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [1938146434, 1938146470],
       "geometry": [
         {"lat": 48.7188099, "lon": -121.8397448},
@@ -25872,7 +25864,7 @@
         "horse": "designated",
         "motor_vehicle": "no",
         "name": "Park Butte Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
@@ -25977,11 +25969,11 @@
     {
       "type": "way",
       "id": 350510326,
-      "timestamp": "2018-02-08T06:47:58Z",
-      "version": 2,
-      "changeset": 56171089,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 3,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [1938197464, 1938197470],
       "geometry": [
         {"lat": 48.6679414, "lon": -121.887349},
@@ -25993,22 +25985,20 @@
         {"lat": 48.6684093, "lon": -121.8886504}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "track",
-        "name": "National Forest Development Road 1260",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Whatcom, WA",
-        "tiger:name_base": "Natl Forest Develop Road 1260",
-        "tiger:name_type": "Rd"
+        "name": "Forest Road 1260",
+        "ref": "NF 1260"
       }
     },
     {
       "type": "way",
       "id": 350510333,
-      "timestamp": "2018-02-06T03:03:08Z",
-      "version": 2,
-      "changeset": 56103484,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 3,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [37091801, 37026298],
       "geometry": [
         {"lat": 48.6634695, "lon": -121.7172478},
@@ -26024,25 +26014,21 @@
         {"lat": 48.6668229, "lon": -121.7182739}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "unclassified",
         "lanes": "2",
         "name": "Baker Lake Road",
-        "name_1": "National Forest Development Road 11",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Whatcom, WA",
-        "tiger:name_base": "Baker Lake",
-        "tiger:name_base_1": "Natl Forest Develop Road 11",
-        "tiger:name_type": "Rd"
+        "name_1": "Forest Road 11"
       }
     },
     {
       "type": "way",
       "id": 350510343,
-      "timestamp": "2018-02-06T03:03:07Z",
-      "version": 4,
-      "changeset": 56103484,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 5,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [37142987, 37026362],
       "geometry": [
         {"lat": 48.6819064, "lon": -121.7597363},
@@ -26082,13 +26068,11 @@
         {"lat": 48.6739025, "lon": -121.7356835}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "unclassified",
-        "name": "National Forest Development Road 12",
-        "surface": "unpaved",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Whatcom, WA",
-        "tiger:name_base": "Natl Forest Develop Road 12",
-        "tiger:name_type": "Rd"
+        "name": "Forest Road 12",
+        "ref": "NF 12",
+        "surface": "unpaved"
       }
     },
     {
@@ -26582,11 +26566,11 @@
     {
       "type": "way",
       "id": 351062417,
-      "timestamp": "2015-06-03T06:13:21Z",
-      "version": 2,
-      "changeset": 31683446,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 3,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50273580, 50308245],
       "geometry": [
         {"lat": 48.9611409, "lon": -120.238219},
@@ -26726,7 +26710,7 @@
         "highway": "path",
         "horse": "designated",
         "name": "Boundary Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
@@ -27030,11 +27014,11 @@
     {
       "type": "way",
       "id": 351928739,
-      "timestamp": "2015-09-14T22:16:37Z",
-      "version": 4,
-      "changeset": 34030683,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 5,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50219821, 1410710180],
       "geometry": [
         {"lat": 48.953364, "lon": -120.678078},
@@ -27110,7 +27094,7 @@
         "highway": "path",
         "horse": "designated",
         "name": "Boundary Trail",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Okanogan, WA",
         "tiger:name_base": "Boundary",
@@ -27384,11 +27368,11 @@
     {
       "type": "way",
       "id": 364988823,
-      "timestamp": "2015-08-22T21:21:07Z",
-      "version": 3,
-      "changeset": 33513923,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50307605, 3690189342],
       "geometry": [
         {"lat": 48.9840866, "lon": -120.2003053},
@@ -27423,17 +27407,17 @@
         "horse": "designated",
         "name": "Boundary Trail",
         "source": "GPS",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
       "type": "way",
       "id": 366844896,
-      "timestamp": "2015-09-11T04:36:01Z",
-      "version": 5,
-      "changeset": 33947403,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 6,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50308158, 50225774],
       "geometry": [
         {"lat": 48.9666557, "lon": -120.2208532},
@@ -27609,7 +27593,7 @@
         "horse": "designated",
         "name": "Boundary Trail",
         "source": "GPS",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Okanogan, WA",
         "tiger:name_base": "Bound Trail 533",
@@ -27619,11 +27603,11 @@
     {
       "type": "way",
       "id": 366849844,
-      "timestamp": "2015-08-22T21:21:05Z",
-      "version": 2,
-      "changeset": 33513923,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 3,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3690189342, 50307753],
       "geometry": [
         {"lat": 48.9854929, "lon": -120.1976391},
@@ -27820,7 +27804,7 @@
         "horse": "designated",
         "name": "Boundary Trail",
         "source": "GPS",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Okanogan, WA",
         "tiger:name_base": "Bound Trail 533",
@@ -27830,11 +27814,11 @@
     {
       "type": "way",
       "id": 367178529,
-      "timestamp": "2021-04-18T16:23:23Z",
-      "version": 6,
-      "changeset": 103145062,
-      "user": "yasobara",
-      "uid": 1564381,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 7,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3711282541, 3711282080],
       "geometry": [
         {"lat": 48.4695243, "lon": -122.636283},
@@ -27933,18 +27917,18 @@
         "horse": "yes",
         "lit": "no",
         "name": "250",
-        "surface": "dirt",
+        "surface": "ground",
         "width": "1"
       }
     },
     {
       "type": "way",
       "id": 367178540,
-      "timestamp": "2019-12-14T01:17:13Z",
-      "version": 4,
-      "changeset": 78397138,
-      "user": "Jón",
-      "uid": 2205183,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 5,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3711282080, 3711283261],
       "geometry": [
         {"lat": 48.4781434, "lon": -122.6342009},
@@ -27975,18 +27959,18 @@
         "highway": "path",
         "lit": "no",
         "name": "224",
-        "surface": "dirt",
+        "surface": "ground",
         "width": "1"
       }
     },
     {
       "type": "way",
       "id": 367178550,
-      "timestamp": "2021-04-18T16:03:40Z",
-      "version": 5,
-      "changeset": 103144274,
-      "user": "yasobara",
-      "uid": 1564381,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 6,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3711283261, 2920897576],
       "geometry": [
         {"lat": 48.4806407, "lon": -122.6317005},
@@ -28013,7 +27997,7 @@
         "highway": "path",
         "lit": "no",
         "name": "241",
-        "surface": "dirt",
+        "surface": "ground",
         "width": "1"
       }
     },
@@ -33502,11 +33486,11 @@
     {
       "type": "way",
       "id": 36744475,
-      "timestamp": "2020-12-31T09:48:20Z",
-      "version": 6,
-      "changeset": 96720899,
-      "user": "thegazelle",
-      "uid": 12322607,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 7,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [427154841, 47241183],
       "geometry": [
         {"lat": 47.9771572, "lon": -123.6862786},
@@ -33631,12 +33615,11 @@
         "fixme": "resurvey",
         "foot": "designated",
         "highway": "path",
-        "import_uuid": "b2a6c900-5dcc-11de-8509-001e2a3ffcd7",
         "name": "Olympic Hot Springs Trail",
         "note": "Imported way modified from GPS tracklog 4Dec2011",
         "sac_scale": "hiking",
         "source": "GPS",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
@@ -35486,11 +35469,11 @@
     {
       "type": "way",
       "id": 368706854,
-      "timestamp": "2021-04-18T16:23:23Z",
-      "version": 5,
-      "changeset": 103145062,
-      "user": "yasobara",
-      "uid": 1564381,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 6,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3725533282, 3711282541],
       "geometry": [
         {"lat": 48.465884, "lon": -122.6344945},
@@ -35555,18 +35538,18 @@
         "horse": "yes",
         "lit": "no",
         "name": "212",
-        "surface": "dirt",
+        "surface": "ground",
         "width": "1"
       }
     },
     {
       "type": "way",
       "id": 368706855,
-      "timestamp": "2021-04-18T16:23:23Z",
-      "version": 6,
-      "changeset": 103145062,
-      "user": "yasobara",
-      "uid": 1564381,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 7,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3725535546, 3725535767],
       "geometry": [
         {"lat": 48.4673294, "lon": -122.6312479},
@@ -35621,18 +35604,18 @@
         "highway": "path",
         "horse": "no",
         "name": "220",
-        "surface": "dirt",
+        "surface": "ground",
         "width": "1"
       }
     },
     {
       "type": "way",
       "id": 368706968,
-      "timestamp": "2021-04-18T16:23:23Z",
-      "version": 4,
-      "changeset": 103145062,
-      "user": "yasobara",
-      "uid": 1564381,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 5,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3725535546, 3725533282],
       "geometry": [
         {"lat": 48.4673294, "lon": -122.6312479},
@@ -35663,7 +35646,7 @@
         "horse": "yes",
         "lit": "no",
         "name": "25",
-        "surface": "dirt",
+        "surface": "ground",
         "width": "2"
       }
     },
@@ -36420,11 +36403,11 @@
     {
       "type": "way",
       "id": 370127475,
-      "timestamp": "2020-07-04T05:05:36Z",
-      "version": 7,
-      "changeset": 87522341,
-      "user": "Jón",
-      "uid": 2205183,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 8,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3738487271, 3738487574],
       "geometry": [
         {"lat": 48.4169604, "lon": -122.644017},
@@ -36495,18 +36478,18 @@
         "bicycle": "yes",
         "highway": "path",
         "name": "Pass Lake Loop",
-        "surface": "dirt",
+        "surface": "ground",
         "width": "1"
       }
     },
     {
       "type": "way",
       "id": 370127766,
-      "timestamp": "2021-06-30T06:59:08Z",
-      "version": 5,
-      "changeset": 107187186,
-      "user": "wislander",
-      "uid": 384146,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 6,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3738487574, 243588829],
       "geometry": [
         {"lat": 48.4228814, "lon": -122.6384184},
@@ -36598,7 +36581,7 @@
         "bicycle": "yes",
         "highway": "path",
         "name": "Ginnett Trail",
-        "surface": "dirt",
+        "surface": "ground",
         "width": "1"
       }
     },
@@ -37016,11 +36999,11 @@
     {
       "type": "way",
       "id": 390535245,
-      "timestamp": "2020-03-14T08:36:06Z",
-      "version": 4,
-      "changeset": 82188308,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 5,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [1388616258, 37003703],
       "geometry": [
         {"lat": 48.7271869, "lon": -121.0117903},
@@ -37371,7 +37354,7 @@
         "highway": "path",
         "horse": "designated",
         "name": "East Bank Trail",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Whatcom, WA"
       }
@@ -38146,11 +38129,11 @@
     {
       "type": "way",
       "id": 433209707,
-      "timestamp": "2016-07-26T04:04:19Z",
-      "version": 1,
-      "changeset": 41027636,
-      "user": "Alan Trick",
-      "uid": 1722904,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [4320550849, 2898332712],
       "geometry": [
         {"lat": 48.8401342, "lon": -121.6708027},
@@ -38317,30 +38300,32 @@
         {"lat": 48.8338037, "lon": -121.6575177},
         {"lat": 48.8337721, "lon": -121.6574992},
         {"lat": 48.833674, "lon": -121.6574798},
+        {"lat": 48.8336343, "lon": -121.657456},
         {"lat": 48.8335098, "lon": -121.6573813}
       ],
       "tags": {
         "foot": "designated",
         "highway": "path",
         "name": "Lake Ann Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
       "type": "way",
       "id": 433212093,
-      "timestamp": "2018-08-05T23:22:55Z",
-      "version": 2,
-      "changeset": 61385958,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 3,
+      "changeset": 109043744,
       "user": "Adam Schneider",
       "uid": 5403394,
       "nodes": [4320612512, 3716324420],
       "geometry": [
-        {"lat": 48.8433686, "lon": -121.6769518},
+        {"lat": 48.8433805, "lon": -121.6769464},
+        {"lat": 48.8433351, "lon": -121.6769072},
         {"lat": 48.8433096, "lon": -121.6769066},
-        {"lat": 48.8432598, "lon": -121.6769216},
-        {"lat": 48.8432238, "lon": -121.6769318},
-        {"lat": 48.8431914, "lon": -121.6769205},
+        {"lat": 48.8432556, "lon": -121.6769367},
+        {"lat": 48.8432239, "lon": -121.6769361},
+        {"lat": 48.8431974, "lon": -121.6769046},
         {"lat": 48.8431678, "lon": -121.6768348},
         {"lat": 48.8430813, "lon": -121.6767114},
         {"lat": 48.8430001, "lon": -121.6766766},
@@ -38385,7 +38370,7 @@
         "foot": "designated",
         "highway": "path",
         "name": "Lake Ann Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
@@ -38399,7 +38384,7 @@
       "nodes": [4320612511, 4320612512],
       "geometry": [
         {"lat": 48.8434282, "lon": -121.6769574},
-        {"lat": 48.8433686, "lon": -121.6769518}
+        {"lat": 48.8433805, "lon": -121.6769464}
       ],
       "tags": {
         "foot": "designated",
@@ -38411,11 +38396,11 @@
     {
       "type": "way",
       "id": 433212095,
-      "timestamp": "2016-07-26T04:57:20Z",
-      "version": 1,
-      "changeset": 41028187,
-      "user": "Alan Trick",
-      "uid": 1722904,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [4320612513, 4320612511],
       "geometry": [
         {"lat": 48.8436622, "lon": -121.6771442},
@@ -38425,7 +38410,7 @@
         "foot": "designated",
         "highway": "path",
         "name": "Lake Ann Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
@@ -38471,11 +38456,11 @@
     {
       "type": "way",
       "id": 433212098,
-      "timestamp": "2016-07-26T04:57:20Z",
-      "version": 1,
-      "changeset": 41028187,
-      "user": "Alan Trick",
-      "uid": 1722904,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [4320612515, 2898332801],
       "geometry": [
         {"lat": 48.8437964, "lon": -121.6772824},
@@ -38485,7 +38470,7 @@
         "foot": "designated",
         "highway": "path",
         "name": "Lake Ann Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
@@ -39937,11 +39922,11 @@
     {
       "type": "way",
       "id": 5249724,
-      "timestamp": "2021-03-31T17:13:06Z",
-      "version": 9,
-      "changeset": 102070275,
-      "user": "Palolo",
-      "uid": 385046,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 10,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [37002963, 37003141],
       "geometry": [
         {"lat": 48.839599, "lon": -120.763572},
@@ -40053,7 +40038,7 @@
         "foot": "yes",
         "highway": "path",
         "name": "Devil's Ridge Trail",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Whatcom, WA"
       }
@@ -40061,11 +40046,11 @@
     {
       "type": "way",
       "id": 5251512,
-      "timestamp": "2018-02-05T07:51:00Z",
-      "version": 3,
-      "changeset": 56076985,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [37026298, 37026362],
       "geometry": [
         {"lat": 48.6668229, "lon": -121.7182739},
@@ -40181,20 +40166,20 @@
         {"lat": 48.6739025, "lon": -121.7356835}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "track",
-        "name": "National Forest Development Road 1140",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Whatcom, WA"
+        "name": "Forest Road 1140",
+        "ref": "NF 1140"
       }
     },
     {
       "type": "way",
       "id": 5251916,
-      "timestamp": "2021-03-31T17:13:06Z",
-      "version": 6,
-      "changeset": 102070275,
-      "user": "Palolo",
-      "uid": 385046,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 7,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [1040258170, 37002963],
       "geometry": [
         {"lat": 48.8402883, "lon": -120.737315},
@@ -40247,7 +40232,7 @@
         "foot": "yes",
         "highway": "path",
         "name": "Devil's Ridge Trail",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Whatcom, WA",
         "tiger:reviewed": "no"
@@ -40256,11 +40241,11 @@
     {
       "type": "way",
       "id": 5252014,
-      "timestamp": "2021-03-31T17:13:06Z",
-      "version": 11,
-      "changeset": 102070275,
-      "user": "Palolo",
-      "uid": 385046,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 12,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [1040297381, 50219821],
       "geometry": [
         {"lat": 48.9571961, "lon": -120.7792757},
@@ -40391,7 +40376,7 @@
         "horse": "designated",
         "name": "Boundary Trail",
         "source": "Bing",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Okanogan, WA",
         "tiger:name_base": "Boundary",
@@ -40402,11 +40387,11 @@
     {
       "type": "way",
       "id": 5253876,
-      "timestamp": "2020-03-15T09:10:25Z",
-      "version": 8,
-      "changeset": 82211806,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 9,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [1388621744, 37003141],
       "geometry": [
         {"lat": 48.8370647, "lon": -121.0183364},
@@ -40692,7 +40677,7 @@
         "foot": "designated",
         "highway": "path",
         "name": "Devil's Ridge Trail",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Whatcom, WA"
       }
@@ -40970,11 +40955,11 @@
     {
       "type": "way",
       "id": 5257274,
-      "timestamp": "2020-03-03T09:54:21Z",
-      "version": 6,
-      "changeset": 81720977,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 7,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [36875218, 1852508357],
       "geometry": [
         {"lat": 48.6433866, "lon": -121.68736},
@@ -41048,12 +41033,11 @@
         {"lat": 48.645561, "lon": -121.6748747}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "unclassified",
-        "name": "National Forest Development Road 1107",
-        "ref": "FS 1107",
-        "surface": "gravel",
-        "tiger:cfcc": "A51",
-        "tiger:county": "Whatcom, WA"
+        "name": "Forest Road 1107",
+        "ref": "NF 1107",
+        "surface": "gravel"
       }
     },
     {
@@ -41188,11 +41172,11 @@
     {
       "type": "way",
       "id": 5263062,
-      "timestamp": "2020-06-27T07:57:28Z",
-      "version": 8,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 9,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [37036120, 5398035962],
       "geometry": [
         {"lat": 48.6882138, "lon": -121.7570731},
@@ -41263,23 +41247,21 @@
         {"lat": 48.7068149, "lon": -121.8122447}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "unclassified",
-        "name": "National Forest Development Road 13",
-        "surface": "unpaved",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Whatcom, WA",
-        "tiger:name_base": "Natl Forest Develop Road 13",
-        "tiger:name_type": "Rd"
+        "name": "Forest Road 13",
+        "ref": "NF 13",
+        "surface": "unpaved"
       }
     },
     {
       "type": "way",
       "id": 5263064,
-      "timestamp": "2018-02-06T03:03:07Z",
-      "version": 7,
-      "changeset": 56103484,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 8,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [37142987, 37036120],
       "geometry": [
         {"lat": 48.6819064, "lon": -121.7597363},
@@ -41344,13 +41326,11 @@
         {"lat": 48.6882138, "lon": -121.7570731}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "unclassified",
-        "name": "National Forest Development Road 13",
-        "surface": "unpaved",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Whatcom, WA",
-        "tiger:name_base": "Natl Forest Develop Road 13",
-        "tiger:name_type": "Rd"
+        "name": "Forest Road 13",
+        "ref": "NF 13",
+        "surface": "unpaved"
       }
     },
     {
@@ -41379,11 +41359,11 @@
     {
       "type": "way",
       "id": 5263587,
-      "timestamp": "2020-03-05T09:08:22Z",
-      "version": 6,
-      "changeset": 81813814,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 7,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [7265768895, 37050594],
       "geometry": [
         {"lat": 48.7362562, "lon": -121.6686782},
@@ -41442,20 +41422,22 @@
         {"lat": 48.744637, "lon": -121.6768679}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "track",
         "motor_vehicle": "no",
-        "name": "National Forest Development Road 1144",
+        "name": "Forest Road 1144",
+        "ref": "NF 1144",
         "tracktype": "grade5"
       }
     },
     {
       "type": "way",
       "id": 5263593,
-      "timestamp": "2020-03-05T08:54:22Z",
-      "version": 6,
-      "changeset": 81813067,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 7,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [37050594, 37147925],
       "geometry": [
         {"lat": 48.744637, "lon": -121.6768679},
@@ -41613,9 +41595,11 @@
         {"lat": 48.7623313, "lon": -121.6685174}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "track",
         "motor_vehicle": "no",
-        "name": "National Forest Development Road 1144",
+        "name": "Forest Road 1144",
+        "ref": "NF 1144",
         "tracktype": "grade5"
       }
     },
@@ -41647,11 +41631,11 @@
     {
       "type": "way",
       "id": 5265161,
-      "timestamp": "2021-06-18T00:37:45Z",
-      "version": 8,
-      "changeset": 106556397,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 9,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3438475848, 37161912],
       "geometry": [
         {"lat": 48.9067068, "lon": -121.6936776},
@@ -41963,12 +41947,11 @@
         {"lat": 48.9101329, "lon": -121.5921943}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "unclassified",
-        "name": "National Forest Development Road 32",
-        "surface": "unpaved",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Whatcom, WA",
-        "tiger:name_base": "Natl Forest Develop Road 32"
+        "name": "Forest Road 32",
+        "ref": "NF 32",
+        "surface": "unpaved"
       }
     },
     {
@@ -42414,11 +42397,11 @@
     {
       "type": "way",
       "id": 549644669,
-      "timestamp": "2018-02-25T09:16:13Z",
-      "version": 2,
-      "changeset": 56655347,
-      "user": "Alan Trick",
-      "uid": 1722904,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 3,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [5309382026, 3458774220],
       "geometry": [
         {"lat": 48.9063603, "lon": -121.422402},
@@ -42487,17 +42470,17 @@
         "name": "Chilliwack River Trail",
         "source": "USGS",
         "source:geometry": "strava",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
       "type": "way",
       "id": 549644670,
-      "timestamp": "2018-02-25T09:16:16Z",
-      "version": 2,
-      "changeset": 56655347,
-      "user": "Alan Trick",
-      "uid": 1722904,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 3,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [5309382028, 5309382026],
       "geometry": [
         {"lat": 48.9063329, "lon": -121.4222266},
@@ -42514,17 +42497,17 @@
         "name": "Chilliwack River Trail",
         "source": "USGS",
         "source:geometry": "strava",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
       "type": "way",
       "id": 549824553,
-      "timestamp": "2020-06-27T07:57:32Z",
-      "version": 2,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 3,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3467093872, 1943738894],
       "geometry": [
         {"lat": 48.8911777, "lon": -121.2631996},
@@ -42753,7 +42736,7 @@
         "foot": "designated",
         "highway": "path",
         "name": "Big Beaver Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
@@ -43419,11 +43402,11 @@
     {
       "type": "way",
       "id": 563990191,
-      "timestamp": "2018-02-25T07:02:26Z",
-      "version": 1,
-      "changeset": 56653149,
-      "user": "Alan Trick",
-      "uid": 1722904,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3475823560, 37147925],
       "geometry": [
         {"lat": 48.769022, "lon": -121.665481},
@@ -43480,17 +43463,17 @@
         "foot": "designated",
         "highway": "path",
         "name": "Swift Creek Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
       "type": "way",
       "id": 563990192,
-      "timestamp": "2018-02-25T07:02:26Z",
-      "version": 1,
-      "changeset": 56653149,
-      "user": "Alan Trick",
-      "uid": 1722904,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3475823573, 3475823560],
       "geometry": [
         {"lat": 48.777662, "lon": -121.66938},
@@ -43542,17 +43525,17 @@
         "foot": "designated",
         "highway": "path",
         "name": "Swift Creek Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
       "type": "way",
       "id": 563990193,
-      "timestamp": "2018-02-25T07:02:27Z",
-      "version": 1,
-      "changeset": 56653149,
-      "user": "Alan Trick",
-      "uid": 1722904,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3565049227, 3475823493],
       "geometry": [
         {"lat": 48.8016646, "lon": -121.6881601},
@@ -43648,18 +43631,18 @@
         "foot": "designated",
         "highway": "path",
         "name": "Swift Creek Trail",
-        "sac_visibility": "intermediate",
-        "surface": "dirt"
+        "surface": "ground",
+        "trail_visibility": "bad"
       }
     },
     {
       "type": "way",
       "id": 563990194,
-      "timestamp": "2018-02-25T07:02:27Z",
-      "version": 1,
-      "changeset": 56653149,
-      "user": "Alan Trick",
-      "uid": 1722904,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3565049233, 3565049227],
       "geometry": [
         {"lat": 48.8096094, "lon": -121.6895691},
@@ -43679,18 +43662,18 @@
         "foot": "designated",
         "highway": "path",
         "name": "Swift Creek Trail",
-        "sac_visibility": "intermediate",
-        "surface": "dirt"
+        "surface": "ground",
+        "trail_visibility": "bad"
       }
     },
     {
       "type": "way",
       "id": 563990195,
-      "timestamp": "2018-02-25T07:02:27Z",
-      "version": 1,
-      "changeset": 56653149,
-      "user": "Alan Trick",
-      "uid": 1722904,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3565049254, 3565049233],
       "geometry": [
         {"lat": 48.8135298, "lon": -121.6864098},
@@ -43716,18 +43699,18 @@
         "foot": "designated",
         "highway": "path",
         "name": "Swift Creek Trail",
-        "sac_visibility": "intermediate",
-        "surface": "dirt"
+        "surface": "ground",
+        "trail_visibility": "bad"
       }
     },
     {
       "type": "way",
       "id": 563990196,
-      "timestamp": "2018-02-25T07:02:27Z",
-      "version": 1,
-      "changeset": 56653149,
-      "user": "Alan Trick",
-      "uid": 1722904,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3565049268, 3565049254],
       "geometry": [
         {"lat": 48.8248899, "lon": -121.6855067},
@@ -43791,18 +43774,18 @@
         "foot": "designated",
         "highway": "path",
         "name": "Swift Creek Trail",
-        "sac_visibility": "intermediate",
-        "surface": "dirt"
+        "surface": "ground",
+        "trail_visibility": "bad"
       }
     },
     {
       "type": "way",
       "id": 563990197,
-      "timestamp": "2018-02-25T07:02:28Z",
-      "version": 1,
-      "changeset": 56653149,
-      "user": "Alan Trick",
-      "uid": 1722904,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3475823461, 3475823508],
       "geometry": [
         {"lat": 48.8278772, "lon": -121.6662963},
@@ -43846,18 +43829,18 @@
         "foot": "designated",
         "highway": "path",
         "name": "Swift Creek Trail",
-        "sac_visibility": "intermediate",
-        "surface": "dirt"
+        "surface": "ground",
+        "trail_visibility": "bad"
       }
     },
     {
       "type": "way",
       "id": 563990198,
-      "timestamp": "2018-02-25T07:02:28Z",
-      "version": 1,
-      "changeset": 56653149,
-      "user": "Alan Trick",
-      "uid": 1722904,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3475823508, 3565049268],
       "geometry": [
         {"lat": 48.825175, "lon": -121.671941},
@@ -43890,8 +43873,8 @@
         "foot": "designated",
         "highway": "path",
         "name": "Swift Creek Trail",
-        "sac_visibility": "intermediate",
-        "surface": "dirt"
+        "surface": "ground",
+        "trail_visibility": "bad"
       }
     },
     {
@@ -47014,11 +46997,11 @@
     {
       "type": "way",
       "id": 5888056,
-      "timestamp": "2019-05-30T11:23:14Z",
-      "version": 3,
-      "changeset": 70765740,
-      "user": "assalea",
-      "uid": 6964776,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [47913305, 47948348],
       "geometry": [
         {"lat": 48.5316568, "lon": -118.8551167},
@@ -47046,12 +47029,10 @@
         {"lat": 48.5264764, "lon": -118.8694335}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "residential",
-        "name": "National Forest Development Road 500",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Ferry, WA",
-        "tiger:name_base": "Natl Forest Develop Road 500",
-        "tiger:reviewed": "no"
+        "name": "Forest Road 500",
+        "ref": "NF 500"
       }
     },
     {
@@ -47214,11 +47195,11 @@
     {
       "type": "way",
       "id": 5889217,
-      "timestamp": "2019-05-30T07:55:55Z",
-      "version": 4,
-      "changeset": 70759408,
-      "user": "Anton Markau",
-      "uid": 9755323,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 5,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [47823361, 47988773],
       "geometry": [
         {"lat": 48.9176387, "lon": -118.2728096},
@@ -47316,24 +47297,20 @@
         {"lat": 48.923304, "lon": -118.376512}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "residential",
         "name": "Little Boulder Creek Road",
-        "name_1": "National Forest Development Road 300",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Ferry, WA",
-        "tiger:name_base": "Little Boulder Creek",
-        "tiger:name_base_1": "Natl Forest Develop Road 300",
-        "tiger:name_type": "Rd"
+        "name_1": "Forest Road 300"
       }
     },
     {
       "type": "way",
       "id": 5889288,
-      "timestamp": "2015-02-11T14:57:59Z",
-      "version": 3,
-      "changeset": 28775243,
-      "user": "abel801",
-      "uid": 2377377,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [47722239, 47992302],
       "geometry": [
         {"lat": 48.891389, "lon": -118.380766},
@@ -47471,22 +47448,20 @@
         {"lat": 48.923282, "lon": -118.377888}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "residential",
-        "name": "National Forest Development Road 13",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Ferry, WA",
-        "tiger:name_base": "Natl Forest Develop Road 13",
-        "tiger:reviewed": "no"
+        "name": "Forest Road 13",
+        "ref": "NF 13"
       }
     },
     {
       "type": "way",
       "id": 5889672,
-      "timestamp": "2015-08-19T08:28:44Z",
-      "version": 3,
-      "changeset": 33432395,
-      "user": "pnorman",
-      "uid": 355617,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [47947353, 47722160],
       "geometry": [
         {"lat": 48.863811, "lon": -118.394201},
@@ -47536,15 +47511,10 @@
         {"lat": 48.886177, "lon": -118.374664}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "track",
         "name": "Summit Motor Way",
-        "name_1": "National Forest Development Road 13",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Ferry, WA",
-        "tiger:name_base": "Summit Motor",
-        "tiger:name_base_1": "Natl Forest Develop Road 13",
-        "tiger:name_type": "Way",
-        "tiger:reviewed": "no",
+        "name_1": "Forest Road 13",
         "tracktype": "grade5"
       }
     },
@@ -48687,11 +48657,11 @@
     {
       "type": "way",
       "id": 6076432,
-      "timestamp": "2015-09-11T06:12:55Z",
-      "version": 4,
-      "changeset": 33948515,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 5,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50069767, 50069879],
       "geometry": [
         {"lat": 48.978238, "lon": -120.343375},
@@ -48740,7 +48710,7 @@
         "highway": "path",
         "horse": "designated",
         "name": "Boundary Trail",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Okanogan, WA",
         "tiger:reviewed": "no"
@@ -48896,11 +48866,11 @@
     {
       "type": "way",
       "id": 6078574,
-      "timestamp": "2015-06-01T00:05:12Z",
-      "version": 3,
-      "changeset": 31621163,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50102269, 50102467],
       "geometry": [
         {"lat": 48.9719932, "lon": -120.4876545},
@@ -49016,7 +48986,7 @@
         "highway": "path",
         "horse": "designated",
         "name": "Boundary Trail",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Okanogan, WA",
         "tiger:reviewed": "no"
@@ -49052,11 +49022,11 @@
     {
       "type": "way",
       "id": 6080752,
-      "timestamp": "2015-09-11T21:25:43Z",
-      "version": 5,
-      "changeset": 33970236,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 6,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50113285, 50102269],
       "geometry": [
         {"lat": 48.963727, "lon": -120.389427},
@@ -49281,7 +49251,7 @@
         "highway": "path",
         "horse": "designated",
         "name": "Boundary Trail",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Okanogan, WA",
         "tiger:reviewed": "no"
@@ -49514,11 +49484,11 @@
     {
       "type": "way",
       "id": 6081906,
-      "timestamp": "2015-06-01T00:05:14Z",
-      "version": 3,
-      "changeset": 31621163,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50140280, 50140306],
       "geometry": [
         {"lat": 48.9751263, "lon": -120.5718414},
@@ -49543,7 +49513,7 @@
         "foot": "designated",
         "highway": "path",
         "horse": "designated",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Okanogan, WA",
         "tiger:reviewed": "no"
@@ -49775,11 +49745,11 @@
     {
       "type": "way",
       "id": 6088144,
-      "timestamp": "2015-05-24T14:52:14Z",
-      "version": 3,
-      "changeset": 31421515,
-      "user": "Richard",
-      "uid": 165,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50203935, 50113022],
       "geometry": [
         {"lat": 48.6178639, "lon": -118.9307839},
@@ -49831,23 +49801,21 @@
         {"lat": 48.661714, "lon": -118.893193}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "unclassified",
-        "name": "National Forest Development Road 31",
-        "surface": "gravel",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Okanogan, WA",
-        "tiger:name_base": "Natl Forest Develop Road 31",
-        "tiger:reviewed": "no"
+        "name": "Forest Road 31",
+        "ref": "NF 31",
+        "surface": "gravel"
       }
     },
     {
       "type": "way",
       "id": 6088149,
-      "timestamp": "2020-06-27T07:57:28Z",
-      "version": 4,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 5,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50113022, 50135296],
       "geometry": [
         {"lat": 48.661714, "lon": -118.893193},
@@ -49882,39 +49850,31 @@
         {"lat": 48.6800288, "lon": -118.9060506}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "unclassified",
-        "name": "National Forest Development Road 31",
-        "surface": "gravel",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Okanogan, WA",
-        "tiger:name_base": "Natl Forest Develop Road 31",
-        "tiger:reviewed": "no"
+        "name": "Forest Road 31",
+        "ref": "NF 31",
+        "surface": "gravel"
       }
     },
     {
       "type": "way",
       "id": 6088296,
-      "timestamp": "2010-04-02T15:58:51Z",
-      "version": 2,
-      "changeset": 4304478,
-      "user": "balrog-kun",
-      "uid": 20587,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 3,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50204599, 50151807],
       "geometry": [
         {"lat": 48.791441, "lon": -119.057228},
         {"lat": 48.791136, "lon": -119.0570271}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "residential",
-        "name": "National Forest Development Road 32",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Okanogan, WA",
-        "tiger:name_base": "Natl Forest Develop Road 32",
-        "tiger:name_type": "Rd",
-        "tiger:reviewed": "no",
-        "tiger:separated": "no",
-        "tiger:source": "tiger_import_dch_v0.6_20070830",
-        "tiger:tlid": "157356911"
+        "name": "Forest Road 32",
+        "ref": "NF 32"
       }
     },
     {
@@ -49959,11 +49919,11 @@
     {
       "type": "way",
       "id": 6089023,
-      "timestamp": "2015-05-24T14:51:36Z",
-      "version": 3,
-      "changeset": 31421515,
-      "user": "Richard",
-      "uid": 165,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50158437, 50217144],
       "geometry": [
         {"lat": 48.597286, "lon": -118.916617},
@@ -49990,16 +49950,11 @@
         {"lat": 48.613364, "lon": -118.913152}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "unclassified",
         "name": "Forest Service 3020 Road",
-        "name_1": "National Forest Development Road 3120",
-        "surface": "gravel",
-        "tiger:cfcc": "A74",
-        "tiger:county": "Okanogan, WA",
-        "tiger:name_base": "Forest Service 3020",
-        "tiger:name_base_1": "Natl Forest Develop Road 3120",
-        "tiger:name_type": "Rd",
-        "tiger:reviewed": "no"
+        "name_1": "Forest Road 3120",
+        "surface": "gravel"
       }
     },
     {
@@ -50168,11 +50123,11 @@
     {
       "type": "way",
       "id": 6089631,
-      "timestamp": "2020-06-27T07:57:28Z",
-      "version": 4,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 5,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50225166, 50225256],
       "geometry": [
         {"lat": 48.545946, "lon": -118.908949},
@@ -50224,26 +50179,21 @@
         {"lat": 48.584578, "lon": -118.907276}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "unclassified",
         "name": "Forest Service 3120 Road",
-        "name_1": "National Forest Development Road 3120",
-        "surface": "gravel",
-        "tiger:cfcc": "A74",
-        "tiger:county": "Okanogan, WA",
-        "tiger:name_base": "Forest Service 3120",
-        "tiger:name_base_1": "Natl Forest Develop Road 3120",
-        "tiger:name_type": "Rd",
-        "tiger:reviewed": "no"
+        "name_1": "Forest Road 3120",
+        "surface": "gravel"
       }
     },
     {
       "type": "way",
       "id": 6089634,
-      "timestamp": "2015-05-24T14:51:50Z",
-      "version": 3,
-      "changeset": 31421515,
-      "user": "Richard",
-      "uid": 165,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50225256, 50158435],
       "geometry": [
         {"lat": 48.584578, "lon": -118.907276},
@@ -50267,26 +50217,21 @@
         {"lat": 48.597221, "lon": -118.916511}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "unclassified",
         "name": "Forest Service 3120 Road",
-        "name_1": "National Forest Development Road 3120",
-        "surface": "gravel",
-        "tiger:cfcc": "A74",
-        "tiger:county": "Okanogan, WA",
-        "tiger:name_base": "Forest Service 3120",
-        "tiger:name_base_1": "Natl Forest Develop Road 3120",
-        "tiger:name_type": "Rd",
-        "tiger:reviewed": "no"
+        "name_1": "Forest Road 3120",
+        "surface": "gravel"
       }
     },
     {
       "type": "way",
       "id": 6090265,
-      "timestamp": "2020-11-17T11:11:51Z",
-      "version": 3,
-      "changeset": 94271192,
-      "user": "sinreeya",
-      "uid": 10127754,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50234791, 50234839],
       "geometry": [
         {"lat": 48.861852, "lon": -119.266376},
@@ -50319,12 +50264,10 @@
         {"lat": 48.881138, "lon": -119.243585}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "track",
-        "name": "National Forest Development Road 100",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Okanogan, WA",
-        "tiger:name_base": "Natl Forest Develop Road 100",
-        "tiger:reviewed": "no"
+        "name": "Forest Road 100",
+        "ref": "NF 100"
       }
     },
     {
@@ -50526,11 +50469,11 @@
     {
       "type": "way",
       "id": 6090970,
-      "timestamp": "2010-04-02T16:03:11Z",
-      "version": 2,
-      "changeset": 4304478,
-      "user": "balrog-kun",
-      "uid": 20587,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 3,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50094790, 50200301],
       "geometry": [
         {"lat": 48.749884, "lon": -118.878177},
@@ -50563,18 +50506,10 @@
         {"lat": 48.768743, "lon": -118.908236}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "residential",
         "name": "Cougar Creek Road",
-        "name_1": "National Forest Development Road 3800",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Okanogan, WA",
-        "tiger:name_base": "Cougar Creek",
-        "tiger:name_base_1": "Natl Forest Develop Road 3800",
-        "tiger:name_type": "Rd",
-        "tiger:reviewed": "no",
-        "tiger:separated": "no",
-        "tiger:source": "tiger_import_dch_v0.6_20070830",
-        "tiger:tlid": "157340844:157340991"
+        "name_1": "Forest Road 3800"
       }
     },
     {
@@ -50609,11 +50544,11 @@
     {
       "type": "way",
       "id": 6091510,
-      "timestamp": "2019-03-28T09:49:01Z",
-      "version": 5,
-      "changeset": 68618498,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 6,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [47948348, 50225166],
       "geometry": [
         {"lat": 48.5264764, "lon": -118.8694335},
@@ -50795,12 +50730,10 @@
         {"lat": 48.545946, "lon": -118.908949}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "residential",
-        "name": "National Forest Development Road 020",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Okanogan, WA",
-        "tiger:name_base": "Natl Forest Develop Road 020",
-        "tiger:reviewed": "no"
+        "name": "Forest Road 020",
+        "ref": "NF 020"
       }
     },
     {
@@ -50832,11 +50765,11 @@
     {
       "type": "way",
       "id": 6092277,
-      "timestamp": "2010-04-02T16:05:05Z",
-      "version": 2,
-      "changeset": 4304478,
-      "user": "balrog-kun",
-      "uid": 20587,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 3,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50261442, 50093697],
       "geometry": [
         {"lat": 48.802055, "lon": -119.198825},
@@ -50847,15 +50780,10 @@
         {"lat": 48.801827, "lon": -119.195574}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "residential",
-        "name": "National Forest Development Road 150",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Okanogan, WA",
-        "tiger:name_base": "Natl Forest Develop Road 150",
-        "tiger:reviewed": "no",
-        "tiger:separated": "no",
-        "tiger:source": "tiger_import_dch_v0.6_20070830",
-        "tiger:tlid": "157335451:157335540"
+        "name": "Forest Road 150",
+        "ref": "NF 150"
       }
     },
     {
@@ -50895,11 +50823,11 @@
     {
       "type": "way",
       "id": 6093440,
-      "timestamp": "2019-04-02T13:26:49Z",
-      "version": 3,
-      "changeset": 68793885,
-      "user": "aleksaJov",
-      "uid": 7436199,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50277304, 50277337],
       "geometry": [
         {"lat": 48.821698, "lon": -119.210971},
@@ -50925,22 +50853,20 @@
         {"lat": 48.804795, "lon": -119.204496}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "residential",
-        "name": "National Forest Development Road 3230",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Okanogan, WA",
-        "tiger:name_base": "Natl Forest Develop Road 3230",
-        "tiger:reviewed": "no"
+        "name": "Forest Road 3230",
+        "ref": "NF 3230"
       }
     },
     {
       "type": "way",
       "id": 6094162,
-      "timestamp": "2020-02-28T05:57:06Z",
-      "version": 3,
-      "changeset": 81574924,
-      "user": "OrcaDan",
-      "uid": 411531,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50234839, 50287825],
       "geometry": [
         {"lat": 48.881138, "lon": -119.243585},
@@ -50966,25 +50892,20 @@
         {"lat": 48.8859989, "lon": -119.2258508}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "track",
         "name": "Wilcox Mount Road",
-        "name_1": "National Forest Development Road 100",
-        "tiger:cfcc": "A51",
-        "tiger:county": "Okanogan, WA",
-        "tiger:name_base": "Wilcox Mt",
-        "tiger:name_base_1": "Natl Forest Develop Road 100",
-        "tiger:name_type": "Rd",
-        "tiger:reviewed": "no"
+        "name_1": "Forest Road 100"
       }
     },
     {
       "type": "way",
       "id": 6095605,
-      "timestamp": "2015-08-22T21:21:05Z",
-      "version": 6,
-      "changeset": 33513923,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 7,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50225774, 50307605],
       "geometry": [
         {"lat": 48.9810566, "lon": -120.2050157},
@@ -51028,7 +50949,7 @@
         "horse": "designated",
         "name": "Boundary Trail",
         "source": "GPS",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Okanogan, WA",
         "tiger:name_base": "Bound Trail 533",
@@ -51038,11 +50959,11 @@
     {
       "type": "way",
       "id": 6095613,
-      "timestamp": "2015-08-22T21:21:05Z",
-      "version": 8,
-      "changeset": 33513923,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 9,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50218263, 50308158],
       "geometry": [
         {"lat": 48.9608188, "lon": -120.2291568},
@@ -51120,7 +51041,7 @@
         "horse": "designated",
         "name": "Boundary Trail",
         "source": "GPS",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Okanogan, WA",
         "tiger:name_base": "Bound Trail 533",
@@ -51130,11 +51051,11 @@
     {
       "type": "way",
       "id": 6095627,
-      "timestamp": "2015-06-03T06:47:14Z",
-      "version": 6,
-      "changeset": 31683446,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 7,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50274497, 50308245],
       "geometry": [
         {"lat": 48.9657165, "lon": -120.3216609},
@@ -51150,7 +51071,7 @@
         "highway": "path",
         "horse": "designated",
         "name": "Boundary Trail",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Okanogan, WA",
         "tiger:name_base": "Bound Trail 533",
@@ -51160,11 +51081,11 @@
     {
       "type": "way",
       "id": 6095628,
-      "timestamp": "2015-08-21T16:50:38Z",
-      "version": 4,
-      "changeset": 33486186,
-      "user": "talapus",
-      "uid": 2812957,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 5,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50273580, 50218263],
       "geometry": [
         {"lat": 48.9611409, "lon": -120.238219},
@@ -51186,7 +51107,7 @@
         "highway": "path",
         "horse": "designated",
         "name": "Boundary Trail",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Okanogan, WA",
         "tiger:name_base": "Bound Trail 533",
@@ -51584,11 +51505,11 @@
     {
       "type": "way",
       "id": 6105607,
-      "timestamp": "2020-06-27T07:57:28Z",
-      "version": 4,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 5,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50386582, 50347324],
       "geometry": [
         {"lat": 48.907835, "lon": -117.079146},
@@ -51614,12 +51535,10 @@
         {"lat": 48.91737, "lon": -117.088954}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "track",
-        "name": "National Forest Development Road 2220",
-        "tiger:cfcc": "A51",
-        "tiger:county": "Pend Oreille, WA",
-        "tiger:name_base": "Natl Forest Develop Road 2220",
-        "tiger:reviewed": "no"
+        "name": "Forest Road 2220",
+        "ref": "NF 2220"
       }
     },
     {
@@ -51765,11 +51684,11 @@
     {
       "type": "way",
       "id": 6107502,
-      "timestamp": "2010-04-23T05:23:17Z",
-      "version": 3,
-      "changeset": 4500626,
-      "user": "Unusual User Name",
-      "uid": 103574,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50400281, 50363238],
       "geometry": [
         {"lat": 48.898375, "lon": -117.380843},
@@ -51865,25 +51784,20 @@
         {"lat": 48.92345, "lon": -117.404635}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "track",
-        "name": "National Forest Development Road 350",
-        "tiger:cfcc": "A51",
-        "tiger:county": "Pend Oreille, WA",
-        "tiger:name_base": "Natl Forest Develop Road 350",
-        "tiger:reviewed": "no",
-        "tiger:separated": "no",
-        "tiger:source": "tiger_import_dch_v0.6_20070830",
-        "tiger:tlid": "169920065:169920020:169920021:169920027:169920080:169920083:169920105:169920030:169920098"
+        "name": "Forest Road 350",
+        "ref": "NF 350"
       }
     },
     {
       "type": "way",
       "id": 6107511,
-      "timestamp": "2020-06-27T07:57:28Z",
-      "version": 3,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 4,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50363238, 6767725643],
       "geometry": [
         {"lat": 48.92345, "lon": -117.404635},
@@ -51953,12 +51867,10 @@
         {"lat": 48.9207025, "lon": -117.4172302}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "track",
-        "name": "National Forest Development Road 350",
-        "tiger:cfcc": "A51",
-        "tiger:county": "Pend Oreille, WA",
-        "tiger:name_base": "Natl Forest Develop Road 350",
-        "tiger:reviewed": "no"
+        "name": "Forest Road 350",
+        "ref": "NF 350"
       }
     },
     {
@@ -52886,11 +52798,11 @@
     {
       "type": "way",
       "id": 6217076,
-      "timestamp": "2020-06-30T02:51:24Z",
-      "version": 4,
-      "changeset": 87319328,
-      "user": "HokiePilot",
-      "uid": 155066,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 5,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [51706037, 51064099],
       "geometry": [
         {"lat": 48.923816, "lon": -118.133313},
@@ -53024,33 +52936,23 @@
         {"lat": 48.9373003, "lon": -118.0158812}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "residential",
         "name": "Churchill Mine Road",
-        "name_1": "National Forest Development Road 1520",
+        "name_1": "Forest Road 1520",
         "name_2": "Lael Road",
         "name_3": "Lael-Flat Creek Road",
-        "name_4": "County Highway 4181",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Stevens, WA",
-        "tiger:name_base": "Churchill Mine",
-        "tiger:name_base_1": "Natl Forest Develop Road 1520",
-        "tiger:name_base_2": "Lael",
-        "tiger:name_base_3": "Lael-Flat Creek",
-        "tiger:name_base_4": "County Highway 4181",
-        "tiger:name_type": "Rd",
-        "tiger:name_type_2": "Rd",
-        "tiger:name_type_3": "Rd",
-        "tiger:reviewed": "no"
+        "name_4": "County Highway 4181"
       }
     },
     {
       "type": "way",
       "id": 6218023,
-      "timestamp": "2019-12-29T16:46:08Z",
-      "version": 5,
-      "changeset": 78983827,
-      "user": "ppjj",
-      "uid": 6771650,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 6,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [51854617, 51743322],
       "geometry": [
         {"lat": 48.9103634, "lon": -117.5438223},
@@ -53152,15 +53054,11 @@
         {"lat": 48.905939, "lon": -117.5206687}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "track",
-        "name": "National Forest Development Road 070",
+        "name": "Forest Road 070",
         "name_1": "Silver Creek Road",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Stevens, WA",
-        "tiger:name_base": "Natl Forest Develop Road 070",
-        "tiger:name_base_1": "Silver Creek",
-        "tiger:name_type_1": "Rd",
-        "tiger:reviewed": "no"
+        "ref": "NF 070"
       }
     },
     {
@@ -53885,11 +53783,11 @@
     {
       "type": "way",
       "id": 685110637,
-      "timestamp": "2019-04-21T18:48:19Z",
-      "version": 1,
-      "changeset": 69432026,
-      "user": "yasobara",
-      "uid": 1564381,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [5392517212, 3477756221],
       "geometry": [
         {"lat": 48.7542037, "lon": -121.5473103},
@@ -53912,17 +53810,17 @@
         "horse": "designated",
         "motor_vehicle": "no",
         "name": "Baker Lake Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
       "type": "way",
       "id": 685110638,
-      "timestamp": "2019-04-21T18:48:20Z",
-      "version": 1,
-      "changeset": 69432026,
-      "user": "yasobara",
-      "uid": 1564381,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [5392517213, 5392517212],
       "geometry": [
         {"lat": 48.7541012, "lon": -121.5473951},
@@ -53937,7 +53835,7 @@
         "layer": "1",
         "motor_vehicle": "no",
         "name": "Baker Lake Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
@@ -53967,11 +53865,11 @@
     {
       "type": "way",
       "id": 685126352,
-      "timestamp": "2019-04-21T20:57:08Z",
-      "version": 1,
-      "changeset": 69434762,
-      "user": "yasobara",
-      "uid": 1564381,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3477756225, 5392517213],
       "geometry": [
         {"lat": 48.738345, "lon": -121.554145},
@@ -54067,7 +53965,7 @@
         "horse": "designated",
         "motor_vehicle": "no",
         "name": "Baker Lake Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
@@ -56030,11 +55928,11 @@
     {
       "type": "way",
       "id": 778497917,
-      "timestamp": "2020-03-05T09:08:22Z",
-      "version": 1,
-      "changeset": 81813814,
-      "user": "skoocoom",
-      "uid": 3091270,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [7265768887, 7265768895],
       "geometry": [
         {"lat": 48.7339328, "lon": -121.6623414},
@@ -56057,8 +55955,10 @@
         {"lat": 48.7362562, "lon": -121.6686782}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "unclassified",
-        "name": "National Forest Development Road 1144"
+        "name": "Forest Road 1144",
+        "ref": "NF 1144"
       }
     },
     {
@@ -62909,11 +62809,11 @@
     {
       "type": "way",
       "id": 820116271,
-      "timestamp": "2020-06-27T07:57:23Z",
-      "version": 1,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [1938180294, 5396802474],
       "geometry": [
         {"lat": 48.7228852, "lon": -121.8535278},
@@ -62927,7 +62827,7 @@
         "foot": "designated",
         "highway": "path",
         "name": "Ridley Creek Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
@@ -63109,11 +63009,11 @@
     {
       "type": "way",
       "id": 820116285,
-      "timestamp": "2020-06-27T07:57:23Z",
-      "version": 1,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3458773951, 5309382028],
       "geometry": [
         {"lat": 48.906443, "lon": -121.421658},
@@ -63127,17 +63027,17 @@
         "name": "Chilliwack River Trail",
         "source": "USGS",
         "source:geometry": "strava",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
       "type": "way",
       "id": 820116286,
-      "timestamp": "2020-06-27T07:57:23Z",
-      "version": 1,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [3467075839, 3467075224],
       "geometry": [
         {"lat": 48.8927549, "lon": -121.2703622},
@@ -63166,7 +63066,7 @@
         "highway": "path",
         "horse": "designated",
         "name": "Little Beaver Trail",
-        "surface": "dirt"
+        "surface": "ground"
       }
     },
     {
@@ -63216,11 +63116,11 @@
     {
       "type": "way",
       "id": 820116291,
-      "timestamp": "2020-06-27T07:57:23Z",
-      "version": 1,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50113608, 50113232],
       "geometry": [
         {"lat": 48.969414, "lon": -120.365294},
@@ -63238,7 +63138,7 @@
         "highway": "path",
         "name": "Sheep Lake Trail",
         "source": "Bing, USGS",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Okanogan, WA",
         "tiger:reviewed": "no"
@@ -63268,11 +63168,11 @@
     {
       "type": "way",
       "id": 820116293,
-      "timestamp": "2020-06-27T07:57:23Z",
-      "version": 1,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50113137, 50113203],
       "geometry": [
         {"lat": 48.978192, "lon": -120.342924},
@@ -63321,7 +63221,7 @@
         "highway": "path",
         "horse": "designated",
         "name": "Boundary Trail",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Okanogan, WA",
         "tiger:reviewed": "no"
@@ -63330,11 +63230,11 @@
     {
       "type": "way",
       "id": 820116294,
-      "timestamp": "2020-06-27T07:57:23Z",
-      "version": 1,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50069767, 50113137],
       "geometry": [
         {"lat": 48.978238, "lon": -120.343375},
@@ -63343,7 +63243,7 @@
       "tags": {
         "highway": "path",
         "name": "Abandoned",
-        "surface": "dirt",
+        "surface": "ground",
         "tiger:cfcc": "A51",
         "tiger:county": "Okanogan, WA",
         "tiger:reviewed": "no",
@@ -63988,11 +63888,11 @@
     {
       "type": "way",
       "id": 820116317,
-      "timestamp": "2020-06-27T07:57:25Z",
-      "version": 1,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50240923, 7658023879],
       "geometry": [
         {"lat": 48.875411, "lon": -119.335238},
@@ -64003,16 +63903,11 @@
         {"lat": 48.8737797, "lon": -119.3320811}
       ],
       "tags": {
+        "USFS": "yes",
         "access": "private",
         "highway": "unclassified",
         "name": "Forest Service 3525 Road",
-        "name_1": "National Forest Development Road 3525",
-        "tiger:cfcc": "A74",
-        "tiger:county": "Okanogan, WA",
-        "tiger:name_base": "Forest Service 3525",
-        "tiger:name_base_1": "Natl Forest Develop Road 3525",
-        "tiger:name_type": "Rd",
-        "tiger:reviewed": "no"
+        "name_1": "Forest Road 3525"
       }
     },
     {
@@ -64180,11 +64075,11 @@
     {
       "type": "way",
       "id": 820116325,
-      "timestamp": "2020-06-27T07:57:25Z",
-      "version": 1,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50277337, 50261442],
       "geometry": [
         {"lat": 48.804795, "lon": -119.204496},
@@ -64198,12 +64093,10 @@
         {"lat": 48.802055, "lon": -119.198825}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "residential",
-        "name": "National Forest Development Road 3230",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Okanogan, WA",
-        "tiger:name_base": "Natl Forest Develop Road 3230",
-        "tiger:reviewed": "no"
+        "name": "Forest Road 3230",
+        "ref": "NF 3230"
       }
     },
     {
@@ -64510,11 +64403,11 @@
     {
       "type": "way",
       "id": 820116332,
-      "timestamp": "2020-06-27T07:57:25Z",
-      "version": 1,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50232688, 50232696],
       "geometry": [
         {"lat": 48.798811, "lon": -119.069496},
@@ -64524,15 +64417,11 @@
         {"lat": 48.802764, "lon": -119.063549}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "residential",
-        "name": "National Forest Development Road 100",
+        "name": "Forest Road 100",
         "name_1": "Fs 3300100 Road",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Okanogan, WA",
-        "tiger:name_base": "Natl Forest Develop Road 100",
-        "tiger:name_base_1": "Fs 3300100",
-        "tiger:name_type_1": "Rd",
-        "tiger:reviewed": "no"
+        "ref": "NF 100"
       }
     },
     {
@@ -64676,11 +64565,11 @@
     {
       "type": "way",
       "id": 820116336,
-      "timestamp": "2020-06-27T07:57:25Z",
-      "version": 1,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50204599, 50192867],
       "geometry": [
         {"lat": 48.791441, "lon": -119.057228},
@@ -64689,25 +64578,21 @@
         {"lat": 48.7924392, "lon": -119.0572217}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "unclassified",
-        "name": "National Forest Development Road 32",
+        "name": "Forest Road 32",
         "name_1": "Bonaparte Lake Road",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Okanogan, WA",
-        "tiger:name_base": "Natl Forest Develop Road 32",
-        "tiger:name_base_1": "Bonaparte Lake",
-        "tiger:name_type_1": "Rd",
-        "tiger:reviewed": "no"
+        "ref": "NF 32"
       }
     },
     {
       "type": "way",
       "id": 820116337,
-      "timestamp": "2020-06-27T07:57:25Z",
-      "version": 1,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50178978, 50151807],
       "geometry": [
         {"lat": 48.7897654, "lon": -119.056102},
@@ -64720,15 +64605,11 @@
         {"lat": 48.791136, "lon": -119.0570271}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "unclassified",
-        "name": "National Forest Development Road 3240",
+        "name": "Forest Road 3240",
         "name_1": "Bonaparte Lake Road",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Okanogan, WA",
-        "tiger:name_base": "Natl Forest Develop Road 3240",
-        "tiger:name_base_1": "Bonaparte Lake",
-        "tiger:name_type_1": "Rd",
-        "tiger:reviewed": "no"
+        "ref": "NF 3240"
       }
     },
     {
@@ -64992,11 +64873,11 @@
     {
       "type": "way",
       "id": 820116345,
-      "timestamp": "2020-06-27T07:57:25Z",
-      "version": 1,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [50203935, 50217144],
       "geometry": [
         {"lat": 48.6178639, "lon": -118.9307839},
@@ -65027,22 +64908,21 @@
         {"lat": 48.613364, "lon": -118.913152}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "unclassified",
-        "name": "National Forest Development Road 3125",
-        "surface": "gravel",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Okanogan, WA",
-        "tiger:name_base": "Natl Forest Develop Road 3125"
+        "name": "Forest Road 3125",
+        "ref": "NF 3125",
+        "surface": "gravel"
       }
     },
     {
       "type": "way",
       "id": 820116347,
-      "timestamp": "2020-06-27T07:57:25Z",
-      "version": 1,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-08-02T16:44:04Z",
+      "version": 2,
+      "changeset": 109043744,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "nodes": [47913305, 47717427],
       "geometry": [
         {"lat": 48.5316568, "lon": -118.8551167},
@@ -65051,15 +64931,11 @@
         {"lat": 48.5322701, "lon": -118.8530174}
       ],
       "tags": {
+        "USFS": "yes",
         "highway": "unclassified",
         "name": "Swan Butte Road",
-        "name_1": "National Forest Development Road 5314",
-        "surface": "gravel",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Ferry, WA",
-        "tiger:name_base": "Swan Butte",
-        "tiger:name_base_1": "Natl Forest Develop Road 5314",
-        "tiger:name_type": "Rd"
+        "name_1": "Forest Road 5314",
+        "surface": "gravel"
       }
     },
     {
