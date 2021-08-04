@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-02T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-03T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -850,11 +850,11 @@
     {
       "type": "relation",
       "id": 9464986,
-      "timestamp": "2021-07-01T01:13:44Z",
-      "version": 29,
-      "changeset": 107233016,
-      "user": "alpha-beta-soup",
-      "uid": 2999068,
+      "timestamp": "2021-08-03T13:29:19Z",
+      "version": 31,
+      "changeset": 109096503,
+      "user": "vorpalblade-kaart",
+      "uid": 9019988,
       "members": [
         {"type": "way", "ref": 159442485, "role": ""},
         {"type": "way", "ref": 774925801, "role": ""},
@@ -895,8 +895,11 @@
         {"type": "way", "ref": 183670581, "role": ""},
         {"type": "way", "ref": 412590215, "role": ""},
         {"type": "way", "ref": 674580159, "role": ""},
+        {"type": "way", "ref": 793324977, "role": ""},
         {"type": "way", "ref": 674580158, "role": ""},
         {"type": "way", "ref": 682149209, "role": ""},
+        {"type": "way", "ref": 793324976, "role": ""},
+        {"type": "way", "ref": 970108149, "role": ""},
         {"type": "way", "ref": 682149208, "role": ""},
         {"type": "way", "ref": 682148735, "role": ""},
         {"type": "way", "ref": 682148736, "role": ""},
@@ -4842,11 +4845,11 @@
     {
       "type": "way",
       "id": 115047504,
-      "timestamp": "2021-07-11T06:04:01Z",
-      "version": 4,
-      "changeset": 107768829,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-08-03T10:18:01Z",
+      "version": 7,
+      "changeset": 109083692,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [255794399, 6481602849],
       "geometry": [
         {"lat": -36.8240414, "lon": 174.8096967},
@@ -4858,7 +4861,9 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
-        "surface": "paved",
+        "lit": "yes",
+        "segregated": "no",
+        "surface": "concrete",
         "wheelchair": "yes"
       }
     },
@@ -29316,17 +29321,22 @@
     {
       "type": "way",
       "id": 23616367,
-      "timestamp": "2019-05-17T20:37:42Z",
-      "version": 6,
-      "changeset": 70373515,
-      "user": "AlwynWellington",
-      "uid": 567640,
+      "timestamp": "2021-08-03T10:18:22Z",
+      "version": 7,
+      "changeset": 109083041,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [255792460, 255792907],
       "geometry": [
         {"lat": -36.8270652, "lon": 174.8102385},
         {"lat": -36.8270745, "lon": 174.8102795}
       ],
-      "tags": {"highway": "service", "maxspeed": "10", "surface": "asphalt"}
+      "tags": {
+        "highway": "service",
+        "lit": "yes",
+        "maxspeed": "10",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -48074,11 +48084,11 @@
     {
       "type": "way",
       "id": 373839667,
-      "timestamp": "2021-03-31T10:46:29Z",
-      "version": 5,
-      "changeset": 102049060,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-08-03T10:19:29Z",
+      "version": 6,
+      "changeset": 109083041,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [297807815, 6130252306],
       "geometry": [
         {"lat": -36.8285484, "lon": 174.811206},
@@ -48086,7 +48096,12 @@
         {"lat": -36.8282335, "lon": 174.8107927},
         {"lat": -36.8281929, "lon": 174.8107219}
       ],
-      "tags": {"foot": "yes", "highway": "footway", "surface": "grass"}
+      "tags": {
+        "foot": "yes",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "grass"
+      }
     },
     {
       "type": "way",
@@ -66632,11 +66647,11 @@
     {
       "type": "way",
       "id": 584811450,
-      "timestamp": "2021-07-11T06:04:01Z",
-      "version": 6,
-      "changeset": 107768829,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-08-03T10:17:51Z",
+      "version": 8,
+      "changeset": 109083692,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [8910938274, 255794399],
       "geometry": [
         {"lat": -36.8250234, "lon": 174.8105057},
@@ -66652,6 +66667,8 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
+        "lit": "yes",
+        "segregated": "no",
         "surface": "concrete",
         "wheelchair": "yes"
       }
@@ -72469,11 +72486,11 @@
     {
       "type": "way",
       "id": 654182629,
-      "timestamp": "2021-03-31T10:46:29Z",
-      "version": 4,
-      "changeset": 102049060,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-08-03T10:19:14Z",
+      "version": 5,
+      "changeset": 109083041,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [6130252209, 6130252210],
       "geometry": [
         {"lat": -36.829155, "lon": 174.8124359},
@@ -72482,22 +72499,22 @@
         {"lat": -36.8290726, "lon": 174.8125862},
         {"lat": -36.8290473, "lon": 174.8126324}
       ],
-      "tags": {"highway": "footway", "surface": "concrete"}
+      "tags": {"highway": "footway", "lit": "yes", "surface": "concrete"}
     },
     {
       "type": "way",
       "id": 654182630,
-      "timestamp": "2021-03-31T10:46:29Z",
-      "version": 4,
-      "changeset": 102049060,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-08-03T10:19:16Z",
+      "version": 5,
+      "changeset": 109083041,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [6130252209, 297807757],
       "geometry": [
         {"lat": -36.829155, "lon": 174.8124359},
         {"lat": -36.8291786, "lon": 174.8123929}
       ],
-      "tags": {"highway": "steps", "surface": "concrete"}
+      "tags": {"highway": "steps", "lit": "yes", "surface": "concrete"}
     },
     {
       "type": "way",
@@ -72521,11 +72538,11 @@
     {
       "type": "way",
       "id": 654182694,
-      "timestamp": "2021-07-11T06:04:01Z",
-      "version": 5,
-      "changeset": 107768829,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-08-03T10:19:32Z",
+      "version": 6,
+      "changeset": 109083041,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [6481602858, 255792907],
       "geometry": [
         {"lat": -36.8275828, "lon": 174.810434},
@@ -72533,7 +72550,12 @@
         {"lat": -36.8271708, "lon": 174.8102896},
         {"lat": -36.8270745, "lon": 174.8102795}
       ],
-      "tags": {"foot": "yes", "highway": "footway", "surface": "grass"}
+      "tags": {
+        "foot": "yes",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "grass"
+      }
     },
     {
       "type": "way",
@@ -74855,18 +74877,13 @@
     {
       "type": "way",
       "id": 674580159,
-      "timestamp": "2021-01-15T01:46:48Z",
-      "version": 3,
-      "changeset": 97522273,
-      "user": "alpha-beta-soup",
-      "uid": 2999068,
-      "nodes": [1809455641, 1808099152],
+      "timestamp": "2021-08-03T13:29:19Z",
+      "version": 4,
+      "changeset": 109096503,
+      "user": "vorpalblade-kaart",
+      "uid": 9019988,
+      "nodes": [1809455626, 1808099152],
       "geometry": [
-        {"lat": -40.3898381, "lon": 175.6338022},
-        {"lat": -40.3896851, "lon": 175.6339834},
-        {"lat": -40.3896672, "lon": 175.6340245},
-        {"lat": -40.3896704, "lon": 175.6340598},
-        {"lat": -40.3897005, "lon": 175.6341304},
         {"lat": -40.3897545, "lon": 175.6342426},
         {"lat": -40.3897632, "lon": 175.6342909},
         {"lat": -40.389741, "lon": 175.6343142},
@@ -77992,22 +78009,13 @@
     {
       "type": "way",
       "id": 682149209,
-      "timestamp": "2019-04-06T19:47:05Z",
-      "version": 1,
-      "changeset": 68960453,
-      "user": "AlwynWellington",
-      "uid": 567640,
-      "nodes": [6388116488, 6317426967],
+      "timestamp": "2021-08-03T13:26:14Z",
+      "version": 2,
+      "changeset": 109096360,
+      "user": "vorpalblade-kaart",
+      "uid": 9019988,
+      "nodes": [5748909212, 6317426967],
       "geometry": [
-        {"lat": -40.3903565, "lon": 175.6337385},
-        {"lat": -40.3902891, "lon": 175.6337998},
-        {"lat": -40.3902407, "lon": 175.6338088},
-        {"lat": -40.3901516, "lon": 175.6337869},
-        {"lat": -40.390133, "lon": 175.6337676},
-        {"lat": -40.3901374, "lon": 175.6337422},
-        {"lat": -40.3901728, "lon": 175.6336983},
-        {"lat": -40.3902213, "lon": 175.6336698},
-        {"lat": -40.3902727, "lon": 175.6336584},
         {"lat": -40.390292, "lon": 175.6336165},
         {"lat": -40.3902749, "lon": 175.6335773},
         {"lat": -40.390153, "lon": 175.6335804},
@@ -79880,11 +79888,11 @@
     {
       "type": "way",
       "id": 691549981,
-      "timestamp": "2020-04-18T07:46:36Z",
-      "version": 4,
-      "changeset": 83734238,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-08-03T10:06:08Z",
+      "version": 5,
+      "changeset": 109083041,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [26898413, 177464564],
       "geometry": [
         {"lat": -36.8299359, "lon": 174.8039019},
@@ -79924,6 +79932,7 @@
       "tags": {
         "highway": "tertiary",
         "lanes": "2",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "King Edward Parade",
         "surface": "asphalt"
@@ -85814,11 +85823,11 @@
     {
       "type": "way",
       "id": 7634810,
-      "timestamp": "2020-06-27T00:14:20Z",
-      "version": 8,
-      "changeset": 87215945,
-      "user": "Rudy355",
-      "uid": 142831,
+      "timestamp": "2021-08-03T10:18:15Z",
+      "version": 10,
+      "changeset": 109083041,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [26898447, 255792460],
       "geometry": [
         {"lat": -36.8266222, "lon": 174.8081796},
@@ -85831,6 +85840,8 @@
       ],
       "tags": {
         "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Takarunga Road",
         "source:maxspeed": "NZ:urban",
@@ -87591,6 +87602,43 @@
         {"lat": -40.3831769, "lon": 175.6198443}
       ],
       "tags": {"bridge": "yes", "highway": "path", "layer": "1"}
+    },
+    {
+      "type": "way",
+      "id": 793324976,
+      "timestamp": "2020-04-18T22:57:56Z",
+      "version": 1,
+      "changeset": 83757709,
+      "user": "Richard Norton",
+      "uid": 11049095,
+      "nodes": [5748909212, 1809455629],
+      "geometry": [
+        {"lat": -40.390292, "lon": 175.6336165},
+        {"lat": -40.3902727, "lon": 175.6336584},
+        {"lat": -40.3902213, "lon": 175.6336698},
+        {"lat": -40.3901728, "lon": 175.6336983},
+        {"lat": -40.3901374, "lon": 175.6337422}
+      ],
+      "tags": {"highway": "steps"}
+    },
+    {
+      "type": "way",
+      "id": 793324977,
+      "timestamp": "2020-04-18T22:57:56Z",
+      "version": 1,
+      "changeset": 83757709,
+      "user": "Richard Norton",
+      "uid": 11049095,
+      "nodes": [1809455641, 1809455626],
+      "geometry": [
+        {"lat": -40.3898381, "lon": 175.6338022},
+        {"lat": -40.3896851, "lon": 175.6339834},
+        {"lat": -40.3896672, "lon": 175.6340245},
+        {"lat": -40.3896704, "lon": 175.6340598},
+        {"lat": -40.3897005, "lon": 175.6341304},
+        {"lat": -40.3897545, "lon": 175.6342426}
+      ],
+      "tags": {"highway": "steps"}
     },
     {
       "type": "way",
@@ -97834,17 +97882,22 @@
     {
       "type": "way",
       "id": 963339092,
-      "timestamp": "2021-07-11T06:04:01Z",
-      "version": 1,
-      "changeset": 107768829,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-08-03T10:19:30Z",
+      "version": 2,
+      "changeset": 109083041,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [297807696, 6481602858],
       "geometry": [
         {"lat": -36.8277046, "lon": 174.8105125},
         {"lat": -36.8275828, "lon": 174.810434}
       ],
-      "tags": {"foot": "yes", "highway": "steps", "surface": "grass"}
+      "tags": {
+        "foot": "yes",
+        "highway": "steps",
+        "lit": "yes",
+        "surface": "grass"
+      }
     },
     {
       "type": "way",
@@ -98372,6 +98425,25 @@
         "surface": "asphalt",
         "trolley_wire": "yes"
       }
+    },
+    {
+      "type": "way",
+      "id": 970108149,
+      "timestamp": "2021-08-03T13:26:14Z",
+      "version": 1,
+      "changeset": 109096360,
+      "user": "vorpalblade-kaart",
+      "uid": 9019988,
+      "nodes": [6388116488, 1809455629],
+      "geometry": [
+        {"lat": -40.3903565, "lon": 175.6337385},
+        {"lat": -40.3902891, "lon": 175.6337998},
+        {"lat": -40.3902407, "lon": 175.6338088},
+        {"lat": -40.3901516, "lon": 175.6337869},
+        {"lat": -40.390133, "lon": 175.6337676},
+        {"lat": -40.3901374, "lon": 175.6337422}
+      ],
+      "tags": {"highway": "path"}
     },
     {
       "type": "way",

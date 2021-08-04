@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-02T02:31:43Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-04T02:35:07Z"},
   "elements": [
     {
       "type": "relation",
@@ -5698,11 +5698,11 @@
     {
       "type": "way",
       "id": 293935218,
-      "timestamp": "2014-07-23T00:00:53Z",
-      "version": 1,
-      "changeset": 24303153,
-      "user": "AL68",
-      "uid": 1745073,
+      "timestamp": "2021-08-03T12:31:01Z",
+      "version": 4,
+      "changeset": 109093211,
+      "user": "postfred",
+      "uid": 23990,
       "nodes": [2975079747, 2850689906],
       "geometry": [
         {"lat": 44.6719603, "lon": 5.6996154, "z": 1005.9},
@@ -5710,19 +5710,22 @@
       ],
       "tags": {
         "bridge": "yes",
+        "cycleway:both": "no",
         "highway": "tertiary",
+        "lanes": "2",
         "layer": "1",
-        "ref": "D 505"
+        "ref": "D 505",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 293935219,
-      "timestamp": "2019-08-14T14:28:08Z",
-      "version": 3,
-      "changeset": 73352584,
-      "user": "Hervé TUC",
-      "uid": 922338,
+      "timestamp": "2021-08-03T13:30:00Z",
+      "version": 6,
+      "changeset": 109095633,
+      "user": "postfred",
+      "uid": 23990,
       "nodes": [1868623147, 571653],
       "geometry": [
         {"lat": 44.6717497, "lon": 5.698467, "z": 1009.3},
@@ -5730,7 +5733,14 @@
         {"lat": 44.6717287, "lon": 5.6982438, "z": 1010.6},
         {"lat": 44.6717301, "lon": 5.6981385, "z": 1011.2}
       ],
-      "tags": {"highway": "tertiary", "oneway": "yes", "ref": "D 505"}
+      "tags": {
+        "cycleway:right": "no",
+        "highway": "tertiary",
+        "lanes": "1",
+        "oneway": "yes",
+        "ref": "D 505",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -8772,11 +8782,11 @@
     {
       "type": "way",
       "id": 444810205,
-      "timestamp": "2021-01-03T17:21:14Z",
-      "version": 3,
-      "changeset": 96856880,
-      "user": "JFK73",
-      "uid": 662440,
+      "timestamp": "2021-08-03T12:31:03Z",
+      "version": 6,
+      "changeset": 109093211,
+      "user": "postfred",
+      "uid": 23990,
       "nodes": [2850689906, 1868623147],
       "geometry": [
         {"lat": 44.6719595, "lon": 5.6993448, "z": 1006.3},
@@ -8786,25 +8796,28 @@
         {"lat": 44.6717497, "lon": 5.698467, "z": 1009.3}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "tertiary",
+        "lanes": "2",
         "name": "Route de l'Alleva",
-        "ref": "D 505"
+        "ref": "D 505",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 444810211,
-      "timestamp": "2016-09-28T20:45:41Z",
-      "version": 1,
-      "changeset": 42504821,
-      "user": "Virgile1994",
-      "uid": 362997,
+      "timestamp": "2021-08-03T13:30:12Z",
+      "version": 2,
+      "changeset": 109096536,
+      "user": "postfred",
+      "uid": 23990,
       "nodes": [4422730048, 4422730047],
       "geometry": [
         {"lat": 44.6719676, "lon": 5.6981096, "z": 1011.8},
         {"lat": 44.671966, "lon": 5.6980183, "z": 1012.6}
       ],
-      "tags": {"highway": "footway"}
+      "tags": {"highway": "footway", "surface": "asphalt"}
     },
     {
       "type": "way",
@@ -11595,11 +11608,11 @@
     {
       "type": "way",
       "id": 713683277,
-      "timestamp": "2019-08-16T11:33:22Z",
-      "version": 2,
-      "changeset": 73411373,
-      "user": "Hervé TUC",
-      "uid": 922338,
+      "timestamp": "2021-08-03T18:03:34Z",
+      "version": 3,
+      "changeset": 109095644,
+      "user": "postfred",
+      "uid": 23990,
       "nodes": [1236741302, 2905663249],
       "geometry": [
         {"lat": 44.7381518, "lon": 5.5547645, "z": 881.2},
@@ -11609,6 +11622,7 @@
         {"lat": 44.7378078, "lon": 5.5551486, "z": 870.8}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "secondary",
         "lanes": "1",
         "maxspeed": "30",
@@ -11941,33 +11955,36 @@
     {
       "type": "way",
       "id": 713693840,
-      "timestamp": "2019-08-14T14:28:07Z",
-      "version": 1,
-      "changeset": 73352584,
-      "user": "Hervé TUC",
-      "uid": 922338,
+      "timestamp": "2021-08-03T13:29:53Z",
+      "version": 4,
+      "changeset": 109095633,
+      "user": "postfred",
+      "uid": 23990,
       "nodes": [571653, 4422730048],
       "geometry": [
         {"lat": 44.6717301, "lon": 5.6981385, "z": 1011.2},
         {"lat": 44.6719676, "lon": 5.6981096, "z": 1011.8}
       ],
       "tags": {
+        "cycleway:right": "no",
         "highway": "primary",
         "int_ref": "E 712",
+        "lanes": "1",
         "maxspeed": "50",
         "old_ref": "N 75",
         "oneway": "yes",
-        "ref": "D 1075"
+        "ref": "D 1075",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 713693841,
-      "timestamp": "2019-08-14T14:28:07Z",
-      "version": 1,
-      "changeset": 73352584,
-      "user": "Hervé TUC",
-      "uid": 922338,
+      "timestamp": "2021-08-03T13:30:10Z",
+      "version": 4,
+      "changeset": 109095633,
+      "user": "postfred",
+      "uid": 23990,
       "nodes": [976730055, 4422730047],
       "geometry": [
         {"lat": 44.6726023, "lon": 5.6980218, "z": 1012.8},
@@ -11976,12 +11993,15 @@
         {"lat": 44.671966, "lon": 5.6980183, "z": 1012.6}
       ],
       "tags": {
+        "cycleway:right": "no",
         "highway": "primary",
         "int_ref": "E 712",
+        "lanes": "1",
         "maxspeed": "50",
         "old_ref": "N 75",
         "oneway": "yes",
-        "ref": "D 1075"
+        "ref": "D 1075",
+        "surface": "asphalt"
       }
     },
     {
@@ -12191,11 +12211,11 @@
     {
       "type": "way",
       "id": 714416396,
-      "timestamp": "2019-08-16T11:33:19Z",
-      "version": 1,
-      "changeset": 73411373,
-      "user": "Hervé TUC",
-      "uid": 922338,
+      "timestamp": "2021-08-03T18:03:27Z",
+      "version": 2,
+      "changeset": 109095644,
+      "user": "postfred",
+      "uid": 23990,
       "nodes": [2777661014, 1236741302],
       "geometry": [
         {"lat": 44.7377832, "lon": 5.5539156, "z": 880.8},
@@ -12204,6 +12224,7 @@
         {"lat": 44.7381518, "lon": 5.5547645, "z": 881.2}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "secondary",
         "lanes": "1",
         "maxspeed": "30",
@@ -14319,11 +14340,11 @@
     {
       "type": "way",
       "id": 907131077,
-      "timestamp": "2021-02-14T19:43:29Z",
-      "version": 1,
-      "changeset": 99264515,
-      "user": "kräckel",
-      "uid": 1092114,
+      "timestamp": "2021-08-03T18:04:00Z",
+      "version": 2,
+      "changeset": 109095626,
+      "user": "postfred",
+      "uid": 23990,
       "nodes": [1236743363, 2905663256],
       "geometry": [
         {"lat": 44.737501, "lon": 5.5514324, "z": 840.8},
@@ -14335,7 +14356,8 @@
         "maxspeed": "80",
         "name": "Route du Col de Menée",
         "ref": "D 120",
-        "source": "GPS"
+        "source": "GPS",
+        "surface": "asphalt"
       }
     },
     {
