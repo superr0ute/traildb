@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-08-02T23:59:59Z",
-    "timestamp_osm_base": "2021-08-03T06:16:57Z",
+    "timestamp_osm_date": "2021-08-03T23:59:59Z",
+    "timestamp_osm_base": "2021-08-04T06:23:27Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -45,25 +45,6 @@
     },
     {
       "type": "node",
-      "id": 366755549,
-      "lat": -42.4658416,
-      "lon": 172.3220779,
-      "timestamp": "2018-06-23T19:50:08Z",
-      "version": 7,
-      "changeset": 60107869,
-      "user": "gaddman",
-      "uid": 365177,
-      "tags": {
-        "amenity": "shelter",
-        "building": "yes",
-        "ele": "750",
-        "name": "Nina Hut",
-        "ref:doc": "100075329",
-        "tourism": "alpine_hut"
-      }
-    },
-    {
-      "type": "node",
       "id": 517316439,
       "lat": -42.1082383,
       "lon": 172.6053973,
@@ -95,25 +76,6 @@
         "building": "yes",
         "name": "George Lyon Hut",
         "ref:doc": "100064165",
-        "tourism": "alpine_hut"
-      }
-    },
-    {
-      "type": "node",
-      "id": 517356255,
-      "lat": -42.5311163,
-      "lon": 172.2832629,
-      "timestamp": "2018-06-23T19:50:12Z",
-      "version": 4,
-      "changeset": 60107869,
-      "user": "gaddman",
-      "uid": 365177,
-      "tags": {
-        "amenity": "shelter",
-        "building": "yes",
-        "description": "(dilapidated)",
-        "name": "Doubtful Hut",
-        "ref:doc": "100075586",
         "tourism": "alpine_hut"
       }
     },
@@ -369,26 +331,6 @@
     },
     {
       "type": "node",
-      "id": 1225158592,
-      "lat": -42.4878064,
-      "lon": 172.2943302,
-      "timestamp": "2021-05-07T02:32:44Z",
-      "version": 6,
-      "changeset": 104281497,
-      "user": "kylenz",
-      "uid": 10140394,
-      "tags": {
-        "amenity": "shelter",
-        "capacity": "2",
-        "ele": "1250",
-        "name": "Devils Den Bivvy",
-        "ref:doc": "100038295",
-        "shelter_type": "basic_hut",
-        "source": "LINZ"
-      }
-    },
-    {
-      "type": "node",
       "id": 1225158671,
       "lat": -42.4634869,
       "lon": 172.6285653,
@@ -402,24 +344,6 @@
         "name": "Stony Stream Bivouac",
         "ref:doc": "100075583",
         "shelter_type": "lean_to",
-        "source": "LINZ"
-      }
-    },
-    {
-      "type": "node",
-      "id": 1225158684,
-      "lat": -42.4694981,
-      "lon": 172.2721122,
-      "timestamp": "2021-05-07T02:29:54Z",
-      "version": 4,
-      "changeset": 104281423,
-      "user": "kylenz",
-      "uid": 10140394,
-      "tags": {
-        "amenity": "shelter",
-        "name": "Upper Nina Bivouac",
-        "ref:doc": "100063490",
-        "shelter_type": "weather_shelter",
         "source": "LINZ"
       }
     },
@@ -2328,6 +2252,104 @@
       "tags": {
         "amenity": "shelter",
         "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 969947281,
+      "timestamp": "2021-08-03T01:17:48Z",
+      "version": 1,
+      "changeset": 109055706,
+      "user": "petenz",
+      "uid": 38928,
+      "center": {
+        "lat": -42.5311291,
+        "lon": 172.28331
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "fee": "no",
+        "name": "Doubtful Hut",
+        "operator": "Department of Conservation",
+        "ref:doc": "100075586",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/lake-sumner-forest-park/things-to-do/huts/doubtful-hut/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 969948115,
+      "timestamp": "2021-08-03T01:28:13Z",
+      "version": 1,
+      "changeset": 109055823,
+      "user": "petenz",
+      "uid": 38928,
+      "center": {
+        "lat": -42.4878189,
+        "lon": 172.2940888
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "capacity": "2",
+        "fee": "no",
+        "fireplace": "no",
+        "name": "Devils Den Bivouac",
+        "operator": "Department of Conservation",
+        "ref:doc": "100038295",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/lake-sumner-forest-park/things-to-do/huts/devils-den-bivvy/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 969948447,
+      "timestamp": "2021-08-03T01:33:54Z",
+      "version": 2,
+      "changeset": 109055895,
+      "user": "petenz",
+      "uid": 38928,
+      "center": {
+        "lat": -42.4658483,
+        "lon": 172.3221204
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "capacity": "10",
+        "fee": "yes",
+        "fireplace": "yes",
+        "name": "Nina Hut",
+        "operator": "Department of Conservation",
+        "ref:doc": "100075329",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/lake-sumner-forest-park/things-to-do/huts/nina-hut/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 969950084,
+      "timestamp": "2021-08-03T01:49:34Z",
+      "version": 1,
+      "changeset": 109056077,
+      "user": "petenz",
+      "uid": 38928,
+      "center": {
+        "lat": -42.4695272,
+        "lon": 172.2721899
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "capacity": "2",
+        "fee": "no",
+        "fireplace": "yes",
+        "name": "Upper Nina Bivouac",
+        "operator": "Department of",
+        "ref:doc": "100063490",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/lake-sumner-forest-park/things-to-do/huts/upper-nina-bivvy/"
       }
     }
   ]
