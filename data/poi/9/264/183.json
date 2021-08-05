@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-08-03T23:59:59Z",
-    "timestamp_osm_base": "2021-08-04T04:30:09Z",
+    "timestamp_osm_date": "2021-08-04T23:59:59Z",
+    "timestamp_osm_base": "2021-08-05T04:24:29Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -13652,16 +13652,17 @@
       "id": 1350045092,
       "lat": 45.541079,
       "lon": 5.7653101,
-      "timestamp": "2020-03-27T05:20:34Z",
-      "version": 4,
-      "changeset": 82693630,
-      "user": "Olyon",
-      "uid": 1443767,
+      "timestamp": "2021-08-04T20:31:07Z",
+      "version": 5,
+      "changeset": 109163732,
+      "user": "habi",
+      "uid": 15671,
       "tags": {
         "brand": "Proxi",
         "brand:wikidata": "Q3408522",
         "brand:wikipedia": "fr:Proxi",
         "name": "Proxi",
+        "opening_hours": "Mo-Sa 08:00-12:30, 15:00-19:30; Su 08:00-13:00",
         "operator": "Proxi",
         "shop": "convenience"
       }
@@ -46779,25 +46780,6 @@
     },
     {
       "type": "node",
-      "id": 8528829901,
-      "lat": 45.1858375,
-      "lon": 5.7123566,
-      "timestamp": "2021-07-27T07:00:13Z",
-      "version": 2,
-      "changeset": 108664669,
-      "user": "Amstrad",
-      "uid": 8131300,
-      "tags": {
-        "brand": "Biocoop",
-        "brand:wikidata": "Q2904039",
-        "brand:wikipedia": "fr:Biocoop",
-        "name": "Biocoop",
-        "opening_hours": "Mo-Sa 09:00-19:00",
-        "shop": "supermarket"
-      }
-    },
-    {
-      "type": "node",
       "id": 8543258392,
       "lat": 45.4514458,
       "lon": 5.9649405,
@@ -48146,6 +48128,21 @@
       }
     },
     {
+      "type": "node",
+      "id": 8980773867,
+      "lat": 45.342389,
+      "lon": 5.8137511,
+      "timestamp": "2021-08-04T18:37:22Z",
+      "version": 1,
+      "changeset": 109160449,
+      "user": "Brec10",
+      "uid": 13615286,
+      "tags": {
+        "amenity": "drinking_water",
+        "bottle": "yes"
+      }
+    },
+    {
       "type": "way",
       "id": 24881687,
       "timestamp": "2021-05-18T20:23:37Z",
@@ -48362,11 +48359,11 @@
     {
       "type": "way",
       "id": 39366293,
-      "timestamp": "2020-10-13T20:36:45Z",
-      "version": 19,
-      "changeset": 92437852,
-      "user": "Binnette",
-      "uid": 918586,
+      "timestamp": "2021-08-04T14:54:36Z",
+      "version": 20,
+      "changeset": 109151715,
+      "user": "bcd4e6",
+      "uid": 8407331,
       "center": {
         "lat": 45.1858993,
         "lon": 5.712426
@@ -48378,13 +48375,16 @@
         "addr:housenumber": "32",
         "addr:postcode": "38000",
         "addr:street": "Rue Nicolas Chorier",
+        "brand": "Biocoop",
+        "brand:wikidata": "Q2904039",
+        "brand:wikipedia": "fr:Biocoop",
         "building": "apartments",
         "building:levels": "5",
         "bulk_purchase": "yes",
         "delivery:covid19": "no",
         "description": "80 producteurs locaux livrent régulièrement le magasin. 3 boulangers fournissent un large choix de pains aux farines diverses. Livraison quotidienne des pâtisseries, tartes salées et pizzas du Fournil CASABIO.",
         "level": "0",
-        "name": "Casabio",
+        "name": "Biocoop",
         "opening_hours": "Mo-Sa 09:00-19:00",
         "opening_hours:covid19": "Mo-Sa 09:00-19:00",
         "operator": "Biocoop",
@@ -48397,7 +48397,7 @@
         "phone": "+33 4 76 48 82 32",
         "roof:levels": "1",
         "roof:shape": "half-hipped",
-        "shop": "convenience",
+        "shop": "supermarket",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
         "website": "https://casabiochorier.biocoop.net/",
         "wheelchair": "no"
@@ -52577,11 +52577,11 @@
     {
       "type": "way",
       "id": 123150842,
-      "timestamp": "2020-03-22T07:24:10Z",
-      "version": 10,
-      "changeset": 82475831,
-      "user": "chrgis",
-      "uid": 9340422,
+      "timestamp": "2021-08-04T09:48:33Z",
+      "version": 11,
+      "changeset": 109136443,
+      "user": "habi",
+      "uid": 15671,
       "center": {
         "lat": 45.5400161,
         "lon": 5.8001779
@@ -52591,11 +52591,17 @@
         "addr:city": "Lépin-le-Lac",
         "addr:postcode": "73610",
         "capacity": "156",
+        "fee": "yes",
+        "internet_access": "wlan",
         "name": "Camping Les Peupliers",
         "opening_hours": "Apr-Oct",
         "phone": "+33 4 79 36 00 48",
+        "power_supply": "yes",
+        "sanitary_dump_station": "yes",
+        "shower": "yes",
         "source": "bing",
         "stars": "2",
+        "toilets": "yes",
         "tourism": "camp_site",
         "website": "http://www.camping-lespeupliers.net/"
       }
@@ -53066,11 +53072,11 @@
     {
       "type": "way",
       "id": 150138793,
-      "timestamp": "2021-02-07T08:17:41Z",
-      "version": 8,
-      "changeset": 98841053,
-      "user": "JLZIMMERMANN",
-      "uid": 188930,
+      "timestamp": "2021-08-04T13:47:24Z",
+      "version": 10,
+      "changeset": 109148822,
+      "user": "Poussinou",
+      "uid": 4850296,
       "center": {
         "lat": 45.5437605,
         "lon": 6.299415
@@ -53081,9 +53087,12 @@
         "brand:wikidata": "Q2940188",
         "brand:wikipedia": "fr:Carrefour Contact",
         "building": "retail",
+        "building:levels": "1",
         "name": "Carrefour Contact",
         "opening_hours": "Tu-Sa 08:30-20:00; Su 08:30-12:00",
         "operator": "Carrefour",
+        "roof:levels": "0",
+        "roof:shape": "gabled",
         "shop": "supermarket",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
         "supermarket": "yes",

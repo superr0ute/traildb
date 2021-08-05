@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-08-03T23:59:59Z",
-    "timestamp_osm_base": "2021-08-04T04:41:19Z",
+    "timestamp_osm_date": "2021-08-04T23:59:59Z",
+    "timestamp_osm_base": "2021-08-05T04:35:42Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -10174,14 +10174,17 @@
     {
       "type": "node",
       "id": 1853993498,
-      "lat": 46.9323915,
-      "lon": 8.3907289,
-      "timestamp": "2019-10-03T20:29:14Z",
-      "version": 4,
-      "changeset": 75252014,
-      "user": "amilopowers",
-      "uid": 1514673,
+      "lat": 46.9323589,
+      "lon": 8.3906711,
+      "timestamp": "2021-08-04T12:07:37Z",
+      "version": 5,
+      "changeset": 109144168,
+      "user": "threefoursixninefour",
+      "uid": 67515,
       "tags": {
+        "brand": "Volg",
+        "brand:wikidata": "Q2530746",
+        "brand:wikipedia": "de:Volg",
         "cash_withdrawal": "yes",
         "cash_withdrawal:fee": "no",
         "cash_withdrawal:operator": "sonect",
@@ -10189,7 +10192,7 @@
         "cash_withdrawal:type": "checkout",
         "name": "Volg",
         "opening_hours": "Mo-Sa 06:00-20:00; Su 08:00-18:00",
-        "shop": "convenience"
+        "shop": "supermarket"
       }
     },
     {
@@ -29200,22 +29203,6 @@
     },
     {
       "type": "node",
-      "id": 8487341437,
-      "lat": 46.8545394,
-      "lon": 8.2444129,
-      "timestamp": "2021-03-04T22:52:14Z",
-      "version": 1,
-      "changeset": 100449611,
-      "user": "ullemig",
-      "uid": 1325754,
-      "tags": {
-        "fee": "no",
-        "fireplace": "no",
-        "tourism": "wilderness_hut"
-      }
-    },
-    {
-      "type": "node",
       "id": 8527137300,
       "lat": 46.6990349,
       "lon": 7.7375052,
@@ -29719,6 +29706,20 @@
       "uid": 2395427,
       "tags": {
         "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8980167744,
+      "lat": 46.824995,
+      "lon": 8.4114856,
+      "timestamp": "2021-08-04T15:00:39Z",
+      "version": 1,
+      "changeset": 109151967,
+      "user": "threefoursixninefour",
+      "uid": 67515,
+      "tags": {
+        "natural": "spring"
       }
     },
     {
@@ -33452,6 +33453,27 @@
         "amenity": "shelter",
         "building": "yes",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 970434368,
+      "timestamp": "2021-08-04T18:37:46Z",
+      "version": 1,
+      "changeset": 109160464,
+      "user": "threefoursixninefour",
+      "uid": 67515,
+      "center": {
+        "lat": 46.8545118,
+        "lon": 8.2443976
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "fee": "no",
+        "note": "Not tourism=wilderness_hut, no overnight accommodation",
+        "shelter_type": "picnic_shelter"
       }
     }
   ]
