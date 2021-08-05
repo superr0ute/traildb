@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-03T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-04T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -850,9 +850,9 @@
     {
       "type": "relation",
       "id": 9464986,
-      "timestamp": "2021-08-03T13:29:19Z",
-      "version": 31,
-      "changeset": 109096503,
+      "timestamp": "2021-08-04T13:13:12Z",
+      "version": 32,
+      "changeset": 109147346,
       "user": "vorpalblade-kaart",
       "uid": 9019988,
       "members": [
@@ -889,9 +889,11 @@
         {"type": "way", "ref": 793324962, "role": ""},
         {"type": "way", "ref": 793324961, "role": ""},
         {"type": "way", "ref": 713015586, "role": ""},
+        {"type": "way", "ref": 970365522, "role": ""},
+        {"type": "way", "ref": 793325004, "role": ""},
         {"type": "way", "ref": 671361630, "role": ""},
-        {"type": "way", "ref": 895382899, "role": ""},
         {"type": "way", "ref": 895382900, "role": ""},
+        {"type": "way", "ref": 895382899, "role": ""},
         {"type": "way", "ref": 183670581, "role": ""},
         {"type": "way", "ref": 412590215, "role": ""},
         {"type": "way", "ref": 674580159, "role": ""},
@@ -73935,17 +73937,13 @@
     {
       "type": "way",
       "id": 671361630,
-      "timestamp": "2021-01-15T01:46:48Z",
-      "version": 2,
-      "changeset": 97522273,
-      "user": "alpha-beta-soup",
-      "uid": 2999068,
-      "nodes": [1940913535, 8322871959],
+      "timestamp": "2021-08-04T13:13:12Z",
+      "version": 3,
+      "changeset": 109147346,
+      "user": "vorpalblade-kaart",
+      "uid": 9019988,
+      "nodes": [1808099159, 8322871959],
       "geometry": [
-        {"lat": -40.3822542, "lon": 175.6258511},
-        {"lat": -40.382279, "lon": 175.6262932},
-        {"lat": -40.382267, "lon": 175.6265278},
-        {"lat": -40.3821432, "lon": 175.6265999},
         {"lat": -40.3821598, "lon": 175.6267898},
         {"lat": -40.3821455, "lon": 175.6270111},
         {"lat": -40.3822452, "lon": 175.6271624},
@@ -87642,6 +87640,22 @@
     },
     {
       "type": "way",
+      "id": 793325004,
+      "timestamp": "2020-04-18T22:57:56Z",
+      "version": 1,
+      "changeset": 83757709,
+      "user": "Richard Norton",
+      "uid": 11049095,
+      "nodes": [1940913537, 1808099159],
+      "geometry": [
+        {"lat": -40.382267, "lon": 175.6265278},
+        {"lat": -40.3821432, "lon": 175.6265999},
+        {"lat": -40.3821598, "lon": 175.6267898}
+      ],
+      "tags": {"highway": "steps"}
+    },
+    {
+      "type": "way",
       "id": 793325008,
       "timestamp": "2021-07-29T20:34:44Z",
       "version": 2,
@@ -98442,6 +98456,22 @@
         {"lat": -40.3901516, "lon": 175.6337869},
         {"lat": -40.390133, "lon": 175.6337676},
         {"lat": -40.3901374, "lon": 175.6337422}
+      ],
+      "tags": {"highway": "path"}
+    },
+    {
+      "type": "way",
+      "id": 970365522,
+      "timestamp": "2021-08-04T13:13:12Z",
+      "version": 1,
+      "changeset": 109147346,
+      "user": "vorpalblade-kaart",
+      "uid": 9019988,
+      "nodes": [1940913535, 1940913537],
+      "geometry": [
+        {"lat": -40.3822542, "lon": 175.6258511},
+        {"lat": -40.382279, "lon": 175.6262932},
+        {"lat": -40.382267, "lon": 175.6265278}
       ],
       "tags": {"highway": "path"}
     },
