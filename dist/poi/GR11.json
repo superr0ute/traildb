@@ -35308,12 +35308,15 @@
         "@poi": "foodshop_convenience",
         "@distance": 2052.2,
         "@id": "n3982238832",
-        "@changeset": 36939824,
-        "@timestamp": "2016-02-01T16:08:09Z",
-        "@version": 1,
-        "@uid": 3506955,
-        "@user": "Acouphenix",
+        "@changeset": 109277167,
+        "@timestamp": "2021-08-06T17:53:15Z",
+        "@version": 2,
+        "@uid": 8696628,
+        "@user": "hoancat",
+        "cash_withdrawal": "yes",
+        "cash_withdrawal:operator": "Crédit Agricole",
         "name": "Épicerie de la Vallée",
+        "opening_hours": "Mo-Su 08:00-13:00; Mo-Sa 16:00-19:00",
         "operator": "Vival",
         "shop": "convenience",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2016"
@@ -44818,6 +44821,28 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 2128,
+        "@id": "n8986420601",
+        "@changeset": 109277167,
+        "@timestamp": "2021-08-06T17:53:15Z",
+        "@version": 1,
+        "@uid": 8696628,
+        "@user": "hoancat",
+        "amenity": "drinking_water",
+        "drinking_water": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8918217,
+          42.4662405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 2851.7,
         "@id": "w62566093",
@@ -44837,35 +44862,6 @@
         "coordinates": [
           2.0253979,
           42.3767428
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 1889.6,
-        "@id": "w148186292",
-        "@changeset": 53920340,
-        "@timestamp": "2017-11-19T11:07:21Z",
-        "@version": 3,
-        "@uid": 15628,
-        "@user": "vanagaudi",
-        "addr:city": "Bourg-Madame",
-        "addr:postcode": "66760",
-        "addr:street": "Rue du Train Jaune",
-        "contact:email": "campiques@orange.fr",
-        "contact:phone": "+33612331258",
-        "name": "Mas-Piques",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2012",
-        "tourism": "camp_site",
-        "website": "http://www.campingmaspiques.com/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.9439358,
-          42.4398471
         ]
       }
     },
@@ -46001,6 +45997,35 @@
         "coordinates": [
           0.9632962,
           42.621062
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 1889.6,
+        "@id": "w148186292",
+        "@changeset": 53920340,
+        "@timestamp": "2017-11-19T11:07:21Z",
+        "@version": 3,
+        "@uid": 15628,
+        "@user": "vanagaudi",
+        "addr:city": "Bourg-Madame",
+        "addr:postcode": "66760",
+        "addr:street": "Rue du Train Jaune",
+        "contact:email": "campiques@orange.fr",
+        "contact:phone": "+33612331258",
+        "name": "Mas-Piques",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2012",
+        "tourism": "camp_site",
+        "website": "http://www.campingmaspiques.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9439358,
+          42.4398471
         ]
       }
     },
