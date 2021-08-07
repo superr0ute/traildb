@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-08-05T23:59:59Z",
-    "timestamp_osm_base": "2021-08-06T05:25:28Z",
+    "timestamp_osm_date": "2021-08-06T23:59:59Z",
+    "timestamp_osm_base": "2021-08-07T05:20:29Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -10,11 +10,11 @@
       "id": 26865098,
       "lat": 45.365613,
       "lon": 22.892861,
-      "timestamp": "2018-11-03T20:37:46Z",
-      "version": 13,
-      "changeset": 64151376,
-      "user": "ManelG",
-      "uid": 2491053,
+      "timestamp": "2021-08-06T16:04:32Z",
+      "version": 14,
+      "changeset": 109272391,
+      "user": "Mar4s",
+      "uid": 461574,
       "tags": {
         "ele": "2509",
         "importance": "national",
@@ -22,7 +22,7 @@
         "name:hu": "Pelága-csúcs",
         "natural": "peak",
         "prominence": "1759",
-        "source: prominence": "https://www.ii.uib.no/~petter/mountains/europe_finest.html",
+        "source:prominence": "https://www.ii.uib.no/~petter/mountains/europe_finest.html",
         "wikidata": "Q1232288",
         "wikipedia": "hu:Pelága-csúcs"
       }
@@ -326,17 +326,32 @@
       "id": 290083159,
       "lat": 45.358087,
       "lon": 22.875553,
-      "timestamp": "2015-07-14T21:22:55Z",
-      "version": 6,
-      "changeset": 32638889,
-      "user": "BáthoryPéter",
-      "uid": 408450,
+      "timestamp": "2021-08-06T16:04:32Z",
+      "version": 7,
+      "changeset": 109272391,
+      "user": "Mar4s",
+      "uid": 461574,
       "tags": {
         "backcountry": "yes",
+        "caravans": "no",
+        "drinking_water": "yes",
+        "fee": "no",
+        "group_only": "no",
+        "internet_access": "no",
+        "internet_access:fee": "no",
         "name": "Campare Bucura",
         "name:en": "Bucura Camp Site",
         "name:hu": "Bukura-tavi sátrazóhely",
-        "tourism": "camp_site"
+        "nudism": "no",
+        "open_fire": "no",
+        "opening_hours": "24/7",
+        "reservation": "no",
+        "sanitary_dump_station": "no",
+        "shower": "no",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "wheelchair": "no"
       }
     },
     {
@@ -2914,16 +2929,29 @@
       "id": 835128370,
       "lat": 45.4071842,
       "lon": 22.8800553,
-      "timestamp": "2018-07-18T06:52:21Z",
-      "version": 5,
-      "changeset": 60823085,
-      "user": "Árpád Duka",
-      "uid": 6389985,
+      "timestamp": "2021-08-06T16:04:32Z",
+      "version": 6,
+      "changeset": 109272391,
+      "user": "Mar4s",
+      "uid": 461574,
       "tags": {
+        "backcountry": "yes",
+        "caravans": "no",
+        "drinking_water": "no",
         "ele": "1492",
+        "fee": "no",
+        "group_only": "no",
+        "internet_access": "no",
         "name": "Campare lângă Cabana Pietrele",
         "name:hu": "Pietrele sátorozóhely",
-        "tourism": "camp_site"
+        "nudism": "no",
+        "open_fire": "no",
+        "reservation": "no",
+        "sanitary_dump_station": "no",
+        "tents": "yes",
+        "toilets": "no",
+        "tourism": "camp_site",
+        "wheelchair": "no"
       }
     },
     {
@@ -3057,13 +3085,13 @@
     {
       "type": "node",
       "id": 1651383015,
-      "lat": 45.367353,
-      "lon": 22.8817632,
-      "timestamp": "2015-06-29T19:55:11Z",
-      "version": 4,
-      "changeset": 32293282,
-      "user": "mihalylori",
-      "uid": 770311,
+      "lat": 45.3673605,
+      "lon": 22.8817739,
+      "timestamp": "2021-08-06T16:04:32Z",
+      "version": 5,
+      "changeset": 109272391,
+      "user": "Mar4s",
+      "uid": 461574,
       "tags": {
         "name": "Șaua Custura Bucurei",
         "natural": "saddle"
@@ -3439,14 +3467,15 @@
     {
       "type": "node",
       "id": 1890106766,
-      "lat": 45.3591565,
-      "lon": 22.877189,
-      "timestamp": "2015-06-29T19:55:35Z",
-      "version": 2,
-      "changeset": 32293282,
-      "user": "mihalylori",
-      "uid": 770311,
+      "lat": 45.3591942,
+      "lon": 22.8771997,
+      "timestamp": "2021-08-06T16:04:32Z",
+      "version": 3,
+      "changeset": 109272391,
+      "user": "Mar4s",
+      "uid": 461574,
       "tags": {
+        "drinking_water": "yes",
         "natural": "spring"
       }
     },
@@ -5294,6 +5323,22 @@
       }
     },
     {
+      "type": "node",
+      "id": 8986242857,
+      "lat": 45.4963738,
+      "lon": 22.9527408,
+      "timestamp": "2021-08-06T16:04:32Z",
+      "version": 1,
+      "changeset": 109272391,
+      "user": "Mar4s",
+      "uid": 461574,
+      "tags": {
+        "fixme": "resurvey",
+        "tents": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
       "type": "way",
       "id": 35559635,
       "timestamp": "2013-05-19T12:23:14Z",
@@ -5941,27 +5986,6 @@
       "tags": {
         "name": "Camping Valea Iarului",
         "tourism": "camp_site"
-      }
-    },
-    {
-      "type": "way",
-      "id": 740819887,
-      "timestamp": "2019-10-31T20:16:39Z",
-      "version": 1,
-      "changeset": 76466347,
-      "user": "michalfabik",
-      "uid": 3501362,
-      "center": {
-        "lat": 45.3586294,
-        "lon": 22.8771042
-      },
-      "nodes": [],
-      "tags": {
-        "building": "yes",
-        "ele": "2051",
-        "name": "Refugiul Salvamont Bucura",
-        "name:hu": "Bukura hegyimentő állomás és menedékház",
-        "tourism": "wilderness_hut"
       }
     },
     {
