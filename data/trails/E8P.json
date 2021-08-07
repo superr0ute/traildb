@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-06T02:30:12Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-07T02:30:33Z"},
   "elements": [
     {
       "type": "relation",
@@ -7455,9 +7455,9 @@
     {
       "type": "way",
       "id": 391297750,
-      "timestamp": "2021-08-05T13:23:06Z",
-      "version": 5,
-      "changeset": 109204050,
+      "timestamp": "2021-08-06T15:30:55Z",
+      "version": 6,
+      "changeset": 109270023,
       "user": "witkoo",
       "uid": 11515391,
       "nodes": [3720256636, 270979445],
@@ -7470,6 +7470,7 @@
         "cycleway:both": "no",
         "highway": "secondary",
         "highway:category:pl": "2",
+        "lanes": "2",
         "layer": "1",
         "maxspeed": "90",
         "maxspeed:bus": "70",
@@ -8318,11 +8319,11 @@
     {
       "type": "way",
       "id": 484153326,
-      "timestamp": "2018-06-08T03:40:09Z",
-      "version": 3,
-      "changeset": 59653677,
-      "user": "B_KSL",
-      "uid": 553541,
+      "timestamp": "2021-08-06T15:29:43Z",
+      "version": 5,
+      "changeset": 109266738,
+      "user": "witkoo",
+      "uid": 11515391,
       "nodes": [1417088174, 1417088150],
       "geometry": [
         {"lat": 49.167703, "lon": 22.4333185, "z": 644.7},
@@ -8334,7 +8335,12 @@
         {"lat": 49.164952, "lon": 22.4302628, "z": 659.3},
         {"lat": 49.1648267, "lon": 22.4300673, "z": 660.1}
       ],
-      "tags": {"highway": "residential", "surface": "paved"}
+      "tags": {
+        "highway": "residential",
+        "noname": "yes",
+        "sidewalk": "none",
+        "surface": "paved"
+      }
     },
     {
       "type": "way",
