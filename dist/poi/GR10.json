@@ -6484,15 +6484,16 @@
         "@poi": "foodshop_supermarket",
         "@distance": 172.3,
         "@id": "n660225840",
-        "@changeset": 82500335,
-        "@timestamp": "2020-03-23T03:17:42Z",
-        "@version": 6,
-        "@uid": 1443767,
-        "@user": "Olyon",
+        "@changeset": 109312109,
+        "@timestamp": "2021-08-07T14:07:10Z",
+        "@version": 7,
+        "@uid": 2784067,
+        "@user": "morvil",
         "brand": "Carrefour Market",
         "brand:wikidata": "Q2689639",
         "brand:wikipedia": "fr:Carrefour Market",
         "name": "Carrefour Market",
+        "opening_hours": "Mo-Sa 08:00-19:30; Su 08:00-12:30",
         "operator": "Carrefour",
         "shop": "supermarket"
       },
@@ -22412,6 +22413,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 134.9,
+        "@id": "n2422743605",
+        "@changeset": 105985865,
+        "@timestamp": "2021-06-07T17:06:39Z",
+        "@version": 4,
+        "@uid": 9846971,
+        "@user": "gregoiredelattre",
+        "name": "Vival",
+        "opening_hours": "Tu-Su 07:30-20:00",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2634612,
+          42.7975001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "peak_peak",
         "@distance": 3204.6,
         "@id": "n1959592528",
@@ -26205,29 +26229,6 @@
         "coordinates": [
           0.2073843,
           42.8245358
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 134.9,
-        "@id": "n2422743605",
-        "@changeset": 105985865,
-        "@timestamp": "2021-06-07T17:06:39Z",
-        "@version": 4,
-        "@uid": 9846971,
-        "@user": "gregoiredelattre",
-        "name": "Vival",
-        "opening_hours": "Tu-Su 07:30-20:00",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.2634612,
-          42.7975001
         ]
       }
     },
@@ -41904,6 +41905,27 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_spring",
+        "@distance": 2788.4,
+        "@id": "n7796332033",
+        "@changeset": 94053195,
+        "@timestamp": "2020-11-13T10:14:37Z",
+        "@version": 2,
+        "@uid": 11285694,
+        "@user": "jean-ray2",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2215697,
+          42.8309674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 7872.1,
         "@id": "w332280394",
@@ -44072,27 +44094,6 @@
         "coordinates": [
           0.5977714,
           42.7980735
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 2788.4,
-        "@id": "n7796332033",
-        "@changeset": 94053195,
-        "@timestamp": "2020-11-13T10:14:37Z",
-        "@version": 2,
-        "@uid": 11285694,
-        "@user": "jean-ray2",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.2215697,
-          42.8309674
         ]
       }
     },
@@ -49630,36 +49631,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 53.1,
-        "@id": "w431901188",
-        "@changeset": 91326919,
-        "@timestamp": "2020-09-23T03:20:01Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
-        "building": "yes",
-        "description": "2020-06 : Cabane servant de dépôt de diverses denrées, sol en terre battue et pierre.",
-        "ele": 1728,
-        "fireplace": "no",
-        "name": "Cabane du Trapech d'en haut",
-        "shelter_type": "weather_shelter",
-        "source": "Association \"Refuges et cabanes des Pyrénées",
-        "stove": "no",
-        "website": "https://www.refuges.info/point/4587/cabane-non-gardee/Couserans/Cabane-du-Trapech-d-en-haut/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.0102547,
-          42.8251648
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 8889.2,
         "@id": "w153832806",
@@ -50901,6 +50872,36 @@
         "coordinates": [
           -1.503299,
           43.2907145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 53.1,
+        "@id": "w431901188",
+        "@changeset": 91326919,
+        "@timestamp": "2020-09-23T03:20:01Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "building": "yes",
+        "description": "2020-06 : Cabane servant de dépôt de diverses denrées, sol en terre battue et pierre.",
+        "ele": 1728,
+        "fireplace": "no",
+        "name": "Cabane du Trapech d'en haut",
+        "shelter_type": "weather_shelter",
+        "source": "Association \"Refuges et cabanes des Pyrénées",
+        "stove": "no",
+        "website": "https://www.refuges.info/point/4587/cabane-non-gardee/Couserans/Cabane-du-Trapech-d-en-haut/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0102547,
+          42.8251648
         ]
       }
     },
