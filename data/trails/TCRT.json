@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-04T02:40:49Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-08T02:33:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 2970399,
-      "timestamp": "2021-07-19T11:29:52Z",
-      "version": 135,
-      "changeset": 108248184,
-      "user": "muchichka_s",
-      "uid": 10857625,
+      "timestamp": "2021-08-07T09:28:01Z",
+      "version": 136,
+      "changeset": 109301655,
+      "user": "nIkIt0sI4",
+      "uid": 11164557,
       "members": [
         {"type": "node", "ref": 3006502786, "role": "guidepost"},
         {"type": "node", "ref": 5745925423, "role": "guidepost"},
@@ -390,7 +390,7 @@
         {"type": "way", "ref": 77090654, "role": ""},
         {"type": "way", "ref": 223400873, "role": ""},
         {"type": "way", "ref": 77090635, "role": ""},
-        {"type": "way", "ref": 77090563, "role": ""},
+        {"type": "way", "ref": 77090563, "role": "route"},
         {"type": "way", "ref": 512198920, "role": ""},
         {"type": "way", "ref": 127501327, "role": ""},
         {"type": "way", "ref": 512198921, "role": ""},
@@ -1296,11 +1296,11 @@
     {
       "type": "way",
       "id": 177364112,
-      "timestamp": "2021-08-01T10:35:02Z",
-      "version": 13,
-      "changeset": 108968801,
-      "user": "Yurko Hudyma",
-      "uid": 8679676,
+      "timestamp": "2021-08-07T09:28:01Z",
+      "version": 14,
+      "changeset": 109301655,
+      "user": "nIkIt0sI4",
+      "uid": 11164557,
       "nodes": [4856495809, 919095337],
       "geometry": [
         {"lat": 47.935728, "lon": 24.2822609, "z": 812.8},
@@ -1614,7 +1614,12 @@
         {"lat": 47.9403909, "lon": 24.3217403, "z": 1526.5},
         {"lat": 47.9402731, "lon": 24.3217389, "z": 1527.7}
       ],
-      "tags": {"highway": "track", "source": "GPS", "tracktype": "grade2"}
+      "tags": {
+        "highway": "track",
+        "smoothness": "horrible",
+        "source": "GPS",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
@@ -14580,11 +14585,11 @@
     {
       "type": "way",
       "id": 77090563,
-      "timestamp": "2021-06-20T11:36:56Z",
-      "version": 8,
-      "changeset": 106662394,
-      "user": "ukrainian_tourist",
-      "uid": 12784289,
+      "timestamp": "2021-08-07T09:28:01Z",
+      "version": 9,
+      "changeset": 109301655,
+      "user": "nIkIt0sI4",
+      "uid": 11164557,
       "nodes": [907806421, 907806511],
       "geometry": [
         {"lat": 47.9153999, "lon": 24.3494652, "z": 1547.8},
@@ -14657,7 +14662,7 @@
         {"lat": 47.9237243, "lon": 24.3279713, "z": 1889.6},
         {"lat": 47.9238143, "lon": 24.3279193, "z": 1891}
       ],
-      "tags": {"highway": "path"}
+      "tags": {"highway": "path", "incline": "down"}
     },
     {
       "type": "way",
@@ -15867,11 +15872,11 @@
     {
       "type": "way",
       "id": 80934468,
-      "timestamp": "2020-06-22T05:16:29Z",
-      "version": 16,
-      "changeset": 86956545,
-      "user": "User4 - Lightcyphers",
-      "uid": 7753484,
+      "timestamp": "2021-08-07T09:40:40Z",
+      "version": 17,
+      "changeset": 109302138,
+      "user": "nIkIt0sI4",
+      "uid": 11164557,
       "nodes": [943670104, 1842647868],
       "geometry": [
         {"lat": 48.228855, "lon": 24.229948, "z": 1741.7},
@@ -15915,6 +15920,7 @@
         {"lat": 48.213364, "lon": 24.239025, "z": 1828.5},
         {"lat": 48.212765, "lon": 24.239548, "z": 1810.8},
         {"lat": 48.211639, "lon": 24.240892, "z": 1767},
+        {"lat": 48.2115436, "lon": 24.2411009, "z": 1762.6},
         {"lat": 48.211037, "lon": 24.24221, "z": 1746.3},
         {"lat": 48.21059, "lon": 24.242844, "z": 1740.9},
         {"lat": 48.210468, "lon": 24.242868, "z": 1739.8},

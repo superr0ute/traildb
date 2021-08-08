@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-04T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-07T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10909145,
-      "timestamp": "2021-07-29T23:14:46Z",
-      "version": 1418,
-      "changeset": 108850098,
-      "user": "Greg_Rose",
-      "uid": 4622040,
+      "timestamp": "2021-08-07T07:49:23Z",
+      "version": 1419,
+      "changeset": 109298011,
+      "user": "gigi2037",
+      "uid": 616481,
       "members": [
         {"type": "way", "ref": 389603359, "role": ""},
         {"type": "way", "ref": 358964255, "role": ""},
@@ -829,6 +829,8 @@
         {"type": "way", "ref": 494637484, "role": ""},
         {"type": "way", "ref": 610164253, "role": ""},
         {"type": "way", "ref": 64378360, "role": ""},
+        {"type": "way", "ref": 971082601, "role": ""},
+        {"type": "way", "ref": 971082602, "role": ""},
         {"type": "way", "ref": 470805995, "role": ""},
         {"type": "way", "ref": 73994777, "role": ""},
         {"type": "way", "ref": 180745129, "role": ""},
@@ -44578,12 +44580,12 @@
     {
       "type": "way",
       "id": 470805995,
-      "timestamp": "2020-04-30T04:06:29Z",
-      "version": 7,
-      "changeset": 84375969,
-      "user": "Wulz",
-      "uid": 10773975,
-      "nodes": [1662154450, 792218295],
+      "timestamp": "2021-08-07T07:49:23Z",
+      "version": 8,
+      "changeset": 109298011,
+      "user": "gigi2037",
+      "uid": 616481,
+      "nodes": [1662154450, 390890127],
       "geometry": [
         {"lat": 46.1824169, "lon": 13.5778728},
         {"lat": 46.1821376, "lon": 13.5776093},
@@ -44604,14 +44606,13 @@
         {"lat": 46.1789506, "lon": 13.5723413},
         {"lat": 46.1787129, "lon": 13.5721868},
         {"lat": 46.1785346, "lon": 13.5719637},
-        {"lat": 46.1784395, "lon": 13.5717748},
-        {"lat": 46.178338, "lon": 13.5711662}
+        {"lat": 46.1784395, "lon": 13.5717748}
       ],
       "tags": {
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "70",
-        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \nSI A15 + VA B5 + 745 + Valli del Natisone\n",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: SI A15 + VA B5 + 745 + Valli del Natisone",
         "surface": "asphalt"
       }
     },
@@ -72106,6 +72107,48 @@
         "lanes": "2",
         "maxspeed": "30",
         "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 971082601,
+      "timestamp": "2021-08-07T07:49:23Z",
+      "version": 1,
+      "changeset": 109298011,
+      "user": "gigi2037",
+      "uid": 616481,
+      "nodes": [8987338407, 792218295],
+      "geometry": [
+        {"lat": 46.1783934, "lon": 13.5714667},
+        {"lat": 46.178338, "lon": 13.5711662}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "70",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: SI A15 + VA B5 + 745 + Valli del Natisone",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 971082602,
+      "timestamp": "2021-08-07T07:49:23Z",
+      "version": 1,
+      "changeset": 109298011,
+      "user": "gigi2037",
+      "uid": 616481,
+      "nodes": [390890127, 8987338407],
+      "geometry": [
+        {"lat": 46.1784395, "lon": 13.5717748},
+        {"lat": 46.1783934, "lon": 13.5714667}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "70",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: SI A15 + VA B5 + 745 + Valli del Natisone",
+        "surface": "asphalt"
       }
     }
   ]

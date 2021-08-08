@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-06T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-07T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -58578,18 +58578,23 @@
     {
       "type": "way",
       "id": 427763785,
-      "timestamp": "2017-06-19T08:13:00Z",
-      "version": 2,
-      "changeset": 49659886,
-      "user": "Anonix35",
-      "uid": 2362150,
+      "timestamp": "2021-08-07T07:27:07Z",
+      "version": 3,
+      "changeset": 109296941,
+      "user": "Valerio_Bozzolan",
+      "uid": 1875845,
       "nodes": [432013345, 4269479184],
       "geometry": [
         {"lat": 46.2202952, "lon": 9.4461944},
         {"lat": 46.2202893, "lon": 9.4460996},
         {"lat": 46.2202792, "lon": 9.4458809}
       ],
-      "tags": {"bicycle": "yes", "foot": "yes", "highway": "cycleway"}
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "cycleway",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -69185,14 +69190,15 @@
     {
       "type": "way",
       "id": 522437637,
-      "timestamp": "2021-06-22T12:22:25Z",
-      "version": 4,
-      "changeset": 106776519,
-      "user": "Andrea Del Sarto",
-      "uid": 3215770,
+      "timestamp": "2021-08-07T09:49:22Z",
+      "version": 5,
+      "changeset": 109302452,
+      "user": "Giogio83",
+      "uid": 1261608,
       "nodes": [3704976109, 3704976107],
       "geometry": [
         {"lat": 46.3086704, "lon": 9.7420937},
+        {"lat": 46.3086358, "lon": 9.7421471},
         {"lat": 46.3085822, "lon": 9.7422296},
         {"lat": 46.3085388, "lon": 9.7423498},
         {"lat": 46.3084825, "lon": 9.7424303},
@@ -71980,11 +71986,11 @@
     {
       "type": "way",
       "id": 537357545,
-      "timestamp": "2017-11-01T08:55:56Z",
-      "version": 1,
-      "changeset": 53417514,
-      "user": "Gianfranco2014",
-      "uid": 1928626,
+      "timestamp": "2021-08-07T07:27:12Z",
+      "version": 2,
+      "changeset": 109296604,
+      "user": "Valerio_Bozzolan",
+      "uid": 1875845,
       "nodes": [432013345, 1605597063],
       "geometry": [
         {"lat": 46.2202952, "lon": 9.4461944},
@@ -71992,6 +71998,7 @@
         {"lat": 46.2206526, "lon": 9.4461478}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "primary",
         "maxspeed": "50",
         "name": "Strada Statale 36 del lago di Como e dello Spluga",
