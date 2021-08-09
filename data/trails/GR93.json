@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-04T02:35:07Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-09T02:31:21Z"},
   "elements": [
     {
       "type": "relation",
@@ -1790,7 +1790,7 @@
         {"lat": 44.8374378, "lon": 5.4027092, "z": 1364.2},
         {"lat": 44.8375449, "lon": 5.4022017, "z": 1369},
         {"lat": 44.8375154, "lon": 5.4018871, "z": 1367.2},
-        {"lat": 44.837503, "lon": 5.4017999, "z": 1366.5},
+        {"lat": 44.8375005, "lon": 5.4017883, "z": 1366.4},
         {"lat": 44.8374772, "lon": 5.4017584, "z": 1365.8},
         {"lat": 44.8374447, "lon": 5.4017219, "z": 1364.9},
         {"lat": 44.8373398, "lon": 5.401694, "z": 1362.6},
@@ -11497,11 +11497,11 @@
     {
       "type": "way",
       "id": 713683271,
-      "timestamp": "2019-08-14T14:02:25Z",
-      "version": 1,
-      "changeset": 73351384,
-      "user": "Hervé TUC",
-      "uid": 922338,
+      "timestamp": "2021-08-08T10:19:47Z",
+      "version": 3,
+      "changeset": 109338978,
+      "user": "postfred",
+      "uid": 23990,
       "nodes": [1236741132, 1236741377],
       "geometry": [
         {"lat": 44.7458424, "lon": 5.5789447, "z": 1172},
@@ -11509,16 +11509,22 @@
         {"lat": 44.7453966, "lon": 5.5785397, "z": 1163},
         {"lat": 44.7453375, "lon": 5.5784244, "z": 1161.8}
       ],
-      "tags": {"highway": "secondary", "ref": "D 120", "source": "GPS"}
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "ref": "D 120",
+        "source": "GPS",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 713683273,
-      "timestamp": "2019-08-14T14:02:25Z",
-      "version": 1,
-      "changeset": 73351384,
-      "user": "Hervé TUC",
-      "uid": 922338,
+      "timestamp": "2021-08-08T10:19:23Z",
+      "version": 3,
+      "changeset": 109338978,
+      "user": "postfred",
+      "uid": 23990,
       "nodes": [1236741776, 2905663361],
       "geometry": [
         {"lat": 44.74464, "lon": 5.577782, "z": 1149.3},
@@ -11534,7 +11540,13 @@
         {"lat": 44.7446587, "lon": 5.575878, "z": 1144},
         {"lat": 44.7451578, "lon": 5.5752893, "z": 1140}
       ],
-      "tags": {"highway": "secondary", "ref": "D 120", "source": "GPS"}
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "ref": "D 120",
+        "source": "GPS",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",

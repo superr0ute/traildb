@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-04T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-08T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -109,11 +109,11 @@
     {
       "type": "relation",
       "id": 3176522,
-      "timestamp": "2021-08-04T23:02:21Z",
-      "version": 652,
-      "changeset": 109167179,
-      "user": "Greg_Rose",
-      "uid": 4622040,
+      "timestamp": "2021-08-08T16:28:06Z",
+      "version": 655,
+      "changeset": 109353781,
+      "user": "gt3400",
+      "uid": 610648,
       "members": [
         {"type": "node", "ref": 2911861581, "role": ""},
         {"type": "node", "ref": 2912812289, "role": ""},
@@ -2031,11 +2031,15 @@
         {"type": "way", "ref": 129809593, "role": ""},
         {"type": "way", "ref": 179284392, "role": ""},
         {"type": "way", "ref": 179284393, "role": ""},
-        {"type": "way", "ref": 292325334, "role": ""},
-        {"type": "way", "ref": 24675180, "role": ""},
-        {"type": "way", "ref": 292325296, "role": ""},
-        {"type": "way", "ref": 807031812, "role": ""},
         {"type": "way", "ref": 203266465, "role": ""},
+        {"type": "way", "ref": 807031812, "role": ""},
+        {"type": "way", "ref": 292325296, "role": ""},
+        {"type": "way", "ref": 971383775, "role": ""},
+        {"type": "way", "ref": 24675180, "role": ""},
+        {"type": "way", "ref": 971383776, "role": ""},
+        {"type": "way", "ref": 292325334, "role": ""},
+        {"type": "way", "ref": 971371725, "role": ""},
+        {"type": "way", "ref": 971371724, "role": ""},
         {"type": "way", "ref": 292325315, "role": ""},
         {"type": "way", "ref": 30356611, "role": ""},
         {"type": "way", "ref": 30356600, "role": ""},
@@ -2066,6 +2070,7 @@
         {"type": "way", "ref": 127706110, "role": ""},
         {"type": "way", "ref": 445432665, "role": ""},
         {"type": "way", "ref": 445432664, "role": ""},
+        {"type": "way", "ref": 971364242, "role": ""},
         {"type": "way", "ref": 127058544, "role": ""},
         {"type": "way", "ref": 241595755, "role": ""},
         {"type": "way", "ref": 292363022, "role": ""},
@@ -20359,7 +20364,7 @@
         {"lat": 45.7731513, "lon": 13.6067116},
         {"lat": 45.7731575, "lon": 13.6064281},
         {"lat": 45.7731761, "lon": 13.6061343},
-        {"lat": 45.7731941, "lon": 13.60582}
+        {"lat": 45.7731964, "lon": 13.6058046}
       ],
       "tags": {
         "highway": "tertiary",
@@ -25869,11 +25874,11 @@
     {
       "type": "way",
       "id": 236410155,
-      "timestamp": "2015-05-14T16:47:30Z",
-      "version": 4,
-      "changeset": 31146528,
-      "user": "wkrammer",
-      "uid": 1343553,
+      "timestamp": "2021-08-08T16:21:36Z",
+      "version": 5,
+      "changeset": 109353545,
+      "user": "Xarmin",
+      "uid": 982027,
       "nodes": [1371243007, 1371243504],
       "geometry": [
         {"lat": 46.9529865, "lon": 13.1515416},
@@ -25884,6 +25889,7 @@
         {"lat": 46.9520491, "lon": 13.1538531},
         {"lat": 46.9519246, "lon": 13.1543257},
         {"lat": 46.9518768, "lon": 13.1545198},
+        {"lat": 46.9518736, "lon": 13.1552944},
         {"lat": 46.9518734, "lon": 13.1553444},
         {"lat": 46.9517635, "lon": 13.1556555},
         {"lat": 46.9517151, "lon": 13.1558087},
@@ -28011,38 +28017,34 @@
     {
       "type": "way",
       "id": 24675180,
-      "timestamp": "2021-07-20T10:17:42Z",
-      "version": 6,
-      "changeset": 108309033,
-      "user": "RegionVillach",
-      "uid": 4090626,
-      "nodes": [282487772, 268197083],
+      "timestamp": "2021-08-08T16:28:06Z",
+      "version": 7,
+      "changeset": 109353781,
+      "user": "gt3400",
+      "uid": 610648,
+      "nodes": [7549577711, 268197079],
       "geometry": [
-        {"lat": 46.5841627, "lon": 13.9062534},
+        {"lat": 46.5841598, "lon": 13.9063611},
         {"lat": 46.5841833, "lon": 13.9066264},
         {"lat": 46.5842702, "lon": 13.9069679},
-        {"lat": 46.5844623, "lon": 13.9077247},
-        {"lat": 46.5845626, "lon": 13.9088405},
+        {"lat": 46.5844365, "lon": 13.9075919},
+        {"lat": 46.5844876, "lon": 13.9082913},
+        {"lat": 46.5845368, "lon": 13.9088311},
         {"lat": 46.5845213, "lon": 13.9102996},
         {"lat": 46.584467, "lon": 13.9109668},
         {"lat": 46.5845213, "lon": 13.9111922},
-        {"lat": 46.5844917, "lon": 13.912467},
-        {"lat": 46.5846511, "lon": 13.9129775},
-        {"lat": 46.5849165, "lon": 13.9137328},
-        {"lat": 46.5852292, "lon": 13.914162},
-        {"lat": 46.5855432, "lon": 13.9144118}
+        {"lat": 46.5844917, "lon": 13.912467}
       ],
       "tags": {
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "track",
+        "highway": "path",
         "horse": "no",
         "incline": "-5%",
         "motor_vehicle": "no",
-        "note": "Beim “Julius-Kugy-Dreiländerweg – Variante – E 30a“ trifft man auf:\n + iwn:  Alpe-Adria-Trail\n + nrw: \n + rwn:  \n + lwn:",
+        "note": "Beim “Julius-Kugy-Dreiländerweg – Variante – E 30a“ trifft man auf:  + iwn:  Alpe-Adria-Trail  + nrw:   + rwn:    + lwn:",
         "smoothness": "bad",
         "surface": "ground",
-        "tracktype": "grade4",
         "width": "1"
       }
     },
@@ -35999,9 +36001,9 @@
       "geometry": [
         {"lat": 46.5835996, "lon": 13.9048161},
         {"lat": 46.5837658, "lon": 13.9051672},
-        {"lat": 46.583818, "lon": 13.9053098},
-        {"lat": 46.5839122, "lon": 13.9055675},
-        {"lat": 46.5841627, "lon": 13.9062534}
+        {"lat": 46.5838281, "lon": 13.9053031},
+        {"lat": 46.5839343, "lon": 13.9055782},
+        {"lat": 46.5841682, "lon": 13.9062454}
       ],
       "tags": {
         "highway": "secondary",
@@ -36202,15 +36204,15 @@
     {
       "type": "way",
       "id": 292325334,
-      "timestamp": "2021-03-22T20:43:57Z",
-      "version": 4,
-      "changeset": 101528500,
-      "user": "Wulz",
-      "uid": 10773975,
-      "nodes": [268197083, 268196917],
+      "timestamp": "2021-08-08T15:24:14Z",
+      "version": 5,
+      "changeset": 109351192,
+      "user": "gt3400",
+      "uid": 610648,
+      "nodes": [268197083, 826611349],
       "geometry": [
-        {"lat": 46.5855432, "lon": 13.9144118},
-        {"lat": 46.5854769, "lon": 13.9144795},
+        {"lat": 46.5855285, "lon": 13.9143984},
+        {"lat": 46.5854585, "lon": 13.9144661},
         {"lat": 46.5853465, "lon": 13.9147325},
         {"lat": 46.5851049, "lon": 13.9151442},
         {"lat": 46.5846665, "lon": 13.9154615},
@@ -36224,12 +36226,7 @@
         {"lat": 46.5832696, "lon": 13.9173564},
         {"lat": 46.5832628, "lon": 13.917829},
         {"lat": 46.5833826, "lon": 13.9183613},
-        {"lat": 46.583562, "lon": 13.9188698},
-        {"lat": 46.5836533, "lon": 13.9190622},
-        {"lat": 46.5840277, "lon": 13.9195093},
-        {"lat": 46.5843342, "lon": 13.9196498},
-        {"lat": 46.5844043, "lon": 13.919682},
-        {"lat": 46.5847174, "lon": 13.9197993}
+        {"lat": 46.5834892, "lon": 13.9186512}
       ],
       "tags": {
         "access": "destination",
@@ -36239,7 +36236,7 @@
         "lanes": "1",
         "maxspeed": "30",
         "name": "Drobollacher Seepromenade",
-        "note": "Beim “Julius-Kugy-Dreiländerweg – Variante – E 30a“ trifft man auf:\n + iwn:  Alpe-Adria-Trail, Jakobsweg\n + nrw: \n + rwn:  \n + lwn:",
+        "note": "Beim “Julius-Kugy-Dreiländerweg – Variante – E 30a“ trifft man auf:  + iwn:  Alpe-Adria-Trail, Jakobsweg  + nrw:   + rwn:    + lwn:",
         "source": "plan.at 2009",
         "surface": "asphalt"
       }
@@ -38430,11 +38427,11 @@
     {
       "type": "way",
       "id": 296271267,
-      "timestamp": "2020-02-04T21:06:33Z",
-      "version": 6,
-      "changeset": 80554799,
-      "user": "pvvertreter",
-      "uid": 10373292,
+      "timestamp": "2021-08-08T18:45:06Z",
+      "version": 7,
+      "changeset": 109357677,
+      "user": "Animyos Fox",
+      "uid": 13237787,
       "nodes": [278818665, 21834845],
       "geometry": [
         {"lat": 47.0388475, "lon": 12.8448705},
@@ -38463,6 +38460,7 @@
         "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
+        "lit": "yes",
         "maxspeed:type": "AT:urban",
         "ref": "B107",
         "source": "Bing",
@@ -54586,22 +54584,24 @@
     {
       "type": "way",
       "id": 445432664,
-      "timestamp": "2021-07-20T10:17:42Z",
-      "version": 5,
-      "changeset": 108309033,
-      "user": "RegionVillach",
-      "uid": 4090626,
-      "nodes": [4428622221, 1407040554],
+      "timestamp": "2021-08-08T14:45:39Z",
+      "version": 6,
+      "changeset": 109349382,
+      "user": "gt3400",
+      "uid": 610648,
+      "nodes": [6932549551, 1407040554],
       "geometry": [
-        {"lat": 46.5382102, "lon": 13.9061635},
         {"lat": 46.5381923, "lon": 13.906237},
         {"lat": 46.5381603, "lon": 13.9063676},
-        {"lat": 46.5381079, "lon": 13.9064739},
+        {"lat": 46.5381291, "lon": 13.9064538},
+        {"lat": 46.5380671, "lon": 13.9065324},
         {"lat": 46.5379775, "lon": 13.9065812},
-        {"lat": 46.5377202, "lon": 13.9066603},
-        {"lat": 46.5374609, "lon": 13.9067542},
-        {"lat": 46.5373475, "lon": 13.9067957},
-        {"lat": 46.537174, "lon": 13.9068333},
+        {"lat": 46.5377193, "lon": 13.9066442},
+        {"lat": 46.5375781, "lon": 13.9066629},
+        {"lat": 46.5374716, "lon": 13.9067168},
+        {"lat": 46.5374111, "lon": 13.9067783},
+        {"lat": 46.5373364, "lon": 13.906789},
+        {"lat": 46.5371666, "lon": 13.9068226},
         {"lat": 46.5370097, "lon": 13.9069308}
       ],
       "tags": {
@@ -68428,11 +68428,11 @@
     {
       "type": "way",
       "id": 746592749,
-      "timestamp": "2021-07-11T19:41:05Z",
-      "version": 4,
-      "changeset": 107795810,
-      "user": "pvvertreter",
-      "uid": 10373292,
+      "timestamp": "2021-08-08T18:45:13Z",
+      "version": 8,
+      "changeset": 109358591,
+      "user": "Animyos Fox",
+      "uid": 13237787,
       "nodes": [21834844, 6986782792],
       "geometry": [
         {"lat": 47.0383398, "lon": 12.845384},
@@ -68441,12 +68441,15 @@
         {"lat": 47.0384882, "lon": 12.8452757}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "3",
         "lanes:backward": "2",
         "lanes:forward": "1",
+        "lit": "yes",
         "maxspeed:type": "AT:urban",
         "ref": "B107",
+        "sidewalk": "separate",
         "source": "Bing",
         "surface": "asphalt",
         "turn:lanes:backward": "left|through",
@@ -68456,11 +68459,11 @@
     {
       "type": "way",
       "id": 746592751,
-      "timestamp": "2020-02-04T21:06:34Z",
-      "version": 3,
-      "changeset": 80554799,
-      "user": "pvvertreter",
-      "uid": 10373292,
+      "timestamp": "2021-08-08T18:45:08Z",
+      "version": 6,
+      "changeset": 109357677,
+      "user": "Animyos Fox",
+      "uid": 13237787,
       "nodes": [6986782792, 278818665],
       "geometry": [
         {"lat": 47.0384882, "lon": 12.8452757},
@@ -68471,12 +68474,15 @@
         {"lat": 47.0388475, "lon": 12.8448705}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "2",
+        "lit": "yes",
         "maxspeed:type": "AT:urban",
         "ref": "B107",
+        "sidewalk": "left",
         "source": "Bing",
         "surface": "asphalt",
         "turn:lanes:backward": "left;through",
@@ -69764,11 +69770,11 @@
     {
       "type": "way",
       "id": 8032444,
-      "timestamp": "2021-07-11T19:17:01Z",
-      "version": 12,
-      "changeset": 107795074,
-      "user": "pvvertreter",
-      "uid": 10373292,
+      "timestamp": "2021-08-08T18:44:59Z",
+      "version": 13,
+      "changeset": 109358580,
+      "user": "Animyos Fox",
+      "uid": 13237787,
       "nodes": [21834845, 29868256],
       "geometry": [
         {"lat": 47.0398091, "lon": 12.8432171},
@@ -69781,7 +69787,12 @@
         {"lat": 47.0398868, "lon": 12.8421131},
         {"lat": 47.0399382, "lon": 12.841704}
       ],
-      "tags": {"highway": "tertiary", "source": "Bing", "surface": "asphalt"}
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "source": "Bing",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -75106,7 +75117,7 @@
       "uid": 12558767,
       "nodes": [281219104, 6766661610],
       "geometry": [
-        {"lat": 45.7731941, "lon": 13.60582},
+        {"lat": 45.7731964, "lon": 13.6058046},
         {"lat": 45.773208, "lon": 13.6055112},
         {"lat": 45.7732303, "lon": 13.6053052},
         {"lat": 45.7732842, "lon": 13.6049968},
@@ -76956,6 +76967,145 @@
         {"lat": 46.269892, "lon": 13.5917332}
       ],
       "tags": {"highway": "residential"}
+    },
+    {
+      "type": "way",
+      "id": 971364242,
+      "timestamp": "2021-08-08T14:45:39Z",
+      "version": 1,
+      "changeset": 109349382,
+      "user": "gt3400",
+      "uid": 610648,
+      "nodes": [4428622221, 6932549551],
+      "geometry": [
+        {"lat": 46.5382102, "lon": 13.9061635},
+        {"lat": 46.5381923, "lon": 13.906237}
+      ],
+      "tags": {
+        "bicycle": "no",
+        "foot": "yes",
+        "highway": "path",
+        "horse": "no",
+        "name": "603",
+        "sac_scale": "mountain_hiking",
+        "surface": "unpaved",
+        "trail_visibility": "good"
+      }
+    },
+    {
+      "type": "way",
+      "id": 971371724,
+      "timestamp": "2021-08-08T15:24:14Z",
+      "version": 1,
+      "changeset": 109351192,
+      "user": "gt3400",
+      "uid": 610648,
+      "nodes": [334846096, 268196917],
+      "geometry": [
+        {"lat": 46.5840056, "lon": 13.9194516},
+        {"lat": 46.5843342, "lon": 13.9196498},
+        {"lat": 46.5844043, "lon": 13.919682},
+        {"lat": 46.5847174, "lon": 13.9197993}
+      ],
+      "tags": {
+        "access": "destination",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "residential",
+        "lanes": "1",
+        "maxspeed": "30",
+        "name": "Drobollacher Seepromenade",
+        "note": "Beim “Julius-Kugy-Dreiländerweg – Variante – E 30a“ trifft man auf:  + iwn:  Alpe-Adria-Trail, Jakobsweg  + nrw:   + rwn:    + lwn:",
+        "source": "plan.at 2009",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 971371725,
+      "timestamp": "2021-08-08T15:24:14Z",
+      "version": 1,
+      "changeset": 109351192,
+      "user": "gt3400",
+      "uid": 610648,
+      "nodes": [826611349, 334846096],
+      "geometry": [
+        {"lat": 46.5834892, "lon": 13.9186512},
+        {"lat": 46.5835584, "lon": 13.9186291},
+        {"lat": 46.5837022, "lon": 13.9186733},
+        {"lat": 46.5838214, "lon": 13.918889},
+        {"lat": 46.5838753, "lon": 13.9190854},
+        {"lat": 46.5838847, "lon": 13.9193186},
+        {"lat": 46.5840056, "lon": 13.9194516}
+      ],
+      "tags": {
+        "access": "destination",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "lanes": "1",
+        "maxspeed": "30",
+        "name": "Drobollacher Seepromenade",
+        "note": "Beim “Julius-Kugy-Dreiländerweg – Variante – E 30a“ trifft man auf:  + iwn:  Alpe-Adria-Trail, Jakobsweg  + nrw:   + rwn:    + lwn:",
+        "source": "plan.at 2009",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 971383775,
+      "timestamp": "2021-08-08T16:28:06Z",
+      "version": 1,
+      "changeset": 109353781,
+      "user": "gt3400",
+      "uid": 610648,
+      "nodes": [282487772, 7549577711],
+      "geometry": [
+        {"lat": 46.5841682, "lon": 13.9062454},
+        {"lat": 46.5841598, "lon": 13.9063611}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "horse": "no",
+        "incline": "-5%",
+        "motor_vehicle": "no",
+        "surface": "ground",
+        "tracktype": "grade4",
+        "width": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 971383776,
+      "timestamp": "2021-08-08T16:28:06Z",
+      "version": 1,
+      "changeset": 109353781,
+      "user": "gt3400",
+      "uid": 610648,
+      "nodes": [268197079, 268197083],
+      "geometry": [
+        {"lat": 46.5844917, "lon": 13.912467},
+        {"lat": 46.5846511, "lon": 13.9129775},
+        {"lat": 46.584864, "lon": 13.913596},
+        {"lat": 46.5852338, "lon": 13.9141499},
+        {"lat": 46.5854473, "lon": 13.9143101},
+        {"lat": 46.5855285, "lon": 13.9143984}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "no",
+        "incline": "-5%",
+        "motor_vehicle": "no",
+        "note": "Beim “Julius-Kugy-Dreiländerweg – Variante – E 30a“ trifft man auf:  + iwn:  Alpe-Adria-Trail  + nrw:   + rwn:    + lwn:",
+        "smoothness": "bad",
+        "surface": "ground",
+        "tracktype": "grade4",
+        "width": "1"
+      }
     },
     {
       "type": "way",

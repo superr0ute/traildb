@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-07T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-08T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -35718,11 +35718,11 @@
     {
       "type": "way",
       "id": 280169812,
-      "timestamp": "2019-02-27T10:20:47Z",
-      "version": 13,
-      "changeset": 67612314,
-      "user": "TheSwavu",
-      "uid": 2622285,
+      "timestamp": "2021-08-08T22:38:08Z",
+      "version": 14,
+      "changeset": 109365929,
+      "user": "oliverjms",
+      "uid": 13717938,
       "nodes": [907672687, 4844904305],
       "geometry": [
         {"lat": -41.2851396, "lon": 174.7756415},
@@ -35735,6 +35735,7 @@
       "tags": {
         "bus:backward": "yes",
         "bus:lanes:backward": "designated",
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "2",
         "lanes:backward": "1",
@@ -43696,11 +43697,11 @@
     {
       "type": "way",
       "id": 362515215,
-      "timestamp": "2021-02-28T21:06:15Z",
-      "version": 10,
-      "changeset": 100156032,
-      "user": "cameralibre",
-      "uid": 1963218,
+      "timestamp": "2021-08-08T21:40:51Z",
+      "version": 12,
+      "changeset": 109363171,
+      "user": "oliverjms",
+      "uid": 13717938,
       "nodes": [279425490, 6041449549],
       "geometry": [
         {"lat": -41.2830535, "lon": 174.7754972},
@@ -43738,10 +43739,12 @@
         "cycleway:left": "no",
         "highway": "tertiary",
         "lanes": "2",
+        "lit": "yes",
         "maxspeed": "30",
         "name": "Lambton Quay",
         "oneway": "yes",
         "osmc:symbol": "black_frame:white:black-hiker",
+        "sidewalk": "left",
         "surface": "concrete"
       }
     },
@@ -71976,11 +71979,11 @@
     {
       "type": "way",
       "id": 641538345,
-      "timestamp": "2019-02-12T19:51:17Z",
-      "version": 2,
-      "changeset": 67141946,
-      "user": "david_daish",
-      "uid": 9331669,
+      "timestamp": "2021-08-08T21:39:36Z",
+      "version": 5,
+      "changeset": 109363171,
+      "user": "oliverjms",
+      "uid": 13717938,
       "nodes": [6041449549, 36155147],
       "geometry": [
         {"lat": -41.2796615, "lon": 174.7766791},
@@ -71989,11 +71992,14 @@
       ],
       "tags": {
         "bus:lanes": "yes|yes|designated",
+        "cycleway:left": "no",
         "highway": "tertiary",
         "lanes": "3",
+        "lit": "yes",
         "maxspeed": "30",
         "name": "Lambton Quay",
         "oneway": "yes",
+        "sidewalk": "left",
         "surface": "asphalt",
         "turn:lanes": "left|through|through"
       }
