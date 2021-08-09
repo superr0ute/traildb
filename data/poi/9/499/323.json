@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-08-07T23:59:59Z",
-    "timestamp_osm_base": "2021-08-08T05:58:13Z",
+    "timestamp_osm_date": "2021-08-08T23:59:59Z",
+    "timestamp_osm_base": "2021-08-09T05:59:01Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -394,25 +394,6 @@
         "name:en": "Browinng Pass",
         "name:mi": "Noti Raureka",
         "natural": "saddle"
-      }
-    },
-    {
-      "type": "node",
-      "id": 493307787,
-      "lat": -42.9996196,
-      "lon": 171.511404,
-      "timestamp": "2018-06-23T19:50:10Z",
-      "version": 6,
-      "changeset": 60107869,
-      "user": "gaddman",
-      "uid": 365177,
-      "tags": {
-        "amenity": "shelter",
-        "building": "yes",
-        "ele": "690",
-        "name": "Anti Crow Hut",
-        "ref:doc": "100063006",
-        "tourism": "alpine_hut"
       }
     },
     {
@@ -1665,16 +1646,19 @@
       "id": 5543997472,
       "lat": -43.0531895,
       "lon": 171.4301768,
-      "timestamp": "2018-06-23T19:51:02Z",
-      "version": 2,
-      "changeset": 60107869,
-      "user": "gaddman",
-      "uid": 365177,
+      "timestamp": "2021-08-08T04:31:59Z",
+      "version": 3,
+      "changeset": 109330895,
+      "user": "petenz",
+      "uid": 38928,
       "tags": {
-        "ref:doc": "100064753",
-        "operator": "Department of Conservation",
+        "capacity": "6",
+        "fee": "no",
+        "fireplace": "yes",
         "name": "Avoca Hut",
-        "tourism": "alpine_hut"
+        "operator": "Department of Conservation",
+        "ref:doc": "100064753",
+        "tourism": "wilderness_hut"
       }
     },
     {
@@ -3170,6 +3154,32 @@
         "operator": "Department of Conservation",
         "ref:doc": "100034620",
         "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 971265831,
+      "timestamp": "2021-08-08T04:13:43Z",
+      "version": 1,
+      "changeset": 109330749,
+      "user": "petenz",
+      "uid": 38928,
+      "center": {
+        "lat": -42.9996628,
+        "lon": 171.5114072
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "capacity": "6",
+        "ele": "690",
+        "fee": "yes",
+        "fireplace": "yes",
+        "name": "Anti Crow Hut",
+        "operator": "Department of Conservation",
+        "ref:doc": "100063006",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/arthurs-pass-national-park/things-to-do/huts/anti-crow-hut/"
       }
     }
   ]

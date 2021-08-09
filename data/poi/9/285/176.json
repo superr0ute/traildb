@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-08-07T23:59:59Z",
-    "timestamp_osm_base": "2021-08-08T05:15:06Z",
+    "timestamp_osm_date": "2021-08-08T23:59:59Z",
+    "timestamp_osm_base": "2021-08-09T05:16:22Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1511,14 +1511,15 @@
       "id": 35608663,
       "lat": 48.5625882,
       "lon": 20.4653933,
-      "timestamp": "2021-05-31T10:43:34Z",
-      "version": 16,
-      "changeset": 105617672,
-      "user": "Filip009",
-      "uid": 10553599,
+      "timestamp": "2021-08-08T17:04:42Z",
+      "version": 17,
+      "changeset": 109355235,
+      "user": "Dodko",
+      "uid": 1944033,
       "tags": {
         "addr:city": "Slavec",
         "depth": "10",
+        "email": "gombj@ssj.sk",
         "fee": "yes",
         "heritage": "1",
         "heritage:operator": "whc",
@@ -1528,10 +1529,12 @@
         "name:de": "Gombaseker Höhle",
         "name:hu": "Gombaszögi barlang",
         "natural": "cave_entrance",
-        "opening_hours": "Tu-Su",
+        "opening_hours": "May 15-Oct 31 Tu-Su 09:00-16:00",
+        "phone": "+421 58 788 2020",
         "ref:whc": "725-858",
         "source:name": "www.ssj.sk",
         "tourism": "attraction",
+        "website": "http://www.ssj.sk/sk/jaskyna/9-gombasecka-jaskyna",
         "wikidata": "Q1011733",
         "wikipedia": "sk:Gombasecká jaskyňa"
       }
@@ -1571,14 +1574,12 @@
       "id": 35608666,
       "lat": 48.6770122,
       "lon": 20.9772041,
-      "timestamp": "2017-05-17T21:21:56Z",
-      "version": 13,
-      "changeset": 48773495,
-      "user": "rmikke",
-      "uid": 69607,
+      "timestamp": "2021-08-08T12:16:27Z",
+      "version": 14,
+      "changeset": 109342557,
+      "user": "Dodko",
+      "uid": 1944033,
       "tags": {
-        "addr:city": "Jasov",
-        "addr:postcode": "044 23",
         "depth": "55",
         "fee": "yes",
         "heritage": "1",
@@ -7765,18 +7766,12 @@
       "id": 2791299598,
       "lat": 48.6831022,
       "lon": 20.9740889,
-      "timestamp": "2015-02-07T18:59:40Z",
-      "version": 3,
-      "changeset": 28688786,
-      "user": "Spagy",
-      "uid": 2168728,
+      "timestamp": "2021-08-08T12:04:47Z",
+      "version": 4,
+      "changeset": 109342557,
+      "user": "Dodko",
+      "uid": 1944033,
       "tags": {
-        "addr:city": "Jasov",
-        "addr:conscriptionnumber": "95",
-        "addr:country": "SK",
-        "addr:housenumber": "95",
-        "addr:postcode": "044 23",
-        "addr:street": "Námestie sv. Floriána",
         "name": "Fresh",
         "shop": "convenience"
       }
@@ -9225,18 +9220,12 @@
       "id": 3337470606,
       "lat": 48.6836909,
       "lon": 20.9745812,
-      "timestamp": "2017-02-09T13:25:02Z",
-      "version": 2,
-      "changeset": 45947147,
-      "user": "Durko_freemap",
-      "uid": 1885079,
+      "timestamp": "2021-08-08T12:07:25Z",
+      "version": 3,
+      "changeset": 109342557,
+      "user": "Dodko",
+      "uid": 1944033,
       "tags": {
-        "addr:city": "Jasov",
-        "addr:conscriptionnumber": "257",
-        "addr:country": "SK",
-        "addr:housenumber": "257",
-        "addr:place": "Jasov",
-        "addr:postcode": "044 23",
         "name": "CBA",
         "shop": "supermarket"
       }
@@ -16313,15 +16302,15 @@
       "id": 4888426676,
       "lat": 48.6072376,
       "lon": 20.7486577,
-      "timestamp": "2018-04-20T15:15:48Z",
-      "version": 2,
-      "changeset": 58266944,
-      "user": "Gabriel Cséfalvay",
-      "uid": 6492729,
+      "timestamp": "2021-08-08T09:30:39Z",
+      "version": 3,
+      "changeset": 109334480,
+      "user": "Dodko",
+      "uid": 1944033,
       "tags": {
         "amenity": "shelter",
         "fireplace": "no",
-        "shelter_type": "roof"
+        "shelter_type": "weather_shelter"
       }
     },
     {
@@ -23312,6 +23301,27 @@
       "tags": {
         "amenity": "shelter",
         "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 971294706,
+      "timestamp": "2021-08-08T08:44:59Z",
+      "version": 1,
+      "changeset": 109334480,
+      "user": "Dodko",
+      "uid": 1944033,
+      "center": {
+        "lat": 48.700421,
+        "lon": 20.888445
+      },
+      "nodes": [],
+      "tags": {
+        "access": "private",
+        "amenity": "shelter",
+        "building": "yes",
+        "fireplace": "yes",
+        "shelter_type": "picnic_shelter"
       }
     }
   ]

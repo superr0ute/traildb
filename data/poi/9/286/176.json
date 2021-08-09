@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-08-07T23:59:59Z",
-    "timestamp_osm_base": "2021-08-08T05:19:23Z",
+    "timestamp_osm_date": "2021-08-08T23:59:59Z",
+    "timestamp_osm_base": "2021-08-09T05:18:28Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6898,13 +6898,15 @@
       "id": 798262359,
       "lat": 48.7972151,
       "lon": 21.3048225,
-      "timestamp": "2018-11-28T18:32:46Z",
-      "version": 2,
-      "changeset": 64982885,
+      "timestamp": "2021-08-08T20:01:44Z",
+      "version": 3,
+      "changeset": 109361182,
       "user": "Rick Richards",
       "uid": 6322444,
       "tags": {
-        "name": "Milk Agro",
+        "brand": "Milk-Agro",
+        "brand:wikidata": "Q64173785",
+        "name": "Milk-Agro",
         "shop": "convenience"
       }
     },
@@ -9664,11 +9666,11 @@
     {
       "type": "node",
       "id": 1709744886,
-      "lat": 48.6655435,
+      "lat": 48.6655648,
       "lon": 21.1922815,
-      "timestamp": "2021-07-28T11:58:31Z",
-      "version": 3,
-      "changeset": 108756617,
+      "timestamp": "2021-08-08T11:13:57Z",
+      "version": 4,
+      "changeset": 109341258,
       "user": "Rick Richards",
       "uid": 6322444,
       "tags": {
@@ -15457,16 +15459,19 @@
       "id": 3367930059,
       "lat": 48.628697,
       "lon": 21.1700576,
-      "timestamp": "2019-03-01T11:37:29Z",
-      "version": 2,
-      "changeset": 67682692,
+      "timestamp": "2021-08-08T11:38:44Z",
+      "version": 3,
+      "changeset": 109342021,
       "user": "Rick Richards",
       "uid": 6322444,
       "tags": {
         "amenity": "shelter",
         "bench": "yes",
         "bin": "no",
-        "shelter_type": "public_transport"
+        "lit": "yes",
+        "lockable": "no",
+        "shelter_type": "public_transport",
+        "wheelchair": "yes"
       }
     },
     {
@@ -19448,6 +19453,20 @@
     },
     {
       "type": "node",
+      "id": 5650359496,
+      "lat": 48.6426801,
+      "lon": 21.1965671,
+      "timestamp": "2021-08-08T11:13:57Z",
+      "version": 2,
+      "changeset": 109341258,
+      "user": "Rick Richards",
+      "uid": 6322444,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
       "id": 5657279615,
       "lat": 48.4657569,
       "lon": 21.1025213,
@@ -20527,11 +20546,11 @@
     {
       "type": "node",
       "id": 6018311487,
-      "lat": 48.6285262,
-      "lon": 21.1705384,
-      "timestamp": "2019-03-01T11:37:29Z",
-      "version": 2,
-      "changeset": 67682692,
+      "lat": 48.6285058,
+      "lon": 21.1705196,
+      "timestamp": "2021-08-08T11:38:44Z",
+      "version": 3,
+      "changeset": 109342021,
       "user": "Rick Richards",
       "uid": 6322444,
       "tags": {
@@ -24416,6 +24435,82 @@
       }
     },
     {
+      "type": "node",
+      "id": 8989709355,
+      "lat": 48.6624868,
+      "lon": 21.2073889,
+      "timestamp": "2021-08-08T11:13:57Z",
+      "version": 1,
+      "changeset": 109341258,
+      "user": "Rick Richards",
+      "uid": 6322444,
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "no",
+        "lit": "yes",
+        "lockable": "no",
+        "shelter_type": "public_transport",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8989709518,
+      "lat": 48.642242,
+      "lon": 21.1981022,
+      "timestamp": "2021-08-08T11:13:57Z",
+      "version": 1,
+      "changeset": 109341258,
+      "user": "Rick Richards",
+      "uid": 6322444,
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "no",
+        "lit": "yes",
+        "lockable": "no",
+        "shelter_type": "public_transport",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8990666908,
+      "lat": 48.8378953,
+      "lon": 21.302727,
+      "timestamp": "2021-08-08T20:01:44Z",
+      "version": 1,
+      "changeset": 109361182,
+      "user": "Rick Richards",
+      "uid": 6322444,
+      "tags": {
+        "amenity": "shelter",
+        "bin": "yes",
+        "lit": "yes",
+        "operator": "Slovnaft",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8990666909,
+      "lat": 48.8379642,
+      "lon": 21.3027686,
+      "timestamp": "2021-08-08T20:01:44Z",
+      "version": 1,
+      "changeset": 109361182,
+      "user": "Rick Richards",
+      "uid": 6322444,
+      "tags": {
+        "amenity": "shelter",
+        "bin": "yes",
+        "lit": "yes",
+        "operator": "Slovnaft",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
       "type": "way",
       "id": 17386667,
       "timestamp": "2020-04-01T08:22:41Z",
@@ -24881,6 +24976,56 @@
         "name": "Potraviny Hasička",
         "shop": "convenience",
         "source": "kapor2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 49499935,
+      "timestamp": "2021-08-08T11:13:57Z",
+      "version": 2,
+      "changeset": 109341258,
+      "user": "Rick Richards",
+      "uid": 6322444,
+      "center": {
+        "lat": 48.6653929,
+        "lon": 21.192619
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "no",
+        "building": "yes",
+        "lit": "yes",
+        "lockable": "no",
+        "shelter_type": "public_transport",
+        "source": "kapor2",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 49500175,
+      "timestamp": "2021-08-08T11:13:57Z",
+      "version": 2,
+      "changeset": 109341258,
+      "user": "Rick Richards",
+      "uid": 6322444,
+      "center": {
+        "lat": 48.6677202,
+        "lon": 21.1887598
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
+        "building": "yes",
+        "lit": "yes",
+        "lockable": "no",
+        "shelter_type": "public_transport",
+        "source": "kapor2",
+        "wheelchair": "limited"
       }
     },
     {
