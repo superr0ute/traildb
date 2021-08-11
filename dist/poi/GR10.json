@@ -15183,17 +15183,22 @@
         "@poi": "foodshop_supermarket",
         "@distance": 662.5,
         "@id": "n1597958988",
-        "@changeset": 82492748,
-        "@timestamp": "2020-03-22T19:36:51Z",
-        "@version": 4,
-        "@uid": 214436,
-        "@user": "PanierAvide",
+        "@changeset": 109481087,
+        "@timestamp": "2021-08-10T19:21:07Z",
+        "@version": 5,
+        "@uid": 7366012,
+        "@user": "lodario",
+        "addr:housenumber": "10",
+        "addr:street": "rue d'Irandatz",
         "brand": "Intermarché",
         "brand:wikidata": "Q3153200",
         "brand:wikipedia": "fr:Intermarché",
         "name": "Intermarché",
+        "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-12:30",
         "operator": "Groupement des Mousquetaires",
-        "shop": "supermarket"
+        "phone": "0559203189",
+        "shop": "supermarket",
+        "website": "https://www.intermarche.com/magasins/06832/hendaye-64700/infos-pratiques"
       },
       "geometry": {
         "type": "Point",
@@ -15744,27 +15749,6 @@
         "coordinates": [
           -1.7958288,
           43.378543
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 2399.5,
-        "@id": "n2098646345",
-        "@changeset": 36511896,
-        "@timestamp": "2016-01-11T20:01:46Z",
-        "@version": 2,
-        "@uid": 863649,
-        "@user": "Uranzu",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.6793964,
-          43.2882816
         ]
       }
     },
@@ -19628,6 +19612,27 @@
         "coordinates": [
           2.832037,
           42.3688907
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 2399.5,
+        "@id": "n2098646345",
+        "@changeset": 36511896,
+        "@timestamp": "2016-01-11T20:01:46Z",
+        "@version": 2,
+        "@uid": 863649,
+        "@user": "Uranzu",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6793964,
+          43.2882816
         ]
       }
     },
@@ -48268,35 +48273,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 718.3,
-        "@id": "w147967779",
-        "@changeset": 93187796,
-        "@timestamp": "2020-10-28T15:19:35Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
-        "beds": "0",
-        "building": "yes",
-        "fireplace": "yes",
-        "name": "Cabane du Pla Del Termenal",
-        "shelter_type": "weather_shelter",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
-        "stove": "no",
-        "website": "https://www.refuges.info/point/4422/cabane-non-gardee/Capcir/Cabane-du-Pla-Del-Termenal/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0620539,
-          42.5179031
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 21.5,
         "@id": "n6113716736",
@@ -48858,21 +48834,26 @@
         "@poi": "foodshop_supermarket",
         "@distance": 458,
         "@id": "w72066909",
-        "@changeset": 94210570,
-        "@timestamp": "2020-11-16T15:20:18Z",
-        "@version": 9,
-        "@uid": 188930,
-        "@user": "JLZIMMERMANN",
+        "@changeset": 109481187,
+        "@timestamp": "2021-08-10T19:24:16Z",
+        "@version": 10,
+        "@uid": 7366012,
+        "@user": "lodario",
+        "addr:housenumber": "20",
+        "addr:street": "Les Allees",
         "brand": "Carrefour Market",
         "brand:wikidata": "Q2689639",
         "brand:wikipedia": "fr:Carrefour Market",
         "building": "commercial",
         "name": "Carrefour Market",
+        "opening_hours": "Mo-Sa 08:30-19:30; Su 08:30-12:30",
         "operator": "Carrefour",
+        "phone": "05 59 20 79 79",
         "shop": "supermarket",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
         "supermarket": "yes",
-        "supermarket:FR": "supermarché"
+        "supermarket:FR": "supermarché",
+        "website": "https://www.carrefour.fr/magasin/market-hendaye-allees"
       },
       "geometry": {
         "type": "Point",
@@ -49600,31 +49581,29 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 2708.2,
-        "@id": "w431901186",
-        "@changeset": 91330949,
-        "@timestamp": "2020-09-23T04:34:05Z",
-        "@version": 4,
+        "@poi": "shelter_shelter",
+        "@distance": 718.3,
+        "@id": "w147967779",
+        "@changeset": 93187796,
+        "@timestamp": "2020-10-28T15:19:35Z",
+        "@version": 2,
         "@uid": 922338,
         "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "beds": "0",
         "building": "yes",
-        "capacity": 4,
-        "description": "2020-06 : Cabane en pierre avec un toit à double pans, ouverte toute l'année. Équipement intérieur : - 2 bats-flancs en bois (avec 4 matelas) - 1 banc (1 planche sur 2 conduits de cheminée !) - 1 cheminée",
-        "ele": 2005,
         "fireplace": "yes",
-        "name": "Cabane de Trinqué",
-        "note": "564",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "name": "Cabane du Pla Del Termenal",
+        "shelter_type": "weather_shelter",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
         "stove": "no",
-        "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/6276/cabane-non-gardee/Couserans/Cabane-de-Trinque/"
+        "website": "https://www.refuges.info/point/4422/cabane-non-gardee/Capcir/Cabane-du-Pla-Del-Termenal/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.0207133,
-          42.8006369
+          2.0620539,
+          42.5179031
         ]
       }
     },
@@ -50872,6 +50851,37 @@
         "coordinates": [
           -1.503299,
           43.2907145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 2708.2,
+        "@id": "w431901186",
+        "@changeset": 91330949,
+        "@timestamp": "2020-09-23T04:34:05Z",
+        "@version": 4,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "building": "yes",
+        "capacity": 4,
+        "description": "2020-06 : Cabane en pierre avec un toit à double pans, ouverte toute l'année. Équipement intérieur : - 2 bats-flancs en bois (avec 4 matelas) - 1 banc (1 planche sur 2 conduits de cheminée !) - 1 cheminée",
+        "ele": 2005,
+        "fireplace": "yes",
+        "name": "Cabane de Trinqué",
+        "note": "564",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "stove": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://www.refuges.info/point/6276/cabane-non-gardee/Couserans/Cabane-de-Trinque/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0207133,
+          42.8006369
         ]
       }
     },
