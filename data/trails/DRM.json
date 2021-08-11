@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-09T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-10T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1736379,
-      "timestamp": "2021-07-30T18:43:41Z",
-      "version": 546,
-      "changeset": 108906511,
-      "user": "heltram",
-      "uid": 97126,
+      "timestamp": "2021-08-10T13:51:29Z",
+      "version": 550,
+      "changeset": 109467223,
+      "user": "gumul",
+      "uid": 482628,
       "members": [
         {"type": "node", "ref": 1779769997, "role": "stop"},
         {"type": "node", "ref": 475738007, "role": ""},
@@ -1197,8 +1197,9 @@
         {"type": "way", "ref": 130293249, "role": ""},
         {"type": "way", "ref": 175709120, "role": ""},
         {"type": "way", "ref": 112052152, "role": ""},
-        {"type": "way", "ref": 96826750, "role": ""},
-        {"type": "way", "ref": 145786150, "role": ""},
+        {"type": "way", "ref": 971984542, "role": ""},
+        {"type": "way", "ref": 818507070, "role": ""},
+        {"type": "way", "ref": 971984545, "role": ""},
         {"type": "way", "ref": 215204849, "role": ""},
         {"type": "way", "ref": 215204844, "role": ""},
         {"type": "way", "ref": 96826753, "role": ""},
@@ -1445,34 +1446,33 @@
         {"type": "way", "ref": 172349509, "role": ""},
         {"type": "way", "ref": 446527919, "role": ""},
         {"type": "way", "ref": 446527918, "role": ""},
-        {"type": "way", "ref": 396086353, "role": "FIXME:3"},
-        {"type": "way", "ref": 229917968, "role": "FIXME:3"},
-        {"type": "way", "ref": 399983391, "role": "FIXME:3"},
-        {"type": "way", "ref": 399983390, "role": "FIXME:3"},
-        {"type": "way", "ref": 399921257, "role": "FIXME:3"},
-        {"type": "way", "ref": 399921256, "role": "FIXME:3"},
-        {"type": "way", "ref": 298056153, "role": "FIXME:3"},
-        {"type": "way", "ref": 298056152, "role": "FIXME:3"},
         {"type": "way", "ref": 108514923, "role": ""},
         {"type": "way", "ref": 701866517, "role": ""},
         {"type": "way", "ref": 701866515, "role": ""},
         {"type": "way", "ref": 176214336, "role": ""},
         {"type": "way", "ref": 863383155, "role": ""},
         {"type": "way", "ref": 863394114, "role": ""},
-        {"type": "way", "ref": 43117187, "role": ""},
-        {"type": "way", "ref": 54871744, "role": ""},
-        {"type": "way", "ref": 447102260, "role": ""},
-        {"type": "way", "ref": 512320642, "role": ""},
-        {"type": "way", "ref": 43117188, "role": ""},
-        {"type": "way", "ref": 38378150, "role": ""},
-        {"type": "way", "ref": 88741169, "role": ""},
         {"type": "way", "ref": 38378152, "role": ""},
         {"type": "way", "ref": 37865162, "role": ""},
         {"type": "way", "ref": 447102258, "role": ""},
         {"type": "way", "ref": 38379161, "role": ""},
         {"type": "way", "ref": 369516324, "role": ""},
         {"type": "way", "ref": 369516312, "role": ""},
-        {"type": "way", "ref": 38378267, "role": ""}
+        {"type": "way", "ref": 38378267, "role": ""},
+        {"type": "way", "ref": 175585345, "role": ""},
+        {"type": "way", "ref": 971990196, "role": ""},
+        {"type": "way", "ref": 971990194, "role": ""},
+        {"type": "way", "ref": 43117187, "role": ""},
+        {"type": "way", "ref": 971990197, "role": ""},
+        {"type": "way", "ref": 54871744, "role": ""},
+        {"type": "way", "ref": 447102260, "role": ""},
+        {"type": "way", "ref": 512320642, "role": ""},
+        {"type": "way", "ref": 971990198, "role": ""},
+        {"type": "way", "ref": 43117188, "role": ""},
+        {"type": "way", "ref": 971990199, "role": ""},
+        {"type": "way", "ref": 971990200, "role": ""},
+        {"type": "way", "ref": 38378150, "role": ""},
+        {"type": "way", "ref": 88741169, "role": ""}
       ],
       "tags": {
         "FIXME:1": "There is a small sidepath between Schlederloh and river Loisach, which is only one way (175097282) and is closed to protect nature (see note at way). Can this way be removed?",
@@ -3481,12 +3481,12 @@
     {
       "type": "way",
       "id": 112052152,
-      "timestamp": "2020-12-23T19:55:03Z",
-      "version": 5,
-      "changeset": 96344863,
-      "user": "kkklllppp",
-      "uid": 504502,
-      "nodes": [1274766716, 1862731055],
+      "timestamp": "2021-08-10T13:24:03Z",
+      "version": 6,
+      "changeset": 109465963,
+      "user": "gumul",
+      "uid": 482628,
+      "nodes": [1274766716, 8255688139],
       "geometry": [
         {"lat": 45.8797961, "lon": 12.1888277},
         {"lat": 45.879742, "lon": 12.1888263},
@@ -3511,21 +3511,7 @@
         {"lat": 45.8755505, "lon": 12.1880734},
         {"lat": 45.8755433, "lon": 12.1880349},
         {"lat": 45.8755187, "lon": 12.1878978},
-        {"lat": 45.8753388, "lon": 12.1877539},
-        {"lat": 45.8752734, "lon": 12.1876681},
-        {"lat": 45.8752529, "lon": 12.1876118},
-        {"lat": 45.8752362, "lon": 12.1875432},
-        {"lat": 45.8751467, "lon": 12.1868515},
-        {"lat": 45.8750094, "lon": 12.1860862},
-        {"lat": 45.8749653, "lon": 12.1859501},
-        {"lat": 45.874924, "lon": 12.1858506},
-        {"lat": 45.8749074, "lon": 12.1858107},
-        {"lat": 45.8747665, "lon": 12.1855426},
-        {"lat": 45.8747687, "lon": 12.1854506},
-        {"lat": 45.8748005, "lon": 12.1853667},
-        {"lat": 45.8748682, "lon": 12.1853071},
-        {"lat": 45.8748808, "lon": 12.1852896},
-        {"lat": 45.8748881, "lon": 12.1852691}
+        {"lat": 45.8753929, "lon": 12.1878131}
       ],
       "tags": {"highway": "residential", "name": "Via Francesco Petrarca"}
     },
@@ -6555,10 +6541,10 @@
       "nodes": [1435489398, 314013257],
       "geometry": [
         {"lat": 45.898703, "lon": 12.1978932},
-        {"lat": 45.8994459, "lon": 12.1991148},
-        {"lat": 45.8999237, "lon": 12.1996942},
-        {"lat": 45.9003717, "lon": 12.1996084},
-        {"lat": 45.9006075, "lon": 12.1994333},
+        {"lat": 45.8996722, "lon": 12.1995218},
+        {"lat": 45.8999565, "lon": 12.1996669},
+        {"lat": 45.9001489, "lon": 12.1996481},
+        {"lat": 45.9005954, "lon": 12.1993886},
         {"lat": 45.9008127, "lon": 12.1993353},
         {"lat": 45.9010188, "lon": 12.1992448},
         {"lat": 45.9010706, "lon": 12.1992252}
@@ -8127,31 +8113,6 @@
         "access": "destination",
         "highway": "residential",
         "name": "Via Cal de Pos"
-      }
-    },
-    {
-      "type": "way",
-      "id": 145786150,
-      "timestamp": "2019-11-09T19:44:29Z",
-      "version": 8,
-      "changeset": 76852761,
-      "user": "mircozorzo",
-      "uid": 224342,
-      "nodes": [1121882147, 1121882595],
-      "geometry": [
-        {"lat": 45.8724352, "lon": 12.1842241},
-        {"lat": 45.8723794, "lon": 12.1843587},
-        {"lat": 45.8722962, "lon": 12.1846682},
-        {"lat": 45.8721455, "lon": 12.1853427},
-        {"lat": 45.8721326, "lon": 12.1856847},
-        {"lat": 45.8724577, "lon": 12.187358},
-        {"lat": 45.8724639, "lon": 12.187536},
-        {"lat": 45.8724498, "lon": 12.1876499}
-      ],
-      "tags": {
-        "highway": "tertiary",
-        "name": "Via Lierza",
-        "surface": "asphalt"
       }
     },
     {
@@ -14879,6 +14840,22 @@
     },
     {
       "type": "way",
+      "id": 175585345,
+      "timestamp": "2012-08-11T13:15:42Z",
+      "version": 1,
+      "changeset": 12690792,
+      "user": "Odysseus-DPB",
+      "uid": 5167,
+      "nodes": [876499657, 797367419],
+      "geometry": [
+        {"lat": 46.404625, "lon": 12.0206558},
+        {"lat": 46.4046223, "lon": 12.0206786},
+        {"lat": 46.4046127, "lon": 12.0207088}
+      ],
+      "tags": {"foot": "yes", "highway": "footway"}
+    },
+    {
+      "type": "way",
       "id": 175585348,
       "timestamp": "2014-08-10T10:56:10Z",
       "version": 3,
@@ -15902,16 +15879,13 @@
     {
       "type": "way",
       "id": 175707472,
-      "timestamp": "2021-02-01T23:42:18Z",
-      "version": 5,
-      "changeset": 98538336,
-      "user": "ivanbranco",
-      "uid": 11220113,
-      "nodes": [314013244, 314013244],
+      "timestamp": "2021-08-10T13:34:30Z",
+      "version": 6,
+      "changeset": 109466455,
+      "user": "gumul",
+      "uid": 482628,
+      "nodes": [314013265, 314013257],
       "geometry": [
-        {"lat": 45.9012878, "lon": 12.1991792},
-        {"lat": 45.9012813, "lon": 12.1991264},
-        {"lat": 45.9012629, "lon": 12.1990797},
         {"lat": 45.9012348, "lon": 12.1990444},
         {"lat": 45.9012223, "lon": 12.199035},
         {"lat": 45.9011886, "lon": 12.1990219},
@@ -15921,16 +15895,7 @@
         {"lat": 45.9010752, "lon": 12.1991171},
         {"lat": 45.9010678, "lon": 12.1991523},
         {"lat": 45.9010662, "lon": 12.199189},
-        {"lat": 45.9010706, "lon": 12.1992252},
-        {"lat": 45.9010833, "lon": 12.1992656},
-        {"lat": 45.9011032, "lon": 12.1992994},
-        {"lat": 45.9011339, "lon": 12.1993272},
-        {"lat": 45.9011693, "lon": 12.1993393},
-        {"lat": 45.9012054, "lon": 12.1993344},
-        {"lat": 45.9012386, "lon": 12.1993129},
-        {"lat": 45.901265, "lon": 12.1992771},
-        {"lat": 45.9012821, "lon": 12.199231},
-        {"lat": 45.9012878, "lon": 12.1991792}
+        {"lat": 45.9010706, "lon": 12.1992252}
       ],
       "tags": {
         "highway": "tertiary",
@@ -19269,51 +19234,6 @@
         {"lat": 47.9459524, "lon": 11.4424803}
       ],
       "tags": {"highway": "steps", "width": "1"}
-    },
-    {
-      "type": "way",
-      "id": 229917968,
-      "timestamp": "2021-02-28T13:11:10Z",
-      "version": 12,
-      "changeset": 100135958,
-      "user": "diegomodolo",
-      "uid": 8109808,
-      "nodes": [270173722, 4026284628],
-      "geometry": [
-        {"lat": 46.1347746, "lon": 12.2191814},
-        {"lat": 46.1348482, "lon": 12.2191359},
-        {"lat": 46.1349541, "lon": 12.2190366},
-        {"lat": 46.1350512, "lon": 12.2189333},
-        {"lat": 46.1351318, "lon": 12.2188461},
-        {"lat": 46.1351926, "lon": 12.2187556},
-        {"lat": 46.135249, "lon": 12.2186586},
-        {"lat": 46.1353068, "lon": 12.2185679},
-        {"lat": 46.135371, "lon": 12.2184805},
-        {"lat": 46.13546, "lon": 12.218378},
-        {"lat": 46.1355747, "lon": 12.2182569},
-        {"lat": 46.1357472, "lon": 12.2181127},
-        {"lat": 46.1358961, "lon": 12.2180125},
-        {"lat": 46.1359124, "lon": 12.218001},
-        {"lat": 46.1360333, "lon": 12.2179153},
-        {"lat": 46.1362181, "lon": 12.217788},
-        {"lat": 46.136515, "lon": 12.2175654},
-        {"lat": 46.1366505, "lon": 12.2173902},
-        {"lat": 46.1372555, "lon": 12.216569},
-        {"lat": 46.1374375, "lon": 12.2163499}
-      ],
-      "tags": {
-        "busway": "opposite_lane",
-        "cycleway:left": "share_busway",
-        "cycleway:right": "lane",
-        "highway": "tertiary",
-        "lanes": "2",
-        "layer": "1",
-        "lit": "yes",
-        "name": "Via Dino Buzzati",
-        "oneway": "yes",
-        "psv": "yes",
-        "surface": "asphalt"
-      }
     },
     {
       "type": "way",
@@ -24042,59 +23962,6 @@
       "tags": {
         "disused:highway": "path",
         "sac_scale": "demanding_mountain_hiking"
-      }
-    },
-    {
-      "type": "way",
-      "id": 298056152,
-      "timestamp": "2019-05-04T08:33:46Z",
-      "version": 2,
-      "changeset": 69868881,
-      "user": "gmpf",
-      "uid": 9648408,
-      "nodes": [270173614, 270173612],
-      "geometry": [
-        {"lat": 46.1391639, "lon": 12.2090606},
-        {"lat": 46.139232, "lon": 12.2090093},
-        {"lat": 46.1392689, "lon": 12.208987},
-        {"lat": 46.1393804, "lon": 12.2089933}
-      ],
-      "tags": {
-        "cycleway:right": "lane",
-        "highway": "tertiary_link",
-        "layer": "1",
-        "name": "Via Dino Buzzati",
-        "oneway": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
-      "id": 298056153,
-      "timestamp": "2021-07-05T17:34:03Z",
-      "version": 7,
-      "changeset": 107453598,
-      "user": "diegomodolo",
-      "uid": 8109808,
-      "nodes": [270173779, 270173614],
-      "geometry": [
-        {"lat": 46.1393635, "lon": 12.2088076},
-        {"lat": 46.1393155, "lon": 12.2088344},
-        {"lat": 46.1392802, "lon": 12.2088593},
-        {"lat": 46.1392496, "lon": 12.2088902},
-        {"lat": 46.139219, "lon": 12.2089331},
-        {"lat": 46.139198, "lon": 12.208972},
-        {"lat": 46.1391639, "lon": 12.2090606}
-      ],
-      "tags": {
-        "access": "no",
-        "bicycle": "designated",
-        "highway": "tertiary_link",
-        "layer": "1",
-        "name": "Via Dino Buzzati",
-        "oneway": "yes",
-        "psv": "yes",
-        "surface": "asphalt"
       }
     },
     {
@@ -29959,7 +29826,7 @@
       "uid": 9542920,
       "nodes": [690774789, 453496733],
       "geometry": [
-        {"lat": 46.4149132, "lon": 12.0695538},
+        {"lat": 46.4150202, "lon": 12.0696393},
         {"lat": 46.4147877, "lon": 12.0701603},
         {"lat": 46.4145792, "lon": 12.0706859},
         {"lat": 46.4145008, "lon": 12.0708835},
@@ -31020,29 +30887,6 @@
         "lanes": "2",
         "name": "Via Col di Lana",
         "old_ref": "SS203dir"
-      }
-    },
-    {
-      "type": "way",
-      "id": 396086353,
-      "timestamp": "2021-02-03T14:09:35Z",
-      "version": 6,
-      "changeset": 98649239,
-      "user": "mueschel",
-      "uid": 616774,
-      "nodes": [2384524979, 270173722],
-      "geometry": [
-        {"lat": 46.1346875, "lon": 12.2191746},
-        {"lat": 46.1347162, "lon": 12.2191849},
-        {"lat": 46.1347746, "lon": 12.2191814}
-      ],
-      "tags": {
-        "busway": "opposite_lane",
-        "highway": "tertiary",
-        "name": "Via Dino Buzzati",
-        "oneway": "yes",
-        "psv": "yes",
-        "surface": "asphalt"
       }
     },
     {
@@ -32382,85 +32226,6 @@
     },
     {
       "type": "way",
-      "id": 399921256,
-      "timestamp": "2021-02-03T14:09:35Z",
-      "version": 7,
-      "changeset": 98649239,
-      "user": "mueschel",
-      "uid": 616774,
-      "nodes": [270173661, 270173614],
-      "geometry": [
-        {"lat": 46.1387426, "lon": 12.2136523},
-        {"lat": 46.1387953, "lon": 12.2132875},
-        {"lat": 46.1388286, "lon": 12.2130078},
-        {"lat": 46.1388326, "lon": 12.212818},
-        {"lat": 46.1388129, "lon": 12.2125755},
-        {"lat": 46.1387652, "lon": 12.212381},
-        {"lat": 46.1386543, "lon": 12.2120834},
-        {"lat": 46.1385994, "lon": 12.211917},
-        {"lat": 46.1385559, "lon": 12.2117469},
-        {"lat": 46.1385353, "lon": 12.2115575},
-        {"lat": 46.1385468, "lon": 12.2114078},
-        {"lat": 46.1385648, "lon": 12.2112648},
-        {"lat": 46.1385996, "lon": 12.2111031},
-        {"lat": 46.1386618, "lon": 12.2109539},
-        {"lat": 46.1387581, "lon": 12.2107954},
-        {"lat": 46.1388763, "lon": 12.2106835},
-        {"lat": 46.1390006, "lon": 12.2105716},
-        {"lat": 46.1390628, "lon": 12.2104721},
-        {"lat": 46.1391188, "lon": 12.2103322},
-        {"lat": 46.1391561, "lon": 12.2102016},
-        {"lat": 46.1391529, "lon": 12.2100306},
-        {"lat": 46.139125, "lon": 12.2098908},
-        {"lat": 46.1390473, "lon": 12.2096172},
-        {"lat": 46.1390255, "lon": 12.209496},
-        {"lat": 46.1390379, "lon": 12.209353},
-        {"lat": 46.1391029, "lon": 12.2091759},
-        {"lat": 46.1391639, "lon": 12.2090606}
-      ],
-      "tags": {
-        "busway": "opposite_lane",
-        "cycleway:left": "share_busway",
-        "cycleway:right": "lane",
-        "highway": "tertiary",
-        "layer": "1",
-        "name": "Via Dino Buzzati",
-        "oneway": "yes",
-        "psv": "yes",
-        "surface": "asphalt",
-        "taxi": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 399921257,
-      "timestamp": "2021-02-03T14:09:35Z",
-      "version": 9,
-      "changeset": 98649239,
-      "user": "mueschel",
-      "uid": 616774,
-      "nodes": [270173667, 270173661],
-      "geometry": [
-        {"lat": 46.1385747, "lon": 12.2141372},
-        {"lat": 46.1386587, "lon": 12.2139756},
-        {"lat": 46.1387053, "lon": 12.2138201},
-        {"lat": 46.1387426, "lon": 12.2136523}
-      ],
-      "tags": {
-        "bridge": "yes",
-        "busway": "opposite_lane",
-        "cycleway:left": "share_busway",
-        "cycleway:right": "lane",
-        "highway": "tertiary",
-        "layer": "1",
-        "name": "Via Dino Buzzati",
-        "oneway": "yes",
-        "psv": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
       "id": 399979896,
       "timestamp": "2016-02-25T15:38:46Z",
       "version": 1,
@@ -32493,64 +32258,6 @@
         "highway": "service",
         "oneway": "yes",
         "service": "parking_aisle"
-      }
-    },
-    {
-      "type": "way",
-      "id": 399983390,
-      "timestamp": "2021-02-03T14:09:35Z",
-      "version": 7,
-      "changeset": 98649239,
-      "user": "mueschel",
-      "uid": 616774,
-      "nodes": [4026284626, 270173667],
-      "geometry": [
-        {"lat": 46.1375902, "lon": 12.2160984},
-        {"lat": 46.1376888, "lon": 12.2159247},
-        {"lat": 46.1378131, "lon": 12.215617},
-        {"lat": 46.1379499, "lon": 12.2152719},
-        {"lat": 46.1380773, "lon": 12.2149952},
-        {"lat": 46.1382359, "lon": 12.2146999},
-        {"lat": 46.1384379, "lon": 12.2143611},
-        {"lat": 46.1385747, "lon": 12.2141372}
-      ],
-      "tags": {
-        "busway": "opposite_lane",
-        "cycleway:left": "share_busway",
-        "cycleway:right": "lane",
-        "highway": "tertiary",
-        "layer": "1",
-        "name": "Via Dino Buzzati",
-        "oneway": "yes",
-        "psv": "yes",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
-      "id": 399983391,
-      "timestamp": "2021-02-03T14:09:35Z",
-      "version": 5,
-      "changeset": 98649239,
-      "user": "mueschel",
-      "uid": 616774,
-      "nodes": [4026284628, 4026284626],
-      "geometry": [
-        {"lat": 46.1374375, "lon": 12.2163499},
-        {"lat": 46.1375181, "lon": 12.2162184},
-        {"lat": 46.1375902, "lon": 12.2160984}
-      ],
-      "tags": {
-        "bridge": "yes",
-        "busway": "opposite_lane",
-        "cycleway:left": "share_busway",
-        "cycleway:right": "lane",
-        "highway": "tertiary",
-        "layer": "1",
-        "name": "Via Dino Buzzati",
-        "oneway": "yes",
-        "psv": "yes",
-        "surface": "asphalt"
       }
     },
     {
@@ -47676,6 +47383,33 @@
     },
     {
       "type": "way",
+      "id": 818507070,
+      "timestamp": "2021-08-10T13:24:03Z",
+      "version": 3,
+      "changeset": 109465963,
+      "user": "gumul",
+      "uid": 482628,
+      "nodes": [1121882495, 7643943827],
+      "geometry": [
+        {"lat": 45.8724639, "lon": 12.187536},
+        {"lat": 45.8726966, "lon": 12.1877412},
+        {"lat": 45.8730873, "lon": 12.1880258},
+        {"lat": 45.8734892, "lon": 12.1882575},
+        {"lat": 45.8738572, "lon": 12.1886152},
+        {"lat": 45.8740242, "lon": 12.1887006},
+        {"lat": 45.874194, "lon": 12.1885217},
+        {"lat": 45.874327, "lon": 12.1882941},
+        {"lat": 45.8744459, "lon": 12.1881599}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "cycleway",
+        "surface": "gravel"
+      }
+    },
+    {
+      "type": "way",
       "id": 818556703,
       "timestamp": "2021-01-10T20:32:12Z",
       "version": 2,
@@ -54288,36 +54022,6 @@
     },
     {
       "type": "way",
-      "id": 96826750,
-      "timestamp": "2019-09-20T18:27:18Z",
-      "version": 7,
-      "changeset": 74731652,
-      "user": "mircozorzo",
-      "uid": 224342,
-      "nodes": [1121882147, 1862731055],
-      "geometry": [
-        {"lat": 45.8724352, "lon": 12.1842241},
-        {"lat": 45.8725359, "lon": 12.1844186},
-        {"lat": 45.872683, "lon": 12.1846139},
-        {"lat": 45.8730201, "lon": 12.1848867},
-        {"lat": 45.8732647, "lon": 12.1850069},
-        {"lat": 45.8735769, "lon": 12.185201},
-        {"lat": 45.8738022, "lon": 12.1852934},
-        {"lat": 45.8740017, "lon": 12.1853378},
-        {"lat": 45.8742394, "lon": 12.1853561},
-        {"lat": 45.874439, "lon": 12.1853365},
-        {"lat": 45.8746028, "lon": 12.1853236},
-        {"lat": 45.8748881, "lon": 12.1852691}
-      ],
-      "tags": {
-        "highway": "tertiary",
-        "hvg": "no",
-        "name": "Via Piave",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
       "id": 96826751,
       "timestamp": "2020-12-23T19:55:03Z",
       "version": 5,
@@ -54404,6 +54108,150 @@
         {"lat": 45.4722941, "lon": 12.5113234}
       ],
       "tags": {"highway": "tertiary", "name": "Via Pordelio"}
+    },
+    {
+      "type": "way",
+      "id": 971984542,
+      "timestamp": "2021-08-10T13:24:03Z",
+      "version": 1,
+      "changeset": 109465963,
+      "user": "gumul",
+      "uid": 482628,
+      "nodes": [8255688139, 7643943827],
+      "geometry": [
+        {"lat": 45.8753929, "lon": 12.1878131},
+        {"lat": 45.8752574, "lon": 12.1878958},
+        {"lat": 45.8750746, "lon": 12.1879883},
+        {"lat": 45.8747783, "lon": 12.1880216},
+        {"lat": 45.8745671, "lon": 12.1880585},
+        {"lat": 45.8744459, "lon": 12.1881599}
+      ],
+      "tags": {"highway": "footway"}
+    },
+    {
+      "type": "way",
+      "id": 971984545,
+      "timestamp": "2021-08-10T13:24:03Z",
+      "version": 1,
+      "changeset": 109465963,
+      "user": "gumul",
+      "uid": 482628,
+      "nodes": [1121882495, 1121882595],
+      "geometry": [
+        {"lat": 45.8724639, "lon": 12.187536},
+        {"lat": 45.8724498, "lon": 12.1876499}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Via Lierza",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 971990194,
+      "timestamp": "2021-08-10T13:51:29Z",
+      "version": 1,
+      "changeset": 109467223,
+      "user": "gumul",
+      "uid": 482628,
+      "nodes": [8996161155, 540198511],
+      "geometry": [
+        {"lat": 46.4054427, "lon": 12.0233632},
+        {"lat": 46.4054259, "lon": 12.0234533},
+        {"lat": 46.4052397, "lon": 12.0232345}
+      ],
+      "tags": {"highway": "footway"}
+    },
+    {
+      "type": "way",
+      "id": 971990196,
+      "timestamp": "2021-08-10T13:51:29Z",
+      "version": 1,
+      "changeset": 109467223,
+      "user": "gumul",
+      "uid": 482628,
+      "nodes": [797367419, 8996161155],
+      "geometry": [
+        {"lat": 46.4046127, "lon": 12.0207088},
+        {"lat": 46.4049653, "lon": 12.0216124},
+        {"lat": 46.4052431, "lon": 12.0221571},
+        {"lat": 46.4053177, "lon": 12.0224045},
+        {"lat": 46.4053503, "lon": 12.0226305},
+        {"lat": 46.4053391, "lon": 12.0232096},
+        {"lat": 46.4053986, "lon": 12.0233398},
+        {"lat": 46.4054427, "lon": 12.0233632}
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Corso Venezia",
+        "old_ref": "SS203",
+        "ref": "SR203",
+        "reg_ref": "SR203"
+      }
+    },
+    {
+      "type": "way",
+      "id": 971990197,
+      "timestamp": "2021-08-10T13:51:29Z",
+      "version": 1,
+      "changeset": 109467223,
+      "user": "gumul",
+      "uid": 482628,
+      "nodes": [540198513, 690774758],
+      "geometry": [
+        {"lat": 46.4129847, "lon": 12.0408026},
+        {"lat": 46.4130804, "lon": 12.0410197},
+        {"lat": 46.4132068, "lon": 12.0410605}
+      ],
+      "tags": {"highway": "footway"}
+    },
+    {
+      "type": "way",
+      "id": 971990198,
+      "timestamp": "2021-08-10T13:51:29Z",
+      "version": 1,
+      "changeset": 109467223,
+      "user": "gumul",
+      "uid": 482628,
+      "nodes": [5009537270, 540198556],
+      "geometry": [
+        {"lat": 46.4115274, "lon": 12.0436677},
+        {"lat": 46.4114358, "lon": 12.0437643}
+      ],
+      "tags": {"highway": "footway"}
+    },
+    {
+      "type": "way",
+      "id": 971990199,
+      "timestamp": "2021-08-10T13:51:29Z",
+      "version": 1,
+      "changeset": 109467223,
+      "user": "gumul",
+      "uid": 482628,
+      "nodes": [3324328267, 8996161158],
+      "geometry": [
+        {"lat": 46.4152295, "lon": 12.0685287},
+        {"lat": 46.4153386, "lon": 12.0686924}
+      ],
+      "tags": {"highway": "footway"}
+    },
+    {
+      "type": "way",
+      "id": 971990200,
+      "timestamp": "2021-08-10T13:51:29Z",
+      "version": 1,
+      "changeset": 109467223,
+      "user": "gumul",
+      "uid": 482628,
+      "nodes": [8996161158, 690774789],
+      "geometry": [
+        {"lat": 46.4153386, "lon": 12.0686924},
+        {"lat": 46.4151544, "lon": 12.0691704},
+        {"lat": 46.4150202, "lon": 12.0696393}
+      ],
+      "tags": {"highway": "track", "tracktype": "grade2"}
     },
     {
       "type": "way",
