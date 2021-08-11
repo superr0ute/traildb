@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-08-09T23:59:59Z",
-    "timestamp_osm_base": "2021-08-10T06:06:04Z",
+    "timestamp_osm_date": "2021-08-10T23:59:59Z",
+    "timestamp_osm_base": "2021-08-11T06:16:59Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -76,6 +76,29 @@
         "ref:doc": "100064268",
         "shelter_type": "lean_to",
         "source": "LINZ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1225233531,
+      "lat": -41.7846799,
+      "lon": 173.3833302,
+      "timestamp": "2021-08-10T07:36:56Z",
+      "version": 2,
+      "changeset": 109445689,
+      "user": "petenz",
+      "uid": 38928,
+      "tags": {
+        "LINZ:layer": "descrip_text",
+        "LINZ:point_size": "6.0",
+        "LINZ:size": "4.1",
+        "LINZ:source_version": "V16",
+        "LINZ:text_placement_justification": "1.0",
+        "LINZ:x_offset": "0.4",
+        "LINZ:y_offset": "-1.50199",
+        "attribution": "http://wiki.osm.org/wiki/Attribution#LINZ",
+        "source_ref": "http://www.linz.govt.nz/topography/topo-maps/",
+        "tourism": "wilderness_hut"
       }
     },
     {
@@ -740,23 +763,6 @@
     },
     {
       "type": "node",
-      "id": 5332084985,
-      "lat": -41.9114056,
-      "lon": 173.0495637,
-      "timestamp": "2020-10-07T20:04:21Z",
-      "version": 3,
-      "changeset": 92130779,
-      "user": "skgrange",
-      "uid": 1892481,
-      "tags": {
-        "name": "Bottom Misery Hut",
-        "operator": "Department of Conservation",
-        "ref:doc": "100064269",
-        "tourism": "alpine_hut"
-      }
-    },
-    {
-      "type": "node",
       "id": 5332089604,
       "lat": -41.884088,
       "lon": 172.9940961,
@@ -848,22 +854,6 @@
         "name": "Waihopai Saddle",
         "name:mi": "Waihōpai",
         "natural": "saddle"
-      }
-    },
-    {
-      "type": "node",
-      "id": 5645227078,
-      "lat": -41.8627027,
-      "lon": 173.3240336,
-      "timestamp": "2018-06-23T19:51:02Z",
-      "version": 2,
-      "changeset": 60107869,
-      "user": "gaddman",
-      "uid": 365177,
-      "tags": {
-        "name": "Blue Mountain Hut",
-        "ref:doc": "100061608",
-        "tourism": "alpine_hut"
       }
     },
     {
@@ -1313,6 +1303,56 @@
         "name": "Murray Adrian Hut",
         "operator": "Marlborough Tramping Club",
         "tourism": "alpine_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 856520079,
+      "timestamp": "2021-08-10T08:04:57Z",
+      "version": 2,
+      "changeset": 109447119,
+      "user": "petenz",
+      "uid": 38928,
+      "center": {
+        "lat": -41.9114086,
+        "lon": 173.0495621
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "capacity": "6",
+        "fee": "yes",
+        "fireplace": "yes",
+        "name": "Bottom Misery Hut",
+        "operator": "Department of Conservation",
+        "ref:doc": "100064269",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/leatham-conservation-area/things-to-do/huts/bottom-misery-hut/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 856859564,
+      "timestamp": "2021-08-10T07:45:57Z",
+      "version": 3,
+      "changeset": 109446191,
+      "user": "petenz",
+      "uid": 38928,
+      "center": {
+        "lat": -41.862701,
+        "lon": 173.3240412
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "capacity": "4",
+        "fee": "yes",
+        "fireplace": "yes",
+        "name": "Blue Mountain Hut",
+        "operator": "Department of Conservation",
+        "ref:doc": "100061608",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/marlborough/places/glazebrook-conservation-area/things-to-do/huts/blue-mountain-hut/"
       }
     },
     {
