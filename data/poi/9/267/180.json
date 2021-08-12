@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-08-10T23:59:59Z",
-    "timestamp_osm_base": "2021-08-11T04:32:58Z",
+    "timestamp_osm_date": "2021-08-11T23:59:59Z",
+    "timestamp_osm_base": "2021-08-12T04:34:56Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -23684,14 +23684,16 @@
       "id": 6183396405,
       "lat": 47.0317979,
       "lon": 8.2911479,
-      "timestamp": "2019-01-04T10:39:15Z",
-      "version": 1,
-      "changeset": 66016583,
-      "user": "Stans",
-      "uid": 397527,
+      "timestamp": "2021-08-11T14:34:00Z",
+      "version": 3,
+      "changeset": 109521939,
+      "user": "mblaettler",
+      "uid": 3087317,
       "tags": {
         "name": "Prima",
-        "shop": "convenience"
+        "opening_hours": "Mo-Fr 07:30-12:15; Sa 07:00-16:00",
+        "shop": "convenience",
+        "wheelchair": "no"
       }
     },
     {
@@ -29751,6 +29753,23 @@
       }
     },
     {
+      "type": "node",
+      "id": 8997808933,
+      "lat": 46.9880025,
+      "lon": 8.0604249,
+      "timestamp": "2021-08-11T06:54:35Z",
+      "version": 1,
+      "changeset": 109497967,
+      "user": "paschagl",
+      "uid": 3868994,
+      "tags": {
+        "amenity": "drinking_water",
+        "covered": "no",
+        "indoor": "no",
+        "lit": "no"
+      }
+    },
+    {
       "type": "way",
       "id": 35081148,
       "timestamp": "2020-05-10T16:08:56Z",
@@ -31535,11 +31554,11 @@
     {
       "type": "way",
       "id": 282971174,
-      "timestamp": "2018-03-22T13:34:30Z",
-      "version": 2,
-      "changeset": 57423373,
-      "user": "Voonosm",
-      "uid": 4378872,
+      "timestamp": "2021-08-11T06:54:35Z",
+      "version": 3,
+      "changeset": 109497967,
+      "user": "paschagl",
+      "uid": 3868994,
       "center": {
         "lat": 46.9376653,
         "lon": 8.0355388
@@ -31547,7 +31566,11 @@
       "nodes": [],
       "tags": {
         "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
         "building": "yes",
+        "lit": "no",
+        "lockable": "no",
         "name": "Stolehüttli"
       }
     },
