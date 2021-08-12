@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-08T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-11T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11123868,
-      "timestamp": "2021-08-08T15:05:01Z",
-      "version": 153,
-      "changeset": 109350312,
-      "user": "ar58",
-      "uid": 572423,
+      "timestamp": "2021-08-11T15:38:54Z",
+      "version": 154,
+      "changeset": 109524796,
+      "user": "hatul",
+      "uid": 686490,
       "members": [
         {"type": "way", "ref": 723053761, "role": ""},
         {"type": "way", "ref": 853340709, "role": ""},
@@ -1239,6 +1239,7 @@
         {"type": "way", "ref": 316690946, "role": ""},
         {"type": "way", "ref": 316690942, "role": ""},
         {"type": "way", "ref": 318115170, "role": ""},
+        {"type": "way", "ref": 972308483, "role": ""},
         {"type": "way", "ref": 295870829, "role": ""},
         {"type": "way", "ref": 295870843, "role": ""},
         {"type": "way", "ref": 295870838, "role": ""},
@@ -15174,15 +15175,13 @@
     {
       "type": "way",
       "id": 295870829,
-      "timestamp": "2017-04-09T07:48:47Z",
-      "version": 4,
-      "changeset": 47586475,
-      "user": "zstadler",
-      "uid": 3127,
-      "nodes": [2996314850, 2996314888],
+      "timestamp": "2021-08-11T15:38:54Z",
+      "version": 5,
+      "changeset": 109524796,
+      "user": "hatul",
+      "uid": 686490,
+      "nodes": [2996314899, 2996314888],
       "geometry": [
-        {"lat": 31.9629291, "lon": 34.9542499},
-        {"lat": 31.9626566, "lon": 34.9541677},
         {"lat": 31.9625923, "lon": 34.9541627},
         {"lat": 31.9623998, "lon": 34.9541869},
         {"lat": 31.9622292, "lon": 34.9541576}
@@ -15192,11 +15191,11 @@
     {
       "type": "way",
       "id": 295870838,
-      "timestamp": "2017-04-09T07:48:47Z",
-      "version": 4,
-      "changeset": 47586475,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2021-08-11T05:04:06Z",
+      "version": 5,
+      "changeset": 109492723,
+      "user": "VELOCITY_club",
+      "uid": 5556216,
       "nodes": [2996315116, 2996314796],
       "geometry": [
         {"lat": 31.9638604, "lon": 34.95134},
@@ -15221,12 +15220,7 @@
         {"lat": 31.963385, "lon": 34.9538118},
         {"lat": 31.9633783, "lon": 34.9541362}
       ],
-      "tags": {
-        "colour": "black",
-        "highway": "unclassified",
-        "oneway": "yes",
-        "source": "GPS"
-      }
+      "tags": {"highway": "unclassified", "oneway": "yes", "source": "GPS"}
     },
     {
       "type": "way",
@@ -29309,11 +29303,11 @@
     {
       "type": "way",
       "id": 416551719,
-      "timestamp": "2017-04-09T07:48:47Z",
-      "version": 2,
-      "changeset": 47586475,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2021-08-11T05:04:06Z",
+      "version": 3,
+      "changeset": 109492723,
+      "user": "VELOCITY_club",
+      "uid": 5556216,
       "nodes": [641323905, 2996314904],
       "geometry": [
         {"lat": 31.9641419, "lon": 34.9509484},
@@ -29326,7 +29320,7 @@
         {"lat": 31.9654881, "lon": 34.9514735},
         {"lat": 31.9660869, "lon": 34.9519337}
       ],
-      "tags": {"colour": "green", "highway": "track", "tracktype": "grade5"}
+      "tags": {"highway": "track", "tracktype": "grade5"}
     },
     {
       "type": "way",
@@ -45773,18 +45767,17 @@
     {
       "type": "way",
       "id": 723589871,
-      "timestamp": "2019-09-10T21:31:51Z",
-      "version": 1,
-      "changeset": 74329792,
-      "user": "ATGardner",
-      "uid": 287860,
+      "timestamp": "2021-08-11T20:31:41Z",
+      "version": 2,
+      "changeset": 109536131,
+      "user": "VELOCITY_club",
+      "uid": 5556216,
       "nodes": [3101969833, 1145464094],
       "geometry": [
         {"lat": 31.3076431, "lon": 35.2694208},
         {"lat": 31.307485, "lon": 35.269426},
-        {"lat": 31.3073979, "lon": 35.2694558},
-        {"lat": 31.30738, "lon": 35.269462},
-        {"lat": 31.307303, "lon": 35.2695203}
+        {"lat": 31.3073168, "lon": 35.2694203},
+        {"lat": 31.3071555, "lon": 35.2694046}
       ],
       "tags": {
         "bicycle": "yes",
@@ -45905,11 +45898,11 @@
     {
       "type": "way",
       "id": 723589877,
-      "timestamp": "2019-09-10T21:31:51Z",
-      "version": 1,
-      "changeset": 74329792,
-      "user": "ATGardner",
-      "uid": 287860,
+      "timestamp": "2021-08-11T20:31:41Z",
+      "version": 2,
+      "changeset": 109536131,
+      "user": "VELOCITY_club",
+      "uid": 5556216,
       "nodes": [1129930639, 4348276950],
       "geometry": [
         {"lat": 31.3308335, "lon": 35.2783305},
@@ -45939,6 +45932,7 @@
         {"lat": 31.326487, "lon": 35.277161},
         {"lat": 31.326113, "lon": 35.277035},
         {"lat": 31.324635, "lon": 35.27636},
+        {"lat": 31.3244333, "lon": 35.2762975},
         {"lat": 31.3242673, "lon": 35.2762461}
       ],
       "tags": {
@@ -46790,7 +46784,7 @@
         {"lat": 31.3066739, "lon": 35.2692783},
         {"lat": 31.3069065, "lon": 35.2693678},
         {"lat": 31.3070256, "lon": 35.2694136},
-        {"lat": 31.307303, "lon": 35.2695203}
+        {"lat": 31.3071555, "lon": 35.2694046}
       ],
       "tags": {"highway": "path"}
     },
@@ -71859,6 +71853,22 @@
         "foot": "yes",
         "highway": "track"
       }
+    },
+    {
+      "type": "way",
+      "id": 972308483,
+      "timestamp": "2021-08-11T15:38:54Z",
+      "version": 1,
+      "changeset": 109524796,
+      "user": "hatul",
+      "uid": 686490,
+      "nodes": [2996314850, 2996314899],
+      "geometry": [
+        {"lat": 31.9629291, "lon": 34.9542499},
+        {"lat": 31.9626566, "lon": 34.9541677},
+        {"lat": 31.9625923, "lon": 34.9541627}
+      ],
+      "tags": {"colour": "blue", "highway": "unclassified", "source": "GPS"}
     },
     {
       "type": "way",
