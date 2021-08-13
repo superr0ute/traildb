@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-10T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-12T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 136334,
-      "timestamp": "2021-08-09T18:05:56Z",
-      "version": 489,
-      "changeset": 109422891,
+      "timestamp": "2021-08-12T15:08:09Z",
+      "version": 491,
+      "changeset": 109579996,
       "user": "gabriele_sani",
       "uid": 7078274,
       "members": [
@@ -51,6 +51,11 @@
         {"type": "node", "ref": 8635205775, "role": ""},
         {"type": "node", "ref": 8635205782, "role": ""},
         {"type": "node", "ref": 8677051628, "role": ""},
+        {"type": "node", "ref": 8993818010, "role": ""},
+        {"type": "node", "ref": 9001701387, "role": ""},
+        {"type": "node", "ref": 9001701389, "role": ""},
+        {"type": "node", "ref": 9001701390, "role": ""},
+        {"type": "node", "ref": 9001701391, "role": ""},
         {"type": "way", "ref": 229222300, "role": ""},
         {"type": "way", "ref": 542558448, "role": ""},
         {"type": "way", "ref": 810890364, "role": ""},
@@ -629,7 +634,6 @@
         {"type": "way", "ref": 534105353, "role": ""},
         {"type": "way", "ref": 733546807, "role": ""},
         {"type": "way", "ref": 534105351, "role": ""},
-        {"type": "way", "ref": 579596463, "role": ""},
         {"type": "way", "ref": 579596462, "role": ""},
         {"type": "way", "ref": 395308696, "role": ""},
         {"type": "way", "ref": 44509494, "role": ""},
@@ -751,7 +755,8 @@
         {"type": "way", "ref": 362470034, "role": ""},
         {"type": "way", "ref": 242736834, "role": ""},
         {"type": "way", "ref": 132844508, "role": ""},
-        {"type": "node", "ref": 8993818010, "role": ""}
+        {"type": "way", "ref": 534105352, "role": ""},
+        {"type": "way", "ref": 972610521, "role": ""}
       ],
       "tags": {
         "ascent": "12731",
@@ -22410,9 +22415,9 @@
     {
       "type": "way",
       "id": 534105351,
-      "timestamp": "2019-10-11T10:55:27Z",
-      "version": 5,
-      "changeset": 75557978,
+      "timestamp": "2021-08-12T15:08:09Z",
+      "version": 6,
+      "changeset": 109579996,
       "user": "gabriele_sani",
       "uid": 7078274,
       "nodes": [1258832180, 5543043384],
@@ -22500,10 +22505,35 @@
         {"lat": 43.808544, "lon": 11.893131}
       ],
       "tags": {
-        "bicycle": "yes",
         "highway": "path",
         "sac_scale": "hiking",
         "trail_visibility": "excellent"
+      }
+    },
+    {
+      "type": "way",
+      "id": 534105352,
+      "timestamp": "2019-12-05T16:14:09Z",
+      "version": 5,
+      "changeset": 78007991,
+      "user": "gabriele_sani",
+      "uid": 7078274,
+      "nodes": [1258832180, 4931019456],
+      "geometry": [
+        {"lat": 43.8091792, "lon": 11.9000109},
+        {"lat": 43.8091857, "lon": 11.8997396}
+      ],
+      "tags": {
+        "access": "yes",
+        "class:bicycle:mtb": "1",
+        "highway": "track",
+        "maxspeed": "30",
+        "motor_vehicle": "forestry",
+        "mtb:scale": "0",
+        "mtb:scale:uphill": "0",
+        "smoothness": "very_bad",
+        "surface": "ground",
+        "tracktype": "grade2"
       }
     },
     {
@@ -24650,15 +24680,13 @@
     {
       "type": "way",
       "id": 579596462,
-      "timestamp": "2018-04-13T14:56:33Z",
-      "version": 1,
-      "changeset": 58067023,
-      "user": "Leonorf",
-      "uid": 6614942,
-      "nodes": [565503113, 565503121],
+      "timestamp": "2021-08-12T15:08:09Z",
+      "version": 2,
+      "changeset": 109579996,
+      "user": "gabriele_sani",
+      "uid": 7078274,
+      "nodes": [565503116, 565503121],
       "geometry": [
-        {"lat": 43.8088497, "lon": 11.9010807},
-        {"lat": 43.8090985, "lon": 11.9012563},
         {"lat": 43.8092037, "lon": 11.9013481},
         {"lat": 43.8093306, "lon": 11.9020349},
         {"lat": 43.8093706, "lon": 11.9022048},
@@ -24668,36 +24696,6 @@
         {"lat": 43.8097701, "lon": 11.903231}
       ],
       "tags": {"bicycle": "yes", "highway": "path", "mtb:scale": "1"}
-    },
-    {
-      "type": "way",
-      "id": 579596463,
-      "timestamp": "2019-12-05T16:14:09Z",
-      "version": 6,
-      "changeset": 78007991,
-      "user": "gabriele_sani",
-      "uid": 7078274,
-      "nodes": [1258832180, 565503113],
-      "geometry": [
-        {"lat": 43.8091792, "lon": 11.9000109},
-        {"lat": 43.8091503, "lon": 11.9004188},
-        {"lat": 43.8091078, "lon": 11.9005833},
-        {"lat": 43.8090703, "lon": 11.9006988},
-        {"lat": 43.8088497, "lon": 11.9010807}
-      ],
-      "tags": {
-        "access": "yes",
-        "class:bicycle:mtb": "1",
-        "highway": "track",
-        "maxspeed": "30",
-        "motor_vehicle": "forestry",
-        "mtb:scale": "0",
-        "mtb:scale:uphill": "0",
-        "smoothness": "very_bad",
-        "surface": "ground",
-        "tracktype": "grade2",
-        "width": "3"
-      }
     },
     {
       "type": "way",
@@ -35110,6 +35108,25 @@
         "ref": "SR325",
         "reg_ref": "SR325"
       }
+    },
+    {
+      "type": "way",
+      "id": 972610521,
+      "timestamp": "2021-08-12T15:08:09Z",
+      "version": 1,
+      "changeset": 109579996,
+      "user": "gabriele_sani",
+      "uid": 7078274,
+      "nodes": [4931019456, 565503116],
+      "geometry": [
+        {"lat": 43.8091857, "lon": 11.8997396},
+        {"lat": 43.8092581, "lon": 11.9000131},
+        {"lat": 43.8093055, "lon": 11.9003893},
+        {"lat": 43.80926, "lon": 11.9007971},
+        {"lat": 43.8092239, "lon": 11.9009654},
+        {"lat": 43.8092037, "lon": 11.9013481}
+      ],
+      "tags": {"highway": "path", "surface": "ground"}
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-12T02:33:28Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-13T02:32:00Z"},
   "elements": [
     {
       "type": "relation",
       "id": 2704286,
-      "timestamp": "2021-08-11T13:25:18Z",
-      "version": 758,
-      "changeset": 109519003,
-      "user": "jcr83",
-      "uid": 234940,
+      "timestamp": "2021-08-12T09:52:26Z",
+      "version": 759,
+      "changeset": 109562480,
+      "user": "TitiABCD",
+      "uid": 11852672,
       "members": [
         {"type": "way", "ref": 38349692, "role": ""},
         {"type": "way", "ref": 39173095, "role": ""},
@@ -754,9 +754,8 @@
         {"type": "way", "ref": 343118889, "role": ""},
         {"type": "way", "ref": 47217237, "role": ""},
         {"type": "way", "ref": 31815593, "role": ""},
-        {"type": "way", "ref": 322508788, "role": ""},
         {"type": "way", "ref": 302730499, "role": ""},
-        {"type": "way", "ref": 302730498, "role": ""},
+        {"type": "way", "ref": 972531447, "role": ""},
         {"type": "way", "ref": 322508786, "role": ""},
         {"type": "way", "ref": 302730503, "role": ""},
         {"type": "way", "ref": 31815586, "role": ""},
@@ -25424,42 +25423,24 @@
     },
     {
       "type": "way",
-      "id": 302730498,
-      "timestamp": "2015-01-16T17:59:50Z",
-      "version": 2,
-      "changeset": 28192971,
-      "user": "Eric S",
-      "uid": 45284,
-      "nodes": [356247075, 3292802354],
-      "geometry": [
-        {"lat": 45.396693, "lon": 7.0392868, "z": 2282.4},
-        {"lat": 45.3966618, "lon": 7.0393284, "z": 2282.3}
-      ],
-      "tags": {
-        "highway": "track",
-        "sac_scale": "mountain_hiking",
-        "source": "PNV - 2006"
-      }
-    },
-    {
-      "type": "way",
       "id": 302730499,
-      "timestamp": "2015-01-16T17:59:50Z",
-      "version": 2,
-      "changeset": 28192971,
-      "user": "Eric S",
-      "uid": 45284,
-      "nodes": [356247076, 356247075],
+      "timestamp": "2021-08-12T09:52:26Z",
+      "version": 3,
+      "changeset": 109562480,
+      "user": "TitiABCD",
+      "uid": 11852672,
+      "nodes": [356247076, 3292802354],
       "geometry": [
-        {"lat": 45.3968092, "lon": 7.0390622, "z": 2282.6},
-        {"lat": 45.396693, "lon": 7.0392868, "z": 2282.4}
+        {"lat": 45.396793, "lon": 7.0390453, "z": 2282},
+        {"lat": 45.3966553, "lon": 7.0393192, "z": 2282}
       ],
       "tags": {
         "bridge": "yes",
         "highway": "track",
         "layer": "1",
         "sac_scale": "mountain_hiking",
-        "source": "PNV - 2006"
+        "source": "PNV - 2006",
+        "tracktype": "grade2"
       }
     },
     {
@@ -25508,11 +25489,11 @@
     {
       "type": "way",
       "id": 302730503,
-      "timestamp": "2014-09-10T11:15:10Z",
-      "version": 1,
-      "changeset": 25346374,
-      "user": "JFK73",
-      "uid": 662440,
+      "timestamp": "2021-08-12T09:52:26Z",
+      "version": 2,
+      "changeset": 109562480,
+      "user": "TitiABCD",
+      "uid": 11852672,
       "nodes": [356247101, 356247097],
       "geometry": [
         {"lat": 45.3902896, "lon": 7.0391023, "z": 2164.5},
@@ -25527,7 +25508,9 @@
       "tags": {
         "highway": "track",
         "sac_scale": "mountain_hiking",
+        "smoothness": "intermediate",
         "source": "PNV - 2006",
+        "surface": "pebblestone",
         "tracktype": "grade3"
       }
     },
@@ -28009,11 +27992,11 @@
     {
       "type": "way",
       "id": 31815593,
-      "timestamp": "2019-08-08T19:33:31Z",
-      "version": 5,
-      "changeset": 73169036,
-      "user": "fschmidt",
-      "uid": 40527,
+      "timestamp": "2021-08-12T09:52:26Z",
+      "version": 6,
+      "changeset": 109562480,
+      "user": "TitiABCD",
+      "uid": 11852672,
       "nodes": [356237399, 3292802358],
       "geometry": [
         {"lat": 45.4058768, "lon": 7.0275664, "z": 2535},
@@ -28032,6 +28015,7 @@
         {"lat": 45.404391, "lon": 7.029434, "z": 2510.6},
         {"lat": 45.404161, "lon": 7.029753, "z": 2508.4},
         {"lat": 45.40377, "lon": 7.030637, "z": 2492.3},
+        {"lat": 45.4037383, "lon": 7.031001, "z": 2486.5},
         {"lat": 45.403732, "lon": 7.031074, "z": 2486.9},
         {"lat": 45.403555, "lon": 7.031491, "z": 2485.2},
         {"lat": 45.4033333, "lon": 7.0318614, "z": 2486.2},
@@ -28071,13 +28055,16 @@
         {"lat": 45.3974384, "lon": 7.0374657, "z": 2295.2},
         {"lat": 45.3972493, "lon": 7.0373413, "z": 2289.4},
         {"lat": 45.397045, "lon": 7.037461, "z": 2283},
-        {"lat": 45.396916, "lon": 7.037551, "z": 2278.9},
-        {"lat": 45.3968716, "lon": 7.038325, "z": 2279.3}
+        {"lat": 45.3970036, "lon": 7.0374632, "z": 2281.7},
+        {"lat": 45.3969657, "lon": 7.0381467, "z": 2281.6},
+        {"lat": 45.3968732, "lon": 7.0384485, "z": 2279.8},
+        {"lat": 45.3968262, "lon": 7.0388827, "z": 2281.7}
       ],
       "tags": {
-        "highway": "path",
+        "highway": "footway",
         "sac_scale": "mountain_hiking",
-        "source": "PNV - 2006"
+        "source": "PNV - 2006",
+        "surface": "ground"
       }
     },
     {
@@ -31002,14 +30989,14 @@
     {
       "type": "way",
       "id": 322508786,
-      "timestamp": "2019-08-08T19:33:31Z",
-      "version": 2,
-      "changeset": 73169036,
-      "user": "fschmidt",
-      "uid": 40527,
+      "timestamp": "2021-08-12T09:52:26Z",
+      "version": 3,
+      "changeset": 109562480,
+      "user": "TitiABCD",
+      "uid": 11852672,
       "nodes": [3292802354, 356247101],
       "geometry": [
-        {"lat": 45.3966618, "lon": 7.0393284, "z": 2282.3},
+        {"lat": 45.3966553, "lon": 7.0393192, "z": 2282},
         {"lat": 45.3966069, "lon": 7.0391912, "z": 2278.9},
         {"lat": 45.3964809, "lon": 7.0390767, "z": 2274.5},
         {"lat": 45.3962346, "lon": 7.039068, "z": 2268.8},
@@ -31031,30 +31018,10 @@
         {"lat": 45.3902896, "lon": 7.0391023, "z": 2164.5}
       ],
       "tags": {
-        "highway": "path",
+        "highway": "footway",
         "sac_scale": "mountain_hiking",
-        "source": "PNV - 2006"
-      }
-    },
-    {
-      "type": "way",
-      "id": 322508788,
-      "timestamp": "2015-01-16T17:59:41Z",
-      "version": 1,
-      "changeset": 28192971,
-      "user": "Eric S",
-      "uid": 45284,
-      "nodes": [3292802358, 356247076],
-      "geometry": [
-        {"lat": 45.3968716, "lon": 7.038325, "z": 2279.3},
-        {"lat": 45.3968381, "lon": 7.038766, "z": 2281.1},
-        {"lat": 45.3968398, "lon": 7.0388803, "z": 2282},
-        {"lat": 45.3968092, "lon": 7.0390622, "z": 2282.6}
-      ],
-      "tags": {
-        "highway": "track",
-        "sac_scale": "mountain_hiking",
-        "source": "PNV - 2006"
+        "source": "PNV - 2006",
+        "surface": "ground"
       }
     },
     {
@@ -33608,11 +33575,11 @@
     {
       "type": "way",
       "id": 343204076,
-      "timestamp": "2021-01-31T18:49:55Z",
-      "version": 3,
-      "changeset": 98462055,
-      "user": "StC",
-      "uid": 220314,
+      "timestamp": "2021-08-12T09:52:26Z",
+      "version": 4,
+      "changeset": 109562480,
+      "user": "TitiABCD",
+      "uid": 11852672,
       "nodes": [166990547, 1066165464],
       "geometry": [
         {"lat": 45.3059734, "lon": 6.9581413, "z": 1698.7},
@@ -33630,6 +33597,7 @@
         {"lat": 45.3050506, "lon": 6.954413, "z": 1748.6},
         {"lat": 45.3050673, "lon": 6.9541643, "z": 1753},
         {"lat": 45.3050573, "lon": 6.954005, "z": 1755.1},
+        {"lat": 45.3050111, "lon": 6.9539899, "z": 1753.6},
         {"lat": 45.3049822, "lon": 6.9539805, "z": 1752.7},
         {"lat": 45.3048473, "lon": 6.9540441, "z": 1746.9},
         {"lat": 45.3046299, "lon": 6.9538622, "z": 1741.6},
@@ -41717,11 +41685,11 @@
     {
       "type": "way",
       "id": 374126370,
-      "timestamp": "2019-08-08T19:39:49Z",
-      "version": 3,
-      "changeset": 73169219,
-      "user": "fschmidt",
-      "uid": 40527,
+      "timestamp": "2021-08-12T09:52:26Z",
+      "version": 4,
+      "changeset": 109562480,
+      "user": "TitiABCD",
+      "uid": 11852672,
       "nodes": [356237979, 356255493],
       "geometry": [
         {"lat": 45.3807671, "lon": 7.0393521, "z": 2268.9},
@@ -41769,6 +41737,7 @@
         {"lat": 45.371265, "lon": 7.021987, "z": 2414.7},
         {"lat": 45.370985, "lon": 7.022008, "z": 2412.4},
         {"lat": 45.370743, "lon": 7.021974, "z": 2412.9},
+        {"lat": 45.370588, "lon": 7.0217987, "z": 2417.9},
         {"lat": 45.3703025, "lon": 7.0214758, "z": 2427}
       ],
       "tags": {
@@ -52838,11 +52807,11 @@
     {
       "type": "way",
       "id": 47217237,
-      "timestamp": "2009-12-30T19:55:55Z",
-      "version": 1,
-      "changeset": 3493101,
-      "user": "Eric S",
-      "uid": 45284,
+      "timestamp": "2021-08-12T09:52:26Z",
+      "version": 2,
+      "changeset": 109562480,
+      "user": "TitiABCD",
+      "uid": 11852672,
       "nodes": [278917390, 356237399],
       "geometry": [
         {"lat": 45.4065065, "lon": 7.0278327, "z": 2535.2},
@@ -52852,9 +52821,10 @@
         {"lat": 45.4058768, "lon": 7.0275664, "z": 2535}
       ],
       "tags": {
-        "highway": "path",
+        "highway": "footway",
         "sac_scale": "mountain_hiking",
-        "source": "PNV - 2006"
+        "source": "PNV - 2006",
+        "surface": "ground"
       }
     },
     {
@@ -72076,6 +72046,29 @@
         "incline": "up",
         "name": "Chemin des Pommiers d'Antan",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
+      }
+    },
+    {
+      "type": "way",
+      "id": 972531447,
+      "timestamp": "2021-08-12T09:52:26Z",
+      "version": 1,
+      "changeset": 109562480,
+      "user": "TitiABCD",
+      "uid": 11852672,
+      "nodes": [3292802358, 356247076],
+      "geometry": [
+        {"lat": 45.3968262, "lon": 7.0388827, "z": 2281.7},
+        {"lat": 45.3968194, "lon": 7.0389584, "z": 2282.1},
+        {"lat": 45.3968182, "lon": 7.0389717, "z": 2282.1},
+        {"lat": 45.396793, "lon": 7.0390453, "z": 2282}
+      ],
+      "tags": {
+        "highway": "track",
+        "sac_scale": "mountain_hiking",
+        "source": "PNV - 2006",
+        "surface": "pebblestone",
+        "tracktype": "grade3"
       }
     },
     {
