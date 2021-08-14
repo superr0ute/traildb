@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-07T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-13T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -9054,18 +9054,22 @@
     {
       "type": "way",
       "id": 295708273,
-      "timestamp": "2019-01-20T10:01:31Z",
-      "version": 6,
-      "changeset": 66471141,
-      "user": "Francoerbi41",
-      "uid": 4982687,
+      "timestamp": "2021-08-13T10:17:33Z",
+      "version": 8,
+      "changeset": 109620386,
+      "user": "stedewa",
+      "uid": 9733,
       "nodes": [3669252346, 3897496934],
       "geometry": [
         {"lat": 46.0085859, "lon": 7.7376521},
         {"lat": 46.0090467, "lon": 7.738},
         {"lat": 46.0094262, "lon": 7.7382762}
       ],
-      "tags": {"highway": "track"}
+      "tags": {
+        "highway": "track",
+        "surface": "fine_gravel",
+        "tracktype": "grade4"
+      }
     },
     {
       "type": "way",
@@ -11430,11 +11434,11 @@
     {
       "type": "way",
       "id": 37706508,
-      "timestamp": "2019-12-27T15:05:02Z",
-      "version": 11,
-      "changeset": 78931223,
-      "user": "TMMM",
-      "uid": 5774181,
+      "timestamp": "2021-08-13T10:05:28Z",
+      "version": 13,
+      "changeset": 109619656,
+      "user": "stedewa",
+      "uid": 9733,
       "nodes": [313528927, 442135300],
       "geometry": [
         {"lat": 46.0150791, "lon": 7.7426384},
@@ -11447,8 +11451,10 @@
       "tags": {
         "handrail": "yes",
         "highway": "steps",
+        "incline": "down",
         "lit": "yes",
         "name": "Winkelmattenweg",
+        "ramp": "no",
         "surface": "paving_stones"
       }
     },
