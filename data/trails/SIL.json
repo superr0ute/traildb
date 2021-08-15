@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-13T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-14T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -3502,11 +3502,11 @@
     {
       "type": "relation",
       "id": 7706215,
-      "timestamp": "2021-06-18T21:33:08Z",
-      "version": 16,
-      "changeset": 106610148,
-      "user": "Pedisa",
-      "uid": 4780829,
+      "timestamp": "2021-08-14T18:53:42Z",
+      "version": 17,
+      "changeset": 109680122,
+      "user": "hal 9000",
+      "uid": 639546,
       "members": [
         {"type": "way", "ref": 921354760, "role": ""},
         {"type": "way", "ref": 209861632, "role": ""},
@@ -3555,6 +3555,8 @@
         {"type": "way", "ref": 229602205, "role": ""},
         {"type": "way", "ref": 672884903, "role": ""},
         {"type": "way", "ref": 495568179, "role": ""},
+        {"type": "way", "ref": 973138208, "role": ""},
+        {"type": "way", "ref": 973138209, "role": ""},
         {"type": "way", "ref": 495568180, "role": ""},
         {"type": "way", "ref": 538048316, "role": ""},
         {"type": "way", "ref": 113618519, "role": ""},
@@ -67460,15 +67462,14 @@
     {
       "type": "way",
       "id": 495568180,
-      "timestamp": "2021-06-18T21:33:08Z",
-      "version": 3,
-      "changeset": 106610148,
-      "user": "Pedisa",
-      "uid": 4780829,
-      "nodes": [420808744, 420807908],
+      "timestamp": "2021-08-14T18:53:42Z",
+      "version": 4,
+      "changeset": 109680122,
+      "user": "hal 9000",
+      "uid": 639546,
+      "nodes": [9007009024, 420807908],
       "geometry": [
-        {"lat": 45.9740657, "lon": 9.2489634},
-        {"lat": 45.9742128, "lon": 9.2490149},
+        {"lat": 45.9744635, "lon": 9.2490759},
         {"lat": 45.9747217, "lon": 9.249128},
         {"lat": 45.9752545, "lon": 9.2492183},
         {"lat": 45.9754374, "lon": 9.2492551},
@@ -100633,6 +100634,51 @@
         "name": "Sentiero Prabello - Bonello",
         "sac_scale": "mountain_hiking",
         "width": "0.5"
+      }
+    },
+    {
+      "type": "way",
+      "id": 973138208,
+      "timestamp": "2021-08-14T18:53:42Z",
+      "version": 1,
+      "changeset": 109680122,
+      "user": "hal 9000",
+      "uid": 639546,
+      "nodes": [9007009025, 9007009024],
+      "geometry": [
+        {"lat": 45.9744272, "lon": 9.2490678},
+        {"lat": 45.9744635, "lon": 9.2490759}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "motor_vehicle": "private",
+        "name": "Via Ciceri",
+        "surface": "cobblestone",
+        "tracktype": "grade1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 973138209,
+      "timestamp": "2021-08-14T18:53:42Z",
+      "version": 1,
+      "changeset": 109680122,
+      "user": "hal 9000",
+      "uid": 639546,
+      "nodes": [420808744, 9007009025],
+      "geometry": [
+        {"lat": 45.9740657, "lon": 9.2489634},
+        {"lat": 45.9742128, "lon": 9.2490149},
+        {"lat": 45.9744272, "lon": 9.2490678}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "motor_vehicle": "private",
+        "name": "Via Ciceri",
+        "surface": "cobblestone",
+        "tracktype": "grade1"
       }
     },
     {

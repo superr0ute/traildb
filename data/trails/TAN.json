@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-12T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-14T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2193,9 +2193,9 @@
     {
       "type": "relation",
       "id": 9605870,
-      "timestamp": "2021-05-04T23:31:06Z",
-      "version": 29,
-      "changeset": 104149366,
+      "timestamp": "2021-08-14T00:34:12Z",
+      "version": 30,
+      "changeset": 109652640,
       "user": "callum_AT",
       "uid": 9896539,
       "members": [
@@ -2364,7 +2364,6 @@
         {"type": "way", "ref": 258997505, "role": ""},
         {"type": "way", "ref": 314439088, "role": ""},
         {"type": "way", "ref": 645893037, "role": ""},
-        {"type": "way", "ref": 645893036, "role": ""},
         {"type": "way", "ref": 314439089, "role": ""},
         {"type": "way", "ref": 645893035, "role": ""},
         {"type": "way", "ref": 714623467, "role": ""},
@@ -31609,11 +31608,11 @@
     {
       "type": "way",
       "id": 258997505,
-      "timestamp": "2021-01-12T19:54:10Z",
-      "version": 8,
-      "changeset": 97394578,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-08-14T00:34:12Z",
+      "version": 9,
+      "changeset": 109652640,
+      "user": "callum_AT",
+      "uid": 9896539,
       "nodes": [266929961, 2643052574],
       "geometry": [
         {"lat": -36.9250957, "lon": 174.777132},
@@ -31630,7 +31629,11 @@
         {"lat": -36.9259771, "lon": 174.7778374},
         {"lat": -36.9260123, "lon": 174.7778307}
       ],
-      "tags": {"highway": "footway"}
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway"
+      }
     },
     {
       "type": "way",
@@ -39099,44 +39102,59 @@
     {
       "type": "way",
       "id": 314439088,
-      "timestamp": "2021-01-12T19:54:10Z",
-      "version": 8,
-      "changeset": 97394578,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-08-14T00:34:12Z",
+      "version": 9,
+      "changeset": 109652640,
+      "user": "callum_AT",
+      "uid": 9896539,
       "nodes": [2643052574, 2643052598],
       "geometry": [
         {"lat": -36.9260123, "lon": 174.7778307},
         {"lat": -36.9266771, "lon": 174.7773064}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "designated",
         "bridge": "yes",
-        "highway": "footway",
+        "foot": "designated",
+        "highway": "cycleway",
         "layer": "1"
       }
     },
     {
       "type": "way",
       "id": 314439089,
-      "timestamp": "2021-01-12T19:54:10Z",
-      "version": 7,
-      "changeset": 97394578,
-      "user": "kylenz",
-      "uid": 10140394,
-      "nodes": [6070177818, 2643052630],
+      "timestamp": "2021-08-14T00:34:12Z",
+      "version": 8,
+      "changeset": 109652640,
+      "user": "callum_AT",
+      "uid": 9896539,
+      "nodes": [6070177819, 2643052630],
       "geometry": [
+        {"lat": -36.9267337, "lon": 174.7772592},
         {"lat": -36.9268183, "lon": 174.7771932},
-        {"lat": -36.9268669, "lon": 174.7771534},
-        {"lat": -36.9269763, "lon": 174.7771335},
-        {"lat": -36.9270728, "lon": 174.777159},
-        {"lat": -36.9272036, "lon": 174.777206},
-        {"lat": -36.9274747, "lon": 174.7772669},
+        {"lat": -36.9268614, "lon": 174.7771625},
+        {"lat": -36.9268909, "lon": 174.7771514},
+        {"lat": -36.9269196, "lon": 174.7771418},
+        {"lat": -36.9269764, "lon": 174.7771362},
+        {"lat": -36.9270324, "lon": 174.777148},
+        {"lat": -36.9270726, "lon": 174.7771612},
+        {"lat": -36.9271358, "lon": 174.7771869},
+        {"lat": -36.9272034, "lon": 174.7772082},
+        {"lat": -36.9272726, "lon": 174.7772242},
+        {"lat": -36.9273777, "lon": 174.777242},
+        {"lat": -36.9274277, "lon": 174.7772496},
+        {"lat": -36.9274757, "lon": 174.7772618},
+        {"lat": -36.9275289, "lon": 174.7772919},
         {"lat": -36.927567, "lon": 174.7773289},
-        {"lat": -36.9276495, "lon": 174.777452},
-        {"lat": -36.9277077, "lon": 174.7776611}
+        {"lat": -36.9276124, "lon": 174.7773907},
+        {"lat": -36.9276428, "lon": 174.7774552},
+        {"lat": -36.9277116, "lon": 174.7776601}
       ],
-      "tags": {"highway": "footway"}
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway"
+      }
     },
     {
       "type": "way",
@@ -48744,11 +48762,11 @@
     {
       "type": "way",
       "id": 373848822,
-      "timestamp": "2021-01-12T19:54:10Z",
-      "version": 5,
-      "changeset": 97394578,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-08-14T00:34:12Z",
+      "version": 6,
+      "changeset": 109652640,
+      "user": "callum_AT",
+      "uid": 9896539,
       "nodes": [266929961, 3365289525],
       "geometry": [
         {"lat": -36.9250957, "lon": 174.777132},
@@ -48757,10 +48775,15 @@
         {"lat": -36.9248859, "lon": 174.7772968},
         {"lat": -36.9248375, "lon": 174.7773376},
         {"lat": -36.9248078, "lon": 174.7773619},
+        {"lat": -36.9245856, "lon": 174.777143},
         {"lat": -36.9245392, "lon": 174.7770973},
         {"lat": -36.924318, "lon": 174.7768618}
       ],
-      "tags": {"highway": "footway"}
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway"
+      }
     },
     {
       "type": "way",
@@ -72049,14 +72072,14 @@
     {
       "type": "way",
       "id": 645893035,
-      "timestamp": "2021-01-12T19:54:10Z",
-      "version": 5,
-      "changeset": 97394578,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-08-14T00:34:12Z",
+      "version": 6,
+      "changeset": 109652640,
+      "user": "callum_AT",
+      "uid": 9896539,
       "nodes": [2643052630, 6070177820],
       "geometry": [
-        {"lat": -36.9277077, "lon": 174.7776611},
+        {"lat": -36.9277116, "lon": 174.7776601},
         {"lat": -36.9276249, "lon": 174.7776753},
         {"lat": -36.9275056, "lon": 174.77768},
         {"lat": -36.9273853, "lon": 174.7777307},
@@ -72065,37 +72088,30 @@
         {"lat": -36.927224, "lon": 174.7781228},
         {"lat": -36.9271951, "lon": 174.7785387}
       ],
-      "tags": {"bicycle": "yes", "highway": "footway"}
-    },
-    {
-      "type": "way",
-      "id": 645893036,
-      "timestamp": "2021-01-12T19:54:10Z",
-      "version": 3,
-      "changeset": 97394578,
-      "user": "kylenz",
-      "uid": 10140394,
-      "nodes": [6070177819, 6070177818],
-      "geometry": [
-        {"lat": -36.9267329, "lon": 174.7772549},
-        {"lat": -36.9268183, "lon": 174.7771932}
-      ],
-      "tags": {"foot": "yes", "highway": "steps"}
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway"
+      }
     },
     {
       "type": "way",
       "id": 645893037,
-      "timestamp": "2021-01-12T19:54:10Z",
-      "version": 4,
-      "changeset": 97394578,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-08-14T00:34:12Z",
+      "version": 5,
+      "changeset": 109652640,
+      "user": "callum_AT",
+      "uid": 9896539,
       "nodes": [2643052598, 6070177819],
       "geometry": [
         {"lat": -36.9266771, "lon": 174.7773064},
-        {"lat": -36.9267329, "lon": 174.7772549}
+        {"lat": -36.9267337, "lon": 174.7772592}
       ],
-      "tags": {"highway": "footway"}
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway"
+      }
     },
     {
       "type": "way",

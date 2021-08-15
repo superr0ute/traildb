@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-12T02:27:21Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-15T02:24:12Z"},
   "elements": [
     {
       "type": "relation",
@@ -15944,11 +15944,11 @@
     {
       "type": "way",
       "id": 307535746,
-      "timestamp": "2021-08-07T09:53:28Z",
-      "version": 2,
-      "changeset": 109302626,
-      "user": "Andrea Musuruane",
-      "uid": 90379,
+      "timestamp": "2021-08-14T16:46:06Z",
+      "version": 3,
+      "changeset": 109676691,
+      "user": "SimoGine",
+      "uid": 11449631,
       "nodes": [3127242480, 3127242481],
       "geometry": [
         {"lat": 45.7948192, "lon": 7.8222362, "z": 1414.7},
@@ -15956,6 +15956,7 @@
       ],
       "tags": {
         "bridge": "yes",
+        "cycleway:both": "no",
         "highway": "secondary",
         "lanes": "2",
         "layer": "1",
@@ -18060,18 +18061,23 @@
     {
       "type": "way",
       "id": 413731004,
-      "timestamp": "2020-08-02T13:39:23Z",
-      "version": 3,
-      "changeset": 88840524,
-      "user": "Andrea Musuruane",
-      "uid": 90379,
+      "timestamp": "2021-08-14T16:45:55Z",
+      "version": 4,
+      "changeset": 109676686,
+      "user": "SimoGine",
+      "uid": 11449631,
       "nodes": [4149969116, 4149969117],
       "geometry": [
         {"lat": 45.7936116, "lon": 7.8236671, "z": 1415.6},
         {"lat": 45.7935897, "lon": 7.8237596, "z": 1416.1},
         {"lat": 45.7934482, "lon": 7.8238736, "z": 1416.2}
       ],
-      "tags": {"bridge": "yes", "highway": "service", "layer": "1"}
+      "tags": {
+        "bridge": "yes",
+        "highway": "service",
+        "layer": "1",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
