@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-13T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-15T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -8811,11 +8811,11 @@
     {
       "type": "way",
       "id": 157151616,
-      "timestamp": "2021-02-14T17:46:47Z",
-      "version": 8,
-      "changeset": 99260622,
-      "user": "Strubbl",
-      "uid": 536583,
+      "timestamp": "2021-08-15T12:38:22Z",
+      "version": 9,
+      "changeset": 109699611,
+      "user": "OpenGreenStreet",
+      "uid": 9450933,
       "nodes": [1083339069, 211262059],
       "geometry": [
         {"lat": 47.6054796, "lon": 11.4364902},
@@ -8837,6 +8837,7 @@
       "tags": {
         "highway": "secondary",
         "lane_markings": "no",
+        "lit": "yes",
         "maxspeed": "50",
         "ref": "St 2072",
         "surface": "asphalt",
@@ -41870,11 +41871,11 @@
     {
       "type": "way",
       "id": 54738594,
-      "timestamp": "2013-07-30T19:14:28Z",
-      "version": 3,
-      "changeset": 17157007,
-      "user": "Morrcan",
-      "uid": 82942,
+      "timestamp": "2021-08-15T14:33:58Z",
+      "version": 4,
+      "changeset": 109703239,
+      "user": "diegomodolo",
+      "uid": 8109808,
       "nodes": [689266058, 876499999],
       "geometry": [
         {"lat": 46.4138633, "lon": 12.0146167},
@@ -41918,7 +41919,11 @@
         {"lat": 46.4082318, "lon": 12.0189169},
         {"lat": 46.4082228, "lon": 12.019116}
       ],
-      "tags": {"highway": "footway"}
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway"
+      }
     },
     {
       "type": "way",
@@ -53590,11 +53595,11 @@
     {
       "type": "way",
       "id": 93446255,
-      "timestamp": "2021-02-14T22:36:47Z",
-      "version": 8,
-      "changeset": 99269380,
-      "user": "Strubbl",
-      "uid": 536583,
+      "timestamp": "2021-08-15T12:39:52Z",
+      "version": 10,
+      "changeset": 109699700,
+      "user": "OpenGreenStreet",
+      "uid": 9450933,
       "nodes": [1083339069, 1083339157],
       "geometry": [
         {"lat": 47.6054796, "lon": 11.4364902},
@@ -53606,9 +53611,11 @@
         "highway": "secondary",
         "lane_markings": "no",
         "layer": "1",
+        "lit": "yes",
         "maxspeed": "50",
         "maxweight:signed": "no",
         "ref": "St 2072",
+        "sidewalk": "both",
         "surface": "asphalt",
         "tmc": "DE:27480/27481"
       }
