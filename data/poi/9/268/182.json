@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-08-14T23:59:59Z",
-    "timestamp_osm_base": "2021-08-15T04:36:30Z",
+    "timestamp_osm_date": "2021-08-15T23:59:59Z",
+    "timestamp_osm_base": "2021-08-16T04:40:43Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -14808,14 +14808,15 @@
       "id": 914306387,
       "lat": 45.8565394,
       "lon": 8.795037,
-      "timestamp": "2011-08-20T20:07:45Z",
-      "version": 2,
-      "changeset": 9077567,
-      "user": "pippopippo",
-      "uid": 506749,
+      "timestamp": "2021-08-15T10:38:58Z",
+      "version": 3,
+      "changeset": 109695915,
+      "user": "Bibu04",
+      "uid": 13936872,
       "tags": {
         "amenity": "drinking_water",
-        "name": "Terza Fontana"
+        "name": "Terza Fontana",
+        "operational_status": "closed"
       }
     },
     {
@@ -39133,21 +39134,6 @@
     },
     {
       "type": "node",
-      "id": 4498720743,
-      "lat": 45.9716826,
-      "lon": 8.9717053,
-      "timestamp": "2016-11-13T20:30:57Z",
-      "version": 2,
-      "changeset": 43615044,
-      "user": "Guidus",
-      "uid": 417672,
-      "tags": {
-        "name": "Minimarket d'Italia",
-        "shop": "convenience"
-      }
-    },
-    {
-      "type": "node",
       "id": 4499009489,
       "lat": 45.9572518,
       "lon": 9.1226829,
@@ -56852,25 +56838,6 @@
     },
     {
       "type": "node",
-      "id": 8477356591,
-      "lat": 45.6473545,
-      "lon": 9.0509215,
-      "timestamp": "2021-03-01T23:26:32Z",
-      "version": 1,
-      "changeset": 100234422,
-      "user": "pianolente",
-      "uid": 462871,
-      "tags": {
-        "addr:city": "Rovello Porro",
-        "addr:housenumber": "73",
-        "addr:street": "Via Marchese Pagani",
-        "name": "U2",
-        "operator": "U2",
-        "shop": "supermarket"
-      }
-    },
-    {
-      "type": "node",
       "id": 8478685994,
       "lat": 45.9692445,
       "lon": 8.5484498,
@@ -67702,6 +67669,34 @@
         "amenity": "shelter",
         "building": "roof",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 973269438,
+      "timestamp": "2021-08-15T14:54:09Z",
+      "version": 2,
+      "changeset": 109703912,
+      "user": "pianolente",
+      "uid": 462871,
+      "center": {
+        "lat": 45.6481667,
+        "lon": 9.0512562
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Rovello Porro",
+        "addr:housenumber": "73",
+        "addr:postcode": "22070",
+        "addr:street": "Via Marchese Pagani",
+        "brand": "U2",
+        "brand:wikidata": "Q105542216",
+        "building": "yes",
+        "height": "6",
+        "name": "U2",
+        "opening_hours": "Mo-Sa 07:30-22:00,Su 08:00-22:00",
+        "phone": "+390236648018",
+        "shop": "supermarket"
       }
     }
   ]
