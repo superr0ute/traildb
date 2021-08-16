@@ -11521,15 +11521,18 @@
         "@poi": "shelter_shelter",
         "@distance": 1331.5,
         "@id": "n968204230",
-        "@changeset": 58030229,
-        "@timestamp": "2018-04-12T09:32:28Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 109712445,
+        "@timestamp": "2021-08-15T18:49:45Z",
+        "@version": 3,
+        "@uid": 9854984,
+        "@user": "Stéphane_33",
         "amenity": "shelter",
-        "name": "Cabane de Sarnes - luchonais",
+        "description": "Cabane fermée en été, occupée par le berger.  Abri sommaire à côté pour 2 personnes. Source faible débit sous le sentier à l'ouest de la cabane.",
+        "ele": 2147,
+        "name": "Cabane de Coume Nère",
         "note": "336",
-        "source": "Association \"Refuges et cabanes des Pyrénées\""
+        "shelter_type": "basic_hut",
+        "source": "Association \"Refuges et cabanes des Pyrénées\";https://www.pyrenees-refuges.com/fr/affiche.php?numenr=336"
       },
       "geometry": {
         "type": "Point",
@@ -32112,42 +32115,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "campsite",
-        "@distance": 1132.4,
-        "@id": "w36928675",
-        "@changeset": 53015753,
-        "@timestamp": "2017-10-17T15:59:45Z",
-        "@version": 3,
-        "@uid": 662440,
-        "@user": "JFK73",
-        "addr:city": "Ascarat",
-        "addr:country": "FR",
-        "addr:postcode": "64220",
-        "addr:street": "Ascarat",
-        "capacity": 500,
-        "contact:email": "europcamping64@orange.fr",
-        "contact:fax": "+33 559372982",
-        "contact:phone": "+33 559371278",
-        "contact:website": "http://www.europ-camping.com/",
-        "internet_access": "wlan",
-        "name": "Europ Camp",
-        "opening_hours": "May-Sep",
-        "operator": "private",
-        "source": "knowledge",
-        "stars": "4",
-        "tourism": "camp_site"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.2538336,
-          43.1722573
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 8716.7,
         "@id": "n7362009554",
@@ -33909,6 +33876,48 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 1783.9,
+        "@id": "n9007982138",
+        "@changeset": 109700879,
+        "@timestamp": "2021-08-15T13:16:14Z",
+        "@version": 1,
+        "@uid": 821843,
+        "@user": "atisne",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.1063493,
+          42.4973545
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 1749.7,
+        "@id": "n9007984893",
+        "@changeset": 109700879,
+        "@timestamp": "2021-08-15T13:16:14Z",
+        "@version": 1,
+        "@uid": 821843,
+        "@user": "atisne",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.1069764,
+          42.4969715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 2002.5,
         "@id": "w62865812",
@@ -34247,29 +34256,6 @@
         "coordinates": [
           3.031176,
           42.5457795
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 5859,
-        "@id": "w337457737",
-        "@changeset": 68433613,
-        "@timestamp": "2019-03-23T03:24:06Z",
-        "@version": 2,
-        "@uid": 4363122,
-        "@user": "fsab",
-        "building": "yes",
-        "name": "Supermercat Charter",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.8784007,
-          42.4029479
         ]
       }
     },
@@ -35106,6 +35092,42 @@
         "coordinates": [
           -1.7001504,
           43.3622505
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 1132.4,
+        "@id": "w36928675",
+        "@changeset": 53015753,
+        "@timestamp": "2017-10-17T15:59:45Z",
+        "@version": 3,
+        "@uid": 662440,
+        "@user": "JFK73",
+        "addr:city": "Ascarat",
+        "addr:country": "FR",
+        "addr:postcode": "64220",
+        "addr:street": "Ascarat",
+        "capacity": 500,
+        "contact:email": "europcamping64@orange.fr",
+        "contact:fax": "+33 559372982",
+        "contact:phone": "+33 559371278",
+        "contact:website": "http://www.europ-camping.com/",
+        "internet_access": "wlan",
+        "name": "Europ Camp",
+        "opening_hours": "May-Sep",
+        "operator": "private",
+        "source": "knowledge",
+        "stars": "4",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2538336,
+          43.1722573
         ]
       }
     },
@@ -38954,6 +38976,29 @@
         "coordinates": [
           2.1734804,
           42.4989125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 5859,
+        "@id": "w337457737",
+        "@changeset": 68433613,
+        "@timestamp": "2019-03-23T03:24:06Z",
+        "@version": 2,
+        "@uid": 4363122,
+        "@user": "fsab",
+        "building": "yes",
+        "name": "Supermercat Charter",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8784007,
+          42.4029479
         ]
       }
     },
