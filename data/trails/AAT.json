@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-15T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-16T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -109,11 +109,11 @@
     {
       "type": "relation",
       "id": 3176522,
-      "timestamp": "2021-08-15T18:57:37Z",
-      "version": 656,
-      "changeset": 109712737,
-      "user": "gt3400",
-      "uid": 610648,
+      "timestamp": "2021-08-16T22:03:42Z",
+      "version": 657,
+      "changeset": 109774610,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
       "members": [
         {"type": "node", "ref": 2911861581, "role": ""},
         {"type": "node", "ref": 2912812289, "role": ""},
@@ -1238,7 +1238,6 @@
         {"type": "way", "ref": 46728620, "role": ""},
         {"type": "way", "ref": 747127202, "role": ""},
         {"type": "way", "ref": 957568101, "role": ""},
-        {"type": "way", "ref": 199095930, "role": ""},
         {"type": "way", "ref": 199095929, "role": ""},
         {"type": "way", "ref": 53208175, "role": ""},
         {"type": "way", "ref": 162939788, "role": ""},
@@ -6832,12 +6831,12 @@
         {"lat": 45.6031448, "lon": 13.7682868}
       ],
       "tags": {
+        "surface": "asphalt",
+        "oneway": "no",
         "cycleway:both": "no",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Via Roma",
-        "oneway": "no",
-        "surface": "asphalt"
+        "name": "Via Roma"
       }
     },
     {
@@ -6854,11 +6853,11 @@
         {"lat": 45.603278, "lon": 13.7686689}
       ],
       "tags": {
+        "surface": "asphalt",
+        "oneway": "no",
         "highway": "secondary",
         "lanes": "2",
-        "name": "Via Roma",
-        "oneway": "no",
-        "surface": "asphalt"
+        "name": "Via Roma"
       }
     },
     {
@@ -16691,11 +16690,11 @@
         {"lat": 45.6037543, "lon": 13.7699436}
       ],
       "tags": {
+        "surface": "asphalt",
+        "oneway": "yes",
         "cycleway:right": "no",
         "highway": "secondary",
-        "name": "Largo Caduti per la Libertà",
-        "oneway": "yes",
-        "surface": "asphalt"
+        "name": "Largo Caduti per la Libertà"
       }
     },
     {
@@ -17560,11 +17559,11 @@
     {
       "type": "way",
       "id": 197029111,
-      "timestamp": "2012-12-18T16:45:56Z",
-      "version": 1,
-      "changeset": 14320579,
-      "user": "eriosw",
-      "uid": 45347,
+      "timestamp": "2021-08-16T16:32:10Z",
+      "version": 2,
+      "changeset": 109761520,
+      "user": "id=2507",
+      "uid": 1733613,
       "nodes": [823473471, 823473517],
       "geometry": [
         {"lat": 47.0675259, "lon": 12.7551153},
@@ -17572,6 +17571,7 @@
       ],
       "tags": {
         "bridge": "yes",
+        "bridge:structure": "simple-suspension",
         "foot": "yes",
         "highway": "path",
         "layer": "1",
@@ -17581,11 +17581,11 @@
     {
       "type": "way",
       "id": 197029117,
-      "timestamp": "2015-07-06T11:29:13Z",
-      "version": 3,
-      "changeset": 32445987,
-      "user": "Hoschmi72",
-      "uid": 2065966,
+      "timestamp": "2021-08-16T16:32:10Z",
+      "version": 4,
+      "changeset": 109761520,
+      "user": "id=2507",
+      "uid": 1733613,
       "nodes": [823473517, 821198358],
       "geometry": [
         {"lat": 47.0676142, "lon": 12.7549376},
@@ -17618,7 +17618,8 @@
         {"lat": 47.0692862, "lon": 12.7508318},
         {"lat": 47.0691131, "lon": 12.7506972},
         {"lat": 47.0689736, "lon": 12.7506931},
-        {"lat": 47.0686661, "lon": 12.7505154},
+        {"lat": 47.0689123, "lon": 12.7506577},
+        {"lat": 47.0686369, "lon": 12.75051},
         {"lat": 47.0683273, "lon": 12.7504632},
         {"lat": 47.0682377, "lon": 12.7505154},
         {"lat": 47.0681707, "lon": 12.7503294},
@@ -18264,34 +18265,6 @@
         {"lat": 45.7025636, "lon": 13.7371223}
       ],
       "tags": {"highway": "residential", "noname": "yes", "surface": "asphalt"}
-    },
-    {
-      "type": "way",
-      "id": 199095930,
-      "timestamp": "2021-06-23T14:38:10Z",
-      "version": 14,
-      "changeset": 106844967,
-      "user": "damjang",
-      "uid": 97922,
-      "nodes": [597410623, 8860409512],
-      "geometry": [
-        {"lat": 45.7023259, "lon": 13.7380117},
-        {"lat": 45.7021508, "lon": 13.7381546},
-        {"lat": 45.7014942, "lon": 13.7386902},
-        {"lat": 45.701196, "lon": 13.7389334},
-        {"lat": 45.7008557, "lon": 13.7392111},
-        {"lat": 45.700619, "lon": 13.7394041},
-        {"lat": 45.7004194, "lon": 13.739567},
-        {"lat": 45.7003318, "lon": 13.7396385},
-        {"lat": 45.7001331, "lon": 13.7398005},
-        {"lat": 45.6996992, "lon": 13.7401545},
-        {"lat": 45.6995892, "lon": 13.7402347}
-      ],
-      "tags": {
-        "highway": "unclassified",
-        "maxspeed": "30",
-        "name": "Via San Nazario"
-      }
     },
     {
       "type": "way",
@@ -20298,11 +20271,11 @@
     {
       "type": "way",
       "id": 200403685,
-      "timestamp": "2021-05-18T12:14:55Z",
-      "version": 16,
-      "changeset": 104890745,
-      "user": "Cascafico",
-      "uid": 361003,
+      "timestamp": "2021-08-16T21:46:36Z",
+      "version": 17,
+      "changeset": 109774057,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
       "nodes": [436626786, 436626350],
       "geometry": [
         {"lat": 45.7729839, "lon": 13.6286606},
@@ -20344,6 +20317,8 @@
       "tags": {
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
+        "lit_by_led": "yes",
         "maxspeed": "50",
         "maxweight": "5",
         "noname": "yes",
@@ -20354,11 +20329,11 @@
     {
       "type": "way",
       "id": 200403688,
-      "timestamp": "2021-05-19T09:48:47Z",
-      "version": 13,
-      "changeset": 104948409,
-      "user": "renatosportivo",
-      "uid": 12558767,
+      "timestamp": "2021-08-16T21:46:36Z",
+      "version": 14,
+      "changeset": 109774057,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
       "nodes": [596649875, 281219104],
       "geometry": [
         {"lat": 45.7734137, "lon": 13.6076631},
@@ -20375,6 +20350,8 @@
       ],
       "tags": {
         "highway": "tertiary",
+        "lit": "yes",
+        "lit_by_led": "yes",
         "loc_name": "Via Trieste",
         "maxspeed": "50",
         "maxweight": "5",
@@ -24280,9 +24257,9 @@
     {
       "type": "way",
       "id": 230750076,
-      "timestamp": "2021-01-17T16:37:21Z",
-      "version": 6,
-      "changeset": 97644647,
+      "timestamp": "2021-08-16T21:46:36Z",
+      "version": 7,
+      "changeset": 109774057,
       "user": "alessandrocarmeli",
       "uid": 12294600,
       "nodes": [436626118, 211434090],
@@ -24296,6 +24273,8 @@
       "tags": {
         "highway": "primary",
         "lanes": "1",
+        "lit": "yes",
+        "lit_by_led": "yes",
         "maxspeed": "50",
         "maxweight": "5",
         "noname": "yes",
@@ -46500,11 +46479,11 @@
         {"lat": 45.6034996, "lon": 13.7694326}
       ],
       "tags": {
+        "surface": "asphalt",
+        "oneway": "no",
         "cycleway:both": "no",
         "highway": "secondary",
-        "name": "Piazza della Repubblica",
-        "oneway": "no",
-        "surface": "asphalt"
+        "name": "Piazza della Repubblica"
       }
     },
     {
@@ -46987,11 +46966,11 @@
     {
       "type": "way",
       "id": 37391696,
-      "timestamp": "2021-05-18T07:32:52Z",
-      "version": 11,
-      "changeset": 104869826,
-      "user": "Andrea Del Sarto",
-      "uid": 3215770,
+      "timestamp": "2021-08-16T21:46:36Z",
+      "version": 12,
+      "changeset": 109774057,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
       "nodes": [8714547549, 436626366],
       "geometry": [
         {"lat": 45.7720992, "lon": 13.6361373},
@@ -47010,6 +46989,8 @@
       ],
       "tags": {
         "highway": "service",
+        "lit": "yes",
+        "lit_by_led": "yes",
         "noname": "yes",
         "oneway": "yes",
         "service": "parking_aisle"
@@ -51271,7 +51252,7 @@
         {"lat": 46.5945024, "lon": 13.9466632},
         {"lat": 46.5945043, "lon": 13.9465661},
         {"lat": 46.59444, "lon": 13.9464212},
-        {"lat": 46.5941339, "lon": 13.9462485},
+        {"lat": 46.5941192, "lon": 13.94627},
         {"lat": 46.5933985, "lon": 13.9459528},
         {"lat": 46.5918926, "lon": 13.9453473},
         {"lat": 46.5914712, "lon": 13.9452571},
@@ -58111,11 +58092,11 @@
     {
       "type": "way",
       "id": 497705411,
-      "timestamp": "2020-05-07T23:22:13Z",
-      "version": 4,
-      "changeset": 84856786,
-      "user": "damjang",
-      "uid": 97922,
+      "timestamp": "2021-08-16T21:46:36Z",
+      "version": 5,
+      "changeset": 109774057,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
       "nodes": [436626140, 7495591290],
       "geometry": [
         {"lat": 45.7706314, "lon": 13.639119},
@@ -58127,6 +58108,8 @@
       "tags": {
         "highway": "tertiary",
         "lanes": "1",
+        "lit": "yes",
+        "lit_by_led": "yes",
         "noname": "yes",
         "oneway": "yes",
         "ref": "SP32"
@@ -58135,11 +58118,11 @@
     {
       "type": "way",
       "id": 497705412,
-      "timestamp": "2020-05-07T23:22:13Z",
-      "version": 5,
-      "changeset": 84856786,
-      "user": "damjang",
-      "uid": 97922,
+      "timestamp": "2021-08-16T21:46:36Z",
+      "version": 6,
+      "changeset": 109774057,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
       "nodes": [436626366, 211434090],
       "geometry": [
         {"lat": 45.7712658, "lon": 13.6376391},
@@ -58150,6 +58133,8 @@
       "tags": {
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
+        "lit_by_led": "yes",
         "maxspeed": "50",
         "maxweight": "5",
         "noname": "yes",
@@ -67777,11 +67762,11 @@
     {
       "type": "way",
       "id": 721207959,
-      "timestamp": "2020-02-12T12:57:10Z",
-      "version": 3,
-      "changeset": 80905772,
-      "user": "damjang",
-      "uid": 97922,
+      "timestamp": "2021-08-16T21:46:36Z",
+      "version": 4,
+      "changeset": 109774057,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
       "nodes": [276436983, 6766661610],
       "geometry": [
         {"lat": 45.7733406, "lon": 13.6041905},
@@ -67794,6 +67779,8 @@
       ],
       "tags": {
         "highway": "unclassified",
+        "lit": "yes",
+        "lit_by_led": "yes",
         "maxspeed": "50",
         "maxweight": "5",
         "noname": "yes",
@@ -68510,19 +68497,24 @@
     {
       "type": "way",
       "id": 747127202,
-      "timestamp": "2021-05-19T18:57:38Z",
-      "version": 5,
-      "changeset": 104980548,
+      "timestamp": "2021-08-16T22:03:42Z",
+      "version": 6,
+      "changeset": 109774610,
       "user": "alessandrocarmeli",
       "uid": 12294600,
-      "nodes": [6777214670, 597360814],
+      "nodes": [6777214670, 1401425594],
       "geometry": [
         {"lat": 45.6992674, "lon": 13.7405431},
-        {"lat": 45.699178, "lon": 13.7405404}
+        {"lat": 45.6992235, "lon": 13.7405262},
+        {"lat": 45.699178, "lon": 13.7405404},
+        {"lat": 45.6988554, "lon": 13.7408489},
+        {"lat": 45.6986216, "lon": 13.7410365}
       ],
       "tags": {
         "alt_name": "Napoleonica",
         "highway": "unclassified",
+        "lit": "yes",
+        "lit_by_led": "yes",
         "loc_name": "Strada Napoleonica",
         "name": "Strada Vicentina",
         "official_name": "Strada Vicentina"
@@ -69686,11 +69678,11 @@
         {"lat": 45.6034996, "lon": 13.7694326}
       ],
       "tags": {
+        "surface": "asphalt",
+        "oneway": "yes",
         "cycleway:right": "no",
         "highway": "secondary",
-        "name": "Piazza della Repubblica",
-        "oneway": "yes",
-        "surface": "asphalt"
+        "name": "Piazza della Repubblica"
       }
     },
     {
@@ -69714,10 +69706,10 @@
         {"lat": 45.6039534, "lon": 13.7701349}
       ],
       "tags": {
-        "highway": "secondary",
-        "name": "Largo Caduti per la Libertà",
+        "surface": "asphalt",
         "oneway": "yes",
-        "surface": "asphalt"
+        "highway": "secondary",
+        "name": "Largo Caduti per la Libertà"
       }
     },
     {
@@ -69748,11 +69740,11 @@
     {
       "type": "way",
       "id": 801426313,
-      "timestamp": "2021-08-09T20:32:36Z",
-      "version": 3,
-      "changeset": 109428041,
-      "user": "fabiotofy",
-      "uid": 684800,
+      "timestamp": "2021-08-16T21:46:36Z",
+      "version": 5,
+      "changeset": 109774057,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
       "nodes": [7495591290, 436626118],
       "geometry": [
         {"lat": 45.7705556, "lon": 13.6388855},
@@ -69762,9 +69754,11 @@
         "highway": "primary",
         "junction": "roundabout",
         "lanes": "2",
+        "lit": "yes",
+        "lit_by_led": "yes",
+        "loc_name": "Tre Noci",
         "maxspeed": "50",
         "maxweight": "5",
-        "name": "Tre Noci",
         "noname": "yes",
         "ref": "SS14",
         "source:maxspeed": "IT:urban"
@@ -75102,11 +75096,11 @@
     {
       "type": "way",
       "id": 944143255,
-      "timestamp": "2021-05-18T07:32:52Z",
-      "version": 1,
-      "changeset": 104869826,
-      "user": "Andrea Del Sarto",
-      "uid": 3215770,
+      "timestamp": "2021-08-16T21:46:36Z",
+      "version": 2,
+      "changeset": 109774057,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
       "nodes": [436626350, 8714547549],
       "geometry": [
         {"lat": 45.7721441, "lon": 13.6361732},
@@ -75115,6 +75109,8 @@
       ],
       "tags": {
         "highway": "service",
+        "lit": "yes",
+        "lit_by_led": "yes",
         "noname": "yes",
         "oneway": "yes",
         "service": "parking_aisle"
@@ -75123,11 +75119,11 @@
     {
       "type": "way",
       "id": 944592199,
-      "timestamp": "2021-05-19T09:48:47Z",
-      "version": 1,
-      "changeset": 104948409,
-      "user": "renatosportivo",
-      "uid": 12558767,
+      "timestamp": "2021-08-16T21:46:36Z",
+      "version": 2,
+      "changeset": 109774057,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
       "nodes": [281219104, 6766661610],
       "geometry": [
         {"lat": 45.7731964, "lon": 13.6058046},
@@ -75141,6 +75137,8 @@
       ],
       "tags": {
         "highway": "tertiary",
+        "lit": "yes",
+        "lit_by_led": "yes",
         "loc_name": "Via Trieste",
         "maxspeed": "50",
         "maxweight": "5",
@@ -76037,19 +76035,36 @@
     {
       "type": "way",
       "id": 957568101,
-      "timestamp": "2021-06-23T14:38:09Z",
-      "version": 1,
-      "changeset": 106844967,
-      "user": "damjang",
-      "uid": 97922,
-      "nodes": [8860409512, 6777214670],
+      "timestamp": "2021-08-16T22:03:42Z",
+      "version": 2,
+      "changeset": 109774610,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
+      "nodes": [597410623, 6777214670],
       "geometry": [
+        {"lat": 45.7023259, "lon": 13.7380117},
+        {"lat": 45.7021508, "lon": 13.7381546},
+        {"lat": 45.7014942, "lon": 13.7386902},
+        {"lat": 45.701196, "lon": 13.7389334},
+        {"lat": 45.7008557, "lon": 13.7392111},
+        {"lat": 45.700619, "lon": 13.7394041},
+        {"lat": 45.7004194, "lon": 13.739567},
+        {"lat": 45.7003318, "lon": 13.7396385},
+        {"lat": 45.7001331, "lon": 13.7398005},
+        {"lat": 45.6999314, "lon": 13.739965},
+        {"lat": 45.6996992, "lon": 13.7401545},
         {"lat": 45.6995892, "lon": 13.7402347},
         {"lat": 45.6993458, "lon": 13.7404121},
         {"lat": 45.6992948, "lon": 13.7404741},
         {"lat": 45.6992674, "lon": 13.7405431}
       ],
-      "tags": {"highway": "unclassified", "name": "Via San Nazario"}
+      "tags": {
+        "highway": "unclassified",
+        "lit": "yes",
+        "lit_by_led": "yes",
+        "maxspeed": "30",
+        "name": "Via San Nazario"
+      }
     },
     {
       "type": "way",
@@ -76066,11 +76081,11 @@
         {"lat": 45.6034973, "lon": 13.7697121}
       ],
       "tags": {
+        "surface": "asphalt",
+        "oneway": "yes",
         "cycleway:right": "no",
         "highway": "secondary",
-        "name": "Piazza della Repubblica",
-        "oneway": "yes",
-        "surface": "asphalt"
+        "name": "Piazza della Repubblica"
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-15T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-16T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -593,11 +593,11 @@
     {
       "type": "relation",
       "id": 2497945,
-      "timestamp": "2021-02-13T21:14:41Z",
-      "version": 12,
-      "changeset": 99230537,
-      "user": "jeroenrozema74",
-      "uid": 183483,
+      "timestamp": "2021-08-16T12:31:48Z",
+      "version": 13,
+      "changeset": 109749994,
+      "user": "uwe-s",
+      "uid": 235018,
       "members": [
         {"type": "node", "ref": 1957400209, "role": "guidepost"},
         {"type": "node", "ref": 1964846914, "role": "guidepost"},
@@ -623,6 +623,7 @@
         {"type": "way", "ref": 48377579, "role": ""},
         {"type": "way", "ref": 185795724, "role": ""},
         {"type": "way", "ref": 149655925, "role": ""},
+        {"type": "way", "ref": 973529970, "role": ""},
         {"type": "way", "ref": 37350469, "role": ""},
         {"type": "way", "ref": 292241447, "role": ""},
         {"type": "way", "ref": 23968098, "role": ""},
@@ -7974,12 +7975,12 @@
     {
       "type": "way",
       "id": 149655925,
-      "timestamp": "2020-12-13T15:30:01Z",
-      "version": 19,
-      "changeset": 95759312,
-      "user": "*abq*",
-      "uid": 3696195,
-      "nodes": [1964846944, 1625968800],
+      "timestamp": "2021-08-16T12:31:51Z",
+      "version": 21,
+      "changeset": 109749994,
+      "user": "uwe-s",
+      "uid": 235018,
+      "nodes": [1964846944, 5868461006],
       "geometry": [
         {"lat": 47.8631089, "lon": 8.036749},
         {"lat": 47.8630723, "lon": 8.0367441},
@@ -7992,12 +7993,7 @@
         {"lat": 47.862537, "lon": 8.0360788},
         {"lat": 47.8624809, "lon": 8.0360077},
         {"lat": 47.862376, "lon": 8.0359493},
-        {"lat": 47.8619371, "lon": 8.0359084},
-        {"lat": 47.8616449, "lon": 8.0358745},
-        {"lat": 47.8615445, "lon": 8.0358649},
-        {"lat": 47.8610937, "lon": 8.0358504},
-        {"lat": 47.8610281, "lon": 8.035895},
-        {"lat": 47.8609898, "lon": 8.0359582}
+        {"lat": 47.8619371, "lon": 8.0359084}
       ],
       "tags": {
         "emergency": "yes",
@@ -8005,7 +8001,7 @@
         "motor_vehicle": "no",
         "name": "Dr.-Pilet-Spur",
         "source": "survey",
-        "surface": "paved"
+        "surface": "pebblestone"
       }
     },
     {
@@ -9740,17 +9736,22 @@
     {
       "type": "way",
       "id": 180670545,
-      "timestamp": "2012-09-12T09:11:20Z",
-      "version": 2,
-      "changeset": 13079870,
-      "user": "Hans-M-D-F-J-4",
-      "uid": 140029,
+      "timestamp": "2021-08-16T12:32:24Z",
+      "version": 3,
+      "changeset": 109750045,
+      "user": "uwe-s",
+      "uid": 235018,
       "nodes": [30890415, 1911208635],
       "geometry": [
         {"lat": 47.8717738, "lon": 8.0341457},
         {"lat": 47.8717504, "lon": 8.0341902}
       ],
-      "tags": {"highway": "path", "mtb:scale": "1", "sac_scale": "hiking"}
+      "tags": {
+        "highway": "path",
+        "mtb:scale": "1",
+        "sac_scale": "hiking",
+        "surface": "dirt"
+      }
     },
     {
       "type": "way",
@@ -9778,11 +9779,11 @@
     {
       "type": "way",
       "id": 180674232,
-      "timestamp": "2020-11-15T09:16:37Z",
-      "version": 3,
-      "changeset": 94136152,
-      "user": "*abq*",
-      "uid": 3696195,
+      "timestamp": "2021-08-16T12:32:25Z",
+      "version": 4,
+      "changeset": 109750045,
+      "user": "uwe-s",
+      "uid": 235018,
       "nodes": [1911208635, 1911208633],
       "geometry": [
         {"lat": 47.8717504, "lon": 8.0341902},
@@ -9794,6 +9795,7 @@
         "layer": "1",
         "mtb:scale": "1",
         "sac_scale": "hiking",
+        "surface": "wood",
         "trail_visibility": "excellent"
       }
     },
@@ -10244,8 +10246,8 @@
       "uid": 235018,
       "nodes": [1955826003, 1955826022],
       "geometry": [
-        {"lat": 47.899293, "lon": 8.1453452},
-        {"lat": 47.8993479, "lon": 8.1454541},
+        {"lat": 47.8992948, "lon": 8.1454042},
+        {"lat": 47.8993407, "lon": 8.1454595},
         {"lat": 47.8994487, "lon": 8.1456543},
         {"lat": 47.8995592, "lon": 8.1458723},
         {"lat": 47.8996589, "lon": 8.1461413},
@@ -10275,8 +10277,8 @@
       "uid": 235018,
       "nodes": [519907820, 1955826003],
       "geometry": [
-        {"lat": 47.8992679, "lon": 8.1453001},
-        {"lat": 47.899293, "lon": 8.1453452}
+        {"lat": 47.8992508, "lon": 8.1453752},
+        {"lat": 47.8992948, "lon": 8.1454042}
       ],
       "tags": {"highway": "footway", "lit": "no", "surface": "paving_stones"}
     },
@@ -10328,7 +10330,7 @@
       "nodes": [519907672, 519907820],
       "geometry": [
         {"lat": 47.8993075, "lon": 8.1452378},
-        {"lat": 47.8992679, "lon": 8.1453001}
+        {"lat": 47.8992508, "lon": 8.1453752}
       ],
       "tags": {"highway": "footway", "surface": "paving_stones"}
     },
@@ -10760,17 +10762,17 @@
     {
       "type": "way",
       "id": 185795724,
-      "timestamp": "2014-06-25T21:55:23Z",
-      "version": 2,
-      "changeset": 23167017,
-      "user": "MichaOSM",
-      "uid": 2030591,
+      "timestamp": "2021-08-16T12:32:42Z",
+      "version": 3,
+      "changeset": 109749994,
+      "user": "uwe-s",
+      "uid": 235018,
       "nodes": [304316007, 1964846944],
       "geometry": [
         {"lat": 47.8631274, "lon": 8.0366873},
         {"lat": 47.8631089, "lon": 8.036749}
       ],
-      "tags": {"highway": "service", "surface": "gravel"}
+      "tags": {"highway": "service", "surface": "pebblestone"}
     },
     {
       "type": "way",
@@ -12516,11 +12518,11 @@
     {
       "type": "way",
       "id": 23968098,
-      "timestamp": "2020-12-13T15:30:01Z",
-      "version": 26,
-      "changeset": 95759312,
-      "user": "*abq*",
-      "uid": 3696195,
+      "timestamp": "2021-08-16T12:31:36Z",
+      "version": 27,
+      "changeset": 109749994,
+      "user": "uwe-s",
+      "uid": 235018,
       "nodes": [2829240467, 1609955472],
       "geometry": [
         {"lat": 47.8601724, "lon": 8.0359651},
@@ -12535,7 +12537,8 @@
       "tags": {
         "highway": "service",
         "motor_vehicle": "no",
-        "name": "Franz-Klarmeyer-Weg"
+        "name": "Franz-Klarmeyer-Weg",
+        "surface": "asphalt"
       }
     },
     {
@@ -29201,7 +29204,7 @@
         {"lat": 47.8998987, "lon": 8.1487221},
         {"lat": 47.8998881, "lon": 8.1489594},
         {"lat": 47.8999779, "lon": 8.1497496},
-        {"lat": 47.8999696, "lon": 8.1503855}
+        {"lat": 47.8999732, "lon": 8.1504646}
       ],
       "tags": {
         "foot": "designated",
@@ -31270,11 +31273,11 @@
     {
       "type": "way",
       "id": 4810609,
-      "timestamp": "2020-12-13T15:30:01Z",
-      "version": 11,
-      "changeset": 95759312,
-      "user": "*abq*",
-      "uid": 3696195,
+      "timestamp": "2021-08-16T12:32:27Z",
+      "version": 12,
+      "changeset": 109749994,
+      "user": "uwe-s",
+      "uid": 235018,
       "nodes": [30890411, 30890415],
       "geometry": [
         {"lat": 47.8724188, "lon": 8.0382451},
@@ -31295,6 +31298,7 @@
         "highway": "track",
         "mtb:scale": "1",
         "sac_scale": "hiking",
+        "surface": "pebblestone",
         "tracktype": "grade3"
       }
     },
@@ -33096,7 +33100,7 @@
       "uid": 8598252,
       "nodes": [708128184, 708128160],
       "geometry": [
-        {"lat": 47.8999696, "lon": 8.1503855},
+        {"lat": 47.8999732, "lon": 8.1504646},
         {"lat": 47.9001478, "lon": 8.1504245},
         {"lat": 47.9008167, "lon": 8.1501254},
         {"lat": 47.9008419, "lon": 8.1501126}
@@ -48850,6 +48854,32 @@
         {"lat": 48.7939915, "lon": 8.490473}
       ],
       "tags": {"highway": "service", "vehicle": "destination"}
+    },
+    {
+      "type": "way",
+      "id": 973529970,
+      "timestamp": "2021-08-16T12:31:50Z",
+      "version": 2,
+      "changeset": 109749994,
+      "user": "uwe-s",
+      "uid": 235018,
+      "nodes": [5868461006, 1625968800],
+      "geometry": [
+        {"lat": 47.8619371, "lon": 8.0359084},
+        {"lat": 47.8616449, "lon": 8.0358745},
+        {"lat": 47.8615445, "lon": 8.0358649},
+        {"lat": 47.8610937, "lon": 8.0358504},
+        {"lat": 47.8610281, "lon": 8.035895},
+        {"lat": 47.8609898, "lon": 8.0359582}
+      ],
+      "tags": {
+        "emergency": "yes",
+        "highway": "service",
+        "motor_vehicle": "no",
+        "name": "Dr.-Pilet-Spur",
+        "source": "survey",
+        "surface": "asphalt"
+      }
     }
   ]
 }
