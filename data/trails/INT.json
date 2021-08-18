@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-17T02:29:08Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-18T02:32:42Z"},
   "elements": [
     {
       "type": "relation",
       "id": 282071,
-      "timestamp": "2021-08-12T16:03:58Z",
-      "version": 1687,
-      "changeset": 109582917,
-      "user": "hatul",
-      "uid": 686490,
+      "timestamp": "2021-08-17T13:35:05Z",
+      "version": 1688,
+      "changeset": 109813957,
+      "user": "VELOCITY_club",
+      "uid": 5556216,
       "members": [
         {"type": "way", "ref": 42304440, "role": ""},
         {"type": "way", "ref": 56684815, "role": ""},
@@ -516,6 +516,7 @@
         {"type": "way", "ref": 500395332, "role": ""},
         {"type": "way", "ref": 88702049, "role": ""},
         {"type": "way", "ref": 706126447, "role": ""},
+        {"type": "way", "ref": 974046746, "role": ""},
         {"type": "way", "ref": 298782082, "role": ""},
         {"type": "way", "ref": 298782084, "role": ""},
         {"type": "way", "ref": 152417712, "role": ""},
@@ -59351,15 +59352,15 @@
     {
       "type": "way",
       "id": 706126447,
-      "timestamp": "2019-07-21T09:49:18Z",
-      "version": 1,
-      "changeset": 72478344,
-      "user": "valleyofdawn",
-      "uid": 356970,
-      "nodes": [3027157951, 955714243],
+      "timestamp": "2021-08-17T13:35:05Z",
+      "version": 2,
+      "changeset": 109813957,
+      "user": "VELOCITY_club",
+      "uid": 5556216,
+      "nodes": [717622830, 955714243],
       "geometry": [
-        {"lat": 32.566955, "lon": 34.972459, "z": 99.7},
-        {"lat": 32.5670024, "lon": 34.9722179, "z": 99.2},
+        {"lat": 32.5669608, "lon": 34.9723089, "z": 99.4},
+        {"lat": 32.5668869, "lon": 34.9721234, "z": 98.8},
         {"lat": 32.566919, "lon": 34.971948, "z": 98.4}
       ],
       "tags": {
@@ -73681,6 +73682,26 @@
         {"lat": 31.9638178, "lon": 34.95075, "z": 142}
       ],
       "tags": {"highway": "track", "oneway": "yes", "source": "GPS"}
+    },
+    {
+      "type": "way",
+      "id": 974046746,
+      "timestamp": "2021-08-17T13:35:05Z",
+      "version": 1,
+      "changeset": 109813957,
+      "user": "VELOCITY_club",
+      "uid": 5556216,
+      "nodes": [3027157951, 717622830],
+      "geometry": [
+        {"lat": 32.566955, "lon": 34.972459, "z": 99.7},
+        {"lat": 32.5669608, "lon": 34.9723089, "z": 99.4}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "colour": "blue",
+        "foot": "yes",
+        "highway": "track"
+      }
     },
     {
       "type": "way",
