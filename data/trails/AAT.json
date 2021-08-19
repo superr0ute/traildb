@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-17T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-18T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -109,9 +109,9 @@
     {
       "type": "relation",
       "id": 3176522,
-      "timestamp": "2021-08-16T22:03:42Z",
-      "version": 657,
-      "changeset": 109774610,
+      "timestamp": "2021-08-18T05:37:43Z",
+      "version": 658,
+      "changeset": 109847784,
       "user": "alessandrocarmeli",
       "uid": 12294600,
       "members": [
@@ -1108,6 +1108,7 @@
         {"type": "way", "ref": 202630000, "role": ""},
         {"type": "way", "ref": 149102554, "role": ""},
         {"type": "way", "ref": 149102557, "role": ""},
+        {"type": "way", "ref": 974201426, "role": ""},
         {"type": "way", "ref": 148319241, "role": ""},
         {"type": "way", "ref": 462804585, "role": ""},
         {"type": "way", "ref": 496678287, "role": ""},
@@ -7782,15 +7783,13 @@
     {
       "type": "way",
       "id": 148319241,
-      "timestamp": "2021-07-01T19:03:31Z",
-      "version": 11,
-      "changeset": 107275988,
+      "timestamp": "2021-08-18T05:37:43Z",
+      "version": 12,
+      "changeset": 109847784,
       "user": "alessandrocarmeli",
       "uid": 12294600,
-      "nodes": [299983797, 752879954],
+      "nodes": [56220988, 752879954],
       "geometry": [
-        {"lat": 45.5929288, "lon": 13.8376215},
-        {"lat": 45.5928092, "lon": 13.836895},
         {"lat": 45.5927729, "lon": 13.83669},
         {"lat": 45.5928377, "lon": 13.8364136},
         {"lat": 45.5928547, "lon": 13.8361107},
@@ -77173,6 +77172,22 @@
         "source": "plan.at 2009",
         "surface": "asphalt"
       }
+    },
+    {
+      "type": "way",
+      "id": 974201426,
+      "timestamp": "2021-08-18T05:37:43Z",
+      "version": 1,
+      "changeset": 109847784,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
+      "nodes": [299983797, 56220988],
+      "geometry": [
+        {"lat": 45.5929288, "lon": 13.8376215},
+        {"lat": 45.5928092, "lon": 13.836895},
+        {"lat": 45.5927729, "lon": 13.83669}
+      ],
+      "tags": {"highway": "unclassified", "noname": "yes"}
     },
     {
       "type": "way",

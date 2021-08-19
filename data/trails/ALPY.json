@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-17T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-18T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -37,9 +37,9 @@
     {
       "type": "relation",
       "id": 2925533,
-      "timestamp": "2021-07-01T19:03:31Z",
-      "version": 38,
-      "changeset": 107275988,
+      "timestamp": "2021-08-18T05:37:43Z",
+      "version": 39,
+      "changeset": 109847784,
       "user": "alessandrocarmeli",
       "uid": 12294600,
       "members": [
@@ -104,6 +104,7 @@
         {"type": "way", "ref": 202630000, "role": "route"},
         {"type": "way", "ref": 149102554, "role": "route"},
         {"type": "way", "ref": 149102557, "role": "route"},
+        {"type": "way", "ref": 974201426, "role": "route"},
         {"type": "way", "ref": 148319241, "role": "route"},
         {"type": "way", "ref": 462804585, "role": "route"},
         {"type": "way", "ref": 497713860, "role": "route"},
@@ -813,11 +814,11 @@
     {
       "type": "relation",
       "id": 300374,
-      "timestamp": "2019-11-09T14:53:54Z",
-      "version": 48,
-      "changeset": 76846098,
-      "user": "whb",
-      "uid": 202726,
+      "timestamp": "2021-08-18T06:30:46Z",
+      "version": 49,
+      "changeset": 109850926,
+      "user": "lowie2028",
+      "uid": 1826938,
       "members": [
         {"type": "way", "ref": 24598808, "role": "route"},
         {"type": "way", "ref": 325368143, "role": "route"},
@@ -889,6 +890,7 @@
         {"type": "way", "ref": 26982375, "role": "route"},
         {"type": "way", "ref": 103464847, "role": "route"},
         {"type": "way", "ref": 103528657, "role": "route"},
+        {"type": "way", "ref": 974213120, "role": "route"},
         {"type": "way", "ref": 73903500, "role": "route"},
         {"type": "way", "ref": 100788073, "role": "route"},
         {"type": "way", "ref": 72701350, "role": "route"},
@@ -1032,11 +1034,11 @@
     {
       "type": "way",
       "id": 103528657,
-      "timestamp": "2017-04-17T12:44:37Z",
-      "version": 4,
-      "changeset": 47869743,
-      "user": "jeka p",
-      "uid": 2385757,
+      "timestamp": "2021-08-18T06:30:50Z",
+      "version": 5,
+      "changeset": 109850926,
+      "user": "lowie2028",
+      "uid": 1826938,
       "nodes": [279158601, 1194651091],
       "geometry": [
         {"lat": 47.2606757, "lon": 10.3442102},
@@ -1047,6 +1049,7 @@
       "tags": {
         "highway": "primary",
         "lanes": "2",
+        "lit": "yes",
         "maxspeed": "AT:urban",
         "name": "Lechtalstraße",
         "ref": "B198",
@@ -2488,15 +2491,13 @@
     {
       "type": "way",
       "id": 148319241,
-      "timestamp": "2021-07-01T19:03:31Z",
-      "version": 11,
-      "changeset": 107275988,
+      "timestamp": "2021-08-18T05:37:43Z",
+      "version": 12,
+      "changeset": 109847784,
       "user": "alessandrocarmeli",
       "uid": 12294600,
-      "nodes": [299983797, 752879954],
+      "nodes": [56220988, 752879954],
       "geometry": [
-        {"lat": 45.5929288, "lon": 13.8376215},
-        {"lat": 45.5928092, "lon": 13.836895},
         {"lat": 45.5927729, "lon": 13.83669},
         {"lat": 45.5928377, "lon": 13.8364136},
         {"lat": 45.5928547, "lon": 13.8361107},
@@ -26481,17 +26482,13 @@
     {
       "type": "way",
       "id": 73903500,
-      "timestamp": "2014-08-23T20:31:20Z",
-      "version": 3,
-      "changeset": 24964642,
-      "user": "Helmchen42",
-      "uid": 1817244,
-      "nodes": [279158601, 863250431],
+      "timestamp": "2021-08-18T06:30:46Z",
+      "version": 5,
+      "changeset": 109850926,
+      "user": "lowie2028",
+      "uid": 1826938,
+      "nodes": [874354366, 863250431],
       "geometry": [
-        {"lat": 47.2606757, "lon": 10.3442102},
-        {"lat": 47.2606067, "lon": 10.3442857},
-        {"lat": 47.2603427, "lon": 10.3446821},
-        {"lat": 47.2601952, "lon": 10.3449152},
         {"lat": 47.2600867, "lon": 10.3450872},
         {"lat": 47.259996, "lon": 10.3451118},
         {"lat": 47.2599329, "lon": 10.3451167},
@@ -26507,6 +26504,7 @@
       "tags": {
         "highway": "residential",
         "name": "Holzgau",
+        "sidewalk": "none",
         "surface": "asphalt"
       }
     },
@@ -29792,6 +29790,46 @@
         {"lat": 45.7344392, "lon": 13.6902617}
       ],
       "tags": {"highway": "unclassified", "noname": "yes", "surface": "asphalt"}
+    },
+    {
+      "type": "way",
+      "id": 974201426,
+      "timestamp": "2021-08-18T05:37:43Z",
+      "version": 1,
+      "changeset": 109847784,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
+      "nodes": [299983797, 56220988],
+      "geometry": [
+        {"lat": 45.5929288, "lon": 13.8376215},
+        {"lat": 45.5928092, "lon": 13.836895},
+        {"lat": 45.5927729, "lon": 13.83669}
+      ],
+      "tags": {"highway": "unclassified", "noname": "yes"}
+    },
+    {
+      "type": "way",
+      "id": 974213120,
+      "timestamp": "2021-08-18T06:30:47Z",
+      "version": 2,
+      "changeset": 109850926,
+      "user": "lowie2028",
+      "uid": 1826938,
+      "nodes": [279158601, 874354366],
+      "geometry": [
+        {"lat": 47.2606757, "lon": 10.3442102},
+        {"lat": 47.2606067, "lon": 10.3442857},
+        {"lat": 47.2603427, "lon": 10.3446821},
+        {"lat": 47.2601952, "lon": 10.3449152},
+        {"lat": 47.2600867, "lon": 10.3450872}
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "no",
+        "name": "Holzgau",
+        "sidewalk": "none",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
