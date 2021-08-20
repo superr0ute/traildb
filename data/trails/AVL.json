@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-06-23T09:52:13Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-20T02:28:27Z"},
   "elements": [
     {
       "type": "relation",
@@ -61,11 +61,11 @@
     {
       "type": "relation",
       "id": 12872548,
-      "timestamp": "2021-06-22T10:00:47Z",
-      "version": 1,
-      "changeset": 106767613,
-      "user": "Andrea Del Sarto",
-      "uid": 3215770,
+      "timestamp": "2021-08-19T15:13:35Z",
+      "version": 2,
+      "changeset": 109940398,
+      "user": "kaitu",
+      "uid": 69717,
       "members": [
         {"type": "way", "ref": 238128824, "role": ""},
         {"type": "way", "ref": 386670638, "role": ""},
@@ -97,6 +97,7 @@
         {"type": "way", "ref": 860981196, "role": ""},
         {"type": "way", "ref": 369178738, "role": ""},
         {"type": "way", "ref": 285258491, "role": ""},
+        {"type": "way", "ref": 974689325, "role": ""},
         {"type": "way", "ref": 314772849, "role": ""},
         {"type": "way", "ref": 73279664, "role": ""},
         {"type": "way", "ref": 314772847, "role": ""},
@@ -1367,12 +1368,12 @@
     {
       "type": "way",
       "id": 285258491,
-      "timestamp": "2021-06-22T09:50:24Z",
-      "version": 6,
-      "changeset": 106766872,
-      "user": "Andrea Del Sarto",
-      "uid": 3215770,
-      "nodes": [890818486, 869188168],
+      "timestamp": "2021-08-19T15:13:35Z",
+      "version": 7,
+      "changeset": 109940398,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [890818486, 8507203084],
       "geometry": [
         {"lat": 46.082057, "lon": 9.225004, "z": 1885.3},
         {"lat": 46.081859, "lon": 9.224822, "z": 1888.5},
@@ -1397,10 +1398,7 @@
         {"lat": 46.076392, "lon": 9.222187, "z": 1709.8},
         {"lat": 46.075697, "lon": 9.221925, "z": 1686},
         {"lat": 46.075298, "lon": 9.2219449, "z": 1674},
-        {"lat": 46.0752067, "lon": 9.2219388, "z": 1672.2},
-        {"lat": 46.0751286, "lon": 9.2219201, "z": 1670.5},
-        {"lat": 46.074546, "lon": 9.221775, "z": 1661.1},
-        {"lat": 46.0737962, "lon": 9.2218346, "z": 1654.4}
+        {"lat": 46.0752067, "lon": 9.2219388, "z": 1672.2}
       ],
       "tags": {"highway": "path", "mtb:scale": "2", "surface": "grass"}
     },
@@ -4366,6 +4364,29 @@
         "highway": "path",
         "sac_scale": "demanding_mountain_hiking",
         "trail_visibility": "intermediate"
+      }
+    },
+    {
+      "type": "way",
+      "id": 974689325,
+      "timestamp": "2021-08-19T15:13:35Z",
+      "version": 1,
+      "changeset": 109940398,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [8507203084, 869188168],
+      "geometry": [
+        {"lat": 46.0752067, "lon": 9.2219388, "z": 1672.2},
+        {"lat": 46.0751286, "lon": 9.2219201, "z": 1670.5},
+        {"lat": 46.074546, "lon": 9.221775, "z": 1661.1},
+        {"lat": 46.0737962, "lon": 9.2218346, "z": 1654.4}
+      ],
+      "tags": {
+        "highway": "path",
+        "mtb:scale": "2",
+        "sac_scale": "mountain_hiking",
+        "surface": "grass",
+        "trail_visibility": "good"
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-18T02:30:42Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-20T02:31:30Z"},
   "elements": [
     {
       "type": "relation",
@@ -1445,9 +1445,9 @@
     {
       "type": "relation",
       "id": 10605303,
-      "timestamp": "2021-06-10T10:52:59Z",
-      "version": 8,
-      "changeset": 106150325,
+      "timestamp": "2021-08-19T11:28:43Z",
+      "version": 9,
+      "changeset": 109928226,
       "user": "jqngarcia",
       "uid": 5126253,
       "members": [
@@ -1462,6 +1462,7 @@
         {"type": "way", "ref": 370991267, "role": ""},
         {"type": "way", "ref": 952978104, "role": ""},
         {"type": "way", "ref": 207183298, "role": ""},
+        {"type": "way", "ref": 974630908, "role": ""},
         {"type": "way", "ref": 37898063, "role": ""},
         {"type": "way", "ref": 654018977, "role": ""},
         {"type": "way", "ref": 37898064, "role": ""},
@@ -20061,12 +20062,12 @@
     {
       "type": "way",
       "id": 207183298,
-      "timestamp": "2021-04-22T01:35:02Z",
-      "version": 5,
-      "changeset": 103370050,
-      "user": "mDav",
-      "uid": 7882299,
-      "nodes": [449782040, 449782063],
+      "timestamp": "2021-08-19T11:28:43Z",
+      "version": 6,
+      "changeset": 109928226,
+      "user": "jqngarcia",
+      "uid": 5126253,
+      "nodes": [449782040, 449782059],
       "geometry": [
         {"lat": 43.3658387, "lon": -1.7926807, "z": 13},
         {"lat": 43.3658299, "lon": -1.7927247, "z": 13.1},
@@ -20080,9 +20081,7 @@
         {"lat": 43.365624, "lon": -1.7927164, "z": 13.4},
         {"lat": 43.3656172, "lon": -1.7926741, "z": 13.3},
         {"lat": 43.3656206, "lon": -1.7926238, "z": 13.3},
-        {"lat": 43.3656357, "lon": -1.7925777, "z": 13.2},
-        {"lat": 43.3656621, "lon": -1.7925396, "z": 13.1},
-        {"lat": 43.3656963, "lon": -1.7925161, "z": 13}
+        {"lat": 43.3656357, "lon": -1.7925777, "z": 13.2}
       ],
       "tags": {"highway": "tertiary", "junction": "roundabout"}
     },
@@ -26086,18 +26085,19 @@
     {
       "type": "way",
       "id": 260926781,
-      "timestamp": "2014-02-10T14:38:03Z",
-      "version": 1,
-      "changeset": 20485575,
-      "user": "jcphal",
-      "uid": 387627,
+      "timestamp": "2021-08-19T18:27:30Z",
+      "version": 2,
+      "changeset": 109948858,
+      "user": "EliziR",
+      "uid": 605366,
       "nodes": [366651890, 1813241851],
       "geometry": [
         {"lat": 42.3618875, "lon": 3.1444348, "z": 10.2},
         {"lat": 42.3622009, "lon": 3.1448077, "z": 10.9},
         {"lat": 42.362493, "lon": 3.1453249, "z": 10.9},
         {"lat": 42.3627434, "lon": 3.1458917, "z": 9.5},
-        {"lat": 42.3628954, "lon": 3.1464072, "z": 8.6},
+        {"lat": 42.3629213, "lon": 3.1464948, "z": 8.4},
+        {"lat": 42.3629086, "lon": 3.1466216, "z": 8.2},
         {"lat": 42.3629229, "lon": 3.1468019, "z": 8.2},
         {"lat": 42.3628982, "lon": 3.1469823, "z": 8.2}
       ],
@@ -35041,11 +35041,11 @@
     {
       "type": "way",
       "id": 32604966,
-      "timestamp": "2021-01-12T19:03:24Z",
-      "version": 11,
-      "changeset": 97392790,
-      "user": "jqngarcia",
-      "uid": 5126253,
+      "timestamp": "2021-08-19T18:30:09Z",
+      "version": 12,
+      "changeset": 109948959,
+      "user": "EliziR",
+      "uid": 605366,
       "nodes": [366651859, 366651888],
       "geometry": [
         {"lat": 42.3685807, "lon": 3.1273006, "z": 125.1},
@@ -35067,8 +35067,10 @@
         {"lat": 42.3638644, "lon": 3.1371448, "z": 28.8},
         {"lat": 42.3633375, "lon": 3.1378829, "z": 23.8},
         {"lat": 42.3630389, "lon": 3.1384259, "z": 21.8},
+        {"lat": 42.3628887, "lon": 3.1386835, "z": 20.7},
         {"lat": 42.3628189, "lon": 3.1388033, "z": 20.2},
         {"lat": 42.3627375, "lon": 3.1389428, "z": 19.7},
+        {"lat": 42.3625826, "lon": 3.139403, "z": 17.6},
         {"lat": 42.362285, "lon": 3.1402867, "z": 13.2},
         {"lat": 42.3622605, "lon": 3.1404478, "z": 12.5},
         {"lat": 42.3622254, "lon": 3.1409149, "z": 11.2},
@@ -40357,26 +40359,21 @@
     {
       "type": "way",
       "id": 390783279,
-      "timestamp": "2021-01-01T07:43:50Z",
-      "version": 6,
-      "changeset": 96760165,
-      "user": "Seraq",
-      "uid": 3148901,
+      "timestamp": "2021-08-19T22:11:17Z",
+      "version": 7,
+      "changeset": 109955983,
+      "user": "arte2002",
+      "uid": 662113,
       "nodes": [3939188066, 2415085700],
       "geometry": [
         {"lat": 42.6647821, "lon": 0.5091485, "z": 1744.5},
-        {"lat": 42.6648603, "lon": 0.509147, "z": 1744.5},
+        {"lat": 42.6648751, "lon": 0.5091215, "z": 1745},
         {"lat": 42.6650406, "lon": 0.5091434, "z": 1744.8}
       ],
       "tags": {
-        "bicycle": "yes",
         "bridge": "yes",
-        "foot": "yes",
         "highway": "track",
-        "horse": "no",
-        "incline": "up",
-        "motor_vehicle": "no",
-        "segregated": "no",
+        "motor_vehicle": "designated",
         "smoothness": "intermediate"
       }
     },
@@ -48519,11 +48516,11 @@
     {
       "type": "way",
       "id": 517072914,
-      "timestamp": "2020-07-22T00:22:08Z",
-      "version": 3,
-      "changeset": 88316294,
-      "user": "altillu",
-      "uid": 566378,
+      "timestamp": "2021-08-19T17:10:45Z",
+      "version": 4,
+      "changeset": 109945537,
+      "user": "sanchi",
+      "uid": 170106,
       "nodes": [4035845953, 856363556],
       "geometry": [
         {"lat": 42.8409131, "lon": -0.6553389, "z": 1370.3},
@@ -48602,7 +48599,8 @@
         "highway": "unclassified",
         "motor_vehicle": "private",
         "name": "Carretera de Aguas Tuertas",
-        "ref": "GR-11"
+        "ref": "GR-11",
+        "vehicle": "private"
       }
     },
     {
@@ -73456,6 +73454,22 @@
         {"lat": 42.6829086, "lon": 0.1297686, "z": 1930.1}
       ],
       "tags": {"highway": "track"}
+    },
+    {
+      "type": "way",
+      "id": 974630908,
+      "timestamp": "2021-08-19T11:28:43Z",
+      "version": 1,
+      "changeset": 109928226,
+      "user": "jqngarcia",
+      "uid": 5126253,
+      "nodes": [449782059, 449782063],
+      "geometry": [
+        {"lat": 43.3656357, "lon": -1.7925777, "z": 13.2},
+        {"lat": 43.3656621, "lon": -1.7925396, "z": 13.1},
+        {"lat": 43.3656963, "lon": -1.7925161, "z": 13}
+      ],
+      "tags": {"highway": "tertiary", "junction": "roundabout"}
     },
     {
       "type": "way",
