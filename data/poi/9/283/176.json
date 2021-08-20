@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-08-18T23:59:59Z",
-    "timestamp_osm_base": "2021-08-19T05:28:07Z",
+    "timestamp_osm_date": "2021-08-19T23:59:59Z",
+    "timestamp_osm_base": "2021-08-20T05:21:48Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -567,11 +567,11 @@
       "id": 26036638,
       "lat": 48.8104889,
       "lon": 19.5719557,
-      "timestamp": "2020-05-04T12:43:52Z",
-      "version": 8,
-      "changeset": 84624574,
-      "user": "Pan Perníček",
-      "uid": 9641379,
+      "timestamp": "2021-08-19T18:07:29Z",
+      "version": 9,
+      "changeset": 109947886,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
         "city_id": "509086",
         "ele": "645",
@@ -583,7 +583,9 @@
         "postal_code": "976 46",
         "region_id": "603",
         "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
-        "wikidata": "Q1008220"
+        "website": "https://www.valaska.sk/",
+        "wikidata": "Q1008220",
+        "wikipedia": "sk:Valaská"
       }
     },
     {
@@ -6647,13 +6649,18 @@
       "id": 2014754333,
       "lat": 48.8100693,
       "lon": 19.5711098,
-      "timestamp": "2017-03-16T11:39:22Z",
-      "version": 2,
-      "changeset": 46895461,
-      "user": "Peter Vojtek",
-      "uid": 1722705,
+      "timestamp": "2021-08-19T18:07:29Z",
+      "version": 3,
+      "changeset": 109947886,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
-        "name": "COOP",
+        "addr:city": "Valaská",
+        "addr:postcode": "97646",
+        "brand": "COOP Jednota",
+        "brand:wikidata": "Q41629254",
+        "brand:wikipedia": "sk:COOP Jednota Slovensko",
+        "name": "COOP Jednota",
         "shop": "supermarket"
       }
     },
@@ -17372,21 +17379,6 @@
     },
     {
       "type": "node",
-      "id": 7403352342,
-      "lat": 48.8745551,
-      "lon": 19.3057264,
-      "timestamp": "2021-06-13T21:18:00Z",
-      "version": 2,
-      "changeset": 106297977,
-      "user": "Mirecnet",
-      "uid": 2323152,
-      "tags": {
-        "source": "survey, GPS",
-        "tourism": "wilderness_hut"
-      }
-    },
-    {
-      "type": "node",
       "id": 7403352364,
       "lat": 48.8840231,
       "lon": 19.2718153,
@@ -24244,20 +24236,21 @@
     {
       "type": "way",
       "id": 51219274,
-      "timestamp": "2010-02-25T17:37:53Z",
-      "version": 1,
-      "changeset": 3973708,
-      "user": "laznik",
-      "uid": 2175,
+      "timestamp": "2021-08-19T10:53:43Z",
+      "version": 2,
+      "changeset": 109926042,
+      "user": "Mirecnet",
+      "uid": 2323152,
       "center": {
-        "lat": 48.8648063,
-        "lon": 19.2824118
+        "lat": 48.8645994,
+        "lon": 19.2827279
       },
       "nodes": [],
       "tags": {
         "amenity": "shelter",
         "building": "yes",
-        "fireplace": "yes"
+        "fireplace": "yes",
+        "source": "GPS, survey"
       }
     },
     {
@@ -26255,6 +26248,46 @@
         "building": "yes",
         "fireplace": "yes",
         "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 974784072,
+      "timestamp": "2021-08-19T18:07:29Z",
+      "version": 1,
+      "changeset": 109947886,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 48.8126138,
+        "lon": 19.5911689
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 974784075,
+      "timestamp": "2021-08-19T18:07:29Z",
+      "version": 1,
+      "changeset": 109947886,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 48.8128195,
+        "lon": 19.590337
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "shelter_type": "public_transport"
       }
     }
   ]
