@@ -1305,17 +1305,18 @@
         "@poi": "foodshop_convenience",
         "@distance": 2002.6,
         "@id": "n871759305",
-        "@changeset": 104842042,
-        "@timestamp": "2021-05-17T17:55:24Z",
-        "@version": 9,
-        "@uid": 1418137,
-        "@user": "Test360",
+        "@changeset": 109998123,
+        "@timestamp": "2021-08-20T17:10:14Z",
+        "@version": 10,
+        "@uid": 5758494,
+        "@user": "BrieucP",
         "addr:street": "Avenue Léopold Fabre",
         "name": "Épicerie des Cimes",
         "opening_hours": "Tu-Sa 08:30-12:30,16:00-19:30, Su 09:00-13:00",
         "payment:cash": "yes",
         "payment:credit_cards": "yes",
-        "shop": "convenience"
+        "shop": "convenience",
+        "wheelchair": "no"
       },
       "geometry": {
         "type": "Point",
@@ -3527,50 +3528,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_spring",
-        "@distance": 2716.4,
-        "@id": "n4422025327",
-        "@changeset": 42494541,
-        "@timestamp": "2016-09-28T13:25:40Z",
-        "@version": 1,
-        "@uid": 24490,
-        "@user": "OSM42",
-        "drinking_water": "yes",
-        "name": "Fontaine du Pichet",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.4700518,
-          44.8792873
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_cave",
-        "@distance": 2838.4,
-        "@id": "n4422025376",
-        "@changeset": 42494541,
-        "@timestamp": "2016-09-28T13:25:40Z",
-        "@version": 1,
-        "@uid": 24490,
-        "@user": "OSM42",
-        "natural": "cave_entrance"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.4699579,
-          44.8852784
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 6642,
         "@id": "n898871427",
@@ -4186,6 +4143,50 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_spring",
+        "@distance": 2716.4,
+        "@id": "n4422025327",
+        "@changeset": 42494541,
+        "@timestamp": "2016-09-28T13:25:40Z",
+        "@version": 1,
+        "@uid": 24490,
+        "@user": "OSM42",
+        "drinking_water": "yes",
+        "name": "Fontaine du Pichet",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4700518,
+          44.8792873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_cave",
+        "@distance": 2838.4,
+        "@id": "n4422025376",
+        "@changeset": 42494541,
+        "@timestamp": "2016-09-28T13:25:40Z",
+        "@version": 1,
+        "@uid": 24490,
+        "@user": "OSM42",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4699579,
+          44.8852784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 2802.5,
         "@id": "n4466618994",
@@ -4666,11 +4667,12 @@
         "@poi": "water_spring",
         "@distance": 3.5,
         "@id": "n5725082838",
-        "@changeset": 60240759,
-        "@timestamp": "2018-06-28T08:35:38Z",
-        "@version": 1,
-        "@uid": 8453272,
-        "@user": "vsoudet07",
+        "@changeset": 109991229,
+        "@timestamp": "2021-08-20T14:16:38Z",
+        "@version": 2,
+        "@uid": 5758494,
+        "@user": "BrieucP",
+        "drinking_water": "no",
         "name": "Fontaine de Carette",
         "natural": "spring"
       },
@@ -6679,6 +6681,27 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_cave",
+        "@distance": 2855.8,
+        "@id": "n9023375760",
+        "@changeset": 110001266,
+        "@timestamp": "2021-08-20T18:35:37Z",
+        "@version": 1,
+        "@uid": 3304613,
+        "@user": "aetius",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5423209,
+          45.0805409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 2942.4,
         "@id": "w55125270",
@@ -6923,32 +6946,6 @@
         "coordinates": [
           5.4825794,
           44.6944892
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 5.9,
-        "@id": "w176297001",
-        "@changeset": 48124646,
-        "@timestamp": "2017-04-25T13:19:17Z",
-        "@version": 2,
-        "@uid": 2797881,
-        "@user": "bagage",
-        "amenity": "shelter",
-        "building": "yes",
-        "ele": 1774,
-        "fireplace": "yes",
-        "name": "Cabane de Châtillon",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.4901782,
-          44.7276409
         ]
       }
     },
@@ -7527,6 +7524,32 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
+        "@distance": 5.9,
+        "@id": "w176297001",
+        "@changeset": 48124646,
+        "@timestamp": "2017-04-25T13:19:17Z",
+        "@version": 2,
+        "@uid": 2797881,
+        "@user": "bagage",
+        "amenity": "shelter",
+        "building": "yes",
+        "ele": 1774,
+        "fireplace": "yes",
+        "name": "Cabane de Châtillon",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4901782,
+          44.7276409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
         "@distance": 216.8,
         "@id": "w200904764",
         "@changeset": 82879225,
@@ -7900,14 +7923,17 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 86.3,
         "@id": "w218727866",
-        "@changeset": 103319890,
-        "@timestamp": "2021-04-21T07:53:14Z",
-        "@version": 5,
-        "@uid": 8357704,
-        "@user": "manuel-128",
+        "@changeset": 109991235,
+        "@timestamp": "2021-08-20T14:16:42Z",
+        "@version": 7,
+        "@uid": 5758494,
+        "@user": "BrieucP",
         "building": "cabin",
+        "building:levels": "1",
         "ele": 1355,
         "name": "Cabane de Carette",
+        "roof:levels": "1",
+        "roof:shape": "gabled",
         "source": "Bing",
         "tourism": "wilderness_hut"
       },
@@ -8688,16 +8714,17 @@
         "@poi": "foodshop_convenience",
         "@distance": 6002.8,
         "@id": "n2203224942",
-        "@changeset": 83782021,
-        "@timestamp": "2020-04-19T18:41:26Z",
-        "@version": 4,
-        "@uid": 161202,
-        "@user": "colargol",
+        "@changeset": 109992928,
+        "@timestamp": "2021-08-20T14:55:03Z",
+        "@version": 5,
+        "@uid": 10185209,
+        "@user": "Niddler",
         "name": "Le Bénin à Grenoble",
         "opening_hours": "Tu-Sa 10:00-19:00",
         "opening_hours:covid19": "open",
         "shop": "convenience",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013"
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
+        "wheelchair": "yes"
       },
       "geometry": {
         "type": "Point",
