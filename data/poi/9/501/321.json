@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-08-19T23:59:59Z",
-    "timestamp_osm_base": "2021-08-20T06:17:52Z",
+    "timestamp_osm_date": "2021-08-20T23:59:59Z",
+    "timestamp_osm_base": "2021-08-21T06:26:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -63,43 +63,6 @@
     },
     {
       "type": "node",
-      "id": 517266578,
-      "lat": -41.5876099,
-      "lon": 172.3644688,
-      "timestamp": "2018-06-23T19:50:11Z",
-      "version": 3,
-      "changeset": 60107869,
-      "user": "gaddman",
-      "uid": 365177,
-      "tags": {
-        "amenity": "shelter",
-        "building": "yes",
-        "name": "McConchies Hut",
-        "ref:doc": "100059906",
-        "tourism": "alpine_hut"
-      }
-    },
-    {
-      "type": "node",
-      "id": 517316443,
-      "lat": -41.9828021,
-      "lon": 172.6304652,
-      "timestamp": "2018-06-23T19:50:12Z",
-      "version": 6,
-      "changeset": 60107869,
-      "user": "gaddman",
-      "uid": 365177,
-      "tags": {
-        "amenity": "shelter",
-        "building": "yes",
-        "ele": "540",
-        "name": "Morgan Hut",
-        "ref:doc": "100064355",
-        "tourism": "alpine_hut"
-      }
-    },
-    {
-      "type": "node",
       "id": 517316447,
       "lat": -41.9009909,
       "lon": 172.6812198,
@@ -136,43 +99,6 @@
         "name:mi": "Poukirikiri",
         "natural": "saddle",
         "source": "LINZ_NZ_Topo50_Gridless_Maps"
-      }
-    },
-    {
-      "type": "node",
-      "id": 527735870,
-      "lat": -41.93287,
-      "lon": 172.669662,
-      "timestamp": "2018-06-23T19:50:13Z",
-      "version": 4,
-      "changeset": 60107869,
-      "user": "gaddman",
-      "uid": 365177,
-      "tags": {
-        "amenity": "shelter",
-        "ele": "1550",
-        "name": "Mt Misery Hut",
-        "ref:doc": "100064126",
-        "source": "zenbu",
-        "tourism": "alpine_hut"
-      }
-    },
-    {
-      "type": "node",
-      "id": 527783409,
-      "lat": -41.961637,
-      "lon": 172.571735,
-      "timestamp": "2018-06-23T19:50:13Z",
-      "version": 3,
-      "changeset": 60107869,
-      "user": "gaddman",
-      "uid": 365177,
-      "tags": {
-        "amenity": "shelter",
-        "name": "Mole Hut",
-        "ref:doc": "100064347",
-        "source": "zenbu",
-        "tourism": "alpine_hut"
       }
     },
     {
@@ -1606,6 +1532,106 @@
         "ref:doc": "100059908",
         "tourism": "wilderness_hut",
         "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/nelson-lakes-national-park/things-to-do/huts/durville-hut/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 974925939,
+      "timestamp": "2021-08-20T08:25:59Z",
+      "version": 1,
+      "changeset": 109972767,
+      "user": "petenz",
+      "uid": 38928,
+      "center": {
+        "lat": -41.5874917,
+        "lon": 172.3642899
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "capacity": "4",
+        "fee": "yes",
+        "fireplace": "yes",
+        "name": "McConchies Hut",
+        "operator": "Department of Conservation",
+        "ref:doc": "100059906",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/kahurangi-national-park/things-to-do/huts/mcconchies-hut/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 974985271,
+      "timestamp": "2021-08-20T12:28:51Z",
+      "version": 1,
+      "changeset": 109986228,
+      "user": "petenz",
+      "uid": 38928,
+      "center": {
+        "lat": -41.9616043,
+        "lon": 172.5717232
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "capacity": "4",
+        "fee": "yes",
+        "fireplace": "no",
+        "name": "Mole Hut",
+        "operator": "Department of Conservation",
+        "ref:doc": "100064347",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/nelson-lakes-national-park/things-to-do/huts/mole-hut/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 974985710,
+      "timestamp": "2021-08-20T12:31:39Z",
+      "version": 1,
+      "changeset": 109986378,
+      "user": "petenz",
+      "uid": 38928,
+      "center": {
+        "lat": -41.9827476,
+        "lon": 172.6308608
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "capacity": "10",
+        "fee": "yes",
+        "fireplace": "yes",
+        "name": "Morgan Hut",
+        "operator": "Department of Conservation",
+        "ref:doc": "100064355",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/nelson-lakes-national-park/things-to-do/huts/morgan-hut/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 974993138,
+      "timestamp": "2021-08-20T12:59:02Z",
+      "version": 1,
+      "changeset": 109987779,
+      "user": "petenz",
+      "uid": 38928,
+      "center": {
+        "lat": -41.9341792,
+        "lon": 172.6706281
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "capacity": "4",
+        "fee": "no",
+        "fireplace": "no",
+        "name": "Mount Misery Hut",
+        "operator": "Department of Conservation",
+        "ref:doc": "100064126",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/nelson-tasman/places/nelson-lakes-national-park/things-to-do/huts/mount-misery-hut/"
       }
     }
   ]

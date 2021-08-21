@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-08-19T23:59:59Z",
-    "timestamp_osm_base": "2021-08-20T06:15:46Z",
+    "timestamp_osm_date": "2021-08-20T23:59:59Z",
+    "timestamp_osm_base": "2021-08-21T06:23:27Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -38,24 +38,6 @@
         "amenity": "shelter",
         "building": "yes",
         "name": "Rankin Hut",
-        "tourism": "alpine_hut"
-      }
-    },
-    {
-      "type": "node",
-      "id": 632958864,
-      "lat": -43.5804604,
-      "lon": 170.6033728,
-      "timestamp": "2018-06-23T19:50:14Z",
-      "version": 2,
-      "changeset": 60107869,
-      "user": "gaddman",
-      "uid": 365177,
-      "tags": {
-        "amenity": "shelter",
-        "building": "yes",
-        "name": "Macaulay Hut",
-        "ref:doc": "100060644",
         "tourism": "alpine_hut"
       }
     },
@@ -618,21 +600,6 @@
         "natural": "peak",
         "source": "LINZ_NZ_Topo50_Gridless_Maps",
         "wikidata": "Q31716155"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4955797652,
-      "lat": -43.6777164,
-      "lon": 170.3843943,
-      "timestamp": "2017-07-06T23:46:47Z",
-      "version": 1,
-      "changeset": 50096462,
-      "user": "petenz",
-      "uid": 38928,
-      "tags": {
-        "name": "Memorial Hut",
-        "tourism": "alpine_hut"
       }
     },
     {
@@ -1698,6 +1665,52 @@
         "ref:doc": "100075445",
         "tourism": "wilderness_hut",
         "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/aoraki-mount-cook-national-park/things-to-do/huts/liebig-hut/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 974915202,
+      "timestamp": "2021-08-20T07:33:47Z",
+      "version": 1,
+      "changeset": 109970279,
+      "user": "petenz",
+      "uid": 38928,
+      "center": {
+        "lat": -43.5805019,
+        "lon": 170.6034321
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "capacity": "14",
+        "fee": "yes",
+        "fireplace": "yes",
+        "name": "Macaulay Hut",
+        "operator": "Mackenzie Alpine Trust",
+        "ref:doc": "100060644",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/te-kahui-kaupeka-conservation-park/things-to-do/huts/macaulay-hut/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 974978603,
+      "timestamp": "2021-08-20T12:03:59Z",
+      "version": 1,
+      "changeset": 109984867,
+      "user": "petenz",
+      "uid": 38928,
+      "center": {
+        "lat": -43.6777168,
+        "lon": 170.3844001
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "capacity": "8",
+        "name": "Memorial Hut",
+        "operator": "Glenmore Station",
+        "tourism": "wilderness_hut"
       }
     }
   ]
