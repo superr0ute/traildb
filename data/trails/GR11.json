@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-20T02:31:30Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-21T02:31:46Z"},
   "elements": [
     {
       "type": "relation",
@@ -2453,11 +2453,11 @@
     {
       "type": "relation",
       "id": 10605320,
-      "timestamp": "2021-08-17T22:16:15Z",
-      "version": 5,
-      "changeset": 109836389,
-      "user": "arte2002",
-      "uid": 662113,
+      "timestamp": "2021-08-20T12:27:36Z",
+      "version": 6,
+      "changeset": 109986173,
+      "user": "johnnie94",
+      "uid": 10269334,
       "members": [
         {"type": "way", "ref": 543269582, "role": ""},
         {"type": "way", "ref": 543269584, "role": ""},
@@ -2470,6 +2470,8 @@
         {"type": "way", "ref": 698788814, "role": ""},
         {"type": "way", "ref": 62234082, "role": ""},
         {"type": "way", "ref": 63663082, "role": ""},
+        {"type": "way", "ref": 974984488, "role": ""},
+        {"type": "way", "ref": 974984489, "role": ""},
         {"type": "way", "ref": 63663081, "role": ""},
         {"type": "way", "ref": 698822350, "role": ""},
         {"type": "way", "ref": 390783277, "role": ""},
@@ -4333,11 +4335,11 @@
     {
       "type": "way",
       "id": 122250955,
-      "timestamp": "2021-01-01T07:43:50Z",
-      "version": 6,
-      "changeset": 96760165,
-      "user": "Seraq",
-      "uid": 3148901,
+      "timestamp": "2021-08-20T11:23:46Z",
+      "version": 7,
+      "changeset": 109982404,
+      "user": "johnnie94",
+      "uid": 10269334,
       "nodes": [623541255, 623541299],
       "geometry": [
         {"lat": 42.6379513, "lon": 0.5628516, "z": 1382.5},
@@ -4362,6 +4364,7 @@
         {"lat": 42.6318279, "lon": 0.5607031, "z": 1394.3},
         {"lat": 42.6317496, "lon": 0.560681, "z": 1394},
         {"lat": 42.6315046, "lon": 0.5606075, "z": 1395.9},
+        {"lat": 42.6314946, "lon": 0.5605736, "z": 1395.5},
         {"lat": 42.6313992, "lon": 0.5602492, "z": 1390.9},
         {"lat": 42.6313845, "lon": 0.5594748, "z": 1380.2},
         {"lat": 42.6314724, "lon": 0.5593343, "z": 1376.9},
@@ -56968,17 +56971,15 @@
     {
       "type": "way",
       "id": 63663081,
-      "timestamp": "2021-01-18T18:41:21Z",
-      "version": 8,
-      "changeset": 97715714,
-      "user": "Seraq",
-      "uid": 3148901,
-      "nodes": [787530833, 787530832],
+      "timestamp": "2021-08-20T12:27:36Z",
+      "version": 9,
+      "changeset": 109986173,
+      "user": "johnnie94",
+      "uid": 10269334,
+      "nodes": [4323731980, 4323731979],
       "geometry": [
-        {"lat": 42.6396079, "lon": 0.5389545, "z": 1476.7},
         {"lat": 42.6395428, "lon": 0.5389945, "z": 1476.2},
-        {"lat": 42.6394797, "lon": 0.5390803, "z": 1475.3},
-        {"lat": 42.6394261, "lon": 0.5391418, "z": 1474.4}
+        {"lat": 42.6394797, "lon": 0.5390803, "z": 1475.3}
       ],
       "tags": {
         "access": "yes",
@@ -56988,6 +56989,7 @@
         "incline": "down",
         "motor_vehicle": "no",
         "mtb:scale": "1",
+        "name": "Palanca del Aiguacari",
         "smoothness": "bad",
         "tracktype": "grade4"
       }
@@ -58424,7 +58426,7 @@
         {"lat": 42.6400359, "lon": 0.5389216, "z": 1479.6},
         {"lat": 42.6399812, "lon": 0.5389597, "z": 1479.4},
         {"lat": 42.639774, "lon": 0.5389388, "z": 1477.5},
-        {"lat": 42.6396079, "lon": 0.5389545, "z": 1476.7}
+        {"lat": 42.6396068, "lon": 0.5389545, "z": 1476.7}
       ],
       "tags": {
         "access": "yes",
@@ -73470,6 +73472,58 @@
         {"lat": 43.3656963, "lon": -1.7925161, "z": 13}
       ],
       "tags": {"highway": "tertiary", "junction": "roundabout"}
+    },
+    {
+      "type": "way",
+      "id": 974984488,
+      "timestamp": "2021-08-20T12:27:36Z",
+      "version": 1,
+      "changeset": 109986173,
+      "user": "johnnie94",
+      "uid": 10269334,
+      "nodes": [4323731979, 787530832],
+      "geometry": [
+        {"lat": 42.6394797, "lon": 0.5390803, "z": 1475.3},
+        {"lat": 42.6394261, "lon": 0.5391418, "z": 1474.4}
+      ],
+      "tags": {
+        "access": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "no",
+        "incline": "down",
+        "motor_vehicle": "no",
+        "mtb:scale": "1",
+        "name": "Palanca del Aiguacari",
+        "smoothness": "bad",
+        "tracktype": "grade4"
+      }
+    },
+    {
+      "type": "way",
+      "id": 974984489,
+      "timestamp": "2021-08-20T12:27:36Z",
+      "version": 1,
+      "changeset": 109986173,
+      "user": "johnnie94",
+      "uid": 10269334,
+      "nodes": [787530833, 4323731980],
+      "geometry": [
+        {"lat": 42.6396068, "lon": 0.5389545, "z": 1476.7},
+        {"lat": 42.6395428, "lon": 0.5389945, "z": 1476.2}
+      ],
+      "tags": {
+        "access": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "no",
+        "incline": "down",
+        "motor_vehicle": "no",
+        "mtb:scale": "1",
+        "name": "Palanca del Aiguacari",
+        "smoothness": "bad",
+        "tracktype": "grade4"
+      }
     },
     {
       "type": "way",
