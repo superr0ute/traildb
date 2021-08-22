@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-15T02:25:13Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-22T02:26:58Z"},
   "elements": [
     {
       "type": "relation",
       "id": 3084125,
-      "timestamp": "2021-07-21T19:02:15Z",
-      "version": 108,
-      "changeset": 108382358,
-      "user": "Willer",
-      "uid": 108298,
+      "timestamp": "2021-08-21T18:24:36Z",
+      "version": 109,
+      "changeset": 110038207,
+      "user": "gszkr",
+      "uid": 1970188,
       "members": [
         {"type": "way", "ref": 610665343, "role": ""},
         {"type": "way", "ref": 4861781, "role": ""},
@@ -74,6 +74,7 @@
         {"type": "way", "ref": 179136514, "role": ""},
         {"type": "way", "ref": 179136518, "role": ""},
         {"type": "way", "ref": 179136513, "role": ""},
+        {"type": "way", "ref": 975281238, "role": ""},
         {"type": "way", "ref": 179136519, "role": ""},
         {"type": "way", "ref": 179136516, "role": ""},
         {"type": "way", "ref": 139202169, "role": ""},
@@ -3759,20 +3760,23 @@
     {
       "type": "way",
       "id": 179136513,
-      "timestamp": "2019-07-07T21:27:49Z",
-      "version": 2,
-      "changeset": 71992226,
-      "user": "painkill",
-      "uid": 389325,
-      "nodes": [1894738614, 1525669309],
+      "timestamp": "2021-08-21T18:24:45Z",
+      "version": 4,
+      "changeset": 110038207,
+      "user": "gszkr",
+      "uid": 1970188,
+      "nodes": [1894738614, 1525669317],
       "geometry": [
         {"lat": 49.5644142, "lon": 21.7928593, "z": 399.6},
         {"lat": 49.5647233, "lon": 21.7940652, "z": 407.4},
         {"lat": 49.5648242, "lon": 21.7944752, "z": 409.6},
-        {"lat": 49.5648895, "lon": 21.7945777, "z": 408.9},
-        {"lat": 49.5647672, "lon": 21.7951308, "z": 415.9}
+        {"lat": 49.5648895, "lon": 21.7945777, "z": 408.9}
       ],
-      "tags": {"highway": "path", "name": "Aleja Parkowa"}
+      "tags": {
+        "highway": "path",
+        "name": "Aleja Parkowa",
+        "surface": "paving_stones"
+      }
     },
     {
       "type": "way",
@@ -10714,6 +10718,21 @@
         {"lat": 49.2143723, "lon": 22.3136089, "z": 664.6}
       ],
       "tags": {"highway": "path", "mtb:scale": "1", "mtb:scale:uphill": "3"}
+    },
+    {
+      "type": "way",
+      "id": 975281238,
+      "timestamp": "2021-08-21T18:24:36Z",
+      "version": 1,
+      "changeset": 110038207,
+      "user": "gszkr",
+      "uid": 1970188,
+      "nodes": [1525669317, 1525669309],
+      "geometry": [
+        {"lat": 49.5648895, "lon": 21.7945777, "z": 408.9},
+        {"lat": 49.5647672, "lon": 21.7951308, "z": 415.9}
+      ],
+      "tags": {"highway": "path", "name": "Aleja Parkowa"}
     }
   ]
 }
