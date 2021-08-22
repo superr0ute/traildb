@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-08-20T23:59:59Z",
-    "timestamp_osm_base": "2021-08-21T06:19:26Z",
+    "timestamp_osm_date": "2021-08-21T23:59:59Z",
+    "timestamp_osm_base": "2021-08-22T06:30:58Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -430,36 +430,6 @@
         "place": "hamlet",
         "wikidata": "Q7134183",
         "wikipedia:en": "Paradise, New Zealand"
-      }
-    },
-    {
-      "type": "node",
-      "id": 1998795276,
-      "lat": -44.9450841,
-      "lon": 168.1858828,
-      "timestamp": "2012-11-05T15:29:38Z",
-      "version": 1,
-      "changeset": 13762170,
-      "user": "locke",
-      "uid": 65032,
-      "tags": {
-        "name": "Rats Nest Hut",
-        "tourism": "alpine_hut"
-      }
-    },
-    {
-      "type": "node",
-      "id": 1998839024,
-      "lat": -44.9851684,
-      "lon": 168.2448593,
-      "timestamp": "2012-11-05T15:45:39Z",
-      "version": 1,
-      "changeset": 13762170,
-      "user": "locke",
-      "uid": 65032,
-      "tags": {
-        "name": "Passburn Hut",
-        "tourism": "alpine_hut"
       }
     },
     {
@@ -2328,9 +2298,9 @@
       },
       "nodes": [],
       "tags": {
-        "name": "Steele Creek Lodge",
+        "tourism": "alpine_hut",
         "operator": "private",
-        "tourism": "alpine_hut"
+        "name": "Steele Creek Lodge"
       }
     },
     {
@@ -2784,6 +2754,46 @@
         "ref:doc": "100096404",
         "tourism": "wilderness_hut",
         "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/greenstone-and-caples-conservation-areas/things-to-do/mid-caples-hut/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975155218,
+      "timestamp": "2021-08-21T05:55:39Z",
+      "version": 1,
+      "changeset": 110013152,
+      "user": "petenz",
+      "uid": 38928,
+      "center": {
+        "lat": -44.9851491,
+        "lon": 168.2450769
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Passburn Hut",
+        "operator": "Elfin Bay Station",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975225695,
+      "timestamp": "2021-08-21T12:26:16Z",
+      "version": 1,
+      "changeset": 110026705,
+      "user": "petenz",
+      "uid": 38928,
+      "center": {
+        "lat": -44.9451042,
+        "lon": 168.1858656
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "capacity": "8",
+        "name": "Rats Nest Hut",
+        "tourism": "wilderness_hut"
       }
     }
   ]
