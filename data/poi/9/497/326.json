@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-08-21T23:59:59Z",
-    "timestamp_osm_base": "2021-08-22T06:32:59Z",
+    "timestamp_osm_date": "2021-08-22T23:59:59Z",
+    "timestamp_osm_base": "2021-08-23T06:07:59Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -128,24 +128,6 @@
         "name": "Mount Maitland",
         "natural": "peak",
         "wikidata": "Q31663649"
-      }
-    },
-    {
-      "type": "node",
-      "id": 660622564,
-      "lat": -44.133493,
-      "lon": 169.7506555,
-      "timestamp": "2018-06-23T19:50:18Z",
-      "version": 2,
-      "changeset": 60107869,
-      "user": "gaddman",
-      "uid": 365177,
-      "tags": {
-        "amenity": "shelter",
-        "building": "yes",
-        "name": "South Temple Hut",
-        "ref:doc": "100034569",
-        "tourism": "alpine_hut"
       }
     },
     {
@@ -874,26 +856,30 @@
     {
       "type": "way",
       "id": 353704798,
-      "timestamp": "2019-08-26T04:59:39Z",
-      "version": 6,
-      "changeset": 73733370,
-      "user": "HYPERseal",
-      "uid": 5183134,
+      "timestamp": "2021-08-22T01:54:05Z",
+      "version": 7,
+      "changeset": 110046101,
+      "user": "lcmortensen",
+      "uid": 341519,
       "center": {
         "lat": -44.2567521,
         "lon": 170.0999238
       },
       "nodes": [],
       "tags": {
-        "website": "https://www.foursquare.co.nz/south-island/canterbury/twizel/",
-        "shop": "supermarket",
-        "opening_hours": "Mo-Su 08:00-20:00",
-        "building": "yes",
-        "name": "Four Square Mackenzie",
         "addr:city": "Twizel",
         "addr:housenumber": "20",
         "addr:postcode": "7901",
-        "addr:street": "Market Place"
+        "addr:street": "Market Place",
+        "branch": "Mackenzie",
+        "brand": "Four Square",
+        "brand:wikidata": "Q5475558",
+        "brand:wikipedia": "en:Four Square (supermarket)",
+        "building": "yes",
+        "name": "Four Square",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "shop": "supermarket",
+        "website": "https://www.foursquare.co.nz/south-island/canterbury/twizel/"
       }
     },
     {
@@ -1017,6 +1003,31 @@
         "caravans": "yes",
         "name": "Lake Benmore Holiday Park",
         "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975328641,
+      "timestamp": "2021-08-22T02:56:48Z",
+      "version": 1,
+      "changeset": 110046609,
+      "user": "petenz",
+      "uid": 38928,
+      "center": {
+        "lat": -44.1331158,
+        "lon": 169.7510694
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "capacity": "6",
+        "fee": "yes",
+        "fireplace": "yes",
+        "name": "South Temple Hut",
+        "operator": "Department of Conservation",
+        "ref:doc": "100034569",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/ruataniwha-conservation-park/things-to-do/huts/south-temple-hut/"
       }
     }
   ]

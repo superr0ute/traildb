@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-08-21T23:59:59Z",
-    "timestamp_osm_base": "2021-08-22T06:30:58Z",
+    "timestamp_osm_date": "2021-08-22T23:59:59Z",
+    "timestamp_osm_base": "2021-08-23T06:02:50Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -497,22 +497,6 @@
         "operator": "Department of Conservation",
         "tents": "yes",
         "tourism": "camp_site"
-      }
-    },
-    {
-      "type": "node",
-      "id": 2295683669,
-      "lat": -44.9269199,
-      "lon": 168.2133026,
-      "timestamp": "2018-06-23T19:50:47Z",
-      "version": 2,
-      "changeset": 60107869,
-      "user": "gaddman",
-      "uid": 365177,
-      "tags": {
-        "name": "Steele Creek Hut",
-        "ref:doc": "100031570",
-        "tourism": "alpine_hut"
       }
     },
     {
@@ -2287,20 +2271,22 @@
     {
       "type": "way",
       "id": 293101280,
-      "timestamp": "2014-07-16T19:43:33Z",
-      "version": 1,
-      "changeset": 24188622,
-      "user": "Th0msn",
-      "uid": 1707027,
+      "timestamp": "2021-08-22T03:21:41Z",
+      "version": 3,
+      "changeset": 110046817,
+      "user": "petenz",
+      "uid": 38928,
       "center": {
-        "lat": -44.9617445,
-        "lon": 168.2134971
+        "lat": -44.9617425,
+        "lon": 168.2135222
       },
       "nodes": [],
       "tags": {
-        "tourism": "alpine_hut",
+        "building": "yes",
+        "name": "Steele Creek Lodge",
         "operator": "private",
-        "name": "Steele Creek Lodge"
+        "tourism": "alpine_hut",
+        "website": "https://www.ultimatehikes.co.nz/"
       }
     },
     {
@@ -2794,6 +2780,31 @@
         "capacity": "8",
         "name": "Rats Nest Hut",
         "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975328944,
+      "timestamp": "2021-08-22T03:02:32Z",
+      "version": 1,
+      "changeset": 110046645,
+      "user": "petenz",
+      "uid": 38928,
+      "center": {
+        "lat": -44.9269821,
+        "lon": 168.2136072
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "capacity": "4",
+        "fee": "no",
+        "fireplace": "yes",
+        "name": "Steele Creek Hut",
+        "operator": "Department of Conservation",
+        "ref:doc": "100031570",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/greenstone-and-caples-conservation-areas/things-to-do/steele-creek-hut/"
       }
     }
   ]
