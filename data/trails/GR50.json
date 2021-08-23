@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-21T02:32:52Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-23T02:30:57Z"},
   "elements": [
     {
       "type": "relation",
@@ -19256,11 +19256,11 @@
     {
       "type": "way",
       "id": 42558738,
-      "timestamp": "2009-11-22T12:40:43Z",
-      "version": 3,
-      "changeset": 3184045,
-      "user": "EtienneChoveBot",
-      "uid": 183561,
+      "timestamp": "2021-08-22T15:53:57Z",
+      "version": 5,
+      "changeset": 110067596,
+      "user": "FrancisGiac",
+      "uid": 9642954,
       "nodes": [531499261, 531499299],
       "geometry": [
         {"lat": 45.0454279, "lon": 6.3054809, "z": 1494.4},
@@ -19271,8 +19271,10 @@
       ],
       "tags": {
         "highway": "residential",
+        "lit": "yes",
         "name": "Rue de Dode",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
+        "surface": "asphalt"
       }
     },
     {
@@ -31265,11 +31267,11 @@
     {
       "type": "way",
       "id": 803845534,
-      "timestamp": "2020-05-14T18:48:07Z",
-      "version": 1,
-      "changeset": 85218832,
-      "user": "fmorel",
-      "uid": 331938,
+      "timestamp": "2021-08-22T15:53:15Z",
+      "version": 3,
+      "changeset": 110067405,
+      "user": "FrancisGiac",
+      "uid": 9642954,
       "nodes": [531499261, 1848288587],
       "geometry": [
         {"lat": 45.0454279, "lon": 6.3054809, "z": 1494.4},
@@ -31279,17 +31281,19 @@
         "highway": "residential",
         "name": "Rue de Babiole",
         "oneway": "yes",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
+        "sidewalk": "none",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 803845536,
-      "timestamp": "2020-10-12T15:35:58Z",
-      "version": 5,
-      "changeset": 92364097,
-      "user": "Eric S",
-      "uid": 45284,
+      "timestamp": "2021-08-22T15:43:01Z",
+      "version": 8,
+      "changeset": 110067596,
+      "user": "FrancisGiac",
+      "uid": 9642954,
       "nodes": [767442097, 531499299],
       "geometry": [
         {"lat": 45.0464727, "lon": 6.3081883, "z": 1489.2},
@@ -31314,12 +31318,15 @@
       ],
       "tags": {
         "highway": "primary",
+        "lane_markings": "no",
+        "lit": "yes",
         "maxspeed": "50",
         "maxweight": "26",
         "maxweight:conditional": "none @ delivery",
         "old_ref": "N 91",
         "ref": "D 1091",
-        "source:maxspeed": "FR:urban"
+        "source:maxspeed": "FR:urban",
+        "surface": "asphalt"
       }
     },
     {

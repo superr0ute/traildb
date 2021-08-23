@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-21T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-22T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1736379,
-      "timestamp": "2021-08-10T13:51:29Z",
-      "version": 550,
-      "changeset": 109467223,
-      "user": "gumul",
-      "uid": 482628,
+      "timestamp": "2021-08-22T19:09:43Z",
+      "version": 552,
+      "changeset": 110075766,
+      "user": "bergfex1975",
+      "uid": 1358409,
       "members": [
         {"type": "node", "ref": 1779769997, "role": "stop"},
         {"type": "node", "ref": 475738007, "role": ""},
@@ -333,6 +333,10 @@
         {"type": "way", "ref": 174929261, "role": ""},
         {"type": "way", "ref": 25963394, "role": ""},
         {"type": "way", "ref": 25963393, "role": ""},
+        {"type": "way", "ref": 975461591, "role": ""},
+        {"type": "way", "ref": 975461590, "role": ""},
+        {"type": "way", "ref": 975461589, "role": ""},
+        {"type": "way", "ref": 975461588, "role": ""},
         {"type": "way", "ref": 25963392, "role": ""},
         {"type": "way", "ref": 26095811, "role": ""},
         {"type": "way", "ref": 110437222, "role": ""},
@@ -1345,11 +1349,11 @@
         {"type": "way", "ref": 691000948, "role": ""},
         {"type": "way", "ref": 36364584, "role": ""},
         {"type": "way", "ref": 439013392, "role": ""},
-        {"type": "way", "ref": 439013391, "role": ""},
         {"type": "way", "ref": 692535352, "role": ""},
         {"type": "way", "ref": 168256051, "role": ""},
         {"type": "way", "ref": 261700561, "role": ""},
         {"type": "way", "ref": 261700564, "role": ""},
+        {"type": "way", "ref": 975415920, "role": ""},
         {"type": "way", "ref": 621955879, "role": ""},
         {"type": "way", "ref": 261700562, "role": ""},
         {"type": "way", "ref": 261700563, "role": ""},
@@ -10731,11 +10735,11 @@
     {
       "type": "way",
       "id": 170424488,
-      "timestamp": "2019-07-20T04:46:21Z",
-      "version": 6,
-      "changeset": 72451370,
-      "user": "RoHyman",
-      "uid": 120515,
+      "timestamp": "2021-08-22T14:14:03Z",
+      "version": 7,
+      "changeset": 110063478,
+      "user": "Optophonic",
+      "uid": 120147,
       "nodes": [847531022, 34027231],
       "geometry": [
         {"lat": 47.972544, "lon": 11.4742135},
@@ -10748,6 +10752,7 @@
         {"lat": 47.972391, "lon": 11.4750537}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "secondary",
         "lanes": "2",
         "maxspeed": "100",
@@ -21951,12 +21956,12 @@
     {
       "type": "way",
       "id": 25963393,
-      "timestamp": "2021-08-19T08:34:41Z",
-      "version": 14,
-      "changeset": 109914221,
-      "user": "OpenGreenStreet",
-      "uid": 9450933,
-      "nodes": [283240627, 283240605],
+      "timestamp": "2021-08-22T19:09:43Z",
+      "version": 15,
+      "changeset": 110075766,
+      "user": "bergfex1975",
+      "uid": 1358409,
+      "nodes": [283240627, 9026867216],
       "geometry": [
         {"lat": 47.6951672, "lon": 11.519421},
         {"lat": 47.6950682, "lon": 11.5192348},
@@ -21969,19 +21974,7 @@
         {"lat": 47.6945573, "lon": 11.5183604},
         {"lat": 47.6944255, "lon": 11.5183228},
         {"lat": 47.6941331, "lon": 11.5182129},
-        {"lat": 47.6940042, "lon": 11.5181469},
-        {"lat": 47.693911, "lon": 11.5180251},
-        {"lat": 47.6938054, "lon": 11.5178729},
-        {"lat": 47.6936444, "lon": 11.5176236},
-        {"lat": 47.6935301, "lon": 11.5174055},
-        {"lat": 47.6933772, "lon": 11.5171609},
-        {"lat": 47.6932619, "lon": 11.516914},
-        {"lat": 47.6930706, "lon": 11.5165137},
-        {"lat": 47.6929709, "lon": 11.516218},
-        {"lat": 47.6928562, "lon": 11.5159597},
-        {"lat": 47.6926293, "lon": 11.5154931},
-        {"lat": 47.6925172, "lon": 11.5153821},
-        {"lat": 47.6924155, "lon": 11.5152107}
+        {"lat": 47.6941012, "lon": 11.5181966}
       ],
       "tags": {
         "cycleway:both": "no",
@@ -22305,7 +22298,7 @@
       "nodes": [336114193, 2383992760],
       "geometry": [
         {"lat": 45.5444813, "lon": 12.5988914},
-        {"lat": 45.5444597, "lon": 12.5989654}
+        {"lat": 45.5444541, "lon": 12.5989667}
       ],
       "tags": {
         "bridge": "yes",
@@ -22417,17 +22410,18 @@
     {
       "type": "way",
       "id": 261700564,
-      "timestamp": "2018-09-02T09:57:04Z",
-      "version": 3,
-      "changeset": 62215240,
-      "user": "adriaman66",
-      "uid": 214217,
-      "nodes": [2383992760, 1971339164],
+      "timestamp": "2021-08-22T14:44:41Z",
+      "version": 4,
+      "changeset": 110064538,
+      "user": "voschix",
+      "uid": 305001,
+      "nodes": [2383992760, 9026479209],
       "geometry": [
-        {"lat": 45.5444597, "lon": 12.5989654},
+        {"lat": 45.5444541, "lon": 12.5989667},
+        {"lat": 45.5444417, "lon": 12.5992088},
         {"lat": 45.5444245, "lon": 12.5994097},
-        {"lat": 45.5443824, "lon": 12.5996623},
-        {"lat": 45.5443476, "lon": 12.5998484}
+        {"lat": 45.5443797, "lon": 12.59968},
+        {"lat": 45.5443553, "lon": 12.5998081}
       ],
       "tags": {
         "highway": "unclassified",
@@ -33233,10 +33227,10 @@
         {"lat": 47.6678995, "lon": 11.4724856},
         {"lat": 47.6679507, "lon": 11.4726205},
         {"lat": 47.6679924, "lon": 11.4728317},
-        {"lat": 47.6680247, "lon": 11.4730411},
-        {"lat": 47.6681226, "lon": 11.4733118},
-        {"lat": 47.6682558, "lon": 11.4735808},
-        {"lat": 47.6683696, "lon": 11.4737497},
+        {"lat": 47.6680392, "lon": 11.4730184},
+        {"lat": 47.6681355, "lon": 11.4732627},
+        {"lat": 47.6683255, "lon": 11.4735937},
+        {"lat": 47.6684281, "lon": 11.473731},
         {"lat": 47.6686498, "lon": 11.4738411},
         {"lat": 47.6690588, "lon": 11.47387},
         {"lat": 47.6695516, "lon": 11.4740729},
@@ -36159,15 +36153,22 @@
     },
     {
       "type": "way",
-      "id": 439013391,
-      "timestamp": "2019-05-26T07:57:32Z",
+      "id": 439013392,
+      "timestamp": "2021-08-22T14:44:41Z",
       "version": 2,
-      "changeset": 70626246,
-      "user": "mapperue",
-      "uid": 4887311,
-      "nodes": [3745284068, 336114192],
+      "changeset": 110064538,
+      "user": "voschix",
+      "uid": 305001,
+      "nodes": [336114159, 336114192],
       "geometry": [
-        {"lat": 45.5562289, "lon": 12.5719751},
+        {"lat": 45.5577256, "lon": 12.5718898},
+        {"lat": 45.5574218, "lon": 12.5717662},
+        {"lat": 45.5572621, "lon": 12.5717311},
+        {"lat": 45.5571366, "lon": 12.5717389},
+        {"lat": 45.5564815, "lon": 12.5718676},
+        {"lat": 45.5564024, "lon": 12.571889},
+        {"lat": 45.5563096, "lon": 12.5719241},
+        {"lat": 45.5562304, "lon": 12.571967},
         {"lat": 45.556214, "lon": 12.5719845},
         {"lat": 45.5561212, "lon": 12.5720722},
         {"lat": 45.5556845, "lon": 12.5726823},
@@ -36200,35 +36201,7 @@
         {"lat": 45.5461992, "lon": 12.5933245},
         {"lat": 45.5453188, "lon": 12.5966013},
         {"lat": 45.5447993, "lon": 12.5985867},
-        {"lat": 45.5447734, "lon": 12.5986607}
-      ],
-      "tags": {
-        "hgv": "no",
-        "highway": "unclassified",
-        "maxspeed": "60",
-        "name": "Via Salsi",
-        "oneway": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
-      "id": 439013392,
-      "timestamp": "2016-08-25T14:02:54Z",
-      "version": 1,
-      "changeset": 41688746,
-      "user": "Laska",
-      "uid": 276538,
-      "nodes": [336114159, 3745284068],
-      "geometry": [
-        {"lat": 45.5577256, "lon": 12.5718898},
-        {"lat": 45.5574218, "lon": 12.5717662},
-        {"lat": 45.5572621, "lon": 12.5717311},
-        {"lat": 45.5571366, "lon": 12.5717389},
-        {"lat": 45.5564815, "lon": 12.5718676},
-        {"lat": 45.5564024, "lon": 12.571889},
-        {"lat": 45.5563096, "lon": 12.5719241},
-        {"lat": 45.5562289, "lon": 12.5719751}
+        {"lat": 45.544777, "lon": 12.5986496}
       ],
       "tags": {
         "hgv": "no",
@@ -39573,17 +39546,18 @@
     {
       "type": "way",
       "id": 5056969,
-      "timestamp": "2019-03-24T14:04:48Z",
-      "version": 18,
-      "changeset": 68471804,
-      "user": "eimer42",
-      "uid": 89073,
+      "timestamp": "2021-08-22T14:13:59Z",
+      "version": 19,
+      "changeset": 110063478,
+      "user": "Optophonic",
+      "uid": 120147,
       "nodes": [34027232, 34027233],
       "geometry": [
         {"lat": 47.9725384, "lon": 11.4763673},
         {"lat": 47.972549, "lon": 11.4764251}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "secondary",
         "lanes": "2",
         "name": "Klosterstraße",
@@ -39595,11 +39569,11 @@
     {
       "type": "way",
       "id": 5056972,
-      "timestamp": "2019-07-23T04:39:03Z",
-      "version": 16,
-      "changeset": 72538384,
-      "user": "RoHyman",
-      "uid": 120515,
+      "timestamp": "2021-08-22T14:14:00Z",
+      "version": 17,
+      "changeset": 110063478,
+      "user": "Optophonic",
+      "uid": 120147,
       "nodes": [34027231, 34027232],
       "geometry": [
         {"lat": 47.972391, "lon": 11.4750537},
@@ -39610,6 +39584,7 @@
       "tags": {
         "alt_name": "Dürnsteiner Brücke",
         "bridge": "yes",
+        "cycleway:both": "no",
         "highway": "secondary",
         "lanes": "2",
         "layer": "1",
@@ -44801,7 +44776,7 @@
       "uid": 4887311,
       "nodes": [336114192, 421843471],
       "geometry": [
-        {"lat": 45.5447734, "lon": 12.5986607},
+        {"lat": 45.544777, "lon": 12.5986496},
         {"lat": 45.5447358, "lon": 12.5987017},
         {"lat": 45.5446553, "lon": 12.5987387},
         {"lat": 45.5445522, "lon": 12.5987789},
@@ -47494,11 +47469,11 @@
     {
       "type": "way",
       "id": 818684829,
-      "timestamp": "2021-01-03T13:00:44Z",
-      "version": 3,
-      "changeset": 96845409,
-      "user": "the-mtc",
-      "uid": 519210,
+      "timestamp": "2021-08-22T20:17:33Z",
+      "version": 4,
+      "changeset": 110077949,
+      "user": "flunk",
+      "uid": 138186,
       "nodes": [677897795, 677897327],
       "geometry": [
         {"lat": 47.1191407, "lon": 11.6537931},
@@ -47663,7 +47638,7 @@
       "tags": {
         "highway": "path",
         "mtb:scale": "2",
-        "sac_scale": "alpine_hiking",
+        "sac_scale": "demanding_mountain_hiking",
         "surface": "ground",
         "trail_visibility": "excellent"
       }
@@ -54281,6 +54256,136 @@
         {"lat": 46.4150202, "lon": 12.0696393}
       ],
       "tags": {"highway": "track", "tracktype": "grade2"}
+    },
+    {
+      "type": "way",
+      "id": 975415920,
+      "timestamp": "2021-08-22T14:44:41Z",
+      "version": 1,
+      "changeset": 110064538,
+      "user": "voschix",
+      "uid": 305001,
+      "nodes": [9026479209, 1971339164],
+      "geometry": [
+        {"lat": 45.5443553, "lon": 12.5998081},
+        {"lat": 45.5443476, "lon": 12.5998484}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "maxspeed": "50",
+        "name": "Via Drago Jesolo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975461588,
+      "timestamp": "2021-08-22T19:09:43Z",
+      "version": 1,
+      "changeset": 110075766,
+      "user": "bergfex1975",
+      "uid": 1358409,
+      "nodes": [1249055377, 283240605],
+      "geometry": [
+        {"lat": 47.6935301, "lon": 11.5174055},
+        {"lat": 47.6933772, "lon": 11.5171609},
+        {"lat": 47.6932619, "lon": 11.516914},
+        {"lat": 47.6930706, "lon": 11.5165137},
+        {"lat": 47.6929709, "lon": 11.516218},
+        {"lat": 47.6928562, "lon": 11.5159597},
+        {"lat": 47.6926293, "lon": 11.5154931},
+        {"lat": 47.6925172, "lon": 11.5153821},
+        {"lat": 47.6924155, "lon": 11.5152107}
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "lit": "no",
+        "maxspeed": "30",
+        "motor_vehicle": "agricultural",
+        "name": "Längental, Weg 13 und 468",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975461589,
+      "timestamp": "2021-08-22T19:09:43Z",
+      "version": 1,
+      "changeset": 110075766,
+      "user": "bergfex1975",
+      "uid": 1358409,
+      "nodes": [9026867214, 1249055377],
+      "geometry": [
+        {"lat": 47.693564, "lon": 11.5174701},
+        {"lat": 47.6935301, "lon": 11.5174055}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "30",
+        "motor_vehicle": "agricultural",
+        "name": "Längental, Weg 13 und 468",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975461590,
+      "timestamp": "2021-08-22T19:09:43Z",
+      "version": 1,
+      "changeset": 110075766,
+      "user": "bergfex1975",
+      "uid": 1358409,
+      "nodes": [9026867215, 9026867214],
+      "geometry": [
+        {"lat": 47.6940188, "lon": 11.5181544},
+        {"lat": 47.6940042, "lon": 11.5181469},
+        {"lat": 47.693911, "lon": 11.5180251},
+        {"lat": 47.6938054, "lon": 11.5178729},
+        {"lat": 47.6936444, "lon": 11.5176236},
+        {"lat": 47.693564, "lon": 11.5174701}
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "lit": "no",
+        "maxspeed": "30",
+        "motor_vehicle": "agricultural",
+        "name": "Längental, Weg 13 und 468",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975461591,
+      "timestamp": "2021-08-22T19:09:43Z",
+      "version": 1,
+      "changeset": 110075766,
+      "user": "bergfex1975",
+      "uid": 1358409,
+      "nodes": [9026867216, 9026867215],
+      "geometry": [
+        {"lat": 47.6941012, "lon": 11.5181966},
+        {"lat": 47.6940188, "lon": 11.5181544}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "layer": "1",
+        "lit": "no",
+        "maxspeed": "30",
+        "motor_vehicle": "agricultural",
+        "name": "Längental, Weg 13 und 468",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
