@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-17T02:32:09Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-24T02:37:34Z"},
   "elements": [
     {
       "type": "relation",
       "id": 4111743,
-      "timestamp": "2021-08-09T07:32:42Z",
-      "version": 48,
-      "changeset": 109384543,
-      "user": "ejain",
-      "uid": 2629499,
+      "timestamp": "2021-08-23T04:02:04Z",
+      "version": 49,
+      "changeset": 110085938,
+      "user": "jake-low",
+      "uid": 8794039,
       "members": [
         {"type": "way", "ref": 191009612, "role": ""},
         {"type": "way", "ref": 549202502, "role": ""},
@@ -47,6 +47,8 @@
         {"type": "way", "ref": 437527615, "role": ""},
         {"type": "way", "ref": 437527609, "role": ""},
         {"type": "way", "ref": 348453577, "role": ""},
+        {"type": "way", "ref": 975531414, "role": ""},
+        {"type": "way", "ref": 975531413, "role": ""},
         {"type": "way", "ref": 971547118, "role": ""},
         {"type": "way", "ref": 348453576, "role": ""},
         {"type": "way", "ref": 971547119, "role": ""},
@@ -2288,12 +2290,12 @@
     {
       "type": "way",
       "id": 348453577,
-      "timestamp": "2019-08-09T18:23:31Z",
-      "version": 7,
-      "changeset": 73203987,
-      "user": "Adam Schneider",
-      "uid": 5403394,
-      "nodes": [2015926062, 1901178312],
+      "timestamp": "2021-08-23T04:02:04Z",
+      "version": 8,
+      "changeset": 110085938,
+      "user": "jake-low",
+      "uid": 8794039,
+      "nodes": [2015926062, 3131039613],
       "geometry": [
         {"lat": 46.9328725, "lon": -121.8634992, "z": 1505.8},
         {"lat": 46.9327512, "lon": -121.8635369, "z": 1505.3},
@@ -2316,15 +2318,7 @@
         {"lat": 46.9316867, "lon": -121.8629229, "z": 1484.7},
         {"lat": 46.9316386, "lon": -121.8629877, "z": 1482.5},
         {"lat": 46.9315578, "lon": -121.862999, "z": 1481.1},
-        {"lat": 46.9314327, "lon": -121.8628807, "z": 1482.7},
-        {"lat": 46.9313423, "lon": -121.8628891, "z": 1481.4},
-        {"lat": 46.9311922, "lon": -121.8629201, "z": 1478.8},
-        {"lat": 46.9310633, "lon": -121.8629117, "z": 1477.8},
-        {"lat": 46.9308535, "lon": -121.8628468, "z": 1477.9},
-        {"lat": 46.9306861, "lon": -121.8628158, "z": 1477.6},
-        {"lat": 46.9305104, "lon": -121.8628732, "z": 1474.6},
-        {"lat": 46.9303359, "lon": -121.8629342, "z": 1472},
-        {"lat": 46.9302089, "lon": -121.8629398, "z": 1471.9}
+        {"lat": 46.931426, "lon": -121.8629184, "z": 1481.5}
       ],
       "tags": {
         "alt_name": "Spray Park Trail",
@@ -6767,6 +6761,64 @@
         "sac_scale": "hiking",
         "surface": "ground",
         "trail_visibility": "excellent"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975531413,
+      "timestamp": "2021-08-23T04:02:04Z",
+      "version": 1,
+      "changeset": 110085938,
+      "user": "jake-low",
+      "uid": 8794039,
+      "nodes": [9027507132, 1901178312],
+      "geometry": [
+        {"lat": 46.9313628, "lon": -121.8629048, "z": 1481.2},
+        {"lat": 46.9311922, "lon": -121.8629201, "z": 1478.8},
+        {"lat": 46.9310633, "lon": -121.8629117, "z": 1477.8},
+        {"lat": 46.9308535, "lon": -121.8628468, "z": 1477.9},
+        {"lat": 46.9306861, "lon": -121.8628158, "z": 1477.6},
+        {"lat": 46.9305104, "lon": -121.8628732, "z": 1474.6},
+        {"lat": 46.9303359, "lon": -121.8629342, "z": 1472},
+        {"lat": 46.9302089, "lon": -121.8629398, "z": 1471.9}
+      ],
+      "tags": {
+        "alt_name": "Spray Park Trail",
+        "bicycle": "no",
+        "foot": "designated",
+        "highway": "path",
+        "horse": "no",
+        "name": "Wonderland Trail",
+        "sac_scale": "hiking",
+        "surface": "ground",
+        "trail_visibility": "excellent"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975531414,
+      "timestamp": "2021-08-23T04:02:04Z",
+      "version": 1,
+      "changeset": 110085938,
+      "user": "jake-low",
+      "uid": 8794039,
+      "nodes": [3131039613, 9027507132],
+      "geometry": [
+        {"lat": 46.931426, "lon": -121.8629184, "z": 1481.5},
+        {"lat": 46.9313628, "lon": -121.8629048, "z": 1481.2}
+      ],
+      "tags": {
+        "bicycle": "no",
+        "bridge": "yes",
+        "bridge:structure": "log",
+        "foot": "designated",
+        "handrail": "yes",
+        "handrail:left": "no",
+        "handrail:right": "yes",
+        "highway": "path",
+        "horse": "no",
+        "surface": "wood",
+        "width": "0.5"
       }
     }
   ]

@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-22T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-23T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11123868,
-      "timestamp": "2021-08-22T15:26:35Z",
-      "version": 156,
-      "changeset": 110066705,
+      "timestamp": "2021-08-23T17:51:37Z",
+      "version": 158,
+      "changeset": 110130845,
       "user": "ar58",
       "uid": 572423,
       "members": [
@@ -996,6 +996,11 @@
         {"type": "way", "ref": 813797177, "role": ""},
         {"type": "way", "ref": 905566786, "role": ""},
         {"type": "way", "ref": 218586258, "role": ""},
+        {"type": "way", "ref": 975649459, "role": ""},
+        {"type": "way", "ref": 975758776, "role": ""},
+        {"type": "way", "ref": 975399369, "role": ""},
+        {"type": "way", "ref": 975649456, "role": ""},
+        {"type": "way", "ref": 975649461, "role": ""},
         {"type": "way", "ref": 975422480, "role": ""},
         {"type": "way", "ref": 905566805, "role": ""},
         {"type": "way", "ref": 905566804, "role": ""},
@@ -4907,7 +4912,7 @@
       "nodes": [315269063, 2275907158],
       "geometry": [
         {"lat": 31.8007356, "lon": 35.2366828},
-        {"lat": 31.8007911, "lon": 35.2366184},
+        {"lat": 31.8007824, "lon": 35.2366276},
         {"lat": 31.8008279, "lon": 35.2365746},
         {"lat": 31.8008872, "lon": 35.2364887},
         {"lat": 31.8009157, "lon": 35.2364236},
@@ -8016,9 +8021,9 @@
     {
       "type": "way",
       "id": 218586258,
-      "timestamp": "2021-02-09T19:28:25Z",
-      "version": 8,
-      "changeset": 98996625,
+      "timestamp": "2021-08-23T12:01:19Z",
+      "version": 9,
+      "changeset": 110113111,
       "user": "ar58",
       "uid": 572423,
       "nodes": [2541371680, 2541371678],
@@ -8030,6 +8035,7 @@
         {"lat": 31.7981803, "lon": 35.2391304},
         {"lat": 31.7982076, "lon": 35.2390124},
         {"lat": 31.7982076, "lon": 35.2389212},
+        {"lat": 31.7980864, "lon": 35.2384253},
         {"lat": 31.7980672, "lon": 35.2383467}
       ],
       "tags": {
@@ -44590,9 +44596,9 @@
     {
       "type": "way",
       "id": 685466168,
-      "timestamp": "2021-08-22T15:26:35Z",
-      "version": 6,
-      "changeset": 110066705,
+      "timestamp": "2021-08-23T17:51:37Z",
+      "version": 7,
+      "changeset": 110130845,
       "user": "ar58",
       "uid": 572423,
       "nodes": [315269063, 2276779035],
@@ -44605,6 +44611,7 @@
       "tags": {
         "highway": "tertiary",
         "lanes": "1",
+        "maxspeed": "30",
         "name": "לח\"י",
         "name:en": "Lehi",
         "name:en1": "Lechi",
@@ -69890,9 +69897,9 @@
     {
       "type": "way",
       "id": 905566803,
-      "timestamp": "2021-08-22T15:26:35Z",
-      "version": 2,
-      "changeset": 110066705,
+      "timestamp": "2021-08-23T17:51:37Z",
+      "version": 3,
+      "changeset": 110130845,
       "user": "ar58",
       "uid": 572423,
       "nodes": [2276779035, 2276779206],
@@ -69904,6 +69911,7 @@
       "tags": {
         "highway": "tertiary",
         "lanes": "1",
+        "maxspeed": "30",
         "name": "לח\"י",
         "name:en": "Lehi",
         "name:en1": "Lechi",
@@ -69916,9 +69924,9 @@
     {
       "type": "way",
       "id": 905566804,
-      "timestamp": "2021-08-22T15:26:35Z",
-      "version": 2,
-      "changeset": 110066705,
+      "timestamp": "2021-08-23T17:51:37Z",
+      "version": 3,
+      "changeset": 110130845,
       "user": "ar58",
       "uid": 572423,
       "nodes": [2276779206, 2276779056],
@@ -69934,6 +69942,7 @@
       "tags": {
         "highway": "tertiary",
         "lanes": "1",
+        "maxspeed": "30",
         "name": "לח\"י",
         "name:en": "Lehi",
         "name:en1": "Lechi",
@@ -69946,9 +69955,9 @@
     {
       "type": "way",
       "id": 905566805,
-      "timestamp": "2021-02-09T19:28:25Z",
-      "version": 1,
-      "changeset": 98996625,
+      "timestamp": "2021-08-23T17:51:37Z",
+      "version": 2,
+      "changeset": 110130845,
       "user": "ar58",
       "uid": 572423,
       "nodes": [2276779056, 3627815095],
@@ -69959,6 +69968,7 @@
       "tags": {
         "highway": "tertiary",
         "lanes": "1",
+        "maxspeed": "30",
         "name": "לח\"י",
         "name:en": "Lehi",
         "name:en1": "Lechi",
@@ -71886,13 +71896,41 @@
     },
     {
       "type": "way",
-      "id": 975422480,
-      "timestamp": "2021-08-22T15:26:35Z",
-      "version": 1,
-      "changeset": 110066705,
+      "id": 975399369,
+      "timestamp": "2021-08-23T17:51:37Z",
+      "version": 4,
+      "changeset": 110130845,
       "user": "ar58",
       "uid": 572423,
-      "nodes": [3627815095, 9026532753],
+      "nodes": [9026532642, 9026532655],
+      "geometry": [
+        {"lat": 31.798156, "lon": 35.2376646},
+        {"lat": 31.7981021, "lon": 35.2376154},
+        {"lat": 31.7980534, "lon": 35.2375618},
+        {"lat": 31.7980193, "lon": 35.2375144},
+        {"lat": 31.7979852, "lon": 35.2374547},
+        {"lat": 31.797954, "lon": 35.2373929}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "אהרון קציר",
+        "name:en": "Aharon Katsir",
+        "name:he": "אהרון קציר",
+        "oneway": "yes",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975422480,
+      "timestamp": "2021-08-23T12:01:19Z",
+      "version": 2,
+      "changeset": 110113111,
+      "user": "ar58",
+      "uid": 572423,
+      "nodes": [3627815095, 2276779148],
       "geometry": [
         {"lat": 31.7988045, "lon": 35.2360656},
         {"lat": 31.7987084, "lon": 35.2361255},
@@ -71901,17 +71939,7 @@
         {"lat": 31.798516, "lon": 35.2363499},
         {"lat": 31.7984681, "lon": 35.2364482},
         {"lat": 31.7983842, "lon": 35.236688},
-        {"lat": 31.7983438, "lon": 35.2368015},
-        {"lat": 31.7983229, "lon": 35.2368488},
-        {"lat": 31.7982779, "lon": 35.2369341},
-        {"lat": 31.7982218, "lon": 35.2370282},
-        {"lat": 31.79816, "lon": 35.2371124},
-        {"lat": 31.797954, "lon": 35.2373929},
-        {"lat": 31.7979423, "lon": 35.2374099},
-        {"lat": 31.7979317, "lon": 35.237428},
-        {"lat": 31.7979216, "lon": 35.2374478},
-        {"lat": 31.7979114, "lon": 35.2374716},
-        {"lat": 31.7979036, "lon": 35.2374977}
+        {"lat": 31.7983438, "lon": 35.2368015}
       ],
       "tags": {
         "highway": "tertiary",
@@ -71921,6 +71949,118 @@
         "name:en1": "Lechi",
         "name:en2": "HaLehi",
         "name:he": "לח\"י",
+        "oneway": "yes",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975649456,
+      "timestamp": "2021-08-23T17:51:37Z",
+      "version": 2,
+      "changeset": 110130845,
+      "user": "ar58",
+      "uid": 572423,
+      "nodes": [9026532666, 9026532655],
+      "geometry": [
+        {"lat": 31.79816, "lon": 35.2371124},
+        {"lat": 31.797954, "lon": 35.2373929}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "maxspeed": "50",
+        "name": "לח\"י",
+        "name:en": "Lehi",
+        "name:en1": "Lechi",
+        "name:en2": "HaLehi",
+        "name:he": "לח\"י",
+        "oneway": "yes",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975649459,
+      "timestamp": "2021-08-23T17:51:37Z",
+      "version": 2,
+      "changeset": 110130845,
+      "user": "ar58",
+      "uid": 572423,
+      "nodes": [2541371678, 9026532751],
+      "geometry": [
+        {"lat": 31.7980672, "lon": 35.2383467},
+        {"lat": 31.7981013, "lon": 35.238236},
+        {"lat": 31.7981358, "lon": 35.2381358},
+        {"lat": 31.7981493, "lon": 35.2380986},
+        {"lat": 31.7982179, "lon": 35.2379185},
+        {"lat": 31.7982357, "lon": 35.2378717}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "maxspeed": "50",
+        "name": "שדרות צ'רצ'יל",
+        "name:en": "Sderot Churchill",
+        "name:he": "שדרות צ'רצ'יל",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975649461,
+      "timestamp": "2021-08-23T17:51:37Z",
+      "version": 2,
+      "changeset": 110130845,
+      "user": "ar58",
+      "uid": 572423,
+      "nodes": [2276779148, 9026532666],
+      "geometry": [
+        {"lat": 31.7983438, "lon": 35.2368015},
+        {"lat": 31.7983229, "lon": 35.2368488},
+        {"lat": 31.7982779, "lon": 35.2369341},
+        {"lat": 31.7982218, "lon": 35.2370282},
+        {"lat": 31.79816, "lon": 35.2371124}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "לח\"י",
+        "name:en": "Lehi",
+        "name:en1": "Lechi",
+        "name:en2": "HaLehi",
+        "name:he": "לח\"י",
+        "oneway": "yes",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975758776,
+      "timestamp": "2021-08-23T17:51:37Z",
+      "version": 1,
+      "changeset": 110130845,
+      "user": "ar58",
+      "uid": 572423,
+      "nodes": [9026532751, 9026532642],
+      "geometry": [
+        {"lat": 31.7982357, "lon": 35.2378717},
+        {"lat": 31.7982347, "lon": 35.2378381},
+        {"lat": 31.7982292, "lon": 35.2377951},
+        {"lat": 31.7982204, "lon": 35.237763},
+        {"lat": 31.7982076, "lon": 35.2377329},
+        {"lat": 31.7981947, "lon": 35.2377099},
+        {"lat": 31.7981803, "lon": 35.2376905},
+        {"lat": 31.798156, "lon": 35.2376646}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "maxspeed": "50",
+        "name": "אהרון קציר",
+        "name:en": "Aharon Katsir",
+        "name:he": "אהרון קציר",
         "oneway": "yes",
         "surface": "paved"
       }
