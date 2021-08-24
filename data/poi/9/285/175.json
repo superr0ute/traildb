@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-08-22T23:59:59Z",
-    "timestamp_osm_base": "2021-08-23T05:23:11Z",
+    "timestamp_osm_date": "2021-08-23T23:59:59Z",
+    "timestamp_osm_base": "2021-08-24T05:26:47Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4183,14 +4183,12 @@
       "id": 26038238,
       "lat": 49.2140883,
       "lon": 20.7983715,
-      "timestamp": "2020-04-23T14:59:35Z",
-      "version": 7,
-      "changeset": 84009233,
-      "user": "fukejs",
-      "uid": 25204,
+      "timestamp": "2021-08-23T04:57:05Z",
+      "version": 8,
+      "changeset": 110087816,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
-        "wikidata": "Q788820",
-        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
         "city_id": "524182",
         "ele": "637",
         "import_ref": "city_import_sk_1",
@@ -4200,7 +4198,11 @@
         "place": "village",
         "population": "310",
         "postal_code": "082 73",
-        "region_id": "708"
+        "region_id": "708",
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://bajerovce.sk/",
+        "wikidata": "Q788820",
+        "wikipedia": "sk:Bajerovce"
       }
     },
     {
@@ -14972,25 +14974,6 @@
     },
     {
       "type": "node",
-      "id": 6423474174,
-      "lat": 49.1879996,
-      "lon": 20.786812,
-      "timestamp": "2019-10-25T05:58:23Z",
-      "version": 3,
-      "changeset": 76184624,
-      "user": "*Martin*",
-      "uid": 4815,
-      "tags": {
-        "amenity": "shelter",
-        "ele": "1038",
-        "name": "Rozhľadňa na \"Čarnej hure\"",
-        "shelter_type": "weather_shelter",
-        "summit:register": "yes",
-        "tourism": "viewpoint"
-      }
-    },
-    {
-      "type": "node",
       "id": 6438610845,
       "lat": 48.9239039,
       "lon": 21.0129577,
@@ -19026,9 +19009,9 @@
     {
       "type": "way",
       "id": 938005904,
-      "timestamp": "2021-08-20T05:42:55Z",
-      "version": 2,
-      "changeset": 109964904,
+      "timestamp": "2021-08-23T04:57:05Z",
+      "version": 3,
+      "changeset": 110087816,
       "user": "mapperue",
       "uid": 4887311,
       "center": {
@@ -19037,9 +19020,11 @@
       },
       "nodes": [],
       "tags": {
-        "shelter_type": "public_transport",
+        "amenity": "shelter",
+        "bench": "yes",
         "building": "yes",
-        "amenity": "shelter"
+        "lit": "yes",
+        "shelter_type": "public_transport"
       }
     },
     {
@@ -19362,6 +19347,29 @@
         "bench": "yes",
         "building": "yes",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 975541738,
+      "timestamp": "2021-08-23T05:08:02Z",
+      "version": 1,
+      "changeset": 110088244,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 49.1880075,
+        "lon": 20.7867552
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "ele": "1038",
+        "name": "Rozhľadňa na Čarnej hure",
+        "shelter_type": "picnic_shelter",
+        "summit:register": "yes",
+        "tourism": "viewpoint"
       }
     }
   ]
