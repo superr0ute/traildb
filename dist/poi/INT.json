@@ -4490,14 +4490,17 @@
         "@poi": "peak_peak",
         "@distance": 4121.6,
         "@id": "n278478038",
-        "@changeset": 84290297,
-        "@timestamp": "2020-04-28T20:32:36Z",
-        "@version": 8,
-        "@uid": 364,
-        "@user": "Edward",
+        "@changeset": 110132598,
+        "@timestamp": "2021-08-23T18:40:40Z",
+        "@version": 9,
+        "@uid": 11765454,
+        "@user": "GorALexeY",
         "accuracy": "minutes",
         "ele": 696,
         "gns_ref": "-781021",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/IHM_הר_פיטם.jpeg",
+        "image1": "https://upload.wikimedia.org/wikipedia/commons/6/67/IHM_הר_פיטם_1.jpeg",
+        "image2": "https://upload.wikimedia.org/wikipedia/commons/c/c4/IHM_הר_פיטם_2.jpeg",
         "name": "הר פיטם",
         "name:en": "Mt. Pitam",
         "name:he": "הר פיטם",
@@ -38865,14 +38868,14 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_cave",
+        "@poi": "water_spring",
         "@distance": 1279,
         "@id": "n736039081",
-        "@changeset": 108253942,
-        "@timestamp": "2021-07-19T12:45:00Z",
-        "@version": 11,
-        "@uid": 13280035,
-        "@user": "AvZuli",
+        "@changeset": 110129684,
+        "@timestamp": "2021-08-23T17:24:08Z",
+        "@version": 12,
+        "@uid": 686490,
+        "@user": "hatul",
         "description": "הבריכה הראשית של עינות עוזי נמצאת על שביל המעיינות. הבריכה בגודל 4x4 מטרים והיא מלאה במים כל השנה. צל אקליפטוסים מסביב.",
         "description:he": "הבריכה הראשית של עינות עוזי נמצאת על שביל המעיינות. הבריכה בגודל 4x4 מטרים והיא מלאה במים כל השנה. צל אקליפטוסים מסביב.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Israel_Hiking_Map_%D7%A2%D7%99%D7%9F_%D7%A2%D7%95%D7%96%D7%99.jpeg",
@@ -38882,7 +38885,7 @@
         "name": "עינות עוזי",
         "name:en": "Ein Uzi",
         "name:he": "עינות עוזי",
-        "natural": "cave_entrance"
+        "natural": "spring"
       },
       "geometry": {
         "type": "Point",
@@ -39360,24 +39363,25 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_spring",
-        "@distance": 3091.9,
+        "@distance": 3093.8,
         "@id": "n9021902817",
-        "@changeset": 109967001,
-        "@timestamp": "2021-08-20T06:27:56Z",
-        "@version": 1,
+        "@changeset": 110134588,
+        "@timestamp": "2021-08-23T19:30:46Z",
+        "@version": 2,
         "@uid": 10394127,
         "@user": "Zarmi",
         "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/IHM_בריכת_הקצינים.jpeg",
         "image1": "https://upload.wikimedia.org/wikipedia/commons/5/57/IHM_בריכת_הקצינים_1.jpeg",
         "name": "בריכת הקצינים",
+        "name:en": "Officers' pool",
         "name:he": "בריכת הקצינים",
         "natural": "spring"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.6892721,
-          33.245774
+          35.6892758,
+          33.2458606
         ]
       }
     },
@@ -51662,28 +51666,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 1.6,
-        "@id": "n4434032380",
-        "@changeset": 42679025,
-        "@timestamp": "2016-10-06T09:29:35Z",
-        "@version": 1,
-        "@uid": 3127,
-        "@user": "zstadler",
-        "amenity": "drinking_water",
-        "source": "GPS"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.442061,
-          32.979093
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 7750.3,
         "@id": "n5903556217",
@@ -55766,6 +55748,57 @@
         "coordinates": [
           34.9796563,
           31.8370866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 9060.4,
+        "@id": "n4262918271",
+        "@changeset": 52345661,
+        "@timestamp": "2017-09-25T06:41:56Z",
+        "@version": 5,
+        "@uid": 2138064,
+        "@user": "SafwatHalaby",
+        "brand": "Shufersal",
+        "brand:wikidata": "Q4523181",
+        "brand:wikipedia": "en:Shufersal",
+        "name": "שופרסל דיל",
+        "name:en": "Shufersal Deal",
+        "name:he": "שופרסל דיל",
+        "name:ru": "Шуферсаль Диль",
+        "shop": "supermarket",
+        "website": "https://www.shufersal.co.il"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1304587,
+          31.6448821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 1.6,
+        "@id": "n4434032380",
+        "@changeset": 42679025,
+        "@timestamp": "2016-10-06T09:29:35Z",
+        "@version": 1,
+        "@uid": 3127,
+        "@user": "zstadler",
+        "amenity": "drinking_water",
+        "source": "GPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.442061,
+          32.979093
         ]
       }
     },
@@ -60044,35 +60077,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
-        "@distance": 9060.4,
-        "@id": "n4262918271",
-        "@changeset": 52345661,
-        "@timestamp": "2017-09-25T06:41:56Z",
-        "@version": 5,
-        "@uid": 2138064,
-        "@user": "SafwatHalaby",
-        "brand": "Shufersal",
-        "brand:wikidata": "Q4523181",
-        "brand:wikipedia": "en:Shufersal",
-        "name": "שופרסל דיל",
-        "name:en": "Shufersal Deal",
-        "name:he": "שופרסל דיל",
-        "name:ru": "Шуферсаль Диль",
-        "shop": "supermarket",
-        "website": "https://www.shufersal.co.il"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.1304587,
-          31.6448821
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
         "@distance": 6717.6,
         "@id": "n4270329993",
         "@changeset": 40365105,
@@ -64147,16 +64151,15 @@
         "@poi": "water_spring",
         "@distance": 23,
         "@id": "n8889531919",
-        "@changeset": 109969648,
-        "@timestamp": "2021-08-20T07:21:40Z",
-        "@version": 2,
-        "@uid": 686490,
-        "@user": "hatul",
-        "description": "כמה בריכות של מים שנשאבים בידי מקורות מעין מירון ומוזרמים בצינור לכאן. ",
-        "description:he": "כמה בריכות של מים שנשאבים בידי מקורות מעין מירון ומוזרמים בצינור לכאן. ",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/IHM_עין_אוראי.jpeg",
-        "name": "עין אוראי",
-        "name:he": "עין אוראי",
+        "@changeset": 110103668,
+        "@timestamp": "2021-08-23T09:35:03Z",
+        "@version": 4,
+        "@uid": 6343653,
+        "@user": "harel singer",
+        "description": "כמה בריכות של מים שנשאבים בידי מקורות מעין מירון ומוזרמים בצינור לכאן. \n\nיש המכנים את המקום \"אין אוראי\" איך בהתבוננות במפות (חדשות וישנות) אין שום מקור לשם זה.",
+        "description:he": "כמה בריכות של מים שנשאבים בידי מקורות מעין מירון ומוזרמים בצינור לכאן. \n\nיש המכנים את המקום \"אין אוראי\" איך בהתבוננות במפות (חדשות וישנות) אין שום מקור לשם זה.",
+        "name": "בריכות נחל מירון",
+        "name:he": "בריכות נחל מירון",
         "natural": "spring"
       },
       "geometry": {
@@ -64494,38 +64497,6 @@
         "coordinates": [
           35.6182687,
           33.0195262
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 7615.8,
-        "@id": "w197695448",
-        "@changeset": 72573837,
-        "@timestamp": "2019-07-23T19:43:34Z",
-        "@version": 7,
-        "@uid": 160949,
-        "@user": "eric22",
-        "brand": "Shufersal",
-        "brand:wikidata": "Q4523181",
-        "brand:wikipedia": "en:Shufersal",
-        "fixme": "approximate",
-        "name": "שופרסל דיל",
-        "name:en": "Shufersal Deal",
-        "name:he": "שופרסל דיל",
-        "name:ru": "Шуферсаль Диль",
-        "opening_hours": "Su-We 08:00-21:00; Th 08:00-22:00; Fr 07:00-15:30",
-        "phone": "+972 4 693 1835",
-        "shop": "supermarket",
-        "website": "https://www.shufersal.co.il"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.555813,
-          32.981256
         ]
       }
     },
@@ -67434,6 +67405,38 @@
         "coordinates": [
           35.0183,
           31.44141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 7615.8,
+        "@id": "w197695448",
+        "@changeset": 72573837,
+        "@timestamp": "2019-07-23T19:43:34Z",
+        "@version": 7,
+        "@uid": 160949,
+        "@user": "eric22",
+        "brand": "Shufersal",
+        "brand:wikidata": "Q4523181",
+        "brand:wikipedia": "en:Shufersal",
+        "fixme": "approximate",
+        "name": "שופרסל דיל",
+        "name:en": "Shufersal Deal",
+        "name:he": "שופרסל דיל",
+        "name:ru": "Шуферсаль Диль",
+        "opening_hours": "Su-We 08:00-21:00; Th 08:00-22:00; Fr 07:00-15:30",
+        "phone": "+972 4 693 1835",
+        "shop": "supermarket",
+        "website": "https://www.shufersal.co.il"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.555813,
+          32.981256
         ]
       }
     },
@@ -79085,6 +79088,55 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 1353.8,
+        "@id": "n9028486625",
+        "@changeset": 110108850,
+        "@timestamp": "2021-08-23T10:58:22Z",
+        "@version": 1,
+        "@uid": 2558097,
+        "@user": "avical",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "description": "ברזיה שהציבו בתוך הגן הובטאני החדש שהוקם",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9704285,
+          31.9427381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 2148.9,
+        "@id": "n9028498230",
+        "@changeset": 110109157,
+        "@timestamp": "2021-08-23T11:02:45Z",
+        "@version": 1,
+        "@uid": 2558097,
+        "@user": "avical",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "description": "ברזיה אחת מתוך לא מעט שהציבו על השביל של ענבה",
+        "fee": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9798179,
+          31.899056
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "place_village",
         "@distance": 98.9,
         "@id": "w50779828",
@@ -79732,62 +79784,6 @@
         "coordinates": [
           34.9431225,
           31.6601198
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 4593.2,
-        "@id": "w126551478",
-        "@changeset": 30902173,
-        "@timestamp": "2015-05-08T12:18:02Z",
-        "@version": 5,
-        "@uid": 2045570,
-        "@user": "sivan00",
-        "int_name": "Bkoa's Convenience Store",
-        "name": "מכולת בקוע",
-        "name:en": "Bkoa's Convenience Store",
-        "name:he": "מכולת בקוע",
-        "note": "Local marketplace",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.9280702,
-          31.8282357
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 7098.6,
-        "@id": "w129213576",
-        "@changeset": 52345661,
-        "@timestamp": "2017-09-25T06:42:14Z",
-        "@version": 6,
-        "@uid": 2138064,
-        "@user": "SafwatHalaby",
-        "brand": "Shufersal",
-        "brand:wikidata": "Q4523181",
-        "brand:wikipedia": "en:Shufersal",
-        "building": "yes",
-        "name": "שופרסל דיל",
-        "name:en": "Shufersal Deal",
-        "name:he": "שופרסל דיל",
-        "name:ru": "Шуферсаль Диль",
-        "shop": "supermarket",
-        "website": "https://www.shufersal.co.il"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.7574132,
-          31.6031074
         ]
       }
     },
@@ -80468,13 +80464,13 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
-        "@distance": 2976.9,
+        "@distance": 2975.2,
         "@id": "n8521568295",
-        "@changeset": 101844456,
-        "@timestamp": "2021-03-27T16:32:42Z",
-        "@version": 3,
-        "@uid": 331840,
-        "@user": "yrtimiD",
+        "@changeset": 110089914,
+        "@timestamp": "2021-08-23T05:46:41Z",
+        "@version": 4,
+        "@uid": 1206509,
+        "@user": "Sanniu",
         "name": "אלמה:מרקט",
         "name:en": "Alma:Market",
         "name:he": "אלמה:מרקט",
@@ -80484,8 +80480,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.8439463,
-          32.1432009
+          34.843969,
+          32.1431973
         ]
       }
     },
@@ -81771,6 +81767,62 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 4593.2,
+        "@id": "w126551478",
+        "@changeset": 30902173,
+        "@timestamp": "2015-05-08T12:18:02Z",
+        "@version": 5,
+        "@uid": 2045570,
+        "@user": "sivan00",
+        "int_name": "Bkoa's Convenience Store",
+        "name": "מכולת בקוע",
+        "name:en": "Bkoa's Convenience Store",
+        "name:he": "מכולת בקוע",
+        "note": "Local marketplace",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9280702,
+          31.8282357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 7098.6,
+        "@id": "w129213576",
+        "@changeset": 52345661,
+        "@timestamp": "2017-09-25T06:42:14Z",
+        "@version": 6,
+        "@uid": 2138064,
+        "@user": "SafwatHalaby",
+        "brand": "Shufersal",
+        "brand:wikidata": "Q4523181",
+        "brand:wikipedia": "en:Shufersal",
+        "building": "yes",
+        "name": "שופרסל דיל",
+        "name:en": "Shufersal Deal",
+        "name:he": "שופרסל דיל",
+        "name:ru": "Шуферсаль Диль",
+        "shop": "supermarket",
+        "website": "https://www.shufersal.co.il"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7574132,
+          31.6031074
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 7506.3,
         "@id": "w340192678",
@@ -82410,107 +82462,6 @@
         "coordinates": [
           34.9323811,
           31.9333321
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 3099.6,
-        "@id": "w604140917",
-        "@changeset": 60337299,
-        "@timestamp": "2018-07-02T06:35:21Z",
-        "@version": 1,
-        "@uid": 792886,
-        "@user": "keba_saa",
-        "amenity": "shelter",
-        "building": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.0892864,
-          31.8107265
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "place_village",
-        "@distance": 1967.6,
-        "@id": "w620390674",
-        "@changeset": 101942398,
-        "@timestamp": "2021-03-29T22:12:04Z",
-        "@version": 6,
-        "@uid": 11422772,
-        "@user": "Vejoson",
-        "landuse": "residential",
-        "name": "גבעת ישעיהו",
-        "name:fr": "Givat Yeshayahu",
-        "name:he": "גבעת ישעיהו",
-        "place": "village"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.950109,
-          31.6702258
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "place_village",
-        "@distance": 2740.9,
-        "@id": "w620416627",
-        "@changeset": 101942398,
-        "@timestamp": "2021-03-29T22:12:04Z",
-        "@version": 6,
-        "@uid": 11422772,
-        "@user": "Vejoson",
-        "landuse": "residential",
-        "name": "זנוח",
-        "name:fr": "Zanoah",
-        "name:he": "זנוח",
-        "place": "village"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.9987851,
-          31.7319667
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "place_village",
-        "@distance": 2432.8,
-        "@id": "w620895229",
-        "@changeset": 101421503,
-        "@timestamp": "2021-03-20T23:14:27Z",
-        "@version": 3,
-        "@uid": 11422772,
-        "@user": "Vejoson",
-        "alt_name:ar": "كِريات يعاريم",
-        "landuse": "residential",
-        "name": "קרית יערים",
-        "name:ar": "كريات يعاريم",
-        "name:cs": "Kirjat Je'arim",
-        "name:en": "Kiryat Yearim",
-        "name:fr": "Kiryat-Yéarim",
-        "name:he": "קרית יערים",
-        "place": "village"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.0992947,
-          31.8038133
         ]
       }
     },
@@ -83766,6 +83717,107 @@
         "coordinates": [
           34.9019052,
           32.4014361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 3099.6,
+        "@id": "w604140917",
+        "@changeset": 60337299,
+        "@timestamp": "2018-07-02T06:35:21Z",
+        "@version": 1,
+        "@uid": 792886,
+        "@user": "keba_saa",
+        "amenity": "shelter",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0892864,
+          31.8107265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_village",
+        "@distance": 1967.6,
+        "@id": "w620390674",
+        "@changeset": 101942398,
+        "@timestamp": "2021-03-29T22:12:04Z",
+        "@version": 6,
+        "@uid": 11422772,
+        "@user": "Vejoson",
+        "landuse": "residential",
+        "name": "גבעת ישעיהו",
+        "name:fr": "Givat Yeshayahu",
+        "name:he": "גבעת ישעיהו",
+        "place": "village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.950109,
+          31.6702258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_village",
+        "@distance": 2740.9,
+        "@id": "w620416627",
+        "@changeset": 101942398,
+        "@timestamp": "2021-03-29T22:12:04Z",
+        "@version": 6,
+        "@uid": 11422772,
+        "@user": "Vejoson",
+        "landuse": "residential",
+        "name": "זנוח",
+        "name:fr": "Zanoah",
+        "name:he": "זנוח",
+        "place": "village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9987851,
+          31.7319667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_village",
+        "@distance": 2432.8,
+        "@id": "w620895229",
+        "@changeset": 101421503,
+        "@timestamp": "2021-03-20T23:14:27Z",
+        "@version": 3,
+        "@uid": 11422772,
+        "@user": "Vejoson",
+        "alt_name:ar": "كِريات يعاريم",
+        "landuse": "residential",
+        "name": "קרית יערים",
+        "name:ar": "كريات يعاريم",
+        "name:cs": "Kirjat Je'arim",
+        "name:en": "Kiryat Yearim",
+        "name:fr": "Kiryat-Yéarim",
+        "name:he": "קרית יערים",
+        "place": "village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0992947,
+          31.8038133
         ]
       }
     },
