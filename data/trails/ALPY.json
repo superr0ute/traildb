@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-18T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-24T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -29639,11 +29639,11 @@
     {
       "type": "way",
       "id": 966120753,
-      "timestamp": "2021-07-21T08:28:38Z",
-      "version": 1,
-      "changeset": 108353821,
-      "user": "Cascafico",
-      "uid": 361003,
+      "timestamp": "2021-08-24T14:57:06Z",
+      "version": 3,
+      "changeset": 110178680,
+      "user": "fupduck",
+      "uid": 5577626,
       "nodes": [6983547727, 8714547522],
       "geometry": [
         {"lat": 45.7714131, "lon": 13.6372564},
@@ -29651,16 +29651,21 @@
         {"lat": 45.771227, "lon": 13.6375647},
         {"lat": 45.7711466, "lon": 13.637728}
       ],
-      "tags": {"footway": "sidewalk", "highway": "footway"}
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 966120755,
-      "timestamp": "2021-07-31T22:29:54Z",
-      "version": 2,
-      "changeset": 108958874,
-      "user": "alessandrocarmeli",
-      "uid": 12294600,
+      "timestamp": "2021-08-24T14:55:41Z",
+      "version": 4,
+      "changeset": 110178680,
+      "user": "fupduck",
+      "uid": 5577626,
       "nodes": [2523305560, 6983547727],
       "geometry": [
         {"lat": 45.7715105, "lon": 13.6371018},
@@ -29672,7 +29677,9 @@
         "crossing": "marked",
         "crossing_ref": "zebra",
         "footway": "crossing",
-        "highway": "footway"
+        "highway": "footway",
+        "lit": "no",
+        "surface": "asphalt"
       }
     },
     {

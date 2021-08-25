@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-06-28T11:01:03Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-25T02:31:25Z"},
   "elements": [
     {
       "type": "relation",
@@ -355,7 +355,7 @@
       "nodes": [1634491112, 1482582388],
       "geometry": [
         {"lat": 27.8141149, "lon": -17.9095039, "z": 519.8},
-        {"lat": 27.8137343, "lon": -17.9100842, "z": 529.6},
+        {"lat": 27.8137471, "lon": -17.9100589, "z": 529.2},
         {"lat": 27.8134982, "lon": -17.9103178, "z": 531.6},
         {"lat": 27.8132853, "lon": -17.9106232, "z": 533.9},
         {"lat": 27.8130209, "lon": -17.9109995, "z": 535.3}
@@ -1300,11 +1300,11 @@
     {
       "type": "way",
       "id": 149576722,
-      "timestamp": "2020-10-03T21:14:15Z",
-      "version": 4,
-      "changeset": 91914993,
-      "user": "wicking",
-      "uid": 102755,
+      "timestamp": "2021-08-24T13:40:14Z",
+      "version": 7,
+      "changeset": 110175527,
+      "user": "NahuelBG",
+      "uid": 13972414,
       "nodes": [672801575, 672801555],
       "geometry": [
         {"lat": 27.8117726, "lon": -17.9127994, "z": 542.9},
@@ -1323,7 +1323,13 @@
         {"lat": 27.8097175, "lon": -17.9138933, "z": 550.3},
         {"lat": 27.8096512, "lon": -17.9138536, "z": 549.4}
       ],
-      "tags": {"highway": "residential", "name": "Calle La Carrera"}
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Calle La Carrera",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
