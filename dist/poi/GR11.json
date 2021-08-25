@@ -45580,6 +45580,43 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 1671.7,
+        "@id": "w72580231",
+        "@changeset": 110191384,
+        "@timestamp": "2021-08-24T19:51:55Z",
+        "@version": 8,
+        "@uid": 10953870,
+        "@user": "Note Control",
+        "amenity": "fuel",
+        "brand": "Total",
+        "brand:wikidata": "Q154037",
+        "brand:wikipedia": "fr:TotalEnergies",
+        "building": "yes",
+        "compressed_air": "yes",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "hgv:lanes": "yes",
+        "name": "Total",
+        "opening_hours": "24/7",
+        "operator": "SARL Castagnet Paul",
+        "ref:FR:prix-carburants": "64700001",
+        "shop": "convenience",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "vending": "fuel",
+        "vending_machine": "fuel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7666071,
+          43.3469244
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 52.9,
         "@id": "w75474358",
@@ -45600,32 +45637,6 @@
         "coordinates": [
           -1.4831742,
           43.0943968
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 1765.7,
-        "@id": "w117708144",
-        "@changeset": 85397854,
-        "@timestamp": "2020-05-18T18:16:47Z",
-        "@version": 4,
-        "@uid": 3392826,
-        "@user": "Hugoren Martinako",
-        "brand": "Dia",
-        "brand:wikidata": "Q925132",
-        "brand:wikipedia": "es:Supermercados DIA",
-        "building": "yes",
-        "name": "Dia",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.8170087,
-          43.3340034
         ]
       }
     },
@@ -46231,33 +46242,6 @@
         "coordinates": [
           1.3267524,
           42.591386
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "alpine-hut",
-        "@distance": 20,
-        "@id": "w400747089",
-        "@changeset": 96173280,
-        "@timestamp": "2020-12-21T07:07:41Z",
-        "@version": 3,
-        "@uid": 3148901,
-        "@user": "Seraq",
-        "building": "yes",
-        "capacity": 10,
-        "description": "Se trata de una edificación de piedra, que se inauguró en el año 1981 y que dispone de literas y un manantial de agua en el exterior. Es un refugio no guardado, que está abierto todo el año, aunque el mantenimiento suele hacerse durante los meses de veran",
-        "ele": 1650,
-        "name": "Cabana de Rius",
-        "tourism": "alpine_hut",
-        "wikidata": "Q73406456"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.8518809,
-          42.6423648
         ]
       }
     },
@@ -47222,29 +47206,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 1300.6,
-        "@id": "w715179281",
-        "@changeset": 109467890,
-        "@timestamp": "2021-08-10T14:08:10Z",
-        "@version": 2,
-        "@uid": 3859465,
-        "@user": "Toni Serra",
-        "building": "yes",
-        "name": "Refugi de la Pleta de Saltèguet",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.966048,
-          42.3570058
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 275.5,
         "@id": "n6511202906",
@@ -48077,6 +48038,32 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
+        "@distance": 1765.7,
+        "@id": "w117708144",
+        "@changeset": 85397854,
+        "@timestamp": "2020-05-18T18:16:47Z",
+        "@version": 4,
+        "@uid": 3392826,
+        "@user": "Hugoren Martinako",
+        "brand": "Dia",
+        "brand:wikidata": "Q925132",
+        "brand:wikipedia": "es:Supermercados DIA",
+        "building": "yes",
+        "name": "Dia",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8170087,
+          43.3340034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
         "@distance": 238.3,
         "@id": "w158900499",
         "@changeset": 89699933,
@@ -48505,6 +48492,33 @@
       "type": "Feature",
       "properties": {
         "@poi": "alpine-hut",
+        "@distance": 20,
+        "@id": "w400747089",
+        "@changeset": 96173280,
+        "@timestamp": "2020-12-21T07:07:41Z",
+        "@version": 3,
+        "@uid": 3148901,
+        "@user": "Seraq",
+        "building": "yes",
+        "capacity": 10,
+        "description": "Se trata de una edificación de piedra, que se inauguró en el año 1981 y que dispone de literas y un manantial de agua en el exterior. Es un refugio no guardado, que está abierto todo el año, aunque el mantenimiento suele hacerse durante los meses de veran",
+        "ele": 1650,
+        "name": "Cabana de Rius",
+        "tourism": "alpine_hut",
+        "wikidata": "Q73406456"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.8518809,
+          42.6423648
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "alpine-hut",
         "@distance": 182.4,
         "@id": "w400747091",
         "@changeset": 98872674,
@@ -48737,6 +48751,29 @@
         "coordinates": [
           0.8406711,
           42.6403052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 1300.6,
+        "@id": "w715179281",
+        "@changeset": 109467890,
+        "@timestamp": "2021-08-10T14:08:10Z",
+        "@version": 2,
+        "@uid": 3859465,
+        "@user": "Toni Serra",
+        "building": "yes",
+        "name": "Refugi de la Pleta de Saltèguet",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.966048,
+          42.3570058
         ]
       }
     },
@@ -49687,14 +49724,14 @@
         "@poi": "foodshop_supermarket",
         "@distance": 1478.9,
         "@id": "w965196432",
-        "@changeset": 108162606,
-        "@timestamp": "2021-07-17T14:31:07Z",
-        "@version": 1,
-        "@uid": 128938,
-        "@user": "Patchanka",
+        "@changeset": 110191384,
+        "@timestamp": "2021-08-24T19:51:55Z",
+        "@version": 2,
+        "@uid": 10953870,
+        "@user": "Note Control",
         "brand": "Lidl",
         "brand:wikidata": "Q151954",
-        "brand:wikipedia": "fr:Lidl",
+        "brand:wikipedia": "en:Lidl",
         "building": "retail",
         "name": "Lidl",
         "shop": "supermarket"
