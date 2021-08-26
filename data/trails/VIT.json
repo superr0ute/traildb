@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-11T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-25T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2276,11 +2276,11 @@
     {
       "type": "way",
       "id": 153932573,
-      "timestamp": "2020-12-19T10:13:45Z",
-      "version": 5,
-      "changeset": 96102569,
-      "user": "DENelson83",
-      "uid": 14512,
+      "timestamp": "2021-08-25T15:39:43Z",
+      "version": 6,
+      "changeset": 110240264,
+      "user": "andrewpmk",
+      "uid": 1679,
       "nodes": [26824032, 26824082],
       "geometry": [
         {"lat": 48.4153041, "lon": -123.3839056},
@@ -2303,6 +2303,7 @@
       "tags": {
         "highway": "tertiary",
         "lanes": "2",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Dallas Road",
         "source": "NRCan-CanVec-8.0",
@@ -14099,11 +14100,11 @@
     {
       "type": "way",
       "id": 4676365,
-      "timestamp": "2016-01-26T00:06:42Z",
-      "version": 29,
-      "changeset": 36807869,
-      "user": "alester",
-      "uid": 307202,
+      "timestamp": "2021-08-25T15:47:46Z",
+      "version": 30,
+      "changeset": 110240625,
+      "user": "andrewpmk",
+      "uid": 1679,
       "nodes": [1200116152, 26824081],
       "geometry": [
         {"lat": 48.4219426, "lon": -123.384326},
@@ -14114,6 +14115,7 @@
       ],
       "tags": {
         "highway": "tertiary",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Dallas Road",
         "source:maxspeed": "sign"
@@ -20248,21 +20250,22 @@
     {
       "type": "way",
       "id": 7974273,
-      "timestamp": "2017-04-24T11:19:20Z",
-      "version": 12,
-      "changeset": 48087691,
-      "user": "georges_telenav",
-      "uid": 5245700,
+      "timestamp": "2021-08-25T15:47:46Z",
+      "version": 14,
+      "changeset": 110240625,
+      "user": "andrewpmk",
+      "uid": 1679,
       "nodes": [59593094, 1200116152],
       "geometry": [
         {"lat": 48.4225681, "lon": -123.3837946},
         {"lat": 48.4221211, "lon": -123.3842973},
         {"lat": 48.4220704, "lon": -123.3843288},
+        {"lat": 48.4220545, "lon": -123.3843315},
         {"lat": 48.4220408, "lon": -123.3843335},
         {"lat": 48.4220149, "lon": -123.3843377},
         {"lat": 48.4219426, "lon": -123.384326}
       ],
-      "tags": {"highway": "residential", "name": "Dallas Road"}
+      "tags": {"highway": "residential", "lit": "yes", "name": "Dallas Road"}
     },
     {
       "type": "way",
@@ -21456,11 +21459,11 @@
     {
       "type": "way",
       "id": 819278818,
-      "timestamp": "2021-05-08T02:51:59Z",
-      "version": 3,
-      "changeset": 104347312,
-      "user": "smithkm",
-      "uid": 93326,
+      "timestamp": "2021-08-25T00:46:50Z",
+      "version": 4,
+      "changeset": 110198246,
+      "user": "andrewpmk",
+      "uid": 1679,
       "nodes": [3420379343, 455765718],
       "geometry": [
         {"lat": 48.4288045, "lon": -123.3747634},
@@ -21479,6 +21482,7 @@
         "cycleway:left:oneway": "no",
         "cycleway:right": "track",
         "highway": "unclassified",
+        "maxspeed": "30",
         "name": "Harbour Road",
         "surface": "asphalt"
       }
