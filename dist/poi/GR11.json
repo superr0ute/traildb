@@ -14271,12 +14271,13 @@
         "@poi": "water_drinking-water",
         "@distance": 199.9,
         "@id": "n1974927284",
-        "@changeset": 32036112,
-        "@timestamp": "2015-06-17T18:58:54Z",
-        "@version": 2,
+        "@changeset": 110253208,
+        "@timestamp": "2021-08-25T21:40:17Z",
+        "@version": 3,
         "@uid": 863649,
         "@user": "Uranzu",
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "check_date": "2021-08-25"
       },
       "geometry": {
         "type": "Point",
@@ -41422,29 +41423,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 336.3,
-        "@id": "w364740671",
-        "@changeset": 91245476,
-        "@timestamp": "2020-09-21T18:51:36Z",
-        "@version": 2,
-        "@uid": 7882299,
-        "@user": "mDav",
-        "building": "yes",
-        "name": "Refugio de la Estiva",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.1066808,
-          42.6835715
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "mountain-pass",
         "@distance": 4.1,
         "@id": "n5826718445",
@@ -43155,6 +43133,29 @@
         "coordinates": [
           -0.4940649,
           42.7673497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 336.3,
+        "@id": "w364740671",
+        "@changeset": 91245476,
+        "@timestamp": "2020-09-21T18:51:36Z",
+        "@version": 2,
+        "@uid": 7882299,
+        "@user": "mDav",
+        "building": "yes",
+        "name": "Refugio de la Estiva",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1066808,
+          42.6835715
         ]
       }
     },
@@ -46225,29 +46226,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "campsite",
-        "@distance": 200.1,
-        "@id": "w396896624",
-        "@changeset": 37101115,
-        "@timestamp": "2016-02-09T13:07:33Z",
-        "@version": 1,
-        "@uid": 605366,
-        "@user": "EliziR",
-        "name": "Càmping Pica d'Estats",
-        "tourism": "camp_site",
-        "website": "http://www.picadestats.com"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.3267524,
-          42.591386
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 2851.7,
         "@id": "w62566093",
@@ -47171,35 +47149,6 @@
         "coordinates": [
           1.6806889,
           42.4991981
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 1256.3,
-        "@id": "w639037139",
-        "@changeset": 75439697,
-        "@timestamp": "2019-10-09T06:25:47Z",
-        "@version": 2,
-        "@uid": 571625,
-        "@user": "Balaïtous",
-        "addr:city": "Palau-de-Cerdagne",
-        "addr:postcode": "66340",
-        "addr:street": "Avenue du Pouligou",
-        "email": "las.asperas@palacioloisirs.com",
-        "name": "Las Asperas",
-        "phone": "+33 468 046 208",
-        "stars": "3",
-        "tourism": "camp_site",
-        "website": "http://www.camping-pyrenees-cerdagne.com/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.9650268,
-          42.4110656
         ]
       }
     },
@@ -48491,6 +48440,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "campsite",
+        "@distance": 200.1,
+        "@id": "w396896624",
+        "@changeset": 37101115,
+        "@timestamp": "2016-02-09T13:07:33Z",
+        "@version": 1,
+        "@uid": 605366,
+        "@user": "EliziR",
+        "name": "Càmping Pica d'Estats",
+        "tourism": "camp_site",
+        "website": "http://www.picadestats.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3267524,
+          42.591386
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "alpine-hut",
         "@distance": 20,
         "@id": "w400747089",
@@ -48751,6 +48723,35 @@
         "coordinates": [
           0.8406711,
           42.6403052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 1256.3,
+        "@id": "w639037139",
+        "@changeset": 75439697,
+        "@timestamp": "2019-10-09T06:25:47Z",
+        "@version": 2,
+        "@uid": 571625,
+        "@user": "Balaïtous",
+        "addr:city": "Palau-de-Cerdagne",
+        "addr:postcode": "66340",
+        "addr:street": "Avenue du Pouligou",
+        "email": "las.asperas@palacioloisirs.com",
+        "name": "Las Asperas",
+        "phone": "+33 468 046 208",
+        "stars": "3",
+        "tourism": "camp_site",
+        "website": "http://www.camping-pyrenees-cerdagne.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9650268,
+          42.4110656
         ]
       }
     },

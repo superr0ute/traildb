@@ -15685,12 +15685,13 @@
         "@poi": "water_drinking-water",
         "@distance": 2633.7,
         "@id": "n1974927284",
-        "@changeset": 32036112,
-        "@timestamp": "2015-06-17T18:58:54Z",
-        "@version": 2,
+        "@changeset": 110253208,
+        "@timestamp": "2021-08-25T21:40:17Z",
+        "@version": 3,
         "@uid": 863649,
         "@user": "Uranzu",
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "check_date": "2021-08-25"
       },
       "geometry": {
         "type": "Point",
@@ -36770,6 +36771,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "alpine-hut",
+        "@distance": 26.8,
+        "@id": "n9036237176",
+        "@changeset": 110252106,
+        "@timestamp": "2021-08-25T20:57:28Z",
+        "@version": 1,
+        "@uid": 10027918,
+        "@user": "nn85",
+        "fee": "no",
+        "name": "refuge d'ayges cluses",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1501339,
+          42.8755918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 414.9,
         "@id": "w63821317",
@@ -37100,60 +37124,6 @@
         "coordinates": [
           0.005273,
           42.8746751
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 408.7,
-        "@id": "w202264772",
-        "@changeset": 91041478,
-        "@timestamp": "2020-09-17T10:49:39Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "access": "private",
-        "amenity": "shelter",
-        "building": "yes",
-        "name": "Refuge du Lac d'Aubert - Néouvielle",
-        "note": "36"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.14339,
-          42.8400968
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 9.2,
-        "@id": "w202346905",
-        "@changeset": 91046861,
-        "@timestamp": "2020-09-17T12:14:34Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "building": "yes",
-        "capacity": 5,
-        "description": "2015-09 : Un bas flanc en pierre recouvert de grands morceaux de mousses qui servent de matelas, une cheminée, 2 petite fenêtres.",
-        "ele": 2151,
-        "fireplace": "yes",
-        "name": "Cabane d´Aygues Cluses",
-        "note": "40",
-        "stove": "no",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.1521218,
-          42.8752119
         ]
       }
     },
@@ -38448,39 +38418,6 @@
         "coordinates": [
           1.4822393,
           42.7632537
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1596.9,
-        "@id": "w292800138",
-        "@changeset": 93120027,
-        "@timestamp": "2020-10-27T12:05:13Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "alt_name": "Abri de l'Estany de Les Dugues",
-        "amenity": "shelter",
-        "beds": "0",
-        "building": "yes",
-        "description": "2013-08 : Abri de pêcheur. Pas de porte ni d'équipement.",
-        "ele": 2245,
-        "fireplace": "no",
-        "name": "Abri du Lac des Dugues",
-        "note": "130",
-        "shelter_type": "weather_shelter",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
-        "stove": "no",
-        "website": "https://www.refuges.info/point/3521/cabane-non-gardee/Cerdagne/Abri-du-Lac-des-Dugues/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.9731813,
-          42.5733227
         ]
       }
     },
@@ -40584,6 +40521,60 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 408.7,
+        "@id": "w202264772",
+        "@changeset": 91041478,
+        "@timestamp": "2020-09-17T10:49:39Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "access": "private",
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "Refuge du Lac d'Aubert - Néouvielle",
+        "note": "36"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.14339,
+          42.8400968
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 9.2,
+        "@id": "w202346905",
+        "@changeset": 91046861,
+        "@timestamp": "2020-09-17T12:14:34Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "building": "yes",
+        "capacity": 5,
+        "description": "2015-09 : Un bas flanc en pierre recouvert de grands morceaux de mousses qui servent de matelas, une cheminée, 2 petite fenêtres.",
+        "ele": 2151,
+        "fireplace": "yes",
+        "name": "Cabane d´Aygues Cluses",
+        "note": "40",
+        "stove": "no",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1521218,
+          42.8752119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "campsite",
         "@distance": 42.9,
         "@id": "w207379727",
@@ -41851,6 +41842,39 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
+        "@distance": 1596.9,
+        "@id": "w292800138",
+        "@changeset": 93120027,
+        "@timestamp": "2020-10-27T12:05:13Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "alt_name": "Abri de l'Estany de Les Dugues",
+        "amenity": "shelter",
+        "beds": "0",
+        "building": "yes",
+        "description": "2013-08 : Abri de pêcheur. Pas de porte ni d'équipement.",
+        "ele": 2245,
+        "fireplace": "no",
+        "name": "Abri du Lac des Dugues",
+        "note": "130",
+        "shelter_type": "weather_shelter",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "stove": "no",
+        "website": "https://www.refuges.info/point/3521/cabane-non-gardee/Cerdagne/Abri-du-Lac-des-Dugues/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9731813,
+          42.5733227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
         "@distance": 2009.4,
         "@id": "w292800139",
         "@changeset": 93120027,
@@ -42383,31 +42407,6 @@
         "coordinates": [
           1.8794218,
           42.6587212
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 814.2,
-        "@id": "w636536909",
-        "@changeset": 63724717,
-        "@timestamp": "2018-10-21T11:29:00Z",
-        "@version": 1,
-        "@uid": 148173,
-        "@user": "orhygine",
-        "amenity": "shelter",
-        "building": "yes",
-        "ele": 612,
-        "name": "Cabane Beille d'en Bas",
-        "source": "Association \"Refuges et cabanes des Pyrénées\""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.7162873,
-          42.7154395
         ]
       }
     },
@@ -46005,6 +46004,31 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
+        "@distance": 814.2,
+        "@id": "w636536909",
+        "@changeset": 63724717,
+        "@timestamp": "2018-10-21T11:29:00Z",
+        "@version": 1,
+        "@uid": 148173,
+        "@user": "orhygine",
+        "amenity": "shelter",
+        "building": "yes",
+        "ele": 612,
+        "name": "Cabane Beille d'en Bas",
+        "source": "Association \"Refuges et cabanes des Pyrénées\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7162873,
+          42.7154395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
         "@distance": 32.6,
         "@id": "w636550747",
         "@changeset": 63726247,
@@ -48232,66 +48256,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1653.9,
-        "@id": "w62515996",
-        "@changeset": 93187622,
-        "@timestamp": "2020-10-28T15:14:43Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
-        "beds": "0",
-        "building": "yes",
-        "description": "2019-09 : Cabane ouverte assez grande + un étage accessible avec une échelle, bon état. Pas de cheminée. Couchage au sol.",
-        "ele": 1850,
-        "fireplace": "no",
-        "name": "Abri du col du calvaire",
-        "shelter_type": "basic_hut",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-        "stove": "no",
-        "website": "https://www.refuges.info/point/6721/cabane-non-gardee/Cerdagne/abri-du-col-du-calvaire/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0512427,
-          42.5113657
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 4869.3,
-        "@id": "w62563608",
-        "@changeset": 94210570,
-        "@timestamp": "2020-11-16T15:20:18Z",
-        "@version": 10,
-        "@uid": 188930,
-        "@user": "JLZIMMERMANN",
-        "brand": "Lidl",
-        "brand:wikidata": "Q151954",
-        "brand:wikipedia": "fr:Lidl",
-        "building": "retail",
-        "name": "Lidl",
-        "name:es": "Lidl",
-        "shop": "supermarket",
-        "supermarket": "yes",
-        "supermarket:FR": "supermarché"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0132033,
-          42.4990162
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 21.5,
         "@id": "n6113716736",
@@ -49717,6 +49681,66 @@
         "coordinates": [
           0.8794325,
           42.8338263
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1653.9,
+        "@id": "w62515996",
+        "@changeset": 93187622,
+        "@timestamp": "2020-10-28T15:14:43Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "beds": "0",
+        "building": "yes",
+        "description": "2019-09 : Cabane ouverte assez grande + un étage accessible avec une échelle, bon état. Pas de cheminée. Couchage au sol.",
+        "ele": 1850,
+        "fireplace": "no",
+        "name": "Abri du col du calvaire",
+        "shelter_type": "basic_hut",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "stove": "no",
+        "website": "https://www.refuges.info/point/6721/cabane-non-gardee/Cerdagne/abri-du-col-du-calvaire/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0512427,
+          42.5113657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 4869.3,
+        "@id": "w62563608",
+        "@changeset": 94210570,
+        "@timestamp": "2020-11-16T15:20:18Z",
+        "@version": 10,
+        "@uid": 188930,
+        "@user": "JLZIMMERMANN",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "fr:Lidl",
+        "building": "retail",
+        "name": "Lidl",
+        "name:es": "Lidl",
+        "shop": "supermarket",
+        "supermarket": "yes",
+        "supermarket:FR": "supermarché"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0132033,
+          42.4990162
         ]
       }
     },
