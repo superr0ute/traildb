@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-08-24T23:59:59Z",
-    "timestamp_osm_base": "2021-08-25T04:17:41Z",
+    "timestamp_osm_date": "2021-08-25T23:59:59Z",
+    "timestamp_osm_base": "2021-08-26T04:16:58Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -31861,6 +31861,64 @@
       }
     },
     {
+      "type": "node",
+      "id": 9034619008,
+      "lat": 42.1038124,
+      "lon": 1.8481862,
+      "timestamp": "2021-08-25T11:03:00Z",
+      "version": 1,
+      "changeset": 110224051,
+      "user": "cronoser",
+      "uid": 461005,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9034627758,
+      "lat": 42.1039268,
+      "lon": 1.8480531,
+      "timestamp": "2021-08-25T11:02:37Z",
+      "version": 1,
+      "changeset": 110224020,
+      "user": "cronoser",
+      "uid": 461005,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9035812336,
+      "lat": 42.2701463,
+      "lon": 2.0854993,
+      "timestamp": "2021-08-25T19:16:09Z",
+      "version": 1,
+      "changeset": 110248828,
+      "user": "random 146",
+      "uid": 362528,
+      "tags": {
+        "description": "no siempre esta conectada al manantial, a veces la manguera se rompre.",
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9035815953,
+      "lat": 42.2704123,
+      "lon": 2.0853948,
+      "timestamp": "2021-08-25T19:18:13Z",
+      "version": 1,
+      "changeset": 110248908,
+      "user": "random 146",
+      "uid": 362528,
+      "tags": {
+        "natural": "spring",
+        "source": "local knowledge"
+      }
+    },
+    {
       "type": "way",
       "id": 43329194,
       "timestamp": "2019-07-16T18:15:28Z",
@@ -32469,11 +32527,11 @@
     {
       "type": "way",
       "id": 185589600,
-      "timestamp": "2020-09-29T07:45:03Z",
-      "version": 9,
-      "changeset": 91688357,
-      "user": "Hervé TUC",
-      "uid": 922338,
+      "timestamp": "2021-08-25T19:29:01Z",
+      "version": 11,
+      "changeset": 110249249,
+      "user": "random 146",
+      "uid": 362528,
       "center": {
         "lat": 42.2941131,
         "lon": 1.8049419
@@ -32483,9 +32541,11 @@
         "building": "yes",
         "capacity": "44",
         "ele": "1565",
+        "fee": "yes",
         "name": "Refugi Sant Jordi",
         "operator": "FEEC",
         "phone": "+34 619239860;+34 931985150",
+        "shelter": "yes",
         "tourism": "alpine_hut",
         "website": "https://www.feec.cat/refugi/refugi-sant-jordi/",
         "wikidata": "Q11947138",
@@ -33694,6 +33754,27 @@
     },
     {
       "type": "way",
+      "id": 364537859,
+      "timestamp": "2021-08-25T19:11:59Z",
+      "version": 3,
+      "changeset": 110248717,
+      "user": "random 146",
+      "uid": 362528,
+      "center": {
+        "lat": 42.2700598,
+        "lon": 2.0855281
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "Refugi de les Planelles",
+        "ruins": "no",
+        "shelter_type": "hut"
+      }
+    },
+    {
+      "type": "way",
       "id": 372303408,
       "timestamp": "2021-07-19T17:32:16Z",
       "version": 2,
@@ -33798,22 +33879,22 @@
     {
       "type": "way",
       "id": 387702867,
-      "timestamp": "2020-12-09T12:47:32Z",
-      "version": 2,
-      "changeset": 95554352,
-      "user": "mcompte",
-      "uid": 2096551,
+      "timestamp": "2021-08-25T20:04:13Z",
+      "version": 5,
+      "changeset": 110250486,
+      "user": "random 146",
+      "uid": 362528,
       "center": {
         "lat": 42.3095749,
         "lon": 1.7904531
       },
       "nodes": [],
       "tags": {
-        "amenity": "social_facility",
         "building": "yes",
         "ele": "1601",
         "name": "Refugi de Cortals de l'Ingla",
         "phone": "+34 605449771",
+        "shelter_type": "building",
         "social_facility": "shelter",
         "tourism": "alpine_hut",
         "website": "www.cortalsdelingla.com"
