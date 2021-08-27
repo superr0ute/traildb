@@ -319,6 +319,54 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "mountain-pass",
+        "@distance": 7.3,
+        "@id": "n437309333",
+        "@changeset": 90692446,
+        "@timestamp": "2020-09-10T09:48:04Z",
+        "@version": 4,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "ele": 832,
+        "mountain_pass": "yes",
+        "name": "Mizpira lepoa;Mizpira-Lepo",
+        "natural": "saddle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3931552,
+          43.0912932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "mountain-pass",
+        "@distance": 2.9,
+        "@id": "n474970707",
+        "@changeset": 28205764,
+        "@timestamp": "2015-01-17T11:44:53Z",
+        "@version": 3,
+        "@uid": 223093,
+        "@user": "geow",
+        "ele": 682,
+        "mountain_pass": "yes",
+        "name": "Ametz-Lepo",
+        "natural": "saddle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4038745,
+          43.0912068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "peak_peak",
         "@distance": 1718.4,
         "@id": "n26864154",
@@ -857,54 +905,6 @@
         "coordinates": [
           -1.0403846,
           43.0521718
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "mountain-pass",
-        "@distance": 7.3,
-        "@id": "n437309333",
-        "@changeset": 90692446,
-        "@timestamp": "2020-09-10T09:48:04Z",
-        "@version": 4,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "ele": 832,
-        "mountain_pass": "yes",
-        "name": "Mizpira lepoa;Mizpira-Lepo",
-        "natural": "saddle"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.3931552,
-          43.0912932
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "mountain-pass",
-        "@distance": 2.9,
-        "@id": "n474970707",
-        "@changeset": 28205764,
-        "@timestamp": "2015-01-17T11:44:53Z",
-        "@version": 3,
-        "@uid": 223093,
-        "@user": "geow",
-        "ele": 682,
-        "mountain_pass": "yes",
-        "name": "Ametz-Lepo",
-        "natural": "saddle"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.4038745,
-          43.0912068
         ]
       }
     },
@@ -1942,13 +1942,14 @@
         "@poi": "peak_peak",
         "@distance": 1824.8,
         "@id": "n45195597",
-        "@changeset": 109585261,
-        "@timestamp": "2021-08-12T16:52:45Z",
-        "@version": 11,
+        "@changeset": 110272432,
+        "@timestamp": "2021-08-26T08:36:05Z",
+        "@version": 12,
         "@uid": 11250200,
         "@user": "Hades34",
         "ele": 2527.8,
         "name": "Pic de Turquilla",
+        "name:fr": "Pic de Turguilla",
         "natural": "peak",
         "source": "Institut Cartogràfic de Catalunya",
         "wikidata": "Q11941510",
@@ -2093,226 +2094,6 @@
         "coordinates": [
           0.7053786,
           42.6431231
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "place_village",
-        "@distance": 246.8,
-        "@id": "n64954437",
-        "@changeset": 91915674,
-        "@timestamp": "2020-10-03T21:53:01Z",
-        "@version": 11,
-        "@uid": 11725140,
-        "@user": "jmaspons",
-        "ele": 2080,
-        "gns:ADM1": "00",
-        "gns:RC": "1",
-        "name": "Pas de la Casa",
-        "name:fr": "Pas de la case",
-        "name:ru": "Пас-де-ла-Каса",
-        "note": "Experimental import of Andorrian places and POIs from GNS Dataset",
-        "place": "village",
-        "population": 2996,
-        "source": "gns_an",
-        "wikidata": "Q24456",
-        "wikipedia": "ca:El Pas de la Casa"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.733494,
-          42.5447098
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "place_town",
-        "@distance": 8564.4,
-        "@id": "n64954563",
-        "@changeset": 59405673,
-        "@timestamp": "2018-05-30T17:47:38Z",
-        "@version": 16,
-        "@uid": 8249717,
-        "@user": "mandanf",
-        "gns:ADM1": "04",
-        "gns:V:xx:FULL_NAME": "La Maçana",
-        "gns:V:xx:FULL_NAME_ND": "La Macana",
-        "name": "La Massana",
-        "name:be": "Ла-Масана",
-        "name:be-tarask": "Ля Масана",
-        "name:el": "Λα Μασάνα",
-        "name:lt": "La Masana",
-        "name:ru": "Ла-Массана",
-        "note": "Experimental import of Andorrian places and POIs from GNS Dataset",
-        "place": "town",
-        "source": "gns_an",
-        "wikidata": "Q24276",
-        "wikipedia": "ca:La Massana"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.5163754,
-          42.5442014
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "place_town",
-        "@distance": 9162.6,
-        "@id": "n64954584",
-        "@changeset": 91941538,
-        "@timestamp": "2020-10-04T17:45:13Z",
-        "@version": 14,
-        "@uid": 11725140,
-        "@user": "jmaspons",
-        "gns:ADM1": "03",
-        "gns:N:xx:FULL_NAME": "Encamp",
-        "gns:N:xx:FULL_NAME_ND": "Encamp",
-        "gns:RC": "1",
-        "gns:UFI": "-1395326",
-        "gns:UNI": "-2003031",
-        "name": "Encamp",
-        "name:be": "Энкамп",
-        "name:be-tarask": "Энкамп",
-        "name:el": "Ενκάμπ",
-        "name:lt": "Enkampas",
-        "name:ru": "Энкамп",
-        "name:zh": "恩坎普",
-        "note": "Experimental import of Andorrian places and POIs from GNS Dataset",
-        "place": "town",
-        "source": "gns_an",
-        "wikidata": "Q24269",
-        "wikipedia": "ca:Encamp"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.5836753,
-          42.5359781
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "place_village",
-        "@distance": 3627.5,
-        "@id": "n153427396",
-        "@changeset": 79641556,
-        "@timestamp": "2020-01-16T09:02:03Z",
-        "@version": 15,
-        "@uid": 207249,
-        "@user": "rainerU",
-        "addr:country": "FR",
-        "addr:postcode": "66800",
-        "name": "Saillagouse",
-        "name:ca": "Sallagosa",
-        "name:fr": "Saillagouse",
-        "place": "village",
-        "population": 1089,
-        "population:date": "2017",
-        "source:population": "INSEE 2020",
-        "wikidata": "Q582724",
-        "wikipedia": "fr:Saillagouse"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0395621,
-          42.458863
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "place_village",
-        "@distance": 22.2,
-        "@id": "n153427401",
-        "@changeset": 79641556,
-        "@timestamp": "2020-01-16T09:02:03Z",
-        "@version": 17,
-        "@uid": 207249,
-        "@user": "rainerU",
-        "addr:country": "FR",
-        "addr:postcode": "66210",
-        "name": "Bolquère",
-        "name:ca": "Bolquera",
-        "place": "village",
-        "population": 808,
-        "population:date": "2017",
-        "source:population": "INSEE 2020"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0786803,
-          42.5023721
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "place_village",
-        "@distance": 1504.2,
-        "@id": "n258361905",
-        "@changeset": 99223527,
-        "@timestamp": "2021-02-13T17:53:44Z",
-        "@version": 7,
-        "@uid": 8833132,
-        "@user": "2-wheels",
-        "is_in": "Encamp",
-        "name": "Grau Roig",
-        "name:ru": "Грау Роч",
-        "place": "village",
-        "wikidata": "Q5597742",
-        "wikipedia": "en:Grau_Roig"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.7017913,
-          42.5368991
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "place_village",
-        "@distance": 2121.9,
-        "@id": "n297161739",
-        "@changeset": 79641556,
-        "@timestamp": "2020-01-16T09:02:03Z",
-        "@version": 13,
-        "@uid": 207249,
-        "@user": "rainerU",
-        "addr:country": "FR",
-        "addr:postcode": "66800",
-        "name": "Llo",
-        "name:ca": "Llo",
-        "name:fr": "Llo",
-        "place": "village",
-        "population": 172,
-        "population:date": "2017",
-        "source:population": "INSEE 2020",
-        "wikidata": "Q632053",
-        "wikipedia": "fr:Llo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0618369,
-          42.4553415
         ]
       }
     },
@@ -2726,6 +2507,226 @@
         "coordinates": [
           1.9994327,
           42.5595005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_village",
+        "@distance": 246.8,
+        "@id": "n64954437",
+        "@changeset": 91915674,
+        "@timestamp": "2020-10-03T21:53:01Z",
+        "@version": 11,
+        "@uid": 11725140,
+        "@user": "jmaspons",
+        "ele": 2080,
+        "gns:ADM1": "00",
+        "gns:RC": "1",
+        "name": "Pas de la Casa",
+        "name:fr": "Pas de la case",
+        "name:ru": "Пас-де-ла-Каса",
+        "note": "Experimental import of Andorrian places and POIs from GNS Dataset",
+        "place": "village",
+        "population": 2996,
+        "source": "gns_an",
+        "wikidata": "Q24456",
+        "wikipedia": "ca:El Pas de la Casa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.733494,
+          42.5447098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_town",
+        "@distance": 8564.4,
+        "@id": "n64954563",
+        "@changeset": 59405673,
+        "@timestamp": "2018-05-30T17:47:38Z",
+        "@version": 16,
+        "@uid": 8249717,
+        "@user": "mandanf",
+        "gns:ADM1": "04",
+        "gns:V:xx:FULL_NAME": "La Maçana",
+        "gns:V:xx:FULL_NAME_ND": "La Macana",
+        "name": "La Massana",
+        "name:be": "Ла-Масана",
+        "name:be-tarask": "Ля Масана",
+        "name:el": "Λα Μασάνα",
+        "name:lt": "La Masana",
+        "name:ru": "Ла-Массана",
+        "note": "Experimental import of Andorrian places and POIs from GNS Dataset",
+        "place": "town",
+        "source": "gns_an",
+        "wikidata": "Q24276",
+        "wikipedia": "ca:La Massana"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5163754,
+          42.5442014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_town",
+        "@distance": 9162.6,
+        "@id": "n64954584",
+        "@changeset": 91941538,
+        "@timestamp": "2020-10-04T17:45:13Z",
+        "@version": 14,
+        "@uid": 11725140,
+        "@user": "jmaspons",
+        "gns:ADM1": "03",
+        "gns:N:xx:FULL_NAME": "Encamp",
+        "gns:N:xx:FULL_NAME_ND": "Encamp",
+        "gns:RC": "1",
+        "gns:UFI": "-1395326",
+        "gns:UNI": "-2003031",
+        "name": "Encamp",
+        "name:be": "Энкамп",
+        "name:be-tarask": "Энкамп",
+        "name:el": "Ενκάμπ",
+        "name:lt": "Enkampas",
+        "name:ru": "Энкамп",
+        "name:zh": "恩坎普",
+        "note": "Experimental import of Andorrian places and POIs from GNS Dataset",
+        "place": "town",
+        "source": "gns_an",
+        "wikidata": "Q24269",
+        "wikipedia": "ca:Encamp"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5836753,
+          42.5359781
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_village",
+        "@distance": 3627.5,
+        "@id": "n153427396",
+        "@changeset": 79641556,
+        "@timestamp": "2020-01-16T09:02:03Z",
+        "@version": 15,
+        "@uid": 207249,
+        "@user": "rainerU",
+        "addr:country": "FR",
+        "addr:postcode": "66800",
+        "name": "Saillagouse",
+        "name:ca": "Sallagosa",
+        "name:fr": "Saillagouse",
+        "place": "village",
+        "population": 1089,
+        "population:date": "2017",
+        "source:population": "INSEE 2020",
+        "wikidata": "Q582724",
+        "wikipedia": "fr:Saillagouse"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0395621,
+          42.458863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_village",
+        "@distance": 22.2,
+        "@id": "n153427401",
+        "@changeset": 79641556,
+        "@timestamp": "2020-01-16T09:02:03Z",
+        "@version": 17,
+        "@uid": 207249,
+        "@user": "rainerU",
+        "addr:country": "FR",
+        "addr:postcode": "66210",
+        "name": "Bolquère",
+        "name:ca": "Bolquera",
+        "place": "village",
+        "population": 808,
+        "population:date": "2017",
+        "source:population": "INSEE 2020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0786803,
+          42.5023721
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_village",
+        "@distance": 1504.2,
+        "@id": "n258361905",
+        "@changeset": 99223527,
+        "@timestamp": "2021-02-13T17:53:44Z",
+        "@version": 7,
+        "@uid": 8833132,
+        "@user": "2-wheels",
+        "is_in": "Encamp",
+        "name": "Grau Roig",
+        "name:ru": "Грау Роч",
+        "place": "village",
+        "wikidata": "Q5597742",
+        "wikipedia": "en:Grau_Roig"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7017913,
+          42.5368991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_village",
+        "@distance": 2121.9,
+        "@id": "n297161739",
+        "@changeset": 79641556,
+        "@timestamp": "2020-01-16T09:02:03Z",
+        "@version": 13,
+        "@uid": 207249,
+        "@user": "rainerU",
+        "addr:country": "FR",
+        "addr:postcode": "66800",
+        "name": "Llo",
+        "name:ca": "Llo",
+        "name:fr": "Llo",
+        "place": "village",
+        "population": 172,
+        "population:date": "2017",
+        "source:population": "INSEE 2020",
+        "wikidata": "Q632053",
+        "wikipedia": "fr:Llo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0618369,
+          42.4553415
         ]
       }
     },
@@ -4269,6 +4270,36 @@
       "type": "Feature",
       "properties": {
         "@poi": "peak_peak",
+        "@distance": 248.4,
+        "@id": "n670506076",
+        "@changeset": 78339304,
+        "@timestamp": "2019-12-12T22:00:29Z",
+        "@version": 4,
+        "@uid": 43207,
+        "@user": "kdkeller",
+        "description": "Tube en fer scellé dans le ciment : Repère S.F.S. No61 - Point constaté détruit en 2004",
+        "ele": 907.57,
+        "man_made": "survey_point",
+        "name": "Errola",
+        "natural": "peak",
+        "note": "Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res",
+        "ref": "6454303 - A",
+        "source": "©IGN 2010 dans le cadre de la cartographie réglementaire",
+        "url": "http://geodesie.ign.fr/fiches/index.php?module=e&action=fichepdf&source=carte&sit_no=6454303",
+        "wikidata": "Q12257155"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3897456,
+          43.08531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
         "@distance": 427.5,
         "@id": "n733817074",
         "@changeset": 85285945,
@@ -5522,36 +5553,6 @@
         "coordinates": [
           -0.9297552,
           42.9706233
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 248.4,
-        "@id": "n670506076",
-        "@changeset": 78339304,
-        "@timestamp": "2019-12-12T22:00:29Z",
-        "@version": 4,
-        "@uid": 43207,
-        "@user": "kdkeller",
-        "description": "Tube en fer scellé dans le ciment : Repère S.F.S. No61 - Point constaté détruit en 2004",
-        "ele": 907.57,
-        "man_made": "survey_point",
-        "name": "Errola",
-        "natural": "peak",
-        "note": "Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res",
-        "ref": "6454303 - A",
-        "source": "©IGN 2010 dans le cadre de la cartographie réglementaire",
-        "url": "http://geodesie.ign.fr/fiches/index.php?module=e&action=fichepdf&source=carte&sit_no=6454303",
-        "wikidata": "Q12257155"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.3897456,
-          43.08531
         ]
       }
     },
@@ -7220,6 +7221,256 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "peak_peak",
+        "@distance": 1434.3,
+        "@id": "n482150309",
+        "@changeset": 99268529,
+        "@timestamp": "2021-02-14T22:01:19Z",
+        "@version": 4,
+        "@uid": 8833132,
+        "@user": "2-wheels",
+        "ele": 2570,
+        "name": "Pic de l'Hortell",
+        "natural": "peak",
+        "wikidata": "Q21329790",
+        "wikipedia": "fr:Pic de l'Hortell"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.509009,
+          42.6192717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 6925.2,
+        "@id": "n521143390",
+        "@changeset": 72592717,
+        "@timestamp": "2019-07-24T09:38:51Z",
+        "@version": 4,
+        "@uid": 605366,
+        "@user": "EliziR",
+        "addr:city": "Arinsal",
+        "addr:housenumber": "16",
+        "addr:street": "Carretera d'Arinsal",
+        "name": "Supermercat Saint Moritz",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4844931,
+          42.5717423
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 3148,
+        "@id": "n670508388",
+        "@changeset": 91915674,
+        "@timestamp": "2020-10-03T21:53:01Z",
+        "@version": 5,
+        "@uid": 11725140,
+        "@user": "jmaspons",
+        "description": "Borne en granit gravée IGN et 1949 - Point vu en place en 2000",
+        "ele": 2325.5,
+        "man_made": "survey_point",
+        "name": "Roc d'Aude",
+        "natural": "peak",
+        "note": "Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res",
+        "ref": "6600404 - 1",
+        "source": "©IGN 2010 dans le cadre de la cartographie réglementaire",
+        "url": "http://geodesie.ign.fr/fiches/index.php?module=e&action=fichepdf&source=carte&sit_no=6600404",
+        "wikidata": "Q17638346",
+        "wikipedia": "ca:Roc d'Aude"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0410118,
+          42.5736774
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 1133.8,
+        "@id": "n670510010",
+        "@changeset": 91915674,
+        "@timestamp": "2020-10-03T21:53:01Z",
+        "@version": 5,
+        "@uid": 11725140,
+        "@user": "jmaspons",
+        "description": "Roc : Tube en fer scellé - Point vu en place en 1950",
+        "ele": 2825.99,
+        "man_made": "survey_point",
+        "name": "Puig de la Coma d'Or",
+        "natural": "peak",
+        "note": "Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res",
+        "ref": "6614702 - 1",
+        "source": "©IGN 2010 dans le cadre de la cartographie réglementaire",
+        "url": "http://geodesie.ign.fr/fiches/index.php?module=e&action=fichepdf&source=carte&sit_no=6614702",
+        "wikidata": "Q65212528",
+        "wikipedia": "ca:Puig de Coma d'Or"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8736433,
+          42.5835948
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2990.5,
+        "@id": "n899525912",
+        "@changeset": 110278046,
+        "@timestamp": "2021-08-26T10:13:27Z",
+        "@version": 8,
+        "@uid": 7882299,
+        "@user": "mDav",
+        "amenity": "shelter",
+        "capacity": 6,
+        "ele": 2220,
+        "fireplace": "yes",
+        "name": "Refugi de l'Angonella",
+        "note": "10",
+        "ref": "12",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "tourism": "wilderness_hut",
+        "website": "https://visitandorra.com/es/dormir/refugio-de-la-angonella/",
+        "wikidata": "Q3931664",
+        "wikipedia": "ca:Refugi de l'Angonella"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4960838,
+          42.6079509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2315,
+        "@id": "n899525989",
+        "@changeset": 110278799,
+        "@timestamp": "2021-08-26T10:24:55Z",
+        "@version": 4,
+        "@uid": 7882299,
+        "@user": "mDav",
+        "amenity": "shelter",
+        "capacity": 10,
+        "ele": 2160,
+        "fireplace": "yes",
+        "name": "Refugi de la Vall del Riu",
+        "ref": "18",
+        "tourism": "wilderness_hut",
+        "website": "https://visitandorra.com/en/sleeping/cabana-de-la-vall-del-riu-hut/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6131976,
+          42.5956371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 26.4,
+        "@id": "n899526058",
+        "@changeset": 110043875,
+        "@timestamp": "2021-08-21T22:34:08Z",
+        "@version": 7,
+        "@uid": 500572,
+        "@user": "yopaseopor",
+        "ele": 1838,
+        "fireplace": "yes",
+        "name": "Cabana de la Pleta del Castellar",
+        "tourism": "wilderness_hut",
+        "wikidata": "Q3649144",
+        "wikipedia": "ca:Cabana del Castellar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5114513,
+          42.6334407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1693.4,
+        "@id": "n899526225",
+        "@changeset": 110280044,
+        "@timestamp": "2021-08-26T10:45:58Z",
+        "@version": 4,
+        "@uid": 7882299,
+        "@user": "mDav",
+        "amenity": "shelter",
+        "capacity": 8,
+        "ele": 2015,
+        "fireplace": "yes",
+        "name": "Refugi de Comaubaga",
+        "ref": "24",
+        "tourism": "wilderness_hut",
+        "website": "https://visitandorra.com/en/sleeping/comaubaga-hut/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.550499,
+          42.606777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1874.1,
+        "@id": "n963678499",
+        "@changeset": 10846940,
+        "@timestamp": "2012-03-02T10:58:48Z",
+        "@version": 2,
+        "@uid": 90394,
+        "@user": "petrovsk",
+        "amenity": "shelter",
+        "name": "Cabanes Pla de la Vaca Morta",
+        "note": "986",
+        "source": "Association \"Refuges et cabanes des Pyrénées\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.757845,
+          42.566515
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "place_village",
         "@distance": 64.1,
         "@id": "n313749785",
@@ -7527,249 +7778,6 @@
         "coordinates": [
           1.7321279,
           42.5416228
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 1434.3,
-        "@id": "n482150309",
-        "@changeset": 99268529,
-        "@timestamp": "2021-02-14T22:01:19Z",
-        "@version": 4,
-        "@uid": 8833132,
-        "@user": "2-wheels",
-        "ele": 2570,
-        "name": "Pic de l'Hortell",
-        "natural": "peak",
-        "wikidata": "Q21329790",
-        "wikipedia": "fr:Pic de l'Hortell"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.509009,
-          42.6192717
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 6925.2,
-        "@id": "n521143390",
-        "@changeset": 72592717,
-        "@timestamp": "2019-07-24T09:38:51Z",
-        "@version": 4,
-        "@uid": 605366,
-        "@user": "EliziR",
-        "addr:city": "Arinsal",
-        "addr:housenumber": "16",
-        "addr:street": "Carretera d'Arinsal",
-        "name": "Supermercat Saint Moritz",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.4844931,
-          42.5717423
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 3148,
-        "@id": "n670508388",
-        "@changeset": 91915674,
-        "@timestamp": "2020-10-03T21:53:01Z",
-        "@version": 5,
-        "@uid": 11725140,
-        "@user": "jmaspons",
-        "description": "Borne en granit gravée IGN et 1949 - Point vu en place en 2000",
-        "ele": 2325.5,
-        "man_made": "survey_point",
-        "name": "Roc d'Aude",
-        "natural": "peak",
-        "note": "Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res",
-        "ref": "6600404 - 1",
-        "source": "©IGN 2010 dans le cadre de la cartographie réglementaire",
-        "url": "http://geodesie.ign.fr/fiches/index.php?module=e&action=fichepdf&source=carte&sit_no=6600404",
-        "wikidata": "Q17638346",
-        "wikipedia": "ca:Roc d'Aude"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0410118,
-          42.5736774
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 1133.8,
-        "@id": "n670510010",
-        "@changeset": 91915674,
-        "@timestamp": "2020-10-03T21:53:01Z",
-        "@version": 5,
-        "@uid": 11725140,
-        "@user": "jmaspons",
-        "description": "Roc : Tube en fer scellé - Point vu en place en 1950",
-        "ele": 2825.99,
-        "man_made": "survey_point",
-        "name": "Puig de la Coma d'Or",
-        "natural": "peak",
-        "note": "Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res",
-        "ref": "6614702 - 1",
-        "source": "©IGN 2010 dans le cadre de la cartographie réglementaire",
-        "url": "http://geodesie.ign.fr/fiches/index.php?module=e&action=fichepdf&source=carte&sit_no=6614702",
-        "wikidata": "Q65212528",
-        "wikipedia": "ca:Puig de Coma d'Or"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.8736433,
-          42.5835948
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2990.5,
-        "@id": "n899525912",
-        "@changeset": 99268529,
-        "@timestamp": "2021-02-14T22:01:19Z",
-        "@version": 7,
-        "@uid": 8833132,
-        "@user": "2-wheels",
-        "amenity": "shelter",
-        "capacity": 6,
-        "ele": 2220,
-        "fireplace": "yes",
-        "name": "Refugi de l'Angonella",
-        "note": "10",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
-        "tourism": "wilderness_hut",
-        "website": "https://visitandorra.com/es/dormir/refugio-de-la-angonella/",
-        "wikidata": "Q3931664",
-        "wikipedia": "ca:Refugi de l'Angonella"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.4960838,
-          42.6079509
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2315,
-        "@id": "n899525989",
-        "@changeset": 35428929,
-        "@timestamp": "2015-11-19T08:45:42Z",
-        "@version": 3,
-        "@uid": 605366,
-        "@user": "EliziR",
-        "amenity": "shelter",
-        "name": "Refugi de la Vall del Riu",
-        "note": "592",
-        "source": "Association \"Refuges et cabanes des Pyrénées\""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.6131976,
-          42.5956371
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 26.4,
-        "@id": "n899526058",
-        "@changeset": 110043875,
-        "@timestamp": "2021-08-21T22:34:08Z",
-        "@version": 7,
-        "@uid": 500572,
-        "@user": "yopaseopor",
-        "ele": 1838,
-        "fireplace": "yes",
-        "name": "Cabana de la Pleta del Castellar",
-        "tourism": "wilderness_hut",
-        "wikidata": "Q3649144",
-        "wikipedia": "ca:Cabana del Castellar"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.5114513,
-          42.6334407
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1693.4,
-        "@id": "n899526225",
-        "@changeset": 5709666,
-        "@timestamp": "2010-09-07T16:40:48Z",
-        "@version": 2,
-        "@uid": 306172,
-        "@user": "Chouloute",
-        "amenity": "shelter",
-        "ele": 2010,
-        "fireplace": "yes",
-        "name": "Refuge de Coma Obaga - andorre",
-        "note": "94",
-        "source": "Association \"Refuges et cabanes des Pyrénées\""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.550499,
-          42.606777
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1874.1,
-        "@id": "n963678499",
-        "@changeset": 10846940,
-        "@timestamp": "2012-03-02T10:58:48Z",
-        "@version": 2,
-        "@uid": 90394,
-        "@user": "petrovsk",
-        "amenity": "shelter",
-        "name": "Cabanes Pla de la Vaca Morta",
-        "note": "986",
-        "source": "Association \"Refuges et cabanes des Pyrénées\""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.757845,
-          42.566515
         ]
       }
     },
@@ -9772,6 +9780,54 @@
       "type": "Feature",
       "properties": {
         "@poi": "peak_peak",
+        "@distance": 413.8,
+        "@id": "n1151283326",
+        "@changeset": 98176770,
+        "@timestamp": "2021-01-26T17:45:41Z",
+        "@version": 3,
+        "@uid": 2778590,
+        "@user": "Alaia",
+        "ele": 901,
+        "name": "Otsamuino",
+        "natural": "peak",
+        "wikidata": "Q12265371"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3956188,
+          43.0949355
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "mountain-pass",
+        "@distance": 2.3,
+        "@id": "n1151837514",
+        "@changeset": 28205764,
+        "@timestamp": "2015-01-17T11:46:37Z",
+        "@version": 2,
+        "@uid": 223093,
+        "@user": "geow",
+        "ele": 738,
+        "mountain_pass": "yes",
+        "name": "Meharroztegi",
+        "natural": "saddle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3876894,
+          43.078481
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
         "@distance": 2425,
         "@id": "n1304106702",
         "@changeset": 72353345,
@@ -10203,54 +10259,6 @@
         "coordinates": [
           -1.3293352,
           42.993666
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 413.8,
-        "@id": "n1151283326",
-        "@changeset": 98176770,
-        "@timestamp": "2021-01-26T17:45:41Z",
-        "@version": 3,
-        "@uid": 2778590,
-        "@user": "Alaia",
-        "ele": 901,
-        "name": "Otsamuino",
-        "natural": "peak",
-        "wikidata": "Q12265371"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.3956188,
-          43.0949355
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "mountain-pass",
-        "@distance": 2.3,
-        "@id": "n1151837514",
-        "@changeset": 28205764,
-        "@timestamp": "2015-01-17T11:46:37Z",
-        "@version": 2,
-        "@uid": 223093,
-        "@user": "geow",
-        "ele": 738,
-        "mountain_pass": "yes",
-        "name": "Meharroztegi",
-        "natural": "saddle"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.3876894,
-          43.078481
         ]
       }
     },
@@ -11936,230 +11944,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_spring",
-        "@distance": 375.7,
-        "@id": "n915277006",
-        "@changeset": 5801389,
-        "@timestamp": "2010-09-17T07:44:36Z",
-        "@version": 1,
-        "@uid": 90394,
-        "@user": "petrovsk",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0703678,
-          42.5118107
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 1272.2,
-        "@id": "n932308632",
-        "@changeset": 75439697,
-        "@timestamp": "2019-10-09T06:25:47Z",
-        "@version": 5,
-        "@uid": 571625,
-        "@user": "Balaïtous",
-        "addr:city": "Mont-Louis",
-        "addr:postcode": "66210",
-        "addr:street": "Route des Bouillouses",
-        "name": "Camping Municipal du Pla de Barrès",
-        "operator": "Mairie de Mont-Louis",
-        "phone": "+33 468 042 604",
-        "stars": "2",
-        "tourism": "camp_site",
-        "website": "https://www.pladebarres.com/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0961105,
-          42.5193209
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 193.5,
-        "@id": "n932308944",
-        "@changeset": 5923586,
-        "@timestamp": "2010-09-30T21:07:12Z",
-        "@version": 1,
-        "@uid": 90394,
-        "@user": "petrovsk",
-        "amenity": "shelter",
-        "fireplace": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0738208,
-          42.5290758
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 2754.2,
-        "@id": "n963756617",
-        "@changeset": 105909801,
-        "@timestamp": "2021-06-06T09:49:43Z",
-        "@version": 5,
-        "@uid": 513757,
-        "@user": "Joan Bisbe",
-        "capacity": 2,
-        "description": "2018-01 : Cabane en très bon état, deux couchages + un au sol. Le poêle est tout neuf. Il y a une scie et une petite réserve de bois. Seule la partie droite de la cabane est accessible, l'autre partie est fermée, réservée au berger.",
-        "ele": 2435,
-        "fee": "yes",
-        "fireplace": "no",
-        "name": "Abri de Coll Roig",
-        "note": "949",
-        "operator": "Privat i tancat",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
-        "stove": "yes",
-        "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/3523/cabane-non-gardee/Cerdagne/Abri-de-Coll-Roig/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.9302512,
-          42.5450268
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 393.6,
-        "@id": "n963811531",
-        "@changeset": 93150166,
-        "@timestamp": "2020-10-28T03:10:47Z",
-        "@version": 5,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "alt_name": "Abri de l'Estany de La Pradella",
-        "capacity": 4,
-        "description": "2018-08 : Une première pièce avec une cheminée, table, bancs Une deuxième avec un bat-flanc 2 étages Une autre entrée à gauche pour une écurie capable de loger 2 ou 3 chevaux",
-        "ele": 1960,
-        "fireplace": "yes",
-        "name": "Cabane de l'étang de la Pradella",
-        "note": "724",
-        "source": "Association 'Refuges et Cabanes des Pyrénées'",
-        "stove": "no",
-        "tourism": "wilderness_hut",
-        "website": "http://www.pyrenees-refuges.com/fr/affiche.php?numenr=724;https://www.refuges.info/point/4401/cabane-non-gardee/Cerdagne/Cabane-de-l-etang-de-la-Pradella/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0076104,
-          42.5452717
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 1123.8,
-        "@id": "n1011636724",
-        "@changeset": 91915674,
-        "@timestamp": "2020-10-03T21:53:01Z",
-        "@version": 3,
-        "@uid": 11725140,
-        "@user": "jmaspons",
-        "ele": 2683,
-        "name": "Pic de la Mina",
-        "natural": "peak",
-        "wikidata": "Q64025293",
-        "wikipedia": "ca:Pic de la Mina"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.7686007,
-          42.5351324
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 7.8,
-        "@id": "n1304545949",
-        "@changeset": 24246402,
-        "@timestamp": "2014-07-20T00:16:28Z",
-        "@version": 2,
-        "@uid": 2132462,
-        "@user": "CL971",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0782285,
-          42.5026793
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 30.1,
-        "@id": "n1304546746",
-        "@changeset": 8278700,
-        "@timestamp": "2011-05-29T09:01:50Z",
-        "@version": 1,
-        "@uid": 90394,
-        "@user": "petrovsk",
-        "name": "Blanc",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0775044,
-          42.5032676
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 2278.9,
-        "@id": "n1321451363",
-        "@changeset": 14476049,
-        "@timestamp": "2012-12-31T11:16:04Z",
-        "@version": 2,
-        "@uid": 572214,
-        "@user": "natureln",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0462008,
-          42.5176736
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 2855,
         "@id": "n963809518",
@@ -12447,6 +12231,230 @@
         "coordinates": [
           1.4501235,
           42.7077046
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 375.7,
+        "@id": "n915277006",
+        "@changeset": 5801389,
+        "@timestamp": "2010-09-17T07:44:36Z",
+        "@version": 1,
+        "@uid": 90394,
+        "@user": "petrovsk",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0703678,
+          42.5118107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 1272.2,
+        "@id": "n932308632",
+        "@changeset": 75439697,
+        "@timestamp": "2019-10-09T06:25:47Z",
+        "@version": 5,
+        "@uid": 571625,
+        "@user": "Balaïtous",
+        "addr:city": "Mont-Louis",
+        "addr:postcode": "66210",
+        "addr:street": "Route des Bouillouses",
+        "name": "Camping Municipal du Pla de Barrès",
+        "operator": "Mairie de Mont-Louis",
+        "phone": "+33 468 042 604",
+        "stars": "2",
+        "tourism": "camp_site",
+        "website": "https://www.pladebarres.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0961105,
+          42.5193209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 193.5,
+        "@id": "n932308944",
+        "@changeset": 5923586,
+        "@timestamp": "2010-09-30T21:07:12Z",
+        "@version": 1,
+        "@uid": 90394,
+        "@user": "petrovsk",
+        "amenity": "shelter",
+        "fireplace": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0738208,
+          42.5290758
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 2754.2,
+        "@id": "n963756617",
+        "@changeset": 105909801,
+        "@timestamp": "2021-06-06T09:49:43Z",
+        "@version": 5,
+        "@uid": 513757,
+        "@user": "Joan Bisbe",
+        "capacity": 2,
+        "description": "2018-01 : Cabane en très bon état, deux couchages + un au sol. Le poêle est tout neuf. Il y a une scie et une petite réserve de bois. Seule la partie droite de la cabane est accessible, l'autre partie est fermée, réservée au berger.",
+        "ele": 2435,
+        "fee": "yes",
+        "fireplace": "no",
+        "name": "Abri de Coll Roig",
+        "note": "949",
+        "operator": "Privat i tancat",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "stove": "yes",
+        "tourism": "wilderness_hut",
+        "website": "https://www.refuges.info/point/3523/cabane-non-gardee/Cerdagne/Abri-de-Coll-Roig/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9302512,
+          42.5450268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 393.6,
+        "@id": "n963811531",
+        "@changeset": 93150166,
+        "@timestamp": "2020-10-28T03:10:47Z",
+        "@version": 5,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "alt_name": "Abri de l'Estany de La Pradella",
+        "capacity": 4,
+        "description": "2018-08 : Une première pièce avec une cheminée, table, bancs Une deuxième avec un bat-flanc 2 étages Une autre entrée à gauche pour une écurie capable de loger 2 ou 3 chevaux",
+        "ele": 1960,
+        "fireplace": "yes",
+        "name": "Cabane de l'étang de la Pradella",
+        "note": "724",
+        "source": "Association 'Refuges et Cabanes des Pyrénées'",
+        "stove": "no",
+        "tourism": "wilderness_hut",
+        "website": "http://www.pyrenees-refuges.com/fr/affiche.php?numenr=724;https://www.refuges.info/point/4401/cabane-non-gardee/Cerdagne/Cabane-de-l-etang-de-la-Pradella/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0076104,
+          42.5452717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 1123.8,
+        "@id": "n1011636724",
+        "@changeset": 91915674,
+        "@timestamp": "2020-10-03T21:53:01Z",
+        "@version": 3,
+        "@uid": 11725140,
+        "@user": "jmaspons",
+        "ele": 2683,
+        "name": "Pic de la Mina",
+        "natural": "peak",
+        "wikidata": "Q64025293",
+        "wikipedia": "ca:Pic de la Mina"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7686007,
+          42.5351324
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 7.8,
+        "@id": "n1304545949",
+        "@changeset": 24246402,
+        "@timestamp": "2014-07-20T00:16:28Z",
+        "@version": 2,
+        "@uid": 2132462,
+        "@user": "CL971",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0782285,
+          42.5026793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 30.1,
+        "@id": "n1304546746",
+        "@changeset": 8278700,
+        "@timestamp": "2011-05-29T09:01:50Z",
+        "@version": 1,
+        "@uid": 90394,
+        "@user": "petrovsk",
+        "name": "Blanc",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0775044,
+          42.5032676
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 2278.9,
+        "@id": "n1321451363",
+        "@changeset": 14476049,
+        "@timestamp": "2012-12-31T11:16:04Z",
+        "@version": 2,
+        "@uid": 572214,
+        "@user": "natureln",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0462008,
+          42.5176736
         ]
       }
     },
@@ -13550,11 +13558,11 @@
         "@poi": "foodshop_supermarket",
         "@distance": 304.5,
         "@id": "n1675984219",
-        "@changeset": 88307458,
-        "@timestamp": "2020-07-21T18:19:23Z",
-        "@version": 5,
-        "@uid": 6692235,
-        "@user": "Hartz Beltza",
+        "@changeset": 110295487,
+        "@timestamp": "2021-08-26T15:41:28Z",
+        "@version": 6,
+        "@uid": 7366012,
+        "@user": "lodario",
         "addr:city": "Elizondo",
         "addr:postcode": "31700",
         "addr:street": "Santiago karrika",
@@ -16307,6 +16315,54 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2833.6,
+        "@id": "n1645536222",
+        "@changeset": 100270199,
+        "@timestamp": "2021-03-02T10:23:20Z",
+        "@version": 2,
+        "@uid": 2047207,
+        "@user": "ramonz",
+        "amenity": "shelter",
+        "name": "Refuge Claude Tudon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8647995,
+          42.5973581
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "mountain-pass",
+        "@distance": 52.5,
+        "@id": "n1664210889",
+        "@changeset": 52342967,
+        "@timestamp": "2017-09-25T03:08:27Z",
+        "@version": 6,
+        "@uid": 339581,
+        "@user": "nyuriks",
+        "ele": 1915,
+        "mountain_pass": "yes",
+        "name": "Col de Puymorens",
+        "natural": "saddle",
+        "wikidata": "Q1607720",
+        "wikipedia": "fr:Col de Puymorens"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8108423,
+          42.5596188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 8363.1,
         "@id": "n1499266441",
@@ -16393,15 +16449,15 @@
         "@poi": "foodshop_supermarket",
         "@distance": 8261.6,
         "@id": "n1803703337",
-        "@changeset": 83473863,
-        "@timestamp": "2020-04-13T11:36:07Z",
-        "@version": 4,
-        "@uid": 3735848,
-        "@user": "lanxana",
-        "brand": "Caprabo",
-        "brand:wikidata": "Q1980781",
-        "brand:wikipedia": "en:Caprabo",
-        "name": "Caprabo",
+        "@changeset": 110272598,
+        "@timestamp": "2021-08-26T08:39:24Z",
+        "@version": 5,
+        "@uid": 7882299,
+        "@user": "mDav",
+        "brand": "Carrefour City",
+        "brand:wikidata": "Q2940187",
+        "brand:wikipedia": "fr:Carrefour City",
+        "name": "Carrefour City",
         "shop": "supermarket"
       },
       "geometry": {
@@ -16456,54 +16512,6 @@
         "coordinates": [
           1.5792389,
           42.5332806
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2833.6,
-        "@id": "n1645536222",
-        "@changeset": 100270199,
-        "@timestamp": "2021-03-02T10:23:20Z",
-        "@version": 2,
-        "@uid": 2047207,
-        "@user": "ramonz",
-        "amenity": "shelter",
-        "name": "Refuge Claude Tudon"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.8647995,
-          42.5973581
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "mountain-pass",
-        "@distance": 52.5,
-        "@id": "n1664210889",
-        "@changeset": 52342967,
-        "@timestamp": "2017-09-25T03:08:27Z",
-        "@version": 6,
-        "@uid": 339581,
-        "@user": "nyuriks",
-        "ele": 1915,
-        "mountain_pass": "yes",
-        "name": "Col de Puymorens",
-        "natural": "saddle",
-        "wikidata": "Q1607720",
-        "wikipedia": "fr:Col de Puymorens"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.8108423,
-          42.5596188
         ]
       }
     },
@@ -19019,12 +19027,13 @@
         "@poi": "water_drinking-water",
         "@distance": 2245,
         "@id": "n2424317943",
-        "@changeset": 17413376,
-        "@timestamp": "2013-08-19T15:57:28Z",
-        "@version": 1,
-        "@uid": 548834,
-        "@user": "dr_grijando",
-        "amenity": "drinking_water"
+        "@changeset": 110297479,
+        "@timestamp": "2021-08-26T16:23:51Z",
+        "@version": 2,
+        "@uid": 863649,
+        "@user": "Uranzu",
+        "amenity": "drinking_water",
+        "check_date": "2021-08-26"
       },
       "geometry": {
         "type": "Point",
@@ -21413,168 +21422,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_spring",
-        "@distance": 2386.4,
-        "@id": "n2090337604",
-        "@changeset": 14481116,
-        "@timestamp": "2012-12-31T18:32:48Z",
-        "@version": 1,
-        "@uid": 572214,
-        "@user": "natureln",
-        "name": "La Fontaine du Pélerin",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0458075,
-          42.5125343
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 3487.1,
-        "@id": "n2204991894",
-        "@changeset": 109638658,
-        "@timestamp": "2021-08-13T16:08:17Z",
-        "@version": 5,
-        "@uid": 469238,
-        "@user": "pitort",
-        "ele": 2775.5,
-        "name": "Pic de Serra-seca",
-        "natural": "peak",
-        "source": "Institut Cartogràfic i Geològic de Catalunya",
-        "wikidata": "Q21330410"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.7077969,
-          42.507357
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2606.8,
-        "@id": "n2213593722",
-        "@changeset": 15447625,
-        "@timestamp": "2013-03-21T20:26:41Z",
-        "@version": 1,
-        "@uid": 90394,
-        "@user": "petrovsk",
-        "amenity": "shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0292077,
-          42.5202365
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "place_hamlet",
-        "@distance": 19.3,
-        "@id": "n2242350728",
-        "@changeset": 61965869,
-        "@timestamp": "2018-08-24T17:29:14Z",
-        "@version": 4,
-        "@uid": 2225643,
-        "@user": "Calderes",
-        "name": "La Perche",
-        "name:ca": "la Perxa",
-        "place": "hamlet",
-        "source": "Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
-        "wikidata": "Q56244304",
-        "wikipedia": "ca:La Perxa"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0929901,
-          42.4968159
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 2659.2,
-        "@id": "n2476376361",
-        "@changeset": 18089575,
-        "@timestamp": "2013-09-29T09:54:57Z",
-        "@version": 1,
-        "@uid": 372127,
-        "@user": "Gabanad",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0433973,
-          42.5053127
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 4199.2,
-        "@id": "n2572711668",
-        "@changeset": 93026732,
-        "@timestamp": "2020-10-25T19:19:24Z",
-        "@version": 3,
-        "@uid": 11725140,
-        "@user": "jmaspons",
-        "ele": 2801,
-        "name": "Puigmal de Llo",
-        "natural": "peak",
-        "wikidata": "Q63439587",
-        "wikipedia": "ca:Puigmal de Llo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.1088833,
-          42.3950066
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2986.8,
-        "@id": "n2600914478",
-        "@changeset": 48868830,
-        "@timestamp": "2017-05-21T19:29:27Z",
-        "@version": 2,
-        "@uid": 2771789,
-        "@user": "Ufal",
-        "amenity": "shelter",
-        "description": "Abris de berger"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0182664,
-          42.5171269
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "place_hamlet",
         "@distance": 17.6,
         "@id": "n1818352733",
@@ -21793,14 +21640,13 @@
         "@poi": "peak_peak",
         "@distance": 1721.4,
         "@id": "n2295056708",
-        "@changeset": 79146470,
-        "@timestamp": "2020-01-03T08:30:58Z",
-        "@version": 8,
-        "@uid": 4224320,
-        "@user": "oc-OpenStreetMap",
+        "@changeset": 110272432,
+        "@timestamp": "2021-08-26T08:36:05Z",
+        "@version": 9,
+        "@uid": 11250200,
+        "@user": "Hades34",
         "alt_name": "Pic d'Anrodat",
         "ele": 2730,
-        "man_made": "cairn",
         "name": "Pic de la Coume d'Enfer",
         "natural": "peak",
         "wikidata": "Q21332188"
@@ -21834,6 +21680,168 @@
         "coordinates": [
           1.4979939,
           42.6481358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 2386.4,
+        "@id": "n2090337604",
+        "@changeset": 14481116,
+        "@timestamp": "2012-12-31T18:32:48Z",
+        "@version": 1,
+        "@uid": 572214,
+        "@user": "natureln",
+        "name": "La Fontaine du Pélerin",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0458075,
+          42.5125343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 3487.1,
+        "@id": "n2204991894",
+        "@changeset": 109638658,
+        "@timestamp": "2021-08-13T16:08:17Z",
+        "@version": 5,
+        "@uid": 469238,
+        "@user": "pitort",
+        "ele": 2775.5,
+        "name": "Pic de Serra-seca",
+        "natural": "peak",
+        "source": "Institut Cartogràfic i Geològic de Catalunya",
+        "wikidata": "Q21330410"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7077969,
+          42.507357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2606.8,
+        "@id": "n2213593722",
+        "@changeset": 15447625,
+        "@timestamp": "2013-03-21T20:26:41Z",
+        "@version": 1,
+        "@uid": 90394,
+        "@user": "petrovsk",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0292077,
+          42.5202365
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_hamlet",
+        "@distance": 19.3,
+        "@id": "n2242350728",
+        "@changeset": 61965869,
+        "@timestamp": "2018-08-24T17:29:14Z",
+        "@version": 4,
+        "@uid": 2225643,
+        "@user": "Calderes",
+        "name": "La Perche",
+        "name:ca": "la Perxa",
+        "place": "hamlet",
+        "source": "Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
+        "wikidata": "Q56244304",
+        "wikipedia": "ca:La Perxa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0929901,
+          42.4968159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 2659.2,
+        "@id": "n2476376361",
+        "@changeset": 18089575,
+        "@timestamp": "2013-09-29T09:54:57Z",
+        "@version": 1,
+        "@uid": 372127,
+        "@user": "Gabanad",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0433973,
+          42.5053127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 4199.2,
+        "@id": "n2572711668",
+        "@changeset": 93026732,
+        "@timestamp": "2020-10-25T19:19:24Z",
+        "@version": 3,
+        "@uid": 11725140,
+        "@user": "jmaspons",
+        "ele": 2801,
+        "name": "Puigmal de Llo",
+        "natural": "peak",
+        "wikidata": "Q63439587",
+        "wikipedia": "ca:Puigmal de Llo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1088833,
+          42.3950066
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2986.8,
+        "@id": "n2600914478",
+        "@changeset": 48868830,
+        "@timestamp": "2017-05-21T19:29:27Z",
+        "@version": 2,
+        "@uid": 2771789,
+        "@user": "Ufal",
+        "amenity": "shelter",
+        "description": "Abris de berger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0182664,
+          42.5171269
         ]
       }
     },
@@ -23269,6 +23277,74 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 8051.6,
+        "@id": "n4054671230",
+        "@changeset": 53435249,
+        "@timestamp": "2017-11-01T21:10:27Z",
+        "@version": 2,
+        "@uid": 6692235,
+        "@user": "Hartz Beltza",
+        "name": "Benta Peio",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2708082,
+          43.1170096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 3683.3,
+        "@id": "n4059998114",
+        "@changeset": 78339304,
+        "@timestamp": "2019-12-12T22:00:34Z",
+        "@version": 2,
+        "@uid": 43207,
+        "@user": "kdkeller",
+        "ele": 868,
+        "name": "Iramendi",
+        "natural": "peak",
+        "wikidata": "Q20492069"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2163126,
+          43.0960651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_cave",
+        "@distance": 3051.8,
+        "@id": "n5559977052",
+        "@changeset": 58178239,
+        "@timestamp": "2018-04-17T19:08:43Z",
+        "@version": 1,
+        "@uid": 6672338,
+        "@user": "Baxe Nafarroa",
+        "name": "Elhursaro",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.251351,
+          43.0707383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "alpine-hut",
         "@distance": 1938.4,
         "@id": "w110150218",
@@ -24187,74 +24263,6 @@
         "coordinates": [
           -1.3183787,
           43.0073957
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 8051.6,
-        "@id": "n4054671230",
-        "@changeset": 53435249,
-        "@timestamp": "2017-11-01T21:10:27Z",
-        "@version": 2,
-        "@uid": 6692235,
-        "@user": "Hartz Beltza",
-        "name": "Benta Peio",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.2708082,
-          43.1170096
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 3683.3,
-        "@id": "n4059998114",
-        "@changeset": 78339304,
-        "@timestamp": "2019-12-12T22:00:34Z",
-        "@version": 2,
-        "@uid": 43207,
-        "@user": "kdkeller",
-        "ele": 868,
-        "name": "Iramendi",
-        "natural": "peak",
-        "wikidata": "Q20492069"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.2163126,
-          43.0960651
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_cave",
-        "@distance": 3051.8,
-        "@id": "n5559977052",
-        "@changeset": 58178239,
-        "@timestamp": "2018-04-17T19:08:43Z",
-        "@version": 1,
-        "@uid": 6672338,
-        "@user": "Baxe Nafarroa",
-        "name": "Elhursaro",
-        "natural": "cave_entrance"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.251351,
-          43.0707383
         ]
       }
     },
@@ -25277,32 +25285,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "peak_peak",
-        "@distance": 1571.8,
-        "@id": "n2898954967",
-        "@changeset": 91915674,
-        "@timestamp": "2020-10-03T21:53:01Z",
-        "@version": 3,
-        "@uid": 11725140,
-        "@user": "jmaspons",
-        "ele": 2714,
-        "man_made": "survey_point",
-        "name": "Pic dels Pedrons",
-        "natural": "peak",
-        "wikidata": "Q63870463",
-        "wikipedia": "ca:Pic dels Pedrons"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.7519326,
-          42.5325227
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 3077.2,
         "@id": "n3326508294",
@@ -25447,13 +25429,14 @@
         "@poi": "peak_peak",
         "@distance": 713.3,
         "@id": "n3671517544",
-        "@changeset": 58814646,
-        "@timestamp": "2018-05-09T10:05:41Z",
-        "@version": 3,
-        "@uid": 2904,
-        "@user": "Emilio Gomez",
+        "@changeset": 110272432,
+        "@timestamp": "2021-08-26T08:36:05Z",
+        "@version": 4,
+        "@uid": 11250200,
+        "@user": "Hades34",
         "ele": 2760,
         "name": "Pic de la Coma de Varilles",
+        "name:fr": "Pics de la Portaneille",
         "natural": "peak",
         "wikidata": "Q21329386"
       },
@@ -25796,6 +25779,32 @@
         "coordinates": [
           1.5604904,
           42.6434876
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 1571.8,
+        "@id": "n2898954967",
+        "@changeset": 91915674,
+        "@timestamp": "2020-10-03T21:53:01Z",
+        "@version": 3,
+        "@uid": 11725140,
+        "@user": "jmaspons",
+        "ele": 2714,
+        "man_made": "survey_point",
+        "name": "Pic dels Pedrons",
+        "natural": "peak",
+        "wikidata": "Q63870463",
+        "wikipedia": "ca:Pic dels Pedrons"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7519326,
+          42.5325227
         ]
       }
     },
@@ -26400,28 +26409,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 8258.8,
-        "@id": "n2700247436",
-        "@changeset": 88461597,
-        "@timestamp": "2020-07-24T13:48:36Z",
-        "@version": 4,
-        "@uid": 6692235,
-        "@user": "Hartz Beltza",
-        "name": "Tiendica de Biskarret",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.4186978,
-          42.9674509
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 830.5,
         "@id": "n3452361595",
@@ -26809,6 +26796,28 @@
         "coordinates": [
           -1.7844199,
           43.3712344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 8258.8,
+        "@id": "n2700247436",
+        "@changeset": 88461597,
+        "@timestamp": "2020-07-24T13:48:36Z",
+        "@version": 4,
+        "@uid": 6692235,
+        "@user": "Hartz Beltza",
+        "name": "Tiendica de Biskarret",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4186978,
+          42.9674509
         ]
       }
     },
@@ -28824,32 +28833,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "peak_peak",
-        "@distance": 2111.3,
-        "@id": "n3631160836",
-        "@changeset": 109638658,
-        "@timestamp": "2021-08-13T16:08:17Z",
-        "@version": 10,
-        "@uid": 469238,
-        "@user": "pitort",
-        "ele": 2815.8,
-        "name": "Pic Negre d'Envalira",
-        "natural": "peak",
-        "source": "Institut Cartogràfic i Geològic de Catalunya",
-        "wikidata": "Q15918235",
-        "wikipedia": "ca:Pic Negre d'Envalira"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.7224887,
-          42.5184613
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 2964.9,
         "@id": "n4795619460",
@@ -29114,6 +29097,32 @@
         "coordinates": [
           1.5309612,
           42.5979428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 2111.3,
+        "@id": "n3631160836",
+        "@changeset": 109638658,
+        "@timestamp": "2021-08-13T16:08:17Z",
+        "@version": 10,
+        "@uid": 469238,
+        "@user": "pitort",
+        "ele": 2815.8,
+        "name": "Pic Negre d'Envalira",
+        "natural": "peak",
+        "source": "Institut Cartogràfic i Geològic de Catalunya",
+        "wikidata": "Q15918235",
+        "wikipedia": "ca:Pic Negre d'Envalira"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7224887,
+          42.5184613
         ]
       }
     },
@@ -32930,54 +32939,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "peak_peak",
-        "@distance": 3518.3,
-        "@id": "n3887551587",
-        "@changeset": 82733170,
-        "@timestamp": "2020-03-27T20:52:32Z",
-        "@version": 2,
-        "@uid": 364,
-        "@user": "Edward",
-        "ele": 2705,
-        "name": "Pic Baix del Cubil",
-        "natural": "peak",
-        "wikidata": "Q21329472"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.6783073,
-          42.5302335
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 8300.9,
-        "@id": "n4149383503",
-        "@changeset": 103968979,
-        "@timestamp": "2021-05-01T18:16:58Z",
-        "@version": 3,
-        "@uid": 13216114,
-        "@user": "AMON112",
-        "addr:street": "Andora LA valla",
-        "name": "Avenida Doctor Mitjavila, 3-",
-        "shop": "supermarket",
-        "tourism": "artwork"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.5999844,
-          42.5424832
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_spring",
         "@distance": 149.3,
         "@id": "n6774364141",
@@ -33076,6 +33037,54 @@
         "coordinates": [
           1.8035073,
           42.5848992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 3518.3,
+        "@id": "n3887551587",
+        "@changeset": 82733170,
+        "@timestamp": "2020-03-27T20:52:32Z",
+        "@version": 2,
+        "@uid": 364,
+        "@user": "Edward",
+        "ele": 2705,
+        "name": "Pic Baix del Cubil",
+        "natural": "peak",
+        "wikidata": "Q21329472"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6783073,
+          42.5302335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 8300.9,
+        "@id": "n4149383503",
+        "@changeset": 103968979,
+        "@timestamp": "2021-05-01T18:16:58Z",
+        "@version": 3,
+        "@uid": 13216114,
+        "@user": "AMON112",
+        "addr:street": "Andora LA valla",
+        "name": "Avenida Doctor Mitjavila, 3-",
+        "shop": "supermarket",
+        "tourism": "artwork"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5999844,
+          42.5424832
         ]
       }
     },
@@ -35919,73 +35928,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 8238.6,
-        "@id": "n4359859793",
-        "@changeset": 79481705,
-        "@timestamp": "2020-01-12T17:09:02Z",
-        "@version": 3,
-        "@uid": 9060372,
-        "@user": "Lyon-St-Clair",
-        "name": "Andora",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.5218296,
-          42.546397
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 3010.4,
-        "@id": "n4706523639",
-        "@changeset": 46414618,
-        "@timestamp": "2017-02-26T12:39:34Z",
-        "@version": 1,
-        "@uid": 3101331,
-        "@user": "Mathias_ADAV5962",
-        "name": "La ferme Lloses",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.039533,
-          42.5037404
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 11.2,
-        "@id": "n4872718859",
-        "@changeset": 53724319,
-        "@timestamp": "2017-11-12T21:38:57Z",
-        "@version": 2,
-        "@uid": 90394,
-        "@user": "petrovsk",
-        "amenity": "shelter",
-        "description": "Abri de berger",
-        "source": "survey:2017-05-23"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0974735,
-          42.4567034
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_spring",
         "@distance": 2765.5,
         "@id": "n8824671056",
@@ -36220,6 +36162,73 @@
         "coordinates": [
           1.5641344,
           42.6226064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 8238.6,
+        "@id": "n4359859793",
+        "@changeset": 79481705,
+        "@timestamp": "2020-01-12T17:09:02Z",
+        "@version": 3,
+        "@uid": 9060372,
+        "@user": "Lyon-St-Clair",
+        "name": "Andora",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5218296,
+          42.546397
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 3010.4,
+        "@id": "n4706523639",
+        "@changeset": 46414618,
+        "@timestamp": "2017-02-26T12:39:34Z",
+        "@version": 1,
+        "@uid": 3101331,
+        "@user": "Mathias_ADAV5962",
+        "name": "La ferme Lloses",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.039533,
+          42.5037404
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 11.2,
+        "@id": "n4872718859",
+        "@changeset": 53724319,
+        "@timestamp": "2017-11-12T21:38:57Z",
+        "@version": 2,
+        "@uid": 90394,
+        "@user": "petrovsk",
+        "amenity": "shelter",
+        "description": "Abri de berger",
+        "source": "survey:2017-05-23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0974735,
+          42.4567034
         ]
       }
     },
@@ -37254,27 +37263,6 @@
         "coordinates": [
           -1.701845,
           43.3101433
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 5,
-        "@id": "n6594749050",
-        "@changeset": 71985714,
-        "@timestamp": "2019-07-07T15:59:45Z",
-        "@version": 1,
-        "@uid": 6296343,
-        "@user": "BaboucheVerte",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.5026367,
-          43.117805
         ]
       }
     },
@@ -39151,6 +39139,581 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 356.2,
+        "@id": "w292800138",
+        "@changeset": 93120027,
+        "@timestamp": "2020-10-27T12:05:13Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "alt_name": "Abri de l'Estany de Les Dugues",
+        "amenity": "shelter",
+        "beds": "0",
+        "building": "yes",
+        "description": "2013-08 : Abri de pêcheur. Pas de porte ni d'équipement.",
+        "ele": 2245,
+        "fireplace": "no",
+        "name": "Abri du Lac des Dugues",
+        "note": "130",
+        "shelter_type": "weather_shelter",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "stove": "no",
+        "website": "https://www.refuges.info/point/3521/cabane-non-gardee/Cerdagne/Abri-du-Lac-des-Dugues/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9731813,
+          42.5733227
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 472.8,
+        "@id": "w292800139",
+        "@changeset": 93120027,
+        "@timestamp": "2020-10-27T12:05:13Z",
+        "@version": 3,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "beds": "0",
+        "building": "yes",
+        "description": "2013-08 : Abri de pêcheur. Pas de porte ni d'équipement.",
+        "ele": 2320,
+        "fireplace": "no",
+        "name": "Abri du Lac de Trebens",
+        "note": "669",
+        "shelter_type": "weather_shelter",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "stove": "no",
+        "website": "https://www.refuges.info/point/3520/cabane-non-gardee/Cerdagne/Abri-du-Lac-de-Trebens/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9639065,
+          42.5768557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 93,
+        "@id": "w292800140",
+        "@changeset": 93120027,
+        "@timestamp": "2020-10-27T12:05:13Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "beds": "0",
+        "building": "yes",
+        "ele": 2165,
+        "fireplace": "no",
+        "name": "Cabane de l'Estany Negre",
+        "note": "132",
+        "shelter_type": "basic_hut",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "stove": "no",
+        "website": "https://www.refuges.info/point/6298/cabane-non-gardee/Cerdagne/Abri-de-l-Estany-Negre/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9783791,
+          42.5644469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 122.6,
+        "@id": "w358317385",
+        "@changeset": 110278046,
+        "@timestamp": "2021-08-26T10:13:27Z",
+        "@version": 7,
+        "@uid": 7882299,
+        "@user": "mDav",
+        "building": "yes",
+        "capacity": 10,
+        "description:fr": "2019-12 : Solide bâtisse en pierre. Ouvert toute l'année. Se divise en 2 parties : - La partie de gauche avec 10 sommiers métalliques superposés et un poêle - La partie de droite, réservée au berger plus : - 1 table - 1 banc - 1 cheminée - Pharmacie",
+        "ele": 2180,
+        "fireplace": "yes",
+        "name": "Refugi del Siscaró",
+        "note": "301",
+        "ref": "7",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "stove": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://visitandorra.com/es/dormir/refugio-cabana-de-siscaro/",
+        "wikidata": "Q11945090",
+        "wikipedia": "fr:Cabane de Siscaró"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7059982,
+          42.5948629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 10.1,
+        "@id": "w362800077",
+        "@changeset": 91683369,
+        "@timestamp": "2020-09-29T06:34:04Z",
+        "@version": 3,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "building": "yes",
+        "description:fr": "2016-02 : Cabane en pierre, à demi enterrée, sans aucun équipement, sol en terre battue",
+        "ele": 2675,
+        "fireplace": "no",
+        "name:fr": "Cabane de la Collada de Meners",
+        "shelter_type": "weather_shelter",
+        "stove": "no",
+        "website": "https://www.refuges.info/point/5410/cabane-non-gardee/Andorre/Cabane-de-la-Collada-de-Meners/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.607237,
+          42.6214133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1823.6,
+        "@id": "w364738767",
+        "@changeset": 89085051,
+        "@timestamp": "2020-08-07T09:59:14Z",
+        "@version": 3,
+        "@uid": 90394,
+        "@user": "petrovsk",
+        "amenity": "shelter",
+        "name": "Cabane de Coma Joan",
+        "shelter_type": "basic_hut",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9008682,
+          42.5612904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 399.2,
+        "@id": "w364738960",
+        "@changeset": 109744653,
+        "@timestamp": "2021-08-16T11:09:59Z",
+        "@version": 7,
+        "@uid": 863649,
+        "@user": "Uranzu",
+        "amenity": "shelter",
+        "building": "yes",
+        "capacity": 12,
+        "description": "2020-08 : Grand bâtiment en pierre avec un toit à 2 pans. L'entrée de la partie refuge est située sur le pignon Est. 1 table, 2 chaises et 12 places dans des lits superposés.",
+        "fireplace": "no",
+        "name": "Refuge du Lanoux (Maison des Ingénieurs)",
+        "ref": "357",
+        "shelter_type": "basic_hut",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "stove": "no",
+        "website": "https://www.refuges.info/point/6288/cabane-non-gardee/Cerdagne/Refuge-du-Lanoux-Maison-des-Ingenieurs/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8997416,
+          42.5740663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 3077.8,
+        "@id": "w365957881",
+        "@changeset": 38067516,
+        "@timestamp": "2016-03-25T17:31:09Z",
+        "@version": 2,
+        "@uid": 605366,
+        "@user": "EliziR",
+        "building": "yes",
+        "name": "Caves Manacor",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6420006,
+          42.5791959
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 12.2,
+        "@id": "w368480225",
+        "@changeset": 110278046,
+        "@timestamp": "2021-08-26T10:13:27Z",
+        "@version": 6,
+        "@uid": 7882299,
+        "@user": "mDav",
+        "building": "yes",
+        "capacity": 20,
+        "ele": 2295,
+        "fireplace": "yes",
+        "name": "Refugi de Cabana Sorda",
+        "note": "303",
+        "ref": "9",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "stove": "no",
+        "tourism": "wilderness_hut",
+        "website": "http://visitandorra.com/fr/itineraires/sentier-de-randonnee-estanys-i-refugi-de-cabana-sorda/",
+        "wikidata": "Q3931658",
+        "wikipedia": "ca:Refugi de Cabana Sorda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6723292,
+          42.6115021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 7402.4,
+        "@id": "w375056444",
+        "@changeset": 105986769,
+        "@timestamp": "2021-06-07T17:27:13Z",
+        "@version": 7,
+        "@uid": 9846971,
+        "@user": "gregoiredelattre",
+        "brand": "Spar",
+        "brand:wikidata": "Q610492",
+        "building": "retail",
+        "name": "Spar",
+        "opening_hours": "Mo-Sa 09:00-19:30; Su 09:00-13:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5009841,
+          42.7684341
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 1309.3,
+        "@id": "w381186674",
+        "@changeset": 110278212,
+        "@timestamp": "2021-08-26T10:15:46Z",
+        "@version": 4,
+        "@uid": 7882299,
+        "@user": "mDav",
+        "building": "yes",
+        "capacity": 6,
+        "description:fr": "2019-12 : Solide batisse en pierre. Ouvert toute l'année. Equipement : - 6 sommiers métalliques superposés - 1 table - Banc - Pharmacie",
+        "ele": 2240,
+        "fireplace": "yes",
+        "name": "Refugi de la Portella",
+        "note": "589",
+        "ref": "17",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "stove": "no",
+        "tourism": "wilderness_hut",
+        "website": "http://visitandorra.com/fr/dormir/refuge-de-cabana-de-la-portella/",
+        "wikidata": "Q3931667",
+        "wikipedia": "ca:Refugi de la Portella"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7204795,
+          42.5720579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 849.4,
+        "@id": "w391568717",
+        "@changeset": 99266106,
+        "@timestamp": "2021-02-14T20:35:16Z",
+        "@version": 4,
+        "@uid": 8833132,
+        "@user": "2-wheels",
+        "building": "yes",
+        "name": "Cabana de Besalí",
+        "tourism": "wilderness_hut",
+        "website": "https://visitandorra.com/ca/dormir/refugi-de-besali/",
+        "wikidata": "Q3931657",
+        "wikipedia": "ca:Refugi de Besali"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5375383,
+          42.6290813
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 2043.5,
+        "@id": "w407683520",
+        "@changeset": 110278046,
+        "@timestamp": "2021-08-26T10:13:27Z",
+        "@version": 4,
+        "@uid": 7882299,
+        "@user": "mDav",
+        "capacity": 6,
+        "ele": 2020,
+        "fireplace": "yes",
+        "name": "Refugi de Rialb",
+        "name:fr": "Refuge de Rialb",
+        "ref": "23",
+        "stove": "no",
+        "tourism": "wilderness_hut",
+        "website": "http://visitandorra.com/dormir/refugi-de-rialb/",
+        "wikidata": "Q11945083",
+        "wikipedia": "ca:Refugi de Rialb"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5612695,
+          42.6403511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2499.3,
+        "@id": "w407683521",
+        "@changeset": 91682510,
+        "@timestamp": "2020-09-29T06:22:06Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "building": "yes",
+        "description:fr": "2016-06 : Équipement intérieur : - 1 table - 1 banc - 1 bat-flanc en bois + des planches",
+        "ele": 2150,
+        "fireplace": "yes",
+        "name": "Cabana dels Planells de Rialb",
+        "name:fr": "Abri pastoral de Rialb",
+        "shelter_type": "basic_hut",
+        "stove": "no",
+        "website": "https://www.refuges.info/point/5527/cabane-non-gardee/Andorre/Abri-pastoral-de-Rialb/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5576946,
+          42.6457459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 3020.2,
+        "@id": "w418935486",
+        "@changeset": 92701608,
+        "@timestamp": "2020-10-19T10:40:54Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "building": "yes",
+        "description": "2018-08 : Dans cette commune de montagne et de passage, la mairie met à disposition une pièce nue, équipée d'un banc et d'un radiateur, ouverte toute l'année. Utile en cas d'orage, elle ne permet pas l'hébergement, car trop petite.",
+        "ele": 1427,
+        "fireplace": "no",
+        "shelter_type": "weather_shelter",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2016",
+        "stove": "no",
+        "website": "https://www.refuges.info/point/6360/cabane-non-gardee/Haute-Ariege/Abri-municipal/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.798451,
+          42.5878795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 2.7,
+        "@id": "w432400670",
+        "@changeset": 110278046,
+        "@timestamp": "2021-08-26T10:13:27Z",
+        "@version": 4,
+        "@uid": 7882299,
+        "@user": "mDav",
+        "capacity": 8,
+        "description:fr": "2016-02 : Bat flanc superposé métallique sans matelas, table et bancs métalliques aussi. Outils présents : grosse masse, hache",
+        "ele": 2218,
+        "fireplace": "yes",
+        "name": "Refugi de Coms de Jan",
+        "name:fr": "Refuge de Coms de Jan",
+        "note": "98",
+        "ref": "10",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "stove": "no",
+        "tourism": "wilderness_hut",
+        "website": "http://www.patrimoninatural.ad/llista-de-refugis-d-andorra"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6388143,
+          42.6184667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1638,
+        "@id": "w438251947",
+        "@changeset": 41589785,
+        "@timestamp": "2016-08-21T09:26:09Z",
+        "@version": 1,
+        "@uid": 571625,
+        "@user": "Balaïtous",
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "Cabane de l'Étang Sourd - Vicdessos",
+        "note": "893",
+        "source": "Association \"Refuges et cabanes des Pyrénées\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4064797,
+          42.6964763
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1383.2,
+        "@id": "w516144444",
+        "@changeset": 51169841,
+        "@timestamp": "2017-08-16T12:20:39Z",
+        "@version": 1,
+        "@uid": 127539,
+        "@user": "Emeric",
+        "access": "permissive",
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "Orris de Pujol le bas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4226373,
+          42.6968744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1603,
+        "@id": "w516144446",
+        "@changeset": 51169841,
+        "@timestamp": "2017-08-16T12:20:39Z",
+        "@version": 1,
+        "@uid": 127539,
+        "@user": "Emeric",
+        "access": "private",
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "Orris de Pujol le Haut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4236961,
+          42.6949753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2469.1,
+        "@id": "w537960392",
+        "@changeset": 53478353,
+        "@timestamp": "2017-11-03T12:50:19Z",
+        "@version": 1,
+        "@uid": 1331779,
+        "@user": "Appirit",
+        "amenity": "shelter",
+        "name": "Abri de l'Étang d'Izourt - Vicdessos",
+        "note": "175",
+        "source": "Association \"Refuges et cabanes des Pyrénées\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4985659,
+          42.6940506
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 1134.5,
         "@id": "n5194955598",
@@ -39354,576 +39917,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 356.2,
-        "@id": "w292800138",
-        "@changeset": 93120027,
-        "@timestamp": "2020-10-27T12:05:13Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "alt_name": "Abri de l'Estany de Les Dugues",
-        "amenity": "shelter",
-        "beds": "0",
-        "building": "yes",
-        "description": "2013-08 : Abri de pêcheur. Pas de porte ni d'équipement.",
-        "ele": 2245,
-        "fireplace": "no",
-        "name": "Abri du Lac des Dugues",
-        "note": "130",
-        "shelter_type": "weather_shelter",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
-        "stove": "no",
-        "website": "https://www.refuges.info/point/3521/cabane-non-gardee/Cerdagne/Abri-du-Lac-des-Dugues/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.9731813,
-          42.5733227
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 472.8,
-        "@id": "w292800139",
-        "@changeset": 93120027,
-        "@timestamp": "2020-10-27T12:05:13Z",
-        "@version": 3,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
-        "beds": "0",
-        "building": "yes",
-        "description": "2013-08 : Abri de pêcheur. Pas de porte ni d'équipement.",
-        "ele": 2320,
-        "fireplace": "no",
-        "name": "Abri du Lac de Trebens",
-        "note": "669",
-        "shelter_type": "weather_shelter",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
-        "stove": "no",
-        "website": "https://www.refuges.info/point/3520/cabane-non-gardee/Cerdagne/Abri-du-Lac-de-Trebens/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.9639065,
-          42.5768557
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 93,
-        "@id": "w292800140",
-        "@changeset": 93120027,
-        "@timestamp": "2020-10-27T12:05:13Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
-        "beds": "0",
-        "building": "yes",
-        "ele": 2165,
-        "fireplace": "no",
-        "name": "Cabane de l'Estany Negre",
-        "note": "132",
-        "shelter_type": "basic_hut",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
-        "stove": "no",
-        "website": "https://www.refuges.info/point/6298/cabane-non-gardee/Cerdagne/Abri-de-l-Estany-Negre/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.9783791,
-          42.5644469
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 122.6,
-        "@id": "w358317385",
-        "@changeset": 99476261,
-        "@timestamp": "2021-02-17T20:31:18Z",
-        "@version": 6,
-        "@uid": 8833132,
-        "@user": "2-wheels",
-        "building": "yes",
-        "capacity": 10,
-        "description:fr": "2019-12 : Solide bâtisse en pierre. Ouvert toute l'année. Se divise en 2 parties : - La partie de gauche avec 10 sommiers métalliques superposés et un poêle - La partie de droite, réservée au berger plus : - 1 table - 1 banc - 1 cheminée - Pharmacie",
-        "ele": 2180,
-        "fireplace": "yes",
-        "name": "Refugi del Siscaró",
-        "note": "301",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
-        "stove": "no",
-        "tourism": "wilderness_hut",
-        "website": "https://visitandorra.com/es/dormir/refugio-cabana-de-siscaro/",
-        "wikidata": "Q11945090",
-        "wikipedia": "fr:Cabane de Siscaró"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.7059982,
-          42.5948629
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 10.1,
-        "@id": "w362800077",
-        "@changeset": 91683369,
-        "@timestamp": "2020-09-29T06:34:04Z",
-        "@version": 3,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
-        "building": "yes",
-        "description:fr": "2016-02 : Cabane en pierre, à demi enterrée, sans aucun équipement, sol en terre battue",
-        "ele": 2675,
-        "fireplace": "no",
-        "name:fr": "Cabane de la Collada de Meners",
-        "shelter_type": "weather_shelter",
-        "stove": "no",
-        "website": "https://www.refuges.info/point/5410/cabane-non-gardee/Andorre/Cabane-de-la-Collada-de-Meners/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.607237,
-          42.6214133
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1823.6,
-        "@id": "w364738767",
-        "@changeset": 89085051,
-        "@timestamp": "2020-08-07T09:59:14Z",
-        "@version": 3,
-        "@uid": 90394,
-        "@user": "petrovsk",
-        "amenity": "shelter",
-        "name": "Cabane de Coma Joan",
-        "shelter_type": "basic_hut",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.9008682,
-          42.5612904
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 399.2,
-        "@id": "w364738960",
-        "@changeset": 109744653,
-        "@timestamp": "2021-08-16T11:09:59Z",
-        "@version": 7,
-        "@uid": 863649,
-        "@user": "Uranzu",
-        "amenity": "shelter",
-        "building": "yes",
-        "capacity": 12,
-        "description": "2020-08 : Grand bâtiment en pierre avec un toit à 2 pans. L'entrée de la partie refuge est située sur le pignon Est. 1 table, 2 chaises et 12 places dans des lits superposés.",
-        "fireplace": "no",
-        "name": "Refuge du Lanoux (Maison des Ingénieurs)",
-        "ref": "357",
-        "shelter_type": "basic_hut",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
-        "stove": "no",
-        "website": "https://www.refuges.info/point/6288/cabane-non-gardee/Cerdagne/Refuge-du-Lanoux-Maison-des-Ingenieurs/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.8997416,
-          42.5740663
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 3077.8,
-        "@id": "w365957881",
-        "@changeset": 38067516,
-        "@timestamp": "2016-03-25T17:31:09Z",
-        "@version": 2,
-        "@uid": 605366,
-        "@user": "EliziR",
-        "building": "yes",
-        "name": "Caves Manacor",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.6420006,
-          42.5791959
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 12.2,
-        "@id": "w368480225",
-        "@changeset": 93147484,
-        "@timestamp": "2020-10-28T00:13:46Z",
-        "@version": 5,
-        "@uid": 11725140,
-        "@user": "jmaspons",
-        "building": "yes",
-        "capacity": 20,
-        "ele": 2295,
-        "fireplace": "yes",
-        "name": "Refugi de Cabana Sorda",
-        "note": "303",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
-        "stove": "no",
-        "tourism": "wilderness_hut",
-        "website": "http://visitandorra.com/fr/itineraires/sentier-de-randonnee-estanys-i-refugi-de-cabana-sorda/",
-        "wikidata": "Q3931658",
-        "wikipedia": "ca:Refugi de Cabana Sorda"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.6723292,
-          42.6115021
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 7402.4,
-        "@id": "w375056444",
-        "@changeset": 105986769,
-        "@timestamp": "2021-06-07T17:27:13Z",
-        "@version": 7,
-        "@uid": 9846971,
-        "@user": "gregoiredelattre",
-        "brand": "Spar",
-        "brand:wikidata": "Q610492",
-        "building": "retail",
-        "name": "Spar",
-        "opening_hours": "Mo-Sa 09:00-19:30; Su 09:00-13:00",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.5009841,
-          42.7684341
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 1309.3,
-        "@id": "w381186674",
-        "@changeset": 91916324,
-        "@timestamp": "2020-10-03T22:46:23Z",
-        "@version": 3,
-        "@uid": 11725140,
-        "@user": "jmaspons",
-        "building": "yes",
-        "capacity": 6,
-        "description:fr": "2019-12 : Solide batisse en pierre. Ouvert toute l'année. Equipement : - 6 sommiers métalliques superposés - 1 table - Banc - Pharmacie",
-        "ele": 2240,
-        "fireplace": "yes",
-        "name": "Refugi de la Portella",
-        "note": "589",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
-        "stove": "no",
-        "tourism": "wilderness_hut",
-        "website": "http://visitandorra.com/fr/dormir/refuge-de-cabana-de-la-portella/",
-        "wikidata": "Q3931667",
-        "wikipedia": "ca:Refugi de la Portella"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.7204795,
-          42.5720579
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 849.4,
-        "@id": "w391568717",
-        "@changeset": 99266106,
-        "@timestamp": "2021-02-14T20:35:16Z",
-        "@version": 4,
-        "@uid": 8833132,
-        "@user": "2-wheels",
-        "building": "yes",
-        "name": "Cabana de Besalí",
-        "tourism": "wilderness_hut",
-        "website": "https://visitandorra.com/ca/dormir/refugi-de-besali/",
-        "wikidata": "Q3931657",
-        "wikipedia": "ca:Refugi de Besali"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.5375383,
-          42.6290813
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 2043.5,
-        "@id": "w407683520",
-        "@changeset": 91683064,
-        "@timestamp": "2020-09-29T06:29:44Z",
-        "@version": 3,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "capacity": 6,
-        "ele": 2020,
-        "fireplace": "yes",
-        "name": "Refugi de Rialb",
-        "name:fr": "Refuge de Rialb",
-        "stove": "no",
-        "tourism": "wilderness_hut",
-        "website": "http://visitandorra.com/dormir/refugi-de-rialb/",
-        "wikidata": "Q11945083",
-        "wikipedia": "ca:Refugi de Rialb"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.5612695,
-          42.6403511
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2499.3,
-        "@id": "w407683521",
-        "@changeset": 91682510,
-        "@timestamp": "2020-09-29T06:22:06Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
-        "building": "yes",
-        "description:fr": "2016-06 : Équipement intérieur : - 1 table - 1 banc - 1 bat-flanc en bois + des planches",
-        "ele": 2150,
-        "fireplace": "yes",
-        "name": "Cabana dels Planells de Rialb",
-        "name:fr": "Abri pastoral de Rialb",
-        "shelter_type": "basic_hut",
-        "stove": "no",
-        "website": "https://www.refuges.info/point/5527/cabane-non-gardee/Andorre/Abri-pastoral-de-Rialb/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.5576946,
-          42.6457459
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 3020.2,
-        "@id": "w418935486",
-        "@changeset": 92701608,
-        "@timestamp": "2020-10-19T10:40:54Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
-        "building": "yes",
-        "description": "2018-08 : Dans cette commune de montagne et de passage, la mairie met à disposition une pièce nue, équipée d'un banc et d'un radiateur, ouverte toute l'année. Utile en cas d'orage, elle ne permet pas l'hébergement, car trop petite.",
-        "ele": 1427,
-        "fireplace": "no",
-        "shelter_type": "weather_shelter",
-        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2016",
-        "stove": "no",
-        "website": "https://www.refuges.info/point/6360/cabane-non-gardee/Haute-Ariege/Abri-municipal/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.798451,
-          42.5878795
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 2.7,
-        "@id": "w432400670",
-        "@changeset": 91683369,
-        "@timestamp": "2020-09-29T06:34:04Z",
-        "@version": 3,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "capacity": 8,
-        "description:fr": "2016-02 : Bat flanc superposé métallique sans matelas, table et bancs métalliques aussi. Outils présents : grosse masse, hache",
-        "ele": 2218,
-        "fireplace": "yes",
-        "name": "Refugi de Coms de Jan",
-        "name:fr": "Refuge de Coms de Jan",
-        "note": "98",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
-        "stove": "no",
-        "tourism": "wilderness_hut",
-        "website": "http://www.patrimoninatural.ad/llista-de-refugis-d-andorra"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.6388143,
-          42.6184667
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1638,
-        "@id": "w438251947",
-        "@changeset": 41589785,
-        "@timestamp": "2016-08-21T09:26:09Z",
-        "@version": 1,
-        "@uid": 571625,
-        "@user": "Balaïtous",
-        "amenity": "shelter",
-        "building": "yes",
-        "name": "Cabane de l'Étang Sourd - Vicdessos",
-        "note": "893",
-        "source": "Association \"Refuges et cabanes des Pyrénées\""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.4064797,
-          42.6964763
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1383.2,
-        "@id": "w516144444",
-        "@changeset": 51169841,
-        "@timestamp": "2017-08-16T12:20:39Z",
-        "@version": 1,
-        "@uid": 127539,
-        "@user": "Emeric",
-        "access": "permissive",
-        "amenity": "shelter",
-        "building": "yes",
-        "name": "Orris de Pujol le bas"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.4226373,
-          42.6968744
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1603,
-        "@id": "w516144446",
-        "@changeset": 51169841,
-        "@timestamp": "2017-08-16T12:20:39Z",
-        "@version": 1,
-        "@uid": 127539,
-        "@user": "Emeric",
-        "access": "private",
-        "amenity": "shelter",
-        "building": "yes",
-        "name": "Orris de Pujol le Haut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.4236961,
-          42.6949753
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2469.1,
-        "@id": "w537960392",
-        "@changeset": 53478353,
-        "@timestamp": "2017-11-03T12:50:19Z",
-        "@version": 1,
-        "@uid": 1331779,
-        "@user": "Appirit",
-        "amenity": "shelter",
-        "name": "Abri de l'Étang d'Izourt - Vicdessos",
-        "note": "175",
-        "source": "Association \"Refuges et cabanes des Pyrénées\""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.4985659,
-          42.6940506
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 18.2,
         "@id": "n5773723734",
@@ -39972,6 +39965,27 @@
         "coordinates": [
           2.460447,
           42.5116413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 5,
+        "@id": "n6594749050",
+        "@changeset": 71985714,
+        "@timestamp": "2019-07-07T15:59:45Z",
+        "@version": 1,
+        "@uid": 6296343,
+        "@user": "BaboucheVerte",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5026367,
+          43.117805
         ]
       }
     },
@@ -41636,82 +41650,14 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 9170.3,
-        "@id": "n6564773287",
-        "@changeset": 71513173,
-        "@timestamp": "2019-06-22T16:08:59Z",
-        "@version": 1,
-        "@uid": 3098937,
-        "@user": "Paulo Manuel Santos Moreira",
-        "addr:housenumber": "15",
-        "addr:street": "Avinguda de François Mitterrand",
-        "name": "ECO",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.5820846,
-          42.5360115
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 83,
-        "@id": "n7282465469",
-        "@changeset": 82010436,
-        "@timestamp": "2020-03-10T13:44:37Z",
-        "@version": 1,
-        "@uid": 3003217,
-        "@user": "hvictor",
-        "name": "Fran per",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.7324737,
-          42.5421984
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 78.3,
-        "@id": "n7282470378",
-        "@changeset": 82216592,
-        "@timestamp": "2020-03-15T12:52:08Z",
-        "@version": 2,
-        "@uid": 3003217,
-        "@user": "hvictor",
-        "name": "Hiper pas",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.7326016,
-          42.5422262
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "shelter_wilderness-hut",
         "@distance": 2716.4,
         "@id": "w667958227",
-        "@changeset": 91684344,
-        "@timestamp": "2020-09-29T06:48:43Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 110278212,
+        "@timestamp": "2021-08-26T10:15:46Z",
+        "@version": 3,
+        "@uid": 7882299,
+        "@user": "mDav",
         "building": "yes",
         "capacity": 6,
         "description:fr": "2016-03 : Couchettes en métal et murs en pierre très protecteurs, une table et un poêle. Le refuge n'est pas accessible durant la période de ski car il sert à remiser du matériel, et aussi de lieu de vie pour les pistards de la station.",
@@ -41719,6 +41665,7 @@
         "fireplace": "yes",
         "name": "Refugi Pla de les Pedres",
         "note": "985",
+        "ref": "6",
         "source": "Association \"Refuges et cabanes des Pyrénées\"",
         "stove": "no",
         "tourism": "wilderness_hut",
@@ -42063,25 +42010,46 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2808,
-        "@id": "w322553614",
-        "@changeset": 96020250,
-        "@timestamp": "2020-12-17T17:23:36Z",
-        "@version": 3,
-        "@uid": 6692235,
-        "@user": "Hartz Beltza",
-        "access": "private",
-        "amenity": "shelter",
-        "building": "yes",
-        "name": "Ehiztarien borda",
-        "name:es": "Refugio de cazadores"
+        "@poi": "foodshop_supermarket",
+        "@distance": 9170.3,
+        "@id": "n6564773287",
+        "@changeset": 71513173,
+        "@timestamp": "2019-06-22T16:08:59Z",
+        "@version": 1,
+        "@uid": 3098937,
+        "@user": "Paulo Manuel Santos Moreira",
+        "addr:housenumber": "15",
+        "addr:street": "Avinguda de François Mitterrand",
+        "name": "ECO",
+        "shop": "supermarket"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.4755727,
-          43.065557
+          1.5820846,
+          42.5360115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 83,
+        "@id": "n7282465469",
+        "@changeset": 82010436,
+        "@timestamp": "2020-03-10T13:44:37Z",
+        "@version": 1,
+        "@uid": 3003217,
+        "@user": "hvictor",
+        "name": "Fran per",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7324737,
+          42.5421984
         ]
       }
     },
@@ -42343,6 +42311,31 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2808,
+        "@id": "w322553614",
+        "@changeset": 96020250,
+        "@timestamp": "2020-12-17T17:23:36Z",
+        "@version": 3,
+        "@uid": 6692235,
+        "@user": "Hartz Beltza",
+        "access": "private",
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "Ehiztarien borda",
+        "name:es": "Refugio de cazadores"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4755727,
+          43.065557
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_wilderness-hut",
         "@distance": 63,
         "@id": "n8921964585",
@@ -42426,6 +42419,54 @@
         "coordinates": [
           1.0461112,
           42.7045371
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 55.2,
+        "@id": "w975650652",
+        "@changeset": 110118159,
+        "@timestamp": "2021-08-23T13:36:54Z",
+        "@version": 2,
+        "@uid": 7054806,
+        "@user": "7tonin",
+        "amenity": "shelter",
+        "building": "yes",
+        "fee": "no",
+        "fireplace": "no",
+        "name": "Cabane d'orri vétuste",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5239624,
+          42.6263357
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 78.3,
+        "@id": "n7282470378",
+        "@changeset": 82216592,
+        "@timestamp": "2020-03-15T12:52:08Z",
+        "@version": 2,
+        "@uid": 3003217,
+        "@user": "hvictor",
+        "name": "Hiper pas",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7326016,
+          42.5422262
         ]
       }
     },
@@ -42519,67 +42560,6 @@
         "coordinates": [
           1.9276887,
           42.5461214
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 2869,
-        "@id": "w62514637",
-        "@changeset": 102922838,
-        "@timestamp": "2021-04-14T10:30:21Z",
-        "@version": 7,
-        "@uid": 8245741,
-        "@user": "lyvyowlx",
-        "brand": "Carrefour Contact",
-        "brand:wikidata": "Q2940188",
-        "brand:wikipedia": "fr:Carrefour Contact",
-        "building": "retail",
-        "building:levels": "2",
-        "name": "Carrefour Contact",
-        "opening_hours": "Mo-Sa 08:00-20:00; Su 09:00-13:00",
-        "operator": "Groupe Carrefour",
-        "operator:wikidata": "Q3117359",
-        "operator:wikipedia": "fr:Groupe Carrefour",
-        "roof:levels": "0",
-        "shop": "supermarket",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-        "supermarket": "yes",
-        "supermarket:FR": "supermarché"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0412176,
-          42.5040235
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 55.2,
-        "@id": "w975650652",
-        "@changeset": 110118159,
-        "@timestamp": "2021-08-23T13:36:54Z",
-        "@version": 2,
-        "@uid": 7054806,
-        "@user": "7tonin",
-        "amenity": "shelter",
-        "building": "yes",
-        "fee": "no",
-        "fireplace": "no",
-        "name": "Cabane d'orri vétuste",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.5239624,
-          42.6263357
         ]
       }
     },
@@ -43796,6 +43776,41 @@
         "coordinates": [
           1.3712213,
           42.6824258
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 2869,
+        "@id": "w62514637",
+        "@changeset": 102922838,
+        "@timestamp": "2021-04-14T10:30:21Z",
+        "@version": 7,
+        "@uid": 8245741,
+        "@user": "lyvyowlx",
+        "brand": "Carrefour Contact",
+        "brand:wikidata": "Q2940188",
+        "brand:wikipedia": "fr:Carrefour Contact",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "Carrefour Contact",
+        "opening_hours": "Mo-Sa 08:00-20:00; Su 09:00-13:00",
+        "operator": "Groupe Carrefour",
+        "operator:wikidata": "Q3117359",
+        "operator:wikipedia": "fr:Groupe Carrefour",
+        "roof:levels": "0",
+        "shop": "supermarket",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "supermarket": "yes",
+        "supermarket:FR": "supermarché"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0412176,
+          42.5040235
         ]
       }
     },
@@ -45745,38 +45760,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 3099.2,
-        "@id": "w850492614",
-        "@changeset": 91367948,
-        "@timestamp": "2020-09-23T12:41:11Z",
-        "@version": 1,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "alt_name": "Abri Port de Salau La Lanne",
-        "building": "yes",
-        "capacity": 8,
-        "description": "2016-09 : - 1 table - 1 banc - 8 couchettes (courtes), réparties dans 2 pièces, avec karimmat et vieux matelas gonflants - Quelques couvertures (propreté moyenne) - 1 cheminée dans la pièce du fond - 1 lampe à pétrole",
-        "ele": 1840,
-        "fireplace": "yes",
-        "name": "Cabane de la Lanne",
-        "note": "574",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
-        "stove": "no",
-        "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/5622/cabane-non-gardee/Couserans/Cabane-de-la-Lanne/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.1384408,
-          42.7422872
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 979.4,
         "@id": "w668568082",
@@ -46691,6 +46674,38 @@
         "coordinates": [
           -1.7712011,
           43.3485247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 3099.2,
+        "@id": "w850492614",
+        "@changeset": 91367948,
+        "@timestamp": "2020-09-23T12:41:11Z",
+        "@version": 1,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "alt_name": "Abri Port de Salau La Lanne",
+        "building": "yes",
+        "capacity": 8,
+        "description": "2016-09 : - 1 table - 1 banc - 8 couchettes (courtes), réparties dans 2 pièces, avec karimmat et vieux matelas gonflants - Quelques couvertures (propreté moyenne) - 1 cheminée dans la pièce du fond - 1 lampe à pétrole",
+        "ele": 1840,
+        "fireplace": "yes",
+        "name": "Cabane de la Lanne",
+        "note": "574",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "stove": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://www.refuges.info/point/5622/cabane-non-gardee/Couserans/Cabane-de-la-Lanne/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1384408,
+          42.7422872
         ]
       }
     },
