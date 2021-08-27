@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-24T02:37:34Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-27T02:35:00Z"},
   "elements": [
     {
       "type": "relation",
@@ -134,11 +134,11 @@
     {
       "type": "relation",
       "id": 9678362,
-      "timestamp": "2021-07-27T10:47:46Z",
-      "version": 55,
-      "changeset": 108681955,
-      "user": "phaerrax",
-      "uid": 4890411,
+      "timestamp": "2021-08-26T21:18:33Z",
+      "version": 56,
+      "changeset": 110308222,
+      "user": "Gonéo",
+      "uid": 12172125,
       "members": [
         {"type": "way", "ref": 217673748, "role": ""},
         {"type": "way", "ref": 433033836, "role": ""},
@@ -602,8 +602,6 @@
         {"type": "way", "ref": 778814172, "role": ""},
         {"type": "way", "ref": 432242528, "role": ""},
         {"type": "way", "ref": 134027184, "role": ""},
-        {"type": "way", "ref": 134027189, "role": ""},
-        {"type": "way", "ref": 432242515, "role": ""},
         {"type": "way", "ref": 134027212, "role": ""},
         {"type": "way", "ref": 134027205, "role": ""},
         {"type": "way", "ref": 432242499, "role": ""},
@@ -2267,13 +2265,16 @@
     {
       "type": "way",
       "id": 134027184,
-      "timestamp": "2021-07-14T09:10:01Z",
-      "version": 10,
-      "changeset": 107964232,
+      "timestamp": "2021-08-26T21:18:33Z",
+      "version": 11,
+      "changeset": 110308222,
       "user": "Gonéo",
       "uid": 12172125,
-      "nodes": [288722288, 288722295],
+      "nodes": [1492354081, 288722295],
       "geometry": [
+        {"lat": 45.8197883, "lon": 6.7269693, "z": 1144.7},
+        {"lat": 45.8196316, "lon": 6.7270525, "z": 1144.5},
+        {"lat": 45.8194826, "lon": 6.727094, "z": 1144},
         {"lat": 45.8194254, "lon": 6.7271001, "z": 1143.8},
         {"lat": 45.8193064, "lon": 6.7271254, "z": 1143.6},
         {"lat": 45.8191185, "lon": 6.7271349, "z": 1143.1},
@@ -2291,21 +2292,6 @@
         "surface": "gravel",
         "trail_visibility": "excellent"
       }
-    },
-    {
-      "type": "way",
-      "id": 134027189,
-      "timestamp": "2015-05-12T13:58:02Z",
-      "version": 2,
-      "changeset": 31054672,
-      "user": "Ocirne94",
-      "uid": 498662,
-      "nodes": [1474417965, 288722288],
-      "geometry": [
-        {"lat": 45.8194826, "lon": 6.727094, "z": 1144},
-        {"lat": 45.8194254, "lon": 6.7271001, "z": 1143.8}
-      ],
-      "tags": {"bridge": "yes", "highway": "path", "layer": "1"}
     },
     {
       "type": "way",
@@ -18473,22 +18459,6 @@
         "tracktype": "grade2",
         "trail_visibility": "excellent"
       }
-    },
-    {
-      "type": "way",
-      "id": 432242515,
-      "timestamp": "2016-07-20T21:22:51Z",
-      "version": 1,
-      "changeset": 40906578,
-      "user": "ATGardner",
-      "uid": 287860,
-      "nodes": [1492354081, 1474417965],
-      "geometry": [
-        {"lat": 45.8197883, "lon": 6.7269693, "z": 1144.7},
-        {"lat": 45.8196316, "lon": 6.7270525, "z": 1144.5},
-        {"lat": 45.8194826, "lon": 6.727094, "z": 1144}
-      ],
-      "tags": {"highway": "path"}
     },
     {
       "type": "way",
