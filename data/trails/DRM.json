@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-26T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-28T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1736379,
-      "timestamp": "2021-08-22T19:09:43Z",
-      "version": 552,
-      "changeset": 110075766,
-      "user": "bergfex1975",
-      "uid": 1358409,
+      "timestamp": "2021-08-28T19:55:01Z",
+      "version": 553,
+      "changeset": 110392728,
+      "user": "voschix",
+      "uid": 305001,
       "members": [
         {"type": "node", "ref": 1779769997, "role": "stop"},
         {"type": "node", "ref": 475738007, "role": ""},
@@ -1226,10 +1226,11 @@
         {"type": "way", "ref": 116838126, "role": ""},
         {"type": "way", "ref": 116838127, "role": ""},
         {"type": "way", "ref": 32923164, "role": ""},
+        {"type": "way", "ref": 977415075, "role": ""},
         {"type": "way", "ref": 596114467, "role": ""},
+        {"type": "way", "ref": 977415076, "role": ""},
         {"type": "way", "ref": 156935740, "role": ""},
         {"type": "way", "ref": 175716383, "role": ""},
-        {"type": "way", "ref": 123404486, "role": ""},
         {"type": "way", "ref": 156935744, "role": ""},
         {"type": "way", "ref": 123404488, "role": ""},
         {"type": "way", "ref": 495925644, "role": ""},
@@ -5183,21 +5184,6 @@
     },
     {
       "type": "way",
-      "id": 123404486,
-      "timestamp": "2012-03-26T10:26:51Z",
-      "version": 2,
-      "changeset": 11104284,
-      "user": "voschix",
-      "uid": 305001,
-      "nodes": [1376294822, 1691752823],
-      "geometry": [
-        {"lat": 45.8150572, "lon": 12.2487202},
-        {"lat": 45.8151453, "lon": 12.248549}
-      ],
-      "tags": {"highway": "steps"}
-    },
-    {
-      "type": "way",
       "id": 123404488,
       "timestamp": "2017-05-25T17:32:30Z",
       "version": 5,
@@ -8773,19 +8759,18 @@
     {
       "type": "way",
       "id": 156935740,
-      "timestamp": "2020-02-05T05:58:55Z",
-      "version": 9,
-      "changeset": 80567858,
-      "user": "mircozorzo",
-      "uid": 224342,
-      "nodes": [1691752824, 370765237],
+      "timestamp": "2021-08-28T19:55:01Z",
+      "version": 10,
+      "changeset": 110392728,
+      "user": "voschix",
+      "uid": 305001,
+      "nodes": [1691752824, 9044167470],
       "geometry": [
         {"lat": 45.815199, "lon": 12.2485873},
-        {"lat": 45.8185202, "lon": 12.2516595}
+        {"lat": 45.8185037, "lon": 12.2516339}
       ],
       "tags": {
         "bridge": "viaduct",
-        "cycleway": "track",
         "highway": "primary",
         "lanes": "2",
         "layer": "1",
@@ -8793,6 +8778,7 @@
         "name": "Ponte della Priula",
         "nat_ref": "SS13",
         "ref": "SS13",
+        "sedewalk": "use_sidepath",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -16072,7 +16058,7 @@
       "uid": 224342,
       "nodes": [1691752823, 1691752824],
       "geometry": [
-        {"lat": 45.8151453, "lon": 12.248549},
+        {"lat": 45.8151528, "lon": 12.2485423},
         {"lat": 45.815199, "lon": 12.2485873}
       ],
       "tags": {
@@ -42761,16 +42747,15 @@
     {
       "type": "way",
       "id": 596114467,
-      "timestamp": "2020-12-08T22:51:04Z",
-      "version": 5,
-      "changeset": 95514422,
-      "user": "ivanbranco",
-      "uid": 11220113,
-      "nodes": [370765237, 30972329],
+      "timestamp": "2021-08-28T19:55:01Z",
+      "version": 6,
+      "changeset": 110392728,
+      "user": "voschix",
+      "uid": 305001,
+      "nodes": [370765237, 1435398846],
       "geometry": [
-        {"lat": 45.8185202, "lon": 12.2516595},
-        {"lat": 45.8187744, "lon": 12.2518924},
-        {"lat": 45.8190955, "lon": 12.2521777}
+        {"lat": 45.8185324, "lon": 12.2516622},
+        {"lat": 45.8187295, "lon": 12.2518441}
       ],
       "tags": {
         "alt_name": "Via IV Novembre",
@@ -54420,6 +54405,55 @@
         "name": "Glaswandschartentrail",
         "sac_scale": "mountain_hiking",
         "source": "Bing + GPS"
+      }
+    },
+    {
+      "type": "way",
+      "id": 977415075,
+      "timestamp": "2021-08-28T19:55:01Z",
+      "version": 1,
+      "changeset": 110392728,
+      "user": "voschix",
+      "uid": 305001,
+      "nodes": [1435398846, 30972329],
+      "geometry": [
+        {"lat": 45.8187295, "lon": 12.2518441},
+        {"lat": 45.8190955, "lon": 12.2521777}
+      ],
+      "tags": {
+        "alt_name": "Via IV Novembre",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Via Quattro Novembre",
+        "nat_ref": "SS13",
+        "ref": "SS13",
+        "short_name": "Via 4 Novembre",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 977415076,
+      "timestamp": "2021-08-28T19:55:01Z",
+      "version": 1,
+      "changeset": 110392728,
+      "user": "voschix",
+      "uid": 305001,
+      "nodes": [9044167470, 370765237],
+      "geometry": [
+        {"lat": 45.8185037, "lon": 12.2516339},
+        {"lat": 45.8185324, "lon": 12.2516622}
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Ponte della Priula",
+        "nat_ref": "SS13",
+        "ref": "SS13",
+        "sidewalk": "both",
+        "surface": "asphalt"
       }
     },
     {

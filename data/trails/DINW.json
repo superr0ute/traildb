@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-24T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-28T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1770,11 +1770,11 @@
     {
       "type": "relation",
       "id": 7394090,
-      "timestamp": "2019-05-08T11:52:17Z",
-      "version": 6,
-      "changeset": 70023091,
-      "user": "Tombo",
-      "uid": 379917,
+      "timestamp": "2021-08-28T06:55:03Z",
+      "version": 7,
+      "changeset": 110367978,
+      "user": "phlustik",
+      "uid": 842813,
       "members": [
         {"type": "way", "ref": 237923498, "role": ""},
         {"type": "way", "ref": 177962515, "role": ""},
@@ -1807,8 +1807,9 @@
         "name": "Donje Bare preko Suhe i Prijevora do Trnovačkog jezera",
         "network": "lwn",
         "operator": "Via Dinarica",
+        "osmc:symbol": "red:white:red_dot",
         "ref": "BH-W-12",
-        "route": "foot",
+        "route": "hiking",
         "type": "route",
         "website": "https://trail.viadinarica.com/tour/hiking/17303012"
       }
@@ -1816,11 +1817,11 @@
     {
       "type": "relation",
       "id": 7394228,
-      "timestamp": "2021-04-07T11:40:29Z",
-      "version": 9,
-      "changeset": 102479359,
-      "user": "Badojo",
-      "uid": 8189075,
+      "timestamp": "2021-08-28T09:58:37Z",
+      "version": 10,
+      "changeset": 110373609,
+      "user": "phlustik",
+      "uid": 842813,
       "members": [
         {"type": "way", "ref": 507515908, "role": ""},
         {"type": "way", "ref": 507515910, "role": ""},
@@ -1848,6 +1849,7 @@
         "name": "Maglić do Pivske planine preko kanjona Pive",
         "network": "lwn",
         "operator": "Via Dinarica",
+        "osmc:symbol": "red:white:red_dot",
         "ref": "BH/CG-W-01",
         "route": "hiking",
         "type": "route",
@@ -9119,11 +9121,11 @@
     {
       "type": "way",
       "id": 177961918,
-      "timestamp": "2017-08-17T16:07:28Z",
-      "version": 5,
-      "changeset": 51209740,
-      "user": "michalfabik",
-      "uid": 3501362,
+      "timestamp": "2021-08-28T05:55:24Z",
+      "version": 6,
+      "changeset": 110367035,
+      "user": "phlustik",
+      "uid": 842813,
       "nodes": [1062776957, 1883605559],
       "geometry": [
         {"lat": 43.2875989, "lon": 18.7165546},
@@ -9186,16 +9188,16 @@
         {"lat": 43.2722976, "lon": 18.7199596},
         {"lat": 43.2721239, "lon": 18.7201585}
       ],
-      "tags": {"highway": "track"}
+      "tags": {"highway": "track", "tracktype": "grade3"}
     },
     {
       "type": "way",
       "id": 177961924,
-      "timestamp": "2021-08-15T15:16:36Z",
-      "version": 2,
-      "changeset": 109704799,
-      "user": "debeli75",
-      "uid": 730886,
+      "timestamp": "2021-08-28T06:10:57Z",
+      "version": 3,
+      "changeset": 110367239,
+      "user": "phlustik",
+      "uid": 842813,
       "nodes": [1883605559, 1883605591],
       "geometry": [
         {"lat": 43.2721239, "lon": 18.7201585},
@@ -9219,7 +9221,12 @@
         {"lat": 43.2701977, "lon": 18.7210278},
         {"lat": 43.2702137, "lon": 18.720904}
       ],
-      "tags": {"highway": "path"}
+      "tags": {
+        "foot": "yes",
+        "highway": "path",
+        "sac_scale": "hiking",
+        "trail_visibility": "excellent"
+      }
     },
     {
       "type": "way",
@@ -9263,9 +9270,9 @@
     {
       "type": "way",
       "id": 177992300,
-      "timestamp": "2021-08-04T20:02:37Z",
-      "version": 4,
-      "changeset": 109162950,
+      "timestamp": "2021-08-28T09:58:37Z",
+      "version": 5,
+      "changeset": 110373609,
       "user": "phlustik",
       "uid": 842813,
       "nodes": [1883854560, 1883855650],
@@ -9512,7 +9519,6 @@
         {"lat": 43.2734305, "lon": 18.7379203},
         {"lat": 43.2735831, "lon": 18.7378416},
         {"lat": 43.2736576, "lon": 18.7377668},
-        {"lat": 43.2737136, "lon": 18.7376916},
         {"lat": 43.2737849, "lon": 18.7376059},
         {"lat": 43.2738435, "lon": 18.7374923},
         {"lat": 43.2738778, "lon": 18.7374084},
@@ -9603,16 +9609,21 @@
         {"lat": 43.2811176, "lon": 18.7331474},
         {"lat": 43.2811472, "lon": 18.7331364}
       ],
-      "tags": {"highway": "path"}
+      "tags": {
+        "foot": "yes",
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "trail_visibility": "good"
+      }
     },
     {
       "type": "way",
       "id": 177999425,
-      "timestamp": "2018-06-23T08:58:02Z",
-      "version": 2,
-      "changeset": 60095614,
-      "user": "Václav Fanta",
-      "uid": 4846445,
+      "timestamp": "2021-08-28T10:01:50Z",
+      "version": 3,
+      "changeset": 110373730,
+      "user": "phlustik",
+      "uid": 842813,
       "nodes": [1883854919, 1883888718],
       "geometry": [
         {"lat": 43.2596052, "lon": 18.7375542},
@@ -9631,7 +9642,12 @@
         {"lat": 43.2578576, "lon": 18.7398683},
         {"lat": 43.2576653, "lon": 18.7401557}
       ],
-      "tags": {"highway": "path"}
+      "tags": {
+        "foot": "yes",
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "trail_visibility": "good"
+      }
     },
     {
       "type": "way",
@@ -18502,11 +18518,11 @@
     {
       "type": "way",
       "id": 237923498,
-      "timestamp": "2017-08-14T08:31:38Z",
-      "version": 2,
-      "changeset": 51102737,
-      "user": "Dieter C",
-      "uid": 567220,
+      "timestamp": "2021-08-28T06:23:39Z",
+      "version": 3,
+      "changeset": 110367402,
+      "user": "phlustik",
+      "uid": 842813,
       "nodes": [1883610933, 5033975518],
       "geometry": [
         {"lat": 43.2625323, "lon": 18.7220032},
@@ -18528,7 +18544,7 @@
         {"lat": 43.2531717, "lon": 18.7209169},
         {"lat": 43.2530276, "lon": 18.7210617}
       ],
-      "tags": {"highway": "path", "sac_scale": "hiking"}
+      "tags": {"foot": "yes", "highway": "path", "sac_scale": "hiking"}
     },
     {
       "type": "way",
@@ -43215,11 +43231,11 @@
     {
       "type": "way",
       "id": 507515914,
-      "timestamp": "2018-08-14T10:30:22Z",
-      "version": 2,
-      "changeset": 61653140,
-      "user": "ejirkae",
-      "uid": 8687294,
+      "timestamp": "2021-08-28T10:01:50Z",
+      "version": 3,
+      "changeset": 110373730,
+      "user": "phlustik",
+      "uid": 842813,
       "nodes": [1883888718, 4970003702],
       "geometry": [
         {"lat": 43.2576653, "lon": 18.7401557},
@@ -43624,7 +43640,12 @@
         {"lat": 43.2658157, "lon": 18.7841025},
         {"lat": 43.2658684, "lon": 18.7842017}
       ],
-      "tags": {"highway": "path"}
+      "tags": {
+        "foot": "yes",
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "trail_visibility": "good"
+      }
     },
     {
       "type": "way",

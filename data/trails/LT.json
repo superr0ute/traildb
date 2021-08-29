@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-25T02:26:14Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-29T02:33:40Z"},
   "elements": [
     {
       "type": "relation",
       "id": 391736,
-      "timestamp": "2021-08-12T02:34:36Z",
-      "version": 143,
-      "changeset": 109542881,
-      "user": "dchiles",
-      "uid": 153669,
+      "timestamp": "2021-08-28T21:29:28Z",
+      "version": 144,
+      "changeset": 110394691,
+      "user": "BobTheBlob",
+      "uid": 10577056,
       "members": [
         {"type": "way", "ref": 48775456, "role": ""},
         {"type": "way", "ref": 19672747, "role": ""},
@@ -95,6 +95,8 @@
         {"type": "way", "ref": 152429912, "role": ""},
         {"type": "way", "ref": 539443480, "role": ""},
         {"type": "way", "ref": 539443498, "role": ""},
+        {"type": "way", "ref": 977426625, "role": ""},
+        {"type": "way", "ref": 977426624, "role": ""},
         {"type": "way", "ref": 968518042, "role": ""},
         {"type": "way", "ref": 968518041, "role": ""},
         {"type": "way", "ref": 19698990, "role": ""},
@@ -14350,12 +14352,12 @@
     {
       "type": "way",
       "id": 539443498,
-      "timestamp": "2021-07-29T15:13:46Z",
-      "version": 2,
-      "changeset": 108833865,
-      "user": "A Hall",
-      "uid": 936117,
-      "nodes": [618943593, 618943675],
+      "timestamp": "2021-08-28T21:29:28Z",
+      "version": 3,
+      "changeset": 110394691,
+      "user": "BobTheBlob",
+      "uid": 10577056,
+      "nodes": [618943593, 9044274260],
       "geometry": [
         {"lat": 44.5788878, "lon": -72.7409422, "z": 943.1},
         {"lat": 44.579072, "lon": -72.740979, "z": 953.2},
@@ -14626,17 +14628,7 @@
         {"lat": 44.620369, "lon": -72.722101, "z": 350.3},
         {"lat": 44.620637, "lon": -72.722387, "z": 346.1},
         {"lat": 44.620796, "lon": -72.722671, "z": 343},
-        {"lat": 44.620926, "lon": -72.722861, "z": 341.1},
-        {"lat": 44.621069, "lon": -72.722907, "z": 339.9},
-        {"lat": 44.621146, "lon": -72.722886, "z": 339.6},
-        {"lat": 44.621303, "lon": -72.722791, "z": 338.8},
-        {"lat": 44.621556, "lon": -72.722738, "z": 337.5},
-        {"lat": 44.621677, "lon": -72.722659, "z": 336.9},
-        {"lat": 44.621859, "lon": -72.722499, "z": 335.7},
-        {"lat": 44.622028, "lon": -72.722391, "z": 334.6},
-        {"lat": 44.622155, "lon": -72.722255, "z": 333.7},
-        {"lat": 44.622379, "lon": -72.721957, "z": 333.2},
-        {"lat": 44.62244, "lon": -72.721849, "z": 333.4}
+        {"lat": 44.6208663, "lon": -72.7227737, "z": 341.9}
       ],
       "tags": {
         "bicycle": "no",
@@ -20350,6 +20342,65 @@
         "motor_vehicle": "no",
         "name": "Long Trail + Appalachian Trail",
         "operator": "Green Mountain Club",
+        "surface": "dirt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 977426624,
+      "timestamp": "2021-08-28T21:29:28Z",
+      "version": 1,
+      "changeset": 110394691,
+      "user": "BobTheBlob",
+      "uid": 10577056,
+      "nodes": [618943672, 618943675],
+      "geometry": [
+        {"lat": 44.620926, "lon": -72.722861, "z": 341.1},
+        {"lat": 44.621069, "lon": -72.722907, "z": 339.9},
+        {"lat": 44.621146, "lon": -72.722886, "z": 339.6},
+        {"lat": 44.621303, "lon": -72.722791, "z": 338.8},
+        {"lat": 44.621556, "lon": -72.722738, "z": 337.5},
+        {"lat": 44.621677, "lon": -72.722659, "z": 336.9},
+        {"lat": 44.621859, "lon": -72.722499, "z": 335.7},
+        {"lat": 44.622028, "lon": -72.722391, "z": 334.6},
+        {"lat": 44.622155, "lon": -72.722255, "z": 333.7},
+        {"lat": 44.622379, "lon": -72.721957, "z": 333.2},
+        {"lat": 44.62244, "lon": -72.721849, "z": 333.4}
+      ],
+      "tags": {
+        "bicycle": "no",
+        "highway": "path",
+        "horse": "no",
+        "motor_vehicle": "no",
+        "name": "Long Trail",
+        "operator": "Green Mountain Club",
+        "source": "knowledge, Yahoo",
+        "surface": "dirt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 977426625,
+      "timestamp": "2021-08-28T21:29:28Z",
+      "version": 1,
+      "changeset": 110394691,
+      "user": "BobTheBlob",
+      "uid": 10577056,
+      "nodes": [9044274260, 618943672],
+      "geometry": [
+        {"lat": 44.6208663, "lon": -72.7227737, "z": 341.9},
+        {"lat": 44.620926, "lon": -72.722861, "z": 341.1}
+      ],
+      "tags": {
+        "bicycle": "no",
+        "bridge": "yes",
+        "highway": "path",
+        "horse": "no",
+        "layer": "1",
+        "motor_vehicle": "no",
+        "name": "Long Trail",
+        "operator": "Green Mountain Club",
+        "source": "knowledge, Yahoo",
         "surface": "dirt"
       }
     }
