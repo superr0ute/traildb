@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-08-27T23:59:59Z",
-    "timestamp_osm_base": "2021-08-28T05:11:14Z",
+    "timestamp_osm_date": "2021-08-28T23:59:59Z",
+    "timestamp_osm_base": "2021-08-29T05:17:23Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -14533,17 +14533,26 @@
     {
       "type": "node",
       "id": 4840109269,
-      "lat": 48.84183,
-      "lon": 19.6012491,
-      "timestamp": "2018-02-02T12:29:51Z",
-      "version": 3,
-      "changeset": 55994612,
-      "user": "Jose Riha",
-      "uid": 29762,
+      "lat": 48.8418273,
+      "lon": 19.6012257,
+      "timestamp": "2021-08-28T13:12:58Z",
+      "version": 4,
+      "changeset": 110380010,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
-        "name": "Coop",
-        "opening_hours": "Mo off; Tu-Fr 07:00-17:00; Sa 07:00-11:30",
-        "shop": "convenience"
+        "addr:city": "Bystrá",
+        "addr:housenumber": "51",
+        "addr:place": "Bystrá",
+        "addr:postcode": "97701",
+        "brand": "COOP Jednota",
+        "brand:wikidata": "Q41629254",
+        "brand:wikipedia": "sk:COOP Jednota Slovensko",
+        "name": "COOP Jednota",
+        "opening_hours": "Mo-Fr 07:00-11:30,12:00-18:00; Sa 07:00-13:00",
+        "phone": "+421482853085",
+        "shop": "convenience",
+        "website": "https://www.coop.sk/"
       }
     },
     {
@@ -26771,6 +26780,48 @@
         "amenity": "shelter",
         "name": "Lesnícka búda",
         "shelter_type": "weather_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 977346305,
+      "timestamp": "2021-08-28T13:12:58Z",
+      "version": 1,
+      "changeset": 110380010,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 48.8411356,
+        "lon": 19.5962199
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "lit": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 977346312,
+      "timestamp": "2021-08-28T13:12:58Z",
+      "version": 1,
+      "changeset": 110380010,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 48.8443769,
+        "lon": 19.6063726
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "lit": "yes",
+        "shelter_type": "public_transport"
       }
     }
   ]
