@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-22T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-29T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -20421,9 +20421,9 @@
         {"lat": 45.8361793, "lon": 9.0674787}
       ],
       "tags": {
+        "surface": "asphalt",
         "highway": "primary",
-        "junction": "roundabout",
-        "surface": "asphalt"
+        "junction": "roundabout"
       }
     },
     {
@@ -35169,11 +35169,11 @@
     {
       "type": "way",
       "id": 28085713,
-      "timestamp": "2021-04-03T17:58:11Z",
-      "version": 13,
-      "changeset": 102246526,
-      "user": "gemsquash",
-      "uid": 503169,
+      "timestamp": "2021-08-29T18:35:34Z",
+      "version": 15,
+      "changeset": 110423749,
+      "user": "Soundswagger_53",
+      "uid": 12924817,
       "nodes": [270517085, 270517097],
       "geometry": [
         {"lat": 46.1703592, "lon": 9.3055685},
@@ -35197,7 +35197,13 @@
         {"lat": 46.1734185, "lon": 9.3103265},
         {"lat": 46.1736069, "lon": 9.3104856}
       ],
-      "tags": {"bicycle": "yes", "foot": "yes", "highway": "unclassified"}
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -62232,9 +62238,9 @@
     {
       "type": "way",
       "id": 442572285,
-      "timestamp": "2018-09-10T06:25:23Z",
-      "version": 5,
-      "changeset": 62441577,
+      "timestamp": "2021-08-29T13:59:01Z",
+      "version": 6,
+      "changeset": 110414033,
       "user": "Martin Borsje",
       "uid": 99810,
       "nodes": [2267447740, 298246821],
@@ -62286,7 +62292,7 @@
       "tags": {
         "foot": "yes",
         "highway": "cycleway",
-        "smoothness": "intermediate",
+        "smoothness": "good",
         "source": "bing",
         "surface": "asphalt"
       }
@@ -72019,7 +72025,7 @@
       "uid": 99810,
       "nodes": [4267717542, 2401350748],
       "geometry": [
-        {"lat": 46.2097666, "lon": 9.4543318},
+        {"lat": 46.2097685, "lon": 9.454313},
         {"lat": 46.2096875, "lon": 9.4551332}
       ],
       "tags": {"foot": "yes", "highway": "cycleway", "width": "2"}
@@ -72036,8 +72042,8 @@
       "geometry": [
         {"lat": 46.2098885, "lon": 9.4529636},
         {"lat": 46.2098298, "lon": 9.4533309},
-        {"lat": 46.2097813, "lon": 9.4541825},
-        {"lat": 46.2097666, "lon": 9.4543318}
+        {"lat": 46.2097729, "lon": 9.4541731},
+        {"lat": 46.2097685, "lon": 9.454313}
       ],
       "tags": {"foot": "yes", "highway": "cycleway", "width": "2"}
     },
