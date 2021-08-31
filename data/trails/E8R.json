@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-28T02:28:40Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-31T02:27:43Z"},
   "elements": [
     {
       "type": "relation",
       "id": 9933591,
-      "timestamp": "2021-08-27T19:35:36Z",
-      "version": 74,
-      "changeset": 110356818,
-      "user": "PaulAmosKreiner",
-      "uid": 13869098,
+      "timestamp": "2021-08-30T13:59:10Z",
+      "version": 75,
+      "changeset": 110463830,
+      "user": "Buraddo",
+      "uid": 2287200,
       "members": [
         {"type": "way", "ref": 456209234, "role": ""},
         {"type": "way", "ref": 456209236, "role": ""},
@@ -1169,9 +1169,7 @@
         {"type": "way", "ref": 152310261, "role": ""},
         {"type": "way", "ref": 151480621, "role": ""},
         {"type": "way", "ref": 151492188, "role": ""},
-        {"type": "way", "ref": 151492187, "role": ""},
         {"type": "way", "ref": 696859519, "role": ""},
-        {"type": "way", "ref": 697070382, "role": ""},
         {"type": "way", "ref": 151480619, "role": ""},
         {"type": "way", "ref": 697070383, "role": ""},
         {"type": "way", "ref": 484336593, "role": ""},
@@ -4492,7 +4490,7 @@
       "uid": 461574,
       "nodes": [286683318, 281195320],
       "geometry": [
-        {"lat": 45.3580875, "lon": 22.8765549, "z": 2033.5},
+        {"lat": 45.3581141, "lon": 22.8765353, "z": 2033.3},
         {"lat": 45.3580322, "lon": 22.8765512, "z": 2033.4},
         {"lat": 45.357975, "lon": 22.8765473, "z": 2033.2},
         {"lat": 45.3577307, "lon": 22.8767209, "z": 2034.8},
@@ -4534,11 +4532,11 @@
     {
       "type": "way",
       "id": 151480621,
-      "timestamp": "2020-06-21T18:15:59Z",
-      "version": 5,
-      "changeset": 86942590,
-      "user": "H@jo",
-      "uid": 87038,
+      "timestamp": "2021-08-30T14:08:21Z",
+      "version": 6,
+      "changeset": 110464248,
+      "user": "Buraddo",
+      "uid": 2287200,
       "nodes": [286683358, 286682565],
       "geometry": [
         {"lat": 45.366956, "lon": 22.8736592, "z": 2181.8},
@@ -4603,46 +4601,20 @@
         {"lat": 45.3614036, "lon": 22.8707555, "z": 2077.1},
         {"lat": 45.3613723, "lon": 22.8708155, "z": 2076.1}
       ],
-      "tags": {"highway": "path", "sac_scale": "mountain_hiking"}
-    },
-    {
-      "type": "way",
-      "id": 151492187,
-      "timestamp": "2020-06-21T18:15:59Z",
-      "version": 7,
-      "changeset": 86942590,
-      "user": "H@jo",
-      "uid": 87038,
-      "nodes": [6541544901, 286682581],
-      "geometry": [
-        {"lat": 45.3591313, "lon": 22.8725977, "z": 2041.6},
-        {"lat": 45.3589579, "lon": 22.8727251, "z": 2036},
-        {"lat": 45.3588256, "lon": 22.8729061, "z": 2031.9},
-        {"lat": 45.3587402, "lon": 22.8729759, "z": 2030},
-        {"lat": 45.3586772, "lon": 22.873092, "z": 2028.6},
-        {"lat": 45.3586195, "lon": 22.8731365, "z": 2027.7},
-        {"lat": 45.3585282, "lon": 22.873165, "z": 2026.5},
-        {"lat": 45.3584594, "lon": 22.8732951, "z": 2025.2},
-        {"lat": 45.3583255, "lon": 22.873456, "z": 2023.6},
-        {"lat": 45.3583142, "lon": 22.8735673, "z": 2023.4},
-        {"lat": 45.3582605, "lon": 22.873684, "z": 2023.1},
-        {"lat": 45.3582662, "lon": 22.873735, "z": 2023.1},
-        {"lat": 45.3580685, "lon": 22.8741924, "z": 2022},
-        {"lat": 45.3579741, "lon": 22.874465, "z": 2021.5},
-        {"lat": 45.3579507, "lon": 22.8746423, "z": 2021.4},
-        {"lat": 45.3579402, "lon": 22.87471, "z": 2021.3},
-        {"lat": 45.3579244, "lon": 22.8748556, "z": 2021.3}
-      ],
-      "tags": {"highway": "path", "sac_scale": "mountain_hiking"}
+      "tags": {
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "trail_visibility": "excellent"
+      }
     },
     {
       "type": "way",
       "id": 151492188,
-      "timestamp": "2019-06-13T11:26:00Z",
-      "version": 4,
-      "changeset": 71214463,
-      "user": "MuntiiNostri",
-      "uid": 9554626,
+      "timestamp": "2021-08-30T14:08:21Z",
+      "version": 5,
+      "changeset": 110464248,
+      "user": "Buraddo",
+      "uid": 2287200,
       "nodes": [286682565, 6541544901],
       "geometry": [
         {"lat": 45.3613723, "lon": 22.8708155, "z": 2076.1},
@@ -4658,7 +4630,11 @@
         {"lat": 45.3593989, "lon": 22.8724636, "z": 2048},
         {"lat": 45.3591313, "lon": 22.8725977, "z": 2041.6}
       ],
-      "tags": {"highway": "path", "sac_scale": "mountain_hiking"}
+      "tags": {
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "trail_visibility": "excellent"
+      }
     },
     {
       "type": "way",
@@ -4705,11 +4681,11 @@
     {
       "type": "way",
       "id": 152310257,
-      "timestamp": "2017-06-21T07:37:59Z",
-      "version": 5,
-      "changeset": 49712730,
-      "user": "Martin Hering",
-      "uid": 41931,
+      "timestamp": "2021-08-30T13:08:40Z",
+      "version": 6,
+      "changeset": 110461213,
+      "user": "Buraddo",
+      "uid": 2287200,
       "nodes": [286683150, 595186291],
       "geometry": [
         {"lat": 45.4311218, "lon": 22.8952991, "z": 1047.2},
@@ -4726,9 +4702,9 @@
         {"lat": 45.4321455, "lon": 22.895174, "z": 1031.5}
       ],
       "tags": {
-        "access": "no",
         "foot": "yes",
         "highway": "track",
+        "motor_vehicle": "no",
         "ref": "DJ667A",
         "smoothness": "horrible",
         "surface": "unpaved"
@@ -4737,11 +4713,11 @@
     {
       "type": "way",
       "id": 152310261,
-      "timestamp": "2019-06-12T06:02:24Z",
-      "version": 5,
-      "changeset": 71166122,
-      "user": "MuntiiNostri",
-      "uid": 9554626,
+      "timestamp": "2021-08-30T14:08:21Z",
+      "version": 6,
+      "changeset": 110464248,
+      "user": "Buraddo",
+      "uid": 2287200,
       "nodes": [286682506, 286683358],
       "geometry": [
         {"lat": 45.3731721, "lon": 22.8739673, "z": 2015.9},
@@ -4820,7 +4796,11 @@
         {"lat": 45.3670236, "lon": 22.8735438, "z": 2179.3},
         {"lat": 45.366956, "lon": 22.8736592, "z": 2181.8}
       ],
-      "tags": {"highway": "path", "sac_scale": "mountain_hiking"}
+      "tags": {
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "trail_visibility": "excellent"
+      }
     },
     {
       "type": "way",
@@ -23200,11 +23180,11 @@
     {
       "type": "way",
       "id": 357253573,
-      "timestamp": "2017-06-21T07:37:57Z",
-      "version": 3,
-      "changeset": 49712730,
-      "user": "Martin Hering",
-      "uid": 41931,
+      "timestamp": "2021-08-30T13:08:40Z",
+      "version": 4,
+      "changeset": 110461213,
+      "user": "Buraddo",
+      "uid": 2287200,
       "nodes": [286682288, 597597252],
       "geometry": [
         {"lat": 45.4081067, "lon": 22.885102, "z": 1389.7},
@@ -23285,10 +23265,10 @@
         {"lat": 45.4075783, "lon": 22.8818521, "z": 1473.9}
       ],
       "tags": {
-        "access": "no",
         "foot": "yes",
         "highway": "track",
         "maxspeed": "30",
+        "motor_vehicle": "no",
         "oneway": "no",
         "ref": "DJ667A",
         "smoothness": "very_horrible",
@@ -23298,35 +23278,41 @@
     {
       "type": "way",
       "id": 357253580,
-      "timestamp": "2016-08-17T08:56:22Z",
-      "version": 2,
-      "changeset": 41507560,
-      "user": "mihaiov",
-      "uid": 4096402,
+      "timestamp": "2021-08-30T14:08:21Z",
+      "version": 3,
+      "changeset": 110464248,
+      "user": "Buraddo",
+      "uid": 2287200,
       "nodes": [286682932, 286682426],
       "geometry": [
-        {"lat": 45.3890994, "lon": 22.8808671, "z": 1718.6},
-        {"lat": 45.3890543, "lon": 22.8809473, "z": 1719.7}
+        {"lat": 45.389076, "lon": 22.880856, "z": 1718.8},
+        {"lat": 45.3890886, "lon": 22.8809517, "z": 1719.3}
       ],
       "tags": {
         "bridge": "yes",
         "highway": "path",
         "layer": "1",
-        "sac_scale": "mountain_hiking"
+        "sac_scale": "mountain_hiking",
+        "trail_visibility": "excellent"
       }
     },
     {
       "type": "way",
       "id": 357253590,
-      "timestamp": "2019-06-12T06:02:24Z",
-      "version": 3,
-      "changeset": 71166122,
-      "user": "MuntiiNostri",
-      "uid": 9554626,
+      "timestamp": "2021-08-30T14:08:21Z",
+      "version": 5,
+      "changeset": 110464248,
+      "user": "Buraddo",
+      "uid": 2287200,
       "nodes": [286682426, 286682506],
       "geometry": [
-        {"lat": 45.3890543, "lon": 22.8809473, "z": 1719.7},
-        {"lat": 45.3889884, "lon": 22.8809882, "z": 1721.6},
+        {"lat": 45.3890886, "lon": 22.8809517, "z": 1719.3},
+        {"lat": 45.3891145, "lon": 22.88098, "z": 1719.1},
+        {"lat": 45.3891371, "lon": 22.8810255, "z": 1719},
+        {"lat": 45.3891168, "lon": 22.8810788, "z": 1719.6},
+        {"lat": 45.389084, "lon": 22.8810833, "z": 1720.2},
+        {"lat": 45.389059, "lon": 22.8810295, "z": 1720.2},
+        {"lat": 45.3890056, "lon": 22.8809727, "z": 1721},
         {"lat": 45.3888692, "lon": 22.8809507, "z": 1724.2},
         {"lat": 45.388711, "lon": 22.8808574, "z": 1727.4},
         {"lat": 45.3884892, "lon": 22.8808226, "z": 1732.7},
@@ -23450,7 +23436,11 @@
         {"lat": 45.3732722, "lon": 22.8738992, "z": 2014.2},
         {"lat": 45.3731721, "lon": 22.8739673, "z": 2015.9}
       ],
-      "tags": {"highway": "path", "sac_scale": "mountain_hiking"}
+      "tags": {
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "trail_visibility": "excellent"
+      }
     },
     {
       "type": "way",
@@ -23570,9 +23560,9 @@
     {
       "type": "way",
       "id": 360794131,
-      "timestamp": "2021-06-22T17:12:18Z",
-      "version": 7,
-      "changeset": 106790887,
+      "timestamp": "2021-08-30T11:59:32Z",
+      "version": 8,
+      "changeset": 110457658,
       "user": "Buraddo",
       "uid": 2287200,
       "nodes": [286682734, 595186291],
@@ -23643,6 +23633,7 @@
         {"lat": 45.4355488, "lon": 22.8926437, "z": 1008.2},
         {"lat": 45.4351366, "lon": 22.892692, "z": 1011},
         {"lat": 45.4346103, "lon": 22.8927031, "z": 1014.8},
+        {"lat": 45.4344996, "lon": 22.89272, "z": 1015.6},
         {"lat": 45.4344546, "lon": 22.8927269, "z": 1015.9},
         {"lat": 45.4343846, "lon": 22.8927988, "z": 1015.5},
         {"lat": 45.4343269, "lon": 22.8929586, "z": 1014},
@@ -30723,11 +30714,11 @@
     {
       "type": "way",
       "id": 46521749,
-      "timestamp": "2017-06-21T07:37:58Z",
-      "version": 9,
-      "changeset": 49712730,
-      "user": "Martin Hering",
-      "uid": 41931,
+      "timestamp": "2021-08-30T13:08:40Z",
+      "version": 10,
+      "changeset": 110461213,
+      "user": "Buraddo",
+      "uid": 2287200,
       "nodes": [286682186, 286682207],
       "geometry": [
         {"lat": 45.4304442, "lon": 22.8946822, "z": 1082.2},
@@ -30794,10 +30785,10 @@
         {"lat": 45.4238407, "lon": 22.8931157, "z": 1153.2}
       ],
       "tags": {
-        "access": "no",
         "foot": "yes",
         "highway": "track",
         "maxspeed": "30",
+        "motor_vehicle": "no",
         "oneway": "no",
         "ref": "DJ667A",
         "smoothness": "horrible",
@@ -30807,11 +30798,11 @@
     {
       "type": "way",
       "id": 46521815,
-      "timestamp": "2017-06-21T07:37:58Z",
-      "version": 8,
-      "changeset": 49712730,
-      "user": "Martin Hering",
-      "uid": 41931,
+      "timestamp": "2021-08-30T13:08:40Z",
+      "version": 9,
+      "changeset": 110461213,
+      "user": "Buraddo",
+      "uid": 2287200,
       "nodes": [286682186, 286683150],
       "geometry": [
         {"lat": 45.4304442, "lon": 22.8946822, "z": 1082.2},
@@ -30841,10 +30832,10 @@
         {"lat": 45.4311218, "lon": 22.8952991, "z": 1047.2}
       ],
       "tags": {
-        "access": "no",
         "foot": "yes",
         "highway": "track",
         "maxspeed": "30",
+        "motor_vehicle": "no",
         "oneway": "no",
         "ref": "DJ667A",
         "smoothness": "horrible",
@@ -30854,11 +30845,11 @@
     {
       "type": "way",
       "id": 46757256,
-      "timestamp": "2019-06-13T05:50:38Z",
-      "version": 14,
-      "changeset": 71203347,
-      "user": "MuntiiNostri",
-      "uid": 9554626,
+      "timestamp": "2021-08-30T13:08:40Z",
+      "version": 15,
+      "changeset": 110461213,
+      "user": "Buraddo",
+      "uid": 2287200,
       "nodes": [286682207, 286682288],
       "geometry": [
         {"lat": 45.4238407, "lon": 22.8931157, "z": 1153.2},
@@ -31027,10 +31018,10 @@
         {"lat": 45.4081067, "lon": 22.885102, "z": 1389.7}
       ],
       "tags": {
-        "access": "no",
         "foot": "yes",
         "highway": "track",
         "maxspeed": "30",
+        "motor_vehicle": "no",
         "oneway": "no",
         "ref": "DJ667A",
         "smoothness": "very_horrible",
@@ -31071,11 +31062,11 @@
     {
       "type": "way",
       "id": 46759855,
-      "timestamp": "2017-06-21T07:37:57Z",
-      "version": 6,
-      "changeset": 49712730,
-      "user": "Martin Hering",
-      "uid": 41931,
+      "timestamp": "2021-08-30T13:08:40Z",
+      "version": 7,
+      "changeset": 110461213,
+      "user": "Buraddo",
+      "uid": 2287200,
       "nodes": [597597252, 597611912],
       "geometry": [
         {"lat": 45.4075783, "lon": 22.8818521, "z": 1473.9},
@@ -31101,10 +31092,10 @@
         {"lat": 45.4067196, "lon": 22.880224, "z": 1485.4}
       ],
       "tags": {
-        "access": "no",
         "foot": "yes",
         "highway": "track",
         "maxspeed": "30",
+        "motor_vehicle": "no",
         "oneway": "no",
         "ref": "DJ667A",
         "smoothness": "very_horrible",
@@ -42689,11 +42680,11 @@
     {
       "type": "way",
       "id": 696679345,
-      "timestamp": "2019-06-12T13:29:26Z",
-      "version": 1,
-      "changeset": 71180873,
-      "user": "MuntiiNostri",
-      "uid": 9554626,
+      "timestamp": "2021-08-30T14:08:21Z",
+      "version": 2,
+      "changeset": 110464248,
+      "user": "Buraddo",
+      "uid": 2287200,
       "nodes": [286682404, 286682932],
       "geometry": [
         {"lat": 45.3928317, "lon": 22.880379, "z": 1676.5},
@@ -42726,19 +42717,23 @@
         {"lat": 45.3891304, "lon": 22.8804679, "z": 1719.7},
         {"lat": 45.3891405, "lon": 22.8805665, "z": 1718.7},
         {"lat": 45.3891617, "lon": 22.8807094, "z": 1717.2},
-        {"lat": 45.3891749, "lon": 22.8808428, "z": 1717.3},
-        {"lat": 45.3890994, "lon": 22.8808671, "z": 1718.6}
+        {"lat": 45.389139, "lon": 22.8808028, "z": 1717.6},
+        {"lat": 45.389076, "lon": 22.880856, "z": 1718.8}
       ],
-      "tags": {"highway": "path", "sac_scale": "hiking"}
+      "tags": {
+        "highway": "path",
+        "sac_scale": "hiking",
+        "trail_visibility": "excellent"
+      }
     },
     {
       "type": "way",
       "id": 696679346,
-      "timestamp": "2019-06-12T13:29:26Z",
-      "version": 1,
-      "changeset": 71180873,
-      "user": "MuntiiNostri",
-      "uid": 9554626,
+      "timestamp": "2021-08-30T14:08:21Z",
+      "version": 2,
+      "changeset": 110464248,
+      "user": "Buraddo",
+      "uid": 2287200,
       "nodes": [1890106769, 286682404],
       "geometry": [
         {"lat": 45.3948483, "lon": 22.8816669, "z": 1649.8},
@@ -42755,16 +42750,20 @@
         {"lat": 45.3929407, "lon": 22.8804968, "z": 1675.1},
         {"lat": 45.3928317, "lon": 22.880379, "z": 1676.5}
       ],
-      "tags": {"highway": "path", "sac_scale": "hiking"}
+      "tags": {
+        "highway": "path",
+        "sac_scale": "hiking",
+        "trail_visibility": "excellent"
+      }
     },
     {
       "type": "way",
       "id": 696818516,
-      "timestamp": "2019-06-13T05:50:38Z",
-      "version": 1,
-      "changeset": 71203347,
-      "user": "MuntiiNostri",
-      "uid": 9554626,
+      "timestamp": "2021-08-30T14:08:21Z",
+      "version": 2,
+      "changeset": 110464248,
+      "user": "Buraddo",
+      "uid": 2287200,
       "nodes": [286683069, 1890106769],
       "geometry": [
         {"lat": 45.3992365, "lon": 22.8817879, "z": 1557.5},
@@ -42794,7 +42793,11 @@
         {"lat": 45.3949479, "lon": 22.8815589, "z": 1647.9},
         {"lat": 45.3948483, "lon": 22.8816669, "z": 1649.8}
       ],
-      "tags": {"highway": "path", "sac_scale": "hiking"}
+      "tags": {
+        "highway": "path",
+        "sac_scale": "hiking",
+        "trail_visibility": "excellent"
+      }
     },
     {
       "type": "way",
@@ -42970,19 +42973,41 @@
     {
       "type": "way",
       "id": 696859519,
-      "timestamp": "2019-06-14T05:53:58Z",
-      "version": 2,
-      "changeset": 71240133,
-      "user": "MuntiiNostri",
-      "uid": 9554626,
-      "nodes": [286682581, 1642965852],
+      "timestamp": "2021-08-30T14:08:21Z",
+      "version": 4,
+      "changeset": 110464248,
+      "user": "Buraddo",
+      "uid": 2287200,
+      "nodes": [6541544901, 286683318],
       "geometry": [
-        {"lat": 45.3579244, "lon": 22.8748556, "z": 2021.3},
-        {"lat": 45.3579386, "lon": 22.8751086, "z": 2021.3},
-        {"lat": 45.3579656, "lon": 22.8753937, "z": 2022.2},
-        {"lat": 45.3579925, "lon": 22.8756787, "z": 2023.8}
+        {"lat": 45.3591313, "lon": 22.8725977, "z": 2041.6},
+        {"lat": 45.3589579, "lon": 22.8727251, "z": 2036},
+        {"lat": 45.3588256, "lon": 22.8729061, "z": 2031.9},
+        {"lat": 45.3587402, "lon": 22.8729759, "z": 2030},
+        {"lat": 45.3586772, "lon": 22.873092, "z": 2028.6},
+        {"lat": 45.3586195, "lon": 22.8731365, "z": 2027.7},
+        {"lat": 45.3585282, "lon": 22.873165, "z": 2026.5},
+        {"lat": 45.3584594, "lon": 22.8732951, "z": 2025.2},
+        {"lat": 45.3583255, "lon": 22.873456, "z": 2023.6},
+        {"lat": 45.3583142, "lon": 22.8735673, "z": 2023.4},
+        {"lat": 45.3582605, "lon": 22.873684, "z": 2023.1},
+        {"lat": 45.3582662, "lon": 22.873735, "z": 2023.1},
+        {"lat": 45.3580685, "lon": 22.8741924, "z": 2022},
+        {"lat": 45.3579741, "lon": 22.874465, "z": 2021.5},
+        {"lat": 45.3579507, "lon": 22.8746423, "z": 2021.4},
+        {"lat": 45.3579402, "lon": 22.87471, "z": 2021.3},
+        {"lat": 45.3579431, "lon": 22.8748528, "z": 2021.3},
+        {"lat": 45.3579819, "lon": 22.8750806, "z": 2021.5},
+        {"lat": 45.3580198, "lon": 22.8753881, "z": 2022.2},
+        {"lat": 45.3579846, "lon": 22.8756983, "z": 2023.9},
+        {"lat": 45.3580413, "lon": 22.8760521, "z": 2026.7},
+        {"lat": 45.3581141, "lon": 22.8765353, "z": 2033.3}
       ],
-      "tags": {"highway": "path", "sac_scale": "mountain_hiking"}
+      "tags": {
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "trail_visibility": "excellent"
+      }
     },
     {
       "type": "way",
@@ -43055,22 +43080,6 @@
         {"lat": 45.33857, "lon": 22.89416, "z": 1603.1},
         {"lat": 45.3385, "lon": 22.89406, "z": 1602.6},
         {"lat": 45.33836, "lon": 22.8940305, "z": 1601.9}
-      ],
-      "tags": {"highway": "path", "sac_scale": "mountain_hiking"}
-    },
-    {
-      "type": "way",
-      "id": 697070382,
-      "timestamp": "2019-06-14T05:53:58Z",
-      "version": 1,
-      "changeset": 71240133,
-      "user": "MuntiiNostri",
-      "uid": 9554626,
-      "nodes": [1642965852, 286683318],
-      "geometry": [
-        {"lat": 45.3579925, "lon": 22.8756787, "z": 2023.8},
-        {"lat": 45.3580413, "lon": 22.8760521, "z": 2026.7},
-        {"lat": 45.3580875, "lon": 22.8765549, "z": 2033.5}
       ],
       "tags": {"highway": "path", "sac_scale": "mountain_hiking"}
     },

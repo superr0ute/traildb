@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-29T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-30T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2157,11 +2157,11 @@
     {
       "type": "relation",
       "id": 7700286,
-      "timestamp": "2021-07-26T09:54:22Z",
-      "version": 19,
-      "changeset": 108612307,
-      "user": "LorenzoBassi_SICAI_Team",
-      "uid": 3286661,
+      "timestamp": "2021-08-30T19:56:28Z",
+      "version": 20,
+      "changeset": 110478253,
+      "user": "Osmwithspace",
+      "uid": 8770388,
       "members": [
         {"type": "way", "ref": 967507741, "role": ""},
         {"type": "way", "ref": 537357594, "role": ""},
@@ -2174,6 +2174,7 @@
         {"type": "way", "ref": 715081056, "role": ""},
         {"type": "way", "ref": 28026829, "role": ""},
         {"type": "way", "ref": 28085716, "role": ""},
+        {"type": "way", "ref": 977965174, "role": ""},
         {"type": "way", "ref": 28085713, "role": ""},
         {"type": "way", "ref": 28026683, "role": ""},
         {"type": "way", "ref": 178457210, "role": ""},
@@ -20410,20 +20411,21 @@
     {
       "type": "way",
       "id": 192907126,
-      "timestamp": "2021-05-26T15:51:48Z",
-      "version": 5,
-      "changeset": 105368494,
-      "user": "f_gonella",
-      "uid": 8716397,
+      "timestamp": "2021-08-30T00:27:04Z",
+      "version": 6,
+      "changeset": 110430440,
+      "user": "EvanE",
+      "uid": 184969,
       "nodes": [117606032, 924055675],
       "geometry": [
         {"lat": 45.8361373, "lon": 9.0673985},
         {"lat": 45.8361793, "lon": 9.0674787}
       ],
       "tags": {
-        "surface": "asphalt",
         "highway": "primary",
-        "junction": "roundabout"
+        "junction": "roundabout",
+        "noname": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -34641,11 +34643,11 @@
     {
       "type": "way",
       "id": 28026661,
-      "timestamp": "2021-04-03T17:58:11Z",
-      "version": 11,
-      "changeset": 102246526,
-      "user": "gemsquash",
-      "uid": 503169,
+      "timestamp": "2021-08-30T09:24:24Z",
+      "version": 13,
+      "changeset": 110448926,
+      "user": "Osmwithspace",
+      "uid": 8770388,
       "nodes": [270517077, 5336586024],
       "geometry": [
         {"lat": 46.1673017, "lon": 9.3019775},
@@ -34656,7 +34658,11 @@
         {"lat": 46.1681021, "lon": 9.3032314},
         {"lat": 46.1681337, "lon": 9.3032702}
       ],
-      "tags": {"highway": "residential"}
+      "tags": {
+        "highway": "residential",
+        "sidewalk": "no",
+        "surface": "paving_stones"
+      }
     },
     {
       "type": "way",
@@ -35169,11 +35175,11 @@
     {
       "type": "way",
       "id": 28085713,
-      "timestamp": "2021-08-29T18:35:34Z",
-      "version": 15,
-      "changeset": 110423749,
-      "user": "Soundswagger_53",
-      "uid": 12924817,
+      "timestamp": "2021-08-30T17:34:47Z",
+      "version": 16,
+      "changeset": 110473064,
+      "user": "Osmwithspace",
+      "uid": 8770388,
       "nodes": [270517085, 270517097],
       "geometry": [
         {"lat": 46.1703592, "lon": 9.3055685},
@@ -35184,6 +35190,7 @@
         {"lat": 46.170727, "lon": 9.3064292},
         {"lat": 46.1708802, "lon": 9.3068057},
         {"lat": 46.1711275, "lon": 9.307232},
+        {"lat": 46.1713907, "lon": 9.3076032},
         {"lat": 46.1714809, "lon": 9.3077304},
         {"lat": 46.1715819, "lon": 9.3080051},
         {"lat": 46.1716057, "lon": 9.308254},
@@ -35197,23 +35204,17 @@
         {"lat": 46.1734185, "lon": 9.3103265},
         {"lat": 46.1736069, "lon": 9.3104856}
       ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "unclassified",
-        "lane_markings": "no",
-        "surface": "asphalt"
-      }
+      "tags": {"bicycle": "yes", "foot": "yes", "highway": "unclassified"}
     },
     {
       "type": "way",
       "id": 28085716,
-      "timestamp": "2020-07-19T21:18:40Z",
-      "version": 7,
-      "changeset": 88212035,
-      "user": "Ysogo",
-      "uid": 6220204,
-      "nodes": [307740345, 270517085],
+      "timestamp": "2021-08-30T19:56:42Z",
+      "version": 9,
+      "changeset": 110478253,
+      "user": "Osmwithspace",
+      "uid": 8770388,
+      "nodes": [307740345, 1343694897],
       "geometry": [
         {"lat": 46.1685614, "lon": 9.3040365},
         {"lat": 46.1687087, "lon": 9.3039811},
@@ -35228,13 +35229,9 @@
         {"lat": 46.1692897, "lon": 9.3047684},
         {"lat": 46.169468, "lon": 9.304975},
         {"lat": 46.1695774, "lon": 9.3050695},
-        {"lat": 46.1697195, "lon": 9.3051721},
-        {"lat": 46.1698151, "lon": 9.3052358},
-        {"lat": 46.1698759, "lon": 9.3052324},
-        {"lat": 46.1700424, "lon": 9.3052585},
-        {"lat": 46.1703592, "lon": 9.3055685}
+        {"lat": 46.1697195, "lon": 9.3051721}
       ],
-      "tags": {"highway": "residential"}
+      "tags": {"highway": "residential", "surface": "paving_stones"}
     },
     {
       "type": "way",
@@ -100774,6 +100771,24 @@
         {"lat": 45.9448592, "lon": 9.06738}
       ],
       "tags": {"highway": "track", "surface": "ground", "tracktype": "grade5"}
+    },
+    {
+      "type": "way",
+      "id": 977965174,
+      "timestamp": "2021-08-30T19:56:50Z",
+      "version": 2,
+      "changeset": 110478253,
+      "user": "Osmwithspace",
+      "uid": 8770388,
+      "nodes": [1343694897, 270517085],
+      "geometry": [
+        {"lat": 46.1697195, "lon": 9.3051721},
+        {"lat": 46.1698151, "lon": 9.3052358},
+        {"lat": 46.1698759, "lon": 9.3052324},
+        {"lat": 46.1700424, "lon": 9.3052585},
+        {"lat": 46.1703592, "lon": 9.3055685}
+      ],
+      "tags": {"highway": "residential", "surface": "asphalt"}
     },
     {
       "type": "way",
