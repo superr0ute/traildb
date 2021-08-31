@@ -71,16 +71,17 @@
         "@poi": "place_town",
         "@distance": 8662.3,
         "@id": "n27552571",
-        "@changeset": 72355677,
-        "@timestamp": "2019-07-17T15:57:47Z",
-        "@version": 11,
-        "@uid": 2802925,
-        "@user": "Juan_Carlos_G_F-imports",
+        "@changeset": 110447170,
+        "@timestamp": "2021-08-30T08:52:17Z",
+        "@version": 12,
+        "@uid": 151106,
+        "@user": "Mikel Ortega",
         "admin_level": "8",
         "capital": "8",
         "ele": 12,
         "name": "Errenteria",
         "name:es": "Rentería",
+        "name:eu": "Errenteria",
         "place": "town",
         "population": 38224,
         "ref:ine": "20067000100",
@@ -34693,6 +34694,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_spring",
+        "@distance": 1803.8,
+        "@id": "n7558005006",
+        "@changeset": 85744870,
+        "@timestamp": "2020-05-26T05:54:55Z",
+        "@version": 1,
+        "@uid": 3148901,
+        "@user": "Seraq",
+        "name": "fuente del Furicón",
+        "natural": "spring",
+        "source": "Instituto Geográfico Nacional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0142076,
+          42.6254099
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "peak_peak",
         "@distance": 1069.3,
         "@id": "n3708102403",
@@ -37761,29 +37785,6 @@
         "coordinates": [
           -0.5486346,
           42.8023586
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 1803.8,
-        "@id": "n7558005006",
-        "@changeset": 85744870,
-        "@timestamp": "2020-05-26T05:54:55Z",
-        "@version": 1,
-        "@uid": 3148901,
-        "@user": "Seraq",
-        "name": "fuente del Furicón",
-        "natural": "spring",
-        "source": "Instituto Geográfico Nacional"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.0142076,
-          42.6254099
         ]
       }
     },
@@ -46407,6 +46408,27 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 168.3,
+        "@id": "n9048563851",
+        "@changeset": 110467573,
+        "@timestamp": "2021-08-30T15:24:11Z",
+        "@version": 1,
+        "@uid": 169995,
+        "@user": "schulzpin",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9439672,
+          42.4183094
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 2851.7,
         "@id": "w62566093",
@@ -47176,18 +47198,24 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 2813.1,
         "@id": "w392137331",
-        "@changeset": 110374337,
-        "@timestamp": "2021-08-28T10:18:33Z",
-        "@version": 10,
+        "@changeset": 110450993,
+        "@timestamp": "2021-08-30T10:03:57Z",
+        "@version": 11,
         "@uid": 7882299,
         "@user": "mDav",
+        "access": "yes",
         "building": "yes",
         "capacity": 6,
+        "check_date": "2021-08-30",
+        "cookware": "no",
         "description:fr": "2019-12 : Solide bâtisse en pierre. Ouvert toute l'année. Équipement intérieur : - 6 sommiers métalliques superposés - 1 table - 1 banc - Pharmacie - 1 balai/pelle",
+        "drinking_water": "yes",
         "ele": 2235,
         "fee": "no",
         "fireplace": "yes",
+        "mattress": "no",
         "name": "Refugi de Prat Primer",
+        "opening_hours": "24/7",
         "operator": "Ministeri de Medi Ambient, Agricultura i Sostenibilitat d'Andorra",
         "operator:wikidata": "Q65211284",
         "ref": "25",
