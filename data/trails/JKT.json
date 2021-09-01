@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-29T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-08-31T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10909145,
-      "timestamp": "2021-08-28T18:33:17Z",
-      "version": 1423,
-      "changeset": 110390796,
-      "user": "goljevscekluka",
-      "uid": 4842078,
+      "timestamp": "2021-08-31T07:37:08Z",
+      "version": 1424,
+      "changeset": 110496310,
+      "user": "arcos_m",
+      "uid": 8505371,
       "members": [
         {"type": "way", "ref": 389603359, "role": ""},
         {"type": "way", "ref": 358964255, "role": ""},
@@ -77,8 +77,9 @@
         {"type": "way", "ref": 946492959, "role": ""},
         {"type": "way", "ref": 322886710, "role": ""},
         {"type": "way", "ref": 946492960, "role": ""},
-        {"type": "way", "ref": 946494787, "role": ""},
         {"type": "way", "ref": 132013733, "role": ""},
+        {"type": "way", "ref": 978062131, "role": ""},
+        {"type": "way", "ref": 946494787, "role": ""},
         {"type": "way", "ref": 322884775, "role": ""},
         {"type": "way", "ref": 179687594, "role": ""},
         {"type": "way", "ref": 322884753, "role": ""},
@@ -21912,11 +21913,11 @@
     {
       "type": "way",
       "id": 241142595,
-      "timestamp": "2021-01-15T15:48:31Z",
-      "version": 9,
-      "changeset": 97570220,
-      "user": "Wulz",
-      "uid": 10773975,
+      "timestamp": "2021-08-31T19:46:42Z",
+      "version": 10,
+      "changeset": 110530352,
+      "user": "howdoiexitvim",
+      "uid": 10278330,
       "nodes": [913092200, 1876544778],
       "geometry": [
         {"lat": 46.4874479, "lon": 14.2640024},
@@ -21970,8 +21971,9 @@
         "description": "sehenswerter Dr. Tschauko-Naturlehrpfad mit Informationen zur Teufelsschlucht und Blick auf den Tschaukofall.",
         "foot": "yes",
         "highway": "path",
-        "incline": "5%",
-        "note": "Bei dieser „Sechter-Ferlacher Horn-Tscheppaschlucht-Runde“ trifft man auf:\n + iwn:  Julius-Kugy-Dreiländerweg\n + nrw:  \n + rwn:  Panoramaweg Südalpen, Hemmaweg SvAnna-Gurk\n + lwn:",
+        "incline": "-5%",
+        "mtb:scale": "2",
+        "note": "Bei dieser „Sechter-Ferlacher Horn-Tscheppaschlucht-Runde“ trifft man auf: + iwn: Julius-Kugy-Dreiländerweg + nrw: + rwn: Panoramaweg Südalpen, Hemmaweg SvAnna-Gurk + lwn:",
         "surface": "gravel",
         "width": "1"
       }
@@ -71134,22 +71136,18 @@
     {
       "type": "way",
       "id": 946494787,
-      "timestamp": "2021-08-29T12:58:11Z",
-      "version": 2,
-      "changeset": 110411724,
-      "user": "nebo34",
-      "uid": 178757,
-      "nodes": [3296749851, 8761520250],
+      "timestamp": "2021-08-31T07:37:08Z",
+      "version": 3,
+      "changeset": 110496310,
+      "user": "arcos_m",
+      "uid": 8505371,
+      "nodes": [3296749851, 3296709377],
       "geometry": [
         {"lat": 46.7101291, "lon": 13.0050428},
         {"lat": 46.7099174, "lon": 13.0051832},
         {"lat": 46.7095311, "lon": 13.0056123},
         {"lat": 46.7093362, "lon": 13.0057143},
-        {"lat": 46.7092405, "lon": 13.0060361},
-        {"lat": 46.7093058, "lon": 13.0061551},
-        {"lat": 46.7095789, "lon": 13.006653},
-        {"lat": 46.7097739, "lon": 13.0071948},
-        {"lat": 46.7101316, "lon": 13.0074145}
+        {"lat": 46.7091975, "lon": 13.0060651}
       ],
       "tags": {
         "bicycle": "yes",
@@ -72175,6 +72173,35 @@
         "trail_visibility": "excellent",
         "trailblazed": "yes",
         "width": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 978062131,
+      "timestamp": "2021-08-31T07:37:08Z",
+      "version": 1,
+      "changeset": 110496310,
+      "user": "arcos_m",
+      "uid": 8505371,
+      "nodes": [3296709377, 8761520250],
+      "geometry": [
+        {"lat": 46.7091975, "lon": 13.0060651},
+        {"lat": 46.7095789, "lon": 13.006653},
+        {"lat": 46.7097739, "lon": 13.0071948},
+        {"lat": 46.7101316, "lon": 13.0074145}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "incline": "15%",
+        "motor_vehicle": "yes",
+        "note": "Beim „Julius-Kugy-Dreiländerweg in 30 Tagen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Julius-Kugy-Dreiländerweg in 30 Tagen – Anbindung über E 26b, Gailtaler Höhenweg 229\n + lwn: S 4",
+        "smoothness": "bad",
+        "source": "bing;survey",
+        "surface": "gravel",
+        "tracktype": "grade2",
+        "width": "3"
       }
     }
   ]
