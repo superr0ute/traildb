@@ -22402,21 +22402,22 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_spring",
-        "@distance": 1452.3,
+        "@distance": 1452.8,
         "@id": "n3707990028",
-        "@changeset": 33483220,
-        "@timestamp": "2015-08-21T13:10:23Z",
-        "@version": 1,
-        "@uid": 704348,
-        "@user": "JBacc1",
+        "@changeset": 110505010,
+        "@timestamp": "2021-08-31T10:14:25Z",
+        "@version": 2,
+        "@uid": 9598800,
+        "@user": "dwarfclimbs",
         "drinking_water": "yes",
+        "intermittent": "yes",
         "natural": "spring"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.7631546,
-          46.0661685
+          6.7632451,
+          46.0661472
         ]
       }
     },
@@ -32321,6 +32322,50 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 157.3,
+        "@id": "n9050046517",
+        "@changeset": 110496003,
+        "@timestamp": "2021-08-31T07:30:43Z",
+        "@version": 1,
+        "@uid": 7570173,
+        "@user": "Curieux de découvertes",
+        "amenity": "drinking_water",
+        "name": "Robinet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.653802,
+          45.1725446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 1510.5,
+        "@id": "n9050046518",
+        "@changeset": 110496003,
+        "@timestamp": "2021-08-31T07:30:43Z",
+        "@version": 1,
+        "@uid": 7570173,
+        "@user": "Curieux de découvertes",
+        "amenity": "drinking_water",
+        "name": "Robinet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8829139,
+          45.2858482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 1129.4,
         "@id": "w44660568",
@@ -36116,30 +36161,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1164.6,
-        "@id": "w614129747",
-        "@changeset": 66027159,
-        "@timestamp": "2019-01-04T16:38:59Z",
-        "@version": 2,
-        "@uid": 2025491,
-        "@user": "Map_Clautch",
-        "amenity": "shelter",
-        "building": "yes",
-        "name": "Arret de bus Montchavin Village",
-        "shelter_type": "public_transport"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.7340113,
-          45.5602242
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "peak_peak",
         "@distance": 3283.1,
         "@id": "n4295697532",
@@ -37021,6 +37042,30 @@
         "coordinates": [
           6.8157913,
           45.8950178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1164.6,
+        "@id": "w614129747",
+        "@changeset": 66027159,
+        "@timestamp": "2019-01-04T16:38:59Z",
+        "@version": 2,
+        "@uid": 2025491,
+        "@user": "Map_Clautch",
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "Arret de bus Montchavin Village",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7340113,
+          45.5602242
         ]
       }
     },
@@ -42613,9 +42658,9 @@
         "@poi": "alpine-hut",
         "@distance": 2002.6,
         "@id": "w135459224",
-        "@changeset": 107379228,
-        "@timestamp": "2021-07-04T08:04:50Z",
-        "@version": 9,
+        "@changeset": 110501353,
+        "@timestamp": "2021-08-31T09:11:03Z",
+        "@version": 10,
         "@uid": 9598800,
         "@user": "dwarfclimbs",
         "beds": "73",
@@ -42624,8 +42669,10 @@
         "contact:phone": "+33 4 50 90 10 91",
         "contact:website": "http://www.refuge-du-folly.fr/Bienvenue.html",
         "ele": 1550,
+        "fee": "yes",
         "internet_access": "no",
         "name": "Refuge de Folly",
+        "payment:cash": "yes",
         "shower": "yes",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
         "tourism": "alpine_hut",
