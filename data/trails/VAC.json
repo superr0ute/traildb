@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-28T02:35:55Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-02T02:36:37Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1297764,
-      "timestamp": "2019-05-19T18:17:36Z",
-      "version": 16,
-      "changeset": 70417500,
-      "user": "Federico Explorador",
-      "uid": 293454,
+      "timestamp": "2021-09-01T13:35:23Z",
+      "version": 17,
+      "changeset": 110568552,
+      "user": "erickdeoliveiraleal",
+      "uid": 463504,
       "members": [
         {"type": "way", "ref": 156383298, "role": ""},
         {"type": "way", "ref": 150997405, "role": ""},
@@ -22,9 +22,11 @@
         {"type": "way", "ref": 46342257, "role": ""},
         {"type": "way", "ref": 202552776, "role": ""},
         {"type": "way", "ref": 159208163, "role": ""},
+        {"type": "way", "ref": 978431424, "role": ""},
         {"type": "way", "ref": 159208167, "role": ""},
         {"type": "way", "ref": 159208166, "role": ""},
         {"type": "way", "ref": 121138591, "role": ""},
+        {"type": "way", "ref": 978431422, "role": ""},
         {"type": "way", "ref": 99204996, "role": ""},
         {"type": "way", "ref": 99204967, "role": ""},
         {"type": "way", "ref": 61589966, "role": ""}
@@ -95,18 +97,13 @@
     {
       "type": "way",
       "id": 121138591,
-      "timestamp": "2019-05-19T18:17:34Z",
-      "version": 4,
-      "changeset": 70417500,
-      "user": "Federico Explorador",
-      "uid": 293454,
-      "nodes": [768136469, 896342133],
+      "timestamp": "2021-09-01T13:35:23Z",
+      "version": 5,
+      "changeset": 110568552,
+      "user": "erickdeoliveiraleal",
+      "uid": 463504,
+      "nodes": [896342029, 896342133],
       "geometry": [
-        {"lat": 6.3657759, "lon": -72.3342123, "z": 3960.4},
-        {"lat": 6.3660503, "lon": -72.3343515, "z": 3957.8},
-        {"lat": 6.3664066, "lon": -72.3343809, "z": 3954.9},
-        {"lat": 6.3669381, "lon": -72.3346262, "z": 3953},
-        {"lat": 6.3674622, "lon": -72.3346837, "z": 3951.3},
         {"lat": 6.3682467, "lon": -72.3347697, "z": 3948.6},
         {"lat": 6.3691108, "lon": -72.3348457, "z": 3939.8},
         {"lat": 6.3697579, "lon": -72.3352749, "z": 3938},
@@ -804,12 +801,12 @@
     {
       "type": "way",
       "id": 159208167,
-      "timestamp": "2019-05-19T18:17:35Z",
-      "version": 2,
-      "changeset": 70417500,
-      "user": "Federico Explorador",
-      "uid": 293454,
-      "nodes": [1713024351, 1713024359],
+      "timestamp": "2021-09-01T13:35:23Z",
+      "version": 3,
+      "changeset": 110568552,
+      "user": "erickdeoliveiraleal",
+      "uid": 463504,
+      "nodes": [1713024351, 9053557826],
       "geometry": [
         {"lat": 6.3758277, "lon": -72.3383893, "z": 3923.5},
         {"lat": 6.3759803, "lon": -72.3385282, "z": 3924.1},
@@ -826,12 +823,7 @@
         {"lat": 6.382692, "lon": -72.3417081, "z": 3936.7},
         {"lat": 6.3830617, "lon": -72.3418966, "z": 3938.1},
         {"lat": 6.383034, "lon": -72.3420845, "z": 3944.6},
-        {"lat": 6.3828984, "lon": -72.3422413, "z": 3952.4},
-        {"lat": 6.3829778, "lon": -72.342498, "z": 3959.5},
-        {"lat": 6.3839634, "lon": -72.343743, "z": 3942.1},
-        {"lat": 6.3842271, "lon": -72.3444168, "z": 3938.9},
-        {"lat": 6.3845402, "lon": -72.345294, "z": 3936},
-        {"lat": 6.3851729, "lon": -72.3456449, "z": 3927.3}
+        {"lat": 6.3829448, "lon": -72.3421249, "z": 3947.4}
       ],
       "tags": {
         "highway": "bridleway",
@@ -1448,6 +1440,59 @@
         "sac_scale": "demanding_mountain_hiking",
         "source": "survey",
         "trail_visibility": "bad"
+      }
+    },
+    {
+      "type": "way",
+      "id": 978431422,
+      "timestamp": "2021-09-01T13:35:23Z",
+      "version": 1,
+      "changeset": 110568552,
+      "user": "erickdeoliveiraleal",
+      "uid": 463504,
+      "nodes": [768136469, 896342029],
+      "geometry": [
+        {"lat": 6.3657759, "lon": -72.3342123, "z": 3960.4},
+        {"lat": 6.3660503, "lon": -72.3343515, "z": 3957.8},
+        {"lat": 6.3664066, "lon": -72.3343809, "z": 3954.9},
+        {"lat": 6.3669381, "lon": -72.3346262, "z": 3953},
+        {"lat": 6.3674622, "lon": -72.3346837, "z": 3951.3},
+        {"lat": 6.3682467, "lon": -72.3347697, "z": 3948.6}
+      ],
+      "tags": {
+        "highway": "bridleway",
+        "name": "Vuelta al Cocuy",
+        "osmc:symbol": "yellow:white:yellow_dot",
+        "sac_scale": "mountain_hiking",
+        "source": "survey",
+        "trail_visibility": "intermediate"
+      }
+    },
+    {
+      "type": "way",
+      "id": 978431424,
+      "timestamp": "2021-09-01T13:35:23Z",
+      "version": 1,
+      "changeset": 110568552,
+      "user": "erickdeoliveiraleal",
+      "uid": 463504,
+      "nodes": [9053557826, 1713024359],
+      "geometry": [
+        {"lat": 6.3829448, "lon": -72.3421249, "z": 3947.4},
+        {"lat": 6.3828984, "lon": -72.3422413, "z": 3952.4},
+        {"lat": 6.3829778, "lon": -72.342498, "z": 3959.5},
+        {"lat": 6.3839634, "lon": -72.343743, "z": 3942.1},
+        {"lat": 6.3842271, "lon": -72.3444168, "z": 3938.9},
+        {"lat": 6.3845402, "lon": -72.345294, "z": 3936},
+        {"lat": 6.3851729, "lon": -72.3456449, "z": 3927.3}
+      ],
+      "tags": {
+        "highway": "bridleway",
+        "name": "Vuelta al Cocuy",
+        "osmc:symbol": "yellow:white:yellow_dot",
+        "sac_scale": "mountain_hiking",
+        "source": "survey",
+        "trail_visibility": "intermediate"
       }
     },
     {
