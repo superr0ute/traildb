@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-01T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-02T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1187310,
-      "timestamp": "2021-09-01T09:35:19Z",
-      "version": 164,
-      "changeset": 110555413,
-      "user": "Cascafico",
-      "uid": 361003,
+      "timestamp": "2021-09-02T08:21:34Z",
+      "version": 165,
+      "changeset": 110604189,
+      "user": "MavericksBB",
+      "uid": 10334782,
       "members": [
         {"type": "way", "ref": 71887494, "role": ""},
         {"type": "way", "ref": 71887495, "role": ""},
@@ -152,9 +152,8 @@
         {"type": "way", "ref": 355352125, "role": ""},
         {"type": "way", "ref": 355351120, "role": ""},
         {"type": "way", "ref": 969721672, "role": ""},
-        {"type": "way", "ref": 301707662, "role": ""},
-        {"type": "way", "ref": 969721670, "role": ""},
-        {"type": "way", "ref": 969721671, "role": ""},
+        {"type": "way", "ref": 969721673, "role": ""},
+        {"type": "way", "ref": 311808388, "role": ""},
         {"type": "way", "ref": 301707675, "role": ""},
         {"type": "way", "ref": 355352894, "role": ""},
         {"type": "way", "ref": 355352893, "role": ""},
@@ -6867,37 +6866,6 @@
     },
     {
       "type": "way",
-      "id": 301707662,
-      "timestamp": "2021-08-02T07:49:20Z",
-      "version": 7,
-      "changeset": 109010552,
-      "user": "Ro Sun",
-      "uid": 3112087,
-      "nodes": [1355620567, 3058004094],
-      "geometry": [
-        {"lat": 28.8178962, "lon": 83.8481365},
-        {"lat": 28.8179617, "lon": 83.848337},
-        {"lat": 28.8181288, "lon": 83.8486259},
-        {"lat": 28.8181356, "lon": 83.8487169},
-        {"lat": 28.8180083, "lon": 83.8488195},
-        {"lat": 28.8180049, "lon": 83.8489024},
-        {"lat": 28.8176454, "lon": 83.8491854},
-        {"lat": 28.8176618, "lon": 83.8492758},
-        {"lat": 28.8176782, "lon": 83.8492921},
-        {"lat": 28.8175572, "lon": 83.8493906},
-        {"lat": 28.8174542, "lon": 83.8495382},
-        {"lat": 28.8174392, "lon": 83.8495596},
-        {"lat": 28.8172688, "lon": 83.8499288}
-      ],
-      "tags": {
-        "highway": "residential",
-        "noname": "yes",
-        "ref": "F166",
-        "source": "survey"
-      }
-    },
-    {
-      "type": "way",
       "id": 301707675,
       "timestamp": "2021-08-04T10:28:27Z",
       "version": 9,
@@ -8487,6 +8455,29 @@
         "source": "survey; Bing",
         "surface": "unpaved",
         "tracktype": "grade2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 311808388,
+      "timestamp": "2021-08-02T07:49:20Z",
+      "version": 3,
+      "changeset": 109010552,
+      "user": "Ro Sun",
+      "uid": 3112087,
+      "nodes": [2139222705, 1355620567],
+      "geometry": [
+        {"lat": 28.8175969, "lon": 83.8482959},
+        {"lat": 28.8176744, "lon": 83.848249},
+        {"lat": 28.8177333, "lon": 83.8482243},
+        {"lat": 28.8178327, "lon": 83.8481826},
+        {"lat": 28.8178962, "lon": 83.8481365}
+      ],
+      "tags": {
+        "highway": "primary",
+        "noname": "yes",
+        "ref": "F166",
+        "source": "survey"
       }
     },
     {
@@ -13641,11 +13632,11 @@
     {
       "type": "way",
       "id": 384304386,
-      "timestamp": "2021-02-09T06:24:46Z",
-      "version": 3,
-      "changeset": 98950392,
-      "user": "Guanabacoa",
-      "uid": 10529658,
+      "timestamp": "2021-09-02T07:59:18Z",
+      "version": 4,
+      "changeset": 110603098,
+      "user": "MavericksBB",
+      "uid": 10334782,
       "nodes": [3557040043, 3534312844],
       "geometry": [
         {"lat": 28.8043852, "lon": 83.7660435},
@@ -13654,7 +13645,7 @@
       ],
       "tags": {
         "ford": "yes",
-        "highway": "tertiary",
+        "highway": "primary",
         "horse": "yes",
         "motor_vehicle": "yes",
         "name": "Jeep Road Beni-Lo Mantang",
@@ -14243,7 +14234,7 @@
         {"lat": 28.5284008, "lon": 83.651461},
         {"lat": 28.528294, "lon": 83.6513716},
         {"lat": 28.528209, "lon": 83.6513464},
-        {"lat": 28.5281105, "lon": 83.6512162}
+        {"lat": 28.5281058, "lon": 83.6511894}
       ],
       "tags": {"highway": "track", "source": "survey", "tracktype": "grade5"}
     },
@@ -17392,48 +17383,6 @@
     },
     {
       "type": "way",
-      "id": 969721670,
-      "timestamp": "2021-08-02T07:49:20Z",
-      "version": 1,
-      "changeset": 109010552,
-      "user": "Ro Sun",
-      "uid": 3112087,
-      "nodes": [3058004094, 297407179],
-      "geometry": [
-        {"lat": 28.8172688, "lon": 83.8499288},
-        {"lat": 28.8170262, "lon": 83.8500951}
-      ],
-      "tags": {
-        "highway": "primary",
-        "noname": "yes",
-        "ref": "F166",
-        "source": "survey"
-      }
-    },
-    {
-      "type": "way",
-      "id": 969721671,
-      "timestamp": "2021-08-02T07:49:20Z",
-      "version": 1,
-      "changeset": 109010552,
-      "user": "Ro Sun",
-      "uid": 3112087,
-      "nodes": [297407179, 2139222681],
-      "geometry": [
-        {"lat": 28.8170262, "lon": 83.8500951},
-        {"lat": 28.8169732, "lon": 83.850463},
-        {"lat": 28.8169544, "lon": 83.8506978},
-        {"lat": 28.8170066, "lon": 83.8509982}
-      ],
-      "tags": {
-        "highway": "primary",
-        "ref": "F166",
-        "source": "survey",
-        "tracktype": "grade3"
-      }
-    },
-    {
-      "type": "way",
       "id": 969721672,
       "timestamp": "2021-08-02T07:49:20Z",
       "version": 1,
@@ -17452,6 +17401,54 @@
         "noname": "yes",
         "ref": "F166",
         "source": "survey"
+      }
+    },
+    {
+      "type": "way",
+      "id": 969721673,
+      "timestamp": "2021-08-02T07:49:20Z",
+      "version": 1,
+      "changeset": 109010552,
+      "user": "Ro Sun",
+      "uid": 3112087,
+      "nodes": [2139222705, 2139222681],
+      "geometry": [
+        {"lat": 28.8175969, "lon": 83.8482959},
+        {"lat": 28.81753, "lon": 83.8483739},
+        {"lat": 28.8175078, "lon": 83.8484017},
+        {"lat": 28.8174252, "lon": 83.8485052},
+        {"lat": 28.8172704, "lon": 83.8486963},
+        {"lat": 28.8172499, "lon": 83.8487192},
+        {"lat": 28.8171599, "lon": 83.8488197},
+        {"lat": 28.8170438, "lon": 83.8489289},
+        {"lat": 28.81693, "lon": 83.8490212},
+        {"lat": 28.816898, "lon": 83.8490472},
+        {"lat": 28.8167659, "lon": 83.8491395},
+        {"lat": 28.8166475, "lon": 83.8492162},
+        {"lat": 28.8165586, "lon": 83.8492591},
+        {"lat": 28.8165404, "lon": 83.8493292},
+        {"lat": 28.816614, "lon": 83.8494007},
+        {"lat": 28.816644, "lon": 83.8495099},
+        {"lat": 28.8166702, "lon": 83.8496997},
+        {"lat": 28.8166509, "lon": 83.8498907},
+        {"lat": 28.8166406, "lon": 83.8500194},
+        {"lat": 28.8166816, "lon": 83.850165},
+        {"lat": 28.8167249, "lon": 83.8503261},
+        {"lat": 28.816729, "lon": 83.8503646},
+        {"lat": 28.8167374, "lon": 83.8504444},
+        {"lat": 28.8167556, "lon": 83.8505718},
+        {"lat": 28.8167909, "lon": 83.8506797},
+        {"lat": 28.8168314, "lon": 83.8507317},
+        {"lat": 28.8169071, "lon": 83.8508291},
+        {"lat": 28.8170066, "lon": 83.8509982}
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "40",
+        "name": "Jomsom-Muktinath",
+        "surface": "black_topped",
+        "tracktype": "grade2"
       }
     },
     {
