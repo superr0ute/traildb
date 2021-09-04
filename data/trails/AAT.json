@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-02T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-03T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -109,11 +109,11 @@
     {
       "type": "relation",
       "id": 3176522,
-      "timestamp": "2021-08-18T05:37:43Z",
-      "version": 658,
-      "changeset": 109847784,
-      "user": "alessandrocarmeli",
-      "uid": 12294600,
+      "timestamp": "2021-09-03T21:02:10Z",
+      "version": 659,
+      "changeset": 110695658,
+      "user": "Biclmont",
+      "uid": 6285042,
       "members": [
         {"type": "node", "ref": 2911861581, "role": ""},
         {"type": "node", "ref": 2912812289, "role": ""},
@@ -2235,6 +2235,7 @@
         {"type": "way", "ref": 405074520, "role": ""},
         {"type": "way", "ref": 969648809, "role": ""},
         {"type": "way", "ref": 966597226, "role": ""},
+        {"type": "way", "ref": 979417590, "role": ""},
         {"type": "way", "ref": 405066844, "role": ""},
         {"type": "way", "ref": 229135255, "role": ""},
         {"type": "way", "ref": 405066845, "role": ""},
@@ -7425,11 +7426,11 @@
     {
       "type": "way",
       "id": 144379950,
-      "timestamp": "2018-06-12T06:19:06Z",
-      "version": 7,
-      "changeset": 59762754,
-      "user": "JM82",
-      "uid": 2641694,
+      "timestamp": "2021-09-03T16:28:11Z",
+      "version": 8,
+      "changeset": 110686610,
+      "user": "3S3L",
+      "uid": 8753970,
       "nodes": [1734059223, 1579306829],
       "geometry": [
         {"lat": 46.6169315, "lon": 14.0408828},
@@ -7441,6 +7442,7 @@
         "layer": "1",
         "maxspeed": "30",
         "name": "Kranzlhofenstraße",
+        "sidewalk": "both",
         "source": "geoimage.at",
         "surface": "asphalt"
       }
@@ -7448,11 +7450,11 @@
     {
       "type": "way",
       "id": 144379951,
-      "timestamp": "2018-06-12T06:19:06Z",
-      "version": 6,
-      "changeset": 59762754,
-      "user": "JM82",
-      "uid": 2641694,
+      "timestamp": "2021-09-03T16:28:12Z",
+      "version": 7,
+      "changeset": 110686610,
+      "user": "3S3L",
+      "uid": 8753970,
       "nodes": [1579306829, 290503102],
       "geometry": [
         {"lat": 46.6168387, "lon": 14.0408617},
@@ -7464,6 +7466,7 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Kranzlhofenstraße",
+        "sidewalk": "left",
         "source": "geoimage.at",
         "surface": "asphalt"
       }
@@ -36090,11 +36093,11 @@
     {
       "type": "way",
       "id": 292325311,
-      "timestamp": "2017-08-14T19:54:23Z",
-      "version": 2,
-      "changeset": 51120644,
-      "user": "connium",
-      "uid": 5609814,
+      "timestamp": "2021-09-03T16:28:12Z",
+      "version": 3,
+      "changeset": 110686611,
+      "user": "3S3L",
+      "uid": 8753970,
       "nodes": [1813725192, 1734059223],
       "geometry": [
         {"lat": 46.6172557, "lon": 14.0405612},
@@ -36105,6 +36108,7 @@
       ],
       "tags": {
         "highway": "residential",
+        "lit": "yes",
         "maxspeed": "30",
         "name": "Kranzlhofenstraße",
         "source": "plan.at 2009",
@@ -46067,11 +46071,11 @@
     {
       "type": "way",
       "id": 354193472,
-      "timestamp": "2020-09-02T14:04:39Z",
-      "version": 3,
-      "changeset": 90309001,
-      "user": "Wulz",
-      "uid": 10773975,
+      "timestamp": "2021-09-03T16:28:16Z",
+      "version": 7,
+      "changeset": 110686617,
+      "user": "3S3L",
+      "uid": 8753970,
       "nodes": [1640469654, 1640469660],
       "geometry": [
         {"lat": 46.6197068, "lon": 14.0336889},
@@ -46081,9 +46085,13 @@
         {"lat": 46.6193596, "lon": 14.0336548}
       ],
       "tags": {
+        "handrail": "yes",
         "highway": "steps",
+        "incline": "down",
+        "lit": "no",
         "name": "Teufelsgraben",
         "note": "Diese Rundwanderung „Teufelsgraben-Sternberg-(Hochwart)-Saissersee-Römerschlucht-Runde\n“ wird von folgenden überregionalen und regionalen Wanderwegen begleitet:\nAlpe-Adria-Trail",
+        "ramp": "no",
         "source": "plan.at 2009",
         "surface": "ground"
       }
@@ -50333,24 +50341,14 @@
     {
       "type": "way",
       "id": 405066844,
-      "timestamp": "2021-06-26T05:00:58Z",
-      "version": 2,
-      "changeset": 106990555,
-      "user": "d1og3n3s",
-      "uid": 3241876,
-      "nodes": [4072898357, 282432372],
+      "timestamp": "2021-09-03T21:02:38Z",
+      "version": 4,
+      "changeset": 110695658,
+      "user": "Biclmont",
+      "uid": 6285042,
+      "nodes": [9061153783, 282432372],
       "geometry": [
-        {"lat": 46.34371, "lon": 13.6863051},
-        {"lat": 46.3436713, "lon": 13.6862514},
-        {"lat": 46.3435843, "lon": 13.6861253},
-        {"lat": 46.3435149, "lon": 13.6860179},
-        {"lat": 46.3434376, "lon": 13.6858941},
-        {"lat": 46.3433779, "lon": 13.6858264},
-        {"lat": 46.3432748, "lon": 13.6857867},
-        {"lat": 46.3431329, "lon": 13.6857821},
-        {"lat": 46.3430394, "lon": 13.6857984},
-        {"lat": 46.3429733, "lon": 13.6857914},
-        {"lat": 46.3429283, "lon": 13.6857773},
+        {"lat": 46.3429058, "lon": 13.6857703},
         {"lat": 46.342795, "lon": 13.6857357},
         {"lat": 46.3427164, "lon": 13.6857311},
         {"lat": 46.3425697, "lon": 13.6857655},
@@ -50365,16 +50363,20 @@
         {"lat": 46.3414151, "lon": 13.6850779},
         {"lat": 46.3414539, "lon": 13.6848616}
       ],
-      "tags": {"highway": "service", "sac_scale": "hiking"}
+      "tags": {
+        "highway": "service",
+        "sac_scale": "hiking",
+        "surface": "concrete"
+      }
     },
     {
       "type": "way",
       "id": 405066845,
-      "timestamp": "2021-07-22T23:07:00Z",
-      "version": 4,
-      "changeset": 108453698,
-      "user": "Greg_Rose",
-      "uid": 4622040,
+      "timestamp": "2021-09-03T21:00:04Z",
+      "version": 5,
+      "changeset": 110695658,
+      "user": "Biclmont",
+      "uid": 6285042,
       "nodes": [4072898339, 4072898333],
       "geometry": [
         {"lat": 46.3414691, "lon": 13.6847531},
@@ -50389,6 +50391,7 @@
         "name": "Soška pot",
         "name:en": "Soča Trail",
         "sac_scale": "hiking",
+        "surface": "pebblestone",
         "tracktype": "grade3"
       }
     },
@@ -57332,14 +57335,15 @@
     {
       "type": "way",
       "id": 494421215,
-      "timestamp": "2017-05-18T12:17:39Z",
-      "version": 1,
-      "changeset": 48790224,
-      "user": "Cascafico",
-      "uid": 361003,
+      "timestamp": "2021-09-03T09:46:31Z",
+      "version": 2,
+      "changeset": 110666795,
+      "user": "pavlogero",
+      "uid": 13975220,
       "nodes": [4861572513, 281544655],
       "geometry": [
         {"lat": 46.0472573, "lon": 13.4928104},
+        {"lat": 46.0474776, "lon": 13.4925249},
         {"lat": 46.0475728, "lon": 13.4924016}
       ],
       "tags": {"highway": "tertiary", "maxspeed": "50", "ref": "SP21"}
@@ -77201,6 +77205,31 @@
         {"lat": 45.5927729, "lon": 13.83669}
       ],
       "tags": {"highway": "unclassified", "noname": "yes"}
+    },
+    {
+      "type": "way",
+      "id": 979417590,
+      "timestamp": "2021-09-03T21:02:25Z",
+      "version": 2,
+      "changeset": 110695658,
+      "user": "Biclmont",
+      "uid": 6285042,
+      "nodes": [4072898357, 9061153783],
+      "geometry": [
+        {"lat": 46.34371, "lon": 13.6863051},
+        {"lat": 46.3436713, "lon": 13.6862514},
+        {"lat": 46.3435843, "lon": 13.6861253},
+        {"lat": 46.3435149, "lon": 13.6860179},
+        {"lat": 46.3434376, "lon": 13.6858941},
+        {"lat": 46.3433779, "lon": 13.6858264},
+        {"lat": 46.3432748, "lon": 13.6857867},
+        {"lat": 46.3431329, "lon": 13.6857821},
+        {"lat": 46.3430394, "lon": 13.6857984},
+        {"lat": 46.3429733, "lon": 13.6857914},
+        {"lat": 46.3429283, "lon": 13.6857773},
+        {"lat": 46.3429058, "lon": 13.6857703}
+      ],
+      "tags": {"highway": "service", "sac_scale": "hiking", "surface": "gravel"}
     },
     {
       "type": "way",
