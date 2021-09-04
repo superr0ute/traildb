@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-09-02T23:59:59Z",
-    "timestamp_osm_base": "2021-09-03T04:44:28Z",
+    "timestamp_osm_date": "2021-09-03T23:59:59Z",
+    "timestamp_osm_base": "2021-09-04T04:44:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1403,15 +1403,18 @@
       "id": 309758417,
       "lat": 46.0060315,
       "lon": 7.5277859,
-      "timestamp": "2013-05-26T17:20:05Z",
-      "version": 6,
-      "changeset": 16297348,
-      "user": "tomvdb",
-      "uid": 437764,
+      "timestamp": "2021-09-03T20:58:40Z",
+      "version": 7,
+      "changeset": 110695614,
+      "user": "FbrG",
+      "uid": 10503526,
       "tags": {
         "ele": "3311",
+        "electricity": "yes",
         "name": "Cabane de Bertol CAS",
-        "tourism": "alpine_hut"
+        "operator": "SAC - CAS Section Neuchateloise",
+        "tourism": "alpine_hut",
+        "website": "https://www.cas-neuchatel.ch/cabanes/cabane-bertol-3311m/"
       }
     },
     {
@@ -2882,16 +2885,17 @@
       "id": 393169669,
       "lat": 45.9865879,
       "lon": 7.5753265,
-      "timestamp": "2020-03-08T11:55:19Z",
-      "version": 6,
-      "changeset": 81921108,
-      "user": "Davide Lasagna",
-      "uid": 2376938,
+      "timestamp": "2021-09-03T20:58:40Z",
+      "version": 7,
+      "changeset": 110695614,
+      "user": "FbrG",
+      "uid": 10503526,
       "tags": {
         "ele": "3710",
         "name": "Tête Blanche",
         "natural": "peak",
         "source": "Carta Tecnica Regione VDA",
+        "summit:cross": "yes",
         "wikidata": "Q674392",
         "wikipedia": "it:Tête Blanche (Alpi Pennine)"
       }
@@ -4051,26 +4055,6 @@
         "reg_name": "Walliser Alpen",
         "tourism": "alpine_hut",
         "website": "https://www.sac-cas.ch/de/huetten-und-touren/sac-tourenportal/bivouac-de-laiguillette-a-la-singla-cas-2147000251/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 502559991,
-      "lat": 45.9898152,
-      "lon": 7.4756753,
-      "timestamp": "2016-11-03T06:24:56Z",
-      "version": 2,
-      "changeset": 43371030,
-      "user": "Aroche",
-      "uid": 50179,
-      "tags": {
-        "ele": "3160",
-        "name": "Cabane des Vignettes CAS",
-        "operator": "SAC - CAS",
-        "reg_name": "Walliser Alpen",
-        "tourism": "alpine_hut",
-        "url": "http://www.section-monte-rosa.ch/cabanes_2.htm",
-        "wikidata": "Q627312"
       }
     },
     {
@@ -62733,11 +62717,11 @@
     {
       "type": "way",
       "id": 208112912,
-      "timestamp": "2019-01-09T16:55:14Z",
-      "version": 2,
-      "changeset": 66168729,
-      "user": "Edward",
-      "uid": 364,
+      "timestamp": "2021-09-03T20:58:40Z",
+      "version": 3,
+      "changeset": 110695614,
+      "user": "FbrG",
+      "uid": 10503526,
       "center": {
         "lat": 46.011092,
         "lon": 7.4175975
@@ -62746,10 +62730,14 @@
       "tags": {
         "building": "yes",
         "ele": "2928",
+        "electricity": "yes",
         "name": "Cabane des Dix",
+        "operator": "SAC - CAS Sektion Monte Rosa",
+        "start_date": "1908",
         "tourism": "alpine_hut",
         "website": "http://www.cabanedesdix.ch/",
-        "wikidata": "Q638441"
+        "wikidata": "Q638441",
+        "winter_room": "yes"
       }
     },
     {
@@ -62921,25 +62909,27 @@
     {
       "type": "way",
       "id": 247463218,
-      "timestamp": "2020-05-15T22:49:56Z",
-      "version": 8,
-      "changeset": 85283919,
-      "user": "Geonick",
-      "uid": 6087,
+      "timestamp": "2021-09-03T20:58:40Z",
+      "version": 9,
+      "changeset": 110695614,
+      "user": "FbrG",
+      "uid": 10503526,
       "center": {
-        "lat": 46.0019815,
-        "lon": 7.6290018
+        "lat": 46.0019841,
+        "lon": 7.6289691
       },
       "nodes": [],
       "tags": {
         "building": "yes",
         "ele": "2694",
+        "electricity": "yes",
         "name": "Schönbielhütte SAC",
-        "operator": "SAC",
+        "operator": "SAC - CAS Sektion Monte Rosa",
         "tourism": "alpine_hut",
         "wheelchair": "no",
         "wikidata": "Q179153",
-        "wikipedia": "de:Schönbielhütte"
+        "wikipedia": "de:Schönbielhütte",
+        "winter_room": "yes"
       }
     },
     {
@@ -64168,6 +64158,32 @@
         "building": "yes",
         "fireplace": "no",
         "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 979417433,
+      "timestamp": "2021-09-03T21:04:35Z",
+      "version": 2,
+      "changeset": 110695761,
+      "user": "FbrG",
+      "uid": 10503526,
+      "center": {
+        "lat": 45.9897944,
+        "lon": 7.4757202
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "ele": "3160",
+        "electricity": "yes",
+        "name": "Cabane des Vignettes CAS",
+        "operator": "SAC - CAS Sektion Monte Rosa",
+        "reg_name": "Walliser Alpen",
+        "tourism": "alpine_hut",
+        "url": "http://www.section-monte-rosa.ch/cabanes_2.htm",
+        "wikidata": "Q627312",
+        "winter_room": "yes"
       }
     }
   ]
