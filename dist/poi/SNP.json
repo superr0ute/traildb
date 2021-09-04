@@ -29156,21 +29156,24 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_spring",
-        "@distance": 744.6,
+        "@distance": 738.9,
         "@id": "n3056038968",
-        "@changeset": 25187850,
-        "@timestamp": "2014-09-02T18:05:00Z",
-        "@version": 1,
-        "@uid": 4815,
-        "@user": "*Martin*",
+        "@changeset": 110696716,
+        "@timestamp": "2021-09-03T21:44:49Z",
+        "@version": 2,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
         "drinking_water": "yes",
-        "natural": "spring"
+        "man_made": "spring_box",
+        "name": "do Jagnesi",
+        "natural": "spring",
+        "refitted": "yes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.2361942,
-          48.8828803
+          19.2361184,
+          48.8828845
         ]
       }
     },
@@ -52135,11 +52138,12 @@
         "@poi": "water_spring",
         "@distance": 522.6,
         "@id": "n4421255027",
-        "@changeset": 110584693,
-        "@timestamp": "2021-09-01T20:41:53Z",
-        "@version": 2,
+        "@changeset": 110696898,
+        "@timestamp": "2021-09-03T21:51:25Z",
+        "@version": 3,
         "@uid": 2323152,
         "@user": "Mirecnet",
+        "name": "Korytnica",
         "natural": "spring",
         "source": "survery, GPS"
       },
@@ -69428,6 +69432,28 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_spring",
+        "@distance": 1352.1,
+        "@id": "n8433068379",
+        "@changeset": 110696716,
+        "@timestamp": "2021-09-03T21:44:49Z",
+        "@version": 2,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
+        "natural": "spring",
+        "source": "survery, GPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.2428582,
+          48.8775426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
         "@distance": 1734.4,
         "@id": "n8433068773",
         "@changeset": 106297408,
@@ -72364,50 +72390,6 @@
         "coordinates": [
           19.4746694,
           48.916801
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 1670.6,
-        "@id": "n8811144243",
-        "@changeset": 105959214,
-        "@timestamp": "2021-06-07T09:19:39Z",
-        "@version": 1,
-        "@uid": 2323152,
-        "@user": "Mirecnet",
-        "amenity": "drinking_water",
-        "man_made": "water_well"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.4797683,
-          48.922212
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 1389.5,
-        "@id": "n8811144257",
-        "@changeset": 105972890,
-        "@timestamp": "2021-06-07T12:39:09Z",
-        "@version": 2,
-        "@uid": 2323152,
-        "@user": "Mirecnet",
-        "natural": "spring",
-        "source": "ÚGKK SR DMR5.0"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.4694579,
-          48.9217696
         ]
       }
     },
@@ -78239,6 +78221,61 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_spring",
+        "@distance": 35.3,
+        "@id": "n9057876768",
+        "@changeset": 110654680,
+        "@timestamp": "2021-09-03T06:12:36Z",
+        "@version": 1,
+        "@uid": 21515,
+        "@user": "lubosb",
+        "natural": "spring",
+        "refitted": "yes",
+        "wikimedia_commons": "File:Prameň v k.ú. Dolná Poruba, wgs84 48.92259N 18.28377E.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.2837686,
+          48.9225803
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 963,
+        "@id": "w58505759",
+        "@changeset": 110655199,
+        "@timestamp": "2021-09-03T06:21:15Z",
+        "@version": 3,
+        "@uid": 21515,
+        "@user": "lubosb",
+        "addr:city": "Horná Poruba",
+        "addr:conscriptionnumber": "376",
+        "addr:country": "SK",
+        "addr:housenumber": "376",
+        "addr:place": "Horná Poruba",
+        "building": "yes",
+        "import": "budovy201004",
+        "name": "Potraviny Staňo",
+        "shop": "convenience",
+        "source": "kapor2",
+        "source:conscriptionnumber": "kapor2",
+        "website": "https://www.mojobchod.sk/predajne/trenciansky-kraj/potraviny-stano"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3039397,
+          48.9444608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 4431.3,
         "@id": "w58519391",
@@ -78445,6 +78482,50 @@
         "coordinates": [
           19.5005086,
           48.9580857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 1670.6,
+        "@id": "n8811144243",
+        "@changeset": 105959214,
+        "@timestamp": "2021-06-07T09:19:39Z",
+        "@version": 1,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
+        "amenity": "drinking_water",
+        "man_made": "water_well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.4797683,
+          48.922212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 1389.5,
+        "@id": "n8811144257",
+        "@changeset": 105972890,
+        "@timestamp": "2021-06-07T12:39:09Z",
+        "@version": 2,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
+        "natural": "spring",
+        "source": "ÚGKK SR DMR5.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.4694579,
+          48.9217696
         ]
       }
     },
@@ -79525,6 +79606,28 @@
         "coordinates": [
           19.2776678,
           48.876478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 408.3,
+        "@id": "n8830389755",
+        "@changeset": 110696716,
+        "@timestamp": "2021-09-03T21:44:49Z",
+        "@version": 2,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
+        "natural": "spring",
+        "source": "survery, GPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.2295584,
+          48.8773485
         ]
       }
     },
@@ -81155,12 +81258,11 @@
         "@poi": "water_spring",
         "@distance": 535.7,
         "@id": "n9054520331",
-        "@changeset": 110584693,
-        "@timestamp": "2021-09-01T20:41:53Z",
-        "@version": 1,
+        "@changeset": 110696898,
+        "@timestamp": "2021-09-03T21:51:25Z",
+        "@version": 2,
         "@uid": 2323152,
         "@user": "Mirecnet",
-        "name": "Korytnica",
         "natural": "spring",
         "source": "survery, GPS"
       },
@@ -81235,6 +81337,96 @@
         "coordinates": [
           19.2302504,
           48.8715322
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 817.8,
+        "@id": "n9061198795",
+        "@changeset": 110696716,
+        "@timestamp": "2021-09-03T21:44:49Z",
+        "@version": 1,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
+        "drinking_water": "yes",
+        "man_made": "spring_box",
+        "natural": "spring",
+        "refitted": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.2370029,
+          48.8824864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 856.1,
+        "@id": "n9061198804",
+        "@changeset": 110696716,
+        "@timestamp": "2021-09-03T21:44:49Z",
+        "@version": 1,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
+        "natural": "spring",
+        "source": "survery, GPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.2379081,
+          48.8833052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 784.1,
+        "@id": "n9061198890",
+        "@changeset": 110696716,
+        "@timestamp": "2021-09-03T21:44:49Z",
+        "@version": 1,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
+        "natural": "spring",
+        "source": "survery, GPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.237204,
+          48.8838873
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 818.2,
+        "@id": "n9061199093",
+        "@changeset": 110696716,
+        "@timestamp": "2021-09-03T21:44:49Z",
+        "@version": 1,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
+        "natural": "spring",
+        "source": "Ortofotomozaika SR, survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.2309847,
+          48.871829
         ]
       }
     },
@@ -93199,6 +93391,34 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 9833.2,
+        "@id": "n4897189507",
+        "@changeset": 50489969,
+        "@timestamp": "2017-07-22T22:06:49Z",
+        "@version": 2,
+        "@uid": 92274,
+        "@user": "adjuva",
+        "addr:city": "Loimersdorf",
+        "addr:country": "AT",
+        "addr:housenumber": "58",
+        "addr:postcode": "2292",
+        "addr:street": "Ortsstraße",
+        "name": "ADEG",
+        "opening_hours": "Mo-Sa 06:30-12:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8460363,
+          48.1749125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 7620.9,
         "@id": "n7099416486",
@@ -100274,6 +100494,33 @@
         "coordinates": [
           19.649695,
           48.926626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 9837.2,
+        "@id": "w632169167",
+        "@changeset": 63344089,
+        "@timestamp": "2018-10-09T12:20:47Z",
+        "@version": 1,
+        "@uid": 454432,
+        "@user": "Siegi-A",
+        "addr:city": "Loimersdorf",
+        "addr:housenumber": "58",
+        "addr:postcode": "2292",
+        "addr:street": "Ortsstraße",
+        "building": "yes",
+        "name": "ADEG",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8459814,
+          48.1749918
         ]
       }
     }
