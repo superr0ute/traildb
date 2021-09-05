@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-25T02:28:22Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-05T02:38:08Z"},
   "elements": [
     {
       "type": "relation",
@@ -3865,18 +3865,18 @@
     {
       "type": "way",
       "id": 179136520,
-      "timestamp": "2012-09-02T14:32:26Z",
-      "version": 1,
-      "changeset": 12954959,
-      "user": "Tomek_",
-      "uid": 419230,
+      "timestamp": "2021-09-04T21:04:50Z",
+      "version": 2,
+      "changeset": 110731074,
+      "user": "witkoo",
+      "uid": 11515391,
       "nodes": [1525669149, 1525669186],
       "geometry": [
         {"lat": 49.563308, "lon": 21.8013839, "z": 448.1},
         {"lat": 49.5634608, "lon": 21.8006434, "z": 459.7},
         {"lat": 49.5635423, "lon": 21.8000512, "z": 463.8}
       ],
-      "tags": {"highway": "path"}
+      "tags": {"highway": "path", "surface": "grass"}
     },
     {
       "type": "way",
@@ -6776,11 +6776,11 @@
     {
       "type": "way",
       "id": 33448547,
-      "timestamp": "2019-07-07T21:27:49Z",
-      "version": 7,
-      "changeset": 71992226,
-      "user": "painkill",
-      "uid": 389325,
+      "timestamp": "2021-09-04T21:03:23Z",
+      "version": 10,
+      "changeset": 110731048,
+      "user": "witkoo",
+      "uid": 11515391,
       "nodes": [562757815, 1525669149],
       "geometry": [
         {"lat": 49.5625396, "lon": 21.8026723, "z": 430.6},
@@ -6795,7 +6795,13 @@
         {"lat": 49.5632518, "lon": 21.8014345, "z": 447.7},
         {"lat": 49.563308, "lon": 21.8013839, "z": 448.1}
       ],
-      "tags": {"highway": "unclassified", "name": "Ogrodowa"}
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Ogrodowa",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
