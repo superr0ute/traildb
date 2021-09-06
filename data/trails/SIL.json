@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-02T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-05T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -3507,11 +3507,11 @@
     {
       "type": "relation",
       "id": 7706215,
-      "timestamp": "2021-08-14T18:53:42Z",
-      "version": 17,
-      "changeset": 109680122,
-      "user": "hal 9000",
-      "uid": 639546,
+      "timestamp": "2021-09-05T20:34:56Z",
+      "version": 18,
+      "changeset": 110764731,
+      "user": "Ysogo",
+      "uid": 6220204,
       "members": [
         {"type": "way", "ref": 921354760, "role": ""},
         {"type": "way", "ref": 209861632, "role": ""},
@@ -3560,8 +3560,8 @@
         {"type": "way", "ref": 229602205, "role": ""},
         {"type": "way", "ref": 672884903, "role": ""},
         {"type": "way", "ref": 495568179, "role": ""},
-        {"type": "way", "ref": 973138208, "role": ""},
         {"type": "way", "ref": 973138209, "role": ""},
+        {"type": "way", "ref": 973138208, "role": ""},
         {"type": "way", "ref": 495568180, "role": ""},
         {"type": "way", "ref": 538048316, "role": ""},
         {"type": "way", "ref": 113618519, "role": ""},
@@ -3570,7 +3570,9 @@
         {"type": "way", "ref": 39244161, "role": ""},
         {"type": "way", "ref": 538048315, "role": ""},
         {"type": "way", "ref": 369461798, "role": ""},
+        {"type": "way", "ref": 979877149, "role": ""},
         {"type": "way", "ref": 39244139, "role": ""},
+        {"type": "way", "ref": 979877148, "role": ""},
         {"type": "way", "ref": 538048314, "role": ""},
         {"type": "way", "ref": 275523436, "role": ""},
         {"type": "way", "ref": 538048312, "role": ""},
@@ -55491,15 +55493,14 @@
     {
       "type": "way",
       "id": 39244139,
-      "timestamp": "2017-11-03T17:05:31Z",
-      "version": 6,
-      "changeset": 53484250,
-      "user": "Gianfranco2014",
-      "uid": 1928626,
-      "nodes": [470212924, 3732527644],
+      "timestamp": "2021-09-05T20:34:56Z",
+      "version": 7,
+      "changeset": 110764731,
+      "user": "Ysogo",
+      "uid": 6220204,
+      "nodes": [470212965, 3732527644],
       "geometry": [
-        {"lat": 45.9820899, "lon": 9.2556998},
-        {"lat": 45.9819905, "lon": 9.255762},
+        {"lat": 45.9819683, "lon": 9.2557699},
         {"lat": 45.9819228, "lon": 9.255743},
         {"lat": 45.9818773, "lon": 9.2556805},
         {"lat": 45.9818331, "lon": 9.2555562},
@@ -55514,14 +55515,15 @@
     {
       "type": "way",
       "id": 39244161,
-      "timestamp": "2021-06-18T21:33:08Z",
-      "version": 3,
-      "changeset": 106610148,
-      "user": "Pedisa",
-      "uid": 4780829,
+      "timestamp": "2021-09-05T20:34:56Z",
+      "version": 4,
+      "changeset": 110764731,
+      "user": "Ysogo",
+      "uid": 6220204,
       "nodes": [470212805, 470212988],
       "geometry": [
         {"lat": 45.9780484, "lon": 9.2525314},
+        {"lat": 45.9779223, "lon": 9.2524328},
         {"lat": 45.9779059, "lon": 9.25242}
       ],
       "tags": {"access": "customers", "highway": "footway"}
@@ -100837,6 +100839,36 @@
         {"lat": 46.054724, "lon": 9.6738158}
       ],
       "tags": {"bridge": "yes", "highway": "path", "layer": "1"}
+    },
+    {
+      "type": "way",
+      "id": 979877148,
+      "timestamp": "2021-09-05T20:34:56Z",
+      "version": 1,
+      "changeset": 110764731,
+      "user": "Ysogo",
+      "uid": 6220204,
+      "nodes": [470212924, 9064663926],
+      "geometry": [
+        {"lat": 45.9820899, "lon": 9.2556998},
+        {"lat": 45.9820255, "lon": 9.2557414}
+      ],
+      "tags": {"highway": "footway"}
+    },
+    {
+      "type": "way",
+      "id": 979877149,
+      "timestamp": "2021-09-05T20:34:56Z",
+      "version": 1,
+      "changeset": 110764731,
+      "user": "Ysogo",
+      "uid": 6220204,
+      "nodes": [9064663926, 470212965],
+      "geometry": [
+        {"lat": 45.9820255, "lon": 9.2557414},
+        {"lat": 45.9819683, "lon": 9.2557699}
+      ],
+      "tags": {"bridge": "yes", "highway": "footway", "layer": "1"}
     },
     {
       "type": "way",

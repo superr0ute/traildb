@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-30T02:30:28Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-06T02:34:41Z"},
   "elements": [
     {
       "type": "relation",
@@ -30,14 +30,15 @@
     {
       "type": "relation",
       "id": 12484370,
-      "timestamp": "2021-08-29T16:02:11Z",
-      "version": 4,
-      "changeset": 110418719,
-      "user": "*abq*",
-      "uid": 3696195,
+      "timestamp": "2021-09-05T15:48:37Z",
+      "version": 5,
+      "changeset": 110755403,
+      "user": "Kioska Journo",
+      "uid": 402585,
       "members": [
         {"type": "way", "ref": 686156389, "role": ""},
         {"type": "way", "ref": 686156388, "role": ""},
+        {"type": "way", "ref": 979825750, "role": ""},
         {"type": "way", "ref": 686156369, "role": ""},
         {"type": "way", "ref": 28161762, "role": ""},
         {"type": "way", "ref": 764195615, "role": ""},
@@ -9156,17 +9157,13 @@
     {
       "type": "way",
       "id": 686156369,
-      "timestamp": "2020-01-17T14:46:11Z",
-      "version": 2,
-      "changeset": 79702951,
-      "user": "J budissin",
-      "uid": 15720,
-      "nodes": [3560219953, 340360574],
+      "timestamp": "2021-09-05T15:48:37Z",
+      "version": 3,
+      "changeset": 110755403,
+      "user": "Kioska Journo",
+      "uid": 402585,
+      "nodes": [340360571, 340360574],
       "geometry": [
-        {"lat": 42.5063344, "lon": 8.8548242, "z": 286},
-        {"lat": 42.5063576, "lon": 8.8548625, "z": 286.1},
-        {"lat": 42.5063909, "lon": 8.8549142, "z": 286.3},
-        {"lat": 42.5064001, "lon": 8.8549771, "z": 286.6},
         {"lat": 42.5063497, "lon": 8.8551334, "z": 287.9},
         {"lat": 42.5062237, "lon": 8.855252, "z": 290.2},
         {"lat": 42.5061653, "lon": 8.8553392, "z": 291.9},
@@ -9188,11 +9185,11 @@
     {
       "type": "way",
       "id": 686156388,
-      "timestamp": "2020-01-17T14:46:11Z",
-      "version": 3,
-      "changeset": 79702951,
-      "user": "J budissin",
-      "uid": 15720,
+      "timestamp": "2021-09-05T15:48:37Z",
+      "version": 4,
+      "changeset": 110755403,
+      "user": "Kioska Journo",
+      "uid": 402585,
       "nodes": [340360565, 3560219953],
       "geometry": [
         {"lat": 42.5066446, "lon": 8.8540984, "z": 279.3},
@@ -9211,6 +9208,7 @@
         "description": "GR20",
         "highway": "service",
         "horse": "no",
+        "name": "Rue Torra",
         "sac_scale": "mountain_hiking",
         "service": "alley",
         "source": "gps",
@@ -9220,11 +9218,11 @@
     {
       "type": "way",
       "id": 686156389,
-      "timestamp": "2020-01-17T14:05:04Z",
-      "version": 2,
-      "changeset": 79701262,
-      "user": "J budissin",
-      "uid": 15720,
+      "timestamp": "2021-09-05T15:48:37Z",
+      "version": 3,
+      "changeset": 110755403,
+      "user": "Kioska Journo",
+      "uid": 402585,
       "nodes": [309322410, 340360565],
       "geometry": [
         {"lat": 42.5081535, "lon": 8.8548477, "z": 278.2},
@@ -9247,6 +9245,7 @@
         "description": "GR20",
         "highway": "service",
         "horse": "no",
+        "name": "Rue Longue",
         "sac_scale": "mountain_hiking",
         "service": "alley",
         "source": "gps",
@@ -11340,6 +11339,33 @@
         "surface": "ground",
         "trail_visibility": "excellent",
         "width": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 979825750,
+      "timestamp": "2021-09-05T15:48:29Z",
+      "version": 1,
+      "changeset": 110755403,
+      "user": "Kioska Journo",
+      "uid": 402585,
+      "nodes": [3560219953, 340360571],
+      "geometry": [
+        {"lat": 42.5063344, "lon": 8.8548242, "z": 286},
+        {"lat": 42.5063576, "lon": 8.8548625, "z": 286.1},
+        {"lat": 42.5063909, "lon": 8.8549142, "z": 286.3},
+        {"lat": 42.5064001, "lon": 8.8549771, "z": 286.6},
+        {"lat": 42.5063497, "lon": 8.8551334, "z": 287.9}
+      ],
+      "tags": {
+        "bicycle": "no",
+        "description": "GR20",
+        "highway": "service",
+        "horse": "no",
+        "name": "Rue Torra",
+        "sac_scale": "mountain_hiking",
+        "source": "gps",
+        "surface": "sett"
       }
     }
   ]
