@@ -1,15 +1,17 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-29T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-06T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 8814098,
-      "timestamp": "2021-03-26T14:28:16Z",
-      "version": 8,
-      "changeset": 101797805,
-      "user": "isvedic",
-      "uid": 331318,
+      "timestamp": "2021-09-06T16:31:30Z",
+      "version": 9,
+      "changeset": 110812252,
+      "user": "Mark Martinec",
+      "uid": 58976,
       "members": [
+        {"type": "way", "ref": 980173392, "role": ""},
+        {"type": "way", "ref": 980173393, "role": ""},
         {"type": "way", "ref": 633994523, "role": ""},
         {"type": "way", "ref": 125010624, "role": ""},
         {"type": "way", "ref": 633907533, "role": ""},
@@ -600,11 +602,11 @@
     {
       "type": "way",
       "id": 125010624,
-      "timestamp": "2020-09-07T14:39:51Z",
-      "version": 9,
-      "changeset": 90537318,
-      "user": "Janjko",
-      "uid": 244754,
+      "timestamp": "2021-09-06T16:31:30Z",
+      "version": 10,
+      "changeset": 110812252,
+      "user": "Mark Martinec",
+      "uid": 58976,
       "nodes": [7884270632, 2629727355],
       "geometry": [
         {"lat": 45.4580082, "lon": 14.8543406},
@@ -626,9 +628,8 @@
         {"lat": 45.4621512, "lon": 14.8536484},
         {"lat": 45.4622484, "lon": 14.8536424},
         {"lat": 45.4626373, "lon": 14.8535107},
-        {"lat": 45.462928, "lon": 14.8534123},
-        {"lat": 45.4629893, "lon": 14.8533915},
-        {"lat": 45.4630961, "lon": 14.853359}
+        {"lat": 45.4629586, "lon": 14.8533821},
+        {"lat": 45.4630834, "lon": 14.8533396}
       ],
       "tags": {
         "highway": "primary",
@@ -8332,18 +8333,17 @@
     {
       "type": "way",
       "id": 633994523,
-      "timestamp": "2018-10-14T20:26:08Z",
-      "version": 1,
-      "changeset": 63519552,
-      "user": "Janjko",
-      "uid": 244754,
-      "nodes": [2629727355, 874024763],
+      "timestamp": "2021-09-06T16:31:30Z",
+      "version": 2,
+      "changeset": 110812252,
+      "user": "Mark Martinec",
+      "uid": 58976,
+      "nodes": [2629727355, 9067261650],
       "geometry": [
-        {"lat": 45.4630961, "lon": 14.853359},
-        {"lat": 45.4632169, "lon": 14.8533278},
-        {"lat": 45.463318, "lon": 14.8532998},
-        {"lat": 45.4634779, "lon": 14.8532542},
-        {"lat": 45.4636193, "lon": 14.8531929}
+        {"lat": 45.4630834, "lon": 14.8533396},
+        {"lat": 45.4632089, "lon": 14.8533043},
+        {"lat": 45.4632959, "lon": 14.8532884},
+        {"lat": 45.4633775, "lon": 14.8532682}
       ],
       "tags": {
         "highway": "primary",
@@ -10079,6 +10079,48 @@
         "highway": "tertiary",
         "layer": "1",
         "ref": "34137"
+      }
+    },
+    {
+      "type": "way",
+      "id": 980173392,
+      "timestamp": "2021-09-06T16:31:30Z",
+      "version": 1,
+      "changeset": 110812252,
+      "user": "Mark Martinec",
+      "uid": 58976,
+      "nodes": [9067261649, 874024763],
+      "geometry": [
+        {"lat": 45.4635181, "lon": 14.853212},
+        {"lat": 45.4636155, "lon": 14.8531694}
+      ],
+      "tags": {
+        "highway": "primary",
+        "name": "Ulica kralja Tomislava",
+        "ref": "D203",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 980173393,
+      "timestamp": "2021-09-06T16:31:30Z",
+      "version": 1,
+      "changeset": 110812252,
+      "user": "Mark Martinec",
+      "uid": 58976,
+      "nodes": [9067261650, 9067261649],
+      "geometry": [
+        {"lat": 45.4633775, "lon": 14.8532682},
+        {"lat": 45.4634629, "lon": 14.853234},
+        {"lat": 45.4635181, "lon": 14.853212}
+      ],
+      "tags": {
+        "covered": "yes",
+        "highway": "primary",
+        "name": "Ulica kralja Tomislava",
+        "ref": "D203",
+        "surface": "asphalt"
       }
     }
   ]
