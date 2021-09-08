@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-09-04T23:59:59Z",
-    "timestamp_osm_base": "2021-09-05T05:55:32Z",
+    "timestamp_osm_date": "2021-09-07T23:59:59Z",
+    "timestamp_osm_base": "2021-09-08T06:32:55Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -451,20 +451,18 @@
       "id": 278474413,
       "lat": 30.1767668,
       "lon": 35.0164837,
-      "timestamp": "2021-04-17T23:22:34Z",
-      "version": 8,
-      "changeset": 103120532,
-      "user": "Vejoson",
-      "uid": 11422772,
+      "timestamp": "2021-09-07T08:45:54Z",
+      "version": 9,
+      "changeset": 110843893,
+      "user": "zstadler",
+      "uid": 3127,
       "tags": {
         "gns_ref": "44947",
         "name": "שיטים",
-        "name:ar": "شيتيم",
         "name:en": "Shittim",
         "name:fr": "Shitim",
         "name:he": "שיטים",
         "place": "hamlet",
-        "population": "4",
         "source": "GEOnet Names Server (gns)",
         "wikidata": "Q6586491",
         "wikipedia": "he:שיטים"
@@ -826,25 +824,21 @@
       "id": 278476839,
       "lat": 30.3626131,
       "lon": 35.1538972,
-      "timestamp": "2021-03-22T19:01:56Z",
-      "version": 11,
-      "changeset": 101524452,
-      "user": "Vejoson",
-      "uid": 11422772,
+      "timestamp": "2021-09-07T08:45:54Z",
+      "version": 12,
+      "changeset": 110843893,
+      "user": "zstadler",
+      "uid": 3127,
       "tags": {
         "accuracy": "minutes",
         "gns_ref": "44326",
         "name": "פארן",
-        "name:ar": "پاران",
         "name:en": "Paran",
         "name:fr": "Paran",
         "name:he": "פארן",
         "note": "Pharan or Faran is not a valid pronunciation in Hebrew",
         "place": "village",
-        "population": "501",
-        "source": "GEOnet Names Server (gns);https://www.cbs.gov.il/he/publications/doclib/2017/population_madaf/population_madaf_2019_1.xlsx",
-        "wikidata": "Q2916000",
-        "wikipedia": "en:Paran, Israel"
+        "source": "GEOnet Names Server (gns)"
       }
     },
     {
@@ -2407,22 +2401,20 @@
     {
       "type": "node",
       "id": 7456854856,
-      "lat": 30.6856198,
-      "lon": 34.7837994,
-      "timestamp": "2021-02-17T00:12:51Z",
-      "version": 6,
-      "changeset": 99410550,
-      "user": "Vejoson",
-      "uid": 11422772,
+      "lat": 30.6868943,
+      "lon": 34.7827793,
+      "timestamp": "2021-09-06T15:06:28Z",
+      "version": 7,
+      "changeset": 110808712,
+      "user": "zstadler",
+      "uid": 3127,
       "tags": {
         "name": "وادي أريحا",
         "name:ar": "وادي أريحا",
         "name:en": "Wadi Ariha",
         "name:fr": "Wadi Ariha",
         "name:he": "ואדי אריכא",
-        "note": "This locality remains unrecognized by the State of Israel.",
-        "place": "village",
-        "source": "https://7amleh.org/ms/Links/2.jpg;http://ftpmirror.your.org/pub/wikimedia/images/wikipedia/ar/7/7d/Naqab-map-ar.jpg"
+        "place": "village"
       }
     },
     {
@@ -2554,6 +2546,51 @@
     },
     {
       "type": "way",
+      "id": 60130883,
+      "timestamp": "2021-09-07T08:45:54Z",
+      "version": 22,
+      "changeset": 110843893,
+      "user": "zstadler",
+      "uid": 3127,
+      "center": {
+        "lat": 30.3625645,
+        "lon": 35.1553108
+      },
+      "nodes": [],
+      "tags": {
+        "fixme": "name, name:he mismatch. Flagged by SafwatHalaby_bot-nameCopy",
+        "landuse": "residential",
+        "name": "פארן",
+        "name:en": "Paran",
+        "name:he": "פארן",
+        "note": "Pharan or Faran is not a valid pronunciation in Hebrew",
+        "place": "village"
+      }
+    },
+    {
+      "type": "way",
+      "id": 91938943,
+      "timestamp": "2021-09-07T08:45:54Z",
+      "version": 9,
+      "changeset": 110843893,
+      "user": "zstadler",
+      "uid": 3127,
+      "center": {
+        "lat": 30.1768968,
+        "lon": 35.0164415
+      },
+      "nodes": [],
+      "tags": {
+        "landuse": "residential",
+        "name": "נח\"ל שיטים",
+        "name:en": "Nahal Shittim",
+        "name:he": "נח\"ל שיטים",
+        "name:he2": "אשרם במדבר",
+        "place": "hamlet"
+      }
+    },
+    {
+      "type": "way",
       "id": 184652618,
       "timestamp": "2017-06-10T05:09:14Z",
       "version": 4,
@@ -2635,6 +2672,50 @@
         "name:he": "חניון לילה צומת ציחור",
         "source": "GPS",
         "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 305370038,
+      "timestamp": "2021-09-06T15:06:28Z",
+      "version": 8,
+      "changeset": 110808712,
+      "user": "zstadler",
+      "uid": 3127,
+      "center": {
+        "lat": 30.7513693,
+        "lon": 34.7758702
+      },
+      "nodes": [],
+      "tags": {
+        "landuse": "residential",
+        "name": "عبدة",
+        "name:ar": "عبدة",
+        "name:en": "Abdih",
+        "name:he": "עבדה",
+        "place": "hamlet"
+      }
+    },
+    {
+      "type": "way",
+      "id": 333555550,
+      "timestamp": "2021-09-06T15:06:28Z",
+      "version": 11,
+      "changeset": 110808712,
+      "user": "zstadler",
+      "uid": 3127,
+      "center": {
+        "lat": 30.6846992,
+        "lon": 34.7868339
+      },
+      "nodes": [],
+      "tags": {
+        "landuse": "residential",
+        "name": "وادي أريحا",
+        "name:ar": "وادي أريحا",
+        "name:en": "Wadi Ariha",
+        "name:he": "ואדי אריכא",
+        "place": "village"
       }
     },
     {
