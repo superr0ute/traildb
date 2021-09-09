@@ -9556,12 +9556,13 @@
         "@poi": "water_drinking-water",
         "@distance": 1961.7,
         "@id": "n892011238",
-        "@changeset": 16674079,
-        "@timestamp": "2013-06-23T18:46:52Z",
-        "@version": 2,
+        "@changeset": 110928073,
+        "@timestamp": "2021-09-08T16:28:32Z",
+        "@version": 3,
         "@uid": 863649,
         "@user": "Uranzu",
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "check_date": "2021-09-08"
       },
       "geometry": {
         "type": "Point",
@@ -19746,12 +19747,13 @@
         "@poi": "water_drinking-water",
         "@distance": 2662.1,
         "@id": "n2177509739",
-        "@changeset": 15188917,
-        "@timestamp": "2013-02-27T18:50:43Z",
-        "@version": 1,
-        "@uid": 548834,
-        "@user": "dr_grijando",
-        "amenity": "drinking_water"
+        "@changeset": 110928073,
+        "@timestamp": "2021-09-08T17:17:27Z",
+        "@version": 2,
+        "@uid": 863649,
+        "@user": "Uranzu",
+        "amenity": "drinking_water",
+        "check_date": "2021-09-08"
       },
       "geometry": {
         "type": "Point",
@@ -19767,12 +19769,13 @@
         "@poi": "water_drinking-water",
         "@distance": 2603.7,
         "@id": "n2177509741",
-        "@changeset": 15188917,
-        "@timestamp": "2013-02-27T18:50:43Z",
-        "@version": 1,
-        "@uid": 548834,
-        "@user": "dr_grijando",
-        "amenity": "drinking_water"
+        "@changeset": 110928073,
+        "@timestamp": "2021-09-08T15:55:43Z",
+        "@version": 2,
+        "@uid": 863649,
+        "@user": "Uranzu",
+        "amenity": "drinking_water",
+        "check_date": "2021-09-08"
       },
       "geometry": {
         "type": "Point",
@@ -27711,31 +27714,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 868.7,
-        "@id": "n4107801754",
-        "@changeset": 84520365,
-        "@timestamp": "2020-05-02T13:04:18Z",
-        "@version": 4,
-        "@uid": 1729508,
-        "@user": "Gerd Waldmann",
-        "brand": "Proxi",
-        "brand:wikidata": "Q3408522",
-        "brand:wikipedia": "fr:Proxi",
-        "name": "Proxi",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.7844199,
-          43.3712344
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 28.1,
         "@id": "n6749392170",
@@ -31713,6 +31691,31 @@
         "coordinates": [
           3.1649151,
           42.4414261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 868.7,
+        "@id": "n4107801754",
+        "@changeset": 84520365,
+        "@timestamp": "2020-05-02T13:04:18Z",
+        "@version": 4,
+        "@uid": 1729508,
+        "@user": "Gerd Waldmann",
+        "brand": "Proxi",
+        "brand:wikidata": "Q3408522",
+        "brand:wikipedia": "fr:Proxi",
+        "name": "Proxi",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7844199,
+          43.3712344
         ]
       }
     },
@@ -41691,37 +41694,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2475.5,
-        "@id": "w338934655",
-        "@changeset": 91049623,
-        "@timestamp": "2020-09-17T12:59:55Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "alt_name": "Abri de Port-Bielh",
-        "amenity": "shelter",
-        "building": "yes",
-        "capacity": 2,
-        "ele": 2100,
-        "fireplace": "no",
-        "name": "Cabane de Coste Queillère",
-        "note": "2",
-        "shelter_type": "basic_hut",
-        "stove": "no",
-        "website": "https://www.refuges.info/point/3532/cabane-non-gardee/Bigorre/Cabane-de-Coste-Queillere/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.1868689,
-          42.8610884
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 2679.3,
         "@id": "n5827510359",
@@ -44191,6 +44163,37 @@
         "coordinates": [
           -0.1672818,
           42.8467023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2475.5,
+        "@id": "w338934655",
+        "@changeset": 91049623,
+        "@timestamp": "2020-09-17T12:59:55Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "alt_name": "Abri de Port-Bielh",
+        "amenity": "shelter",
+        "building": "yes",
+        "capacity": 2,
+        "ele": 2100,
+        "fireplace": "no",
+        "name": "Cabane de Coste Queillère",
+        "note": "2",
+        "shelter_type": "basic_hut",
+        "stove": "no",
+        "website": "https://www.refuges.info/point/3532/cabane-non-gardee/Bigorre/Cabane-de-Coste-Queillere/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1868689,
+          42.8610884
         ]
       }
     },
@@ -53461,6 +53464,28 @@
         "coordinates": [
           2.7959177,
           42.4195247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 2839.9,
+        "@id": "n9074855199",
+        "@changeset": 110940717,
+        "@timestamp": "2021-09-08T22:36:36Z",
+        "@version": 1,
+        "@uid": 6888408,
+        "@user": "Rooart",
+        "amenity": "drinking_water",
+        "name": "Fontaine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6689701,
+          42.4723598
         ]
       }
     },

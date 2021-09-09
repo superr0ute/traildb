@@ -229,6 +229,35 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "mountain-pass",
+        "@distance": 18,
+        "@id": "n255237930",
+        "@changeset": 110902788,
+        "@timestamp": "2021-09-08T08:33:05Z",
+        "@version": 16,
+        "@uid": 2528562,
+        "@user": "Collonges Mapper",
+        "ele": 178,
+        "mountain_pass": "yes",
+        "name": "Lizuniaga",
+        "name:es": "Puerto de Lizuniaga",
+        "name:eu": "Lizuniagako mendatea",
+        "name:fr": "Port de Lizuniaga",
+        "natural": "saddle",
+        "wikidata": "Q12262514",
+        "wikipedia": "eu:Lizuniaga"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6322162,
+          43.2823965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 7858,
         "@id": "n298246010",
@@ -9432,12 +9461,13 @@
         "@poi": "water_drinking-water",
         "@distance": 2031.8,
         "@id": "n892011238",
-        "@changeset": 16674079,
-        "@timestamp": "2013-06-23T18:46:52Z",
-        "@version": 2,
+        "@changeset": 110928073,
+        "@timestamp": "2021-09-08T16:28:32Z",
+        "@version": 3,
         "@uid": 863649,
         "@user": "Uranzu",
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "check_date": "2021-09-08"
       },
       "geometry": {
         "type": "Point",
@@ -18527,12 +18557,13 @@
         "@poi": "water_drinking-water",
         "@distance": 2662.1,
         "@id": "n2177509739",
-        "@changeset": 15188917,
-        "@timestamp": "2013-02-27T18:50:43Z",
-        "@version": 1,
-        "@uid": 548834,
-        "@user": "dr_grijando",
-        "amenity": "drinking_water"
+        "@changeset": 110928073,
+        "@timestamp": "2021-09-08T17:17:27Z",
+        "@version": 2,
+        "@uid": 863649,
+        "@user": "Uranzu",
+        "amenity": "drinking_water",
+        "check_date": "2021-09-08"
       },
       "geometry": {
         "type": "Point",
@@ -18548,12 +18579,13 @@
         "@poi": "water_drinking-water",
         "@distance": 2603.7,
         "@id": "n2177509741",
-        "@changeset": 15188917,
-        "@timestamp": "2013-02-27T18:50:43Z",
-        "@version": 1,
-        "@uid": 548834,
-        "@user": "dr_grijando",
-        "amenity": "drinking_water"
+        "@changeset": 110928073,
+        "@timestamp": "2021-09-08T15:55:43Z",
+        "@version": 2,
+        "@uid": 863649,
+        "@user": "Uranzu",
+        "amenity": "drinking_water",
+        "check_date": "2021-09-08"
       },
       "geometry": {
         "type": "Point",
@@ -26652,31 +26684,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 868.7,
-        "@id": "n4107801754",
-        "@changeset": 84520365,
-        "@timestamp": "2020-05-02T13:04:18Z",
-        "@version": 4,
-        "@uid": 1729508,
-        "@user": "Gerd Waldmann",
-        "brand": "Proxi",
-        "brand:wikidata": "Q3408522",
-        "brand:wikipedia": "fr:Proxi",
-        "name": "Proxi",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.7844199,
-          43.3712344
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 8258.8,
         "@id": "n2700247436",
@@ -29808,6 +29815,31 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 868.7,
+        "@id": "n4107801754",
+        "@changeset": 84520365,
+        "@timestamp": "2020-05-02T13:04:18Z",
+        "@version": 4,
+        "@uid": 1729508,
+        "@user": "Gerd Waldmann",
+        "brand": "Proxi",
+        "brand:wikidata": "Q3408522",
+        "brand:wikipedia": "fr:Proxi",
+        "name": "Proxi",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7844199,
+          43.3712344
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_spring",
         "@distance": 282.8,
         "@id": "n4146327360",
@@ -30235,29 +30267,6 @@
         "coordinates": [
           -1.5077673,
           43.2130835
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 2356.6,
-        "@id": "n4593334777",
-        "@changeset": 44966519,
-        "@timestamp": "2017-01-06T21:06:35Z",
-        "@version": 1,
-        "@uid": 863649,
-        "@user": "Uranzu",
-        "amenity": "drinking_water",
-        "drinking_water": "yes",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.5101921,
-          43.2196778
         ]
       }
     },
@@ -34231,6 +34240,29 @@
         "coordinates": [
           2.8394056,
           42.530621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 2356.6,
+        "@id": "n4593334777",
+        "@changeset": 44966519,
+        "@timestamp": "2017-01-06T21:06:35Z",
+        "@version": 1,
+        "@uid": 863649,
+        "@user": "Uranzu",
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5101921,
+          43.2196778
         ]
       }
     },
@@ -47129,6 +47161,28 @@
         "coordinates": [
           2.7959177,
           42.4195247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 130.6,
+        "@id": "n9074855199",
+        "@changeset": 110940717,
+        "@timestamp": "2021-09-08T22:36:36Z",
+        "@version": 1,
+        "@uid": 6888408,
+        "@user": "Rooart",
+        "amenity": "drinking_water",
+        "name": "Fontaine"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6689701,
+          42.4723598
         ]
       }
     },
