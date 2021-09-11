@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-09-09T23:59:59Z",
-    "timestamp_osm_base": "2021-09-10T04:58:13Z",
+    "timestamp_osm_date": "2021-09-10T23:59:59Z",
+    "timestamp_osm_base": "2021-09-11T04:45:42Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -7814,13 +7814,15 @@
       "id": 1195321824,
       "lat": 46.176891,
       "lon": 9.4278252,
-      "timestamp": "2014-08-31T10:32:51Z",
-      "version": 3,
-      "changeset": 25134827,
-      "user": "kaktus67",
-      "uid": 2301582,
+      "timestamp": "2021-09-10T13:00:28Z",
+      "version": 4,
+      "changeset": 111023285,
+      "user": "geow",
+      "uid": 223093,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "man_made": "water_tap"
       }
     },
     {
@@ -11639,6 +11641,23 @@
     },
     {
       "type": "node",
+      "id": 1848656775,
+      "lat": 46.1991001,
+      "lon": 9.4781458,
+      "timestamp": "2021-09-10T16:40:55Z",
+      "version": 4,
+      "changeset": 111032863,
+      "user": "geow",
+      "uid": 223093,
+      "tags": {
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "drinking_water:legal": "no",
+        "man_made": "water_tap"
+      }
+    },
+    {
+      "type": "node",
       "id": 1863923821,
       "lat": 46.4352289,
       "lon": 9.7838914,
@@ -12967,15 +12986,16 @@
     {
       "type": "node",
       "id": 2352021604,
-      "lat": 46.2035743,
-      "lon": 9.4628739,
-      "timestamp": "2013-06-19T10:11:33Z",
-      "version": 1,
-      "changeset": 16614933,
-      "user": "Mirotti",
-      "uid": 448761,
+      "lat": 46.2034576,
+      "lon": 9.462875,
+      "timestamp": "2021-09-10T16:40:55Z",
+      "version": 2,
+      "changeset": 111032863,
+      "user": "geow",
+      "uid": 223093,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "man_made": "water_tap"
       }
     },
     {
@@ -20835,15 +20855,17 @@
       "id": 3708183333,
       "lat": 46.1876175,
       "lon": 9.4446209,
-      "timestamp": "2021-07-28T12:53:36Z",
-      "version": 2,
-      "changeset": 108759791,
-      "user": "Marty5550",
-      "uid": 10901495,
+      "timestamp": "2021-09-10T13:00:28Z",
+      "version": 3,
+      "changeset": 111023285,
+      "user": "geow",
+      "uid": 223093,
       "tags": {
         "amenity": "drinking_water",
         "bottle": "yes",
-        "fee": "no"
+        "drinking_water": "yes",
+        "fee": "no",
+        "man_made": "water_tap"
       }
     },
     {
@@ -38404,6 +38426,36 @@
       }
     },
     {
+      "type": "node",
+      "id": 9079021371,
+      "lat": 46.3334505,
+      "lon": 9.5145766,
+      "timestamp": "2021-09-10T09:46:10Z",
+      "version": 1,
+      "changeset": 111015145,
+      "user": "bseiler",
+      "uid": 13540523,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9080783036,
+      "lat": 46.3339556,
+      "lon": 9.5163693,
+      "timestamp": "2021-09-10T18:33:14Z",
+      "version": 1,
+      "changeset": 111037276,
+      "user": "bseiler",
+      "uid": 13540523,
+      "tags": {
+        "addr:city": "Castasegna",
+        "name": "Negozio Alimentari Rosanna",
+        "shop": "convenience"
+      }
+    },
+    {
       "type": "way",
       "id": 72501779,
       "timestamp": "2017-08-27T16:17:29Z",
@@ -42473,6 +42525,45 @@
       "tags": {
         "name": "North Wind",
         "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 541501364,
+      "timestamp": "2021-09-10T04:27:17Z",
+      "version": 2,
+      "changeset": 111002143,
+      "user": "alesarrett",
+      "uid": 1716320,
+      "center": {
+        "lat": 46.103809,
+        "lon": 9.6776546
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "description": "Baita in legno \"block bau\" di tipologia ad avancorpo, 1700",
+        "name": "\"Ià de Gàvet\"",
+        "tourism": "alpine_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 541502717,
+      "timestamp": "2021-09-10T04:27:17Z",
+      "version": 3,
+      "changeset": 111002143,
+      "user": "alesarrett",
+      "uid": 1716320,
+      "center": {
+        "lat": 46.1248084,
+        "lon": 9.7015639
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Baita Piana",
+        "tourism": "alpine_hut"
       }
     },
     {

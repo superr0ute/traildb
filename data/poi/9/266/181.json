@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-09-09T23:59:59Z",
-    "timestamp_osm_base": "2021-09-10T04:31:32Z",
+    "timestamp_osm_date": "2021-09-10T23:59:59Z",
+    "timestamp_osm_base": "2021-09-11T04:30:14Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3091,14 +3091,15 @@
       "id": 291050651,
       "lat": 46.085784,
       "lon": 7.5191144,
-      "timestamp": "2015-04-29T10:24:53Z",
-      "version": 2,
-      "changeset": 30614022,
-      "user": "dubochet",
-      "uid": 55320,
+      "timestamp": "2021-09-10T18:09:18Z",
+      "version": 3,
+      "changeset": 111036436,
+      "user": "fred_walker",
+      "uid": 369556,
       "tags": {
         "name": "La Forclaz",
-        "place": "village"
+        "place": "village",
+        "population": "130"
       }
     },
     {
@@ -9890,11 +9891,11 @@
       "id": 1049727140,
       "lat": 46.2274401,
       "lon": 7.3589112,
-      "timestamp": "2020-02-25T14:17:20Z",
-      "version": 8,
-      "changeset": 81459614,
-      "user": "keigan160",
-      "uid": 2028552,
+      "timestamp": "2021-09-10T20:59:36Z",
+      "version": 9,
+      "changeset": 111041981,
+      "user": "BBMaper",
+      "uid": 384661,
       "tags": {
         "addr:postcode": "1950",
         "addr:street": "Place de la Gare",
@@ -9902,8 +9903,10 @@
         "brand:wikidata": "Q1129777",
         "brand:wikipedia": "de:Coop Mineraloel",
         "name": "Coop Pronto",
+        "opening_hours": "Mo-Su 05:00-22:00",
+        "phone": "+41275441412",
         "shop": "convenience",
-        "website": "https://www.coop.ch/"
+        "website": "https://www.coop-pronto.ch/fr/site/sion-gare/"
       }
     },
     {
@@ -20528,16 +20531,20 @@
     {
       "type": "node",
       "id": 4767607434,
-      "lat": 46.0859209,
-      "lon": 7.5208405,
-      "timestamp": "2017-03-31T15:32:04Z",
-      "version": 1,
-      "changeset": 47329678,
-      "user": "Valentin Sandoz",
-      "uid": 3447690,
+      "lat": 46.0859037,
+      "lon": 7.5207749,
+      "timestamp": "2021-09-10T16:50:49Z",
+      "version": 2,
+      "changeset": 111033333,
+      "user": "fred_walker",
+      "uid": 369556,
       "tags": {
+        "addr:city": "La Forclaz",
+        "addr:housenumber": "5",
+        "addr:postcode": "1985",
+        "addr:street": "Route de Bréona",
         "name": "Chez Gusti - Alimentation",
-        "operator": "G",
+        "operator": "Gusti",
         "shop": "convenience"
       }
     },
@@ -26538,6 +26545,25 @@
       }
     },
     {
+      "type": "node",
+      "id": 9079910724,
+      "lat": 46.2288882,
+      "lon": 7.351877,
+      "timestamp": "2021-09-10T17:52:58Z",
+      "version": 2,
+      "changeset": 111035798,
+      "user": "BBMaper",
+      "uid": 384661,
+      "tags": {
+        "addr:housenumber": "50",
+        "addr:street": "Avenue de France",
+        "name": "CotCot le Mag",
+        "opening_hours": "Tu-Fr 09:00-12:30, 13:30-18:30; Sa 09:00-17:00",
+        "shop": "convenience",
+        "website": "https://www.cotcot.ch/epicerie-cotcot/"
+      }
+    },
+    {
       "type": "way",
       "id": 26213021,
       "timestamp": "2011-01-17T01:15:35Z",
@@ -27913,14 +27939,14 @@
     {
       "type": "way",
       "id": 236984494,
-      "timestamp": "2019-05-23T17:51:09Z",
-      "version": 5,
-      "changeset": 70560943,
-      "user": "RaphB",
-      "uid": 5864987,
+      "timestamp": "2021-09-10T11:59:48Z",
+      "version": 6,
+      "changeset": 111020898,
+      "user": "BBMaper",
+      "uid": 384661,
       "center": {
         "lat": 46.211602,
-        "lon": 7.3159978
+        "lon": 7.3159995
       },
       "nodes": [],
       "tags": {
@@ -29452,6 +29478,24 @@
       "center": {
         "lat": 46.1305384,
         "lon": 7.105404
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 981611199,
+      "timestamp": "2021-09-10T13:37:43Z",
+      "version": 1,
+      "changeset": 111024922,
+      "user": "BBMaper",
+      "uid": 384661,
+      "center": {
+        "lat": 46.2174545,
+        "lon": 7.3404713
       },
       "nodes": [],
       "tags": {
