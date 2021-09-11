@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-05T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-10T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11123868,
-      "timestamp": "2021-09-05T08:52:15Z",
-      "version": 161,
-      "changeset": 110740560,
-      "user": "hatul",
-      "uid": 686490,
+      "timestamp": "2021-09-10T13:18:14Z",
+      "version": 162,
+      "changeset": 111024063,
+      "user": "valleyofdawn",
+      "uid": 356970,
       "members": [
         {"type": "way", "ref": 723053761, "role": ""},
         {"type": "way", "ref": 853340709, "role": ""},
@@ -1570,6 +1570,7 @@
         {"type": "way", "ref": 814130159, "role": ""},
         {"type": "way", "ref": 57823405, "role": ""},
         {"type": "way", "ref": 814130162, "role": ""},
+        {"type": "way", "ref": 981606555, "role": ""},
         {"type": "way", "ref": 336339362, "role": ""},
         {"type": "way", "ref": 95490754, "role": ""},
         {"type": "way", "ref": 426428326, "role": ""},
@@ -6537,7 +6538,7 @@
         {"lat": 31.7489133, "lon": 35.2003798},
         {"lat": 31.7496327, "lon": 35.1998737},
         {"lat": 31.7507884, "lon": 35.1991092},
-        {"lat": 31.7512007, "lon": 35.1987729}
+        {"lat": 31.7511817, "lon": 35.1988373}
       ],
       "tags": {"highway": "footway", "railway": "disused"}
     },
@@ -22334,16 +22335,14 @@
     {
       "type": "way",
       "id": 336339362,
-      "timestamp": "2018-02-07T08:33:53Z",
-      "version": 2,
-      "changeset": 56141849,
+      "timestamp": "2021-09-10T13:18:14Z",
+      "version": 3,
+      "changeset": 111024063,
       "user": "valleyofdawn",
       "uid": 356970,
-      "nodes": [1107321745, 602287790],
+      "nodes": [5395281307, 602287790],
       "geometry": [
-        {"lat": 32.5828187, "lon": 35.1759011},
-        {"lat": 32.583073, "lon": 35.175746},
-        {"lat": 32.583387, "lon": 35.175598},
+        {"lat": 32.5833667, "lon": 35.1756208},
         {"lat": 32.583425, "lon": 35.175532},
         {"lat": 32.583413, "lon": 35.175444},
         {"lat": 32.583375, "lon": 35.175311},
@@ -22357,7 +22356,7 @@
         {"lat": 32.584336, "lon": 35.173664},
         {"lat": 32.5844318, "lon": 35.1734027}
       ],
-      "tags": {"highway": "track"}
+      "tags": {"highway": "track", "tracktype": "grade3"}
     },
     {
       "type": "way",
@@ -71366,11 +71365,11 @@
     {
       "type": "way",
       "id": 95490754,
-      "timestamp": "2020-06-09T10:03:10Z",
-      "version": 9,
-      "changeset": 86400591,
-      "user": "dudigolani",
-      "uid": 10984507,
+      "timestamp": "2021-09-10T13:18:14Z",
+      "version": 10,
+      "changeset": 111024063,
+      "user": "valleyofdawn",
+      "uid": 356970,
       "nodes": [4257167874, 1107321745],
       "geometry": [
         {"lat": 32.5744613, "lon": 35.1775283},
@@ -71397,7 +71396,7 @@
         {"lat": 32.5826289, "lon": 35.1761314},
         {"lat": 32.5828187, "lon": 35.1759011}
       ],
-      "tags": {"bicycle": "yes", "foot": "yes", "highway": "track"}
+      "tags": {"bicycle": "yes", "foot": "yes", "highway": "unclassified"}
     },
     {
       "type": "way",
@@ -72596,6 +72595,22 @@
         {"lat": 31.34593, "lon": 35.0954}
       ],
       "tags": {"bicycle": "yes", "foot": "yes", "highway": "track"}
+    },
+    {
+      "type": "way",
+      "id": 981606555,
+      "timestamp": "2021-09-10T13:18:14Z",
+      "version": 1,
+      "changeset": 111024063,
+      "user": "valleyofdawn",
+      "uid": 356970,
+      "nodes": [1107321745, 5395281307],
+      "geometry": [
+        {"lat": 32.5828187, "lon": 35.1759011},
+        {"lat": 32.583073, "lon": 35.175746},
+        {"lat": 32.5833667, "lon": 35.1756208}
+      ],
+      "tags": {"highway": "unclassified"}
     }
   ]
 }

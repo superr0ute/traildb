@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-09T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-10T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 12038457,
-      "timestamp": "2021-09-09T05:03:13Z",
-      "version": 137,
-      "changeset": 110948428,
+      "timestamp": "2021-09-10T16:59:18Z",
+      "version": 138,
+      "changeset": 111033743,
       "user": "TeLewis",
       "uid": 10135746,
       "members": [
@@ -459,17 +459,9 @@
         {"type": "way", "ref": 981011107, "role": ""},
         {"type": "way", "ref": 981011106, "role": ""},
         {"type": "way", "ref": 981011101, "role": ""},
-        {"type": "way", "ref": 981011104, "role": ""},
-        {"type": "way", "ref": 981011105, "role": ""},
-        {"type": "way", "ref": 981011100, "role": ""},
-        {"type": "way", "ref": 888798892, "role": ""},
-        {"type": "way", "ref": 981011102, "role": ""},
-        {"type": "way", "ref": 981011097, "role": ""},
-        {"type": "way", "ref": 981011103, "role": ""},
-        {"type": "way", "ref": 981011098, "role": ""},
-        {"type": "way", "ref": 981011099, "role": ""},
-        {"type": "way", "ref": 947925080, "role": ""},
+        {"type": "way", "ref": 981702753, "role": ""},
         {"type": "way", "ref": 947925081, "role": ""},
+        {"type": "way", "ref": 981702752, "role": ""},
         {"type": "way", "ref": 553416277, "role": ""},
         {"type": "way", "ref": 886583379, "role": ""},
         {"type": "way", "ref": 741809716, "role": ""},
@@ -887,7 +879,19 @@
         {"type": "way", "ref": 25958067, "role": ""},
         {"type": "way", "ref": 375011044, "role": ""},
         {"type": "way", "ref": 480212296, "role": ""},
-        {"type": "way", "ref": 503128102, "role": ""}
+        {"type": "way", "ref": 503128102, "role": ""},
+        {"type": "way", "ref": 981702751, "role": ""},
+        {"type": "way", "ref": 947925080, "role": ""},
+        {"type": "way", "ref": 947925080, "role": ""},
+        {"type": "way", "ref": 981011097, "role": ""},
+        {"type": "way", "ref": 981011098, "role": ""},
+        {"type": "way", "ref": 981011099, "role": ""},
+        {"type": "way", "ref": 981011100, "role": ""},
+        {"type": "way", "ref": 888798892, "role": ""},
+        {"type": "way", "ref": 981011102, "role": ""},
+        {"type": "way", "ref": 981011103, "role": ""},
+        {"type": "way", "ref": 981011104, "role": ""},
+        {"type": "way", "ref": 981011105, "role": ""}
       ],
       "tags": {
         "from": "Anderson Hill, Oak Bay",
@@ -33074,24 +33078,13 @@
     {
       "type": "way",
       "id": 947925081,
-      "timestamp": "2021-09-08T18:18:54Z",
-      "version": 2,
-      "changeset": 110933439,
+      "timestamp": "2021-09-10T16:59:18Z",
+      "version": 3,
+      "changeset": 111033743,
       "user": "TeLewis",
       "uid": 10135746,
-      "nodes": [8263294679, 8263290265],
+      "nodes": [8263294689, 8263290265],
       "geometry": [
-        {"lat": 49.0109157, "lon": -124.8262806},
-        {"lat": 49.0111078, "lon": -124.8263633},
-        {"lat": 49.0112554, "lon": -124.8265391},
-        {"lat": 49.0113398, "lon": -124.8269794},
-        {"lat": 49.0115665, "lon": -124.8272534},
-        {"lat": 49.0121136, "lon": -124.8271781},
-        {"lat": 49.0122914, "lon": -124.8270911},
-        {"lat": 49.0124714, "lon": -124.8265712},
-        {"lat": 49.0125985, "lon": -124.8259539},
-        {"lat": 49.012921, "lon": -124.8253809},
-        {"lat": 49.0133285, "lon": -124.8249225},
         {"lat": 49.0134105, "lon": -124.8247605},
         {"lat": 49.0135841, "lon": -124.8246528},
         {"lat": 49.013696, "lon": -124.8243884},
@@ -37752,6 +37745,80 @@
         "surface": "gravel",
         "trail_visibility": "good",
         "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 981702751,
+      "timestamp": "2021-09-10T16:59:18Z",
+      "version": 1,
+      "changeset": 111033743,
+      "user": "TeLewis",
+      "uid": 10135746,
+      "nodes": [5312952965, 8773818376],
+      "geometry": [
+        {"lat": 49.0093323, "lon": -124.8249543},
+        {"lat": 49.009682, "lon": -124.8253468}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "1",
+        "name": "Heather Creek Main",
+        "surface": "gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 981702752,
+      "timestamp": "2021-09-10T16:59:18Z",
+      "version": 1,
+      "changeset": 111033743,
+      "user": "TeLewis",
+      "uid": 10135746,
+      "nodes": [8263294679, 8263294510],
+      "geometry": [
+        {"lat": 49.0109157, "lon": -124.8262806},
+        {"lat": 49.0111078, "lon": -124.8263633},
+        {"lat": 49.0112554, "lon": -124.8265391},
+        {"lat": 49.0113398, "lon": -124.8269794},
+        {"lat": 49.0115908, "lon": -124.8273393}
+      ],
+      "tags": {
+        "highway": "footway",
+        "name": "Runners Trail",
+        "note": "Needs ground survey",
+        "source": "Vancouver Island Trail Association",
+        "surface": "ground",
+        "width": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 981702753,
+      "timestamp": "2021-09-10T16:59:18Z",
+      "version": 1,
+      "changeset": 111033743,
+      "user": "TeLewis",
+      "uid": 10135746,
+      "nodes": [8263294510, 8263294689],
+      "geometry": [
+        {"lat": 49.0115908, "lon": -124.8273393},
+        {"lat": 49.0121136, "lon": -124.8271781},
+        {"lat": 49.0122914, "lon": -124.8270911},
+        {"lat": 49.0124714, "lon": -124.8265712},
+        {"lat": 49.0125985, "lon": -124.8259539},
+        {"lat": 49.012921, "lon": -124.8253809},
+        {"lat": 49.0132699, "lon": -124.8248419},
+        {"lat": 49.0134105, "lon": -124.8247605}
+      ],
+      "tags": {
+        "highway": "track",
+        "name": "Runners Trail",
+        "note": "Needs ground survey",
+        "smoothness": "bad",
+        "source": "Vancouver Island Trail Association",
+        "surface": "gravel",
+        "width": "4"
       }
     }
   ]
