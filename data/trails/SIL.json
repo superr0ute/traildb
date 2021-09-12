@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-10T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-11T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2049,15 +2049,16 @@
     {
       "type": "relation",
       "id": 7700284,
-      "timestamp": "2019-10-27T16:05:50Z",
-      "version": 9,
-      "changeset": 76269801,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-09-11T07:09:00Z",
+      "version": 10,
+      "changeset": 111050842,
+      "user": "saldsl",
+      "uid": 192446,
       "members": [
         {"type": "way", "ref": 537357542, "role": ""},
         {"type": "way", "ref": 110399440, "role": ""},
         {"type": "way", "ref": 537357541, "role": ""},
+        {"type": "way", "ref": 981915819, "role": ""},
         {"type": "way", "ref": 27378053, "role": ""},
         {"type": "way", "ref": 537357540, "role": ""}
       ],
@@ -34016,17 +34017,13 @@
     {
       "type": "way",
       "id": 27378053,
-      "timestamp": "2017-06-21T07:32:41Z",
-      "version": 11,
-      "changeset": 49712625,
-      "user": "STCgeo",
-      "uid": 3539273,
-      "nodes": [300546644, 300546424],
+      "timestamp": "2021-09-11T07:09:00Z",
+      "version": 12,
+      "changeset": 111050842,
+      "user": "saldsl",
+      "uid": 192446,
+      "nodes": [300546634, 300546424],
       "geometry": [
-        {"lat": 46.238755, "lon": 9.47361},
-        {"lat": 46.238576, "lon": 9.473472},
-        {"lat": 46.238491, "lon": 9.473074},
-        {"lat": 46.2380397, "lon": 9.4729042},
         {"lat": 46.237736, "lon": 9.472616},
         {"lat": 46.2375981, "lon": 9.4724906},
         {"lat": 46.2373713, "lon": 9.4723772},
@@ -68545,11 +68542,11 @@
     {
       "type": "way",
       "id": 521637953,
-      "timestamp": "2017-09-05T19:49:54Z",
-      "version": 1,
-      "changeset": 51761583,
-      "user": "*abq*",
-      "uid": 3696195,
+      "timestamp": "2021-09-11T07:09:00Z",
+      "version": 2,
+      "changeset": 111050842,
+      "user": "saldsl",
+      "uid": 192446,
       "nodes": [300540973, 1280158705],
       "geometry": [
         {"lat": 46.2390666, "lon": 9.474173},
@@ -68570,6 +68567,7 @@
         "mtb:scale:uphill": "5",
         "sac_scale": "mountain_hiking",
         "sidewalk": "both",
+        "surface": "gravel",
         "trail_visibility": "excellent",
         "width": "1"
       }
@@ -71840,15 +71838,15 @@
     {
       "type": "way",
       "id": 537357540,
-      "timestamp": "2017-11-01T08:55:55Z",
-      "version": 1,
-      "changeset": 53417514,
-      "user": "Gianfranco2014",
-      "uid": 1928626,
+      "timestamp": "2021-09-11T07:09:00Z",
+      "version": 2,
+      "changeset": 111050842,
+      "user": "saldsl",
+      "uid": 192446,
       "nodes": [300546644, 300540973],
       "geometry": [
         {"lat": 46.238755, "lon": 9.47361},
-        {"lat": 46.2388222, "lon": 9.4737347},
+        {"lat": 46.2388579, "lon": 9.4738343},
         {"lat": 46.2390239, "lon": 9.47397},
         {"lat": 46.2390666, "lon": 9.474173}
       ],
@@ -71856,7 +71854,8 @@
         "foot": "yes",
         "highway": "path",
         "mtb:scale": "2",
-        "sidewalk": "both"
+        "sidewalk": "both",
+        "surface": "paving_stones"
       }
     },
     {
@@ -100926,6 +100925,35 @@
         "highway": "cycleway",
         "motor_vehicle": "private",
         "width": "2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 981915819,
+      "timestamp": "2021-09-11T07:09:00Z",
+      "version": 1,
+      "changeset": 111050842,
+      "user": "saldsl",
+      "uid": 192446,
+      "nodes": [300546644, 300546634],
+      "geometry": [
+        {"lat": 46.238755, "lon": 9.47361},
+        {"lat": 46.238576, "lon": 9.473472},
+        {"lat": 46.2385284, "lon": 9.4733955},
+        {"lat": 46.2385366, "lon": 9.4732652},
+        {"lat": 46.2385018, "lon": 9.4730359},
+        {"lat": 46.2383901, "lon": 9.4729611},
+        {"lat": 46.2380397, "lon": 9.4729042},
+        {"lat": 46.237736, "lon": 9.472616}
+      ],
+      "tags": {
+        "bicycle": "dismount",
+        "foot": "yes",
+        "highway": "path",
+        "mtb:scale": "4",
+        "name": "Novate Mezzola - Codera",
+        "sac_scale": "mountain_hiking",
+        "surface": "paving_stones"
       }
     },
     {

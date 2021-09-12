@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-10T02:29:41Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-12T02:31:28Z"},
   "elements": [
     {
       "type": "relation",
@@ -5382,11 +5382,11 @@
     {
       "type": "way",
       "id": 118499912,
-      "timestamp": "2019-10-27T15:23:58Z",
-      "version": 6,
-      "changeset": 76268773,
-      "user": "jepee",
-      "uid": 9292967,
+      "timestamp": "2021-09-11T19:13:14Z",
+      "version": 7,
+      "changeset": 111074479,
+      "user": "EsMercadal",
+      "uid": 14095379,
       "nodes": [1215822332, 1319290174],
       "geometry": [
         {"lat": 40.0592779, "lon": 4.0808799, "z": 29.9},
@@ -5405,7 +5405,7 @@
         {"lat": 40.061099, "lon": 4.0771836, "z": 2.7},
         {"lat": 40.0610509, "lon": 4.0770488, "z": 0.8}
       ],
-      "tags": {"highway": "path", "name": "Cami de Cavalls"}
+      "tags": {"highway": "path", "name": "Cami de Cavalls", "surface": "rock"}
     },
     {
       "type": "way",
@@ -8077,11 +8077,11 @@
     {
       "type": "way",
       "id": 164247898,
-      "timestamp": "2019-10-27T15:23:58Z",
-      "version": 2,
-      "changeset": 76268773,
-      "user": "jepee",
-      "uid": 9292967,
+      "timestamp": "2021-09-11T19:13:17Z",
+      "version": 6,
+      "changeset": 111074510,
+      "user": "EsMercadal",
+      "uid": 14095379,
       "nodes": [1319290174, 1332679401],
       "geometry": [
         {"lat": 40.0610509, "lon": 4.0770488, "z": 0.8},
@@ -8091,7 +8091,15 @@
         {"lat": 40.0606745, "lon": 4.0770764, "z": 2.3},
         {"lat": 40.0606065, "lon": 4.077151, "z": 3.6}
       ],
-      "tags": {"highway": "steps", "step_count": "80", "surface": "wood"}
+      "tags": {
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "no",
+        "ramp": "no",
+        "step_count": "80",
+        "surface": "wood"
+      }
     },
     {
       "type": "way",
