@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-08-19T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-12T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -13782,9 +13782,9 @@
     {
       "type": "way",
       "id": 620060952,
-      "timestamp": "2020-03-08T14:56:49Z",
-      "version": 4,
-      "changeset": 81925305,
+      "timestamp": "2021-09-12T14:58:49Z",
+      "version": 5,
+      "changeset": 111100166,
       "user": "lqlqlqlio",
       "uid": 9516754,
       "nodes": [1198016550, 1198015721],
@@ -13814,7 +13814,12 @@
         {"lat": 41.8979928, "lon": 25.2948806},
         {"lat": 41.8979134, "lon": 25.2950157}
       ],
-      "tags": {"highway": "unclassified"}
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "1",
+        "smoothness": "very_bad",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
