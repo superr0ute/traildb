@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-12T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-13T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 136334,
-      "timestamp": "2021-09-12T21:17:57Z",
-      "version": 498,
-      "changeset": 111113021,
+      "timestamp": "2021-09-13T21:52:38Z",
+      "version": 499,
+      "changeset": 111166677,
       "user": "gabriele_sani",
       "uid": 7078274,
       "members": [
@@ -750,8 +750,7 @@
         {"type": "way", "ref": 362470034, "role": ""},
         {"type": "way", "ref": 242736834, "role": ""},
         {"type": "way", "ref": 132844508, "role": ""},
-        {"type": "way", "ref": 534105352, "role": ""},
-        {"type": "way", "ref": 972610521, "role": ""}
+        {"type": "way", "ref": 534105352, "role": ""}
       ],
       "tags": {
         "ascent": "12731",
@@ -12340,11 +12339,11 @@
     {
       "type": "way",
       "id": 342750078,
-      "timestamp": "2018-10-08T15:00:56Z",
-      "version": 5,
-      "changeset": 63314799,
-      "user": "Dino Michelini",
-      "uid": 3151555,
+      "timestamp": "2021-09-13T20:53:32Z",
+      "version": 6,
+      "changeset": 111165185,
+      "user": "gabriele_sani",
+      "uid": 7078274,
       "nodes": [472599495, 4758278198],
       "geometry": [
         {"lat": 43.8110738, "lon": 11.8514602},
@@ -12353,7 +12352,12 @@
         {"lat": 43.811923, "lon": 11.8511976},
         {"lat": 43.8122263, "lon": 11.8509991}
       ],
-      "tags": {"highway": "path", "sac_scale": "hiking", "surface": "ground"}
+      "tags": {
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "surface": "ground",
+        "trail_visibility": "excellent"
+      }
     },
     {
       "type": "way",
@@ -14253,11 +14257,11 @@
     {
       "type": "way",
       "id": 39462023,
-      "timestamp": "2018-10-08T15:00:55Z",
-      "version": 9,
-      "changeset": 63314799,
-      "user": "Dino Michelini",
-      "uid": 3151555,
+      "timestamp": "2021-09-13T20:53:32Z",
+      "version": 10,
+      "changeset": 111165185,
+      "user": "gabriele_sani",
+      "uid": 7078274,
       "nodes": [4758278198, 2495862594],
       "geometry": [
         {"lat": 43.8122263, "lon": 11.8509991},
@@ -14385,7 +14389,7 @@
       ],
       "tags": {
         "highway": "path",
-        "sac_scale": "hiking",
+        "sac_scale": "mountain_hiking",
         "surface": "unpaved",
         "trail_visibility": "excellent"
       }
@@ -14393,11 +14397,11 @@
     {
       "type": "way",
       "id": 395308696,
-      "timestamp": "2019-10-30T13:50:03Z",
-      "version": 5,
-      "changeset": 76396840,
-      "user": "lucadelu",
-      "uid": 13591,
+      "timestamp": "2021-09-13T21:52:38Z",
+      "version": 6,
+      "changeset": 111166677,
+      "user": "gabriele_sani",
+      "uid": 7078274,
       "nodes": [565503121, 565503145],
       "geometry": [
         {"lat": 43.8097701, "lon": 11.903231},
@@ -14426,7 +14430,13 @@
         {"lat": 43.8130812, "lon": 11.9103254},
         {"lat": 43.8132091, "lon": 11.9105745}
       ],
-      "tags": {"bicycle": "yes", "highway": "path", "mtb:scale": "1"}
+      "tags": {
+        "highway": "path",
+        "mtb:scale": "1",
+        "sac_scale": "mountain_hiking",
+        "surface": "ground",
+        "trail_visibility": "excellent"
+      }
     },
     {
       "type": "way",
@@ -22380,9 +22390,9 @@
     {
       "type": "way",
       "id": 534105352,
-      "timestamp": "2019-12-05T16:14:09Z",
-      "version": 5,
-      "changeset": 78007991,
+      "timestamp": "2021-09-13T21:52:38Z",
+      "version": 6,
+      "changeset": 111166677,
       "user": "gabriele_sani",
       "uid": 7078274,
       "nodes": [1258832180, 4931019456],
@@ -22391,13 +22401,13 @@
         {"lat": 43.8091857, "lon": 11.8997396}
       ],
       "tags": {
-        "access": "yes",
         "class:bicycle:mtb": "1",
         "highway": "track",
         "maxspeed": "30",
         "motor_vehicle": "forestry",
         "mtb:scale": "0",
         "mtb:scale:uphill": "0",
+        "sac_scale": "hiking",
         "smoothness": "very_bad",
         "surface": "ground",
         "tracktype": "grade2"
@@ -24547,13 +24557,18 @@
     {
       "type": "way",
       "id": 579596462,
-      "timestamp": "2021-08-12T15:08:09Z",
-      "version": 2,
-      "changeset": 109579996,
+      "timestamp": "2021-09-13T21:52:38Z",
+      "version": 3,
+      "changeset": 111166677,
       "user": "gabriele_sani",
       "uid": 7078274,
-      "nodes": [565503116, 565503121],
+      "nodes": [4931019456, 565503121],
       "geometry": [
+        {"lat": 43.8091857, "lon": 11.8997396},
+        {"lat": 43.8092581, "lon": 11.9000131},
+        {"lat": 43.8093055, "lon": 11.9003893},
+        {"lat": 43.80926, "lon": 11.9007971},
+        {"lat": 43.8092239, "lon": 11.9009654},
         {"lat": 43.8092037, "lon": 11.9013481},
         {"lat": 43.8093306, "lon": 11.9020349},
         {"lat": 43.8093706, "lon": 11.9022048},
@@ -24562,7 +24577,13 @@
         {"lat": 43.8096436, "lon": 11.9030205},
         {"lat": 43.8097701, "lon": 11.903231}
       ],
-      "tags": {"bicycle": "yes", "highway": "path", "mtb:scale": "1"}
+      "tags": {
+        "highway": "path",
+        "mtb:scale": "1",
+        "sac_scale": "mountain_hiking",
+        "surface": "ground",
+        "trail_visibility": "excellent"
+      }
     },
     {
       "type": "way",
@@ -35000,25 +35021,6 @@
         "ref": "SR325",
         "reg_ref": "SR325"
       }
-    },
-    {
-      "type": "way",
-      "id": 972610521,
-      "timestamp": "2021-08-12T15:08:09Z",
-      "version": 1,
-      "changeset": 109579996,
-      "user": "gabriele_sani",
-      "uid": 7078274,
-      "nodes": [4931019456, 565503116],
-      "geometry": [
-        {"lat": 43.8091857, "lon": 11.8997396},
-        {"lat": 43.8092581, "lon": 11.9000131},
-        {"lat": 43.8093055, "lon": 11.9003893},
-        {"lat": 43.80926, "lon": 11.9007971},
-        {"lat": 43.8092239, "lon": 11.9009654},
-        {"lat": 43.8092037, "lon": 11.9013481}
-      ],
-      "tags": {"highway": "path", "surface": "ground"}
     }
   ]
 }
