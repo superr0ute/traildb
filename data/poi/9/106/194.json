@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-09-13T23:59:59Z",
-    "timestamp_osm_base": "2021-09-14T03:20:24Z",
+    "timestamp_osm_date": "2021-09-14T23:59:59Z",
+    "timestamp_osm_base": "2021-09-15T03:21:25Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4325,10 +4325,10 @@
       "type": "node",
       "id": 706459188,
       "lat": 39.4152591,
-      "lon": -104.8642549,
-      "timestamp": "2019-04-14T04:29:24Z",
-      "version": 4,
-      "changeset": 69192758,
+      "lon": -104.864254,
+      "timestamp": "2021-09-14T16:28:40Z",
+      "version": 5,
+      "changeset": 111204729,
       "user": "Timothy Smith",
       "uid": 115918,
       "tags": {
@@ -4336,7 +4336,8 @@
         "brand:wikidata": "Q7581369",
         "brand:wikipedia": "en:Sprouts Farmers Market",
         "name": "Sprouts Farmers Market",
-        "shop": "supermarket"
+        "shop": "supermarket",
+        "short_name": "Sprouts"
       }
     },
     {
@@ -5694,6 +5695,24 @@
         "brand:wikidata": "Q1809448",
         "brand:wikipedia": "en:Whole Foods Market",
         "name": "Whole Foods Market",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1700612472,
+      "lat": 39.4072094,
+      "lon": -104.858973,
+      "timestamp": "2021-09-14T16:28:40Z",
+      "version": 2,
+      "changeset": 111204729,
+      "user": "Timothy Smith",
+      "uid": 115918,
+      "tags": {
+        "brand": "Natural Grocers",
+        "brand:wikidata": "Q17146520",
+        "brand:wikipedia": "en:Vitamin Cottage Natural Grocers",
+        "name": "Natural Grocers",
         "shop": "supermarket"
       }
     },
@@ -16503,6 +16522,21 @@
       "uid": 1866129,
       "tags": {
         "amenity": "shelter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9091327413,
+      "lat": 39.7345109,
+      "lon": -105.1205319,
+      "timestamp": "2021-09-14T14:04:09Z",
+      "version": 1,
+      "changeset": 111198594,
+      "user": "RustProof Labs",
+      "uid": 3069035,
+      "tags": {
+        "amenity": "shelter",
+        "building": "roof"
       }
     },
     {
@@ -42255,6 +42289,43 @@
       "center": {
         "lat": 39.7640856,
         "lon": -105.2353538
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 983235295,
+      "timestamp": "2021-09-14T14:26:01Z",
+      "version": 1,
+      "changeset": 111199418,
+      "user": "Guthrie",
+      "uid": 1866129,
+      "center": {
+        "lat": 39.7582756,
+        "lon": -105.220153
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 983347975,
+      "timestamp": "2021-09-14T18:59:10Z",
+      "version": 1,
+      "changeset": 111210708,
+      "user": "Guthrie",
+      "uid": 1866129,
+      "center": {
+        "lat": 39.7560421,
+        "lon": -105.2175276
       },
       "nodes": [],
       "tags": {

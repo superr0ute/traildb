@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-09-13T23:59:59Z",
-    "timestamp_osm_base": "2021-09-14T03:34:42Z",
+    "timestamp_osm_date": "2021-09-14T23:59:59Z",
+    "timestamp_osm_base": "2021-09-15T03:35:54Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9503,22 +9503,25 @@
       "id": 343241124,
       "lat": 38.9084904,
       "lon": -77.4067398,
-      "timestamp": "2019-05-19T23:22:53Z",
-      "version": 6,
-      "changeset": 70422339,
-      "user": "paulburton0",
-      "uid": 2772582,
+      "timestamp": "2021-09-14T00:43:15Z",
+      "version": 7,
+      "changeset": 111169302,
+      "user": "RunTrails",
+      "uid": 5215025,
       "tags": {
-        "shop": "supermarket",
-        "phone": "(703) 689-3564",
-        "operator": "Giant",
         "addr:city": "Herndon",
         "addr:housenumber": "13300",
         "addr:postcode": "20171",
         "addr:state": "VA",
         "addr:street": "Franklin Farm Road",
+        "brand": "Giant",
+        "brand:wikidata": "Q5558336",
+        "brand:wikipedia": "en:Giant Food (Landover)",
         "name": "Giant",
-        "opening_hours": "06:00-23:00"
+        "opening_hours": "06:00-23:00",
+        "operator": "Giant",
+        "phone": "(703) 689-3564",
+        "shop": "supermarket"
       }
     },
     {
@@ -11693,22 +11696,25 @@
       "id": 2371437275,
       "lat": 38.9269238,
       "lon": -77.3752072,
-      "timestamp": "2020-04-11T19:50:53Z",
-      "version": 5,
-      "changeset": 83409906,
-      "user": "JimmyQue",
-      "uid": 8773685,
+      "timestamp": "2021-09-14T00:43:15Z",
+      "version": 6,
+      "changeset": 111169302,
+      "user": "RunTrails",
+      "uid": 5215025,
       "tags": {
-        "website": "https://stores.giantfood.com/va/herndon/2551-john-milton-dr",
-        "source": "Local Knowledge",
-        "shop": "supermarket",
         "addr:city": "Herndon",
         "addr:housename": "Giant Grocery Store",
         "addr:housenumber": "2551",
         "addr:postcode": "20171",
         "addr:street": "John Milton Drive",
+        "brand": "Giant",
+        "brand:wikidata": "Q5558336",
+        "brand:wikipedia": "en:Giant Food (Landover)",
         "name": "Giant",
-        "phone": "703-715-9852"
+        "phone": "703-715-9852",
+        "shop": "supermarket",
+        "source": "Local Knowledge",
+        "website": "https://stores.giantfood.com/va/herndon/2551-john-milton-dr"
       }
     },
     {
@@ -18642,6 +18648,25 @@
     },
     {
       "type": "way",
+      "id": 750305393,
+      "timestamp": "2021-09-14T00:28:43Z",
+      "version": 3,
+      "changeset": 111169145,
+      "user": "RunTrails",
+      "uid": 5215025,
+      "center": {
+        "lat": 38.9343623,
+        "lon": -77.404818
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
       "id": 759261655,
       "timestamp": "2019-12-29T00:00:11Z",
       "version": 1,
@@ -21174,6 +21199,64 @@
         "bin": "yes",
         "building": "roof",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 983070229,
+      "timestamp": "2021-09-14T00:28:43Z",
+      "version": 1,
+      "changeset": 111169145,
+      "user": "RunTrails",
+      "uid": 5215025,
+      "center": {
+        "lat": 38.939163,
+        "lon": -77.4082361
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 983070230,
+      "timestamp": "2021-09-14T00:28:43Z",
+      "version": 1,
+      "changeset": 111169145,
+      "user": "RunTrails",
+      "uid": 5215025,
+      "center": {
+        "lat": 38.9378336,
+        "lon": -77.4102869
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 983318376,
+      "timestamp": "2021-09-14T18:48:10Z",
+      "version": 1,
+      "changeset": 111210292,
+      "user": "j2brown",
+      "uid": 230090,
+      "center": {
+        "lat": 39.0053687,
+        "lon": -77.4315077
+      },
+      "nodes": [],
+      "tags": {
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "building": "yes",
+        "name": "7-Eleven",
+        "shop": "convenience"
       }
     }
   ]
