@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-09-14T23:59:59Z",
-    "timestamp_osm_base": "2021-09-15T04:28:58Z",
+    "timestamp_osm_date": "2021-09-15T23:59:59Z",
+    "timestamp_osm_base": "2021-09-16T04:38:23Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -14741,30 +14741,36 @@
     {
       "type": "node",
       "id": 859277476,
-      "lat": 46.9262769,
-      "lon": 7.4335186,
-      "timestamp": "2020-05-21T16:14:36Z",
-      "version": 6,
-      "changeset": 85564598,
-      "user": "sovereign_ch",
-      "uid": 5755216,
+      "lat": 46.926301,
+      "lon": 7.4335241,
+      "timestamp": "2021-09-15T20:57:05Z",
+      "version": 7,
+      "changeset": 111262385,
+      "user": "dafadllyn",
+      "uid": 7494825,
       "tags": {
-        "addr:city": "Spiegel b. Bern",
-        "addr:housenumber": "156",
-        "addr:postcode": "3095",
-        "addr:street": "Chasseralstrasse",
-        "alt_name": "VOI Spiegel",
         "branch": "Bern Spiegel",
-        "brand": "VOI Migros Partner",
+        "brand": "VOI",
         "cash_withdrawal": "postfinance_card",
         "cash_withdrawal:fee": "no",
         "cash_withdrawal:purchase_required": "no",
         "cash_withdrawal:type": "checkout",
+        "check_date:opening_hours": "2021-09-15",
+        "check_date:post_office:collection_times": "2021-09-15",
+        "email": "spiegel@voi-migrospartner.ch",
         "name": "VOI",
-        "old_name": "Migros Spiegel",
-        "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-17:00; PH off",
-        "operator": "Genossenschaft Migros Aare",
-        "shop": "supermarket",
+        "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-17:00; Su,PH closed",
+        "phone": "+41 58 567 51 30",
+        "post_office": "post_partner",
+        "post_office:collection_times": "Mo-Fr 18:00; Sa 17:00; Su,PH off",
+        "post_office:letter_from": "yes",
+        "post_office:parcel_from": "yes",
+        "post_office:parcel_pickup=": "yes",
+        "post_office:parcel_to": "yes",
+        "post_office:service_provider": "Die Post",
+        "post_office:service_provider:wikidata": "Q614803",
+        "post_office:stamps": "yes",
+        "shop": "convenience",
         "website": "https://www.voi-migrospartner.ch/de-CH/filialen#voi-voi-bern-spiegel"
       }
     },
@@ -46508,6 +46514,32 @@
     },
     {
       "type": "way",
+      "id": 541075896,
+      "timestamp": "2021-09-15T21:01:41Z",
+      "version": 2,
+      "changeset": 111262505,
+      "user": "dafadllyn",
+      "uid": 7494825,
+      "center": {
+        "lat": 46.9213039,
+        "lon": 7.425288
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Spiegel bei Bern",
+        "addr:country": "CH",
+        "addr:housenumber": "5",
+        "addr:postcode": "3095",
+        "amenity": "shelter",
+        "building": "roof",
+        "ele": "629",
+        "shelter_type": "public_transport",
+        "source:addr": "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern",
+        "source:geometry": "bing"
+      }
+    },
+    {
+      "type": "way",
       "id": 541959906,
       "timestamp": "2021-04-03T11:35:44Z",
       "version": 5,
@@ -47353,14 +47385,14 @@
     {
       "type": "way",
       "id": 579375255,
-      "timestamp": "2019-04-06T17:39:54Z",
-      "version": 2,
-      "changeset": 68957728,
-      "user": "SelfishSeahorse",
-      "uid": 3078118,
+      "timestamp": "2021-09-15T19:31:03Z",
+      "version": 3,
+      "changeset": 111259774,
+      "user": "dafadllyn",
+      "uid": 7494825,
       "center": {
-        "lat": 46.9269985,
-        "lon": 7.4356293
+        "lat": 46.9269979,
+        "lon": 7.4356263
       },
       "nodes": [],
       "tags": {
@@ -47369,7 +47401,7 @@
         "addr:housenumber": "69",
         "addr:postcode": "3095",
         "amenity": "shelter",
-        "building": "yes",
+        "building": "roof",
         "ele": "605",
         "shelter_type": "public_transport",
         "source:addr": "Gebäudeadressen des Kantons Bern © Amt für Geoinformation des Kantons Bern"
@@ -51398,6 +51430,25 @@
       "center": {
         "lat": 46.7917137,
         "lon": 7.1238312
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 983565918,
+      "timestamp": "2021-09-15T09:30:17Z",
+      "version": 1,
+      "changeset": 111234449,
+      "user": "vmicho",
+      "uid": 1849074,
+      "center": {
+        "lat": 46.792441,
+        "lon": 7.1288039
       },
       "nodes": [],
       "tags": {
