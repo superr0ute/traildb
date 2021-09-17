@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-09-15T23:59:59Z",
-    "timestamp_osm_base": "2021-09-16T03:03:20Z",
+    "timestamp_osm_date": "2021-09-16T23:59:59Z",
+    "timestamp_osm_base": "2021-09-17T02:59:35Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2031,71 +2031,6 @@
     },
     {
       "type": "node",
-      "id": 4957190223,
-      "lat": 36.7417984,
-      "lon": -118.9665777,
-      "timestamp": "2017-07-07T17:43:49Z",
-      "version": 1,
-      "changeset": 50114610,
-      "user": "Torrance84",
-      "uid": 4356404,
-      "tags": {
-        "name": "Azalea Campground",
-        "name:en": "Azalea Campground",
-        "tourism": "camp_site"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4957215821,
-      "lat": 36.7371939,
-      "lon": -118.9660645,
-      "timestamp": "2017-07-07T17:43:44Z",
-      "version": 1,
-      "changeset": 50114610,
-      "user": "Torrance84",
-      "uid": 4356404,
-      "tags": {
-        "name": "Sunset Campground",
-        "name:en": "Sunset Campground",
-        "tourism": "camp_site"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4957216121,
-      "lat": 36.7453433,
-      "lon": -118.9625641,
-      "timestamp": "2017-07-07T17:43:51Z",
-      "version": 1,
-      "changeset": 50114610,
-      "user": "Torrance84",
-      "uid": 4356404,
-      "tags": {
-        "name": "Crystal Springs Campground",
-        "name:en": "Crystal Springs Campground",
-        "tourism": "camp_site"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4970923623,
-      "lat": 36.7376028,
-      "lon": -118.9649924,
-      "timestamp": "2017-07-14T17:35:18Z",
-      "version": 1,
-      "changeset": 50289884,
-      "user": "Sebastian Dawes",
-      "uid": 4920338,
-      "tags": {
-        "name": "Sunset Campground",
-        "name:en": "Sunset Campground",
-        "tourism": "camp_site",
-        "website": "https://www.nps.gov/seki/planyourvisit/sunset.htm"
-      }
-    },
-    {
-      "type": "node",
       "id": 4978121289,
       "lat": 36.9860975,
       "lon": -118.9623849,
@@ -2106,21 +2041,6 @@
       "uid": 1616228,
       "tags": {
         "natural": "spring"
-      }
-    },
-    {
-      "type": "node",
-      "id": 5000398725,
-      "lat": 36.7443375,
-      "lon": -118.9633428,
-      "timestamp": "2017-07-28T17:43:05Z",
-      "version": 1,
-      "changeset": 50655086,
-      "user": "svend frydenlund",
-      "uid": 1656731,
-      "tags": {
-        "name": "Crystal Springs Campground",
-        "tourism": "camp_site"
       }
     },
     {
@@ -3039,6 +2959,75 @@
         "reservation": "yes",
         "tourism": "camp_site",
         "website": "https://www.sce.com/about-us/community/camp-edison"
+      }
+    },
+    {
+      "type": "way",
+      "id": 984005357,
+      "timestamp": "2021-09-16T15:26:02Z",
+      "version": 1,
+      "changeset": 111297340,
+      "user": "OddlyAngled",
+      "uid": 11607814,
+      "center": {
+        "lat": 36.7417342,
+        "lon": -118.9687157
+      },
+      "nodes": [],
+      "tags": {
+        "capacity": "110",
+        "fee": "yes",
+        "name": "Azalea Campground",
+        "name:en": "Azalea Campground",
+        "reservation": "recommended",
+        "tourism": "camp_site",
+        "website": "https://www.nps.gov/seki/planyourvisit/azalea.htm"
+      }
+    },
+    {
+      "type": "way",
+      "id": 984005415,
+      "timestamp": "2021-09-16T15:26:32Z",
+      "version": 1,
+      "changeset": 111297468,
+      "user": "OddlyAngled",
+      "uid": 11607814,
+      "center": {
+        "lat": 36.736941,
+        "lon": -118.9663714
+      },
+      "nodes": [],
+      "tags": {
+        "capacity": "158",
+        "fee": "yes",
+        "name": "Sunset Campground",
+        "name:en": "Sunset Campground",
+        "reservation": "required",
+        "tourism": "camp_site",
+        "website": "https://www.nps.gov/seki/planyourvisit/sunset.htm"
+      }
+    },
+    {
+      "type": "way",
+      "id": 984005668,
+      "timestamp": "2021-09-16T15:27:06Z",
+      "version": 1,
+      "changeset": 111297493,
+      "user": "OddlyAngled",
+      "uid": 11607814,
+      "center": {
+        "lat": 36.7453709,
+        "lon": -118.9623213
+      },
+      "nodes": [],
+      "tags": {
+        "capacity": "50",
+        "fee": "yes",
+        "name": "Crystal Springs Campground",
+        "name:en": "Crystal Springs Campground",
+        "reservation": "required",
+        "tourism": "camp_site",
+        "website": "https://www.nps.gov/seki/planyourvisit/crystal_springs.htm"
       }
     }
   ]
