@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-09-16T23:59:59Z",
-    "timestamp_osm_base": "2021-09-17T03:00:43Z",
+    "timestamp_osm_date": "2021-09-17T23:59:59Z",
+    "timestamp_osm_base": "2021-09-18T03:03:01Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1870,21 +1870,6 @@
     },
     {
       "type": "node",
-      "id": 4259437621,
-      "lat": 36.7920746,
-      "lon": -118.6807896,
-      "timestamp": "2016-06-22T21:45:05Z",
-      "version": 1,
-      "changeset": 40215405,
-      "user": "ToPoDD",
-      "uid": 3839058,
-      "tags": {
-        "name": "Sheep Creek Campground",
-        "tourism": "camp_site"
-      }
-    },
-    {
-      "type": "node",
       "id": 4266797569,
       "lat": 36.986265,
       "lon": -118.272301,
@@ -2352,53 +2337,6 @@
       "uid": 11607814,
       "tags": {
         "backcountry": "yes",
-        "tourism": "camp_site"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4957190224,
-      "lat": 36.7908252,
-      "lon": -118.6727423,
-      "timestamp": "2017-07-07T17:43:51Z",
-      "version": 1,
-      "changeset": 50114610,
-      "user": "Torrance84",
-      "uid": 4356404,
-      "tags": {
-        "name": "Sentinel Campground",
-        "tourism": "camp_site"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4957215822,
-      "lat": 36.7872948,
-      "lon": -118.6652627,
-      "timestamp": "2017-07-07T17:43:52Z",
-      "version": 1,
-      "changeset": 50114610,
-      "user": "Torrance84",
-      "uid": 4356404,
-      "tags": {
-        "name": "Canyon View Campground",
-        "name:en": "Canyon View Campground",
-        "tourism": "camp_site"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4957216122,
-      "lat": 36.7852917,
-      "lon": -118.6611326,
-      "timestamp": "2017-07-07T17:43:56Z",
-      "version": 1,
-      "changeset": 50114610,
-      "user": "Torrance84",
-      "uid": 4356404,
-      "tags": {
-        "name": "Moraine Campground",
-        "name:en": "Moraine Campground",
         "tourism": "camp_site"
       }
     },
@@ -5215,6 +5153,97 @@
         "name": "Sequoia High Sierra Camp",
         "tourism": "camp_site",
         "website": "https://www.sequoiahighsierracamp.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 984420756,
+      "timestamp": "2021-09-17T15:55:20Z",
+      "version": 1,
+      "changeset": 111344206,
+      "user": "OddlyAngled",
+      "uid": 11607814,
+      "center": {
+        "lat": 36.7928763,
+        "lon": -118.6802816
+      },
+      "nodes": [],
+      "tags": {
+        "capacity": "111",
+        "fee": "yes",
+        "name": "Sheep Creek Campground",
+        "reservation": "required",
+        "tourism": "camp_site",
+        "website": "https://www.nps.gov/seki/planyourvisit/sheep_creek.htm"
+      }
+    },
+    {
+      "type": "way",
+      "id": 984420761,
+      "timestamp": "2021-09-17T15:55:20Z",
+      "version": 1,
+      "changeset": 111344206,
+      "user": "OddlyAngled",
+      "uid": 11607814,
+      "center": {
+        "lat": 36.7911429,
+        "lon": -118.6730584
+      },
+      "nodes": [],
+      "tags": {
+        "capacity": "82",
+        "fee": "yes",
+        "name": "Sentinel Campground",
+        "reservation": "required",
+        "tourism": "camp_site",
+        "website": "https://www.nps.gov/seki/planyourvisit/sentinel.htm"
+      }
+    },
+    {
+      "type": "way",
+      "id": 984420762,
+      "timestamp": "2021-09-17T15:55:20Z",
+      "version": 1,
+      "changeset": 111344206,
+      "user": "OddlyAngled",
+      "uid": 11607814,
+      "center": {
+        "lat": 36.7858222,
+        "lon": -118.6598217
+      },
+      "nodes": [],
+      "tags": {
+        "capacity": "121",
+        "fee": "yes",
+        "name": "Moraine Campground",
+        "name:en": "Moraine Campground",
+        "reservation": "required",
+        "tourism": "camp_site",
+        "website": "https://www.nps.gov/seki/planyourvisit/moraine.htm"
+      }
+    },
+    {
+      "type": "way",
+      "id": 984420763,
+      "timestamp": "2021-09-17T15:55:20Z",
+      "version": 1,
+      "changeset": 111344206,
+      "user": "OddlyAngled",
+      "uid": 11607814,
+      "center": {
+        "lat": 36.7874762,
+        "lon": -118.6655483
+      },
+      "nodes": [],
+      "tags": {
+        "capacity": "16",
+        "fee": "yes",
+        "group_only": "yes",
+        "name": "Canyon View Campground",
+        "name:en": "Canyon View Campground",
+        "reservation": "required",
+        "tourism": "camp_site",
+        "website": "https://www.nps.gov/seki/planyourvisit/canyon_view.htm"
       }
     }
   ]
