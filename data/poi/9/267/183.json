@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-09-17T23:59:59Z",
-    "timestamp_osm_base": "2021-09-18T04:44:28Z",
+    "timestamp_osm_date": "2021-09-18T23:59:59Z",
+    "timestamp_osm_base": "2021-09-19T04:35:09Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9705,15 +9705,21 @@
       "id": 1650478431,
       "lat": 45.3334488,
       "lon": 8.4069683,
-      "timestamp": "2012-02-27T16:17:11Z",
-      "version": 1,
-      "changeset": 10810136,
-      "user": "Simone Saviolo",
-      "uid": 169211,
+      "timestamp": "2021-09-18T16:16:33Z",
+      "version": 2,
+      "changeset": 111381883,
+      "user": "ivanbranco",
+      "uid": 11220113,
       "tags": {
+        "addr:city": "Vercelli",
+        "addr:housenumber": "1",
+        "addr:postcode": "13100",
+        "addr:street": "Strada vicinale Cantarana",
         "brand": "Bennet",
         "name": "Supermercato Bennet",
-        "operator": "Bennet",
+        "operator": "Bennet S.p.A.",
+        "payment:cash": "yes",
+        "ref:vatin": "IT07071700152",
         "shop": "supermarket"
       }
     },
@@ -21289,28 +21295,6 @@
     },
     {
       "type": "node",
-      "id": 4557267654,
-      "lat": 45.3165468,
-      "lon": 8.4090672,
-      "timestamp": "2021-07-03T18:13:08Z",
-      "version": 4,
-      "changeset": 107364715,
-      "user": "Silverium",
-      "uid": 13566882,
-      "tags": {
-        "addr:city": "Vercelli",
-        "addr:housenumber": "21",
-        "addr:postcode": "13100",
-        "addr:street": "Via Luigi Einaudi",
-        "name": "In's Mercato",
-        "operator": "In's Mercato S.P.A.",
-        "phone": "+39 0161 394685",
-        "ref:vatin": "IT02896940273",
-        "shop": "supermarket"
-      }
-    },
-    {
-      "type": "node",
       "id": 4577446005,
       "lat": 45.5457845,
       "lon": 7.8488912,
@@ -30418,9 +30402,9 @@
       "id": 9092360535,
       "lat": 45.3220019,
       "lon": 8.420222,
-      "timestamp": "2021-09-14T19:53:13Z",
-      "version": 1,
-      "changeset": 111212639,
+      "timestamp": "2021-09-18T18:15:08Z",
+      "version": 2,
+      "changeset": 111385524,
       "user": "ivanbranco",
       "uid": 11220113,
       "tags": {
@@ -30435,9 +30419,10 @@
         "name": "Carrefour Market",
         "opening_hours": "24/7",
         "operator": "GS s.p.a.",
+        "payment:cash": "yes",
         "payment:mastercard": "yes",
         "phone": "+39 0161 213126",
-        "ref:msal": "IT12683790153",
+        "ref:vatin": "IT12683790153",
         "shop": "supermarket",
         "website": "https://www.carrefour.it/punti-vendita/carrefour-market-vercelli-via-xx-settembre-41-0609.html",
         "wheelchair": "yes"
@@ -31690,6 +31675,33 @@
     },
     {
       "type": "way",
+      "id": 460038016,
+      "timestamp": "2021-09-18T18:15:08Z",
+      "version": 2,
+      "changeset": 111385524,
+      "user": "ivanbranco",
+      "uid": 11220113,
+      "center": {
+        "lat": 45.3165403,
+        "lon": 8.409073
+      },
+      "nodes": [],
+      "tags": {
+        "building": "retail",
+        "contact:city": "Vercelli",
+        "contact:housenumber": "21",
+        "contact:postcode": "13100",
+        "contact:street": "Via Luigi Einaudi",
+        "name": "In's Mercato",
+        "operator": "In's Mercato S.P.A.",
+        "payment:mastercard": "yes",
+        "phone": "+39 0161 394685",
+        "ref:vatin": "IT02896940273",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
       "id": 463879046,
       "timestamp": "2017-01-05T14:20:07Z",
       "version": 1,
@@ -31708,9 +31720,9 @@
     {
       "type": "way",
       "id": 496368322,
-      "timestamp": "2021-09-17T22:09:13Z",
-      "version": 5,
-      "changeset": 111356356,
+      "timestamp": "2021-09-18T07:21:11Z",
+      "version": 6,
+      "changeset": 111363464,
       "user": "osmmichl",
       "uid": 6136738,
       "center": {
@@ -31720,6 +31732,7 @@
       "nodes": [],
       "tags": {
         "name": "Damanhur",
+        "note": "For the foundation please see the new node https://www.openstreetmap.org/node/9102205378",
         "place": "hamlet",
         "smoking": "no"
       }
