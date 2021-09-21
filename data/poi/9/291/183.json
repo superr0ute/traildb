@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-09-18T23:59:59Z",
-    "timestamp_osm_base": "2021-09-19T05:33:27Z",
+    "timestamp_osm_date": "2021-09-20T23:59:59Z",
+    "timestamp_osm_base": "2021-09-21T05:50:03Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6305,24 +6305,6 @@
     },
     {
       "type": "node",
-      "id": 1304042395,
-      "lat": 45.4607938,
-      "lon": 24.9611608,
-      "timestamp": "2019-07-29T19:13:56Z",
-      "version": 2,
-      "changeset": 72783694,
-      "user": "Gorka115",
-      "uid": 9458168,
-      "tags": {
-        "amenity": "shelter",
-        "description": "basic mountain shelter with bunk beds and fire stove (no wood available, must be collected on the way up to the shelter)",
-        "ele": "2125",
-        "name": "Refugiul Iezer",
-        "shelter_type": "basic_hut"
-      }
-    },
-    {
-      "type": "node",
       "id": 1314390839,
       "lat": 45.4078239,
       "lon": 24.6589778,
@@ -7010,25 +6992,6 @@
       "uid": 1230692,
       "tags": {
         "natural": "spring"
-      }
-    },
-    {
-      "type": "node",
-      "id": 3085783678,
-      "lat": 45.441836,
-      "lon": 25.044619,
-      "timestamp": "2021-02-21T19:51:48Z",
-      "version": 5,
-      "changeset": 99696360,
-      "user": "mirciulicat",
-      "uid": 11494394,
-      "tags": {
-        "elevation": "950",
-        "fee": "yes",
-        "name": "Cabana Voina",
-        "stars": "3",
-        "tourism": "alpine_hut",
-        "website": "https://www.cabanavoina.ro/"
       }
     },
     {
@@ -8701,12 +8664,13 @@
       "id": 8443399444,
       "lat": 45.4402009,
       "lon": 25.0231165,
-      "timestamp": "2021-02-21T19:54:52Z",
-      "version": 2,
-      "changeset": 99696482,
-      "user": "mirciulicat",
-      "uid": 11494394,
+      "timestamp": "2021-09-20T11:49:45Z",
+      "version": 3,
+      "changeset": 111446065,
+      "user": "Buraddo",
+      "uid": 2287200,
       "tags": {
+        "access": "private",
         "ele": "1622",
         "fireplace": "yes",
         "name": "Stâna din Văcarea",
@@ -10798,6 +10762,29 @@
     },
     {
       "type": "way",
+      "id": 199701167,
+      "timestamp": "2021-09-20T11:53:39Z",
+      "version": 3,
+      "changeset": 111446248,
+      "user": "Buraddo",
+      "uid": 2287200,
+      "center": {
+        "lat": 45.4416976,
+        "lon": 25.0446449
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "ele": "950",
+        "fee": "yes",
+        "name": "Cabana Voina",
+        "stars": "3",
+        "tourism": "alpine_hut",
+        "website": "https://www.cabanavoina.ro/"
+      }
+    },
+    {
+      "type": "way",
       "id": 204157789,
       "timestamp": "2018-08-23T17:30:38Z",
       "version": 4,
@@ -11171,24 +11158,24 @@
     {
       "type": "way",
       "id": 372438145,
-      "timestamp": "2020-10-13T09:47:12Z",
-      "version": 2,
-      "changeset": 92405662,
-      "user": "Gadatsch",
-      "uid": 11979797,
+      "timestamp": "2021-09-20T11:47:43Z",
+      "version": 4,
+      "changeset": 111445947,
+      "user": "Buraddo",
+      "uid": 2287200,
       "center": {
-        "lat": 45.4640864,
-        "lon": 25.069478
+        "lat": 45.4639622,
+        "lon": 25.0694847
       },
       "nodes": [],
       "tags": {
-        "amenity": "shelter",
         "beds": "yes",
         "bench": "yes",
+        "bin": "no",
         "building": "yes",
         "building:levels": "1",
         "name": "Refugiul Găinațu",
-        "shelter_type": "weather_shelter"
+        "tourism": "wilderness_hut"
       }
     },
     {
@@ -11508,19 +11495,42 @@
     {
       "type": "way",
       "id": 707451082,
-      "timestamp": "2019-07-25T20:35:21Z",
-      "version": 1,
-      "changeset": 72661831,
-      "user": "Gorka115",
-      "uid": 9458168,
+      "timestamp": "2021-09-20T11:55:41Z",
+      "version": 3,
+      "changeset": 111446360,
+      "user": "Buraddo",
+      "uid": 2287200,
       "center": {
-        "lat": 45.460832,
-        "lon": 24.9610431
+        "lat": 45.4608318,
+        "lon": 24.9610427
       },
       "nodes": [],
       "tags": {
         "amenity": "shelter",
-        "building": "yes"
+        "bench": "yes",
+        "bin": "no",
+        "building": "yes",
+        "description": "basic mountain shelter with bunk beds and fire stove (no wood available, must be collected on the way up to the shelter)",
+        "ele": "2125",
+        "name": "Refugiul Iezer",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 707936618,
+      "timestamp": "2021-09-20T11:55:41Z",
+      "version": 2,
+      "changeset": 111446360,
+      "user": "Buraddo",
+      "uid": 2287200,
+      "center": {
+        "lat": 45.4606367,
+        "lon": 24.9608805
+      },
+      "nodes": [],
+      "tags": {
+        "tourism": "camp_site"
       }
     },
     {
