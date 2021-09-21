@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-17T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-20T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10909145,
-      "timestamp": "2021-09-17T08:03:51Z",
-      "version": 1433,
-      "changeset": 111324654,
-      "user": "ddozza",
-      "uid": 454795,
+      "timestamp": "2021-09-20T21:24:22Z",
+      "version": 1434,
+      "changeset": 111467455,
+      "user": "Matteo Calosi",
+      "uid": 3455425,
       "members": [
         {"type": "way", "ref": 389603359, "role": ""},
         {"type": "way", "ref": 358964255, "role": ""},
@@ -1328,6 +1328,7 @@
         {"type": "way", "ref": 143918257, "role": ""},
         {"type": "way", "ref": 38160149, "role": ""},
         {"type": "way", "ref": 702209930, "role": ""},
+        {"type": "way", "ref": 985288133, "role": ""},
         {"type": "way", "ref": 964413500, "role": ""},
         {"type": "way", "ref": 389603358, "role": ""},
         {"type": "way", "ref": 389606529, "role": ""},
@@ -37285,11 +37286,11 @@
     {
       "type": "way",
       "id": 38160149,
-      "timestamp": "2020-04-20T19:57:39Z",
-      "version": 15,
-      "changeset": 83840436,
-      "user": "Wulz",
-      "uid": 10773975,
+      "timestamp": "2021-09-20T21:24:22Z",
+      "version": 16,
+      "changeset": 111467455,
+      "user": "Matteo Calosi",
+      "uid": 3455425,
       "nodes": [402971239, 402971479],
       "geometry": [
         {"lat": 46.6046776, "lon": 12.8696248},
@@ -37309,6 +37310,7 @@
         {"lat": 46.6063835, "lon": 12.8688168},
         {"lat": 46.6064326, "lon": 12.8687907},
         {"lat": 46.6064906, "lon": 12.8687899},
+        {"lat": 46.6065092, "lon": 12.8687938},
         {"lat": 46.6065979, "lon": 12.8688122},
         {"lat": 46.6066707, "lon": 12.8687866},
         {"lat": 46.6067684, "lon": 12.8686445},
@@ -57112,21 +57114,22 @@
     {
       "type": "way",
       "id": 702209930,
-      "timestamp": "2021-07-14T20:48:03Z",
-      "version": 9,
-      "changeset": 108001268,
-      "user": "Wulz",
-      "uid": 10773975,
-      "nodes": [402971479, 7276253680],
+      "timestamp": "2021-09-20T21:24:22Z",
+      "version": 10,
+      "changeset": 111467455,
+      "user": "Matteo Calosi",
+      "uid": 3455425,
+      "nodes": [402971479, 9109040592],
       "geometry": [
         {"lat": 46.6079516, "lon": 12.8682067},
         {"lat": 46.6080123, "lon": 12.8681654},
         {"lat": 46.6082419, "lon": 12.8681635},
+        {"lat": 46.6083063, "lon": 12.8681503},
         {"lat": 46.608342, "lon": 12.868143},
         {"lat": 46.6085225, "lon": 12.8680506},
         {"lat": 46.6087111, "lon": 12.8678506},
         {"lat": 46.6088544, "lon": 12.867802},
-        {"lat": 46.6089573, "lon": 12.8677956}
+        {"lat": 46.6089191, "lon": 12.867798}
       ],
       "tags": {
         "ele": "1970",
@@ -72733,6 +72736,30 @@
         "note": "Slovenska planinska pot (Spp)",
         "sac_scale": "mountain_hiking",
         "source": "geoimage imaginery",
+        "surface": "gravel",
+        "width": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 985288133,
+      "timestamp": "2021-09-20T21:24:22Z",
+      "version": 1,
+      "changeset": 111467455,
+      "user": "Matteo Calosi",
+      "uid": 3455425,
+      "nodes": [9109040592, 7276253680],
+      "geometry": [
+        {"lat": 46.6089191, "lon": 12.867798},
+        {"lat": 46.6089573, "lon": 12.8677956}
+      ],
+      "tags": {
+        "ele": "1970",
+        "foot": "yes",
+        "highway": "path",
+        "incline": "10%",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: SI A01 + 144",
+        "sac_scale": "mountain_hiking",
         "surface": "gravel",
         "width": "1"
       }

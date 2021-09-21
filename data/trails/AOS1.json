@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-15T02:27:27Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-21T02:28:42Z"},
   "elements": [
     {
       "type": "relation",
@@ -504,11 +504,11 @@
     {
       "type": "relation",
       "id": 9675682,
-      "timestamp": "2021-05-25T15:15:07Z",
-      "version": 4,
-      "changeset": 105300861,
-      "user": "Andrea Del Sarto",
-      "uid": 3215770,
+      "timestamp": "2021-09-20T19:22:57Z",
+      "version": 5,
+      "changeset": 111463701,
+      "user": "ivanbranco",
+      "uid": 11220113,
       "members": [
         {"type": "way", "ref": 113805562, "role": ""},
         {"type": "way", "ref": 113803199, "role": ""},
@@ -542,6 +542,7 @@
         {"type": "way", "ref": 243170502, "role": ""},
         {"type": "way", "ref": 168532700, "role": ""},
         {"type": "way", "ref": 348764185, "role": ""},
+        {"type": "way", "ref": 985225866, "role": ""},
         {"type": "way", "ref": 686349327, "role": ""},
         {"type": "way", "ref": 696142212, "role": ""}
       ],
@@ -16301,12 +16302,12 @@
     {
       "type": "way",
       "id": 348764185,
-      "timestamp": "2019-05-19T16:16:42Z",
-      "version": 4,
-      "changeset": 70414771,
-      "user": "erikvasco",
-      "uid": 2920224,
-      "nodes": [1797840398, 3542549368],
+      "timestamp": "2021-09-20T19:22:57Z",
+      "version": 5,
+      "changeset": 111463701,
+      "user": "ivanbranco",
+      "uid": 11220113,
+      "nodes": [1797840398, 6484127914],
       "geometry": [
         {"lat": 45.8766779, "lon": 7.6227558, "z": 1521.8},
         {"lat": 45.8767466, "lon": 7.6226908, "z": 1522.8},
@@ -16315,8 +16316,7 @@
         {"lat": 45.8768151, "lon": 7.6227134, "z": 1524.4},
         {"lat": 45.8768716, "lon": 7.6227595, "z": 1525.7},
         {"lat": 45.8769102, "lon": 7.6227674, "z": 1526.2},
-        {"lat": 45.8769141, "lon": 7.6227739, "z": 1526.3},
-        {"lat": 45.8769653, "lon": 7.62292, "z": 1528}
+        {"lat": 45.8769141, "lon": 7.6227739, "z": 1526.3}
       ],
       "tags": {"highway": "footway"}
     },
@@ -25236,6 +25236,21 @@
         "ref": "SR44",
         "surface": "asphalt"
       }
+    },
+    {
+      "type": "way",
+      "id": 985225866,
+      "timestamp": "2021-09-20T19:22:57Z",
+      "version": 1,
+      "changeset": 111463701,
+      "user": "ivanbranco",
+      "uid": 11220113,
+      "nodes": [6484127914, 3542549368],
+      "geometry": [
+        {"lat": 45.8769141, "lon": 7.6227739, "z": 1526.3},
+        {"lat": 45.8769653, "lon": 7.62292, "z": 1528}
+      ],
+      "tags": {"highway": "footway"}
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-20T02:36:04Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-21T02:32:36Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1501400,
-      "timestamp": "2021-09-17T11:08:04Z",
-      "version": 194,
-      "changeset": 111332320,
-      "user": "Note Control",
-      "uid": 10953870,
+      "timestamp": "2021-09-20T18:05:23Z",
+      "version": 195,
+      "changeset": 111460321,
+      "user": "EsMercadal",
+      "uid": 14095379,
       "members": [
         {"type": "way", "ref": 105454097, "role": ""},
         {"type": "way", "ref": 33748658, "role": ""},
@@ -110,6 +110,7 @@
         {"type": "way", "ref": 567839602, "role": ""},
         {"type": "way", "ref": 115566641, "role": ""},
         {"type": "way", "ref": 115566651, "role": ""},
+        {"type": "way", "ref": 985207866, "role": ""},
         {"type": "way", "ref": 105489724, "role": ""},
         {"type": "way", "ref": 41859775, "role": ""},
         {"type": "way", "ref": 673441891, "role": ""},
@@ -597,11 +598,11 @@
     {
       "type": "way",
       "id": 105450314,
-      "timestamp": "2018-03-08T13:34:35Z",
-      "version": 9,
-      "changeset": 56999578,
-      "user": "Puxan",
-      "uid": 5328434,
+      "timestamp": "2021-09-20T18:07:21Z",
+      "version": 12,
+      "changeset": 111460372,
+      "user": "EsMercadal",
+      "uid": 14095379,
       "nodes": [492869471, 1305265060],
       "geometry": [
         {"lat": 39.8883416, "lon": 4.2665556, "z": 37.7},
@@ -609,10 +610,12 @@
       ],
       "tags": {
         "highway": "residential",
+        "lit": "yes",
         "name": "Plaça del Príncep",
         "name:es": "Plaza del Príncipe",
         "oneway": "yes",
-        "surface": "paved"
+        "sidewalk": "both",
+        "surface": "paving_stones"
       }
     },
     {
@@ -958,20 +961,23 @@
     {
       "type": "way",
       "id": 105489724,
-      "timestamp": "2016-07-15T18:32:21Z",
-      "version": 5,
-      "changeset": 40766376,
-      "user": "Kintarō",
-      "uid": 212767,
-      "nodes": [515219253, 531486434],
+      "timestamp": "2021-09-20T18:05:41Z",
+      "version": 9,
+      "changeset": 111460372,
+      "user": "EsMercadal",
+      "uid": 14095379,
+      "nodes": [515219253, 9108466017],
       "geometry": [
         {"lat": 39.8890853, "lon": 4.2644619, "z": 39.5},
-        {"lat": 39.8891076, "lon": 4.2651885, "z": 34.1}
+        {"lat": 39.8890865, "lon": 4.2645018, "z": 39.2}
       ],
       "tags": {
         "highway": "residential",
+        "lit": "yes",
         "name": "Portal de Mar",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sidewalk": "both",
+        "surface": "sett"
       }
     },
     {
@@ -3034,11 +3040,11 @@
     {
       "type": "way",
       "id": 115566682,
-      "timestamp": "2018-03-08T13:34:35Z",
-      "version": 5,
-      "changeset": 56999578,
-      "user": "Puxan",
-      "uid": 5328434,
+      "timestamp": "2021-09-20T18:09:16Z",
+      "version": 8,
+      "changeset": 111460372,
+      "user": "EsMercadal",
+      "uid": 14095379,
       "nodes": [492869478, 492869483],
       "geometry": [
         {"lat": 39.8885991, "lon": 4.2657717, "z": 35.5},
@@ -3047,10 +3053,12 @@
       ],
       "tags": {
         "highway": "residential",
+        "lit": "yes",
         "name": "Plaça del Carme",
         "name:es": "Plaza del Carmen",
         "oneway": "yes",
-        "surface": "paved"
+        "sidewalk": "both",
+        "surface": "paving_stones"
       }
     },
     {
@@ -7562,11 +7570,11 @@
     {
       "type": "way",
       "id": 163500144,
-      "timestamp": "2015-09-18T21:03:56Z",
-      "version": 3,
-      "changeset": 34111546,
-      "user": "migonso",
-      "uid": 3103168,
+      "timestamp": "2021-09-20T18:44:22Z",
+      "version": 5,
+      "changeset": 111461982,
+      "user": "EsMercadal",
+      "uid": 14095379,
       "nodes": [1751720259, 515219264],
       "geometry": [
         {"lat": 39.8910135, "lon": 4.2614071, "z": 24.1},
@@ -7583,10 +7591,12 @@
       ],
       "tags": {
         "highway": "residential",
+        "lit": "yes",
         "name": "Carrer de Isabel II",
         "name:es": "Calle de Isabel II",
         "oneway": "yes",
-        "source": "survey"
+        "source": "survey",
+        "surface": "asphalt"
       }
     },
     {
@@ -7669,11 +7679,11 @@
     {
       "type": "way",
       "id": 163863835,
-      "timestamp": "2016-07-27T12:58:23Z",
-      "version": 6,
-      "changeset": 41062292,
-      "user": "Kintarō",
-      "uid": 212767,
+      "timestamp": "2021-09-20T18:30:12Z",
+      "version": 9,
+      "changeset": 111461982,
+      "user": "EsMercadal",
+      "uid": 14095379,
       "nodes": [492869443, 492869471],
       "geometry": [
         {"lat": 39.8881879, "lon": 4.2670238, "z": 39.4},
@@ -7681,9 +7691,12 @@
       ],
       "tags": {
         "highway": "residential",
+        "lit": "yes",
         "maxspeed": "20",
         "name": "Plaça del Príncep",
-        "name:es": "Plaza del Príncipe"
+        "name:es": "Plaza del Príncipe",
+        "sidewalk": "both",
+        "surface": "paving_stones"
       }
     },
     {
@@ -12073,11 +12086,11 @@
     {
       "type": "way",
       "id": 41859775,
-      "timestamp": "2019-02-27T19:09:59Z",
-      "version": 11,
-      "changeset": 67628315,
-      "user": "Puxan",
-      "uid": 5328434,
+      "timestamp": "2021-09-20T18:05:16Z",
+      "version": 14,
+      "changeset": 111460372,
+      "user": "EsMercadal",
+      "uid": 14095379,
       "nodes": [531395223, 515219253],
       "geometry": [
         {"lat": 39.8892918, "lon": 4.2644067, "z": 37.7},
@@ -12086,10 +12099,13 @@
       ],
       "tags": {
         "highway": "residential",
+        "lit": "yes",
         "name": "Plaça de la Constitució",
         "name:es": "Plaza de la Constitución",
         "oneway": "yes",
-        "source": "survey"
+        "sidewalk": "both",
+        "source": "survey",
+        "surface": "sett"
       }
     },
     {
@@ -12976,11 +12992,11 @@
     {
       "type": "way",
       "id": 431249600,
-      "timestamp": "2016-07-15T18:31:59Z",
-      "version": 1,
-      "changeset": 40766376,
-      "user": "Kintarō",
-      "uid": 212767,
+      "timestamp": "2021-09-20T18:08:09Z",
+      "version": 4,
+      "changeset": 111460372,
+      "user": "EsMercadal",
+      "uid": 14095379,
       "nodes": [492869476, 492869478],
       "geometry": [
         {"lat": 39.8884945, "lon": 4.2659228, "z": 36.3},
@@ -12988,10 +13004,12 @@
       ],
       "tags": {
         "highway": "residential",
+        "lit": "yes",
         "name": "Plaça del Carme",
         "name:es": "Plaza del Carmen",
         "oneway": "yes",
-        "surface": "paved"
+        "sidewalk": "both",
+        "surface": "paving_stones"
       }
     },
     {
@@ -14229,11 +14247,11 @@
     {
       "type": "way",
       "id": 567839601,
-      "timestamp": "2018-03-08T13:34:32Z",
-      "version": 1,
-      "changeset": 56999578,
-      "user": "Puxan",
-      "uid": 5328434,
+      "timestamp": "2021-09-20T18:07:30Z",
+      "version": 4,
+      "changeset": 111460372,
+      "user": "EsMercadal",
+      "uid": 14095379,
       "nodes": [1305265060, 492869476],
       "geometry": [
         {"lat": 39.8884557, "lon": 4.2661057, "z": 36.6},
@@ -14241,10 +14259,12 @@
       ],
       "tags": {
         "highway": "residential",
+        "lit": "yes",
         "name": "Plaça del Carme",
         "name:es": "Plaza del Carmen",
         "oneway": "yes",
-        "surface": "paved"
+        "sidewalk": "both",
+        "surface": "paving_stones"
       }
     },
     {
@@ -14979,11 +14999,11 @@
     {
       "type": "way",
       "id": 673441891,
-      "timestamp": "2019-02-27T19:09:59Z",
-      "version": 1,
-      "changeset": 67628315,
-      "user": "Puxan",
-      "uid": 5328434,
+      "timestamp": "2021-09-20T18:05:50Z",
+      "version": 3,
+      "changeset": 111460372,
+      "user": "EsMercadal",
+      "uid": 14095379,
       "nodes": [515219264, 531395223],
       "geometry": [
         {"lat": 39.8895959, "lon": 4.2642982, "z": 33.4},
@@ -14991,10 +15011,12 @@
       ],
       "tags": {
         "highway": "pedestrian",
+        "lit": "yes",
         "name": "Plaça de la Constitució",
         "name:es": "Plaza de la Constitución",
         "oneway": "yes",
-        "source": "survey"
+        "source": "survey",
+        "surface": "sett"
       }
     },
     {
@@ -17358,6 +17380,28 @@
         "oneway": "yes",
         "surface": "asphalt",
         "turn:lanes": "left|right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 985207866,
+      "timestamp": "2021-09-20T18:48:31Z",
+      "version": 3,
+      "changeset": 111461982,
+      "user": "EsMercadal",
+      "uid": 14095379,
+      "nodes": [9108466017, 531486434],
+      "geometry": [
+        {"lat": 39.8890865, "lon": 4.2645018, "z": 39.2},
+        {"lat": 39.8891076, "lon": 4.2651885, "z": 34.1}
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Portal de Mar",
+        "oneway": "yes",
+        "sidewalk": "both",
+        "surface": "paving_stones"
       }
     }
   ]

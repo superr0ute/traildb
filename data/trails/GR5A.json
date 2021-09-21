@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-17T02:34:02Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-21T02:34:45Z"},
   "elements": [
     {
       "type": "relation",
       "id": 2704286,
-      "timestamp": "2021-09-16T18:19:48Z",
-      "version": 780,
-      "changeset": 111304224,
+      "timestamp": "2021-09-20T13:29:09Z",
+      "version": 781,
+      "changeset": 111450106,
       "user": "Hannes Röst",
       "uid": 289221,
       "members": [
@@ -1744,6 +1744,11 @@
         {"type": "way", "ref": 305483417, "role": "alternative"},
         {"type": "way", "ref": 305483416, "role": "alternative"},
         {"type": "way", "ref": 231033150, "role": "alternative"},
+        {"type": "way", "ref": 231033150, "role": "alternative"},
+        {"type": "way", "ref": 305483416, "role": "alternative"},
+        {"type": "way", "ref": 305483417, "role": "alternative"},
+        {"type": "way", "ref": 305483418, "role": "alternative"},
+        {"type": "way", "ref": 54777449, "role": "alternative"},
         {"type": "way", "ref": 54777030, "role": "alternative"},
         {"type": "way", "ref": 54777466, "role": "alternative"},
         {"type": "way", "ref": 343087427, "role": "alternative"},
@@ -21533,11 +21538,11 @@
     {
       "type": "way",
       "id": 261832898,
-      "timestamp": "2020-11-09T12:06:54Z",
-      "version": 4,
-      "changeset": 93797351,
-      "user": "billybug",
-      "uid": 397998,
+      "timestamp": "2021-09-20T13:30:51Z",
+      "version": 5,
+      "changeset": 111450179,
+      "user": "Hannes Röst",
+      "uid": 289221,
       "nodes": [599051357, 281255322],
       "geometry": [
         {"lat": 43.7276074, "lon": 7.2614687, "z": 130.1},
@@ -21551,12 +21556,10 @@
         {"lat": 43.728324, "lon": 7.2607802, "z": 131.1}
       ],
       "tags": {
-        "boundary": "political",
         "highway": "residential",
         "maxspeed": "30",
         "name": "Vieux Chemin de Gairaut",
-        "oneway": "no",
-        "political_division": "canton"
+        "oneway": "no"
       }
     },
     {
@@ -21976,9 +21979,9 @@
     {
       "type": "way",
       "id": 26352061,
-      "timestamp": "2020-12-29T21:48:40Z",
-      "version": 15,
-      "changeset": 96626116,
+      "timestamp": "2021-09-20T10:49:11Z",
+      "version": 16,
+      "changeset": 111443405,
       "user": "Gonéo",
       "uid": 12172125,
       "nodes": [2592854820, 494239499],
@@ -22000,7 +22003,7 @@
         {"lat": 45.8005491, "lon": 6.7241239, "z": 1184.2},
         {"lat": 45.800504, "lon": 6.7240773, "z": 1184.1}
       ],
-      "tags": {"highway": "path"}
+      "tags": {"highway": "path", "name": "Chemin du Praz"}
     },
     {
       "type": "way",
@@ -30790,23 +30793,21 @@
     {
       "type": "way",
       "id": 329821827,
-      "timestamp": "2015-02-26T11:43:16Z",
-      "version": 2,
-      "changeset": 29111503,
-      "user": "Verdy_p",
-      "uid": 90780,
+      "timestamp": "2021-09-20T13:30:51Z",
+      "version": 3,
+      "changeset": 111450179,
+      "user": "Hannes Röst",
+      "uid": 289221,
       "nodes": [3367673502, 281255322],
       "geometry": [
         {"lat": 43.7285965, "lon": 7.2607695, "z": 132.8},
         {"lat": 43.728324, "lon": 7.2607802, "z": 131.1}
       ],
       "tags": {
-        "boundary": "political",
         "bridge": "yes",
         "highway": "residential",
         "layer": "1",
-        "name": "Vieux Chemin de Gairaut",
-        "political_division": "canton"
+        "name": "Vieux Chemin de Gairaut"
       }
     },
     {
@@ -40507,9 +40508,9 @@
     {
       "type": "way",
       "id": 371773587,
-      "timestamp": "2021-07-16T16:48:29Z",
-      "version": 4,
-      "changeset": 108129661,
+      "timestamp": "2021-09-20T10:49:11Z",
+      "version": 5,
+      "changeset": 111443405,
       "user": "Gonéo",
       "uid": 12172125,
       "nodes": [2987363115, 288725987],
@@ -40527,6 +40528,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
+        "name": "Chemin du Praz",
         "smoothness": "bad",
         "surface": "compacted",
         "tracktype": "grade1"
@@ -48423,7 +48425,7 @@
         {"lat": 45.8442709, "lon": 6.7271314, "z": 1038.6},
         {"lat": 45.8442428, "lon": 6.7270367, "z": 1041.1},
         {"lat": 45.8441481, "lon": 6.7268652, "z": 1045},
-        {"lat": 45.8440252, "lon": 6.7267065, "z": 1048.1},
+        {"lat": 45.8440336, "lon": 6.7267359, "z": 1047.2},
         {"lat": 45.8438204, "lon": 6.7265478, "z": 1051.7},
         {"lat": 45.8437411, "lon": 6.7265452, "z": 1050.7}
       ],
@@ -49521,9 +49523,9 @@
     {
       "type": "way",
       "id": 432341718,
-      "timestamp": "2021-07-16T16:48:29Z",
-      "version": 3,
-      "changeset": 108129661,
+      "timestamp": "2021-09-20T10:49:11Z",
+      "version": 4,
+      "changeset": 111443405,
       "user": "Gonéo",
       "uid": 12172125,
       "nodes": [288722336, 2592854820],
@@ -49542,16 +49544,16 @@
         {"lat": 45.8027601, "lon": 6.7246817, "z": 1176.2},
         {"lat": 45.802502, "lon": 6.7246011, "z": 1176.7}
       ],
-      "tags": {"highway": "path"}
+      "tags": {"highway": "path", "name": "Chemin du Praz"}
     },
     {
       "type": "way",
       "id": 432341719,
-      "timestamp": "2021-03-07T10:54:03Z",
-      "version": 4,
-      "changeset": 100568706,
-      "user": "cOSMografix",
-      "uid": 2212351,
+      "timestamp": "2021-09-20T10:49:11Z",
+      "version": 5,
+      "changeset": 111443405,
+      "user": "Gonéo",
+      "uid": 12172125,
       "nodes": [288725980, 2987363115],
       "geometry": [
         {"lat": 45.7987888, "lon": 6.7224592, "z": 1189.4},
@@ -49562,6 +49564,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
+        "name": "Chemin du Praz",
         "smoothness": "bad",
         "surface": "dirt",
         "tracktype": "grade4"
@@ -49570,11 +49573,11 @@
     {
       "type": "way",
       "id": 432341723,
-      "timestamp": "2021-05-23T11:10:17Z",
-      "version": 3,
-      "changeset": 105161039,
-      "user": "Christian Perrier",
-      "uid": 60669,
+      "timestamp": "2021-09-20T10:49:11Z",
+      "version": 4,
+      "changeset": 111443405,
+      "user": "Gonéo",
+      "uid": 12172125,
       "nodes": [1134689324, 288725980],
       "geometry": [
         {"lat": 45.7996443, "lon": 6.7238287, "z": 1189.5},
@@ -49586,6 +49589,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
+        "name": "Chemin du Praz",
         "smoothness": "bad",
         "surface": "dirt",
         "tracktype": "grade4"
@@ -49621,9 +49625,9 @@
     {
       "type": "way",
       "id": 432341726,
-      "timestamp": "2021-07-16T16:48:29Z",
-      "version": 2,
-      "changeset": 108129661,
+      "timestamp": "2021-09-20T10:49:11Z",
+      "version": 3,
+      "changeset": 111443405,
       "user": "Gonéo",
       "uid": 12172125,
       "nodes": [2251008320, 288722336],
@@ -49635,16 +49639,16 @@
         {"lat": 45.8064799, "lon": 6.7256483, "z": 1169.3},
         {"lat": 45.8062219, "lon": 6.7255128, "z": 1169.7}
       ],
-      "tags": {"highway": "path"}
+      "tags": {"highway": "path", "name": "Chemin du Praz"}
     },
     {
       "type": "way",
       "id": 432341727,
-      "timestamp": "2021-05-23T11:09:07Z",
-      "version": 2,
-      "changeset": 105160880,
-      "user": "Christian Perrier",
-      "uid": 60669,
+      "timestamp": "2021-09-20T10:49:11Z",
+      "version": 3,
+      "changeset": 111443405,
+      "user": "Gonéo",
+      "uid": 12172125,
       "nodes": [494239499, 1134689324],
       "geometry": [
         {"lat": 45.800504, "lon": 6.7240773, "z": 1184.1},
@@ -49656,7 +49660,11 @@
         {"lat": 45.7996925, "lon": 6.723878, "z": 1189.4},
         {"lat": 45.7996443, "lon": 6.7238287, "z": 1189.5}
       ],
-      "tags": {"highway": "path", "surface": "fine_gravel"}
+      "tags": {
+        "highway": "path",
+        "name": "Chemin du Praz",
+        "surface": "fine_gravel"
+      }
     },
     {
       "type": "way",
