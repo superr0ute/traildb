@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-09-20T23:59:59Z",
-    "timestamp_osm_base": "2021-09-21T02:47:54Z",
+    "timestamp_osm_date": "2021-09-21T23:59:59Z",
+    "timestamp_osm_base": "2021-09-22T02:45:01Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2482,19 +2482,22 @@
     {
       "type": "node",
       "id": 3468946583,
-      "lat": 48.899892,
-      "lon": -120.9805293,
-      "timestamp": "2015-04-21T05:19:33Z",
-      "version": 1,
-      "changeset": 30368675,
-      "user": "talapus",
-      "uid": 2812957,
+      "lat": 48.9032067,
+      "lon": -120.9797354,
+      "timestamp": "2021-09-21T02:59:04Z",
+      "version": 2,
+      "changeset": 111471823,
+      "user": "jake-low",
+      "uid": 8794039,
       "tags": {
+        "access": "permit",
         "backcountry": "yes",
+        "fixme": "resurvey; location guessed from written reports",
         "horse": "yes",
-        "name": "Deerlick",
+        "name": "Deerlick Camp",
         "operator": "North Cascades National Park",
         "tents": "2",
+        "toilets": "yes",
         "tourism": "camp_site"
       }
     },
@@ -2683,35 +2686,6 @@
         "operator": "North Cascades National Park",
         "tents": "1",
         "tourism": "camp_site"
-      }
-    },
-    {
-      "type": "node",
-      "id": 3474442184,
-      "lat": 48.4954286,
-      "lon": -121.205478,
-      "timestamp": "2021-07-19T21:17:40Z",
-      "version": 4,
-      "changeset": 108275737,
-      "user": "jake-low",
-      "uid": 8794039,
-      "tags": {
-        "access": "permissive",
-        "building": "fire_lookout",
-        "ele": "2088",
-        "electricity": "no",
-        "fee": "no",
-        "fireplace": "no",
-        "gnis:feature_id": "1520758",
-        "historic": "yes",
-        "internet_access": "no",
-        "name": "Hidden Lake Lookout",
-        "operator": "Friends of Hidden Lake Lookout",
-        "ref:nrhp": "87001184",
-        "start_date": "1932",
-        "tourism": "wilderness_hut",
-        "website": "https://www.fs.usda.gov/recarea/mbs/recreation/hiking/recarea/?recid=17672",
-        "wikimedia_commons": "Hidden_Peak_Fire_Lookout_at_sunset,_with_smokey_haze_from_nearby_fires.jpg"
       }
     },
     {
@@ -2909,14 +2883,15 @@
       "id": 5311166662,
       "lat": 48.8715553,
       "lon": -121.2509933,
-      "timestamp": "2017-12-30T00:16:26Z",
-      "version": 1,
-      "changeset": 55023757,
-      "user": "Natfoot",
-      "uid": 567792,
+      "timestamp": "2021-09-21T03:11:49Z",
+      "version": 2,
+      "changeset": 111472012,
+      "user": "jake-low",
+      "uid": 8794039,
       "tags": {
         "amenity": "shelter",
-        "name": "Beaver Pass Shelter"
+        "name": "Beaver Pass Shelter",
+        "ref:nrhp": "88003448"
       }
     },
     {
@@ -3441,6 +3416,44 @@
         "name": "Goodell Creek Campground",
         "tourism": "camp_site",
         "website": "https://www.recreation.gov/camping/campgrounds/246852"
+      }
+    },
+    {
+      "type": "way",
+      "id": 985409968,
+      "timestamp": "2021-09-21T05:47:37Z",
+      "version": 1,
+      "changeset": 111475467,
+      "user": "jake-low",
+      "uid": 8794039,
+      "center": {
+        "lat": 48.4954503,
+        "lon": -121.2051666
+      },
+      "nodes": [],
+      "tags": {
+        "access": "permissive",
+        "building": "fire_lookout",
+        "building:colour": "lightgrey",
+        "building:design": "L-4 ground cabin",
+        "building:material": "wood",
+        "ele": "2088",
+        "electricity": "no",
+        "fee": "no",
+        "fireplace": "no",
+        "gnis:feature_id": "1520758",
+        "historic": "yes",
+        "internet_access": "no",
+        "name": "Hidden Lake Lookout",
+        "operator": "Friends of Hidden Lake Lookout",
+        "ref:nhlr": "US 175",
+        "ref:nrhp": "87001184",
+        "roof:shape": "gabled",
+        "start_date": "1932",
+        "tourism": "wilderness_hut",
+        "website": "https://www.fs.usda.gov/recarea/mbs/recreation/hiking/recarea/?recid=17672",
+        "wikidata": "Q86928307",
+        "wikimedia_commons": "Hidden_Peak_Fire_Lookout_at_sunset,_with_smokey_haze_from_nearby_fires.jpg"
       }
     }
   ]
