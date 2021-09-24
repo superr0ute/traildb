@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-09-22T23:59:59Z",
-    "timestamp_osm_base": "2021-09-23T05:32:15Z",
+    "timestamp_osm_date": "2021-09-23T23:59:59Z",
+    "timestamp_osm_base": "2021-09-24T05:44:31Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -8571,13 +8571,17 @@
       "id": 1354061847,
       "lat": 49.0393242,
       "lon": 21.1995836,
-      "timestamp": "2011-11-26T14:03:05Z",
-      "version": 4,
-      "changeset": 9955874,
-      "user": "M4R3K",
-      "uid": 520333,
+      "timestamp": "2021-09-23T14:31:57Z",
+      "version": 5,
+      "changeset": 111597166,
+      "user": "infitter",
+      "uid": 6297500,
       "tags": {
-        "name": "COOP Jednota Potraviny",
+        "branch": "Potraviny",
+        "brand": "COOP Jednota",
+        "brand:wikidata": "Q41629254",
+        "brand:wikipedia": "sk:COOP Jednota Slovensko",
+        "name": "COOP Jednota",
         "shop": "supermarket"
       }
     },
@@ -11472,12 +11476,19 @@
       "id": 2897746561,
       "lat": 49.0227829,
       "lon": 21.2808891,
-      "timestamp": "2014-06-03T19:01:45Z",
-      "version": 1,
-      "changeset": 22720882,
-      "user": "Jose Riha",
-      "uid": 29762,
+      "timestamp": "2021-09-23T14:31:57Z",
+      "version": 2,
+      "changeset": 111597166,
+      "user": "infitter",
+      "uid": 6297500,
       "tags": {
+        "addr:city": "Prešov",
+        "addr:housenumber": "2573",
+        "addr:postcode": "08006",
+        "addr:street": "Vranovská",
+        "brand": "COOP Jednota",
+        "brand:wikidata": "Q41629254",
+        "brand:wikipedia": "sk:COOP Jednota Slovensko",
         "name": "COOP Jednota",
         "shop": "supermarket"
       }
@@ -14860,13 +14871,22 @@
       "id": 7913782586,
       "lat": 49.0119285,
       "lon": 21.2732129,
-      "timestamp": "2020-09-16T17:27:58Z",
-      "version": 1,
-      "changeset": 91000181,
+      "timestamp": "2021-09-23T14:31:57Z",
+      "version": 2,
+      "changeset": 111597166,
       "user": "infitter",
       "uid": 6297500,
       "tags": {
-        "name": "CBA Karmen",
+        "addr:city": "Prešov",
+        "addr:housenumber": "25",
+        "addr:postcode": "08006",
+        "addr:street": "Makarenkova",
+        "branch": "Karmen",
+        "brand": "CBA",
+        "brand:wikidata": "Q779845",
+        "brand:wikipedia": "en:CBA (food retail)",
+        "name": "CBA",
+        "operator": "Karmen VOP",
         "shop": "supermarket"
       }
     },
@@ -14917,6 +14937,26 @@
         "brand:wikidata": "Q50737403",
         "brand:wikipedia": "sk:Fresh",
         "name": "Fresh",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7947624407,
+      "lat": 48.9986844,
+      "lon": 21.2394879,
+      "timestamp": "2021-09-23T22:14:14Z",
+      "version": 2,
+      "changeset": 111621152,
+      "user": "infitter",
+      "uid": 6297500,
+      "tags": {
+        "addr:city": "Prešov",
+        "addr:housenumber": "2939/137",
+        "addr:postcode": "08001",
+        "addr:street": "Hlavná",
+        "name": "AkoRepa",
+        "organic": "only",
         "shop": "supermarket"
       }
     },
@@ -16019,6 +16059,48 @@
       }
     },
     {
+      "type": "node",
+      "id": 9117431714,
+      "lat": 49.0135223,
+      "lon": 21.2715371,
+      "timestamp": "2021-09-23T15:20:14Z",
+      "version": 4,
+      "changeset": 111601101,
+      "user": "MAJS0",
+      "uid": 11412296,
+      "tags": {
+        "brand": "Milk-Agro",
+        "brand:wikidata": "Q64173785",
+        "name": "Milk-Agro",
+        "opening_hours": "Mo-Fr 06:00-18:00 Sa 06:00-12:00",
+        "operator": "MILK-AGRO",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+421517944274",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9118717739,
+      "lat": 48.994837,
+      "lon": 21.2408142,
+      "timestamp": "2021-09-23T22:14:14Z",
+      "version": 1,
+      "changeset": 111621152,
+      "user": "infitter",
+      "uid": 6297500,
+      "tags": {
+        "addr:city": "Prešov",
+        "addr:housenumber": "4",
+        "addr:postcode": "08001",
+        "addr:street": "Tkáčska",
+        "name": "NÁŠ DVOR, Farmárske potraviny",
+        "organic": "only",
+        "shop": "supermarket"
+      }
+    },
+    {
       "type": "way",
       "id": 50431252,
       "timestamp": "2021-08-06T21:34:10Z",
@@ -16303,11 +16385,11 @@
     {
       "type": "way",
       "id": 93947317,
-      "timestamp": "2017-06-02T06:57:07Z",
-      "version": 5,
-      "changeset": 49186050,
-      "user": "wmyrda",
-      "uid": 1980824,
+      "timestamp": "2021-09-23T22:14:14Z",
+      "version": 6,
+      "changeset": 111621152,
+      "user": "infitter",
+      "uid": 6297500,
       "center": {
         "lat": 49.001592,
         "lon": 21.2283477
@@ -16319,6 +16401,9 @@
         "addr:housenumber": "40",
         "addr:street": "Levočská",
         "addr:streetnumber": "40",
+        "brand": "Kaufland",
+        "brand:wikidata": "Q685967",
+        "brand:wikipedia": "en:Kaufland",
         "building": "yes",
         "name": "Kaufland",
         "opening_hours": "Mo-Su 07:00-22:00",
