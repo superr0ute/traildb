@@ -8055,6 +8055,33 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 5005.3,
+        "@id": "n1306690224",
+        "@changeset": 111585185,
+        "@timestamp": "2021-09-23T10:40:06Z",
+        "@version": 2,
+        "@uid": 14163419,
+        "@user": "l'Echoppe du pays",
+        "addr:city": "Roquebillière",
+        "addr:housenumber": "13",
+        "addr:postcode": "06450",
+        "addr:street": "Rue Dalloni",
+        "name": "L'Échoppe du Pays",
+        "organic": "only",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.311887,
+          44.018262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "mountain-pass",
         "@distance": 19.1,
         "@id": "n1314504142",
@@ -8555,32 +8582,6 @@
         "coordinates": [
           7.2391464,
           43.8212847
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 3388.7,
-        "@id": "n1571428307",
-        "@changeset": 46177374,
-        "@timestamp": "2017-02-17T20:43:54Z",
-        "@version": 4,
-        "@uid": 22827,
-        "@user": "ouleyang",
-        "ele": 1412,
-        "name": "Mont Férion",
-        "natural": "peak",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
-        "wikidata": "Q942454",
-        "wikipedia": "fr:Mont Férion"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.2726258,
-          43.8682922
         ]
       }
     },
@@ -9841,6 +9842,32 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "peak_peak",
+        "@distance": 3388.7,
+        "@id": "n1571428307",
+        "@changeset": 46177374,
+        "@timestamp": "2017-02-17T20:43:54Z",
+        "@version": 4,
+        "@uid": 22827,
+        "@user": "ouleyang",
+        "ele": 1412,
+        "name": "Mont Férion",
+        "natural": "peak",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+        "wikidata": "Q942454",
+        "wikipedia": "fr:Mont Férion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2726258,
+          43.8682922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "place_village",
         "@distance": 14.7,
         "@id": "n1577099126",
@@ -10634,55 +10661,6 @@
         "coordinates": [
           7.2649431,
           43.7107158
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 230.8,
-        "@id": "n1950618060",
-        "@changeset": 82500335,
-        "@timestamp": "2020-03-23T03:17:46Z",
-        "@version": 5,
-        "@uid": 1443767,
-        "@user": "Olyon",
-        "brand": "Carrefour City",
-        "brand:wikidata": "Q2940187",
-        "name": "Carrefour City",
-        "opening_hours": "Mo-Sa 07:00-22:00; Su 09:00-13:00",
-        "operator": "Carrefour",
-        "shop": "supermarket",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.2605725,
-          43.6963807
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 292.1,
-        "@id": "n1950618131",
-        "@changeset": 79048582,
-        "@timestamp": "2019-12-31T09:14:59Z",
-        "@version": 2,
-        "@uid": 2678738,
-        "@user": "fgouget",
-        "name": "Alimentation Générale",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.261077,
-          43.7018738
         ]
       }
     },
@@ -12365,6 +12343,55 @@
         "coordinates": [
           6.8557917,
           44.4750572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 230.8,
+        "@id": "n1950618060",
+        "@changeset": 82500335,
+        "@timestamp": "2020-03-23T03:17:46Z",
+        "@version": 5,
+        "@uid": 1443767,
+        "@user": "Olyon",
+        "brand": "Carrefour City",
+        "brand:wikidata": "Q2940187",
+        "name": "Carrefour City",
+        "opening_hours": "Mo-Sa 07:00-22:00; Su 09:00-13:00",
+        "operator": "Carrefour",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2605725,
+          43.6963807
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 292.1,
+        "@id": "n1950618131",
+        "@changeset": 79048582,
+        "@timestamp": "2019-12-31T09:14:59Z",
+        "@version": 2,
+        "@uid": 2678738,
+        "@user": "fgouget",
+        "name": "Alimentation Générale",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.261077,
+          43.7018738
         ]
       }
     },
@@ -15809,6 +15836,29 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_drinking-water",
+        "@distance": 1979.8,
+        "@id": "n7773557785",
+        "@changeset": 88791228,
+        "@timestamp": "2020-07-31T16:23:22Z",
+        "@version": 1,
+        "@uid": 11576126,
+        "@user": "Ambrus-Me",
+        "amenity": "drinking_water",
+        "name:en": "Water",
+        "name:ru": "Вода"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9614419,
+          44.120983
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
         "@distance": 36.5,
         "@id": "n1808682336",
         "@changeset": 31668048,
@@ -16423,29 +16473,6 @@
         "coordinates": [
           7.3207478,
           44.0150541
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 4584.7,
-        "@id": "n3101122825",
-        "@changeset": 87442801,
-        "@timestamp": "2020-07-02T09:11:40Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "name": "L'Échoppe du Pays",
-        "organic": "yes",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.3078163,
-          44.0117565
         ]
       }
     },
@@ -19373,29 +19400,6 @@
         "coordinates": [
           6.5973356,
           44.8599395
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 1979.8,
-        "@id": "n7773557785",
-        "@changeset": 88791228,
-        "@timestamp": "2020-07-31T16:23:22Z",
-        "@version": 1,
-        "@uid": 11576126,
-        "@user": "Ambrus-Me",
-        "amenity": "drinking_water",
-        "name:en": "Water",
-        "name:ru": "Вода"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.9614419,
-          44.120983
         ]
       }
     },
@@ -27302,33 +27306,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 4411.6,
-        "@id": "n8386371876",
-        "@changeset": 98558407,
-        "@timestamp": "2021-02-02T07:39:37Z",
-        "@version": 2,
-        "@uid": 188930,
-        "@user": "JLZIMMERMANN",
-        "addr:city": "La Trinité",
-        "addr:postcode": "06340",
-        "brand": "Auchan",
-        "brand:wikidata": "Q758603",
-        "brand:wikipedia": "en:Auchan",
-        "name": "Auchan - La Trinité",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.3185691,
-          43.7423432
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 319.5,
         "@id": "n5316547939",
@@ -29205,6 +29182,33 @@
         "coordinates": [
           7.0903349,
           44.1420469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 4411.6,
+        "@id": "n8386371876",
+        "@changeset": 98558407,
+        "@timestamp": "2021-02-02T07:39:37Z",
+        "@version": 2,
+        "@uid": 188930,
+        "@user": "JLZIMMERMANN",
+        "addr:city": "La Trinité",
+        "addr:postcode": "06340",
+        "brand": "Auchan",
+        "brand:wikidata": "Q758603",
+        "brand:wikipedia": "en:Auchan",
+        "name": "Auchan - La Trinité",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3185691,
+          43.7423432
         ]
       }
     },
@@ -37523,32 +37527,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "alpine-hut",
-        "@distance": 1771.1,
-        "@id": "w246399373",
-        "@changeset": 50055522,
-        "@timestamp": "2017-07-05T10:42:16Z",
-        "@version": 4,
-        "@uid": 278581,
-        "@user": "traces",
-        "building": "yes",
-        "ele": 1564,
-        "name": "Refuge du Miage",
-        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2013",
-        "tourism": "alpine_hut",
-        "website": "http://refugedemiage.com/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.7599345,
-          45.8391735
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 36.9,
         "@id": "n7814893185",
@@ -37797,6 +37775,32 @@
         "coordinates": [
           6.7776968,
           46.1906453
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "alpine-hut",
+        "@distance": 1771.1,
+        "@id": "w246399373",
+        "@changeset": 50055522,
+        "@timestamp": "2017-07-05T10:42:16Z",
+        "@version": 4,
+        "@uid": 278581,
+        "@user": "traces",
+        "building": "yes",
+        "ele": 1564,
+        "name": "Refuge du Miage",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2013",
+        "tourism": "alpine_hut",
+        "website": "http://refugedemiage.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7599345,
+          45.8391735
         ]
       }
     },
@@ -38335,50 +38339,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 6444.4,
-        "@id": "w823070553",
-        "@changeset": 87552213,
-        "@timestamp": "2020-07-05T11:08:27Z",
-        "@version": 4,
-        "@uid": 507417,
-        "@user": "tartiflex",
-        "addr:city": "Domancy",
-        "addr:housenumber": "119",
-        "addr:postcode": "74700",
-        "addr:street": "Boulevard de la Pallud",
-        "brand": "Intermarché",
-        "brand:wikidata": "Q3153200",
-        "brand:wikipedia": "fr:Intermarché",
-        "building": "supermarket",
-        "contact:fax": "+33 4 50 78 36 09",
-        "contact:phone": "+33 4 50 93 66 22",
-        "contact:website": "https://www.intermarche.com/magasins/10140/domancy-74700/infos-pratiques",
-        "drive_through": "yes",
-        "name": "Intermarché",
-        "official_name": "Intermarché Super Domancy",
-        "opening_hours": "Mo-Th 08:30-19:30; Fr-Sa 08:30-20:00; Su 08:30-12:30",
-        "operator": "Les Mousquetaires",
-        "operator:wikidata": "Q1820565",
-        "operator:wikipedia": "fr:Les Mousquetaires",
-        "payment:coins": "yes",
-        "payment:mastercard": "yes",
-        "payment:notes": "yes",
-        "payment:visa": "yes",
-        "shop": "supermarket",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.6822821,
-          45.9046005
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "peak_peak",
         "@distance": 2155.4,
         "@id": "n5017749145",
@@ -38573,6 +38533,50 @@
         "coordinates": [
           6.6588078,
           46.40461
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 6444.4,
+        "@id": "w823070553",
+        "@changeset": 87552213,
+        "@timestamp": "2020-07-05T11:08:27Z",
+        "@version": 4,
+        "@uid": 507417,
+        "@user": "tartiflex",
+        "addr:city": "Domancy",
+        "addr:housenumber": "119",
+        "addr:postcode": "74700",
+        "addr:street": "Boulevard de la Pallud",
+        "brand": "Intermarché",
+        "brand:wikidata": "Q3153200",
+        "brand:wikipedia": "fr:Intermarché",
+        "building": "supermarket",
+        "contact:fax": "+33 4 50 78 36 09",
+        "contact:phone": "+33 4 50 93 66 22",
+        "contact:website": "https://www.intermarche.com/magasins/10140/domancy-74700/infos-pratiques",
+        "drive_through": "yes",
+        "name": "Intermarché",
+        "official_name": "Intermarché Super Domancy",
+        "opening_hours": "Mo-Th 08:30-19:30; Fr-Sa 08:30-20:00; Su 08:30-12:30",
+        "operator": "Les Mousquetaires",
+        "operator:wikidata": "Q1820565",
+        "operator:wikipedia": "fr:Les Mousquetaires",
+        "payment:coins": "yes",
+        "payment:mastercard": "yes",
+        "payment:notes": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6822821,
+          45.9046005
         ]
       }
     },
