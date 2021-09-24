@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-19T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-23T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -140,11 +140,11 @@
     {
       "type": "relation",
       "id": 9231294,
-      "timestamp": "2021-09-19T11:58:51Z",
-      "version": 25,
-      "changeset": 111405863,
-      "user": "rbon56",
-      "uid": 7903615,
+      "timestamp": "2021-09-23T21:01:44Z",
+      "version": 26,
+      "changeset": 111619453,
+      "user": "Gerritholl",
+      "uid": 99909,
       "members": [
         {"type": "way", "ref": 664206395, "role": "main"},
         {"type": "way", "ref": 38449138, "role": "main"},
@@ -168,7 +168,6 @@
         {"type": "way", "ref": 236571417, "role": "main"},
         {"type": "way", "ref": 605881024, "role": "main"},
         {"type": "way", "ref": 844184698, "role": ""},
-        {"type": "way", "ref": 844184697, "role": ""},
         {"type": "way", "ref": 162541120, "role": "main"},
         {"type": "way", "ref": 605881025, "role": "main"},
         {"type": "way", "ref": 659659297, "role": "main"},
@@ -6551,11 +6550,11 @@
     {
       "type": "way",
       "id": 236813896,
-      "timestamp": "2021-09-19T08:54:46Z",
-      "version": 8,
-      "changeset": 111399338,
-      "user": "rbon56",
-      "uid": 7903615,
+      "timestamp": "2021-09-23T21:20:45Z",
+      "version": 9,
+      "changeset": 111619990,
+      "user": "Gerritholl",
+      "uid": 99909,
       "nodes": [454291678, 454291803],
       "geometry": [
         {"lat": 45.9338215, "lon": 7.9747861},
@@ -6709,6 +6708,7 @@
         {"lat": 45.9297531, "lon": 7.9741202},
         {"lat": 45.9296972, "lon": 7.9740866},
         {"lat": 45.9296792, "lon": 7.9740769},
+        {"lat": 45.9296671, "lon": 7.9740732},
         {"lat": 45.9296524, "lon": 7.9740688},
         {"lat": 45.929625, "lon": 7.974064},
         {"lat": 45.9296002, "lon": 7.974073},
@@ -6884,7 +6884,7 @@
         {"lat": 45.9263879, "lon": 7.9706984},
         {"lat": 45.9263841, "lon": 7.9706719},
         {"lat": 45.9263772, "lon": 7.9706505},
-        {"lat": 45.9263807, "lon": 7.9706131},
+        {"lat": 45.9263806, "lon": 7.9706143},
         {"lat": 45.9263638, "lon": 7.9705825},
         {"lat": 45.9263562, "lon": 7.9705371},
         {"lat": 45.9263338, "lon": 7.9705036},
@@ -6941,6 +6941,7 @@
         {"lat": 45.9255813, "lon": 7.9684561},
         {"lat": 45.9255519, "lon": 7.9684359},
         {"lat": 45.9255231, "lon": 7.9684192},
+        {"lat": 45.9254974, "lon": 7.9684159},
         {"lat": 45.925484, "lon": 7.9684142},
         {"lat": 45.9254506, "lon": 7.9684249},
         {"lat": 45.9253715, "lon": 7.9684555},
@@ -7043,6 +7044,7 @@
         {"lat": 45.923053, "lon": 7.9677707}
       ],
       "tags": {
+        "ford": "stream",
         "highway": "path",
         "sac_scale": "mountain_hiking",
         "surface": "dirt",
@@ -12410,11 +12412,11 @@
     {
       "type": "way",
       "id": 38428653,
-      "timestamp": "2021-09-18T15:37:01Z",
-      "version": 8,
-      "changeset": 111380258,
-      "user": "rbon56",
-      "uid": 7903615,
+      "timestamp": "2021-09-23T21:20:45Z",
+      "version": 9,
+      "changeset": 111619990,
+      "user": "Gerritholl",
+      "uid": 99909,
       "nodes": [454291803, 5803679547],
       "geometry": [
         {"lat": 45.923053, "lon": 7.9677707},
@@ -12859,7 +12861,7 @@
         {"lat": 45.9203276, "lon": 7.9752647},
         {"lat": 45.9203183, "lon": 7.9752939},
         {"lat": 45.9203154, "lon": 7.9753437},
-        {"lat": 45.9203148, "lon": 7.9753741},
+        {"lat": 45.920315, "lon": 7.9753649},
         {"lat": 45.9203171, "lon": 7.9754068},
         {"lat": 45.9203272, "lon": 7.9754451},
         {"lat": 45.9203404, "lon": 7.9754861},
@@ -13015,6 +13017,7 @@
         {"lat": 45.9186164, "lon": 7.9743964}
       ],
       "tags": {
+        "ford": "stream",
         "highway": "footway",
         "sac_scale": "mountain_hiking",
         "surface": "cobblestone",
@@ -19550,21 +19553,6 @@
         "sac_scale": "demanding_mountain_hiking",
         "tunnel": "yes"
       }
-    },
-    {
-      "type": "way",
-      "id": 844184697,
-      "timestamp": "2020-09-04T08:02:02Z",
-      "version": 1,
-      "changeset": 90401431,
-      "user": "Marco Barbieri70",
-      "uid": 271894,
-      "nodes": [5801480126, 7874813113],
-      "geometry": [
-        {"lat": 45.9661474, "lon": 7.9677054},
-        {"lat": 45.9658173, "lon": 7.9678669}
-      ],
-      "tags": {"bridge": "yes", "highway": "track", "layer": "1"}
     },
     {
       "type": "way",
