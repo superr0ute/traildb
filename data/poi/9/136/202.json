@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-09-23T23:59:59Z",
-    "timestamp_osm_base": "2021-09-24T03:31:17Z",
+    "timestamp_osm_date": "2021-09-24T23:59:59Z",
+    "timestamp_osm_base": "2021-09-25T03:35:33Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -913,28 +913,6 @@
         "gnis:id": "329975",
         "import_uuid": "bb7269ee-502a-5391-8056-e3ce0e66489c",
         "name": "Thomas Mill",
-        "place": "hamlet"
-      }
-    },
-    {
-      "type": "node",
-      "id": 153975310,
-      "lat": 35.4531429,
-      "lon": -83.8398989,
-      "timestamp": "2021-08-12T18:42:12Z",
-      "version": 4,
-      "changeset": 109589466,
-      "user": "mapman44",
-      "uid": 2888253,
-      "tags": {
-        "ele": "404",
-        "gnis:County": "Swain",
-        "gnis:County_num": "173",
-        "gnis:ST_alpha": "NC",
-        "gnis:ST_num": "37",
-        "gnis:id": "1011127",
-        "import_uuid": "bb7269ee-502a-5391-8056-e3ce0e66489c",
-        "name": "Fairfax",
         "place": "hamlet"
       }
     },
@@ -4735,13 +4713,13 @@
     {
       "type": "node",
       "id": 419230022,
-      "lat": 35.4485103,
-      "lon": -83.7939624,
-      "timestamp": "2020-06-21T23:25:00Z",
-      "version": 4,
-      "changeset": 86948703,
-      "user": "copperwater",
-      "uid": 11175686,
+      "lat": 35.4485442,
+      "lon": -83.7939517,
+      "timestamp": "2021-09-24T04:08:18Z",
+      "version": 5,
+      "changeset": 111626085,
+      "user": "MST Hiker",
+      "uid": 3510001,
       "tags": {
         "amenity": "shelter",
         "attribution": "Appalachian Trail Club",
@@ -6112,6 +6090,21 @@
       }
     },
     {
+      "type": "node",
+      "id": 9118899296,
+      "lat": 35.4496501,
+      "lon": -83.7971603,
+      "timestamp": "2021-09-24T04:08:16Z",
+      "version": 1,
+      "changeset": 111626085,
+      "user": "MST Hiker",
+      "uid": 3510001,
+      "tags": {
+        "amenity": "drinking_water",
+        "indoor": "no"
+      }
+    },
+    {
       "type": "way",
       "id": 255493225,
       "timestamp": "2020-05-24T12:19:46Z",
@@ -6975,6 +6968,75 @@
         "roof:shape": "gabled",
         "shop": "convenience",
         "website": "https://locations.valero.com/en-us/LocationDetails/Index/8101-APPALACHIAN-HWY/0000013081"
+      }
+    },
+    {
+      "type": "way",
+      "id": 986526351,
+      "timestamp": "2021-09-24T04:08:18Z",
+      "version": 1,
+      "changeset": 111626085,
+      "user": "MST Hiker",
+      "uid": 3510001,
+      "center": {
+        "lat": 35.4525128,
+        "lon": -83.8000687
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "roof",
+        "fireplace": "no",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 986526377,
+      "timestamp": "2021-09-24T04:08:18Z",
+      "version": 1,
+      "changeset": 111626085,
+      "user": "MST Hiker",
+      "uid": 3510001,
+      "center": {
+        "lat": 35.445827,
+        "lon": -83.8053498
+      },
+      "nodes": [],
+      "tags": {
+        "backcountry": "no",
+        "caravans": "yes",
+        "group_only": "no",
+        "name": "Fontana Village Campground",
+        "nudism": "no",
+        "operator": "Fontana Resort",
+        "reservation": "recommended",
+        "tents": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 986526380,
+      "timestamp": "2021-09-24T04:08:18Z",
+      "version": 1,
+      "changeset": 111626085,
+      "user": "MST Hiker",
+      "uid": 3510001,
+      "center": {
+        "lat": 35.4486374,
+        "lon": -83.7945404
+      },
+      "nodes": [],
+      "tags": {
+        "backcountry": "no",
+        "caravans": "no",
+        "group_only": "no",
+        "nudism": "no",
+        "reservation": "no",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "wheelchair": "no"
       }
     }
   ]
