@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-07-15T02:34:01Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-25T02:38:00Z"},
   "elements": [
     {
       "type": "relation",
@@ -628,11 +628,11 @@
     {
       "type": "relation",
       "id": 9430637,
-      "timestamp": "2019-03-24T23:13:10Z",
-      "version": 2,
-      "changeset": 68487154,
-      "user": "gpesquero",
-      "uid": 3584,
+      "timestamp": "2021-09-24T14:08:39Z",
+      "version": 13,
+      "changeset": 111649946,
+      "user": "5R-MFT",
+      "uid": 3417876,
       "members": [
         {"type": "way", "ref": 27745869, "role": ""},
         {"type": "way", "ref": 47225871, "role": ""},
@@ -653,8 +653,16 @@
         {"type": "way", "ref": 98372065, "role": ""},
         {"type": "way", "ref": 50692186, "role": ""},
         {"type": "way", "ref": 149117647, "role": ""},
+        {"type": "way", "ref": 986677111, "role": ""},
+        {"type": "way", "ref": 985637097, "role": ""},
+        {"type": "way", "ref": 985585064, "role": ""},
+        {"type": "way", "ref": 985823421, "role": ""},
         {"type": "way", "ref": 218015866, "role": ""},
+        {"type": "way", "ref": 985585065, "role": ""},
+        {"type": "way", "ref": 985520268, "role": ""},
+        {"type": "way", "ref": 986209363, "role": ""},
         {"type": "way", "ref": 48703028, "role": ""},
+        {"type": "way", "ref": 986677110, "role": ""},
         {"type": "way", "ref": 51274921, "role": ""},
         {"type": "way", "ref": 248663858, "role": ""},
         {"type": "way", "ref": 471199916, "role": ""},
@@ -678,6 +686,7 @@
         {"type": "way", "ref": 679135584, "role": ""},
         {"type": "way", "ref": 471719602, "role": ""},
         {"type": "way", "ref": 471719600, "role": ""},
+        {"type": "way", "ref": 985539558, "role": ""},
         {"type": "way", "ref": 406188865, "role": ""},
         {"type": "way", "ref": 279250893, "role": ""},
         {"type": "way", "ref": 48398778, "role": ""},
@@ -996,11 +1005,11 @@
     {
       "type": "way",
       "id": 102222846,
-      "timestamp": "2021-03-12T18:55:33Z",
-      "version": 5,
-      "changeset": 100926780,
-      "user": "Ieronimus",
-      "uid": 4685540,
+      "timestamp": "2021-09-21T14:14:53Z",
+      "version": 6,
+      "changeset": 111499210,
+      "user": "jynus",
+      "uid": 7406,
       "nodes": [294775708, 653301461],
       "geometry": [
         {"lat": 28.6585764, "lon": -17.9235173, "z": 314.5},
@@ -1016,8 +1025,11 @@
         {"lat": 28.6585339, "lon": -17.9215799, "z": 316.5}
       ],
       "tags": {
+        "access": "no",
+        "access:source": "dgt",
         "highway": "primary",
         "name": "Calle Manuel de Falla",
+        "note": "CARRETERA CERRADA EN AMBOS SENTIDOS - VOLCÁN CUMBRE VIEJA",
         "ref": "LP-2"
       }
     },
@@ -4800,20 +4812,29 @@
     {
       "type": "way",
       "id": 149117647,
-      "timestamp": "2017-02-01T18:56:56Z",
-      "version": 2,
-      "changeset": 45724325,
-      "user": "sierra-uniform",
-      "uid": 631320,
-      "nodes": [394759306, 394759308],
+      "timestamp": "2021-09-24T13:57:24Z",
+      "version": 3,
+      "changeset": 111649414,
+      "user": "jynus",
+      "uid": 7406,
+      "nodes": [394759307, 394759309],
       "geometry": [
-        {"lat": 28.6201425, "lon": -17.8896062, "z": 468.9},
-        {"lat": 28.6203305, "lon": -17.8897208, "z": 466.6},
-        {"lat": 28.6203907, "lon": -17.8898724, "z": 463.8},
-        {"lat": 28.6204283, "lon": -17.89003, "z": 461.1},
-        {"lat": 28.6204853, "lon": -17.8901851, "z": 458.5}
+        {"lat": 28.6204101, "lon": -17.8899297, "z": 462.8},
+        {"lat": 28.6204521, "lon": -17.8900883, "z": 460.2},
+        {"lat": 28.6204853, "lon": -17.8901851, "z": 458.5},
+        {"lat": 28.620605, "lon": -17.8903028, "z": 457.1}
       ],
-      "tags": {"highway": "track", "name": "Camino de los Campitos"}
+      "tags": {
+        "access": "yes",
+        "highway": "track",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "mtb:scale": "0",
+        "name": "Camino de los Campitos",
+        "surface": "gravel",
+        "tracktype": "grade2",
+        "width": "2"
+      }
     },
     {
       "type": "way",
@@ -5263,11 +5284,11 @@
     {
       "type": "way",
       "id": 176142163,
-      "timestamp": "2019-12-18T13:08:37Z",
-      "version": 5,
-      "changeset": 78583324,
-      "user": "Bernhard W",
-      "uid": 110838,
+      "timestamp": "2021-09-21T14:14:53Z",
+      "version": 6,
+      "changeset": 111499210,
+      "user": "jynus",
+      "uid": 7406,
       "nodes": [706724233, 7066437220],
       "geometry": [
         {"lat": 28.6584809, "lon": -17.9196995, "z": 325.8},
@@ -5275,9 +5296,12 @@
         {"lat": 28.6587399, "lon": -17.9177206, "z": 335.5}
       ],
       "tags": {
+        "access": "no",
+        "access:source": "dgt",
         "highway": "primary",
         "lit": "yes",
         "name": "Avenida Tanausú",
+        "note": "CARRETERA CERRADA EN AMBOS SENTIDOS - VOLCÁN CUMBRE VIEJA",
         "ref": "LP-2",
         "surface": "asphalt"
       }
@@ -6070,31 +6094,19 @@
     {
       "type": "way",
       "id": 218015866,
-      "timestamp": "2020-10-25T08:12:50Z",
-      "version": 6,
-      "changeset": 93008388,
-      "user": "Wandern La Palma",
-      "uid": 333510,
-      "nodes": [394759283, 394759306],
+      "timestamp": "2021-09-24T17:15:47Z",
+      "version": 15,
+      "changeset": 111658953,
+      "user": "5R-MFT",
+      "uid": 3417876,
+      "nodes": [3925742500, 394759300],
       "geometry": [
-        {"lat": 28.6103068, "lon": -17.8836591, "z": 572.4},
-        {"lat": 28.6105537, "lon": -17.8838741, "z": 570.9},
-        {"lat": 28.6109305, "lon": -17.8840371, "z": 568.4},
-        {"lat": 28.6111791, "lon": -17.8843666, "z": 563.5},
-        {"lat": 28.6112846, "lon": -17.8844663, "z": 561.3},
-        {"lat": 28.6120155, "lon": -17.8845693, "z": 550.5},
-        {"lat": 28.6125951, "lon": -17.8850166, "z": 538},
-        {"lat": 28.6126138, "lon": -17.885036, "z": 537.7},
-        {"lat": 28.6130419, "lon": -17.8854102, "z": 530.8},
-        {"lat": 28.6133232, "lon": -17.8856678, "z": 526.8},
-        {"lat": 28.6134578, "lon": -17.8857811, "z": 525.2},
-        {"lat": 28.6136121, "lon": -17.8858557, "z": 523.9},
-        {"lat": 28.613741, "lon": -17.8859426, "z": 522.6},
+        {"lat": 28.6136261, "lon": -17.8858613, "z": 523.8},
         {"lat": 28.613854, "lon": -17.8860799, "z": 521.1},
         {"lat": 28.6140107, "lon": -17.8863611, "z": 518.1},
         {"lat": 28.6143513, "lon": -17.8869725, "z": 511.9},
         {"lat": 28.6144531, "lon": -17.8871681, "z": 509.8},
-        {"lat": 28.6145999, "lon": -17.8873159, "z": 507.9},
+        {"lat": 28.6149365, "lon": -17.8877327, "z": 502.3},
         {"lat": 28.615052, "lon": -17.8878223, "z": 500.7},
         {"lat": 28.6152238, "lon": -17.8879496, "z": 498.5},
         {"lat": 28.6153082, "lon": -17.8879853, "z": 497.7},
@@ -6102,19 +6114,19 @@
         {"lat": 28.6157753, "lon": -17.888054, "z": 494.7},
         {"lat": 28.615911, "lon": -17.8880969, "z": 493.5},
         {"lat": 28.6160918, "lon": -17.8882085, "z": 491.6},
-        {"lat": 28.616785, "lon": -17.8886806, "z": 484.9},
-        {"lat": 28.6170336, "lon": -17.8888179, "z": 483.6},
-        {"lat": 28.6177946, "lon": -17.8890496, "z": 481.7},
-        {"lat": 28.6182467, "lon": -17.8890067, "z": 482.1},
-        {"lat": 28.6192262, "lon": -17.889556, "z": 472.6},
-        {"lat": 28.6194307, "lon": -17.8896557, "z": 470.3},
-        {"lat": 28.6194985, "lon": -17.8896625, "z": 469.9},
-        {"lat": 28.6195447, "lon": -17.8896482, "z": 469.9},
-        {"lat": 28.619844, "lon": -17.889556, "z": 470.2},
-        {"lat": 28.6200399, "lon": -17.8895732, "z": 469.6},
-        {"lat": 28.6201425, "lon": -17.8896062, "z": 468.9}
+        {"lat": 28.6163613, "lon": -17.8883992, "z": 488.8},
+        {"lat": 28.6167756, "lon": -17.8886924, "z": 484.9},
+        {"lat": 28.6168545, "lon": -17.8887486, "z": 484.4},
+        {"lat": 28.6169893, "lon": -17.8888447, "z": 483.5},
+        {"lat": 28.6172874, "lon": -17.8889206, "z": 482.6},
+        {"lat": 28.6177946, "lon": -17.8890496, "z": 481.7}
       ],
-      "tags": {"highway": "unclassified", "name": "Camino de los Campitos"}
+      "tags": {
+        "access": "no",
+        "damage:event": "2021 La Palma eruption",
+        "destroyed:highway": "unclassified",
+        "name": "Camino de los Campitos"
+      }
     },
     {
       "type": "way",
@@ -6289,9 +6301,9 @@
       "uid": 333510,
       "nodes": [2471020303, 1138184615],
       "geometry": [
-        {"lat": 28.5437632, "lon": -17.8111478, "z": 674.1},
-        {"lat": 28.5439351, "lon": -17.8111304, "z": 675.2},
-        {"lat": 28.5440924, "lon": -17.8110631, "z": 675.5}
+        {"lat": 28.5437783, "lon": -17.811164, "z": 674.5},
+        {"lat": 28.5439256, "lon": -17.8111051, "z": 674.8},
+        {"lat": 28.5440821, "lon": -17.8110414, "z": 675.1}
       ],
       "tags": {"highway": "primary", "ref": "LP-2", "source": "landsat"}
     },
@@ -6916,9 +6928,9 @@
     {
       "type": "way",
       "id": 239303382,
-      "timestamp": "2020-08-02T18:23:18Z",
-      "version": 4,
-      "changeset": 88847670,
+      "timestamp": "2021-08-25T12:04:34Z",
+      "version": 5,
+      "changeset": 110228529,
       "user": "Wandern La Palma",
       "uid": 333510,
       "nodes": [290661817, 2471020303],
@@ -6930,8 +6942,9 @@
         {"lat": 28.5430331, "lon": -17.8115951, "z": 676.4},
         {"lat": 28.5431186, "lon": -17.8114891, "z": 674.9},
         {"lat": 28.5431931, "lon": -17.8114352, "z": 674.4},
+        {"lat": 28.5433182, "lon": -17.8113259, "z": 673.5},
         {"lat": 28.5434845, "lon": -17.8112473, "z": 673.5},
-        {"lat": 28.5437632, "lon": -17.8111478, "z": 674.1}
+        {"lat": 28.5437783, "lon": -17.811164, "z": 674.5}
       ],
       "tags": {"highway": "primary", "ref": "LP-2", "source": "landsat"}
     },
@@ -7815,9 +7828,9 @@
     {
       "type": "way",
       "id": 262595969,
-      "timestamp": "2019-10-06T08:26:42Z",
-      "version": 12,
-      "changeset": 75334549,
+      "timestamp": "2021-07-31T06:48:23Z",
+      "version": 13,
+      "changeset": 108918642,
       "user": "Wandern La Palma",
       "uid": 333510,
       "nodes": [1144103902, 1144103920],
@@ -7837,7 +7850,9 @@
         {"lat": 28.7872082, "lon": -17.7608215, "z": 151.7},
         {"lat": 28.7871232, "lon": -17.7607777, "z": 152.1},
         {"lat": 28.7870213, "lon": -17.7607556, "z": 152.5},
+        {"lat": 28.7868974, "lon": -17.7607308, "z": 153},
         {"lat": 28.7868239, "lon": -17.7607161, "z": 153.4},
+        {"lat": 28.7867715, "lon": -17.7607076, "z": 153.6},
         {"lat": 28.7867169, "lon": -17.7606988, "z": 153.8},
         {"lat": 28.7866856, "lon": -17.7606937, "z": 153.9},
         {"lat": 28.7866066, "lon": -17.7607335, "z": 154.5}
@@ -8365,7 +8380,7 @@
       "timestamp": "2019-01-16T16:53:12Z",
       "version": 3,
       "changeset": 66369699,
-      "user": "iki~mapper",
+      "user": "Iker Afonso",
       "uid": 9213789,
       "nodes": [294516040, 294516044],
       "geometry": [
@@ -9588,27 +9603,34 @@
     {
       "type": "way",
       "id": 34159446,
-      "timestamp": "2021-02-12T00:40:07Z",
-      "version": 13,
-      "changeset": 99138802,
-      "user": "mDav",
-      "uid": 7882299,
+      "timestamp": "2021-08-07T16:59:22Z",
+      "version": 14,
+      "changeset": 109318680,
+      "user": "lukie80",
+      "uid": 5531318,
       "nodes": [391802097, 5243522863],
       "geometry": [
-        {"lat": 28.5186159, "lon": -17.8239166, "z": 859.9},
-        {"lat": 28.5184885, "lon": -17.823966, "z": 859.3},
+        {"lat": 28.5185185, "lon": -17.8239251, "z": 858.5},
+        {"lat": 28.5185049, "lon": -17.8239059, "z": 857.6},
+        {"lat": 28.5184595, "lon": -17.8238904, "z": 856.5},
         {"lat": 28.5183679, "lon": -17.8239093, "z": 855.8},
-        {"lat": 28.5181674, "lon": -17.8239971, "z": 855.8},
+        {"lat": 28.5181214, "lon": -17.823981, "z": 854.7},
         {"lat": 28.517869, "lon": -17.8240654, "z": 853.4},
-        {"lat": 28.5177069, "lon": -17.8241837, "z": 854.1},
+        {"lat": 28.5176763, "lon": -17.8241515, "z": 852.9},
+        {"lat": 28.5174255, "lon": -17.824215, "z": 850.7},
         {"lat": 28.5172172, "lon": -17.8242907, "z": 849.5},
-        {"lat": 28.5168842, "lon": -17.8244848, "z": 850.3},
-        {"lat": 28.5165344, "lon": -17.8244345, "z": 844.2},
-        {"lat": 28.5158175, "lon": -17.8247317, "z": 841.5},
-        {"lat": 28.5155823, "lon": -17.8248982, "z": 842.2},
-        {"lat": 28.515362, "lon": -17.8249692, "z": 840.1},
+        {"lat": 28.5170932, "lon": -17.8243504, "z": 849.4},
+        {"lat": 28.51694, "lon": -17.8244658, "z": 850.5},
+        {"lat": 28.5167781, "lon": -17.8244835, "z": 848.9},
+        {"lat": 28.5166972, "lon": -17.8244752, "z": 847.6},
+        {"lat": 28.5165214, "lon": -17.8244265, "z": 843.8},
+        {"lat": 28.5164592, "lon": -17.8244336, "z": 843.1},
+        {"lat": 28.5158599, "lon": -17.8246968, "z": 841.3},
+        {"lat": 28.5155741, "lon": -17.8248794, "z": 841.4},
+        {"lat": 28.5153667, "lon": -17.8249504, "z": 839.6},
         {"lat": 28.5148755, "lon": -17.8250827, "z": 832.9},
-        {"lat": 28.5144057, "lon": -17.825272, "z": 827.9},
+        {"lat": 28.5143963, "lon": -17.8252626, "z": 827.4},
+        {"lat": 28.5141589, "lon": -17.8253174, "z": 824.1},
         {"lat": 28.5138719, "lon": -17.8253493, "z": 819.7},
         {"lat": 28.5135816, "lon": -17.825427, "z": 816.2},
         {"lat": 28.5134371, "lon": -17.8254915, "z": 815}
@@ -9618,7 +9640,7 @@
         "name": "Pino del Virgen",
         "ref": "GR 130",
         "surface": "asphalt",
-        "tracktype": "grade3"
+        "tracktype": "grade1"
       }
     },
     {
@@ -9925,17 +9947,24 @@
     {
       "type": "way",
       "id": 35462592,
-      "timestamp": "2021-03-12T18:12:49Z",
-      "version": 10,
-      "changeset": 100925274,
-      "user": "Ieronimus",
-      "uid": 4685540,
+      "timestamp": "2021-09-21T14:14:53Z",
+      "version": 11,
+      "changeset": 111499210,
+      "user": "jynus",
+      "uid": 7406,
       "nodes": [2517509161, 706724233],
       "geometry": [
         {"lat": 28.6584208, "lon": -17.9203014, "z": 320.1},
         {"lat": 28.6584809, "lon": -17.9196995, "z": 325.8}
       ],
-      "tags": {"highway": "primary", "ref": "LP-2", "surface": "asphalt"}
+      "tags": {
+        "access": "no",
+        "access:source": "dgt",
+        "highway": "primary",
+        "note": "CARRETERA CERRADA EN AMBOS SENTIDOS - VOLCÁN CUMBRE VIEJA",
+        "ref": "LP-2",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -10850,11 +10879,11 @@
     {
       "type": "way",
       "id": 378218151,
-      "timestamp": "2020-10-06T09:28:13Z",
-      "version": 4,
-      "changeset": 92036405,
-      "user": "Wandern La Palma",
-      "uid": 333510,
+      "timestamp": "2021-09-21T14:38:43Z",
+      "version": 5,
+      "changeset": 111500218,
+      "user": "jynus",
+      "uid": 7406,
       "nodes": [3701068871, 317987468],
       "geometry": [
         {"lat": 28.6015239, "lon": -17.8809051, "z": 611.5},
@@ -10878,22 +10907,36 @@
         {"lat": 28.598703, "lon": -17.8807759, "z": 608.7},
         {"lat": 28.59834, "lon": -17.8805796, "z": 611.8}
       ],
-      "tags": {"highway": "primary", "ref": "LP-2", "surface": "asphalt"}
+      "tags": {
+        "access": "no",
+        "access:source": "dgt",
+        "highway": "primary",
+        "note": "CARRETERA CERRADA EN AMBOS SENTIDOS - VOLCÁN CUMBRE VIEJA",
+        "ref": "LP-2",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 378218152,
-      "timestamp": "2018-02-25T18:00:44Z",
-      "version": 3,
-      "changeset": 56667139,
-      "user": "calli3756",
-      "uid": 546812,
+      "timestamp": "2021-09-21T14:38:43Z",
+      "version": 4,
+      "changeset": 111500218,
+      "user": "jynus",
+      "uid": 7406,
       "nodes": [391312058, 3701068871],
       "geometry": [
         {"lat": 28.6019256, "lon": -17.8809817, "z": 610.7},
         {"lat": 28.6015239, "lon": -17.8809051, "z": 611.5}
       ],
-      "tags": {"highway": "primary", "ref": "LP-2", "surface": "asphalt"}
+      "tags": {
+        "access": "no",
+        "access:source": "dgt",
+        "highway": "primary",
+        "note": "CARRETERA CERRADA EN AMBOS SENTIDOS - VOLCÁN CUMBRE VIEJA",
+        "ref": "LP-2",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -11399,14 +11442,13 @@
     {
       "type": "way",
       "id": 406188865,
-      "timestamp": "2019-01-16T16:53:13Z",
-      "version": 4,
-      "changeset": 66369699,
-      "user": "iki~mapper",
-      "uid": 9213789,
-      "nodes": [4082923186, 294516040],
+      "timestamp": "2021-09-21T14:31:24Z",
+      "version": 5,
+      "changeset": 111499907,
+      "user": "jynus",
+      "uid": 7406,
+      "nodes": [1934013519, 294516040],
       "geometry": [
-        {"lat": 28.5862767, "lon": -17.880419, "z": 613},
         {"lat": 28.586143, "lon": -17.8804841, "z": 612.7},
         {"lat": 28.5860953, "lon": -17.8804983, "z": 612.7},
         {"lat": 28.585719, "lon": -17.8804851, "z": 613.7},
@@ -12225,11 +12267,11 @@
     {
       "type": "way",
       "id": 459132848,
-      "timestamp": "2016-12-12T08:26:39Z",
-      "version": 1,
-      "changeset": 44339584,
-      "user": "Wandern La Palma",
-      "uid": 333510,
+      "timestamp": "2021-09-24T13:47:28Z",
+      "version": 2,
+      "changeset": 111648994,
+      "user": "mDav",
+      "uid": 7882299,
       "nodes": [702817570, 1128632253],
       "geometry": [
         {"lat": 28.7024777, "lon": -17.9539231, "z": 571.6},
@@ -12237,7 +12279,7 @@
         {"lat": 28.702529, "lon": -17.9536758, "z": 576.9}
       ],
       "tags": {
-        "highway": "secondary",
+        "highway": "tertiary",
         "ref": "LP-116",
         "source": "Yahoo",
         "surface": "asphalt"
@@ -13153,11 +13195,11 @@
     {
       "type": "way",
       "id": 471719600,
-      "timestamp": "2019-01-16T16:53:13Z",
-      "version": 3,
-      "changeset": 66369699,
-      "user": "iki~mapper",
-      "uid": 9213789,
+      "timestamp": "2021-09-21T14:31:24Z",
+      "version": 4,
+      "changeset": 111499907,
+      "user": "jynus",
+      "uid": 7406,
       "nodes": [4658763049, 4082923186],
       "geometry": [
         {"lat": 28.5868375, "lon": -17.8800879, "z": 616.2},
@@ -13166,9 +13208,12 @@
         {"lat": 28.5862767, "lon": -17.880419, "z": 613}
       ],
       "tags": {
+        "access": "no",
+        "access:source": "dgt",
         "highway": "primary",
         "maxspeed": "50",
         "name": "Carretera General Jedey",
+        "note": "CARRETERA CERRADA EN AMBOS SENTIDOS - VOLCÁN CUMBRE VIEJA",
         "ref": "LP-2",
         "surface": "asphalt"
       }
@@ -13176,21 +13221,24 @@
     {
       "type": "way",
       "id": 471719602,
-      "timestamp": "2019-01-16T16:53:13Z",
-      "version": 3,
-      "changeset": 66369699,
-      "user": "iki~mapper",
-      "uid": 9213789,
+      "timestamp": "2021-09-21T14:31:24Z",
+      "version": 4,
+      "changeset": 111499907,
+      "user": "jynus",
+      "uid": 7406,
       "nodes": [4658763048, 4658763049],
       "geometry": [
         {"lat": 28.5869789, "lon": -17.8800023, "z": 617.4},
         {"lat": 28.5868375, "lon": -17.8800879, "z": 616.2}
       ],
       "tags": {
+        "access": "no",
+        "access:source": "dgt",
         "bridge": "yes",
         "highway": "primary",
         "maxspeed": "50",
         "name": "Carretera General Jedey",
+        "note": "CARRETERA CERRADA EN AMBOS SENTIDOS - VOLCÁN CUMBRE VIEJA",
         "ref": "LP-2",
         "surface": "asphalt"
       }
@@ -13330,11 +13378,11 @@
     {
       "type": "way",
       "id": 47321485,
-      "timestamp": "2017-01-26T22:06:52Z",
-      "version": 6,
-      "changeset": 45532062,
-      "user": "sierra-uniform",
-      "uid": 631320,
+      "timestamp": "2021-07-31T06:55:58Z",
+      "version": 7,
+      "changeset": 108918836,
+      "user": "Wandern La Palma",
+      "uid": 333510,
       "nodes": [302301523, 602725241],
       "geometry": [
         {"lat": 28.7970023, "lon": -17.7604246, "z": 74.6},
@@ -13357,11 +13405,16 @@
         {"lat": 28.7936715, "lon": -17.7607896, "z": 92.2},
         {"lat": 28.793528, "lon": -17.7605546, "z": 89.9},
         {"lat": 28.7930867, "lon": -17.7600851, "z": 80},
+        {"lat": 28.792923, "lon": -17.7601057, "z": 80.1},
         {"lat": 28.792886, "lon": -17.7601104, "z": 80.2},
         {"lat": 28.7928284, "lon": -17.7601176, "z": 80.2},
+        {"lat": 28.7927968, "lon": -17.7600651, "z": 78.9},
         {"lat": 28.7927468, "lon": -17.7599821, "z": 76.8},
         {"lat": 28.7927197, "lon": -17.759895, "z": 74.7},
+        {"lat": 28.7927094, "lon": -17.7598618, "z": 73.8},
+        {"lat": 28.7926746, "lon": -17.7597503, "z": 71.1},
         {"lat": 28.7926159, "lon": -17.7595617, "z": 63.1},
+        {"lat": 28.7925742, "lon": -17.7595175, "z": 61.6},
         {"lat": 28.7923665, "lon": -17.7592969, "z": 54.4},
         {"lat": 28.7923092, "lon": -17.7592572, "z": 53.4}
       ],
@@ -14211,9 +14264,9 @@
     {
       "type": "way",
       "id": 48560532,
-      "timestamp": "2021-02-15T14:15:10Z",
-      "version": 12,
-      "changeset": 99315711,
+      "timestamp": "2021-07-30T17:57:43Z",
+      "version": 13,
+      "changeset": 108904862,
       "user": "Wandern La Palma",
       "uid": 333510,
       "nodes": [616820228, 616820156],
@@ -14307,6 +14360,9 @@
         {"lat": 28.8336579, "lon": -17.8488277, "z": 103},
         {"lat": 28.8337222, "lon": -17.84921, "z": 98.1},
         {"lat": 28.8337205, "lon": -17.8492841, "z": 96.8},
+        {"lat": 28.8337238, "lon": -17.8493183, "z": 95.8},
+        {"lat": 28.8336952, "lon": -17.8493096, "z": 98.7},
+        {"lat": 28.8335966, "lon": -17.849288, "z": 108.3},
         {"lat": 28.8334239, "lon": -17.8492446, "z": 120.8},
         {"lat": 28.8333564, "lon": -17.8492067, "z": 124.5},
         {"lat": 28.8331257, "lon": -17.8492199, "z": 137.7},
@@ -14446,22 +14502,19 @@
     {
       "type": "way",
       "id": 48703028,
-      "timestamp": "2017-01-09T11:09:10Z",
-      "version": 5,
-      "changeset": 45023551,
-      "user": "sierra-uniform",
-      "uid": 631320,
-      "nodes": [615660311, 394759283],
+      "timestamp": "2021-09-23T11:05:02Z",
+      "version": 7,
+      "changeset": 111586218,
+      "user": "5R-MFT",
+      "uid": 3417876,
+      "nodes": [618294614, 9116692016],
       "geometry": [
-        {"lat": 28.6091019, "lon": -17.8833136, "z": 579.2},
-        {"lat": 28.6092204, "lon": -17.883328, "z": 578.5},
         {"lat": 28.6094392, "lon": -17.8833481, "z": 577.3},
         {"lat": 28.6094508, "lon": -17.883449, "z": 576.5},
-        {"lat": 28.6095511, "lon": -17.8835303, "z": 575.5},
-        {"lat": 28.6097667, "lon": -17.8835678, "z": 574.5},
-        {"lat": 28.6100834, "lon": -17.8835986, "z": 573.3},
-        {"lat": 28.6102182, "lon": -17.8836328, "z": 572.7},
-        {"lat": 28.6103068, "lon": -17.8836591, "z": 572.4}
+        {"lat": 28.6095412, "lon": -17.8835145, "z": 575.6},
+        {"lat": 28.6097509, "lon": -17.8835791, "z": 574.5},
+        {"lat": 28.6100586, "lon": -17.883629, "z": 573.2},
+        {"lat": 28.6101974, "lon": -17.8836275, "z": 572.8}
       ],
       "tags": {
         "bicycle": "yes",
@@ -14739,14 +14792,13 @@
     {
       "type": "way",
       "id": 50692186,
-      "timestamp": "2012-02-07T10:41:10Z",
-      "version": 3,
-      "changeset": 10610842,
-      "user": "g0ldfish",
-      "uid": 45180,
-      "nodes": [394759308, 618294486],
+      "timestamp": "2021-09-24T13:57:24Z",
+      "version": 4,
+      "changeset": 111649414,
+      "user": "jynus",
+      "uid": 7406,
+      "nodes": [394759309, 618294486],
       "geometry": [
-        {"lat": 28.6204853, "lon": -17.8901851, "z": 458.5},
         {"lat": 28.620605, "lon": -17.8903028, "z": 457.1},
         {"lat": 28.6210419, "lon": -17.8907062, "z": 453},
         {"lat": 28.6213132, "lon": -17.8910752, "z": 451.4},
@@ -14777,7 +14829,7 @@
       "nodes": [645595026, 394759328],
       "geometry": [
         {"lat": 28.6222383, "lon": -17.8934009, "z": 432.7},
-        {"lat": 28.6224659, "lon": -17.8935815, "z": 432.4},
+        {"lat": 28.6224702, "lon": -17.8935572, "z": 432.7},
         {"lat": 28.6226578, "lon": -17.8936408, "z": 433.1},
         {"lat": 28.6227899, "lon": -17.8936759, "z": 433.7},
         {"lat": 28.6240396, "lon": -17.8940196, "z": 433.9},
@@ -14875,11 +14927,11 @@
     {
       "type": "way",
       "id": 51274921,
-      "timestamp": "2020-10-19T07:53:05Z",
-      "version": 4,
-      "changeset": 92689391,
-      "user": "Wandern La Palma",
-      "uid": 333510,
+      "timestamp": "2021-09-23T11:05:02Z",
+      "version": 5,
+      "changeset": 111586218,
+      "user": "5R-MFT",
+      "uid": 3417876,
       "nodes": [655390038, 615660311],
       "geometry": [
         {"lat": 28.6058046, "lon": -17.8821511, "z": 600.4},
@@ -14889,13 +14941,15 @@
         {"lat": 28.6066349, "lon": -17.882346, "z": 597.8},
         {"lat": 28.6070998, "lon": -17.8825721, "z": 594},
         {"lat": 28.6071487, "lon": -17.8825685, "z": 593.8},
-        {"lat": 28.6076994, "lon": -17.8826929, "z": 590.2},
-        {"lat": 28.6079491, "lon": -17.8827985, "z": 588.3},
+        {"lat": 28.6076855, "lon": -17.8826963, "z": 590.2},
+        {"lat": 28.6079382, "lon": -17.8828086, "z": 588.2},
         {"lat": 28.6081551, "lon": -17.8829554, "z": 586.3},
         {"lat": 28.6084014, "lon": -17.8830736, "z": 584.4},
-        {"lat": 28.6088542, "lon": -17.883196, "z": 581.2},
+        {"lat": 28.6085971, "lon": -17.8831517, "z": 582.9},
+        {"lat": 28.6087207, "lon": -17.883184, "z": 582},
+        {"lat": 28.608871, "lon": -17.8832095, "z": 581.1},
         {"lat": 28.6090232, "lon": -17.8832404, "z": 580.1},
-        {"lat": 28.6091019, "lon": -17.8833136, "z": 579.2}
+        {"lat": 28.6091029, "lon": -17.8833192, "z": 579.2}
       ],
       "tags": {"highway": "residential"}
     },
@@ -15050,17 +15104,17 @@
     {
       "type": "way",
       "id": 51735019,
-      "timestamp": "2019-02-22T18:23:14Z",
-      "version": 7,
-      "changeset": 67475723,
-      "user": "Wandern La Palma",
-      "uid": 333510,
+      "timestamp": "2021-07-30T14:16:48Z",
+      "version": 8,
+      "changeset": 108896001,
+      "user": "Rafa Casanova",
+      "uid": 13840789,
       "nodes": [660285683, 2470834353],
       "geometry": [
         {"lat": 28.6834641, "lon": -17.7651486, "z": 31.8},
         {"lat": 28.6834664, "lon": -17.7649372, "z": 28.8}
       ],
-      "tags": {"highway": "steps", "lit": "yes"}
+      "tags": {"highway": "steps", "incline": "down", "lit": "yes"}
     },
     {
       "type": "way",
@@ -15068,7 +15122,7 @@
       "timestamp": "2019-02-27T16:50:09Z",
       "version": 11,
       "changeset": 67624157,
-      "user": "iki~mapper",
+      "user": "Iker Afonso",
       "uid": 9213789,
       "nodes": [305229560, 660285685],
       "geometry": [
@@ -15590,7 +15644,7 @@
       "timestamp": "2019-01-16T16:53:12Z",
       "version": 2,
       "changeset": 66369699,
-      "user": "iki~mapper",
+      "user": "Iker Afonso",
       "uid": 9213789,
       "nodes": [294516170, 3823247860],
       "geometry": [
@@ -15763,11 +15817,11 @@
     {
       "type": "way",
       "id": 672361086,
-      "timestamp": "2019-02-22T18:23:14Z",
-      "version": 1,
-      "changeset": 67475723,
-      "user": "Wandern La Palma",
-      "uid": 333510,
+      "timestamp": "2021-07-30T14:16:48Z",
+      "version": 2,
+      "changeset": 108896001,
+      "user": "Rafa Casanova",
+      "uid": 13840789,
       "nodes": [2470834353, 6296218061],
       "geometry": [
         {"lat": 28.6834664, "lon": -17.7649372, "z": 28.8},
@@ -15775,7 +15829,7 @@
         {"lat": 28.6834687, "lon": -17.7648625, "z": 27.8},
         {"lat": 28.6834657, "lon": -17.7648505, "z": 27.6}
       ],
-      "tags": {"highway": "steps"}
+      "tags": {"highway": "steps", "incline": "down"}
     },
     {
       "type": "way",
@@ -15839,20 +15893,23 @@
     {
       "type": "way",
       "id": 679135584,
-      "timestamp": "2019-03-24T22:48:56Z",
-      "version": 1,
-      "changeset": 68486713,
-      "user": "gpesquero",
-      "uid": 3584,
+      "timestamp": "2021-09-21T14:31:24Z",
+      "version": 2,
+      "changeset": 111499907,
+      "user": "jynus",
+      "uid": 7406,
       "nodes": [1121201057, 4658763048],
       "geometry": [
         {"lat": 28.5870163, "lon": -17.8799844, "z": 617.7},
         {"lat": 28.5869789, "lon": -17.8800023, "z": 617.4}
       ],
       "tags": {
+        "access": "no",
+        "access:source": "dgt",
         "highway": "primary",
         "maxspeed": "50",
         "name": "Carretera General Jedey",
+        "note": "CARRETERA CERRADA EN AMBOS SENTIDOS - VOLCÁN CUMBRE VIEJA",
         "ref": "LP-2",
         "surface": "asphalt"
       }
@@ -16017,23 +16074,26 @@
     {
       "type": "way",
       "id": 756566813,
-      "timestamp": "2021-02-17T18:22:34Z",
-      "version": 3,
-      "changeset": 99469147,
-      "user": "Nicor",
-      "uid": 496808,
+      "timestamp": "2021-09-21T14:14:53Z",
+      "version": 4,
+      "changeset": 111499210,
+      "user": "jynus",
+      "uid": 7406,
       "nodes": [7066437219, 1867021133],
       "geometry": [
         {"lat": 28.658793, "lon": -17.9174062, "z": 336.5},
         {"lat": 28.6588314, "lon": -17.9171788, "z": 337.2}
       ],
       "tags": {
+        "access": "no",
+        "access:source": "dgt",
         "cycleway:both": "no",
         "highway": "primary",
         "lanes:backward": "2",
         "lanes:forward": "2",
         "lit": "yes",
         "name": "Avenida Tanausú",
+        "note": "CARRETERA CERRADA EN AMBOS SENTIDOS - VOLCÁN CUMBRE VIEJA",
         "ref": "LP-2",
         "smoothness": "excellent",
         "surface": "asphalt",
@@ -16044,11 +16104,11 @@
     {
       "type": "way",
       "id": 756566814,
-      "timestamp": "2021-02-17T18:22:39Z",
-      "version": 3,
-      "changeset": 99469147,
-      "user": "Nicor",
-      "uid": 496808,
+      "timestamp": "2021-09-21T14:14:53Z",
+      "version": 4,
+      "changeset": 111499210,
+      "user": "jynus",
+      "uid": 7406,
       "nodes": [7066437220, 7066437219],
       "geometry": [
         {"lat": 28.6587399, "lon": -17.9177206, "z": 335.5},
@@ -16056,12 +16116,15 @@
         {"lat": 28.658793, "lon": -17.9174062, "z": 336.5}
       ],
       "tags": {
+        "access": "no",
+        "access:source": "dgt",
         "cycleway:both": "no",
         "highway": "primary",
         "lanes:backward": "1",
         "lanes:forward": "2",
         "lit": "yes",
         "name": "Avenida Tanausú",
+        "note": "CARRETERA CERRADA EN AMBOS SENTIDOS - VOLCÁN CUMBRE VIEJA",
         "ref": "LP-2",
         "surface": "asphalt",
         "turn:lanes:forward": "left|through"
@@ -17014,27 +17077,34 @@
     {
       "type": "way",
       "id": 916392534,
-      "timestamp": "2021-03-12T18:12:49Z",
-      "version": 1,
-      "changeset": 100925274,
-      "user": "Ieronimus",
-      "uid": 4685540,
+      "timestamp": "2021-09-21T14:14:53Z",
+      "version": 2,
+      "changeset": 111499210,
+      "user": "jynus",
+      "uid": 7406,
       "nodes": [706724199, 2517509161],
       "geometry": [
         {"lat": 28.6584107, "lon": -17.9207061, "z": 317.5},
         {"lat": 28.6583985, "lon": -17.9205347, "z": 318.3},
         {"lat": 28.6584208, "lon": -17.9203014, "z": 320.1}
       ],
-      "tags": {"highway": "primary", "ref": "LP-2", "surface": "asphalt"}
+      "tags": {
+        "access": "no",
+        "access:source": "dgt",
+        "highway": "primary",
+        "note": "CARRETERA CERRADA EN AMBOS SENTIDOS - VOLCÁN CUMBRE VIEJA",
+        "ref": "LP-2",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 916405438,
-      "timestamp": "2021-03-12T18:55:33Z",
-      "version": 1,
-      "changeset": 100926780,
-      "user": "Ieronimus",
-      "uid": 4685540,
+      "timestamp": "2021-09-21T14:14:53Z",
+      "version": 2,
+      "changeset": 111499210,
+      "user": "jynus",
+      "uid": 7406,
       "nodes": [653301461, 706724199],
       "geometry": [
         {"lat": 28.6585339, "lon": -17.9215799, "z": 316.5},
@@ -17045,8 +17115,11 @@
         {"lat": 28.6584107, "lon": -17.9207061, "z": 317.5}
       ],
       "tags": {
+        "access": "no",
+        "access:source": "dgt",
         "highway": "primary",
         "name": "Calle Manuel de Falla",
+        "note": "CARRETERA CERRADA EN AMBOS SENTIDOS - VOLCÁN CUMBRE VIEJA",
         "ref": "LP-2"
       }
     },
@@ -17601,11 +17674,11 @@
     {
       "type": "way",
       "id": 96786380,
-      "timestamp": "2020-09-30T11:22:27Z",
-      "version": 11,
-      "changeset": 91764862,
-      "user": "Wandern La Palma",
-      "uid": 333510,
+      "timestamp": "2021-09-21T14:38:43Z",
+      "version": 12,
+      "changeset": 111500218,
+      "user": "jynus",
+      "uid": 7406,
       "nodes": [302275640, 391312058],
       "geometry": [
         {"lat": 28.6028335, "lon": -17.8810717, "z": 610},
@@ -17614,16 +17687,23 @@
         {"lat": 28.6021053, "lon": -17.8809997, "z": 610.4},
         {"lat": 28.6019256, "lon": -17.8809817, "z": 610.7}
       ],
-      "tags": {"highway": "primary", "ref": "LP-2", "surface": "asphalt"}
+      "tags": {
+        "access": "no",
+        "access:source": "dgt",
+        "highway": "primary",
+        "note": "CARRETERA CERRADA EN AMBOS SENTIDOS - VOLCÁN CUMBRE VIEJA",
+        "ref": "LP-2",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 96786384,
-      "timestamp": "2019-01-16T16:53:13Z",
-      "version": 11,
-      "changeset": 66369699,
-      "user": "iki~mapper",
-      "uid": 9213789,
+      "timestamp": "2021-09-21T14:31:24Z",
+      "version": 12,
+      "changeset": 111499907,
+      "user": "jynus",
+      "uid": 7406,
       "nodes": [294516021, 294516025],
       "geometry": [
         {"lat": 28.5909479, "lon": -17.8797876, "z": 607.9},
@@ -17634,8 +17714,11 @@
         {"lat": 28.5898935, "lon": -17.8793978, "z": 622.7}
       ],
       "tags": {
+        "access": "no",
+        "access:source": "dgt",
         "highway": "primary",
         "name": "Carretera General Jedey",
+        "note": "CARRETERA CERRADA EN AMBOS SENTIDOS - VOLCÁN CUMBRE VIEJA",
         "ref": "LP-2",
         "surface": "asphalt"
       }
@@ -18638,7 +18721,7 @@
       "timestamp": "2019-02-27T16:50:09Z",
       "version": 6,
       "changeset": 67624157,
-      "user": "iki~mapper",
+      "user": "Iker Afonso",
       "uid": 9213789,
       "nodes": [304988292, 564663150],
       "geometry": [
@@ -18757,7 +18840,7 @@
       "timestamp": "2019-01-16T16:53:12Z",
       "version": 14,
       "changeset": 66369699,
-      "user": "iki~mapper",
+      "user": "Iker Afonso",
       "uid": 9213789,
       "nodes": [3823247860, 4595541528],
       "geometry": [
@@ -18850,7 +18933,7 @@
       "uid": 333510,
       "nodes": [391802097, 2131147752],
       "geometry": [
-        {"lat": 28.5186159, "lon": -17.8239166, "z": 859.9},
+        {"lat": 28.5185185, "lon": -17.8239251, "z": 858.5},
         {"lat": 28.5191036, "lon": -17.8236826, "z": 860.2},
         {"lat": 28.5194033, "lon": -17.823708, "z": 866.7},
         {"lat": 28.5196721, "lon": -17.8236707, "z": 870.5},
@@ -18997,7 +19080,7 @@
       "uid": 333510,
       "nodes": [1138184615, 1138184414],
       "geometry": [
-        {"lat": 28.5440924, "lon": -17.8110631, "z": 675.5},
+        {"lat": 28.5440821, "lon": -17.8110414, "z": 675.1},
         {"lat": 28.5441359, "lon": -17.8111348, "z": 677},
         {"lat": 28.5442088, "lon": -17.8111685, "z": 678.1},
         {"lat": 28.5443295, "lon": -17.8111855, "z": 679.4},
@@ -19023,6 +19106,219 @@
         {"lat": 28.5469272, "lon": -17.8102583, "z": 686.1}
       ],
       "tags": {"highway": "service"}
+    },
+    {
+      "type": "way",
+      "id": 985520268,
+      "timestamp": "2021-09-24T10:41:08Z",
+      "version": 4,
+      "changeset": 111640816,
+      "user": "5R-MFT",
+      "uid": 3417876,
+      "nodes": [394759283, 394759287],
+      "geometry": [
+        {"lat": 28.6102741, "lon": -17.8836884, "z": 572.4},
+        {"lat": 28.6105537, "lon": -17.8838741, "z": 570.9},
+        {"lat": 28.6109305, "lon": -17.8840371, "z": 568.4},
+        {"lat": 28.6110563, "lon": -17.8842267, "z": 566},
+        {"lat": 28.6111652, "lon": -17.8843908, "z": 563.4},
+        {"lat": 28.611212, "lon": -17.8844415, "z": 562.4},
+        {"lat": 28.6112846, "lon": -17.8844663, "z": 561.3},
+        {"lat": 28.6119102, "lon": -17.884552, "z": 552},
+        {"lat": 28.6119829, "lon": -17.8845734, "z": 550.8},
+        {"lat": 28.6120651, "lon": -17.8846163, "z": 549.3},
+        {"lat": 28.6121369, "lon": -17.8846766, "z": 547.6},
+        {"lat": 28.612218, "lon": -17.8847611, "z": 545.5}
+      ],
+      "tags": {
+        "destroyed:highway": "unclassified",
+        "name": "Camino de los Campitos"
+      }
+    },
+    {
+      "type": "way",
+      "id": 985539558,
+      "timestamp": "2021-09-21T14:31:24Z",
+      "version": 1,
+      "changeset": 111499907,
+      "user": "jynus",
+      "uid": 7406,
+      "nodes": [4082923186, 1934013519],
+      "geometry": [
+        {"lat": 28.5862767, "lon": -17.880419, "z": 613},
+        {"lat": 28.586143, "lon": -17.8804841, "z": 612.7}
+      ],
+      "tags": {
+        "access": "no",
+        "access:source": "dgt",
+        "highway": "primary",
+        "maxspeed": "50",
+        "name": "Carretera General Jedey",
+        "note": "CARRETERA CERRADA EN AMBOS SENTIDOS - VOLCÁN CUMBRE VIEJA",
+        "ref": "LP-2",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 985585064,
+      "timestamp": "2021-09-24T16:43:39Z",
+      "version": 5,
+      "changeset": 111657093,
+      "user": "5R-MFT",
+      "uid": 3417876,
+      "nodes": [394759302, 394759305],
+      "geometry": [
+        {"lat": 28.6191834, "lon": -17.8895461, "z": 472.9},
+        {"lat": 28.6193512, "lon": -17.8896344, "z": 471},
+        {"lat": 28.6194985, "lon": -17.8896625, "z": 469.9},
+        {"lat": 28.6195447, "lon": -17.8896482, "z": 469.9},
+        {"lat": 28.619844, "lon": -17.889556, "z": 470.2},
+        {"lat": 28.6199952, "lon": -17.8895712, "z": 469.7}
+      ],
+      "tags": {
+        "access": "no",
+        "highway": "unclassified",
+        "name": "Camino de los Campitos"
+      }
+    },
+    {
+      "type": "way",
+      "id": 985585065,
+      "timestamp": "2021-09-24T10:41:08Z",
+      "version": 4,
+      "changeset": 111640816,
+      "user": "5R-MFT",
+      "uid": 3417876,
+      "nodes": [394759287, 3925742500],
+      "geometry": [
+        {"lat": 28.612218, "lon": -17.8847611, "z": 545.5},
+        {"lat": 28.6125727, "lon": -17.8850314, "z": 538},
+        {"lat": 28.6125961, "lon": -17.8850508, "z": 537.6},
+        {"lat": 28.612639, "lon": -17.8850854, "z": 536.8},
+        {"lat": 28.6130419, "lon": -17.8854102, "z": 530.8},
+        {"lat": 28.6133882, "lon": -17.8857418, "z": 525.8},
+        {"lat": 28.6136261, "lon": -17.8858613, "z": 523.8}
+      ],
+      "tags": {
+        "access": "no",
+        "destroyed:highway": "unclassified",
+        "name": "Camino de los Campitos"
+      }
+    },
+    {
+      "type": "way",
+      "id": 985637097,
+      "timestamp": "2021-09-24T13:57:24Z",
+      "version": 3,
+      "changeset": 111649414,
+      "user": "jynus",
+      "uid": 7406,
+      "nodes": [394759305, 394759306],
+      "geometry": [
+        {"lat": 28.6199952, "lon": -17.8895712, "z": 469.7},
+        {"lat": 28.6201425, "lon": -17.8896062, "z": 468.9}
+      ],
+      "tags": {
+        "access": "no",
+        "damage:event": "2021 La Palma eruption",
+        "destroyed:highway": "unclassified",
+        "name": "Camino de los Campitos"
+      }
+    },
+    {
+      "type": "way",
+      "id": 985823421,
+      "timestamp": "2021-09-24T16:43:39Z",
+      "version": 3,
+      "changeset": 111657093,
+      "user": "5R-MFT",
+      "uid": 3417876,
+      "nodes": [394759300, 394759302],
+      "geometry": [
+        {"lat": 28.6177946, "lon": -17.8890496, "z": 481.7},
+        {"lat": 28.6182467, "lon": -17.8890067, "z": 482.1},
+        {"lat": 28.6185376, "lon": -17.8891698, "z": 480},
+        {"lat": 28.6187744, "lon": -17.8893026, "z": 477.7},
+        {"lat": 28.6191834, "lon": -17.8895461, "z": 472.9}
+      ],
+      "tags": {
+        "access": "no",
+        "damage:event": "2021 La Palma eruption",
+        "destroyed:highway": "unclassified",
+        "name": "Camino de los Campitos"
+      }
+    },
+    {
+      "type": "way",
+      "id": 986209363,
+      "timestamp": "2021-09-23T11:05:02Z",
+      "version": 1,
+      "changeset": 111586218,
+      "user": "5R-MFT",
+      "uid": 3417876,
+      "nodes": [9116692016, 394759283],
+      "geometry": [
+        {"lat": 28.6101974, "lon": -17.8836275, "z": 572.8},
+        {"lat": 28.6102182, "lon": -17.8836328, "z": 572.7},
+        {"lat": 28.6102741, "lon": -17.8836884, "z": 572.4}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "motor_vehicle": "yes",
+        "mtb:scale": "0"
+      }
+    },
+    {
+      "type": "way",
+      "id": 986677110,
+      "timestamp": "2021-09-24T13:57:24Z",
+      "version": 1,
+      "changeset": 111649414,
+      "user": "jynus",
+      "uid": 7406,
+      "nodes": [618294614, 615660311],
+      "geometry": [
+        {"lat": 28.6094392, "lon": -17.8833481, "z": 577.3},
+        {"lat": 28.6092204, "lon": -17.883328, "z": 578.5},
+        {"lat": 28.6091029, "lon": -17.8833192, "z": 579.2}
+      ],
+      "tags": {
+        "access": "no",
+        "access:source": "dgt",
+        "highway": "primary",
+        "note": "CARRETERA CERRADA EN AMBOS SENTIDOS - VOLCÁN CUMBRE VIEJA",
+        "ref": "LP-2",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 986677111,
+      "timestamp": "2021-09-24T13:57:24Z",
+      "version": 1,
+      "changeset": 111649414,
+      "user": "jynus",
+      "uid": 7406,
+      "nodes": [394759306, 394759307],
+      "geometry": [
+        {"lat": 28.6201425, "lon": -17.8896062, "z": 468.9},
+        {"lat": 28.6203305, "lon": -17.8897208, "z": 466.6},
+        {"lat": 28.6204101, "lon": -17.8899297, "z": 462.8}
+      ],
+      "tags": {
+        "access": "yes",
+        "destroyed:highway": "track",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "mtb:scale": "0",
+        "name": "Camino de los Campitos",
+        "surface": "gravel",
+        "tracktype": "grade2",
+        "width": "2"
+      }
     },
     {
       "type": "way",

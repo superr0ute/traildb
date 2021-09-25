@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-23T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-24T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11123868,
-      "timestamp": "2021-09-23T18:20:46Z",
-      "version": 165,
-      "changeset": 111612151,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2021-09-24T17:03:49Z",
+      "version": 166,
+      "changeset": 111658190,
+      "user": "theipu",
+      "uid": 5549012,
       "members": [
         {"type": "way", "ref": 723053761, "role": ""},
         {"type": "way", "ref": 853340709, "role": ""},
@@ -1397,6 +1397,7 @@
         {"type": "way", "ref": 813964703, "role": ""},
         {"type": "way", "ref": 243564195, "role": ""},
         {"type": "way", "ref": 813964704, "role": ""},
+        {"type": "way", "ref": 986732328, "role": ""},
         {"type": "way", "ref": 547635723, "role": ""},
         {"type": "way", "ref": 843554499, "role": ""},
         {"type": "way", "ref": 43838039, "role": ""},
@@ -58458,16 +58459,14 @@
     {
       "type": "way",
       "id": 813964704,
-      "timestamp": "2020-06-08T18:32:59Z",
-      "version": 1,
-      "changeset": 86367677,
-      "user": "dudigolani",
-      "uid": 10984507,
-      "nodes": [1579318116, 1579318129],
+      "timestamp": "2021-09-24T17:03:49Z",
+      "version": 2,
+      "changeset": 111658190,
+      "user": "theipu",
+      "uid": 5549012,
+      "nodes": [9120745680, 1579318129],
       "geometry": [
-        {"lat": 32.3036846, "lon": 34.9852222},
-        {"lat": 32.3041108, "lon": 34.9832159},
-        {"lat": 32.3042287, "lon": 34.9822961},
+        {"lat": 32.3042861, "lon": 34.9821718},
         {"lat": 32.3043376, "lon": 34.9817997},
         {"lat": 32.304401, "lon": 34.980641},
         {"lat": 32.3044826, "lon": 34.9792677},
@@ -72590,6 +72589,21 @@
         {"lat": 32.1481778, "lon": 34.9627345}
       ],
       "tags": {"highway": "path"}
+    },
+    {
+      "type": "way",
+      "id": 986732328,
+      "timestamp": "2021-09-24T17:03:49Z",
+      "version": 1,
+      "changeset": 111658190,
+      "user": "theipu",
+      "uid": 5549012,
+      "nodes": [1579318116, 1579318117],
+      "geometry": [
+        {"lat": 32.3036846, "lon": 34.9852222},
+        {"lat": 32.3042524, "lon": 34.9824013}
+      ],
+      "tags": {"highway": "track", "source": "gps"}
     }
   ]
 }
