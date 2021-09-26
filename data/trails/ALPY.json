@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-23T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-25T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -37,9 +37,9 @@
     {
       "type": "relation",
       "id": 2925533,
-      "timestamp": "2021-08-18T05:37:43Z",
-      "version": 39,
-      "changeset": 109847784,
+      "timestamp": "2021-09-25T19:48:01Z",
+      "version": 40,
+      "changeset": 111699901,
       "user": "alessandrocarmeli",
       "uid": 12294600,
       "members": [
@@ -84,6 +84,7 @@
         {"type": "way", "ref": 200408548, "role": "route"},
         {"type": "way", "ref": 66158147, "role": "route"},
         {"type": "way", "ref": 671145404, "role": "route"},
+        {"type": "way", "ref": 986993238, "role": "route"},
         {"type": "way", "ref": 150510393, "role": "route"},
         {"type": "way", "ref": 814589516, "role": "route"},
         {"type": "way", "ref": 784501967, "role": "route"},
@@ -25461,14 +25462,13 @@
     {
       "type": "way",
       "id": 671145404,
-      "timestamp": "2019-02-17T21:00:46Z",
-      "version": 1,
-      "changeset": 67292462,
-      "user": "AlfredoSP",
-      "uid": 2175620,
-      "nodes": [802678175, 3385581872],
+      "timestamp": "2021-09-25T19:48:01Z",
+      "version": 2,
+      "changeset": 111699901,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
+      "nodes": [668209027, 3385581872],
       "geometry": [
-        {"lat": 45.5874492, "lon": 13.8036675},
         {"lat": 45.5873203, "lon": 13.8041411},
         {"lat": 45.5872501, "lon": 13.8043724},
         {"lat": 45.5871877, "lon": 13.8046077},
@@ -29927,6 +29927,21 @@
         "piste:type": "hike",
         "surface": "asphalt"
       }
+    },
+    {
+      "type": "way",
+      "id": 986993238,
+      "timestamp": "2021-09-25T19:48:01Z",
+      "version": 1,
+      "changeset": 111699901,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
+      "nodes": [802678175, 668209027],
+      "geometry": [
+        {"lat": 45.5874492, "lon": 13.8036675},
+        {"lat": 45.5873203, "lon": 13.8041411}
+      ],
+      "tags": {"highway": "unclassified", "name": "Strada per i Laghetti"}
     },
     {
       "type": "way",

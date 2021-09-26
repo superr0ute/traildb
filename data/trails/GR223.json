@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-21T02:32:36Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-26T02:29:00Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1501400,
-      "timestamp": "2021-09-20T18:05:23Z",
-      "version": 195,
-      "changeset": 111460321,
+      "timestamp": "2021-09-25T11:03:46Z",
+      "version": 196,
+      "changeset": 111683449,
       "user": "EsMercadal",
       "uid": 14095379,
       "members": [
@@ -290,8 +290,12 @@
         {"type": "way", "ref": 113504174, "role": ""},
         {"type": "way", "ref": 41807014, "role": ""},
         {"type": "way", "ref": 175462719, "role": ""},
+        {"type": "way", "ref": 986892591, "role": ""},
         {"type": "way", "ref": 286683129, "role": ""},
+        {"type": "way", "ref": 986892593, "role": ""},
+        {"type": "way", "ref": 986892594, "role": ""},
         {"type": "way", "ref": 113504095, "role": ""},
+        {"type": "way", "ref": 986892597, "role": ""},
         {"type": "way", "ref": 284929814, "role": ""},
         {"type": "way", "ref": 284929812, "role": ""},
         {"type": "way", "ref": 39413469, "role": ""},
@@ -1903,19 +1907,16 @@
     {
       "type": "way",
       "id": 113504095,
-      "timestamp": "2021-09-12T19:35:52Z",
-      "version": 8,
-      "changeset": 111109720,
+      "timestamp": "2021-09-25T11:03:46Z",
+      "version": 9,
+      "changeset": 111683449,
       "user": "EsMercadal",
       "uid": 14095379,
-      "nodes": [472209051, 472209052],
+      "nodes": [1286754875, 472209052],
       "geometry": [
-        {"lat": 40.00603, "lon": 3.8365369, "z": 19.3},
-        {"lat": 40.0059764, "lon": 3.8366673, "z": 18.5},
-        {"lat": 40.0060297, "lon": 3.8370844, "z": 17.1},
-        {"lat": 40.0060537, "lon": 3.8373176, "z": 16.3},
+        {"lat": 40.0060563, "lon": 3.8373369, "z": 16.2},
         {"lat": 40.0060287, "lon": 3.8373921, "z": 16},
-        {"lat": 40.0059035, "lon": 3.837508, "z": 15.2}
+        {"lat": 40.0059018, "lon": 3.8374927, "z": 15.2}
       ],
       "tags": {
         "cycleway:right": "no",
@@ -2038,7 +2039,7 @@
       "uid": 7691857,
       "nodes": [472208974, 472208978],
       "geometry": [
-        {"lat": 40.0009388, "lon": 3.8307701, "z": 10.9},
+        {"lat": 40.0009565, "lon": 3.8307797, "z": 10.9},
         {"lat": 40.0012349, "lon": 3.8309326, "z": 11.5},
         {"lat": 40.0013084, "lon": 3.8309727, "z": 11.7},
         {"lat": 40.0017402, "lon": 3.8312911, "z": 13},
@@ -8427,20 +8428,19 @@
     {
       "type": "way",
       "id": 175462719,
-      "timestamp": "2021-09-12T19:35:42Z",
-      "version": 6,
-      "changeset": 111109721,
+      "timestamp": "2021-09-25T11:03:46Z",
+      "version": 7,
+      "changeset": 111683449,
       "user": "EsMercadal",
       "uid": 14095379,
-      "nodes": [472209044, 2903592247],
+      "nodes": [472209044, 2903592250],
       "geometry": [
         {"lat": 40.0033827, "lon": 3.8348211, "z": 20},
         {"lat": 40.0040257, "lon": 3.8352394, "z": 19.4},
         {"lat": 40.0041539, "lon": 3.8353228, "z": 19.2},
         {"lat": 40.0046371, "lon": 3.8356146, "z": 18.6},
         {"lat": 40.004944, "lon": 3.8357999, "z": 18.5},
-        {"lat": 40.0055835, "lon": 3.8362068, "z": 18.8},
-        {"lat": 40.005736, "lon": 3.8363072, "z": 19}
+        {"lat": 40.0057393, "lon": 3.8362939, "z": 19.1}
       ],
       "tags": {
         "highway": "residential",
@@ -9697,9 +9697,9 @@
       "uid": 14095379,
       "nodes": [2886285630, 2886285631],
       "geometry": [
-        {"lat": 40.0052412, "lon": 3.8377542, "z": 14.4},
-        {"lat": 40.0056361, "lon": 3.8375993, "z": 14.5},
-        {"lat": 40.0058579, "lon": 3.837521, "z": 15}
+        {"lat": 40.0052408, "lon": 3.8377468, "z": 14.4},
+        {"lat": 40.005637, "lon": 3.8375948, "z": 14.5},
+        {"lat": 40.0058596, "lon": 3.8375062, "z": 15.1}
       ],
       "tags": {
         "bridge": "yes",
@@ -9721,8 +9721,8 @@
       "uid": 14095379,
       "nodes": [2886285631, 472209052],
       "geometry": [
-        {"lat": 40.0058579, "lon": 3.837521, "z": 15},
-        {"lat": 40.0059035, "lon": 3.837508, "z": 15.2}
+        {"lat": 40.0058596, "lon": 3.8375062, "z": 15.1},
+        {"lat": 40.0059018, "lon": 3.8374927, "z": 15.2}
       ],
       "tags": {
         "cycleway:both": "no",
@@ -9735,23 +9735,24 @@
     {
       "type": "way",
       "id": 286683129,
-      "timestamp": "2021-09-12T19:35:48Z",
-      "version": 5,
-      "changeset": 111109721,
+      "timestamp": "2021-09-25T11:03:46Z",
+      "version": 6,
+      "changeset": 111683449,
       "user": "EsMercadal",
       "uid": 14095379,
-      "nodes": [2903592247, 472209051],
+      "nodes": [472209051, 472209050],
       "geometry": [
-        {"lat": 40.005736, "lon": 3.8363072, "z": 19},
-        {"lat": 40.0058872, "lon": 3.8364068, "z": 19.2},
-        {"lat": 40.00603, "lon": 3.8365369, "z": 19.3}
+        {"lat": 40.0060371, "lon": 3.8365292, "z": 19.3},
+        {"lat": 40.0060208, "lon": 3.8364817, "z": 19.4},
+        {"lat": 40.0059816, "lon": 3.8364454, "z": 19.4},
+        {"lat": 40.0059117, "lon": 3.8364084, "z": 19.3}
       ],
       "tags": {
         "highway": "residential",
         "lit": "yes",
         "name": "Plaça Dalt es Penyals",
-        "oneway": "no",
-        "sidewalk": "both",
+        "oneway": "yes",
+        "sidewalk": "right",
         "surface": "asphalt"
       }
     },
@@ -10405,7 +10406,7 @@
         {"lat": 40.0008778, "lon": 3.8300484, "z": 11},
         {"lat": 40.0008965, "lon": 3.8302827, "z": 11},
         {"lat": 40.0009317, "lon": 3.8306398, "z": 11},
-        {"lat": 40.0009388, "lon": 3.8307701, "z": 10.9}
+        {"lat": 40.0009565, "lon": 3.8307797, "z": 10.9}
       ],
       "tags": {
         "highway": "residential",
@@ -10721,7 +10722,7 @@
       "geometry": [
         {"lat": 40.0049264, "lon": 3.8379154, "z": 15.6},
         {"lat": 40.004978, "lon": 3.8378782, "z": 15.3},
-        {"lat": 40.0052412, "lon": 3.8377542, "z": 14.4}
+        {"lat": 40.0052408, "lon": 3.8377468, "z": 14.4}
       ],
       "tags": {
         "cycleway:both": "no",
@@ -17402,6 +17403,102 @@
         "oneway": "yes",
         "sidewalk": "both",
         "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 986892591,
+      "timestamp": "2021-09-25T11:03:46Z",
+      "version": 1,
+      "changeset": 111683449,
+      "user": "EsMercadal",
+      "uid": 14095379,
+      "nodes": [2903592250, 472209050],
+      "geometry": [
+        {"lat": 40.0057393, "lon": 3.8362939, "z": 19.1},
+        {"lat": 40.0058109, "lon": 3.8363403, "z": 19.2},
+        {"lat": 40.0059117, "lon": 3.8364084, "z": 19.3}
+      ],
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Plaça Dalt es Penyals",
+        "oneway": "no",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 986892593,
+      "timestamp": "2021-09-25T11:03:46Z",
+      "version": 1,
+      "changeset": 111683449,
+      "user": "EsMercadal",
+      "uid": 14095379,
+      "nodes": [472209051, 1286755673],
+      "geometry": [
+        {"lat": 40.0060371, "lon": 3.8365292, "z": 19.3},
+        {"lat": 40.005989, "lon": 3.8366315, "z": 18.7},
+        {"lat": 40.0059846, "lon": 3.8367226, "z": 18.3}
+      ],
+      "tags": {
+        "cycleway:right": "no",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "name": "Plaça Dalt es Penyals",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 986892594,
+      "timestamp": "2021-09-25T11:03:46Z",
+      "version": 1,
+      "changeset": 111683449,
+      "user": "EsMercadal",
+      "uid": 14095379,
+      "nodes": [1286755673, 1286756148],
+      "geometry": [
+        {"lat": 40.0059846, "lon": 3.8367226, "z": 18.3},
+        {"lat": 40.0060323, "lon": 3.8371316, "z": 16.9}
+      ],
+      "tags": {
+        "cycleway:right": "no",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "name": "Plaça Dalt es Penyals",
+        "oneway": "yes",
+        "parking:lane:both": "street_side",
+        "parking:lane:left": "parallel",
+        "parking:lane:right": "diagonal",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 986892597,
+      "timestamp": "2021-09-25T11:03:46Z",
+      "version": 1,
+      "changeset": 111683449,
+      "user": "EsMercadal",
+      "uid": 14095379,
+      "nodes": [1286756148, 1286754875],
+      "geometry": [
+        {"lat": 40.0060323, "lon": 3.8371316, "z": 16.9},
+        {"lat": 40.006052, "lon": 3.8373003, "z": 16.3},
+        {"lat": 40.0060563, "lon": 3.8373369, "z": 16.2}
+      ],
+      "tags": {
+        "cycleway:right": "no",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "name": "Plaça Dalt es Penyals",
+        "oneway": "yes",
+        "parking:lane:left": "parallel",
+        "parking:lane:left:parallel": "street_side",
+        "surface": "asphalt"
       }
     }
   ]

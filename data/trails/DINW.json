@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-19T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-25T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -876,14 +876,23 @@
     {
       "type": "relation",
       "id": 7388367,
-      "timestamp": "2021-07-11T12:10:56Z",
-      "version": 7,
-      "changeset": 107779553,
-      "user": "Badojo",
-      "uid": 8189075,
+      "timestamp": "2021-09-25T15:14:48Z",
+      "version": 10,
+      "changeset": 111691929,
+      "user": "debeli75",
+      "uid": 730886,
       "members": [
         {"type": "node", "ref": 3657979343, "role": ""},
         {"type": "way", "ref": 92747482, "role": ""},
+        {"type": "way", "ref": 506708663, "role": ""},
+        {"type": "way", "ref": 506705481, "role": ""},
+        {"type": "way", "ref": 262203004, "role": ""},
+        {"type": "way", "ref": 262203006, "role": ""},
+        {"type": "way", "ref": 506708656, "role": ""},
+        {"type": "way", "ref": 986939175, "role": ""},
+        {"type": "way", "ref": 506708649, "role": ""},
+        {"type": "way", "ref": 506708652, "role": ""},
+        {"type": "way", "ref": 229010916, "role": ""},
         {"type": "way", "ref": 575124992, "role": ""},
         {"type": "way", "ref": 575122645, "role": ""},
         {"type": "way", "ref": 963388333, "role": ""},
@@ -893,17 +902,9 @@
         {"type": "way", "ref": 575124995, "role": ""},
         {"type": "way", "ref": 963388340, "role": ""},
         {"type": "way", "ref": 963388341, "role": ""},
-        {"type": "way", "ref": 506708663, "role": ""},
-        {"type": "way", "ref": 506705481, "role": ""},
-        {"type": "way", "ref": 262203004, "role": ""},
-        {"type": "way", "ref": 262203006, "role": ""},
-        {"type": "way", "ref": 506708656, "role": ""},
-        {"type": "way", "ref": 506708652, "role": ""},
-        {"type": "way", "ref": 506708649, "role": ""},
         {"type": "way", "ref": 506708662, "role": ""},
         {"type": "way", "ref": 175608462, "role": ""},
         {"type": "way", "ref": 205781590, "role": ""},
-        {"type": "way", "ref": 229010916, "role": ""},
         {"type": "way", "ref": 229012090, "role": ""},
         {"type": "way", "ref": 229012088, "role": ""},
         {"type": "way", "ref": 229012089, "role": ""},
@@ -921,8 +922,7 @@
       ],
       "tags": {
         "name": "Crnopac",
-        "network": "lwn",
-        "operator": "Via Dinarica",
+        "network": "iwn",
         "ref": "HR-W-18",
         "route": "hiking",
         "type": "route",
@@ -10649,11 +10649,11 @@
     {
       "type": "way",
       "id": 205781590,
-      "timestamp": "2020-01-08T13:50:43Z",
-      "version": 2,
-      "changeset": 79342170,
-      "user": "a_2019",
-      "uid": 10303321,
+      "timestamp": "2021-09-25T15:05:24Z",
+      "version": 4,
+      "changeset": 111691583,
+      "user": "debeli75",
+      "uid": 730886,
       "nodes": [1861727436, 2157594077],
       "geometry": [
         {"lat": 44.2535895, "lon": 15.8106677},
@@ -10761,7 +10761,15 @@
         {"lat": 44.2520406, "lon": 15.8365077},
         {"lat": 44.2520085, "lon": 15.8367519}
       ],
-      "tags": {"highway": "path", "sac_scale": "mountain_hiking"}
+      "tags": {
+        "bicycle": "no",
+        "foot": "yes",
+        "highway": "path",
+        "horse": "no",
+        "name": "Crnopac vrh",
+        "sac_scale": "mountain_hiking",
+        "surface": "ground"
+      }
     },
     {
       "type": "way",
@@ -15654,11 +15662,11 @@
     {
       "type": "way",
       "id": 229012088,
-      "timestamp": "2021-04-02T18:47:59Z",
-      "version": 2,
-      "changeset": 102211524,
-      "user": "pantagana",
-      "uid": 8650645,
+      "timestamp": "2021-09-25T15:13:13Z",
+      "version": 3,
+      "changeset": 111691873,
+      "user": "debeli75",
+      "uid": 730886,
       "nodes": [2376537779, 2376537766],
       "geometry": [
         {"lat": 44.2632479, "lon": 15.8398207},
@@ -15868,7 +15876,7 @@
       ],
       "tags": {
         "highway": "path",
-        "sac_scale": "demanding_mountain_hiking",
+        "sac_scale": "alpine_hiking",
         "source": "http://gps-planine.com"
       }
     },
@@ -15911,11 +15919,11 @@
     {
       "type": "way",
       "id": 229012090,
-      "timestamp": "2013-07-06T21:37:38Z",
-      "version": 1,
-      "changeset": 16853889,
-      "user": "Janjko",
-      "uid": 244754,
+      "timestamp": "2021-09-25T15:13:13Z",
+      "version": 2,
+      "changeset": 111691873,
+      "user": "debeli75",
+      "uid": 730886,
       "nodes": [2376521558, 2376537779],
       "geometry": [
         {"lat": 44.2644746, "lon": 15.8322461},
@@ -15981,7 +15989,13 @@
         {"lat": 44.2632377, "lon": 15.8397647},
         {"lat": 44.2632479, "lon": 15.8398207}
       ],
-      "tags": {"highway": "path", "source": "http://gps-planine.com"}
+      "tags": {
+        "bicycle": "no",
+        "highway": "path",
+        "horse": "no",
+        "sac_scale": "alpine_hiking",
+        "source": "http://gps-planine.com"
+      }
     },
     {
       "type": "way",
@@ -36530,37 +36544,13 @@
     {
       "type": "way",
       "id": 506708649,
-      "timestamp": "2021-04-02T18:47:59Z",
-      "version": 3,
-      "changeset": 102211524,
-      "user": "pantagana",
-      "uid": 8650645,
-      "nodes": [2376521558, 2376521733],
+      "timestamp": "2021-09-25T15:05:24Z",
+      "version": 4,
+      "changeset": 111691583,
+      "user": "debeli75",
+      "uid": 730886,
+      "nodes": [8587306204, 2376521733],
       "geometry": [
-        {"lat": 44.2644746, "lon": 15.8322461},
-        {"lat": 44.2645199, "lon": 15.8322705},
-        {"lat": 44.2646939, "lon": 15.8325596},
-        {"lat": 44.2648268, "lon": 15.8326387},
-        {"lat": 44.2649329, "lon": 15.8326373},
-        {"lat": 44.26504, "lon": 15.8325423},
-        {"lat": 44.2651389, "lon": 15.8324733},
-        {"lat": 44.2652151, "lon": 15.8323942},
-        {"lat": 44.2653006, "lon": 15.8322573},
-        {"lat": 44.2653768, "lon": 15.8321353},
-        {"lat": 44.2654077, "lon": 15.8320807},
-        {"lat": 44.2654561, "lon": 15.8319843},
-        {"lat": 44.2654911, "lon": 15.8319412},
-        {"lat": 44.265556, "lon": 15.8319972},
-        {"lat": 44.2656085, "lon": 15.8321411},
-        {"lat": 44.2656734, "lon": 15.8322},
-        {"lat": 44.2657095, "lon": 15.8322604},
-        {"lat": 44.2657775, "lon": 15.8322806},
-        {"lat": 44.2658588, "lon": 15.8322547},
-        {"lat": 44.2659556, "lon": 15.8323266},
-        {"lat": 44.2660298, "lon": 15.8323669},
-        {"lat": 44.2661081, "lon": 15.8323295},
-        {"lat": 44.266277, "lon": 15.8323338},
-        {"lat": 44.2663717, "lon": 15.8323338},
         {"lat": 44.2664544, "lon": 15.832348},
         {"lat": 44.2665396, "lon": 15.8323626},
         {"lat": 44.2666323, "lon": 15.8324302},
@@ -59387,6 +59377,44 @@
         {"lat": 45.2542658, "lon": 14.80071}
       ],
       "tags": {"highway": "path"}
+    },
+    {
+      "type": "way",
+      "id": 986939175,
+      "timestamp": "2021-09-25T15:05:24Z",
+      "version": 1,
+      "changeset": 111691583,
+      "user": "debeli75",
+      "uid": 730886,
+      "nodes": [2376521558, 8587306204],
+      "geometry": [
+        {"lat": 44.2644746, "lon": 15.8322461},
+        {"lat": 44.2645199, "lon": 15.8322705},
+        {"lat": 44.2646939, "lon": 15.8325596},
+        {"lat": 44.2648268, "lon": 15.8326387},
+        {"lat": 44.2649329, "lon": 15.8326373},
+        {"lat": 44.26504, "lon": 15.8325423},
+        {"lat": 44.2651389, "lon": 15.8324733},
+        {"lat": 44.2652151, "lon": 15.8323942},
+        {"lat": 44.2653006, "lon": 15.8322573},
+        {"lat": 44.2653768, "lon": 15.8321353},
+        {"lat": 44.2654077, "lon": 15.8320807},
+        {"lat": 44.2654561, "lon": 15.8319843},
+        {"lat": 44.2654911, "lon": 15.8319412},
+        {"lat": 44.265556, "lon": 15.8319972},
+        {"lat": 44.2656085, "lon": 15.8321411},
+        {"lat": 44.2656734, "lon": 15.8322},
+        {"lat": 44.2657095, "lon": 15.8322604},
+        {"lat": 44.2657775, "lon": 15.8322806},
+        {"lat": 44.2658588, "lon": 15.8322547},
+        {"lat": 44.2659556, "lon": 15.8323266},
+        {"lat": 44.2660298, "lon": 15.8323669},
+        {"lat": 44.2661081, "lon": 15.8323295},
+        {"lat": 44.266277, "lon": 15.8323338},
+        {"lat": 44.2663717, "lon": 15.8323338},
+        {"lat": 44.2664544, "lon": 15.832348}
+      ],
+      "tags": {"highway": "path", "source": "http://gps-planine.com"}
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-24T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-25T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -341,11 +341,11 @@
     {
       "type": "relation",
       "id": 6946445,
-      "timestamp": "2021-03-11T09:44:58Z",
-      "version": 26,
-      "changeset": 100831671,
-      "user": "Andrea Del Sarto",
-      "uid": 3215770,
+      "timestamp": "2021-09-25T22:12:43Z",
+      "version": 27,
+      "changeset": 111702758,
+      "user": "davidoskky",
+      "uid": 11645399,
       "members": [
         {"type": "way", "ref": 43701475, "role": ""},
         {"type": "way", "ref": 531283883, "role": ""},
@@ -364,8 +364,10 @@
         {"type": "way", "ref": 35050778, "role": ""},
         {"type": "way", "ref": 221107284, "role": ""},
         {"type": "way", "ref": 359875058, "role": ""},
+        {"type": "way", "ref": 987010201, "role": ""},
         {"type": "way", "ref": 472038041, "role": ""},
         {"type": "way", "ref": 472038039, "role": ""},
+        {"type": "way", "ref": 987010195, "role": ""},
         {"type": "way", "ref": 472038037, "role": ""},
         {"type": "way", "ref": 734104634, "role": ""},
         {"type": "way", "ref": 734104637, "role": ""},
@@ -381,6 +383,7 @@
         {"type": "way", "ref": 734104633, "role": ""},
         {"type": "way", "ref": 734104632, "role": ""},
         {"type": "way", "ref": 734104631, "role": ""},
+        {"type": "way", "ref": 987010191, "role": ""},
         {"type": "way", "ref": 734112863, "role": ""},
         {"type": "way", "ref": 221105457, "role": ""},
         {"type": "way", "ref": 221105456, "role": ""},
@@ -48432,15 +48435,13 @@
     {
       "type": "way",
       "id": 359875058,
-      "timestamp": "2021-05-20T22:35:33Z",
-      "version": 4,
-      "changeset": 105053186,
-      "user": "giuliolunati",
-      "uid": 8638677,
-      "nodes": [411100513, 344769101],
+      "timestamp": "2021-09-25T22:12:43Z",
+      "version": 5,
+      "changeset": 111702758,
+      "user": "davidoskky",
+      "uid": 11645399,
+      "nodes": [8751336320, 344769101],
       "geometry": [
-        {"lat": 46.0295765, "lon": 10.3329514},
-        {"lat": 46.029164, "lon": 10.3332048},
         {"lat": 46.0290805, "lon": 10.3333451},
         {"lat": 46.0290143, "lon": 10.3334563},
         {"lat": 46.0289366, "lon": 10.3335156},
@@ -48449,7 +48450,7 @@
         {"lat": 46.0285226, "lon": 10.3351313},
         {"lat": 46.0284452, "lon": 10.336162}
       ],
-      "tags": {"highway": "residential"}
+      "tags": {"highway": "residential", "name": "Via Annunciata Cocchetti"}
     },
     {
       "type": "way",
@@ -64627,38 +64628,37 @@
     {
       "type": "way",
       "id": 472038039,
-      "timestamp": "2019-10-13T08:08:52Z",
-      "version": 2,
-      "changeset": 75616916,
-      "user": "AlfredoSP",
-      "uid": 2175620,
-      "nodes": [344769105, 2301667094],
+      "timestamp": "2021-09-25T22:12:43Z",
+      "version": 3,
+      "changeset": 111702758,
+      "user": "davidoskky",
+      "uid": 11645399,
+      "nodes": [344769105, 344769114],
       "geometry": [
         {"lat": 46.02864, "lon": 10.336628},
         {"lat": 46.029549, "lon": 10.3365433},
         {"lat": 46.029765, "lon": 10.3365228},
         {"lat": 46.0299043, "lon": 10.3367271},
         {"lat": 46.0300462, "lon": 10.3369948},
-        {"lat": 46.0301839, "lon": 10.3380794},
-        {"lat": 46.030186, "lon": 10.3389875}
+        {"lat": 46.0301839, "lon": 10.3380794}
       ],
       "tags": {"highway": "residential", "name": "Via Santa Maria Vecchia"}
     },
     {
       "type": "way",
       "id": 472038041,
-      "timestamp": "2019-10-13T08:08:52Z",
-      "version": 2,
-      "changeset": 75616916,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-09-25T22:12:43Z",
+      "version": 3,
+      "changeset": 111702758,
+      "user": "davidoskky",
+      "uid": 11645399,
       "nodes": [344769101, 344769105],
       "geometry": [
         {"lat": 46.0284452, "lon": 10.336162},
         {"lat": 46.0285173, "lon": 10.3364718},
         {"lat": 46.02864, "lon": 10.336628}
       ],
-      "tags": {"highway": "residential"}
+      "tags": {"highway": "residential", "name": "Via Santa Maria Vecchia"}
     },
     {
       "type": "way",
@@ -91390,18 +91390,18 @@
     {
       "type": "way",
       "id": 734104634,
-      "timestamp": "2019-10-13T08:08:52Z",
-      "version": 1,
-      "changeset": 75616916,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-09-25T22:12:43Z",
+      "version": 2,
+      "changeset": 111702758,
+      "user": "davidoskky",
+      "uid": 11645399,
       "nodes": [2301667093, 2301668568],
       "geometry": [
         {"lat": 46.0301711, "lon": 10.3391699},
         {"lat": 46.0300966, "lon": 10.3397117},
         {"lat": 46.0299923, "lon": 10.3399182}
       ],
-      "tags": {"highway": "residential"}
+      "tags": {"highway": "residential", "name": "Via Guglielmo Marconi"}
     },
     {
       "type": "way",
@@ -91464,12 +91464,12 @@
     {
       "type": "way",
       "id": 734112863,
-      "timestamp": "2019-10-13T08:47:41Z",
-      "version": 1,
-      "changeset": 75617650,
-      "user": "AlfredoSP",
-      "uid": 2175620,
-      "nodes": [6741914194, 411100622],
+      "timestamp": "2021-09-25T22:12:43Z",
+      "version": 2,
+      "changeset": 111702758,
+      "user": "davidoskky",
+      "uid": 11645399,
+      "nodes": [6741914194, 411100621],
       "geometry": [
         {"lat": 46.0299028, "lon": 10.350135},
         {"lat": 46.0298388, "lon": 10.3500315},
@@ -91477,12 +91477,11 @@
         {"lat": 46.029486, "lon": 10.3495477},
         {"lat": 46.0288212, "lon": 10.3491279},
         {"lat": 46.028761, "lon": 10.3489258},
-        {"lat": 46.0287518, "lon": 10.3488948},
-        {"lat": 46.028775, "lon": 10.3488146},
-        {"lat": 46.02912, "lon": 10.3476989}
+        {"lat": 46.0287518, "lon": 10.3488948}
       ],
       "tags": {
         "highway": "residential",
+        "name": "Via Fucine",
         "source": "Regione Lombardia - La bancha dati territoriali CTR10000 è prodotta da Regione Lombardia - Infrastruttura per l'Informazione Territoriale"
       }
     },
@@ -101045,6 +101044,57 @@
         "tracktype": "grade3",
         "trailblazed": "yes"
       }
+    },
+    {
+      "type": "way",
+      "id": 987010191,
+      "timestamp": "2021-09-25T22:12:43Z",
+      "version": 1,
+      "changeset": 111702758,
+      "user": "davidoskky",
+      "uid": 11645399,
+      "nodes": [411100621, 411100622],
+      "geometry": [
+        {"lat": 46.0287518, "lon": 10.3488948},
+        {"lat": 46.028775, "lon": 10.3488146},
+        {"lat": 46.02912, "lon": 10.3476989}
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Via San Bartolomeo",
+        "source": "Regione Lombardia - La bancha dati territoriali CTR10000 è prodotta da Regione Lombardia - Infrastruttura per l'Informazione Territoriale"
+      }
+    },
+    {
+      "type": "way",
+      "id": 987010195,
+      "timestamp": "2021-09-25T22:12:43Z",
+      "version": 1,
+      "changeset": 111702758,
+      "user": "davidoskky",
+      "uid": 11645399,
+      "nodes": [344769114, 2301667094],
+      "geometry": [
+        {"lat": 46.0301839, "lon": 10.3380794},
+        {"lat": 46.030186, "lon": 10.3389875}
+      ],
+      "tags": {"highway": "residential", "name": "Via Guglielmo Marconi"}
+    },
+    {
+      "type": "way",
+      "id": 987010201,
+      "timestamp": "2021-09-25T22:12:43Z",
+      "version": 1,
+      "changeset": 111702758,
+      "user": "davidoskky",
+      "uid": 11645399,
+      "nodes": [411100513, 8751336320],
+      "geometry": [
+        {"lat": 46.0295765, "lon": 10.3329514},
+        {"lat": 46.029164, "lon": 10.3332048},
+        {"lat": 46.0290805, "lon": 10.3333451}
+      ],
+      "tags": {"highway": "residential", "name": "Via Pedena"}
     },
     {
       "type": "way",

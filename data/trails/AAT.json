@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-23T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-25T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -109,11 +109,11 @@
     {
       "type": "relation",
       "id": 3176522,
-      "timestamp": "2021-09-19T20:54:47Z",
-      "version": 663,
-      "changeset": 111424291,
-      "user": "doctorsid",
-      "uid": 4065319,
+      "timestamp": "2021-09-25T19:48:01Z",
+      "version": 664,
+      "changeset": 111699901,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
       "members": [
         {"type": "node", "ref": 2911861581, "role": ""},
         {"type": "node", "ref": 2912812289, "role": ""},
@@ -1090,6 +1090,7 @@
         {"type": "way", "ref": 200408548, "role": ""},
         {"type": "way", "ref": 66158147, "role": ""},
         {"type": "way", "ref": 671145404, "role": ""},
+        {"type": "way", "ref": 986993238, "role": ""},
         {"type": "way", "ref": 150510393, "role": ""},
         {"type": "way", "ref": 814589516, "role": ""},
         {"type": "way", "ref": 784501967, "role": ""},
@@ -64952,14 +64953,13 @@
     {
       "type": "way",
       "id": 671145404,
-      "timestamp": "2019-02-17T21:00:46Z",
-      "version": 1,
-      "changeset": 67292462,
-      "user": "AlfredoSP",
-      "uid": 2175620,
-      "nodes": [802678175, 3385581872],
+      "timestamp": "2021-09-25T19:48:01Z",
+      "version": 2,
+      "changeset": 111699901,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
+      "nodes": [668209027, 3385581872],
       "geometry": [
-        {"lat": 45.5874492, "lon": 13.8036675},
         {"lat": 45.5873203, "lon": 13.8041411},
         {"lat": 45.5872501, "lon": 13.8043724},
         {"lat": 45.5871877, "lon": 13.8046077},
@@ -78066,6 +78066,21 @@
         "sac_scale": "mountain_hiking",
         "source": "plan.at 2009"
       }
+    },
+    {
+      "type": "way",
+      "id": 986993238,
+      "timestamp": "2021-09-25T19:48:01Z",
+      "version": 1,
+      "changeset": 111699901,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
+      "nodes": [802678175, 668209027],
+      "geometry": [
+        {"lat": 45.5874492, "lon": 13.8036675},
+        {"lat": 45.5873203, "lon": 13.8041411}
+      ],
+      "tags": {"highway": "unclassified", "name": "Strada per i Laghetti"}
     },
     {
       "type": "way",
