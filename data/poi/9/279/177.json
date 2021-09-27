@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-09-25T23:59:59Z",
-    "timestamp_osm_base": "2021-09-26T04:43:28Z",
+    "timestamp_osm_date": "2021-09-26T23:59:59Z",
+    "timestamp_osm_base": "2021-09-27T05:10:13Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9104,18 +9104,19 @@
       "id": 330329510,
       "lat": 48.3605032,
       "lon": 16.6003391,
-      "timestamp": "2018-02-09T09:53:56Z",
-      "version": 2,
-      "changeset": 56211560,
-      "user": "Linie29",
-      "uid": 1864709,
+      "timestamp": "2021-09-26T14:40:11Z",
+      "version": 3,
+      "changeset": 111725642,
+      "user": "emergency99",
+      "uid": 1832939,
       "tags": {
         "addr:city": "Bockfließ",
         "addr:country": "AT",
         "addr:housenumber": "45",
         "addr:postcode": "2213",
         "addr:street": "Hauptstraße",
-        "name": "Spar Lahofer",
+        "brand": "ADEG",
+        "name": "ADEG Lahofer",
         "opening_hours": "Mo-Fr 06:45-18:30; Sa 06:45-17:00",
         "shop": "supermarket"
       }
@@ -15091,13 +15092,14 @@
       "id": 742385783,
       "lat": 48.1735914,
       "lon": 16.3426662,
-      "timestamp": "2010-05-21T10:16:23Z",
-      "version": 1,
-      "changeset": 4764389,
-      "user": "besong",
-      "uid": 231980,
+      "timestamp": "2021-09-26T09:58:49Z",
+      "version": 2,
+      "changeset": 111713513,
+      "user": "_wischi_",
+      "uid": 178439,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "check_date": "2021-09-26"
       }
     },
     {
@@ -15105,13 +15107,14 @@
       "id": 742385787,
       "lat": 48.1734692,
       "lon": 16.3438229,
-      "timestamp": "2010-05-21T10:16:23Z",
-      "version": 1,
-      "changeset": 4764389,
-      "user": "besong",
-      "uid": 231980,
+      "timestamp": "2021-09-26T09:39:43Z",
+      "version": 2,
+      "changeset": 111713513,
+      "user": "_wischi_",
+      "uid": 178439,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "check_date": "2021-09-26"
       }
     },
     {
@@ -57718,14 +57721,16 @@
       "id": 9026648859,
       "lat": 48.1867622,
       "lon": 16.4200563,
-      "timestamp": "2021-09-16T10:07:54Z",
-      "version": 2,
-      "changeset": 111283309,
+      "timestamp": "2021-09-26T16:44:12Z",
+      "version": 4,
+      "changeset": 111730927,
       "user": "Helium314",
       "uid": 8620055,
       "tags": {
         "name": "Drei F & G",
-        "shop": "supermarket"
+        "opening_hours": "Mo-Fr 08:30-19:00; Sa 08:30-18:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
       }
     },
     {
@@ -58286,6 +58291,20 @@
       }
     },
     {
+      "type": "node",
+      "id": 9124522150,
+      "lat": 48.280894,
+      "lon": 16.4836759,
+      "timestamp": "2021-09-26T16:09:27Z",
+      "version": 1,
+      "changeset": 111729484,
+      "user": "emergency99",
+      "uid": 1832939,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
       "type": "way",
       "id": 8654617,
       "timestamp": "2020-03-09T21:05:01Z",
@@ -58794,11 +58813,11 @@
     {
       "type": "way",
       "id": 25920470,
-      "timestamp": "2021-02-05T17:09:58Z",
-      "version": 17,
-      "changeset": 98781796,
-      "user": "hanzlan",
-      "uid": 629849,
+      "timestamp": "2021-09-26T11:44:32Z",
+      "version": 18,
+      "changeset": 111718210,
+      "user": "Wienerschnitzel",
+      "uid": 362945,
       "center": {
         "lat": 48.0261904,
         "lon": 16.7796475
@@ -58815,6 +58834,7 @@
         "building": "house",
         "building:part": "yes",
         "description": "ehem. Zielpunkt",
+        "diet:halal": "only",
         "height": "15 m",
         "name": "ETSAN",
         "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-18:00",
@@ -85295,6 +85315,24 @@
         "bench": "yes",
         "bin": "yes",
         "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 987154077,
+      "timestamp": "2021-09-26T15:24:56Z",
+      "version": 1,
+      "changeset": 111727654,
+      "user": "emergency99",
+      "uid": 1832939,
+      "center": {
+        "lat": 48.3702023,
+        "lon": 16.629936
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
         "shelter_type": "public_transport"
       }
     }

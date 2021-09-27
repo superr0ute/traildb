@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-09-25T23:59:59Z",
-    "timestamp_osm_base": "2021-09-26T06:05:18Z",
+    "timestamp_osm_date": "2021-09-26T23:59:59Z",
+    "timestamp_osm_base": "2021-09-27T06:29:58Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -228,31 +228,6 @@
         "ref:doc": "100043141",
         "source": "LINZ",
         "tourism": "alpine_hut"
-      }
-    },
-    {
-      "type": "node",
-      "id": 1225295887,
-      "lat": -44.9621978,
-      "lon": 169.1264972,
-      "timestamp": "2016-03-27T08:00:54Z",
-      "version": 2,
-      "changeset": 38095537,
-      "user": "Andrew Findlay",
-      "uid": 1703,
-      "tags": {
-        "LINZ:layer": "descrip_text",
-        "LINZ:point_size": "6.0",
-        "LINZ:size": "4.1",
-        "LINZ:source_version": "V16",
-        "LINZ:text_placement_justification": "1.0",
-        "LINZ:x_offset": "0.5",
-        "LINZ:y_offset": "0.5",
-        "amenity": "shelter",
-        "attribution": "http://wiki.osm.org/wiki/Attribution#LINZ",
-        "description": "Corrugated iron hut, private but not locked",
-        "shelter_type": "basic_hut",
-        "source_ref": "http://www.linz.govt.nz/topography/topo-maps/"
       }
     },
     {
@@ -1390,6 +1365,42 @@
       }
     },
     {
+      "type": "node",
+      "id": 9123341530,
+      "lat": -45.0609719,
+      "lon": 168.9441901,
+      "timestamp": "2021-09-26T01:43:00Z",
+      "version": 1,
+      "changeset": 111705034,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "33",
+        "ele": "1079",
+        "name": "Coal Pit Saddle",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338418"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9123341531,
+      "lat": -45.05476,
+      "lon": 168.987044,
+      "timestamp": "2021-09-26T01:43:00Z",
+      "version": 1,
+      "changeset": 111705034,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "139",
+        "ele": "961",
+        "name": "Antimony Saddle",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338419"
+      }
+    },
+    {
       "type": "way",
       "id": 88272635,
       "timestamp": "2019-07-28T16:08:37Z",
@@ -1967,6 +1978,27 @@
         "name": "New World Three Parks",
         "operator": "New World",
         "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 987021272,
+      "timestamp": "2021-09-26T00:06:52Z",
+      "version": 1,
+      "changeset": 111704106,
+      "user": "kylenz",
+      "uid": 10140394,
+      "center": {
+        "lat": -44.9621809,
+        "lon": 169.1263977
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "description": "Corrugated iron hut, private but not locked",
+        "shelter_type": "basic_hut",
+        "source": "LINZ"
       }
     }
   ]

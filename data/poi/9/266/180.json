@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-09-25T23:59:59Z",
-    "timestamp_osm_base": "2021-09-26T04:32:28Z",
+    "timestamp_osm_date": "2021-09-26T23:59:59Z",
+    "timestamp_osm_base": "2021-09-27T04:34:59Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -16640,14 +16640,19 @@
       "id": 1305544887,
       "lat": 46.9592917,
       "lon": 7.5002934,
-      "timestamp": "2011-05-30T06:58:25Z",
-      "version": 1,
-      "changeset": 8289128,
-      "user": "00010111",
-      "uid": 68996,
+      "timestamp": "2021-09-26T20:02:35Z",
+      "version": 2,
+      "changeset": 111738766,
+      "user": "dafadllyn",
+      "uid": 7494825,
       "tags": {
+        "brand": "Coop",
+        "brand:wikidata": "Q432564",
+        "brand:wikipedia": "de:Coop (Schweiz)",
+        "check_date:opening_hours": "2021-09-26",
         "name": "Coop",
-        "shop": "convenience"
+        "opening_hours": "Mo-Fr 07:00-20:00; Sa 07:00-17:00; Su,PH closed",
+        "shop": "supermarket"
       }
     },
     {
@@ -19824,21 +19829,6 @@
         "website": "https://www.ville-fribourg.ch/",
         "wikidata": "Q36378",
         "wikipedia": "fr:Fribourg (ville suisse)"
-      }
-    },
-    {
-      "type": "node",
-      "id": 1690160625,
-      "lat": 46.9562612,
-      "lon": 7.5059642,
-      "timestamp": "2012-03-25T09:57:08Z",
-      "version": 1,
-      "changeset": 11093118,
-      "user": "00010111",
-      "uid": 68996,
-      "tags": {
-        "name": "Maxi Markt",
-        "shop": "convenience"
       }
     },
     {
@@ -25816,17 +25806,20 @@
       "id": 3230695787,
       "lat": 46.9738875,
       "lon": 7.4966669,
-      "timestamp": "2019-03-27T22:48:09Z",
-      "version": 3,
-      "changeset": 68606323,
-      "user": "b-jazz-bot",
-      "uid": 9451067,
+      "timestamp": "2021-09-26T04:33:13Z",
+      "version": 4,
+      "changeset": 111706788,
+      "user": "Arlo James Barnes",
+      "uid": 682928,
       "tags": {
         "addr:city": "Bolligen",
         "addr:country": "CH",
         "addr:housenumber": "19",
         "addr:postcode": "3065",
         "addr:street": "Dorfmärit",
+        "brand": "Coop",
+        "brand:wikidata": "Q432564",
+        "brand:wikipedia": "de:Coop (Schweiz)",
         "contact:phone": "+41 31 9241040",
         "name": "Coop",
         "opening_hours": "Mo-Fr 08:00-18:30; Sa 07:30-17:00; Su off",
@@ -51597,6 +51590,43 @@
       "tags": {
         "amenity": "shelter",
         "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 987041159,
+      "timestamp": "2021-09-26T04:33:13Z",
+      "version": 1,
+      "changeset": 111706788,
+      "user": "Arlo James Barnes",
+      "uid": 682928,
+      "center": {
+        "lat": 46.9748639,
+        "lon": 7.4977147
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 987104356,
+      "timestamp": "2021-09-26T10:33:52Z",
+      "version": 1,
+      "changeset": 111715624,
+      "user": "vmicho",
+      "uid": 1849074,
+      "center": {
+        "lat": 46.7701711,
+        "lon": 7.1376771
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "field_shelter"
       }
     }
   ]
