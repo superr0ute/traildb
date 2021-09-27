@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-24T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-26T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2485,11 +2485,11 @@
     {
       "type": "relation",
       "id": 12185623,
-      "timestamp": "2021-03-17T19:19:08Z",
-      "version": 2,
-      "changeset": 101209829,
-      "user": "kräckel",
-      "uid": 1092114,
+      "timestamp": "2021-09-26T05:39:03Z",
+      "version": 3,
+      "changeset": 111707714,
+      "user": "vbertola",
+      "uid": 4347030,
       "members": [
         {"type": "way", "ref": 37667475, "role": ""},
         {"type": "way", "ref": 228557987, "role": ""},
@@ -2499,6 +2499,7 @@
         {"type": "way", "ref": 678082615, "role": ""},
         {"type": "way", "ref": 389384173, "role": ""},
         {"type": "way", "ref": 228558009, "role": ""},
+        {"type": "way", "ref": 987048117, "role": ""},
         {"type": "way", "ref": 389384171, "role": ""},
         {"type": "way", "ref": 837571139, "role": ""},
         {"type": "way", "ref": 180876710, "role": ""}
@@ -2521,12 +2522,13 @@
     {
       "type": "relation",
       "id": 12185712,
-      "timestamp": "2021-08-30T10:55:09Z",
-      "version": 4,
-      "changeset": 110454031,
-      "user": "gabenarni",
-      "uid": 13872761,
+      "timestamp": "2021-09-26T05:39:03Z",
+      "version": 5,
+      "changeset": 111707714,
+      "user": "vbertola",
+      "uid": 4347030,
       "members": [
+        {"type": "way", "ref": 530729760, "role": ""},
         {"type": "way", "ref": 26815885, "role": ""},
         {"type": "way", "ref": 50894214, "role": ""},
         {"type": "way", "ref": 37771135, "role": ""},
@@ -16611,9 +16613,9 @@
     {
       "type": "way",
       "id": 155507694,
-      "timestamp": "2021-09-23T09:07:19Z",
-      "version": 5,
-      "changeset": 111580971,
+      "timestamp": "2021-09-26T07:35:06Z",
+      "version": 6,
+      "changeset": 111709988,
       "user": "Gbgabriel",
       "uid": 10591212,
       "nodes": [1678955847, 536876693],
@@ -16623,6 +16625,7 @@
         {"lat": 45.093634, "lon": 6.8963085},
         {"lat": 45.0937759, "lon": 6.8962218},
         {"lat": 45.0939998, "lon": 6.8960843},
+        {"lat": 45.0941587, "lon": 6.8958492},
         {"lat": 45.0943687, "lon": 6.8955386},
         {"lat": 45.0946875, "lon": 6.8948253},
         {"lat": 45.0948704, "lon": 6.8943647},
@@ -27546,21 +27549,20 @@
     {
       "type": "way",
       "id": 180876710,
-      "timestamp": "2020-08-16T13:15:17Z",
-      "version": 4,
-      "changeset": 89471802,
-      "user": "iPelle",
-      "uid": 2842480,
+      "timestamp": "2021-09-26T05:39:03Z",
+      "version": 5,
+      "changeset": 111707714,
+      "user": "vbertola",
+      "uid": 4347030,
       "nodes": [1814668276, 1814668279],
       "geometry": [
-        {"lat": 44.5398205, "lon": 7.089739},
-        {"lat": 44.5398841, "lon": 7.0897662},
-        {"lat": 44.5398764, "lon": 7.0898317},
+        {"lat": 44.5397956, "lon": 7.0898141},
+        {"lat": 44.5398764, "lon": 7.0898424},
         {"lat": 44.5398846, "lon": 7.0899416},
-        {"lat": 44.5398574, "lon": 7.0900428},
-        {"lat": 44.5398924, "lon": 7.0901341}
+        {"lat": 44.5398641, "lon": 7.0900643},
+        {"lat": 44.5398924, "lon": 7.0902025}
       ],
-      "tags": {"highway": "path", "incline": "up", "surface": "paved"}
+      "tags": {"highway": "footway", "incline": "up", "surface": "paved"}
     },
     {
       "type": "way",
@@ -44539,24 +44541,22 @@
     {
       "type": "way",
       "id": 26815885,
-      "timestamp": "2020-08-16T13:15:17Z",
-      "version": 8,
-      "changeset": 89471802,
-      "user": "iPelle",
-      "uid": 2842480,
-      "nodes": [271620878, 1814668276],
+      "timestamp": "2021-09-26T05:39:03Z",
+      "version": 9,
+      "changeset": 111707714,
+      "user": "vbertola",
+      "uid": 4347030,
+      "nodes": [271620878, 7817276938],
       "geometry": [
         {"lat": 44.5408902, "lon": 7.0892954},
         {"lat": 44.5407042, "lon": 7.0893724},
         {"lat": 44.5405515, "lon": 7.0895617},
         {"lat": 44.5404765, "lon": 7.0896245},
-        {"lat": 44.5403702, "lon": 7.089666},
-        {"lat": 44.5403085, "lon": 7.0896821},
-        {"lat": 44.5400632, "lon": 7.0896661},
-        {"lat": 44.5399424, "lon": 7.0896784},
-        {"lat": 44.5399246, "lon": 7.0896863},
-        {"lat": 44.5398696, "lon": 7.0897107},
-        {"lat": 44.5398205, "lon": 7.089739}
+        {"lat": 44.5404065, "lon": 7.0896512},
+        {"lat": 44.5403075, "lon": 7.0896553},
+        {"lat": 44.5400632, "lon": 7.0896822},
+        {"lat": 44.5399481, "lon": 7.0897173},
+        {"lat": 44.5398467, "lon": 7.0897778}
       ],
       "tags": {"highway": "residential"}
     },
@@ -59553,23 +59553,21 @@
     {
       "type": "way",
       "id": 389384171,
-      "timestamp": "2020-08-16T13:15:17Z",
-      "version": 3,
-      "changeset": 89471802,
-      "user": "iPelle",
-      "uid": 2842480,
-      "nodes": [2018569998, 271620874],
+      "timestamp": "2021-09-26T05:39:03Z",
+      "version": 4,
+      "changeset": 111707714,
+      "user": "vbertola",
+      "uid": 4347030,
+      "nodes": [2018569998, 7817276940],
       "geometry": [
-        {"lat": 44.5398739, "lon": 7.0902451},
-        {"lat": 44.5399135, "lon": 7.0903714},
-        {"lat": 44.5400046, "lon": 7.09059},
-        {"lat": 44.5400721, "lon": 7.0906785},
-        {"lat": 44.5400789, "lon": 7.0906914},
-        {"lat": 44.5401224, "lon": 7.0907727},
-        {"lat": 44.5401482, "lon": 7.0908318},
-        {"lat": 44.5401625, "lon": 7.090876}
+        {"lat": 44.539871, "lon": 7.0903028},
+        {"lat": 44.5398794, "lon": 7.0903445},
+        {"lat": 44.5399087, "lon": 7.0902976},
+        {"lat": 44.5399245, "lon": 7.0903086},
+        {"lat": 44.539974, "lon": 7.0905578},
+        {"lat": 44.5400463, "lon": 7.0907187}
       ],
-      "tags": {"highway": "path"}
+      "tags": {"highway": "footway"}
     },
     {
       "type": "way",
@@ -71470,6 +71468,29 @@
         {"lat": 45.179674, "lon": 7.099072}
       ],
       "tags": {"highway": "track", "surface": "unpaved", "tracktype": "grade3"}
+    },
+    {
+      "type": "way",
+      "id": 530729760,
+      "timestamp": "2021-09-26T05:39:03Z",
+      "version": 3,
+      "changeset": 111707714,
+      "user": "vbertola",
+      "uid": 4347030,
+      "nodes": [7817276938, 294162705],
+      "geometry": [
+        {"lat": 44.5398467, "lon": 7.0897778},
+        {"lat": 44.5397956, "lon": 7.0898141},
+        {"lat": 44.5397137, "lon": 7.089856}
+      ],
+      "tags": {
+        "access": "permit",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "residential",
+        "horse": "yes",
+        "surface": "paved"
+      }
     },
     {
       "type": "way",
@@ -95632,17 +95653,33 @@
     {
       "type": "way",
       "id": 837571139,
-      "timestamp": "2020-08-16T13:15:17Z",
-      "version": 1,
-      "changeset": 89471802,
-      "user": "iPelle",
-      "uid": 2842480,
-      "nodes": [1814668279, 2018569998],
+      "timestamp": "2021-09-26T05:39:03Z",
+      "version": 2,
+      "changeset": 111707714,
+      "user": "vbertola",
+      "uid": 4347030,
+      "nodes": [7817276938, 2018569998],
       "geometry": [
-        {"lat": 44.5398924, "lon": 7.0901341},
-        {"lat": 44.5398739, "lon": 7.0902451}
+        {"lat": 44.5398467, "lon": 7.0897778},
+        {"lat": 44.5399454, "lon": 7.0897946},
+        {"lat": 44.5400573, "lon": 7.0898117},
+        {"lat": 44.5401206, "lon": 7.0898511},
+        {"lat": 44.5401471, "lon": 7.0899142},
+        {"lat": 44.5401659, "lon": 7.0900349},
+        {"lat": 44.5401303, "lon": 7.0900648},
+        {"lat": 44.5400613, "lon": 7.0900909},
+        {"lat": 44.5399799, "lon": 7.0901268},
+        {"lat": 44.5398924, "lon": 7.0902025},
+        {"lat": 44.539871, "lon": 7.0903028}
       ],
-      "tags": {"highway": "unclassified", "surface": "paved"}
+      "tags": {
+        "access": "permit",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "residential",
+        "horse": "yes",
+        "surface": "paved"
+      }
     },
     {
       "type": "way",
@@ -103937,6 +103974,23 @@
         {"lat": 44.826415, "lon": 6.945932}
       ],
       "tags": {"highway": "track", "source": "Bing", "tracktype": "grade3"}
+    },
+    {
+      "type": "way",
+      "id": 987048117,
+      "timestamp": "2021-09-26T05:39:03Z",
+      "version": 1,
+      "changeset": 111707714,
+      "user": "vbertola",
+      "uid": 4347030,
+      "nodes": [7817276940, 271620874],
+      "geometry": [
+        {"lat": 44.5400463, "lon": 7.0907187},
+        {"lat": 44.5401023, "lon": 7.090774},
+        {"lat": 44.5401482, "lon": 7.0908318},
+        {"lat": 44.5401625, "lon": 7.090876}
+      ],
+      "tags": {"highway": "path"}
     }
   ]
 }
