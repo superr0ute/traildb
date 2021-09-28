@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-09-26T23:59:59Z",
-    "timestamp_osm_base": "2021-09-27T05:18:14Z",
+    "timestamp_osm_date": "2021-09-27T23:59:59Z",
+    "timestamp_osm_base": "2021-09-28T05:13:58Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3466,13 +3466,16 @@
       "id": 247141665,
       "lat": 48.4216421,
       "lon": 17.3416782,
-      "timestamp": "2021-06-16T19:26:04Z",
-      "version": 3,
-      "changeset": 106486882,
+      "timestamp": "2021-09-27T14:02:41Z",
+      "version": 4,
+      "changeset": 111770848,
       "user": "sipka",
       "uid": 10913816,
       "tags": {
-        "natural": "spring"
+        "intermittent": "yes",
+        "name": "Smradľavka",
+        "natural": "spring",
+        "refitted": "yes"
       }
     },
     {
@@ -13185,16 +13188,16 @@
       "id": 2892164282,
       "lat": 48.1110594,
       "lon": 17.1046167,
-      "timestamp": "2019-08-18T20:29:29Z",
-      "version": 4,
-      "changeset": 73473070,
+      "timestamp": "2021-09-27T00:35:25Z",
+      "version": 5,
+      "changeset": 111744173,
       "user": "aceman444",
       "uid": 1617449,
       "tags": {
-        "opening_hours": "Mo-Fr 06:30-21:00; Sa 08:00-20:00; Su 08:00-20:00",
         "level": "0",
         "name": "Terno",
         "old_name": "Moja samoška",
+        "opening_hours": "Mo-Fr 06:30-20:00; Sa,Su 08:00-19:00",
         "operator": "TERNO real estate s.r.o.",
         "shop": "supermarket",
         "source": "survey",
@@ -14983,14 +14986,15 @@
       "id": 3681301267,
       "lat": 48.4303881,
       "lon": 17.283314,
-      "timestamp": "2020-08-17T08:17:24Z",
-      "version": 2,
-      "changeset": 89504135,
-      "user": "oref",
-      "uid": 11593526,
+      "timestamp": "2021-09-27T13:40:29Z",
+      "version": 3,
+      "changeset": 111769920,
+      "user": "sipka",
+      "uid": 10913816,
       "tags": {
         "name": "prameň Trampskej osady",
-        "natural": "spring"
+        "natural": "spring",
+        "refitted": "yes"
       }
     },
     {
@@ -20729,15 +20733,16 @@
       "id": 7334888214,
       "lat": 48.4265143,
       "lon": 17.3028346,
-      "timestamp": "2021-07-17T20:46:59Z",
-      "version": 5,
-      "changeset": 108173530,
+      "timestamp": "2021-09-27T13:47:43Z",
+      "version": 6,
+      "changeset": 111770187,
       "user": "sipka",
       "uid": 10913816,
       "tags": {
         "description": "úpravený prameň so strieškou, výdatnosť slabá",
         "name": "Findl",
-        "natural": "spring"
+        "natural": "spring",
+        "refitted": "yes"
       }
     },
     {
@@ -23506,6 +23511,29 @@
     },
     {
       "type": "way",
+      "id": 25546875,
+      "timestamp": "2021-09-27T14:28:25Z",
+      "version": 6,
+      "changeset": 111771906,
+      "user": "znrgl",
+      "uid": 9486229,
+      "center": {
+        "lat": 48.1436099,
+        "lon": 16.8965582
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Au-Terrasse Stopfenreuth",
+        "tourism": "attraction",
+        "wall": "no"
+      }
+    },
+    {
+      "type": "way",
       "id": 25613191,
       "timestamp": "2020-10-16T10:51:02Z",
       "version": 5,
@@ -25928,6 +25956,36 @@
     },
     {
       "type": "way",
+      "id": 126343535,
+      "timestamp": "2021-09-27T00:35:25Z",
+      "version": 11,
+      "changeset": 111744173,
+      "user": "aceman444",
+      "uid": 1617449,
+      "center": {
+        "lat": 48.1109233,
+        "lon": 17.1000685
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Bratislava",
+        "addr:conscriptionnumber": "3319",
+        "addr:country": "SK",
+        "addr:housenumber": "1",
+        "addr:street": "Bratská",
+        "addr:streetnumber": "1",
+        "addr:suburb": "Petržalka",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Fresh corner",
+        "opening_hours": "24/7",
+        "operator": "Slovnaft",
+        "shop": "convenience",
+        "source": "kapor2"
+      }
+    },
+    {
+      "type": "way",
       "id": 126492100,
       "timestamp": "2017-12-15T09:16:58Z",
       "version": 8,
@@ -27091,11 +27149,11 @@
     {
       "type": "way",
       "id": 289860070,
-      "timestamp": "2021-09-20T15:23:05Z",
-      "version": 35,
-      "changeset": 111454636,
-      "user": "Poťo",
-      "uid": 70628,
+      "timestamp": "2021-09-27T11:32:30Z",
+      "version": 36,
+      "changeset": 111763991,
+      "user": "platlas23",
+      "uid": 115468,
       "center": {
         "lat": 48.2780478,
         "lon": 17.5575608
@@ -27305,11 +27363,11 @@
     {
       "type": "way",
       "id": 295066521,
-      "timestamp": "2020-09-17T17:54:05Z",
-      "version": 9,
-      "changeset": 91063113,
-      "user": "oneho",
-      "uid": 197507,
+      "timestamp": "2021-09-27T23:33:07Z",
+      "version": 10,
+      "changeset": 111791968,
+      "user": "platlas23",
+      "uid": 115468,
       "center": {
         "lat": 48.3974658,
         "lon": 17.3582994
