@@ -1,18 +1,18 @@
-### traildb version 2021-09-26
+### traildb version 2021-09-27
 - 108 trails (45 unroutable, 42 routable, 20 broken, 1 complete)
 - 663MiB data (183MiB trails, 332MiB elevation, 114MiB poi, 33MiB dist)
 - trail status: ❌ unroutable ✔️ routable ❌❌ broken ✔️✔️ complete
 
 | status | srId | srName | srColor | updated | poi |
 | --- | --- | --- | --- | --- | --- |
-|❌|[AAT](https://superroute.org/AAT)|Alpe Adria Trail [osm](https://osm.org/relation/3176522) [wiki](https://wikidata.org/wiki/Q15782535)||today||
+|❌|[AAT](https://superroute.org/AAT)|Alpe Adria Trail [osm](https://osm.org/relation/3176522) [wiki](https://wikidata.org/wiki/Q15782535)||2021-09-26||
 |✔️|[ACT](https://superroute.org/ACT)|Arctic Circle Trail [osm](https://osm.org/relation/8350961) [wiki](https://wikidata.org/wiki/Q638049)|![#FF73D7](https://via.placeholder.com/14/FF73D7/000000?text=+) #FF73D7|2021-06-08|28|
 |❌❌|[ADR](https://superroute.org/ADR)|Via Adriatica [osm](https://osm.org/relation/12205135) [wiki](https://wikidata.org/wiki/Q106421315)|![#00CAC7](https://via.placeholder.com/14/00CAC7/000000?text=+) #00CAC7|2021-07-12|686|
 |❌|[ALPB](https://superroute.org/ALPB)|Via Alpina Blue [osm](https://osm.org/relation/2389235) [wiki](https://wikidata.org/wiki/Q106564042)||today||
 |❌❌|[ALPG](https://superroute.org/ALPG)|Via Alpina Green [osm](https://osm.org/relation/12579662) [wiki](https://wikidata.org/wiki/Q106564102)|![#70DD62](https://via.placeholder.com/14/70DD62/000000?text=+) #70DD62|2021-07-26|1241|
 |❌|[ALPP](https://superroute.org/ALPP)|Via Alpina Purple [osm](https://osm.org/relation/271352) [wiki](https://wikidata.org/wiki/Q106564113)||today||
 |❌|[ALPR](https://superroute.org/ALPR)|Via Alpina Red [osm](https://osm.org/relation/1665395) [wiki](https://wikidata.org/wiki/Q106171807)||today||
-|❌|[ALPY](https://superroute.org/ALPY)|Via Alpina Yellow [osm](https://osm.org/relation/2122176) [wiki](https://wikidata.org/wiki/Q106564125)||today||
+|❌|[ALPY](https://superroute.org/ALPY)|Via Alpina Yellow [osm](https://osm.org/relation/2122176) [wiki](https://wikidata.org/wiki/Q106564125)||2021-09-26||
 |❌|[ANA](https://superroute.org/ANA)|Annapurna Circuit [osm](https://osm.org/relation/1187310) [wiki](https://wikidata.org/wiki/Q381683)||2021-09-09||
 |❌❌|[AND](https://superroute.org/AND)|GRP Andorra [osm](https://osm.org/relation/5511920) [wiki](https://wikidata.org/wiki/Q105993387)|![#FFA500](https://via.placeholder.com/14/FFA500/000000?text=+) #FFA500|2021-04-25|265|
 |✔️|[AOS1](https://superroute.org/AOS1)|Alta Via della Valle d'Aosta n. 1 [osm](https://osm.org/relation/1706143) [wiki](https://wikidata.org/wiki/Q3128549)|![#7B7DE2](https://via.placeholder.com/14/7B7DE2/000000?text=+) #7B7DE2|2021-09-20|696|
@@ -21,7 +21,7 @@
 |❌❌|[ARC](https://superroute.org/ARC)|Arctic Trail [osm](https://osm.org/relation/2437984) [wiki](https://wikidata.org/wiki/Q1042834)|![#A7FCFF](https://via.placeholder.com/14/A7FCFF/000000?text=+) #A7FCFF|2021-07-30|131|
 |❌❌|[AT](https://superroute.org/AT)|Appalachian Trail [osm](https://osm.org/relation/156553) [wiki](https://wikidata.org/wiki/Q620648)|![#FFFFFF](https://via.placeholder.com/14/FFFFFF/000000?text=+) #FFFFFF|2021-08-31|2391|
 |❌|[AUS](https://superroute.org/AUS)|Australian Alps Walking Track [osm](https://osm.org/relation/1644959) [wiki](https://wikidata.org/wiki/Q4823802)||2021-08-22||
-|✔️|[AVL](https://superroute.org/AVL)|Alta Via del Lario [osm](https://osm.org/relation/5485205) [wiki](https://wikidata.org/wiki/Q106567870)||today|312|
+|✔️|[AVL](https://superroute.org/AVL)|Alta Via del Lario [osm](https://osm.org/relation/5485205) [wiki](https://wikidata.org/wiki/Q106567870)||2021-09-26|312|
 |✔️|[AZT](https://superroute.org/AZT)|Arizona Trail [osm](https://osm.org/relation/2804113) [wiki](https://wikidata.org/wiki/Q4791456)|![#AA42F5](https://via.placeholder.com/14/AA42F5/000000?text=+) #AA42F5|2021-08-25|501|
 |❌❌|[BAE](https://superroute.org/BAE)|Baekdudaegan Trail [osm](https://osm.org/relation/9439787) [wiki](https://wikidata.org/wiki/Q106099307)|![#CD2E3A](https://via.placeholder.com/14/CD2E3A/000000?text=+) #CD2E3A|2021-05-21|926|
 |❌|[CDT](https://superroute.org/CDT)|Continental Divide Trail [osm](https://osm.org/relation/921198) [wiki](https://wikidata.org/wiki/Q492875)|![#3C3B6E](https://via.placeholder.com/14/3C3B6E/000000?text=+) #3C3B6E|today||
@@ -35,7 +35,7 @@
 |❌|[E4CR](https://superroute.org/E4CR)|E4 Crete [osm](https://osm.org/relation/1920350) [wiki](https://wikidata.org/wiki/Q106595475)||2021-09-15||
 |❌|[E4CY](https://superroute.org/E4CY)|E4 Cyprus [osm](https://osm.org/relation/2376091) [wiki](https://wikidata.org/wiki/Q106595547)||2021-09-24||
 |❌|[E8B](https://superroute.org/E8B)|E8 Bulgaria [osm](https://osm.org/relation/8541760) [wiki](https://wikidata.org/wiki/Q106564794)||2021-09-12||
-|✔️|[E8P](https://superroute.org/E8P)|E8 Poland [osm](https://osm.org/relation/3084125) [wiki](https://wikidata.org/wiki/Q106129171)||2021-09-10|346|
+|✔️|[E8P](https://superroute.org/E8P)|E8 Poland [osm](https://osm.org/relation/3084125) [wiki](https://wikidata.org/wiki/Q106129171)||today|346|
 |❌❌|[E8R](https://superroute.org/E8R)|E8 Romania [osm](https://osm.org/relation/9933591) [wiki](https://wikidata.org/wiki/Q106564761)|![#CE1126](https://via.placeholder.com/14/CE1126/000000?text=+) #CE1126|2021-09-22|1294|
 |✔️|[EBC](https://superroute.org/EBC)|Everest Base Camp Trek [osm](https://osm.org/relation/1189003) [wiki](https://wikidata.org/wiki/Q1950455)|![#FFA2E5](https://via.placeholder.com/14/FFA2E5/000000?text=+) #FFA2E5|2021-09-21|61|
 |✔️|[FRC](https://superroute.org/FRC)|Fish River Canyon Traverse [osm](https://osm.org/relation/9517875) [wiki](https://wikidata.org/wiki/Q106100491)|![#2F2399](https://via.placeholder.com/14/2F2399/000000?text=+) #2F2399|2021-08-17|4|
@@ -47,12 +47,12 @@
 |❌|[GR15](https://superroute.org/GR15)|GR 15 Aragon [osm](https://osm.org/relation/2916867) [wiki](https://wikidata.org/wiki/Q13049100)||2021-09-12||
 |✔️|[GR20](https://superroute.org/GR20)|GR 20 [osm](https://osm.org/relation/101692) [wiki](https://wikidata.org/wiki/Q262374)|![#FFF281](https://via.placeholder.com/14/FFF281/000000?text=+) #FFF281|2021-09-13|275|
 |❌|[GR221](https://superroute.org/GR221)|GR 221 Ruta de Piedra en Sec [osm](https://osm.org/relation/383060) [wiki](https://wikidata.org/wiki/Q1551534)||2021-09-20||
-|✔️|[GR223](https://superroute.org/GR223)|GR 223 Camí de Cavalls [osm](https://osm.org/relation/1501400) [wiki](https://wikidata.org/wiki/Q1031801)|![#FBE705](https://via.placeholder.com/14/FBE705/000000?text=+) #FBE705|today|160|
+|✔️|[GR223](https://superroute.org/GR223)|GR 223 Camí de Cavalls [osm](https://osm.org/relation/1501400) [wiki](https://wikidata.org/wiki/Q1031801)|![#FBE705](https://via.placeholder.com/14/FBE705/000000?text=+) #FBE705|2021-09-26|160|
 |❌❌|[GR30](https://superroute.org/GR30)|GR 30 [osm](https://osm.org/relation/10699408) [wiki](https://wikidata.org/wiki/Q3478706)||2021-09-09|24|
 |❌|[GR34](https://superroute.org/GR34)|GR 34 - Chemin des Douaniers [osm](https://osm.org/relation/7790332) [wiki](https://wikidata.org/wiki/Q3478712)||today||
-|✔️|[GR50](https://superroute.org/GR50)|GR50 - Tour du Parc National des Écrins [osm](https://osm.org/relation/11097196) [wiki](https://wikidata.org/wiki/Q3478730)||today|696|
+|✔️|[GR50](https://superroute.org/GR50)|GR50 - Tour du Parc National des Écrins [osm](https://osm.org/relation/11097196) [wiki](https://wikidata.org/wiki/Q3478730)||2021-09-26|696|
 |❌❌|[GR54](https://superroute.org/GR54)|GR 54 [osm](https://osm.org/relation/2909096) [wiki](https://wikidata.org/wiki/Q16009876)|![#E336A9](https://via.placeholder.com/14/E336A9/000000?text=+) #E336A9|2021-08-13|303|
-|✔️|[GR5A](https://superroute.org/GR5A)|GR5 - Alpes Côte d'Azur [osm](https://osm.org/relation/2704286) [wiki](https://wikidata.org/wiki/Q106566889)|![#9E36E3](https://via.placeholder.com/14/9E36E3/000000?text=+) #9E36E3|today|1619|
+|✔️|[GR5A](https://superroute.org/GR5A)|GR5 - Alpes Côte d'Azur [osm](https://osm.org/relation/2704286) [wiki](https://wikidata.org/wiki/Q106566889)|![#9E36E3](https://via.placeholder.com/14/9E36E3/000000?text=+) #9E36E3|2021-09-26|1619|
 |✔️|[GR91](https://superroute.org/GR91)|GR 91 [osm](https://osm.org/relation/9920921) [wiki](https://wikidata.org/wiki/Q107745584)||2021-09-01|524|
 |✔️|[GR93](https://superroute.org/GR93)|GR 93 - Traversée du Vercors Ouest-Est [osm](https://osm.org/relation/2785107) [wiki](https://wikidata.org/wiki/Q107554011)||2021-08-11|368|
 |❌|[GTA](https://superroute.org/GTA)|Grande Traversata delle Alpi [osm](https://osm.org/relation/3159979) [wiki](https://wikidata.org/wiki/Q942020)||today||
@@ -64,11 +64,11 @@
 |✔️|[ICLP1](https://superroute.org/ICLP1)|GR-130 La Palma Costa [osm](https://osm.org/relation/1361083) [wiki](https://wikidata.org/wiki/Q63453861)|![#0768A9](https://via.placeholder.com/14/0768A9/000000?text=+) #0768A9|today|272|
 |✔️|[ICLP2](https://superroute.org/ICLP2)|GR 131 La Palma Ruta Alta [osm](https://osm.org/relation/49155) [wiki](https://wikidata.org/wiki/Q106697756)|![#FFCC00](https://via.placeholder.com/14/FFCC00/000000?text=+) #FFCC00|2021-08-07|168|
 |✔️|[ICLZ](https://superroute.org/ICLZ)|GR 131 Lanzarote [osm](https://osm.org/relation/6171552) [wiki](https://wikidata.org/wiki/Q106697770)|![#FFCC00](https://via.placeholder.com/14/FFCC00/000000?text=+) #FFCC00|2021-08-12|143|
-|✔️|[ICTF](https://superroute.org/ICTF)|GR 131 Tenerife [osm](https://osm.org/relation/1122328) [wiki](https://wikidata.org/wiki/Q106697794)|![#FFCC00](https://via.placeholder.com/14/FFCC00/000000?text=+) #FFCC00|2021-08-31|458|
+|✔️|[ICTF](https://superroute.org/ICTF)|GR 131 Tenerife [osm](https://osm.org/relation/1122328) [wiki](https://wikidata.org/wiki/Q106697794)|![#FFCC00](https://via.placeholder.com/14/FFCC00/000000?text=+) #FFCC00|today|458|
 |❌❌|[INT](https://superroute.org/INT)|Israel National Trail [osm](https://osm.org/relation/282071) [wiki](https://wikidata.org/wiki/Q583897)|![#0035B9](https://via.placeholder.com/14/0035B9/000000?text=+) #0035B9|2021-09-18|3307|
 |❌|[J2D](https://superroute.org/J2D)|Jomsom to Dolpo Trek [osm](https://osm.org/relation/11107384) [wiki](https://wikidata.org/wiki/Q106773605)||2021-05-21||
 |✔️|[JHT](https://superroute.org/JHT)|Jugal Himal Trek [osm](https://osm.org/relation/12658318) [wiki](https://wikidata.org/wiki/Q106773664)|![#85FF81](https://via.placeholder.com/14/85FF81/000000?text=+) #85FF81|2021-05-28|6|
-|❌|[JKT](https://superroute.org/JKT)|Julius Kugy Alpine Trail [osm](https://osm.org/relation/10909145) [wiki](https://wikidata.org/wiki/Q106099233)||today||
+|❌|[JKT](https://superroute.org/JKT)|Julius Kugy Alpine Trail [osm](https://osm.org/relation/10909145) [wiki](https://wikidata.org/wiki/Q106099233)||2021-09-26||
 |✔️|[JMT](https://superroute.org/JMT)|John Muir Trail [osm](https://osm.org/relation/1244828) [wiki](https://wikidata.org/wiki/Q967917)|![#22B472](https://via.placeholder.com/14/22B472/000000?text=+) #22B472|2021-09-01|302|
 |❌|[JT](https://superroute.org/JT)|Janapar Trail [osm](https://osm.org/relation/3668100) [wiki](https://wikidata.org/wiki/Q3072719)||2021-09-17||
 |❌|[KBC](https://superroute.org/KBC)|Kanchendjunga Base Camp Trek [osm](https://osm.org/relation/11070375) [wiki](https://wikidata.org/wiki/Q106595294)||2021-04-25||
@@ -91,14 +91,14 @@
 |✔️|[SIC](https://superroute.org/SIC)|Sentiero Italia - Calabria [osm](https://osm.org/relation/7125614) [wiki](https://wikidata.org/wiki/Q106567747)|![#008C45](https://via.placeholder.com/14/008C45/000000?text=+) #008C45|2021-09-22|425|
 |❌|[SIL](https://superroute.org/SIL)|Sentiero Italia - Lombardia [osm](https://osm.org/relation/7029512) [wiki](https://wikidata.org/wiki/Q106567865)|![#008C45](https://via.placeholder.com/14/008C45/000000?text=+) #008C45|today||
 |❌|[SIP](https://superroute.org/SIP)|Sentiero Italia - Piemonte [osm](https://osm.org/relation/7029511) [wiki](https://wikidata.org/wiki/Q106567766)|![#008C45](https://via.placeholder.com/14/008C45/000000?text=+) #008C45|today||
-|✔️|[SIS](https://superroute.org/SIS)|Sentiero Italia - Sicilia [osm](https://osm.org/relation/7011950) [wiki](https://wikidata.org/wiki/Q106567599)|![#008C45](https://via.placeholder.com/14/008C45/000000?text=+) #008C45|2021-09-16|602|
+|✔️|[SIS](https://superroute.org/SIS)|Sentiero Italia - Sicilia [osm](https://osm.org/relation/7011950) [wiki](https://wikidata.org/wiki/Q106567599)|![#008C45](https://via.placeholder.com/14/008C45/000000?text=+) #008C45|today|602|
 |❌❌|[SNP](https://superroute.org/SNP)|Cesta hrdinov SNP [osm](https://osm.org/relation/7700604) [wiki](https://wikidata.org/wiki/Q3512223)|![#11457E](https://via.placeholder.com/14/11457E/000000?text=+) #11457E|2021-07-19|4121|
-|❌|[SSA](https://superroute.org/SSA)|Sentiero di Spartiacque Appenninico [osm](https://osm.org/relation/136334) [wiki](https://wikidata.org/wiki/Q106099636)||2021-09-23||
+|❌|[SSA](https://superroute.org/SSA)|Sentiero di Spartiacque Appenninico [osm](https://osm.org/relation/136334) [wiki](https://wikidata.org/wiki/Q106099636)||today||
 |❌|[SZL](https://superroute.org/SZL)|Sarchu Zanskar Lamayuru [osm](https://osm.org/relation/11229978) [wiki](https://wikidata.org/wiki/Q106774333)||2021-07-28||
-|❌|[TAN](https://superroute.org/TAN)|Te Araroa North [osm](https://osm.org/relation/8518624) [wiki](https://wikidata.org/wiki/Q106564271)||2021-09-25||
+|❌|[TAN](https://superroute.org/TAN)|Te Araroa North [osm](https://osm.org/relation/8518624) [wiki](https://wikidata.org/wiki/Q106564271)||today||
 |❌❌|[TAS](https://superroute.org/TAS)|Te Araroa South [osm](https://osm.org/relation/8518626) [wiki](https://wikidata.org/wiki/Q106541620)|![#4177FF](https://via.placeholder.com/14/4177FF/000000?text=+) #4177FF|2021-08-21|392|
 |✔️|[TCRT](https://superroute.org/TCRT)|Тranscarpathian Trail [osm](https://osm.org/relation/2970399) [wiki](https://wikidata.org/wiki/Q30915066)|![#FFD500](https://via.placeholder.com/14/FFD500/000000?text=+) #FFD500|2021-09-21|1428|
-|❌|[TCT](https://superroute.org/TCT)|Transcaucasian Trail [osm](https://osm.org/relation/8928052) [wiki](https://wikidata.org/wiki/Q55636112)||2021-08-28||
+|❌|[TCT](https://superroute.org/TCT)|Transcaucasian Trail [osm](https://osm.org/relation/8928052) [wiki](https://wikidata.org/wiki/Q55636112)||today||
 |✔️|[TMB](https://superroute.org/TMB)|Tour du Mont Blanc [osm](https://osm.org/relation/124456) [wiki](https://wikidata.org/wiki/Q24777)|![#05F6FA](https://via.placeholder.com/14/05F6FA/000000?text=+) #05F6FA|2021-09-24|478|
 |❌|[TMR](https://superroute.org/TMR)|Tour de Monte Rosa [osm](https://osm.org/relation/10353523) [wiki](https://wikidata.org/wiki/Q3533768)||2021-09-25||
 |✔️|[TPO](https://superroute.org/TPO)|Torres del Paine O Circuit [osm](https://osm.org/relation/7705906) [wiki](https://wikidata.org/wiki/Q106577166)||2021-07-03|13|
@@ -109,9 +109,9 @@
 |❌|[UD](https://superroute.org/UD)|Upper Dolpo Circuit [osm](https://osm.org/relation/11104197) [wiki](https://wikidata.org/wiki/Q106773619)||2021-05-28||
 |✔️|[VAC](https://superroute.org/VAC)|Vuelta al Cocuy [osm](https://osm.org/relation/1297764) [wiki](https://wikidata.org/wiki/Q106577178)|![#CE1126](https://via.placeholder.com/14/CE1126/000000?text=+) #CE1126|2021-09-03|31|
 |✔️|[VAH](https://superroute.org/VAH)|Vuelta al Hielo [osm](https://osm.org/relation/2294544) [wiki](https://wikidata.org/wiki/Q106577168)|![#872399](https://via.placeholder.com/14/872399/000000?text=+) #872399|2021-05-14|56|
-|❌|[VIT](https://superroute.org/VIT)|Vancouver Island Trail [osm](https://osm.org/relation/12038457) [wiki](https://wikidata.org/wiki/Q7914213)||2021-09-20||
+|❌|[VIT](https://superroute.org/VIT)|Vancouver Island Trail [osm](https://osm.org/relation/12038457) [wiki](https://wikidata.org/wiki/Q7914213)||today||
 |✔️|[WCT](https://superroute.org/WCT)|West Coast Trail [osm](https://osm.org/relation/6955341) [wiki](https://wikidata.org/wiki/Q3434548)|![#7499C7](https://via.placeholder.com/14/7499C7/000000?text=+) #7499C7|2021-04-25|20|
-|❌|[WES](https://superroute.org/WES)|Westweg [osm](https://osm.org/relation/62900) [wiki](https://wikidata.org/wiki/Q2565728)||today||
+|❌|[WES](https://superroute.org/WES)|Westweg [osm](https://osm.org/relation/62900) [wiki](https://wikidata.org/wiki/Q2565728)||2021-09-26||
 |✔️|[WON](https://superroute.org/WON)|Wonderland Trail [osm](https://osm.org/relation/4111743) [wiki](https://wikidata.org/wiki/Q3498361)|![#7968FF](https://via.placeholder.com/14/7968FF/000000?text=+) #7968FF|2021-08-23|51|
 
 ### poidb version 2021-09-26
