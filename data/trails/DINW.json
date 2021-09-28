@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-26T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-27T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1771,9 +1771,9 @@
     {
       "type": "relation",
       "id": 7394090,
-      "timestamp": "2021-08-28T06:55:03Z",
-      "version": 7,
-      "changeset": 110367978,
+      "timestamp": "2021-09-27T20:25:02Z",
+      "version": 8,
+      "changeset": 111787429,
       "user": "phlustik",
       "uid": 842813,
       "members": [
@@ -1808,7 +1808,7 @@
         "name": "Donje Bare preko Suhe i Prijevora do Trnovačkog jezera",
         "network": "lwn",
         "operator": "Via Dinarica",
-        "osmc:symbol": "red:white:red_dot",
+        "osmc:symbol": "red:white_round:red_dot",
         "ref": "BH-W-12",
         "route": "hiking",
         "type": "route",
@@ -1818,9 +1818,9 @@
     {
       "type": "relation",
       "id": 7394228,
-      "timestamp": "2021-08-28T09:58:37Z",
-      "version": 10,
-      "changeset": 110373609,
+      "timestamp": "2021-09-27T20:25:02Z",
+      "version": 11,
+      "changeset": 111787429,
       "user": "phlustik",
       "uid": 842813,
       "members": [
@@ -1850,7 +1850,7 @@
         "name": "Maglić do Pivske planine preko kanjona Pive",
         "network": "lwn",
         "operator": "Via Dinarica",
-        "osmc:symbol": "red:white:red_dot",
+        "osmc:symbol": "red:white_round:red_dot",
         "ref": "BH/CG-W-01",
         "route": "hiking",
         "type": "route",
@@ -20365,11 +20365,11 @@
     {
       "type": "way",
       "id": 262203006,
-      "timestamp": "2016-08-18T15:23:09Z",
-      "version": 4,
-      "changeset": 41536275,
-      "user": "jhabijan",
-      "uid": 157870,
+      "timestamp": "2021-09-27T09:46:57Z",
+      "version": 5,
+      "changeset": 111759238,
+      "user": "debeli75",
+      "uid": 730886,
       "nodes": [2678623579, 2678623556],
       "geometry": [
         {"lat": 44.2739412, "lon": 15.8262938},
@@ -20386,7 +20386,12 @@
         {"lat": 44.2707378, "lon": 15.8223484},
         {"lat": 44.2703228, "lon": 15.8219813}
       ],
-      "tags": {"highway": "track", "tracktype": "grade2"}
+      "tags": {
+        "highway": "track",
+        "smoothness": "very_bad",
+        "surface": "unpaved",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
