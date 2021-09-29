@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-26T02:32:07Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-29T02:26:57Z"},
   "elements": [
     {
       "type": "relation",
       "id": 391736,
-      "timestamp": "2021-08-28T21:29:28Z",
-      "version": 144,
-      "changeset": 110394691,
-      "user": "BobTheBlob",
-      "uid": 10577056,
+      "timestamp": "2021-09-28T03:47:57Z",
+      "version": 145,
+      "changeset": 111795276,
+      "user": "JriSv250",
+      "uid": 11571754,
       "members": [
         {"type": "way", "ref": 48775456, "role": ""},
         {"type": "way", "ref": 19672747, "role": ""},
@@ -34,6 +34,7 @@
         {"type": "way", "ref": 972418501, "role": ""},
         {"type": "way", "ref": 972418316, "role": ""},
         {"type": "way", "ref": 972418315, "role": ""},
+        {"type": "way", "ref": 987576410, "role": ""},
         {"type": "way", "ref": 852183702, "role": ""},
         {"type": "way", "ref": 852183701, "role": ""},
         {"type": "way", "ref": 585617053, "role": ""},
@@ -17649,12 +17650,12 @@
     {
       "type": "way",
       "id": 852183702,
-      "timestamp": "2020-09-27T21:24:55Z",
-      "version": 1,
-      "changeset": 91598205,
-      "user": "dhimmel",
-      "uid": 9376583,
-      "nodes": [205360021, 205360029],
+      "timestamp": "2021-09-28T03:47:57Z",
+      "version": 2,
+      "changeset": 111795276,
+      "user": "JriSv250",
+      "uid": 11571754,
+      "nodes": [205360021, 7948995906],
       "geometry": [
         {"lat": 43.557217, "lon": -72.8551287, "z": 534.8},
         {"lat": 43.557121, "lon": -72.85478, "z": 532.6},
@@ -17669,9 +17670,8 @@
         {"lat": 43.557224, "lon": -72.852985, "z": 528.5},
         {"lat": 43.557231, "lon": -72.852929, "z": 528.7},
         {"lat": 43.557237, "lon": -72.852852, "z": 529},
-        {"lat": 43.557237, "lon": -72.852779, "z": 529.4},
-        {"lat": 43.5572279, "lon": -72.8527003, "z": 530.4},
-        {"lat": 43.557221, "lon": -72.85264, "z": 531.6}
+        {"lat": 43.5572351, "lon": -72.8527958, "z": 529.3},
+        {"lat": 43.5572332, "lon": -72.8527694, "z": 529.5}
       ],
       "tags": {"highway": "service", "name": "Township Road 13"}
     },
@@ -19779,9 +19779,9 @@
     {
       "type": "way",
       "id": 968518053,
-      "timestamp": "2021-07-29T15:13:46Z",
-      "version": 1,
-      "changeset": 108833865,
+      "timestamp": "2021-09-28T13:22:37Z",
+      "version": 2,
+      "changeset": 111819364,
       "user": "A Hall",
       "uid": 936117,
       "nodes": [204705857, 204705859],
@@ -19791,8 +19791,11 @@
         {"lat": 44.6449374, "lon": -72.7283826, "z": 162.1}
       ],
       "tags": {
+        "alt_name": "VT Route 15 West",
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "primary",
-        "name": "VT Route 15 West",
+        "noname": "yes",
         "ref": "VT 15",
         "source": "tiger_import_dch_v0.6_20070830",
         "surface": "asphalt",
@@ -20391,6 +20394,25 @@
         "operator": "Green Mountain Club",
         "source": "knowledge, Yahoo",
         "surface": "dirt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 987576410,
+      "timestamp": "2021-09-28T03:47:57Z",
+      "version": 1,
+      "changeset": 111795276,
+      "user": "JriSv250",
+      "uid": 11571754,
+      "nodes": [7948995906, 205360029],
+      "geometry": [
+        {"lat": 43.5572332, "lon": -72.8527694, "z": 529.5},
+        {"lat": 43.557221, "lon": -72.85264, "z": 531.6}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "service",
+        "name": "Township Road 13"
       }
     }
   ]

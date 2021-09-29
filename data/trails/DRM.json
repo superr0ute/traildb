@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-27T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-28T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -36395,9 +36395,9 @@
     {
       "type": "way",
       "id": 439112763,
-      "timestamp": "2021-09-27T16:46:48Z",
-      "version": 5,
-      "changeset": 111777829,
+      "timestamp": "2021-09-28T10:04:41Z",
+      "version": 6,
+      "changeset": 111810128,
       "user": "PASTA777",
       "uid": 1997309,
       "nodes": [4367464078, 1830588717],
@@ -36411,6 +36411,7 @@
         {"lat": 45.4516811, "lon": 12.4696555},
         {"lat": 45.4515798, "lon": 12.4694232},
         {"lat": 45.4513192, "lon": 12.468777},
+        {"lat": 45.4512624, "lon": 12.4686363},
         {"lat": 45.4509895, "lon": 12.4679599},
         {"lat": 45.4507811, "lon": 12.467422},
         {"lat": 45.4508144, "lon": 12.4672932},
@@ -41375,7 +41376,7 @@
       "timestamp": "2021-05-28T07:15:50Z",
       "version": 5,
       "changeset": 105469913,
-      "user": "wernssen",
+      "user": "Webel",
       "uid": 486487,
       "nodes": [677897327, 295161139],
       "geometry": [
@@ -44940,11 +44941,11 @@
     {
       "type": "way",
       "id": 69750435,
-      "timestamp": "2020-06-17T05:12:15Z",
-      "version": 3,
-      "changeset": 86750759,
-      "user": "beautifulplaces",
-      "uid": 7581226,
+      "timestamp": "2021-09-28T15:30:26Z",
+      "version": 4,
+      "changeset": 111824796,
+      "user": "CBoogie",
+      "uid": 9374225,
       "nodes": [553342728, 553342742],
       "geometry": [
         {"lat": 47.3019904, "lon": 11.588817},
@@ -44952,22 +44953,36 @@
         {"lat": 47.3022208, "lon": 11.5888389},
         {"lat": 47.3023097, "lon": 11.5888455}
       ],
-      "tags": {"highway": "footway", "layer": "-1", "tunnel": "yes"}
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "surface": "concrete",
+        "tunnel": "yes"
+      }
     },
     {
       "type": "way",
       "id": 69750437,
-      "timestamp": "2017-11-07T20:31:34Z",
-      "version": 2,
-      "changeset": 53592951,
-      "user": "Linie29",
-      "uid": 1864709,
+      "timestamp": "2021-09-28T15:30:56Z",
+      "version": 6,
+      "changeset": 111824796,
+      "user": "CBoogie",
+      "uid": 9374225,
       "nodes": [553342742, 553342759],
       "geometry": [
         {"lat": 47.3023097, "lon": 11.5888455},
         {"lat": 47.3023166, "lon": 11.5886767}
       ],
-      "tags": {"covered": "yes", "foot": "yes", "highway": "steps"}
+      "tags": {
+        "covered": "yes",
+        "foot": "yes",
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "ramp": "yes",
+        "ramp:stroller": "yes",
+        "surface": "concrete"
+      }
     },
     {
       "type": "way",
@@ -46646,11 +46661,11 @@
     {
       "type": "way",
       "id": 771970785,
-      "timestamp": "2020-02-12T19:31:03Z",
-      "version": 1,
-      "changeset": 80921049,
-      "user": "jeka p",
-      "uid": 2385757,
+      "timestamp": "2021-09-28T15:34:53Z",
+      "version": 2,
+      "changeset": 111824269,
+      "user": "CBoogie",
+      "uid": 9374225,
       "nodes": [694098321, 7206763758],
       "geometry": [
         {"lat": 47.2987732, "lon": 11.5881453},
@@ -46664,7 +46679,8 @@
         "maxspeed": "40",
         "name": "Swarovskistraße",
         "oneway": "yes",
-        "source": "Basemap Imagery 2020"
+        "source": "Basemap Imagery 2020",
+        "surface": "asphalt"
       }
     },
     {
