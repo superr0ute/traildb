@@ -2132,16 +2132,17 @@
         "@poi": "peak_peak",
         "@distance": 52.4,
         "@id": "n26864229",
-        "@changeset": 90633959,
-        "@timestamp": "2020-09-09T09:18:02Z",
-        "@version": 16,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 111887720,
+        "@timestamp": "2021-09-29T21:09:31Z",
+        "@version": 17,
+        "@uid": 11250200,
+        "@user": "Hades34",
         "alt_name": "Mont Carlit",
         "ele": 2921,
         "name": "Pic Carlit",
         "natural": "peak",
         "prominence": "1001",
+        "summit:cross": "yes",
         "wikidata": "Q2476121",
         "wikipedia": "ca:Carlit"
       },
@@ -23616,19 +23617,20 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
+        "@poi": "shelter_wilderness-hut",
         "@distance": 1997.1,
         "@id": "w219230193",
-        "@changeset": 15895399,
-        "@timestamp": "2013-04-28T12:54:43Z",
-        "@version": 1,
-        "@uid": 227306,
-        "@user": "caminaspe",
-        "amenity": "shelter",
+        "@changeset": 111877477,
+        "@timestamp": "2021-09-29T17:03:40Z",
+        "@version": 2,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "building": "yes",
         "fireplace": "yes",
         "name": "Cabane de Camplong",
-        "source": "Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013"
+        "source": "Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
+        "tourism": "wilderness_hut",
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=1308"
       },
       "geometry": {
         "type": "Point",
@@ -35011,6 +35013,28 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_convenience",
+        "@distance": 7656.7,
+        "@id": "n5018636818",
+        "@changeset": 111863157,
+        "@timestamp": "2021-09-29T11:58:00Z",
+        "@version": 2,
+        "@uid": 128938,
+        "@user": "Patchanka",
+        "name": "Le Comptoir du Pêcheur",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6636665,
+          43.3866135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
         "@distance": 3393.6,
         "@id": "n5026296867",
         "@changeset": 50999205,
@@ -38641,27 +38665,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_spring",
-        "@distance": 5,
-        "@id": "n6594749050",
-        "@changeset": 71985714,
-        "@timestamp": "2019-07-07T15:59:45Z",
-        "@version": 1,
-        "@uid": 6296343,
-        "@user": "BaboucheVerte",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.5026367,
-          43.117805
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 884.2,
         "@id": "w208907199",
@@ -41414,6 +41417,27 @@
         "coordinates": [
           2.460447,
           42.5116413
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 5,
+        "@id": "n6594749050",
+        "@changeset": 71985714,
+        "@timestamp": "2019-07-07T15:59:45Z",
+        "@version": 1,
+        "@uid": 6296343,
+        "@user": "BaboucheVerte",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5026367,
+          43.117805
         ]
       }
     },

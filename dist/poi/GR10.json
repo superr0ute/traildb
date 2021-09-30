@@ -2745,16 +2745,17 @@
         "@poi": "peak_peak",
         "@distance": 3279.5,
         "@id": "n26864229",
-        "@changeset": 90633959,
-        "@timestamp": "2020-09-09T09:18:02Z",
-        "@version": 16,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 111887720,
+        "@timestamp": "2021-09-29T21:09:31Z",
+        "@version": 17,
+        "@uid": 11250200,
+        "@user": "Hades34",
         "alt_name": "Mont Carlit",
         "ele": 2921,
         "name": "Pic Carlit",
         "natural": "peak",
         "prominence": "1001",
+        "summit:cross": "yes",
         "wikidata": "Q2476121",
         "wikipedia": "ca:Carlit"
       },
@@ -24880,19 +24881,20 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
+        "@poi": "shelter_wilderness-hut",
         "@distance": 448.1,
         "@id": "w219230193",
-        "@changeset": 15895399,
-        "@timestamp": "2013-04-28T12:54:43Z",
-        "@version": 1,
-        "@uid": 227306,
-        "@user": "caminaspe",
-        "amenity": "shelter",
+        "@changeset": 111877477,
+        "@timestamp": "2021-09-29T17:03:40Z",
+        "@version": 2,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "building": "yes",
         "fireplace": "yes",
         "name": "Cabane de Camplong",
-        "source": "Bing ; cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013"
+        "source": "Bing;cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
+        "tourism": "wilderness_hut",
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=1308"
       },
       "geometry": {
         "type": "Point",
@@ -35002,6 +35004,28 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_convenience",
+        "@distance": 6052.1,
+        "@id": "n5018636818",
+        "@changeset": 111863157,
+        "@timestamp": "2021-09-29T11:58:00Z",
+        "@version": 2,
+        "@uid": 128938,
+        "@user": "Patchanka",
+        "name": "Le Comptoir du Pêcheur",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6636665,
+          43.3866135
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
         "@distance": 3393.6,
         "@id": "n5026296867",
         "@changeset": 50999205,
@@ -41300,31 +41324,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2175,
-        "@id": "w315870396",
-        "@changeset": 58272109,
-        "@timestamp": "2018-04-20T18:24:17Z",
-        "@version": 3,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
-        "building": "yes",
-        "name": "Cabane Lou Boucaou",
-        "shelter_type": "basic_hut",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.3965283,
-          42.9314782
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "alpine-hut",
         "@distance": 1187.7,
         "@id": "w186446693",
@@ -44052,6 +44051,31 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
+        "@distance": 2175,
+        "@id": "w315870396",
+        "@changeset": 58272109,
+        "@timestamp": "2018-04-20T18:24:17Z",
+        "@version": 3,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "Cabane Lou Boucaou",
+        "shelter_type": "basic_hut",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3965283,
+          42.9314782
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
         "@distance": 2404.2,
         "@id": "w332248266",
         "@changeset": 58272109,
@@ -44751,35 +44775,6 @@
         "coordinates": [
           -0.4692059,
           42.8404419
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 18.3,
-        "@id": "w847472702",
-        "@changeset": 90915162,
-        "@timestamp": "2020-09-15T09:43:45Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "building": "yes",
-        "capacity": 2,
-        "description": "2018-05 : Très belle cabane bien aménagé. Il y a une source et un ruisseau non loin. - 2 place sur matelas sur le planché à l'étage avec accès par échelle. - Un poêle à bois fonctionnel - Une table et un banc",
-        "ele": 1560,
-        "fireplace": "no",
-        "name": "Cabane de la Baigt de Saint-Cours",
-        "stove": "yes",
-        "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/6254/cabane-non-gardee/Bearn/Cabane-de-la-Baigt-de-Saint-Cours/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.5075253,
-          42.8782444
         ]
       }
     },
@@ -48280,6 +48275,35 @@
         "coordinates": [
           -1.7691562,
           43.3361119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 18.3,
+        "@id": "w847472702",
+        "@changeset": 90915162,
+        "@timestamp": "2020-09-15T09:43:45Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "building": "yes",
+        "capacity": 2,
+        "description": "2018-05 : Très belle cabane bien aménagé. Il y a une source et un ruisseau non loin. - 2 place sur matelas sur le planché à l'étage avec accès par échelle. - Un poêle à bois fonctionnel - Une table et un banc",
+        "ele": 1560,
+        "fireplace": "no",
+        "name": "Cabane de la Baigt de Saint-Cours",
+        "stove": "yes",
+        "tourism": "wilderness_hut",
+        "website": "https://www.refuges.info/point/6254/cabane-non-gardee/Bearn/Cabane-de-la-Baigt-de-Saint-Cours/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5075253,
+          42.8782444
         ]
       }
     },
