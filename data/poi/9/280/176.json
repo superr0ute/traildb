@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-09-29T23:59:59Z",
-    "timestamp_osm_base": "2021-09-30T05:25:02Z",
+    "timestamp_osm_date": "2021-09-30T23:59:59Z",
+    "timestamp_osm_base": "2021-10-01T05:17:27Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -168,11 +168,11 @@
       "id": 26036033,
       "lat": 48.7219541,
       "lon": 17.3027341,
-      "timestamp": "2020-03-14T11:41:32Z",
-      "version": 8,
-      "changeset": 82191403,
-      "user": "segi",
-      "uid": 981568,
+      "timestamp": "2021-09-30T11:47:17Z",
+      "version": 9,
+      "changeset": 111913353,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
         "city_id": "504831",
         "ele": "242",
@@ -185,6 +185,8 @@
         "postal_code": "906 03",
         "region_id": "205",
         "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "http://www.obec-smrdaky.sk/",
+        "wikidata": "Q279463",
         "wikipedia": "sk:Smrdáky"
       }
     },
@@ -243,13 +245,13 @@
     {
       "type": "node",
       "id": 26036089,
-      "lat": 48.4830062,
-      "lon": 17.5508678,
-      "timestamp": "2020-06-01T21:04:19Z",
-      "version": 9,
-      "changeset": 86063609,
-      "user": "synalik",
-      "uid": 463033,
+      "lat": 48.4828189,
+      "lon": 17.5514025,
+      "timestamp": "2021-09-30T09:14:45Z",
+      "version": 10,
+      "changeset": 111906177,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
         "city_id": "506923",
         "ele": "191",
@@ -262,6 +264,7 @@
         "postal_code": "919 65",
         "region_id": "207",
         "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.dolnakrupa.sk/",
         "wikidata": "Q664969",
         "wikipedia": "sk:Dolná Krupá"
       }
@@ -2077,13 +2080,13 @@
     {
       "type": "node",
       "id": 255125011,
-      "lat": 48.5093917,
-      "lon": 17.3048653,
-      "timestamp": "2020-05-28T07:49:36Z",
-      "version": 11,
-      "changeset": 85873543,
-      "user": "segi",
-      "uid": 981568,
+      "lat": 48.5092624,
+      "lon": 17.3049892,
+      "timestamp": "2021-09-30T15:43:44Z",
+      "version": 12,
+      "changeset": 111923836,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
         "city_id": "504637",
         "name": "Plavecký Mikuláš",
@@ -2092,6 +2095,7 @@
         "population": "714",
         "postal_code": "906 35",
         "source:name": "http://www.statistics.sk",
+        "website": "https://www.plaveckymikulas.sk/",
         "wikidata": "Q635079",
         "wikipedia": "sk:Plavecký Mikuláš"
       }
@@ -3433,23 +3437,27 @@
     {
       "type": "node",
       "id": 1224127023,
-      "lat": 48.5118874,
-      "lon": 17.3033646,
-      "timestamp": "2020-05-02T15:00:31Z",
-      "version": 5,
-      "changeset": 84524997,
+      "lat": 48.5118555,
+      "lon": 17.3034619,
+      "timestamp": "2021-09-30T15:43:44Z",
+      "version": 6,
+      "changeset": 111923836,
       "user": "mapperue",
       "uid": 4887311,
       "tags": {
         "addr:city": "Plavecký Mikuláš",
+        "addr:housenumber": "17",
+        "addr:place": "Plavecký Mikuláš",
+        "addr:postcode": "90635",
         "brand": "COOP Jednota",
         "brand:wikidata": "Q41629254",
         "brand:wikipedia": "sk:COOP Jednota Slovensko",
         "name": "COOP Jednota",
-        "note": "Plavecký Mikuláš 17,Plavecký Mikuláš",
-        "opening_hours": "Mo-Fr 06:00-18:00; Sa 06:00-11:00; Su 07:00-10:00",
+        "opening_hours": "Mo-Fr 06:00-17:30; Sa 06:00-11:00",
         "operator": "COOP Jednota Slovensko",
-        "shop": "convenience"
+        "phone": "+421346538313",
+        "shop": "convenience",
+        "website": "https://www.coop.sk/"
       }
     },
     {
@@ -3889,20 +3897,6 @@
         "addr:postcode": "90879",
         "name": "Potraviny Tomky",
         "shop": "convenience"
-      }
-    },
-    {
-      "type": "node",
-      "id": 1438171325,
-      "lat": 48.5092157,
-      "lon": 17.3050799,
-      "timestamp": "2011-09-20T08:50:53Z",
-      "version": 1,
-      "changeset": 9349392,
-      "user": "nobonn2",
-      "uid": 444762,
-      "tags": {
-        "amenity": "shelter"
       }
     },
     {
@@ -13912,6 +13906,48 @@
       "center": {
         "lat": 48.5060576,
         "lon": 17.4305275
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "lit": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 988361002,
+      "timestamp": "2021-09-30T15:43:44Z",
+      "version": 1,
+      "changeset": 111923836,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 48.5116909,
+        "lon": 17.3035693
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "lit": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 988361003,
+      "timestamp": "2021-09-30T15:43:44Z",
+      "version": 1,
+      "changeset": 111923836,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 48.5112687,
+        "lon": 17.3038126
       },
       "nodes": [],
       "tags": {
