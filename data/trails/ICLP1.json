@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-29T02:32:14Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-01T02:37:43Z"},
   "elements": [
     {
       "type": "relation",
@@ -628,9 +628,9 @@
     {
       "type": "relation",
       "id": 9430637,
-      "timestamp": "2021-09-25T08:46:35Z",
-      "version": 14,
-      "changeset": 111678647,
+      "timestamp": "2021-09-30T19:24:34Z",
+      "version": 15,
+      "changeset": 111932374,
       "user": "5R-MFT",
       "uid": 3417876,
       "members": [
@@ -664,6 +664,7 @@
         {"type": "way", "ref": 986871539, "role": ""},
         {"type": "way", "ref": 48703028, "role": ""},
         {"type": "way", "ref": 986677110, "role": ""},
+        {"type": "way", "ref": 988407557, "role": ""},
         {"type": "way", "ref": 51274921, "role": ""},
         {"type": "way", "ref": 248663858, "role": ""},
         {"type": "way", "ref": 471199916, "role": ""},
@@ -4813,11 +4814,11 @@
     {
       "type": "way",
       "id": 149117647,
-      "timestamp": "2021-09-24T13:57:24Z",
-      "version": 3,
-      "changeset": 111649414,
-      "user": "jynus",
-      "uid": 7406,
+      "timestamp": "2021-09-30T08:54:38Z",
+      "version": 4,
+      "changeset": 111905207,
+      "user": "moosfrosch",
+      "uid": 399492,
       "nodes": [394759307, 394759309],
       "geometry": [
         {"lat": 28.6203837, "lon": -17.889861, "z": 464},
@@ -4827,7 +4828,7 @@
       ],
       "tags": {
         "access": "yes",
-        "highway": "track",
+        "destroyed:highway": "track",
         "motorcar": "yes",
         "motorcycle": "yes",
         "mtb:scale": "0",
@@ -19177,11 +19178,11 @@
     {
       "type": "way",
       "id": 985585064,
-      "timestamp": "2021-09-24T16:43:39Z",
-      "version": 5,
-      "changeset": 111657093,
-      "user": "5R-MFT",
-      "uid": 3417876,
+      "timestamp": "2021-09-30T08:54:38Z",
+      "version": 6,
+      "changeset": 111905207,
+      "user": "moosfrosch",
+      "uid": 399492,
       "nodes": [394759302, 394759305],
       "geometry": [
         {"lat": 28.6191834, "lon": -17.8895461, "z": 472.9},
@@ -19192,8 +19193,7 @@
         {"lat": 28.6198877, "lon": -17.889561, "z": 470.1}
       ],
       "tags": {
-        "access": "no",
-        "highway": "unclassified",
+        "destroyed:highway": "unclassified",
         "name": "Camino de los Campitos"
       }
     },
@@ -19289,19 +19289,18 @@
     {
       "type": "way",
       "id": 986677110,
-      "timestamp": "2021-09-24T13:57:24Z",
-      "version": 1,
-      "changeset": 111649414,
-      "user": "jynus",
-      "uid": 7406,
-      "nodes": [618294614, 615660311],
+      "timestamp": "2021-09-30T19:24:34Z",
+      "version": 3,
+      "changeset": 111932374,
+      "user": "5R-MFT",
+      "uid": 3417876,
+      "nodes": [9136077948, 615660311],
       "geometry": [
-        {"lat": 28.6094392, "lon": -17.8833481, "z": 577.3},
+        {"lat": 28.6093545, "lon": -17.8833403, "z": 577.8},
         {"lat": 28.6092204, "lon": -17.883328, "z": 578.5},
         {"lat": 28.6091029, "lon": -17.8833192, "z": 579.2}
       ],
       "tags": {
-        "access": "no",
         "access:source": "dgt",
         "highway": "primary",
         "note": "CARRETERA CERRADA EN AMBOS SENTIDOS - VOLCÁN CUMBRE VIEJA",
@@ -19353,6 +19352,27 @@
         "destroyed:highway": "path",
         "foot": "yes",
         "mtb:scale": "0"
+      }
+    },
+    {
+      "type": "way",
+      "id": 988407557,
+      "timestamp": "2021-09-30T19:24:34Z",
+      "version": 1,
+      "changeset": 111932374,
+      "user": "5R-MFT",
+      "uid": 3417876,
+      "nodes": [618294614, 9136077948],
+      "geometry": [
+        {"lat": 28.6094392, "lon": -17.8833481, "z": 577.3},
+        {"lat": 28.6093545, "lon": -17.8833403, "z": 577.8}
+      ],
+      "tags": {
+        "access:source": "dgt",
+        "destroyed:highway": "primary",
+        "note": "CARRETERA CERRADA EN AMBOS SENTIDOS - VOLCÁN CUMBRE VIEJA",
+        "ref": "LP-2",
+        "surface": "asphalt"
       }
     },
     {

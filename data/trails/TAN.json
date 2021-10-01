@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-28T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-09-30T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -941,11 +941,11 @@
     {
       "type": "relation",
       "id": 9466682,
-      "timestamp": "2021-07-29T20:34:44Z",
-      "version": 13,
-      "changeset": 108845714,
-      "user": "vorpalblade-kaart",
-      "uid": 9019988,
+      "timestamp": "2021-09-30T20:51:49Z",
+      "version": 14,
+      "changeset": 111935349,
+      "user": "Robert Ancell",
+      "uid": 1430787,
       "members": [
         {"type": "way", "ref": 183670580, "role": ""},
         {"type": "way", "ref": 682301599, "role": ""},
@@ -998,7 +998,8 @@
         {"type": "way", "ref": 412590165, "role": ""},
         {"type": "way", "ref": 412590232, "role": ""},
         {"type": "way", "ref": 851942713, "role": ""},
-        {"type": "way", "ref": 851942712, "role": ""}
+        {"type": "way", "ref": 851942712, "role": ""},
+        {"type": "way", "ref": 988429606, "role": ""}
       ],
       "tags": {
         "description": "Old West Road (SH57), Palmerston North to junction of Gladstone Road and Poads Road, Levin. Many short but steep (>10%) ascents and descents. Several streams to pass through.",
@@ -93321,14 +93322,14 @@
     {
       "type": "way",
       "id": 851942712,
-      "timestamp": "2020-09-27T00:29:42Z",
-      "version": 1,
-      "changeset": 91566557,
-      "user": "ShakyIsles",
-      "uid": 1968467,
-      "nodes": [6317607614, 289649337],
+      "timestamp": "2021-09-30T20:51:49Z",
+      "version": 2,
+      "changeset": 111935349,
+      "user": "Robert Ancell",
+      "uid": 1430787,
+      "nodes": [9136269129, 289649337],
       "geometry": [
-        {"lat": -40.6489317, "lon": 175.3679857},
+        {"lat": -40.6489485, "lon": 175.3678527},
         {"lat": -40.6490645, "lon": 175.3672695},
         {"lat": -40.6491027, "lon": 175.3670136},
         {"lat": -40.6491678, "lon": 175.3667218},
@@ -93368,6 +93369,7 @@
         {"lat": -40.65258, "lon": 175.3566624},
         {"lat": -40.6525996, "lon": 175.3564564},
         {"lat": -40.652593, "lon": 175.3562676},
+        {"lat": -40.6525626, "lon": 175.3561551},
         {"lat": -40.6525214, "lon": 175.3560616},
         {"lat": -40.6523782, "lon": 175.3558041},
         {"lat": -40.6523261, "lon": 175.3556496},
@@ -93408,19 +93410,20 @@
     {
       "type": "way",
       "id": 851942713,
-      "timestamp": "2020-09-27T00:29:42Z",
-      "version": 1,
-      "changeset": 91566557,
-      "user": "ShakyIsles",
-      "uid": 1968467,
+      "timestamp": "2021-09-30T20:51:49Z",
+      "version": 2,
+      "changeset": 111935349,
+      "user": "Robert Ancell",
+      "uid": 1430787,
       "nodes": [7946416094, 6317607614],
       "geometry": [
         {"lat": -40.648882, "lon": 175.3682301},
-        {"lat": -40.6489317, "lon": 175.3679857}
+        {"lat": -40.6489269, "lon": 175.3679899}
       ],
       "tags": {
         "bridge": "yes",
         "highway": "unclassified",
+        "lanes": "1",
         "layer": "1",
         "name": "Gladstone Road",
         "surface": "paved"
@@ -100101,6 +100104,26 @@
         "maxspeed": "60",
         "name": "Puhinui Road",
         "oneway": "no",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 988429606,
+      "timestamp": "2021-09-30T20:51:49Z",
+      "version": 1,
+      "changeset": 111935349,
+      "user": "Robert Ancell",
+      "uid": 1430787,
+      "nodes": [6317607614, 9136269129],
+      "geometry": [
+        {"lat": -40.6489269, "lon": 175.3679899},
+        {"lat": -40.6489485, "lon": 175.3678527}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "1",
+        "name": "Gladstone Road",
         "surface": "paved"
       }
     },
