@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-27T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-01T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 12038457,
-      "timestamp": "2021-09-27T17:36:13Z",
-      "version": 141,
-      "changeset": 111780131,
-      "user": "TeLewis",
-      "uid": 10135746,
+      "timestamp": "2021-10-01T23:38:11Z",
+      "version": 142,
+      "changeset": 111985012,
+      "user": "Solarisphere",
+      "uid": 8285516,
       "members": [
         {"type": "way", "ref": 887724646, "role": "alternative"},
         {"type": "way", "ref": 855217906, "role": "alternative"},
@@ -257,6 +257,7 @@
         {"type": "way", "ref": 631471684, "role": ""},
         {"type": "way", "ref": 698812455, "role": ""},
         {"type": "way", "ref": 887432041, "role": ""},
+        {"type": "way", "ref": 988771490, "role": ""},
         {"type": "way", "ref": 887432042, "role": ""},
         {"type": "way", "ref": 886600221, "role": ""},
         {"type": "way", "ref": 888802124, "role": ""},
@@ -28357,12 +28358,12 @@
     {
       "type": "way",
       "id": 887432042,
-      "timestamp": "2021-09-09T02:07:10Z",
-      "version": 3,
-      "changeset": 110943298,
-      "user": "alester",
-      "uid": 307202,
-      "nodes": [5264688489, 8250856956],
+      "timestamp": "2021-10-01T23:38:11Z",
+      "version": 4,
+      "changeset": 111985012,
+      "user": "Solarisphere",
+      "uid": 8285516,
+      "nodes": [5264688489, 8250856964],
       "geometry": [
         {"lat": 49.689501, "lon": -125.397681},
         {"lat": 49.6903292, "lon": -125.3976917},
@@ -28401,15 +28402,7 @@
         {"lat": 49.7205118, "lon": -125.4367876},
         {"lat": 49.7218158, "lon": -125.4382468},
         {"lat": 49.7236192, "lon": -125.4397917},
-        {"lat": 49.725367, "lon": -125.4415083},
-        {"lat": 49.7260051, "lon": -125.4409504},
-        {"lat": 49.7265322, "lon": -125.4408217},
-        {"lat": 49.7269206, "lon": -125.4420233},
-        {"lat": 49.7271009, "lon": -125.4421842},
-        {"lat": 49.7272812, "lon": -125.4421628},
-        {"lat": 49.7274338, "lon": -125.4418409},
-        {"lat": 49.7275239, "lon": -125.4413045},
-        {"lat": 49.7276594, "lon": -125.4412127}
+        {"lat": 49.725367, "lon": -125.4415083}
       ],
       "tags": {
         "bicycle": "no",
@@ -37226,6 +37219,39 @@
         "name": "NW Ridge of Tsable Mtn Trail",
         "surface": "ground",
         "width": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 988771490,
+      "timestamp": "2021-10-01T23:38:11Z",
+      "version": 1,
+      "changeset": 111985012,
+      "user": "Solarisphere",
+      "uid": 8285516,
+      "nodes": [8250856964, 8250856956],
+      "geometry": [
+        {"lat": 49.725367, "lon": -125.4415083},
+        {"lat": 49.7260051, "lon": -125.4409504},
+        {"lat": 49.7265322, "lon": -125.4408217},
+        {"lat": 49.7269206, "lon": -125.4420233},
+        {"lat": 49.7271009, "lon": -125.4421842},
+        {"lat": 49.7272812, "lon": -125.4421628},
+        {"lat": 49.7274338, "lon": -125.4418409},
+        {"lat": 49.7275239, "lon": -125.4413045},
+        {"lat": 49.7276594, "lon": -125.4412127}
+      ],
+      "tags": {
+        "bicycle": "no",
+        "fixme": "Needs ground survey",
+        "highway": "track",
+        "horse": "no",
+        "name": "Jutland Ridge Route",
+        "operator": "Vancouver Island Trail Association",
+        "sac_scale": "alpine_hiking",
+        "smoothness": "impassable",
+        "surface": "rock",
+        "trail_visibility": "no"
       }
     }
   ]
