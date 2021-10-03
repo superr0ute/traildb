@@ -4346,9 +4346,9 @@
         "@poi": "foodshop_supermarket",
         "@distance": 1849.9,
         "@id": "n644989468",
-        "@changeset": 89699605,
-        "@timestamp": "2020-08-20T15:20:58Z",
-        "@version": 2,
+        "@changeset": 112015202,
+        "@timestamp": "2021-10-02T20:54:52Z",
+        "@version": 3,
         "@uid": 37094,
         "@user": "alex gabilondo",
         "addr:city": "Hondarribia",
@@ -4360,6 +4360,7 @@
         "b5m:url": "http://b5m.gipuzkoa.net/b5map/r1/eu/mapa/lekutu/D_239295",
         "b5m:urlOrto": "http://b5m.gipuzkoa.net/url5000/index.php?id=D_239295&lengua=1&actu=0&categoria=VITO_FOTO",
         "name": "Dia supermerkatua",
+        "opening_hours": "Mo-Sa 09:00-21:00",
         "shop": "supermarket",
         "source": "b5m"
       },
@@ -26085,6 +26086,27 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 863.8,
+        "@id": "n4352481656",
+        "@changeset": 41487483,
+        "@timestamp": "2016-08-16T11:16:08Z",
+        "@version": 1,
+        "@uid": 355857,
+        "@user": "Ones32",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.2073843,
+          42.8245358
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 134.9,
         "@id": "n2422743605",
@@ -28907,27 +28929,6 @@
         "coordinates": [
           -0.6349705,
           42.9341143
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 863.8,
-        "@id": "n4352481656",
-        "@changeset": 41487483,
-        "@timestamp": "2016-08-16T11:16:08Z",
-        "@version": 1,
-        "@uid": 355857,
-        "@user": "Ones32",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.2073843,
-          42.8245358
         ]
       }
     },
@@ -40017,27 +40018,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_spring",
-        "@distance": 216.1,
-        "@id": "n6593068294",
-        "@changeset": 71957097,
-        "@timestamp": "2019-07-06T11:31:40Z",
-        "@version": 1,
-        "@uid": 6296343,
-        "@user": "BaboucheVerte",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.701845,
-          43.3101433
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "campsite",
         "@distance": 1801.7,
         "@id": "w200322384",
@@ -43394,6 +43374,27 @@
         "coordinates": [
           2.2613846,
           42.4945705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 216.1,
+        "@id": "n6593068294",
+        "@changeset": 71957097,
+        "@timestamp": "2019-07-06T11:31:40Z",
+        "@version": 1,
+        "@uid": 6296343,
+        "@user": "BaboucheVerte",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.701845,
+          43.3101433
         ]
       }
     },
@@ -50446,31 +50447,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 18.2,
-        "@id": "w79550508",
-        "@changeset": 49261909,
-        "@timestamp": "2017-06-05T08:24:08Z",
-        "@version": 3,
-        "@uid": 2778590,
-        "@user": "Alaia",
-        "amenity": "shelter",
-        "building": "yes",
-        "name": "Herriko Borda",
-        "shelter_type": "picnic_shelter",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.4447025,
-          43.2965635
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_spring",
         "@distance": 1683,
         "@id": "n8968612847",
@@ -51797,6 +51773,31 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
+        "@distance": 18.2,
+        "@id": "w79550508",
+        "@changeset": 49261909,
+        "@timestamp": "2017-06-05T08:24:08Z",
+        "@version": 3,
+        "@uid": 2778590,
+        "@user": "Alaia",
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "Herriko Borda",
+        "shelter_type": "picnic_shelter",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4447025,
+          43.2965635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
         "@distance": 31.5,
         "@id": "w79551047",
         "@changeset": 90675325,
@@ -51910,13 +51911,14 @@
         "@poi": "foodshop_supermarket",
         "@distance": 1848.2,
         "@id": "w158900499",
-        "@changeset": 89699933,
-        "@timestamp": "2020-08-20T15:29:21Z",
-        "@version": 2,
+        "@changeset": 112015031,
+        "@timestamp": "2021-10-02T20:58:24Z",
+        "@version": 4,
         "@uid": 37094,
         "@user": "alex gabilondo",
-        "building": "yes",
+        "building": "retail",
         "name": "Dia supermerkatua",
+        "opening_hours": "Mo-Sa 09:00-21:00",
         "shop": "supermarket"
       },
       "geometry": {
