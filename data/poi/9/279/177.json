@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-10-01T23:59:59Z",
-    "timestamp_osm_base": "2021-10-02T05:00:56Z",
+    "timestamp_osm_date": "2021-10-02T23:59:59Z",
+    "timestamp_osm_base": "2021-10-03T05:11:58Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6782,9 +6782,9 @@
       "tags": {
         "ele": "327",
         "fixme": "Höhe ungenau, bitte nachmessen",
+        "wikidata": "Q21859778",
         "name": "Zugberg",
-        "natural": "peak",
-        "wikidata": "Q21859778"
+        "natural": "peak"
       }
     },
     {
@@ -32974,26 +32974,6 @@
     },
     {
       "type": "node",
-      "id": 2526139391,
-      "lat": 48.1967366,
-      "lon": 16.4047655,
-      "timestamp": "2021-07-13T04:29:44Z",
-      "version": 3,
-      "changeset": 107872777,
-      "user": "stefanct",
-      "uid": 303158,
-      "tags": {
-        "addr:city": "Wien",
-        "addr:country": "AT",
-        "addr:housenumber": "101",
-        "addr:postcode": "1030",
-        "addr:street": "Erdbergstraße",
-        "name": "Eren's Mini Markt",
-        "shop": "convenience"
-      }
-    },
-    {
-      "type": "node",
       "id": 2526254781,
       "lat": 48.1956401,
       "lon": 16.4037983,
@@ -58341,6 +58321,20 @@
       "changeset": 111729484,
       "user": "emergency99",
       "uid": 1832939,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9139655017,
+      "lat": 48.1959881,
+      "lon": 16.4038357,
+      "timestamp": "2021-10-02T11:48:35Z",
+      "version": 1,
+      "changeset": 111997364,
+      "user": "Helium314",
+      "uid": 8620055,
       "tags": {
         "amenity": "drinking_water"
       }
@@ -85387,6 +85381,26 @@
     },
     {
       "type": "way",
+      "id": 987013335,
+      "timestamp": "2021-10-02T17:40:36Z",
+      "version": 2,
+      "changeset": 112010238,
+      "user": "enjoyhotchocolate",
+      "uid": 3574638,
+      "center": {
+        "lat": 48.2064389,
+        "lon": 16.2013609
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "layer": "1",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
       "id": 987154077,
       "timestamp": "2021-09-26T15:24:56Z",
       "version": 1,
@@ -85418,6 +85432,26 @@
       "nodes": [],
       "tags": {
         "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 988921475,
+      "timestamp": "2021-10-02T17:40:36Z",
+      "version": 1,
+      "changeset": 112010238,
+      "user": "enjoyhotchocolate",
+      "uid": 3574638,
+      "center": {
+        "lat": 48.206244,
+        "lon": 16.2006717
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "building:levels": "1",
         "shelter_type": "public_transport"
       }
     }
