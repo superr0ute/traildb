@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-29T02:30:16Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-04T02:35:30Z"},
   "elements": [
     {
       "type": "relation",
@@ -1514,18 +1514,20 @@
     {
       "type": "way",
       "id": 105875863,
-      "timestamp": "2015-07-03T11:42:55Z",
-      "version": 2,
-      "changeset": 32385503,
-      "user": "ehm1806",
-      "uid": 607399,
+      "timestamp": "2021-10-03T13:20:55Z",
+      "version": 3,
+      "changeset": 112033752,
+      "user": "mahau",
+      "uid": 160164,
       "nodes": [521750055, 1219129182],
       "geometry": [
         {"lat": 39.8453518, "lon": 4.1999288, "z": 51.8},
         {"lat": 39.8454971, "lon": 4.2000852, "z": 51.6},
         {"lat": 39.8456386, "lon": 4.2002393, "z": 51.3},
-        {"lat": 39.8457834, "lon": 4.2003947, "z": 50.9},
-        {"lat": 39.846059, "lon": 4.1998152, "z": 50.4}
+        {"lat": 39.8457427, "lon": 4.2003447, "z": 51},
+        {"lat": 39.8457756, "lon": 4.2003635, "z": 50.9},
+        {"lat": 39.8458158, "lon": 4.2003431, "z": 50.8},
+        {"lat": 39.8460611, "lon": 4.1998085, "z": 50.4}
       ],
       "tags": {"highway": "path"}
     },
@@ -1732,14 +1734,14 @@
     {
       "type": "way",
       "id": 106084350,
-      "timestamp": "2018-05-14T11:04:54Z",
-      "version": 4,
-      "changeset": 58948577,
-      "user": "Puxan",
-      "uid": 5328434,
+      "timestamp": "2021-10-03T13:20:55Z",
+      "version": 5,
+      "changeset": 112033752,
+      "user": "mahau",
+      "uid": 160164,
       "nodes": [1219129182, 521695833],
       "geometry": [
-        {"lat": 39.846059, "lon": 4.1998152, "z": 50.4},
+        {"lat": 39.8460611, "lon": 4.1998085, "z": 50.4},
         {"lat": 39.8460185, "lon": 4.1997619, "z": 50.6},
         {"lat": 39.8458638, "lon": 4.1996965, "z": 51},
         {"lat": 39.845786, "lon": 4.1996554, "z": 51.2}
@@ -1747,9 +1749,10 @@
       "tags": {
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "bridleway",
+        "highway": "track",
         "horse": "yes",
-        "name": "Camí Vell de Binidalí"
+        "name": "Camí Vell de Binidalí",
+        "tracktype": "grade3"
       }
     },
     {
@@ -5795,11 +5798,11 @@
     {
       "type": "way",
       "id": 119232885,
-      "timestamp": "2019-10-27T23:08:47Z",
-      "version": 2,
-      "changeset": 76278466,
-      "user": "jepee",
-      "uid": 9292967,
+      "timestamp": "2021-10-03T13:20:55Z",
+      "version": 3,
+      "changeset": 112033752,
+      "user": "mahau",
+      "uid": 160164,
       "nodes": [1320457789, 1340342456],
       "geometry": [
         {"lat": 39.8529636, "lon": 4.1694782, "z": 14.7},
@@ -5807,7 +5810,11 @@
         {"lat": 39.852819, "lon": 4.1694776, "z": 14.7},
         {"lat": 39.8528046, "lon": 4.1696282, "z": 16.1}
       ],
-      "tags": {"highway": "track", "name": "Cami de Cavalls"}
+      "tags": {
+        "highway": "track",
+        "name": "Cami de Cavalls",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
@@ -5924,15 +5931,16 @@
     {
       "type": "way",
       "id": 119237531,
-      "timestamp": "2021-09-07T17:14:52Z",
-      "version": 4,
-      "changeset": 110871399,
+      "timestamp": "2021-10-03T13:20:55Z",
+      "version": 5,
+      "changeset": 112033752,
       "user": "mahau",
       "uid": 160164,
       "nodes": [1220124093, 521695862],
       "geometry": [
         {"lat": 39.8466657, "lon": 4.1946639, "z": 50.6},
         {"lat": 39.8464472, "lon": 4.1966796, "z": 49.4},
+        {"lat": 39.8464407, "lon": 4.1966995, "z": 49.5},
         {"lat": 39.8464377, "lon": 4.1967089, "z": 49.5},
         {"lat": 39.8464224, "lon": 4.1967291, "z": 49.5},
         {"lat": 39.8458885, "lon": 4.1967017, "z": 49.2},
@@ -5940,7 +5948,11 @@
         {"lat": 39.8455017, "lon": 4.1975894, "z": 49.2},
         {"lat": 39.8454713, "lon": 4.1976839, "z": 49.2}
       ],
-      "tags": {"highway": "track", "name": "Cami de Cavalls"}
+      "tags": {
+        "highway": "track",
+        "name": "Cami de Cavalls",
+        "tracktype": "grade3"
+      }
     },
     {
       "type": "way",
@@ -12307,9 +12319,9 @@
     {
       "type": "way",
       "id": 42128555,
-      "timestamp": "2021-09-07T17:14:52Z",
-      "version": 4,
-      "changeset": 110871399,
+      "timestamp": "2021-10-03T13:20:55Z",
+      "version": 5,
+      "changeset": 112033752,
       "user": "mahau",
       "uid": 160164,
       "nodes": [521695833, 521695862],
@@ -12318,7 +12330,7 @@
         {"lat": 39.8458059, "lon": 4.1995642, "z": 51.1},
         {"lat": 39.8458359, "lon": 4.1994075, "z": 51},
         {"lat": 39.8458764, "lon": 4.199186, "z": 50.9},
-        {"lat": 39.845892, "lon": 4.1988547, "z": 50.8},
+        {"lat": 39.8458812, "lon": 4.198854, "z": 50.8},
         {"lat": 39.8458806, "lon": 4.1987375, "z": 50.7},
         {"lat": 39.8458427, "lon": 4.1986387, "z": 50.7},
         {"lat": 39.845673, "lon": 4.1984072, "z": 50.5},
@@ -12332,9 +12344,10 @@
       "tags": {
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "bridleway",
+        "highway": "track",
         "horse": "yes",
-        "name": "Cami de Cavalls"
+        "name": "Cami de Cavalls",
+        "tracktype": "grade3"
       }
     },
     {

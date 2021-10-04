@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-30T02:36:57Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-04T02:38:35Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11628437,
-      "timestamp": "2021-08-25T09:09:26Z",
-      "version": 13,
-      "changeset": 110216968,
-      "user": "tonyp_telenav",
-      "uid": 12764454,
+      "timestamp": "2021-10-03T16:16:17Z",
+      "version": 14,
+      "changeset": 112040102,
+      "user": "OddlyAngled",
+      "uid": 11607814,
       "members": [
         {"type": "way", "ref": 907479450, "role": ""},
         {"type": "way", "ref": 907479449, "role": ""},
@@ -49,7 +49,9 @@
         {"type": "way", "ref": 373165162, "role": ""},
         {"type": "way", "ref": 435173484, "role": ""},
         {"type": "way", "ref": 435173483, "role": ""},
-        {"type": "way", "ref": 39456082, "role": ""}
+        {"type": "way", "ref": 39456082, "role": ""},
+        {"type": "way", "ref": 989160575, "role": ""},
+        {"type": "way", "ref": 989160576, "role": ""}
       ],
       "tags": {
         "name": "Big SEKI Loop",
@@ -5014,23 +5016,14 @@
     {
       "type": "way",
       "id": 39456082,
-      "timestamp": "2021-02-15T17:39:26Z",
-      "version": 29,
-      "changeset": 99325539,
+      "timestamp": "2021-10-03T16:16:17Z",
+      "version": 30,
+      "changeset": 112040102,
       "user": "OddlyAngled",
       "uid": 11607814,
-      "nodes": [1283224782, 472548528],
+      "nodes": [9142600995, 472548528],
       "geometry": [
-        {"lat": 36.7946467, "lon": -118.5829364, "z": 1530.4},
-        {"lat": 36.7946479, "lon": -118.5827682, "z": 1530.5},
-        {"lat": 36.7946394, "lon": -118.5823381, "z": 1531.1},
-        {"lat": 36.7946198, "lon": -118.5821644, "z": 1531.4},
-        {"lat": 36.7945194, "lon": -118.5818785, "z": 1532},
-        {"lat": 36.7944794, "lon": -118.5817411, "z": 1532.3},
-        {"lat": 36.7944703, "lon": -118.5816831, "z": 1532.4},
-        {"lat": 36.7945134, "lon": -118.5813817, "z": 1533.1},
-        {"lat": 36.7945108, "lon": -118.5810199, "z": 1534.6},
-        {"lat": 36.7944929, "lon": -118.5808704, "z": 1535.2},
+        {"lat": 36.7945068, "lon": -118.5807004, "z": 1536.1},
         {"lat": 36.7945782, "lon": -118.5798292, "z": 1541.2},
         {"lat": 36.7945629, "lon": -118.5796276, "z": 1541.6},
         {"lat": 36.7945782, "lon": -118.5795456, "z": 1542},
@@ -8788,14 +8781,14 @@
     {
       "type": "way",
       "id": 907479450,
-      "timestamp": "2021-02-15T18:11:43Z",
-      "version": 1,
-      "changeset": 99326789,
+      "timestamp": "2021-10-03T16:16:17Z",
+      "version": 2,
+      "changeset": 112040102,
       "user": "OddlyAngled",
       "uid": 11607814,
-      "nodes": [3848073505, 7952833660],
+      "nodes": [87496499, 7952833660],
       "geometry": [
-        {"lat": 36.7961887, "lon": -118.5838839, "z": 1535.3},
+        {"lat": 36.7961862, "lon": -118.5837341, "z": 1535.9},
         {"lat": 36.79631, "lon": -118.5838289, "z": 1537.1},
         {"lat": 36.7965047, "lon": -118.5835595, "z": 1542.2},
         {"lat": 36.7967243, "lon": -118.5834283, "z": 1547.6},
@@ -11623,6 +11616,69 @@
         "name": "Elizabeth Pass Trail",
         "source": "GPX, Satellite imaging",
         "surface": "dirt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 989160575,
+      "timestamp": "2021-10-03T16:16:17Z",
+      "version": 1,
+      "changeset": 112040102,
+      "user": "OddlyAngled",
+      "uid": 11607814,
+      "nodes": [9142600996, 9142600995],
+      "geometry": [
+        {"lat": 36.7945038, "lon": -118.5808947, "z": 1535.2},
+        {"lat": 36.7945068, "lon": -118.5807004, "z": 1536.1}
+      ],
+      "tags": {
+        "bicycle": "no",
+        "bridge": "yes",
+        "bridge:structure": "beam",
+        "foot": "designated",
+        "highway": "path",
+        "horse": "yes",
+        "layer": "1",
+        "motor_vehicle": "no",
+        "name": "Paradise Valley Trail",
+        "sac_scale": "hiking",
+        "source": "GPX + USGS Topo + Bing Imagery",
+        "surface": "dirt",
+        "trail_visibility": "excellent"
+      }
+    },
+    {
+      "type": "way",
+      "id": 989160576,
+      "timestamp": "2021-10-03T16:16:17Z",
+      "version": 1,
+      "changeset": 112040102,
+      "user": "OddlyAngled",
+      "uid": 11607814,
+      "nodes": [1283224782, 9142600996],
+      "geometry": [
+        {"lat": 36.7946467, "lon": -118.5829364, "z": 1530.4},
+        {"lat": 36.7946479, "lon": -118.5827682, "z": 1530.5},
+        {"lat": 36.7946394, "lon": -118.5823381, "z": 1531.1},
+        {"lat": 36.7946198, "lon": -118.5821644, "z": 1531.4},
+        {"lat": 36.7945194, "lon": -118.5818785, "z": 1532},
+        {"lat": 36.7944794, "lon": -118.5817411, "z": 1532.3},
+        {"lat": 36.7944703, "lon": -118.5816831, "z": 1532.4},
+        {"lat": 36.7945134, "lon": -118.5813817, "z": 1533.1},
+        {"lat": 36.7945108, "lon": -118.5810199, "z": 1534.6},
+        {"lat": 36.7945038, "lon": -118.5808947, "z": 1535.2}
+      ],
+      "tags": {
+        "bicycle": "no",
+        "foot": "designated",
+        "highway": "path",
+        "horse": "yes",
+        "motor_vehicle": "no",
+        "name": "Paradise Valley Trail",
+        "sac_scale": "hiking",
+        "source": "GPX + USGS Topo + Bing Imagery",
+        "surface": "dirt",
+        "trail_visibility": "excellent"
       }
     }
   ]
