@@ -12386,30 +12386,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 1388.3,
-        "@id": "n968203139",
-        "@changeset": 102282885,
-        "@timestamp": "2021-04-04T18:12:37Z",
-        "@version": 3,
-        "@uid": 10087605,
-        "@user": "Aazeu",
-        "name": "Cabane d Herechet ou des Rechets - luchonais",
-        "note": "728",
-        "source": "Association \"Refuges et cabanes des Pyrénées\";local knowledge",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.7231935,
-          42.8614729
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 1174.3,
         "@id": "n968203145",
@@ -12850,19 +12826,20 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
+        "@poi": "shelter_wilderness-hut",
         "@distance": 94.8,
         "@id": "n968204742",
-        "@changeset": 98289363,
-        "@timestamp": "2021-01-28T10:42:38Z",
-        "@version": 5,
-        "@uid": 11285694,
-        "@user": "jean-ray2",
-        "amenity": "shelter",
+        "@changeset": 112026278,
+        "@timestamp": "2021-10-03T09:36:44Z",
+        "@version": 6,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "name": "Cabane de l´Arech",
         "note": "533",
         "shelter_type": "basic_hut",
-        "source": "Association \"Refuges et cabanes des Pyrénées\""
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "tourism": "wilderness_hut",
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=533"
       },
       "geometry": {
         "type": "Point",
@@ -13260,6 +13237,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "place_village",
+        "@distance": 2972,
+        "@id": "n1202238031",
+        "@changeset": 81079879,
+        "@timestamp": "2020-02-16T19:27:35Z",
+        "@version": 9,
+        "@uid": 1276980,
+        "@user": "Jacques Lavignotte",
+        "name": "Bethmale",
+        "name:oc": "Vathmala",
+        "place": "village",
+        "source:name:oc": "Lo Congrès"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.055816,
+          42.8887095
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 2359,
         "@id": "n963762875",
@@ -13407,30 +13408,6 @@
         "coordinates": [
           1.7983991,
           42.6401729
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 927,
-        "@id": "n963811526",
-        "@changeset": 31478001,
-        "@timestamp": "2015-05-26T16:14:01Z",
-        "@version": 2,
-        "@uid": 571625,
-        "@user": "Balaïtous",
-        "amenity": "shelter",
-        "name": "Cabane Montcalm - vicdessos",
-        "note": "608",
-        "source": "Association \"Refuges et cabanes des Pyrénées\""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.435,
-          42.713611
         ]
       }
     },
@@ -17099,30 +17076,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "place_village",
-        "@distance": 2972,
-        "@id": "n1202238031",
-        "@changeset": 81079879,
-        "@timestamp": "2020-02-16T19:27:35Z",
-        "@version": 9,
-        "@uid": 1276980,
-        "@user": "Jacques Lavignotte",
-        "name": "Bethmale",
-        "name:oc": "Vathmala",
-        "place": "village",
-        "source:name:oc": "Lo Congrès"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.055816,
-          42.8887095
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "peak_peak",
         "@distance": 3230.5,
         "@id": "n1304111057",
@@ -19486,27 +19439,6 @@
         "coordinates": [
           -1.6793964,
           43.2882816
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 1614.4,
-        "@id": "n2129385641",
-        "@changeset": 14794239,
-        "@timestamp": "2013-01-26T15:58:27Z",
-        "@version": 1,
-        "@uid": 548834,
-        "@user": "dr_grijando",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.7938751,
-          43.3717455
         ]
       }
     },
@@ -22518,6 +22450,38 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 9416.9,
+        "@id": "n3130579834",
+        "@changeset": 109147647,
+        "@timestamp": "2021-08-04T13:21:37Z",
+        "@version": 10,
+        "@uid": 1908665,
+        "@user": "naomap",
+        "addr:city": "Tarascon-sur-Ariège",
+        "addr:country": "FR",
+        "addr:housenumber": "10;23",
+        "addr:postcode": "09400",
+        "addr:street": "Avenue Victor Pilhés",
+        "bulk_purchase": "yes",
+        "contact:phone": "+33 9 66 82 10 14",
+        "name": "Bio Maïel",
+        "network": "Bio Monde",
+        "opening_hours": "Mo-Fr 09:30-12:30,15:00-19:00; Sa 08:00-15:00; Sa 09:00-13:00,15:00-19:00",
+        "organic": "only",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6051096,
+          42.8488756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_spring",
         "@distance": 2087.6,
         "@id": "n2090337604",
@@ -23502,12 +23466,13 @@
         "@poi": "water_drinking-water",
         "@distance": 1590.9,
         "@id": "n3041197637",
-        "@changeset": 25002364,
-        "@timestamp": "2014-08-25T12:36:27Z",
-        "@version": 1,
-        "@uid": 394971,
-        "@user": "malkavi",
-        "amenity": "drinking_water"
+        "@changeset": 112043101,
+        "@timestamp": "2021-10-03T17:41:58Z",
+        "@version": 2,
+        "@uid": 37094,
+        "@user": "alex gabilondo",
+        "amenity": "drinking_water",
+        "check_date": "2021-10-03"
       },
       "geometry": {
         "type": "Point",
@@ -26361,38 +26326,6 @@
         "coordinates": [
           1.3327831,
           42.7896278
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 9416.9,
-        "@id": "n3130579834",
-        "@changeset": 109147647,
-        "@timestamp": "2021-08-04T13:21:37Z",
-        "@version": 10,
-        "@uid": 1908665,
-        "@user": "naomap",
-        "addr:city": "Tarascon-sur-Ariège",
-        "addr:country": "FR",
-        "addr:housenumber": "10;23",
-        "addr:postcode": "09400",
-        "addr:street": "Avenue Victor Pilhés",
-        "bulk_purchase": "yes",
-        "contact:phone": "+33 9 66 82 10 14",
-        "name": "Bio Maïel",
-        "network": "Bio Monde",
-        "opening_hours": "Mo-Fr 09:30-12:30,15:00-19:00; Sa 08:00-15:00; Sa 09:00-13:00,15:00-19:00",
-        "organic": "only",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.6051096,
-          42.8488756
         ]
       }
     },
@@ -37476,14 +37409,14 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 8.2,
         "@id": "w122283801",
-        "@changeset": 91213008,
-        "@timestamp": "2020-09-21T08:32:59Z",
-        "@version": 3,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 112025245,
+        "@timestamp": "2021-10-03T09:05:05Z",
+        "@version": 4,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "building": "yes",
         "capacity": 10,
-        "description": "2014-03 : * Une gazinière * Une installation électrique * Une cheminée * Une seule porte qui ne ferme pas de l'intérieur et sans aucune fenêtre * Un étage où l'on peut dormir, avec son échelle.",
+        "description": "Jolie cabane. En balcon au dessus de Luchon. Panorama sur la chaîne du Luchonnais. Située sur le GR10. Eau à 8 min vers l'Est. La cheminée fonctionne bien. A l'étage on peut dormir mais à même le sol ! En bas, un bas flanc pour 2 personnes avec 2 matelas",
         "ele": 1660,
         "fireplace": "yes",
         "name": "Cabane de Saunères",
@@ -37491,7 +37424,7 @@
         "source": "Association \"Refuges et cabanes des Pyrénées\"",
         "stove": "no",
         "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/4331/cabane-non-gardee/Comminges/Cabane-de-Sauneres/"
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=692"
       },
       "geometry": {
         "type": "Point",
@@ -38441,6 +38374,27 @@
         "coordinates": [
           1.4916352,
           42.7261068
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2549.8,
+        "@id": "n9142606939",
+        "@changeset": 112040323,
+        "@timestamp": "2021-10-03T16:20:54Z",
+        "@version": 1,
+        "@uid": 11285694,
+        "@user": "jean-ray2",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4236842,
+          42.6948864
         ]
       }
     },
@@ -40018,6 +39972,27 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_spring",
+        "@distance": 216.1,
+        "@id": "n6593068294",
+        "@changeset": 71957097,
+        "@timestamp": "2019-07-06T11:31:40Z",
+        "@version": 1,
+        "@uid": 6296343,
+        "@user": "BaboucheVerte",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.701845,
+          43.3101433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "campsite",
         "@distance": 1801.7,
         "@id": "w200322384",
@@ -40446,14 +40421,16 @@
         "@poi": "shelter_shelter",
         "@distance": 59.9,
         "@id": "w213159319",
-        "@changeset": 15516701,
-        "@timestamp": "2013-03-27T14:56:02Z",
-        "@version": 1,
-        "@uid": 358508,
-        "@user": "jabali",
+        "@changeset": 112024851,
+        "@timestamp": "2021-10-03T08:53:19Z",
+        "@version": 2,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "amenity": "shelter",
         "building": "yes",
-        "source": "bing"
+        "name": "Cabanes de Arras",
+        "source": "bing",
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=1374"
       },
       "geometry": {
         "type": "Point",
@@ -41613,14 +41590,15 @@
         "@poi": "shelter_shelter",
         "@distance": 116.8,
         "@id": "w223961544",
-        "@changeset": 91213615,
-        "@timestamp": "2020-09-21T08:41:12Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 112025701,
+        "@timestamp": "2021-10-03T09:17:20Z",
+        "@version": 3,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "amenity": "shelter",
         "building": "yes",
         "capacity": 4,
+        "description": "Cabane ouverte et en bon état, propreté correcte, et pas d'eau: abreuvoir vide... A cote il y a une autre cabane qui elle est fermée à clef (au berger ou aux chasseurs surement!) 2 lits superposés (structure métallique) avec 1 matelas correct, et 2 bouts ",
         "ele": 1947,
         "fireplace": "yes",
         "name": "Cabane de Peyrehitte",
@@ -41628,7 +41606,7 @@
         "source": "Association \"Refuges et cabanes des Pyrénées\"",
         "stove": "no",
         "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/3872/cabane-non-gardee/Comminges/Cabane-de-Peyrehitte/"
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=517"
       },
       "geometry": {
         "type": "Point",
@@ -42117,32 +42095,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "campsite",
-        "@distance": 1720.3,
-        "@id": "w325195693",
-        "@changeset": 109187690,
-        "@timestamp": "2021-08-05T08:38:10Z",
-        "@version": 5,
-        "@uid": 2070677,
-        "@user": "fleuret",
-        "fixme": "Ce camping est définitivement fermé",
-        "name": "Camping Municipal Lalanne",
-        "phone": "+33 5 62 39 41 58",
-        "stars": "3",
-        "tourism": "camp_site",
-        "website": "http://www.saintlary-vacances.com/camping/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.3237747,
-          42.8149489
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 2679.3,
         "@id": "n5827510359",
@@ -42167,11 +42119,11 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 2679.4,
         "@id": "n5827510369",
-        "@changeset": 91280797,
-        "@timestamp": "2020-09-22T09:31:55Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 112026160,
+        "@timestamp": "2021-10-03T09:33:19Z",
+        "@version": 3,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "capacity": 6,
         "description": "2020-09 : Refuge ouvert à tous situé à l'arrière de la Chapelle de l'Isard. Équipement intérieur : - Table - Bancs - Électricité (minuterie de 10mn) - Grande cheminée - 6 lits superposés (2x3) - 6 matelas mousse - 3 couvertures",
         "ele": 1325,
@@ -42179,7 +42131,7 @@
         "name": "Refuge de La Chapelle de l'Isard",
         "stove": "no",
         "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/6997/cabane-non-gardee/Couserans/Refuge-de-La-Chapelle-de-l-Isard/"
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=173"
       },
       "geometry": {
         "type": "Point",
@@ -43034,30 +42986,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
-        "@distance": 2543.8,
-        "@id": "w516144446",
-        "@changeset": 51169841,
-        "@timestamp": "2017-08-16T12:20:39Z",
-        "@version": 1,
-        "@uid": 127539,
-        "@user": "Emeric",
-        "access": "private",
-        "amenity": "shelter",
-        "building": "yes",
-        "name": "Orris de Pujol le Haut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.4236961,
-          42.6949753
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
         "@distance": 2044.5,
         "@id": "w516166498",
         "@changeset": 51173379,
@@ -43184,18 +43112,22 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
+        "@poi": "shelter_wilderness-hut",
         "@distance": 17.2,
         "@id": "w537960392",
-        "@changeset": 53478353,
-        "@timestamp": "2017-11-03T12:50:19Z",
-        "@version": 1,
-        "@uid": 1331779,
-        "@user": "Appirit",
-        "amenity": "shelter",
-        "name": "Abri de l'Étang d'Izourt - Vicdessos",
+        "@changeset": 112032904,
+        "@timestamp": "2021-10-03T12:57:57Z",
+        "@version": 2,
+        "@uid": 16897,
+        "@user": "pyrenees",
+        "building": "yes",
+        "description": "Refuge NON gardé mais ouvert toute l'année entrer par la porte de gauche pousser la poignée qui est dure vers la gauche bas flanc en bois 2 tables et bancs pas de cheminée.",
+        "fee": "no",
+        "name": "Refuge de l Etang d'Izourt",
         "note": "175",
-        "source": "Association \"Refuges et cabanes des Pyrénées\""
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "tourism": "wilderness_hut",
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=175"
       },
       "geometry": {
         "type": "Point",
@@ -43374,27 +43306,6 @@
         "coordinates": [
           2.2613846,
           42.4945705
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 216.1,
-        "@id": "n6593068294",
-        "@changeset": 71957097,
-        "@timestamp": "2019-07-06T11:31:40Z",
-        "@version": 1,
-        "@uid": 6296343,
-        "@user": "BaboucheVerte",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.701845,
-          43.3101433
         ]
       }
     },
@@ -44475,25 +44386,25 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
+        "@poi": "shelter_wilderness-hut",
         "@distance": 67.5,
         "@id": "w547761601",
-        "@changeset": 90997380,
-        "@timestamp": "2020-09-16T16:16:23Z",
-        "@version": 3,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
+        "@changeset": 112025086,
+        "@timestamp": "2021-10-03T08:59:57Z",
+        "@version": 4,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "beds": "no",
         "building": "yes",
         "capacity": 4,
-        "description": "2017-07 : La cabane est occupée par tables et bancs, mais il est possible de les sortir pour dormir dedans. Il y a deux sources à côté de la cabane, et du bois à proximité, mais pas de moyen de chauffage. Il est possible de camper à côté.",
+        "description": "Toute petite cabane en pierre et au toit végétal située sur le GR10 un peu avant Gavarnie. Une table, deux bancs, et rien d'autre. pas de cheminée, pas de bat-flanc. On peut dormir besoin si besoin, quitte à mettre la table dehors pour la nuit. Deux sourc",
         "ele": 1835,
         "fireplace": "no",
         "name": "Cabane de Tousaus",
         "shelter_type": "basic_hut",
         "stove": "no",
-        "website": "https://www.refuges.info/point/5858/cabane-non-gardee/Bigorre/Cabane-de-Tousaus/"
+        "tourism": "wilderness_hut",
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=1196"
       },
       "geometry": {
         "type": "Point",
@@ -44715,22 +44626,26 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1363.2,
-        "@id": "w847452452",
-        "@changeset": 90911109,
-        "@timestamp": "2020-09-15T08:43:10Z",
-        "@version": 1,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
-        "building": "yes"
+        "@poi": "campsite",
+        "@distance": 1720.3,
+        "@id": "w325195693",
+        "@changeset": 109187690,
+        "@timestamp": "2021-08-05T08:38:10Z",
+        "@version": 5,
+        "@uid": 2070677,
+        "@user": "fleuret",
+        "fixme": "Ce camping est définitivement fermé",
+        "name": "Camping Municipal Lalanne",
+        "phone": "+33 5 62 39 41 58",
+        "stars": "3",
+        "tourism": "camp_site",
+        "website": "http://www.saintlary-vacances.com/camping/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.5184709,
-          42.8516663
+          0.3237747,
+          42.8149489
         ]
       }
     },
@@ -44943,6 +44858,30 @@
         "coordinates": [
           0.4986052,
           42.7287015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 138,
+        "@id": "w571060445",
+        "@changeset": 112025189,
+        "@timestamp": "2021-10-03T09:03:00Z",
+        "@version": 2,
+        "@uid": 16897,
+        "@user": "pyrenees",
+        "building": "yes",
+        "name": "Cabane d'Esquierry",
+        "tourism": "wilderness_hut",
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=1023"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4788376,
+          42.7561177
         ]
       }
     },
@@ -48013,6 +47952,37 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 1533.1,
+        "@id": "w864933564",
+        "@changeset": 93220093,
+        "@timestamp": "2020-10-29T07:35:30Z",
+        "@version": 1,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "building": "yes",
+        "capacity": 3,
+        "description": "2014-01 : Attenant à la cabane du berger Est constitué d'un couloir en parpaings, 3 bannettes et un insert pour faire du feu.",
+        "ele": 1930,
+        "fireplace": "no",
+        "name": "Abri de La Jasse de Bernardi",
+        "note": "60",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "stove": "yes",
+        "tourism": "wilderness_hut",
+        "website": "https://www.refuges.info/point/3509/cabane-non-gardee/Capcir/Abri-de-La-Jasse-de-Bernardi/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0454497,
+          42.5553587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 2554.7,
         "@id": "n7682246386",
@@ -48290,6 +48260,28 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
+        "@distance": 1363.2,
+        "@id": "w847452452",
+        "@changeset": 90911109,
+        "@timestamp": "2020-09-15T08:43:10Z",
+        "@version": 1,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5184709,
+          42.8516663
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
         "@distance": 1390.5,
         "@id": "w847452453",
         "@changeset": 90911109,
@@ -48448,6 +48440,30 @@
         "coordinates": [
           -0.1672818,
           42.8467023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 85.6,
+        "@id": "w989026288",
+        "@changeset": 112024775,
+        "@timestamp": "2021-10-03T08:49:59Z",
+        "@version": 1,
+        "@uid": 16897,
+        "@user": "pyrenees",
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "Cabane de Saucede / Clot du Laun",
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=1205"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2666558,
+          42.954941
         ]
       }
     },
@@ -49268,31 +49284,21 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 1533.1,
-        "@id": "w864933564",
-        "@changeset": 93220093,
-        "@timestamp": "2020-10-29T07:35:30Z",
+        "@poi": "water_spring",
+        "@distance": 1683,
+        "@id": "n8968612847",
+        "@changeset": 108946591,
+        "@timestamp": "2021-07-31T14:52:09Z",
         "@version": 1,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "building": "yes",
-        "capacity": 3,
-        "description": "2014-01 : Attenant à la cabane du berger Est constitué d'un couloir en parpaings, 3 bannettes et un insert pour faire du feu.",
-        "ele": 1930,
-        "fireplace": "no",
-        "name": "Abri de La Jasse de Bernardi",
-        "note": "60",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
-        "stove": "yes",
-        "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/3509/cabane-non-gardee/Capcir/Abri-de-La-Jasse-de-Bernardi/"
+        "@uid": 11285694,
+        "@user": "jean-ray2",
+        "natural": "spring"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.0454497,
-          42.5553587
+          0.8732214,
+          42.8503898
         ]
       }
     },
@@ -50448,27 +50454,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_spring",
-        "@distance": 1683,
-        "@id": "n8968612847",
-        "@changeset": 108946591,
-        "@timestamp": "2021-07-31T14:52:09Z",
-        "@version": 1,
-        "@uid": 11285694,
-        "@user": "jean-ray2",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.8732214,
-          42.8503898
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
         "@distance": 802.2,
         "@id": "n9001453232",
         "@changeset": 109572766,
@@ -50778,16 +50763,16 @@
         "@poi": "alpine-hut",
         "@distance": 29.6,
         "@id": "w143417686",
-        "@changeset": 111931549,
-        "@timestamp": "2021-09-30T19:01:36Z",
-        "@version": 7,
-        "@uid": 11250200,
-        "@user": "Hades34",
+        "@changeset": 112025959,
+        "@timestamp": "2021-10-03T09:26:46Z",
+        "@version": 8,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "beds": "52",
         "description": "Gardé de juin à septembre",
         "drinking_water": "yes",
         "ele": 1965,
-        "internet_access:type": "no",
+        "fee": "yes",
         "name": "Refuge Jacques Husson",
         "operator": "Club Alpin Français",
         "phone": "+33 5 61 96 73 73",
@@ -50910,13 +50895,64 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_wilderness-hut",
+        "@distance": 220.6,
+        "@id": "w241430639",
+        "@changeset": 112025801,
+        "@timestamp": "2021-10-03T09:20:35Z",
+        "@version": 4,
+        "@uid": 16897,
+        "@user": "pyrenees",
+        "building": "yes",
+        "fireplace": "yes",
+        "name": "Cabane d'Uls",
+        "tourism": "wilderness_hut",
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=318"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.8383177,
+          42.8540347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 1188.8,
+        "@id": "w352407718",
+        "@changeset": 112032807,
+        "@timestamp": "2021-10-03T12:55:27Z",
+        "@version": 2,
+        "@uid": 16897,
+        "@user": "pyrenees",
+        "access": "restricted",
+        "building": "yes",
+        "fireplace": "yes",
+        "name": "Cabane de Luzurs",
+        "tourism": "wilderness_hut",
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=339"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1119341,
+          42.8457692
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
         "@distance": 34,
         "@id": "w362846015",
-        "@changeset": 91327052,
-        "@timestamp": "2020-09-23T03:23:33Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 112026367,
+        "@timestamp": "2021-10-03T09:40:08Z",
+        "@version": 3,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "building": "yes",
         "capacity": 12,
         "description": "2020-06 : grande pièce : - 1 grand bat-flanc en bois, - 1 cheminée, - A l'étage, un plancher nu en très bon état. Petite pièce : - 1 petit bat-flanc en bois, - 2 chaises, - A l'étage, un plancher nu en très bon état.",
@@ -50927,7 +50963,7 @@
         "source": "Association \"Refuges et cabanes des Pyrénées\"",
         "stove": "no",
         "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/4588/cabane-non-gardee/Couserans/Cabane-de-Trapech-du-milieu/"
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=313"
       },
       "geometry": {
         "type": "Point",
@@ -50943,22 +50979,22 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 11.6,
         "@id": "w362846372",
-        "@changeset": 91327121,
-        "@timestamp": "2020-09-23T03:24:56Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 112026388,
+        "@timestamp": "2021-10-03T09:40:43Z",
+        "@version": 3,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "building": "yes",
         "capacity": 3,
         "description": "2020-06 : - 1 bat-flanc en bois - 1 cheminée",
         "ele": 1411,
         "fireplace": "yes",
-        "name": "Cabane de l Artigue - castillonais",
+        "name": "Cabane de l Artigue",
         "note": "757",
         "source": "Association \"Refuges et cabanes des Pyrénées\"",
         "stove": "no",
         "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/4589/cabane-non-gardee/Couserans/Cabane-de-l-Artigue/"
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=757"
       },
       "geometry": {
         "type": "Point",
@@ -52468,11 +52504,11 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 19.1,
         "@id": "w372256802",
-        "@changeset": 91275741,
-        "@timestamp": "2020-09-22T08:31:12Z",
-        "@version": 3,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 112026026,
+        "@timestamp": "2021-10-03T09:28:58Z",
+        "@version": 4,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "building": "yes",
         "building:levels": "1",
         "capacity": 12,
@@ -52484,7 +52520,7 @@
         "source": "Association \"Refuges et cabanes des Pyrénées\"",
         "stove": "no",
         "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/7013/cabane-non-gardee/Couserans/Cabane-de-l-Etang-d-Araing/"
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=678"
       },
       "geometry": {
         "type": "Point",
@@ -52526,11 +52562,11 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 489.2,
         "@id": "w431570595",
-        "@changeset": 91339126,
-        "@timestamp": "2020-09-23T06:25:50Z",
-        "@version": 3,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 112032409,
+        "@timestamp": "2021-10-03T12:45:08Z",
+        "@version": 4,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "alt_name": "Cabane Taus du Vallier - castillonais",
         "building": "yes",
         "capacity": 8,
@@ -52542,7 +52578,7 @@
         "source": "Association \"Refuges et cabanes des Pyrénées\"",
         "stove": "no",
         "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/5684/cabane-non-gardee/Couserans/Cabane-du-Taus/"
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=566"
       },
       "geometry": {
         "type": "Point",
@@ -52649,24 +52685,24 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
+        "@poi": "shelter_wilderness-hut",
         "@distance": 53.1,
         "@id": "w431901188",
-        "@changeset": 91326919,
-        "@timestamp": "2020-09-23T03:20:01Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
+        "@changeset": 112026356,
+        "@timestamp": "2021-10-03T09:39:42Z",
+        "@version": 3,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "building": "yes",
-        "description": "2020-06 : Cabane servant de dépôt de diverses denrées, sol en terre battue et pierre.",
+        "description": "Cabane restaurée en 2012 à l'initiative des Amis du Parc ariégeoise. Elle n a pas été agrandie par contre. Cabane Ouverte mais sert en partie de pièce de stockage. Peu dépanner en cas de besoin même si elle ne se trouve pas sur le sentier principal.",
         "ele": 1728,
         "fireplace": "no",
         "name": "Cabane du Trapech d'en haut",
         "shelter_type": "weather_shelter",
         "source": "Association \"Refuges et cabanes des Pyrénées",
         "stove": "no",
-        "website": "https://www.refuges.info/point/4587/cabane-non-gardee/Couserans/Cabane-du-Trapech-d-en-haut/"
+        "tourism": "wilderness_hut",
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=1143"
       },
       "geometry": {
         "type": "Point",
@@ -52682,11 +52718,11 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 81.7,
         "@id": "w431901189",
-        "@changeset": 91326919,
-        "@timestamp": "2020-09-23T03:20:01Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 112026322,
+        "@timestamp": "2021-10-03T09:38:16Z",
+        "@version": 3,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "alt_name": "Cabane du Bomboi",
         "building": "yes",
         "capacity": 10,
@@ -52698,7 +52734,7 @@
         "source": "Association \"Refuges et cabanes des Pyrénées\"",
         "stove": "yes",
         "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/3878/cabane-non-gardee/Couserans/Cabane-du-Clot-du-Lac/"
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=551"
       },
       "geometry": {
         "type": "Point",
@@ -52714,11 +52750,11 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 73.8,
         "@id": "w431901190",
-        "@changeset": 91326919,
-        "@timestamp": "2020-09-23T03:20:01Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 112026300,
+        "@timestamp": "2021-10-03T09:37:46Z",
+        "@version": 3,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "alt_name": "Cabane du Bout de la Forêt",
         "building": "yes",
         "capacity": 8,
@@ -52730,7 +52766,7 @@
         "source": "Association \"Refuges et cabanes des Pyrénées\"",
         "stove": "no",
         "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/3874/cabane-non-gardee/Couserans/Cabane-de-Besset-ou-du-Bout-de-la-Foret/"
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=539"
       },
       "geometry": {
         "type": "Point",
@@ -52746,11 +52782,11 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 1524.5,
         "@id": "w432116470",
-        "@changeset": 93965414,
-        "@timestamp": "2020-11-12T04:57:16Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 112026228,
+        "@timestamp": "2021-10-03T09:35:08Z",
+        "@version": 3,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "building": "yes",
         "capacity": 6,
         "description": "2020-09 : Equipement intérieur des 2 parties: - 1 table - 2 bancs et une chaise - 1 cheminée - A l'étage : un plancher en bon état et 2 matelas mousse.",
@@ -52761,7 +52797,7 @@
         "source": "Association \"Refuges et cabanes des Pyrénées\"",
         "stove": "no",
         "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/7219/cabane-non-gardee/Couserans/Cabane-du-Col-des-Cassaings/"
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=541"
       },
       "geometry": {
         "type": "Point",
@@ -52777,11 +52813,11 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 80.3,
         "@id": "w433028352",
-        "@changeset": 91338268,
-        "@timestamp": "2020-09-23T06:15:51Z",
-        "@version": 4,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 112032388,
+        "@timestamp": "2021-10-03T12:44:32Z",
+        "@version": 5,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "building": "yes",
         "capacity": 2,
         "description": "2016-11 : Cabane très petite composée de deux pièces: 1. Toujours ouverte. Une pièce de 2m50 par 2m,un bas flanc, avec un matelas une place. 2. Peut-être parfois fermée. Une plus grande pièce avec une cheminée, un sommier et un matelas.",
@@ -52792,7 +52828,7 @@
         "source": "Association \"Refuges et cabanes des Pyrénées\"",
         "stove": "no",
         "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/5685/cabane-non-gardee/Couserans/Cabane-d-Aouen/"
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=975"
       },
       "geometry": {
         "type": "Point",
@@ -53007,11 +53043,11 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 125.4,
         "@id": "w436502828",
-        "@changeset": 93965414,
-        "@timestamp": "2020-11-12T04:57:16Z",
-        "@version": 3,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 112026221,
+        "@timestamp": "2021-10-03T09:34:59Z",
+        "@version": 4,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "building": "hut",
         "capacity": 4,
         "description": "2020-09 - Equipement intérieur des 2 parties: - 1 table - 1 banc et 1 tabouret - 1 cheminée - A l'étage : plancher en bon état avec un grand matelas.",
@@ -53022,7 +53058,7 @@
         "source": "Association \"Refuges et cabanes des Pyrénées\"",
         "stove": "no",
         "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/7218/cabane-non-gardee/Couserans/Cabane-de-Lasplanous/"
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=553"
       },
       "geometry": {
         "type": "Point",
@@ -53329,6 +53365,31 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_wilderness-hut",
+        "@distance": 3054.3,
+        "@id": "w835591059",
+        "@changeset": 112032700,
+        "@timestamp": "2021-10-03T12:52:47Z",
+        "@version": 3,
+        "@uid": 16897,
+        "@user": "pyrenees",
+        "building": "yes",
+        "description": "Bonne cabane située sur le chemin de la Liberté et sur le GR10. Une partie pour le berger, une partie pour les randonneurs, en très bon état, spacieuse et bien aménagée: table.",
+        "name": "Cabane de Subera",
+        "tourism": "wilderness_hut",
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=577"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1076678,
+          42.8258395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
         "@distance": 1657.7,
         "@id": "w838264053",
         "@changeset": 93964732,
@@ -53531,14 +53592,14 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 1386.1,
         "@id": "w850032857",
-        "@changeset": 91272537,
-        "@timestamp": "2020-09-22T07:46:29Z",
-        "@version": 1,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 112025882,
+        "@timestamp": "2021-10-03T09:23:17Z",
+        "@version": 2,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "building": "yes",
         "capacity": 2,
-        "description": "2020-06 : Équipement intérieur : - 1 grande table - 2 bancs - 1 cheminée - 2 lits superposés en bois",
+        "description": "Tres bon état. D'après une inscription rénovée par les scouts de Metz St Avold en 1996 . Source ferrugineuse se situant sur le flanc en face de la cabane. Une petite dalle de béton avec inscrit dessus eau potable et un petit tuyau de captage indique la so",
         "ele": 2020,
         "fireplace": "yes",
         "name": "Cabane Col de La Terme",
@@ -53546,44 +53607,13 @@
         "source": "Association \"Refuges et cabanes des Pyrénées\"",
         "stove": "no",
         "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/7024/cabane-non-gardee/Couserans/Cabane-du-Col-de-La-Terme/"
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=562"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           0.8481468,
           42.8671106
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 292.5,
-        "@id": "w850339720",
-        "@changeset": 91327945,
-        "@timestamp": "2020-09-23T03:42:24Z",
-        "@version": 1,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "building": "yes",
-        "capacity": 10,
-        "description": "2020-09 : Grande cabane sur deux niveaux, ouverte aux randonneurs toute l'année. Au rez de chaussé : * Une cheminée * Trois tables et tabourets * Un peu de vaisselle 、2 scies à bois - 3 grilles - 1 lampe veilleuse - livre d'or À l'étage : * 6 matelas.",
-        "ele": 1150,
-        "fireplace": "yes",
-        "name": "Cabane de Graouilles",
-        "note": "158",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
-        "stove": "no",
-        "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/5514/cabane-non-gardee/Couserans/Cabane-de-Graouilles/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.9846248,
-          42.8164343
         ]
       }
     },
@@ -54987,6 +55017,37 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_wilderness-hut",
+        "@distance": 292.5,
+        "@id": "w850339720",
+        "@changeset": 91327945,
+        "@timestamp": "2020-09-23T03:42:24Z",
+        "@version": 1,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "building": "yes",
+        "capacity": 10,
+        "description": "2020-09 : Grande cabane sur deux niveaux, ouverte aux randonneurs toute l'année. Au rez de chaussé : * Une cheminée * Trois tables et tabourets * Un peu de vaisselle 、2 scies à bois - 3 grilles - 1 lampe veilleuse - livre d'or À l'étage : * 6 matelas.",
+        "ele": 1150,
+        "fireplace": "yes",
+        "name": "Cabane de Graouilles",
+        "note": "158",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "stove": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://www.refuges.info/point/5514/cabane-non-gardee/Couserans/Cabane-de-Graouilles/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9846248,
+          42.8164343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
         "@distance": 1575.2,
         "@id": "w850343881",
         "@changeset": 91328999,
@@ -55080,19 +55141,20 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 5.9,
         "@id": "w850355143",
-        "@changeset": 91332713,
-        "@timestamp": "2020-09-23T05:00:21Z",
-        "@version": 1,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 112032468,
+        "@timestamp": "2021-10-03T12:46:41Z",
+        "@version": 2,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "building": "yes",
         "capacity": 8,
+        "description": "Bonne cabane propre, avec grande table, bancs et cheminée au RDC, et couchage 6 personnes à l'étage sur plancher. Pas de matelas. Source devant la cabane, bois pas loin. Petite réserve à sel accolée à la cabane.",
         "ele": 1690.3,
         "fireplace": "yes",
         "name": "Cabane du Col d'Eliet",
         "stove": "no",
         "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/3875/cabane-non-gardee/Couserans/Cabane-du-Clot-d-Eliet/"
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=545"
       },
       "geometry": {
         "type": "Point",
@@ -55108,11 +55170,11 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 1265.8,
         "@id": "w870007987",
-        "@changeset": 111931549,
-        "@timestamp": "2021-09-30T19:01:36Z",
-        "@version": 2,
-        "@uid": 11250200,
-        "@user": "Hades34",
+        "@changeset": 112026068,
+        "@timestamp": "2021-10-03T09:30:16Z",
+        "@version": 3,
+        "@uid": 16897,
+        "@user": "pyrenees",
         "capacity": 6,
         "description": "2020-09 : Cabane pastorale ouverte. 1 cheminée - 1 table en fer - 2 bancs en fer - 2 couchettes en bois - A l'étage : un plancher en bon état et propre.",
         "ele": 1480,
@@ -55120,7 +55182,7 @@
         "name": "Cabane d'Illau",
         "note": "172",
         "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/7192/cabane-non-gardee/Couserans/Cabane-d-Ilhaou/"
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=172"
       },
       "geometry": {
         "type": "Point",
@@ -55209,6 +55271,56 @@
         "coordinates": [
           1.2275622,
           42.7699108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 1389.1,
+        "@id": "w989031470",
+        "@changeset": 112025762,
+        "@timestamp": "2021-10-03T09:19:13Z",
+        "@version": 1,
+        "@uid": 16897,
+        "@user": "pyrenees",
+        "building": "yes",
+        "description": "Table. bancs. 3lits. 1 cheminée. bois a proximité. fontaine a coté de la cabane captage a 200 mètres.",
+        "fireplace": "yes",
+        "name": "Cabane d'Herechet (ou des Rechets)",
+        "tourism": "wilderness_hut",
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=728"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7231934,
+          42.8614652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 106.9,
+        "@id": "w989062754",
+        "@changeset": 112032328,
+        "@timestamp": "2021-10-03T12:42:46Z",
+        "@version": 1,
+        "@uid": 16897,
+        "@user": "pyrenees",
+        "building": "yes",
+        "name": "Cabane de villenave",
+        "tourism": "wilderness_hut",
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=1516"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0280897,
+          42.8332155
         ]
       }
     },

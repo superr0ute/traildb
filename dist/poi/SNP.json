@@ -58923,33 +58923,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_convenience",
-        "@distance": 3898.1,
-        "@id": "w320203201",
-        "@changeset": 64257579,
-        "@timestamp": "2018-11-07T10:27:52Z",
-        "@version": 4,
-        "@uid": 7769037,
-        "@user": "Jaroslav Kardoš",
-        "building": "yes",
-        "name": "Potraviny",
-        "operator": "Gazdík",
-        "payment:cards": "yes",
-        "payment:cash": "yes",
-        "shop": "convenience",
-        "source": "kapor2"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.1210074,
-          48.9338365
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
         "@distance": 6747.8,
         "@id": "n4828960568",
         "@changeset": 48309967,
@@ -64205,13 +64178,20 @@
         "@poi": "foodshop_supermarket",
         "@distance": 2758.7,
         "@id": "n7911459528",
-        "@changeset": 90952278,
-        "@timestamp": "2020-09-16T02:23:40Z",
-        "@version": 1,
+        "@changeset": 112018057,
+        "@timestamp": "2021-10-03T00:12:53Z",
+        "@version": 2,
         "@uid": 6297500,
         "@user": "infitter",
+        "addr:city": "Prešov",
+        "addr:housenumber": "3",
+        "addr:postcode": "08001",
+        "addr:street": "Námestie Kráľovnej pokoja",
+        "name": "CBA Karmen",
+        "opening_hours": "Mo-Fr 06:00-17:30",
+        "phone": "0915 914 166",
         "shop": "supermarket",
-        "name": "CBA Karmen"
+        "website": "https://www.karmen.sk/"
       },
       "geometry": {
         "type": "Point",
@@ -64227,15 +64207,21 @@
         "@poi": "foodshop_supermarket",
         "@distance": 2774.9,
         "@id": "n7911459529",
-        "@changeset": 90952278,
-        "@timestamp": "2020-09-16T02:23:40Z",
-        "@version": 1,
+        "@changeset": 112018057,
+        "@timestamp": "2021-10-03T00:12:53Z",
+        "@version": 2,
         "@uid": 6297500,
         "@user": "infitter",
-        "shop": "supermarket",
-        "name": "Milk-Agro",
+        "addr:city": "Prešov",
+        "addr:housenumber": "50",
+        "addr:postcode": "08001",
+        "addr:street": "Volgogradská",
+        "brand": "Milk-Agro",
         "brand:wikidata": "Q64173785",
-        "brand": "Milk-Agro"
+        "name": "Milk-Agro",
+        "opening_hours": "Mo-Fr 06:00-18:00; Sa 06:00-12:00",
+        "phone": "051/771 61 00",
+        "shop": "supermarket"
       },
       "geometry": {
         "type": "Point",
@@ -65659,6 +65645,94 @@
         "coordinates": [
           21.2212119,
           49.0087419
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 2994.1,
+        "@id": "n9140809869",
+        "@changeset": 112018057,
+        "@timestamp": "2021-10-03T00:12:53Z",
+        "@version": 1,
+        "@uid": 6297500,
+        "@user": "infitter",
+        "addr:city": "Prešov",
+        "addr:housenumber": "29",
+        "addr:postcode": "08001",
+        "addr:street": "Československej armády",
+        "brand": "Milk-Agro",
+        "brand:wikidata": "Q64173785",
+        "name": "Milk-Agro",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2250646,
+          48.9981775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 3199.3,
+        "@id": "n9140809885",
+        "@changeset": 112018057,
+        "@timestamp": "2021-10-03T00:12:53Z",
+        "@version": 1,
+        "@uid": 6297500,
+        "@user": "infitter",
+        "addr:city": "Prešov",
+        "addr:housenumber": "1",
+        "addr:postcode": "08001",
+        "addr:street": "Fučíkova",
+        "brand": "Milk-Agro",
+        "brand:wikidata": "Q64173785",
+        "name": "Milk-Agro",
+        "opening_hours": "Mo-Fr 06:00-18:00; Sa 06:00-12:00",
+        "phone": "051/774 47 08",
+        "shop": "supermarket",
+        "website": "https://www.milkagro.sk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.228409,
+          48.996122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 4771.5,
+        "@id": "n9140810124",
+        "@changeset": 112018057,
+        "@timestamp": "2021-10-03T00:12:53Z",
+        "@version": 1,
+        "@uid": 6297500,
+        "@user": "infitter",
+        "addr:city": "Prešov",
+        "addr:housenumber": "29",
+        "addr:postcode": "080 01",
+        "addr:street": "Masarykova",
+        "brand": "Shell",
+        "brand:wikidata": "Q154950",
+        "brand:wikipedia": "en:Royal Dutch Shell",
+        "name": "Shell",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2491347,
+          48.9849491
         ]
       }
     },
@@ -68755,6 +68829,33 @@
         "coordinates": [
           17.2193527,
           48.3516246
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 3898.1,
+        "@id": "w320203201",
+        "@changeset": 64257579,
+        "@timestamp": "2018-11-07T10:27:52Z",
+        "@version": 4,
+        "@uid": 7769037,
+        "@user": "Jaroslav Kardoš",
+        "building": "yes",
+        "name": "Potraviny",
+        "operator": "Gazdík",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "shop": "convenience",
+        "source": "kapor2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1210074,
+          48.9338365
         ]
       }
     },
@@ -78033,13 +78134,13 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
-        "@distance": 2380.5,
+        "@distance": 2374.7,
         "@id": "n9135438033",
-        "@changeset": 111961747,
-        "@timestamp": "2021-10-01T12:31:00Z",
-        "@version": 3,
-        "@uid": 71631,
-        "@user": "andrewsh",
+        "@changeset": 112051670,
+        "@timestamp": "2021-10-03T23:29:06Z",
+        "@version": 4,
+        "@uid": 1617449,
+        "@user": "aceman444",
         "brand": "Yeme",
         "brand:wikidata": "Q108757006",
         "level": "0",
@@ -78051,8 +78152,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.1282374,
-          48.1473559
+          17.1281853,
+          48.1474276
         ]
       }
     },
