@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-10-02T23:59:59Z",
-    "timestamp_osm_base": "2021-10-03T05:11:58Z",
+    "timestamp_osm_date": "2021-10-03T23:59:59Z",
+    "timestamp_osm_base": "2021-10-04T05:14:13Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6774,17 +6774,17 @@
       "id": 289304698,
       "lat": 48.1320276,
       "lon": 16.250681,
-      "timestamp": "2019-12-19T21:15:35Z",
-      "version": 5,
-      "changeset": 78655588,
-      "user": "CamelCaseNick",
-      "uid": 9563645,
+      "timestamp": "2021-10-03T01:57:33Z",
+      "version": 6,
+      "changeset": 112018953,
+      "user": "fkv",
+      "uid": 302363,
       "tags": {
-        "ele": "327",
-        "fixme": "Höhe ungenau, bitte nachmessen",
-        "wikidata": "Q21859778",
+        "ele": "325",
         "name": "Zugberg",
-        "natural": "peak"
+        "natural": "peak",
+        "source:ele": "Laserscan",
+        "wikidata": "Q21859778"
       }
     },
     {
@@ -13298,17 +13298,18 @@
     {
       "type": "node",
       "id": 560968874,
-      "lat": 47.9908695,
-      "lon": 16.2574669,
-      "timestamp": "2021-02-19T17:22:57Z",
-      "version": 7,
-      "changeset": 99609552,
-      "user": "WaWei",
-      "uid": 9940746,
+      "lat": 47.9908404,
+      "lon": 16.2574686,
+      "timestamp": "2021-10-03T16:43:45Z",
+      "version": 8,
+      "changeset": 112041110,
+      "user": "wasinix",
+      "uid": 34505,
       "tags": {
         "amenity": "drinking_water",
         "bottle": "yes",
-        "fee": "no"
+        "fee": "no",
+        "survey:date": "2021-10-03"
       }
     },
     {
@@ -31849,13 +31850,14 @@
       "id": 2456049656,
       "lat": 48.2427321,
       "lon": 16.3860954,
-      "timestamp": "2013-09-12T19:05:43Z",
-      "version": 1,
-      "changeset": 17805575,
-      "user": "svd",
-      "uid": 48437,
+      "timestamp": "2021-10-03T16:17:09Z",
+      "version": 2,
+      "changeset": 112040154,
+      "user": "brigittahood",
+      "uid": 12495784,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "check_date": "2021-09-29"
       }
     },
     {
@@ -49265,11 +49267,11 @@
       "id": 5698728342,
       "lat": 48.2239311,
       "lon": 16.3931116,
-      "timestamp": "2020-06-30T19:48:52Z",
-      "version": 4,
-      "changeset": 87364733,
-      "user": "Volker Fröhlich",
-      "uid": 2248331,
+      "timestamp": "2021-10-03T16:16:52Z",
+      "version": 5,
+      "changeset": 112040130,
+      "user": "brigittahood",
+      "uid": 12495784,
       "tags": {
         "addr:city": "Wien",
         "addr:country": "AT",
@@ -49280,6 +49282,7 @@
         "brand": "Hofer",
         "brand:wikidata": "Q15815751",
         "brand:wikipedia": "de:Hofer KG",
+        "check_date:opening_hours": "2021-09-19",
         "level": "0",
         "name": "Hofer",
         "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00; PH off",
@@ -58337,6 +58340,35 @@
       "uid": 8620055,
       "tags": {
         "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9141408495,
+      "lat": 48.1684835,
+      "lon": 16.3099344,
+      "timestamp": "2021-10-03T10:45:16Z",
+      "version": 1,
+      "changeset": 112028451,
+      "user": "shikkonin",
+      "uid": 546975,
+      "tags": {
+        "amenity": "drinking_water",
+        "bottles": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9143015101,
+      "lat": 48.1668864,
+      "lon": 16.4073381,
+      "timestamp": "2021-10-03T20:08:03Z",
+      "version": 1,
+      "changeset": 112047422,
+      "user": "parsewski",
+      "uid": 885219,
+      "tags": {
+        "amenity": "shelter"
       }
     },
     {
@@ -68206,11 +68238,11 @@
     {
       "type": "way",
       "id": 249168916,
-      "timestamp": "2018-12-28T06:39:05Z",
-      "version": 4,
-      "changeset": 65832651,
-      "user": "Luzandro",
-      "uid": 365601,
+      "timestamp": "2021-10-03T20:19:17Z",
+      "version": 7,
+      "changeset": 112047749,
+      "user": "wasinix",
+      "uid": 34505,
       "center": {
         "lat": 47.9982224,
         "lon": 16.2495021
@@ -68223,7 +68255,9 @@
         "addr:postcode": "2500",
         "addr:street": "Schießgraben",
         "at_bev:addr_date": "2018-10-01",
-        "building": "yes",
+        "building": "retail",
+        "building:levels": "2",
+        "check_date:opening_hours": "2021-10-03",
         "name": "Billa",
         "opening_hours": "Mo-Fr 07:15-19:30; Sa 07:15-18:00",
         "shop": "supermarket",
@@ -76603,26 +76637,6 @@
         "seats": "12",
         "shelter": "yes",
         "tourism": "picnic_site"
-      }
-    },
-    {
-      "type": "way",
-      "id": 499620523,
-      "timestamp": "2017-06-19T20:34:29Z",
-      "version": 2,
-      "changeset": 49676554,
-      "user": "keanga",
-      "uid": 3833611,
-      "center": {
-        "lat": 48.2857112,
-        "lon": 16.3816533
-      },
-      "nodes": [],
-      "tags": {
-        "amenity": "shelter",
-        "building": "yes",
-        "level": "0",
-        "shelter_type": "public_transport"
       }
     },
     {
@@ -85452,6 +85466,28 @@
         "amenity": "shelter",
         "building": "yes",
         "building:levels": "1",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 989094731,
+      "timestamp": "2021-10-03T13:49:46Z",
+      "version": 1,
+      "changeset": 112034696,
+      "user": "keanga",
+      "uid": 3833611,
+      "center": {
+        "lat": 48.2861605,
+        "lon": 16.38108
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "level": "0",
+        "lit": "yes",
         "shelter_type": "public_transport"
       }
     }

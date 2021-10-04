@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-10-02T23:59:59Z",
-    "timestamp_osm_base": "2021-10-03T03:14:47Z",
+    "timestamp_osm_date": "2021-10-03T23:59:59Z",
+    "timestamp_osm_base": "2021-10-04T02:02:29Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4213,14 +4213,17 @@
       "type": "node",
       "id": 8517860352,
       "lat": 33.3047513,
-      "lon": -111.7022774,
-      "timestamp": "2021-03-14T15:18:13Z",
-      "version": 1,
-      "changeset": 100993962,
-      "user": "Jon Hanson",
-      "uid": 36097,
+      "lon": -111.702277,
+      "timestamp": "2021-10-03T04:00:14Z",
+      "version": 2,
+      "changeset": 112019853,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
       "tags": {
-        "name": "Fry’s Marketplace",
+        "brand": "Fry's Marketplace",
+        "brand:wikidata": "Q5506547",
+        "brand:wikipedia": "en:Fry's Food and Drug",
+        "name": "Fry's Marketplace",
         "shop": "supermarket"
       }
     },
@@ -4294,12 +4297,12 @@
       "type": "node",
       "id": 8640427434,
       "lat": 33.3195948,
-      "lon": -111.6896087,
-      "timestamp": "2021-04-18T17:02:16Z",
-      "version": 1,
-      "changeset": 103146725,
-      "user": "Jon Hanson",
-      "uid": 36097,
+      "lon": -111.689608,
+      "timestamp": "2021-10-03T03:24:23Z",
+      "version": 2,
+      "changeset": 112019535,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
       "tags": {
         "addr:city": "Gilbert",
         "addr:housenumber": "5290",
@@ -4307,6 +4310,9 @@
         "addr:state": "AZ",
         "addr:street": "South Power Road",
         "air_conditioning": "yes",
+        "brand": "Walmart",
+        "brand:wikidata": "Q483551",
+        "brand:wikipedia": "en:Walmart",
         "building:levels": "1",
         "name": "Walmart Supercenter",
         "payment:cash": "yes",
@@ -10316,25 +10322,29 @@
     {
       "type": "way",
       "id": 593077029,
-      "timestamp": "2019-06-04T14:44:27Z",
-      "version": 2,
-      "changeset": 70925980,
+      "timestamp": "2021-10-03T04:00:14Z",
+      "version": 3,
+      "changeset": 112019853,
       "user": "TheDutchMan13",
       "uid": 1330847,
       "center": {
         "lat": 33.3079002,
-        "lon": -111.6860171
+        "lon": -111.6860168
       },
       "nodes": [],
       "tags": {
+        "addr:city": "Mesa",
         "addr:housenumber": "6822",
+        "addr:postcode": "85212",
         "addr:state": "AZ",
+        "addr:street": "East Williams Field Road",
         "brand": "Circle K",
         "brand:wikidata": "Q3268010",
         "brand:wikipedia": "en:Circle K",
         "building": "yes",
         "name": "Circle K",
-        "shop": "convenience"
+        "shop": "convenience",
+        "source": "esri/USA_NAD_Addresses"
       }
     },
     {
@@ -13857,12 +13867,12 @@
       },
       "nodes": [],
       "tags": {
-        "brand": "Circle K",
-        "brand:wikidata": "Q3268010",
-        "brand:wikipedia": "en:Circle K",
-        "building": "yes",
+        "shop": "convenience",
         "name": "Circle K",
-        "shop": "convenience"
+        "building": "yes",
+        "brand:wikipedia": "en:Circle K",
+        "brand:wikidata": "Q3268010",
+        "brand": "Circle K"
       }
     },
     {
@@ -18591,6 +18601,25 @@
       "center": {
         "lat": 33.3926715,
         "lon": -111.7259135
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "way",
+      "id": 988989355,
+      "timestamp": "2021-10-03T04:00:14Z",
+      "version": 1,
+      "changeset": 112019853,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
+      "center": {
+        "lat": 33.3080227,
+        "lon": -111.6825717
       },
       "nodes": [],
       "tags": {
