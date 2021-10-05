@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-10-03T23:59:59Z",
-    "timestamp_osm_base": "2021-10-04T02:02:29Z",
+    "timestamp_osm_date": "2021-10-04T23:59:59Z",
+    "timestamp_osm_base": "2021-10-05T03:15:04Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4229,25 +4229,6 @@
     },
     {
       "type": "node",
-      "id": 8533214687,
-      "lat": 33.2346478,
-      "lon": -111.7212928,
-      "timestamp": "2021-03-18T17:26:22Z",
-      "version": 1,
-      "changeset": 101277013,
-      "user": "Jon Hanson",
-      "uid": 36097,
-      "tags": {
-        "addr:city": "Gilbert",
-        "addr:postcode": "85298",
-        "addr:state": "AZ",
-        "addr:street": "East Chandler Heights Road",
-        "name": "Food Mart",
-        "shop": "convenience"
-      }
-    },
-    {
-      "type": "node",
       "id": 8542102063,
       "lat": 33.2306414,
       "lon": -111.7195645,
@@ -6789,9 +6770,9 @@
     {
       "type": "way",
       "id": 228704593,
-      "timestamp": "2020-09-23T19:14:44Z",
-      "version": 6,
-      "changeset": 91387825,
+      "timestamp": "2021-10-04T02:35:06Z",
+      "version": 7,
+      "changeset": 112053780,
       "user": "TheDutchMan13",
       "uid": 1330847,
       "center": {
@@ -6806,7 +6787,7 @@
         "addr:postcode": "85298",
         "addr:state": "AZ",
         "addr:street": "South Higley Road",
-        "brand": "Fry's Food and Drug",
+        "brand": "Fry's Marketplace",
         "brand:wikidata": "Q5506547",
         "brand:wikipedia": "en:Fry's Food and Drug",
         "building": "yes",
@@ -8251,14 +8232,14 @@
     {
       "type": "way",
       "id": 446158127,
-      "timestamp": "2020-05-25T05:22:48Z",
-      "version": 3,
-      "changeset": 85702782,
-      "user": "HJUdall",
-      "uid": 10521928,
+      "timestamp": "2021-10-04T00:52:23Z",
+      "version": 4,
+      "changeset": 112052678,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
       "center": {
-        "lat": 33.3373309,
-        "lon": -111.7571904
+        "lat": 33.3373155,
+        "lon": -111.7571667
       },
       "nodes": [],
       "tags": {
@@ -10944,6 +10925,31 @@
         "building": "yes",
         "name": "Circle K",
         "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 666377227,
+      "timestamp": "2021-10-04T02:35:06Z",
+      "version": 4,
+      "changeset": 112053780,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
+      "center": {
+        "lat": 33.2346547,
+        "lon": -111.7212945
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "3160",
+        "addr:postcode": "85298",
+        "addr:state": "AZ",
+        "addr:street": "East Chandler Heights Road",
+        "building": "retail",
+        "name": "Food Mart",
+        "shop": "convenience",
+        "source": "esri/USA_NAD_Addresses"
       }
     },
     {
@@ -13856,23 +13862,29 @@
     {
       "type": "way",
       "id": 839175349,
-      "timestamp": "2020-08-21T00:53:58Z",
-      "version": 1,
-      "changeset": 89715842,
-      "user": "HJUdall",
-      "uid": 10521928,
+      "timestamp": "2021-10-04T00:24:03Z",
+      "version": 2,
+      "changeset": 112052331,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
       "center": {
         "lat": 33.3342993,
         "lon": -111.7220579
       },
       "nodes": [],
       "tags": {
-        "shop": "convenience",
-        "name": "Circle K",
-        "building": "yes",
-        "brand:wikipedia": "en:Circle K",
+        "addr:city": "Gilbert",
+        "addr:housenumber": "888",
+        "addr:postcode": "85296",
+        "addr:state": "AZ",
+        "addr:street": "South Higley Road",
+        "brand": "Circle K",
         "brand:wikidata": "Q3268010",
-        "brand": "Circle K"
+        "brand:wikipedia": "en:Circle K",
+        "building": "yes",
+        "name": "Circle K",
+        "shop": "convenience",
+        "source": "esri/USA_NAD_Addresses"
       }
     },
     {
@@ -18620,6 +18632,44 @@
       "center": {
         "lat": 33.3080227,
         "lon": -111.6825717
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "way",
+      "id": 989260611,
+      "timestamp": "2021-10-04T02:35:06Z",
+      "version": 1,
+      "changeset": 112053780,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
+      "center": {
+        "lat": 33.2851708,
+        "lon": -111.7177152
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "way",
+      "id": 989260620,
+      "timestamp": "2021-10-04T02:35:06Z",
+      "version": 1,
+      "changeset": 112053780,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
+      "center": {
+        "lat": 33.271698,
+        "lon": -111.736704
       },
       "nodes": [],
       "tags": {
