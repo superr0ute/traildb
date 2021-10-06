@@ -48054,38 +48054,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 222.7,
-        "@id": "w392137329",
-        "@changeset": 91685443,
-        "@timestamp": "2020-09-29T07:03:19Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "building": "yes",
-        "capacity": 5,
-        "description:fr": "2016-02 : Solide cabane ouverte. Pas de fenêtre. Sert aussi de lieu de stockage (sel pour les animaux !). Equipement : - Plancher - 5 Matelas empilés au fond de la cabane",
-        "ele": 2310,
-        "fireplace": "yes",
-        "name": "Cabana de Setut",
-        "name:fr": "Cabane de Setut",
-        "note": "593",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
-        "stove": "no",
-        "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/5445/cabane-non-gardee/Andorre/Cabane-de-Setut/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.6422689,
-          42.4825623
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 275.5,
         "@id": "n6511202906",
@@ -48946,12 +48914,13 @@
         "@poi": "foodshop_supermarket",
         "@distance": 238.3,
         "@id": "w158900499",
-        "@changeset": 112015031,
-        "@timestamp": "2021-10-02T20:58:24Z",
-        "@version": 4,
+        "@changeset": 112142019,
+        "@timestamp": "2021-10-05T21:40:15Z",
+        "@version": 5,
         "@uid": 37094,
         "@user": "alex gabilondo",
         "building": "retail",
+        "building:levels": "1",
         "name": "Dia supermerkatua",
         "opening_hours": "Mo-Sa 09:00-21:00",
         "shop": "supermarket"
@@ -49726,6 +49695,38 @@
         "coordinates": [
           0.8406711,
           42.6403052
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 222.7,
+        "@id": "w392137329",
+        "@changeset": 91685443,
+        "@timestamp": "2020-09-29T07:03:19Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "building": "yes",
+        "capacity": 5,
+        "description:fr": "2016-02 : Solide cabane ouverte. Pas de fenêtre. Sert aussi de lieu de stockage (sel pour les animaux !). Equipement : - Plancher - 5 Matelas empilés au fond de la cabane",
+        "ele": 2310,
+        "fireplace": "yes",
+        "name": "Cabana de Setut",
+        "name:fr": "Cabane de Setut",
+        "note": "593",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "stove": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://www.refuges.info/point/5445/cabane-non-gardee/Andorre/Cabane-de-Setut/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6422689,
+          42.4825623
         ]
       }
     },
