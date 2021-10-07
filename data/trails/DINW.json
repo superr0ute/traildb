@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-02T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-06T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -875,9 +875,9 @@
     {
       "type": "relation",
       "id": 7388367,
-      "timestamp": "2021-09-28T14:57:35Z",
-      "version": 11,
-      "changeset": 111823355,
+      "timestamp": "2021-10-05T21:00:57Z",
+      "version": 12,
+      "changeset": 112140960,
       "user": "debeli75",
       "uid": 730886,
       "members": [
@@ -890,6 +890,8 @@
         {"type": "way", "ref": 506708656, "role": ""},
         {"type": "way", "ref": 229010916, "role": ""},
         {"type": "way", "ref": 506708652, "role": ""},
+        {"type": "way", "ref": 990164284, "role": ""},
+        {"type": "way", "ref": 990164283, "role": ""},
         {"type": "way", "ref": 986939175, "role": ""},
         {"type": "way", "ref": 506708649, "role": ""},
         {"type": "way", "ref": 575124992, "role": ""},
@@ -1509,11 +1511,11 @@
     {
       "type": "relation",
       "id": 7393053,
-      "timestamp": "2021-09-12T10:46:15Z",
-      "version": 10,
-      "changeset": 111090346,
-      "user": "mueschel",
-      "uid": 616774,
+      "timestamp": "2021-10-05T13:01:12Z",
+      "version": 11,
+      "changeset": 112122519,
+      "user": "phlustik",
+      "uid": 842813,
       "members": [
         {"type": "way", "ref": 507348320, "role": ""},
         {"type": "way", "ref": 709348555, "role": ""},
@@ -1540,7 +1542,7 @@
         "name": "Planina Prenj",
         "network": "lwn",
         "operator": "Via Dinarica",
-        "osmc:symbol": "red:white:red_dot",
+        "osmc:symbol": "red:white_round:red_dot",
         "ref": "BH-W-06",
         "route": "hiking",
         "type": "route",
@@ -36641,20 +36643,13 @@
     {
       "type": "way",
       "id": 506708652,
-      "timestamp": "2017-07-11T12:59:28Z",
-      "version": 1,
-      "changeset": 50201445,
-      "user": "Janjko",
-      "uid": 244754,
-      "nodes": [2376521536, 2376521558],
+      "timestamp": "2021-10-05T21:00:57Z",
+      "version": 2,
+      "changeset": 112140960,
+      "user": "debeli75",
+      "uid": 730886,
+      "nodes": [2691972870, 2376521542],
       "geometry": [
-        {"lat": 44.2632054, "lon": 15.8310717},
-        {"lat": 44.2633015, "lon": 15.8311186},
-        {"lat": 44.2633534, "lon": 15.8311399},
-        {"lat": 44.2633671, "lon": 15.8311612},
-        {"lat": 44.2633991, "lon": 15.8311761},
-        {"lat": 44.2634327, "lon": 15.8311676},
-        {"lat": 44.2634494, "lon": 15.8311867},
         {"lat": 44.2634601, "lon": 15.8312336},
         {"lat": 44.2634677, "lon": 15.8312804},
         {"lat": 44.2635059, "lon": 15.8312953},
@@ -36674,14 +36669,7 @@
         {"lat": 44.2637804, "lon": 15.8318405},
         {"lat": 44.2638048, "lon": 15.8318831},
         {"lat": 44.26382, "lon": 15.8319491},
-        {"lat": 44.2638338, "lon": 15.8320238},
-        {"lat": 44.2637882, "lon": 15.8320962},
-        {"lat": 44.2637338, "lon": 15.8321315},
-        {"lat": 44.2638816, "lon": 15.8321213},
-        {"lat": 44.2639647, "lon": 15.8320663},
-        {"lat": 44.2641192, "lon": 15.8321425},
-        {"lat": 44.2643324, "lon": 15.8322173},
-        {"lat": 44.2644746, "lon": 15.8322461}
+        {"lat": 44.2638338, "lon": 15.8320238}
       ],
       "tags": {
         "highway": "path",
@@ -59476,6 +59464,56 @@
         "old_ref": "6082",
         "ref": "6287",
         "surface": "unpaved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 990164283,
+      "timestamp": "2021-10-05T21:00:57Z",
+      "version": 1,
+      "changeset": 112140960,
+      "user": "debeli75",
+      "uid": 730886,
+      "nodes": [2376521542, 2376521558],
+      "geometry": [
+        {"lat": 44.2638338, "lon": 15.8320238},
+        {"lat": 44.2637882, "lon": 15.8320962},
+        {"lat": 44.2637338, "lon": 15.8321315},
+        {"lat": 44.2638816, "lon": 15.8321213},
+        {"lat": 44.2639647, "lon": 15.8320663},
+        {"lat": 44.2641192, "lon": 15.8321425},
+        {"lat": 44.2643324, "lon": 15.8322173},
+        {"lat": 44.2644746, "lon": 15.8322461}
+      ],
+      "tags": {
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "source": "http://gps-planine.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 990164284,
+      "timestamp": "2021-10-05T21:00:57Z",
+      "version": 1,
+      "changeset": 112140960,
+      "user": "debeli75",
+      "uid": 730886,
+      "nodes": [2376521536, 2691972870],
+      "geometry": [
+        {"lat": 44.2632054, "lon": 15.8310717},
+        {"lat": 44.2633015, "lon": 15.8311186},
+        {"lat": 44.2633534, "lon": 15.8311399},
+        {"lat": 44.2633671, "lon": 15.8311612},
+        {"lat": 44.2633991, "lon": 15.8311761},
+        {"lat": 44.2634327, "lon": 15.8311676},
+        {"lat": 44.2634494, "lon": 15.8311867},
+        {"lat": 44.2634601, "lon": 15.8312336}
+      ],
+      "tags": {
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "source": "http://gps-planine.com"
       }
     }
   ]
