@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-10-05T23:59:59Z",
-    "timestamp_osm_base": "2021-10-06T04:12:11Z",
+    "timestamp_osm_date": "2021-10-06T23:59:59Z",
+    "timestamp_osm_base": "2021-10-07T04:31:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1391,14 +1391,18 @@
     {
       "type": "node",
       "id": 417808720,
-      "lat": 45.9105002,
-      "lon": 3.3318419,
-      "timestamp": "2020-03-27T05:20:32Z",
-      "version": 6,
-      "changeset": 82693630,
-      "user": "Olyon",
-      "uid": 1443767,
+      "lat": 45.9105327,
+      "lon": 3.3318388,
+      "timestamp": "2021-10-06T17:55:51Z",
+      "version": 7,
+      "changeset": 112181385,
+      "user": "tabltrai",
+      "uid": 133254,
       "tags": {
+        "addr:city": "Maringues",
+        "addr:country": "FR",
+        "addr:postcode": "63350",
+        "addr:street": "Route de Clermont",
         "amenity": "fuel",
         "brand": "Total",
         "brand:wikidata": "Q154037",
@@ -1413,7 +1417,9 @@
         "operator": "Total",
         "ref:FR:prix-carburants": "63350002",
         "shop": "convenience",
-        "source": "Ministère de l'Economie, de l'Industrie et du Numérique - 08/04/2018",
+        "source": "survey",
+        "source:2": "Ministère de l'Economie, de l'Industrie et du Numérique - 08/04/2018",
+        "survey:date": "2021-06-20",
         "vending": "fuel",
         "vending_machine": "fuel"
       }
@@ -31748,6 +31754,38 @@
       }
     },
     {
+      "type": "node",
+      "id": 9151282717,
+      "lat": 45.7955875,
+      "lon": 3.1644483,
+      "timestamp": "2021-10-06T10:34:55Z",
+      "version": 1,
+      "changeset": 112163158,
+      "user": "zaizone",
+      "uid": 1122708,
+      "tags": {
+        "name": "Spar",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9152801948,
+      "lat": 46.0173524,
+      "lon": 3.3534265,
+      "timestamp": "2021-10-06T17:55:51Z",
+      "version": 1,
+      "changeset": 112181385,
+      "user": "tabltrai",
+      "uid": 133254,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport",
+        "source": "survey",
+        "survey:date": "2021-05-15"
+      }
+    },
+    {
       "type": "way",
       "id": 41997869,
       "timestamp": "2021-01-26T12:12:22Z",
@@ -33188,30 +33226,6 @@
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
         "supermarket": "yes",
         "supermarket:FR": "supermarché"
-      }
-    },
-    {
-      "type": "way",
-      "id": 145604960,
-      "timestamp": "2018-09-20T19:45:35Z",
-      "version": 4,
-      "changeset": 62775604,
-      "user": "tabltrai",
-      "uid": 133254,
-      "center": {
-        "lat": 46.01863,
-        "lon": 3.354715
-      },
-      "nodes": [],
-      "tags": {
-        "addr:city": "Randan",
-        "addr:housenumber": "14",
-        "addr:postcode": "63310",
-        "addr:street": "Place des Sports",
-        "building": "retail",
-        "name": "Épicerie des Sports",
-        "shop": "convenience",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
       }
     },
     {
