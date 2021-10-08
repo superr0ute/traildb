@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-10-06T23:59:59Z",
-    "timestamp_osm_base": "2021-10-07T04:11:28Z",
+    "timestamp_osm_date": "2021-10-07T23:59:59Z",
+    "timestamp_osm_base": "2021-10-08T04:02:15Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -8554,9 +8554,9 @@
     {
       "type": "way",
       "id": 550475071,
-      "timestamp": "2021-10-01T18:23:52Z",
-      "version": 4,
-      "changeset": 111976192,
+      "timestamp": "2021-10-07T19:06:26Z",
+      "version": 6,
+      "changeset": 112231169,
       "user": "A Hall",
       "uid": 936117,
       "center": {
@@ -8568,11 +8568,13 @@
         "amenity": "shelter",
         "bench": "yes",
         "bin": "no",
-        "building": "yes",
-        "level": "1",
+        "building": "roof",
+        "building:levels": "1",
         "name": "Union Village Dam Picnic Shelter",
         "operator": "US Army Corps of Engineers",
+        "roof:angle": "22.62",
         "roof:colour": "black",
+        "roof:material": "roof_tiles",
         "roof:shape": "gabled",
         "shelter_type": "picnic_shelter"
       }
@@ -9485,6 +9487,25 @@
         "amenity": "shelter",
         "building": "yes",
         "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "way",
+      "id": 990900904,
+      "timestamp": "2021-10-07T15:13:03Z",
+      "version": 1,
+      "changeset": 112221703,
+      "user": "A Hall",
+      "uid": 936117,
+      "center": {
+        "lat": 43.852465,
+        "lon": -72.2524679
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "roof",
+        "shelter_type": "gazebo"
       }
     }
   ]
