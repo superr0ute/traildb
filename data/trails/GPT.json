@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-25T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-08T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2026,14 +2026,14 @@
         {"lat": -39.4684759, "lon": -71.5425915}
       ],
       "tags": {
+        "highway": "tertiary",
+        "surface": "unpaved",
+        "ref": "S-977",
         "attribution": "Vialidad",
         "chile:region": "9",
         "chile:surface": "ripio",
-        "highway": "tertiary",
         "navibot:categorize": "yes",
-        "ref": "S-977",
-        "source": "vialidad.cl",
-        "surface": "unpaved"
+        "source": "vialidad.cl"
       }
     },
     {
@@ -2050,16 +2050,16 @@
         {"lat": -39.3942345, "lon": -71.5484189}
       ],
       "tags": {
+        "highway": "tertiary",
+        "surface": "unpaved",
+        "ref": "S-983",
         "attribution": "Vialidad",
         "bridge": "yes",
         "chile:region": "9",
         "chile:surface": "ripio",
-        "highway": "tertiary",
         "layer": "1",
         "navibot:categorize": "yes",
-        "ref": "S-983",
-        "source": "vialidad.cl",
-        "surface": "unpaved"
+        "source": "vialidad.cl"
       }
     },
     {
@@ -2203,14 +2203,14 @@
         {"lat": -39.4574146, "lon": -71.5466203}
       ],
       "tags": {
+        "highway": "tertiary",
+        "surface": "gravel",
+        "ref": "S-983",
         "attribution": "Vialidad",
         "chile:region": "9",
         "chile:surface": "ripio",
-        "highway": "tertiary",
         "navibot:categorize": "yes",
-        "ref": "S-983",
-        "source": "vialidad.cl",
-        "surface": "gravel"
+        "source": "vialidad.cl"
       }
     },
     {
@@ -3458,21 +3458,21 @@
         {"lat": -46.5430809, "lon": -71.713156}
       ],
       "tags": {
+        "surface": "asphalt",
+        "name": "O'Higgins",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
-        "name": "O'Higgins",
-        "ref": "265-CH",
-        "source": "vialidad.cl",
-        "surface": "asphalt"
+        "source": "vialidad.cl"
       }
     },
     {
       "type": "way",
       "id": 117337189,
-      "timestamp": "2017-04-17T20:58:18Z",
-      "version": 10,
-      "changeset": 47885297,
+      "timestamp": "2021-10-08T18:53:46Z",
+      "version": 11,
+      "changeset": 112278429,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [1321479115, 1321478871],
@@ -3484,8 +3484,9 @@
         "bridge": "yes",
         "highway": "secondary",
         "layer": "1",
-        "name": "Cruce Ruta 203 CH (Huanehue) - Paso Carirriñe",
-        "ref": "201-CH",
+        "name": "Ruta 201 CH",
+        "official_name": "Cruce Ruta 203 CH (Huanehue) - Paso Carirriñe",
+        "ref": "201",
         "source": "Bing",
         "surface": "paved"
       }
@@ -3600,11 +3601,11 @@
     {
       "type": "way",
       "id": 125243884,
-      "timestamp": "2021-09-23T18:38:59Z",
-      "version": 16,
-      "changeset": 111613209,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2021-10-08T04:15:10Z",
+      "version": 17,
+      "changeset": 112242273,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [314350540, 4989181911],
       "geometry": [
         {"lat": -35.8239071, "lon": -70.7620195},
@@ -3746,20 +3747,21 @@
         "maxspeed:coach": "50",
         "maxspeed:hgv:conditional": "50 @ (weight>=3.86)",
         "maxspeed:psv:conditional": "50 @ (weight>=3.86)",
-        "name": "Cruce Ruta 5 (Talca) - Paso El Pehuenche",
+        "name": "Ruta 115 CH",
+        "official_name": "Cruce Ruta 5 (Talca) - Paso El Pehuenche",
         "oneway": "no",
-        "ref": "115-CH",
+        "ref": "115",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 125243885,
-      "timestamp": "2021-04-21T05:32:53Z",
-      "version": 21,
-      "changeset": 103309063,
-      "user": "Sree1922",
-      "uid": 12429717,
+      "timestamp": "2021-10-08T04:15:10Z",
+      "version": 22,
+      "changeset": 112242273,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [4989182325, 2034135267],
       "geometry": [
         {"lat": -35.830976, "lon": -70.7293072},
@@ -3868,9 +3870,10 @@
         "GPT:ref": "HOP-PR-S (T02-A01-06)",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Cruce Ruta 5 (Talca) - Paso El Pehuenche",
+        "name": "Ruta 115 CH",
+        "official_name": "Cruce Ruta 5 (Talca) - Paso El Pehuenche",
         "oneway": "no",
-        "ref": "115-CH",
+        "ref": "115",
         "surface": "asphalt"
       }
     },
@@ -3901,11 +3904,11 @@
     {
       "type": "way",
       "id": 140062871,
-      "timestamp": "2021-05-17T04:34:32Z",
-      "version": 13,
-      "changeset": 104794296,
-      "user": "manoj@123",
-      "uid": 11698695,
+      "timestamp": "2021-10-08T18:53:46Z",
+      "version": 14,
+      "changeset": 112278429,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [4448682131, 8634384427],
       "geometry": [
         {"lat": -39.7006286, "lon": -71.8698335},
@@ -3929,8 +3932,9 @@
       ],
       "tags": {
         "highway": "secondary",
-        "name": "Cruce Ruta 203 CH (Huanehue) - Paso Carirriñe",
-        "ref": "201-CH",
+        "name": "Ruta 201 CH",
+        "official_name": "Cruce Ruta 203 CH (Huanehue) - Paso Carirriñe",
+        "ref": "201",
         "surface": "asphalt"
       }
     },
@@ -6415,11 +6419,11 @@
     {
       "type": "way",
       "id": 152286021,
-      "timestamp": "2020-09-21T16:06:08Z",
-      "version": 7,
-      "changeset": 91239371,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2021-10-08T19:50:37Z",
+      "version": 8,
+      "changeset": 112280573,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [1377303118, 280570218],
       "geometry": [
         {"lat": -40.6638646, "lon": -72.1799604},
@@ -6431,9 +6435,10 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Osorno - Entre Lagos - Paso Cardenal Samoré",
+        "name": "Ruta 215 CH",
+        "official_name": "Osorno - Entre Lagos - Paso Cardenal Samoré",
         "old_name": "Cruce Longitudinal (Osorno) - Paso Cardenal Samoré",
-        "ref": "215-CH",
+        "ref": "215",
         "source": "vialidad.cl",
         "surface": "paved"
       }
@@ -9813,12 +9818,12 @@
       ],
       "tags": {
         "alt_name": "O`Higgins",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
-        "ref": "265-CH",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -10122,11 +10127,11 @@
     {
       "type": "way",
       "id": 254540485,
-      "timestamp": "2020-09-21T16:06:08Z",
-      "version": 6,
-      "changeset": 91239371,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2021-10-08T19:50:37Z",
+      "version": 7,
+      "changeset": 112280573,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [2603430412, 1377303120],
       "geometry": [
         {"lat": -40.6683024, "lon": -72.1745007},
@@ -10139,9 +10144,10 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Osorno - Entre Lagos - Paso Cardenal Samoré",
+        "name": "Ruta 215 CH",
+        "official_name": "Osorno - Entre Lagos - Paso Cardenal Samoré",
         "old_name": "Cruce Longitudinal (Osorno) - Paso Cardenal Samoré",
-        "ref": "215-CH",
+        "ref": "215",
         "source": "vialidad.cl",
         "surface": "paved"
       }
@@ -10149,11 +10155,11 @@
     {
       "type": "way",
       "id": 25733053,
-      "timestamp": "2020-09-21T16:06:08Z",
-      "version": 18,
-      "changeset": 91239371,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2021-10-08T19:50:37Z",
+      "version": 19,
+      "changeset": 112280573,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [280570218, 2603430412],
       "geometry": [
         {"lat": -40.6645108, "lon": -72.179561},
@@ -10170,9 +10176,10 @@
         "chile:region": "10",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Osorno - Entre Lagos - Paso Cardenal Samoré",
+        "name": "Ruta 215 CH",
+        "official_name": "Osorno - Entre Lagos - Paso Cardenal Samoré",
         "old_name": "Cruce Longitudinal (Osorno) - Paso Cardenal Samoré",
-        "ref": "215-CH",
+        "ref": "215",
         "source": "vialidad.cl",
         "surface": "paved"
       }
@@ -10330,11 +10337,11 @@
     {
       "type": "way",
       "id": 25734858,
-      "timestamp": "2019-07-31T01:25:51Z",
-      "version": 12,
-      "changeset": 72834070,
-      "user": "guillemmal",
-      "uid": 3036252,
+      "timestamp": "2021-10-08T18:43:38Z",
+      "version": 13,
+      "changeset": 112278099,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [280617156, 4567860348],
       "geometry": [
         {"lat": -40.0245334, "lon": -71.7227295},
@@ -10351,8 +10358,9 @@
         "chile:region": "14",
         "chile:surface": "ripio",
         "highway": "primary",
-        "name": "Cruce Ruta 5 (Lanco, Acceso Sur) - Panguipulli - Paso Huahum",
-        "ref": "203-CH",
+        "name": "Ruta 203 CH",
+        "official_name": "Cruce Ruta 5 (Lanco, Acceso Sur) - Panguipulli - Paso Huahum",
+        "ref": "203",
         "source": "vialidad.cl",
         "surface": "unpaved"
       }
@@ -10574,14 +10582,14 @@
         {"lat": -39.394096, "lon": -71.54847}
       ],
       "tags": {
+        "highway": "tertiary",
+        "surface": "unpaved",
+        "ref": "S-983",
         "attribution": "Vialidad",
         "chile:region": "9",
         "chile:surface": "ripio",
-        "highway": "tertiary",
         "navibot:categorize": "yes",
-        "ref": "S-983",
-        "source": "vialidad.cl",
-        "surface": "unpaved"
+        "source": "vialidad.cl"
       }
     },
     {
@@ -11892,6 +11900,7 @@
       ],
       "tags": {
         "alt_name": "O`Higgins",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "bridge": "yes",
         "chile:region": "11",
@@ -11899,7 +11908,6 @@
         "layer": "1",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
-        "ref": "265-CH",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -12041,11 +12049,11 @@
     {
       "type": "way",
       "id": 276506570,
-      "timestamp": "2020-07-01T01:26:41Z",
-      "version": 8,
-      "changeset": 87370521,
-      "user": "guillemmal",
-      "uid": 3036252,
+      "timestamp": "2021-10-08T04:15:10Z",
+      "version": 9,
+      "changeset": 112242273,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [2034135267, 2034135090],
       "geometry": [
         {"lat": -35.8454019, "lon": -70.7049708},
@@ -12058,9 +12066,10 @@
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
-        "name": "Cruce Ruta 5 (Talca) - Paso El Pehuenche",
+        "name": "Ruta 115 CH",
+        "official_name": "Cruce Ruta 5 (Talca) - Paso El Pehuenche",
         "oneway": "no",
-        "ref": "115-CH",
+        "ref": "115",
         "surface": "asphalt"
       }
     },
@@ -18869,9 +18878,9 @@
     {
       "type": "way",
       "id": 447804599,
-      "timestamp": "2017-04-17T20:58:27Z",
-      "version": 5,
-      "changeset": 47885297,
+      "timestamp": "2021-10-08T18:53:46Z",
+      "version": 6,
+      "changeset": 112278429,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [1321478871, 4448682406],
@@ -18896,8 +18905,9 @@
       ],
       "tags": {
         "highway": "secondary",
-        "name": "Cruce Ruta 203 CH (Huanehue) - Paso Carirriñe",
-        "ref": "201-CH",
+        "name": "Ruta 201 CH",
+        "official_name": "Cruce Ruta 203 CH (Huanehue) - Paso Carirriñe",
+        "ref": "201",
         "source": "Bing",
         "surface": "asphalt"
       }
@@ -18905,9 +18915,9 @@
     {
       "type": "way",
       "id": 447804607,
-      "timestamp": "2017-04-17T20:58:28Z",
-      "version": 5,
-      "changeset": 47885297,
+      "timestamp": "2021-10-08T18:53:46Z",
+      "version": 6,
+      "changeset": 112278429,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [4448682406, 4448682407],
@@ -18919,8 +18929,9 @@
         "bridge": "yes",
         "highway": "secondary",
         "layer": "1",
-        "name": "Cruce Ruta 203 CH (Huanehue) - Paso Carirriñe",
-        "ref": "201-CH",
+        "name": "Ruta 201 CH",
+        "official_name": "Cruce Ruta 203 CH (Huanehue) - Paso Carirriñe",
+        "ref": "201",
         "source": "Bing",
         "surface": "paved"
       }
@@ -18928,9 +18939,9 @@
     {
       "type": "way",
       "id": 447804625,
-      "timestamp": "2021-07-13T06:19:55Z",
-      "version": 10,
-      "changeset": 107880398,
+      "timestamp": "2021-10-08T18:53:46Z",
+      "version": 11,
+      "changeset": 112278429,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [4448682407, 1843386588],
@@ -18972,8 +18983,9 @@
       ],
       "tags": {
         "highway": "secondary",
-        "name": "Cruce Ruta 203 CH (Huanehue) - Paso Carirriñe",
-        "ref": "201-CH",
+        "name": "Ruta 201 CH",
+        "official_name": "Cruce Ruta 203 CH (Huanehue) - Paso Carirriñe",
+        "ref": "201",
         "source": "Bing",
         "surface": "asphalt"
       }
@@ -18981,11 +18993,11 @@
     {
       "type": "way",
       "id": 447804635,
-      "timestamp": "2019-05-02T23:47:17Z",
-      "version": 7,
-      "changeset": 69823226,
-      "user": "globalbus",
-      "uid": 2334291,
+      "timestamp": "2021-10-08T18:53:46Z",
+      "version": 8,
+      "changeset": 112278429,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [1321478949, 4448682131],
       "geometry": [
         {"lat": -39.6979861, "lon": -71.87866},
@@ -18996,8 +19008,9 @@
       ],
       "tags": {
         "highway": "secondary",
-        "name": "Cruce Ruta 203 CH (Huanehue) - Paso Carirriñe",
-        "ref": "201-CH",
+        "name": "Ruta 201 CH",
+        "official_name": "Cruce Ruta 203 CH (Huanehue) - Paso Carirriñe",
+        "ref": "201",
         "surface": "unpaved"
       }
     },
@@ -36047,9 +36060,9 @@
     {
       "type": "way",
       "id": 460228392,
-      "timestamp": "2019-06-24T07:09:11Z",
-      "version": 3,
-      "changeset": 71550046,
+      "timestamp": "2021-10-08T04:20:54Z",
+      "version": 4,
+      "changeset": 112242432,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [2147704060, 280646236],
@@ -36061,8 +36074,9 @@
         "attribution": "Vialidad",
         "chile:region": "9",
         "highway": "trunk",
-        "name": "Cruce Longitudinal (Victoria) - Curacautín - Túnel Las Raíces - Paso Pino Hachado",
-        "ref": "181-CH",
+        "name": "Ruta 181 CH",
+        "official_name": "Cruce Longitudinal (Victoria) - Curacautín - Túnel Las Raíces - Paso Pino Hachado",
+        "ref": "181",
         "source": "vialidad.cl",
         "surface": "paved"
       }
@@ -47459,11 +47473,11 @@
     {
       "type": "way",
       "id": 461247566,
-      "timestamp": "2020-09-21T16:06:08Z",
-      "version": 6,
-      "changeset": 91239371,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2021-10-08T19:50:37Z",
+      "version": 7,
+      "changeset": 112280573,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [1377303120, 1393178634],
       "geometry": [
         {"lat": -40.6684153, "lon": -72.1736579},
@@ -47474,9 +47488,10 @@
         "chile:region": "10",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Osorno - Entre Lagos - Paso Cardenal Samoré",
+        "name": "Ruta 215 CH",
+        "official_name": "Osorno - Entre Lagos - Paso Cardenal Samoré",
         "old_name": "Cruce Longitudinal (Osorno) - Paso Cardenal Samoré",
-        "ref": "215-CH",
+        "ref": "215",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -49095,11 +49110,11 @@
     {
       "type": "way",
       "id": 461255318,
-      "timestamp": "2020-09-21T16:06:08Z",
-      "version": 7,
-      "changeset": 91239371,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2021-10-08T19:50:37Z",
+      "version": 8,
+      "changeset": 112280573,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [280619843, 1377303118],
       "geometry": [
         {"lat": -40.6556114, "lon": -72.1891624},
@@ -49120,9 +49135,10 @@
         "chile:region": "14",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Osorno - Entre Lagos - Paso Cardenal Samoré",
+        "name": "Ruta 215 CH",
+        "official_name": "Osorno - Entre Lagos - Paso Cardenal Samoré",
         "old_name": "Cruce Longitudinal (Osorno) - Paso Cardenal Samoré",
-        "ref": "215-CH",
+        "ref": "215",
         "source": "vialidad.cl",
         "surface": "paved"
       }
@@ -52461,9 +52477,9 @@
     {
       "type": "way",
       "id": 461260058,
-      "timestamp": "2019-02-04T06:23:20Z",
-      "version": 4,
-      "changeset": 66893943,
+      "timestamp": "2021-10-08T04:51:20Z",
+      "version": 5,
+      "changeset": 112243180,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [4567883285, 4567883622],
@@ -52488,6 +52504,7 @@
         {"lat": -39.5372426, "lon": -71.5558621}
       ],
       "tags": {
+        "alt_name": "Ruta 199 CH",
         "bicycle": "yes",
         "cycleway": "no",
         "foot": "yes",
@@ -52496,7 +52513,7 @@
         "name": "Camino Internacional Monseñor Francisco Valdés Subercaseaux",
         "old_name": "Cruce Longitudinal (Freire) - Villarrica - Paso Mamuil Malal",
         "overtaking": "no",
-        "ref": "199-CH",
+        "ref": "199",
         "sidewalk": "none",
         "surface": "asphalt"
       }
@@ -53822,13 +53839,13 @@
         {"lat": -39.2951911, "lon": -71.4318375}
       ],
       "tags": {
+        "highway": "tertiary",
+        "surface": "unpaved",
+        "ref": "S-967",
         "attribution": "Vialidad",
         "chile:region": "9",
         "chile:surface": "tierra",
-        "highway": "tertiary",
-        "ref": "S-967",
-        "source": "vialidad.cl",
-        "surface": "unpaved"
+        "source": "vialidad.cl"
       }
     },
     {
@@ -53894,13 +53911,13 @@
         {"lat": -39.3716589, "lon": -71.4936109}
       ],
       "tags": {
+        "surface": "unpaved",
+        "ref": "S-969",
         "attribution": "Vialidad",
         "chile:region": "9",
         "chile:surface": "tierra",
         "highway": "unclassified",
-        "ref": "S-969",
-        "source": "vialidad.cl",
-        "surface": "unpaved"
+        "source": "vialidad.cl"
       }
     },
     {
@@ -54087,14 +54104,14 @@
         {"lat": -39.3597756, "lon": -71.5740385}
       ],
       "tags": {
+        "highway": "tertiary",
+        "surface": "unpaved",
+        "ref": "S-969",
         "attribution": "Vialidad",
         "chile:region": "9",
         "chile:surface": "ripio",
-        "highway": "tertiary",
         "navibot:categorize": "yes",
-        "ref": "S-969",
-        "source": "vialidad.cl",
-        "surface": "unpaved"
+        "source": "vialidad.cl"
       }
     },
     {
@@ -60783,11 +60800,11 @@
     {
       "type": "way",
       "id": 462881474,
-      "timestamp": "2020-07-01T01:26:41Z",
-      "version": 5,
-      "changeset": 87370521,
-      "user": "guillemmal",
-      "uid": 3036252,
+      "timestamp": "2021-10-08T04:15:10Z",
+      "version": 6,
+      "changeset": 112242273,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [2034135090, 314350732],
       "geometry": [
         {"lat": -35.8461119, "lon": -70.7036479},
@@ -61006,9 +61023,10 @@
         "GPT:ref": "HOP-PR-S (T02-A01-06)",
         "highway": "trunk",
         "lanes": "2",
-        "name": "Cruce Ruta 5 (Talca) - Paso El Pehuenche",
+        "name": "Ruta 115 CH",
+        "official_name": "Cruce Ruta 5 (Talca) - Paso El Pehuenche",
         "oneway": "no",
-        "ref": "115-CH",
+        "ref": "115",
         "surface": "asphalt"
       }
     },
@@ -66178,13 +66196,13 @@
         {"lat": -46.5482293, "lon": -71.6960654}
       ],
       "tags": {
+        "name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
+        "surface": "asphalt",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
-        "name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
-        "ref": "265-CH",
-        "source": "survey",
-        "surface": "asphalt"
+        "source": "survey"
       }
     },
     {
@@ -66201,13 +66219,13 @@
         {"lat": -46.547113, "lon": -71.6997929}
       ],
       "tags": {
+        "name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
+        "surface": "asphalt",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
-        "name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
-        "ref": "265-CH",
-        "source": "survey",
-        "surface": "asphalt"
+        "source": "survey"
       }
     },
     {
@@ -66224,13 +66242,13 @@
         {"lat": -46.5466679, "lon": -71.7012792}
       ],
       "tags": {
+        "name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
+        "surface": "asphalt",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
-        "name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
-        "ref": "265-CH",
-        "source": "survey",
-        "surface": "asphalt"
+        "source": "survey"
       }
     },
     {
@@ -66247,13 +66265,13 @@
         {"lat": -46.5462655, "lon": -71.7026225}
       ],
       "tags": {
+        "name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
+        "surface": "asphalt",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
-        "name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
-        "ref": "265-CH",
-        "source": "survey",
-        "surface": "asphalt"
+        "source": "survey"
       }
     },
     {
@@ -66270,13 +66288,13 @@
         {"lat": -46.5458938, "lon": -71.7038639}
       ],
       "tags": {
+        "name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
+        "surface": "asphalt",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
-        "name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
-        "ref": "265-CH",
-        "source": "survey",
-        "surface": "asphalt"
+        "source": "survey"
       }
     },
     {
@@ -66296,13 +66314,13 @@
         {"lat": -46.5453295, "lon": -71.7057481}
       ],
       "tags": {
+        "name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
+        "surface": "asphalt",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
-        "name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
-        "ref": "265-CH",
-        "source": "survey",
-        "surface": "asphalt"
+        "source": "survey"
       }
     },
     {
@@ -66320,13 +66338,13 @@
       ],
       "tags": {
         "alt_name": "O`Higgins",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "maxspeed": "60",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
-        "ref": "265-CH",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66347,12 +66365,12 @@
       ],
       "tags": {
         "alt_name": "O`Higgins",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
-        "ref": "265-CH",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66374,12 +66392,12 @@
       ],
       "tags": {
         "alt_name": "O`Higgins",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
-        "ref": "265-CH",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66401,12 +66419,12 @@
       ],
       "tags": {
         "alt_name": "O`Higgins",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
-        "ref": "265-CH",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66426,12 +66444,12 @@
       ],
       "tags": {
         "alt_name": "O`Higgins",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
-        "ref": "265-CH",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66451,12 +66469,12 @@
       ],
       "tags": {
         "alt_name": "O`Higgins",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
-        "ref": "265-CH",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66477,12 +66495,12 @@
       ],
       "tags": {
         "alt_name": "O`Higgins",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
-        "ref": "265-CH",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66502,12 +66520,12 @@
       ],
       "tags": {
         "alt_name": "O`Higgins",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
-        "ref": "265-CH",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66528,13 +66546,13 @@
       ],
       "tags": {
         "alt_name": "O`Higgins",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "maxspeed": "60",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
-        "ref": "265-CH",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66554,13 +66572,13 @@
       ],
       "tags": {
         "alt_name": "O`Higgins",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "maxspeed": "60",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
-        "ref": "265-CH",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66580,13 +66598,13 @@
       ],
       "tags": {
         "alt_name": "O`Higgins",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "maxspeed": "60",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
-        "ref": "265-CH",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66606,13 +66624,13 @@
       ],
       "tags": {
         "alt_name": "O`Higgins",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "maxspeed": "60",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
-        "ref": "265-CH",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66632,13 +66650,13 @@
       ],
       "tags": {
         "alt_name": "O`Higgins",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "maxspeed": "60",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
-        "ref": "265-CH",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66658,13 +66676,13 @@
       ],
       "tags": {
         "alt_name": "O`Higgins",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "maxspeed": "60",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
-        "ref": "265-CH",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66727,13 +66745,13 @@
         {"lat": -39.3031883, "lon": -71.4396451}
       ],
       "tags": {
+        "highway": "tertiary",
+        "surface": "unpaved",
+        "ref": "S-967",
         "attribution": "Vialidad",
         "chile:region": "9",
         "chile:surface": "tierra",
-        "highway": "tertiary",
-        "ref": "S-967",
-        "source": "vialidad.cl",
-        "surface": "unpaved"
+        "source": "vialidad.cl"
       }
     },
     {
@@ -66750,25 +66768,25 @@
         {"lat": -39.2953686, "lon": -71.4320333}
       ],
       "tags": {
+        "highway": "tertiary",
+        "surface": "unpaved",
+        "ref": "S-967",
         "attribution": "Vialidad",
         "bridge": "yes",
         "chile:region": "9",
         "chile:surface": "tierra",
-        "highway": "tertiary",
         "layer": "1",
-        "ref": "S-967",
-        "source": "vialidad.cl",
-        "surface": "unpaved"
+        "source": "vialidad.cl"
       }
     },
     {
       "type": "way",
       "id": 509726811,
-      "timestamp": "2021-09-23T18:38:59Z",
-      "version": 6,
-      "changeset": 111613209,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2021-10-08T04:15:10Z",
+      "version": 7,
+      "changeset": 112242273,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [1959940707, 1959940702],
       "geometry": [
         {"lat": -35.8314337, "lon": -70.7355434},
@@ -66785,9 +66803,10 @@
         "maxspeed:coach": "50",
         "maxspeed:hgv:conditional": "50 @ (weight>=3.86)",
         "maxspeed:psv:conditional": "50 @ (weight>=3.86)",
-        "name": "Cruce Ruta 5 (Talca) - Paso El Pehuenche",
+        "name": "Ruta 115 CH",
+        "official_name": "Cruce Ruta 5 (Talca) - Paso El Pehuenche",
         "oneway": "no",
-        "ref": "115-CH",
+        "ref": "115",
         "surface": "asphalt"
       }
     },
@@ -89592,11 +89611,11 @@
     {
       "type": "way",
       "id": 931296133,
-      "timestamp": "2021-07-07T11:31:28Z",
-      "version": 2,
-      "changeset": 107559739,
-      "user": "LakatosVL",
-      "uid": 8775772,
+      "timestamp": "2021-10-08T18:53:46Z",
+      "version": 3,
+      "changeset": 112278429,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [8634384427, 8634384428],
       "geometry": [
         {"lat": -39.7123862, "lon": -71.8546075},
@@ -89616,19 +89635,20 @@
       "tags": {
         "highway": "secondary",
         "maxspeed:backward": "30",
-        "name": "Cruce Ruta 203 CH (Huanehue) - Paso Carirriñe",
-        "ref": "201-CH",
+        "name": "Ruta 201 CH",
+        "official_name": "Cruce Ruta 203 CH (Huanehue) - Paso Carirriñe",
+        "ref": "201",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 931296134,
-      "timestamp": "2021-06-17T15:50:48Z",
-      "version": 3,
-      "changeset": 106540140,
-      "user": "TheFinals",
-      "uid": 12108543,
+      "timestamp": "2021-10-08T18:53:46Z",
+      "version": 4,
+      "changeset": 112278429,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [8634384428, 1321479115],
       "geometry": [
         {"lat": -39.7244638, "lon": -71.8540239},
@@ -89643,19 +89663,20 @@
       ],
       "tags": {
         "highway": "secondary",
-        "name": "Cruce Ruta 203 CH (Huanehue) - Paso Carirriñe",
-        "ref": "201-CH",
+        "name": "Ruta 201 CH",
+        "official_name": "Cruce Ruta 203 CH (Huanehue) - Paso Carirriñe",
+        "ref": "201",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 933143097,
-      "timestamp": "2021-09-23T18:38:59Z",
-      "version": 2,
-      "changeset": 111613209,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2021-10-08T04:15:10Z",
+      "version": 3,
+      "changeset": 112242273,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [4989181911, 1959940707],
       "geometry": [
         {"lat": -35.8305878, "lon": -70.7394996},
@@ -89685,20 +89706,21 @@
         "maxspeed:coach": "50",
         "maxspeed:hgv:conditional": "50 @ (weight>=3.86)",
         "maxspeed:psv:conditional": "50 @ (weight>=3.86)",
-        "name": "Cruce Ruta 5 (Talca) - Paso El Pehuenche",
+        "name": "Ruta 115 CH",
+        "official_name": "Cruce Ruta 5 (Talca) - Paso El Pehuenche",
         "oneway": "no",
-        "ref": "115-CH",
+        "ref": "115",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 933143098,
-      "timestamp": "2021-09-23T18:38:59Z",
-      "version": 3,
-      "changeset": 111613209,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2021-10-08T04:15:10Z",
+      "version": 4,
+      "changeset": 112242273,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [1959940702, 4989182325],
       "geometry": [
         {"lat": -35.8315887, "lon": -70.7350647},
@@ -89726,20 +89748,21 @@
         "maxspeed:coach": "50",
         "maxspeed:hgv:conditional": "50 @ (weight>=3.86)",
         "maxspeed:psv:conditional": "50 @ (weight>=3.86)",
-        "name": "Cruce Ruta 5 (Talca) - Paso El Pehuenche",
+        "name": "Ruta 115 CH",
+        "official_name": "Cruce Ruta 5 (Talca) - Paso El Pehuenche",
         "oneway": "no",
-        "ref": "115-CH",
+        "ref": "115",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 933150617,
-      "timestamp": "2021-09-23T18:38:59Z",
-      "version": 4,
-      "changeset": 111613209,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2021-10-08T04:15:10Z",
+      "version": 5,
+      "changeset": 112242273,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [4582045987, 314350540],
       "geometry": [
         {"lat": -35.8237565, "lon": -70.7625847},
@@ -89758,9 +89781,10 @@
         "maxspeed:coach": "50",
         "maxspeed:hgv:conditional": "50 @ (weight>=3.86)",
         "maxspeed:psv:conditional": "50 @ (weight>=3.86)",
-        "name": "Cruce Ruta 5 (Talca) - Paso El Pehuenche",
+        "name": "Ruta 115 CH",
+        "official_name": "Cruce Ruta 5 (Talca) - Paso El Pehuenche",
         "oneway": "no",
-        "ref": "115-CH",
+        "ref": "115",
         "surface": "asphalt"
       }
     },
@@ -89813,12 +89837,12 @@
       ],
       "tags": {
         "alt_name": "O`Higgins",
+        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
-        "ref": "265-CH",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
