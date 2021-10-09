@@ -5,31 +5,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "peak_peak",
-        "@distance": 1355.6,
-        "@id": "n1061036902",
-        "@changeset": 95367684,
-        "@timestamp": "2020-12-06T14:23:03Z",
-        "@version": 3,
-        "@uid": 1772368,
-        "@user": "pizzaiolo",
-        "ele": 630,
-        "name": "Spear Peak",
-        "natural": "peak",
-        "source": "LINZ & NZ Open GIS",
-        "wikidata": "Q31647840"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          167.96618,
-          -45.56991
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
         "@distance": 1839.9,
         "@id": "n1061029510",
         "@changeset": 95367684,
@@ -355,6 +330,31 @@
         "coordinates": [
           167.9406259,
           -45.7792446
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 1355.6,
+        "@id": "n1061036902",
+        "@changeset": 95367684,
+        "@timestamp": "2020-12-06T14:23:03Z",
+        "@version": 3,
+        "@uid": 1772368,
+        "@user": "pizzaiolo",
+        "ele": 630,
+        "name": "Spear Peak",
+        "natural": "peak",
+        "source": "LINZ & NZ Open GIS",
+        "wikidata": "Q31647840"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.96618,
+          -45.56991
         ]
       }
     },
@@ -2013,17 +2013,22 @@
         "@poi": "foodshop_supermarket",
         "@distance": 406.9,
         "@id": "w618753816",
-        "@changeset": 109297812,
-        "@timestamp": "2021-08-07T07:45:03Z",
-        "@version": 3,
-        "@uid": 1887753,
-        "@user": "brevans",
+        "@changeset": 112280990,
+        "@timestamp": "2021-10-08T20:02:47Z",
+        "@version": 5,
+        "@uid": 10036384,
+        "@user": "michael60634",
+        "addr:city": "Queenstown",
         "addr:housenumber": "302",
+        "addr:postcode": "9300",
+        "addr:street": "Hawthorne Drive",
+        "addr:suburb": "Frankton",
         "brand": "Pak'nSave",
         "brand:wikidata": "Q7125339",
         "building": "yes",
-        "name": "Pak'nSave Queenstown",
+        "name": "PAK'nSAVE Queenstown",
         "opening_hours": "Mo-Su 07:00-22:00",
+        "operator": "PAK'nSAVE",
         "payment:account_cards": "yes",
         "payment:cash": "yes",
         "payment:coins": "yes",
@@ -8069,6 +8074,57 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_wilderness-hut",
+        "@distance": 123.1,
+        "@id": "n2264754088",
+        "@changeset": 83056431,
+        "@timestamp": "2020-04-03T23:31:15Z",
+        "@version": 8,
+        "@uid": 2057798,
+        "@user": "Sarvihepo",
+        "capacity": 6,
+        "drinking_water": "stream",
+        "fee": "no",
+        "name": "Hope Halfway Hut",
+        "operator": "Department of Conservation",
+        "ref:doc": "100062861",
+        "reservation": "no",
+        "toilets": "yes",
+        "tourism": "wilderness_hut",
+        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/lake-sumner-forest-park/things-to-do/huts/hope-halfway-hut/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.297893,
+          -42.6157696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 943.4,
+        "@id": "n6202525120",
+        "@changeset": 66243167,
+        "@timestamp": "2019-01-12T02:43:27Z",
+        "@version": 1,
+        "@uid": 1715587,
+        "@user": "ivss_xx",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.3825332,
+          -42.5841841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
         "@distance": 62,
         "@id": "n1225158540",
         "@changeset": 104281423,
@@ -8652,57 +8708,6 @@
         "coordinates": [
           172.4748861,
           -42.4972908
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 123.1,
-        "@id": "n2264754088",
-        "@changeset": 83056431,
-        "@timestamp": "2020-04-03T23:31:15Z",
-        "@version": 8,
-        "@uid": 2057798,
-        "@user": "Sarvihepo",
-        "capacity": 6,
-        "drinking_water": "stream",
-        "fee": "no",
-        "name": "Hope Halfway Hut",
-        "operator": "Department of Conservation",
-        "ref:doc": "100062861",
-        "reservation": "no",
-        "toilets": "yes",
-        "tourism": "wilderness_hut",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/lake-sumner-forest-park/things-to-do/huts/hope-halfway-hut/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          172.297893,
-          -42.6157696
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 943.4,
-        "@id": "n6202525120",
-        "@changeset": 66243167,
-        "@timestamp": "2019-01-12T02:43:27Z",
-        "@version": 1,
-        "@uid": 1715587,
-        "@user": "ivss_xx",
-        "amenity": "shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          172.3825332,
-          -42.5841841
         ]
       }
     },
