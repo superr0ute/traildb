@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-08T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-09T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -825,12 +825,13 @@
     {
       "type": "relation",
       "id": 6814251,
-      "timestamp": "2021-05-17T09:28:03Z",
-      "version": 2,
-      "changeset": 104813351,
-      "user": "Sriosm",
-      "uid": 11888395,
+      "timestamp": "2021-10-09T02:10:55Z",
+      "version": 3,
+      "changeset": 112286983,
+      "user": "jptolosa",
+      "uid": 1975220,
       "members": [
+        {"type": "way", "ref": 991378717, "role": ""},
         {"type": "way", "ref": 25755473, "role": ""},
         {"type": "way", "ref": 105761317, "role": ""},
         {"type": "way", "ref": 105761319, "role": ""},
@@ -1987,11 +1988,11 @@
     {
       "type": "way",
       "id": 105611888,
-      "timestamp": "2021-06-04T11:25:27Z",
-      "version": 6,
-      "changeset": 105835678,
-      "user": "manoj@123",
-      "uid": 11698695,
+      "timestamp": "2021-10-09T02:10:55Z",
+      "version": 7,
+      "changeset": 112286983,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [1217817324, 280655084],
       "geometry": [
         {"lat": -39.4574146, "lon": -71.5466203},
@@ -2026,48 +2027,48 @@
         {"lat": -39.4684759, "lon": -71.5425915}
       ],
       "tags": {
-        "highway": "tertiary",
-        "surface": "unpaved",
-        "ref": "S-977",
         "attribution": "Vialidad",
         "chile:region": "9",
         "chile:surface": "ripio",
+        "highway": "unclassified",
         "navibot:categorize": "yes",
-        "source": "vialidad.cl"
+        "old_ref": "S-977",
+        "source": "vialidad.cl",
+        "surface": "unpaved"
       }
     },
     {
       "type": "way",
       "id": 105761317,
-      "timestamp": "2012-01-04T23:55:49Z",
-      "version": 2,
-      "changeset": 10296736,
-      "user": "dbusse",
-      "uid": 149876,
+      "timestamp": "2021-10-09T02:10:55Z",
+      "version": 3,
+      "changeset": 112286983,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [1217817353, 1217817371],
       "geometry": [
         {"lat": -39.394096, "lon": -71.54847},
         {"lat": -39.3942345, "lon": -71.5484189}
       ],
       "tags": {
-        "highway": "tertiary",
-        "surface": "unpaved",
-        "ref": "S-983",
         "attribution": "Vialidad",
         "bridge": "yes",
         "chile:region": "9",
         "chile:surface": "ripio",
+        "highway": "unclassified",
         "layer": "1",
         "navibot:categorize": "yes",
-        "source": "vialidad.cl"
+        "old_ref": "S-983",
+        "source": "vialidad.cl",
+        "surface": "unpaved"
       }
     },
     {
       "type": "way",
       "id": 105761319,
-      "timestamp": "2017-03-01T01:34:14Z",
-      "version": 5,
-      "changeset": 46482524,
+      "timestamp": "2021-10-09T02:10:55Z",
+      "version": 6,
+      "changeset": 112286983,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [1217817371, 1217817324],
@@ -2203,14 +2204,14 @@
         {"lat": -39.4574146, "lon": -71.5466203}
       ],
       "tags": {
-        "highway": "tertiary",
-        "surface": "gravel",
-        "ref": "S-983",
         "attribution": "Vialidad",
         "chile:region": "9",
         "chile:surface": "ripio",
+        "highway": "unclassified",
         "navibot:categorize": "yes",
-        "source": "vialidad.cl"
+        "old_ref": "S-983",
+        "source": "vialidad.cl",
+        "surface": "gravel"
       }
     },
     {
@@ -3447,9 +3448,9 @@
     {
       "type": "way",
       "id": 116342051,
-      "timestamp": "2017-03-28T04:18:56Z",
-      "version": 6,
-      "changeset": 47218138,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 7,
+      "changeset": 112287153,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [1209065001, 280912343],
@@ -3458,13 +3459,14 @@
         {"lat": -46.5430809, "lon": -71.713156}
       ],
       "tags": {
-        "surface": "asphalt",
-        "name": "O'Higgins",
-        "ref": "265-CH",
+        "alt_name": "O`Higgins;Ruta 265 CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
-        "source": "vialidad.cl"
+        "name": "Avenida Bernardo O'Higgins",
+        "ref": "265",
+        "source": "vialidad.cl",
+        "surface": "asphalt"
       }
     },
     {
@@ -9805,9 +9807,9 @@
     {
       "type": "way",
       "id": 247609065,
-      "timestamp": "2017-03-28T04:33:30Z",
-      "version": 8,
-      "changeset": 47218261,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 9,
+      "changeset": 112287153,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [2731459465, 1092450243],
@@ -9817,13 +9819,13 @@
         {"lat": -46.5387964, "lon": -71.7273072}
       ],
       "tags": {
-        "alt_name": "O`Higgins",
-        "ref": "265-CH",
+        "alt_name": "O`Higgins;Ruta 265 CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
+        "ref": "265",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -10482,27 +10484,13 @@
     {
       "type": "way",
       "id": 25755473,
-      "timestamp": "2021-07-07T11:11:58Z",
-      "version": 7,
-      "changeset": 107558223,
-      "user": "Aleksandar1994",
-      "uid": 3733993,
-      "nodes": [280815863, 1217817353],
+      "timestamp": "2021-10-09T02:10:55Z",
+      "version": 8,
+      "changeset": 112286983,
+      "user": "jptolosa",
+      "uid": 1975220,
+      "nodes": [280792045, 1217817353],
       "geometry": [
-        {"lat": -39.3642793, "lon": -71.5826655},
-        {"lat": -39.364456, "lon": -71.582807},
-        {"lat": -39.36456, "lon": -71.582813},
-        {"lat": -39.364625, "lon": -71.582778},
-        {"lat": -39.364792, "lon": -71.582622},
-        {"lat": -39.365171, "lon": -71.582201},
-        {"lat": -39.365507, "lon": -71.581788},
-        {"lat": -39.36565, "lon": -71.581581},
-        {"lat": -39.365893, "lon": -71.581141},
-        {"lat": -39.3662348, "lon": -71.5804056},
-        {"lat": -39.366321, "lon": -71.58022},
-        {"lat": -39.366652, "lon": -71.579609},
-        {"lat": -39.366821, "lon": -71.579259},
-        {"lat": -39.367267, "lon": -71.57819},
         {"lat": -39.367457, "lon": -71.577835},
         {"lat": -39.367536, "lon": -71.577746},
         {"lat": -39.367671, "lon": -71.577639},
@@ -10582,14 +10570,14 @@
         {"lat": -39.394096, "lon": -71.54847}
       ],
       "tags": {
-        "highway": "tertiary",
-        "surface": "unpaved",
-        "ref": "S-983",
         "attribution": "Vialidad",
         "chile:region": "9",
         "chile:surface": "ripio",
+        "highway": "unclassified",
         "navibot:categorize": "yes",
-        "source": "vialidad.cl"
+        "old_ref": "S-983",
+        "source": "vialidad.cl",
+        "surface": "unpaved"
       }
     },
     {
@@ -11888,9 +11876,9 @@
     {
       "type": "way",
       "id": 267731427,
-      "timestamp": "2017-03-28T04:33:36Z",
-      "version": 5,
-      "changeset": 47218261,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 6,
+      "changeset": 112287153,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [2731459466, 2731459465],
@@ -11899,8 +11887,7 @@
         {"lat": -46.539103, "lon": -71.7263251}
       ],
       "tags": {
-        "alt_name": "O`Higgins",
-        "ref": "265-CH",
+        "alt_name": "O`Higgins;Ruta 265 CH",
         "attribution": "Vialidad",
         "bridge": "yes",
         "chile:region": "11",
@@ -11908,6 +11895,7 @@
         "layer": "1",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
+        "ref": "265",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -53585,9 +53573,9 @@
     {
       "type": "way",
       "id": 461262213,
-      "timestamp": "2017-03-01T01:34:16Z",
-      "version": 2,
-      "changeset": 46482524,
+      "timestamp": "2021-10-09T02:10:55Z",
+      "version": 3,
+      "changeset": 112286983,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [2923843879, 4710934068],
@@ -53839,13 +53827,13 @@
         {"lat": -39.2951911, "lon": -71.4318375}
       ],
       "tags": {
-        "highway": "tertiary",
-        "surface": "unpaved",
-        "ref": "S-967",
         "attribution": "Vialidad",
         "chile:region": "9",
         "chile:surface": "tierra",
-        "source": "vialidad.cl"
+        "highway": "unclassified",
+        "old_ref": "S-967",
+        "source": "vialidad.cl",
+        "surface": "unpaved"
       }
     },
     {
@@ -53891,9 +53879,9 @@
     {
       "type": "way",
       "id": 461262216,
-      "timestamp": "2021-07-08T05:54:29Z",
-      "version": 2,
-      "changeset": 107604600,
+      "timestamp": "2021-10-09T02:10:55Z",
+      "version": 3,
+      "changeset": 112286983,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [280775831, 4567900773],
@@ -53911,21 +53899,21 @@
         {"lat": -39.3716589, "lon": -71.4936109}
       ],
       "tags": {
-        "surface": "unpaved",
-        "ref": "S-969",
         "attribution": "Vialidad",
         "chile:region": "9",
         "chile:surface": "tierra",
         "highway": "unclassified",
-        "source": "vialidad.cl"
+        "old_ref": "S-969",
+        "source": "vialidad.cl",
+        "surface": "unpaved"
       }
     },
     {
       "type": "way",
       "id": 461262219,
-      "timestamp": "2017-03-01T01:34:17Z",
-      "version": 2,
-      "changeset": 46482524,
+      "timestamp": "2021-10-09T02:10:55Z",
+      "version": 3,
+      "changeset": 112286983,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [280775831, 280780429],
@@ -54104,14 +54092,14 @@
         {"lat": -39.3597756, "lon": -71.5740385}
       ],
       "tags": {
-        "highway": "tertiary",
-        "surface": "unpaved",
-        "ref": "S-969",
         "attribution": "Vialidad",
         "chile:region": "9",
         "chile:surface": "ripio",
+        "highway": "unclassified",
         "navibot:categorize": "yes",
-        "source": "vialidad.cl"
+        "old_ref": "S-969",
+        "source": "vialidad.cl",
+        "surface": "unpaved"
       }
     },
     {
@@ -66185,9 +66173,9 @@
     {
       "type": "way",
       "id": 473427788,
-      "timestamp": "2019-02-04T07:13:20Z",
-      "version": 3,
-      "changeset": 66894779,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 4,
+      "changeset": 112287153,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [1710868533, 326787384],
@@ -66196,21 +66184,22 @@
         {"lat": -46.5482293, "lon": -71.6960654}
       ],
       "tags": {
-        "name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
-        "surface": "asphalt",
-        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
-        "source": "survey"
+        "name": "Ruta 265 CH",
+        "official_name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
+        "ref": "265",
+        "source": "survey",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 473427789,
-      "timestamp": "2019-02-04T07:13:20Z",
-      "version": 3,
-      "changeset": 66894779,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 4,
+      "changeset": 112287153,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [1268345628, 1710868533],
@@ -66219,21 +66208,22 @@
         {"lat": -46.547113, "lon": -71.6997929}
       ],
       "tags": {
-        "name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
-        "surface": "asphalt",
-        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
-        "source": "survey"
+        "name": "Ruta 265 CH",
+        "official_name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
+        "ref": "265",
+        "source": "survey",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 473427790,
-      "timestamp": "2019-02-04T07:13:20Z",
-      "version": 3,
-      "changeset": 66894779,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 4,
+      "changeset": 112287153,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [1268345573, 1268345628],
@@ -66242,21 +66232,22 @@
         {"lat": -46.5466679, "lon": -71.7012792}
       ],
       "tags": {
-        "name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
-        "surface": "asphalt",
-        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
-        "source": "survey"
+        "name": "Ruta 265 CH",
+        "official_name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
+        "ref": "265",
+        "source": "survey",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 473427791,
-      "timestamp": "2019-02-04T07:13:20Z",
-      "version": 3,
-      "changeset": 66894779,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 4,
+      "changeset": 112287153,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [1268345579, 1268345573],
@@ -66265,21 +66256,22 @@
         {"lat": -46.5462655, "lon": -71.7026225}
       ],
       "tags": {
-        "name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
-        "surface": "asphalt",
-        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
-        "source": "survey"
+        "name": "Ruta 265 CH",
+        "official_name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
+        "ref": "265",
+        "source": "survey",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 473427792,
-      "timestamp": "2019-02-04T07:13:20Z",
-      "version": 3,
-      "changeset": 66894779,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 4,
+      "changeset": 112287153,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [1268345591, 1268345579],
@@ -66288,23 +66280,24 @@
         {"lat": -46.5458938, "lon": -71.7038639}
       ],
       "tags": {
-        "name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
-        "surface": "asphalt",
-        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
-        "source": "survey"
+        "name": "Ruta 265 CH",
+        "official_name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
+        "ref": "265",
+        "source": "survey",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 473427793,
-      "timestamp": "2021-07-07T08:36:16Z",
-      "version": 5,
-      "changeset": 107545859,
-      "user": "aleksaJov",
-      "uid": 7436199,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 6,
+      "changeset": 112287153,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [280912343, 1268345591],
       "geometry": [
         {"lat": -46.5430809, "lon": -71.713156},
@@ -66314,37 +66307,38 @@
         {"lat": -46.5453295, "lon": -71.7057481}
       ],
       "tags": {
-        "name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
-        "surface": "asphalt",
-        "ref": "265-CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
-        "source": "survey"
+        "name": "Ruta 265 CH",
+        "official_name": "Cruce Ruta 7 (El Maitén) - Chile Chico - Paso Río Jeinimeni",
+        "ref": "265",
+        "source": "survey",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 473427794,
-      "timestamp": "2017-06-02T14:32:24Z",
-      "version": 3,
-      "changeset": 49198280,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 4,
+      "changeset": 112287153,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [1092449676, 1209065043],
       "geometry": [
         {"lat": -46.542062, "lon": -71.7165423},
         {"lat": -46.5420244, "lon": -71.7166571}
       ],
       "tags": {
-        "alt_name": "O`Higgins",
-        "ref": "265-CH",
+        "alt_name": "O`Higgins;Ruta 265 CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "maxspeed": "60",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
+        "ref": "265",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66352,9 +66346,9 @@
     {
       "type": "way",
       "id": 473427806,
-      "timestamp": "2017-04-16T21:49:00Z",
-      "version": 3,
-      "changeset": 47850057,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 4,
+      "changeset": 112287153,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [1092450279, 2731459466],
@@ -66364,13 +66358,13 @@
         {"lat": -46.5391582, "lon": -71.7261201}
       ],
       "tags": {
-        "alt_name": "O`Higgins",
-        "ref": "265-CH",
+        "alt_name": "O`Higgins;Ruta 265 CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
+        "ref": "265",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66378,9 +66372,9 @@
     {
       "type": "way",
       "id": 473427807,
-      "timestamp": "2017-04-16T21:49:00Z",
-      "version": 4,
-      "changeset": 47850057,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 5,
+      "changeset": 112287153,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [1092449957, 1092450279],
@@ -66391,13 +66385,13 @@
         {"lat": -46.5392333, "lon": -71.7258557}
       ],
       "tags": {
-        "alt_name": "O`Higgins",
-        "ref": "265-CH",
+        "alt_name": "O`Higgins;Ruta 265 CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
+        "ref": "265",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66405,9 +66399,9 @@
     {
       "type": "way",
       "id": 473427808,
-      "timestamp": "2017-04-16T21:49:01Z",
-      "version": 4,
-      "changeset": 47850057,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 5,
+      "changeset": 112287153,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [1092450009, 1092449957],
@@ -66418,13 +66412,13 @@
         {"lat": -46.5396862, "lon": -71.724363}
       ],
       "tags": {
-        "alt_name": "O`Higgins",
-        "ref": "265-CH",
+        "alt_name": "O`Higgins;Ruta 265 CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
+        "ref": "265",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66432,9 +66426,9 @@
     {
       "type": "way",
       "id": 473427809,
-      "timestamp": "2017-04-16T21:49:01Z",
-      "version": 2,
-      "changeset": 47850057,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 3,
+      "changeset": 112287153,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [280922033, 1092449725],
@@ -66443,13 +66437,13 @@
         {"lat": -46.5377615, "lon": -71.7307892}
       ],
       "tags": {
-        "alt_name": "O`Higgins",
-        "ref": "265-CH",
+        "alt_name": "O`Higgins;Ruta 265 CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
+        "ref": "265",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66457,9 +66451,9 @@
     {
       "type": "way",
       "id": 473427810,
-      "timestamp": "2017-04-16T21:49:01Z",
-      "version": 2,
-      "changeset": 47850057,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 3,
+      "changeset": 112287153,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [1092450227, 280922033],
@@ -66468,13 +66462,13 @@
         {"lat": -46.537873, "lon": -71.7303391}
       ],
       "tags": {
-        "alt_name": "O`Higgins",
-        "ref": "265-CH",
+        "alt_name": "O`Higgins;Ruta 265 CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
+        "ref": "265",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66482,9 +66476,9 @@
     {
       "type": "way",
       "id": 473427811,
-      "timestamp": "2017-04-16T21:49:01Z",
-      "version": 3,
-      "changeset": 47850057,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 4,
+      "changeset": 112287153,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [1092450243, 1092450227],
@@ -66494,13 +66488,13 @@
         {"lat": -46.5383487, "lon": -71.7287974}
       ],
       "tags": {
-        "alt_name": "O`Higgins",
-        "ref": "265-CH",
+        "alt_name": "O`Higgins;Ruta 265 CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
+        "ref": "265",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66508,9 +66502,9 @@
     {
       "type": "way",
       "id": 473427833,
-      "timestamp": "2017-04-16T21:49:01Z",
-      "version": 2,
-      "changeset": 47850057,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 3,
+      "changeset": 112287153,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [1092449845, 1092449716],
@@ -66519,13 +66513,13 @@
         {"lat": -46.5406995, "lon": -71.7210236}
       ],
       "tags": {
-        "alt_name": "O`Higgins",
-        "ref": "265-CH",
+        "alt_name": "O`Higgins;Ruta 265 CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
+        "ref": "265",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66533,11 +66527,11 @@
     {
       "type": "way",
       "id": 473427834,
-      "timestamp": "2017-06-02T14:32:24Z",
-      "version": 4,
-      "changeset": 49198280,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 5,
+      "changeset": 112287153,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [1092449694, 1092449845],
       "geometry": [
         {"lat": -46.541321, "lon": -71.7189752},
@@ -66545,14 +66539,14 @@
         {"lat": -46.5409961, "lon": -71.720046}
       ],
       "tags": {
-        "alt_name": "O`Higgins",
-        "ref": "265-CH",
+        "alt_name": "O`Higgins;Ruta 265 CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "maxspeed": "60",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
+        "ref": "265",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66560,25 +66554,25 @@
     {
       "type": "way",
       "id": 473427835,
-      "timestamp": "2017-06-02T14:32:24Z",
-      "version": 3,
-      "changeset": 49198280,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 4,
+      "changeset": 112287153,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [1092449872, 1092449694],
       "geometry": [
         {"lat": -46.5414173, "lon": -71.718667},
         {"lat": -46.541321, "lon": -71.7189752}
       ],
       "tags": {
-        "alt_name": "O`Higgins",
-        "ref": "265-CH",
+        "alt_name": "O`Higgins;Ruta 265 CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "maxspeed": "60",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
+        "ref": "265",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66586,25 +66580,25 @@
     {
       "type": "way",
       "id": 473427836,
-      "timestamp": "2017-06-02T14:32:24Z",
-      "version": 3,
-      "changeset": 49198280,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 4,
+      "changeset": 112287153,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [1092449663, 1092449872],
       "geometry": [
         {"lat": -46.5416535, "lon": -71.7178793},
         {"lat": -46.5414173, "lon": -71.718667}
       ],
       "tags": {
-        "alt_name": "O`Higgins",
-        "ref": "265-CH",
+        "alt_name": "O`Higgins;Ruta 265 CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "maxspeed": "60",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
+        "ref": "265",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66612,25 +66606,25 @@
     {
       "type": "way",
       "id": 473427837,
-      "timestamp": "2017-06-02T14:32:23Z",
-      "version": 3,
-      "changeset": 49198280,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 4,
+      "changeset": 112287153,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [1209065066, 1092449663],
       "geometry": [
         {"lat": -46.5418537, "lon": -71.7172197},
         {"lat": -46.5416535, "lon": -71.7178793}
       ],
       "tags": {
-        "alt_name": "O`Higgins",
-        "ref": "265-CH",
+        "alt_name": "O`Higgins;Ruta 265 CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "maxspeed": "60",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
+        "ref": "265",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66638,25 +66632,25 @@
     {
       "type": "way",
       "id": 473427838,
-      "timestamp": "2017-06-02T14:32:23Z",
-      "version": 3,
-      "changeset": 49198280,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 4,
+      "changeset": 112287153,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [1209065043, 1209065066],
       "geometry": [
         {"lat": -46.5420244, "lon": -71.7166571},
         {"lat": -46.5418537, "lon": -71.7172197}
       ],
       "tags": {
-        "alt_name": "O`Higgins",
-        "ref": "265-CH",
+        "alt_name": "O`Higgins;Ruta 265 CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "maxspeed": "60",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
+        "ref": "265",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66664,25 +66658,25 @@
     {
       "type": "way",
       "id": 473427839,
-      "timestamp": "2017-06-02T14:32:24Z",
-      "version": 3,
-      "changeset": 49198280,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 4,
+      "changeset": 112287153,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [1209065001, 1092449676],
       "geometry": [
         {"lat": -46.5421456, "lon": -71.7163494},
         {"lat": -46.542062, "lon": -71.7165423}
       ],
       "tags": {
-        "alt_name": "O`Higgins",
-        "ref": "265-CH",
+        "alt_name": "O`Higgins;Ruta 265 CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "maxspeed": "60",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
+        "ref": "265",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -66705,9 +66699,9 @@
     {
       "type": "way",
       "id": 477791052,
-      "timestamp": "2017-03-01T01:34:09Z",
-      "version": 1,
-      "changeset": 46482524,
+      "timestamp": "2021-10-09T02:10:55Z",
+      "version": 2,
+      "changeset": 112286983,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [4710934069, 2923859171],
@@ -66745,21 +66739,21 @@
         {"lat": -39.3031883, "lon": -71.4396451}
       ],
       "tags": {
-        "highway": "tertiary",
-        "surface": "unpaved",
-        "ref": "S-967",
         "attribution": "Vialidad",
         "chile:region": "9",
         "chile:surface": "tierra",
-        "source": "vialidad.cl"
+        "highway": "unclassified",
+        "old_ref": "S-967",
+        "source": "vialidad.cl",
+        "surface": "unpaved"
       }
     },
     {
       "type": "way",
       "id": 477791053,
-      "timestamp": "2017-03-01T01:34:09Z",
-      "version": 1,
-      "changeset": 46482524,
+      "timestamp": "2021-10-09T02:10:55Z",
+      "version": 2,
+      "changeset": 112286983,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [4710934068, 4710934069],
@@ -66768,15 +66762,15 @@
         {"lat": -39.2953686, "lon": -71.4320333}
       ],
       "tags": {
-        "highway": "tertiary",
-        "surface": "unpaved",
-        "ref": "S-967",
         "attribution": "Vialidad",
         "bridge": "yes",
         "chile:region": "9",
         "chile:surface": "tierra",
+        "highway": "unclassified",
         "layer": "1",
-        "source": "vialidad.cl"
+        "old_ref": "S-967",
+        "source": "vialidad.cl",
+        "surface": "unpaved"
       }
     },
     {
@@ -89824,11 +89818,11 @@
     {
       "type": "way",
       "id": 93976321,
-      "timestamp": "2020-09-05T23:10:42Z",
-      "version": 14,
-      "changeset": 90466145,
-      "user": "patodiez",
-      "uid": 1856060,
+      "timestamp": "2021-10-09T02:29:26Z",
+      "version": 15,
+      "changeset": 112287153,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [1092449716, 1092450009],
       "geometry": [
         {"lat": -46.5406995, "lon": -71.7210236},
@@ -89836,13 +89830,13 @@
         {"lat": -46.5401349, "lon": -71.7228843}
       ],
       "tags": {
-        "alt_name": "O`Higgins",
-        "ref": "265-CH",
+        "alt_name": "O`Higgins;Ruta 265 CH",
         "attribution": "Vialidad",
         "chile:region": "11",
         "highway": "primary",
         "name": "Avenida Bernardo O'Higgins",
         "oneway": "yes",
+        "ref": "265",
         "source": "vialidad.cl",
         "surface": "asphalt"
       }
@@ -90169,6 +90163,43 @@
         "highway": "tertiary",
         "name": "Cruce T-551 (Llifén) - Arquilhue - Maihue - Rupumeica Bajo",
         "ref": "T-559",
+        "source": "vialidad.cl",
+        "surface": "unpaved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 991378717,
+      "timestamp": "2021-10-09T02:10:55Z",
+      "version": 1,
+      "changeset": 112286983,
+      "user": "jptolosa",
+      "uid": 1975220,
+      "nodes": [280815863, 280792045],
+      "geometry": [
+        {"lat": -39.3642793, "lon": -71.5826655},
+        {"lat": -39.364456, "lon": -71.582807},
+        {"lat": -39.36456, "lon": -71.582813},
+        {"lat": -39.364625, "lon": -71.582778},
+        {"lat": -39.364792, "lon": -71.582622},
+        {"lat": -39.365171, "lon": -71.582201},
+        {"lat": -39.365507, "lon": -71.581788},
+        {"lat": -39.36565, "lon": -71.581581},
+        {"lat": -39.365893, "lon": -71.581141},
+        {"lat": -39.3662348, "lon": -71.5804056},
+        {"lat": -39.366321, "lon": -71.58022},
+        {"lat": -39.366652, "lon": -71.579609},
+        {"lat": -39.366821, "lon": -71.579259},
+        {"lat": -39.367267, "lon": -71.57819},
+        {"lat": -39.367457, "lon": -71.577835}
+      ],
+      "tags": {
+        "attribution": "Vialidad",
+        "chile:region": "9",
+        "chile:surface": "ripio",
+        "highway": "residential",
+        "navibot:categorize": "yes",
+        "old_ref": "S-983",
         "source": "vialidad.cl",
         "surface": "unpaved"
       }

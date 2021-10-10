@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-07T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-09T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1511,9 +1511,9 @@
     {
       "type": "relation",
       "id": 7393053,
-      "timestamp": "2021-10-07T19:39:14Z",
-      "version": 12,
-      "changeset": 112232455,
+      "timestamp": "2021-10-09T18:33:44Z",
+      "version": 13,
+      "changeset": 112311477,
       "user": "phlustik",
       "uid": 842813,
       "members": [
@@ -1528,6 +1528,7 @@
         {"type": "way", "ref": 709348559, "role": ""},
         {"type": "way", "ref": 180738914, "role": ""},
         {"type": "way", "ref": 64745159, "role": ""},
+        {"type": "way", "ref": 991538894, "role": ""},
         {"type": "way", "ref": 64741747, "role": ""},
         {"type": "way", "ref": 507347462, "role": ""},
         {"type": "way", "ref": 969561363, "role": ""},
@@ -9709,11 +9710,11 @@
     {
       "type": "way",
       "id": 180738914,
-      "timestamp": "2019-07-31T19:27:59Z",
-      "version": 5,
-      "changeset": 72870605,
-      "user": "Øukasz",
-      "uid": 3121211,
+      "timestamp": "2021-10-09T15:02:57Z",
+      "version": 6,
+      "changeset": 112304570,
+      "user": "phlustik",
+      "uid": 842813,
       "nodes": [1912003232, 1912002946],
       "geometry": [
         {"lat": 43.5513112, "lon": 17.9091899},
@@ -9813,7 +9814,12 @@
         {"lat": 43.502494, "lon": 17.9476095},
         {"lat": 43.502758, "lon": 17.9477135}
       ],
-      "tags": {"highway": "path", "sac_scale": "hiking"}
+      "tags": {
+        "foot": "yes",
+        "highway": "path",
+        "sac_scale": "hiking",
+        "trail_visibility": "good"
+      }
     },
     {
       "type": "way",
@@ -51895,29 +51901,13 @@
     {
       "type": "way",
       "id": 64745159,
-      "timestamp": "2021-07-31T16:58:57Z",
-      "version": 5,
-      "changeset": 108950951,
+      "timestamp": "2021-10-09T18:33:44Z",
+      "version": 6,
+      "changeset": 112311477,
       "user": "phlustik",
       "uid": 842813,
-      "nodes": [794361271, 1912003232],
+      "nodes": [794377353, 1912003232],
       "geometry": [
-        {"lat": 43.5626192, "lon": 17.8977936},
-        {"lat": 43.562187, "lon": 17.8984734},
-        {"lat": 43.5616195, "lon": 17.8989665},
-        {"lat": 43.5609049, "lon": 17.9002717},
-        {"lat": 43.561052, "lon": 17.9005907},
-        {"lat": 43.5607368, "lon": 17.9013159},
-        {"lat": 43.5601482, "lon": 17.9016059},
-        {"lat": 43.559917, "lon": 17.902331},
-        {"lat": 43.5596648, "lon": 17.90236},
-        {"lat": 43.5594336, "lon": 17.9027661},
-        {"lat": 43.5595177, "lon": 17.9030271},
-        {"lat": 43.5592445, "lon": 17.9034042},
-        {"lat": 43.5589502, "lon": 17.9034042},
-        {"lat": 43.5577941, "lon": 17.9045934},
-        {"lat": 43.5571636, "lon": 17.9047094},
-        {"lat": 43.5567852, "lon": 17.9054345},
         {"lat": 43.5568693, "lon": 17.9061596},
         {"lat": 43.5566381, "lon": 17.9061887},
         {"lat": 43.5564977, "lon": 17.9062154},
@@ -58728,9 +58718,9 @@
     {
       "type": "way",
       "id": 969561366,
-      "timestamp": "2021-08-09T12:27:32Z",
-      "version": 2,
-      "changeset": 109406424,
+      "timestamp": "2021-10-09T18:44:16Z",
+      "version": 3,
+      "changeset": 112311745,
       "user": "phlustik",
       "uid": 842813,
       "nodes": [8972209464, 794358826],
@@ -59146,7 +59136,12 @@
         {"lat": 43.5688459, "lon": 17.8872772},
         {"lat": 43.5690253, "lon": 17.8875395}
       ],
-      "tags": {"highway": "path"}
+      "tags": {
+        "foot": "yes",
+        "highway": "path",
+        "sac_scale": "hiking",
+        "trail_visibility": "excellent"
+      }
     },
     {
       "type": "way",
@@ -59514,6 +59509,41 @@
         "highway": "path",
         "sac_scale": "mountain_hiking",
         "source": "http://gps-planine.com"
+      }
+    },
+    {
+      "type": "way",
+      "id": 991538894,
+      "timestamp": "2021-10-09T18:33:44Z",
+      "version": 1,
+      "changeset": 112311477,
+      "user": "phlustik",
+      "uid": 842813,
+      "nodes": [794361271, 794377353],
+      "geometry": [
+        {"lat": 43.5626192, "lon": 17.8977936},
+        {"lat": 43.562187, "lon": 17.8984734},
+        {"lat": 43.5616195, "lon": 17.8989665},
+        {"lat": 43.5609049, "lon": 17.9002717},
+        {"lat": 43.561052, "lon": 17.9005907},
+        {"lat": 43.5607368, "lon": 17.9013159},
+        {"lat": 43.5601482, "lon": 17.9016059},
+        {"lat": 43.559917, "lon": 17.902331},
+        {"lat": 43.5596648, "lon": 17.90236},
+        {"lat": 43.5594336, "lon": 17.9027661},
+        {"lat": 43.5595177, "lon": 17.9030271},
+        {"lat": 43.5592445, "lon": 17.9034042},
+        {"lat": 43.5589502, "lon": 17.9034042},
+        {"lat": 43.5577941, "lon": 17.9045934},
+        {"lat": 43.5571636, "lon": 17.9047094},
+        {"lat": 43.5567852, "lon": 17.9054345},
+        {"lat": 43.5568693, "lon": 17.9061596}
+      ],
+      "tags": {
+        "highway": "path",
+        "route": "hiking",
+        "sac_scale": "hiking",
+        "trail_visibility": "excellent"
       }
     }
   ]
