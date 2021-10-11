@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-07T02:42:27Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-11T02:36:57Z"},
   "elements": [
     {
       "type": "relation",
@@ -628,9 +628,9 @@
     {
       "type": "relation",
       "id": 9430637,
-      "timestamp": "2021-10-06T18:21:38Z",
-      "version": 17,
-      "changeset": 112182194,
+      "timestamp": "2021-10-10T18:55:33Z",
+      "version": 20,
+      "changeset": 112345407,
       "user": "5R-MFT",
       "uid": 3417876,
       "members": [
@@ -650,9 +650,18 @@
         {"type": "way", "ref": 51196374, "role": ""},
         {"type": "way", "ref": 98363923, "role": ""},
         {"type": "way", "ref": 50692187, "role": ""},
+        {"type": "way", "ref": 991758177, "role": ""},
+        {"type": "way", "ref": 991753697, "role": ""},
+        {"type": "way", "ref": 991753698, "role": ""},
+        {"type": "way", "ref": 991761008, "role": ""},
+        {"type": "way", "ref": 991761009, "role": ""},
+        {"type": "way", "ref": 991761010, "role": ""},
+        {"type": "way", "ref": 991761011, "role": ""},
         {"type": "way", "ref": 98372065, "role": ""},
-        {"type": "way", "ref": 990524581, "role": ""},
+        {"type": "way", "ref": 991761012, "role": ""},
+        {"type": "way", "ref": 991761013, "role": ""},
         {"type": "way", "ref": 50692186, "role": ""},
+        {"type": "way", "ref": 990524581, "role": ""},
         {"type": "way", "ref": 988951599, "role": ""},
         {"type": "way", "ref": 149117647, "role": ""},
         {"type": "way", "ref": 986677111, "role": ""},
@@ -14798,12 +14807,12 @@
     {
       "type": "way",
       "id": 50692186,
-      "timestamp": "2021-10-06T18:21:38Z",
-      "version": 8,
-      "changeset": 112182194,
+      "timestamp": "2021-10-10T18:55:33Z",
+      "version": 9,
+      "changeset": 112345407,
       "user": "5R-MFT",
       "uid": 3417876,
-      "nodes": [9124688639, 618294486],
+      "nodes": [9124688639, 9163161969],
       "geometry": [
         {"lat": 28.6213183, "lon": -17.8911365, "z": 450.8},
         {"lat": 28.6213401, "lon": -17.8912076, "z": 450.2},
@@ -14813,11 +14822,11 @@
         {"lat": 28.6213301, "lon": -17.8915146, "z": 446.4},
         {"lat": 28.6213923, "lon": -17.8918799, "z": 442.7},
         {"lat": 28.6214545, "lon": -17.8920967, "z": 440.7},
-        {"lat": 28.6216669, "lon": -17.892529, "z": 437.4}
+        {"lat": 28.6216212, "lon": -17.892436, "z": 438.2}
       ],
       "tags": {
         "access": "yes",
-        "highway": "track",
+        "destroyed:highway": "track",
         "motorcar": "yes",
         "motorcycle": "yes",
         "mtb:scale": "0",
@@ -14830,26 +14839,14 @@
     {
       "type": "way",
       "id": 50692187,
-      "timestamp": "2021-10-03T20:23:11Z",
-      "version": 10,
-      "changeset": 112047926,
-      "user": "5R-MFT",
-      "uid": 3417876,
-      "nodes": [645595026, 394759328],
+      "timestamp": "2021-10-10T18:44:12Z",
+      "version": 12,
+      "changeset": 112345020,
+      "user": "jmsbert",
+      "uid": 3484277,
+      "nodes": [9163166922, 394759328],
       "geometry": [
-        {"lat": 28.6222276, "lon": -17.8933857, "z": 432.8},
-        {"lat": 28.6223076, "lon": -17.8934669, "z": 432.5},
-        {"lat": 28.6224702, "lon": -17.8935572, "z": 432.7},
-        {"lat": 28.6226475, "lon": -17.8936562, "z": 432.9},
-        {"lat": 28.6227912, "lon": -17.8936971, "z": 433.5},
-        {"lat": 28.6229672, "lon": -17.8937331, "z": 433.9},
-        {"lat": 28.6233916, "lon": -17.8938343, "z": 434.4},
-        {"lat": 28.6237741, "lon": -17.8939375, "z": 434.2},
-        {"lat": 28.6239545, "lon": -17.8939933, "z": 434},
-        {"lat": 28.6240396, "lon": -17.8940196, "z": 433.9},
-        {"lat": 28.6241022, "lon": -17.8940488, "z": 433.8},
-        {"lat": 28.6245286, "lon": -17.8942271, "z": 432.8},
-        {"lat": 28.6248063, "lon": -17.8943775, "z": 431.3},
+        {"lat": 28.6248647, "lon": -17.8944004, "z": 431.1},
         {"lat": 28.6250473, "lon": -17.8944722, "z": 430.3},
         {"lat": 28.6254977, "lon": -17.8945678, "z": 429},
         {"lat": 28.6257239, "lon": -17.8946095, "z": 428.3},
@@ -18899,18 +18896,16 @@
     {
       "type": "way",
       "id": 98372065,
-      "timestamp": "2021-09-26T17:54:34Z",
-      "version": 7,
-      "changeset": 111734272,
+      "timestamp": "2021-10-10T18:55:33Z",
+      "version": 8,
+      "changeset": 112345407,
       "user": "5R-MFT",
       "uid": 3417876,
-      "nodes": [618294486, 645595026],
+      "nodes": [9163161968, 9163161967],
       "geometry": [
-        {"lat": 28.6216669, "lon": -17.892529, "z": 437.4},
+        {"lat": 28.6218001, "lon": -17.8926335, "z": 437.4},
         {"lat": 28.6218673, "lon": -17.8926862, "z": 437.3},
-        {"lat": 28.6220198, "lon": -17.892892, "z": 436.2},
-        {"lat": 28.6221155, "lon": -17.8931894, "z": 433.9},
-        {"lat": 28.6222276, "lon": -17.8933857, "z": 432.8}
+        {"lat": 28.6219227, "lon": -17.8927609, "z": 436.9}
       ],
       "tags": {"highway": "service", "name": "Camino Campitos"}
     },
@@ -19814,6 +19809,181 @@
       "tags": {
         "access": "yes",
         "destroyed:highway": "track",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "mtb:scale": "0",
+        "name": "Camino de los Campitos",
+        "surface": "gravel",
+        "tracktype": "grade2",
+        "width": "2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 991753697,
+      "timestamp": "2021-10-10T18:19:23Z",
+      "version": 1,
+      "changeset": 112342816,
+      "user": "Dodko",
+      "uid": 1944033,
+      "nodes": [9126963355, 4653645608],
+      "geometry": [
+        {"lat": 28.6237741, "lon": -17.8939375, "z": 434.2},
+        {"lat": 28.6239545, "lon": -17.8939933, "z": 434},
+        {"lat": 28.6240396, "lon": -17.8940196, "z": 433.9},
+        {"lat": 28.6241022, "lon": -17.8940488, "z": 433.8},
+        {"lat": 28.6245286, "lon": -17.8942271, "z": 432.8},
+        {"lat": 28.6248063, "lon": -17.8943775, "z": 431.3}
+      ],
+      "tags": {
+        "destroyed:highway": "residential",
+        "name": "Camino de los Campitos",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 991753698,
+      "timestamp": "2021-10-10T18:55:33Z",
+      "version": 2,
+      "changeset": 112345407,
+      "user": "5R-MFT",
+      "uid": 3417876,
+      "nodes": [9163161964, 9126963355],
+      "geometry": [
+        {"lat": 28.622523, "lon": -17.8935867, "z": 432.7},
+        {"lat": 28.6226475, "lon": -17.8936562, "z": 432.9},
+        {"lat": 28.6227912, "lon": -17.8936971, "z": 433.5},
+        {"lat": 28.6229672, "lon": -17.8937331, "z": 433.9},
+        {"lat": 28.6233916, "lon": -17.8938343, "z": 434.4},
+        {"lat": 28.6237741, "lon": -17.8939375, "z": 434.2}
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Camino de los Campitos",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 991758177,
+      "timestamp": "2021-10-10T18:44:12Z",
+      "version": 1,
+      "changeset": 112345020,
+      "user": "jmsbert",
+      "uid": 3484277,
+      "nodes": [4653645608, 9163166922],
+      "geometry": [
+        {"lat": 28.6248063, "lon": -17.8943775, "z": 431.3},
+        {"lat": 28.6248647, "lon": -17.8944004, "z": 431.1}
+      ],
+      "tags": {
+        "damage:date": "2021-10-10",
+        "damage:type": "eruption",
+        "destroyed:highway": "residential",
+        "name": "Camino de los Campitos",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 991761008,
+      "timestamp": "2021-10-10T18:55:33Z",
+      "version": 1,
+      "changeset": 112345407,
+      "user": "5R-MFT",
+      "uid": 3417876,
+      "nodes": [645595026, 9163161964],
+      "geometry": [
+        {"lat": 28.6222276, "lon": -17.8933857, "z": 432.8},
+        {"lat": 28.6223076, "lon": -17.8934669, "z": 432.5},
+        {"lat": 28.6224702, "lon": -17.8935572, "z": 432.7},
+        {"lat": 28.622523, "lon": -17.8935867, "z": 432.7}
+      ],
+      "tags": {
+        "destroyed:highway": "residential",
+        "name": "Camino de los Campitos",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 991761009,
+      "timestamp": "2021-10-10T18:55:33Z",
+      "version": 1,
+      "changeset": 112345407,
+      "user": "5R-MFT",
+      "uid": 3417876,
+      "nodes": [9163161965, 645595026],
+      "geometry": [
+        {"lat": 28.6220248, "lon": -17.8929075, "z": 436.1},
+        {"lat": 28.6221155, "lon": -17.8931894, "z": 433.9},
+        {"lat": 28.6222276, "lon": -17.8933857, "z": 432.8}
+      ],
+      "tags": {"destroyed:highway": "service", "name": "Camino Campitos"}
+    },
+    {
+      "type": "way",
+      "id": 991761010,
+      "timestamp": "2021-10-10T18:55:33Z",
+      "version": 1,
+      "changeset": 112345407,
+      "user": "5R-MFT",
+      "uid": 3417876,
+      "nodes": [9163161966, 9163161965],
+      "geometry": [
+        {"lat": 28.6220109, "lon": -17.8928799, "z": 436.3},
+        {"lat": 28.6220198, "lon": -17.892892, "z": 436.2},
+        {"lat": 28.6220248, "lon": -17.8929075, "z": 436.1}
+      ],
+      "tags": {"highway": "service", "name": "Camino Campitos"}
+    },
+    {
+      "type": "way",
+      "id": 991761011,
+      "timestamp": "2021-10-10T18:55:33Z",
+      "version": 1,
+      "changeset": 112345407,
+      "user": "5R-MFT",
+      "uid": 3417876,
+      "nodes": [9163161967, 9163161966],
+      "geometry": [
+        {"lat": 28.6219227, "lon": -17.8927609, "z": 436.9},
+        {"lat": 28.6220109, "lon": -17.8928799, "z": 436.3}
+      ],
+      "tags": {"destroyed:highway": "service", "name": "Camino Campitos"}
+    },
+    {
+      "type": "way",
+      "id": 991761012,
+      "timestamp": "2021-10-10T18:55:33Z",
+      "version": 1,
+      "changeset": 112345407,
+      "user": "5R-MFT",
+      "uid": 3417876,
+      "nodes": [618294486, 9163161968],
+      "geometry": [
+        {"lat": 28.6216669, "lon": -17.892529, "z": 437.4},
+        {"lat": 28.6218001, "lon": -17.8926335, "z": 437.4}
+      ],
+      "tags": {"destroyed:highway": "service", "name": "Camino Campitos"}
+    },
+    {
+      "type": "way",
+      "id": 991761013,
+      "timestamp": "2021-10-10T18:55:33Z",
+      "version": 1,
+      "changeset": 112345407,
+      "user": "5R-MFT",
+      "uid": 3417876,
+      "nodes": [9163161969, 618294486],
+      "geometry": [
+        {"lat": 28.6216212, "lon": -17.892436, "z": 438.2},
+        {"lat": 28.6216669, "lon": -17.892529, "z": 437.4}
+      ],
+      "tags": {
+        "access": "yes",
+        "highway": "track",
         "motorcar": "yes",
         "motorcycle": "yes",
         "mtb:scale": "0",
