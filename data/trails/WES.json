@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-10T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-11T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -3223,11 +3223,11 @@
     {
       "type": "way",
       "id": 116530627,
-      "timestamp": "2016-03-01T18:13:01Z",
-      "version": 3,
-      "changeset": 37549806,
-      "user": "MichaOSM",
-      "uid": 2030591,
+      "timestamp": "2021-10-11T21:50:57Z",
+      "version": 4,
+      "changeset": 112393447,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
       "nodes": [520840037, 510828834],
       "geometry": [
         {"lat": 47.7103352, "lon": 7.9172432},
@@ -3237,7 +3237,12 @@
         {"lat": 47.7102719, "lon": 7.9166916},
         {"lat": 47.7101616, "lon": 7.9163332}
       ],
-      "tags": {"highway": "unclassified", "tracktype": "grade2"}
+      "tags": {
+        "highway": "unclassified",
+        "name": "Zum Hörnle",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -12898,15 +12903,18 @@
     {
       "type": "way",
       "id": 243466644,
-      "timestamp": "2021-05-02T14:22:01Z",
-      "version": 2,
-      "changeset": 103997398,
+      "timestamp": "2021-10-11T21:50:57Z",
+      "version": 3,
+      "changeset": 112393447,
       "user": "Shaun das Schaf",
       "uid": 1228402,
       "nodes": [808587132, 885584890],
       "geometry": [
-        {"lat": 47.6955388, "lon": 7.8944288},
-        {"lat": 47.695423, "lon": 7.8937612},
+        {"lat": 47.6956125, "lon": 7.8943299},
+        {"lat": 47.6955268, "lon": 7.8941609},
+        {"lat": 47.6954871, "lon": 7.8938726},
+        {"lat": 47.6954988, "lon": 7.8936405},
+        {"lat": 47.6955331, "lon": 7.8934515},
         {"lat": 47.6955338, "lon": 7.8932916},
         {"lat": 47.6953801, "lon": 7.8924537},
         {"lat": 47.6952881, "lon": 7.8919223}
@@ -12914,6 +12922,7 @@
       "tags": {
         "highway": "path",
         "mtb:scale": "1",
+        "mtb:scale:uphill": "3",
         "sac_scale": "mountain_hiking",
         "surface": "gravel"
       }
@@ -43077,9 +43086,9 @@
     {
       "type": "way",
       "id": 75006464,
-      "timestamp": "2021-07-30T10:57:40Z",
-      "version": 3,
-      "changeset": 108885014,
+      "timestamp": "2021-10-11T21:50:57Z",
+      "version": 4,
+      "changeset": 112393447,
       "user": "Shaun das Schaf",
       "uid": 1228402,
       "nodes": [409779460, 409779466],
@@ -43088,12 +43097,12 @@
         {"lat": 47.6956746, "lon": 7.8880245},
         {"lat": 47.6955888, "lon": 7.8886477},
         {"lat": 47.6955501, "lon": 7.8888279},
-        {"lat": 47.6955277, "lon": 7.8889318},
+        {"lat": 47.6954952, "lon": 7.8892617},
         {"lat": 47.6954603, "lon": 7.8895342},
         {"lat": 47.695417, "lon": 7.8899634},
         {"lat": 47.6954438, "lon": 7.8902991}
       ],
-      "tags": {"highway": "track", "surface": "ground", "tracktype": "grade4"}
+      "tags": {"highway": "path", "mtb:scale": "0", "surface": "ground"}
     },
     {
       "type": "way",
@@ -48288,7 +48297,7 @@
         {"lat": 47.6951983, "lon": 7.8952048},
         {"lat": 47.6952754, "lon": 7.8950083},
         {"lat": 47.6954011, "lon": 7.8947539},
-        {"lat": 47.6955388, "lon": 7.8944288}
+        {"lat": 47.6956125, "lon": 7.8943299}
       ],
       "tags": {
         "highway": "track",
