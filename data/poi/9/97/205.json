@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-10-10T23:59:59Z",
-    "timestamp_osm_base": "2021-10-11T03:24:28Z",
+    "timestamp_osm_date": "2021-10-11T23:59:59Z",
+    "timestamp_osm_base": "2021-10-12T03:19:58Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -604,16 +604,25 @@
       "type": "node",
       "id": 683859830,
       "lat": 33.2181001,
-      "lon": -111.5657754,
-      "timestamp": "2012-06-22T18:58:46Z",
-      "version": 2,
-      "changeset": 11982414,
-      "user": "nickrouty",
-      "uid": 710109,
+      "lon": -111.565775,
+      "timestamp": "2021-10-11T23:44:30Z",
+      "version": 3,
+      "changeset": 112394940,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
       "tags": {
+        "addr:city": "San Tan Valley",
+        "addr:housenumber": "155",
+        "addr:postcode": "85140",
+        "addr:state": "AZ",
+        "addr:street": "West Combs Road",
+        "brand": "Fry's Marketplace",
+        "brand:wikidata": "Q5506547",
+        "brand:wikipedia": "en:Fry's Food and Drug",
         "name": "Fry's Marketplace",
         "operator": "Fry's Market Place",
-        "shop": "supermarket"
+        "shop": "supermarket",
+        "source": "esri/USA_NAD_Addresses"
       }
     },
     {
@@ -4211,24 +4220,6 @@
     },
     {
       "type": "node",
-      "id": 8517860352,
-      "lat": 33.3047513,
-      "lon": -111.702277,
-      "timestamp": "2021-10-03T04:00:14Z",
-      "version": 2,
-      "changeset": 112019853,
-      "user": "TheDutchMan13",
-      "uid": 1330847,
-      "tags": {
-        "brand": "Fry's Marketplace",
-        "brand:wikidata": "Q5506547",
-        "brand:wikipedia": "en:Fry's Food and Drug",
-        "name": "Fry's Marketplace",
-        "shop": "supermarket"
-      }
-    },
-    {
-      "type": "node",
       "id": 8542102063,
       "lat": 33.2306414,
       "lon": -111.7195645,
@@ -6969,6 +6960,26 @@
         "ref:walmart": "3751",
         "shop": "supermarket",
         "website": "https://www.walmart.com/store/3751/san-tan%20valley-az/whats-new"
+      }
+    },
+    {
+      "type": "way",
+      "id": 265096821,
+      "timestamp": "2021-10-11T08:33:07Z",
+      "version": 2,
+      "changeset": 112363167,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
+      "center": {
+        "lat": 33.271681,
+        "lon": -111.7023257
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "Covered Gazebo",
+        "shelter_type": "gazebo"
       }
     },
     {
@@ -13272,25 +13283,30 @@
     {
       "type": "way",
       "id": 832398727,
-      "timestamp": "2020-10-02T00:35:21Z",
-      "version": 2,
-      "changeset": 91849957,
-      "user": "HJUdall",
-      "uid": 10521928,
+      "timestamp": "2021-10-11T07:58:20Z",
+      "version": 3,
+      "changeset": 112361828,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
       "center": {
         "lat": 33.2470565,
         "lon": -111.6369245
       },
       "nodes": [],
       "tags": {
+        "addr:city": "Queen Creek",
+        "addr:housenumber": "22185",
+        "addr:postcode": "85142",
         "addr:state": "AZ",
+        "addr:street": "South Ellsworth Loop Road",
         "brand": "QuikTrip",
         "brand:wikidata": "Q7271953",
         "brand:wikipedia": "en:QuikTrip",
         "building": "yes",
         "name": "QuikTrip",
         "shop": "convenience",
-        "short_name": "QT"
+        "short_name": "QT",
+        "source": "esri/USA_NAD_Addresses"
       }
     },
     {
@@ -14212,6 +14228,28 @@
     },
     {
       "type": "way",
+      "id": 853016860,
+      "timestamp": "2021-10-11T08:07:43Z",
+      "version": 2,
+      "changeset": 112362179,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
+      "center": {
+        "lat": 33.2539116,
+        "lon": -111.6420744
+      },
+      "nodes": [],
+      "tags": {
+        "brand": "Target",
+        "brand:wikidata": "Q1046951",
+        "brand:wikipedia": "en:Target Corporation",
+        "building": "yes",
+        "name": "Target",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
       "id": 853016863,
       "timestamp": "2021-06-23T05:47:38Z",
       "version": 2,
@@ -14235,46 +14273,58 @@
     {
       "type": "way",
       "id": 853100427,
-      "timestamp": "2020-09-30T03:59:39Z",
-      "version": 1,
-      "changeset": 91737778,
-      "user": "HJUdall",
-      "uid": 10521928,
+      "timestamp": "2021-10-11T08:07:43Z",
+      "version": 2,
+      "changeset": 112362179,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
       "center": {
         "lat": 33.2561617,
-        "lon": -111.6363818
+        "lon": -111.6363817
       },
       "nodes": [],
       "tags": {
+        "addr:city": "Queen Creek",
+        "addr:housenumber": "21181",
+        "addr:postcode": "85142",
+        "addr:state": "AZ",
+        "addr:street": "South Ellsworth Loop Road",
         "brand": "Sprouts Farmers Market",
         "brand:wikidata": "Q7581369",
         "brand:wikipedia": "en:Sprouts Farmers Market",
         "building": "yes",
         "name": "Sprouts Farmers Market",
         "shop": "supermarket",
-        "short_name": "Sprouts"
+        "short_name": "Sprouts",
+        "source": "esri/USA_NAD_Addresses"
       }
     },
     {
       "type": "way",
       "id": 853112795,
-      "timestamp": "2020-09-30T05:07:34Z",
-      "version": 1,
-      "changeset": 91741220,
-      "user": "HJUdall",
-      "uid": 10521928,
+      "timestamp": "2021-10-11T20:27:00Z",
+      "version": 2,
+      "changeset": 112391284,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
       "center": {
         "lat": 33.2490595,
-        "lon": -111.6338373
+        "lon": -111.6338372
       },
       "nodes": [],
       "tags": {
+        "addr:city": "Queen Creek",
+        "addr:housenumber": "21895",
+        "addr:postcode": "85142",
+        "addr:state": "AZ",
+        "addr:street": "South Ellsworth Road",
         "brand": "Circle K",
         "brand:wikidata": "Q3268010",
         "brand:wikipedia": "en:Circle K",
         "building": "yes",
         "name": "Circle K",
-        "shop": "convenience"
+        "shop": "convenience",
+        "source": "esri/USA_NAD_Addresses"
       }
     },
     {
@@ -14510,6 +14560,33 @@
         "amenity": "shelter",
         "building": "yes",
         "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 872148405,
+      "timestamp": "2021-10-11T06:32:29Z",
+      "version": 3,
+      "changeset": 112358554,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
+      "center": {
+        "lat": 33.3047103,
+        "lon": -111.7024334
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "4075",
+        "addr:postcode": "85295",
+        "addr:state": "AZ",
+        "addr:street": "East Williams Field Road",
+        "brand": "Fry's Marketplace",
+        "brand:wikidata": "Q5506547",
+        "brand:wikipedia": "en:Fry's Food and Drug",
+        "building": "retail",
+        "name": "Fry's Marketplace",
+        "shop": "supermarket"
       }
     },
     {
@@ -15635,11 +15712,11 @@
     {
       "type": "way",
       "id": 953088242,
-      "timestamp": "2021-09-19T05:44:29Z",
-      "version": 6,
-      "changeset": 111394990,
-      "user": "b-jazz-bot",
-      "uid": 9451067,
+      "timestamp": "2021-10-11T08:33:07Z",
+      "version": 7,
+      "changeset": 112363167,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
       "center": {
         "lat": 33.2648545,
         "lon": -111.6839618
@@ -15650,7 +15727,7 @@
         "addr:housenumber": "18495",
         "addr:postcode": "85142",
         "addr:state": "AZ",
-        "addr:street": "E Queen Creek rd",
+        "addr:street": "East Queen Creek Road",
         "brand": "Safeway",
         "brand:wikidata": "Q1508234",
         "brand:wikipedia": "en:Safeway Inc.",
@@ -18256,23 +18333,29 @@
     {
       "type": "way",
       "id": 986809942,
-      "timestamp": "2021-09-25T00:45:50Z",
-      "version": 1,
-      "changeset": 111670595,
-      "user": "LightningCloud",
-      "uid": 13528727,
+      "timestamp": "2021-10-11T05:57:53Z",
+      "version": 2,
+      "changeset": 112357350,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
       "center": {
         "lat": 33.2823056,
-        "lon": -111.6871565
+        "lon": -111.687156
       },
       "nodes": [],
       "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "7260",
+        "addr:postcode": "85297",
+        "addr:state": "AZ",
+        "addr:street": "South Power Road",
         "brand": "Circle K",
         "brand:wikidata": "Q3268010",
         "brand:wikipedia": "en:Circle K",
         "building": "yes",
         "name": "Circle K",
-        "shop": "convenience"
+        "shop": "convenience",
+        "source": "esri/USA_NAD_Addresses"
       }
     },
     {
@@ -18381,6 +18464,139 @@
       "center": {
         "lat": 33.3693755,
         "lon": -111.755562
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "way",
+      "id": 991810425,
+      "timestamp": "2021-10-11T00:27:12Z",
+      "version": 1,
+      "changeset": 112352101,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
+      "center": {
+        "lat": 33.3759113,
+        "lon": -111.7234743
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "way",
+      "id": 991854406,
+      "timestamp": "2021-10-11T05:57:53Z",
+      "version": 1,
+      "changeset": 112357350,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
+      "center": {
+        "lat": 33.2841437,
+        "lon": -111.6854978
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "way",
+      "id": 991885596,
+      "timestamp": "2021-10-11T08:33:07Z",
+      "version": 1,
+      "changeset": 112363167,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
+      "center": {
+        "lat": 33.2770947,
+        "lon": -111.6586637
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "way",
+      "id": 992035460,
+      "timestamp": "2021-10-11T19:48:32Z",
+      "version": 1,
+      "changeset": 112390007,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
+      "center": {
+        "lat": 33.2477921,
+        "lon": -111.6497035
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "way",
+      "id": 992035463,
+      "timestamp": "2021-10-11T19:48:32Z",
+      "version": 1,
+      "changeset": 112390007,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
+      "center": {
+        "lat": 33.2480801,
+        "lon": -111.6432485
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "way",
+      "id": 992045516,
+      "timestamp": "2021-10-11T20:27:00Z",
+      "version": 1,
+      "changeset": 112391284,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
+      "center": {
+        "lat": 33.2590627,
+        "lon": -111.5617417
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "way",
+      "id": 992074203,
+      "timestamp": "2021-10-11T23:44:30Z",
+      "version": 1,
+      "changeset": 112394940,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
+      "center": {
+        "lat": 33.2097845,
+        "lon": -111.571783
       },
       "nodes": [],
       "tags": {

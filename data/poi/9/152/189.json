@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-10-10T23:59:59Z",
-    "timestamp_osm_base": "2021-10-11T04:04:58Z",
+    "timestamp_osm_date": "2021-10-11T23:59:59Z",
+    "timestamp_osm_base": "2021-10-12T04:00:28Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -5544,46 +5544,6 @@
     },
     {
       "type": "node",
-      "id": 1625940984,
-      "lat": 42.341026,
-      "lon": -72.6422596,
-      "timestamp": "2012-02-09T21:32:13Z",
-      "version": 1,
-      "changeset": 10638548,
-      "user": "JasonWoof",
-      "uid": 23351,
-      "tags": {
-        "name": "Big Y",
-        "shop": "supermarket"
-      }
-    },
-    {
-      "type": "node",
-      "id": 1625940994,
-      "lat": 42.3478298,
-      "lon": -72.6433711,
-      "timestamp": "2019-03-17T02:34:02Z",
-      "version": 3,
-      "changeset": 68218199,
-      "user": "iambean",
-      "uid": 9500963,
-      "tags": {
-        "addr:city": "Northampton",
-        "addr:housenumber": "330",
-        "addr:state": "MA",
-        "addr:street": "North King Street",
-        "email": "info@rivervalley.coop",
-        "name": "River Valley Co-op",
-        "opening_hours": "Mo-Su 08:00-22:00",
-        "organic": "only",
-        "phone": "413-584-2665",
-        "shop": "supermarket",
-        "source": "local knowledge;http://rivervalley.coop/",
-        "website": "http://rivervalley.coop/"
-      }
-    },
-    {
-      "type": "node",
       "id": 1674679048,
       "lat": 42.3155678,
       "lon": -72.6312045,
@@ -6947,6 +6907,44 @@
     },
     {
       "type": "way",
+      "id": 89376626,
+      "timestamp": "2021-10-11T16:00:31Z",
+      "version": 4,
+      "changeset": 112381435,
+      "user": "Zachary W",
+      "uid": 12907679,
+      "center": {
+        "lat": 42.3478972,
+        "lon": -72.6434008
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Northampton",
+        "addr:housenumber": "330",
+        "addr:postcode": "01060",
+        "addr:state": "MA",
+        "addr:street": "North King Street",
+        "building": "retail",
+        "building:levels": "2",
+        "email": "info@rivervalley.coop",
+        "fax": "+1 (413) 584-2664",
+        "name": "River Valley Co-op",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "operator": "River Valley Co-op",
+        "organic": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 (413) 584-2665",
+        "shop": "supermarket",
+        "stroller": "yes",
+        "url": "https://www.rivervalley.coop",
+        "website": "https://www.rivervalley.coop/our-co-op/location-and-contact",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
       "id": 113727994,
       "timestamp": "2021-08-03T14:50:37Z",
       "version": 7,
@@ -7061,32 +7059,34 @@
     },
     {
       "type": "way",
-      "id": 149648931,
-      "timestamp": "2018-10-13T14:41:42Z",
+      "id": 149648974,
+      "timestamp": "2021-10-11T16:00:31Z",
       "version": 3,
-      "changeset": 63486898,
-      "user": "maxerickson",
-      "uid": 360392,
+      "changeset": 112381435,
+      "user": "Zachary W",
+      "uid": 12907679,
       "center": {
-        "lat": 42.3413901,
-        "lon": -72.6437792
+        "lat": 42.3410097,
+        "lon": -72.6422459
       },
       "nodes": [],
       "tags": {
         "addr:city": "Northampton",
-        "addr:country": "US",
-        "addr:housenumber": "180",
+        "addr:housenumber": "136",
         "addr:postcode": "01060",
         "addr:state": "MA",
         "addr:street": "North King Street",
+        "brand": "Big Y",
         "building": "retail",
-        "name": "Walmart",
-        "opening_hours": "Mo-Su 07:00-24:00",
-        "operator": "Walmart",
-        "phone": "+1-413-587-0001",
-        "ref:walmart": "2901",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Big Y",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "operator": "Big Y",
+        "phone": "+1 (413) 584-6137",
         "shop": "supermarket",
-        "website": "https://www.walmart.com/store/2901/northampton-ma/whats-new"
+        "website": "https://www.bigy.com/rs/storelocator/detail/7"
       }
     },
     {
@@ -7140,6 +7140,29 @@
         "phone": "+1 (413) 586-5479",
         "shop": "convenience",
         "website": "https://www.exxon.com/en/find-station/mobil-northampton-ma-zeemart-200324060"
+      }
+    },
+    {
+      "type": "way",
+      "id": 153139807,
+      "timestamp": "2021-10-11T16:00:31Z",
+      "version": 2,
+      "changeset": 112381435,
+      "user": "Zachary W",
+      "uid": 12907679,
+      "center": {
+        "lat": 42.3460545,
+        "lon": -72.6702992
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bin": "no",
+        "building": "roof",
+        "lit": "no",
+        "lockable": "no",
+        "shelter_type": "picnic_shelter",
+        "wheelchair": "yes"
       }
     },
     {
