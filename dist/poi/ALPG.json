@@ -5344,18 +5344,19 @@
         "@poi": "foodshop_convenience",
         "@distance": 7182.2,
         "@id": "n1258833231",
-        "@changeset": 96016408,
-        "@timestamp": "2020-12-17T15:54:55Z",
-        "@version": 3,
-        "@uid": 26203,
-        "@user": "yxcv",
+        "@changeset": 112384840,
+        "@timestamp": "2021-10-11T17:32:57Z",
+        "@version": 4,
+        "@uid": 384661,
+        "@user": "BBMaper",
+        "addr:city": "Brienzwiler",
         "addr:housenumber": "19",
         "addr:postcode": "3856",
         "addr:street": "Dorfstrasse",
         "cash_withdrawal": "yes",
         "level": "0",
         "name": "Anna's Dorfladen",
-        "opening_hours": "Mo 07:30-11:45; Sa 07:30-11:45,13:30-16:00; Mar Su[-1]-Oct Su[-1] Tu-Fr 06:30-11:45,14:30-18:30; Oct Su[-1]-Mar Su[-1] Tu-Fr 06:30-11:45,15:30-18:30; PH closed",
+        "opening_hours": "Mo 07:30-11:45;Tu-Fr 07:30-11:45,14:30-18:30;Sa 07:30-11:45,13:30-16:00",
         "phone": "+41 33 951 11 16",
         "shop": "convenience",
         "website": "https://annasdorfladen.ch/"
@@ -5502,21 +5503,26 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_convenience",
-        "@distance": 2735.5,
+        "@distance": 2735.6,
         "@id": "n1371130810",
-        "@changeset": 42221178,
-        "@timestamp": "2016-09-17T07:28:09Z",
-        "@version": 3,
-        "@uid": 4504747,
-        "@user": "liliaines",
+        "@changeset": 112384840,
+        "@timestamp": "2021-10-11T17:32:57Z",
+        "@version": 4,
+        "@uid": 384661,
+        "@user": "BBMaper",
+        "addr:city": "Hasliberg Hohfluh",
+        "addr:housenumber": "71",
+        "addr:postcode": "6083",
+        "addr:street": "Dorf",
         "name": "Dorfladen",
+        "opening_hours": "Mo 07:30-12:00,14:00-18:30;Tu 07:30-12:00;We-Fr 07:30-12:00,14:00-18:30;Sa 07:30-12:00,13:30-16:00",
         "shop": "convenience"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.1750934,
-          46.750439
+          8.1750763,
+          46.7504341
         ]
       }
     },
@@ -11379,28 +11385,32 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
-        "@distance": 3253.7,
+        "@distance": 3253,
         "@id": "n2987381654",
-        "@changeset": 99470298,
-        "@timestamp": "2021-02-17T18:06:21Z",
-        "@version": 4,
-        "@uid": 213763,
-        "@user": "floeschen",
+        "@changeset": 112384840,
+        "@timestamp": "2021-10-11T17:32:57Z",
+        "@version": 5,
+        "@uid": 384661,
+        "@user": "BBMaper",
+        "addr:city": "Innertkirchen",
+        "addr:housenumber": "2",
+        "addr:postcode": "3862",
+        "addr:street": "Grimselstrasse",
         "cash_withdrawal": "yes",
         "cash_withdrawal:fee": "no",
         "cash_withdrawal:operator": "sonect",
         "cash_withdrawal:purchase_required": "no",
         "cash_withdrawal:type": "checkout",
         "name": "Volg",
-        "opening_hours": "Mo-Fr 07:00-12:00,14:00-18:30; Sa 07:00-16:00; Su 08:00-11:00",
+        "opening_hours": "Mo-Fr 07:00-12:00,14:00-18:30;Sa 07:00-16:00;Su 08:00-11:00",
         "shop": "supermarket",
         "wheelchair": "yes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.229345,
-          46.7052853
+          8.2293386,
+          46.7052907
         ]
       }
     },
@@ -11814,31 +11824,6 @@
         "coordinates": [
           8.154955,
           46.6859507
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 9652.6,
-        "@id": "n4173326689",
-        "@changeset": 104594483,
-        "@timestamp": "2021-05-12T19:30:22Z",
-        "@version": 2,
-        "@uid": 4067009,
-        "@user": "KaiPankrath",
-        "brand": "Coop",
-        "brand:wikidata": "Q432564",
-        "brand:wikipedia": "de:Coop (Schweiz)",
-        "name": "Coop",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.8661748,
-          46.6806961
         ]
       }
     },
@@ -13354,6 +13339,36 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 9652.6,
+        "@id": "n4173326689",
+        "@changeset": 112382280,
+        "@timestamp": "2021-10-11T16:26:15Z",
+        "@version": 3,
+        "@uid": 384661,
+        "@user": "BBMaper",
+        "addr:city": "Matten b. Interlaken",
+        "addr:housenumber": "15",
+        "addr:postcode": "3800",
+        "addr:street": "Metzgergasse",
+        "brand": "Coop",
+        "brand:wikidata": "Q432564",
+        "brand:wikipedia": "de:Coop (Schweiz)",
+        "name": "Coop",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8661748,
+          46.6806961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 26.8,
         "@id": "n4254690816",
@@ -13418,21 +13433,26 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
-        "@distance": 9212.6,
+        "@distance": 9204.4,
         "@id": "n4350244332",
-        "@changeset": 50656554,
-        "@timestamp": "2017-07-28T19:02:13Z",
-        "@version": 3,
-        "@uid": 2395427,
-        "@user": "schoen6",
+        "@changeset": 112384840,
+        "@timestamp": "2021-10-11T17:32:57Z",
+        "@version": 4,
+        "@uid": 384661,
+        "@user": "BBMaper",
+        "addr:city": "Guttannen",
+        "addr:housenumber": "246",
+        "addr:postcode": "3864",
+        "addr:street": "Gässli",
         "name": "Prima",
+        "opening_hours": "Mo-Fr 08:00-12:00,15:00-18:00;Sa 08:00-12:00",
         "shop": "supermarket"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.288577,
-          46.6552884
+          8.2884107,
+          46.655332
         ]
       }
     },
@@ -13907,102 +13927,6 @@
         "coordinates": [
           8.3624688,
           46.7843409
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 750.4,
-        "@id": "n4695562070",
-        "@changeset": 84294722,
-        "@timestamp": "2020-04-28T22:51:25Z",
-        "@version": 2,
-        "@uid": 1416503,
-        "@user": "asdf2",
-        "ele": 2523,
-        "name": "Schafberg",
-        "natural": "peak",
-        "wikidata": "Q22440556"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.3790929,
-          46.7844643
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 1757.6,
-        "@id": "n4695628566",
-        "@changeset": 110057767,
-        "@timestamp": "2021-08-22T11:44:07Z",
-        "@version": 3,
-        "@uid": 3696195,
-        "@user": "*abq*",
-        "ele": 2954,
-        "name": "Chlyn Wendestock",
-        "natural": "peak",
-        "wikidata": "Q22496214"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.3869247,
-          46.7624965
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 2078.6,
-        "@id": "n4695674214",
-        "@changeset": 84294800,
-        "@timestamp": "2020-04-28T22:54:05Z",
-        "@version": 2,
-        "@uid": 1416503,
-        "@user": "asdf2",
-        "ele": 2638,
-        "name": "Schwarzhorn",
-        "natural": "peak",
-        "wikidata": "Q22547978"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.3538756,
-          46.7952142
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 1959.1,
-        "@id": "n4695674274",
-        "@changeset": 84294800,
-        "@timestamp": "2020-04-28T22:54:09Z",
-        "@version": 2,
-        "@uid": 1416503,
-        "@user": "asdf2",
-        "ele": 2627,
-        "name": "Henglihorn",
-        "natural": "peak",
-        "wikidata": "Q22616511"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.3501686,
-          46.7947529
         ]
       }
     },
@@ -16098,6 +16022,102 @@
         "coordinates": [
           7.3878488,
           46.4343778
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 750.4,
+        "@id": "n4695562070",
+        "@changeset": 84294722,
+        "@timestamp": "2020-04-28T22:51:25Z",
+        "@version": 2,
+        "@uid": 1416503,
+        "@user": "asdf2",
+        "ele": 2523,
+        "name": "Schafberg",
+        "natural": "peak",
+        "wikidata": "Q22440556"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3790929,
+          46.7844643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 1757.6,
+        "@id": "n4695628566",
+        "@changeset": 110057767,
+        "@timestamp": "2021-08-22T11:44:07Z",
+        "@version": 3,
+        "@uid": 3696195,
+        "@user": "*abq*",
+        "ele": 2954,
+        "name": "Chlyn Wendestock",
+        "natural": "peak",
+        "wikidata": "Q22496214"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3869247,
+          46.7624965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 2078.6,
+        "@id": "n4695674214",
+        "@changeset": 84294800,
+        "@timestamp": "2020-04-28T22:54:05Z",
+        "@version": 2,
+        "@uid": 1416503,
+        "@user": "asdf2",
+        "ele": 2638,
+        "name": "Schwarzhorn",
+        "natural": "peak",
+        "wikidata": "Q22547978"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3538756,
+          46.7952142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 1959.1,
+        "@id": "n4695674274",
+        "@changeset": 84294800,
+        "@timestamp": "2020-04-28T22:54:09Z",
+        "@version": 2,
+        "@uid": 1416503,
+        "@user": "asdf2",
+        "ele": 2627,
+        "name": "Henglihorn",
+        "natural": "peak",
+        "wikidata": "Q22616511"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3501686,
+          46.7947529
         ]
       }
     },
@@ -22798,6 +22818,73 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
+        "@distance": 8042.7,
+        "@id": "n9165368396",
+        "@changeset": 112382280,
+        "@timestamp": "2021-10-11T16:26:15Z",
+        "@version": 1,
+        "@uid": 384661,
+        "@user": "BBMaper",
+        "addr:city": "Wilderswil",
+        "addr:country": "CH",
+        "addr:housenumber": "27",
+        "addr:postcode": "3812",
+        "addr:street": "Hauptstrasse",
+        "alt_name": "VOI Wilderswil",
+        "branch": "Wilderswil",
+        "brand": "VOI Migros Partner",
+        "cash_withdrawal": "postfinance_card",
+        "cash_withdrawal:fee": "no",
+        "cash_withdrawal:purchase_required": "no",
+        "cash_withdrawal:type": "checkout",
+        "ele": 584,
+        "name": "VOI",
+        "old_name": "Migros Wilderswil",
+        "opening_hours": "Mo-Fr 08:00-19:00;Sa-Su 08:00-18:00",
+        "operator": "Genossenschaft Migros Aare",
+        "phone": "+41585672180",
+        "shop": "supermarket",
+        "website": "https://www.voi-migrospartner.ch/de-CH/filialen#voi-voi-wilderswil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8690943,
+          46.6660719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 6570.2,
+        "@id": "n9165464052",
+        "@changeset": 112384840,
+        "@timestamp": "2021-10-11T17:32:57Z",
+        "@version": 1,
+        "@uid": 384661,
+        "@user": "BBMaper",
+        "addr:city": "Lungern",
+        "addr:housenumber": "103",
+        "addr:postcode": "6078",
+        "addr:street": "Brünigstrasse",
+        "name": "Halter's Dorfladen Volg",
+        "opening_hours": "Mo-Fr 07:00-19:00;Sa 07:00-16:00",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1594017,
+          46.7843073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
         "@distance": 426.4,
         "@id": "w37901724",
         "@changeset": 87510588,
@@ -22902,31 +22989,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 6570.2,
-        "@id": "w158520592",
-        "@changeset": 90490547,
-        "@timestamp": "2020-09-06T19:00:47Z",
-        "@version": 2,
-        "@uid": 13072,
-        "@user": "Kai Brühne",
-        "building": "yes",
-        "name": "Halter's Dorfladen Volg",
-        "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-16:00; PH off",
-        "shop": "convenience",
-        "source": "Bing"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.1593942,
-          46.7843034
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 9572,
         "@id": "w160730143",
@@ -22993,47 +23055,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
-        "@distance": 8041.4,
-        "@id": "w188462963",
-        "@changeset": 97115341,
-        "@timestamp": "2021-01-07T14:31:29Z",
-        "@version": 9,
-        "@uid": 5511752,
-        "@user": "uaamathon",
-        "addr:city": "Wilderswil",
-        "addr:country": "CH",
-        "addr:housenumber": "27",
-        "addr:postcode": "3812",
-        "addr:street": "Hauptstrasse",
-        "alt_name": "VOI Wilderswil",
-        "branch": "Wilderswil",
-        "brand": "VOI Migros Partner",
-        "building": "yes",
-        "cash_withdrawal": "postfinance_card",
-        "cash_withdrawal:fee": "no",
-        "cash_withdrawal:purchase_required": "no",
-        "cash_withdrawal:type": "checkout",
-        "ele": 584,
-        "name": "VOI",
-        "old_name": "Migros Wilderswil",
-        "opening_hours": "Mo-Sa 08:00-20:00; Su 08:00-18:00",
-        "operator": "Genossenschaft Migros Aare",
-        "phone": "+41585672180",
-        "shop": "supermarket",
-        "website": "https://www.voi-migrospartner.ch/de-CH/filialen#voi-voi-wilderswil"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.8690826,
-          46.6660568
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
         "@distance": 7983.6,
         "@id": "w188462964",
         "@changeset": 104609924,
@@ -23065,90 +23086,6 @@
         "coordinates": [
           7.8684979,
           46.6653744
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 2057.5,
-        "@id": "w197656656",
-        "@changeset": 104687668,
-        "@timestamp": "2021-05-14T13:30:54Z",
-        "@version": 3,
-        "@uid": 10240271,
-        "@user": "orycteropus1",
-        "internet_access": "wlan",
-        "name": "Camping Aareschlucht",
-        "tourism": "camp_site"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.2151825,
-          46.7099252
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 1336.6,
-        "@id": "w203232551",
-        "@changeset": 53351354,
-        "@timestamp": "2017-10-29T19:59:40Z",
-        "@version": 4,
-        "@uid": 3285904,
-        "@user": "biobuur",
-        "addr:city": "Hasliberg Wasserwendi",
-        "addr:country": "CH",
-        "addr:housenumber": "379",
-        "addr:postcode": "6084",
-        "addr:street": "Dorf",
-        "building": "yes",
-        "ele": 1217,
-        "name": "Dorfladen Wasserwendi",
-        "shop": "convenience",
-        "source": "bing"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.1987972,
-          46.7456484
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 8840.4,
-        "@id": "w209324985",
-        "@changeset": 91145280,
-        "@timestamp": "2020-09-19T09:59:02Z",
-        "@version": 4,
-        "@uid": 10503526,
-        "@user": "FbrG",
-        "addr:city": "Matten bei Interlaken",
-        "addr:country": "CH",
-        "addr:housenumber": "33",
-        "addr:postcode": "3800",
-        "addr:street": "Aegertiweg",
-        "building": "yes",
-        "ele": 578,
-        "name": "Oberlandshopping",
-        "shop": "supermarket",
-        "source": "survey",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.8681581,
-          46.6733967
         ]
       }
     },
@@ -23975,6 +23912,90 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "campsite",
+        "@distance": 2057.5,
+        "@id": "w197656656",
+        "@changeset": 104687668,
+        "@timestamp": "2021-05-14T13:30:54Z",
+        "@version": 3,
+        "@uid": 10240271,
+        "@user": "orycteropus1",
+        "internet_access": "wlan",
+        "name": "Camping Aareschlucht",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2151825,
+          46.7099252
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 1336.6,
+        "@id": "w203232551",
+        "@changeset": 53351354,
+        "@timestamp": "2017-10-29T19:59:40Z",
+        "@version": 4,
+        "@uid": 3285904,
+        "@user": "biobuur",
+        "addr:city": "Hasliberg Wasserwendi",
+        "addr:country": "CH",
+        "addr:housenumber": "379",
+        "addr:postcode": "6084",
+        "addr:street": "Dorf",
+        "building": "yes",
+        "ele": 1217,
+        "name": "Dorfladen Wasserwendi",
+        "shop": "convenience",
+        "source": "bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1987972,
+          46.7456484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 8840.4,
+        "@id": "w209324985",
+        "@changeset": 91145280,
+        "@timestamp": "2020-09-19T09:59:02Z",
+        "@version": 4,
+        "@uid": 10503526,
+        "@user": "FbrG",
+        "addr:city": "Matten bei Interlaken",
+        "addr:country": "CH",
+        "addr:housenumber": "33",
+        "addr:postcode": "3800",
+        "addr:street": "Aegertiweg",
+        "building": "yes",
+        "ele": 578,
+        "name": "Oberlandshopping",
+        "shop": "supermarket",
+        "source": "survey",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8681581,
+          46.6733967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 8076.2,
         "@id": "w228370474",
@@ -24622,29 +24643,6 @@
         "coordinates": [
           8.2301066,
           46.7412519
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1174.9,
-        "@id": "w967657775",
-        "@changeset": 108644356,
-        "@timestamp": "2021-07-26T20:07:39Z",
-        "@version": 1,
-        "@uid": 32786,
-        "@user": "Netzwolf",
-        "amenity": "shelter",
-        "building": "hut",
-        "shelter_type": "weather_shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.0232375,
-          46.5999087
         ]
       }
     },
@@ -25456,6 +25454,29 @@
         "coordinates": [
           9.4764328,
           47.1668895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1174.9,
+        "@id": "w967657775",
+        "@changeset": 108644356,
+        "@timestamp": "2021-07-26T20:07:39Z",
+        "@version": 1,
+        "@uid": 32786,
+        "@user": "Netzwolf",
+        "amenity": "shelter",
+        "building": "hut",
+        "shelter_type": "weather_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0232375,
+          46.5999087
         ]
       }
     },
