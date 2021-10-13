@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-01T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-12T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -6543,17 +6543,16 @@
     {
       "type": "way",
       "id": 291426226,
-      "timestamp": "2018-11-01T17:39:06Z",
-      "version": 7,
-      "changeset": 64087884,
-      "user": "Sidapo",
-      "uid": 872501,
+      "timestamp": "2021-10-12T21:13:08Z",
+      "version": 8,
+      "changeset": 112435878,
+      "user": "literan",
+      "uid": 830106,
       "nodes": [2948937399, 5977910469],
       "geometry": [
         {"lat": 40.7394651, "lon": 44.8683823},
-        {"lat": 40.7394735, "lon": 44.8687534},
-        {"lat": 40.7394759, "lon": 44.868848},
-        {"lat": 40.7394901, "lon": 44.8689459},
+        {"lat": 40.7394867, "lon": 44.8687561},
+        {"lat": 40.7395013, "lon": 44.8689633},
         {"lat": 40.7395238, "lon": 44.8691413},
         {"lat": 40.7395394, "lon": 44.8692202},
         {"lat": 40.7395653, "lon": 44.8692892},
@@ -7538,11 +7537,11 @@
     {
       "type": "way",
       "id": 356766672,
-      "timestamp": "2020-03-14T14:15:05Z",
-      "version": 5,
-      "changeset": 82194535,
-      "user": "tomrallen",
-      "uid": 328909,
+      "timestamp": "2021-10-12T21:13:08Z",
+      "version": 6,
+      "changeset": 112435878,
+      "user": "literan",
+      "uid": 830106,
       "nodes": [3266585892, 4451747190],
       "geometry": [
         {"lat": 40.8068491, "lon": 44.875224},
@@ -7580,7 +7579,7 @@
         {"lat": 40.8047308, "lon": 44.879983},
         {"lat": 40.8046552, "lon": 44.8801931}
       ],
-      "tags": {"highway": "track"}
+      "tags": {"highway": "path"}
     },
     {
       "type": "way",
@@ -7715,7 +7714,7 @@
         {"lat": 40.8109469, "lon": 44.8658252},
         {"lat": 40.8109266, "lon": 44.8660505},
         {"lat": 40.8108413, "lon": 44.8665494},
-        {"lat": 40.8107723, "lon": 44.8670858},
+        {"lat": 40.8107885, "lon": 44.8670831},
         {"lat": 40.8108207, "lon": 44.8677619}
       ],
       "tags": {"highway": "path"}
@@ -12816,11 +12815,11 @@
     {
       "type": "way",
       "id": 448318726,
-      "timestamp": "2018-10-30T15:59:42Z",
-      "version": 2,
-      "changeset": 64016512,
-      "user": "Sidapo",
-      "uid": 872501,
+      "timestamp": "2021-10-12T21:13:08Z",
+      "version": 3,
+      "changeset": 112435878,
+      "user": "literan",
+      "uid": 830106,
       "nodes": [3266585892, 3266585913],
       "geometry": [
         {"lat": 40.8068491, "lon": 44.875224},
@@ -12832,7 +12831,11 @@
         {"lat": 40.8077244, "lon": 44.8730865},
         {"lat": 40.8082557, "lon": 44.8725475}
       ],
-      "tags": {"highway": "track"}
+      "tags": {
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "smoothness": "very_horrible"
+      }
     },
     {
       "type": "way",
@@ -21286,11 +21289,11 @@
     {
       "type": "way",
       "id": 639424992,
-      "timestamp": "2018-10-30T15:59:38Z",
-      "version": 1,
-      "changeset": 64016512,
-      "user": "Sidapo",
-      "uid": 872501,
+      "timestamp": "2021-10-12T21:13:08Z",
+      "version": 2,
+      "changeset": 112435878,
+      "user": "literan",
+      "uid": 830106,
       "nodes": [3266585943, 3266585934],
       "geometry": [
         {"lat": 40.8108207, "lon": 44.8677619},
@@ -21299,7 +21302,7 @@
         {"lat": 40.8101049, "lon": 44.8700076},
         {"lat": 40.8098413, "lon": 44.8707511}
       ],
-      "tags": {"highway": "track"}
+      "tags": {"highway": "track", "surface": "grass", "tracktype": "grade5"}
     },
     {
       "type": "way",
@@ -21332,7 +21335,7 @@
         {"lat": 40.8094279, "lon": 44.8712662},
         {"lat": 40.809538, "lon": 44.8712164},
         {"lat": 40.8096142, "lon": 44.8711264},
-        {"lat": 40.8096829, "lon": 44.8708176}
+        {"lat": 40.8096565, "lon": 44.8710429}
       ],
       "tags": {"highway": "track", "tracktype": "grade2"}
     },
@@ -22459,7 +22462,7 @@
       "uid": 3222962,
       "nodes": [3266585932, 3266585934],
       "geometry": [
-        {"lat": 40.8096829, "lon": 44.8708176},
+        {"lat": 40.8096565, "lon": 44.8710429},
         {"lat": 40.8098413, "lon": 44.8707511}
       ],
       "tags": {"highway": "track", "tracktype": "grade2"}
