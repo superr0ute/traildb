@@ -9722,6 +9722,32 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 8940.5,
+        "@id": "n1392063324",
+        "@changeset": 112406349,
+        "@timestamp": "2021-10-12T08:26:29Z",
+        "@version": 2,
+        "@uid": 14231298,
+        "@user": "OTPBIJAUREGUIBERRY",
+        "amenity": "fuel",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "name": "Garatea",
+        "phone": "+33 5 59 37 56 78",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4266763,
+          43.0977002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 4.7,
         "@id": "n1412955871",
@@ -35176,6 +35202,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 78.5,
+        "@id": "n9167586978",
+        "@changeset": 112421299,
+        "@timestamp": "2021-10-12T14:41:17Z",
+        "@version": 1,
+        "@uid": 14231298,
+        "@user": "OTPBIJAUREGUIBERRY",
+        "name": "Etxea",
+        "phone": "+33 5 24 34 12 52",
+        "shop": "convenience",
+        "website": "http://baron-espeleta.fr/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2374925,
+          43.1625119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "campsite",
         "@distance": 1132.4,
         "@id": "w36928675",
@@ -35461,15 +35511,18 @@
         "@poi": "foodshop_supermarket",
         "@distance": 5431,
         "@id": "w755197312",
-        "@changeset": 98841053,
-        "@timestamp": "2021-02-07T08:17:41Z",
-        "@version": 4,
-        "@uid": 188930,
-        "@user": "JLZIMMERMANN",
+        "@changeset": 112410301,
+        "@timestamp": "2021-10-12T10:00:24Z",
+        "@version": 5,
+        "@uid": 14231298,
+        "@user": "OTPBIJAUREGUIBERRY",
         "brand": "E. Leclerc",
         "brand:wikidata": "Q1273376",
+        "brand:wikipedia": "en:E.Leclerc",
         "building": "retail",
         "name": "E. Leclerc",
+        "opening_hours": "Mo-Sa 08:30-19:30",
+        "phone": "+33 5 59 49 21 24",
         "shop": "supermarket",
         "supermarket": "yes",
         "supermarket:FR": "supermarché"
@@ -36849,29 +36902,6 @@
         "coordinates": [
           -0.2410711,
           42.9828606
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 173.2,
-        "@id": "w197334578",
-        "@changeset": 45088499,
-        "@timestamp": "2017-01-11T21:55:00Z",
-        "@version": 3,
-        "@uid": 358508,
-        "@user": "jabali",
-        "name": "Aire Naturelle La Pose",
-        "phone": "+33 5 62 97 43 10",
-        "tourism": "camp_site"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.1884504,
-          42.9167427
         ]
       }
     },
@@ -39957,42 +39987,23 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 12.4,
-        "@id": "n6592784491",
-        "@changeset": 71952115,
-        "@timestamp": "2019-07-06T06:46:27Z",
-        "@version": 1,
-        "@uid": 6296343,
-        "@user": "BaboucheVerte",
-        "amenity": "drinking_water"
+        "@poi": "campsite",
+        "@distance": 173.2,
+        "@id": "w197334578",
+        "@changeset": 45088499,
+        "@timestamp": "2017-01-11T21:55:00Z",
+        "@version": 3,
+        "@uid": 358508,
+        "@user": "jabali",
+        "name": "Aire Naturelle La Pose",
+        "phone": "+33 5 62 97 43 10",
+        "tourism": "camp_site"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.7716831,
-          43.3637377
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 216.1,
-        "@id": "n6593068294",
-        "@changeset": 71957097,
-        "@timestamp": "2019-07-06T11:31:40Z",
-        "@version": 1,
-        "@uid": 6296343,
-        "@user": "BaboucheVerte",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.701845,
-          43.3101433
+          -0.1884504,
+          42.9167427
         ]
       }
     },
@@ -43339,6 +43350,48 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 12.4,
+        "@id": "n6592784491",
+        "@changeset": 71952115,
+        "@timestamp": "2019-07-06T06:46:27Z",
+        "@version": 1,
+        "@uid": 6296343,
+        "@user": "BaboucheVerte",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7716831,
+          43.3637377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 216.1,
+        "@id": "n6593068294",
+        "@changeset": 71957097,
+        "@timestamp": "2019-07-06T11:31:40Z",
+        "@version": 1,
+        "@uid": 6296343,
+        "@user": "BaboucheVerte",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.701845,
+          43.3101433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "campsite",
         "@distance": 25.4,
         "@id": "n6595246976",
@@ -44625,28 +44678,6 @@
         "coordinates": [
           -0.5184099,
           42.8523174
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1364.9,
-        "@id": "w847452451",
-        "@changeset": 90911109,
-        "@timestamp": "2020-09-15T08:43:10Z",
-        "@version": 1,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
-        "building": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.5188422,
-          42.8523357
         ]
       }
     },
@@ -48259,6 +48290,28 @@
         "coordinates": [
           -1.7691562,
           43.3361119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1364.9,
+        "@id": "w847452451",
+        "@changeset": 90911109,
+        "@timestamp": "2020-09-15T08:43:10Z",
+        "@version": 1,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "building": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5188422,
+          42.8523357
         ]
       }
     },
