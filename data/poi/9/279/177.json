@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-10-12T23:59:59Z",
-    "timestamp_osm_base": "2021-10-13T05:16:30Z",
+    "timestamp_osm_date": "2021-10-13T23:59:59Z",
+    "timestamp_osm_base": "2021-10-14T05:14:29Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -40592,14 +40592,25 @@
       "id": 3685034741,
       "lat": 48.1840596,
       "lon": 16.3341856,
-      "timestamp": "2016-04-22T10:59:49Z",
-      "version": 2,
-      "changeset": 38781968,
-      "user": "shahmann",
-      "uid": 150687,
+      "timestamp": "2021-10-13T10:43:33Z",
+      "version": 4,
+      "changeset": 112455894,
+      "user": "AlbertCohen",
+      "uid": 1515627,
       "tags": {
-        "name": "My Little Asia - Anton",
+        "addr:city": "Wien",
+        "addr:country": "AT",
+        "addr:housenumber": "223",
+        "addr:postcode": "1120",
+        "addr:street": "Schönbrunner Staße",
+        "email": "office@cocoasian.com",
+        "name": "Coco Asian Supermarket",
+        "opening_hours": "Mo-Fr 09:00-19:30; Sa 09:00-18:00; Su,PH off",
+        "origin": "aisan;african",
+        "payment:cash": "yes",
+        "phone": "+43 664 1111 881",
         "shop": "convenience",
+        "website": "https://cocoasian.com/",
         "wheelchair": "no"
       }
     },
@@ -41950,25 +41961,6 @@
       "uid": 1832939,
       "tags": {
         "amenity": "drinking_water"
-      }
-    },
-    {
-      "type": "node",
-      "id": 3998761390,
-      "lat": 48.2427684,
-      "lon": 16.3818001,
-      "timestamp": "2016-02-10T09:30:42Z",
-      "version": 2,
-      "changeset": 37120253,
-      "user": "horli",
-      "uid": 232930,
-      "tags": {
-        "alt_name": "Einkaufsgemeinschaft",
-        "club": "foodcoop",
-        "name": "Naschkastl",
-        "organic": "yes",
-        "regional": "yes",
-        "shop": "convenience"
       }
     },
     {
@@ -52257,11 +52249,11 @@
       "id": 6918639935,
       "lat": 48.2000074,
       "lon": 16.393684,
-      "timestamp": "2021-02-13T11:53:26Z",
-      "version": 2,
-      "changeset": 99209512,
-      "user": "Helium314",
-      "uid": 8620055,
+      "timestamp": "2021-10-13T05:43:41Z",
+      "version": 3,
+      "changeset": 112443894,
+      "user": "horli",
+      "uid": 232930,
       "tags": {
         "addr:city": "Wien",
         "addr:housenumber": "81",
@@ -52269,7 +52261,7 @@
         "addr:street": "Landstraßer Hauptstraße",
         "name": "Daria's Nüsse & Co",
         "opening_hours": "Mo-Sa 10:00 - 17:30",
-        "organic": "only",
+        "organic": "yes",
         "shop": "supermarket",
         "website": "https://dariasnuesse.at",
         "wheelchair": "limited"
@@ -59022,10 +59014,10 @@
       },
       "nodes": [],
       "tags": {
-        "landuse": "residential",
         "name": "Schönkirchen-Reyersdorf",
+        "source": "geoimage.at",
         "place": "village",
-        "source": "geoimage.at"
+        "landuse": "residential"
       }
     },
     {
@@ -76897,26 +76889,6 @@
     },
     {
       "type": "way",
-      "id": 499620528,
-      "timestamp": "2017-06-19T20:34:29Z",
-      "version": 2,
-      "changeset": 49676554,
-      "user": "keanga",
-      "uid": 3833611,
-      "center": {
-        "lat": 48.2856233,
-        "lon": 16.3814653
-      },
-      "nodes": [],
-      "tags": {
-        "amenity": "shelter",
-        "building": "yes",
-        "level": "0",
-        "shelter_type": "public_transport"
-      }
-    },
-    {
-      "type": "way",
       "id": 504791649,
       "timestamp": "2017-07-03T14:34:06Z",
       "version": 1,
@@ -85867,6 +85839,48 @@
         "bench": "yes",
         "bin": "yes",
         "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 992523824,
+      "timestamp": "2021-10-13T17:43:58Z",
+      "version": 1,
+      "changeset": 112472563,
+      "user": "Dobinger",
+      "uid": 8819348,
+      "center": {
+        "lat": 48.2300059,
+        "lon": 16.6965521
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 992576128,
+      "timestamp": "2021-10-13T22:43:16Z",
+      "version": 1,
+      "changeset": 112481450,
+      "user": "keanga",
+      "uid": 3833611,
+      "center": {
+        "lat": 48.2859461,
+        "lon": 16.3810621
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "level": "0",
+        "lit": "yes",
         "shelter_type": "public_transport"
       }
     }
