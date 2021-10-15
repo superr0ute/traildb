@@ -32326,12 +32326,16 @@
         "@poi": "foodshop_supermarket",
         "@distance": 4112.8,
         "@id": "n893225072",
-        "@changeset": 5664292,
-        "@timestamp": "2010-09-02T18:02:09Z",
-        "@version": 1,
-        "@uid": 279638,
-        "@user": "solinko",
-        "name": "CBA",
+        "@changeset": 112455994,
+        "@timestamp": "2021-10-13T10:46:11Z",
+        "@version": 2,
+        "@uid": 6297500,
+        "@user": "infitter",
+        "addr:city": "Prešov",
+        "addr:housenumber": "47",
+        "addr:postcode": "08001",
+        "addr:street": "Hlavná",
+        "name": "CBA Karmen",
         "shop": "supermarket"
       },
       "geometry": {
@@ -37654,14 +37658,14 @@
         "@version": 6,
         "@uid": 1864709,
         "@user": "Linie29",
+        "brand": "Penny",
+        "name": "Penny",
         "addr:city": "Kittsee",
         "addr:housenumber": "25-27",
         "addr:postcode": "2421",
         "addr:street": "Eisenstädterstraße",
-        "brand": "Penny",
         "brand:wikidata": "Q284688",
         "brand:wikipedia": "en:Penny (supermarket)",
-        "name": "Penny",
         "shop": "supermarket",
         "wheelchair": "yes"
       },
@@ -52073,6 +52077,27 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_spring",
+        "@distance": 2726,
+        "@id": "n9172426464",
+        "@changeset": 112513782,
+        "@timestamp": "2021-10-14T17:30:12Z",
+        "@version": 1,
+        "@uid": 7169223,
+        "@user": "Klerik7",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7615546,
+          48.7676132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 4209.1,
         "@id": "w37474552",
@@ -64281,11 +64306,15 @@
         "@poi": "foodshop_supermarket",
         "@distance": 5096.2,
         "@id": "n7913778465",
-        "@changeset": 109497257,
-        "@timestamp": "2021-08-11T06:39:29Z",
-        "@version": 2,
-        "@uid": 6322444,
-        "@user": "Rick Richards",
+        "@changeset": 112455994,
+        "@timestamp": "2021-10-13T10:46:11Z",
+        "@version": 3,
+        "@uid": 6297500,
+        "@user": "infitter",
+        "addr:city": "Prešov",
+        "addr:housenumber": "1C",
+        "addr:postcode": "08001",
+        "addr:street": "Solivarská",
         "brand": "Fresh Plus",
         "brand:wikidata": "Q50737403",
         "brand:wikipedia": "sk:FRESH",
@@ -65728,6 +65757,32 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 4238.9,
+        "@id": "n9169473455",
+        "@changeset": 112457619,
+        "@timestamp": "2021-10-13T11:22:11Z",
+        "@version": 1,
+        "@uid": 6297500,
+        "@user": "infitter",
+        "addr:city": "Prešov",
+        "addr:housenumber": "8334",
+        "addr:postcode": "08001",
+        "addr:street": "Slovenská",
+        "name": "Minerálne vody, a. s.",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2425449,
+          48.9973018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 744.3,
         "@id": "w55924299",
@@ -66544,53 +66599,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 72.5,
-        "@id": "w937519671",
-        "@changeset": 104196701,
-        "@timestamp": "2021-05-05T16:19:39Z",
-        "@version": 2,
-        "@uid": 4815,
-        "@user": "*Martin*",
-        "amenity": "shelter",
-        "building": "yes",
-        "shelter_type": "weather_shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.1841582,
-          49.1773704
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 621.1,
-        "@id": "w939413433",
-        "@changeset": 104196701,
-        "@timestamp": "2021-05-05T16:19:39Z",
-        "@version": 1,
-        "@uid": 4815,
-        "@user": "*Martin*",
-        "amenity": "shelter",
-        "building": "yes",
-        "name": "Krivuľa",
-        "tourism": "chalet"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.2242436,
-          49.1567551
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 3446.9,
         "@id": "n3457037857",
@@ -66966,9 +66974,9 @@
         "@version": 4,
         "@uid": 13593608,
         "@user": "AntoninK",
-        "name": "Malina",
         "opening_hours": "Mo-Su 05:30-23:00",
-        "shop": "convenience"
+        "shop": "convenience",
+        "name": "Malina"
       },
       "geometry": {
         "type": "Point",
@@ -74748,6 +74756,53 @@
         "coordinates": [
           20.7781512,
           48.7579134
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 72.5,
+        "@id": "w937519671",
+        "@changeset": 104196701,
+        "@timestamp": "2021-05-05T16:19:39Z",
+        "@version": 2,
+        "@uid": 4815,
+        "@user": "*Martin*",
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "weather_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1841582,
+          49.1773704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 621.1,
+        "@id": "w939413433",
+        "@changeset": 104196701,
+        "@timestamp": "2021-05-05T16:19:39Z",
+        "@version": 1,
+        "@uid": 4815,
+        "@user": "*Martin*",
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "Krivuľa",
+        "tourism": "chalet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2242436,
+          49.1567551
         ]
       }
     },
@@ -85238,9 +85293,9 @@
         "@poi": "foodshop_supermarket",
         "@distance": 3507.4,
         "@id": "n6703512961",
-        "@changeset": 90712611,
-        "@timestamp": "2020-09-10T16:13:31Z",
-        "@version": 2,
+        "@changeset": 112515438,
+        "@timestamp": "2021-10-14T18:17:28Z",
+        "@version": 3,
         "@uid": 6322444,
         "@user": "Rick Richards",
         "air_conditioning": "yes",
@@ -85248,7 +85303,7 @@
         "email": "info@fajnepotraviny.sk",
         "level": "0",
         "name": "Fajne potraviny",
-        "opening_hours": "Mo-Fr 07:00-20:00; Sa 08:00-16:00",
+        "opening_hours": "Mo-Fr 07:00-20:00; Sa 08:00-20:00",
         "opening_hours:covid19": "same",
         "operator": "Fajne s.r.o.",
         "organic": "yes",
@@ -93309,18 +93364,18 @@
         "@version": 5,
         "@uid": 6990611,
         "@user": "l0cKy",
+        "brand": "Billa Plus",
+        "website": "https://www.billa.at",
         "addr:city": "Kittsee",
         "addr:housenumber": "31",
         "addr:postcode": "2421",
         "addr:street": "Eisenstädter Straße",
-        "brand": "Billa Plus",
         "brand:wikipedia": "de:Billa",
         "building": "yes",
         "name": "Billa Plus",
         "old_name": "Merkur",
         "opening_hours": "Mo-Th 07:20-19:30; Fr 07:20-20:00; Sa 07:20-18:00",
-        "shop": "supermarket",
-        "website": "https://www.billa.at"
+        "shop": "supermarket"
       },
       "geometry": {
         "type": "Point",
