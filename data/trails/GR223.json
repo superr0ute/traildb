@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-14T02:39:32Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-15T02:32:43Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1501400,
-      "timestamp": "2021-09-28T07:38:16Z",
-      "version": 197,
-      "changeset": 111803322,
-      "user": "Hugoren Martinako",
-      "uid": 3392826,
+      "timestamp": "2021-10-14T12:37:32Z",
+      "version": 199,
+      "changeset": 112502221,
+      "user": "CheeseSqueeze",
+      "uid": 14291058,
       "members": [
         {"type": "way", "ref": 105454097, "role": ""},
         {"type": "way", "ref": 33748658, "role": ""},
@@ -381,6 +381,8 @@
         {"type": "way", "ref": 119264868, "role": ""},
         {"type": "way", "ref": 115670051, "role": ""},
         {"type": "way", "ref": 41191588, "role": ""},
+        {"type": "way", "ref": 992705110, "role": ""},
+        {"type": "way", "ref": 992705144, "role": ""},
         {"type": "way", "ref": 44537053, "role": ""},
         {"type": "way", "ref": 361634687, "role": ""},
         {"type": "way", "ref": 739432374, "role": ""},
@@ -5695,17 +5697,17 @@
     {
       "type": "way",
       "id": 118921042,
-      "timestamp": "2019-10-27T21:24:33Z",
-      "version": 2,
-      "changeset": 76276799,
-      "user": "jepee",
-      "uid": 9292967,
+      "timestamp": "2021-10-14T12:36:39Z",
+      "version": 3,
+      "changeset": 112502228,
+      "user": "CheeseSqueeze",
+      "uid": 14291058,
       "nodes": [283061135, 453023460],
       "geometry": [
         {"lat": 39.9343246, "lon": 3.9623262, "z": 53.6},
         {"lat": 39.9344293, "lon": 3.9621546, "z": 52.5}
       ],
-      "tags": {"highway": "path", "name": "Cami de Cavalls"}
+      "tags": {"highway": "path", "name": "Cami de Cavalls", "surface": "dirt"}
     },
     {
       "type": "way",
@@ -5733,11 +5735,11 @@
     {
       "type": "way",
       "id": 118921048,
-      "timestamp": "2019-10-27T21:24:33Z",
-      "version": 4,
-      "changeset": 76276799,
-      "user": "jepee",
-      "uid": 9292967,
+      "timestamp": "2021-10-14T12:36:40Z",
+      "version": 5,
+      "changeset": 112502228,
+      "user": "CheeseSqueeze",
+      "uid": 14291058,
       "nodes": [283061135, 282567887],
       "geometry": [
         {"lat": 39.9343246, "lon": 3.9623262, "z": 53.6},
@@ -5782,7 +5784,12 @@
         {"lat": 39.9347759, "lon": 3.9724547, "z": 20.4},
         {"lat": 39.934852, "lon": 3.9730402, "z": 19.4}
       ],
-      "tags": {"foot": "yes", "highway": "path", "name": "Cami de Cavalls"}
+      "tags": {
+        "foot": "yes",
+        "highway": "path",
+        "name": "Cami de Cavalls",
+        "surface": "dirt"
+      }
     },
     {
       "type": "way",
@@ -6465,11 +6472,11 @@
     {
       "type": "way",
       "id": 119264885,
-      "timestamp": "2019-10-27T21:24:33Z",
-      "version": 5,
-      "changeset": 76276799,
-      "user": "jepee",
-      "uid": 9292967,
+      "timestamp": "2021-10-14T12:37:56Z",
+      "version": 6,
+      "changeset": 112502228,
+      "user": "CheeseSqueeze",
+      "uid": 14291058,
       "nodes": [1340628487, 1340628689],
       "geometry": [
         {"lat": 39.9383473, "lon": 3.9400297, "z": 47.5},
@@ -6527,7 +6534,7 @@
         {"lat": 39.9375625, "lon": 3.9553124, "z": 17.4},
         {"lat": 39.9376226, "lon": 3.9559669, "z": 13.3}
       ],
-      "tags": {"highway": "path", "name": "Cami de Cavalls"}
+      "tags": {"highway": "path", "name": "Cami de Cavalls", "surface": "rock"}
     },
     {
       "type": "way",
@@ -10166,11 +10173,11 @@
     {
       "type": "way",
       "id": 38352299,
-      "timestamp": "2019-10-26T17:58:01Z",
-      "version": 4,
-      "changeset": 76249256,
-      "user": "Puxan",
-      "uid": 5328434,
+      "timestamp": "2021-10-14T12:36:31Z",
+      "version": 6,
+      "changeset": 112502195,
+      "user": "CheeseSqueeze",
+      "uid": 14291058,
       "nodes": [282567764, 453023446],
       "geometry": [
         {"lat": 39.9371376, "lon": 3.9634744, "z": 41.6},
@@ -10185,16 +10192,21 @@
         {"lat": 39.9350412, "lon": 3.9617051, "z": 45.2},
         {"lat": 39.9349909, "lon": 3.9616529, "z": 45.1}
       ],
-      "tags": {"highway": "residential", "name": "Avinguda de sa Punta"}
+      "tags": {
+        "highway": "residential",
+        "name": "Avinguda de sa Punta",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 38352301,
-      "timestamp": "2019-10-26T17:58:01Z",
-      "version": 7,
-      "changeset": 76249256,
-      "user": "Puxan",
-      "uid": 5328434,
+      "timestamp": "2021-10-14T12:36:39Z",
+      "version": 9,
+      "changeset": 112502195,
+      "user": "CheeseSqueeze",
+      "uid": 14291058,
       "nodes": [453023460, 453023449],
       "geometry": [
         {"lat": 39.9344293, "lon": 3.9621546, "z": 52.5},
@@ -10206,16 +10218,21 @@
         {"lat": 39.9345573, "lon": 3.9621704, "z": 52.6},
         {"lat": 39.9345543, "lon": 3.9621288, "z": 52.2}
       ],
-      "tags": {"highway": "residential", "name": "Plaça de sa Sivina"}
+      "tags": {
+        "highway": "residential",
+        "name": "Plaça de sa Sivina",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 38352302,
-      "timestamp": "2019-10-26T17:58:01Z",
-      "version": 3,
-      "changeset": 76249256,
-      "user": "Puxan",
-      "uid": 5328434,
+      "timestamp": "2021-10-14T12:36:32Z",
+      "version": 4,
+      "changeset": 112502195,
+      "user": "CheeseSqueeze",
+      "uid": 14291058,
       "nodes": [453023446, 453023449],
       "geometry": [
         {"lat": 39.9349909, "lon": 3.9616529, "z": 45.1},
@@ -10225,7 +10242,11 @@
         {"lat": 39.9346481, "lon": 3.96209, "z": 51.9},
         {"lat": 39.9345543, "lon": 3.9621288, "z": 52.2}
       ],
-      "tags": {"highway": "residential", "name": "Carrer des Camí de Cavalls"}
+      "tags": {
+        "highway": "residential",
+        "name": "Carrer des Camí de Cavalls",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -11588,11 +11609,11 @@
     {
       "type": "way",
       "id": 41191588,
-      "timestamp": "2019-10-27T21:24:33Z",
-      "version": 4,
-      "changeset": 76276799,
-      "user": "jepee",
-      "uid": 9292967,
+      "timestamp": "2021-10-14T12:37:45Z",
+      "version": 6,
+      "changeset": 112502228,
+      "user": "CheeseSqueeze",
+      "uid": 14291058,
       "nodes": [453033598, 453033599],
       "geometry": [
         {"lat": 39.9385495, "lon": 3.957265, "z": 8},
@@ -11602,7 +11623,9 @@
         "bridge": "yes",
         "highway": "footway",
         "layer": "1",
-        "name": "Cami de Cavalls"
+        "lit": "no",
+        "name": "Cami de Cavalls",
+        "surface": "wood"
       }
     },
     {
@@ -13417,18 +13440,26 @@
     {
       "type": "way",
       "id": 44537053,
-      "timestamp": "2015-07-21T21:27:56Z",
-      "version": 3,
-      "changeset": 32789112,
-      "user": "muetzekoeln",
-      "uid": 225990,
-      "nodes": [453033599, 3660899666],
+      "timestamp": "2021-10-14T12:37:42Z",
+      "version": 11,
+      "changeset": 112502220,
+      "user": "CheeseSqueeze",
+      "uid": 14291058,
+      "nodes": [9171761987, 3660899666],
       "geometry": [
-        {"lat": 39.9384546, "lon": 3.9577013, "z": 4.4},
+        {"lat": 39.9385486, "lon": 3.9578053, "z": 4.8},
         {"lat": 39.9385749, "lon": 3.9578343, "z": 4.9},
         {"lat": 39.9385655, "lon": 3.9579093, "z": 4.5}
       ],
-      "tags": {"highway": "steps"}
+      "tags": {
+        "handrail": "no",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "no",
+        "ramp": "no",
+        "step_count": "1",
+        "surface": "wood"
+      }
     },
     {
       "type": "way",
@@ -17551,6 +17582,52 @@
         "parking:lane:left": "parallel",
         "parking:lane:left:parallel": "street_side",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 992705110,
+      "timestamp": "2021-10-14T12:37:30Z",
+      "version": 7,
+      "changeset": 112502220,
+      "user": "CheeseSqueeze",
+      "uid": 14291058,
+      "nodes": [453033599, 9171762073],
+      "geometry": [
+        {"lat": 39.9384546, "lon": 3.9577013, "z": 4.4},
+        {"lat": 39.9385116, "lon": 3.9577643, "z": 4.7}
+      ],
+      "tags": {
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "no",
+        "ramp": "no",
+        "step_count": "6",
+        "surface": "rock"
+      }
+    },
+    {
+      "type": "way",
+      "id": 992705144,
+      "timestamp": "2021-10-14T12:37:38Z",
+      "version": 7,
+      "changeset": 112502220,
+      "user": "CheeseSqueeze",
+      "uid": 14291058,
+      "nodes": [9171762073, 9171761987],
+      "geometry": [
+        {"lat": 39.9385116, "lon": 3.9577643, "z": 4.7},
+        {"lat": 39.9385486, "lon": 3.9578053, "z": 4.8}
+      ],
+      "tags": {
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "lit": "no",
+        "ramp": "no",
+        "step_count": "5",
+        "surface": "wood"
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-14T02:27:39Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-15T02:27:38Z"},
   "elements": [
     {
       "type": "relation",
@@ -113,9 +113,9 @@
     {
       "type": "relation",
       "id": 3176522,
-      "timestamp": "2021-09-29T16:39:48Z",
-      "version": 667,
-      "changeset": 111876300,
+      "timestamp": "2021-10-14T12:06:32Z",
+      "version": 668,
+      "changeset": 112501026,
       "user": "GBAB",
       "uid": 3335899,
       "members": [
@@ -2212,6 +2212,7 @@
         {"type": "way", "ref": 40308913, "role": ""},
         {"type": "way", "ref": 9337012, "role": ""},
         {"type": "way", "ref": 369719068, "role": ""},
+        {"type": "way", "ref": 992698027, "role": ""},
         {"type": "way", "ref": 162939783, "role": ""},
         {"type": "way", "ref": 166888023, "role": ""},
         {"type": "way", "ref": 166888024, "role": ""},
@@ -10533,14 +10534,13 @@
     {
       "type": "way",
       "id": 162939783,
-      "timestamp": "2021-05-19T18:57:38Z",
-      "version": 3,
-      "changeset": 104980548,
-      "user": "alessandrocarmeli",
-      "uid": 12294600,
-      "nodes": [1270173326, 51317192],
+      "timestamp": "2021-10-14T12:06:32Z",
+      "version": 4,
+      "changeset": 112501026,
+      "user": "GBAB",
+      "uid": 3335899,
+      "nodes": [1270173295, 51317192],
       "geometry": [
-        {"lat": 45.6797186, "lon": 13.7810497, "z": 345.1},
         {"lat": 45.6797489, "lon": 13.7810566, "z": 345.4},
         {"lat": 45.679779, "lon": 13.7811076, "z": 345.6},
         {"lat": 45.6798131, "lon": 13.7811932, "z": 345.8}
@@ -20632,12 +20632,12 @@
     {
       "type": "way",
       "id": 201507544,
-      "timestamp": "2018-09-16T19:06:02Z",
-      "version": 6,
-      "changeset": 62644014,
-      "user": "Erik Geletti",
-      "uid": 2274398,
-      "nodes": [1152679981, 1631292614],
+      "timestamp": "2021-10-14T12:06:32Z",
+      "version": 7,
+      "changeset": 112501026,
+      "user": "GBAB",
+      "uid": 3335899,
+      "nodes": [1152679981, 2115051284],
       "geometry": [
         {"lat": 45.7197629, "lon": 13.7140016, "z": 253.6},
         {"lat": 45.7197071, "lon": 13.7138798, "z": 253.6},
@@ -20647,8 +20647,7 @@
         {"lat": 45.7193626, "lon": 13.7133113, "z": 254.3},
         {"lat": 45.7192887, "lon": 13.7131818, "z": 254.5},
         {"lat": 45.7192247, "lon": 13.7130499, "z": 254.5},
-        {"lat": 45.719199, "lon": 13.7129832, "z": 254.5},
-        {"lat": 45.719054, "lon": 13.7127038, "z": 254.3}
+        {"lat": 45.719199, "lon": 13.7129832, "z": 254.5}
       ],
       "tags": {
         "highway": "track",
@@ -78221,6 +78220,26 @@
         {"lat": 46.5075462, "lon": 13.5758474, "z": 803.1}
       ],
       "tags": {"highway": "track", "source": "Bing;PCN", "tracktype": "grade2"}
+    },
+    {
+      "type": "way",
+      "id": 992698027,
+      "timestamp": "2021-10-14T12:06:32Z",
+      "version": 1,
+      "changeset": 112501026,
+      "user": "GBAB",
+      "uid": 3335899,
+      "nodes": [1270173326, 1270173295],
+      "geometry": [
+        {"lat": 45.6797186, "lon": 13.7810497, "z": 345.1},
+        {"lat": 45.6797489, "lon": 13.7810566, "z": 345.4}
+      ],
+      "tags": {
+        "highway": "service",
+        "loc_name": "Strada Napoleonica",
+        "oneway": "yes",
+        "service": "parking_aisle"
+      }
     },
     {
       "type": "way",
