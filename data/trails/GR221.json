@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-14T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-15T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 383060,
-      "timestamp": "2021-10-02T20:12:24Z",
-      "version": 236,
-      "changeset": 112014146,
-      "user": "mytrails92",
-      "uid": 13561022,
+      "timestamp": "2021-10-15T11:29:30Z",
+      "version": 237,
+      "changeset": 112538859,
+      "user": "BlaeX",
+      "uid": 9338507,
       "members": [
         {"type": "node", "ref": 3105992047, "role": "guidepost"},
         {"type": "way", "ref": 782395594, "role": ""},
@@ -52,8 +52,10 @@
         {"type": "way", "ref": 723098891, "role": ""},
         {"type": "way", "ref": 723098892, "role": ""},
         {"type": "way", "ref": 55355504, "role": ""},
-        {"type": "way", "ref": 851486324, "role": ""},
+        {"type": "way", "ref": 993034983, "role": ""},
         {"type": "way", "ref": 954998708, "role": ""},
+        {"type": "way", "ref": 993034984, "role": ""},
+        {"type": "way", "ref": 851486324, "role": ""},
         {"type": "way", "ref": 213789271, "role": ""},
         {"type": "way", "ref": 56017041, "role": ""},
         {"type": "way", "ref": 398889729, "role": ""},
@@ -12454,21 +12456,22 @@
     {
       "type": "way",
       "id": 55355504,
-      "timestamp": "2020-09-25T11:11:19Z",
-      "version": 8,
-      "changeset": 91504868,
-      "user": "pedrojuan01",
-      "uid": 1948725,
-      "nodes": [695363997, 1623912528],
+      "timestamp": "2021-10-15T11:29:30Z",
+      "version": 9,
+      "changeset": 112538859,
+      "user": "BlaeX",
+      "uid": 9338507,
+      "nodes": [695363997, 695364012],
       "geometry": [
         {"lat": 39.6551833, "lon": 2.4839972},
+        {"lat": 39.6552248, "lon": 2.4840311},
         {"lat": 39.6552444, "lon": 2.4840598},
         {"lat": 39.655363, "lon": 2.4843636},
+        {"lat": 39.6553747, "lon": 2.4844153},
         {"lat": 39.6553899, "lon": 2.4844825},
         {"lat": 39.6554693, "lon": 2.4846618},
         {"lat": 39.6555819, "lon": 2.4849105},
-        {"lat": 39.655613, "lon": 2.4850671},
-        {"lat": 39.6556449, "lon": 2.4850899}
+        {"lat": 39.6555962, "lon": 2.4850366}
       ],
       "tags": {
         "foot": "yes",
@@ -15778,17 +15781,20 @@
     {
       "type": "way",
       "id": 954998708,
-      "timestamp": "2021-06-16T15:57:57Z",
-      "version": 1,
-      "changeset": 106478899,
-      "user": "Bobbie Draper",
-      "uid": 13574909,
-      "nodes": [1623912528, 695364021],
+      "timestamp": "2021-10-15T11:29:30Z",
+      "version": 2,
+      "changeset": 112538859,
+      "user": "BlaeX",
+      "uid": 9338507,
+      "nodes": [9174342648, 695364021],
       "geometry": [
-        {"lat": 39.6556449, "lon": 2.4850899},
+        {"lat": 39.6556484, "lon": 2.4850863},
+        {"lat": 39.6556755, "lon": 2.4851029},
         {"lat": 39.655768, "lon": 2.4851329},
-        {"lat": 39.6558394, "lon": 2.4851307},
-        {"lat": 39.6560014, "lon": 2.4849733},
+        {"lat": 39.6558276, "lon": 2.4851326},
+        {"lat": 39.6558543, "lon": 2.4851157},
+        {"lat": 39.6559637, "lon": 2.4850054},
+        {"lat": 39.6559918, "lon": 2.4849915},
         {"lat": 39.6565037, "lon": 2.4849381},
         {"lat": 39.6568098, "lon": 2.4848609},
         {"lat": 39.656909, "lon": 2.4848346}
@@ -16250,6 +16256,45 @@
         "name": "Placeta d'en Jean Dausset",
         "surface": "gravel",
         "tracktype": "grade3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 993034983,
+      "timestamp": "2021-10-15T11:29:30Z",
+      "version": 1,
+      "changeset": 112538859,
+      "user": "BlaeX",
+      "uid": 9338507,
+      "nodes": [695364012, 9174342646],
+      "geometry": [
+        {"lat": 39.6555962, "lon": 2.4850366},
+        {"lat": 39.6556098, "lon": 2.4850398}
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "path",
+        "name": "GR 221 Ruta de Pedra en Sec"
+      }
+    },
+    {
+      "type": "way",
+      "id": 993034984,
+      "timestamp": "2021-10-15T11:29:30Z",
+      "version": 1,
+      "changeset": 112538859,
+      "user": "BlaeX",
+      "uid": 9338507,
+      "nodes": [9174342646, 9174342648],
+      "geometry": [
+        {"lat": 39.6556098, "lon": 2.4850398},
+        {"lat": 39.6556238, "lon": 2.4850608},
+        {"lat": 39.6556484, "lon": 2.4850863}
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "steps",
+        "name": "GR 221 Ruta de Pedra en Sec"
       }
     },
     {

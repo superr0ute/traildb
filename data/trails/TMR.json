@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-13T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-15T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -764,11 +764,11 @@
     {
       "type": "way",
       "id": 100615543,
-      "timestamp": "2016-09-07T04:28:24Z",
-      "version": 3,
-      "changeset": 41970350,
-      "user": "klaus555",
-      "uid": 3697785,
+      "timestamp": "2021-10-15T15:44:58Z",
+      "version": 4,
+      "changeset": 112548469,
+      "user": "mshp",
+      "uid": 1773491,
       "nodes": [4388606586, 917152743],
       "geometry": [
         {"lat": 46.1965601, "lon": 7.8456702},
@@ -781,7 +781,11 @@
         {"lat": 46.1997756, "lon": 7.8491736},
         {"lat": 46.2002811, "lon": 7.8504311}
       ],
-      "tags": {"highway": "path", "sac_scale": "hiking"}
+      "tags": {
+        "highway": "path",
+        "sac_scale": "hiking",
+        "surface": "pebblestone"
+      }
     },
     {
       "type": "way",
@@ -3048,11 +3052,11 @@
     {
       "type": "way",
       "id": 116378482,
-      "timestamp": "2019-11-30T16:01:34Z",
-      "version": 5,
-      "changeset": 77761272,
-      "user": "mfbehrens99",
-      "uid": 9645335,
+      "timestamp": "2021-10-15T15:44:14Z",
+      "version": 6,
+      "changeset": 112548463,
+      "user": "mshp",
+      "uid": 1773491,
       "nodes": [645523887, 645523851],
       "geometry": [
         {"lat": 46.1956028, "lon": 7.8393285},
@@ -3065,7 +3069,12 @@
         {"lat": 46.1945841, "lon": 7.840902},
         {"lat": 46.1944836, "lon": 7.8410139}
       ],
-      "tags": {"bicycle": "yes", "highway": "pedestrian", "vehicle": "no"}
+      "tags": {
+        "bicycle": "yes",
+        "highway": "pedestrian",
+        "surface": "asphalt",
+        "vehicle": "no"
+      }
     },
     {
       "type": "way",
@@ -8528,11 +8537,11 @@
     {
       "type": "way",
       "id": 255403575,
-      "timestamp": "2020-04-14T17:02:22Z",
-      "version": 3,
-      "changeset": 83546896,
-      "user": "mfbehrens99",
-      "uid": 9645335,
+      "timestamp": "2021-10-15T15:45:05Z",
+      "version": 4,
+      "changeset": 112548463,
+      "user": "mshp",
+      "uid": 1773491,
       "nodes": [1309573545, 1309573554],
       "geometry": [
         {"lat": 46.2066465, "lon": 7.8679614},
@@ -8552,7 +8561,11 @@
         {"lat": 46.207782, "lon": 7.8706329},
         {"lat": 46.2078032, "lon": 7.8707934}
       ],
-      "tags": {"highway": "track", "tracktype": "grade3"}
+      "tags": {
+        "highway": "track",
+        "surface": "pebblestone",
+        "tracktype": "grade3"
+      }
     },
     {
       "type": "way",
@@ -16600,11 +16613,11 @@
     {
       "type": "way",
       "id": 664603469,
-      "timestamp": "2019-01-19T10:43:47Z",
-      "version": 1,
-      "changeset": 66449987,
-      "user": "Francoerbi41",
-      "uid": 4982687,
+      "timestamp": "2021-10-15T15:44:59Z",
+      "version": 2,
+      "changeset": 112548469,
+      "user": "mshp",
+      "uid": 1773491,
       "nodes": [917152870, 917152743],
       "geometry": [
         {"lat": 46.2038019, "lon": 7.8527201},
@@ -16630,6 +16643,7 @@
         "highway": "path",
         "name": "Eggeri - Suon",
         "sac_scale": "hiking",
+        "surface": "ground",
         "tracktype": "grade2"
       }
     },
