@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-15T02:35:43Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-18T02:40:01Z"},
   "elements": [
     {
       "type": "relation",
@@ -628,11 +628,11 @@
     {
       "type": "relation",
       "id": 9430637,
-      "timestamp": "2021-10-14T17:24:46Z",
-      "version": 23,
-      "changeset": 112513570,
-      "user": "5R-MFT",
-      "uid": 3417876,
+      "timestamp": "2021-10-17T22:04:40Z",
+      "version": 25,
+      "changeset": 112628956,
+      "user": "jmsbert",
+      "uid": 3484277,
       "members": [
         {"type": "way", "ref": 27745869, "role": ""},
         {"type": "way", "ref": 47225871, "role": ""},
@@ -657,6 +657,9 @@
         {"type": "way", "ref": 992785750, "role": ""},
         {"type": "way", "ref": 992333163, "role": ""},
         {"type": "way", "ref": 992785748, "role": ""},
+        {"type": "way", "ref": 993517999, "role": ""},
+        {"type": "way", "ref": 993516957, "role": ""},
+        {"type": "way", "ref": 993516956, "role": ""},
         {"type": "way", "ref": 50692187, "role": ""},
         {"type": "way", "ref": 991761008, "role": ""},
         {"type": "way", "ref": 991761009, "role": ""},
@@ -14846,17 +14849,14 @@
     {
       "type": "way",
       "id": 50692187,
-      "timestamp": "2021-10-14T17:24:46Z",
-      "version": 15,
-      "changeset": 112513570,
-      "user": "5R-MFT",
-      "uid": 3417876,
-      "nodes": [9143038560, 394759328],
+      "timestamp": "2021-10-17T21:54:01Z",
+      "version": 16,
+      "changeset": 112628773,
+      "user": "jmsbert",
+      "uid": 3484277,
+      "nodes": [9178887809, 394759328],
       "geometry": [
-        {"lat": 28.6279538, "lon": -17.8946217, "z": 426.7},
-        {"lat": 28.6280184, "lon": -17.8946458, "z": 426.6},
-        {"lat": 28.6281868, "lon": -17.894779, "z": 425.7},
-        {"lat": 28.6285323, "lon": -17.8950577, "z": 423.3},
+        {"lat": 28.6287742, "lon": -17.8952797, "z": 421.2},
         {"lat": 28.6288499, "lon": -17.8953492, "z": 420.5},
         {"lat": 28.6289705, "lon": -17.8954901, "z": 418.9},
         {"lat": 28.6290085, "lon": -17.8955274, "z": 418.5},
@@ -20101,6 +20101,69 @@
         {"lat": 28.6264713, "lon": -17.8946074, "z": 426.7}
       ],
       "tags": {
+        "destroyed:highway": "residential",
+        "name": "Camino de los Campitos",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 993516956,
+      "timestamp": "2021-10-17T21:54:01Z",
+      "version": 1,
+      "changeset": 112628773,
+      "user": "jmsbert",
+      "uid": 3484277,
+      "nodes": [9178887810, 9178887809],
+      "geometry": [
+        {"lat": 28.628327, "lon": -17.8948921, "z": 424.8},
+        {"lat": 28.6285323, "lon": -17.8950577, "z": 423.3},
+        {"lat": 28.6287742, "lon": -17.8952797, "z": 421.2}
+      ],
+      "tags": {
+        "damage:date": "2021-10-17",
+        "damage:type": "eruption",
+        "destroyed:highway": "residential",
+        "name": "Camino de los Campitos",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 993516957,
+      "timestamp": "2021-10-17T22:04:40Z",
+      "version": 2,
+      "changeset": 112628956,
+      "user": "jmsbert",
+      "uid": 3484277,
+      "nodes": [394759322, 9178887810],
+      "geometry": [
+        {"lat": 28.6280184, "lon": -17.8946458, "z": 426.6},
+        {"lat": 28.6281868, "lon": -17.894779, "z": 425.7},
+        {"lat": 28.628327, "lon": -17.8948921, "z": 424.8}
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Camino de los Campitos",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 993517999,
+      "timestamp": "2021-10-17T22:04:40Z",
+      "version": 1,
+      "changeset": 112628956,
+      "user": "jmsbert",
+      "uid": 3484277,
+      "nodes": [9143038560, 394759322],
+      "geometry": [
+        {"lat": 28.6279538, "lon": -17.8946217, "z": 426.7},
+        {"lat": 28.6280184, "lon": -17.8946458, "z": 426.6}
+      ],
+      "tags": {
+        "damage:date": "2021-10-17",
+        "damage:type": "eruption",
         "destroyed:highway": "residential",
         "name": "Camino de los Campitos",
         "surface": "asphalt"
