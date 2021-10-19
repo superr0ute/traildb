@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-10-17T23:59:59Z",
-    "timestamp_osm_base": "2021-10-18T05:34:42Z",
+    "timestamp_osm_date": "2021-10-18T23:59:59Z",
+    "timestamp_osm_base": "2021-10-19T05:26:45Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -382,11 +382,11 @@
       "id": 26035967,
       "lat": 49.1712139,
       "lon": 18.8193883,
-      "timestamp": "2020-05-30T17:32:10Z",
-      "version": 10,
-      "changeset": 85988379,
-      "user": "t_ja",
-      "uid": 103618,
+      "timestamp": "2021-10-18T08:37:54Z",
+      "version": 11,
+      "changeset": 112641735,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
         "city_id": "517950",
         "ele": "419",
@@ -399,6 +399,7 @@
         "postal_code": "013 25",
         "region_id": "511",
         "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.stranavy.sk/",
         "wikidata": "Q952925",
         "wikipedia": "sk:Stráňavy"
       }
@@ -12734,20 +12735,27 @@
     {
       "type": "node",
       "id": 2916266086,
-      "lat": 49.1711907,
-      "lon": 18.8201741,
-      "timestamp": "2019-03-11T08:16:24Z",
-      "version": 4,
-      "changeset": 68013102,
-      "user": "Kudej",
-      "uid": 1558400,
+      "lat": 49.1712058,
+      "lon": 18.8202701,
+      "timestamp": "2021-10-18T08:37:54Z",
+      "version": 5,
+      "changeset": 112641735,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
-        "name": "COOP Jednota SUPERMARKET",
-        "opening_hours": "Mo-Fr 06:00-19:00; Sa 06:00-13:00; Su 07:00-12:00",
+        "addr:city": "Stráňavy",
+        "addr:housenumber": "345",
+        "addr:place": "Stráňavy",
+        "addr:postcode": "01325",
+        "brand": "COOP Jednota",
+        "brand:wikidata": "Q41629254",
+        "brand:wikipedia": "sk:COOP Jednota Slovensko",
+        "name": "COOP Jednota",
+        "opening_hours": "Mo-Fr 06:00-19:00; Sa 06:00-13:00; Su 08:00-12:00",
         "phone": "+421 417 051 076",
         "shop": "supermarket",
         "short_name": "COOP",
-        "website": "https://www.coop.sk/"
+        "website": "https://www.coopjednotaza.sk/"
       }
     },
     {
@@ -15116,21 +15124,6 @@
       "id": 3849508625,
       "lat": 49.0100584,
       "lon": 18.3864441,
-      "timestamp": "2015-11-21T18:30:57Z",
-      "version": 1,
-      "changeset": 35493897,
-      "user": "georgo21",
-      "uid": 477858,
-      "tags": {
-        "fixme": "set exact position",
-        "natural": "cave_entrance"
-      }
-    },
-    {
-      "type": "node",
-      "id": 3849508626,
-      "lat": 49.0192222,
-      "lon": 18.4033278,
       "timestamp": "2015-11-21T18:30:57Z",
       "version": 1,
       "changeset": 35493897,
@@ -23569,6 +23562,36 @@
       }
     },
     {
+      "type": "node",
+      "id": 9180139437,
+      "lat": 49.333745,
+      "lon": 18.5769314,
+      "timestamp": "2021-10-18T12:31:55Z",
+      "version": 1,
+      "changeset": 112651352,
+      "user": "Klerik7",
+      "uid": 7169223,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9180142967,
+      "lat": 48.9234827,
+      "lon": 18.3350323,
+      "timestamp": "2021-10-18T12:31:32Z",
+      "version": 1,
+      "changeset": 112651339,
+      "user": "Klerik7",
+      "uid": 7169223,
+      "tags": {
+        "drinking_water": "yes",
+        "natural": "spring"
+      }
+    },
+    {
       "type": "way",
       "id": 51145992,
       "timestamp": "2020-10-17T11:13:16Z",
@@ -25535,6 +25558,83 @@
       "nodes": [],
       "tags": {
         "amenity": "shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 993597773,
+      "timestamp": "2021-10-18T08:37:54Z",
+      "version": 1,
+      "changeset": 112641735,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 49.1713411,
+        "lon": 18.8206283
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 993597823,
+      "timestamp": "2021-10-18T08:37:54Z",
+      "version": 1,
+      "changeset": 112641735,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 49.1848858,
+        "lon": 18.8331369
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 993656491,
+      "timestamp": "2021-10-18T12:56:12Z",
+      "version": 1,
+      "changeset": 112652306,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 49.1752081,
+        "lon": 18.8228414
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 993656492,
+      "timestamp": "2021-10-18T12:56:12Z",
+      "version": 1,
+      "changeset": 112652306,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 49.1787134,
+        "lon": 18.8236973
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
       }
     }
   ]
