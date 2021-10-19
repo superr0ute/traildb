@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-18T02:40:01Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-19T02:33:54Z"},
   "elements": [
     {
       "type": "relation",
@@ -628,11 +628,11 @@
     {
       "type": "relation",
       "id": 9430637,
-      "timestamp": "2021-10-17T22:04:40Z",
-      "version": 25,
-      "changeset": 112628956,
-      "user": "jmsbert",
-      "uid": 3484277,
+      "timestamp": "2021-10-18T20:04:49Z",
+      "version": 27,
+      "changeset": 112667530,
+      "user": "Dodko",
+      "uid": 1944033,
       "members": [
         {"type": "way", "ref": 27745869, "role": ""},
         {"type": "way", "ref": 47225871, "role": ""},
@@ -662,13 +662,8 @@
         {"type": "way", "ref": 993516956, "role": ""},
         {"type": "way", "ref": 50692187, "role": ""},
         {"type": "way", "ref": 991761008, "role": ""},
-        {"type": "way", "ref": 991761009, "role": ""},
-        {"type": "way", "ref": 991761010, "role": ""},
-        {"type": "way", "ref": 991761011, "role": ""},
         {"type": "way", "ref": 98372065, "role": ""},
-        {"type": "way", "ref": 991761012, "role": ""},
         {"type": "way", "ref": 991761013, "role": ""},
-        {"type": "way", "ref": 50692186, "role": ""},
         {"type": "way", "ref": 990524581, "role": ""},
         {"type": "way", "ref": 988951599, "role": ""},
         {"type": "way", "ref": 149117647, "role": ""},
@@ -14816,38 +14811,6 @@
     },
     {
       "type": "way",
-      "id": 50692186,
-      "timestamp": "2021-10-10T18:55:33Z",
-      "version": 9,
-      "changeset": 112345407,
-      "user": "5R-MFT",
-      "uid": 3417876,
-      "nodes": [9124688639, 9163161969],
-      "geometry": [
-        {"lat": 28.6213183, "lon": -17.8911365, "z": 450.8},
-        {"lat": 28.6213401, "lon": -17.8912076, "z": 450.2},
-        {"lat": 28.621354, "lon": -17.8912737, "z": 449.5},
-        {"lat": 28.6213509, "lon": -17.8913322, "z": 448.8},
-        {"lat": 28.6213282, "lon": -17.8915033, "z": 446.5},
-        {"lat": 28.6213301, "lon": -17.8915146, "z": 446.4},
-        {"lat": 28.6213923, "lon": -17.8918799, "z": 442.7},
-        {"lat": 28.6214545, "lon": -17.8920967, "z": 440.7},
-        {"lat": 28.6216212, "lon": -17.892436, "z": 438.2}
-      ],
-      "tags": {
-        "access": "yes",
-        "destroyed:highway": "track",
-        "motorcar": "yes",
-        "motorcycle": "yes",
-        "mtb:scale": "0",
-        "name": "Camino de los Campitos",
-        "surface": "gravel",
-        "tracktype": "grade2",
-        "width": "2"
-      }
-    },
-    {
-      "type": "way",
       "id": 50692187,
       "timestamp": "2021-10-17T21:54:01Z",
       "version": 16,
@@ -18901,18 +18864,24 @@
     {
       "type": "way",
       "id": 98372065,
-      "timestamp": "2021-10-10T18:55:33Z",
-      "version": 8,
-      "changeset": 112345407,
-      "user": "5R-MFT",
-      "uid": 3417876,
-      "nodes": [9163161968, 9163161967],
+      "timestamp": "2021-10-18T20:04:49Z",
+      "version": 9,
+      "changeset": 112667530,
+      "user": "Dodko",
+      "uid": 1944033,
+      "nodes": [618294486, 645595026],
       "geometry": [
+        {"lat": 28.6216669, "lon": -17.892529, "z": 437.4},
         {"lat": 28.6218001, "lon": -17.8926335, "z": 437.4},
         {"lat": 28.6218673, "lon": -17.8926862, "z": 437.3},
-        {"lat": 28.6219227, "lon": -17.8927609, "z": 436.9}
+        {"lat": 28.6219227, "lon": -17.8927609, "z": 436.9},
+        {"lat": 28.6220109, "lon": -17.8928799, "z": 436.3},
+        {"lat": 28.6220198, "lon": -17.892892, "z": 436.2},
+        {"lat": 28.6220248, "lon": -17.8929075, "z": 436.1},
+        {"lat": 28.6221155, "lon": -17.8931894, "z": 433.9},
+        {"lat": 28.6222276, "lon": -17.8933857, "z": 432.8}
       ],
-      "tags": {"highway": "service", "name": "Camino Campitos"}
+      "tags": {"destroyed:highway": "service", "name": "Camino Campitos"}
     },
     {
       "type": "way",
@@ -19915,82 +19884,28 @@
     },
     {
       "type": "way",
-      "id": 991761009,
-      "timestamp": "2021-10-10T18:55:33Z",
-      "version": 1,
-      "changeset": 112345407,
-      "user": "5R-MFT",
-      "uid": 3417876,
-      "nodes": [9163161965, 645595026],
-      "geometry": [
-        {"lat": 28.6220248, "lon": -17.8929075, "z": 436.1},
-        {"lat": 28.6221155, "lon": -17.8931894, "z": 433.9},
-        {"lat": 28.6222276, "lon": -17.8933857, "z": 432.8}
-      ],
-      "tags": {"destroyed:highway": "service", "name": "Camino Campitos"}
-    },
-    {
-      "type": "way",
-      "id": 991761010,
-      "timestamp": "2021-10-10T18:55:33Z",
-      "version": 1,
-      "changeset": 112345407,
-      "user": "5R-MFT",
-      "uid": 3417876,
-      "nodes": [9163161966, 9163161965],
-      "geometry": [
-        {"lat": 28.6220109, "lon": -17.8928799, "z": 436.3},
-        {"lat": 28.6220198, "lon": -17.892892, "z": 436.2},
-        {"lat": 28.6220248, "lon": -17.8929075, "z": 436.1}
-      ],
-      "tags": {"highway": "service", "name": "Camino Campitos"}
-    },
-    {
-      "type": "way",
-      "id": 991761011,
-      "timestamp": "2021-10-10T18:55:33Z",
-      "version": 1,
-      "changeset": 112345407,
-      "user": "5R-MFT",
-      "uid": 3417876,
-      "nodes": [9163161967, 9163161966],
-      "geometry": [
-        {"lat": 28.6219227, "lon": -17.8927609, "z": 436.9},
-        {"lat": 28.6220109, "lon": -17.8928799, "z": 436.3}
-      ],
-      "tags": {"destroyed:highway": "service", "name": "Camino Campitos"}
-    },
-    {
-      "type": "way",
-      "id": 991761012,
-      "timestamp": "2021-10-10T18:55:33Z",
-      "version": 1,
-      "changeset": 112345407,
-      "user": "5R-MFT",
-      "uid": 3417876,
-      "nodes": [618294486, 9163161968],
-      "geometry": [
-        {"lat": 28.6216669, "lon": -17.892529, "z": 437.4},
-        {"lat": 28.6218001, "lon": -17.8926335, "z": 437.4}
-      ],
-      "tags": {"destroyed:highway": "service", "name": "Camino Campitos"}
-    },
-    {
-      "type": "way",
       "id": 991761013,
-      "timestamp": "2021-10-10T18:55:33Z",
-      "version": 1,
-      "changeset": 112345407,
-      "user": "5R-MFT",
-      "uid": 3417876,
-      "nodes": [9163161969, 618294486],
+      "timestamp": "2021-10-18T20:03:08Z",
+      "version": 2,
+      "changeset": 112667530,
+      "user": "Dodko",
+      "uid": 1944033,
+      "nodes": [9124688639, 618294486],
       "geometry": [
+        {"lat": 28.6213183, "lon": -17.8911365, "z": 450.8},
+        {"lat": 28.6213401, "lon": -17.8912076, "z": 450.2},
+        {"lat": 28.621354, "lon": -17.8912737, "z": 449.5},
+        {"lat": 28.6213509, "lon": -17.8913322, "z": 448.8},
+        {"lat": 28.6213282, "lon": -17.8915033, "z": 446.5},
+        {"lat": 28.6213301, "lon": -17.8915146, "z": 446.4},
+        {"lat": 28.6213923, "lon": -17.8918799, "z": 442.7},
+        {"lat": 28.6214545, "lon": -17.8920967, "z": 440.7},
         {"lat": 28.6216212, "lon": -17.892436, "z": 438.2},
         {"lat": 28.6216669, "lon": -17.892529, "z": 437.4}
       ],
       "tags": {
         "access": "yes",
-        "highway": "track",
+        "destroyed:highway": "track",
         "motorcar": "yes",
         "motorcycle": "yes",
         "mtb:scale": "0",
