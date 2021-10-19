@@ -19444,6 +19444,27 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 4.4,
+        "@id": "n3017867130",
+        "@changeset": 24765646,
+        "@timestamp": "2014-08-15T12:00:31Z",
+        "@version": 1,
+        "@uid": 8296,
+        "@user": "kuede",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.683174,
+          46.5241313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "place_village",
         "@distance": 1241.1,
         "@id": "n3033132673",
@@ -21704,27 +21725,6 @@
         "coordinates": [
           9.0920944,
           46.6462206
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 4.4,
-        "@id": "n3017867130",
-        "@changeset": 24765646,
-        "@timestamp": "2014-08-15T12:00:31Z",
-        "@version": 1,
-        "@uid": 8296,
-        "@user": "kuede",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.683174,
-          46.5241313
         ]
       }
     },
@@ -30411,11 +30411,11 @@
         "@poi": "foodshop_supermarket",
         "@distance": 6145.6,
         "@id": "w208170681",
-        "@changeset": 111791153,
-        "@timestamp": "2021-09-27T22:36:58Z",
-        "@version": 4,
-        "@uid": 384661,
-        "@user": "BBMaper",
+        "@changeset": 112638740,
+        "@timestamp": "2021-10-18T07:24:43Z",
+        "@version": 6,
+        "@uid": 12637224,
+        "@user": "eginhard",
         "addr:city": "Martigny",
         "addr:housenumber": "41",
         "addr:postcode": "1920",
@@ -30424,10 +30424,13 @@
         "brand:wikidata": "Q125054",
         "brand:wikipedia": "en:Aldi",
         "building": "retail",
+        "building:levels": "1",
         "name": "Aldi",
         "opening_hours": "Mo-Th 07:30-18:30; Fr 07:30-20:00; Sa 07:30-17:00",
         "operator": "Aldi",
         "phone": "027 723 55 25",
+        "roof:levels": "0",
+        "roof:shape": "flat",
         "shop": "supermarket",
         "source": "Bing",
         "website": "https://www.aldi-suisse.ch/"
@@ -39376,28 +39379,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
-        "@distance": 16.5,
-        "@id": "w550700836",
-        "@changeset": 55136902,
-        "@timestamp": "2018-01-03T18:55:04Z",
-        "@version": 1,
-        "@uid": 3078118,
-        "@user": "SelfishSeahorse",
-        "amenity": "shelter",
-        "shelter_type": "public_transport"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.8764988,
-          46.3199587
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
         "@distance": 1679.5,
         "@id": "n8829504187",
         "@changeset": 106282390,
@@ -39494,6 +39475,28 @@
         "coordinates": [
           7.170671,
           45.8688298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 16.5,
+        "@id": "w550700836",
+        "@changeset": 55136902,
+        "@timestamp": "2018-01-03T18:55:04Z",
+        "@version": 1,
+        "@uid": 3078118,
+        "@user": "SelfishSeahorse",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8764988,
+          46.3199587
         ]
       }
     },
