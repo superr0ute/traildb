@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-10-18T23:59:59Z",
-    "timestamp_osm_base": "2021-10-19T04:38:08Z",
+    "timestamp_osm_date": "2021-10-19T23:59:59Z",
+    "timestamp_osm_base": "2021-10-20T04:36:40Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -13637,6 +13637,27 @@
     },
     {
       "type": "node",
+      "id": 679787304,
+      "lat": 46.9429294,
+      "lon": 7.4305267,
+      "timestamp": "2021-10-19T06:57:25Z",
+      "version": 3,
+      "changeset": 112681792,
+      "user": "habi",
+      "uid": 15671,
+      "tags": {
+        "name": "Bo Asian GmbH",
+        "opening_hours": "Mo 11:00-19:00; Tu-Th 09:00-19:00; Fr 09:00-20:00; Sa 09:00-17:00; Su 10:00-17:00",
+        "payment:american_express": "yes",
+        "payment:maestro": "yes",
+        "payment:twint": "yes",
+        "payment:visa": "yes",
+        "shop": "convenience",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
       "id": 679787398,
       "lat": 46.944952,
       "lon": 7.426814,
@@ -25824,11 +25845,11 @@
       "id": 3230695787,
       "lat": 46.9738875,
       "lon": 7.4966669,
-      "timestamp": "2021-10-12T15:50:50Z",
-      "version": 5,
-      "changeset": 112423865,
-      "user": "BBMaper",
-      "uid": 384661,
+      "timestamp": "2021-10-19T12:30:31Z",
+      "version": 6,
+      "changeset": 112696132,
+      "user": "habi",
+      "uid": 15671,
       "tags": {
         "addr:city": "Bolligen",
         "addr:country": "CH",
@@ -25843,7 +25864,7 @@
         "opening_hours": "Mo-Fr 08:00-18:30;Sa 07:30-17:00",
         "shop": "supermarket",
         "source": "survey and website",
-        "website": "https://www.coop.ch/pb/site/vstinfo/node/76518709/Lde/index.htm?id=1494"
+        "website": "https://www.coop.ch/de/standorte/coop-supermarkt-bolligen/1494_POS"
       }
     },
     {
@@ -40676,11 +40697,11 @@
     {
       "type": "way",
       "id": 50759487,
-      "timestamp": "2021-07-15T09:08:29Z",
-      "version": 7,
-      "changeset": 108035006,
-      "user": "habi",
-      "uid": 15671,
+      "timestamp": "2021-10-19T18:22:03Z",
+      "version": 8,
+      "changeset": 112711690,
+      "user": "Geofreund1",
+      "uid": 179581,
       "center": {
         "lat": 46.9173164,
         "lon": 7.1071311
@@ -40691,8 +40712,14 @@
         "brand:wikidata": "Q151954",
         "brand:wikipedia": "en:Lidl",
         "building": "yes",
+        "generator:method": "photovoltaic",
+        "generator:output:electricity": "small_installation",
+        "generator:source": "solar",
+        "generator:type": "solar_photovoltaic_panel",
+        "location": "roof",
         "name": "Lidl",
         "opening_hours": "Mo-Th 07:30-19:00; Fr 07:30-21:00; Sa 07:30-17:00",
+        "power": "generator",
         "shop": "supermarket",
         "wheelchair": "yes"
       }
