@@ -33140,15 +33140,15 @@
         "@poi": "shelter_shelter",
         "@distance": 2581.6,
         "@id": "n8021624022",
-        "@changeset": 92700693,
-        "@timestamp": "2020-10-19T10:29:02Z",
-        "@version": 1,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 112731931,
+        "@timestamp": "2021-10-20T08:22:49Z",
+        "@version": 2,
+        "@uid": 285604,
+        "@user": "danielsjohan",
         "amenity": "shelter",
         "description": "2019-11 : Cabane en deux parties. Seule une pièce est ouverte. Très sommaire mais fiable, les murs en pierre sont solides et pas trop de courant d'air. La pièce est équipée d'une unique couchette en rondins de bois. Pas de cheminée.",
         "ele": 1730,
-        "fireplace": "no",
+        "fireplace": "yes",
         "name": "Cabane forestière forêt domaniale de l'Hospitalet",
         "shelter_type": "basic_hut",
         "stove": "no",
@@ -36856,38 +36856,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "alpine-hut",
-        "@distance": 9.9,
-        "@id": "w169599070",
-        "@changeset": 91205436,
-        "@timestamp": "2020-09-21T06:45:02Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "building": "yes",
-        "capacity": 40,
-        "description": "Ouvert de juin à octobre",
-        "drinking_water": "yes",
-        "ele": 1690,
-        "email": "refugedelasoula@gmail.com",
-        "name": "Refuge de la Soula",
-        "phone": "+33 5 62 40 23 41",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
-        "tourism": "alpine_hut",
-        "website": "https://www.refuge-lasoula.com/",
-        "wikidata": "Q3423212"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.4199402,
-          42.722656
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 2186.5,
         "@id": "n4624219668",
@@ -39780,6 +39748,38 @@
         "coordinates": [
           -0.3291595,
           42.8460497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "alpine-hut",
+        "@distance": 9.9,
+        "@id": "w169599070",
+        "@changeset": 91205436,
+        "@timestamp": "2020-09-21T06:45:02Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "building": "yes",
+        "capacity": 40,
+        "description": "Ouvert de juin à octobre",
+        "drinking_water": "yes",
+        "ele": 1690,
+        "email": "refugedelasoula@gmail.com",
+        "name": "Refuge de la Soula",
+        "phone": "+33 5 62 40 23 41",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
+        "tourism": "alpine_hut",
+        "website": "https://www.refuge-lasoula.com/",
+        "wikidata": "Q3423212"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4199402,
+          42.722656
         ]
       }
     },
@@ -43218,49 +43218,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 2696.3,
-        "@id": "w983797423",
-        "@changeset": 111273528,
-        "@timestamp": "2021-09-16T06:34:30Z",
-        "@version": 2,
-        "@uid": 7882299,
-        "@user": "mDav",
-        "access": "permissive",
-        "building": "yes",
-        "building:material": "stone",
-        "capacity": 2,
-        "capacity:maximum": "4",
-        "check_date": "2021-09-15",
-        "cookware": "no",
-        "drinking_water": "no",
-        "emergency_beacon": "no",
-        "fee": "no",
-        "fireplace": "yes",
-        "first_aid_kit": "no",
-        "mattress": "no",
-        "name": "Cabana de Pomero",
-        "opening_hours": "24/7",
-        "reservation": "no",
-        "seats": "yes",
-        "shower": "no",
-        "start_date": "2012",
-        "table": "no",
-        "toilets": "no",
-        "tourism": "wilderness_hut",
-        "woodstove": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.6918139,
-          42.682583
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "peak_peak",
         "@distance": 1937.7,
         "@id": "n7819952829",
@@ -44180,6 +44137,49 @@
         "coordinates": [
           -0.6882294,
           42.8536858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 2696.3,
+        "@id": "w983797423",
+        "@changeset": 111273528,
+        "@timestamp": "2021-09-16T06:34:30Z",
+        "@version": 2,
+        "@uid": 7882299,
+        "@user": "mDav",
+        "access": "permissive",
+        "building": "yes",
+        "building:material": "stone",
+        "capacity": 2,
+        "capacity:maximum": "4",
+        "check_date": "2021-09-15",
+        "cookware": "no",
+        "drinking_water": "no",
+        "emergency_beacon": "no",
+        "fee": "no",
+        "fireplace": "yes",
+        "first_aid_kit": "no",
+        "mattress": "no",
+        "name": "Cabana de Pomero",
+        "opening_hours": "24/7",
+        "reservation": "no",
+        "seats": "yes",
+        "shower": "no",
+        "start_date": "2012",
+        "table": "no",
+        "toilets": "no",
+        "tourism": "wilderness_hut",
+        "woodstove": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6918139,
+          42.682583
         ]
       }
     },
@@ -45181,32 +45181,6 @@
         "coordinates": [
           -1.7077975,
           43.3260962
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 56.6,
-        "@id": "w75474358",
-        "@changeset": 90692446,
-        "@timestamp": "2020-09-10T09:48:05Z",
-        "@version": 3,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "access": "private",
-        "alt_name": "Pena Alba",
-        "amenity": "shelter",
-        "building": "yes",
-        "name": "Uso toki Urbillo",
-        "shelter_type": "basic_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.4831742,
-          43.0943968
         ]
       }
     },
@@ -46694,6 +46668,32 @@
         "coordinates": [
           2.6316313,
           42.5153646
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 56.6,
+        "@id": "w75474358",
+        "@changeset": 90692446,
+        "@timestamp": "2020-09-10T09:48:05Z",
+        "@version": 3,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "access": "private",
+        "alt_name": "Pena Alba",
+        "amenity": "shelter",
+        "building": "yes",
+        "name": "Uso toki Urbillo",
+        "shelter_type": "basic_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4831742,
+          43.0943968
         ]
       }
     },
