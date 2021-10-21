@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-17T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-20T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10909145,
-      "timestamp": "2021-09-30T04:32:56Z",
-      "version": 1452,
-      "changeset": 111895580,
+      "timestamp": "2021-10-20T20:14:22Z",
+      "version": 1454,
+      "changeset": 112761584,
       "user": "Wulz",
       "uid": 10773975,
       "members": [
@@ -575,12 +575,14 @@
         {"type": "way", "ref": 826125015, "role": ""},
         {"type": "way", "ref": 826125024, "role": ""},
         {"type": "way", "ref": 826125025, "role": ""},
+        {"type": "way", "ref": 995021938, "role": ""},
         {"type": "way", "ref": 783854727, "role": ""},
         {"type": "way", "ref": 826125026, "role": ""},
         {"type": "way", "ref": 826125027, "role": ""},
         {"type": "way", "ref": 826125028, "role": ""},
         {"type": "way", "ref": 826125029, "role": ""},
         {"type": "way", "ref": 26797911, "role": ""},
+        {"type": "way", "ref": 995024923, "role": ""},
         {"type": "way", "ref": 135333902, "role": ""},
         {"type": "way", "ref": 916791243, "role": ""},
         {"type": "way", "ref": 178034119, "role": ""},
@@ -25386,16 +25388,14 @@
     {
       "type": "way",
       "id": 26797911,
-      "timestamp": "2021-03-13T20:47:45Z",
-      "version": 14,
-      "changeset": 100968959,
+      "timestamp": "2021-10-20T20:14:22Z",
+      "version": 15,
+      "changeset": 112761584,
       "user": "Wulz",
       "uid": 10773975,
-      "nodes": [293975408, 1486374139],
+      "nodes": [9188335936, 1486374139],
       "geometry": [
-        {"lat": 46.4728273, "lon": 14.3365102},
-        {"lat": 46.4727219, "lon": 14.3364831},
-        {"lat": 46.4726136, "lon": 14.3364552},
+        {"lat": 46.4725866, "lon": 14.3364557},
         {"lat": 46.4722563, "lon": 14.336462},
         {"lat": 46.4720496, "lon": 14.3364237},
         {"lat": 46.4719424, "lon": 14.3363447},
@@ -60789,12 +60789,12 @@
     {
       "type": "way",
       "id": 783854727,
-      "timestamp": "2021-03-13T20:43:00Z",
-      "version": 4,
-      "changeset": 100968825,
+      "timestamp": "2021-10-20T20:01:48Z",
+      "version": 5,
+      "changeset": 112761148,
       "user": "Wulz",
       "uid": 10773975,
-      "nodes": [5284765035, 880425744],
+      "nodes": [5284765035, 6018448108],
       "geometry": [
         {"lat": 46.4724633, "lon": 14.3352624},
         {"lat": 46.4724355, "lon": 14.3351583},
@@ -60805,17 +60805,14 @@
         {"lat": 46.4723741, "lon": 14.3346088},
         {"lat": 46.4724113, "lon": 14.334247},
         {"lat": 46.4724735, "lon": 14.3339665},
-        {"lat": 46.4724894, "lon": 14.33357},
-        {"lat": 46.4725085, "lon": 14.3332788},
-        {"lat": 46.4725334, "lon": 14.333043},
-        {"lat": 46.472672, "lon": 14.3323234}
+        {"lat": 46.4724894, "lon": 14.33357}
       ],
       "tags": {
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "30",
         "name": "Zell-Oberwinkel",
-        "note": "Beim “Julius Kugy Alpine Trail“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Kärntner Grenzweg, Panoramaweg Südalpen, Julius-Kugy-Dreiländerweg–Variante–2a, 639",
+        "note": "Beim “Julius Kugy Alpine Trail“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Kärntner Grenzweg, Panoramaweg Südalpen, Julius-Kugy-Dreiländerweg–Variante–2a, 639\n + lwn: Hainschgraben-Runde",
         "ref": "L 103a",
         "surface": "asphalt"
       }
@@ -68643,9 +68640,9 @@
     {
       "type": "way",
       "id": 826125026,
-      "timestamp": "2021-03-13T20:43:33Z",
-      "version": 3,
-      "changeset": 100968839,
+      "timestamp": "2021-10-20T20:05:33Z",
+      "version": 4,
+      "changeset": 112761271,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [880425739, 5284765035],
@@ -68660,7 +68657,7 @@
         "layer": "1",
         "maxspeed": "30",
         "name": "Zell-Oberwinkel",
-        "note": "Beim “Julius Kugy Alpine Trail“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Kärntner Grenzweg, Panoramaweg Südalpen, Julius-Kugy-Dreiländerweg–Variante–2a, 639",
+        "note": "+ rwn: Kärntner Grenzweg, Panoramaweg Südalpen, Julius-Kugy-Dreiländerweg–Variante–2a, 639\n + lwn: Hainschgraben-Runde",
         "ref": "L 103a",
         "surface": "asphalt"
       }
@@ -68668,9 +68665,9 @@
     {
       "type": "way",
       "id": 826125027,
-      "timestamp": "2021-03-13T20:44:04Z",
-      "version": 3,
-      "changeset": 100968855,
+      "timestamp": "2021-10-20T20:05:33Z",
+      "version": 4,
+      "changeset": 112761271,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [5284765037, 880425739],
@@ -68688,7 +68685,7 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Zell-Oberwinkel",
-        "note": "Beim “Julius Kugy Alpine Trail“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Kärntner Grenzweg, Panoramaweg Südalpen, Julius-Kugy-Dreiländerweg–Variante–2a, 639",
+        "note": "+ rwn: Kärntner Grenzweg, Panoramaweg Südalpen, Julius-Kugy-Dreiländerweg–Variante–2a, 639\n + lwn: Hainschgraben-Runde",
         "ref": "L 103a",
         "surface": "asphalt"
       }
@@ -68696,9 +68693,9 @@
     {
       "type": "way",
       "id": 826125028,
-      "timestamp": "2021-03-13T20:45:10Z",
-      "version": 3,
-      "changeset": 100968881,
+      "timestamp": "2021-10-20T20:05:33Z",
+      "version": 4,
+      "changeset": 112761271,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [5284765036, 5284765037],
@@ -68713,7 +68710,7 @@
         "layer": "1",
         "maxspeed": "30",
         "name": "Zell-Oberwinkel",
-        "note": "Beim “Julius Kugy Alpine Trail“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Kärntner Grenzweg, Panoramaweg Südalpen, Julius-Kugy-Dreiländerweg–Variante–2a, 639",
+        "note": "+ rwn: Kärntner Grenzweg, Panoramaweg Südalpen, Julius-Kugy-Dreiländerweg–Variante–2a, 639\n + lwn: Hainschgraben-Runde",
         "ref": "L 103a",
         "surface": "asphalt"
       }
@@ -68721,9 +68718,9 @@
     {
       "type": "way",
       "id": 826125029,
-      "timestamp": "2021-03-13T20:45:46Z",
-      "version": 3,
-      "changeset": 100968900,
+      "timestamp": "2021-10-20T20:05:33Z",
+      "version": 4,
+      "changeset": 112761271,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [293975408, 5284765036],
@@ -68736,7 +68733,7 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Zell-Oberwinkel",
-        "note": "Beim “Julius Kugy Alpine Trail“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Kärntner Grenzweg, Panoramaweg Südalpen, Julius-Kugy-Dreiländerweg–Variante–2a, 639",
+        "note": "+ rwn: Kärntner Grenzweg, Panoramaweg Südalpen, Julius-Kugy-Dreiländerweg–Variante–2a, 639\n + lwn: Hainschgraben-Runde",
         "ref": "L 103a",
         "surface": "asphalt"
       }
@@ -73721,6 +73718,60 @@
         "maxspeed": "30",
         "ref": "605",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 995021938,
+      "timestamp": "2021-10-20T20:01:48Z",
+      "version": 1,
+      "changeset": 112761148,
+      "user": "Wulz",
+      "uid": 10773975,
+      "nodes": [6018448108, 880425744],
+      "geometry": [
+        {"lat": 46.4724894, "lon": 14.33357},
+        {"lat": 46.4725085, "lon": 14.3332788},
+        {"lat": 46.4725334, "lon": 14.333043},
+        {"lat": 46.472672, "lon": 14.3323234}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Zell-Oberwinkel",
+        "note": "Beim “Julius Kugy Alpine Trail“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Kärntner Grenzweg, Panoramaweg Südalpen, Julius-Kugy-Dreiländerweg–Variante–2a, 639",
+        "ref": "L 103a",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 995024923,
+      "timestamp": "2021-10-20T20:14:22Z",
+      "version": 1,
+      "changeset": 112761584,
+      "user": "Wulz",
+      "uid": 10773975,
+      "nodes": [293975408, 9188335936],
+      "geometry": [
+        {"lat": 46.4728273, "lon": 14.3365102},
+        {"lat": 46.4727219, "lon": 14.3364831},
+        {"lat": 46.4726136, "lon": 14.3364552},
+        {"lat": 46.4725866, "lon": 14.3364557}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "incline": "0%",
+        "motor_vehicle": "yes",
+        "name": "Wassererlebnisweg Hainschgraben",
+        "note": "Beim “Julius Kugy Alpine Trail“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Julius-Kugy-Dreiländerweg–Variante–2a, 650\n + lwn: Hainschgraben-Runde",
+        "smoothness": "intermediate",
+        "surface": "unpaved",
+        "tracktype": "grade2",
+        "width": "3"
       }
     }
   ]
