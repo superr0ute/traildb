@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-10-19T23:59:59Z",
-    "timestamp_osm_base": "2021-10-20T05:23:13Z",
+    "timestamp_osm_date": "2021-10-20T23:59:59Z",
+    "timestamp_osm_base": "2021-10-21T05:19:47Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6344,28 +6344,32 @@
       "id": 1376986413,
       "lat": 49.3199144,
       "lon": 18.3714073,
-      "timestamp": "2011-07-28T18:37:56Z",
-      "version": 1,
-      "changeset": 8857189,
-      "user": "Malin",
-      "uid": 138497,
+      "timestamp": "2021-10-20T20:49:21Z",
+      "version": 2,
+      "changeset": 112762778,
+      "user": "aceman444",
+      "uid": 1617449,
       "tags": {
-        "natural": "spring"
+        "drinking_water": "yes",
+        "name": "Javornícka studnička Prales",
+        "natural": "spring",
+        "refitted": "yes"
       }
     },
     {
       "type": "node",
       "id": 1376986428,
-      "lat": 49.3239259,
-      "lon": 18.3864198,
-      "timestamp": "2013-07-15T16:37:22Z",
-      "version": 3,
-      "changeset": 16964507,
-      "user": "*Martin*",
-      "uid": 4815,
+      "lat": 49.3238573,
+      "lon": 18.3866146,
+      "timestamp": "2021-10-20T23:17:29Z",
+      "version": 4,
+      "changeset": 112766238,
+      "user": "aceman444",
+      "uid": 1617449,
       "tags": {
         "covered": "yes",
-        "natural": "spring"
+        "natural": "spring",
+        "refitted": "yes"
       }
     },
     {
@@ -13120,23 +13124,6 @@
         "ele": "930",
         "name": "Frňovské sedlo",
         "natural": "saddle"
-      }
-    },
-    {
-      "type": "node",
-      "id": 3012265413,
-      "lat": 49.3271588,
-      "lon": 18.3818619,
-      "timestamp": "2014-08-12T12:49:34Z",
-      "version": 1,
-      "changeset": 24700967,
-      "user": "*Martin*",
-      "uid": 4815,
-      "tags": {
-        "amenity": "shelter",
-        "highway": "bus_stop",
-        "shelter": "yes",
-        "shelter_type": "public_transport"
       }
     },
     {
@@ -23592,6 +23579,36 @@
       }
     },
     {
+      "type": "node",
+      "id": 9186920036,
+      "lat": 49.1706292,
+      "lon": 18.3697741,
+      "timestamp": "2021-10-20T11:08:43Z",
+      "version": 1,
+      "changeset": 112739018,
+      "user": "Camping Maninska tiesnava",
+      "uid": 11712600,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9188635259,
+      "lat": 49.3277088,
+      "lon": 18.3749396,
+      "timestamp": "2021-10-20T23:17:29Z",
+      "version": 1,
+      "changeset": 112766238,
+      "user": "aceman444",
+      "uid": 1617449,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter",
+        "source": "survey"
+      }
+    },
+    {
       "type": "way",
       "id": 51145992,
       "timestamp": "2020-10-17T11:13:16Z",
@@ -24518,9 +24535,9 @@
     {
       "type": "way",
       "id": 217520677,
-      "timestamp": "2021-01-21T12:04:19Z",
-      "version": 5,
-      "changeset": 97903664,
+      "timestamp": "2021-10-20T23:17:29Z",
+      "version": 6,
+      "changeset": 112766238,
       "user": "aceman444",
       "uid": 1617449,
       "center": {
@@ -24535,10 +24552,13 @@
         "addr:housenumber": "283",
         "addr:place": "Kopanice",
         "building": "yes",
+        "building:levels": "2",
         "contact:email": "info@kasarna.com",
         "contact:phone": "+420724206854",
         "contact:website": "http://www.kasarna.com",
         "name": "Turistická chata LKJ Zlín",
+        "roof:levels": "1",
+        "roof:shape": "gabled",
         "source": "kapor2",
         "tourism": "alpine_hut"
       }
