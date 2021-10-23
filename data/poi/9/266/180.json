@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-10-21T23:59:59Z",
-    "timestamp_osm_base": "2021-10-22T04:39:12Z",
+    "timestamp_osm_date": "2021-10-22T23:59:59Z",
+    "timestamp_osm_base": "2021-10-23T04:33:51Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -31988,12 +31988,15 @@
       "id": 5118393798,
       "lat": 46.9163258,
       "lon": 7.4661969,
-      "timestamp": "2021-08-21T17:42:44Z",
-      "version": 4,
-      "changeset": 110037031,
+      "timestamp": "2021-10-22T11:59:48Z",
+      "version": 5,
+      "changeset": 112835057,
       "user": "habi",
       "uid": 15671,
       "tags": {
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
         "name": "Lidl",
         "opening_hours": "Mo-Th 07:30-20:00; Fr 09:00-18:00; Sa 07:30-17:00",
         "shop": "supermarket"
@@ -33762,12 +33765,15 @@
       "id": 6140726095,
       "lat": 46.916473,
       "lon": 7.466708,
-      "timestamp": "2021-08-21T17:41:19Z",
-      "version": 2,
-      "changeset": 110037005,
+      "timestamp": "2021-10-22T11:24:46Z",
+      "version": 3,
+      "changeset": 112833683,
       "user": "habi",
       "uid": 15671,
       "tags": {
+        "brand": "Spar",
+        "brand:wikidata": "Q610492",
+        "brand:wikipedia": "en:SPAR (retailer)",
         "name": "Spar express",
         "opening_hours": "Mo-Su 06:00-22:00",
         "shop": "convenience"
@@ -48371,6 +48377,33 @@
     },
     {
       "type": "way",
+      "id": 605821729,
+      "timestamp": "2021-10-22T10:59:31Z",
+      "version": 2,
+      "changeset": 112832665,
+      "user": "lostjokes",
+      "uid": 12309308,
+      "center": {
+        "lat": 46.6365516,
+        "lon": 7.3567054
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Boltigen",
+        "addr:country": "CH",
+        "addr:housenumber": "1070",
+        "addr:postcode": "3766",
+        "addr:street": "Trimle",
+        "building": "yes",
+        "ele": "1612",
+        "fee": "no",
+        "fireplace": "yes",
+        "name": "Trimlenhüttli",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
       "id": 608119999,
       "timestamp": "2019-05-11T13:50:34Z",
       "version": 2,
@@ -52122,6 +52155,43 @@
         "amenity": "shelter",
         "building": "roof",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 995537304,
+      "timestamp": "2021-10-22T10:47:15Z",
+      "version": 1,
+      "changeset": 112832106,
+      "user": "vmicho",
+      "uid": 1849074,
+      "center": {
+        "lat": 46.792823,
+        "lon": 7.1322789
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 995603392,
+      "timestamp": "2021-10-22T15:34:33Z",
+      "version": 1,
+      "changeset": 112844180,
+      "user": "vmicho",
+      "uid": 1849074,
+      "center": {
+        "lat": 46.7902567,
+        "lon": 7.1039697
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "field_shelter"
       }
     }
   ]
