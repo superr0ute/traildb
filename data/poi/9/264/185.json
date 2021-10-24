@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-10-22T23:59:59Z",
-    "timestamp_osm_base": "2021-10-23T04:28:42Z",
+    "timestamp_osm_date": "2021-10-23T23:59:59Z",
+    "timestamp_osm_base": "2021-10-24T04:20:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2595,9 +2595,9 @@
       "id": 950792393,
       "lat": 44.3112322,
       "lon": 5.6967288,
-      "timestamp": "2021-10-21T21:33:48Z",
-      "version": 5,
-      "changeset": 112811735,
+      "timestamp": "2021-10-23T21:40:33Z",
+      "version": 6,
+      "changeset": 112888330,
       "user": "schoschi",
       "uid": 231006,
       "tags": {
@@ -2605,12 +2605,15 @@
         "caravans": "yes",
         "email": "camping-orpierre@wanadoo.fr",
         "fee": "yes",
-        "internet_access": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
         "lit": "partly",
         "motor_vehicle": "yes",
-        "name": "Princes d Orange",
+        "name": "Les Princes d'Orange",
+        "opening_hours": "Mar 27-Nov 1",
         "phone": "+33 4 92 66 22 53",
         "power_supply": "yes",
+        "sanitary_dump_station": "yes",
         "shower": "hot",
         "stars": "4",
         "tents": "yes",
@@ -2618,7 +2621,7 @@
         "waste_disposal": "yes",
         "website": "http://www.camping-orpierre.com/",
         "wheelchair": "limited",
-        "wheelchair:description": "Some of the common rooms have steps. Some ways will be longer as shortcuts use steps."
+        "wheelchair:description": "Some of the common rooms have steps. Toilets, showers etc might be too narrow for a wheelchair. Some ways will be longer as shortcuts use steps."
       }
     },
     {
@@ -4826,39 +4829,6 @@
       "tags": {
         "name": "Micropolis",
         "place": "hamlet"
-      }
-    },
-    {
-      "type": "node",
-      "id": 1434150702,
-      "lat": 44.5641647,
-      "lon": 6.0942926,
-      "timestamp": "2013-03-07T21:37:39Z",
-      "version": 3,
-      "changeset": 15285864,
-      "user": "jeremiejeremie",
-      "uid": 1253372,
-      "tags": {
-        "name": "Z.A. Les Fauvins",
-        "place": "hamlet",
-        "source": "Bing"
-      }
-    },
-    {
-      "type": "node",
-      "id": 1434192449,
-      "lat": 44.5667003,
-      "lon": 6.0994005,
-      "timestamp": "2016-11-06T11:42:01Z",
-      "version": 3,
-      "changeset": 43439172,
-      "user": "Guillaume Mortier",
-      "uid": 1429581,
-      "tags": {
-        "name": "Zone d'Activités Tokoro",
-        "place": "hamlet",
-        "short_name": "ZA Tokoro",
-        "source": "Bing"
       }
     },
     {
@@ -11500,14 +11470,20 @@
       "id": 2903283593,
       "lat": 44.311512,
       "lon": 5.698143,
-      "timestamp": "2014-06-06T19:01:25Z",
-      "version": 1,
-      "changeset": 22780932,
-      "user": "Stefan Liebl",
-      "uid": 60176,
+      "timestamp": "2021-10-23T21:40:33Z",
+      "version": 2,
+      "changeset": 112888330,
+      "user": "schoschi",
+      "uid": 231006,
       "tags": {
+        "description:de": "Rezeption, Betreiber usw. identisch mit \"Les Princes d'Orange\"",
+        "description:en": "Same reception, operator etc as \"Les Princes d'Orange\"",
         "name": "Les Noyons",
-        "tourism": "camp_site"
+        "opening_hours": "Apr 2-Sep 15",
+        "tourism": "camp_site",
+        "url": "https://www.camping-noyers.com/",
+        "wheelchair": "limited",
+        "wheelchair:description": "Some of the common rooms have steps. Toilets, showers etc might be too narrow for a wheelchair. Some ways will be longer as shortcuts use steps."
       }
     },
     {
