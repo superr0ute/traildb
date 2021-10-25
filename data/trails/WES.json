@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-23T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-24T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -12218,17 +12218,19 @@
     {
       "type": "way",
       "id": 23235001,
-      "timestamp": "2017-02-14T16:00:58Z",
-      "version": 8,
-      "changeset": 46082803,
-      "user": "Geofreund1",
-      "uid": 179581,
+      "timestamp": "2021-10-24T11:17:43Z",
+      "version": 9,
+      "changeset": 112901974,
+      "user": "wuff57",
+      "uid": 2583033,
       "nodes": [310646526, 251381270],
       "geometry": [
         {"lat": 48.8300767, "lon": 8.5465328},
         {"lat": 48.8294484, "lon": 8.547319},
+        {"lat": 48.8290226, "lon": 8.5478681},
         {"lat": 48.828775, "lon": 8.5481874},
         {"lat": 48.8286654, "lon": 8.5485635},
+        {"lat": 48.8285549, "lon": 8.5490853},
         {"lat": 48.8284791, "lon": 8.5496846},
         {"lat": 48.8284551, "lon": 8.5500788},
         {"lat": 48.8284346, "lon": 8.5503287}
@@ -13895,8 +13897,8 @@
       "nodes": [2589031607, 310646809],
       "geometry": [
         {"lat": 48.8254692, "lon": 8.5509481},
-        {"lat": 48.8252917, "lon": 8.5510739},
-        {"lat": 48.8250237, "lon": 8.5511618},
+        {"lat": 48.8253023, "lon": 8.5510176},
+        {"lat": 48.8250166, "lon": 8.5511028},
         {"lat": 48.8247783, "lon": 8.5511882},
         {"lat": 48.8243485, "lon": 8.5511671},
         {"lat": 48.8241762, "lon": 8.5511168},
@@ -16986,11 +16988,11 @@
     {
       "type": "way",
       "id": 28288006,
-      "timestamp": "2009-11-13T01:56:26Z",
-      "version": 3,
-      "changeset": 3103283,
-      "user": "mabapla",
-      "uid": 24748,
+      "timestamp": "2021-10-24T11:17:43Z",
+      "version": 4,
+      "changeset": 112901974,
+      "user": "wuff57",
+      "uid": 2583033,
       "nodes": [50072614, 310646670],
       "geometry": [
         {"lat": 48.8214968, "lon": 8.5517272},
@@ -17000,10 +17002,10 @@
         {"lat": 48.8204333, "lon": 8.552637}
       ],
       "tags": {
-        "access": "destination",
         "highway": "residential",
         "maxspeed": "30",
-        "name": "Eyachweg"
+        "name": "Eyachweg",
+        "vehicle": "destination"
       }
     },
     {
@@ -17035,22 +17037,23 @@
     {
       "type": "way",
       "id": 28288082,
-      "timestamp": "2009-11-13T01:56:27Z",
-      "version": 3,
-      "changeset": 3103283,
-      "user": "mabapla",
-      "uid": 24748,
+      "timestamp": "2021-10-24T11:17:43Z",
+      "version": 4,
+      "changeset": 112901974,
+      "user": "wuff57",
+      "uid": 2583033,
       "nodes": [310646807, 310646809],
       "geometry": [
         {"lat": 48.8212222, "lon": 8.5512954},
+        {"lat": 48.8214933, "lon": 8.5510004},
         {"lat": 48.8217962, "lon": 8.5508042},
         {"lat": 48.8222277, "lon": 8.5507243}
       ],
       "tags": {
-        "access": "destination",
         "highway": "residential",
         "maxspeed": "30",
-        "name": "Feldrennacher Weg"
+        "name": "Feldrennacher Weg",
+        "vehicle": "destination"
       }
     },
     {
@@ -41918,11 +41921,11 @@
     {
       "type": "way",
       "id": 684249062,
-      "timestamp": "2021-09-18T11:10:25Z",
-      "version": 2,
-      "changeset": 111370470,
-      "user": "Dominic Z",
-      "uid": 56475,
+      "timestamp": "2021-10-24T11:17:43Z",
+      "version": 3,
+      "changeset": 112901974,
+      "user": "wuff57",
+      "uid": 2583033,
       "nodes": [310646807, 50072614],
       "geometry": [
         {"lat": 48.8212222, "lon": 8.5512954},
@@ -41931,8 +41934,10 @@
       ],
       "tags": {
         "highway": "secondary",
+        "maxspeed": "50",
         "name": "Hauptstraße",
         "ref": "L 339",
+        "source:maxspeed": "DE:urban",
         "surface": "asphalt"
       }
     },
@@ -41971,11 +41976,11 @@
     {
       "type": "way",
       "id": 684249065,
-      "timestamp": "2019-04-16T20:00:14Z",
-      "version": 1,
-      "changeset": 69285557,
-      "user": "OSMachim",
-      "uid": 95367,
+      "timestamp": "2021-10-24T11:17:43Z",
+      "version": 2,
+      "changeset": 112901974,
+      "user": "wuff57",
+      "uid": 2583033,
       "nodes": [354654715, 354654646],
       "geometry": [
         {"lat": 48.8270452, "lon": 8.5497744},
@@ -41987,7 +41992,7 @@
       "tags": {
         "highway": "track",
         "name": "Rufenlochweg",
-        "tracktype": "grade3"
+        "tracktype": "grade2"
       }
     },
     {

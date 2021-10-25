@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-21T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-24T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -139,9 +139,9 @@
     {
       "type": "relation",
       "id": 2925549,
-      "timestamp": "2021-10-01T21:03:00Z",
-      "version": 29,
-      "changeset": 111981720,
+      "timestamp": "2021-10-24T13:49:44Z",
+      "version": 31,
+      "changeset": 112906997,
       "user": "alessandrocarmeli",
       "uid": 12294600,
       "members": [
@@ -187,10 +187,7 @@
         {"type": "way", "ref": 198352588, "role": "route"},
         {"type": "way", "ref": 85143140, "role": "route"},
         {"type": "way", "ref": 198352585, "role": "route"},
-        {"type": "way", "ref": 903199343, "role": "route"},
-        {"type": "way", "ref": 148985850, "role": "route"},
         {"type": "way", "ref": 162818714, "role": "route"},
-        {"type": "way", "ref": 671122583, "role": "route"},
         {"type": "way", "ref": 162818715, "role": "route"},
         {"type": "way", "ref": 671122582, "role": "route"},
         {"type": "way", "ref": 162818726, "role": "route"},
@@ -203,7 +200,6 @@
         {"type": "way", "ref": 32928110, "role": "route"},
         {"type": "way", "ref": 162818717, "role": "route"},
         {"type": "way", "ref": 162817997, "role": "route"},
-        {"type": "way", "ref": 162818730, "role": "route"},
         {"type": "way", "ref": 107691499, "role": "route"},
         {"type": "way", "ref": 162818733, "role": "route"},
         {"type": "way", "ref": 107691396, "role": "route"},
@@ -1143,19 +1139,21 @@
     {
       "type": "way",
       "id": 107691499,
-      "timestamp": "2021-09-04T21:49:07Z",
-      "version": 7,
-      "changeset": 110731999,
-      "user": "damjang",
-      "uid": 97922,
-      "nodes": [337405287, 1237186616],
+      "timestamp": "2021-10-24T13:46:48Z",
+      "version": 8,
+      "changeset": 112906892,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
+      "nodes": [337405287, 1237186618],
       "geometry": [
         {"lat": 45.6149618, "lon": 13.8839039},
         {"lat": 45.6149432, "lon": 13.8839318},
         {"lat": 45.6148975, "lon": 13.8840789},
         {"lat": 45.6148861, "lon": 13.8841244},
         {"lat": 45.6148626, "lon": 13.8841582},
-        {"lat": 45.6148668, "lon": 13.8842888}
+        {"lat": 45.6148668, "lon": 13.8842888},
+        {"lat": 45.6149495, "lon": 13.8842888},
+        {"lat": 45.6150588, "lon": 13.8843112}
       ],
       "tags": {"highway": "track", "sac_scale": "hiking", "tracktype": "grade2"}
     },
@@ -2822,23 +2820,6 @@
         "ref": "SP11",
         "surface": "asphalt"
       }
-    },
-    {
-      "type": "way",
-      "id": 148985850,
-      "timestamp": "2021-02-02T23:14:07Z",
-      "version": 11,
-      "changeset": 98605471,
-      "user": "micheleOSM3",
-      "uid": 3538539,
-      "nodes": [1545718893, 3338507528],
-      "geometry": [
-        {"lat": 45.6265757, "lon": 13.8705706},
-        {"lat": 45.6265064, "lon": 13.870378},
-        {"lat": 45.6264597, "lon": 13.8701747},
-        {"lat": 45.6264243, "lon": 13.8697306}
-      ],
-      "tags": {"highway": "tertiary", "noname": "yes", "surface": "asphalt"}
     },
     {
       "type": "way",
@@ -5153,30 +5134,35 @@
     {
       "type": "way",
       "id": 162818714,
-      "timestamp": "2020-09-04T13:07:15Z",
-      "version": 9,
-      "changeset": 90417397,
-      "user": "trieste fvg",
-      "uid": 6400648,
-      "nodes": [857397498, 293023423],
+      "timestamp": "2021-10-24T13:49:44Z",
+      "version": 10,
+      "changeset": 112906997,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
+      "nodes": [857397498, 293023810],
       "geometry": [
         {"lat": 45.6267963, "lon": 13.8714612},
         {"lat": 45.6267321, "lon": 13.8713488},
         {"lat": 45.6266811, "lon": 13.8712008},
         {"lat": 45.6266279, "lon": 13.870825},
-        {"lat": 45.6265995, "lon": 13.8706447}
+        {"lat": 45.6265995, "lon": 13.8706447},
+        {"lat": 45.6265757, "lon": 13.8705706},
+        {"lat": 45.6265064, "lon": 13.870378},
+        {"lat": 45.6264597, "lon": 13.8701747},
+        {"lat": 45.6264243, "lon": 13.8697306},
+        {"lat": 45.6264104, "lon": 13.8695717}
       ],
       "tags": {"highway": "tertiary", "noname": "yes", "surface": "asphalt"}
     },
     {
       "type": "way",
       "id": 162818715,
-      "timestamp": "2020-09-04T13:07:15Z",
-      "version": 11,
-      "changeset": 90417397,
-      "user": "trieste fvg",
-      "uid": 6400648,
-      "nodes": [2316514767, 293023663],
+      "timestamp": "2021-10-24T13:49:44Z",
+      "version": 12,
+      "changeset": 112906997,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
+      "nodes": [2316514767, 857397498],
       "geometry": [
         {"lat": 45.6276604, "lon": 13.8717114},
         {"lat": 45.6275823, "lon": 13.8717348},
@@ -5184,18 +5170,21 @@
         {"lat": 45.6272967, "lon": 13.8717887},
         {"lat": 45.6271981, "lon": 13.8717777},
         {"lat": 45.6271135, "lon": 13.8717518},
-        {"lat": 45.6270254, "lon": 13.8717119}
+        {"lat": 45.6270254, "lon": 13.8717119},
+        {"lat": 45.6269373, "lon": 13.8716522},
+        {"lat": 45.6268605, "lon": 13.8715656},
+        {"lat": 45.6267963, "lon": 13.8714612}
       ],
       "tags": {"highway": "tertiary", "noname": "yes", "surface": "asphalt"}
     },
     {
       "type": "way",
       "id": 162818717,
-      "timestamp": "2020-09-16T14:10:38Z",
-      "version": 5,
-      "changeset": 90992218,
-      "user": "patata_28",
-      "uid": 11166885,
+      "timestamp": "2021-10-24T13:46:48Z",
+      "version": 6,
+      "changeset": 112906892,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
       "nodes": [1746363659, 293145711],
       "geometry": [
         {"lat": 45.6169764, "lon": 13.8847357},
@@ -5204,7 +5193,7 @@
       "tags": {
         "bicycle": "designated",
         "foot": "designated",
-        "highway": "path",
+        "highway": "cycleway",
         "name": "Ciclopedonale Giordano Cottur",
         "railway": "abandoned",
         "segregated": "no",
@@ -5231,22 +5220,6 @@
         "service": "parking_aisle",
         "surface": "asphalt"
       }
-    },
-    {
-      "type": "way",
-      "id": 162818730,
-      "timestamp": "2012-05-09T08:41:46Z",
-      "version": 1,
-      "changeset": 11547089,
-      "user": "osmkobe",
-      "uid": 103131,
-      "nodes": [1237186616, 1237186618],
-      "geometry": [
-        {"lat": 45.6148668, "lon": 13.8842888},
-        {"lat": 45.6149495, "lon": 13.8842888},
-        {"lat": 45.6150588, "lon": 13.8843112}
-      ],
-      "tags": {"highway": "track", "sac_scale": "hiking"}
     },
     {
       "type": "way",
@@ -25205,23 +25178,6 @@
     },
     {
       "type": "way",
-      "id": 671122583,
-      "timestamp": "2020-09-04T13:07:15Z",
-      "version": 6,
-      "changeset": 90417397,
-      "user": "trieste fvg",
-      "uid": 6400648,
-      "nodes": [293023663, 857397498],
-      "geometry": [
-        {"lat": 45.6270254, "lon": 13.8717119},
-        {"lat": 45.6269373, "lon": 13.8716522},
-        {"lat": 45.6268605, "lon": 13.8715656},
-        {"lat": 45.6267963, "lon": 13.8714612}
-      ],
-      "tags": {"highway": "tertiary", "noname": "yes", "surface": "asphalt"}
-    },
-    {
-      "type": "way",
       "id": 671145404,
       "timestamp": "2021-09-25T19:48:01Z",
       "version": 2,
@@ -28263,21 +28219,6 @@
         "sac_scale": "mountain_hiking",
         "width": "0.8"
       }
-    },
-    {
-      "type": "way",
-      "id": 903199343,
-      "timestamp": "2021-02-02T23:14:07Z",
-      "version": 1,
-      "changeset": 98605471,
-      "user": "micheleOSM3",
-      "uid": 3538539,
-      "nodes": [293023423, 1545718893],
-      "geometry": [
-        {"lat": 45.6265995, "lon": 13.8706447},
-        {"lat": 45.6265757, "lon": 13.8705706}
-      ],
-      "tags": {"highway": "tertiary", "noname": "yes", "surface": "asphalt"}
     },
     {
       "type": "way",
