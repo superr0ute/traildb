@@ -57163,12 +57163,13 @@
         "@poi": "foodshop_convenience",
         "@distance": 209.9,
         "@id": "n4462446111",
-        "@changeset": 43139405,
-        "@timestamp": "2016-10-24T20:37:54Z",
-        "@version": 1,
-        "@uid": 29762,
-        "@user": "Jose Riha",
+        "@changeset": 112946206,
+        "@timestamp": "2021-10-25T12:47:14Z",
+        "@version": 2,
+        "@uid": 6990611,
+        "@user": "l0cKy",
         "name": "Potraviny ZAP",
+        "opening_hours": "Mo-Fr 06:00-22:00; Sa 07:00-22:00; Su 08:00-22:00",
         "shop": "convenience"
       },
       "geometry": {
@@ -78505,6 +78506,28 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1306.4,
+        "@id": "n9200361982",
+        "@changeset": 112958910,
+        "@timestamp": "2021-10-25T17:21:59Z",
+        "@version": 1,
+        "@uid": 7169223,
+        "@user": "Klerik7",
+        "amenity": "shelter",
+        "shelter_type": "basic_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0170712,
+          48.1677205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 3548,
         "@id": "w8018671",
@@ -78532,46 +78555,6 @@
         "coordinates": [
           17.1439113,
           48.1594679
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 6050.1,
-        "@id": "w23549864",
-        "@changeset": 96493972,
-        "@timestamp": "2020-12-27T18:11:30Z",
-        "@version": 20,
-        "@uid": 1617449,
-        "@user": "aceman444",
-        "addr:city": "Bratislava",
-        "addr:conscriptionnumber": "3638",
-        "addr:country": "SK",
-        "addr:housenumber": "1",
-        "addr:postcode": "851 07",
-        "addr:street": "Betliarska",
-        "addr:streetnumber": "1",
-        "addr:suburb": "Petržalka",
-        "brand": "Lidl",
-        "brand:wikidata": "Q151954",
-        "brand:wikipedia": "en:Lidl",
-        "building": "retail",
-        "building:levels": "1",
-        "name": "Lidl",
-        "opening_hours": "Mo-Sa 07:00-21:00",
-        "roof:colour": "red",
-        "roof:levels": "1",
-        "roof:shape": "hipped",
-        "shop": "supermarket",
-        "source": "kapor2"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.1108952,
-          48.0990717
         ]
       }
     },
@@ -85915,6 +85898,46 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
+        "@distance": 6050.1,
+        "@id": "w23549864",
+        "@changeset": 96493972,
+        "@timestamp": "2020-12-27T18:11:30Z",
+        "@version": 20,
+        "@uid": 1617449,
+        "@user": "aceman444",
+        "addr:city": "Bratislava",
+        "addr:conscriptionnumber": "3638",
+        "addr:country": "SK",
+        "addr:housenumber": "1",
+        "addr:postcode": "851 07",
+        "addr:street": "Betliarska",
+        "addr:streetnumber": "1",
+        "addr:suburb": "Petržalka",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-21:00",
+        "roof:colour": "red",
+        "roof:levels": "1",
+        "roof:shape": "hipped",
+        "shop": "supermarket",
+        "source": "kapor2"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1108952,
+          48.0990717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
         "@distance": 4277,
         "@id": "w24997548",
         "@changeset": 81412308,
@@ -87774,37 +87797,6 @@
         "coordinates": [
           17.1686311,
           48.1986195
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "alpine-hut",
-        "@distance": 1620.4,
-        "@id": "w118321091",
-        "@changeset": 102342798,
-        "@timestamp": "2021-04-05T15:01:15Z",
-        "@version": 3,
-        "@uid": 11381465,
-        "@user": "Servisman365",
-        "addr:city": "Modra",
-        "addr:conscriptionnumber": "4075",
-        "addr:housenumber": "4075/E10",
-        "addr:place": "Piesok",
-        "addr:postcode": "90001",
-        "addr:street": "Piesok",
-        "addr:streetnumber": "E10",
-        "building": "yes",
-        "name": "Horská chata Hubert",
-        "source": "kapor2;survey",
-        "tourism": "alpine_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.2676772,
-          48.3843131
         ]
       }
     },
@@ -90250,6 +90242,37 @@
         "coordinates": [
           21.2884968,
           48.6805617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "alpine-hut",
+        "@distance": 1620.4,
+        "@id": "w118321091",
+        "@changeset": 102342798,
+        "@timestamp": "2021-04-05T15:01:15Z",
+        "@version": 3,
+        "@uid": 11381465,
+        "@user": "Servisman365",
+        "addr:city": "Modra",
+        "addr:conscriptionnumber": "4075",
+        "addr:housenumber": "4075/E10",
+        "addr:place": "Piesok",
+        "addr:postcode": "90001",
+        "addr:street": "Piesok",
+        "addr:streetnumber": "E10",
+        "building": "yes",
+        "name": "Horská chata Hubert",
+        "source": "kapor2;survey",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2676772,
+          48.3843131
         ]
       }
     },
