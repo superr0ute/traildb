@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-25T02:37:34Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-26T02:33:57Z"},
   "elements": [
     {
       "type": "relation",
       "id": 7700604,
-      "timestamp": "2021-10-24T18:07:50Z",
-      "version": 357,
-      "changeset": 112916383,
-      "user": "radokado",
-      "uid": 513818,
+      "timestamp": "2021-10-25T00:09:22Z",
+      "version": 358,
+      "changeset": 112924314,
+      "user": "aceman444",
+      "uid": 1617449,
       "members": [
         {"type": "node", "ref": 2827666105, "role": "guidepost"},
         {"type": "node", "ref": 750482929, "role": "guidepost"},
@@ -295,7 +295,7 @@
         {"type": "node", "ref": 6036170416, "role": "guidepost"},
         {"type": "node", "ref": 503873193, "role": "guidepost"},
         {"type": "node", "ref": 503873321, "role": "guidepost"},
-        {"type": "node", "ref": 499530273, "role": "guidepost"},
+        {"type": "node", "ref": 8934031791, "role": "guidepost"},
         {"type": "node", "ref": 429772724, "role": "guidepost"},
         {"type": "node", "ref": 429772685, "role": "guidepost"},
         {"type": "node", "ref": 429772666, "role": "guidepost"},
@@ -1371,7 +1371,6 @@
         {"type": "way", "ref": 526578822, "role": ""},
         {"type": "way", "ref": 275654142, "role": ""},
         {"type": "way", "ref": 291933212, "role": ""},
-        {"type": "way", "ref": 41233639, "role": ""},
         {"type": "way", "ref": 320908903, "role": ""},
         {"type": "way", "ref": 37787229, "role": ""},
         {"type": "way", "ref": 510950392, "role": ""},
@@ -18111,15 +18110,15 @@
     {
       "type": "way",
       "id": 291933212,
-      "timestamp": "2014-07-08T14:47:19Z",
-      "version": 1,
-      "changeset": 24027145,
-      "user": "georgo21",
-      "uid": 477858,
-      "nodes": [503873311, 503873312],
+      "timestamp": "2021-10-25T00:09:22Z",
+      "version": 2,
+      "changeset": 112924314,
+      "user": "aceman444",
+      "uid": 1617449,
+      "nodes": [503873311, 2803042252],
       "geometry": [
         {"lat": 48.905529, "lon": 18.1881064, "z": 320.3},
-        {"lat": 48.9055063, "lon": 18.1880321, "z": 319.5}
+        {"lat": 48.905482, "lon": 18.1879989, "z": 318.8}
       ],
       "tags": {"highway": "path"}
     },
@@ -33525,21 +33524,6 @@
     },
     {
       "type": "way",
-      "id": 41233639,
-      "timestamp": "2021-01-14T20:03:06Z",
-      "version": 7,
-      "changeset": 97514231,
-      "user": "radokado",
-      "uid": 513818,
-      "nodes": [503873312, 2803042252],
-      "geometry": [
-        {"lat": 48.9055063, "lon": 18.1880321, "z": 319.5},
-        {"lat": 48.905482, "lon": 18.1879989, "z": 318.8}
-      ],
-      "tags": {"highway": "service"}
-    },
-    {
-      "type": "way",
       "id": 41713319,
       "timestamp": "2021-09-27T09:45:48Z",
       "version": 15,
@@ -39867,11 +39851,11 @@
     {
       "type": "way",
       "id": 549579331,
-      "timestamp": "2020-11-09T21:26:48Z",
-      "version": 6,
-      "changeset": 93820861,
-      "user": "radokado",
-      "uid": 513818,
+      "timestamp": "2021-10-25T18:48:04Z",
+      "version": 7,
+      "changeset": 112962234,
+      "user": "vojtechzaboril",
+      "uid": 8971394,
       "nodes": [259251492, 259251494],
       "geometry": [
         {"lat": 48.17102, "lon": 17.0781613, "z": 190.8},
@@ -39882,8 +39866,10 @@
       "tags": {
         "highway": "track",
         "name": "K lomu",
+        "name:etymology:wikidata": "Q188040",
         "surface": "asphalt",
-        "tracktype": "grade1"
+        "tracktype": "grade1",
+        "wikidata": "Q31196465"
       }
     },
     {
