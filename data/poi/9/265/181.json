@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-10-25T23:59:59Z",
-    "timestamp_osm_base": "2021-10-26T04:26:10Z",
+    "timestamp_osm_date": "2021-10-26T23:59:59Z",
+    "timestamp_osm_base": "2021-10-27T04:21:56Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -18339,14 +18339,15 @@
       "id": 1803732027,
       "lat": 46.3948679,
       "lon": 6.735904,
-      "timestamp": "2016-01-25T14:17:10Z",
-      "version": 2,
-      "changeset": 36797297,
+      "timestamp": "2021-10-26T12:43:00Z",
+      "version": 3,
+      "changeset": 112992753,
       "user": "tartiflex",
       "uid": 507417,
       "tags": {
         "name": "Grand Roc",
-        "place": "hamlet"
+        "place": "hamlet",
+        "ref:FR:FANTOIR": "742790105K"
       }
     },
     {
@@ -44075,12 +44076,13 @@
       "id": 5017444733,
       "lat": 46.3700758,
       "lon": 6.7483994,
-      "timestamp": "2021-09-03T11:47:02Z",
-      "version": 2,
-      "changeset": 110674718,
+      "timestamp": "2021-10-26T12:43:00Z",
+      "version": 3,
+      "changeset": 112992753,
       "user": "tartiflex",
       "uid": 507417,
       "tags": {
+        "ele": "1816",
         "mountain_pass": "yes",
         "name": "Col de Parchet",
         "natural": "saddle",
@@ -53479,6 +53481,22 @@
       }
     },
     {
+      "type": "node",
+      "id": 9202509350,
+      "lat": 46.3764946,
+      "lon": 6.7516666,
+      "timestamp": "2021-10-26T12:43:00Z",
+      "version": 1,
+      "changeset": 112992753,
+      "user": "tartiflex",
+      "uid": 507417,
+      "tags": {
+        "man_made": "spring_box",
+        "natural": "spring",
+        "source": "IGN - 2021-06"
+      }
+    },
+    {
       "type": "way",
       "id": 24677528,
       "timestamp": "2019-04-10T15:16:45Z",
@@ -53627,20 +53645,27 @@
     {
       "type": "way",
       "id": 46950385,
-      "timestamp": "2020-05-03T16:28:54Z",
-      "version": 6,
-      "changeset": 84571621,
-      "user": "Geonick",
-      "uid": 6087,
+      "timestamp": "2021-10-26T19:48:56Z",
+      "version": 7,
+      "changeset": 113008458,
+      "user": "benni_75",
+      "uid": 34307,
       "center": {
-        "lat": 46.3233862,
+        "lat": 46.3233904,
         "lon": 6.9616319
       },
       "nodes": [],
       "tags": {
+        "addr:city": "Aigle",
+        "addr:country": "CH",
+        "addr:housenumber": "1",
+        "addr:postcode": "1860",
+        "addr:street": "Avenue des Glariers",
         "name": "Camping De La Piscine",
+        "phone": "+41 24 466 26 60",
         "stars": "3",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "website": "https://campingdelapiscine.ch"
       }
     },
     {
@@ -62700,6 +62725,23 @@
         "amenity": "shelter",
         "building": "yes",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 996586327,
+      "timestamp": "2021-10-26T09:25:06Z",
+      "version": 1,
+      "changeset": 112984224,
+      "user": "tartiflex",
+      "uid": 507417,
+      "center": {
+        "lat": 46.3823117,
+        "lon": 6.6535326
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter"
       }
     }
   ]
