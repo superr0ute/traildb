@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-22T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-26T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1078763,
-      "timestamp": "2021-09-28T22:09:57Z",
-      "version": 331,
-      "changeset": 111839316,
-      "user": "tom_yorados",
-      "uid": 11814080,
+      "timestamp": "2021-10-26T17:58:13Z",
+      "version": 332,
+      "changeset": 113005334,
+      "user": "bibo track",
+      "uid": 3427734,
       "members": [
         {"type": "way", "ref": 934669276, "role": ""},
         {"type": "way", "ref": 683225401, "role": ""},
@@ -321,6 +321,7 @@
         {"type": "way", "ref": 173428465, "role": ""},
         {"type": "way", "ref": 173428462, "role": ""},
         {"type": "way", "ref": 879640398, "role": ""},
+        {"type": "way", "ref": 996684690, "role": ""},
         {"type": "way", "ref": 173482694, "role": ""},
         {"type": "way", "ref": 892716614, "role": ""},
         {"type": "way", "ref": 173482695, "role": ""},
@@ -11401,12 +11402,12 @@
     {
       "type": "way",
       "id": 173482694,
-      "timestamp": "2021-01-06T15:49:49Z",
-      "version": 14,
-      "changeset": 97059730,
-      "user": "enz1an",
-      "uid": 9098126,
-      "nodes": [4872677688, 1987315434],
+      "timestamp": "2021-10-26T17:58:13Z",
+      "version": 15,
+      "changeset": 113005334,
+      "user": "bibo track",
+      "uid": 3427734,
+      "nodes": [4872677688, 4879013619],
       "geometry": [
         {"lat": 44.9587476, "lon": 7.0558365},
         {"lat": 44.9586837, "lon": 7.0558241},
@@ -11426,8 +11427,7 @@
         {"lat": 44.9565003, "lon": 7.0588227},
         {"lat": 44.9559613, "lon": 7.0591231},
         {"lat": 44.9555651, "lon": 7.0593178},
-        {"lat": 44.955441, "lon": 7.0593613},
-        {"lat": 44.9548245, "lon": 7.0595776}
+        {"lat": 44.955441, "lon": 7.0593613}
       ],
       "tags": {
         "cycleway": "no",
@@ -68030,6 +68030,27 @@
         {"lat": 45.4929545, "lon": 7.5413794}
       ],
       "tags": {"highway": "tertiary", "ref": "SP47", "surface": "asphalt"}
+    },
+    {
+      "type": "way",
+      "id": 996684690,
+      "timestamp": "2021-10-26T17:58:13Z",
+      "version": 1,
+      "changeset": 113005334,
+      "user": "bibo track",
+      "uid": 3427734,
+      "nodes": [4879013619, 1987315434],
+      "geometry": [
+        {"lat": 44.955441, "lon": 7.0593613},
+        {"lat": 44.9548245, "lon": 7.0595776}
+      ],
+      "tags": {
+        "cycleway": "no",
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "ref": "SP170",
+        "surface": "asphalt"
+      }
     }
   ]
 }
