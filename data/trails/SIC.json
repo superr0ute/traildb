@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-13T02:43:46Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-28T02:32:08Z"},
   "elements": [
     {
       "type": "relation",
@@ -845,14 +845,16 @@
     {
       "type": "relation",
       "id": 7154524,
-      "timestamp": "2021-05-05T09:28:00Z",
-      "version": 12,
-      "changeset": 104174057,
-      "user": "lucadelu",
-      "uid": 13591,
+      "timestamp": "2021-10-27T13:18:20Z",
+      "version": 13,
+      "changeset": 113037832,
+      "user": "pizzi81",
+      "uid": 13318013,
       "members": [
         {"type": "way", "ref": 486365630, "role": ""},
         {"type": "way", "ref": 104833422, "role": ""},
+        {"type": "way", "ref": 996891438, "role": ""},
+        {"type": "way", "ref": 996891437, "role": ""},
         {"type": "way", "ref": 486365632, "role": ""},
         {"type": "way", "ref": 486365627, "role": ""},
         {"type": "way", "ref": 486365626, "role": ""},
@@ -1673,19 +1675,19 @@
     {
       "type": "way",
       "id": 104833422,
-      "timestamp": "2017-04-12T12:03:21Z",
-      "version": 3,
-      "changeset": 47691895,
-      "user": "Gianfranco2014",
-      "uid": 1928626,
-      "nodes": [1769563232, 4789042151],
+      "timestamp": "2021-10-27T13:18:20Z",
+      "version": 4,
+      "changeset": 113037832,
+      "user": "pizzi81",
+      "uid": 13318013,
+      "nodes": [1769563232, 9204860144],
       "geometry": [
         {"lat": 38.9980756, "lon": 16.5199994, "z": 541},
         {"lat": 38.998145, "lon": 16.5201812, "z": 542.2},
         {"lat": 38.9983207, "lon": 16.5202027, "z": 544.4},
         {"lat": 38.9987274, "lon": 16.5197977, "z": 544.6},
         {"lat": 38.998793, "lon": 16.5197048, "z": 544.1},
-        {"lat": 38.9988861, "lon": 16.5198106, "z": 546}
+        {"lat": 38.998806, "lon": 16.5197196, "z": 544.4}
       ],
       "tags": {"highway": "unclassified"}
     },
@@ -35566,6 +35568,36 @@
         {"lat": 38.5363993, "lon": 16.3770291, "z": 1149}
       ],
       "tags": {"bridge": "yes", "highway": "track", "layer": "1"}
+    },
+    {
+      "type": "way",
+      "id": 996891437,
+      "timestamp": "2021-10-27T13:18:20Z",
+      "version": 1,
+      "changeset": 113037832,
+      "user": "pizzi81",
+      "uid": 13318013,
+      "nodes": [9204860143, 4789042151],
+      "geometry": [
+        {"lat": 38.9988536, "lon": 16.5197737, "z": 545.3},
+        {"lat": 38.9988861, "lon": 16.5198106, "z": 546}
+      ],
+      "tags": {"highway": "unclassified"}
+    },
+    {
+      "type": "way",
+      "id": 996891438,
+      "timestamp": "2021-10-27T13:18:20Z",
+      "version": 1,
+      "changeset": 113037832,
+      "user": "pizzi81",
+      "uid": 13318013,
+      "nodes": [9204860144, 9204860143],
+      "geometry": [
+        {"lat": 38.998806, "lon": 16.5197196, "z": 544.4},
+        {"lat": 38.9988536, "lon": 16.5197737, "z": 545.3}
+      ],
+      "tags": {"highway": "unclassified", "layer": "-1", "tunnel": "yes"}
     }
   ]
 }
