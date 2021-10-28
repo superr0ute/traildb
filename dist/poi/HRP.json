@@ -13041,16 +13041,20 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
+        "@poi": "shelter_wilderness-hut",
         "@distance": 2498.9,
         "@id": "n1368756880",
-        "@changeset": 73741444,
-        "@timestamp": "2019-08-26T09:13:43Z",
-        "@version": 4,
-        "@uid": 7236024,
-        "@user": "Murtin Hasse",
-        "amenity": "shelter",
+        "@changeset": 113022982,
+        "@timestamp": "2021-10-27T07:23:52Z",
+        "@version": 5,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "capacity": 12,
+        "description:fr": "2021-05 : Abri ouvert sans clé Cheminée adaptée à la cuisson Bonne isolation sauf à la porte Table et deux bancs rabattables avec 6 sièges",
+        "fireplace": "yes",
         "name": "Refugi del Forn de Calç",
+        "stove": "no",
+        "tourism": "wilderness_hut",
         "website": "http://www.cee.cat/forn.php"
       },
       "geometry": {
@@ -24262,6 +24266,32 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 723.8,
+        "@id": "w996915715",
+        "@changeset": 113042553,
+        "@timestamp": "2021-10-27T15:16:33Z",
+        "@version": 1,
+        "@uid": 7797848,
+        "@user": "clement42",
+        "building": "yes",
+        "fee": "no",
+        "fireplace": "yes",
+        "name": "La Ruche",
+        "operator": "OCL - LPO",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0186456,
+          43.0360442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 8823.7,
         "@id": "n3893071701",
@@ -26314,14 +26344,15 @@
         "@poi": "shelter_shelter",
         "@distance": 120.8,
         "@id": "n5851215271",
-        "@changeset": 61917394,
-        "@timestamp": "2018-08-23T10:54:13Z",
-        "@version": 1,
-        "@uid": 320101,
-        "@user": "timound",
+        "@changeset": 113022982,
+        "@timestamp": "2021-10-27T07:23:53Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
         "amenity": "shelter",
         "description": "Petite grotte, abris suffisant pour une nuit une personne, très sommaire, sol en terre humide",
-        "name": "Abris sommaire"
+        "name": "Abris sommaire",
+        "shelter_type": "rock_shelter"
       },
       "geometry": {
         "type": "Point",
@@ -31174,6 +31205,27 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_spring",
+        "@distance": 246.3,
+        "@id": "n9102933097",
+        "@changeset": 111362822,
+        "@timestamp": "2021-09-18T06:54:50Z",
+        "@version": 1,
+        "@uid": 11250200,
+        "@user": "Hades34",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2582737,
+          42.8340686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_cave",
         "@distance": 1863.1,
         "@id": "n6546095286",
@@ -35350,27 +35402,6 @@
         "coordinates": [
           -1.5073178,
           43.2205554
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 246.3,
-        "@id": "n9102933097",
-        "@changeset": 111362822,
-        "@timestamp": "2021-09-18T06:54:50Z",
-        "@version": 1,
-        "@uid": 11250200,
-        "@user": "Hades34",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.2582737,
-          42.8340686
         ]
       }
     },
@@ -42505,35 +42536,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 76.7,
-        "@id": "w847370736",
-        "@changeset": 110245363,
-        "@timestamp": "2021-08-25T17:34:49Z",
-        "@version": 3,
-        "@uid": 355857,
-        "@user": "Ones32",
-        "building": "yes",
-        "capacity": 4,
-        "description": "2021-08: Cabane ouverte et propre.\n2018-11 : Cabane rénovée par les chasseurs, toujours ouverte. La cabane est accessible en 4x4 et donc fréquentée. Bonne isolation, une cheminée, un bas flanc. Les bancs et la table se situent dehors.",
-        "ele": 1210,
-        "fireplace": "yes",
-        "name": "Cabane de Lamary",
-        "stove": "no",
-        "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/6504/cabane-non-gardee/Bearn/Cabane-de-Lamary/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.6962211,
-          42.9034616
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "alpine-hut",
         "@distance": 82.3,
         "@id": "w326817179",
@@ -43959,6 +43961,35 @@
         "coordinates": [
           -1.7691562,
           43.3361119
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 76.7,
+        "@id": "w847370736",
+        "@changeset": 110245363,
+        "@timestamp": "2021-08-25T17:34:49Z",
+        "@version": 3,
+        "@uid": 355857,
+        "@user": "Ones32",
+        "building": "yes",
+        "capacity": 4,
+        "description": "2021-08: Cabane ouverte et propre.\n2018-11 : Cabane rénovée par les chasseurs, toujours ouverte. La cabane est accessible en 4x4 et donc fréquentée. Bonne isolation, une cheminée, un bas flanc. Les bancs et la table se situent dehors.",
+        "ele": 1210,
+        "fireplace": "yes",
+        "name": "Cabane de Lamary",
+        "stove": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://www.refuges.info/point/6504/cabane-non-gardee/Bearn/Cabane-de-Lamary/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6962211,
+          42.9034616
         ]
       }
     },
@@ -46993,6 +47024,35 @@
         "coordinates": [
           -1.693411,
           43.3845309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 26.4,
+        "@id": "w390881654",
+        "@changeset": 113022034,
+        "@timestamp": "2021-10-27T07:00:03Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "beds": "0",
+        "building": "yes",
+        "description": "2021-04 : Cabane propriété de la société de chasse de Bera Vera de Bidasoa. Un écriteau en espagnol informe que la cabane peut être utilisée par les promeneurs, pour une journée maximum. A condition de ne pas être occupée par les sociétaires.",
+        "ele": 291,
+        "fireplace": "yes",
+        "name:fr": "Cabane de la société de chasse de Bera Vera de Bidasoa",
+        "shelter_type": "basic_hut",
+        "stove": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6757812,
+          43.2995148
         ]
       }
     },

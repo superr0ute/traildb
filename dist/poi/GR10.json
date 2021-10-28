@@ -6625,6 +6625,31 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 10,
+        "@id": "n968203189",
+        "@changeset": 57324501,
+        "@timestamp": "2018-03-19T17:11:39Z",
+        "@version": 4,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "ele": 1650,
+        "name": "Cabane d Esquierry",
+        "note": "128",
+        "source": "Association \"Refuges et cabanes des Pyrénées\""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4865762,
+          42.7582595
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "place_village",
         "@distance": 735.6,
         "@id": "n420172980",
@@ -11214,31 +11239,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
-        "@distance": 10,
-        "@id": "n968203189",
-        "@changeset": 57324501,
-        "@timestamp": "2018-03-19T17:11:39Z",
-        "@version": 4,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
-        "ele": 1650,
-        "name": "Cabane d Esquierry",
-        "note": "128",
-        "source": "Association \"Refuges et cabanes des Pyrénées\""
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.4865762,
-          42.7582595
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
         "@distance": 3076,
         "@id": "n968203228",
         "@changeset": 67959395,
@@ -12864,12 +12864,12 @@
         "@version": 6,
         "@uid": 16897,
         "@user": "pyrenees",
-        "name": "Cabane de l´Arech",
+        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=533",
+        "tourism": "wilderness_hut",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
         "note": "533",
         "shelter_type": "basic_hut",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
-        "tourism": "wilderness_hut",
-        "website": "https://www.pyrenees-refuges.com/fr/affiche.php?numenr=533"
+        "name": "Cabane de l´Arech"
       },
       "geometry": {
         "type": "Point",
@@ -14708,16 +14708,20 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
+        "@poi": "shelter_wilderness-hut",
         "@distance": 2498.9,
         "@id": "n1368756880",
-        "@changeset": 73741444,
-        "@timestamp": "2019-08-26T09:13:43Z",
-        "@version": 4,
-        "@uid": 7236024,
-        "@user": "Murtin Hasse",
-        "amenity": "shelter",
+        "@changeset": 113022982,
+        "@timestamp": "2021-10-27T07:23:52Z",
+        "@version": 5,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "capacity": 12,
+        "description:fr": "2021-05 : Abri ouvert sans clé Cheminée adaptée à la cuisson Bonne isolation sauf à la porte Table et deux bancs rabattables avec 6 sièges",
+        "fireplace": "yes",
         "name": "Refugi del Forn de Calç",
+        "stove": "no",
+        "tourism": "wilderness_hut",
         "website": "http://www.cee.cat/forn.php"
       },
       "geometry": {
@@ -25084,6 +25088,32 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 734.9,
+        "@id": "w996915715",
+        "@changeset": 113042553,
+        "@timestamp": "2021-10-27T15:16:33Z",
+        "@version": 1,
+        "@uid": 7797848,
+        "@user": "clement42",
+        "building": "yes",
+        "fee": "no",
+        "fireplace": "yes",
+        "name": "La Ruche",
+        "operator": "OCL - LPO",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0186456,
+          43.0360442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 2272.6,
         "@id": "n4010213957",
@@ -25488,6 +25518,27 @@
         "coordinates": [
           -0.0036331,
           42.8727965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 82.2,
+        "@id": "n5026436822",
+        "@changeset": 51001557,
+        "@timestamp": "2017-08-10T13:05:24Z",
+        "@version": 1,
+        "@uid": 227611,
+        "@user": "mavOsaure",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0103142,
+          42.8629645
         ]
       }
     },
@@ -27206,14 +27257,15 @@
         "@poi": "shelter_shelter",
         "@distance": 191.2,
         "@id": "n5851215271",
-        "@changeset": 61917394,
-        "@timestamp": "2018-08-23T10:54:13Z",
-        "@version": 1,
-        "@uid": 320101,
-        "@user": "timound",
+        "@changeset": 113022982,
+        "@timestamp": "2021-10-27T07:23:53Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
         "amenity": "shelter",
         "description": "Petite grotte, abris suffisant pour une nuit une personne, très sommaire, sol en terre humide",
-        "name": "Abris sommaire"
+        "name": "Abris sommaire",
+        "shelter_type": "rock_shelter"
       },
       "geometry": {
         "type": "Point",
@@ -27894,27 +27946,6 @@
         "coordinates": [
           -1.2440212,
           43.1645515
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 82.2,
-        "@id": "n5026436822",
-        "@changeset": 51001557,
-        "@timestamp": "2017-08-10T13:05:24Z",
-        "@version": 1,
-        "@uid": 227611,
-        "@user": "mavOsaure",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.0103142,
-          42.8629645
         ]
       }
     },
@@ -37229,6 +37260,28 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "campsite",
+        "@distance": 117.6,
+        "@id": "n9204398801",
+        "@changeset": 113028071,
+        "@timestamp": "2021-10-27T09:32:15Z",
+        "@version": 1,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "name": "Aire de bivouac du Refuge du Lac d'Oô",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4905017,
+          42.7446139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 414.9,
         "@id": "w63821317",
@@ -37381,23 +37434,27 @@
       "type": "Feature",
       "properties": {
         "@poi": "alpine-hut",
-        "@distance": 109.7,
+        "@distance": 109.9,
         "@id": "w115026754",
-        "@changeset": 8258056,
-        "@timestamp": "2011-05-26T22:39:01Z",
-        "@version": 1,
-        "@uid": 294315,
-        "@user": "hillfex",
+        "@changeset": 113028071,
+        "@timestamp": "2021-10-27T09:32:15Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
         "building": "yes",
+        "capacity": 25,
+        "description": "2021-06 : -point d'eau -Douches -Tarif 1/2 pension 50 euros/pers -Période de gardiennage : 1/05 au 30/10 suivant conditions météo -Aire de bivouac à proximité",
         "ele": 1440,
+        "email": "jeromesalis@wanadoo.fr",
         "name": "Refuge du Lac d'Oô",
+        "phone": "+33 5 61 73 12 29",
         "tourism": "alpine_hut"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.4908532,
-          42.7445492
+          0.4908702,
+          42.7445385
         ]
       }
     },
@@ -41263,35 +41320,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1704.5,
-        "@id": "w304857513",
-        "@changeset": 90903965,
-        "@timestamp": "2020-09-15T06:54:53Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
-        "building": "yes",
-        "description": "2019-1 : Cabane de berger très propre dont une partie est ouverte en dehors de la période d'estive. Il y a 2 petites tables, 4 chaises, 1 poêle mais pas de bat-flanc. Sol en ciment. Prendre des pastilles pour traiter l'eau de la fontaine.",
-        "ele": 1236,
-        "fireplace": "no",
-        "name": "Cabane de Lucharry",
-        "stove": "yes",
-        "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/6117/cabane-non-gardee/Bearn/Cabane-de-Lucharry/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.5651661,
-          42.9259067
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "place_hamlet",
         "@distance": 8,
         "@id": "w168100841",
@@ -41986,59 +42014,6 @@
         "coordinates": [
           0.4049506,
           42.7961655
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 1297.8,
-        "@id": "w323035239",
-        "@changeset": 82382333,
-        "@timestamp": "2020-03-19T09:01:36Z",
-        "@version": 3,
-        "@uid": 318506,
-        "@user": "mkuis",
-        "caravans": "yes",
-        "fee": "yes",
-        "name": "Camping le Rioumajou",
-        "power_supply": "yes",
-        "shower": "yes",
-        "stars": "4",
-        "tents": "yes",
-        "toilets": "yes",
-        "tourism": "camp_site",
-        "website": "https://www.camping-le-rioumajou.com"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.3390568,
-          42.8395368
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 1867.2,
-        "@id": "w323048647",
-        "@changeset": 86210396,
-        "@timestamp": "2020-06-04T21:29:22Z",
-        "@version": 2,
-        "@uid": 8550147,
-        "@user": "swiftlighting",
-        "name": "Camping le Lustou",
-        "stars": "3",
-        "tourism": "camp_site"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.3392662,
-          42.8448478
         ]
       }
     },
@@ -43933,6 +43908,35 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1704.5,
+        "@id": "w304857513",
+        "@changeset": 90903965,
+        "@timestamp": "2020-09-15T06:54:53Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "building": "yes",
+        "description": "2019-1 : Cabane de berger très propre dont une partie est ouverte en dehors de la période d'estive. Il y a 2 petites tables, 4 chaises, 1 poêle mais pas de bat-flanc. Sol en ciment. Prendre des pastilles pour traiter l'eau de la fontaine.",
+        "ele": 1236,
+        "fireplace": "no",
+        "name": "Cabane de Lucharry",
+        "stove": "yes",
+        "tourism": "wilderness_hut",
+        "website": "https://www.refuges.info/point/6117/cabane-non-gardee/Bearn/Cabane-de-Lucharry/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5651661,
+          42.9259067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_wilderness-hut",
         "@distance": 2639.2,
         "@id": "w315867418",
@@ -44545,29 +44549,53 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 1896.2,
-        "@id": "w847403993",
-        "@changeset": 90901557,
-        "@timestamp": "2020-09-15T06:21:45Z",
-        "@version": 1,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "building": "yes",
-        "capacity": 3,
-        "description": "2019-01 : C'est une cabane pastorale ouverte en dehors du temps d'estive. Il y a 3 places de couchage sur bas-flanc en bois, 1 table, 1 banc et 1 poêle.",
-        "ele": 1540,
-        "fireplace": "no",
-        "name": "Cabane de Cayalatte",
-        "stove": "yes",
-        "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/5063/cabane-non-gardee/Bearn/Cabane-de-Cayalatte/"
+        "@poi": "campsite",
+        "@distance": 1297.8,
+        "@id": "w323035239",
+        "@changeset": 82382333,
+        "@timestamp": "2020-03-19T09:01:36Z",
+        "@version": 3,
+        "@uid": 318506,
+        "@user": "mkuis",
+        "caravans": "yes",
+        "fee": "yes",
+        "name": "Camping le Rioumajou",
+        "power_supply": "yes",
+        "shower": "yes",
+        "stars": "4",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "website": "https://www.camping-le-rioumajou.com"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.6008418,
-          42.8835319
+          0.3390568,
+          42.8395368
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 1867.2,
+        "@id": "w323048647",
+        "@changeset": 86210396,
+        "@timestamp": "2020-06-04T21:29:22Z",
+        "@version": 2,
+        "@uid": 8550147,
+        "@user": "swiftlighting",
+        "name": "Camping le Lustou",
+        "stars": "3",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3392662,
+          42.8448478
         ]
       }
     },
@@ -45146,32 +45174,6 @@
         "coordinates": [
           0.4358323,
           42.7594216
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 289.3,
-        "@id": "w956554772",
-        "@changeset": 106712086,
-        "@timestamp": "2021-06-21T11:28:41Z",
-        "@version": 1,
-        "@uid": 11951874,
-        "@user": "gogo25171",
-        "brand": "Lidl",
-        "brand:wikidata": "Q151954",
-        "brand:wikipedia": "en:Lidl",
-        "building": "yes",
-        "name": "Lidl",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.5977714,
-          42.7980735
         ]
       }
     },
@@ -48261,6 +48263,35 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 1896.2,
+        "@id": "w847403993",
+        "@changeset": 90901557,
+        "@timestamp": "2020-09-15T06:21:45Z",
+        "@version": 1,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "building": "yes",
+        "capacity": 3,
+        "description": "2019-01 : C'est une cabane pastorale ouverte en dehors du temps d'estive. Il y a 3 places de couchage sur bas-flanc en bois, 1 table, 1 banc et 1 poêle.",
+        "ele": 1540,
+        "fireplace": "no",
+        "name": "Cabane de Cayalatte",
+        "stove": "yes",
+        "tourism": "wilderness_hut",
+        "website": "https://www.refuges.info/point/5063/cabane-non-gardee/Bearn/Cabane-de-Cayalatte/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6008418,
+          42.8835319
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 1332.4,
         "@id": "w847452450",
@@ -48600,6 +48631,32 @@
         "coordinates": [
           -0.335863,
           42.9642177
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 289.3,
+        "@id": "w956554772",
+        "@changeset": 106712086,
+        "@timestamp": "2021-06-21T11:28:41Z",
+        "@version": 1,
+        "@uid": 11951874,
+        "@user": "gogo25171",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "name": "Lidl",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5977714,
+          42.7980735
         ]
       }
     },
@@ -49438,27 +49495,6 @@
         "coordinates": [
           0.9259165,
           42.8537111
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 1683,
-        "@id": "n8968612847",
-        "@changeset": 108946591,
-        "@timestamp": "2021-07-31T14:52:09Z",
-        "@version": 1,
-        "@uid": 11285694,
-        "@user": "jean-ray2",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.8732214,
-          42.8503898
         ]
       }
     },
@@ -50655,6 +50691,27 @@
         "coordinates": [
           -1.4128918,
           43.3554658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 1683,
+        "@id": "n8968612847",
+        "@changeset": 108946591,
+        "@timestamp": "2021-07-31T14:52:09Z",
+        "@version": 1,
+        "@uid": 11285694,
+        "@user": "jean-ray2",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.8732214,
+          42.8503898
         ]
       }
     },
@@ -52450,6 +52507,35 @@
         "coordinates": [
           -1.693411,
           43.3845309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1348.8,
+        "@id": "w390881654",
+        "@changeset": 113022034,
+        "@timestamp": "2021-10-27T07:00:03Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "beds": "0",
+        "building": "yes",
+        "description": "2021-04 : Cabane propriété de la société de chasse de Bera Vera de Bidasoa. Un écriteau en espagnol informe que la cabane peut être utilisée par les promeneurs, pour une journée maximum. A condition de ne pas être occupée par les sociétaires.",
+        "ele": 291,
+        "fireplace": "yes",
+        "name:fr": "Cabane de la société de chasse de Bera Vera de Bidasoa",
+        "shelter_type": "basic_hut",
+        "stove": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6757812,
+          43.2995148
         ]
       }
     },

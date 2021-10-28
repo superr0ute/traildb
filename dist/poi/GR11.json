@@ -10771,6 +10771,32 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "peak_peak",
+        "@distance": 1403,
+        "@id": "n1250022420",
+        "@changeset": 85587242,
+        "@timestamp": "2020-05-22T05:50:04Z",
+        "@version": 8,
+        "@uid": 3148901,
+        "@user": "Seraq",
+        "ele": 3022,
+        "name": "Punta de las Olas",
+        "natural": "peak",
+        "source": "Instituto Geográfico Nacional",
+        "source:date": "201011",
+        "wikidata": "Q11943985"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0534743,
+          42.6621893
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 2430.1,
         "@id": "n968205089",
@@ -12447,16 +12473,20 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
+        "@poi": "shelter_wilderness-hut",
         "@distance": 72.7,
         "@id": "n1368756880",
-        "@changeset": 73741444,
-        "@timestamp": "2019-08-26T09:13:43Z",
-        "@version": 4,
-        "@uid": 7236024,
-        "@user": "Murtin Hasse",
-        "amenity": "shelter",
+        "@changeset": 113022982,
+        "@timestamp": "2021-10-27T07:23:52Z",
+        "@version": 5,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "capacity": 12,
+        "description:fr": "2021-05 : Abri ouvert sans clé Cheminée adaptée à la cuisson Bonne isolation sauf à la porte Table et deux bancs rabattables avec 6 sièges",
+        "fireplace": "yes",
         "name": "Refugi del Forn de Calç",
+        "stove": "no",
+        "tourism": "wilderness_hut",
         "website": "http://www.cee.cat/forn.php"
       },
       "geometry": {
@@ -15055,26 +15085,21 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "peak_peak",
-        "@distance": 1403,
-        "@id": "n1250022420",
-        "@changeset": 85587242,
-        "@timestamp": "2020-05-22T05:50:04Z",
-        "@version": 8,
-        "@uid": 3148901,
-        "@user": "Seraq",
-        "ele": 3022,
-        "name": "Punta de las Olas",
-        "natural": "peak",
-        "source": "Instituto Geográfico Nacional",
-        "source:date": "201011",
-        "wikidata": "Q11943985"
+        "@poi": "shelter_cave",
+        "@distance": 363.9,
+        "@id": "n2387382351",
+        "@changeset": 16986372,
+        "@timestamp": "2013-07-17T12:00:03Z",
+        "@version": 1,
+        "@uid": 538899,
+        "@user": "dalop",
+        "natural": "cave_entrance"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.0534743,
-          42.6621893
+          -0.1041156,
+          42.6572298
         ]
       }
     },
@@ -21172,27 +21197,6 @@
         "coordinates": [
           -0.9231024,
           42.8608509
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_cave",
-        "@distance": 363.9,
-        "@id": "n2387382351",
-        "@changeset": 16986372,
-        "@timestamp": "2013-07-17T12:00:03Z",
-        "@version": 1,
-        "@uid": 538899,
-        "@user": "dalop",
-        "natural": "cave_entrance"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.1041156,
-          42.6572298
         ]
       }
     },
@@ -28213,14 +28217,15 @@
         "@poi": "shelter_shelter",
         "@distance": 2304.3,
         "@id": "n5851215271",
-        "@changeset": 61917394,
-        "@timestamp": "2018-08-23T10:54:13Z",
-        "@version": 1,
-        "@uid": 320101,
-        "@user": "timound",
+        "@changeset": 113022982,
+        "@timestamp": "2021-10-27T07:23:53Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
         "amenity": "shelter",
         "description": "Petite grotte, abris suffisant pour une nuit une personne, très sommaire, sol en terre humide",
-        "name": "Abris sommaire"
+        "name": "Abris sommaire",
+        "shelter_type": "rock_shelter"
       },
       "geometry": {
         "type": "Point",
@@ -33579,6 +33584,27 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_spring",
+        "@distance": 3084.2,
+        "@id": "n9102933097",
+        "@changeset": 111362822,
+        "@timestamp": "2021-09-18T06:54:50Z",
+        "@version": 1,
+        "@uid": 11250200,
+        "@user": "Hades34",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2582737,
+          42.8340686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
         "@distance": 985.5,
         "@id": "n6537456581",
         "@changeset": 71108922,
@@ -34630,6 +34656,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_cave",
+        "@distance": 151.9,
+        "@id": "n7552148179",
+        "@changeset": 85661995,
+        "@timestamp": "2020-05-23T18:27:32Z",
+        "@version": 1,
+        "@uid": 3148901,
+        "@user": "Seraq",
+        "name": "Abrigo de Pastores",
+        "natural": "cave_entrance",
+        "source": "Instituto Geográfico Nacional"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0118442,
+          42.6489216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "peak_peak",
         "@distance": 1069.3,
         "@id": "n3708102403",
@@ -35371,20 +35420,20 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_drinking-water",
-        "@distance": 1310.3,
+        "@distance": 1304.6,
         "@id": "n4073381657",
-        "@changeset": 37999098,
-        "@timestamp": "2016-03-22T13:31:09Z",
-        "@version": 1,
-        "@uid": 605366,
-        "@user": "EliziR",
+        "@changeset": 113046174,
+        "@timestamp": "2021-10-27T16:34:27Z",
+        "@version": 2,
+        "@uid": 10462945,
+        "@user": "Arriskeus",
         "amenity": "drinking_water"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.5990741,
-          42.5301261
+          1.5990632,
+          42.5301921
         ]
       }
     },
@@ -37445,27 +37494,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_spring",
-        "@distance": 3084.2,
-        "@id": "n9102933097",
-        "@changeset": 111362822,
-        "@timestamp": "2021-09-18T06:54:50Z",
-        "@version": 1,
-        "@uid": 11250200,
-        "@user": "Hades34",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.2582737,
-          42.8340686
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "shelter_cave",
         "@distance": 2946,
         "@id": "n9116430372",
@@ -37566,6 +37594,30 @@
         "coordinates": [
           -0.3292061,
           42.8460915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 2605.4,
+        "@id": "n9204099992",
+        "@changeset": 113022502,
+        "@timestamp": "2021-10-27T07:11:11Z",
+        "@version": 1,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "ele": 2331,
+        "name:fr": "Source de Aguas Tuertas",
+        "natural": "spring",
+        "website": "https://www.refuges.info/point/7901/point-d-eau/Aragon/Source-de-Aguas-Tuertas-barranco-de-Salarons---cirque-de-Carriata/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.06788,
+          42.67485
         ]
       }
     },
@@ -37767,29 +37819,6 @@
         "coordinates": [
           -0.1240384,
           42.6774738
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_cave",
-        "@distance": 151.9,
-        "@id": "n7552148179",
-        "@changeset": 85661995,
-        "@timestamp": "2020-05-23T18:27:32Z",
-        "@version": 1,
-        "@uid": 3148901,
-        "@user": "Seraq",
-        "name": "Abrigo de Pastores",
-        "natural": "cave_entrance",
-        "source": "Instituto Geográfico Nacional"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.0118442,
-          42.6489216
         ]
       }
     },
@@ -44469,32 +44498,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "alpine-hut",
-        "@distance": 98.8,
-        "@id": "w939636471",
-        "@changeset": 104221468,
-        "@timestamp": "2021-05-06T05:24:21Z",
-        "@version": 1,
-        "@uid": 3148901,
-        "@user": "Seraq",
-        "building": "yes",
-        "capacity": 4,
-        "description": "Cabaña en mal estado, pequeña y algo sucia. No tiene puerta, en su lugar hay un doble techo de tienda campaña. Tiene una chimenea muy pequeña, agua en las proximidades al igual que leña.",
-        "ele": 1800,
-        "name": "Refugio de Fuen Blanca",
-        "tourism": "alpine_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.0591731,
-          42.6424122
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 17.7,
         "@id": "n7850722607",
@@ -45521,6 +45524,32 @@
         "coordinates": [
           -0.6882294,
           42.8536858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "alpine-hut",
+        "@distance": 98.8,
+        "@id": "w939636471",
+        "@changeset": 104221468,
+        "@timestamp": "2021-05-06T05:24:21Z",
+        "@version": 1,
+        "@uid": 3148901,
+        "@user": "Seraq",
+        "building": "yes",
+        "capacity": 4,
+        "description": "Cabaña en mal estado, pequeña y algo sucia. No tiene puerta, en su lugar hay un doble techo de tienda campaña. Tiene una chimenea muy pequeña, agua en las proximidades al igual que leña.",
+        "ele": 1800,
+        "name": "Refugio de Fuen Blanca",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0591731,
+          42.6424122
         ]
       }
     },
@@ -49207,6 +49236,35 @@
         "coordinates": [
           -1.693411,
           43.3845309
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2167.4,
+        "@id": "w390881654",
+        "@changeset": 113022034,
+        "@timestamp": "2021-10-27T07:00:03Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "beds": "0",
+        "building": "yes",
+        "description": "2021-04 : Cabane propriété de la société de chasse de Bera Vera de Bidasoa. Un écriteau en espagnol informe que la cabane peut être utilisée par les promeneurs, pour une journée maximum. A condition de ne pas être occupée par les sociétaires.",
+        "ele": 291,
+        "fireplace": "yes",
+        "name:fr": "Cabane de la société de chasse de Bera Vera de Bidasoa",
+        "shelter_type": "basic_hut",
+        "stove": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6757812,
+          43.2995148
         ]
       }
     },
