@@ -15303,11 +15303,15 @@
         "@poi": "water_spring",
         "@distance": 77.9,
         "@id": "n6544945988",
-        "@changeset": 71218101,
-        "@timestamp": "2019-06-13T13:08:44Z",
-        "@version": 1,
-        "@uid": 10067215,
-        "@user": "opencarpatia",
+        "@changeset": 112995035,
+        "@timestamp": "2021-10-26T13:40:09Z",
+        "@version": 2,
+        "@uid": 10483128,
+        "@user": "Agronom1983",
+        "drinking_water": "no",
+        "intermittent": "yes",
+        "name": "Не питьевой",
+        "name:en": "Non drinkable",
         "natural": "spring"
       },
       "geometry": {
@@ -17796,31 +17800,6 @@
         "coordinates": [
           24.1743565,
           48.0111771
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "mountain-pass",
-        "@distance": 66.3,
-        "@id": "n4213859697",
-        "@changeset": 90263348,
-        "@timestamp": "2020-09-01T20:08:56Z",
-        "@version": 3,
-        "@uid": 7272786,
-        "@user": "Viterall",
-        "name": "полонина Скопєска",
-        "name:en": "polonyna Skopyeska",
-        "name:pl": "Połonina Skopeska",
-        "name:ru": "полонина Скопеска",
-        "natural": "saddle"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.4546162,
-          48.164246
         ]
       }
     },
@@ -20850,27 +20829,6 @@
         "coordinates": [
           24.6191679,
           48.0651556
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 1.6,
-        "@id": "n5940675288",
-        "@changeset": 63064484,
-        "@timestamp": "2018-09-30T13:54:16Z",
-        "@version": 1,
-        "@uid": 8838303,
-        "@user": "Yuriy Karebin",
-        "tourism": "camp_site"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.6184842,
-          48.0655406
         ]
       }
     },
@@ -25889,6 +25847,52 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_spring",
+        "@distance": 227,
+        "@id": "n9202625892",
+        "@changeset": 112995868,
+        "@timestamp": "2021-10-26T13:58:39Z",
+        "@version": 1,
+        "@uid": 10483128,
+        "@user": "Agronom1983",
+        "drinking_water": "yes",
+        "fixme": "Проверить",
+        "intermittent": "yes",
+        "name": "Ненадежный",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.7143671,
+          48.4721004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 241.4,
+        "@id": "n9208177933",
+        "@changeset": 113091798,
+        "@timestamp": "2021-10-28T17:25:26Z",
+        "@version": 1,
+        "@uid": 357342,
+        "@user": "zlyisalat",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.3608536,
+          48.5429339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 4642.4,
         "@id": "w361977793",
@@ -28143,29 +28147,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_spring",
-        "@distance": 1416,
-        "@id": "n6488290342",
-        "@changeset": 70481311,
-        "@timestamp": "2019-05-21T14:34:37Z",
-        "@version": 1,
-        "@uid": 4521425,
-        "@user": "Kolyan_ilia",
-        "intermittent": "no",
-        "name": "Джерело",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.2499375,
-          48.2301027
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
         "@distance": 1475.3,
         "@id": "n9105211722",
         "@changeset": 111404637,
@@ -28223,6 +28204,29 @@
         "coordinates": [
           24.6299938,
           48.0446096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 1416,
+        "@id": "n6488290342",
+        "@changeset": 70481311,
+        "@timestamp": "2019-05-21T14:34:37Z",
+        "@version": 1,
+        "@uid": 4521425,
+        "@user": "Kolyan_ilia",
+        "intermittent": "no",
+        "name": "Джерело",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2499375,
+          48.2301027
         ]
       }
     },

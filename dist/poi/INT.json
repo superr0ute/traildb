@@ -11881,12 +11881,13 @@
         "@poi": "peak_peak",
         "@distance": 3029.5,
         "@id": "n278478779",
-        "@changeset": 57075015,
-        "@timestamp": "2018-03-11T08:12:40Z",
-        "@version": 5,
-        "@uid": 250196,
-        "@user": "adivik2000",
+        "@changeset": 112984277,
+        "@timestamp": "2021-10-26T09:26:17Z",
+        "@version": 6,
+        "@uid": 918586,
+        "@user": "Binnette",
         "accuracy": "minutes",
+        "ele": 458,
         "gns_ref": "-780644",
         "name": "הר מהלל",
         "name:en": "Har Mehallel",
@@ -26109,15 +26110,18 @@
         "@poi": "shelter_shelter",
         "@distance": 150.2,
         "@id": "w667008715",
-        "@changeset": 85399531,
-        "@timestamp": "2020-05-18T19:05:03Z",
-        "@version": 5,
+        "@changeset": 113006655,
+        "@timestamp": "2021-10-26T18:45:25Z",
+        "@version": 6,
         "@uid": 3060282,
         "@user": "Joni Gritzner",
         "amenity": "shelter",
         "building": "yes",
         "colour": "brown",
-        "height": "3.5"
+        "height": "3.5",
+        "roof:colour": "brown",
+        "roof:material": "wood",
+        "roof:shape": "hipped"
       },
       "geometry": {
         "type": "Point",
@@ -26133,14 +26137,15 @@
         "@poi": "shelter_shelter",
         "@distance": 126.2,
         "@id": "w667008747",
-        "@changeset": 85399531,
-        "@timestamp": "2020-05-18T19:05:03Z",
-        "@version": 4,
+        "@changeset": 113006227,
+        "@timestamp": "2021-10-26T18:30:24Z",
+        "@version": 5,
         "@uid": 3060282,
         "@user": "Joni Gritzner",
         "amenity": "shelter",
         "building": "yes",
         "building:levels": "1",
+        "colour": "brown",
         "height": "1.8"
       },
       "geometry": {
@@ -26195,28 +26200,6 @@
         "coordinates": [
           35.2696612,
           31.3054848
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 35.2,
-        "@id": "w813966588",
-        "@changeset": 86367902,
-        "@timestamp": "2020-06-08T18:41:14Z",
-        "@version": 1,
-        "@uid": 3060282,
-        "@user": "Joni Gritzner",
-        "amenity": "shelter",
-        "building": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.2695487,
-          31.3047955
         ]
       }
     },
@@ -30998,11 +30981,12 @@
         "@poi": "peak_peak",
         "@distance": 3087.5,
         "@id": "n278477445",
-        "@changeset": 96391606,
-        "@timestamp": "2020-12-24T14:22:22Z",
-        "@version": 6,
-        "@uid": 1772368,
-        "@user": "pizzaiolo",
+        "@changeset": 112984317,
+        "@timestamp": "2021-10-26T09:27:16Z",
+        "@version": 7,
+        "@uid": 918586,
+        "@user": "Binnette",
+        "ele": 936,
         "gns_ref": "-780435",
         "name": "הר כנען",
         "name:en": "Har Kena`an",
@@ -41068,6 +41052,31 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 7090.8,
+        "@id": "n5058353923",
+        "@changeset": 58263979,
+        "@timestamp": "2018-04-20T13:07:37Z",
+        "@version": 3,
+        "@uid": 4860517,
+        "@user": "سامبا",
+        "addr:city": "بيت لحم",
+        "name": "سوبرماركت باسم",
+        "name:ar": "سوبرماركت باسم",
+        "name:en": "Basim Supermarket",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2115236,
+          31.7029261
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "place_village",
         "@distance": 3698.4,
         "@id": "n434306573",
@@ -45204,31 +45213,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
-        "@distance": 7090.8,
-        "@id": "n5058353923",
-        "@changeset": 58263979,
-        "@timestamp": "2018-04-20T13:07:37Z",
-        "@version": 3,
-        "@uid": 4860517,
-        "@user": "سامبا",
-        "addr:city": "بيت لحم",
-        "name": "سوبرماركت باسم",
-        "name:ar": "سوبرماركت باسم",
-        "name:en": "Basim Supermarket",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.2115236,
-          31.7029261
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
         "@distance": 5404.2,
         "@id": "n5061355866",
         "@changeset": 52025378,
@@ -46242,6 +46226,31 @@
         "coordinates": [
           35.182844,
           31.688953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 7750.3,
+        "@id": "n5903556217",
+        "@changeset": 98472904,
+        "@timestamp": "2021-02-01T02:04:01Z",
+        "@version": 3,
+        "@uid": 11617335,
+        "@user": "goldenking05",
+        "name": "خورشيد",
+        "name:ar": "خورشيد",
+        "name:en": "Sun",
+        "name:he": "שמש",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2469153,
+          31.7821366
         ]
       }
     },
@@ -51365,31 +51374,6 @@
         "coordinates": [
           35.4423736,
           32.979027
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 7750.3,
-        "@id": "n5903556217",
-        "@changeset": 98472904,
-        "@timestamp": "2021-02-01T02:04:01Z",
-        "@version": 3,
-        "@uid": 11617335,
-        "@user": "goldenking05",
-        "name": "خورشيد",
-        "name:ar": "خورشيد",
-        "name:en": "Sun",
-        "name:he": "שמש",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.2469153,
-          31.7821366
         ]
       }
     },
@@ -57957,11 +57941,11 @@
         "@poi": "place_village",
         "@distance": 2656.1,
         "@id": "w121526552",
-        "@changeset": 105562569,
-        "@timestamp": "2021-05-30T10:49:01Z",
-        "@version": 17,
-        "@uid": 13435713,
-        "@user": "Tsahi Ben-Ami",
+        "@changeset": 112974869,
+        "@timestamp": "2021-10-26T04:57:34Z",
+        "@version": 18,
+        "@uid": 189946,
+        "@user": "BMM994",
         "landuse": "residential",
         "name": "הר גילה",
         "name:cs": "Har Gilo",
@@ -63734,13 +63718,13 @@
       "type": "Feature",
       "properties": {
         "@poi": "place_village",
-        "@distance": 960.1,
+        "@distance": 956.2,
         "@id": "w91312309",
-        "@changeset": 101942398,
-        "@timestamp": "2021-03-29T22:12:04Z",
-        "@version": 6,
-        "@uid": 11422772,
-        "@user": "Vejoson",
+        "@changeset": 113071641,
+        "@timestamp": "2021-10-28T08:43:54Z",
+        "@version": 7,
+        "@uid": 189946,
+        "@user": "BMM994",
         "landuse": "residential",
         "name": "הסוללים",
         "name:en": "HaSollelim",
@@ -63751,8 +63735,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.2370413,
-          32.7509278
+          35.2369124,
+          32.7509471
         ]
       }
     },
@@ -63760,11 +63744,11 @@
       "type": "Feature",
       "properties": {
         "@poi": "place_village",
-        "@distance": 2548.1,
+        "@distance": 2548.4,
         "@id": "w91467018",
-        "@changeset": 110977335,
-        "@timestamp": "2021-09-09T13:28:25Z",
-        "@version": 11,
+        "@changeset": 113078144,
+        "@timestamp": "2021-10-28T11:20:29Z",
+        "@version": 12,
         "@uid": 189946,
         "@user": "BMM994",
         "landuse": "residential",
@@ -63778,7 +63762,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.2453496,
+          35.2453312,
           32.7838006
         ]
       }
@@ -74661,11 +74645,11 @@
         "@poi": "place_village",
         "@distance": 453.9,
         "@id": "w698621918",
-        "@changeset": 101942398,
-        "@timestamp": "2021-03-29T22:12:04Z",
-        "@version": 4,
-        "@uid": 11422772,
-        "@user": "Vejoson",
+        "@changeset": 113072368,
+        "@timestamp": "2021-10-28T09:04:08Z",
+        "@version": 5,
+        "@uid": 189946,
+        "@user": "BMM994",
         "landuse": "residential",
         "name": "הרדוף",
         "name:ar": "هردوف",
@@ -82206,9 +82190,9 @@
         "@poi": "place_village",
         "@distance": 469.4,
         "@id": "w30678665",
-        "@changeset": 109845560,
-        "@timestamp": "2021-08-18T04:50:04Z",
-        "@version": 14,
+        "@changeset": 112996905,
+        "@timestamp": "2021-10-26T14:21:11Z",
+        "@version": 15,
         "@uid": 5556216,
         "@user": "VELOCITY_club",
         "landuse": "residential",
