@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-24T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-29T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -68,11 +68,11 @@
     {
       "type": "relation",
       "id": 11225404,
-      "timestamp": "2021-07-09T10:05:22Z",
-      "version": 8,
-      "changeset": 107693279,
-      "user": "fghj753",
-      "uid": 10394095,
+      "timestamp": "2021-10-29T21:55:55Z",
+      "version": 9,
+      "changeset": 113142822,
+      "user": "Mark Clayton",
+      "uid": 12191449,
       "members": [
         {"type": "way", "ref": 82583153, "role": ""},
         {"type": "way", "ref": 550727805, "role": ""},
@@ -156,8 +156,7 @@
         {"type": "way", "ref": 908555042, "role": ""},
         {"type": "way", "ref": 908555040, "role": ""},
         {"type": "way", "ref": 91584114, "role": ""},
-        {"type": "way", "ref": 818255218, "role": ""},
-        {"type": "way", "ref": 5746562, "role": ""},
+        {"type": "way", "ref": 997577908, "role": ""},
         {"type": "way", "ref": 91494272, "role": ""},
         {"type": "way", "ref": 91494282, "role": ""},
         {"type": "way", "ref": 818255216, "role": ""},
@@ -18557,7 +18556,7 @@
         {"lat": 48.4809875, "lon": -122.4761595},
         {"lat": 48.4811743, "lon": -122.4763676},
         {"lat": 48.4814427, "lon": -122.4765467},
-        {"lat": 48.4819944, "lon": -122.4768347},
+        {"lat": 48.4820184, "lon": -122.4768749},
         {"lat": 48.4827799, "lon": -122.4773046},
         {"lat": 48.4835629, "lon": -122.4777782},
         {"lat": 48.4843405, "lon": -122.4782256},
@@ -45409,30 +45408,6 @@
     },
     {
       "type": "way",
-      "id": 5746562,
-      "timestamp": "2010-12-24T21:01:33Z",
-      "version": 2,
-      "changeset": 6757305,
-      "user": "lyx",
-      "uid": 28237,
-      "nodes": [43812064, 43812066],
-      "geometry": [
-        {"lat": 48.8236716, "lon": -115.2618866},
-        {"lat": 48.8239972, "lon": -115.2626402}
-      ],
-      "tags": {
-        "highway": "unclassified",
-        "source": "Bing",
-        "tiger:cfcc": "A41",
-        "tiger:county": "Lincoln, MT",
-        "tiger:separated": "no",
-        "tiger:source": "tiger_import_dch_v0.6_20070813",
-        "tiger:tlid": "169648919:169670206:169648818:169648780",
-        "tiger:upload_uuid": "bulk_upload.pl-20af4532-29ff-4cff-b784-660aed1052a0"
-      }
-    },
-    {
-      "type": "way",
       "id": 5747095,
       "timestamp": "2020-06-22T03:34:15Z",
       "version": 3,
@@ -46444,11 +46419,11 @@
     {
       "type": "way",
       "id": 5758940,
-      "timestamp": "2014-02-05T04:49:35Z",
-      "version": 22,
-      "changeset": 20385659,
-      "user": "firmada",
-      "uid": 1884850,
+      "timestamp": "2021-10-29T21:55:55Z",
+      "version": 23,
+      "changeset": 113142822,
+      "user": "Mark Clayton",
+      "uid": 12191449,
       "nodes": [44234097, 43767862],
       "geometry": [
         {"lat": 48.8856832, "lon": -115.0551755},
@@ -46490,6 +46465,7 @@
         {"lat": 48.902713, "lon": -115.0574652},
         {"lat": 48.9037958, "lon": -115.0574652},
         {"lat": 48.9042333, "lon": -115.0574652},
+        {"lat": 48.9045844, "lon": -115.057459},
         {"lat": 48.905116, "lon": -115.0574503}
       ],
       "tags": {
@@ -59988,11 +59964,11 @@
     {
       "type": "way",
       "id": 818255216,
-      "timestamp": "2020-06-22T03:34:14Z",
-      "version": 1,
-      "changeset": 86952613,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2021-10-29T21:55:55Z",
+      "version": 2,
+      "changeset": 113142822,
+      "user": "Mark Clayton",
+      "uid": 12191449,
       "nodes": [44192710, 43812079],
       "geometry": [
         {"lat": 48.8183674, "lon": -115.2901476},
@@ -60028,12 +60004,15 @@
         {"lat": 48.8269142, "lon": -115.2739396},
         {"lat": 48.8272465, "lon": -115.2733488},
         {"lat": 48.8275559, "lon": -115.2725784},
+        {"lat": 48.8275885, "lon": -115.272424},
+        {"lat": 48.8276664, "lon": -115.2720557},
         {"lat": 48.827793, "lon": -115.2714577},
+        {"lat": 48.8278598, "lon": -115.2713098},
         {"lat": 48.8279922, "lon": -115.271018}
       ],
       "tags": {
-        "highway": "unclassified",
-        "name": "Yaak Valley-Libby Dam Road East",
+        "highway": "secondary",
+        "name": "Old MT 37 / Forest Road 228",
         "name_1": "National Forest Development Road 92",
         "source": "Bing",
         "tiger:cfcc": "A41",
@@ -60043,41 +60022,6 @@
         "tiger:name_direction_suffix_1": "E",
         "tiger:name_type": "Rd",
         "tiger:name_type_1": "Rd"
-      }
-    },
-    {
-      "type": "way",
-      "id": 818255218,
-      "timestamp": "2021-02-18T22:38:55Z",
-      "version": 2,
-      "changeset": 99551528,
-      "user": "Mark Clayton",
-      "uid": 12191449,
-      "nodes": [44255853, 43812064],
-      "geometry": [
-        {"lat": 48.8277285, "lon": -115.2477342},
-        {"lat": 48.8277085, "lon": -115.2479871},
-        {"lat": 48.8276989, "lon": -115.2482348},
-        {"lat": 48.8276967, "lon": -115.2486401},
-        {"lat": 48.8277096, "lon": -115.2492357},
-        {"lat": 48.8277277, "lon": -115.2501609},
-        {"lat": 48.8277787, "lon": -115.2519594},
-        {"lat": 48.8275746, "lon": -115.2530475},
-        {"lat": 48.8271231, "lon": -115.2543743},
-        {"lat": 48.8265543, "lon": -115.2558435},
-        {"lat": 48.8261582, "lon": -115.2572446},
-        {"lat": 48.825871, "lon": -115.258166},
-        {"lat": 48.8255633, "lon": -115.2587022},
-        {"lat": 48.8248074, "lon": -115.2596922},
-        {"lat": 48.8236716, "lon": -115.2618866}
-      ],
-      "tags": {
-        "highway": "primary",
-        "ref": "MT 37",
-        "source": "Bing",
-        "tiger:cfcc": "A31",
-        "tiger:county": "Lincoln, MT",
-        "tiger:name_base": "Mount Hwy 37"
       }
     },
     {
@@ -71654,16 +71598,16 @@
     {
       "type": "way",
       "id": 91494272,
-      "timestamp": "2011-01-08T18:01:50Z",
-      "version": 2,
-      "changeset": 6906833,
-      "user": "lyx",
-      "uid": 28237,
+      "timestamp": "2021-10-29T21:55:55Z",
+      "version": 3,
+      "changeset": 113142822,
+      "user": "Mark Clayton",
+      "uid": 12191449,
       "nodes": [43812066, 43812074],
       "geometry": [
-        {"lat": 48.8239972, "lon": -115.2626402},
+        {"lat": 48.8240039, "lon": -115.2626441},
         {"lat": 48.8263995, "lon": -115.2676483},
-        {"lat": 48.8279386, "lon": -115.2709177}
+        {"lat": 48.8279186, "lon": -115.2708744}
       ],
       "tags": {
         "bridge": "yes",
@@ -71672,40 +71616,33 @@
         "gnis:created": "02/26/1998",
         "gnis:feature_id": "1782348",
         "gnis:state_id": "30",
-        "highway": "unclassified",
+        "highway": "secondary",
         "layer": "1",
         "name": "Koocanusa Bridge",
         "source": "Bing",
         "tiger:cfcc": "A41",
-        "tiger:county": "Lincoln, MT",
-        "tiger:separated": "no",
-        "tiger:source": "tiger_import_dch_v0.6_20070813",
-        "tiger:tlid": "169648919:169670206:169648818:169648780",
-        "tiger:upload_uuid": "bulk_upload.pl-20af4532-29ff-4cff-b784-660aed1052a0"
+        "tiger:county": "Lincoln, MT"
       }
     },
     {
       "type": "way",
       "id": 91494282,
-      "timestamp": "2010-12-24T21:01:31Z",
-      "version": 1,
-      "changeset": 6757305,
-      "user": "lyx",
-      "uid": 28237,
+      "timestamp": "2021-10-29T21:55:55Z",
+      "version": 2,
+      "changeset": 113142822,
+      "user": "Mark Clayton",
+      "uid": 12191449,
       "nodes": [43812074, 43812079],
       "geometry": [
-        {"lat": 48.8279386, "lon": -115.2709177},
+        {"lat": 48.8279186, "lon": -115.2708744},
+        {"lat": 48.8279389, "lon": -115.2709141},
         {"lat": 48.8279922, "lon": -115.271018}
       ],
       "tags": {
-        "highway": "unclassified",
+        "highway": "secondary",
         "source": "Bing",
         "tiger:cfcc": "A41",
-        "tiger:county": "Lincoln, MT",
-        "tiger:separated": "no",
-        "tiger:source": "tiger_import_dch_v0.6_20070813",
-        "tiger:tlid": "169648919:169670206:169648818:169648780",
-        "tiger:upload_uuid": "bulk_upload.pl-20af4532-29ff-4cff-b784-660aed1052a0"
+        "tiger:county": "Lincoln, MT"
       }
     },
     {
@@ -72778,6 +72715,60 @@
         "tiger:cfcc": "A51",
         "tiger:county": "Skagit, WA",
         "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 997577908,
+      "timestamp": "2021-10-29T21:55:55Z",
+      "version": 1,
+      "changeset": 113142822,
+      "user": "Mark Clayton",
+      "uid": 12191449,
+      "nodes": [44255853, 9211144602],
+      "geometry": [
+        {"lat": 48.8277285, "lon": -115.2477342},
+        {"lat": 48.8277085, "lon": -115.2479871},
+        {"lat": 48.8276989, "lon": -115.2482348},
+        {"lat": 48.8276967, "lon": -115.2486401},
+        {"lat": 48.8277096, "lon": -115.2492357},
+        {"lat": 48.8277277, "lon": -115.2501609},
+        {"lat": 48.8277787, "lon": -115.2519594},
+        {"lat": 48.8275746, "lon": -115.2530475},
+        {"lat": 48.827473, "lon": -115.2534217},
+        {"lat": 48.8273439, "lon": -115.2537813},
+        {"lat": 48.8271779, "lon": -115.2541619},
+        {"lat": 48.8269627, "lon": -115.2546452},
+        {"lat": 48.8267598, "lon": -115.2551216},
+        {"lat": 48.8266168, "lon": -115.2554741},
+        {"lat": 48.8265184, "lon": -115.255759},
+        {"lat": 48.8264323, "lon": -115.2560509},
+        {"lat": 48.8263217, "lon": -115.2564502},
+        {"lat": 48.8261664, "lon": -115.2570316},
+        {"lat": 48.826028, "lon": -115.257536},
+        {"lat": 48.8259143, "lon": -115.2579236},
+        {"lat": 48.8258082, "lon": -115.2582318},
+        {"lat": 48.8257098, "lon": -115.25847},
+        {"lat": 48.8255284, "lon": -115.2587852},
+        {"lat": 48.825161, "lon": -115.2592895},
+        {"lat": 48.8247752, "lon": -115.2598102},
+        {"lat": 48.8246245, "lon": -115.2600297},
+        {"lat": 48.8245062, "lon": -115.2602282},
+        {"lat": 48.8244078, "lon": -115.2604243},
+        {"lat": 48.824251, "lon": -115.2607793},
+        {"lat": 48.8240711, "lon": -115.2611832},
+        {"lat": 48.8239604, "lon": -115.2614424},
+        {"lat": 48.8238174, "lon": -115.2617483},
+        {"lat": 48.8237436, "lon": -115.2618837},
+        {"lat": 48.8236896, "lon": -115.261973}
+      ],
+      "tags": {
+        "highway": "primary",
+        "ref": "MT 37",
+        "source": "Bing",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Lincoln, MT",
+        "tiger:name_base": "Mount Hwy 37"
       }
     }
   ]
