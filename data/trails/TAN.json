@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-28T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-10-30T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -561,11 +561,11 @@
     {
       "type": "relation",
       "id": 9448532,
-      "timestamp": "2021-07-31T09:23:32Z",
-      "version": 19,
-      "changeset": 108922863,
-      "user": "Zaphod Harkonnen",
-      "uid": 234731,
+      "timestamp": "2021-10-30T04:13:24Z",
+      "version": 20,
+      "changeset": 113147361,
+      "user": "michael60634",
+      "uid": 10036384,
       "members": [
         {"type": "way", "ref": 362515215, "role": ""},
         {"type": "way", "ref": 640846056, "role": ""},
@@ -593,14 +593,16 @@
         {"type": "way", "ref": 886889774, "role": ""},
         {"type": "way", "ref": 676142212, "role": ""},
         {"type": "way", "ref": 676142213, "role": ""},
+        {"type": "way", "ref": 997618122, "role": ""},
         {"type": "way", "ref": 88273576, "role": ""},
         {"type": "way", "ref": 680246483, "role": ""},
         {"type": "way", "ref": 85454488, "role": ""},
         {"type": "way", "ref": 24802726, "role": ""},
         {"type": "way", "ref": 335851796, "role": ""},
-        {"type": "way", "ref": 899343693, "role": ""},
         {"type": "way", "ref": 899343694, "role": ""},
+        {"type": "way", "ref": 899343693, "role": ""},
         {"type": "way", "ref": 85456116, "role": ""},
+        {"type": "way", "ref": 997618121, "role": ""},
         {"type": "way", "ref": 674996458, "role": ""},
         {"type": "way", "ref": 674996459, "role": ""},
         {"type": "way", "ref": 674996456, "role": ""},
@@ -34008,11 +34010,11 @@
     {
       "type": "way",
       "id": 26639952,
-      "timestamp": "2020-07-31T10:15:40Z",
-      "version": 14,
-      "changeset": 88775921,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2021-10-30T04:13:24Z",
+      "version": 15,
+      "changeset": 113147361,
+      "user": "michael60634",
+      "uid": 10036384,
       "nodes": [172713937, 6375208317],
       "geometry": [
         {"lat": -41.3416655, "lon": 174.7847863},
@@ -34030,7 +34032,6 @@
         "maxspeed": "50",
         "name": "The Esplanade",
         "oneway": "yes",
-        "source": "knowledge",
         "surface": "paved"
       }
     },
@@ -42795,11 +42796,11 @@
     {
       "type": "way",
       "id": 337113212,
-      "timestamp": "2020-07-31T10:15:40Z",
-      "version": 7,
-      "changeset": 88775921,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2021-10-30T04:13:24Z",
+      "version": 8,
+      "changeset": 113147361,
+      "user": "michael60634",
+      "uid": 10036384,
       "nodes": [172713937, 7018237751],
       "geometry": [
         {"lat": -41.3416655, "lon": 174.7847863},
@@ -42895,7 +42896,6 @@
         "name": "The Esplanade",
         "oneway": "no",
         "sidewalk": "both",
-        "source": "knowledge",
         "surface": "paved"
       }
     },
@@ -93069,12 +93069,12 @@
     {
       "type": "way",
       "id": 85456116,
-      "timestamp": "2021-09-19T10:01:14Z",
-      "version": 21,
-      "changeset": 111401605,
-      "user": "kylenz",
-      "uid": 10140394,
-      "nodes": [6152712936, 1102492556],
+      "timestamp": "2021-10-30T04:13:24Z",
+      "version": 22,
+      "changeset": 113147361,
+      "user": "michael60634",
+      "uid": 10036384,
+      "nodes": [6152712936, 990585483],
       "geometry": [
         {"lat": -41.2910209, "lon": 174.7899191},
         {"lat": -41.2909389, "lon": 174.7901328},
@@ -93115,9 +93115,7 @@
         {"lat": -41.2890533, "lon": 174.7975184},
         {"lat": -41.2889634, "lon": 174.7977378},
         {"lat": -41.2888186, "lon": 174.7981066},
-        {"lat": -41.2885007, "lon": 174.7987807},
-        {"lat": -41.2885744, "lon": 174.798841},
-        {"lat": -41.288657, "lon": 174.7989086}
+        {"lat": -41.2885007, "lon": 174.7987807}
       ],
       "tags": {
         "bicycle": "designated",
@@ -94945,14 +94943,13 @@
     {
       "type": "way",
       "id": 88273576,
-      "timestamp": "2020-12-28T04:12:51Z",
-      "version": 9,
-      "changeset": 96507026,
-      "user": "kylenz",
-      "uid": 10140394,
-      "nodes": [6332083533, 6332083536],
+      "timestamp": "2021-10-30T04:13:24Z",
+      "version": 10,
+      "changeset": 113147361,
+      "user": "michael60634",
+      "uid": 10036384,
+      "nodes": [1025399561, 6332083536],
       "geometry": [
-        {"lat": -41.2906153, "lon": 174.7835521},
         {"lat": -41.2906179, "lon": 174.7835203},
         {"lat": -41.2904581, "lon": 174.7834867},
         {"lat": -41.2904116, "lon": 174.7834763},
@@ -100849,6 +100846,49 @@
         "maxspeed": "50",
         "name": "Beach Road",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 997618121,
+      "timestamp": "2021-10-30T04:13:24Z",
+      "version": 1,
+      "changeset": 113147361,
+      "user": "michael60634",
+      "uid": 10036384,
+      "nodes": [990585483, 1102492556],
+      "geometry": [
+        {"lat": -41.2885007, "lon": 174.7987807},
+        {"lat": -41.2885744, "lon": 174.798841},
+        {"lat": -41.288657, "lon": 174.7989086}
+      ],
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "name": "Waterfront Shared Path",
+        "segregated": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 997618122,
+      "timestamp": "2021-10-30T04:13:24Z",
+      "version": 1,
+      "changeset": 113147361,
+      "user": "michael60634",
+      "uid": 10036384,
+      "nodes": [6332083533, 1025399561],
+      "geometry": [
+        {"lat": -41.2906153, "lon": 174.7835521},
+        {"lat": -41.2906179, "lon": 174.7835203}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "name": "Te Papa Promenade",
+        "segregated": "no"
       }
     }
   ]
