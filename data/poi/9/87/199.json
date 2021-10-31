@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-10-29T23:59:59Z",
-    "timestamp_osm_base": "2021-10-30T02:55:21Z",
+    "timestamp_osm_date": "2021-10-30T23:59:59Z",
+    "timestamp_osm_base": "2021-10-31T02:56:58Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1000,8 +1000,8 @@
       "user": "OddlyAngled",
       "uid": 11607814,
       "tags": {
-        "backcountry": "yes",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "backcountry": "yes"
       }
     },
     {
@@ -1843,22 +1843,6 @@
     },
     {
       "type": "node",
-      "id": 3782663306,
-      "lat": 37.052107,
-      "lon": -118.268414,
-      "timestamp": "2015-10-11T23:37:42Z",
-      "version": 1,
-      "changeset": 34580121,
-      "user": "EastsideJ",
-      "uid": 3299969,
-      "tags": {
-        "name": "Tinemaha Campground",
-        "operator": "Inyo County",
-        "tourism": "camp_site"
-      }
-    },
-    {
-      "type": "node",
       "id": 3787127724,
       "lat": 36.6982479,
       "lon": -118.4273,
@@ -2442,23 +2426,6 @@
         "mountain_pass": "yes",
         "name": "Cartridge Pass",
         "natural": "saddle"
-      }
-    },
-    {
-      "type": "node",
-      "id": 5208934422,
-      "lat": 36.7968911,
-      "lon": -118.2073868,
-      "timestamp": "2019-11-30T06:16:47Z",
-      "version": 2,
-      "changeset": 77750895,
-      "user": "mach314",
-      "uid": 10409578,
-      "tags": {
-        "drinking_water": "yes",
-        "name": "Independence Creek County Campground",
-        "toilets": "yes",
-        "tourism": "camp_site"
       }
     },
     {
@@ -5401,6 +5368,81 @@
         "website": "https://vault.sierraclub.org/john_muir_exhibit/geography/california/muir-shelter.aspx",
         "wikidata": "Q6933160",
         "wikipedia": "en:Muir Pass"
+      }
+    },
+    {
+      "type": "way",
+      "id": 997714198,
+      "timestamp": "2021-10-30T14:54:16Z",
+      "version": 1,
+      "changeset": 113164143,
+      "user": "OddlyAngled",
+      "uid": 11607814,
+      "center": {
+        "lat": 37.0516751,
+        "lon": -118.2691526
+      },
+      "nodes": [],
+      "tags": {
+        "capacity": "35",
+        "fee": "yes",
+        "name": "Tinemaha Creek Campground",
+        "operator": "Inyo County",
+        "reservation": "recommended",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "website": "https://www.inyocounty.us/services/parks-recreation/campgrounds/tinnemaha-creek-campground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 997717489,
+      "timestamp": "2021-10-30T15:12:04Z",
+      "version": 2,
+      "changeset": 113164794,
+      "user": "OddlyAngled",
+      "uid": 11607814,
+      "center": {
+        "lat": 36.7975908,
+        "lon": -118.2069898
+      },
+      "nodes": [],
+      "tags": {
+        "capacity": "25",
+        "drinking_water": "yes",
+        "fee": "yes",
+        "name": "Independence Creek Campground",
+        "operator": "Inyo County",
+        "reservation": "recommended",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "website": "https://www.inyocounty.us/services/parks-recreation/campgrounds/independence-creek"
+      }
+    },
+    {
+      "type": "way",
+      "id": 997718846,
+      "timestamp": "2021-10-30T15:21:05Z",
+      "version": 1,
+      "changeset": 113165153,
+      "user": "OddlyAngled",
+      "uid": 11607814,
+      "center": {
+        "lat": 36.9980693,
+        "lon": -118.2556022
+      },
+      "nodes": [],
+      "tags": {
+        "capacity": "35",
+        "caravans": "yes",
+        "fee": "yes",
+        "name": "Taboose Creek Campground",
+        "operator": "Inyo County",
+        "reservation": "recommended",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "website": "https://www.inyocounty.us/services/parks-recreation/campgrounds/taboose-creek-campground"
       }
     }
   ]
