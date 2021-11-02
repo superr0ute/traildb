@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-29T02:35:12Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-02T02:35:22Z"},
   "elements": [
     {
       "type": "relation",
       "id": 7700604,
-      "timestamp": "2021-10-28T11:55:09Z",
-      "version": 359,
-      "changeset": 113079574,
-      "user": "*Martin*",
-      "uid": 4815,
+      "timestamp": "2021-11-01T23:51:08Z",
+      "version": 360,
+      "changeset": 113259384,
+      "user": "aceman444",
+      "uid": 1617449,
       "members": [
         {"type": "node", "ref": 2827666105, "role": "guidepost"},
         {"type": "node", "ref": 750482929, "role": "guidepost"},
@@ -1431,7 +1431,6 @@
         {"type": "way", "ref": 602899732, "role": ""},
         {"type": "way", "ref": 602899728, "role": ""},
         {"type": "way", "ref": 602899727, "role": ""},
-        {"type": "way", "ref": 602899731, "role": ""},
         {"type": "way", "ref": 602899730, "role": ""},
         {"type": "way", "ref": 602899729, "role": ""},
         {"type": "way", "ref": 602898935, "role": ""},
@@ -14566,11 +14565,11 @@
     {
       "type": "way",
       "id": 25584832,
-      "timestamp": "2020-12-25T18:54:09Z",
-      "version": 7,
-      "changeset": 96432142,
-      "user": "radokado",
-      "uid": 513818,
+      "timestamp": "2021-11-01T14:33:21Z",
+      "version": 8,
+      "changeset": 113239793,
+      "user": "vojtechzaboril",
+      "uid": 8971394,
       "nodes": [270711902, 2304041236],
       "geometry": [
         {"lat": 48.1671611, "lon": 17.052039, "z": 191},
@@ -14590,7 +14589,9 @@
       "tags": {
         "highway": "residential",
         "is_in": "Bratislava - Karlova Ves",
-        "name": "Líščie údolie"
+        "name": "Líščie údolie",
+        "name:de": "Fuchsleuthen",
+        "wikidata": "Q12770649"
       }
     },
     {
@@ -45026,33 +45027,36 @@
     {
       "type": "way",
       "id": 602898935,
-      "timestamp": "2020-11-14T19:45:15Z",
-      "version": 2,
-      "changeset": 94119295,
-      "user": "radokado",
-      "uid": 513818,
-      "nodes": [5725080691, 5725080693],
+      "timestamp": "2021-11-01T23:51:08Z",
+      "version": 3,
+      "changeset": 113259384,
+      "user": "aceman444",
+      "uid": 1617449,
+      "nodes": [5725101740, 9217298733],
       "geometry": [
+        {"lat": 48.8959214, "lon": 18.050633, "z": 210.2},
         {"lat": 48.8959178, "lon": 18.0507256, "z": 210.1},
         {"lat": 48.8959151, "lon": 18.0508049, "z": 209.9},
-        {"lat": 48.8959093, "lon": 18.0508966, "z": 209.8}
+        {"lat": 48.8959093, "lon": 18.0508966, "z": 209.8},
+        {"lat": 48.8958903, "lon": 18.0510442, "z": 209.8}
       ],
-      "tags": {"crossing": "zebra", "footway": "crossing", "highway": "footway"}
+      "tags": {"footway": "crossing", "highway": "footway"}
     },
     {
       "type": "way",
       "id": 602899727,
-      "timestamp": "2018-06-28T08:38:39Z",
-      "version": 1,
-      "changeset": 60240866,
-      "user": "15879263",
-      "uid": 145922,
-      "nodes": [5725080694, 5725086558],
+      "timestamp": "2021-11-01T23:51:08Z",
+      "version": 2,
+      "changeset": 113259384,
+      "user": "aceman444",
+      "uid": 1617449,
+      "nodes": [5725086560, 5725086558],
       "geometry": [
+        {"lat": 48.8958109, "lon": 18.0518613, "z": 210.2},
         {"lat": 48.8958048, "lon": 18.051928, "z": 210.3},
         {"lat": 48.8957936, "lon": 18.0520372, "z": 210.4}
       ],
-      "tags": {"crossing": "zebra", "footway": "crossing", "highway": "footway"}
+      "tags": {"footway": "crossing", "highway": "footway"}
     },
     {
       "type": "way",
@@ -45072,14 +45076,14 @@
     {
       "type": "way",
       "id": 602899729,
-      "timestamp": "2018-06-28T08:38:39Z",
-      "version": 1,
-      "changeset": 60240866,
-      "user": "15879263",
-      "uid": 145922,
-      "nodes": [5725080693, 5725080695],
+      "timestamp": "2021-11-01T23:51:08Z",
+      "version": 2,
+      "changeset": 113259384,
+      "user": "aceman444",
+      "uid": 1617449,
+      "nodes": [9217298733, 5725080695],
       "geometry": [
-        {"lat": 48.8959093, "lon": 18.0508966, "z": 209.8},
+        {"lat": 48.8958903, "lon": 18.0510442, "z": 209.8},
         {"lat": 48.8958625, "lon": 18.0513473, "z": 209.9}
       ],
       "tags": {"footway": "sidewalk", "highway": "footway"}
@@ -45098,21 +45102,6 @@
         {"lat": 48.8958109, "lon": 18.0518613, "z": 210.2}
       ],
       "tags": {"footway": "sidewalk", "highway": "footway"}
-    },
-    {
-      "type": "way",
-      "id": 602899731,
-      "timestamp": "2018-06-28T08:38:39Z",
-      "version": 1,
-      "changeset": 60240866,
-      "user": "15879263",
-      "uid": 145922,
-      "nodes": [5725086560, 5725080694],
-      "geometry": [
-        {"lat": 48.8958109, "lon": 18.0518613, "z": 210.2},
-        {"lat": 48.8958048, "lon": 18.051928, "z": 210.3}
-      ],
-      "tags": {"crossing": "zebra", "footway": "crossing", "highway": "footway"}
     },
     {
       "type": "way",
@@ -51249,19 +51238,17 @@
     {
       "type": "way",
       "id": 710338136,
-      "timestamp": "2021-01-14T19:38:23Z",
-      "version": 3,
-      "changeset": 97513447,
-      "user": "radokado",
-      "uid": 513818,
-      "nodes": [5725080692, 5725080691],
+      "timestamp": "2021-11-01T23:51:08Z",
+      "version": 4,
+      "changeset": 113259384,
+      "user": "aceman444",
+      "uid": 1617449,
+      "nodes": [5725080692, 5725101740],
       "geometry": [
         {"lat": 48.8958435, "lon": 18.0502569, "z": 210.9},
-        {"lat": 48.8958874, "lon": 18.0504457, "z": 210.6},
-        {"lat": 48.8959095, "lon": 18.0505413, "z": 210.4},
-        {"lat": 48.8959178, "lon": 18.0505896, "z": 210.3},
-        {"lat": 48.8959214, "lon": 18.050633, "z": 210.2},
-        {"lat": 48.8959178, "lon": 18.0507256, "z": 210.1}
+        {"lat": 48.8959163, "lon": 18.0505315, "z": 210.4},
+        {"lat": 48.8959238, "lon": 18.0505827, "z": 210.3},
+        {"lat": 48.8959214, "lon": 18.050633, "z": 210.2}
       ],
       "tags": {"footway": "sidewalk", "highway": "footway"}
     },
@@ -52517,11 +52504,11 @@
     {
       "type": "way",
       "id": 781380835,
-      "timestamp": "2020-03-14T20:04:03Z",
-      "version": 1,
-      "changeset": 82202617,
-      "user": "*Martin*",
-      "uid": 4815,
+      "timestamp": "2021-11-01T14:33:21Z",
+      "version": 2,
+      "changeset": 113239793,
+      "user": "vojtechzaboril",
+      "uid": 8971394,
       "nodes": [278883441, 270711902],
       "geometry": [
         {"lat": 48.1671922, "lon": 17.0524292, "z": 194.4},
@@ -52530,7 +52517,9 @@
       "tags": {
         "highway": "residential",
         "is_in": "Bratislava - Karlova Ves",
-        "name": "Líščie údolie"
+        "name": "Líščie údolie",
+        "name:de": "Fuchsleuthen",
+        "wikidata": "Q12770649"
       }
     },
     {

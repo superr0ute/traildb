@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-26T02:28:57Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-02T02:30:28Z"},
   "elements": [
     {
       "type": "relation",
@@ -3785,13 +3785,14 @@
     {
       "type": "way",
       "id": 175957223,
-      "timestamp": "2021-10-18T09:41:23Z",
-      "version": 5,
-      "changeset": 112644152,
+      "timestamp": "2021-11-01T11:29:11Z",
+      "version": 6,
+      "changeset": 113231408,
       "user": "breno-au",
       "uid": 859676,
-      "nodes": [579434333, 392638648],
+      "nodes": [1830369785, 392638648],
       "geometry": [
+        {"lat": -37.175749, "lon": 146.644983, "z": 1724.1},
         {"lat": -37.1757262, "lon": 146.6451273, "z": 1724.9},
         {"lat": -37.175642, "lon": 146.645294, "z": 1724.5},
         {"lat": -37.175544, "lon": 146.645548, "z": 1725.4},
@@ -3806,7 +3807,9 @@
       ],
       "tags": {
         "bicycle": "no",
+        "foot": "yes",
         "highway": "path",
+        "horse": "yes",
         "name": "Australian Alps Walking Track"
       }
     },
@@ -5035,9 +5038,9 @@
     {
       "type": "way",
       "id": 193615112,
-      "timestamp": "2021-05-09T21:58:03Z",
-      "version": 6,
-      "changeset": 104412612,
+      "timestamp": "2021-11-01T12:02:22Z",
+      "version": 7,
+      "changeset": 113233007,
       "user": "breno-au",
       "uid": 859676,
       "nodes": [1416738526, 8715804646],
@@ -5119,9 +5122,8 @@
       ],
       "tags": {
         "construction": "path",
-        "highway": "path",
+        "highway": "construction",
         "name": "Australian Alps Walking Track",
-        "network": "nwn",
         "note": "Tramway closed from May 2020 due to Walhalla Tramway Bridge being closed for repairs. Use alt route.",
         "route": "foot",
         "source": "survey",
@@ -5131,9 +5133,9 @@
     {
       "type": "way",
       "id": 193615113,
-      "timestamp": "2020-11-10T05:54:16Z",
-      "version": 6,
-      "changeset": 93834939,
+      "timestamp": "2021-11-01T12:02:22Z",
+      "version": 7,
+      "changeset": 113233007,
       "user": "breno-au",
       "uid": 859676,
       "nodes": [1416738362, 1416738526],
@@ -5149,9 +5151,7 @@
         "highway": "construction",
         "layer": "1",
         "name": "Walhalla Tramway Bridge",
-        "network": "nwn",
         "note": "The Walhalla Tramway Bridge is closed from May 2020 by ParksVic due to structural repairs. There is no estimated completion date at this time.",
-        "route": "foot",
         "source": "survey",
         "surface": "wood"
       }
@@ -10623,11 +10623,11 @@
     {
       "type": "way",
       "id": 247151250,
-      "timestamp": "2020-01-22T09:20:30Z",
-      "version": 4,
-      "changeset": 79903973,
-      "user": "rennicm",
-      "uid": 365931,
+      "timestamp": "2021-11-01T20:40:14Z",
+      "version": 5,
+      "changeset": 113254126,
+      "user": "breno-au",
+      "uid": 859676,
       "nodes": [1218737613, 1218737712],
       "geometry": [
         {"lat": -37.495266, "lon": 146.4169372, "z": 1210.8},
@@ -10688,7 +10688,7 @@
         {"lat": -37.4756073, "lon": 146.4061257, "z": 1175.9}
       ],
       "tags": {
-        "highway": "tertiary",
+        "highway": "secondary",
         "name": "Jamieson - Licola Road",
         "ref": "C486",
         "source": "GPS",
@@ -12411,9 +12411,9 @@
     {
       "type": "way",
       "id": 255352555,
-      "timestamp": "2021-10-18T09:49:35Z",
-      "version": 6,
-      "changeset": 112644470,
+      "timestamp": "2021-11-01T20:40:14Z",
+      "version": 7,
+      "changeset": 113254126,
       "user": "breno-au",
       "uid": 859676,
       "nodes": [1218736848, 2223814947],
@@ -12456,7 +12456,7 @@
       ],
       "tags": {
         "alt_name": "Australian Alps Walking Track",
-        "highway": "tertiary",
+        "highway": "secondary",
         "loc_name": "Bicentennial National Trail",
         "motor_vehicle:conditional": "permit @ (jun-oct)",
         "name": "Jamieson - Licola Road",
@@ -14597,7 +14597,7 @@
         {"lat": -37.1629785, "lon": 146.6476478, "z": 1641.6},
         {"lat": -37.1627368, "lon": 146.6474903, "z": 1643.5},
         {"lat": -37.1625563, "lon": 146.6473594, "z": 1644.7},
-        {"lat": -37.1623831, "lon": 146.6472837, "z": 1644.8},
+        {"lat": -37.1623776, "lon": 146.6472823, "z": 1644.7},
         {"lat": -37.1622178, "lon": 146.6472992, "z": 1641.8},
         {"lat": -37.1619245, "lon": 146.647186, "z": 1640.2},
         {"lat": -37.1616227, "lon": 146.6469488, "z": 1641.3},
@@ -16426,12 +16426,12 @@
     {
       "type": "way",
       "id": 45480714,
-      "timestamp": "2017-11-25T07:32:57Z",
-      "version": 9,
-      "changeset": 54066404,
-      "user": "paul1928",
-      "uid": 868048,
-      "nodes": [517343184, 579434333],
+      "timestamp": "2021-11-01T11:29:11Z",
+      "version": 10,
+      "changeset": 113231408,
+      "user": "breno-au",
+      "uid": 859676,
+      "nodes": [517343184, 1830369785],
       "geometry": [
         {"lat": -37.1981166, "lon": 146.5978431, "z": 1647.2},
         {"lat": -37.1974402, "lon": 146.5984651, "z": 1637.3},
@@ -16531,11 +16531,11 @@
         {"lat": -37.1764643, "lon": 146.6444979, "z": 1718.8},
         {"lat": -37.1763176, "lon": 146.6444664, "z": 1720.4},
         {"lat": -37.176081, "lon": 146.6446217, "z": 1723.8},
-        {"lat": -37.175749, "lon": 146.644983, "z": 1724.1},
-        {"lat": -37.1757262, "lon": 146.6451273, "z": 1724.9}
+        {"lat": -37.175749, "lon": 146.644983, "z": 1724.1}
       ],
       "tags": {
         "bicycle": "no",
+        "foot": "yes",
         "highway": "path",
         "horse": "yes",
         "name": "Australian Alps Walking Track"

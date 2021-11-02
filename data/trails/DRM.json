@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-10-30T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-01T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1736379,
-      "timestamp": "2021-10-14T06:00:25Z",
-      "version": 559,
-      "changeset": 112487892,
-      "user": "lingio",
-      "uid": 922931,
+      "timestamp": "2021-11-01T18:56:47Z",
+      "version": 560,
+      "changeset": 113250540,
+      "user": "Trixl",
+      "uid": 14099638,
       "members": [
         {"type": "node", "ref": 1779769997, "role": "stop"},
         {"type": "node", "ref": 475738007, "role": ""},
@@ -472,6 +472,8 @@
         {"type": "way", "ref": 42312771, "role": ""},
         {"type": "way", "ref": 26934750, "role": ""},
         {"type": "way", "ref": 42165590, "role": ""},
+        {"type": "way", "ref": 998221885, "role": ""},
+        {"type": "way", "ref": 998221884, "role": ""},
         {"type": "way", "ref": 203027146, "role": ""},
         {"type": "way", "ref": 42165591, "role": ""},
         {"type": "way", "ref": 74784102, "role": ""},
@@ -18270,18 +18272,14 @@
     {
       "type": "way",
       "id": 203027146,
-      "timestamp": "2020-04-14T22:20:05Z",
-      "version": 7,
-      "changeset": 83555621,
-      "user": "M_Gaugg",
-      "uid": 577764,
-      "nodes": [524841394, 420430730],
+      "timestamp": "2021-11-01T18:56:47Z",
+      "version": 8,
+      "changeset": 113250540,
+      "user": "Trixl",
+      "uid": 14099638,
+      "nodes": [9216887332, 420430730],
       "geometry": [
-        {"lat": 47.3704834, "lon": 11.4312324},
-        {"lat": 47.3703515, "lon": 11.4311444},
-        {"lat": 47.3702528, "lon": 11.4310495},
-        {"lat": 47.3701072, "lon": 11.4310041},
-        {"lat": 47.3699322, "lon": 11.4309856},
+        {"lat": 47.3698207, "lon": 11.4310096},
         {"lat": 47.3697419, "lon": 11.4310222},
         {"lat": 47.3696837, "lon": 11.4310334},
         {"lat": 47.3694897, "lon": 11.431094},
@@ -54982,6 +54980,52 @@
         {"lat": 46.4269245, "lon": 11.9136953}
       ],
       "tags": {"highway": "service"}
+    },
+    {
+      "type": "way",
+      "id": 998221884,
+      "timestamp": "2021-11-01T18:56:47Z",
+      "version": 1,
+      "changeset": 113250540,
+      "user": "Trixl",
+      "uid": 14099638,
+      "nodes": [295140902, 9216887332],
+      "geometry": [
+        {"lat": 47.3698846, "lon": 11.4309955},
+        {"lat": 47.3698207, "lon": 11.4310096}
+      ],
+      "tags": {
+        "ford": "yes",
+        "highway": "track",
+        "incline": "20",
+        "layer": "1",
+        "mtb:scale:uphill": "4",
+        "tracktype": "grade2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 998221885,
+      "timestamp": "2021-11-01T18:56:47Z",
+      "version": 1,
+      "changeset": 113250540,
+      "user": "Trixl",
+      "uid": 14099638,
+      "nodes": [524841394, 295140902],
+      "geometry": [
+        {"lat": 47.3704834, "lon": 11.4312324},
+        {"lat": 47.3703515, "lon": 11.4311444},
+        {"lat": 47.3702528, "lon": 11.4310495},
+        {"lat": 47.3701072, "lon": 11.4310041},
+        {"lat": 47.3699288, "lon": 11.4309972},
+        {"lat": 47.3698846, "lon": 11.4309955}
+      ],
+      "tags": {
+        "highway": "track",
+        "incline": "20",
+        "mtb:scale:uphill": "4",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
