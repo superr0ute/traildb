@@ -3338,16 +3338,17 @@
         "@poi": "place_village",
         "@distance": 1947.4,
         "@id": "n313749375",
-        "@changeset": 105928507,
-        "@timestamp": "2021-06-06T18:28:25Z",
-        "@version": 9,
-        "@uid": 13504221,
-        "@user": "mairiecasteil",
+        "@changeset": 113271550,
+        "@timestamp": "2021-11-02T08:41:30Z",
+        "@version": 10,
+        "@uid": 11725140,
+        "@user": "jmaspons",
         "name": "Casteil",
         "name:ca": "Castell",
         "place": "village",
         "population": 136,
-        "source:population": "INSEE 2020"
+        "source:population": "INSEE 2020",
+        "wikipedia": "ca:Castell de Vernet"
       },
       "geometry": {
         "type": "Point",
@@ -8157,11 +8158,12 @@
         "@poi": "water_spring",
         "@distance": 1912.6,
         "@id": "n605642643",
-        "@changeset": 3546831,
-        "@timestamp": "2010-01-05T16:36:01Z",
-        "@version": 1,
-        "@uid": 90394,
-        "@user": "petrovsk",
+        "@changeset": 113253395,
+        "@timestamp": "2021-11-01T20:21:33Z",
+        "@version": 2,
+        "@uid": 11725140,
+        "@user": "jmaspons",
+        "drinking_water": "yes",
         "natural": "spring"
       },
       "geometry": {
@@ -8435,6 +8437,36 @@
         "coordinates": [
           2.1471238,
           42.4344429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 3747.9,
+        "@id": "n670508903",
+        "@changeset": 113273711,
+        "@timestamp": "2021-11-02T09:30:44Z",
+        "@version": 4,
+        "@uid": 11725140,
+        "@user": "jmaspons",
+        "description": "Borne en granit gravée : IGN et 1960 - Point vu en place en 1960",
+        "ele": 2456.61,
+        "man_made": "survey_point",
+        "name": "Cime de Pomarole",
+        "natural": "peak",
+        "note": "Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res",
+        "ref": "6610203 - 1",
+        "source": "©IGN 2010 dans le cadre de la cartographie réglementaire",
+        "url": "http://geodesie.ign.fr/fiches/index.php?module=e&action=fichepdf&source=carte&sit_no=6610203",
+        "wikidata": "Q31633430"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3241086,
+          42.4450432
         ]
       }
     },
@@ -14250,14 +14282,15 @@
         "@poi": "mountain-pass",
         "@distance": 6.6,
         "@id": "n1156963826",
-        "@changeset": 93412009,
-        "@timestamp": "2020-11-02T10:21:13Z",
-        "@version": 3,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 113271550,
+        "@timestamp": "2021-11-02T08:41:27Z",
+        "@version": 4,
+        "@uid": 11725140,
+        "@user": "jmaspons",
         "ele": 1456,
         "mountain_pass": "yes",
         "name": "Col du Cheval Mort",
+        "name:ca": "Coll  del Cavall Mort",
         "natural": "saddle"
       },
       "geometry": {
@@ -17873,7 +17906,7 @@
         "@timestamp": "2012-11-09T17:50:45Z",
         "@version": 1,
         "@uid": 1039368,
-        "@user": "Kehp",
+        "@user": "Julius66",
         "addr:housename": "Neto",
         "name": "Neto",
         "shop": "convenience"
@@ -22518,6 +22551,31 @@
       "type": "Feature",
       "properties": {
         "@poi": "peak_peak",
+        "@distance": 1582.9,
+        "@id": "n2294747215",
+        "@changeset": 113273711,
+        "@timestamp": "2021-11-02T09:30:40Z",
+        "@version": 2,
+        "@uid": 11725140,
+        "@user": "jmaspons",
+        "ele": 2637,
+        "name": "Pic de Bassibès",
+        "natural": "peak",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
+        "wikidata": "Q24019059"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4532988,
+          42.489749
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
         "@distance": 1581.3,
         "@id": "n2294747229",
         "@changeset": 112779547,
@@ -22598,14 +22656,16 @@
         "@poi": "mountain-pass",
         "@distance": 2.2,
         "@id": "n2295247988",
-        "@changeset": 28205764,
-        "@timestamp": "2015-01-17T11:45:26Z",
-        "@version": 3,
-        "@uid": 223093,
-        "@user": "geow",
+        "@changeset": 113271550,
+        "@timestamp": "2021-11-02T08:41:26Z",
+        "@version": 4,
+        "@uid": 11725140,
+        "@user": "jmaspons",
         "ele": 2040,
         "mountain_pass": "yes",
-        "name": "Col de Segalès",
+        "name": "Coll de Segalers",
+        "name:ca": "Coll de Segalers",
+        "name:fr": "Col de Segalès",
         "natural": "saddle"
       },
       "geometry": {
@@ -26878,59 +26938,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "peak_peak",
-        "@distance": 405.3,
-        "@id": "n3698326916",
-        "@changeset": 52342967,
-        "@timestamp": "2017-09-25T03:09:34Z",
-        "@version": 3,
-        "@uid": 339581,
-        "@user": "nyuriks",
-        "alt_name": "Puig de les Salines",
-        "ele": 1330.6,
-        "name": "Puig de les Pedrisses",
-        "natural": "peak",
-        "source": "Institut Cartogràfic de Catalunya",
-        "wikidata": "Q429731",
-        "wikipedia": "ca:Puig de les Pedrisses"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.7513998,
-          42.4254034
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 847.1,
-        "@id": "n3698383847",
-        "@changeset": 52342967,
-        "@timestamp": "2017-09-25T03:09:34Z",
-        "@version": 3,
-        "@uid": 339581,
-        "@user": "nyuriks",
-        "ele": 1379.6,
-        "name": "Roc de la Sentinella",
-        "natural": "peak",
-        "source": "Institut Cartogràfic de Catalunya",
-        "wikidata": "Q17483561",
-        "wikipedia": "ca:Roc de la Sentinella"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.7088726,
-          42.4152383
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 7068,
         "@id": "n5046093798",
@@ -30661,31 +30668,53 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 8596.8,
-        "@id": "w303986147",
-        "@changeset": 94210570,
-        "@timestamp": "2020-11-16T15:20:18Z",
-        "@version": 4,
-        "@uid": 188930,
-        "@user": "JLZIMMERMANN",
-        "brand": "Lidl",
-        "brand:wikidata": "Q151954",
-        "brand:wikipedia": "fr:Lidl",
-        "building": "retail",
-        "name": "Lidl",
-        "name:es": "Lidl",
-        "operator": "Lidl",
-        "shop": "supermarket",
-        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2014",
-        "supermarket": "yes",
-        "supermarket:FR": "supermarché"
+        "@poi": "peak_peak",
+        "@distance": 405.3,
+        "@id": "n3698326916",
+        "@changeset": 52342967,
+        "@timestamp": "2017-09-25T03:09:34Z",
+        "@version": 3,
+        "@uid": 339581,
+        "@user": "nyuriks",
+        "alt_name": "Puig de les Salines",
+        "ele": 1330.6,
+        "name": "Puig de les Pedrisses",
+        "natural": "peak",
+        "source": "Institut Cartogràfic de Catalunya",
+        "wikidata": "Q429731",
+        "wikipedia": "ca:Puig de les Pedrisses"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.410756,
-          42.6124315
+          2.7513998,
+          42.4254034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 847.1,
+        "@id": "n3698383847",
+        "@changeset": 52342967,
+        "@timestamp": "2017-09-25T03:09:34Z",
+        "@version": 3,
+        "@uid": 339581,
+        "@user": "nyuriks",
+        "ele": 1379.6,
+        "name": "Roc de la Sentinella",
+        "natural": "peak",
+        "source": "Institut Cartogràfic de Catalunya",
+        "wikidata": "Q17483561",
+        "wikipedia": "ca:Roc de la Sentinella"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7088726,
+          42.4152383
         ]
       }
     },
@@ -33026,6 +33055,37 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 8596.8,
+        "@id": "w303986147",
+        "@changeset": 94210570,
+        "@timestamp": "2020-11-16T15:20:18Z",
+        "@version": 4,
+        "@uid": 188930,
+        "@user": "JLZIMMERMANN",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "fr:Lidl",
+        "building": "retail",
+        "name": "Lidl",
+        "name:es": "Lidl",
+        "operator": "Lidl",
+        "shop": "supermarket",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2014",
+        "supermarket": "yes",
+        "supermarket:FR": "supermarché"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.410756,
+          42.6124315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 699.4,
         "@id": "n4342331691",
@@ -35291,6 +35351,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 569.1,
+        "@id": "w82560003",
+        "@changeset": 113284918,
+        "@timestamp": "2021-11-02T13:32:21Z",
+        "@version": 2,
+        "@uid": 3028996,
+        "@user": "ketchupi_67",
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.345375,
+          43.2684112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 685.3,
         "@id": "w82982083",
@@ -35368,37 +35451,6 @@
         "coordinates": [
           -1.2149209,
           43.1665536
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 7832,
-        "@id": "w738619281",
-        "@changeset": 98841053,
-        "@timestamp": "2021-02-07T08:17:41Z",
-        "@version": 3,
-        "@uid": 188930,
-        "@user": "JLZIMMERMANN",
-        "brand": "Carrefour Market",
-        "brand:wikidata": "Q2689639",
-        "brand:wikipedia": "fr:Carrefour Market",
-        "building": "retail",
-        "name": "Carrefour Market",
-        "opening_hours": "Mo-Sa 08:00-20:00; Su 09:00-13:00",
-        "operator": "Carrefour",
-        "shop": "supermarket",
-        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2019",
-        "supermarket": "yes",
-        "supermarket:FR": "supermarché"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.4032579,
-          43.3617561
         ]
       }
     },
@@ -39922,6 +39974,37 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
+        "@distance": 7832,
+        "@id": "w738619281",
+        "@changeset": 98841053,
+        "@timestamp": "2021-02-07T08:17:41Z",
+        "@version": 3,
+        "@uid": 188930,
+        "@user": "JLZIMMERMANN",
+        "brand": "Carrefour Market",
+        "brand:wikidata": "Q2689639",
+        "brand:wikipedia": "fr:Carrefour Market",
+        "building": "retail",
+        "name": "Carrefour Market",
+        "opening_hours": "Mo-Sa 08:00-20:00; Su 09:00-13:00",
+        "operator": "Carrefour",
+        "shop": "supermarket",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2019",
+        "supermarket": "yes",
+        "supermarket:FR": "supermarché"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4032579,
+          43.3617561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
         "@distance": 5431,
         "@id": "w755197312",
         "@changeset": 112410301,
@@ -39945,6 +40028,29 @@
         "coordinates": [
           -1.2960912,
           43.2339347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 522.3,
+        "@id": "w998419077",
+        "@changeset": 113285598,
+        "@timestamp": "2021-11-02T13:47:46Z",
+        "@version": 1,
+        "@uid": 3028996,
+        "@user": "ketchupi_67",
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2375567,
+          43.1677224
         ]
       }
     },
@@ -51844,12 +51950,14 @@
         "@poi": "water_spring",
         "@distance": 1.8,
         "@id": "n6822736766",
-        "@changeset": 97209096,
-        "@timestamp": "2021-01-09T11:50:16Z",
-        "@version": 3,
-        "@uid": 2047207,
-        "@user": "ramonz",
-        "name": "Fontaine de la Perdrix",
+        "@changeset": 113271550,
+        "@timestamp": "2021-11-02T08:41:23Z",
+        "@version": 5,
+        "@uid": 11725140,
+        "@user": "jmaspons",
+        "drinking_water": "yes",
+        "name": "Font de la Perdiu",
+        "name:fr": "Fontaine de la Perdrix",
         "natural": "spring"
       },
       "geometry": {
@@ -51993,95 +52101,6 @@
         "coordinates": [
           2.3574445,
           42.4906309
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 115.4,
-        "@id": "n7783405185",
-        "@changeset": 98846183,
-        "@timestamp": "2021-02-07T11:23:29Z",
-        "@version": 2,
-        "@uid": 11848127,
-        "@user": "jipe11",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4868346,
-          42.5187183
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 2041.8,
-        "@id": "n7783405385",
-        "@changeset": 98846183,
-        "@timestamp": "2021-02-07T11:23:29Z",
-        "@version": 2,
-        "@uid": 11848127,
-        "@user": "jipe11",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.4130823,
-          42.4761686
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_cave",
-        "@distance": 2020.7,
-        "@id": "n7806186080",
-        "@changeset": 89295059,
-        "@timestamp": "2020-08-12T09:44:41Z",
-        "@version": 1,
-        "@uid": 481447,
-        "@user": "BTH",
-        "name": "Grotte de l'Escatirou",
-        "natural": "cave_entrance"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.5969678,
-          42.459602
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "mountain-pass",
-        "@distance": 32.2,
-        "@id": "n7816814396",
-        "@changeset": 89465077,
-        "@timestamp": "2020-08-16T08:14:47Z",
-        "@version": 1,
-        "@uid": 2096551,
-        "@user": "mcompte",
-        "ele": 1239,
-        "mountain_pass": "yes",
-        "name": "Coll del Pou de la Neu",
-        "natural": "saddle",
-        "source": "Institut Cartogràfic de Catalunya"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.7401058,
-          42.4238612
         ]
       }
     },
@@ -54042,6 +54061,95 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_spring",
+        "@distance": 115.4,
+        "@id": "n7783405185",
+        "@changeset": 98846183,
+        "@timestamp": "2021-02-07T11:23:29Z",
+        "@version": 2,
+        "@uid": 11848127,
+        "@user": "jipe11",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4868346,
+          42.5187183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 2041.8,
+        "@id": "n7783405385",
+        "@changeset": 98846183,
+        "@timestamp": "2021-02-07T11:23:29Z",
+        "@version": 2,
+        "@uid": 11848127,
+        "@user": "jipe11",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4130823,
+          42.4761686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_cave",
+        "@distance": 2020.7,
+        "@id": "n7806186080",
+        "@changeset": 89295059,
+        "@timestamp": "2020-08-12T09:44:41Z",
+        "@version": 1,
+        "@uid": 481447,
+        "@user": "BTH",
+        "name": "Grotte de l'Escatirou",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5969678,
+          42.459602
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "mountain-pass",
+        "@distance": 32.2,
+        "@id": "n7816814396",
+        "@changeset": 89465077,
+        "@timestamp": "2020-08-16T08:14:47Z",
+        "@version": 1,
+        "@uid": 2096551,
+        "@user": "mcompte",
+        "ele": 1239,
+        "mountain_pass": "yes",
+        "name": "Coll del Pou de la Neu",
+        "natural": "saddle",
+        "source": "Institut Cartogràfic de Catalunya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7401058,
+          42.4238612
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
         "@distance": 2363.9,
         "@id": "n7863968045",
         "@changeset": 90228046,
@@ -54065,11 +54173,12 @@
         "@poi": "water_spring",
         "@distance": 18.3,
         "@id": "n8077105444",
-        "@changeset": 93466190,
-        "@timestamp": "2020-11-03T08:28:49Z",
-        "@version": 1,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 113253395,
+        "@timestamp": "2021-11-01T20:20:49Z",
+        "@version": 2,
+        "@uid": 11725140,
+        "@user": "jmaspons",
+        "drinking_water": "yes",
         "ele": 1741,
         "name": "Fontaine de Bonne-Aigues",
         "natural": "spring",
@@ -54102,6 +54211,30 @@
         "coordinates": [
           2.4761282,
           42.5236262
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 1417,
+        "@id": "n8305605236",
+        "@changeset": 113273711,
+        "@timestamp": "2021-11-02T09:30:45Z",
+        "@version": 3,
+        "@uid": 11725140,
+        "@user": "jmaspons",
+        "name": "Quazemí de Dalt",
+        "natural": "peak",
+        "wikidata": "Q47165713",
+        "wikipedia": "ca:Quazemí de Dalt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4524108,
+          42.5154851
         ]
       }
     },
@@ -54249,7 +54382,7 @@
         "@timestamp": "2021-10-31T22:11:15Z",
         "@version": 2,
         "@uid": 1039368,
-        "@user": "Kehp",
+        "@user": "Julius66",
         "brand": "Biocoop",
         "brand:wikidata": "Q2904039",
         "brand:wikipedia": "fr:Biocoop",
@@ -55089,36 +55222,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 5588,
-        "@id": "w35959401",
-        "@changeset": 104060964,
-        "@timestamp": "2021-05-03T13:44:21Z",
-        "@version": 9,
-        "@uid": 598033,
-        "@user": "bibliofab66",
-        "brand": "Carrefour Market",
-        "brand:wikidata": "Q2689639",
-        "brand:wikipedia": "fr:Carrefour Market",
-        "building": "retail",
-        "building:levels": "1",
-        "name": "Carrefour Market",
-        "opening_hours": "Mo-Sa 08:30-19:00; Su 09:00-12:30",
-        "operator": "Carrefour",
-        "shop": "supermarket",
-        "source": "Direction générale des finances publiques - année 2008"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.7517153,
-          42.490473
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "campsite",
         "@distance": 1333.8,
         "@id": "w762413164",
@@ -55642,6 +55745,36 @@
         "coordinates": [
           1.0280897,
           42.8332155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 5588,
+        "@id": "w35959401",
+        "@changeset": 104060964,
+        "@timestamp": "2021-05-03T13:44:21Z",
+        "@version": 9,
+        "@uid": 598033,
+        "@user": "bibliofab66",
+        "brand": "Carrefour Market",
+        "brand:wikidata": "Q2689639",
+        "brand:wikipedia": "fr:Carrefour Market",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Carrefour Market",
+        "opening_hours": "Mo-Sa 08:30-19:00; Su 09:00-12:30",
+        "operator": "Carrefour",
+        "shop": "supermarket",
+        "source": "Direction générale des finances publiques - année 2008"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7517153,
+          42.490473
         ]
       }
     },
@@ -56235,17 +56368,18 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 701.6,
         "@id": "w540169410",
-        "@changeset": 93410998,
-        "@timestamp": "2020-11-02T10:07:38Z",
-        "@version": 3,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 113304706,
+        "@timestamp": "2021-11-02T22:11:36Z",
+        "@version": 5,
+        "@uid": 11725140,
+        "@user": "jmaspons",
         "building": "yes",
         "capacity": 5,
         "description": "2017-01 : Entièrement retapée et réaménagée par le Syndicat mixte Canigo Grand Site lors de notre passage la Toussaint 2016. Petite cabane en bord de chemin, avec bas-flancs, poêle , étagères...",
         "ele": 2123,
         "fireplace": "no",
         "name": "Refuge Arago",
+        "name:ca": "Refugi d'Aragó",
         "note": "19",
         "source": "Association \"Refuges et cabanes des Pyrénées\"",
         "stove": "yes",
