@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-01T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-02T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -6433,11 +6433,11 @@
     {
       "type": "way",
       "id": 133180122,
-      "timestamp": "2014-10-25T09:44:39Z",
-      "version": 3,
-      "changeset": 26316331,
-      "user": "lanzelot72",
-      "uid": 1089198,
+      "timestamp": "2021-11-02T15:04:14Z",
+      "version": 4,
+      "changeset": 113289176,
+      "user": "nurdafur",
+      "uid": 3172019,
       "nodes": [1465538009, 19111637],
       "geometry": [
         {"lat": 48.6809257, "lon": 8.3606634},
@@ -6445,7 +6445,12 @@
         {"lat": 48.6807764, "lon": 8.3608195},
         {"lat": 48.6807308, "lon": 8.3608997}
       ],
-      "tags": {"highway": "residential", "name": "Schifferstraße"}
+      "tags": {
+        "highway": "residential",
+        "lcn": "yes",
+        "name": "Schifferstraße",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -19741,22 +19746,23 @@
     {
       "type": "way",
       "id": 29090867,
-      "timestamp": "2015-05-16T16:37:13Z",
-      "version": 3,
-      "changeset": 31205997,
-      "user": "Nakaner",
-      "uid": 496201,
+      "timestamp": "2021-11-02T15:04:14Z",
+      "version": 4,
+      "changeset": 113289176,
+      "user": "nurdafur",
+      "uid": 3172019,
       "nodes": [122316962, 122317420],
       "geometry": [
         {"lat": 48.6777691, "lon": 8.3616773},
-        {"lat": 48.6779673, "lon": 8.3616902},
-        {"lat": 48.6781707, "lon": 8.3617041},
-        {"lat": 48.6782959, "lon": 8.3616902},
-        {"lat": 48.6791234, "lon": 8.3614169},
-        {"lat": 48.6795752, "lon": 8.3612673}
+        {"lat": 48.6779824, "lon": 8.3617049},
+        {"lat": 48.6781629, "lon": 8.3617229},
+        {"lat": 48.678294, "lon": 8.3617121},
+        {"lat": 48.6791279, "lon": 8.3614326},
+        {"lat": 48.6795767, "lon": 8.3612799}
       ],
       "tags": {
         "highway": "residential",
+        "lcn": "yes",
         "name": "Eckstraße",
         "surface": "asphalt"
       }
@@ -19764,16 +19770,17 @@
     {
       "type": "way",
       "id": 29090868,
-      "timestamp": "2015-05-16T16:37:19Z",
-      "version": 5,
-      "changeset": 31205997,
-      "user": "Nakaner",
-      "uid": 496201,
+      "timestamp": "2021-11-02T15:04:14Z",
+      "version": 6,
+      "changeset": 113289176,
+      "user": "nurdafur",
+      "uid": 3172019,
       "nodes": [122317420, 19111637],
       "geometry": [
-        {"lat": 48.6795752, "lon": 8.3612673},
-        {"lat": 48.6798077, "lon": 8.3611698},
-        {"lat": 48.6800791, "lon": 8.3610555},
+        {"lat": 48.6795767, "lon": 8.3612799},
+        {"lat": 48.6798241, "lon": 8.361195},
+        {"lat": 48.6800861, "lon": 8.3610923},
+        {"lat": 48.6805447, "lon": 8.3609322},
         {"lat": 48.6807308, "lon": 8.3608997}
       ],
       "tags": {
@@ -19785,11 +19792,11 @@
     {
       "type": "way",
       "id": 29090869,
-      "timestamp": "2020-09-06T20:02:10Z",
-      "version": 7,
-      "changeset": 90491983,
-      "user": "Karthoo",
-      "uid": 3232636,
+      "timestamp": "2021-11-02T15:04:14Z",
+      "version": 8,
+      "changeset": 113289176,
+      "user": "nurdafur",
+      "uid": 3172019,
       "nodes": [16927326, 1465538009],
       "geometry": [
         {"lat": 48.6810312, "lon": 8.3608367},
@@ -19799,10 +19806,15 @@
       ],
       "tags": {
         "highway": "primary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "lcn": "yes",
         "maxspeed": "50",
         "name": "Murgtalstraße",
         "ref": "B 462",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes:forward": "left|none"
       }
     },
     {
@@ -22773,8 +22785,8 @@
       "nodes": [16927323, 16927326],
       "geometry": [
         {"lat": 48.6816816, "lon": 8.3609315},
-        {"lat": 48.6812697, "lon": 8.3609108},
-        {"lat": 48.6811497, "lon": 8.3609048},
+        {"lat": 48.6812641, "lon": 8.3609265},
+        {"lat": 48.6811813, "lon": 8.3609188},
         {"lat": 48.6810924, "lon": 8.3608842},
         {"lat": 48.6810312, "lon": 8.3608367}
       ],
@@ -26580,16 +26592,17 @@
     {
       "type": "way",
       "id": 36878271,
-      "timestamp": "2015-01-14T08:29:03Z",
-      "version": 7,
-      "changeset": 28129625,
-      "user": "guenz",
-      "uid": 176514,
+      "timestamp": "2021-11-02T15:04:14Z",
+      "version": 8,
+      "changeset": 113289176,
+      "user": "nurdafur",
+      "uid": 3172019,
       "nodes": [428790151, 1352958654],
       "geometry": [
-        {"lat": 48.6833566, "lon": 8.3615012},
-        {"lat": 48.6833496, "lon": 8.3615876},
-        {"lat": 48.6832985, "lon": 8.3616599},
+        {"lat": 48.6834812, "lon": 8.3614847},
+        {"lat": 48.6834822, "lon": 8.36155},
+        {"lat": 48.6833856, "lon": 8.361599},
+        {"lat": 48.6833202, "lon": 8.36166},
         {"lat": 48.6832094, "lon": 8.3618051},
         {"lat": 48.6831126, "lon": 8.3619676},
         {"lat": 48.6830117, "lon": 8.3620914},
@@ -26618,11 +26631,11 @@
     {
       "type": "way",
       "id": 36878272,
-      "timestamp": "2015-01-29T15:56:20Z",
-      "version": 5,
-      "changeset": 28488218,
-      "user": "Geofreund1",
-      "uid": 179581,
+      "timestamp": "2021-11-02T15:04:14Z",
+      "version": 6,
+      "changeset": 113289176,
+      "user": "nurdafur",
+      "uid": 3172019,
       "nodes": [247710488, 428790151],
       "geometry": [
         {"lat": 48.6849118, "lon": 8.3643077},
@@ -26646,9 +26659,9 @@
         {"lat": 48.6837038, "lon": 8.361558},
         {"lat": 48.6836275, "lon": 8.3614984},
         {"lat": 48.6834981, "lon": 8.3614872},
-        {"lat": 48.6833566, "lon": 8.3615012}
+        {"lat": 48.6834812, "lon": 8.3614847}
       ],
-      "tags": {"highway": "residential", "name": "Schulstraße"}
+      "tags": {"highway": "residential", "lcn": "yes", "name": "Schulstraße"}
     },
     {
       "type": "way",
@@ -35353,18 +35366,18 @@
     {
       "type": "way",
       "id": 58692133,
-      "timestamp": "2020-08-30T09:11:40Z",
-      "version": 3,
-      "changeset": 90139528,
-      "user": "Karthoo",
-      "uid": 3232636,
+      "timestamp": "2021-11-02T15:04:14Z",
+      "version": 4,
+      "changeset": 113289176,
+      "user": "nurdafur",
+      "uid": 3172019,
       "nodes": [727292387, 727292535],
       "geometry": [
         {"lat": 48.6831286, "lon": 8.3616783},
         {"lat": 48.6830904, "lon": 8.3616954},
         {"lat": 48.6830358, "lon": 8.3616537}
       ],
-      "tags": {"highway": "footway"}
+      "tags": {"highway": "footway", "surface": "asphalt"}
     },
     {
       "type": "way",
@@ -45872,62 +45885,72 @@
     {
       "type": "way",
       "id": 842326882,
-      "timestamp": "2020-08-30T09:11:40Z",
-      "version": 1,
-      "changeset": 90139528,
-      "user": "Karthoo",
-      "uid": 3232636,
+      "timestamp": "2021-11-02T15:04:14Z",
+      "version": 2,
+      "changeset": 113289176,
+      "user": "nurdafur",
+      "uid": 3172019,
       "nodes": [247710591, 247710609],
       "geometry": [
         {"lat": 48.6830462, "lon": 8.3612165},
         {"lat": 48.6830765, "lon": 8.3614368}
       ],
-      "tags": {"highway": "residential", "name": "Schulstraße"}
+      "tags": {
+        "highway": "residential",
+        "lcn": "yes",
+        "name": "Schulstraße",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 842326883,
-      "timestamp": "2020-08-30T09:11:40Z",
-      "version": 1,
-      "changeset": 90139528,
-      "user": "Karthoo",
-      "uid": 3232636,
+      "timestamp": "2021-11-02T15:04:14Z",
+      "version": 2,
+      "changeset": 113289176,
+      "user": "nurdafur",
+      "uid": 3172019,
       "nodes": [727292462, 727292387],
       "geometry": [
         {"lat": 48.6832724, "lon": 8.3615686},
         {"lat": 48.6831286, "lon": 8.3616783}
       ],
-      "tags": {"highway": "footway"}
+      "tags": {"highway": "footway", "surface": "asphalt"}
     },
     {
       "type": "way",
       "id": 842326884,
-      "timestamp": "2020-08-30T09:11:40Z",
-      "version": 1,
-      "changeset": 90139528,
-      "user": "Karthoo",
-      "uid": 3232636,
+      "timestamp": "2021-11-02T15:04:14Z",
+      "version": 2,
+      "changeset": 113289176,
+      "user": "nurdafur",
+      "uid": 3172019,
       "nodes": [727292462, 428790151],
       "geometry": [
         {"lat": 48.6832724, "lon": 8.3615686},
-        {"lat": 48.6833566, "lon": 8.3615012}
+        {"lat": 48.6834812, "lon": 8.3614847}
       ],
-      "tags": {"highway": "residential", "name": "Schulstraße"}
+      "tags": {
+        "highway": "residential",
+        "lcn": "yes",
+        "name": "Schulstraße",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 842326885,
-      "timestamp": "2020-08-30T09:11:40Z",
-      "version": 1,
-      "changeset": 90139528,
-      "user": "Karthoo",
-      "uid": 3232636,
+      "timestamp": "2021-11-02T15:04:14Z",
+      "version": 2,
+      "changeset": 113289176,
+      "user": "nurdafur",
+      "uid": 3172019,
       "nodes": [727292535, 247710609],
       "geometry": [
         {"lat": 48.6830358, "lon": 8.3616537},
         {"lat": 48.6830765, "lon": 8.3614368}
       ],
-      "tags": {"highway": "service"}
+      "tags": {"highway": "service", "surface": "asphalt"}
     },
     {
       "type": "way",
