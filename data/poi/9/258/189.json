@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-11-02T23:59:59Z",
-    "timestamp_osm_base": "2021-11-03T04:02:12Z",
+    "timestamp_osm_date": "2021-11-03T23:59:59Z",
+    "timestamp_osm_base": "2021-11-04T04:07:27Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -11752,16 +11752,16 @@
       "id": 2398514993,
       "lat": 42.1353226,
       "lon": 1.9932433,
-      "timestamp": "2021-11-02T17:22:17Z",
-      "version": 3,
-      "changeset": 113294869,
+      "timestamp": "2021-11-03T18:48:56Z",
+      "version": 4,
+      "changeset": 113345199,
       "user": "aTarom",
       "uid": 5127355,
       "tags": {
         "addr:city": "Borredà",
         "addr:housenumber": "1",
         "addr:postcode": "08619",
-        "addr:street": "Carrer de Sant Marc",
+        "addr:street": "carrer de Sant Marc",
         "name": "Supermercat Sant Marc",
         "phone": "+34938239038",
         "ref:vatin": "ESA58106535",
@@ -32561,14 +32561,16 @@
       "id": 9208013035,
       "lat": 42.5200165,
       "lon": 1.5233725,
-      "timestamp": "2021-10-28T15:45:51Z",
-      "version": 1,
-      "changeset": 113088263,
+      "timestamp": "2021-11-03T15:11:10Z",
+      "version": 2,
+      "changeset": 113337128,
       "user": "Toni Serra",
       "uid": 3859465,
       "tags": {
         "amenity": "drinking_water",
-        "name": "Font de la Grella. no travtada"
+        "drinking_water": "yes",
+        "drinking_water:legal": "no",
+        "name": "Font de la Grella"
       }
     },
     {
@@ -36444,6 +36446,25 @@
         "landuse": "residential",
         "name": "Víllec",
         "place": "hamlet"
+      }
+    },
+    {
+      "type": "way",
+      "id": 998721417,
+      "timestamp": "2021-11-03T11:05:27Z",
+      "version": 1,
+      "changeset": 113326609,
+      "user": "Toni Serra",
+      "uid": 3859465,
+      "center": {
+        "lat": 42.5045407,
+        "lon": 1.5208564
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "name": "Estació Nacional d'Autobussos",
+        "shelter_type": "public_transport"
       }
     }
   ]

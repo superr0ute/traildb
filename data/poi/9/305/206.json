@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-11-02T23:59:59Z",
-    "timestamp_osm_base": "2021-11-03T05:28:13Z",
+    "timestamp_osm_date": "2021-11-03T23:59:59Z",
+    "timestamp_osm_base": "2021-11-04T05:31:13Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4371,22 +4371,25 @@
       "id": 2697463003,
       "lat": 32.810224,
       "lon": 35.067036,
-      "timestamp": "2017-09-25T06:33:12Z",
-      "version": 6,
-      "changeset": 52345502,
-      "user": "SafwatHalaby",
-      "uid": 2138064,
+      "timestamp": "2021-11-03T17:37:39Z",
+      "version": 7,
+      "changeset": 113342602,
+      "user": "shimi810",
+      "uid": 1625034,
       "tags": {
         "brand": "Yaynot Bitan",
         "brand:wikidata": "Q6561327",
         "brand:wikipedia": "he:יינות ביתן",
-        "name": "יינות ביתן",
-        "name:en": "Yaynot Bitan",
+        "closed": "yes",
+        "name": "יינות ביתן (סגור)",
+        "name:en": "Yaynot Bitan (Closed)",
         "name:he": "יינות ביתן",
         "name:ru": "Яэнот Битан",
+        "old_name": "Home Center",
         "organic": "no",
         "shop": "supermarket",
-        "website": "https://www.ybitan.co.il"
+        "website": "https://www.ybitan.co.il",
+        "שם ישן": "הום סנטר"
       }
     },
     {
@@ -4416,13 +4419,13 @@
     {
       "type": "node",
       "id": 2697487920,
-      "lat": 32.8090773,
-      "lon": 35.075474,
-      "timestamp": "2017-09-25T06:41:28Z",
-      "version": 8,
-      "changeset": 52345661,
-      "user": "SafwatHalaby",
-      "uid": 2138064,
+      "lat": 32.8068901,
+      "lon": 35.07756,
+      "timestamp": "2021-11-03T19:14:45Z",
+      "version": 9,
+      "changeset": 113346009,
+      "user": "shimi810",
+      "uid": 1625034,
       "tags": {
         "addr:city": "קרית אתא",
         "addr:housenumber": "52",
@@ -4430,7 +4433,7 @@
         "brand": "Shufersal",
         "brand:wikidata": "Q4523181",
         "brand:wikipedia": "en:Shufersal",
-        "name": "שופרסל דיל",
+        "name": "Shufersal",
         "name:en": "Shufersal Deal",
         "name:he": "שופרסל דיל",
         "name:ru": "Шуферсаль Диль",
@@ -8441,30 +8444,35 @@
       }
     },
     {
-      "type": "way",
-      "id": 35022281,
-      "timestamp": "2017-09-25T06:42:11Z",
-      "version": 8,
-      "changeset": 52345661,
-      "user": "SafwatHalaby",
-      "uid": 2138064,
-      "center": {
-        "lat": 32.810243,
-        "lon": 35.0682506
-      },
-      "nodes": [],
+      "type": "node",
+      "id": 9221782712,
+      "lat": 32.810799,
+      "lon": 35.0715745,
+      "timestamp": "2021-11-03T17:37:39Z",
+      "version": 1,
+      "changeset": 113342602,
+      "user": "shimi810",
+      "uid": 1625034,
       "tags": {
-        "brand": "Shufersal",
-        "brand:wikidata": "Q4523181",
-        "brand:wikipedia": "en:Shufersal",
-        "building": "yes",
-        "name": "שופרסל דיל",
-        "name:en": "Shufersal Deal",
-        "name:he": "שופרסל דיל",
-        "name:ru": "Шуферсаль Диль",
-        "organic": "no",
-        "shop": "supermarket",
-        "website": "https://www.shufersal.co.il"
+        "name": "מחסני מזון",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9221942593,
+      "lat": 32.8111047,
+      "lon": 35.0740944,
+      "timestamp": "2021-11-03T18:50:01Z",
+      "version": 1,
+      "changeset": 113345226,
+      "user": "shimi810",
+      "uid": 1625034,
+      "tags": {
+        "name": "ניצת הדובדבן",
+        "name:en": "Nitzat OrganicStore",
+        "organic": "only",
+        "shop": "supermarket"
       }
     },
     {
