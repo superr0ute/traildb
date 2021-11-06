@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-02T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-05T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -732,11 +732,11 @@
     {
       "type": "relation",
       "id": 6946454,
-      "timestamp": "2021-10-17T15:50:11Z",
-      "version": 32,
-      "changeset": 112617848,
-      "user": "amadvance",
-      "uid": 6408564,
+      "timestamp": "2021-11-05T13:11:34Z",
+      "version": 33,
+      "changeset": 113408842,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "members": [
         {"type": "way", "ref": 621289275, "role": ""},
         {"type": "way", "ref": 472038092, "role": ""},
@@ -762,7 +762,6 @@
         {"type": "way", "ref": 176803402, "role": ""},
         {"type": "way", "ref": 712514085, "role": ""},
         {"type": "way", "ref": 734449622, "role": ""},
-        {"type": "way", "ref": 903117857, "role": ""},
         {"type": "way", "ref": 513696246, "role": ""},
         {"type": "way", "ref": 712514083, "role": ""}
       ],
@@ -87209,12 +87208,12 @@
     {
       "type": "way",
       "id": 712514085,
-      "timestamp": "2021-02-02T17:18:39Z",
-      "version": 4,
-      "changeset": 98592305,
-      "user": "amadvance",
-      "uid": 6408564,
-      "nodes": [489363753, 3648416903],
+      "timestamp": "2021-11-05T13:11:34Z",
+      "version": 5,
+      "changeset": 113408842,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
+      "nodes": [489363753, 9227092689],
       "geometry": [
         {"lat": 46.0477002, "lon": 9.6243076},
         {"lat": 46.0477995, "lon": 9.6244858},
@@ -87262,7 +87261,7 @@
         {"lat": 46.0498526, "lon": 9.6362216},
         {"lat": 46.0499709, "lon": 9.636146},
         {"lat": 46.0500719, "lon": 9.6362182},
-        {"lat": 46.0502599, "lon": 9.636265}
+        {"lat": 46.0502025, "lon": 9.6362507}
       ],
       "tags": {"highway": "path"}
     },
@@ -91902,14 +91901,19 @@
     {
       "type": "way",
       "id": 734449622,
-      "timestamp": "2021-02-02T17:18:39Z",
-      "version": 2,
-      "changeset": 98592305,
-      "user": "amadvance",
-      "uid": 6408564,
-      "nodes": [3648416900, 2559709751],
+      "timestamp": "2021-11-05T13:11:34Z",
+      "version": 3,
+      "changeset": 113408842,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
+      "nodes": [9227092689, 2559709751],
       "geometry": [
-        {"lat": 46.0506799, "lon": 9.6368168},
+        {"lat": 46.0502025, "lon": 9.6362507},
+        {"lat": 46.0503334, "lon": 9.6362563},
+        {"lat": 46.0504987, "lon": 9.6363217},
+        {"lat": 46.0505076, "lon": 9.6364431},
+        {"lat": 46.0505093, "lon": 9.6365026},
+        {"lat": 46.0505749, "lon": 9.6366906},
         {"lat": 46.0506587, "lon": 9.6368899},
         {"lat": 46.0506166, "lon": 9.6370907},
         {"lat": 46.0505517, "lon": 9.6372799},
@@ -97933,28 +97937,6 @@
         "highway": "track",
         "motor_vehicle": "permit",
         "note": "non rilevato dal vivo ma ricalcato dalle ortofoto"
-      }
-    },
-    {
-      "type": "way",
-      "id": 903117857,
-      "timestamp": "2021-02-02T17:18:39Z",
-      "version": 1,
-      "changeset": 98592305,
-      "user": "amadvance",
-      "uid": 6408564,
-      "nodes": [3648416903, 3648416900],
-      "geometry": [
-        {"lat": 46.0502599, "lon": 9.636265},
-        {"lat": 46.0503677, "lon": 9.6363305},
-        {"lat": 46.0505077, "lon": 9.6363667},
-        {"lat": 46.0505989, "lon": 9.6366052},
-        {"lat": 46.0506799, "lon": 9.6368168}
-      ],
-      "tags": {
-        "highway": "path",
-        "name": "Ca' San Marco - San Simone (Baita Camoscio)",
-        "ref": "101"
       }
     },
     {
