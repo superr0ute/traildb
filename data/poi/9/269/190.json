@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-11-06T23:59:59Z",
-    "timestamp_osm_base": "2021-11-07T05:20:34Z",
+    "timestamp_osm_date": "2021-11-07T23:59:59Z",
+    "timestamp_osm_base": "2021-11-08T04:47:41Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -728,14 +728,15 @@
       "id": 347510142,
       "lat": 42.0036933,
       "lon": 9.3638435,
-      "timestamp": "2013-12-12T01:21:40Z",
-      "version": 3,
-      "changeset": 19405183,
-      "user": "RedFox",
-      "uid": 10610,
+      "timestamp": "2021-11-07T01:15:53Z",
+      "version": 4,
+      "changeset": 113465305,
+      "user": "Kioska Journo",
+      "uid": 402585,
       "tags": {
-        "place": "village",
-        "name": "Abbazia"
+        "name": "Abbazia",
+        "name:co": "L'Abbazia",
+        "place": "village"
       }
     },
     {
@@ -743,14 +744,15 @@
       "id": 347510143,
       "lat": 41.9973575,
       "lon": 9.3877624,
-      "timestamp": "2013-12-12T01:26:23Z",
-      "version": 3,
-      "changeset": 19405183,
-      "user": "RedFox",
-      "uid": 10610,
+      "timestamp": "2021-11-07T01:15:53Z",
+      "version": 4,
+      "changeset": 113465305,
+      "user": "Kioska Journo",
+      "uid": 402585,
       "tags": {
-        "place": "village",
-        "name": "Morta"
+        "name": "Morta",
+        "name:co": "A Morta",
+        "place": "village"
       }
     },
     {
@@ -1500,21 +1502,6 @@
         "name:co": "U Pricoghju",
         "name:fr": "Precojo",
         "place": "hamlet"
-      }
-    },
-    {
-      "type": "node",
-      "id": 528173896,
-      "lat": 41.9909818,
-      "lon": 9.4101499,
-      "timestamp": "2017-07-19T14:24:35Z",
-      "version": 3,
-      "changeset": 50407539,
-      "user": "PhilLL",
-      "uid": 1710208,
-      "tags": {
-        "name": "Camping Campu Serenu",
-        "tourism": "camp_site"
       }
     },
     {
@@ -3871,16 +3858,17 @@
       "id": 6915803905,
       "lat": 41.9993062,
       "lon": 9.3988453,
-      "timestamp": "2019-10-25T13:28:43Z",
-      "version": 1,
-      "changeset": 76209736,
-      "user": "PhilLL",
-      "uid": 1710208,
+      "timestamp": "2021-11-07T01:16:16Z",
+      "version": 2,
+      "changeset": 113465306,
+      "user": "Kioska Journo",
+      "uid": 402585,
       "tags": {
-        "wikipedia": "fr:Migliacciaro",
         "name": "Migliacciaro",
+        "name:co": "U Millacciaghju",
         "place": "village",
-        "wikidata": "Q3312868"
+        "wikidata": "Q3312868",
+        "wikipedia": "fr:Migliacciaro"
       }
     },
     {
@@ -5066,24 +5054,6 @@
     },
     {
       "type": "node",
-      "id": 7449345730,
-      "lat": 41.9869122,
-      "lon": 9.3988906,
-      "timestamp": "2020-05-06T15:52:02Z",
-      "version": 2,
-      "changeset": 84770067,
-      "user": "PhilLL",
-      "uid": 1710208,
-      "tags": {
-        "email": "contact@camping-viaromana.com",
-        "name": "Camping Via Romana",
-        "phone": "+33 4 95 57 07 02",
-        "tourism": "camp_site",
-        "website": "https://www.camping-viaromana.com"
-      }
-    },
-    {
-      "type": "node",
       "id": 7454180677,
       "lat": 42.0053532,
       "lon": 9.3789689,
@@ -6144,6 +6114,36 @@
       "uid": 11291099,
       "tags": {
         "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9231369161,
+      "lat": 41.9857607,
+      "lon": 9.3891048,
+      "timestamp": "2021-11-07T01:15:51Z",
+      "version": 1,
+      "changeset": 113465305,
+      "user": "Kioska Journo",
+      "uid": 402585,
+      "tags": {
+        "name": "Pietrolojo",
+        "place": "hamlet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9231369162,
+      "lat": 41.9845605,
+      "lon": 9.3934071,
+      "timestamp": "2021-11-07T01:15:51Z",
+      "version": 1,
+      "changeset": 113465305,
+      "user": "Kioska Journo",
+      "uid": 402585,
+      "tags": {
+        "name": "Cotticcio",
+        "place": "hamlet"
       }
     },
     {
@@ -7665,6 +7665,45 @@
         "phone": "+33619810619",
         "tourism": "camp_site",
         "website": "https://glampingcorsica.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1000065959,
+      "timestamp": "2021-11-07T01:15:51Z",
+      "version": 1,
+      "changeset": 113465305,
+      "user": "Kioska Journo",
+      "uid": 402585,
+      "center": {
+        "lat": 41.990382,
+        "lon": 9.4099001
+      },
+      "nodes": [],
+      "tags": {
+        "name": "Camping Campu Serenu",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1000066049,
+      "timestamp": "2021-11-07T01:15:51Z",
+      "version": 1,
+      "changeset": 113465305,
+      "user": "Kioska Journo",
+      "uid": 402585,
+      "center": {
+        "lat": 41.9864735,
+        "lon": 9.3980473
+      },
+      "nodes": [],
+      "tags": {
+        "email": "contact@camping-viaromana.com",
+        "name": "Camping Via Romana",
+        "phone": "+33 4 95 57 07 02",
+        "tourism": "camp_site",
+        "website": "https://www.camping-viaromana.com"
       }
     }
   ]
