@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-02T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-07T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1073,9 +1073,9 @@
     {
       "type": "relation",
       "id": 62897,
-      "timestamp": "2021-10-31T20:45:12Z",
-      "version": 204,
-      "changeset": 113208446,
+      "timestamp": "2021-11-07T15:03:46Z",
+      "version": 205,
+      "changeset": 113483668,
       "user": "Shaun das Schaf",
       "uid": 1228402,
       "members": [
@@ -1380,6 +1380,8 @@
         {"type": "way", "ref": 816685956, "role": ""},
         {"type": "way", "ref": 37118545, "role": ""},
         {"type": "way", "ref": 136531177, "role": ""},
+        {"type": "way", "ref": 1000291702, "role": ""},
+        {"type": "way", "ref": 1000291703, "role": ""},
         {"type": "way", "ref": 186695202, "role": ""},
         {"type": "way", "ref": 37118544, "role": ""},
         {"type": "way", "ref": 190822756, "role": ""},
@@ -2710,6 +2712,67 @@
         "symbol": "Liegende rote Raute auf weißem Grund",
         "type": "route",
         "wiki:symbol": "Symbol_Westweg.svg"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1000291702,
+      "timestamp": "2021-11-07T15:03:46Z",
+      "version": 1,
+      "changeset": 113483668,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
+      "nodes": [416036255, 1629009836],
+      "geometry": [
+        {"lat": 47.7496868, "lon": 7.7052995},
+        {"lat": 47.7497874, "lon": 7.7053968},
+        {"lat": 47.7500902, "lon": 7.7054904}
+      ],
+      "tags": {"highway": "track", "sac_scale": "hiking", "tracktype": "grade2"}
+    },
+    {
+      "type": "way",
+      "id": 1000291703,
+      "timestamp": "2021-11-07T15:03:46Z",
+      "version": 1,
+      "changeset": 113483668,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
+      "nodes": [300472417, 416036255],
+      "geometry": [
+        {"lat": 47.7440091, "lon": 7.6970108},
+        {"lat": 47.7440737, "lon": 7.6969213},
+        {"lat": 47.7441394, "lon": 7.6968434},
+        {"lat": 47.7442221, "lon": 7.6968009},
+        {"lat": 47.744309, "lon": 7.6967939},
+        {"lat": 47.7445127, "lon": 7.6968554},
+        {"lat": 47.7448375, "lon": 7.6969714},
+        {"lat": 47.7451008, "lon": 7.697095},
+        {"lat": 47.7453996, "lon": 7.6972361},
+        {"lat": 47.7455731, "lon": 7.6973712},
+        {"lat": 47.745695, "lon": 7.6975881},
+        {"lat": 47.7456708, "lon": 7.6976058},
+        {"lat": 47.745733, "lon": 7.6978242},
+        {"lat": 47.7457718, "lon": 7.6980327},
+        {"lat": 47.7457527, "lon": 7.6982989},
+        {"lat": 47.7456903, "lon": 7.6986357},
+        {"lat": 47.7456761, "lon": 7.6988121},
+        {"lat": 47.7456979, "lon": 7.6990124},
+        {"lat": 47.7457866, "lon": 7.6992693},
+        {"lat": 47.7459369, "lon": 7.6994733},
+        {"lat": 47.7467967, "lon": 7.7003834},
+        {"lat": 47.747488, "lon": 7.7010568},
+        {"lat": 47.7484459, "lon": 7.7024948},
+        {"lat": 47.7489814, "lon": 7.7033884},
+        {"lat": 47.7494066, "lon": 7.7043512},
+        {"lat": 47.749527, "lon": 7.7047374},
+        {"lat": 47.7496868, "lon": 7.7052995}
+      ],
+      "tags": {
+        "highway": "track",
+        "name": "Riesenweg",
+        "sac_scale": "hiking",
+        "tracktype": "grade2"
       }
     },
     {
@@ -6130,17 +6193,22 @@
     {
       "type": "way",
       "id": 131349088,
-      "timestamp": "2011-09-25T21:14:58Z",
-      "version": 1,
-      "changeset": 9397152,
-      "user": "Snoopy88",
-      "uid": 36569,
+      "timestamp": "2021-11-07T15:03:46Z",
+      "version": 2,
+      "changeset": 113483668,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
       "nodes": [416056712, 725163947],
       "geometry": [
         {"lat": 47.7857398, "lon": 7.7207146},
         {"lat": 47.7857895, "lon": 7.7210844}
       ],
-      "tags": {"highway": "track", "tracktype": "grade3"}
+      "tags": {
+        "highway": "track",
+        "name": "Stockbergweg",
+        "surface": "gravel",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
@@ -6551,41 +6619,13 @@
     {
       "type": "way",
       "id": 136531177,
-      "timestamp": "2021-03-08T17:11:47Z",
-      "version": 10,
-      "changeset": 100652591,
-      "user": "Powerfuzzy",
-      "uid": 10691734,
-      "nodes": [300472417, 1372397509],
+      "timestamp": "2021-11-07T15:03:46Z",
+      "version": 11,
+      "changeset": 113483668,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
+      "nodes": [1629009836, 1372397509],
       "geometry": [
-        {"lat": 47.7440091, "lon": 7.6970108},
-        {"lat": 47.7440737, "lon": 7.6969213},
-        {"lat": 47.7441394, "lon": 7.6968434},
-        {"lat": 47.7442221, "lon": 7.6968009},
-        {"lat": 47.744309, "lon": 7.6967939},
-        {"lat": 47.7445127, "lon": 7.6968554},
-        {"lat": 47.7448375, "lon": 7.6969714},
-        {"lat": 47.7451008, "lon": 7.697095},
-        {"lat": 47.7453996, "lon": 7.6972361},
-        {"lat": 47.7455731, "lon": 7.6973712},
-        {"lat": 47.745695, "lon": 7.6975881},
-        {"lat": 47.7456708, "lon": 7.6976058},
-        {"lat": 47.745733, "lon": 7.6978242},
-        {"lat": 47.7457718, "lon": 7.6980327},
-        {"lat": 47.7457527, "lon": 7.6982989},
-        {"lat": 47.7456903, "lon": 7.6986357},
-        {"lat": 47.7456761, "lon": 7.6988121},
-        {"lat": 47.7456979, "lon": 7.6990124},
-        {"lat": 47.7457866, "lon": 7.6992693},
-        {"lat": 47.7459369, "lon": 7.6994733},
-        {"lat": 47.7467967, "lon": 7.7003834},
-        {"lat": 47.747488, "lon": 7.7010568},
-        {"lat": 47.7484459, "lon": 7.7024948},
-        {"lat": 47.7489814, "lon": 7.7033884},
-        {"lat": 47.7494066, "lon": 7.7043512},
-        {"lat": 47.749527, "lon": 7.7047374},
-        {"lat": 47.7496868, "lon": 7.7052995},
-        {"lat": 47.7497874, "lon": 7.7053968},
         {"lat": 47.7500902, "lon": 7.7054904},
         {"lat": 47.7501265, "lon": 7.7054664},
         {"lat": 47.7502609, "lon": 7.7053777},
@@ -6624,8 +6664,6 @@
         {"lat": 47.7617274, "lon": 7.7083921}
       ],
       "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
         "name": "Hexenplatzweg",
         "sac_scale": "hiking",
@@ -11023,11 +11061,11 @@
     {
       "type": "way",
       "id": 186695210,
-      "timestamp": "2012-10-19T21:42:53Z",
-      "version": 1,
-      "changeset": 13562226,
-      "user": "Stefan Karl",
-      "uid": 101348,
+      "timestamp": "2021-11-07T15:03:46Z",
+      "version": 2,
+      "changeset": 113483668,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
       "nodes": [1079129969, 416056783],
       "geometry": [
         {"lat": 47.7907206, "lon": 7.7525252},
@@ -11035,7 +11073,11 @@
         {"lat": 47.7904666, "lon": 7.7527285},
         {"lat": 47.7903759, "lon": 7.7528794}
       ],
-      "tags": {"highway": "track", "tracktype": "grade3"}
+      "tags": {
+        "highway": "track",
+        "name": "Stühle-Egertenweg",
+        "tracktype": "grade3"
+      }
     },
     {
       "type": "way",
@@ -45098,11 +45140,11 @@
     {
       "type": "way",
       "id": 798644213,
-      "timestamp": "2020-05-01T08:11:05Z",
-      "version": 1,
-      "changeset": 84457218,
-      "user": "Pierre Pedes",
-      "uid": 631205,
+      "timestamp": "2021-11-07T15:24:25Z",
+      "version": 2,
+      "changeset": 113484403,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
       "nodes": [311077866, 311077853],
       "geometry": [
         {"lat": 47.6476491, "lon": 7.8758288},
@@ -45121,7 +45163,6 @@
         {"lat": 47.6467215, "lon": 7.8707748}
       ],
       "tags": {
-        "bicycle": "yes",
         "cycleway": "track",
         "highway": "track",
         "lcn": "yes",
@@ -46612,11 +46653,11 @@
     {
       "type": "way",
       "id": 887585050,
-      "timestamp": "2020-12-22T16:48:54Z",
-      "version": 1,
-      "changeset": 96271911,
-      "user": "Powerfuzzy",
-      "uid": 10691734,
+      "timestamp": "2021-11-07T15:03:46Z",
+      "version": 2,
+      "changeset": 113483668,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
       "nodes": [316326627, 1972974932],
       "geometry": [
         {"lat": 47.8052193, "lon": 7.8028688},
@@ -46651,7 +46692,7 @@
         "motor_vehicle": "forestry",
         "mtb:scale": "0",
         "mtb:scale:uphill": "0",
-        "name": "Kapellenweg",
+        "name": "Unterer Stuhlskopfweg",
         "sac_scale": "hiking",
         "surface": "gravel",
         "tracktype": "grade2",
