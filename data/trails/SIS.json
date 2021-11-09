@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-07T02:35:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-09T02:34:33Z"},
   "elements": [
     {
       "type": "relation",
@@ -1697,16 +1697,15 @@
     {
       "type": "relation",
       "id": 9351675,
-      "timestamp": "2021-08-26T14:18:01Z",
-      "version": 47,
-      "changeset": 110291408,
+      "timestamp": "2021-11-08T08:51:57Z",
+      "version": 48,
+      "changeset": 113511679,
       "user": "aldoct",
       "uid": 923271,
       "members": [
         {"type": "way", "ref": 844849974, "role": ""},
         {"type": "way", "ref": 844849982, "role": ""},
         {"type": "way", "ref": 844849935, "role": ""},
-        {"type": "way", "ref": 844849934, "role": ""},
         {"type": "way", "ref": 664636459, "role": ""},
         {"type": "way", "ref": 907009682, "role": ""},
         {"type": "way", "ref": 127727173, "role": ""},
@@ -42898,11 +42897,11 @@
     {
       "type": "way",
       "id": 664636459,
-      "timestamp": "2021-06-24T14:20:05Z",
-      "version": 5,
-      "changeset": 106905943,
-      "user": "Peppesass",
-      "uid": 8094482,
+      "timestamp": "2021-11-08T08:51:57Z",
+      "version": 6,
+      "changeset": 113511679,
+      "user": "aldoct",
+      "uid": 923271,
       "nodes": [428897551, 7882016717],
       "geometry": [
         {"lat": 37.8749176, "lon": 14.9449774, "z": 780.4},
@@ -42920,7 +42919,7 @@
         {"lat": 37.8763802, "lon": 14.9467231, "z": 767.4},
         {"lat": 37.8763914, "lon": 14.9468134, "z": 767}
       ],
-      "tags": {"highway": "primary", "name": "Viale dei Caduti"}
+      "tags": {"highway": "primary", "name": "Viale dei Caduti", "ref": "SS120"}
     },
     {
       "type": "way",
@@ -54773,42 +54772,28 @@
     },
     {
       "type": "way",
-      "id": 844849934,
-      "timestamp": "2020-09-06T20:52:40Z",
-      "version": 1,
-      "changeset": 90493137,
-      "user": "fayor",
-      "uid": 743479,
-      "nodes": [7882016717, 428897567],
+      "id": 844849935,
+      "timestamp": "2021-11-08T08:51:57Z",
+      "version": 2,
+      "changeset": 113511679,
+      "user": "aldoct",
+      "uid": 923271,
+      "nodes": [7882016717, 7882016715],
       "geometry": [
         {"lat": 37.8763914, "lon": 14.9468134, "z": 767},
         {"lat": 37.8763984, "lon": 14.9468701, "z": 766.8},
         {"lat": 37.8764142, "lon": 14.9470097, "z": 766.2},
-        {"lat": 37.8764325, "lon": 14.9471476, "z": 765.7}
-      ],
-      "tags": {"highway": "primary", "surface": "asphalt"}
-    },
-    {
-      "type": "way",
-      "id": 844849935,
-      "timestamp": "2020-09-06T20:52:40Z",
-      "version": 1,
-      "changeset": 90493137,
-      "user": "fayor",
-      "uid": 743479,
-      "nodes": [428897567, 7882016715],
-      "geometry": [
         {"lat": 37.8764325, "lon": 14.9471476, "z": 765.7},
         {"lat": 37.8764437, "lon": 14.9471894, "z": 765.5}
       ],
-      "tags": {"highway": "primary", "surface": "asphalt"}
+      "tags": {"highway": "primary", "ref": "SS120", "surface": "asphalt"}
     },
     {
       "type": "way",
       "id": 844849974,
-      "timestamp": "2021-08-26T14:18:01Z",
-      "version": 2,
-      "changeset": 110291408,
+      "timestamp": "2021-11-08T08:51:57Z",
+      "version": 3,
+      "changeset": 113511679,
       "user": "aldoct",
       "uid": 923271,
       "nodes": [7882016818, 274972551],
@@ -54822,32 +54807,32 @@
         {"lat": 37.8777808, "lon": 14.950752, "z": 754.8},
         {"lat": 37.8778067, "lon": 14.9508701, "z": 754.5}
       ],
-      "tags": {"highway": "primary", "surface": "paving_stones"}
+      "tags": {"highway": "primary", "ref": "SS120", "surface": "paving_stones"}
     },
     {
       "type": "way",
       "id": 844849979,
-      "timestamp": "2020-09-06T20:52:40Z",
-      "version": 1,
-      "changeset": 90493137,
-      "user": "fayor",
-      "uid": 743479,
+      "timestamp": "2021-11-08T08:51:57Z",
+      "version": 2,
+      "changeset": 113511679,
+      "user": "aldoct",
+      "uid": 923271,
       "nodes": [274972551, 5586516805],
       "geometry": [
         {"lat": 37.8778067, "lon": 14.9508701, "z": 754.5},
         {"lat": 37.8781399, "lon": 14.9513319, "z": 753.6},
         {"lat": 37.8781721, "lon": 14.9513707, "z": 753.5}
       ],
-      "tags": {"highway": "primary", "surface": "asphalt"}
+      "tags": {"highway": "primary", "ref": "SS120", "surface": "asphalt"}
     },
     {
       "type": "way",
       "id": 844849982,
-      "timestamp": "2020-09-06T20:52:40Z",
-      "version": 1,
-      "changeset": 90493137,
-      "user": "fayor",
-      "uid": 743479,
+      "timestamp": "2021-11-08T08:51:57Z",
+      "version": 2,
+      "changeset": 113511679,
+      "user": "aldoct",
+      "uid": 923271,
       "nodes": [7882016715, 7882016818],
       "geometry": [
         {"lat": 37.8764437, "lon": 14.9471894, "z": 765.5},
@@ -54862,6 +54847,7 @@
       "tags": {
         "highway": "primary",
         "name": "Via Regina Margherita",
+        "ref": "SS120",
         "surface": "paving_stones"
       }
     },
@@ -56344,11 +56330,11 @@
     {
       "type": "way",
       "id": 907009682,
-      "timestamp": "2021-02-14T10:50:31Z",
-      "version": 1,
-      "changeset": 99244550,
-      "user": "agliatav",
-      "uid": 1034051,
+      "timestamp": "2021-11-08T08:51:57Z",
+      "version": 2,
+      "changeset": 113511679,
+      "user": "aldoct",
+      "uid": 923271,
       "nodes": [428897537, 428897551],
       "geometry": [
         {"lat": 37.8753103, "lon": 14.9443477, "z": 785.2},
@@ -56370,6 +56356,7 @@
       "tags": {
         "highway": "primary",
         "name": "Viale dei Caduti",
+        "ref": "SS120",
         "surface": "asphalt"
       }
     },

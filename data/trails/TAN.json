@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-06T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-08T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -746,11 +746,11 @@
     {
       "type": "relation",
       "id": 9464774,
-      "timestamp": "2020-06-26T20:29:43Z",
-      "version": 19,
-      "changeset": 87212213,
-      "user": "DavidLiu5059",
-      "uid": 9549981,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 20,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "members": [
         {"type": "way", "ref": 25774198, "role": ""},
         {"type": "way", "ref": 769755389, "role": ""},
@@ -759,10 +759,7 @@
         {"type": "way", "ref": 808900303, "role": ""},
         {"type": "way", "ref": 778133395, "role": ""},
         {"type": "way", "ref": 192894798, "role": ""},
-        {"type": "way", "ref": 192894794, "role": ""},
-        {"type": "way", "ref": 25774172, "role": ""},
         {"type": "way", "ref": 778460586, "role": ""},
-        {"type": "way", "ref": 778460574, "role": ""},
         {"type": "way", "ref": 412590190, "role": ""},
         {"type": "way", "ref": 26345318, "role": ""},
         {"type": "way", "ref": 778460585, "role": ""},
@@ -782,7 +779,13 @@
         {"type": "way", "ref": 171595106, "role": ""},
         {"type": "way", "ref": 171590155, "role": ""},
         {"type": "way", "ref": 180802528, "role": ""},
-        {"type": "way", "ref": 691966325, "role": ""}
+        {"type": "way", "ref": 691966325, "role": ""},
+        {"type": "way", "ref": 1000532191, "role": ""},
+        {"type": "way", "ref": 778460578, "role": ""},
+        {"type": "way", "ref": 778460577, "role": ""},
+        {"type": "way", "ref": 778460573, "role": ""},
+        {"type": "way", "ref": 778460576, "role": ""},
+        {"type": "way", "ref": 778460579, "role": ""}
       ],
       "tags": {
         "description": "Road margins all the way. Shoulders often minimal. Face the oncoming traffic (you on right side in Aotearoa-New Zealand), EXCEPT where: a) view ahead is restricted - drivers of you b) there is a footpath on the other side",
@@ -3807,6 +3810,28 @@
         "type": "route",
         "website": "https://www.teararoa.org.nz/whanganui/whanganui-river/",
         "wikidata": "Q4242105"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1000532191,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 1,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
+      "nodes": [3888485063, 2837550994],
+      "geometry": [
+        {"lat": -40.1838976, "lon": 175.3864711},
+        {"lat": -40.1839116, "lon": 175.3863952},
+        {"lat": -40.1839203, "lon": 175.3863422},
+        {"lat": -40.1839454, "lon": 175.3862978},
+        {"lat": -40.1839828, "lon": 175.3862811}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "name": "Bridge Street",
+        "surface": "paved"
       }
     },
     {
@@ -16337,18 +16362,19 @@
     {
       "type": "way",
       "id": 182011419,
-      "timestamp": "2021-01-05T07:57:31Z",
-      "version": 5,
-      "changeset": 96955444,
-      "user": "gladys_foster216",
-      "uid": 11401523,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 6,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [1922591586, 1922591680],
       "geometry": [
         {"lat": -40.0057634, "lon": 175.1671279},
-        {"lat": -40.0047002, "lon": 175.1669981}
+        {"lat": -40.0047611, "lon": 175.1670049}
       ],
       "tags": {
         "bridge": "yes",
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
@@ -16362,20 +16388,21 @@
     {
       "type": "way",
       "id": 182011420,
-      "timestamp": "2020-07-28T06:13:38Z",
-      "version": 5,
-      "changeset": 88599224,
-      "user": "AndjelaS",
-      "uid": 8951082,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 6,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [1922591680, 1923560801],
       "geometry": [
-        {"lat": -40.0047002, "lon": 175.1669981},
+        {"lat": -40.0047611, "lon": 175.1670049},
         {"lat": -40.0038907, "lon": 175.1668665},
         {"lat": -40.0023097, "lon": 175.1666816},
         {"lat": -40.0019769, "lon": 175.1666546},
         {"lat": -40.0015701, "lon": 175.1666647}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "maxspeed": "100",
@@ -16744,11 +16771,11 @@
     {
       "type": "way",
       "id": 187917092,
-      "timestamp": "2021-10-18T00:50:34Z",
-      "version": 7,
-      "changeset": 112630927,
-      "user": "Robert Ancell",
-      "uid": 1430787,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 8,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [1985546243, 281136890],
       "geometry": [
         {"lat": -40.0402459, "lon": 175.2120374},
@@ -16771,6 +16798,7 @@
         {"lat": -40.0336791, "lon": 175.2092861}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "maxspeed": "100",
@@ -16841,11 +16869,11 @@
     {
       "type": "way",
       "id": 189161518,
-      "timestamp": "2020-07-28T06:13:38Z",
-      "version": 5,
-      "changeset": 88599224,
-      "user": "AndjelaS",
-      "uid": 8951082,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 6,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [281145550, 281145554],
       "geometry": [
         {"lat": -39.9751081, "lon": 175.121878},
@@ -16865,6 +16893,7 @@
         {"lat": -39.9700612, "lon": 175.1085494}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "3",
         "lanes:backward": "2",
@@ -16878,11 +16907,11 @@
     {
       "type": "way",
       "id": 189161519,
-      "timestamp": "2020-07-28T06:13:38Z",
-      "version": 2,
-      "changeset": 88599224,
-      "user": "AndjelaS",
-      "uid": 8951082,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 3,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [281136558, 281136959],
       "geometry": [
         {"lat": -40.0277953, "lon": 175.1941219},
@@ -16890,6 +16919,7 @@
         {"lat": -40.0261446, "lon": 175.1902322}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "maxspeed": "100",
@@ -16901,11 +16931,11 @@
     {
       "type": "way",
       "id": 189161520,
-      "timestamp": "2020-07-28T06:13:38Z",
-      "version": 7,
-      "changeset": 88599224,
-      "user": "AndjelaS",
-      "uid": 8951082,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 8,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [1998202214, 299230866],
       "geometry": [
         {"lat": -40.0328532, "lon": 175.2071964},
@@ -16926,6 +16956,7 @@
         {"lat": -40.0286789, "lon": 175.196468}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "3",
         "lanes:backward": "1",
@@ -16939,11 +16970,11 @@
     {
       "type": "way",
       "id": 189161521,
-      "timestamp": "2020-07-28T06:13:38Z",
-      "version": 5,
-      "changeset": 88599224,
-      "user": "AndjelaS",
-      "uid": 8951082,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 6,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [1923560801, 1998202218],
       "geometry": [
         {"lat": -40.0015701, "lon": 175.1666647},
@@ -16963,9 +16994,10 @@
         {"lat": -39.9943557, "lon": 175.1684754},
         {"lat": -39.9938007, "lon": 175.1680444},
         {"lat": -39.9933437, "lon": 175.1675576},
-        {"lat": -39.992871, "lon": 175.1669211}
+        {"lat": -39.9928873, "lon": 175.1669211}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "3",
         "lanes:backward": "1",
@@ -16979,11 +17011,11 @@
     {
       "type": "way",
       "id": 189161522,
-      "timestamp": "2020-07-28T06:13:38Z",
-      "version": 6,
-      "changeset": 88599224,
-      "user": "AndjelaS",
-      "uid": 8951082,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 8,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [281137213, 1922591487],
       "geometry": [
         {"lat": -40.0216505, "lon": 175.1786957},
@@ -17004,15 +17036,28 @@
         {"lat": -40.015618, "lon": 175.1734469},
         {"lat": -40.0153498, "lon": 175.1733289},
         {"lat": -40.0148711, "lon": 175.1732012},
-        {"lat": -40.0134297, "lon": 175.172924},
-        {"lat": -40.0129628, "lon": 175.1728063},
-        {"lat": -40.0123397, "lon": 175.1725057},
-        {"lat": -40.011933, "lon": 175.1722396},
-        {"lat": -40.0116434, "lon": 175.1720299},
-        {"lat": -40.0113327, "lon": 175.1717234},
-        {"lat": -40.0103419, "lon": 175.1705643}
+        {"lat": -40.0136386, "lon": 175.1730269},
+        {"lat": -40.0134573, "lon": 175.1729868},
+        {"lat": -40.0132838, "lon": 175.1729467},
+        {"lat": -40.0131079, "lon": 175.1728985},
+        {"lat": -40.0129413, "lon": 175.1728384},
+        {"lat": -40.0127706, "lon": 175.172765},
+        {"lat": -40.0126125, "lon": 175.1726938},
+        {"lat": -40.0124303, "lon": 175.1725979},
+        {"lat": -40.0122739, "lon": 175.1725183},
+        {"lat": -40.0121153, "lon": 175.1724184},
+        {"lat": -40.0119607, "lon": 175.1723124},
+        {"lat": -40.0118077, "lon": 175.1721963},
+        {"lat": -40.0116546, "lon": 175.1720701},
+        {"lat": -40.0115029, "lon": 175.1719409},
+        {"lat": -40.0113649, "lon": 175.1718036},
+        {"lat": -40.0112268, "lon": 175.1716643},
+        {"lat": -40.0110932, "lon": 175.1715124},
+        {"lat": -40.0108952, "lon": 175.1712884},
+        {"lat": -40.0103395, "lon": 175.1705955}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "maxspeed": "100",
@@ -17024,21 +17069,22 @@
     {
       "type": "way",
       "id": 189161523,
-      "timestamp": "2020-07-28T06:13:38Z",
-      "version": 4,
-      "changeset": 88599224,
-      "user": "AndjelaS",
-      "uid": 8951082,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 5,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [1998202218, 2556603952],
       "geometry": [
-        {"lat": -39.992871, "lon": 175.1669211},
-        {"lat": -39.9896314, "lon": 175.1617645},
+        {"lat": -39.9928873, "lon": 175.1669211},
+        {"lat": -39.989649, "lon": 175.1617478},
         {"lat": -39.9888615, "lon": 175.1604935},
         {"lat": -39.9881127, "lon": 175.1592953},
         {"lat": -39.9867666, "lon": 175.15712},
         {"lat": -39.985492, "lon": 175.1551019}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "maxspeed": "100",
@@ -17050,11 +17096,11 @@
     {
       "type": "way",
       "id": 189161524,
-      "timestamp": "2020-07-28T06:13:38Z",
-      "version": 4,
-      "changeset": 88599224,
-      "user": "AndjelaS",
-      "uid": 8951082,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 5,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [281136959, 281137213],
       "geometry": [
         {"lat": -40.0261446, "lon": 175.1902322},
@@ -17073,6 +17119,7 @@
         {"lat": -40.0216505, "lon": 175.1786957}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "3",
         "lanes:backward": "2",
@@ -17086,17 +17133,18 @@
     {
       "type": "way",
       "id": 189161525,
-      "timestamp": "2020-07-29T00:46:59Z",
-      "version": 2,
-      "changeset": 88644804,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 3,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [1998202215, 1998202214],
       "geometry": [
         {"lat": -40.0333989, "lon": 175.2085707},
         {"lat": -40.0328532, "lon": 175.2071964}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "maxspeed": "100",
@@ -17108,11 +17156,11 @@
     {
       "type": "way",
       "id": 189161526,
-      "timestamp": "2020-07-27T11:46:28Z",
-      "version": 9,
-      "changeset": 88563406,
-      "user": "hirschirsch",
-      "uid": 10464115,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 10,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [281145554, 295308226],
       "geometry": [
         {"lat": -39.9700612, "lon": 175.1085494},
@@ -17180,6 +17228,7 @@
       ],
       "tags": {
         "bicycle": "yes",
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "maxspeed": "100",
@@ -17191,11 +17240,11 @@
     {
       "type": "way",
       "id": 189161527,
-      "timestamp": "2020-07-28T06:13:38Z",
-      "version": 5,
-      "changeset": 88599224,
-      "user": "AndjelaS",
-      "uid": 8951082,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 6,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [2556603954, 281145550],
       "geometry": [
         {"lat": -39.9801771, "lon": 175.1424683},
@@ -17204,7 +17253,7 @@
         {"lat": -39.9786785, "lon": 175.1374919},
         {"lat": -39.9784089, "lon": 175.1366146},
         {"lat": -39.978243, "lon": 175.136168},
-        {"lat": -39.9767381, "lon": 175.1325799},
+        {"lat": -39.9767509, "lon": 175.1325778},
         {"lat": -39.9758737, "lon": 175.1305461},
         {"lat": -39.9755489, "lon": 175.1296923},
         {"lat": -39.9752838, "lon": 175.1288576},
@@ -17218,6 +17267,7 @@
         {"lat": -39.9751081, "lon": 175.121878}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "maxspeed": "100",
@@ -17229,11 +17279,11 @@
     {
       "type": "way",
       "id": 189161528,
-      "timestamp": "2021-01-05T07:53:40Z",
-      "version": 3,
-      "changeset": 96955444,
-      "user": "gladys_foster216",
-      "uid": 11401523,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 4,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [281136890, 1998202215],
       "geometry": [
         {"lat": -40.0336791, "lon": 175.2092861},
@@ -17241,6 +17291,7 @@
       ],
       "tags": {
         "bridge": "yes",
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "layer": "1",
@@ -18251,55 +18302,22 @@
     },
     {
       "type": "way",
-      "id": 192894794,
-      "timestamp": "2021-03-21T22:33:38Z",
-      "version": 9,
-      "changeset": 101459855,
-      "user": "fredburger2K",
-      "uid": 9524422,
-      "nodes": [2034345126, 2034345124],
-      "geometry": [
-        {"lat": -40.1857939, "lon": 175.3870486},
-        {"lat": -40.190177, "lon": 175.3883988}
-      ],
-      "tags": {
-        "bicycle": "no",
-        "bridge": "yes",
-        "bridge:ref": "1 9263",
-        "destination:backward": "Whanganui;Taupo",
-        "destination:forward": "Palmerston North;Wellington",
-        "foot": "no",
-        "highway": "trunk",
-        "lanes": "2",
-        "layer": "1",
-        "maxspeed": "100",
-        "name": "Rangitīkei Bridge",
-        "oneway": "no",
-        "ref": "SH 1;SH 3",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
       "id": 192894798,
-      "timestamp": "2020-07-29T00:46:28Z",
-      "version": 9,
-      "changeset": 88644794,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
-      "nodes": [2034345039, 2034345126],
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 10,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
+      "nodes": [2034345039, 3888485063],
       "geometry": [
         {"lat": -40.1808335, "lon": 175.3857932},
         {"lat": -40.1827392, "lon": 175.3861421},
         {"lat": -40.1830674, "lon": 175.3862219},
         {"lat": -40.1836249, "lon": 175.3863838},
-        {"lat": -40.1838976, "lon": 175.3864711},
-        {"lat": -40.18416, "lon": 175.3865501},
-        {"lat": -40.1847083, "lon": 175.3867208},
-        {"lat": -40.1852252, "lon": 175.3868817},
-        {"lat": -40.1857939, "lon": 175.3870486}
+        {"lat": -40.1838976, "lon": 175.3864711}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "maxspeed": "70",
@@ -30316,11 +30334,11 @@
     {
       "type": "way",
       "id": 248953858,
-      "timestamp": "2020-07-28T06:13:38Z",
-      "version": 3,
-      "changeset": 88599224,
-      "user": "AndjelaS",
-      "uid": 8951082,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 4,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [2556603952, 2556603954],
       "geometry": [
         {"lat": -39.985492, "lon": 175.1551019},
@@ -30336,6 +30354,7 @@
         {"lat": -39.9801771, "lon": 175.1424683}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "3",
         "lanes:backward": "2",
@@ -31150,38 +31169,12 @@
     },
     {
       "type": "way",
-      "id": 25774172,
-      "timestamp": "2021-03-21T22:33:38Z",
-      "version": 33,
-      "changeset": 101459855,
-      "user": "fredburger2K",
-      "uid": 9524422,
-      "nodes": [2034345124, 4289740568],
-      "geometry": [
-        {"lat": -40.190177, "lon": 175.3883988},
-        {"lat": -40.1903821, "lon": 175.3884637},
-        {"lat": -40.1906887, "lon": 175.3885567}
-      ],
-      "tags": {
-        "bicycle": "no",
-        "foot": "no",
-        "highway": "trunk",
-        "lanes": "2",
-        "maxspeed": "100",
-        "name": "State Highway 1",
-        "oneway": "no",
-        "ref": "SH 1;SH 3",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
       "id": 25774198,
-      "timestamp": "2021-10-19T03:03:56Z",
-      "version": 22,
-      "changeset": 112675890,
-      "user": "Robert Ancell",
-      "uid": 1430787,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 23,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [281131764, 7185293070],
       "geometry": [
         {"lat": -40.174566, "lon": 175.3848532},
@@ -31192,6 +31185,7 @@
       "tags": {
         "destination:forward": "Wellington;Palmerston North",
         "destination:ref:forward": "SH 1;SH 3",
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "maxspeed": "50",
@@ -34132,11 +34126,11 @@
     {
       "type": "way",
       "id": 26949999,
-      "timestamp": "2021-06-23T01:42:09Z",
-      "version": 11,
-      "changeset": 106804006,
-      "user": "StenSoft",
-      "uid": 255936,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 12,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [8858762972, 295308226],
       "geometry": [
         {"lat": -39.9501185, "lon": 175.0550946},
@@ -34147,6 +34141,7 @@
       ],
       "tags": {
         "bicycle": "yes",
+        "foot": "yes",
         "highway": "trunk_link",
         "maxspeed": "100",
         "oneway": "yes",
@@ -57454,17 +57449,18 @@
     {
       "type": "way",
       "id": 412590191,
-      "timestamp": "2020-07-29T00:46:59Z",
-      "version": 3,
-      "changeset": 88644804,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 4,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [281136123, 6176022624],
       "geometry": [
         {"lat": -40.0414944, "lon": 175.2120155},
         {"lat": -40.0412163, "lon": 175.2120071}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "maxspeed": "70",
@@ -57477,18 +57473,19 @@
     {
       "type": "way",
       "id": 412590192,
-      "timestamp": "2020-07-28T06:13:38Z",
-      "version": 2,
-      "changeset": 88599224,
-      "user": "AndjelaS",
-      "uid": 8951082,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 3,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [1922591487, 1922591673],
       "geometry": [
-        {"lat": -40.0103419, "lon": 175.1705643},
+        {"lat": -40.0103395, "lon": 175.1705955},
         {"lat": -40.0085069, "lon": 175.1683724},
-        {"lat": -40.0081138, "lon": 175.1679664}
+        {"lat": -40.0080899, "lon": 175.1680117}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "maxspeed": "100",
@@ -57500,21 +57497,29 @@
     {
       "type": "way",
       "id": 412590193,
-      "timestamp": "2020-07-28T06:13:38Z",
-      "version": 3,
-      "changeset": 88599224,
-      "user": "AndjelaS",
-      "uid": 8951082,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 5,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [1922591673, 1922591586],
       "geometry": [
-        {"lat": -40.0081138, "lon": 175.1679664},
-        {"lat": -40.0074485, "lon": 175.1675252},
-        {"lat": -40.006913, "lon": 175.1673163},
-        {"lat": -40.0066655, "lon": 175.1672472},
-        {"lat": -40.0063521, "lon": 175.1672282},
+        {"lat": -40.0080899, "lon": 175.1680117},
+        {"lat": -40.0079522, "lon": 175.1678934},
+        {"lat": -40.0078203, "lon": 175.1678006},
+        {"lat": -40.0076908, "lon": 175.1677202},
+        {"lat": -40.0075314, "lon": 175.1676227},
+        {"lat": -40.0073683, "lon": 175.1675314},
+        {"lat": -40.0071987, "lon": 175.1674544},
+        {"lat": -40.0070307, "lon": 175.1673901},
+        {"lat": -40.0068544, "lon": 175.167335},
+        {"lat": -40.0066751, "lon": 175.1672847},
+        {"lat": -40.0064956, "lon": 175.1672518},
+        {"lat": -40.006315, "lon": 175.167211},
         {"lat": -40.0057634, "lon": 175.1671279}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "maxspeed": "100",
@@ -73059,17 +73064,18 @@
     {
       "type": "way",
       "id": 659647897,
-      "timestamp": "2020-07-29T00:46:59Z",
-      "version": 2,
-      "changeset": 88644804,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 3,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [6176022624, 1985546243],
       "geometry": [
         {"lat": -40.0412163, "lon": 175.2120071},
         {"lat": -40.0402459, "lon": 175.2120374}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "maxspeed": "70",
@@ -86726,17 +86732,18 @@
     {
       "type": "way",
       "id": 769755387,
-      "timestamp": "2020-07-29T00:46:28Z",
-      "version": 3,
-      "changeset": 88644794,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 4,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [283555960, 7262248252],
       "geometry": [
         {"lat": -40.1753066, "lon": 175.3849787},
         {"lat": -40.1754583, "lon": 175.3849995}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "3",
         "lanes:backward": "2",
@@ -86768,17 +86775,18 @@
     {
       "type": "way",
       "id": 769755389,
-      "timestamp": "2020-07-29T00:46:28Z",
-      "version": 2,
-      "changeset": 88644794,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 3,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [7185293070, 283555960],
       "geometry": [
         {"lat": -40.1750783, "lon": 175.3849445},
         {"lat": -40.1753066, "lon": 175.3849787}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "maxspeed": "50",
@@ -87066,11 +87074,11 @@
     {
       "type": "way",
       "id": 778133395,
-      "timestamp": "2020-07-29T00:46:28Z",
-      "version": 3,
-      "changeset": 88644794,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 4,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [7563837402, 2034345039],
       "geometry": [
         {"lat": -40.1768261, "lon": 175.3851612},
@@ -87080,6 +87088,7 @@
         {"lat": -40.1808335, "lon": 175.3857932}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "maxspeed": "50",
@@ -87091,31 +87100,113 @@
     },
     {
       "type": "way",
-      "id": 778460574,
+      "id": 778460573,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 2,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
+      "nodes": [7265411653, 7265411661],
+      "geometry": [
+        {"lat": -40.1901885, "lon": 175.3883454},
+        {"lat": -40.1903219, "lon": 175.3883623},
+        {"lat": -40.1904442, "lon": 175.3883824},
+        {"lat": -40.190667, "lon": 175.388451},
+        {"lat": -40.1909924, "lon": 175.3885224},
+        {"lat": -40.191047, "lon": 175.3885196},
+        {"lat": -40.1911125, "lon": 175.3884939},
+        {"lat": -40.1911562, "lon": 175.3884538},
+        {"lat": -40.1911824, "lon": 175.3884252}
+      ],
+      "tags": {"foot": "yes", "highway": "cycleway"}
+    },
+    {
+      "type": "way",
+      "id": 778460576,
+      "timestamp": "2020-03-05T04:38:42Z",
+      "version": 1,
+      "changeset": 81802795,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [7265411661, 7265411664],
+      "geometry": [
+        {"lat": -40.1911824, "lon": 175.3884252},
+        {"lat": -40.1912653, "lon": 175.3884738},
+        {"lat": -40.1913549, "lon": 175.3884996},
+        {"lat": -40.191508, "lon": 175.3885313}
+      ],
+      "tags": {"foot": "yes", "highway": "cycleway"}
+    },
+    {
+      "type": "way",
+      "id": 778460577,
       "timestamp": "2021-03-21T22:33:38Z",
-      "version": 3,
+      "version": 2,
       "changeset": 101459855,
       "user": "fredburger2K",
       "uid": 9524422,
-      "nodes": [283558417, 2034345090],
+      "nodes": [7265411653, 7265411671],
       "geometry": [
-        {"lat": -40.1911491, "lon": 175.3886942},
+        {"lat": -40.1901885, "lon": 175.3883454},
+        {"lat": -40.1858295, "lon": 175.3869955}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "foot": "yes",
+        "highway": "cycleway",
+        "layer": "1",
+        "name": "Rangitīkei Bridge",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 778460578,
+      "timestamp": "2020-03-05T04:38:42Z",
+      "version": 1,
+      "changeset": 81802795,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [7265411671, 2837550994],
+      "geometry": [
+        {"lat": -40.1858295, "lon": 175.3869955},
+        {"lat": -40.1856853, "lon": 175.3869269},
+        {"lat": -40.185539, "lon": 175.3868611},
+        {"lat": -40.1854014, "lon": 175.3868211},
+        {"lat": -40.1851939, "lon": 175.3867553},
+        {"lat": -40.1850651, "lon": 175.3867182},
+        {"lat": -40.1849712, "lon": 175.3866524},
+        {"lat": -40.1846567, "lon": 175.3865467},
+        {"lat": -40.1842832, "lon": 175.3864466},
+        {"lat": -40.1841478, "lon": 175.3863951},
+        {"lat": -40.1839828, "lon": 175.3862811}
+      ],
+      "tags": {"foot": "yes", "highway": "cycleway"}
+    },
+    {
+      "type": "way",
+      "id": 778460579,
+      "timestamp": "2021-01-05T07:36:42Z",
+      "version": 3,
+      "changeset": 96955452,
+      "user": "gladys_foster216",
+      "uid": 11401523,
+      "nodes": [7265411664, 2034345090],
+      "geometry": [
+        {"lat": -40.191508, "lon": 175.3885313},
+        {"lat": -40.191505, "lon": 175.3886171},
+        {"lat": -40.191494, "lon": 175.3887295},
         {"lat": -40.191485, "lon": 175.3888127}
       ],
       "tags": {
-        "bicycle": "no",
-        "destination:backward": "Taupō",
-        "destination:ref:backward": "SH 1;SH 3",
-        "highway": "trunk",
-        "lanes": "3",
-        "lanes:backward": "1",
-        "lanes:forward": "2",
-        "maxspeed": "100",
-        "name": "State Highway 1",
-        "oneway": "no",
-        "ref": "SH 1;SH 3",
-        "surface": "paved",
-        "turn:lanes:forward": "none|right"
+        "cycleway:left": "track",
+        "cycleway:left:segregated": "no",
+        "cycleway:right": "no",
+        "destination:backward": "Tangimoana",
+        "highway": "unclassified",
+        "name": "Tangimoana Road",
+        "sidewalk": "left",
+        "surface": "paved"
       }
     },
     {
@@ -87713,17 +87804,18 @@
     {
       "type": "way",
       "id": 808900303,
-      "timestamp": "2020-07-29T00:46:28Z",
-      "version": 2,
-      "changeset": 88644794,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 3,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [7563837395, 7563837402],
       "geometry": [
         {"lat": -40.1764664, "lon": 175.3851122},
         {"lat": -40.1768261, "lon": 175.3851612}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "maxspeed": "50",
@@ -87736,11 +87828,11 @@
     {
       "type": "way",
       "id": 808900304,
-      "timestamp": "2020-07-29T00:46:28Z",
-      "version": 2,
-      "changeset": 88644794,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 3,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [7262248252, 7563837395],
       "geometry": [
         {"lat": -40.1754583, "lon": 175.3849995},
@@ -87749,6 +87841,7 @@
         {"lat": -40.1764664, "lon": 175.3851122}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
         "maxspeed": "50",
@@ -89220,11 +89313,11 @@
     {
       "type": "way",
       "id": 819952074,
-      "timestamp": "2020-07-28T06:13:38Z",
-      "version": 2,
-      "changeset": 88599224,
-      "user": "AndjelaS",
-      "uid": 8951082,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 3,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [299230866, 4676098455],
       "geometry": [
         {"lat": -40.0286789, "lon": 175.196468},
@@ -89233,6 +89326,7 @@
         {"lat": -40.0280016, "lon": 175.1945438}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "3",
         "lanes:backward": "1",
@@ -89246,17 +89340,18 @@
     {
       "type": "way",
       "id": 819952075,
-      "timestamp": "2020-07-28T06:13:38Z",
-      "version": 2,
-      "changeset": 88599224,
-      "user": "AndjelaS",
-      "uid": 8951082,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 3,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [4676098455, 281136558],
       "geometry": [
         {"lat": -40.0280016, "lon": 175.1945438},
         {"lat": -40.0277953, "lon": 175.1941219}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "trunk",
         "lanes": "3",
         "lanes:backward": "1",
@@ -97146,11 +97241,11 @@
     {
       "type": "way",
       "id": 957374521,
-      "timestamp": "2021-06-23T01:42:09Z",
-      "version": 1,
-      "changeset": 106804006,
-      "user": "StenSoft",
-      "uid": 255936,
+      "timestamp": "2021-11-08T14:38:03Z",
+      "version": 2,
+      "changeset": 113525379,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "nodes": [295307208, 8858762972],
       "geometry": [
         {"lat": -39.9496995, "lon": 175.0544941},
@@ -97158,6 +97253,7 @@
       ],
       "tags": {
         "bicycle": "yes",
+        "foot": "yes",
         "highway": "trunk_link",
         "maxspeed": "50",
         "oneway": "yes",
