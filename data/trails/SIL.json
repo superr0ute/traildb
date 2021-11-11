@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-08T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-10T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1995,11 +1995,11 @@
     {
       "type": "relation",
       "id": 7700148,
-      "timestamp": "2021-08-13T15:18:12Z",
-      "version": 12,
-      "changeset": 109636626,
-      "user": "kaitu",
-      "uid": 69717,
+      "timestamp": "2021-11-10T08:02:25Z",
+      "version": 13,
+      "changeset": 113596721,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
       "members": [
         {"type": "way", "ref": 34528675, "role": ""},
         {"type": "way", "ref": 972902911, "role": ""},
@@ -2032,9 +2032,14 @@
         {"type": "way", "ref": 245885664, "role": ""},
         {"type": "way", "ref": 245885660, "role": ""},
         {"type": "way", "ref": 245885668, "role": ""},
-        {"type": "way", "ref": 245885661, "role": ""},
-        {"type": "way", "ref": 537334651, "role": ""},
-        {"type": "way", "ref": 462507306, "role": ""},
+        {"type": "way", "ref": 245885658, "role": ""},
+        {"type": "way", "ref": 245885669, "role": ""},
+        {"type": "way", "ref": 247345688, "role": ""},
+        {"type": "way", "ref": 1001018167, "role": ""},
+        {"type": "way", "ref": 247345699, "role": ""},
+        {"type": "way", "ref": 247887922, "role": ""},
+        {"type": "way", "ref": 245885667, "role": ""},
+        {"type": "way", "ref": 537334648, "role": ""},
         {"type": "way", "ref": 245885656, "role": ""},
         {"type": "way", "ref": 195032820, "role": ""},
         {"type": "way", "ref": 537334644, "role": ""},
@@ -3942,6 +3947,28 @@
         "source": "survey:CAI",
         "to": "Rifugio Bosio Galli all'Alpe Airale",
         "type": "route"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1001018167,
+      "timestamp": "2021-11-10T08:02:25Z",
+      "version": 1,
+      "changeset": 113596721,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
+      "nodes": [2542499650, 2542499654],
+      "geometry": [
+        {"lat": 45.952341, "lon": 9.052017},
+        {"lat": 45.9524098, "lon": 9.0519741},
+        {"lat": 45.952461, "lon": 9.0518543},
+        {"lat": 45.9525198, "lon": 9.0516925}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "1",
+        "oneway": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -28666,6 +28693,30 @@
     },
     {
       "type": "way",
+      "id": 245885658,
+      "timestamp": "2013-11-23T18:24:20Z",
+      "version": 2,
+      "changeset": 19078128,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [727543741, 2529853798],
+      "geometry": [
+        {"lat": 45.9577008, "lon": 9.0535955},
+        {"lat": 45.9578802, "lon": 9.0535966},
+        {"lat": 45.9580307, "lon": 9.0535554},
+        {"lat": 45.958198, "lon": 9.0535176}
+      ],
+      "tags": {
+        "highway": "track",
+        "smoothness": "horrible",
+        "source": "survey, gps track",
+        "surface": "ground",
+        "tracktype": "grade3",
+        "vehicle": "private"
+      }
+    },
+    {
+      "type": "way",
       "id": 245885660,
       "timestamp": "2013-11-23T18:24:20Z",
       "version": 2,
@@ -28685,30 +28736,6 @@
         "note:vehicle": "divieto di transito \"zona agro-silvo pastorale\"",
         "source": "survey",
         "tracktype": "grade3",
-        "vehicle": "private"
-      }
-    },
-    {
-      "type": "way",
-      "id": 245885661,
-      "timestamp": "2013-11-23T18:24:20Z",
-      "version": 2,
-      "changeset": 19078128,
-      "user": "kaitu",
-      "uid": 69717,
-      "nodes": [2529853798, 2529853806],
-      "geometry": [
-        {"lat": 45.958198, "lon": 9.0535176},
-        {"lat": 45.9583079, "lon": 9.0534763},
-        {"lat": 45.9584647, "lon": 9.0534791},
-        {"lat": 45.9585691, "lon": 9.0534469}
-      ],
-      "tags": {
-        "highway": "track",
-        "smoothness": "horrible",
-        "source": "survey, gps track",
-        "surface": "ground",
-        "tracktype": "grade4",
         "vehicle": "private"
       }
     },
@@ -28763,6 +28790,34 @@
     },
     {
       "type": "way",
+      "id": 245885667,
+      "timestamp": "2021-11-10T08:02:25Z",
+      "version": 3,
+      "changeset": 113596721,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
+      "nodes": [2529853820, 2529853780],
+      "geometry": [
+        {"lat": 45.9589128, "lon": 9.0570606},
+        {"lat": 45.958576, "lon": 9.0570982},
+        {"lat": 45.9581456, "lon": 9.0571968},
+        {"lat": 45.9577028, "lon": 9.0573361},
+        {"lat": 45.9570675, "lon": 9.0572891},
+        {"lat": 45.9568439, "lon": 9.0572221},
+        {"lat": 45.9566044, "lon": 9.057187},
+        {"lat": 45.9564941, "lon": 9.0572841},
+        {"lat": 45.9564456, "lon": 9.0572782},
+        {"lat": 45.9563448, "lon": 9.0571217}
+      ],
+      "tags": {
+        "highway": "track",
+        "source": "survey, gps track",
+        "surface": "ground",
+        "tracktype": "grade3"
+      }
+    },
+    {
+      "type": "way",
       "id": 245885668,
       "timestamp": "2013-11-12T21:45:52Z",
       "version": 1,
@@ -28784,6 +28839,34 @@
         "sac_scale": "mountain_hiking",
         "surface": "grass",
         "trail_visibility": "intermediate"
+      }
+    },
+    {
+      "type": "way",
+      "id": 245885669,
+      "timestamp": "2013-11-23T18:24:18Z",
+      "version": 2,
+      "changeset": 19078128,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [2529853757, 727543741],
+      "geometry": [
+        {"lat": 45.9553764, "lon": 9.0520525},
+        {"lat": 45.9555037, "lon": 9.0521909},
+        {"lat": 45.9556502, "lon": 9.0523474},
+        {"lat": 45.9563263, "lon": 9.0529835},
+        {"lat": 45.956619, "lon": 9.0534428},
+        {"lat": 45.9567934, "lon": 9.0536144},
+        {"lat": 45.9568929, "lon": 9.0537123},
+        {"lat": 45.9572787, "lon": 9.0537976},
+        {"lat": 45.9575599, "lon": 9.05374},
+        {"lat": 45.9577008, "lon": 9.0535955}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "1",
+        "oneway": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -29021,6 +29104,96 @@
         "ref": "19",
         "sac_scale": "mountain_hiking",
         "source": "gps",
+        "trail_visibility": "good"
+      }
+    },
+    {
+      "type": "way",
+      "id": 247345688,
+      "timestamp": "2013-11-21T00:55:21Z",
+      "version": 1,
+      "changeset": 19026931,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [2542499654, 2529853757],
+      "geometry": [
+        {"lat": 45.9525198, "lon": 9.0516925},
+        {"lat": 45.9525796, "lon": 9.0515781},
+        {"lat": 45.9526932, "lon": 9.0514993},
+        {"lat": 45.9528494, "lon": 9.0514582},
+        {"lat": 45.9534522, "lon": 9.0514415},
+        {"lat": 45.9540317, "lon": 9.0514815},
+        {"lat": 45.9544446, "lon": 9.0514049},
+        {"lat": 45.954791, "lon": 9.0515381},
+        {"lat": 45.9551599, "lon": 9.0518169},
+        {"lat": 45.9553764, "lon": 9.0520525}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "1",
+        "oneway": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 247345699,
+      "timestamp": "2013-11-23T18:24:20Z",
+      "version": 2,
+      "changeset": 19078128,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [2529853702, 2542499650],
+      "geometry": [
+        {"lat": 45.9525922, "lon": 9.0523232},
+        {"lat": 45.9524876, "lon": 9.0522592},
+        {"lat": 45.9523809, "lon": 9.0521264},
+        {"lat": 45.952341, "lon": 9.052017}
+      ],
+      "tags": {
+        "highway": "path",
+        "sac_scale": "hiking",
+        "surface": "grass",
+        "trail_visibility": "intermediate"
+      }
+    },
+    {
+      "type": "way",
+      "id": 247887922,
+      "timestamp": "2013-11-23T18:24:11Z",
+      "version": 1,
+      "changeset": 19078128,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [2529853702, 2529853780],
+      "geometry": [
+        {"lat": 45.9525922, "lon": 9.0523232},
+        {"lat": 45.9526327, "lon": 9.052373},
+        {"lat": 45.9526868, "lon": 9.0524034},
+        {"lat": 45.9527578, "lon": 9.0525249},
+        {"lat": 45.9528888, "lon": 9.0526052},
+        {"lat": 45.953073, "lon": 9.0526854},
+        {"lat": 45.9533231, "lon": 9.0528215},
+        {"lat": 45.95346, "lon": 9.0528458},
+        {"lat": 45.9535969, "lon": 9.0529333},
+        {"lat": 45.9538099, "lon": 9.0529746},
+        {"lat": 45.9539282, "lon": 9.0530767},
+        {"lat": 45.9540904, "lon": 9.0530573},
+        {"lat": 45.9542864, "lon": 9.0532858},
+        {"lat": 45.9544791, "lon": 9.053315},
+        {"lat": 45.9549624, "lon": 9.0538254},
+        {"lat": 45.9552768, "lon": 9.0544137},
+        {"lat": 45.9553917, "lon": 9.0549193},
+        {"lat": 45.9558176, "lon": 9.0560813},
+        {"lat": 45.956186, "lon": 9.0566841},
+        {"lat": 45.956311, "lon": 9.0569661},
+        {"lat": 45.9563448, "lon": 9.0571217}
+      ],
+      "tags": {
+        "highway": "path",
+        "sac_scale": "hiking",
+        "source": "survey, gps track",
+        "surface": "ground",
         "trail_visibility": "good"
       }
     },
@@ -63913,59 +64086,6 @@
     },
     {
       "type": "way",
-      "id": 462507306,
-      "timestamp": "2021-07-12T08:49:01Z",
-      "version": 2,
-      "changeset": 107823861,
-      "user": "Karter Kor",
-      "uid": 2992112,
-      "nodes": [4578930886, 4578932824],
-      "geometry": [
-        {"lat": 45.9595432, "lon": 9.0530657},
-        {"lat": 45.9598187, "lon": 9.0532111},
-        {"lat": 45.9600723, "lon": 9.0533613},
-        {"lat": 45.960393, "lon": 9.0536188},
-        {"lat": 45.9606316, "lon": 9.0536295},
-        {"lat": 45.960751, "lon": 9.0537476},
-        {"lat": 45.9609672, "lon": 9.053887},
-        {"lat": 45.9610866, "lon": 9.0540265},
-        {"lat": 45.9611239, "lon": 9.0541338},
-        {"lat": 45.9615191, "lon": 9.054799},
-        {"lat": 45.9618771, "lon": 9.0552067},
-        {"lat": 45.9619592, "lon": 9.0556573},
-        {"lat": 45.9619666, "lon": 9.0558289},
-        {"lat": 45.9620487, "lon": 9.0559362},
-        {"lat": 45.9619815, "lon": 9.0562366},
-        {"lat": 45.9617578, "lon": 9.0565692},
-        {"lat": 45.9617205, "lon": 9.0568267},
-        {"lat": 45.9618324, "lon": 9.0573524},
-        {"lat": 45.9619815, "lon": 9.0576958},
-        {"lat": 45.9620785, "lon": 9.0577279},
-        {"lat": 45.9621307, "lon": 9.0580927},
-        {"lat": 45.9624514, "lon": 9.0584575},
-        {"lat": 45.9625633, "lon": 9.0586292},
-        {"lat": 45.9627646, "lon": 9.0586399},
-        {"lat": 45.9627433, "lon": 9.0587677},
-        {"lat": 45.9627199, "lon": 9.0589081},
-        {"lat": 45.9628019, "lon": 9.0591083},
-        {"lat": 45.9628361, "lon": 9.0591887},
-        {"lat": 45.962838, "lon": 9.0593094},
-        {"lat": 45.9628044, "lon": 9.0594811},
-        {"lat": 45.9627513, "lon": 9.0597838},
-        {"lat": 45.9627811, "lon": 9.0599608},
-        {"lat": 45.9627699, "lon": 9.0601056},
-        {"lat": 45.9628482, "lon": 9.0602558},
-        {"lat": 45.9629415, "lon": 9.0604543},
-        {"lat": 45.9629676, "lon": 9.0605884},
-        {"lat": 45.9629601, "lon": 9.0608137},
-        {"lat": 45.9630794, "lon": 9.0610712},
-        {"lat": 45.9630682, "lon": 9.0613394},
-        {"lat": 45.9630805, "lon": 9.0615393}
-      ],
-      "tags": {"highway": "path", "mtb:scale": "2"}
-    },
-    {
-      "type": "way",
       "id": 46345715,
       "timestamp": "2017-11-03T09:10:56Z",
       "version": 12,
@@ -71334,20 +71454,43 @@
     },
     {
       "type": "way",
-      "id": 537334651,
-      "timestamp": "2017-11-01T06:46:46Z",
-      "version": 1,
-      "changeset": 53415200,
-      "user": "Gianfranco2014",
-      "uid": 1928626,
-      "nodes": [4578930886, 2529853806],
+      "id": 537334648,
+      "timestamp": "2021-07-12T08:38:51Z",
+      "version": 2,
+      "changeset": 107823148,
+      "user": "Karter Kor",
+      "uid": 2992112,
+      "nodes": [4578932824, 2529853820],
       "geometry": [
-        {"lat": 45.9595432, "lon": 9.0530657},
-        {"lat": 45.9590912, "lon": 9.0530821},
-        {"lat": 45.9587108, "lon": 9.0533396},
-        {"lat": 45.9585691, "lon": 9.0534469}
+        {"lat": 45.9630805, "lon": 9.0615393},
+        {"lat": 45.9628809, "lon": 9.0611195},
+        {"lat": 45.9625893, "lon": 9.0608067},
+        {"lat": 45.9621136, "lon": 9.0603256},
+        {"lat": 45.9620421, "lon": 9.0602532},
+        {"lat": 45.9618509, "lon": 9.0598063},
+        {"lat": 45.9615259, "lon": 9.0593353},
+        {"lat": 45.9611029, "lon": 9.058689},
+        {"lat": 45.9608162, "lon": 9.0582628},
+        {"lat": 45.9607158, "lon": 9.0580049},
+        {"lat": 45.9603573, "lon": 9.0577196},
+        {"lat": 45.960288, "lon": 9.057589},
+        {"lat": 45.9602068, "lon": 9.0575374},
+        {"lat": 45.9600945, "lon": 9.0574136},
+        {"lat": 45.9595998, "lon": 9.0574927},
+        {"lat": 45.9595233, "lon": 9.0573311},
+        {"lat": 45.9593608, "lon": 9.0570939},
+        {"lat": 45.9591983, "lon": 9.0570527},
+        {"lat": 45.9589128, "lon": 9.0570606}
       ],
-      "tags": {"highway": "path"}
+      "tags": {
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "source": "survey, gps track",
+        "surface": "grass",
+        "symbol": "white-red-white stripes",
+        "trail_visibility": "good",
+        "trailblazed": "yes"
+      }
     },
     {
       "type": "way",

@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-10T02:30:29Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-11T02:33:46Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1501400,
-      "timestamp": "2021-10-14T12:37:32Z",
-      "version": 199,
-      "changeset": 112502221,
-      "user": "CheeseSqueeze",
-      "uid": 14291058,
+      "timestamp": "2021-11-10T18:08:05Z",
+      "version": 200,
+      "changeset": 113620510,
+      "user": "jqngarcia",
+      "uid": 5126253,
       "members": [
         {"type": "way", "ref": 105454097, "role": ""},
         {"type": "way", "ref": 33748658, "role": ""},
@@ -285,8 +285,10 @@
         {"type": "way", "ref": 284553355, "role": ""},
         {"type": "way", "ref": 39413460, "role": ""},
         {"type": "way", "ref": 392365623, "role": ""},
+        {"type": "way", "ref": 1001175497, "role": ""},
         {"type": "way", "ref": 113513944, "role": ""},
         {"type": "way", "ref": 113513957, "role": ""},
+        {"type": "way", "ref": 1001175504, "role": ""},
         {"type": "way", "ref": 113504174, "role": ""},
         {"type": "way", "ref": 41807014, "role": ""},
         {"type": "way", "ref": 175462719, "role": ""},
@@ -312,6 +314,7 @@
         {"type": "way", "ref": 548292010, "role": ""},
         {"type": "way", "ref": 41770931, "role": ""},
         {"type": "way", "ref": 431755219, "role": ""},
+        {"type": "way", "ref": 1001175511, "role": ""},
         {"type": "way", "ref": 117217388, "role": ""},
         {"type": "way", "ref": 516479560, "role": ""},
         {"type": "way", "ref": 41780905, "role": ""},
@@ -497,6 +500,58 @@
         "wikidata": "Q1031801",
         "wikipedia": "ca:Camí de Cavalls"
       }
+    },
+    {
+      "type": "way",
+      "id": 1001175497,
+      "timestamp": "2021-11-10T18:08:05Z",
+      "version": 1,
+      "changeset": 113620510,
+      "user": "jqngarcia",
+      "uid": 5126253,
+      "nodes": [472208974, 472208975],
+      "geometry": [
+        {"lat": 40.0009565, "lon": 3.8307797, "z": 10.9},
+        {"lat": 40.0012349, "lon": 3.8309326, "z": 11.5},
+        {"lat": 40.0013084, "lon": 3.8309727, "z": 11.7}
+      ],
+      "tags": {"highway": "residential", "name": "Carrer de Ciutat de l'Alguer"}
+    },
+    {
+      "type": "way",
+      "id": 1001175504,
+      "timestamp": "2021-11-10T18:08:05Z",
+      "version": 1,
+      "changeset": 113620510,
+      "user": "jqngarcia",
+      "uid": 5126253,
+      "nodes": [472209042, 472208984],
+      "geometry": [
+        {"lat": 40.0025269, "lon": 3.8338792, "z": 19.1},
+        {"lat": 40.0024749, "lon": 3.8340076, "z": 18.7},
+        {"lat": 40.0024519, "lon": 3.8340643, "z": 18.5}
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Carrer Quintana de Mar",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1001175511,
+      "timestamp": "2021-11-10T18:08:05Z",
+      "version": 1,
+      "changeset": 113620510,
+      "user": "jqngarcia",
+      "uid": 5126253,
+      "nodes": [1286754958, 278358907],
+      "geometry": [
+        {"lat": 39.9947773, "lon": 3.8362674, "z": 11.5},
+        {"lat": 39.9947603, "lon": 3.8362434, "z": 11.5},
+        {"lat": 39.9947395, "lon": 3.8362253, "z": 11.4}
+      ],
+      "tags": {"highway": "residential", "junction": "roundabout"}
     },
     {
       "type": "way",
@@ -2038,15 +2093,13 @@
     {
       "type": "way",
       "id": 113513944,
-      "timestamp": "2019-03-26T18:49:38Z",
-      "version": 5,
-      "changeset": 68559217,
-      "user": "Puxan_importacions",
-      "uid": 7691857,
-      "nodes": [472208974, 472208978],
+      "timestamp": "2021-11-10T18:08:05Z",
+      "version": 6,
+      "changeset": 113620510,
+      "user": "jqngarcia",
+      "uid": 5126253,
+      "nodes": [472208975, 472208978],
       "geometry": [
-        {"lat": 40.0009565, "lon": 3.8307797, "z": 10.9},
-        {"lat": 40.0012349, "lon": 3.8309326, "z": 11.5},
         {"lat": 40.0013084, "lon": 3.8309727, "z": 11.7},
         {"lat": 40.0017402, "lon": 3.8312911, "z": 13},
         {"lat": 40.0022523, "lon": 3.8316646, "z": 14.9},
@@ -2059,19 +2112,17 @@
     {
       "type": "way",
       "id": 113513957,
-      "timestamp": "2016-01-19T22:59:50Z",
-      "version": 4,
-      "changeset": 36690682,
-      "user": "migonso",
-      "uid": 3103168,
-      "nodes": [472208978, 472208984],
+      "timestamp": "2021-11-10T18:08:05Z",
+      "version": 5,
+      "changeset": 113620510,
+      "user": "jqngarcia",
+      "uid": 5126253,
+      "nodes": [472208978, 472209042],
       "geometry": [
         {"lat": 40.0031802, "lon": 3.8323197, "z": 17.2},
         {"lat": 40.0031252, "lon": 3.8324553, "z": 17.6},
         {"lat": 40.0029509, "lon": 3.8328852, "z": 18.5},
-        {"lat": 40.0025269, "lon": 3.8338792, "z": 19.1},
-        {"lat": 40.0024749, "lon": 3.8340076, "z": 18.7},
-        {"lat": 40.0024519, "lon": 3.8340643, "z": 18.5}
+        {"lat": 40.0025269, "lon": 3.8338792, "z": 19.1}
       ],
       "tags": {
         "highway": "residential",
@@ -4202,15 +4253,13 @@
     {
       "type": "way",
       "id": 117217388,
-      "timestamp": "2018-03-19T22:37:16Z",
-      "version": 4,
-      "changeset": 57334399,
-      "user": "anybinbox",
-      "uid": 6757324,
-      "nodes": [1286754958, 282562582],
+      "timestamp": "2021-11-10T18:08:05Z",
+      "version": 5,
+      "changeset": 113620510,
+      "user": "jqngarcia",
+      "uid": 5126253,
+      "nodes": [278358907, 282562582],
       "geometry": [
-        {"lat": 39.9947773, "lon": 3.8362674, "z": 11.5},
-        {"lat": 39.9947603, "lon": 3.8362434, "z": 11.5},
         {"lat": 39.9947395, "lon": 3.8362253, "z": 11.4},
         {"lat": 39.994716, "lon": 3.8362141, "z": 11.4},
         {"lat": 39.9946911, "lon": 3.8362103, "z": 11.3},
