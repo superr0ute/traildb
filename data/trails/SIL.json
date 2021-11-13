@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-10T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-12T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -3705,11 +3705,11 @@
     {
       "type": "relation",
       "id": 9959268,
-      "timestamp": "2020-10-30T11:52:30Z",
-      "version": 6,
-      "changeset": 93288870,
-      "user": "maurizioa",
-      "uid": 2498239,
+      "timestamp": "2021-11-12T16:27:27Z",
+      "version": 7,
+      "changeset": 113703578,
+      "user": "Martino Scaglione",
+      "uid": 10901495,
       "members": [
         {"type": "way", "ref": 521637953, "role": ""},
         {"type": "way", "ref": 122000726, "role": ""},
@@ -3778,6 +3778,8 @@
         {"type": "way", "ref": 297573258, "role": ""},
         {"type": "way", "ref": 297573322, "role": ""},
         {"type": "way", "ref": 717629727, "role": ""},
+        {"type": "way", "ref": 1001805065, "role": ""},
+        {"type": "way", "ref": 1001805066, "role": ""},
         {"type": "way", "ref": 297573323, "role": ""}
       ],
       "tags": {
@@ -3969,6 +3971,56 @@
         "lanes": "1",
         "oneway": "no",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1001805065,
+      "timestamp": "2021-11-12T16:27:27Z",
+      "version": 1,
+      "changeset": 113703578,
+      "user": "Martino Scaglione",
+      "uid": 10901495,
+      "nodes": [1718024931, 1718024865],
+      "geometry": [
+        {"lat": 46.2063475, "lon": 9.496669},
+        {"lat": 46.2063126, "lon": 9.4965983},
+        {"lat": 46.2062696, "lon": 9.4964619},
+        {"lat": 46.2062642, "lon": 9.4964276},
+        {"lat": 46.2062197, "lon": 9.4962358},
+        {"lat": 46.2061955, "lon": 9.4961449},
+        {"lat": 46.2061778, "lon": 9.4960893},
+        {"lat": 46.2061678, "lon": 9.4960257},
+        {"lat": 46.206167, "lon": 9.4959869},
+        {"lat": 46.2061786, "lon": 9.4958039}
+      ],
+      "tags": {
+        "highway": "path",
+        "mtb:scale": "4",
+        "sac_scale": "hiking",
+        "tracktype": "grade2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1001805066,
+      "timestamp": "2021-11-12T16:27:27Z",
+      "version": 1,
+      "changeset": 113703578,
+      "user": "Martino Scaglione",
+      "uid": 10901495,
+      "nodes": [1718024930, 1718024931],
+      "geometry": [
+        {"lat": 46.2063433, "lon": 9.4967581},
+        {"lat": 46.2063475, "lon": 9.496669}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "path",
+        "layer": "1",
+        "mtb:scale": "4",
+        "sac_scale": "hiking",
+        "tracktype": "grade2"
       }
     },
     {
@@ -17694,11 +17746,11 @@
     {
       "type": "way",
       "id": 176803402,
-      "timestamp": "2021-05-27T17:05:44Z",
-      "version": 6,
-      "changeset": 105439724,
-      "user": "Alezambo",
-      "uid": 12668809,
+      "timestamp": "2021-11-12T21:46:01Z",
+      "version": 7,
+      "changeset": 113713572,
+      "user": "f_gonella",
+      "uid": 8716397,
       "nodes": [489363753, 282638156],
       "geometry": [
         {"lat": 46.0477002, "lon": 9.6243076},
@@ -17720,8 +17772,10 @@
       "tags": {
         "access:conditional": "no @ (Oct-May)",
         "est_width": "5",
-        "highway": "tertiary",
-        "name": "Strada provinciale 8 del Passo San Marco",
+        "highway": "secondary",
+        "name": "Strada statale 470 della Val Brembana",
+        "old_name": "Strada provinciale 8 del Passo San Marco",
+        "old_ref": "SP8",
         "ref": "SS470",
         "surface": "asphalt"
       }
@@ -38624,12 +38678,12 @@
     {
       "type": "way",
       "id": 297573323,
-      "timestamp": "2019-08-23T16:26:06Z",
-      "version": 6,
-      "changeset": 73675690,
-      "user": "AlfredoSP",
-      "uid": 2175620,
-      "nodes": [1718024806, 1718024865],
+      "timestamp": "2021-11-12T16:27:27Z",
+      "version": 7,
+      "changeset": 113703578,
+      "user": "Martino Scaglione",
+      "uid": 10901495,
+      "nodes": [1718024806, 1718024930],
       "geometry": [
         {"lat": 46.2058753, "lon": 9.499277},
         {"lat": 46.205839, "lon": 9.4991204},
@@ -38648,18 +38702,7 @@
         {"lat": 46.2062724, "lon": 9.4970168},
         {"lat": 46.2062657, "lon": 9.4969048},
         {"lat": 46.206311, "lon": 9.496826},
-        {"lat": 46.2063617, "lon": 9.4967546},
-        {"lat": 46.2063627, "lon": 9.4966983},
-        {"lat": 46.2063467, "lon": 9.4966738},
-        {"lat": 46.2063114, "lon": 9.4966248},
-        {"lat": 46.2062611, "lon": 9.4964515},
-        {"lat": 46.2062779, "lon": 9.4963264},
-        {"lat": 46.2062764, "lon": 9.4962919},
-        {"lat": 46.2061817, "lon": 9.4962517},
-        {"lat": 46.2062028, "lon": 9.4961227},
-        {"lat": 46.2061431, "lon": 9.4960835},
-        {"lat": 46.2061363, "lon": 9.4959834},
-        {"lat": 46.2061377, "lon": 9.4958559}
+        {"lat": 46.2063433, "lon": 9.4967581}
       ],
       "tags": {
         "highway": "path",
@@ -64668,11 +64711,11 @@
     {
       "type": "way",
       "id": 472038054,
-      "timestamp": "2017-02-04T05:15:19Z",
-      "version": 1,
-      "changeset": 45796721,
-      "user": "Gianfranco2014",
-      "uid": 1928626,
+      "timestamp": "2021-11-12T23:06:16Z",
+      "version": 4,
+      "changeset": 113715576,
+      "user": "luigi_ranghetti",
+      "uid": 356676,
       "nodes": [553057085, 1400457100],
       "geometry": [
         {"lat": 46.0365862, "lon": 10.1992691},
@@ -64683,7 +64726,9 @@
         "lanes": "1",
         "maxweight": "20",
         "maxwidth": "2",
-        "ref": "SPBG294",
+        "name": "Strada Statale della Val di Scalve",
+        "old_ref": "SPexSS294",
+        "ref": "SS294",
         "surface": "asphalt"
       }
     },
@@ -89779,29 +89824,30 @@
     {
       "type": "way",
       "id": 717629727,
-      "timestamp": "2019-08-23T16:26:06Z",
-      "version": 1,
-      "changeset": 73675690,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-11-12T16:27:27Z",
+      "version": 2,
+      "changeset": 113703578,
+      "user": "Martino Scaglione",
+      "uid": 10901495,
       "nodes": [1718024865, 1718022792],
       "geometry": [
-        {"lat": 46.2061377, "lon": 9.4958559},
-        {"lat": 46.2062015, "lon": 9.4955637},
+        {"lat": 46.2061786, "lon": 9.4958039},
+        {"lat": 46.2062144, "lon": 9.4956104},
         {"lat": 46.2062368, "lon": 9.4955244},
-        {"lat": 46.2062569, "lon": 9.495409},
-        {"lat": 46.2062337, "lon": 9.4953123},
-        {"lat": 46.2062087, "lon": 9.4952291},
-        {"lat": 46.2062219, "lon": 9.4950895},
-        {"lat": 46.2061822, "lon": 9.4950038},
-        {"lat": 46.20614, "lon": 9.4949651},
-        {"lat": 46.2061066, "lon": 9.4948818},
-        {"lat": 46.2060625, "lon": 9.4947618},
-        {"lat": 46.2060083, "lon": 9.4947185},
-        {"lat": 46.2059786, "lon": 9.4946493},
-        {"lat": 46.2058543, "lon": 9.494665},
-        {"lat": 46.2058078, "lon": 9.494528},
-        {"lat": 46.2057861, "lon": 9.4944712},
+        {"lat": 46.2062748, "lon": 9.4954664},
+        {"lat": 46.2062975, "lon": 9.4953887},
+        {"lat": 46.2063058, "lon": 9.495329},
+        {"lat": 46.2063036, "lon": 9.4952673},
+        {"lat": 46.2062775, "lon": 9.4951613},
+        {"lat": 46.2062553, "lon": 9.4950841},
+        {"lat": 46.2062444, "lon": 9.4950253},
+        {"lat": 46.2062207, "lon": 9.4949571},
+        {"lat": 46.2061553, "lon": 9.4949107},
+        {"lat": 46.2060401, "lon": 9.494669},
+        {"lat": 46.2059937, "lon": 9.494588},
+        {"lat": 46.2058648, "lon": 9.4945301},
+        {"lat": 46.2058209, "lon": 9.4944826},
+        {"lat": 46.2057712, "lon": 9.4944538},
         {"lat": 46.2057264, "lon": 9.4944476},
         {"lat": 46.2056998, "lon": 9.4944204},
         {"lat": 46.2056843, "lon": 9.4943907},
