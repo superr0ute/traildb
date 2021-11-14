@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-07T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-13T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1653,11 +1653,11 @@
     {
       "type": "relation",
       "id": 905947,
-      "timestamp": "2021-09-24T08:28:00Z",
-      "version": 66,
-      "changeset": 111634674,
-      "user": "Ze0zohk1",
-      "uid": 4565074,
+      "timestamp": "2021-11-13T20:02:14Z",
+      "version": 67,
+      "changeset": 113743610,
+      "user": "Schröcker",
+      "uid": 4533268,
       "members": [
         {"type": "node", "ref": 428790179, "role": "night_stop"},
         {"type": "node", "ref": 727292518, "role": "join:1"},
@@ -1746,7 +1746,9 @@
         {"type": "way", "ref": 43140899, "role": ""},
         {"type": "way", "ref": 39859829, "role": ""},
         {"type": "way", "ref": 28724313, "role": ""},
+        {"type": "way", "ref": 1002123667, "role": ""},
         {"type": "way", "ref": 921045447, "role": ""},
+        {"type": "way", "ref": 1002123666, "role": ""},
         {"type": "way", "ref": 27844109, "role": ""},
         {"type": "way", "ref": 30439611, "role": ""},
         {"type": "way", "ref": 58672448, "role": ""},
@@ -2773,6 +2775,54 @@
         "name": "Riesenweg",
         "sac_scale": "hiking",
         "tracktype": "grade2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1002123666,
+      "timestamp": "2021-11-13T20:02:14Z",
+      "version": 1,
+      "changeset": 113743610,
+      "user": "Schröcker",
+      "uid": 4533268,
+      "nodes": [274323990, 4665829366],
+      "geometry": [
+        {"lat": 48.7003445, "lon": 8.4068483},
+        {"lat": 48.7003931, "lon": 8.4067919}
+      ],
+      "tags": {
+        "highway": "track",
+        "mtb:scale": "0",
+        "name": "Alte Weinstraße",
+        "smoothness": "bad",
+        "surface": "gravel",
+        "tracktype": "grade2",
+        "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1002123667,
+      "timestamp": "2021-11-13T20:02:14Z",
+      "version": 1,
+      "changeset": 113743610,
+      "user": "Schröcker",
+      "uid": 4533268,
+      "nodes": [4665829366, 9249027623],
+      "geometry": [
+        {"lat": 48.7003931, "lon": 8.4067919},
+        {"lat": 48.7004236, "lon": 8.4067648}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "track",
+        "layer": "1",
+        "mtb:scale": "0",
+        "name": "Alte Weinstraße",
+        "smoothness": "bad",
+        "surface": "gravel",
+        "tracktype": "grade2",
+        "width": "3"
       }
     },
     {
@@ -16305,8 +16355,8 @@
       "uid": 35468,
       "nodes": [274323990, 274324004],
       "geometry": [
-        {"lat": 48.7003116, "lon": 8.4068643},
-        {"lat": 48.7002871, "lon": 8.4067267},
+        {"lat": 48.7003445, "lon": 8.4068483},
+        {"lat": 48.7002871, "lon": 8.4067676},
         {"lat": 48.7002587, "lon": 8.4065954},
         {"lat": 48.7002687, "lon": 8.4062143},
         {"lat": 48.7002307, "lon": 8.4057924},
@@ -47754,15 +47804,14 @@
     {
       "type": "way",
       "id": 921045447,
-      "timestamp": "2021-03-22T19:55:54Z",
-      "version": 1,
-      "changeset": 101526554,
-      "user": "Karthoo",
-      "uid": 3232636,
-      "nodes": [274323990, 428790052],
+      "timestamp": "2021-11-13T20:02:14Z",
+      "version": 2,
+      "changeset": 113743610,
+      "user": "Schröcker",
+      "uid": 4533268,
+      "nodes": [9249027623, 428790052],
       "geometry": [
-        {"lat": 48.7003116, "lon": 8.4068643},
-        {"lat": 48.7003931, "lon": 8.4067919},
+        {"lat": 48.7004236, "lon": 8.4067648},
         {"lat": 48.7004649, "lon": 8.4067281},
         {"lat": 48.7005403, "lon": 8.4067187},
         {"lat": 48.7006107, "lon": 8.4067217},

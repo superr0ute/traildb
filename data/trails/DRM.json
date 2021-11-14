@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-08T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-13T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1736379,
-      "timestamp": "2021-11-02T14:29:17Z",
-      "version": 562,
-      "changeset": 113287532,
-      "user": "gion274",
-      "uid": 2815652,
+      "timestamp": "2021-11-13T08:15:22Z",
+      "version": 563,
+      "changeset": 113721789,
+      "user": "EvaUnterwegs",
+      "uid": 10301161,
       "members": [
         {"type": "node", "ref": 1779769997, "role": "stop"},
         {"type": "node", "ref": 475738007, "role": ""},
@@ -434,6 +434,8 @@
         {"type": "way", "ref": 114435662, "role": ""},
         {"type": "way", "ref": 110434850, "role": ""},
         {"type": "way", "ref": 129063968, "role": ""},
+        {"type": "way", "ref": 1001970658, "role": ""},
+        {"type": "way", "ref": 1001970659, "role": ""},
         {"type": "way", "ref": 128610580, "role": ""},
         {"type": "way", "ref": 128610576, "role": ""},
         {"type": "way", "ref": 37417393, "role": ""},
@@ -1522,6 +1524,55 @@
         "type": "route",
         "wikidata": "Q2450378",
         "wikipedia": "de:Traumpfad München-Venedig"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1001970658,
+      "timestamp": "2021-11-13T08:15:22Z",
+      "version": 1,
+      "changeset": 113721789,
+      "user": "EvaUnterwegs",
+      "uid": 10301161,
+      "nodes": [9247775768, 323163159],
+      "geometry": [
+        {"lat": 47.4706334, "lon": 11.4691298},
+        {"lat": 47.4707416, "lon": 11.4690481},
+        {"lat": 47.4708853, "lon": 11.4689146},
+        {"lat": 47.4709635, "lon": 11.4688193},
+        {"lat": 47.4710523, "lon": 11.4686879},
+        {"lat": 47.471107, "lon": 11.4685624},
+        {"lat": 47.4712505, "lon": 11.4682658},
+        {"lat": 47.4713127, "lon": 11.468126},
+        {"lat": 47.471358, "lon": 11.4680912}
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "ref": "L282",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1001970659,
+      "timestamp": "2021-11-13T08:15:22Z",
+      "version": 1,
+      "changeset": 113721789,
+      "user": "EvaUnterwegs",
+      "uid": 10301161,
+      "nodes": [9247775769, 9247775768],
+      "geometry": [
+        {"lat": 47.4705613, "lon": 11.4691842},
+        {"lat": 47.4706334, "lon": 11.4691298}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "layer": "1",
+        "ref": "L282",
+        "surface": "asphalt"
       }
     },
     {
@@ -5977,12 +6028,12 @@
     {
       "type": "way",
       "id": 128610580,
-      "timestamp": "2021-08-13T15:59:19Z",
-      "version": 11,
-      "changeset": 109638318,
+      "timestamp": "2021-11-13T08:15:22Z",
+      "version": 12,
+      "changeset": 113721789,
       "user": "EvaUnterwegs",
       "uid": 10301161,
-      "nodes": [290525843, 323163159],
+      "nodes": [290525843, 9247775769],
       "geometry": [
         {"lat": 47.4695918, "lon": 11.4716681},
         {"lat": 47.4697615, "lon": 11.4713054},
@@ -6003,14 +6054,7 @@
         {"lat": 47.4703166, "lon": 11.4694368},
         {"lat": 47.4703868, "lon": 11.4693302},
         {"lat": 47.4705045, "lon": 11.4692271},
-        {"lat": 47.4707416, "lon": 11.4690481},
-        {"lat": 47.4708853, "lon": 11.4689146},
-        {"lat": 47.4709635, "lon": 11.4688193},
-        {"lat": 47.4710523, "lon": 11.4686879},
-        {"lat": 47.471107, "lon": 11.4685624},
-        {"lat": 47.4712505, "lon": 11.4682658},
-        {"lat": 47.4713127, "lon": 11.468126},
-        {"lat": 47.471358, "lon": 11.4680912}
+        {"lat": 47.4705613, "lon": 11.4691842}
       ],
       "tags": {
         "cycleway:both": "no",
