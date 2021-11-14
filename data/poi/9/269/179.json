@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-11-12T23:59:59Z",
-    "timestamp_osm_base": "2021-11-13T04:29:34Z",
+    "timestamp_osm_date": "2021-11-13T23:59:59Z",
+    "timestamp_osm_base": "2021-11-14T04:32:05Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -15708,13 +15708,14 @@
       "id": 1778587323,
       "lat": 47.2829779,
       "lon": 9.6463413,
-      "timestamp": "2019-03-30T21:03:07Z",
-      "version": 3,
-      "changeset": 68709694,
-      "user": "jeka p",
-      "uid": 2385757,
+      "timestamp": "2021-11-13T06:54:51Z",
+      "version": 4,
+      "changeset": 113720545,
+      "user": "mcliquid",
+      "uid": 1213571,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "drinking_water": "yes"
       }
     },
     {
@@ -22340,9 +22341,9 @@
       "id": 2641379523,
       "lat": 47.304616,
       "lon": 9.6460406,
-      "timestamp": "2021-10-19T09:32:05Z",
-      "version": 8,
-      "changeset": 112688397,
+      "timestamp": "2021-11-13T16:24:06Z",
+      "version": 9,
+      "changeset": 113736744,
       "user": "mcliquid",
       "uid": 1213571,
       "tags": {
@@ -22351,11 +22352,16 @@
         "addr:housenumber": "17",
         "addr:postcode": "6833",
         "addr:street": "Treietstraße",
+        "branch": "Neumann",
+        "brand": "ADEG",
+        "brand:wikidata": "Q290211",
+        "brand:wikipedia": "de:ADEG Österreich",
         "contact:phone": "+43 5523 56051",
         "diet:halal": "no",
         "diet:kosher": "no",
-        "name": "ADEG Neumann",
+        "name": "ADEG",
         "opening_hours": "Mo-Fr 07:30-18:30; Sa 07:30-17:00",
+        "operator": "ADEG Neumann",
         "shop": "supermarket",
         "website": "https://www.adeg.at/",
         "wheelchair": "yes"
@@ -22652,13 +22658,13 @@
     {
       "type": "node",
       "id": 2712306899,
-      "lat": 47.3196398,
-      "lon": 9.2868719,
-      "timestamp": "2021-09-15T19:10:49Z",
-      "version": 3,
-      "changeset": 111259187,
-      "user": "amilopowers",
-      "uid": 1514673,
+      "lat": 47.3196339,
+      "lon": 9.2868262,
+      "timestamp": "2021-11-13T16:57:56Z",
+      "version": 4,
+      "changeset": 113738044,
+      "user": "eginhard",
+      "uid": 12637224,
       "tags": {
         "contact:phone": "+41 58 400 62 40",
         "name": "Prima",
@@ -30645,25 +30651,6 @@
       "tags": {
         "name": "Milchzentrale",
         "name:de": "Milchzentrale",
-        "shop": "convenience"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4759734023,
-      "lat": 47.1434727,
-      "lon": 9.5175114,
-      "timestamp": "2021-11-03T15:01:26Z",
-      "version": 3,
-      "changeset": 113336781,
-      "user": "mcliquid",
-      "uid": 1213571,
-      "tags": {
-        "brand": "Coop Pronto",
-        "brand:wikidata": "Q1129777",
-        "brand:wikipedia": "de:Coop Mineraloel",
-        "name": "Coop Pronto",
-        "name:de": "Coop Pronto",
         "shop": "convenience"
       }
     },
@@ -40489,6 +40476,68 @@
       }
     },
     {
+      "type": "node",
+      "id": 9248611558,
+      "lat": 47.3112103,
+      "lon": 9.6504269,
+      "timestamp": "2021-11-13T16:24:06Z",
+      "version": 1,
+      "changeset": 113736744,
+      "user": "mcliquid",
+      "uid": 1213571,
+      "tags": {
+        "amenity": "drinking_water",
+        "source": "survey 03.2021 and Vogis 2020"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9248611560,
+      "lat": 47.305114,
+      "lon": 9.6537617,
+      "timestamp": "2021-11-13T16:24:06Z",
+      "version": 1,
+      "changeset": 113736744,
+      "user": "mcliquid",
+      "uid": 1213571,
+      "tags": {
+        "amenity": "drinking_water",
+        "source": "survey 02.2020 and Vogis 2018"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9248611562,
+      "lat": 47.3029385,
+      "lon": 9.6532526,
+      "timestamp": "2021-11-13T16:24:06Z",
+      "version": 1,
+      "changeset": 113736744,
+      "user": "mcliquid",
+      "uid": 1213571,
+      "tags": {
+        "amenity": "drinking_water",
+        "source": "survey 01.2020 and Vogis 2018",
+        "start_date": "1890"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9248622426,
+      "lat": 47.3332372,
+      "lon": 9.6591123,
+      "timestamp": "2021-11-13T16:34:40Z",
+      "version": 1,
+      "changeset": 113737174,
+      "user": "mcliquid",
+      "uid": 1213571,
+      "tags": {
+        "name": "Quelle Inmakulata",
+        "natural": "spring",
+        "operator": "Marktgemeinde Götzis"
+      }
+    },
+    {
       "type": "way",
       "id": 25281276,
       "timestamp": "2021-11-04T13:17:43Z",
@@ -42330,9 +42379,9 @@
     {
       "type": "way",
       "id": 127325020,
-      "timestamp": "2021-11-03T15:03:08Z",
-      "version": 4,
-      "changeset": 113336835,
+      "timestamp": "2021-11-13T12:21:03Z",
+      "version": 5,
+      "changeset": 113728535,
       "user": "mcliquid",
       "uid": 1213571,
       "center": {
@@ -42341,6 +42390,12 @@
       },
       "nodes": [],
       "tags": {
+        "addr:city": "Schlins",
+        "addr:country": "AT",
+        "addr:housenumber": "24-26",
+        "addr:postcode": "6824",
+        "addr:street": "Walgaustraße",
+        "at_bev:addr_date": "2017-10-01",
         "brand": "Spar",
         "brand:wikidata": "Q610492",
         "brand:wikipedia": "en:SPAR (retailer)",
@@ -47175,6 +47230,34 @@
         "opening_hours": "Mo-Fr 08:00-19:00; Sa,Su 08:00-17:00",
         "shop": "supermarket",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 364552339,
+      "timestamp": "2021-11-13T07:32:28Z",
+      "version": 4,
+      "changeset": 113721135,
+      "user": "mcliquid",
+      "uid": 1213571,
+      "center": {
+        "lat": 47.1434633,
+        "lon": 9.5174195
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Vaduz",
+        "addr:country": "LI",
+        "addr:housenumber": "19",
+        "addr:postcode": "9490",
+        "addr:street": "Landstrasse",
+        "brand": "Coop Pronto",
+        "brand:wikidata": "Q1129777",
+        "brand:wikipedia": "de:Coop Mineraloel",
+        "building": "yes",
+        "name": "Coop Pronto",
+        "name:de": "Coop Pronto",
+        "shop": "convenience"
       }
     },
     {
