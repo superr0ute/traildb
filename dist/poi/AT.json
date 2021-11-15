@@ -202,19 +202,19 @@
         "@poi": "place_town",
         "@distance": 4613.5,
         "@id": "n153936099",
-        "@changeset": 98630264,
-        "@timestamp": "2021-02-03T08:33:53Z",
-        "@version": 7,
-        "@uid": 8471146,
-        "@user": "DoctorSpeck",
+        "@changeset": 113757643,
+        "@timestamp": "2021-11-14T10:40:46Z",
+        "@version": 8,
+        "@uid": 8085973,
+        "@user": "Lejun",
         "ele": 471,
         "gnis:feature_id": "1497034",
-        "import_uuid": "bb7269ee-502a-5391-8056-e3ce0e66489c",
         "name": "Narrows",
         "place": "town",
         "population": 2029,
         "population:date": "2010",
-        "source:population": "United States Census"
+        "source:population": "United States Census",
+        "wikidata": "Q1376798"
       },
       "geometry": {
         "type": "Point",
@@ -13518,19 +13518,19 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "place_town",
+        "@poi": "place_city",
         "@distance": 7443.1,
         "@id": "n158853728",
-        "@changeset": 84957160,
-        "@timestamp": "2020-05-10T03:41:37Z",
-        "@version": 7,
-        "@uid": 6771650,
-        "@user": "ppjj",
+        "@changeset": 113754082,
+        "@timestamp": "2021-11-14T08:24:56Z",
+        "@version": 8,
+        "@uid": 12840193,
+        "@user": "MelancholicSlav",
         "census:population": "44737;2010",
         "gnis:feature_id": "607643",
         "name": "Pittsfield",
         "name:ru": "Питсфилд",
-        "place": "town",
+        "place": "city",
         "population": 44737,
         "website": "https://www.cityofpittsfield.org/",
         "wikidata": "Q49184",
@@ -27821,9 +27821,9 @@
         "@poi": "foodshop_supermarket",
         "@distance": 7491.5,
         "@id": "w44634457",
-        "@changeset": 100155584,
-        "@timestamp": "2021-02-28T20:31:48Z",
-        "@version": 4,
+        "@changeset": 113774664,
+        "@timestamp": "2021-11-14T18:38:51Z",
+        "@version": 5,
         "@uid": 115918,
         "@user": "Timothy Smith",
         "addr:city": "Waynesboro",
@@ -27842,7 +27842,7 @@
         "phone": "+1-540-932-2500",
         "ref:walmart": "5117",
         "shop": "supermarket",
-        "website": "https://www.walmart.com/store/5117/waynesboro-va/whats-new"
+        "website": "https://www.walmart.com/store/5117-waynesboro-va"
       },
       "geometry": {
         "type": "Point",
@@ -34201,6 +34201,34 @@
         "coordinates": [
           -73.4526227,
           41.8023162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 1185,
+        "@id": "n359262983",
+        "@changeset": 82904174,
+        "@timestamp": "2020-04-01T06:34:43Z",
+        "@version": 2,
+        "@uid": 364,
+        "@user": "Edward",
+        "ele": 288,
+        "gnis:county_id": "005",
+        "gnis:created": "09/12/1979",
+        "gnis:feature_id": "207020",
+        "gnis:state_id": "09",
+        "name": "Falls Mountain",
+        "natural": "peak",
+        "wikidata": "Q31807915"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3834529,
+          41.952871
         ]
       }
     },
@@ -46449,34 +46477,6 @@
         "coordinates": [
           -73.1657927,
           42.6992149
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 1185,
-        "@id": "n359262983",
-        "@changeset": 82904174,
-        "@timestamp": "2020-04-01T06:34:43Z",
-        "@version": 2,
-        "@uid": 364,
-        "@user": "Edward",
-        "ele": 288,
-        "gnis:county_id": "005",
-        "gnis:created": "09/12/1979",
-        "gnis:feature_id": "207020",
-        "gnis:state_id": "09",
-        "name": "Falls Mountain",
-        "natural": "peak",
-        "wikidata": "Q31807915"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.3834529,
-          41.952871
         ]
       }
     },
@@ -61932,31 +61932,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2323.3,
-        "@id": "w616764325",
-        "@changeset": 61638049,
-        "@timestamp": "2018-08-13T20:29:44Z",
-        "@version": 1,
-        "@uid": 5183324,
-        "@user": "HacimXD",
-        "amenity": "shelter",
-        "bench": "yes",
-        "bin": "yes",
-        "building": "yes",
-        "shelter_type": "pavilion"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.5172269,
-          39.9024077
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 4880,
         "@id": "w653306823",
@@ -62499,6 +62474,31 @@
         "coordinates": [
           -75.3594393,
           40.8393976
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2323.3,
+        "@id": "w616764325",
+        "@changeset": 61638049,
+        "@timestamp": "2018-08-13T20:29:44Z",
+        "@version": 1,
+        "@uid": 5183324,
+        "@user": "HacimXD",
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
+        "building": "yes",
+        "shelter_type": "pavilion"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.5172269,
+          39.9024077
         ]
       }
     },
