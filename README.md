@@ -1,6 +1,6 @@
 ### traildb version 2021-11-17
 - 108 trails (41 unroutable, 41 routable, 25 broken, 1 complete)
-- 680MiB data (186MiB trails, 334MiB elevation, 125MiB poi, 35MiB dist)
+- 679MiB data (186MiB trails, 334MiB elevation, 124MiB poi, 35MiB dist)
 - trail status: ❌ unroutable ✔️ routable ❌❌ broken ✔️✔️ complete
 
 | status | srId | srName | srColor | updated | poi |
@@ -52,7 +52,7 @@
 |❌|[GR34](https://superroute.org/GR34)|GR 34 - Chemin des Douaniers [osm](https://osm.org/relation/7790332) [wiki](https://wikidata.org/wiki/Q3478712)||today||
 |✔️|[GR50](https://superroute.org/GR50)|GR50 - Tour du Parc National des Écrins [osm](https://osm.org/relation/11097196) [wiki](https://wikidata.org/wiki/Q3478730)||today|703|
 |❌❌|[GR54](https://superroute.org/GR54)|GR 54 [osm](https://osm.org/relation/2909096) [wiki](https://wikidata.org/wiki/Q16009876)|![#E336A9](https://via.placeholder.com/14/E336A9/000000?text=+) #E336A9|2021-08-13|303|
-|❌❌|[GR5A](https://superroute.org/GR5A)|GR5 - Alpes Côte d'Azur [osm](https://osm.org/relation/2704286) [wiki](https://wikidata.org/wiki/Q106566889)|![#9E36E3](https://via.placeholder.com/14/9E36E3/000000?text=+) #9E36E3|2021-10-17|1632|
+|❌❌|[GR5A](https://superroute.org/GR5A)|GR5 - Alpes Côte d'Azur [osm](https://osm.org/relation/2704286) [wiki](https://wikidata.org/wiki/Q106566889)|![#9E36E3](https://via.placeholder.com/14/9E36E3/000000?text=+) #9E36E3|2021-10-17|1633|
 |✔️|[GR91](https://superroute.org/GR91)|GR 91 [osm](https://osm.org/relation/9920921) [wiki](https://wikidata.org/wiki/Q107745584)||2021-10-09|526|
 |✔️|[GR93](https://superroute.org/GR93)|GR 93 - Traversée du Vercors Ouest-Est [osm](https://osm.org/relation/2785107) [wiki](https://wikidata.org/wiki/Q107554011)||2021-11-16|372|
 |❌|[GTA](https://superroute.org/GTA)|Grande Traversata delle Alpi [osm](https://osm.org/relation/3159979) [wiki](https://wikidata.org/wiki/Q942020)||2021-11-11||
@@ -79,7 +79,7 @@
 |❌|[MLT](https://superroute.org/MLT)|Meili Kora Outer Loop [osm](https://osm.org/relation/10548105) [wiki](https://wikidata.org/wiki/Q107398714)||2021-07-02||
 |❌|[MST](https://superroute.org/MST)|Mountains-to-Sea Trail [osm](https://osm.org/relation/1395404) [wiki](https://wikidata.org/wiki/Q6925667)||2021-11-16||
 |✔️✔️|[MVT](https://superroute.org/MVT)|Malolotja Valley Traverse [osm](https://osm.org/relation/12209914) [wiki](https://wikidata.org/wiki/Q106100344)|![#3C5EBA](https://via.placeholder.com/14/3C5EBA/000000?text=+) #3C5EBA|2021-06-27|7|
-|❌❌|[MWT](https://superroute.org/MWT)|Mountain Wreath Trail [osm](https://osm.org/relation/6172937) [wiki](https://wikidata.org/wiki/Q106563698)|![#C9009E](https://via.placeholder.com/14/C9009E/000000?text=+) #C9009E|2021-08-02|1198|
+|❌❌|[MWT](https://superroute.org/MWT)|Mountain Wreath Trail [osm](https://osm.org/relation/6172937) [wiki](https://wikidata.org/wiki/Q106563698)|![#C9009E](https://via.placeholder.com/14/C9009E/000000?text=+) #C9009E|2021-08-02|1194|
 |❌|[NPT](https://superroute.org/NPT)|Naar-Phu Trek [osm](https://osm.org/relation/1634863) [wiki](https://wikidata.org/wiki/Q106773689)||2021-11-10||
 |✔️|[NRT](https://superroute.org/NRT)|Northville Placid Trail [osm](https://osm.org/relation/4286650) [wiki](https://wikidata.org/wiki/Q7059877)||2021-11-13|175|
 |❌❌|[PCT](https://superroute.org/PCT)|Pacific Crest Trail [osm](https://osm.org/relation/1225378) [wiki](https://wikidata.org/wiki/Q2003736)|![#B22234](https://via.placeholder.com/14/B22234/000000?text=+) #B22234|2021-10-11|1409|
@@ -92,7 +92,7 @@
 |❌|[SIL](https://superroute.org/SIL)|Sentiero Italia - Lombardia [osm](https://osm.org/relation/7029512) [wiki](https://wikidata.org/wiki/Q106567865)|![#008C45](https://via.placeholder.com/14/008C45/000000?text=+) #008C45|today||
 |❌|[SIP](https://superroute.org/SIP)|Sentiero Italia - Piemonte [osm](https://osm.org/relation/7029511) [wiki](https://wikidata.org/wiki/Q106567766)|![#008C45](https://via.placeholder.com/14/008C45/000000?text=+) #008C45|today||
 |✔️|[SIS](https://superroute.org/SIS)|Sentiero Italia - Sicilia [osm](https://osm.org/relation/7011950) [wiki](https://wikidata.org/wiki/Q106567599)|![#008C45](https://via.placeholder.com/14/008C45/000000?text=+) #008C45|2021-11-08|607|
-|✔️|[SNP](https://superroute.org/SNP)|Cesta hrdinov SNP [osm](https://osm.org/relation/7700604) [wiki](https://wikidata.org/wiki/Q3512223)|![#11457E](https://via.placeholder.com/14/11457E/000000?text=+) #11457E|2021-11-16|4205|
+|✔️|[SNP](https://superroute.org/SNP)|Cesta hrdinov SNP [osm](https://osm.org/relation/7700604) [wiki](https://wikidata.org/wiki/Q3512223)|![#11457E](https://via.placeholder.com/14/11457E/000000?text=+) #11457E|2021-11-16|4206|
 |✔️|[SSA](https://superroute.org/SSA)|Sentiero di Spartiacque Appenninico [osm](https://osm.org/relation/136334) [wiki](https://wikidata.org/wiki/Q106099636)||2021-11-16|1148|
 |❌|[SZL](https://superroute.org/SZL)|Sarchu Zanskar Lamayuru [osm](https://osm.org/relation/11229978) [wiki](https://wikidata.org/wiki/Q106774333)||2021-11-16||
 |❌|[TAN](https://superroute.org/TAN)|Te Araroa North [osm](https://osm.org/relation/8518624) [wiki](https://wikidata.org/wiki/Q106564271)||2021-11-16||
@@ -114,7 +114,7 @@
 |❌|[WES](https://superroute.org/WES)|Westweg [osm](https://osm.org/relation/62900) [wiki](https://wikidata.org/wiki/Q2565728)||today||
 |✔️|[WON](https://superroute.org/WON)|Wonderland Trail [osm](https://osm.org/relation/4111743) [wiki](https://wikidata.org/wiki/Q3498361)|![#7968FF](https://via.placeholder.com/14/7968FF/000000?text=+) #7968FF|2021-08-23|51|
 
-### poidb version 2021-11-16
+### poidb version 2021-11-17
 
 | name | selector | maxDistance |
 |  --- | --- | --- |
