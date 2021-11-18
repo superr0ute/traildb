@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-09-17T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-17T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -148,11 +148,11 @@
     {
       "type": "relation",
       "id": 9719359,
-      "timestamp": "2020-11-03T19:25:23Z",
-      "version": 14,
-      "changeset": 93499785,
-      "user": "Hb-",
-      "uid": 162827,
+      "timestamp": "2021-11-17T00:47:47Z",
+      "version": 15,
+      "changeset": 113875644,
+      "user": "TWHB",
+      "uid": 6556551,
       "members": [
         {"type": "way", "ref": 207982414, "role": ""},
         {"type": "way", "ref": 776794742, "role": ""},
@@ -187,6 +187,7 @@
         {"type": "way", "ref": 385635105, "role": ""},
         {"type": "way", "ref": 385635107, "role": ""},
         {"type": "way", "ref": 777068469, "role": ""},
+        {"type": "way", "ref": 1003296604, "role": ""},
         {"type": "way", "ref": 385760209, "role": ""},
         {"type": "way", "ref": 385760371, "role": ""},
         {"type": "way", "ref": 777068468, "role": ""},
@@ -208,23 +209,22 @@
     {
       "type": "relation",
       "id": 9719360,
-      "timestamp": "2021-01-29T04:13:15Z",
-      "version": 8,
-      "changeset": 98331932,
-      "user": "NFZANMNIM",
-      "uid": 1980310,
+      "timestamp": "2021-11-17T00:47:47Z",
+      "version": 9,
+      "changeset": 113875644,
+      "user": "TWHB",
+      "uid": 6556551,
       "members": [
-        {"type": "way", "ref": 777068461, "role": ""},
-        {"type": "way", "ref": 385760366, "role": ""},
-        {"type": "way", "ref": 327873487, "role": ""},
-        {"type": "way", "ref": 899233181, "role": ""},
-        {"type": "way", "ref": 777083599, "role": ""},
-        {"type": "way", "ref": 777083600, "role": ""},
-        {"type": "way", "ref": 275776925, "role": ""},
-        {"type": "way", "ref": 879589704, "role": ""},
-        {"type": "way", "ref": 901450033, "role": ""},
         {"type": "way", "ref": 327873493, "role": ""},
-        {"type": "way", "ref": 327873492, "role": ""}
+        {"type": "way", "ref": 327873492, "role": ""},
+        {"type": "way", "ref": 901450033, "role": ""},
+        {"type": "way", "ref": 275776925, "role": ""},
+        {"type": "way", "ref": 777083600, "role": ""},
+        {"type": "way", "ref": 777083599, "role": ""},
+        {"type": "way", "ref": 899233181, "role": ""},
+        {"type": "way", "ref": 327873487, "role": ""},
+        {"type": "way", "ref": 385760366, "role": ""},
+        {"type": "way", "ref": 777068461, "role": ""}
       ],
       "tags": {
         "name": "Janapar - Section 05 - Avetaranots to Karintak",
@@ -570,6 +570,29 @@
         "route": "hiking",
         "type": "route",
         "wikidata": "Q64808974"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1003296604,
+      "timestamp": "2021-11-17T00:47:47Z",
+      "version": 1,
+      "changeset": 113875644,
+      "user": "TWHB",
+      "uid": 6556551,
+      "nodes": [9258669646, 9258669609],
+      "geometry": [
+        {"lat": 39.7004633, "lon": 46.8444652},
+        {"lat": 39.7013458, "lon": 46.8431729}
+      ],
+      "tags": {
+        "highway": "primary",
+        "name": "Şuşa - Füzuli şossesi",
+        "name:az": "Şuşa - Füzuli şossesi",
+        "name:en": "Shusha - Fuzuli Highway",
+        "name:tr": "Şuşa - Fuzuli Yolu",
+        "source": "Maxar",
+        "surface": "asphalt"
       }
     },
     {
@@ -973,11 +996,11 @@
     {
       "type": "way",
       "id": 207982441,
-      "timestamp": "2021-07-17T22:49:13Z",
-      "version": 8,
-      "changeset": 108175649,
-      "user": "papapam",
-      "uid": 10374609,
+      "timestamp": "2021-11-17T13:53:05Z",
+      "version": 9,
+      "changeset": 113899495,
+      "user": "TWHB",
+      "uid": 6556551,
       "nodes": [925857420, 3855515903],
       "geometry": [
         {"lat": 39.6035189, "lon": 46.9701651},
@@ -1033,7 +1056,6 @@
         {"lat": 39.6064491, "lon": 46.9586203}
       ],
       "tags": {
-        "construction": "primary",
         "highway": "secondary",
         "name:az": "Şuşa - Füzuli Avtomobil Yolu",
         "name:en": "Shusha - Fuzuli Highway",
@@ -2506,11 +2528,11 @@
     {
       "type": "way",
       "id": 275776925,
-      "timestamp": "2021-07-17T22:49:13Z",
-      "version": 3,
-      "changeset": 108175649,
-      "user": "papapam",
-      "uid": 10374609,
+      "timestamp": "2021-11-17T00:47:47Z",
+      "version": 4,
+      "changeset": 113875644,
+      "user": "TWHB",
+      "uid": 6556551,
       "nodes": [2804469685, 2804512162],
       "geometry": [
         {"lat": 39.7399062, "lon": 46.7502568},
@@ -2518,9 +2540,8 @@
       ],
       "tags": {
         "bridge": "yes",
-        "construction": "primary",
         "foot": "yes",
-        "highway": "construction",
+        "highway": "tertiary",
         "name:az": "Şuşa - Füzuli Avtomobil Yolu",
         "name:en": "Shusha - Fuzuli Highway",
         "name:tr": "Şuşa - Füzuli Otoyolu",
@@ -3528,7 +3549,7 @@
         {"lat": 39.7697507, "lon": 46.7464533},
         {"lat": 39.7696352, "lon": 46.7465445},
         {"lat": 39.76936, "lon": 46.7468744},
-        {"lat": 39.7691221, "lon": 46.7472066}
+        {"lat": 39.7691316, "lon": 46.7472128}
       ],
       "tags": {
         "highway": "secondary",
@@ -4124,7 +4145,7 @@
         {"lat": 39.7686199, "lon": 46.7478213},
         {"lat": 39.7688384, "lon": 46.7475772},
         {"lat": 39.7689798, "lon": 46.7474131},
-        {"lat": 39.7691221, "lon": 46.7472066}
+        {"lat": 39.7691316, "lon": 46.7472128}
       ],
       "tags": {
         "highway": "secondary",
@@ -4138,11 +4159,11 @@
     {
       "type": "way",
       "id": 327873487,
-      "timestamp": "2021-07-17T22:49:13Z",
-      "version": 8,
-      "changeset": 108175649,
-      "user": "papapam",
-      "uid": 10374609,
+      "timestamp": "2021-11-17T00:47:47Z",
+      "version": 9,
+      "changeset": 113875644,
+      "user": "TWHB",
+      "uid": 6556551,
       "nodes": [3890964397, 3346846323],
       "geometry": [
         {"lat": 39.7220209, "lon": 46.7683632},
@@ -4407,9 +4428,8 @@
         {"lat": 39.7060381, "lon": 46.8257399}
       ],
       "tags": {
-        "construction": "primary",
         "foot": "yes",
-        "highway": "construction",
+        "highway": "tertiary",
         "name:az": "Şuşa - Füzuli Avtomobil Yolu",
         "name:en": "Shusha - Fuzuli Highway",
         "name:tr": "Şuşa - Füzuli Otoyolu",
@@ -4419,41 +4439,45 @@
     {
       "type": "way",
       "id": 327873492,
-      "timestamp": "2021-05-22T21:55:52Z",
-      "version": 4,
-      "changeset": 105148478,
+      "timestamp": "2021-11-17T00:47:47Z",
+      "version": 5,
+      "changeset": 113875644,
       "user": "TWHB",
       "uid": 6556551,
-      "nodes": [3346846426, 3038393749],
+      "nodes": [3346846426, 3038393754],
       "geometry": [
-        {"lat": 39.7395964, "lon": 46.7485373},
-        {"lat": 39.7396459, "lon": 46.7481296},
-        {"lat": 39.7397944, "lon": 46.7478346},
-        {"lat": 39.7399511, "lon": 46.7476307},
-        {"lat": 39.740046, "lon": 46.7474537},
-        {"lat": 39.7401491, "lon": 46.7473571},
-        {"lat": 39.7402193, "lon": 46.7474161},
-        {"lat": 39.740211, "lon": 46.7475395},
-        {"lat": 39.7401821, "lon": 46.7476575},
-        {"lat": 39.7401656, "lon": 46.7478238},
-        {"lat": 39.7401739, "lon": 46.7480706},
-        {"lat": 39.7402465, "lon": 46.7481722},
-        {"lat": 39.7403158, "lon": 46.7481856},
-        {"lat": 39.7403826, "lon": 46.7481454},
-        {"lat": 39.7405322, "lon": 46.7480392},
-        {"lat": 39.7406895, "lon": 46.7478667},
-        {"lat": 39.7408421, "lon": 46.7477219},
-        {"lat": 39.740871, "lon": 46.74762},
-        {"lat": 39.7409205, "lon": 46.7473357},
-        {"lat": 39.7410278, "lon": 46.7471211},
-        {"lat": 39.7413048, "lon": 46.746813},
-        {"lat": 39.7414326, "lon": 46.7466041},
-        {"lat": 39.741588, "lon": 46.746369},
-        {"lat": 39.7416767, "lon": 46.74618},
-        {"lat": 39.7417279, "lon": 46.7460172},
-        {"lat": 39.7418065, "lon": 46.7458851}
+        {"lat": 39.739683, "lon": 46.7485963},
+        {"lat": 39.7397325, "lon": 46.7481886},
+        {"lat": 39.739881, "lon": 46.7478936},
+        {"lat": 39.7400377, "lon": 46.7476897},
+        {"lat": 39.7401326, "lon": 46.7475127},
+        {"lat": 39.7402357, "lon": 46.7474161},
+        {"lat": 39.7403059, "lon": 46.7474751},
+        {"lat": 39.7402976, "lon": 46.7475985},
+        {"lat": 39.7402687, "lon": 46.7477165},
+        {"lat": 39.7402522, "lon": 46.7478828},
+        {"lat": 39.7402605, "lon": 46.7481296},
+        {"lat": 39.7403476, "lon": 46.7481963},
+        {"lat": 39.740423, "lon": 46.7481615},
+        {"lat": 39.7405796, "lon": 46.748058},
+        {"lat": 39.740772, "lon": 46.7478721},
+        {"lat": 39.7409184, "lon": 46.7477782},
+        {"lat": 39.7409576, "lon": 46.747679},
+        {"lat": 39.7410071, "lon": 46.7473947},
+        {"lat": 39.7411144, "lon": 46.7471801},
+        {"lat": 39.741379, "lon": 46.7467728},
+        {"lat": 39.7416684, "lon": 46.746369},
+        {"lat": 39.7417118, "lon": 46.7461827},
+        {"lat": 39.741763, "lon": 46.7460252},
+        {"lat": 39.7419034, "lon": 46.7458502},
+        {"lat": 39.7418897, "lon": 46.7455012},
+        {"lat": 39.7419598, "lon": 46.7451632},
+        {"lat": 39.7420547, "lon": 46.7449969},
+        {"lat": 39.7420712, "lon": 46.7447501},
+        {"lat": 39.7422115, "lon": 46.7443961},
+        {"lat": 39.7421827, "lon": 46.7442365}
       ],
-      "tags": {"foot": "yes", "highway": "residential", "source": "GPS, Bing"}
+      "tags": {"foot": "yes", "highway": "tertiary", "source": "GPS, Bing"}
     },
     {
       "type": "way",
@@ -4465,16 +4489,16 @@
       "uid": 6556551,
       "nodes": [3038393749, 3038393782],
       "geometry": [
-        {"lat": 39.7418065, "lon": 46.7458851},
-        {"lat": 39.7420978, "lon": 46.7455421},
-        {"lat": 39.7423157, "lon": 46.7454332},
-        {"lat": 39.742444, "lon": 46.7454913},
-        {"lat": 39.7424869, "lon": 46.7457383},
-        {"lat": 39.742376, "lon": 46.7459836},
-        {"lat": 39.7424407, "lon": 46.7461798},
-        {"lat": 39.7427768, "lon": 46.7467067},
-        {"lat": 39.7428932, "lon": 46.7471047},
-        {"lat": 39.7430651, "lon": 46.7473287}
+        {"lat": 39.7419034, "lon": 46.7458502},
+        {"lat": 39.7421803, "lon": 46.7455153},
+        {"lat": 39.7423982, "lon": 46.7454064},
+        {"lat": 39.7425265, "lon": 46.7454645},
+        {"lat": 39.7425694, "lon": 46.7457115},
+        {"lat": 39.7424585, "lon": 46.7459568},
+        {"lat": 39.7425232, "lon": 46.746153},
+        {"lat": 39.7428593, "lon": 46.7466799},
+        {"lat": 39.7429798, "lon": 46.7471208},
+        {"lat": 39.7431476, "lon": 46.7473019}
       ],
       "tags": {"foot": "yes", "highway": "tertiary"}
     },
@@ -5315,13 +5339,16 @@
     {
       "type": "way",
       "id": 385760209,
-      "timestamp": "2021-07-17T22:49:13Z",
-      "version": 7,
-      "changeset": 108175649,
-      "user": "papapam",
-      "uid": 10374609,
-      "nodes": [3890962935, 2182528561],
+      "timestamp": "2021-11-17T00:47:47Z",
+      "version": 8,
+      "changeset": 113875644,
+      "user": "TWHB",
+      "uid": 6556551,
+      "nodes": [9258669661, 9258669609],
       "geometry": [
+        {"lat": 39.7036937, "lon": 46.8369979},
+        {"lat": 39.7036629, "lon": 46.8371717},
+        {"lat": 39.7036943, "lon": 46.8379815},
         {"lat": 39.7036976, "lon": 46.8383659},
         {"lat": 39.7037385, "lon": 46.8387403},
         {"lat": 39.7038274, "lon": 46.8392031},
@@ -5341,40 +5368,23 @@
         {"lat": 39.7023853, "lon": 46.8431359},
         {"lat": 39.7022742, "lon": 46.8433481},
         {"lat": 39.7020984, "lon": 46.8435034},
-        {"lat": 39.7019524, "lon": 46.8435716},
-        {"lat": 39.7017981, "lon": 46.8435666},
-        {"lat": 39.7016439, "lon": 46.843457},
-        {"lat": 39.7015016, "lon": 46.84324},
-        {"lat": 39.7014417, "lon": 46.8431518},
-        {"lat": 39.7013293, "lon": 46.8431248},
-        {"lat": 39.7012543, "lon": 46.8431497},
-        {"lat": 39.7011854, "lon": 46.8432163},
-        {"lat": 39.7010903, "lon": 46.8433863},
-        {"lat": 39.7009458, "lon": 46.8436457},
-        {"lat": 39.7008552, "lon": 46.8438085},
-        {"lat": 39.7007401, "lon": 46.8439392},
-        {"lat": 39.7006188, "lon": 46.8439986},
-        {"lat": 39.7004661, "lon": 46.8440674},
-        {"lat": 39.7003547, "lon": 46.844116}
+        {"lat": 39.7018008, "lon": 46.8434662},
+        {"lat": 39.7013458, "lon": 46.8431729}
       ],
       "tags": {
-        "construction": "primary",
-        "highway": "secondary",
+        "highway": "unclassified",
         "name": "Madatashen road",
-        "name:az": "Şuşa - Füzuli Avtomobil Yolu",
-        "name:en": "Shusha - Fuzuli Highway",
-        "name:tr": "Şuşa - Füzuli Otoyolu",
         "surface": "unpaved"
       }
     },
     {
       "type": "way",
       "id": 385760359,
-      "timestamp": "2015-12-13T21:36:58Z",
-      "version": 1,
-      "changeset": 35934212,
-      "user": "aslanosm",
-      "uid": 2985213,
+      "timestamp": "2021-11-17T00:47:47Z",
+      "version": 2,
+      "changeset": 113875644,
+      "user": "TWHB",
+      "uid": 6556551,
       "nodes": [3890962998, 3890962908],
       "geometry": [
         {"lat": 39.7041657, "lon": 46.8311919},
@@ -5390,17 +5400,17 @@
         {"lat": 39.7035847, "lon": 46.8309242},
         {"lat": 39.7035255, "lon": 46.8309019}
       ],
-      "tags": {"highway": "service"}
+      "tags": {"highway": "residential"}
     },
     {
       "type": "way",
       "id": 385760366,
-      "timestamp": "2021-07-17T22:49:13Z",
-      "version": 4,
-      "changeset": 108175649,
-      "user": "papapam",
-      "uid": 10374609,
-      "nodes": [3346846323, 3890963002],
+      "timestamp": "2021-11-17T00:47:47Z",
+      "version": 5,
+      "changeset": 113875644,
+      "user": "TWHB",
+      "uid": 6556551,
+      "nodes": [3346846323, 3890963043],
       "geometry": [
         {"lat": 39.7060381, "lon": 46.8257399},
         {"lat": 39.7059116, "lon": 46.825978},
@@ -5422,20 +5432,11 @@
         {"lat": 39.7046908, "lon": 46.8291593},
         {"lat": 39.7046372, "lon": 46.8293282},
         {"lat": 39.704598, "lon": 46.8294047},
-        {"lat": 39.7045641, "lon": 46.8294742},
-        {"lat": 39.7040334, "lon": 46.8305639},
-        {"lat": 39.7037429, "lon": 46.8313993},
-        {"lat": 39.7036724, "lon": 46.8321889},
-        {"lat": 39.7037076, "lon": 46.8329557},
-        {"lat": 39.7040686, "lon": 46.8336881},
-        {"lat": 39.7042799, "lon": 46.8341688},
-        {"lat": 39.7043328, "lon": 46.8347181},
-        {"lat": 39.7042021, "lon": 46.8353032}
+        {"lat": 39.7045641, "lon": 46.8294742}
       ],
       "tags": {
-        "construction": "primary",
         "foot": "yes",
-        "highway": "construction",
+        "highway": "tertiary",
         "name:az": "Şuşa - Füzuli Avtomobil Yolu",
         "name:en": "Shusha - Fuzuli Highway",
         "name:tr": "Şuşa - Füzuli Otoyolu",
@@ -5487,12 +5488,12 @@
     {
       "type": "way",
       "id": 385760371,
-      "timestamp": "2021-07-17T22:49:13Z",
-      "version": 6,
-      "changeset": 108175649,
-      "user": "papapam",
-      "uid": 10374609,
-      "nodes": [3890962979, 3890962935],
+      "timestamp": "2021-11-17T00:47:47Z",
+      "version": 7,
+      "changeset": 113875644,
+      "user": "TWHB",
+      "uid": 6556551,
+      "nodes": [3890962979, 9258669661],
       "geometry": [
         {"lat": 39.7040819, "lon": 46.8355827},
         {"lat": 39.703986, "lon": 46.8356986},
@@ -5502,13 +5503,10 @@
         {"lat": 39.703788, "lon": 46.8363836},
         {"lat": 39.7037571, "lon": 46.8366557},
         {"lat": 39.7037203, "lon": 46.8368472},
-        {"lat": 39.7036629, "lon": 46.8371717},
-        {"lat": 39.7036943, "lon": 46.8379815},
-        {"lat": 39.7036976, "lon": 46.8383659}
+        {"lat": 39.7036937, "lon": 46.8369979}
       ],
       "tags": {
-        "construction": "primary",
-        "highway": "secondary",
+        "highway": "tertiary",
         "name:az": "Şuşa - Füzuli Avtomobil Yolu",
         "name:en": "Shusha - Fuzuli Highway",
         "name:tr": "Şuşa - Füzuli Otoyolu"
@@ -5517,11 +5515,11 @@
     {
       "type": "way",
       "id": 385760378,
-      "timestamp": "2021-07-17T22:49:13Z",
-      "version": 8,
-      "changeset": 108175649,
-      "user": "papapam",
-      "uid": 10374609,
+      "timestamp": "2021-11-17T00:47:47Z",
+      "version": 9,
+      "changeset": 113875644,
+      "user": "TWHB",
+      "uid": 6556551,
       "nodes": [3890963108, 2182528815],
       "geometry": [
         {"lat": 39.7052372, "lon": 46.8334898},
@@ -5541,7 +5539,7 @@
         {"lat": 39.7051397, "lon": 46.8356462}
       ],
       "tags": {
-        "highway": "secondary",
+        "highway": "tertiary",
         "name": "Füzuli - Şuşa Xidməti Yolu",
         "name:az": "Füzuli - Şuşa Xidməti Yolu",
         "name:en": "Fuzuli - Shusha Service Road",
@@ -5619,11 +5617,11 @@
     {
       "type": "way",
       "id": 385760419,
-      "timestamp": "2015-12-13T21:37:04Z",
-      "version": 1,
-      "changeset": 35934212,
-      "user": "aslanosm",
-      "uid": 2985213,
+      "timestamp": "2021-11-17T00:47:47Z",
+      "version": 2,
+      "changeset": 113875644,
+      "user": "TWHB",
+      "uid": 6556551,
       "nodes": [3890963166, 3346847020],
       "geometry": [
         {"lat": 39.7055121, "lon": 46.8306085},
@@ -5633,7 +5631,7 @@
         {"lat": 39.7055776, "lon": 46.8301912},
         {"lat": 39.7055782, "lon": 46.830035}
       ],
-      "tags": {"highway": "service"}
+      "tags": {"highway": "residential"}
     },
     {
       "type": "way",
@@ -11359,11 +11357,11 @@
     {
       "type": "way",
       "id": 777068461,
-      "timestamp": "2020-12-01T08:50:57Z",
-      "version": 2,
-      "changeset": 95085358,
-      "user": "NFZANMNIM",
-      "uid": 1980310,
+      "timestamp": "2021-11-17T00:47:47Z",
+      "version": 3,
+      "changeset": 113875644,
+      "user": "TWHB",
+      "uid": 6556551,
       "nodes": [3346847020, 3890963043],
       "geometry": [
         {"lat": 39.7055782, "lon": 46.830035},
@@ -11377,7 +11375,7 @@
         {"lat": 39.704595, "lon": 46.8295239},
         {"lat": 39.7045641, "lon": 46.8294742}
       ],
-      "tags": {"highway": "residential", "source": "GPS, Bing"}
+      "tags": {"highway": "tertiary", "source": "GPS, Bing"}
     },
     {
       "type": "way",
@@ -11435,11 +11433,11 @@
     {
       "type": "way",
       "id": 777068468,
-      "timestamp": "2021-07-17T22:49:13Z",
-      "version": 5,
-      "changeset": 108175649,
-      "user": "papapam",
-      "uid": 10374609,
+      "timestamp": "2021-11-17T00:47:47Z",
+      "version": 6,
+      "changeset": 113875644,
+      "user": "TWHB",
+      "uid": 6556551,
       "nodes": [2182528815, 3890962979],
       "geometry": [
         {"lat": 39.7051397, "lon": 46.8356462},
@@ -11452,7 +11450,7 @@
         {"lat": 39.7040819, "lon": 46.8355827}
       ],
       "tags": {
-        "highway": "secondary",
+        "highway": "tertiary",
         "name": "Füzuli - Şuşa Xidməti Yolu",
         "name:az": "Füzuli - Şuşa Xidməti Yolu",
         "name:en": "Fuzuli - Shusha Service Road",
@@ -11462,16 +11460,14 @@
     {
       "type": "way",
       "id": 777068469,
-      "timestamp": "2021-07-17T22:49:13Z",
-      "version": 5,
-      "changeset": 108175649,
-      "user": "papapam",
-      "uid": 10374609,
-      "nodes": [2182528561, 3889707282],
+      "timestamp": "2021-11-17T00:47:47Z",
+      "version": 6,
+      "changeset": 113875644,
+      "user": "TWHB",
+      "uid": 6556551,
+      "nodes": [9258669646, 3889707282],
       "geometry": [
-        {"lat": 39.7003547, "lon": 46.844116},
-        {"lat": 39.7003944, "lon": 46.8442416},
-        {"lat": 39.7004505, "lon": 46.8443915},
+        {"lat": 39.7004633, "lon": 46.8444652},
         {"lat": 39.7004786, "lon": 46.8445536},
         {"lat": 39.7004869, "lon": 46.8448889},
         {"lat": 39.700491, "lon": 46.8450519},
@@ -11491,12 +11487,8 @@
         {"lat": 39.7013901, "lon": 46.8486914}
       ],
       "tags": {
-        "construction": "primary",
-        "highway": "secondary",
+        "highway": "tertiary",
         "name": "Moshkhmhat route",
-        "name:az": "Şuşa - Füzuli Avtomobil Yolu",
-        "name:en": "Shusha - Fuzuli Highway",
-        "name:tr": "Şuşa - Füzuli Otoyolu",
         "surface": "unpaved"
       }
     },
@@ -11523,11 +11515,11 @@
     {
       "type": "way",
       "id": 777083599,
-      "timestamp": "2021-07-17T22:49:13Z",
-      "version": 4,
-      "changeset": 108175649,
-      "user": "papapam",
-      "uid": 10374609,
+      "timestamp": "2021-11-17T00:47:47Z",
+      "version": 5,
+      "changeset": 113875644,
+      "user": "TWHB",
+      "uid": 6556551,
       "nodes": [3346846858, 3346846453],
       "geometry": [
         {"lat": 39.7357331, "lon": 46.7560771},
@@ -11551,9 +11543,8 @@
         {"lat": 39.7355619, "lon": 46.757099}
       ],
       "tags": {
-        "construction": "primary",
         "foot": "yes",
-        "highway": "construction",
+        "highway": "tertiary",
         "name:az": "Şuşa - Füzuli Avtomobil Yolu",
         "name:en": "Shusha - Fuzuli Highway",
         "name:tr": "Şuşa - Füzuli Otoyolu",
@@ -11563,11 +11554,11 @@
     {
       "type": "way",
       "id": 777083600,
-      "timestamp": "2021-07-17T22:49:13Z",
-      "version": 4,
-      "changeset": 108175649,
-      "user": "papapam",
-      "uid": 10374609,
+      "timestamp": "2021-11-17T00:47:47Z",
+      "version": 5,
+      "changeset": 113875644,
+      "user": "TWHB",
+      "uid": 6556551,
       "nodes": [2804512162, 3346846858],
       "geometry": [
         {"lat": 39.7397899, "lon": 46.750444},
@@ -11662,9 +11653,8 @@
         {"lat": 39.7357331, "lon": 46.7560771}
       ],
       "tags": {
-        "construction": "primary",
         "foot": "yes",
-        "highway": "construction",
+        "highway": "tertiary",
         "name:az": "Şuşa - Füzuli Avtomobil Yolu",
         "name:en": "Shusha - Fuzuli Highway",
         "name:tr": "Şuşa - Füzuli Otoyolu",
@@ -13633,45 +13623,12 @@
     },
     {
       "type": "way",
-      "id": 879589704,
-      "timestamp": "2021-07-17T22:49:13Z",
-      "version": 6,
-      "changeset": 108175649,
-      "user": "papapam",
-      "uid": 10374609,
-      "nodes": [8182567363, 3038393779],
-      "geometry": [
-        {"lat": 39.738952, "lon": 46.7455224},
-        {"lat": 39.7390629, "lon": 46.7448842},
-        {"lat": 39.7392152, "lon": 46.7444699},
-        {"lat": 39.7394703, "lon": 46.743703},
-        {"lat": 39.7398593, "lon": 46.7425334},
-        {"lat": 39.7400582, "lon": 46.7421022},
-        {"lat": 39.7402956, "lon": 46.7415877},
-        {"lat": 39.7406835, "lon": 46.7412545},
-        {"lat": 39.7411613, "lon": 46.7409032},
-        {"lat": 39.7416669, "lon": 46.740633},
-        {"lat": 39.7420201, "lon": 46.74057},
-        {"lat": 39.7421058, "lon": 46.7405311},
-        {"lat": 39.7423179, "lon": 46.7404349},
-        {"lat": 39.7429178, "lon": 46.7403982}
-      ],
-      "tags": {
-        "construction": "primary",
-        "highway": "construction",
-        "name:az": "Şuşa - Füzuli Avtomobil Yolu",
-        "name:en": "Shusha - Fuzuli Highway",
-        "name:tr": "Şuşa - Füzuli Otoyolu"
-      }
-    },
-    {
-      "type": "way",
       "id": 899233181,
-      "timestamp": "2021-07-17T22:49:13Z",
-      "version": 5,
-      "changeset": 108175649,
-      "user": "papapam",
-      "uid": 10374609,
+      "timestamp": "2021-11-17T00:47:47Z",
+      "version": 6,
+      "changeset": 113875644,
+      "user": "TWHB",
+      "uid": 6556551,
       "nodes": [3346846453, 3890964397],
       "geometry": [
         {"lat": 39.7355619, "lon": 46.757099},
@@ -13823,9 +13780,8 @@
         {"lat": 39.7220209, "lon": 46.7683632}
       ],
       "tags": {
-        "construction": "primary",
         "foot": "yes",
-        "highway": "construction",
+        "highway": "tertiary",
         "name:az": "Şuşa - Füzuli Avtomobil Yolu",
         "name:en": "Shusha - Fuzuli Highway",
         "name:tr": "Şuşa - Füzuli Otoyolu",
@@ -13835,28 +13791,22 @@
     {
       "type": "way",
       "id": 901450033,
-      "timestamp": "2021-07-17T22:49:13Z",
-      "version": 2,
-      "changeset": 108175649,
-      "user": "papapam",
-      "uid": 10374609,
-      "nodes": [2804469685, 8182567363],
+      "timestamp": "2021-11-17T00:47:47Z",
+      "version": 3,
+      "changeset": 113875644,
+      "user": "TWHB",
+      "uid": 6556551,
+      "nodes": [2804469685, 3346846426],
       "geometry": [
         {"lat": 39.7399062, "lon": 46.7502568},
         {"lat": 39.7398233, "lon": 46.7498891},
         {"lat": 39.7398068, "lon": 46.7496209},
         {"lat": 39.7397202, "lon": 46.7493044},
         {"lat": 39.7396583, "lon": 46.7489933},
-        {"lat": 39.7395964, "lon": 46.7485373},
-        {"lat": 39.7392983, "lon": 46.7478834},
-        {"lat": 39.7390836, "lon": 46.7474691},
-        {"lat": 39.7389243, "lon": 46.7468836},
-        {"lat": 39.7389243, "lon": 46.7465414},
-        {"lat": 39.738952, "lon": 46.7455224}
+        {"lat": 39.739683, "lon": 46.7485963}
       ],
       "tags": {
-        "construction": "primary",
-        "highway": "construction",
+        "highway": "tertiary",
         "name:az": "Şuşa - Füzuli Avtomobil Yolu",
         "name:en": "Shusha - Fuzuli Highway",
         "name:tr": "Şuşa - Füzuli Otoyolu"

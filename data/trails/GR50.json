@@ -1,20 +1,21 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-08T02:32:27Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-18T02:33:12Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11097196,
-      "timestamp": "2021-11-07T17:15:02Z",
-      "version": 60,
-      "changeset": 113489185,
-      "user": "Patchi",
-      "uid": 591881,
+      "timestamp": "2021-11-17T00:26:38Z",
+      "version": 61,
+      "changeset": 113875302,
+      "user": "Olyon",
+      "uid": 1443767,
       "members": [
         {"type": "way", "ref": 195718537, "role": ""},
         {"type": "way", "ref": 803487048, "role": ""},
         {"type": "way", "ref": 735351172, "role": ""},
         {"type": "way", "ref": 735351171, "role": ""},
         {"type": "way", "ref": 803487045, "role": ""},
+        {"type": "way", "ref": 1003293956, "role": ""},
         {"type": "way", "ref": 803487044, "role": ""},
         {"type": "way", "ref": 803487629, "role": ""},
         {"type": "way", "ref": 803487627, "role": ""},
@@ -940,6 +941,23 @@
         {"lat": 44.6883238, "lon": 6.2714416, "z": 1191.6}
       ],
       "tags": {"highway": "service"}
+    },
+    {
+      "type": "way",
+      "id": 1003293956,
+      "timestamp": "2021-11-17T00:26:38Z",
+      "version": 1,
+      "changeset": 113875302,
+      "user": "Olyon",
+      "uid": 1443767,
+      "nodes": [2061348165, 7515912629],
+      "geometry": [
+        {"lat": 45.0350005, "lon": 6.0175559, "z": 1656.3},
+        {"lat": 45.0350124, "lon": 6.0174997, "z": 1655.4},
+        {"lat": 45.0350133, "lon": 6.0173817, "z": 1653.1},
+        {"lat": 45.03511, "lon": 6.017037, "z": 1647.9}
+      ],
+      "tags": {"highway": "track", "name": "Chemin des Granges"}
     },
     {
       "type": "way",
@@ -25417,11 +25435,11 @@
     {
       "type": "way",
       "id": 735351167,
-      "timestamp": "2019-10-16T22:48:35Z",
-      "version": 1,
-      "changeset": 75803983,
-      "user": "AL68",
-      "uid": 1745073,
+      "timestamp": "2021-11-17T00:26:38Z",
+      "version": 2,
+      "changeset": 113875302,
+      "user": "Olyon",
+      "uid": 1443767,
       "nodes": [1651495913, 6887344147],
       "geometry": [
         {"lat": 45.0480925, "lon": 5.9869664, "z": 948.3},
@@ -25429,7 +25447,7 @@
         {"lat": 45.0477199, "lon": 5.9870432, "z": 951},
         {"lat": 45.0476205, "lon": 5.9871411, "z": 952.2}
       ],
-      "tags": {"highway": "residential"}
+      "tags": {"highway": "residential", "name": "Chemin de l’Ardoisière"}
     },
     {
       "type": "way",
@@ -26974,16 +26992,13 @@
     {
       "type": "way",
       "id": 803487044,
-      "timestamp": "2020-05-13T21:42:23Z",
-      "version": 1,
-      "changeset": 85165600,
-      "user": "fmorel",
-      "uid": 331938,
-      "nodes": [2061348165, 898868420],
+      "timestamp": "2021-11-17T00:26:38Z",
+      "version": 2,
+      "changeset": 113875302,
+      "user": "Olyon",
+      "uid": 1443767,
+      "nodes": [7515912629, 898868420],
       "geometry": [
-        {"lat": 45.0350005, "lon": 6.0175559, "z": 1656.3},
-        {"lat": 45.0350124, "lon": 6.0174997, "z": 1655.4},
-        {"lat": 45.0350133, "lon": 6.0173817, "z": 1653.1},
         {"lat": 45.03511, "lon": 6.017037, "z": 1647.9},
         {"lat": 45.0351687, "lon": 6.016691, "z": 1641.8},
         {"lat": 45.0352038, "lon": 6.0166186, "z": 1640.6},
@@ -26999,11 +27014,11 @@
     {
       "type": "way",
       "id": 803487045,
-      "timestamp": "2020-05-13T21:42:23Z",
-      "version": 1,
-      "changeset": 85165600,
-      "user": "fmorel",
-      "uid": 331938,
+      "timestamp": "2021-11-17T00:26:38Z",
+      "version": 2,
+      "changeset": 113875302,
+      "user": "Olyon",
+      "uid": 1443767,
       "nodes": [2061348165, 2061348147],
       "geometry": [
         {"lat": 45.0350005, "lon": 6.0175559, "z": 1656.3},
@@ -27012,7 +27027,7 @@
         {"lat": 45.0351748, "lon": 6.0183837, "z": 1673.7},
         {"lat": 45.035232, "lon": 6.0184267, "z": 1675.1}
       ],
-      "tags": {"highway": "track"}
+      "tags": {"highway": "track", "name": "Route du Col de Solude"}
     },
     {
       "type": "way",
