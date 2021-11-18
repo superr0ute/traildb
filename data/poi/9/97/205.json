@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-11-16T23:59:59Z",
-    "timestamp_osm_base": "2021-11-17T03:08:48Z",
+    "timestamp_osm_date": "2021-11-17T23:59:59Z",
+    "timestamp_osm_base": "2021-11-18T03:12:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -8289,26 +8289,29 @@
     {
       "type": "way",
       "id": 435152567,
-      "timestamp": "2020-08-21T22:10:37Z",
-      "version": 3,
-      "changeset": 89765798,
-      "user": "HJUdall",
-      "uid": 10521928,
+      "timestamp": "2021-11-17T04:46:29Z",
+      "version": 4,
+      "changeset": 113878903,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
       "center": {
-        "lat": 33.2903904,
-        "lon": -111.7196183
+        "lat": 33.2903929,
+        "lon": -111.7196265
       },
       "nodes": [],
       "tags": {
         "addr:city": "Gilbert",
-        "addr:postcode": "85297",
+        "addr:housenumber": "3261",
+        "addr:postcode": "85297;85295",
         "addr:state": "AZ",
+        "addr:street": "East Pecos Road",
         "brand": "Fry's Food and Drug",
         "brand:wikidata": "Q5506547",
         "brand:wikipedia": "en:Fry's Food and Drug",
         "building": "retail",
         "name": "Fry's Food and Drug",
-        "shop": "supermarket"
+        "shop": "supermarket",
+        "source": "esri/USA_NAD_Addresses"
       }
     },
     {
@@ -18957,6 +18960,63 @@
       "tags": {
         "amenity": "shelter",
         "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1003315230,
+      "timestamp": "2021-11-17T03:18:16Z",
+      "version": 1,
+      "changeset": 113877281,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
+      "center": {
+        "lat": 33.3023522,
+        "lon": -111.7495167
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1003315231,
+      "timestamp": "2021-11-17T03:18:16Z",
+      "version": 1,
+      "changeset": 113877281,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
+      "center": {
+        "lat": 33.3021178,
+        "lon": -111.7495398
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1003331774,
+      "timestamp": "2021-11-17T04:46:29Z",
+      "version": 1,
+      "changeset": 113878903,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
+      "center": {
+        "lat": 33.284536,
+        "lon": -111.7306755
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "source": "microsoft/BuildingFootprints"
       }
     }
   ]
