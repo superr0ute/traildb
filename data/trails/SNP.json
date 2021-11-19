@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-17T02:32:28Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-19T02:36:53Z"},
   "elements": [
     {
       "type": "relation",
       "id": 7700604,
-      "timestamp": "2021-11-14T18:00:27Z",
-      "version": 365,
-      "changeset": 113773248,
-      "user": "lubosb",
-      "uid": 21515,
+      "timestamp": "2021-11-18T07:41:09Z",
+      "version": 366,
+      "changeset": 113931485,
+      "user": "aceman444",
+      "uid": 1617449,
       "members": [
         {"type": "node", "ref": 2827666105, "role": "guidepost"},
         {"type": "node", "ref": 750482929, "role": "guidepost"},
@@ -2100,16 +2100,16 @@
     {
       "type": "way",
       "id": 1001896362,
-      "timestamp": "2021-11-12T23:27:59Z",
-      "version": 1,
-      "changeset": 113715971,
+      "timestamp": "2021-11-18T07:41:09Z",
+      "version": 2,
+      "changeset": 113931485,
       "user": "aceman444",
       "uid": 1617449,
-      "nodes": [831762727, 730217894],
+      "nodes": [831762727, 3912776613],
       "geometry": [
         {"lat": 48.9084018, "lon": 18.1763816, "z": 277.7},
         {"lat": 48.9084266, "lon": 18.1762214, "z": 277.5},
-        {"lat": 48.908403, "lon": 18.1761263, "z": 276.8}
+        {"lat": 48.9084145, "lon": 18.176062, "z": 276.7}
       ],
       "tags": {"highway": "footway"}
     },
@@ -2152,9 +2152,9 @@
     {
       "type": "way",
       "id": 1001896374,
-      "timestamp": "2021-11-12T23:27:59Z",
-      "version": 1,
-      "changeset": 113715971,
+      "timestamp": "2021-11-18T07:41:09Z",
+      "version": 2,
+      "changeset": 113931485,
       "user": "aceman444",
       "uid": 1617449,
       "nodes": [503873331, 443241606],
@@ -2176,7 +2176,8 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "footway",
-        "segregated": "no"
+        "segregated": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -7749,14 +7750,13 @@
     {
       "type": "way",
       "id": 211617614,
-      "timestamp": "2021-11-12T23:27:59Z",
-      "version": 8,
-      "changeset": 113715971,
+      "timestamp": "2021-11-18T07:41:09Z",
+      "version": 9,
+      "changeset": 113931485,
       "user": "aceman444",
       "uid": 1617449,
-      "nodes": [4500313916, 503873330],
+      "nodes": [503873323, 503873330],
       "geometry": [
-        {"lat": 48.9050237, "lon": 18.1854807, "z": 287.8},
         {"lat": 48.9050302, "lon": 18.1854215, "z": 287.6},
         {"lat": 48.9051503, "lon": 18.1848915, "z": 285.5},
         {"lat": 48.9052102, "lon": 18.1846845, "z": 285.5},
@@ -7770,15 +7770,16 @@
         {"lat": 48.9060525, "lon": 18.1834081, "z": 289.3},
         {"lat": 48.9061395, "lon": 18.1832677, "z": 290.9},
         {"lat": 48.9061756, "lon": 18.1831772, "z": 291.8},
-        {"lat": 48.9062366, "lon": 18.1830144, "z": 293},
-        {"lat": 48.906276, "lon": 18.1829046, "z": 293.6},
+        {"lat": 48.9062323, "lon": 18.1830023, "z": 293.2},
+        {"lat": 48.9062607, "lon": 18.1829055, "z": 293.8},
         {"lat": 48.9063255, "lon": 18.1827249, "z": 294.3}
       ],
       "tags": {
         "bicycle": "designated",
         "foot": "designated",
         "highway": "footway",
-        "segregated": "no"
+        "segregated": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -37558,17 +37559,22 @@
     {
       "type": "way",
       "id": 510950392,
-      "timestamp": "2020-11-14T20:58:19Z",
-      "version": 2,
-      "changeset": 94121221,
-      "user": "radokado",
-      "uid": 513818,
-      "nodes": [8119359824, 4500313916],
+      "timestamp": "2021-11-18T07:41:09Z",
+      "version": 3,
+      "changeset": 113931485,
+      "user": "aceman444",
+      "uid": 1617449,
+      "nodes": [8119359824, 503873323],
       "geometry": [
         {"lat": 48.9049433, "lon": 18.1862119, "z": 292.8},
-        {"lat": 48.9050237, "lon": 18.1854807, "z": 287.8}
+        {"lat": 48.9050302, "lon": 18.1854215, "z": 287.6}
       ],
-      "tags": {"highway": "footway"}
+      "tags": {
+        "highway": "footway",
+        "psv": "yes",
+        "surface": "asphalt",
+        "vehicle": "delivery"
+      }
     },
     {
       "type": "way",
@@ -61749,23 +61755,25 @@
     {
       "type": "way",
       "id": 974996617,
-      "timestamp": "2021-11-12T23:27:59Z",
-      "version": 2,
-      "changeset": 113715971,
+      "timestamp": "2021-11-18T07:41:09Z",
+      "version": 3,
+      "changeset": 113931485,
       "user": "aceman444",
       "uid": 1617449,
-      "nodes": [831762821, 730217894],
+      "nodes": [831762821, 3912776613],
       "geometry": [
         {"lat": 48.908277, "lon": 18.1760739, "z": 274.9},
         {"lat": 48.908346, "lon": 18.1761026, "z": 275.9},
-        {"lat": 48.908403, "lon": 18.1761263, "z": 276.8}
+        {"lat": 48.9084145, "lon": 18.176062, "z": 276.7}
       ],
       "tags": {
         "bicycle": "designated",
         "foot": "designated",
         "highway": "footway",
+        "psv": "yes",
         "segregated": "no",
-        "source": "kapor2"
+        "source": "kapor2",
+        "vehicle": "delivery"
       }
     },
     {
