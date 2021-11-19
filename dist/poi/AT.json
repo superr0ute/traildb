@@ -13346,11 +13346,11 @@
         "@poi": "place_town",
         "@distance": 8430.2,
         "@id": "n158853033",
-        "@changeset": 43780386,
-        "@timestamp": "2016-11-18T23:24:26Z",
-        "@version": 4,
-        "@uid": 145231,
-        "@user": "woodpeck_repair",
+        "@changeset": 113946881,
+        "@timestamp": "2021-11-18T14:20:14Z",
+        "@version": 5,
+        "@uid": 2456367,
+        "@user": "hdevine825",
         "census:population": "10863;2006",
         "ele": 147,
         "gnis:Class": "Populated Place",
@@ -13363,7 +13363,9 @@
         "is_in": "Orange,New York,N.Y.,NY,USA",
         "name": "Woodbury",
         "place": "town",
-        "population": 10863
+        "population": 10863,
+        "wikidata": "Q3472130",
+        "wikipedia": "en:Woodbury, Orange County, New York"
       },
       "geometry": {
         "type": "Point",
@@ -43790,15 +43792,21 @@
         "@poi": "foodshop_convenience",
         "@distance": 7521.3,
         "@id": "n7107479139",
-        "@changeset": 97844865,
-        "@timestamp": "2021-01-20T14:56:10Z",
-        "@version": 2,
-        "@uid": 5215025,
-        "@user": "RunTrails",
+        "@changeset": 113938602,
+        "@timestamp": "2021-11-18T10:51:31Z",
+        "@version": 3,
+        "@uid": 360392,
+        "@user": "maxerickson",
+        "addr:city": "Front Royal",
+        "addr:housenumber": "142",
+        "addr:postcode": "22630",
+        "addr:state": "VA",
+        "addr:street": "West 14th Street",
         "brand": "7-Eleven",
         "brand:wikidata": "Q259340",
         "brand:wikipedia": "en:7-Eleven",
         "name": "7-Eleven",
+        "ref": "18360",
         "shop": "convenience"
       },
       "geometry": {
@@ -43895,6 +43903,68 @@
         "coordinates": [
           -78.1421043,
           38.8486284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 7851.3,
+        "@id": "n9263353778",
+        "@changeset": 113938602,
+        "@timestamp": "2021-11-18T10:51:31Z",
+        "@version": 1,
+        "@uid": 360392,
+        "@user": "maxerickson",
+        "addr:city": "Front Royal",
+        "addr:housenumber": "1710",
+        "addr:postcode": "22630",
+        "addr:state": "VA",
+        "addr:street": "North Shenandoah Avenue",
+        "brand": "Speedway",
+        "brand:wikidata": "Q7575683",
+        "brand:wikipedia": "en:Speedway (store)",
+        "name": "Speedway",
+        "ref": "4644",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.1996745,
+          38.937519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 5168.3,
+        "@id": "n9265088912",
+        "@changeset": 113965246,
+        "@timestamp": "2021-11-18T22:00:51Z",
+        "@version": 1,
+        "@uid": 360392,
+        "@user": "maxerickson",
+        "addr:city": "Front Royal",
+        "addr:housenumber": "416",
+        "addr:postcode": "22630",
+        "addr:state": "VA",
+        "addr:street": "South Commerce Avenue",
+        "brand": "Speedway",
+        "brand:wikidata": "Q7575683",
+        "brand:wikipedia": "en:Speedway (store)",
+        "name": "Speedway",
+        "ref": "4643",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.18531,
+          38.9159495
         ]
       }
     },
@@ -51424,14 +51494,14 @@
         "@version": 2,
         "@uid": 633750,
         "@user": "samuelestabrook",
-        "addr:city": "Front Royal",
-        "addr:housenumber": "409",
-        "addr:postcode": "22630",
-        "addr:street": "South Street",
+        "smoking": "outside",
         "building": "yes",
-        "name": "Martin's",
         "shop": "supermarket",
-        "smoking": "outside"
+        "name": "Martin's",
+        "addr:street": "South Street",
+        "addr:postcode": "22630",
+        "addr:city": "Front Royal",
+        "addr:housenumber": "409"
       },
       "geometry": {
         "type": "Point",
@@ -51588,9 +51658,9 @@
         "brand": "Speedway",
         "brand:wikidata": "Q7575683",
         "brand:wikipedia": "en:Speedway (store)",
-        "building": "retail",
         "name": "Speedway",
-        "shop": "convenience"
+        "shop": "convenience",
+        "building": "retail"
       },
       "geometry": {
         "type": "Point",
@@ -54051,6 +54121,31 @@
         "coordinates": [
           -73.8352114,
           41.4380696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 8975.6,
+        "@id": "n7931204673",
+        "@changeset": 91293208,
+        "@timestamp": "2020-09-22T12:03:58Z",
+        "@version": 1,
+        "@uid": 1954307,
+        "@user": "daniel_solow",
+        "brand": "Stop & Shop",
+        "brand:wikidata": "Q3658429",
+        "brand:wikipedia": "en:Stop & Shop",
+        "name": "Stop & Shop",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9854597,
+          41.2067117
         ]
       }
     },
@@ -58351,31 +58446,6 @@
         "coordinates": [
           -75.1864478,
           40.9367707
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 8975.6,
-        "@id": "n7931204673",
-        "@changeset": 91293208,
-        "@timestamp": "2020-09-22T12:03:58Z",
-        "@version": 1,
-        "@uid": 1954307,
-        "@user": "daniel_solow",
-        "brand": "Stop & Shop",
-        "brand:wikidata": "Q3658429",
-        "brand:wikipedia": "en:Stop & Shop",
-        "name": "Stop & Shop",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.9854597,
-          41.2067117
         ]
       }
     },
