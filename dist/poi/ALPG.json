@@ -2755,6 +2755,28 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "campsite",
+        "@distance": 736.3,
+        "@id": "n413344380",
+        "@changeset": 16797207,
+        "@timestamp": "2013-07-02T20:17:48Z",
+        "@version": 2,
+        "@uid": 99810,
+        "@user": "Martin Borsje",
+        "name": "Le Cuizon",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1025174,
+          46.4138579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "peak_peak",
         "@distance": 3761.7,
         "@id": "n401457560",
@@ -4562,28 +4584,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "campsite",
-        "@distance": 736.3,
-        "@id": "n413344380",
-        "@changeset": 16797207,
-        "@timestamp": "2013-07-02T20:17:48Z",
-        "@version": 2,
-        "@uid": 99810,
-        "@user": "Martin Borsje",
-        "name": "Le Cuizon",
-        "tourism": "camp_site"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.1025174,
-          46.4138579
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 4518.5,
         "@id": "n426940056",
@@ -5354,19 +5354,18 @@
         "@poi": "foodshop_convenience",
         "@distance": 7182.2,
         "@id": "n1258833231",
-        "@changeset": 112384840,
-        "@timestamp": "2021-10-11T17:32:57Z",
-        "@version": 4,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Brienzwiler",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:31:34Z",
+        "@version": 5,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
         "addr:housenumber": "19",
         "addr:postcode": "3856",
         "addr:street": "Dorfstrasse",
         "cash_withdrawal": "yes",
         "level": "0",
         "name": "Anna's Dorfladen",
-        "opening_hours": "Mo 07:30-11:45;Tu-Fr 07:30-11:45,14:30-18:30;Sa 07:30-11:45,13:30-16:00",
+        "opening_hours": "Mo 07:30-11:45; Sa 07:30-11:45,13:30-16:00; Mar Su[-1]-Oct Su[-1] Tu-Fr 06:30-11:45,14:30-18:30; Oct Su[-1]-Mar Su[-1] Tu-Fr 06:30-11:45,15:30-18:30; PH closed",
         "phone": "+41 33 951 11 16",
         "shop": "convenience",
         "website": "https://annasdorfladen.ch/"
@@ -5513,26 +5512,21 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_convenience",
-        "@distance": 2735.6,
+        "@distance": 2735.5,
         "@id": "n1371130810",
-        "@changeset": 112384840,
-        "@timestamp": "2021-10-11T17:32:57Z",
-        "@version": 4,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Hasliberg Hohfluh",
-        "addr:housenumber": "71",
-        "addr:postcode": "6083",
-        "addr:street": "Dorf",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:40:47Z",
+        "@version": 5,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
         "name": "Dorfladen",
-        "opening_hours": "Mo 07:30-12:00,14:00-18:30;Tu 07:30-12:00;We-Fr 07:30-12:00,14:00-18:30;Sa 07:30-12:00,13:30-16:00",
         "shop": "convenience"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.1750763,
-          46.7504341
+          8.1750934,
+          46.750439
         ]
       }
     },
@@ -6381,6 +6375,50 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 540.6,
+        "@id": "n1868768231",
+        "@changeset": 12752279,
+        "@timestamp": "2012-08-16T15:35:39Z",
+        "@version": 1,
+        "@uid": 101993,
+        "@user": "paradigma",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6519096,
+          46.8837149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 74.8,
+        "@id": "n1892844610",
+        "@changeset": 29056398,
+        "@timestamp": "2015-02-23T22:51:21Z",
+        "@version": 4,
+        "@uid": 563289,
+        "@user": "Barfly_MB",
+        "name": "Dorfladen",
+        "opening_hours": "Mo-Fr 08:00-12:00, 14:00-18:30; Sa 08:00-16:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9986784,
+          46.9391211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "place_village",
         "@distance": 2813.8,
         "@id": "n240092661",
@@ -6653,22 +6691,18 @@
         "@poi": "foodshop_convenience",
         "@distance": 95.9,
         "@id": "n811285325",
-        "@changeset": 112415298,
-        "@timestamp": "2021-10-12T12:00:48Z",
-        "@version": 5,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Elm",
-        "addr:housenumber": "11",
-        "addr:postcode": "8767",
-        "addr:street": "Dorf",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:50:00Z",
+        "@version": 6,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
         "cash_withdrawal": "yes",
         "cash_withdrawal:fee": "no",
         "cash_withdrawal:operator": "sonect",
         "cash_withdrawal:purchase_required": "no",
         "cash_withdrawal:type": "checkout",
         "name": "Volg",
-        "opening_hours": "Mo-Fr 07:30-18:30;Sa 07:30-15:00",
+        "opening_hours": "Mo-Fr 07:30-12:00, 14:00-18:00; Sa 07:30-15:00",
         "shop": "convenience"
       },
       "geometry": {
@@ -7676,50 +7710,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 540.6,
-        "@id": "n1868768231",
-        "@changeset": 12752279,
-        "@timestamp": "2012-08-16T15:35:39Z",
-        "@version": 1,
-        "@uid": 101993,
-        "@user": "paradigma",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6519096,
-          46.8837149
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 74.8,
-        "@id": "n1892844610",
-        "@changeset": 29056398,
-        "@timestamp": "2015-02-23T22:51:21Z",
-        "@version": 4,
-        "@uid": 563289,
-        "@user": "Barfly_MB",
-        "name": "Dorfladen",
-        "opening_hours": "Mo-Fr 08:00-12:00, 14:00-18:30; Sa 08:00-16:00",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.9986784,
-          46.9391211
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 56.4,
         "@id": "n1910193012",
@@ -8237,22 +8227,17 @@
         "@poi": "foodshop_supermarket",
         "@distance": 533.3,
         "@id": "n3052505251",
-        "@changeset": 112414682,
-        "@timestamp": "2021-10-12T11:47:24Z",
-        "@version": 3,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Linthal",
-        "addr:housenumber": "43",
-        "addr:postcode": "8783",
-        "addr:street": "Hauptstrasse",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:51:49Z",
+        "@version": 4,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
         "cash_withdrawal": "yes",
         "cash_withdrawal:fee": "no",
         "cash_withdrawal:operator": "sonect",
         "cash_withdrawal:purchase_required": "no",
         "cash_withdrawal:type": "checkout",
         "name": "Volg",
-        "opening_hours": "Mo-Sa 06:00-20:00",
         "shop": "supermarket"
       },
       "geometry": {
@@ -8743,14 +8728,13 @@
         "@poi": "foodshop_convenience",
         "@distance": 2328.7,
         "@id": "n2151927905",
-        "@changeset": 112415298,
-        "@timestamp": "2021-10-12T12:00:48Z",
-        "@version": 5,
-        "@uid": 384661,
-        "@user": "BBMaper",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:35:17Z",
+        "@version": 6,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
         "addr:city": "Vilters",
         "addr:country": "CH",
-        "addr:housenumber": "7",
         "addr:postcode": "7324",
         "addr:street": "Sarganserstrasse",
         "brand": "Spar",
@@ -8761,7 +8745,6 @@
         "cash_withdrawal:purchase_required": "no",
         "cash_withdrawal:type": "checkout",
         "name": "Spar",
-        "opening_hours": "Mo-Fr 07:00-12:15,13:30-18:30;Sa 07:00-17:00",
         "shop": "convenience"
       },
       "geometry": {
@@ -8769,6 +8752,30 @@
         "coordinates": [
           9.4513766,
           47.0248366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 2241.5,
+        "@id": "n2218980308",
+        "@changeset": 84192639,
+        "@timestamp": "2020-04-27T10:41:31Z",
+        "@version": 2,
+        "@uid": 1416503,
+        "@user": "asdf2",
+        "ele": 2465,
+        "name": "Rotrüfner",
+        "natural": "peak",
+        "wikidata": "Q22467561"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2811808,
+          46.9943935
         ]
       }
     },
@@ -10549,17 +10556,15 @@
         "@poi": "foodshop_supermarket",
         "@distance": 4090.7,
         "@id": "n4333981594",
-        "@changeset": 112414682,
-        "@timestamp": "2021-10-12T11:47:24Z",
-        "@version": 2,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Hätzingen",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:29:02Z",
+        "@version": 3,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
         "addr:housenumber": "2",
         "addr:postcode": "8775",
         "addr:street": "Hauptstrasse",
         "name": "Volg Hätzingen",
-        "opening_hours": "Mo-Sa 06:00-20:00",
         "shop": "supermarket"
       },
       "geometry": {
@@ -10758,30 +10763,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "peak_peak",
-        "@distance": 2241.5,
-        "@id": "n2218980308",
-        "@changeset": 84192639,
-        "@timestamp": "2020-04-27T10:41:31Z",
-        "@version": 2,
-        "@uid": 1416503,
-        "@user": "asdf2",
-        "ele": 2465,
-        "name": "Rotrüfner",
-        "natural": "peak",
-        "wikidata": "Q22467561"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.2811808,
-          46.9943935
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 1516.1,
         "@id": "n2422203795",
@@ -10895,6 +10876,28 @@
         "coordinates": [
           9.3743088,
           47.0392075
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 6415.9,
+        "@id": "n3046406902",
+        "@changeset": 25061083,
+        "@timestamp": "2014-08-27T20:27:16Z",
+        "@version": 1,
+        "@uid": 125687,
+        "@user": "tubeli",
+        "name": "Milchzentrale",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.502216,
+          47.0029044
         ]
       }
     },
@@ -11391,32 +11394,28 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
-        "@distance": 3253,
+        "@distance": 3253.7,
         "@id": "n2987381654",
-        "@changeset": 112384840,
-        "@timestamp": "2021-10-11T17:32:57Z",
-        "@version": 5,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Innertkirchen",
-        "addr:housenumber": "2",
-        "addr:postcode": "3862",
-        "addr:street": "Grimselstrasse",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:35:25Z",
+        "@version": 6,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
         "cash_withdrawal": "yes",
         "cash_withdrawal:fee": "no",
         "cash_withdrawal:operator": "sonect",
         "cash_withdrawal:purchase_required": "no",
         "cash_withdrawal:type": "checkout",
         "name": "Volg",
-        "opening_hours": "Mo-Fr 07:00-12:00,14:00-18:30;Sa 07:00-16:00;Su 08:00-11:00",
+        "opening_hours": "Mo-Fr 07:00-12:00,14:00-18:30; Sa 07:00-16:00; Su 08:00-11:00",
         "shop": "supermarket",
         "wheelchair": "yes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.2293386,
-          46.7052907
+          8.229345,
+          46.7052853
         ]
       }
     },
@@ -11861,6 +11860,31 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 9652.6,
+        "@id": "n4173326689",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:59:41Z",
+        "@version": 4,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
+        "brand": "Coop",
+        "brand:wikidata": "Q432564",
+        "brand:wikipedia": "de:Coop (Schweiz)",
+        "name": "Coop",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8661748,
+          46.6806961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "peak_peak",
         "@distance": 3024.1,
         "@id": "n2497236698",
@@ -12072,16 +12096,14 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
-        "@distance": 8.4,
+        "@distance": 9.8,
         "@id": "n4558521620",
-        "@changeset": 112420352,
-        "@timestamp": "2021-10-12T14:15:48Z",
-        "@version": 6,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Attinghausen",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:34:33Z",
+        "@version": 7,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
         "addr:housenumber": "1",
-        "addr:postcode": "6468",
         "addr:street": "Reussstrasse",
         "brand": "Volg",
         "brand:wikidata": "Q2530746",
@@ -12092,14 +12114,14 @@
         "cash_withdrawal:purchase_required": "no",
         "cash_withdrawal:type": "checkout",
         "name": "Volg",
-        "opening_hours": "Mo-Fr 06:00-18:30;Sa 06:00-17:00",
+        "opening_hours": "Mo-Fr 06:00-18:30; Sa 06:00-17:00",
         "shop": "supermarket"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.6318858,
-          46.8637748
+          8.631918,
+          46.8637785
         ]
       }
     },
@@ -12430,17 +12452,12 @@
         "@poi": "foodshop_convenience",
         "@distance": 6400.6,
         "@id": "n5509379920",
-        "@changeset": 112414682,
-        "@timestamp": "2021-10-12T11:47:24Z",
-        "@version": 2,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Haslen GL",
-        "addr:housenumber": "109",
-        "addr:postcode": "8773",
-        "addr:street": "Dorfstrasse",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:29:49Z",
+        "@version": 3,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
         "name": "Prima",
-        "opening_hours": "Mo 07:00-12:30;Tu-Fr 07:00-12:30,15:00-18:30;Sa 07:00-15:00",
         "shop": "convenience"
       },
       "geometry": {
@@ -12778,13 +12795,13 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
-        "@distance": 79.4,
+        "@distance": 79.1,
         "@id": "n1225871563",
-        "@changeset": 112416713,
-        "@timestamp": "2021-10-12T12:38:16Z",
-        "@version": 9,
-        "@uid": 384661,
-        "@user": "BBMaper",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:42:13Z",
+        "@version": 10,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
         "addr:city": "Azmoos",
         "addr:housenumber": "52",
         "addr:postcode": "9478",
@@ -12798,7 +12815,6 @@
         "cash_withdrawal:purchase_required": "no",
         "cash_withdrawal:type": "checkout",
         "name": "Volg",
-        "opening_hours": "Mo-Fr 06:30-19:00;Sa 06:30-17:00",
         "payment:cash": "yes",
         "payment:debit_cards": "yes",
         "payment:twint": "yes",
@@ -12808,8 +12824,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.477088,
-          47.080317
+          9.4770766,
+          47.0803129
         ]
       }
     },
@@ -13052,28 +13068,6 @@
         "coordinates": [
           9.5729714,
           47.1755681
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 6415.9,
-        "@id": "n3046406902",
-        "@changeset": 25061083,
-        "@timestamp": "2014-08-27T20:27:16Z",
-        "@version": 1,
-        "@uid": 125687,
-        "@user": "tubeli",
-        "name": "Milchzentrale",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.502216,
-          47.0029044
         ]
       }
     },
@@ -13362,36 +13356,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 9652.6,
-        "@id": "n4173326689",
-        "@changeset": 112382280,
-        "@timestamp": "2021-10-11T16:26:15Z",
-        "@version": 3,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Matten b. Interlaken",
-        "addr:housenumber": "15",
-        "addr:postcode": "3800",
-        "addr:street": "Metzgergasse",
-        "brand": "Coop",
-        "brand:wikidata": "Q432564",
-        "brand:wikipedia": "de:Coop (Schweiz)",
-        "name": "Coop",
-        "opening_hours": "Mo-Su 08:00-20:00",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.8661748,
-          46.6806961
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 26.8,
         "@id": "n4254690816",
@@ -13456,26 +13420,21 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
-        "@distance": 9204.4,
+        "@distance": 9212.6,
         "@id": "n4350244332",
-        "@changeset": 112384840,
-        "@timestamp": "2021-10-11T17:32:57Z",
-        "@version": 4,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Guttannen",
-        "addr:housenumber": "246",
-        "addr:postcode": "3864",
-        "addr:street": "Gässli",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:44:03Z",
+        "@version": 5,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
         "name": "Prima",
-        "opening_hours": "Mo-Fr 08:00-12:00,15:00-18:00;Sa 08:00-12:00",
         "shop": "supermarket"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.2884107,
-          46.655332
+          8.288577,
+          46.6552884
         ]
       }
     },
@@ -13950,6 +13909,102 @@
         "coordinates": [
           8.3624688,
           46.7843409
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 750.4,
+        "@id": "n4695562070",
+        "@changeset": 84294722,
+        "@timestamp": "2020-04-28T22:51:25Z",
+        "@version": 2,
+        "@uid": 1416503,
+        "@user": "asdf2",
+        "ele": 2523,
+        "name": "Schafberg",
+        "natural": "peak",
+        "wikidata": "Q22440556"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3790929,
+          46.7844643
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 1757.6,
+        "@id": "n4695628566",
+        "@changeset": 110057767,
+        "@timestamp": "2021-08-22T11:44:07Z",
+        "@version": 3,
+        "@uid": 3696195,
+        "@user": "*abq*",
+        "ele": 2954,
+        "name": "Chlyn Wendestock",
+        "natural": "peak",
+        "wikidata": "Q22496214"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3869247,
+          46.7624965
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 2078.6,
+        "@id": "n4695674214",
+        "@changeset": 84294800,
+        "@timestamp": "2020-04-28T22:54:05Z",
+        "@version": 2,
+        "@uid": 1416503,
+        "@user": "asdf2",
+        "ele": 2638,
+        "name": "Schwarzhorn",
+        "natural": "peak",
+        "wikidata": "Q22547978"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3538756,
+          46.7952142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 1959.1,
+        "@id": "n4695674274",
+        "@changeset": 84294800,
+        "@timestamp": "2020-04-28T22:54:09Z",
+        "@version": 2,
+        "@uid": 1416503,
+        "@user": "asdf2",
+        "ele": 2627,
+        "name": "Henglihorn",
+        "natural": "peak",
+        "wikidata": "Q22616511"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3501686,
+          46.7947529
         ]
       }
     },
@@ -14775,6 +14830,71 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
+        "@distance": 246.8,
+        "@id": "n7389830921",
+        "@changeset": 98697441,
+        "@timestamp": "2021-02-04T10:19:21Z",
+        "@version": 4,
+        "@uid": 1894634,
+        "@user": "Wikilux",
+        "addr:city": "Altdorf UR",
+        "addr:housenumber": "2",
+        "addr:postcode": "6460",
+        "addr:street": "Grundgasse",
+        "branch": "Altdorf UR",
+        "brand": "Denner",
+        "brand:wikidata": "Q379911",
+        "brand:wikipedia": "en:Denner (supermarket)",
+        "name": "Denner",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.650783,
+          46.8732428
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 271.3,
+        "@id": "n7390289544",
+        "@changeset": 98156143,
+        "@timestamp": "2021-01-26T07:55:06Z",
+        "@version": 4,
+        "@uid": 1894634,
+        "@user": "Wikilux",
+        "addr:city": "Altdorf UR",
+        "addr:housenumber": "67",
+        "addr:postcode": "6460",
+        "addr:street": "Gotthardstrasse",
+        "alt_name": "Migros Urnertor (MM)",
+        "branch": "Altdorf Urnertor",
+        "brand": "Migros",
+        "brand:wikidata": "Q680727",
+        "brand:wikipedia": "en:Migros",
+        "cash_withdrawal": "migros_bank;postfinance_card",
+        "name": "Migros",
+        "opening_hours": "Mo-Th 08:00-18:30, Fr 08:00-21:00, Sa 08:00-17:00",
+        "operator": "Genossenschaft Migros Luzern",
+        "shop": "supermarket",
+        "website": "https://filialen.migros.ch/de/migros-supermarkt-buerglen-altdorf-urnertor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.651044,
+          46.8727406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
         "@distance": 2322.1,
         "@id": "n1554218449",
         "@changeset": 48276530,
@@ -15209,6 +15329,53 @@
         "coordinates": [
           9.3966116,
           46.9975616
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 35.3,
+        "@id": "n5841895232",
+        "@changeset": 61794959,
+        "@timestamp": "2018-08-19T14:27:03Z",
+        "@version": 1,
+        "@uid": 3485107,
+        "@user": "dikkeknodel",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.17302,
+          46.9215653
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 3860.7,
+        "@id": "n5849693375",
+        "@changeset": 62385443,
+        "@timestamp": "2018-09-07T19:06:16Z",
+        "@version": 2,
+        "@uid": 85218,
+        "@user": "Aleks-Berlin",
+        "ele": 2669,
+        "name": "Hochwart",
+        "natural": "peak",
+        "source": "https://de.wikipedia.org/wiki/Hochwart_(Pizol)",
+        "wikidata": "Q22629852",
+        "wikipedia": "de:Hochwart (Pizol)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3871554,
+          46.9706743
         ]
       }
     },
@@ -15912,96 +16079,21 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "peak_peak",
-        "@distance": 750.4,
-        "@id": "n4695562070",
-        "@changeset": 84294722,
-        "@timestamp": "2020-04-28T22:51:25Z",
-        "@version": 2,
-        "@uid": 1416503,
-        "@user": "asdf2",
-        "ele": 2523,
-        "name": "Schafberg",
-        "natural": "peak",
-        "wikidata": "Q22440556"
+        "@poi": "water_drinking-water",
+        "@distance": 108.7,
+        "@id": "n5799642485",
+        "@changeset": 61239404,
+        "@timestamp": "2018-07-31T19:26:32Z",
+        "@version": 1,
+        "@uid": 1742934,
+        "@user": "Pudu",
+        "amenity": "drinking_water"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.3790929,
-          46.7844643
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 1757.6,
-        "@id": "n4695628566",
-        "@changeset": 110057767,
-        "@timestamp": "2021-08-22T11:44:07Z",
-        "@version": 3,
-        "@uid": 3696195,
-        "@user": "*abq*",
-        "ele": 2954,
-        "name": "Chlyn Wendestock",
-        "natural": "peak",
-        "wikidata": "Q22496214"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.3869247,
-          46.7624965
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 2078.6,
-        "@id": "n4695674214",
-        "@changeset": 84294800,
-        "@timestamp": "2020-04-28T22:54:05Z",
-        "@version": 2,
-        "@uid": 1416503,
-        "@user": "asdf2",
-        "ele": 2638,
-        "name": "Schwarzhorn",
-        "natural": "peak",
-        "wikidata": "Q22547978"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.3538756,
-          46.7952142
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 1959.1,
-        "@id": "n4695674274",
-        "@changeset": 84294800,
-        "@timestamp": "2020-04-28T22:54:09Z",
-        "@version": 2,
-        "@uid": 1416503,
-        "@user": "asdf2",
-        "ele": 2627,
-        "name": "Henglihorn",
-        "natural": "peak",
-        "wikidata": "Q22616511"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.3501686,
-          46.7947529
+          7.3878488,
+          46.4343778
         ]
       }
     },
@@ -16618,71 +16710,6 @@
         "coordinates": [
           7.8907364,
           46.5579902
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 246.8,
-        "@id": "n7389830921",
-        "@changeset": 98697441,
-        "@timestamp": "2021-02-04T10:19:21Z",
-        "@version": 4,
-        "@uid": 1894634,
-        "@user": "Wikilux",
-        "addr:city": "Altdorf UR",
-        "addr:housenumber": "2",
-        "addr:postcode": "6460",
-        "addr:street": "Grundgasse",
-        "branch": "Altdorf UR",
-        "brand": "Denner",
-        "brand:wikidata": "Q379911",
-        "brand:wikipedia": "en:Denner (supermarket)",
-        "name": "Denner",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.650783,
-          46.8732428
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 271.3,
-        "@id": "n7390289544",
-        "@changeset": 98156143,
-        "@timestamp": "2021-01-26T07:55:06Z",
-        "@version": 4,
-        "@uid": 1894634,
-        "@user": "Wikilux",
-        "addr:city": "Altdorf UR",
-        "addr:housenumber": "67",
-        "addr:postcode": "6460",
-        "addr:street": "Gotthardstrasse",
-        "alt_name": "Migros Urnertor (MM)",
-        "branch": "Altdorf Urnertor",
-        "brand": "Migros",
-        "brand:wikidata": "Q680727",
-        "brand:wikipedia": "en:Migros",
-        "cash_withdrawal": "migros_bank;postfinance_card",
-        "name": "Migros",
-        "opening_hours": "Mo-Th 08:00-18:30, Fr 08:00-21:00, Sa 08:00-17:00",
-        "operator": "Genossenschaft Migros Luzern",
-        "shop": "supermarket",
-        "website": "https://filialen.migros.ch/de/migros-supermarkt-buerglen-altdorf-urnertor"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.651044,
-          46.8727406
         ]
       }
     },
@@ -17769,53 +17796,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_drinking-water",
-        "@distance": 35.3,
-        "@id": "n5841895232",
-        "@changeset": 61794959,
-        "@timestamp": "2018-08-19T14:27:03Z",
-        "@version": 1,
-        "@uid": 3485107,
-        "@user": "dikkeknodel",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.17302,
-          46.9215653
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 3860.7,
-        "@id": "n5849693375",
-        "@changeset": 62385443,
-        "@timestamp": "2018-09-07T19:06:16Z",
-        "@version": 2,
-        "@uid": 85218,
-        "@user": "Aleks-Berlin",
-        "ele": 2669,
-        "name": "Hochwart",
-        "natural": "peak",
-        "source": "https://de.wikipedia.org/wiki/Hochwart_(Pizol)",
-        "wikidata": "Q22629852",
-        "wikipedia": "de:Hochwart (Pizol)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.3871554,
-          46.9706743
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
         "@distance": 1701,
         "@id": "n6478707106",
         "@changeset": 70328776,
@@ -18131,27 +18111,6 @@
         "coordinates": [
           7.647084,
           46.5871577
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 108.7,
-        "@id": "n5799642485",
-        "@changeset": 61239404,
-        "@timestamp": "2018-07-31T19:26:32Z",
-        "@version": 1,
-        "@uid": 1742934,
-        "@user": "Pudu",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.3878488,
-          46.4343778
         ]
       }
     },
@@ -18648,6 +18607,30 @@
         "coordinates": [
           7.1300212,
           46.4735745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 2983.1,
+        "@id": "n7865126174",
+        "@changeset": 90246183,
+        "@timestamp": "2020-09-01T12:29:01Z",
+        "@version": 1,
+        "@uid": 5791717,
+        "@user": "etienne-jura-geneve",
+        "ele": 2100,
+        "information": "guidepost",
+        "name": "Schutzhütte Wasserngrat",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3326518,
+          46.4442708
         ]
       }
     },
@@ -19192,60 +19175,6 @@
         "coordinates": [
           8.1839273,
           46.7274242
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 7168,
-        "@id": "n9167563418",
-        "@changeset": 112420352,
-        "@timestamp": "2021-10-12T14:15:48Z",
-        "@version": 1,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Isenthal",
-        "addr:housenumber": "4",
-        "addr:postcode": "6461",
-        "addr:street": "Untergässli",
-        "name": "Dorfladen Isenthal",
-        "opening_hours": "Mo 07:30-11:30;Tu 07:30-11:30,14:00-18:00;We 07:30-11:30;Th-Fr 07:30-11:30,14:00-18:00;Sa 07:30-12:30",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.5604511,
-          46.9104542
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 2029.6,
-        "@id": "n9167563419",
-        "@changeset": 112420352,
-        "@timestamp": "2021-10-12T14:15:48Z",
-        "@version": 1,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Seedorf UR",
-        "addr:housenumber": "49",
-        "addr:postcode": "6462",
-        "addr:street": "Dorfstrasse",
-        "name": "Volg",
-        "opening_hours": "Mo-Tu 07:00-18:30;Fr 07:00-18:30;Sa 07:00-17:00",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6158709,
-          46.881514
         ]
       }
     },
@@ -19912,20 +19841,15 @@
         "@poi": "foodshop_supermarket",
         "@distance": 7463.2,
         "@id": "n2569600149",
-        "@changeset": 112416713,
-        "@timestamp": "2021-10-12T12:38:16Z",
-        "@version": 3,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Haag (Rheintal)",
-        "addr:housenumber": "1",
-        "addr:postcode": "9469",
-        "addr:street": "Haag - Center",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:37:06Z",
+        "@version": 4,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
         "brand": "Coop",
         "brand:wikidata": "Q432564",
         "brand:wikipedia": "de:Coop (Schweiz)",
         "name": "Coop",
-        "opening_hours": "Mo-Th 08:00-19:00;Fr 08:00-21:00;Sa 08:00-17:00",
         "shop": "supermarket"
       },
       "geometry": {
@@ -19942,11 +19866,11 @@
         "@poi": "foodshop_supermarket",
         "@distance": 8189.3,
         "@id": "n2769900453",
-        "@changeset": 112416713,
-        "@timestamp": "2021-10-12T12:38:16Z",
-        "@version": 7,
-        "@uid": 384661,
-        "@user": "BBMaper",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:29:54Z",
+        "@version": 8,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
         "addr:city": "Gams",
         "addr:country": "CH",
         "addr:housenumber": "4",
@@ -19961,7 +19885,7 @@
         "cash_withdrawal:purchase_required": "no",
         "cash_withdrawal:type": "checkout",
         "name": "Volg",
-        "opening_hours": "Mo-Th 06:00-19:00;Fr 06:00-20:00;Sa 06:00-17:00",
+        "opening_hours": "Mo-Fr 06:30-19:00; Sa 06:30-17:00",
         "recycling:batteries": "yes",
         "shop": "supermarket",
         "website": "https://www.volg.ch/"
@@ -20443,6 +20367,78 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "peak_peak",
+        "@distance": 2956,
+        "@id": "n8121372996",
+        "@changeset": 95162136,
+        "@timestamp": "2020-12-02T14:32:51Z",
+        "@version": 2,
+        "@uid": 289221,
+        "@user": "Hannes Röst",
+        "ele": 2161,
+        "name": "Rundchopf",
+        "natural": "peak",
+        "wikidata": "Q22359436"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3246504,
+          47.0201283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 2979.7,
+        "@id": "n8121373028",
+        "@changeset": 95162136,
+        "@timestamp": "2020-12-02T14:33:01Z",
+        "@version": 2,
+        "@uid": 289221,
+        "@user": "Hannes Röst",
+        "ele": 2236,
+        "name": "Madchopf",
+        "natural": "peak",
+        "wikidata": "Q22360472"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3187142,
+          47.015941
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 1496.9,
+        "@id": "n8149341913",
+        "@changeset": 112966693,
+        "@timestamp": "2021-10-25T20:45:30Z",
+        "@version": 4,
+        "@uid": 918586,
+        "@user": "Binnette",
+        "ele": 2361,
+        "name": "Grüenenspitz",
+        "natural": "peak",
+        "wikidata": "Q22651888"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2176952,
+          46.9505233
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 9290.1,
         "@id": "n2674508033",
@@ -20465,45 +20461,21 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 2983.1,
-        "@id": "n7865126174",
-        "@changeset": 90246183,
-        "@timestamp": "2020-09-01T12:29:01Z",
-        "@version": 1,
-        "@uid": 5791717,
-        "@user": "etienne-jura-geneve",
-        "ele": 2100,
-        "information": "guidepost",
-        "name": "Schutzhütte Wasserngrat",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.3326518,
-          46.4442708
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_supermarket",
-        "@distance": 4792.5,
+        "@distance": 4814.4,
         "@id": "n7987098359",
-        "@changeset": 112246931,
-        "@timestamp": "2021-10-08T06:52:02Z",
-        "@version": 4,
-        "@uid": 384661,
-        "@user": "BBMaper",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:38:29Z",
+        "@version": 5,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
         "addr:city": "Saanenmöser",
         "addr:housenumber": "24",
         "addr:postcode": "3777",
         "addr:street": "Bahnhofstrasse",
         "name": "Genossenschaft Dorfladen",
         "note": "belegt auch Bahnhofstrasse 26",
-        "opening_hours": "Mo-Fr 07:00-18:30;Sa 07:30-17:00;Su 08:00-17:00",
+        "opening_hours": "Mo-Fr 07:00-18:30; Sa 07:30-17:00; Su 08:00-17:00",
         "operator": "Genossenschaft Dorfladen",
         "phone": "+41 33 748 10 20",
         "shop": "supermarket"
@@ -20511,8 +20483,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.3108981,
-          46.5171744
+          7.3105048,
+          46.5172907
         ]
       }
     },
@@ -20802,27 +20774,27 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_convenience",
-        "@distance": 3368.3,
+        "@distance": 3369,
         "@id": "n8914485440",
-        "@changeset": 112246931,
-        "@timestamp": "2021-10-08T06:52:02Z",
-        "@version": 2,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Lauenen b. Gstaad",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:48:14Z",
+        "@version": 3,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
+        "addr:city": "Lauenen",
         "addr:country": "CH",
-        "addr:housenumber": "33",
+        "addr:housenumber": "21",
         "addr:postcode": "3782",
         "addr:street": "Dorfstrasse",
         "name": "Lebensmittel Annen-Bettler",
-        "opening_hours": "Mo-Fr 07:00-12:15,13:30-18:30;Sa 07:30-12:00,13:30-17:00",
+        "opening_hours": "Mo-Fr 07:00-12:15,13:30-18:30; Sa 07:30-12:00,13:30-17:00; Su 09:00-10:00",
         "shop": "convenience"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.3235067,
-          46.4233168
+          7.3234953,
+          46.423322
         ]
       }
     },
@@ -20888,33 +20860,6 @@
         "coordinates": [
           7.666888,
           46.4790315
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 7705.3,
-        "@id": "n9152165922",
-        "@changeset": 112168538,
-        "@timestamp": "2021-10-06T12:41:38Z",
-        "@version": 1,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Le Sépey",
-        "addr:housenumber": "10",
-        "addr:postcode": "1863",
-        "addr:street": "Grand'Rue",
-        "name": "Au Petit Magasin Sàrl",
-        "opening_hours": "Mo-Fr 06:00-12:00,15:00-18:30;Sa 07:30-14:00;Su 08:00-12:00",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0521323,
-          46.3616369
         ]
       }
     },
@@ -21580,72 +21525,45 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "peak_peak",
-        "@distance": 2956,
-        "@id": "n8121372996",
-        "@changeset": 95162136,
-        "@timestamp": "2020-12-02T14:32:51Z",
+        "@poi": "place_village",
+        "@distance": 911.3,
+        "@id": "n3431820725",
+        "@changeset": 36717747,
+        "@timestamp": "2016-01-21T11:10:37Z",
         "@version": 2,
-        "@uid": 289221,
-        "@user": "Hannes Röst",
-        "ele": 2161,
-        "name": "Rundchopf",
-        "natural": "peak",
-        "wikidata": "Q22359436"
+        "@uid": 3345684,
+        "@user": "pamü",
+        "ele": 485,
+        "name": "Heiligkreuz",
+        "place": "village",
+        "population": 1414
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.3246504,
-          47.0201283
+          9.4181433,
+          47.055644
         ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "@poi": "peak_peak",
-        "@distance": 2979.7,
-        "@id": "n8121373028",
-        "@changeset": 95162136,
-        "@timestamp": "2020-12-02T14:33:01Z",
-        "@version": 2,
-        "@uid": 289221,
-        "@user": "Hannes Röst",
-        "ele": 2236,
-        "name": "Madchopf",
-        "natural": "peak",
-        "wikidata": "Q22360472"
+        "@poi": "water_drinking-water",
+        "@distance": 1528.7,
+        "@id": "n3465804066",
+        "@changeset": 30336530,
+        "@timestamp": "2015-04-19T17:46:37Z",
+        "@version": 1,
+        "@uid": 583373,
+        "@user": "Drazhar",
+        "amenity": "drinking_water"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.3187142,
-          47.015941
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 1496.9,
-        "@id": "n8149341913",
-        "@changeset": 112966693,
-        "@timestamp": "2021-10-25T20:45:30Z",
-        "@version": 4,
-        "@uid": 918586,
-        "@user": "Binnette",
-        "ele": 2361,
-        "name": "Grüenenspitz",
-        "natural": "peak",
-        "wikidata": "Q22651888"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.2176952,
-          46.9505233
+          9.416433,
+          47.0610291
         ]
       }
     },
@@ -21790,60 +21708,6 @@
         "coordinates": [
           9.2381583,
           46.9427857
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 7520,
-        "@id": "n9167295143",
-        "@changeset": 112415298,
-        "@timestamp": "2021-10-12T12:00:48Z",
-        "@version": 1,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Pfäfers",
-        "addr:housenumber": "3",
-        "addr:postcode": "7312",
-        "addr:street": "Ausserdorfstrasse",
-        "name": "Dorfladen",
-        "opening_hours": "Mo-Tu 07:30-12:00,14:00-18:30;We 07:30-12:00;Th-Fr 07:30-12:00,14:00-18:30;Sa 07:30-12:00",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.4993269,
-          46.9888025
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 7781,
-        "@id": "n9167295144",
-        "@changeset": 112415298,
-        "@timestamp": "2021-10-12T12:00:48Z",
-        "@version": 1,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Maienfeld",
-        "addr:housenumber": "3",
-        "addr:postcode": "7304",
-        "addr:street": "Städtli",
-        "name": "SPAR Supermarkt",
-        "opening_hours": "Mo-Fr 07:00-19:00;Sa 07:00-17:00",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.5311258,
-          47.0074356
         ]
       }
     },
@@ -22056,6 +21920,28 @@
         "coordinates": [
           7.6488113,
           46.5856028
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 9888.1,
+        "@id": "n3595995017",
+        "@changeset": 31978757,
+        "@timestamp": "2015-06-15T09:04:35Z",
+        "@version": 1,
+        "@uid": 190676,
+        "@user": "highbuilder",
+        "name": "Claro",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.647403,
+          46.5887029
         ]
       }
     },
@@ -23069,134 +22955,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 35,
-        "@id": "n9157254051",
-        "@changeset": 112246931,
-        "@timestamp": "2021-10-08T06:52:02Z",
-        "@version": 1,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "ele": 1631,
-        "internet_access": "wlan",
-        "internet_access:fee": "no",
-        "name": "Coop",
-        "opening_hours": "Mo-Fr 08:00-18:30;Sa-Su 08:00-18:00",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.8937677,
-          46.5596332
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 8042.7,
-        "@id": "n9165368396",
-        "@changeset": 112382280,
-        "@timestamp": "2021-10-11T16:26:15Z",
-        "@version": 1,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Wilderswil",
-        "addr:country": "CH",
-        "addr:housenumber": "27",
-        "addr:postcode": "3812",
-        "addr:street": "Hauptstrasse",
-        "alt_name": "VOI Wilderswil",
-        "branch": "Wilderswil",
-        "brand": "VOI Migros Partner",
-        "cash_withdrawal": "postfinance_card",
-        "cash_withdrawal:fee": "no",
-        "cash_withdrawal:purchase_required": "no",
-        "cash_withdrawal:type": "checkout",
-        "ele": 584,
-        "name": "VOI",
-        "old_name": "Migros Wilderswil",
-        "opening_hours": "Mo-Fr 08:00-19:00;Sa-Su 08:00-18:00",
-        "operator": "Genossenschaft Migros Aare",
-        "phone": "+41585672180",
-        "shop": "supermarket",
-        "website": "https://www.voi-migrospartner.ch/de-CH/filialen#voi-voi-wilderswil"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.8690943,
-          46.6660719
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 6570.2,
-        "@id": "n9165464052",
-        "@changeset": 112384840,
-        "@timestamp": "2021-10-11T17:32:57Z",
-        "@version": 1,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Lungern",
-        "addr:housenumber": "103",
-        "addr:postcode": "6078",
-        "addr:street": "Brünigstrasse",
-        "name": "Halter's Dorfladen Volg",
-        "opening_hours": "Mo-Fr 07:00-19:00;Sa 07:00-16:00",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.1594017,
-          46.7843073
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 9544.3,
-        "@id": "n9167580052",
-        "@changeset": 112420765,
-        "@timestamp": "2021-10-12T14:26:45Z",
-        "@version": 1,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Wolfenschiessen",
-        "addr:housenumber": "21",
-        "addr:postcode": "6386",
-        "addr:street": "Hauptstrasse",
-        "brand": "Volg",
-        "brand:wikidata": "Q2530746",
-        "brand:wikipedia": "de:Volg",
-        "cash_withdrawal": "yes",
-        "cash_withdrawal:fee": "no",
-        "cash_withdrawal:operator": "sonect",
-        "cash_withdrawal:purchase_required": "no",
-        "cash_withdrawal:type": "checkout",
-        "name": "Volg",
-        "opening_hours": "Mo-Sa 06:00-20:00",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.3954396,
-          46.9069021
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "peak_peak",
         "@distance": 3634.6,
         "@id": "n9200212861",
@@ -23400,6 +23158,31 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 6570.2,
+        "@id": "w158520592",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:15:48Z",
+        "@version": 4,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
+        "building": "yes",
+        "name": "Halter's Dorfladen Volg",
+        "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-16:00; PH off",
+        "shop": "convenience",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1593942,
+          46.7843034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 9572,
         "@id": "w160730143",
@@ -23465,6 +23248,85 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 8041.4,
+        "@id": "w188462963",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:19:35Z",
+        "@version": 11,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
+        "addr:city": "Wilderswil",
+        "addr:country": "CH",
+        "addr:housenumber": "27",
+        "addr:postcode": "3812",
+        "addr:street": "Hauptstrasse",
+        "alt_name": "VOI Wilderswil",
+        "branch": "Wilderswil",
+        "brand": "VOI Migros Partner",
+        "building": "yes",
+        "cash_withdrawal": "postfinance_card",
+        "cash_withdrawal:fee": "no",
+        "cash_withdrawal:purchase_required": "no",
+        "cash_withdrawal:type": "checkout",
+        "ele": 584,
+        "name": "VOI",
+        "old_name": "Migros Wilderswil",
+        "opening_hours": "Mo-Sa 08:00-20:00; Su 08:00-18:00",
+        "operator": "Genossenschaft Migros Aare",
+        "phone": "+41585672180",
+        "shop": "supermarket",
+        "website": "https://www.voi-migrospartner.ch/de-CH/filialen#voi-voi-wilderswil"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8690826,
+          46.6660568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 7983.6,
+        "@id": "w188462964",
+        "@changeset": 104609924,
+        "@timestamp": "2021-05-13T05:29:03Z",
+        "@version": 6,
+        "@uid": 4067009,
+        "@user": "KaiPankrath",
+        "addr:city": "Wilderswil",
+        "addr:country": "CH",
+        "addr:housenumber": "1",
+        "addr:postcode": "3812",
+        "addr:street": "Aegertzaunstrasse",
+        "brand": "Volg",
+        "brand:wikidata": "Q2530746",
+        "brand:wikipedia": "de:Volg",
+        "building": "yes",
+        "cash_withdrawal": "yes",
+        "cash_withdrawal:fee": "no",
+        "cash_withdrawal:operator": "sonect",
+        "cash_withdrawal:purchase_required": "no",
+        "cash_withdrawal:type": "checkout",
+        "ele": 584,
+        "name": "Volg",
+        "opening_hours": "Sa-Su 08:00-20:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8684979,
+          46.6653744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 1497.5,
         "@id": "n7902390373",
@@ -23481,51 +23343,6 @@
         "coordinates": [
           7.9016231,
           46.5439328
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "place_village",
-        "@distance": 911.3,
-        "@id": "n3431820725",
-        "@changeset": 36717747,
-        "@timestamp": "2016-01-21T11:10:37Z",
-        "@version": 2,
-        "@uid": 3345684,
-        "@user": "pamü",
-        "ele": 485,
-        "name": "Heiligkreuz",
-        "place": "village",
-        "population": 1414
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.4181433,
-          47.055644
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 1528.7,
-        "@id": "n3465804066",
-        "@changeset": 30336530,
-        "@timestamp": "2015-04-19T17:46:37Z",
-        "@version": 1,
-        "@uid": 583373,
-        "@user": "Drazhar",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.416433,
-          47.0610291
         ]
       }
     },
@@ -23990,6 +23807,35 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 7784.6,
+        "@id": "w363039215",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:14:33Z",
+        "@version": 5,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
+        "addr:city": "Maienfeld",
+        "addr:country": "CH",
+        "addr:postcode": "7304",
+        "addr:street": "Städtliplatz",
+        "building": "yes",
+        "name": "SPAR Supermarkt",
+        "opening_hours": "Mo-Fr 07:00-12:00, 14:00-19:00; Sa 07:00-12:00, 14:00-19:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5311651,
+          47.0074178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 23.7,
         "@id": "w517287911",
@@ -24194,28 +24040,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 9888.1,
-        "@id": "n3595995017",
-        "@changeset": 31978757,
-        "@timestamp": "2015-06-15T09:04:35Z",
-        "@version": 1,
-        "@uid": 190676,
-        "@user": "highbuilder",
-        "name": "Claro",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.647403,
-          46.5887029
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 8735.1,
         "@id": "n4373217990",
@@ -24234,44 +24058,6 @@
         "coordinates": [
           7.6536173,
           46.5727759
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 7983.6,
-        "@id": "w188462964",
-        "@changeset": 104609924,
-        "@timestamp": "2021-05-13T05:29:03Z",
-        "@version": 6,
-        "@uid": 4067009,
-        "@user": "KaiPankrath",
-        "addr:city": "Wilderswil",
-        "addr:country": "CH",
-        "addr:housenumber": "1",
-        "addr:postcode": "3812",
-        "addr:street": "Aegertzaunstrasse",
-        "brand": "Volg",
-        "brand:wikidata": "Q2530746",
-        "brand:wikipedia": "de:Volg",
-        "building": "yes",
-        "cash_withdrawal": "yes",
-        "cash_withdrawal:fee": "no",
-        "cash_withdrawal:operator": "sonect",
-        "cash_withdrawal:purchase_required": "no",
-        "cash_withdrawal:type": "checkout",
-        "ele": 584,
-        "name": "Volg",
-        "opening_hours": "Sa-Su 08:00-20:00",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.8684979,
-          46.6653744
         ]
       }
     },
@@ -24356,6 +24142,39 @@
         "coordinates": [
           7.8681581,
           46.6733967
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 29.5,
+        "@id": "w223027141",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:20:23Z",
+        "@version": 10,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
+        "addr:city": "Mürren",
+        "addr:country": "CH",
+        "addr:housenumber": "1032",
+        "addr:place": "Borthalten",
+        "addr:postcode": "3825",
+        "building": "yes",
+        "ele": 1631,
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Coop",
+        "opening_hours": "Mo-Fr 08:00-18:30; Sa 08:00-18:00; Su 08:00-18:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8938112,
+          46.559596
         ]
       }
     },
@@ -24646,6 +24465,41 @@
         "coordinates": [
           8.2300934,
           46.7411422
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 9545.6,
+        "@id": "w305192595",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:14:18Z",
+        "@version": 4,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
+        "addr:city": "Wolfenschiessen",
+        "addr:housenumber": "21",
+        "addr:postcode": "6386",
+        "addr:street": "Hauptstrasse",
+        "brand": "Volg",
+        "brand:wikidata": "Q2530746",
+        "brand:wikipedia": "de:Volg",
+        "building": "yes",
+        "cash_withdrawal": "yes",
+        "cash_withdrawal:fee": "no",
+        "cash_withdrawal:operator": "sonect",
+        "cash_withdrawal:purchase_required": "no",
+        "cash_withdrawal:type": "checkout",
+        "name": "Volg",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3954518,
+          46.9069143
         ]
       }
     },
@@ -25381,17 +25235,13 @@
         "@poi": "foodshop_convenience",
         "@distance": 9670.4,
         "@id": "n4726691289",
-        "@changeset": 112416941,
-        "@timestamp": "2021-10-12T12:45:04Z",
-        "@version": 3,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Flumserberg Tannenbodenalp",
-        "addr:housenumber": "178",
-        "addr:postcode": "8898",
-        "addr:street": "Flumserbergstrasse",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:50:39Z",
+        "@version": 4,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
         "name": "Prima - Dorfladen Flumserberg",
-        "opening_hours": "Mo-Su 07:30-18:00",
+        "opening_hours": "Mo-Su 07:00-18:30",
         "shop": "convenience",
         "website": "https://www.dorfladen-flumserberg.ch/"
       },
@@ -25718,50 +25568,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 447.2,
-        "@id": "w833827047",
-        "@changeset": 91542974,
-        "@timestamp": "2020-09-26T08:32:48Z",
-        "@version": 2,
-        "@uid": 131561,
-        "@user": "filot",
-        "amenity": "shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.2301066,
-          46.7412519
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1174.9,
-        "@id": "w967657775",
-        "@changeset": 108644356,
-        "@timestamp": "2021-07-26T20:07:39Z",
-        "@version": 1,
-        "@uid": 32786,
-        "@user": "Netzwolf",
-        "amenity": "shelter",
-        "building": "hut",
-        "shelter_type": "weather_shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.0232375,
-          46.5999087
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 336.5,
         "@id": "n4917655439",
@@ -25824,6 +25630,50 @@
         "coordinates": [
           9.430805,
           47.0423429
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 447.2,
+        "@id": "w833827047",
+        "@changeset": 91542974,
+        "@timestamp": "2020-09-26T08:32:48Z",
+        "@version": 2,
+        "@uid": 131561,
+        "@user": "filot",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2301066,
+          46.7412519
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1174.9,
+        "@id": "w967657775",
+        "@changeset": 108644356,
+        "@timestamp": "2021-07-26T20:07:39Z",
+        "@version": 1,
+        "@uid": 32786,
+        "@user": "Netzwolf",
+        "amenity": "shelter",
+        "building": "hut",
+        "shelter_type": "weather_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.0232375,
+          46.5999087
         ]
       }
     },
@@ -26324,6 +26174,27 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 284.4,
+        "@id": "n5842042686",
+        "@changeset": 61796910,
+        "@timestamp": "2018-08-19T15:47:35Z",
+        "@version": 1,
+        "@uid": 8708734,
+        "@user": "Gurulea Viorel",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5151598,
+          47.130192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "place_village",
         "@distance": 2407.6,
         "@id": "n3636729610",
@@ -26411,27 +26282,6 @@
         "coordinates": [
           6.8418655,
           46.4602978
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 284.4,
-        "@id": "n5842042686",
-        "@changeset": 61796910,
-        "@timestamp": "2018-08-19T15:47:35Z",
-        "@version": 1,
-        "@uid": 8708734,
-        "@user": "Gurulea Viorel",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.5151598,
-          47.130192
         ]
       }
     },
@@ -27043,6 +26893,27 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 122.1,
+        "@id": "n9056616852",
+        "@changeset": 110628928,
+        "@timestamp": "2021-09-02T16:08:32Z",
+        "@version": 1,
+        "@uid": 117435,
+        "@user": "implgeo",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.442441,
+          47.048548
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 1401.3,
         "@id": "n4336822460",
@@ -27130,27 +27001,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_drinking-water",
-        "@distance": 122.1,
-        "@id": "n9056616852",
-        "@changeset": 110628928,
-        "@timestamp": "2021-09-02T16:08:32Z",
-        "@version": 1,
-        "@uid": 117435,
-        "@user": "implgeo",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.442441,
-          47.048548
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
         "@distance": 84.1,
         "@id": "n9074217336",
         "@changeset": 110926370,
@@ -27192,124 +27042,25 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 1432.1,
-        "@id": "n9167295145",
-        "@changeset": 112415298,
-        "@timestamp": "2021-10-12T12:00:48Z",
-        "@version": 1,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Heiligkreuz (Mels)",
-        "addr:housenumber": "94",
-        "addr:postcode": "8888",
-        "addr:street": "Staatsstrasse",
-        "name": "SPAR Heiligkreuz",
-        "opening_hours": "Mo-Fr 07:00-19:00;Sa 07:00-17:00",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.4113048,
-          47.05888
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 8025.6,
-        "@id": "n9167381269",
-        "@changeset": 112416941,
-        "@timestamp": "2021-10-12T12:45:04Z",
-        "@version": 1,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Berschis",
-        "addr:housenumber": "1",
-        "addr:postcode": "8892",
-        "addr:street": "Winkelstrasse",
-        "name": "Dorfladen",
-        "opening_hours": "Mo-Sa 06:30-10:00,17:00-19:00",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.3462116,
-          47.1060199
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_supermarket",
-        "@distance": 828.7,
-        "@id": "n9167385487",
-        "@changeset": 112416713,
-        "@timestamp": "2021-10-12T12:38:16Z",
-        "@version": 1,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Oberschan",
-        "addr:housenumber": "4",
-        "addr:postcode": "9479",
-        "addr:street": "Rufen",
-        "brand": "Volg",
-        "brand:wikidata": "Q2530746",
-        "brand:wikipedia": "de:Volg",
-        "cash_withdrawal": "yes",
-        "cash_withdrawal:fee": "no",
-        "cash_withdrawal:operator": "sonect",
-        "cash_withdrawal:purchase_required": "no",
-        "cash_withdrawal:type": "checkout",
-        "name": "Volg",
-        "opening_hours": "Mo-Fr 06:30-19:00;Sa 06:30-17:00",
-        "phone": "+41 81 783 12 59",
+        "@distance": 3556.1,
+        "@id": "w119161258",
+        "@changeset": 90486763,
+        "@timestamp": "2020-09-06T16:47:36Z",
+        "@version": 2,
+        "@uid": 7395461,
+        "@user": "boott",
+        "building": "yes",
+        "name": "TopCC",
+        "operator": "TopCC",
         "shop": "supermarket",
-        "website": "https://www.volg.ch",
-        "wheelchair": "yes"
+        "source": "official website"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.4742361,
-          47.0977884
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 736.3,
-        "@id": "n9167385488",
-        "@changeset": 112416713,
-        "@timestamp": "2021-10-12T12:38:16Z",
-        "@version": 1,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Weite",
-        "addr:housenumber": "42",
-        "addr:postcode": "9476",
-        "addr:street": "Hauptstrasse",
-        "cash_withdrawal": "yes",
-        "cash_withdrawal:fee": "no",
-        "cash_withdrawal:operator": "sonect",
-        "cash_withdrawal:purchase_required": "no",
-        "cash_withdrawal:type": "checkout",
-        "name": "Volg",
-        "opening_hours": "Mo-Fr 06:00-20:00;Sa 07:00-17:00",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.497277,
-          47.0926724
+          9.483424,
+          47.1725902
         ]
       }
     },
@@ -27636,15 +27387,12 @@
         "@poi": "foodshop_supermarket",
         "@distance": 5354.7,
         "@id": "n5852227385",
-        "@changeset": 112171133,
-        "@timestamp": "2021-10-06T13:48:44Z",
-        "@version": 4,
-        "@uid": 384661,
-        "@user": "BBMaper",
-        "addr:city": "Vevey",
-        "addr:housenumber": "56",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:54:00Z",
+        "@version": 5,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
         "addr:postcode": "1800",
-        "addr:street": "Rue d'Italie",
         "brand": "Denner",
         "brand:wikidata": "Q379911",
         "brand:wikipedia": "en:Denner (supermarket)",
@@ -27653,7 +27401,7 @@
         "cash_withdrawal:purchase_required": "no",
         "cash_withdrawal:type": "checkout",
         "name": "Denner",
-        "opening_hours": "Mo-Th 08:00-18:30;Fr 08:00-19:00;Sa 08:00-17:00",
+        "opening_hours": "Mo-Th 08:00-18:30; Fr 08:00-20:00; Sa 08:00-17:00",
         "shop": "supermarket"
       },
       "geometry": {
@@ -27735,31 +27483,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 3556.1,
-        "@id": "w119161258",
-        "@changeset": 90486763,
-        "@timestamp": "2020-09-06T16:47:36Z",
-        "@version": 2,
-        "@uid": 7395461,
-        "@user": "boott",
-        "building": "yes",
-        "name": "TopCC",
-        "operator": "TopCC",
-        "shop": "supermarket",
-        "source": "official website"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.483424,
-          47.1725902
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 2276.1,
         "@id": "w165294846",
@@ -27777,6 +27500,27 @@
         "coordinates": [
           9.4978279,
           47.0616525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1335.6,
+        "@id": "w207114195",
+        "@changeset": 29613753,
+        "@timestamp": "2015-03-20T12:50:34Z",
+        "@version": 2,
+        "@uid": 2556349,
+        "@user": "finder119",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.547534,
+          47.1163776
         ]
       }
     },
@@ -28151,20 +27895,20 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
-        "@distance": 1335.6,
-        "@id": "w207114195",
-        "@changeset": 29613753,
-        "@timestamp": "2015-03-20T12:50:34Z",
-        "@version": 2,
-        "@uid": 2556349,
-        "@user": "finder119",
+        "@distance": 2188.9,
+        "@id": "n7363346216",
+        "@changeset": 83039053,
+        "@timestamp": "2020-04-03T14:22:45Z",
+        "@version": 1,
+        "@uid": 3970216,
+        "@user": "Railwayfan2005",
         "amenity": "shelter"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.547534,
-          47.1163776
+          6.9093724,
+          46.4564373
         ]
       }
     },
@@ -28187,6 +27931,72 @@
         "coordinates": [
           9.602288,
           47.1102896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 736.7,
+        "@id": "w311927133",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:17:52Z",
+        "@version": 4,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
+        "building": "yes",
+        "cash_withdrawal": "yes",
+        "cash_withdrawal:fee": "no",
+        "cash_withdrawal:operator": "sonect",
+        "cash_withdrawal:purchase_required": "no",
+        "cash_withdrawal:type": "checkout",
+        "name": "Volg",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4972884,
+          47.0926587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 826.3,
+        "@id": "w315362009",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:17:48Z",
+        "@version": 5,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
+        "addr:housenumber": "4",
+        "addr:postcode": "9479",
+        "addr:street": "Rufen",
+        "brand": "Volg",
+        "brand:wikidata": "Q2530746",
+        "brand:wikipedia": "de:Volg",
+        "building": "yes",
+        "cash_withdrawal": "yes",
+        "cash_withdrawal:fee": "no",
+        "cash_withdrawal:operator": "sonect",
+        "cash_withdrawal:purchase_required": "no",
+        "cash_withdrawal:type": "checkout",
+        "name": "Volg",
+        "opening_hours": "Mo-Fr 06:30-19:00; Sa 06:30-17:00",
+        "phone": "+41 81 783 12 59",
+        "shop": "supermarket",
+        "website": "https://www.volg.ch",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4742358,
+          47.0978323
         ]
       }
     },
@@ -28300,21 +28110,84 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 114.3,
+        "@id": "w364531973",
+        "@changeset": 66860086,
+        "@timestamp": "2019-02-02T16:59:29Z",
+        "@version": 8,
+        "@uid": 3524812,
+        "@user": "SWF8",
+        "addr:city": "Vaduz",
+        "addr:country": "LI",
+        "addr:housenumber": "20",
+        "addr:postcode": "9490",
+        "addr:street": "Äulestrasse",
+        "building": "yes",
+        "internet_access": "wlan",
+        "name": "Coop",
+        "opening_hours": "Mo-Fr 08:00-19:00; Sa,Su 08:00-17:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5207147,
+          47.1401006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 94.3,
+        "@id": "w364552339",
+        "@changeset": 113721135,
+        "@timestamp": "2021-11-13T07:32:28Z",
+        "@version": 4,
+        "@uid": 1213571,
+        "@user": "mcliquid",
+        "addr:city": "Vaduz",
+        "addr:country": "LI",
+        "addr:housenumber": "19",
+        "addr:postcode": "9490",
+        "addr:street": "Landstrasse",
+        "brand": "Coop Pronto",
+        "brand:wikidata": "Q1129777",
+        "brand:wikipedia": "de:Coop Mineraloel",
+        "building": "yes",
+        "name": "Coop Pronto",
+        "name:de": "Coop Pronto",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5174195,
+          47.1434633
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_shelter",
-        "@distance": 2188.9,
-        "@id": "n7363346216",
-        "@changeset": 83039053,
-        "@timestamp": "2020-04-03T14:22:45Z",
+        "@distance": 388.4,
+        "@id": "w376839383",
+        "@changeset": 34861491,
+        "@timestamp": "2015-10-25T15:23:23Z",
         "@version": 1,
-        "@uid": 3970216,
-        "@user": "Railwayfan2005",
+        "@uid": 2395427,
+        "@user": "schoen6",
         "amenity": "shelter"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.9093724,
-          46.4564373
+          9.4807592,
+          47.1132784
         ]
       }
     },
@@ -28620,90 +28493,6 @@
         "coordinates": [
           7.0124645,
           46.3435862
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 114.3,
-        "@id": "w364531973",
-        "@changeset": 66860086,
-        "@timestamp": "2019-02-02T16:59:29Z",
-        "@version": 8,
-        "@uid": 3524812,
-        "@user": "SWF8",
-        "addr:city": "Vaduz",
-        "addr:country": "LI",
-        "addr:housenumber": "20",
-        "addr:postcode": "9490",
-        "addr:street": "Äulestrasse",
-        "building": "yes",
-        "internet_access": "wlan",
-        "name": "Coop",
-        "opening_hours": "Mo-Fr 08:00-19:00; Sa,Su 08:00-17:00",
-        "shop": "supermarket",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.5207147,
-          47.1401006
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 94.3,
-        "@id": "w364552339",
-        "@changeset": 113721135,
-        "@timestamp": "2021-11-13T07:32:28Z",
-        "@version": 4,
-        "@uid": 1213571,
-        "@user": "mcliquid",
-        "addr:city": "Vaduz",
-        "addr:country": "LI",
-        "addr:housenumber": "19",
-        "addr:postcode": "9490",
-        "addr:street": "Landstrasse",
-        "brand": "Coop Pronto",
-        "brand:wikidata": "Q1129777",
-        "brand:wikipedia": "de:Coop Mineraloel",
-        "building": "yes",
-        "name": "Coop Pronto",
-        "name:de": "Coop Pronto",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.5174195,
-          47.1434633
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 388.4,
-        "@id": "w376839383",
-        "@changeset": 34861491,
-        "@timestamp": "2015-10-25T15:23:23Z",
-        "@version": 1,
-        "@uid": 2395427,
-        "@user": "schoen6",
-        "amenity": "shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.4807592,
-          47.1132784
         ]
       }
     },
@@ -29301,6 +29090,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 7151,
+        "@id": "w200938724",
+        "@changeset": 100421842,
+        "@timestamp": "2021-03-04T12:15:05Z",
+        "@version": 2,
+        "@uid": 2965963,
+        "@user": "Jonathan Masur",
+        "building": "retail",
+        "name": "Nardi",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8444224,
+          46.482118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 2887.4,
         "@id": "w829198374",
@@ -29341,29 +29153,6 @@
         "coordinates": [
           9.5091299,
           47.172098
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 7151,
-        "@id": "w200938724",
-        "@changeset": 100421842,
-        "@timestamp": "2021-03-04T12:15:05Z",
-        "@version": 2,
-        "@uid": 2965963,
-        "@user": "Jonathan Masur",
-        "building": "retail",
-        "name": "Nardi",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.8444224,
-          46.482118
         ]
       }
     },
