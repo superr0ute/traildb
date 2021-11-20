@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-18T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-19T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2926,9 +2926,9 @@
     {
       "type": "relation",
       "id": 7705141,
-      "timestamp": "2021-11-18T16:37:57Z",
-      "version": 24,
-      "changeset": 113951960,
+      "timestamp": "2021-11-19T16:14:09Z",
+      "version": 26,
+      "changeset": 113997511,
       "user": "LorenzoBassi_SICAI_Team",
       "uid": 3286661,
       "members": [
@@ -2973,6 +2973,7 @@
         {"type": "way", "ref": 46345715, "role": ""},
         {"type": "way", "ref": 124251476, "role": ""},
         {"type": "way", "ref": 124251475, "role": ""},
+        {"type": "way", "ref": 1004256810, "role": ""},
         {"type": "way", "ref": 175228859, "role": ""},
         {"type": "way", "ref": 537927487, "role": ""},
         {"type": "way", "ref": 472150709, "role": ""},
@@ -2981,8 +2982,8 @@
       ],
       "tags": {
         "cai_scale": "E",
-        "from": "Rifugio Valgoi",
-        "name": "(SI D33N) Rifugio Valgoi - Livigno",
+        "from": "Rifugio Federico",
+        "name": "(SI D33N) Rifugio Federico - Livigno",
         "network": "lwn",
         "note": "Sentiero Italia CAI 2019",
         "note:it": "Sentiero Italia CAI 2019",
@@ -4321,6 +4322,22 @@
         {"lat": 46.4193134, "lon": 10.1971818}
       ],
       "tags": {"highway": "path"}
+    },
+    {
+      "type": "way",
+      "id": 1004256810,
+      "timestamp": "2021-11-19T08:22:46Z",
+      "version": 1,
+      "changeset": 113979512,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
+      "nodes": [1376709337, 761202086],
+      "geometry": [
+        {"lat": 46.5245466, "lon": 10.1343378},
+        {"lat": 46.5246392, "lon": 10.1344331},
+        {"lat": 46.5249952, "lon": 10.1345709}
+      ],
+      "tags": {"bicycle": "yes", "highway": "track"}
     },
     {
       "type": "way",
@@ -7347,18 +7364,16 @@
     {
       "type": "way",
       "id": 124251475,
-      "timestamp": "2012-08-09T12:11:31Z",
-      "version": 2,
-      "changeset": 12667561,
-      "user": "Constable",
-      "uid": 527535,
-      "nodes": [1383409514, 761202086],
+      "timestamp": "2021-11-19T08:22:46Z",
+      "version": 3,
+      "changeset": 113979512,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
+      "nodes": [1383409514, 1376709337],
       "geometry": [
         {"lat": 46.5243252, "lon": 10.1341143},
         {"lat": 46.5244859, "lon": 10.1342753},
-        {"lat": 46.5245466, "lon": 10.1343378},
-        {"lat": 46.5246392, "lon": 10.1344331},
-        {"lat": 46.5249952, "lon": 10.1345709}
+        {"lat": 46.5245466, "lon": 10.1343378}
       ],
       "tags": {"bicycle": "yes", "highway": "track"}
     },
