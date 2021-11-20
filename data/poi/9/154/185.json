@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-11-18T23:59:59Z",
-    "timestamp_osm_base": "2021-11-19T03:55:54Z",
+    "timestamp_osm_date": "2021-11-19T23:59:59Z",
+    "timestamp_osm_base": "2021-11-20T04:01:25Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6634,13 +6634,14 @@
       "id": 2966102733,
       "lat": 44.2605413,
       "lon": -71.5038372,
-      "timestamp": "2019-01-29T21:01:25Z",
-      "version": 2,
-      "changeset": 66751377,
-      "user": "Loren S",
-      "uid": 1819522,
+      "timestamp": "2021-11-19T04:54:25Z",
+      "version": 3,
+      "changeset": 113973296,
+      "user": "PeteNH64",
+      "uid": 9457110,
       "tags": {
-        "name": "Sugarloaf 1 Campgrounds",
+        "capacity": "29",
+        "name": "Sugarloaf 1 Campground",
         "operator": "US Forest Service",
         "toilets": "flush",
         "tourism": "camp_site",
@@ -6652,13 +6653,14 @@
       "id": 2966102734,
       "lat": 44.2579325,
       "lon": -71.5035383,
-      "timestamp": "2014-07-16T14:43:33Z",
-      "version": 1,
-      "changeset": 24183073,
-      "user": "hriket",
-      "uid": 2103517,
+      "timestamp": "2021-11-19T04:54:25Z",
+      "version": 2,
+      "changeset": 113973296,
+      "user": "PeteNH64",
+      "uid": 9457110,
       "tags": {
-        "name": "Sugarloaf2 Campgrounds",
+        "capacity": "32",
+        "name": "Sugarloaf II Campground",
         "operator": "US Forest Service",
         "phone": "+1 603 536 6100",
         "tourism": "camp_site"
@@ -6844,24 +6846,6 @@
     },
     {
       "type": "node",
-      "id": 4316006398,
-      "lat": 44.3051826,
-      "lon": -71.5328989,
-      "timestamp": "2016-07-22T17:45:37Z",
-      "version": 1,
-      "changeset": 40956271,
-      "user": "Mohit Bhandari",
-      "uid": 4303370,
-      "tags": {
-        "addr:housenumber": "372",
-        "addr:postcode": "03598",
-        "addr:street": "State Route 115",
-        "name": "Twin Mountain KOA",
-        "tourism": "camp_site"
-      }
-    },
-    {
-      "type": "node",
       "id": 4361842563,
       "lat": 44.2679399,
       "lon": -71.0221221,
@@ -6921,21 +6905,6 @@
       "tags": {
         "name": "Dry River Campsites",
         "shower": "yes",
-        "tourism": "camp_site"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4927715247,
-      "lat": 44.265013,
-      "lon": -71.4988331,
-      "timestamp": "2017-06-21T01:47:04Z",
-      "version": 1,
-      "changeset": 49708385,
-      "user": "steakunderscore",
-      "uid": 1721067,
-      "tags": {
-        "name": "Zealand campsite",
         "tourism": "camp_site"
       }
     },
@@ -8728,6 +8697,90 @@
         "building": "yes",
         "name": "Dolly Copp Picnic Pavilion",
         "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1004215385,
+      "timestamp": "2021-11-19T15:16:11Z",
+      "version": 2,
+      "changeset": 113995060,
+      "user": "aweech",
+      "uid": 8482773,
+      "center": {
+        "lat": 44.2646615,
+        "lon": -71.4987703
+      },
+      "nodes": [],
+      "tags": {
+        "capacity": "11",
+        "name": "Zealand Campground",
+        "operator": "US Forest Service",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1004215386,
+      "timestamp": "2021-11-19T04:54:25Z",
+      "version": 1,
+      "changeset": 113973296,
+      "user": "PeteNH64",
+      "uid": 9457110,
+      "center": {
+        "lat": 44.2605314,
+        "lon": -71.5038993
+      },
+      "nodes": [],
+      "tags": {
+        "tourism": "camp_site",
+        "name": "Sugarloaf 1 Campground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1004215387,
+      "timestamp": "2021-11-19T04:54:25Z",
+      "version": 1,
+      "changeset": 113973296,
+      "user": "PeteNH64",
+      "uid": 9457110,
+      "center": {
+        "lat": 44.2574762,
+        "lon": -71.5038263
+      },
+      "nodes": [],
+      "tags": {
+        "tourism": "camp_site",
+        "name": "Sugarloaf II Campground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1004215388,
+      "timestamp": "2021-11-19T15:16:11Z",
+      "version": 2,
+      "changeset": 113995060,
+      "user": "aweech",
+      "uid": 8482773,
+      "center": {
+        "lat": 44.2681254,
+        "lon": -71.5364034
+      },
+      "nodes": [],
+      "tags": {
+        "access": "yes",
+        "addr:city": "Twin Mountain",
+        "addr:housenumber": "100",
+        "addr:postcode": "03595",
+        "addr:state": "NH",
+        "addr:street": "US 302 East",
+        "email": "info@twinmountaincampground.com",
+        "fee": "yes",
+        "name": "Twin Mountain Campground",
+        "phone": "1-603-846-5513",
+        "tourism": "camp_site",
+        "website": "https://www.twinmountaincampground.com"
       }
     }
   ]
