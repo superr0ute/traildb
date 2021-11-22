@@ -763,13 +763,13 @@
       "type": "Feature",
       "properties": {
         "@poi": "mountain-pass",
-        "@distance": 39,
+        "@distance": 24.4,
         "@id": "n388405563",
-        "@changeset": 28174381,
-        "@timestamp": "2015-01-15T21:49:36Z",
-        "@version": 6,
-        "@uid": 223093,
-        "@user": "geow",
+        "@changeset": 114051027,
+        "@timestamp": "2021-11-21T09:47:48Z",
+        "@version": 7,
+        "@uid": 3215770,
+        "@user": "Andrea Del Sarto",
         "ele": 1339,
         "mountain_pass": "yes",
         "name": "Foce di Torsana",
@@ -778,8 +778,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.149876,
-          44.333
+          10.1499274,
+          44.3333908
         ]
       }
     },
@@ -18093,9 +18093,9 @@
         "@poi": "foodshop_convenience",
         "@distance": 1815.1,
         "@id": "n8916052274",
-        "@changeset": 107895852,
-        "@timestamp": "2021-07-13T09:32:17Z",
-        "@version": 1,
+        "@changeset": 114060613,
+        "@timestamp": "2021-11-21T14:45:19Z",
+        "@version": 2,
         "@uid": 7078274,
         "@user": "gabriele_sani",
         "addr:city": "Borgo San Lorenzo",
@@ -18104,7 +18104,7 @@
         "addr:street": "Via Casaglia",
         "contact:phone": "+39 055 8402810",
         "name": "Coop Consumo Casaglia",
-        "opening_hours": "We-Mo 07:30-12:00, 13:30-18:00",
+        "opening_hours": "We-Mo 07:30-12:00, 16:00-18:00",
         "shop": "convenience"
       },
       "geometry": {
@@ -19565,6 +19565,30 @@
         "coordinates": [
           11.655825,
           43.9326794
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 1838,
+        "@id": "n9272149038",
+        "@changeset": 114060613,
+        "@timestamp": "2021-11-21T14:45:19Z",
+        "@version": 1,
+        "@uid": 7078274,
+        "@user": "gabriele_sani",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5177318,
+          44.037718
         ]
       }
     },
@@ -21706,9 +21730,9 @@
         "@poi": "shelter_shelter",
         "@distance": 2737.5,
         "@id": "w713679146",
-        "@changeset": 73350486,
-        "@timestamp": "2019-08-14T13:45:21Z",
-        "@version": 1,
+        "@changeset": 114060860,
+        "@timestamp": "2021-11-21T14:51:35Z",
+        "@version": 2,
         "@uid": 7078274,
         "@user": "gabriele_sani",
         "amenity": "shelter",
@@ -21716,6 +21740,7 @@
         "bin": "no",
         "building": "yes",
         "drinking_water": "no",
+        "name": "Capanna de Nati",
         "shelter_type": "weather_shelter",
         "table": "no"
       },
@@ -26575,39 +26600,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 5.6,
-        "@id": "w969310490",
-        "@changeset": 109304165,
-        "@timestamp": "2021-08-07T10:31:05Z",
-        "@version": 17,
-        "@uid": 7575034,
-        "@user": "CarloPro",
-        "building": "yes",
-        "capacity": 6,
-        "description": "La Capanna TWIN (Trekking Walking and cycling for Inclusion) è stata realizzata dal Politecnico di Milano e dal Club Alpino Italiano, utilizzando legname di recupero della tempesta Vaia lavorato presso la casa circondariale di Monza",
-        "ele": 1036,
-        "name": "Capanna TWIN",
-        "note": "maintained by CarloPro (CAI Parma)",
-        "note:it": "manutenuto da CarloPro (CAI Parma)",
-        "operator": "Cooperativa Berceto Nova",
-        "phone": "+39 3348696728",
-        "source": "survey:cai",
-        "survey:date": "2021-07-31",
-        "tourism": "wilderness_hut",
-        "wikimedia_commons": "File:It-pr-capanna_twin_passo_cisa.jpg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.9301413,
-          44.4720887
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 1156.7,
         "@id": "w833214768",
@@ -26716,6 +26708,39 @@
         "coordinates": [
           11.5479281,
           44.1135236
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 5.6,
+        "@id": "w969310490",
+        "@changeset": 109304165,
+        "@timestamp": "2021-08-07T10:31:05Z",
+        "@version": 17,
+        "@uid": 7575034,
+        "@user": "CarloPro",
+        "building": "yes",
+        "capacity": 6,
+        "description": "La Capanna TWIN (Trekking Walking and cycling for Inclusion) è stata realizzata dal Politecnico di Milano e dal Club Alpino Italiano, utilizzando legname di recupero della tempesta Vaia lavorato presso la casa circondariale di Monza",
+        "ele": 1036,
+        "name": "Capanna TWIN",
+        "note": "maintained by CarloPro (CAI Parma)",
+        "note:it": "manutenuto da CarloPro (CAI Parma)",
+        "operator": "Cooperativa Berceto Nova",
+        "phone": "+39 3348696728",
+        "source": "survey:cai",
+        "survey:date": "2021-07-31",
+        "tourism": "wilderness_hut",
+        "wikimedia_commons": "File:It-pr-capanna_twin_passo_cisa.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9301413,
+          44.4720887
         ]
       }
     },
