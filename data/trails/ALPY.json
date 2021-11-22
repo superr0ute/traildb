@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-20T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-21T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -12335,9 +12335,9 @@
     {
       "type": "way",
       "id": 205384161,
-      "timestamp": "2021-11-20T16:46:51Z",
-      "version": 2,
-      "changeset": 114033515,
+      "timestamp": "2021-11-21T09:45:42Z",
+      "version": 4,
+      "changeset": 114050897,
       "user": "Luca Dorigo",
       "uid": 75848,
       "nodes": [273221440, 936956506],
@@ -12346,7 +12346,9 @@
         {"lat": 46.0031175, "lon": 13.4683464}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "secondary",
+        "lanes": "2",
         "maxspeed": "50",
         "ref": "SP14",
         "surface": "asphalt"
@@ -18482,9 +18484,9 @@
     {
       "type": "way",
       "id": 34496148,
-      "timestamp": "2021-11-20T16:46:40Z",
-      "version": 2,
-      "changeset": 114033515,
+      "timestamp": "2021-11-21T09:45:10Z",
+      "version": 4,
+      "changeset": 114050897,
       "user": "Luca Dorigo",
       "uid": 75848,
       "nodes": [273221440, 389943728],
@@ -18494,7 +18496,9 @@
         {"lat": 46.0034092, "lon": 13.4686472}
       ],
       "tags": {
+        "cycleway:right": "no",
         "highway": "secondary",
+        "lane_markings": "no",
         "maxspeed": "50",
         "name": "Località Sant'Elena",
         "oneway": "yes",
@@ -28300,11 +28304,11 @@
     {
       "type": "way",
       "id": 80273632,
-      "timestamp": "2013-08-03T09:11:35Z",
-      "version": 2,
-      "changeset": 17201554,
-      "user": "mcheckimport",
-      "uid": 893327,
+      "timestamp": "2021-11-21T09:45:43Z",
+      "version": 6,
+      "changeset": 114050897,
+      "user": "Luca Dorigo",
+      "uid": 75848,
       "nodes": [936956506, 936956374],
       "geometry": [
         {"lat": 46.0031175, "lon": 13.4683464},
@@ -28312,10 +28316,14 @@
       ],
       "tags": {
         "bridge": "yes",
+        "cycleway:both": "no",
         "highway": "secondary",
+        "lanes": "2",
         "layer": "1",
         "maxspeed": "50",
-        "ref": "SP14"
+        "maxweight:signed": "no",
+        "ref": "SP14",
+        "surface": "asphalt"
       }
     },
     {

@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-20T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-21T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 130310,
-      "timestamp": "2021-10-31T20:45:12Z",
-      "version": 127,
-      "changeset": 113208446,
-      "user": "Shaun das Schaf",
-      "uid": 1228402,
+      "timestamp": "2021-11-21T11:55:30Z",
+      "version": 128,
+      "changeset": 114054843,
+      "user": "kfrah",
+      "uid": 1913534,
       "members": [
         {"type": "node", "ref": 8480355403, "role": "guidepost"},
         {"type": "node", "ref": 391094668, "role": "guidepost"},
@@ -209,6 +209,7 @@
         {"type": "way", "ref": 52035850, "role": ""},
         {"type": "way", "ref": 34152125, "role": ""},
         {"type": "way", "ref": 34152123, "role": ""},
+        {"type": "way", "ref": 1004928505, "role": ""},
         {"type": "way", "ref": 34152118, "role": ""},
         {"type": "way", "ref": 34152117, "role": ""},
         {"type": "way", "ref": 34152119, "role": ""},
@@ -2822,6 +2823,29 @@
         "smoothness": "bad",
         "surface": "gravel",
         "tracktype": "grade2",
+        "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1004928505,
+      "timestamp": "2021-11-21T11:55:30Z",
+      "version": 1,
+      "changeset": 114054843,
+      "user": "kfrah",
+      "uid": 1913534,
+      "nodes": [391697399, 391697402],
+      "geometry": [
+        {"lat": 47.7901134, "lon": 8.0066104},
+        {"lat": 47.79062, "lon": 8.0060504},
+        {"lat": 47.7911127, "lon": 8.005762},
+        {"lat": 47.7914843, "lon": 8.0057663}
+      ],
+      "tags": {
+        "highway": "track",
+        "sac_scale": "mountain_hiking",
+        "source": "survey",
+        "surface": "ground",
         "width": "3"
       }
     },
@@ -24416,16 +24440,13 @@
     {
       "type": "way",
       "id": 34152118,
-      "timestamp": "2021-01-28T21:48:36Z",
-      "version": 8,
-      "changeset": 98321378,
-      "user": "Shaun das Schaf",
-      "uid": 1228402,
-      "nodes": [391697399, 391697406],
+      "timestamp": "2021-11-21T11:55:30Z",
+      "version": 9,
+      "changeset": 114054843,
+      "user": "kfrah",
+      "uid": 1913534,
+      "nodes": [391697402, 391697406],
       "geometry": [
-        {"lat": 47.7901134, "lon": 8.0066104},
-        {"lat": 47.79062, "lon": 8.0060504},
-        {"lat": 47.7911127, "lon": 8.005762},
         {"lat": 47.7914843, "lon": 8.0057663},
         {"lat": 47.7919671, "lon": 8.0058399},
         {"lat": 47.7924072, "lon": 8.0060323},
@@ -24444,11 +24465,11 @@
     {
       "type": "way",
       "id": 34152119,
-      "timestamp": "2020-12-02T06:05:00Z",
-      "version": 6,
-      "changeset": 95132053,
-      "user": "DD1GJ",
-      "uid": 39381,
+      "timestamp": "2021-11-21T11:55:30Z",
+      "version": 7,
+      "changeset": 114054843,
+      "user": "kfrah",
+      "uid": 1913534,
       "nodes": [391697191, 391697398],
       "geometry": [
         {"lat": 47.7886223, "lon": 8.0040817},
@@ -24466,6 +24487,7 @@
         {"lat": 47.7895655, "lon": 8.0070178},
         {"lat": 47.7896895, "lon": 8.0070579},
         {"lat": 47.7898293, "lon": 8.0070465},
+        {"lat": 47.7900013, "lon": 8.0069609},
         {"lat": 47.7901322, "lon": 8.0068957},
         {"lat": 47.7904129, "lon": 8.0066913}
       ],
@@ -26033,17 +26055,16 @@
     {
       "type": "way",
       "id": 36133090,
-      "timestamp": "2021-06-01T04:55:13Z",
-      "version": 6,
-      "changeset": 105653368,
-      "user": "Kappler",
-      "uid": 38695,
+      "timestamp": "2021-11-21T18:00:36Z",
+      "version": 7,
+      "changeset": 114067740,
+      "user": "Schröcker",
+      "uid": 4533268,
       "nodes": [421954371, 394733488],
       "geometry": [
         {"lat": 48.5562038, "lon": 8.2195502},
-        {"lat": 48.5563396, "lon": 8.2187938},
-        {"lat": 48.5563744, "lon": 8.2186005},
-        {"lat": 48.556436, "lon": 8.218482},
+        {"lat": 48.5563692, "lon": 8.2186442},
+        {"lat": 48.5564117, "lon": 8.2184645},
         {"lat": 48.5564503, "lon": 8.2183675}
       ],
       "tags": {"highway": "service", "surface": "asphalt"}

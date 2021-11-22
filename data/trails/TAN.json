@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-20T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-21T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1322,9 +1322,9 @@
     {
       "type": "relation",
       "id": 9579943,
-      "timestamp": "2021-07-14T07:13:03Z",
-      "version": 8,
-      "changeset": 107955459,
+      "timestamp": "2021-11-21T04:42:12Z",
+      "version": 9,
+      "changeset": 114046470,
       "user": "kylenz",
       "uid": 10140394,
       "members": [
@@ -1353,6 +1353,8 @@
         {"type": "way", "ref": 116897865, "role": ""},
         {"type": "way", "ref": 373524969, "role": ""},
         {"type": "way", "ref": 106486372, "role": ""},
+        {"type": "way", "ref": 1004827381, "role": ""},
+        {"type": "way", "ref": 1004827382, "role": ""},
         {"type": "way", "ref": 23220620, "role": ""}
       ],
       "tags": {
@@ -4438,6 +4440,44 @@
     },
     {
       "type": "way",
+      "id": 1004827381,
+      "timestamp": "2021-11-21T04:42:12Z",
+      "version": 1,
+      "changeset": 114046470,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [1517264804, 1224987326],
+      "geometry": [
+        {"lat": -35.3133248, "lon": 174.1175521},
+        {"lat": -35.3133212, "lon": 174.118036}
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Beechey Street",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1004827382,
+      "timestamp": "2021-11-21T04:42:12Z",
+      "version": 1,
+      "changeset": 114046470,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [9271034751, 251171863],
+      "geometry": [
+        {"lat": -35.3127256, "lon": 174.1203573},
+        {"lat": -35.3125998, "lon": 174.1205002}
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Beechey Street",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
       "id": 101326914,
       "timestamp": "2015-10-04T19:29:33Z",
       "version": 8,
@@ -5042,24 +5082,30 @@
     {
       "type": "way",
       "id": 106486372,
-      "timestamp": "2020-06-11T14:20:30Z",
-      "version": 5,
-      "changeset": 86522043,
-      "user": "MajaMaravic",
-      "uid": 9357577,
-      "nodes": [1517264804, 251171863],
+      "timestamp": "2021-11-21T04:42:12Z",
+      "version": 6,
+      "changeset": 114046470,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [1224987326, 9271034751],
       "geometry": [
-        {"lat": -35.3133248, "lon": 174.1175521},
-        {"lat": -35.3133283, "lon": 174.1177815},
-        {"lat": -35.3133545, "lon": 174.1185432},
-        {"lat": -35.3132889, "lon": 174.1192674},
-        {"lat": -35.3130984, "lon": 174.1198977},
-        {"lat": -35.3129299, "lon": 174.1201955},
-        {"lat": -35.3126256, "lon": 174.1204993}
+        {"lat": -35.3133212, "lon": 174.118036},
+        {"lat": -35.3133611, "lon": 174.1184819},
+        {"lat": -35.3133642, "lon": 174.1185831},
+        {"lat": -35.3133534, "lon": 174.1188845},
+        {"lat": -35.3132992, "lon": 174.1192439},
+        {"lat": -35.3132733, "lon": 174.119355},
+        {"lat": -35.3131585, "lon": 174.1197101},
+        {"lat": -35.3131061, "lon": 174.1198721},
+        {"lat": -35.313069, "lon": 174.1199627},
+        {"lat": -35.3130108, "lon": 174.1200484},
+        {"lat": -35.3129159, "lon": 174.1201738},
+        {"lat": -35.3127256, "lon": 174.1203573}
       ],
       "tags": {
         "highway": "residential",
         "name": "Beechey Street",
+        "oneway": "alternating",
         "surface": "asphalt"
       }
     },
@@ -27939,16 +27985,18 @@
     {
       "type": "way",
       "id": 23220588,
-      "timestamp": "2021-05-03T08:41:26Z",
-      "version": 7,
-      "changeset": 104039327,
+      "timestamp": "2021-11-21T04:42:12Z",
+      "version": 8,
+      "changeset": 114046470,
       "user": "kylenz",
       "uid": 10140394,
-      "nodes": [251171302, 251171860],
+      "nodes": [251171302, 251171861],
       "geometry": [
         {"lat": -35.3050044, "lon": 174.1190221},
         {"lat": -35.3051315, "lon": 174.1186108},
-        {"lat": -35.3052447, "lon": 174.1184758},
+        {"lat": -35.3051798, "lon": 174.1185242},
+        {"lat": -35.3052478, "lon": 174.1184605},
+        {"lat": -35.3053539, "lon": 174.118409},
         {"lat": -35.3054662, "lon": 174.1183882},
         {"lat": -35.3059164, "lon": 174.1183815},
         {"lat": -35.3063786, "lon": 174.1182785},
@@ -27956,10 +28004,11 @@
         {"lat": -35.3080387, "lon": 174.1184673},
         {"lat": -35.3094938, "lon": 174.1187454},
         {"lat": -35.3106489, "lon": 174.1190593},
+        {"lat": -35.3110153, "lon": 174.1191753},
         {"lat": -35.3112485, "lon": 174.1192861},
         {"lat": -35.3118305, "lon": 174.1198635},
         {"lat": -35.3121121, "lon": 174.1201517},
-        {"lat": -35.3122529, "lon": 174.1202462}
+        {"lat": -35.3124182, "lon": 174.1203321}
       ],
       "tags": {
         "foot": "yes",
@@ -27971,19 +28020,20 @@
     {
       "type": "way",
       "id": 23220620,
-      "timestamp": "2020-07-30T07:10:59Z",
-      "version": 11,
-      "changeset": 88715468,
-      "user": "aleksaJov",
-      "uid": 7436199,
-      "nodes": [251171860, 251171863],
+      "timestamp": "2021-11-21T04:42:12Z",
+      "version": 12,
+      "changeset": 114046470,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [251171861, 251171863],
       "geometry": [
-        {"lat": -35.3122529, "lon": 174.1202462},
-        {"lat": -35.3124079, "lon": 174.1203204},
-        {"lat": -35.3124827, "lon": 174.1203853},
-        {"lat": -35.3126256, "lon": 174.1204993}
+        {"lat": -35.3124182, "lon": 174.1203321},
+        {"lat": -35.3125033, "lon": 174.1203817},
+        {"lat": -35.3125711, "lon": 174.1204405},
+        {"lat": -35.3125998, "lon": 174.1205002}
       ],
       "tags": {
+        "description": "ro-ro linkspan",
         "highway": "unclassified",
         "man_made": "pier",
         "surface": "paved"
@@ -34660,11 +34710,11 @@
     {
       "type": "way",
       "id": 26746036,
-      "timestamp": "2021-09-17T05:28:03Z",
-      "version": 13,
-      "changeset": 111318681,
-      "user": "CoyKoi",
-      "uid": 3757297,
+      "timestamp": "2021-11-21T21:57:12Z",
+      "version": 14,
+      "changeset": 114074620,
+      "user": "sergio_teixeira",
+      "uid": 14423343,
       "nodes": [9099771521, 9099771521],
       "geometry": [
         {"lat": -36.8885349, "lon": 174.7760112},
@@ -34691,7 +34741,12 @@
         {"lat": -36.8885572, "lon": 174.775983},
         {"lat": -36.8885349, "lon": 174.7760112}
       ],
-      "tags": {"highway": "footway", "lit": "yes", "surface": "concrete"}
+      "tags": {
+        "bicycle": "permissive",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "concrete"
+      }
     },
     {
       "type": "way",
@@ -43381,7 +43436,7 @@
       "uid": 4994674,
       "nodes": [1856373458, 265703483],
       "geometry": [
-        {"lat": -36.6942752, "lon": 174.7434598},
+        {"lat": -36.6942896, "lon": 174.7434432},
         {"lat": -36.6943117, "lon": 174.743323},
         {"lat": -36.6943445, "lon": 174.7431411}
       ],
@@ -48140,7 +48195,7 @@
       "geometry": [
         {"lat": -36.7482701, "lon": 174.7621833},
         {"lat": -36.7486743, "lon": 174.762407},
-        {"lat": -36.7494738, "lon": 174.7628957},
+        {"lat": -36.7495063, "lon": 174.76292},
         {"lat": -36.7498598, "lon": 174.7631154},
         {"lat": -36.7500914, "lon": 174.7631782},
         {"lat": -36.75019, "lon": 174.7631831},
@@ -48351,9 +48406,9 @@
     {
       "type": "way",
       "id": 373839638,
-      "timestamp": "2020-04-23T08:11:27Z",
-      "version": 7,
-      "changeset": 83985579,
+      "timestamp": "2021-11-21T05:49:50Z",
+      "version": 8,
+      "changeset": 114047112,
       "user": "StenSoft",
       "uid": 255936,
       "nodes": [6481426678, 875577290],
@@ -48365,11 +48420,11 @@
         {"lat": -36.7379017, "lon": 174.7557246},
         {"lat": -36.7379805, "lon": 174.7557578},
         {"lat": -36.7384554, "lon": 174.7559402},
-        {"lat": -36.7385468, "lon": 174.7559688}
+        {"lat": -36.7385435, "lon": 174.7559609}
       ],
       "tags": {
         "highway": "residential",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Montrose Terrace",
         "surface": "asphalt"
       }
@@ -63069,7 +63124,7 @@
       "uid": 4994674,
       "nodes": [1856373458, 3440521462],
       "geometry": [
-        {"lat": -36.6942752, "lon": 174.7434598},
+        {"lat": -36.6942896, "lon": 174.7434432},
         {"lat": -36.6941598, "lon": 174.743614},
         {"lat": -36.6941322, "lon": 174.7436883}
       ],
@@ -79111,13 +79166,13 @@
         {"lat": -40.3976416, "lon": 175.6433571}
       ],
       "tags": {
+        "surface": "paved",
+        "oneway": "no",
         "bridge": "yes",
         "highway": "tertiary",
         "layer": "1",
         "maxspeed": "100",
-        "name": "Turitea Road",
-        "oneway": "no",
-        "surface": "paved"
+        "name": "Turitea Road"
       }
     },
     {
@@ -79174,13 +79229,13 @@
         {"lat": -40.4042942, "lon": 175.6519001}
       ],
       "tags": {
+        "surface": "paved",
         "bridge": "yes",
         "highway": "tertiary",
         "layer": "1",
         "maxspeed": "100",
         "name": "Turitea Road",
-        "oneway": "no",
-        "surface": "paved"
+        "oneway": "no"
       }
     },
     {
@@ -79197,12 +79252,12 @@
         {"lat": -40.4086079, "lon": 175.6552633}
       ],
       "tags": {
+        "surface": "paved",
         "bridge": "yes",
         "highway": "unclassified",
         "layer": "1",
         "name": "Ngahere Park Road",
-        "oneway": "no",
-        "surface": "paved"
+        "oneway": "no"
       }
     },
     {
@@ -80593,19 +80648,20 @@
     {
       "type": "way",
       "id": 690785227,
-      "timestamp": "2020-04-23T08:11:27Z",
-      "version": 3,
-      "changeset": 83985579,
+      "timestamp": "2021-11-21T05:49:50Z",
+      "version": 4,
+      "changeset": 114047112,
       "user": "StenSoft",
       "uid": 255936,
       "nodes": [875577290, 6481426680],
       "geometry": [
-        {"lat": -36.7385468, "lon": 174.7559688},
+        {"lat": -36.7385435, "lon": 174.7559609},
+        {"lat": -36.7385726, "lon": 174.7559592},
         {"lat": -36.7385998, "lon": 174.7559516}
       ],
       "tags": {
         "highway": "residential",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Montrose Terrace",
         "surface": "paving_stones"
       }
@@ -82561,11 +82617,11 @@
     {
       "type": "way",
       "id": 727370380,
-      "timestamp": "2021-01-10T09:48:57Z",
-      "version": 5,
-      "changeset": 97240395,
-      "user": "myfanwy",
-      "uid": 10829,
+      "timestamp": "2021-11-21T21:57:12Z",
+      "version": 6,
+      "changeset": 114074620,
+      "user": "sergio_teixeira",
+      "uid": 14423343,
       "nodes": [25977756, 293363075],
       "geometry": [
         {"lat": -36.8885541, "lon": 174.7766329},
@@ -82574,7 +82630,12 @@
         {"lat": -36.8884936, "lon": 174.7761705},
         {"lat": -36.8884767, "lon": 174.776041}
       ],
-      "tags": {"highway": "footway", "lit": "yes", "surface": "concrete"}
+      "tags": {
+        "bicycle": "permissive",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "concrete"
+      }
     },
     {
       "type": "way",
