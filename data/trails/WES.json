@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-22T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-23T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -3412,11 +3412,11 @@
     {
       "type": "way",
       "id": 116530629,
-      "timestamp": "2021-03-24T19:46:48Z",
-      "version": 3,
-      "changeset": 101671020,
-      "user": "tbkrtz",
-      "uid": 8453504,
+      "timestamp": "2021-11-23T10:51:15Z",
+      "version": 6,
+      "changeset": 114134029,
+      "user": "TodtmoGraph",
+      "uid": 7469297,
       "nodes": [286001781, 286001783],
       "geometry": [
         {"lat": 47.6984451, "lon": 7.8988491},
@@ -3425,7 +3425,14 @@
         {"lat": 47.6987172, "lon": 7.8993752},
         {"lat": 47.6987546, "lon": 7.899482}
       ],
-      "tags": {"highway": "tertiary", "ref": "K 6301", "surface": "asphalt"}
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed:type": "DE:rural",
+        "ref": "K 6301",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -8552,11 +8559,11 @@
     {
       "type": "way",
       "id": 161699852,
-      "timestamp": "2020-01-01T23:17:36Z",
-      "version": 9,
-      "changeset": 79093910,
-      "user": "dddos",
-      "uid": 5165698,
+      "timestamp": "2021-11-23T13:08:37Z",
+      "version": 10,
+      "changeset": 114140227,
+      "user": "NationalparkSchwarzwald",
+      "uid": 6718379,
       "nodes": [1736599363, 1736599363],
       "geometry": [
         {"lat": 48.5614766, "lon": 8.2217332},
@@ -8582,8 +8589,9 @@
         "addr:street": "Schwarzwaldhochstraße",
         "alt_name": "Naturschutzzentrum Ruhestein im Schwarzwald",
         "building": "yes",
-        "name": "Naturschutzzentrum",
-        "old_name": "Villa Klumpp",
+        "name": "Villa Klump",
+        "old_name": "Naturschutzzentrum",
+        "operator": "Nationalpark Schwarzwald",
         "short_name": "NAZ",
         "source:outline": "Maps4BW (LGL-BW, www.lgl-bw.de)",
         "toilets:wheelchair": "yes",
@@ -27678,11 +27686,11 @@
     {
       "type": "way",
       "id": 37490948,
-      "timestamp": "2020-04-27T13:53:52Z",
-      "version": 4,
-      "changeset": 84203563,
-      "user": "Shaun das Schaf",
-      "uid": 1228402,
+      "timestamp": "2021-11-23T10:27:25Z",
+      "version": 6,
+      "changeset": 114133782,
+      "user": "TodtmoGraph",
+      "uid": 7469297,
       "nodes": [438502239, 438502227],
       "geometry": [
         {"lat": 47.656616, "lon": 7.8895586},
@@ -27691,8 +27699,10 @@
         {"lat": 47.6564906, "lon": 7.8900959}
       ],
       "tags": {
+        "cycleway:both": "no",
         "hgv": "agricultural;forestry",
         "highway": "tertiary",
+        "lane_markings": "no",
         "ref": "K 6338",
         "surface": "asphalt"
       }
