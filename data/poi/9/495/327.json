@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-11-24T23:59:59Z",
-    "timestamp_osm_base": "2021-11-25T06:11:29Z",
+    "timestamp_osm_date": "2021-11-25T23:59:59Z",
+    "timestamp_osm_base": "2021-11-26T06:14:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -67,18 +67,20 @@
     {
       "type": "node",
       "id": 253789113,
-      "lat": -44.727013,
-      "lon": 168.1703305,
-      "timestamp": "2021-03-22T08:00:10Z",
-      "version": 5,
-      "changeset": 101482353,
-      "user": "petenz",
-      "uid": 38928,
+      "lat": -44.7258265,
+      "lon": 168.1726798,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 6,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
-        "fixme": "position estimated, exact elevation not known, see also http://wiki.openstreetmap.org/wiki/Tag:natural%3Dsaddle",
+        "direction": "50",
+        "ele": "1255",
         "name": "Harris Saddle",
         "name:mi": "Tarahaka-Whakatipu",
-        "natural": "saddle"
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338371"
       }
     },
     {
@@ -397,14 +399,16 @@
       "id": 1777086680,
       "lat": -44.8509235,
       "lon": 168.1539736,
-      "timestamp": "2021-03-31T02:27:44Z",
-      "version": 2,
-      "changeset": 102016128,
-      "user": "k9f100",
-      "uid": 12590888,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 3,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
+        "direction": "90",
         "name": "McKellar Saddle",
-        "natural": "saddle"
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338581"
       }
     },
     {
@@ -593,18 +597,39 @@
     },
     {
       "type": "node",
+      "id": 3222462997,
+      "lat": -44.741546,
+      "lon": 168.2024961,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 2,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "33",
+        "ele": "1607",
+        "mountain_pass": "yes",
+        "name": "Emily Pass",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338372"
+      }
+    },
+    {
+      "type": "node",
       "id": 3227565826,
       "lat": -44.8910994,
       "lon": 168.618445,
-      "timestamp": "2014-12-10T23:47:52Z",
-      "version": 2,
-      "changeset": 27388791,
-      "user": "more-ron",
-      "uid": 277782,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 3,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
+        "direction": "18",
         "ele": "897",
         "name": "Murphys Saddle",
-        "natural": "saddle"
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338355"
       }
     },
     {
@@ -612,15 +637,17 @@
       "id": 3227566738,
       "lat": -44.9131041,
       "lon": 168.6241995,
-      "timestamp": "2014-12-10T23:47:52Z",
-      "version": 2,
-      "changeset": 27388791,
-      "user": "more-ron",
-      "uid": 277782,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 3,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
+        "direction": "150",
         "ele": "711",
         "name": "Jones Saddle",
-        "natural": "saddle"
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338353"
       }
     },
     {
@@ -628,15 +655,17 @@
       "id": 3227566800,
       "lat": -44.9209751,
       "lon": 168.6395032,
-      "timestamp": "2014-12-10T23:47:52Z",
-      "version": 2,
-      "changeset": 27388791,
-      "user": "more-ron",
-      "uid": 277782,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 3,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
+        "direction": "117",
         "ele": "855",
-        "name": "Pattersons Pass",
-        "natural": "saddle"
+        "name": "Patersons Pass",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338354"
       }
     },
     {
@@ -669,6 +698,23 @@
       "uid": 716217,
       "tags": {
         "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4329209986,
+      "lat": -44.7679074,
+      "lon": 168.733938,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 2,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "4",
+        "name": "Campbells Saddle",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338421"
       }
     },
     {
@@ -1761,15 +1807,17 @@
       "id": 8131838721,
       "lat": -44.637245,
       "lon": 168.3389327,
-      "timestamp": "2020-11-17T19:30:36Z",
-      "version": 1,
-      "changeset": 94303377,
-      "user": "ShakyIsles",
-      "uid": 1968467,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 2,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
+        "direction": "16",
         "ele": "665",
         "name": "Valpys Pass",
         "natural": "saddle",
+        "ref:linz:topo50_id": "3338376",
         "wikidata": "Q49169715"
       }
     },
@@ -1778,15 +1826,17 @@
       "id": 8131838723,
       "lat": -44.6486073,
       "lon": 168.4280356,
-      "timestamp": "2020-11-17T19:30:36Z",
-      "version": 1,
-      "changeset": 94303377,
-      "user": "ShakyIsles",
-      "uid": 1968467,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 2,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
+        "direction": "33",
         "ele": "1697",
         "name": "Lennox Pass",
         "natural": "saddle",
+        "ref:linz:topo50_id": "3338377",
         "wikidata": "Q32244817"
       }
     },
@@ -1811,15 +1861,17 @@
       "id": 8483844701,
       "lat": -44.6019083,
       "lon": 168.2139902,
-      "timestamp": "2021-03-03T20:08:28Z",
-      "version": 1,
-      "changeset": 100372953,
-      "user": "techtimo",
-      "uid": 10081634,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 2,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
+        "direction": "147",
         "ele": "1176",
         "name": "Park Pass",
-        "natural": "saddle"
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338385"
       }
     },
     {
@@ -1873,15 +1925,17 @@
       "id": 8790483666,
       "lat": -44.9117686,
       "lon": 168.6878988,
-      "timestamp": "2021-07-22T06:47:44Z",
-      "version": 2,
-      "changeset": 108404165,
-      "user": "skgrange",
-      "uid": 1892481,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 3,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
+        "direction": "193",
         "ele": "761",
         "name": "Green Gate Saddle",
-        "natural": "saddle"
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338583"
       }
     },
     {
@@ -1904,15 +1958,357 @@
       "id": 8940590623,
       "lat": -44.9403803,
       "lon": 168.705618,
-      "timestamp": "2021-07-22T06:47:44Z",
-      "version": 1,
-      "changeset": 108404165,
-      "user": "skgrange",
-      "uid": 1892481,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 2,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
+        "direction": "332",
         "ele": "943",
         "name": "Skippers Saddle",
-        "natural": "saddle"
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338582"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9282489752,
+      "lat": -44.6054276,
+      "lon": 168.4088562,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 1,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "21",
+        "ele": "2075",
+        "name": "Shepherds Pass",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338392"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9282489753,
+      "lat": -44.6113506,
+      "lon": 168.4137244,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 1,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "147",
+        "ele": "2470",
+        "name": "Luncheon Col",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338391"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9282489754,
+      "lat": -44.6162029,
+      "lon": 168.4114939,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 1,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "84",
+        "ele": "2264",
+        "name": "Wright Col",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338390"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9282489755,
+      "lat": -44.6902721,
+      "lon": 168.2714177,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 1,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "347",
+        "ele": "1154",
+        "name": "Sugarloaf Pass",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338373"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9282489757,
+      "lat": -44.6514915,
+      "lon": 168.165775,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 1,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "147",
+        "ele": "1302",
+        "name": "Serpentine Saddle",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338374"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9282489758,
+      "lat": -44.6446855,
+      "lon": 168.1892146,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 1,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "147",
+        "ele": "1589",
+        "name": "North Col",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338375"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9282489763,
+      "lat": -44.5931564,
+      "lon": 168.1279819,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 1,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "27",
+        "ele": "143",
+        "name": "Little Homer Saddle",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338368"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9282489766,
+      "lat": -44.6810221,
+      "lon": 168.0573051,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 1,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "33",
+        "ele": "1953",
+        "name": "Crampon Pass",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338363"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9282489779,
+      "lat": -44.8270196,
+      "lon": 168.1374806,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 1,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "335",
+        "ele": "698",
+        "name": "Greenstone Saddle",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338370"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9282489780,
+      "lat": -44.9012708,
+      "lon": 168.4674575,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 1,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "44",
+        "ele": "1773",
+        "name": "Wire Saddle",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338351"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9282489781,
+      "lat": -44.8658485,
+      "lon": 168.5130039,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 1,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "108",
+        "ele": "1865",
+        "name": "Moonlight Saddle",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338352"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9282489782,
+      "lat": -44.8434332,
+      "lon": 168.525959,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 1,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "103",
+        "ele": "1814",
+        "name": "Monument Saddle",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338378"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9282489783,
+      "lat": -44.7904557,
+      "lon": 168.5472682,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 1,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "113",
+        "ele": "1676",
+        "name": "Dismal Saddle",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338379"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9282489784,
+      "lat": -44.7791108,
+      "lon": 168.557754,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 1,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "79",
+        "ele": "1886",
+        "name": "Stony Saddle",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338380"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9282489785,
+      "lat": -44.7704228,
+      "lon": 168.6401322,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 1,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "147",
+        "ele": "1610",
+        "name": "Dandys Saddle",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338382"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9282489786,
+      "lat": -44.8061697,
+      "lon": 168.7144831,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 1,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "79",
+        "name": "Donegal Saddle",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338381"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9282489790,
+      "lat": -44.8631136,
+      "lon": 168.6845023,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 1,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "292",
+        "name": "Māori Point Saddle",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338584"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9282489791,
+      "lat": -44.6870911,
+      "lon": 168.5647871,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 1,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "56",
+        "ele": "2060",
+        "name": "Reef Saddle",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338383"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9282489792,
+      "lat": -44.6728393,
+      "lon": 168.5460381,
+      "timestamp": "2021-11-25T08:38:22Z",
+      "version": 1,
+      "changeset": 114211159,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "direction": "44",
+        "ele": "2110",
+        "name": "Bridges Saddle",
+        "natural": "saddle",
+        "ref:linz:topo50_id": "3338384"
       }
     },
     {
