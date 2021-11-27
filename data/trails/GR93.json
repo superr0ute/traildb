@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-24T02:32:06Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-27T02:33:21Z"},
   "elements": [
     {
       "type": "relation",
       "id": 2785107,
-      "timestamp": "2021-11-23T12:20:06Z",
-      "version": 60,
-      "changeset": 114138467,
-      "user": "BTH",
-      "uid": 481447,
+      "timestamp": "2021-11-26T21:51:08Z",
+      "version": 62,
+      "changeset": 114279279,
+      "user": "Patchi",
+      "uid": 591881,
       "members": [
         {"type": "way", "ref": 383847406, "role": ""},
         {"type": "way", "ref": 598602987, "role": ""},
@@ -240,15 +240,16 @@
         {"type": "way", "ref": 444618008, "role": ""},
         {"type": "way", "ref": 444612737, "role": ""},
         {"type": "way", "ref": 839958268, "role": ""},
-        {"type": "way", "ref": 444609292, "role": ""},
-        {"type": "way", "ref": 200960065, "role": ""},
+        {"type": "way", "ref": 444612738, "role": ""},
+        {"type": "way", "ref": 1006405753, "role": ""},
         {"type": "way", "ref": 444608842, "role": ""},
         {"type": "way", "ref": 1003187222, "role": ""},
-        {"type": "way", "ref": 444612738, "role": ""},
+        {"type": "way", "ref": 444609292, "role": ""},
         {"type": "way", "ref": 505319679, "role": ""},
         {"type": "way", "ref": 200960062, "role": ""},
         {"type": "way", "ref": 200960078, "role": ""},
         {"type": "way", "ref": 200960070, "role": ""},
+        {"type": "way", "ref": 200960065, "role": ""},
         {"type": "way", "ref": 200215525, "role": ""},
         {"type": "way", "ref": 200215511, "role": ""},
         {"type": "way", "ref": 718794089, "role": ""},
@@ -324,7 +325,6 @@
         {"type": "way", "ref": 388842773, "role": ""},
         {"type": "way", "ref": 307418472, "role": ""},
         {"type": "way", "ref": 839961234, "role": ""},
-        {"type": "way", "ref": 496845149, "role": ""},
         {"type": "way", "ref": 839961233, "role": ""},
         {"type": "way", "ref": 127736648, "role": ""},
         {"type": "way", "ref": 127736642, "role": ""},
@@ -625,6 +625,23 @@
         "ref": "GR 93",
         "surface": "unpaved"
       }
+    },
+    {
+      "type": "way",
+      "id": 1006405753,
+      "timestamp": "2021-11-26T09:34:24Z",
+      "version": 1,
+      "changeset": 114255003,
+      "user": "danielmont",
+      "uid": 6257980,
+      "nodes": [9285397430, 2109150082],
+      "geometry": [
+        {"lat": 44.7386295, "lon": 5.9086173, "z": 1335.7},
+        {"lat": 44.7386736, "lon": 5.9085894, "z": 1335.4},
+        {"lat": 44.738994, "lon": 5.9084839, "z": 1335.7},
+        {"lat": 44.7392038, "lon": 5.9084239, "z": 1336.2}
+      ],
+      "tags": {"highway": "tertiary", "ref": "D 520"}
     },
     {
       "type": "way",
@@ -1382,14 +1399,15 @@
     {
       "type": "way",
       "id": 127736648,
-      "timestamp": "2021-04-25T21:17:38Z",
-      "version": 4,
-      "changeset": 103592517,
-      "user": "sergio7826",
-      "uid": 411998,
+      "timestamp": "2021-11-26T21:51:07Z",
+      "version": 5,
+      "changeset": 114279279,
+      "user": "Patchi",
+      "uid": 591881,
       "nodes": [1413180026, 1413181303],
       "geometry": [
-        {"lat": 44.5409699, "lon": 6.0127912, "z": 967.4},
+        {"lat": 44.5409531, "lon": 6.0127906, "z": 967.3},
+        {"lat": 44.5409528, "lon": 6.0127449, "z": 967.3},
         {"lat": 44.5409399, "lon": 6.0126705, "z": 967.2},
         {"lat": 44.5408891, "lon": 6.0125782, "z": 966.8},
         {"lat": 44.5408366, "lon": 6.0125472, "z": 966.4},
@@ -3607,11 +3625,11 @@
     {
       "type": "way",
       "id": 216983744,
-      "timestamp": "2013-04-11T17:59:35Z",
-      "version": 1,
-      "changeset": 15692741,
-      "user": "Eric S",
-      "uid": 45284,
+      "timestamp": "2021-11-26T09:41:48Z",
+      "version": 2,
+      "changeset": 114255320,
+      "user": "danielmont",
+      "uid": 6257980,
       "nodes": [2263032488, 2263032483],
       "geometry": [
         {"lat": 44.7351806, "lon": 5.8953159, "z": 1034.4},
@@ -3619,8 +3637,9 @@
       ],
       "tags": {
         "bridge": "yes",
-        "highway": "residential",
+        "highway": "tertiary",
         "layer": "1",
+        "name": "Pont de Ribière",
         "ref": "D 117A"
       }
     },
@@ -8722,12 +8741,12 @@
     {
       "type": "way",
       "id": 444608842,
-      "timestamp": "2016-09-27T17:16:55Z",
-      "version": 1,
-      "changeset": 42475404,
-      "user": "aleene",
-      "uid": 574055,
-      "nodes": [2109149880, 2109150082],
+      "timestamp": "2021-11-26T09:34:24Z",
+      "version": 2,
+      "changeset": 114255003,
+      "user": "danielmont",
+      "uid": 6257980,
+      "nodes": [2109149880, 9285397430],
       "geometry": [
         {"lat": 44.7361714, "lon": 5.9090989, "z": 1346.9},
         {"lat": 44.7362601, "lon": 5.9090972, "z": 1346.8},
@@ -8741,9 +8760,7 @@
         {"lat": 44.7382253, "lon": 5.9089366, "z": 1340.7},
         {"lat": 44.7383613, "lon": 5.9088393, "z": 1339.1},
         {"lat": 44.7385146, "lon": 5.90869, "z": 1336.7},
-        {"lat": 44.7386736, "lon": 5.9085894, "z": 1335.4},
-        {"lat": 44.738994, "lon": 5.9084839, "z": 1335.7},
-        {"lat": 44.7392038, "lon": 5.9084239, "z": 1336.2}
+        {"lat": 44.7386295, "lon": 5.9086173, "z": 1335.7}
       ],
       "tags": {"highway": "unclassified"}
     },
@@ -9149,28 +9166,6 @@
         "maxspeed": "30",
         "name": "Rue de Moissonnière",
         "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
-      "id": 496845149,
-      "timestamp": "2020-10-14T14:33:43Z",
-      "version": 2,
-      "changeset": 92479123,
-      "user": "ARTAUD C",
-      "uid": 11987243,
-      "nodes": [4885078120, 1918065266],
-      "geometry": [
-        {"lat": 44.5416468, "lon": 6.0131016, "z": 975.1},
-        {"lat": 44.5415096, "lon": 6.0130124, "z": 973.2},
-        {"lat": 44.5414631, "lon": 6.0130054, "z": 972.6}
-      ],
-      "tags": {
-        "cycleway": "no",
-        "highway": "tertiary",
-        "maxspeed": "50",
-        "oneway": "yes",
-        "ref": "D 47"
       }
     },
     {
@@ -13377,17 +13372,17 @@
     {
       "type": "way",
       "id": 839957434,
-      "timestamp": "2020-08-23T21:17:38Z",
-      "version": 1,
-      "changeset": 89822141,
-      "user": "fmorel",
-      "uid": 331938,
+      "timestamp": "2021-11-26T09:41:48Z",
+      "version": 2,
+      "changeset": 114255320,
+      "user": "danielmont",
+      "uid": 6257980,
       "nodes": [2263032483, 2263032481],
       "geometry": [
         {"lat": 44.7350672, "lon": 5.8951882, "z": 1035.1},
         {"lat": 44.7350493, "lon": 5.8951176, "z": 1035.9}
       ],
-      "tags": {"highway": "residential", "ref": "D 117A"}
+      "tags": {"highway": "tertiary", "ref": "D 117A"}
     },
     {
       "type": "way",
@@ -14049,18 +14044,22 @@
     {
       "type": "way",
       "id": 839961233,
-      "timestamp": "2020-10-14T14:33:43Z",
-      "version": 2,
-      "changeset": 92479123,
-      "user": "ARTAUD C",
-      "uid": 11987243,
-      "nodes": [1413180026, 1918065266],
+      "timestamp": "2021-11-26T21:51:07Z",
+      "version": 3,
+      "changeset": 114279279,
+      "user": "Patchi",
+      "uid": 591881,
+      "nodes": [1413180026, 310948924],
       "geometry": [
-        {"lat": 44.5409699, "lon": 6.0127912, "z": 967.4},
+        {"lat": 44.5409531, "lon": 6.0127906, "z": 967.3},
+        {"lat": 44.541001, "lon": 6.0128033, "z": 967.7},
         {"lat": 44.5410585, "lon": 6.0128234, "z": 968.2},
         {"lat": 44.5412404, "lon": 6.0128979, "z": 969.9},
-        {"lat": 44.5413608, "lon": 6.0129446, "z": 971.3},
-        {"lat": 44.5414631, "lon": 6.0130054, "z": 972.6}
+        {"lat": 44.5413237, "lon": 6.0129348, "z": 970.8},
+        {"lat": 44.5414227, "lon": 6.0129893, "z": 972.1},
+        {"lat": 44.5415209, "lon": 6.0130582, "z": 973.4},
+        {"lat": 44.5415962, "lon": 6.0131189, "z": 974.5},
+        {"lat": 44.5416296, "lon": 6.0131419, "z": 974.9}
       ],
       "tags": {
         "cycleway": "no",
@@ -14072,16 +14071,16 @@
     {
       "type": "way",
       "id": 839961234,
-      "timestamp": "2020-08-23T21:47:04Z",
-      "version": 1,
-      "changeset": 89822697,
-      "user": "fmorel",
-      "uid": 331938,
-      "nodes": [3125598272, 4885078120],
+      "timestamp": "2021-11-26T21:51:07Z",
+      "version": 2,
+      "changeset": 114279279,
+      "user": "Patchi",
+      "uid": 591881,
+      "nodes": [3125598272, 310948924],
       "geometry": [
         {"lat": 44.5417563, "lon": 6.0128292, "z": 976.2},
         {"lat": 44.5417333, "lon": 6.0128871, "z": 976},
-        {"lat": 44.5416468, "lon": 6.0131016, "z": 975.1}
+        {"lat": 44.5416296, "lon": 6.0131419, "z": 974.9}
       ],
       "tags": {
         "access": "yes",
