@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-23T02:26:39Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-28T02:27:22Z"},
   "elements": [
     {
       "type": "relation",
@@ -113,9 +113,9 @@
     {
       "type": "relation",
       "id": 3176522,
-      "timestamp": "2021-11-03T19:13:16Z",
-      "version": 674,
-      "changeset": 113345949,
+      "timestamp": "2021-11-27T22:50:49Z",
+      "version": 675,
+      "changeset": 114309156,
       "user": "alessandrocarmeli",
       "uid": 12294600,
       "members": [
@@ -2233,8 +2233,8 @@
         {"type": "way", "ref": 199973890, "role": ""},
         {"type": "way", "ref": 200187245, "role": ""},
         {"type": "way", "ref": 961717635, "role": ""},
-        {"type": "way", "ref": 802504575, "role": ""},
         {"type": "way", "ref": 59455052, "role": ""},
+        {"type": "way", "ref": 1006848477, "role": ""},
         {"type": "way", "ref": 59455054, "role": ""},
         {"type": "way", "ref": 50643277, "role": ""},
         {"type": "way", "ref": 497711782, "role": ""},
@@ -2462,6 +2462,21 @@
         "type": "route",
         "website": "https://alpe-adria-trail.com/"
       }
+    },
+    {
+      "type": "way",
+      "id": 1006848477,
+      "timestamp": "2021-11-27T22:50:49Z",
+      "version": 1,
+      "changeset": 114309156,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
+      "nodes": [737227719, 9289011582],
+      "geometry": [
+        {"lat": 45.6715763, "lon": 13.820857, "z": 340.6},
+        {"lat": 45.671665, "lon": 13.8209177, "z": 340.2}
+      ],
+      "tags": {"highway": "unclassified"}
     },
     {
       "type": "way",
@@ -62490,14 +62505,14 @@
     {
       "type": "way",
       "id": 59455052,
-      "timestamp": "2010-05-17T09:46:10Z",
-      "version": 1,
-      "changeset": 4727163,
-      "user": "Davide Prade",
-      "uid": 12377,
-      "nodes": [644860498, 644860500],
+      "timestamp": "2021-11-27T22:50:49Z",
+      "version": 2,
+      "changeset": 114309156,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
+      "nodes": [9289011582, 644860500],
       "geometry": [
-        {"lat": 45.6716138, "lon": 13.8208797, "z": 340.4},
+        {"lat": 45.671665, "lon": 13.8209177, "z": 340.2},
         {"lat": 45.6718167, "lon": 13.8210305, "z": 339.7},
         {"lat": 45.6721881, "lon": 13.8213046, "z": 338.6}
       ],
@@ -69932,26 +69947,6 @@
     },
     {
       "type": "way",
-      "id": 802504575,
-      "timestamp": "2021-07-05T21:14:59Z",
-      "version": 2,
-      "changeset": 107460532,
-      "user": "alessandrocarmeli",
-      "uid": 12294600,
-      "nodes": [737227719, 644860498],
-      "geometry": [
-        {"lat": 45.6715387, "lon": 13.8208342, "z": 340.8},
-        {"lat": 45.6716138, "lon": 13.8208797, "z": 340.4}
-      ],
-      "tags": {
-        "highway": "unclassified",
-        "mtb:scale": "0",
-        "name": "Sentiero delle Lattaie",
-        "tracktype": "grade2"
-      }
-    },
-    {
-      "type": "way",
       "id": 8032442,
       "timestamp": "2016-02-23T22:51:47Z",
       "version": 12,
@@ -76419,7 +76414,7 @@
         {"lat": 45.6712783, "lon": 13.8206715, "z": 342.4},
         {"lat": 45.6713572, "lon": 13.8207217, "z": 341.8},
         {"lat": 45.6714604, "lon": 13.8207864, "z": 341.1},
-        {"lat": 45.6715387, "lon": 13.8208342, "z": 340.8}
+        {"lat": 45.6715763, "lon": 13.820857, "z": 340.6}
       ],
       "tags": {
         "highway": "unclassified",
