@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-27T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-28T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -579,11 +579,11 @@
     {
       "type": "relation",
       "id": 9448532,
-      "timestamp": "2021-10-30T04:13:24Z",
-      "version": 20,
-      "changeset": 113147361,
-      "user": "michael60634",
-      "uid": 10036384,
+      "timestamp": "2021-11-28T15:16:12Z",
+      "version": 22,
+      "changeset": 114328006,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "members": [
         {"type": "way", "ref": 362515215, "role": ""},
         {"type": "way", "ref": 640846056, "role": ""},
@@ -611,8 +611,8 @@
         {"type": "way", "ref": 886889774, "role": ""},
         {"type": "way", "ref": 676142212, "role": ""},
         {"type": "way", "ref": 676142213, "role": ""},
-        {"type": "way", "ref": 997618122, "role": ""},
         {"type": "way", "ref": 88273576, "role": ""},
+        {"type": "way", "ref": 997618122, "role": ""},
         {"type": "way", "ref": 680246483, "role": ""},
         {"type": "way", "ref": 85454488, "role": ""},
         {"type": "way", "ref": 24802726, "role": ""},
@@ -659,6 +659,7 @@
         {"type": "way", "ref": 680847347, "role": ""},
         {"type": "way", "ref": 26639952, "role": ""},
         {"type": "way", "ref": 337113212, "role": ""},
+        {"type": "way", "ref": 750607754, "role": ""},
         {"type": "way", "ref": 412605737, "role": ""},
         {"type": "way", "ref": 462224954, "role": ""},
         {"type": "way", "ref": 441542280, "role": ""}
@@ -2103,9 +2104,9 @@
     {
       "type": "relation",
       "id": 9599093,
-      "timestamp": "2021-09-05T11:04:19Z",
-      "version": 18,
-      "changeset": 110744659,
+      "timestamp": "2021-11-28T00:27:56Z",
+      "version": 19,
+      "changeset": 114310463,
       "user": "kylenz",
       "uid": 10140394,
       "members": [
@@ -2187,14 +2188,16 @@
         {"type": "way", "ref": 193179803, "role": ""},
         {"type": "way", "ref": 103763098, "role": ""},
         {"type": "way", "ref": 103763096, "role": ""},
-        {"type": "way", "ref": 690810251, "role": ""},
-        {"type": "way", "ref": 115084405, "role": ""},
-        {"type": "way", "ref": 246588881, "role": ""},
-        {"type": "way", "ref": 25518417, "role": ""},
-        {"type": "way", "ref": 690810256, "role": ""},
+        {"type": "way", "ref": 373839654, "role": ""},
         {"type": "way", "ref": 876054112, "role": ""},
         {"type": "way", "ref": 690810255, "role": ""},
-        {"type": "way", "ref": 373839654, "role": ""},
+        {"type": "way", "ref": 690810256, "role": ""},
+        {"type": "way", "ref": 25518417, "role": ""},
+        {"type": "way", "ref": 246588881, "role": ""},
+        {"type": "way", "ref": 115084405, "role": ""},
+        {"type": "way", "ref": 1006859999, "role": ""},
+        {"type": "way", "ref": 690810251, "role": ""},
+        {"type": "way", "ref": 1006860000, "role": ""},
         {"type": "way", "ref": 324503087, "role": ""},
         {"type": "way", "ref": 29853837, "role": ""},
         {"type": "way", "ref": 7633799, "role": ""},
@@ -4862,6 +4865,61 @@
         "footway": "sidewalk",
         "highway": "footway",
         "name": "Te Moana Road"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1006859999,
+      "timestamp": "2021-11-28T00:27:56Z",
+      "version": 1,
+      "changeset": 114310463,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [1129170339, 7057959791],
+      "geometry": [
+        {"lat": -36.7830884, "lon": 174.776843},
+        {"lat": -36.7830386, "lon": 174.7768765},
+        {"lat": -36.7829652, "lon": 174.7769487},
+        {"lat": -36.7829284, "lon": 174.7769547},
+        {"lat": -36.7829245, "lon": 174.777006},
+        {"lat": -36.7828044, "lon": 174.7770917},
+        {"lat": -36.7826627, "lon": 174.7771212},
+        {"lat": -36.7820109, "lon": 174.7769535},
+        {"lat": -36.781971, "lon": 174.7769216}
+      ],
+      "tags": {
+        "access": "yes",
+        "bicycle": "dismount",
+        "foot": "yes",
+        "highway": "footway",
+        "is_in": "Thorne Bay",
+        "motor_vehicle": "no",
+        "surface": "rocky"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1006860000,
+      "timestamp": "2021-11-28T00:27:56Z",
+      "version": 1,
+      "changeset": 114310463,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [7057959791, 1129170356],
+      "geometry": [
+        {"lat": -36.781971, "lon": 174.7769216},
+        {"lat": -36.7819465, "lon": 174.7769214},
+        {"lat": -36.7819459, "lon": 174.776888},
+        {"lat": -36.7818947, "lon": 174.7768682}
+      ],
+      "tags": {
+        "access": "yes",
+        "bicycle": "dismount",
+        "foot": "yes",
+        "highway": "steps",
+        "is_in": "Thorne Bay",
+        "motor_vehicle": "no",
+        "surface": "rocky"
       }
     },
     {
@@ -81051,24 +81109,13 @@
     {
       "type": "way",
       "id": 690810251,
-      "timestamp": "2021-08-22T11:01:53Z",
-      "version": 6,
-      "changeset": 110056285,
+      "timestamp": "2021-11-28T00:27:56Z",
+      "version": 7,
+      "changeset": 114310463,
       "user": "kylenz",
       "uid": 10140394,
-      "nodes": [1129170339, 1129170449],
+      "nodes": [1129170356, 1129170449],
       "geometry": [
-        {"lat": -36.7830884, "lon": 174.776843},
-        {"lat": -36.7830386, "lon": 174.7768765},
-        {"lat": -36.7829652, "lon": 174.7769487},
-        {"lat": -36.7829284, "lon": 174.7769547},
-        {"lat": -36.7829245, "lon": 174.777006},
-        {"lat": -36.7828044, "lon": 174.7770917},
-        {"lat": -36.7826627, "lon": 174.7771212},
-        {"lat": -36.7820109, "lon": 174.7769535},
-        {"lat": -36.781971, "lon": 174.7769216},
-        {"lat": -36.7819465, "lon": 174.7769214},
-        {"lat": -36.7819459, "lon": 174.776888},
         {"lat": -36.7818947, "lon": 174.7768682},
         {"lat": -36.7818348, "lon": 174.7768885},
         {"lat": -36.7817891, "lon": 174.7769116},
@@ -85619,6 +85666,39 @@
         "highway": "footway",
         "name": "Southern Walkway",
         "sac_scale": "hiking"
+      }
+    },
+    {
+      "type": "way",
+      "id": 750607754,
+      "timestamp": "2020-07-31T10:15:40Z",
+      "version": 2,
+      "changeset": 88775921,
+      "user": "Aleksandar Matejevic",
+      "uid": 8724788,
+      "nodes": [7018237754, 7018237754],
+      "geometry": [
+        {"lat": -41.3434792, "lon": 174.7723438},
+        {"lat": -41.3434856, "lon": 174.7723232},
+        {"lat": -41.3434846, "lon": 174.7723009},
+        {"lat": -41.3434765, "lon": 174.7722815},
+        {"lat": -41.3434628, "lon": 174.7722687},
+        {"lat": -41.3434463, "lon": 174.772265},
+        {"lat": -41.3434302, "lon": 174.7722712},
+        {"lat": -41.3434178, "lon": 174.7722861},
+        {"lat": -41.3434115, "lon": 174.7723067},
+        {"lat": -41.3434125, "lon": 174.772329},
+        {"lat": -41.3434206, "lon": 174.7723484},
+        {"lat": -41.3434343, "lon": 174.7723612},
+        {"lat": -41.3434507, "lon": 174.7723649},
+        {"lat": -41.3434668, "lon": 174.7723587},
+        {"lat": -41.3434792, "lon": 174.7723438}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "maxspeed": "50",
+        "surface": "paved"
       }
     },
     {

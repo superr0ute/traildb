@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-25T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-11-28T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1782,11 +1782,11 @@
     {
       "type": "relation",
       "id": 7700146,
-      "timestamp": "2020-08-06T14:14:51Z",
-      "version": 16,
-      "changeset": 89044385,
-      "user": "Marco Barbieri70",
-      "uid": 271894,
+      "timestamp": "2021-11-28T15:56:15Z",
+      "version": 17,
+      "changeset": 114329252,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
       "members": [
         {"type": "way", "ref": 28029367, "role": ""},
         {"type": "way", "ref": 375809065, "role": ""},
@@ -1802,6 +1802,7 @@
         {"type": "way", "ref": 280534426, "role": ""},
         {"type": "way", "ref": 834691131, "role": ""},
         {"type": "way", "ref": 116396373, "role": ""},
+        {"type": "way", "ref": 1007077322, "role": ""},
         {"type": "way", "ref": 280534466, "role": ""},
         {"type": "way", "ref": 280656382, "role": ""},
         {"type": "way", "ref": 280656390, "role": ""},
@@ -1812,8 +1813,11 @@
         {"type": "way", "ref": 280656340, "role": ""},
         {"type": "way", "ref": 237394854, "role": ""},
         {"type": "way", "ref": 280656396, "role": ""},
+        {"type": "way", "ref": 1007077320, "role": ""},
+        {"type": "way", "ref": 1007077319, "role": ""},
         {"type": "way", "ref": 281221454, "role": ""},
         {"type": "way", "ref": 281221448, "role": ""},
+        {"type": "way", "ref": 1007077318, "role": ""},
         {"type": "way", "ref": 33383892, "role": ""},
         {"type": "way", "ref": 281221458, "role": ""},
         {"type": "way", "ref": 281221462, "role": ""},
@@ -4509,6 +4513,103 @@
         "name": "Via Montefiori",
         "oneway": "yes",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1007077318,
+      "timestamp": "2021-11-28T15:56:15Z",
+      "version": 1,
+      "changeset": 114329252,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
+      "nodes": [2851986475, 1253891424],
+      "geometry": [
+        {"lat": 46.0431434, "lon": 9.2186886},
+        {"lat": 46.0431157, "lon": 9.2187454}
+      ],
+      "tags": {
+        "highway": "track",
+        "smoothness": "bad",
+        "tracktype": "grade3",
+        "trailblazed": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1007077319,
+      "timestamp": "2021-11-28T15:56:15Z",
+      "version": 1,
+      "changeset": 114329252,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
+      "nodes": [2847303704, 7463939404],
+      "geometry": [
+        {"lat": 46.0392285, "lon": 9.215674},
+        {"lat": 46.0394138, "lon": 9.2156951},
+        {"lat": 46.0395913, "lon": 9.2157154},
+        {"lat": 46.0396546, "lon": 9.2156614}
+      ],
+      "tags": {
+        "highway": "path",
+        "historic": "mule_path",
+        "sac_scale": "mountain_hiking",
+        "surface": "cobblestone",
+        "trail_visibility": "good",
+        "trailblazed": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1007077320,
+      "timestamp": "2021-11-28T15:56:15Z",
+      "version": 1,
+      "changeset": 114329252,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
+      "nodes": [2453022374, 2847303704],
+      "geometry": [
+        {"lat": 46.0380615, "lon": 9.2166295},
+        {"lat": 46.0380965, "lon": 9.2165819},
+        {"lat": 46.0380912, "lon": 9.2165119},
+        {"lat": 46.0381087, "lon": 9.216464},
+        {"lat": 46.0383349, "lon": 9.216475},
+        {"lat": 46.0385777, "lon": 9.2162119},
+        {"lat": 46.0388308, "lon": 9.2160654},
+        {"lat": 46.0389256, "lon": 9.2159621},
+        {"lat": 46.0390609, "lon": 9.2157656},
+        {"lat": 46.0392285, "lon": 9.215674}
+      ],
+      "tags": {
+        "highway": "path",
+        "historic": "mule_path",
+        "sac_scale": "mountain_hiking",
+        "surface": "cobblestone",
+        "trail_visibility": "good",
+        "trailblazed": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1007077322,
+      "timestamp": "2021-11-28T15:56:15Z",
+      "version": 1,
+      "changeset": 114329252,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
+      "nodes": [1312213408, 2846362535],
+      "geometry": [
+        {"lat": 46.0341288, "lon": 9.2092151},
+        {"lat": 46.0341471, "lon": 9.2092323},
+        {"lat": 46.034239, "lon": 9.2092497}
+      ],
+      "tags": {
+        "description": "sentiero acciottolato e gradinato",
+        "highway": "path",
+        "historic": "mule_path",
+        "sac_scale": "hiking",
+        "surface": "cobblestone",
+        "trail_visibility": "excellent"
       }
     },
     {
@@ -35542,15 +35643,13 @@
     {
       "type": "way",
       "id": 280534466,
-      "timestamp": "2014-05-09T23:25:51Z",
-      "version": 2,
-      "changeset": 22241917,
-      "user": "kaitu",
-      "uid": 69717,
-      "nodes": [1312213408, 2846362595],
+      "timestamp": "2021-11-28T15:56:15Z",
+      "version": 3,
+      "changeset": 114329252,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
+      "nodes": [2846362535, 2846362595],
       "geometry": [
-        {"lat": 46.0341288, "lon": 9.2092151},
-        {"lat": 46.0341471, "lon": 9.2092323},
         {"lat": 46.034239, "lon": 9.2092497},
         {"lat": 46.0342315, "lon": 9.209272},
         {"lat": 46.0341799, "lon": 9.2093035},
@@ -35963,12 +36062,12 @@
     {
       "type": "way",
       "id": 281221448,
-      "timestamp": "2014-05-11T23:00:07Z",
-      "version": 1,
-      "changeset": 22281304,
-      "user": "kaitu",
-      "uid": 69717,
-      "nodes": [2453022383, 1253891424],
+      "timestamp": "2021-11-28T15:56:15Z",
+      "version": 2,
+      "changeset": 114329252,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
+      "nodes": [2453022383, 2851986475],
       "geometry": [
         {"lat": 46.0430259, "lon": 9.2138812},
         {"lat": 46.0430969, "lon": 9.2139046},
@@ -35984,8 +36083,7 @@
         {"lat": 46.0433366, "lon": 9.2177061},
         {"lat": 46.043302, "lon": 9.2182681},
         {"lat": 46.0431857, "lon": 9.2186019},
-        {"lat": 46.0431434, "lon": 9.2186886},
-        {"lat": 46.0431157, "lon": 9.2187454}
+        {"lat": 46.0431434, "lon": 9.2186886}
       ],
       "tags": {
         "highway": "track",
@@ -35997,25 +36095,13 @@
     {
       "type": "way",
       "id": 281221454,
-      "timestamp": "2020-04-29T15:38:41Z",
-      "version": 2,
-      "changeset": 84349325,
-      "user": "kaitu",
-      "uid": 69717,
-      "nodes": [2453022374, 2453022383],
+      "timestamp": "2021-11-28T15:56:15Z",
+      "version": 3,
+      "changeset": 114329252,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
+      "nodes": [7463939404, 2453022383],
       "geometry": [
-        {"lat": 46.0380615, "lon": 9.2166295},
-        {"lat": 46.0380965, "lon": 9.2165819},
-        {"lat": 46.0380912, "lon": 9.2165119},
-        {"lat": 46.0381087, "lon": 9.216464},
-        {"lat": 46.0383349, "lon": 9.216475},
-        {"lat": 46.0385777, "lon": 9.2162119},
-        {"lat": 46.0388308, "lon": 9.2160654},
-        {"lat": 46.0389256, "lon": 9.2159621},
-        {"lat": 46.0390609, "lon": 9.2157656},
-        {"lat": 46.0392285, "lon": 9.215674},
-        {"lat": 46.0394138, "lon": 9.2156951},
-        {"lat": 46.0395913, "lon": 9.2157154},
         {"lat": 46.0396546, "lon": 9.2156614},
         {"lat": 46.0401898, "lon": 9.2152046},
         {"lat": 46.0402399, "lon": 9.2152412},
