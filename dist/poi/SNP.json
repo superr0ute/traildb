@@ -5102,15 +5102,16 @@
         "@poi": "foodshop_supermarket",
         "@distance": 226.1,
         "@id": "n331311920",
-        "@changeset": 81678538,
-        "@timestamp": "2020-03-02T11:30:35Z",
-        "@version": 9,
-        "@uid": 10818733,
-        "@user": "RomanDug",
-        "name": "Terno",
+        "@changeset": 114331669,
+        "@timestamp": "2021-11-28T17:17:30Z",
+        "@version": 10,
+        "@uid": 11900055,
+        "@user": "ViktorisKingoris",
+        "name": "Kraj",
         "opening_hours": "Mo-Fr 06:30-21:00; Sa 07:00-17:00; Su 07:00-17:00",
         "operator": "Terno",
         "shop": "supermarket",
+        "website": "https://www.krajpotravin.sk",
         "wheelchair": "limited"
       },
       "geometry": {
@@ -16679,24 +16680,29 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_cave",
-        "@distance": 643.1,
+        "@distance": 651.4,
         "@id": "n540984997",
-        "@changeset": 82104343,
-        "@timestamp": "2020-03-12T09:32:41Z",
-        "@version": 3,
-        "@uid": 6125147,
-        "@user": "Kookykooky",
-        "wikipedia": "sk:Jaskyňa pod Jeleňom",
-        "wikidata": "Q12767914",
-        "natural": "cave_entrance",
+        "@changeset": 114311286,
+        "@timestamp": "2021-11-28T01:54:57Z",
+        "@version": 4,
+        "@uid": 1617449,
+        "@user": "aceman444",
+        "access": "yes",
+        "cave:length": "27",
+        "ele": 426,
+        "fee": "no",
         "name": "Jaskyňa pod Jeleňom",
-        "access": "yes"
+        "natural": "cave_entrance",
+        "opening_hours": "24/7",
+        "operator": "SSJ",
+        "wikidata": "Q12767914",
+        "wikipedia": "sk:Jaskyňa pod Jeleňom"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.1763479,
-          48.9127724
+          18.1763734,
+          48.9128447
         ]
       }
     },
@@ -35454,29 +35460,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_convenience",
-        "@distance": 3893.9,
-        "@id": "n1417146535",
-        "@changeset": 9157955,
-        "@timestamp": "2011-08-29T14:12:16Z",
-        "@version": 1,
-        "@uid": 29762,
-        "@user": "Jose Riha",
-        "name": "Potraviny Mana",
-        "opening_hours": "Mo-Sa 6:00-21:00; Su 07:00-21:00",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.2137344,
-          48.7094064
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
         "@distance": 2284.5,
         "@id": "n7006699280",
         "@changeset": 77491785,
@@ -45725,6 +45708,29 @@
         "coordinates": [
           21.2269431,
           48.9559681
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 3893.9,
+        "@id": "n1417146535",
+        "@changeset": 9157955,
+        "@timestamp": "2011-08-29T14:12:16Z",
+        "@version": 1,
+        "@uid": 29762,
+        "@user": "Jose Riha",
+        "name": "Potraviny Mana",
+        "opening_hours": "Mo-Sa 6:00-21:00; Su 07:00-21:00",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2137344,
+          48.7094064
         ]
       }
     },
@@ -70387,36 +70393,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "peak_peak",
-        "@distance": 28.5,
-        "@id": "n8357625695",
-        "@changeset": 112188367,
-        "@timestamp": "2021-10-06T21:43:07Z",
-        "@version": 3,
-        "@uid": 4997045,
-        "@user": "Tomas Jancovic",
-        "ele": 970,
-        "ele:bpv": "970.14",
-        "name": "Veľká Javorina",
-        "name:cs": "Velká Javořina",
-        "natural": "peak",
-        "prominence": "580",
-        "source:ele:bpv": "ÚGKK SR DMR5.0",
-        "source:position": "ÚGKK SR DMR5.0",
-        "tourism": "viewpoint",
-        "wikidata": "Q1787773"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.6757018,
-          48.8577328
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 961.9,
         "@id": "n5793971456",
@@ -79030,6 +79006,36 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "peak_peak",
+        "@distance": 28.5,
+        "@id": "n8357625695",
+        "@changeset": 112188367,
+        "@timestamp": "2021-10-06T21:43:07Z",
+        "@version": 3,
+        "@uid": 4997045,
+        "@user": "Tomas Jancovic",
+        "ele": 970,
+        "ele:bpv": "970.14",
+        "name": "Veľká Javorina",
+        "name:cs": "Velká Javořina",
+        "natural": "peak",
+        "prominence": "580",
+        "source:ele:bpv": "ÚGKK SR DMR5.0",
+        "source:position": "ÚGKK SR DMR5.0",
+        "tourism": "viewpoint",
+        "wikidata": "Q1787773"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6757018,
+          48.8577328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_spring",
         "@distance": 1078,
         "@id": "n8372342572",
@@ -79318,27 +79324,6 @@
         "coordinates": [
           18.1699548,
           48.9092856
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 690.5,
-        "@id": "n9240917486",
-        "@changeset": 113613399,
-        "@timestamp": "2021-11-10T15:23:52Z",
-        "@version": 1,
-        "@uid": 7169223,
-        "@user": "Klerik7",
-        "amenity": "shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.1745866,
-          48.9135048
         ]
       }
     },
@@ -84872,29 +84857,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
-        "@distance": 2338.8,
-        "@id": "w802247179",
-        "@changeset": 84982757,
-        "@timestamp": "2020-05-10T18:41:45Z",
-        "@version": 1,
-        "@uid": 1617449,
-        "@user": "aceman444",
-        "amenity": "shelter",
-        "shelter_type": "public_transport",
-        "source": "Mapillary"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.0173929,
-          48.7431255
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
         "@distance": 399.3,
         "@id": "n5834657866",
         "@changeset": 61690162,
@@ -89238,6 +89200,29 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
+        "@distance": 2338.8,
+        "@id": "w802247179",
+        "@changeset": 84982757,
+        "@timestamp": "2020-05-10T18:41:45Z",
+        "@version": 1,
+        "@uid": 1617449,
+        "@user": "aceman444",
+        "amenity": "shelter",
+        "shelter_type": "public_transport",
+        "source": "Mapillary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0173929,
+          48.7431255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
         "@distance": 141.6,
         "@id": "w829781977",
         "@changeset": 88469488,
@@ -90816,59 +90801,6 @@
         "coordinates": [
           21.2364258,
           48.6998743
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 3764,
-        "@id": "w27946546",
-        "@changeset": 102286081,
-        "@timestamp": "2021-04-04T19:57:06Z",
-        "@version": 16,
-        "@uid": 2048097,
-        "@user": "FishDoctor",
-        "addr:city": "Košice",
-        "addr:conscriptionnumber": "2283",
-        "addr:country": "SK",
-        "addr:housenumber": "13",
-        "addr:postcode": "04011",
-        "addr:street": "Popradská",
-        "addr:streetnumber": "13",
-        "air_conditioning": "yes",
-        "brand": "Lidl",
-        "brand:wikidata": "Q151954",
-        "brand:wikipedia": "en:Lidl",
-        "building": "yes",
-        "building:levels": "1",
-        "building:use": "retail",
-        "contact:website": "https://www.lidl.sk/",
-        "currency:EUR": "yes",
-        "name": "Lidl",
-        "opening_hours": "Mo-Sa 07:00-21:00; Su 08:00-21:00",
-        "operator": "Lidl Slovenská republika v.o.s.",
-        "payment:apple_pay": "yes",
-        "payment:cash": "yes",
-        "payment:coins": "yes",
-        "payment:credit_cards": "yes",
-        "payment:debit_cards": "yes",
-        "payment:google_pay": "yes",
-        "payment:mastercard": "yes",
-        "payment:ticket_restaurant": "yes",
-        "payment:visa": "yes",
-        "payment:visa_electron": "yes",
-        "phone": "+421 800 005 095",
-        "shop": "supermarket",
-        "website": "https://www.lidl.sk/",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.2278648,
-          48.7128121
         ]
       }
     },
@@ -92574,6 +92506,59 @@
         "coordinates": [
           19.6906346,
           48.9264171
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 3764,
+        "@id": "w27946546",
+        "@changeset": 102286081,
+        "@timestamp": "2021-04-04T19:57:06Z",
+        "@version": 16,
+        "@uid": 2048097,
+        "@user": "FishDoctor",
+        "addr:city": "Košice",
+        "addr:conscriptionnumber": "2283",
+        "addr:country": "SK",
+        "addr:housenumber": "13",
+        "addr:postcode": "04011",
+        "addr:street": "Popradská",
+        "addr:streetnumber": "13",
+        "air_conditioning": "yes",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "building:levels": "1",
+        "building:use": "retail",
+        "contact:website": "https://www.lidl.sk/",
+        "currency:EUR": "yes",
+        "name": "Lidl",
+        "opening_hours": "Mo-Sa 07:00-21:00; Su 08:00-21:00",
+        "operator": "Lidl Slovenská republika v.o.s.",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "payment:mastercard": "yes",
+        "payment:ticket_restaurant": "yes",
+        "payment:visa": "yes",
+        "payment:visa_electron": "yes",
+        "phone": "+421 800 005 095",
+        "shop": "supermarket",
+        "website": "https://www.lidl.sk/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2278648,
+          48.7128121
         ]
       }
     },
