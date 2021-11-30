@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-11-28T23:59:59Z",
-    "timestamp_osm_base": "2021-11-29T03:46:23Z",
+    "timestamp_osm_date": "2021-11-29T23:59:59Z",
+    "timestamp_osm_base": "2021-11-30T03:43:23Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4777,13 +4777,13 @@
     {
       "type": "node",
       "id": 356554919,
-      "lat": 42.9220233,
-      "lon": -73.1437173,
-      "timestamp": "2017-09-25T14:24:37Z",
-      "version": 2,
-      "changeset": 52357410,
-      "user": "Edward",
-      "uid": 364,
+      "lat": 42.9220547,
+      "lon": -73.1439211,
+      "timestamp": "2021-11-29T23:44:31Z",
+      "version": 3,
+      "changeset": 114381149,
+      "user": "hughkelley",
+      "uid": 10055841,
       "tags": {
         "ele": "868",
         "gnis:county_id": "003",
@@ -7797,6 +7797,28 @@
     },
     {
       "type": "node",
+      "id": 8399554243,
+      "lat": 42.7721765,
+      "lon": -73.7122774,
+      "timestamp": "2021-11-29T00:28:59Z",
+      "version": 2,
+      "changeset": 114340913,
+      "user": "Kowalo",
+      "uid": 14536979,
+      "tags": {
+        "addr:city": "Cohoes",
+        "addr:housenumber": "199",
+        "addr:postcode": "12047",
+        "addr:state": "NY",
+        "addr:street": "Columbia Street",
+        "addr:unit": "1",
+        "name": "Sirajco Food Mart",
+        "nysgissam:nysaddresspointid": "ALBA045919;ALBA120201",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
       "id": 8551847663,
       "lat": 42.7895478,
       "lon": -73.6754241,
@@ -9714,8 +9736,8 @@
       "user": "nysgissam_dead10ck",
       "uid": 12470629,
       "center": {
-        "lat": 42.7745299,
-        "lon": -73.6981655
+        "lat": 42.774559,
+        "lon": -73.698207
       },
       "nodes": [],
       "tags": {
@@ -9969,14 +9991,14 @@
     {
       "type": "way",
       "id": 111833401,
-      "timestamp": "2021-02-06T14:08:06Z",
-      "version": 2,
-      "changeset": 98814859,
-      "user": "nysgissam_dead10ck",
-      "uid": 12470629,
+      "timestamp": "2021-11-29T04:19:06Z",
+      "version": 3,
+      "changeset": 114343691,
+      "user": "Kowalo",
+      "uid": 14536979,
       "center": {
-        "lat": 42.7716322,
-        "lon": -73.7279441
+        "lat": 42.7717318,
+        "lon": -73.7275805
       },
       "nodes": [],
       "tags": {
@@ -9985,8 +10007,11 @@
         "addr:postcode": "12047",
         "addr:state": "NY",
         "addr:street": "Columbia Street",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "brand:wikipedia": "en:Stewart's Shops",
         "building": "yes",
-        "name": "Stewart's",
+        "name": "Stewart's Shops",
         "nysgissam:nysaddresspointid": "ALBA047116",
         "shop": "convenience",
         "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=60"
@@ -10515,11 +10540,11 @@
     {
       "type": "way",
       "id": 143906307,
-      "timestamp": "2021-02-06T14:08:06Z",
-      "version": 2,
-      "changeset": 98814859,
-      "user": "nysgissam_dead10ck",
-      "uid": 12470629,
+      "timestamp": "2021-11-29T04:19:06Z",
+      "version": 3,
+      "changeset": 114343691,
+      "user": "Kowalo",
+      "uid": 14536979,
       "center": {
         "lat": 42.7740344,
         "lon": -73.701869
@@ -12792,6 +12817,73 @@
         "building:levels": "3",
         "name": "Willy's Variety",
         "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1007158224,
+      "timestamp": "2021-11-29T00:28:59Z",
+      "version": 1,
+      "changeset": 114340913,
+      "user": "Kowalo",
+      "uid": 14536979,
+      "center": {
+        "lat": 42.7777256,
+        "lon": -73.7161057
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Cohoes",
+        "addr:housenumber": "196",
+        "addr:postcode": "12047",
+        "addr:state": "NY",
+        "addr:street": "Vliet Boulevard",
+        "building": "yes",
+        "name": "Vliet Mart",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1007187724,
+      "timestamp": "2021-11-29T04:19:06Z",
+      "version": 1,
+      "changeset": 114343691,
+      "user": "Kowalo",
+      "uid": 14536979,
+      "center": {
+        "lat": 42.7714698,
+        "lon": -73.700503
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Cohoes",
+        "addr:housenumber": "200",
+        "addr:postcode": "12047",
+        "addr:state": "NY",
+        "addr:street": "Remsen Street",
+        "building": "yes",
+        "name": "Remsen Street Mini Market",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1007435008,
+      "timestamp": "2021-11-29T18:30:34Z",
+      "version": 1,
+      "changeset": 114372358,
+      "user": "chrysrobyn",
+      "uid": 4395701,
+      "center": {
+        "lat": 42.9714566,
+        "lon": -73.7934629
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "gazebo"
       }
     }
   ]
