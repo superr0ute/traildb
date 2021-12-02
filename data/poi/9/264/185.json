@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-11-30T23:59:59Z",
-    "timestamp_osm_base": "2021-12-01T04:29:06Z",
+    "timestamp_osm_date": "2021-12-01T23:59:59Z",
+    "timestamp_osm_base": "2021-12-02T04:27:09Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -10,26 +10,26 @@
       "id": 25212784,
       "lat": 44.1335305,
       "lon": 5.9775624,
-      "timestamp": "2020-04-03T01:04:51Z",
-      "version": 15,
-      "changeset": 83003809,
-      "user": "Olyon",
-      "uid": 1443767,
+      "timestamp": "2021-12-01T09:35:26Z",
+      "version": 16,
+      "changeset": 114435894,
+      "user": "Rommar",
+      "uid": 369869,
       "tags": {
         "addr:postcode": "04200",
         "address": "A 51 - Direction Gap/Aix-en-Prov, Aire D'Aubignosc Ouest",
         "amenity": "fuel",
         "brand": "Avia",
         "brand:wikidata": "Q300147",
-        "brand:wikipedia": "fr:Avia International",
+        "brand:wikipedia": "de:Avia International",
         "compressed_air": "yes",
         "fuel:diesel": "yes",
         "fuel:e10": "yes",
         "fuel:lpg": "yes",
         "fuel:octane_98": "yes",
-        "name": "Station Avia",
+        "name": "Avia",
         "opening_hours": "24/7",
-        "ref:FR:prix-carburants": "4200006",
+        "ref:FR:prix-carburants": "4200009",
         "shop": "convenience",
         "source": "stations.gpl.online.fr",
         "toilets": "yes",
@@ -783,6 +783,35 @@
         "toilets": "yes",
         "vending": "fuel",
         "vending_machine": "fuel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 295923284,
+      "lat": 44.3114184,
+      "lon": 5.8297425,
+      "timestamp": "2021-12-01T09:45:16Z",
+      "version": 11,
+      "changeset": 114436248,
+      "user": "Rommar",
+      "uid": 369869,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Total",
+        "brand:wikidata": "Q154037",
+        "brand:wikipedia": "fr:TotalEnergies",
+        "compressed_air": "yes",
+        "fuel:diesel": "yes",
+        "fuel:e10": "yes",
+        "fuel:octane_98": "yes",
+        "hgv:lanes": "yes",
+        "name": "Total Contact",
+        "opening_hours": "24/7",
+        "operator": "Total",
+        "ref:FR:prix-carburants": "5300001",
+        "shop": "convenience",
+        "source": "Ministère de l'Economie, de l'Industrie et du Numérique - 08/04/2018",
+        "toilets": "yes"
       }
     },
     {
@@ -6257,28 +6286,6 @@
         "mountain_pass": "yes",
         "name": "Col de Sarraut",
         "natural": "saddle"
-      }
-    },
-    {
-      "type": "node",
-      "id": 1806046319,
-      "lat": 44.4272336,
-      "lon": 5.7165583,
-      "timestamp": "2019-08-31T15:20:35Z",
-      "version": 10,
-      "changeset": 73951844,
-      "user": "wrtlprnft",
-      "uid": 46226,
-      "tags": {
-        "brand": "U Express",
-        "brand:wikidata": "Q2529029",
-        "brand:wikipedia": "fr:Système U",
-        "name": "U Express",
-        "opening_hours": "Mo-Sa 09:00-12:45, 14:30-19:15; Su 09:00-12:30",
-        "operator": "Système U",
-        "shop": "supermarket",
-        "source": "Bing",
-        "website": "https://www.magasins-u.com/uexpress-serres"
       }
     },
     {
@@ -14107,40 +14114,6 @@
     },
     {
       "type": "node",
-      "id": 4434113320,
-      "lat": 44.5614955,
-      "lon": 6.081853,
-      "timestamp": "2020-04-15T06:39:35Z",
-      "version": 2,
-      "changeset": 83569284,
-      "user": "Pa413",
-      "uid": 688484,
-      "tags": {
-        "amenity": "shelter",
-        "bench": "yes",
-        "name": "Faure du Serre",
-        "shelter_type": "public_transport"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4434113322,
-      "lat": 44.5610086,
-      "lon": 6.0818399,
-      "timestamp": "2020-04-15T06:39:35Z",
-      "version": 2,
-      "changeset": 83569284,
-      "user": "Pa413",
-      "uid": 688484,
-      "tags": {
-        "amenity": "shelter",
-        "bench": "yes",
-        "name": "Ladoucette",
-        "shelter_type": "public_transport"
-      }
-    },
-    {
-      "type": "node",
       "id": 4435011036,
       "lat": 44.5671524,
       "lon": 6.0966215,
@@ -19097,6 +19070,31 @@
     },
     {
       "type": "way",
+      "id": 112913773,
+      "timestamp": "2021-12-01T09:52:42Z",
+      "version": 5,
+      "changeset": 114436514,
+      "user": "Rommar",
+      "uid": 369869,
+      "center": {
+        "lat": 44.4272773,
+        "lon": 5.7165878
+      },
+      "nodes": [],
+      "tags": {
+        "brand": "U Express",
+        "brand:wikidata": "Q2529029",
+        "brand:wikipedia": "en:Système U",
+        "building": "yes",
+        "name": "U Express",
+        "opening_hours": "Mo-Sa 09:00-12:45, 14:30-19:15; Su 09:00-12:30",
+        "operator": "Système U",
+        "shop": "supermarket",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2020"
+      }
+    },
+    {
+      "type": "way",
       "id": 112916848,
       "timestamp": "2021-03-24T20:33:30Z",
       "version": 2,
@@ -22694,6 +22692,240 @@
       "center": {
         "lat": 44.4913,
         "lon": 6.126642
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1008222893,
+      "timestamp": "2021-12-01T22:30:07Z",
+      "version": 1,
+      "changeset": 114460712,
+      "user": "Patchi",
+      "uid": 591881,
+      "center": {
+        "lat": 44.5524002,
+        "lon": 6.0717279
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1008222894,
+      "timestamp": "2021-12-01T22:30:07Z",
+      "version": 1,
+      "changeset": 114460712,
+      "user": "Patchi",
+      "uid": 591881,
+      "center": {
+        "lat": 44.5523999,
+        "lon": 6.0715408
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1008222895,
+      "timestamp": "2021-12-01T22:30:07Z",
+      "version": 1,
+      "changeset": 114460712,
+      "user": "Patchi",
+      "uid": 591881,
+      "center": {
+        "lat": 44.5540434,
+        "lon": 6.0735577
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1008222896,
+      "timestamp": "2021-12-01T22:30:07Z",
+      "version": 1,
+      "changeset": 114460712,
+      "user": "Patchi",
+      "uid": 591881,
+      "center": {
+        "lat": 44.5561857,
+        "lon": 6.0761411
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1008222897,
+      "timestamp": "2021-12-01T22:30:07Z",
+      "version": 1,
+      "changeset": 114460712,
+      "user": "Patchi",
+      "uid": 591881,
+      "center": {
+        "lat": 44.5572655,
+        "lon": 6.0748988
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1008222898,
+      "timestamp": "2021-12-01T22:30:07Z",
+      "version": 1,
+      "changeset": 114460712,
+      "user": "Patchi",
+      "uid": 591881,
+      "center": {
+        "lat": 44.5613373,
+        "lon": 6.0810777
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1008222900,
+      "timestamp": "2021-12-01T22:30:07Z",
+      "version": 1,
+      "changeset": 114460712,
+      "user": "Patchi",
+      "uid": 591881,
+      "center": {
+        "lat": 44.5610268,
+        "lon": 6.0818401
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1008222901,
+      "timestamp": "2021-12-01T22:30:07Z",
+      "version": 1,
+      "changeset": 114460712,
+      "user": "Patchi",
+      "uid": 591881,
+      "center": {
+        "lat": 44.5614793,
+        "lon": 6.0818469
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1008222904,
+      "timestamp": "2021-12-01T22:30:07Z",
+      "version": 1,
+      "changeset": 114460712,
+      "user": "Patchi",
+      "uid": 591881,
+      "center": {
+        "lat": 44.569012,
+        "lon": 6.0831791
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1008222905,
+      "timestamp": "2021-12-01T22:30:07Z",
+      "version": 1,
+      "changeset": 114460712,
+      "user": "Patchi",
+      "uid": 591881,
+      "center": {
+        "lat": 44.5713609,
+        "lon": 6.085109
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1008222906,
+      "timestamp": "2021-12-01T22:30:07Z",
+      "version": 1,
+      "changeset": 114460712,
+      "user": "Patchi",
+      "uid": 591881,
+      "center": {
+        "lat": 44.5695021,
+        "lon": 6.0868987
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1008224997,
+      "timestamp": "2021-12-01T22:43:59Z",
+      "version": 1,
+      "changeset": 114461100,
+      "user": "Patchi",
+      "uid": 591881,
+      "center": {
+        "lat": 44.5547213,
+        "lon": 6.0700852
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1008225002,
+      "timestamp": "2021-12-01T22:43:59Z",
+      "version": 1,
+      "changeset": 114461100,
+      "user": "Patchi",
+      "uid": 591881,
+      "center": {
+        "lat": 44.5556358,
+        "lon": 6.0723099
       },
       "nodes": [],
       "tags": {
