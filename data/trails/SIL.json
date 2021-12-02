@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-30T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-01T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1662,11 +1662,11 @@
     {
       "type": "relation",
       "id": 7690606,
-      "timestamp": "2021-10-24T16:14:49Z",
-      "version": 25,
-      "changeset": 112912593,
-      "user": "gabry_whites",
-      "uid": 14179840,
+      "timestamp": "2021-12-01T08:27:03Z",
+      "version": 26,
+      "changeset": 114433422,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
       "members": [
         {"type": "way", "ref": 377642063, "role": ""},
         {"type": "way", "ref": 215476376, "role": ""},
@@ -1755,6 +1755,7 @@
         {"type": "way", "ref": 194517577, "role": ""},
         {"type": "way", "ref": 193402486, "role": ""},
         {"type": "way", "ref": 193402481, "role": ""},
+        {"type": "way", "ref": 1008028557, "role": ""},
         {"type": "way", "ref": 193402493, "role": ""},
         {"type": "way", "ref": 537323084, "role": ""},
         {"type": "way", "ref": 194383273, "role": ""},
@@ -3313,11 +3314,11 @@
     {
       "type": "relation",
       "id": 7705278,
-      "timestamp": "2021-09-16T16:13:06Z",
-      "version": 28,
-      "changeset": 111299464,
-      "user": "kaitu",
-      "uid": 69717,
+      "timestamp": "2021-12-01T11:13:22Z",
+      "version": 29,
+      "changeset": 114439489,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
       "members": [
         {"type": "way", "ref": 159429835, "role": ""},
         {"type": "way", "ref": 537945183, "role": ""},
@@ -3414,6 +3415,7 @@
         {"type": "way", "ref": 255619620, "role": ""},
         {"type": "way", "ref": 255619619, "role": ""},
         {"type": "way", "ref": 222820539, "role": ""},
+        {"type": "way", "ref": 1008061283, "role": ""},
         {"type": "way", "ref": 255619618, "role": ""},
         {"type": "way", "ref": 293879919, "role": ""},
         {"type": "way", "ref": 293879923, "role": ""},
@@ -4656,6 +4658,52 @@
         {"lat": 46.0280444, "lon": 10.2551681}
       ],
       "tags": {"highway": "track"}
+    },
+    {
+      "type": "way",
+      "id": 1008028557,
+      "timestamp": "2021-12-01T08:27:03Z",
+      "version": 1,
+      "changeset": 114433422,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
+      "nodes": [2039087158, 2050174090],
+      "geometry": [
+        {"lat": 45.9070055, "lon": 9.0983203},
+        {"lat": 45.9070349, "lon": 9.0983549},
+        {"lat": 45.9070562, "lon": 9.0984424}
+      ],
+      "tags": {
+        "highway": "path",
+        "sac_scale": "hiking",
+        "source": "gps track, survey",
+        "surface": "grass",
+        "trail_visibility": "intermediate"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1008061283,
+      "timestamp": "2021-12-01T11:13:22Z",
+      "version": 1,
+      "changeset": 114439489,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
+      "nodes": [9088914318, 1625110507],
+      "geometry": [
+        {"lat": 45.8570297, "lon": 9.1981632},
+        {"lat": 45.8570874, "lon": 9.1982874}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "motor_vehicle": "private",
+        "ref": "1",
+        "smoothness": "horrible",
+        "surface": "ground",
+        "tracktype": "grade3"
+      }
     },
     {
       "type": "way",
@@ -21682,15 +21730,13 @@
     {
       "type": "way",
       "id": 193402481,
-      "timestamp": "2017-11-01T05:11:49Z",
-      "version": 3,
-      "changeset": 53414020,
-      "user": "Gianfranco2014",
-      "uid": 1928626,
-      "nodes": [2039087158, 2039087175],
+      "timestamp": "2021-12-01T08:27:03Z",
+      "version": 4,
+      "changeset": 114433422,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
+      "nodes": [2050174090, 2039087175],
       "geometry": [
-        {"lat": 45.9070055, "lon": 9.0983203},
-        {"lat": 45.9070349, "lon": 9.0983549},
         {"lat": 45.9070562, "lon": 9.0984424},
         {"lat": 45.9070569, "lon": 9.0985708},
         {"lat": 45.907055, "lon": 9.0989509},
@@ -24870,19 +24916,18 @@
     {
       "type": "way",
       "id": 222820539,
-      "timestamp": "2021-09-13T18:18:24Z",
-      "version": 7,
-      "changeset": 111159481,
-      "user": "kaitu",
-      "uid": 69717,
-      "nodes": [420807365, 1625110507],
+      "timestamp": "2021-12-01T11:13:22Z",
+      "version": 8,
+      "changeset": 114439489,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
+      "nodes": [420807365, 9088914318],
       "geometry": [
         {"lat": 45.8567243, "lon": 9.1975004},
         {"lat": 45.856793, "lon": 9.197671},
         {"lat": 45.856873, "lon": 9.19781},
         {"lat": 45.856928, "lon": 9.1979085},
-        {"lat": 45.8570297, "lon": 9.1981632},
-        {"lat": 45.8570874, "lon": 9.1982874}
+        {"lat": 45.8570297, "lon": 9.1981632}
       ],
       "tags": {
         "bicycle": "yes",
