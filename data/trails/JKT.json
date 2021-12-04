@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-01T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-03T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10909145,
-      "timestamp": "2021-12-01T15:45:25Z",
-      "version": 1479,
-      "changeset": 114448723,
+      "timestamp": "2021-12-03T15:53:13Z",
+      "version": 1480,
+      "changeset": 114528131,
       "user": "Wulz",
       "uid": 10773975,
       "members": [
@@ -878,6 +878,7 @@
         {"type": "way", "ref": 1008132948, "role": ""},
         {"type": "way", "ref": 128877287, "role": ""},
         {"type": "way", "ref": 788579729, "role": ""},
+        {"type": "way", "ref": 1008897173, "role": ""},
         {"type": "way", "ref": 39363480, "role": ""},
         {"type": "way", "ref": 718769139, "role": ""},
         {"type": "way", "ref": 830726125, "role": ""},
@@ -2028,6 +2029,33 @@
         "surface": "gravel",
         "trailblazed": "yes",
         "width": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1008897173,
+      "timestamp": "2021-12-03T15:53:13Z",
+      "version": 1,
+      "changeset": 114528131,
+      "user": "Wulz",
+      "uid": 10773975,
+      "nodes": [206176893, 4438844750],
+      "geometry": [
+        {"lat": 46.2881164, "lon": 13.7642387},
+        {"lat": 46.2881449, "lon": 13.7641646},
+        {"lat": 46.288162, "lon": 13.7640436}
+      ],
+      "tags": {
+        "highway": "path",
+        "incline": "0%",
+        "motor_vehicle": "yes",
+        "name": "Dom na Komni - Bogatinsko sedlo",
+        "note": "Beim „Julius Kugy Alpine Trail“ trifft man auf\n + iwn: \n + nrw: Slovenska planinska pot\n + rwn: Slovenska geološka pot\n + lwn: Julius-Kugy-Dreiländerweg v 30 dneh - povezava prek E 12b, Dom na Komni - Bogatinsko sedlo",
+        "sac_scale": "hiking",
+        "surface": "unpaved",
+        "trail_visibility": "excellent",
+        "trailblazed": "yes",
+        "width": "2"
       }
     },
     {
@@ -6755,11 +6783,11 @@
     {
       "type": "way",
       "id": 128877287,
-      "timestamp": "2021-09-11T12:46:41Z",
-      "version": 7,
-      "changeset": 111060705,
-      "user": "Jaka Kranjc",
-      "uid": 2442070,
+      "timestamp": "2021-12-03T15:59:26Z",
+      "version": 8,
+      "changeset": 114528310,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [361162285, 206176893],
       "geometry": [
         {"lat": 46.2943996, "lon": 13.7679674},
@@ -6881,6 +6909,7 @@
       "tags": {
         "highway": "path",
         "incline": "15%",
+        "note": "Beim „Julius Kugy Alpine Trail“ trifft man auf\n + iwn: \n + nrw: \n + rwn: Slovenska geološka pot\n + lwn: Julius-Kugy-Dreiländerweg v 30 dneh - povezava prek E 12b",
         "sac_scale": "hiking",
         "surface": "gravel",
         "trail_visibility": "excellent",
@@ -28778,9 +28807,9 @@
     {
       "type": "way",
       "id": 292468657,
-      "timestamp": "2021-12-01T15:45:25Z",
-      "version": 11,
-      "changeset": 114448723,
+      "timestamp": "2021-12-03T15:59:26Z",
+      "version": 12,
+      "changeset": 114528310,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [361162074, 471613506],
@@ -28893,6 +28922,7 @@
       "tags": {
         "highway": "path",
         "incline": "10%",
+        "note": "Beim „Julius Kugy Alpine Trail“ trifft man auf\n + iwn: Via Alpina R11\n + nrw: Slovenska planinska pot\n + rwn: Slovenska geološka pot\n + lwn: Julius-Kugy-Dreiländerweg v 30 dneh - povezava prek E 12b, Dom na Komni - Bogatinsko sedlo",
         "ref": "1",
         "sac_scale": "hiking",
         "source": "survey",
@@ -40637,11 +40667,11 @@
     {
       "type": "way",
       "id": 39363473,
-      "timestamp": "2021-11-10T11:26:05Z",
-      "version": 13,
-      "changeset": 113604071,
-      "user": "goljevscekluka",
-      "uid": 4842078,
+      "timestamp": "2021-12-03T15:59:26Z",
+      "version": 14,
+      "changeset": 114528310,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [471613506, 361162285],
       "geometry": [
         {"lat": 46.3157692, "lon": 13.767133},
@@ -40769,6 +40799,7 @@
       "tags": {
         "highway": "path",
         "incline": "15%",
+        "note": "Beim „Julius Kugy Alpine Trail“ trifft man auf\n + iwn: Via Alpina R11\n + nrw: Slovenska planinska pot\n + rwn: Slovenska geološka pot\n + lwn: Julius-Kugy-Dreiländerweg v 30 dneh - povezava prek E 12b, Dom na Komni - Bogatinsko sedlo",
         "ref": "1",
         "sac_scale": "hiking",
         "source": "survey",
@@ -64976,15 +65007,13 @@
     {
       "type": "way",
       "id": 788579729,
-      "timestamp": "2021-09-11T12:46:41Z",
-      "version": 5,
-      "changeset": 111060705,
-      "user": "Jaka Kranjc",
-      "uid": 2442070,
-      "nodes": [206176893, 206176891],
+      "timestamp": "2021-12-03T15:53:13Z",
+      "version": 6,
+      "changeset": 114528131,
+      "user": "Wulz",
+      "uid": 10773975,
+      "nodes": [4438844750, 206176891],
       "geometry": [
-        {"lat": 46.2881164, "lon": 13.7642387},
-        {"lat": 46.2881449, "lon": 13.7641646},
         {"lat": 46.288162, "lon": 13.7640436},
         {"lat": 46.2881753, "lon": 13.7639348},
         {"lat": 46.2881691, "lon": 13.7638514},

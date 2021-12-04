@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-02T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-03T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -738,11 +738,11 @@
     {
       "type": "relation",
       "id": 6946454,
-      "timestamp": "2021-11-05T13:11:34Z",
-      "version": 33,
-      "changeset": 113408842,
-      "user": "Andrea Del Sarto",
-      "uid": 3215770,
+      "timestamp": "2021-12-03T08:05:15Z",
+      "version": 34,
+      "changeset": 114511997,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
       "members": [
         {"type": "way", "ref": 621289275, "role": ""},
         {"type": "way", "ref": 472038092, "role": ""},
@@ -750,6 +750,7 @@
         {"type": "way", "ref": 159283528, "role": ""},
         {"type": "way", "ref": 68828215, "role": ""},
         {"type": "way", "ref": 993301382, "role": ""},
+        {"type": "way", "ref": 1008810941, "role": ""},
         {"type": "way", "ref": 993301383, "role": ""},
         {"type": "way", "ref": 993301384, "role": ""},
         {"type": "way", "ref": 993301385, "role": ""},
@@ -4939,6 +4940,38 @@
         "motor_vehicle": "yes",
         "name": "Via Agueglio",
         "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1008810941,
+      "timestamp": "2021-12-03T08:05:15Z",
+      "version": 1,
+      "changeset": 114511997,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
+      "nodes": [5841776860, 9176749621],
+      "geometry": [
+        {"lat": 46.0241477, "lon": 9.6019457},
+        {"lat": 46.0240955, "lon": 9.6018903},
+        {"lat": 46.0240216, "lon": 9.6018481},
+        {"lat": 46.0239444, "lon": 9.6017815},
+        {"lat": 46.0239321, "lon": 9.6017609},
+        {"lat": 46.0239124, "lon": 9.6017117},
+        {"lat": 46.0238851, "lon": 9.6016546},
+        {"lat": 46.0238102, "lon": 9.6015128}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "incline": "up",
+        "mtb:scale": "2",
+        "sac_scale": "demanding_mountain_hiking",
+        "source:geometry": "dualband GPS with 1m accuracy",
+        "surface": "ground",
+        "symbol": "red-white bars",
+        "trail_visibility": "good"
       }
     },
     {
@@ -102170,12 +102203,12 @@
     {
       "type": "way",
       "id": 993301383,
-      "timestamp": "2021-10-16T17:06:06Z",
-      "version": 1,
-      "changeset": 112587084,
-      "user": "amadvance",
-      "uid": 6408564,
-      "nodes": [9176749692, 9176749621],
+      "timestamp": "2021-12-03T08:05:15Z",
+      "version": 2,
+      "changeset": 114511997,
+      "user": "LorenzoBassi_SICAI_Team",
+      "uid": 3286661,
+      "nodes": [9176749692, 5841776860],
       "geometry": [
         {"lat": 46.0305228, "lon": 9.6102194},
         {"lat": 46.0304545, "lon": 9.6101334},
@@ -102296,14 +102329,7 @@
         {"lat": 46.0243262, "lon": 9.602176},
         {"lat": 46.0243023, "lon": 9.6021411},
         {"lat": 46.0242228, "lon": 9.6020318},
-        {"lat": 46.0241477, "lon": 9.6019457},
-        {"lat": 46.0240955, "lon": 9.6018903},
-        {"lat": 46.0240216, "lon": 9.6018481},
-        {"lat": 46.0239444, "lon": 9.6017815},
-        {"lat": 46.0239321, "lon": 9.6017609},
-        {"lat": 46.0239124, "lon": 9.6017117},
-        {"lat": 46.0238851, "lon": 9.6016546},
-        {"lat": 46.0238102, "lon": 9.6015128}
+        {"lat": 46.0241477, "lon": 9.6019457}
       ],
       "tags": {
         "bicycle": "yes",
