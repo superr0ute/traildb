@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-02T02:37:26Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-05T02:37:30Z"},
   "elements": [
     {
       "type": "relation",
@@ -27451,11 +27451,11 @@
     {
       "type": "way",
       "id": 399528094,
-      "timestamp": "2020-05-18T13:19:04Z",
-      "version": 5,
-      "changeset": 85386514,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2021-12-04T12:14:10Z",
+      "version": 6,
+      "changeset": 114552742,
+      "user": "Adi Ron",
+      "uid": 14568113,
       "nodes": [763073404, 650110115],
       "geometry": [
         {"lat": 32.0626073, "lon": 34.9339392, "z": 47.8},
@@ -27466,7 +27466,7 @@
         {"lat": 32.0585256, "lon": 34.93614, "z": 52.7},
         {"lat": 32.0585235, "lon": 34.9362707, "z": 52.6}
       ],
-      "tags": {"highway": "track"}
+      "tags": {"highway": "track", "surface": "dirt", "tracktype": "grade3"}
     },
     {
       "type": "way",
@@ -47657,11 +47657,11 @@
     {
       "type": "way",
       "id": 561596869,
-      "timestamp": "2018-02-15T18:59:12Z",
-      "version": 1,
-      "changeset": 56393771,
-      "user": "valleyofdawn",
-      "uid": 356970,
+      "timestamp": "2021-12-04T12:14:10Z",
+      "version": 2,
+      "changeset": 114552742,
+      "user": "Adi Ron",
+      "uid": 14568113,
       "nodes": [3992076019, 298521015],
       "geometry": [
         {"lat": 32.052917, "lon": 34.94135, "z": 66.9},
@@ -47671,7 +47671,12 @@
         {"lat": 32.0526539, "lon": 34.9431224, "z": 69.2},
         {"lat": 32.0526583, "lon": 34.9433865, "z": 70}
       ],
-      "tags": {"highway": "track", "source": "GPS"}
+      "tags": {
+        "highway": "track",
+        "source": "GPS",
+        "surface": "gravel",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
@@ -52334,17 +52339,23 @@
     {
       "type": "way",
       "id": 60957315,
-      "timestamp": "2021-08-12T16:03:58Z",
-      "version": 5,
-      "changeset": 109582917,
-      "user": "hatul",
-      "uid": 686490,
+      "timestamp": "2021-12-04T12:09:23Z",
+      "version": 6,
+      "changeset": 114552639,
+      "user": "Adi Ron",
+      "uid": 14568113,
       "nodes": [2996314899, 541000593],
       "geometry": [
         {"lat": 31.9625923, "lon": 34.9541627, "z": 130.9},
         {"lat": 31.9625465, "lon": 34.9533294, "z": 129.3}
       ],
-      "tags": {"highway": "track", "oneway": "yes"}
+      "tags": {
+        "bicycle": "yes",
+        "highway": "unclassified",
+        "lanes": "1",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -63829,11 +63840,11 @@
     {
       "type": "way",
       "id": 76347388,
-      "timestamp": "2021-08-12T16:03:58Z",
-      "version": 4,
-      "changeset": 109582917,
-      "user": "hatul",
-      "uid": 686490,
+      "timestamp": "2021-12-04T12:09:23Z",
+      "version": 5,
+      "changeset": 114552639,
+      "user": "Adi Ron",
+      "uid": 14568113,
       "nodes": [541000593, 2996315131],
       "geometry": [
         {"lat": 31.9625465, "lon": 34.9533294, "z": 129.3},
@@ -63848,7 +63859,13 @@
         {"lat": 31.9633668, "lon": 34.9505382, "z": 135},
         {"lat": 31.9637855, "lon": 34.9506561, "z": 140.6}
       ],
-      "tags": {"highway": "track", "oneway": "yes"}
+      "tags": {
+        "bicycle": "yes",
+        "highway": "unclassified",
+        "lanes": "1",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -72915,17 +72932,24 @@
     {
       "type": "way",
       "id": 972626185,
-      "timestamp": "2021-08-12T16:03:58Z",
-      "version": 1,
-      "changeset": 109582917,
-      "user": "hatul",
-      "uid": 686490,
+      "timestamp": "2021-12-04T12:09:23Z",
+      "version": 2,
+      "changeset": 114552639,
+      "user": "Adi Ron",
+      "uid": 14568113,
       "nodes": [2996315131, 2996315068],
       "geometry": [
         {"lat": 31.9637855, "lon": 34.9506561, "z": 140.6},
         {"lat": 31.9638178, "lon": 34.95075, "z": 142}
       ],
-      "tags": {"highway": "track", "oneway": "yes", "source": "GPS"}
+      "tags": {
+        "bicycle": "yes",
+        "highway": "unclassified",
+        "lanes": "1",
+        "oneway": "yes",
+        "source": "GPS",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
