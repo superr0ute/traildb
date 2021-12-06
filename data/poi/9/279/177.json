@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-12-04T23:59:59Z",
-    "timestamp_osm_base": "2021-12-05T05:11:38Z",
+    "timestamp_osm_date": "2021-12-05T23:59:59Z",
+    "timestamp_osm_base": "2021-12-06T05:32:50Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -19465,11 +19465,11 @@
       "id": 1039272187,
       "lat": 48.1377537,
       "lon": 16.2775459,
-      "timestamp": "2021-09-09T12:35:42Z",
-      "version": 12,
-      "changeset": 110974677,
-      "user": "Joe62",
-      "uid": 517367,
+      "timestamp": "2021-12-05T15:30:43Z",
+      "version": 13,
+      "changeset": 114586040,
+      "user": "eumiro",
+      "uid": 29717,
       "tags": {
         "addr:city": "Wien",
         "addr:country": "AT",
@@ -19480,6 +19480,7 @@
         "brand": "Billa",
         "brand:wikidata": "Q537781",
         "brand:wikipedia": "de:Billa",
+        "level": "0",
         "name": "Billa",
         "old_name": "Merkur",
         "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00; Su,PH off",
@@ -28359,16 +28360,21 @@
       "id": 1803351686,
       "lat": 48.2158667,
       "lon": 16.4569333,
-      "timestamp": "2021-08-28T20:50:03Z",
-      "version": 8,
-      "changeset": 110393898,
-      "user": "emergency99",
-      "uid": 1832939,
+      "timestamp": "2021-12-05T17:17:48Z",
+      "version": 9,
+      "changeset": 114588772,
+      "user": "pvvertreter",
+      "uid": 10373292,
       "tags": {
+        "access": "yes",
         "amenity": "drinking_water",
+        "bottle": "yes",
         "colour": "gray",
         "emergency": "fire_hydrant",
-        "fire_hydrant:type": "pillar"
+        "fee": "no",
+        "fire_hydrant:type": "pillar",
+        "operator": "Stadt Wien",
+        "wheelchair": "yes"
       }
     },
     {
@@ -59496,6 +59502,28 @@
       }
     },
     {
+      "type": "node",
+      "id": 9312762889,
+      "lat": 48.2163749,
+      "lon": 16.4589698,
+      "timestamp": "2021-12-05T17:19:34Z",
+      "version": 1,
+      "changeset": 114588809,
+      "user": "pvvertreter",
+      "uid": 10373292,
+      "tags": {
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "colour": "gray",
+        "emergency": "fire_hydrant",
+        "fee": "no",
+        "fire_hydrant:type": "pillar",
+        "operator": "Stadt Wien",
+        "wheelchair": "yes"
+      }
+    },
+    {
       "type": "way",
       "id": 8654617,
       "timestamp": "2020-03-09T21:05:01Z",
@@ -65539,40 +65567,6 @@
     },
     {
       "type": "way",
-      "id": 142303114,
-      "timestamp": "2021-11-04T16:27:28Z",
-      "version": 11,
-      "changeset": 113376820,
-      "user": "eumiro",
-      "uid": 29717,
-      "center": {
-        "lat": 48.1340666,
-        "lon": 16.2831409
-      },
-      "nodes": [],
-      "tags": {
-        "addr:city": "Wien",
-        "addr:country": "AT",
-        "addr:housenumber": "6",
-        "addr:postcode": "1230",
-        "addr:street": "Franz-Parsche-Gasse",
-        "brand": "Billa",
-        "brand:wikidata": "Q537781",
-        "brand:wikipedia": "en:Billa (supermarket)",
-        "building": "retail",
-        "building:levels": "1",
-        "check_date:opening_hours": "2021-11-04",
-        "name": "Billa",
-        "opening_hours": "Mo-Fr 07:15-19:30; Sa 07:15-18:00; Su,PH off",
-        "phone": "+43 1 865 92 14",
-        "recycling:batteries": "yes",
-        "shop": "supermarket",
-        "website": "https://www.billa.at/",
-        "wheelchair": "yes"
-      }
-    },
-    {
-      "type": "way",
       "id": 142409254,
       "timestamp": "2016-03-12T22:09:48Z",
       "version": 2,
@@ -66788,6 +66782,24 @@
         "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00",
         "shop": "supermarket",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 170775850,
+      "timestamp": "2021-12-05T16:32:50Z",
+      "version": 4,
+      "changeset": 114587634,
+      "user": "sgnak",
+      "uid": 8772934,
+      "center": {
+        "lat": 48.2271283,
+        "lon": 16.3580545
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
       }
     },
     {
@@ -68572,9 +68584,9 @@
     {
       "type": "way",
       "id": 228404556,
-      "timestamp": "2021-11-02T20:11:16Z",
-      "version": 13,
-      "changeset": 113300709,
+      "timestamp": "2021-12-05T14:49:52Z",
+      "version": 14,
+      "changeset": 114584692,
       "user": "eumiro",
       "uid": 29717,
       "center": {
@@ -68594,6 +68606,7 @@
         "building": "retail",
         "building:levels": "1",
         "check_date:opening_hours": "2021-11-02",
+        "height": "6",
         "name": "Hofer",
         "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00; PH off",
         "shop": "supermarket",
@@ -85878,42 +85891,40 @@
     {
       "type": "way",
       "id": 950170295,
-      "timestamp": "2021-06-03T19:45:49Z",
-      "version": 1,
-      "changeset": 105798228,
-      "user": "Dobinger",
-      "uid": 8819348,
+      "timestamp": "2021-12-05T21:26:10Z",
+      "version": 2,
+      "changeset": 114595390,
+      "user": "emergency99",
+      "uid": 1832939,
       "center": {
-        "lat": 48.1345595,
-        "lon": 16.3565821
+        "lat": 48.134564,
+        "lon": 16.3565886
       },
       "nodes": [],
       "tags": {
         "amenity": "shelter",
         "bench": "yes",
         "bin": "yes",
-        "building": "yes",
         "shelter_type": "public_transport"
       }
     },
     {
       "type": "way",
       "id": 950170296,
-      "timestamp": "2021-06-03T19:45:49Z",
-      "version": 1,
-      "changeset": 105798228,
-      "user": "Dobinger",
-      "uid": 8819348,
+      "timestamp": "2021-12-05T21:26:10Z",
+      "version": 2,
+      "changeset": 114595390,
+      "user": "emergency99",
+      "uid": 1832939,
       "center": {
-        "lat": 48.1346451,
-        "lon": 16.3562387
+        "lat": 48.1346511,
+        "lon": 16.3562388
       },
       "nodes": [],
       "tags": {
         "amenity": "shelter",
         "bench": "yes",
         "bin": "yes",
-        "building": "yes",
         "shelter_type": "public_transport"
       }
     },
@@ -87156,6 +87167,60 @@
       "tags": {
         "amenity": "shelter",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1009337014,
+      "timestamp": "2021-12-05T17:01:01Z",
+      "version": 1,
+      "changeset": 114588282,
+      "user": "eumiro",
+      "uid": 29717,
+      "center": {
+        "lat": 48.1340666,
+        "lon": 16.2831409
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Wien",
+        "addr:country": "AT",
+        "addr:housenumber": "6",
+        "addr:postcode": "1230",
+        "addr:street": "Franz-Parsche-Gasse",
+        "brand": "Billa",
+        "brand:wikidata": "Q537781",
+        "brand:wikipedia": "en:Billa (supermarket)",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date:opening_hours": "2021-11-04",
+        "height": "4.3",
+        "name": "Billa",
+        "opening_hours": "Mo-Fr 07:15-19:30; Sa 07:15-18:00; Su,PH off",
+        "phone": "+43 1 865 92 14",
+        "recycling:batteries": "yes",
+        "roof:shape": "flat",
+        "shop": "supermarket",
+        "website": "https://www.billa.at/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1009338637,
+      "timestamp": "2021-12-05T17:15:52Z",
+      "version": 1,
+      "changeset": 114588710,
+      "user": "gt3400",
+      "uid": 610648,
+      "center": {
+        "lat": 48.3251175,
+        "lon": 16.2787106
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes"
       }
     }
   ]
