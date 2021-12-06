@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-03T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-05T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10909145,
-      "timestamp": "2021-12-03T15:53:13Z",
-      "version": 1480,
-      "changeset": 114528131,
+      "timestamp": "2021-12-05T20:49:37Z",
+      "version": 1481,
+      "changeset": 114594477,
       "user": "Wulz",
       "uid": 10773975,
       "members": [
@@ -871,10 +871,11 @@
         {"type": "way", "ref": 231754091, "role": ""},
         {"type": "way", "ref": 830721726, "role": ""},
         {"type": "way", "ref": 39363473, "role": ""},
+        {"type": "way", "ref": 575673435, "role": ""},
+        {"type": "way", "ref": 292468658, "role": ""},
         {"type": "way", "ref": 1008133698, "role": ""},
         {"type": "way", "ref": 292468657, "role": ""},
-        {"type": "way", "ref": 292468658, "role": ""},
-        {"type": "way", "ref": 575673435, "role": ""},
+        {"type": "way", "ref": 1009373908, "role": ""},
         {"type": "way", "ref": 1008132948, "role": ""},
         {"type": "way", "ref": 128877287, "role": ""},
         {"type": "way", "ref": 788579729, "role": ""},
@@ -2056,6 +2057,32 @@
         "trail_visibility": "excellent",
         "trailblazed": "yes",
         "width": "2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1009373908,
+      "timestamp": "2021-12-05T20:49:37Z",
+      "version": 1,
+      "changeset": 114594477,
+      "user": "Wulz",
+      "uid": 10773975,
+      "nodes": [361162074, 363262988],
+      "geometry": [
+        {"lat": 46.3187209, "lon": 13.7789733},
+        {"lat": 46.3184858, "lon": 13.7789744},
+        {"lat": 46.3183306, "lon": 13.7790258}
+      ],
+      "tags": {
+        "highway": "path",
+        "incline": "10%",
+        "note": "Beim „Julius Kugy Alpine Trail“ trifft man auf\n + iwn: Via Alpina R11\n + nrw: Slovenska planinska pot\n + rwn: Slovenska geološka pot\n + lwn: Julius-Kugy-Dreiländerweg v 30 dneh - povezava prek E 12b, Dom na Komni - Bogatinsko sedlo",
+        "ref": "1",
+        "sac_scale": "hiking",
+        "source": "survey",
+        "surface": "gravel",
+        "trailblazed": "yes",
+        "width": "1"
       }
     },
     {
@@ -18666,11 +18693,11 @@
     {
       "type": "way",
       "id": 19961993,
-      "timestamp": "2020-12-16T11:33:09Z",
-      "version": 15,
-      "changeset": 95938306,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-05T10:15:55Z",
+      "version": 16,
+      "changeset": 114576574,
+      "user": "mtej",
+      "uid": 10153688,
       "nodes": [175730544, 4187708315],
       "geometry": [
         {"lat": 46.2430875, "lon": 13.5811223},
@@ -18687,6 +18714,7 @@
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "50",
+        "name": "Goriška cesta",
         "note": "Julius Kugy Alpine Trail + Pot Miru",
         "ref": "102",
         "surface": "asphalt"
@@ -28807,15 +28835,13 @@
     {
       "type": "way",
       "id": 292468657,
-      "timestamp": "2021-12-03T15:59:26Z",
-      "version": 12,
-      "changeset": 114528310,
+      "timestamp": "2021-12-05T20:49:37Z",
+      "version": 13,
+      "changeset": 114594477,
       "user": "Wulz",
       "uid": 10773975,
-      "nodes": [361162074, 471613506],
+      "nodes": [363262988, 471613506],
       "geometry": [
-        {"lat": 46.3187209, "lon": 13.7789733},
-        {"lat": 46.3184858, "lon": 13.7789744},
         {"lat": 46.3183306, "lon": 13.7790258},
         {"lat": 46.3182582, "lon": 13.7790075},
         {"lat": 46.3181327, "lon": 13.7789724},

@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-03T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-05T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2124,9 +2124,9 @@
     {
       "type": "relation",
       "id": 7700285,
-      "timestamp": "2021-10-23T21:58:48Z",
-      "version": 18,
-      "changeset": 112888590,
+      "timestamp": "2021-12-05T16:03:44Z",
+      "version": 19,
+      "changeset": 114586928,
       "user": "Martino Scaglione",
       "uid": 10901495,
       "members": [
@@ -2192,6 +2192,8 @@
         {"type": "way", "ref": 427763784, "role": ""},
         {"type": "way", "ref": 427763785, "role": ""},
         {"type": "way", "ref": 147340053, "role": ""},
+        {"type": "way", "ref": 1009326386, "role": ""},
+        {"type": "way", "ref": 1009326385, "role": ""},
         {"type": "way", "ref": 537357543, "role": ""}
       ],
       "tags": {
@@ -4972,6 +4974,48 @@
         "surface": "ground",
         "symbol": "red-white bars",
         "trail_visibility": "good"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1009326385,
+      "timestamp": "2021-12-05T16:03:44Z",
+      "version": 1,
+      "changeset": 114586928,
+      "user": "Martino Scaglione",
+      "uid": 10901495,
+      "nodes": [1260817564, 1605597012],
+      "geometry": [
+        {"lat": 46.2205541, "lon": 9.4482456},
+        {"lat": 46.2204694, "lon": 9.4481823},
+        {"lat": 46.2203876, "lon": 9.4480799},
+        {"lat": 46.2203535, "lon": 9.4480387},
+        {"lat": 46.220325, "lon": 9.4479799},
+        {"lat": 46.2202842, "lon": 9.4478276},
+        {"lat": 46.2202673, "lon": 9.4476717},
+        {"lat": 46.2202667, "lon": 9.4475103}
+      ],
+      "tags": {"highway": "residential", "name": "Via Roma", "surface": "sett"}
+    },
+    {
+      "type": "way",
+      "id": 1009326386,
+      "timestamp": "2021-12-05T16:03:44Z",
+      "version": 1,
+      "changeset": 114586928,
+      "user": "Martino Scaglione",
+      "uid": 10901495,
+      "nodes": [1605597012, 9312662270],
+      "geometry": [
+        {"lat": 46.2202667, "lon": 9.4475103},
+        {"lat": 46.2202177, "lon": 9.447467},
+        {"lat": 46.2202091, "lon": 9.4473886},
+        {"lat": 46.2202396, "lon": 9.4473187}
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Piazza Lucio Foico",
+        "surface": "sett"
       }
     },
     {
@@ -12309,32 +12353,25 @@
     {
       "type": "way",
       "id": 147340053,
-      "timestamp": "2021-10-23T21:58:48Z",
-      "version": 4,
-      "changeset": 112888590,
+      "timestamp": "2021-12-05T16:03:44Z",
+      "version": 5,
+      "changeset": 114586928,
       "user": "Martino Scaglione",
       "uid": 10901495,
-      "nodes": [1260817564, 432013345],
+      "nodes": [9312662270, 432013345],
       "geometry": [
-        {"lat": 46.2205541, "lon": 9.4482456},
-        {"lat": 46.2204694, "lon": 9.4481823},
-        {"lat": 46.2203876, "lon": 9.4480799},
-        {"lat": 46.2203535, "lon": 9.4480387},
-        {"lat": 46.220325, "lon": 9.4479799},
-        {"lat": 46.2202842, "lon": 9.4478276},
-        {"lat": 46.2202673, "lon": 9.4476717},
-        {"lat": 46.2202667, "lon": 9.4475103},
-        {"lat": 46.2202177, "lon": 9.447467},
-        {"lat": 46.2202091, "lon": 9.4473886},
+        {"lat": 46.2202396, "lon": 9.4473187},
         {"lat": 46.2202701, "lon": 9.4472487},
         {"lat": 46.2202561, "lon": 9.4470398},
+        {"lat": 46.2202466, "lon": 9.447011},
         {"lat": 46.2202101, "lon": 9.4469185},
         {"lat": 46.2202091, "lon": 9.4467502},
         {"lat": 46.2202179, "lon": 9.4466896},
-        {"lat": 46.2202553, "lon": 9.4466037},
+        {"lat": 46.220251, "lon": 9.4466052},
+        {"lat": 46.2202556, "lon": 9.446578},
         {"lat": 46.2202596, "lon": 9.4461991}
       ],
-      "tags": {"highway": "residential", "name": "Via Roma"}
+      "tags": {"highway": "residential", "name": "Via Roma", "surface": "sett"}
     },
     {
       "type": "way",
