@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-06T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-07T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1736379,
-      "timestamp": "2021-11-30T17:18:28Z",
-      "version": 567,
-      "changeset": 114411363,
-      "user": "WaWei",
-      "uid": 9940746,
+      "timestamp": "2021-12-07T12:27:05Z",
+      "version": 569,
+      "changeset": 114659131,
+      "user": "Luca Frare",
+      "uid": 10680508,
       "members": [
         {"type": "node", "ref": 1779769997, "role": "stop"},
         {"type": "node", "ref": 475738007, "role": ""},
@@ -1013,8 +1013,10 @@
         {"type": "way", "ref": 255394631, "role": ""},
         {"type": "way", "ref": 398743432, "role": ""},
         {"type": "way", "ref": 397516920, "role": ""},
-        {"type": "way", "ref": 255394626, "role": "alternative"},
         {"type": "way", "ref": 54738589, "role": "alternative"},
+        {"type": "way", "ref": 255394626, "role": "alternative"},
+        {"type": "way", "ref": 1009831517, "role": "alternative"},
+        {"type": "way", "ref": 1009831516, "role": "alternative"},
         {"type": "way", "ref": 54738588, "role": ""},
         {"type": "way", "ref": 54738587, "role": ""},
         {"type": "way", "ref": 54738592, "role": ""},
@@ -1136,7 +1138,9 @@
         {"type": "way", "ref": 902772327, "role": ""},
         {"type": "way", "ref": 775606974, "role": ""},
         {"type": "way", "ref": 775606973, "role": ""},
+        {"type": "way", "ref": 1009909582, "role": ""},
         {"type": "way", "ref": 298071757, "role": ""},
+        {"type": "way", "ref": 1009909581, "role": ""},
         {"type": "way", "ref": 116814389, "role": ""},
         {"type": "way", "ref": 24863434, "role": ""},
         {"type": "way", "ref": 24863458, "role": ""},
@@ -1692,6 +1696,85 @@
       "tags": {
         "highway": "unclassified",
         "name": "Via dei Pascoli",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1009831516,
+      "timestamp": "2021-12-07T08:00:46Z",
+      "version": 1,
+      "changeset": 114648014,
+      "user": "CAPRILE - CAI",
+      "uid": 14567729,
+      "nodes": [689265232, 689265224],
+      "geometry": [
+        {"lat": 46.4302805, "lon": 11.9753197},
+        {"lat": 46.4302517, "lon": 11.9754033},
+        {"lat": 46.430245, "lon": 11.9755567},
+        {"lat": 46.4302133, "lon": 11.975765},
+        {"lat": 46.4302526, "lon": 11.976022},
+        {"lat": 46.4302916, "lon": 11.9762502}
+      ],
+      "tags": {"highway": "path", "incline": "up", "sac_scale": "hiking"}
+    },
+    {
+      "type": "way",
+      "id": 1009831517,
+      "timestamp": "2021-12-07T08:00:46Z",
+      "version": 1,
+      "changeset": 114648014,
+      "user": "CAPRILE - CAI",
+      "uid": 14567729,
+      "nodes": [689265224, 9317289497],
+      "geometry": [
+        {"lat": 46.4302916, "lon": 11.9762502},
+        {"lat": 46.430302, "lon": 11.9763137}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "path",
+        "incline": "up",
+        "layer": "1",
+        "sac_scale": "hiking"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1009909581,
+      "timestamp": "2021-12-07T12:27:05Z",
+      "version": 1,
+      "changeset": 114659131,
+      "user": "Luca Frare",
+      "uid": 10680508,
+      "nodes": [3019912818, 281243156],
+      "geometry": [
+        {"lat": 46.1434932, "lon": 12.2134612},
+        {"lat": 46.1437304, "lon": 12.2132908}
+      ],
+      "tags": {
+        "cycleway:right": "lane",
+        "highway": "tertiary",
+        "name": "Viale Giuseppe Fantuzzi"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1009909582,
+      "timestamp": "2021-12-07T12:27:05Z",
+      "version": 1,
+      "changeset": 114659131,
+      "user": "Luca Frare",
+      "uid": 10680508,
+      "nodes": [3019977306, 279318925],
+      "geometry": [
+        {"lat": 46.1438477, "lon": 12.2132333},
+        {"lat": 46.1439638, "lon": 12.2131926}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Viale Giuseppe Fantuzzi",
+        "oneway": "yes",
         "surface": "asphalt"
       }
     },
@@ -4484,19 +4567,18 @@
     {
       "type": "way",
       "id": 116814389,
-      "timestamp": "2018-05-26T11:48:30Z",
-      "version": 7,
-      "changeset": 59292346,
-      "user": "diegomodolo",
-      "uid": 8109808,
-      "nodes": [270173349, 281243156],
+      "timestamp": "2021-12-07T12:27:05Z",
+      "version": 8,
+      "changeset": 114659131,
+      "user": "Luca Frare",
+      "uid": 10680508,
+      "nodes": [270173349, 3019912818],
       "geometry": [
         {"lat": 46.1423784, "lon": 12.2142623},
         {"lat": 46.1426061, "lon": 12.2140987},
         {"lat": 46.1428884, "lon": 12.2138959},
         {"lat": 46.1430607, "lon": 12.213772},
-        {"lat": 46.1434932, "lon": 12.2134612},
-        {"lat": 46.1437304, "lon": 12.2132908}
+        {"lat": 46.1434932, "lon": 12.2134612}
       ],
       "tags": {"highway": "tertiary", "name": "Viale Giuseppe Fantuzzi"}
     },
@@ -21333,19 +21415,14 @@
     {
       "type": "way",
       "id": 255394626,
-      "timestamp": "2017-07-18T15:00:20Z",
-      "version": 3,
-      "changeset": 50381864,
-      "user": "ibien",
-      "uid": 1780387,
-      "nodes": [689265232, 689265378],
+      "timestamp": "2021-12-07T08:00:46Z",
+      "version": 4,
+      "changeset": 114648014,
+      "user": "CAPRILE - CAI",
+      "uid": 14567729,
+      "nodes": [9317289497, 689265378],
       "geometry": [
-        {"lat": 46.4302805, "lon": 11.9753197},
-        {"lat": 46.4302517, "lon": 11.9754033},
-        {"lat": 46.430245, "lon": 11.9755567},
-        {"lat": 46.4302133, "lon": 11.975765},
-        {"lat": 46.4302526, "lon": 11.976022},
-        {"lat": 46.4302916, "lon": 11.9762502},
+        {"lat": 46.430302, "lon": 11.9763137},
         {"lat": 46.4303145, "lon": 11.9763904},
         {"lat": 46.4303283, "lon": 11.9765467},
         {"lat": 46.4303795, "lon": 11.9767681},
@@ -21395,12 +21472,7 @@
         {"lat": 46.4303246, "lon": 11.9811424},
         {"lat": 46.4303017, "lon": 11.9812313}
       ],
-      "tags": {
-        "highway": "path",
-        "incline": "up",
-        "name": "Sentiero CAI 682",
-        "sac_scale": "hiking"
-      }
+      "tags": {"highway": "path", "incline": "up", "sac_scale": "hiking"}
     },
     {
       "type": "way",
@@ -24122,18 +24194,18 @@
     {
       "type": "way",
       "id": 298071757,
-      "timestamp": "2018-05-26T11:48:31Z",
-      "version": 3,
-      "changeset": 59292346,
-      "user": "diegomodolo",
-      "uid": 8109808,
-      "nodes": [281243156, 279318925],
+      "timestamp": "2021-12-07T12:27:05Z",
+      "version": 4,
+      "changeset": 114659131,
+      "user": "Luca Frare",
+      "uid": 10680508,
+      "nodes": [281243156, 3019977306],
       "geometry": [
         {"lat": 46.1437304, "lon": 12.2132908},
-        {"lat": 46.1438477, "lon": 12.2132333},
-        {"lat": 46.1439638, "lon": 12.2131926}
+        {"lat": 46.1438477, "lon": 12.2132333}
       ],
       "tags": {
+        "cycleway:right": "lane",
         "highway": "tertiary",
         "name": "Viale Giuseppe Fantuzzi",
         "oneway": "yes",
@@ -41872,11 +41944,11 @@
     {
       "type": "way",
       "id": 54738589,
-      "timestamp": "2017-07-20T12:58:43Z",
-      "version": 5,
-      "changeset": 50432780,
-      "user": "Map47",
-      "uid": 11976,
+      "timestamp": "2021-12-07T08:00:46Z",
+      "version": 6,
+      "changeset": 114648014,
+      "user": "CAPRILE - CAI",
+      "uid": 14567729,
       "nodes": [689265378, 689265556],
       "geometry": [
         {"lat": 46.4303017, "lon": 11.9812313},
@@ -41927,12 +41999,7 @@
         {"lat": 46.43457, "lon": 11.9833617},
         {"lat": 46.4346109, "lon": 11.9833778}
       ],
-      "tags": {
-        "highway": "path",
-        "mtb": "yes",
-        "name": "Sentiero CAI 682",
-        "sac_scale": "hiking"
-      }
+      "tags": {"highway": "path", "mtb": "yes", "sac_scale": "hiking"}
     },
     {
       "type": "way",
