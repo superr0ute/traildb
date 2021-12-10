@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-08T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-09T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2009,11 +2009,11 @@
     {
       "type": "relation",
       "id": 7700148,
-      "timestamp": "2021-11-10T08:02:25Z",
-      "version": 13,
-      "changeset": 113596721,
-      "user": "LorenzoBassi_SICAI_Team",
-      "uid": 3286661,
+      "timestamp": "2021-12-09T17:36:39Z",
+      "version": 14,
+      "changeset": 114753600,
+      "user": "kaitu",
+      "uid": 69717,
       "members": [
         {"type": "way", "ref": 34528675, "role": ""},
         {"type": "way", "ref": 972902911, "role": ""},
@@ -2056,6 +2056,7 @@
         {"type": "way", "ref": 537334648, "role": ""},
         {"type": "way", "ref": 245885656, "role": ""},
         {"type": "way", "ref": 195032820, "role": ""},
+        {"type": "way", "ref": 1010738654, "role": ""},
         {"type": "way", "ref": 537334644, "role": ""},
         {"type": "way", "ref": 195032803, "role": ""},
         {"type": "way", "ref": 369565597, "role": ""},
@@ -5016,6 +5017,33 @@
         "highway": "residential",
         "name": "Piazza Lucio Foico",
         "surface": "sett"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1010738654,
+      "timestamp": "2021-12-09T17:36:39Z",
+      "version": 1,
+      "changeset": 114753600,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [2050772660, 2055315845],
+      "geometry": [
+        {"lat": 45.9701348, "lon": 9.069909},
+        {"lat": 45.9701011, "lon": 9.0698228},
+        {"lat": 45.9700422, "lon": 9.0696674},
+        {"lat": 45.9700128, "lon": 9.06959},
+        {"lat": 45.9699344, "lon": 9.0694002}
+      ],
+      "tags": {
+        "access": "yes",
+        "highway": "unclassified",
+        "lanes": "1",
+        "name": "Via Monte Generoso",
+        "oneway": "no",
+        "smoothness": "bad",
+        "source": "survey, gps track",
+        "surface": "asphalt"
       }
     },
     {
@@ -12353,14 +12381,15 @@
     {
       "type": "way",
       "id": 147340053,
-      "timestamp": "2021-12-05T16:03:44Z",
-      "version": 5,
-      "changeset": 114586928,
+      "timestamp": "2021-12-09T16:00:03Z",
+      "version": 6,
+      "changeset": 114750189,
       "user": "Martino Scaglione",
       "uid": 10901495,
       "nodes": [9312662270, 432013345],
       "geometry": [
         {"lat": 46.2202396, "lon": 9.4473187},
+        {"lat": 46.2202601, "lon": 9.4472717},
         {"lat": 46.2202701, "lon": 9.4472487},
         {"lat": 46.2202561, "lon": 9.4470398},
         {"lat": 46.2202466, "lon": 9.447011},
@@ -22632,17 +22661,13 @@
     {
       "type": "way",
       "id": 195032820,
-      "timestamp": "2013-11-16T22:23:15Z",
-      "version": 3,
-      "changeset": 18943852,
+      "timestamp": "2021-12-09T17:36:39Z",
+      "version": 4,
+      "changeset": 114753600,
       "user": "kaitu",
       "uid": 69717,
-      "nodes": [2050772660, 2055315802],
+      "nodes": [2055315845, 2055315802],
       "geometry": [
-        {"lat": 45.9701348, "lon": 9.069909},
-        {"lat": 45.9701011, "lon": 9.0698228},
-        {"lat": 45.9700422, "lon": 9.0696674},
-        {"lat": 45.9700128, "lon": 9.06959},
         {"lat": 45.9699344, "lon": 9.0694002},
         {"lat": 45.9697837, "lon": 9.0691006},
         {"lat": 45.9696589, "lon": 9.0688379},
@@ -29570,9 +29595,9 @@
     {
       "type": "way",
       "id": 244458302,
-      "timestamp": "2013-11-02T19:33:06Z",
-      "version": 1,
-      "changeset": 18680599,
+      "timestamp": "2021-12-09T17:36:39Z",
+      "version": 2,
+      "changeset": 114753600,
       "user": "kaitu",
       "uid": 69717,
       "nodes": [2516797154, 533769212],
@@ -29587,7 +29612,7 @@
         "note:vehicle:conditional": "traffico vietato agli automezzi in concomitanza con il passaggio del bus di linea.",
         "oneway": "no",
         "surface": "asphalt",
-        "vehicle:conditional": "no @ (Lug 11 - Ago 20 09:50-10:10,16:00-16:20; Su,PH off)"
+        "vehicle:conditional": "no @ (Jul 11 - Aug 20 09:50-10:10,16:00-16:20; Su,PH off)"
       }
     },
     {

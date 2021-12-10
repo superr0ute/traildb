@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-08T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-09T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10909145,
-      "timestamp": "2021-12-08T16:53:47Z",
-      "version": 1482,
-      "changeset": 114710571,
+      "timestamp": "2021-12-09T20:50:25Z",
+      "version": 1484,
+      "changeset": 114759514,
       "user": "Wulz",
       "uid": 10773975,
       "members": [
@@ -804,6 +804,8 @@
         {"type": "way", "ref": 788787492, "role": ""},
         {"type": "way", "ref": 647894744, "role": ""},
         {"type": "way", "ref": 647894742, "role": ""},
+        {"type": "way", "ref": 370776195, "role": ""},
+        {"type": "way", "ref": 968567287, "role": ""},
         {"type": "way", "ref": 484478435, "role": ""},
         {"type": "way", "ref": 484478428, "role": ""},
         {"type": "way", "ref": 153580501, "role": ""},
@@ -994,9 +996,9 @@
         {"type": "way", "ref": 180923351, "role": ""},
         {"type": "way", "ref": 762533615, "role": ""},
         {"type": "way", "ref": 180923352, "role": ""},
-        {"type": "way", "ref": 968567288, "role": ""},
-        {"type": "way", "ref": 370776193, "role": ""},
         {"type": "way", "ref": 58603309, "role": ""},
+        {"type": "way", "ref": 370776193, "role": ""},
+        {"type": "way", "ref": 968567288, "role": ""},
         {"type": "way", "ref": 444762479, "role": ""},
         {"type": "way", "ref": 444762478, "role": ""},
         {"type": "way", "ref": 224767007, "role": ""},
@@ -38355,6 +38357,36 @@
     },
     {
       "type": "way",
+      "id": 370776195,
+      "timestamp": "2021-12-09T20:50:25Z",
+      "version": 4,
+      "changeset": 114759514,
+      "user": "Wulz",
+      "uid": 10773975,
+      "nodes": [484226085, 5843509799],
+      "geometry": [
+        {"lat": 46.2577229, "lon": 13.5888061},
+        {"lat": 46.2576133, "lon": 13.5887521},
+        {"lat": 46.2575361, "lon": 13.5886882},
+        {"lat": 46.2572751, "lon": 13.5885599},
+        {"lat": 46.2571499, "lon": 13.5885697},
+        {"lat": 46.2570838, "lon": 13.5885724},
+        {"lat": 46.2569809, "lon": 13.5885658},
+        {"lat": 46.2568019, "lon": 13.5884893},
+        {"lat": 46.2567036, "lon": 13.5883967},
+        {"lat": 46.2566113, "lon": 13.5883847},
+        {"lat": 46.2565506, "lon": 13.5883458}
+      ],
+      "tags": {
+        "highway": "path",
+        "incline": "-15%",
+        "note": "Beim „Julius-Kugy-Dreiländerweg“ trifft man auf\n + iwn:  \n + nrw: \n + rwn: \n + lwn: Pot Juliusa Kugyja v 30 etapah - povezava prek E 13b",
+        "surface": "unpaved",
+        "width": "2"
+      }
+    },
+    {
+      "type": "way",
       "id": 37262292,
       "timestamp": "2020-12-17T12:43:41Z",
       "version": 13,
@@ -45858,11 +45890,11 @@
     {
       "type": "way",
       "id": 445010690,
-      "timestamp": "2020-12-16T11:33:09Z",
-      "version": 5,
-      "changeset": 95938306,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-09T21:15:42Z",
+      "version": 6,
+      "changeset": 114760227,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [558570889, 896347907],
       "geometry": [
         {"lat": 46.2568576, "lon": 13.6142969},
@@ -45883,7 +45915,7 @@
         "highway": "unclassified",
         "lanes": "2",
         "maxspeed": "50",
-        "note": "Alpe Adria Trail (AA) + Pot Miru (PM) + Slovenska turnokolesarsika pot (STKP)",
+        "note": "Beim „Julius-Kugy-Dreiländerweg“ trifft man auf\n + iwn:  Alpe Adria Trail\n + nrw: \n + rwn: \n + lwn: Pot Juliusa Kugyja v 30 etapah - povezava prek E 13b, Pot Miru, Slovenska turnokolesarsika pot",
         "surface": "asphalt"
       }
     },
@@ -55525,11 +55557,11 @@
     {
       "type": "way",
       "id": 647894742,
-      "timestamp": "2021-07-29T19:38:02Z",
-      "version": 2,
-      "changeset": 108843833,
-      "user": "Greg_Rose",
-      "uid": 4622040,
+      "timestamp": "2021-12-09T20:50:25Z",
+      "version": 3,
+      "changeset": 114759514,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [5843509799, 6083362033],
       "geometry": [
         {"lat": 46.2565506, "lon": 13.5883458},
@@ -55583,7 +55615,7 @@
       ],
       "tags": {
         "highway": "path",
-        "incline": "20%",
+        "incline": "-20%",
         "name": "Julius Kugy Alpine Trail",
         "surface": "ground",
         "width": "1"
@@ -55592,11 +55624,11 @@
     {
       "type": "way",
       "id": 647894744,
-      "timestamp": "2021-08-03T07:56:23Z",
-      "version": 6,
-      "changeset": 109074952,
-      "user": "Greg_Rose",
-      "uid": 4622040,
+      "timestamp": "2021-12-09T21:12:08Z",
+      "version": 7,
+      "changeset": 114760145,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [6083362033, 8976504102],
       "geometry": [
         {"lat": 46.2546524, "lon": 13.5906774},
@@ -55638,6 +55670,7 @@
         "highway": "path",
         "incline": "10%",
         "name": "Julius Kugy Alpine Trail",
+        "note": "Beim „Julius-Kugy-Dreiländerweg“ trifft man auf\n + iwn:  \n + nrw: \n + rwn: \n + lwn: Pot Juliusa Kugyja v 30 etapah - povezava prek E 13b",
         "surface": "ground",
         "width": "1"
       }
@@ -65158,11 +65191,11 @@
     {
       "type": "way",
       "id": 788787492,
-      "timestamp": "2021-08-03T07:56:23Z",
-      "version": 3,
-      "changeset": 109074952,
-      "user": "Greg_Rose",
-      "uid": 4622040,
+      "timestamp": "2021-12-09T21:12:08Z",
+      "version": 4,
+      "changeset": 114760145,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [8976504102, 896347907],
       "geometry": [
         {"lat": 46.2570094, "lon": 13.5969123},
@@ -65258,7 +65291,7 @@
         "highway": "unclassified",
         "lanes": "2",
         "maxspeed": "80",
-        "note": "Julius Kugy Alpine Trail + Pot Miru",
+        "note": "Beim „Julius-Kugy-Dreiländerweg“ trifft man auf\n + iwn:  \n + nrw: \n + rwn: \n + lwn: Pot Juliusa Kugyja v 30 etapah - povezava prek E 13b, Pot Miru",
         "surface": "asphalt"
       }
     },
@@ -71118,11 +71151,11 @@
     {
       "type": "way",
       "id": 84452015,
-      "timestamp": "2021-07-29T19:38:02Z",
-      "version": 12,
-      "changeset": 108843833,
-      "user": "Greg_Rose",
-      "uid": 4622040,
+      "timestamp": "2021-12-09T21:15:42Z",
+      "version": 13,
+      "changeset": 114760227,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [558570889, 823663952],
       "geometry": [
         {"lat": 46.2568576, "lon": 13.6142969},
@@ -71149,7 +71182,7 @@
         "highway": "unclassified",
         "lanes": "2",
         "maxspeed": "50",
-        "note": "Alpe Adria Trail (AA) + Pot Miru (PM) + Slovenska turnokolesarsika pot (STKP)",
+        "note": "Beim „Julius-Kugy-Dreiländerweg“ trifft man auf\n + iwn:  Alpe Adria Trail\n + nrw: \n + rwn: \n + lwn: Pot Juliusa Kugyja v 30 etapah - povezava prek E 13b, Pot Miru, Slovenska turnokolesarsika pot",
         "surface": "asphalt"
       }
     },
@@ -74135,12 +74168,49 @@
     },
     {
       "type": "way",
+      "id": 968567287,
+      "timestamp": "2021-12-09T20:45:38Z",
+      "version": 2,
+      "changeset": 114759371,
+      "user": "Wulz",
+      "uid": 10773975,
+      "nodes": [484226085, 484226105],
+      "geometry": [
+        {"lat": 46.2577229, "lon": 13.5888061},
+        {"lat": 46.2577693, "lon": 13.5889533},
+        {"lat": 46.2578104, "lon": 13.5891301},
+        {"lat": 46.2578076, "lon": 13.5893353},
+        {"lat": 46.2578045, "lon": 13.5895584},
+        {"lat": 46.2578059, "lon": 13.589721},
+        {"lat": 46.2578499, "lon": 13.5899155},
+        {"lat": 46.2579336, "lon": 13.5900771},
+        {"lat": 46.2580315, "lon": 13.5901778},
+        {"lat": 46.2581171, "lon": 13.5902457},
+        {"lat": 46.2582802, "lon": 13.5902679},
+        {"lat": 46.2584316, "lon": 13.5902952},
+        {"lat": 46.2586608, "lon": 13.5903124},
+        {"lat": 46.2588479, "lon": 13.590322},
+        {"lat": 46.2590337, "lon": 13.5903515}
+      ],
+      "tags": {
+        "bicycle": "no",
+        "highway": "path",
+        "horse": "no",
+        "incline": "5%",
+        "name": "Soška pot",
+        "note": "Beim „Julius-Kugy-Dreiländerweg“ trifft man auf\n + iwn:  \n + nrw: \n + rwn: \n + lwn: Pot Juliusa Kugyja v 30 etapah - povezava prek E 13b, Soška pot",
+        "surface": "gravel",
+        "width": "2"
+      }
+    },
+    {
+      "type": "way",
       "id": 968567288,
-      "timestamp": "2021-07-29T19:38:02Z",
-      "version": 1,
-      "changeset": 108843833,
-      "user": "Greg_Rose",
-      "uid": 4622040,
+      "timestamp": "2021-12-09T20:45:38Z",
+      "version": 2,
+      "changeset": 114759371,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [5843509804, 484226085],
       "geometry": [
         {"lat": 46.2567553, "lon": 13.5872806},
@@ -74165,11 +74235,11 @@
         {"lat": 46.2577229, "lon": 13.5888061}
       ],
       "tags": {
-        "bicycle": "no",
+        "bicycle": "yes",
         "highway": "path",
         "horse": "no",
         "incline": "5%",
-        "note": "Julius Kugy Alpine Trail (JKAT)",
+        "note": "Beim „Julius-Kugy-Dreiländerweg“ trifft man auf\n + iwn:  \n + nrw: \n + rwn: \n + lwn: Pot Juliusa Kugyja v 30 etapah - povezava prek E 13b, Soška pot",
         "surface": "gravel",
         "width": "2"
       }
