@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-12-08T23:59:59Z",
-    "timestamp_osm_base": "2021-12-09T05:10:39Z",
+    "timestamp_osm_date": "2021-12-09T23:59:59Z",
+    "timestamp_osm_base": "2021-12-10T05:13:19Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3468,17 +3468,25 @@
       "id": 1224127938,
       "lat": 48.4805999,
       "lon": 17.2646412,
-      "timestamp": "2017-02-25T22:05:08Z",
-      "version": 4,
-      "changeset": 46404305,
-      "user": "Dano91",
-      "uid": 2904981,
+      "timestamp": "2021-12-09T11:11:28Z",
+      "version": 5,
+      "changeset": 114738575,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
-        "name": "COOP Jednota POTRAVINY",
-        "note": "Plavecké Podhradie 52,Plavecké Podhradie",
+        "addr:city": "Plavecké Podhradie",
+        "addr:housenumber": "52",
+        "addr:place": "Plavecké Podhradie",
+        "addr:postcode": "90636",
+        "brand": "COOP Jednota",
+        "brand:wikidata": "Q41629254",
+        "brand:wikipedia": "sk:COOP Jednota Slovensko",
+        "name": "COOP Jednota",
         "opening_hours": "Mo-Fr 06:00-18:00; Sa 06:00-11:00",
         "operator": "COOP Jednota Slovensko",
-        "shop": "convenience"
+        "phone": "+421346585127",
+        "shop": "convenience",
+        "website": "https://www.coop.sk/"
       }
     },
     {
@@ -13169,20 +13177,24 @@
     {
       "type": "way",
       "id": 305385006,
-      "timestamp": "2020-05-31T18:15:10Z",
-      "version": 6,
-      "changeset": 86017117,
+      "timestamp": "2021-12-09T11:24:33Z",
+      "version": 8,
+      "changeset": 114739113,
       "user": "mapperue",
       "uid": 4887311,
       "center": {
-        "lat": 48.4832565,
-        "lon": 17.2632778
+        "lat": 48.4832808,
+        "lon": 17.2632618
       },
       "nodes": [],
       "tags": {
         "name": "Plavecké Podhradie",
         "name:hu": "Detrekőváralja",
-        "place": "village"
+        "place": "village",
+        "population": "693",
+        "website": "https://www.plaveckepodhradie.sk/",
+        "wikidata": "Q904507",
+        "wikipedia": "sk:Plavecké Podhradie"
       }
     },
     {
@@ -14161,6 +14173,44 @@
       "center": {
         "lat": 48.6570838,
         "lon": 17.0193825
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1010529000,
+      "timestamp": "2021-12-09T11:11:28Z",
+      "version": 1,
+      "changeset": 114738575,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 48.4895252,
+        "lon": 17.2582362
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "weather_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1010529002,
+      "timestamp": "2021-12-09T11:11:28Z",
+      "version": 1,
+      "changeset": 114738575,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 48.4877645,
+        "lon": 17.2569663
       },
       "nodes": [],
       "tags": {
