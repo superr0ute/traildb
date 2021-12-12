@@ -13940,34 +13940,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "peak_peak",
-        "@distance": 1757,
-        "@id": "n359268339",
-        "@changeset": 61746864,
-        "@timestamp": "2018-08-17T13:36:18Z",
-        "@version": 3,
-        "@uid": 659651,
-        "@user": "David Reik",
-        "ele": 695,
-        "gnis:county_id": "005",
-        "gnis:created": "09/12/1979",
-        "gnis:feature_id": "210326",
-        "gnis:state_id": "09",
-        "name": "Round Mountain",
-        "natural": "peak",
-        "wikidata": "Q7371100"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.4762439,
-          42.0488735
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "place_town",
         "@distance": 6367.7,
         "@id": "n158852427",
@@ -31902,6 +31874,34 @@
         "coordinates": [
           -73.1514779,
           42.7184536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 1757,
+        "@id": "n359268339",
+        "@changeset": 61746864,
+        "@timestamp": "2018-08-17T13:36:18Z",
+        "@version": 3,
+        "@uid": 659651,
+        "@user": "David Reik",
+        "ele": 695,
+        "gnis:county_id": "005",
+        "gnis:created": "09/12/1979",
+        "gnis:feature_id": "210326",
+        "gnis:state_id": "09",
+        "name": "Round Mountain",
+        "natural": "peak",
+        "wikidata": "Q7371100"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4762439,
+          42.0488735
         ]
       }
     },
@@ -57890,6 +57890,37 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 930.5,
+        "@id": "n9328655133",
+        "@changeset": 114803928,
+        "@timestamp": "2021-12-11T01:35:02Z",
+        "@version": 1,
+        "@uid": 360392,
+        "@user": "maxerickson",
+        "addr:city": "Carlisle",
+        "addr:housenumber": "7034",
+        "addr:postcode": "17015",
+        "addr:state": "PA",
+        "addr:street": "Carlisle Pike",
+        "brand": "Speedway",
+        "brand:wikidata": "Q7575683",
+        "brand:wikipedia": "en:Speedway (store)",
+        "name": "Speedway",
+        "ref": "6739",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.095588,
+          40.2327088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 7835.9,
         "@id": "w106674342",
@@ -58168,26 +58199,32 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_convenience",
-        "@distance": 5829.3,
+        "@distance": 5829,
         "@id": "w372535930",
-        "@changeset": 99656308,
-        "@timestamp": "2021-02-20T18:56:02Z",
-        "@version": 2,
-        "@uid": 10585023,
-        "@user": "DUGA",
-        "source": "Bing",
-        "shop": "convenience",
-        "name": "Speedway",
-        "building": "retail",
+        "@changeset": 114803972,
+        "@timestamp": "2021-12-11T01:39:07Z",
+        "@version": 3,
+        "@uid": 360392,
+        "@user": "maxerickson",
+        "addr:city": "Carlisle",
+        "addr:housenumber": "712",
+        "addr:postcode": "17013",
+        "addr:state": "PA",
+        "addr:street": "North Hanover Street",
+        "brand": "Speedway",
         "brand:wikidata": "Q7575683",
-        "brand:wikipedia": "en:Speedway LLC",
-        "brand": "Speedway"
+        "brand:wikipedia": "en:Speedway (store)",
+        "building": "retail",
+        "name": "Speedway",
+        "ref": "6716",
+        "shop": "convenience",
+        "source": "Bing"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.1830492,
-          40.2106317
+          -77.1830458,
+          40.2106242
         ]
       }
     },
@@ -60714,12 +60751,11 @@
         "@poi": "foodshop_supermarket",
         "@distance": 6745.6,
         "@id": "w159935745",
-        "@changeset": 67994149,
-        "@timestamp": "2019-03-10T16:42:23Z",
-        "@version": 4,
+        "@changeset": 114803784,
+        "@timestamp": "2021-12-11T01:20:30Z",
+        "@version": 5,
         "@uid": 115918,
         "@user": "Timothy Smith",
-        "website": "https://www.walmart.com/store/2566/charles-town-wv/whats-new",
         "addr:city": "Charles Town",
         "addr:country": "US",
         "addr:housenumber": "96",
@@ -60737,7 +60773,8 @@
         "operator:wikipedia": "en:Walmart",
         "phone": "+1-304-728-2720",
         "ref:walmart": "2566",
-        "shop": "supermarket"
+        "shop": "supermarket",
+        "website": "https://www.walmart.com/store/2566-charles-town-wv"
       },
       "geometry": {
         "type": "Point",
