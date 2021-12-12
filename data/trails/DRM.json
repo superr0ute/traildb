@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-08T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-11T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1736379,
-      "timestamp": "2021-12-08T12:05:46Z",
-      "version": 570,
-      "changeset": 114700282,
-      "user": "Andrea Del Sarto",
-      "uid": 3215770,
+      "timestamp": "2021-12-11T13:28:19Z",
+      "version": 571,
+      "changeset": 114818069,
+      "user": "map per",
+      "uid": 11758604,
       "members": [
         {"type": "node", "ref": 1779769997, "role": "stop"},
         {"type": "node", "ref": 475738007, "role": ""},
@@ -1513,11 +1513,8 @@
         {"type": "way", "ref": 446527918, "role": ""}
       ],
       "tags": {
-        "FIXME:1": "There is a small sidepath between Schlederloh and river Loisach, which is only one way (175097282) and is closed to protect nature (see note at way). Can this way be removed?",
-        "FIXME:2": "In bing the roundabout in Belluno (Viale Europa) does not look like to be a good place for walking/crossing the streets. But first better mapping of roundabout itself is needed, before route can be improved.",
-        "FIXME:3": "There is a longer dead end in southern Belluno (along Via Dino Buzzati), which might probably have been an alternate route, but now is cut of (as of 2018-08-30). It has been moved to the end of the relation. Can this be removed?",
-        "FIXME:4": "There is a gap in Musile de Piave, which cannot be closed by bing or existing ways (as of 2018-08-30)",
         "distance": "550",
+        "fixme": "In bing the roundabout in Belluno (Viale Europa) does not look like to be a good place for walking/crossing the streets. But first better mapping of roundabout itself is needed, before route can be improved.",
         "name": "Traumpfad München-Venedig",
         "name:en": "Dream path Munich-Venice",
         "name:pl": "Ścieżka marzeń Monachium-Wenecja",
@@ -20462,11 +20459,11 @@
     {
       "type": "way",
       "id": 244931786,
-      "timestamp": "2017-05-15T12:08:37Z",
-      "version": 3,
-      "changeset": 48699821,
-      "user": "Senbee",
-      "uid": 312126,
+      "timestamp": "2021-12-11T11:07:49Z",
+      "version": 4,
+      "changeset": 114813897,
+      "user": "ivanbranco",
+      "uid": 11220113,
       "nodes": [340300241, 340300898],
       "geometry": [
         {"lat": 45.6243045, "lon": 12.5627019},
@@ -20474,11 +20471,13 @@
         {"lat": 45.6239868, "lon": 12.5622884}
       ],
       "tags": {
+        "alt_name": "Via XXIV Maggio",
         "embankment": "yes",
         "highway": "secondary",
         "maxspeed": "50",
-        "name": "Via 24 Maggio",
-        "ref": "SS14"
+        "name": "Via Ventiquattro Maggio",
+        "ref": "SS14",
+        "short_name": "Via 24 Maggio"
       }
     },
     {

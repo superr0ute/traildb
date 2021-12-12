@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-10T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-11T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 12038457,
-      "timestamp": "2021-12-10T02:27:09Z",
-      "version": 146,
-      "changeset": 114765690,
-      "user": "Sibney",
-      "uid": 14601470,
+      "timestamp": "2021-12-11T23:00:45Z",
+      "version": 147,
+      "changeset": 114832946,
+      "user": "alester",
+      "uid": 307202,
       "members": [
         {"type": "way", "ref": 887724646, "role": "alternative"},
         {"type": "way", "ref": 855217906, "role": "alternative"},
@@ -754,6 +754,8 @@
         {"type": "way", "ref": 852208637, "role": ""},
         {"type": "way", "ref": 503128104, "role": ""},
         {"type": "way", "ref": 720386053, "role": ""},
+        {"type": "way", "ref": 1011334616, "role": ""},
+        {"type": "way", "ref": 138259834, "role": ""},
         {"type": "way", "ref": 852208633, "role": ""},
         {"type": "way", "ref": 894680125, "role": ""},
         {"type": "way", "ref": 26987481, "role": ""},
@@ -861,6 +863,27 @@
         "name": "Galloping Goose Regional Trail",
         "railway": "abandoned",
         "segregated": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1011334616,
+      "timestamp": "2021-12-11T23:00:45Z",
+      "version": 1,
+      "changeset": 114832946,
+      "user": "alester",
+      "uid": 307202,
+      "nodes": [6760840439, 470217795],
+      "geometry": [
+        {"lat": 48.4043228, "lon": -123.3494335},
+        {"lat": 48.404382, "lon": -123.3494887}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Clover Point",
+        "oneway": "no",
         "surface": "asphalt"
       }
     },
@@ -1384,6 +1407,35 @@
         {"lat": 48.407511, "lon": -123.3634938}
       ],
       "tags": {"highway": "footway", "surface": "paved"}
+    },
+    {
+      "type": "way",
+      "id": 138259834,
+      "timestamp": "2021-12-11T23:00:45Z",
+      "version": 6,
+      "changeset": 114832946,
+      "user": "alester",
+      "uid": 307202,
+      "nodes": [470217782, 470217795],
+      "geometry": [
+        {"lat": 48.4056874, "lon": -123.3490024},
+        {"lat": 48.4056156, "lon": -123.3489667},
+        {"lat": 48.4055501, "lon": -123.3489251},
+        {"lat": 48.4054634, "lon": -123.3489061},
+        {"lat": 48.4053995, "lon": -123.3489085},
+        {"lat": 48.4053284, "lon": -123.3489465},
+        {"lat": 48.4052732, "lon": -123.3490119},
+        {"lat": 48.405229, "lon": -123.3491295},
+        {"lat": 48.4051619, "lon": -123.349204},
+        {"lat": 48.4050424, "lon": -123.349253},
+        {"lat": 48.4048292, "lon": -123.3493083},
+        {"lat": 48.404568, "lon": -123.3493741},
+        {"lat": 48.4045147, "lon": -123.3494036},
+        {"lat": 48.4044724, "lon": -123.3494235},
+        {"lat": 48.4044231, "lon": -123.3494553},
+        {"lat": 48.404382, "lon": -123.3494887}
+      ],
+      "tags": {"highway": "service", "motor_vehicle": "private"}
     },
     {
       "type": "way",
@@ -4957,6 +5009,7 @@
         {"lat": 48.4212844, "lon": -123.3729565}
       ],
       "tags": {
+        "surface": "asphalt",
         "NHS": "yes",
         "cycleway:right": "lane",
         "highway": "primary",
@@ -4964,8 +5017,7 @@
         "maxspeed": "50",
         "name": "Belleville Street",
         "ref": "17",
-        "source:maxspeed": "sign",
-        "surface": "asphalt"
+        "source:maxspeed": "sign"
       }
     },
     {
@@ -13996,6 +14048,7 @@
         {"lat": 48.421527, "lon": -123.3739128}
       ],
       "tags": {
+        "surface": "asphalt",
         "NHS": "yes",
         "cycleway:right": "lane",
         "highway": "primary",
@@ -14003,8 +14056,7 @@
         "maxspeed": "50",
         "name": "Belleville Street",
         "ref": "17",
-        "source:maxspeed": "sign",
-        "surface": "asphalt"
+        "source:maxspeed": "sign"
       }
     },
     {
@@ -16755,6 +16807,7 @@
         {"lat": 48.4208, "lon": -123.370929}
       ],
       "tags": {
+        "surface": "asphalt",
         "NHS": "yes",
         "cycleway": "lane",
         "highway": "primary",
@@ -16762,8 +16815,7 @@
         "maxspeed": "50",
         "name": "Belleville Street",
         "ref": "17",
-        "source:maxspeed": "sign",
-        "surface": "asphalt"
+        "source:maxspeed": "sign"
       }
     },
     {
@@ -19223,14 +19275,13 @@
     {
       "type": "way",
       "id": 720386053,
-      "timestamp": "2021-10-30T21:09:42Z",
-      "version": 2,
-      "changeset": 113173256,
-      "user": "Toby Murray",
-      "uid": 2907217,
-      "nodes": [6760840438, 470217783],
+      "timestamp": "2021-12-11T23:00:45Z",
+      "version": 3,
+      "changeset": 114832946,
+      "user": "alester",
+      "uid": 307202,
+      "nodes": [6760840439, 470217783],
       "geometry": [
-        {"lat": 48.4043601, "lon": -123.3492662},
         {"lat": 48.4043228, "lon": -123.3494335},
         {"lat": 48.4042618, "lon": -123.3496336}
       ],
@@ -20998,12 +21049,12 @@
     {
       "type": "way",
       "id": 852208633,
-      "timestamp": "2021-07-12T04:06:54Z",
-      "version": 4,
-      "changeset": 107805423,
-      "user": "Computron",
-      "uid": 8259661,
-      "nodes": [294123886, 6760840438],
+      "timestamp": "2021-12-11T23:00:45Z",
+      "version": 5,
+      "changeset": 114832946,
+      "user": "alester",
+      "uid": 307202,
+      "nodes": [294123886, 470217782],
       "geometry": [
         {"lat": 48.4099305, "lon": -123.336815},
         {"lat": 48.4100138, "lon": -123.3369675},
@@ -21061,20 +21112,8 @@
         {"lat": 48.4060001, "lon": -123.3489869},
         {"lat": 48.405939, "lon": -123.3489999},
         {"lat": 48.4058709, "lon": -123.3490035},
-        {"lat": 48.4058614, "lon": -123.3489575},
-        {"lat": 48.4057531, "lon": -123.348924},
-        {"lat": 48.4056531, "lon": -123.3488962},
-        {"lat": 48.40559, "lon": -123.3488865},
-        {"lat": 48.4055235, "lon": -123.3488564},
-        {"lat": 48.40549, "lon": -123.3488332},
-        {"lat": 48.4054414, "lon": -123.3488207},
-        {"lat": 48.4053867, "lon": -123.3488217},
-        {"lat": 48.4052744, "lon": -123.3488746},
-        {"lat": 48.4051844, "lon": -123.3489788},
-        {"lat": 48.4050929, "lon": -123.3491254},
-        {"lat": 48.4049931, "lon": -123.3491769},
-        {"lat": 48.4045637, "lon": -123.3492876},
-        {"lat": 48.4043601, "lon": -123.3492662}
+        {"lat": 48.4058267, "lon": -123.3490038},
+        {"lat": 48.4056874, "lon": -123.3490024}
       ],
       "tags": {"highway": "footway", "surface": "concrete", "width": "2.5"}
     },
@@ -21327,6 +21366,7 @@
         {"lat": 48.4207883, "lon": -123.3708081}
       ],
       "tags": {
+        "turn:lanes:backward": "left|",
         "NHS": "yes",
         "highway": "primary",
         "lanes": "4",
@@ -21334,8 +21374,7 @@
         "name": "Belleville Street",
         "ref": "17",
         "source:maxspeed": "sign",
-        "surface": "asphalt",
-        "turn:lanes:backward": "left|"
+        "surface": "asphalt"
       }
     },
     {
@@ -28766,6 +28805,7 @@
         {"lat": 48.4210002, "lon": -123.3718043}
       ],
       "tags": {
+        "surface": "asphalt",
         "NHS": "yes",
         "cycleway": "lane",
         "highway": "primary",
@@ -28773,8 +28813,7 @@
         "maxspeed": "50",
         "name": "Belleville Street",
         "ref": "17",
-        "source:maxspeed": "sign",
-        "surface": "asphalt"
+        "source:maxspeed": "sign"
       }
     },
     {
