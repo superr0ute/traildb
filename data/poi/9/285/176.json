@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-12-11T23:59:59Z",
-    "timestamp_osm_base": "2021-12-12T05:29:06Z",
+    "timestamp_osm_date": "2021-12-12T23:59:59Z",
+    "timestamp_osm_base": "2021-12-13T05:33:08Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3297,14 +3297,15 @@
       "id": 706478540,
       "lat": 48.6489654,
       "lon": 20.8467041,
-      "timestamp": "2010-04-25T17:52:03Z",
-      "version": 1,
-      "changeset": 4524347,
+      "timestamp": "2021-12-12T08:33:07Z",
+      "version": 2,
+      "changeset": 114839002,
       "user": "*Martin*",
       "uid": 4815,
       "tags": {
         "name": "Gustova vyvieračka",
-        "natural": "spring"
+        "natural": "spring",
+        "refitted": "no"
       }
     },
     {
@@ -14426,19 +14427,22 @@
       "id": 3755890226,
       "lat": 48.6529662,
       "lon": 20.5361258,
-      "timestamp": "2021-09-13T13:07:57Z",
-      "version": 6,
-      "changeset": 111145146,
-      "user": "Filip009",
-      "uid": 10553599,
+      "timestamp": "2021-12-12T16:11:34Z",
+      "version": 7,
+      "changeset": 114851403,
+      "user": "eumiro",
+      "uid": 29717,
       "tags": {
         "brand": "Billa",
         "brand:wikidata": "Q537781",
-        "brand:wikipedia": "de:Billa",
+        "brand:wikipedia": "sk:BILLA",
+        "email": "info@billa.sk",
         "name": "Billa",
         "opening_hours": "Mo-Sa 07:00-20:00; Su 08:00-20:00; PH off",
+        "operator": "BILLA s.r.o.",
         "recycling:batteries": "yes",
-        "shop": "supermarket"
+        "shop": "supermarket",
+        "website": "https://www.billa.sk"
       }
     },
     {
@@ -17497,13 +17501,15 @@
       "id": 5640361546,
       "lat": 48.756408,
       "lon": 20.7599974,
-      "timestamp": "2018-05-24T19:07:44Z",
-      "version": 1,
-      "changeset": 59250734,
+      "timestamp": "2021-12-12T08:33:07Z",
+      "version": 2,
+      "changeset": 114839002,
       "user": "*Martin*",
       "uid": 4815,
       "tags": {
-        "natural": "spring"
+        "drinking_water": "yes",
+        "natural": "spring",
+        "refitted": "yes"
       }
     },
     {
@@ -22322,6 +22328,20 @@
       }
     },
     {
+      "type": "node",
+      "id": 9331430859,
+      "lat": 48.666683,
+      "lon": 20.899799,
+      "timestamp": "2021-12-12T08:18:17Z",
+      "version": 1,
+      "changeset": 114838754,
+      "user": "*Martin*",
+      "uid": 4815,
+      "tags": {
+        "natural": "cave_entrance"
+      }
+    },
+    {
       "type": "way",
       "id": 54368329,
       "timestamp": "2021-10-15T07:32:06Z",
@@ -22521,23 +22541,28 @@
     {
       "type": "way",
       "id": 62328216,
-      "timestamp": "2020-07-23T20:59:37Z",
-      "version": 6,
-      "changeset": 88425077,
-      "user": "Dodko",
-      "uid": 1944033,
+      "timestamp": "2021-12-12T16:11:34Z",
+      "version": 7,
+      "changeset": 114851403,
+      "user": "eumiro",
+      "uid": 29717,
       "center": {
         "lat": 48.6120788,
         "lon": 21.0017422
       },
       "nodes": [],
       "tags": {
+        "brand": "Billa",
+        "brand:wikidata": "Q537781",
+        "brand:wikipedia": "sk:BILLA",
         "building": "yes",
+        "email": "info@billa.sk",
         "import": "budovy201004",
-        "is_in": "Moldava nad Bodvou, Košice okolie",
         "name": "Billa",
+        "operator": "BILLA s.r.o.",
         "shop": "supermarket",
         "source": "kapor2",
+        "website": "https://www.billa.sk",
         "wheelchair": "yes"
       }
     },
@@ -23155,11 +23180,11 @@
     {
       "type": "way",
       "id": 494392823,
-      "timestamp": "2021-11-22T08:50:33Z",
-      "version": 9,
-      "changeset": 114087811,
-      "user": "Dodko",
-      "uid": 1944033,
+      "timestamp": "2021-12-12T15:58:24Z",
+      "version": 10,
+      "changeset": 114851025,
+      "user": "eumiro",
+      "uid": 29717,
       "center": {
         "lat": 48.6507837,
         "lon": 20.525391
@@ -23175,13 +23200,15 @@
         "addr:suburb": "Rožňava",
         "brand": "Kaufland",
         "brand:wikidata": "Q685967",
-        "brand:wikipedia": "en:Kaufland",
+        "brand:wikipedia": "sk:Kaufland",
         "building": "supermarket",
         "name": "Kaufland",
         "opening_hours": "Mo-Sa 07:00-21:00; Su 08:00-20:00",
+        "operator": "Kaufland Slovenská republika v.o.s.",
         "shop": "supermarket",
         "source": "kapor2",
-        "source:addr": "minvskaddress 2020-06"
+        "source:addr": "minvskaddress 2020-06",
+        "website": "https://www.kaufland.sk/"
       }
     },
     {
