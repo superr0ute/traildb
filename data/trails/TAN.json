@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-09T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-12T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1907,11 +1907,11 @@
     {
       "type": "relation",
       "id": 9591890,
-      "timestamp": "2020-11-11T18:35:48Z",
-      "version": 18,
-      "changeset": 93946484,
-      "user": "AlwynWellington",
-      "uid": 567640,
+      "timestamp": "2021-12-12T08:03:42Z",
+      "version": 20,
+      "changeset": 114838524,
+      "user": "kylenz",
+      "uid": 10140394,
       "members": [
         {"type": "relation", "ref": 9590017, "role": ""},
         {"type": "relation", "ref": 9590262, "role": ""},
@@ -2476,9 +2476,9 @@
     {
       "type": "relation",
       "id": 9606135,
-      "timestamp": "2021-09-27T03:42:12Z",
-      "version": 23,
-      "changeset": 111746111,
+      "timestamp": "2021-12-12T08:03:42Z",
+      "version": 25,
+      "changeset": 114838524,
       "user": "kylenz",
       "uid": 10140394,
       "members": [
@@ -2541,23 +2541,13 @@
         {"type": "way", "ref": 24709485, "role": ""},
         {"type": "way", "ref": 28434582, "role": ""},
         {"type": "way", "ref": 99466261, "role": ""},
-        {"type": "way", "ref": 804457540, "role": ""},
         {"type": "way", "ref": 987255275, "role": ""},
-        {"type": "way", "ref": 804406856, "role": ""},
-        {"type": "way", "ref": 835401111, "role": ""},
-        {"type": "way", "ref": 804406855, "role": ""},
-        {"type": "way", "ref": 99466260, "role": ""},
-        {"type": "way", "ref": 927525052, "role": ""},
-        {"type": "way", "ref": 163789298, "role": ""},
-        {"type": "way", "ref": 978574820, "role": ""},
-        {"type": "way", "ref": 978574819, "role": ""},
-        {"type": "way", "ref": 817979762, "role": ""},
-        {"type": "way", "ref": 817979761, "role": ""},
-        {"type": "way", "ref": 623574691, "role": ""},
-        {"type": "way", "ref": 65597604, "role": ""},
-        {"type": "way", "ref": 615737634, "role": ""},
+        {"type": "way", "ref": 930541980, "role": ""},
+        {"type": "way", "ref": 1011390957, "role": ""},
+        {"type": "way", "ref": 930541981, "role": ""},
         {"type": "way", "ref": 615737633, "role": ""},
-        {"type": "way", "ref": 978574818, "role": ""}
+        {"type": "way", "ref": 615737634, "role": ""},
+        {"type": "way", "ref": 65597604, "role": ""}
       ],
       "tags": {
         "description": "cross under a major bridge to Mangere foreshore and skirt around Auckland International Airport. NOTE: the original Mangere Bridge was closed in November 2018 as unsafe.",
@@ -5046,6 +5036,31 @@
         "highway": "steps",
         "name": "Southern Walkway",
         "sac_scale": "hiking"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1011390957,
+      "timestamp": "2021-12-12T08:00:47Z",
+      "version": 1,
+      "changeset": 114838459,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [7797729135, 8628132570],
+      "geometry": [
+        {"lat": -36.9977677, "lon": 174.8310955},
+        {"lat": -36.9975987, "lon": 174.8314291},
+        {"lat": -36.9976264, "lon": 174.831496},
+        {"lat": -36.9975912, "lon": 174.8315717}
+      ],
+      "tags": {
+        "bicycle": "designated",
+        "description": "https://www.nzta.govt.nz/projects/southwest-gateway/",
+        "foot": "designated",
+        "highway": "cycleway",
+        "name": "SH 20B Shared Path",
+        "segregated": "no",
+        "surface": "concrete"
       }
     },
     {
@@ -13884,37 +13899,6 @@
       "tags": {
         "highway": "unclassified",
         "name": "Takahue Road",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
-      "id": 163789298,
-      "timestamp": "2021-09-01T23:15:46Z",
-      "version": 17,
-      "changeset": 110587756,
-      "user": "ChookMan",
-      "uid": 11144302,
-      "nodes": [800055824, 6917581021],
-      "geometry": [
-        {"lat": -37.0012724, "lon": 174.8206802},
-        {"lat": -37.0005909, "lon": 174.8226804},
-        {"lat": -37.0004121, "lon": 174.8231873},
-        {"lat": -37.0004031, "lon": 174.8232135},
-        {"lat": -36.9999159, "lon": 174.8245367}
-      ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "trunk",
-        "hov:lanes": "designated|yes|yes|designated",
-        "lanes": "4",
-        "lanes:backward": "2",
-        "lanes:forward": "2",
-        "maxspeed": "60",
-        "name": "Puhinui Road",
-        "oneway": "no",
-        "ref": "SH 20B",
         "surface": "paved"
       }
     },
@@ -67556,7 +67540,7 @@
       "uid": 10829,
       "nodes": [291946914, 6564178462],
       "geometry": [
-        {"lat": -36.9312689, "lon": 174.7863335},
+        {"lat": -36.9312722, "lon": 174.786338},
         {"lat": -36.9313087, "lon": 174.786394},
         {"lat": -36.9313034, "lon": 174.7864459}
       ],
@@ -71809,36 +71793,6 @@
     },
     {
       "type": "way",
-      "id": 623574691,
-      "timestamp": "2021-04-16T03:58:49Z",
-      "version": 3,
-      "changeset": 103026021,
-      "user": "ChookMan",
-      "uid": 11144302,
-      "nodes": [5888806992, 246972023],
-      "geometry": [
-        {"lat": -36.9977094, "lon": 174.8310175},
-        {"lat": -36.9974924, "lon": 174.8314341}
-      ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "trunk",
-        "hov:lanes": "designated|yes|yes|designated",
-        "lanes": "4",
-        "lanes:backward": "2",
-        "lanes:forward": "2",
-        "maxspeed": "100",
-        "name": "Puhinui Road",
-        "oneway": "no",
-        "ref": "SH 20B",
-        "surface": "paved",
-        "turn:lanes:backward": "none",
-        "turn:lanes:forward": "none|right"
-      }
-    },
-    {
-      "type": "way",
       "id": 623894309,
       "timestamp": "2020-07-31T10:30:54Z",
       "version": 4,
@@ -74280,12 +74234,12 @@
     {
       "type": "way",
       "id": 65597604,
-      "timestamp": "2021-04-14T07:12:58Z",
-      "version": 12,
-      "changeset": 102908642,
-      "user": "ChookMan",
-      "uid": 11144302,
-      "nodes": [800055844, 246972023],
+      "timestamp": "2021-12-12T08:00:47Z",
+      "version": 13,
+      "changeset": 114838459,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [800055844, 8628132570],
       "geometry": [
         {"lat": -37.0063377, "lon": 174.8361567},
         {"lat": -37.0062269, "lon": 174.8361015},
@@ -74300,8 +74254,7 @@
         {"lat": -36.9979317, "lon": 174.8319398},
         {"lat": -36.9978568, "lon": 174.8318617},
         {"lat": -36.9977647, "lon": 174.8317411},
-        {"lat": -36.9975618, "lon": 174.8315124},
-        {"lat": -36.9974924, "lon": 174.8314341}
+        {"lat": -36.9975912, "lon": 174.8315717}
       ],
       "tags": {
         "highway": "unclassified",
@@ -80669,17 +80622,21 @@
     {
       "type": "way",
       "id": 684822043,
-      "timestamp": "2021-01-10T10:08:35Z",
-      "version": 5,
-      "changeset": 97240934,
-      "user": "myfanwy",
-      "uid": 10829,
+      "timestamp": "2021-12-12T04:13:48Z",
+      "version": 6,
+      "changeset": 114836006,
+      "user": "ralley",
+      "uid": 670820,
       "nodes": [2376689358, 1227378711],
       "geometry": [
         {"lat": -36.9312362, "lon": 174.7859768},
-        {"lat": -36.9312205, "lon": 174.7861035},
-        {"lat": -36.9312653, "lon": 174.7861486},
-        {"lat": -36.9313061, "lon": 174.7861645}
+        {"lat": -36.931228, "lon": 174.7860335},
+        {"lat": -36.931226, "lon": 174.7860695},
+        {"lat": -36.931229, "lon": 174.7861049},
+        {"lat": -36.9312452, "lon": 174.7861309},
+        {"lat": -36.9312595, "lon": 174.7861513},
+        {"lat": -36.9312831, "lon": 174.7861683},
+        {"lat": -36.9313066, "lon": 174.7861816}
       ],
       "tags": {
         "bicycle": "designated",
@@ -80690,17 +80647,18 @@
     {
       "type": "way",
       "id": 684822044,
-      "timestamp": "2021-01-10T10:08:35Z",
-      "version": 5,
-      "changeset": 97240934,
-      "user": "myfanwy",
-      "uid": 10829,
+      "timestamp": "2021-12-12T04:13:48Z",
+      "version": 6,
+      "changeset": 114836006,
+      "user": "ralley",
+      "uid": 670820,
       "nodes": [1227378711, 291946914],
       "geometry": [
-        {"lat": -36.9313061, "lon": 174.7861645},
+        {"lat": -36.9313066, "lon": 174.7861816},
+        {"lat": -36.9313094, "lon": 174.7861998},
         {"lat": -36.9313149, "lon": 174.7862169},
         {"lat": -36.9313076, "lon": 174.7862885},
-        {"lat": -36.9312689, "lon": 174.7863335}
+        {"lat": -36.9312722, "lon": 174.786338}
       ],
       "tags": {
         "bicycle": "designated",
@@ -89000,88 +88958,6 @@
     },
     {
       "type": "way",
-      "id": 804406855,
-      "timestamp": "2021-09-13T08:43:17Z",
-      "version": 3,
-      "changeset": 111131294,
-      "user": "Kelerei",
-      "uid": 233136,
-      "nodes": [3718525471, 3718525474],
-      "geometry": [
-        {"lat": -37.0015416, "lon": 174.8117457},
-        {"lat": -37.001603, "lon": 174.812388},
-        {"lat": -37.0016345, "lon": 174.8125971}
-      ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "primary",
-        "hov:lanes": "designated|yes|yes|designated",
-        "lanes": "4",
-        "lanes:backward": "2",
-        "lanes:forward": "2",
-        "maxspeed": "60",
-        "name": "Puhinui Road",
-        "oneway": "no",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
-      "id": 804406856,
-      "timestamp": "2021-09-13T08:43:17Z",
-      "version": 5,
-      "changeset": 111131294,
-      "user": "Kelerei",
-      "uid": 233136,
-      "nodes": [3718525476, 7797722868],
-      "geometry": [
-        {"lat": -37.001507, "lon": 174.8108645},
-        {"lat": -37.0015174, "lon": 174.8112132}
-      ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "primary",
-        "hov:lanes": "designated|yes|yes|designated",
-        "lanes": "4",
-        "lanes:backward": "2",
-        "lanes:forward": "2",
-        "maxspeed": "60",
-        "name": "Puhinui Road",
-        "oneway": "no",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
-      "id": 804457540,
-      "timestamp": "2021-09-27T03:42:12Z",
-      "version": 5,
-      "changeset": 111746111,
-      "user": "kylenz",
-      "uid": 10140394,
-      "nodes": [7797729090, 3718525476],
-      "geometry": [
-        {"lat": -37.0014807, "lon": 174.8096453},
-        {"lat": -37.001507, "lon": 174.8108645}
-      ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "primary",
-        "hov:lanes": "designated|yes|yes|designated",
-        "lanes": "4",
-        "lanes:backward": "2",
-        "lanes:forward": "2",
-        "maxspeed": "60",
-        "name": "Puhinui Road",
-        "oneway": "no",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
       "id": 808900303,
       "timestamp": "2021-11-08T14:38:03Z",
       "version": 3,
@@ -90268,65 +90144,6 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Stratford Road",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
-      "id": 817979761,
-      "timestamp": "2021-04-16T03:58:49Z",
-      "version": 2,
-      "changeset": 103026021,
-      "user": "ChookMan",
-      "uid": 11144302,
-      "nodes": [7638983183, 5888806992],
-      "geometry": [
-        {"lat": -36.997828, "lon": 174.8307896},
-        {"lat": -36.9977094, "lon": 174.8310175}
-      ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "trunk",
-        "hov:lanes": "designated|yes|yes|designated",
-        "lanes": "4",
-        "lanes:backward": "2",
-        "lanes:forward": "2",
-        "maxspeed": "100",
-        "name": "Puhinui Road",
-        "oneway": "no",
-        "ref": "SH 20B",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
-      "id": 817979762,
-      "timestamp": "2021-04-16T03:58:49Z",
-      "version": 3,
-      "changeset": 103026021,
-      "user": "ChookMan",
-      "uid": 11144302,
-      "nodes": [7638983182, 7638983183],
-      "geometry": [
-        {"lat": -36.9980361, "lon": 174.8303786},
-        {"lat": -36.9979467, "lon": 174.8305618},
-        {"lat": -36.997828, "lon": 174.8307896}
-      ],
-      "tags": {
-        "bicycle": "yes",
-        "bridge": "yes",
-        "foot": "yes",
-        "highway": "trunk",
-        "hov:lanes": "designated|yes|yes|designated",
-        "lanes": "4",
-        "lanes:backward": "2",
-        "lanes:forward": "2",
-        "layer": "1",
-        "maxspeed": "60",
-        "name": "Puhinui Road",
-        "oneway": "no",
-        "ref": "SH 20B",
         "surface": "paved"
       }
     },
@@ -92904,34 +92721,6 @@
         "maxspeed": "80",
         "name": "Schishka Road",
         "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
-      "id": 835401111,
-      "timestamp": "2021-09-13T08:43:17Z",
-      "version": 3,
-      "changeset": 111131294,
-      "user": "Kelerei",
-      "uid": 233136,
-      "nodes": [7797722868, 3718525471],
-      "geometry": [
-        {"lat": -37.0015174, "lon": 174.8112132},
-        {"lat": -37.001527, "lon": 174.811538},
-        {"lat": -37.0015416, "lon": 174.8117457}
-      ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "primary",
-        "hov:lanes": "designated|yes|yes|designated",
-        "lanes": "4",
-        "lanes:backward": "2",
-        "lanes:forward": "2",
-        "maxspeed": "60",
-        "name": "Puhinui Road",
-        "oneway": "no",
-        "surface": "paved"
       }
     },
     {
@@ -97623,36 +97412,6 @@
     },
     {
       "type": "way",
-      "id": 927525052,
-      "timestamp": "2021-09-13T08:43:17Z",
-      "version": 3,
-      "changeset": 111131294,
-      "user": "Kelerei",
-      "uid": 233136,
-      "nodes": [246972018, 800055824],
-      "geometry": [
-        {"lat": -37.0023485, "lon": 174.8171065},
-        {"lat": -37.0023043, "lon": 174.8173932},
-        {"lat": -37.0022392, "lon": 174.8176821},
-        {"lat": -37.0021493, "lon": 174.818115},
-        {"lat": -37.0012724, "lon": 174.8206802}
-      ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "primary",
-        "hov:lanes": "designated|yes|yes|designated",
-        "lanes": "4",
-        "lanes:backward": "2",
-        "lanes:forward": "2",
-        "maxspeed": "100",
-        "name": "Puhinui Road",
-        "oneway": "no",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
       "id": 928791546,
       "timestamp": "2021-05-10T10:20:02Z",
       "version": 2,
@@ -97689,6 +97448,107 @@
         {"lat": -41.1353796, "lon": 174.8403942}
       ],
       "tags": {"bicycle": "yes", "highway": "pedestrian", "name": "Ferry Place"}
+    },
+    {
+      "type": "way",
+      "id": 930541980,
+      "timestamp": "2021-12-12T08:00:47Z",
+      "version": 2,
+      "changeset": 114838459,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [7797729090, 7797729134],
+      "geometry": [
+        {"lat": -37.0014807, "lon": 174.8096453},
+        {"lat": -37.0015397, "lon": 174.8096968},
+        {"lat": -37.0015915, "lon": 174.8108242},
+        {"lat": -37.0016159, "lon": 174.811063},
+        {"lat": -37.0016211, "lon": 174.8113613},
+        {"lat": -37.0016427, "lon": 174.8114643},
+        {"lat": -37.0017556, "lon": 174.8116094},
+        {"lat": -37.0018081, "lon": 174.8117072},
+        {"lat": -37.0018267, "lon": 174.8117771},
+        {"lat": -37.0018797, "lon": 174.8122308},
+        {"lat": -37.0018539, "lon": 174.8123058},
+        {"lat": -37.0017875, "lon": 174.8124835},
+        {"lat": -37.0017677, "lon": 174.8125834},
+        {"lat": -37.0017829, "lon": 174.8126567},
+        {"lat": -37.0020418, "lon": 174.8137394},
+        {"lat": -37.002246, "lon": 174.8144237},
+        {"lat": -37.0023134, "lon": 174.8145294},
+        {"lat": -37.0023481, "lon": 174.8146647},
+        {"lat": -37.0023761, "lon": 174.8148005},
+        {"lat": -37.0023871, "lon": 174.8149805},
+        {"lat": -37.0024817, "lon": 174.8155021},
+        {"lat": -37.0025238, "lon": 174.8158755},
+        {"lat": -37.0025373, "lon": 174.8163958},
+        {"lat": -37.0025236, "lon": 174.8168573},
+        {"lat": -37.0024849, "lon": 174.8171925},
+        {"lat": -37.0024128, "lon": 174.8175607},
+        {"lat": -37.0023205, "lon": 174.8179538},
+        {"lat": -37.0022063, "lon": 174.818323},
+        {"lat": -37.0019655, "lon": 174.8190363},
+        {"lat": -37.0018454, "lon": 174.81944},
+        {"lat": -37.0013856, "lon": 174.8208145},
+        {"lat": -37.0008092, "lon": 174.8224708},
+        {"lat": -37.0003277, "lon": 174.8238931},
+        {"lat": -37.0001241, "lon": 174.8244094},
+        {"lat": -36.9998761, "lon": 174.8252744},
+        {"lat": -36.9996743, "lon": 174.8258587},
+        {"lat": -36.9996684, "lon": 174.8259717},
+        {"lat": -36.9995804, "lon": 174.8261645},
+        {"lat": -36.9995287, "lon": 174.8263528},
+        {"lat": -36.9995572, "lon": 174.8264198},
+        {"lat": -36.9995842, "lon": 174.8264687},
+        {"lat": -36.9995033, "lon": 174.8265639},
+        {"lat": -36.9994257, "lon": 174.8266923},
+        {"lat": -36.999306, "lon": 174.8270092},
+        {"lat": -36.9992328, "lon": 174.8271789},
+        {"lat": -36.9991243, "lon": 174.8274219},
+        {"lat": -36.9988546, "lon": 174.8282409},
+        {"lat": -36.9987054, "lon": 174.8287603},
+        {"lat": -36.9985827, "lon": 174.829249},
+        {"lat": -36.9984698, "lon": 174.8296172},
+        {"lat": -36.9983441, "lon": 174.8299655},
+        {"lat": -36.9982312, "lon": 174.830219},
+        {"lat": -36.998119, "lon": 174.8304455}
+      ],
+      "tags": {
+        "bicycle": "designated",
+        "description": "https://www.nzta.govt.nz/projects/southwest-gateway/",
+        "foot": "designated",
+        "highway": "cycleway",
+        "name": "SH 20B Shared Path",
+        "proposed": "cycleway",
+        "segregated": "no",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "way",
+      "id": 930541981,
+      "timestamp": "2021-12-12T08:00:47Z",
+      "version": 2,
+      "changeset": 114838459,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [7797729134, 7797729135],
+      "geometry": [
+        {"lat": -36.998119, "lon": 174.8304455},
+        {"lat": -36.9977677, "lon": 174.8310955}
+      ],
+      "tags": {
+        "bicycle": "designated",
+        "bridge": "yes",
+        "description": "https://www.nzta.govt.nz/projects/southwest-gateway/",
+        "foot": "designated",
+        "highway": "cycleway",
+        "layer": "1",
+        "name": "SH 20B Shared Path",
+        "proposed": "cycleway",
+        "segregated": "no",
+        "surface": "concrete"
+      }
     },
     {
       "type": "way",
@@ -100234,108 +100094,6 @@
     },
     {
       "type": "way",
-      "id": 978574818,
-      "timestamp": "2021-09-01T23:15:46Z",
-      "version": 1,
-      "changeset": 110587756,
-      "user": "ChookMan",
-      "uid": 11144302,
-      "nodes": [6917581021, 9054743294],
-      "geometry": [
-        {"lat": -36.9999159, "lon": 174.8245367},
-        {"lat": -36.9997519, "lon": 174.8248835},
-        {"lat": -36.9995542, "lon": 174.8253832},
-        {"lat": -36.9993319, "lon": 174.8260545},
-        {"lat": -36.9990356, "lon": 174.826954},
-        {"lat": -36.9989873, "lon": 174.8271064},
-        {"lat": -36.9989459, "lon": 174.8272799},
-        {"lat": -36.9989127, "lon": 174.8274193},
-        {"lat": -36.998814, "lon": 174.8280479}
-      ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "trunk",
-        "hov:lanes": "designated|yes|yes|",
-        "lanes": "3",
-        "maxspeed": "60",
-        "name": "Puhinui Road",
-        "oneway": "yes",
-        "ref": "SH 20B",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
-      "id": 978574819,
-      "timestamp": "2021-09-01T23:15:46Z",
-      "version": 1,
-      "changeset": 110587756,
-      "user": "ChookMan",
-      "uid": 11144302,
-      "nodes": [9054743294, 7638983182],
-      "geometry": [
-        {"lat": -36.998814, "lon": 174.8280479},
-        {"lat": -36.998774, "lon": 174.8281532},
-        {"lat": -36.9986703, "lon": 174.8285232},
-        {"lat": -36.9985963, "lon": 174.8287896},
-        {"lat": -36.9984599, "lon": 174.8293338},
-        {"lat": -36.9983327, "lon": 174.8297276},
-        {"lat": -36.9981752, "lon": 174.8301031},
-        {"lat": -36.9980361, "lon": 174.8303786}
-      ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "trunk",
-        "hov:lanes": "designated|yes|yes|designated",
-        "lanes": "4",
-        "lanes:backward": "2",
-        "lanes:forward": "2",
-        "maxspeed": "60",
-        "name": "Puhinui Road",
-        "oneway": "no",
-        "ref": "SH 20B",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
-      "id": 978574820,
-      "timestamp": "2021-09-01T23:15:46Z",
-      "version": 1,
-      "changeset": 110587756,
-      "user": "ChookMan",
-      "uid": 11144302,
-      "nodes": [9054743294, 6917581021],
-      "geometry": [
-        {"lat": -36.998814, "lon": 174.8280479},
-        {"lat": -36.999018, "lon": 174.8274538},
-        {"lat": -36.9990621, "lon": 174.8273427},
-        {"lat": -36.9990879, "lon": 174.8272822},
-        {"lat": -36.9991632, "lon": 174.8270598},
-        {"lat": -36.9992752, "lon": 174.8267772},
-        {"lat": -36.9994666, "lon": 174.8261183},
-        {"lat": -36.9995185, "lon": 174.8259471},
-        {"lat": -36.999627, "lon": 174.8255891},
-        {"lat": -36.9998274, "lon": 174.8249321},
-        {"lat": -36.9999159, "lon": 174.8245367}
-      ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "trunk",
-        "hov:lanes": "designated|yes|yes|",
-        "lanes": "3",
-        "maxspeed": "60",
-        "name": "Puhinui Road",
-        "oneway": "yes",
-        "ref": "SH 20B",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
       "id": 979782950,
       "timestamp": "2021-09-05T11:04:19Z",
       "version": 1,
@@ -102107,42 +101865,6 @@
         "highway": "tertiary",
         "lanes": "1",
         "name": "Turakina Beach Road",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
-      "id": 99466260,
-      "timestamp": "2021-09-13T08:43:17Z",
-      "version": 15,
-      "changeset": 111131294,
-      "user": "Kelerei",
-      "uid": 233136,
-      "nodes": [3718525474, 246972018],
-      "geometry": [
-        {"lat": -37.0016345, "lon": 174.8125971},
-        {"lat": -37.001713, "lon": 174.813015},
-        {"lat": -37.0018123, "lon": 174.8134463},
-        {"lat": -37.0021675, "lon": 174.8147184},
-        {"lat": -37.0022431, "lon": 174.8150189},
-        {"lat": -37.0023262, "lon": 174.8154259},
-        {"lat": -37.0023706, "lon": 174.8157986},
-        {"lat": -37.0023928, "lon": 174.8161541},
-        {"lat": -37.0023961, "lon": 174.8165013},
-        {"lat": -37.0023756, "lon": 174.8168123},
-        {"lat": -37.0023485, "lon": 174.8171065}
-      ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "primary",
-        "hov:lanes": "designated|yes|yes|designated",
-        "lanes": "4",
-        "lanes:backward": "2",
-        "lanes:forward": "2",
-        "maxspeed": "60",
-        "name": "Puhinui Road",
-        "oneway": "no",
         "surface": "paved"
       }
     },

@@ -1,17 +1,15 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-11T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-12T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 12038457,
-      "timestamp": "2021-12-11T23:00:45Z",
-      "version": 147,
-      "changeset": 114832946,
-      "user": "alester",
-      "uid": 307202,
+      "timestamp": "2021-12-12T17:37:58Z",
+      "version": 149,
+      "changeset": 114853809,
+      "user": "Sibney",
+      "uid": 14601470,
       "members": [
-        {"type": "way", "ref": 887724646, "role": "alternative"},
-        {"type": "way", "ref": 855217906, "role": "alternative"},
         {"type": "way", "ref": 810338364, "role": "alternative"},
         {"type": "way", "ref": 810338373, "role": "alternative"},
         {"type": "way", "ref": 810338368, "role": "alternative"},
@@ -762,14 +760,6 @@
         {"type": "way", "ref": 894680126, "role": ""},
         {"type": "way", "ref": 552939001, "role": ""},
         {"type": "way", "ref": 852208635, "role": ""},
-        {"type": "way", "ref": 39704650, "role": ""},
-        {"type": "way", "ref": 8047085, "role": ""},
-        {"type": "way", "ref": 408081152, "role": ""},
-        {"type": "way", "ref": 132378745, "role": ""},
-        {"type": "way", "ref": 8047088, "role": ""},
-        {"type": "way", "ref": 5019405, "role": ""},
-        {"type": "way", "ref": 140185022, "role": ""},
-        {"type": "way", "ref": 886411152, "role": ""},
         {"type": "way", "ref": 886411153, "role": ""},
         {"type": "way", "ref": 704406838, "role": ""},
         {"type": "way", "ref": 88986050, "role": ""},
@@ -785,6 +775,18 @@
         {"type": "way", "ref": 259780649, "role": ""},
         {"type": "way", "ref": 420056517, "role": ""},
         {"type": "way", "ref": 887724645, "role": ""},
+        {"type": "way", "ref": 887724646, "role": "alternative"},
+        {"type": "way", "ref": 855217906, "role": "alternative"},
+        {"type": "way", "ref": 1011491786, "role": "alternative"},
+        {"type": "way", "ref": 886411152, "role": ""},
+        {"type": "way", "ref": 140185022, "role": ""},
+        {"type": "way", "ref": 5019405, "role": ""},
+        {"type": "way", "ref": 8047088, "role": ""},
+        {"type": "way", "ref": 1011485959, "role": ""},
+        {"type": "way", "ref": 132378745, "role": ""},
+        {"type": "way", "ref": 408081152, "role": ""},
+        {"type": "way", "ref": 8047085, "role": ""},
+        {"type": "way", "ref": 39704650, "role": ""},
         {"type": "way", "ref": 886411155, "role": ""},
         {"type": "way", "ref": 886411157, "role": ""},
         {"type": "way", "ref": 886411158, "role": ""},
@@ -885,6 +887,55 @@
         "name": "Clover Point",
         "oneway": "no",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1011485959,
+      "timestamp": "2021-12-12T16:59:54Z",
+      "version": 1,
+      "changeset": 114852767,
+      "user": "Sibney",
+      "uid": 14601470,
+      "nodes": [5312792399, 25938168],
+      "geometry": [
+        {"lat": 48.4115188, "lon": -123.3308874},
+        {"lat": 48.4112004, "lon": -123.3314471}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "maxspeed": "30",
+        "name": "Crescent Road",
+        "sidewalk": "right",
+        "source:maxspeed": "sign"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1011491786,
+      "timestamp": "2021-12-12T17:37:58Z",
+      "version": 1,
+      "changeset": 114853809,
+      "user": "Sibney",
+      "uid": 14601470,
+      "nodes": [1516701690, 1516701721],
+      "geometry": [
+        {"lat": 48.408498, "lon": -123.3196032},
+        {"lat": 48.408476, "lon": -123.3196729},
+        {"lat": 48.4084648, "lon": -123.3197429},
+        {"lat": 48.4084653, "lon": -123.3198078},
+        {"lat": 48.4084747, "lon": -123.319874},
+        {"lat": 48.4084891, "lon": -123.3199206},
+        {"lat": 48.4085126, "lon": -123.3199781},
+        {"lat": 48.4085522, "lon": -123.3200362},
+        {"lat": 48.4087245, "lon": -123.3202302}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "maxspeed": "30",
+        "name": "King George Terrace",
+        "sidewalk": "no",
+        "source:maxspeed": "sign"
       }
     },
     {
@@ -1478,11 +1529,11 @@
     {
       "type": "way",
       "id": 140185022,
-      "timestamp": "2021-07-11T02:14:28Z",
-      "version": 3,
-      "changeset": 107766553,
-      "user": "Computron",
-      "uid": 8259661,
+      "timestamp": "2021-12-12T17:37:58Z",
+      "version": 4,
+      "changeset": 114853809,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [25938134, 25938099],
       "geometry": [
         {"lat": 48.4119702, "lon": -123.3266573},
@@ -1501,6 +1552,7 @@
         "highway": "secondary",
         "maxspeed": "30",
         "name": "Crescent Road",
+        "sidewalk": "right",
         "source:maxspeed": "sign"
       }
     },
@@ -4996,11 +5048,11 @@
     {
       "type": "way",
       "id": 257838720,
-      "timestamp": "2021-05-21T22:16:44Z",
-      "version": 8,
-      "changeset": 105113528,
-      "user": "smithkm",
-      "uid": 93326,
+      "timestamp": "2021-12-12T01:30:56Z",
+      "version": 9,
+      "changeset": 114834500,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [1009362467, 8754302625],
       "geometry": [
         {"lat": 48.421527, "lon": -123.3739128},
@@ -5009,7 +5061,6 @@
         {"lat": 48.4212844, "lon": -123.3729565}
       ],
       "tags": {
-        "surface": "asphalt",
         "NHS": "yes",
         "cycleway:right": "lane",
         "highway": "primary",
@@ -5017,7 +5068,9 @@
         "maxspeed": "50",
         "name": "Belleville Street",
         "ref": "17",
-        "source:maxspeed": "sign"
+        "sidewalk": "both",
+        "source:maxspeed": "sign",
+        "surface": "asphalt"
       }
     },
     {
@@ -5199,11 +5252,11 @@
     {
       "type": "way",
       "id": 259292245,
-      "timestamp": "2014-02-19T04:57:01Z",
-      "version": 2,
-      "changeset": 20649571,
-      "user": "alester",
-      "uid": 307202,
+      "timestamp": "2021-12-12T17:37:58Z",
+      "version": 3,
+      "changeset": 114853809,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [627373228, 467003807],
       "geometry": [
         {"lat": 48.413606, "lon": -123.3247023},
@@ -5213,7 +5266,7 @@
         {"lat": 48.4136554, "lon": -123.3239237},
         {"lat": 48.4136815, "lon": -123.3238553}
       ],
-      "tags": {"highway": "service"}
+      "tags": {"highway": "service", "sidewalk": "no"}
     },
     {
       "type": "way",
@@ -11058,11 +11111,11 @@
     {
       "type": "way",
       "id": 39704650,
-      "timestamp": "2021-11-26T00:10:20Z",
-      "version": 14,
-      "changeset": 114241604,
-      "user": "thomasrothschild",
-      "uid": 14522435,
+      "timestamp": "2021-12-12T16:59:54Z",
+      "version": 15,
+      "changeset": 114852767,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [25938385, 25938395],
       "geometry": [
         {"lat": 48.4100628, "lon": -123.336292},
@@ -11094,6 +11147,7 @@
         "highway": "secondary",
         "maxspeed": "30",
         "name": "Hollywood Crescent",
+        "sidewalk": "both",
         "source": "Toporama NRCan wms layer"
       }
     },
@@ -11415,11 +11469,11 @@
     {
       "type": "way",
       "id": 408081152,
-      "timestamp": "2021-11-26T00:10:20Z",
-      "version": 4,
-      "changeset": 114241604,
-      "user": "thomasrothschild",
-      "uid": 14522435,
+      "timestamp": "2021-12-12T16:59:54Z",
+      "version": 5,
+      "changeset": 114852767,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [476061523, 25938165],
       "geometry": [
         {"lat": 48.4101339, "lon": -123.3314353},
@@ -11435,6 +11489,7 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Robertson Street",
+        "sidewalk": "both",
         "source": "NRCan-CanVec-8.0",
         "surface": "paved"
       }
@@ -14037,18 +14092,17 @@
     {
       "type": "way",
       "id": 475872378,
-      "timestamp": "2021-05-21T22:16:44Z",
-      "version": 3,
-      "changeset": 105113528,
-      "user": "smithkm",
-      "uid": 93326,
+      "timestamp": "2021-12-12T01:30:56Z",
+      "version": 4,
+      "changeset": 114834500,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [26824063, 1009362467],
       "geometry": [
         {"lat": 48.4216168, "lon": -123.3741635},
         {"lat": 48.421527, "lon": -123.3739128}
       ],
       "tags": {
-        "surface": "asphalt",
         "NHS": "yes",
         "cycleway:right": "lane",
         "highway": "primary",
@@ -14056,7 +14110,9 @@
         "maxspeed": "50",
         "name": "Belleville Street",
         "ref": "17",
-        "source:maxspeed": "sign"
+        "sidewalk": "both",
+        "source:maxspeed": "sign",
+        "surface": "asphalt"
       }
     },
     {
@@ -15376,11 +15432,11 @@
     {
       "type": "way",
       "id": 5019405,
-      "timestamp": "2011-12-07T22:56:35Z",
-      "version": 7,
-      "changeset": 10061789,
-      "user": "alester",
-      "uid": 307202,
+      "timestamp": "2021-12-12T16:59:54Z",
+      "version": 8,
+      "changeset": 114852767,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [25938135, 25938134],
       "geometry": [
         {"lat": 48.4122169, "lon": -123.3284063},
@@ -15392,6 +15448,7 @@
         "highway": "secondary",
         "maxspeed": "30",
         "name": "Crescent Road",
+        "sidewalk": "both",
         "source:maxspeed": "sign"
       }
     },
@@ -16793,11 +16850,11 @@
     {
       "type": "way",
       "id": 503128117,
-      "timestamp": "2021-07-18T19:47:31Z",
-      "version": 4,
-      "changeset": 108206437,
-      "user": "Iain I",
-      "uid": 708274,
+      "timestamp": "2021-12-12T01:30:56Z",
+      "version": 5,
+      "changeset": 114834500,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [278613241, 26824068],
       "geometry": [
         {"lat": 48.4210002, "lon": -123.3718043},
@@ -16807,7 +16864,6 @@
         {"lat": 48.4208, "lon": -123.370929}
       ],
       "tags": {
-        "surface": "asphalt",
         "NHS": "yes",
         "cycleway": "lane",
         "highway": "primary",
@@ -16815,7 +16871,9 @@
         "maxspeed": "50",
         "name": "Belleville Street",
         "ref": "17",
-        "source:maxspeed": "sign"
+        "sidewalk": "both",
+        "source:maxspeed": "sign",
+        "surface": "asphalt"
       }
     },
     {
@@ -20004,28 +20062,32 @@
     {
       "type": "way",
       "id": 8047085,
-      "timestamp": "2012-07-20T02:10:12Z",
-      "version": 9,
-      "changeset": 12357638,
-      "user": "alester",
-      "uid": 307202,
+      "timestamp": "2021-12-12T16:59:54Z",
+      "version": 10,
+      "changeset": 114852767,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [25938395, 476061523],
       "geometry": [
         {"lat": 48.408789, "lon": -123.3316132},
         {"lat": 48.4100538, "lon": -123.3315944},
         {"lat": 48.4101339, "lon": -123.3314353}
       ],
-      "tags": {"highway": "residential", "name": "Robertson Street"}
+      "tags": {
+        "highway": "residential",
+        "name": "Robertson Street",
+        "sidewalk": "both"
+      }
     },
     {
       "type": "way",
       "id": 8047088,
-      "timestamp": "2021-07-11T01:17:28Z",
-      "version": 14,
-      "changeset": 107766164,
-      "user": "Computron",
-      "uid": 8259661,
-      "nodes": [25938135, 25938168],
+      "timestamp": "2021-12-12T16:59:54Z",
+      "version": 15,
+      "changeset": 114852767,
+      "user": "Sibney",
+      "uid": 14601470,
+      "nodes": [25938135, 5312792399],
       "geometry": [
         {"lat": 48.4122169, "lon": -123.3284063},
         {"lat": 48.4122312, "lon": -123.3285788},
@@ -20038,13 +20100,13 @@
         {"lat": 48.4118169, "lon": -123.3303253},
         {"lat": 48.4117348, "lon": -123.3305004},
         {"lat": 48.4115977, "lon": -123.3307467},
-        {"lat": 48.4115188, "lon": -123.3308874},
-        {"lat": 48.4112004, "lon": -123.3314471}
+        {"lat": 48.4115188, "lon": -123.3308874}
       ],
       "tags": {
         "highway": "secondary",
         "maxspeed": "30",
         "name": "Crescent Road",
+        "sidewalk": "both",
         "source:maxspeed": "sign"
       }
     },
@@ -21196,21 +21258,13 @@
     {
       "type": "way",
       "id": 855217906,
-      "timestamp": "2020-12-19T10:13:45Z",
-      "version": 2,
-      "changeset": 96102569,
-      "user": "DENelson83",
-      "uid": 14512,
-      "nodes": [1516701690, 25938118],
+      "timestamp": "2021-12-12T17:37:58Z",
+      "version": 3,
+      "changeset": 114853809,
+      "user": "Sibney",
+      "uid": 14601470,
+      "nodes": [1516701721, 25938118],
       "geometry": [
-        {"lat": 48.408498, "lon": -123.3196032},
-        {"lat": 48.408476, "lon": -123.3196729},
-        {"lat": 48.4084648, "lon": -123.3197429},
-        {"lat": 48.4084653, "lon": -123.3198078},
-        {"lat": 48.4084747, "lon": -123.319874},
-        {"lat": 48.4084891, "lon": -123.3199206},
-        {"lat": 48.4085126, "lon": -123.3199781},
-        {"lat": 48.4085522, "lon": -123.3200362},
         {"lat": 48.4087245, "lon": -123.3202302},
         {"lat": 48.4089533, "lon": -123.3204974},
         {"lat": 48.4093258, "lon": -123.3208703},
@@ -21229,6 +21283,7 @@
         "highway": "secondary",
         "maxspeed": "30",
         "name": "King George Terrace",
+        "sidewalk": "left",
         "source:maxspeed": "sign"
       }
     },
@@ -21355,26 +21410,27 @@
     {
       "type": "way",
       "id": 886411145,
-      "timestamp": "2020-12-19T10:13:45Z",
-      "version": 1,
-      "changeset": 96102569,
-      "user": "DENelson83",
-      "uid": 14512,
+      "timestamp": "2021-12-12T01:30:56Z",
+      "version": 2,
+      "changeset": 114834500,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [26824068, 1500573765],
       "geometry": [
         {"lat": 48.4208, "lon": -123.370929},
         {"lat": 48.4207883, "lon": -123.3708081}
       ],
       "tags": {
-        "turn:lanes:backward": "left|",
         "NHS": "yes",
         "highway": "primary",
         "lanes": "4",
         "maxspeed": "50",
         "name": "Belleville Street",
         "ref": "17",
+        "sidewalk": "both",
         "source:maxspeed": "sign",
-        "surface": "asphalt"
+        "surface": "asphalt",
+        "turn:lanes:backward": "left|"
       }
     },
     {
@@ -21467,11 +21523,11 @@
     {
       "type": "way",
       "id": 886411152,
-      "timestamp": "2021-07-11T02:14:28Z",
-      "version": 2,
-      "changeset": 107766553,
-      "user": "Computron",
-      "uid": 8259661,
+      "timestamp": "2021-12-12T17:37:58Z",
+      "version": 3,
+      "changeset": 114853809,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [25938118, 25938099],
       "geometry": [
         {"lat": 48.4107615, "lon": -123.3222641},
@@ -21486,17 +21542,18 @@
         "highway": "secondary",
         "maxspeed": "30",
         "name": "King George Terrace",
+        "sidewalk": "left",
         "source:maxspeed": "sign"
       }
     },
     {
       "type": "way",
       "id": 886411153,
-      "timestamp": "2021-07-11T02:14:28Z",
-      "version": 2,
-      "changeset": 107766553,
-      "user": "Computron",
-      "uid": 8259661,
+      "timestamp": "2021-12-12T16:59:54Z",
+      "version": 3,
+      "changeset": 114852767,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [25938118, 1032758447],
       "geometry": [
         {"lat": 48.4107615, "lon": -123.3222641},
@@ -21510,16 +21567,20 @@
         {"lat": 48.4126435, "lon": -123.3251418},
         {"lat": 48.4127824, "lon": -123.3252621}
       ],
-      "tags": {"highway": "residential", "name": "Barkley Terrace"}
+      "tags": {
+        "highway": "residential",
+        "name": "Barkley Terrace",
+        "sidewalk": "no"
+      }
     },
     {
       "type": "way",
       "id": 886411154,
-      "timestamp": "2020-12-23T04:53:29Z",
-      "version": 2,
-      "changeset": 96293652,
-      "user": "DENelson83",
-      "uid": 14512,
+      "timestamp": "2021-12-12T17:37:58Z",
+      "version": 3,
+      "changeset": 114853809,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [467003794, 467003807],
       "geometry": [
         {"lat": 48.4112455, "lon": -123.3205543},
@@ -21546,16 +21607,20 @@
         {"lat": 48.413641, "lon": -123.3238502},
         {"lat": 48.4136815, "lon": -123.3238553}
       ],
-      "tags": {"highway": "residential", "name": "Denison Road"}
+      "tags": {
+        "highway": "residential",
+        "name": "Denison Road",
+        "sidewalk": "no"
+      }
     },
     {
       "type": "way",
       "id": 886411155,
-      "timestamp": "2020-12-23T04:53:29Z",
-      "version": 2,
-      "changeset": 96293652,
-      "user": "DENelson83",
-      "uid": 14512,
+      "timestamp": "2021-12-12T17:37:58Z",
+      "version": 3,
+      "changeset": 114853809,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [25938056, 25938064],
       "geometry": [
         {"lat": 48.4120688, "lon": -123.3171223},
@@ -21565,17 +21630,18 @@
         "highway": "secondary",
         "maxspeed": "30",
         "name": "King George Terrace",
+        "sidewalk": "both",
         "source:maxspeed": "sign"
       }
     },
     {
       "type": "way",
       "id": 886411157,
-      "timestamp": "2021-07-11T02:17:02Z",
-      "version": 4,
-      "changeset": 107766568,
-      "user": "Computron",
-      "uid": 8259661,
+      "timestamp": "2021-12-12T18:04:46Z",
+      "version": 5,
+      "changeset": 114854611,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [25883224, 25938056],
       "geometry": [
         {"lat": 48.4114044, "lon": -123.3027627},
@@ -21634,17 +21700,18 @@
         "highway": "secondary",
         "maxspeed": "40",
         "name": "Beach Drive",
+        "sidewalk": "left",
         "source:maxspeed": "sign"
       }
     },
     {
       "type": "way",
       "id": 886411158,
-      "timestamp": "2021-07-11T02:14:28Z",
-      "version": 2,
-      "changeset": 107766553,
-      "user": "Computron",
-      "uid": 8259661,
+      "timestamp": "2021-12-12T18:04:46Z",
+      "version": 3,
+      "changeset": 114854611,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [25883224, 25883235],
       "geometry": [
         {"lat": 48.4114044, "lon": -123.3027627},
@@ -21663,7 +21730,8 @@
       "tags": {
         "highway": "tertiary",
         "maxspeed": "35",
-        "name": "Newport Avenue"
+        "name": "Newport Avenue",
+        "sidewalk": "both"
       }
     },
     {
@@ -25997,11 +26065,11 @@
     {
       "type": "way",
       "id": 887724646,
-      "timestamp": "2020-12-23T05:04:57Z",
-      "version": 2,
-      "changeset": 96294183,
-      "user": "DENelson83",
-      "uid": 14512,
+      "timestamp": "2021-12-12T17:37:58Z",
+      "version": 3,
+      "changeset": 114853809,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [25938064, 1516701690],
       "geometry": [
         {"lat": 48.4113066, "lon": -123.3181619},
@@ -26035,6 +26103,7 @@
         "highway": "secondary",
         "maxspeed": "30",
         "name": "King George Terrace",
+        "sidewalk": "left",
         "source:maxspeed": "sign"
       }
     },
@@ -28792,11 +28861,11 @@
     {
       "type": "way",
       "id": 945628821,
-      "timestamp": "2021-07-18T19:47:31Z",
-      "version": 2,
-      "changeset": 108206437,
-      "user": "Iain I",
-      "uid": 708274,
+      "timestamp": "2021-12-12T01:30:56Z",
+      "version": 3,
+      "changeset": 114834500,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [8754302625, 278613241],
       "geometry": [
         {"lat": 48.4212844, "lon": -123.3729565},
@@ -28805,7 +28874,6 @@
         {"lat": 48.4210002, "lon": -123.3718043}
       ],
       "tags": {
-        "surface": "asphalt",
         "NHS": "yes",
         "cycleway": "lane",
         "highway": "primary",
@@ -28813,7 +28881,9 @@
         "maxspeed": "50",
         "name": "Belleville Street",
         "ref": "17",
-        "source:maxspeed": "sign"
+        "sidewalk": "both",
+        "source:maxspeed": "sign",
+        "surface": "asphalt"
       }
     },
     {

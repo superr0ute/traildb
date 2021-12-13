@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-08T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-12T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1074,11 +1074,11 @@
     {
       "type": "relation",
       "id": 62897,
-      "timestamp": "2021-12-08T23:04:06Z",
-      "version": 207,
-      "changeset": 114720352,
-      "user": "skyper",
-      "uid": 152744,
+      "timestamp": "2021-12-12T12:37:37Z",
+      "version": 208,
+      "changeset": 114844946,
+      "user": "*abq*",
+      "uid": 3696195,
       "members": [
         {"type": "node", "ref": 1955826026, "role": "guidepost"},
         {"type": "node", "ref": 1955825919, "role": "guidepost"},
@@ -1266,6 +1266,7 @@
         {"type": "way", "ref": 93515872, "role": ""},
         {"type": "way", "ref": 185354172, "role": ""},
         {"type": "way", "ref": 93512367, "role": ""},
+        {"type": "way", "ref": 1011440161, "role": ""},
         {"type": "way", "ref": 930742780, "role": ""},
         {"type": "way", "ref": 932888371, "role": ""},
         {"type": "way", "ref": 1009369225, "role": ""},
@@ -2871,6 +2872,33 @@
         "highway": "track",
         "surface": "fine_gravel",
         "tracktype": "grade2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1011440161,
+      "timestamp": "2021-12-12T12:37:37Z",
+      "version": 1,
+      "changeset": 114844946,
+      "user": "*abq*",
+      "uid": 3696195,
+      "nodes": [1959412827, 298202514],
+      "geometry": [
+        {"lat": 47.8665603, "lon": 7.9797909},
+        {"lat": 47.8665523, "lon": 7.9794937}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "incline": "10",
+        "piste:grooming": "classic+skating",
+        "piste:oneway": "yes",
+        "piste:type": "nordic",
+        "sac_scale": "hiking",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "width": "3"
       }
     },
     {
@@ -48228,12 +48256,12 @@
     {
       "type": "way",
       "id": 93512367,
-      "timestamp": "2021-04-14T15:24:37Z",
-      "version": 12,
-      "changeset": 102939097,
-      "user": "berlinBerwin",
-      "uid": 13079164,
-      "nodes": [529520597, 298202514],
+      "timestamp": "2021-12-12T12:37:37Z",
+      "version": 13,
+      "changeset": 114844946,
+      "user": "*abq*",
+      "uid": 3696195,
+      "nodes": [529520597, 1959412827],
       "geometry": [
         {"lat": 47.8682292, "lon": 7.9934767},
         {"lat": 47.8682317, "lon": 7.9932313},
@@ -48270,8 +48298,7 @@
         {"lat": 47.8665869, "lon": 7.9807322},
         {"lat": 47.8665739, "lon": 7.9803896},
         {"lat": 47.8665863, "lon": 7.9801168},
-        {"lat": 47.8665603, "lon": 7.9797909},
-        {"lat": 47.8665523, "lon": 7.9794937}
+        {"lat": 47.8665603, "lon": 7.9797909}
       ],
       "tags": {
         "bicycle": "yes",
