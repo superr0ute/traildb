@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-12T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-13T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11123868,
-      "timestamp": "2021-12-09T16:30:51Z",
-      "version": 178,
-      "changeset": 114751296,
+      "timestamp": "2021-12-13T17:57:13Z",
+      "version": 179,
+      "changeset": 114892734,
       "user": "hatul",
       "uid": 686490,
       "members": [
@@ -1307,6 +1307,7 @@
         {"type": "way", "ref": 133881139, "role": ""},
         {"type": "way", "ref": 243482122, "role": ""},
         {"type": "way", "ref": 295611897, "role": ""},
+        {"type": "way", "ref": 1011837116, "role": ""},
         {"type": "way", "ref": 561940224, "role": ""},
         {"type": "way", "ref": 813954605, "role": ""},
         {"type": "way", "ref": 133881138, "role": ""},
@@ -2565,6 +2566,23 @@
         {"lat": 32.0912697, "lon": 34.9835155}
       ],
       "tags": {"highway": "track"}
+    },
+    {
+      "type": "way",
+      "id": 1011837116,
+      "timestamp": "2021-12-13T17:57:13Z",
+      "version": 1,
+      "changeset": 114892734,
+      "user": "hatul",
+      "uid": 686490,
+      "nodes": [3474969631, 2993515713],
+      "geometry": [
+        {"lat": 32.0669041, "lon": 34.9705683},
+        {"lat": 32.067131, "lon": 34.970534},
+        {"lat": 32.067277, "lon": 34.970557},
+        {"lat": 32.0673939, "lon": 34.9706171}
+      ],
+      "tags": {"colour": "red", "highway": "track"}
     },
     {
       "type": "way",
@@ -15176,16 +15194,13 @@
     {
       "type": "way",
       "id": 295611897,
-      "timestamp": "2020-10-14T18:46:41Z",
-      "version": 5,
-      "changeset": 92488602,
-      "user": "milsh",
-      "uid": 11988599,
-      "nodes": [3474969631, 3076567381],
+      "timestamp": "2021-12-13T17:57:13Z",
+      "version": 6,
+      "changeset": 114892734,
+      "user": "hatul",
+      "uid": 686490,
+      "nodes": [2993515713, 3076567381],
       "geometry": [
-        {"lat": 32.0669041, "lon": 34.9705683},
-        {"lat": 32.067131, "lon": 34.970534},
-        {"lat": 32.067277, "lon": 34.970557},
         {"lat": 32.0673939, "lon": 34.9706171},
         {"lat": 32.067487, "lon": 34.970665},
         {"lat": 32.067583, "lon": 34.970688},
@@ -15204,7 +15219,7 @@
         {"lat": 32.072075, "lon": 34.968959},
         {"lat": 32.0721564, "lon": 34.9689542}
       ],
-      "tags": {"colour": "red", "highway": "track"}
+      "tags": {"highway": "track"}
     },
     {
       "type": "way",
