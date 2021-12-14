@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-12-12T23:59:59Z",
-    "timestamp_osm_base": "2021-12-13T04:45:36Z",
+    "timestamp_osm_date": "2021-12-13T23:59:59Z",
+    "timestamp_osm_base": "2021-12-14T04:51:11Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -23911,6 +23911,20 @@
     },
     {
       "type": "node",
+      "id": 3141452499,
+      "lat": 47.2846915,
+      "lon": 9.7299586,
+      "timestamp": "2021-12-13T20:28:31Z",
+      "version": 2,
+      "changeset": 114896948,
+      "user": "Bernhard_r",
+      "uid": 1747877,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
       "id": 3148876242,
       "lat": 47.4741887,
       "lon": 9.4953346,
@@ -30937,22 +30951,6 @@
     },
     {
       "type": "node",
-      "id": 4880701670,
-      "lat": 47.1168943,
-      "lon": 9.5651043,
-      "timestamp": "2020-03-27T20:26:42Z",
-      "version": 3,
-      "changeset": 82732361,
-      "user": "Edward",
-      "uid": 364,
-      "tags": {
-        "name": "Sücka",
-        "place": "village",
-        "wikidata": "Q4194966"
-      }
-    },
-    {
-      "type": "node",
       "id": 4881414252,
       "lat": 47.3656633,
       "lon": 9.6067893,
@@ -37024,33 +37022,6 @@
     },
     {
       "type": "node",
-      "id": 7619239185,
-      "lat": 47.3741276,
-      "lon": 9.6963802,
-      "timestamp": "2021-04-15T10:36:08Z",
-      "version": 2,
-      "changeset": 102987328,
-      "user": "Bathyscapher",
-      "uid": 8889564,
-      "tags": {
-        "addr:city": "Hohenems",
-        "addr:country": "AT",
-        "addr:housenumber": "21",
-        "addr:postcode": "6845",
-        "addr:street": "Hellbrunnenstraße",
-        "brand": "MPREIS",
-        "brand:wikidata": "Q873491",
-        "brand:wikipedia": "de:MPreis",
-        "contact:phone": "+43 5 0321 928744",
-        "name": "MPREIS",
-        "opening_hours": "Mo-Fr 07:30-19:00; Sa 07:30-18:00",
-        "ref": "8744",
-        "shop": "supermarket",
-        "website": "https://www.mpreis.at/"
-      }
-    },
-    {
-      "type": "node",
       "id": 7622328199,
       "lat": 47.1456951,
       "lon": 9.338337,
@@ -39875,6 +39846,35 @@
       "tags": {
         "amenity": "drinking_water",
         "source": "local knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9334990373,
+      "lat": 47.4797867,
+      "lon": 9.7654591,
+      "timestamp": "2021-12-13T16:13:01Z",
+      "version": 1,
+      "changeset": 114889442,
+      "user": "Emanuel Bührle",
+      "uid": 14615221,
+      "tags": {
+        "amenity": "drinking_water",
+        "source": "local knowledge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9335546430,
+      "lat": 47.2862975,
+      "lon": 9.724931,
+      "timestamp": "2021-12-13T20:28:31Z",
+      "version": 1,
+      "changeset": 114896948,
+      "user": "Bernhard_r",
+      "uid": 1747877,
+      "tags": {
+        "amenity": "drinking_water"
       }
     },
     {
@@ -48635,11 +48635,11 @@
     {
       "type": "way",
       "id": 807706860,
-      "timestamp": "2020-05-24T07:47:15Z",
-      "version": 1,
-      "changeset": 85673590,
-      "user": "Wikilux",
-      "uid": 1894634,
+      "timestamp": "2021-12-13T14:50:15Z",
+      "version": 2,
+      "changeset": 114886786,
+      "user": "Double_A",
+      "uid": 42499,
       "center": {
         "lat": 47.126429,
         "lon": 9.4952046
@@ -48652,8 +48652,15 @@
         "brand:wikidata": "Q151954",
         "brand:wikipedia": "en:Lidl",
         "building": "yes",
+        "changing_table": "yes",
+        "changing_table:fee": "no",
+        "changing_table:location": "unisex_toilet",
         "name": "Lidl",
-        "shop": "supermarket"
+        "shop": "supermarket",
+        "toilets": "yes",
+        "toilets:access": "customers",
+        "toilets:unisex": "yes",
+        "toilets:wheelchair": "yes"
       }
     },
     {
@@ -56857,6 +56864,40 @@
         "amenity": "shelter",
         "building": "yes",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916179261,
+      "timestamp": "2021-12-13T14:26:07Z",
+      "version": 5,
+      "changeset": 114886036,
+      "user": "mcliquid",
+      "uid": 1213571,
+      "center": {
+        "lat": 47.3740248,
+        "lon": 9.6964067
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Hohenems",
+        "addr:country": "AT",
+        "addr:housenumber": "21",
+        "addr:postcode": "6845",
+        "addr:street": "Hellbrunnenstraße",
+        "at_bev:addr_date": "2021-10-01",
+        "brand": "MPREIS",
+        "brand:wikidata": "Q873491",
+        "brand:wikipedia": "de:MPreis",
+        "building": "retail",
+        "contact:phone": "+43 5 0321 928744",
+        "name": "MPREIS",
+        "opening_hours": "Mo-Fr 07:30-19:00; Sa 07:30-18:00",
+        "ref": "8744",
+        "roof:shape": "flat",
+        "shop": "supermarket",
+        "website": "https://www.mpreis.at/",
+        "wheelchair": "yes"
       }
     },
     {
