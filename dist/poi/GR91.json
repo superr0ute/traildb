@@ -3548,29 +3548,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_spring",
-        "@distance": 2716.4,
-        "@id": "n4422025327",
-        "@changeset": 42494541,
-        "@timestamp": "2016-09-28T13:25:40Z",
-        "@version": 1,
-        "@uid": 24490,
-        "@user": "OSM42",
-        "drinking_water": "yes",
-        "name": "Fontaine du Pichet",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.4700518,
-          44.8792873
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 5485.2,
         "@id": "n945170143",
@@ -4144,6 +4121,29 @@
         "coordinates": [
           5.5958798,
           45.1263256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 2716.4,
+        "@id": "n4422025327",
+        "@changeset": 42494541,
+        "@timestamp": "2016-09-28T13:25:40Z",
+        "@version": 1,
+        "@uid": 24490,
+        "@user": "OSM42",
+        "drinking_water": "yes",
+        "name": "Fontaine du Pichet",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4700518,
+          44.8792873
         ]
       }
     },
@@ -8262,84 +8262,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1926.2,
-        "@id": "w601685591",
-        "@changeset": 73515085,
-        "@timestamp": "2019-08-19T21:02:57Z",
-        "@version": 2,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
-        "building": "yes",
-        "ele": 1750,
-        "name": "Cabane de la Montagne de Lau"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.5097187,
-          44.8342587
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 2851,
-        "@id": "w637455279",
-        "@changeset": 110932618,
-        "@timestamp": "2021-09-08T17:58:12Z",
-        "@version": 4,
-        "@uid": 6080701,
-        "@user": "Louis Amiot",
-        "access": "yes",
-        "building": "yes",
-        "capacity": 20,
-        "description": "1 Poêle",
-        "drinking_water": "yes",
-        "ele": 1640,
-        "fee": "no",
-        "fireplace": "yes",
-        "name": "Refuge de Chaumailloux",
-        "toilets": "no",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.5119521,
-          44.8054437
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 707.8,
-        "@id": "w687219985",
-        "@changeset": 74004734,
-        "@timestamp": "2019-09-02T15:06:17Z",
-        "@version": 2,
-        "@uid": 4158457,
-        "@user": "fadany",
-        "building": "yes",
-        "name": "abri de la Fauge",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.575354,
-          45.0463164
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 6245.9,
         "@id": "n2146484340",
@@ -9140,6 +9062,84 @@
         "coordinates": [
           5.6201865,
           45.1552834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1926.2,
+        "@id": "w601685591",
+        "@changeset": 73515085,
+        "@timestamp": "2019-08-19T21:02:57Z",
+        "@version": 2,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "building": "yes",
+        "ele": 1750,
+        "name": "Cabane de la Montagne de Lau"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5097187,
+          44.8342587
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 2851,
+        "@id": "w637455279",
+        "@changeset": 110932618,
+        "@timestamp": "2021-09-08T17:58:12Z",
+        "@version": 4,
+        "@uid": 6080701,
+        "@user": "Louis Amiot",
+        "access": "yes",
+        "building": "yes",
+        "capacity": 20,
+        "description": "1 Poêle",
+        "drinking_water": "yes",
+        "ele": 1640,
+        "fee": "no",
+        "fireplace": "yes",
+        "name": "Refuge de Chaumailloux",
+        "toilets": "no",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5119521,
+          44.8054437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 707.8,
+        "@id": "w687219985",
+        "@changeset": 74004734,
+        "@timestamp": "2019-09-02T15:06:17Z",
+        "@version": 2,
+        "@uid": 4158457,
+        "@user": "fadany",
+        "building": "yes",
+        "name": "abri de la Fauge",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.575354,
+          45.0463164
         ]
       }
     },
