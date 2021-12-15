@@ -8300,6 +8300,7 @@
         "@version": 6,
         "@uid": 11725140,
         "@user": "jmaspons",
+        "wikidata": "Q429731",
         "alt_name": "Puig de les Pedrisses",
         "alt_name:ca": "Puig de les Pedrisses",
         "description": "Borne en granit gravée IGN - Point vu en place en 1984",
@@ -8311,8 +8312,7 @@
         "note": "Ne pas déplacer ce point, cf. - Do not move this node, see - http://wiki.openstreetmap.org/wiki/WikiProject_France/Repères_Géodésiques#Permanence_des_rep.C3.A8res",
         "ref": "6604903 - A",
         "source": "©IGN 2010 dans le cadre de la cartographie réglementaire",
-        "url": "http://geodesie.ign.fr/fiches/index.php?module=e&action=fichepdf&source=carte&sit_no=6604903",
-        "wikidata": "Q429731"
+        "url": "http://geodesie.ign.fr/fiches/index.php?module=e&action=fichepdf&source=carte&sit_no=6604903"
       },
       "geometry": {
         "type": "Point",
@@ -34520,33 +34520,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 7354.6,
-        "@id": "w189887842",
-        "@changeset": 71349718,
-        "@timestamp": "2019-06-18T03:20:58Z",
-        "@version": 10,
-        "@uid": 1443767,
-        "@user": "Olyon",
-        "brand": "E. Leclerc",
-        "brand:wikidata": "Q1273376",
-        "brand:wikipedia": "fr:E.Leclerc",
-        "building": "retail",
-        "name": "Centre Commercial E. Leclerc",
-        "operator": "E. Leclerc",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.8394056,
-          42.530621
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "peak_peak",
         "@distance": 2783.3,
         "@id": "n4644559948",
@@ -37606,6 +37579,37 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 38.4,
+        "@id": "w115025749",
+        "@changeset": 105697289,
+        "@timestamp": "2021-06-01T20:06:34Z",
+        "@version": 3,
+        "@uid": 9846971,
+        "@user": "gregoiredelattre",
+        "building": "yes",
+        "capacity": 6,
+        "description": "Cabane avec une table et deux bancs.\nUn étage accessible avec une échelle, sur le plancher de l'étage se trouve une bâche qui couvre une partie du sol.\nPas de matelas.\nUn cours d'eau passe à quelques mètres de la cabane.",
+        "ele": 1619,
+        "fireplace": "yes",
+        "name": "Cabane d'Ourtiga",
+        "note": "531",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "stove": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://www.refuges.info/point/3871/cabane-non-gardee/Bigorre/Cabane-d-Ourtiga/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4440485,
+          42.7618922
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_cave",
         "@distance": 144.6,
         "@id": "n4907189070",
@@ -39286,6 +39290,33 @@
         "coordinates": [
           2.1734804,
           42.4989125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 7354.6,
+        "@id": "w189887842",
+        "@changeset": 71349718,
+        "@timestamp": "2019-06-18T03:20:58Z",
+        "@version": 10,
+        "@uid": 1443767,
+        "@user": "Olyon",
+        "brand": "E. Leclerc",
+        "brand:wikidata": "Q1273376",
+        "brand:wikipedia": "fr:E.Leclerc",
+        "building": "retail",
+        "name": "Centre Commercial E. Leclerc",
+        "operator": "E. Leclerc",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8394056,
+          42.530621
         ]
       }
     },
@@ -41583,37 +41614,6 @@
         "coordinates": [
           -0.4130333,
           42.8699857
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 38.4,
-        "@id": "w115025749",
-        "@changeset": 105697289,
-        "@timestamp": "2021-06-01T20:06:34Z",
-        "@version": 3,
-        "@uid": 9846971,
-        "@user": "gregoiredelattre",
-        "building": "yes",
-        "capacity": 6,
-        "description": "Cabane avec une table et deux bancs.\nUn étage accessible avec une échelle, sur le plancher de l'étage se trouve une bâche qui couvre une partie du sol.\nPas de matelas.\nUn cours d'eau passe à quelques mètres de la cabane.",
-        "ele": 1619,
-        "fireplace": "yes",
-        "name": "Cabane d'Ourtiga",
-        "note": "531",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
-        "stove": "no",
-        "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/3871/cabane-non-gardee/Bigorre/Cabane-d-Ourtiga/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.4440485,
-          42.7618922
         ]
       }
     },
