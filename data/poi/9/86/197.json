@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-12-15T23:59:59Z",
-    "timestamp_osm_base": "2021-12-16T02:59:59Z",
+    "timestamp_osm_date": "2021-12-16T23:59:59Z",
+    "timestamp_osm_base": "2021-12-17T03:00:09Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1251,22 +1251,6 @@
       "uid": 11607814,
       "tags": {
         "backcountry": "yes",
-        "tourism": "camp_site"
-      }
-    },
-    {
-      "type": "node",
-      "id": 946145261,
-      "lat": 37.8450374,
-      "lon": -119.4911067,
-      "timestamp": "2021-04-02T15:47:21Z",
-      "version": 3,
-      "changeset": 102203798,
-      "user": "OddlyAngled",
-      "uid": 11607814,
-      "tags": {
-        "name": "May Lake High Sierra Camp",
-        "operator": "Yosemite National Park",
         "tourism": "camp_site"
       }
     },
@@ -7671,18 +7655,24 @@
     {
       "type": "way",
       "id": 915665683,
-      "timestamp": "2021-07-06T15:54:29Z",
-      "version": 2,
-      "changeset": 107507715,
+      "timestamp": "2021-12-16T05:20:48Z",
+      "version": 3,
+      "changeset": 114987783,
       "user": "OddlyAngled",
       "uid": 11607814,
       "center": {
-        "lat": 37.7943045,
+        "lat": 37.7941414,
         "lon": -119.4332045
       },
       "nodes": [],
       "tags": {
+        "backcountry": "yes",
+        "drinking_water": "yes",
         "name": "Sunrise High Sierra Camp",
+        "operator": "DNC",
+        "reservation": "required",
+        "seasonal": "yes",
+        "toilets": "yes",
         "tourism": "camp_site"
       }
     },
@@ -7712,9 +7702,9 @@
     {
       "type": "way",
       "id": 955841319,
-      "timestamp": "2021-06-18T16:49:35Z",
-      "version": 1,
-      "changeset": 106600114,
+      "timestamp": "2021-12-16T05:26:00Z",
+      "version": 2,
+      "changeset": 114987955,
       "user": "OddlyAngled",
       "uid": 11607814,
       "center": {
@@ -7723,9 +7713,37 @@
       },
       "nodes": [],
       "tags": {
+        "backcountry": "yes",
         "name": "Glen Aulin High Sierra Camp",
-        "reservation": "yes",
+        "operator": "DNC",
+        "reservation": "required",
+        "seasonal": "yes",
         "tents": "no",
+        "toilets": "yes",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1012657088,
+      "timestamp": "2021-12-16T05:34:47Z",
+      "version": 1,
+      "changeset": 114988206,
+      "user": "OddlyAngled",
+      "uid": 11607814,
+      "center": {
+        "lat": 37.8451937,
+        "lon": -119.4908855
+      },
+      "nodes": [],
+      "tags": {
+        "backcountry": "yes",
+        "drinking_water": "yes",
+        "name": "May Lake High Sierra Camp",
+        "operator": "DNC",
+        "reservation": "required",
+        "seasonal": "yes",
+        "toilets": "yes",
         "tourism": "camp_site"
       }
     }
