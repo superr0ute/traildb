@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-15T02:37:06Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-17T02:39:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 7700604,
-      "timestamp": "2021-12-14T10:17:46Z",
-      "version": 370,
-      "changeset": 114917123,
-      "user": "mapperue",
-      "uid": 4887311,
+      "timestamp": "2021-12-16T15:59:22Z",
+      "version": 371,
+      "changeset": 115015547,
+      "user": "Filip009",
+      "uid": 10553599,
       "members": [
         {"type": "node", "ref": 2827666105, "role": "guidepost"},
         {"type": "node", "ref": 750482929, "role": "guidepost"},
@@ -487,8 +487,10 @@
         {"type": "way", "ref": 896264115, "role": ""},
         {"type": "way", "ref": 60332527, "role": ""},
         {"type": "way", "ref": 57661055, "role": ""},
+        {"type": "way", "ref": 1012813948, "role": ""},
         {"type": "way", "ref": 231735873, "role": ""},
         {"type": "way", "ref": 172047907, "role": ""},
+        {"type": "way", "ref": 1012813947, "role": ""},
         {"type": "way", "ref": 60332524, "role": ""},
         {"type": "way", "ref": 875616240, "role": ""},
         {"type": "way", "ref": 875616239, "role": ""},
@@ -2323,6 +2325,57 @@
         "ref": "2112",
         "source": "survey",
         "source:ref": "www.ssc.sk"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1012813947,
+      "timestamp": "2021-12-16T15:59:22Z",
+      "version": 1,
+      "changeset": 115015547,
+      "user": "Filip009",
+      "uid": 10553599,
+      "nodes": [9344108976, 4344977063],
+      "geometry": [
+        {"lat": 49.3052246, "lon": 21.5677788, "z": 229},
+        {"lat": 49.3050741, "lon": 21.5676719, "z": 229.1},
+        {"lat": 49.3045829, "lon": 21.5673342, "z": 229}
+      ],
+      "tags": {
+        "alt_name": "Sov. hrdinov",
+        "highway": "tertiary",
+        "name": "Sovietských hrdinov",
+        "old_ref": "073001",
+        "ref": "3530",
+        "source": "kapor2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1012813948,
+      "timestamp": "2021-12-16T15:59:22Z",
+      "version": 1,
+      "changeset": 115015547,
+      "user": "Filip009",
+      "uid": 10553599,
+      "nodes": [9344108972, 1827645809],
+      "geometry": [
+        {"lat": 49.3058914, "lon": 21.5675046, "z": 229},
+        {"lat": 49.3058048, "lon": 21.5675957, "z": 228.9},
+        {"lat": 49.3057117, "lon": 21.5677272, "z": 228.9},
+        {"lat": 49.3056719, "lon": 21.5677728, "z": 228.9},
+        {"lat": 49.3056434, "lon": 21.5678071, "z": 228.8}
+      ],
+      "tags": {
+        "abutters": "residential",
+        "highway": "primary",
+        "lanes": "1",
+        "maxspeed": "50",
+        "name": "Bardejovská",
+        "oneway": "yes",
+        "ref": "77",
+        "source:maxspeed": "SK:urban",
+        "surface": "asphalt"
       }
     },
     {
@@ -5962,24 +6015,23 @@
     {
       "type": "way",
       "id": 172047907,
-      "timestamp": "2021-06-20T11:18:19Z",
-      "version": 8,
-      "changeset": 106659556,
-      "user": "Dodko",
-      "uid": 1944033,
-      "nodes": [714835015, 4344977063],
+      "timestamp": "2021-12-16T15:59:22Z",
+      "version": 10,
+      "changeset": 115015547,
+      "user": "Filip009",
+      "uid": 10553599,
+      "nodes": [714835015, 9344108976],
       "geometry": [
-        {"lat": 49.3054008, "lon": 21.5679095, "z": 228.8},
-        {"lat": 49.3053772, "lon": 21.5678849, "z": 228.9},
-        {"lat": 49.3053508, "lon": 21.567866, "z": 228.9},
-        {"lat": 49.3050741, "lon": 21.5676719, "z": 229.1},
-        {"lat": 49.3045829, "lon": 21.5673342, "z": 229}
+        {"lat": 49.3054611, "lon": 21.5678464, "z": 228.9},
+        {"lat": 49.3053766, "lon": 21.5678224, "z": 228.9},
+        {"lat": 49.3052246, "lon": 21.5677788, "z": 229}
       ],
       "tags": {
-        "alt_name": "Sovietských hrdinov",
+        "alt_name": "Sov. hrdinov",
         "highway": "tertiary",
-        "name": "Sov. hrdinov",
+        "name": "Sovietských hrdinov",
         "old_ref": "073001",
+        "oneway": "yes",
         "ref": "3530",
         "source": "kapor2"
       }
@@ -9389,25 +9441,21 @@
     {
       "type": "way",
       "id": 231735873,
-      "timestamp": "2021-01-25T04:38:04Z",
-      "version": 7,
-      "changeset": 98086822,
-      "user": "B_KSL",
-      "uid": 553541,
+      "timestamp": "2021-12-16T15:59:22Z",
+      "version": 8,
+      "changeset": 115015547,
+      "user": "Filip009",
+      "uid": 10553599,
       "nodes": [1827645809, 714835015],
       "geometry": [
-        {"lat": 49.3056953, "lon": 21.5678193, "z": 228.8},
-        {"lat": 49.3056699, "lon": 21.5677909, "z": 228.8},
-        {"lat": 49.3056418, "lon": 21.5677693, "z": 228.9},
-        {"lat": 49.3056118, "lon": 21.5677551, "z": 228.9},
-        {"lat": 49.3055806, "lon": 21.5677487, "z": 228.9},
-        {"lat": 49.3055492, "lon": 21.5677502, "z": 228.9},
-        {"lat": 49.3055184, "lon": 21.5677597, "z": 228.9},
-        {"lat": 49.305489, "lon": 21.5677768, "z": 228.9},
-        {"lat": 49.3054618, "lon": 21.567801, "z": 228.9},
-        {"lat": 49.3054376, "lon": 21.5678319, "z": 228.9},
-        {"lat": 49.3054171, "lon": 21.5678683, "z": 228.9},
-        {"lat": 49.3054008, "lon": 21.5679095, "z": 228.8}
+        {"lat": 49.3056434, "lon": 21.5678071, "z": 228.8},
+        {"lat": 49.3056175, "lon": 21.5677912, "z": 228.9},
+        {"lat": 49.3055901, "lon": 21.5677823, "z": 228.9},
+        {"lat": 49.3055622, "lon": 21.5677808, "z": 228.9},
+        {"lat": 49.3055345, "lon": 21.5677868, "z": 228.9},
+        {"lat": 49.3055079, "lon": 21.5678, "z": 228.9},
+        {"lat": 49.3054832, "lon": 21.5678201, "z": 228.9},
+        {"lat": 49.3054611, "lon": 21.5678464, "z": 228.9}
       ],
       "tags": {
         "abutters": "residential",
@@ -41310,21 +41358,19 @@
     {
       "type": "way",
       "id": 57661055,
-      "timestamp": "2020-12-01T18:48:31Z",
-      "version": 14,
-      "changeset": 95111626,
-      "user": "radokado",
-      "uid": 513818,
-      "nodes": [740632620, 1827645809],
+      "timestamp": "2021-12-16T15:59:22Z",
+      "version": 15,
+      "changeset": 115015547,
+      "user": "Filip009",
+      "uid": 10553599,
+      "nodes": [740632620, 9344108972],
       "geometry": [
         {"lat": 49.3087427, "lon": 21.5629624, "z": 230.7},
         {"lat": 49.3085488, "lon": 21.5632573, "z": 230.6},
         {"lat": 49.3082922, "lon": 21.563659, "z": 230.3},
         {"lat": 49.3069448, "lon": 21.5658142, "z": 228.7},
         {"lat": 49.3061948, "lon": 21.5669928, "z": 229.3},
-        {"lat": 49.3057737, "lon": 21.5676911, "z": 228.9},
-        {"lat": 49.3057456, "lon": 21.5677371, "z": 228.8},
-        {"lat": 49.3056953, "lon": 21.5678193, "z": 228.8}
+        {"lat": 49.3058914, "lon": 21.5675046, "z": 229}
       ],
       "tags": {
         "abutters": "residential",
@@ -45625,11 +45671,11 @@
     {
       "type": "way",
       "id": 60332524,
-      "timestamp": "2021-06-20T11:18:19Z",
-      "version": 14,
-      "changeset": 106659556,
-      "user": "Dodko",
-      "uid": 1944033,
+      "timestamp": "2021-12-16T15:43:31Z",
+      "version": 15,
+      "changeset": 115015021,
+      "user": "Filip009",
+      "uid": 10553599,
       "nodes": [4344977063, 8149978394],
       "geometry": [
         {"lat": 49.3045829, "lon": 21.5673342, "z": 229},
@@ -45640,9 +45686,9 @@
         {"lat": 49.3034771, "lon": 21.5667054, "z": 227.3}
       ],
       "tags": {
-        "alt_name": "Sovietských hrdinov",
+        "alt_name": "Sov. hrdinov",
         "highway": "tertiary",
-        "name": "Sov. hrdinov",
+        "name": "Sovietských hrdinov",
         "old_ref": "073001",
         "ref": "3530",
         "source": "kapor2"
@@ -56703,11 +56749,11 @@
     {
       "type": "way",
       "id": 875616239,
-      "timestamp": "2020-12-01T18:48:31Z",
-      "version": 2,
-      "changeset": 95111626,
-      "user": "radokado",
-      "uid": 513818,
+      "timestamp": "2021-12-16T15:43:31Z",
+      "version": 3,
+      "changeset": 115015021,
+      "user": "Filip009",
+      "uid": 10553599,
       "nodes": [714835047, 750417148],
       "geometry": [
         {"lat": 49.3031864, "lon": 21.5665564, "z": 226.9},
@@ -56716,6 +56762,7 @@
         {"lat": 49.302427, "lon": 21.5661665, "z": 227.7}
       ],
       "tags": {
+        "alt_name": "Sov. hrdinov",
         "highway": "tertiary",
         "name": "Sovietských hrdinov",
         "old_ref": "073001",
@@ -56726,17 +56773,18 @@
     {
       "type": "way",
       "id": 875616240,
-      "timestamp": "2020-12-01T18:48:31Z",
-      "version": 2,
-      "changeset": 95111626,
-      "user": "radokado",
-      "uid": 513818,
+      "timestamp": "2021-12-16T15:43:31Z",
+      "version": 3,
+      "changeset": 115015021,
+      "user": "Filip009",
+      "uid": 10553599,
       "nodes": [8149978394, 714835047],
       "geometry": [
         {"lat": 49.3034771, "lon": 21.5667054, "z": 227.3},
         {"lat": 49.3031864, "lon": 21.5665564, "z": 226.9}
       ],
       "tags": {
+        "alt_name": "Sov. hrdinov",
         "bridge": "yes",
         "highway": "tertiary",
         "layer": "1",

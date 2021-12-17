@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-12T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-16T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1736379,
-      "timestamp": "2021-12-11T13:28:19Z",
-      "version": 571,
-      "changeset": 114818069,
-      "user": "map per",
-      "uid": 11758604,
+      "timestamp": "2021-12-16T09:01:21Z",
+      "version": 572,
+      "changeset": 114996367,
+      "user": "Luca Frare",
+      "uid": 10680508,
       "members": [
         {"type": "node", "ref": 1779769997, "role": "stop"},
         {"type": "node", "ref": 475738007, "role": ""},
@@ -1146,6 +1146,7 @@
         {"type": "way", "ref": 24863434, "role": ""},
         {"type": "way", "ref": 24863458, "role": ""},
         {"type": "way", "ref": 25075333, "role": ""},
+        {"type": "way", "ref": 1012703303, "role": ""},
         {"type": "way", "ref": 25075336, "role": ""},
         {"type": "way", "ref": 25213802, "role": ""},
         {"type": "way", "ref": 25075335, "role": ""},
@@ -1844,6 +1845,28 @@
         "sac_scale": "mountain_hiking",
         "trail_visibility": "excellent",
         "width": "2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1012703303,
+      "timestamp": "2021-12-16T09:01:21Z",
+      "version": 1,
+      "changeset": 114996367,
+      "user": "Luca Frare",
+      "uid": 10680508,
+      "nodes": [9343062244, 272858383],
+      "geometry": [
+        {"lat": 46.140911, "lon": 12.215565},
+        {"lat": 46.140893, "lon": 12.2155868},
+        {"lat": 46.1408707, "lon": 12.2156104},
+        {"lat": 46.140813, "lon": 12.2156836},
+        {"lat": 46.1407489, "lon": 12.2157709}
+      ],
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Via Jacopo Tasso"
       }
     },
     {
@@ -21086,19 +21109,17 @@
     {
       "type": "way",
       "id": 25075333,
-      "timestamp": "2021-02-22T17:27:32Z",
-      "version": 4,
-      "changeset": 99762694,
-      "user": "diegomodolo",
-      "uid": 8109808,
-      "nodes": [268096990, 272858383],
+      "timestamp": "2021-12-16T09:01:21Z",
+      "version": 5,
+      "changeset": 114996367,
+      "user": "Luca Frare",
+      "uid": 10680508,
+      "nodes": [268096990, 9343062244],
       "geometry": [
         {"lat": 46.1411857, "lon": 12.2152649},
         {"lat": 46.1410792, "lon": 12.2153956},
         {"lat": 46.1409458, "lon": 12.215531},
-        {"lat": 46.1408707, "lon": 12.2156104},
-        {"lat": 46.140813, "lon": 12.2156836},
-        {"lat": 46.1407489, "lon": 12.2157709}
+        {"lat": 46.140911, "lon": 12.215565}
       ],
       "tags": {"highway": "residential", "name": "Via Jacopo Tasso"}
     },
@@ -21126,11 +21147,11 @@
     {
       "type": "way",
       "id": 25075336,
-      "timestamp": "2018-07-28T11:11:26Z",
-      "version": 9,
-      "changeset": 61140000,
-      "user": "essich",
-      "uid": 45077,
+      "timestamp": "2021-12-16T09:01:21Z",
+      "version": 10,
+      "changeset": 114996367,
+      "user": "Luca Frare",
+      "uid": 10680508,
       "nodes": [272858383, 3641023395],
       "geometry": [
         {"lat": 46.1407489, "lon": 12.2157709},
@@ -21141,6 +21162,7 @@
       ],
       "tags": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Piazza Giorgio Piloni",
         "oneway": "no"
       }
@@ -21169,11 +21191,11 @@
     {
       "type": "way",
       "id": 25213802,
-      "timestamp": "2021-02-18T12:26:34Z",
-      "version": 11,
-      "changeset": 99523878,
-      "user": "diegomodolo",
-      "uid": 8109808,
+      "timestamp": "2021-12-16T09:01:21Z",
+      "version": 12,
+      "changeset": 114996367,
+      "user": "Luca Frare",
+      "uid": 10680508,
       "nodes": [3641023395, 8434840121],
       "geometry": [
         {"lat": 46.1404746, "lon": 12.2160128},
@@ -21181,6 +21203,7 @@
       ],
       "tags": {
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Via Jacopo Tasso",
         "oneway": "yes"
       }
@@ -21188,11 +21211,11 @@
     {
       "type": "way",
       "id": 25213808,
-      "timestamp": "2021-01-31T15:30:02Z",
-      "version": 6,
-      "changeset": 98453615,
-      "user": "kkklllppp",
-      "uid": 504502,
+      "timestamp": "2021-12-16T09:01:21Z",
+      "version": 7,
+      "changeset": 114996367,
+      "user": "Luca Frare",
+      "uid": 10680508,
       "nodes": [274931771, 1296169155],
       "geometry": [
         {"lat": 46.1382987, "lon": 12.2166961},
@@ -21200,7 +21223,11 @@
         {"lat": 46.1383076, "lon": 12.2166576},
         {"lat": 46.1383099, "lon": 12.2166102}
       ],
-      "tags": {"highway": "residential", "name": "Piazza Castello"}
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Piazza Castello"
+      }
     },
     {
       "type": "way",
@@ -21414,11 +21441,11 @@
     {
       "type": "way",
       "id": 25414955,
-      "timestamp": "2021-01-31T15:30:02Z",
-      "version": 7,
-      "changeset": 98453615,
-      "user": "kkklllppp",
-      "uid": 504502,
+      "timestamp": "2021-12-16T09:01:21Z",
+      "version": 8,
+      "changeset": 114996367,
+      "user": "Luca Frare",
+      "uid": 10680508,
       "nodes": [274931771, 4025809540],
       "geometry": [
         {"lat": 46.1382987, "lon": 12.2166961},
@@ -21429,6 +21456,7 @@
       "tags": {
         "access": "destination",
         "highway": "residential",
+        "maxspeed": "30",
         "name": "Via XXX Aprile",
         "oneway": "yes"
       }
@@ -31167,16 +31195,17 @@
     {
       "type": "way",
       "id": 396086362,
-      "timestamp": "2018-05-26T11:48:29Z",
-      "version": 3,
-      "changeset": 59292346,
-      "user": "diegomodolo",
-      "uid": 8109808,
+      "timestamp": "2021-12-16T09:08:42Z",
+      "version": 4,
+      "changeset": 114996737,
+      "user": "Luca Frare",
+      "uid": 10680508,
       "nodes": [2384528134, 1877290129],
       "geometry": [
         {"lat": 46.1339718, "lon": 12.2183576},
         {"lat": 46.1339538, "lon": 12.2184143},
         {"lat": 46.1339185, "lon": 12.2184701},
+        {"lat": 46.1338563, "lon": 12.2185483},
         {"lat": 46.1337941, "lon": 12.2186265},
         {"lat": 46.1336917, "lon": 12.2187202}
       ],
@@ -42679,7 +42708,7 @@
         {"lat": 46.1354879, "lon": 12.2180199},
         {"lat": 46.1350249, "lon": 12.2188089},
         {"lat": 46.134945, "lon": 12.2189161},
-        {"lat": 46.1348279, "lon": 12.2190315},
+        {"lat": 46.1347974, "lon": 12.2190577},
         {"lat": 46.1346875, "lon": 12.2191746}
       ],
       "tags": {

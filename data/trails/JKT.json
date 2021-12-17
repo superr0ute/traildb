@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-13T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-16T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10909145,
-      "timestamp": "2021-12-13T18:05:02Z",
-      "version": 1486,
-      "changeset": 114892992,
-      "user": "link0127",
-      "uid": 2275832,
+      "timestamp": "2021-12-16T15:57:00Z",
+      "version": 1487,
+      "changeset": 115015455,
+      "user": "maicolgalante",
+      "uid": 3217726,
       "members": [
         {"type": "node", "ref": 4007110375, "role": ""},
         {"type": "way", "ref": 1004393561, "role": ""},
@@ -1166,7 +1166,6 @@
         {"type": "way", "ref": 793102308, "role": ""},
         {"type": "way", "ref": 457931840, "role": ""},
         {"type": "way", "ref": 816373572, "role": ""},
-        {"type": "way", "ref": 114804354, "role": ""},
         {"type": "way", "ref": 114804366, "role": ""},
         {"type": "way", "ref": 793103396, "role": ""},
         {"type": "way", "ref": 312380034, "role": ""},
@@ -4558,31 +4557,6 @@
     },
     {
       "type": "way",
-      "id": 114804354,
-      "timestamp": "2020-04-18T04:17:13Z",
-      "version": 2,
-      "changeset": 83731140,
-      "user": "Wulz",
-      "uid": 10773975,
-      "nodes": [1299515049, 779161846],
-      "geometry": [
-        {"lat": 46.4085599, "lon": 13.0414388},
-        {"lat": 46.4087018, "lon": 13.0415362}
-      ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "track",
-        "incline": "0%",
-        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \nVia Alpina \n",
-        "smoothness": "bad",
-        "surface": "gravel",
-        "tracktype": "grade2",
-        "width": "3"
-      }
-    },
-    {
-      "type": "way",
       "id": 114804356,
       "timestamp": "2020-04-18T03:27:38Z",
       "version": 3,
@@ -4852,12 +4826,12 @@
     {
       "type": "way",
       "id": 114804366,
-      "timestamp": "2020-04-18T04:19:13Z",
-      "version": 2,
-      "changeset": 83731164,
-      "user": "Wulz",
-      "uid": 10773975,
-      "nodes": [779161961, 1299515049],
+      "timestamp": "2021-12-16T15:57:00Z",
+      "version": 3,
+      "changeset": 115015455,
+      "user": "maicolgalante",
+      "uid": 3217726,
+      "nodes": [779161961, 779161846],
       "geometry": [
         {"lat": 46.4059356, "lon": 13.0412635},
         {"lat": 46.4061715, "lon": 13.0412745},
@@ -4873,7 +4847,8 @@
         {"lat": 46.4081178, "lon": 13.0414091},
         {"lat": 46.4082885, "lon": 13.0414289},
         {"lat": 46.4084814, "lon": 13.0414388},
-        {"lat": 46.4085599, "lon": 13.0414388}
+        {"lat": 46.4086209, "lon": 13.0414344},
+        {"lat": 46.4087102, "lon": 13.041521}
       ],
       "tags": {
         "highway": "unclassified",
@@ -20841,11 +20816,11 @@
     {
       "type": "way",
       "id": 224767007,
-      "timestamp": "2021-08-11T09:10:17Z",
-      "version": 10,
-      "changeset": 109504875,
-      "user": "Mark Martinec",
-      "uid": 58976,
+      "timestamp": "2021-12-16T19:09:26Z",
+      "version": 11,
+      "changeset": 115021686,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [472358003, 420347676],
       "geometry": [
         {"lat": 46.1798697, "lon": 13.6599966},
@@ -20865,6 +20840,7 @@
         "highway": "unclassified",
         "lanes": "2",
         "maxspeed": "50",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails:\n + iwn:  Alpe-Adria-Trail, Via Alpina Yellow B5\n + nrw: \n + rwn: \n + lwn: Pot Juliusa Kugyja v 30 etapah - povezava prek E 13a, Topolo-Ref. Solarie",
         "sac_scale": "hiking",
         "surface": "asphalt"
       }
@@ -32006,11 +31982,11 @@
     {
       "type": "way",
       "id": 304925108,
-      "timestamp": "2020-04-11T06:06:33Z",
-      "version": 9,
-      "changeset": 83388506,
-      "user": "gpstracks",
-      "uid": 188429,
+      "timestamp": "2021-12-16T19:09:26Z",
+      "version": 11,
+      "changeset": 115021686,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [4421991651, 3094942079],
       "geometry": [
         {"lat": 46.1836431, "lon": 13.6594759},
@@ -32064,7 +32040,8 @@
       "tags": {
         "highway": "path",
         "horse": "no",
-        "incline": "5%",
+        "incline": "20%",
+        "note": "Beim „Julius-Kugy-Dreiländerweg“ trifft man auf\n + iwn:  Alpe-Adria-Trail\n + nrw: \n + rwn: \n + lwn: Pot Juliusa Kugyja v 30 etapah - povezava prek E 13a, Pot Miru",
         "surface": "gravel",
         "width": "1"
       }
@@ -32072,11 +32049,11 @@
     {
       "type": "way",
       "id": 304925109,
-      "timestamp": "2021-10-17T08:59:45Z",
-      "version": 6,
-      "changeset": 112602752,
-      "user": "APneunzehn74",
-      "uid": 12180500,
+      "timestamp": "2021-12-16T17:56:20Z",
+      "version": 7,
+      "changeset": 115019516,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [3094942079, 3668217505],
       "geometry": [
         {"lat": 46.1861359, "lon": 13.6605588},
@@ -32088,6 +32065,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "30",
+        "note": "Beim „Julius-Kugy-Dreiländerweg“ trifft man auf\n + iwn:  Alpe-Adria-Trail\n + nrw: \n + rwn: \n + lwn: Pot Juliusa Kugyja v 30 etapah - povezava prek E 13a, Pot Miru",
         "ref": "605",
         "surface": "asphalt"
       }
@@ -46203,11 +46181,11 @@
     {
       "type": "way",
       "id": 444762478,
-      "timestamp": "2021-10-17T08:59:45Z",
-      "version": 6,
-      "changeset": 112602752,
-      "user": "APneunzehn74",
-      "uid": 12180500,
+      "timestamp": "2021-12-16T19:09:26Z",
+      "version": 7,
+      "changeset": 115021686,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [2335636355, 420347676],
       "geometry": [
         {"lat": 46.1810131, "lon": 13.6611025},
@@ -46256,16 +46234,16 @@
         "highway": "unclassified",
         "lanes": "2",
         "maxspeed": "50",
-        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: SI A16 + VA B5 + AAT + 746",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails:\n + iwn:  Alpe-Adria-Trail, Via Alpina Yellow B5\n + nrw: \n + rwn: \n + lwn: Pot Juliusa Kugyja v 30 etapah - povezava prek E 13a, Topolo-Ref. Solarie",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 444762479,
-      "timestamp": "2020-04-30T03:52:40Z",
-      "version": 5,
-      "changeset": 84375380,
+      "timestamp": "2021-12-16T19:09:26Z",
+      "version": 7,
+      "changeset": 115021686,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [2335636355, 4421991651],
@@ -46317,8 +46295,8 @@
       ],
       "tags": {
         "highway": "path",
-        "incline": "15%",
-        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \nSI A16 + VA B5 + AAT + 746\n",
+        "incline": "steep",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails:\n + iwn:  Alpe-Adria-Trail, Via Alpina Yellow B5\n + nrw: \n + rwn: \n + lwn: Pot Juliusa Kugyja v 30 etapah - povezava prek E 13a, Topolo-Ref. Solarie",
         "sac_scale": "hiking",
         "surface": "gravel",
         "width": "1"
@@ -68100,11 +68078,11 @@
     {
       "type": "way",
       "id": 793103396,
-      "timestamp": "2021-02-14T12:56:21Z",
-      "version": 2,
-      "changeset": 99248618,
-      "user": "alessandrocarmeli",
-      "uid": 12294600,
+      "timestamp": "2021-12-16T15:57:00Z",
+      "version": 3,
+      "changeset": 115015455,
+      "user": "maicolgalante",
+      "uid": 3217726,
       "nodes": [779161961, 534701005],
       "geometry": [
         {"lat": 46.4059356, "lon": 13.0412635},
@@ -68123,6 +68101,7 @@
         {"lat": 46.4037762, "lon": 13.0395751},
         {"lat": 46.4036959, "lon": 13.0395137},
         {"lat": 46.4036065, "lon": 13.0393943},
+        {"lat": 46.4035465, "lon": 13.0392934},
         {"lat": 46.4034136, "lon": 13.0390698},
         {"lat": 46.403122, "lon": 13.0385635}
       ],
@@ -69918,7 +69897,7 @@
         {"lat": 46.4089204, "lon": 13.0417299},
         {"lat": 46.4088221, "lon": 13.0416248},
         {"lat": 46.4087636, "lon": 13.0415515},
-        {"lat": 46.4087018, "lon": 13.0415362}
+        {"lat": 46.4087102, "lon": 13.041521}
       ],
       "tags": {
         "highway": "unclassified",
