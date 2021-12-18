@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-12-16T23:59:59Z",
-    "timestamp_osm_base": "2021-12-17T04:28:19Z",
+    "timestamp_osm_date": "2021-12-17T23:59:59Z",
+    "timestamp_osm_base": "2021-12-18T04:29:41Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -13860,12 +13860,15 @@
       "id": 4542494320,
       "lat": 44.8278617,
       "lon": 5.4191567,
-      "timestamp": "2016-12-07T06:12:20Z",
-      "version": 1,
-      "changeset": 44226752,
-      "user": "vicb",
-      "uid": 4934157,
+      "timestamp": "2021-12-17T17:11:56Z",
+      "version": 2,
+      "changeset": 115064628,
+      "user": "Gand'",
+      "uid": 22685,
       "tags": {
+        "ele": "1580",
+        "fee": "no",
+        "name": "Scialet du Bois Blond",
         "natural": "cave_entrance"
       }
     },
@@ -21898,6 +21901,21 @@
       }
     },
     {
+      "type": "node",
+      "id": 9346938171,
+      "lat": 44.8363445,
+      "lon": 5.4696617,
+      "timestamp": "2021-12-17T17:13:10Z",
+      "version": 1,
+      "changeset": 115064671,
+      "user": "Gand'",
+      "uid": 22685,
+      "tags": {
+        "name": "Scialet de la Fontaine De La Plante",
+        "natural": "cave_entrance"
+      }
+    },
+    {
       "type": "way",
       "id": 54709593,
       "timestamp": "2011-05-23T17:34:30Z",
@@ -22144,11 +22162,11 @@
     {
       "type": "way",
       "id": 61318469,
-      "timestamp": "2017-05-11T09:59:40Z",
-      "version": 3,
-      "changeset": 48586963,
-      "user": "bagage",
-      "uid": 2797881,
+      "timestamp": "2021-12-17T13:53:46Z",
+      "version": 4,
+      "changeset": 115057767,
+      "user": "Gand'",
+      "uid": 22685,
       "center": {
         "lat": 44.881667,
         "lon": 5.4440985
@@ -22157,9 +22175,14 @@
       "tags": {
         "building": "yes",
         "ele": "1365",
-        "name": "Gîte de Pré Grandu",
+        "fee": "yes",
+        "fireplace": "yes",
+        "name": "Cabane Forestière de Pré Grandu",
+        "operator": "ONF",
+        "reservation": "required",
         "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2017",
-        "tourism": "alpine_hut"
+        "tourism": "wilderness_hut",
+        "website": "https://www.vercors-drome.com/fr/catalogue/activite/gite-d-etape-de-groupe/refuge-de-pre-grandu-63450/"
       }
     },
     {
@@ -22181,6 +22204,27 @@
         "fireplace": "yes",
         "name": "Pré Valet",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 62041109,
+      "timestamp": "2021-12-17T13:46:50Z",
+      "version": 3,
+      "changeset": 115057469,
+      "user": "Gand'",
+      "uid": 22685,
+      "center": {
+        "lat": 44.8374812,
+        "lon": 5.4314192
+      },
+      "nodes": [],
+      "tags": {
+        "access": "private",
+        "building": "yes",
+        "name": "Chalet des ours",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2017",
         "tourism": "wilderness_hut"
       }
     },
