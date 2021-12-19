@@ -2351,23 +2351,23 @@
         "@poi": "place_town",
         "@distance": 3539.3,
         "@id": "n58957648",
-        "@changeset": 102828406,
-        "@timestamp": "2021-04-12T21:12:24Z",
-        "@version": 50,
-        "@uid": 2188716,
-        "@user": "EnumMapper",
+        "@changeset": 115107048,
+        "@timestamp": "2021-12-18T19:38:56Z",
+        "@version": 51,
+        "@uid": 11332999,
+        "@user": "Franswá Belhádi",
         "ISO3166-1:alpha2": "AD",
         "admin_level": "2",
         "alt_name:gl": "Andorra la Vella",
         "capital": "yes",
         "ele": 1011,
-        "is_in:continent": "Europe",
-        "is_in:country": "Andorra",
-        "is_in:iso_3166_2": "AD-07",
         "name": "Andorra la Vella",
         "name:am": "አንዶራ ላ ቬላ",
         "name:an": "Andorra la Biella",
         "name:ar": "أندورا لا فيلا",
+        "name:arz": "أندورا لا فيلا",
+        "name:az-Arab": "آندورا لا ویخا",
+        "name:azb": "آندورا لا ویخا",
         "name:bat-smg": "Anduora",
         "name:be": "Андора-ла-Велья",
         "name:be-tarask": "Андора ля Вэльля",
@@ -2377,6 +2377,7 @@
         "name:ca": "Andorra la Vella",
         "name:ce": "Андорра-ла-Велья",
         "name:cv": "Андорра-ла-Вьеха",
+        "name:de": "Andorra la Vella",
         "name:el": "Ανδόρρα λα Βέγια",
         "name:en": "Andorra la Vella",
         "name:eo": "Andoro Malnova",
@@ -2389,12 +2390,15 @@
         "name:ht": "Andò-la-Vyèy",
         "name:hu": "Andorra la Vella",
         "name:hy": "Անդորա լա Վելյա",
+        "name:hyw": "Անտորրա Լէ Վալէ",
         "name:is": "Andorra la Vella",
         "name:it": "Andorra la Vella",
         "name:ja": "アンドラ・ラ・ベリャ",
         "name:ka": "ანდორა-ლა-ველა",
         "name:kk": "Андорра-ла-Велья",
+        "name:kk-Arab": "اندوررا-لا-ۆەليا",
         "name:ko": "안도라라벨랴",
+        "name:ks": "انڈورا لا ویخا",
         "name:ku": "Andorra la Vella",
         "name:kv": "Андорра-ла-Велья",
         "name:la": "Andorra Vetus",
@@ -2408,6 +2412,7 @@
         "name:nl": "Andorra",
         "name:oc": "Andòrra la Vièlha",
         "name:os": "Андоррæ-ла-Велья",
+        "name:ota": "آندورا لا ویخا",
         "name:pl": "Andora",
         "name:pnb": "انڈورا لا ویلا",
         "name:pt": "Andorra-a-Velha",
@@ -2424,6 +2429,7 @@
         "name:udm": "Андорра-ла-Велья",
         "name:ug": "ئاندوررا كەنتى",
         "name:uk": "Андорра-ла-Велья",
+        "name:ur": "انڈورا لا ویلا",
         "name:vep": "Andorr la Vel'j",
         "name:zh": "安道爾城",
         "name:zh-Hans": "安道尔城",
@@ -2432,7 +2438,8 @@
         "population": 24678,
         "source:name:oc": "ieo-bdtopoc",
         "wikidata": "Q1863",
-        "wikipedia": "fr:Andorre-la-Vieille"
+        "wikipedia": "Andorra la Vieja",
+        "wikipedia:es": "Andorra la Vieja"
       },
       "geometry": {
         "type": "Point",
@@ -8925,6 +8932,52 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "mountain-pass",
+        "@distance": 13.9,
+        "@id": "n1368742415",
+        "@changeset": 28205764,
+        "@timestamp": "2015-01-17T11:46:03Z",
+        "@version": 4,
+        "@uid": 223093,
+        "@user": "geow",
+        "ele": 700,
+        "mountain_pass": "yes",
+        "name": "Coll de l'Auleda",
+        "natural": "saddle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.9060687,
+          42.4437172
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 97.9,
+        "@id": "n1368756824",
+        "@changeset": 8786286,
+        "@timestamp": "2011-07-21T08:55:17Z",
+        "@version": 1,
+        "@uid": 81894,
+        "@user": "wergeis",
+        "name": "Font de Cadecas",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0068654,
+          42.4094906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 24.9,
         "@id": "n891031530",
@@ -12469,52 +12522,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "mountain-pass",
-        "@distance": 13.9,
-        "@id": "n1368742415",
-        "@changeset": 28205764,
-        "@timestamp": "2015-01-17T11:46:03Z",
-        "@version": 4,
-        "@uid": 223093,
-        "@user": "geow",
-        "ele": 700,
-        "mountain_pass": "yes",
-        "name": "Coll de l'Auleda",
-        "natural": "saddle"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.9060687,
-          42.4437172
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 97.9,
-        "@id": "n1368756824",
-        "@changeset": 8786286,
-        "@timestamp": "2011-07-21T08:55:17Z",
-        "@version": 1,
-        "@uid": 81894,
-        "@user": "wergeis",
-        "name": "Font de Cadecas",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.0068654,
-          42.4094906
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "shelter_wilderness-hut",
         "@distance": 72.7,
         "@id": "n1368756880",
@@ -13511,6 +13518,51 @@
         "coordinates": [
           2.9263458,
           42.4409727
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 876.9,
+        "@id": "n2177559451",
+        "@changeset": 15189459,
+        "@timestamp": "2013-02-27T19:40:15Z",
+        "@version": 1,
+        "@uid": 428521,
+        "@user": "janes",
+        "name": "Font del Solanà",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.9264934,
+          42.434606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1094.7,
+        "@id": "n2184301697",
+        "@changeset": 15238032,
+        "@timestamp": "2013-03-03T19:13:17Z",
+        "@version": 1,
+        "@uid": 428521,
+        "@user": "janes",
+        "amenity": "shelter",
+        "fireplace": "no",
+        "shelter_type": "rock_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.9388674,
+          42.4379147
         ]
       }
     },
@@ -17768,51 +17820,6 @@
         "coordinates": [
           2.1962094,
           42.3908856
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 876.9,
-        "@id": "n2177559451",
-        "@changeset": 15189459,
-        "@timestamp": "2013-02-27T19:40:15Z",
-        "@version": 1,
-        "@uid": 428521,
-        "@user": "janes",
-        "name": "Font del Solanà",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.9264934,
-          42.434606
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1094.7,
-        "@id": "n2184301697",
-        "@changeset": 15238032,
-        "@timestamp": "2013-03-03T19:13:17Z",
-        "@version": 1,
-        "@uid": 428521,
-        "@user": "janes",
-        "amenity": "shelter",
-        "fireplace": "no",
-        "shelter_type": "rock_shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.9388674,
-          42.4379147
         ]
       }
     },
@@ -28393,6 +28400,32 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 8534.9,
+        "@id": "n5936853218",
+        "@changeset": 83026643,
+        "@timestamp": "2020-04-03T10:23:35Z",
+        "@version": 2,
+        "@uid": 10944324,
+        "@user": "CaResteOuvert_visitor",
+        "addr:housenumber": "10",
+        "addr:street": "Rue de la Gabarre",
+        "name": "Chez Gloria & Andres (Fruit et Legumes)",
+        "opening_hours": "Tu-Su 08:00-12:30, 16:00-19:00",
+        "opening_hours:covid19": "open",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.9530811,
+          42.5309302
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 1152.3,
         "@id": "n3452361593",
@@ -32225,32 +32258,6 @@
         "coordinates": [
           2.3873303,
           42.3218977
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 8534.9,
-        "@id": "n5936853218",
-        "@changeset": 83026643,
-        "@timestamp": "2020-04-03T10:23:35Z",
-        "@version": 2,
-        "@uid": 10944324,
-        "@user": "CaResteOuvert_visitor",
-        "addr:housenumber": "10",
-        "addr:street": "Rue de la Gabarre",
-        "name": "Chez Gloria & Andres (Fruit et Legumes)",
-        "opening_hours": "Tu-Su 08:00-12:30, 16:00-19:00",
-        "opening_hours:covid19": "open",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.9530811,
-          42.5309302
         ]
       }
     },
@@ -44690,37 +44697,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 96.3,
-        "@id": "w848771772",
-        "@changeset": 108380819,
-        "@timestamp": "2021-07-21T18:14:56Z",
-        "@version": 2,
-        "@uid": 8278438,
-        "@user": "Jordi MF",
-        "building": "yes",
-        "capacity": 2,
-        "description:fr": "2017-07 : Deux pièces, la première avec un banc en béton le long du mur et une cheminée qui prend l'eau. La seconde avec un sommier une place et un matelas",
-        "ele": 2075,
-        "fee": "no",
-        "fireplace": "yes",
-        "name": "Cabaña de Añes Cruces",
-        "name:fr": "Cabane d'Anes Cruzes",
-        "source": "Association \"Refuges et cabanes des Pyrénées\"",
-        "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/5870/cabane-non-gardee/Aragon/Cabane-d-Anes-Cruzes/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.4086539,
-          42.6800329
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 17.7,
         "@id": "n7850722607",
@@ -45703,6 +45679,37 @@
         "coordinates": [
           -0.6882294,
           42.8536858
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 96.3,
+        "@id": "w848771772",
+        "@changeset": 108380819,
+        "@timestamp": "2021-07-21T18:14:56Z",
+        "@version": 2,
+        "@uid": 8278438,
+        "@user": "Jordi MF",
+        "building": "yes",
+        "capacity": 2,
+        "description:fr": "2017-07 : Deux pièces, la première avec un banc en béton le long du mur et une cheminée qui prend l'eau. La seconde avec un sommier une place et un matelas",
+        "ele": 2075,
+        "fee": "no",
+        "fireplace": "yes",
+        "name": "Cabaña de Añes Cruces",
+        "name:fr": "Cabane d'Anes Cruzes",
+        "source": "Association \"Refuges et cabanes des Pyrénées\"",
+        "tourism": "wilderness_hut",
+        "website": "https://www.refuges.info/point/5870/cabane-non-gardee/Aragon/Cabane-d-Anes-Cruzes/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4086539,
+          42.6800329
         ]
       }
     },
