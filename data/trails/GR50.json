@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-09T02:36:38Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-20T02:36:39Z"},
   "elements": [
     {
       "type": "relation",
@@ -10609,7 +10609,7 @@
       "timestamp": "2020-04-07T13:18:20Z",
       "version": 2,
       "changeset": 83199967,
-      "user": "ThomasGrollier",
+      "user": "Carto Diem",
       "uid": 995917,
       "nodes": [2422708204, 2422708199],
       "geometry": [
@@ -12699,11 +12699,11 @@
     {
       "type": "way",
       "id": 265659191,
-      "timestamp": "2021-02-27T22:52:29Z",
-      "version": 10,
-      "changeset": 100118779,
-      "user": "Pa413",
-      "uid": 688484,
+      "timestamp": "2021-12-19T09:16:07Z",
+      "version": 11,
+      "changeset": 115118778,
+      "user": "Antonin Lebrard",
+      "uid": 6801605,
       "nodes": [767464031, 2768770273],
       "geometry": [
         {"lat": 45.0450671, "lon": 6.1368607, "z": 1015.7},
@@ -12716,7 +12716,8 @@
         "maxspeed": "80",
         "old_ref": "N 91",
         "ref": "D 1091",
-        "source:maxspeed": "FR:rural"
+        "source:maxspeed": "FR:rural",
+        "surface": "asphalt"
       }
     },
     {
@@ -22312,11 +22313,11 @@
     {
       "type": "way",
       "id": 560145289,
-      "timestamp": "2019-04-06T11:35:32Z",
-      "version": 3,
-      "changeset": 68949561,
-      "user": "BaboucheVerte",
-      "uid": 6296343,
+      "timestamp": "2021-12-19T09:15:43Z",
+      "version": 4,
+      "changeset": 115118779,
+      "user": "Antonin Lebrard",
+      "uid": 6801605,
       "nodes": [2667517858, 2551325472],
       "geometry": [
         {"lat": 45.0423102, "lon": 6.1360608, "z": 1061.3},
@@ -22332,6 +22333,7 @@
       "tags": {
         "cycleway:both": "no",
         "highway": "secondary",
+        "lanes": "2",
         "name": "Avenue de la Muzelle",
         "ref": "D 213",
         "surface": "asphalt"
@@ -32618,11 +32620,11 @@
     {
       "type": "way",
       "id": 803847034,
-      "timestamp": "2020-05-14T18:55:01Z",
-      "version": 1,
-      "changeset": 85219060,
-      "user": "fmorel",
-      "uid": 331938,
+      "timestamp": "2021-12-19T09:15:43Z",
+      "version": 4,
+      "changeset": 115118779,
+      "user": "Antonin Lebrard",
+      "uid": 6801605,
       "nodes": [4559087981, 2667517858],
       "geometry": [
         {"lat": 45.0415447, "lon": 6.1360584, "z": 1072.9},
@@ -32632,9 +32634,14 @@
         {"lat": 45.0423102, "lon": 6.1360608, "z": 1061.3}
       ],
       "tags": {
+        "cycleway:left": "lane",
+        "cycleway:left:lane": "exclusive",
+        "cycleway:right": "no",
         "highway": "secondary",
+        "lanes": "2",
         "name": "Avenue de la Muzelle",
-        "ref": "D 213"
+        "ref": "D 213",
+        "surface": "asphalt"
       }
     },
     {

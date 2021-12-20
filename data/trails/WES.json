@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-18T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-19T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1074,11 +1074,11 @@
     {
       "type": "relation",
       "id": 62897,
-      "timestamp": "2021-12-12T12:37:37Z",
-      "version": 208,
-      "changeset": 114844946,
-      "user": "*abq*",
-      "uid": 3696195,
+      "timestamp": "2021-12-19T12:14:07Z",
+      "version": 209,
+      "changeset": 115123794,
+      "user": "koilebeit",
+      "uid": 10355146,
       "members": [
         {"type": "node", "ref": 1955826026, "role": "guidepost"},
         {"type": "node", "ref": 1955825919, "role": "guidepost"},
@@ -1564,6 +1564,7 @@
         {"type": "way", "ref": 25371945, "role": ""},
         {"type": "way", "ref": 397796447, "role": ""},
         {"type": "way", "ref": 237256941, "role": ""},
+        {"type": "way", "ref": 1013481826, "role": ""},
         {"type": "way", "ref": 439371390, "role": ""},
         {"type": "way", "ref": 237256972, "role": ""},
         {"type": "way", "ref": 439371377, "role": ""},
@@ -2900,6 +2901,27 @@
         "tracktype": "grade2",
         "width": "3"
       }
+    },
+    {
+      "type": "way",
+      "id": 1013481826,
+      "timestamp": "2021-12-19T12:14:07Z",
+      "version": 1,
+      "changeset": 115123794,
+      "user": "koilebeit",
+      "uid": 10355146,
+      "nodes": [2451880449, 3806754210],
+      "geometry": [
+        {"lat": 47.5680545, "lon": 7.6062762},
+        {"lat": 47.5679738, "lon": 7.6063322},
+        {"lat": 47.5679573, "lon": 7.6062832},
+        {"lat": 47.5678936, "lon": 7.6063114},
+        {"lat": 47.5678458, "lon": 7.6063155},
+        {"lat": 47.5678092, "lon": 7.6063321},
+        {"lat": 47.5677733, "lon": 7.6063976},
+        {"lat": 47.5677322, "lon": 7.6064745}
+      ],
+      "tags": {"highway": "footway", "lit": "yes"}
     },
     {
       "type": "way",
@@ -12621,7 +12643,7 @@
       "geometry": [
         {"lat": 47.5684872, "lon": 7.6059425},
         {"lat": 47.5684524, "lon": 7.6059701},
-        {"lat": 47.5679699, "lon": 7.6063535}
+        {"lat": 47.5680545, "lon": 7.6062762}
       ],
       "tags": {"highway": "footway"}
     },
@@ -30131,16 +30153,18 @@
     {
       "type": "way",
       "id": 439371390,
-      "timestamp": "2021-02-27T00:20:54Z",
-      "version": 3,
-      "changeset": 100079557,
-      "user": "Daniel22Ka",
-      "uid": 3501252,
-      "nodes": [2451880449, 2451880380],
+      "timestamp": "2021-12-19T12:14:07Z",
+      "version": 4,
+      "changeset": 115123794,
+      "user": "koilebeit",
+      "uid": 10355146,
+      "nodes": [3806754210, 2451880380],
       "geometry": [
-        {"lat": 47.5679699, "lon": 7.6063535},
-        {"lat": 47.5677492, "lon": 7.606528},
-        {"lat": 47.5675317, "lon": 7.6067017},
+        {"lat": 47.5677322, "lon": 7.6064745},
+        {"lat": 47.5676992, "lon": 7.6064958},
+        {"lat": 47.5675737, "lon": 7.6066335},
+        {"lat": 47.5674206, "lon": 7.606755},
+        {"lat": 47.5674298, "lon": 7.6067842},
         {"lat": 47.5673586, "lon": 7.60684}
       ],
       "tags": {"highway": "footway", "lit": "yes"}

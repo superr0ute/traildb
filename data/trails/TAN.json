@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-17T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-19T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -358,11 +358,11 @@
     {
       "type": "relation",
       "id": 9444588,
-      "timestamp": "2021-11-27T06:54:50Z",
-      "version": 35,
-      "changeset": 114285123,
-      "user": "AlwynWellington",
-      "uid": 567640,
+      "timestamp": "2021-12-19T07:02:04Z",
+      "version": 36,
+      "changeset": 115116439,
+      "user": "Zismac",
+      "uid": 9957668,
       "members": [
         {"type": "way", "ref": 834204194, "role": ""},
         {"type": "way", "ref": 17451673, "role": ""},
@@ -388,6 +388,8 @@
         {"type": "way", "ref": 182824581, "role": ""},
         {"type": "way", "ref": 671185991, "role": ""},
         {"type": "way", "ref": 752864971, "role": ""},
+        {"type": "way", "ref": 1013439874, "role": ""},
+        {"type": "way", "ref": 1013439873, "role": ""},
         {"type": "way", "ref": 675934265, "role": ""},
         {"type": "way", "ref": 646153208, "role": ""},
         {"type": "way", "ref": 365607582, "role": ""},
@@ -5131,6 +5133,55 @@
       "tags": {
         "highway": "residential",
         "name": "Bathgate Road",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1013439873,
+      "timestamp": "2021-12-19T07:02:04Z",
+      "version": 1,
+      "changeset": 115116439,
+      "user": "Zismac",
+      "uid": 9957668,
+      "nodes": [6321277887, 6330209771],
+      "geometry": [
+        {"lat": -41.1025321, "lon": 174.8695531},
+        {"lat": -41.1025708, "lon": 174.8696959},
+        {"lat": -41.1026114, "lon": 174.8697193},
+        {"lat": -41.1026677, "lon": 174.8697291},
+        {"lat": -41.1026608, "lon": 174.8697446},
+        {"lat": -41.1026376, "lon": 174.8697615},
+        {"lat": -41.1026097, "lon": 174.86978},
+        {"lat": -41.1025656, "lon": 174.8697954},
+        {"lat": -41.1025284, "lon": 174.8698},
+        {"lat": -41.1024925, "lon": 174.8698062},
+        {"lat": -41.1024959, "lon": 174.8698339}
+      ],
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "name": "Ara Harakeke Shared Path"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1013439874,
+      "timestamp": "2021-12-19T07:02:04Z",
+      "version": 1,
+      "changeset": 115116439,
+      "user": "Zismac",
+      "uid": 9957668,
+      "nodes": [8411506429, 6321277887],
+      "geometry": [
+        {"lat": -41.1025283, "lon": 174.8693163},
+        {"lat": -41.1025321, "lon": 174.8695531}
+      ],
+      "tags": {
+        "highway": "service",
+        "name": "Marina View",
+        "service": "parking_aisle",
         "surface": "paved"
       }
     },
@@ -49465,11 +49516,11 @@
     {
       "type": "way",
       "id": 373848775,
-      "timestamp": "2020-07-31T10:39:58Z",
-      "version": 5,
-      "changeset": 88777140,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2021-12-19T00:28:29Z",
+      "version": 6,
+      "changeset": 115112859,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [1211503787, 2679504411],
       "geometry": [
         {"lat": -36.9233275, "lon": 174.7763726},
@@ -49482,7 +49533,8 @@
         "maxspeed": "50",
         "name": "Beachcroft Avenue",
         "oneway": "yes",
-        "surface": "paved"
+        "surface": "paved",
+        "turn:lanes": "through|right"
       }
     },
     {
@@ -85966,12 +86018,12 @@
     {
       "type": "way",
       "id": 752864971,
-      "timestamp": "2021-09-07T22:45:30Z",
-      "version": 4,
-      "changeset": 110881944,
-      "user": "kylenz",
-      "uid": 10140394,
-      "nodes": [937178997, 6330209771],
+      "timestamp": "2021-12-19T07:02:04Z",
+      "version": 5,
+      "changeset": 115116439,
+      "user": "Zismac",
+      "uid": 9957668,
+      "nodes": [937178997, 8411506429],
       "geometry": [
         {"lat": -41.0977073, "lon": 174.8683669},
         {"lat": -41.09819, "lon": 174.86842},
@@ -86012,21 +86064,7 @@
         {"lat": -41.1027597, "lon": 174.869116},
         {"lat": -41.1026873, "lon": 174.8691664},
         {"lat": -41.1026108, "lon": 174.8692753},
-        {"lat": -41.1025941, "lon": 174.8693166},
-        {"lat": -41.1025676, "lon": 174.8693824},
-        {"lat": -41.1025403, "lon": 174.8695933},
-        {"lat": -41.1025384, "lon": 174.869608},
-        {"lat": -41.1025445, "lon": 174.8696508},
-        {"lat": -41.1025708, "lon": 174.8696959},
-        {"lat": -41.1026114, "lon": 174.8697193},
-        {"lat": -41.1026677, "lon": 174.8697291},
-        {"lat": -41.1026608, "lon": 174.8697446},
-        {"lat": -41.1026376, "lon": 174.8697615},
-        {"lat": -41.1026097, "lon": 174.86978},
-        {"lat": -41.1025656, "lon": 174.8697954},
-        {"lat": -41.1025284, "lon": 174.8698},
-        {"lat": -41.1024925, "lon": 174.8698062},
-        {"lat": -41.1024959, "lon": 174.8698339}
+        {"lat": -41.1025283, "lon": 174.8693163}
       ],
       "tags": {
         "bicycle": "designated",
