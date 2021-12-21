@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-17T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-20T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -16816,11 +16816,11 @@
     {
       "type": "way",
       "id": 503128111,
-      "timestamp": "2019-10-25T04:52:12Z",
-      "version": 2,
-      "changeset": 76181800,
-      "user": "mardil10",
-      "uid": 10362852,
+      "timestamp": "2021-12-20T23:10:46Z",
+      "version": 3,
+      "changeset": 115184605,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [1455670080, 26824078],
       "geometry": [
         {"lat": 48.4220091, "lon": -123.3810325},
@@ -16830,6 +16830,7 @@
         "highway": "tertiary",
         "maxspeed": "50",
         "name": "St. Lawrence Street",
+        "sidewalk": "both",
         "source:maxspeed": "sign"
       }
     },
@@ -19522,11 +19523,11 @@
     {
       "type": "way",
       "id": 738407081,
-      "timestamp": "2019-10-25T04:52:12Z",
-      "version": 1,
-      "changeset": 76181800,
-      "user": "mardil10",
-      "uid": 10362852,
+      "timestamp": "2021-12-20T23:10:46Z",
+      "version": 2,
+      "changeset": 115184605,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [26824078, 2679909213],
       "geometry": [
         {"lat": 48.4218899, "lon": -123.3811685},
@@ -19536,6 +19537,7 @@
         "highway": "tertiary",
         "maxspeed": "50",
         "name": "St. Lawrence Street",
+        "sidewalk": "both",
         "source:maxspeed": "sign"
       }
     },
@@ -19926,11 +19928,11 @@
     {
       "type": "way",
       "id": 7974273,
-      "timestamp": "2021-08-25T15:47:46Z",
-      "version": 14,
-      "changeset": 110240625,
-      "user": "andrewpmk",
-      "uid": 1679,
+      "timestamp": "2021-12-20T23:10:46Z",
+      "version": 15,
+      "changeset": 115184605,
+      "user": "Sibney",
+      "uid": 14601470,
       "nodes": [59593094, 1200116152],
       "geometry": [
         {"lat": 48.4225681, "lon": -123.3837946},
@@ -19941,7 +19943,12 @@
         {"lat": 48.4220149, "lon": -123.3843377},
         {"lat": 48.4219426, "lon": -123.384326}
       ],
-      "tags": {"highway": "residential", "lit": "yes", "name": "Dallas Road"}
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Dallas Road",
+        "sidewalk": "right"
+      }
     },
     {
       "type": "way",

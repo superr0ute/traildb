@@ -1,15 +1,24 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-16T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-20T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1920350,
-      "timestamp": "2021-09-15T21:38:06Z",
-      "version": 255,
-      "changeset": 111263283,
-      "user": "Hannes Röst",
-      "uid": 289221,
+      "timestamp": "2021-12-20T21:50:56Z",
+      "version": 256,
+      "changeset": 115182886,
+      "user": "JTE Dimandix",
+      "uid": 7035655,
       "members": [
+        {"type": "node", "ref": 1783588258, "role": ""},
+        {"type": "node", "ref": 4566984590, "role": ""},
+        {"type": "node", "ref": 3308484297, "role": ""},
+        {"type": "node", "ref": 3308484298, "role": ""},
+        {"type": "node", "ref": 3308484299, "role": ""},
+        {"type": "node", "ref": 3308484300, "role": ""},
+        {"type": "node", "ref": 3308484294, "role": ""},
+        {"type": "node", "ref": 3308456955, "role": ""},
+        {"type": "node", "ref": 4401578281, "role": ""},
         {"type": "way", "ref": 233633697, "role": "alternative_r1"},
         {"type": "way", "ref": 243022438, "role": "alternative_r1"},
         {"type": "way", "ref": 243022439, "role": "alternative_r1"},
@@ -121,15 +130,6 @@
         {"type": "way", "ref": 635225900, "role": ""},
         {"type": "way", "ref": 635225901, "role": ""},
         {"type": "way", "ref": 113316895, "role": ""},
-        {"type": "node", "ref": 1783588258, "role": ""},
-        {"type": "node", "ref": 4566984590, "role": ""},
-        {"type": "node", "ref": 3308484297, "role": ""},
-        {"type": "node", "ref": 3308484298, "role": ""},
-        {"type": "node", "ref": 3308484299, "role": ""},
-        {"type": "node", "ref": 3308484300, "role": ""},
-        {"type": "node", "ref": 3308484294, "role": ""},
-        {"type": "node", "ref": 3308456955, "role": ""},
-        {"type": "node", "ref": 4401578281, "role": ""},
         {"type": "way", "ref": 27688309, "role": ""},
         {"type": "way", "ref": 27688183, "role": ""},
         {"type": "way", "ref": 421317292, "role": ""},
@@ -385,6 +385,7 @@
         {"type": "way", "ref": 240806010, "role": ""},
         {"type": "way", "ref": 240806022, "role": ""},
         {"type": "way", "ref": 34424578, "role": ""},
+        {"type": "way", "ref": 1013881918, "role": ""},
         {"type": "way", "ref": 41807171, "role": ""},
         {"type": "way", "ref": 173322833, "role": ""},
         {"type": "way", "ref": 27951219, "role": ""},
@@ -1299,6 +1300,22 @@
         {"lat": 35.2251095, "lon": 25.2663494}
       ],
       "tags": {"highway": "unclassified", "old_ref": "ΕΠ48", "source": "Bing"}
+    },
+    {
+      "type": "way",
+      "id": 1013881918,
+      "timestamp": "2021-12-20T21:50:56Z",
+      "version": 1,
+      "changeset": 115182886,
+      "user": "JTE Dimandix",
+      "uid": 7035655,
+      "nodes": [516032967, 516032494],
+      "geometry": [
+        {"lat": 35.3165503, "lon": 24.4111821},
+        {"lat": 35.3166035, "lon": 24.4110683},
+        {"lat": 35.3166459, "lon": 24.4109602}
+      ],
+      "tags": {"destination:backward": "Άνω Βαλσαμονερο", "highway": "tertiary"}
     },
     {
       "type": "way",
@@ -16389,11 +16406,11 @@
     {
       "type": "way",
       "id": 34424578,
-      "timestamp": "2021-07-20T22:05:31Z",
-      "version": 23,
-      "changeset": 108340821,
-      "user": "4TL4S",
-      "uid": 12781275,
+      "timestamp": "2021-12-20T21:50:56Z",
+      "version": 24,
+      "changeset": 115182886,
+      "user": "JTE Dimandix",
+      "uid": 7035655,
       "nodes": [516032494, 728206718],
       "geometry": [
         {"lat": 35.3166459, "lon": 24.4109602},
@@ -16420,6 +16437,7 @@
         {"lat": 35.3124721, "lon": 24.3954317}
       ],
       "tags": {
+        "destination:backward": "Ρέθυμνο",
         "highway": "primary",
         "name": "Χανίων - Ρεθύμνου",
         "name:en": "Chania - Rethymno Highway",
@@ -22563,12 +22581,12 @@
     {
       "type": "way",
       "id": 41807171,
-      "timestamp": "2021-07-20T19:29:24Z",
-      "version": 7,
-      "changeset": 108336521,
-      "user": "4TL4S",
-      "uid": 12781275,
-      "nodes": [307005223, 516032494],
+      "timestamp": "2021-12-20T21:50:56Z",
+      "version": 8,
+      "changeset": 115182886,
+      "user": "JTE Dimandix",
+      "uid": 7035655,
+      "nodes": [307005223, 516032967],
       "geometry": [
         {"lat": 35.3039487, "lon": 24.421192},
         {"lat": 35.3039262, "lon": 24.4210178},
@@ -22690,9 +22708,7 @@
         {"lat": 35.3162445, "lon": 24.4116107},
         {"lat": 35.3162949, "lon": 24.4114302},
         {"lat": 35.3163811, "lon": 24.4113135},
-        {"lat": 35.3165503, "lon": 24.4111821},
-        {"lat": 35.3166035, "lon": 24.4110683},
-        {"lat": 35.3166459, "lon": 24.4109602}
+        {"lat": 35.3165503, "lon": 24.4111821}
       ],
       "tags": {"highway": "tertiary"}
     },
