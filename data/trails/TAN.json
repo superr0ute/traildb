@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-19T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-21T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2478,11 +2478,11 @@
     {
       "type": "relation",
       "id": 9606135,
-      "timestamp": "2021-12-12T08:03:42Z",
-      "version": 25,
-      "changeset": 114838524,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-12-21T05:21:37Z",
+      "version": 26,
+      "changeset": 115190079,
+      "user": "ChookMan",
+      "uid": 11144302,
       "members": [
         {"type": "way", "ref": 558293210, "role": ""},
         {"type": "way", "ref": 106710813, "role": ""},
@@ -2526,6 +2526,8 @@
         {"type": "way", "ref": 856157686, "role": ""},
         {"type": "way", "ref": 374784375, "role": ""},
         {"type": "way", "ref": 676291350, "role": ""},
+        {"type": "way", "ref": 1013951409, "role": ""},
+        {"type": "way", "ref": 1013951410, "role": ""},
         {"type": "way", "ref": 448444844, "role": ""},
         {"type": "way", "ref": 684808598, "role": ""},
         {"type": "way", "ref": 954543218, "role": ""},
@@ -5183,6 +5185,68 @@
         "name": "Marina View",
         "service": "parking_aisle",
         "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1013951409,
+      "timestamp": "2021-12-21T05:21:37Z",
+      "version": 1,
+      "changeset": 115190079,
+      "user": "ChookMan",
+      "uid": 11144302,
+      "nodes": [9354665581, 4454569424],
+      "geometry": [
+        {"lat": -36.9962201, "lon": 174.7860746},
+        {"lat": -36.9960242, "lon": 174.7859747},
+        {"lat": -36.9959162, "lon": 174.7859196},
+        {"lat": -36.9958531, "lon": 174.7858852},
+        {"lat": -36.9957491, "lon": 174.7858284},
+        {"lat": -36.9956755, "lon": 174.7858058},
+        {"lat": -36.9956363, "lon": 174.7857937},
+        {"lat": -36.9950695, "lon": 174.785619},
+        {"lat": -36.9947825, "lon": 174.7855698},
+        {"lat": -36.994596, "lon": 174.7855509},
+        {"lat": -36.9942022, "lon": 174.7855565},
+        {"lat": -36.9940667, "lon": 174.7855828}
+      ],
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "name": "George Bolt Memorial Drive"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1013951410,
+      "timestamp": "2021-12-21T05:21:37Z",
+      "version": 1,
+      "changeset": 115190079,
+      "user": "ChookMan",
+      "uid": 11144302,
+      "nodes": [3200754075, 6416422961],
+      "geometry": [
+        {"lat": -36.9982433, "lon": 174.7878145},
+        {"lat": -36.9982497, "lon": 174.7877741},
+        {"lat": -36.9982564, "lon": 174.7877352},
+        {"lat": -36.9982499, "lon": 174.7876877},
+        {"lat": -36.9982176, "lon": 174.7876292},
+        {"lat": -36.9981886, "lon": 174.7875907},
+        {"lat": -36.998157, "lon": 174.7875604},
+        {"lat": -36.9981282, "lon": 174.7875452},
+        {"lat": -36.9980727, "lon": 174.7875145},
+        {"lat": -36.9980121, "lon": 174.7874646},
+        {"lat": -36.9979514, "lon": 174.7874186},
+        {"lat": -36.997874, "lon": 174.7873904},
+        {"lat": -36.9978004, "lon": 174.7873432},
+        {"lat": -36.9977561, "lon": 174.787301}
+      ],
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "name": "George Bolt Memorial Drive"
       }
     },
     {
@@ -30742,9 +30806,9 @@
     {
       "type": "way",
       "id": 23959954,
-      "timestamp": "2021-10-14T06:07:51Z",
-      "version": 15,
-      "changeset": 112487678,
+      "timestamp": "2021-12-21T05:20:08Z",
+      "version": 16,
+      "changeset": 115189904,
       "user": "LACDH",
       "uid": 4994674,
       "nodes": [259751361, 259751370],
@@ -30773,6 +30837,7 @@
       "tags": {
         "highway": "residential",
         "lanes": "2",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Waiake Street",
         "surface": "asphalt"
@@ -31199,9 +31264,9 @@
     {
       "type": "way",
       "id": 24447196,
-      "timestamp": "2021-10-14T06:10:52Z",
-      "version": 10,
-      "changeset": 112487678,
+      "timestamp": "2021-12-21T05:22:47Z",
+      "version": 11,
+      "changeset": 115189904,
       "user": "LACDH",
       "uid": 4994674,
       "nodes": [1011569112, 259751441],
@@ -31232,6 +31297,7 @@
       "tags": {
         "highway": "residential",
         "lanes": "2",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Sharon Road",
         "surface": "asphalt"
@@ -48509,9 +48575,9 @@
     {
       "type": "way",
       "id": 373835433,
-      "timestamp": "2021-10-20T07:40:53Z",
-      "version": 16,
-      "changeset": 112730346,
+      "timestamp": "2021-12-21T05:22:39Z",
+      "version": 17,
+      "changeset": 115189904,
       "user": "LACDH",
       "uid": 4994674,
       "nodes": [259751441, 1012103450],
@@ -48546,6 +48612,7 @@
       "tags": {
         "highway": "secondary",
         "lanes": "2",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Beach Road",
         "surface": "asphalt"
@@ -62469,26 +62536,13 @@
     {
       "type": "way",
       "id": 448444844,
-      "timestamp": "2021-02-26T04:45:12Z",
-      "version": 11,
-      "changeset": 100016828,
+      "timestamp": "2021-12-21T05:21:37Z",
+      "version": 12,
+      "changeset": 115190079,
       "user": "ChookMan",
       "uid": 11144302,
-      "nodes": [3200754075, 4454569424],
+      "nodes": [6416422961, 9354665581],
       "geometry": [
-        {"lat": -36.9982433, "lon": 174.7878145},
-        {"lat": -36.9982497, "lon": 174.7877741},
-        {"lat": -36.9982564, "lon": 174.7877352},
-        {"lat": -36.9982499, "lon": 174.7876877},
-        {"lat": -36.9982176, "lon": 174.7876292},
-        {"lat": -36.9981886, "lon": 174.7875907},
-        {"lat": -36.998157, "lon": 174.7875604},
-        {"lat": -36.9981282, "lon": 174.7875452},
-        {"lat": -36.9980727, "lon": 174.7875145},
-        {"lat": -36.9980121, "lon": 174.7874646},
-        {"lat": -36.9979514, "lon": 174.7874186},
-        {"lat": -36.997874, "lon": 174.7873904},
-        {"lat": -36.9978004, "lon": 174.7873432},
         {"lat": -36.9977561, "lon": 174.787301},
         {"lat": -36.9978047, "lon": 174.787257},
         {"lat": -36.9978432, "lon": 174.7870787},
@@ -62497,19 +62551,10 @@
         {"lat": -36.9977499, "lon": 174.786883},
         {"lat": -36.9964946, "lon": 174.7862146},
         {"lat": -36.9963143, "lon": 174.7861226},
-        {"lat": -36.9960242, "lon": 174.7859747},
-        {"lat": -36.9959162, "lon": 174.7859196},
-        {"lat": -36.9958531, "lon": 174.7858852},
-        {"lat": -36.9957491, "lon": 174.7858284},
-        {"lat": -36.9956755, "lon": 174.7858058},
-        {"lat": -36.9956363, "lon": 174.7857937},
-        {"lat": -36.9950695, "lon": 174.785619},
-        {"lat": -36.9947825, "lon": 174.7855698},
-        {"lat": -36.994596, "lon": 174.7855509},
-        {"lat": -36.9942022, "lon": 174.7855565},
-        {"lat": -36.9940667, "lon": 174.7855828}
+        {"lat": -36.9962201, "lon": 174.7860746}
       ],
       "tags": {
+        "access": "no",
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
@@ -95422,9 +95467,9 @@
     {
       "type": "way",
       "id": 86989147,
-      "timestamp": "2021-10-14T06:10:31Z",
-      "version": 14,
-      "changeset": 112487686,
+      "timestamp": "2021-12-21T05:20:12Z",
+      "version": 15,
+      "changeset": 115189904,
       "user": "LACDH",
       "uid": 4994674,
       "nodes": [259751226, 259751370],
@@ -95440,6 +95485,7 @@
       "tags": {
         "highway": "secondary",
         "lanes": "2",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Beach Road",
         "surface": "asphalt"
@@ -95477,9 +95523,9 @@
     {
       "type": "way",
       "id": 86989161,
-      "timestamp": "2021-10-14T06:10:30Z",
-      "version": 7,
-      "changeset": 112487686,
+      "timestamp": "2021-12-21T05:20:13Z",
+      "version": 8,
+      "changeset": 115189904,
       "user": "LACDH",
       "uid": 4994674,
       "nodes": [1012103450, 259751226],
@@ -95492,6 +95538,7 @@
         "highway": "secondary",
         "lanes": "2",
         "layer": "1",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Beach Road",
         "surface": "asphalt"

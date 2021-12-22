@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-20T02:36:39Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-22T02:36:38Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11097196,
-      "timestamp": "2021-12-07T07:42:07Z",
-      "version": 66,
-      "changeset": 114647406,
-      "user": "Dfaure",
-      "uid": 636158,
+      "timestamp": "2021-12-21T19:25:21Z",
+      "version": 67,
+      "changeset": 115222913,
+      "user": "JFK73",
+      "uid": 662440,
       "members": [
         {"type": "way", "ref": 195718537, "role": ""},
         {"type": "way", "ref": 803487048, "role": ""},
@@ -561,6 +561,7 @@
         {"type": "way", "ref": 267286908, "role": ""},
         {"type": "way", "ref": 210621484, "role": ""},
         {"type": "way", "ref": 802892661, "role": ""},
+        {"type": "way", "ref": 1014136992, "role": ""},
         {"type": "way", "ref": 802892660, "role": ""},
         {"type": "way", "ref": 803794519, "role": ""},
         {"type": "way", "ref": 272477045, "role": ""},
@@ -1064,6 +1065,29 @@
         {"lat": 45.0191148, "lon": 6.0580078, "z": 748.2}
       ],
       "tags": {"highway": "path", "surface": "gravel"}
+    },
+    {
+      "type": "way",
+      "id": 1014136992,
+      "timestamp": "2021-12-21T19:25:21Z",
+      "version": 1,
+      "changeset": 115222913,
+      "user": "JFK73",
+      "uid": 662440,
+      "nodes": [9356400973, 279475358],
+      "geometry": [
+        {"lat": 44.7382831, "lon": 6.5641165, "z": 1144.6},
+        {"lat": 44.7384155, "lon": 6.564209, "z": 1145.3},
+        {"lat": 44.7384769, "lon": 6.5642433, "z": 1145.8},
+        {"lat": 44.7385518, "lon": 6.5642653, "z": 1146.6},
+        {"lat": 44.7386879, "lon": 6.5642714, "z": 1148.4}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "name": "Route de la Roche de Rame",
+        "ref": "D 38",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
+      }
     },
     {
       "type": "way",
@@ -15143,11 +15167,11 @@
     {
       "type": "way",
       "id": 278272072,
-      "timestamp": "2019-08-18T17:20:57Z",
-      "version": 4,
-      "changeset": 73469211,
-      "user": "Hervé TUC",
-      "uid": 922338,
+      "timestamp": "2021-12-21T18:21:09Z",
+      "version": 5,
+      "changeset": 115221075,
+      "user": "JFK73",
+      "uid": 662440,
       "nodes": [343009255, 854845863],
       "geometry": [
         {"lat": 44.8337683, "lon": 6.5662711, "z": 1503.1},
@@ -15187,6 +15211,7 @@
       ],
       "tags": {
         "highway": "track",
+        "name": "Route de Saint-Hippolyte",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
       }
     },
@@ -19384,11 +19409,11 @@
     {
       "type": "way",
       "id": 410865993,
-      "timestamp": "2017-08-01T21:19:51Z",
-      "version": 2,
-      "changeset": 50764943,
-      "user": "Sam390",
-      "uid": 381276,
+      "timestamp": "2021-12-21T18:21:09Z",
+      "version": 3,
+      "changeset": 115221075,
+      "user": "JFK73",
+      "uid": 662440,
       "nodes": [854845863, 854845893],
       "geometry": [
         {"lat": 44.8314589, "lon": 6.5645431, "z": 1532.2},
@@ -19428,6 +19453,7 @@
       ],
       "tags": {
         "highway": "track",
+        "name": "Route de Bouchier",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
       }
     },
@@ -27001,11 +27027,11 @@
     {
       "type": "way",
       "id": 802892660,
-      "timestamp": "2020-05-12T09:40:03Z",
-      "version": 1,
-      "changeset": 85077008,
-      "user": "enz1an",
-      "uid": 9098126,
+      "timestamp": "2021-12-21T19:25:21Z",
+      "version": 2,
+      "changeset": 115222913,
+      "user": "JFK73",
+      "uid": 662440,
       "nodes": [413929420, 279475358],
       "geometry": [
         {"lat": 44.7399103, "lon": 6.5637934, "z": 1143},
@@ -27015,19 +27041,23 @@
         {"lat": 44.7393932, "lon": 6.5641209, "z": 1148.8},
         {"lat": 44.7392194, "lon": 6.5641901, "z": 1150.1},
         {"lat": 44.7388856, "lon": 6.5642643, "z": 1149.4},
-        {"lat": 44.7387096, "lon": 6.5642756, "z": 1148.5}
+        {"lat": 44.7386879, "lon": 6.5642714, "z": 1148.4}
       ],
-      "tags": {"highway": "tertiary", "ref": "D 38B"}
+      "tags": {
+        "highway": "tertiary",
+        "name": "Route de la Roche de Rame",
+        "ref": "D 38B"
+      }
     },
     {
       "type": "way",
       "id": 802892661,
-      "timestamp": "2020-05-12T09:40:03Z",
-      "version": 1,
-      "changeset": 85077008,
-      "user": "enz1an",
-      "uid": 9098126,
-      "nodes": [282221689, 279475358],
+      "timestamp": "2021-12-21T19:25:21Z",
+      "version": 2,
+      "changeset": 115222913,
+      "user": "JFK73",
+      "uid": 662440,
+      "nodes": [282221689, 9356400973],
       "geometry": [
         {"lat": 44.7343395, "lon": 6.5661595, "z": 1138.3},
         {"lat": 44.7345875, "lon": 6.5653738, "z": 1143.7},
@@ -27051,14 +27081,11 @@
         {"lat": 44.7378729, "lon": 6.5638311, "z": 1143},
         {"lat": 44.7379626, "lon": 6.5638897, "z": 1143.2},
         {"lat": 44.7380877, "lon": 6.5639779, "z": 1143.4},
-        {"lat": 44.7384155, "lon": 6.564209, "z": 1145.3},
-        {"lat": 44.7384769, "lon": 6.5642433, "z": 1145.8},
-        {"lat": 44.7385518, "lon": 6.5642653, "z": 1146.6},
-        {"lat": 44.7386879, "lon": 6.5642714, "z": 1148.4},
-        {"lat": 44.7387096, "lon": 6.5642756, "z": 1148.5}
+        {"lat": 44.7382831, "lon": 6.5641165, "z": 1144.6}
       ],
       "tags": {
         "highway": "secondary",
+        "name": "Route de Ser San Peyre",
         "ref": "D 38",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
       }
@@ -30906,11 +30933,11 @@
     {
       "type": "way",
       "id": 803791755,
-      "timestamp": "2020-05-14T16:24:13Z",
-      "version": 1,
-      "changeset": 85211869,
-      "user": "fmorel",
-      "uid": 331938,
+      "timestamp": "2021-12-21T19:25:21Z",
+      "version": 2,
+      "changeset": 115222913,
+      "user": "JFK73",
+      "uid": 662440,
       "nodes": [282220708, 2727559213],
       "geometry": [
         {"lat": 44.7275398, "lon": 6.5700464, "z": 1155.9},
@@ -30934,6 +30961,7 @@
       ],
       "tags": {
         "highway": "secondary",
+        "name": "Route du Chambon",
         "ref": "D 38",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
       }
