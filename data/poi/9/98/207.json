@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-12-21T23:59:59Z",
-    "timestamp_osm_base": "2021-12-22T03:24:08Z",
+    "timestamp_osm_date": "2021-12-22T23:59:59Z",
+    "timestamp_osm_base": "2021-12-23T03:25:09Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6491,30 +6491,6 @@
     },
     {
       "type": "node",
-      "id": 9176919924,
-      "lat": 32.221879,
-      "lon": -110.9005703,
-      "timestamp": "2021-10-16T19:04:16Z",
-      "version": 1,
-      "changeset": 112590207,
-      "user": "maxerickson",
-      "uid": 360392,
-      "tags": {
-        "addr:city": "Tucson",
-        "addr:housenumber": "4301",
-        "addr:postcode": "85711",
-        "addr:state": "AZ",
-        "addr:street": "East Broadway Boulevard",
-        "brand": "Speedway",
-        "brand:wikidata": "Q7575683",
-        "brand:wikipedia": "en:Speedway (store)",
-        "name": "Speedway",
-        "ref": "2965",
-        "shop": "convenience"
-      }
-    },
-    {
-      "type": "node",
       "id": 9176921741,
       "lat": 32.2717953,
       "lon": -110.9433361,
@@ -7799,6 +7775,34 @@
         "ref:walmart": "3357",
         "shop": "supermarket",
         "website": "https://www.walmart.com/store/3357/tucson-az/whats-new"
+      }
+    },
+    {
+      "type": "way",
+      "id": 235913496,
+      "timestamp": "2021-12-22T01:51:17Z",
+      "version": 3,
+      "changeset": 115231046,
+      "user": "GREGMAP1",
+      "uid": 10666051,
+      "center": {
+        "lat": 32.2218926,
+        "lon": -110.900561
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "4301",
+        "addr:postcode": "85711",
+        "addr:state": "AZ",
+        "addr:street": "East Broadway Boulevard",
+        "brand": "Speedway",
+        "brand:wikidata": "Q7575683",
+        "brand:wikipedia": "en:Speedway (store)",
+        "building": "retail",
+        "name": "Speedway",
+        "ref": "2965",
+        "shop": "convenience"
       }
     },
     {
@@ -10664,8 +10668,8 @@
       "user": "Glassman",
       "uid": 447903,
       "center": {
-        "lat": 32.3392561,
-        "lon": -110.9817281
+        "lat": 32.3392566,
+        "lon": -110.9817381
       },
       "nodes": [],
       "tags": {
@@ -10675,35 +10679,39 @@
     {
       "type": "way",
       "id": 542438780,
-      "timestamp": "2017-11-23T14:24:32Z",
-      "version": 1,
-      "changeset": 54027563,
-      "user": "Glassman",
-      "uid": 447903,
+      "timestamp": "2021-12-22T23:45:29Z",
+      "version": 2,
+      "changeset": 115275837,
+      "user": "mycota",
+      "uid": 7541348,
       "center": {
         "lat": 32.3390787,
-        "lon": -110.9809523
+        "lon": -110.9809578
       },
       "nodes": [],
       "tags": {
-        "amenity": "shelter"
+        "amenity": "shelter",
+        "building": "roof",
+        "shelter_type": "sun_shelter"
       }
     },
     {
       "type": "way",
       "id": 542438781,
-      "timestamp": "2017-11-23T14:24:32Z",
-      "version": 1,
-      "changeset": 54027563,
-      "user": "Glassman",
-      "uid": 447903,
+      "timestamp": "2021-12-22T23:45:29Z",
+      "version": 2,
+      "changeset": 115275837,
+      "user": "mycota",
+      "uid": 7541348,
       "center": {
-        "lat": 32.3389468,
-        "lon": -110.9809702
+        "lat": 32.3389491,
+        "lon": -110.9809781
       },
       "nodes": [],
       "tags": {
-        "amenity": "shelter"
+        "amenity": "shelter",
+        "building": "roof",
+        "shelter_type": "sun_shelter"
       }
     },
     {
@@ -10883,13 +10891,13 @@
       },
       "nodes": [],
       "tags": {
+        "brand:wikidata": "Q4712282",
         "addr:city": "Tucson",
         "addr:housenumber": "1350",
         "addr:postcode": "85745",
         "addr:state": "AZ",
         "addr:street": "North Silverbell Road",
         "brand": "Albertsons",
-        "brand:wikidata": "Q4712282",
         "brand:wikipedia": "en:Albertsons",
         "building": "yes",
         "name": "Albertsons",
@@ -34765,6 +34773,25 @@
       "center": {
         "lat": 32.2387879,
         "lon": -110.9720277
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1014190606,
+      "timestamp": "2021-12-22T00:02:04Z",
+      "version": 1,
+      "changeset": 115229632,
+      "user": "GREGMAP1",
+      "uid": 10666051,
+      "center": {
+        "lat": 32.2358168,
+        "lon": -111.0154462
       },
       "nodes": [],
       "tags": {

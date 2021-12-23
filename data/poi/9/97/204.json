@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-12-21T23:59:59Z",
-    "timestamp_osm_base": "2021-12-22T03:21:10Z",
+    "timestamp_osm_date": "2021-12-22T23:59:59Z",
+    "timestamp_osm_base": "2021-12-23T03:23:09Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -275,18 +275,14 @@
     {
       "type": "node",
       "id": 150970136,
-      "lat": 34.2542018,
-      "lon": -111.2612451,
-      "timestamp": "2018-09-25T13:29:48Z",
-      "version": 4,
-      "changeset": 62913940,
-      "user": "Jerome Bernardes",
-      "uid": 5973959,
+      "lat": 34.2540333,
+      "lon": -111.2613523,
+      "timestamp": "2021-12-22T01:13:34Z",
+      "version": 5,
+      "changeset": 115230557,
+      "user": "1T-money",
+      "uid": 3715012,
       "tags": {
-        "place": "hamlet",
-        "population": "2278",
-        "name": "Star Valley",
-        "is_in": "Gila,Arizona,Ariz.,AZ,USA",
         "ele": "4650",
         "gnis:Class": "Populated Place",
         "gnis:County": "Gila",
@@ -294,24 +290,26 @@
         "gnis:ST_alpha": "AZ",
         "gnis:ST_num": "04",
         "gnis:id": "1853168",
-        "import_uuid": "bb7269ee-502a-5391-8056-e3ce0e66489c"
+        "import_uuid": "bb7269ee-502a-5391-8056-e3ce0e66489c",
+        "is_in": "Gila,Arizona,Ariz.,AZ,USA",
+        "name": "Star Valley",
+        "place": "village",
+        "population": "2310",
+        "wikidata": "Q1018633",
+        "wikipedia": "en:Star Valley, Arizona"
       }
     },
     {
       "type": "node",
       "id": 150974083,
-      "lat": 34.2308684,
-      "lon": -111.3251355,
-      "timestamp": "2021-01-20T04:28:14Z",
-      "version": 4,
-      "changeset": 97804593,
-      "user": "ZeLonewolf",
-      "uid": 219297,
+      "lat": 34.2406479,
+      "lon": -111.3230261,
+      "timestamp": "2021-12-22T01:16:00Z",
+      "version": 5,
+      "changeset": 115230588,
+      "user": "1T-money",
+      "uid": 3715012,
       "tags": {
-        "census:population": "15257;2006",
-        "population": "15257",
-        "wikidata": "Q985250",
-        "place": "town",
         "ele": "1500",
         "gnis:County": "Gila",
         "gnis:County_num": "007",
@@ -320,7 +318,12 @@
         "gnis:id": "32746",
         "import_uuid": "bb7269ee-502a-5391-8056-e3ce0e66489c",
         "is_in": "Gila,Arizona,Ariz.,AZ,USA",
-        "name": "Payson"
+        "name": "Payson",
+        "place": "town",
+        "population": "15813",
+        "population:date": "2020",
+        "wikidata": "Q985250",
+        "wikipedia": "en:Payson, Arizona"
       }
     },
     {
@@ -7002,21 +7005,6 @@
     },
     {
       "type": "node",
-      "id": 6505141078,
-      "lat": 34.2556688,
-      "lon": -111.3229495,
-      "timestamp": "2019-05-28T01:35:05Z",
-      "version": 1,
-      "changeset": 70678371,
-      "user": "Jon Hanson",
-      "uid": 36097,
-      "tags": {
-        "name": "Payson Marketplace",
-        "shop": "convenience"
-      }
-    },
-    {
-      "type": "node",
       "id": 6505141080,
       "lat": 34.2721921,
       "lon": -111.3156481,
@@ -7545,6 +7533,25 @@
         "amenity": "shelter",
         "building": "yes",
         "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1014205719,
+      "timestamp": "2021-12-22T02:11:25Z",
+      "version": 1,
+      "changeset": 115231295,
+      "user": "steveman1123",
+      "uid": 13346227,
+      "center": {
+        "lat": 34.2556473,
+        "lon": -111.3229591
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Payson Marketplace",
+        "shop": "convenience"
       }
     }
   ]
