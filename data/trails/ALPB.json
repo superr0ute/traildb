@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-23T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-24T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -3656,9 +3656,9 @@
     {
       "type": "relation",
       "id": 7485265,
-      "timestamp": "2020-06-29T14:45:48Z",
-      "version": 5,
-      "changeset": 87300270,
+      "timestamp": "2021-12-24T15:35:53Z",
+      "version": 6,
+      "changeset": 115339996,
       "user": "Jrachi",
       "uid": 2976645,
       "members": [
@@ -3676,11 +3676,9 @@
         "ref:REI": "EBIAE500000",
         "route": "hiking",
         "rwn:name": "Rete Patrimonio Escursionistico Piemonte (RPE)",
-        "sac_scale": "mountain_hiking",
-        "source": "Provincia di Biella",
+        "source": "survey:CAI",
         "survey:date": "2010-06-27",
         "to": "Colle della Vecchia",
-        "trail_visibility": "intermediate",
         "type": "route"
       }
     },
@@ -26574,9 +26572,9 @@
     {
       "type": "way",
       "id": 177207822,
-      "timestamp": "2020-06-29T15:15:45Z",
-      "version": 13,
-      "changeset": 87301370,
+      "timestamp": "2021-12-24T15:35:53Z",
+      "version": 14,
+      "changeset": 115339996,
       "user": "Jrachi",
       "uid": 2976645,
       "nodes": [1876582993, 1876583125],
@@ -26890,7 +26888,7 @@
         {"lat": 45.693725, "lon": 7.9176289},
         {"lat": 45.6936604, "lon": 7.9175141}
       ],
-      "tags": {"highway": "path"}
+      "tags": {"highway": "path", "sac_scale": "hiking"}
     },
     {
       "type": "way",
@@ -36862,11 +36860,11 @@
     {
       "type": "way",
       "id": 229053846,
-      "timestamp": "2013-07-07T11:27:47Z",
-      "version": 1,
-      "changeset": 16859919,
-      "user": "sergio7826",
-      "uid": 411998,
+      "timestamp": "2021-12-24T10:48:29Z",
+      "version": 2,
+      "changeset": 115330802,
+      "user": "Anonix35",
+      "uid": 2362150,
       "nodes": [2376898935, 293172996],
       "geometry": [
         {"lat": 44.2134536, "lon": 6.9402426},
@@ -36883,6 +36881,7 @@
         {"lat": 44.2113053, "lon": 6.9426415},
         {"lat": 44.2110264, "lon": 6.9432402},
         {"lat": 44.2109987, "lon": 6.9435629},
+        {"lat": 44.2109247, "lon": 6.9435631},
         {"lat": 44.2108922, "lon": 6.9435632},
         {"lat": 44.2107885, "lon": 6.9434741},
         {"lat": 44.2108008, "lon": 6.9436629},
@@ -36989,11 +36988,11 @@
     {
       "type": "way",
       "id": 229053853,
-      "timestamp": "2015-07-24T16:57:48Z",
-      "version": 3,
-      "changeset": 32854624,
-      "user": "fmorel",
-      "uid": 331938,
+      "timestamp": "2021-12-24T10:48:29Z",
+      "version": 4,
+      "changeset": 115330802,
+      "user": "Anonix35",
+      "uid": 2362150,
       "nodes": [2376898935, 293172961],
       "geometry": [
         {"lat": 44.2134536, "lon": 6.9402426},
@@ -37007,8 +37006,10 @@
       "tags": {
         "foot": "yes",
         "highway": "track",
-        "name": "Blainon",
         "piste:difficulty": "easy",
+        "piste:grooming": "classic",
+        "piste:name": "Blainon",
+        "piste:oneway": "yes",
         "piste:type": "downhill",
         "sac_scale": "hiking",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
@@ -69386,11 +69387,11 @@
     {
       "type": "way",
       "id": 516672976,
-      "timestamp": "2017-11-06T15:56:51Z",
-      "version": 3,
-      "changeset": 53558485,
-      "user": "Andrea Musuruane import",
-      "uid": 2466191,
+      "timestamp": "2021-12-24T15:35:53Z",
+      "version": 4,
+      "changeset": 115339996,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1855317914, 1876582993],
       "geometry": [
         {"lat": 45.689295, "lon": 7.9528067},
@@ -69405,7 +69406,11 @@
         {"lat": 45.6889432, "lon": 7.951209},
         {"lat": 45.6889405, "lon": 7.950993}
       ],
-      "tags": {"highway": "steps", "name": "Via Lago della Vecchia"}
+      "tags": {
+        "highway": "steps",
+        "name": "Via Lago della Vecchia",
+        "sac_scale": "hiking"
+      }
     },
     {
       "type": "way",
@@ -94356,9 +94361,9 @@
     {
       "type": "way",
       "id": 806045674,
-      "timestamp": "2020-06-29T15:23:41Z",
-      "version": 5,
-      "changeset": 87301650,
+      "timestamp": "2021-12-24T15:35:53Z",
+      "version": 6,
+      "changeset": 115339996,
       "user": "Jrachi",
       "uid": 2976645,
       "nodes": [7666779011, 1870753862],
@@ -94535,7 +94540,7 @@
         {"lat": 45.6933023, "lon": 7.9075584},
         {"lat": 45.6933386, "lon": 7.9074651}
       ],
-      "tags": {"highway": "path"}
+      "tags": {"highway": "path", "sac_scale": "hiking"}
     },
     {
       "type": "way",
@@ -95862,9 +95867,9 @@
     {
       "type": "way",
       "id": 821106932,
-      "timestamp": "2020-06-29T14:45:48Z",
-      "version": 1,
-      "changeset": 87300270,
+      "timestamp": "2021-12-24T15:35:53Z",
+      "version": 2,
+      "changeset": 115339996,
       "user": "Jrachi",
       "uid": 2976645,
       "nodes": [1876583125, 7666779011],
@@ -95888,7 +95893,7 @@
         {"lat": 45.6938827, "lon": 7.9169598},
         {"lat": 45.6938176, "lon": 7.9168938}
       ],
-      "tags": {"highway": "path"}
+      "tags": {"highway": "path", "sac_scale": "hiking"}
     },
     {
       "type": "way",
