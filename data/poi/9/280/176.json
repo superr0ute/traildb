@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-12-24T23:59:59Z",
-    "timestamp_osm_base": "2021-12-25T05:12:26Z",
+    "timestamp_osm_date": "2021-12-25T23:59:59Z",
+    "timestamp_osm_base": "2021-12-26T07:04:50Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -194,13 +194,13 @@
     {
       "type": "node",
       "id": 26036039,
-      "lat": 48.6571444,
-      "lon": 17.264489,
-      "timestamp": "2020-05-06T07:23:26Z",
-      "version": 8,
-      "changeset": 84740290,
-      "user": "Pan Perníček",
-      "uid": 9641379,
+      "lat": 48.6553079,
+      "lon": 17.2664484,
+      "timestamp": "2021-12-25T16:06:37Z",
+      "version": 9,
+      "changeset": 115364602,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
         "city_id": "504882",
         "ele": "206",
@@ -213,6 +213,7 @@
         "postal_code": "906 07",
         "region_id": "205",
         "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.sajdikovehumence.sk/",
         "wikidata": "Q1077114",
         "wikipedia": "sk:Šajdíkove Humence"
       }
@@ -3894,25 +3895,6 @@
         "phone": "+421 34 669 7299",
         "shop": "supermarket",
         "website": "https://www.coop.sk/"
-      }
-    },
-    {
-      "type": "node",
-      "id": 1437452401,
-      "lat": 48.5740063,
-      "lon": 17.090722,
-      "timestamp": "2021-04-26T14:31:12Z",
-      "version": 3,
-      "changeset": 103643961,
-      "user": "mapperue",
-      "uid": 4887311,
-      "tags": {
-        "addr:city": "Borský Svätý Jur",
-        "addr:housenumber": "663",
-        "addr:place": "Tomky",
-        "addr:postcode": "90879",
-        "name": "Potraviny Tomky",
-        "shop": "convenience"
       }
     },
     {
@@ -13160,6 +13142,30 @@
     },
     {
       "type": "way",
+      "id": 255563838,
+      "timestamp": "2021-12-25T10:44:08Z",
+      "version": 2,
+      "changeset": 115356506,
+      "user": "holubekp",
+      "uid": 2057104,
+      "center": {
+        "lat": 48.5740124,
+        "lon": 17.0907158
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Borský Svätý Jur",
+        "addr:housenumber": "663",
+        "addr:place": "Tomky",
+        "addr:postcode": "90879",
+        "building": "yes",
+        "name": "Potraviny Tomky",
+        "shop": "convenience",
+        "source": "kapor2"
+      }
+    },
+    {
+      "type": "way",
       "id": 257168538,
       "timestamp": "2014-11-09T23:51:19Z",
       "version": 2,
@@ -14283,6 +14289,27 @@
       "nodes": [],
       "tags": {
         "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1015271318,
+      "timestamp": "2021-12-25T16:06:37Z",
+      "version": 1,
+      "changeset": 115364602,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 48.6529321,
+        "lon": 17.2702312
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
         "building": "yes",
         "shelter_type": "public_transport"
       }
