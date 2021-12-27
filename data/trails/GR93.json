@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-22T02:39:49Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-27T02:38:30Z"},
   "elements": [
     {
       "type": "relation",
@@ -3230,11 +3230,11 @@
     {
       "type": "way",
       "id": 183204298,
-      "timestamp": "2020-08-17T08:58:17Z",
-      "version": 6,
-      "changeset": 89506589,
-      "user": "crog05",
-      "uid": 508470,
+      "timestamp": "2021-12-26T14:10:16Z",
+      "version": 7,
+      "changeset": 115387887,
+      "user": "Stéphane_33",
+      "uid": 9854984,
       "nodes": [1935703198, 1935703175],
       "geometry": [
         {"lat": 44.4596621, "lon": 6.0470311, "z": 604.2},
@@ -3251,6 +3251,7 @@
         "cycleway:both": "no",
         "foot": "yes",
         "highway": "unclassified",
+        "lane_markings": "no",
         "maxspeed": "80",
         "name": "Chemin de l'Aérodrome",
         "surface": "asphalt"
@@ -3259,11 +3260,11 @@
     {
       "type": "way",
       "id": 183204301,
-      "timestamp": "2016-01-01T11:54:34Z",
-      "version": 3,
-      "changeset": 36296443,
-      "user": "crog05",
-      "uid": 508470,
+      "timestamp": "2021-12-26T14:17:29Z",
+      "version": 4,
+      "changeset": 115387382,
+      "user": "Stéphane_33",
+      "uid": 9854984,
       "nodes": [1935703175, 1935703200],
       "geometry": [
         {"lat": 44.4577564, "lon": 6.0420797, "z": 602.2},
@@ -3279,17 +3280,18 @@
         "highway": "service",
         "horse": "yes",
         "name": "Chemin de l'Aérodrome",
-        "service": "alley"
+        "service": "alley",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 183204302,
-      "timestamp": "2020-08-15T08:22:01Z",
-      "version": 5,
-      "changeset": 89438792,
-      "user": "crog05",
-      "uid": 508470,
+      "timestamp": "2021-12-26T14:06:11Z",
+      "version": 7,
+      "changeset": 115387752,
+      "user": "Stéphane_33",
+      "uid": 9854984,
       "nodes": [1935703214, 1935703198],
       "geometry": [
         {"lat": 44.4589057, "lon": 6.0509363, "z": 605.4},
@@ -3308,10 +3310,14 @@
       ],
       "tags": {
         "bicycle": "yes",
+        "cycleway:left": "no",
+        "cycleway:right": "lane",
+        "cycleway:right:lane": "advisory",
         "foot": "yes",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Chemin de l'Aérodrome",
+        "sidewalk": "right",
         "surface": "asphalt"
       }
     },

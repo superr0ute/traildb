@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-23T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-26T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10909145,
-      "timestamp": "2021-12-21T17:04:40Z",
-      "version": 1488,
-      "changeset": 115218634,
+      "timestamp": "2021-12-26T20:12:02Z",
+      "version": 1490,
+      "changeset": 115398612,
       "user": "Wulz",
       "uid": 10773975,
       "members": [
@@ -333,11 +333,12 @@
         {"type": "way", "ref": 32260948, "role": ""},
         {"type": "way", "ref": 723843566, "role": ""},
         {"type": "way", "ref": 723843707, "role": ""},
+        {"type": "way", "ref": 1015653604, "role": ""},
+        {"type": "way", "ref": 30350127, "role": ""},
+        {"type": "way", "ref": 32436408, "role": ""},
         {"type": "way", "ref": 128097555, "role": ""},
         {"type": "way", "ref": 562691879, "role": ""},
         {"type": "way", "ref": 169100278, "role": ""},
-        {"type": "way", "ref": 30350127, "role": ""},
-        {"type": "way", "ref": 32436408, "role": ""},
         {"type": "way", "ref": 785372558, "role": ""},
         {"type": "way", "ref": 26653730, "role": ""},
         {"type": "way", "ref": 26653728, "role": ""},
@@ -358,6 +359,12 @@
         {"type": "way", "ref": 230937420, "role": ""},
         {"type": "way", "ref": 230937419, "role": ""},
         {"type": "way", "ref": 39628749, "role": ""},
+        {"type": "way", "ref": 684772794, "role": ""},
+        {"type": "way", "ref": 39628750, "role": ""},
+        {"type": "way", "ref": 39628751, "role": ""},
+        {"type": "way", "ref": 39628752, "role": ""},
+        {"type": "way", "ref": 39628755, "role": ""},
+        {"type": "way", "ref": 39628756, "role": ""},
         {"type": "way", "ref": 30354744, "role": ""},
         {"type": "way", "ref": 95359875, "role": ""},
         {"type": "way", "ref": 168320719, "role": ""},
@@ -382,11 +389,6 @@
         {"type": "way", "ref": 27402189, "role": ""},
         {"type": "way", "ref": 475592284, "role": ""},
         {"type": "way", "ref": 475592283, "role": ""},
-        {"type": "way", "ref": 39628756, "role": ""},
-        {"type": "way", "ref": 39628755, "role": ""},
-        {"type": "way", "ref": 39628752, "role": ""},
-        {"type": "way", "ref": 39628751, "role": ""},
-        {"type": "way", "ref": 39628750, "role": ""},
         {"type": "way", "ref": 203266449, "role": ""},
         {"type": "way", "ref": 427447354, "role": ""},
         {"type": "way", "ref": 30353603, "role": ""},
@@ -2439,6 +2441,31 @@
     },
     {
       "type": "way",
+      "id": 1015653604,
+      "timestamp": "2021-12-26T19:53:37Z",
+      "version": 1,
+      "changeset": 115398111,
+      "user": "Wulz",
+      "uid": 10773975,
+      "nodes": [334735312, 334735158],
+      "geometry": [
+        {"lat": 46.5875649, "lon": 13.8247598},
+        {"lat": 46.5874599, "lon": 13.824727}
+      ],
+      "tags": {
+        "bicycle": "no",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "no",
+        "mtb:scale": "0",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: Salzsteigweg 09\n + rwn: Dobratsch Rundwanderweg\n + lwn:",
+        "source": "plan.at 2009",
+        "surface": "ground",
+        "tracktype": "grade3"
+      }
+    },
+    {
+      "type": "way",
       "id": 101682652,
       "timestamp": "2021-05-11T09:50:27Z",
       "version": 13,
@@ -2482,9 +2509,9 @@
     {
       "type": "way",
       "id": 101696114,
-      "timestamp": "2021-04-12T18:13:13Z",
-      "version": 15,
-      "changeset": 102821422,
+      "timestamp": "2021-12-26T15:57:07Z",
+      "version": 16,
+      "changeset": 115391410,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [334998216, 1174172020],
@@ -2508,7 +2535,7 @@
         "highway": "track",
         "incline": "10%",
         "motor_vehicle": "yes",
-        "note": "Beim „Julius-Kugy-Dreiländerweg in 30 Tagen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229\n + lwn: Julius-Kugy-Dreiländerweg in 30 Tagen – Variante E 29b",
+        "note": "Beim „Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229\n + lwn: Julius-Kugy-Dreiländerweg in 30 Tagen – Variante E 29b",
         "source": "plan.at 2009, survey;survey",
         "surface": "ground",
         "tracktype": "grade4",
@@ -5544,9 +5571,9 @@
     {
       "type": "way",
       "id": 117260989,
-      "timestamp": "2021-04-10T07:55:58Z",
-      "version": 12,
-      "changeset": 102685067,
+      "timestamp": "2021-12-26T16:16:40Z",
+      "version": 13,
+      "changeset": 115392003,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [334857049, 334857054],
@@ -5563,7 +5590,7 @@
         "highway": "path",
         "incline": "15%",
         "motor_vehicle": "no",
-        "note": "Beim “ Julius-Kugy-Dreiländerweg in 30 Tagen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 296\n + lwn: Nötsch-Dobratsch, Julius-Kugy-Dreiländerweg in 30 Tagen – Variante E 29a",
+        "note": "Beim “ Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 296\n + lwn: Nötsch-Dobratsch, Julius-Kugy-Dreiländerweg in 30 Tagen – Variante E 29a",
         "surface": "gravel",
         "width": "1"
       }
@@ -6802,11 +6829,11 @@
     {
       "type": "way",
       "id": 123121885,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 6,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:12:02Z",
+      "version": 7,
+      "changeset": 115398612,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [447732634, 1374008979],
       "geometry": [
         {"lat": 46.5708355, "lon": 13.8437447},
@@ -6815,8 +6842,11 @@
       "tags": {
         "bridge": "yes",
         "highway": "unclassified",
+        "lanes": "2",
         "layer": "1",
+        "maxspeed": "30",
         "name": "Warmbaderstraße",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 11",
         "source": "plan.at 2009",
         "surface": "asphalt"
       }
@@ -6824,11 +6854,11 @@
     {
       "type": "way",
       "id": 123121886,
-      "timestamp": "2021-08-15T13:56:44Z",
-      "version": 11,
-      "changeset": 109702095,
-      "user": "Ronald Messics",
-      "uid": 1441331,
+      "timestamp": "2021-12-26T20:12:02Z",
+      "version": 12,
+      "changeset": 115398612,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [1374008979, 8733914963],
       "geometry": [
         {"lat": 46.5706553, "lon": 13.8436703},
@@ -6840,6 +6870,7 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Warmbaderstraße",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 11",
         "source": "plan.at 2009",
         "surface": "asphalt"
       }
@@ -7376,9 +7407,9 @@
     {
       "type": "way",
       "id": 128810651,
-      "timestamp": "2021-03-22T20:34:50Z",
-      "version": 4,
-      "changeset": 101528122,
+      "timestamp": "2021-12-26T20:24:06Z",
+      "version": 5,
+      "changeset": 115398914,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [1422453455, 299686309],
@@ -7389,9 +7420,12 @@
       ],
       "tags": {
         "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
         "name": "Seeuferstraße",
         "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Tagen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn:  Julius-Kugy-Dreiländerweg – Variante – E 30a\n + lwn:",
-        "ref": "L53"
+        "ref": "L53",
+        "surface": "asphalt"
       }
     },
     {
@@ -7560,9 +7594,9 @@
     {
       "type": "way",
       "id": 129552791,
-      "timestamp": "2021-05-14T18:58:41Z",
-      "version": 11,
-      "changeset": 104703450,
+      "timestamp": "2021-12-26T15:57:07Z",
+      "version": 12,
+      "changeset": 115391410,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [334847657, 334847665],
@@ -7580,7 +7614,7 @@
         "highway": "track",
         "incline": "10%",
         "motor_vehicle": "yes",
-        "note": "Beim “ Julius-Kugy-Dreiländerweg in 30 Tagen\":\n + iwn:  \n + nrw: Gailtaler Höhenweg 229\n + rwn: Erzberg-Unters Gailtal, Dobratsch Rundwanderweg, \n + lwn: 16",
+        "note": "Beim “ Julius-Kugy-Dreiländerweg in 30 Etappen\":\n + iwn:  \n + nrw: Gailtaler Höhenweg 229\n + rwn: Erzberg-Unters Gailtal, Dobratsch Rundwanderweg, \n + lwn: 16",
         "smoothness": "bad",
         "source": "plan.at 2009;survey",
         "surface": "unpaved",
@@ -14066,11 +14100,11 @@
     {
       "type": "way",
       "id": 167436431,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 6,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:12:02Z",
+      "version": 7,
+      "changeset": 115398612,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [334789366, 447732634],
       "geometry": [
         {"lat": 46.5709693, "lon": 13.8437939},
@@ -14078,7 +14112,10 @@
       ],
       "tags": {
         "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "30",
         "name": "Warmbaderstraße",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 11",
         "source": "plan.at 2009",
         "surface": "asphalt"
       }
@@ -14086,11 +14123,11 @@
     {
       "type": "way",
       "id": 167436434,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 8,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:22:28Z",
+      "version": 9,
+      "changeset": 115398874,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [480893454, 176861858],
       "geometry": [
         {"lat": 46.568983, "lon": 13.8676513},
@@ -14107,7 +14144,7 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "St. Stefanerweg",
-        "note": "Weg-Nr. 11",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 11",
         "surface": "asphalt"
       }
     },
@@ -18825,11 +18862,11 @@
     {
       "type": "way",
       "id": 190497587,
-      "timestamp": "2021-07-20T09:14:10Z",
-      "version": 6,
-      "changeset": 108303792,
-      "user": "RegionVillach",
-      "uid": 4090626,
+      "timestamp": "2021-12-26T19:39:56Z",
+      "version": 7,
+      "changeset": 115397801,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [393924585, 140459850],
       "geometry": [
         {"lat": 46.5946737, "lon": 13.8041568},
@@ -18843,7 +18880,8 @@
         "bicycle": "no",
         "foot": "yes",
         "highway": "track",
-        "incline": "5%",
+        "incline": "-5%",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, Dobratsch Rundwanderweg\n + lwn:",
         "smoothness": "bad",
         "surface": "ground",
         "tracktype": "grade4",
@@ -18879,9 +18917,9 @@
     {
       "type": "way",
       "id": 194493004,
-      "timestamp": "2021-04-12T15:12:07Z",
-      "version": 7,
-      "changeset": 102813267,
+      "timestamp": "2021-12-26T15:57:07Z",
+      "version": 8,
+      "changeset": 115391410,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [334998277, 335029430],
@@ -18918,7 +18956,7 @@
         "highway": "track",
         "incline": "down",
         "motor_vehicle": "yes",
-        "note": "Beim „Julius-Kugy-Dreiländerweg in 30 Tagen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229\n + lwn: Julius-Kugy-Dreiländerweg in 30 Tagen – Variante E 29b",
+        "note": "Beim „Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229\n + lwn: Julius-Kugy-Dreiländerweg in 30 Tagen – Variante E 29b",
         "smoothness": "bad",
         "source": "plan.at 2009;survey",
         "surface": "unpaved",
@@ -21852,11 +21890,11 @@
     {
       "type": "way",
       "id": 229333376,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 4,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:04:39Z",
+      "version": 5,
+      "changeset": 115398365,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [362539999, 362540014],
       "geometry": [
         {"lat": 46.5765021, "lon": 13.835839},
@@ -21868,6 +21906,7 @@
       "tags": {
         "highway": "service",
         "maxspeed": "30",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 20B und 21",
         "service": "driveway",
         "surface": "asphalt"
       }
@@ -21932,11 +21971,11 @@
     {
       "type": "way",
       "id": 230937419,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 9,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:12:02Z",
+      "version": 10,
+      "changeset": 115398612,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [1571432542, 334760305],
       "geometry": [
         {"lat": 46.5700079, "lon": 13.84737},
@@ -21964,7 +22003,7 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Warmbaderstraße",
-        "note": "Weg-Nr. 11",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 11",
         "surface": "asphalt"
       }
     },
@@ -27234,11 +27273,11 @@
     {
       "type": "way",
       "id": 26352488,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 17,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:22:28Z",
+      "version": 18,
+      "changeset": 115398874,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [288729316, 288729315],
       "geometry": [
         {"lat": 46.569911, "lon": 13.8694173},
@@ -27250,6 +27289,7 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Kirchenplatz",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 11",
         "oneway": "no",
         "surface": "asphalt"
       }
@@ -27286,9 +27326,9 @@
     {
       "type": "way",
       "id": 26653728,
-      "timestamp": "2020-12-09T17:48:52Z",
-      "version": 10,
-      "changeset": 95568810,
+      "timestamp": "2021-12-26T20:04:39Z",
+      "version": 11,
+      "changeset": 115398365,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [292345144, 292345147],
@@ -27302,7 +27342,9 @@
       "tags": {
         "bridge": "yes",
         "highway": "residential",
+        "lanes": "2",
         "layer": "1",
+        "maxspeed": "30",
         "name": "Warmbach Weg"
       }
     },
@@ -27961,11 +28003,11 @@
     {
       "type": "way",
       "id": 27402178,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 8,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:22:28Z",
+      "version": 9,
+      "changeset": 115398874,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [176861834, 334824494],
       "geometry": [
         {"lat": 46.5702699, "lon": 13.8775795},
@@ -27983,18 +28025,18 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Höfling",
-        "note": "Weg-Nr. 1",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 1",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 27402182,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 25,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:22:28Z",
+      "version": 26,
+      "changeset": 115398874,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [176861858, 288729315],
       "geometry": [
         {"lat": 46.5696147, "lon": 13.8682083},
@@ -28010,17 +28052,18 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "St. Stefanerweg",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 11",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 27402183,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 22,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:22:28Z",
+      "version": 23,
+      "changeset": 115398874,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [288729316, 176861834],
       "geometry": [
         {"lat": 46.569911, "lon": 13.8694173},
@@ -28053,18 +28096,18 @@
         "lanes": "2",
         "maxspeed": "30",
         "name": "Höflingerstraße",
-        "note": "Weg-Nr. 1",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 1",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 27402189,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 21,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:16:10Z",
+      "version": 22,
+      "changeset": 115398718,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [334789488, 480893454],
       "geometry": [
         {"lat": 46.5680621, "lon": 13.8631814},
@@ -28087,7 +28130,7 @@
         "lanes": "2",
         "maxspeed": "70",
         "name": "St. Stefanerweg",
-        "note": "Weg-Nr. 11",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 11",
         "surface": "asphalt"
       }
     },
@@ -31021,11 +31064,11 @@
     {
       "type": "way",
       "id": 30350127,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 17,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:04:39Z",
+      "version": 18,
+      "changeset": 115398365,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [334735158, 6433638256],
       "geometry": [
         {"lat": 46.5874599, "lon": 13.824727},
@@ -31036,7 +31079,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
-        "incline": "5",
+        "incline": "-5%",
         "note": "Weg zur Napoleonwiese",
         "smoothness": "bad",
         "source": "plan.at 2009",
@@ -31048,11 +31091,11 @@
     {
       "type": "way",
       "id": 30350189,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 12,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T19:53:37Z",
+      "version": 13,
+      "changeset": 115398111,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [334735799, 334735812],
       "geometry": [
         {"lat": 46.5911556, "lon": 13.8236929},
@@ -31063,7 +31106,8 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
-        "incline": "5%",
+        "incline": "0%",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: Salzsteigweg 09\n + rwn: Gailtaler Höhenweg 229, \n + lwn:",
         "smoothness": "bad",
         "surface": "gravel",
         "tracktype": "grade2",
@@ -31124,11 +31168,11 @@
     {
       "type": "way",
       "id": 30353617,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 17,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:12:02Z",
+      "version": 18,
+      "changeset": 115398612,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [334789366, 2393636100],
       "geometry": [
         {"lat": 46.5709693, "lon": 13.8437939},
@@ -31157,9 +31201,9 @@
       "tags": {
         "highway": "unclassified",
         "lanes": "2",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Warmbaderstraße",
-        "note": "Weg-Nr. 11",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 11",
         "surface": "asphalt"
       }
     },
@@ -31436,11 +31480,11 @@
     {
       "type": "way",
       "id": 30356570,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 10,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:22:28Z",
+      "version": 11,
+      "changeset": 115398874,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [334831068, 334794013],
       "geometry": [
         {"lat": 46.5694621, "lon": 13.899656},
@@ -31461,21 +31505,21 @@
         "incline": "0%",
         "motor_vehicle": "yes",
         "name:sl": "Bače",
-        "note": "Weg-Nr. 11",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 1",
         "source": "plan.at 2009;survey",
         "surface": "unpaved",
         "tracktype": "grade4",
-        "width": "3"
+        "width": "2"
       }
     },
     {
       "type": "way",
       "id": 30356617,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 11,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:22:28Z",
+      "version": 12,
+      "changeset": 115398874,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [334824536, 334831068],
       "geometry": [
         {"lat": 46.5699093, "lon": 13.8873473},
@@ -31509,9 +31553,9 @@
       "tags": {
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "footway",
+        "highway": "path",
         "motor_vehicle": "private",
-        "note": "Weg-Nr. 1",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 1",
         "source": "plan.at 2009;survey",
         "surface": "gravel",
         "tracktype": "grade4",
@@ -31571,11 +31615,11 @@
     {
       "type": "way",
       "id": 30359105,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 14,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T16:15:30Z",
+      "version": 15,
+      "changeset": 115391969,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [414239019, 334857603],
       "geometry": [
         {"lat": 46.6120677, "lon": 13.6110993},
@@ -31608,8 +31652,9 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
+        "incline": "15%",
         "motor_vehicle": "yes",
-        "note": "GHW 229",
+        "note": "Beim „Julius-Kugy-Dreiländerweg in 30 Etappen – E 29“ trifft man auf\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229\n + lwn:",
         "smoothness": "bad",
         "source": "plan.at 2009;survey",
         "surface": "gravel",
@@ -31687,9 +31732,9 @@
     {
       "type": "way",
       "id": 30359242,
-      "timestamp": "2021-04-12T15:10:59Z",
-      "version": 15,
-      "changeset": 102813217,
+      "timestamp": "2021-12-26T15:57:07Z",
+      "version": 16,
+      "changeset": 115391410,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [334866478, 334847657],
@@ -31726,7 +31771,7 @@
         "highway": "track",
         "incline": "10%",
         "motor_vehicle": "yes",
-        "note": "Beim „Julius-Kugy-Dreiländerweg in 30 Tagen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229\n + lwn: Julius-Kugy-Dreiländerweg in 30 Tagen – Variante E 29b, 16",
+        "note": "Beim „Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229\n + lwn: Julius-Kugy-Dreiländerweg in 30 Tagen – Variante E 29b, 16",
         "smoothness": "bad",
         "source": "plan.at 2009;survey",
         "surface": "unpaved",
@@ -31764,11 +31809,11 @@
     {
       "type": "way",
       "id": 30359664,
-      "timestamp": "2021-07-20T09:14:10Z",
-      "version": 15,
-      "changeset": 108303792,
-      "user": "RegionVillach",
-      "uid": 4090626,
+      "timestamp": "2021-12-26T19:16:12Z",
+      "version": 16,
+      "changeset": 115397066,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [292883934, 334872755],
       "geometry": [
         {"lat": 46.5973018, "lon": 13.7024896},
@@ -31784,7 +31829,7 @@
         "highway": "path",
         "horse": "no",
         "incline": "15",
-        "note": "GHW 229 und 291",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Tagen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: 291, Gailtaler Höhenweg 229\n + lwn:",
         "source": "plan.at 2009;survey",
         "surface": "gravel",
         "width": "1"
@@ -31825,9 +31870,9 @@
     {
       "type": "way",
       "id": 30368254,
-      "timestamp": "2021-04-12T15:10:59Z",
-      "version": 16,
-      "changeset": 102813217,
+      "timestamp": "2021-12-26T15:57:07Z",
+      "version": 17,
+      "changeset": 115391410,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [335029430, 334866478],
@@ -31868,7 +31913,7 @@
         "highway": "track",
         "incline": "down",
         "motor_vehicle": "yes",
-        "note": "Beim „Julius-Kugy-Dreiländerweg in 30 Tagen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229\n + lwn: Julius-Kugy-Dreiländerweg in 30 Tagen – Variante E 29b, 16",
+        "note": "Beim „Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229\n + lwn: Julius-Kugy-Dreiländerweg in 30 Tagen – Variante E 29b, 16",
         "smoothness": "bad",
         "source": "plan.at 2009;survey",
         "surface": "unpaved",
@@ -34146,11 +34191,11 @@
     {
       "type": "way",
       "id": 32260948,
-      "timestamp": "2021-07-20T09:14:10Z",
-      "version": 8,
-      "changeset": 108303792,
-      "user": "RegionVillach",
-      "uid": 4090626,
+      "timestamp": "2021-12-26T19:53:37Z",
+      "version": 9,
+      "changeset": 115398111,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [334735812, 334735816],
       "geometry": [
         {"lat": 46.5907991, "lon": 13.8236083},
@@ -34162,21 +34207,22 @@
         "foot": "yes",
         "highway": "track",
         "horse": "no",
-        "note": "Salzsteigweg 09",
+        "incline": "0%",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: Salzsteigweg 09\n + rwn: Dobratsch Rundwanderweg\n + lwn:",
         "smoothness": "bad",
         "surface": "gravel",
         "tracktype": "grade2",
-        "width": "2"
+        "width": "3.5"
       }
     },
     {
       "type": "way",
       "id": 32260950,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 10,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T19:53:37Z",
+      "version": 11,
+      "changeset": 115398111,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [334735636, 5352583828],
       "geometry": [
         {"lat": 46.589546, "lon": 13.8245465},
@@ -34200,7 +34246,7 @@
         "foot": "yes",
         "highway": "path",
         "incline": "10%",
-        "note": "GHW 229",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, Dobratsch Rundwanderweg\n + lwn:",
         "sac_scale": "hiking",
         "surface": "gravel"
       }
@@ -34208,11 +34254,11 @@
     {
       "type": "way",
       "id": 32262082,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 7,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:04:39Z",
+      "version": 8,
+      "changeset": 115398365,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [362512021, 7827934540],
       "geometry": [
         {"lat": 46.5849748, "lon": 13.8279497},
@@ -34238,21 +34284,21 @@
         "highway": "track",
         "incline": "0%",
         "motor_vehicle": "yes",
-        "note": "Weg-Nr. 20B und 21",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 20B und 21",
         "smoothness": "bad",
         "surface": "gravel",
         "tracktype": "grade2",
-        "width": "3"
+        "width": "2.5"
       }
     },
     {
       "type": "way",
       "id": 32262988,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 5,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:04:39Z",
+      "version": 6,
+      "changeset": 115398365,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [362539989, 362539999],
       "geometry": [
         {"lat": 46.5763589, "lon": 13.8364659},
@@ -34263,6 +34309,7 @@
       "tags": {
         "highway": "service",
         "maxspeed": "30",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 20B und 21",
         "service": "driveway",
         "surface": "asphalt"
       }
@@ -34945,11 +34992,11 @@
     {
       "type": "way",
       "id": 32436408,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 11,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:04:39Z",
+      "version": 12,
+      "changeset": 115398365,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [6433638256, 334735187],
       "geometry": [
         {"lat": 46.5865988, "lon": 13.8244461},
@@ -34970,7 +35017,7 @@
       "tags": {
         "foot": "yes",
         "highway": "path",
-        "incline": "5",
+        "incline": "-10%",
         "mtb:scale": "0",
         "sac_scale": "hiking",
         "source": "plan.at 2009;survey",
@@ -34981,11 +35028,11 @@
     {
       "type": "way",
       "id": 32449821,
-      "timestamp": "2021-07-20T09:14:10Z",
-      "version": 11,
-      "changeset": 108303792,
-      "user": "RegionVillach",
-      "uid": 4090626,
+      "timestamp": "2021-12-26T19:39:56Z",
+      "version": 12,
+      "changeset": 115397801,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [364818699, 364818734],
       "geometry": [
         {"lat": 46.5951398, "lon": 13.8168441},
@@ -35010,7 +35057,7 @@
         "highway": "path",
         "horse": "no",
         "incline": "0%",
-        "note": "GHW 229",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229,\n + lwn:",
         "sac_scale": "hiking",
         "surface": "grass",
         "width": "2"
@@ -35514,11 +35561,11 @@
     {
       "type": "way",
       "id": 34156731,
-      "timestamp": "2021-07-20T09:14:10Z",
-      "version": 26,
-      "changeset": 108303792,
-      "user": "RegionVillach",
-      "uid": 4090626,
+      "timestamp": "2021-12-26T19:39:56Z",
+      "version": 27,
+      "changeset": 115397801,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [7126237243, 7126230955],
       "geometry": [
         {"lat": 46.5982101, "lon": 13.7829374},
@@ -35626,13 +35673,13 @@
         "foot": "yes",
         "highway": "track",
         "horse": "no",
-        "incline": "5",
+        "incline": "-10%",
         "motor_vehicle": "yes",
-        "note": "GHW 229",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, Dobratsch Rundwanderweg\n + lwn:",
         "smoothness": "bad",
         "surface": "gravel",
         "tracktype": "grade2",
-        "width": "5"
+        "width": "3.5"
       }
     },
     {
@@ -36723,11 +36770,11 @@
     {
       "type": "way",
       "id": 35047008,
-      "timestamp": "2021-08-10T11:36:03Z",
-      "version": 11,
-      "changeset": 109459916,
-      "user": "RegionVillach",
-      "uid": 4090626,
+      "timestamp": "2021-12-26T19:28:16Z",
+      "version": 12,
+      "changeset": 115397517,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [411062548, 411062580],
       "geometry": [
         {"lat": 46.5959778, "lon": 13.7482552},
@@ -36758,10 +36805,10 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
-        "incline": "20%",
+        "incline": "steep",
         "mtb:scale": "2",
         "name": "293",
-        "note": "GHW 229 und Weg-Nr. 22",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 293\n + lwn: 22",
         "surface": "gravel",
         "width": "1"
       }
@@ -36845,11 +36892,11 @@
     {
       "type": "way",
       "id": 35267304,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 8,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T19:28:16Z",
+      "version": 9,
+      "changeset": 115397517,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [411062548, 413402807],
       "geometry": [
         {"lat": 46.5959778, "lon": 13.7482552},
@@ -36865,22 +36912,22 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
-        "incline": "5",
+        "incline": "-5%",
         "motor_vehicle": "yes",
         "smoothness": "bad",
         "surface": "gravel",
         "tracktype": "grade2",
-        "width": "3"
+        "width": "2.5"
       }
     },
     {
       "type": "way",
       "id": 35278328,
-      "timestamp": "2021-07-20T09:14:10Z",
-      "version": 17,
-      "changeset": 108303792,
-      "user": "RegionVillach",
-      "uid": 4090626,
+      "timestamp": "2021-12-26T19:39:56Z",
+      "version": 18,
+      "changeset": 115397801,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [393924594, 140459850],
       "geometry": [
         {"lat": 46.5948063, "lon": 13.8149038},
@@ -36956,11 +37003,12 @@
         "bicycle": "no",
         "foot": "yes",
         "highway": "track",
-        "incline": "15%",
-        "note": "GHW 229 - vorbei an der \"Kuchl\"",
+        "incline": "-20%",
+        "note": "GHW 229 - vorbei an der \"Kuchl\"\nBeim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, Dobratsch Rundwanderweg\n + lwn:",
+        "smoothness": "bad",
         "surface": "gravel",
         "tracktype": "grade3",
-        "width": "1"
+        "width": "1.5"
       }
     },
     {
@@ -37588,11 +37636,11 @@
     {
       "type": "way",
       "id": 35424958,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 11,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:22:28Z",
+      "version": 12,
+      "changeset": 115398874,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [334824494, 334824536],
       "geometry": [
         {"lat": 46.5711255, "lon": 13.8802559},
@@ -37615,12 +37663,13 @@
       "tags": {
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "footway",
-        "note": "Weg-Nr. 1",
+        "highway": "path",
+        "incline": "0%",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 1",
         "source": "plan.at 2009;survey",
-        "surface": "unpaved",
+        "surface": "ground",
         "tracktype": "grade3",
-        "width": "2"
+        "width": "1.5"
       }
     },
     {
@@ -38113,11 +38162,11 @@
     {
       "type": "way",
       "id": 35584429,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 11,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T19:28:16Z",
+      "version": 13,
+      "changeset": 115397517,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [1839171991, 413402852],
       "geometry": [
         {"lat": 46.5928849, "lon": 13.7372348},
@@ -38132,13 +38181,13 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
-        "incline": "5",
+        "incline": "5%",
         "motor_vehicle": "yes",
         "note": "Zufahrtsweg zum Alpengarten und zum PP - dazwischen ein Tor",
         "smoothness": "bad",
         "surface": "gravel",
         "tracktype": "grade2",
-        "width": "3"
+        "width": "2"
       }
     },
     {
@@ -39075,11 +39124,11 @@
     {
       "type": "way",
       "id": 37300680,
-      "timestamp": "2021-08-10T11:36:03Z",
-      "version": 12,
-      "changeset": 109459916,
-      "user": "RegionVillach",
-      "uid": 4090626,
+      "timestamp": "2021-12-26T19:16:12Z",
+      "version": 13,
+      "changeset": 115397066,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [1867395731, 472405996],
       "geometry": [
         {"lat": 46.5936204, "lon": 13.7263864},
@@ -39124,12 +39173,11 @@
       ],
       "tags": {
         "highway": "path",
-        "incline": "10",
         "mtb:scale": "1",
         "name": "229",
-        "note": "GHW 229 und 292",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 292\n + lwn:",
         "surface": "gravel",
-        "width": "2"
+        "width": "1"
       }
     },
     {
@@ -40050,11 +40098,11 @@
     {
       "type": "way",
       "id": 37911915,
-      "timestamp": "2021-05-15T13:28:01Z",
-      "version": 7,
-      "changeset": 104733772,
-      "user": "ossiach",
-      "uid": 3352613,
+      "timestamp": "2021-12-26T20:12:02Z",
+      "version": 9,
+      "changeset": 115398612,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [362539989, 444993640],
       "geometry": [
         {"lat": 46.5763589, "lon": 13.8364659},
@@ -40634,11 +40682,11 @@
     {
       "type": "way",
       "id": 38838655,
-      "timestamp": "2021-07-20T09:14:10Z",
-      "version": 11,
-      "changeset": 108303792,
-      "user": "RegionVillach",
-      "uid": 4090626,
+      "timestamp": "2021-12-26T19:39:56Z",
+      "version": 12,
+      "changeset": 115397801,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [461101496, 364818688],
       "geometry": [
         {"lat": 46.5952518, "lon": 13.8152794},
@@ -40657,6 +40705,7 @@
         "highway": "track",
         "horse": "no",
         "incline": "15%",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229,\n + lwn:",
         "smoothness": "bad",
         "surface": "ground",
         "tracktype": "grade4",
@@ -41886,11 +41935,11 @@
     {
       "type": "way",
       "id": 39628749,
-      "timestamp": "2019-04-19T12:21:51Z",
-      "version": 6,
-      "changeset": 69374790,
-      "user": "cxs",
-      "uid": 251808,
+      "timestamp": "2021-12-26T20:12:02Z",
+      "version": 7,
+      "changeset": 115398612,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [334760305, 475004869],
       "geometry": [
         {"lat": 46.5695164, "lon": 13.8515456},
@@ -41899,18 +41948,21 @@
       "tags": {
         "bridge": "yes",
         "highway": "unclassified",
+        "lanes": "2",
         "layer": "1",
-        "name": "Warmbaderstraße"
+        "maxspeed": "30",
+        "name": "Warmbaderstraße",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 11"
       }
     },
     {
       "type": "way",
       "id": 39628750,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 12,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:16:10Z",
+      "version": 13,
+      "changeset": 115398718,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [334789287, 334789440],
       "geometry": [
         {"lat": 46.5694138, "lon": 13.8516452},
@@ -41935,17 +41987,18 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Warmbaderstraße",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 11",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 39628751,
-      "timestamp": "2019-04-19T12:21:51Z",
-      "version": 5,
-      "changeset": 69374790,
-      "user": "cxs",
-      "uid": 251808,
+      "timestamp": "2021-12-26T20:16:10Z",
+      "version": 6,
+      "changeset": 115398718,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [334789440, 334789442],
       "geometry": [
         {"lat": 46.5686193, "lon": 13.8553423},
@@ -41954,18 +42007,22 @@
       "tags": {
         "bridge": "yes",
         "highway": "residential",
+        "lanes": "2",
         "layer": "1",
-        "name": "Warmbaderstraße"
+        "maxspeed": "50",
+        "name": "Warmbaderstraße",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 11",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 39628752,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 10,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:16:10Z",
+      "version": 11,
+      "changeset": 115398718,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [334789442, 334789452],
       "geometry": [
         {"lat": 46.5685727, "lon": 13.8554856},
@@ -41982,15 +42039,16 @@
         "lanes": "2",
         "maxspeed": "80",
         "name": "Warmbaderstraße",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 11",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 39628755,
-      "timestamp": "2020-06-16T14:33:56Z",
-      "version": 7,
-      "changeset": 86727183,
+      "timestamp": "2021-12-26T20:16:10Z",
+      "version": 8,
+      "changeset": 115398718,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [334789452, 475004871],
@@ -42003,17 +42061,19 @@
         "highway": "unclassified",
         "lanes": "2",
         "layer": "1",
-        "name": "Warmbaderstraße"
+        "maxspeed": "80",
+        "name": "Warmbaderstraße",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 11"
       }
     },
     {
       "type": "way",
       "id": 39628756,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 14,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:16:10Z",
+      "version": 15,
+      "changeset": 115398718,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [4693228594, 475004871],
       "geometry": [
         {"lat": 46.5681973, "lon": 13.8603795},
@@ -42029,7 +42089,7 @@
         "lanes": "2",
         "maxspeed": "80",
         "name": "Warmbaderstraße",
-        "note": "Weg-Nr. 11",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 11",
         "surface": "asphalt"
       }
     },
@@ -45942,11 +46002,11 @@
     {
       "type": "way",
       "id": 440000208,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 6,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T19:16:12Z",
+      "version": 7,
+      "changeset": 115397066,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [1839171997, 413402869],
       "geometry": [
         {"lat": 46.5941967, "lon": 13.7309676},
@@ -45958,9 +46018,9 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "footway",
-        "incline": "10%",
+        "incline": "-10%",
         "mtb:scale": "2",
-        "note": "GHW 229 und 292",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 292\n + lwn:",
         "surface": "gravel",
         "width": "1"
       }
@@ -45968,11 +46028,11 @@
     {
       "type": "way",
       "id": 440000209,
-      "timestamp": "2021-08-10T11:36:03Z",
-      "version": 8,
-      "changeset": 109459916,
-      "user": "RegionVillach",
-      "uid": 4090626,
+      "timestamp": "2021-12-26T19:16:12Z",
+      "version": 9,
+      "changeset": 115397066,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [413402867, 413402856],
       "geometry": [
         {"lat": 46.59423, "lon": 13.7327531},
@@ -45985,10 +46045,10 @@
       "tags": {
         "bicycle": "yes",
         "highway": "path",
-        "incline": "5",
+        "incline": "-5%",
         "mtb:scale": "2",
         "name": "292",
-        "note": "GHW 229 und 292",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 292\n + lwn:",
         "surface": "ground",
         "width": "1"
       }
@@ -45996,11 +46056,11 @@
     {
       "type": "way",
       "id": 440000211,
-      "timestamp": "2021-08-10T11:36:03Z",
-      "version": 7,
-      "changeset": 109459916,
-      "user": "RegionVillach",
-      "uid": 4090626,
+      "timestamp": "2021-12-26T19:28:16Z",
+      "version": 8,
+      "changeset": 115397517,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [413402835, 413402807],
       "geometry": [
         {"lat": 46.5954611, "lon": 13.7411324},
@@ -46019,21 +46079,22 @@
       ],
       "tags": {
         "highway": "path",
+        "incline": "-10%",
         "mtb:scale": "2",
         "name": "292",
-        "note": "GHW 229 und 292",
-        "surface": "unpaved",
-        "width": "2"
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 292\n + lwn:",
+        "surface": "ground",
+        "width": "1"
       }
     },
     {
       "type": "way",
       "id": 440000956,
-      "timestamp": "2021-08-10T11:36:03Z",
-      "version": 9,
-      "changeset": 109459916,
-      "user": "RegionVillach",
-      "uid": 4090626,
+      "timestamp": "2021-12-26T19:28:16Z",
+      "version": 10,
+      "changeset": 115397517,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [4377027062, 393924534],
       "geometry": [
         {"lat": 46.5961832, "lon": 13.7541354},
@@ -46091,10 +46152,10 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
-        "incline": "20",
+        "incline": "-20%",
         "mtb:scale": "1",
         "name": "293",
-        "note": "GHW 229 und Weg-Nr. 22",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 293\n + lwn: 22",
         "surface": "gravel",
         "width": "1"
       }
@@ -46149,11 +46210,11 @@
     {
       "type": "way",
       "id": 441124724,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 6,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T19:16:12Z",
+      "version": 7,
+      "changeset": 115397066,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [413402909, 1839171997],
       "geometry": [
         {"lat": 46.5936516, "lon": 13.729556},
@@ -46163,9 +46224,9 @@
       ],
       "tags": {
         "highway": "path",
-        "incline": "10%",
+        "incline": "-10%",
         "mtb:scale": "2",
-        "note": "GHW 229 und 292",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 292\n + lwn:",
         "surface": "gravel",
         "width": "1"
       }
@@ -47609,11 +47670,11 @@
     {
       "type": "way",
       "id": 475592283,
-      "timestamp": "2019-04-19T12:22:00Z",
-      "version": 4,
-      "changeset": 69374790,
-      "user": "cxs",
-      "uid": 251808,
+      "timestamp": "2021-12-26T20:16:10Z",
+      "version": 5,
+      "changeset": 115398718,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [4693234215, 4693228594],
       "geometry": [
         {"lat": 46.5681927, "lon": 13.8605565},
@@ -47622,18 +47683,22 @@
       "tags": {
         "bridge": "yes",
         "highway": "unclassified",
+        "lanes": "2",
         "layer": "1",
-        "name": "Warmbaderstraße"
+        "maxspeed": "80",
+        "name": "Warmbaderstraße",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 11",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 475592284,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 6,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:16:10Z",
+      "version": 7,
+      "changeset": 115398718,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [334789488, 4693234215],
       "geometry": [
         {"lat": 46.5680621, "lon": 13.8631814},
@@ -47643,9 +47708,11 @@
       ],
       "tags": {
         "highway": "unclassified",
+        "incline": "0%",
         "lanes": "2",
         "maxspeed": "80",
         "name": "Warmbaderstraße",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 11",
         "surface": "asphalt"
       }
     },
@@ -50105,11 +50172,11 @@
     {
       "type": "way",
       "id": 507771159,
-      "timestamp": "2021-10-26T18:56:57Z",
-      "version": 6,
-      "changeset": 113006976,
-      "user": "Wanderwütiger",
-      "uid": 3952298,
+      "timestamp": "2021-12-26T19:53:37Z",
+      "version": 7,
+      "changeset": 115398111,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [2025398689, 334735636],
       "geometry": [
         {"lat": 46.5892521, "lon": 13.8268177},
@@ -50132,9 +50199,9 @@
         "highway": "footway",
         "incline": "0%",
         "motor_vehicle": "no",
-        "note": "GHW 229",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, Dobratsch Rundwanderweg\n + lwn:",
         "source": "plan.at 2009,geoimage.at",
-        "surface": "unpaved",
+        "surface": "fine_gravel",
         "width": "3"
       }
     },
@@ -52100,11 +52167,11 @@
     {
       "type": "way",
       "id": 554725266,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 4,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T19:28:16Z",
+      "version": 6,
+      "changeset": 115397517,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [1839171990, 5353286331],
       "geometry": [
         {"lat": 46.5930356, "lon": 13.7372976},
@@ -52122,7 +52189,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
-        "incline": "5",
+        "incline": "-5%",
         "motor_vehicle": "no",
         "note": "Wanderroute zurück zum GHW 229 und 292",
         "smoothness": "bad",
@@ -59243,6 +59310,28 @@
     },
     {
       "type": "way",
+      "id": 684772794,
+      "timestamp": "2021-12-26T20:12:02Z",
+      "version": 2,
+      "changeset": 115398612,
+      "user": "Wulz",
+      "uid": 10773975,
+      "nodes": [475004869, 334789287],
+      "geometry": [
+        {"lat": 46.5694534, "lon": 13.8516082},
+        {"lat": 46.5694138, "lon": 13.8516452}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Warmbaderstraße",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 11",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
       "id": 68527802,
       "timestamp": "2021-12-11T20:22:38Z",
       "version": 19,
@@ -59864,11 +59953,11 @@
     {
       "type": "way",
       "id": 723843566,
-      "timestamp": "2021-07-20T09:14:10Z",
-      "version": 5,
-      "changeset": 108303792,
-      "user": "RegionVillach",
-      "uid": 4090626,
+      "timestamp": "2021-12-26T19:53:37Z",
+      "version": 6,
+      "changeset": 115398111,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [334735816, 5093405643],
       "geometry": [
         {"lat": 46.5899456, "lon": 13.8232009},
@@ -59882,6 +59971,7 @@
         "highway": "track",
         "horse": "no",
         "incline": "5%",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Dobratsch Rundwanderweg\n + lwn:",
         "smoothness": "bad",
         "surface": "gravel",
         "tracktype": "grade2",
@@ -59891,11 +59981,11 @@
     {
       "type": "way",
       "id": 723843569,
-      "timestamp": "2021-07-20T09:14:10Z",
-      "version": 7,
-      "changeset": 108303792,
-      "user": "RegionVillach",
-      "uid": 4090626,
+      "timestamp": "2021-12-26T19:39:56Z",
+      "version": 8,
+      "changeset": 115397801,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [364818734, 364818774],
       "geometry": [
         {"lat": 46.5943218, "lon": 13.8196993},
@@ -59940,21 +60030,21 @@
         "foot": "yes",
         "highway": "path",
         "horse": "no",
-        "incline": "15%",
-        "note": "GHW 229",
+        "incline": "-20%",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, Dobratsch Rundwanderweg\n + lwn:",
         "sac_scale": "hiking",
-        "surface": "unpaved",
-        "width": "2"
+        "surface": "gravel",
+        "width": "1.5"
       }
     },
     {
       "type": "way",
       "id": 723843573,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 5,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T19:39:56Z",
+      "version": 6,
+      "changeset": 115397801,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [393924594, 461101496],
       "geometry": [
         {"lat": 46.5948063, "lon": 13.8149038},
@@ -59973,21 +60063,22 @@
       "tags": {
         "foot": "yes",
         "highway": "track",
-        "incline": "10%",
+        "incline": "-15%",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, Dobratsch Rundwanderweg\n + lwn:",
         "smoothness": "bad",
         "surface": "ground",
         "tracktype": "grade3",
-        "width": "1"
+        "width": "1.5"
       }
     },
     {
       "type": "way",
       "id": 723843707,
-      "timestamp": "2021-07-20T09:14:10Z",
-      "version": 7,
-      "changeset": 108303792,
-      "user": "RegionVillach",
-      "uid": 4090626,
+      "timestamp": "2021-12-26T19:53:37Z",
+      "version": 8,
+      "changeset": 115398111,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [5093405643, 334735312],
       "geometry": [
         {"lat": 46.5892885, "lon": 13.8234505},
@@ -60004,7 +60095,8 @@
         "foot": "yes",
         "highway": "track",
         "horse": "no",
-        "note": "Salzsteigweg 09",
+        "incline": "-5%",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Dobratsch Rundwanderweg\n + lwn:",
         "smoothness": "bad",
         "surface": "gravel",
         "tracktype": "grade2",
@@ -60014,11 +60106,11 @@
     {
       "type": "way",
       "id": 723843708,
-      "timestamp": "2021-07-20T09:14:10Z",
-      "version": 5,
-      "changeset": 108303792,
-      "user": "RegionVillach",
-      "uid": 4090626,
+      "timestamp": "2021-12-26T19:53:37Z",
+      "version": 6,
+      "changeset": 115398111,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [5352583828, 334735812],
       "geometry": [
         {"lat": 46.590474, "lon": 13.823915},
@@ -60030,7 +60122,7 @@
         "foot": "yes",
         "highway": "track",
         "horse": "no",
-        "note": "GHW 229",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, Dobratsch Rundwanderweg\n + lwn:",
         "sac_scale": "hiking",
         "smoothness": "bad",
         "surface": "unpaved",
@@ -60927,11 +61019,11 @@
     {
       "type": "way",
       "id": 762659018,
-      "timestamp": "2021-07-20T09:14:10Z",
-      "version": 7,
-      "changeset": 108303792,
-      "user": "RegionVillach",
-      "uid": 4090626,
+      "timestamp": "2021-12-26T19:39:56Z",
+      "version": 8,
+      "changeset": 115397801,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [2402939912, 255899563],
       "geometry": [
         {"lat": 46.6038644, "lon": 13.7663924},
@@ -61077,9 +61169,9 @@
         "foot": "yes",
         "highway": "track",
         "horse": "no",
-        "incline": "0%",
+        "incline": "-5%",
         "motor_vehicle": "yes",
-        "note": "GHW 229 und Weg-Nr. 22",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, Dobratsch Rundwanderweg\n + lwn: 22",
         "ref": "22",
         "smoothness": "bad",
         "surface": "gravel",
@@ -61890,11 +61982,11 @@
     {
       "type": "way",
       "id": 782300833,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 4,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T15:57:07Z",
+      "version": 5,
+      "changeset": 115391410,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [7305017438, 8212516713],
       "geometry": [
         {"lat": 46.6143913, "lon": 13.6055135},
@@ -61908,7 +62000,7 @@
       ],
       "tags": {
         "highway": "path",
-        "incline": "20%",
+        "incline": "steep",
         "note": "unzureichend beschildert",
         "surface": "earth",
         "width": "1"
@@ -62225,11 +62317,11 @@
     {
       "type": "way",
       "id": 783224320,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 5,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T19:16:12Z",
+      "version": 6,
+      "changeset": 115397066,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [434707704, 434706790],
       "geometry": [
         {"lat": 46.5936947, "lon": 13.7264126},
@@ -62247,23 +62339,23 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
-        "incline": "10",
+        "incline": "-10%",
         "motor_vehicle": "no",
-        "note": "GHW 229 und 292",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 292\n + lwn:",
         "smoothness": "bad",
         "surface": "gravel",
         "tracktype": "grade4",
-        "width": "2"
+        "width": "1.5"
       }
     },
     {
       "type": "way",
       "id": 783224720,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 4,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T19:19:27Z",
+      "version": 5,
+      "changeset": 115397162,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [413402852, 413402856],
       "geometry": [
         {"lat": 46.5942871, "lon": 13.7357553},
@@ -62276,22 +62368,21 @@
         "highway": "path",
         "incline": "0%",
         "mtb:scale": "2",
-        "note": "GHW 229 und 292",
-        "surface": "unpaved",
-        "width": "3"
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 292\n + lwn:",
+        "surface": "ground",
+        "width": "1"
       }
     },
     {
       "type": "way",
       "id": 783225282,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 2,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
-      "nodes": [4377022084, 413402843],
+      "timestamp": "2021-12-26T19:19:27Z",
+      "version": 3,
+      "changeset": 115397162,
+      "user": "Wulz",
+      "uid": 10773975,
+      "nodes": [5353286331, 413402843],
       "geometry": [
-        {"lat": 46.5937578, "lon": 13.7383215},
         {"lat": 46.5937408, "lon": 13.7384011},
         {"lat": 46.5936851, "lon": 13.738663},
         {"lat": 46.5938583, "lon": 13.7391061},
@@ -62310,11 +62401,11 @@
     {
       "type": "way",
       "id": 783226551,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 7,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T19:39:56Z",
+      "version": 8,
+      "changeset": 115397801,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [7126230955, 393924580],
       "geometry": [
         {"lat": 46.5962371, "lon": 13.7952514},
@@ -62350,22 +62441,22 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
-        "incline": "20%",
-        "note": "GHW 229 - am Weg zur Villacher Alpenstraße",
+        "incline": "-20%",
+        "note": "GHW 229 - am Weg zur Villacher Alpenstraße\nBeim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, Dobratsch Rundwanderweg\n + lwn:",
         "smoothness": "bad",
         "surface": "gravel",
         "tracktype": "grade2",
-        "width": "5"
+        "width": "3.5"
       }
     },
     {
       "type": "way",
       "id": 783520227,
-      "timestamp": "2021-09-14T12:18:19Z",
-      "version": 6,
-      "changeset": 111193836,
-      "user": "Wanderwütiger",
-      "uid": 3952298,
+      "timestamp": "2021-12-26T19:53:37Z",
+      "version": 7,
+      "changeset": 115398111,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [334735799, 364818774],
       "geometry": [
         {"lat": 46.5911556, "lon": 13.8236929},
@@ -62390,8 +62481,8 @@
         "foot": "yes",
         "highway": "track",
         "horse": "no",
-        "incline": "5",
-        "note": "GHW 229 und Salzsteigweg 09",
+        "incline": "-5%",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: Salzsteigweg 09\n + rwn: Gailtaler Höhenweg 229, \n + lwn:",
         "smoothness": "bad",
         "surface": "gravel",
         "tracktype": "grade2",
@@ -63151,11 +63242,11 @@
     {
       "type": "way",
       "id": 785267636,
-      "timestamp": "2021-05-25T08:16:37Z",
-      "version": 6,
-      "changeset": 105273798,
-      "user": "pronti",
-      "uid": 51987,
+      "timestamp": "2021-12-26T16:15:30Z",
+      "version": 7,
+      "changeset": 115391969,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [7947284634, 4885251876],
       "geometry": [
         {"lat": 46.6074056, "lon": 13.6228891},
@@ -63177,8 +63268,9 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
+        "incline": "5%",
         "motor_vehicle": "yes",
-        "note": "GHW 229 und 296",
+        "note": "Beim „Julius-Kugy-Dreiländerweg in 30 Etappen – E 29“ trifft man auf\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229\n + lwn:",
         "smoothness": "bad",
         "surface": "gravel",
         "tracktype": "grade2",
@@ -63496,11 +63588,11 @@
     {
       "type": "way",
       "id": 785293499,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 3,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T19:16:12Z",
+      "version": 4,
+      "changeset": 115397066,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [434706790, 413402909],
       "geometry": [
         {"lat": 46.5932692, "lon": 13.7289929},
@@ -63512,7 +63604,8 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
-        "incline": "5%",
+        "incline": "-5%",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 292\n + lwn:",
         "source": "plan.at 2009",
         "surface": "gravel",
         "tracktype": "grade2",
@@ -63522,27 +63615,33 @@
     {
       "type": "way",
       "id": 785294853,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 3,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T19:16:12Z",
+      "version": 4,
+      "changeset": 115397066,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [413402867, 413402869],
       "geometry": [
         {"lat": 46.59423, "lon": 13.7327531},
         {"lat": 46.5941906, "lon": 13.7325428},
         {"lat": 46.5941784, "lon": 13.7323785}
       ],
-      "tags": {"highway": "path", "note": "GHW", "surface": "gravel"}
+      "tags": {
+        "highway": "path",
+        "incline": "-10%",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 292\n + lwn:",
+        "surface": "ground",
+        "width": "1"
+      }
     },
     {
       "type": "way",
       "id": 785295721,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 3,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T19:28:16Z",
+      "version": 4,
+      "changeset": 115397517,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [413402835, 413402843],
       "geometry": [
         {"lat": 46.5954611, "lon": 13.7411324},
@@ -63561,6 +63660,7 @@
         "highway": "track",
         "incline": "5%",
         "motor_vehicle": "yes",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 292\n + lwn:",
         "surface": "gravel",
         "tracktype": "grade2",
         "width": "2"
@@ -63569,17 +63669,25 @@
     {
       "type": "way",
       "id": 785297275,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 2,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T19:28:16Z",
+      "version": 3,
+      "changeset": 115397517,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [4377027062, 411062580],
       "geometry": [
         {"lat": 46.5961832, "lon": 13.7541354},
         {"lat": 46.5960436, "lon": 13.7541185}
       ],
-      "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade4"}
+      "tags": {
+        "highway": "track",
+        "incline": "0%",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 293\n + lwn: 22",
+        "smoothness": "bad",
+        "surface": "gravel",
+        "tracktype": "grade4",
+        "width": "2"
+      }
     },
     {
       "type": "way",
@@ -63630,11 +63738,11 @@
     {
       "type": "way",
       "id": 785380930,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 3,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:04:39Z",
+      "version": 4,
+      "changeset": 115398365,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [362540014, 7827934540],
       "geometry": [
         {"lat": 46.5765078, "lon": 13.8354466},
@@ -63649,7 +63757,8 @@
         "highway": "track",
         "incline": "0",
         "motor_vehicle": "yes",
-        "note": "Weg-Nr. 20B und 21",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 20B und 21",
+        "smoothness": "bad",
         "surface": "gravel",
         "width": "2"
       }
@@ -63657,11 +63766,11 @@
     {
       "type": "way",
       "id": 785436721,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 2,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T20:22:28Z",
+      "version": 3,
+      "changeset": 115398874,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [334794013, 299686309],
       "geometry": [
         {"lat": 46.5691697, "lon": 13.9034488},
@@ -63672,6 +63781,7 @@
         "lanes": "1",
         "maxspeed": "30",
         "name": "St. Stefaner Weg",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 1",
         "source": "plan.at 2009",
         "surface": "asphalt"
       }
@@ -64081,11 +64191,11 @@
     {
       "type": "way",
       "id": 785639389,
-      "timestamp": "2021-07-20T09:14:10Z",
-      "version": 3,
-      "changeset": 108303792,
-      "user": "RegionVillach",
-      "uid": 4090626,
+      "timestamp": "2021-12-26T19:39:56Z",
+      "version": 4,
+      "changeset": 115397801,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [393924580, 393924585],
       "geometry": [
         {"lat": 46.5942782, "lon": 13.8025745},
@@ -64104,8 +64214,8 @@
         "bicycle": "no",
         "foot": "yes",
         "highway": "track",
-        "incline": "20%",
-        "note": "GHW 229 - am Weg zur Villacher Alpenstraße",
+        "incline": "-20%",
+        "note": "GHW 229 - am Weg zur Villacher Alpenstraße\nBeim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, Dobratsch Rundwanderweg\n + lwn:",
         "smoothness": "bad",
         "surface": "paved",
         "tracktype": "grade1",
@@ -69502,11 +69612,11 @@
     {
       "type": "way",
       "id": 794671361,
-      "timestamp": "2021-07-20T09:14:10Z",
-      "version": 4,
-      "changeset": 108303792,
-      "user": "RegionVillach",
-      "uid": 4090626,
+      "timestamp": "2021-12-26T19:39:56Z",
+      "version": 5,
+      "changeset": 115397801,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [255899563, 7126237243],
       "geometry": [
         {"lat": 46.6016875, "lon": 13.7815968},
@@ -69551,13 +69661,13 @@
         "bicycle": "no",
         "foot": "yes",
         "highway": "track",
-        "incline": "5",
+        "incline": "-5%",
         "motor_vehicle": "no",
-        "note": "GHW 229",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, Dobratsch Rundwanderweg\n + lwn:",
         "smoothness": "bad",
         "surface": "gravel",
         "tracktype": "grade3",
-        "width": "5"
+        "width": "3.5"
       }
     },
     {
@@ -70763,11 +70873,11 @@
     {
       "type": "way",
       "id": 825125730,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 2,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T19:16:12Z",
+      "version": 3,
+      "changeset": 115397066,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [1867395731, 434707704],
       "geometry": [
         {"lat": 46.5936204, "lon": 13.7263864},
@@ -70777,9 +70887,9 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
-        "incline": "10",
+        "incline": "0%",
         "motor_vehicle": "no",
-        "note": "GHW 229 und 292",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, 292\n + lwn:",
         "smoothness": "bad",
         "surface": "gravel",
         "tracktype": "grade3",
@@ -72026,11 +72136,11 @@
     {
       "type": "way",
       "id": 851990044,
-      "timestamp": "2021-05-25T08:16:37Z",
-      "version": 5,
-      "changeset": 105273798,
-      "user": "pronti",
-      "uid": 51987,
+      "timestamp": "2021-12-26T16:15:30Z",
+      "version": 6,
+      "changeset": 115391969,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [7947284634, 334857049],
       "geometry": [
         {"lat": 46.6074056, "lon": 13.6228891},
@@ -72044,7 +72154,8 @@
       ],
       "tags": {
         "highway": "path",
-        "incline": "15%",
+        "incline": "20%",
+        "note": "Beim „Julius-Kugy-Dreiländerweg in 30 Etappen – E 29“ trifft man auf\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229, Julius-Kugy-Dreiländerweg in 30 Tagen – Anbindung über E 29a, 296\n + lwn: Nötsch-Dobratsch",
         "surface": "ground",
         "width": "1"
       }
@@ -72268,11 +72379,11 @@
     {
       "type": "way",
       "id": 883129086,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 2,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T15:57:07Z",
+      "version": 3,
+      "changeset": 115391410,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [8212516713, 8212516712],
       "geometry": [
         {"lat": 46.6102497, "lon": 13.6100402},
@@ -72280,20 +72391,23 @@
       ],
       "tags": {
         "bridge": "yes",
-        "highway": "path",
-        "incline": "20%",
+        "highway": "secondary",
+        "incline": "0%",
+        "lanes": "2",
         "layer": "1",
-        "note": "unzureichend beschildert",
-        "surface": "earth",
-        "width": "1"
+        "maxspeed": "80",
+        "name": "Bleiberger Straße",
+        "ref": "L35",
+        "surface": "asphalt",
+        "width": "5"
       }
     },
     {
       "type": "way",
       "id": 883130180,
-      "timestamp": "2020-12-10T08:47:43Z",
-      "version": 1,
-      "changeset": 95601301,
+      "timestamp": "2021-12-26T16:15:30Z",
+      "version": 2,
+      "changeset": 115391969,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [273195307, 414239019],
@@ -72304,8 +72418,10 @@
       "tags": {
         "highway": "secondary",
         "lanes": "2",
+        "maxspeed": "80",
         "name": "Bleiberger Straße",
-        "ref": "L35"
+        "ref": "L35",
+        "surface": "asphalt"
       }
     },
     {
@@ -74398,11 +74514,11 @@
     {
       "type": "way",
       "id": 96254815,
-      "timestamp": "2020-12-17T12:43:41Z",
-      "version": 6,
-      "changeset": 96006793,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2021-12-26T16:15:30Z",
+      "version": 7,
+      "changeset": 115391969,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [1052889894, 334857603],
       "geometry": [
         {"lat": 46.6094715, "lon": 13.6197968},
@@ -74417,10 +74533,11 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
-        "incline": "5",
+        "incline": "5%",
         "motor_vehicle": "yes",
+        "note": "Beim „Julius-Kugy-Dreiländerweg in 30 Etappen – E 29“ trifft man auf\n + iwn:  \n + nrw: \n + rwn: Gailtaler Höhenweg 229\n + lwn:",
         "smoothness": "bad",
-        "surface": "unpaved",
+        "surface": "gravel",
         "tracktype": "grade3",
         "width": "2"
       }
