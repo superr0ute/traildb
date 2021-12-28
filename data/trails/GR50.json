@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-26T04:29:38Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-28T02:35:24Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11097196,
-      "timestamp": "2021-12-22T08:54:44Z",
-      "version": 68,
-      "changeset": 115242663,
+      "timestamp": "2021-12-27T21:02:13Z",
+      "version": 69,
+      "changeset": 115443561,
       "user": "JFK73",
       "uid": 662440,
       "members": [
@@ -568,6 +568,8 @@
         {"type": "way", "ref": 586411809, "role": ""},
         {"type": "way", "ref": 25873179, "role": ""},
         {"type": "way", "ref": 31305025, "role": ""},
+        {"type": "way", "ref": 1015955087, "role": ""},
+        {"type": "way", "ref": 1015955086, "role": ""},
         {"type": "way", "ref": 586411816, "role": ""},
         {"type": "way", "ref": 754478454, "role": ""},
         {"type": "way", "ref": 707650392, "role": ""},
@@ -1084,6 +1086,45 @@
         "name": "Route de la Roche de Rame",
         "ref": "D 38",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1015955086,
+      "timestamp": "2021-12-27T21:02:13Z",
+      "version": 1,
+      "changeset": 115443561,
+      "user": "JFK73",
+      "uid": 662440,
+      "nodes": [348317745, 9371030904],
+      "geometry": [
+        {"lat": 44.7530732, "lon": 6.5333182, "z": 1186},
+        {"lat": 44.7532126, "lon": 6.5334454, "z": 1188.1}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Place de la Cour",
+        "ref": "D 238",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1015955087,
+      "timestamp": "2021-12-27T21:02:13Z",
+      "version": 1,
+      "changeset": 115443561,
+      "user": "JFK73",
+      "uid": 662440,
+      "nodes": [6649987864, 348317745],
+      "geometry": [
+        {"lat": 44.7529888, "lon": 6.5331805, "z": 1185.1},
+        {"lat": 44.7530732, "lon": 6.5333182, "z": 1186}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Place de la Cour",
+        "ref": "D 238"
       }
     },
     {
@@ -16654,12 +16695,12 @@
     {
       "type": "way",
       "id": 31305025,
-      "timestamp": "2020-04-18T10:56:19Z",
-      "version": 9,
-      "changeset": 83738965,
-      "user": "sergio7826",
-      "uid": 411998,
-      "nodes": [282224066, 348317745],
+      "timestamp": "2021-12-27T21:02:13Z",
+      "version": 10,
+      "changeset": 115443561,
+      "user": "JFK73",
+      "uid": 662440,
+      "nodes": [282224066, 6649987864],
       "geometry": [
         {"lat": 44.7519302, "lon": 6.5292161, "z": 1203.3},
         {"lat": 44.751966, "lon": 6.5294436, "z": 1202.9},
@@ -16677,10 +16718,13 @@
         {"lat": 44.7524461, "lon": 6.5321558, "z": 1184.9},
         {"lat": 44.7526893, "lon": 6.5326303, "z": 1184.1},
         {"lat": 44.7528828, "lon": 6.5330078, "z": 1184.2},
-        {"lat": 44.7529888, "lon": 6.5331805, "z": 1185.1},
-        {"lat": 44.7530732, "lon": 6.5333182, "z": 1186}
+        {"lat": 44.7529888, "lon": 6.5331805, "z": 1185.1}
       ],
-      "tags": {"highway": "tertiary", "ref": "D 238"}
+      "tags": {
+        "highway": "tertiary",
+        "name": "Route des Cascades",
+        "ref": "D 238"
+      }
     },
     {
       "type": "way",
@@ -22655,11 +22699,11 @@
     {
       "type": "way",
       "id": 586411809,
-      "timestamp": "2019-10-29T05:35:51Z",
-      "version": 2,
-      "changeset": 76324633,
-      "user": "solitone",
-      "uid": 584192,
+      "timestamp": "2021-12-27T21:02:13Z",
+      "version": 3,
+      "changeset": 115443561,
+      "user": "JFK73",
+      "uid": 662440,
       "nodes": [5602966041, 282224067],
       "geometry": [
         {"lat": 44.7518764, "lon": 6.5291992, "z": 1203},
@@ -22672,20 +22716,21 @@
         "layer": "1",
         "mtb:scale": "0",
         "mtb:scale:uphill": "0",
+        "name": "Pont de l'Église",
         "tracktype": "grade2"
       }
     },
     {
       "type": "way",
       "id": 586411816,
-      "timestamp": "2020-05-12T09:08:04Z",
-      "version": 3,
-      "changeset": 85074757,
-      "user": "enz1an",
-      "uid": 9098126,
-      "nodes": [348317745, 2214843106],
+      "timestamp": "2021-12-27T21:02:13Z",
+      "version": 4,
+      "changeset": 115443561,
+      "user": "JFK73",
+      "uid": 662440,
+      "nodes": [9371030904, 2214843106],
       "geometry": [
-        {"lat": 44.7530732, "lon": 6.5333182, "z": 1186},
+        {"lat": 44.7532126, "lon": 6.5334454, "z": 1188.1},
         {"lat": 44.7534263, "lon": 6.5336762, "z": 1192.9},
         {"lat": 44.7534764, "lon": 6.5337561, "z": 1194.4},
         {"lat": 44.7535015, "lon": 6.5338387, "z": 1195.4},
@@ -22714,6 +22759,7 @@
       ],
       "tags": {
         "highway": "tertiary",
+        "name": "Rue du Franier",
         "ref": "D 238",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
       }
@@ -24642,11 +24688,11 @@
     {
       "type": "way",
       "id": 707650391,
-      "timestamp": "2020-05-12T09:08:04Z",
-      "version": 2,
-      "changeset": 85074757,
-      "user": "enz1an",
-      "uid": 9098126,
+      "timestamp": "2021-12-27T21:02:13Z",
+      "version": 3,
+      "changeset": 115443561,
+      "user": "JFK73",
+      "uid": 662440,
       "nodes": [6650007467, 6650007470],
       "geometry": [
         {"lat": 44.7555931, "lon": 6.5360894, "z": 1255.3},
@@ -24654,7 +24700,7 @@
         {"lat": 44.7553115, "lon": 6.5359808, "z": 1248.3},
         {"lat": 44.7552237, "lon": 6.5359997, "z": 1245.8}
       ],
-      "tags": {"highway": "residential"}
+      "tags": {"highway": "residential", "name": "Route des Durandons"}
     },
     {
       "type": "way",
@@ -25824,11 +25870,11 @@
     {
       "type": "way",
       "id": 754478454,
-      "timestamp": "2019-12-11T06:11:18Z",
-      "version": 1,
-      "changeset": 78241303,
-      "user": "solitone",
-      "uid": 584192,
+      "timestamp": "2021-12-27T21:02:13Z",
+      "version": 2,
+      "changeset": 115443561,
+      "user": "JFK73",
+      "uid": 662440,
       "nodes": [6650007479, 2214843106],
       "geometry": [
         {"lat": 44.7551097, "lon": 6.5362927, "z": 1240.2},
@@ -25848,6 +25894,7 @@
         "incline": "down",
         "mtb:scale": "0",
         "mtb:scale:uphill": "0",
+        "name": "Chemin des Noyers",
         "tracktype": "grade2"
       }
     },
@@ -26894,11 +26941,11 @@
     {
       "type": "way",
       "id": 802877784,
-      "timestamp": "2020-05-12T09:08:04Z",
-      "version": 1,
-      "changeset": 85074757,
-      "user": "enz1an",
-      "uid": 9098126,
+      "timestamp": "2021-12-27T21:02:13Z",
+      "version": 2,
+      "changeset": 115443561,
+      "user": "JFK73",
+      "uid": 662440,
       "nodes": [2214843507, 408042777],
       "geometry": [
         {"lat": 44.7603439, "lon": 6.5287532, "z": 1486.2},
@@ -26916,6 +26963,7 @@
         "incline": "down",
         "mtb:scale": "0",
         "mtb:scale:uphill": "0",
+        "name": "Route des Cols",
         "source": "GPS survey;Bing;knowledge",
         "surface": "gravel",
         "tracktype": "grade2"
@@ -26964,11 +27012,11 @@
     {
       "type": "way",
       "id": 802877791,
-      "timestamp": "2020-05-12T09:08:04Z",
-      "version": 1,
-      "changeset": 85074757,
-      "user": "enz1an",
-      "uid": 9098126,
+      "timestamp": "2021-12-27T21:02:13Z",
+      "version": 2,
+      "changeset": 115443561,
+      "user": "JFK73",
+      "uid": 662440,
       "nodes": [6650007467, 7048462638],
       "geometry": [
         {"lat": 44.7555931, "lon": 6.5360894, "z": 1255.3},
@@ -26981,7 +27029,11 @@
         {"lat": 44.755441, "lon": 6.5354428, "z": 1259.3},
         {"lat": 44.7554287, "lon": 6.5353314, "z": 1260.6}
       ],
-      "tags": {"highway": "unclassified", "source": "GPS survey;Bing"}
+      "tags": {
+        "highway": "unclassified",
+        "name": "Route des Durandons",
+        "source": "GPS survey;Bing"
+      }
     },
     {
       "type": "way",
@@ -31087,11 +31139,11 @@
     {
       "type": "way",
       "id": 803794515,
-      "timestamp": "2020-05-14T16:28:40Z",
-      "version": 1,
-      "changeset": 85212047,
-      "user": "fmorel",
-      "uid": 331938,
+      "timestamp": "2021-12-27T21:02:13Z",
+      "version": 2,
+      "changeset": 115443561,
+      "user": "JFK73",
+      "uid": 662440,
       "nodes": [2214844160, 408067787],
       "geometry": [
         {"lat": 44.7659913, "lon": 6.5273243, "z": 1694.7},
@@ -31115,6 +31167,7 @@
         "incline": "down",
         "mtb:scale": "0",
         "mtb:scale:uphill": "0",
+        "name": "Route du Col d'Anon",
         "source": "GPS survey;Bing;knowledge",
         "surface": "gravel",
         "tracktype": "grade3"
@@ -31123,11 +31176,11 @@
     {
       "type": "way",
       "id": 803794516,
-      "timestamp": "2020-05-14T16:28:40Z",
-      "version": 1,
-      "changeset": 85212047,
-      "user": "fmorel",
-      "uid": 331938,
+      "timestamp": "2021-12-27T21:02:13Z",
+      "version": 2,
+      "changeset": 115443561,
+      "user": "JFK73",
+      "uid": 662440,
       "nodes": [2214843954, 408067721],
       "geometry": [
         {"lat": 44.7638065, "lon": 6.5281121, "z": 1612.3},
@@ -31143,6 +31196,7 @@
         "incline": "down",
         "mtb:scale": "0",
         "mtb:scale:uphill": "0",
+        "name": "Route du Col d'Anon",
         "source": "GPS survey;Bing;knowledge",
         "surface": "gravel",
         "tracktype": "grade3"

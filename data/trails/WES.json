@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-23T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-27T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1074,11 +1074,11 @@
     {
       "type": "relation",
       "id": 62897,
-      "timestamp": "2021-12-19T12:14:07Z",
-      "version": 209,
-      "changeset": 115123794,
-      "user": "koilebeit",
-      "uid": 10355146,
+      "timestamp": "2021-12-27T09:34:51Z",
+      "version": 210,
+      "changeset": 115416538,
+      "user": "wegavision",
+      "uid": 564585,
       "members": [
         {"type": "node", "ref": 1955826026, "role": "guidepost"},
         {"type": "node", "ref": 1955825919, "role": "guidepost"},
@@ -1459,6 +1459,7 @@
         {"type": "way", "ref": 30192388, "role": ""},
         {"type": "way", "ref": 30120448, "role": ""},
         {"type": "way", "ref": 180625481, "role": ""},
+        {"type": "way", "ref": 1015784526, "role": ""},
         {"type": "way", "ref": 30194156, "role": ""},
         {"type": "way", "ref": 30194161, "role": ""},
         {"type": "way", "ref": 30194160, "role": ""},
@@ -2922,6 +2923,30 @@
         {"lat": 47.5677322, "lon": 7.6064745}
       ],
       "tags": {"highway": "footway", "lit": "yes"}
+    },
+    {
+      "type": "way",
+      "id": 1015784526,
+      "timestamp": "2021-12-27T09:34:51Z",
+      "version": 1,
+      "changeset": 115416538,
+      "user": "wegavision",
+      "uid": 564585,
+      "nodes": [71996557, 332694301],
+      "geometry": [
+        {"lat": 47.6693932, "lon": 7.6544258},
+        {"lat": 47.6692364, "lon": 7.6545857},
+        {"lat": 47.6690355, "lon": 7.6547035},
+        {"lat": 47.6686819, "lon": 7.6547591}
+      ],
+      "tags": {
+        "highway": "residential",
+        "incline": "13%",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Röttler Weg",
+        "surface": "paved"
+      }
     },
     {
       "type": "way",
@@ -7878,11 +7903,11 @@
     {
       "type": "way",
       "id": 148092246,
-      "timestamp": "2021-02-16T17:13:41Z",
-      "version": 6,
-      "changeset": 99396579,
-      "user": "sovereign_ch",
-      "uid": 5755216,
+      "timestamp": "2021-12-27T09:34:51Z",
+      "version": 7,
+      "changeset": 115416538,
+      "user": "wegavision",
+      "uid": 564585,
       "nodes": [2332345893, 298716572],
       "geometry": [
         {"lat": 47.713002, "lon": 7.6596287},
@@ -7893,13 +7918,16 @@
         {"lat": 47.7124858, "lon": 7.6591007},
         {"lat": 47.7124486, "lon": 7.6590933},
         {"lat": 47.7124033, "lon": 7.6590997},
+        {"lat": 47.7122324, "lon": 7.6591667},
         {"lat": 47.7119881, "lon": 7.6592625}
       ],
       "tags": {
         "highway": "secondary",
+        "lit": "yes",
         "maxspeed": "30",
         "name": "Hammersteiner Straße",
         "ref": "L 134",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -9675,11 +9703,11 @@
     {
       "type": "way",
       "id": 180625479,
-      "timestamp": "2017-03-14T21:11:48Z",
-      "version": 3,
-      "changeset": 46853394,
-      "user": "xDSF-DFSx",
-      "uid": 4803523,
+      "timestamp": "2021-12-27T09:34:51Z",
+      "version": 4,
+      "changeset": 115416538,
+      "user": "wegavision",
+      "uid": 564585,
       "nodes": [9323889, 338004694],
       "geometry": [
         {"lat": 47.6893312, "lon": 7.6452775},
@@ -9687,19 +9715,21 @@
       ],
       "tags": {
         "highway": "secondary",
+        "lit": "no",
         "maxspeed": "50",
         "name": "Kandertalstraße",
-        "ref": "L 134"
+        "ref": "L 134",
+        "sidewalk": "no"
       }
     },
     {
       "type": "way",
       "id": 180625481,
-      "timestamp": "2020-02-12T22:01:11Z",
-      "version": 3,
-      "changeset": 80925100,
-      "user": "xDSF-DFSx",
-      "uid": 4803523,
+      "timestamp": "2021-12-27T09:34:51Z",
+      "version": 4,
+      "changeset": 115416538,
+      "user": "wegavision",
+      "uid": 564585,
       "nodes": [71996557, 331582348],
       "geometry": [
         {"lat": 47.6693932, "lon": 7.6544258},
@@ -9707,6 +9737,7 @@
       ],
       "tags": {
         "highway": "residential",
+        "lit": "yes",
         "maxspeed": "30",
         "name": "Nebenauer Straße",
         "zone:traffic": "DE:urban"
@@ -22049,11 +22080,11 @@
     {
       "type": "way",
       "id": 30120448,
-      "timestamp": "2009-01-17T18:59:34Z",
-      "version": 2,
-      "changeset": 803068,
-      "user": "ASK24",
-      "uid": 91033,
+      "timestamp": "2021-12-27T09:34:51Z",
+      "version": 3,
+      "changeset": 115416538,
+      "user": "wegavision",
+      "uid": 564585,
       "nodes": [331582348, 332662627],
       "geometry": [
         {"lat": 47.6693025, "lon": 7.6542096},
@@ -22064,8 +22095,10 @@
       ],
       "tags": {
         "highway": "residential",
+        "lit": "yes",
         "maxspeed": "30",
         "name": "Rathausstraße",
+        "sidewalk": "no",
         "surface": "paved"
       }
     },
@@ -22254,11 +22287,11 @@
     {
       "type": "way",
       "id": 30192389,
-      "timestamp": "2018-07-28T14:54:42Z",
-      "version": 5,
-      "changeset": 61144598,
-      "user": "q_un_go",
-      "uid": 11374,
+      "timestamp": "2021-12-27T09:34:51Z",
+      "version": 6,
+      "changeset": 115416538,
+      "user": "wegavision",
+      "uid": 564585,
       "nodes": [332662621, 332082443],
       "geometry": [
         {"lat": 47.6697705, "lon": 7.6538286},
@@ -22280,24 +22313,23 @@
       ],
       "tags": {
         "highway": "residential",
+        "lit": "yes",
         "maxspeed": "30",
         "name": "Rathausstraße",
+        "sidewalk": "no",
         "surface": "paved"
       }
     },
     {
       "type": "way",
       "id": 30194156,
-      "timestamp": "2018-07-24T21:19:32Z",
-      "version": 4,
-      "changeset": 61037248,
-      "user": "q_un_go",
-      "uid": 11374,
-      "nodes": [71996557, 332694322],
+      "timestamp": "2021-12-27T09:34:51Z",
+      "version": 5,
+      "changeset": 115416538,
+      "user": "wegavision",
+      "uid": 564585,
+      "nodes": [332694301, 332694322],
       "geometry": [
-        {"lat": 47.6693932, "lon": 7.6544258},
-        {"lat": 47.6692364, "lon": 7.6545857},
-        {"lat": 47.6690355, "lon": 7.6547035},
         {"lat": 47.6686819, "lon": 7.6547591},
         {"lat": 47.6686293, "lon": 7.6547729},
         {"lat": 47.6685761, "lon": 7.6547418},
@@ -22307,8 +22339,10 @@
       "tags": {
         "highway": "residential",
         "incline": "13%",
+        "lit": "yes",
         "maxspeed": "30",
         "name": "Röttler Weg",
+        "sidewalk": "both",
         "surface": "paved"
       }
     },
@@ -25999,8 +26033,8 @@
         {"lat": 47.6013172, "lon": 7.7728783},
         {"lat": 47.6014446, "lon": 7.7726874},
         {"lat": 47.6015817, "lon": 7.772606},
-        {"lat": 47.6017861, "lon": 7.7725685},
-        {"lat": 47.6019967, "lon": 7.7725912},
+        {"lat": 47.6019093, "lon": 7.7725626},
+        {"lat": 47.6020737, "lon": 7.7725959},
         {"lat": 47.6023102, "lon": 7.772658},
         {"lat": 47.6027006, "lon": 7.7728278},
         {"lat": 47.6034071, "lon": 7.7731206},
@@ -33047,11 +33081,11 @@
     {
       "type": "way",
       "id": 54269150,
-      "timestamp": "2021-07-26T15:32:49Z",
-      "version": 10,
-      "changeset": 108633594,
-      "user": "*abq*",
-      "uid": 3696195,
+      "timestamp": "2021-12-27T09:34:51Z",
+      "version": 11,
+      "changeset": 115416538,
+      "user": "wegavision",
+      "uid": 564585,
       "nodes": [29653673, 2810072902],
       "geometry": [
         {"lat": 47.7147405, "lon": 7.6631167},
@@ -33061,7 +33095,13 @@
         {"lat": 47.7145741, "lon": 7.6622134},
         {"lat": 47.7145459, "lon": 7.6620825}
       ],
-      "tags": {"highway": "unclassified", "name": "Hauptstraße"}
+      "tags": {
+        "highway": "unclassified",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Hauptstraße",
+        "sidewalk": "both"
+      }
     },
     {
       "type": "way",
@@ -44372,7 +44412,7 @@
       "nodes": [574470994, 567377220],
       "geometry": [
         {"lat": 47.6039535, "lon": 7.7755143},
-        {"lat": 47.6052567, "lon": 7.7783365},
+        {"lat": 47.6052356, "lon": 7.7782492},
         {"lat": 47.6053193, "lon": 7.7785571},
         {"lat": 47.6053844, "lon": 7.7790076},
         {"lat": 47.6054652, "lon": 7.7792219},
@@ -47781,11 +47821,11 @@
     {
       "type": "way",
       "id": 911054034,
-      "timestamp": "2021-07-26T15:32:49Z",
-      "version": 2,
-      "changeset": 108633594,
-      "user": "*abq*",
-      "uid": 3696195,
+      "timestamp": "2021-12-27T09:34:51Z",
+      "version": 3,
+      "changeset": 115416538,
+      "user": "wegavision",
+      "uid": 564585,
       "nodes": [1458700471, 300560185],
       "geometry": [
         {"lat": 47.7144821, "lon": 7.6617595},
@@ -47793,7 +47833,12 @@
         {"lat": 47.7143694, "lon": 7.661131},
         {"lat": 47.7143511, "lon": 7.6610498}
       ],
-      "tags": {"highway": "unclassified", "name": "Hauptstraße"}
+      "tags": {
+        "highway": "unclassified",
+        "lit": "yes",
+        "name": "Hauptstraße",
+        "sidewalk": "both"
+      }
     },
     {
       "type": "way",
