@@ -1,6 +1,6 @@
 ### traildb version 2021-12-28
 - 108 trails (41 unroutable, 42 routable, 24 broken, 1 complete)
-- 683MiB data (187MiB trails, 334MiB elevation, 126MiB poi, 35MiB dist)
+- 682MiB data (187MiB trails, 334MiB elevation, 125MiB poi, 35MiB dist)
 - trail status: ❌ unroutable ✔️ routable ❌❌ broken ✔️✔️ complete
 
 | status | srId | srName | srColor | updated | poi |
@@ -19,7 +19,7 @@
 |❌❌|[AOS2](https://superroute.org/AOS2)|Alta Via della Valle d'Aosta [osm](https://osm.org/relation/9898948) [wiki](https://wikidata.org/wiki/Q3128550)|![#FD4D4D](https://via.placeholder.com/14/FD4D4D/000000?text=+) #FD4D4D|2021-07-09|445|
 |❌❌|[APT](https://superroute.org/APT)|Alpine Passes Trail [osm](https://osm.org/relation/132518) [wiki](https://wikidata.org/wiki/Q31840248)|![#F3A929](https://via.placeholder.com/14/F3A929/000000?text=+) #F3A929|2021-08-04|1617|
 |❌❌|[ARC](https://superroute.org/ARC)|Arctic Trail [osm](https://osm.org/relation/2437984) [wiki](https://wikidata.org/wiki/Q1042834)|![#A7FCFF](https://via.placeholder.com/14/A7FCFF/000000?text=+) #A7FCFF|2021-07-30|158|
-|❌❌|[AT](https://superroute.org/AT)|Appalachian Trail [osm](https://osm.org/relation/156553) [wiki](https://wikidata.org/wiki/Q620648)|![#FFFFFF](https://via.placeholder.com/14/FFFFFF/000000?text=+) #FFFFFF|2021-08-31|2440|
+|❌❌|[AT](https://superroute.org/AT)|Appalachian Trail [osm](https://osm.org/relation/156553) [wiki](https://wikidata.org/wiki/Q620648)|![#FFFFFF](https://via.placeholder.com/14/FFFFFF/000000?text=+) #FFFFFF|2021-08-31|2442|
 |✔️|[AUS](https://superroute.org/AUS)|Australian Alps Walking Track [osm](https://osm.org/relation/1644959) [wiki](https://wikidata.org/wiki/Q4823802)||today|228|
 |✔️|[AVL](https://superroute.org/AVL)|Alta Via del Lario [osm](https://osm.org/relation/5485205) [wiki](https://wikidata.org/wiki/Q106567870)||2021-11-24|319|
 |✔️|[AZT](https://superroute.org/AZT)|Arizona Trail [osm](https://osm.org/relation/2804113) [wiki](https://wikidata.org/wiki/Q4791456)|![#AA42F5](https://via.placeholder.com/14/AA42F5/000000?text=+) #AA42F5|2021-12-24|510|
@@ -42,7 +42,7 @@
 |✔️|[GHT](https://superroute.org/GHT)|Great Himalaya Trail [osm](https://osm.org/relation/7716498) [wiki](https://wikidata.org/wiki/Q5599315)|![#DC143C](https://via.placeholder.com/14/DC143C/000000?text=+) #DC143C|2021-09-22|27|
 |❌|[GOL](https://superroute.org/GOL)|Golani Trail [osm](https://osm.org/relation/11123868) [wiki](https://wikidata.org/wiki/Q51142585)||today||
 |❌|[GPT](https://superroute.org/GPT)|Greater Patagonia Trail [osm](https://osm.org/relation/6814279) [wiki](https://wikidata.org/wiki/Q96379895)||today||
-|❌❌|[GR10](https://superroute.org/GR10)|GR 10 [osm](https://osm.org/relation/7411272) [wiki](https://wikidata.org/wiki/Q1486783)|![#0000FF](https://via.placeholder.com/14/0000FF/000000?text=+) #0000FF|2021-06-17|2320|
+|❌❌|[GR10](https://superroute.org/GR10)|GR 10 [osm](https://osm.org/relation/7411272) [wiki](https://wikidata.org/wiki/Q1486783)|![#0000FF](https://via.placeholder.com/14/0000FF/000000?text=+) #0000FF|2021-06-17|2321|
 |❌❌|[GR11](https://superroute.org/GR11)|GR 11 [osm](https://osm.org/relation/8865914) [wiki](https://wikidata.org/wiki/Q3176636)|![#00FF00](https://via.placeholder.com/14/00FF00/000000?text=+) #00FF00|2021-08-21|2102|
 |❌|[GR15](https://superroute.org/GR15)|GR 15 Aragon [osm](https://osm.org/relation/2916867) [wiki](https://wikidata.org/wiki/Q13049100)||2021-12-08||
 |❌❌|[GR20](https://superroute.org/GR20)|GR 20 [osm](https://osm.org/relation/101692) [wiki](https://wikidata.org/wiki/Q262374)|![#FFF281](https://via.placeholder.com/14/FFF281/000000?text=+) #FFF281|2021-09-13|277|
@@ -74,7 +74,7 @@
 |❌|[KBC](https://superroute.org/KBC)|Kanchendjunga Base Camp Trek [osm](https://osm.org/relation/11070375) [wiki](https://wikidata.org/wiki/Q106595294)||2021-04-25||
 |❌❌|[KUN](https://superroute.org/KUN)|Kungsleden [osm](https://osm.org/relation/1657661) [wiki](https://wikidata.org/wiki/Q59780)||2021-10-19|112|
 |❌|[LGT](https://superroute.org/LGT)|Langtang Trek [osm](https://osm.org/relation/1269089) [wiki](https://wikidata.org/wiki/Q106773672)||2021-05-09||
-|✔️|[LT](https://superroute.org/LT)|Long Trail [osm](https://osm.org/relation/391736) [wiki](https://wikidata.org/wiki/Q6673311)|![#31C831](https://via.placeholder.com/14/31C831/000000?text=+) #31C831|2021-12-19|352|
+|✔️|[LT](https://superroute.org/LT)|Long Trail [osm](https://osm.org/relation/391736) [wiki](https://wikidata.org/wiki/Q6673311)|![#31C831](https://via.placeholder.com/14/31C831/000000?text=+) #31C831|2021-12-19|353|
 |✔️|[MAN](https://superroute.org/MAN)|Manaslu Trek [osm](https://osm.org/relation/1328173) [wiki](https://wikidata.org/wiki/Q14223863)|![#0CBBBB](https://via.placeholder.com/14/0CBBBB/000000?text=+) #0CBBBB|2021-05-09|75|
 |❌|[MLT](https://superroute.org/MLT)|Meili Kora Outer Loop [osm](https://osm.org/relation/10548105) [wiki](https://wikidata.org/wiki/Q107398714)||2021-07-02||
 |❌|[MST](https://superroute.org/MST)|Mountains-to-Sea Trail [osm](https://osm.org/relation/1395404) [wiki](https://wikidata.org/wiki/Q6925667)||today||
@@ -114,7 +114,7 @@
 |❌|[WES](https://superroute.org/WES)|Westweg [osm](https://osm.org/relation/62900) [wiki](https://wikidata.org/wiki/Q2565728)||2021-12-27||
 |✔️|[WON](https://superroute.org/WON)|Wonderland Trail [osm](https://osm.org/relation/4111743) [wiki](https://wikidata.org/wiki/Q3498361)|![#7968FF](https://via.placeholder.com/14/7968FF/000000?text=+) #7968FF|2021-08-23|51|
 
-### poidb version 2021-12-27
+### poidb version 2021-12-28
 
 | name | selector | maxDistance |
 |  --- | --- | --- |
