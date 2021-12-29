@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-24T02:41:40Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-29T02:39:58Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10699408,
-      "timestamp": "2021-12-06T16:37:43Z",
-      "version": 64,
-      "changeset": 114625741,
-      "user": "Olyon",
-      "uid": 1443767,
+      "timestamp": "2021-12-28T14:44:55Z",
+      "version": 65,
+      "changeset": 115474523,
+      "user": "Sept Carto",
+      "uid": 7664547,
       "members": [
         {"type": "way", "ref": 6124532, "role": ""},
         {"type": "way", "ref": 1009663438, "role": ""},
@@ -342,6 +342,8 @@
         {"type": "way", "ref": 670576161, "role": ""},
         {"type": "way", "ref": 263778282, "role": ""},
         {"type": "way", "ref": 179130745, "role": ""},
+        {"type": "way", "ref": 1016209915, "role": ""},
+        {"type": "way", "ref": 1016209914, "role": ""},
         {"type": "way", "ref": 965964856, "role": ""},
         {"type": "way", "ref": 914998230, "role": ""},
         {"type": "way", "ref": 965964857, "role": ""},
@@ -775,6 +777,60 @@
     },
     {
       "type": "way",
+      "id": 1016209914,
+      "timestamp": "2021-12-28T14:44:55Z",
+      "version": 1,
+      "changeset": 115474523,
+      "user": "Sept Carto",
+      "uid": 7664547,
+      "nodes": [9300717560, 1041890565],
+      "geometry": [
+        {"lat": 45.5633479, "lon": 2.8014288, "z": 1329.9},
+        {"lat": 45.5633651, "lon": 2.8014389, "z": 1329.7},
+        {"lat": 45.5634135, "lon": 2.8015622, "z": 1329},
+        {"lat": 45.5635379, "lon": 2.801962, "z": 1326},
+        {"lat": 45.5637463, "lon": 2.8021667, "z": 1321.8},
+        {"lat": 45.5638615, "lon": 2.8022236, "z": 1320},
+        {"lat": 45.5639456, "lon": 2.802257, "z": 1318.9}
+      ],
+      "tags": {
+        "highway": "track",
+        "horse": "no",
+        "name": "Chemin du Capucin",
+        "smoothness": "horrible",
+        "surface": "asphalt",
+        "tracktype": "grade1",
+        "width": "2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016209915,
+      "timestamp": "2021-12-28T14:44:55Z",
+      "version": 1,
+      "changeset": 115474523,
+      "user": "Sept Carto",
+      "uid": 7664547,
+      "nodes": [4344320986, 9300717560],
+      "geometry": [
+        {"lat": 45.5626988, "lon": 2.8012006, "z": 1337.6},
+        {"lat": 45.5628349, "lon": 2.80126, "z": 1335.7},
+        {"lat": 45.5630388, "lon": 2.8012804, "z": 1333.5},
+        {"lat": 45.5631875, "lon": 2.8013343, "z": 1331.9},
+        {"lat": 45.5633479, "lon": 2.8014288, "z": 1329.9}
+      ],
+      "tags": {
+        "highway": "track",
+        "horse": "no",
+        "name": "Chemin du Capucin",
+        "smoothness": "horrible",
+        "surface": "asphalt",
+        "tracktype": "grade1",
+        "width": "2"
+      }
+    },
+    {
+      "type": "way",
       "id": 108779747,
       "timestamp": "2011-04-16T16:35:21Z",
       "version": 1,
@@ -1087,11 +1143,11 @@
     {
       "type": "way",
       "id": 134561227,
-      "timestamp": "2021-12-23T14:18:33Z",
-      "version": 6,
-      "changeset": 115300029,
-      "user": "pyrog",
-      "uid": 270456,
+      "timestamp": "2021-12-28T17:05:29Z",
+      "version": 7,
+      "changeset": 115480290,
+      "user": "Sept Carto",
+      "uid": 7664547,
       "nodes": [969074471, 563293141],
       "geometry": [
         {"lat": 45.4934813, "lon": 2.893495, "z": 1256.1},
@@ -1100,20 +1156,17 @@
       ],
       "tags": {
         "highway": "unclassified",
-        "piste:difficulty": "intermediate",
-        "piste:grooming": "classic;skating",
-        "piste:type": "nordic",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
       }
     },
     {
       "type": "way",
       "id": 134561247,
-      "timestamp": "2021-12-23T14:18:33Z",
-      "version": 4,
-      "changeset": 115300029,
-      "user": "pyrog",
-      "uid": 270456,
+      "timestamp": "2021-12-28T17:05:29Z",
+      "version": 5,
+      "changeset": 115480290,
+      "user": "Sept Carto",
+      "uid": 7664547,
       "nodes": [969074309, 658956342],
       "geometry": [
         {"lat": 45.4936915, "lon": 2.9012546, "z": 1254.9},
@@ -1124,9 +1177,6 @@
       ],
       "tags": {
         "highway": "track",
-        "piste:difficulty": "easy",
-        "piste:grooming": "classic;skating",
-        "piste:type": "nordic",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
       }
     },
@@ -2108,22 +2158,13 @@
     {
       "type": "way",
       "id": 179130745,
-      "timestamp": "2021-07-20T15:56:20Z",
-      "version": 13,
-      "changeset": 108328370,
-      "user": "Luc Gential",
-      "uid": 10296811,
-      "nodes": [4344320986, 1041892957],
+      "timestamp": "2021-12-28T14:44:55Z",
+      "version": 14,
+      "changeset": 115474523,
+      "user": "Sept Carto",
+      "uid": 7664547,
+      "nodes": [1041890565, 1041892957],
       "geometry": [
-        {"lat": 45.5626988, "lon": 2.8012006, "z": 1337.6},
-        {"lat": 45.5628349, "lon": 2.80126, "z": 1335.7},
-        {"lat": 45.5630388, "lon": 2.8012804, "z": 1333.5},
-        {"lat": 45.5631875, "lon": 2.8013343, "z": 1331.9},
-        {"lat": 45.5633651, "lon": 2.8014389, "z": 1329.7},
-        {"lat": 45.5634135, "lon": 2.8015622, "z": 1329},
-        {"lat": 45.5635379, "lon": 2.801962, "z": 1326},
-        {"lat": 45.5637463, "lon": 2.8021667, "z": 1321.8},
-        {"lat": 45.5638615, "lon": 2.8022236, "z": 1320},
         {"lat": 45.5639456, "lon": 2.802257, "z": 1318.9},
         {"lat": 45.5642677, "lon": 2.8023204, "z": 1315.4},
         {"lat": 45.5645955, "lon": 2.8023825, "z": 1310.7},
@@ -3640,11 +3681,11 @@
     {
       "type": "way",
       "id": 229041324,
-      "timestamp": "2014-01-07T19:48:12Z",
-      "version": 3,
-      "changeset": 19869545,
-      "user": "rabeyroux",
-      "uid": 805590,
+      "timestamp": "2021-12-28T17:05:29Z",
+      "version": 4,
+      "changeset": 115480290,
+      "user": "Sept Carto",
+      "uid": 7664547,
       "nodes": [655545671, 2376785164],
       "geometry": [
         {"lat": 45.4809316, "lon": 2.8978368, "z": 1252.8},
@@ -3654,7 +3695,7 @@
         {"lat": 45.482165, "lon": 2.8958972, "z": 1258.5},
         {"lat": 45.482654, "lon": 2.8948887, "z": 1261.1}
       ],
-      "tags": {"highway": "track", "piste:type": "nordic"}
+      "tags": {"highway": "track"}
     },
     {
       "type": "way",
@@ -3874,23 +3915,17 @@
     {
       "type": "way",
       "id": 233634425,
-      "timestamp": "2021-12-23T14:20:39Z",
-      "version": 6,
-      "changeset": 115300801,
-      "user": "pyrog",
-      "uid": 270456,
+      "timestamp": "2021-12-28T17:05:29Z",
+      "version": 7,
+      "changeset": 115480290,
+      "user": "Sept Carto",
+      "uid": 7664547,
       "nodes": [2613786239, 563293146],
       "geometry": [
         {"lat": 45.4888467, "lon": 2.8935235, "z": 1262.4},
         {"lat": 45.4906515, "lon": 2.8931283, "z": 1268.1}
       ],
-      "tags": {
-        "colour": "black",
-        "highway": "track",
-        "piste:difficulty": "intermediate",
-        "piste:grooming": "classic;skating",
-        "piste:type": "nordic"
-      }
+      "tags": {"colour": "black", "highway": "track"}
     },
     {
       "type": "way",
@@ -5062,11 +5097,11 @@
     {
       "type": "way",
       "id": 255706966,
-      "timestamp": "2014-01-07T19:48:13Z",
-      "version": 2,
-      "changeset": 19869545,
-      "user": "rabeyroux",
-      "uid": 805590,
+      "timestamp": "2021-12-28T17:05:29Z",
+      "version": 3,
+      "changeset": 115480290,
+      "user": "Sept Carto",
+      "uid": 7664547,
       "nodes": [957707089, 563293170],
       "geometry": [
         {"lat": 45.4852058, "lon": 2.8943708, "z": 1268.2},
@@ -5074,24 +5109,23 @@
       ],
       "tags": {
         "highway": "track",
-        "piste:type": "nordic",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
       }
     },
     {
       "type": "way",
       "id": 255707553,
-      "timestamp": "2014-01-07T19:48:12Z",
-      "version": 1,
-      "changeset": 19869545,
-      "user": "rabeyroux",
-      "uid": 805590,
+      "timestamp": "2021-12-28T17:05:29Z",
+      "version": 2,
+      "changeset": 115480290,
+      "user": "Sept Carto",
+      "uid": 7664547,
       "nodes": [2376785164, 563293170],
       "geometry": [
         {"lat": 45.482654, "lon": 2.8948887, "z": 1261.1},
         {"lat": 45.4831875, "lon": 2.8947814, "z": 1260.5}
       ],
-      "tags": {"highway": "track", "piste:type": "nordic"}
+      "tags": {"highway": "track"}
     },
     {
       "type": "way",
@@ -9083,11 +9117,11 @@
     {
       "type": "way",
       "id": 51371819,
-      "timestamp": "2021-12-23T14:18:13Z",
-      "version": 8,
-      "changeset": 115300029,
-      "user": "pyrog",
-      "uid": 270456,
+      "timestamp": "2021-12-28T17:05:29Z",
+      "version": 9,
+      "changeset": 115480290,
+      "user": "Sept Carto",
+      "uid": 7664547,
       "nodes": [2613786239, 957707089],
       "geometry": [
         {"lat": 45.4888467, "lon": 2.8935235, "z": 1262.4},
@@ -9098,9 +9132,6 @@
       ],
       "tags": {
         "highway": "track",
-        "piste:grooming": "classic;skating",
-        "piste:oneway": "yes",
-        "piste:type": "nordic",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
       }
     },
@@ -15673,9 +15704,9 @@
     {
       "type": "way",
       "id": 82247136,
-      "timestamp": "2019-10-29T16:30:11Z",
-      "version": 7,
-      "changeset": 76355567,
+      "timestamp": "2021-12-28T17:05:29Z",
+      "version": 8,
+      "changeset": 115480290,
       "user": "Sept Carto",
       "uid": 7664547,
       "nodes": [655545671, 655545656],
@@ -15708,9 +15739,6 @@
       ],
       "tags": {
         "highway": "track",
-        "piste:grooming": "skating",
-        "piste:oneway": "yes",
-        "piste:type": "nordic",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009",
         "tracktype": "grade1"
       }
@@ -15831,11 +15859,11 @@
     {
       "type": "way",
       "id": 829369975,
-      "timestamp": "2021-12-23T14:21:40Z",
-      "version": 2,
-      "changeset": 115300827,
-      "user": "pyrog",
-      "uid": 270456,
+      "timestamp": "2021-12-28T17:05:29Z",
+      "version": 3,
+      "changeset": 115480290,
+      "user": "Sept Carto",
+      "uid": 7664547,
       "nodes": [563293141, 563293146],
       "geometry": [
         {"lat": 45.4922338, "lon": 2.8927692, "z": 1270.4},
@@ -15844,9 +15872,6 @@
       ],
       "tags": {
         "highway": "unclassified",
-        "piste:difficulty": "intermediate",
-        "piste:grooming": "classic;skating",
-        "piste:type": "nordic",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
       }
     },
@@ -16131,11 +16156,11 @@
     {
       "type": "way",
       "id": 83285503,
-      "timestamp": "2021-12-23T14:18:18Z",
-      "version": 6,
-      "changeset": 115300029,
-      "user": "pyrog",
-      "uid": 270456,
+      "timestamp": "2021-12-28T16:12:36Z",
+      "version": 7,
+      "changeset": 115478051,
+      "user": "Sept Carto",
+      "uid": 7664547,
       "nodes": [969074263, 969074323],
       "geometry": [
         {"lat": 45.4937827, "lon": 2.9027466, "z": 1261.9},
@@ -16145,20 +16170,17 @@
       "tags": {
         "colour": "green",
         "highway": "track",
-        "piste:difficulty": "easy",
-        "piste:grooming": "classic;skating",
-        "piste:type": "nordic",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
       }
     },
     {
       "type": "way",
       "id": 83285511,
-      "timestamp": "2021-12-23T14:18:18Z",
-      "version": 7,
-      "changeset": 115300029,
-      "user": "pyrog",
-      "uid": 270456,
+      "timestamp": "2021-12-28T17:05:29Z",
+      "version": 8,
+      "changeset": 115480290,
+      "user": "Sept Carto",
+      "uid": 7664547,
       "nodes": [969074471, 969074309],
       "geometry": [
         {"lat": 45.4934813, "lon": 2.893495, "z": 1256.1},
@@ -16188,9 +16210,6 @@
       ],
       "tags": {
         "highway": "track",
-        "piste:difficulty": "easy",
-        "piste:grooming": "classic;skating",
-        "piste:type": "nordic",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
       }
     },
@@ -16738,11 +16757,11 @@
     {
       "type": "way",
       "id": 914998230,
-      "timestamp": "2021-07-20T15:56:20Z",
-      "version": 3,
-      "changeset": 108328370,
-      "user": "Luc Gential",
-      "uid": 10296811,
+      "timestamp": "2021-12-28T12:19:23Z",
+      "version": 4,
+      "changeset": 115468241,
+      "user": "Sept Carto",
+      "uid": 7664547,
       "nodes": [6085572627, 1041891177],
       "geometry": [
         {"lat": 45.5606108, "lon": 2.8009067, "z": 1369.7},
@@ -16759,7 +16778,6 @@
         "highway": "track",
         "horse": "no",
         "name": "Chemin du Capucin",
-        "piste:type": "nordic",
         "smoothness": "horrible",
         "surface": "asphalt",
         "tracktype": "grade1",
@@ -17278,11 +17296,11 @@
     {
       "type": "way",
       "id": 965640395,
-      "timestamp": "2021-07-19T13:44:13Z",
-      "version": 1,
-      "changeset": 108257086,
-      "user": "Luc Gential",
-      "uid": 10296811,
+      "timestamp": "2021-12-28T12:19:23Z",
+      "version": 2,
+      "changeset": 115468241,
+      "user": "Sept Carto",
+      "uid": 7664547,
       "nodes": [873755795, 1041889474],
       "geometry": [
         {"lat": 45.5586352, "lon": 2.8005402, "z": 1374.4},
@@ -17293,7 +17311,6 @@
         "highway": "track",
         "horse": "no",
         "name": "Chemin du Capucin",
-        "piste:type": "nordic",
         "smoothness": "horrible",
         "surface": "asphalt",
         "tracktype": "grade1",
@@ -17395,11 +17412,11 @@
     {
       "type": "way",
       "id": 965964857,
-      "timestamp": "2021-07-20T15:56:20Z",
-      "version": 1,
-      "changeset": 108328370,
-      "user": "Luc Gential",
-      "uid": 10296811,
+      "timestamp": "2021-12-28T12:19:23Z",
+      "version": 2,
+      "changeset": 115468241,
+      "user": "Sept Carto",
+      "uid": 7664547,
       "nodes": [1041889474, 6085572627],
       "geometry": [
         {"lat": 45.5591278, "lon": 2.8004403, "z": 1367.1},
@@ -17414,7 +17431,6 @@
         "highway": "track",
         "horse": "no",
         "name": "Chemin du Capucin",
-        "piste:type": "nordic",
         "smoothness": "horrible",
         "surface": "asphalt",
         "tracktype": "grade1",
