@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-28T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-29T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1078763,
-      "timestamp": "2021-12-27T21:11:58Z",
-      "version": 336,
-      "changeset": 115443791,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 337,
+      "changeset": 115531244,
       "user": "Jrachi",
       "uid": 2976645,
       "members": [
@@ -317,7 +317,6 @@
         {"type": "way", "ref": 679070962, "role": ""},
         {"type": "way", "ref": 172982217, "role": ""},
         {"type": "way", "ref": 679070961, "role": ""},
-        {"type": "way", "ref": 172982218, "role": ""},
         {"type": "way", "ref": 174640306, "role": ""},
         {"type": "way", "ref": 172982222, "role": ""},
         {"type": "way", "ref": 98231636, "role": ""},
@@ -7082,24 +7081,25 @@
     {
       "type": "way",
       "id": 133953021,
-      "timestamp": "2015-04-29T12:16:55Z",
-      "version": 10,
-      "changeset": 30617446,
-      "user": "sbiribizio",
-      "uid": 354284,
+      "timestamp": "2021-12-29T17:10:57Z",
+      "version": 11,
+      "changeset": 115530012,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1480082663, 1480082631],
       "geometry": [
         {"lat": 44.8892748, "lon": 7.0479018},
-        {"lat": 44.8889944, "lon": 7.0486986},
+        {"lat": 44.8890201, "lon": 7.0486517},
         {"lat": 44.8890156, "lon": 7.0487186},
-        {"lat": 44.8891312, "lon": 7.0488273},
-        {"lat": 44.8892213, "lon": 7.048912},
+        {"lat": 44.8891445, "lon": 7.0488528},
+        {"lat": 44.8892365, "lon": 7.0489522},
         {"lat": 44.8892909, "lon": 7.0489775},
-        {"lat": 44.8894962, "lon": 7.0490846}
+        {"lat": 44.8895105, "lon": 7.0490766}
       ],
       "tags": {
         "highway": "unclassified",
         "maxspeed": "30",
+        "sac_scale": "hiking",
         "surface": "asphalt"
       }
     },
@@ -7500,11 +7500,11 @@
     {
       "type": "way",
       "id": 134995385,
-      "timestamp": "2019-07-26T06:12:41Z",
-      "version": 7,
-      "changeset": 72670783,
-      "user": "solitone",
-      "uid": 584192,
+      "timestamp": "2021-12-29T17:10:57Z",
+      "version": 8,
+      "changeset": 115530012,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1483300006, 1480082659],
       "geometry": [
         {"lat": 44.8912542, "lon": 7.049156},
@@ -7517,9 +7517,9 @@
         {"lat": 44.890076, "lon": 7.0487912},
         {"lat": 44.8899601, "lon": 7.0489315},
         {"lat": 44.8899164, "lon": 7.0489843},
-        {"lat": 44.8897852, "lon": 7.0491279}
+        {"lat": 44.8898251, "lon": 7.0490622}
       ],
-      "tags": {"highway": "unclassified"}
+      "tags": {"highway": "unclassified", "sac_scale": "hiking"}
     },
     {
       "type": "way",
@@ -8713,18 +8713,21 @@
     {
       "type": "way",
       "id": 155445024,
-      "timestamp": "2015-04-29T12:16:55Z",
-      "version": 6,
-      "changeset": 30617446,
-      "user": "sbiribizio",
-      "uid": 354284,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 7,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1678429321, 1678429331],
       "geometry": [
-        {"lat": 44.8933243, "lon": 7.0497107},
-        {"lat": 44.8932487, "lon": 7.0495253},
-        {"lat": 44.8930854, "lon": 7.0493761},
-        {"lat": 44.8930277, "lon": 7.0492947},
-        {"lat": 44.8930806, "lon": 7.0492201},
+        {"lat": 44.8933028, "lon": 7.0496216},
+        {"lat": 44.8932809, "lon": 7.0495537},
+        {"lat": 44.8932295, "lon": 7.0494669},
+        {"lat": 44.8930948, "lon": 7.049359},
+        {"lat": 44.8930479, "lon": 7.0492852},
+        {"lat": 44.8930575, "lon": 7.0492488},
+        {"lat": 44.8930913, "lon": 7.0492258},
+        {"lat": 44.8931543, "lon": 7.0492355},
         {"lat": 44.8932247, "lon": 7.0492879},
         {"lat": 44.8938637, "lon": 7.0499322},
         {"lat": 44.8943682, "lon": 7.0500949},
@@ -8738,37 +8741,40 @@
         {"lat": 44.8951621, "lon": 7.0483358}
       ],
       "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "cycleway": "no",
-        "foot": "yes",
         "highway": "unclassified",
-        "source": "Bing",
+        "sac_scale": "hiking",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 155458902,
-      "timestamp": "2019-03-24T10:02:10Z",
-      "version": 8,
-      "changeset": 68465999,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 9,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [4873744083, 4872677682],
       "geometry": [
-        {"lat": 44.916692, "lon": 7.0453182},
+        {"lat": 44.9167309, "lon": 7.0454282},
+        {"lat": 44.9167203, "lon": 7.045613},
         {"lat": 44.9166749, "lon": 7.0457259},
+        {"lat": 44.9166383, "lon": 7.0457116},
+        {"lat": 44.9166128, "lon": 7.045632},
+        {"lat": 44.9165873, "lon": 7.0455466},
+        {"lat": 44.9165604, "lon": 7.0455125},
+        {"lat": 44.9165309, "lon": 7.0455315},
+        {"lat": 44.9165027, "lon": 7.0455884},
         {"lat": 44.9165009, "lon": 7.0457652},
         {"lat": 44.9164717, "lon": 7.0459619},
         {"lat": 44.9165188, "lon": 7.0462974},
         {"lat": 44.9165097, "lon": 7.0465225},
         {"lat": 44.9164063, "lon": 7.0468627},
-        {"lat": 44.9164124, "lon": 7.0470564},
+        {"lat": 44.9163587, "lon": 7.0470867},
         {"lat": 44.9163311, "lon": 7.0472306},
         {"lat": 44.9163011, "lon": 7.0475473},
         {"lat": 44.916215, "lon": 7.0476975},
-        {"lat": 44.9161165, "lon": 7.0478314},
+        {"lat": 44.9161407, "lon": 7.0478352},
         {"lat": 44.9161298, "lon": 7.0479642},
         {"lat": 44.9161723, "lon": 7.0480778},
         {"lat": 44.9162061, "lon": 7.0482878},
@@ -8786,33 +8792,26 @@
         {"lat": 44.9158657, "lon": 7.0514167},
         {"lat": 44.9157689, "lon": 7.0516348}
       ],
-      "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "track",
-        "motor_vehicle": "no",
-        "name": "200",
-        "source": "PCN",
-        "surface": "unpaved"
-      }
+      "tags": {"highway": "track", "sac_scale": "hiking", "surface": "unpaved"}
     },
     {
       "type": "way",
       "id": 155464935,
-      "timestamp": "2017-10-09T14:05:02Z",
-      "version": 14,
-      "changeset": 52761166,
-      "user": "Fabrizio Breusa",
-      "uid": 6605112,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 15,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [4353158857, 1774701209],
       "geometry": [
         {"lat": 44.920365, "lon": 7.053199},
-        {"lat": 44.9202552, "lon": 7.0534625},
-        {"lat": 44.92026, "lon": 7.0536931},
-        {"lat": 44.9203307, "lon": 7.0538033},
-        {"lat": 44.9205257, "lon": 7.0538824},
-        {"lat": 44.9206568, "lon": 7.0540018},
+        {"lat": 44.9202794, "lon": 7.0535137},
+        {"lat": 44.92029, "lon": 7.0536129},
+        {"lat": 44.9203392, "lon": 7.0537178},
+        {"lat": 44.9203804, "lon": 7.0537464},
+        {"lat": 44.9205203, "lon": 7.0538236},
+        {"lat": 44.9206177, "lon": 7.0539145},
+        {"lat": 44.9206998, "lon": 7.0540321},
         {"lat": 44.9208591, "lon": 7.0542325},
         {"lat": 44.9208748, "lon": 7.0543139},
         {"lat": 44.9208591, "lon": 7.0545352},
@@ -8832,13 +8831,8 @@
         {"lat": 44.9212, "lon": 7.0555629}
       ],
       "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
-        "motor_vehicle": "no",
-        "name": "200",
-        "source": "PCN",
+        "sac_scale": "hiking",
         "surface": "unpaved",
         "trail_visibility": "good"
       }
@@ -11136,36 +11130,27 @@
     {
       "type": "way",
       "id": 172982215,
-      "timestamp": "2017-05-23T18:38:24Z",
-      "version": 5,
-      "changeset": 48925116,
-      "user": "maxiclimb",
-      "uid": 1036998,
+      "timestamp": "2021-12-29T17:10:57Z",
+      "version": 6,
+      "changeset": 115530012,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1678429321, 1838130576],
       "geometry": [
-        {"lat": 44.8933243, "lon": 7.0497107},
-        {"lat": 44.8933653, "lon": 7.0498663},
-        {"lat": 44.8934679, "lon": 7.0500299}
+        {"lat": 44.8933028, "lon": 7.0496216},
+        {"lat": 44.8934185, "lon": 7.049924},
+        {"lat": 44.8934955, "lon": 7.0501654}
       ],
-      "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "ford": "yes",
-        "highway": "track",
-        "motor_vehicle": "no",
-        "name": "GTA",
-        "surface": "unpaved"
-      }
+      "tags": {"highway": "track", "motor_vehicle": "no", "surface": "unpaved"}
     },
     {
       "type": "way",
       "id": 172982216,
-      "timestamp": "2019-03-24T17:18:26Z",
-      "version": 7,
-      "changeset": 68478223,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 8,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1838130514, 1838130467],
       "geometry": [
         {"lat": 44.9364211, "lon": 7.0587221},
@@ -11176,24 +11161,16 @@
         {"lat": 44.9363243, "lon": 7.0594561},
         {"lat": 44.936363, "lon": 7.0596384}
       ],
-      "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "path",
-        "motor_vehicle": "no",
-        "name": "200",
-        "surface": "unpaved"
-      }
+      "tags": {"highway": "path", "sac_scale": "hiking", "surface": "unpaved"}
     },
     {
       "type": "way",
       "id": 172982217,
-      "timestamp": "2019-03-24T17:32:52Z",
-      "version": 7,
-      "changeset": 68478657,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 8,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [2729685725, 6358761788],
       "geometry": [
         {"lat": 44.9366976, "lon": 7.0561683},
@@ -11205,54 +11182,16 @@
         {"lat": 44.9372129, "lon": 7.0565352},
         {"lat": 44.9372041, "lon": 7.056658}
       ],
-      "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "path",
-        "motor_vehicle": "no",
-        "name": "200",
-        "surface": "unpaved"
-      }
-    },
-    {
-      "type": "way",
-      "id": 172982218,
-      "timestamp": "2019-03-24T17:32:52Z",
-      "version": 7,
-      "changeset": 68478657,
-      "user": "AlfredoSP",
-      "uid": 2175620,
-      "nodes": [1838130451, 6358761789],
-      "geometry": [
-        {"lat": 44.9364297, "lon": 7.0546353},
-        {"lat": 44.9364382, "lon": 7.0547426},
-        {"lat": 44.9364518, "lon": 7.054984},
-        {"lat": 44.9363531, "lon": 7.054941},
-        {"lat": 44.9362714, "lon": 7.0550027},
-        {"lat": 44.9363664, "lon": 7.0551562},
-        {"lat": 44.9364025, "lon": 7.0553005},
-        {"lat": 44.9364651, "lon": 7.0554614},
-        {"lat": 44.9366015, "lon": 7.0558271}
-      ],
-      "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "path",
-        "motor_vehicle": "no",
-        "name": "200",
-        "surface": "unpaved"
-      }
+      "tags": {"highway": "path", "sac_scale": "hiking", "surface": "unpaved"}
     },
     {
       "type": "way",
       "id": 172982219,
-      "timestamp": "2019-03-24T17:18:26Z",
-      "version": 7,
-      "changeset": 68478223,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 8,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1838130467, 1838130532],
       "geometry": [
         {"lat": 44.936363, "lon": 7.0596384},
@@ -11286,24 +11225,16 @@
         {"lat": 44.934929, "lon": 7.0661017},
         {"lat": 44.9348559, "lon": 7.0661608}
       ],
-      "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "path",
-        "motor_vehicle": "no",
-        "name": "200",
-        "surface": "unpaved"
-      }
+      "tags": {"highway": "path", "sac_scale": "hiking", "surface": "unpaved"}
     },
     {
       "type": "way",
       "id": 172982220,
-      "timestamp": "2017-05-26T18:21:45Z",
-      "version": 8,
-      "changeset": 49009104,
-      "user": "maxiclimb",
-      "uid": 1036998,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 9,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [4879014089, 1838130492],
       "geometry": [
         {"lat": 44.9298417, "lon": 7.060706},
@@ -11328,14 +11259,9 @@
         {"lat": 44.9333455, "lon": 7.0647579}
       ],
       "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "path",
         "incline": "down",
-        "motor_vehicle": "no",
         "mtb:scale": "2",
-        "name": "200",
         "sac_scale": "mountain_hiking",
         "smoothness": "very_horrible",
         "surface": "ground",
@@ -11345,11 +11271,11 @@
     {
       "type": "way",
       "id": 172982221,
-      "timestamp": "2019-03-24T10:02:10Z",
-      "version": 6,
-      "changeset": 68465999,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 7,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1678507445, 1838130487],
       "geometry": [
         {"lat": 44.9126448, "lon": 7.0540253},
@@ -11384,24 +11310,16 @@
         {"lat": 44.9113792, "lon": 7.054325},
         {"lat": 44.9112414, "lon": 7.0540262}
       ],
-      "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "track",
-        "motor_vehicle": "no",
-        "name": "200",
-        "surface": "unpaved"
-      }
+      "tags": {"highway": "track", "sac_scale": "hiking", "surface": "unpaved"}
     },
     {
       "type": "way",
       "id": 172982222,
-      "timestamp": "2019-03-24T17:32:53Z",
-      "version": 8,
-      "changeset": 68478657,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 9,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1838130533, 6358761579],
       "geometry": [
         {"lat": 44.938309, "lon": 7.0540386},
@@ -11416,24 +11334,16 @@
         {"lat": 44.9370917, "lon": 7.0539889},
         {"lat": 44.9370313, "lon": 7.0538686}
       ],
-      "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "path",
-        "motor_vehicle": "no",
-        "name": "200",
-        "surface": "unpaved"
-      }
+      "tags": {"highway": "path", "sac_scale": "hiking", "surface": "unpaved"}
     },
     {
       "type": "way",
       "id": 172982223,
-      "timestamp": "2019-03-24T17:18:26Z",
-      "version": 7,
-      "changeset": 68478223,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 8,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1838130440, 1838130514],
       "geometry": [
         {"lat": 44.9365906, "lon": 7.0579551},
@@ -11446,15 +11356,7 @@
         {"lat": 44.936505, "lon": 7.0585674},
         {"lat": 44.9364211, "lon": 7.0587221}
       ],
-      "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "path",
-        "motor_vehicle": "no",
-        "name": "200",
-        "surface": "unpaved"
-      }
+      "tags": {"highway": "path", "sac_scale": "hiking", "surface": "unpaved"}
     },
     {
       "type": "way",
@@ -11557,41 +11459,43 @@
     {
       "type": "way",
       "id": 173149991,
-      "timestamp": "2019-07-26T06:12:41Z",
-      "version": 6,
-      "changeset": 72670783,
-      "user": "solitone",
-      "uid": 584192,
+      "timestamp": "2021-12-29T17:10:57Z",
+      "version": 7,
+      "changeset": 115530012,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1480082631, 1480082630],
       "geometry": [
-        {"lat": 44.8894962, "lon": 7.0490846},
-        {"lat": 44.8897309, "lon": 7.0491276}
+        {"lat": 44.8895105, "lon": 7.0490766},
+        {"lat": 44.8897366, "lon": 7.0491128}
       ],
       "tags": {
         "bridge": "yes",
         "highway": "unclassified",
         "layer": "1",
         "maxspeed": "30",
+        "sac_scale": "hiking",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 173149993,
-      "timestamp": "2015-01-20T14:46:02Z",
-      "version": 6,
-      "changeset": 28282571,
-      "user": "roby2107",
-      "uid": 1808258,
+      "timestamp": "2021-12-29T17:10:57Z",
+      "version": 7,
+      "changeset": 115530012,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1480082630, 1480082659],
       "geometry": [
-        {"lat": 44.8897309, "lon": 7.0491276},
-        {"lat": 44.8897852, "lon": 7.0491279}
+        {"lat": 44.8897366, "lon": 7.0491128},
+        {"lat": 44.8898251, "lon": 7.0490622}
       ],
       "tags": {
         "highway": "unclassified",
         "incline": "10%",
         "maxspeed": "30",
+        "sac_scale": "hiking",
         "surface": "asphalt"
       }
     },
@@ -11910,11 +11814,11 @@
     {
       "type": "way",
       "id": 174638874,
-      "timestamp": "2021-11-08T09:45:21Z",
-      "version": 12,
-      "changeset": 113513934,
-      "user": "casual-user",
-      "uid": 14334353,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 13,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1586367500, 1678690482],
       "geometry": [
         {"lat": 44.9809106, "lon": 6.9886736},
@@ -12291,7 +12195,7 @@
         {"lat": 44.965074, "lon": 7.0322786},
         {"lat": 44.9650011, "lon": 7.0321907},
         {"lat": 44.9649524, "lon": 7.0321891},
-        {"lat": 44.9648698, "lon": 7.0322247}
+        {"lat": 44.9648802, "lon": 7.0322502}
       ],
       "tags": {
         "highway": "path",
@@ -12300,7 +12204,7 @@
         "mtb:scale": "3",
         "mtb:scale:uphill": "4",
         "name": "GTA/SV/216/GRV",
-        "source": "PCN,Bing;local knowledge",
+        "sac_scale": "hiking",
         "surface": "ground"
       }
     },
@@ -12554,64 +12458,59 @@
     {
       "type": "way",
       "id": 174640296,
-      "timestamp": "2017-05-23T18:38:26Z",
-      "version": 5,
-      "changeset": 48925116,
-      "user": "maxiclimb",
-      "uid": 1036998,
+      "timestamp": "2021-12-29T17:10:57Z",
+      "version": 6,
+      "changeset": 115530012,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1478880684, 1478880695],
       "geometry": [
-        {"lat": 44.9182308, "lon": 7.0496613},
-        {"lat": 44.9182816, "lon": 7.0496809},
-        {"lat": 44.9182954, "lon": 7.04972},
-        {"lat": 44.9183185, "lon": 7.0497982},
-        {"lat": 44.9185078, "lon": 7.0507047},
-        {"lat": 44.9186002, "lon": 7.0509525},
-        {"lat": 44.9186879, "lon": 7.0510698},
-        {"lat": 44.9187664, "lon": 7.0511024},
-        {"lat": 44.9188495, "lon": 7.051109},
-        {"lat": 44.9189049, "lon": 7.0510764},
-        {"lat": 44.9189465, "lon": 7.0510242},
-        {"lat": 44.9189879, "lon": 7.0509968}
+        {"lat": 44.9182563, "lon": 7.0496423},
+        {"lat": 44.918291, "lon": 7.0496562},
+        {"lat": 44.9183209, "lon": 7.0497295},
+        {"lat": 44.9184018, "lon": 7.0500599},
+        {"lat": 44.9185844, "lon": 7.0507199},
+        {"lat": 44.9186512, "lon": 7.0509241},
+        {"lat": 44.9187027, "lon": 7.0510091},
+        {"lat": 44.9187704, "lon": 7.0510683},
+        {"lat": 44.9188361, "lon": 7.0510635},
+        {"lat": 44.9188955, "lon": 7.0510404},
+        {"lat": 44.9189384, "lon": 7.0509958},
+        {"lat": 44.9190013, "lon": 7.050938}
       ],
       "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "cycleway": "no",
-        "foot": "yes",
         "highway": "tertiary",
         "maxspeed": "50",
-        "name": "200",
-        "ref": "SP260",
+        "sac_scale": "hiking",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 174640298,
-      "timestamp": "2012-08-05T14:46:46Z",
-      "version": 1,
-      "changeset": 12621012,
-      "user": "Sergej Popov",
-      "uid": 36184,
+      "timestamp": "2021-12-29T17:10:57Z",
+      "version": 2,
+      "changeset": 115530012,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1478880695, 1478880699],
       "geometry": [
-        {"lat": 44.9189879, "lon": 7.0509968},
+        {"lat": 44.9190013, "lon": 7.050938},
         {"lat": 44.9190296, "lon": 7.0510177},
         {"lat": 44.9190573, "lon": 7.0511024},
         {"lat": 44.9192051, "lon": 7.0518393},
         {"lat": 44.9192189, "lon": 7.0524979}
       ],
-      "tags": {"highway": "tertiary", "ref": "SP260"}
+      "tags": {"highway": "tertiary"}
     },
     {
       "type": "way",
       "id": 174640300,
-      "timestamp": "2015-04-23T16:14:39Z",
-      "version": 8,
-      "changeset": 30433297,
-      "user": "calfarome",
-      "uid": 2511706,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 9,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1838130532, 3289823890],
       "geometry": [
         {"lat": 44.9348559, "lon": 7.0661608},
@@ -12619,13 +12518,9 @@
         {"lat": 44.9354898, "lon": 7.06737}
       ],
       "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "cycleway": "no",
-        "foot": "yes",
         "highway": "track",
         "maxspeed": "20",
-        "motor_vehicle": "designated",
+        "sac_scale": "hiking",
         "surface": "gravel",
         "tracktype": "grade3"
       }
@@ -12633,16 +12528,17 @@
     {
       "type": "way",
       "id": 174640306,
-      "timestamp": "2019-03-24T17:32:53Z",
-      "version": 8,
-      "changeset": 68478657,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 9,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [6358761579, 1838130451],
       "geometry": [
         {"lat": 44.9370313, "lon": 7.0538686},
-        {"lat": 44.9370526, "lon": 7.0537705},
-        {"lat": 44.9370018, "lon": 7.053719},
+        {"lat": 44.9370403, "lon": 7.0537718},
+        {"lat": 44.937022, "lon": 7.053735},
+        {"lat": 44.9369828, "lon": 7.0537203},
         {"lat": 44.9369385, "lon": 7.0537529},
         {"lat": 44.93678, "lon": 7.0539303},
         {"lat": 44.9365901, "lon": 7.054102},
@@ -12650,14 +12546,9 @@
         {"lat": 44.9364297, "lon": 7.0546353}
       ],
       "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "cycleway": "no",
-        "foot": "yes",
         "highway": "track",
         "maxspeed": "20",
-        "motor_vehicle": "designated",
-        "name": "238",
+        "sac_scale": "hiking",
         "surface": "gravel",
         "tracktype": "grade2"
       }
@@ -12689,11 +12580,11 @@
     {
       "type": "way",
       "id": 174640310,
-      "timestamp": "2019-03-24T10:02:10Z",
-      "version": 8,
-      "changeset": 68465999,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 9,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1838130487, 1678429331],
       "geometry": [
         {"lat": 44.9112414, "lon": 7.0540262},
@@ -12798,15 +12689,9 @@
         {"lat": 44.8951621, "lon": 7.0483358}
       ],
       "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "cycleway": "no",
-        "foot": "yes",
         "highway": "track",
         "maxspeed": "20",
-        "motor_vehicle": "designated",
-        "name": "200",
-        "source": "PCN",
+        "sac_scale": "hiking",
         "surface": "gravel"
       }
     },
@@ -13879,23 +13764,24 @@
     {
       "type": "way",
       "id": 174652451,
-      "timestamp": "2019-07-26T06:12:41Z",
-      "version": 6,
-      "changeset": 72670783,
-      "user": "solitone",
-      "uid": 584192,
+      "timestamp": "2021-12-29T17:10:57Z",
+      "version": 7,
+      "changeset": 115530012,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1838130566, 1483300006],
       "geometry": [
         {"lat": 44.8933044, "lon": 7.050575},
         {"lat": 44.8930574, "lon": 7.0504903},
         {"lat": 44.8928864, "lon": 7.0504447},
-        {"lat": 44.8913131, "lon": 7.049168},
+        {"lat": 44.8918338, "lon": 7.0495972},
         {"lat": 44.8912542, "lon": 7.049156}
       ],
       "tags": {
         "description": "Track Prali Villa - Ghigo",
         "highway": "unclassified",
         "maxspeed": "20",
+        "sac_scale": "hiking",
         "surface": "dirt"
       }
     },
@@ -15680,48 +15566,36 @@
     {
       "type": "way",
       "id": 174750687,
-      "timestamp": "2012-08-07T08:33:52Z",
-      "version": 2,
-      "changeset": 12642024,
-      "user": "Sergej Popov",
-      "uid": 36184,
+      "timestamp": "2021-12-29T17:10:57Z",
+      "version": 3,
+      "changeset": 115530012,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1838130489, 1838130566],
       "geometry": [
-        {"lat": 44.8934147, "lon": 7.0504207},
+        {"lat": 44.893466, "lon": 7.0502879},
         {"lat": 44.8933044, "lon": 7.050575}
       ],
-      "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "track",
-        "motor_vehicle": "no",
-        "name": "GTA",
-        "surface": "unpaved"
-      }
+      "tags": {"highway": "track", "motor_vehicle": "no", "surface": "unpaved"}
     },
     {
       "type": "way",
       "id": 174750690,
-      "timestamp": "2013-08-03T08:29:48Z",
-      "version": 3,
-      "changeset": 17201093,
-      "user": "mcheckimport",
-      "uid": 893327,
+      "timestamp": "2021-12-29T17:10:57Z",
+      "version": 4,
+      "changeset": 115530012,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1838130576, 1838130489],
       "geometry": [
-        {"lat": 44.8934679, "lon": 7.0500299},
-        {"lat": 44.8934147, "lon": 7.0504207}
+        {"lat": 44.8934955, "lon": 7.0501654},
+        {"lat": 44.893466, "lon": 7.0502879}
       ],
       "tags": {
-        "access": "yes",
-        "bicycle": "yes",
         "bridge": "yes",
-        "foot": "yes",
         "highway": "track",
         "layer": "1",
         "motor_vehicle": "no",
-        "name": "GTA",
         "surface": "cobblestone"
       }
     },
@@ -20453,11 +20327,11 @@
     {
       "type": "way",
       "id": 188112231,
-      "timestamp": "2018-03-04T10:03:20Z",
-      "version": 10,
-      "changeset": 56866492,
-      "user": "Martj9",
-      "uid": 675302,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 12,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1842851941, 1678690478],
       "geometry": [
         {"lat": 44.9620826, "lon": 7.0431929},
@@ -20497,15 +20371,14 @@
         {"lat": 44.9648907, "lon": 7.0329293},
         {"lat": 44.9648463, "lon": 7.0327936},
         {"lat": 44.9648248, "lon": 7.0326682},
-        {"lat": 44.9648056, "lon": 7.0324164},
+        {"lat": 44.9648132, "lon": 7.0324191},
         {"lat": 44.9648236, "lon": 7.0323441}
       ],
       "tags": {
-        "cycleway": "no",
         "highway": "unclassified",
         "incline": "10%",
         "maxspeed": "50",
-        "ref": "SP170",
+        "sac_scale": "hiking",
         "surface": "asphalt"
       }
     },
@@ -34865,11 +34738,11 @@
     {
       "type": "way",
       "id": 322213280,
-      "timestamp": "2017-05-29T18:28:58Z",
-      "version": 5,
-      "changeset": 49081624,
-      "user": "maxiclimb",
-      "uid": 1036998,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 6,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1774701434, 1774702650],
       "geometry": [
         {"lat": 44.9230042, "lon": 7.0584164},
@@ -34920,17 +34793,11 @@
         {"lat": 44.9272862, "lon": 7.0592478}
       ],
       "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "path",
         "incline": "up",
-        "motor_vehicle": "no",
         "mtb:scale": "1",
-        "name": "200",
         "sac_scale": "mountain_hiking",
         "smoothness": "horrible",
-        "source": "PCN",
         "surface": "ground",
         "trail_visibility": "good"
       }
@@ -39211,22 +39078,21 @@
     {
       "type": "way",
       "id": 392516230,
-      "timestamp": "2018-03-04T10:03:20Z",
-      "version": 2,
-      "changeset": 56866492,
-      "user": "Martj9",
-      "uid": 675302,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 4,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1678690478, 1678690482],
       "geometry": [
         {"lat": 44.9648236, "lon": 7.0323441},
-        {"lat": 44.9648698, "lon": 7.0322247}
+        {"lat": 44.9648802, "lon": 7.0322502}
       ],
       "tags": {
-        "cycleway": "no",
         "highway": "unclassified",
         "incline": "10%",
         "maxspeed": "50",
-        "ref": "SP170",
+        "sac_scale": "hiking",
         "surface": "asphalt"
       }
     },
@@ -42386,11 +42252,11 @@
     {
       "type": "way",
       "id": 495511178,
-      "timestamp": "2019-03-24T17:32:53Z",
-      "version": 2,
-      "changeset": 68478657,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 3,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1136380907, 1136380906],
       "geometry": [
         {"lat": 44.9397319, "lon": 7.0519676},
@@ -42398,107 +42264,98 @@
         {"lat": 44.939696, "lon": 7.0515437}
       ],
       "tags": {
-        "access": "yes",
-        "foot": "yes",
         "highway": "tertiary",
         "maxspeed": "50",
-        "ref": "SP170 01",
+        "sac_scale": "hiking",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 495511179,
-      "timestamp": "2017-05-23T17:12:33Z",
-      "version": 1,
-      "changeset": 48922819,
-      "user": "maxiclimb",
-      "uid": 1036998,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 2,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [4872530366, 1136380907],
       "geometry": [
         {"lat": 44.9399303, "lon": 7.0521545},
         {"lat": 44.9397319, "lon": 7.0519676}
       ],
       "tags": {
-        "access": "yes",
         "bridge": "yes",
-        "foot": "yes",
         "highway": "tertiary",
         "layer": "1",
         "maxspeed": "50",
         "ref": "SP170 01",
+        "sac_scale": "hiking",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 495637214,
-      "timestamp": "2017-05-24T09:03:51Z",
-      "version": 1,
-      "changeset": 48940997,
-      "user": "maxiclimb",
-      "uid": 1036998,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 2,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [4873744089, 4873744083],
       "geometry": [
-        {"lat": 44.9168022, "lon": 7.0453074},
-        {"lat": 44.916692, "lon": 7.0453182}
+        {"lat": 44.9167807, "lon": 7.0454041},
+        {"lat": 44.9167309, "lon": 7.0454282}
       ],
       "tags": {
-        "access": "yes",
-        "bicycle": "yes",
         "bridge": "yes",
-        "foot": "yes",
         "highway": "track",
         "layer": "1",
-        "motor_vehicle": "no",
-        "name": "200",
-        "source": "PCN",
+        "sac_scale": "hiking",
         "surface": "unpaved"
       }
     },
     {
       "type": "way",
       "id": 495637215,
-      "timestamp": "2017-05-24T09:03:51Z",
-      "version": 1,
-      "changeset": 48940997,
-      "user": "maxiclimb",
-      "uid": 1036998,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 2,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1478880684, 4873744089],
       "geometry": [
-        {"lat": 44.9182308, "lon": 7.0496613},
-        {"lat": 44.9178889, "lon": 7.0489419},
+        {"lat": 44.9182563, "lon": 7.0496423},
+        {"lat": 44.9182271, "lon": 7.0496224},
+        {"lat": 44.9181909, "lon": 7.0494859},
+        {"lat": 44.9179077, "lon": 7.0489457},
         {"lat": 44.9177234, "lon": 7.0484389},
         {"lat": 44.9175457, "lon": 7.0481865},
-        {"lat": 44.9174366, "lon": 7.04748},
+        {"lat": 44.9174643, "lon": 7.0477581},
+        {"lat": 44.9174191, "lon": 7.0474591},
         {"lat": 44.9173473, "lon": 7.0471289},
         {"lat": 44.9171782, "lon": 7.0467426},
         {"lat": 44.9170814, "lon": 7.0464045},
+        {"lat": 44.9169969, "lon": 7.0462123},
         {"lat": 44.9169864, "lon": 7.0461389},
+        {"lat": 44.9169875, "lon": 7.0460587},
         {"lat": 44.9170054, "lon": 7.0459726},
         {"lat": 44.917013, "lon": 7.0458493},
-        {"lat": 44.9169541, "lon": 7.0457044},
-        {"lat": 44.9168022, "lon": 7.0453074}
+        {"lat": 44.916985, "lon": 7.0456949},
+        {"lat": 44.9169405, "lon": 7.0455087},
+        {"lat": 44.9168666, "lon": 7.0454139},
+        {"lat": 44.9168156, "lon": 7.0453911},
+        {"lat": 44.9167807, "lon": 7.0454041}
       ],
-      "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "track",
-        "motor_vehicle": "no",
-        "name": "200",
-        "source": "PCN",
-        "surface": "unpaved"
-      }
+      "tags": {"highway": "track", "sac_scale": "hiking", "surface": "unpaved"}
     },
     {
       "type": "way",
       "id": 496183386,
-      "timestamp": "2017-05-26T18:21:40Z",
-      "version": 1,
-      "changeset": 49009104,
-      "user": "maxiclimb",
-      "uid": 1036998,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 2,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1774702887, 4879014089],
       "geometry": [
         {"lat": 44.9290804, "lon": 7.0604003},
@@ -42507,14 +42364,9 @@
         {"lat": 44.9298417, "lon": 7.060706}
       ],
       "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "path",
         "incline": "down",
-        "motor_vehicle": "no",
         "mtb:scale": "1",
-        "name": "200",
         "sac_scale": "mountain_hiking",
         "smoothness": "very_horrible",
         "surface": "ground",
@@ -42524,11 +42376,11 @@
     {
       "type": "way",
       "id": 496183387,
-      "timestamp": "2017-05-26T18:21:40Z",
-      "version": 1,
-      "changeset": 49009104,
-      "user": "maxiclimb",
-      "uid": 1036998,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 2,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1838130492, 1136380538],
       "geometry": [
         {"lat": 44.9333455, "lon": 7.0647579},
@@ -42544,14 +42396,9 @@
         {"lat": 44.9353379, "lon": 7.0673087}
       ],
       "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "path",
         "incline": "down",
-        "motor_vehicle": "no",
         "mtb:scale": "1",
-        "name": "200",
         "sac_scale": "mountain_hiking",
         "smoothness": "very_horrible",
         "surface": "ground",
@@ -42561,11 +42408,11 @@
     {
       "type": "way",
       "id": 496183388,
-      "timestamp": "2017-05-26T18:21:40Z",
-      "version": 1,
-      "changeset": 49009104,
-      "user": "maxiclimb",
-      "uid": 1036998,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 2,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1774701209, 1774701434],
       "geometry": [
         {"lat": 44.9212, "lon": 7.0555629},
@@ -42615,17 +42462,11 @@
         {"lat": 44.9230042, "lon": 7.0584164}
       ],
       "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "path",
         "incline": "up",
-        "motor_vehicle": "no",
         "mtb:scale": "1",
-        "name": "200",
         "sac_scale": "mountain_hiking",
         "smoothness": "very_bad",
-        "source": "PCN",
         "surface": "ground",
         "trail_visibility": "good"
       }
@@ -42662,11 +42503,11 @@
     {
       "type": "way",
       "id": 496735516,
-      "timestamp": "2017-05-29T18:28:58Z",
-      "version": 1,
-      "changeset": 49081624,
-      "user": "maxiclimb",
-      "uid": 1036998,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 2,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1774702650, 1774702887],
       "geometry": [
         {"lat": 44.9272862, "lon": 7.0592478},
@@ -42694,17 +42535,11 @@
         {"lat": 44.9290804, "lon": 7.0604003}
       ],
       "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "path",
         "incline": "up",
-        "motor_vehicle": "no",
         "mtb:scale": "2",
-        "name": "200",
         "sac_scale": "mountain_hiking",
         "smoothness": "horrible",
-        "source": "PCN",
         "surface": "ground",
         "trail_visibility": "good"
       }
@@ -44798,11 +44633,11 @@
     {
       "type": "way",
       "id": 52666419,
-      "timestamp": "2021-04-30T10:03:10Z",
-      "version": 13,
-      "changeset": 103902856,
-      "user": "maxiclimb",
-      "uid": 1036998,
+      "timestamp": "2021-12-29T17:10:57Z",
+      "version": 14,
+      "changeset": 115530012,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1480082663, 1845407556],
       "geometry": [
         {"lat": 44.8892748, "lon": 7.0479018},
@@ -44823,7 +44658,12 @@
         {"lat": 44.8849604, "lon": 7.0457985},
         {"lat": 44.8848359, "lon": 7.04572}
       ],
-      "tags": {"highway": "tertiary", "ref": "SP169", "surface": "asphalt"}
+      "tags": {
+        "highway": "tertiary",
+        "ref": "SP169",
+        "sac_scale": "hiking",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -55833,11 +55673,11 @@
     {
       "type": "way",
       "id": 679005536,
-      "timestamp": "2019-03-24T10:02:07Z",
-      "version": 1,
-      "changeset": 68465999,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 2,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [4872677682, 4872677647],
       "geometry": [
         {"lat": 44.9157689, "lon": 7.0516348},
@@ -55864,25 +55704,16 @@
         {"lat": 44.9148705, "lon": 7.0538476},
         {"lat": 44.9147689, "lon": 7.0536775}
       ],
-      "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "track",
-        "motor_vehicle": "no",
-        "name": "200",
-        "source": "PCN",
-        "surface": "unpaved"
-      }
+      "tags": {"highway": "track", "surface": "unpaved"}
     },
     {
       "type": "way",
       "id": 679005540,
-      "timestamp": "2019-03-24T10:02:08Z",
-      "version": 1,
-      "changeset": 68465999,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 2,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [4872677647, 1838130501],
       "geometry": [
         {"lat": 44.9147689, "lon": 7.0536775},
@@ -55892,25 +55723,16 @@
         {"lat": 44.9144624, "lon": 7.053829},
         {"lat": 44.9145027, "lon": 7.0545779}
       ],
-      "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "track",
-        "motor_vehicle": "no",
-        "name": "200",
-        "source": "PCN",
-        "surface": "unpaved"
-      }
+      "tags": {"highway": "track", "surface": "unpaved"}
     },
     {
       "type": "way",
       "id": 679005544,
-      "timestamp": "2019-03-24T10:02:08Z",
-      "version": 1,
-      "changeset": 68465999,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 2,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1838130501, 6357757964],
       "geometry": [
         {"lat": 44.9145027, "lon": 7.0545779},
@@ -55921,25 +55743,16 @@
         {"lat": 44.9143728, "lon": 7.0551792},
         {"lat": 44.9142628, "lon": 7.0549923}
       ],
-      "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "track",
-        "motor_vehicle": "no",
-        "name": "200",
-        "source": "PCN",
-        "surface": "unpaved"
-      }
+      "tags": {"highway": "track", "surface": "unpaved"}
     },
     {
       "type": "way",
       "id": 679005547,
-      "timestamp": "2019-03-24T10:02:08Z",
-      "version": 1,
-      "changeset": 68465999,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 2,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [6357757964, 4872677662],
       "geometry": [
         {"lat": 44.9142628, "lon": 7.0549923},
@@ -55951,25 +55764,16 @@
         {"lat": 44.9137156, "lon": 7.0540997},
         {"lat": 44.9137004, "lon": 7.0550358}
       ],
-      "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "track",
-        "motor_vehicle": "no",
-        "name": "200",
-        "source": "PCN",
-        "surface": "unpaved"
-      }
+      "tags": {"highway": "track", "surface": "unpaved"}
     },
     {
       "type": "way",
       "id": 679005551,
-      "timestamp": "2019-03-24T10:02:08Z",
-      "version": 1,
-      "changeset": 68465999,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 2,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [4872677662, 1838130491],
       "geometry": [
         {"lat": 44.9137004, "lon": 7.0550358},
@@ -55981,16 +55785,7 @@
         {"lat": 44.9129984, "lon": 7.0540624},
         {"lat": 44.9128855, "lon": 7.0537262}
       ],
-      "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "track",
-        "motor_vehicle": "no",
-        "name": "200",
-        "source": "PCN",
-        "surface": "unpaved"
-      }
+      "tags": {"highway": "track", "sac_scale": "hiking", "surface": "unpaved"}
     },
     {
       "type": "way",
@@ -56025,11 +55820,11 @@
     {
       "type": "way",
       "id": 679070958,
-      "timestamp": "2019-03-24T17:32:51Z",
-      "version": 1,
-      "changeset": 68478657,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 2,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [5912627455, 4872530366],
       "geometry": [
         {"lat": 44.9434475, "lon": 7.0587211},
@@ -56059,46 +55854,45 @@
         {"lat": 44.9399303, "lon": 7.0521545}
       ],
       "tags": {
-        "access": "yes",
-        "foot": "yes",
         "highway": "tertiary",
         "maxspeed": "50",
         "ref": "SP170 01",
+        "sac_scale": "hiking",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 679070961,
-      "timestamp": "2019-03-24T17:32:51Z",
-      "version": 1,
-      "changeset": 68478657,
-      "user": "AlfredoSP",
-      "uid": 2175620,
-      "nodes": [6358761789, 2729685725],
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 2,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
+      "nodes": [1838130451, 2729685725],
       "geometry": [
+        {"lat": 44.9364297, "lon": 7.0546353},
+        {"lat": 44.9364382, "lon": 7.0547426},
+        {"lat": 44.9364518, "lon": 7.054984},
+        {"lat": 44.9363531, "lon": 7.054941},
+        {"lat": 44.9362714, "lon": 7.0550027},
+        {"lat": 44.9363664, "lon": 7.0551562},
+        {"lat": 44.9364025, "lon": 7.0553005},
+        {"lat": 44.9364651, "lon": 7.0554614},
         {"lat": 44.9366015, "lon": 7.0558271},
         {"lat": 44.9366717, "lon": 7.056047},
         {"lat": 44.9366976, "lon": 7.0561683}
       ],
-      "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "path",
-        "motor_vehicle": "no",
-        "name": "200",
-        "surface": "unpaved"
-      }
+      "tags": {"highway": "path", "sac_scale": "hiking", "surface": "unpaved"}
     },
     {
       "type": "way",
       "id": 679070962,
-      "timestamp": "2019-03-24T17:32:51Z",
-      "version": 1,
-      "changeset": 68478657,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 2,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [6358761788, 1838130440],
       "geometry": [
         {"lat": 44.9372041, "lon": 7.056658},
@@ -56110,15 +55904,7 @@
         {"lat": 44.9364366, "lon": 7.0578056},
         {"lat": 44.9365906, "lon": 7.0579551}
       ],
-      "tags": {
-        "access": "yes",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "path",
-        "motor_vehicle": "no",
-        "name": "200",
-        "surface": "unpaved"
-      }
+      "tags": {"highway": "path", "sac_scale": "hiking", "surface": "unpaved"}
     },
     {
       "type": "way",
@@ -67531,11 +67317,11 @@
     {
       "type": "way",
       "id": 98231636,
-      "timestamp": "2017-05-23T18:38:23Z",
-      "version": 11,
-      "changeset": 48925116,
-      "user": "maxiclimb",
-      "uid": 1036998,
+      "timestamp": "2021-12-29T17:40:18Z",
+      "version": 12,
+      "changeset": 115531244,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1136380906, 1838130533],
       "geometry": [
         {"lat": 44.939696, "lon": 7.0515437},
@@ -67565,12 +67351,9 @@
         {"lat": 44.938309, "lon": 7.0540386}
       ],
       "tags": {
-        "access": "yes",
-        "foot": "yes",
         "highway": "track",
         "maxspeed": "20",
-        "motor_vehicle": "designated",
-        "name": "238",
+        "sac_scale": "hiking",
         "surface": "gravel",
         "tracktype": "grade2"
       }
