@@ -1,20 +1,20 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-12-28T23:59:59Z",
-    "timestamp_osm_base": "2021-12-29T03:51:56Z",
+    "timestamp_osm_date": "2021-12-29T23:59:59Z",
+    "timestamp_osm_base": "2021-12-30T03:51:41Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
     {
       "type": "node",
       "id": 298024011,
-      "lat": 11.2430534,
-      "lon": -74.2046826,
-      "timestamp": "2021-11-03T14:00:36Z",
-      "version": 17,
-      "changeset": 113334390,
-      "user": "borovac",
-      "uid": 10222347,
+      "lat": 11.2320988,
+      "lon": -74.1950883,
+      "timestamp": "2021-12-29T05:32:08Z",
+      "version": 18,
+      "changeset": 115499649,
+      "user": "CafetoMH",
+      "uid": 6893461,
       "tags": {
         "comment": "convertido a OSM usando http://GaleNUx.com",
         "divipola": "47001",
@@ -24,6 +24,7 @@
         "name:uk": "Санта-Марта",
         "note": "POBLACION, CAPITAL DE DEPARTAMENTO, c32610dbd3acfc311cf14aa3c407a233",
         "place": "city",
+        "population": "500000",
         "ref:LOCODE": "COSMR",
         "source": "OCHA Colombia 2010",
         "wikidata": "Q209016",
@@ -33,17 +34,20 @@
     {
       "type": "node",
       "id": 334297175,
-      "lat": 11.268184,
-      "lon": -74.1908151,
-      "timestamp": "2012-01-21T06:55:45Z",
-      "version": 5,
-      "changeset": 10452923,
-      "user": "H_S",
-      "uid": 154240,
+      "lat": 11.2683918,
+      "lon": -74.189423,
+      "timestamp": "2021-12-29T05:40:02Z",
+      "version": 6,
+      "changeset": 115499873,
+      "user": "CafetoMH",
+      "uid": 6893461,
       "tags": {
-        "is_in": "Colombia; Magdalena ;",
+        "is_in": "Colombia;Magdalena;",
         "name": "Taganga",
-        "place": "town"
+        "place": "village",
+        "population": "3000",
+        "wikidata": "Q2387771",
+        "wikipedia": "es:Taganga"
       }
     },
     {
@@ -2326,6 +2330,26 @@
     },
     {
       "type": "way",
+      "id": 592691364,
+      "timestamp": "2021-12-29T05:40:02Z",
+      "version": 6,
+      "changeset": 115499873,
+      "user": "CafetoMH",
+      "uid": 6893461,
+      "center": {
+        "lat": 11.2681429,
+        "lon": -74.1881346
+      },
+      "nodes": [],
+      "tags": {
+        "name": "Taganga",
+        "place": "village",
+        "wikidata": "Q2387771",
+        "wikipedia": "en:Taganga"
+      }
+    },
+    {
+      "type": "way",
       "id": 603431099,
       "timestamp": "2018-06-29T13:24:00Z",
       "version": 1,
@@ -2633,6 +2657,24 @@
         "building": "yes",
         "name": "Justo & Bueno",
         "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016623703,
+      "timestamp": "2021-12-29T17:12:58Z",
+      "version": 1,
+      "changeset": 115530093,
+      "user": "AngocA",
+      "uid": 89128,
+      "center": {
+        "lat": 11.2683311,
+        "lon": -73.8565832
+      },
+      "nodes": [],
+      "tags": {
+        "name": "Hospaje Edén",
+        "tourism": "camp_site"
       }
     }
   ]
