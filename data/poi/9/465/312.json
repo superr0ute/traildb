@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-12-29T23:59:59Z",
-    "timestamp_osm_base": "2021-12-30T06:02:24Z",
+    "timestamp_osm_date": "2021-12-30T23:59:59Z",
+    "timestamp_osm_base": "2021-12-31T06:02:57Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -371,22 +371,6 @@
         "name": "Smoko",
         "place": "hamlet",
         "source": "survey"
-      }
-    },
-    {
-      "type": "node",
-      "id": 610536908,
-      "lat": -36.7740298,
-      "lon": 147.033085,
-      "timestamp": "2010-01-10T00:20:39Z",
-      "version": 3,
-      "changeset": 3583583,
-      "user": "Yoda",
-      "uid": 32810,
-      "tags": {
-        "addr:postcode": "3741",
-        "name": "Freeburgh Cabins and Caravan Park",
-        "tourism": "camp_site"
       }
     },
     {
@@ -1209,9 +1193,9 @@
       "user": "TreeTracks",
       "uid": 10826248,
       "tags": {
+        "tourism": "camp_site",
         "name": "Beveridge Station Camping Area",
-        "operator": "Parks Victoria",
-        "tourism": "camp_site"
+        "operator": "Parks Victoria"
       }
     },
     {
@@ -2182,6 +2166,25 @@
         "operator": "Mount Hotham Alpine Resort Management Board",
         "shelter_type": "wilder",
         "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016755529,
+      "timestamp": "2021-12-30T03:08:16Z",
+      "version": 1,
+      "changeset": 115544872,
+      "user": "Velo Mapper",
+      "uid": 1704952,
+      "center": {
+        "lat": -36.7737508,
+        "lon": 147.0333237
+      },
+      "nodes": [],
+      "tags": {
+        "addr:postcode": "3741",
+        "name": "Freeburgh Cabins and Caravan Park",
+        "tourism": "camp_site"
       }
     }
   ]

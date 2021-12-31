@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-12-29T23:59:59Z",
-    "timestamp_osm_base": "2021-12-30T05:03:40Z",
+    "timestamp_osm_date": "2021-12-30T23:59:59Z",
+    "timestamp_osm_base": "2021-12-31T05:03:08Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -10161,11 +10161,11 @@
       "id": 370040722,
       "lat": 48.2464909,
       "lon": 16.4627999,
-      "timestamp": "2021-10-12T10:31:53Z",
-      "version": 10,
-      "changeset": 112408054,
-      "user": "sad0ne",
-      "uid": 14271876,
+      "timestamp": "2021-12-30T16:34:21Z",
+      "version": 11,
+      "changeset": 115573305,
+      "user": "z3ttacht",
+      "uid": 2756597,
       "tags": {
         "addr:city": "Wien",
         "addr:country": "AT",
@@ -10175,6 +10175,7 @@
         "brand": "Eurospar",
         "brand:wikidata": "Q12309283",
         "brand:wikipedia": "da:Eurospar",
+        "level": "0",
         "name": "Eurospar",
         "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00",
         "shop": "supermarket",
@@ -18428,11 +18429,11 @@
       "id": 941392236,
       "lat": 48.2443648,
       "lon": 16.4610505,
-      "timestamp": "2021-12-23T20:27:48Z",
-      "version": 8,
-      "changeset": 115312113,
-      "user": "Linie29",
-      "uid": 1864709,
+      "timestamp": "2021-12-30T16:34:03Z",
+      "version": 9,
+      "changeset": 115573305,
+      "user": "z3ttacht",
+      "uid": 2756597,
       "tags": {
         "addr:city": "Wien",
         "addr:country": "AT",
@@ -18444,6 +18445,7 @@
         "brand:wikidata": "Q48883773",
         "brand:wikipedia": "de:Denn’s Biomarkt",
         "fair_trade": "yes",
+        "level": "0",
         "name": "denn's Biomarkt",
         "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-18:00",
         "organic": "only",
@@ -25307,20 +25309,6 @@
       "tags": {
         "name": "MyMarket",
         "shop": "convenience"
-      }
-    },
-    {
-      "type": "node",
-      "id": 1467025144,
-      "lat": 48.1920346,
-      "lon": 16.3261952,
-      "timestamp": "2015-02-24T15:18:06Z",
-      "version": 2,
-      "changeset": 29069272,
-      "user": "ecdos",
-      "uid": 762684,
-      "tags": {
-        "amenity": "drinking_water"
       }
     },
     {
@@ -37261,13 +37249,14 @@
       "id": 3038952563,
       "lat": 48.1888634,
       "lon": 16.318877,
-      "timestamp": "2014-08-24T09:52:23Z",
-      "version": 1,
-      "changeset": 24974258,
-      "user": "ecdos",
-      "uid": 762684,
+      "timestamp": "2021-12-30T11:26:50Z",
+      "version": 2,
+      "changeset": 115560164,
+      "user": "totoroot",
+      "uid": 13689061,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "check_date": "2021-12-30"
       }
     },
     {
@@ -37275,13 +37264,14 @@
       "id": 3038952564,
       "lat": 48.1889173,
       "lon": 16.3183639,
-      "timestamp": "2014-08-24T09:52:23Z",
-      "version": 1,
-      "changeset": 24974258,
-      "user": "ecdos",
-      "uid": 762684,
+      "timestamp": "2021-12-30T11:29:27Z",
+      "version": 2,
+      "changeset": 115560164,
+      "user": "totoroot",
+      "uid": 13689061,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "check_date": "2021-12-30"
       }
     },
     {
@@ -59567,6 +59557,20 @@
       "changeset": 115434479,
       "user": "emergency99",
       "uid": 1832939,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9380228946,
+      "lat": 48.1338637,
+      "lon": 16.2858756,
+      "timestamp": "2021-12-30T20:22:37Z",
+      "version": 1,
+      "changeset": 115578130,
+      "user": "eumiro",
+      "uid": 29717,
       "tags": {
         "amenity": "drinking_water"
       }
@@ -87680,6 +87684,24 @@
       "tags": {
         "amenity": "shelter",
         "building": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016952211,
+      "timestamp": "2021-12-30T18:17:15Z",
+      "version": 1,
+      "changeset": 115577338,
+      "user": "emergency99",
+      "uid": 1832939,
+      "center": {
+        "lat": 48.2123216,
+        "lon": 16.3605615
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
         "shelter_type": "public_transport"
       }
     }
