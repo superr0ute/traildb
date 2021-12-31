@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-27T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2021-12-30T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1287,11 +1287,11 @@
     {
       "type": "relation",
       "id": 9579941,
-      "timestamp": "2019-12-28T09:41:43Z",
-      "version": 5,
-      "changeset": 78950900,
-      "user": "ralley",
-      "uid": 670820,
+      "timestamp": "2021-12-30T07:05:38Z",
+      "version": 7,
+      "changeset": 115549850,
+      "user": "StenSoft",
+      "uid": 255936,
       "members": [
         {"type": "way", "ref": 116816580, "role": ""},
         {"type": "way", "ref": 373511475, "role": ""},
@@ -1316,7 +1316,9 @@
         {"type": "way", "ref": 759117340, "role": ""},
         {"type": "way", "ref": 165294195, "role": ""},
         {"type": "way", "ref": 29280794, "role": ""},
-        {"type": "way", "ref": 23221389, "role": ""}
+        {"type": "way", "ref": 1016791893, "role": ""},
+        {"type": "way", "ref": 23221389, "role": ""},
+        {"type": "way", "ref": 1016786881, "role": ""}
       ],
       "tags": {
         "description": "Te Araroa’s inaugural plaque revealed on 7 February 1995: a local volcanic stone embedded with lines from A R D Fairburn’s poem ‘To a Friend in the Wilderness’ I could be happy, in blue and fortunate weather, Roaming the country between you and the sun.",
@@ -1336,15 +1338,18 @@
     {
       "type": "relation",
       "id": 9579943,
-      "timestamp": "2021-11-21T04:42:12Z",
-      "version": 9,
-      "changeset": 114046470,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-12-30T07:05:38Z",
+      "version": 11,
+      "changeset": 115549850,
+      "user": "StenSoft",
+      "uid": 255936,
       "members": [
-        {"type": "way", "ref": 23221392, "role": ""},
-        {"type": "way", "ref": 33998062, "role": ""},
         {"type": "way", "ref": 818608898, "role": ""},
+        {"type": "way", "ref": 33998062, "role": ""},
+        {"type": "way", "ref": 1016791894, "role": ""},
+        {"type": "way", "ref": 1016786880, "role": ""},
+        {"type": "way", "ref": 1016786882, "role": ""},
+        {"type": "way", "ref": 23221392, "role": ""},
         {"type": "way", "ref": 393904108, "role": ""},
         {"type": "way", "ref": 393904113, "role": ""},
         {"type": "way", "ref": 393904099, "role": ""},
@@ -1388,21 +1393,24 @@
     {
       "type": "relation",
       "id": 9579999,
-      "timestamp": "2021-09-25T04:46:09Z",
-      "version": 7,
-      "changeset": 111672835,
-      "user": "kylenz_linz",
-      "uid": 8389777,
+      "timestamp": "2021-12-30T07:02:40Z",
+      "version": 9,
+      "changeset": 115549789,
+      "user": "StenSoft",
+      "uid": 255936,
       "members": [
         {"type": "way", "ref": 23220588, "role": ""},
         {"type": "way", "ref": 23220991, "role": ""},
+        {"type": "way", "ref": 1016785546, "role": ""},
         {"type": "way", "ref": 138371891, "role": ""},
+        {"type": "way", "ref": 760424599, "role": ""},
+        {"type": "way", "ref": 1016791575, "role": ""},
+        {"type": "way", "ref": 1016791573, "role": ""},
         {"type": "way", "ref": 138375329, "role": ""},
         {"type": "way", "ref": 218479467, "role": ""},
         {"type": "way", "ref": 986838179, "role": ""},
         {"type": "way", "ref": 760424600, "role": ""},
         {"type": "way", "ref": 986838178, "role": ""},
-        {"type": "way", "ref": 760424599, "role": ""},
         {"type": "way", "ref": 982361410, "role": ""},
         {"type": "way", "ref": 982361409, "role": ""},
         {"type": "way", "ref": 243913446, "role": ""},
@@ -4471,18 +4479,20 @@
     {
       "type": "way",
       "id": 1004827382,
-      "timestamp": "2021-11-21T04:42:12Z",
-      "version": 1,
-      "changeset": 114046470,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-12-30T06:42:14Z",
+      "version": 3,
+      "changeset": 115549292,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [9271034751, 251171863],
       "geometry": [
         {"lat": -35.3127256, "lon": 174.1203573},
-        {"lat": -35.3125998, "lon": 174.1205002}
+        {"lat": -35.3126351, "lon": 174.1204422},
+        {"lat": -35.3125971, "lon": 174.1204969}
       ],
       "tags": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Beechey Street",
         "surface": "asphalt"
       }
@@ -5451,6 +5461,189 @@
     },
     {
       "type": "way",
+      "id": 1016785546,
+      "timestamp": "2021-12-30T06:42:14Z",
+      "version": 1,
+      "changeset": 115549292,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [9378316391, 251171288],
+      "geometry": [
+        {"lat": -35.3036347, "lon": 174.1253537},
+        {"lat": -35.3036327, "lon": 174.1251004},
+        {"lat": -35.3036166, "lon": 174.1246952},
+        {"lat": -35.3036152, "lon": 174.1244683},
+        {"lat": -35.3036224, "lon": 174.124231},
+        {"lat": -35.3036452, "lon": 174.1239994},
+        {"lat": -35.3038358, "lon": 174.1226157},
+        {"lat": -35.3038705, "lon": 174.1223999},
+        {"lat": -35.3039164, "lon": 174.1222123},
+        {"lat": -35.3039472, "lon": 174.1221241},
+        {"lat": -35.3039832, "lon": 174.1220485}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "maxspeed": "70",
+        "name": "Aucks Road",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016786880,
+      "timestamp": "2021-12-30T07:05:38Z",
+      "version": 2,
+      "changeset": 115549850,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [8918653229, 251192798],
+      "geometry": [
+        {"lat": -35.2728868, "lon": 174.079653},
+        {"lat": -35.2727345, "lon": 174.0796433}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "maxspeed": "50",
+        "name": "Waitangi Bridge",
+        "priority": "backward",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016786881,
+      "timestamp": "2021-12-30T07:05:38Z",
+      "version": 2,
+      "changeset": 115549850,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [251192786, 8918653230],
+      "geometry": [
+        {"lat": -35.2711136, "lon": 174.0796645},
+        {"lat": -35.2709893, "lon": 174.0796726}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "maxspeed": "50",
+        "name": "Waitangi Bridge",
+        "priority": "forward",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016786882,
+      "timestamp": "2021-12-30T06:55:57Z",
+      "version": 1,
+      "changeset": 115549620,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [251192798, 8918653228],
+      "geometry": [
+        {"lat": -35.2727345, "lon": 174.0796433},
+        {"lat": -35.2719467, "lon": 174.0796469}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "tertiary",
+        "lanes": "1",
+        "layer": "1",
+        "maxspeed": "30",
+        "name": "Waitangi Bridge",
+        "priority": "backward",
+        "surface": "wood"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016791573,
+      "timestamp": "2021-12-30T07:02:40Z",
+      "version": 1,
+      "changeset": 115549789,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [251171247, 251171248],
+      "geometry": [
+        {"lat": -35.2871792, "lon": 174.1491268},
+        {"lat": -35.2872714, "lon": 174.149139},
+        {"lat": -35.2873636, "lon": 174.1491427}
+      ],
+      "tags": {
+        "destination:forward": "Opua Car Ferry",
+        "highway": "secondary",
+        "maxspeed:advisory": "45",
+        "name": "Aucks Road",
+        "surface": "paved",
+        "turn:lanes:backward": "none|right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016791575,
+      "timestamp": "2021-12-30T07:02:40Z",
+      "version": 1,
+      "changeset": 115549789,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [9378337357, 251171247],
+      "geometry": [
+        {"lat": -35.2872407, "lon": 174.1493387},
+        {"lat": -35.2872081, "lon": 174.1492652},
+        {"lat": -35.2871911, "lon": 174.1491999},
+        {"lat": -35.2871792, "lon": 174.1491268}
+      ],
+      "tags": {
+        "destination:backward": "Whangarei via Coast;Rawhiti",
+        "highway": "secondary",
+        "name": "Russell Whakapara Road",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016791893,
+      "timestamp": "2021-12-30T07:05:38Z",
+      "version": 1,
+      "changeset": 115549850,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [8918653230, 251192787],
+      "geometry": [
+        {"lat": -35.2709893, "lon": 174.0796726},
+        {"lat": -35.270634, "lon": 174.0796911}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Waitangi Bridge",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1016791894,
+      "timestamp": "2021-12-30T07:05:38Z",
+      "version": 1,
+      "changeset": 115549850,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [1768554379, 8918653229],
+      "geometry": [
+        {"lat": -35.2731393, "lon": 174.0797164},
+        {"lat": -35.2728868, "lon": 174.079653}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "Waitangi Bridge",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
       "id": 101919351,
       "timestamp": "2021-02-11T20:56:50Z",
       "version": 8,
@@ -5967,11 +6160,11 @@
     {
       "type": "way",
       "id": 106486372,
-      "timestamp": "2021-11-21T04:42:12Z",
-      "version": 6,
-      "changeset": 114046470,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-12-30T06:42:14Z",
+      "version": 7,
+      "changeset": 115549292,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [1224987326, 9271034751],
       "geometry": [
         {"lat": -35.3133212, "lon": 174.118036},
@@ -5989,6 +6182,7 @@
       ],
       "tags": {
         "highway": "residential",
+        "maxspeed": "50",
         "name": "Beechey Street",
         "oneway": "alternating",
         "surface": "asphalt"
@@ -6632,21 +6826,20 @@
     {
       "type": "way",
       "id": 116816580,
-      "timestamp": "2020-07-29T09:23:09Z",
-      "version": 12,
-      "changeset": 88668043,
-      "user": "aleksaJov",
-      "uid": 7436199,
-      "nodes": [1316086697, 1316090160],
+      "timestamp": "2021-12-30T01:50:01Z",
+      "version": 13,
+      "changeset": 115543855,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [1316091048, 1316090160],
       "geometry": [
-        {"lat": -35.2179135, "lon": 173.9630051},
-        {"lat": -35.2179388, "lon": 173.9628673},
+        {"lat": -35.2179489, "lon": 173.9628213},
         {"lat": -35.2179528, "lon": 173.9627304},
         {"lat": -35.2179564, "lon": 173.9626097},
         {"lat": -35.2179584, "lon": 173.9624402},
         {"lat": -35.2179525, "lon": 173.9623271},
         {"lat": -35.2179373, "lon": 173.9621725},
-        {"lat": -35.2178932, "lon": 173.9619792}
+        {"lat": -35.2179004, "lon": 173.9619544}
       ],
       "tags": {
         "highway": "tertiary",
@@ -7606,12 +7799,12 @@
     {
       "type": "way",
       "id": 138371891,
-      "timestamp": "2020-07-30T08:40:57Z",
-      "version": 8,
-      "changeset": 88720450,
-      "user": "aleksaJov",
-      "uid": 7436199,
-      "nodes": [1454724888, 251171288],
+      "timestamp": "2021-12-30T06:42:14Z",
+      "version": 10,
+      "changeset": 115549292,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [1454724888, 9378316391],
       "geometry": [
         {"lat": -35.2934499, "lon": 174.1381508},
         {"lat": -35.2937246, "lon": 174.1377191},
@@ -7634,7 +7827,7 @@
         {"lat": -35.2991253, "lon": 174.1345784},
         {"lat": -35.299271, "lon": 174.1345433},
         {"lat": -35.3006039, "lon": 174.1341487},
-        {"lat": -35.3010442, "lon": 174.1339797},
+        {"lat": -35.3010572, "lon": 174.1340489},
         {"lat": -35.3013966, "lon": 174.1339331},
         {"lat": -35.3016745, "lon": 174.1338314},
         {"lat": -35.3019053, "lon": 174.1337303},
@@ -7643,28 +7836,34 @@
         {"lat": -35.3040283, "lon": 174.1307817},
         {"lat": -35.3041996, "lon": 174.1300723},
         {"lat": -35.3042043, "lon": 174.1295843},
-        {"lat": -35.303666, "lon": 174.1274254},
-        {"lat": -35.3036181, "lon": 174.1271082},
-        {"lat": -35.3036098, "lon": 174.1245946},
-        {"lat": -35.3036247, "lon": 174.1239879},
-        {"lat": -35.3038315, "lon": 174.1225706},
-        {"lat": -35.3039078, "lon": 174.1222333},
-        {"lat": -35.3039849, "lon": 174.1219678}
+        {"lat": -35.3037579, "lon": 174.1277276},
+        {"lat": -35.3037045, "lon": 174.1274254},
+        {"lat": -35.3036775, "lon": 174.1272029},
+        {"lat": -35.3036532, "lon": 174.1269531},
+        {"lat": -35.3036403, "lon": 174.1266065},
+        {"lat": -35.3036334, "lon": 174.1260775},
+        {"lat": -35.3036351, "lon": 174.125512},
+        {"lat": -35.3036347, "lon": 174.1253537}
       ],
-      "tags": {"highway": "secondary", "name": "Aucks Road", "surface": "paved"}
+      "tags": {
+        "highway": "secondary",
+        "maxspeed": "100",
+        "name": "Aucks Road",
+        "surface": "paved"
+      }
     },
     {
       "type": "way",
       "id": 138375329,
-      "timestamp": "2020-07-30T08:40:57Z",
-      "version": 7,
-      "changeset": 88720450,
-      "user": "aleksaJov",
-      "uid": 7436199,
-      "nodes": [251171247, 1454724888],
+      "timestamp": "2021-12-30T07:02:40Z",
+      "version": 8,
+      "changeset": 115549789,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [251171248, 1454724888],
       "geometry": [
-        {"lat": -35.287177, "lon": 174.1491617},
         {"lat": -35.2873636, "lon": 174.1491427},
+        {"lat": -35.2875496, "lon": 174.1491124},
         {"lat": -35.2881458, "lon": 174.148982},
         {"lat": -35.2884938, "lon": 174.1488365},
         {"lat": -35.2887948, "lon": 174.1486484},
@@ -14938,11 +15137,11 @@
     {
       "type": "way",
       "id": 165294195,
-      "timestamp": "2021-01-28T07:35:49Z",
-      "version": 7,
-      "changeset": 98275948,
-      "user": "markbegbie",
-      "uid": 339912,
+      "timestamp": "2021-12-30T06:55:57Z",
+      "version": 8,
+      "changeset": 115549620,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [1768554311, 321999064],
       "geometry": [
         {"lat": -35.2599434, "lon": 174.0697491},
@@ -14994,7 +15193,7 @@
         {"lat": -35.2620412, "lon": 174.0465507}
       ],
       "tags": {
-        "highway": "unclassified",
+        "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "70",
         "name": "Haruru Falls Road",
@@ -15686,11 +15885,11 @@
     {
       "type": "way",
       "id": 167311770,
-      "timestamp": "2021-10-31T00:26:43Z",
-      "version": 13,
-      "changeset": 113177448,
-      "user": "Daniel Palenski",
-      "uid": 9102093,
+      "timestamp": "2021-12-30T06:21:46Z",
+      "version": 14,
+      "changeset": 115548806,
+      "user": "CodyNZL",
+      "uid": 293788,
       "nodes": [4338170631, 7915341806],
       "geometry": [
         {"lat": -40.2421928, "lon": 175.5839607},
@@ -15703,6 +15902,7 @@
         {"lat": -40.254096, "lon": 175.5977928},
         {"lat": -40.2545809, "lon": 175.5983676},
         {"lat": -40.256876, "lon": 175.6010261},
+        {"lat": -40.2585103, "lon": 175.6029296},
         {"lat": -40.2588524, "lon": 175.6033281},
         {"lat": -40.2631404, "lon": 175.6083299},
         {"lat": -40.2679278, "lon": 175.6139197},
@@ -24770,11 +24970,11 @@
     {
       "type": "way",
       "id": 218333902,
-      "timestamp": "2019-12-21T08:44:37Z",
-      "version": 6,
-      "changeset": 78707745,
-      "user": "skgrange",
-      "uid": 1892481,
+      "timestamp": "2021-12-30T01:41:42Z",
+      "version": 7,
+      "changeset": 115543733,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [2275834872, 2275834760],
       "geometry": [
         {"lat": -35.2171014, "lon": 173.9513725},
@@ -24855,12 +25055,13 @@
         {"lat": -35.2164265, "lon": 173.9427911},
         {"lat": -35.2162005, "lon": 173.9426755},
         {"lat": -35.2153889, "lon": 173.9423234},
-        {"lat": -35.2151999, "lon": 173.9422982},
-        {"lat": -35.2150068, "lon": 173.9423183},
-        {"lat": -35.2149369, "lon": 173.942351},
-        {"lat": -35.2148786, "lon": 173.9424448},
-        {"lat": -35.2147959, "lon": 173.942533},
-        {"lat": -35.2147626, "lon": 173.9425917}
+        {"lat": -35.2152278, "lon": 173.9423396},
+        {"lat": -35.2151034, "lon": 173.9424073},
+        {"lat": -35.2150016, "lon": 173.9424473},
+        {"lat": -35.2149334, "lon": 173.9424875},
+        {"lat": -35.2148258, "lon": 173.9425793},
+        {"lat": -35.2147494, "lon": 173.9426702},
+        {"lat": -35.2147507, "lon": 173.9427246}
       ],
       "tags": {"highway": "footway", "name": "Te Araroa Trail"}
     },
@@ -28916,11 +29117,11 @@
     {
       "type": "way",
       "id": 23220588,
-      "timestamp": "2021-11-21T04:42:12Z",
-      "version": 8,
-      "changeset": 114046470,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-12-30T04:11:15Z",
+      "version": 9,
+      "changeset": 115545808,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [251171302, 251171861],
       "geometry": [
         {"lat": -35.3050044, "lon": 174.1190221},
@@ -28942,90 +29143,109 @@
         {"lat": -35.3124182, "lon": 174.1203321}
       ],
       "tags": {
+        "duration": "00:10",
         "foot": "yes",
         "motorcar": "yes",
         "name": "Opua - Okiato Vehicular Ferry",
+        "opening_hours": "Mo-Su,PH 06:00-22:00",
         "route": "ferry"
       }
     },
     {
       "type": "way",
       "id": 23220620,
-      "timestamp": "2021-11-21T04:42:12Z",
-      "version": 12,
-      "changeset": 114046470,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2021-12-30T06:42:14Z",
+      "version": 15,
+      "changeset": 115549292,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [251171861, 251171863],
       "geometry": [
         {"lat": -35.3124182, "lon": 174.1203321},
-        {"lat": -35.3125033, "lon": 174.1203817},
-        {"lat": -35.3125711, "lon": 174.1204405},
-        {"lat": -35.3125998, "lon": 174.1205002}
+        {"lat": -35.3124713, "lon": 174.120363},
+        {"lat": -35.3125193, "lon": 174.1204002},
+        {"lat": -35.3125685, "lon": 174.1204583},
+        {"lat": -35.3125971, "lon": 174.1204969}
       ],
       "tags": {
-        "description": "ro-ro linkspan",
-        "highway": "unclassified",
+        "destination:backward": "Russell",
+        "highway": "secondary",
         "man_made": "pier",
+        "maxspeed": "50",
         "surface": "paved"
       }
     },
     {
       "type": "way",
       "id": 23220991,
-      "timestamp": "2020-08-13T08:06:31Z",
-      "version": 6,
-      "changeset": 89342207,
-      "user": "magrej",
-      "uid": 7345137,
+      "timestamp": "2021-12-30T06:42:14Z",
+      "version": 8,
+      "changeset": 115549292,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [251171288, 251171302],
       "geometry": [
-        {"lat": -35.3039849, "lon": 174.1219678},
-        {"lat": -35.3041198, "lon": 174.1218098},
-        {"lat": -35.304295, "lon": 174.1215828},
-        {"lat": -35.3043692, "lon": 174.1214225},
-        {"lat": -35.3043995, "lon": 174.1210846},
-        {"lat": -35.3044551, "lon": 174.1209357},
+        {"lat": -35.3039832, "lon": 174.1220485},
+        {"lat": -35.3041378, "lon": 174.1218182},
+        {"lat": -35.3042897, "lon": 174.1216077},
+        {"lat": -35.3043138, "lon": 174.1215597},
+        {"lat": -35.3043317, "lon": 174.1215126},
+        {"lat": -35.3043598, "lon": 174.1213984},
+        {"lat": -35.3043737, "lon": 174.1211996},
+        {"lat": -35.3043901, "lon": 174.121094},
+        {"lat": -35.3044081, "lon": 174.1210185},
+        {"lat": -35.3044474, "lon": 174.1209378},
+        {"lat": -35.3045111, "lon": 174.1208635},
         {"lat": -35.3045807, "lon": 174.1207996},
-        {"lat": -35.3047118, "lon": 174.1207497},
-        {"lat": -35.3051569, "lon": 174.1206937},
-        {"lat": -35.3052788, "lon": 174.1205945},
-        {"lat": -35.3053351, "lon": 174.1204264},
-        {"lat": -35.3053141, "lon": 174.1201002},
-        {"lat": -35.3052624, "lon": 174.1198852},
-        {"lat": -35.3051332, "lon": 174.1196128},
-        {"lat": -35.3050294, "lon": 174.1193035},
-        {"lat": -35.3050144, "lon": 174.1192416},
-        {"lat": -35.3050062, "lon": 174.1191861},
+        {"lat": -35.3046518, "lon": 174.1207673},
+        {"lat": -35.3047332, "lon": 174.1207434},
+        {"lat": -35.3048683, "lon": 174.1207201},
+        {"lat": -35.3050521, "lon": 174.1207072},
+        {"lat": -35.3051458, "lon": 174.1206853},
+        {"lat": -35.3052079, "lon": 174.1206458},
+        {"lat": -35.3052572, "lon": 174.1205959},
+        {"lat": -35.3052856, "lon": 174.1205191},
+        {"lat": -35.3052958, "lon": 174.1204358},
+        {"lat": -35.3052947, "lon": 174.1202591},
+        {"lat": -35.3052884, "lon": 174.1200897},
+        {"lat": -35.3052737, "lon": 174.1199712},
+        {"lat": -35.3052419, "lon": 174.1198611},
+        {"lat": -35.3051323, "lon": 174.119596},
+        {"lat": -35.3050362, "lon": 174.1193066},
+        {"lat": -35.3050204, "lon": 174.1192447},
+        {"lat": -35.3050088, "lon": 174.1191882},
         {"lat": -35.3050023, "lon": 174.1191042},
         {"lat": -35.3050044, "lon": 174.1190221}
       ],
-      "tags": {"highway": "secondary", "name": "Aucks Road", "surface": "paved"}
+      "tags": {
+        "highway": "secondary",
+        "maxspeed": "70",
+        "name": "Aucks Road",
+        "surface": "paved"
+      }
     },
     {
       "type": "way",
       "id": 23221389,
-      "timestamp": "2021-07-14T07:20:57Z",
-      "version": 10,
-      "changeset": 107956138,
-      "user": "kylenz",
-      "uid": 10140394,
-      "nodes": [251192786, 591790003],
+      "timestamp": "2021-12-30T07:05:38Z",
+      "version": 12,
+      "changeset": 115549850,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [251192787, 591790003],
       "geometry": [
-        {"lat": -35.2711094, "lon": 174.0796574},
-        {"lat": -35.2709903, "lon": 174.0796597},
-        {"lat": -35.2706266, "lon": 174.0796668},
-        {"lat": -35.2704621, "lon": 174.0796887},
-        {"lat": -35.270375, "lon": 174.0797217},
-        {"lat": -35.2701244, "lon": 174.0798746},
-        {"lat": -35.2700627, "lon": 174.07992},
-        {"lat": -35.2699416, "lon": 174.0799908},
-        {"lat": -35.2698112, "lon": 174.0800368},
+        {"lat": -35.270634, "lon": 174.0796911},
+        {"lat": -35.2704918, "lon": 174.0797084},
+        {"lat": -35.2704159, "lon": 174.0797354},
+        {"lat": -35.2701591, "lon": 174.0799004},
+        {"lat": -35.2700466, "lon": 174.0799731},
+        {"lat": -35.2699267, "lon": 174.0800151},
+        {"lat": -35.26981, "lon": 174.0800398},
         {"lat": -35.2697397, "lon": 174.080048},
         {"lat": -35.2696445, "lon": 174.080056}
       ],
       "tags": {
-        "highway": "residential",
+        "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "50",
         "name": "Tau Henare Drive",
@@ -29035,25 +29255,24 @@
     {
       "type": "way",
       "id": 23221392,
-      "timestamp": "2021-07-14T07:20:57Z",
-      "version": 7,
-      "changeset": 107956138,
-      "user": "kylenz",
-      "uid": 10140394,
-      "nodes": [251192798, 251192786],
+      "timestamp": "2021-12-30T06:55:57Z",
+      "version": 8,
+      "changeset": 115549620,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [8918653228, 251192786],
       "geometry": [
-        {"lat": -35.2727597, "lon": 174.0796311},
-        {"lat": -35.2719467, "lon": 174.0796423},
-        {"lat": -35.2711094, "lon": 174.0796574}
+        {"lat": -35.2719467, "lon": 174.0796469},
+        {"lat": -35.2711136, "lon": 174.0796645}
       ],
       "tags": {
         "bridge": "yes",
-        "highway": "residential",
+        "highway": "tertiary",
         "lanes": "1",
         "layer": "1",
         "maxspeed": "30",
         "name": "Waitangi Bridge",
-        "oneway": "alternating",
+        "priority": "forward",
         "surface": "wood"
       }
     },
@@ -38443,11 +38662,11 @@
     {
       "type": "way",
       "id": 29280794,
-      "timestamp": "2020-07-29T09:59:49Z",
-      "version": 16,
-      "changeset": 88670449,
-      "user": "aleksaJov",
-      "uid": 7436199,
+      "timestamp": "2021-12-30T06:55:57Z",
+      "version": 17,
+      "changeset": 115549620,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [591790003, 1768554311],
       "geometry": [
         {"lat": -35.2696445, "lon": 174.080056},
@@ -38519,7 +38738,7 @@
         {"lat": -35.2599434, "lon": 174.0697491}
       ],
       "tags": {
-        "highway": "unclassified",
+        "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "50",
         "name": "Tau Henare Drive",
@@ -44635,12 +44854,12 @@
     {
       "type": "way",
       "id": 33998062,
-      "timestamp": "2021-07-14T07:20:57Z",
-      "version": 12,
-      "changeset": 107956138,
-      "user": "kylenz",
-      "uid": 10140394,
-      "nodes": [251193267, 251192798],
+      "timestamp": "2021-12-30T07:05:38Z",
+      "version": 14,
+      "changeset": 115549850,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [251193267, 1768554379],
       "geometry": [
         {"lat": -35.2770062, "lon": 174.0822094},
         {"lat": -35.276424, "lon": 174.0816222},
@@ -44648,16 +44867,14 @@
         {"lat": -35.2750689, "lon": 174.0805435},
         {"lat": -35.2747034, "lon": 174.0803479},
         {"lat": -35.2746406, "lon": 174.0803208},
-        {"lat": -35.2738326, "lon": 174.0799714},
-        {"lat": -35.2737249, "lon": 174.0799248},
+        {"lat": -35.2738414, "lon": 174.0799869},
+        {"lat": -35.2737779, "lon": 174.0799573},
         {"lat": -35.2736576, "lon": 174.0799102},
         {"lat": -35.2731932, "lon": 174.0797353},
-        {"lat": -35.2731128, "lon": 174.0797102},
-        {"lat": -35.2728868, "lon": 174.079653},
-        {"lat": -35.2727597, "lon": 174.0796311}
+        {"lat": -35.2731393, "lon": 174.0797164}
       ],
       "tags": {
-        "highway": "residential",
+        "highway": "tertiary",
         "maxspeed": "50",
         "name": "Te Karuwha Parade",
         "surface": "paved"
@@ -45926,8 +46143,8 @@
       "nodes": [1316090178, 1316090160],
       "geometry": [
         {"lat": -35.2186209, "lon": 173.9620686},
-        {"lat": -35.2179494, "lon": 173.9620116},
-        {"lat": -35.2178932, "lon": 173.9619792}
+        {"lat": -35.2179545, "lon": 173.9619877},
+        {"lat": -35.2179004, "lon": 173.9619544}
       ],
       "tags": {"highway": "service", "surface": "paved"}
     },
@@ -52433,11 +52650,11 @@
     {
       "type": "way",
       "id": 393904099,
-      "timestamp": "2020-07-06T13:26:18Z",
-      "version": 2,
-      "changeset": 87604142,
-      "user": "TaraV",
-      "uid": 8650925,
+      "timestamp": "2021-12-30T06:55:57Z",
+      "version": 3,
+      "changeset": 115549620,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [2236482623, 3969501366],
       "geometry": [
         {"lat": -35.2774309, "lon": 174.0829318},
@@ -52446,6 +52663,8 @@
         {"lat": -35.2776276, "lon": 174.0833233}
       ],
       "tags": {
+        "destination": "Paihia;Kawakawa",
+        "destination:ref": "SH 11",
         "highway": "primary",
         "maxspeed": "50",
         "name": "Marsden Road",
@@ -52457,11 +52676,11 @@
     {
       "type": "way",
       "id": 393904108,
-      "timestamp": "2020-08-06T06:44:13Z",
-      "version": 3,
-      "changeset": 89017884,
-      "user": "aleksaJov",
-      "uid": 7436199,
+      "timestamp": "2021-12-30T06:55:57Z",
+      "version": 4,
+      "changeset": 115549620,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [3969495954, 2236482622],
       "geometry": [
         {"lat": -35.2772619, "lon": 174.0825838},
@@ -52469,7 +52688,7 @@
         {"lat": -35.2773903, "lon": 174.0828482}
       ],
       "tags": {
-        "highway": "residential",
+        "highway": "tertiary",
         "maxspeed": "50",
         "name": "Te Karuwha Parade",
         "oneway": "yes",
@@ -63331,9 +63550,9 @@
       "uid": 1892481,
       "nodes": [2275834760, 2275834705],
       "geometry": [
-        {"lat": -35.2147626, "lon": 173.9425917},
-        {"lat": -35.2148767, "lon": 173.942581},
-        {"lat": -35.214966, "lon": 173.942584},
+        {"lat": -35.2147507, "lon": 173.9427246},
+        {"lat": -35.2149086, "lon": 173.9426163},
+        {"lat": -35.2149859, "lon": 173.9426218},
         {"lat": -35.2151132, "lon": 173.9426824},
         {"lat": -35.2152009, "lon": 173.9428006},
         {"lat": -35.2152054, "lon": 173.9428851},
@@ -63344,13 +63563,13 @@
         {"lat": -35.214772, "lon": 173.9429001},
         {"lat": -35.2147041, "lon": 173.9428732},
         {"lat": -35.2146556, "lon": 173.942863},
-        {"lat": -35.2146097, "lon": 173.9428066},
+        {"lat": -35.2146077, "lon": 173.9428298},
         {"lat": -35.2145101, "lon": 173.942822},
         {"lat": -35.2143154, "lon": 173.9427092},
         {"lat": -35.2141769, "lon": 173.9426204},
         {"lat": -35.2141152, "lon": 173.9425015},
         {"lat": -35.2141257, "lon": 173.9424365},
-        {"lat": -35.2141592, "lon": 173.9423675}
+        {"lat": -35.2141711, "lon": 173.9423846}
       ],
       "tags": {"highway": "footway"}
     },
@@ -63992,12 +64211,12 @@
     {
       "type": "way",
       "id": 464835631,
-      "timestamp": "2019-05-12T19:25:28Z",
-      "version": 3,
-      "changeset": 70168929,
-      "user": "AlwynWellington",
-      "uid": 567640,
-      "nodes": [4599026495, 1316086697],
+      "timestamp": "2021-12-30T01:50:01Z",
+      "version": 4,
+      "changeset": 115543855,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [4599026495, 1316091048],
       "geometry": [
         {"lat": -35.2172888, "lon": 173.9619175},
         {"lat": -35.217244, "lon": 173.961942},
@@ -64012,8 +64231,10 @@
         {"lat": -35.2174908, "lon": 173.962627},
         {"lat": -35.2175478, "lon": 173.9626646},
         {"lat": -35.2176179, "lon": 173.9627236},
-        {"lat": -35.2176766, "lon": 173.9627818},
-        {"lat": -35.2179135, "lon": 173.9630051}
+        {"lat": -35.217678, "lon": 173.9627632},
+        {"lat": -35.2177487, "lon": 173.9628005},
+        {"lat": -35.2178222, "lon": 173.9628157},
+        {"lat": -35.2179489, "lon": 173.9628213}
       ],
       "tags": {"foot": "yes", "highway": "footway"}
     },
@@ -81299,7 +81520,7 @@
         {"lat": -35.2138383, "lon": 173.9420115},
         {"lat": -35.2139804, "lon": 173.9422032},
         {"lat": -35.2140606, "lon": 173.9423631},
-        {"lat": -35.2141592, "lon": 173.9423675}
+        {"lat": -35.2141711, "lon": 173.9423846}
       ],
       "tags": {
         "highway": "path",
@@ -82696,7 +82917,7 @@
         {"lat": -40.3741248, "lon": 175.6069371},
         {"lat": -40.3742555, "lon": 175.6059316},
         {"lat": -40.3743471, "lon": 175.6056759},
-        {"lat": -40.374393, "lon": 175.6055922},
+        {"lat": -40.3743756, "lon": 175.605556},
         {"lat": -40.3744606, "lon": 175.605576},
         {"lat": -40.3745315, "lon": 175.6055765},
         {"lat": -40.3746481, "lon": 175.6056237},
@@ -86825,12 +87046,12 @@
     {
       "type": "way",
       "id": 760424599,
-      "timestamp": "2021-09-25T04:46:09Z",
-      "version": 3,
-      "changeset": 111672835,
-      "user": "kylenz_linz",
-      "uid": 8389777,
-      "nodes": [6043596267, 251171247],
+      "timestamp": "2021-12-30T07:02:40Z",
+      "version": 4,
+      "changeset": 115549789,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [6043596267, 9378337357],
       "geometry": [
         {"lat": -35.2977546, "lon": 174.1899854},
         {"lat": -35.2977554, "lon": 174.1897738},
@@ -86985,11 +87206,16 @@
         {"lat": -35.288063, "lon": 174.1527322},
         {"lat": -35.2880241, "lon": 174.1527023},
         {"lat": -35.2879385, "lon": 174.1524355},
-        {"lat": -35.2877754, "lon": 174.1509074},
-        {"lat": -35.2875702, "lon": 174.1500076},
-        {"lat": -35.2874811, "lon": 174.1497722},
-        {"lat": -35.2872161, "lon": 174.149289},
-        {"lat": -35.287177, "lon": 174.1491617}
+        {"lat": -35.2878277, "lon": 174.1513054},
+        {"lat": -35.287782, "lon": 174.1509074},
+        {"lat": -35.2877323, "lon": 174.1506442},
+        {"lat": -35.2876542, "lon": 174.1502952},
+        {"lat": -35.2875899, "lon": 174.1500264},
+        {"lat": -35.287541, "lon": 174.1498711},
+        {"lat": -35.2874767, "lon": 174.1497293},
+        {"lat": -35.287405, "lon": 174.1495884},
+        {"lat": -35.2872939, "lon": 174.1494206},
+        {"lat": -35.2872407, "lon": 174.1493387}
       ],
       "tags": {
         "highway": "secondary",
@@ -90438,18 +90664,18 @@
     {
       "type": "way",
       "id": 818608898,
-      "timestamp": "2020-08-06T06:44:13Z",
-      "version": 3,
-      "changeset": 89017884,
-      "user": "aleksaJov",
-      "uid": 7436199,
+      "timestamp": "2021-12-30T06:55:57Z",
+      "version": 4,
+      "changeset": 115549620,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [3969495954, 251193267],
       "geometry": [
         {"lat": -35.2772619, "lon": 174.0825838},
         {"lat": -35.2770062, "lon": 174.0822094}
       ],
       "tags": {
-        "highway": "residential",
+        "highway": "tertiary",
         "maxspeed": "50",
         "name": "Te Karuwha Parade",
         "surface": "paved"
