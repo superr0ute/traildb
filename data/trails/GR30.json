@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-29T02:39:58Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-01T02:41:04Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10699408,
-      "timestamp": "2021-12-28T14:44:55Z",
-      "version": 65,
-      "changeset": 115474523,
+      "timestamp": "2021-12-31T19:06:20Z",
+      "version": 66,
+      "changeset": 115620130,
       "user": "Sept Carto",
       "uid": 7664547,
       "members": [
@@ -384,6 +384,7 @@
         {"type": "way", "ref": 741762948, "role": ""},
         {"type": "way", "ref": 83113919, "role": ""},
         {"type": "way", "ref": 452848645, "role": ""},
+        {"type": "way", "ref": 1017214459, "role": ""},
         {"type": "way", "ref": 771478343, "role": ""},
         {"type": "way", "ref": 452848646, "role": ""},
         {"type": "way", "ref": 59524933, "role": ""},
@@ -831,6 +832,27 @@
     },
     {
       "type": "way",
+      "id": 1017214459,
+      "timestamp": "2021-12-31T19:06:20Z",
+      "version": 1,
+      "changeset": 115620130,
+      "user": "Sept Carto",
+      "uid": 7664547,
+      "nodes": [563310298, 563310295],
+      "geometry": [
+        {"lat": 45.4842345, "lon": 2.7752539, "z": 1172.2},
+        {"lat": 45.4838091, "lon": 2.7755895, "z": 1169.4},
+        {"lat": 45.4835503, "lon": 2.7756909, "z": 1168.7},
+        {"lat": 45.483196, "lon": 2.775772, "z": 1169.6}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "1",
+        "name": "Chemin Rural du Communal de Domais"
+      }
+    },
+    {
+      "type": "way",
       "id": 108779747,
       "timestamp": "2011-04-16T16:35:21Z",
       "version": 1,
@@ -1143,9 +1165,9 @@
     {
       "type": "way",
       "id": 134561227,
-      "timestamp": "2021-12-28T17:05:29Z",
-      "version": 7,
-      "changeset": 115480290,
+      "timestamp": "2021-12-31T18:51:09Z",
+      "version": 8,
+      "changeset": 115619792,
       "user": "Sept Carto",
       "uid": 7664547,
       "nodes": [969074471, 563293141],
@@ -1155,6 +1177,7 @@
         {"lat": 45.4922338, "lon": 2.8927692, "z": 1270.4}
       ],
       "tags": {
+        "access:conditional": "no @ snow",
         "highway": "unclassified",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
       }
@@ -5078,11 +5101,11 @@
     {
       "type": "way",
       "id": 253570773,
-      "timestamp": "2013-12-26T08:01:57Z",
-      "version": 1,
-      "changeset": 19639814,
-      "user": "rabeyroux",
-      "uid": 805590,
+      "timestamp": "2021-12-31T18:51:09Z",
+      "version": 2,
+      "changeset": 115619792,
+      "user": "Sept Carto",
+      "uid": 7664547,
       "nodes": [969074263, 658956342],
       "geometry": [
         {"lat": 45.4937827, "lon": 2.9027466, "z": 1261.9},
@@ -5090,8 +5113,9 @@
         {"lat": 45.4945056, "lon": 2.9028925, "z": 1258.3}
       ],
       "tags": {
+        "access:conditional": "no @ snow",
         "highway": "unclassified",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2009"
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2009"
       }
     },
     {
@@ -8712,12 +8736,12 @@
     {
       "type": "way",
       "id": 452848645,
-      "timestamp": "2016-11-12T11:38:44Z",
-      "version": 1,
-      "changeset": 43577757,
-      "user": "JBacc1",
-      "uid": 704348,
-      "nodes": [563310308, 563310295],
+      "timestamp": "2021-12-31T19:06:20Z",
+      "version": 2,
+      "changeset": 115620130,
+      "user": "Sept Carto",
+      "uid": 7664547,
+      "nodes": [563310308, 563310298],
       "geometry": [
         {"lat": 45.4867621, "lon": 2.7772652, "z": 1195.2},
         {"lat": 45.4864209, "lon": 2.7770954, "z": 1192.8},
@@ -8732,12 +8756,10 @@
         {"lat": 45.4846917, "lon": 2.7750653, "z": 1177},
         {"lat": 45.4846086, "lon": 2.7750335, "z": 1176},
         {"lat": 45.484509, "lon": 2.7750523, "z": 1174.9},
-        {"lat": 45.4842345, "lon": 2.7752539, "z": 1172.2},
-        {"lat": 45.4838091, "lon": 2.7755895, "z": 1169.4},
-        {"lat": 45.4835503, "lon": 2.7756909, "z": 1168.7},
-        {"lat": 45.483196, "lon": 2.775772, "z": 1169.6}
+        {"lat": 45.4842345, "lon": 2.7752539, "z": 1172.2}
       ],
       "tags": {
+        "access:conditional": "no @ snow",
         "highway": "unclassified",
         "lanes": "1",
         "name": "Chemin Rural du Communal de Domais"
@@ -15859,9 +15881,9 @@
     {
       "type": "way",
       "id": 829369975,
-      "timestamp": "2021-12-28T17:05:29Z",
-      "version": 3,
-      "changeset": 115480290,
+      "timestamp": "2021-12-31T18:51:09Z",
+      "version": 4,
+      "changeset": 115619792,
       "user": "Sept Carto",
       "uid": 7664547,
       "nodes": [563293141, 563293146],
@@ -15871,6 +15893,7 @@
         {"lat": 45.4906515, "lon": 2.8931283, "z": 1268.1}
       ],
       "tags": {
+        "access:conditional": "no @ snow",
         "highway": "unclassified",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
       }
