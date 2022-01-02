@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-31T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-01T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1736379,
-      "timestamp": "2021-12-16T09:01:21Z",
-      "version": 572,
-      "changeset": 114996367,
-      "user": "Luca Frare",
-      "uid": 10680508,
+      "timestamp": "2022-01-01T18:05:12Z",
+      "version": 573,
+      "changeset": 115646264,
+      "user": "Fedekicco",
+      "uid": 9542920,
       "members": [
         {"type": "node", "ref": 1779769997, "role": "stop"},
         {"type": "node", "ref": 475738007, "role": ""},
@@ -961,6 +961,8 @@
         {"type": "way", "ref": 497667769, "role": ""},
         {"type": "way", "ref": 497667770, "role": ""},
         {"type": "way", "ref": 351920493, "role": ""},
+        {"type": "way", "ref": 1017390949, "role": ""},
+        {"type": "way", "ref": 1017390948, "role": ""},
         {"type": "way", "ref": 24757359, "role": ""},
         {"type": "way", "ref": 440451926, "role": ""},
         {"type": "way", "ref": 39212005, "role": ""},
@@ -1867,6 +1869,58 @@
         "highway": "residential",
         "maxspeed": "30",
         "name": "Via Jacopo Tasso"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017390948,
+      "timestamp": "2022-01-01T18:05:12Z",
+      "version": 1,
+      "changeset": 115646264,
+      "user": "Fedekicco",
+      "uid": 9542920,
+      "nodes": [269039570, 263479381],
+      "geometry": [
+        {"lat": 46.47755, "lon": 11.8148092},
+        {"lat": 46.4775941, "lon": 11.8146824},
+        {"lat": 46.477668, "lon": 11.8145844},
+        {"lat": 46.477783, "lon": 11.8144989},
+        {"lat": 46.4779228, "lon": 11.8143935},
+        {"lat": 46.478094, "lon": 11.814201}
+      ],
+      "tags": {
+        "highway": "path",
+        "mtb:scale": "1",
+        "piste:difficulty": "intermediate",
+        "piste:name": "Belvedere I",
+        "piste:oneway": "yes",
+        "piste:type": "downhill",
+        "sac_scale": "hiking",
+        "surface": "unpaved",
+        "tracktype": "grade3",
+        "trail_visibility": "excellent"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017390949,
+      "timestamp": "2022-01-01T18:05:12Z",
+      "version": 1,
+      "changeset": 115646264,
+      "user": "Fedekicco",
+      "uid": 9542920,
+      "nodes": [263479381, 9384060948],
+      "geometry": [
+        {"lat": 46.478094, "lon": 11.814201},
+        {"lat": 46.4783297, "lon": 11.8140739}
+      ],
+      "tags": {
+        "highway": "path",
+        "mtb:scale": "1",
+        "sac_scale": "hiking",
+        "surface": "unpaved",
+        "tracktype": "grade3",
+        "trail_visibility": "excellent"
       }
     },
     {
@@ -26285,15 +26339,14 @@
     {
       "type": "way",
       "id": 351920493,
-      "timestamp": "2018-07-31T16:41:46Z",
-      "version": 5,
-      "changeset": 61235622,
-      "user": "Gianfranco2014",
-      "uid": 1928626,
-      "nodes": [269039570, 1879397307],
+      "timestamp": "2022-01-01T18:05:12Z",
+      "version": 6,
+      "changeset": 115646264,
+      "user": "Fedekicco",
+      "uid": 9542920,
+      "nodes": [9384060948, 1879397307],
       "geometry": [
-        {"lat": 46.47755, "lon": 11.8148092},
-        {"lat": 46.4780254, "lon": 11.8143405},
+        {"lat": 46.4783297, "lon": 11.8140739},
         {"lat": 46.4784558, "lon": 11.813973},
         {"lat": 46.4786095, "lon": 11.8139529},
         {"lat": 46.4787302, "lon": 11.8139521},
@@ -27575,11 +27628,11 @@
     {
       "type": "way",
       "id": 368606785,
-      "timestamp": "2015-09-01T11:16:04Z",
-      "version": 1,
-      "changeset": 33724690,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2022-01-01T18:27:55Z",
+      "version": 2,
+      "changeset": 115646942,
+      "user": "Fedekicco",
+      "uid": 9542920,
       "nodes": [3724590753, 3724590907],
       "geometry": [
         {"lat": 46.4439088, "lon": 11.907276},
@@ -27634,6 +27687,7 @@
         {"lat": 46.4527038, "lon": 11.891235},
         {"lat": 46.4527236, "lon": 11.8906937},
         {"lat": 46.4530051, "lon": 11.8902169},
+        {"lat": 46.453167, "lon": 11.8897828},
         {"lat": 46.4533286, "lon": 11.8893495},
         {"lat": 46.4534889, "lon": 11.8891128}
       ],
