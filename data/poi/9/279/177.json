@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2021-12-31T23:59:59Z",
-    "timestamp_osm_base": "2022-01-01T05:05:55Z",
+    "timestamp_osm_date": "2022-01-01T23:59:59Z",
+    "timestamp_osm_base": "2022-01-02T05:02:31Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -10671,15 +10671,24 @@
       "id": 398818837,
       "lat": 48.373953,
       "lon": 16.6367128,
-      "timestamp": "2021-01-21T12:03:39Z",
-      "version": 6,
-      "changeset": 97903609,
+      "timestamp": "2022-01-01T16:56:31Z",
+      "version": 7,
+      "changeset": 115643943,
       "user": "WRL",
       "uid": 55603,
       "tags": {
-        "name": "Lahofer SPAR",
-        "opening_hours": "geschlossen; wird zuzeit umgebaut",
-        "shop": "supermarket"
+        "addr:city": "Auersthal",
+        "addr:housenumber": "79",
+        "addr:postcode": "2214",
+        "addr:street": "Hauptstraße",
+        "email": "eh40829@sparmarkt.at",
+        "name": "SPAR Supermarkt",
+        "opening_hours": "Montag-Freitag: 06:15–18:30 Uhr, Samstag: 06:15–17:00 Uhr",
+        "operator": "Irene Hatziandreou",
+        "payment:visa": "yes",
+        "phone": "+43 2288 371 76",
+        "shop": "supermarket",
+        "website": "https://www.facebook.com/SPAR-Bockflie%C3%9FAuersthal-Hatziandreou-101882095097758/"
       }
     },
     {
@@ -14913,13 +14922,14 @@
       "id": 731899812,
       "lat": 48.1533364,
       "lon": 16.2225405,
-      "timestamp": "2021-11-13T12:50:52Z",
-      "version": 2,
-      "changeset": 113729353,
-      "user": "belosm2012",
-      "uid": 758899,
+      "timestamp": "2022-01-01T19:31:25Z",
+      "version": 3,
+      "changeset": 115648814,
+      "user": "fkv",
+      "uid": 302363,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "description": "im Winter abgedreht"
       }
     },
     {
@@ -28686,11 +28696,11 @@
       "id": 1846798690,
       "lat": 48.2424564,
       "lon": 16.3788464,
-      "timestamp": "2019-05-21T20:08:28Z",
-      "version": 8,
-      "changeset": 70491845,
-      "user": "byom12345",
-      "uid": 9397783,
+      "timestamp": "2022-01-01T18:48:03Z",
+      "version": 10,
+      "changeset": 115647579,
+      "user": "Happymonday",
+      "uid": 700309,
       "tags": {
         "addr:city": "Wien",
         "addr:country": "AT",
@@ -28701,6 +28711,8 @@
         "brand:wikidata": "Q15815751",
         "brand:wikipedia": "de:Hofer KG",
         "name": "Hofer",
+        "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00",
+        "phone": "+43 57 03034053",
         "shop": "supermarket",
         "wheelchair": "yes"
       }
@@ -66304,11 +66316,11 @@
     {
       "type": "way",
       "id": 157688015,
-      "timestamp": "2020-02-08T10:33:06Z",
-      "version": 6,
-      "changeset": 80719456,
-      "user": "Helium314",
-      "uid": 8620055,
+      "timestamp": "2022-01-01T18:47:07Z",
+      "version": 7,
+      "changeset": 115647543,
+      "user": "Happymonday",
+      "uid": 700309,
       "center": {
         "lat": 48.2475322,
         "lon": 16.3793923
@@ -66326,6 +66338,8 @@
         "building": "retail",
         "building:levels": "2",
         "name": "Hofer",
+        "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00",
+        "phone": "+43 57 03034013",
         "roof:levels": "0",
         "shop": "supermarket",
         "toilets:wheelchair": "no",
@@ -84255,14 +84269,14 @@
     {
       "type": "way",
       "id": 912192989,
-      "timestamp": "2021-03-22T16:17:56Z",
-      "version": 2,
-      "changeset": 101517316,
-      "user": "WaWei",
-      "uid": 9940746,
+      "timestamp": "2022-01-01T11:29:04Z",
+      "version": 3,
+      "changeset": 115632630,
+      "user": "sc70",
+      "uid": 405791,
       "center": {
-        "lat": 48.0162428,
-        "lon": 16.5799921
+        "lat": 48.0161935,
+        "lon": 16.5800825
       },
       "nodes": [],
       "tags": {
@@ -84272,10 +84286,14 @@
         "addr:street": "Birkenstraße",
         "brand": "Billa",
         "brand:wikidata": "Q537781",
-        "brand:wikipedia": "en:Billa (supermarket)",
+        "brand:wikipedia": "de:Billa",
         "building": "yes",
         "name": "Billa",
-        "shop": "supermarket"
+        "operator": "REWE",
+        "payment:cash": "yes",
+        "payment:maestro": "yes",
+        "shop": "supermarket",
+        "website": "www.billa.at"
       }
     },
     {
@@ -87720,6 +87738,78 @@
       "center": {
         "lat": 48.2123216,
         "lon": 16.3605615
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017399561,
+      "timestamp": "2022-01-01T18:44:27Z",
+      "version": 1,
+      "changeset": 115647450,
+      "user": "emergency99",
+      "uid": 1832939,
+      "center": {
+        "lat": 48.2949147,
+        "lon": 16.4614855
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017399562,
+      "timestamp": "2022-01-01T18:44:27Z",
+      "version": 1,
+      "changeset": 115647450,
+      "user": "emergency99",
+      "uid": 1832939,
+      "center": {
+        "lat": 48.2950148,
+        "lon": 16.462071
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017401340,
+      "timestamp": "2022-01-01T18:51:50Z",
+      "version": 1,
+      "changeset": 115647698,
+      "user": "emergency99",
+      "uid": 1832939,
+      "center": {
+        "lat": 48.2937192,
+        "lon": 16.467085
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017402054,
+      "timestamp": "2022-01-01T18:56:08Z",
+      "version": 1,
+      "changeset": 115647826,
+      "user": "emergency99",
+      "uid": 1832939,
+      "center": {
+        "lat": 48.2929411,
+        "lon": 16.4667725
       },
       "nodes": [],
       "tags": {
