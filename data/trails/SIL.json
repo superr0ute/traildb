@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-28T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-02T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1670,9 +1670,9 @@
     {
       "type": "relation",
       "id": 7690606,
-      "timestamp": "2021-12-20T19:03:56Z",
-      "version": 28,
-      "changeset": 115178340,
+      "timestamp": "2022-01-02T18:23:30Z",
+      "version": 31,
+      "changeset": 115680982,
       "user": "kaitu",
       "uid": 69717,
       "members": [
@@ -1737,11 +1737,11 @@
         {"type": "way", "ref": 148647071, "role": ""},
         {"type": "way", "ref": 1013848571, "role": ""},
         {"type": "way", "ref": 148647089, "role": ""},
+        {"type": "way", "ref": 1017542434, "role": ""},
         {"type": "way", "ref": 148647074, "role": ""},
         {"type": "way", "ref": 148647132, "role": ""},
         {"type": "way", "ref": 992407726, "role": ""},
         {"type": "way", "ref": 148647069, "role": ""},
-        {"type": "way", "ref": 992407724, "role": ""},
         {"type": "way", "ref": 148647005, "role": ""},
         {"type": "way", "ref": 149071067, "role": ""},
         {"type": "way", "ref": 378153735, "role": ""},
@@ -1749,9 +1749,11 @@
         {"type": "way", "ref": 150270302, "role": ""},
         {"type": "way", "ref": 150270307, "role": ""},
         {"type": "way", "ref": 536746227, "role": ""},
+        {"type": "way", "ref": 1017586976, "role": ""},
         {"type": "way", "ref": 150270312, "role": ""},
         {"type": "way", "ref": 150270310, "role": ""},
         {"type": "way", "ref": 145477268, "role": ""},
+        {"type": "way", "ref": 1017586975, "role": ""},
         {"type": "way", "ref": 150270315, "role": ""},
         {"type": "way", "ref": 150270313, "role": ""},
         {"type": "way", "ref": 194517564, "role": ""},
@@ -1761,6 +1763,7 @@
         {"type": "way", "ref": 194517574, "role": ""},
         {"type": "way", "ref": 194517568, "role": ""},
         {"type": "way", "ref": 194517566, "role": ""},
+        {"type": "way", "ref": 1017626069, "role": ""},
         {"type": "way", "ref": 194517575, "role": ""},
         {"type": "way", "ref": 194517577, "role": ""},
         {"type": "way", "ref": 193402486, "role": ""},
@@ -5124,9 +5127,97 @@
       "nodes": [2212979836, 2212979838],
       "geometry": [
         {"lat": 45.8214346, "lon": 8.9874597},
-        {"lat": 45.8214218, "lon": 8.9873084}
+        {"lat": 45.8214245, "lon": 8.9873094}
       ],
       "tags": {"highway": "unclassified"}
+    },
+    {
+      "type": "way",
+      "id": 1017542434,
+      "timestamp": "2022-01-02T10:55:32Z",
+      "version": 1,
+      "changeset": 115664058,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [7496551459, 416809095],
+      "geometry": [
+        {"lat": 45.8737321, "lon": 9.0662951},
+        {"lat": 45.8736869, "lon": 9.0662484}
+      ],
+      "tags": {"highway": "path", "trail_visibility": "excellent"}
+    },
+    {
+      "type": "way",
+      "id": 1017586975,
+      "timestamp": "2022-01-02T15:39:46Z",
+      "version": 1,
+      "changeset": 115675072,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [416805659, 416805656],
+      "geometry": [
+        {"lat": 45.8899866, "lon": 9.1068944},
+        {"lat": 45.8900951, "lon": 9.1071105},
+        {"lat": 45.8902319, "lon": 9.1073653}
+      ],
+      "tags": {
+        "highway": "service",
+        "note:smoothness": "visto al rifugio Bugone e alla colma del Crinco delle auto normali (non fuoristrada)",
+        "smoothness": "bad",
+        "source": "survey, gps track",
+        "surface": "concrete",
+        "vehicle": "private"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017586976,
+      "timestamp": "2022-01-02T15:39:46Z",
+      "version": 1,
+      "changeset": 115675072,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [1599060988, 5058870524],
+      "geometry": [
+        {"lat": 45.8749928, "lon": 9.086844},
+        {"lat": 45.8749147, "lon": 9.0868156}
+      ],
+      "tags": {
+        "highway": "service",
+        "note:smoothness": "visto al rifugio Bugone delle auto normali (non fuoristrada)",
+        "smoothness": "bad",
+        "source": "survey, gps track",
+        "surface": "compacted",
+        "tracktype": "grade3",
+        "vehicle": "private"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017626069,
+      "timestamp": "2022-01-02T18:23:30Z",
+      "version": 1,
+      "changeset": 115680982,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [2039087136, 416804923],
+      "geometry": [
+        {"lat": 45.9038589, "lon": 9.1034276},
+        {"lat": 45.9036304, "lon": 9.1033205},
+        {"lat": 45.90342, "lon": 9.1031211},
+        {"lat": 45.9030826, "lon": 9.1024434},
+        {"lat": 45.9027962, "lon": 9.1020577},
+        {"lat": 45.9027318, "lon": 9.1020003},
+        {"lat": 45.902677, "lon": 9.1019809}
+      ],
+      "tags": {
+        "highway": "track",
+        "smoothness": "very_bad",
+        "source": "survey, gps track",
+        "surface": "pebblestone",
+        "tracktype": "grade3",
+        "vehicle": "private"
+      }
     },
     {
       "type": "way",
@@ -12232,14 +12323,14 @@
         {"lat": 45.8808697, "lon": 9.0917257},
         {"lat": 45.8810863, "lon": 9.0924714},
         {"lat": 45.8811171, "lon": 9.0928536},
-        {"lat": 45.8809844, "lon": 9.0934363},
-        {"lat": 45.8803913, "lon": 9.0942796},
-        {"lat": 45.8798761, "lon": 9.0948227},
+        {"lat": 45.8809612, "lon": 9.0933222},
+        {"lat": 45.8802391, "lon": 9.0941085},
+        {"lat": 45.8797867, "lon": 9.0948988},
         {"lat": 45.8797352, "lon": 9.095124},
-        {"lat": 45.8798383, "lon": 9.0955759},
-        {"lat": 45.87993, "lon": 9.096022},
-        {"lat": 45.8802393, "lon": 9.096489},
-        {"lat": 45.880512, "lon": 9.0969426},
+        {"lat": 45.8797225, "lon": 9.0956282},
+        {"lat": 45.8798837, "lon": 9.09606},
+        {"lat": 45.8801996, "lon": 9.0966316},
+        {"lat": 45.8804822, "lon": 9.0970709},
         {"lat": 45.8810177, "lon": 9.0976663},
         {"lat": 45.8820823, "lon": 9.0984229},
         {"lat": 45.882678, "lon": 9.098756},
@@ -12566,23 +12657,24 @@
     {
       "type": "way",
       "id": 148647005,
-      "timestamp": "2021-12-08T18:54:21Z",
-      "version": 6,
-      "changeset": 114713830,
+      "timestamp": "2022-01-02T10:55:32Z",
+      "version": 7,
+      "changeset": 115664058,
       "user": "kaitu",
       "uid": 69717,
       "nodes": [416860021, 1503542877],
       "geometry": [
-        {"lat": 45.8740775, "lon": 9.0740886},
+        {"lat": 45.8741076, "lon": 9.0740715},
+        {"lat": 45.8740825, "lon": 9.0741117},
         {"lat": 45.8740549, "lon": 9.074103},
-        {"lat": 45.8740286, "lon": 9.0740989},
-        {"lat": 45.874015, "lon": 9.074076},
-        {"lat": 45.8740001, "lon": 9.0740437},
-        {"lat": 45.8739938, "lon": 9.0739898},
+        {"lat": 45.8740315, "lon": 9.0740926},
+        {"lat": 45.8740166, "lon": 9.0740389},
+        {"lat": 45.8740137, "lon": 9.0739613},
         {"lat": 45.8740136, "lon": 9.0737572},
         {"lat": 45.8740193, "lon": 9.0736395},
         {"lat": 45.8740169, "lon": 9.0735477},
-        {"lat": 45.8739299, "lon": 9.0729426}
+        {"lat": 45.8740138, "lon": 9.0731455},
+        {"lat": 45.8739886, "lon": 9.0727703}
       ],
       "tags": {
         "access": "yes",
@@ -12660,17 +12752,17 @@
     {
       "type": "way",
       "id": 148647069,
-      "timestamp": "2020-05-10T17:22:50Z",
-      "version": 2,
-      "changeset": 84980214,
-      "user": "itineralp",
-      "uid": 5310347,
-      "nodes": [1617213931, 3815717462],
+      "timestamp": "2022-01-02T10:55:32Z",
+      "version": 3,
+      "changeset": 115664058,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [1503542876, 416860021],
       "geometry": [
-        {"lat": 45.8739476, "lon": 9.0687349},
-        {"lat": 45.8739639, "lon": 9.0688675},
-        {"lat": 45.8739195, "lon": 9.0689591},
-        {"lat": 45.8739083, "lon": 9.0691763},
+        {"lat": 45.8738863, "lon": 9.0688663},
+        {"lat": 45.8738572, "lon": 9.0689578},
+        {"lat": 45.8738417, "lon": 9.0691005},
+        {"lat": 45.8738587, "lon": 9.0692333},
         {"lat": 45.8739261, "lon": 9.0693212},
         {"lat": 45.8739877, "lon": 9.0695451},
         {"lat": 45.874082, "lon": 9.0697624},
@@ -12688,7 +12780,7 @@
         {"lat": 45.8744956, "lon": 9.0734464},
         {"lat": 45.8743313, "lon": 9.0737602},
         {"lat": 45.8742454, "lon": 9.0739453},
-        {"lat": 45.8740927, "lon": 9.0740549}
+        {"lat": 45.8741076, "lon": 9.0740715}
       ],
       "tags": {
         "highway": "path",
@@ -12700,11 +12792,11 @@
     {
       "type": "way",
       "id": 148647071,
-      "timestamp": "2013-06-14T13:05:37Z",
-      "version": 2,
-      "changeset": 16550135,
-      "user": "gilbomorris",
-      "uid": 185204,
+      "timestamp": "2022-01-02T10:55:32Z",
+      "version": 3,
+      "changeset": 115664058,
+      "user": "kaitu",
+      "uid": 69717,
       "nodes": [1617213673, 416809099],
       "geometry": [
         {"lat": 45.8732978, "lon": 9.0661263},
@@ -12713,22 +12805,26 @@
         {"lat": 45.8729954, "lon": 9.0658351},
         {"lat": 45.8729164, "lon": 9.0657747}
       ],
-      "tags": {"highway": "steps", "surface": "concrete"}
+      "tags": {
+        "highway": "steps",
+        "image": "https://commons.wikimedia.org/wiki/File:Scalinata_per_il_santuario_del_Bisbino.jpg",
+        "surface": "concrete",
+        "wikimedia_commons": "File:Scalinata per il santuario del Bisbino.jpg"
+      }
     },
     {
       "type": "way",
       "id": 148647074,
-      "timestamp": "2020-05-08T06:34:01Z",
-      "version": 2,
-      "changeset": 84871100,
-      "user": "itineralp",
-      "uid": 5310347,
-      "nodes": [416809093, 416809095],
+      "timestamp": "2022-01-02T10:55:32Z",
+      "version": 3,
+      "changeset": 115664058,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [416809093, 7496551459],
       "geometry": [
         {"lat": 45.874016, "lon": 9.066569},
         {"lat": 45.8738529, "lon": 9.0664166},
-        {"lat": 45.8737321, "lon": 9.0662951},
-        {"lat": 45.8736869, "lon": 9.0662484}
+        {"lat": 45.8737321, "lon": 9.0662951}
       ],
       "tags": {"highway": "path", "trail_visibility": "excellent"}
     },
@@ -12827,9 +12923,9 @@
       "geometry": [
         {"lat": 45.8737211, "lon": 9.0742793},
         {"lat": 45.8737653, "lon": 9.0738957},
-        {"lat": 45.8739141, "lon": 9.073438},
-        {"lat": 45.8739033, "lon": 9.0730602},
-        {"lat": 45.8739299, "lon": 9.0729426}
+        {"lat": 45.8738959, "lon": 9.0734332},
+        {"lat": 45.8739438, "lon": 9.0729509},
+        {"lat": 45.8739886, "lon": 9.0727703}
       ],
       "tags": {
         "foot": "yes",
@@ -12926,12 +13022,12 @@
     {
       "type": "way",
       "id": 150270312,
-      "timestamp": "2017-10-29T20:42:59Z",
-      "version": 8,
-      "changeset": 53352155,
-      "user": "Gianfranco2014",
-      "uid": 1928626,
-      "nodes": [416807682, 5058870524],
+      "timestamp": "2022-01-02T15:39:46Z",
+      "version": 9,
+      "changeset": 115675072,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [416807682, 1599060988],
       "geometry": [
         {"lat": 45.8796046, "lon": 9.0905898},
         {"lat": 45.8793403, "lon": 9.0902559},
@@ -12950,8 +13046,7 @@
         {"lat": 45.8755283, "lon": 9.0869316},
         {"lat": 45.875268, "lon": 9.0869493},
         {"lat": 45.8750424, "lon": 9.0868735},
-        {"lat": 45.8749928, "lon": 9.086844},
-        {"lat": 45.8749362, "lon": 9.086799}
+        {"lat": 45.8749928, "lon": 9.086844}
       ],
       "tags": {
         "highway": "service",
@@ -12993,16 +13088,14 @@
     {
       "type": "way",
       "id": 150270315,
-      "timestamp": "2021-04-01T09:39:59Z",
-      "version": 4,
-      "changeset": 102113012,
-      "user": "itineralp",
-      "uid": 5310347,
-      "nodes": [416805659, 1588903757],
+      "timestamp": "2022-01-02T15:39:46Z",
+      "version": 5,
+      "changeset": 115675072,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [416805656, 1588903757],
       "geometry": [
-        {"lat": 45.8899866, "lon": 9.1068944},
-        {"lat": 45.8900951, "lon": 9.1071105},
-        {"lat": 45.8902009, "lon": 9.1073213},
+        {"lat": 45.8902319, "lon": 9.1073653},
         {"lat": 45.8903013, "lon": 9.1074242},
         {"lat": 45.8904401, "lon": 9.1075767},
         {"lat": 45.890492, "lon": 9.107632},
@@ -22519,19 +22612,13 @@
     {
       "type": "way",
       "id": 194517566,
-      "timestamp": "2017-11-01T05:11:49Z",
-      "version": 5,
-      "changeset": 53414020,
-      "user": "Gianfranco2014",
-      "uid": 1928626,
-      "nodes": [2039087136, 416804931],
+      "timestamp": "2022-01-02T18:23:30Z",
+      "version": 6,
+      "changeset": 115680982,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [416804923, 416804931],
       "geometry": [
-        {"lat": 45.9038589, "lon": 9.1034276},
-        {"lat": 45.9036304, "lon": 9.1033205},
-        {"lat": 45.90342, "lon": 9.1031211},
-        {"lat": 45.9030826, "lon": 9.1024434},
-        {"lat": 45.9027962, "lon": 9.1020577},
-        {"lat": 45.9027318, "lon": 9.1020003},
         {"lat": 45.902677, "lon": 9.1019809},
         {"lat": 45.9026291, "lon": 9.1019904},
         {"lat": 45.9025766, "lon": 9.1020467},
@@ -22548,7 +22635,7 @@
         "highway": "track",
         "smoothness": "very_bad",
         "source": "survey, gps track",
-        "surface": "cobblestone:flattened",
+        "surface": "pebblestone",
         "tracktype": "grade3",
         "vehicle": "private"
       }
@@ -71525,7 +71612,7 @@
       "nodes": [619525158, 2212979838],
       "geometry": [
         {"lat": 45.8216049, "lon": 8.9872911},
-        {"lat": 45.8214218, "lon": 8.9873084}
+        {"lat": 45.8214245, "lon": 8.9873094}
       ],
       "tags": {"highway": "tertiary"}
     },
@@ -72542,8 +72629,8 @@
       "uid": 1928626,
       "nodes": [5058870524, 1631925696],
       "geometry": [
-        {"lat": 45.8749362, "lon": 9.086799},
-        {"lat": 45.8747786, "lon": 9.0866016},
+        {"lat": 45.8749147, "lon": 9.0868156},
+        {"lat": 45.8747455, "lon": 9.0866206},
         {"lat": 45.8745851, "lon": 9.0861875},
         {"lat": 45.874237, "lon": 9.085081},
         {"lat": 45.8739997, "lon": 9.0845392}
@@ -102175,45 +102262,18 @@
     },
     {
       "type": "way",
-      "id": 992407724,
-      "timestamp": "2021-10-13T08:28:34Z",
-      "version": 1,
-      "changeset": 112449968,
-      "user": "LorenzoBassi_SICAI_Team",
-      "uid": 3286661,
-      "nodes": [3815717462, 416860021],
-      "geometry": [
-        {"lat": 45.8740927, "lon": 9.0740549},
-        {"lat": 45.8740775, "lon": 9.0740886}
-      ],
-      "tags": {
-        "access": "yes",
-        "highway": "unclassified",
-        "lanes": "1",
-        "maxweight": "6",
-        "name": "Via per il Bisbino",
-        "oneway": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
       "id": 992407726,
-      "timestamp": "2021-10-13T08:28:34Z",
-      "version": 1,
-      "changeset": 112449968,
-      "user": "LorenzoBassi_SICAI_Team",
-      "uid": 3286661,
+      "timestamp": "2022-01-02T10:55:32Z",
+      "version": 2,
+      "changeset": 115664058,
+      "user": "kaitu",
+      "uid": 69717,
       "nodes": [1617213929, 1617213931],
       "geometry": [
         {"lat": 45.8739221, "lon": 9.0685556},
-        {"lat": 45.8739476, "lon": 9.0687349}
+        {"lat": 45.8739377, "lon": 9.0687349}
       ],
-      "tags": {
-        "highway": "service",
-        "service": "parking_aisle",
-        "surface": "pebblestone"
-      }
+      "tags": {"highway": "service", "surface": "pebblestone"}
     },
     {
       "type": "way",

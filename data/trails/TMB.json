@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-28T02:38:24Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-03T02:40:42Z"},
   "elements": [
     {
       "type": "relation",
@@ -37,11 +37,11 @@
     {
       "type": "relation",
       "id": 9678267,
-      "timestamp": "2021-10-31T16:39:52Z",
-      "version": 12,
-      "changeset": 113200745,
-      "user": "Christian Perrier",
-      "uid": 60669,
+      "timestamp": "2022-01-02T21:37:24Z",
+      "version": 13,
+      "changeset": 115686605,
+      "user": "cOSMografix",
+      "uid": 2212351,
       "members": [
         {"type": "way", "ref": 432242531, "role": ""},
         {"type": "way", "ref": 759014164, "role": ""},
@@ -62,7 +62,11 @@
         {"type": "way", "ref": 357805918, "role": ""},
         {"type": "way", "ref": 344510514, "role": ""},
         {"type": "way", "ref": 344510515, "role": ""},
+        {"type": "way", "ref": 1017667863, "role": ""},
+        {"type": "way", "ref": 1017667862, "role": ""},
+        {"type": "way", "ref": 1017667860, "role": ""},
         {"type": "way", "ref": 432242482, "role": ""},
+        {"type": "way", "ref": 1017667861, "role": ""},
         {"type": "way", "ref": 39505106, "role": ""},
         {"type": "way", "ref": 432242514, "role": ""},
         {"type": "way", "ref": 265807355, "role": ""},
@@ -1119,6 +1123,110 @@
         "highway": "track",
         "surface": "pebblestone",
         "tracktype": "grade2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017667860,
+      "timestamp": "2022-01-02T21:37:24Z",
+      "version": 1,
+      "changeset": 115686605,
+      "user": "cOSMografix",
+      "uid": 2212351,
+      "nodes": [9386704104, 473213404],
+      "geometry": [
+        {"lat": 45.8388935, "lon": 6.7581001, "z": 1554.5},
+        {"lat": 45.8388851, "lon": 6.7581482, "z": 1553.6}
+      ],
+      "tags": {
+        "access": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "lit": "no",
+        "name": "Route des Chalets de Miage",
+        "sac_scale": "hiking",
+        "surface": "ground",
+        "trail_visibility": "excellent",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017667861,
+      "timestamp": "2022-01-02T21:37:24Z",
+      "version": 1,
+      "changeset": 115686605,
+      "user": "cOSMografix",
+      "uid": 2212351,
+      "nodes": [473213405, 9386704105],
+      "geometry": [
+        {"lat": 45.8389179, "lon": 6.7579608, "z": 1556.8},
+        {"lat": 45.8389135, "lon": 6.7579859, "z": 1556.4}
+      ],
+      "tags": {
+        "access": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "lit": "no",
+        "name": "Route des Chalets de Miage",
+        "sac_scale": "hiking",
+        "surface": "ground",
+        "trail_visibility": "excellent",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017667862,
+      "timestamp": "2022-01-02T21:37:24Z",
+      "version": 1,
+      "changeset": 115686605,
+      "user": "cOSMografix",
+      "uid": 2212351,
+      "nodes": [473213404, 9386704112],
+      "geometry": [
+        {"lat": 45.8388851, "lon": 6.7581482, "z": 1553.6},
+        {"lat": 45.8388584, "lon": 6.7586945, "z": 1550.4},
+        {"lat": 45.838898, "lon": 6.7588437, "z": 1549.9},
+        {"lat": 45.8389048, "lon": 6.7589759, "z": 1549.8},
+        {"lat": 45.8388551, "lon": 6.7590592, "z": 1550.7},
+        {"lat": 45.8388701, "lon": 6.7590762, "z": 1550.8}
+      ],
+      "tags": {
+        "access": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "lit": "no",
+        "sac_scale": "hiking",
+        "surface": "ground",
+        "trail_visibility": "excellent",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1017667863,
+      "timestamp": "2022-01-02T21:37:24Z",
+      "version": 1,
+      "changeset": 115686605,
+      "user": "cOSMografix",
+      "uid": 2212351,
+      "nodes": [9386704112, 9386704111],
+      "geometry": [
+        {"lat": 45.8388701, "lon": 6.7590762, "z": 1550.8},
+        {"lat": 45.838934, "lon": 6.7591488, "z": 1551.1}
+      ],
+      "tags": {
+        "access": "yes",
+        "bridge": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "layer": "1",
+        "lit": "no",
+        "sac_scale": "hiking",
+        "surface": "ground",
+        "trail_visibility": "excellent",
+        "wheelchair": "no"
       }
     },
     {
@@ -6358,8 +6466,8 @@
       "uid": 12172125,
       "nodes": [2264436623, 3027142856],
       "geometry": [
-        {"lat": 45.8459095, "lon": 6.7392397, "z": 1140.8},
-        {"lat": 45.8458659, "lon": 6.7391916, "z": 1140.4},
+        {"lat": 45.8458787, "lon": 6.739246, "z": 1141.1},
+        {"lat": 45.8458527, "lon": 6.7392143, "z": 1140.9},
         {"lat": 45.845846, "lon": 6.739055, "z": 1138.6}
       ],
       "tags": {
@@ -11749,8 +11857,8 @@
       "uid": 12172125,
       "nodes": [2264436586, 2264436623],
       "geometry": [
-        {"lat": 45.8460125, "lon": 6.7392847, "z": 1140.7},
-        {"lat": 45.8459095, "lon": 6.7392397, "z": 1140.8}
+        {"lat": 45.845951, "lon": 6.7392633, "z": 1140.8},
+        {"lat": 45.8458787, "lon": 6.739246, "z": 1141.1}
       ],
       "tags": {
         "bridge": "yes",
@@ -13042,11 +13150,11 @@
     {
       "type": "way",
       "id": 343105736,
-      "timestamp": "2021-02-20T19:09:17Z",
-      "version": 6,
-      "changeset": 99656688,
-      "user": "Gonéo",
-      "uid": 12172125,
+      "timestamp": "2022-01-02T22:03:34Z",
+      "version": 7,
+      "changeset": 115687211,
+      "user": "cOSMografix",
+      "uid": 2212351,
       "nodes": [2250994922, 2264436586],
       "geometry": [
         {"lat": 45.8469173, "lon": 6.7375056, "z": 1112.8},
@@ -13056,9 +13164,12 @@
         {"lat": 45.8466072, "lon": 6.737511, "z": 1114},
         {"lat": 45.8465175, "lon": 6.7375914, "z": 1115.2},
         {"lat": 45.8464745, "lon": 6.7377363, "z": 1116.8},
+        {"lat": 45.8461701, "lon": 6.7388786, "z": 1133.1},
         {"lat": 45.846155, "lon": 6.7389352, "z": 1134.1},
         {"lat": 45.8460908, "lon": 6.7391471, "z": 1137.8},
-        {"lat": 45.8460125, "lon": 6.7392847, "z": 1140.7}
+        {"lat": 45.8459732, "lon": 6.7392448, "z": 1140.4},
+        {"lat": 45.8459643, "lon": 6.7392523, "z": 1140.5},
+        {"lat": 45.845951, "lon": 6.7392633, "z": 1140.8}
       ],
       "tags": {
         "highway": "residential",
@@ -13109,18 +13220,14 @@
     {
       "type": "way",
       "id": 344510515,
-      "timestamp": "2015-05-12T13:57:54Z",
-      "version": 1,
-      "changeset": 31054672,
-      "user": "Ocirne94",
-      "uid": 498662,
-      "nodes": [473213404, 473213395],
+      "timestamp": "2022-01-02T21:37:24Z",
+      "version": 2,
+      "changeset": 115686605,
+      "user": "cOSMografix",
+      "uid": 2212351,
+      "nodes": [9386704111, 473213395],
       "geometry": [
-        {"lat": 45.8388851, "lon": 6.7581482, "z": 1553.6},
-        {"lat": 45.8388584, "lon": 6.7586945, "z": 1550.4},
-        {"lat": 45.838898, "lon": 6.7588437, "z": 1549.9},
-        {"lat": 45.8389048, "lon": 6.7589759, "z": 1549.8},
-        {"lat": 45.8388551, "lon": 6.7590592, "z": 1550.7},
+        {"lat": 45.838934, "lon": 6.7591488, "z": 1551.1},
         {"lat": 45.8389487, "lon": 6.7591654, "z": 1551.2},
         {"lat": 45.8388529, "lon": 6.7592915, "z": 1552.8},
         {"lat": 45.8388501, "lon": 6.7593622, "z": 1553.5},
@@ -17888,20 +17995,22 @@
     {
       "type": "way",
       "id": 432242482,
-      "timestamp": "2016-07-20T21:22:47Z",
-      "version": 1,
-      "changeset": 40906578,
-      "user": "ATGardner",
-      "uid": 287860,
-      "nodes": [473213405, 473213404],
+      "timestamp": "2022-01-02T21:37:24Z",
+      "version": 2,
+      "changeset": 115686605,
+      "user": "cOSMografix",
+      "uid": 2212351,
+      "nodes": [9386704105, 9386704104],
       "geometry": [
-        {"lat": 45.8389179, "lon": 6.7579608, "z": 1556.8},
-        {"lat": 45.8388851, "lon": 6.7581482, "z": 1553.6}
+        {"lat": 45.8389135, "lon": 6.7579859, "z": 1556.4},
+        {"lat": 45.8388935, "lon": 6.7581001, "z": 1554.5}
       ],
       "tags": {
         "access": "yes",
+        "bridge": "yes",
         "foot": "yes",
         "highway": "track",
+        "layer": "1",
         "lit": "no",
         "name": "Route des Chalets de Miage",
         "sac_scale": "hiking",
