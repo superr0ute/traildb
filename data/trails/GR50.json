@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-28T02:35:24Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-05T02:41:20Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11097196,
-      "timestamp": "2021-12-27T21:02:13Z",
-      "version": 69,
-      "changeset": 115443561,
-      "user": "JFK73",
-      "uid": 662440,
+      "timestamp": "2022-01-04T20:47:55Z",
+      "version": 70,
+      "changeset": 115771241,
+      "user": "ArnoDuRivier",
+      "uid": 6316901,
       "members": [
         {"type": "way", "ref": 195718537, "role": ""},
         {"type": "way", "ref": 803487048, "role": ""},
@@ -887,6 +887,8 @@
         {"type": "way", "ref": 1009825713, "role": ""},
         {"type": "way", "ref": 98609983, "role": ""},
         {"type": "way", "ref": 803848766, "role": ""},
+        {"type": "way", "ref": 1018368888, "role": ""},
+        {"type": "way", "ref": 1018368887, "role": ""},
         {"type": "way", "ref": 232935088, "role": ""},
         {"type": "way", "ref": 397605081, "role": ""},
         {"type": "way", "ref": 132676262, "role": ""},
@@ -1125,6 +1127,46 @@
         "highway": "tertiary",
         "name": "Place de la Cour",
         "ref": "D 238"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1018368887,
+      "timestamp": "2022-01-04T20:47:55Z",
+      "version": 1,
+      "changeset": 115771241,
+      "user": "ArnoDuRivier",
+      "uid": 6316901,
+      "nodes": [9392989809, 9392989810],
+      "geometry": [
+        {"lat": 45.0369997, "lon": 6.0416383, "z": 719.2},
+        {"lat": 45.037031, "lon": 6.0415967, "z": 719.3}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "tertiary",
+        "layer": "1",
+        "name": "Route du Vert",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2011"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1018368888,
+      "timestamp": "2022-01-04T20:47:55Z",
+      "version": 1,
+      "changeset": 115771241,
+      "user": "ArnoDuRivier",
+      "uid": 6316901,
+      "nodes": [1140830859, 9392989809],
+      "geometry": [
+        {"lat": 45.0369815, "lon": 6.0416622, "z": 719.2},
+        {"lat": 45.0369997, "lon": 6.0416383, "z": 719.2}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Route du Vert",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2011"
       }
     },
     {
@@ -2876,11 +2918,11 @@
     {
       "type": "way",
       "id": 132668856,
-      "timestamp": "2018-02-22T20:28:57Z",
-      "version": 6,
-      "changeset": 56589486,
-      "user": "Doutuc",
-      "uid": 7599348,
+      "timestamp": "2022-01-04T07:34:10Z",
+      "version": 7,
+      "changeset": 115740580,
+      "user": "ArnoDuRivier",
+      "uid": 6316901,
       "nodes": [1459313248, 923980171],
       "geometry": [
         {"lat": 45.0495488, "lon": 6.0281678, "z": 730.5},
@@ -2892,6 +2934,7 @@
         {"lat": 45.0503189, "lon": 6.0289273, "z": 728.9},
         {"lat": 45.0504108, "lon": 6.0289997, "z": 728.7},
         {"lat": 45.0505134, "lon": 6.0290587, "z": 728.5},
+        {"lat": 45.0505977, "lon": 6.0291071, "z": 728.3},
         {"lat": 45.0509816, "lon": 6.0293278, "z": 727.7},
         {"lat": 45.0513127, "lon": 6.0294379, "z": 727.3},
         {"lat": 45.0517206, "lon": 6.029546, "z": 726.9}
@@ -10613,20 +10656,21 @@
     {
       "type": "way",
       "id": 232935088,
-      "timestamp": "2016-02-13T11:06:21Z",
-      "version": 4,
-      "changeset": 37184213,
-      "user": "Kris Anselmo",
-      "uid": 2735877,
-      "nodes": [1140830859, 1140830610],
+      "timestamp": "2022-01-04T21:31:26Z",
+      "version": 6,
+      "changeset": 115772677,
+      "user": "ArnoDuRivier",
+      "uid": 6316901,
+      "nodes": [9392989810, 1140830610],
       "geometry": [
-        {"lat": 45.0369815, "lon": 6.0416622, "z": 719.2},
+        {"lat": 45.037031, "lon": 6.0415967, "z": 719.3},
+        {"lat": 45.0371712, "lon": 6.0414009, "z": 720},
         {"lat": 45.0374061, "lon": 6.0410751, "z": 723.8},
         {"lat": 45.0377246, "lon": 6.0407318, "z": 725.2},
         {"lat": 45.0380443, "lon": 6.0405029, "z": 724}
       ],
       "tags": {
-        "highway": "unclassified",
+        "highway": "tertiary",
         "name": "Route du Vert",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre;mise à jour : 2011"
       }
@@ -13123,11 +13167,11 @@
     {
       "type": "way",
       "id": 266699505,
-      "timestamp": "2014-03-16T21:57:05Z",
-      "version": 1,
-      "changeset": 21145746,
-      "user": "fmorel",
-      "uid": 331938,
+      "timestamp": "2022-01-04T10:45:52Z",
+      "version": 2,
+      "changeset": 115748336,
+      "user": "TCVizeu",
+      "uid": 6117122,
       "nodes": [2722268416, 1886386278],
       "geometry": [
         {"lat": 44.6001066, "lon": 6.4921082, "z": 1268.2},
@@ -13253,7 +13297,7 @@
         {"lat": 44.5865043, "lon": 6.4967349, "z": 1160},
         {"lat": 44.5864561, "lon": 6.4967272, "z": 1160}
       ],
-      "tags": {"FIXME": "accuracy", "highway": "track"}
+      "tags": {"fixme": "accuracy", "highway": "track"}
     },
     {
       "type": "way",
@@ -18430,17 +18474,18 @@
     {
       "type": "way",
       "id": 397605081,
-      "timestamp": "2016-02-13T11:06:14Z",
-      "version": 1,
-      "changeset": 37184213,
-      "user": "Kris Anselmo",
-      "uid": 2735877,
+      "timestamp": "2022-01-04T20:47:55Z",
+      "version": 2,
+      "changeset": 115771241,
+      "user": "ArnoDuRivier",
+      "uid": 6316901,
       "nodes": [1140830948, 1140830610],
       "geometry": [
         {"lat": 45.039654, "lon": 6.0366602, "z": 742.2},
         {"lat": 45.03948, "lon": 6.037087, "z": 742.5},
         {"lat": 45.0392559, "lon": 6.0376555, "z": 740.2},
         {"lat": 45.0390092, "lon": 6.0383531, "z": 736},
+        {"lat": 45.0388677, "lon": 6.0387072, "z": 733.7},
         {"lat": 45.0385739, "lon": 6.0394423, "z": 726.9},
         {"lat": 45.038341, "lon": 6.039918, "z": 724.4},
         {"lat": 45.0380443, "lon": 6.0405029, "z": 724}
@@ -32789,11 +32834,11 @@
     {
       "type": "way",
       "id": 803848766,
-      "timestamp": "2021-12-07T07:42:07Z",
-      "version": 4,
-      "changeset": 114647406,
-      "user": "Dfaure",
-      "uid": 636158,
+      "timestamp": "2022-01-04T20:47:55Z",
+      "version": 5,
+      "changeset": 115771241,
+      "user": "ArnoDuRivier",
+      "uid": 6316901,
       "nodes": [1140830677, 1140830859],
       "geometry": [
         {"lat": 45.0283607, "lon": 6.0504239, "z": 780.3},
@@ -32833,6 +32878,7 @@
         {"lat": 45.0358822, "lon": 6.0424591, "z": 720.5},
         {"lat": 45.0361779, "lon": 6.042266, "z": 722.8},
         {"lat": 45.036413, "lon": 6.0420943, "z": 725.2},
+        {"lat": 45.0365619, "lon": 6.0419811, "z": 723.2},
         {"lat": 45.0369192, "lon": 6.0417096, "z": 719.2},
         {"lat": 45.0369815, "lon": 6.0416622, "z": 719.2}
       ],
