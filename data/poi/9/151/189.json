@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-01-03T23:59:59Z",
-    "timestamp_osm_base": "2022-01-04T03:51:01Z",
+    "timestamp_osm_date": "2022-01-04T23:59:59Z",
+    "timestamp_osm_base": "2022-01-05T03:55:28Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3322,30 +3322,6 @@
     },
     {
       "type": "node",
-      "id": 158863355,
-      "lat": 42.0562025,
-      "lon": -73.4662312,
-      "timestamp": "2008-12-06T15:31:29Z",
-      "version": 2,
-      "changeset": 158653,
-      "user": "davidearl",
-      "uid": 3582,
-      "tags": {
-        "ele": "558",
-        "gnis:Class": "Populated Place",
-        "gnis:County": "Berkshire",
-        "gnis:County_num": "003",
-        "gnis:ST_alpha": "MA",
-        "gnis:ST_num": "25",
-        "gnis:id": "607265",
-        "import_uuid": "bb7269ee-502a-5391-8056-e3ce0e66489c",
-        "is_in": "Berkshire,Massachusetts,Mass.,MA,USA",
-        "name": "Alander",
-        "place": "hamlet"
-      }
-    },
-    {
-      "type": "node",
       "id": 158863496,
       "lat": 42.3509179,
       "lon": -73.8029028,
@@ -5865,16 +5841,20 @@
       "id": 4217652848,
       "lat": 42.053308,
       "lon": -73.4507741,
-      "timestamp": "2016-05-31T16:38:24Z",
-      "version": 1,
-      "changeset": 39692802,
-      "user": "Joao Bras-Jorge",
-      "uid": 2552266,
+      "timestamp": "2022-01-04T19:29:12Z",
+      "version": 2,
+      "changeset": 115768417,
+      "user": "Greg_Rose",
+      "uid": 4622040,
       "tags": {
         "description": "8 campsites approximately\n1 group site\nBear boxes and privys available\nAn AMC host stays there from Memorial Day till Labor Day approx.",
         "fee": "no",
-        "name": "Sage's Ravine Campground",
-        "operator": "AMC",
+        "name": "Sage's Ravine",
+        "operator": "Appalachian Mountain Club",
+        "operator:short": "AMC",
+        "operator:type": "private",
+        "operator:wikidata": "Q2858593",
+        "operator:wikipedia": "en:Appalachian Mountain Club",
         "tourism": "camp_site"
       }
     },
@@ -5919,13 +5899,13 @@
     {
       "type": "node",
       "id": 4485893790,
-      "lat": 42.0923779,
-      "lon": -73.4861331,
-      "timestamp": "2016-11-06T19:45:13Z",
-      "version": 1,
-      "changeset": 43449382,
-      "user": "Joao Bras-Jorge",
-      "uid": 2552266,
+      "lat": 42.0919002,
+      "lon": -73.4862028,
+      "timestamp": "2022-01-04T01:47:03Z",
+      "version": 2,
+      "changeset": 115733827,
+      "user": "Greg_Rose",
+      "uid": 4622040,
       "tags": {
         "name": "Primitive Campground",
         "tourism": "camp_site"
@@ -7281,6 +7261,25 @@
         "amenity": "shelter",
         "building": "yes",
         "shelter_type": "gazebo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1018155450,
+      "timestamp": "2022-01-04T01:47:03Z",
+      "version": 1,
+      "changeset": 115733827,
+      "user": "Greg_Rose",
+      "uid": 4622040,
+      "center": {
+        "lat": 42.0881182,
+        "lon": -73.5033203
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "lean_to"
       }
     }
   ]

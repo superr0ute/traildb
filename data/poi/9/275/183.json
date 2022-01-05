@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-01-03T23:59:59Z",
-    "timestamp_osm_base": "2022-01-04T04:52:53Z",
+    "timestamp_osm_date": "2022-01-04T23:59:59Z",
+    "timestamp_osm_base": "2022-01-05T05:00:11Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -20259,10 +20259,10 @@
       "user": "Ramying",
       "uid": 668137,
       "tags": {
+        "place": "village",
         "name": "Šalet / Saletto",
         "name:it": "Saletto",
-        "name:sl": "Šalet",
-        "place": "village"
+        "name:sl": "Šalet"
       }
     },
     {
@@ -20573,11 +20573,11 @@
       "user": "bjankuloski",
       "uid": 158784,
       "tags": {
+        "place": "village",
         "name": "Jagodje / Valleggia",
         "name:it": "Valleggia",
         "name:mk": "Јагодје",
         "name:sl": "Jagodje",
-        "place": "village",
         "population": "2197",
         "wikidata": "Q6122752",
         "wikipedia": "sl:Jagodje"
@@ -22109,11 +22109,11 @@
     {
       "type": "node",
       "id": 3758094966,
-      "lat": 45.5475727,
-      "lon": 13.7336964,
-      "timestamp": "2022-01-03T15:59:37Z",
-      "version": 2,
-      "changeset": 115718075,
+      "lat": 45.5475866,
+      "lon": 13.7336888,
+      "timestamp": "2022-01-04T12:51:57Z",
+      "version": 3,
+      "changeset": 115753832,
       "user": "mkljun1",
       "uid": 14353416,
       "tags": {
@@ -24713,24 +24713,6 @@
       "uid": 4283111,
       "tags": {
         "amenity": "drinking_water"
-      }
-    },
-    {
-      "type": "node",
-      "id": 5620007821,
-      "lat": 45.432577,
-      "lon": 13.5309413,
-      "timestamp": "2021-07-20T07:41:35Z",
-      "version": 3,
-      "changeset": 108296964,
-      "user": "runejuhl",
-      "uid": 367181,
-      "tags": {
-        "addr:street": "Kolodvorska ulica",
-        "amenity": "fuel",
-        "name": "BP APIOS",
-        "name:en": "Gas Station",
-        "shop": "convenience"
       }
     },
     {
@@ -32801,19 +32783,27 @@
     {
       "type": "way",
       "id": 193291534,
-      "timestamp": "2012-11-29T10:41:59Z",
-      "version": 3,
-      "changeset": 14084726,
-      "user": "Admiral72",
-      "uid": 305562,
+      "timestamp": "2022-01-04T20:13:58Z",
+      "version": 4,
+      "changeset": 115770016,
+      "user": "mkljun1",
+      "uid": 14353416,
       "center": {
         "lat": 45.5411047,
         "lon": 13.7177982
       },
       "nodes": [],
       "tags": {
+        "addr:city": "Koper",
+        "addr:housenumber": "2a",
+        "addr:postcode": "6000",
+        "addr:street": "Nova ulica / Via Nuova",
+        "branch": "Semedela",
+        "brand": "Mercator",
+        "brand:wikidata": "Q738412",
+        "brand:wikipedia": "en:Mercator (retail)",
         "building": "supermarket",
-        "name": "Mercator Semedela",
+        "name": "Mercator",
         "shop": "supermarket"
       }
     },
@@ -34317,6 +34307,27 @@
         "phone": "+38552866943",
         "tourism": "camp_site",
         "website": "http://www.camp-lighthouse.hr/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1018233512,
+      "timestamp": "2022-01-04T10:26:47Z",
+      "version": 1,
+      "changeset": 115747459,
+      "user": "Janjko",
+      "uid": 244754,
+      "center": {
+        "lat": 45.4325703,
+        "lon": 13.5307887
+      },
+      "nodes": [],
+      "tags": {
+        "addr:street": "Kolodvorska ulica",
+        "amenity": "fuel",
+        "name": "BP APIOS",
+        "name:en": "Gas Station",
+        "shop": "convenience"
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-01-03T23:59:59Z",
-    "timestamp_osm_base": "2022-01-04T04:28:34Z",
+    "timestamp_osm_date": "2022-01-04T23:59:59Z",
+    "timestamp_osm_base": "2022-01-05T04:32:56Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -17081,14 +17081,18 @@
       "id": 1374171438,
       "lat": 46.7547833,
       "lon": 7.6298803,
-      "timestamp": "2012-10-06T19:30:16Z",
-      "version": 4,
-      "changeset": 13389620,
-      "user": "kehrli",
-      "uid": 952879,
+      "timestamp": "2022-01-04T21:25:29Z",
+      "version": 5,
+      "changeset": 115772483,
+      "user": "bjc",
+      "uid": 68360,
       "tags": {
+        "amenity": "wifihotspot",
         "name": "Aperto",
-        "opening_hours": "Mo-Sa 06:00-22:00; Su 07:00-22:00",
+        "opening_hours": "Mo-Fr 05:15-17:00; Sa,Su 06:00-17:00",
+        "payment:cash": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
         "shop": "convenience",
         "wheelchair": "yes"
       }
@@ -43098,9 +43102,9 @@
     {
       "type": "way",
       "id": 211181854,
-      "timestamp": "2022-01-03T12:18:37Z",
-      "version": 9,
-      "changeset": 115708777,
+      "timestamp": "2022-01-04T21:25:29Z",
+      "version": 11,
+      "changeset": 115772483,
       "user": "bjc",
       "uid": 68360,
       "center": {
@@ -43111,15 +43115,26 @@
       "tags": {
         "addr:housenumber": "10",
         "addr:street": "Weststrasse",
+        "amenity": "wifihotspot",
         "brand": "Migrolino",
         "brand:wikidata": "Q56745088",
         "brand:wikipedia": "de:Migrolino",
         "building": "retail",
         "building:levels": "1",
+        "man_made": "surveillance",
         "name": "migrolino",
-        "opening_hours": "Mo-Su,PH 06:00-22:00",
+        "opening_hours": "Mo-Fr 06:00-22:00; Sa 07:00-22:00",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:postfinance_card": "yes",
+        "payment:visa": "yes",
         "roof:shape": "flat",
         "shop": "convenience",
+        "surveillance": "indoor",
+        "surveillance:type": "camera",
+        "surveillance:zone": "shop",
         "wheelchair": "yes"
       }
     },
