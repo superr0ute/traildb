@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-01T02:44:09Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-06T02:45:41Z"},
   "elements": [
     {
       "type": "relation",
       "id": 7700604,
-      "timestamp": "2021-12-29T22:57:40Z",
-      "version": 374,
-      "changeset": 115540899,
-      "user": "aceman444",
-      "uid": 1617449,
+      "timestamp": "2022-01-05T22:18:45Z",
+      "version": 375,
+      "changeset": 115814712,
+      "user": "Mirecnet",
+      "uid": 2323152,
       "members": [
         {"type": "node", "ref": 2827666105, "role": "guidepost"},
         {"type": "node", "ref": 750482929, "role": "guidepost"},
@@ -1311,6 +1311,7 @@
         {"type": "way", "ref": 87013631, "role": ""},
         {"type": "way", "ref": 867099479, "role": ""},
         {"type": "way", "ref": 87013642, "role": ""},
+        {"type": "way", "ref": 1018648650, "role": ""},
         {"type": "way", "ref": 101597761, "role": ""},
         {"type": "way", "ref": 54042761, "role": ""},
         {"type": "way", "ref": 294236083, "role": ""},
@@ -2395,14 +2396,14 @@
     {
       "type": "way",
       "id": 101597761,
-      "timestamp": "2021-01-21T19:28:54Z",
-      "version": 3,
-      "changeset": 97924475,
-      "user": "radokado",
-      "uid": 513818,
-      "nodes": [773466984, 8082452206],
+      "timestamp": "2022-01-05T22:18:45Z",
+      "version": 4,
+      "changeset": 115814712,
+      "user": "Mirecnet",
+      "uid": 2323152,
+      "nodes": [9395493616, 8082452206],
       "geometry": [
-        {"lat": 48.9576872, "lon": 18.4748321, "z": 1034.2},
+        {"lat": 48.9576821, "lon": 18.4748351, "z": 1034.3},
         {"lat": 48.957441, "lon": 18.4746267, "z": 1045},
         {"lat": 48.9573523, "lon": 18.4745717, "z": 1049},
         {"lat": 48.957172, "lon": 18.4745221, "z": 1056.4},
@@ -2444,6 +2445,32 @@
         {"lat": 48.1649998, "lon": 17.0606173, "z": 240.6}
       ],
       "tags": {"highway": "track"}
+    },
+    {
+      "type": "way",
+      "id": 1018648650,
+      "timestamp": "2022-01-05T22:18:45Z",
+      "version": 1,
+      "changeset": 115814712,
+      "user": "Mirecnet",
+      "uid": 2323152,
+      "nodes": [8082429623, 9395493616],
+      "geometry": [
+        {"lat": 48.9565451, "lon": 18.4824789, "z": 879.9},
+        {"lat": 48.9565848, "lon": 18.4823933, "z": 881.4},
+        {"lat": 48.9566294, "lon": 18.482243, "z": 883.3},
+        {"lat": 48.9566724, "lon": 18.48203, "z": 886.2},
+        {"lat": 48.9567129, "lon": 18.4818009, "z": 891.1},
+        {"lat": 48.9568012, "lon": 18.4811856, "z": 904.4},
+        {"lat": 48.957122, "lon": 18.4792008, "z": 942.5},
+        {"lat": 48.957202, "lon": 18.4787122, "z": 951.6},
+        {"lat": 48.9574216, "lon": 18.4773212, "z": 981.4},
+        {"lat": 48.9575403, "lon": 18.4764124, "z": 1005},
+        {"lat": 48.9575701, "lon": 18.4760912, "z": 1012.6},
+        {"lat": 48.9575983, "lon": 18.4757068, "z": 1021.1},
+        {"lat": 48.9576821, "lon": 18.4748351, "z": 1034.3}
+      ],
+      "tags": {"highway": "path", "source": "survey, GPS"}
     },
     {
       "type": "way",
@@ -18467,9 +18494,9 @@
         {"lat": 48.7313252, "lon": 18.9428043, "z": 965.6}
       ],
       "tags": {
+        "piste:grooming": "classic;skating",
         "highway": "path",
         "piste:difficulty": "intermediate",
-        "piste:grooming": "classic;skating",
         "piste:type": "nordic"
       }
     },
@@ -21391,11 +21418,11 @@
     {
       "type": "way",
       "id": 327069887,
-      "timestamp": "2021-12-23T14:20:54Z",
-      "version": 7,
-      "changeset": 115300801,
-      "user": "pyrog",
-      "uid": 270456,
+      "timestamp": "2022-01-05T23:58:27Z",
+      "version": 8,
+      "changeset": 115811907,
+      "user": "woodpeck_repair",
+      "uid": 145231,
       "nodes": [253654999, 6883423411],
       "geometry": [
         {"lat": 48.7385761, "lon": 18.9784769, "z": 1185.9},
@@ -21422,7 +21449,7 @@
       "tags": {
         "highway": "track",
         "piste:difficulty": "intermediate",
-        "piste:grooming": "classic;skating",
+        "piste:grooming": "classic+skating",
         "piste:type": "nordic",
         "tracktype": "grade3"
       }
@@ -52579,11 +52606,11 @@
     {
       "type": "way",
       "id": 734948747,
-      "timestamp": "2021-12-23T14:21:35Z",
-      "version": 3,
-      "changeset": 115300827,
-      "user": "pyrog",
-      "uid": 270456,
+      "timestamp": "2022-01-05T23:59:14Z",
+      "version": 4,
+      "changeset": 115811907,
+      "user": "woodpeck_repair",
+      "uid": 145231,
       "nodes": [6883423411, 8119558298],
       "geometry": [
         {"lat": 48.7395257, "lon": 18.9835498, "z": 1170},
@@ -52597,7 +52624,7 @@
       "tags": {
         "highway": "track",
         "piste:difficulty": "intermediate",
-        "piste:grooming": "classic;skating",
+        "piste:grooming": "classic+skating",
         "piste:type": "nordic",
         "tracktype": "grade3"
       }
@@ -55994,12 +56021,12 @@
     {
       "type": "way",
       "id": 87013642,
-      "timestamp": "2021-03-22T20:12:51Z",
-      "version": 6,
-      "changeset": 101527239,
-      "user": "ICE2502",
-      "uid": 12628054,
-      "nodes": [773466996, 773466984],
+      "timestamp": "2022-01-05T22:18:45Z",
+      "version": 7,
+      "changeset": 115814712,
+      "user": "Mirecnet",
+      "uid": 2323152,
+      "nodes": [773466996, 8082429623],
       "geometry": [
         {"lat": 48.9520779, "lon": 18.4842142, "z": 789.6},
         {"lat": 48.9523351, "lon": 18.4841957, "z": 795.1},
@@ -56018,21 +56045,13 @@
         {"lat": 48.9555852, "lon": 18.4834949, "z": 860.4},
         {"lat": 48.9561936, "lon": 18.4829109, "z": 872.7},
         {"lat": 48.9565174, "lon": 18.4825387, "z": 879.1},
-        {"lat": 48.9565451, "lon": 18.4824789, "z": 879.9},
-        {"lat": 48.9565848, "lon": 18.4823933, "z": 881.4},
-        {"lat": 48.9566294, "lon": 18.482243, "z": 883.3},
-        {"lat": 48.9566724, "lon": 18.48203, "z": 886.2},
-        {"lat": 48.9567129, "lon": 18.4818009, "z": 891.1},
-        {"lat": 48.9568012, "lon": 18.4811856, "z": 904.4},
-        {"lat": 48.957122, "lon": 18.4792008, "z": 942.5},
-        {"lat": 48.957202, "lon": 18.4787122, "z": 951.6},
-        {"lat": 48.9574216, "lon": 18.4773212, "z": 981.4},
-        {"lat": 48.9575403, "lon": 18.4764124, "z": 1005},
-        {"lat": 48.9575701, "lon": 18.4760912, "z": 1012.6},
-        {"lat": 48.9575983, "lon": 18.4757068, "z": 1021.1},
-        {"lat": 48.9576872, "lon": 18.4748321, "z": 1034.2}
+        {"lat": 48.9565451, "lon": 18.4824789, "z": 879.9}
       ],
-      "tags": {"highway": "path"}
+      "tags": {
+        "highway": "track",
+        "source": "survey, GPS",
+        "tracktype": "grade5"
+      }
     },
     {
       "type": "way",
