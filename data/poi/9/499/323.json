@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-01-05T23:59:59Z",
-    "timestamp_osm_base": "2022-01-06T06:27:13Z",
+    "timestamp_osm_date": "2022-01-06T23:59:59Z",
+    "timestamp_osm_base": "2022-01-07T06:26:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -666,16 +666,18 @@
       "id": 2246820566,
       "lat": -42.8293483,
       "lon": 171.5613766,
-      "timestamp": "2018-11-02T06:38:57Z",
-      "version": 4,
-      "changeset": 64102283,
-      "user": "lcmortensen",
-      "uid": 341519,
+      "timestamp": "2022-01-06T01:24:43Z",
+      "version": 5,
+      "changeset": 115817781,
+      "user": "kylenz",
+      "uid": 10140394,
       "tags": {
-        "wikidata": "Q794802",
-        "place": "hamlet",
         "name": "Otira",
-        "name:mi": "Ōtira"
+        "name:mi": "Ōtira",
+        "place": "hamlet",
+        "population": "651",
+        "wikidata": "Q794802",
+        "wikipedia": "en:Otira"
       }
     },
     {
@@ -2641,21 +2643,22 @@
     {
       "type": "way",
       "id": 297010208,
-      "timestamp": "2019-10-11T22:18:04Z",
-      "version": 3,
-      "changeset": 75587400,
-      "user": "gerkin",
-      "uid": 54757,
+      "timestamp": "2022-01-06T01:24:43Z",
+      "version": 4,
+      "changeset": 115817781,
+      "user": "kylenz",
+      "uid": 10140394,
       "center": {
         "lat": -42.9407716,
         "lon": 171.5625352
       },
       "nodes": [],
       "tags": {
-        "name": "Avalanche Creek Shelter",
         "amenity": "shelter",
         "bin": "yes",
-        "drinking_water": "yes"
+        "building": "yes",
+        "drinking_water": "yes",
+        "name": "Avalanche Creek Shelter"
       }
     },
     {
@@ -2922,21 +2925,20 @@
     {
       "type": "way",
       "id": 787839660,
-      "timestamp": "2020-04-13T14:42:02Z",
-      "version": 2,
-      "changeset": 83483317,
-      "user": "Sarvihepo",
-      "uid": 2057798,
+      "timestamp": "2022-01-06T02:17:56Z",
+      "version": 3,
+      "changeset": 115818318,
+      "user": "kylenz",
+      "uid": 10140394,
       "center": {
         "lat": -42.941425,
         "lon": 171.5613417
       },
       "nodes": [],
       "tags": {
-        "website": "https://alpineclub.org.nz/product/arthurs-pass-lodge/",
-        "tourism": "wilderness_hut",
-        "shower": "hot",
-        "reservation": "required",
+        "addr:hamlet": "Arthur's Pass National Park",
+        "addr:housenumber": "79",
+        "addr:street": "School Terrace",
         "building": "yes",
         "drinking_water": "yes",
         "email": "office@alpineclub.org.nz",
@@ -2944,7 +2946,12 @@
         "mattress": "yes",
         "name": "Arthurs Pass Lodge",
         "operator": "New Zealand Alpine Club",
-        "phone": "+6433777595"
+        "phone": "+6433777595",
+        "ref:linz:address_id": "1416168",
+        "reservation": "required",
+        "shower": "hot",
+        "tourism": "wilderness_hut",
+        "website": "https://alpineclub.org.nz/product/arthurs-pass-lodge/"
       }
     },
     {

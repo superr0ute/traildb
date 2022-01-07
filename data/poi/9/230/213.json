@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-01-05T23:59:59Z",
-    "timestamp_osm_base": "2022-01-06T03:26:16Z",
+    "timestamp_osm_date": "2022-01-06T23:59:59Z",
+    "timestamp_osm_base": "2022-01-07T04:16:43Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1698,19 +1698,22 @@
     {
       "type": "node",
       "id": 700354635,
-      "lat": 28.681328,
-      "lon": -17.766314,
-      "timestamp": "2021-09-28T21:56:44Z",
-      "version": 4,
-      "changeset": 111838991,
-      "user": "5R-MFT",
-      "uid": 3417876,
+      "lat": 28.681346,
+      "lon": -17.7662831,
+      "timestamp": "2022-01-06T14:24:59Z",
+      "version": 5,
+      "changeset": 115839634,
+      "user": "qpeso",
+      "uid": 64557,
       "tags": {
         "brand": "Spar",
         "brand:wikidata": "Q610492",
         "brand:wikipedia": "en:SPAR (retailer)",
+        "level": "0",
         "name": "Spar Express",
-        "shop": "convenience"
+        "opening_hours": "Mo-Sa 08:00-20:30",
+        "shop": "convenience",
+        "wheelchair": "yes"
       }
     },
     {
@@ -5841,21 +5844,23 @@
       "id": 6177005513,
       "lat": 28.8024499,
       "lon": -17.7735563,
-      "timestamp": "2021-03-14T15:17:18Z",
-      "version": 4,
-      "changeset": 100993916,
-      "user": "mDav",
-      "uid": 7882299,
+      "timestamp": "2022-01-06T16:56:50Z",
+      "version": 5,
+      "changeset": 115845582,
+      "user": "qpeso",
+      "uid": 64557,
       "tags": {
         "brand": "SuperDino",
         "brand:wikidata": "Q105955304",
-        "name": "SuperDino Los Sauces",
+        "level": "0",
+        "name": "SuperDino",
         "opening_hours": "Mo-Sa 08:30-21:00",
         "operator": "DinoSol",
         "operator:wikidata": "Q5278478",
         "phone": "922451679;922451854",
         "shop": "supermarket",
-        "website": "https://www.hiperdino.es/c9504/tiendas/index/detail/id/185/"
+        "website": "https://www.hiperdino.es/c9504/tiendas/index/detail/id/185/",
+        "wheelchair": "yes"
       }
     },
     {
@@ -7411,6 +7416,25 @@
     },
     {
       "type": "way",
+      "id": 513156790,
+      "timestamp": "2022-01-06T08:44:33Z",
+      "version": 3,
+      "changeset": 115826739,
+      "user": "Galbinus",
+      "uid": 162630,
+      "center": {
+        "lat": 28.6334243,
+        "lon": -17.8888191
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
       "id": 541679234,
       "timestamp": "2017-11-19T11:24:00Z",
       "version": 1,
@@ -7686,6 +7710,25 @@
       "center": {
         "lat": 28.6781413,
         "lon": -17.7768447
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1018734627,
+      "timestamp": "2022-01-06T08:44:33Z",
+      "version": 1,
+      "changeset": 115826739,
+      "user": "Galbinus",
+      "uid": 162630,
+      "center": {
+        "lat": 28.6329151,
+        "lon": -17.8886569
       },
       "nodes": [],
       "tags": {
