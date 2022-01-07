@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-11-02T02:34:28Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-07T02:49:25Z"},
   "elements": [
     {
       "type": "relation",
@@ -2108,11 +2108,11 @@
     {
       "type": "way",
       "id": 222348085,
-      "timestamp": "2019-12-01T20:47:34Z",
-      "version": 4,
-      "changeset": 77790950,
-      "user": "JayCBR",
-      "uid": 2700471,
+      "timestamp": "2022-01-06T09:36:58Z",
+      "version": 6,
+      "changeset": 115827817,
+      "user": "nightmw",
+      "uid": 465675,
       "nodes": [2313215447, 2313215454],
       "geometry": [
         {"lat": 29.060483, "lon": -13.560375, "z": 303.7},
@@ -2121,8 +2121,10 @@
         {"lat": 29.0606624, "lon": -13.5600877, "z": 304.8}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "tertiary",
-        "name": "Calle del Puerto y Villa Garachico"
+        "name": "Calle del Puerto y Villa Garachico",
+        "surface": "asphalt"
       }
     },
     {
@@ -8692,11 +8694,11 @@
     {
       "type": "way",
       "id": 938793227,
-      "timestamp": "2021-05-04T11:00:49Z",
-      "version": 1,
-      "changeset": 104118480,
-      "user": "mDav",
-      "uid": 7882299,
+      "timestamp": "2022-01-06T09:46:35Z",
+      "version": 3,
+      "changeset": 115827811,
+      "user": "nightmw",
+      "uid": 465675,
       "nodes": [7077649856, 7840962521],
       "geometry": [
         {"lat": 29.0603661, "lon": -13.5606181, "z": 302.7},
@@ -8709,7 +8711,9 @@
       "tags": {
         "highway": "residential",
         "name": "Plaza de Clavijo y Fajardo",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sidewalk": "both",
+        "surface": "paving_stones"
       }
     },
     {

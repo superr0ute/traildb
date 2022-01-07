@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2021-12-31T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-06T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 12038457,
-      "timestamp": "2021-12-17T17:13:51Z",
-      "version": 150,
-      "changeset": 115064705,
-      "user": "Sibney",
-      "uid": 14601470,
+      "timestamp": "2022-01-06T02:54:55Z",
+      "version": 151,
+      "changeset": 115818695,
+      "user": "alester",
+      "uid": 307202,
       "members": [
         {"type": "way", "ref": 810338364, "role": "alternative"},
         {"type": "way", "ref": 810338373, "role": "alternative"},
@@ -125,8 +125,6 @@
         {"type": "way", "ref": 980671500, "role": ""},
         {"type": "way", "ref": 886611652, "role": ""},
         {"type": "way", "ref": 979720305, "role": ""},
-        {"type": "way", "ref": 892546516, "role": ""},
-        {"type": "way", "ref": 892546517, "role": ""},
         {"type": "way", "ref": 408034512, "role": "provisional"},
         {"type": "way", "ref": 146574882, "role": ""},
         {"type": "way", "ref": 146574881, "role": "provisional"},
@@ -820,19 +818,19 @@
     {
       "type": "way",
       "id": 1000056427,
-      "timestamp": "2021-11-06T23:07:48Z",
-      "version": 1,
-      "changeset": 113463900,
-      "user": "TeLewis",
-      "uid": 10135746,
-      "nodes": [7574094672, 9231262379],
+      "timestamp": "2022-01-06T02:54:55Z",
+      "version": 2,
+      "changeset": 115818695,
+      "user": "alester",
+      "uid": 307202,
+      "nodes": [7574094672, 7644776673],
       "geometry": [
         {"lat": 50.0962173, "lon": -126.0521912},
-        {"lat": 50.0961379, "lon": -126.0518234}
+        {"lat": 50.0961318, "lon": -126.0517966}
       ],
       "tags": {
         "highway": "unclassified",
-        "name": "Stewart Mn",
+        "name": "Stewart Main",
         "surface": "gravel"
       }
     },
@@ -24505,11 +24503,11 @@
     {
       "type": "way",
       "id": 886615539,
-      "timestamp": "2021-10-10T17:44:21Z",
-      "version": 4,
-      "changeset": 112343224,
-      "user": "TeLewis",
-      "uid": 10135746,
+      "timestamp": "2022-01-06T02:50:13Z",
+      "version": 5,
+      "changeset": 115818646,
+      "user": "alester",
+      "uid": 307202,
       "nodes": [8244384438, 7594427935],
       "geometry": [
         {"lat": 50.1098731, "lon": -126.2312902},
@@ -24536,7 +24534,6 @@
         {"lat": 50.0999174, "lon": -126.2187064}
       ],
       "tags": {
-        "access": "no",
         "bicycle": "no",
         "foot": "yes",
         "highway": "footway",
@@ -28345,51 +28342,6 @@
         {"lat": 48.413606, "lon": -123.3247023}
       ],
       "tags": {"highway": "footway"}
-    },
-    {
-      "type": "way",
-      "id": 892546516,
-      "timestamp": "2021-01-06T06:41:01Z",
-      "version": 1,
-      "changeset": 97025004,
-      "user": "Solarisphere",
-      "uid": 8285516,
-      "nodes": [4876528148, 8295635269],
-      "geometry": [
-        {"lat": 50.0970421, "lon": -126.0532293},
-        {"lat": 50.0970055, "lon": -126.0529758},
-        {"lat": 50.0970872, "lon": -126.0525275},
-        {"lat": 50.0970297, "lon": -126.0522679},
-        {"lat": 50.0970267, "lon": -126.0518951},
-        {"lat": 50.0972507, "lon": -126.0518196},
-        {"lat": 50.0974838, "lon": -126.0518763},
-        {"lat": 50.0976291, "lon": -126.0519046},
-        {"lat": 50.0980225, "lon": -126.0520866},
-        {"lat": 50.0982183, "lon": -126.0521239},
-        {"lat": 50.0985578, "lon": -126.0520928},
-        {"lat": 50.0990131, "lon": -126.0518811},
-        {"lat": 50.099077, "lon": -126.0517503}
-      ],
-      "tags": {"highway": "footway"}
-    },
-    {
-      "type": "way",
-      "id": 892546517,
-      "timestamp": "2021-01-06T06:41:01Z",
-      "version": 1,
-      "changeset": 97025004,
-      "user": "Solarisphere",
-      "uid": 8285516,
-      "nodes": [8295635269, 8295635273],
-      "geometry": [
-        {"lat": 50.099077, "lon": -126.0517503},
-        {"lat": 50.099057, "lon": -126.0515199},
-        {"lat": 50.0989212, "lon": -126.0512086},
-        {"lat": 50.0987794, "lon": -126.0510385},
-        {"lat": 50.0987135, "lon": -126.0509595},
-        {"lat": 50.0985378, "lon": -126.0505361}
-      ],
-      "tags": {"ford": "yes", "highway": "footway"}
     },
     {
       "type": "way",

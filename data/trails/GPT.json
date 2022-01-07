@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-01T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-06T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -131,7 +131,7 @@
       "timestamp": "2021-03-27T16:13:35Z",
       "version": 19,
       "changeset": 101843555,
-      "user": "finals100",
+      "user": "salve100",
       "uid": 12108543,
       "members": [
         {"type": "way", "ref": 458821228, "role": ""},
@@ -510,12 +510,14 @@
     {
       "type": "relation",
       "id": 6814156,
-      "timestamp": "2020-11-24T15:33:30Z",
-      "version": 14,
-      "changeset": 94715640,
+      "timestamp": "2022-01-06T20:27:39Z",
+      "version": 15,
+      "changeset": 115852618,
       "user": "felipeeugenio",
       "uid": 337684,
       "members": [
+        {"type": "way", "ref": 1018884269, "role": ""},
+        {"type": "way", "ref": 1018884270, "role": ""},
         {"type": "way", "ref": 461237771, "role": ""},
         {"type": "way", "ref": 397169620, "role": ""},
         {"type": "way", "ref": 125113739, "role": ""},
@@ -1491,11 +1493,60 @@
     },
     {
       "type": "way",
+      "id": 1018884269,
+      "timestamp": "2022-01-06T20:27:39Z",
+      "version": 1,
+      "changeset": 115852618,
+      "user": "felipeeugenio",
+      "uid": 337684,
+      "nodes": [280565415, 1390373131],
+      "geometry": [
+        {"lat": -41.4924656, "lon": -72.307967},
+        {"lat": -41.4929928, "lon": -72.3054209}
+      ],
+      "tags": {
+        "attribution": "Vialidad",
+        "chile:region": "10",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Avenida Cochamó",
+        "ref": "V-69",
+        "source": "vialidad.cl",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1018884270,
+      "timestamp": "2022-01-06T20:27:39Z",
+      "version": 1,
+      "changeset": 115852618,
+      "user": "felipeeugenio",
+      "uid": 337684,
+      "nodes": [1390373131, 1856515164],
+      "geometry": [
+        {"lat": -41.4929928, "lon": -72.3054209},
+        {"lat": -41.4931626, "lon": -72.3046036},
+        {"lat": -41.4932002, "lon": -72.3044491}
+      ],
+      "tags": {
+        "attribution": "Vialidad",
+        "chile:region": "10",
+        "highway": "primary",
+        "lanes": "2",
+        "name": "Avenida Cochamó",
+        "ref": "V-69",
+        "source": "vialidad.cl",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
       "id": 104416503,
       "timestamp": "2021-02-11T18:39:01Z",
       "version": 5,
       "changeset": 99128885,
-      "user": "finals100",
+      "user": "salve100",
       "uid": 12108543,
       "nodes": [1204774039, 1204929206],
       "geometry": [
@@ -1643,7 +1694,7 @@
       "timestamp": "2021-02-26T20:37:52Z",
       "version": 5,
       "changeset": 100073843,
-      "user": "finals100",
+      "user": "salve100",
       "uid": 12108543,
       "nodes": [1204774683, 1204774179],
       "geometry": [
@@ -23871,7 +23922,7 @@
       "timestamp": "2021-03-01T21:32:10Z",
       "version": 4,
       "changeset": 100231440,
-      "user": "finals100",
+      "user": "salve100",
       "uid": 12108543,
       "nodes": [4547959647, 4547967563],
       "geometry": [
@@ -23919,7 +23970,7 @@
       "timestamp": "2021-02-12T14:19:20Z",
       "version": 5,
       "changeset": 99181231,
-      "user": "finals100",
+      "user": "salve100",
       "uid": 12108543,
       "nodes": [4547966900, 4547967792],
       "geometry": [
@@ -25761,7 +25812,7 @@
       "timestamp": "2021-02-11T18:39:01Z",
       "version": 5,
       "changeset": 99128885,
-      "user": "finals100",
+      "user": "salve100",
       "uid": 12108543,
       "nodes": [1204774179, 4547966900],
       "geometry": [
@@ -39394,7 +39445,7 @@
       "timestamp": "2021-03-27T16:13:35Z",
       "version": 2,
       "changeset": 101843555,
-      "user": "finals100",
+      "user": "salve100",
       "uid": 12108543,
       "nodes": [8567371840, 4547967082],
       "geometry": [
@@ -44330,16 +44381,13 @@
     {
       "type": "way",
       "id": 461237771,
-      "timestamp": "2021-11-19T19:41:42Z",
-      "version": 10,
-      "changeset": 114005740,
+      "timestamp": "2022-01-06T20:27:39Z",
+      "version": 11,
+      "changeset": 115852618,
       "user": "felipeeugenio",
       "uid": 337684,
-      "nodes": [280565415, 1636904772],
+      "nodes": [1856515164, 1636904772],
       "geometry": [
-        {"lat": -41.4924656, "lon": -72.307967},
-        {"lat": -41.4929928, "lon": -72.3054209},
-        {"lat": -41.4931626, "lon": -72.3046036},
         {"lat": -41.4932002, "lon": -72.3044491},
         {"lat": -41.4934548, "lon": -72.3032326},
         {"lat": -41.4938545, "lon": -72.3016378},
@@ -89672,7 +89720,7 @@
       "timestamp": "2021-03-27T16:13:35Z",
       "version": 1,
       "changeset": 101843555,
-      "user": "finals100",
+      "user": "salve100",
       "uid": 12108543,
       "nodes": [4564440870, 8567371841],
       "geometry": [
@@ -89706,7 +89754,7 @@
       "timestamp": "2021-03-27T16:13:35Z",
       "version": 1,
       "changeset": 101843555,
-      "user": "finals100",
+      "user": "salve100",
       "uid": 12108543,
       "nodes": [8567371841, 8567371840],
       "geometry": [
