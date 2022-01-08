@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-02T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-07T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -239,11 +239,11 @@
     {
       "type": "relation",
       "id": 3718820,
-      "timestamp": "2022-01-02T07:13:23Z",
-      "version": 220,
-      "changeset": 115659284,
-      "user": "Adam Schneider",
-      "uid": 5403394,
+      "timestamp": "2022-01-07T06:06:14Z",
+      "version": 221,
+      "changeset": 115863398,
+      "user": "TorCguy",
+      "uid": 338843,
       "members": [
         {"type": "way", "ref": 818255158, "role": ""},
         {"type": "way", "ref": 820116389, "role": ""},
@@ -279,6 +279,7 @@
         {"type": "way", "ref": 6216091, "role": ""},
         {"type": "way", "ref": 6219573, "role": ""},
         {"type": "way", "ref": 820116375, "role": ""},
+        {"type": "way", "ref": 1018986666, "role": ""},
         {"type": "way", "ref": 6219895, "role": ""},
         {"type": "way", "ref": 820116374, "role": ""},
         {"type": "way", "ref": 284508000, "role": ""},
@@ -1105,6 +1106,42 @@
         "tiger:cfcc": "A41",
         "tiger:county": "Ferry, WA",
         "tiger:reviewed": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1018986666,
+      "timestamp": "2022-01-07T06:06:14Z",
+      "version": 1,
+      "changeset": 115863398,
+      "user": "TorCguy",
+      "uid": 338843,
+      "nodes": [2491704703, 51861641],
+      "geometry": [
+        {"lat": 48.9177604, "lon": -117.7772695},
+        {"lat": 48.9178809, "lon": -117.7771017},
+        {"lat": 48.917967, "lon": -117.7769944},
+        {"lat": 48.9180755, "lon": -117.7768662},
+        {"lat": 48.9182271, "lon": -117.7767181},
+        {"lat": 48.9183593, "lon": -117.7766034},
+        {"lat": 48.9185181, "lon": -117.77648}
+      ],
+      "tags": {
+        "alt_name": "8th Street",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "30 mph",
+        "name": "Center Avenue",
+        "ref": "WA 25",
+        "source": "Esri beta",
+        "surface": "asphalt",
+        "tiger:cfcc": "A31",
+        "tiger:county": "Stevens, WA",
+        "tiger:name_base": "Center",
+        "tiger:name_base_1": "State Highway 25",
+        "tiger:name_base_2": "8th",
+        "tiger:name_type": "Ave",
+        "tiger:name_type_2": "St"
       }
     },
     {
@@ -19082,7 +19119,7 @@
         {"lat": 48.929289, "lon": -117.778468},
         {"lat": 48.928992, "lon": -117.777532},
         {"lat": 48.928618, "lon": -117.7767393},
-        {"lat": 48.9282762, "lon": -117.7762216}
+        {"lat": 48.9282424, "lon": -117.7761696}
       ],
       "tags": {
         "highway": "residential",
@@ -53250,8 +53287,8 @@
       "uid": 1330847,
       "nodes": [2491704703, 51727065],
       "geometry": [
-        {"lat": 48.917766, "lon": -117.7772981},
-        {"lat": 48.9176823, "lon": -117.7771524},
+        {"lat": 48.9177604, "lon": -117.7772695},
+        {"lat": 48.9177254, "lon": -117.7772148},
         {"lat": 48.9176378, "lon": -117.7770349},
         {"lat": 48.917394, "lon": -117.776403},
         {"lat": 48.917334, "lon": -117.775936},
@@ -53475,24 +53512,28 @@
     {
       "type": "way",
       "id": 6219895,
-      "timestamp": "2017-03-31T10:34:31Z",
-      "version": 6,
-      "changeset": 47320885,
-      "user": "25or6to4",
-      "uid": 37392,
+      "timestamp": "2022-01-07T06:06:14Z",
+      "version": 7,
+      "changeset": 115863398,
+      "user": "TorCguy",
+      "uid": 338843,
       "nodes": [51861647, 51875238],
       "geometry": [
-        {"lat": 48.9200406, "lon": -117.7763199},
-        {"lat": 48.924147, "lon": -117.7772318}
+        {"lat": 48.9200162, "lon": -117.7763133},
+        {"lat": 48.9242051, "lon": -117.7772082}
       ],
       "tags": {
         "bridge": "yes",
         "bridge:name": "Northport Bridge",
         "highway": "primary",
         "historic": "yes",
+        "lanes": "2",
+        "layer": "1",
         "name": "Northport Bridge",
         "ref": "WA 25",
         "ref:nrhp": "95000624",
+        "source": "Esri beta",
+        "surface": "concrete",
         "tiger:cfcc": "A31",
         "tiger:county": "Stevens, WA",
         "tiger:name_base": "State Highway 25",
@@ -66496,60 +66537,79 @@
     {
       "type": "way",
       "id": 820116374,
-      "timestamp": "2020-06-29T23:43:11Z",
-      "version": 2,
-      "changeset": 87316903,
-      "user": "HokiePilot",
-      "uid": 155066,
+      "timestamp": "2022-01-07T06:06:14Z",
+      "version": 3,
+      "changeset": 115863398,
+      "user": "TorCguy",
+      "uid": 338843,
       "nodes": [51875238, 51873041],
       "geometry": [
-        {"lat": 48.924147, "lon": -117.7772318},
-        {"lat": 48.9255464, "lon": -117.7775198},
-        {"lat": 48.9259729, "lon": -117.7774984},
-        {"lat": 48.9264011, "lon": -117.7774233},
-        {"lat": 48.9270408, "lon": -117.7771792},
-        {"lat": 48.9276629, "lon": -117.7767715},
-        {"lat": 48.9282762, "lon": -117.7762216}
+        {"lat": 48.9242051, "lon": -117.7772082},
+        {"lat": 48.9246705, "lon": -117.7772896},
+        {"lat": 48.925552, "lon": -117.7774505},
+        {"lat": 48.9257703, "lon": -117.7774695},
+        {"lat": 48.9259613, "lon": -117.7774626},
+        {"lat": 48.9261535, "lon": -117.777443},
+        {"lat": 48.9263386, "lon": -117.7774059},
+        {"lat": 48.9265822, "lon": -117.7773272},
+        {"lat": 48.9268063, "lon": -117.7772532},
+        {"lat": 48.9269954, "lon": -117.7771658},
+        {"lat": 48.9271966, "lon": -117.7770603},
+        {"lat": 48.9274095, "lon": -117.7769299},
+        {"lat": 48.927586, "lon": -117.7767995},
+        {"lat": 48.9277688, "lon": -117.7766446},
+        {"lat": 48.9279798, "lon": -117.7764479},
+        {"lat": 48.9281399, "lon": -117.7762867},
+        {"lat": 48.9282424, "lon": -117.7761696}
       ],
       "tags": {
         "highway": "primary",
+        "lanes": "2",
         "ref": "WA 25",
+        "source": "Esri beta",
+        "surface": "asphalt",
         "tiger:cfcc": "A31",
         "tiger:county": "Stevens, WA",
-        "tiger:name_base": "State Highway 25",
-        "tiger:reviewed": "no"
+        "tiger:name_base": "State Highway 25"
       }
     },
     {
       "type": "way",
       "id": 820116375,
-      "timestamp": "2020-06-27T07:57:27Z",
-      "version": 1,
-      "changeset": 87220133,
-      "user": "Shawn Noble",
-      "uid": 1791301,
-      "nodes": [2491704703, 51861647],
+      "timestamp": "2022-01-07T06:06:14Z",
+      "version": 2,
+      "changeset": 115863398,
+      "user": "TorCguy",
+      "uid": 338843,
+      "nodes": [51861641, 51861647],
       "geometry": [
-        {"lat": 48.917766, "lon": -117.7772981},
-        {"lat": 48.9179726, "lon": -117.776963},
-        {"lat": 48.9184731, "lon": -117.7765006},
-        {"lat": 48.9191852, "lon": -117.7762037},
-        {"lat": 48.9196553, "lon": -117.7762144},
-        {"lat": 48.9200406, "lon": -117.7763199}
+        {"lat": 48.9185181, "lon": -117.77648},
+        {"lat": 48.9186779, "lon": -117.7763873},
+        {"lat": 48.9188479, "lon": -117.7763141},
+        {"lat": 48.9190496, "lon": -117.7762472},
+        {"lat": 48.9192584, "lon": -117.7762116},
+        {"lat": 48.9194219, "lon": -117.7762037},
+        {"lat": 48.919598, "lon": -117.7762182},
+        {"lat": 48.9197791, "lon": -117.7762511},
+        {"lat": 48.9200162, "lon": -117.7763133}
       ],
       "tags": {
+        "alt_name": "8th Street",
+        "embankment": "both",
         "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "30 mph",
         "name": "Center Avenue",
-        "name_1": "8th Street",
         "ref": "WA 25",
+        "source": "Esri beta",
+        "surface": "asphalt",
         "tiger:cfcc": "A31",
         "tiger:county": "Stevens, WA",
         "tiger:name_base": "Center",
         "tiger:name_base_1": "State Highway 25",
         "tiger:name_base_2": "8th",
         "tiger:name_type": "Ave",
-        "tiger:name_type_2": "St",
-        "tiger:reviewed": "no"
+        "tiger:name_type_2": "St"
       }
     },
     {
