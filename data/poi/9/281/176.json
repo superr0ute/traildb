@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-01-06T23:59:59Z",
-    "timestamp_osm_base": "2022-01-07T05:26:42Z",
+    "timestamp_osm_date": "2022-01-07T23:59:59Z",
+    "timestamp_osm_base": "2022-01-08T05:21:00Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -11470,22 +11470,28 @@
       "id": 2520296430,
       "lat": 48.849224,
       "lon": 17.8930421,
-      "timestamp": "2021-01-14T19:19:49Z",
-      "version": 5,
-      "changeset": 97512878,
-      "user": "*Martin*",
-      "uid": 4815,
+      "timestamp": "2022-01-07T16:01:41Z",
+      "version": 6,
+      "changeset": 115882652,
+      "user": "lubosb",
+      "uid": 21515,
       "tags": {
         "ele": "250.0",
+        "handle": "lever",
         "import_ref": "mp2002",
+        "man_made": "water_well",
         "name": "Kyselka",
         "natural": "spring",
+        "pump": "manual",
+        "pump:status": "ok",
+        "pump_mechanism": "piston",
         "ref": "TE-26",
         "sazp:type": "spring",
         "source": "SAZP",
         "source:name": "SAZP",
         "url": "http://www.sazp.sk/slovak/struktura/ceev/DPZ/pramene/tn/te-26.htm",
-        "water_characteristic": "mineral"
+        "water_characteristic": "mineral",
+        "wikimedia_commons": "File:Kyselka v k.ú. Melčice, wgs84 48.84915N 17.89294E.jpg"
       }
     },
     {
@@ -17589,41 +17595,47 @@
       "id": 5752513388,
       "lat": 48.8946329,
       "lon": 17.8502646,
-      "timestamp": "2018-07-10T20:24:00Z",
-      "version": 1,
-      "changeset": 60588713,
-      "user": "misko903",
-      "uid": 132334,
+      "timestamp": "2022-01-07T16:01:41Z",
+      "version": 2,
+      "changeset": 115882652,
+      "user": "lubosb",
+      "uid": 21515,
       "tags": {
-        "natural": "spring"
+        "natural": "spring",
+        "refitted": "yes",
+        "wikimedia_commons": "File:Studnička v k.ú. Melčice, wgs84 48.89469N 17.85038E.jpg"
       }
     },
     {
       "type": "node",
       "id": 5752513389,
-      "lat": 48.896137,
-      "lon": 17.8517345,
-      "timestamp": "2018-07-10T20:24:00Z",
-      "version": 1,
-      "changeset": 60588713,
-      "user": "misko903",
-      "uid": 132334,
+      "lat": 48.8962684,
+      "lon": 17.85176,
+      "timestamp": "2022-01-07T16:01:41Z",
+      "version": 2,
+      "changeset": 115882652,
+      "user": "lubosb",
+      "uid": 21515,
       "tags": {
-        "natural": "spring"
+        "natural": "spring",
+        "refitted": "no",
+        "wikimedia_commons": "File:Prameň v k.ú. Melčice, wgs84 48.896313N 17.85181E.jpg"
       }
     },
     {
       "type": "node",
       "id": 5752513390,
-      "lat": 48.8960436,
-      "lon": 17.8534698,
-      "timestamp": "2018-07-10T20:24:00Z",
-      "version": 1,
-      "changeset": 60588713,
-      "user": "misko903",
-      "uid": 132334,
+      "lat": 48.8961776,
+      "lon": 17.853333,
+      "timestamp": "2022-01-07T16:01:41Z",
+      "version": 2,
+      "changeset": 115882652,
+      "user": "lubosb",
+      "uid": 21515,
       "tags": {
-        "natural": "spring"
+        "natural": "spring",
+        "refitted": "yes",
+        "wikimedia_commons": "File:Studnička v k.ú. Melčice, wgs84 48.896169N 17.85338E.jpg"
       }
     },
     {
@@ -21964,6 +21976,22 @@
       }
     },
     {
+      "type": "node",
+      "id": 9399882134,
+      "lat": 48.8930828,
+      "lon": 17.8515762,
+      "timestamp": "2022-01-07T16:01:41Z",
+      "version": 1,
+      "changeset": 115882652,
+      "user": "lubosb",
+      "uid": 21515,
+      "tags": {
+        "natural": "spring",
+        "refitted": "no",
+        "wikimedia_commons": "File:Prameň v k.ú. Melčice, wgs84 48.89308N 17.85161E.jpg"
+      }
+    },
+    {
       "type": "way",
       "id": 27211241,
       "timestamp": "2021-11-21T15:08:31Z",
@@ -22742,6 +22770,33 @@
         "shop": "supermarket",
         "source": "kapor2",
         "website": "https://www.tesco.sk/tesco-v-sr/obchody/#shop-33"
+      }
+    },
+    {
+      "type": "way",
+      "id": 183325963,
+      "timestamp": "2022-01-07T15:33:06Z",
+      "version": 3,
+      "changeset": 115881583,
+      "user": "lubosb",
+      "uid": 21515,
+      "center": {
+        "lat": 48.8408209,
+        "lon": 17.9109083
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Melčice - Lieskové",
+        "addr:conscriptionnumber": "269",
+        "addr:country": "SK",
+        "addr:housenumber": "269",
+        "addr:place": "Melčice",
+        "building": "yes",
+        "name": "Jednota",
+        "opening_hours": "Mo-Fr 06:00-18:00; Sa 06:00-12:00; Sa 07:00-11:00",
+        "shop": "convenience",
+        "source": "Bing",
+        "source:conscriptionnumber": "kapor2"
       }
     },
     {
