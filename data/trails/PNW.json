@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-07T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-10T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -239,11 +239,11 @@
     {
       "type": "relation",
       "id": 3718820,
-      "timestamp": "2022-01-07T06:06:14Z",
-      "version": 221,
-      "changeset": 115863398,
-      "user": "TorCguy",
-      "uid": 338843,
+      "timestamp": "2022-01-10T04:16:02Z",
+      "version": 222,
+      "changeset": 115964334,
+      "user": "archpdx",
+      "uid": 12493764,
       "members": [
         {"type": "way", "ref": 818255158, "role": ""},
         {"type": "way", "ref": 820116389, "role": ""},
@@ -879,6 +879,7 @@
         {"type": "way", "ref": 303292543, "role": ""},
         {"type": "way", "ref": 292510215, "role": ""},
         {"type": "way", "ref": 761580801, "role": ""},
+        {"type": "way", "ref": 1019898252, "role": ""},
         {"type": "way", "ref": 761580802, "role": ""},
         {"type": "way", "ref": 479443164, "role": ""},
         {"type": "way", "ref": 281091347, "role": ""},
@@ -1142,6 +1143,43 @@
         "tiger:name_base_2": "8th",
         "tiger:name_type": "Ave",
         "tiger:name_type_2": "St"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1019898252,
+      "timestamp": "2022-01-10T04:16:02Z",
+      "version": 1,
+      "changeset": 115964334,
+      "user": "archpdx",
+      "uid": 12493764,
+      "nodes": [48499080, 7115507719],
+      "geometry": [
+        {"lat": 47.968971, "lon": -122.882047},
+        {"lat": 47.969072, "lon": -122.882075},
+        {"lat": 47.969662, "lon": -122.882238},
+        {"lat": 47.972267, "lon": -122.882933},
+        {"lat": 47.972666, "lon": -122.883013},
+        {"lat": 47.972998, "lon": -122.883061},
+        {"lat": 47.973277, "lon": -122.883086},
+        {"lat": 47.9734652, "lon": -122.8830943},
+        {"lat": 47.9735736, "lon": -122.883099},
+        {"lat": 47.973664, "lon": -122.883103},
+        {"lat": 47.9737884, "lon": -122.8830993}
+      ],
+      "tags": {
+        "NHS": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "55 mph",
+        "name": "Olympic Highway",
+        "ref": "US 101",
+        "tiger:cfcc": "A21",
+        "tiger:county": "Jefferson, WA",
+        "tiger:name_base": "Olympic",
+        "tiger:name_base_1": "United States Highway 101",
+        "tiger:name_type": "Hwy",
+        "tiger:reviewed": "no"
       }
     },
     {
@@ -16174,11 +16212,11 @@
     {
       "type": "way",
       "id": 280047185,
-      "timestamp": "2020-10-14T01:53:49Z",
-      "version": 9,
-      "changeset": 92443488,
-      "user": "btwhite92",
-      "uid": 730573,
+      "timestamp": "2022-01-10T04:16:02Z",
+      "version": 10,
+      "changeset": 115964334,
+      "user": "archpdx",
+      "uid": 12493764,
       "nodes": [5551688391, 47288645],
       "geometry": [
         {"lat": 47.8866111, "lon": -124.356222},
@@ -16203,7 +16241,7 @@
       ],
       "tags": {
         "NHS": "yes",
-        "highway": "primary",
+        "highway": "trunk",
         "lanes": "2",
         "maxspeed": "55 mph",
         "ref": "US 101",
@@ -17418,11 +17456,11 @@
     {
       "type": "way",
       "id": 281091347,
-      "timestamp": "2020-10-14T01:53:49Z",
-      "version": 8,
-      "changeset": 92443488,
-      "user": "btwhite92",
-      "uid": 730573,
+      "timestamp": "2022-01-10T04:16:02Z",
+      "version": 9,
+      "changeset": 115964334,
+      "user": "archpdx",
+      "uid": 12493764,
       "nodes": [48511198, 48421048],
       "geometry": [
         {"lat": 47.9402246, "lon": -122.884653},
@@ -17479,7 +17517,8 @@
       ],
       "tags": {
         "NHS": "yes",
-        "highway": "primary",
+        "expressway": "yes",
+        "highway": "trunk",
         "lanes": "2",
         "name": "Olympic Highway",
         "ref": "US 101",
@@ -20722,11 +20761,11 @@
     {
       "type": "way",
       "id": 292510215,
-      "timestamp": "2020-10-14T01:53:49Z",
-      "version": 6,
-      "changeset": 92443488,
-      "user": "btwhite92",
-      "uid": 730573,
+      "timestamp": "2022-01-10T04:16:02Z",
+      "version": 7,
+      "changeset": 115964334,
+      "user": "archpdx",
+      "uid": 12493764,
       "nodes": [48573326, 48573258],
       "geometry": [
         {"lat": 47.9738821, "lon": -122.8830973},
@@ -20770,7 +20809,7 @@
       ],
       "tags": {
         "NHS": "yes",
-        "highway": "primary",
+        "highway": "trunk",
         "lanes": "2",
         "maxspeed": "55 mph",
         "name": "Olympic Highway",
@@ -20990,11 +21029,11 @@
     {
       "type": "way",
       "id": 303292543,
-      "timestamp": "2020-10-14T01:53:49Z",
-      "version": 5,
-      "changeset": 92443488,
-      "user": "btwhite92",
-      "uid": 730573,
+      "timestamp": "2022-01-10T04:16:02Z",
+      "version": 6,
+      "changeset": 115964334,
+      "user": "archpdx",
+      "uid": 12493764,
       "nodes": [48573258, 48573244],
       "geometry": [
         {"lat": 47.986057, "lon": -122.884913},
@@ -21008,7 +21047,7 @@
       ],
       "tags": {
         "NHS": "yes",
-        "highway": "primary",
+        "highway": "trunk",
         "lanes": "2",
         "maxspeed": "45 mph",
         "name": "Olympic Highway",
@@ -23729,11 +23768,11 @@
     {
       "type": "way",
       "id": 34018953,
-      "timestamp": "2020-10-14T01:53:49Z",
-      "version": 11,
-      "changeset": 92443488,
-      "user": "btwhite92",
-      "uid": 730573,
+      "timestamp": "2022-01-10T04:16:02Z",
+      "version": 12,
+      "changeset": 115964334,
+      "user": "archpdx",
+      "uid": 12493764,
       "nodes": [47288650, 47286381],
       "geometry": [
         {"lat": 47.8946314, "lon": -124.3574591},
@@ -23750,7 +23789,7 @@
       ],
       "tags": {
         "NHS": "yes",
-        "highway": "primary",
+        "highway": "trunk",
         "lanes": "2",
         "maxspeed": "55 mph",
         "ref": "US 101",
@@ -23764,11 +23803,11 @@
     {
       "type": "way",
       "id": 34018986,
-      "timestamp": "2020-10-14T01:53:49Z",
-      "version": 9,
-      "changeset": 92443488,
-      "user": "btwhite92",
-      "uid": 730573,
+      "timestamp": "2022-01-10T04:16:02Z",
+      "version": 10,
+      "changeset": 115964334,
+      "user": "archpdx",
+      "uid": 12493764,
       "nodes": [47288645, 47288650],
       "geometry": [
         {"lat": 47.8938509, "lon": -124.3561931},
@@ -23780,7 +23819,7 @@
       "tags": {
         "NHS": "yes",
         "bridge": "yes",
-        "highway": "primary",
+        "highway": "trunk",
         "lanes": "2",
         "layer": "1",
         "maxspeed": "55 mph",
@@ -39106,11 +39145,11 @@
     {
       "type": "way",
       "id": 479443164,
-      "timestamp": "2020-10-14T01:53:49Z",
-      "version": 4,
-      "changeset": 92443488,
-      "user": "btwhite92",
-      "uid": 730573,
+      "timestamp": "2022-01-10T04:16:02Z",
+      "version": 5,
+      "changeset": 115964334,
+      "user": "archpdx",
+      "uid": 12493764,
       "nodes": [48421048, 48530759],
       "geometry": [
         {"lat": 47.954481, "lon": -122.882861},
@@ -39119,7 +39158,8 @@
       ],
       "tags": {
         "NHS": "yes",
-        "highway": "primary",
+        "expressway": "yes",
+        "highway": "trunk",
         "lanes": "2",
         "name": "Olympic Highway",
         "ref": "US 101",
@@ -48700,11 +48740,11 @@
     {
       "type": "way",
       "id": 5917252,
-      "timestamp": "2012-04-24T16:12:13Z",
-      "version": 4,
-      "changeset": 11406846,
-      "user": "compdude",
-      "uid": 282329,
+      "timestamp": "2022-01-10T04:16:02Z",
+      "version": 5,
+      "changeset": 115964334,
+      "user": "archpdx",
+      "uid": 12493764,
       "nodes": [48563351, 48573244],
       "geometry": [
         {"lat": 47.9879204, "lon": -122.8849018},
@@ -48720,17 +48760,13 @@
         {"lat": 47.9869828, "lon": -122.885598}
       ],
       "tags": {
-        "highway": "primary",
+        "highway": "trunk_link",
         "name": "State Highway 20",
         "ref": "WA 20",
         "tiger:cfcc": "A35",
         "tiger:county": "Jefferson, WA",
         "tiger:name_base": "State Highway 20",
-        "tiger:reviewed": "no",
-        "tiger:separated": "yes",
-        "tiger:source": "tiger_import_dch_v0.6_20070830",
-        "tiger:tlid": "151994374",
-        "tiger:upload_uuid": "bulk_upload.pl-ea5ea3a5-f6f9-44cc-9f73-cc7de247a5bc"
+        "tiger:reviewed": "no"
       }
     },
     {
@@ -55481,11 +55517,11 @@
     {
       "type": "way",
       "id": 761580801,
-      "timestamp": "2020-10-14T01:53:49Z",
-      "version": 2,
-      "changeset": 92443488,
-      "user": "btwhite92",
-      "uid": 730573,
+      "timestamp": "2022-01-10T04:16:02Z",
+      "version": 3,
+      "changeset": 115964334,
+      "user": "archpdx",
+      "uid": 12493764,
       "nodes": [7115507719, 48573326],
       "geometry": [
         {"lat": 47.9737884, "lon": -122.8830993},
@@ -55494,7 +55530,7 @@
       "tags": {
         "NHS": "yes",
         "bridge": "yes",
-        "highway": "primary",
+        "highway": "trunk",
         "lanes": "2",
         "level": "1",
         "maxspeed": "55 mph",
@@ -55511,12 +55547,12 @@
     {
       "type": "way",
       "id": 761580802,
-      "timestamp": "2020-10-14T01:53:49Z",
-      "version": 3,
-      "changeset": 92443488,
-      "user": "btwhite92",
-      "uid": 730573,
-      "nodes": [48530759, 7115507719],
+      "timestamp": "2022-01-10T04:16:02Z",
+      "version": 4,
+      "changeset": 115964334,
+      "user": "archpdx",
+      "uid": 12493764,
+      "nodes": [48530759, 48499080],
       "geometry": [
         {"lat": 47.9586827, "lon": -122.8827294},
         {"lat": 47.958771, "lon": -122.882725},
@@ -55544,21 +55580,12 @@
         {"lat": 47.96581, "lon": -122.881186},
         {"lat": 47.965956, "lon": -122.88122},
         {"lat": 47.967208, "lon": -122.88156},
-        {"lat": 47.968971, "lon": -122.882047},
-        {"lat": 47.969072, "lon": -122.882075},
-        {"lat": 47.969662, "lon": -122.882238},
-        {"lat": 47.972267, "lon": -122.882933},
-        {"lat": 47.972666, "lon": -122.883013},
-        {"lat": 47.972998, "lon": -122.883061},
-        {"lat": 47.973277, "lon": -122.883086},
-        {"lat": 47.9734652, "lon": -122.8830943},
-        {"lat": 47.9735736, "lon": -122.883099},
-        {"lat": 47.973664, "lon": -122.883103},
-        {"lat": 47.9737884, "lon": -122.8830993}
+        {"lat": 47.968971, "lon": -122.882047}
       ],
       "tags": {
         "NHS": "yes",
-        "highway": "primary",
+        "expressway": "yes",
+        "highway": "trunk",
         "lanes": "2",
         "maxspeed": "55 mph",
         "name": "Olympic Highway",
