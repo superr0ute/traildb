@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-10T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-11T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11123868,
-      "timestamp": "2022-01-10T16:40:11Z",
-      "version": 186,
-      "changeset": 115989500,
-      "user": "hatul",
-      "uid": 686490,
+      "timestamp": "2022-01-11T16:37:18Z",
+      "version": 187,
+      "changeset": 116031459,
+      "user": "ar58",
+      "uid": 572423,
       "members": [
         {"type": "way", "ref": 723053761, "role": ""},
         {"type": "way", "ref": 853340709, "role": ""},
@@ -911,11 +911,6 @@
         {"type": "way", "ref": 755420492, "role": ""},
         {"type": "way", "ref": 755420491, "role": ""},
         {"type": "way", "ref": 343727423, "role": ""},
-        {"type": "way", "ref": 55482799, "role": ""},
-        {"type": "way", "ref": 1019816628, "role": ""},
-        {"type": "way", "ref": 56238781, "role": ""},
-        {"type": "way", "ref": 941851885, "role": ""},
-        {"type": "way", "ref": 815893645, "role": ""},
         {"type": "way", "ref": 741277556, "role": ""},
         {"type": "way", "ref": 729226548, "role": ""},
         {"type": "way", "ref": 575468812, "role": ""},
@@ -925,6 +920,12 @@
         {"type": "way", "ref": 1019816630, "role": ""},
         {"type": "way", "ref": 813504001, "role": ""},
         {"type": "way", "ref": 481196521, "role": ""},
+        {"type": "way", "ref": 55482799, "role": ""},
+        {"type": "way", "ref": 1019816628, "role": ""},
+        {"type": "way", "ref": 1020314318, "role": ""},
+        {"type": "way", "ref": 56238781, "role": ""},
+        {"type": "way", "ref": 941851885, "role": ""},
+        {"type": "way", "ref": 815893645, "role": ""},
         {"type": "way", "ref": 575484413, "role": ""},
         {"type": "way", "ref": 575484405, "role": ""},
         {"type": "way", "ref": 575484422, "role": ""},
@@ -2908,21 +2909,18 @@
     {
       "type": "way",
       "id": 1019816628,
-      "timestamp": "2022-01-09T21:47:17Z",
-      "version": 1,
-      "changeset": 115958994,
+      "timestamp": "2022-01-11T16:37:18Z",
+      "version": 2,
+      "changeset": 116031459,
       "user": "ar58",
       "uid": 572423,
-      "nodes": [705781540, 705781538],
+      "nodes": [705781540, 705781532],
       "geometry": [
         {"lat": 31.5341072, "lon": 34.583454},
         {"lat": 31.534115, "lon": 34.5834217},
         {"lat": 31.5341144, "lon": 34.5833881},
         {"lat": 31.5341057, "lon": 34.5833561},
-        {"lat": 31.5340894, "lon": 34.5833285},
-        {"lat": 31.5340675, "lon": 34.5833079},
-        {"lat": 31.5340415, "lon": 34.5832954},
-        {"lat": 31.5340135, "lon": 34.5832921}
+        {"lat": 31.5340894, "lon": 34.5833285}
       ],
       "tags": {
         "highway": "tertiary",
@@ -3009,6 +3007,28 @@
         "colour": "black",
         "foot": "yes",
         "highway": "service"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1020314318,
+      "timestamp": "2022-01-11T16:37:18Z",
+      "version": 1,
+      "changeset": 116031459,
+      "user": "ar58",
+      "uid": 572423,
+      "nodes": [705781532, 705781538],
+      "geometry": [
+        {"lat": 31.5340894, "lon": 34.5833285},
+        {"lat": 31.5340675, "lon": 34.5833079},
+        {"lat": 31.5340415, "lon": 34.5832954},
+        {"lat": 31.5340135, "lon": 34.5832921}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "junction": "roundabout",
+        "name": "כיכר דוד המלך",
+        "name:he": "כיכר דוד המלך"
       }
     },
     {

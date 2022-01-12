@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-10T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-11T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -7059,7 +7059,7 @@
       "uid": 2027279,
       "nodes": [1507306940, 1507306961],
       "geometry": [
-        {"lat": 48.8727131, "lon": 8.689846},
+        {"lat": 48.872714, "lon": 8.689854},
         {"lat": 48.8727506, "lon": 8.6899613}
       ],
       "tags": {
@@ -9299,14 +9299,15 @@
     {
       "type": "way",
       "id": 174842829,
-      "timestamp": "2013-01-29T21:57:40Z",
-      "version": 2,
-      "changeset": 14840923,
-      "user": "Ethera",
-      "uid": 578206,
+      "timestamp": "2022-01-11T19:56:46Z",
+      "version": 3,
+      "changeset": 116038584,
+      "user": "aploese",
+      "uid": 635124,
       "nodes": [1379346139, 1447486760],
       "geometry": [
         {"lat": 48.3424163, "lon": 8.1604025},
+        {"lat": 48.3424725, "lon": 8.1607342},
         {"lat": 48.3425026, "lon": 8.1609116},
         {"lat": 48.3425677, "lon": 8.161492},
         {"lat": 48.3426461, "lon": 8.1619919},
@@ -17893,11 +17894,11 @@
     {
       "type": "way",
       "id": 28436314,
-      "timestamp": "2021-06-04T20:48:16Z",
-      "version": 7,
-      "changeset": 105860227,
-      "user": "tosent",
-      "uid": 1925271,
+      "timestamp": "2022-01-11T15:57:23Z",
+      "version": 8,
+      "changeset": 116029936,
+      "user": "Feldberg-Ranger",
+      "uid": 6683813,
       "nodes": [2809892603, 305736629],
       "geometry": [
         {"lat": 47.8479788, "lon": 8.0208931},
@@ -17920,7 +17921,7 @@
         {"lat": 47.8508602, "lon": 8.0246481}
       ],
       "tags": {
-        "bicycle": "no",
+        "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
         "horse": "no",
@@ -23290,24 +23291,26 @@
     {
       "type": "way",
       "id": 31688365,
-      "timestamp": "2021-01-16T05:11:29Z",
-      "version": 6,
-      "changeset": 97591066,
-      "user": "Natenom",
-      "uid": 2027279,
+      "timestamp": "2022-01-11T10:57:08Z",
+      "version": 7,
+      "changeset": 116019022,
+      "user": "wegavision",
+      "uid": 564585,
       "nodes": [310109766, 1507306940],
       "geometry": [
-        {"lat": 48.8727406, "lon": 8.6897358},
-        {"lat": 48.8727131, "lon": 8.689846}
+        {"lat": 48.8727521, "lon": 8.6897462},
+        {"lat": 48.872714, "lon": 8.689854}
       ],
       "tags": {
         "cycleway:both": "no",
         "highway": "secondary",
         "lanes": "2",
-        "maxspeed": "70",
+        "maxspeed:backward": "50",
+        "maxspeed:forward": "70",
         "name": "Huchenfelder Straße",
         "note": "maxspeed=70 ab Node 29026557",
         "ref": "L 574",
+        "sidewalk": "right",
         "surface": "asphalt"
       }
     },
@@ -43434,7 +43437,7 @@
       "geometry": [
         {"lat": 48.8727573, "lon": 8.6888121},
         {"lat": 48.8727475, "lon": 8.6895105},
-        {"lat": 48.8727406, "lon": 8.6897358}
+        {"lat": 48.8727521, "lon": 8.6897462}
       ],
       "tags": {
         "highway": "path",
