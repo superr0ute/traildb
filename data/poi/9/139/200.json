@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-01-11T23:59:59Z",
-    "timestamp_osm_base": "2022-01-12T03:33:53Z",
+    "timestamp_osm_date": "2022-01-12T23:59:59Z",
+    "timestamp_osm_base": "2022-01-13T03:35:54Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -5475,6 +5475,8 @@
       "user": "wambacher",
       "uid": 201359,
       "tags": {
+        "population": "667",
+        "place": "town",
         "census:population": "667;2006",
         "ele": "1099",
         "gnis:County": "Avery",
@@ -5483,9 +5485,7 @@
         "gnis:ST_num": "37",
         "gnis:id": "1013943",
         "import_uuid": "bb7269ee-502a-5391-8056-e3ce0e66489c",
-        "name": "Newland",
-        "place": "town",
-        "population": "667"
+        "name": "Newland"
       }
     },
     {
@@ -8586,20 +8586,26 @@
     {
       "type": "node",
       "id": 2025864821,
-      "lat": 36.1373118,
-      "lon": -81.6695677,
-      "timestamp": "2018-12-09T02:04:52Z",
-      "version": 2,
-      "changeset": 65304979,
-      "user": "LeifRasmussen",
-      "uid": 4312767,
+      "lat": 36.1371363,
+      "lon": -81.669675,
+      "timestamp": "2022-01-12T02:48:39Z",
+      "version": 3,
+      "changeset": 116047247,
+      "user": "maxerickson",
+      "uid": 360392,
       "tags": {
-        "source": "survey",
-        "shop": "supermarket",
-        "name": "Food Lion",
-        "brand:wikipedia": "en:Food Lion",
+        "addr:city": "Blowing Rock",
+        "addr:housenumber": "7533",
+        "addr:postcode": "28605",
+        "addr:state": "NC",
+        "addr:street": "Valley Boulevard",
+        "brand": "Food Lion",
         "brand:wikidata": "Q1435950",
-        "brand": "Food Lion"
+        "brand:wikipedia": "en:Food Lion",
+        "name": "Food Lion",
+        "ref": "922",
+        "shop": "supermarket",
+        "source": "survey"
       }
     },
     {
@@ -8650,23 +8656,25 @@
       "id": 2384901061,
       "lat": 36.202303,
       "lon": -81.6593316,
-      "timestamp": "2019-02-18T12:10:20Z",
-      "version": 3,
-      "changeset": 67312903,
-      "user": "b-jazz-bot",
-      "uid": 9451067,
+      "timestamp": "2022-01-12T02:59:30Z",
+      "version": 4,
+      "changeset": 116047392,
+      "user": "maxerickson",
+      "uid": 360392,
       "tags": {
-        "website": "https://harristeeter.com/",
-        "shop": "supermarket",
         "addr:city": "Boone",
         "addr:housenumber": "240",
         "addr:postcode": "28607",
+        "addr:state": "NC",
         "addr:street": "Shadowline Drive",
         "brand": "Harris Teeter",
         "brand:wikidata": "Q5665067",
         "brand:wikipedia": "en:Harris Teeter",
         "name": "Harris Teeter",
-        "phone": "(828) 262-3319"
+        "phone": "(828) 262-3319",
+        "ref": "165",
+        "shop": "supermarket",
+        "website": "https://harristeeter.com/"
       }
     },
     {
@@ -9084,24 +9092,26 @@
       "id": 4872303044,
       "lat": 36.2048663,
       "lon": -81.6967244,
-      "timestamp": "2021-12-03T01:37:35Z",
-      "version": 7,
-      "changeset": 114503399,
-      "user": "somasis",
-      "uid": 8379033,
+      "timestamp": "2022-01-12T02:55:07Z",
+      "version": 8,
+      "changeset": 116047320,
+      "user": "maxerickson",
+      "uid": 360392,
       "tags": {
-        "shop": "supermarket",
-        "payment:visa": "yes",
         "addr:city": "Boone",
         "addr:housenumber": "2575",
         "addr:postcode": "28607",
+        "addr:state": "NC",
         "addr:street": "NC 105",
         "brand": "Ingles",
         "brand:wikidata": "Q6032595",
         "brand:wikipedia": "en:Ingles",
         "name": "Ingles",
         "payment:cash": "yes",
-        "payment:mastercard": "yes"
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "ref": "84",
+        "shop": "supermarket"
       }
     },
     {
@@ -10298,6 +10308,75 @@
       }
     },
     {
+      "type": "node",
+      "id": 9411598083,
+      "lat": 36.1465572,
+      "lon": -81.7966902,
+      "timestamp": "2022-01-12T02:32:53Z",
+      "version": 1,
+      "changeset": 116047096,
+      "user": "maxerickson",
+      "uid": 360392,
+      "tags": {
+        "addr:city": "Banner Elk",
+        "addr:housenumber": "10656",
+        "addr:postcode": "28604",
+        "addr:state": "NC",
+        "addr:street": "Nc Highway 105 South",
+        "brand": "Speedway",
+        "brand:wikidata": "Q7575683",
+        "brand:wikipedia": "en:Speedway (store)",
+        "name": "Speedway",
+        "ref": "7925",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9411623682,
+      "lat": 36.1420838,
+      "lon": -81.6690651,
+      "timestamp": "2022-01-12T02:48:39Z",
+      "version": 1,
+      "changeset": 116047247,
+      "user": "maxerickson",
+      "uid": 360392,
+      "tags": {
+        "addr:city": "Blowing Rock",
+        "addr:housenumber": "7206",
+        "addr:postcode": "28605",
+        "addr:state": "NC",
+        "addr:street": "Valley Boulevard",
+        "brand": "Speedway",
+        "brand:wikidata": "Q7575683",
+        "brand:wikipedia": "en:Speedway (store)",
+        "name": "Speedway",
+        "ref": "7920",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9411638081,
+      "lat": 36.2032934,
+      "lon": -81.6646573,
+      "timestamp": "2022-01-12T02:59:30Z",
+      "version": 1,
+      "changeset": 116047392,
+      "user": "maxerickson",
+      "uid": 360392,
+      "tags": {
+        "addr:city": "Boone",
+        "addr:housenumber": "1321",
+        "addr:postcode": "28607",
+        "addr:state": "NC",
+        "addr:street": "Blowing Rock Road",
+        "name": "Scotchman",
+        "ref": "3092",
+        "shop": "convenience"
+      }
+    },
+    {
       "type": "way",
       "id": 207577848,
       "timestamp": "2020-07-28T21:25:32Z",
@@ -10365,21 +10444,17 @@
     {
       "type": "way",
       "id": 230055490,
-      "timestamp": "2021-10-19T02:53:40Z",
-      "version": 4,
-      "changeset": 112675766,
-      "user": "rivermont",
-      "uid": 4085780,
+      "timestamp": "2022-01-12T03:03:31Z",
+      "version": 5,
+      "changeset": 116047447,
+      "user": "maxerickson",
+      "uid": 360392,
       "center": {
         "lat": 36.2197944,
         "lon": -81.6564743
       },
       "nodes": [],
       "tags": {
-        "brand:wikipedia": "en:Speedway LLC",
-        "shop": "convenience",
-        "ref": "283",
-        "payment:apple_pay": "yes",
         "addr:city": "Boone",
         "addr:housenumber": "159",
         "addr:postcode": "28607",
@@ -10387,40 +10462,47 @@
         "addr:street": "Old East King Street",
         "brand": "Speedway",
         "brand:wikidata": "Q7575683",
+        "brand:wikipedia": "en:Speedway (store)",
         "building": "retail",
         "contact:phone": "+1 828 262 5819",
         "contact:website": "http://www.wilcohess.com/StoreHome/283",
         "name": "Speedway",
-        "opening_hours": "06:00-24:00"
+        "opening_hours": "06:00-24:00",
+        "payment:apple_pay": "yes",
+        "phone": "+1 828 262 5819",
+        "ref": "7922",
+        "shop": "convenience",
+        "website": "https://www.speedway.com/locations/store/7922"
       }
     },
     {
       "type": "way",
       "id": 230055491,
-      "timestamp": "2021-09-16T18:20:25Z",
-      "version": 4,
-      "changeset": 111304244,
-      "user": "rivermont",
-      "uid": 4085780,
+      "timestamp": "2022-01-12T03:03:31Z",
+      "version": 5,
+      "changeset": 116047447,
+      "user": "maxerickson",
+      "uid": 360392,
       "center": {
         "lat": 36.219581,
         "lon": -81.6587822
       },
       "nodes": [],
       "tags": {
-        "shop": "convenience",
-        "brand:wikipedia": "en:Speedway LLC",
-        "ref": "285",
         "addr:city": "Boone",
         "addr:housenumber": "1033",
         "addr:postcode": "28607",
+        "addr:state": "NC",
         "addr:street": "East King Street",
         "brand": "Speedway",
         "brand:wikidata": "Q7575683",
+        "brand:wikipedia": "en:Speedway (store)",
         "building": "retail",
         "contact:phone": "+1 828 264 2285",
         "contact:website": "http://www.wilcohess.com/StoreHome/285",
-        "name": "Speedway"
+        "name": "Speedway",
+        "ref": "7924",
+        "shop": "convenience"
       }
     },
     {
@@ -11231,57 +11313,63 @@
     {
       "type": "way",
       "id": 681738074,
-      "timestamp": "2021-08-16T21:53:49Z",
-      "version": 2,
-      "changeset": 109774329,
-      "user": "somasis",
-      "uid": 8379033,
+      "timestamp": "2022-01-12T02:55:07Z",
+      "version": 3,
+      "changeset": 116047320,
+      "user": "maxerickson",
+      "uid": 360392,
       "center": {
         "lat": 36.2070207,
         "lon": -81.6984686
       },
       "nodes": [],
       "tags": {
-        "website": "https://www.speedway.com/StoreDetails?store=7921",
-        "shop": "convenience",
-        "building": "yes",
-        "phone": "+1 828-264-1454",
+        "addr:city": "Boone",
         "addr:housenumber": "2702",
         "addr:postcode": "28607",
+        "addr:state": "NC",
         "addr:street": "NC 105",
         "brand": "Speedway",
         "brand:wikidata": "Q7575683",
         "brand:wikipedia": "en:Speedway (store)",
+        "building": "retail",
         "name": "Speedway",
-        "opening_hours": "06:00-23:00"
+        "opening_hours": "06:00-23:00",
+        "phone": "+1 828-264-1454",
+        "ref": "7921",
+        "shop": "convenience",
+        "website": "https://www.speedway.com/StoreDetails?store=7921"
       }
     },
     {
       "type": "way",
       "id": 681749980,
-      "timestamp": "2019-04-04T22:39:38Z",
-      "version": 1,
-      "changeset": 68901490,
-      "user": "somasis",
-      "uid": 8379033,
+      "timestamp": "2022-01-12T02:55:07Z",
+      "version": 2,
+      "changeset": 116047320,
+      "user": "maxerickson",
+      "uid": 360392,
       "center": {
         "lat": 36.2074299,
         "lon": -81.7031396
       },
       "nodes": [],
       "tags": {
-        "website": "https://www.circlek.com/store-locator/us/boone/2968-hwy-105/2721599",
-        "shop": "convenience",
-        "building": "yes",
-        "phone": "+1 828-262-5899",
+        "addr:city": "Boone",
         "addr:housenumber": "2968",
         "addr:postcode": "28607",
+        "addr:state": "NC",
         "addr:street": "NC 105",
         "brand": "Circle K",
         "brand:wikidata": "Q3268010",
         "brand:wikipedia": "en:Circle K",
+        "building": "retail",
         "name": "Circle K",
-        "opening_hours": "24/7"
+        "opening_hours": "24/7",
+        "phone": "+1 828-262-5899",
+        "ref": "2721599",
+        "shop": "convenience",
+        "website": "https://www.circlek.com/store-locator/us/boone/2968-hwy-105/2721599"
       }
     },
     {
@@ -11578,19 +11666,17 @@
     {
       "type": "way",
       "id": 704628914,
-      "timestamp": "2021-12-03T01:37:35Z",
-      "version": 2,
-      "changeset": 114503399,
-      "user": "somasis",
-      "uid": 8379033,
+      "timestamp": "2022-01-12T02:59:30Z",
+      "version": 3,
+      "changeset": 116047392,
+      "user": "maxerickson",
+      "uid": 360392,
       "center": {
-        "lat": 36.2030881,
-        "lon": -81.6660166
+        "lat": 36.2031559,
+        "lon": -81.6659815
       },
       "nodes": [],
       "tags": {
-        "building": "yes",
-        "website": "https://www.speedway.com/StoreDetails?store=7923",
         "addr:city": "Boone",
         "addr:housenumber": "1256",
         "addr:postcode": "28607-6137",
@@ -11598,10 +11684,13 @@
         "brand": "Speedway",
         "brand:wikidata": "Q7575683",
         "brand:wikipedia": "en:Speedway (store)",
+        "building": "retail",
         "name": "Speedway",
         "opening_hours": "24/7",
         "phone": "+1-828-262-1135",
-        "shop": "convenience"
+        "ref": "7923",
+        "shop": "convenience",
+        "website": "https://www.speedway.com/StoreDetails?store=7923"
       }
     },
     {
@@ -11692,28 +11781,6 @@
         "name": "Citgo",
         "shop": "convenience",
         "source": "NC Ortho;Mapillary"
-      }
-    },
-    {
-      "type": "way",
-      "id": 734582065,
-      "timestamp": "2019-10-14T19:17:47Z",
-      "version": 1,
-      "changeset": 75685269,
-      "user": "TorCguy",
-      "uid": 338843,
-      "center": {
-        "lat": 36.1465441,
-        "lon": -81.7967374
-      },
-      "nodes": [],
-      "tags": {
-        "brand": "Speedway",
-        "brand:wikidata": "Q7575683",
-        "brand:wikipedia": "en:Speedway LLC",
-        "building": "yes",
-        "name": "Speedway",
-        "shop": "convenience"
       }
     },
     {
