@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-12T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-13T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2287,11 +2287,11 @@
     {
       "type": "relation",
       "id": 9605870,
-      "timestamp": "2021-12-07T07:35:09Z",
-      "version": 32,
-      "changeset": 114647177,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-01-13T11:57:55Z",
+      "version": 33,
+      "changeset": 116103755,
+      "user": "KingCZE",
+      "uid": 13552526,
       "members": [
         {"type": "way", "ref": 149336310, "role": ""},
         {"type": "way", "ref": 1009823792, "role": ""},
@@ -2357,6 +2357,7 @@
         {"type": "way", "ref": 51185586, "role": ""},
         {"type": "way", "ref": 88410449, "role": ""},
         {"type": "way", "ref": 834058912, "role": ""},
+        {"type": "way", "ref": 1020828392, "role": ""},
         {"type": "way", "ref": 834058911, "role": ""},
         {"type": "way", "ref": 834058910, "role": ""},
         {"type": "way", "ref": 29060342, "role": ""},
@@ -5939,6 +5940,25 @@
         {"lat": -36.359019, "lon": 174.623172}
       ],
       "tags": {"highway": "path", "name": "Dome Forest Walkway"}
+    },
+    {
+      "type": "way",
+      "id": 1020828392,
+      "timestamp": "2022-01-13T11:57:55Z",
+      "version": 1,
+      "changeset": 116103755,
+      "user": "KingCZE",
+      "uid": 13552526,
+      "nodes": [7180400875, 7180400873],
+      "geometry": [
+        {"lat": -36.8641547, "lon": 174.7710895},
+        {"lat": -36.8641776, "lon": 174.7711955}
+      ],
+      "tags": {
+        "crossing": "traffic_signals",
+        "footway": "crossing",
+        "highway": "footway"
+      }
     },
     {
       "type": "way",
@@ -48953,9 +48973,9 @@
     {
       "type": "way",
       "id": 373825505,
-      "timestamp": "2021-07-10T18:16:06Z",
-      "version": 15,
-      "changeset": 107757311,
+      "timestamp": "2022-01-13T21:26:12Z",
+      "version": 16,
+      "changeset": 116125104,
       "user": "LACDH",
       "uid": 4994674,
       "nodes": [987496948, 987497017],
@@ -48977,6 +48997,7 @@
         "old_ref": "SH 17",
         "oneway": "no",
         "ref": "31",
+        "shoulder": "yes",
         "source:lanes": "Esri World Imagery",
         "surface": "asphalt"
       }
@@ -48984,9 +49005,9 @@
     {
       "type": "way",
       "id": 373825510,
-      "timestamp": "2020-11-30T23:11:27Z",
-      "version": 14,
-      "changeset": 95072305,
+      "timestamp": "2022-01-13T21:26:08Z",
+      "version": 15,
+      "changeset": 116125104,
       "user": "LACDH",
       "uid": 4994674,
       "nodes": [4809458361, 716322],
@@ -49010,6 +49031,7 @@
         "old_ref": "SH 17",
         "oneway": "no",
         "ref": "31",
+        "shoulder": "yes",
         "source:lanes": "Esri World Imagery",
         "surface": "asphalt"
       }
@@ -49017,9 +49039,9 @@
     {
       "type": "way",
       "id": 373825512,
-      "timestamp": "2021-10-20T13:06:03Z",
-      "version": 16,
-      "changeset": 112743812,
+      "timestamp": "2022-01-13T21:26:15Z",
+      "version": 17,
+      "changeset": 116125104,
       "user": "LACDH",
       "uid": 4994674,
       "nodes": [987497017, 988621516],
@@ -49051,6 +49073,7 @@
         "old_ref": "SH 17",
         "oneway": "no",
         "ref": "31",
+        "shoulder": "yes",
         "source:lanes": "Esri World Imagery",
         "surface": "asphalt"
       }
@@ -69025,16 +69048,17 @@
     {
       "type": "way",
       "id": 5755038,
-      "timestamp": "2020-07-31T10:41:15Z",
-      "version": 21,
-      "changeset": 88777211,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2022-01-13T11:39:39Z",
+      "version": 22,
+      "changeset": 116103006,
+      "user": "KingCZE",
+      "uid": 13552526,
       "nodes": [5814322824, 660121669],
       "geometry": [
         {"lat": -36.8665947, "lon": 174.7703465},
         {"lat": -36.8672481, "lon": 174.7701427},
         {"lat": -36.8677705, "lon": 174.7699757},
+        {"lat": -36.8678359, "lon": 174.769956},
         {"lat": -36.8680719, "lon": 174.769885},
         {"lat": -36.868154, "lon": 174.7698598},
         {"lat": -36.8683413, "lon": 174.7698029}
@@ -70622,14 +70646,15 @@
     {
       "type": "way",
       "id": 617488816,
-      "timestamp": "2020-03-11T04:55:07Z",
-      "version": 4,
-      "changeset": 82035047,
-      "user": "Chipperdoo",
-      "uid": 10310443,
+      "timestamp": "2022-01-13T11:57:55Z",
+      "version": 5,
+      "changeset": 116103755,
+      "user": "KingCZE",
+      "uid": 13552526,
       "nodes": [5837096167, 25770844],
       "geometry": [
         {"lat": -36.865668, "lon": 174.7706107},
+        {"lat": -36.8659162, "lon": 174.7705272},
         {"lat": -36.8659278, "lon": 174.7705233},
         {"lat": -36.8660219, "lon": 174.7705124}
       ],
@@ -70649,15 +70674,16 @@
     {
       "type": "way",
       "id": 617488819,
-      "timestamp": "2020-03-11T04:55:10Z",
-      "version": 4,
-      "changeset": 82035047,
-      "user": "Chipperdoo",
-      "uid": 10310443,
+      "timestamp": "2022-01-13T11:39:39Z",
+      "version": 5,
+      "changeset": 116103006,
+      "user": "KingCZE",
+      "uid": 13552526,
       "nodes": [25770844, 5837096170],
       "geometry": [
         {"lat": -36.8660219, "lon": 174.7705124},
         {"lat": -36.8661231, "lon": 174.770497},
+        {"lat": -36.8661318, "lon": 174.7704944},
         {"lat": -36.8664121, "lon": 174.7704095}
       ],
       "tags": {
@@ -92675,14 +92701,13 @@
     {
       "type": "way",
       "id": 834058911,
-      "timestamp": "2021-01-10T09:55:42Z",
-      "version": 2,
-      "changeset": 97240537,
-      "user": "myfanwy",
-      "uid": 10829,
-      "nodes": [7180400875, 7180400874],
+      "timestamp": "2022-01-13T11:57:55Z",
+      "version": 3,
+      "changeset": 116103755,
+      "user": "KingCZE",
+      "uid": 13552526,
+      "nodes": [7180400873, 7180400874],
       "geometry": [
-        {"lat": -36.8641547, "lon": 174.7710895},
         {"lat": -36.8641776, "lon": 174.7711955},
         {"lat": -36.864169, "lon": 174.7712025},
         {"lat": -36.8641153, "lon": 174.7712469},
@@ -92690,7 +92715,7 @@
         {"lat": -36.8640483, "lon": 174.7713022}
       ],
       "tags": {
-        "crossing": "marked",
+        "crossing": "traffic_signals",
         "footway": "crossing",
         "highway": "footway"
       }
@@ -94851,9 +94876,9 @@
     {
       "type": "way",
       "id": 85134372,
-      "timestamp": "2020-11-30T07:25:02Z",
-      "version": 17,
-      "changeset": 95024078,
+      "timestamp": "2022-01-13T21:26:04Z",
+      "version": 18,
+      "changeset": 116125104,
       "user": "LACDH",
       "uid": 4994674,
       "nodes": [987488303, 982175482],
@@ -94872,6 +94897,7 @@
         "old_ref": "SH 17",
         "oneway": "no",
         "ref": "31",
+        "shoulder": "yes",
         "source:lanes": "Esri World Imagery",
         "surface": "asphalt"
       }
@@ -94879,9 +94905,9 @@
     {
       "type": "way",
       "id": 85134375,
-      "timestamp": "2020-11-30T07:25:00Z",
-      "version": 18,
-      "changeset": 95024078,
+      "timestamp": "2022-01-13T21:26:05Z",
+      "version": 19,
+      "changeset": 116125104,
       "user": "LACDH",
       "uid": 4994674,
       "nodes": [716322, 987488303],
@@ -94904,6 +94930,7 @@
         "old_ref": "SH 17",
         "oneway": "no",
         "ref": "31",
+        "shoulder": "no",
         "source:lanes": "Esri World Imagery",
         "surface": "asphalt"
       }
@@ -96676,9 +96703,9 @@
     {
       "type": "way",
       "id": 879473041,
-      "timestamp": "2021-07-10T18:16:04Z",
-      "version": 2,
-      "changeset": 107757311,
+      "timestamp": "2022-01-13T21:26:10Z",
+      "version": 3,
+      "changeset": 116125104,
       "user": "LACDH",
       "uid": 4994674,
       "nodes": [987496948, 4809458361],
@@ -96699,6 +96726,7 @@
         "old_ref": "SH 17",
         "oneway": "no",
         "ref": "31",
+        "shoulder": "yes",
         "source:lanes": "Esri World Imagery",
         "surface": "asphalt"
       }
