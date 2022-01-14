@@ -12774,29 +12774,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "campsite",
-        "@distance": 338.6,
-        "@id": "w845551720",
-        "@changeset": 90612786,
-        "@timestamp": "2020-09-09T02:52:00Z",
-        "@version": 1,
-        "@uid": 730573,
-        "@user": "btwhite92",
-        "name": "East Meadow Campground",
-        "operator": "USFS Tahoe National Forest",
-        "tourism": "camp_site"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.5331704,
-          39.5009301
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "peak_peak",
         "@distance": 1024.1,
         "@id": "n358797187",
@@ -18212,11 +18189,12 @@
         "@poi": "mountain-pass",
         "@distance": 46.6,
         "@id": "n944865244",
-        "@changeset": 115309927,
-        "@timestamp": "2021-12-23T18:56:39Z",
-        "@version": 2,
+        "@changeset": 116092114,
+        "@timestamp": "2022-01-13T06:20:45Z",
+        "@version": 3,
         "@uid": 11607814,
         "@user": "OddlyAngled",
+        "ele": 3330.13,
         "mountain_pass": "yes",
         "name": "Guyot Pass",
         "natural": "saddle"
@@ -22142,11 +22120,11 @@
         "@poi": "place_town",
         "@distance": 3159.7,
         "@id": "n150954172",
-        "@changeset": 89141392,
-        "@timestamp": "2020-08-09T00:23:37Z",
-        "@version": 3,
-        "@uid": 11618890,
-        "@user": "DabbingIsSo2015",
+        "@changeset": 116113393,
+        "@timestamp": "2022-01-13T16:08:08Z",
+        "@version": 4,
+        "@uid": 13624358,
+        "@user": "yamanq",
         "ele": 2064,
         "gnis:Class": "Populated Place",
         "gnis:County": "San Bernardino",
@@ -22157,7 +22135,9 @@
         "import_uuid": "bb7269ee-502a-5391-8056-e3ce0e66489c",
         "is_in": "San Bernardino,California,Calif.,CA,USA",
         "name": "Big Bear City",
-        "place": "town"
+        "place": "town",
+        "wikidata": "Q542794",
+        "wikipedia": "en:Big Bear City, California"
       },
       "geometry": {
         "type": "Point",
@@ -23335,6 +23315,28 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_spring",
+        "@distance": 2159.3,
+        "@id": "n4592098253",
+        "@changeset": 44945294,
+        "@timestamp": "2017-01-06T06:52:48Z",
+        "@version": 1,
+        "@uid": 3132250,
+        "@user": "bjlmt",
+        "natural": "spring",
+        "source": "USGS Topo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -116.5925039,
+          33.6344455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "place_village",
         "@distance": 544.5,
         "@id": "n150952675",
@@ -24148,6 +24150,29 @@
         "coordinates": [
           -120.9673224,
           39.7482096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 338.6,
+        "@id": "w845551720",
+        "@changeset": 90612786,
+        "@timestamp": "2020-09-09T02:52:00Z",
+        "@version": 1,
+        "@uid": 730573,
+        "@user": "btwhite92",
+        "name": "East Meadow Campground",
+        "operator": "USFS Tahoe National Forest",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5331704,
+          39.5009301
         ]
       }
     },
@@ -28276,13 +28301,11 @@
         "@poi": "place_town",
         "@distance": 7269,
         "@id": "n150971852",
-        "@changeset": 43780386,
-        "@timestamp": "2016-11-19T05:45:38Z",
-        "@version": 6,
-        "@uid": 145231,
-        "@user": "woodpeck_repair",
-        "population": 4862,
-        "place": "town",
+        "@changeset": 116087621,
+        "@timestamp": "2022-01-13T01:20:48Z",
+        "@version": 7,
+        "@uid": 13624358,
+        "@user": "yamanq",
         "ele": 1862,
         "gnis:Class": "Populated Place",
         "gnis:County": "San Bernardino",
@@ -28292,12 +28315,16 @@
         "gnis:id": "1661346",
         "import_uuid": "bb7269ee-502a-5391-8056-e3ce0e66489c",
         "is_in": "San Bernardino,California,Calif.,CA,USA",
-        "name": "Running Springs"
+        "name": "Running Springs",
+        "place": "town",
+        "population": 4862,
+        "wikidata": "Q1966095",
+        "wikipedia": "en:Running Springs, California"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -117.1092049,
+          -117.109204,
           34.2077859
         ]
       }
@@ -28308,11 +28335,11 @@
         "@poi": "place_town",
         "@distance": 4089.6,
         "@id": "n150980800",
-        "@changeset": 43780386,
-        "@timestamp": "2016-11-18T23:02:07Z",
-        "@version": 7,
-        "@uid": 145231,
-        "@user": "woodpeck_repair",
+        "@changeset": 116125496,
+        "@timestamp": "2022-01-13T21:35:12Z",
+        "@version": 8,
+        "@uid": 12204396,
+        "@user": "hcourt",
         "census:population": "6169;2006",
         "ele": 2058,
         "gnis:Class": "Populated Place",
@@ -28325,12 +28352,14 @@
         "is_in": "San Bernardino,California,Calif.,CA,USA",
         "name": "Big Bear Lake",
         "place": "town",
-        "population": 6169
+        "population": 6169,
+        "wikidata": "Q430708",
+        "wikipedia": "en:Big Bear Lake, California"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -116.9101808,
+          -116.91018,
           34.2440587
         ]
       }
@@ -28605,28 +28634,6 @@
         "coordinates": [
           -116.7142669,
           33.745957
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 2159.3,
-        "@id": "n4592098253",
-        "@changeset": 44945294,
-        "@timestamp": "2017-01-06T06:52:48Z",
-        "@version": 1,
-        "@uid": 3132250,
-        "@user": "bjlmt",
-        "natural": "spring",
-        "source": "USGS Topo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -116.5925039,
-          33.6344455
         ]
       }
     },
