@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-13T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-14T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2287,9 +2287,9 @@
     {
       "type": "relation",
       "id": 9605870,
-      "timestamp": "2022-01-13T11:57:55Z",
-      "version": 33,
-      "changeset": 116103755,
+      "timestamp": "2022-01-14T02:10:50Z",
+      "version": 34,
+      "changeset": 116130706,
       "user": "KingCZE",
       "uid": 13552526,
       "members": [
@@ -2357,14 +2357,15 @@
         {"type": "way", "ref": 51185586, "role": ""},
         {"type": "way", "ref": 88410449, "role": ""},
         {"type": "way", "ref": 834058912, "role": ""},
-        {"type": "way", "ref": 1020828392, "role": ""},
         {"type": "way", "ref": 834058911, "role": ""},
+        {"type": "way", "ref": 1020828392, "role": ""},
         {"type": "way", "ref": 834058910, "role": ""},
         {"type": "way", "ref": 29060342, "role": ""},
         {"type": "way", "ref": 659528129, "role": ""},
         {"type": "way", "ref": 12269299, "role": ""},
         {"type": "way", "ref": 617488815, "role": ""},
         {"type": "way", "ref": 12269289, "role": ""},
+        {"type": "way", "ref": 1021004330, "role": ""},
         {"type": "way", "ref": 617488816, "role": ""},
         {"type": "way", "ref": 617488819, "role": ""},
         {"type": "way", "ref": 617488769, "role": ""},
@@ -5944,13 +5945,14 @@
     {
       "type": "way",
       "id": 1020828392,
-      "timestamp": "2022-01-13T11:57:55Z",
-      "version": 1,
-      "changeset": 116103755,
+      "timestamp": "2022-01-14T23:43:17Z",
+      "version": 2,
+      "changeset": 116167910,
       "user": "KingCZE",
       "uid": 13552526,
-      "nodes": [7180400875, 7180400873],
+      "nodes": [7180400872, 7180400873],
       "geometry": [
+        {"lat": -36.8641337, "lon": 174.7709922},
         {"lat": -36.8641547, "lon": 174.7710895},
         {"lat": -36.8641776, "lon": 174.7711955}
       ],
@@ -5958,6 +5960,29 @@
         "crossing": "traffic_signals",
         "footway": "crossing",
         "highway": "footway"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021004330,
+      "timestamp": "2022-01-14T02:10:50Z",
+      "version": 1,
+      "changeset": 116130706,
+      "user": "KingCZE",
+      "uid": 13552526,
+      "nodes": [5006053563, 5837096167],
+      "geometry": [
+        {"lat": -36.8655131, "lon": 174.7706742},
+        {"lat": -36.865668, "lon": 174.7706107}
+      ],
+      "tags": {
+        "bus:lanes:backward": "designated|yes",
+        "busway": "lane",
+        "highway": "secondary",
+        "lanes": "4",
+        "maxspeed": "50",
+        "name": "Park Road",
+        "surface": "asphalt"
       }
     },
     {
@@ -7559,16 +7584,15 @@
     {
       "type": "way",
       "id": 12269289,
-      "timestamp": "2020-03-11T04:55:02Z",
-      "version": 11,
-      "changeset": 82035047,
-      "user": "Chipperdoo",
-      "uid": 10310443,
-      "nodes": [111206760, 5837096167],
+      "timestamp": "2022-01-14T02:10:50Z",
+      "version": 12,
+      "changeset": 116130706,
+      "user": "KingCZE",
+      "uid": 13552526,
+      "nodes": [111206760, 5006053563],
       "geometry": [
         {"lat": -36.8654941, "lon": 174.7706803},
-        {"lat": -36.8655131, "lon": 174.7706742},
-        {"lat": -36.865668, "lon": 174.7706107}
+        {"lat": -36.8655131, "lon": 174.7706742}
       ],
       "tags": {
         "bus:lanes:backward": "designated|yes",
