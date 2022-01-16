@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-14T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-15T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11380683,
-      "timestamp": "2021-11-20T20:30:18Z",
-      "version": 12,
-      "changeset": 114039867,
-      "user": "ralley",
-      "uid": 670820,
+      "timestamp": "2022-01-15T10:10:02Z",
+      "version": 13,
+      "changeset": 116176651,
+      "user": "KingCZE",
+      "uid": 13552526,
       "members": [
         {"type": "way", "ref": 662359332, "role": ""},
         {"type": "way", "ref": 675572673, "role": ""},
@@ -124,6 +124,7 @@
         {"type": "way", "ref": 681622880, "role": ""},
         {"type": "way", "ref": 623233525, "role": ""},
         {"type": "way", "ref": 623233526, "role": ""},
+        {"type": "way", "ref": 1021368429, "role": ""},
         {"type": "way", "ref": 626965978, "role": ""},
         {"type": "way", "ref": 626965977, "role": ""},
         {"type": "way", "ref": 626965976, "role": ""},
@@ -273,11 +274,11 @@
     {
       "type": "relation",
       "id": 9444117,
-      "timestamp": "2021-11-26T23:05:47Z",
-      "version": 27,
-      "changeset": 114280675,
-      "user": "AlwynWellington",
-      "uid": 567640,
+      "timestamp": "2022-01-15T23:37:52Z",
+      "version": 28,
+      "changeset": 116200234,
+      "user": "StenSoft",
+      "uid": 255936,
       "members": [
         {"type": "way", "ref": 1004723920, "role": ""},
         {"type": "way", "ref": 1006610045, "role": ""},
@@ -329,6 +330,7 @@
         {"type": "way", "ref": 659646428, "role": ""},
         {"type": "way", "ref": 659646429, "role": ""},
         {"type": "way", "ref": 98284584, "role": ""},
+        {"type": "way", "ref": 1021532941, "role": ""},
         {"type": "way", "ref": 412602341, "role": ""},
         {"type": "way", "ref": 19322684, "role": ""},
         {"type": "way", "ref": 197715070, "role": ""},
@@ -5983,6 +5985,55 @@
         "maxspeed": "50",
         "name": "Park Road",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021368429,
+      "timestamp": "2022-01-15T10:10:02Z",
+      "version": 1,
+      "changeset": 116176651,
+      "user": "KingCZE",
+      "uid": 13552526,
+      "nodes": [3453819346, 5885989300],
+      "geometry": [
+        {"lat": -36.6310113, "lon": 174.670615},
+        {"lat": -36.6294338, "lon": 174.671182},
+        {"lat": -36.6288879, "lon": 174.6713818},
+        {"lat": -36.6285133, "lon": 174.6715751},
+        {"lat": -36.6283836, "lon": 174.671657},
+        {"lat": -36.6278051, "lon": 174.6720432},
+        {"lat": -36.627489, "lon": 174.6722544},
+        {"lat": -36.627426, "lon": 174.6722964}
+      ],
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "80",
+        "name": "East Coast Road",
+        "source:maxspeed": "sign",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021532941,
+      "timestamp": "2022-01-15T23:37:52Z",
+      "version": 1,
+      "changeset": 116200234,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [200773014, 200769301],
+      "geometry": [
+        {"lat": -40.9592555, "lon": 174.9705655},
+        {"lat": -40.9591208, "lon": 174.9703998}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "maxspeed": "30",
+        "name": "Whareroa Road",
+        "surface": "paved"
       }
     },
     {
@@ -20327,16 +20378,17 @@
     {
       "type": "way",
       "id": 19322684,
-      "timestamp": "2020-07-28T08:36:32Z",
-      "version": 6,
-      "changeset": 88607145,
-      "user": "MajaMaravic",
-      "uid": 9357577,
+      "timestamp": "2022-01-15T23:37:52Z",
+      "version": 7,
+      "changeset": 116200234,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [200773014, 2079225607],
       "geometry": [
-        {"lat": -40.959244, "lon": 174.9705543},
+        {"lat": -40.9592555, "lon": 174.9705655},
+        {"lat": -40.9592769, "lon": 174.9705259},
         {"lat": -40.9593182, "lon": 174.9704386},
-        {"lat": -40.959354, "lon": 174.9703643},
+        {"lat": -40.9593582, "lon": 174.9703519},
         {"lat": -40.9593991, "lon": 174.9702539},
         {"lat": -40.9594724, "lon": 174.970084},
         {"lat": -40.9595162, "lon": 174.9699621},
@@ -23695,9 +23747,9 @@
     {
       "type": "way",
       "id": 207151716,
-      "timestamp": "2022-01-09T06:06:33Z",
-      "version": 16,
-      "changeset": 115931043,
+      "timestamp": "2022-01-15T10:23:57Z",
+      "version": 17,
+      "changeset": 116177074,
       "user": "KingCZE",
       "uid": 13552526,
       "nodes": [5917064242, 8336215789],
@@ -23723,7 +23775,7 @@
         "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
-        "maxspeed": "100",
+        "maxspeed": "80",
         "name": "East Coast Road",
         "surface": "paved"
       }
@@ -44766,11 +44818,11 @@
     {
       "type": "way",
       "id": 335022784,
-      "timestamp": "2021-02-22T06:58:44Z",
-      "version": 21,
-      "changeset": 99720205,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-01-15T10:10:02Z",
+      "version": 22,
+      "changeset": 116176651,
+      "user": "KingCZE",
+      "uid": 13552526,
       "nodes": [5996403766, 5851774844],
       "geometry": [
         {"lat": -36.6551998, "lon": 174.6698486},
@@ -44780,6 +44832,7 @@
         {"lat": -36.6527492, "lon": 174.669154},
         {"lat": -36.6522037, "lon": 174.6690475},
         {"lat": -36.6516365, "lon": 174.6690006},
+        {"lat": -36.6506893, "lon": 174.6689707},
         {"lat": -36.6504854, "lon": 174.6689643},
         {"lat": -36.6501325, "lon": 174.6689509},
         {"lat": -36.6489424, "lon": 174.6688941},
@@ -44801,6 +44854,7 @@
       "tags": {
         "highway": "secondary",
         "lanes": "2",
+        "maxspeed": "100",
         "name": "East Coast Road",
         "surface": "paved"
       }
@@ -61243,14 +61297,13 @@
     {
       "type": "way",
       "id": 412602341,
-      "timestamp": "2021-09-24T20:36:22Z",
-      "version": 4,
-      "changeset": 111666152,
-      "user": "AlwynWellington",
-      "uid": 567640,
-      "nodes": [200773014, 9121174477],
+      "timestamp": "2022-01-15T23:37:52Z",
+      "version": 5,
+      "changeset": 116200234,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [200769301, 9121174477],
       "geometry": [
-        {"lat": -40.959244, "lon": 174.9705543},
         {"lat": -40.9591208, "lon": 174.9703998},
         {"lat": -40.9589434, "lon": 174.9701098},
         {"lat": -40.9588204, "lon": 174.9699213},
@@ -61282,8 +61335,9 @@
         {"lat": -40.9571534, "lon": 174.9699544},
         {"lat": -40.9570795, "lon": 174.9700537},
         {"lat": -40.9569468, "lon": 174.9702222},
-        {"lat": -40.9568386, "lon": 174.9703516},
-        {"lat": -40.9567537, "lon": 174.970504}
+        {"lat": -40.9568596, "lon": 174.9703335},
+        {"lat": -40.956808, "lon": 174.9704181},
+        {"lat": -40.9567692, "lon": 174.9705149}
       ],
       "tags": {
         "highway": "unclassified",
@@ -69079,7 +69133,7 @@
       "uid": 13552526,
       "nodes": [5814322824, 660121669],
       "geometry": [
-        {"lat": -36.8665947, "lon": 174.7703465},
+        {"lat": -36.8665947, "lon": 174.7703411},
         {"lat": -36.8672481, "lon": 174.7701427},
         {"lat": -36.8677705, "lon": 174.7699757},
         {"lat": -36.8678359, "lon": 174.769956},
@@ -70625,8 +70679,8 @@
       "uid": 10310443,
       "nodes": [5837096170, 5814322824],
       "geometry": [
-        {"lat": -36.8664121, "lon": 174.7704095},
-        {"lat": -36.8665947, "lon": 174.7703465}
+        {"lat": -36.8664113, "lon": 174.7703947},
+        {"lat": -36.8665947, "lon": 174.7703411}
       ],
       "tags": {
         "highway": "secondary",
@@ -70680,7 +70734,7 @@
         {"lat": -36.865668, "lon": 174.7706107},
         {"lat": -36.8659162, "lon": 174.7705272},
         {"lat": -36.8659278, "lon": 174.7705233},
-        {"lat": -36.8660219, "lon": 174.7705124}
+        {"lat": -36.8660185, "lon": 174.7704987}
       ],
       "tags": {
         "busway": "lane",
@@ -70705,10 +70759,10 @@
       "uid": 13552526,
       "nodes": [25770844, 5837096170],
       "geometry": [
-        {"lat": -36.8660219, "lon": 174.7705124},
-        {"lat": -36.8661231, "lon": 174.770497},
-        {"lat": -36.8661318, "lon": 174.7704944},
-        {"lat": -36.8664121, "lon": 174.7704095}
+        {"lat": -36.8660185, "lon": 174.7704987},
+        {"lat": -36.8661172, "lon": 174.7704748},
+        {"lat": -36.8661318, "lon": 174.7704722},
+        {"lat": -36.8664113, "lon": 174.7703947}
       ],
       "tags": {
         "highway": "secondary",
@@ -70825,9 +70879,9 @@
     {
       "type": "way",
       "id": 617504820,
-      "timestamp": "2022-01-09T06:06:33Z",
-      "version": 7,
-      "changeset": 115931043,
+      "timestamp": "2022-01-15T10:23:57Z",
+      "version": 8,
+      "changeset": 116177074,
       "user": "KingCZE",
       "uid": 13552526,
       "nodes": [844611186, 349291555],
@@ -70844,7 +70898,7 @@
         "lanes": "3",
         "lanes:backward": "2",
         "lanes:forward": "1",
-        "maxspeed": "100",
+        "maxspeed": "80",
         "name": "East Coast Road",
         "surface": "asphalt"
       }
@@ -70852,9 +70906,9 @@
     {
       "type": "way",
       "id": 617504821,
-      "timestamp": "2022-01-09T06:06:33Z",
-      "version": 5,
-      "changeset": 115931043,
+      "timestamp": "2022-01-15T10:23:57Z",
+      "version": 6,
+      "changeset": 116177074,
       "user": "KingCZE",
       "uid": 13552526,
       "nodes": [349291555, 349291557],
@@ -70865,7 +70919,7 @@
       "tags": {
         "highway": "secondary",
         "lanes": "4",
-        "maxspeed": "100",
+        "maxspeed": "80",
         "name": "East Coast Road",
         "surface": "asphalt",
         "turn:lanes:backward": "none|none",
@@ -70875,9 +70929,9 @@
     {
       "type": "way",
       "id": 617504822,
-      "timestamp": "2022-01-09T06:06:33Z",
-      "version": 9,
-      "changeset": 115931043,
+      "timestamp": "2022-01-15T10:23:57Z",
+      "version": 10,
+      "changeset": 116177074,
       "user": "KingCZE",
       "uid": 13552526,
       "nodes": [349291560, 5850022003],
@@ -70895,7 +70949,7 @@
         "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
-        "maxspeed": "100",
+        "maxspeed": "80",
         "name": "East Coast Road",
         "surface": "asphalt"
       }
@@ -71924,9 +71978,9 @@
     {
       "type": "way",
       "id": 618984342,
-      "timestamp": "2022-01-09T06:06:33Z",
-      "version": 7,
-      "changeset": 115931043,
+      "timestamp": "2022-01-15T10:23:57Z",
+      "version": 8,
+      "changeset": 116177074,
       "user": "KingCZE",
       "uid": 13552526,
       "nodes": [349291557, 349291560],
@@ -71942,7 +71996,7 @@
         "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
-        "maxspeed": "100",
+        "maxspeed": "80",
         "name": "East Coast Road",
         "source:lanes": "Esri World Imagery",
         "surface": "asphalt"
@@ -71951,9 +72005,9 @@
     {
       "type": "way",
       "id": 619003800,
-      "timestamp": "2022-01-09T06:06:33Z",
-      "version": 8,
-      "changeset": 115931043,
+      "timestamp": "2022-01-15T10:23:57Z",
+      "version": 9,
+      "changeset": 116177074,
       "user": "KingCZE",
       "uid": 13552526,
       "nodes": [5850022003, 349291569],
@@ -71967,7 +72021,7 @@
         "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
-        "maxspeed": "100",
+        "maxspeed": "80",
         "name": "East Coast Road",
         "surface": "asphalt"
       }
@@ -71975,9 +72029,9 @@
     {
       "type": "way",
       "id": 619003801,
-      "timestamp": "2022-01-09T06:06:33Z",
-      "version": 8,
-      "changeset": 115931043,
+      "timestamp": "2022-01-15T10:23:57Z",
+      "version": 9,
+      "changeset": 116177074,
       "user": "KingCZE",
       "uid": 13552526,
       "nodes": [5898781832, 5850022004],
@@ -71991,7 +72045,7 @@
         "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
-        "maxspeed": "100",
+        "maxspeed": "80",
         "name": "East Coast Road",
         "surface": "asphalt"
       }
@@ -71999,9 +72053,9 @@
     {
       "type": "way",
       "id": 619003802,
-      "timestamp": "2022-01-09T06:06:33Z",
-      "version": 5,
-      "changeset": 115931043,
+      "timestamp": "2022-01-15T10:23:57Z",
+      "version": 6,
+      "changeset": 116177074,
       "user": "KingCZE",
       "uid": 13552526,
       "nodes": [5850022004, 349291574],
@@ -72014,7 +72068,7 @@
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "2",
-        "maxspeed": "100",
+        "maxspeed": "80",
         "name": "East Coast Road",
         "surface": "asphalt",
         "turn:lanes:backward": "none",
@@ -72024,11 +72078,11 @@
     {
       "type": "way",
       "id": 619005188,
-      "timestamp": "2020-07-31T10:37:43Z",
-      "version": 5,
-      "changeset": 88777021,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2022-01-15T10:10:02Z",
+      "version": 6,
+      "changeset": 116176651,
+      "user": "KingCZE",
+      "uid": 13552526,
       "nodes": [4855438538, 5850030360],
       "geometry": [
         {"lat": -36.6700738, "lon": 174.6824108},
@@ -72037,6 +72091,7 @@
       "tags": {
         "highway": "secondary",
         "lanes": "2",
+        "maxspeed": "100",
         "name": "East Coast Road",
         "surface": "paved"
       }
@@ -72044,11 +72099,11 @@
     {
       "type": "way",
       "id": 619005189,
-      "timestamp": "2019-10-29T07:28:48Z",
-      "version": 4,
-      "changeset": 76328053,
-      "user": "LACDH",
-      "uid": 4994674,
+      "timestamp": "2022-01-15T10:10:02Z",
+      "version": 5,
+      "changeset": 116176651,
+      "user": "KingCZE",
+      "uid": 13552526,
       "nodes": [5850030362, 4855438538],
       "geometry": [
         {"lat": -36.6703591, "lon": 174.6827377},
@@ -72059,6 +72114,7 @@
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "2",
+        "maxspeed": "100",
         "name": "East Coast Road",
         "surface": "asphalt",
         "turn:lanes:backward": "none",
@@ -72068,11 +72124,11 @@
     {
       "type": "way",
       "id": 619005190,
-      "timestamp": "2020-07-31T10:37:43Z",
-      "version": 8,
-      "changeset": 88777021,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2022-01-15T10:10:02Z",
+      "version": 9,
+      "changeset": 116176651,
+      "user": "KingCZE",
+      "uid": 13552526,
       "nodes": [5917093170, 5850030362],
       "geometry": [
         {"lat": -36.674428, "lon": 174.6861364},
@@ -72089,6 +72145,7 @@
         "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
+        "maxspeed": "100",
         "name": "East Coast Road",
         "surface": "paved"
       }
@@ -72096,11 +72153,11 @@
     {
       "type": "way",
       "id": 619005901,
-      "timestamp": "2019-10-29T07:28:56Z",
-      "version": 6,
-      "changeset": 76328053,
-      "user": "LACDH",
-      "uid": 4994674,
+      "timestamp": "2022-01-15T10:10:02Z",
+      "version": 7,
+      "changeset": 116176651,
+      "user": "KingCZE",
+      "uid": 13552526,
       "nodes": [5850036439, 349291591],
       "geometry": [
         {"lat": -36.6751644, "lon": 174.6866195},
@@ -72111,6 +72168,7 @@
         "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
+        "maxspeed": "100",
         "name": "East Coast Road",
         "surface": "asphalt"
       }
@@ -72118,11 +72176,11 @@
     {
       "type": "way",
       "id": 619005902,
-      "timestamp": "2021-01-19T00:11:43Z",
-      "version": 7,
-      "changeset": 97726281,
-      "user": "StenSoft",
-      "uid": 255936,
+      "timestamp": "2022-01-15T10:23:57Z",
+      "version": 8,
+      "changeset": 116177074,
+      "user": "KingCZE",
+      "uid": 13552526,
       "nodes": [349291586, 5850036439],
       "geometry": [
         {"lat": -36.6776987, "lon": 174.6886285},
@@ -72142,6 +72200,7 @@
         "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
+        "maxspeed": "80",
         "name": "East Coast Road",
         "source:lanes": "Esri World Imagery",
         "surface": "asphalt"
@@ -72150,11 +72209,11 @@
     {
       "type": "way",
       "id": 619203603,
-      "timestamp": "2020-07-31T10:37:43Z",
-      "version": 4,
-      "changeset": 88777021,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2022-01-15T10:10:02Z",
+      "version": 5,
+      "changeset": 116176651,
+      "user": "KingCZE",
+      "uid": 13552526,
       "nodes": [5851726483, 349291622],
       "geometry": [
         {"lat": -36.6612877, "lon": 174.6727213},
@@ -72165,6 +72224,7 @@
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "2",
+        "maxspeed": "100",
         "name": "East Coast Road",
         "surface": "paved",
         "turn:lanes:backward": "none",
@@ -72174,11 +72234,11 @@
     {
       "type": "way",
       "id": 619203604,
-      "timestamp": "2021-02-22T06:58:44Z",
-      "version": 8,
-      "changeset": 99720205,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-01-15T10:10:02Z",
+      "version": 9,
+      "changeset": 116176651,
+      "user": "KingCZE",
+      "uid": 13552526,
       "nodes": [5850030360, 5851726483],
       "geometry": [
         {"lat": -36.6699999, "lon": 174.6823233},
@@ -72198,6 +72258,7 @@
       "tags": {
         "highway": "secondary",
         "lanes": "2",
+        "maxspeed": "100",
         "name": "East Coast Road",
         "surface": "paved"
       }
@@ -72205,11 +72266,11 @@
     {
       "type": "way",
       "id": 619208991,
-      "timestamp": "2020-12-16T11:53:23Z",
-      "version": 6,
-      "changeset": 95939285,
-      "user": "LACDH",
-      "uid": 4994674,
+      "timestamp": "2022-01-15T10:10:02Z",
+      "version": 7,
+      "changeset": 116176651,
+      "user": "KingCZE",
+      "uid": 13552526,
       "nodes": [349291661, 5851774843],
       "geometry": [
         {"lat": -36.6407617, "lon": 174.6697663},
@@ -72219,24 +72280,25 @@
       ],
       "tags": {
         "cycleway:both": "no",
+        "destination:ref:lanes:backward": "Stillwater|East Coast Bays",
         "highway": "secondary",
         "lanes": "3",
         "lanes:backward": "2",
         "lanes:forward": "1",
+        "maxspeed": "100",
         "name": "East Coast Road",
         "surface": "asphalt",
-        "turn:lanes:backward": "left|none",
-        "turn:lanes:forward": "none"
+        "turn:lanes:backward": "left|through"
       }
     },
     {
       "type": "way",
       "id": 619208993,
-      "timestamp": "2020-12-16T11:53:18Z",
-      "version": 5,
-      "changeset": 95939285,
-      "user": "LACDH",
-      "uid": 4994674,
+      "timestamp": "2022-01-15T10:10:02Z",
+      "version": 6,
+      "changeset": 116176651,
+      "user": "KingCZE",
+      "uid": 13552526,
       "nodes": [5851774844, 349291661],
       "geometry": [
         {"lat": -36.640943, "lon": 174.6697219},
@@ -72248,6 +72310,7 @@
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "2",
+        "maxspeed": "100",
         "name": "East Coast Road",
         "surface": "asphalt",
         "turn:lanes:backward": "none",
@@ -72635,9 +72698,9 @@
     {
       "type": "way",
       "id": 623233525,
-      "timestamp": "2022-01-09T06:06:33Z",
-      "version": 7,
-      "changeset": 115931043,
+      "timestamp": "2022-01-15T10:10:02Z",
+      "version": 8,
+      "changeset": 116176651,
       "user": "KingCZE",
       "uid": 13552526,
       "nodes": [349288918, 6200479167],
@@ -72651,7 +72714,7 @@
         "lanes": "3",
         "lanes:backward": "2",
         "lanes:forward": "1",
-        "maxspeed": "60",
+        "maxspeed": "50",
         "name": "East Coast Road",
         "source:maxspeed": "sign",
         "surface": "asphalt"
@@ -72660,9 +72723,9 @@
     {
       "type": "way",
       "id": 623233526,
-      "timestamp": "2022-01-09T06:06:33Z",
-      "version": 6,
-      "changeset": 115931043,
+      "timestamp": "2022-01-15T10:10:02Z",
+      "version": 7,
+      "changeset": 116176651,
       "user": "KingCZE",
       "uid": 13552526,
       "nodes": [5885989300, 349288918],
@@ -72676,7 +72739,7 @@
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "2",
-        "maxspeed": "60",
+        "maxspeed": "50",
         "name": "East Coast Road",
         "source:maxspeed": "sign",
         "surface": "asphalt",
@@ -72687,9 +72750,9 @@
     {
       "type": "way",
       "id": 623233527,
-      "timestamp": "2022-01-09T06:06:33Z",
-      "version": 8,
-      "changeset": 115931043,
+      "timestamp": "2022-01-15T10:10:02Z",
+      "version": 9,
+      "changeset": 116176651,
       "user": "KingCZE",
       "uid": 13552526,
       "nodes": [5294435933, 5712646406],
@@ -72706,7 +72769,7 @@
         "cycleway:both": "no",
         "highway": "secondary",
         "lanes": "4",
-        "maxspeed": "60",
+        "maxspeed": "50",
         "name": "East Coast Road",
         "source:maxspeed": "sign",
         "surface": "asphalt"
@@ -73003,9 +73066,9 @@
     {
       "type": "way",
       "id": 624670002,
-      "timestamp": "2022-01-09T06:06:33Z",
-      "version": 7,
-      "changeset": 115931043,
+      "timestamp": "2022-01-15T10:23:57Z",
+      "version": 8,
+      "changeset": 116177074,
       "user": "KingCZE",
       "uid": 13552526,
       "nodes": [5898781831, 5898781832],
@@ -73020,7 +73083,7 @@
         "lanes:backward": "1",
         "lanes:forward": "2",
         "layer": "1",
-        "maxspeed": "100",
+        "maxspeed": "80",
         "name": "East Coast Road",
         "surface": "asphalt"
       }
@@ -73028,9 +73091,9 @@
     {
       "type": "way",
       "id": 624670006,
-      "timestamp": "2022-01-09T06:06:33Z",
-      "version": 7,
-      "changeset": 115931043,
+      "timestamp": "2022-01-15T10:23:57Z",
+      "version": 8,
+      "changeset": 116177074,
       "user": "KingCZE",
       "uid": 13552526,
       "nodes": [349291569, 5898781831],
@@ -73043,7 +73106,7 @@
         "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
-        "maxspeed": "100",
+        "maxspeed": "80",
         "name": "East Coast Road",
         "surface": "asphalt"
       }
@@ -73813,9 +73876,9 @@
     {
       "type": "way",
       "id": 626765485,
-      "timestamp": "2022-01-09T06:06:33Z",
-      "version": 5,
-      "changeset": 115931043,
+      "timestamp": "2022-01-15T10:23:57Z",
+      "version": 6,
+      "changeset": 116177074,
       "user": "KingCZE",
       "uid": 13552526,
       "nodes": [349291574, 5917064242],
@@ -73830,7 +73893,7 @@
         "lanes": "3",
         "lanes:backward": "2",
         "lanes:forward": "1",
-        "maxspeed": "100",
+        "maxspeed": "80",
         "name": "East Coast Road",
         "surface": "asphalt",
         "turn:lanes:backward": "left|none",
@@ -73840,11 +73903,11 @@
     {
       "type": "way",
       "id": 626768157,
-      "timestamp": "2019-10-29T07:28:58Z",
-      "version": 4,
-      "changeset": 76328053,
-      "user": "LACDH",
-      "uid": 4994674,
+      "timestamp": "2022-01-15T10:10:02Z",
+      "version": 5,
+      "changeset": 116176651,
+      "user": "KingCZE",
+      "uid": 13552526,
       "nodes": [349291591, 5917093170],
       "geometry": [
         {"lat": -36.6747897, "lon": 174.6863792},
@@ -73855,6 +73918,7 @@
         "lanes": "3",
         "lanes:backward": "2",
         "lanes:forward": "1",
+        "maxspeed": "100",
         "name": "East Coast Road",
         "surface": "asphalt",
         "turn:lanes:backward": "none|right",
@@ -73914,21 +73978,15 @@
     {
       "type": "way",
       "id": 626965978,
-      "timestamp": "2020-05-21T07:32:42Z",
-      "version": 5,
-      "changeset": 85536664,
-      "user": "LACDH",
-      "uid": 4994674,
-      "nodes": [5918756911, 5885989300],
+      "timestamp": "2022-01-15T10:10:02Z",
+      "version": 6,
+      "changeset": 116176651,
+      "user": "KingCZE",
+      "uid": 13552526,
+      "nodes": [5918756911, 3453819346],
       "geometry": [
         {"lat": -36.6312295, "lon": 174.6705381},
-        {"lat": -36.6310113, "lon": 174.670615},
-        {"lat": -36.6294338, "lon": 174.671182},
-        {"lat": -36.6288879, "lon": 174.6713818},
-        {"lat": -36.6285133, "lon": 174.6715751},
-        {"lat": -36.6283836, "lon": 174.671657},
-        {"lat": -36.6278051, "lon": 174.6720432},
-        {"lat": -36.627426, "lon": 174.6722964}
+        {"lat": -36.6310113, "lon": 174.670615}
       ],
       "tags": {
         "cycleway:both": "no",
@@ -74213,11 +74271,11 @@
     {
       "type": "way",
       "id": 635780723,
-      "timestamp": "2021-02-22T06:58:44Z",
-      "version": 6,
-      "changeset": 99720205,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-01-15T10:10:02Z",
+      "version": 7,
+      "changeset": 116176651,
+      "user": "KingCZE",
+      "uid": 13552526,
       "nodes": [349291632, 5996403766],
       "geometry": [
         {"lat": -36.6575514, "lon": 174.6705152},
@@ -74229,6 +74287,7 @@
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "2",
+        "maxspeed": "100",
         "name": "East Coast Road",
         "surface": "paved"
       }
@@ -74236,11 +74295,11 @@
     {
       "type": "way",
       "id": 635780724,
-      "timestamp": "2021-02-22T06:58:44Z",
-      "version": 8,
-      "changeset": 99720205,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-01-15T10:10:02Z",
+      "version": 9,
+      "changeset": 116176651,
+      "user": "KingCZE",
+      "uid": 13552526,
       "nodes": [349291622, 349291632],
       "geometry": [
         {"lat": -36.6611325, "lon": 174.6724606},
@@ -74256,6 +74315,7 @@
       "tags": {
         "highway": "secondary",
         "lanes": "2",
+        "maxspeed": "100",
         "name": "East Coast Road",
         "surface": "paved"
       }
@@ -76648,11 +76708,11 @@
     {
       "type": "way",
       "id": 673287638,
-      "timestamp": "2021-02-22T06:58:44Z",
-      "version": 4,
-      "changeset": 99720205,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-01-15T10:10:02Z",
+      "version": 5,
+      "changeset": 116176651,
+      "user": "KingCZE",
+      "uid": 13552526,
       "nodes": [5851774843, 6305220309],
       "geometry": [
         {"lat": -36.6402101, "lon": 174.6697892},
@@ -76675,6 +76735,7 @@
         "cycleway:both": "no",
         "highway": "secondary",
         "lanes": "2",
+        "maxspeed": "100",
         "name": "East Coast Road",
         "surface": "asphalt"
       }
@@ -76682,11 +76743,11 @@
     {
       "type": "way",
       "id": 673592118,
-      "timestamp": "2021-01-19T00:11:43Z",
-      "version": 3,
-      "changeset": 97726281,
-      "user": "StenSoft",
-      "uid": 255936,
+      "timestamp": "2022-01-15T10:23:57Z",
+      "version": 4,
+      "changeset": 116177074,
+      "user": "KingCZE",
+      "uid": 13552526,
       "nodes": [349291585, 349291586],
       "geometry": [
         {"lat": -36.6782857, "lon": 174.689478},
@@ -76700,6 +76761,7 @@
         "lanes": "2",
         "lanes:backward": "1",
         "lanes:forward": "1",
+        "maxspeed": "80",
         "name": "East Coast Road",
         "surface": "asphalt"
       }
@@ -80258,9 +80320,9 @@
     {
       "type": "way",
       "id": 681622880,
-      "timestamp": "2022-01-09T06:06:33Z",
-      "version": 3,
-      "changeset": 115931043,
+      "timestamp": "2022-01-15T10:10:02Z",
+      "version": 4,
+      "changeset": 116176651,
       "user": "KingCZE",
       "uid": 13552526,
       "nodes": [6200479167, 5294435933],
@@ -80274,7 +80336,7 @@
         "lanes": "3",
         "lanes:backward": "2",
         "lanes:forward": "1",
-        "maxspeed": "60",
+        "maxspeed": "50",
         "name": "East Coast Road",
         "source:maxspeed": "sign",
         "surface": "asphalt"
@@ -101522,7 +101584,7 @@
       "uid": 567640,
       "nodes": [9121174477, 1137214880],
       "geometry": [
-        {"lat": -40.9567537, "lon": 174.970504},
+        {"lat": -40.9567692, "lon": 174.9705149},
         {"lat": -40.9566877, "lon": 174.9705341},
         {"lat": -40.956629, "lon": 174.9705111},
         {"lat": -40.9565723, "lon": 174.9704818},
