@@ -4583,37 +4583,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "alpine-hut",
-        "@distance": 55.8,
-        "@id": "n1331256238",
-        "@changeset": 100804171,
-        "@timestamp": "2021-03-10T22:29:14Z",
-        "@version": 8,
-        "@uid": 675302,
-        "@user": "Martj9",
-        "addr:city": "Névache",
-        "addr:postcode": "05100",
-        "capacity": 34,
-        "contact:email": "terzoalpini@terzoalpini.com",
-        "contact:phone": "+33 1 22 90 20 71",
-        "contact:website": "http://www.terzoalpini.com/",
-        "name": "Rifugio Terzo Alpini",
-        "name:fr": "Refuge Terzo Alpini",
-        "operator": "Club Alpino Italiano",
-        "tourism": "alpine_hut",
-        "wikidata": "Q3935653"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.6230646,
-          45.0696267
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "peak_peak",
         "@distance": 616.4,
         "@id": "n888673483",
@@ -7225,6 +7194,37 @@
         "coordinates": [
           6.9089539,
           45.4684843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "alpine-hut",
+        "@distance": 55.8,
+        "@id": "n1331256238",
+        "@changeset": 100804171,
+        "@timestamp": "2021-03-10T22:29:14Z",
+        "@version": 8,
+        "@uid": 675302,
+        "@user": "Martj9",
+        "addr:city": "Névache",
+        "addr:postcode": "05100",
+        "capacity": 34,
+        "contact:email": "terzoalpini@terzoalpini.com",
+        "contact:phone": "+33 1 22 90 20 71",
+        "contact:website": "http://www.terzoalpini.com/",
+        "name": "Rifugio Terzo Alpini",
+        "name:fr": "Refuge Terzo Alpini",
+        "operator": "Club Alpino Italiano",
+        "tourism": "alpine_hut",
+        "wikidata": "Q3935653"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6230646,
+          45.0696267
         ]
       }
     },
@@ -13090,11 +13090,11 @@
         "@poi": "foodshop_convenience",
         "@distance": 2708.2,
         "@id": "n2169041274",
-        "@changeset": 115016550,
-        "@timestamp": "2021-12-16T16:27:35Z",
-        "@version": 7,
-        "@uid": 337375,
-        "@user": "Rom1",
+        "@changeset": 116148403,
+        "@timestamp": "2022-01-14T13:50:56Z",
+        "@version": 8,
+        "@uid": 8490885,
+        "@user": "divulmappeur",
         "amenity": "fuel",
         "brand": "BP",
         "brand:wikidata": "Q152057",
@@ -13102,12 +13102,15 @@
         "compressed_air": "yes",
         "fuel:diesel": "yes",
         "fuel:e10": "yes",
+        "fuel:octane_98": "yes",
         "name": "BP",
         "opening_hours": "24/7",
         "ref:FR:prix-carburants": "6200006",
         "shop": "convenience",
-        "source": "Ministère de l'Economie, de l'Industrie et du Numérique - 08/04/2018",
-        "toilets": "yes"
+        "source": "Ministère de l'Economie, de l'Industrie et du Numérique - 03/2020",
+        "toilets": "yes",
+        "vending": "fuel",
+        "vending_machine": "fuel"
       },
       "geometry": {
         "type": "Point",
@@ -30300,36 +30303,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
-        "@distance": 9711.9,
-        "@id": "w63879285",
-        "@changeset": 94210570,
-        "@timestamp": "2020-11-16T15:20:18Z",
-        "@version": 6,
-        "@uid": 188930,
-        "@user": "JLZIMMERMANN",
-        "brand": "Lidl",
-        "brand:wikidata": "Q151954",
-        "brand:wikipedia": "fr:Lidl",
-        "building": "retail",
-        "name": "Lidl",
-        "operator": "Lidl",
-        "shop": "supermarket",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-        "supermarket": "yes",
-        "supermarket:FR": "supermarché"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.1435675,
-          43.6656665
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
         "@distance": 5670.1,
         "@id": "n6356201759",
         "@changeset": 106902427,
@@ -32218,6 +32191,36 @@
         "coordinates": [
           6.6313667,
           45.0169514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 9711.9,
+        "@id": "w63879285",
+        "@changeset": 94210570,
+        "@timestamp": "2020-11-16T15:20:18Z",
+        "@version": 6,
+        "@uid": 188930,
+        "@user": "JLZIMMERMANN",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "fr:Lidl",
+        "building": "retail",
+        "name": "Lidl",
+        "operator": "Lidl",
+        "shop": "supermarket",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "supermarket": "yes",
+        "supermarket:FR": "supermarché"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1435675,
+          43.6656665
         ]
       }
     },
