@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-01-13T23:59:59Z",
-    "timestamp_osm_base": "2022-01-14T03:55:10Z",
+    "timestamp_osm_date": "2022-01-16T23:59:59Z",
+    "timestamp_osm_base": "2022-01-17T03:55:54Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6101,12 +6101,12 @@
       "user": "brendan77",
       "uid": 193835,
       "tags": {
-        "branch": "Food Store",
-        "brand": "Save-A-Lot",
-        "brand:wikidata": "Q7427972",
-        "brand:wikipedia": "en:Save-A-Lot",
+        "shop": "supermarket",
         "name": "Save-A-Lot",
-        "shop": "supermarket"
+        "brand:wikipedia": "en:Save-A-Lot",
+        "brand:wikidata": "Q7427972",
+        "brand": "Save-A-Lot",
+        "branch": "Food Store"
       }
     },
     {
@@ -6215,11 +6215,11 @@
       "user": "bhietsch",
       "uid": 5390272,
       "tags": {
-        "brand": "Hannaford",
-        "brand:wikidata": "Q5648760",
-        "brand:wikipedia": "en:Hannaford Brothers Company",
+        "shop": "supermarket",
         "name": "Hannaford",
-        "shop": "supermarket"
+        "brand:wikipedia": "en:Hannaford Brothers Company",
+        "brand:wikidata": "Q5648760",
+        "brand": "Hannaford"
       }
     },
     {
@@ -6550,9 +6550,9 @@
       "user": "cl94",
       "uid": 364790,
       "tags": {
-        "name": "Speedway",
+        "toilets": "yes",
         "shop": "convenience",
-        "toilets": "yes"
+        "name": "Speedway"
       }
     },
     {
@@ -6900,17 +6900,20 @@
       "id": 3763276846,
       "lat": 42.7088521,
       "lon": -73.7757301,
-      "timestamp": "2015-09-29T01:56:34Z",
-      "version": 1,
-      "changeset": 34316208,
-      "user": "Jasebern",
-      "uid": 3271940,
+      "timestamp": "2022-01-15T22:56:06Z",
+      "version": 2,
+      "changeset": 116199423,
+      "user": "Timothy Smith",
+      "uid": 115918,
       "tags": {
         "addr:city": "Loudonville",
         "addr:housenumber": "475",
         "addr:postcode": "12211",
         "addr:state": "NY",
         "addr:street": "Albany Shaker Road",
+        "brand": "Price Chopper",
+        "brand:wikidata": "Q7242574",
+        "brand:wikipedia": "en:Price Chopper and Market 32 Supermarkets",
         "name": "Price Chopper",
         "shop": "supermarket"
       }
@@ -7112,8 +7115,8 @@
       "user": "JessAk71",
       "uid": 381909,
       "tags": {
-        "name": "Hess Express",
-        "shop": "convenience"
+        "shop": "convenience",
+        "name": "Hess Express"
       }
     },
     {
@@ -7661,11 +7664,11 @@
       "user": "Timothy Smith",
       "uid": 115918,
       "tags": {
-        "brand": "Speedway",
-        "brand:wikidata": "Q7575683",
-        "brand:wikipedia": "en:Speedway LLC",
+        "shop": "convenience",
         "name": "Speedway",
-        "shop": "convenience"
+        "brand:wikidata": "Q7575683",
+        "brand": "Speedway",
+        "brand:wikipedia": "en:Speedway LLC"
       }
     },
     {
@@ -7894,6 +7897,21 @@
         "name": "Martin's Mini Mart",
         "shop": "convenience",
         "source": "esri/USA_NAD_Addresses"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9420873285,
+      "lat": 42.6565761,
+      "lon": -73.8022883,
+      "timestamp": "2022-01-15T17:20:03Z",
+      "version": 1,
+      "changeset": 116190057,
+      "user": "JessAk71",
+      "uid": 381909,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
       }
     },
     {
@@ -8897,18 +8915,18 @@
       },
       "nodes": [],
       "tags": {
-        "addr:city": "Troy",
-        "addr:housenumber": "800",
-        "addr:postcode": "12180",
-        "addr:state": "NY",
-        "addr:street": "Burden Avenue",
         "brand": "Speedway",
         "brand:wikidata": "Q7575683",
         "brand:wikipedia": "en:Speedway LLC",
         "building": "yes",
         "name": "Speedway",
-        "nysgissam:nysaddresspointid": "RENS002823",
-        "shop": "convenience"
+        "shop": "convenience",
+        "addr:city": "Troy",
+        "addr:housenumber": "800",
+        "addr:postcode": "12180",
+        "addr:state": "NY",
+        "addr:street": "Burden Avenue",
+        "nysgissam:nysaddresspointid": "RENS002823"
       }
     },
     {
@@ -8925,15 +8943,15 @@
       },
       "nodes": [],
       "tags": {
-        "addr:city": "Latham",
-        "addr:state": "NY",
-        "addr:street": "New Loudon Road",
         "brand": "Speedway",
         "brand:wikidata": "Q7575683",
         "brand:wikipedia": "en:Speedway (store)",
         "building": "yes",
         "name": "Speedway",
-        "shop": "convenience"
+        "shop": "convenience",
+        "addr:city": "Latham",
+        "addr:state": "NY",
+        "addr:street": "New Loudon Road"
       }
     },
     {
@@ -8974,18 +8992,18 @@
       },
       "nodes": [],
       "tags": {
-        "addr:city": "Troy",
-        "addr:housenumber": "175",
-        "addr:postcode": "12180",
-        "addr:state": "NY",
-        "addr:street": "Hoosick Street",
         "brand": "Speedway",
         "brand:wikidata": "Q7575683",
         "brand:wikipedia": "en:Speedway (store)",
         "building": "yes",
         "name": "Speedway",
-        "nysgissam:nysaddresspointid": "RENS049964",
-        "shop": "convenience"
+        "shop": "convenience",
+        "addr:city": "Troy",
+        "addr:housenumber": "175",
+        "addr:postcode": "12180",
+        "addr:state": "NY",
+        "addr:street": "Hoosick Street",
+        "nysgissam:nysaddresspointid": "RENS049964"
       }
     },
     {
@@ -9229,6 +9247,35 @@
       "tags": {
         "building": "yes",
         "name": "Wonderland Farms",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 85607562,
+      "timestamp": "2022-01-15T22:56:54Z",
+      "version": 3,
+      "changeset": 116199439,
+      "user": "Timothy Smith",
+      "uid": 115918,
+      "center": {
+        "lat": 42.6772879,
+        "lon": -73.7365755
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Albany",
+        "addr:housenumber": "703",
+        "addr:postcode": "12204",
+        "addr:state": "NY",
+        "addr:street": "North Pearl Street",
+        "amenity": "fuel",
+        "brand": "Gulf",
+        "brand:wikidata": "Q5617505",
+        "brand:wikipedia": "en:Gulf Oil LP",
+        "building": "yes",
+        "name": "Gulf",
+        "nysgissam:nysaddresspointid": "ALBA060308",
         "shop": "convenience"
       }
     },
@@ -9868,8 +9915,8 @@
       "tags": {
         "amenity": "fuel",
         "brand": "Hess",
-        "name": "Hess Mart",
-        "shop": "convenience"
+        "shop": "convenience",
+        "name": "Hess Mart"
       }
     },
     {
@@ -9960,11 +10007,11 @@
     {
       "type": "way",
       "id": 110694350,
-      "timestamp": "2020-12-08T14:40:37Z",
-      "version": 3,
-      "changeset": 95494403,
-      "user": "OceanVortex",
-      "uid": 354704,
+      "timestamp": "2022-01-15T22:56:06Z",
+      "version": 4,
+      "changeset": 116199423,
+      "user": "Timothy Smith",
+      "uid": 115918,
       "center": {
         "lat": 42.7059366,
         "lon": -73.7759616
@@ -9977,8 +10024,12 @@
         "addr:state": "NY",
         "addr:street": "Albany Shaker Road",
         "amenity": "pharmacy",
+        "brand": "Rite Aid",
+        "brand:wikidata": "Q3433273",
+        "brand:wikipedia": "en:Rite Aid",
         "building": "yes",
         "dispensing": "yes",
+        "healthcare": "pharmacy",
         "name": "Rite Aid",
         "shop": "convenience"
       }
@@ -9986,11 +10037,11 @@
     {
       "type": "way",
       "id": 110694353,
-      "timestamp": "2020-12-08T05:11:17Z",
-      "version": 4,
-      "changeset": 95459202,
-      "user": "OceanVortex",
-      "uid": 354704,
+      "timestamp": "2022-01-15T22:56:06Z",
+      "version": 5,
+      "changeset": 116199423,
+      "user": "Timothy Smith",
+      "uid": 115918,
       "center": {
         "lat": 42.7057133,
         "lon": -73.7770127
@@ -10004,6 +10055,8 @@
         "addr:street": "Albany Shaker Road",
         "amenity": "fuel",
         "brand": "Mobil",
+        "brand:wikidata": "Q109676002",
+        "brand:wikipedia": "ja:モービル (ブランド)",
         "building": "yes",
         "name": "Mobil",
         "shop": "convenience"
@@ -10862,6 +10915,34 @@
     },
     {
       "type": "way",
+      "id": 204612316,
+      "timestamp": "2022-01-15T16:59:21Z",
+      "version": 7,
+      "changeset": 116189297,
+      "user": "JessAk71",
+      "uid": 381909,
+      "center": {
+        "lat": 42.6772903,
+        "lon": -73.8242391
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Albany",
+        "addr:housenumber": "1227",
+        "addr:postcode": "12203",
+        "addr:state": "NY",
+        "addr:street": "Western Avenue",
+        "brand": "Mobil Mart",
+        "brand:wikidata": "Q109676002",
+        "brand:wikipedia": "ja:モービル (ブランド)",
+        "building": "yes",
+        "name": "Mobil Mart",
+        "nysgissam:nysaddresspointid": "ALBA029062",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
       "id": 241636427,
       "timestamp": "2019-05-29T22:55:49Z",
       "version": 3,
@@ -10993,6 +11074,31 @@
         "phone": "+1 518 4824590",
         "shop": "supermarket",
         "website": "https://stores.save-a-lot.com/central-albany-ny/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 332585032,
+      "timestamp": "2022-01-15T16:59:21Z",
+      "version": 3,
+      "changeset": 116189297,
+      "user": "JessAk71",
+      "uid": 381909,
+      "center": {
+        "lat": 42.6766327,
+        "lon": -73.8224916
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Albany",
+        "addr:housenumber": "1221",
+        "addr:postcode": "12203",
+        "addr:state": "NY",
+        "addr:street": "Western Avenue",
+        "building": "yes",
+        "name": "Food Mart",
+        "nysgissam:nysaddresspointid": "ALBA029060",
+        "shop": "convenience"
       }
     },
     {
