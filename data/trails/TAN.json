@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-17T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-18T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -774,17 +774,21 @@
     {
       "type": "relation",
       "id": 9464774,
-      "timestamp": "2021-11-25T00:37:56Z",
-      "version": 21,
-      "changeset": 114201329,
-      "user": "Robert Ancell",
-      "uid": 1430787,
+      "timestamp": "2022-01-18T07:57:40Z",
+      "version": 23,
+      "changeset": 116285365,
+      "user": "StenSoft",
+      "uid": 255936,
       "members": [
         {"type": "way", "ref": 25774198, "role": ""},
         {"type": "way", "ref": 769755389, "role": ""},
         {"type": "way", "ref": 769755387, "role": ""},
+        {"type": "way", "ref": 1022195512, "role": ""},
+        {"type": "way", "ref": 1022195513, "role": ""},
         {"type": "way", "ref": 808900304, "role": ""},
         {"type": "way", "ref": 808900303, "role": ""},
+        {"type": "way", "ref": 1022195516, "role": ""},
+        {"type": "way", "ref": 1022195514, "role": ""},
         {"type": "way", "ref": 778133395, "role": ""},
         {"type": "way", "ref": 192894798, "role": ""},
         {"type": "way", "ref": 778460586, "role": ""},
@@ -793,6 +797,8 @@
         {"type": "way", "ref": 778460585, "role": ""},
         {"type": "way", "ref": 819966472, "role": ""},
         {"type": "way", "ref": 26345311, "role": ""},
+        {"type": "way", "ref": 1022169014, "role": ""},
+        {"type": "way", "ref": 1022169015, "role": ""},
         {"type": "way", "ref": 412590173, "role": ""},
         {"type": "way", "ref": 27262075, "role": ""},
         {"type": "way", "ref": 412590175, "role": ""},
@@ -6097,6 +6103,154 @@
         "highway": "secondary",
         "maxspeed": "50",
         "name": "Moir Street",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1022169014,
+      "timestamp": "2022-01-18T06:07:01Z",
+      "version": 1,
+      "changeset": 116281601,
+      "user": "vaibhav265",
+      "uid": 4164103,
+      "nodes": [296827302, 288638881],
+      "geometry": [
+        {"lat": -40.1998114, "lon": 175.4111359},
+        {"lat": -40.1997491, "lon": 175.4112513},
+        {"lat": -40.1996827, "lon": 175.4113514},
+        {"lat": -40.1995777, "lon": 175.4114702},
+        {"lat": -40.1994609, "lon": 175.4115808},
+        {"lat": -40.1965333, "lon": 175.4143218}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "maxspeed": "100",
+        "name": "Wilson Road",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1022169015,
+      "timestamp": "2022-01-18T06:07:01Z",
+      "version": 1,
+      "changeset": 116281601,
+      "user": "vaibhav265",
+      "uid": 4164103,
+      "nodes": [288638881, 9427314544],
+      "geometry": [
+        {"lat": -40.1965333, "lon": 175.4143218},
+        {"lat": -40.1964712, "lon": 175.4143789}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "maxspeed": "100",
+        "name": "Wilson Road",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1022195512,
+      "timestamp": "2022-01-18T07:57:40Z",
+      "version": 1,
+      "changeset": 116285365,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [7262248252, 302775433],
+      "geometry": [
+        {"lat": -40.1755074, "lon": 175.3849899},
+        {"lat": -40.1755881, "lon": 175.3849986},
+        {"lat": -40.175904, "lon": 175.3850501}
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bridge Street",
+        "oneway": "no",
+        "ref": "SH 1;SH 3",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1022195513,
+      "timestamp": "2022-01-18T07:57:40Z",
+      "version": 1,
+      "changeset": 116285365,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [302775433, 9427507485],
+      "geometry": [
+        {"lat": -40.175904, "lon": 175.3850501},
+        {"lat": -40.1760954, "lon": 175.385076}
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lanes:forward": "1",
+        "maxspeed": "50",
+        "name": "Bridge Street",
+        "oneway": "no",
+        "ref": "SH 1;SH 3",
+        "surface": "paved",
+        "turn:lanes:backward": "none|right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1022195514,
+      "timestamp": "2022-01-18T07:57:40Z",
+      "version": 1,
+      "changeset": 116285365,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [7563837402, 9427507486],
+      "geometry": [
+        {"lat": -40.1768224, "lon": 175.3851885},
+        {"lat": -40.176948, "lon": 175.3852064}
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "3",
+        "lanes:backward": "none|right",
+        "lanes:forward": "1",
+        "maxspeed": "50",
+        "name": "Bridge Street",
+        "oneway": "no",
+        "ref": "SH 1;SH 3",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1022195516,
+      "timestamp": "2022-01-18T07:57:40Z",
+      "version": 1,
+      "changeset": 116285365,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [9427507487, 7563837402],
+      "geometry": [
+        {"lat": -40.1766485, "lon": 175.3851606},
+        {"lat": -40.1768224, "lon": 175.3851885}
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Bridge Street",
+        "oneway": "no",
+        "ref": "SH 1;SH 3",
         "surface": "paved"
       }
     },
@@ -18318,18 +18472,20 @@
     {
       "type": "way",
       "id": 182011419,
-      "timestamp": "2021-11-08T14:38:03Z",
-      "version": 6,
-      "changeset": 113525379,
-      "user": "AlwynWellington",
-      "uid": 567640,
+      "timestamp": "2022-01-18T08:02:01Z",
+      "version": 7,
+      "changeset": 116285548,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [1922591586, 1922591680],
       "geometry": [
-        {"lat": -40.0057634, "lon": 175.1671279},
-        {"lat": -40.0047611, "lon": 175.1670049}
+        {"lat": -40.005738, "lon": 175.1671269},
+        {"lat": -40.0047659, "lon": 175.167005}
       ],
       "tags": {
         "bridge": "yes",
+        "bridge:name": "Whangaehu Bridge",
+        "bridge:ref": "003-4150",
         "foot": "yes",
         "highway": "trunk",
         "lanes": "2",
@@ -18351,8 +18507,8 @@
       "uid": 567640,
       "nodes": [1922591680, 1923560801],
       "geometry": [
-        {"lat": -40.0047611, "lon": 175.1670049},
-        {"lat": -40.0038907, "lon": 175.1668665},
+        {"lat": -40.0047659, "lon": 175.167005},
+        {"lat": -40.0039555, "lon": 175.1668756},
         {"lat": -40.0023097, "lon": 175.1666816},
         {"lat": -40.0019769, "lon": 175.1666546},
         {"lat": -40.0015701, "lon": 175.1666647}
@@ -33254,24 +33410,24 @@
     {
       "type": "way",
       "id": 25774198,
-      "timestamp": "2021-11-08T14:38:03Z",
-      "version": 23,
-      "changeset": 113525379,
-      "user": "AlwynWellington",
-      "uid": 567640,
+      "timestamp": "2022-01-18T07:57:40Z",
+      "version": 24,
+      "changeset": 116285365,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [281131764, 7185293070],
       "geometry": [
         {"lat": -40.174566, "lon": 175.3848532},
-        {"lat": -40.1746619, "lon": 175.3848819},
-        {"lat": -40.1749777, "lon": 175.3849276},
-        {"lat": -40.1750783, "lon": 175.3849445}
+        {"lat": -40.1750427, "lon": 175.384922}
       ],
       "tags": {
         "destination:forward": "Wellington;Palmerston North",
         "destination:ref:forward": "SH 1;SH 3",
         "foot": "yes",
         "highway": "trunk",
-        "lanes": "2",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "lanes:forward": "1",
         "maxspeed": "50",
         "name": "Bridge Street",
         "oneway": "no",
@@ -59451,19 +59607,14 @@
     {
       "type": "way",
       "id": 412590173,
-      "timestamp": "2021-11-25T20:28:09Z",
-      "version": 8,
-      "changeset": 114237386,
-      "user": "Robert Ancell",
-      "uid": 1430787,
-      "nodes": [296827302, 299232294],
+      "timestamp": "2022-01-18T06:07:01Z",
+      "version": 9,
+      "changeset": 116281601,
+      "user": "vaibhav265",
+      "uid": 4164103,
+      "nodes": [9427314544, 299232294],
       "geometry": [
-        {"lat": -40.1998114, "lon": 175.4111359},
-        {"lat": -40.1997491, "lon": 175.4112513},
-        {"lat": -40.1996827, "lon": 175.4113514},
-        {"lat": -40.1995777, "lon": 175.4114702},
-        {"lat": -40.1994609, "lon": 175.4115808},
-        {"lat": -40.1966527, "lon": 175.4142442},
+        {"lat": -40.1964712, "lon": 175.4143789},
         {"lat": -40.1954529, "lon": 175.4153685},
         {"lat": -40.1940761, "lon": 175.4166646},
         {"lat": -40.1927845, "lon": 175.4178576},
@@ -59840,7 +59991,7 @@
         {"lat": -40.0066751, "lon": 175.1672847},
         {"lat": -40.0064956, "lon": 175.1672518},
         {"lat": -40.006315, "lon": 175.167211},
-        {"lat": -40.0057634, "lon": 175.1671279}
+        {"lat": -40.005738, "lon": 175.1671269}
       ],
       "tags": {
         "foot": "yes",
@@ -88977,8 +89128,8 @@
       "uid": 567640,
       "nodes": [283555960, 7262248252],
       "geometry": [
-        {"lat": -40.1753066, "lon": 175.3849787},
-        {"lat": -40.1754583, "lon": 175.3849995}
+        {"lat": -40.1753373, "lon": 175.3849659},
+        {"lat": -40.1755074, "lon": 175.3849899}
       ],
       "tags": {
         "foot": "yes",
@@ -89020,8 +89171,8 @@
       "uid": 567640,
       "nodes": [7185293070, 283555960],
       "geometry": [
-        {"lat": -40.1750783, "lon": 175.3849445},
-        {"lat": -40.1753066, "lon": 175.3849787}
+        {"lat": -40.1750427, "lon": 175.384922},
+        {"lat": -40.1753373, "lon": 175.3849659}
       ],
       "tags": {
         "foot": "yes",
@@ -89312,14 +89463,14 @@
     {
       "type": "way",
       "id": 778133395,
-      "timestamp": "2021-11-08T14:38:03Z",
-      "version": 4,
-      "changeset": 113525379,
-      "user": "AlwynWellington",
-      "uid": 567640,
-      "nodes": [7563837402, 2034345039],
+      "timestamp": "2022-01-18T07:57:40Z",
+      "version": 5,
+      "changeset": 116285365,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [9427507486, 2034345039],
       "geometry": [
-        {"lat": -40.1768261, "lon": 175.3851612},
+        {"lat": -40.176948, "lon": 175.3852064},
         {"lat": -40.1779201, "lon": 175.3853449},
         {"lat": -40.1791345, "lon": 175.385529},
         {"lat": -40.1797995, "lon": 175.3856347},
@@ -89961,41 +90112,42 @@
     {
       "type": "way",
       "id": 808900303,
-      "timestamp": "2021-11-08T14:38:03Z",
-      "version": 3,
-      "changeset": 113525379,
-      "user": "AlwynWellington",
-      "uid": 567640,
-      "nodes": [7563837395, 7563837402],
+      "timestamp": "2022-01-18T07:57:40Z",
+      "version": 4,
+      "changeset": 116285365,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [7563837395, 9427507487],
       "geometry": [
-        {"lat": -40.1764664, "lon": 175.3851122},
-        {"lat": -40.1768261, "lon": 175.3851612}
+        {"lat": -40.1764664, "lon": 175.3851315},
+        {"lat": -40.1766485, "lon": 175.3851606}
       ],
       "tags": {
         "foot": "yes",
         "highway": "trunk",
-        "lanes": "2",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
         "maxspeed": "50",
         "name": "Bridge Street",
         "oneway": "no",
         "ref": "SH 1;SH 3",
-        "surface": "paved"
+        "surface": "paved",
+        "turn:lanes:forward": "none|right"
       }
     },
     {
       "type": "way",
       "id": 808900304,
-      "timestamp": "2021-11-08T14:38:03Z",
-      "version": 3,
-      "changeset": 113525379,
-      "user": "AlwynWellington",
-      "uid": 567640,
-      "nodes": [7262248252, 7563837395],
+      "timestamp": "2022-01-18T07:57:40Z",
+      "version": 4,
+      "changeset": 116285365,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [9427507485, 7563837395],
       "geometry": [
-        {"lat": -40.1754583, "lon": 175.3849995},
-        {"lat": -40.1755783, "lon": 175.3849825},
-        {"lat": -40.1758574, "lon": 175.3850292},
-        {"lat": -40.1764664, "lon": 175.3851122}
+        {"lat": -40.1760954, "lon": 175.385076},
+        {"lat": -40.1764664, "lon": 175.3851315}
       ],
       "tags": {
         "foot": "yes",
