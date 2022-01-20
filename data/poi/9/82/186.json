@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-01-16T23:59:59Z",
-    "timestamp_osm_base": "2022-01-17T02:55:09Z",
+    "timestamp_osm_date": "2022-01-19T23:59:59Z",
+    "timestamp_osm_base": "2022-01-20T02:53:10Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1214,31 +1214,18 @@
     },
     {
       "type": "node",
-      "id": 5351878088,
-      "lat": 43.6312918,
-      "lon": -122.0509172,
-      "timestamp": "2018-01-21T00:40:26Z",
-      "version": 1,
-      "changeset": 55616801,
-      "user": "Adam Schneider",
-      "uid": 5403394,
-      "tags": {
-        "name": "Gold Lake Campground",
-        "tourism": "camp_site"
-      }
-    },
-    {
-      "type": "node",
       "id": 5351878536,
-      "lat": 43.628702,
-      "lon": -122.0899755,
-      "timestamp": "2018-04-25T06:42:09Z",
-      "version": 2,
-      "changeset": 58397982,
+      "lat": 43.628734,
+      "lon": -122.0918128,
+      "timestamp": "2022-01-17T05:09:34Z",
+      "version": 3,
+      "changeset": 116236728,
       "user": "Adam Schneider",
       "uid": 5403394,
       "tags": {
+        "amenity": "shelter",
         "name": "Fuji Shelter",
+        "shelter_type": "weather_shelter",
         "tourism": "wilderness_hut"
       }
     },
@@ -1967,13 +1954,28 @@
       }
     },
     {
+      "type": "node",
+      "id": 9424439467,
+      "lat": 43.6299503,
+      "lon": -122.0495372,
+      "timestamp": "2022-01-17T05:09:34Z",
+      "version": 1,
+      "changeset": 116236728,
+      "user": "Adam Schneider",
+      "uid": 5403394,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
       "type": "way",
       "id": 153752942,
-      "timestamp": "2012-03-07T08:25:20Z",
-      "version": 1,
-      "changeset": 10897464,
-      "user": "MappingJunkie",
-      "uid": 478161,
+      "timestamp": "2022-01-17T05:09:34Z",
+      "version": 2,
+      "changeset": 116236728,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "center": {
         "lat": 43.6041568,
         "lon": -122.0450846
@@ -1981,6 +1983,7 @@
       "nodes": [],
       "tags": {
         "amenity": "shelter",
+        "building": "yes",
         "name": "Gold Lake Sno-Park Warming Hut"
       }
     },
@@ -2289,6 +2292,28 @@
         "name": "Todd Creek Horse Camp",
         "tourism": "camp_site",
         "website": "https://www.fs.usda.gov/recarea/deschutes/recarea/?recid=39020"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1021830576,
+      "timestamp": "2022-01-17T05:09:34Z",
+      "version": 1,
+      "changeset": 116236728,
+      "user": "Adam Schneider",
+      "uid": 5403394,
+      "center": {
+        "lat": 43.6304356,
+        "lon": -122.048947
+      },
+      "nodes": [],
+      "tags": {
+        "capacity": "22",
+        "drinking_water": "yes",
+        "fee": "yes",
+        "name": "Gold Lake Campground",
+        "tourism": "camp_site",
+        "website": "https://www.fs.usda.gov/recarea/willamette/recreation/recarea/?recid=4496"
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-01-16T23:59:59Z",
-    "timestamp_osm_base": "2022-01-17T04:27:19Z",
+    "timestamp_osm_date": "2022-01-19T23:59:59Z",
+    "timestamp_osm_base": "2022-01-20T05:02:52Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -25848,16 +25848,19 @@
       "id": 2627192639,
       "lat": 45.5693191,
       "lon": 5.9206039,
-      "timestamp": "2021-01-30T13:05:27Z",
-      "version": 6,
-      "changeset": 98413617,
-      "user": "JEDupont",
-      "uid": 7966494,
+      "timestamp": "2022-01-19T12:37:34Z",
+      "version": 7,
+      "changeset": 116340970,
+      "user": "Rémi Desgrange",
+      "uid": 2375901,
       "tags": {
         "bulk_purchase": "only",
         "contact:facebook": "https://www.facebook.com/DontPanicVrac/",
+        "contact:instagram": "https://www.instagram.com/dontpaniclepicerievrac/",
         "name": "Don't Panic l'épicerie Vrac",
         "organic": "yes",
+        "reusable_packaging:accept": "yes",
+        "reusable_packaging:offer": "yes",
         "shop": "convenience"
       }
     },
@@ -30488,6 +30491,21 @@
     },
     {
       "type": "node",
+      "id": 3742321551,
+      "lat": 45.3585589,
+      "lon": 5.631691,
+      "timestamp": "2022-01-18T10:13:03Z",
+      "version": 2,
+      "changeset": 116290930,
+      "user": "NikoJorj",
+      "uid": 8777119,
+      "tags": {
+        "name": "Le Diva",
+        "place": "hamlet"
+      }
+    },
+    {
+      "type": "node",
       "id": 3747813631,
       "lat": 45.3251643,
       "lon": 5.7496817,
@@ -30515,6 +30533,21 @@
       "tags": {
         "amenity": "drinking_water",
         "note": "Robinet extérieur"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3751374539,
+      "lat": 45.3560543,
+      "lon": 5.6315847,
+      "timestamp": "2022-01-18T10:13:03Z",
+      "version": 2,
+      "changeset": 116290930,
+      "user": "NikoJorj",
+      "uid": 8777119,
+      "tags": {
+        "name": "Le Barthelon",
+        "place": "hamlet"
       }
     },
     {
@@ -50177,20 +50210,52 @@
     {
       "type": "node",
       "id": 9416658387,
-      "lat": 45.1905828,
-      "lon": 6.1090972,
-      "timestamp": "2022-01-13T22:59:44Z",
-      "version": 1,
-      "changeset": 116127881,
-      "user": "StC",
-      "uid": 220314,
+      "lat": 45.190585,
+      "lon": 6.1091139,
+      "timestamp": "2022-01-17T00:57:02Z",
+      "version": 2,
+      "changeset": 116233328,
+      "user": "rumbrummer",
+      "uid": 9436824,
       "tags": {
-        "source": "GPS",
-        "note": "problème sur l'altitude : 2130 sur panneau, 2100 d'après IGN, 2115 d'après GPS",
         "ele": "2130",
+        "lwn_name": "Col du Sabot",
         "mountain_pass": "yes",
         "name": "Col du Sabot",
-        "natural": "saddle"
+        "natural": "saddle",
+        "network:type": "node_network",
+        "note": "problème sur l'altitude : 2130 sur panneau, 2100 d'après IGN, 2115 d'après GPS",
+        "source": "GPS"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9427874586,
+      "lat": 45.3605322,
+      "lon": 5.6331368,
+      "timestamp": "2022-01-18T10:13:03Z",
+      "version": 1,
+      "changeset": 116290930,
+      "user": "NikoJorj",
+      "uid": 8777119,
+      "tags": {
+        "name": "Le Bouvier",
+        "place": "hamlet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9427874587,
+      "lat": 45.3615708,
+      "lon": 5.6259061,
+      "timestamp": "2022-01-18T10:13:03Z",
+      "version": 1,
+      "changeset": 116290930,
+      "user": "NikoJorj",
+      "uid": 8777119,
+      "tags": {
+        "name": "Le Mollard",
+        "place": "hamlet"
       }
     },
     {
@@ -54186,11 +54251,11 @@
     {
       "type": "way",
       "id": 107343164,
-      "timestamp": "2021-06-24T13:13:23Z",
-      "version": 15,
-      "changeset": 106902563,
-      "user": "votre_solution_de_visibilite_digitale_locale",
-      "uid": 2179792,
+      "timestamp": "2022-01-19T12:37:34Z",
+      "version": 16,
+      "changeset": 116340970,
+      "user": "Rémi Desgrange",
+      "uid": 2375901,
       "center": {
         "lat": 45.56789,
         "lon": 5.933269
@@ -54208,6 +54273,8 @@
         "organic": "only",
         "recycling:batteries": "yes",
         "ref:FR:SIRET": "43289012700033",
+        "reusable_packaging:accept": "yes",
+        "reusable_packaging:offer": "yes",
         "shop": "supermarket",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
         "website": "https://www.casabiochamberybiocoop.com"
@@ -62378,27 +62445,6 @@
     },
     {
       "type": "way",
-      "id": 185999173,
-      "timestamp": "2012-10-15T15:34:18Z",
-      "version": 1,
-      "changeset": 13507402,
-      "user": "Virgile1994",
-      "uid": 362997,
-      "center": {
-        "lat": 45.1977154,
-        "lon": 5.7759995
-      },
-      "nodes": [],
-      "tags": {
-        "amenity": "shelter",
-        "bench": "yes",
-        "building": "yes",
-        "shelter_type": "public_transport",
-        "wall": "no"
-      }
-    },
-    {
-      "type": "way",
       "id": 186000375,
       "timestamp": "2020-12-14T21:26:36Z",
       "version": 3,
@@ -69000,48 +69046,6 @@
     },
     {
       "type": "way",
-      "id": 219556649,
-      "timestamp": "2014-04-23T10:30:10Z",
-      "version": 2,
-      "changeset": 21882909,
-      "user": "Virgile1994",
-      "uid": 362997,
-      "center": {
-        "lat": 45.2274153,
-        "lon": 5.7657949
-      },
-      "nodes": [],
-      "tags": {
-        "amenity": "shelter",
-        "bench": "yes",
-        "building": "roof",
-        "bus": "yes",
-        "shelter": "yes",
-        "shelter_type": "public_transport"
-      }
-    },
-    {
-      "type": "way",
-      "id": 219556651,
-      "timestamp": "2014-04-23T10:30:10Z",
-      "version": 2,
-      "changeset": 21882909,
-      "user": "Virgile1994",
-      "uid": 362997,
-      "center": {
-        "lat": 45.2339598,
-        "lon": 5.7510495
-      },
-      "nodes": [],
-      "tags": {
-        "amenity": "shelter",
-        "bench": "yes",
-        "building": "yes",
-        "shelter_type": "public_transport"
-      }
-    },
-    {
-      "type": "way",
       "id": 219556652,
       "timestamp": "2013-04-30T18:30:10Z",
       "version": 1,
@@ -74831,60 +74835,6 @@
         "toilets": "yes",
         "toilets:fee": "no",
         "wheelchair": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 620649367,
-      "timestamp": "2018-08-28T15:39:21Z",
-      "version": 2,
-      "changeset": 62075695,
-      "user": "jzijp38",
-      "uid": 8748360,
-      "center": {
-        "lat": 45.214302,
-        "lon": 5.7459552
-      },
-      "nodes": [],
-      "tags": {
-        "amenity": "shelter",
-        "building": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 620649371,
-      "timestamp": "2018-08-28T15:28:17Z",
-      "version": 1,
-      "changeset": 62075405,
-      "user": "jzijp38",
-      "uid": 8748360,
-      "center": {
-        "lat": 45.2137585,
-        "lon": 5.7459637
-      },
-      "nodes": [],
-      "tags": {
-        "amenity": "shelter",
-        "building": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 620649372,
-      "timestamp": "2018-08-28T15:28:17Z",
-      "version": 1,
-      "changeset": 62075405,
-      "user": "jzijp38",
-      "uid": 8748360,
-      "center": {
-        "lat": 45.2136637,
-        "lon": 5.74584
-      },
-      "nodes": [],
-      "tags": {
-        "amenity": "shelter",
-        "building": "yes"
       }
     },
     {
