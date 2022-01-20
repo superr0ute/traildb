@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-17T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-19T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11123868,
-      "timestamp": "2022-01-11T16:37:18Z",
-      "version": 187,
-      "changeset": 116031459,
-      "user": "ar58",
-      "uid": 572423,
+      "timestamp": "2022-01-19T06:36:35Z",
+      "version": 188,
+      "changeset": 116325668,
+      "user": "zstadler",
+      "uid": 3127,
       "members": [
         {"type": "way", "ref": 723053761, "role": ""},
         {"type": "way", "ref": 853340709, "role": ""},
@@ -2181,7 +2181,8 @@
         {"type": "way", "ref": 1017850280, "role": ""},
         {"type": "way", "ref": 1017850274, "role": ""},
         {"type": "way", "ref": 1017850270, "role": ""},
-        {"type": "way", "ref": 1017898436, "role": ""}
+        {"type": "way", "ref": 1017898436, "role": ""},
+        {"type": "way", "ref": 1022479039, "role": ""}
       ],
       "tags": {
         "colour": "yellow",
@@ -3033,6 +3034,28 @@
     },
     {
       "type": "way",
+      "id": 1022479039,
+      "timestamp": "2022-01-19T06:36:35Z",
+      "version": 1,
+      "changeset": 116325668,
+      "user": "zstadler",
+      "uid": 3127,
+      "nodes": [432292654, 2532522554],
+      "geometry": [
+        {"lat": 31.837961, "lon": 35.0156745},
+        {"lat": 31.8380339, "lon": 35.0157442},
+        {"lat": 31.8381297, "lon": 35.015841}
+      ],
+      "tags": {
+        "colour": "black",
+        "highway": "track",
+        "name": "דרך התמר",
+        "name:en": "Derech HaTamar",
+        "name:he": "דרך התמר"
+      }
+    },
+    {
+      "type": "way",
       "id": 107378716,
       "timestamp": "2022-01-17T11:42:04Z",
       "version": 3,
@@ -3151,11 +3174,11 @@
     {
       "type": "way",
       "id": 108124685,
-      "timestamp": "2020-06-04T06:18:47Z",
-      "version": 17,
-      "changeset": 86167469,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-01-19T09:02:55Z",
+      "version": 18,
+      "changeset": 116331786,
+      "user": "Yanivdu",
+      "uid": 2285735,
       "nodes": [3702528695, 1241005351],
       "geometry": [
         {"lat": 30.396151, "lon": 35.1161},
@@ -3181,6 +3204,7 @@
         {"lat": 30.3823447, "lon": 35.1155811},
         {"lat": 30.3803217, "lon": 35.116864},
         {"lat": 30.3802179, "lon": 35.1169298},
+        {"lat": 30.3793608, "lon": 35.1176455},
         {"lat": 30.3789646, "lon": 35.1179763},
         {"lat": 30.3786031, "lon": 35.1182184},
         {"lat": 30.3783879, "lon": 35.1183398},
@@ -6996,25 +7020,19 @@
     {
       "type": "way",
       "id": 182981974,
-      "timestamp": "2017-06-15T06:41:41Z",
-      "version": 5,
-      "changeset": 49548816,
-      "user": "SafwatHalaby_bot",
-      "uid": 5816834,
-      "nodes": [432261405, 2532522554],
+      "timestamp": "2022-01-19T06:36:35Z",
+      "version": 6,
+      "changeset": 116325668,
+      "user": "zstadler",
+      "uid": 3127,
+      "nodes": [432261405, 432292654],
       "geometry": [
-        {"lat": 31.8376785, "lon": 35.0157979},
-        {"lat": 31.837752, "lon": 35.015764},
-        {"lat": 31.837896, "lon": 35.015737},
-        {"lat": 31.838025, "lon": 35.015778},
-        {"lat": 31.838125, "lon": 35.015872}
+        {"lat": 31.8376736, "lon": 35.0157201},
+        {"lat": 31.837738, "lon": 35.0156975},
+        {"lat": 31.837882, "lon": 35.0156705},
+        {"lat": 31.837961, "lon": 35.0156745}
       ],
-      "tags": {
-        "highway": "track",
-        "name": "דרך פארק איילון",
-        "name:en": "Derech Park Ayalon",
-        "name:he": "דרך פארק איילון"
-      }
+      "tags": {"highway": "track"}
     },
     {
       "type": "way",
@@ -22460,17 +22478,17 @@
     {
       "type": "way",
       "id": 332133552,
-      "timestamp": "2020-05-28T06:00:06Z",
-      "version": 3,
-      "changeset": 85866684,
-      "user": "dudigolani",
-      "uid": 10984507,
+      "timestamp": "2022-01-19T15:15:16Z",
+      "version": 4,
+      "changeset": 116346675,
+      "user": "zstadler",
+      "uid": 3127,
       "nodes": [3392530442, 3392530457],
       "geometry": [
         {"lat": 29.561379, "lon": 34.973094},
         {"lat": 29.5624316, "lon": 34.972968}
       ],
-      "tags": {"highway": "track", "tracktype": "grade4"}
+      "tags": {"highway": "track"}
     },
     {
       "type": "way",
@@ -41083,11 +41101,11 @@
     {
       "type": "way",
       "id": 59829172,
-      "timestamp": "2019-04-21T11:01:34Z",
-      "version": 15,
-      "changeset": 69421874,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-01-19T15:40:03Z",
+      "version": 16,
+      "changeset": 116347679,
+      "user": "Yitzchak M",
+      "uid": 8724982,
       "nodes": [593682239, 3740175835],
       "geometry": [
         {"lat": 32.8054754, "lon": 35.4652535},
@@ -41098,7 +41116,7 @@
         {"lat": 32.8066676, "lon": 35.4618408},
         {"lat": 32.8067538, "lon": 35.4617822}
       ],
-      "tags": {"colour": "orange", "highway": "tertiary"}
+      "tags": {"highway": "tertiary"}
     },
     {
       "type": "way",
@@ -57426,7 +57444,7 @@
       "uid": 10984507,
       "nodes": [2532522554, 432269776],
       "geometry": [
-        {"lat": 31.838125, "lon": 35.015872},
+        {"lat": 31.8381297, "lon": 35.015841},
         {"lat": 31.838181, "lon": 35.015922},
         {"lat": 31.8382481, "lon": 35.0160339}
       ],
@@ -69267,7 +69285,7 @@
       "uid": 5816834,
       "nodes": [432261405, 2532522551],
       "geometry": [
-        {"lat": 31.8376785, "lon": 35.0157979},
+        {"lat": 31.8376736, "lon": 35.0157201},
         {"lat": 31.8376223, "lon": 35.0159806},
         {"lat": 31.8376, "lon": 35.016036}
       ],

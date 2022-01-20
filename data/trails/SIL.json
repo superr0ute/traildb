@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-18T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-19T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2017,9 +2017,9 @@
     {
       "type": "relation",
       "id": 7700148,
-      "timestamp": "2021-12-09T17:36:39Z",
-      "version": 14,
-      "changeset": 114753600,
+      "timestamp": "2022-01-19T14:56:40Z",
+      "version": 15,
+      "changeset": 116346109,
       "user": "kaitu",
       "uid": 69717,
       "members": [
@@ -2029,6 +2029,7 @@
         {"type": "way", "ref": 35569629, "role": ""},
         {"type": "way", "ref": 537334679, "role": ""},
         {"type": "way", "ref": 193402473, "role": ""},
+        {"type": "way", "ref": 1022605875, "role": ""},
         {"type": "way", "ref": 193402490, "role": ""},
         {"type": "way", "ref": 193402480, "role": ""},
         {"type": "way", "ref": 230851782, "role": ""},
@@ -5284,6 +5285,25 @@
         "surface": "cobblestone",
         "tracktype": "grade3",
         "vehicle": "private"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1022605875,
+      "timestamp": "2022-01-19T14:56:40Z",
+      "version": 1,
+      "changeset": 116346109,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [273506269, 2037542728],
+      "geometry": [
+        {"lat": 45.9208252, "lon": 9.0718189},
+        {"lat": 45.92066, "lon": 9.0719185}
+      ],
+      "tags": {
+        "highway": "path",
+        "surface": "grass",
+        "trail_visibility": "good"
       }
     },
     {
@@ -22364,9 +22384,9 @@
     {
       "type": "way",
       "id": 193402490,
-      "timestamp": "2012-12-03T18:29:04Z",
-      "version": 2,
-      "changeset": 14142547,
+      "timestamp": "2022-01-19T14:56:40Z",
+      "version": 3,
+      "changeset": 116346109,
       "user": "kaitu",
       "uid": 69717,
       "nodes": [533770107, 273506269],
@@ -47290,32 +47310,27 @@
     {
       "type": "way",
       "id": 324552275,
-      "timestamp": "2016-09-15T11:17:24Z",
-      "version": 3,
-      "changeset": 42170435,
-      "user": "TheInfinityFish",
-      "uid": 4579564,
+      "timestamp": "2022-01-19T00:48:56Z",
+      "version": 4,
+      "changeset": 116320553,
+      "user": "Martino Scaglione",
+      "uid": 10901495,
       "nodes": [298246806, 2267447740],
       "geometry": [
         {"lat": 46.2194733, "lon": 9.4453926},
         {"lat": 46.2194682, "lon": 9.4452995},
         {"lat": 46.2194267, "lon": 9.4452526}
       ],
-      "tags": {
-        "source": "bing",
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "cycleway"
-      }
+      "tags": {"bicycle": "yes", "foot": "yes", "highway": "cycleway"}
     },
     {
       "type": "way",
       "id": 324552276,
-      "timestamp": "2018-09-10T06:25:22Z",
-      "version": 5,
-      "changeset": 62441577,
-      "user": "Martin Borsje",
-      "uid": 99810,
+      "timestamp": "2022-01-19T00:48:56Z",
+      "version": 6,
+      "changeset": 116320553,
+      "user": "Martino Scaglione",
+      "uid": 10901495,
       "nodes": [298246806, 408734083],
       "geometry": [
         {"lat": 46.2194733, "lon": 9.4453926},
@@ -47328,7 +47343,7 @@
         {"lat": 46.220184, "lon": 9.4456306},
         {"lat": 46.2202309, "lon": 9.4456267}
       ],
-      "tags": {"highway": "residential"}
+      "tags": {"highway": "residential", "name": "Piazzale al Lago"}
     },
     {
       "type": "way",
@@ -59971,18 +59986,22 @@
     {
       "type": "way",
       "id": 427763784,
-      "timestamp": "2017-06-22T07:20:51Z",
-      "version": 3,
-      "changeset": 49738039,
-      "user": "Anonix35",
-      "uid": 2362150,
+      "timestamp": "2022-01-19T00:48:56Z",
+      "version": 4,
+      "changeset": 116320553,
+      "user": "Martino Scaglione",
+      "uid": 10901495,
       "nodes": [4269479184, 408734083],
       "geometry": [
         {"lat": 46.2202792, "lon": 9.4458809},
         {"lat": 46.2202639, "lon": 9.4457701},
         {"lat": 46.2202309, "lon": 9.4456267}
       ],
-      "tags": {"highway": "tertiary", "maxspeed": "50"}
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "50",
+        "name": "Piazzale al Lago"
+      }
     },
     {
       "type": "way",
