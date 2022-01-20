@@ -5871,12 +5871,13 @@
         "@poi": "shelter_shelter",
         "@distance": 1146.1,
         "@id": "w153752942",
-        "@changeset": 10897464,
-        "@timestamp": "2012-03-07T08:25:20Z",
-        "@version": 1,
-        "@uid": 478161,
-        "@user": "MappingJunkie",
+        "@changeset": 116236728,
+        "@timestamp": "2022-01-17T05:09:34Z",
+        "@version": 2,
+        "@uid": 5403394,
+        "@user": "Adam Schneider",
         "amenity": "shelter",
+        "building": "yes",
         "name": "Gold Lake Sno-Park Warming Hut"
       },
       "geometry": {
@@ -10032,62 +10033,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 14.1,
-        "@id": "w617097369",
-        "@changeset": 77250866,
-        "@timestamp": "2019-11-18T23:56:57Z",
-        "@version": 2,
-        "@uid": 8122137,
-        "@user": "kylebarron",
-        "access": "yes",
-        "amenity": "shelter",
-        "bench": "yes",
-        "bin": "no",
-        "building": "cabin",
-        "building:levels": "2",
-        "ele": 1441,
-        "fee": "no",
-        "mattress": "no",
-        "name": "Camp Mike Urich",
-        "reservation": "no",
-        "shelter_type": "basic_hut",
-        "shower": "no",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.395857,
-          47.0894747
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 1031.3,
-        "@id": "w624495459",
-        "@changeset": 62466576,
-        "@timestamp": "2018-09-10T20:24:28Z",
-        "@version": 1,
-        "@uid": 2812957,
-        "@user": "talapus",
-        "horse": "designated",
-        "tourism": "camp_site"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.1547458,
-          47.4946561
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "mountain-pass",
         "@distance": 25.7,
         "@id": "n1004963440",
@@ -12744,30 +12689,6 @@
         "coordinates": [
           -120.5476087,
           39.4867352
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 1061,
-        "@id": "w845551718",
-        "@changeset": 90612786,
-        "@timestamp": "2020-09-09T02:52:00Z",
-        "@version": 1,
-        "@uid": 730573,
-        "@user": "btwhite92",
-        "description": "Boat access only",
-        "name": "Jackson Point Campground",
-        "operator": "USFS Tahoe National Forest",
-        "tourism": "camp_site"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.5424374,
-          39.4989124
         ]
       }
     },
@@ -24113,6 +24034,62 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 14.1,
+        "@id": "w617097369",
+        "@changeset": 77250866,
+        "@timestamp": "2019-11-18T23:56:57Z",
+        "@version": 2,
+        "@uid": 8122137,
+        "@user": "kylebarron",
+        "access": "yes",
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "no",
+        "building": "cabin",
+        "building:levels": "2",
+        "ele": 1441,
+        "fee": "no",
+        "mattress": "no",
+        "name": "Camp Mike Urich",
+        "reservation": "no",
+        "shelter_type": "basic_hut",
+        "shower": "no",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.395857,
+          47.0894747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 1031.3,
+        "@id": "w624495459",
+        "@changeset": 62466576,
+        "@timestamp": "2018-09-10T20:24:28Z",
+        "@version": 1,
+        "@uid": 2812957,
+        "@user": "talapus",
+        "horse": "designated",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.1547458,
+          47.4946561
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 9249,
         "@id": "n2449792588",
@@ -24150,6 +24127,30 @@
         "coordinates": [
           -120.9673224,
           39.7482096
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 1061,
+        "@id": "w845551718",
+        "@changeset": 90612786,
+        "@timestamp": "2020-09-09T02:52:00Z",
+        "@version": 1,
+        "@uid": 730573,
+        "@user": "btwhite92",
+        "description": "Boat access only",
+        "name": "Jackson Point Campground",
+        "operator": "USFS Tahoe National Forest",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.5424374,
+          39.4989124
         ]
       }
     },

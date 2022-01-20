@@ -1253,18 +1253,20 @@
         "@poi": "place_village",
         "@distance": 3505.6,
         "@id": "n670219849",
-        "@changeset": 109111138,
-        "@timestamp": "2021-08-03T19:38:37Z",
-        "@version": 4,
-        "@uid": 573826,
-        "@user": "LeoBardonaro",
+        "@changeset": 116330688,
+        "@timestamp": "2022-01-19T08:31:54Z",
+        "@version": 5,
+        "@uid": 1189910,
+        "@user": "Milancer",
         "name": "Starý Hrozenkov",
         "name:cs": "Starý Hrozenkov",
         "place": "village",
         "population": 859,
         "ref:cobe": "155004",
         "ref:zsj": "155004",
-        "source": "csu:uir-zsj"
+        "source": "csu:uir-zsj",
+        "wikidata": "Q1852469",
+        "wikipedia": "cs:Starý Hrozenkov"
       },
       "geometry": {
         "type": "Point",
@@ -13180,6 +13182,37 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "peak_peak",
+        "@distance": 576.4,
+        "@id": "n3985805444",
+        "@changeset": 114303148,
+        "@timestamp": "2021-11-27T18:13:32Z",
+        "@version": 4,
+        "@uid": 12998434,
+        "@user": "Miloslav Figura",
+        "ele": 543,
+        "ele:bpv": "543.04;536.18",
+        "import_ref": "Záväzné názvoslovie vrchov",
+        "name": "Bradlo",
+        "natural": "peak",
+        "source": "ZBGIS",
+        "source:ele:bpv": "ÚGKK SR DMR5.0",
+        "source:name": "skgeodesy.sk",
+        "source:position": "ÚGKK SR DMR5.0",
+        "wikidata": "Q7342257",
+        "wikipedia": "sk:Bradlo (Myjavská pahorkatina)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5681651,
+          48.6813622
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 86,
         "@id": "n335682560",
@@ -15419,30 +15452,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 957.8,
-        "@id": "n727230106",
-        "@changeset": 27839972,
-        "@timestamp": "2015-01-01T13:25:26Z",
-        "@version": 4,
-        "@uid": 29762,
-        "@user": "Jose Riha",
-        "name": "Potraviny - večierka",
-        "opening_hours": "Mo-Fr 06:30-20:30; Sa 06:30-15:30; Su 07:00-13:00",
-        "operator": "MôjObchod",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.1002576,
-          48.165778
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_spring",
         "@distance": 2664.4,
         "@id": "n739442634",
@@ -15721,6 +15730,52 @@
         "coordinates": [
           17.12384,
           48.21209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 45.5,
+        "@id": "n809731266",
+        "@changeset": 43927084,
+        "@timestamp": "2016-11-24T17:55:54Z",
+        "@version": 2,
+        "@uid": 2885910,
+        "@user": "Ivor Švihran",
+        "description": "Prameň Vojenská cesta",
+        "name": "Vojenská cesta",
+        "natural": "spring",
+        "source": "gpsforum.sk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.00859,
+          48.18575
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 1621.7,
+        "@id": "n809731277",
+        "@changeset": 5180714,
+        "@timestamp": "2010-07-10T09:20:01Z",
+        "@version": 1,
+        "@uid": 184713,
+        "@user": "nobonn",
+        "natural": "spring",
+        "source": "gpsforum.sk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.12024,
+          48.24842
         ]
       }
     },
@@ -22839,37 +22894,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "peak_peak",
-        "@distance": 576.4,
-        "@id": "n3985805444",
-        "@changeset": 114303148,
-        "@timestamp": "2021-11-27T18:13:32Z",
-        "@version": 4,
-        "@uid": 12998434,
-        "@user": "Miloslav Figura",
-        "ele": 543,
-        "ele:bpv": "543.04;536.18",
-        "import_ref": "Záväzné názvoslovie vrchov",
-        "name": "Bradlo",
-        "natural": "peak",
-        "source": "ZBGIS",
-        "source:ele:bpv": "ÚGKK SR DMR5.0",
-        "source:name": "skgeodesy.sk",
-        "source:position": "ÚGKK SR DMR5.0",
-        "wikidata": "Q7342257",
-        "wikipedia": "sk:Bradlo (Myjavská pahorkatina)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.5681651,
-          48.6813622
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_spring",
         "@distance": 62.1,
         "@id": "n4234233009",
@@ -23810,24 +23834,25 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_spring",
-        "@distance": 45.5,
-        "@id": "n809731266",
-        "@changeset": 43927084,
-        "@timestamp": "2016-11-24T17:55:54Z",
+        "@poi": "foodshop_convenience",
+        "@distance": 82.5,
+        "@id": "n6939239942",
+        "@changeset": 97316673,
+        "@timestamp": "2021-01-11T15:45:12Z",
         "@version": 2,
-        "@uid": 2885910,
-        "@user": "Ivor Švihran",
-        "description": "Prameň Vojenská cesta",
-        "name": "Vojenská cesta",
-        "natural": "spring",
-        "source": "gpsforum.sk"
+        "@uid": 7169223,
+        "@user": "Klerik7",
+        "contact:facebook": "https://www.facebook.com/zdravavyzivajablcko/",
+        "email": "zkstyl@icloud.com",
+        "name": "Potraviny so srdcom Srdcofka",
+        "phone": "+421 911 210 296",
+        "shop": "convenience"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.00859,
-          48.18575
+          17.5664518,
+          48.7518801
         ]
       }
     },
@@ -23835,21 +23860,42 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_spring",
-        "@distance": 1621.7,
-        "@id": "n809731277",
-        "@changeset": 5180714,
-        "@timestamp": "2010-07-10T09:20:01Z",
+        "@distance": 846,
+        "@id": "n6991722468",
+        "@changeset": 77309232,
+        "@timestamp": "2019-11-20T08:26:42Z",
         "@version": 1,
-        "@uid": 184713,
-        "@user": "nobonn",
-        "natural": "spring",
-        "source": "gpsforum.sk"
+        "@uid": 4815,
+        "@user": "*Martin*",
+        "natural": "spring"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.12024,
-          48.24842
+          17.421745,
+          48.566105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 2284.5,
+        "@id": "n7006699280",
+        "@changeset": 77491785,
+        "@timestamp": "2019-11-24T20:18:10Z",
+        "@version": 1,
+        "@uid": 118048,
+        "@user": "okiev",
+        "name": "U Kučeru",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5652433,
+          48.7911638
         ]
       }
     },
@@ -35423,74 +35469,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 82.5,
-        "@id": "n6939239942",
-        "@changeset": 97316673,
-        "@timestamp": "2021-01-11T15:45:12Z",
-        "@version": 2,
-        "@uid": 7169223,
-        "@user": "Klerik7",
-        "contact:facebook": "https://www.facebook.com/zdravavyzivajablcko/",
-        "email": "zkstyl@icloud.com",
-        "name": "Potraviny so srdcom Srdcofka",
-        "phone": "+421 911 210 296",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.5664518,
-          48.7518801
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 846,
-        "@id": "n6991722468",
-        "@changeset": 77309232,
-        "@timestamp": "2019-11-20T08:26:42Z",
-        "@version": 1,
-        "@uid": 4815,
-        "@user": "*Martin*",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.421745,
-          48.566105
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 2284.5,
-        "@id": "n7006699280",
-        "@changeset": 77491785,
-        "@timestamp": "2019-11-24T20:18:10Z",
-        "@version": 1,
-        "@uid": 118048,
-        "@user": "okiev",
-        "name": "U Kučeru",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.5652433,
-          48.7911638
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 1208.5,
         "@id": "n7500971126",
@@ -38441,6 +38419,29 @@
         "coordinates": [
           17.1094045,
           48.1556381
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 5386.4,
+        "@id": "n2598454826",
+        "@changeset": 33301837,
+        "@timestamp": "2015-08-12T22:08:37Z",
+        "@version": 2,
+        "@uid": 1617449,
+        "@user": "aceman444",
+        "name": "Laguna",
+        "opening_hours": "Mo-Fr 06:00-11:30,12:30-18:00; Sa 06:00-12:00,13:00-15:00; Su 08:00-12:00",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1465272,
+          48.406535
         ]
       }
     },
@@ -47379,29 +47380,6 @@
         "coordinates": [
           17.3264045,
           48.5363954
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 5386.4,
-        "@id": "n2598454826",
-        "@changeset": 33301837,
-        "@timestamp": "2015-08-12T22:08:37Z",
-        "@version": 2,
-        "@uid": 1617449,
-        "@user": "aceman444",
-        "name": "Laguna",
-        "opening_hours": "Mo-Fr 06:00-11:30,12:30-18:00; Sa 06:00-12:00,13:00-15:00; Su 08:00-12:00",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.1465272,
-          48.406535
         ]
       }
     },
@@ -58596,6 +58574,29 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_spring",
+        "@distance": 1618.1,
+        "@id": "n5065857698",
+        "@changeset": 89500906,
+        "@timestamp": "2020-08-17T07:22:17Z",
+        "@version": 7,
+        "@uid": 11593526,
+        "@user": "oref",
+        "drinking_water": "yes",
+        "natural": "spring",
+        "refitted": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1620685,
+          48.2364265
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
         "@distance": 682.7,
         "@id": "n9079983687",
         "@changeset": 111030828,
@@ -58818,30 +58819,6 @@
         "coordinates": [
           18.259433,
           49.00696
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "place_village",
-        "@distance": 3630.7,
-        "@id": "w139266659",
-        "@changeset": 106914953,
-        "@timestamp": "2021-06-24T17:46:22Z",
-        "@version": 5,
-        "@uid": 1189910,
-        "@user": "Milancer",
-        "landuse": "residential",
-        "name": "Starý Hrozenkov",
-        "place": "village",
-        "source": "uhul:ortofoto"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.8631249,
-          48.9671039
         ]
       }
     },
@@ -67290,29 +67267,6 @@
         "coordinates": [
           21.1240488,
           48.7448992
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 1618.1,
-        "@id": "n5065857698",
-        "@changeset": 89500906,
-        "@timestamp": "2020-08-17T07:22:17Z",
-        "@version": 7,
-        "@uid": 11593526,
-        "@user": "oref",
-        "drinking_water": "yes",
-        "natural": "spring",
-        "refitted": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.1620685,
-          48.2364265
         ]
       }
     },
@@ -79195,6 +79149,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 1666.4,
+        "@id": "n9180722230",
+        "@changeset": 112661170,
+        "@timestamp": "2021-10-18T16:37:49Z",
+        "@version": 1,
+        "@uid": 5099268,
+        "@user": "EmilianoG",
+        "name": "Malina",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "shop": "convenience",
+        "website": "https://www.malina.sk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0370206,
+          48.1923533
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "peak_peak",
         "@distance": 28.5,
         "@id": "n8357625695",
@@ -80361,6 +80339,35 @@
         "coordinates": [
           17.7687434,
           48.8389011
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 3560.8,
+        "@id": "w596205125",
+        "@changeset": 85177731,
+        "@timestamp": "2020-05-14T05:56:42Z",
+        "@version": 6,
+        "@uid": 5853411,
+        "@user": "j1scad",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "indoor": "room",
+        "level": "0",
+        "name": "Lidl",
+        "old_name": "Terno plus",
+        "room": "shop",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.023635,
+          48.8626845
         ]
       }
     },
@@ -86060,30 +86067,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 1666.4,
-        "@id": "n9180722230",
-        "@changeset": 112661170,
-        "@timestamp": "2021-10-18T16:37:49Z",
-        "@version": 1,
-        "@uid": 5099268,
-        "@user": "EmilianoG",
-        "name": "Malina",
-        "opening_hours": "Mo-Su 06:00-22:00",
-        "shop": "convenience",
-        "website": "https://www.malina.sk/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.0370206,
-          48.1923533
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 7554.1,
         "@id": "n9195000662",
@@ -86509,6 +86492,28 @@
         "coordinates": [
           17.0439899,
           48.0849868
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 4771.5,
+        "@id": "n9424855032",
+        "@changeset": 116244807,
+        "@timestamp": "2022-01-17T09:22:59Z",
+        "@version": 1,
+        "@uid": 10858069,
+        "@user": "R Daneel Olivaw",
+        "name": "Delia",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1600072,
+          48.1435664
         ]
       }
     },
@@ -87630,11 +87635,11 @@
         "@poi": "foodshop_supermarket",
         "@distance": 5321.2,
         "@id": "w60900075",
-        "@changeset": 114851403,
-        "@timestamp": "2021-12-12T16:11:34Z",
-        "@version": 5,
-        "@uid": 29717,
-        "@user": "eumiro",
+        "@changeset": 116360206,
+        "@timestamp": "2022-01-19T21:46:28Z",
+        "@version": 6,
+        "@uid": 29762,
+        "@user": "Jose Riha",
         "addr:city": "Bratislava - Ružinov",
         "addr:housenumber": "2",
         "addr:postcode": "821 04",
@@ -87644,6 +87649,7 @@
         "brand:wikidata": "Q537781",
         "brand:wikipedia": "sk:BILLA",
         "building": "yes",
+        "building:levels": "1",
         "currency:EUR": "yes",
         "email": "info@billa.sk",
         "import": "budovy201004",
@@ -88002,35 +88008,6 @@
         "coordinates": [
           17.1004422,
           48.1128873
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 3560.8,
-        "@id": "w596205125",
-        "@changeset": 85177731,
-        "@timestamp": "2020-05-14T05:56:42Z",
-        "@version": 6,
-        "@uid": 5853411,
-        "@user": "j1scad",
-        "brand": "Lidl",
-        "brand:wikidata": "Q151954",
-        "brand:wikipedia": "en:Lidl",
-        "indoor": "room",
-        "level": "0",
-        "name": "Lidl",
-        "old_name": "Terno plus",
-        "room": "shop",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.023635,
-          48.8626845
         ]
       }
     },
@@ -94658,30 +94635,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 43,
-        "@id": "w319066560",
-        "@changeset": 65839028,
-        "@timestamp": "2018-12-28T11:42:44Z",
-        "@version": 2,
-        "@uid": 6322444,
-        "@user": "Rick Richards",
-        "amenity": "shelter",
-        "building": "yes",
-        "fireplace": "yes",
-        "shelter_type": "picnic_shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.1341051,
-          48.7689362
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 8160.1,
         "@id": "n6700906568",
@@ -96066,6 +96019,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 43,
+        "@id": "w319066560",
+        "@changeset": 65839028,
+        "@timestamp": "2018-12-28T11:42:44Z",
+        "@version": 2,
+        "@uid": 6322444,
+        "@user": "Rick Richards",
+        "amenity": "shelter",
+        "building": "yes",
+        "fireplace": "yes",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1341051,
+          48.7689362
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 2490.4,
         "@id": "w438844183",
@@ -97428,33 +97405,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2961.2,
-        "@id": "w968460433",
-        "@changeset": 108822329,
-        "@timestamp": "2021-07-29T11:39:33Z",
-        "@version": 1,
-        "@uid": 6322444,
-        "@user": "Rick Richards",
-        "amenity": "shelter",
-        "bench": "yes",
-        "bin": "yes",
-        "building": "yes",
-        "lit": "yes",
-        "operator": "JCDecaux",
-        "shelter_type": "public_transport"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.2725906,
-          48.7517008
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "mountain-pass",
         "@distance": 0.4,
         "@id": "n5609361682",
@@ -97590,6 +97540,33 @@
         "coordinates": [
           21.6732641,
           49.3868846
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2961.2,
+        "@id": "w968460433",
+        "@changeset": 108822329,
+        "@timestamp": "2021-07-29T11:39:33Z",
+        "@version": 1,
+        "@uid": 6322444,
+        "@user": "Rick Richards",
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
+        "building": "yes",
+        "lit": "yes",
+        "operator": "JCDecaux",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2725906,
+          48.7517008
         ]
       }
     },
@@ -105577,33 +105554,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 9840.9,
-        "@id": "w632169167",
-        "@changeset": 63344089,
-        "@timestamp": "2018-10-09T12:20:47Z",
-        "@version": 1,
-        "@uid": 454432,
-        "@user": "Siegi-A",
-        "addr:city": "Loimersdorf",
-        "addr:housenumber": "58",
-        "addr:postcode": "2292",
-        "addr:street": "Ortsstraße",
-        "building": "yes",
-        "name": "ADEG",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.8459814,
-          48.1749918
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "alpine-hut",
         "@distance": 63.7,
         "@id": "w798094483",
@@ -105635,6 +105585,33 @@
         "coordinates": [
           19.649695,
           48.926626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 9840.9,
+        "@id": "w632169167",
+        "@changeset": 63344089,
+        "@timestamp": "2018-10-09T12:20:47Z",
+        "@version": 1,
+        "@uid": 454432,
+        "@user": "Siegi-A",
+        "addr:city": "Loimersdorf",
+        "addr:housenumber": "58",
+        "addr:postcode": "2292",
+        "addr:street": "Ortsstraße",
+        "building": "yes",
+        "name": "ADEG",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8459814,
+          48.1749918
         ]
       }
     }
