@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-01-19T23:59:59Z",
-    "timestamp_osm_base": "2022-01-20T03:31:24Z",
+    "timestamp_osm_date": "2022-01-20T23:59:59Z",
+    "timestamp_osm_base": "2022-01-21T03:02:25Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1056,6 +1056,9 @@
       "user": "kas__",
       "uid": 13648514,
       "tags": {
+        "wikidata": "Q491350",
+        "place": "city",
+        "population": "135070",
         "census:population": "135070;2006",
         "ele": "58",
         "gnis:Class": "Populated Place",
@@ -1065,10 +1068,7 @@
         "gnis:ST_num": "06",
         "gnis:id": "1652765",
         "name": "Orange",
-        "name:en": "Orange",
-        "place": "city",
-        "population": "135070",
-        "wikidata": "Q491350"
+        "name:en": "Orange"
       }
     },
     {
@@ -19121,6 +19121,21 @@
       }
     },
     {
+      "type": "node",
+      "id": 9432371381,
+      "lat": 33.7383673,
+      "lon": -117.8246967,
+      "timestamp": "2022-01-20T00:57:05Z",
+      "version": 1,
+      "changeset": 116363662,
+      "user": "JohnnyAuto",
+      "uid": 14893754,
+      "tags": {
+        "name": "O.C. Kosher Mart",
+        "shop": "supermarket"
+      }
+    },
+    {
       "type": "way",
       "id": 24866950,
       "timestamp": "2017-02-02T20:02:36Z",
@@ -21232,6 +21247,29 @@
     },
     {
       "type": "way",
+      "id": 176350227,
+      "timestamp": "2022-01-20T00:35:19Z",
+      "version": 3,
+      "changeset": 116363396,
+      "user": "JohnnyAuto",
+      "uid": 14893754,
+      "center": {
+        "lat": 33.7892316,
+        "lon": -117.8348969
+      },
+      "nodes": [],
+      "tags": {
+        "brand": "Grocery Outlet",
+        "brand:wikidata": "Q5609934",
+        "brand:wikipedia": "en:Grocery Outlet",
+        "building": "yes",
+        "name": "Grocery Outlet",
+        "official_name": "Grocery Outlet Bargain Market",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
       "id": 183178340,
       "timestamp": "2020-02-29T16:17:42Z",
       "version": 4,
@@ -22134,6 +22172,28 @@
     },
     {
       "type": "way",
+      "id": 228735153,
+      "timestamp": "2022-01-20T00:35:19Z",
+      "version": 2,
+      "changeset": 116363396,
+      "user": "JohnnyAuto",
+      "uid": 14893754,
+      "center": {
+        "lat": 33.7844823,
+        "lon": -117.8351193
+      },
+      "nodes": [],
+      "tags": {
+        "brand": "ampm",
+        "brand:wikidata": "Q306960",
+        "brand:wikipedia": "en:Ampm",
+        "building": "yes",
+        "name": "ampm",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
       "id": 228735171,
       "timestamp": "2019-02-11T03:25:07Z",
       "version": 4,
@@ -22183,22 +22243,44 @@
     {
       "type": "way",
       "id": 228737740,
-      "timestamp": "2019-12-31T21:17:45Z",
-      "version": 2,
-      "changeset": 79068881,
-      "user": "jScher",
-      "uid": 10019160,
+      "timestamp": "2022-01-20T01:08:51Z",
+      "version": 3,
+      "changeset": 116363772,
+      "user": "JohnnyAuto",
+      "uid": 14893754,
       "center": {
         "lat": 33.7469891,
         "lon": -117.8102347
       },
       "nodes": [],
       "tags": {
-        "brand": "Ralphs",
-        "brand:wikidata": "Q3929820",
-        "brand:wikipedia": "en:Ralphs",
-        "name": "Ralphs",
+        "brand": "Smart & Final",
+        "brand:wikidata": "Q7543916",
+        "brand:wikipedia": "en:Smart & Final",
         "building": "yes",
+        "name": "Smart & Final",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 228737758,
+      "timestamp": "2022-01-20T01:08:51Z",
+      "version": 3,
+      "changeset": 116363772,
+      "user": "JohnnyAuto",
+      "uid": 14893754,
+      "center": {
+        "lat": 33.7464348,
+        "lon": -117.8095576
+      },
+      "nodes": [],
+      "tags": {
+        "brand": "Trader Joe's",
+        "brand:wikidata": "Q688825",
+        "brand:wikipedia": "en:Trader Joe's",
+        "building": "yes",
+        "name": "Trader Joe's",
         "shop": "supermarket"
       }
     },
@@ -23744,18 +23826,17 @@
     {
       "type": "way",
       "id": 401872599,
-      "timestamp": "2019-07-22T16:20:42Z",
-      "version": 2,
-      "changeset": 72523365,
-      "user": "Timothy Smith",
-      "uid": 115918,
+      "timestamp": "2022-01-20T00:14:49Z",
+      "version": 3,
+      "changeset": 116363143,
+      "user": "KelsonV",
+      "uid": 13990595,
       "center": {
         "lat": 33.7312501,
         "lon": -117.8182934
       },
       "nodes": [],
       "tags": {
-        "building": "yes",
         "addr:city": "Tustin",
         "addr:housenumber": "14231",
         "addr:postcode": "92780",
@@ -23764,6 +23845,7 @@
         "brand": "ampm",
         "brand:wikidata": "Q306960",
         "brand:wikipedia": "en:Ampm",
+        "building": "retail",
         "name": "ampm",
         "shop": "convenience"
       }
@@ -29926,7 +30008,7 @@
       "uid": 115918,
       "center": {
         "lat": 33.7324715,
-        "lon": -117.8160748
+        "lon": -117.8160745
       },
       "nodes": [],
       "tags": {
