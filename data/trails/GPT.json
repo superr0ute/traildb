@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-11T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-20T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -61,14 +61,16 @@
     {
       "type": "relation",
       "id": 6781645,
-      "timestamp": "2021-06-11T10:29:24Z",
-      "version": 15,
-      "changeset": 106207622,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2022-01-20T23:00:23Z",
+      "version": 16,
+      "changeset": 116406172,
+      "user": "felipeeugenio",
+      "uid": 337684,
       "members": [
         {"type": "way", "ref": 933150617, "role": ""},
         {"type": "way", "ref": 125243884, "role": ""},
+        {"type": "way", "ref": 1023076071, "role": ""},
+        {"type": "way", "ref": 1023076070, "role": ""},
         {"type": "way", "ref": 933143097, "role": ""},
         {"type": "way", "ref": 509726811, "role": ""},
         {"type": "way", "ref": 933143098, "role": ""},
@@ -1537,6 +1539,67 @@
         "name": "Avenida Cochamó",
         "ref": "V-69",
         "source": "vialidad.cl",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1023076070,
+      "timestamp": "2022-01-20T23:00:23Z",
+      "version": 1,
+      "changeset": 116406172,
+      "user": "felipeeugenio",
+      "uid": 337684,
+      "nodes": [314350944, 9435197052],
+      "geometry": [
+        {"lat": -35.8309482, "lon": -70.7382776},
+        {"lat": -35.8309973, "lon": -70.7377024}
+      ],
+      "tags": {
+        "GPT:ref": "HOP-PR-S (T02-A01-06)",
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "maxspeed:coach": "50",
+        "maxspeed:hgv:conditional": "50 @ (weight>=3.86)",
+        "maxspeed:psv:conditional": "50 @ (weight>=3.86)",
+        "name": "Ruta 115 CH",
+        "official_name": "Cruce Ruta 5 (Talca) - Paso El Pehuenche",
+        "oneway": "no",
+        "ref": "115",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1023076071,
+      "timestamp": "2022-01-20T23:00:23Z",
+      "version": 1,
+      "changeset": 116406172,
+      "user": "felipeeugenio",
+      "uid": 337684,
+      "nodes": [4989181911, 314350944],
+      "geometry": [
+        {"lat": -35.8307002, "lon": -70.7395706},
+        {"lat": -35.8307848, "lon": -70.7393492},
+        {"lat": -35.8308402, "lon": -70.7391545},
+        {"lat": -35.8308883, "lon": -70.7388985},
+        {"lat": -35.8309048, "lon": -70.7387613},
+        {"lat": -35.8309249, "lon": -70.7385794},
+        {"lat": -35.8309482, "lon": -70.7382776}
+      ],
+      "tags": {
+        "GPT:ref": "HOP-PR-S (T02-A01-06)",
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "50",
+        "maxspeed:coach": "50",
+        "maxspeed:hgv:conditional": "50 @ (weight>=3.86)",
+        "maxspeed:psv:conditional": "50 @ (weight>=3.86)",
+        "name": "Ruta 115 CH",
+        "official_name": "Cruce Ruta 5 (Talca) - Paso El Pehuenche",
+        "oneway": "no",
+        "ref": "115",
         "surface": "asphalt"
       }
     },
@@ -89899,24 +89962,16 @@
     {
       "type": "way",
       "id": 933143097,
-      "timestamp": "2021-10-08T04:15:10Z",
-      "version": 3,
-      "changeset": 112242273,
-      "user": "jptolosa",
-      "uid": 1975220,
-      "nodes": [4989181911, 1959940707],
+      "timestamp": "2022-01-20T23:00:23Z",
+      "version": 4,
+      "changeset": 116406172,
+      "user": "felipeeugenio",
+      "uid": 337684,
+      "nodes": [9435197052, 1959940707],
       "geometry": [
-        {"lat": -35.8307002, "lon": -70.7395706},
-        {"lat": -35.8307848, "lon": -70.7393492},
-        {"lat": -35.8308402, "lon": -70.7391545},
-        {"lat": -35.8308656, "lon": -70.7390187},
-        {"lat": -35.8308883, "lon": -70.7388985},
-        {"lat": -35.8309048, "lon": -70.7387613},
-        {"lat": -35.8309249, "lon": -70.7385794},
-        {"lat": -35.8309482, "lon": -70.7382776},
+        {"lat": -35.8309973, "lon": -70.7377024},
         {"lat": -35.8310074, "lon": -70.7375847},
         {"lat": -35.8310281, "lon": -70.7373504},
-        {"lat": -35.8310482, "lon": -70.7371673},
         {"lat": -35.8310808, "lon": -70.7370024},
         {"lat": -35.8311205, "lon": -70.7367992},
         {"lat": -35.8311689, "lon": -70.7365972},
