@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-21T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-22T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1078763,
-      "timestamp": "2022-01-02T12:55:41Z",
-      "version": 342,
-      "changeset": 115668398,
-      "user": "Jrachi",
-      "uid": 2976645,
+      "timestamp": "2022-01-22T18:20:11Z",
+      "version": 343,
+      "changeset": 116476061,
+      "user": "Martj9",
+      "uid": 675302,
       "members": [
         {"type": "way", "ref": 934669276, "role": ""},
         {"type": "way", "ref": 683225401, "role": ""},
@@ -152,6 +152,7 @@
         {"type": "way", "ref": 35955909, "role": ""},
         {"type": "way", "ref": 35955910, "role": ""},
         {"type": "way", "ref": 35948962, "role": ""},
+        {"type": "way", "ref": 1023692670, "role": ""},
         {"type": "way", "ref": 397609428, "role": ""},
         {"type": "way", "ref": 1015956278, "role": ""},
         {"type": "way", "ref": 1015956277, "role": ""},
@@ -2715,6 +2716,36 @@
         "maxspeed": "50",
         "sac_scale": "hiking",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1023692670,
+      "timestamp": "2022-01-22T18:20:11Z",
+      "version": 1,
+      "changeset": 116476061,
+      "user": "Martj9",
+      "uid": 675302,
+      "nodes": [420235751, 420235752],
+      "geometry": [
+        {"lat": 44.7992102, "lon": 7.0555146},
+        {"lat": 44.799231, "lon": 7.0555126},
+        {"lat": 44.7992606, "lon": 7.0555207},
+        {"lat": 44.7992936, "lon": 7.0555515},
+        {"lat": 44.7993017, "lon": 7.0555637},
+        {"lat": 44.799336, "lon": 7.0556153},
+        {"lat": 44.7994503, "lon": 7.0560422}
+      ],
+      "tags": {
+        "highway": "track",
+        "incline": "up",
+        "maxspeed": "20",
+        "mtb:scale": "0",
+        "mtb:scale:uphill": "0",
+        "sac_scale": "hiking",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
+        "tracktype": "grade1"
       }
     },
     {
@@ -36905,19 +36936,14 @@
     {
       "type": "way",
       "id": 35948962,
-      "timestamp": "2022-01-21T12:07:00Z",
-      "version": 25,
-      "changeset": 116428745,
+      "timestamp": "2022-01-22T18:20:11Z",
+      "version": 26,
+      "changeset": 116476061,
       "user": "Martj9",
       "uid": 675302,
-      "nodes": [420235751, 420235770],
+      "nodes": [420235752, 420235770],
       "geometry": [
-        {"lat": 44.7992102, "lon": 7.0555146},
-        {"lat": 44.799247, "lon": 7.0555218},
-        {"lat": 44.7992936, "lon": 7.0555515},
-        {"lat": 44.7993017, "lon": 7.0555637},
-        {"lat": 44.799336, "lon": 7.0556153},
-        {"lat": 44.7994447, "lon": 7.0560422},
+        {"lat": 44.7994503, "lon": 7.0560422},
         {"lat": 44.799529, "lon": 7.0562272},
         {"lat": 44.7998151, "lon": 7.0568078},
         {"lat": 44.8002923, "lon": 7.0577257},
@@ -53899,11 +53925,11 @@
     {
       "type": "way",
       "id": 662899550,
-      "timestamp": "2021-07-06T21:54:55Z",
-      "version": 4,
-      "changeset": 107522818,
-      "user": "Hillhome",
-      "uid": 76164,
+      "timestamp": "2022-01-22T17:06:28Z",
+      "version": 5,
+      "changeset": 116473703,
+      "user": "mpmac82",
+      "uid": 14867340,
       "nodes": [454048021, 454048026],
       "geometry": [
         {"lat": 45.9983886, "lon": 7.9807437},
@@ -53918,11 +53944,7 @@
         {"lat": 45.9982508, "lon": 7.9802274},
         {"lat": 45.9982591, "lon": 7.9801886}
       ],
-      "tags": {
-        "highway": "path",
-        "name": "Grande Traversata delle Alpi",
-        "sac_scale": "mountain_hiking"
-      }
+      "tags": {"highway": "path", "name": "B99", "sac_scale": "mountain_hiking"}
     },
     {
       "type": "way",
