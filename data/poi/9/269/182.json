@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-01-22T23:59:59Z",
-    "timestamp_osm_base": "2022-01-23T04:29:58Z",
+    "timestamp_osm_date": "2022-01-23T23:59:59Z",
+    "timestamp_osm_base": "2022-01-24T04:33:06Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -19047,13 +19047,13 @@
       "user": "Martino Scaglione",
       "uid": 10901495,
       "tags": {
-        "ele": "249",
         "gfoss_id": "15076",
+        "place": "hamlet",
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "ele": "249",
         "istat_id": "1617020002",
         "name": "Sottoriva",
-        "place": "hamlet",
-        "population": "10",
-        "source": "Istat 2001 - geodati.gfoss.it"
+        "population": "10"
       }
     },
     {
@@ -52627,9 +52627,9 @@
       "id": 5192135065,
       "lat": 45.608878,
       "lon": 9.517682,
-      "timestamp": "2021-03-14T10:27:26Z",
-      "version": 4,
-      "changeset": 100983160,
+      "timestamp": "2022-01-23T15:50:25Z",
+      "version": 5,
+      "changeset": 116504673,
       "user": "Aiman",
       "uid": 67550,
       "tags": {
@@ -52637,10 +52637,15 @@
         "addr:housenumber": "24/A",
         "addr:postcode": "20056",
         "addr:street": "Via Trento e Trieste",
+        "changing_table": "no",
+        "kids_area": "no",
         "level": "0",
         "name": "Crai",
         "opening_hours": "Mo-Fr 08:30-12:30,15:30-19:30+; Sa 08:30-19:30+",
+        "organic": "yes",
         "shop": "supermarket",
+        "toilets": "yes",
+        "toilets:access": "customers",
         "wheelchair": "yes"
       }
     },
@@ -73826,8 +73831,8 @@
       "user": "Martino Scaglione",
       "uid": 10901495,
       "tags": {
-        "name": "Brugale",
-        "place": "hamlet"
+        "place": "hamlet",
+        "name": "Brugale"
       }
     },
     {
@@ -73841,8 +73846,8 @@
       "user": "Martino Scaglione",
       "uid": 10901495,
       "tags": {
-        "name": "Tor",
-        "place": "hamlet"
+        "place": "hamlet",
+        "name": "Tor"
       }
     },
     {
@@ -74142,6 +74147,24 @@
       "uid": 12848339,
       "tags": {
         "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9442481665,
+      "lat": 45.8786472,
+      "lon": 9.5064791,
+      "timestamp": "2022-01-23T16:29:42Z",
+      "version": 2,
+      "changeset": 116506464,
+      "user": "amadvance",
+      "uid": 6408564,
+      "tags": {
+        "amenity": "drinking_water",
+        "image": "https://commons.wikimedia.org/wiki/File:20220123-grandi_alberi-091.jpg",
+        "name": "Fontana Selvano",
+        "natural": "spring",
+        "wikimedia_commons": "File:20220123-grandi alberi-091.jpg"
       }
     },
     {
@@ -84468,6 +84491,28 @@
         "bench": "yes",
         "building": "yes",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1023958883,
+      "timestamp": "2022-01-23T15:04:12Z",
+      "version": 1,
+      "changeset": 116502942,
+      "user": "Bruno3589",
+      "uid": 9629381,
+      "center": {
+        "lat": 45.7982631,
+        "lon": 9.8432905
+      },
+      "nodes": [],
+      "tags": {
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "name": "Lidl",
+        "shop": "supermarket"
       }
     }
   ]
