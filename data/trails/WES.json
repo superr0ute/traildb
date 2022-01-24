@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-17T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-23T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1076,11 +1076,11 @@
     {
       "type": "relation",
       "id": 62897,
-      "timestamp": "2022-01-17T12:46:38Z",
-      "version": 211,
-      "changeset": 116253177,
-      "user": "franklin9",
-      "uid": 11077793,
+      "timestamp": "2022-01-23T16:56:54Z",
+      "version": 212,
+      "changeset": 116507504,
+      "user": "*abq*",
+      "uid": 3696195,
       "members": [
         {"type": "node", "ref": 1955826026, "role": "guidepost"},
         {"type": "node", "ref": 1955825919, "role": "guidepost"},
@@ -1289,9 +1289,7 @@
         {"type": "way", "ref": 206943456, "role": ""},
         {"type": "way", "ref": 185354174, "role": ""},
         {"type": "way", "ref": 28092400, "role": ""},
-        {"type": "way", "ref": 185354180, "role": ""},
         {"type": "way", "ref": 29214650, "role": ""},
-        {"type": "way", "ref": 846699611, "role": ""},
         {"type": "way", "ref": 206943447, "role": ""},
         {"type": "way", "ref": 206943442, "role": ""},
         {"type": "way", "ref": 206943462, "role": ""},
@@ -10349,18 +10347,18 @@
     {
       "type": "way",
       "id": 180879795,
-      "timestamp": "2012-09-13T21:52:58Z",
-      "version": 1,
-      "changeset": 13101623,
-      "user": "Stefan Karl",
-      "uid": 101348,
+      "timestamp": "2022-01-23T12:44:57Z",
+      "version": 2,
+      "changeset": 116496980,
+      "user": "Folken",
+      "uid": 22471,
       "nodes": [314445820, 325790247],
       "geometry": [
         {"lat": 47.596377, "lon": 7.6450609},
         {"lat": 47.5962473, "lon": 7.6449904},
         {"lat": 47.5961751, "lon": 7.6449157}
       ],
-      "tags": {"highway": "path", "surface": "gravel"}
+      "tags": {"highway": "path", "surface": "ground"}
     },
     {
       "type": "way",
@@ -10388,11 +10386,11 @@
     {
       "type": "way",
       "id": 180879798,
-      "timestamp": "2021-05-09T12:43:02Z",
-      "version": 13,
-      "changeset": 104395138,
-      "user": "TobyL86",
-      "uid": 3270936,
+      "timestamp": "2022-01-23T12:25:01Z",
+      "version": 14,
+      "changeset": 116496986,
+      "user": "Folken",
+      "uid": 22471,
       "nodes": [5784037671, 262222411],
       "geometry": [
         {"lat": 47.5926041, "lon": 7.6451554},
@@ -10408,6 +10406,7 @@
       "tags": {
         "highway": "secondary",
         "lanes": "2",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Weilstrasse",
         "ref": "324",
@@ -10905,11 +10904,11 @@
     {
       "type": "way",
       "id": 185354165,
-      "timestamp": "2021-02-17T23:23:42Z",
-      "version": 4,
-      "changeset": 99481326,
-      "user": "jeroenrozema74",
-      "uid": 183483,
+      "timestamp": "2022-01-23T16:56:54Z",
+      "version": 5,
+      "changeset": 116507504,
+      "user": "*abq*",
+      "uid": 3696195,
       "nodes": [270311892, 304327323],
       "geometry": [
         {"lat": 47.8778074, "lon": 7.9240919},
@@ -10925,7 +10924,7 @@
         "highway": "track",
         "motor_vehicle": "forestry",
         "sac_scale": "hiking",
-        "surface": "gravel",
+        "surface": "compacted",
         "tracktype": "grade2"
       }
     },
@@ -10955,9 +10954,9 @@
     {
       "type": "way",
       "id": 185354174,
-      "timestamp": "2018-12-28T14:23:51Z",
-      "version": 5,
-      "changeset": 65843228,
+      "timestamp": "2022-01-23T16:56:54Z",
+      "version": 6,
+      "changeset": 116507504,
       "user": "*abq*",
       "uid": 3696195,
       "nodes": [1073041671, 308528631],
@@ -10968,7 +10967,7 @@
       "tags": {
         "highway": "track",
         "motor_vehicle": "forestry",
-        "surface": "gravel",
+        "surface": "compacted",
         "tracktype": "grade2"
       }
     },
@@ -11013,38 +11012,6 @@
         "sac_scale": "hiking",
         "surface": "gravel",
         "trail_visibility": "excellent"
-      }
-    },
-    {
-      "type": "way",
-      "id": 185354180,
-      "timestamp": "2020-10-28T22:17:10Z",
-      "version": 4,
-      "changeset": 93202598,
-      "user": "jeroenrozema74",
-      "uid": 183483,
-      "nodes": [308528632, 250850747],
-      "geometry": [
-        {"lat": 47.875316, "lon": 7.920933},
-        {"lat": 47.875226, "lon": 7.9206382},
-        {"lat": 47.8751166, "lon": 7.9202708},
-        {"lat": 47.8747569, "lon": 7.9196845},
-        {"lat": 47.8746884, "lon": 7.9194198},
-        {"lat": 47.8746577, "lon": 7.9190958},
-        {"lat": 47.8746747, "lon": 7.9187595},
-        {"lat": 47.87467, "lon": 7.9182784},
-        {"lat": 47.8747079, "lon": 7.9177923},
-        {"lat": 47.8747854, "lon": 7.9173138}
-      ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "track",
-        "motor_vehicle": "permit",
-        "sac_scale": "hiking",
-        "surface": "gravel",
-        "tracktype": "grade2",
-        "width": "3"
       }
     },
     {
@@ -11798,11 +11765,11 @@
     {
       "type": "way",
       "id": 206943438,
-      "timestamp": "2020-05-25T18:36:23Z",
-      "version": 3,
-      "changeset": 85729042,
-      "user": "jeroenrozema74",
-      "uid": 183483,
+      "timestamp": "2022-01-23T16:56:54Z",
+      "version": 4,
+      "changeset": 116507504,
+      "user": "*abq*",
+      "uid": 3696195,
       "nodes": [1073042516, 436584221],
       "geometry": [
         {"lat": 47.8768018, "lon": 7.9217963},
@@ -11813,7 +11780,7 @@
         "highway": "track",
         "motor_vehicle": "forestry",
         "piste:type": "nordic",
-        "surface": "gravel",
+        "surface": "compacted",
         "tracktype": "grade2"
       }
     },
@@ -11887,11 +11854,11 @@
     {
       "type": "way",
       "id": 206943456,
-      "timestamp": "2021-09-11T16:38:02Z",
-      "version": 4,
-      "changeset": 111069665,
-      "user": "schoschi",
-      "uid": 231006,
+      "timestamp": "2022-01-23T16:56:54Z",
+      "version": 5,
+      "changeset": 116507504,
+      "user": "*abq*",
+      "uid": 3696195,
       "nodes": [436584221, 1073041671],
       "geometry": [
         {"lat": 47.8761134, "lon": 7.9218741},
@@ -11906,7 +11873,7 @@
       "tags": {
         "highway": "track",
         "motor_vehicle": "forestry",
-        "surface": "gravel",
+        "surface": "compacted",
         "tracktype": "grade2"
       }
     },
@@ -17130,17 +17097,21 @@
     {
       "type": "way",
       "id": 28092400,
-      "timestamp": "2020-10-28T22:18:43Z",
-      "version": 8,
-      "changeset": 93202642,
-      "user": "jeroenrozema74",
-      "uid": 183483,
+      "timestamp": "2022-01-23T16:56:54Z",
+      "version": 9,
+      "changeset": 116507504,
+      "user": "*abq*",
+      "uid": 3696195,
       "nodes": [308528631, 308528632],
       "geometry": [
         {"lat": 47.8753565, "lon": 7.921138},
         {"lat": 47.875316, "lon": 7.920933}
       ],
-      "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade2"}
+      "tags": {
+        "highway": "track",
+        "surface": "compacted",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
@@ -20509,25 +20480,40 @@
     {
       "type": "way",
       "id": 29214650,
-      "timestamp": "2020-11-29T16:27:51Z",
-      "version": 10,
-      "changeset": 94990268,
+      "timestamp": "2022-01-23T16:56:54Z",
+      "version": 11,
+      "changeset": 116507504,
       "user": "*abq*",
       "uid": 3696195,
-      "nodes": [250850747, 250850746],
+      "nodes": [308528632, 1073042695],
       "geometry": [
+        {"lat": 47.875316, "lon": 7.920933},
+        {"lat": 47.875226, "lon": 7.9206382},
+        {"lat": 47.8751166, "lon": 7.9202708},
+        {"lat": 47.8747569, "lon": 7.9196845},
+        {"lat": 47.8746884, "lon": 7.9194198},
+        {"lat": 47.8746577, "lon": 7.9190958},
+        {"lat": 47.8746747, "lon": 7.9187595},
+        {"lat": 47.87467, "lon": 7.9182784},
+        {"lat": 47.8747079, "lon": 7.9177923},
         {"lat": 47.8747854, "lon": 7.9173138},
         {"lat": 47.8748056, "lon": 7.9171638},
-        {"lat": 47.8748499, "lon": 7.9168348}
+        {"lat": 47.8748499, "lon": 7.9168348},
+        {"lat": 47.8749214, "lon": 7.9163608},
+        {"lat": 47.8749522, "lon": 7.9160433},
+        {"lat": 47.8749399, "lon": 7.9154703},
+        {"lat": 47.8749507, "lon": 7.9151948},
+        {"lat": 47.8749902, "lon": 7.9150075},
+        {"lat": 47.8751948, "lon": 7.9145469},
+        {"lat": 47.8752492, "lon": 7.9142518}
       ],
       "tags": {
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
         "motor_vehicle": "permit",
-        "piste:type": "nordic",
         "sac_scale": "hiking",
-        "surface": "gravel",
+        "surface": "compacted",
         "tracktype": "grade2",
         "width": "3"
       }
@@ -21749,11 +21735,11 @@
     {
       "type": "way",
       "id": 29562608,
-      "timestamp": "2020-08-23T17:15:56Z",
-      "version": 3,
-      "changeset": 89816169,
-      "user": "xDSF-DFSx",
-      "uid": 4803523,
+      "timestamp": "2022-01-23T12:26:40Z",
+      "version": 5,
+      "changeset": 116496986,
+      "user": "Folken",
+      "uid": 22471,
       "nodes": [5784037671, 325790382],
       "geometry": [
         {"lat": 47.5926041, "lon": 7.6451554},
@@ -21762,46 +21748,51 @@
         {"lat": 47.5926132, "lon": 7.6450198},
         {"lat": 47.5926276, "lon": 7.6450063}
       ],
-      "tags": {"highway": "footway", "name": "Bruckwegli", "surface": "paved"}
+      "tags": {
+        "highway": "footway",
+        "lit": "no",
+        "name": "Bruckwegli",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 29562641,
-      "timestamp": "2020-08-23T17:15:56Z",
-      "version": 2,
-      "changeset": 89816169,
-      "user": "xDSF-DFSx",
-      "uid": 4803523,
+      "timestamp": "2022-01-23T12:26:07Z",
+      "version": 3,
+      "changeset": 116496980,
+      "user": "Folken",
+      "uid": 22471,
       "nodes": [325790346, 7837711421],
       "geometry": [
         {"lat": 47.5927024, "lon": 7.6449187},
         {"lat": 47.5927262, "lon": 7.6448882}
       ],
-      "tags": {"highway": "path", "name": "Bruckwegli", "surface": "paved"}
+      "tags": {"highway": "path", "name": "Bruckwegli", "surface": "concrete"}
     },
     {
       "type": "way",
       "id": 29562647,
-      "timestamp": "2012-09-13T21:53:12Z",
-      "version": 3,
-      "changeset": 13101623,
-      "user": "Stefan Karl",
-      "uid": 101348,
+      "timestamp": "2022-01-23T12:44:50Z",
+      "version": 4,
+      "changeset": 116497703,
+      "user": "Folken",
+      "uid": 22471,
       "nodes": [314445820, 314445822],
       "geometry": [
         {"lat": 47.596377, "lon": 7.6450609},
         {"lat": 47.5965282, "lon": 7.6443917}
       ],
-      "tags": {"highway": "service"}
+      "tags": {"highway": "service", "surface": "asphalt"}
     },
     {
       "type": "way",
       "id": 29562654,
-      "timestamp": "2018-07-25T11:54:57Z",
-      "version": 2,
-      "changeset": 61054129,
-      "user": "highbuilder",
-      "uid": 190676,
+      "timestamp": "2022-01-23T12:25:49Z",
+      "version": 4,
+      "changeset": 116496986,
+      "user": "Folken",
+      "uid": 22471,
       "nodes": [325790382, 325790346],
       "geometry": [
         {"lat": 47.5926276, "lon": 7.6450063},
@@ -21811,8 +21802,9 @@
         "bridge": "yes",
         "highway": "footway",
         "layer": "1",
+        "lit": "no",
         "name": "Bruckwegli",
-        "surface": "paved"
+        "surface": "asphalt"
       }
     },
     {
@@ -27602,11 +27594,11 @@
     {
       "type": "way",
       "id": 37389260,
-      "timestamp": "2020-05-25T21:32:39Z",
-      "version": 8,
-      "changeset": 85733680,
-      "user": "jeroenrozema74",
-      "uid": 183483,
+      "timestamp": "2022-01-23T16:56:54Z",
+      "version": 9,
+      "changeset": 116507504,
+      "user": "*abq*",
+      "uid": 3696195,
       "nodes": [436584215, 1073042516],
       "geometry": [
         {"lat": 47.877386, "lon": 7.922088},
@@ -27619,7 +27611,7 @@
         "highway": "track",
         "motor_vehicle": "forestry",
         "piste:type": "nordic",
-        "surface": "gravel",
+        "surface": "compacted",
         "tracktype": "grade2"
       }
     },
@@ -40968,7 +40960,7 @@
         {"lat": 47.5750688, "lon": 7.6104597},
         {"lat": 47.5749352, "lon": 7.6105168},
         {"lat": 47.5747922, "lon": 7.6105483},
-        {"lat": 47.5747548, "lon": 7.6103793}
+        {"lat": 47.5747412, "lon": 7.6103739}
       ],
       "tags": {
         "access": "permissive",
@@ -40995,7 +40987,7 @@
         {"lat": 47.5739997, "lon": 7.6059124},
         {"lat": 47.5740412, "lon": 7.6060967},
         {"lat": 47.5739802, "lon": 7.6061862},
-        {"lat": 47.5739272, "lon": 7.6062534},
+        {"lat": 47.5739331, "lon": 7.6062413},
         {"lat": 47.5737798, "lon": 7.6064149},
         {"lat": 47.5737083, "lon": 7.6066482},
         {"lat": 47.5736847, "lon": 7.6067675},
@@ -41025,7 +41017,7 @@
         {"lat": 47.5747811, "lon": 7.6099309},
         {"lat": 47.5747685, "lon": 7.610113},
         {"lat": 47.5747637, "lon": 7.6102294},
-        {"lat": 47.5747548, "lon": 7.6103793}
+        {"lat": 47.5747412, "lon": 7.6103739}
       ],
       "tags": {
         "access": "permissive",
@@ -46267,11 +46259,11 @@
     {
       "type": "way",
       "id": 839910374,
-      "timestamp": "2020-08-23T17:15:56Z",
-      "version": 1,
-      "changeset": 89816169,
-      "user": "xDSF-DFSx",
-      "uid": 4803523,
+      "timestamp": "2022-01-23T12:28:41Z",
+      "version": 3,
+      "changeset": 116497131,
+      "user": "Folken",
+      "uid": 22471,
       "nodes": [7837711421, 314445545],
       "geometry": [
         {"lat": 47.5927262, "lon": 7.6448882},
@@ -46279,7 +46271,13 @@
         {"lat": 47.592951, "lon": 7.6445836},
         {"lat": 47.5931375, "lon": 7.6444469}
       ],
-      "tags": {"highway": "steps", "name": "Bruckwegli", "surface": "paved"}
+      "tags": {
+        "handrail": "yes",
+        "highway": "steps",
+        "name": "Bruckwegli",
+        "ramp": "no",
+        "surface": "paved"
+      }
     },
     {
       "type": "way",
@@ -46436,36 +46434,6 @@
         "mtb:scale": "0",
         "sac_scale": "hiking",
         "surface": "fine_gravel"
-      }
-    },
-    {
-      "type": "way",
-      "id": 846699611,
-      "timestamp": "2020-11-29T16:27:51Z",
-      "version": 3,
-      "changeset": 94990268,
-      "user": "*abq*",
-      "uid": 3696195,
-      "nodes": [250850746, 1073042695],
-      "geometry": [
-        {"lat": 47.8748499, "lon": 7.9168348},
-        {"lat": 47.8749214, "lon": 7.9163608},
-        {"lat": 47.8749522, "lon": 7.9160433},
-        {"lat": 47.8749399, "lon": 7.9154703},
-        {"lat": 47.8749507, "lon": 7.9151948},
-        {"lat": 47.8749902, "lon": 7.9150075},
-        {"lat": 47.8751948, "lon": 7.9145469},
-        {"lat": 47.8752492, "lon": 7.9142518}
-      ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "track",
-        "motor_vehicle": "permit",
-        "sac_scale": "hiking",
-        "surface": "gravel",
-        "tracktype": "grade2",
-        "width": "3"
       }
     },
     {
@@ -47655,11 +47623,11 @@
     {
       "type": "way",
       "id": 908233480,
-      "timestamp": "2021-02-17T23:23:42Z",
-      "version": 1,
-      "changeset": 99481326,
-      "user": "jeroenrozema74",
-      "uid": 183483,
+      "timestamp": "2022-01-23T16:56:54Z",
+      "version": 2,
+      "changeset": 116507504,
+      "user": "*abq*",
+      "uid": 3696195,
       "nodes": [436584215, 270311892],
       "geometry": [
         {"lat": 47.877386, "lon": 7.922088},
@@ -47673,7 +47641,7 @@
         "highway": "track",
         "motor_vehicle": "forestry",
         "sac_scale": "hiking",
-        "surface": "gravel",
+        "surface": "compacted",
         "tracktype": "grade2"
       }
     },
