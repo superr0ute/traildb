@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-22T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-24T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2302,9 +2302,9 @@
     {
       "type": "relation",
       "id": 9605870,
-      "timestamp": "2022-01-14T02:10:50Z",
-      "version": 34,
-      "changeset": 116130706,
+      "timestamp": "2022-01-24T10:13:26Z",
+      "version": 35,
+      "changeset": 116533946,
       "user": "KingCZE",
       "uid": 13552526,
       "members": [
@@ -2358,6 +2358,8 @@
         {"type": "way", "ref": 118778204, "role": ""},
         {"type": "way", "ref": 772329397, "role": ""},
         {"type": "way", "ref": 772329396, "role": ""},
+        {"type": "way", "ref": 1024187505, "role": ""},
+        {"type": "way", "ref": 1024187508, "role": ""},
         {"type": "way", "ref": 29841928, "role": ""},
         {"type": "way", "ref": 373848823, "role": ""},
         {"type": "way", "ref": 29841986, "role": ""},
@@ -2857,11 +2859,11 @@
     {
       "type": "relation",
       "id": 9614243,
-      "timestamp": "2020-08-06T10:27:33Z",
-      "version": 8,
-      "changeset": 89032691,
-      "user": "magrej",
-      "uid": 7345137,
+      "timestamp": "2022-01-24T00:50:10Z",
+      "version": 9,
+      "changeset": 116519488,
+      "user": "StenSoft",
+      "uid": 255936,
       "members": [
         {"type": "way", "ref": 834631009, "role": ""},
         {"type": "way", "ref": 834631007, "role": ""},
@@ -2871,7 +2873,8 @@
         {"type": "way", "ref": 51972675, "role": ""},
         {"type": "way", "ref": 51972578, "role": ""},
         {"type": "way", "ref": 540088751, "role": ""},
-        {"type": "way", "ref": 540088752, "role": ""}
+        {"type": "way", "ref": 540088752, "role": ""},
+        {"type": "way", "ref": 1024098638, "role": ""}
       ],
       "tags": {
         "description": "a route that avoids both SH1 and SH2 (except to cross over)",
@@ -2890,12 +2893,13 @@
     {
       "type": "relation",
       "id": 9615763,
-      "timestamp": "2020-08-05T07:15:01Z",
-      "version": 5,
-      "changeset": 88964676,
-      "user": "AlwynWellington",
-      "uid": 567640,
+      "timestamp": "2022-01-24T00:50:10Z",
+      "version": 6,
+      "changeset": 116519488,
+      "user": "StenSoft",
+      "uid": 255936,
       "members": [
+        {"type": "way", "ref": 1024098639, "role": ""},
         {"type": "way", "ref": 399139476, "role": ""},
         {"type": "way", "ref": 214724589, "role": ""},
         {"type": "way", "ref": 675109022, "role": ""},
@@ -6352,6 +6356,96 @@
         "ref": "SH 11",
         "surface": "paved",
         "turn:lanes:forward": "none|right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1024098638,
+      "timestamp": "2022-01-24T00:50:10Z",
+      "version": 1,
+      "changeset": 116519488,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [53409867, 2108090067],
+      "geometry": [
+        {"lat": -37.2147809, "lon": 175.1045361},
+        {"lat": -37.2147158, "lon": 175.1045524},
+        {"lat": -37.2146524, "lon": 175.1045744},
+        {"lat": -37.2145878, "lon": 175.1045997},
+        {"lat": -37.2145211, "lon": 175.1046373}
+      ],
+      "tags": {
+        "destination:forward": "Hunua",
+        "highway": "unclassified",
+        "name": "Lyons Road",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1024098639,
+      "timestamp": "2022-01-24T00:50:10Z",
+      "version": 1,
+      "changeset": 116519488,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [1285569687, 53409867],
+      "geometry": [
+        {"lat": -37.2148905, "lon": 175.1033481},
+        {"lat": -37.2148411, "lon": 175.1035385},
+        {"lat": -37.2148006, "lon": 175.1037192},
+        {"lat": -37.2147871, "lon": 175.1038315},
+        {"lat": -37.2147747, "lon": 175.1039542},
+        {"lat": -37.2147647, "lon": 175.1040866},
+        {"lat": -37.2147623, "lon": 175.1042464},
+        {"lat": -37.2147684, "lon": 175.1044049},
+        {"lat": -37.2147809, "lon": 175.1045361}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "100",
+        "maxspeed:advisory": "75",
+        "name": "Mangatawhiri Road",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1024187505,
+      "timestamp": "2022-01-24T10:13:26Z",
+      "version": 1,
+      "changeset": 116533946,
+      "user": "KingCZE",
+      "uid": 13552526,
+      "nodes": [9444297582, 9444297580],
+      "geometry": [
+        {"lat": -36.8590446, "lon": 174.7738673},
+        {"lat": -36.85904, "lon": 174.7739417}
+      ],
+      "tags": {"foot": "yes", "highway": "footway"}
+    },
+    {
+      "type": "way",
+      "id": 1024187508,
+      "timestamp": "2022-01-24T10:13:26Z",
+      "version": 1,
+      "changeset": 116533946,
+      "user": "KingCZE",
+      "uid": 13552526,
+      "nodes": [9444297583, 9444297582],
+      "geometry": [
+        {"lat": -36.8589544, "lon": 174.7738411},
+        {"lat": -36.8590059, "lon": 174.7738573},
+        {"lat": -36.8590446, "lon": 174.7738673}
+      ],
+      "tags": {
+        "crossing": "unmarked",
+        "foot": "yes",
+        "footway": "crossing",
+        "highway": "footway",
+        "name": "Pukekawa Centennial Glade Path",
+        "note": "Originally graded as a new roadway through the park, it was never built into a road.",
+        "traffic_calming": "table"
       }
     },
     {
@@ -14609,9 +14703,9 @@
         {"lat": -41.260224, "lon": 174.7713404}
       ],
       "tags": {
+        "surface": "dirt",
         "highway": "footway",
-        "name": "Ngaio Gorge Track",
-        "surface": "dirt"
+        "name": "Ngaio Gorge Track"
       }
     },
     {
@@ -24275,19 +24369,19 @@
     {
       "type": "way",
       "id": 214724589,
-      "timestamp": "2020-09-07T08:07:39Z",
-      "version": 3,
-      "changeset": 90514467,
-      "user": "AndjelaS",
-      "uid": 8951082,
+      "timestamp": "2022-01-24T00:50:10Z",
+      "version": 4,
+      "changeset": 116519488,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [1285569711, 2108090077],
       "geometry": [
-        {"lat": -37.2165698, "lon": 175.0988372},
-        {"lat": -37.2163768, "lon": 175.099375},
-        {"lat": -37.2162636, "lon": 175.0997043}
+        {"lat": -37.21658, "lon": 175.098858},
+        {"lat": -37.2163504, "lon": 175.0995167}
       ],
       "tags": {
         "highway": "tertiary",
+        "maxspeed": "100",
         "name": "Mangatawhiri Road",
         "oneway": "yes",
         "surface": "paved"
@@ -39602,14 +39696,14 @@
     {
       "type": "way",
       "id": 29841928,
-      "timestamp": "2021-01-10T09:55:42Z",
-      "version": 8,
-      "changeset": 97240537,
-      "user": "myfanwy",
-      "uid": 10829,
-      "nodes": [259124512, 328848277],
+      "timestamp": "2022-01-24T10:13:26Z",
+      "version": 9,
+      "changeset": 116533946,
+      "user": "KingCZE",
+      "uid": 13552526,
+      "nodes": [9444297580, 328848277],
       "geometry": [
-        {"lat": -36.859, "lon": 174.7739242},
+        {"lat": -36.85904, "lon": 174.7739417},
         {"lat": -36.8592095, "lon": 174.7740178}
       ],
       "tags": {"foot": "yes", "highway": "footway"}
@@ -41279,12 +41373,12 @@
         {"lat": -41.2616364, "lon": 174.7731626}
       ],
       "tags": {
+        "surface": "paved",
         "cycleway:both": "no",
         "highway": "residential",
         "maxspeed": "50",
         "name": "Hanover Street",
-        "source:maxspeed": "NZ:urban",
-        "surface": "paved"
+        "source:maxspeed": "NZ:urban"
       }
     },
     {
@@ -54032,24 +54126,22 @@
     {
       "type": "way",
       "id": 399139476,
-      "timestamp": "2020-09-07T08:07:39Z",
-      "version": 3,
-      "changeset": 90514467,
-      "user": "AndjelaS",
-      "uid": 8951082,
-      "nodes": [2108090077, 53409867],
+      "timestamp": "2022-01-24T00:50:10Z",
+      "version": 4,
+      "changeset": 116519488,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [2108090077, 1285569687],
       "geometry": [
-        {"lat": -37.2162636, "lon": 175.0997043},
-        {"lat": -37.2156238, "lon": 175.1013766},
-        {"lat": -37.2150097, "lon": 175.1029706},
-        {"lat": -37.2148611, "lon": 175.1034026},
-        {"lat": -37.2147942, "lon": 175.103716},
-        {"lat": -37.2147507, "lon": 175.1040208},
-        {"lat": -37.2147431, "lon": 175.1042753},
-        {"lat": -37.2147554, "lon": 175.1045249}
+        {"lat": -37.2163504, "lon": 175.0995167},
+        {"lat": -37.2156315, "lon": 175.1013894},
+        {"lat": -37.2150174, "lon": 175.1029786},
+        {"lat": -37.2149546, "lon": 175.1031569},
+        {"lat": -37.2148905, "lon": 175.1033481}
       ],
       "tags": {
         "highway": "tertiary",
+        "maxspeed": "100",
         "name": "Mangatawhiri Road",
         "surface": "paved"
       }
@@ -67956,17 +68048,14 @@
     {
       "type": "way",
       "id": 540088752,
-      "timestamp": "2020-09-07T08:07:39Z",
-      "version": 2,
-      "changeset": 90514467,
-      "user": "AndjelaS",
-      "uid": 8951082,
-      "nodes": [53409867, 5225582665],
+      "timestamp": "2022-01-24T00:50:10Z",
+      "version": 3,
+      "changeset": 116519488,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [2108090067, 5225582665],
       "geometry": [
-        {"lat": -37.2147554, "lon": 175.1045249},
-        {"lat": -37.2146494, "lon": 175.1045829},
-        {"lat": -37.2144904, "lon": 175.1046982},
-        {"lat": -37.2142851, "lon": 175.1048575},
+        {"lat": -37.2145211, "lon": 175.1046373},
         {"lat": -37.2123402, "lon": 175.1063552}
       ],
       "tags": {
@@ -78311,7 +78400,7 @@
         {"lat": -37.2167288, "lon": 175.0933528},
         {"lat": -37.2165526, "lon": 175.0932996},
         {"lat": -37.2165233, "lon": 175.0932791},
-        {"lat": -37.2163797, "lon": 175.0933365},
+        {"lat": -37.2163797, "lon": 175.0933198},
         {"lat": -37.216383, "lon": 175.0936069},
         {"lat": -37.216507, "lon": 175.0947459},
         {"lat": -37.216551, "lon": 175.0954456},
@@ -78320,7 +78409,7 @@
         {"lat": -37.2166057, "lon": 175.0981884},
         {"lat": -37.2165592, "lon": 175.0985053},
         {"lat": -37.2165059, "lon": 175.0987753},
-        {"lat": -37.2165698, "lon": 175.0988372}
+        {"lat": -37.21658, "lon": 175.098858}
       ],
       "tags": {
         "highway": "path",
@@ -80434,11 +80523,11 @@
         {"lat": -41.2602721, "lon": 174.7712863}
       ],
       "tags": {
+        "surface": "dirt",
         "bridge": "yes",
         "highway": "footway",
         "layer": "1",
-        "name": "Ngaio Gorge Track",
-        "surface": "dirt"
+        "name": "Ngaio Gorge Track"
       }
     },
     {
@@ -89438,12 +89527,12 @@
     {
       "type": "way",
       "id": 772329396,
-      "timestamp": "2021-01-10T10:19:18Z",
-      "version": 4,
-      "changeset": 97241298,
-      "user": "myfanwy",
-      "uid": 10829,
-      "nodes": [1335192828, 259124512],
+      "timestamp": "2022-01-24T10:13:26Z",
+      "version": 5,
+      "changeset": 116533946,
+      "user": "KingCZE",
+      "uid": 13552526,
+      "nodes": [1335192828, 9444297583],
       "geometry": [
         {"lat": -36.855173, "lon": 174.7715599},
         {"lat": -36.8551974, "lon": 174.7716048},
@@ -89464,7 +89553,7 @@
         {"lat": -36.8587288, "lon": 174.7735186},
         {"lat": -36.8588215, "lon": 174.7736887},
         {"lat": -36.8588862, "lon": 174.7738196},
-        {"lat": -36.859, "lon": 174.7739242}
+        {"lat": -36.8589544, "lon": 174.7738411}
       ],
       "tags": {
         "highway": "footway",
@@ -97440,10 +97529,10 @@
         {"lat": -41.2602799, "lon": 174.7712776}
       ],
       "tags": {
+        "surface": "dirt",
         "highway": "footway",
         "layer": "1",
-        "name": "Ngaio Gorge Track",
-        "surface": "dirt"
+        "name": "Ngaio Gorge Track"
       }
     },
     {
@@ -97460,10 +97549,10 @@
         {"lat": -41.2602278, "lon": 174.7713362}
       ],
       "tags": {
+        "surface": "dirt",
         "highway": "footway",
         "layer": "1",
-        "name": "Ngaio Gorge Track",
-        "surface": "dirt"
+        "name": "Ngaio Gorge Track"
       }
     },
     {
