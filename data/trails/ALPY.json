@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-21T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-25T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -37,11 +37,11 @@
     {
       "type": "relation",
       "id": 2925533,
-      "timestamp": "2021-09-25T19:48:01Z",
-      "version": 40,
-      "changeset": 111699901,
-      "user": "alessandrocarmeli",
-      "uid": 12294600,
+      "timestamp": "2022-01-25T08:49:26Z",
+      "version": 43,
+      "changeset": 116574813,
+      "user": "Paolo Mongini",
+      "uid": 14907453,
       "members": [
         {"type": "way", "ref": 148455697, "role": "route"},
         {"type": "way", "ref": 49796298, "role": "route"},
@@ -106,8 +106,10 @@
         {"type": "way", "ref": 149102554, "role": "route"},
         {"type": "way", "ref": 149102557, "role": "route"},
         {"type": "way", "ref": 974201426, "role": "route"},
-        {"type": "way", "ref": 148319241, "role": "route"},
+        {"type": "way", "ref": 1024482631, "role": "route"},
         {"type": "way", "ref": 462804585, "role": "route"},
+        {"type": "way", "ref": 1024482601, "role": "route"},
+        {"type": "way", "ref": 1024480430, "role": "route"},
         {"type": "way", "ref": 497713860, "role": "route"},
         {"type": "way", "ref": 199365491, "role": "route"},
         {"type": "way", "ref": 199365488, "role": "route"},
@@ -117,6 +119,7 @@
         {"type": "way", "ref": 392995932, "role": "route"},
         {"type": "way", "ref": 166709179, "role": "route"},
         {"type": "way", "ref": 166709180, "role": "route"},
+        {"type": "way", "ref": 148319241, "role": "route"},
         {"type": "way", "ref": 149102547, "role": "route"},
         {"type": "way", "ref": 166709181, "role": "route"},
         {"type": "way", "ref": 196715878, "role": "route"},
@@ -1350,6 +1353,99 @@
         "surface": "ground",
         "trail_visibility": "good",
         "width": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1024480430,
+      "timestamp": "2022-01-25T08:40:17Z",
+      "version": 2,
+      "changeset": 116574455,
+      "user": "Paolo Mongini",
+      "uid": 14907453,
+      "nodes": [4120544135, 3400298369],
+      "geometry": [
+        {"lat": 45.594174, "lon": 13.851132},
+        {"lat": 45.594083, "lon": 13.8511},
+        {"lat": 45.5939528, "lon": 13.8511279},
+        {"lat": 45.593919, "lon": 13.85112},
+        {"lat": 45.593757, "lon": 13.851011},
+        {"lat": 45.593653, "lon": 13.850985},
+        {"lat": 45.59325, "lon": 13.851088},
+        {"lat": 45.593189, "lon": 13.851088},
+        {"lat": 45.593123, "lon": 13.851061},
+        {"lat": 45.593062, "lon": 13.850977},
+        {"lat": 45.593011, "lon": 13.850605},
+        {"lat": 45.59295, "lon": 13.850409},
+        {"lat": 45.592916, "lon": 13.850336},
+        {"lat": 45.592835, "lon": 13.850237},
+        {"lat": 45.592665, "lon": 13.850091},
+        {"lat": 45.59264, "lon": 13.850017},
+        {"lat": 45.592612, "lon": 13.849806}
+      ],
+      "tags": {
+        "highway": "path",
+        "incline": "down",
+        "mtb:scale:imba": "2",
+        "name": "Pivo",
+        "sac_scale": "hiking",
+        "surface": "dirt",
+        "width": "0.5"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1024482601,
+      "timestamp": "2022-01-25T08:49:00Z",
+      "version": 1,
+      "changeset": 116574800,
+      "user": "Paolo Mongini",
+      "uid": 14907453,
+      "nodes": [3400298369, 8938479855],
+      "geometry": [
+        {"lat": 45.592612, "lon": 13.849806},
+        {"lat": 45.592551, "lon": 13.849639},
+        {"lat": 45.592535, "lon": 13.849546},
+        {"lat": 45.592609, "lon": 13.849348},
+        {"lat": 45.592637, "lon": 13.849191},
+        {"lat": 45.592624, "lon": 13.849092},
+        {"lat": 45.592562, "lon": 13.848894},
+        {"lat": 45.592553, "lon": 13.848694},
+        {"lat": 45.592683, "lon": 13.84818},
+        {"lat": 45.59271, "lon": 13.847759},
+        {"lat": 45.592713, "lon": 13.847464},
+        {"lat": 45.592775, "lon": 13.846899},
+        {"lat": 45.592769, "lon": 13.846514},
+        {"lat": 45.59273, "lon": 13.846108},
+        {"lat": 45.592725, "lon": 13.845878},
+        {"lat": 45.5927246, "lon": 13.8453488},
+        {"lat": 45.5927056, "lon": 13.8448409}
+      ],
+      "tags": {"highway": "path", "sac_scale": "hiking"}
+    },
+    {
+      "type": "way",
+      "id": 1024482631,
+      "timestamp": "2022-01-25T08:50:15Z",
+      "version": 2,
+      "changeset": 116574843,
+      "user": "Paolo Mongini",
+      "uid": 14907453,
+      "nodes": [8938479855, 4120544147],
+      "geometry": [
+        {"lat": 45.5927056, "lon": 13.8448409},
+        {"lat": 45.5927084, "lon": 13.8444878},
+        {"lat": 45.592782, "lon": 13.8439614},
+        {"lat": 45.5929459, "lon": 13.8433059}
+      ],
+      "tags": {
+        "highway": "path",
+        "incline": "down",
+        "mtb:scale:imba": "2",
+        "name": "FR Enduro",
+        "sac_scale": "hiking",
+        "surface": "dirt",
+        "width": "0.5"
       }
     },
     {
@@ -20584,11 +20680,11 @@
     {
       "type": "way",
       "id": 43663467,
-      "timestamp": "2019-11-09T14:53:46Z",
-      "version": 7,
-      "changeset": 76846098,
-      "user": "whb",
-      "uid": 202726,
+      "timestamp": "2022-01-25T15:46:29Z",
+      "version": 8,
+      "changeset": 116590842,
+      "user": "Tourismus Oberstdorf",
+      "uid": 11485658,
       "nodes": [370928196, 246770222],
       "geometry": [
         {"lat": 47.3493594, "lon": 10.3058569},
@@ -20625,10 +20721,11 @@
         {"lat": 47.3615168, "lon": 10.3041121}
       ],
       "tags": {
+        "bicycle": "no",
         "highway": "track",
-        "mtb:scale": "1",
         "surface": "compacted",
         "tracktype": "grade2",
+        "traffic_sign": "DE:239",
         "width": "1.2"
       }
     },
@@ -21256,48 +21353,13 @@
     {
       "type": "way",
       "id": 462804585,
-      "timestamp": "2021-07-21T10:09:06Z",
-      "version": 6,
-      "changeset": 108358661,
-      "user": "Cascafico",
-      "uid": 361003,
-      "nodes": [4120544135, 299983797],
+      "timestamp": "2022-01-25T08:49:26Z",
+      "version": 9,
+      "changeset": 116574813,
+      "user": "Paolo Mongini",
+      "uid": 14907453,
+      "nodes": [4120544147, 299983797],
       "geometry": [
-        {"lat": 45.594174, "lon": 13.851132},
-        {"lat": 45.594083, "lon": 13.8511},
-        {"lat": 45.5939528, "lon": 13.8511279},
-        {"lat": 45.593919, "lon": 13.85112},
-        {"lat": 45.593757, "lon": 13.851011},
-        {"lat": 45.593653, "lon": 13.850985},
-        {"lat": 45.59325, "lon": 13.851088},
-        {"lat": 45.593189, "lon": 13.851088},
-        {"lat": 45.593123, "lon": 13.851061},
-        {"lat": 45.593062, "lon": 13.850977},
-        {"lat": 45.593011, "lon": 13.850605},
-        {"lat": 45.59295, "lon": 13.850409},
-        {"lat": 45.592916, "lon": 13.850336},
-        {"lat": 45.592835, "lon": 13.850237},
-        {"lat": 45.592665, "lon": 13.850091},
-        {"lat": 45.59264, "lon": 13.850017},
-        {"lat": 45.592612, "lon": 13.849806},
-        {"lat": 45.592551, "lon": 13.849639},
-        {"lat": 45.592535, "lon": 13.849546},
-        {"lat": 45.592609, "lon": 13.849348},
-        {"lat": 45.592637, "lon": 13.849191},
-        {"lat": 45.592624, "lon": 13.849092},
-        {"lat": 45.592562, "lon": 13.848894},
-        {"lat": 45.592553, "lon": 13.848694},
-        {"lat": 45.592683, "lon": 13.84818},
-        {"lat": 45.59271, "lon": 13.847759},
-        {"lat": 45.592713, "lon": 13.847464},
-        {"lat": 45.592775, "lon": 13.846899},
-        {"lat": 45.592769, "lon": 13.846514},
-        {"lat": 45.59273, "lon": 13.846108},
-        {"lat": 45.592725, "lon": 13.845878},
-        {"lat": 45.5927246, "lon": 13.8453488},
-        {"lat": 45.5927056, "lon": 13.8448409},
-        {"lat": 45.5927084, "lon": 13.8444878},
-        {"lat": 45.592782, "lon": 13.8439614},
         {"lat": 45.5929459, "lon": 13.8433059},
         {"lat": 45.593156, "lon": 13.842731},
         {"lat": 45.593621, "lon": 13.841853},
@@ -24352,11 +24414,11 @@
     {
       "type": "way",
       "id": 527258760,
-      "timestamp": "2019-11-09T14:53:53Z",
-      "version": 3,
-      "changeset": 76846098,
-      "user": "whb",
-      "uid": 202726,
+      "timestamp": "2022-01-25T15:46:29Z",
+      "version": 4,
+      "changeset": 116590842,
+      "user": "Tourismus Oberstdorf",
+      "uid": 11485658,
       "nodes": [5445064887, 246770222],
       "geometry": [
         {"lat": 47.3643252, "lon": 10.3039902},
@@ -24371,10 +24433,9 @@
         {"lat": 47.3615168, "lon": 10.3041121}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "highway": "track",
         "hiking": "yes",
-        "mtb:scale:uphill": "1",
         "surface": "compacted",
         "tracktype": "grade2"
       }
@@ -27390,11 +27451,11 @@
     {
       "type": "way",
       "id": 743648740,
-      "timestamp": "2019-11-09T14:53:18Z",
-      "version": 1,
-      "changeset": 76846098,
-      "user": "whb",
-      "uid": 202726,
+      "timestamp": "2022-01-25T15:46:29Z",
+      "version": 2,
+      "changeset": 116590842,
+      "user": "Tourismus Oberstdorf",
+      "uid": 11485658,
       "nodes": [4460985818, 5445064887],
       "geometry": [
         {"lat": 47.3661649, "lon": 10.3040443},
@@ -27406,11 +27467,12 @@
         {"lat": 47.3643252, "lon": 10.3039902}
       ],
       "tags": {
+        "bicycle": "no",
         "highway": "path",
         "hiking": "yes",
-        "mtb:scale:uphill": "1",
         "smoothness": "very_bad",
-        "surface": "compacted"
+        "surface": "compacted",
+        "traffic_sign": "DE:239"
       }
     },
     {
