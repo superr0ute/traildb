@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-01-24T23:59:59Z",
-    "timestamp_osm_base": "2022-01-25T05:11:53Z",
+    "timestamp_osm_date": "2022-01-25T23:59:59Z",
+    "timestamp_osm_base": "2022-01-26T05:19:18Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3409,13 +3409,13 @@
     {
       "type": "node",
       "id": 26037769,
-      "lat": 49.2703555,
-      "lon": 20.7729511,
-      "timestamp": "2022-01-23T19:08:37Z",
-      "version": 8,
-      "changeset": 116511708,
-      "user": "Filip009",
-      "uid": 10553599,
+      "lat": 49.2746192,
+      "lon": 20.7805229,
+      "timestamp": "2022-01-25T17:01:54Z",
+      "version": 9,
+      "changeset": 116593450,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
         "city_id": "526967",
         "ele": "510",
@@ -3427,7 +3427,9 @@
         "postal_code": "065 45",
         "region_id": "710",
         "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
-        "wikidata": "Q1186898"
+        "website": "https://www.plavnica.sk/",
+        "wikidata": "Q1186898",
+        "wikipedia": "sk:Plavnica"
       }
     },
     {
@@ -9800,15 +9802,20 @@
     {
       "type": "node",
       "id": 2898858143,
-      "lat": 49.2743554,
-      "lon": 20.7799971,
-      "timestamp": "2021-08-07T07:43:25Z",
-      "version": 2,
-      "changeset": 109297743,
-      "user": "menganito",
-      "uid": 11199632,
+      "lat": 49.2743064,
+      "lon": 20.7800078,
+      "timestamp": "2022-01-25T11:44:12Z",
+      "version": 3,
+      "changeset": 116581724,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
-        "name": "Coop jednota",
+        "addr:city": "Plavnica",
+        "addr:postcode": "06545",
+        "brand": "COOP Jednota",
+        "brand:wikidata": "Q41629254",
+        "brand:wikipedia": "sk:COOP Jednota Slovensko",
+        "name": "COOP Jednota",
         "operator": "COOP",
         "shop": "convenience"
       }
@@ -19517,6 +19524,44 @@
         "fee": "no",
         "fireplace": "yes",
         "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1024542283,
+      "timestamp": "2022-01-25T12:43:04Z",
+      "version": 1,
+      "changeset": 116584087,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 49.2747073,
+        "lon": 20.7810486
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1024542295,
+      "timestamp": "2022-01-25T12:43:04Z",
+      "version": 1,
+      "changeset": 116584087,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 49.2787101,
+        "lon": 20.7864601
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
       }
     }
   ]
