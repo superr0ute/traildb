@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-22T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-27T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10909145,
-      "timestamp": "2022-01-21T20:18:05Z",
-      "version": 1497,
-      "changeset": 116446228,
+      "timestamp": "2022-01-27T16:44:42Z",
+      "version": 1498,
+      "changeset": 116674269,
       "user": "Wulz",
       "uid": 10773975,
       "members": [
@@ -1394,6 +1394,7 @@
         {"type": "way", "ref": 793159247, "role": ""},
         {"type": "way", "ref": 138704529, "role": ""},
         {"type": "way", "ref": 75300528, "role": ""},
+        {"type": "way", "ref": 1025270306, "role": ""},
         {"type": "way", "ref": 119298608, "role": ""},
         {"type": "way", "ref": 75284004, "role": ""},
         {"type": "way", "ref": 152607459, "role": ""},
@@ -3254,6 +3255,25 @@
         "surface": "gravel",
         "tracktype": "grade2",
         "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1025270306,
+      "timestamp": "2022-01-27T16:44:42Z",
+      "version": 1,
+      "changeset": 116674269,
+      "user": "Wulz",
+      "uid": 10773975,
+      "nodes": [991277085, 889208223],
+      "geometry": [
+        {"lat": 46.2063824, "lon": 13.5208635},
+        {"lat": 46.2064494, "lon": 13.5207847}
+      ],
+      "tags": {
+        "highway": "path",
+        "name": "Sentiero Naturalistico Monte Matajur",
+        "sac_scale": "hiking"
       }
     },
     {
@@ -6043,9 +6063,9 @@
     {
       "type": "way",
       "id": 119068728,
-      "timestamp": "2022-01-21T20:30:50Z",
-      "version": 12,
-      "changeset": 116446565,
+      "timestamp": "2022-01-27T16:53:32Z",
+      "version": 13,
+      "changeset": 116674622,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [889207873, 1338629055],
@@ -6104,7 +6124,7 @@
       "tags": {
         "highway": "path",
         "incline": "10%",
-        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn:  \n+ nrw: Sentiero Italiano SI A14\n+ rwn: A. V. Valli del Natisone, Julius-Kugy-Dreiländerweg in 30 tappe - collegamento via E 14a, 736\n+ lwn: Senti",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn:  \n+ nrw: Sentiero Italiano SI A14\n+ rwn: A. V. Valli del Natisone, Julius-Kugy-Dreiländerweg in 30 tappe - collegamento via E 14a + 15b, 736\n+ lwn:",
         "sac_scale": "mountain_hiking",
         "surface": "gravel",
         "trail_visibility": "good",
@@ -10131,9 +10151,9 @@
     {
       "type": "way",
       "id": 138704529,
-      "timestamp": "2020-05-01T02:55:20Z",
-      "version": 11,
-      "changeset": 84447535,
+      "timestamp": "2022-01-27T16:51:23Z",
+      "version": 12,
+      "changeset": 116674540,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [991277085, 889207873],
@@ -10279,7 +10299,7 @@
         "highway": "path",
         "incline": "5%",
         "name": "Sentiero Naturalistico Monte Matajur",
-        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \nSI A14 + Valli del Natisone + S. Naturalistico Mt. Mataiur + 750",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn:  \n+ nrw: Sentiero Italia A14\n+ rwn: A. V. Valli del Natisone, Julius-Kugy-Dreiländerweg in 30 tappe - collegamento via E 15b, 745\n+ lwn:",
         "sac_scale": "mountain_hiking",
         "surface": "gravel",
         "trail_visibility": "good",
@@ -61179,14 +61199,13 @@
     {
       "type": "way",
       "id": 75300528,
-      "timestamp": "2020-04-11T06:06:33Z",
-      "version": 10,
-      "changeset": 83388506,
-      "user": "gpstracks",
-      "uid": 188429,
-      "nodes": [991277085, 889207917],
+      "timestamp": "2022-01-27T16:44:42Z",
+      "version": 11,
+      "changeset": 116674269,
+      "user": "Wulz",
+      "uid": 10773975,
+      "nodes": [889208223, 889207917],
       "geometry": [
-        {"lat": 46.2063824, "lon": 13.5208635},
         {"lat": 46.2064494, "lon": 13.5207847},
         {"lat": 46.2065208, "lon": 13.5207129},
         {"lat": 46.2065808, "lon": 13.5206882}

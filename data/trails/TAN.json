@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-25T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-27T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1937,12 +1937,13 @@
     {
       "type": "relation",
       "id": 9591890,
-      "timestamp": "2021-12-12T08:03:42Z",
-      "version": 20,
-      "changeset": 114838524,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-01-27T03:15:17Z",
+      "version": 21,
+      "changeset": 116645843,
+      "user": "KingCZE",
+      "uid": 13552526,
       "members": [
+        {"type": "way", "ref": 1025055161, "role": ""},
         {"type": "relation", "ref": 9590017, "role": ""},
         {"type": "relation", "ref": 9590262, "role": ""},
         {"type": "relation", "ref": 9590477, "role": ""},
@@ -2302,9 +2303,9 @@
     {
       "type": "relation",
       "id": 9605870,
-      "timestamp": "2022-01-24T10:13:26Z",
-      "version": 35,
-      "changeset": 116533946,
+      "timestamp": "2022-01-27T03:55:02Z",
+      "version": 37,
+      "changeset": 116646489,
       "user": "KingCZE",
       "uid": 13552526,
       "members": [
@@ -2325,11 +2326,15 @@
         {"type": "way", "ref": 624534619, "role": ""},
         {"type": "way", "ref": 4279698, "role": ""},
         {"type": "way", "ref": 8138693, "role": ""},
+        {"type": "way", "ref": 1025059325, "role": ""},
         {"type": "way", "ref": 51185928, "role": ""},
         {"type": "way", "ref": 370374770, "role": ""},
         {"type": "way", "ref": 199784575, "role": ""},
         {"type": "way", "ref": 49394322, "role": ""},
+        {"type": "way", "ref": 1025055163, "role": ""},
+        {"type": "way", "ref": 1025055164, "role": ""},
         {"type": "way", "ref": 772301500, "role": ""},
+        {"type": "way", "ref": 1025055161, "role": ""},
         {"type": "way", "ref": 888048957, "role": ""},
         {"type": "way", "ref": 772301499, "role": ""},
         {"type": "way", "ref": 675621287, "role": ""},
@@ -5995,13 +6000,13 @@
         {"lat": -36.865668, "lon": 174.7706107}
       ],
       "tags": {
+        "surface": "asphalt",
         "bus:lanes:backward": "designated|yes",
         "busway": "lane",
         "highway": "secondary",
         "lanes": "4",
         "maxspeed": "50",
-        "name": "Park Road",
-        "surface": "asphalt"
+        "name": "Park Road"
       }
     },
     {
@@ -6384,9 +6389,9 @@
     {
       "type": "way",
       "id": 1024098639,
-      "timestamp": "2022-01-24T00:50:10Z",
-      "version": 1,
-      "changeset": 116519488,
+      "timestamp": "2022-01-27T05:12:33Z",
+      "version": 2,
+      "changeset": 116648003,
       "user": "StenSoft",
       "uid": 255936,
       "nodes": [1285569687, 53409867],
@@ -6406,6 +6411,7 @@
         "maxspeed": "100",
         "maxspeed:advisory": "75",
         "name": "Mangatawhiri Road",
+        "old_ref": "SH 2",
         "surface": "paved"
       }
     },
@@ -6446,6 +6452,76 @@
         "name": "Pukekawa Centennial Glade Path",
         "note": "Originally graded as a new roadway through the park, it was never built into a road.",
         "traffic_calming": "table"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1025055161,
+      "timestamp": "2022-01-27T03:15:17Z",
+      "version": 1,
+      "changeset": 116645843,
+      "user": "KingCZE",
+      "uid": 13552526,
+      "nodes": [9451582809, 7603988748],
+      "geometry": [
+        {"lat": -36.8484882, "lon": 174.7699731},
+        {"lat": -36.848448, "lon": 174.7699771}
+      ],
+      "tags": {"footway": "sidewalk", "highway": "footway"}
+    },
+    {
+      "type": "way",
+      "id": 1025055163,
+      "timestamp": "2022-01-27T03:15:17Z",
+      "version": 1,
+      "changeset": 116645843,
+      "user": "KingCZE",
+      "uid": 13552526,
+      "nodes": [9451582811, 7210067104],
+      "geometry": [
+        {"lat": -36.8482392, "lon": 174.7700469},
+        {"lat": -36.8482087, "lon": 174.7699496}
+      ],
+      "tags": {
+        "crossing": "marked",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1025055164,
+      "timestamp": "2022-01-27T03:15:17Z",
+      "version": 1,
+      "changeset": 116645843,
+      "user": "KingCZE",
+      "uid": 13552526,
+      "nodes": [9451582810, 9451582811],
+      "geometry": [
+        {"lat": -36.8482634, "lon": 174.7700584},
+        {"lat": -36.8482449, "lon": 174.770067},
+        {"lat": -36.8482392, "lon": 174.7700469}
+      ],
+      "tags": {"footway": "sidewalk", "highway": "footway"}
+    },
+    {
+      "type": "way",
+      "id": 1025059325,
+      "timestamp": "2022-01-27T03:55:02Z",
+      "version": 1,
+      "changeset": 116646489,
+      "user": "KingCZE",
+      "uid": 13552526,
+      "nodes": [9451659587, 6993819979],
+      "geometry": [
+        {"lat": -36.8465418, "lon": 174.770755},
+        {"lat": -36.8465308, "lon": 174.7707688}
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "footway",
+        "name": "Te Rerenga-ora-iti",
+        "surface": "asphalt"
       }
     },
     {
@@ -7924,13 +8000,13 @@
         {"lat": -36.8551588, "lon": 174.771204}
       ],
       "tags": {
+        "turn:lanes": "right|right",
         "highway": "secondary",
         "lanes": "2",
         "maxspeed": "50",
         "name": "Grafton Road",
         "oneway": "yes",
-        "surface": "asphalt",
-        "turn:lanes": "right|right"
+        "surface": "asphalt"
       }
     },
     {
@@ -7947,12 +8023,12 @@
         {"lat": -36.854185, "lon": 174.7708716}
       ],
       "tags": {
+        "surface": "asphalt",
         "highway": "secondary",
         "lanes": "2",
         "maxspeed": "50",
         "name": "Grafton Road",
-        "oneway": "yes",
-        "surface": "asphalt"
+        "oneway": "yes"
       }
     },
     {
@@ -7985,6 +8061,7 @@
         {"lat": -36.8546792, "lon": 174.770932}
       ],
       "tags": {
+        "surface": "asphalt",
         "bridge": "yes",
         "highway": "secondary",
         "lanes": "2",
@@ -7992,8 +8069,7 @@
         "maxspeed": "50",
         "name": "Grafton Road",
         "note": "please read wiki article on Tag:man_made=bridge regarding rules with \"double bridging\"",
-        "oneway": "yes",
-        "surface": "asphalt"
+        "oneway": "yes"
       }
     },
     {
@@ -8011,13 +8087,13 @@
         {"lat": -36.8548756, "lon": 174.7709802}
       ],
       "tags": {
+        "turn:lanes": "left;right|right",
         "highway": "secondary",
         "lanes": "2",
         "maxspeed": "50",
         "name": "Grafton Road",
         "oneway": "yes",
-        "surface": "asphalt",
-        "turn:lanes": "left;right|right"
+        "surface": "asphalt"
       }
     },
     {
@@ -8060,13 +8136,13 @@
         {"lat": -36.8655131, "lon": 174.7706742}
       ],
       "tags": {
+        "surface": "asphalt",
         "bus:lanes:backward": "designated|yes",
         "busway": "lane",
         "highway": "secondary",
         "lanes": "4",
         "maxspeed": "50",
-        "name": "Park Road",
-        "surface": "asphalt"
+        "name": "Park Road"
       }
     },
     {
@@ -8085,6 +8161,7 @@
         {"lat": -36.8653735, "lon": 174.7707198}
       ],
       "tags": {
+        "surface": "asphalt",
         "bridge": "yes",
         "bus:lanes:backward": "designated|yes",
         "bus:lanes:forward": "designated|yes",
@@ -8094,8 +8171,7 @@
         "layer": "1",
         "maxspeed": "50",
         "name": "Park Road",
-        "source:maxspeed": "NZ:urban",
-        "surface": "asphalt"
+        "source:maxspeed": "NZ:urban"
       }
     },
     {
@@ -8228,11 +8304,11 @@
     {
       "type": "way",
       "id": 128944706,
-      "timestamp": "2020-08-21T08:10:15Z",
-      "version": 8,
-      "changeset": 89731492,
-      "user": "CoyKoi",
-      "uid": 3757297,
+      "timestamp": "2022-01-27T03:15:17Z",
+      "version": 9,
+      "changeset": 116645843,
+      "user": "KingCZE",
+      "uid": 13552526,
       "nodes": [355413515, 5891495463],
       "geometry": [
         {"lat": -36.8522627, "lon": 174.7705795},
@@ -8241,14 +8317,14 @@
         {"lat": -36.8528321, "lon": 174.7706341}
       ],
       "tags": {
+        "surface": "asphalt",
         "highway": "secondary",
         "lanes": "3",
         "lanes:backward": "2",
         "lanes:forward": "1",
         "maxspeed": "30",
         "name": "Grafton Road",
-        "source:maxspeed": "Speed Limits Bylaw 2020",
-        "surface": "asphalt"
+        "source:maxspeed": "Speed Limits Bylaw 2020"
       }
     },
     {
@@ -22911,7 +22987,7 @@
       "nodes": [25769978, 3740811219],
       "geometry": [
         {"lat": -36.8471148, "lon": 174.7704333},
-        {"lat": -36.8470581, "lon": 174.7704569}
+        {"lat": -36.8470472, "lon": 174.77046}
       ],
       "tags": {
         "foot": "yes",
@@ -24370,9 +24446,9 @@
     {
       "type": "way",
       "id": 214724589,
-      "timestamp": "2022-01-24T00:50:10Z",
-      "version": 4,
-      "changeset": 116519488,
+      "timestamp": "2022-01-27T05:12:33Z",
+      "version": 5,
+      "changeset": 116648003,
       "user": "StenSoft",
       "uid": 255936,
       "nodes": [1285569711, 2108090077],
@@ -24384,6 +24460,7 @@
         "highway": "tertiary",
         "maxspeed": "100",
         "name": "Mangatawhiri Road",
+        "old_ref": "SH 2",
         "oneway": "yes",
         "surface": "paved"
       }
@@ -39288,14 +39365,14 @@
         {"lat": -36.8652786, "lon": 174.7707483}
       ],
       "tags": {
+        "name": "Park Road",
+        "maxspeed": "50",
+        "surface": "paved",
         "bus:lanes:backward": "designated|yes",
         "bus:lanes:forward": "designated|yes",
         "busway": "lane",
         "highway": "secondary",
-        "lanes": "4",
-        "maxspeed": "50",
-        "name": "Park Road",
-        "surface": "paved"
+        "lanes": "4"
       }
     },
     {
@@ -45759,16 +45836,16 @@
     {
       "type": "way",
       "id": 34324413,
-      "timestamp": "2020-08-21T08:10:15Z",
-      "version": 17,
-      "changeset": 89731492,
-      "user": "CoyKoi",
-      "uid": 3757297,
+      "timestamp": "2022-01-27T03:15:17Z",
+      "version": 18,
+      "changeset": 116645843,
+      "user": "KingCZE",
+      "uid": 13552526,
       "nodes": [25769966, 355413515],
       "geometry": [
         {"lat": -36.8519293, "lon": 174.7703133},
         {"lat": -36.8519955, "lon": 174.770393},
-        {"lat": -36.8520113, "lon": 174.7704149},
+        {"lat": -36.8520119, "lon": 174.7704158},
         {"lat": -36.852031, "lon": 174.7704424},
         {"lat": -36.8520667, "lon": 174.7704886},
         {"lat": -36.8520857, "lon": 174.7705098},
@@ -45779,6 +45856,7 @@
         {"lat": -36.8522627, "lon": 174.7705795}
       ],
       "tags": {
+        "turn:lanes:forward": "none",
         "highway": "secondary",
         "lanes": "3",
         "lanes:backward": "2",
@@ -45787,8 +45865,7 @@
         "name": "Grafton Road",
         "source:maxspeed": "Speed Limits Bylaw 2020",
         "surface": "asphalt",
-        "turn:lanes:backward": "left|right",
-        "turn:lanes:forward": "none"
+        "turn:lanes:backward": "left|right"
       }
     },
     {
@@ -46411,7 +46488,7 @@
       "uid": 567640,
       "nodes": [3740811219, 653003982],
       "geometry": [
-        {"lat": -36.8470581, "lon": 174.7704569},
+        {"lat": -36.8470472, "lon": 174.77046},
         {"lat": -36.8469684, "lon": 174.7704922},
         {"lat": -36.8468605, "lon": 174.7705463}
       ],
@@ -54127,9 +54204,9 @@
     {
       "type": "way",
       "id": 399139476,
-      "timestamp": "2022-01-24T00:50:10Z",
-      "version": 4,
-      "changeset": 116519488,
+      "timestamp": "2022-01-27T05:12:33Z",
+      "version": 5,
+      "changeset": 116648003,
       "user": "StenSoft",
       "uid": 255936,
       "nodes": [2108090077, 1285569687],
@@ -54144,6 +54221,7 @@
         "highway": "tertiary",
         "maxspeed": "100",
         "name": "Mangatawhiri Road",
+        "old_ref": "SH 2",
         "surface": "paved"
       }
     },
@@ -66678,19 +66756,20 @@
     {
       "type": "way",
       "id": 51185928,
-      "timestamp": "2021-08-28T10:22:26Z",
-      "version": 11,
-      "changeset": 110374470,
-      "user": "kylenz",
-      "uid": 10140394,
-      "nodes": [653003982, 6993819979],
+      "timestamp": "2022-01-27T03:55:02Z",
+      "version": 12,
+      "changeset": 116646489,
+      "user": "KingCZE",
+      "uid": 13552526,
+      "nodes": [653003982, 9451659587],
       "geometry": [
         {"lat": -36.8468605, "lon": 174.7705463},
         {"lat": -36.8468087, "lon": 174.7705822},
         {"lat": -36.8466015, "lon": 174.7706864},
         {"lat": -36.8465928, "lon": 174.7706908},
+        {"lat": -36.8465809, "lon": 174.7707057},
         {"lat": -36.8465527, "lon": 174.7707412},
-        {"lat": -36.8465308, "lon": 174.7707688}
+        {"lat": -36.8465418, "lon": 174.770755}
       ],
       "tags": {
         "foot": "yes",
@@ -69569,11 +69648,11 @@
         {"lat": -36.8683413, "lon": 174.7698029}
       ],
       "tags": {
+        "surface": "paved",
         "highway": "secondary",
         "lanes": "2",
         "maxspeed": "50",
-        "name": "Mountain Road",
-        "surface": "paved"
+        "name": "Mountain Road"
       }
     },
     {
@@ -71110,14 +71189,14 @@
         {"lat": -36.8665947, "lon": 174.7703411}
       ],
       "tags": {
+        "turn:lanes:backward": "left;through|through;right",
         "highway": "secondary",
         "lanes": "3",
         "lanes:backward": "2",
         "lanes:forward": "1",
         "maxspeed": "50",
         "name": "Mountain Road",
-        "surface": "asphalt",
-        "turn:lanes:backward": "left;through|through;right"
+        "surface": "asphalt"
       }
     },
     {
@@ -71135,6 +71214,7 @@
         {"lat": -36.8654941, "lon": 174.7706803}
       ],
       "tags": {
+        "surface": "asphalt",
         "bridge": "yes",
         "bus:lanes:backward": "designated|yes",
         "busway": "lane",
@@ -71144,8 +71224,7 @@
         "lanes:forward": "1",
         "layer": "1",
         "maxspeed": "50",
-        "name": "Park Road",
-        "surface": "asphalt"
+        "name": "Park Road"
       }
     },
     {
@@ -71164,6 +71243,7 @@
         {"lat": -36.8660185, "lon": 174.7704987}
       ],
       "tags": {
+        "turn:lanes:forward": "left;through|through|right",
         "busway": "lane",
         "highway": "secondary",
         "lanes": "5",
@@ -71172,8 +71252,7 @@
         "maxspeed": "50",
         "name": "Park Road",
         "surface": "asphalt",
-        "turn:lanes:backward": "none|none",
-        "turn:lanes:forward": "left;through|through|right"
+        "turn:lanes:backward": "none|none"
       }
     },
     {
@@ -71192,6 +71271,7 @@
         {"lat": -36.8664113, "lon": 174.7703947}
       ],
       "tags": {
+        "turn:lanes:forward": "none|none",
         "highway": "secondary",
         "lanes": "5",
         "lanes:backward": "3",
@@ -71199,8 +71279,7 @@
         "maxspeed": "50",
         "name": "Mountain Road",
         "surface": "asphalt",
-        "turn:lanes:backward": "left;through|through|right",
-        "turn:lanes:forward": "none|none"
+        "turn:lanes:backward": "left;through|through|right"
       }
     },
     {
@@ -73111,6 +73190,7 @@
         {"lat": -36.8551889, "lon": 174.7712853}
       ],
       "tags": {
+        "turn:lanes": "right|right",
         "highway": "secondary",
         "lanes": "2",
         "lit": "yes",
@@ -73118,8 +73198,7 @@
         "name": "Grafton Road",
         "oneway": "yes",
         "source:maxspeed": "NZ:urban",
-        "surface": "asphalt",
-        "turn:lanes": "right|right"
+        "surface": "asphalt"
       }
     },
     {
@@ -73319,14 +73398,14 @@
         {"lat": -36.8529576, "lon": 174.7706478}
       ],
       "tags": {
+        "surface": "asphalt",
         "highway": "secondary",
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "2",
         "maxspeed": "30",
         "name": "Grafton Road",
-        "source:maxspeed": "Speed Limits Bylaw 2020",
-        "surface": "asphalt"
+        "source:maxspeed": "Speed Limits Bylaw 2020"
       }
     },
     {
@@ -73344,6 +73423,7 @@
         {"lat": -36.8536678, "lon": 174.7707173}
       ],
       "tags": {
+        "turn:lanes:forward": "left;through|through",
         "highway": "secondary",
         "lanes": "3",
         "lanes:backward": "1",
@@ -73352,8 +73432,7 @@
         "name": "Grafton Road",
         "source:maxspeed": "Speed Limits Bylaw 2020",
         "surface": "asphalt",
-        "turn:lanes:backward": "none",
-        "turn:lanes:forward": "left;through|through"
+        "turn:lanes:backward": "none"
       }
     },
     {
@@ -74859,6 +74938,7 @@
         {"lat": -36.8539428, "lon": 174.7707648}
       ],
       "tags": {
+        "turn:lanes:forward": "left;through|through|right",
         "highway": "secondary",
         "lanes": "4",
         "lanes:backward": "1",
@@ -74867,8 +74947,7 @@
         "name": "Grafton Road",
         "source:maxspeed": "Speed Limits Bylaw 2020",
         "surface": "asphalt",
-        "turn:lanes:backward": "none",
-        "turn:lanes:forward": "left;through|through|right"
+        "turn:lanes:backward": "none"
       }
     },
     {
@@ -75685,6 +75764,7 @@
         {"lat": -36.8652904, "lon": 174.7707457}
       ],
       "tags": {
+        "surface": "asphalt",
         "bus:lanes:backward": "designated|yes",
         "bus:lanes:forward": "designated|yes",
         "busway": "lane",
@@ -75692,8 +75772,7 @@
         "lanes": "4",
         "maxspeed": "50",
         "name": "Park Road",
-        "source:maxspeed": "NZ:urban",
-        "surface": "asphalt"
+        "source:maxspeed": "NZ:urban"
       }
     },
     {
@@ -89483,17 +89562,16 @@
     {
       "type": "way",
       "id": 772301500,
-      "timestamp": "2021-01-10T10:19:18Z",
-      "version": 5,
-      "changeset": 97241298,
-      "user": "myfanwy",
-      "uid": 10829,
-      "nodes": [7603988748, 7210067104],
+      "timestamp": "2022-01-27T03:15:17Z",
+      "version": 6,
+      "changeset": 116645843,
+      "user": "KingCZE",
+      "uid": 13552526,
+      "nodes": [7603988748, 9451582810],
       "geometry": [
-        {"lat": -36.8484591, "lon": 174.7699781},
-        {"lat": -36.8483769, "lon": 174.7700122},
-        {"lat": -36.8482449, "lon": 174.770067},
-        {"lat": -36.8482087, "lon": 174.7699496}
+        {"lat": -36.848448, "lon": 174.7699771},
+        {"lat": -36.8483784, "lon": 174.7700058},
+        {"lat": -36.8482634, "lon": 174.7700584}
       ],
       "tags": {
         "crossing": "marked",
@@ -89516,14 +89594,14 @@
         {"lat": -36.8532273, "lon": 174.7706658}
       ],
       "tags": {
+        "surface": "asphalt",
         "highway": "secondary",
         "lanes": "3",
         "lanes:backward": "1",
         "lanes:forward": "2",
         "maxspeed": "30",
         "name": "Grafton Road",
-        "source:maxspeed": "Speed Limits Bylaw 2020",
-        "surface": "asphalt"
+        "source:maxspeed": "Speed Limits Bylaw 2020"
       }
     },
     {
@@ -93208,6 +93286,7 @@
         {"lat": -36.8643647, "lon": 174.7710273}
       ],
       "tags": {
+        "turn:lanes:backward": "left;through|through;right",
         "busway": "lane",
         "highway": "secondary",
         "lanes": "3",
@@ -93215,8 +93294,7 @@
         "lanes:forward": "1",
         "maxspeed": "50",
         "name": "Park Road",
-        "surface": "paved",
-        "turn:lanes:backward": "left;through|through;right"
+        "surface": "paved"
       }
     },
     {
@@ -97690,14 +97768,14 @@
     {
       "type": "way",
       "id": 888048957,
-      "timestamp": "2021-01-10T10:19:18Z",
-      "version": 2,
-      "changeset": 97241298,
-      "user": "myfanwy",
-      "uid": 10829,
-      "nodes": [7603988748, 8256521949],
+      "timestamp": "2022-01-27T03:15:17Z",
+      "version": 3,
+      "changeset": 116645843,
+      "user": "KingCZE",
+      "uid": 13552526,
+      "nodes": [9451582809, 8256521949],
       "geometry": [
-        {"lat": -36.8484591, "lon": 174.7699781},
+        {"lat": -36.8484882, "lon": 174.7699731},
         {"lat": -36.8485094, "lon": 174.7700344},
         {"lat": -36.8485159, "lon": 174.7700464},
         {"lat": -36.8485196, "lon": 174.7700507}
