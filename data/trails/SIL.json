@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-27T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-28T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1803,11 +1803,11 @@
     {
       "type": "relation",
       "id": 7700146,
-      "timestamp": "2021-11-28T15:56:15Z",
-      "version": 17,
-      "changeset": 114329252,
-      "user": "LorenzoBassi_SICAI_Team",
-      "uid": 3286661,
+      "timestamp": "2022-01-28T16:21:52Z",
+      "version": 18,
+      "changeset": 116714283,
+      "user": "Dirk Lamm",
+      "uid": 3197768,
       "members": [
         {"type": "way", "ref": 28029367, "role": ""},
         {"type": "way", "ref": 375809065, "role": ""},
@@ -1869,7 +1869,6 @@
         {"type": "way", "ref": 223381026, "role": ""},
         {"type": "way", "ref": 773888626, "role": ""},
         {"type": "way", "ref": 119666475, "role": ""},
-        {"type": "way", "ref": 215083895, "role": ""},
         {"type": "way", "ref": 773004657, "role": ""},
         {"type": "way", "ref": 773004655, "role": ""},
         {"type": "way", "ref": 325333018, "role": ""},
@@ -7998,21 +7997,34 @@
     {
       "type": "way",
       "id": 119666475,
-      "timestamp": "2020-02-18T22:56:02Z",
-      "version": 10,
-      "changeset": 81191440,
-      "user": "kaitu",
-      "uid": 69717,
-      "nodes": [2245023812, 3304796192],
+      "timestamp": "2022-01-28T16:21:52Z",
+      "version": 11,
+      "changeset": 116714283,
+      "user": "Dirk Lamm",
+      "uid": 3197768,
+      "nodes": [3304796192, 2245023815],
       "geometry": [
-        {"lat": 46.0598828, "lon": 9.2471195},
-        {"lat": 46.0598024, "lon": 9.2469657},
+        {"lat": 46.059689, "lon": 9.2469601},
         {"lat": 46.0597588, "lon": 9.2469583},
-        {"lat": 46.059689, "lon": 9.2469601}
+        {"lat": 46.0598024, "lon": 9.2469657},
+        {"lat": 46.0598828, "lon": 9.2471195},
+        {"lat": 46.0599241, "lon": 9.2471634},
+        {"lat": 46.059935, "lon": 9.247175},
+        {"lat": 46.0600446, "lon": 9.2471125},
+        {"lat": 46.0600749, "lon": 9.2470687},
+        {"lat": 46.0601079, "lon": 9.2470209},
+        {"lat": 46.0601452, "lon": 9.2470094},
+        {"lat": 46.0601825, "lon": 9.2470064},
+        {"lat": 46.0602422, "lon": 9.2472486},
+        {"lat": 46.0602887, "lon": 9.2472891},
+        {"lat": 46.060443, "lon": 9.2474978}
       ],
       "tags": {
         "highway": "footway",
+        "historic": "mule_path",
+        "mtb:scale": "3",
         "name": "Via alla Mason dei Monti",
+        "sac_scale": "mountain_hiking",
         "surface": "cobblestone",
         "symbol": "red-white-red vertical bars with black number \"3\"",
         "trail_visibility": "excellent",
@@ -24564,37 +24576,6 @@
         {"lat": 46.0236856, "lon": 8.7926032}
       ],
       "tags": {"highway": "unclassified"}
-    },
-    {
-      "type": "way",
-      "id": 215083895,
-      "timestamp": "2018-09-13T20:24:16Z",
-      "version": 9,
-      "changeset": 62564726,
-      "user": "dikkeknodel",
-      "uid": 3485107,
-      "nodes": [2245023812, 2245023815],
-      "geometry": [
-        {"lat": 46.0598828, "lon": 9.2471195},
-        {"lat": 46.0599241, "lon": 9.2471634},
-        {"lat": 46.059935, "lon": 9.247175},
-        {"lat": 46.0600446, "lon": 9.2471125},
-        {"lat": 46.0600749, "lon": 9.2470687},
-        {"lat": 46.0601079, "lon": 9.2470209},
-        {"lat": 46.0601452, "lon": 9.2470094},
-        {"lat": 46.0601825, "lon": 9.2470064},
-        {"lat": 46.0602422, "lon": 9.2472486},
-        {"lat": 46.0602887, "lon": 9.2472891},
-        {"lat": 46.060443, "lon": 9.2474978}
-      ],
-      "tags": {
-        "highway": "footway",
-        "historic": "mule_path",
-        "mtb:scale": "3",
-        "sac_scale": "mountain_hiking",
-        "surface": "cobblestone",
-        "trail_visibility": "excellent"
-      }
     },
     {
       "type": "way",
