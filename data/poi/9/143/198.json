@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-01-27T23:59:59Z",
-    "timestamp_osm_base": "2022-01-28T03:32:10Z",
+    "timestamp_osm_date": "2022-01-28T23:59:59Z",
+    "timestamp_osm_base": "2022-01-29T03:29:47Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4858,37 +4858,6 @@
     },
     {
       "type": "node",
-      "id": 5929030678,
-      "lat": 37.4283728,
-      "lon": -79.153998,
-      "timestamp": "2022-01-16T22:45:02Z",
-      "version": 5,
-      "changeset": 116231312,
-      "user": "RunTrails",
-      "uid": 5215025,
-      "tags": {
-        "addr:city": "Lynchburg",
-        "addr:housenumber": "1221",
-        "addr:postcode": "24504",
-        "addr:state": "VA",
-        "addr:street": "Rivermont Avenue",
-        "amenity": "fuel",
-        "amenity_1": "compressed_air",
-        "brand": "Exxon",
-        "brand:wikidata": "Q109675651",
-        "brand:wikipedia": "en:Exxon",
-        "fuel:gasoline": "yes",
-        "fuel:kerosene": "yes",
-        "name": "Food Zone",
-        "opening_hours": "Mo-Su 07:00-21:00",
-        "phone": "+1 (434) 846-2300",
-        "self_service": "yes",
-        "shop": "convenience",
-        "website": "https://www.exxon.com/en/find-station/lynchburg-va-foodzone-200312142"
-      }
-    },
-    {
-      "type": "node",
       "id": 6283786501,
       "lat": 37.3500638,
       "lon": -79.2308155,
@@ -5405,11 +5374,11 @@
       "id": 8489610153,
       "lat": 37.3511401,
       "lon": -79.2275326,
-      "timestamp": "2021-09-02T00:22:42Z",
-      "version": 2,
-      "changeset": 110588496,
-      "user": "partytax",
-      "uid": 3896616,
+      "timestamp": "2022-01-28T17:08:36Z",
+      "version": 3,
+      "changeset": 116713975,
+      "user": "teslahitchhiker42",
+      "uid": 10899584,
       "tags": {
         "addr:housenumber": "7900",
         "addr:street": "Timberlake Road",
@@ -5417,6 +5386,7 @@
         "brand:wikidata": "Q7492551",
         "brand:wikipedia": "en:Sheetz",
         "name": "Sheetz",
+        "opening_hours": "24/7",
         "shop": "convenience"
       }
     },
@@ -6180,11 +6150,11 @@
     {
       "type": "way",
       "id": 469563546,
-      "timestamp": "2020-12-31T00:44:35Z",
-      "version": 6,
-      "changeset": 96696304,
-      "user": "RunTrails",
-      "uid": 5215025,
+      "timestamp": "2022-01-28T16:14:33Z",
+      "version": 7,
+      "changeset": 116713809,
+      "user": "blendergeek",
+      "uid": 1452987,
       "center": {
         "lat": 37.3539804,
         "lon": -79.2271197
@@ -6194,7 +6164,7 @@
         "brand": "Kroger",
         "brand:wikidata": "Q153417",
         "brand:wikipedia": "en:Kroger",
-        "building": "yes",
+        "building": "retail",
         "changing_table": "yes",
         "internet_access": "wlan",
         "internet_access:fee": "no",
@@ -6483,6 +6453,30 @@
       "tags": {
         "amenity": "shelter",
         "shelter_type": "gazebo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 546182592,
+      "timestamp": "2022-01-28T16:31:32Z",
+      "version": 7,
+      "changeset": 116713836,
+      "user": "blendergeek",
+      "uid": 1452987,
+      "center": {
+        "lat": 37.3538618,
+        "lon": -79.2249996
+      },
+      "nodes": [],
+      "tags": {
+        "addr:housenumber": "7719",
+        "addr:street": "Timberlake Road",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Stop In Food Stores",
+        "opening_hours": "Mo-Sa 06:00-23:00; Su 07:00-23:00",
+        "roof:levels": "0",
+        "shop": "convenience"
       }
     },
     {
@@ -7329,6 +7323,40 @@
         "amenity": "shelter",
         "building": "yes",
         "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1025602524,
+      "timestamp": "2022-01-28T18:17:37Z",
+      "version": 1,
+      "changeset": 116718347,
+      "user": "OptikalCrow",
+      "uid": 8291281,
+      "center": {
+        "lat": 37.4283652,
+        "lon": -79.1541292
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Lynchburg",
+        "addr:housenumber": "1221",
+        "addr:postcode": "24504",
+        "addr:state": "VA",
+        "addr:street": "Rivermont Avenue",
+        "amenity": "fuel",
+        "brand": "Exxon",
+        "brand:wikidata": "Q109675651",
+        "brand:wikipedia": "en:Exxon",
+        "building": "yes",
+        "fuel:gasoline": "yes",
+        "fuel:kerosene": "yes",
+        "name": "Food Zone",
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "phone": "+1 (434) 846-2300",
+        "self_service": "yes",
+        "shop": "convenience",
+        "website": "https://www.exxon.com/en/find-station/lynchburg-va-foodzone-200312142"
       }
     }
   ]
