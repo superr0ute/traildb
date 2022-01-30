@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-24T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-29T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -67,9 +67,9 @@
     {
       "type": "relation",
       "id": 11225404,
-      "timestamp": "2021-10-29T21:55:55Z",
-      "version": 9,
-      "changeset": 113142822,
+      "timestamp": "2022-01-29T18:55:58Z",
+      "version": 10,
+      "changeset": 116756321,
       "user": "Mark Clayton",
       "uid": 12191449,
       "members": [
@@ -93,6 +93,7 @@
         {"type": "way", "ref": 5721279, "role": ""},
         {"type": "way", "ref": 5726710, "role": ""},
         {"type": "way", "ref": 818255256, "role": ""},
+        {"type": "way", "ref": 1025919029, "role": ""},
         {"type": "way", "ref": 898590553, "role": ""},
         {"type": "way", "ref": 898590552, "role": ""},
         {"type": "way", "ref": 5722381, "role": ""},
@@ -1839,6 +1840,33 @@
         "sac_scale": "hiking",
         "source": "GPS",
         "surface": "ground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1025919029,
+      "timestamp": "2022-01-29T18:55:58Z",
+      "version": 1,
+      "changeset": 116756321,
+      "user": "Mark Clayton",
+      "uid": 12191449,
+      "nodes": [41124799, 9458775170],
+      "geometry": [
+        {"lat": 48.750015, "lon": -114.28944},
+        {"lat": 48.750278, "lon": -114.28923},
+        {"lat": 48.750608, "lon": -114.288916},
+        {"lat": 48.750656, "lon": -114.2888782}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "name": "Outside North Fork Road",
+        "surface": "paved",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Flathead, MT",
+        "tiger:name_base": "Fork",
+        "tiger:name_direction_prefix": "N",
+        "tiger:name_type": "Rd",
+        "tiger:reviewed": "no"
       }
     },
     {
@@ -33353,9 +33381,9 @@
     {
       "type": "way",
       "id": 36745084,
-      "timestamp": "2022-01-24T00:16:12Z",
-      "version": 11,
-      "changeset": 116519076,
+      "timestamp": "2022-01-29T18:45:02Z",
+      "version": 12,
+      "changeset": 116756027,
       "user": "Greg_Rose",
       "uid": 4622040,
       "nodes": [427099846, 427127173],
@@ -34039,11 +34067,11 @@
         {"lat": 47.9080488, "lon": -123.7457632},
         {"lat": 47.908079, "lon": -123.7454384},
         {"lat": 47.9081466, "lon": -123.745003},
-        {"lat": 47.908101, "lon": -123.744485},
-        {"lat": 47.9080916, "lon": -123.7442767},
-        {"lat": 47.9080963, "lon": -123.7440621},
-        {"lat": 47.908088, "lon": -123.7438722},
-        {"lat": 47.9080587, "lon": -123.7436306},
+        {"lat": 47.9081638, "lon": -123.7448512},
+        {"lat": 47.9081201, "lon": -123.7443271},
+        {"lat": 47.9081477, "lon": -123.7441131},
+        {"lat": 47.9081679, "lon": -123.743855},
+        {"lat": 47.9081101, "lon": -123.7435789},
         {"lat": 47.9080243, "lon": -123.7433208},
         {"lat": 47.9079878, "lon": -123.7429482},
         {"lat": 47.9080132, "lon": -123.7426518},
@@ -34058,16 +34086,15 @@
         {"lat": 47.9080878, "lon": -123.7410725},
         {"lat": 47.9081205, "lon": -123.740932},
         {"lat": 47.9081505, "lon": -123.7407421},
-        {"lat": 47.908155, "lon": -123.740516},
+        {"lat": 47.9082064, "lon": -123.7405926},
         {"lat": 47.9081602, "lon": -123.7403982},
         {"lat": 47.9081729, "lon": -123.7402388},
-        {"lat": 47.9081725, "lon": -123.7400777},
-        {"lat": 47.9081606, "lon": -123.7399951},
+        {"lat": 47.9082125, "lon": -123.7401025},
         {"lat": 47.9081623, "lon": -123.7399085},
         {"lat": 47.9081244, "lon": -123.739787},
         {"lat": 47.9080888, "lon": -123.7396841},
         {"lat": 47.9080775, "lon": -123.7395663},
-        {"lat": 47.9080605, "lon": -123.7394169},
+        {"lat": 47.9081233, "lon": -123.739416},
         {"lat": 47.9080495, "lon": -123.7392586},
         {"lat": 47.9080028, "lon": -123.7390907},
         {"lat": 47.9079632, "lon": -123.738903},
@@ -44869,12 +44896,12 @@
     {
       "type": "way",
       "id": 5726710,
-      "timestamp": "2010-10-22T01:51:22Z",
-      "version": 2,
-      "changeset": 6132571,
-      "user": "Gone",
-      "uid": 120468,
-      "nodes": [43135768, 41125086],
+      "timestamp": "2022-01-29T18:55:58Z",
+      "version": 3,
+      "changeset": 116756321,
+      "user": "Mark Clayton",
+      "uid": 12191449,
+      "nodes": [43135768, 9458775175],
       "geometry": [
         {"lat": 48.765604, "lon": -114.285114},
         {"lat": 48.765515, "lon": -114.285181},
@@ -44890,7 +44917,11 @@
         {"lat": 48.764925, "lon": -114.286384},
         {"lat": 48.764948, "lon": -114.287776},
         {"lat": 48.76498, "lon": -114.291205},
-        {"lat": 48.76499, "lon": -114.292315}
+        {"lat": 48.764985, "lon": -114.2918716},
+        {"lat": 48.7649982, "lon": -114.2920765},
+        {"lat": 48.7650226, "lon": -114.2922352},
+        {"lat": 48.7650541, "lon": -114.292323},
+        {"lat": 48.7650823, "lon": -114.2923787}
       ],
       "tags": {
         "highway": "residential",
@@ -44900,11 +44931,7 @@
         "tiger:county": "Flathead, MT",
         "tiger:name_base": "Polebridge",
         "tiger:name_type": "Loop",
-        "tiger:reviewed": "no",
-        "tiger:separated": "no",
-        "tiger:source": "tiger_import_dch_v0.6_20070813",
-        "tiger:tlid": "204066328",
-        "tiger:upload_uuid": "bulk_upload.pl-59c1f515-5748-4975-b432-7202bb88cd29"
+        "tiger:reviewed": "no"
       }
     },
     {
@@ -60984,16 +61011,14 @@
     {
       "type": "way",
       "id": 818255256,
-      "timestamp": "2021-01-22T20:31:08Z",
-      "version": 2,
-      "changeset": 97995566,
+      "timestamp": "2022-01-29T18:55:58Z",
+      "version": 3,
+      "changeset": 116756321,
       "user": "Mark Clayton",
       "uid": 12191449,
-      "nodes": [41124799, 41125086],
+      "nodes": [9458775170, 41125086],
       "geometry": [
-        {"lat": 48.750015, "lon": -114.28944},
-        {"lat": 48.750278, "lon": -114.28923},
-        {"lat": 48.750608, "lon": -114.288916},
+        {"lat": 48.750656, "lon": -114.2888782},
         {"lat": 48.750949, "lon": -114.288648},
         {"lat": 48.751301, "lon": -114.288553},
         {"lat": 48.751485, "lon": -114.288561},
@@ -61023,12 +61048,13 @@
         {"lat": 48.763664, "lon": -114.291607},
         {"lat": 48.763873, "lon": -114.291651},
         {"lat": 48.764078, "lon": -114.291736},
+        {"lat": 48.7646797, "lon": -114.292118},
         {"lat": 48.76499, "lon": -114.292315}
       ],
       "tags": {
         "highway": "unclassified",
         "name": "Outside North Fork Road",
-        "surface": "paved",
+        "surface": "unpaved",
         "tiger:cfcc": "A41",
         "tiger:county": "Flathead, MT",
         "tiger:name_base": "Fork",
@@ -70627,9 +70653,9 @@
     {
       "type": "way",
       "id": 898590552,
-      "timestamp": "2021-01-22T20:31:08Z",
-      "version": 1,
-      "changeset": 97995566,
+      "timestamp": "2022-01-29T18:55:58Z",
+      "version": 2,
+      "changeset": 116756321,
       "user": "Mark Clayton",
       "uid": 12191449,
       "nodes": [41124740, 41124791],
@@ -70644,7 +70670,7 @@
         {"lat": 48.749896, "lon": -114.289498}
       ],
       "tags": {
-        "highway": "unclassified",
+        "highway": "tertiary",
         "name": "North Fork Road",
         "surface": "paved",
         "tiger:cfcc": "A41",
@@ -70658,9 +70684,9 @@
     {
       "type": "way",
       "id": 898590553,
-      "timestamp": "2021-01-22T20:31:08Z",
-      "version": 1,
-      "changeset": 97995566,
+      "timestamp": "2022-01-29T18:55:58Z",
+      "version": 2,
+      "changeset": 116756321,
       "user": "Mark Clayton",
       "uid": 12191449,
       "nodes": [41124791, 41124799],
@@ -70670,7 +70696,7 @@
       ],
       "tags": {
         "bridge": "yes",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "layer": "1",
         "name": "North Fork Road",
         "surface": "paved",

@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-28T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-01-29T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -17471,11 +17471,11 @@
     {
       "type": "way",
       "id": 17262224,
-      "timestamp": "2020-03-09T01:19:18Z",
-      "version": 8,
-      "changeset": 81936930,
-      "user": "leemillerau",
-      "uid": 10874039,
+      "timestamp": "2022-01-29T00:22:09Z",
+      "version": 9,
+      "changeset": 116727733,
+      "user": "Jonathan Harker",
+      "uid": 24606,
       "nodes": [6956765272, 178873872],
       "geometry": [
         {"lat": -41.1078759, "lon": 174.8650693},
@@ -17484,28 +17484,34 @@
         {"lat": -41.1068036, "lon": 174.8655476}
       ],
       "tags": {
-        "name": "Te Araroa Trail",
         "bicycle": "yes",
         "bridge": "yes",
         "highway": "path",
-        "layer": "1"
+        "layer": "1",
+        "name": "Te Araroa Trail",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 17262231,
-      "timestamp": "2021-09-01T00:05:21Z",
-      "version": 6,
-      "changeset": 110535821,
-      "user": "AlwynWellington",
-      "uid": 567640,
+      "timestamp": "2022-01-29T00:21:51Z",
+      "version": 7,
+      "changeset": 116727733,
+      "user": "Jonathan Harker",
+      "uid": 24606,
       "nodes": [178873923, 6956765272],
       "geometry": [
         {"lat": -41.1080285, "lon": 174.8649773},
         {"lat": -41.1079789, "lon": 174.8649711},
         {"lat": -41.1078759, "lon": 174.8650693}
       ],
-      "tags": {"name": "Te Araroa Trail", "bicycle": "yes", "highway": "path"}
+      "tags": {
+        "bicycle": "yes",
+        "highway": "path",
+        "name": "Te Araroa Trail",
+        "surface": "concrete"
+      }
     },
     {
       "type": "way",
@@ -29512,11 +29518,11 @@
     {
       "type": "way",
       "id": 226831225,
-      "timestamp": "2021-08-07T06:40:00Z",
-      "version": 7,
-      "changeset": 109295159,
-      "user": "Zismac",
-      "uid": 9957668,
+      "timestamp": "2022-01-29T00:32:00Z",
+      "version": 9,
+      "changeset": 116727773,
+      "user": "Jonathan Harker",
+      "uid": 24606,
       "nodes": [8987174731, 178873923],
       "geometry": [
         {"lat": -41.1101586, "lon": 174.8622621},
@@ -29534,9 +29540,10 @@
         {"lat": -41.1080285, "lon": 174.8649773}
       ],
       "tags": {
-        "surface": "paved",
+        "highway": "tertiary",
+        "lanes": "2",
         "name": "Papakowhai Road",
-        "highway": "tertiary"
+        "surface": "asphalt"
       }
     },
     {
@@ -54975,7 +54982,7 @@
       "uid": 10140394,
       "nodes": [485621721, 485619713],
       "geometry": [
-        {"lat": -41.0374066, "lon": 174.8851208},
+        {"lat": -41.0374068, "lon": 174.8851252},
         {"lat": -41.0374769, "lon": 174.885107},
         {"lat": -41.0375142, "lon": 174.8852487},
         {"lat": -41.0375584, "lon": 174.8853099},
@@ -74974,17 +74981,21 @@
     {
       "type": "way",
       "id": 640707737,
-      "timestamp": "2021-09-07T22:45:30Z",
-      "version": 11,
-      "changeset": 110881944,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-01-29T08:58:42Z",
+      "version": 12,
+      "changeset": 116735168,
+      "user": "Jonathan Harker",
+      "uid": 24606,
       "nodes": [485621721, 9072219975],
       "geometry": [
-        {"lat": -41.0374066, "lon": 174.8851208},
+        {"lat": -41.0374068, "lon": 174.8851252},
+        {"lat": -41.0373389, "lon": 174.8851442},
+        {"lat": -41.0373015, "lon": 174.8852497},
         {"lat": -41.0372833, "lon": 174.8852776},
-        {"lat": -41.0370152, "lon": 174.885342},
-        {"lat": -41.0369735, "lon": 174.8854665},
+        {"lat": -41.0370306, "lon": 174.8853314},
+        {"lat": -41.0370157, "lon": 174.8853424},
+        {"lat": -41.0370044, "lon": 174.8853592},
+        {"lat": -41.0369161, "lon": 174.8855004},
         {"lat": -41.0367701, "lon": 174.885581},
         {"lat": -41.0355831, "lon": 174.8865009},
         {"lat": -41.0354051, "lon": 174.8866346},
@@ -97085,17 +97096,23 @@
     {
       "type": "way",
       "id": 87503207,
-      "timestamp": "2019-03-11T06:40:18Z",
-      "version": 2,
-      "changeset": 68010990,
-      "user": "AlwynWellington",
-      "uid": 567640,
+      "timestamp": "2022-01-29T00:24:17Z",
+      "version": 4,
+      "changeset": 116727720,
+      "user": "Jonathan Harker",
+      "uid": 24606,
       "nodes": [1017892715, 1017893073],
       "geometry": [
         {"lat": -41.1062985, "lon": 174.8664812},
         {"lat": -41.1062425, "lon": 174.8664092}
       ],
-      "tags": {"tunnel": "yes", "layer": "-1", "highway": "footway"}
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "lit": "yes",
+        "surface": "concrete",
+        "tunnel": "yes"
+      }
     },
     {
       "type": "way",
@@ -97128,11 +97145,11 @@
     {
       "type": "way",
       "id": 87503230,
-      "timestamp": "2021-09-07T22:45:30Z",
-      "version": 9,
-      "changeset": 110881944,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-01-29T00:27:02Z",
+      "version": 10,
+      "changeset": 116727733,
+      "user": "Jonathan Harker",
+      "uid": 24606,
       "nodes": [1017892626, 1017892715],
       "geometry": [
         {"lat": -41.1054021, "lon": 174.8676583},
@@ -97144,7 +97161,11 @@
         {"lat": -41.1062118, "lon": 174.8666171},
         {"lat": -41.1062985, "lon": 174.8664812}
       ],
-      "tags": {"name": "Te Araroa Trail", "highway": "path"}
+      "tags": {
+        "highway": "path",
+        "name": "Te Araroa Trail",
+        "surface": "concrete"
+      }
     },
     {
       "type": "way",
@@ -100969,11 +100990,11 @@
     {
       "type": "way",
       "id": 971061017,
-      "timestamp": "2021-08-07T06:40:00Z",
-      "version": 1,
-      "changeset": 109295159,
-      "user": "Zismac",
-      "uid": 9957668,
+      "timestamp": "2022-01-29T00:32:05Z",
+      "version": 2,
+      "changeset": 116727719,
+      "user": "Jonathan Harker",
+      "uid": 24606,
       "nodes": [8987174729, 8987174731],
       "geometry": [
         {"lat": -41.1106639, "lon": 174.8619675},
@@ -100983,12 +101004,12 @@
         {"lat": -41.1101586, "lon": 174.8622621}
       ],
       "tags": {
-        "surface": "paved",
         "highway": "tertiary",
         "lanes": "3",
         "lanes:backward": "2",
         "lanes:forward": "1",
         "name": "Papakowhai Road",
+        "surface": "asphalt",
         "turn:lanes:backward": "left|none"
       }
     },
@@ -101649,11 +101670,11 @@
     {
       "type": "way",
       "id": 980729182,
-      "timestamp": "2021-09-07T22:45:30Z",
-      "version": 1,
-      "changeset": 110881944,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-01-29T00:18:03Z",
+      "version": 2,
+      "changeset": 116727719,
+      "user": "Jonathan Harker",
+      "uid": 24606,
       "nodes": [1017892836, 1017892626],
       "geometry": [
         {"lat": -41.1053474, "lon": 174.8680768},
@@ -101663,10 +101684,11 @@
         {"lat": -41.1054021, "lon": 174.8676583}
       ],
       "tags": {
-        "service": "parking_aisle",
         "bicycle": "yes",
         "highway": "service",
-        "segregated": "no"
+        "segregated": "no",
+        "service": "parking_aisle",
+        "surface": "asphalt"
       }
     },
     {
