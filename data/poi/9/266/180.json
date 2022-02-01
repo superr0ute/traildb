@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-01-30T23:59:59Z",
-    "timestamp_osm_base": "2022-01-31T04:24:01Z",
+    "timestamp_osm_date": "2022-01-31T23:59:59Z",
+    "timestamp_osm_base": "2022-02-01T04:25:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -21114,19 +21114,15 @@
     {
       "type": "node",
       "id": 1918200363,
-      "lat": 46.9445638,
-      "lon": 7.3738143,
-      "timestamp": "2021-11-19T10:22:15Z",
-      "version": 8,
-      "changeset": 113983736,
-      "user": "woodpeck_repair",
-      "uid": 145231,
+      "lat": 46.9450069,
+      "lon": 7.3744929,
+      "timestamp": "2022-01-31T21:45:44Z",
+      "version": 9,
+      "changeset": 116841553,
+      "user": "dafadllyn",
+      "uid": 7494825,
       "tags": {
-        "addr:city": "Bern",
-        "addr:housenumber": "4",
-        "addr:postcode": "3027",
-        "addr:street": "Gilberte-de-Courgenay-Platz",
-        "alt_name": "Migros Westside (MM)",
+        "alt_name": "Migros Bern Westside",
         "branch": "Bern Westside",
         "brand": "Migros",
         "brand:wikidata": "Q680727",
@@ -21134,8 +21130,9 @@
         "level": "1",
         "level:ref": "0",
         "name": "Migros",
-        "opening_hours": "Mo-Th 09:00-20:00, Fr 09:00-22:00, Sa 08:00-17:00; PH off",
+        "opening_hours": "Mo-Th 09:00-20:00; Fr 09:00-21:00; Sa 08:00-17:00",
         "operator": "Genossenschaft Migros Aare",
+        "phone": "+41 58 567 03 03",
         "shop": "supermarket",
         "website": "https://filialen.migros.ch/de/migros-supermarkt-bern-westside",
         "wheelchair": "yes"
@@ -23239,20 +23236,6 @@
       "uid": 8296,
       "tags": {
         "amenity": "drinking_water"
-      }
-    },
-    {
-      "type": "node",
-      "id": 2347235648,
-      "lat": 47.0029558,
-      "lon": 7.3347737,
-      "timestamp": "2013-06-16T10:27:39Z",
-      "version": 1,
-      "changeset": 16573712,
-      "user": "kuede",
-      "uid": 8296,
-      "tags": {
-        "amenity": "shelter"
       }
     },
     {
@@ -41163,18 +41146,19 @@
     {
       "type": "way",
       "id": 120562775,
-      "timestamp": "2011-07-06T16:53:00Z",
-      "version": 1,
-      "changeset": 8649985,
-      "user": "thisss",
-      "uid": 1383,
+      "timestamp": "2022-01-31T09:09:42Z",
+      "version": 2,
+      "changeset": 116813057,
+      "user": "habi",
+      "uid": 15671,
       "center": {
-        "lat": 47.0043294,
-        "lon": 7.3387585
+        "lat": 47.0043292,
+        "lon": 7.338765
       },
       "nodes": [],
       "tags": {
-        "amenity": "shelter"
+        "amenity": "shelter",
+        "roof:shape": "flat"
       }
     },
     {
@@ -52558,6 +52542,43 @@
         "amenity": "shelter",
         "building": "roof",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1026337328,
+      "timestamp": "2022-01-31T09:33:13Z",
+      "version": 1,
+      "changeset": 116814046,
+      "user": "habi",
+      "uid": 15671,
+      "center": {
+        "lat": 47.0029047,
+        "lon": 7.334801
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1026475343,
+      "timestamp": "2022-01-31T17:54:48Z",
+      "version": 1,
+      "changeset": 116833516,
+      "user": "SF23",
+      "uid": 11331238,
+      "center": {
+        "lat": 46.9381652,
+        "lon": 7.4646367
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "parking"
       }
     }
   ]
