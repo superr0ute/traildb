@@ -13984,6 +13984,29 @@
       "type": "Feature",
       "properties": {
         "@poi": "peak_peak",
+        "@distance": 2721.5,
+        "@id": "n4695674276",
+        "@changeset": 84294722,
+        "@timestamp": "2020-04-28T22:51:29Z",
+        "@version": 2,
+        "@uid": 1416503,
+        "@user": "asdf2",
+        "name": "Hüenderbergli",
+        "natural": "peak",
+        "wikidata": "Q22652342"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3437697,
+          46.8030202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
         "@distance": 896.2,
         "@id": "n3008915122",
         "@changeset": 46256420,
@@ -16024,29 +16047,6 @@
         "coordinates": [
           7.3878488,
           46.4343778
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 2721.5,
-        "@id": "n4695674276",
-        "@changeset": 84294722,
-        "@timestamp": "2020-04-28T22:51:29Z",
-        "@version": 2,
-        "@uid": 1416503,
-        "@user": "asdf2",
-        "name": "Hüenderbergli",
-        "natural": "peak",
-        "wikidata": "Q22652342"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.3437697,
-          46.8030202
         ]
       }
     },
@@ -22002,6 +22002,28 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 9888.1,
+        "@id": "n3595995017",
+        "@changeset": 31978757,
+        "@timestamp": "2015-06-15T09:04:35Z",
+        "@version": 1,
+        "@uid": 190676,
+        "@user": "highbuilder",
+        "name": "Claro",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.647403,
+          46.5887029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 25.3,
         "@id": "n9385858705",
@@ -22383,6 +22405,37 @@
         "coordinates": [
           7.6675191,
           46.4791462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 7712.4,
+        "@id": "w706339616",
+        "@changeset": 101001008,
+        "@timestamp": "2021-03-14T17:49:13Z",
+        "@version": 2,
+        "@uid": 1894634,
+        "@user": "Wikilux",
+        "addr:city": "Les Diablerets",
+        "addr:housenumber": "58",
+        "addr:postcode": "1865",
+        "addr:street": "Route du Pillon",
+        "brand": "Coop",
+        "brand:wikidata": "Q432564",
+        "brand:wikipedia": "de:Coop (Schweiz)",
+        "building": "yes",
+        "name": "Coop",
+        "shop": "supermarket",
+        "source": "survey 2019"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.150005,
+          46.3539245
         ]
       }
     },
@@ -23964,28 +24017,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 9888.1,
-        "@id": "n3595995017",
-        "@changeset": 31978757,
-        "@timestamp": "2015-06-15T09:04:35Z",
-        "@version": 1,
-        "@uid": 190676,
-        "@user": "highbuilder",
-        "name": "Claro",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.647403,
-          46.5887029
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 8735.1,
         "@id": "n4373217990",
@@ -24004,37 +24035,6 @@
         "coordinates": [
           7.6536173,
           46.5727759
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 7712.4,
-        "@id": "w706339616",
-        "@changeset": 101001008,
-        "@timestamp": "2021-03-14T17:49:13Z",
-        "@version": 2,
-        "@uid": 1894634,
-        "@user": "Wikilux",
-        "addr:city": "Les Diablerets",
-        "addr:housenumber": "58",
-        "addr:postcode": "1865",
-        "addr:street": "Route du Pillon",
-        "brand": "Coop",
-        "brand:wikidata": "Q432564",
-        "brand:wikipedia": "de:Coop (Schweiz)",
-        "building": "yes",
-        "name": "Coop",
-        "shop": "supermarket",
-        "source": "survey 2019"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.150005,
-          46.3539245
         ]
       }
     },
@@ -28950,14 +28950,18 @@
         "@poi": "shelter_shelter",
         "@distance": 904.9,
         "@id": "w759260719",
-        "@changeset": 88534642,
-        "@timestamp": "2020-07-26T23:33:48Z",
-        "@version": 2,
-        "@uid": 4804397,
-        "@user": "SteBernd",
+        "@changeset": 116820931,
+        "@timestamp": "2022-01-31T12:14:23Z",
+        "@version": 4,
+        "@uid": 13987944,
+        "@user": "drfurgi",
         "amenity": "shelter",
+        "bench": "yes",
         "building": "yes",
-        "name": "Holzer-Hütte"
+        "drinking_water": "no",
+        "name": "Holzer-Hütte",
+        "shelter_type": "basic_hut",
+        "table": "yes"
       },
       "geometry": {
         "type": "Point",
