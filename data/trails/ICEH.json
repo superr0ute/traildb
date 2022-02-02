@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-23T02:31:56Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-02T02:33:36Z"},
   "elements": [
     {
       "type": "relation",
@@ -1501,11 +1501,11 @@
     {
       "type": "way",
       "id": 150550322,
-      "timestamp": "2015-04-29T08:30:46Z",
-      "version": 3,
-      "changeset": 30610451,
-      "user": "catastro_santa_cruz_de_tenerife",
-      "uid": 617065,
+      "timestamp": "2022-02-01T13:43:04Z",
+      "version": 5,
+      "changeset": 116869446,
+      "user": "Opix",
+      "uid": 6337205,
       "nodes": [664470184, 664446020],
       "geometry": [
         {"lat": 27.7717237, "lon": -17.9565007, "z": 1050.7},
@@ -1515,7 +1515,12 @@
         {"lat": 27.7720454, "lon": -17.956311, "z": 1050.6},
         {"lat": 27.7731403, "lon": -17.9559054, "z": 1049.3}
       ],
-      "tags": {"highway": "primary", "ref": "HI-10"}
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "primary",
+        "ref": "HI-10",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -3989,11 +3994,11 @@
     {
       "type": "way",
       "id": 938800483,
-      "timestamp": "2021-05-04T11:18:47Z",
-      "version": 1,
-      "changeset": 104119711,
-      "user": "mDav",
-      "uid": 7882299,
+      "timestamp": "2022-02-01T13:22:46Z",
+      "version": 2,
+      "changeset": 116868213,
+      "user": "Opix",
+      "uid": 6337205,
       "nodes": [1634487850, 5371220502],
       "geometry": [
         {"lat": 27.7136112, "lon": -18.1418888, "z": 155},
@@ -4202,6 +4207,7 @@
         {"lat": 27.7049402, "lon": -18.1342075, "z": 16.4}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "tertiary",
         "layer": "1",
         "maxspeed": "40",

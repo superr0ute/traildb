@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-31T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-01T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -49474,9 +49474,9 @@
     {
       "type": "way",
       "id": 295849241,
-      "timestamp": "2022-01-31T16:00:53Z",
-      "version": 9,
-      "changeset": 116829739,
+      "timestamp": "2022-02-01T17:09:21Z",
+      "version": 12,
+      "changeset": 116877307,
       "user": "SimoGine",
       "uid": 11449631,
       "nodes": [3505083164, 2977147595],
@@ -49518,7 +49518,11 @@
         {"lat": 45.7742056, "lon": 7.8275318}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "maxspeed:type": "sign",
         "name": "Strada Regionale 44 della Valle del Lys",
         "ref": "SR44",
         "sidewalk": "left",
@@ -104272,11 +104276,11 @@
     {
       "type": "way",
       "id": 969844149,
-      "timestamp": "2021-08-02T15:54:54Z",
-      "version": 1,
-      "changeset": 109041875,
-      "user": "Andrea Musuruane",
-      "uid": 90379,
+      "timestamp": "2022-02-01T09:34:06Z",
+      "version": 3,
+      "changeset": 116859203,
+      "user": "SimoGine",
+      "uid": 11449631,
       "nodes": [8974920155, 1358244309],
       "geometry": [
         {"lat": 45.763622, "lon": 7.8356916},
@@ -104286,11 +104290,13 @@
         {"lat": 45.7644909, "lon": 7.8355833}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "secondary",
         "lanes": "2",
         "maxspeed": "50",
         "name": "Strada Regionale 44 della Valle del Lys",
         "ref": "SR44",
+        "shoulder": "no",
         "sidewalk": "no",
         "surface": "asphalt"
       }
