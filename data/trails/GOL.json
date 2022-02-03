@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-01T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-02T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11123868,
-      "timestamp": "2022-01-30T16:30:05Z",
-      "version": 190,
-      "changeset": 116787643,
-      "user": "Flayer",
-      "uid": 4046684,
+      "timestamp": "2022-02-02T07:00:56Z",
+      "version": 191,
+      "changeset": 116898095,
+      "user": "Ilanride22",
+      "uid": 2376044,
       "members": [
         {"type": "way", "ref": 723053761, "role": ""},
         {"type": "way", "ref": 853340709, "role": ""},
@@ -2146,10 +2146,11 @@
         {"type": "way", "ref": 253813806, "role": ""},
         {"type": "way", "ref": 253813808, "role": ""},
         {"type": "way", "ref": 435923168, "role": ""},
-        {"type": "way", "ref": 815936037, "role": ""},
+        {"type": "way", "ref": 1026918769, "role": ""},
+        {"type": "way", "ref": 1026918768, "role": ""},
+        {"type": "way", "ref": 922888238, "role": ""},
         {"type": "way", "ref": 815936038, "role": ""},
         {"type": "way", "ref": 286653596, "role": ""},
-        {"type": "way", "ref": 922888238, "role": ""},
         {"type": "way", "ref": 286653595, "role": ""},
         {"type": "way", "ref": 253813812, "role": ""},
         {"type": "way", "ref": 377724176, "role": ""},
@@ -3091,6 +3092,57 @@
         "name:en": "Eli Moyal",
         "name:he": "אלי מויאל"
       }
+    },
+    {
+      "type": "way",
+      "id": 1026918768,
+      "timestamp": "2022-02-02T07:00:56Z",
+      "version": 1,
+      "changeset": 116898095,
+      "user": "Ilanride22",
+      "uid": 2376044,
+      "nodes": [2596964836, 7620448928],
+      "geometry": [
+        {"lat": 33.2564904, "lon": 35.758885},
+        {"lat": 33.257099, "lon": 35.759441},
+        {"lat": 33.2573077, "lon": 35.759527},
+        {"lat": 33.257536, "lon": 35.759543},
+        {"lat": 33.2577856, "lon": 35.7595145},
+        {"lat": 33.2581348, "lon": 35.7595259},
+        {"lat": 33.2582347, "lon": 35.7595038},
+        {"lat": 33.2583423, "lon": 35.759435},
+        {"lat": 33.25856, "lon": 35.759251},
+        {"lat": 33.258801, "lon": 35.7590474},
+        {"lat": 33.2591512, "lon": 35.7589797},
+        {"lat": 33.2593766, "lon": 35.758718},
+        {"lat": 33.259651, "lon": 35.75856},
+        {"lat": 33.2601472, "lon": 35.7583905}
+      ],
+      "tags": {"highway": "track"}
+    },
+    {
+      "type": "way",
+      "id": 1026918769,
+      "timestamp": "2022-02-02T07:00:56Z",
+      "version": 1,
+      "changeset": 116898095,
+      "user": "Ilanride22",
+      "uid": 2376044,
+      "nodes": [2596964836, 4321709323],
+      "geometry": [
+        {"lat": 33.2564904, "lon": 35.758885},
+        {"lat": 33.2560826, "lon": 35.7589146},
+        {"lat": 33.2554399, "lon": 35.758736},
+        {"lat": 33.254872, "lon": 35.7585087},
+        {"lat": 33.2547462, "lon": 35.7585949},
+        {"lat": 33.2545771, "lon": 35.7586411},
+        {"lat": 33.2544579, "lon": 35.7586989},
+        {"lat": 33.254372, "lon": 35.75877},
+        {"lat": 33.254028, "lon": 35.759171},
+        {"lat": 33.253849, "lon": 35.759571},
+        {"lat": 33.2537934, "lon": 35.7598043}
+      ],
+      "tags": {"highway": "path"}
     },
     {
       "type": "way",
@@ -8865,7 +8917,7 @@
         {"lat": 31.5348054, "lon": 34.8359837},
         {"lat": 31.534835, "lon": 34.836109}
       ],
-      "tags": {"highway": "track", "source": "GPS"}
+      "tags": {"source": "GPS", "highway": "track"}
     },
     {
       "type": "way",
@@ -8903,7 +8955,7 @@
         {"lat": 31.5369355, "lon": 34.7970568},
         {"lat": 31.5368652, "lon": 34.7963598}
       ],
-      "tags": {"bicycle": "yes", "foot": "yes", "highway": "track"}
+      "tags": {"highway": "track", "bicycle": "yes", "foot": "yes"}
     },
     {
       "type": "way",
@@ -10357,11 +10409,11 @@
     {
       "type": "way",
       "id": 253813808,
-      "timestamp": "2020-09-14T08:29:45Z",
-      "version": 9,
-      "changeset": 90850383,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-02-02T07:00:56Z",
+      "version": 10,
+      "changeset": 116898095,
+      "user": "Ilanride22",
+      "uid": 2376044,
       "nodes": [5208266724, 7648379812],
       "geometry": [
         {"lat": 33.2526259, "lon": 35.7593022},
@@ -10375,6 +10427,7 @@
         {"lat": 33.2486823, "lon": 35.7568061},
         {"lat": 33.2478644, "lon": 35.7561485},
         {"lat": 33.2478123, "lon": 35.7560549},
+        {"lat": 33.2475901, "lon": 35.7556775},
         {"lat": 33.2473589, "lon": 35.755285},
         {"lat": 33.2468576, "lon": 35.7543596},
         {"lat": 33.2468198, "lon": 35.7542827},
@@ -33725,7 +33778,7 @@
         {"lat": 31.537241, "lon": 34.767293},
         {"lat": 31.537298, "lon": 34.767139}
       ],
-      "tags": {"highway": "track", "source": "GPS"}
+      "tags": {"source": "GPS", "highway": "track"}
     },
     {
       "type": "way",
@@ -34032,7 +34085,7 @@
         {"lat": 31.5860333, "lon": 34.889596},
         {"lat": 31.585717, "lon": 34.889583}
       ],
-      "tags": {"highway": "track", "source": "GPS", "tracktype": "grade3"}
+      "tags": {"tracktype": "grade3", "highway": "track", "source": "GPS"}
     },
     {
       "type": "way",
@@ -34855,7 +34908,7 @@
         {"lat": 31.596799, "lon": 34.8851749},
         {"lat": 31.596723, "lon": 34.884915}
       ],
-      "tags": {"highway": "track", "source": "GPS", "tracktype": "grade4"}
+      "tags": {"tracktype": "grade4", "highway": "track", "source": "GPS"}
     },
     {
       "type": "way",
@@ -38822,7 +38875,7 @@
         {"lat": 31.535041, "lon": 34.836278},
         {"lat": 31.534835, "lon": 34.836109}
       ],
-      "tags": {"bicycle": "yes", "foot": "yes", "highway": "track"}
+      "tags": {"highway": "track", "bicycle": "yes", "foot": "yes"}
     },
     {
       "type": "way",
@@ -39675,7 +39728,7 @@
         {"lat": 31.6031169, "lon": 34.8890002},
         {"lat": 31.6030481, "lon": 34.8891253}
       ],
-      "tags": {"highway": "track", "source": "GPS", "tracktype": "grade3"}
+      "tags": {"tracktype": "grade3", "highway": "track", "source": "GPS"}
     },
     {
       "type": "way",
@@ -40820,11 +40873,11 @@
     {
       "type": "way",
       "id": 58773982,
-      "timestamp": "2015-01-13T09:14:06Z",
-      "version": 8,
-      "changeset": 28105916,
-      "user": "MattHarms87",
-      "uid": 1734242,
+      "timestamp": "2022-02-02T13:20:19Z",
+      "version": 9,
+      "changeset": 116913329,
+      "user": "zstadler",
+      "uid": 3127,
       "nodes": [728363616, 728363796],
       "geometry": [
         {"lat": 30.6156801, "lon": 35.1719793},
@@ -40895,7 +40948,7 @@
       ],
       "tags": {
         "bicycle": "yes",
-        "colour": "red",
+        "colour": "black",
         "foot": "yes",
         "highway": "track",
         "tracktype": "grade4"
@@ -55740,7 +55793,7 @@
         {"lat": 31.5276703, "lon": 34.7873615},
         {"lat": 31.5275928, "lon": 34.7874764}
       ],
-      "tags": {"highway": "track", "source": "GPS"}
+      "tags": {"source": "GPS", "highway": "track"}
     },
     {
       "type": "way",
@@ -65895,48 +65948,17 @@
     },
     {
       "type": "way",
-      "id": 815936037,
-      "timestamp": "2020-09-14T08:29:48Z",
-      "version": 2,
-      "changeset": 90850383,
-      "user": "zstadler",
-      "uid": 3127,
-      "nodes": [7620448928, 4321709323],
-      "geometry": [
-        {"lat": 33.2601584, "lon": 35.7583744},
-        {"lat": 33.259651, "lon": 35.75856},
-        {"lat": 33.259361, "lon": 35.75869},
-        {"lat": 33.259159, "lon": 35.758961},
-        {"lat": 33.258801, "lon": 35.75901},
-        {"lat": 33.25856, "lon": 35.759251},
-        {"lat": 33.25819, "lon": 35.759491},
-        {"lat": 33.2579, "lon": 35.759472},
-        {"lat": 33.2575165, "lon": 35.759529},
-        {"lat": 33.257099, "lon": 35.759441},
-        {"lat": 33.2564904, "lon": 35.758885},
-        {"lat": 33.2560826, "lon": 35.7589146},
-        {"lat": 33.2549264, "lon": 35.7585786},
-        {"lat": 33.2545771, "lon": 35.7586411},
-        {"lat": 33.2544579, "lon": 35.7586989},
-        {"lat": 33.254372, "lon": 35.75877},
-        {"lat": 33.254028, "lon": 35.759171},
-        {"lat": 33.253849, "lon": 35.759571},
-        {"lat": 33.2537934, "lon": 35.7598043}
-      ],
-      "tags": {"highway": "path"}
-    },
-    {
-      "type": "way",
       "id": 815936038,
-      "timestamp": "2020-06-14T18:59:02Z",
-      "version": 1,
-      "changeset": 86632692,
-      "user": "dudigolani",
-      "uid": 10984507,
+      "timestamp": "2022-02-02T07:00:56Z",
+      "version": 2,
+      "changeset": 116898095,
+      "user": "Ilanride22",
+      "uid": 2376044,
       "nodes": [7620448928, 4810325367],
       "geometry": [
-        {"lat": 33.2601584, "lon": 35.7583744},
+        {"lat": 33.2601472, "lon": 35.7583905},
         {"lat": 33.2603368, "lon": 35.7584458},
+        {"lat": 33.2603781, "lon": 35.7584858},
         {"lat": 33.2604795, "lon": 35.7585841},
         {"lat": 33.2608603, "lon": 35.7587792},
         {"lat": 33.261207, "lon": 35.759015},
@@ -70842,7 +70864,7 @@
         {"lat": 31.5330667, "lon": 34.7945366},
         {"lat": 31.5328619, "lon": 34.7945035}
       ],
-      "tags": {"bicycle": "yes", "foot": "yes", "highway": "track"}
+      "tags": {"highway": "track", "bicycle": "yes", "foot": "yes"}
     },
     {
       "type": "way",
@@ -70895,7 +70917,7 @@
         {"lat": 31.527355, "lon": 34.788143},
         {"lat": 31.527239, "lon": 34.787997}
       ],
-      "tags": {"bicycle": "yes", "foot": "yes", "highway": "track"}
+      "tags": {"highway": "track", "bicycle": "yes", "foot": "yes"}
     },
     {
       "type": "way",

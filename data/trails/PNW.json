@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-31T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-02T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -5402,11 +5402,11 @@
     {
       "type": "way",
       "id": 183785399,
-      "timestamp": "2012-10-01T20:59:09Z",
-      "version": 1,
-      "changeset": 13327944,
-      "user": "Derick Rethans",
-      "uid": 37137,
+      "timestamp": "2022-02-02T20:52:30Z",
+      "version": 2,
+      "changeset": 116934277,
+      "user": "ScenicRoute",
+      "uid": 2779109,
       "nodes": [1941953463, 1941953486],
       "geometry": [
         {"lat": 48.4049166, "lon": -122.6445908},
@@ -5416,7 +5416,12 @@
         {"lat": 48.4070325, "lon": -122.64476},
         {"lat": 48.4075802, "lon": -122.6447718}
       ],
-      "tags": {"bridge": "yes", "highway": "footway", "layer": "1"}
+      "tags": {
+        "bridge": "yes",
+        "highway": "footway",
+        "layer": "1",
+        "surface": "concrete"
+      }
     },
     {
       "type": "way",
@@ -7903,11 +7908,11 @@
     {
       "type": "way",
       "id": 222940902,
-      "timestamp": "2013-05-24T20:13:24Z",
-      "version": 1,
-      "changeset": 16270900,
-      "user": "Sundance",
-      "uid": 239998,
+      "timestamp": "2022-02-02T20:39:23Z",
+      "version": 3,
+      "changeset": 116934483,
+      "user": "ScenicRoute",
+      "uid": 2779109,
       "nodes": [995630765, 2210280349],
       "geometry": [
         {"lat": 48.4536953, "lon": -122.5042864},
@@ -7916,7 +7921,9 @@
       ],
       "tags": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Josh Green Lane",
+        "surface": "concrete",
         "tiger:reviewed": "no"
       }
     },
@@ -38830,11 +38837,11 @@
     {
       "type": "way",
       "id": 487869371,
-      "timestamp": "2017-04-19T01:56:06Z",
-      "version": 1,
-      "changeset": 47922749,
-      "user": "Glassman",
-      "uid": 447903,
+      "timestamp": "2022-02-02T20:40:58Z",
+      "version": 2,
+      "changeset": 116934253,
+      "user": "ScenicRoute",
+      "uid": 2779109,
       "nodes": [243612117, 243594597],
       "geometry": [
         {"lat": 48.4582937, "lon": -122.5258799},
@@ -38843,6 +38850,7 @@
       "tags": {
         "highway": "unclassified",
         "name": "South March Point Road",
+        "surface": "asphalt",
         "tiger:cfcc": "A41",
         "tiger:county": "Skagit, WA",
         "tiger:name_base": "March Point",
@@ -62080,11 +62088,11 @@
     {
       "type": "way",
       "id": 820116255,
-      "timestamp": "2021-06-30T06:59:08Z",
-      "version": 2,
-      "changeset": 107187186,
-      "user": "wislander",
-      "uid": 384146,
+      "timestamp": "2022-02-02T20:50:59Z",
+      "version": 3,
+      "changeset": 116934253,
+      "user": "ScenicRoute",
+      "uid": 2779109,
       "nodes": [4785455727, 243596323],
       "geometry": [
         {"lat": 48.4166604, "lon": -122.6444743},
@@ -62097,7 +62105,8 @@
         "maxspeed": "40 mph",
         "name": "State Route 20",
         "ref": "WA 20",
-        "source": "Yahoo,TIGER"
+        "source": "Yahoo,TIGER",
+        "surface": "asphalt"
       }
     },
     {
