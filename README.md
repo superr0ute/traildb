@@ -35,8 +35,8 @@
 |❌|[E4CR](https://superroute.org/E4CR)|E4 Crete [osm](https://osm.org/relation/1920350) [wiki](https://wikidata.org/wiki/Q106595475)||2022-01-22||
 |❌|[E4CY](https://superroute.org/E4CY)|E4 Cyprus [osm](https://osm.org/relation/2376091) [wiki](https://wikidata.org/wiki/Q106595547)||today||
 |❌|[E8B](https://superroute.org/E8B)|E8 Bulgaria [osm](https://osm.org/relation/8541760) [wiki](https://wikidata.org/wiki/Q106564794)||2022-01-25||
-|✔️|[E8P](https://superroute.org/E8P)|E8 Poland [osm](https://osm.org/relation/3084125) [wiki](https://wikidata.org/wiki/Q106129171)||today|350|
-|❌❌|[E8R](https://superroute.org/E8R)|E8 Romania [osm](https://osm.org/relation/9933591) [wiki](https://wikidata.org/wiki/Q106564761)|![#CE1126](https://via.placeholder.com/14/CE1126/000000?text=+) #CE1126|2021-09-22|1321|
+|✔️|[E8P](https://superroute.org/E8P)|E8 Poland [osm](https://osm.org/relation/3084125) [wiki](https://wikidata.org/wiki/Q106129171)||today|353|
+|❌❌|[E8R](https://superroute.org/E8R)|E8 Romania [osm](https://osm.org/relation/9933591) [wiki](https://wikidata.org/wiki/Q106564761)|![#CE1126](https://via.placeholder.com/14/CE1126/000000?text=+) #CE1126|2021-09-22|1322|
 |✔️|[EBC](https://superroute.org/EBC)|Everest Base Camp Trek [osm](https://osm.org/relation/1189003) [wiki](https://wikidata.org/wiki/Q1950455)|![#FFA2E5](https://via.placeholder.com/14/FFA2E5/000000?text=+) #FFA2E5|2021-12-06|61|
 |✔️|[FRC](https://superroute.org/FRC)|Fish River Canyon Traverse [osm](https://osm.org/relation/9517875) [wiki](https://wikidata.org/wiki/Q106100491)|![#2F2399](https://via.placeholder.com/14/2F2399/000000?text=+) #2F2399|2021-08-17|4|
 |✔️|[GHT](https://superroute.org/GHT)|Great Himalaya Trail [osm](https://osm.org/relation/7716498) [wiki](https://wikidata.org/wiki/Q5599315)|![#DC143C](https://via.placeholder.com/14/DC143C/000000?text=+) #DC143C|2021-09-22|27|
@@ -52,7 +52,7 @@
 |❌|[GR34](https://superroute.org/GR34)|GR 34 - Chemin des Douaniers [osm](https://osm.org/relation/7790332) [wiki](https://wikidata.org/wiki/Q3478712)||today||
 |✔️|[GR50](https://superroute.org/GR50)|GR50 - Tour du Parc National des Écrins [osm](https://osm.org/relation/11097196) [wiki](https://wikidata.org/wiki/Q3478730)||2022-01-26|721|
 |❌❌|[GR54](https://superroute.org/GR54)|GR 54 [osm](https://osm.org/relation/2909096) [wiki](https://wikidata.org/wiki/Q16009876)|![#E336A9](https://via.placeholder.com/14/E336A9/000000?text=+) #E336A9|2021-08-13|312|
-|❌❌|[GR5A](https://superroute.org/GR5A)|GR5 - Alpes Côte d'Azur [osm](https://osm.org/relation/2704286) [wiki](https://wikidata.org/wiki/Q106566889)|![#9E36E3](https://via.placeholder.com/14/9E36E3/000000?text=+) #9E36E3|2021-10-17|1686|
+|❌❌|[GR5A](https://superroute.org/GR5A)|GR5 - Alpes Côte d'Azur [osm](https://osm.org/relation/2704286) [wiki](https://wikidata.org/wiki/Q106566889)|![#9E36E3](https://via.placeholder.com/14/9E36E3/000000?text=+) #9E36E3|2021-10-17|1685|
 |✔️|[GR91](https://superroute.org/GR91)|GR 91 [osm](https://osm.org/relation/9920921) [wiki](https://wikidata.org/wiki/Q107745584)||2022-01-30|542|
 |✔️|[GR93](https://superroute.org/GR93)|GR 93 - Traversée du Vercors Ouest-Est [osm](https://osm.org/relation/2785107) [wiki](https://wikidata.org/wiki/Q107554011)||2022-01-14|428|
 |❌|[GTA](https://superroute.org/GTA)|Grande Traversata delle Alpi [osm](https://osm.org/relation/3159979) [wiki](https://wikidata.org/wiki/Q942020)||2022-01-22||
@@ -82,7 +82,7 @@
 |❌❌|[MWT](https://superroute.org/MWT)|Mountain Wreath Trail [osm](https://osm.org/relation/6172937) [wiki](https://wikidata.org/wiki/Q106563698)|![#C9009E](https://via.placeholder.com/14/C9009E/000000?text=+) #C9009E|2021-08-02|1194|
 |❌|[NPT](https://superroute.org/NPT)|Naar-Phu Trek [osm](https://osm.org/relation/1634863) [wiki](https://wikidata.org/wiki/Q106773689)||2022-01-23||
 |✔️|[NRT](https://superroute.org/NRT)|Northville Placid Trail [osm](https://osm.org/relation/4286650) [wiki](https://wikidata.org/wiki/Q7059877)||2021-12-04|174|
-|❌❌|[PCT](https://superroute.org/PCT)|Pacific Crest Trail [osm](https://osm.org/relation/1225378) [wiki](https://wikidata.org/wiki/Q2003736)|![#B22234](https://via.placeholder.com/14/B22234/000000?text=+) #B22234|2021-10-11|1418|
+|❌❌|[PCT](https://superroute.org/PCT)|Pacific Crest Trail [osm](https://osm.org/relation/1225378) [wiki](https://wikidata.org/wiki/Q2003736)|![#B22234](https://via.placeholder.com/14/B22234/000000?text=+) #B22234|2021-10-11|1419|
 |❌|[PNW](https://superroute.org/PNW)|Pacific Northwest Trail [osm](https://osm.org/relation/11225405) [wiki](https://wikidata.org/wiki/Q3360192)||today||
 |✔️|[POB](https://superroute.org/POB)|Peaks of the Balkans [osm](https://osm.org/relation/4726204) [wiki](https://wikidata.org/wiki/Q19298341)|![#00C72B](https://via.placeholder.com/14/00C72B/000000?text=+) #00C72B|2022-01-06|467|
 |✔️|[PZC](https://superroute.org/PZC)|Premužić trail [osm](https://osm.org/relation/3059569) [wiki](https://wikidata.org/wiki/Q2108725)|![#C90000](https://via.placeholder.com/14/C90000/000000?text=+) #C90000|2021-12-05|72|
@@ -97,7 +97,7 @@
 |❌|[SZL](https://superroute.org/SZL)|Sarchu Zanskar Lamayuru [osm](https://osm.org/relation/11229978) [wiki](https://wikidata.org/wiki/Q106774333)||2022-01-30||
 |❌|[TAN](https://superroute.org/TAN)|Te Araroa North [osm](https://osm.org/relation/8518624) [wiki](https://wikidata.org/wiki/Q106564271)||2022-02-01||
 |❌❌|[TAS](https://superroute.org/TAS)|Te Araroa South [osm](https://osm.org/relation/8518626) [wiki](https://wikidata.org/wiki/Q106541620)|![#4177FF](https://via.placeholder.com/14/4177FF/000000?text=+) #4177FF|2021-08-21|398|
-|❌❌|[TCRT](https://superroute.org/TCRT)|Тranscarpathian Trail [osm](https://osm.org/relation/2970399) [wiki](https://wikidata.org/wiki/Q30915066)|![#FFD500](https://via.placeholder.com/14/FFD500/000000?text=+) #FFD500|2021-10-19|1448|
+|❌❌|[TCRT](https://superroute.org/TCRT)|Тranscarpathian Trail [osm](https://osm.org/relation/2970399) [wiki](https://wikidata.org/wiki/Q30915066)|![#FFD500](https://via.placeholder.com/14/FFD500/000000?text=+) #FFD500|2021-10-19|1449|
 |❌|[TCT](https://superroute.org/TCT)|Transcaucasian Trail [osm](https://osm.org/relation/8928052) [wiki](https://wikidata.org/wiki/Q55636112)||2022-01-28||
 |✔️|[TMB](https://superroute.org/TMB)|Tour du Mont Blanc [osm](https://osm.org/relation/124456) [wiki](https://wikidata.org/wiki/Q24777)|![#05F6FA](https://via.placeholder.com/14/05F6FA/000000?text=+) #05F6FA|today|481|
 |❌|[TMR](https://superroute.org/TMR)|Tour de Monte Rosa [osm](https://osm.org/relation/10353523) [wiki](https://wikidata.org/wiki/Q3533768)||2022-01-22||
@@ -114,7 +114,7 @@
 |❌|[WES](https://superroute.org/WES)|Westweg [osm](https://osm.org/relation/62900) [wiki](https://wikidata.org/wiki/Q2565728)||2022-02-01||
 |✔️|[WON](https://superroute.org/WON)|Wonderland Trail [osm](https://osm.org/relation/4111743) [wiki](https://wikidata.org/wiki/Q3498361)|![#7968FF](https://via.placeholder.com/14/7968FF/000000?text=+) #7968FF|2022-01-18|85|
 
-### poidb version 2022-02-01
+### poidb version 2022-02-02
 
 | name | selector | maxDistance |
 |  --- | --- | --- |
