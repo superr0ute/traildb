@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-02T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-03T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 157354,
-      "timestamp": "2022-01-06T20:43:01Z",
-      "version": 194,
-      "changeset": 115853135,
-      "user": "ProfessorLupin",
-      "uid": 10456431,
+      "timestamp": "2022-02-03T09:46:17Z",
+      "version": 195,
+      "changeset": 116954699,
+      "user": "Rus Ionut",
+      "uid": 1435498,
       "members": [
         {"type": "way", "ref": 35953784, "role": ""},
         {"type": "way", "ref": 26596458, "role": ""},
@@ -469,6 +469,7 @@
         {"type": "way", "ref": 150388159, "role": ""},
         {"type": "way", "ref": 150388157, "role": ""},
         {"type": "way", "ref": 150389568, "role": ""},
+        {"type": "way", "ref": 1027323158, "role": ""},
         {"type": "way", "ref": 4364452, "role": ""},
         {"type": "way", "ref": 551674899, "role": ""},
         {"type": "way", "ref": 762486629, "role": ""},
@@ -900,6 +901,28 @@
         {"lat": 34.9932959, "lon": 34.0016547}
       ],
       "tags": {"foot": "yes", "highway": "footway"}
+    },
+    {
+      "type": "way",
+      "id": 1027323158,
+      "timestamp": "2022-02-03T09:46:17Z",
+      "version": 1,
+      "changeset": 116954699,
+      "user": "Rus Ionut",
+      "uid": 1435498,
+      "nodes": [1937323923, 322631743],
+      "geometry": [
+        {"lat": 34.9832981, "lon": 33.7401629},
+        {"lat": 34.9835718, "lon": 33.7400213}
+      ],
+      "tags": {
+        "highway": "primary",
+        "lit": "no",
+        "maxspeed": "50",
+        "oneway": "yes",
+        "ref": "B3",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -5526,12 +5549,12 @@
     {
       "type": "way",
       "id": 150389568,
-      "timestamp": "2018-04-04T14:17:47Z",
-      "version": 3,
-      "changeset": 57804732,
-      "user": "muffu",
-      "uid": 119313,
-      "nodes": [702739442, 322631743],
+      "timestamp": "2022-02-03T09:46:17Z",
+      "version": 4,
+      "changeset": 116954699,
+      "user": "Rus Ionut",
+      "uid": 1435498,
+      "nodes": [702739442, 1937323923],
       "geometry": [
         {"lat": 34.9823275, "lon": 33.751575},
         {"lat": 34.9823143, "lon": 33.7509096},
@@ -5557,8 +5580,7 @@
         {"lat": 34.9826694, "lon": 33.7405361},
         {"lat": 34.9828563, "lon": 33.7403821},
         {"lat": 34.9830893, "lon": 33.7402458},
-        {"lat": 34.9832981, "lon": 33.7401629},
-        {"lat": 34.9835723, "lon": 33.7400873}
+        {"lat": 34.9832981, "lon": 33.7401629}
       ],
       "tags": {
         "highway": "primary",
@@ -22818,17 +22840,18 @@
     {
       "type": "way",
       "id": 551674899,
-      "timestamp": "2020-01-11T15:42:01Z",
-      "version": 2,
-      "changeset": 79454466,
-      "user": "HiddeWie",
-      "uid": 3206305,
+      "timestamp": "2022-02-03T09:46:17Z",
+      "version": 3,
+      "changeset": 116954699,
+      "user": "Rus Ionut",
+      "uid": 1435498,
       "nodes": [242191941, 322631743],
       "geometry": [
         {"lat": 34.9836581, "lon": 33.7402282},
         {"lat": 34.9836168, "lon": 33.7401956},
         {"lat": 34.9835826, "lon": 33.740136},
-        {"lat": 34.9835723, "lon": 33.7400873}
+        {"lat": 34.9835711, "lon": 33.7400812},
+        {"lat": 34.9835718, "lon": 33.7400213}
       ],
       "tags": {
         "highway": "primary",
@@ -25032,7 +25055,7 @@
       "uid": 3206305,
       "nodes": [322631743, 242192059],
       "geometry": [
-        {"lat": 34.9835723, "lon": 33.7400873},
+        {"lat": 34.9835718, "lon": 33.7400213},
         {"lat": 34.9835845, "lon": 33.7399969},
         {"lat": 34.983634, "lon": 33.7399256}
       ],
