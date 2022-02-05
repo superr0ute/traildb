@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-02T02:33:36Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-05T02:19:05Z"},
   "elements": [
     {
       "type": "relation",
@@ -284,11 +284,11 @@
     {
       "type": "way",
       "id": 133456130,
-      "timestamp": "2011-10-27T20:01:37Z",
-      "version": 3,
-      "changeset": 9671014,
-      "user": "Geofreund1",
-      "uid": 179581,
+      "timestamp": "2022-02-04T17:50:36Z",
+      "version": 6,
+      "changeset": 117016541,
+      "user": "Opix",
+      "uid": 6337205,
       "nodes": [665686484, 1468997147],
       "geometry": [
         {"lat": 27.8065112, "lon": -17.9153421, "z": 596.5},
@@ -297,7 +297,10 @@
       "tags": {
         "highway": "residential",
         "name": "Calle Licenciado Bueno",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sidewalk": "right",
+        "smoothness": "intermediate",
+        "surface": "sett"
       }
     },
     {
@@ -412,20 +415,24 @@
     {
       "type": "way",
       "id": 134938812,
-      "timestamp": "2013-11-18T00:20:57Z",
-      "version": 7,
-      "changeset": 18963950,
-      "user": "wicking",
-      "uid": 102755,
+      "timestamp": "2022-02-04T17:50:41Z",
+      "version": 11,
+      "changeset": 117016541,
+      "user": "Opix",
+      "uid": 6337205,
       "nodes": [665686485, 665686484],
       "geometry": [
         {"lat": 27.8067524, "lon": -17.9152298, "z": 592.8},
         {"lat": 27.8065112, "lon": -17.9153421, "z": 596.5}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "primary",
+        "lane_markings": "no",
         "name": "Calle Licenciado Bueno",
-        "ref": "HI-5"
+        "ref": "HI-5",
+        "smoothness": "intermediate",
+        "surface": "sett"
       }
     },
     {
@@ -453,25 +460,31 @@
     {
       "type": "way",
       "id": 134941429,
-      "timestamp": "2015-01-29T14:56:04Z",
-      "version": 3,
-      "changeset": 28487406,
-      "user": "catastro_santa_cruz_de_tenerife",
-      "uid": 617065,
+      "timestamp": "2022-02-04T17:51:37Z",
+      "version": 6,
+      "changeset": 117016541,
+      "user": "Opix",
+      "uid": 6337205,
       "nodes": [1482683818, 1468997199],
       "geometry": [
         {"lat": 27.8057747, "lon": -17.9159153, "z": 613.3},
         {"lat": 27.8055957, "lon": -17.9162171, "z": 620.1},
         {"lat": 27.8055511, "lon": -17.9163415, "z": 622.4}
       ],
-      "tags": {"highway": "residential", "name": "Calle Licenciado Bueno"}
+      "tags": {
+        "highway": "residential",
+        "name": "Calle Licenciado Bueno",
+        "sidewalk": "no",
+        "smoothness": "intermediate",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 134944008,
-      "timestamp": "2022-01-22T18:12:11Z",
-      "version": 8,
-      "changeset": 116475850,
+      "timestamp": "2022-02-04T17:50:25Z",
+      "version": 9,
+      "changeset": 117016541,
       "user": "Opix",
       "uid": 6337205,
       "nodes": [355856478, 355856477],
@@ -486,17 +499,18 @@
         "name": "Calle San Francisco",
         "oneway": "yes",
         "ref": "HI-1",
+        "smoothness": "intermediate",
         "surface": "paving_stones"
       }
     },
     {
       "type": "way",
       "id": 134946521,
-      "timestamp": "2015-02-05T14:04:27Z",
-      "version": 3,
-      "changeset": 28631023,
-      "user": "catastro_santa_cruz_de_tenerife",
-      "uid": 617065,
+      "timestamp": "2022-02-04T17:51:56Z",
+      "version": 7,
+      "changeset": 117016541,
+      "user": "Opix",
+      "uid": 6337205,
       "nodes": [3331924231, 672801476],
       "geometry": [
         {"lat": 27.8054839, "lon": -17.9163944, "z": 623.9},
@@ -506,6 +520,10 @@
         "highway": "residential",
         "layer": "-1",
         "maxheight": "2.25",
+        "name": "Calle Ayala y Barreda",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
         "tunnel": "yes"
       }
     },
@@ -1267,17 +1285,23 @@
     {
       "type": "way",
       "id": 149576717,
-      "timestamp": "2012-02-09T15:35:53Z",
-      "version": 2,
-      "changeset": 10634948,
-      "user": "Javier Sanchez",
-      "uid": 47882,
+      "timestamp": "2022-02-04T17:51:22Z",
+      "version": 5,
+      "changeset": 117016541,
+      "user": "Opix",
+      "uid": 6337205,
       "nodes": [1468997147, 355856478],
       "geometry": [
         {"lat": 27.8063607, "lon": -17.9154028, "z": 599},
         {"lat": 27.8062962, "lon": -17.9152147, "z": 597}
       ],
-      "tags": {"highway": "residential", "name": "Calle San Francisco"}
+      "tags": {
+        "highway": "residential",
+        "name": "Calle San Francisco",
+        "sidewalk": "right",
+        "smoothness": "intermediate",
+        "surface": "sett"
+      }
     },
     {
       "type": "way",
@@ -1337,11 +1361,11 @@
     {
       "type": "way",
       "id": 149576724,
-      "timestamp": "2013-11-18T00:20:57Z",
-      "version": 4,
-      "changeset": 18963950,
-      "user": "wicking",
-      "uid": 102755,
+      "timestamp": "2022-02-04T17:49:54Z",
+      "version": 8,
+      "changeset": 117016541,
+      "user": "Opix",
+      "uid": 6337205,
       "nodes": [355856477, 355856474],
       "geometry": [
         {"lat": 27.8062044, "lon": -17.9149198, "z": 594.3},
@@ -1351,30 +1375,38 @@
         {"lat": 27.8059076, "lon": -17.9139262, "z": 597.3}
       ],
       "tags": {
+        "cycleway:right": "no",
         "highway": "primary",
+        "lane_markings": "no",
         "name": "Calle San Francisco",
         "oneway": "yes",
-        "ref": "HI-1"
+        "ref": "HI-1",
+        "smoothness": "intermediate",
+        "surface": "sett"
       }
     },
     {
       "type": "way",
       "id": 149615367,
-      "timestamp": "2013-09-23T18:57:51Z",
-      "version": 2,
-      "changeset": 17996876,
-      "user": "wicking",
-      "uid": 102755,
+      "timestamp": "2022-02-04T17:50:16Z",
+      "version": 6,
+      "changeset": 117016532,
+      "user": "Opix",
+      "uid": 6337205,
       "nodes": [1625377880, 665686469],
       "geometry": [
         {"lat": 27.8056534, "lon": -17.9135807, "z": 603.2},
         {"lat": 27.8055397, "lon": -17.913395, "z": 605.4}
       ],
       "tags": {
+        "handrail": "no",
         "highway": "steps",
         "incline": "30%",
+        "lit": "yes",
         "name": "Calle San Francisco",
-        "step_count": "24"
+        "ramp": "no",
+        "step_count": "24",
+        "surface": "paving_stones"
       }
     },
     {
@@ -2213,17 +2245,23 @@
     {
       "type": "way",
       "id": 326536626,
-      "timestamp": "2015-02-05T14:04:26Z",
-      "version": 1,
-      "changeset": 28631023,
-      "user": "catastro_santa_cruz_de_tenerife",
-      "uid": 617065,
+      "timestamp": "2022-02-04T17:51:54Z",
+      "version": 5,
+      "changeset": 117016541,
+      "user": "Opix",
+      "uid": 6337205,
       "nodes": [1468997199, 3331924231],
       "geometry": [
         {"lat": 27.8055511, "lon": -17.9163415, "z": 622.4},
         {"lat": 27.8054839, "lon": -17.9163944, "z": 623.9}
       ],
-      "tags": {"highway": "residential"}
+      "tags": {
+        "highway": "residential",
+        "name": "Calle Ayala y Barreda",
+        "sidewalk": "both",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -3381,11 +3419,11 @@
     {
       "type": "way",
       "id": 53165397,
-      "timestamp": "2015-02-13T09:35:03Z",
-      "version": 6,
-      "changeset": 28816502,
-      "user": "catastro_santa_cruz_de_tenerife",
-      "uid": 617065,
+      "timestamp": "2022-02-04T17:50:19Z",
+      "version": 8,
+      "changeset": 117016532,
+      "user": "Opix",
+      "uid": 6337205,
       "nodes": [355856474, 1625377880],
       "geometry": [
         {"lat": 27.8059076, "lon": -17.9139262, "z": 597.3},
@@ -3395,7 +3433,9 @@
       "tags": {
         "highway": "pedestrian",
         "incline": "30%",
+        "lit": "yes",
         "name": "Calle San Francisco",
+        "smoothness": "excellent",
         "surface": "paving_stones"
       }
     },
