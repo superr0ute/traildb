@@ -10974,12 +10974,12 @@
         "@poi": "foodshop_convenience",
         "@distance": 8510.8,
         "@id": "n2688770518",
-        "@changeset": 20757152,
-        "@timestamp": "2014-02-24T19:06:46Z",
-        "@version": 1,
-        "@uid": 1219059,
-        "@user": "linuxUser16",
-        "name": "Go Mart",
+        "@changeset": 117016350,
+        "@timestamp": "2022-02-04T17:44:09Z",
+        "@version": 2,
+        "@uid": 1408522,
+        "@user": "Omnific",
+        "name": "GoMart",
         "shop": "convenience"
       },
       "geometry": {
@@ -11046,16 +11046,16 @@
         "@poi": "foodshop_convenience",
         "@distance": 8852.6,
         "@id": "n2691616794",
-        "@changeset": 20800267,
-        "@timestamp": "2014-02-26T23:12:55Z",
-        "@version": 2,
-        "@uid": 1219059,
-        "@user": "linuxUser16",
+        "@changeset": 117016323,
+        "@timestamp": "2022-02-04T17:43:32Z",
+        "@version": 3,
+        "@uid": 1408522,
+        "@user": "Omnific",
         "addr:city": "Roanoke",
         "addr:country": "US",
         "addr:housenumber": "3518",
         "addr:street": "Williamson Road",
-        "name": "Go Mart",
+        "name": "GoMart",
         "shop": "convenience"
       },
       "geometry": {
@@ -56548,6 +56548,33 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 163.9,
+        "@id": "w730856576",
+        "@changeset": 86024093,
+        "@timestamp": "2020-05-31T23:21:22Z",
+        "@version": 3,
+        "@uid": 187467,
+        "@user": "Mashin",
+        "amenity": "shelter",
+        "attribution": "Appalachian Trail Club",
+        "building": "yes",
+        "fee": "no",
+        "name": "Riga Lean-to",
+        "operator": "AMC - Connecticut Chapter",
+        "shelter_type": "lean_to"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.4520269,
+          42.0156293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "campsite",
         "@distance": 1564.1,
         "@id": "n2330052730",
@@ -60085,33 +60112,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
-        "@distance": 163.9,
-        "@id": "w730856576",
-        "@changeset": 86024093,
-        "@timestamp": "2020-05-31T23:21:22Z",
-        "@version": 3,
-        "@uid": 187467,
-        "@user": "Mashin",
-        "amenity": "shelter",
-        "attribution": "Appalachian Trail Club",
-        "building": "yes",
-        "fee": "no",
-        "name": "Riga Lean-to",
-        "operator": "AMC - Connecticut Chapter",
-        "shelter_type": "lean_to"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.4520269,
-          42.0156293
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
         "@distance": 92.4,
         "@id": "w847048868",
         "@changeset": 92609192,
@@ -61804,36 +61804,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 1260.1,
-        "@id": "w717770299",
-        "@changeset": 73684951,
-        "@timestamp": "2019-08-23T22:10:39Z",
-        "@version": 1,
-        "@uid": 2517421,
-        "@user": "pa_roads",
-        "addr:city": "Carlisle",
-        "addr:country": "US",
-        "addr:housenumber": "1501",
-        "addr:postcode": "17015",
-        "addr:state": "PA",
-        "addr:street": "Harrisburg Pike",
-        "building": "yes",
-        "name": "Flying J",
-        "opening_hours": "24/7",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -77.1230209,
-          40.2351295
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 5635.4,
         "@id": "w267704567",
@@ -62951,6 +62921,36 @@
         "coordinates": [
           -77.7791003,
           39.2272459
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 1260.1,
+        "@id": "w717770299",
+        "@changeset": 73684951,
+        "@timestamp": "2019-08-23T22:10:39Z",
+        "@version": 1,
+        "@uid": 2517421,
+        "@user": "pa_roads",
+        "addr:city": "Carlisle",
+        "addr:country": "US",
+        "addr:housenumber": "1501",
+        "addr:postcode": "17015",
+        "addr:state": "PA",
+        "addr:street": "Harrisburg Pike",
+        "building": "yes",
+        "name": "Flying J",
+        "opening_hours": "24/7",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.1230209,
+          40.2351295
         ]
       }
     },
