@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-06T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-07T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -660,11 +660,11 @@
     {
       "type": "relation",
       "id": 9243530,
-      "timestamp": "2021-10-16T17:42:29Z",
-      "version": 17,
-      "changeset": 112588247,
-      "user": "mfbehrens99",
-      "uid": 9645335,
+      "timestamp": "2022-02-07T21:02:52Z",
+      "version": 19,
+      "changeset": 117135964,
+      "user": "Jrachi",
+      "uid": 2976645,
       "members": [
         {"type": "way", "ref": 665318558, "role": "approach"},
         {"type": "way", "ref": 686439149, "role": "approach"},
@@ -678,9 +678,11 @@
         {"type": "way", "ref": 571516172, "role": "main"},
         {"type": "way", "ref": 269616355, "role": "main"},
         {"type": "way", "ref": 208193538, "role": "main"},
+        {"type": "way", "ref": 1029108792, "role": "main"},
         {"type": "way", "ref": 379544761, "role": "main"},
         {"type": "way", "ref": 332547012, "role": "main"},
         {"type": "way", "ref": 563380509, "role": "main"},
+        {"type": "way", "ref": 1029107500, "role": "main"},
         {"type": "way", "ref": 300299246, "role": "main"},
         {"type": "way", "ref": 323469907, "role": "main"},
         {"type": "way", "ref": 295390071, "role": "main"},
@@ -689,6 +691,7 @@
         {"type": "way", "ref": 323556062, "role": "main"},
         {"type": "way", "ref": 698489688, "role": "main"},
         {"type": "way", "ref": 698489689, "role": "main"},
+        {"type": "way", "ref": 1029107497, "role": "main"},
         {"type": "way", "ref": 295405582, "role": "main"},
         {"type": "way", "ref": 682530144, "role": "main"},
         {"type": "way", "ref": 682530143, "role": "main"},
@@ -925,23 +928,95 @@
     },
     {
       "type": "way",
+      "id": 1029107497,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 1,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
+      "nodes": [2089754812, 2991159534],
+      "geometry": [
+        {"lat": 45.8505414, "lon": 7.9345861},
+        {"lat": 45.8505984, "lon": 7.9346609},
+        {"lat": 45.850661, "lon": 7.9347561},
+        {"lat": 45.8507189, "lon": 7.9349439},
+        {"lat": 45.850774, "lon": 7.9351745},
+        {"lat": 45.8508506, "lon": 7.9353744},
+        {"lat": 45.8509067, "lon": 7.9355018},
+        {"lat": 45.8509197, "lon": 7.9356077},
+        {"lat": 45.8509301, "lon": 7.9357506},
+        {"lat": 45.8509521, "lon": 7.9358197},
+        {"lat": 45.8509356, "lon": 7.9358751}
+      ],
+      "tags": {
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "surface": "unpaved",
+        "trail_visibility": "good"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029107500,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 1,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
+      "nodes": [2089754742, 2089754736],
+      "geometry": [
+        {"lat": 45.8461653, "lon": 7.9022923},
+        {"lat": 45.8461349, "lon": 7.9023441},
+        {"lat": 45.8460669, "lon": 7.9024598}
+      ],
+      "tags": {
+        "highway": "track",
+        "mtb:scale": "2",
+        "sac_scale": "mountain_hiking",
+        "surface": "unpaved",
+        "tracktype": "grade4",
+        "trail_visibility": "good"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029108792,
+      "timestamp": "2022-02-07T21:02:52Z",
+      "version": 1,
+      "changeset": 117135964,
+      "user": "Jrachi",
+      "uid": 2976645,
+      "nodes": [2188621808, 2188621792],
+      "geometry": [
+        {"lat": 45.8598762, "lon": 7.8923665},
+        {"lat": 45.8597978, "lon": 7.8925073},
+        {"lat": 45.8597943, "lon": 7.8926313}
+      ],
+      "tags": {
+        "highway": "path",
+        "sac_scale": "demanding_mountain_hiking",
+        "surface": "ground",
+        "trail_visibility": "good"
+      }
+    },
+    {
+      "type": "way",
       "id": 104685665,
-      "timestamp": "2020-02-03T03:30:23Z",
-      "version": 11,
-      "changeset": 80452231,
+      "timestamp": "2022-02-07T16:46:15Z",
+      "version": 12,
+      "changeset": 117127315,
       "user": "chatelao",
       "uid": 338449,
       "nodes": [2765116629, 5907821834],
       "geometry": [
-        {"lat": 46.111062, "lon": 7.9294111},
-        {"lat": 46.1111619, "lon": 7.9295513},
-        {"lat": 46.1112674, "lon": 7.9296831},
+        {"lat": 46.1110715, "lon": 7.9294285},
+        {"lat": 46.1111783, "lon": 7.9295787},
+        {"lat": 46.1112803, "lon": 7.929698},
         {"lat": 46.1113524, "lon": 7.9297967},
         {"lat": 46.1114747, "lon": 7.9299286},
-        {"lat": 46.1116468, "lon": 7.9300935},
-        {"lat": 46.1117565, "lon": 7.9301949},
-        {"lat": 46.111761, "lon": 7.9301991},
-        {"lat": 46.1118923, "lon": 7.9303257},
+        {"lat": 46.1116668, "lon": 7.9301103},
+        {"lat": 46.1117789, "lon": 7.9302223},
+        {"lat": 46.1119139, "lon": 7.9303481},
         {"lat": 46.112067, "lon": 7.9304972},
         {"lat": 46.1122111, "lon": 7.9306192}
       ],
@@ -971,7 +1046,7 @@
         {"lat": 46.1107342, "lon": 7.9288191},
         {"lat": 46.1108121, "lon": 7.9289623},
         {"lat": 46.1109719, "lon": 7.9292496},
-        {"lat": 46.111062, "lon": 7.9294111}
+        {"lat": 46.1110715, "lon": 7.9294285}
       ],
       "tags": {
         "bicycle": "yes",
@@ -4433,11 +4508,11 @@
     {
       "type": "way",
       "id": 158655790,
-      "timestamp": "2019-01-04T15:57:45Z",
-      "version": 6,
-      "changeset": 66026021,
-      "user": "Andrea Musuruane",
-      "uid": 90379,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 7,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [752266801, 752266802],
       "geometry": [
         {"lat": 45.8540245, "lon": 7.9373557},
@@ -4448,7 +4523,7 @@
       "tags": {
         "highway": "residential",
         "name": "Via dei Walser",
-        "source": "PCN Orthophoto",
+        "sac_scale": "hiking",
         "surface": "asphalt"
       }
     },
@@ -4727,11 +4802,11 @@
     {
       "type": "way",
       "id": 177706065,
-      "timestamp": "2014-08-05T12:50:13Z",
-      "version": 5,
-      "changeset": 24555317,
-      "user": "nuvolabianca",
-      "uid": 439413,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 6,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [752266831, 752266842],
       "geometry": [
         {"lat": 45.8546982, "lon": 7.9373134},
@@ -4743,7 +4818,7 @@
         {"lat": 45.8552035, "lon": 7.9372217},
         {"lat": 45.855286, "lon": 7.9372474}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {"highway": "tertiary", "sac_scale": "hiking"}
     },
     {
       "type": "way",
@@ -5026,11 +5101,11 @@
     {
       "type": "way",
       "id": 208022324,
-      "timestamp": "2019-06-01T09:09:54Z",
-      "version": 8,
-      "changeset": 70830888,
-      "user": "Alecs01",
-      "uid": 1476146,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 9,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1272336919, 1272337060],
       "geometry": [
         {"lat": 45.8661344, "lon": 7.9365784},
@@ -5153,7 +5228,7 @@
       "tags": {
         "highway": "unclassified",
         "motor_vehicle": "no",
-        "source": "pcn 2006",
+        "sac_scale": "hiking",
         "surface": "asphalt"
       }
     },
@@ -5665,12 +5740,12 @@
     {
       "type": "way",
       "id": 208193538,
-      "timestamp": "2015-03-13T16:00:10Z",
-      "version": 5,
-      "changeset": 29452227,
-      "user": "nuvolabianca",
-      "uid": 439413,
-      "nodes": [874285305, 2188621792],
+      "timestamp": "2022-02-07T21:02:52Z",
+      "version": 7,
+      "changeset": 117135964,
+      "user": "Jrachi",
+      "uid": 2976645,
+      "nodes": [874285305, 2188621808],
       "geometry": [
         {"lat": 45.864649, "lon": 7.8817452},
         {"lat": 45.8645903, "lon": 7.8817746},
@@ -5756,17 +5831,12 @@
         {"lat": 45.8600549, "lon": 7.8920348},
         {"lat": 45.8599982, "lon": 7.8921318},
         {"lat": 45.8599285, "lon": 7.8922727},
-        {"lat": 45.8598762, "lon": 7.8923665},
-        {"lat": 45.8597978, "lon": 7.8925073},
-        {"lat": 45.8597943, "lon": 7.8926313}
+        {"lat": 45.8598762, "lon": 7.8923665}
       ],
       "tags": {
         "highway": "path",
-        "name": "Tour del Monte Rosa",
         "operator": "CAI - Club Alpino Italiano",
-        "ref": "TMR-205b (ex 5b)",
         "sac_scale": "demanding_mountain_hiking",
-        "source": "gps+pcn2012",
         "surface": "ground",
         "trail_visibility": "good"
       }
@@ -5828,11 +5898,11 @@
     {
       "type": "way",
       "id": 208490200,
-      "timestamp": "2019-06-01T09:09:54Z",
-      "version": 3,
-      "changeset": 70830888,
-      "user": "Alecs01",
-      "uid": 1476146,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 4,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [813401007, 1272336919],
       "geometry": [
         {"lat": 45.8596807, "lon": 7.9356939},
@@ -5862,7 +5932,7 @@
         {"lat": 45.8635394, "lon": 7.9357803},
         {"lat": 45.8638415, "lon": 7.9358919},
         {"lat": 45.863997, "lon": 7.9359509},
-        {"lat": 45.8642059, "lon": 7.9360065},
+        {"lat": 45.8642611, "lon": 7.9360329},
         {"lat": 45.8644372, "lon": 7.9360619},
         {"lat": 45.8645896, "lon": 7.936065},
         {"lat": 45.8647311, "lon": 7.9360918},
@@ -5874,18 +5944,18 @@
       ],
       "tags": {
         "highway": "unclassified",
-        "source": "PCN Orthophoto",
+        "sac_scale": "hiking",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 208586192,
-      "timestamp": "2015-01-22T00:04:40Z",
-      "version": 3,
-      "changeset": 28317636,
-      "user": "popilen",
-      "uid": 2212883,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 4,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [2188675526, 2188675647],
       "geometry": [
         {"lat": 45.8437289, "lon": 7.9157787},
@@ -5932,7 +6002,6 @@
       "tags": {
         "highway": "path",
         "sac_scale": "mountain_hiking",
-        "source": "pcn 2006",
         "surface": "unpaved",
         "trail_visibility": "intermediate"
       }
@@ -8708,11 +8777,11 @@
     {
       "type": "way",
       "id": 269616355,
-      "timestamp": "2018-03-21T03:32:48Z",
-      "version": 2,
-      "changeset": 57371596,
-      "user": "popilen",
-      "uid": 2212883,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 3,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [874285305, 2185193298],
       "geometry": [
         {"lat": 45.864649, "lon": 7.8817452},
@@ -8940,11 +9009,8 @@
       ],
       "tags": {
         "highway": "path",
-        "name": "Tour del Monte Rosa",
         "operator": "CAI - Club Alpino Italiano",
-        "ref": "205 (ex 5)-TMR",
         "sac_scale": "mountain_hiking",
-        "source": "pcn 2006",
         "surface": "ground",
         "trail_visibility": "good"
       }
@@ -8998,11 +9064,11 @@
     {
       "type": "way",
       "id": 295390071,
-      "timestamp": "2015-01-21T17:11:40Z",
-      "version": 2,
-      "changeset": 28310461,
-      "user": "popilen",
-      "uid": 2212883,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 3,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [2188675526, 2990962086],
       "geometry": [
         {"lat": 45.8437289, "lon": 7.9157787},
@@ -9024,7 +9090,7 @@
         {"lat": 45.8434099, "lon": 7.9139694},
         {"lat": 45.8433445, "lon": 7.9138219}
       ],
-      "tags": {"foot": "yes", "highway": "path", "trail_visibility": "good"}
+      "tags": {"highway": "path", "trail_visibility": "good"}
     },
     {
       "type": "way",
@@ -9189,11 +9255,11 @@
     {
       "type": "way",
       "id": 300299246,
-      "timestamp": "2019-08-26T20:08:09Z",
-      "version": 9,
-      "changeset": 73768731,
-      "user": "Black Devil",
-      "uid": 1856478,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 10,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [2089754736, 2188675599],
       "geometry": [
         {"lat": 45.8460669, "lon": 7.9024598},
@@ -9353,11 +9419,8 @@
         {"lat": 45.8439233, "lon": 7.9141058}
       ],
       "tags": {
-        "bicycle": "yes",
         "highway": "track",
         "mtb:scale": "2",
-        "name": "Tour del Monte Rosa",
-        "ref": "203 (ex 3)-203b (ex 3b)-TMR",
         "sac_scale": "mountain_hiking",
         "surface": "unpaved",
         "tracktype": "grade4",
@@ -10145,11 +10208,11 @@
     {
       "type": "way",
       "id": 323469907,
-      "timestamp": "2019-01-22T14:24:44Z",
-      "version": 3,
-      "changeset": 66539483,
-      "user": "Francoerbi41",
-      "uid": 4982687,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 4,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [2188675599, 2990962086],
       "geometry": [
         {"lat": 45.8439233, "lon": 7.9141058},
@@ -10160,13 +10223,9 @@
         {"lat": 45.8433445, "lon": 7.9138219}
       ],
       "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "track",
-        "horse": "yes",
         "mtb:scale": "1",
         "sac_scale": "mountain_hiking",
-        "source": "pcn",
         "surface": "unpaved",
         "tracktype": "grade4",
         "trail_visibility": "intermediate"
@@ -10175,11 +10234,11 @@
     {
       "type": "way",
       "id": 323556062,
-      "timestamp": "2019-09-29T16:30:30Z",
-      "version": 6,
-      "changeset": 75066710,
-      "user": "Luvot",
-      "uid": 1343743,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 7,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [2188676234, 2089754769],
       "geometry": [
         {"lat": 45.844869, "lon": 7.9218286},
@@ -10325,8 +10384,6 @@
       "tags": {
         "highway": "path",
         "mtb:scale": "3",
-        "name": "Tour del Monte Rosa",
-        "ref": "203 (ex 3)-203b (ex 3b)-TMR",
         "sac_scale": "mountain_hiking",
         "surface": "unpaved",
         "trail_visibility": "good"
@@ -10335,11 +10392,11 @@
     {
       "type": "way",
       "id": 332547012,
-      "timestamp": "2019-08-26T20:08:09Z",
-      "version": 3,
-      "changeset": 73768731,
-      "user": "Black Devil",
-      "uid": 1856478,
+      "timestamp": "2022-02-07T21:02:52Z",
+      "version": 5,
+      "changeset": 117135964,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [2188621082, 2188676622],
       "geometry": [
         {"lat": 45.8563544, "lon": 7.8980229},
@@ -10631,11 +10688,7 @@
       ],
       "tags": {
         "highway": "path",
-        "name": "Tour del Monte Rosa",
-        "operator": "CAI - Club Alpino Italiano",
-        "ref": "TMR-203b (ex 3b)",
         "sac_scale": "demanding_mountain_hiking",
-        "source": "bing+gps",
         "surface": "ground",
         "trail_visibility": "good"
       }
@@ -11496,11 +11549,11 @@
     {
       "type": "way",
       "id": 379544761,
-      "timestamp": "2019-08-26T20:08:09Z",
-      "version": 3,
-      "changeset": 73768731,
-      "user": "Black Devil",
-      "uid": 1856478,
+      "timestamp": "2022-02-07T21:02:52Z",
+      "version": 5,
+      "changeset": 117135964,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [2188621792, 2188621082],
       "geometry": [
         {"lat": 45.8597943, "lon": 7.8926313},
@@ -11583,11 +11636,7 @@
       ],
       "tags": {
         "highway": "path",
-        "name": "Tour del Monte Rosa",
-        "operator": "CAI - Club Alpino Italiano",
-        "ref": "TMR-203b (ex 3b)",
         "sac_scale": "demanding_mountain_hiking",
-        "source": "bing+gps",
         "surface": "ground",
         "trail_visibility": "intermediate"
       }
@@ -14979,12 +15028,12 @@
     {
       "type": "way",
       "id": 563380509,
-      "timestamp": "2019-08-26T20:08:09Z",
-      "version": 2,
-      "changeset": 73768731,
-      "user": "Black Devil",
-      "uid": 1856478,
-      "nodes": [2188676622, 2089754736],
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 3,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
+      "nodes": [2188676622, 2089754742],
       "geometry": [
         {"lat": 45.8465208, "lon": 7.9017155},
         {"lat": 45.8464881, "lon": 7.9017379},
@@ -14995,16 +15044,11 @@
         {"lat": 45.8463282, "lon": 7.9020649},
         {"lat": 45.846314, "lon": 7.9021313},
         {"lat": 45.8462287, "lon": 7.9022293},
-        {"lat": 45.8461653, "lon": 7.9022923},
-        {"lat": 45.8461349, "lon": 7.9023441},
-        {"lat": 45.8460669, "lon": 7.9024598}
+        {"lat": 45.8461653, "lon": 7.9022923}
       ],
       "tags": {
-        "bicycle": "yes",
         "highway": "track",
         "mtb:scale": "2",
-        "name": "Tour del Monte Rosa",
-        "ref": "203 (ex 3)-203b (ex 3b)-TMR",
         "sac_scale": "mountain_hiking",
         "surface": "unpaved",
         "tracktype": "grade4",
@@ -15317,26 +15361,31 @@
     {
       "type": "way",
       "id": 60433340,
-      "timestamp": "2014-07-04T10:05:52Z",
-      "version": 2,
-      "changeset": 23915542,
-      "user": "Andrea Musuruane",
-      "uid": 90379,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 3,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [752266842, 752266844],
       "geometry": [
         {"lat": 45.855286, "lon": 7.9372474},
         {"lat": 45.8553664, "lon": 7.9372705}
       ],
-      "tags": {"bridge": "yes", "highway": "tertiary", "layer": "1"}
+      "tags": {
+        "bridge": "yes",
+        "highway": "tertiary",
+        "layer": "1",
+        "sac_scale": "hiking"
+      }
     },
     {
       "type": "way",
       "id": 60433346,
-      "timestamp": "2016-11-23T02:33:38Z",
-      "version": 14,
-      "changeset": 43885275,
-      "user": "popilen",
-      "uid": 2212883,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 15,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [752266844, 813401007],
       "geometry": [
         {"lat": 45.8553664, "lon": 7.9372705},
@@ -15379,7 +15428,7 @@
       ],
       "tags": {
         "highway": "tertiary",
-        "source": "PCN Orthophoto",
+        "sac_scale": "hiking",
         "surface": "asphalt"
       }
     },
@@ -16027,11 +16076,11 @@
     {
       "type": "way",
       "id": 660521493,
-      "timestamp": "2019-01-04T15:57:45Z",
-      "version": 1,
-      "changeset": 66026021,
-      "user": "Andrea Musuruane",
-      "uid": 90379,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 2,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [752266802, 752266831],
       "geometry": [
         {"lat": 45.8541967, "lon": 7.9373535},
@@ -16049,7 +16098,7 @@
       "tags": {
         "highway": "residential",
         "name": "Piazza degli Alberghi",
-        "source": "PCN Orthophoto",
+        "sac_scale": "hiking",
         "surface": "asphalt"
       }
     },
@@ -16391,11 +16440,11 @@
     {
       "type": "way",
       "id": 664206396,
-      "timestamp": "2019-01-17T18:31:23Z",
-      "version": 1,
-      "changeset": 66404546,
-      "user": "rbon56",
-      "uid": 7903615,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 2,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [1272337060, 4960210511],
       "geometry": [
         {"lat": 45.878527, "lon": 7.9346322},
@@ -16506,9 +16555,7 @@
       ],
       "tags": {
         "highway": "path",
-        "ref": "206 (ex 6)",
         "sac_scale": "mountain_hiking",
-        "source": "pcn 2006",
         "surface": "ground",
         "trail_visibility": "good"
       }
@@ -17434,11 +17481,11 @@
     {
       "type": "way",
       "id": 665331127,
-      "timestamp": "2019-08-26T20:08:09Z",
-      "version": 2,
-      "changeset": 73768731,
-      "user": "Black Devil",
-      "uid": 1856478,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 3,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [2188675647, 2188676234],
       "geometry": [
         {"lat": 45.8440207, "lon": 7.918445},
@@ -17481,11 +17528,8 @@
         {"lat": 45.844869, "lon": 7.9218286}
       ],
       "tags": {
-        "bicycle": "yes",
         "highway": "track",
         "mtb:scale": "2",
-        "name": "Tour del Monte Rosa",
-        "ref": "203 (ex 3)-203b (ex 3b)-TMR",
         "sac_scale": "mountain_hiking",
         "surface": "unpaved",
         "tracktype": "grade4",
@@ -17561,11 +17605,11 @@
     {
       "type": "way",
       "id": 682530143,
-      "timestamp": "2019-04-08T20:37:57Z",
-      "version": 1,
-      "changeset": 69022322,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 2,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [2187559333, 752266801],
       "geometry": [
         {"lat": 45.8536733, "lon": 7.9370388},
@@ -17576,22 +17620,22 @@
         {"lat": 45.8538924, "lon": 7.9372849},
         {"lat": 45.8540245, "lon": 7.9373557}
       ],
-      "tags": {"highway": "residential", "source": "PCN Orthophoto"}
+      "tags": {"highway": "residential", "sac_scale": "hiking"}
     },
     {
       "type": "way",
       "id": 682530144,
-      "timestamp": "2019-04-08T20:37:57Z",
-      "version": 1,
-      "changeset": 69022322,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 2,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [2991151012, 2187559333],
       "geometry": [
         {"lat": 45.8536241, "lon": 7.9370876},
         {"lat": 45.8536733, "lon": 7.9370388}
       ],
-      "tags": {"highway": "pedestrian"}
+      "tags": {"highway": "pedestrian", "sac_scale": "hiking"}
     },
     {
       "type": "way",
@@ -18018,11 +18062,11 @@
     {
       "type": "way",
       "id": 698489688,
-      "timestamp": "2019-09-29T16:30:30Z",
-      "version": 2,
-      "changeset": 75066710,
-      "user": "Luvot",
-      "uid": 1343743,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 3,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [2089754769, 2089754794],
       "geometry": [
         {"lat": 45.8467177, "lon": 7.9332336},
@@ -18050,8 +18094,6 @@
       ],
       "tags": {
         "highway": "path",
-        "name": "Tour del Monte Rosa",
-        "ref": "203 (ex 3)-203b (ex 3b)-TMR",
         "sac_scale": "mountain_hiking",
         "surface": "unpaved",
         "trail_visibility": "good"
@@ -18060,12 +18102,12 @@
     {
       "type": "way",
       "id": 698489689,
-      "timestamp": "2019-06-20T07:29:45Z",
-      "version": 1,
-      "changeset": 71430505,
-      "user": "AlfredoSP",
-      "uid": 2175620,
-      "nodes": [2089754794, 2991159534],
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 2,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
+      "nodes": [2089754794, 2089754812],
       "geometry": [
         {"lat": 45.84859, "lon": 7.9341738},
         {"lat": 45.8487048, "lon": 7.9341305},
@@ -18083,22 +18125,10 @@
         {"lat": 45.8502645, "lon": 7.9343125},
         {"lat": 45.8503498, "lon": 7.934323},
         {"lat": 45.8504448, "lon": 7.9343649},
-        {"lat": 45.8505414, "lon": 7.9345861},
-        {"lat": 45.8505984, "lon": 7.9346609},
-        {"lat": 45.850661, "lon": 7.9347561},
-        {"lat": 45.8507189, "lon": 7.9349439},
-        {"lat": 45.850774, "lon": 7.9351745},
-        {"lat": 45.8508506, "lon": 7.9353744},
-        {"lat": 45.8509067, "lon": 7.9355018},
-        {"lat": 45.8509197, "lon": 7.9356077},
-        {"lat": 45.8509301, "lon": 7.9357506},
-        {"lat": 45.8509521, "lon": 7.9358197},
-        {"lat": 45.8509356, "lon": 7.9358751}
+        {"lat": 45.8505414, "lon": 7.9345861}
       ],
       "tags": {
         "highway": "path",
-        "name": "Tour del Monte Rosa",
-        "ref": "203 (ex 3)-203b (ex 3b)-TMR",
         "sac_scale": "mountain_hiking",
         "surface": "unpaved",
         "trail_visibility": "good"
@@ -18148,22 +18178,17 @@
     {
       "type": "way",
       "id": 704777189,
-      "timestamp": "2019-07-16T08:37:53Z",
-      "version": 1,
-      "changeset": 72293656,
-      "user": "marcogino",
-      "uid": 1550808,
+      "timestamp": "2022-02-07T20:53:39Z",
+      "version": 2,
+      "changeset": 117135659,
+      "user": "Jrachi",
+      "uid": 2976645,
       "nodes": [917994903, 1350769864],
       "geometry": [
         {"lat": 45.8570765, "lon": 7.846893},
         {"lat": 45.8573005, "lon": 7.8467775}
       ],
-      "tags": {
-        "highway": "track",
-        "ref": "6",
-        "source": "GPS",
-        "tracktype": "grade2"
-      }
+      "tags": {"highway": "track", "sac_scale": "hiking", "tracktype": "grade2"}
     },
     {
       "type": "way",
