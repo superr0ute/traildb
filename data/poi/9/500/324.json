@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-06T23:59:59Z",
-    "timestamp_osm_base": "2022-02-07T06:17:21Z",
+    "timestamp_osm_date": "2022-02-07T23:59:59Z",
+    "timestamp_osm_base": "2022-02-08T05:53:23Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -289,18 +289,28 @@
       "id": 377480473,
       "lat": -43.0968675,
       "lon": 171.6916187,
-      "timestamp": "2021-02-17T09:54:16Z",
-      "version": 8,
-      "changeset": 99440480,
-      "user": "petenz",
-      "uid": 38928,
+      "timestamp": "2022-02-07T08:08:41Z",
+      "version": 9,
+      "changeset": 117106995,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
-        "amenity": "shelter",
         "building": "yes",
+        "drinking_water": "no",
         "ele": "1150",
+        "fireplace": "yes",
+        "mattress": "yes",
         "name": "Cass Saddle Hut",
+        "operator": "Department of Conservation",
+        "operator:wikidata": "Q1191417",
+        "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100060889",
-        "tourism": "wilderness_hut"
+        "ref:linz:topo50_id": "5395752",
+        "reservation": "no",
+        "toilets": "yes",
+        "toilets:disposal": "pitlatrine",
+        "tourism": "wilderness_hut",
+        "website": "https://doc.govt.nz/link/626d11ba02db4ababe01c45653240f47"
       }
     },
     {
@@ -338,27 +348,6 @@
         "natural": "saddle",
         "note": "elev approximate",
         "place": "locality"
-      }
-    },
-    {
-      "type": "node",
-      "id": 516899977,
-      "lat": -43.1942522,
-      "lon": 171.8877779,
-      "timestamp": "2021-08-08T04:29:05Z",
-      "version": 8,
-      "changeset": 109330871,
-      "user": "petenz",
-      "uid": 38928,
-      "tags": {
-        "building": "yes",
-        "capacity": "6",
-        "ele": "400",
-        "fee": "yes",
-        "fireplace": "yes",
-        "name": "Avoca Homestead",
-        "ref:doc": "100054371",
-        "tourism": "wilderness_hut"
       }
     },
     {
@@ -487,17 +476,28 @@
       "id": 1225158751,
       "lat": -43.1123482,
       "lon": 171.975532,
-      "timestamp": "2021-05-07T02:29:54Z",
-      "version": 4,
-      "changeset": 104281423,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-02-07T08:08:41Z",
+      "version": 5,
+      "changeset": 117106995,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
+        "drinking_water": "no",
+        "fireplace": "yes",
+        "mattress": "no",
         "name": "Puketeraki Bivouac",
+        "operator": "Department of Conservation",
+        "operator:wikidata": "Q1191417",
+        "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100034521",
+        "ref:linz:topo50_id": "5395878",
+        "reservation": "no",
         "shelter_type": "lean_to",
         "source": "LINZ",
-        "tourism": "wilderness_hut"
+        "toilets": "yes",
+        "toilets:disposal": "pitlatrine",
+        "tourism": "wilderness_hut",
+        "website": "https://doc.govt.nz/link/196ad2381f8e479a832971cd3b919e92"
       }
     },
     {
@@ -521,24 +521,36 @@
     {
       "type": "node",
       "id": 1432384766,
-      "lat": -43.1518609,
-      "lon": 171.7313284,
-      "timestamp": "2019-12-12T04:19:00Z",
-      "version": 7,
-      "changeset": 78292835,
-      "user": "Jeroen Peelaerts",
-      "uid": 3388024,
+      "lat": -43.1506242,
+      "lon": 171.7309636,
+      "timestamp": "2022-02-07T07:38:53Z",
+      "version": 8,
+      "changeset": 117105949,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
         "backcountry": "yes",
+        "capacity:caravans": "0",
+        "capacity:tents": "10",
         "caravans": "no",
+        "description": "This campsite is set in a landscape of beech forest, tussock and rugged mountains with mountain biking nearby.",
+        "dog": "leashed",
+        "drinking_water": "untreated",
         "fee": "yes",
-        "name": "Mistletoe Flat",
+        "name": "Mistletoe Flats Campsite",
         "operator": "Department of Conservation",
-        "reservation": "no",
+        "operator:wikidata": "Q1191417",
+        "operator:wikipedia": "en:Department of Conservation (New Zealand)",
+        "ref:doc": "100043673",
+        "reservation": "required",
         "services": "none",
+        "shelter": "yes",
         "tents": "yes",
+        "toilets": "yes",
+        "toilets:disposal": "pitlatrine",
         "tourism": "camp_site",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/craigieburn-forest-park/things-to-do/campsites/mistletoe-flats-campsite/"
+        "website": "https://doc.govt.nz/link/01f462ef4ae94fbdb2b897e4693a9d62",
+        "wheelchair": "limited"
       }
     },
     {
@@ -822,20 +834,30 @@
       "id": 2246820564,
       "lat": -43.0940972,
       "lon": 171.7793772,
-      "timestamp": "2019-12-13T04:14:41Z",
-      "version": 4,
-      "changeset": 78349077,
-      "user": "Jeroen Peelaerts",
-      "uid": 3388024,
+      "timestamp": "2022-02-07T08:08:41Z",
+      "version": 5,
+      "changeset": 117106995,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
+        "capacity:caravans": "0",
+        "capacity:tents": "20",
         "caravans": "yes",
+        "description": "Camp beside a high-country lake in the Waimakariri Basin; a good base for bird watching.",
+        "dog": "no",
+        "drinking_water": "untreated",
         "fee": "yes",
-        "name": "Lake Pearson",
+        "name": "Lake Pearson (Moana Rua) Campsite",
         "operator": "Department of Conservation",
-        "reservation": "no",
+        "operator:wikidata": "Q1191417",
+        "operator:wikipedia": "en:Department of Conservation (New Zealand)",
+        "ref:doc": "100044421",
+        "reservation": "required",
         "tents": "yes",
+        "toilets": "yes",
+        "toilets:disposal": "pitlatrine",
         "tourism": "camp_site",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/craigieburn-forest-park/things-to-do/campsites/lake-pearson-moana-rua-campsite/"
+        "website": "https://doc.govt.nz/link/abce34f6b09948fd9900611277987b01"
       }
     },
     {
@@ -1542,11 +1564,11 @@
     {
       "type": "way",
       "id": 675884210,
-      "timestamp": "2021-08-08T04:29:05Z",
-      "version": 3,
-      "changeset": 109330871,
-      "user": "petenz",
-      "uid": 38928,
+      "timestamp": "2022-02-07T08:08:41Z",
+      "version": 4,
+      "changeset": 117106995,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "center": {
         "lat": -43.1942357,
         "lon": 171.8877773
@@ -1555,20 +1577,31 @@
       "tags": {
         "building": "yes",
         "capacity": "6",
+        "drinking_water": "untreated",
+        "ele": "400",
+        "fee": "yes",
+        "fireplace": "yes",
+        "mattress": "yes",
         "name": "Avoca Homestead",
         "operator": "Department of Conservation",
+        "operator:wikidata": "Q1191417",
+        "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100054371",
-        "tourism": "wilderness_hut"
+        "reservation": "no",
+        "toilets": "yes",
+        "toilets:disposal": "pitlatrine",
+        "tourism": "wilderness_hut",
+        "website": "https://doc.govt.nz/link/d01de05f9d9d485c971a1218b4629a5d"
       }
     },
     {
       "type": "way",
       "id": 894107560,
-      "timestamp": "2021-06-22T23:22:29Z",
-      "version": 2,
-      "changeset": 106802166,
-      "user": "EliotB",
-      "uid": 87274,
+      "timestamp": "2022-02-07T08:08:41Z",
+      "version": 3,
+      "changeset": 117106995,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "center": {
         "lat": -43.1977361,
         "lon": 172.0404572
@@ -1576,20 +1609,31 @@
       "nodes": [],
       "tags": {
         "building": "yes",
+        "drinking_water": "no",
         "ele": "500",
+        "fireplace": "yes",
+        "mattress": "yes",
         "name": "Wharfedale Hut",
+        "operator": "Department of Conservation",
+        "operator:wikidata": "Q1191417",
+        "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100061399",
-        "tourism": "wilderness_hut"
+        "ref:linz:topo50_id": "5399076",
+        "reservation": "no",
+        "toilets": "yes",
+        "toilets:disposal": "pitlatrine",
+        "tourism": "wilderness_hut",
+        "website": "https://doc.govt.nz/link/ef145317bdaf4808b95b710a2021f045"
       }
     },
     {
       "type": "way",
       "id": 908021621,
-      "timestamp": "2021-02-17T10:11:49Z",
-      "version": 1,
-      "changeset": 99441832,
-      "user": "petenz",
-      "uid": 38928,
+      "timestamp": "2022-02-07T07:38:53Z",
+      "version": 2,
+      "changeset": 117105949,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "center": {
         "lat": -43.1293245,
         "lon": 171.6299216
@@ -1598,24 +1642,31 @@
       "tags": {
         "building": "yes",
         "capacity": "20",
+        "drinking_water": "untreated",
         "fee": "yes",
         "fireplace": "yes",
         "mattress": "yes",
         "name": "Hamilton Hut",
         "operator": "Department of Conservation",
+        "operator:wikidata": "Q1191417",
+        "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100063461",
+        "ref:linz:topo50_id": "5391545",
+        "reservation": "no",
+        "toilets": "yes",
+        "toilets:disposal": "pitlatrine",
         "tourism": "wilderness_hut",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/craigieburn-forest-park/things-to-do/huts/hamilton-hut/"
+        "website": "https://doc.govt.nz/link/4a41150c50884c8aac115ac9f6e1038c"
       }
     },
     {
       "type": "way",
       "id": 971608953,
-      "timestamp": "2021-08-09T10:39:51Z",
-      "version": 1,
-      "changeset": 109398295,
-      "user": "petenz",
-      "uid": 38928,
+      "timestamp": "2022-02-07T07:38:53Z",
+      "version": 2,
+      "changeset": 117105949,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "center": {
         "lat": -43.3689839,
         "lon": 171.7564753
@@ -1624,23 +1675,31 @@
       "tags": {
         "building": "yes",
         "capacity": "4",
+        "drinking_water": "untreated",
         "fee": "no",
         "fireplace": "yes",
+        "mattress": "yes",
         "name": "Benmore Hut",
         "operator": "Department of Conservation",
+        "operator:wikidata": "Q1191417",
+        "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100064756",
+        "ref:linz:topo50_id": "5398860",
+        "reservation": "no",
+        "toilets": "yes",
+        "toilets:disposal": "pitlatrine",
         "tourism": "wilderness_hut",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/korowai-torlesse-tussocklands-park/things-to-do/huts/benmore-hut/"
+        "website": "https://doc.govt.nz/link/35720bfdff6b41e5b1746a94ac83a46e"
       }
     },
     {
       "type": "way",
       "id": 971614722,
-      "timestamp": "2021-08-09T11:02:51Z",
-      "version": 1,
-      "changeset": 109400087,
-      "user": "petenz",
-      "uid": 38928,
+      "timestamp": "2022-02-07T08:08:41Z",
+      "version": 2,
+      "changeset": 117106995,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "center": {
         "lat": -43.1793047,
         "lon": 172.0062001
@@ -1649,23 +1708,31 @@
       "tags": {
         "building": "yes",
         "capacity": "6",
+        "drinking_water": "untreated",
         "fee": "yes",
         "fireplace": "yes",
+        "mattress": "yes",
         "name": "Black Hill Hut",
         "operator": "Department of Conservation",
+        "operator:wikidata": "Q1191417",
+        "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100034979",
+        "ref:linz:topo50_id": "5399800",
+        "reservation": "no",
+        "toilets": "yes",
+        "toilets:disposal": "pitlatrine",
         "tourism": "wilderness_hut",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/oxford-forest-conservation-area/things-to-do/huts/black-hill-hut/"
+        "website": "https://doc.govt.nz/link/a4b97a92817847c68d228af4550488e0"
       }
     },
     {
       "type": "way",
       "id": 971617059,
-      "timestamp": "2021-08-09T11:11:39Z",
-      "version": 1,
-      "changeset": 109400733,
-      "user": "petenz",
-      "uid": 38928,
+      "timestamp": "2022-02-07T08:08:41Z",
+      "version": 2,
+      "changeset": 117106995,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "center": {
         "lat": -43.1616247,
         "lon": 171.9804388
@@ -1674,23 +1741,31 @@
       "tags": {
         "building": "yes",
         "capacity": "2",
+        "drinking_water": "no",
         "fee": "no",
         "fireplace": "no",
-        "name": "Lower Salmon Creek Biv",
+        "mattress": "no",
+        "name": "Lower Salmon Creek Bivouac",
         "operator": "Department of Conservation",
+        "operator:wikidata": "Q1191417",
+        "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100059804",
+        "ref:linz:topo50_id": "5399798",
+        "reservation": "no",
+        "toilets": "yes",
+        "toilets:disposal": "pitlatrine",
         "tourism": "wilderness_hut",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/oxford-forest-conservation-area/things-to-do/huts/lower-salmon-creek-bivvy/"
+        "website": "https://doc.govt.nz/link/96f2f6957bcc4c09afcc40c1ee603f6c"
       }
     },
     {
       "type": "way",
       "id": 972190800,
-      "timestamp": "2021-08-11T07:38:09Z",
-      "version": 1,
-      "changeset": 109500197,
-      "user": "petenz",
-      "uid": 38928,
+      "timestamp": "2022-02-07T07:38:53Z",
+      "version": 2,
+      "changeset": 117105949,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "center": {
         "lat": -43.1897738,
         "lon": 171.8361613
@@ -1699,23 +1774,31 @@
       "tags": {
         "building": "yes",
         "capacity": "4",
+        "drinking_water": "no",
         "fee": "no",
         "fireplace": "yes",
+        "mattress": "yes",
         "name": "Broken River Hut",
         "operator": "Department of Conservation",
+        "operator:wikidata": "Q1191417",
+        "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100059546",
+        "ref:linz:topo50_id": "5399197",
+        "reservation": "no",
+        "toilets": "yes",
+        "toilets:disposal": "pitlatrine",
         "tourism": "wilderness_hut",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/korowai-torlesse-tussocklands-park/things-to-do/huts/broken-river-hut/"
+        "website": "https://doc.govt.nz/link/c16df2ee4f884872956278a96587671f"
       }
     },
     {
       "type": "way",
       "id": 976922848,
-      "timestamp": "2021-08-27T10:39:55Z",
-      "version": 1,
-      "changeset": 110333823,
-      "user": "petenz",
-      "uid": 38928,
+      "timestamp": "2022-02-07T07:38:53Z",
+      "version": 2,
+      "changeset": 117105949,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "center": {
         "lat": -43.0997485,
         "lon": 171.6069815
@@ -1724,16 +1807,22 @@
       "tags": {
         "building": "yes",
         "capacity": "5",
-        "drinking_water": "stream",
+        "drinking_water": "no",
         "ele": "870",
         "fee": "no",
         "fireplace": "yes",
+        "mattress": "no",
         "name": "West Harper Hut",
         "operator": "Department of Conservation",
+        "operator:wikidata": "Q1191417",
+        "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100061488",
+        "ref:linz:topo50_id": "5391554",
         "reservation": "no",
+        "toilets": "yes",
+        "toilets:disposal": "pitlatrine",
         "tourism": "wilderness_hut",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/canterbury/places/craigieburn-forest-park/things-to-do/huts/west-harper-hut/"
+        "website": "https://doc.govt.nz/link/5d55aaf9dcda4f128dcb064d2dd26408"
       }
     },
     {

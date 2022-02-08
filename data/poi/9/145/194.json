@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-06T23:59:59Z",
-    "timestamp_osm_base": "2022-02-07T03:37:22Z",
+    "timestamp_osm_date": "2022-02-07T23:59:59Z",
+    "timestamp_osm_base": "2022-02-08T03:36:51Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -16675,41 +16675,6 @@
     },
     {
       "type": "node",
-      "id": 9484335852,
-      "lat": 39.3692174,
-      "lon": -77.4121159,
-      "timestamp": "2022-02-06T19:43:17Z",
-      "version": 1,
-      "changeset": 117092397,
-      "user": "RoadGeek_MD99",
-      "uid": 475877,
-      "tags": {
-        "addr:city": "Frederick",
-        "addr:housenumber": "7301",
-        "addr:postcode": "21704",
-        "addr:street": "Executive Way",
-        "name": "Sheetz",
-        "shop": "convenience"
-      }
-    },
-    {
-      "type": "node",
-      "id": 9484413771,
-      "lat": 39.3860119,
-      "lon": -77.4089974,
-      "timestamp": "2022-02-06T20:16:58Z",
-      "version": 1,
-      "changeset": 117093362,
-      "user": "RoadGeek_MD99",
-      "uid": 475877,
-      "tags": {
-        "addr:housenumber": "5498",
-        "name": "Shell",
-        "shop": "convenience"
-      }
-    },
-    {
-      "type": "node",
       "id": 9484704480,
       "lat": 39.4593943,
       "lon": -77.4060443,
@@ -16719,12 +16684,12 @@
       "user": "RoadGeek_MD99",
       "uid": 475877,
       "tags": {
+        "shop": "convenience",
+        "name": "Sheetz",
+        "addr:street": "Thomas Johnson Drive",
         "addr:city": "Frederick",
         "addr:housenumber": "23",
-        "addr:postcode": "21702",
-        "addr:street": "Thomas Johnson Drive",
-        "name": "Sheetz",
-        "shop": "convenience"
+        "addr:postcode": "21702"
       }
     },
     {
@@ -20104,25 +20069,26 @@
     {
       "type": "way",
       "id": 691763285,
-      "timestamp": "2019-12-31T16:32:52Z",
-      "version": 2,
-      "changeset": 79063035,
-      "user": "Sparks",
-      "uid": 80285,
+      "timestamp": "2022-02-07T02:06:22Z",
+      "version": 3,
+      "changeset": 117099530,
+      "user": "RunTrails",
+      "uid": 5215025,
       "center": {
-        "lat": 39.4125678,
-        "lon": -77.6373919
+        "lat": 39.4125624,
+        "lon": -77.637388
       },
       "nodes": [],
       "tags": {
-        "shelter_type": "lean_to",
         "amenity": "shelter",
         "attribution": "Appalachian Trail Club",
+        "building": "yes",
         "capacity": "8",
         "description": "Intermittent spring--gb, 88; water at Gathland State Park--gb, 85",
         "fee": "no",
         "name": "Crampton Gap Shelter",
-        "operator": "Potomac Appalachian Trail Club"
+        "operator": "Potomac Appalachian Trail Club",
+        "shelter_type": "lean_to"
       }
     },
     {
@@ -21547,6 +21513,53 @@
         "amenity": "shelter",
         "building": "yes",
         "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1028832594,
+      "timestamp": "2022-02-07T03:19:51Z",
+      "version": 1,
+      "changeset": 117100241,
+      "user": "RoadGeek_MD99",
+      "uid": 475877,
+      "center": {
+        "lat": 39.3860117,
+        "lon": -77.4089934
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Frederick",
+        "addr:housenumber": "5498",
+        "addr:postcode": "21704",
+        "addr:street": "Buckeystown Pike",
+        "building": "retail",
+        "name": "Shell",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1028832598,
+      "timestamp": "2022-02-07T03:19:51Z",
+      "version": 1,
+      "changeset": 117100241,
+      "user": "RoadGeek_MD99",
+      "uid": 475877,
+      "center": {
+        "lat": 39.3692123,
+        "lon": -77.4121399
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Frederick",
+        "addr:housenumber": "7301",
+        "addr:postcode": "21704",
+        "addr:street": "Executive Way",
+        "building": "retail",
+        "fixme": "location",
+        "name": "Sheetz",
+        "shop": "convenience"
       }
     }
   ]
