@@ -238,6 +238,30 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_wilderness-hut",
+        "@distance": 1943.8,
+        "@id": "n9489295264",
+        "@changeset": 117151805,
+        "@timestamp": "2022-02-08T09:33:45Z",
+        "@version": 1,
+        "@uid": 8389777,
+        "@user": "kylenz_linz",
+        "building": "yes",
+        "name": "Rock Hut",
+        "ref:linz:topo50_id": "5380385",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          167.8869403,
+          -45.8372904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
         "@distance": 459.3,
         "@id": "w660584636",
         "@changeset": 82739408,
@@ -314,9 +338,9 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 53.5,
         "@id": "w660800876",
-        "@changeset": 117103864,
-        "@timestamp": "2022-02-07T06:33:55Z",
-        "@version": 5,
+        "@changeset": 117151805,
+        "@timestamp": "2022-02-08T09:33:45Z",
+        "@version": 6,
         "@uid": 8389777,
         "@user": "kylenz_linz",
         "building": "yes",
@@ -330,6 +354,7 @@
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100056329",
+        "ref:linz:topo50_id": "5380432",
         "reservation": "no",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",
@@ -467,22 +492,27 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 12.3,
         "@id": "n2252891187",
-        "@changeset": 82913418,
-        "@timestamp": "2020-04-01T09:16:21Z",
-        "@version": 6,
-        "@uid": 2057798,
-        "@user": "Sarvihepo",
+        "@changeset": 117149031,
+        "@timestamp": "2022-02-08T08:22:31Z",
+        "@version": 7,
+        "@uid": 8389777,
+        "@user": "kylenz_linz",
         "capacity": 4,
-        "drinking_water": "boil",
+        "drinking_water": "untreated",
         "fee": "no",
         "fireplace": "yes",
         "mattress": "no",
         "name": "Martin's Hut",
-        "operator": "DoC",
+        "operator": "Department of Conservation",
+        "operator:wikidata": "Q1191417",
+        "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100072022",
+        "ref:linz:topo50_id": "5379150",
         "reservation": "no",
+        "toilets": "yes",
+        "toilets:disposal": "pitlatrine",
         "tourism": "wilderness_hut",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/southland/places/longwood-forest-conservation-area/things-to-do/martins-hut/"
+        "website": "https://doc.govt.nz/link/34a4ca458e6941ed82c08ae16cde8784"
       },
       "geometry": {
         "type": "Point",
@@ -495,19 +525,27 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
+        "@poi": "shelter_wilderness-hut",
         "@distance": 2794.2,
         "@id": "n2252900421",
-        "@changeset": 60107869,
-        "@timestamp": "2018-06-23T19:50:44Z",
-        "@version": 3,
-        "@uid": 365177,
-        "@user": "gaddman",
-        "amenity": "shelter",
+        "@changeset": 117149031,
+        "@timestamp": "2022-02-08T08:22:31Z",
+        "@version": 4,
+        "@uid": 8389777,
+        "@user": "kylenz_linz",
+        "drinking_water": "no",
+        "fireplace": "yes",
         "mattress": "no",
         "name": "Turnbull's (Big Dam) Hut",
+        "operator": "Department of Conservation",
+        "operator:wikidata": "Q1191417",
+        "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100056297",
-        "shelter_type": "basic_hut"
+        "ref:linz:topo50_id": "5379144",
+        "reservation": "no",
+        "toilets": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://doc.govt.nz/link/d876515aabb342a8802cfaa1ba393388"
       },
       "geometry": {
         "type": "Point",
@@ -1807,13 +1845,14 @@
         "@poi": "campsite",
         "@distance": 60,
         "@id": "w785271113",
-        "@changeset": 117103864,
-        "@timestamp": "2022-02-07T06:33:55Z",
-        "@version": 3,
+        "@changeset": 117148977,
+        "@timestamp": "2022-02-08T08:21:10Z",
+        "@version": 4,
         "@uid": 8389777,
         "@user": "kylenz_linz",
         "access": "yes",
         "bbq": "yes",
+        "capacity:caravans": "0",
         "capacity:tents": "60",
         "description": "Mavora Lakes Campsite has two main (standard) camping areas: one alongside South Mavora Lake, and the other between South Mavora Lake and North Mavora Lake.",
         "dog": "leashed",
@@ -1821,7 +1860,7 @@
         "fee": "yes",
         "name": "Mavora Lakes Campsite",
         "openfire": "yes",
-        "operator": "DoC;Department of Conservation",
+        "operator": "Department of Conservation",
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "payment:cash": "yes",
@@ -2824,12 +2863,13 @@
         "@poi": "campsite",
         "@distance": 93.3,
         "@id": "n2255938452",
-        "@changeset": 117104529,
-        "@timestamp": "2022-02-07T06:56:25Z",
-        "@version": 7,
+        "@changeset": 117148763,
+        "@timestamp": "2022-02-08T08:14:53Z",
+        "@version": 8,
         "@uid": 8389777,
         "@user": "kylenz_linz",
         "access": "yes",
+        "capacity:caravans": "0",
         "capacity:tents": "36",
         "caravans": "yes",
         "description": "This is a basic campsite in the Queenstown/Wakatipu area, 15 km from Arrowtown, at the end of a 4WD road that crosses the Arrow River numerous times.",
@@ -4551,11 +4591,13 @@
         "@poi": "campsite",
         "@distance": 160.5,
         "@id": "w387487922",
-        "@changeset": 117104529,
-        "@timestamp": "2022-02-07T06:56:25Z",
-        "@version": 3,
+        "@changeset": 117148763,
+        "@timestamp": "2022-02-08T08:14:53Z",
+        "@version": 4,
         "@uid": 8389777,
         "@user": "kylenz_linz",
+        "capacity:caravans": "0",
+        "capacity:tents": "0",
         "caravans": "yes",
         "description": "Use this campsite as a base to walk or mountain bike in the Lake Ōhau area or in Ruataniwha Conservation Park.",
         "dog": "leashed",
@@ -7264,6 +7306,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 2975.9,
+        "@id": "n9489222300",
+        "@changeset": 117151355,
+        "@timestamp": "2022-02-08T09:21:43Z",
+        "@version": 1,
+        "@uid": 8389777,
+        "@user": "kylenz_linz",
+        "building": "yes",
+        "name": "Bushedge Shelter",
+        "ref:linz:topo50_id": "5404020",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.8107475,
+          -41.83152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "campsite",
         "@distance": 86.3,
         "@id": "w116677744",
@@ -7482,18 +7548,18 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
+        "@poi": "shelter_wilderness-hut",
         "@distance": 2907.1,
         "@id": "w817027291",
-        "@changeset": 86795431,
-        "@timestamp": "2020-06-18T01:01:35Z",
-        "@version": 1,
-        "@uid": 38928,
-        "@user": "petenz",
-        "amenity": "shelter",
+        "@changeset": 117151355,
+        "@timestamp": "2022-02-08T09:21:43Z",
+        "@version": 2,
+        "@uid": 8389777,
+        "@user": "kylenz_linz",
         "building": "yes",
         "name": "Relax Shelter",
-        "shelter_type": "weather_shelter"
+        "ref:linz:topo50_id": "5404019",
+        "tourism": "wilderness_hut"
       },
       "geometry": {
         "type": "Point",
@@ -7724,6 +7790,63 @@
         "coordinates": [
           172.9311313,
           -41.719277
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 123.1,
+        "@id": "n2264754088",
+        "@changeset": 117106995,
+        "@timestamp": "2022-02-07T08:08:41Z",
+        "@version": 9,
+        "@uid": 8389777,
+        "@user": "kylenz_linz",
+        "capacity": 6,
+        "drinking_water": "no",
+        "fee": "no",
+        "fireplace": "no",
+        "mattress": "yes",
+        "name": "Hope Halfway Hut",
+        "operator": "Department of Conservation",
+        "operator:wikidata": "Q1191417",
+        "operator:wikipedia": "en:Department of Conservation (New Zealand)",
+        "ref:doc": "100062861",
+        "ref:linz:topo50_id": "5396427",
+        "reservation": "no",
+        "toilets": "yes",
+        "toilets:disposal": "pitlatrine",
+        "tourism": "wilderness_hut",
+        "website": "https://doc.govt.nz/link/2fb0c49defa5497694ecb21a8729bf29"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.297893,
+          -42.6157696
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 943.4,
+        "@id": "n6202525120",
+        "@changeset": 66243167,
+        "@timestamp": "2019-01-12T02:43:27Z",
+        "@version": 1,
+        "@uid": 1715587,
+        "@user": "ivss_xx",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.3825332,
+          -42.5841841
         ]
       }
     },
@@ -8315,63 +8438,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 123.1,
-        "@id": "n2264754088",
-        "@changeset": 117106995,
-        "@timestamp": "2022-02-07T08:08:41Z",
-        "@version": 9,
-        "@uid": 8389777,
-        "@user": "kylenz_linz",
-        "capacity": 6,
-        "drinking_water": "no",
-        "fee": "no",
-        "fireplace": "no",
-        "mattress": "yes",
-        "name": "Hope Halfway Hut",
-        "operator": "Department of Conservation",
-        "operator:wikidata": "Q1191417",
-        "operator:wikipedia": "en:Department of Conservation (New Zealand)",
-        "ref:doc": "100062861",
-        "ref:linz:topo50_id": "5396427",
-        "reservation": "no",
-        "toilets": "yes",
-        "toilets:disposal": "pitlatrine",
-        "tourism": "wilderness_hut",
-        "website": "https://doc.govt.nz/link/2fb0c49defa5497694ecb21a8729bf29"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          172.297893,
-          -42.6157696
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 943.4,
-        "@id": "n6202525120",
-        "@changeset": 66243167,
-        "@timestamp": "2019-01-12T02:43:27Z",
-        "@version": 1,
-        "@uid": 1715587,
-        "@user": "ivss_xx",
-        "amenity": "shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          172.3825332,
-          -42.5841841
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "place_town",
         "@distance": 9856.4,
         "@id": "n204499880",
@@ -8650,11 +8716,12 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 2.1,
         "@id": "n2264698089",
-        "@changeset": 117107624,
-        "@timestamp": "2022-02-07T08:24:43Z",
-        "@version": 11,
+        "@changeset": 117151355,
+        "@timestamp": "2022-02-08T09:21:43Z",
+        "@version": 12,
         "@uid": 8389777,
         "@user": "kylenz_linz",
+        "building": "yes",
         "capacity": 16,
         "drinking_water": "untreated",
         "fee": "yes",
@@ -8667,6 +8734,7 @@
         "payment:prepaid_card": "yes",
         "payment:prepaid_ticket": "yes",
         "ref:doc": "100061255",
+        "ref:linz:topo50_id": "5406698",
         "reservation": "no",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",
@@ -9027,13 +9095,14 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_wilderness-hut",
-        "@distance": 43.9,
+        "@distance": 46.1,
         "@id": "n2196666345",
-        "@changeset": 117107624,
-        "@timestamp": "2022-02-07T08:24:43Z",
-        "@version": 9,
+        "@changeset": 117151355,
+        "@timestamp": "2022-02-08T09:21:43Z",
+        "@version": 10,
         "@uid": 8389777,
         "@user": "kylenz_linz",
+        "building": "yes",
         "capacity": 4,
         "drinking_water": "untreated",
         "ele": 1040,
@@ -9045,6 +9114,7 @@
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100060986",
+        "ref:linz:topo50_id": "5401551",
         "reservation": "no",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",
@@ -9054,8 +9124,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          173.1680779,
-          -41.5517548
+          173.1680852,
+          -41.5517841
         ]
       }
     },
@@ -9222,9 +9292,9 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 16.2,
         "@id": "w925623662",
-        "@changeset": 117107624,
-        "@timestamp": "2022-02-07T08:24:43Z",
-        "@version": 2,
+        "@changeset": 117151355,
+        "@timestamp": "2022-02-08T09:21:43Z",
+        "@version": 3,
         "@uid": 8389777,
         "@user": "kylenz_linz",
         "building": "yes",
@@ -9240,6 +9310,7 @@
         "payment:prepaid_card": "yes",
         "payment:prepaid_ticket": "yes",
         "ref:doc": "100061176",
+        "ref:linz:topo50_id": "5404806",
         "reservation": "no",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",
@@ -10120,11 +10191,12 @@
         "@poi": "campsite",
         "@distance": 226.2,
         "@id": "w274971974",
-        "@changeset": 117104529,
-        "@timestamp": "2022-02-07T06:56:25Z",
-        "@version": 3,
+        "@changeset": 117148763,
+        "@timestamp": "2022-02-08T08:14:53Z",
+        "@version": 4,
         "@uid": 8389777,
         "@user": "kylenz_linz",
+        "capacity:caravans": "0",
         "capacity:tents": "100",
         "description": "Camp on a river delta at the outlet of Twelve-Mile Creek near the shores of Lake Wakatipu. Go boating, swimming and fishing or enjoy the walking and mountain biking tracks. Regenerating forest surrounds the campsite.",
         "dog": "leashed",
@@ -10421,11 +10493,12 @@
         "@poi": "campsite",
         "@distance": 165,
         "@id": "w889917237",
-        "@changeset": 117104529,
-        "@timestamp": "2022-02-07T06:56:25Z",
-        "@version": 2,
+        "@changeset": 117148763,
+        "@timestamp": "2022-02-08T08:14:53Z",
+        "@version": 3,
         "@uid": 8389777,
         "@user": "kylenz_linz",
+        "capacity:caravans": "0",
         "capacity:tents": "15",
         "charge": "$15/person;$7.50/child;$0/infant",
         "description": "Camp on the shores of Lake Wakatipu, New Zealand’s longest lake. Explore the area along the Caples or the Greenstone tramping tracks. Swim, kayak, fish or go boating on the lake, or enjoy the scenery.",
@@ -11031,6 +11104,30 @@
         "coordinates": [
           173.2744038,
           -41.4888339
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 2960.8,
+        "@id": "w254084236",
+        "@changeset": 117151355,
+        "@timestamp": "2022-02-08T09:21:43Z",
+        "@version": 2,
+        "@uid": 8389777,
+        "@user": "kylenz_linz",
+        "building": "yes",
+        "name": "Dun Shelter",
+        "ref:linz:topo50_id": "5406714",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          173.372797,
+          -41.343967
         ]
       }
     },
