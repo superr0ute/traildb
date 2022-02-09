@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-07T23:59:59Z",
-    "timestamp_osm_base": "2022-02-08T03:02:03Z",
+    "timestamp_osm_date": "2022-02-08T23:59:59Z",
+    "timestamp_osm_base": "2022-02-09T03:05:46Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -125,12 +125,12 @@
       "type": "node",
       "id": 150933640,
       "lat": 33.9630705,
-      "lon": -118.2325726,
-      "timestamp": "2010-05-12T18:43:35Z",
-      "version": 3,
-      "changeset": 4679765,
-      "user": "42429",
-      "uid": 42429,
+      "lon": -118.232572,
+      "timestamp": "2022-02-08T08:44:32Z",
+      "version": 4,
+      "changeset": 117149839,
+      "user": "hcourt",
+      "uid": 12204396,
       "tags": {
         "ele": "41",
         "gnis:Class": "Populated Place",
@@ -142,7 +142,9 @@
         "import_uuid": "bb7269ee-502a-5391-8056-e3ce0e66489c",
         "is_in": "Los Angeles,California,Calif.,CA,USA",
         "name": "Firestone Park",
-        "place": "village"
+        "place": "village",
+        "wikidata": "Q5451986",
+        "wikipedia": "en:Firestone Park, California"
       }
     },
     {
@@ -9666,15 +9668,15 @@
       "type": "node",
       "id": 3897140152,
       "lat": 33.9454974,
-      "lon": -118.1444331,
-      "timestamp": "2019-10-30T13:21:10Z",
-      "version": 2,
-      "changeset": 76394892,
-      "user": "stangoodman",
-      "uid": 224610,
+      "lon": -118.144433,
+      "timestamp": "2022-02-08T06:23:29Z",
+      "version": 3,
+      "changeset": 117145029,
+      "user": "Dion Dock",
+      "uid": 97431,
       "tags": {
         "brand": "Albertsons",
-        "brand:wikidata": "Q4712282",
+        "brand:wikidata": "Q2831861",
         "brand:wikipedia": "en:Albertsons",
         "name": "Albertsons",
         "shop": "supermarket",
@@ -19124,15 +19126,18 @@
       "type": "node",
       "id": 9467078120,
       "lat": 33.9208501,
-      "lon": -118.1871809,
-      "timestamp": "2022-02-01T20:49:10Z",
-      "version": 1,
-      "changeset": 116884985,
-      "user": "teddyruxpin76",
-      "uid": 12482153,
+      "lon": -118.18718,
+      "timestamp": "2022-02-08T06:23:29Z",
+      "version": 2,
+      "changeset": 117145029,
+      "user": "Dion Dock",
+      "uid": 97431,
       "tags": {
         "addr:housenumber": "11400",
         "addr:street": "Atlantic Ave",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
         "name": "7-Eleven",
         "shop": "convenience"
       }
@@ -19200,6 +19205,23 @@
       }
     },
     {
+      "type": "node",
+      "id": 9490817204,
+      "lat": 33.8611429,
+      "lon": -118.3596902,
+      "timestamp": "2022-02-08T20:51:49Z",
+      "version": 1,
+      "changeset": 117176824,
+      "user": "KelsonV",
+      "uid": 13990595,
+      "tags": {
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "no",
+        "fee": "no"
+      }
+    },
+    {
       "type": "way",
       "id": 23646816,
       "timestamp": "2020-11-23T19:35:55Z",
@@ -19209,7 +19231,7 @@
       "uid": 703694,
       "center": {
         "lat": 34.094388,
-        "lon": -118.7130503
+        "lon": -118.7130374
       },
       "nodes": [],
       "tags": {
@@ -40259,6 +40281,26 @@
         "amenity": "shelter",
         "bench": "yes",
         "building": "roof",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029387655,
+      "timestamp": "2022-02-08T18:26:07Z",
+      "version": 1,
+      "changeset": 117172634,
+      "user": "Clarke22",
+      "uid": 703694,
+      "center": {
+        "lat": 34.2430855,
+        "lon": -118.5359539
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "layer": "1",
         "shelter_type": "public_transport"
       }
     }

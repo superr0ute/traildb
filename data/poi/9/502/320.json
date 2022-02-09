@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-07T23:59:59Z",
-    "timestamp_osm_base": "2022-02-08T06:23:48Z",
+    "timestamp_osm_date": "2022-02-08T23:59:59Z",
+    "timestamp_osm_base": "2022-02-09T06:45:31Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -960,12 +960,13 @@
       "id": 2264698089,
       "lat": -41.3671861,
       "lon": 173.3549261,
-      "timestamp": "2022-02-07T08:24:43Z",
-      "version": 11,
-      "changeset": 117107624,
+      "timestamp": "2022-02-08T09:21:43Z",
+      "version": 12,
+      "changeset": 117151355,
       "user": "kylenz_linz",
       "uid": 8389777,
       "tags": {
+        "building": "yes",
         "capacity": "16",
         "drinking_water": "untreated",
         "fee": "yes",
@@ -978,6 +979,7 @@
         "payment:prepaid_card": "yes",
         "payment:prepaid_ticket": "yes",
         "ref:doc": "100061255",
+        "ref:linz:topo50_id": "5406698",
         "reservation": "no",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",
@@ -3021,11 +3023,11 @@
     {
       "type": "way",
       "id": 188991620,
-      "timestamp": "2015-02-09T11:03:03Z",
-      "version": 2,
-      "changeset": 28724244,
-      "user": "fdsp",
-      "uid": 551776,
+      "timestamp": "2022-02-08T09:21:43Z",
+      "version": 3,
+      "changeset": 117151355,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "center": {
         "lat": -41.3252662,
         "lon": 173.3247126
@@ -3035,7 +3037,8 @@
         "amenity": "shelter",
         "building": "yes",
         "fireplace": "yes",
-        "name": "Third House",
+        "name": "Third House Shelter",
+        "ref:linz:topo50_id": "5406725",
         "shelter_type": "lean_to"
       }
     },
@@ -3218,6 +3221,26 @@
       "tags": {
         "amenity": "shelter",
         "shelter_type": "weather_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 254084236,
+      "timestamp": "2022-02-08T09:21:43Z",
+      "version": 2,
+      "changeset": 117151355,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -41.343967,
+        "lon": 173.372797
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Dun Shelter",
+        "ref:linz:topo50_id": "5406714",
+        "tourism": "wilderness_hut"
       }
     },
     {
@@ -3770,9 +3793,9 @@
     {
       "type": "way",
       "id": 924061535,
-      "timestamp": "2022-02-07T08:24:43Z",
-      "version": 2,
-      "changeset": 117107624,
+      "timestamp": "2022-02-08T09:21:43Z",
+      "version": 3,
+      "changeset": 117151355,
       "user": "kylenz_linz",
       "uid": 8389777,
       "center": {
@@ -3790,6 +3813,7 @@
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100034926",
+        "ref:linz:topo50_id": "5406720",
         "reservation": "no",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",

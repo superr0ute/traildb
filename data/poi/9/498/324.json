@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-07T23:59:59Z",
-    "timestamp_osm_base": "2022-02-08T06:20:54Z",
+    "timestamp_osm_date": "2022-02-08T23:59:59Z",
+    "timestamp_osm_base": "2022-02-09T06:07:52Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -164,14 +164,16 @@
       "id": 1179382257,
       "lat": -43.4330335,
       "lon": 170.1775136,
-      "timestamp": "2014-12-04T04:08:43Z",
-      "version": 2,
-      "changeset": 27217390,
-      "user": "more-ron",
-      "uid": 277782,
+      "timestamp": "2022-02-08T09:29:31Z",
+      "version": 3,
+      "changeset": 117151650,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
         "amenity": "shelter",
-        "name": "Hende's Hut (historic)"
+        "building": "yes",
+        "name": "Hende's Hut (historic)",
+        "ref:linz:topo50_id": "5395709"
       }
     },
     {
@@ -332,15 +334,17 @@
       "id": 1225158908,
       "lat": -43.4367385,
       "lon": 170.2698395,
-      "timestamp": "2021-05-07T00:20:28Z",
-      "version": 3,
-      "changeset": 104278844,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-02-08T09:29:31Z",
+      "version": 4,
+      "changeset": 117151650,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
         "amenity": "shelter",
+        "building": "yes",
         "material": "rock",
         "name": "Spencer Rock Bivouac",
+        "ref:linz:topo50_id": "5389972",
         "source": "LINZ"
       }
     },
@@ -4272,6 +4276,33 @@
         "name": "Fan Col",
         "natural": "saddle",
         "ref:linz:topo50_id": "3338501"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9489066460,
+      "lat": -43.4531231,
+      "lon": 170.1668124,
+      "timestamp": "2022-02-08T08:14:53Z",
+      "version": 1,
+      "changeset": 117148763,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "drinking_water": "untreated",
+        "fireplace": "no",
+        "mattress": "yes",
+        "name": "Castle Rocks Hut",
+        "operator": "Department of Conservation",
+        "operator:wikidata": "Q1191417",
+        "operator:wikipedia": "en:Department of Conservation (New Zealand)",
+        "ref:doc": "100060357",
+        "ref:linz:topo50_id": "5395701",
+        "reservation": "no",
+        "toilets": "yes",
+        "toilets:disposal": "pitlatrine",
+        "tourism": "wilderness_hut",
+        "website": "https://doc.govt.nz/link/e39f797cde514106984f10620913ff80"
       }
     },
     {

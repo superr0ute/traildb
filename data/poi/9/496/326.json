@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-07T23:59:59Z",
-    "timestamp_osm_base": "2022-02-08T06:16:45Z",
+    "timestamp_osm_date": "2022-02-08T23:59:59Z",
+    "timestamp_osm_base": "2022-02-09T06:07:52Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -34,12 +34,13 @@
       "id": 587096725,
       "lat": -44.1614081,
       "lon": 169.2872371,
-      "timestamp": "2022-02-07T06:56:25Z",
-      "version": 7,
-      "changeset": 117104529,
+      "timestamp": "2022-02-08T08:14:53Z",
+      "version": 8,
+      "changeset": 117148763,
       "user": "kylenz_linz",
       "uid": 8389777,
       "tags": {
+        "capacity:caravans": "0",
         "capacity:tents": "30",
         "caravans": "yes",
         "description": "This is a standard campsite in the Wanaka/Makarora area. Camp near the Makarora River. Plenty of great activities are available nearby, such as hunting, tramping or fishing.",
@@ -52,7 +53,7 @@
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "payment:cash": "yes",
         "ref:doc": "100064830",
-        "reservation": "yes",
+        "reservation": "required",
         "shelter": "yes",
         "tents": "yes",
         "toilets": "yes",
@@ -96,12 +97,13 @@
       "id": 670223796,
       "lat": -44.3516833,
       "lon": 169.1685968,
-      "timestamp": "2022-02-07T06:56:25Z",
-      "version": 7,
-      "changeset": 117104529,
+      "timestamp": "2022-02-08T08:14:53Z",
+      "version": 8,
+      "changeset": 117148763,
       "user": "kylenz_linz",
       "uid": 8389777,
       "tags": {
+        "capacity:caravans": "0",
         "capacity:tents": "23",
         "caravans": "yes",
         "description": "Boundary Creek Campsite is closed",
@@ -112,19 +114,14 @@
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100031420",
-        "reservation": "yes",
+        "reservation": "required",
         "shelter": "yes",
         "tents": "yes",
         "toilets": "yes",
         "tourism": "camp_site",
         "water": "yes",
         "website": "https://doc.govt.nz/link/90a23815314c47ac877bbca00d029dfd",
-        "wheelchair": "yes",
-        "womo": "camping",
-        "womo:capacity": "40",
-        "womo:fee": "16",
-        "womo:name": "Boundary Creek DOC",
-        "womo:nz:nr": "134"
+        "wheelchair": "yes"
       }
     },
     {
@@ -219,12 +216,13 @@
       "id": 1576167033,
       "lat": -44.4413585,
       "lon": 169.2619818,
-      "timestamp": "2022-02-07T06:56:25Z",
-      "version": 7,
-      "changeset": 117104529,
+      "timestamp": "2022-02-08T08:14:53Z",
+      "version": 8,
+      "changeset": 117148763,
       "user": "kylenz_linz",
       "uid": 8389777,
       "tags": {
+        "capacity:caravans": "0",
         "capacity:tents": "40",
         "caravans": "yes",
         "description": "Camp alongside Lake Hāwea in a large, grassy area with good shade from mountain beech trees. Walk around the lake, go fishing or swimming.",
@@ -236,7 +234,7 @@
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "payment:cash": "yes",
         "ref:doc": "100065483",
-        "reservation": "yes",
+        "reservation": "required",
         "sanitary_dump_station": "yes",
         "shelter": "yes",
         "tents": "yes",
@@ -244,12 +242,7 @@
         "toilets:disposal": "pitlatrine",
         "tourism": "camp_site",
         "website": "https://doc.govt.nz/link/aee39660c6a54e6da2ec5bd95efb3937",
-        "wheelchair": "limited",
-        "womo": "camping",
-        "womo:capacity": "40",
-        "womo:fee": "16",
-        "womo:name": "Kidds Bush Reserve Campsite DOC",
-        "womo:nz:nr": "133"
+        "wheelchair": "limited"
       }
     },
     {
@@ -1737,9 +1730,9 @@
     {
       "type": "way",
       "id": 975325437,
-      "timestamp": "2022-02-07T06:56:25Z",
-      "version": 2,
-      "changeset": 117104529,
+      "timestamp": "2022-02-08T09:37:29Z",
+      "version": 3,
+      "changeset": 117151928,
       "user": "kylenz_linz",
       "uid": 8389777,
       "center": {
@@ -1759,6 +1752,7 @@
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100091403",
+        "ref:linz:topo50_id": "5393607",
         "reservation": "required",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",
@@ -1788,11 +1782,11 @@
     {
       "type": "way",
       "id": 1027254454,
-      "timestamp": "2022-02-03T04:47:08Z",
-      "version": 1,
-      "changeset": 116944274,
-      "user": "petenz",
-      "uid": 38928,
+      "timestamp": "2022-02-08T08:14:53Z",
+      "version": 2,
+      "changeset": 117148763,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "center": {
         "lat": -44.087826,
         "lon": 169.4122653
@@ -1801,13 +1795,21 @@
       "tags": {
         "building": "yes",
         "capacity": "12",
+        "drinking_water": "untreated",
         "fee": "yes",
         "fireplace": "no",
+        "mattress": "yes",
         "name": "Brewster Hut",
         "operator": "Department of Conservation",
+        "operator:wikidata": "Q1191417",
+        "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100038838",
+        "ref:linz:topo50_id": "5394169",
+        "reservation": "required",
+        "toilets": "yes",
+        "toilets:disposal": "pitlatrine",
         "tourism": "wilderness_hut",
-        "website": "https://www.doc.govt.nz/parks-and-recreation/places-to-go/otago/places/mount-aspiring-national-park/things-to-do/huts/brewster-hut/"
+        "website": "https://doc.govt.nz/link/4696282a70644290aed8784edea0fa57"
       }
     }
   ]

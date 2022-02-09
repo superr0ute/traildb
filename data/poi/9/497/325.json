@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-07T23:59:59Z",
-    "timestamp_osm_base": "2022-02-08T06:18:51Z",
+    "timestamp_osm_date": "2022-02-08T23:59:59Z",
+    "timestamp_osm_base": "2022-02-09T06:40:25Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -246,17 +246,17 @@
     {
       "type": "node",
       "id": 1225158840,
-      "lat": -43.630122,
-      "lon": 169.9469472,
-      "timestamp": "2021-05-07T00:20:28Z",
-      "version": 4,
-      "changeset": 104278844,
-      "user": "kylenz",
-      "uid": 10140394,
+      "lat": -43.6310101,
+      "lon": 169.9468247,
+      "timestamp": "2022-02-08T09:37:29Z",
+      "version": 5,
+      "changeset": 117151928,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
-        "amenity": "shelter",
-        "material": "rock",
-        "source": "LINZ"
+        "name": "Welcome Flat Campsite",
+        "ref:linz:topo50_id": "5395128",
+        "tourism": "wilderness_hut"
       }
     },
     {
@@ -328,16 +328,16 @@
       "id": 1225158899,
       "lat": -43.7062136,
       "lon": 169.978768,
-      "timestamp": "2021-05-07T00:20:28Z",
-      "version": 3,
-      "changeset": 104278844,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-02-08T09:37:29Z",
+      "version": 4,
+      "changeset": 117151928,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
         "amenity": "shelter",
         "material": "rock",
         "name": "Harpers Rock Bivouac",
-        "source": "LINZ"
+        "ref:linz:topo50_id": "5395020"
       }
     },
     {
@@ -595,21 +595,6 @@
         "name": "Mount Annette",
         "natural": "peak",
         "wikidata": "Q31667680"
-      }
-    },
-    {
-      "type": "node",
-      "id": 3826035690,
-      "lat": -43.6310836,
-      "lon": 169.9467013,
-      "timestamp": "2019-04-18T10:20:03Z",
-      "version": 2,
-      "changeset": 69338654,
-      "user": "StenSoft",
-      "uid": 255936,
-      "tags": {
-        "name": "Welcome Flat Campsite",
-        "tourism": "camp_site"
       }
     },
     {
@@ -4973,9 +4958,9 @@
     {
       "type": "way",
       "id": 768966834,
-      "timestamp": "2022-02-07T06:56:25Z",
-      "version": 2,
-      "changeset": 117104529,
+      "timestamp": "2022-02-08T08:14:53Z",
+      "version": 3,
+      "changeset": 117148763,
       "user": "kylenz_linz",
       "uid": 8389777,
       "center": {
@@ -4984,11 +4969,12 @@
       },
       "nodes": [],
       "tags": {
+        "capacity:caravans": "0",
         "capacity:tents": "60",
         "caravans": "yes",
         "description": "Camp beneath magnificent alpine scenery including Mt Sefton. Enjoy a variety of walks from the valley floor to mountain tops.",
         "dog": "no",
-        "drinking_water": "treated",
+        "drinking_water": "yes",
         "internet_access": "no",
         "name": "White Horse Hill Campground",
         "nudism": "no",
@@ -4998,7 +4984,7 @@
         "payment:cryptocurrencies": "no",
         "payment:electronic_purses": "no",
         "ref:doc": "100043563",
-        "reservation": "yes",
+        "reservation": "required",
         "sanitary_dump_station": "no",
         "shelter": "yes",
         "tents": "yes",

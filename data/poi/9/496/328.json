@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-07T23:59:59Z",
-    "timestamp_osm_base": "2022-02-08T06:18:51Z",
+    "timestamp_osm_date": "2022-02-08T23:59:59Z",
+    "timestamp_osm_base": "2022-02-09T06:40:25Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -549,13 +549,14 @@
       "id": 9485401443,
       "lat": -45.561034,
       "lon": 169.015603,
-      "timestamp": "2022-02-07T06:56:25Z",
-      "version": 1,
-      "changeset": 117104529,
+      "timestamp": "2022-02-08T08:14:53Z",
+      "version": 2,
+      "changeset": 117148763,
       "user": "kylenz_linz",
       "uid": 8389777,
       "tags": {
         "bbq": "yes",
+        "capacity:caravans": "0",
         "capacity:tents": "50",
         "description": "This is a riverside campsite in a farmland area. There are walks and tramps from here or go horse riding, biking, hunting or on 4WD excursions.",
         "dog": "leashed",
@@ -565,11 +566,62 @@
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100066033",
-        "reservation": "yes",
+        "reservation": "required",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",
         "tourism": "camp_site",
         "website": "https://doc.govt.nz/link/70ab946ce5474bdfbff48ec87d759e78"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9489295267,
+      "lat": -45.5525481,
+      "lon": 168.7995057,
+      "timestamp": "2022-02-08T09:33:45Z",
+      "version": 1,
+      "changeset": 117151805,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Dome Hut",
+        "ref:linz:topo50_id": "5381906",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9489295268,
+      "lat": -45.570184,
+      "lon": 168.8878914,
+      "timestamp": "2022-02-08T09:33:45Z",
+      "version": 1,
+      "changeset": 117151805,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Flaxy Hut",
+        "ref:linz:topo50_id": "5381910",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9489295269,
+      "lat": -45.5599511,
+      "lon": 168.8970952,
+      "timestamp": "2022-02-08T09:33:45Z",
+      "version": 1,
+      "changeset": 117151805,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Junction Hut",
+        "ref:linz:topo50_id": "5381915",
+        "tourism": "wilderness_hut"
       }
     },
     {

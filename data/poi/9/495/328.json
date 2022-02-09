@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-07T23:59:59Z",
-    "timestamp_osm_base": "2022-02-08T05:53:23Z",
+    "timestamp_osm_date": "2022-02-08T23:59:59Z",
+    "timestamp_osm_base": "2022-02-09T06:07:52Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -278,19 +278,19 @@
     {
       "type": "node",
       "id": 1225158759,
-      "lat": -45.3650158,
-      "lon": 168.3999557,
-      "timestamp": "2021-05-07T02:29:54Z",
-      "version": 3,
-      "changeset": 104281423,
-      "user": "kylenz",
-      "uid": 10140394,
+      "lat": -45.3646375,
+      "lon": 168.3998415,
+      "timestamp": "2022-02-08T09:33:45Z",
+      "version": 4,
+      "changeset": 117151805,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
-        "amenity": "shelter",
+        "building": "yes",
         "name": "Dog Box Bivouac",
         "ref:doc": "100041235",
-        "shelter_type": "lean_to",
-        "source": "LINZ"
+        "ref:linz:topo50_id": "5381109",
+        "tourism": "wilderness_hut"
       }
     },
     {
@@ -378,14 +378,15 @@
       "id": 5072895940,
       "lat": -45.1038001,
       "lon": 168.5415156,
-      "timestamp": "2022-02-07T06:56:25Z",
-      "version": 2,
-      "changeset": 117104529,
+      "timestamp": "2022-02-08T08:14:53Z",
+      "version": 3,
+      "changeset": 117148763,
       "user": "kylenz_linz",
       "uid": 8389777,
       "tags": {
         "backcountry": "yes",
         "bbq": "yes",
+        "capacity:caravans": "0",
         "capacity:tents": "10",
         "caravans": "no",
         "description": "Camp on the shore of Lake Wakatipu at this boat or mountain bike accessible campsite.",
@@ -612,40 +613,6 @@
     },
     {
       "type": "node",
-      "id": 6260946090,
-      "lat": -45.3716453,
-      "lon": 168.471808,
-      "timestamp": "2019-02-06T01:09:52Z",
-      "version": 1,
-      "changeset": 66949396,
-      "user": "gaddman",
-      "uid": 365177,
-      "tags": {
-        "name": "Cowshed Hut",
-        "operator": "Department of Conservation",
-        "ref:doc": "100030328",
-        "tourism": "wilderness_hut"
-      }
-    },
-    {
-      "type": "node",
-      "id": 6260946091,
-      "lat": -45.3754066,
-      "lon": 168.2178957,
-      "timestamp": "2019-02-06T01:09:52Z",
-      "version": 1,
-      "changeset": 66949396,
-      "user": "gaddman",
-      "uid": 365177,
-      "tags": {
-        "name": "Upper Oreti Hut",
-        "operator": "Department of Conservation",
-        "ref:doc": "100030327",
-        "tourism": "wilderness_hut"
-      }
-    },
-    {
-      "type": "node",
       "id": 6594394580,
       "lat": -45.3143802,
       "lon": 168.4177772,
@@ -661,6 +628,23 @@
         "name:mi": "Mataura",
         "natural": "saddle",
         "ref:linz:topo50_id": "3338337"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6734397593,
+      "lat": -45.4844883,
+      "lon": 168.7385696,
+      "timestamp": "2022-02-08T09:33:45Z",
+      "version": 2,
+      "changeset": 117151805,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Mud Hut",
+        "ref:linz:topo50_id": "6225731",
+        "tourism": "wilderness_hut"
       }
     },
     {
@@ -736,6 +720,23 @@
       }
     },
     {
+      "type": "node",
+      "id": 9489295270,
+      "lat": -45.4727971,
+      "lon": 168.7493119,
+      "timestamp": "2022-02-08T09:33:45Z",
+      "version": 1,
+      "changeset": 117151805,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Slate Hut",
+        "ref:linz:topo50_id": "6225732",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
       "type": "way",
       "id": 198950598,
       "timestamp": "2022-02-07T06:33:55Z",
@@ -807,6 +808,28 @@
         "name": "Glenquoich Lodge and Holiday Park",
         "phone": "+64 21 184 5444",
         "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 455874688,
+      "timestamp": "2022-02-08T09:33:45Z",
+      "version": 3,
+      "changeset": 117151805,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -45.3754145,
+        "lon": 168.2179008
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Upper Oreti Hut",
+        "operator": "Department of Conservation",
+        "ref:doc": "100030327",
+        "ref:linz:topo50_id": "5381060",
+        "tourism": "wilderness_hut"
       }
     },
     {
@@ -973,6 +996,28 @@
     },
     {
       "type": "way",
+      "id": 659549379,
+      "timestamp": "2022-02-08T09:33:45Z",
+      "version": 2,
+      "changeset": 117151805,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -45.371638,
+        "lon": 168.4718155
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Cowshed Hut",
+        "operator": "Department of Conservation",
+        "ref:doc": "100030328",
+        "ref:linz:topo50_id": "5381112",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
       "id": 720125249,
       "timestamp": "2022-02-07T06:33:55Z",
       "version": 2,
@@ -1005,9 +1050,9 @@
     {
       "type": "way",
       "id": 785271113,
-      "timestamp": "2022-02-07T06:33:55Z",
-      "version": 3,
-      "changeset": 117103864,
+      "timestamp": "2022-02-08T08:21:10Z",
+      "version": 4,
+      "changeset": 117148977,
       "user": "kylenz_linz",
       "uid": 8389777,
       "center": {
@@ -1018,6 +1063,7 @@
       "tags": {
         "access": "yes",
         "bbq": "yes",
+        "capacity:caravans": "0",
         "capacity:tents": "60",
         "description": "Mavora Lakes Campsite has two main (standard) camping areas: one alongside South Mavora Lake, and the other between South Mavora Lake and North Mavora Lake.",
         "dog": "leashed",
@@ -1025,7 +1071,7 @@
         "fee": "yes",
         "name": "Mavora Lakes Campsite",
         "openfire": "yes",
-        "operator": "DoC;Department of Conservation",
+        "operator": "Department of Conservation",
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "payment:cash": "yes",

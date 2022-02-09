@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-07T23:59:59Z",
-    "timestamp_osm_base": "2022-02-08T06:23:48Z",
+    "timestamp_osm_date": "2022-02-08T23:59:59Z",
+    "timestamp_osm_base": "2022-02-09T06:45:31Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -196,14 +196,15 @@
     {
       "type": "node",
       "id": 2196666345,
-      "lat": -41.5517548,
-      "lon": 173.1680779,
-      "timestamp": "2022-02-07T08:24:43Z",
-      "version": 9,
-      "changeset": 117107624,
+      "lat": -41.5517841,
+      "lon": 173.1680852,
+      "timestamp": "2022-02-08T09:21:43Z",
+      "version": 10,
+      "changeset": 117151355,
       "user": "kylenz_linz",
       "uid": 8389777,
       "tags": {
+        "building": "yes",
         "capacity": "4",
         "drinking_water": "untreated",
         "ele": "1040",
@@ -215,6 +216,7 @@
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100060986",
+        "ref:linz:topo50_id": "5401551",
         "reservation": "no",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",
@@ -926,47 +928,85 @@
       }
     },
     {
+      "type": "node",
+      "id": 9489222287,
+      "lat": -41.8439623,
+      "lon": 173.4285753,
+      "timestamp": "2022-02-08T09:21:43Z",
+      "version": 1,
+      "changeset": 117151355,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Top Whare",
+        "ref:linz:topo50_id": "5401432",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9489222288,
+      "lat": -41.9675479,
+      "lon": 173.5231574,
+      "timestamp": "2022-02-08T09:21:43Z",
+      "version": 1,
+      "changeset": 117151355,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Old Middlehurst Hut",
+        "ref:linz:topo50_id": "5400912",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
       "type": "way",
       "id": 854130613,
-      "timestamp": "2021-08-23T10:31:41Z",
-      "version": 2,
-      "changeset": 110107090,
-      "user": "petenz",
-      "uid": 38928,
+      "timestamp": "2022-02-08T09:21:43Z",
+      "version": 3,
+      "changeset": 117151355,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "center": {
         "lat": -41.970833,
         "lon": 173.6372308
       },
       "nodes": [],
       "tags": {
+        "alt_name": "Hodder Huts",
         "building": "yes",
         "capacity": "6",
         "fee": "yes",
         "internet_access": "no",
         "name": "Tararua Hut",
         "operator": "Marlborough Tramping Club",
+        "ref:linz:topo50_id": "7967561",
         "tourism": "wilderness_hut"
       }
     },
     {
       "type": "way",
       "id": 854130614,
-      "timestamp": "2021-08-23T10:31:41Z",
-      "version": 2,
-      "changeset": 110107090,
-      "user": "petenz",
-      "uid": 38928,
+      "timestamp": "2022-02-08T09:21:43Z",
+      "version": 3,
+      "changeset": 117151355,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "center": {
         "lat": -41.9707784,
         "lon": 173.6371138
       },
       "nodes": [],
       "tags": {
+        "alt_name": "Hodder Huts",
         "building": "yes",
         "fee": "yes",
         "internet_access": "no",
         "name": "Murray Adrian Hut",
         "operator": "Marlborough Tramping Club",
+        "ref:linz:topo50_id": "7967561",
         "tourism": "wilderness_hut"
       }
     },
@@ -1365,9 +1405,9 @@
     {
       "type": "way",
       "id": 925623662,
-      "timestamp": "2022-02-07T08:24:43Z",
-      "version": 2,
-      "changeset": 117107624,
+      "timestamp": "2022-02-08T09:21:43Z",
+      "version": 3,
+      "changeset": 117151355,
       "user": "kylenz_linz",
       "uid": 8389777,
       "center": {
@@ -1389,6 +1429,7 @@
         "payment:prepaid_card": "yes",
         "payment:prepaid_ticket": "yes",
         "ref:doc": "100061176",
+        "ref:linz:topo50_id": "5404806",
         "reservation": "no",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",
@@ -1482,11 +1523,11 @@
     {
       "type": "way",
       "id": 972193635,
-      "timestamp": "2021-08-11T07:49:34Z",
-      "version": 1,
-      "changeset": 109500810,
-      "user": "petenz",
-      "uid": 38928,
+      "timestamp": "2022-02-08T09:21:43Z",
+      "version": 2,
+      "changeset": 117151355,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "center": {
         "lat": -41.9644599,
         "lon": 173.3000209
@@ -1495,6 +1536,7 @@
       "tags": {
         "building": "yes",
         "name": "Burnt Yards Hut",
+        "ref:linz:topo50_id": "5400889",
         "tourism": "wilderness_hut"
       }
     },
@@ -1717,9 +1759,9 @@
     {
       "type": "way",
       "id": 979801479,
-      "timestamp": "2022-02-07T08:24:43Z",
-      "version": 2,
-      "changeset": 117107624,
+      "timestamp": "2022-02-08T09:21:43Z",
+      "version": 3,
+      "changeset": 117151355,
       "user": "kylenz_linz",
       "uid": 8389777,
       "center": {
@@ -1739,6 +1781,7 @@
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100059971",
+        "ref:linz:topo50_id": "5404850",
         "reservation": "no",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",
