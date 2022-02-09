@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-07T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-08T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2024,9 +2024,9 @@
     {
       "type": "relation",
       "id": 7700148,
-      "timestamp": "2022-02-07T23:41:45Z",
-      "version": 19,
-      "changeset": 117139395,
+      "timestamp": "2022-02-08T17:06:04Z",
+      "version": 20,
+      "changeset": 117169766,
       "user": "kaitu",
       "uid": 69717,
       "members": [
@@ -2065,8 +2065,10 @@
         {"type": "way", "ref": 1029062601, "role": ""},
         {"type": "way", "ref": 245885658, "role": ""},
         {"type": "way", "ref": 245885669, "role": ""},
+        {"type": "way", "ref": 1029370345, "role": ""},
         {"type": "way", "ref": 247345688, "role": ""},
-        {"type": "way", "ref": 1001018167, "role": ""},
+        {"type": "way", "ref": 247345700, "role": ""},
+        {"type": "way", "ref": 1029370344, "role": ""},
         {"type": "way", "ref": 247345699, "role": ""},
         {"type": "way", "ref": 247887922, "role": ""},
         {"type": "way", "ref": 245885667, "role": ""},
@@ -4007,27 +4009,6 @@
     },
     {
       "type": "way",
-      "id": 1001018167,
-      "timestamp": "2022-02-07T10:57:17Z",
-      "version": 2,
-      "changeset": 117113905,
-      "user": "kaitu",
-      "uid": 69717,
-      "nodes": [2542499650, 2542499654],
-      "geometry": [
-        {"lat": 45.952203, "lon": 9.0517488},
-        {"lat": 45.95242, "lon": 9.0517631},
-        {"lat": 45.9525198, "lon": 9.0516925}
-      ],
-      "tags": {
-        "highway": "unclassified",
-        "lanes": "1",
-        "oneway": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
       "id": 1004020687,
       "timestamp": "2021-11-18T14:57:30Z",
       "version": 1,
@@ -5524,6 +5505,53 @@
         "symbol": "white-red-white stripes",
         "trail_visibility": "good",
         "trailblazed": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029370344,
+      "timestamp": "2022-02-08T17:06:04Z",
+      "version": 1,
+      "changeset": 117169766,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [9490329375, 727543713],
+      "geometry": [
+        {"lat": 45.9522649, "lon": 9.0523696},
+        {"lat": 45.9521342, "lon": 9.0520198},
+        {"lat": 45.9521264, "lon": 9.0518001}
+      ],
+      "tags": {
+        "access": "yes",
+        "highway": "unclassified",
+        "lanes": "1",
+        "name": "Via Monte Generoso",
+        "note:vehicle": "Vehicles are not allowed to access in case of snow.",
+        "oneway": "no",
+        "smoothness": "bad",
+        "source": "survey, gps track",
+        "surface": "asphalt",
+        "winter_service": "no"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029370345,
+      "timestamp": "2022-02-08T17:06:04Z",
+      "version": 1,
+      "changeset": 117169766,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [727543725, 2529853757],
+      "geometry": [
+        {"lat": 45.9550145, "lon": 9.0517203},
+        {"lat": 45.9553764, "lon": 9.0520525}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "1",
+        "oneway": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -14049,27 +14077,29 @@
     {
       "type": "way",
       "id": 157154999,
-      "timestamp": "2015-11-03T15:51:36Z",
-      "version": 5,
-      "changeset": 35059009,
-      "user": "Bluebuster83",
-      "uid": 1779540,
+      "timestamp": "2022-02-08T20:47:27Z",
+      "version": 6,
+      "changeset": 117176695,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [59708306, 1692071326],
       "geometry": [
         {"lat": 46.0030962, "lon": 8.746077},
         {"lat": 46.0030766, "lon": 8.746217},
         {"lat": 46.0030891, "lon": 8.7463407},
-        {"lat": 46.0031999, "lon": 8.7465427},
+        {"lat": 46.0031788, "lon": 8.7465007},
+        {"lat": 46.0032123, "lon": 8.7465427},
         {"lat": 46.0032949, "lon": 8.746712},
         {"lat": 46.0034137, "lon": 8.7469058},
         {"lat": 46.0036591, "lon": 8.7468765},
         {"lat": 46.0038141, "lon": 8.7468667},
         {"lat": 46.0039826, "lon": 8.7469074},
-        {"lat": 46.004124, "lon": 8.7469872},
-        {"lat": 46.0042484, "lon": 8.7470637},
-        {"lat": 46.0044294, "lon": 8.7471908},
+        {"lat": 46.0041259, "lon": 8.7469714},
+        {"lat": 46.0042174, "lon": 8.7470228},
+        {"lat": 46.0044384, "lon": 8.7471583},
         {"lat": 46.0045357, "lon": 8.7472836},
         {"lat": 46.0046285, "lon": 8.7473536},
+        {"lat": 46.0047442, "lon": 8.747344},
         {"lat": 46.0048445, "lon": 8.7474187},
         {"lat": 46.0049922, "lon": 8.7476334},
         {"lat": 46.0050717, "lon": 8.7478202}
@@ -14077,7 +14107,6 @@
       "tags": {
         "foot": "yes",
         "highway": "steps",
-        "name": "111-3V Maccagno_Luino",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -17541,11 +17570,11 @@
     {
       "type": "way",
       "id": 167047735,
-      "timestamp": "2013-04-01T15:27:25Z",
-      "version": 2,
-      "changeset": 15569579,
-      "user": "matzze",
-      "uid": 486130,
+      "timestamp": "2022-02-08T20:47:27Z",
+      "version": 3,
+      "changeset": 117176695,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1692072016, 1692072154],
       "geometry": [
         {"lat": 46.0305169, "lon": 8.7520574},
@@ -17660,7 +17689,6 @@
         "foot": "yes",
         "highway": "path",
         "mtb:scale": "2",
-        "name": "111-3V Maccagno_Luino",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -18595,11 +18623,11 @@
     {
       "type": "way",
       "id": 173660524,
-      "timestamp": "2021-05-26T15:50:53Z",
-      "version": 3,
-      "changeset": 105368461,
-      "user": "Lurlene Huckabey",
-      "uid": 8341954,
+      "timestamp": "2022-02-08T20:47:27Z",
+      "version": 4,
+      "changeset": 117176695,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1692071416, 375642398],
       "geometry": [
         {"lat": 46.0124834, "lon": 8.7534927},
@@ -18734,7 +18762,6 @@
         "foot": "yes",
         "highway": "path",
         "mtb:scale": "3",
-        "name": "111-3V Maccagno_Luino",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -30690,51 +30717,74 @@
     {
       "type": "way",
       "id": 247345688,
-      "timestamp": "2013-11-21T00:55:21Z",
-      "version": 1,
-      "changeset": 19026931,
+      "timestamp": "2022-02-08T17:06:04Z",
+      "version": 2,
+      "changeset": 117169766,
       "user": "kaitu",
       "uid": 69717,
-      "nodes": [2542499654, 2529853757],
+      "nodes": [2542499654, 727543725],
       "geometry": [
-        {"lat": 45.9525198, "lon": 9.0516925},
+        {"lat": 45.9525329, "lon": 9.051714},
         {"lat": 45.9525889, "lon": 9.0516398},
         {"lat": 45.9527081, "lon": 9.0515369},
         {"lat": 45.9528643, "lon": 9.0514984},
-        {"lat": 45.9534522, "lon": 9.0514415},
-        {"lat": 45.9540317, "lon": 9.0514815},
-        {"lat": 45.9544446, "lon": 9.0514049},
+        {"lat": 45.9534522, "lon": 9.0514603},
+        {"lat": 45.9540075, "lon": 9.0515056},
+        {"lat": 45.9544521, "lon": 9.0514451},
         {"lat": 45.954791, "lon": 9.0515381},
-        {"lat": 45.9551599, "lon": 9.0518169},
-        {"lat": 45.9553764, "lon": 9.0520525}
+        {"lat": 45.9550145, "lon": 9.0517203}
       ],
       "tags": {
         "highway": "unclassified",
         "lanes": "1",
         "oneway": "no",
+        "parking:lane:right": "parallel",
+        "parking:lane:right:parallel": "street_side",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 247345699,
-      "timestamp": "2013-11-23T18:24:20Z",
-      "version": 2,
-      "changeset": 19078128,
+      "timestamp": "2022-02-08T17:06:04Z",
+      "version": 3,
+      "changeset": 117169766,
       "user": "kaitu",
       "uid": 69717,
-      "nodes": [2529853702, 2542499650],
+      "nodes": [2529853702, 9490329375],
       "geometry": [
         {"lat": 45.9525922, "lon": 9.0523232},
         {"lat": 45.9524876, "lon": 9.0522592},
-        {"lat": 45.9523809, "lon": 9.0521264},
-        {"lat": 45.952203, "lon": 9.0517488}
+        {"lat": 45.9522649, "lon": 9.0523696}
       ],
       "tags": {
         "highway": "path",
         "sac_scale": "hiking",
         "surface": "grass",
         "trail_visibility": "intermediate"
+      }
+    },
+    {
+      "type": "way",
+      "id": 247345700,
+      "timestamp": "2022-02-08T17:06:04Z",
+      "version": 4,
+      "changeset": 117169766,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [727543713, 2542499654],
+      "geometry": [
+        {"lat": 45.9521264, "lon": 9.0518001},
+        {"lat": 45.952203, "lon": 9.0517488},
+        {"lat": 45.95242, "lon": 9.0517631},
+        {"lat": 45.9525329, "lon": 9.051714}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "1",
+        "oneway": "no",
+        "surface": "asphalt",
+        "survey:date": "2022-02-06"
       }
     },
     {
@@ -52889,11 +52939,11 @@
     {
       "type": "way",
       "id": 370899567,
-      "timestamp": "2019-04-09T19:25:20Z",
-      "version": 2,
-      "changeset": 69059392,
-      "user": "fedc",
-      "uid": 602784,
+      "timestamp": "2022-02-08T01:40:52Z",
+      "version": 3,
+      "changeset": 117140695,
+      "user": "EvanE",
+      "uid": 184969,
       "nodes": [2034446701, 2034446784],
       "geometry": [
         {"lat": 45.8230581, "lon": 9.0546487},
@@ -52902,21 +52952,22 @@
         {"lat": 45.8230838, "lon": 9.0547478}
       ],
       "tags": {
-        "surface": "asphalt",
         "highway": "primary",
         "junction": "roundabout",
         "lanes": "1",
-        "maxspeed": "50"
+        "maxspeed": "50",
+        "noname": "yes",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 370899568,
-      "timestamp": "2019-04-09T19:25:19Z",
-      "version": 2,
-      "changeset": 69059392,
-      "user": "fedc",
-      "uid": 602784,
+      "timestamp": "2022-02-08T01:40:52Z",
+      "version": 3,
+      "changeset": 117140695,
+      "user": "EvanE",
+      "uid": 184969,
       "nodes": [2034446692, 2034446604],
       "geometry": [
         {"lat": 45.8231867, "lon": 9.0545399},
@@ -52926,11 +52977,12 @@
         {"lat": 45.8230933, "lon": 9.0545543}
       ],
       "tags": {
-        "surface": "asphalt",
         "highway": "primary",
         "junction": "roundabout",
         "lanes": "1",
-        "maxspeed": "50"
+        "maxspeed": "50",
+        "noname": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -55497,11 +55549,11 @@
     {
       "type": "way",
       "id": 378151631,
-      "timestamp": "2015-11-03T15:51:34Z",
-      "version": 1,
-      "changeset": 35059009,
-      "user": "Bluebuster83",
-      "uid": 1779540,
+      "timestamp": "2022-02-08T20:47:27Z",
+      "version": 2,
+      "changeset": 117176695,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1692071326, 1692071329],
       "geometry": [
         {"lat": 46.0050717, "lon": 8.7478202},
@@ -55512,7 +55564,6 @@
       "tags": {
         "foot": "yes",
         "highway": "steps",
-        "name": "111-3V Maccagno_Luino",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
