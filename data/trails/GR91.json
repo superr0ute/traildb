@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-31T02:34:37Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-10T02:31:37Z"},
   "elements": [
     {
       "type": "relation",
       "id": 9920921,
-      "timestamp": "2021-08-08T21:28:46Z",
-      "version": 13,
-      "changeset": 109364046,
-      "user": "Joris VL",
-      "uid": 12183878,
+      "timestamp": "2022-02-09T16:35:06Z",
+      "version": 14,
+      "changeset": 117210484,
+      "user": "JFK73",
+      "uid": 662440,
       "members": [
         {"type": "way", "ref": 69468205, "role": ""},
         {"type": "way", "ref": 5978718, "role": ""},
@@ -88,6 +88,7 @@
         {"type": "way", "ref": 211438610, "role": ""},
         {"type": "way", "ref": 713786729, "role": ""},
         {"type": "way", "ref": 174349340, "role": ""},
+        {"type": "way", "ref": 1029663373, "role": ""},
         {"type": "way", "ref": 166096320, "role": ""},
         {"type": "way", "ref": 713786726, "role": ""},
         {"type": "way", "ref": 40471776, "role": ""},
@@ -130,6 +131,29 @@
         "route": "hiking",
         "type": "route",
         "wikidata": "Q107745584"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029663373,
+      "timestamp": "2022-02-09T16:35:06Z",
+      "version": 1,
+      "changeset": 117210484,
+      "user": "JFK73",
+      "uid": 662440,
+      "nodes": [1491711152, 4653973541],
+      "geometry": [
+        {"lat": 45.0275351, "lon": 5.5237076, "z": 1119.2},
+        {"lat": 45.0274661, "lon": 5.5235884, "z": 1119.7},
+        {"lat": 45.0270993, "lon": 5.522655, "z": 1122.1},
+        {"lat": 45.0269791, "lon": 5.5223465, "z": 1122.7},
+        {"lat": 45.026962, "lon": 5.5222484, "z": 1122.5},
+        {"lat": 45.0269654, "lon": 5.5222025, "z": 1122.3}
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Rue des Bessonnets",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2015"
       }
     },
     {
@@ -1972,11 +1996,11 @@
     {
       "type": "way",
       "id": 135896159,
-      "timestamp": "2019-08-14T18:53:01Z",
-      "version": 7,
-      "changeset": 73361519,
-      "user": "Hervé TUC",
-      "uid": 922338,
+      "timestamp": "2022-02-09T16:35:06Z",
+      "version": 8,
+      "changeset": 117210484,
+      "user": "JFK73",
+      "uid": 662440,
       "nodes": [1491681305, 1491681483],
       "geometry": [
         {"lat": 45.0346078, "lon": 5.5333355, "z": 1096.5},
@@ -1992,7 +2016,8 @@
       "tags": {
         "highway": "tertiary",
         "maxspeed": "50",
-        "name": "Route de Corrençon à Villard",
+        "name": "Route de Villard-de-Lans",
+        "old_name": "Route de Corrençon à Villard",
         "ref": "D 215",
         "source": "GPS average",
         "surface": "asphalt"
@@ -2513,12 +2538,12 @@
     {
       "type": "way",
       "id": 174349340,
-      "timestamp": "2019-08-14T20:18:38Z",
-      "version": 5,
-      "changeset": 73363945,
-      "user": "Hervé TUC",
-      "uid": 922338,
-      "nodes": [1850546670, 4653973541],
+      "timestamp": "2022-02-09T16:35:06Z",
+      "version": 6,
+      "changeset": 117210484,
+      "user": "JFK73",
+      "uid": 662440,
+      "nodes": [1850546670, 1491711152],
       "geometry": [
         {"lat": 45.0280097, "lon": 5.5250642, "z": 1115.8},
         {"lat": 45.0279865, "lon": 5.5249865, "z": 1116},
@@ -2526,16 +2551,11 @@
         {"lat": 45.0278955, "lon": 5.5246103, "z": 1116.7},
         {"lat": 45.0278557, "lon": 5.5245017, "z": 1117},
         {"lat": 45.0277628, "lon": 5.5242991, "z": 1117.6},
-        {"lat": 45.0275351, "lon": 5.5237076, "z": 1119.2},
-        {"lat": 45.0274661, "lon": 5.5235884, "z": 1119.7},
-        {"lat": 45.0270993, "lon": 5.522655, "z": 1122.1},
-        {"lat": 45.0269791, "lon": 5.5223465, "z": 1122.7},
-        {"lat": 45.026962, "lon": 5.5222484, "z": 1122.5},
-        {"lat": 45.0269654, "lon": 5.5222025, "z": 1122.3}
+        {"lat": 45.0275351, "lon": 5.5237076, "z": 1119.2}
       ],
       "tags": {
         "highway": "residential",
-        "name": "Les Bessonnets",
+        "name": "Rue des Piccauds",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2015"
       }
     },
@@ -4728,11 +4748,11 @@
     {
       "type": "way",
       "id": 41331071,
-      "timestamp": "2022-01-30T09:37:58Z",
-      "version": 10,
-      "changeset": 116771254,
-      "user": "MS BOT",
-      "uid": 85516,
+      "timestamp": "2022-02-09T16:35:06Z",
+      "version": 11,
+      "changeset": 117210484,
+      "user": "JFK73",
+      "uid": 662440,
       "nodes": [505320434, 510154534],
       "geometry": [
         {"lat": 45.0308759, "lon": 5.5274399, "z": 1103.3},
@@ -4754,18 +4774,19 @@
       ],
       "tags": {
         "highway": "unclassified",
-        "name": "Chemin Rural du Goutet",
+        "name": "Chemin des Jambets",
+        "old_name": "Chemin Rural du Goutet",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
       }
     },
     {
       "type": "way",
       "id": 41419600,
-      "timestamp": "2022-01-30T09:37:58Z",
-      "version": 9,
-      "changeset": 116771254,
-      "user": "MS BOT",
-      "uid": 85516,
+      "timestamp": "2022-02-09T16:35:06Z",
+      "version": 10,
+      "changeset": 117210484,
+      "user": "JFK73",
+      "uid": 662440,
       "nodes": [505320434, 1491681444],
       "geometry": [
         {"lat": 45.0308759, "lon": 5.5274399, "z": 1103.3},
@@ -4807,18 +4828,18 @@
       ],
       "tags": {
         "highway": "unclassified",
-        "name": "Chemin Rural des Martins",
+        "name": "Route des Martins",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
       }
     },
     {
       "type": "way",
       "id": 41728437,
-      "timestamp": "2019-08-14T18:53:00Z",
-      "version": 8,
-      "changeset": 73361519,
-      "user": "Hervé TUC",
-      "uid": 922338,
+      "timestamp": "2022-02-09T16:35:06Z",
+      "version": 9,
+      "changeset": 117210484,
+      "user": "JFK73",
+      "uid": 662440,
       "nodes": [1491681483, 1776220864],
       "geometry": [
         {"lat": 45.0365742, "lon": 5.5340919, "z": 1109.7},
@@ -4845,7 +4866,8 @@
       ],
       "tags": {
         "highway": "residential",
-        "name": "Chemin de Corrençon aux Bouchards",
+        "name": "Impasse des Traverses",
+        "old_name": "Chemin de Corrençon aux Bouchards",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
       }
     },
@@ -6131,11 +6153,11 @@
     {
       "type": "way",
       "id": 713768975,
-      "timestamp": "2019-08-14T18:52:59Z",
-      "version": 1,
-      "changeset": 73361519,
-      "user": "Hervé TUC",
-      "uid": 922338,
+      "timestamp": "2022-02-09T16:35:06Z",
+      "version": 2,
+      "changeset": 117210484,
+      "user": "JFK73",
+      "uid": 662440,
       "nodes": [1491681444, 1491681305],
       "geometry": [
         {"lat": 45.0333507, "lon": 5.5312031, "z": 1094},
@@ -6155,7 +6177,8 @@
       "tags": {
         "highway": "tertiary",
         "maxspeed": "30",
-        "name": "Route de Corrençon à Villard",
+        "name": "Route de Villard-de-Lans",
+        "old_name": "Route de Corrençon à Villard",
         "ref": "D 215",
         "source": "GPS average",
         "surface": "asphalt"
@@ -6296,11 +6319,11 @@
     {
       "type": "way",
       "id": 713786726,
-      "timestamp": "2021-08-28T13:10:15Z",
-      "version": 2,
-      "changeset": 110378746,
-      "user": "BrieucP",
-      "uid": 5758494,
+      "timestamp": "2022-02-09T16:35:06Z",
+      "version": 3,
+      "changeset": 117210484,
+      "user": "JFK73",
+      "uid": 662440,
       "nodes": [49313795, 490262294],
       "geometry": [
         {"lat": 45.0246853, "lon": 5.5186667, "z": 1153.1},
@@ -6312,7 +6335,8 @@
       "tags": {
         "cycleway:both": "no",
         "highway": "tertiary",
-        "name": "Route de Villard-de-Lans au Clos de la Balme",
+        "name": "Route du Clos de la Balme",
+        "old_name": "Route de Villard-de-Lans au Clos de la Balme",
         "ref": "D 215",
         "surface": "asphalt"
       }
@@ -6633,11 +6657,11 @@
     {
       "type": "way",
       "id": 906579885,
-      "timestamp": "2021-02-12T14:33:39Z",
-      "version": 1,
-      "changeset": 99181846,
-      "user": "Olyon",
-      "uid": 1443767,
+      "timestamp": "2022-02-09T16:35:06Z",
+      "version": 2,
+      "changeset": 117210484,
+      "user": "JFK73",
+      "uid": 662440,
       "nodes": [513732366, 1776221196],
       "geometry": [
         {"lat": 45.0420987, "lon": 5.541945, "z": 1079.8},
@@ -6657,7 +6681,8 @@
       ],
       "tags": {
         "highway": "unclassified",
-        "name": "Chemin de Corrençon aux Bouchards",
+        "name": "Impasse des Charpennes",
+        "old_name": "Chemin de Corrençon aux Bouchards",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
       }
     },

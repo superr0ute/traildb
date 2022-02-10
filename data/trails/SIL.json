@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-08T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-09T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2024,9 +2024,9 @@
     {
       "type": "relation",
       "id": 7700148,
-      "timestamp": "2022-02-08T17:06:04Z",
-      "version": 20,
-      "changeset": 117169766,
+      "timestamp": "2022-02-09T10:32:32Z",
+      "version": 21,
+      "changeset": 117195832,
       "user": "kaitu",
       "uid": 69717,
       "members": [
@@ -2086,12 +2086,17 @@
         {"type": "way", "ref": 195649200, "role": ""},
         {"type": "way", "ref": 195649198, "role": ""},
         {"type": "way", "ref": 58763219, "role": ""},
+        {"type": "way", "ref": 1029568570, "role": ""},
+        {"type": "way", "ref": 1029568569, "role": ""},
+        {"type": "way", "ref": 1029568567, "role": ""},
+        {"type": "way", "ref": 1029568566, "role": ""},
         {"type": "way", "ref": 83688418, "role": ""},
-        {"type": "way", "ref": 250065239, "role": ""},
+        {"type": "way", "ref": 1029568575, "role": ""},
         {"type": "way", "ref": 250247534, "role": ""},
         {"type": "way", "ref": 168108560, "role": ""},
         {"type": "way", "ref": 250065243, "role": ""},
         {"type": "way", "ref": 245885652, "role": ""},
+        {"type": "way", "ref": 1029568571, "role": ""},
         {"type": "way", "ref": 245885670, "role": ""},
         {"type": "way", "ref": 245885653, "role": ""},
         {"type": "way", "ref": 250247537, "role": ""},
@@ -5192,11 +5197,11 @@
     {
       "type": "way",
       "id": 1017812036,
-      "timestamp": "2022-01-03T17:08:15Z",
-      "version": 2,
-      "changeset": 115720696,
-      "user": "Tungmar",
-      "uid": 427807,
+      "timestamp": "2022-02-09T17:33:50Z",
+      "version": 3,
+      "changeset": 117212625,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1425457322, 1391577582],
       "geometry": [
         {"lat": 45.8179256, "lon": 9.0171971},
@@ -5213,7 +5218,6 @@
         "foot": "yes",
         "highway": "track",
         "mtb:scale": "1",
-        "ref": "2",
         "surface": "ground",
         "tracktype": "grade4"
       }
@@ -5553,6 +5557,116 @@
         "oneway": "no",
         "surface": "asphalt"
       }
+    },
+    {
+      "type": "way",
+      "id": 1029568566,
+      "timestamp": "2022-02-09T10:32:32Z",
+      "version": 1,
+      "changeset": 117195832,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [974471998, 9491999968],
+      "geometry": [
+        {"lat": 45.9699693, "lon": 9.0783075},
+        {"lat": 45.9700045, "lon": 9.0783887}
+      ],
+      "tags": {"highway": "residential", "surface": "sett"}
+    },
+    {
+      "type": "way",
+      "id": 1029568567,
+      "timestamp": "2022-02-09T10:32:32Z",
+      "version": 1,
+      "changeset": 117195832,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [9491999968, 974471877],
+      "geometry": [
+        {"lat": 45.9700045, "lon": 9.0783887},
+        {"lat": 45.9696145, "lon": 9.0788887},
+        {"lat": 45.9693553, "lon": 9.0789955},
+        {"lat": 45.9691159, "lon": 9.0791438}
+      ],
+      "tags": {"highway": "residential", "surface": "asphalt"}
+    },
+    {
+      "type": "way",
+      "id": 1029568569,
+      "timestamp": "2022-02-09T10:32:32Z",
+      "version": 1,
+      "changeset": 117195832,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [974471877, 974471916],
+      "geometry": [
+        {"lat": 45.9691159, "lon": 9.0791438},
+        {"lat": 45.9689065, "lon": 9.0791264},
+        {"lat": 45.9686284, "lon": 9.0792634},
+        {"lat": 45.9683996, "lon": 9.079297},
+        {"lat": 45.968237, "lon": 9.079258}
+      ],
+      "tags": {"highway": "residential", "surface": "asphalt"}
+    },
+    {
+      "type": "way",
+      "id": 1029568570,
+      "timestamp": "2022-02-09T15:11:44Z",
+      "version": 2,
+      "changeset": 117207295,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [974471916, 974471999],
+      "geometry": [
+        {"lat": 45.968237, "lon": 9.079258},
+        {"lat": 45.9680141, "lon": 9.0791668},
+        {"lat": 45.9679072, "lon": 9.0790717},
+        {"lat": 45.9678237, "lon": 9.078958},
+        {"lat": 45.9677396, "lon": 9.0787666},
+        {"lat": 45.9675783, "lon": 9.0783221},
+        {"lat": 45.9675525, "lon": 9.0782482}
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Via fratelli Ferrari",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029568571,
+      "timestamp": "2022-02-09T10:32:32Z",
+      "version": 1,
+      "changeset": 117195832,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [974471947, 533786035],
+      "geometry": [
+        {"lat": 45.9714665, "lon": 9.0774089},
+        {"lat": 45.971493, "lon": 9.0774359},
+        {"lat": 45.9715167, "lon": 9.0774663},
+        {"lat": 45.9717155, "lon": 9.0777219},
+        {"lat": 45.9717347, "lon": 9.0778232}
+      ],
+      "tags": {"highway": "residential", "oneway": "no", "surface": "asphalt"}
+    },
+    {
+      "type": "way",
+      "id": 1029568575,
+      "timestamp": "2022-02-09T10:32:32Z",
+      "version": 1,
+      "changeset": 117195832,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [728285756, 974471900],
+      "geometry": [
+        {"lat": 45.9706448, "lon": 9.0777544},
+        {"lat": 45.9706084, "lon": 9.0777794},
+        {"lat": 45.9705728, "lon": 9.077804},
+        {"lat": 45.9705096, "lon": 9.0777902},
+        {"lat": 45.9703802, "lon": 9.0777361}
+      ],
+      "tags": {"highway": "residential", "surface": "asphalt"}
     },
     {
       "type": "way",
@@ -13713,11 +13827,11 @@
     {
       "type": "way",
       "id": 156771137,
-      "timestamp": "2017-10-29T08:05:19Z",
-      "version": 8,
-      "changeset": 53334479,
-      "user": "Gianfranco2014",
-      "uid": 1928626,
+      "timestamp": "2022-02-09T15:13:17Z",
+      "version": 9,
+      "changeset": 117207369,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1690106824, 1542540814],
       "geometry": [
         {"lat": 45.9730378, "lon": 8.7960281},
@@ -13751,7 +13865,6 @@
       "tags": {
         "foot": "yes",
         "highway": "path",
-        "name": "413-3V Monte Sette Termini_Creva",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -14905,11 +15018,11 @@
     {
       "type": "way",
       "id": 159196638,
-      "timestamp": "2019-03-30T20:06:50Z",
-      "version": 9,
-      "changeset": 68708550,
-      "user": "SingletrailMap",
-      "uid": 508672,
+      "timestamp": "2022-02-09T15:13:17Z",
+      "version": 10,
+      "changeset": 117207369,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1323504480, 1690106967],
       "geometry": [
         {"lat": 45.9723546, "lon": 8.7890043},
@@ -15067,7 +15180,6 @@
         "foot": "yes",
         "highway": "path",
         "mtb:scale": "2",
-        "name": "413-3V Monte Sette Termini_Creva",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -15681,11 +15793,11 @@
     {
       "type": "way",
       "id": 159528039,
-      "timestamp": "2020-09-23T18:00:27Z",
-      "version": 6,
-      "changeset": 91385081,
-      "user": "Lurlene Huckabey",
-      "uid": 8341954,
+      "timestamp": "2022-02-09T15:10:47Z",
+      "version": 7,
+      "changeset": 117207263,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1323462929, 1701397966],
       "geometry": [
         {"lat": 45.9679103, "lon": 8.8019218},
@@ -15711,7 +15823,6 @@
       ],
       "tags": {
         "highway": "path",
-        "name": "214-3V Brezzo di Bedero-Monte Sette Termini",
         "sac_scale": "mountain_hiking",
         "surface": "ground",
         "tracktype": "grade2"
@@ -15720,11 +15831,11 @@
     {
       "type": "way",
       "id": 159528042,
-      "timestamp": "2020-09-23T18:00:27Z",
-      "version": 3,
-      "changeset": 91385081,
-      "user": "Lurlene Huckabey",
-      "uid": 8341954,
+      "timestamp": "2022-02-09T15:10:47Z",
+      "version": 4,
+      "changeset": 117207263,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1323457505, 1323462931],
       "geometry": [
         {"lat": 45.9667768, "lon": 8.8010125},
@@ -15755,7 +15866,6 @@
       "tags": {
         "foot": "yes",
         "highway": "path",
-        "name": "214-3V Brezzo di Bedero-Monte Sette Termini",
         "sac_scale": "mountain_hiking",
         "surface": "ground",
         "tracktype": "grade2"
@@ -15764,11 +15874,11 @@
     {
       "type": "way",
       "id": 159528051,
-      "timestamp": "2020-09-23T18:00:27Z",
-      "version": 7,
-      "changeset": 91385081,
-      "user": "Lurlene Huckabey",
-      "uid": 8341954,
+      "timestamp": "2022-02-09T15:10:47Z",
+      "version": 8,
+      "changeset": 117207263,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1701397966, 1701398126],
       "geometry": [
         {"lat": 45.969219, "lon": 8.8018821},
@@ -15808,7 +15918,6 @@
       ],
       "tags": {
         "highway": "path",
-        "name": "214-3V Brezzo di Bedero-Monte Sette Termini",
         "sac_scale": "mountain_hiking",
         "surface": "ground",
         "tracktype": "grade2"
@@ -16498,11 +16607,11 @@
     {
       "type": "way",
       "id": 165378712,
-      "timestamp": "2014-06-22T15:49:27Z",
-      "version": 6,
-      "changeset": 23082605,
-      "user": "Alecs01",
-      "uid": 1476146,
+      "timestamp": "2022-02-09T15:14:44Z",
+      "version": 7,
+      "changeset": 117207430,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1502808255, 1769293161],
       "geometry": [
         {"lat": 45.9978447, "lon": 8.7762114},
@@ -16563,7 +16672,6 @@
       "tags": {
         "foot": "yes",
         "highway": "path",
-        "name": "207-3V Muceno_Dumenza",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -16571,11 +16679,11 @@
     {
       "type": "way",
       "id": 165378714,
-      "timestamp": "2016-01-05T01:00:58Z",
-      "version": 5,
-      "changeset": 36372161,
-      "user": "valdelli",
-      "uid": 2069558,
+      "timestamp": "2022-02-09T15:14:44Z",
+      "version": 6,
+      "changeset": 117207430,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1769292799, 1769292926],
       "geometry": [
         {"lat": 45.990549, "lon": 8.7640262},
@@ -16624,7 +16732,6 @@
         "foot": "yes",
         "highway": "path",
         "mtb:scale": "2",
-        "name": "207-3V Muceno_Dumenza",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -17759,11 +17866,11 @@
       "uid": 69717,
       "nodes": [1794164820, 1794164830],
       "geometry": [
-        {"lat": 45.9709618, "lon": 9.0772523},
-        {"lat": 45.9710327, "lon": 9.077199},
-        {"lat": 45.9711087, "lon": 9.0771746},
+        {"lat": 45.9709696, "lon": 9.0772779},
+        {"lat": 45.9710397, "lon": 9.0772216},
+        {"lat": 45.9710918, "lon": 9.0771912},
         {"lat": 45.9711572, "lon": 9.0771844},
-        {"lat": 45.9712012, "lon": 9.0771446}
+        {"lat": 45.9712082, "lon": 9.0771684}
       ],
       "tags": {
         "highway": "unclassified",
@@ -23100,9 +23207,9 @@
     {
       "type": "way",
       "id": 195649200,
-      "timestamp": "2012-12-10T21:54:53Z",
-      "version": 1,
-      "changeset": 14231925,
+      "timestamp": "2022-02-09T15:11:44Z",
+      "version": 2,
+      "changeset": 117207295,
       "user": "kaitu",
       "uid": 69717,
       "nodes": [726546910, 726546902],
@@ -23115,7 +23222,7 @@
       ],
       "tags": {
         "highway": "tertiary",
-        "name": "SP13 della Valle Intelvi diramazione per Pigra",
+        "name": "Via G. Andreetti",
         "oneway": "yes",
         "ref": "SP13D1"
       }
@@ -23242,11 +23349,11 @@
     {
       "type": "way",
       "id": 203949247,
-      "timestamp": "2013-02-02T23:04:28Z",
-      "version": 1,
-      "changeset": 14889989,
-      "user": "mdk",
-      "uid": 178186,
+      "timestamp": "2022-02-09T15:13:17Z",
+      "version": 2,
+      "changeset": 117207369,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1690107267, 345564428],
       "geometry": [
         {"lat": 45.9905893, "lon": 8.7657432},
@@ -23269,7 +23376,6 @@
       "tags": {
         "foot": "yes",
         "highway": "path",
-        "name": "413-3V Monte Sette Termini_Creva",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -23277,11 +23383,11 @@
     {
       "type": "way",
       "id": 203949248,
-      "timestamp": "2013-02-02T23:04:29Z",
-      "version": 1,
-      "changeset": 14889989,
-      "user": "mdk",
-      "uid": 178186,
+      "timestamp": "2022-02-09T15:13:17Z",
+      "version": 2,
+      "changeset": 117207369,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1690107269, 1690107267],
       "geometry": [
         {"lat": 45.9905453, "lon": 8.7658925},
@@ -23292,7 +23398,6 @@
         "foot": "yes",
         "highway": "path",
         "layer": "1",
-        "name": "413-3V Monte Sette Termini_Creva",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -30177,15 +30282,16 @@
     {
       "type": "way",
       "id": 245885652,
-      "timestamp": "2013-12-05T03:27:39Z",
-      "version": 2,
-      "changeset": 19282622,
+      "timestamp": "2022-02-09T10:32:32Z",
+      "version": 3,
+      "changeset": 117195832,
       "user": "kaitu",
       "uid": 69717,
       "nodes": [974471947, 533785985],
       "geometry": [
-        {"lat": 45.9714615, "lon": 9.077397},
-        {"lat": 45.9715106, "lon": 9.0772041}
+        {"lat": 45.9714665, "lon": 9.0774089},
+        {"lat": 45.9715044, "lon": 9.0772788},
+        {"lat": 45.9715222, "lon": 9.077197}
       ],
       "tags": {
         "highway": "unclassified",
@@ -30479,16 +30585,13 @@
     {
       "type": "way",
       "id": 245885670,
-      "timestamp": "2013-12-05T03:27:42Z",
-      "version": 2,
-      "changeset": 19282622,
+      "timestamp": "2022-02-09T10:32:32Z",
+      "version": 3,
+      "changeset": 117195832,
       "user": "kaitu",
       "uid": 69717,
-      "nodes": [974471947, 533786181],
+      "nodes": [533786035, 533786181],
       "geometry": [
-        {"lat": 45.9714615, "lon": 9.077397},
-        {"lat": 45.971493, "lon": 9.0774359},
-        {"lat": 45.9717155, "lon": 9.0777219},
         {"lat": 45.9717347, "lon": 9.0778232},
         {"lat": 45.9717, "lon": 9.078067},
         {"lat": 45.971661, "lon": 9.0782587},
@@ -31115,27 +31218,6 @@
     },
     {
       "type": "way",
-      "id": 250065239,
-      "timestamp": "2021-06-20T17:51:58Z",
-      "version": 3,
-      "changeset": 106675693,
-      "user": "ivanbranco",
-      "uid": 11220113,
-      "nodes": [728285756, 974471914],
-      "geometry": [
-        {"lat": 45.9706349, "lon": 9.0777306},
-        {"lat": 45.9706383, "lon": 9.0778028}
-      ],
-      "tags": {
-        "alt_name": "Piazza XXV Aprile",
-        "highway": "unclassified",
-        "name": "Piazza Venticinque Aprile",
-        "short_name": "Piazza 25 Aprile",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
       "id": 250065243,
       "timestamp": "2013-12-05T03:27:34Z",
       "version": 1,
@@ -31144,9 +31226,9 @@
       "uid": 69717,
       "nodes": [533785985, 1794164830],
       "geometry": [
-        {"lat": 45.9715106, "lon": 9.0772041},
+        {"lat": 45.9715222, "lon": 9.077197},
         {"lat": 45.9712627, "lon": 9.0771937},
-        {"lat": 45.9712012, "lon": 9.0771446}
+        {"lat": 45.9712082, "lon": 9.0771684}
       ],
       "tags": {
         "highway": "residential",
@@ -31243,11 +31325,11 @@
       "uid": 69717,
       "nodes": [1794164820, 728285756],
       "geometry": [
-        {"lat": 45.9709618, "lon": 9.0772523},
+        {"lat": 45.9709696, "lon": 9.0772779},
         {"lat": 45.9708628, "lon": 9.0774104},
         {"lat": 45.9707199, "lon": 9.077688},
         {"lat": 45.9706829, "lon": 9.0777225},
-        {"lat": 45.9706349, "lon": 9.0777306}
+        {"lat": 45.9706448, "lon": 9.0777544}
       ],
       "tags": {"highway": "unclassified", "surface": "asphalt"}
     },
@@ -38298,11 +38380,11 @@
     {
       "type": "way",
       "id": 289215605,
-      "timestamp": "2021-07-07T21:18:55Z",
-      "version": 5,
-      "changeset": 107589865,
-      "user": "hindair",
-      "uid": 225057,
+      "timestamp": "2022-02-09T15:14:44Z",
+      "version": 6,
+      "changeset": 117207430,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1712355051, 1769307091],
       "geometry": [
         {"lat": 46.0058342, "lon": 8.7922721},
@@ -38455,7 +38537,6 @@
       "tags": {
         "foot": "yes",
         "highway": "path",
-        "name": "207-3V Muceno_Dumenza",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -45519,11 +45600,11 @@
     {
       "type": "way",
       "id": 308899073,
-      "timestamp": "2022-01-03T11:33:42Z",
-      "version": 6,
-      "changeset": 115706713,
-      "user": "Tungmar",
-      "uid": 427807,
+      "timestamp": "2022-02-09T17:33:50Z",
+      "version": 7,
+      "changeset": 117212625,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1425457348, 1425457322],
       "geometry": [
         {"lat": 45.8181706, "lon": 9.0146979},
@@ -45538,7 +45619,6 @@
         "foot": "yes",
         "highway": "path",
         "mtb:scale": "1",
-        "ref": "2",
         "sac_scale": "mountain_hiking",
         "surface": "ground",
         "trail_visibility": "good"
@@ -45547,11 +45627,11 @@
     {
       "type": "way",
       "id": 308899074,
-      "timestamp": "2022-01-03T11:28:13Z",
-      "version": 7,
-      "changeset": 115706502,
-      "user": "Tungmar",
-      "uid": 427807,
+      "timestamp": "2022-02-09T17:33:50Z",
+      "version": 8,
+      "changeset": 117212625,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1425457324, 1425457348],
       "geometry": [
         {"lat": 45.8180354, "lon": 9.0058928},
@@ -45628,7 +45708,6 @@
         "highway": "track",
         "incline": "up",
         "mtb:scale": "1",
-        "ref": "2",
         "sac_scale": "mountain_hiking",
         "surface": "ground",
         "tracktype": "grade3",
@@ -56748,11 +56827,11 @@
     {
       "type": "way",
       "id": 389629385,
-      "timestamp": "2016-01-05T00:46:32Z",
-      "version": 1,
-      "changeset": 36372036,
-      "user": "valdelli",
-      "uid": 2069558,
+      "timestamp": "2022-02-09T15:13:17Z",
+      "version": 2,
+      "changeset": 117207369,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1690107184, 1690107191],
       "geometry": [
         {"lat": 45.9869787, "lon": 8.7713179},
@@ -56762,7 +56841,6 @@
         "foot": "yes",
         "highway": "path",
         "mtb:scale": "2",
-        "name": "413-3V Monte Sette Termini_Creva",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -56770,11 +56848,11 @@
     {
       "type": "way",
       "id": 389629388,
-      "timestamp": "2019-05-04T15:42:46Z",
-      "version": 2,
-      "changeset": 69879987,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2022-02-09T15:13:17Z",
+      "version": 3,
+      "changeset": 117207369,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1690107191, 1690107271],
       "geometry": [
         {"lat": 45.9870466, "lon": 8.7712817},
@@ -56836,7 +56914,6 @@
         "foot": "yes",
         "highway": "path",
         "mtb:scale": "2",
-        "name": "413-3V Monte Sette Termini_Creva",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -56844,11 +56921,11 @@
     {
       "type": "way",
       "id": 389629393,
-      "timestamp": "2016-01-08T00:09:57Z",
-      "version": 2,
-      "changeset": 36436420,
-      "user": "valdelli",
-      "uid": 2069558,
+      "timestamp": "2022-02-09T15:13:17Z",
+      "version": 3,
+      "changeset": 117207369,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [3927960898, 1690107184],
       "geometry": [
         {"lat": 45.9871401, "lon": 8.7773116},
@@ -56892,7 +56969,6 @@
         "foot": "yes",
         "highway": "residential",
         "mtb:scale": "2",
-        "name": "413-3V Monte Sette Termini_Creva",
         "sac_scale": "mountain_hiking",
         "surface": "asphalt",
         "tracktype": "grade2"
@@ -56901,11 +56977,11 @@
     {
       "type": "way",
       "id": 389630066,
-      "timestamp": "2016-01-05T01:00:56Z",
-      "version": 1,
-      "changeset": 36372161,
-      "user": "valdelli",
-      "uid": 2069558,
+      "timestamp": "2022-02-09T15:14:44Z",
+      "version": 2,
+      "changeset": 117207430,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1769292926, 59708332],
       "geometry": [
         {"lat": 45.994248, "lon": 8.767173},
@@ -56950,7 +57026,6 @@
         "foot": "yes",
         "highway": "residential",
         "mtb:scale": "2",
-        "name": "207-3V Muceno_Dumenza",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -60073,11 +60148,11 @@
     {
       "type": "way",
       "id": 428917046,
-      "timestamp": "2016-07-03T14:24:23Z",
-      "version": 1,
-      "changeset": 40459423,
-      "user": "Alecs01",
-      "uid": 1476146,
+      "timestamp": "2022-02-09T15:14:44Z",
+      "version": 2,
+      "changeset": 117207430,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1769293207, 1769293346],
       "geometry": [
         {"lat": 46.0009196, "lon": 8.7818418},
@@ -60177,7 +60252,6 @@
       "tags": {
         "foot": "yes",
         "highway": "path",
-        "name": "207-3V Muceno_Dumenza",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -63769,11 +63843,11 @@
     {
       "type": "way",
       "id": 447975242,
-      "timestamp": "2016-10-16T11:47:58Z",
-      "version": 1,
-      "changeset": 42934123,
-      "user": "Alecs01",
-      "uid": 1476146,
+      "timestamp": "2022-02-09T15:14:44Z",
+      "version": 2,
+      "changeset": 117207430,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1769307094, 1769307106],
       "geometry": [
         {"lat": 46.0178898, "lon": 8.7888701},
@@ -63789,7 +63863,6 @@
       "tags": {
         "foot": "yes",
         "highway": "path",
-        "name": "207-3V Muceno_Dumenza",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -63797,11 +63870,11 @@
     {
       "type": "way",
       "id": 447975243,
-      "timestamp": "2016-10-16T11:47:59Z",
-      "version": 1,
-      "changeset": 42934123,
-      "user": "Alecs01",
-      "uid": 1476146,
+      "timestamp": "2022-02-09T15:14:44Z",
+      "version": 2,
+      "changeset": 117207430,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1769307131, 1044993249],
       "geometry": [
         {"lat": 46.0208807, "lon": 8.7921294},
@@ -63817,7 +63890,6 @@
       "tags": {
         "foot": "yes",
         "highway": "path",
-        "name": "207-3V Muceno_Dumenza",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -72497,11 +72569,11 @@
     {
       "type": "way",
       "id": 536586722,
-      "timestamp": "2020-09-23T18:00:27Z",
-      "version": 3,
-      "changeset": 91385081,
-      "user": "Lurlene Huckabey",
-      "uid": 8341954,
+      "timestamp": "2022-02-09T15:10:47Z",
+      "version": 4,
+      "changeset": 117207263,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1701398126, 1690106777],
       "geometry": [
         {"lat": 45.9712632, "lon": 8.7992209},
@@ -72522,7 +72594,6 @@
       ],
       "tags": {
         "highway": "path",
-        "name": "214-3V Brezzo di Bedero-Monte Sette Termini",
         "sac_scale": "mountain_hiking",
         "surface": "ground",
         "tracktype": "grade2"
@@ -72558,11 +72629,11 @@
     {
       "type": "way",
       "id": 536586726,
-      "timestamp": "2017-10-29T08:05:07Z",
-      "version": 1,
-      "changeset": 53334479,
-      "user": "Gianfranco2014",
-      "uid": 1928626,
+      "timestamp": "2022-02-09T15:13:17Z",
+      "version": 2,
+      "changeset": 117207369,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1542540814, 1693763617],
       "geometry": [
         {"lat": 45.9729432, "lon": 8.7919},
@@ -72602,7 +72673,6 @@
       "tags": {
         "foot": "yes",
         "highway": "path",
-        "name": "413-3V Monte Sette Termini_Creva",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -77486,14 +77556,15 @@
     {
       "type": "way",
       "id": 58763219,
-      "timestamp": "2017-11-01T06:46:51Z",
-      "version": 7,
-      "changeset": 53415200,
-      "user": "Gianfranco2014",
-      "uid": 1928626,
+      "timestamp": "2022-02-09T15:11:44Z",
+      "version": 8,
+      "changeset": 117207295,
+      "user": "kaitu",
+      "uid": 69717,
       "nodes": [726546908, 974471999],
       "geometry": [
         {"lat": 45.9673072, "lon": 9.0783934},
+        {"lat": 45.9674314, "lon": 9.0783199},
         {"lat": 45.9675525, "lon": 9.0782482}
       ],
       "tags": {"highway": "tertiary", "oneway": "yes"}
@@ -84631,11 +84702,11 @@
     {
       "type": "way",
       "id": 680609208,
-      "timestamp": "2021-05-22T16:22:08Z",
-      "version": 2,
-      "changeset": 105139581,
-      "user": "Peter:D",
-      "uid": 9196866,
+      "timestamp": "2022-02-09T15:13:17Z",
+      "version": 3,
+      "changeset": 117207369,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1690106974, 1690107197],
       "geometry": [
         {"lat": 45.9797969, "lon": 8.7780815},
@@ -84835,7 +84906,6 @@
         "foot": "yes",
         "highway": "path",
         "mtb:scale": "2",
-        "name": "413-3V Monte Sette Termini_Creva",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -84843,11 +84913,11 @@
     {
       "type": "way",
       "id": 680609210,
-      "timestamp": "2019-03-30T20:06:48Z",
-      "version": 1,
-      "changeset": 68708550,
-      "user": "SingletrailMap",
-      "uid": 508672,
+      "timestamp": "2022-02-09T15:13:17Z",
+      "version": 2,
+      "changeset": 117207369,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1690106967, 1690106974],
       "geometry": [
         {"lat": 45.9795794, "lon": 8.777797},
@@ -84861,7 +84931,6 @@
         "foot": "yes",
         "highway": "track",
         "mtb:scale": "2",
-        "name": "413-3V Monte Sette Termini_Creva",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -97109,33 +97178,23 @@
     {
       "type": "way",
       "id": 83688418,
-      "timestamp": "2017-01-03T13:26:54Z",
-      "version": 3,
-      "changeset": 44871296,
-      "user": "albertux",
-      "uid": 118185,
-      "nodes": [974471914, 974471999],
+      "timestamp": "2022-02-09T10:32:32Z",
+      "version": 4,
+      "changeset": 117195832,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [974471900, 974471998],
       "geometry": [
-        {"lat": 45.9706383, "lon": 9.0778028},
-        {"lat": 45.9705096, "lon": 9.0777902},
-        {"lat": 45.9703687, "lon": 9.0777268},
-        {"lat": 45.9703061, "lon": 9.0778586},
+        {"lat": 45.9703802, "lon": 9.0777361},
+        {"lat": 45.9703573, "lon": 9.0778016},
         {"lat": 45.9701226, "lon": 9.0781025},
-        {"lat": 45.9698438, "lon": 9.078519},
-        {"lat": 45.9695699, "lon": 9.0788887},
-        {"lat": 45.969352, "lon": 9.0789646},
-        {"lat": 45.9691242, "lon": 9.0790868},
-        {"lat": 45.968738, "lon": 9.0792452},
-        {"lat": 45.9684013, "lon": 9.0792518},
-        {"lat": 45.9682634, "lon": 9.0792699},
-        {"lat": 45.9682033, "lon": 9.0792287},
-        {"lat": 45.9680141, "lon": 9.0791668},
-        {"lat": 45.9679072, "lon": 9.0790717},
-        {"lat": 45.9678237, "lon": 9.078958},
-        {"lat": 45.9675783, "lon": 9.0783221},
-        {"lat": 45.9675525, "lon": 9.0782482}
+        {"lat": 45.9699693, "lon": 9.0783075}
       ],
-      "tags": {"highway": "residential", "surface": "asphalt"}
+      "tags": {
+        "highway": "residential",
+        "name": "Via Alessandro Volta",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -100028,11 +100087,11 @@
     {
       "type": "way",
       "id": 945797523,
-      "timestamp": "2021-05-22T16:22:08Z",
-      "version": 1,
-      "changeset": 105139581,
-      "user": "Peter:D",
-      "uid": 9196866,
+      "timestamp": "2022-02-09T15:13:17Z",
+      "version": 2,
+      "changeset": 117207369,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1690107197, 3927960898],
       "geometry": [
         {"lat": 45.9870927, "lon": 8.7783251},
@@ -100052,7 +100111,6 @@
         "foot": "yes",
         "highway": "track",
         "mtb:scale": "2",
-        "name": "413-3V Monte Sette Termini_Creva",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -100575,11 +100633,11 @@
     {
       "type": "way",
       "id": 962384797,
-      "timestamp": "2021-07-07T21:18:55Z",
-      "version": 1,
-      "changeset": 107589865,
-      "user": "hindair",
-      "uid": 225057,
+      "timestamp": "2022-02-09T15:14:44Z",
+      "version": 2,
+      "changeset": 117207430,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1769293351, 1712355051],
       "geometry": [
         {"lat": 46.005191, "lon": 8.7918948},
@@ -100593,7 +100651,6 @@
       "tags": {
         "foot": "yes",
         "highway": "path",
-        "name": "207-3V Muceno_Dumenza",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
@@ -100601,11 +100658,11 @@
     {
       "type": "way",
       "id": 962384798,
-      "timestamp": "2021-07-07T21:18:55Z",
-      "version": 1,
-      "changeset": 107589865,
-      "user": "hindair",
-      "uid": 225057,
+      "timestamp": "2022-02-09T15:14:44Z",
+      "version": 2,
+      "changeset": 117207430,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [1769293353, 1769293351],
       "geometry": [
         {"lat": 46.0053681, "lon": 8.7912888},
@@ -100615,7 +100672,6 @@
       "tags": {
         "foot": "yes",
         "highway": "path",
-        "name": "207-3V Muceno_Dumenza",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
       }
