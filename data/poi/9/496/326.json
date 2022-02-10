@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-08T23:59:59Z",
-    "timestamp_osm_base": "2022-02-09T06:07:52Z",
+    "timestamp_osm_date": "2022-02-09T23:59:59Z",
+    "timestamp_osm_base": "2022-02-10T06:00:38Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -149,15 +149,17 @@
       "id": 1225158534,
       "lat": -44.4115371,
       "lon": 168.7947876,
-      "timestamp": "2021-05-07T00:20:28Z",
-      "version": 3,
-      "changeset": 104278844,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-02-09T09:14:19Z",
+      "version": 4,
+      "changeset": 117192331,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
         "amenity": "shelter",
+        "building": "yes",
         "material": "rock",
         "name": "Rock of Ages Bivouac",
+        "ref:linz:topo50_id": "5393343",
         "source": "LINZ"
       }
     },
@@ -191,24 +193,6 @@
       "tags": {
         "source": "LINZ",
         "tourism": "wilderness_hut"
-      }
-    },
-    {
-      "type": "node",
-      "id": 1225292271,
-      "lat": -44.5336364,
-      "lon": 169.1447107,
-      "timestamp": "2021-09-19T07:48:11Z",
-      "version": 3,
-      "changeset": 111397426,
-      "user": "kylenz_linz",
-      "uid": 8389777,
-      "tags": {
-        "name": "Wanaka Faces Hut",
-        "operator": "Department of Conservation",
-        "ref:doc": "100099984",
-        "source": "LINZ",
-        "tourism": "alpine_hut"
       }
     },
     {
@@ -1136,14 +1120,15 @@
     {
       "type": "node",
       "id": 6241210941,
-      "lat": -44.49386,
-      "lon": 169.40009,
-      "timestamp": "2022-02-07T06:56:25Z",
-      "version": 2,
-      "changeset": 117104529,
+      "lat": -44.4938647,
+      "lon": 169.4001296,
+      "timestamp": "2022-02-09T09:14:19Z",
+      "version": 3,
+      "changeset": 117192331,
       "user": "kylenz_linz",
       "uid": 8389777,
       "tags": {
+        "building": "yes",
         "drinking_water": "untreated",
         "fireplace": "yes",
         "mattress": "yes",
@@ -1152,6 +1137,7 @@
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100085625",
+        "ref:linz:topo50_id": "5393005",
         "reservation": "no",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",
@@ -1222,14 +1208,16 @@
       "id": 6260944880,
       "lat": -44.4158419,
       "lon": 169.2569225,
-      "timestamp": "2019-02-06T01:09:52Z",
-      "version": 1,
-      "changeset": 66949396,
-      "user": "gaddman",
-      "uid": 365177,
+      "timestamp": "2022-02-09T09:14:19Z",
+      "version": 2,
+      "changeset": 117192331,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
+        "building": "yes",
         "name": "Sawyer Burn Hut",
         "ref:doc": "100042165",
+        "ref:linz:topo50_id": "5393483",
         "tourism": "wilderness_hut"
       }
     },
@@ -1607,6 +1595,57 @@
       }
     },
     {
+      "type": "node",
+      "id": 9491849302,
+      "lat": -44.299857,
+      "lon": 169.4252216,
+      "timestamp": "2022-02-09T09:29:08Z",
+      "version": 1,
+      "changeset": 117193013,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "High Burn Hut",
+        "ref:linz:topo50_id": "5394015",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9491867358,
+      "lat": -44.3224379,
+      "lon": 169.1628435,
+      "timestamp": "2022-02-09T09:14:19Z",
+      "version": 1,
+      "changeset": 117192331,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Craigie Burn Hut",
+        "ref:linz:topo50_id": "5393496",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9491867359,
+      "lat": -44.5270246,
+      "lon": 169.3663795,
+      "timestamp": "2022-02-09T09:14:19Z",
+      "version": 1,
+      "changeset": 117192331,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Junction Hut",
+        "ref:linz:topo50_id": "5393003",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
       "type": "way",
       "id": 501149118,
       "timestamp": "2022-02-07T06:56:25Z",
@@ -1810,6 +1849,28 @@
         "toilets:disposal": "pitlatrine",
         "tourism": "wilderness_hut",
         "website": "https://doc.govt.nz/link/4696282a70644290aed8784edea0fa57"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029546935,
+      "timestamp": "2022-02-09T09:14:19Z",
+      "version": 1,
+      "changeset": 117192331,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -44.5335633,
+        "lon": 169.144655
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Wanaka Faces Hut",
+        "operator": "Department of Conservation",
+        "ref:doc": "100099984",
+        "ref:linz:topo50_id": "6228679",
+        "tourism": "wilderness_hut"
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-08T23:59:59Z",
-    "timestamp_osm_base": "2022-02-09T06:40:25Z",
+    "timestamp_osm_date": "2022-02-09T23:59:59Z",
+    "timestamp_osm_base": "2022-02-10T06:01:38Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -165,15 +165,17 @@
       "id": 1225158567,
       "lat": -43.8266593,
       "lon": 169.9198816,
-      "timestamp": "2021-05-07T00:20:28Z",
-      "version": 3,
-      "changeset": 104278844,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-02-09T09:29:08Z",
+      "version": 4,
+      "changeset": 117193013,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
         "amenity": "shelter",
+        "building": "yes",
         "material": "rock",
         "name": "Richardson Rock Bivouac",
+        "ref:linz:topo50_id": "5394829",
         "source": "LINZ"
       }
     },
@@ -373,16 +375,17 @@
       "id": 1225158911,
       "lat": -44.0068042,
       "lon": 169.9882036,
-      "timestamp": "2021-05-07T02:29:54Z",
-      "version": 2,
-      "changeset": 104281423,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-02-09T09:29:08Z",
+      "version": 3,
+      "changeset": 117193013,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
         "amenity": "shelter",
+        "building": "yes",
         "name": "Stony Stream Bivouac",
-        "shelter_type": "lean_to",
-        "source": "LINZ"
+        "ref:linz:topo50_id": "5395357",
+        "shelter_type": "lean_to"
       }
     },
     {
@@ -4704,29 +4707,49 @@
     {
       "type": "node",
       "id": 9143475167,
-      "lat": -43.9562737,
-      "lon": 169.8459205,
-      "timestamp": "2022-02-07T06:56:25Z",
-      "version": 2,
-      "changeset": 117104529,
+      "lat": -43.9562895,
+      "lon": 169.8459431,
+      "timestamp": "2022-02-09T09:29:08Z",
+      "version": 3,
+      "changeset": 117193013,
       "user": "kylenz_linz",
       "uid": 8389777,
       "tags": {
+        "amenity": "shelter",
+        "building": "yes",
         "capacity": "2",
         "drinking_water": "no",
         "fee": "no",
         "fireplace": "yes",
         "mattress": "yes",
-        "name": "Dasler Biv",
+        "name": "Dasler Bivouac",
         "operator": "Department of Conservation",
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100044464",
+        "ref:linz:topo50_id": "5394761",
         "reservation": "no",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",
         "tourism": "wilderness_hut",
         "website": "https://doc.govt.nz/link/6d8c206cbd0842669e7a4963124ea4a5"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9491849309,
+      "lat": -43.9460087,
+      "lon": 170.0856332,
+      "timestamp": "2022-02-09T09:29:08Z",
+      "version": 1,
+      "changeset": 117193013,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Whale Stream Hut",
+        "ref:linz:topo50_id": "5395360",
+        "tourism": "wilderness_hut"
       }
     },
     {
@@ -5088,9 +5111,9 @@
     {
       "type": "way",
       "id": 973500493,
-      "timestamp": "2022-02-07T06:56:25Z",
-      "version": 2,
-      "changeset": 117104529,
+      "timestamp": "2022-02-09T09:29:08Z",
+      "version": 3,
+      "changeset": 117193013,
       "user": "kylenz_linz",
       "uid": 8389777,
       "center": {
@@ -5110,6 +5133,7 @@
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100060565",
+        "ref:linz:topo50_id": "5394835",
         "reservation": "no",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",
@@ -5153,9 +5177,9 @@
     {
       "type": "way",
       "id": 988539926,
-      "timestamp": "2022-02-07T06:56:25Z",
-      "version": 2,
-      "changeset": 117104529,
+      "timestamp": "2022-02-09T09:29:08Z",
+      "version": 3,
+      "changeset": 117193013,
       "user": "kylenz_linz",
       "uid": 8389777,
       "center": {
@@ -5164,6 +5188,7 @@
       },
       "nodes": [],
       "tags": {
+        "alt_name": "Main Huxley Forks Hut",
         "building": "yes",
         "capacity": "8",
         "drinking_water": "untreated",
@@ -5175,6 +5200,7 @@
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100034564",
+        "ref:linz:topo50_id": "5394732",
         "reservation": "no",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",
@@ -5240,9 +5266,9 @@
     {
       "type": "way",
       "id": 989256433,
-      "timestamp": "2022-02-07T06:56:25Z",
-      "version": 2,
-      "changeset": 117104529,
+      "timestamp": "2022-02-09T09:29:08Z",
+      "version": 3,
+      "changeset": 117193013,
       "user": "kylenz_linz",
       "uid": 8389777,
       "center": {
@@ -5262,6 +5288,7 @@
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100065478",
+        "ref:linz:topo50_id": "5394749",
         "reservation": "no",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",
@@ -5366,6 +5393,66 @@
         "toilets:disposal": "pitlatrine",
         "tourism": "wilderness_hut",
         "website": "https://doc.govt.nz/link/e0b3af7d2d384c339a6690b76bc8beb1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029550256,
+      "timestamp": "2022-02-09T09:29:08Z",
+      "version": 1,
+      "changeset": 117193013,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -43.9690793,
+        "lon": 169.9594983
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Station Hut",
+        "ref:linz:topo50_id": "5394764",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029550257,
+      "timestamp": "2022-02-09T09:29:08Z",
+      "version": 1,
+      "changeset": 117193013,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -44.0145982,
+        "lon": 169.9228379
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Le Crens Hut",
+        "ref:linz:topo50_id": "5394759",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029550261,
+      "timestamp": "2022-02-09T09:29:08Z",
+      "version": 1,
+      "changeset": 117193013,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -43.8331626,
+        "lon": 169.9892653
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Waterfall Hut",
+        "ref:linz:topo50_id": "5394842",
+        "tourism": "wilderness_hut"
       }
     }
   ]

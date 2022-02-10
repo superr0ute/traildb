@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-08T23:59:59Z",
-    "timestamp_osm_base": "2022-02-09T06:40:25Z",
+    "timestamp_osm_date": "2022-02-09T23:59:59Z",
+    "timestamp_osm_base": "2022-02-10T06:01:38Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -153,23 +153,6 @@
     },
     {
       "type": "node",
-      "id": 660623858,
-      "lat": -44.1790908,
-      "lon": 169.5120841,
-      "timestamp": "2010-03-05T11:43:20Z",
-      "version": 1,
-      "changeset": 4040098,
-      "user": "gerkin",
-      "uid": 54757,
-      "tags": {
-        "amenity": "shelter",
-        "building": "yes",
-        "name": "Scrubby Hut",
-        "tourism": "alpine_hut"
-      }
-    },
-    {
-      "type": "node",
       "id": 1090739488,
       "lat": -44.5882397,
       "lon": 169.6430643,
@@ -197,16 +180,17 @@
       "id": 1225158845,
       "lat": -44.4537323,
       "lon": 169.4668297,
-      "timestamp": "2021-05-07T02:29:54Z",
-      "version": 2,
-      "changeset": 104281423,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-02-09T09:14:19Z",
+      "version": 3,
+      "changeset": 117192331,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
         "amenity": "shelter",
+        "building": "yes",
         "name": "Mae West Bivouac",
-        "shelter_type": "lean_to",
-        "source": "LINZ"
+        "ref:linz:topo50_id": "5393009",
+        "shelter_type": "lean_to"
       }
     },
     {
@@ -303,16 +287,18 @@
     {
       "type": "node",
       "id": 2241473100,
-      "lat": -44.2567806,
-      "lon": 169.4723077,
-      "timestamp": "2013-04-01T09:16:40Z",
-      "version": 1,
-      "changeset": 15564795,
-      "user": "locke",
-      "uid": 65032,
+      "lat": -44.2567957,
+      "lon": 169.4723265,
+      "timestamp": "2022-02-09T09:29:08Z",
+      "version": 2,
+      "changeset": 117193013,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
+        "building": "yes",
         "name": "Green Bush Hut",
-        "tourism": "alpine_hut"
+        "ref:linz:topo50_id": "5394022",
+        "tourism": "wilderness_hut"
       }
     },
     {
@@ -775,12 +761,13 @@
       "id": 6240811380,
       "lat": -44.1219615,
       "lon": 169.6650467,
-      "timestamp": "2022-02-07T06:56:25Z",
-      "version": 2,
-      "changeset": 117104529,
+      "timestamp": "2022-02-09T09:29:08Z",
+      "version": 3,
+      "changeset": 117193013,
       "user": "kylenz_linz",
       "uid": 8389777,
       "tags": {
+        "building": "yes",
         "drinking_water": "no",
         "fireplace": "yes",
         "mattress": "yes",
@@ -789,6 +776,7 @@
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100034566",
+        "ref:linz:topo50_id": "5394120",
         "reservation": "no",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",
@@ -826,14 +814,15 @@
     {
       "type": "node",
       "id": 6240909321,
-      "lat": -44.40881,
-      "lon": 169.46194,
-      "timestamp": "2022-02-07T06:56:25Z",
-      "version": 2,
-      "changeset": 117104529,
+      "lat": -44.4088136,
+      "lon": 169.4619426,
+      "timestamp": "2022-02-09T09:14:19Z",
+      "version": 3,
+      "changeset": 117192331,
       "user": "kylenz_linz",
       "uid": 8389777,
       "tags": {
+        "building": "yes",
         "drinking_water": "untreated",
         "fireplace": "yes",
         "mattress": "yes",
@@ -842,6 +831,7 @@
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100059476",
+        "ref:linz:topo50_id": "5393994",
         "reservation": "no",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",
@@ -908,15 +898,17 @@
       "id": 6241210946,
       "lat": -44.1579708,
       "lon": 169.5379812,
-      "timestamp": "2019-01-28T08:34:13Z",
-      "version": 1,
-      "changeset": 66697935,
-      "user": "gaddman",
-      "uid": 365177,
+      "timestamp": "2022-02-09T09:29:08Z",
+      "version": 2,
+      "changeset": 117193013,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
+        "building": "yes",
         "name": "Bull Flat Hut",
         "operator": "Department of Conservation",
         "ref:doc": "100074844",
+        "ref:linz:topo50_id": "5394113",
         "tourism": "wilderness_hut"
       }
     },
@@ -1039,6 +1031,23 @@
         "name": "Ahuriri Pass",
         "natural": "saddle",
         "ref:linz:topo50_id": "3338624"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9491867360,
+      "lat": -44.4977891,
+      "lon": 169.5524317,
+      "timestamp": "2022-02-09T09:14:19Z",
+      "version": 1,
+      "changeset": 117192331,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Burnt Bush Hut",
+        "ref:linz:topo50_id": "5393012",
+        "tourism": "wilderness_hut"
       }
     },
     {
@@ -1316,11 +1325,11 @@
     {
       "type": "way",
       "id": 988448625,
-      "timestamp": "2021-09-30T23:38:53Z",
-      "version": 1,
-      "changeset": 111938854,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-02-09T09:29:08Z",
+      "version": 2,
+      "changeset": 117193013,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "center": {
         "lat": -44.3372311,
         "lon": 169.5333423
@@ -1330,7 +1339,68 @@
         "building": "yes",
         "historic": "yes",
         "name": "Ben Avon Hut (historic)",
-        "tourism": "alpine_hut"
+        "ref:linz:topo50_id": "5394005",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029550258,
+      "timestamp": "2022-02-09T09:29:08Z",
+      "version": 1,
+      "changeset": 117193013,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -44.1788671,
+        "lon": 169.5123978
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Scrubby Hut",
+        "ref:linz:topo50_id": "5394103",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029550259,
+      "timestamp": "2022-02-09T09:29:08Z",
+      "version": 1,
+      "changeset": 117193013,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -44.2407338,
+        "lon": 169.4666082
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Boundary Hut",
+        "ref:linz:topo50_id": "5394023",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029550260,
+      "timestamp": "2022-02-09T09:29:08Z",
+      "version": 1,
+      "changeset": 117193013,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -44.2482122,
+        "lon": 169.4608057
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Little Boundary Hut",
+        "ref:linz:topo50_id": "5394021",
+        "tourism": "wilderness_hut"
       }
     }
   ]

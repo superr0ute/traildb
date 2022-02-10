@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-08T23:59:59Z",
-    "timestamp_osm_base": "2022-02-09T06:40:25Z",
+    "timestamp_osm_date": "2022-02-09T23:59:59Z",
+    "timestamp_osm_base": "2022-02-10T06:00:38Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -81,14 +81,15 @@
     {
       "type": "node",
       "id": 1225240908,
-      "lat": -45.329898,
-      "lon": 169.1451759,
-      "timestamp": "2022-02-07T06:56:25Z",
-      "version": 5,
-      "changeset": 117104529,
+      "lat": -45.3299209,
+      "lon": 169.1451227,
+      "timestamp": "2022-02-09T09:20:44Z",
+      "version": 6,
+      "changeset": 117192668,
       "user": "kylenz_linz",
       "uid": 8389777,
       "tags": {
+        "building": "yes",
         "capacity": "3",
         "drinking_water": "no",
         "fireplace": "no",
@@ -98,6 +99,7 @@
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100043893",
+        "ref:linz:topo50_id": "5382085",
         "reservation": "no",
         "source": "LINZ",
         "toilets": "yes",
@@ -259,32 +261,6 @@
         "toilets": "no",
         "tourism": "wilderness_hut",
         "website": "https://doc.govt.nz/link/b054b2c8862a482c8a5fd4f5da241b85"
-      }
-    },
-    {
-      "type": "node",
-      "id": 6240811365,
-      "lat": -45.51078,
-      "lon": 169.1843,
-      "timestamp": "2022-02-07T06:56:25Z",
-      "version": 2,
-      "changeset": 117104529,
-      "user": "kylenz_linz",
-      "uid": 8389777,
-      "tags": {
-        "drinking_water": "no",
-        "fireplace": "yes",
-        "mattress": "yes",
-        "name": "Junction Hut",
-        "operator": "Department of Conservation",
-        "operator:wikidata": "Q1191417",
-        "operator:wikipedia": "en:Department of Conservation (New Zealand)",
-        "ref:doc": "100042895",
-        "reservation": "no",
-        "toilets": "yes",
-        "toilets:disposal": "pitlatrine",
-        "tourism": "wilderness_hut",
-        "website": "https://doc.govt.nz/link/50d86fd0fa2d4025af8541de2c2abb24"
       }
     },
     {
@@ -625,6 +601,74 @@
       }
     },
     {
+      "type": "node",
+      "id": 9491867332,
+      "lat": -45.4795995,
+      "lon": 168.938496,
+      "timestamp": "2022-02-09T09:14:19Z",
+      "version": 1,
+      "changeset": 117192331,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Blue Lake Huts",
+        "ref:linz:topo50_id": "5382015",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9491867333,
+      "lat": -45.3039282,
+      "lon": 168.9039815,
+      "timestamp": "2022-02-09T09:14:19Z",
+      "version": 1,
+      "changeset": 117192331,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Baileys Hut",
+        "ref:linz:topo50_id": "5382046",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9491883437,
+      "lat": -45.2641248,
+      "lon": 169.1346146,
+      "timestamp": "2022-02-09T09:20:44Z",
+      "version": 1,
+      "changeset": 117192668,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Whites Hut",
+        "ref:linz:topo50_id": "5383911",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9491883447,
+      "lat": -45.5446826,
+      "lon": 168.9737113,
+      "timestamp": "2022-02-09T09:20:44Z",
+      "version": 1,
+      "changeset": 117192668,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Titan Hut",
+        "ref:linz:topo50_id": "5381918",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
       "type": "way",
       "id": 29280131,
       "timestamp": "2017-06-20T09:52:18Z",
@@ -732,6 +776,27 @@
     },
     {
       "type": "way",
+      "id": 406036903,
+      "timestamp": "2022-02-09T09:20:44Z",
+      "version": 2,
+      "changeset": 117192668,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -45.1103596,
+        "lon": 169.2406466
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "description": "Restored hut, private",
+        "name": "Cairnmuir Musterer's Hut",
+        "ref:linz:topo50_id": "5383988",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
       "id": 712619862,
       "timestamp": "2022-02-07T06:56:25Z",
       "version": 2,
@@ -764,6 +829,26 @@
     },
     {
       "type": "way",
+      "id": 712689579,
+      "timestamp": "2022-02-09T09:20:44Z",
+      "version": 2,
+      "changeset": 117192668,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -45.4863167,
+        "lon": 169.0519711
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Bush Huts",
+        "ref:linz:topo50_id": "5382053",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
       "id": 996499073,
       "timestamp": "2021-10-25T22:35:38Z",
       "version": 1,
@@ -780,6 +865,77 @@
         "building:material": "stone",
         "name": "Old stone hut",
         "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029548316,
+      "timestamp": "2022-02-09T09:20:44Z",
+      "version": 1,
+      "changeset": 117192668,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -45.3833599,
+        "lon": 169.1100684
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Diggers Hut",
+        "ref:linz:topo50_id": "5382083",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029548317,
+      "timestamp": "2022-02-09T09:20:44Z",
+      "version": 1,
+      "changeset": 117192668,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -45.4269165,
+        "lon": 169.1443302
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Potters Huts",
+        "ref:linz:topo50_id": "5382073",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029548321,
+      "timestamp": "2022-02-09T09:20:44Z",
+      "version": 1,
+      "changeset": 117192668,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -45.5107723,
+        "lon": 169.1842926
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "drinking_water": "no",
+        "fireplace": "yes",
+        "mattress": "yes",
+        "name": "Junction Hut",
+        "operator": "Department of Conservation",
+        "operator:wikidata": "Q1191417",
+        "operator:wikipedia": "en:Department of Conservation (New Zealand)",
+        "ref:doc": "100042895",
+        "ref:linz:topo50_id": "5382066",
+        "reservation": "no",
+        "toilets": "yes",
+        "toilets:disposal": "pitlatrine",
+        "tourism": "wilderness_hut",
+        "website": "https://doc.govt.nz/link/50d86fd0fa2d4025af8541de2c2abb24"
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-08T23:59:59Z",
-    "timestamp_osm_base": "2022-02-09T06:42:24Z",
+    "timestamp_osm_date": "2022-02-09T23:59:59Z",
+    "timestamp_osm_base": "2022-02-10T06:03:41Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -61,9 +61,9 @@
       "id": 564653010,
       "lat": -43.1080027,
       "lon": 171.0067464,
-      "timestamp": "2022-02-07T07:38:53Z",
-      "version": 8,
-      "changeset": 117105949,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 9,
+      "changeset": 117193492,
       "user": "kylenz_linz",
       "uid": 8389777,
       "tags": {
@@ -77,6 +77,7 @@
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100062481",
+        "ref:linz:topo50_id": "5391087",
         "reservation": "no",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",
@@ -225,6 +226,23 @@
         "material": "rock",
         "name": "Rock shelters",
         "source": "LINZ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1225203733,
+      "lat": -43.2810311,
+      "lon": 171.1149564,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 3,
+      "changeset": 117193492,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Jellicoe Hut",
+        "ref:linz:topo50_id": "5390915",
+        "tourism": "wilderness_hut"
       }
     },
     {
@@ -1152,15 +1170,17 @@
       "id": 6257406934,
       "lat": -43.2991246,
       "lon": 170.909715,
-      "timestamp": "2019-02-04T08:41:41Z",
-      "version": 1,
-      "changeset": 66896390,
-      "user": "gaddman",
-      "uid": 365177,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 2,
+      "changeset": 117193492,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
+        "building": "yes",
         "name": "Lyell Hut",
         "operator": "Department of Conservation",
         "ref:doc": "100060748",
+        "ref:linz:topo50_id": "5390655",
         "tourism": "wilderness_hut"
       }
     },
@@ -1350,20 +1370,6 @@
     },
     {
       "type": "node",
-      "id": 7662597988,
-      "lat": -43.1277941,
-      "lon": 171.3706567,
-      "timestamp": "2020-06-29T01:51:59Z",
-      "version": 1,
-      "changeset": 87264981,
-      "user": "shekk",
-      "uid": 4516038,
-      "tags": {
-        "tourism": "wilderness_hut"
-      }
-    },
-    {
-      "type": "node",
       "id": 8403799411,
       "lat": -43.0798101,
       "lon": 171.5331562,
@@ -1417,18 +1423,19 @@
     {
       "type": "node",
       "id": 8424848818,
-      "lat": -43.2984174,
-      "lon": 171.0558973,
-      "timestamp": "2021-02-15T19:00:19Z",
-      "version": 2,
-      "changeset": 99328675,
-      "user": "ralley",
-      "uid": 670820,
+      "lat": -43.2984203,
+      "lon": 171.0558864,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 3,
+      "changeset": 117193492,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "tags": {
+        "building": "yes",
         "fee": "yes",
         "name": "Banfield Hut",
-        "name:en": "Banfield Hut",
         "operator": "Canterbury Mountaineering Club",
+        "ref:linz:topo50_id": "5390841",
         "tourism": "wilderness_hut"
       }
     },
@@ -1915,6 +1922,91 @@
       }
     },
     {
+      "type": "node",
+      "id": 9491915410,
+      "lat": -43.278827,
+      "lon": 171.0289121,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 1,
+      "changeset": 117193492,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Washbourne Hut",
+        "ref:linz:topo50_id": "5390871",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9491931865,
+      "lat": -43.5719073,
+      "lon": 171.4365113,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 1,
+      "changeset": 117193492,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Cookshop Hut",
+        "ref:linz:topo50_id": "5391167",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9491931867,
+      "lat": -43.5059185,
+      "lon": 171.4106099,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 1,
+      "changeset": 117193492,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Lagoon Hut",
+        "ref:linz:topo50_id": "5391173",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9491931869,
+      "lat": -43.1086388,
+      "lon": 171.3221805,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 1,
+      "changeset": 117193492,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Moa Hut",
+        "ref:linz:topo50_id": "5391463",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9491931870,
+      "lat": -43.179459,
+      "lon": 171.1418969,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 1,
+      "changeset": 117193492,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "tags": {
+        "building": "yes",
+        "name": "Moraine Hut",
+        "ref:linz:topo50_id": "5390934",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
       "type": "way",
       "id": 539396139,
       "timestamp": "2017-11-09T10:15:28Z",
@@ -1935,9 +2027,9 @@
     {
       "type": "way",
       "id": 676213643,
-      "timestamp": "2022-02-07T07:38:53Z",
-      "version": 2,
-      "changeset": 117105949,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 3,
+      "changeset": 117193492,
       "user": "kylenz_linz",
       "uid": 8389777,
       "center": {
@@ -1955,6 +2047,7 @@
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100040277",
+        "ref:linz:topo50_id": "5390497",
         "reservation": "no",
         "source": "LINZ",
         "toilets": "no",
@@ -1965,11 +2058,11 @@
     {
       "type": "way",
       "id": 708338580,
-      "timestamp": "2019-07-28T23:08:15Z",
-      "version": 1,
-      "changeset": 72748898,
-      "user": "petenz",
-      "uid": 38928,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 2,
+      "changeset": 117193492,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "center": {
         "lat": -43.4152069,
         "lon": 171.0728323
@@ -1981,15 +2074,16 @@
         "fireplace": "yes",
         "name": "Highland Home",
         "operator": "Lake Heron Station",
+        "ref:linz:topo50_id": "5390517",
         "tourism": "wilderness_hut"
       }
     },
     {
       "type": "way",
       "id": 708338779,
-      "timestamp": "2022-02-07T07:38:53Z",
-      "version": 2,
-      "changeset": 117105949,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 3,
+      "changeset": 117193492,
       "user": "kylenz_linz",
       "uid": 8389777,
       "center": {
@@ -2008,6 +2102,7 @@
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100060749",
+        "ref:linz:topo50_id": "5390803",
         "reservation": "no",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",
@@ -2074,12 +2169,32 @@
     },
     {
       "type": "way",
+      "id": 813757055,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 2,
+      "changeset": 117193492,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -43.5529162,
+        "lon": 171.4731522
+      },
+      "nodes": [],
+      "tags": {
+        "building": "hut",
+        "name": "Cutty Grass Hut",
+        "ref:linz:topo50_id": "5391177",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
       "id": 820792412,
-      "timestamp": "2020-06-29T01:51:59Z",
-      "version": 1,
-      "changeset": 87264981,
-      "user": "shekk",
-      "uid": 4516038,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 2,
+      "changeset": 117193492,
+      "user": "kylenz_linz",
+      "uid": 8389777,
       "center": {
         "lat": -43.1277907,
         "lon": 171.3706519
@@ -2087,6 +2202,28 @@
       "nodes": [],
       "tags": {
         "building": "yes",
+        "name": "Fanghill Hut",
+        "ref:linz:topo50_id": "5391465",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 824059353,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 2,
+      "changeset": 117193492,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -43.1749085,
+        "lon": 171.3640137
+      },
+      "nodes": [],
+      "tags": {
+        "building": "hut",
+        "name": "Manuels Hut",
+        "ref:linz:topo50_id": "5391456",
         "tourism": "wilderness_hut"
       }
     },
@@ -2273,9 +2410,9 @@
     {
       "type": "way",
       "id": 971903383,
-      "timestamp": "2022-02-07T07:38:53Z",
-      "version": 2,
-      "changeset": 117105949,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 3,
+      "changeset": 117193492,
       "user": "kylenz_linz",
       "uid": 8389777,
       "center": {
@@ -2295,6 +2432,7 @@
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100040276",
+        "ref:linz:topo50_id": "6222594",
         "reservation": "no",
         "toilets": "no",
         "tourism": "wilderness_hut",
@@ -2370,9 +2508,9 @@
     {
       "type": "way",
       "id": 974635900,
-      "timestamp": "2022-02-07T07:38:53Z",
-      "version": 2,
-      "changeset": 117105949,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 3,
+      "changeset": 117193492,
       "user": "kylenz_linz",
       "uid": 8389777,
       "center": {
@@ -2392,6 +2530,7 @@
         "operator:wikidata": "Q1191417",
         "operator:wikipedia": "en:Department of Conservation (New Zealand)",
         "ref:doc": "100065474",
+        "ref:linz:topo50_id": "5390866",
         "reservation": "no",
         "toilets": "yes",
         "toilets:disposal": "pitlatrine",
@@ -2594,6 +2733,126 @@
         "toilets:disposal": "pitlatrine",
         "tourism": "wilderness_hut",
         "website": "https://doc.govt.nz/link/3de3431ce1d44a898d8abdca49c25a64"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029553689,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 1,
+      "changeset": 117193492,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -43.3092309,
+        "lon": 171.0872556
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Thompsons Hut",
+        "ref:linz:topo50_id": "5390856",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029553690,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 1,
+      "changeset": 117193492,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -43.3328345,
+        "lon": 171.1243669
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Downs Hut",
+        "ref:linz:topo50_id": "5390854",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029553691,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 1,
+      "changeset": 117193492,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -43.3815931,
+        "lon": 171.1766548
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Charlies Hut",
+        "ref:linz:topo50_id": "5390849",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029553692,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 1,
+      "changeset": 117193492,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -43.4015165,
+        "lon": 170.9081982
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Hermitage Hut",
+        "ref:linz:topo50_id": "5390445",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029553700,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 1,
+      "changeset": 117193492,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -43.5546583,
+        "lon": 171.3588245
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Three Creeks Hut",
+        "ref:linz:topo50_id": "6222647",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1029553701,
+      "timestamp": "2022-02-09T09:39:18Z",
+      "version": 1,
+      "changeset": 117193492,
+      "user": "kylenz_linz",
+      "uid": 8389777,
+      "center": {
+        "lat": -43.5454756,
+        "lon": 171.4370065
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Alford Hut",
+        "ref:linz:topo50_id": "5391176",
+        "tourism": "wilderness_hut"
       }
     }
   ]
