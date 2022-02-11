@@ -11738,6 +11738,27 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_spring",
+        "@distance": 624.1,
+        "@id": "n3642949444",
+        "@changeset": 32523346,
+        "@timestamp": "2015-07-09T16:23:43Z",
+        "@version": 1,
+        "@uid": 2006024,
+        "@user": "ilBiondo",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3794953,
+          44.0620192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
         "@distance": 421.5,
         "@id": "n7179249145",
         "@changeset": 115722193,
@@ -12851,27 +12872,6 @@
         "coordinates": [
           11.2844954,
           44.0932766
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 624.1,
-        "@id": "n3642949444",
-        "@changeset": 32523346,
-        "@timestamp": "2015-07-09T16:23:43Z",
-        "@version": 1,
-        "@uid": 2006024,
-        "@user": "ilBiondo",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.3794953,
-          44.0620192
         ]
       }
     },
@@ -16357,6 +16357,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_spring",
+        "@distance": 12.1,
+        "@id": "n6707981249",
+        "@changeset": 113182066,
+        "@timestamp": "2021-10-31T07:54:25Z",
+        "@version": 3,
+        "@uid": 2083953,
+        "@user": "markusifer",
+        "name": "Sorgente Lamone",
+        "natural": "spring",
+        "note": "dry 2021-09-02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4841986,
+          44.0343308
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "peak_peak",
         "@distance": 133.1,
         "@id": "n2131163392",
@@ -17738,29 +17761,6 @@
         "coordinates": [
           10.8069279,
           44.0867114
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 12.1,
-        "@id": "n6707981249",
-        "@changeset": 113182066,
-        "@timestamp": "2021-10-31T07:54:25Z",
-        "@version": 3,
-        "@uid": 2083953,
-        "@user": "markusifer",
-        "name": "Sorgente Lamone",
-        "natural": "spring",
-        "note": "dry 2021-09-02"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.4841986,
-          44.0343308
         ]
       }
     },
@@ -19946,46 +19946,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 31.5,
-        "@id": "w449109986",
-        "@changeset": 108112226,
-        "@timestamp": "2021-07-16T11:06:50Z",
-        "@version": 8,
-        "@uid": 7078274,
-        "@user": "gabriele_sani",
-        "access": "private",
-        "addr:country": "IT",
-        "addr:place": "Passo della Calla",
-        "addr:postcode": "52017",
-        "alt_name": "Capanna Sociale CAI \"Paolo Brilli\"",
-        "building": "yes",
-        "capacity": 15,
-        "charge": "17 EUR",
-        "contact:mobile": "+39 333 5441554",
-        "contact:phone": "+39 0575 582180",
-        "drinking_water": "yes",
-        "ele": 1296,
-        "email": "rifugiocaicalla@gmail.com",
-        "fee": "yes",
-        "name": "La Calla",
-        "operator": "Sezione CAI Firenze - Sottosezione di Stia",
-        "payment:wire_transfer": "yes",
-        "reservation": "required",
-        "source": "CAI",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.7434903,
-          43.8600273
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 148.1,
         "@id": "n6142885523",
@@ -21229,6 +21189,46 @@
         "coordinates": [
           10.8827638,
           44.0380949
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 31.5,
+        "@id": "w449109986",
+        "@changeset": 108112226,
+        "@timestamp": "2021-07-16T11:06:50Z",
+        "@version": 8,
+        "@uid": 7078274,
+        "@user": "gabriele_sani",
+        "access": "private",
+        "addr:country": "IT",
+        "addr:place": "Passo della Calla",
+        "addr:postcode": "52017",
+        "alt_name": "Capanna Sociale CAI \"Paolo Brilli\"",
+        "building": "yes",
+        "capacity": 15,
+        "charge": "17 EUR",
+        "contact:mobile": "+39 333 5441554",
+        "contact:phone": "+39 0575 582180",
+        "drinking_water": "yes",
+        "ele": 1296,
+        "email": "rifugiocaicalla@gmail.com",
+        "fee": "yes",
+        "name": "La Calla",
+        "operator": "Sezione CAI Firenze - Sottosezione di Stia",
+        "payment:wire_transfer": "yes",
+        "reservation": "required",
+        "source": "CAI",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7434903,
+          43.8600273
         ]
       }
     },

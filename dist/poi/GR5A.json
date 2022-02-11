@@ -6388,14 +6388,16 @@
         "@poi": "foodshop_convenience",
         "@distance": 775,
         "@id": "n666068825",
-        "@changeset": 100500900,
-        "@timestamp": "2021-03-05T15:31:46Z",
-        "@version": 9,
+        "@changeset": 117233715,
+        "@timestamp": "2022-02-10T08:24:19Z",
+        "@version": 11,
         "@uid": 2212351,
         "@user": "cOSMografix",
         "amenity": "post_box",
+        "collection_times": "Mo-Fr 09:30; Sa 09:30",
         "drive_through": "no",
         "name": "Le Galta",
+        "opening_hours": "PH,Mo-Su 08:00-12:30,15:00-19:00",
         "operator": "La Poste",
         "ref": "A1R0B2",
         "shop": "convenience",
@@ -10461,36 +10463,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 496.4,
-        "@id": "n1922208842",
-        "@changeset": 82500335,
-        "@timestamp": "2020-03-23T03:17:46Z",
-        "@version": 6,
-        "@uid": 1443767,
-        "@user": "Olyon",
-        "addr:city": "Nice",
-        "addr:postcode": "06000",
-        "addr:street": "Avenue Malausséna",
-        "brand": "Carrefour Express",
-        "brand:wikidata": "Q2940190",
-        "brand:wikipedia": "fr:Carrefour Express",
-        "name": "Carrefour Express",
-        "opening_hours": "Mo-Sa 08:00-21:00, Su 09:00-13:00",
-        "shop": "supermarket",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.2633121,
-          43.7084029
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 6573.1,
         "@id": "n861180402",
@@ -12208,6 +12180,36 @@
         "coordinates": [
           6.8557917,
           44.4750572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 496.4,
+        "@id": "n1922208842",
+        "@changeset": 82500335,
+        "@timestamp": "2020-03-23T03:17:46Z",
+        "@version": 6,
+        "@uid": 1443767,
+        "@user": "Olyon",
+        "addr:city": "Nice",
+        "addr:postcode": "06000",
+        "addr:street": "Avenue Malausséna",
+        "brand": "Carrefour Express",
+        "brand:wikidata": "Q2940190",
+        "brand:wikipedia": "fr:Carrefour Express",
+        "name": "Carrefour Express",
+        "opening_hours": "Mo-Sa 08:00-21:00, Su 09:00-13:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2633121,
+          43.7084029
         ]
       }
     },
@@ -24400,28 +24402,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "place_hamlet",
-        "@distance": 28.7,
-        "@id": "n5243920380",
-        "@changeset": 54020008,
-        "@timestamp": "2017-11-23T08:26:05Z",
-        "@version": 1,
-        "@uid": 2212351,
-        "@user": "cOSMografix",
-        "name": "Les Hoches",
-        "place": "hamlet"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.7246611,
-          45.8380282
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 1761.5,
         "@id": "n7369561503",
@@ -27108,6 +27088,28 @@
         "coordinates": [
           7.3185691,
           43.7423432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_hamlet",
+        "@distance": 28.7,
+        "@id": "n5243920380",
+        "@changeset": 54020008,
+        "@timestamp": "2017-11-23T08:26:05Z",
+        "@version": 1,
+        "@uid": 2212351,
+        "@user": "cOSMografix",
+        "name": "Les Hoches",
+        "place": "hamlet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7246611,
+          45.8380282
         ]
       }
     },
@@ -39407,17 +39409,20 @@
         "@poi": "foodshop_convenience",
         "@distance": 782.5,
         "@id": "w246406236",
-        "@changeset": 97490349,
-        "@timestamp": "2021-01-14T10:46:10Z",
-        "@version": 4,
+        "@changeset": 117233718,
+        "@timestamp": "2022-02-10T08:24:21Z",
+        "@version": 7,
         "@uid": 2212351,
         "@user": "cOSMografix",
         "building": "retail",
+        "building:levels": "1",
+        "check_date:opening_hours": "2022-02-07",
         "name": "Epicerie Le Galta",
         "opening_hours": "Mo-Su,PH 08:00-12:30,15:00-19:00",
         "opening_hours:covid19": "same",
         "payment:cash": "yes",
         "payment:credit_cards": "yes",
+        "roof:shape": "gabled",
         "shop": "convenience",
         "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2013"
       },
