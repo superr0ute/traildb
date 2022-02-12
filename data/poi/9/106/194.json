@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-10T23:59:59Z",
-    "timestamp_osm_base": "2022-02-11T03:21:08Z",
+    "timestamp_osm_date": "2022-02-11T23:59:59Z",
+    "timestamp_osm_base": "2022-02-12T03:27:54Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -7094,14 +7094,13 @@
       "type": "node",
       "id": 2424886792,
       "lat": 39.6520158,
-      "lon": -104.9017556,
-      "timestamp": "2019-07-05T22:58:08Z",
-      "version": 9,
-      "changeset": 71947144,
-      "user": "Timothy Smith",
-      "uid": 115918,
+      "lon": -104.901755,
+      "timestamp": "2022-02-11T01:43:39Z",
+      "version": 10,
+      "changeset": 117268096,
+      "user": "TorCguy",
+      "uid": 338843,
       "tags": {
-        "phone": "303-488-2000",
         "addr:city": "Denver",
         "addr:housenumber": "7400",
         "addr:postcode": "80231",
@@ -7112,6 +7111,7 @@
         "brand:wikidata": "Q1809448",
         "brand:wikipedia": "en:Whole Foods Market",
         "name": "Whole Foods Market",
+        "phone": "+1-303-488-2000",
         "shop": "supermarket",
         "website": "https://wholefoodsmarket.com/"
       }
@@ -19373,21 +19373,24 @@
     {
       "type": "way",
       "id": 193420680,
-      "timestamp": "2013-01-18T05:30:36Z",
-      "version": 2,
-      "changeset": 14692599,
-      "user": "thesteady",
-      "uid": 1090081,
+      "timestamp": "2022-02-11T17:18:59Z",
+      "version": 4,
+      "changeset": 117296131,
+      "user": "gpserror",
+      "uid": 9637872,
       "center": {
         "lat": 39.6925032,
         "lon": -105.0240625
       },
       "nodes": [],
       "tags": {
+        "addr:housenumber": "1320",
+        "addr:street": "South Federal Boulevard",
         "building": "retail",
-        "name": "Lowe's Mercado Supermarket",
+        "name": "Lowe's Mercado",
         "shop": "supermarket",
-        "source": "Bing"
+        "source": "Bing",
+        "website": "https://lowesmarket.com/"
       }
     },
     {
@@ -35058,6 +35061,30 @@
         "building": "yes",
         "height": "2",
         "shelter_type": "public_transport",
+        "source": "DRCOG PLANIMETRICS DATA"
+      }
+    },
+    {
+      "type": "way",
+      "id": 711147766,
+      "timestamp": "2022-02-11T06:39:15Z",
+      "version": 2,
+      "changeset": 117273606,
+      "user": "gpserror",
+      "uid": 9637872,
+      "center": {
+        "lat": 39.689218,
+        "lon": -105.0245611
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Denver",
+        "addr:postcode": "80219",
+        "addr:state": "CO",
+        "building": "commercial",
+        "height": "4",
+        "name": "Super Save",
+        "shop": "convenience",
         "source": "DRCOG PLANIMETRICS DATA"
       }
     },
