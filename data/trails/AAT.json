@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-11T02:29:37Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-12T02:34:56Z"},
   "elements": [
     {
       "type": "relation",
@@ -113,11 +113,11 @@
     {
       "type": "relation",
       "id": 3176522,
-      "timestamp": "2022-02-08T16:15:18Z",
-      "version": 685,
-      "changeset": 117167875,
-      "user": "vogelfreier",
-      "uid": 74746,
+      "timestamp": "2022-02-11T23:32:23Z",
+      "version": 686,
+      "changeset": 117306161,
+      "user": "micheleOSM3",
+      "uid": 3538539,
       "members": [
         {"type": "node", "ref": 2911861581, "role": ""},
         {"type": "node", "ref": 2912812289, "role": ""},
@@ -2324,6 +2324,7 @@
         {"type": "way", "ref": 26995161, "role": ""},
         {"type": "way", "ref": 779963118, "role": ""},
         {"type": "way", "ref": 779963119, "role": ""},
+        {"type": "way", "ref": 1030542225, "role": ""},
         {"type": "way", "ref": 27279211, "role": ""},
         {"type": "way", "ref": 40506716, "role": ""},
         {"type": "way", "ref": 722513591, "role": ""},
@@ -3057,6 +3058,29 @@
         "name": "Piazza della Resistenza",
         "oneway": "yes",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1030542225,
+      "timestamp": "2022-02-11T23:32:23Z",
+      "version": 1,
+      "changeset": 117306161,
+      "user": "micheleOSM3",
+      "uid": 3538539,
+      "nodes": [7282914251, 7282914250],
+      "geometry": [
+        {"lat": 45.6145196, "lon": 13.8592075, "z": 72.2},
+        {"lat": 45.614646, "lon": 13.8594001, "z": 72.9}
+      ],
+      "tags": {
+        "hgv": "no",
+        "highway": "tertiary",
+        "lit": "yes",
+        "maxweight": "7.5",
+        "noname": "yes",
+        "oneway": "yes",
+        "surface": "paving_stones"
       }
     },
     {
@@ -69987,14 +70011,13 @@
     {
       "type": "way",
       "id": 779963119,
-      "timestamp": "2020-05-15T10:31:20Z",
-      "version": 4,
-      "changeset": 85252764,
-      "user": "damjang",
-      "uid": 97922,
-      "nodes": [7282914251, 295891637],
+      "timestamp": "2022-02-11T23:32:23Z",
+      "version": 5,
+      "changeset": 117306161,
+      "user": "micheleOSM3",
+      "uid": 3538539,
+      "nodes": [7282914250, 295891637],
       "geometry": [
-        {"lat": 45.6145196, "lon": 13.8592075, "z": 72.2},
         {"lat": 45.614646, "lon": 13.8594001, "z": 72.9},
         {"lat": 45.6146778, "lon": 13.8594387, "z": 73.1},
         {"lat": 45.614696, "lon": 13.8594497, "z": 73.3},
