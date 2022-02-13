@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-12T02:34:56Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-13T02:28:04Z"},
   "elements": [
     {
       "type": "relation",
@@ -113,11 +113,11 @@
     {
       "type": "relation",
       "id": 3176522,
-      "timestamp": "2022-02-11T23:32:23Z",
-      "version": 686,
-      "changeset": 117306161,
-      "user": "micheleOSM3",
-      "uid": 3538539,
+      "timestamp": "2022-02-12T16:06:14Z",
+      "version": 687,
+      "changeset": 117326910,
+      "user": "wifasoi",
+      "uid": 14972230,
       "members": [
         {"type": "node", "ref": 2911861581, "role": ""},
         {"type": "node", "ref": 2912812289, "role": ""},
@@ -2071,6 +2071,7 @@
         {"type": "way", "ref": 54037065, "role": ""},
         {"type": "way", "ref": 25409755, "role": ""},
         {"type": "way", "ref": 25409753, "role": ""},
+        {"type": "way", "ref": 1030724852, "role": ""},
         {"type": "way", "ref": 25409759, "role": ""},
         {"type": "way", "ref": 771881035, "role": ""},
         {"type": "way", "ref": 721207959, "role": ""},
@@ -3081,6 +3082,35 @@
         "noname": "yes",
         "oneway": "yes",
         "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1030724852,
+      "timestamp": "2022-02-12T16:06:28Z",
+      "version": 3,
+      "changeset": 117326811,
+      "user": "wifasoi",
+      "uid": 14972230,
+      "nodes": [276925541, 937248050],
+      "geometry": [
+        {"lat": 45.773539, "lon": 13.6006605, "z": 18.7},
+        {"lat": 45.7734673, "lon": 13.6008752, "z": 19.8},
+        {"lat": 45.773376, "lon": 13.6011429, "z": 21},
+        {"lat": 45.773295, "lon": 13.601392, "z": 22.1},
+        {"lat": 45.773272, "lon": 13.6014784, "z": 22.6},
+        {"lat": 45.7732441, "lon": 13.6015962, "z": 23.3}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "maxspeed": "50",
+        "maxweight": "5",
+        "noname": "yes",
+        "oneway": "yes",
+        "ref": "SP2",
+        "sidewalk": "left",
+        "source:maxspeed": "IT:urban",
+        "surface": "asphalt"
       }
     },
     {
@@ -29112,18 +29142,13 @@
     {
       "type": "way",
       "id": 25409759,
-      "timestamp": "2019-09-02T15:22:15Z",
-      "version": 14,
-      "changeset": 74005300,
-      "user": "ordnassela-trieste",
-      "uid": 6631989,
-      "nodes": [276925541, 6766661611],
+      "timestamp": "2022-02-12T16:08:57Z",
+      "version": 17,
+      "changeset": 117326811,
+      "user": "wifasoi",
+      "uid": 14972230,
+      "nodes": [937248050, 6766661611],
       "geometry": [
-        {"lat": 45.773539, "lon": 13.6006605, "z": 18.7},
-        {"lat": 45.7734673, "lon": 13.6008752, "z": 19.8},
-        {"lat": 45.773376, "lon": 13.6011429, "z": 21},
-        {"lat": 45.773295, "lon": 13.601392, "z": 22.1},
-        {"lat": 45.773272, "lon": 13.6014784, "z": 22.6},
         {"lat": 45.7732441, "lon": 13.6015962, "z": 23.3},
         {"lat": 45.7732375, "lon": 13.6016523, "z": 23.7},
         {"lat": 45.7732284, "lon": 13.6018099, "z": 24.9},
@@ -29143,7 +29168,9 @@
         "noname": "yes",
         "oneway": "yes",
         "ref": "SP2",
-        "source:maxspeed": "IT:urban"
+        "sidewalk": "both",
+        "source:maxspeed": "IT:urban",
+        "surface": "asphalt"
       }
     },
     {

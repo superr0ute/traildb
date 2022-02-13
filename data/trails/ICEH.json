@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-11T02:32:26Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-13T02:35:25Z"},
   "elements": [
     {
       "type": "relation",
@@ -547,9 +547,9 @@
     {
       "type": "way",
       "id": 134946521,
-      "timestamp": "2022-02-04T17:51:56Z",
-      "version": 7,
-      "changeset": 117016541,
+      "timestamp": "2022-02-12T11:19:28Z",
+      "version": 10,
+      "changeset": 117317339,
       "user": "Opix",
       "uid": 6337205,
       "nodes": [3331924231, 672801476],
@@ -558,9 +558,12 @@
         {"lat": 27.805394, "lon": -17.9164442, "z": 625.5}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "residential",
         "layer": "-1",
+        "lit": "no",
         "maxheight": "2.25",
+        "maxspeed:type": "IC:urban",
         "name": "Calle Ayala y Barreda",
         "sidewalk": "no",
         "smoothness": "good",
@@ -571,11 +574,11 @@
     {
       "type": "way",
       "id": 134946951,
-      "timestamp": "2015-02-05T14:04:26Z",
-      "version": 5,
-      "changeset": 28631023,
-      "user": "catastro_santa_cruz_de_tenerife",
-      "uid": 617065,
+      "timestamp": "2022-02-12T11:19:10Z",
+      "version": 11,
+      "changeset": 117317339,
+      "user": "Opix",
+      "uid": 6337205,
       "nodes": [672801463, 664440274],
       "geometry": [
         {"lat": 27.8049927, "lon": -17.9179682, "z": 654.3},
@@ -589,7 +592,16 @@
         {"lat": 27.8039388, "lon": -17.9185577, "z": 671.9},
         {"lat": 27.8038219, "lon": -17.9188234, "z": 677}
       ],
-      "tags": {"highway": "residential", "name": "Calle Casañas Frías"}
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed:type": "IC:urban",
+        "name": "Calle Casañas Frías",
+        "sidewalk": "no",
+        "smoothness": "intermediate",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",

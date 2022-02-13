@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-09T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-12T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -8215,27 +8215,27 @@
     {
       "type": "way",
       "id": 116625791,
-      "timestamp": "2020-07-18T22:13:18Z",
-      "version": 6,
-      "changeset": 88187555,
-      "user": "Keyser Söze 2",
-      "uid": 4324085,
+      "timestamp": "2022-02-12T21:06:53Z",
+      "version": 7,
+      "changeset": 117335919,
+      "user": "jcr83",
+      "uid": 234940,
       "nodes": [540210288, 540210299],
       "geometry": [
         {"lat": 43.9551009, "lon": 7.3782444},
         {"lat": 43.954724, "lon": 7.3789225},
         {"lat": 43.9545571, "lon": 7.3789997}
       ],
-      "tags": {"highway": "path", "name": "GR 52 A", "sac_scale": "hiking"}
+      "tags": {"highway": "path", "ref": "GR 52A", "sac_scale": "hiking"}
     },
     {
       "type": "way",
       "id": 116625803,
-      "timestamp": "2020-07-18T22:13:18Z",
-      "version": 3,
-      "changeset": 88187555,
-      "user": "Keyser Söze 2",
-      "uid": 4324085,
+      "timestamp": "2022-02-12T21:06:53Z",
+      "version": 4,
+      "changeset": 117335919,
+      "user": "jcr83",
+      "uid": 234940,
       "nodes": [540210299, 1314335499],
       "geometry": [
         {"lat": 43.9545571, "lon": 7.3789997},
@@ -8244,16 +8244,16 @@
         {"lat": 43.9542465, "lon": 7.3817906},
         {"lat": 43.9542728, "lon": 7.3821853}
       ],
-      "tags": {"highway": "path", "name": "GR 52 A"}
+      "tags": {"highway": "path", "ref": "GR 52A"}
     },
     {
       "type": "way",
       "id": 116625810,
-      "timestamp": "2020-07-18T22:13:18Z",
-      "version": 4,
-      "changeset": 88187555,
-      "user": "Keyser Söze 2",
-      "uid": 4324085,
+      "timestamp": "2022-02-12T21:06:53Z",
+      "version": 5,
+      "changeset": 117335919,
+      "user": "jcr83",
+      "uid": 234940,
       "nodes": [1314335283, 1314335483],
       "geometry": [
         {"lat": 43.9540901, "lon": 7.3827119},
@@ -8358,16 +8358,16 @@
         {"lat": 43.9455493, "lon": 7.4148166},
         {"lat": 43.9454995, "lon": 7.4148004}
       ],
-      "tags": {"highway": "path", "name": "GR 52 A"}
+      "tags": {"highway": "path", "ref": "GR 52A"}
     },
     {
       "type": "way",
       "id": 116625813,
-      "timestamp": "2020-07-18T22:13:18Z",
-      "version": 4,
-      "changeset": 88187555,
-      "user": "Keyser Söze 2",
-      "uid": 4324085,
+      "timestamp": "2022-02-12T21:06:53Z",
+      "version": 5,
+      "changeset": 117335919,
+      "user": "jcr83",
+      "uid": 234940,
       "nodes": [540210246, 540210288],
       "geometry": [
         {"lat": 43.9579593, "lon": 7.3772402},
@@ -8385,7 +8385,7 @@
       ],
       "tags": {
         "highway": "track",
-        "name": "GR 52 A",
+        "ref": "GR 52A",
         "sac_scale": "hiking",
         "tracktype": "grade3"
       }
@@ -19056,11 +19056,11 @@
     {
       "type": "way",
       "id": 156645123,
-      "timestamp": "2021-02-05T08:20:08Z",
-      "version": 5,
-      "changeset": 98751859,
-      "user": "Jrachi",
-      "uid": 2976645,
+      "timestamp": "2022-02-12T10:26:55Z",
+      "version": 6,
+      "changeset": 117313589,
+      "user": "aspirina_e_coca",
+      "uid": 105076,
       "nodes": [1688801910, 2101853779],
       "geometry": [
         {"lat": 45.3675079, "lon": 7.2860957},
@@ -19071,6 +19071,7 @@
         "highway": "track",
         "layer": "1",
         "sac_scale": "hiking",
+        "surface": "gravel",
         "tracktype": "grade3"
       }
     },
@@ -30920,18 +30921,23 @@
     {
       "type": "way",
       "id": 200187897,
-      "timestamp": "2021-02-05T08:20:08Z",
-      "version": 3,
-      "changeset": 98751859,
-      "user": "Jrachi",
-      "uid": 2976645,
+      "timestamp": "2022-02-12T10:26:16Z",
+      "version": 4,
+      "changeset": 117313589,
+      "user": "aspirina_e_coca",
+      "uid": 105076,
       "nodes": [2101853779, 1564269179],
       "geometry": [
         {"lat": 45.3672592, "lon": 7.285898},
         {"lat": 45.3672136, "lon": 7.2858804},
         {"lat": 45.367157, "lon": 7.2858624}
       ],
-      "tags": {"highway": "track", "sac_scale": "hiking", "tracktype": "grade3"}
+      "tags": {
+        "highway": "track",
+        "sac_scale": "hiking",
+        "surface": "asphalt",
+        "tracktype": "grade3"
+      }
     },
     {
       "type": "way",
@@ -54527,11 +54533,11 @@
     {
       "type": "way",
       "id": 350932262,
-      "timestamp": "2020-07-12T08:33:06Z",
-      "version": 2,
-      "changeset": 87871212,
-      "user": "Christouf0676",
-      "uid": 1725852,
+      "timestamp": "2022-02-12T21:06:53Z",
+      "version": 3,
+      "changeset": 117335919,
+      "user": "jcr83",
+      "uid": 234940,
       "nodes": [293182814, 3450178234],
       "geometry": [
         {"lat": 44.0896309, "lon": 7.0860229},
@@ -54546,7 +54552,7 @@
         "incline": "18%",
         "mtb:scale": "0",
         "mtb:scale:uphill": "2",
-        "name": "GR®52A",
+        "ref": "GR 52A",
         "sac_scale": "hiking",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
         "trail_visibility": "excellent"
@@ -55672,11 +55678,11 @@
     {
       "type": "way",
       "id": 355771220,
-      "timestamp": "2020-07-18T22:13:18Z",
-      "version": 4,
-      "changeset": 88187555,
-      "user": "Keyser Söze 2",
-      "uid": 4324085,
+      "timestamp": "2022-02-12T21:06:53Z",
+      "version": 5,
+      "changeset": 117335919,
+      "user": "jcr83",
+      "uid": 234940,
       "nodes": [540210145, 540209001],
       "geometry": [
         {"lat": 43.9644425, "lon": 7.3792572},
@@ -55705,7 +55711,7 @@
       "tags": {
         "highway": "path",
         "mtb:scale": "0",
-        "name": "GR 52 A",
+        "ref": "GR 52A",
         "sac_scale": "hiking"
       }
     },
@@ -57665,11 +57671,11 @@
     {
       "type": "way",
       "id": 368699398,
-      "timestamp": "2020-07-18T22:13:18Z",
-      "version": 2,
-      "changeset": 88187555,
-      "user": "Keyser Söze 2",
-      "uid": 4324085,
+      "timestamp": "2022-02-12T21:06:53Z",
+      "version": 3,
+      "changeset": 117335919,
+      "user": "jcr83",
+      "uid": 234940,
       "nodes": [540207709, 540209001],
       "geometry": [
         {"lat": 43.9755299, "lon": 7.3923771},
@@ -57734,7 +57740,7 @@
         {"lat": 43.9687421, "lon": 7.3820639},
         {"lat": 43.9685012, "lon": 7.3820467}
       ],
-      "tags": {"highway": "path", "name": "GR 52 A", "sac_scale": "hiking"}
+      "tags": {"highway": "path", "ref": "GR 52A", "sac_scale": "hiking"}
     },
     {
       "type": "way",
@@ -73666,11 +73672,11 @@
     {
       "type": "way",
       "id": 534005460,
-      "timestamp": "2021-02-05T08:20:08Z",
-      "version": 9,
-      "changeset": 98751859,
-      "user": "Jrachi",
-      "uid": 2976645,
+      "timestamp": "2022-02-12T10:26:37Z",
+      "version": 10,
+      "changeset": 117315725,
+      "user": "aspirina_e_coca",
+      "uid": 105076,
       "nodes": [6387243637, 1564270122],
       "geometry": [
         {"lat": 45.3563466, "lon": 7.2637224},
@@ -73845,6 +73851,7 @@
       "tags": {
         "highway": "path",
         "sac_scale": "hiking",
+        "surface": "dirt",
         "trail_visibility": "good"
       }
     },
@@ -90931,11 +90938,11 @@
     {
       "type": "way",
       "id": 737687322,
-      "timestamp": "2020-07-18T22:13:18Z",
-      "version": 2,
-      "changeset": 88187555,
-      "user": "Keyser Söze 2",
-      "uid": 4324085,
+      "timestamp": "2022-02-12T21:06:53Z",
+      "version": 3,
+      "changeset": 117335919,
+      "user": "jcr83",
+      "uid": 234940,
       "nodes": [2132137595, 540210210],
       "geometry": [
         {"lat": 43.9581658, "lon": 7.3770781},
@@ -90948,18 +90955,18 @@
       "tags": {
         "highway": "path",
         "mtb:scale": "0",
-        "name": "GR 52 A",
+        "ref": "GR 52A",
         "sac_scale": "hiking"
       }
     },
     {
       "type": "way",
       "id": 737687323,
-      "timestamp": "2020-07-18T22:13:18Z",
-      "version": 2,
-      "changeset": 88187555,
-      "user": "Keyser Söze 2",
-      "uid": 4324085,
+      "timestamp": "2022-02-12T21:06:53Z",
+      "version": 3,
+      "changeset": 117335919,
+      "user": "jcr83",
+      "uid": 234940,
       "nodes": [540210210, 540210157],
       "geometry": [
         {"lat": 43.9590683, "lon": 7.3771919},
@@ -90988,7 +90995,7 @@
         "incline": "17%",
         "mtb:scale": "1",
         "mtb:scale:uphill": "3",
-        "name": "GR 52 A",
+        "ref": "GR 52A",
         "sac_scale": "hiking"
       }
     },
