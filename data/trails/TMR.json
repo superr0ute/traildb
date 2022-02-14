@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-08T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-13T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -43,12 +43,14 @@
     {
       "type": "relation",
       "id": 9214075,
-      "timestamp": "2022-02-08T11:24:18Z",
-      "version": 26,
-      "changeset": 117156117,
+      "timestamp": "2022-02-13T14:54:25Z",
+      "version": 27,
+      "changeset": 117357187,
       "user": "mpmac82",
       "uid": 14867340,
       "members": [
+        {"type": "way", "ref": 1030933828, "role": "main"},
+        {"type": "way", "ref": 1030933829, "role": "main"},
         {"type": "way", "ref": 236569269, "role": "main"},
         {"type": "way", "ref": 236569278, "role": "main"},
         {"type": "way", "ref": 1029286584, "role": "main"},
@@ -1005,9 +1007,9 @@
     {
       "type": "way",
       "id": 1029279894,
-      "timestamp": "2022-02-08T11:01:05Z",
-      "version": 1,
-      "changeset": 117155247,
+      "timestamp": "2022-02-13T14:54:25Z",
+      "version": 2,
+      "changeset": 117357187,
       "user": "mpmac82",
       "uid": 14867340,
       "nodes": [2445904515, 1436118828],
@@ -1028,7 +1030,7 @@
         {"lat": 45.9707582, "lon": 7.9641732}
       ],
       "tags": {
-        "highway": "unclassified",
+        "highway": "residential",
         "name": "Via Chiesa Vecchia",
         "surface": "asphalt"
       }
@@ -1074,6 +1076,46 @@
         "name": "Via Chiesa Vecchia",
         "sac_scale": "hiking",
         "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1030933828,
+      "timestamp": "2022-02-13T14:54:25Z",
+      "version": 1,
+      "changeset": 117357187,
+      "user": "mpmac82",
+      "uid": 14867340,
+      "nodes": [2445904090, 343199864],
+      "geometry": [
+        {"lat": 45.9684877, "lon": 7.9671071},
+        {"lat": 45.9683617, "lon": 7.9672275}
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Via Chiesa Vecchia",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1030933829,
+      "timestamp": "2022-02-13T14:54:25Z",
+      "version": 1,
+      "changeset": 117357187,
+      "user": "mpmac82",
+      "uid": 14867340,
+      "nodes": [9502782743, 2445904090],
+      "geometry": [
+        {"lat": 45.9685376, "lon": 7.967002},
+        {"lat": 45.9684877, "lon": 7.9671071}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "residential",
+        "layer": "1",
+        "name": "Via Chiesa Vecchia",
+        "surface": "asphalt"
       }
     },
     {
@@ -4515,11 +4557,11 @@
     {
       "type": "way",
       "id": 153168131,
-      "timestamp": "2021-10-11T10:54:03Z",
-      "version": 9,
-      "changeset": 112369352,
-      "user": "Gantrisch",
-      "uid": 3518047,
+      "timestamp": "2022-02-13T10:39:19Z",
+      "version": 10,
+      "changeset": 117347571,
+      "user": "zsolt d",
+      "uid": 2077889,
       "nodes": [618600383, 240240198],
       "geometry": [
         {"lat": 46.019442, "lon": 7.7460789},
@@ -4536,6 +4578,7 @@
         {"lat": 46.0191814, "lon": 7.7455251},
         {"lat": 46.0191729, "lon": 7.7455136},
         {"lat": 46.0191614, "lon": 7.745503},
+        {"lat": 46.0191235, "lon": 7.7454785},
         {"lat": 46.0190951, "lon": 7.7454602},
         {"lat": 46.0190505, "lon": 7.7454364},
         {"lat": 46.0189529, "lon": 7.7454069},
@@ -5804,9 +5847,9 @@
     {
       "type": "way",
       "id": 208193538,
-      "timestamp": "2022-02-07T21:02:52Z",
-      "version": 7,
-      "changeset": 117135964,
+      "timestamp": "2022-02-13T16:07:55Z",
+      "version": 8,
+      "changeset": 117360161,
       "user": "Jrachi",
       "uid": 2976645,
       "nodes": [874285305, 2188621808],
@@ -5899,7 +5942,6 @@
       ],
       "tags": {
         "highway": "path",
-        "operator": "CAI - Club Alpino Italiano",
         "sac_scale": "demanding_mountain_hiking",
         "surface": "ground",
         "trail_visibility": "good"
@@ -6446,12 +6488,12 @@
     {
       "type": "way",
       "id": 236569269,
-      "timestamp": "2020-12-24T15:53:13Z",
-      "version": 7,
-      "changeset": 96395244,
-      "user": "Jrachi",
-      "uid": 2976645,
-      "nodes": [1436118823, 343199864],
+      "timestamp": "2022-02-13T14:54:25Z",
+      "version": 8,
+      "changeset": 117357187,
+      "user": "mpmac82",
+      "uid": 14867340,
+      "nodes": [1436118823, 9502782743],
       "geometry": [
         {"lat": 45.9700551, "lon": 7.9649913},
         {"lat": 45.9699782, "lon": 7.9651078},
@@ -6461,6 +6503,7 @@
         {"lat": 45.9693778, "lon": 7.9654876},
         {"lat": 45.9693123, "lon": 7.965572},
         {"lat": 45.9692191, "lon": 7.9657234},
+        {"lat": 45.9690602, "lon": 7.9659653},
         {"lat": 45.9690121, "lon": 7.9660386},
         {"lat": 45.9689266, "lon": 7.9661573},
         {"lat": 45.9688637, "lon": 7.9662446},
@@ -6468,17 +6511,20 @@
         {"lat": 45.9687257, "lon": 7.9665227},
         {"lat": 45.9686549, "lon": 7.9667386},
         {"lat": 45.9685743, "lon": 7.9669246},
-        {"lat": 45.9684877, "lon": 7.9671071},
-        {"lat": 45.9683617, "lon": 7.9672275}
+        {"lat": 45.9685376, "lon": 7.967002}
       ],
-      "tags": {"highway": "residential", "name": "Via Chiesa Vecchia"}
+      "tags": {
+        "highway": "residential",
+        "name": "Via Chiesa Vecchia",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 236569278,
-      "timestamp": "2022-02-08T11:24:18Z",
-      "version": 5,
-      "changeset": 117156117,
+      "timestamp": "2022-02-13T14:54:25Z",
+      "version": 6,
+      "changeset": 117357187,
       "user": "mpmac82",
       "uid": 14867340,
       "nodes": [1436118825, 1436118823],
@@ -6493,18 +6539,18 @@
         "highway": "unclassified",
         "name": "Via Chiesa Vecchia",
         "sac_scale": "hiking",
-        "surface": "paved"
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 236571413,
-      "timestamp": "2019-05-01T22:11:09Z",
-      "version": 2,
-      "changeset": 69783520,
-      "user": "fmaccap",
-      "uid": 5673719,
-      "nodes": [2445928083, 2445928121],
+      "timestamp": "2022-02-13T15:10:39Z",
+      "version": 3,
+      "changeset": 117357849,
+      "user": "mpmac82",
+      "uid": 14867340,
+      "nodes": [2445928083, 9502787693],
       "geometry": [
         {"lat": 45.9654224, "lon": 7.9755525},
         {"lat": 45.9654386, "lon": 7.9755317},
@@ -6514,14 +6560,14 @@
         {"lat": 45.9652962, "lon": 7.9743339},
         {"lat": 45.9652782, "lon": 7.9742016},
         {"lat": 45.9652746, "lon": 7.9740694},
-        {"lat": 45.9651845, "lon": 7.9738023},
-        {"lat": 45.9652167, "lon": 7.9735946},
-        {"lat": 45.9653, "lon": 7.9734166},
-        {"lat": 45.9653985, "lon": 7.9732502},
-        {"lat": 45.965497, "lon": 7.9732625},
-        {"lat": 45.9655622, "lon": 7.9732503}
+        {"lat": 45.9651869, "lon": 7.9737582}
       ],
-      "tags": {"highway": "track", "tracktype": "grade2"}
+      "tags": {
+        "highway": "service",
+        "service": "driveway",
+        "surface": "asphalt",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
@@ -8373,11 +8419,11 @@
     {
       "type": "way",
       "id": 236845355,
-      "timestamp": "2021-09-16T15:54:43Z",
-      "version": 9,
-      "changeset": 111298651,
-      "user": "rbon56",
-      "uid": 7903615,
+      "timestamp": "2022-02-13T15:10:39Z",
+      "version": 10,
+      "changeset": 117357849,
+      "user": "mpmac82",
+      "uid": 14867340,
       "nodes": [454291135, 454291265],
       "geometry": [
         {"lat": 45.9557664, "lon": 7.9877089},
@@ -8522,6 +8568,7 @@
       ],
       "tags": {
         "highway": "track",
+        "surface": "unpaved",
         "tracktype": "grade2",
         "trail_visibility": "good",
         "width": "4 m"
@@ -8839,9 +8886,9 @@
     {
       "type": "way",
       "id": 269616355,
-      "timestamp": "2022-02-07T20:53:39Z",
-      "version": 3,
-      "changeset": 117135659,
+      "timestamp": "2022-02-13T16:07:55Z",
+      "version": 4,
+      "changeset": 117360161,
       "user": "Jrachi",
       "uid": 2976645,
       "nodes": [874285305, 2185193298],
@@ -8957,11 +9004,19 @@
         {"lat": 45.8670589, "lon": 7.8763708},
         {"lat": 45.8670688, "lon": 7.8762968},
         {"lat": 45.8671737, "lon": 7.8761159},
-        {"lat": 45.8671737, "lon": 7.8759267},
-        {"lat": 45.8671765, "lon": 7.8757737},
-        {"lat": 45.867269, "lon": 7.8755926},
-        {"lat": 45.8673643, "lon": 7.8754477},
-        {"lat": 45.8674428, "lon": 7.875339},
+        {"lat": 45.8671262, "lon": 7.875921},
+        {"lat": 45.8670312, "lon": 7.8757149},
+        {"lat": 45.867005, "lon": 7.8756294},
+        {"lat": 45.8670275, "lon": 7.8755934},
+        {"lat": 45.8670934, "lon": 7.8755604},
+        {"lat": 45.8671068, "lon": 7.8755141},
+        {"lat": 45.8670974, "lon": 7.875455},
+        {"lat": 45.8670275, "lon": 7.8752862},
+        {"lat": 45.8670288, "lon": 7.8752596},
+        {"lat": 45.8671054, "lon": 7.8752558},
+        {"lat": 45.8673787, "lon": 7.8752084},
+        {"lat": 45.8674157, "lon": 7.8752558},
+        {"lat": 45.8674547, "lon": 7.8752366},
         {"lat": 45.8675063, "lon": 7.8749271},
         {"lat": 45.8674867, "lon": 7.8747298},
         {"lat": 45.8675689, "lon": 7.8747057},
@@ -9038,7 +9093,8 @@
         {"lat": 45.8692336, "lon": 7.8712981},
         {"lat": 45.8692183, "lon": 7.871207},
         {"lat": 45.8692322, "lon": 7.8710931},
-        {"lat": 45.8692222, "lon": 7.8708646},
+        {"lat": 45.869209, "lon": 7.8709689},
+        {"lat": 45.8691127, "lon": 7.8708064},
         {"lat": 45.8691485, "lon": 7.8707117},
         {"lat": 45.8693055, "lon": 7.8706491},
         {"lat": 45.8693491, "lon": 7.870689},
@@ -9071,7 +9127,6 @@
       ],
       "tags": {
         "highway": "path",
-        "operator": "CAI - Club Alpino Italiano",
         "sac_scale": "mountain_hiking",
         "surface": "ground",
         "trail_visibility": "good"
@@ -11706,9 +11761,9 @@
     {
       "type": "way",
       "id": 38417246,
-      "timestamp": "2022-01-22T17:06:28Z",
-      "version": 11,
-      "changeset": 116473703,
+      "timestamp": "2022-02-13T15:53:33Z",
+      "version": 12,
+      "changeset": 117359495,
       "user": "mpmac82",
       "uid": 14867340,
       "nodes": [454048039, 454099372],
@@ -12097,11 +12152,11 @@
     {
       "type": "way",
       "id": 38428631,
-      "timestamp": "2021-09-16T15:54:43Z",
-      "version": 8,
-      "changeset": 111298651,
-      "user": "rbon56",
-      "uid": 7903615,
+      "timestamp": "2022-02-13T15:10:39Z",
+      "version": 9,
+      "changeset": 117357849,
+      "user": "mpmac82",
+      "uid": 14867340,
       "nodes": [454291265, 454291448],
       "geometry": [
         {"lat": 45.9464433, "lon": 7.9806202},
@@ -12179,6 +12234,7 @@
         {"lat": 45.9417245, "lon": 7.9775587},
         {"lat": 45.9416451, "lon": 7.9775396},
         {"lat": 45.9415814, "lon": 7.9775123},
+        {"lat": 45.9415741, "lon": 7.9775092},
         {"lat": 45.9415103, "lon": 7.9774817},
         {"lat": 45.9414491, "lon": 7.9774687},
         {"lat": 45.9413744, "lon": 7.9774591},
@@ -12194,6 +12250,7 @@
       ],
       "tags": {
         "highway": "track",
+        "surface": "unpaved",
         "tracktype": "grade2",
         "trail_visibility": "good",
         "width": "4 m"
@@ -15240,9 +15297,9 @@
     {
       "type": "way",
       "id": 571516172,
-      "timestamp": "2020-05-31T14:44:11Z",
-      "version": 2,
-      "changeset": 86011046,
+      "timestamp": "2022-02-13T16:13:10Z",
+      "version": 3,
+      "changeset": 117360409,
       "user": "Jrachi",
       "uid": 2976645,
       "nodes": [2185193298, 2185191297],
@@ -15286,9 +15343,6 @@
       ],
       "tags": {
         "highway": "path",
-        "name": "Tour del Monte Rosa",
-        "operator": "CAI - Club Alpino Italiano",
-        "ref": "205d (ex 5d)-TMR",
         "sac_scale": "mountain_hiking",
         "surface": "ground",
         "trail_visibility": "good"
@@ -16023,7 +16077,7 @@
       "geometry": [
         {"lat": 46.0197092, "lon": 7.7461709},
         {"lat": 46.0194824, "lon": 7.746103},
-        {"lat": 46.0194568, "lon": 7.746088},
+        {"lat": 46.019447, "lon": 7.7460846},
         {"lat": 46.019442, "lon": 7.7460789}
       ],
       "tags": {
@@ -19139,9 +19193,9 @@
     {
       "type": "way",
       "id": 830743652,
-      "timestamp": "2022-01-22T17:06:28Z",
-      "version": 3,
-      "changeset": 116473703,
+      "timestamp": "2022-02-13T15:53:33Z",
+      "version": 4,
+      "changeset": 117359495,
       "user": "mpmac82",
       "uid": 14867340,
       "nodes": [7756667034, 454099538],
@@ -20267,17 +20321,22 @@
     {
       "type": "way",
       "id": 986790964,
-      "timestamp": "2021-09-24T21:42:46Z",
-      "version": 1,
-      "changeset": 111668013,
-      "user": "Gerritholl",
-      "uid": 99909,
+      "timestamp": "2022-02-13T15:10:39Z",
+      "version": 2,
+      "changeset": 117357849,
+      "user": "mpmac82",
+      "uid": 14867340,
       "nodes": [2445928083, 2445928097],
       "geometry": [
         {"lat": 45.9654224, "lon": 7.9755525},
         {"lat": 45.9654742, "lon": 7.9756431}
       ],
-      "tags": {"highway": "track", "tracktype": "grade2"}
+      "tags": {
+        "highway": "service",
+        "service": "driveway",
+        "surface": "asphalt",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
@@ -20307,14 +20366,13 @@
     {
       "type": "way",
       "id": 986790967,
-      "timestamp": "2021-09-24T21:42:46Z",
-      "version": 1,
-      "changeset": 111668013,
-      "user": "Gerritholl",
-      "uid": 99909,
-      "nodes": [2445928121, 343199859],
+      "timestamp": "2022-02-13T15:10:39Z",
+      "version": 2,
+      "changeset": 117357849,
+      "user": "mpmac82",
+      "uid": 14867340,
+      "nodes": [343199836, 343199859],
       "geometry": [
-        {"lat": 45.9655622, "lon": 7.9732503},
         {"lat": 45.9655866, "lon": 7.973133},
         {"lat": 45.9656214, "lon": 7.9729828},
         {"lat": 45.965702, "lon": 7.9728397},
