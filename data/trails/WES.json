@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-14T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-15T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1077,11 +1077,11 @@
     {
       "type": "relation",
       "id": 62897,
-      "timestamp": "2022-01-23T16:56:54Z",
-      "version": 212,
-      "changeset": 116507504,
-      "user": "*abq*",
-      "uid": 3696195,
+      "timestamp": "2022-02-15T18:54:55Z",
+      "version": 213,
+      "changeset": 117447879,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
       "members": [
         {"type": "node", "ref": 1955826026, "role": "guidepost"},
         {"type": "node", "ref": 1955825919, "role": "guidepost"},
@@ -1523,6 +1523,7 @@
         {"type": "way", "ref": 4661992, "role": ""},
         {"type": "way", "ref": 30722869, "role": ""},
         {"type": "way", "ref": 32909937, "role": ""},
+        {"type": "way", "ref": 1031729745, "role": ""},
         {"type": "way", "ref": 180879792, "role": ""},
         {"type": "way", "ref": 180879780, "role": ""},
         {"type": "way", "ref": 28613408, "role": ""},
@@ -3144,6 +3145,23 @@
         {"lat": 47.5714396, "lon": 7.7436534}
       ],
       "tags": {"highway": "track", "tracktype": "grade4"}
+    },
+    {
+      "type": "way",
+      "id": 1031729745,
+      "timestamp": "2022-02-15T18:54:54Z",
+      "version": 1,
+      "changeset": 117447879,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
+      "nodes": [9508472789, 373133574],
+      "geometry": [
+        {"lat": 47.5957985, "lon": 7.6417027},
+        {"lat": 47.5958065, "lon": 7.6415759},
+        {"lat": 47.5958656, "lon": 7.6411768},
+        {"lat": 47.5958796, "lon": 7.6410818}
+      ],
+      "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade2"}
     },
     {
       "type": "way",
@@ -7937,11 +7955,11 @@
     {
       "type": "way",
       "id": 146977960,
-      "timestamp": "2012-09-13T21:53:13Z",
-      "version": 2,
-      "changeset": 13101623,
-      "user": "Stefan Karl",
-      "uid": 101348,
+      "timestamp": "2022-02-15T18:54:55Z",
+      "version": 3,
+      "changeset": 117447879,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
       "nodes": [1049918339, 383900310],
       "geometry": [
         {"lat": 47.6074958, "lon": 7.6418524},
@@ -7951,7 +7969,7 @@
       ],
       "tags": {
         "highway": "track",
-        "motorcar": "agricultural",
+        "motor_vehicle": "agricultural",
         "surface": "gravel",
         "tracktype": "grade2",
         "width": "2"
@@ -10329,26 +10347,27 @@
     {
       "type": "way",
       "id": 180879792,
-      "timestamp": "2012-09-13T21:52:57Z",
-      "version": 1,
-      "changeset": 13101623,
-      "user": "Stefan Karl",
-      "uid": 101348,
-      "nodes": [332368671, 373133574],
+      "timestamp": "2022-02-15T18:54:55Z",
+      "version": 2,
+      "changeset": 117447879,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
+      "nodes": [332368671, 9508472789],
       "geometry": [
         {"lat": 47.5961319, "lon": 7.6430925},
         {"lat": 47.5961679, "lon": 7.643059},
         {"lat": 47.5961772, "lon": 7.6430076},
         {"lat": 47.5961676, "lon": 7.6428408},
-        {"lat": 47.5961266, "lon": 7.6422768},
-        {"lat": 47.5960551, "lon": 7.6420697},
-        {"lat": 47.5959228, "lon": 7.6419624},
-        {"lat": 47.5958289, "lon": 7.6419356},
-        {"lat": 47.5958032, "lon": 7.6418635},
-        {"lat": 47.5958065, "lon": 7.6415759},
-        {"lat": 47.5958855, "lon": 7.6410811}
+        {"lat": 47.5961209, "lon": 7.642274},
+        {"lat": 47.5961028, "lon": 7.6421922},
+        {"lat": 47.5960684, "lon": 7.6421137},
+        {"lat": 47.5960137, "lon": 7.6420527},
+        {"lat": 47.5958812, "lon": 7.6419749},
+        {"lat": 47.5958333, "lon": 7.6419447},
+        {"lat": 47.5958035, "lon": 7.641873},
+        {"lat": 47.5957985, "lon": 7.6417027}
       ],
-      "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade2"}
+      "tags": {"highway": "track", "surface": "asphalt", "tracktype": "grade1"}
     },
     {
       "type": "way",
@@ -10384,11 +10403,11 @@
     {
       "type": "way",
       "id": 180879796,
-      "timestamp": "2012-09-13T21:52:58Z",
-      "version": 1,
-      "changeset": 13101623,
-      "user": "Stefan Karl",
-      "uid": 101348,
+      "timestamp": "2022-02-15T18:54:55Z",
+      "version": 2,
+      "changeset": 117447879,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
       "nodes": [29400337, 369031699],
       "geometry": [
         {"lat": 47.5980497, "lon": 7.6399597},
@@ -10398,7 +10417,6 @@
       ],
       "tags": {
         "highway": "track",
-        "motorcar": "no",
         "surface": "paved",
         "tracktype": "grade1",
         "width": "2"
@@ -22920,27 +22938,20 @@
     {
       "type": "way",
       "id": 30722869,
-      "timestamp": "2018-01-04T12:37:18Z",
-      "version": 7,
-      "changeset": 55156469,
-      "user": "El-suizo",
-      "uid": 382699,
-      "nodes": [339793120, 339793140],
+      "timestamp": "2022-02-15T18:54:54Z",
+      "version": 8,
+      "changeset": 117447879,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
+      "nodes": [29400338, 339793140],
       "geometry": [
+        {"lat": 47.5972731, "lon": 7.6410351},
         {"lat": 47.5972397, "lon": 7.6409889},
         {"lat": 47.597198, "lon": 7.6408726},
-        {"lat": 47.5971985, "lon": 7.6408296},
-        {"lat": 47.5972119, "lon": 7.6407348},
-        {"lat": 47.5972414, "lon": 7.640568}
+        {"lat": 47.5971931, "lon": 7.6408286},
+        {"lat": 47.5972396, "lon": 7.6405687}
       ],
-      "tags": {
-        "bicycle": "no",
-        "foot": "yes",
-        "highway": "footway",
-        "motorcar": "no",
-        "surface": "unpaved",
-        "width": "1"
-      }
+      "tags": {"highway": "footway", "surface": "paved", "width": "1"}
     },
     {
       "type": "way",
@@ -23998,11 +24009,11 @@
     {
       "type": "way",
       "id": 32765606,
-      "timestamp": "2014-05-04T16:54:24Z",
-      "version": 4,
-      "changeset": 22129779,
-      "user": "q_un_go",
-      "uid": 11374,
+      "timestamp": "2022-02-15T18:54:54Z",
+      "version": 5,
+      "changeset": 117447879,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
       "nodes": [369031699, 29394056],
       "geometry": [
         {"lat": 47.5984696, "lon": 7.6395221},
@@ -24017,37 +24028,38 @@
       ],
       "tags": {
         "highway": "track",
+        "motor_vehicle": "agricultural",
         "name": "Ottilienweg",
         "surface": "paved",
-        "tracktype": "grade1",
-        "vehicle": "agricultural"
+        "tracktype": "grade1"
       }
     },
     {
       "type": "way",
       "id": 32909937,
-      "timestamp": "2009-06-12T20:12:02Z",
-      "version": 3,
-      "changeset": 1499264,
-      "user": "klausis",
-      "uid": 85761,
+      "timestamp": "2022-02-15T18:54:54Z",
+      "version": 4,
+      "changeset": 117447879,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
       "nodes": [339793140, 373133574],
       "geometry": [
-        {"lat": 47.5972414, "lon": 7.640568},
+        {"lat": 47.5972396, "lon": 7.6405687},
         {"lat": 47.5970043, "lon": 7.6407352},
         {"lat": 47.5967701, "lon": 7.640829},
-        {"lat": 47.596425, "lon": 7.6409974},
+        {"lat": 47.596543, "lon": 7.6409242},
+        {"lat": 47.5964205, "lon": 7.6409981},
+        {"lat": 47.5963271, "lon": 7.6410345},
         {"lat": 47.5962366, "lon": 7.6410523},
         {"lat": 47.5961041, "lon": 7.6410633},
-        {"lat": 47.5960011, "lon": 7.641077},
-        {"lat": 47.5958855, "lon": 7.6410811}
+        {"lat": 47.5960056, "lon": 7.6410814},
+        {"lat": 47.5959201, "lon": 7.6410982},
+        {"lat": 47.5958796, "lon": 7.6410818}
       ],
       "tags": {
-        "bicycle": "no",
-        "foot": "yes",
         "highway": "steps",
-        "motorcar": "no",
-        "surface": "unpaved",
+        "incline": "down",
+        "surface": "paved",
         "width": "1"
       }
     },
@@ -24327,11 +24339,11 @@
     {
       "type": "way",
       "id": 33605058,
-      "timestamp": "2020-04-10T14:44:57Z",
-      "version": 8,
-      "changeset": 83370501,
-      "user": "hieronymusescobar",
-      "uid": 6583527,
+      "timestamp": "2022-02-15T18:54:54Z",
+      "version": 9,
+      "changeset": 117447879,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
       "nodes": [369683929, 1049918339],
       "geometry": [
         {"lat": 47.6129161, "lon": 7.6382773},
@@ -24361,7 +24373,7 @@
       ],
       "tags": {
         "highway": "track",
-        "motorcar": "agricultural",
+        "motor_vehicle": "agricultural",
         "name": "Dalcherweg",
         "source:name": "maps4bw (LGL, www.lgl-bw.de)",
         "surface": "paved",
@@ -29049,18 +29061,18 @@
     {
       "type": "way",
       "id": 397796447,
-      "timestamp": "2016-08-27T15:12:20Z",
-      "version": 2,
-      "changeset": 41738022,
-      "user": "SimonPoole",
-      "uid": 92387,
+      "timestamp": "2022-02-15T18:17:32Z",
+      "version": 4,
+      "changeset": 117445719,
+      "user": "hanfi",
+      "uid": 772660,
       "nodes": [290724949, 4369873823],
       "geometry": [
         {"lat": 47.5734596, "lon": 7.6047567},
         {"lat": 47.5734343, "lon": 7.6047862},
         {"lat": 47.5733004, "lon": 7.6047024}
       ],
-      "tags": {"highway": "footway"}
+      "tags": {"highway": "footway", "lit": "yes", "surface": "paving_stones"}
     },
     {
       "type": "way",
@@ -29861,11 +29873,11 @@
     {
       "type": "way",
       "id": 42677222,
-      "timestamp": "2012-09-13T21:53:14Z",
-      "version": 5,
-      "changeset": 13101623,
-      "user": "Stefan Karl",
-      "uid": 101348,
+      "timestamp": "2022-02-15T18:54:54Z",
+      "version": 6,
+      "changeset": 117447879,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
       "nodes": [383900310, 383900319],
       "geometry": [
         {"lat": 47.6063524, "lon": 7.641582},
@@ -29880,7 +29892,7 @@
       ],
       "tags": {
         "highway": "track",
-        "motorcar": "agricultural",
+        "motor_vehicle": "agricultural",
         "surface": "gravel",
         "tracktype": "grade2",
         "width": "2"
@@ -30328,17 +30340,17 @@
     {
       "type": "way",
       "id": 439371381,
-      "timestamp": "2016-08-27T15:11:55Z",
-      "version": 1,
-      "changeset": 41738022,
-      "user": "SimonPoole",
-      "uid": 92387,
+      "timestamp": "2022-02-15T18:18:06Z",
+      "version": 3,
+      "changeset": 117445719,
+      "user": "hanfi",
+      "uid": 772660,
       "nodes": [4369873823, 1503578086],
       "geometry": [
         {"lat": 47.5733004, "lon": 7.6047024},
         {"lat": 47.573236, "lon": 7.6046681}
       ],
-      "tags": {"highway": "footway"}
+      "tags": {"highway": "footway", "lit": "yes", "surface": "asphalt"}
     },
     {
       "type": "way",
@@ -31319,16 +31331,15 @@
     {
       "type": "way",
       "id": 4661992,
-      "timestamp": "2021-12-23T05:19:34Z",
-      "version": 7,
-      "changeset": 115280492,
-      "user": "johsin18",
-      "uid": 210440,
-      "nodes": [29400334, 339793120],
+      "timestamp": "2022-02-15T18:54:54Z",
+      "version": 8,
+      "changeset": 117447879,
+      "user": "Shaun das Schaf",
+      "uid": 1228402,
+      "nodes": [29400334, 29400338],
       "geometry": [
         {"lat": 47.5976798, "lon": 7.6411279},
-        {"lat": 47.5972772, "lon": 7.6410361},
-        {"lat": 47.5972397, "lon": 7.6409889}
+        {"lat": 47.5972731, "lon": 7.6410351}
       ],
       "tags": {"highway": "residential", "name": "Kirchweg"}
     },
@@ -46664,11 +46675,11 @@
     {
       "type": "way",
       "id": 855333416,
-      "timestamp": "2020-10-05T10:10:31Z",
-      "version": 1,
-      "changeset": 91976865,
-      "user": "Joachim Weiß",
-      "uid": 2809304,
+      "timestamp": "2022-02-15T18:18:16Z",
+      "version": 2,
+      "changeset": 117445719,
+      "user": "hanfi",
+      "uid": 772660,
       "nodes": [71469542, 1503578086],
       "geometry": [
         {"lat": 47.5731641, "lon": 7.6049611},
@@ -46677,6 +46688,7 @@
       "tags": {
         "highway": "secondary",
         "lanes": "2",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Fasanenstrasse",
         "surface": "asphalt"

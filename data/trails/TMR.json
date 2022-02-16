@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-13T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-15T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1038,9 +1038,9 @@
     {
       "type": "way",
       "id": 1029286583,
-      "timestamp": "2022-02-08T11:24:18Z",
-      "version": 1,
-      "changeset": 117156117,
+      "timestamp": "2022-02-15T13:18:23Z",
+      "version": 2,
+      "changeset": 117436240,
       "user": "mpmac82",
       "uid": 14867340,
       "nodes": [1436118828, 9489581775],
@@ -1050,7 +1050,7 @@
         {"lat": 45.9705985, "lon": 7.9645479}
       ],
       "tags": {
-        "highway": "unclassified",
+        "highway": "tertiary",
         "name": "Via Chiesa Vecchia",
         "sac_scale": "hiking",
         "surface": "paved"
@@ -1059,9 +1059,9 @@
     {
       "type": "way",
       "id": 1029286584,
-      "timestamp": "2022-02-08T11:24:18Z",
-      "version": 1,
-      "changeset": 117156117,
+      "timestamp": "2022-02-15T13:18:23Z",
+      "version": 2,
+      "changeset": 117436240,
       "user": "mpmac82",
       "uid": 14867340,
       "nodes": [9489581775, 1436118825],
@@ -1071,7 +1071,7 @@
       ],
       "tags": {
         "bridge": "yes",
-        "highway": "unclassified",
+        "highway": "tertiary",
         "layer": "1",
         "name": "Via Chiesa Vecchia",
         "sac_scale": "hiking",
@@ -1278,17 +1278,22 @@
     {
       "type": "way",
       "id": 109713664,
-      "timestamp": "2013-08-03T08:35:30Z",
-      "version": 2,
-      "changeset": 17201093,
-      "user": "mcheckimport",
-      "uid": 893327,
+      "timestamp": "2022-02-15T13:18:23Z",
+      "version": 3,
+      "changeset": 117436240,
+      "user": "mpmac82",
+      "uid": 14867340,
       "nodes": [454100097, 454100098],
       "geometry": [
         {"lat": 45.9643527, "lon": 7.9809551},
         {"lat": 45.9639246, "lon": 7.9805991}
       ],
-      "tags": {"bridge": "yes", "highway": "residential", "layer": "1"}
+      "tags": {
+        "bridge": "yes",
+        "highway": "residential",
+        "layer": "1",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -4014,11 +4019,11 @@
     {
       "type": "way",
       "id": 130364325,
-      "timestamp": "2019-06-01T09:09:54Z",
-      "version": 7,
-      "changeset": 70830888,
-      "user": "Alecs01",
-      "uid": 1476146,
+      "timestamp": "2022-02-15T13:18:23Z",
+      "version": 8,
+      "changeset": 117436240,
+      "user": "mpmac82",
+      "uid": 14867340,
       "nodes": [2445927837, 4585569740],
       "geometry": [
         {"lat": 45.9638789, "lon": 7.9805539},
@@ -4029,8 +4034,9 @@
         {"lat": 45.9635546, "lon": 7.9801636}
       ],
       "tags": {
-        "highway": "unclassified",
+        "highway": "residential",
         "sac_scale": "hiking",
+        "surface": "asphalt",
         "symbol": "red:red:white_stripe:GTA:black",
         "tracktype": "grade2"
       }
@@ -6522,9 +6528,9 @@
     {
       "type": "way",
       "id": 236569278,
-      "timestamp": "2022-02-13T14:54:25Z",
-      "version": 6,
-      "changeset": 117357187,
+      "timestamp": "2022-02-15T13:18:23Z",
+      "version": 7,
+      "changeset": 117436240,
       "user": "mpmac82",
       "uid": 14867340,
       "nodes": [1436118825, 1436118823],
@@ -6536,7 +6542,7 @@
         {"lat": 45.9700551, "lon": 7.9649913}
       ],
       "tags": {
-        "highway": "unclassified",
+        "highway": "tertiary",
         "name": "Via Chiesa Vecchia",
         "sac_scale": "hiking",
         "surface": "asphalt"
@@ -6545,9 +6551,9 @@
     {
       "type": "way",
       "id": 236571413,
-      "timestamp": "2022-02-13T15:10:39Z",
-      "version": 3,
-      "changeset": 117357849,
+      "timestamp": "2022-02-15T13:18:23Z",
+      "version": 4,
+      "changeset": 117436240,
       "user": "mpmac82",
       "uid": 14867340,
       "nodes": [2445928083, 9502787693],
@@ -6562,12 +6568,7 @@
         {"lat": 45.9652746, "lon": 7.9740694},
         {"lat": 45.9651869, "lon": 7.9737582}
       ],
-      "tags": {
-        "highway": "service",
-        "service": "driveway",
-        "surface": "asphalt",
-        "tracktype": "grade2"
-      }
+      "tags": {"highway": "residential", "surface": "asphalt"}
     },
     {
       "type": "way",
@@ -11998,17 +11999,17 @@
     {
       "type": "way",
       "id": 38417287,
-      "timestamp": "2011-04-22T10:15:45Z",
-      "version": 2,
-      "changeset": 7932953,
-      "user": "abbst",
-      "uid": 233422,
+      "timestamp": "2022-02-15T13:18:23Z",
+      "version": 3,
+      "changeset": 117436240,
+      "user": "mpmac82",
+      "uid": 14867340,
       "nodes": [343199803, 454100097],
       "geometry": [
         {"lat": 45.9644332, "lon": 7.9810235},
         {"lat": 45.9643527, "lon": 7.9809551}
       ],
-      "tags": {"highway": "residential"}
+      "tags": {"highway": "residential", "surface": "asphalt"}
     },
     {
       "type": "way",
@@ -15842,19 +15843,20 @@
     {
       "type": "way",
       "id": 613020864,
-      "timestamp": "2018-08-01T13:28:55Z",
-      "version": 1,
-      "changeset": 61264050,
-      "user": "rbon56",
-      "uid": 7903615,
+      "timestamp": "2022-02-15T13:18:23Z",
+      "version": 2,
+      "changeset": 117436240,
+      "user": "mpmac82",
+      "uid": 14867340,
       "nodes": [454100098, 2445927837],
       "geometry": [
         {"lat": 45.9639246, "lon": 7.9805991},
         {"lat": 45.9638789, "lon": 7.9805539}
       ],
       "tags": {
-        "highway": "unclassified",
+        "highway": "residential",
         "sac_scale": "hiking",
+        "surface": "asphalt",
         "tracktype": "grade2"
       }
     },
@@ -20321,9 +20323,9 @@
     {
       "type": "way",
       "id": 986790964,
-      "timestamp": "2022-02-13T15:10:39Z",
-      "version": 2,
-      "changeset": 117357849,
+      "timestamp": "2022-02-15T13:18:23Z",
+      "version": 3,
+      "changeset": 117436240,
       "user": "mpmac82",
       "uid": 14867340,
       "nodes": [2445928083, 2445928097],
@@ -20331,12 +20333,7 @@
         {"lat": 45.9654224, "lon": 7.9755525},
         {"lat": 45.9654742, "lon": 7.9756431}
       ],
-      "tags": {
-        "highway": "service",
-        "service": "driveway",
-        "surface": "asphalt",
-        "tracktype": "grade2"
-      }
+      "tags": {"highway": "residential", "surface": "asphalt"}
     },
     {
       "type": "way",
