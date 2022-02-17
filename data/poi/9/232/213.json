@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-14T23:59:59Z",
-    "timestamp_osm_base": "2022-02-15T04:04:57Z",
+    "timestamp_osm_date": "2022-02-16T23:59:59Z",
+    "timestamp_osm_base": "2022-02-17T03:54:07Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -283,6 +283,28 @@
         "ref:bic": "RI-53-0000591",
         "wikidata": "Q953876",
         "wikipedia": "es:Los Realejos"
+      }
+    },
+    {
+      "type": "node",
+      "id": 275569155,
+      "lat": 28.3443843,
+      "lon": -16.5923936,
+      "timestamp": "2022-02-16T19:41:37Z",
+      "version": 7,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "description": "Roof and picnic table",
+        "ele": "1590",
+        "fireplace": "no",
+        "name": "Choza Piedra de los Pastores",
+        "shelter": "no",
+        "shelter_type": "picnic_shelter",
+        "source": "gps"
       }
     },
     {
@@ -1467,6 +1489,26 @@
     },
     {
       "type": "node",
+      "id": 670422669,
+      "lat": 28.3145863,
+      "lon": -16.5922644,
+      "timestamp": "2022-02-16T19:40:38Z",
+      "version": 6,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "description": "A small church with space for 3 people to sleep, but no door.",
+        "name": "Cruz de Frejel",
+        "religion": "christian",
+        "shelter_type": "lean_to",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "node",
       "id": 673986786,
       "lat": 28.4601264,
       "lon": -16.2545596,
@@ -1605,13 +1647,14 @@
       "id": 701831270,
       "lat": 28.3330221,
       "lon": -16.6169202,
-      "timestamp": "2010-04-19T12:33:23Z",
-      "version": 3,
-      "changeset": 4466909,
-      "user": "Javier Sanchez",
-      "uid": 47882,
+      "timestamp": "2022-02-16T19:39:07Z",
+      "version": 4,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
       "tags": {
         "access": "private",
+        "description": "Door locked.",
         "name": "Refugio los Viveros",
         "operator": "Grupo Montañero la Fortaleza (extinct?)",
         "tourism": "alpine_hut"
@@ -2372,13 +2415,13 @@
       "id": 903016438,
       "lat": 28.3934901,
       "lon": -16.5196284,
-      "timestamp": "2019-12-20T11:41:40Z",
-      "version": 2,
-      "changeset": 78680727,
-      "user": "Begavil84",
-      "uid": 1725439,
+      "timestamp": "2022-02-15T12:27:05Z",
+      "version": 3,
+      "changeset": 117434229,
+      "user": "anttit",
+      "uid": 606416,
       "tags": {
-        "name": "Hiper Dino",
+        "name": "SuperDino",
         "shop": "supermarket"
       }
     },
@@ -3496,20 +3539,6 @@
       "tags": {
         "name": "Área de Acampada Chanajiga",
         "tourism": "camp_site"
-      }
-    },
-    {
-      "type": "node",
-      "id": 1287724139,
-      "lat": 28.3539392,
-      "lon": -16.5911991,
-      "timestamp": "2016-11-05T18:20:44Z",
-      "version": 3,
-      "changeset": 43427699,
-      "user": "Canario",
-      "uid": 212144,
-      "tags": {
-        "amenity": "shelter"
       }
     },
     {
@@ -4795,13 +4824,14 @@
       "id": 1453214014,
       "lat": 28.5228377,
       "lon": -16.3463291,
-      "timestamp": "2011-10-03T00:21:51Z",
-      "version": 1,
-      "changeset": 9456197,
-      "user": "Javier Sanchez",
-      "uid": 47882,
+      "timestamp": "2022-02-16T10:29:11Z",
+      "version": 2,
+      "changeset": 117469866,
+      "user": "MrBlogger",
+      "uid": 2472868,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "check_date": "2022-02-16"
       }
     },
     {
@@ -5574,14 +5604,15 @@
       "id": 1719674200,
       "lat": 28.3498699,
       "lon": -16.7027371,
-      "timestamp": "2021-06-17T18:13:15Z",
-      "version": 2,
-      "changeset": 106546229,
+      "timestamp": "2022-02-16T19:39:24Z",
+      "version": 3,
+      "changeset": 117491073,
       "user": "ceever",
       "uid": 5592573,
       "tags": {
         "barrier": "gate",
         "description": "Nice little lava tube of 200-300 m uphill until you reach a gate or the end.",
+        "fee": "no",
         "fixme": "check position",
         "name": "Boca las Breveritas",
         "natural": "cave_entrance",
@@ -8740,9 +8771,9 @@
       "user": "Javier Sanchez",
       "uid": 47882,
       "tags": {
+        "note:es": "pequeño cono volcanico de no mas de 30 m. de profundidad.",
         "historic": "archaeological_site",
-        "natural": "cave_entrance",
-        "note:es": "pequeño cono volcanico de no mas de 30 m. de profundidad."
+        "natural": "cave_entrance"
       }
     },
     {
@@ -10011,13 +10042,14 @@
       "id": 3798003274,
       "lat": 28.3197226,
       "lon": -16.7393042,
-      "timestamp": "2015-10-22T11:29:51Z",
-      "version": 1,
-      "changeset": 34797484,
-      "user": "Roger Browne",
-      "uid": 36670,
+      "timestamp": "2022-02-16T19:39:00Z",
+      "version": 2,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
       }
     },
     {
@@ -10635,13 +10667,14 @@
       "id": 4611634979,
       "lat": 28.3075481,
       "lon": -16.7771309,
-      "timestamp": "2017-01-16T10:39:13Z",
-      "version": 1,
-      "changeset": 45212418,
-      "user": "Javier Sanchez",
-      "uid": 47882,
+      "timestamp": "2022-02-16T19:40:55Z",
+      "version": 2,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
       }
     },
     {
@@ -13803,6 +13836,1102 @@
       }
     },
     {
+      "type": "node",
+      "id": 9511721129,
+      "lat": 28.3090991,
+      "lon": -16.7784266,
+      "timestamp": "2022-02-16T19:39:28Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511722368,
+      "lat": 28.3290239,
+      "lon": -16.630938,
+      "timestamp": "2022-02-16T19:38:49Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "shelter",
+        "description": "Abandoned house, everything open. Protection from the rain, not the cold. Space for 6-8 mattresses.",
+        "shelter_type": "lean_to"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511722750,
+      "lat": 28.3160064,
+      "lon": -16.7196589,
+      "timestamp": "2022-02-16T19:39:11Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511722751,
+      "lat": 28.3134175,
+      "lon": -16.7736304,
+      "timestamp": "2022-02-16T19:39:17Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511722752,
+      "lat": 28.3207975,
+      "lon": -16.7314611,
+      "timestamp": "2022-02-16T19:39:23Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511723506,
+      "lat": 28.3168526,
+      "lon": -16.7218444,
+      "timestamp": "2022-02-16T19:39:36Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511723788,
+      "lat": 28.3141678,
+      "lon": -16.7554759,
+      "timestamp": "2022-02-16T19:38:57Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511725207,
+      "lat": 28.3160182,
+      "lon": -16.8083023,
+      "timestamp": "2022-02-16T19:39:11Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511725819,
+      "lat": 28.3242676,
+      "lon": -16.6417349,
+      "timestamp": "2022-02-16T19:39:01Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511726780,
+      "lat": 28.3197561,
+      "lon": -16.6941559,
+      "timestamp": "2022-02-16T19:39:39Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511726781,
+      "lat": 28.323334,
+      "lon": -16.6451584,
+      "timestamp": "2022-02-16T19:39:47Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511727441,
+      "lat": 28.3128961,
+      "lon": -16.7585347,
+      "timestamp": "2022-02-16T19:41:28Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Hole in the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511727442,
+      "lat": 28.3178797,
+      "lon": -16.6971933,
+      "timestamp": "2022-02-16T19:41:44Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511729371,
+      "lat": 28.3253346,
+      "lon": -16.6399154,
+      "timestamp": "2022-02-16T19:39:15Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511730713,
+      "lat": 28.3229629,
+      "lon": -16.6460745,
+      "timestamp": "2022-02-16T19:39:19Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511731191,
+      "lat": 28.315799,
+      "lon": -16.7476261,
+      "timestamp": "2022-02-16T19:39:21Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511733381,
+      "lat": 28.3198438,
+      "lon": -16.3725609,
+      "timestamp": "2022-02-16T19:39:29Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "natural": "cave_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511734969,
+      "lat": 28.316764,
+      "lon": -16.7022269,
+      "timestamp": "2022-02-16T19:40:05Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511734974,
+      "lat": 28.3283798,
+      "lon": -16.6325573,
+      "timestamp": "2022-02-16T19:40:40Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511735356,
+      "lat": 28.3145044,
+      "lon": -16.7728681,
+      "timestamp": "2022-02-16T19:39:48Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511735575,
+      "lat": 28.3151996,
+      "lon": -16.767896,
+      "timestamp": "2022-02-16T19:39:36Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511735576,
+      "lat": 28.3273947,
+      "lon": -16.5904115,
+      "timestamp": "2022-02-16T19:39:51Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "shelter",
+        "description": "Sleeping room is locked, but kitchen and fire room are open. Maybe space for 4-8 people for overnighting.",
+        "tourism": "wilderness_hut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511735695,
+      "lat": 28.311975,
+      "lon": -16.7566686,
+      "timestamp": "2022-02-16T19:39:40Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511736391,
+      "lat": 28.3173303,
+      "lon": -16.671499,
+      "timestamp": "2022-02-16T19:39:40Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511737002,
+      "lat": 28.3263786,
+      "lon": -16.6380113,
+      "timestamp": "2022-02-16T19:40:11Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511737575,
+      "lat": 28.3200642,
+      "lon": -16.727081,
+      "timestamp": "2022-02-16T19:39:45Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511737785,
+      "lat": 28.313191,
+      "lon": -16.758461,
+      "timestamp": "2022-02-16T19:40:05Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511739765,
+      "lat": 28.3174703,
+      "lon": -16.6631642,
+      "timestamp": "2022-02-16T19:40:02Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511739918,
+      "lat": 28.3188491,
+      "lon": -16.725297,
+      "timestamp": "2022-02-16T19:40:15Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511740368,
+      "lat": 28.3271203,
+      "lon": -16.6337052,
+      "timestamp": "2022-02-16T19:40:00Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511740369,
+      "lat": 28.3173737,
+      "lon": -16.6896501,
+      "timestamp": "2022-02-16T19:40:12Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511741673,
+      "lat": 28.3185528,
+      "lon": -16.6877192,
+      "timestamp": "2022-02-16T19:40:06Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511741855,
+      "lat": 28.318301,
+      "lon": -16.7102562,
+      "timestamp": "2022-02-16T19:40:00Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511744327,
+      "lat": 28.3176593,
+      "lon": -16.6998658,
+      "timestamp": "2022-02-16T19:40:13Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511745504,
+      "lat": 28.3184912,
+      "lon": -16.6925735,
+      "timestamp": "2022-02-16T19:40:46Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511745701,
+      "lat": 28.338221,
+      "lon": -16.8177236,
+      "timestamp": "2022-02-16T19:40:20Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511746258,
+      "lat": 28.3269309,
+      "lon": -16.636376,
+      "timestamp": "2022-02-16T19:40:31Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511746638,
+      "lat": 28.3177702,
+      "lon": -16.7115808,
+      "timestamp": "2022-02-16T19:40:19Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511747182,
+      "lat": 28.3169997,
+      "lon": -16.6817376,
+      "timestamp": "2022-02-16T19:40:19Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511747183,
+      "lat": 28.3169264,
+      "lon": -16.7148836,
+      "timestamp": "2022-02-16T19:40:24Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511751960,
+      "lat": 28.3175324,
+      "lon": -16.7067578,
+      "timestamp": "2022-02-16T19:40:35Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511752116,
+      "lat": 28.3206821,
+      "lon": -16.6562104,
+      "timestamp": "2022-02-16T19:40:37Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511752236,
+      "lat": 28.3175222,
+      "lon": -16.6737067,
+      "timestamp": "2022-02-16T19:40:39Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511753255,
+      "lat": 28.3153667,
+      "lon": -16.7184253,
+      "timestamp": "2022-02-16T19:40:50Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511753744,
+      "lat": 28.3434269,
+      "lon": -16.8158333,
+      "timestamp": "2022-02-16T19:40:34Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "shelter",
+        "description": "A proper hut - someone slammed the door, so now there is access to the kitchen. Propably owned by someone, but it looks abandoned. Try the phone number to learn more.",
+        "phone": "+34 677599026",
+        "shelter_type": "basic_hut"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511753745,
+      "lat": 28.3173382,
+      "lon": -16.6650372,
+      "timestamp": "2022-02-16T19:40:36Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511753746,
+      "lat": 28.3389111,
+      "lon": -16.8170004,
+      "timestamp": "2022-02-16T19:40:43Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "rock_shelter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511754511,
+      "lat": 28.3273605,
+      "lon": -16.6356166,
+      "timestamp": "2022-02-16T19:41:45Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511754843,
+      "lat": 28.3381143,
+      "lon": -16.818058,
+      "timestamp": "2022-02-16T19:40:41Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "From the \"Galeria\". Always running."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511756807,
+      "lat": 28.3205504,
+      "lon": -16.7287926,
+      "timestamp": "2022-02-16T19:41:07Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511756808,
+      "lat": 28.3129795,
+      "lon": -16.7624948,
+      "timestamp": "2022-02-16T19:41:21Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511758508,
+      "lat": 28.3142891,
+      "lon": -16.7521233,
+      "timestamp": "2022-02-16T19:40:47Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511760060,
+      "lat": 28.311744,
+      "lon": -16.7741406,
+      "timestamp": "2022-02-16T19:40:53Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511761864,
+      "lat": 28.3134859,
+      "lon": -16.7630947,
+      "timestamp": "2022-02-16T19:41:00Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511762801,
+      "lat": 28.3196326,
+      "lon": -16.7366054,
+      "timestamp": "2022-02-16T19:41:41Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511762802,
+      "lat": 28.3234371,
+      "lon": -16.6431318,
+      "timestamp": "2022-02-16T19:41:44Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511764707,
+      "lat": 28.320333,
+      "lon": -16.7334568,
+      "timestamp": "2022-02-16T19:41:21Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511764926,
+      "lat": 28.3676907,
+      "lon": -16.592384,
+      "timestamp": "2022-02-16T19:41:29Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "name": "Man made pits",
+        "natural": "cave_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511764927,
+      "lat": 28.329283,
+      "lon": -16.6310312,
+      "timestamp": "2022-02-16T19:41:36Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511765809,
+      "lat": 28.3168685,
+      "lon": -16.6802016,
+      "timestamp": "2022-02-16T19:41:20Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511765933,
+      "lat": 28.3141416,
+      "lon": -16.7539022,
+      "timestamp": "2022-02-16T19:41:39Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511766406,
+      "lat": 28.306371,
+      "lon": -16.7773447,
+      "timestamp": "2022-02-16T19:41:25Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511766407,
+      "lat": 28.3159183,
+      "lon": -16.7462209,
+      "timestamp": "2022-02-16T19:41:43Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511769424,
+      "lat": 28.3173775,
+      "lon": -16.7030223,
+      "timestamp": "2022-02-16T19:41:31Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511769425,
+      "lat": 28.3183432,
+      "lon": -16.7226574,
+      "timestamp": "2022-02-16T19:41:39Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511769824,
+      "lat": 28.3124206,
+      "lon": -16.7560385,
+      "timestamp": "2022-02-16T19:41:42Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511772089,
+      "lat": 28.3179042,
+      "lon": -16.6844294,
+      "timestamp": "2022-02-16T19:41:31Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511772491,
+      "lat": 28.3174088,
+      "lon": -16.6770118,
+      "timestamp": "2022-02-16T19:41:34Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511774127,
+      "lat": 28.316043,
+      "lon": -16.7166429,
+      "timestamp": "2022-02-16T19:41:49Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511774802,
+      "lat": 28.3214778,
+      "lon": -16.6500915,
+      "timestamp": "2022-02-16T19:41:53Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511774803,
+      "lat": 28.3174266,
+      "lon": -16.6702566,
+      "timestamp": "2022-02-16T19:41:55Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511775295,
+      "lat": 28.3079216,
+      "lon": -16.7775446,
+      "timestamp": "2022-02-16T19:41:52Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
+      "type": "node",
+      "id": 9511775737,
+      "lat": 28.3183568,
+      "lon": -16.6778476,
+      "timestamp": "2022-02-16T19:41:53Z",
+      "version": 1,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
+      "tags": {
+        "amenity": "drinking_water",
+        "description": "Lid on the canal. Always carrying water."
+      }
+    },
+    {
       "type": "way",
       "id": 26490196,
       "timestamp": "2021-12-24T12:07:50Z",
@@ -14499,11 +15628,11 @@
     {
       "type": "way",
       "id": 306458075,
-      "timestamp": "2016-11-05T18:20:43Z",
-      "version": 2,
-      "changeset": 43427699,
-      "user": "Canario",
-      "uid": 212144,
+      "timestamp": "2022-02-16T19:40:04Z",
+      "version": 3,
+      "changeset": 117491073,
+      "user": "ceever",
+      "uid": 5592573,
       "center": {
         "lat": 28.3552504,
         "lon": -16.5948445
@@ -14512,8 +15641,8 @@
       "tags": {
         "amenity": "shelter",
         "building": "yes",
+        "description": "Fireplace, 2 benches, no door. Ground space for 3-5 people.",
         "name": "Choza Viera y Clavijo",
-        "ruins": "yes",
         "shelter_type": "basic_hut"
       }
     },
