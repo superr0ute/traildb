@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-12T02:39:10Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-18T02:35:48Z"},
   "elements": [
     {
       "type": "relation",
@@ -35,11 +35,11 @@
     {
       "type": "relation",
       "id": 12484370,
-      "timestamp": "2022-02-11T17:50:35Z",
-      "version": 10,
-      "changeset": 117297256,
-      "user": "PhilLL",
-      "uid": 1710208,
+      "timestamp": "2022-02-17T09:42:32Z",
+      "version": 11,
+      "changeset": 117511350,
+      "user": "Hervé TUC",
+      "uid": 922338,
       "members": [
         {"type": "node", "ref": 1944206724, "role": ""},
         {"type": "way", "ref": 686156389, "role": ""},
@@ -80,6 +80,7 @@
         {"type": "way", "ref": 945129438, "role": ""},
         {"type": "way", "ref": 37538175, "role": ""},
         {"type": "way", "ref": 87654619, "role": ""},
+        {"type": "way", "ref": 1032506055, "role": ""},
         {"type": "way", "ref": 437752733, "role": ""},
         {"type": "way", "ref": 437752734, "role": ""},
         {"type": "way", "ref": 400213130, "role": ""},
@@ -514,6 +515,23 @@
         "sac_scale": "mountain_hiking",
         "trail_visibility": "good"
       }
+    },
+    {
+      "type": "way",
+      "id": 1032506055,
+      "timestamp": "2022-02-17T09:42:32Z",
+      "version": 1,
+      "changeset": 117511350,
+      "user": "Hervé TUC",
+      "uid": 922338,
+      "nodes": [283716356, 283716365],
+      "geometry": [
+        {"lat": 42.2864034, "lon": 8.8946798, "z": 1408.1},
+        {"lat": 42.2864212, "lon": 8.8943714, "z": 1407.2},
+        {"lat": 42.2864579, "lon": 8.8937733, "z": 1405.8},
+        {"lat": 42.2865006, "lon": 8.893126, "z": 1407.6}
+      ],
+      "tags": {"highway": "secondary", "ref": "D 84", "source": "survey"}
     },
     {
       "type": "way",
@@ -12135,16 +12153,13 @@
     {
       "type": "way",
       "id": 87654619,
-      "timestamp": "2021-10-04T22:40:40Z",
-      "version": 7,
-      "changeset": 112097528,
-      "user": "mytrails92",
-      "uid": 13561022,
-      "nodes": [283716356, 283716393],
+      "timestamp": "2022-02-17T09:42:32Z",
+      "version": 8,
+      "changeset": 117511350,
+      "user": "Hervé TUC",
+      "uid": 922338,
+      "nodes": [283716365, 283716393],
       "geometry": [
-        {"lat": 42.2864034, "lon": 8.8946798, "z": 1408.1},
-        {"lat": 42.2864212, "lon": 8.8943714, "z": 1407.2},
-        {"lat": 42.2864579, "lon": 8.8937733, "z": 1405.8},
         {"lat": 42.2865006, "lon": 8.893126, "z": 1407.6},
         {"lat": 42.2865253, "lon": 8.8928318, "z": 1408.9},
         {"lat": 42.286561, "lon": 8.8924051, "z": 1411},
