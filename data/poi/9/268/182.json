@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-16T23:59:59Z",
-    "timestamp_osm_base": "2022-02-17T04:25:32Z",
+    "timestamp_osm_date": "2022-02-17T23:59:59Z",
+    "timestamp_osm_base": "2022-02-18T04:37:42Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9951,12 +9951,12 @@
       "uid": 69717,
       "tags": {
         "alt_name": "Poncion di Laglio",
+        "wikipedia": "it:Monte Colmegnone",
+        "source:alt_name": "CTR al tratto",
         "ele": "1378",
         "name": "Monte Colmegnone",
         "natural": "peak",
-        "source:alt_name": "CTR al tratto",
-        "wikidata": "Q3861462",
-        "wikipedia": "it:Monte Colmegnone"
+        "wikidata": "Q3861462"
       }
     },
     {
@@ -18695,31 +18695,31 @@
       "id": 1586387610,
       "lat": 45.8773006,
       "lon": 9.1186054,
-      "timestamp": "2012-01-11T23:45:21Z",
-      "version": 1,
-      "changeset": 10365800,
+      "timestamp": "2022-02-17T19:29:33Z",
+      "version": 2,
+      "changeset": 117535177,
       "user": "kaitu",
       "uid": 69717,
       "tags": {
         "ele": "782",
-        "name": "Monti di Carate",
+        "name": "Monte di Carate",
         "place": "hamlet",
-        "source": "PCN ortofoto a colori 2006",
         "source:name": "cartello giallo in loco, della associazione pro Monte di Carate"
       }
     },
     {
       "type": "node",
       "id": 1586387718,
-      "lat": 45.8774041,
-      "lon": 9.1184095,
-      "timestamp": "2012-01-11T23:45:29Z",
-      "version": 1,
-      "changeset": 10365800,
+      "lat": 45.8774277,
+      "lon": 9.1183827,
+      "timestamp": "2022-02-17T19:29:33Z",
+      "version": 2,
+      "changeset": 117535177,
       "user": "kaitu",
       "uid": 69717,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "outdoor": "yes"
       }
     },
     {
@@ -18865,12 +18865,13 @@
       "id": 1595616220,
       "lat": 45.8726755,
       "lon": 9.1053426,
-      "timestamp": "2012-01-18T00:13:33Z",
-      "version": 1,
-      "changeset": 10423667,
+      "timestamp": "2022-02-17T17:35:31Z",
+      "version": 2,
+      "changeset": 117531588,
       "user": "kaitu",
       "uid": 69717,
       "tags": {
+        "image": "https://commons.wikimedia.org/wiki/File:Monte_di_Urio_visto_da_Quena.jpg",
         "name": "Monte di Urio di sotto",
         "place": "hamlet",
         "source": "PCN ortofoto a colori 2006",
@@ -53207,18 +53208,22 @@
       "id": 7726072547,
       "lat": 45.6684238,
       "lon": 8.7961596,
-      "timestamp": "2020-07-18T08:03:35Z",
-      "version": 1,
-      "changeset": 88169747,
-      "user": "Alecs01",
-      "uid": 1476146,
+      "timestamp": "2022-02-17T07:58:19Z",
+      "version": 2,
+      "changeset": 117507098,
+      "user": "airon90",
+      "uid": 89897,
       "tags": {
         "addr:city": "Gallarate",
         "addr:country": "IT",
         "addr:housenumber": "16",
         "addr:postcode": "21013",
         "addr:street": "Via Raffaello Sanzio",
-        "name": "Natura Sì",
+        "brand": "NaturaSì",
+        "brand:wikidata": "Q60840755",
+        "brand:wikipedia": "it:NaturaSì",
+        "name": "NaturaSì",
+        "organic": "only",
         "shop": "convenience"
       }
     },
@@ -60926,6 +60931,25 @@
       "uid": 276055,
       "tags": {
         "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9512941204,
+      "lat": 45.6989905,
+      "lon": 8.8052046,
+      "timestamp": "2022-02-17T07:27:25Z",
+      "version": 1,
+      "changeset": 117505830,
+      "user": "airon90",
+      "uid": 89897,
+      "tags": {
+        "addr:city": "Cavaria con Premezzo",
+        "addr:housenumber": "76",
+        "addr:postcode": "21044",
+        "addr:street": "Via Venticinque Aprile",
+        "name": "Albari",
+        "shop": "convenience"
       }
     },
     {
@@ -70222,6 +70246,29 @@
         "amenity": "shelter",
         "building": "yes",
         "shelter_type": "gazebo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1032634075,
+      "timestamp": "2022-02-17T16:42:40Z",
+      "version": 1,
+      "changeset": 117529713,
+      "user": "DnaX",
+      "uid": 69259,
+      "center": {
+        "lat": 45.5920662,
+        "lon": 8.9363399
+      },
+      "nodes": [],
+      "tags": {
+        "addr:street": "Via Sempione",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "yes",
+        "name": "Lidl",
+        "shop": "supermarket"
       }
     }
   ]
