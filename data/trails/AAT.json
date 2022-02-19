@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-16T02:31:13Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-19T02:30:22Z"},
   "elements": [
     {
       "type": "relation",
       "id": 12684904,
-      "timestamp": "2021-10-10T17:39:33Z",
-      "version": 12,
-      "changeset": 112343090,
-      "user": "cristiano manni",
-      "uid": 2139740,
+      "timestamp": "2022-02-18T10:34:44Z",
+      "version": 13,
+      "changeset": 117558079,
+      "user": "voschix",
+      "uid": 305001,
       "members": [
         {"type": "way", "ref": 238773257, "role": ""},
         {"type": "way", "ref": 238773329, "role": ""},
@@ -53,6 +53,7 @@
         {"type": "way", "ref": 940526654, "role": ""},
         {"type": "way", "ref": 185445619, "role": ""},
         {"type": "way", "ref": 68335089, "role": ""},
+        {"type": "way", "ref": 1032864009, "role": ""},
         {"type": "way", "ref": 68335090, "role": ""},
         {"type": "way", "ref": 68335088, "role": ""},
         {"type": "way", "ref": 940526655, "role": ""},
@@ -2970,6 +2971,27 @@
         "sidewalk": "left",
         "source:maxspeed": "IT:urban",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1032864009,
+      "timestamp": "2022-02-18T10:34:44Z",
+      "version": 1,
+      "changeset": 117558079,
+      "user": "voschix",
+      "uid": 305001,
+      "nodes": [9516210359, 822751494],
+      "geometry": [
+        {"lat": 46.5072014, "lon": 13.5362143, "z": 808.3},
+        {"lat": 46.5072862, "lon": 13.5361918, "z": 808.3}
+      ],
+      "tags": {
+        "highway": "footway",
+        "layer": "-1",
+        "surface": "paving_stones",
+        "tunnel": "yes",
+        "width": "3"
       }
     },
     {
@@ -12638,11 +12660,11 @@
     {
       "type": "way",
       "id": 172264042,
-      "timestamp": "2014-07-13T13:50:32Z",
-      "version": 6,
-      "changeset": 24120599,
-      "user": "spietsnaz",
-      "uid": 2152895,
+      "timestamp": "2022-02-18T14:19:07Z",
+      "version": 7,
+      "changeset": 117566884,
+      "user": "Cascafico",
+      "uid": 361003,
       "nodes": [1831867058, 1586172316],
       "geometry": [
         {"lat": 45.9995359, "lon": 13.5238241, "z": 92.8},
@@ -12656,7 +12678,8 @@
         "maxspeed": "90",
         "name": "Zadružna cesta",
         "oneway": "no",
-        "ref": "402"
+        "ref": "402",
+        "surface": "asphalt"
       }
     },
     {
@@ -15168,8 +15191,8 @@
       "uid": 966268,
       "nodes": [1960321590, 822751496],
       "geometry": [
-        {"lat": 46.5075672, "lon": 13.5361594, "z": 808.3},
-        {"lat": 46.5074181, "lon": 13.5361718, "z": 808.3}
+        {"lat": 46.5075875, "lon": 13.536154, "z": 808.3},
+        {"lat": 46.5074329, "lon": 13.5361718, "z": 808.3}
       ],
       "tags": {"highway": "service"}
     },
@@ -15611,7 +15634,7 @@
       "nodes": [1968555263, 1212681590],
       "geometry": [
         {"lat": 46.5047898, "lon": 13.5405791, "z": 840.6},
-        {"lat": 46.5047337, "lon": 13.5406321, "z": 840.9}
+        {"lat": 46.5047595, "lon": 13.5405945, "z": 840.7}
       ],
       "tags": {"highway": "unclassified", "name": "Via Lussari"}
     },
@@ -16978,9 +17001,9 @@
       "uid": 966268,
       "nodes": [1212681590, 1212681581],
       "geometry": [
-        {"lat": 46.5047337, "lon": 13.5406321, "z": 840.9},
-        {"lat": 46.5047014, "lon": 13.5406218, "z": 841.2},
-        {"lat": 46.5045988, "lon": 13.5405894, "z": 842.1}
+        {"lat": 46.5047595, "lon": 13.5405945, "z": 840.7},
+        {"lat": 46.5047051, "lon": 13.5405977, "z": 841.2},
+        {"lat": 46.5046437, "lon": 13.540585, "z": 841.8}
       ],
       "tags": {"highway": "unclassified", "name": "Via Lussari"}
     },
@@ -17508,18 +17531,19 @@
     {
       "type": "way",
       "id": 197202218,
-      "timestamp": "2012-12-19T17:05:31Z",
-      "version": 1,
-      "changeset": 14333632,
-      "user": "sponge",
-      "uid": 966268,
+      "timestamp": "2022-02-18T10:34:44Z",
+      "version": 2,
+      "changeset": 117558079,
+      "user": "voschix",
+      "uid": 305001,
       "nodes": [1212681581, 822739805],
       "geometry": [
-        {"lat": 46.5045988, "lon": 13.5405894, "z": 842.1},
-        {"lat": 46.5045679, "lon": 13.5405744, "z": 842.4},
-        {"lat": 46.5044773, "lon": 13.5405391, "z": 843.3},
-        {"lat": 46.5043152, "lon": 13.5404458, "z": 844.9},
-        {"lat": 46.5041571, "lon": 13.5402984, "z": 846.8}
+        {"lat": 46.5046437, "lon": 13.540585, "z": 841.8},
+        {"lat": 46.5045772, "lon": 13.5405609, "z": 842.4},
+        {"lat": 46.5044766, "lon": 13.5405019, "z": 843.4},
+        {"lat": 46.5043271, "lon": 13.5404134, "z": 844.9},
+        {"lat": 46.5042394, "lon": 13.5403664, "z": 845.8},
+        {"lat": 46.5041589, "lon": 13.5403225, "z": 846.7}
       ],
       "tags": {"highway": "unclassified", "name": "Via Lussari"}
     },
@@ -17546,15 +17570,16 @@
     {
       "type": "way",
       "id": 197217370,
-      "timestamp": "2018-07-31T17:06:52Z",
-      "version": 4,
-      "changeset": 61236019,
-      "user": "Gianfranco2014",
-      "uid": 1928626,
+      "timestamp": "2022-02-18T10:34:44Z",
+      "version": 5,
+      "changeset": 117558079,
+      "user": "voschix",
+      "uid": 305001,
       "nodes": [822739805, 403504831],
       "geometry": [
-        {"lat": 46.5041571, "lon": 13.5402984, "z": 846.8},
-        {"lat": 46.5039191, "lon": 13.5402914, "z": 849.1},
+        {"lat": 46.5041589, "lon": 13.5403225, "z": 846.7},
+        {"lat": 46.50404, "lon": 13.540298, "z": 847.9},
+        {"lat": 46.5039209, "lon": 13.5402981, "z": 849},
         {"lat": 46.5037004, "lon": 13.5403313, "z": 851.4},
         {"lat": 46.5035055, "lon": 13.5403735, "z": 854},
         {"lat": 46.5034217, "lon": 13.5404059, "z": 855.1},
@@ -32041,11 +32066,11 @@
     {
       "type": "way",
       "id": 27813152,
-      "timestamp": "2020-07-07T19:37:56Z",
-      "version": 11,
-      "changeset": 87671734,
-      "user": "Gabriele Dri",
-      "uid": 3821761,
+      "timestamp": "2022-02-18T14:10:03Z",
+      "version": 13,
+      "changeset": 117566937,
+      "user": "Cascafico",
+      "uid": 361003,
       "nodes": [272341562, 272341573],
       "geometry": [
         {"lat": 45.9568681, "lon": 13.4834011, "z": 57.5},
@@ -32067,13 +32092,15 @@
       ],
       "tags": {
         "highway": "tertiary",
+        "lane_markings": "no",
         "maxspeed": "90",
         "name": "Via Subida",
         "name:sl": "Subid",
         "old_ref": "SS409",
         "ref": "SR409",
         "reg_ref": "Strada Statale di Plessiva",
-        "source:maxspeed": "IT:rural"
+        "source:maxspeed": "IT:rural",
+        "surface": "asphalt"
       }
     },
     {
@@ -64032,24 +64059,32 @@
       "nodes": [822751494, 822751496],
       "geometry": [
         {"lat": 46.5072862, "lon": 13.5361918, "z": 808.3},
-        {"lat": 46.5074181, "lon": 13.5361718, "z": 808.3}
+        {"lat": 46.5074329, "lon": 13.5361718, "z": 808.3}
       ],
       "tags": {"highway": "footway", "surface": "paving_stones"}
     },
     {
       "type": "way",
       "id": 68335090,
-      "timestamp": "2021-05-10T12:38:18Z",
-      "version": 2,
-      "changeset": 104452719,
+      "timestamp": "2022-02-18T10:34:44Z",
+      "version": 3,
+      "changeset": 117558079,
       "user": "voschix",
       "uid": 305001,
-      "nodes": [822751491, 822751494],
+      "nodes": [822751491, 9516210359],
       "geometry": [
         {"lat": 46.5071737, "lon": 13.5362216, "z": 808.3},
-        {"lat": 46.5072862, "lon": 13.5361918, "z": 808.3}
+        {"lat": 46.5072014, "lon": 13.5362143, "z": 808.3}
       ],
-      "tags": {"highway": "footway", "surface": "paving_stones"}
+      "tags": {
+        "handrail": "no",
+        "highway": "steps",
+        "incline": "down",
+        "ramp": "no",
+        "step_count": "13",
+        "surface": "paving_stones",
+        "width": "3"
+      }
     },
     {
       "type": "way",
@@ -74299,8 +74334,8 @@
       "geometry": [
         {"lat": 46.5075027, "lon": 13.5341737, "z": 803.4},
         {"lat": 46.5075346, "lon": 13.5350298, "z": 805.7},
-        {"lat": 46.507539, "lon": 13.5356567, "z": 807.2},
-        {"lat": 46.5075672, "lon": 13.5361594, "z": 808.3}
+        {"lat": 46.5075658, "lon": 13.5356567, "z": 807.2},
+        {"lat": 46.5075875, "lon": 13.536154, "z": 808.3}
       ],
       "tags": {
         "highway": "service",
