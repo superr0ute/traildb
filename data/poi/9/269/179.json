@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-18T23:59:59Z",
-    "timestamp_osm_base": "2022-02-19T04:37:12Z",
+    "timestamp_osm_date": "2022-02-19T23:59:59Z",
+    "timestamp_osm_base": "2022-02-20T04:35:29Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -10,14 +10,30 @@
       "id": 26860577,
       "lat": 47.3066078,
       "lon": 9.1942802,
-      "timestamp": "2013-01-03T15:51:50Z",
-      "version": 3,
-      "changeset": 14514143,
-      "user": "tf66",
-      "uid": 266672,
+      "timestamp": "2022-02-19T17:03:41Z",
+      "version": 5,
+      "changeset": 117612538,
+      "user": "Philipp Thoma",
+      "uid": 15125069,
       "tags": {
+        "access": "customers",
+        "addr:city": "Bächli (Hemberg)",
+        "addr:housenumber": "9",
+        "addr:postcode": "9633",
+        "addr:street": "Wisstrasse",
+        "capacity:caravans": "70",
+        "email": "info@camping-baechli.ch",
+        "fee": "yes",
         "name": "Bächli",
-        "tourism": "camp_site"
+        "operator": "Familie Thoma",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "stars": "4",
+        "tourism": "camp_site",
+        "website": "www.camping-baechli.ch"
       }
     },
     {
@@ -18888,12 +18904,12 @@
       "type": "node",
       "id": 2299964659,
       "lat": 47.3625141,
-      "lon": 9.4545856,
-      "timestamp": "2013-05-11T18:21:02Z",
-      "version": 1,
-      "changeset": 16080557,
-      "user": "nicreg",
-      "uid": 1438832,
+      "lon": 9.4545768,
+      "timestamp": "2022-02-19T08:01:08Z",
+      "version": 2,
+      "changeset": 117594256,
+      "user": "sk94",
+      "uid": 469696,
       "tags": {
         "amenity": "drinking_water"
       }
@@ -40092,9 +40108,9 @@
     {
       "type": "way",
       "id": 25281276,
-      "timestamp": "2021-11-04T13:17:43Z",
-      "version": 9,
-      "changeset": 113370081,
+      "timestamp": "2022-02-19T12:23:08Z",
+      "version": 10,
+      "changeset": 117601718,
       "user": "mcliquid",
       "uid": 1213571,
       "center": {
@@ -40111,7 +40127,7 @@
         "brand": "Hofer",
         "brand:wikidata": "Q15815751",
         "brand:wikipedia": "de:Hofer KG",
-        "building": "yes",
+        "building": "retail",
         "building:levels": "1",
         "contact:website": "https://www.hofer.at",
         "name": "Hofer",
@@ -40851,9 +40867,9 @@
     {
       "type": "way",
       "id": 81676055,
-      "timestamp": "2021-08-06T13:09:11Z",
-      "version": 5,
-      "changeset": 109262289,
+      "timestamp": "2022-02-19T02:38:23Z",
+      "version": 6,
+      "changeset": 117589040,
       "user": "bsvka",
       "uid": 11236721,
       "center": {
@@ -40862,7 +40878,6 @@
       },
       "nodes": [],
       "tags": {
-        "opening_hours": "Mo-Tu 7:30-12:00;13:30-18:30, We 7:30-12:00, Th-Fr 7:30-12:00;13:30-18:30, Sa 7:30-16:00",
         "addr:city": "St. Margrethen",
         "addr:country": "CH",
         "addr:housenumber": "8",
@@ -40871,6 +40886,7 @@
         "email": "molkicaviezel@bluewin.ch",
         "fax": "+41 71 744 09 87",
         "name": "Molkerei Caviezel",
+        "opening_hours": "Mo-Tu 07:30-12:00, 13:30-18:30; We 07:30-12:00; Th-Fr 07:30-12:00, 13:30-18:30; Sa 07:30-16:00",
         "phone": "+41 71 744 13 87",
         "shop": "convenience",
         "source": "Geoimage.at",
@@ -45705,9 +45721,9 @@
     {
       "type": "way",
       "id": 265793995,
-      "timestamp": "2021-09-26T15:42:44Z",
-      "version": 5,
-      "changeset": 111728444,
+      "timestamp": "2022-02-19T01:42:10Z",
+      "version": 6,
+      "changeset": 117588381,
       "user": "bsvka",
       "uid": 11236721,
       "center": {
@@ -45716,14 +45732,17 @@
       },
       "nodes": [],
       "tags": {
-        "wheelchair": "yes",
-        "shop": "supermarket",
-        "name": "Landi",
         "addr:city": "Oberbüren",
         "addr:housenumber": "24",
         "addr:postcode": "9245",
         "addr:street": "Sandackerstrasse",
-        "building": "yes"
+        "brand": "Landi",
+        "brand:wikidata": "Q1803010",
+        "brand:wikipedia": "de:Landi (Unternehmen)",
+        "building": "yes",
+        "name": "Landi",
+        "shop": "supermarket",
+        "wheelchair": "yes"
       }
     },
     {
