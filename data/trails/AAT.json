@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-21T02:27:23Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-22T02:27:18Z"},
   "elements": [
     {
       "type": "relation",
@@ -115,11 +115,11 @@
     {
       "type": "relation",
       "id": 3176522,
-      "timestamp": "2022-02-15T08:02:37Z",
-      "version": 688,
-      "changeset": 117423547,
-      "user": "micheleOSM3",
-      "uid": 3538539,
+      "timestamp": "2022-02-21T19:41:53Z",
+      "version": 689,
+      "changeset": 117698447,
+      "user": "iiizio",
+      "uid": 45073,
       "members": [
         {"type": "node", "ref": 2911861581, "role": ""},
         {"type": "node", "ref": 2912812289, "role": ""},
@@ -1893,6 +1893,7 @@
         {"type": "way", "ref": 27198717, "role": ""},
         {"type": "way", "ref": 27174263, "role": ""},
         {"type": "way", "ref": 35101459, "role": ""},
+        {"type": "way", "ref": 1033956173, "role": ""},
         {"type": "way", "ref": 27762415, "role": ""},
         {"type": "way", "ref": 34591576, "role": ""},
         {"type": "way", "ref": 24995758, "role": ""},
@@ -3021,6 +3022,26 @@
         "surface": "asphalt",
         "wheelchair": "yes",
         "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1033956173,
+      "timestamp": "2022-02-21T19:41:53Z",
+      "version": 1,
+      "changeset": 117698447,
+      "user": "iiizio",
+      "uid": 45073,
+      "nodes": [9525362244, 298163210],
+      "geometry": [
+        {"lat": 45.9266947, "lon": 13.5276806, "z": 51},
+        {"lat": 45.9269237, "lon": 13.527579, "z": 51.3},
+        {"lat": 45.9274635, "lon": 13.5274226, "z": 52.2}
+      ],
+      "tags": {
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Via Gavinana"
       }
     },
     {
@@ -27923,9 +27944,9 @@
     {
       "type": "way",
       "id": 24995851,
-      "timestamp": "2014-01-30T17:34:41Z",
-      "version": 13,
-      "changeset": 20287029,
+      "timestamp": "2022-02-21T19:41:53Z",
+      "version": 14,
+      "changeset": 117698447,
       "user": "iiizio",
       "uid": 45073,
       "nodes": [271732887, 271733366],
@@ -27940,7 +27961,7 @@
         {"lat": 45.9319896, "lon": 13.5260434, "z": 52.5},
         {"lat": 45.932083, "lon": 13.5260872, "z": 52.4}
       ],
-      "tags": {"highway": "tertiary", "name": "Via Udine"}
+      "tags": {"highway": "tertiary", "maxspeed": "30", "name": "Via Udine"}
     },
     {
       "type": "way",
@@ -27975,11 +27996,11 @@
     {
       "type": "way",
       "id": 25043913,
-      "timestamp": "2019-03-23T21:22:36Z",
-      "version": 6,
-      "changeset": 68455689,
-      "user": "Map47",
-      "uid": 11976,
+      "timestamp": "2022-02-21T19:41:53Z",
+      "version": 7,
+      "changeset": 117698447,
+      "user": "iiizio",
+      "uid": 45073,
       "nodes": [271733366, 272452041],
       "geometry": [
         {"lat": 45.932083, "lon": 13.5260872, "z": 52.4},
@@ -27989,7 +28010,7 @@
       ],
       "tags": {
         "highway": "residential",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Via del Boschetto",
         "oneway": "yes"
       }
@@ -31050,26 +31071,30 @@
     {
       "type": "way",
       "id": 27174263,
-      "timestamp": "2013-02-13T19:30:36Z",
-      "version": 9,
-      "changeset": 15021813,
-      "user": "damjang",
-      "uid": 97922,
+      "timestamp": "2022-02-21T19:41:53Z",
+      "version": 10,
+      "changeset": 117698447,
+      "user": "iiizio",
+      "uid": 45073,
       "nodes": [271732886, 304969028],
       "geometry": [
         {"lat": 45.9300808, "lon": 13.5267799, "z": 53},
         {"lat": 45.9298832, "lon": 13.5269021, "z": 53}
       ],
-      "tags": {"highway": "unclassified", "name": "Piazza Montesanto"}
+      "tags": {
+        "highway": "unclassified",
+        "maxspeed": "30",
+        "name": "Piazza Montesanto"
+      }
     },
     {
       "type": "way",
       "id": 27183671,
-      "timestamp": "2015-12-19T17:42:42Z",
-      "version": 4,
-      "changeset": 36051164,
-      "user": "Marco_T",
-      "uid": 1227619,
+      "timestamp": "2022-02-21T19:41:53Z",
+      "version": 5,
+      "changeset": 117698447,
+      "user": "iiizio",
+      "uid": 45073,
       "nodes": [272452041, 272452328],
       "geometry": [
         {"lat": 45.9325899, "lon": 13.5265647, "z": 51.8},
@@ -31081,7 +31106,7 @@
       ],
       "tags": {
         "highway": "residential",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Via Boschetto"
       }
     },
@@ -31122,11 +31147,11 @@
     {
       "type": "way",
       "id": 27198717,
-      "timestamp": "2016-12-15T06:28:15Z",
-      "version": 5,
-      "changeset": 44415114,
-      "user": "Igorzo",
-      "uid": 2842498,
+      "timestamp": "2022-02-21T19:41:53Z",
+      "version": 6,
+      "changeset": 117698447,
+      "user": "iiizio",
+      "uid": 45073,
       "nodes": [271732886, 271732887],
       "geometry": [
         {"lat": 45.9300808, "lon": 13.5267799, "z": 53},
@@ -31137,7 +31162,7 @@
       ],
       "tags": {
         "highway": "secondary",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Via Udine",
         "ref": "SP5",
         "source:maxspeed": "IT:urban"
@@ -32001,12 +32026,12 @@
     {
       "type": "way",
       "id": 27762415,
-      "timestamp": "2014-07-23T21:19:46Z",
-      "version": 6,
-      "changeset": 24320681,
-      "user": "Marco_T",
-      "uid": 1227619,
-      "nodes": [299306004, 298163210],
+      "timestamp": "2022-02-21T19:41:53Z",
+      "version": 7,
+      "changeset": 117698447,
+      "user": "iiizio",
+      "uid": 45073,
+      "nodes": [299306004, 9525362244],
       "geometry": [
         {"lat": 45.9214651, "lon": 13.5295819, "z": 48.8},
         {"lat": 45.9215718, "lon": 13.5295547, "z": 48.8},
@@ -32019,8 +32044,7 @@
         {"lat": 45.9250237, "lon": 13.528538, "z": 49.4},
         {"lat": 45.926143, "lon": 13.5279588, "z": 50.2},
         {"lat": 45.9263991, "lon": 13.5278282, "z": 50.6},
-        {"lat": 45.9269237, "lon": 13.527579, "z": 51.3},
-        {"lat": 45.9274635, "lon": 13.5274226, "z": 52.2}
+        {"lat": 45.9266947, "lon": 13.5276806, "z": 51}
       ],
       "tags": {
         "highway": "residential",
@@ -45675,11 +45699,11 @@
     {
       "type": "way",
       "id": 35101459,
-      "timestamp": "2014-07-23T21:19:47Z",
-      "version": 4,
-      "changeset": 24320681,
-      "user": "Marco_T",
-      "uid": 1227619,
+      "timestamp": "2022-02-21T19:41:53Z",
+      "version": 5,
+      "changeset": 117698447,
+      "user": "iiizio",
+      "uid": 45073,
       "nodes": [298163210, 304969028],
       "geometry": [
         {"lat": 45.9274635, "lon": 13.5274226, "z": 52.2},
@@ -45694,7 +45718,7 @@
       ],
       "tags": {
         "highway": "residential",
-        "maxspeed": "50",
+        "maxspeed": "30",
         "name": "Via Gavinana"
       }
     },

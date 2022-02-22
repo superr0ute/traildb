@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-19T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-21T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11123868,
-      "timestamp": "2022-02-19T20:51:41Z",
-      "version": 194,
-      "changeset": 117619082,
-      "user": "hatul",
-      "uid": 686490,
+      "timestamp": "2022-02-21T11:33:46Z",
+      "version": 195,
+      "changeset": 117677333,
+      "user": "Car162",
+      "uid": 12223802,
       "members": [
         {"type": "way", "ref": 723053761, "role": ""},
         {"type": "way", "ref": 853340709, "role": ""},
@@ -1083,6 +1083,7 @@
         {"type": "way", "ref": 397074447, "role": ""},
         {"type": "way", "ref": 397074444, "role": ""},
         {"type": "way", "ref": 397074412, "role": ""},
+        {"type": "way", "ref": 1033799579, "role": ""},
         {"type": "way", "ref": 397074410, "role": ""},
         {"type": "way", "ref": 397074398, "role": ""},
         {"type": "way", "ref": 816093606, "role": ""},
@@ -3292,6 +3293,26 @@
         "name:he": "שביל עוטף מבשרת ציון",
         "surface": "asphalt",
         "tracktype": "grade3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1033799579,
+      "timestamp": "2022-02-21T11:33:46Z",
+      "version": 1,
+      "changeset": 117677333,
+      "user": "Car162",
+      "uid": 12223802,
+      "nodes": [3998986200, 3998986166],
+      "geometry": [
+        {"lat": 31.7938719, "lon": 35.1650118},
+        {"lat": 31.7938382, "lon": 35.1651295}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "colour": "blue",
+        "highway": "path",
+        "layer": "1"
       }
     },
     {
@@ -21603,11 +21624,11 @@
     {
       "type": "way",
       "id": 317667214,
-      "timestamp": "2018-09-21T05:40:35Z",
-      "version": 5,
-      "changeset": 62784094,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-02-21T15:04:48Z",
+      "version": 6,
+      "changeset": 117686114,
+      "user": "ggefen",
+      "uid": 13394920,
       "nodes": [715125756, 715125761],
       "geometry": [
         {"lat": 31.151082, "lon": 35.346209},
@@ -21618,6 +21639,7 @@
         {"lat": 31.150671, "lon": 35.346287},
         {"lat": 31.150653, "lon": 35.346374},
         {"lat": 31.150657, "lon": 35.346478},
+        {"lat": 31.1506689, "lon": 35.3465344},
         {"lat": 31.150684, "lon": 35.346606}
       ],
       "tags": {
@@ -23620,11 +23642,11 @@
     {
       "type": "way",
       "id": 341028344,
-      "timestamp": "2020-03-13T22:21:31Z",
-      "version": 6,
-      "changeset": 82182322,
-      "user": "Ilanride22",
-      "uid": 2376044,
+      "timestamp": "2022-02-21T15:37:12Z",
+      "version": 7,
+      "changeset": 117687551,
+      "user": "ggefen",
+      "uid": 13394920,
       "nodes": [703168962, 5606547206],
       "geometry": [
         {"lat": 30.9310378, "lon": 35.2526629},
@@ -23642,6 +23664,7 @@
         {"lat": 30.931269, "lon": 35.256072},
         {"lat": 30.9312291, "lon": 35.2561219},
         {"lat": 30.9311008, "lon": 35.2562823},
+        {"lat": 30.9310634, "lon": 35.2563221},
         {"lat": 30.9307299, "lon": 35.2566771},
         {"lat": 30.9302716, "lon": 35.2567795},
         {"lat": 30.9299067, "lon": 35.2566921},
@@ -23871,9 +23894,9 @@
     {
       "type": "way",
       "id": 342363954,
-      "timestamp": "2022-02-19T20:51:41Z",
-      "version": 6,
-      "changeset": 117619082,
+      "timestamp": "2022-02-21T17:10:21Z",
+      "version": 7,
+      "changeset": 117691608,
       "user": "hatul",
       "uid": 686490,
       "nodes": [1058974777, 643765005],
@@ -23928,7 +23951,6 @@
       "tags": {
         "colour": "blue",
         "highway": "track",
-        "name2": "שביל ירושליים",
         "surface": "dirt",
         "tracktype": "grade3"
       }
@@ -28672,21 +28694,21 @@
     {
       "type": "way",
       "id": 397074398,
-      "timestamp": "2022-02-19T20:51:41Z",
-      "version": 3,
-      "changeset": 117619082,
-      "user": "hatul",
-      "uid": 686490,
+      "timestamp": "2022-02-21T11:33:46Z",
+      "version": 4,
+      "changeset": 117677333,
+      "user": "Car162",
+      "uid": 12223802,
       "nodes": [3998986212, 1362612857],
       "geometry": [
         {"lat": 31.7928099, "lon": 35.1658498},
         {"lat": 31.7926709, "lon": 35.1657662},
-        {"lat": 31.792549, "lon": 35.165713},
-        {"lat": 31.79245, "lon": 35.165705},
-        {"lat": 31.7923253, "lon": 35.1657794},
-        {"lat": 31.7921435, "lon": 35.1659657},
-        {"lat": 31.792137, "lon": 35.165972},
-        {"lat": 31.792072, "lon": 35.166056},
+        {"lat": 31.7925291, "lon": 35.1657464},
+        {"lat": 31.7924642, "lon": 35.1657341},
+        {"lat": 31.7923234, "lon": 35.1658295},
+        {"lat": 31.7922205, "lon": 35.1659196},
+        {"lat": 31.7920236, "lon": 35.1661678},
+        {"lat": 31.7919782, "lon": 35.1662112},
         {"lat": 31.7919213, "lon": 35.1662315}
       ],
       "tags": {
@@ -28727,8 +28749,8 @@
       "uid": 356970,
       "nodes": [3998986166, 3998986177],
       "geometry": [
-        {"lat": 31.7938519, "lon": 35.1651027},
-        {"lat": 31.7937505, "lon": 35.1650942},
+        {"lat": 31.7938382, "lon": 35.1651295},
+        {"lat": 31.7937396, "lon": 35.1651189},
         {"lat": 31.7934647, "lon": 35.1652255},
         {"lat": 31.7934422, "lon": 35.1652485}
       ],
@@ -28737,18 +28759,17 @@
     {
       "type": "way",
       "id": 397074412,
-      "timestamp": "2016-02-10T11:56:58Z",
-      "version": 1,
-      "changeset": 37122804,
-      "user": "zstadler",
-      "uid": 3127,
-      "nodes": [3998986220, 3998986166],
+      "timestamp": "2022-02-21T11:33:46Z",
+      "version": 2,
+      "changeset": 117677333,
+      "user": "Car162",
+      "uid": 12223802,
+      "nodes": [3998986220, 3998986200],
       "geometry": [
         {"lat": 31.7940016, "lon": 35.1649715},
         {"lat": 31.7939563, "lon": 35.1649474},
         {"lat": 31.7939039, "lon": 35.1649501},
-        {"lat": 31.7938719, "lon": 35.1650118},
-        {"lat": 31.7938519, "lon": 35.1651027}
+        {"lat": 31.7938719, "lon": 35.1650118}
       ],
       "tags": {"colour": "blue", "highway": "path"}
     },
@@ -42218,11 +42239,11 @@
     {
       "type": "way",
       "id": 625753556,
-      "timestamp": "2018-09-15T12:52:33Z",
-      "version": 1,
-      "changeset": 62611234,
-      "user": "Marsupium",
-      "uid": 753289,
+      "timestamp": "2022-02-21T19:40:43Z",
+      "version": 2,
+      "changeset": 117698415,
+      "user": "hatul",
+      "uid": 686490,
       "nodes": [5908019614, 2801145318],
       "geometry": [
         {"lat": 31.7890565, "lon": 35.2448889},
@@ -42236,7 +42257,6 @@
         "handrail": "no",
         "highway": "steps",
         "incline": "up",
-        "name2": "שביל ירושליים",
         "note": "FIXME",
         "ramp": "no",
         "step_count": "63",
@@ -42263,11 +42283,11 @@
     {
       "type": "way",
       "id": 625753565,
-      "timestamp": "2018-09-15T12:52:33Z",
-      "version": 1,
-      "changeset": 62611234,
-      "user": "Marsupium",
-      "uid": 753289,
+      "timestamp": "2022-02-21T19:40:43Z",
+      "version": 2,
+      "changeset": 117698415,
+      "user": "hatul",
+      "uid": 686490,
       "nodes": [2801145336, 2801145319],
       "geometry": [
         {"lat": 31.7889778, "lon": 35.2454286},
@@ -42278,7 +42298,6 @@
         "handrail": "no",
         "highway": "steps",
         "incline": "up",
-        "name2": "שביל ירושליים",
         "note": "FIXME",
         "ramp": "no"
       }
@@ -42286,22 +42305,17 @@
     {
       "type": "way",
       "id": 625753569,
-      "timestamp": "2018-09-15T12:52:34Z",
-      "version": 1,
-      "changeset": 62611234,
-      "user": "Marsupium",
-      "uid": 753289,
+      "timestamp": "2022-02-21T19:40:43Z",
+      "version": 2,
+      "changeset": 117698415,
+      "user": "hatul",
+      "uid": 686490,
       "nodes": [1030841519, 2801145336],
       "geometry": [
         {"lat": 31.7888752, "lon": 35.2453176},
         {"lat": 31.7889778, "lon": 35.2454286}
       ],
-      "tags": {
-        "highway": "footway",
-        "incline": "up",
-        "name2": "שביל ירושליים",
-        "note": "FIXME"
-      }
+      "tags": {"highway": "footway", "incline": "up", "note": "FIXME"}
     },
     {
       "type": "way",
@@ -42329,11 +42343,11 @@
     {
       "type": "way",
       "id": 625753575,
-      "timestamp": "2018-09-15T12:52:34Z",
-      "version": 1,
-      "changeset": 62611234,
-      "user": "Marsupium",
-      "uid": 753289,
+      "timestamp": "2022-02-21T19:40:43Z",
+      "version": 2,
+      "changeset": 117698415,
+      "user": "hatul",
+      "uid": 686490,
       "nodes": [2801145318, 1030841519],
       "geometry": [
         {"lat": 31.7888616, "lon": 35.2452129},
@@ -42343,7 +42357,6 @@
         "handrail": "no",
         "highway": "steps",
         "incline": "up",
-        "name2": "שביל ירושליים",
         "note": "FIXME",
         "ramp": "no",
         "step_count": "8",
@@ -42353,11 +42366,11 @@
     {
       "type": "way",
       "id": 625753576,
-      "timestamp": "2018-09-15T12:52:34Z",
-      "version": 1,
-      "changeset": 62611234,
-      "user": "Marsupium",
-      "uid": 753289,
+      "timestamp": "2022-02-21T19:40:43Z",
+      "version": 2,
+      "changeset": 117698415,
+      "user": "hatul",
+      "uid": 686490,
       "nodes": [2801145319, 2801145322],
       "geometry": [
         {"lat": 31.789191, "lon": 35.2455874},
@@ -42368,7 +42381,7 @@
         {"lat": 31.7891226, "lon": 35.2458556},
         {"lat": 31.7890314, "lon": 35.2459307}
       ],
-      "tags": {"highway": "steps", "name2": "שביל ירושליים", "note": "FIXME"}
+      "tags": {"highway": "steps", "note": "FIXME"}
     },
     {
       "type": "way",
@@ -45358,11 +45371,11 @@
     {
       "type": "way",
       "id": 69748011,
-      "timestamp": "2020-09-02T05:43:22Z",
-      "version": 9,
-      "changeset": 90278068,
-      "user": "valleyofdawn",
-      "uid": 356970,
+      "timestamp": "2022-02-21T19:36:35Z",
+      "version": 10,
+      "changeset": 117698279,
+      "user": "hatul",
+      "uid": 686490,
       "nodes": [33248371, 33248380],
       "geometry": [
         {"lat": 31.801463, "lon": 35.171554},
@@ -45382,7 +45395,6 @@
         "highway": "track",
         "horse": "yes",
         "motorcar": "yes",
-        "name2": "שביל ירושליים",
         "surface": "paved",
         "tracktype": "grade1"
       }
@@ -48326,7 +48338,7 @@
         {"lat": 31.151577, "lon": 35.345719},
         {"lat": 31.151535, "lon": 35.345885},
         {"lat": 31.151487, "lon": 35.345953},
-        {"lat": 31.151354, "lon": 35.346007},
+        {"lat": 31.1513546, "lon": 35.3460068},
         {"lat": 31.1512, "lon": 35.345989},
         {"lat": 31.15114, "lon": 35.346011},
         {"lat": 31.151108, "lon": 35.346055},
@@ -66186,11 +66198,11 @@
     {
       "type": "way",
       "id": 816093606,
-      "timestamp": "2020-06-15T07:12:14Z",
-      "version": 1,
-      "changeset": 86651772,
-      "user": "dudigolani",
-      "uid": 10984507,
+      "timestamp": "2022-02-21T19:32:27Z",
+      "version": 2,
+      "changeset": 117698150,
+      "user": "hatul",
+      "uid": 686490,
       "nodes": [1362612857, 834293577],
       "geometry": [
         {"lat": 31.7919213, "lon": 35.1662315},
@@ -66203,7 +66215,6 @@
       "tags": {
         "colour": "blue",
         "highway": "track",
-        "name2": "שביל ירושליים",
         "surface": "dirt",
         "tracktype": "grade3"
       }
@@ -66693,17 +66704,17 @@
     {
       "type": "way",
       "id": 823854199,
-      "timestamp": "2020-07-07T14:16:26Z",
-      "version": 1,
-      "changeset": 87660180,
-      "user": "ar58",
-      "uid": 572423,
+      "timestamp": "2022-02-21T19:40:43Z",
+      "version": 2,
+      "changeset": 117698415,
+      "user": "hatul",
+      "uid": 686490,
       "nodes": [7691960153, 291321692],
       "geometry": [
         {"lat": 31.7893313, "lon": 35.2471213},
         {"lat": 31.7893785, "lon": 35.2471712}
       ],
-      "tags": {"highway": "tertiary", "name2": "שביל ירושליים", "oneway": "yes"}
+      "tags": {"highway": "tertiary", "oneway": "yes"}
     },
     {
       "type": "way",
@@ -69781,17 +69792,17 @@
     {
       "type": "way",
       "id": 88827804,
-      "timestamp": "2021-11-07T19:08:10Z",
-      "version": 9,
-      "changeset": 113492979,
-      "user": "eric22",
-      "uid": 160949,
+      "timestamp": "2022-02-21T19:40:43Z",
+      "version": 10,
+      "changeset": 117698415,
+      "user": "hatul",
+      "uid": 686490,
       "nodes": [310509894, 2801145322],
       "geometry": [
         {"lat": 31.788851, "lon": 35.2460662},
         {"lat": 31.7890314, "lon": 35.2459307}
       ],
-      "tags": {"bicycle": "yes", "highway": "footway", "name2": "שביל ירושליים"}
+      "tags": {"bicycle": "yes", "highway": "footway"}
     },
     {
       "type": "way",
@@ -69824,9 +69835,9 @@
     {
       "type": "way",
       "id": 88831796,
-      "timestamp": "2022-02-19T20:51:41Z",
-      "version": 14,
-      "changeset": 117619082,
+      "timestamp": "2022-02-21T17:23:40Z",
+      "version": 15,
+      "changeset": 117692174,
       "user": "hatul",
       "uid": 686490,
       "nodes": [643765005, 3756980164],
@@ -69842,7 +69853,7 @@
         {"lat": 31.788691, "lon": 35.145783}
       ],
       "tags": {
-        "colour": "black",
+        "colour": "green",
         "highway": "track",
         "name": "שביל עוטף מבשרת ציון",
         "name:en": "Otef Mevaseret Zion Trail",
@@ -70582,14 +70593,15 @@
     {
       "type": "way",
       "id": 91301194,
-      "timestamp": "2021-12-09T16:30:51Z",
-      "version": 9,
-      "changeset": 114751296,
+      "timestamp": "2022-02-21T17:26:03Z",
+      "version": 11,
+      "changeset": 117692286,
       "user": "hatul",
       "uid": 686490,
       "nodes": [643765116, 1058974777],
       "geometry": [
         {"lat": 31.7915773, "lon": 35.1621588},
+        {"lat": 31.7915857, "lon": 35.1620252},
         {"lat": 31.7916456, "lon": 35.1610711},
         {"lat": 31.7914861, "lon": 35.1604315},
         {"lat": 31.7913219, "lon": 35.1596161},
@@ -70606,7 +70618,6 @@
       "tags": {
         "colour": "blue",
         "highway": "track",
-        "name2": "שביל ירושליים",
         "surface": "dirt",
         "tracktype": "grade3"
       }
@@ -70614,11 +70625,11 @@
     {
       "type": "way",
       "id": 913292473,
-      "timestamp": "2021-11-02T05:26:56Z",
-      "version": 2,
-      "changeset": 113264386,
-      "user": "BMM994",
-      "uid": 189946,
+      "timestamp": "2022-02-21T17:24:32Z",
+      "version": 3,
+      "changeset": 117692214,
+      "user": "hatul",
+      "uid": 686490,
       "nodes": [5674482543, 5674482538],
       "geometry": [
         {"lat": 31.7901972, "lon": 35.144096},
@@ -70626,7 +70637,6 @@
         {"lat": 31.7903561, "lon": 35.1440595}
       ],
       "tags": {
-        "colour": "black",
         "highway": "track",
         "name": "שביל עוטף מבשרת ציון",
         "name:en": "Otef Mevaseret Zion Trail",
