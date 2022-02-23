@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-20T23:59:59Z",
-    "timestamp_osm_base": "2022-02-21T04:35:07Z",
+    "timestamp_osm_date": "2022-02-22T23:59:59Z",
+    "timestamp_osm_base": "2022-02-23T04:42:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -8297,14 +8297,17 @@
       "id": 367085314,
       "lat": 46.0284656,
       "lon": 8.9674193,
-      "timestamp": "2015-06-12T08:05:02Z",
-      "version": 7,
-      "changeset": 31911736,
-      "user": "wheelmap_visitor",
-      "uid": 290680,
+      "timestamp": "2022-02-22T08:54:44Z",
+      "version": 8,
+      "changeset": 117716192,
+      "user": "Wikilux",
+      "uid": 1894634,
       "tags": {
-        "created_by": "Potlatch 0.10f",
-        "name": "Coop Resega",
+        "branch": "Resega",
+        "brand": "Coop",
+        "brand:wikidata": "Q432564",
+        "brand:wikipedia": "de:Coop (Schweiz)",
+        "name": "Coop",
         "operator": "Coop",
         "phone": "+41-91-9401151",
         "shop": "supermarket",
@@ -14085,13 +14088,13 @@
     {
       "type": "node",
       "id": 845089498,
-      "lat": 45.9572911,
-      "lon": 8.6040383,
-      "timestamp": "2010-08-03T16:54:16Z",
-      "version": 1,
-      "changeset": 5391609,
-      "user": "Hennerle",
-      "uid": 130862,
+      "lat": 45.9574372,
+      "lon": 8.6043571,
+      "timestamp": "2022-02-22T09:36:07Z",
+      "version": 2,
+      "changeset": 117717999,
+      "user": "schoschi",
+      "uid": 231006,
       "tags": {
         "amenity": "drinking_water"
       }
@@ -44421,6 +44424,38 @@
     },
     {
       "type": "node",
+      "id": 5698581793,
+      "lat": 45.8758898,
+      "lon": 8.5540056,
+      "timestamp": "2022-02-21T20:34:40Z",
+      "version": 3,
+      "changeset": 117700021,
+      "user": "robivb",
+      "uid": 11062151,
+      "tags": {
+        "ele": "314",
+        "name": "Passera",
+        "place": "village"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5698606531,
+      "lat": 45.8768081,
+      "lon": 8.5476564,
+      "timestamp": "2022-02-21T20:34:40Z",
+      "version": 3,
+      "changeset": 117700021,
+      "user": "robivb",
+      "uid": 11062151,
+      "tags": {
+        "ele": "322",
+        "name": "Binda",
+        "place": "village"
+      }
+    },
+    {
+      "type": "node",
       "id": 5698606532,
       "lat": 45.8748538,
       "lon": 8.546104,
@@ -60991,6 +61026,24 @@
       }
     },
     {
+      "type": "node",
+      "id": 9524822378,
+      "lat": 45.9562412,
+      "lon": 8.519264,
+      "timestamp": "2022-02-21T16:16:10Z",
+      "version": 1,
+      "changeset": 117689399,
+      "user": "Francoerbi41",
+      "uid": 4982687,
+      "tags": {
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
       "type": "way",
       "id": 26293953,
       "timestamp": "2016-05-05T19:34:54Z",
@@ -64914,9 +64967,9 @@
     {
       "type": "way",
       "id": 256447143,
-      "timestamp": "2022-02-20T13:48:12Z",
-      "version": 4,
-      "changeset": 117639588,
+      "timestamp": "2022-02-22T15:40:54Z",
+      "version": 5,
+      "changeset": 117733035,
       "user": "schoschi",
       "uid": 231006,
       "center": {
@@ -64929,14 +64982,23 @@
         "addr:housenumber": "81/a",
         "addr:postcode": "28822",
         "addr:street": "Via Sotto ai Chiosi",
+        "cabins": "yes",
+        "camp_site": "deluxe",
         "caravans": "yes",
         "contact:email": "info@campingsole.it",
+        "fee": "yes",
         "internet_access": "wlan",
         "internet_access:fee": "no",
+        "lit": "yes",
+        "motor_vehicle": "yes",
         "name": "Camping del Sole",
         "opening_hours": "Jan-Dec",
         "phone": "+39 0323 70732",
+        "shower": "hot",
+        "tents": "yes",
+        "toilets": "yes",
         "tourism": "camp_site",
+        "washing_machine": "y",
         "website": "http://www.campingsole.it/"
       }
     },
@@ -67220,22 +67282,24 @@
     {
       "type": "way",
       "id": 442681568,
-      "timestamp": "2016-12-15T00:14:50Z",
-      "version": 2,
-      "changeset": 44410951,
-      "user": "mcheckimport",
-      "uid": 893327,
+      "timestamp": "2022-02-22T11:23:48Z",
+      "version": 3,
+      "changeset": 117722499,
+      "user": "schoschi",
+      "uid": 231006,
       "center": {
         "lat": 45.9724647,
         "lon": 8.6117807
       },
       "nodes": [],
       "tags": {
+        "email": "info@campingincanti.it",
         "landuse": "residential",
         "name": "Incanti",
         "phone": "+39 0323 587288",
         "source": "Bing",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "website": "http://www.campingincanti.it/contatti.html"
       }
     },
     {
