@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-21T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-23T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10909145,
-      "timestamp": "2022-02-21T17:42:54Z",
-      "version": 1506,
-      "changeset": 117692974,
+      "timestamp": "2022-02-23T20:39:31Z",
+      "version": 1507,
+      "changeset": 117786632,
       "user": "Wulz",
       "uid": 10773975,
       "members": [
@@ -1267,11 +1267,6 @@
         {"type": "way", "ref": 174003121, "role": ""},
         {"type": "way", "ref": 174003118, "role": ""},
         {"type": "way", "ref": 793379438, "role": ""},
-        {"type": "way", "ref": 362627234, "role": ""},
-        {"type": "way", "ref": 129757670, "role": ""},
-        {"type": "way", "ref": 25216646, "role": ""},
-        {"type": "way", "ref": 188869472, "role": ""},
-        {"type": "way", "ref": 129757686, "role": ""},
         {"type": "way", "ref": 537502085, "role": ""},
         {"type": "way", "ref": 40109540, "role": ""},
         {"type": "way", "ref": 904743542, "role": ""},
@@ -1415,7 +1410,14 @@
         {"type": "way", "ref": 414805993, "role": ""},
         {"type": "way", "ref": 911862925, "role": ""},
         {"type": "way", "ref": 883375279, "role": ""},
-        {"type": "way", "ref": 911862926, "role": ""}
+        {"type": "way", "ref": 911862926, "role": ""},
+        {"type": "way", "ref": 1022870846, "role": ""},
+        {"type": "way", "ref": 1034609286, "role": ""},
+        {"type": "way", "ref": 362627234, "role": ""},
+        {"type": "way", "ref": 129757670, "role": ""},
+        {"type": "way", "ref": 25216646, "role": ""},
+        {"type": "way", "ref": 188869472, "role": ""},
+        {"type": "way", "ref": 129757686, "role": ""}
       ],
       "tags": {
         "ascent": "44.0",
@@ -3263,6 +3265,46 @@
     },
     {
       "type": "way",
+      "id": 1022870846,
+      "timestamp": "2022-02-23T20:39:31Z",
+      "version": 2,
+      "changeset": 117786632,
+      "user": "Wulz",
+      "uid": 10773975,
+      "nodes": [9433601843, 275399788],
+      "geometry": [
+        {"lat": 46.475038, "lon": 12.8562732},
+        {"lat": 46.4747867, "lon": 12.8563846},
+        {"lat": 46.4744068, "lon": 12.8568813},
+        {"lat": 46.4742654, "lon": 12.857349},
+        {"lat": 46.4743096, "lon": 12.8578656},
+        {"lat": 46.4743701, "lon": 12.8581819},
+        {"lat": 46.4745088, "lon": 12.8583321},
+        {"lat": 46.4746388, "lon": 12.8584306},
+        {"lat": 46.4745269, "lon": 12.8587258},
+        {"lat": 46.4743135, "lon": 12.8587065},
+        {"lat": 46.4742014, "lon": 12.8588817},
+        {"lat": 46.4742868, "lon": 12.8590706},
+        {"lat": 46.4746197, "lon": 12.8598201},
+        {"lat": 46.4747601, "lon": 12.8600137},
+        {"lat": 46.4750218, "lon": 12.8599812},
+        {"lat": 46.4750002, "lon": 12.8601908},
+        {"lat": 46.4748035, "lon": 12.8603254},
+        {"lat": 46.474703, "lon": 12.8605652},
+        {"lat": 46.4747245, "lon": 12.8611752},
+        {"lat": 46.4748264, "lon": 12.8616018},
+        {"lat": 46.4748967, "lon": 12.8619396}
+      ],
+      "tags": {
+        "highway": "path",
+        "incline": "steep",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: Via Alpina Yellow B5\n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
+        "surface": "ground",
+        "width": "1"
+      }
+    },
+    {
+      "type": "way",
       "id": 1023415025,
       "timestamp": "2022-01-21T20:14:59Z",
       "version": 2,
@@ -3648,6 +3690,28 @@
         "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: Via Alpina\n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 21b\n+ lwn:",
         "surface": "asphalt",
         "width": "2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1034609286,
+      "timestamp": "2022-02-23T20:39:31Z",
+      "version": 1,
+      "changeset": 117786632,
+      "user": "Wulz",
+      "uid": 10773975,
+      "nodes": [3668980199, 9433601843],
+      "geometry": [
+        {"lat": 46.4754434, "lon": 12.856405},
+        {"lat": 46.4751702, "lon": 12.8563468},
+        {"lat": 46.475038, "lon": 12.8562732}
+      ],
+      "tags": {
+        "highway": "path",
+        "incline": "5%",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: Via Alpina Yellow B5\n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
+        "surface": "ground",
+        "width": "1"
       }
     },
     {
@@ -8098,9 +8162,9 @@
     {
       "type": "way",
       "id": 129757678,
-      "timestamp": "2020-04-19T04:23:47Z",
-      "version": 4,
-      "changeset": 83760460,
+      "timestamp": "2022-02-23T20:39:31Z",
+      "version": 5,
+      "changeset": 117786632,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [1430921062, 1430921012],
@@ -8113,7 +8177,7 @@
         "bridge": "yes",
         "highway": "unclassified",
         "layer": "1",
-        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \nVia Alpina \n",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: Via Alpina Yellow B5\n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "surface": "asphalt"
       }
     },
@@ -8415,9 +8479,9 @@
     {
       "type": "way",
       "id": 129757747,
-      "timestamp": "2020-04-19T04:22:29Z",
-      "version": 8,
-      "changeset": 83760444,
+      "timestamp": "2022-02-23T20:39:31Z",
+      "version": 9,
+      "changeset": 117786632,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [347347755, 1430921062],
@@ -8437,17 +8501,19 @@
       ],
       "tags": {
         "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "30",
         "name": "Via Langjagnas",
-        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \nVia Alpina \n",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: Via Alpina Yellow B5\n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 129757754,
-      "timestamp": "2020-04-19T04:25:55Z",
-      "version": 4,
-      "changeset": 83760480,
+      "timestamp": "2022-02-23T20:39:31Z",
+      "version": 5,
+      "changeset": 117786632,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [1430921012, 1847457451],
@@ -8462,7 +8528,7 @@
         "lanes": "1",
         "maxspeed": "30",
         "name": "Via Rosas di Cella",
-        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \nVia Alpina\n",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: Via Alpina Yellow B5\n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "surface": "asphalt"
       }
     },
@@ -8932,9 +8998,9 @@
     {
       "type": "way",
       "id": 134146731,
-      "timestamp": "2020-04-20T09:48:34Z",
-      "version": 3,
-      "changeset": 83812655,
+      "timestamp": "2022-02-23T19:56:57Z",
+      "version": 4,
+      "changeset": 117785402,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [1475231953, 1475231952],
@@ -8947,6 +9013,7 @@
         "highway": "secondary",
         "lanes": "2",
         "layer": "1",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: \n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "old_ref": "SS465",
         "ref": "SR465",
         "reg_ref": "SR465",
@@ -8980,9 +9047,9 @@
     {
       "type": "way",
       "id": 134146743,
-      "timestamp": "2020-04-20T09:44:15Z",
-      "version": 3,
-      "changeset": 83812380,
+      "timestamp": "2022-02-23T19:56:57Z",
+      "version": 4,
+      "changeset": 117785402,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [786882302, 786882286],
@@ -8995,6 +9062,7 @@
         "highway": "secondary",
         "lanes": "2",
         "layer": "1",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: \n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "old_ref": "SS465",
         "ref": "SR465",
         "reg_ref": "SR465",
@@ -9137,11 +9205,11 @@
     {
       "type": "way",
       "id": 134146758,
-      "timestamp": "2021-03-18T23:06:39Z",
-      "version": 6,
-      "changeset": 101289024,
-      "user": "Map_Clautch",
-      "uid": 2025491,
+      "timestamp": "2022-02-23T19:56:57Z",
+      "version": 7,
+      "changeset": 117785402,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [786882286, 1475231953],
       "geometry": [
         {"lat": 46.5211534, "lon": 12.7838192},
@@ -9160,6 +9228,7 @@
       "tags": {
         "highway": "secondary",
         "lanes": "2",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: \n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "old_ref": "SS465",
         "ref": "SR465",
         "reg_ref": "SR465",
@@ -16113,9 +16182,9 @@
     {
       "type": "way",
       "id": 174003118,
-      "timestamp": "2020-12-11T15:32:03Z",
-      "version": 4,
-      "changeset": 95689712,
+      "timestamp": "2022-02-23T20:39:31Z",
+      "version": 5,
+      "changeset": 117786632,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [1847457419, 1847457441],
@@ -16146,16 +16215,16 @@
         "lanes": "1",
         "maxspeed": "30",
         "name": "Via Rosas di Cella",
-        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \nVia Alpina \n",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: Via Alpina Yellow B5\n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 174003121,
-      "timestamp": "2020-04-19T04:27:44Z",
-      "version": 3,
-      "changeset": 83760506,
+      "timestamp": "2022-02-23T20:39:31Z",
+      "version": 4,
+      "changeset": 117786632,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [1847457451, 1847457441],
@@ -16173,7 +16242,7 @@
         "lanes": "1",
         "maxspeed": "30",
         "name": "Via Rosas di Cella",
-        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \nVia Alpina \n",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: Via Alpina Yellow B5\n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "surface": "asphalt"
       }
     },
@@ -18492,11 +18561,11 @@
     {
       "type": "way",
       "id": 186692968,
-      "timestamp": "2021-03-03T16:25:32Z",
-      "version": 3,
-      "changeset": 100363650,
-      "user": "gpstracks",
-      "uid": 188429,
+      "timestamp": "2022-02-23T19:56:57Z",
+      "version": 4,
+      "changeset": 117785402,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [1974345827, 1974345845],
       "geometry": [
         {"lat": 46.519992, "lon": 12.8094318},
@@ -18511,15 +18580,16 @@
         "highway": "unclassified",
         "lanes": "1",
         "maxspeed": "30",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: \n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 186692973,
-      "timestamp": "2020-04-20T10:02:51Z",
-      "version": 2,
-      "changeset": 83813568,
+      "timestamp": "2022-02-23T19:56:57Z",
+      "version": 3,
+      "changeset": 117785402,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [786882285, 1974345827],
@@ -18532,6 +18602,7 @@
       "tags": {
         "highway": "unclassified",
         "maxspeed": "30",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: \n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "oneway": "yes",
         "surface": "asphalt"
       }
@@ -22260,11 +22331,11 @@
     {
       "type": "way",
       "id": 23083238,
-      "timestamp": "2021-11-24T20:49:36Z",
-      "version": 8,
-      "changeset": 114196977,
-      "user": "Wulz",
-      "uid": 10773975,
+      "timestamp": "2022-02-23T10:03:51Z",
+      "version": 9,
+      "changeset": 117761797,
+      "user": "mlz",
+      "uid": 380490,
       "nodes": [249152811, 30166075],
       "geometry": [
         {"lat": 46.4635932, "lon": 13.9429652},
@@ -22274,6 +22345,7 @@
         "bridge": "yes",
         "highway": "tertiary",
         "layer": "1",
+        "lit": "yes",
         "maxspeed": "50",
         "note": "Beim „Julius Kugy Alpine Trail“ trifft man auf\n + iwn: Via Alpina Purple A3\n + nrw:\n + rwn: Slovenska planinska pot, Juliana Trail - stage 2: Mojstrana - Jesenice\n + lwn: Julius-Kugy-Dreiländerweg v 30 dneh - povezava prek E 9a",
         "ref": "907",
@@ -22619,9 +22691,9 @@
     {
       "type": "way",
       "id": 231464547,
-      "timestamp": "2020-04-19T14:30:43Z",
-      "version": 4,
-      "changeset": 83774893,
+      "timestamp": "2022-02-23T16:47:16Z",
+      "version": 5,
+      "changeset": 117778847,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [786882264, 2398551906],
@@ -22650,15 +22722,16 @@
         "lanes": "1",
         "maxspeed": "30",
         "name": "Frazione Pesariis",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: \n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 231464548,
-      "timestamp": "2020-04-19T14:33:00Z",
-      "version": 2,
-      "changeset": 83774965,
+      "timestamp": "2022-02-23T19:45:14Z",
+      "version": 3,
+      "changeset": 117785034,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [2398552216, 2398552208],
@@ -22685,15 +22758,16 @@
         "lanes": "1",
         "maxspeed": "30",
         "name": "Frazione Pesariis",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: \n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 231464550,
-      "timestamp": "2020-04-19T14:30:43Z",
-      "version": 2,
-      "changeset": 83774893,
+      "timestamp": "2022-02-23T19:45:14Z",
+      "version": 3,
+      "changeset": 117785034,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [2398551906, 2398552216],
@@ -22721,23 +22795,27 @@
         "lanes": "1",
         "maxspeed": "30",
         "name": "Frazione Pesariis",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: \n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 231464561,
-      "timestamp": "2013-07-27T17:21:59Z",
-      "version": 1,
-      "changeset": 17116526,
-      "user": "gpstracks",
-      "uid": 188429,
+      "timestamp": "2022-02-23T19:45:14Z",
+      "version": 2,
+      "changeset": 117785034,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [468365171, 2398552234],
       "geometry": [
         {"lat": 46.5220753, "lon": 12.7723578},
         {"lat": 46.5220118, "lon": 12.7724108}
       ],
-      "tags": {"highway": "steps"}
+      "tags": {
+        "highway": "steps",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: \n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:"
+      }
     },
     {
       "type": "way",
@@ -38805,9 +38883,9 @@
     {
       "type": "way",
       "id": 362627234,
-      "timestamp": "2020-04-19T07:45:59Z",
-      "version": 3,
-      "changeset": 83763392,
+      "timestamp": "2022-02-23T20:39:31Z",
+      "version": 4,
+      "changeset": 117786632,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [1430921027, 3668980199],
@@ -38833,7 +38911,12 @@
         {"lat": 46.4756781, "lon": 12.8562798},
         {"lat": 46.4754434, "lon": 12.856405}
       ],
-      "tags": {"highway": "path", "surface": "ground", "width": "1"}
+      "tags": {
+        "highway": "path",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: Via Alpina Yellow B5\n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
+        "surface": "ground",
+        "width": "1"
+      }
     },
     {
       "type": "way",
@@ -41540,9 +41623,9 @@
     {
       "type": "way",
       "id": 39134433,
-      "timestamp": "2020-04-19T14:34:32Z",
-      "version": 3,
-      "changeset": 83775013,
+      "timestamp": "2022-02-23T19:45:14Z",
+      "version": 4,
+      "changeset": 117785034,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [468365179, 2398552208],
@@ -41557,6 +41640,7 @@
         "lanes": "1",
         "maxspeed": "30",
         "name": "Frazione Pesariis",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: \n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "surface": "asphalt"
       }
     },
@@ -43716,11 +43800,11 @@
     {
       "type": "way",
       "id": 435021437,
-      "timestamp": "2020-04-11T06:06:33Z",
-      "version": 5,
-      "changeset": 83388506,
-      "user": "gpstracks",
-      "uid": 188429,
+      "timestamp": "2022-02-23T10:03:52Z",
+      "version": 6,
+      "changeset": 117761797,
+      "user": "mlz",
+      "uid": 380490,
       "nodes": [30166073, 249152811],
       "geometry": [
         {"lat": 46.4636411, "lon": 13.9429607},
@@ -43728,6 +43812,7 @@
       ],
       "tags": {
         "highway": "tertiary",
+        "lit": "yes",
         "maxspeed": "50",
         "ref": "907",
         "surface": "asphalt"
@@ -55893,9 +55978,9 @@
     {
       "type": "way",
       "id": 63563762,
-      "timestamp": "2020-04-20T09:41:40Z",
-      "version": 5,
-      "changeset": 83812207,
+      "timestamp": "2022-02-23T19:45:14Z",
+      "version": 6,
+      "changeset": 117785034,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [786882265, 786882109],
@@ -55908,6 +55993,7 @@
         "highway": "secondary",
         "lanes": "2",
         "layer": "1",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: \n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "old_ref": "SS465",
         "ref": "SR465",
         "reg_ref": "SR465",
@@ -55917,11 +56003,11 @@
     {
       "type": "way",
       "id": 63563763,
-      "timestamp": "2021-03-22T15:35:25Z",
-      "version": 11,
-      "changeset": 101515219,
-      "user": "Map_Clautch",
-      "uid": 2025491,
+      "timestamp": "2022-02-23T19:56:57Z",
+      "version": 12,
+      "changeset": 117785402,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [265673090, 786882285],
       "geometry": [
         {"lat": 46.5195276, "lon": 12.7951793},
@@ -56031,6 +56117,7 @@
       "tags": {
         "highway": "secondary",
         "lanes": "2",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: \n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "old_ref": "SS465",
         "ref": "SR465",
         "reg_ref": "SR465",
@@ -56040,9 +56127,9 @@
     {
       "type": "way",
       "id": 63563764,
-      "timestamp": "2020-04-20T09:51:07Z",
-      "version": 5,
-      "changeset": 83812817,
+      "timestamp": "2022-02-23T19:56:57Z",
+      "version": 6,
+      "changeset": 117785402,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [786882306, 265673090],
@@ -56055,6 +56142,7 @@
         "highway": "secondary",
         "lanes": "2",
         "layer": "1",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: \n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "old_ref": "SS465",
         "ref": "SR465",
         "reg_ref": "SR465",
@@ -56091,9 +56179,9 @@
     {
       "type": "way",
       "id": 63563766,
-      "timestamp": "2020-04-20T09:42:54Z",
-      "version": 5,
-      "changeset": 83812292,
+      "timestamp": "2022-02-23T19:56:57Z",
+      "version": 6,
+      "changeset": 117785402,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [786882109, 786882302],
@@ -56108,6 +56196,7 @@
       "tags": {
         "highway": "secondary",
         "lanes": "2",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: \n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "old_ref": "SS465",
         "ref": "SR465",
         "reg_ref": "SR465",
@@ -69154,14 +69243,13 @@
     {
       "type": "way",
       "id": 793379438,
-      "timestamp": "2020-04-19T07:37:46Z",
-      "version": 1,
-      "changeset": 83763232,
+      "timestamp": "2022-02-23T20:39:31Z",
+      "version": 2,
+      "changeset": 117786632,
       "user": "Wulz",
       "uid": 10773975,
-      "nodes": [7418540663, 1847457419],
+      "nodes": [275399788, 1847457419],
       "geometry": [
-        {"lat": 46.4747905, "lon": 12.8619224},
         {"lat": 46.4748967, "lon": 12.8619396},
         {"lat": 46.4752277, "lon": 12.8619107},
         {"lat": 46.4756619, "lon": 12.8618626},
@@ -69172,7 +69260,7 @@
         "lanes": "1",
         "maxspeed": "30",
         "name": "Via Cella",
-        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \nVia Alpina \n",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: Via Alpina Yellow B5\n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "surface": "asphalt"
       }
     },
@@ -69623,9 +69711,9 @@
     {
       "type": "way",
       "id": 793486701,
-      "timestamp": "2020-04-19T14:37:08Z",
-      "version": 1,
-      "changeset": 83775098,
+      "timestamp": "2022-02-23T19:45:14Z",
+      "version": 2,
+      "changeset": 117785034,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [468365179, 468365171],
@@ -69640,15 +69728,16 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Frazione Pesariis",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: \n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 793487869,
-      "timestamp": "2020-04-19T14:41:22Z",
-      "version": 1,
-      "changeset": 83775217,
+      "timestamp": "2022-02-23T19:45:14Z",
+      "version": 2,
+      "changeset": 117785034,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [2398552234, 786882304],
@@ -69676,15 +69765,16 @@
         "highway": "residential",
         "lanes": "2",
         "maxspeed": "50",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: \n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 793796627,
-      "timestamp": "2020-04-20T09:39:57Z",
-      "version": 1,
-      "changeset": 83812081,
+      "timestamp": "2022-02-23T19:45:14Z",
+      "version": 2,
+      "changeset": 117785034,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [786882304, 786882265],
@@ -69705,6 +69795,7 @@
       "tags": {
         "highway": "secondary",
         "lanes": "2",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: \n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "old_ref": "SS465",
         "ref": "SR465",
         "reg_ref": "SR465",
