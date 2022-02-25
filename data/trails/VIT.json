@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-23T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-24T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 12038457,
-      "timestamp": "2022-02-22T22:21:20Z",
-      "version": 152,
-      "changeset": 117746144,
-      "user": "alester",
-      "uid": 307202,
+      "timestamp": "2022-02-24T01:25:52Z",
+      "version": 153,
+      "changeset": 117792514,
+      "user": "StarWagon",
+      "uid": 14517845,
       "members": [
         {"type": "way", "ref": 810338364, "role": "alternative"},
         {"type": "way", "ref": 810338373, "role": "alternative"},
@@ -225,6 +225,7 @@
         {"type": "way", "ref": 886596821, "role": ""},
         {"type": "way", "ref": 886596824, "role": ""},
         {"type": "way", "ref": 886596823, "role": ""},
+        {"type": "way", "ref": 1034657125, "role": ""},
         {"type": "way", "ref": 886596822, "role": ""},
         {"type": "way", "ref": 239033288, "role": ""},
         {"type": "way", "ref": 886596825, "role": ""},
@@ -969,6 +970,31 @@
         "name": "Galloping Goose Regional Trail",
         "railway": "abandoned",
         "segregated": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1034657125,
+      "timestamp": "2022-02-24T01:26:25Z",
+      "version": 3,
+      "changeset": 117792078,
+      "user": "StarWagon",
+      "uid": 14517845,
+      "nodes": [491951193, 491947917],
+      "geometry": [
+        {"lat": 49.6178127, "lon": -125.0292378},
+        {"lat": 49.6180822, "lon": -125.0293013}
+      ],
+      "tags": {
+        "attribution": "GeoBase®",
+        "geobase:acquisitionTechnique": "GPS",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "no",
+        "name": "Second Street",
+        "sidewalk": "no",
+        "source": "Geobase_Import_2009",
         "surface": "asphalt"
       }
     },
@@ -22859,11 +22885,11 @@
     {
       "type": "way",
       "id": 886596821,
-      "timestamp": "2022-02-09T00:36:08Z",
-      "version": 2,
-      "changeset": 117181150,
-      "user": "Landsat6",
-      "uid": 5569156,
+      "timestamp": "2022-02-24T03:03:28Z",
+      "version": 3,
+      "changeset": 117793784,
+      "user": "StarWagon",
+      "uid": 14517845,
       "nodes": [491880844, 491885141],
       "geometry": [
         {"lat": 49.6180607, "lon": -125.0343238},
@@ -22878,7 +22904,8 @@
         "highway": "residential",
         "lanes": "2",
         "name": "Sutton Road",
-        "source": "Geobase_Import_2009"
+        "source": "Geobase_Import_2009",
+        "surface": "asphalt"
       }
     },
     {
@@ -22908,26 +22935,26 @@
     {
       "type": "way",
       "id": 886596823,
-      "timestamp": "2021-09-07T22:29:48Z",
-      "version": 2,
-      "changeset": 110881675,
-      "user": "TeLewis",
-      "uid": 10135746,
-      "nodes": [491951193, 492314767],
+      "timestamp": "2022-02-24T01:26:06Z",
+      "version": 4,
+      "changeset": 117792514,
+      "user": "StarWagon",
+      "uid": 14517845,
+      "nodes": [491947917, 492314767],
       "geometry": [
-        {"lat": 49.6178127, "lon": -125.0292378},
         {"lat": 49.6180822, "lon": -125.0293013},
         {"lat": 49.618498, "lon": -125.0294008},
         {"lat": 49.6189378, "lon": -125.029506}
       ],
       "tags": {
-        "surface": "asphalt",
         "attribution": "GeoBase®",
         "geobase:acquisitionTechnique": "GPS",
         "highway": "residential",
         "lanes": "2",
         "name": "Second Street",
-        "source": "Geobase_Import_2009"
+        "sidewalk": "both",
+        "source": "Geobase_Import_2009",
+        "surface": "asphalt"
       }
     },
     {
