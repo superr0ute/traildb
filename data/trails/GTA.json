@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-25T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-27T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -961,11 +961,11 @@
     {
       "type": "relation",
       "id": 3161445,
-      "timestamp": "2021-07-09T16:05:12Z",
-      "version": 25,
-      "changeset": 107715036,
-      "user": "Andrea Musuruane",
-      "uid": 90379,
+      "timestamp": "2022-02-27T22:26:46Z",
+      "version": 27,
+      "changeset": 117924098,
+      "user": "lorenzo23622",
+      "uid": 476483,
       "members": [
         {"type": "way", "ref": 177977637, "role": ""},
         {"type": "way", "ref": 534159155, "role": ""},
@@ -993,6 +993,8 @@
         {"type": "way", "ref": 664403242, "role": ""},
         {"type": "way", "ref": 534159157, "role": ""},
         {"type": "way", "ref": 208527186, "role": ""},
+        {"type": "way", "ref": 1035851464, "role": ""},
+        {"type": "way", "ref": 1035851465, "role": ""},
         {"type": "way", "ref": 60433350, "role": ""},
         {"type": "way", "ref": 302582143, "role": ""},
         {"type": "way", "ref": 327608530, "role": ""},
@@ -1000,6 +1002,8 @@
         {"type": "way", "ref": 299848407, "role": ""},
         {"type": "way", "ref": 233955801, "role": ""},
         {"type": "way", "ref": 208732029, "role": ""},
+        {"type": "way", "ref": 1035855812, "role": ""},
+        {"type": "way", "ref": 1035855811, "role": ""},
         {"type": "way", "ref": 682527985, "role": ""},
         {"type": "way", "ref": 206539760, "role": ""},
         {"type": "way", "ref": 699896794, "role": ""},
@@ -3009,6 +3013,73 @@
         "surface": "ground",
         "trail_visibility": "excellent"
       }
+    },
+    {
+      "type": "way",
+      "id": 1035851464,
+      "timestamp": "2022-02-27T21:46:11Z",
+      "version": 1,
+      "changeset": 117923231,
+      "user": "lorenzo23622",
+      "uid": 476483,
+      "nodes": [752266687, 9543751512],
+      "geometry": [
+        {"lat": 45.8484287, "lon": 7.9385429},
+        {"lat": 45.8482802, "lon": 7.9386073}
+      ],
+      "tags": {"highway": "residential", "source": "PCN Orthophoto"}
+    },
+    {
+      "type": "way",
+      "id": 1035851465,
+      "timestamp": "2022-02-27T21:46:11Z",
+      "version": 1,
+      "changeset": 117923231,
+      "user": "lorenzo23622",
+      "uid": 476483,
+      "nodes": [9543751512, 9543751511],
+      "geometry": [
+        {"lat": 45.8482802, "lon": 7.9386073},
+        {"lat": 45.8481949, "lon": 7.9386442}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "residential",
+        "layer": "1",
+        "source": "PCN Orthophoto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1035855811,
+      "timestamp": "2022-02-27T22:26:46Z",
+      "version": 1,
+      "changeset": 117924098,
+      "user": "lorenzo23622",
+      "uid": 476483,
+      "nodes": [2165522783, 9543818249],
+      "geometry": [
+        {"lat": 45.8359398, "lon": 7.949297},
+        {"lat": 45.8359466, "lon": 7.9492148},
+        {"lat": 45.836028, "lon": 7.9490684}
+      ],
+      "tags": {"highway": "unclassified"}
+    },
+    {
+      "type": "way",
+      "id": 1035855812,
+      "timestamp": "2022-02-27T22:26:46Z",
+      "version": 1,
+      "changeset": 117924098,
+      "user": "lorenzo23622",
+      "uid": 476483,
+      "nodes": [9543818249, 2189934618],
+      "geometry": [
+        {"lat": 45.836028, "lon": 7.9490684},
+        {"lat": 45.8360589, "lon": 7.9490128},
+        {"lat": 45.8363441, "lon": 7.9485964}
+      ],
+      "tags": {"highway": "track"}
     },
     {
       "type": "way",
@@ -23805,16 +23876,13 @@
     {
       "type": "way",
       "id": 208732029,
-      "timestamp": "2013-03-07T16:55:07Z",
-      "version": 1,
-      "changeset": 15284217,
-      "user": "nuvolabianca",
-      "uid": 439413,
-      "nodes": [2165522783, 2189934647],
+      "timestamp": "2022-02-27T22:26:46Z",
+      "version": 2,
+      "changeset": 117924098,
+      "user": "lorenzo23622",
+      "uid": 476483,
+      "nodes": [2189934618, 2189934647],
       "geometry": [
-        {"lat": 45.8359398, "lon": 7.949297},
-        {"lat": 45.8359466, "lon": 7.9492148},
-        {"lat": 45.8360589, "lon": 7.9490128},
         {"lat": 45.8363441, "lon": 7.9485964},
         {"lat": 45.8364626, "lon": 7.9484936},
         {"lat": 45.8365638, "lon": 7.9484405},
@@ -34057,16 +34125,20 @@
     {
       "type": "way",
       "id": 302582143,
-      "timestamp": "2015-02-11T16:12:08Z",
-      "version": 2,
-      "changeset": 28776736,
-      "user": "mbranco2",
-      "uid": 2373418,
-      "nodes": [2188317038, 3068306009],
+      "timestamp": "2022-02-27T21:46:11Z",
+      "version": 3,
+      "changeset": 117923231,
+      "user": "lorenzo23622",
+      "uid": 476483,
+      "nodes": [752266695, 3068306018],
       "geometry": [
-        {"lat": 45.8475451, "lon": 7.9389191},
-        {"lat": 45.8474802, "lon": 7.9389459},
-        {"lat": 45.847338, "lon": 7.9389934}
+        {"lat": 45.8476227, "lon": 7.9388671},
+        {"lat": 45.8475615, "lon": 7.9388842},
+        {"lat": 45.8475186, "lon": 7.938902},
+        {"lat": 45.8474766, "lon": 7.9389315},
+        {"lat": 45.8474373, "lon": 7.9389597},
+        {"lat": 45.8474119, "lon": 7.9389768},
+        {"lat": 45.8473848, "lon": 7.9389847}
       ],
       "tags": {
         "highway": "residential",
@@ -35775,14 +35847,14 @@
     {
       "type": "way",
       "id": 327608530,
-      "timestamp": "2015-07-25T22:56:39Z",
-      "version": 2,
-      "changeset": 32880051,
-      "user": "Davlak",
-      "uid": 217070,
-      "nodes": [3068306009, 752266707],
+      "timestamp": "2022-02-27T21:46:11Z",
+      "version": 3,
+      "changeset": 117923231,
+      "user": "lorenzo23622",
+      "uid": 476483,
+      "nodes": [3068306008, 752266707],
       "geometry": [
-        {"lat": 45.847338, "lon": 7.9389934},
+        {"lat": 45.8473121, "lon": 7.9390254},
         {"lat": 45.8470151, "lon": 7.9390837}
       ],
       "tags": {
@@ -51237,18 +51309,17 @@
     {
       "type": "way",
       "id": 60433350,
-      "timestamp": "2014-09-09T13:43:10Z",
-      "version": 5,
-      "changeset": 25328464,
-      "user": "popilen",
-      "uid": 2212883,
-      "nodes": [752266687, 2188317038],
+      "timestamp": "2022-02-27T21:46:11Z",
+      "version": 6,
+      "changeset": 117923231,
+      "user": "lorenzo23622",
+      "uid": 476483,
+      "nodes": [9543751511, 752266695],
       "geometry": [
-        {"lat": 45.8484287, "lon": 7.9385429},
+        {"lat": 45.8481949, "lon": 7.9386442},
         {"lat": 45.847921, "lon": 7.9387629},
         {"lat": 45.8478601, "lon": 7.9387881},
-        {"lat": 45.8476236, "lon": 7.9388859},
-        {"lat": 45.8475451, "lon": 7.9389191}
+        {"lat": 45.8476227, "lon": 7.9388671}
       ],
       "tags": {"highway": "residential", "source": "PCN Orthophoto"}
     },

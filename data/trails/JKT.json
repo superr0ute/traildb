@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-26T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-27T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10909145,
-      "timestamp": "2022-02-23T20:39:31Z",
-      "version": 1507,
-      "changeset": 117786632,
-      "user": "Wulz",
-      "uid": 10773975,
+      "timestamp": "2022-02-27T12:59:17Z",
+      "version": 1508,
+      "changeset": 117907130,
+      "user": "micheleOSM3",
+      "uid": 3538539,
       "members": [
         {"type": "node", "ref": 4007110375, "role": ""},
         {"type": "way", "ref": 1004393561, "role": ""},
@@ -356,7 +356,9 @@
         {"type": "way", "ref": 123121885, "role": ""},
         {"type": "way", "ref": 167436431, "role": ""},
         {"type": "way", "ref": 30353617, "role": ""},
+        {"type": "way", "ref": 1035657150, "role": ""},
         {"type": "way", "ref": 230937420, "role": ""},
+        {"type": "way", "ref": 1035657151, "role": ""},
         {"type": "way", "ref": 230937419, "role": ""},
         {"type": "way", "ref": 39628749, "role": ""},
         {"type": "way", "ref": 684772794, "role": ""},
@@ -3712,6 +3714,65 @@
         "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: Via Alpina Yellow B5\n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22b\n+ lwn:",
         "surface": "ground",
         "width": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1035657150,
+      "timestamp": "2022-02-27T12:59:17Z",
+      "version": 1,
+      "changeset": 117907130,
+      "user": "micheleOSM3",
+      "uid": 3538539,
+      "nodes": [475528186, 2393636100],
+      "geometry": [
+        {"lat": 46.5699955, "lon": 13.8460332},
+        {"lat": 46.5699489, "lon": 13.8462251},
+        {"lat": 46.5697869, "lon": 13.8463986},
+        {"lat": 46.5697471, "lon": 13.8465187},
+        {"lat": 46.5697006, "lon": 13.8466591},
+        {"lat": 46.5696966, "lon": 13.8468284},
+        {"lat": 46.5697434, "lon": 13.8471385},
+        {"lat": 46.5697811, "lon": 13.8472724},
+        {"lat": 46.5698817, "lon": 13.8473281},
+        {"lat": 46.5699579, "lon": 13.847362}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Warmbaderstraße",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf: + iwn: + nrw: + rwn: + lwn: 11",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1035657151,
+      "timestamp": "2022-02-27T12:59:17Z",
+      "version": 1,
+      "changeset": 117907130,
+      "user": "micheleOSM3",
+      "uid": 3538539,
+      "nodes": [1571432542, 334789402],
+      "geometry": [
+        {"lat": 46.5700079, "lon": 13.84737},
+        {"lat": 46.5702314, "lon": 13.847405},
+        {"lat": 46.5702718, "lon": 13.8474785},
+        {"lat": 46.570275, "lon": 13.8476378},
+        {"lat": 46.5702672, "lon": 13.8477469},
+        {"lat": 46.5702596, "lon": 13.8478528},
+        {"lat": 46.570233, "lon": 13.848068},
+        {"lat": 46.5700811, "lon": 13.8486328},
+        {"lat": 46.57004, "lon": 13.8488478}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Warmbaderstraße",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf: + iwn: + nrw: + rwn: + lwn: 11",
+        "surface": "asphalt"
       }
     },
     {
@@ -22389,21 +22450,13 @@
     {
       "type": "way",
       "id": 230937419,
-      "timestamp": "2021-12-26T20:12:02Z",
-      "version": 10,
-      "changeset": 115398612,
-      "user": "Wulz",
-      "uid": 10773975,
-      "nodes": [1571432542, 334760305],
+      "timestamp": "2022-02-27T12:59:17Z",
+      "version": 11,
+      "changeset": 117907130,
+      "user": "micheleOSM3",
+      "uid": 3538539,
+      "nodes": [334789402, 334760305],
       "geometry": [
-        {"lat": 46.5700079, "lon": 13.84737},
-        {"lat": 46.5702314, "lon": 13.847405},
-        {"lat": 46.5702718, "lon": 13.8474785},
-        {"lat": 46.570275, "lon": 13.8476378},
-        {"lat": 46.5702672, "lon": 13.8477469},
-        {"lat": 46.5702596, "lon": 13.8478528},
-        {"lat": 46.570233, "lon": 13.848068},
-        {"lat": 46.5700811, "lon": 13.8486328},
         {"lat": 46.57004, "lon": 13.8488478},
         {"lat": 46.5699793, "lon": 13.8490477},
         {"lat": 46.5696589, "lon": 13.849477},
@@ -22421,7 +22474,7 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Warmbaderstraße",
-        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 11",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf: + iwn: + nrw: + rwn: + lwn: 11",
         "surface": "asphalt"
       }
     },
@@ -31580,12 +31633,12 @@
     {
       "type": "way",
       "id": 30353617,
-      "timestamp": "2021-12-26T20:12:02Z",
-      "version": 18,
-      "changeset": 115398612,
-      "user": "Wulz",
-      "uid": 10773975,
-      "nodes": [334789366, 2393636100],
+      "timestamp": "2022-02-27T12:59:17Z",
+      "version": 19,
+      "changeset": 117907130,
+      "user": "micheleOSM3",
+      "uid": 3538539,
+      "nodes": [334789366, 475528186],
       "geometry": [
         {"lat": 46.5709693, "lon": 13.8437939},
         {"lat": 46.5711014, "lon": 13.84418},
@@ -31599,23 +31652,14 @@
         {"lat": 46.5702398, "lon": 13.8451843},
         {"lat": 46.5701665, "lon": 13.8453396},
         {"lat": 46.5700669, "lon": 13.8456718},
-        {"lat": 46.5699955, "lon": 13.8460332},
-        {"lat": 46.5699489, "lon": 13.8462251},
-        {"lat": 46.5697869, "lon": 13.8463986},
-        {"lat": 46.5697471, "lon": 13.8465187},
-        {"lat": 46.5697006, "lon": 13.8466591},
-        {"lat": 46.5696966, "lon": 13.8468284},
-        {"lat": 46.5697434, "lon": 13.8471385},
-        {"lat": 46.5697811, "lon": 13.8472724},
-        {"lat": 46.5698817, "lon": 13.8473281},
-        {"lat": 46.5699579, "lon": 13.847362}
+        {"lat": 46.5699955, "lon": 13.8460332}
       ],
       "tags": {
         "highway": "unclassified",
         "lanes": "2",
         "maxspeed": "30",
         "name": "Warmbaderstraße",
-        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf:\n + iwn:  \n + nrw: \n + rwn: \n + lwn: 11",
+        "note": "Beim “Julius-Kugy-Dreiländerweg in 30 Etappen“ trifft man auf: + iwn: + nrw: + rwn: + lwn: 11",
         "surface": "asphalt"
       }
     },
