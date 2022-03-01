@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-27T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-02-28T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -961,9 +961,9 @@
     {
       "type": "relation",
       "id": 3161445,
-      "timestamp": "2022-02-27T22:26:46Z",
-      "version": 27,
-      "changeset": 117924098,
+      "timestamp": "2022-02-28T09:26:37Z",
+      "version": 28,
+      "changeset": 117935836,
       "user": "lorenzo23622",
       "uid": 476483,
       "members": [
@@ -997,6 +997,7 @@
         {"type": "way", "ref": 1035851465, "role": ""},
         {"type": "way", "ref": 60433350, "role": ""},
         {"type": "way", "ref": 302582143, "role": ""},
+        {"type": "way", "ref": 1035941069, "role": ""},
         {"type": "way", "ref": 327608530, "role": ""},
         {"type": "way", "ref": 299848408, "role": ""},
         {"type": "way", "ref": 299848407, "role": ""},
@@ -3080,6 +3081,29 @@
         {"lat": 45.8363441, "lon": 7.9485964}
       ],
       "tags": {"highway": "track"}
+    },
+    {
+      "type": "way",
+      "id": 1035941069,
+      "timestamp": "2022-02-28T09:26:37Z",
+      "version": 1,
+      "changeset": 117935836,
+      "user": "lorenzo23622",
+      "uid": 476483,
+      "nodes": [3068306018, 3068306008],
+      "geometry": [
+        {"lat": 45.8473848, "lon": 7.9389847},
+        {"lat": 45.84736, "lon": 7.9389865},
+        {"lat": 45.8473366, "lon": 7.9389983},
+        {"lat": 45.8473235, "lon": 7.9390103},
+        {"lat": 45.8473121, "lon": 7.9390254}
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "oneway": "yes",
+        "source": "PCN Orthophoto"
+      }
     },
     {
       "type": "way",
