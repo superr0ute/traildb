@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-02-27T23:59:59Z",
-    "timestamp_osm_base": "2022-02-28T04:17:54Z",
+    "timestamp_osm_date": "2022-02-28T23:59:59Z",
+    "timestamp_osm_base": "2022-03-01T04:21:29Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -67,19 +67,21 @@
       "id": 211318756,
       "lat": 29.1605313,
       "lon": -13.4394389,
-      "timestamp": "2018-10-26T14:29:11Z",
-      "version": 10,
-      "changeset": 63902505,
-      "user": "carino",
-      "uid": 3642114,
+      "timestamp": "2022-02-28T08:44:44Z",
+      "version": 11,
+      "changeset": 117934410,
+      "user": "xeruf",
+      "uid": 10280195,
       "tags": {
-        "fee": "yes",
+        "description": "Obligatory guided tours in English and Spanish every hour. Last tour at 16, recommended 15.",
+        "fee": "10€",
         "name": "Cueva de los Verdes",
         "natural": "cave_entrance",
-        "opening_hours": "Mo-Su 10:00-17:00",
+        "opening_hours": "10:00-16:00",
         "source": "landsat",
         "toilets:wheelchair": "no",
         "tourism": "attraction",
+        "website": "https://www.cactlanzarote.com/en/cact/cueva-de-los-verdes",
         "wheelchair": "no",
         "wheelchair:description": "Die Höhle ist nur über Stufen zu erreichen. (Okt.18)",
         "wikidata": "Q899513",
@@ -1402,15 +1404,16 @@
       "id": 2959559992,
       "lat": 29.1579774,
       "lon": -13.4386715,
-      "timestamp": "2021-07-06T15:53:48Z",
-      "version": 5,
-      "changeset": 107507675,
-      "user": "ceever",
-      "uid": 5592573,
+      "timestamp": "2022-02-28T08:44:44Z",
+      "version": 6,
+      "changeset": 117934410,
+      "user": "xeruf",
+      "uid": 10280195,
       "tags": {
         "access": "no",
         "alt_name": "Cueva de los Siete Lagos",
-        "name": "Cueva de Los Siete Lagos.",
+        "description": "Enclosed in a locked metal cage, little to see except a little information sign and a hole of about 20m.",
+        "name": "Cueva de Los Siete Lagos",
         "natural": "cave_entrance",
         "source": "landsat"
       }
@@ -2604,12 +2607,13 @@
       "id": 7972773687,
       "lat": 29.1635792,
       "lon": -13.4506559,
-      "timestamp": "2020-10-04T09:01:33Z",
-      "version": 1,
-      "changeset": 91924710,
-      "user": "sanchi",
-      "uid": 170106,
+      "timestamp": "2022-02-28T08:44:45Z",
+      "version": 2,
+      "changeset": 117934410,
+      "user": "xeruf",
+      "uid": 10280195,
       "tags": {
+        "description": "Extends West and East, can be climbed into by foot. No special equipment is needed, but solid shoes, a headlight and gloves are recommended as it gets dusty and dark quickly. Can be annoying when wearing glasses.",
         "name": "Cueva de La Paloma",
         "natural": "cave_entrance"
       }
@@ -3232,6 +3236,27 @@
     },
     {
       "type": "node",
+      "id": 9461104095,
+      "lat": 29.1462651,
+      "lon": -13.4484594,
+      "timestamp": "2022-02-28T08:44:59Z",
+      "version": 2,
+      "changeset": 117934416,
+      "user": "xeruf",
+      "uid": 10280195,
+      "tags": {
+        "description": "Small general store for convenience goods. A small café is integrated in the store. It's possible to take a shady break on the terrace.\nFair prices and very friendly staff.",
+        "name": "Minimarket de Punta Mujeres con aroma de café",
+        "parking": "yes",
+        "parking:fee": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
       "id": 9528411489,
       "lat": 29.1115119,
       "lon": -13.4597254,
@@ -3257,6 +3282,22 @@
       "uid": 10280195,
       "tags": {
         "description": "Undercut by the water with visible holes",
+        "natural": "cave_entrance"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9544508476,
+      "lat": 29.1569124,
+      "lon": -13.4299885,
+      "timestamp": "2022-02-28T08:44:43Z",
+      "version": 1,
+      "changeset": 117934410,
+      "user": "xeruf",
+      "uid": 10280195,
+      "tags": {
+        "description": "A pit of a few meters that can be walked into off the official ways. Some overarching rocks but nothing spectacular.",
+        "name": "Rubble Pit",
         "natural": "cave_entrance"
       }
     },
@@ -3482,6 +3523,27 @@
         "payment:visa": "yes",
         "shop": "supermarket",
         "website": "https://www.lidl.es/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 690805210,
+      "timestamp": "2022-02-28T08:44:59Z",
+      "version": 4,
+      "changeset": 117934416,
+      "user": "xeruf",
+      "uid": 10280195,
+      "center": {
+        "lat": 29.0756204,
+        "lon": -13.4791703
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Coviran",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "shop": "supermarket"
       }
     }
   ]
