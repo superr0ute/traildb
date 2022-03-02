@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-18T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-03-01T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -217,11 +217,11 @@
     {
       "type": "relation",
       "id": 8814381,
-      "timestamp": "2021-02-18T17:49:22Z",
-      "version": 3,
-      "changeset": 99540888,
-      "user": "Badojo",
-      "uid": 8189075,
+      "timestamp": "2022-03-01T15:36:52Z",
+      "version": 4,
+      "changeset": 117984482,
+      "user": "isvedic",
+      "uid": 331318,
       "members": [
         {"type": "way", "ref": 273324024, "role": ""},
         {"type": "way", "ref": 908483580, "role": ""},
@@ -251,6 +251,7 @@
         {"type": "way", "ref": 312033377, "role": ""},
         {"type": "way", "ref": 220888863, "role": ""},
         {"type": "way", "ref": 55938425, "role": ""},
+        {"type": "way", "ref": 1036314309, "role": ""},
         {"type": "way", "ref": 220890229, "role": ""}
       ],
       "tags": {
@@ -460,6 +461,32 @@
         {"lat": 45.4135642, "lon": 14.9221143}
       ],
       "tags": {"highway": "unclassified"}
+    },
+    {
+      "type": "way",
+      "id": 1036314309,
+      "timestamp": "2022-03-01T15:36:52Z",
+      "version": 1,
+      "changeset": 117984482,
+      "user": "isvedic",
+      "uid": 331318,
+      "nodes": [702250603, 2949457847],
+      "geometry": [
+        {"lat": 45.2602844, "lon": 15.1436905},
+        {"lat": 45.2604212, "lon": 15.1436728},
+        {"lat": 45.2605051, "lon": 15.1436781},
+        {"lat": 45.2606198, "lon": 15.143663},
+        {"lat": 45.2606891, "lon": 15.1435691},
+        {"lat": 45.2608088, "lon": 15.1435131},
+        {"lat": 45.2608686, "lon": 15.1434818},
+        {"lat": 45.2609064, "lon": 15.1434057}
+      ],
+      "tags": {
+        "highway": "steps",
+        "sac_scale": "hiking",
+        "sac_scale_ref": "T2",
+        "trail_visibility": "excellent"
+      }
     },
     {
       "type": "way",
@@ -2563,20 +2590,13 @@
     {
       "type": "way",
       "id": 220890229,
-      "timestamp": "2016-07-03T20:17:24Z",
-      "version": 11,
-      "changeset": 40465597,
-      "user": "Vedran V",
-      "uid": 158601,
-      "nodes": [702250603, 2299671202],
+      "timestamp": "2022-03-01T15:36:52Z",
+      "version": 12,
+      "changeset": 117984482,
+      "user": "isvedic",
+      "uid": 331318,
+      "nodes": [2949457847, 2299671202],
       "geometry": [
-        {"lat": 45.2602844, "lon": 15.1436905},
-        {"lat": 45.2604212, "lon": 15.1436728},
-        {"lat": 45.2605051, "lon": 15.1436781},
-        {"lat": 45.2606198, "lon": 15.143663},
-        {"lat": 45.2606891, "lon": 15.1435691},
-        {"lat": 45.2608088, "lon": 15.1435131},
-        {"lat": 45.2608686, "lon": 15.1434818},
         {"lat": 45.2609064, "lon": 15.1434057},
         {"lat": 45.2608884, "lon": 15.1433283},
         {"lat": 45.2604773, "lon": 15.1433016},
