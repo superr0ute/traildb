@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-03-01T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-03-02T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11123868,
-      "timestamp": "2022-02-22T12:45:11Z",
-      "version": 196,
-      "changeset": 117725735,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-03-02T19:21:19Z",
+      "version": 197,
+      "changeset": 118031093,
+      "user": "Yitzchak M",
+      "uid": 8724982,
       "members": [
         {"type": "way", "ref": 723053761, "role": ""},
         {"type": "way", "ref": 853340709, "role": ""},
@@ -359,6 +359,7 @@
         {"type": "way", "ref": 334022631, "role": ""},
         {"type": "way", "ref": 303623192, "role": ""},
         {"type": "way", "ref": 296681178, "role": ""},
+        {"type": "way", "ref": 1036638339, "role": ""},
         {"type": "way", "ref": 88302165, "role": ""},
         {"type": "way", "ref": 108294577, "role": ""},
         {"type": "way", "ref": 813347297, "role": ""},
@@ -3317,6 +3318,33 @@
     },
     {
       "type": "way",
+      "id": 1036638339,
+      "timestamp": "2022-03-02T19:21:19Z",
+      "version": 1,
+      "changeset": 118031093,
+      "user": "Yitzchak M",
+      "uid": 8724982,
+      "nodes": [1024780047, 1024780049],
+      "geometry": [
+        {"lat": 31.6627389, "lon": 34.9224494},
+        {"lat": 31.662998, "lon": 34.922528},
+        {"lat": 31.663129, "lon": 34.922618},
+        {"lat": 31.663363, "lon": 34.922722},
+        {"lat": 31.663499, "lon": 34.922803},
+        {"lat": 31.663714, "lon": 34.923037},
+        {"lat": 31.663804, "lon": 34.923079},
+        {"lat": 31.664418, "lon": 34.923211},
+        {"lat": 31.664548, "lon": 34.923283}
+      ],
+      "tags": {
+        "colour": "black",
+        "highway": "path",
+        "mtb:scale": "4",
+        "surface": "dirt"
+      }
+    },
+    {
+      "type": "way",
       "id": 107378716,
       "timestamp": "2022-01-17T11:42:04Z",
       "version": 3,
@@ -3576,11 +3604,11 @@
     {
       "type": "way",
       "id": 108294577,
-      "timestamp": "2019-05-12T19:28:39Z",
-      "version": 8,
-      "changeset": 70169000,
-      "user": "valleyofdawn",
-      "uid": 356970,
+      "timestamp": "2022-03-02T19:55:58Z",
+      "version": 9,
+      "changeset": 118032115,
+      "user": "Yitzchak M",
+      "uid": 8724982,
       "nodes": [1007211350, 1007211382],
       "geometry": [
         {"lat": 31.6658213, "lon": 34.9226966},
@@ -3593,7 +3621,7 @@
         {"lat": 31.6672365, "lon": 34.9229409},
         {"lat": 31.6673972, "lon": 34.9229129}
       ],
-      "tags": {"colour": "green", "highway": "track", "surface": "asphalt"}
+      "tags": {"highway": "track", "surface": "asphalt"}
     },
     {
       "type": "way",
@@ -7105,9 +7133,9 @@
     {
       "type": "way",
       "id": 180873489,
-      "timestamp": "2019-05-13T19:05:57Z",
-      "version": 11,
-      "changeset": 70205883,
+      "timestamp": "2022-03-02T19:45:58Z",
+      "version": 12,
+      "changeset": 118031828,
       "user": "eric22",
       "uid": 160949,
       "nodes": [1754176370, 3900749749],
@@ -7128,6 +7156,7 @@
         {"lat": 31.7527777, "lon": 35.2085327},
         {"lat": 31.7525707, "lon": 35.2081853},
         {"lat": 31.7525015, "lon": 35.2081131},
+        {"lat": 31.7504888, "lon": 35.2063484},
         {"lat": 31.7500473, "lon": 35.2059613},
         {"lat": 31.7497262, "lon": 35.2056271},
         {"lat": 31.7496452, "lon": 35.2055045},
@@ -16463,12 +16492,12 @@
     {
       "type": "way",
       "id": 296681178,
-      "timestamp": "2020-10-20T21:16:58Z",
-      "version": 8,
-      "changeset": 92791253,
-      "user": "hatul",
-      "uid": 686490,
-      "nodes": [538595441, 1024780049],
+      "timestamp": "2022-03-02T19:43:19Z",
+      "version": 10,
+      "changeset": 118031742,
+      "user": "Yitzchak M",
+      "uid": 8724982,
+      "nodes": [538595441, 1024780047],
       "geometry": [
         {"lat": 31.660363, "lon": 34.922929},
         {"lat": 31.660954, "lon": 34.922974},
@@ -16478,19 +16507,10 @@
         {"lat": 31.661944, "lon": 34.92269},
         {"lat": 31.662137, "lon": 34.922646},
         {"lat": 31.662652, "lon": 34.922448},
-        {"lat": 31.6627389, "lon": 34.9224494},
-        {"lat": 31.662998, "lon": 34.922528},
-        {"lat": 31.663129, "lon": 34.922618},
-        {"lat": 31.663363, "lon": 34.922722},
-        {"lat": 31.663499, "lon": 34.922803},
-        {"lat": 31.663714, "lon": 34.923037},
-        {"lat": 31.663804, "lon": 34.923079},
-        {"lat": 31.664418, "lon": 34.923211},
-        {"lat": 31.664548, "lon": 34.923283}
+        {"lat": 31.6627389, "lon": 34.9224494}
       ],
       "tags": {
-        "colour": "green",
-        "fixme": "צבע השביל כנראה שחור",
+        "colour": "black",
         "highway": "path",
         "mtb:scale": "4",
         "surface": "dirt"
@@ -18767,11 +18787,11 @@
     {
       "type": "way",
       "id": 303623192,
-      "timestamp": "2020-10-20T21:16:58Z",
-      "version": 7,
-      "changeset": 92791253,
-      "user": "hatul",
-      "uid": 686490,
+      "timestamp": "2022-03-02T19:43:19Z",
+      "version": 8,
+      "changeset": 118031742,
+      "user": "Yitzchak M",
+      "uid": 8724982,
       "nodes": [538595419, 538595441],
       "geometry": [
         {"lat": 31.658044, "lon": 34.92245},
@@ -18782,12 +18802,7 @@
         {"lat": 31.659841, "lon": 34.922778},
         {"lat": 31.660363, "lon": 34.922929}
       ],
-      "tags": {
-        "colour": "green",
-        "fixme": "צבע השביל כנראה שחור",
-        "highway": "track",
-        "surface": "dirt"
-      }
+      "tags": {"colour": "black", "highway": "track", "surface": "dirt"}
     },
     {
       "type": "way",
@@ -56097,7 +56112,7 @@
       "uid": 8724982,
       "nodes": [4017029889, 4017029821],
       "geometry": [
-        {"lat": 31.633427, "lon": 34.9093931},
+        {"lat": 31.6334339, "lon": 34.9093804},
         {"lat": 31.6333151, "lon": 34.9093684},
         {"lat": 31.6331732, "lon": 34.9093846},
         {"lat": 31.6330025, "lon": 34.9094397},
@@ -69536,11 +69551,11 @@
     {
       "type": "way",
       "id": 88302165,
-      "timestamp": "2020-10-20T21:16:58Z",
-      "version": 9,
-      "changeset": 92791253,
-      "user": "hatul",
-      "uid": 686490,
+      "timestamp": "2022-03-02T19:21:19Z",
+      "version": 10,
+      "changeset": 118031093,
+      "user": "Yitzchak M",
+      "uid": 8724982,
       "nodes": [1024780049, 1007211350],
       "geometry": [
         {"lat": 31.664548, "lon": 34.923283},
@@ -69551,8 +69566,7 @@
         {"lat": 31.6658213, "lon": 34.9226966}
       ],
       "tags": {
-        "colour": "green",
-        "fixme": "צבע השביל כנראה שחור",
+        "colour": "black",
         "highway": "track",
         "mtb:scale": "3",
         "surface": "dirt"
