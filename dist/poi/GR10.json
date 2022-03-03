@@ -5801,14 +5801,15 @@
         "@poi": "peak_peak",
         "@distance": 1388.2,
         "@id": "n626639517",
-        "@changeset": 79146463,
-        "@timestamp": "2020-01-03T08:30:46Z",
-        "@version": 9,
-        "@uid": 4224320,
-        "@user": "oc-OpenStreetMap",
+        "@changeset": 118030531,
+        "@timestamp": "2022-03-02T19:01:04Z",
+        "@version": 10,
+        "@uid": 12652834,
+        "@user": "Pau_Posatero",
         "alt_name": "Pique Longue",
         "ele": 3298,
         "name": "Vignemale",
+        "name:an": "Punda de Camachibosa / Viñamala",
         "natural": "peak",
         "prominence": "1027",
         "source:prominence": "https://en.wikipedia.org/wiki/List_of_Pyrenean_three-thousanders",
@@ -29073,16 +29074,18 @@
         "@poi": "peak_peak",
         "@distance": 4167.4,
         "@id": "n5003256555",
-        "@changeset": 86566196,
-        "@timestamp": "2020-06-12T12:04:14Z",
-        "@version": 3,
-        "@uid": 2904,
-        "@user": "Emilio Gomez",
+        "@changeset": 118026145,
+        "@timestamp": "2022-03-02T16:32:22Z",
+        "@version": 5,
+        "@uid": 4398521,
+        "@user": "Ricardo Palomar",
         "ele": 3104,
-        "name": "Punta Lourde-Rocheblave",
+        "name": "Tuca de Puixebres",
+        "name:es": "Punta Lourde Rocheblave",
         "name:fr": "Pointe Lourde Rocheblave",
         "natural": "peak",
-        "wikidata": "Q11943914"
+        "wikidata": "Q11943914",
+        "wikipedia": "an:Tuca de Puixebres"
       },
       "geometry": {
         "type": "Point",
@@ -29683,32 +29686,6 @@
         "coordinates": [
           0.5882012,
           42.7909958
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 102.1,
-        "@id": "n6515243885",
-        "@changeset": 91047066,
-        "@timestamp": "2020-09-17T12:17:50Z",
-        "@version": 3,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "description": "source d'eau potable",
-        "description:en": "drinkable",
-        "drinking_water": "yes",
-        "name": "Source du lac de Coueyla-Gran",
-        "natural": "spring",
-        "website": "https://www.refuges.info/point/6432/point-d-eau/Bigorre/Source-du-lac-de-Coueyla-Gran/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.153176,
-          42.8746892
         ]
       }
     },
@@ -32377,6 +32354,32 @@
         "coordinates": [
           -0.6334299,
           42.9347498
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 102.1,
+        "@id": "n6515243885",
+        "@changeset": 91047066,
+        "@timestamp": "2020-09-17T12:17:50Z",
+        "@version": 3,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "description": "source d'eau potable",
+        "description:en": "drinkable",
+        "drinking_water": "yes",
+        "name": "Source du lac de Coueyla-Gran",
+        "natural": "spring",
+        "website": "https://www.refuges.info/point/6432/point-d-eau/Bigorre/Source-du-lac-de-Coueyla-Gran/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.153176,
+          42.8746892
         ]
       }
     },
@@ -37420,39 +37423,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "alpine-hut",
-        "@distance": 195.7,
-        "@id": "w96705271",
-        "@changeset": 78712954,
-        "@timestamp": "2019-12-21T13:47:34Z",
-        "@version": 5,
-        "@uid": 10575005,
-        "@user": "CalvinL",
-        "beds": "60",
-        "building": "yes",
-        "ele": 1967,
-        "fee": "yes",
-        "internet_access": "no",
-        "name": "Refuge d'Espingo",
-        "operator": "Club Alpin Français",
-        "phone": "+33 5 61 79 20 01",
-        "reservation": "recommended",
-        "toilets": "yes",
-        "tourism": "alpine_hut",
-        "website": "http://refugedespingo.ffcam.fr/",
-        "winter_room": "15"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.4995703,
-          42.7305195
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 5081.3,
         "@id": "n4657634345",
@@ -41464,6 +41434,39 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "alpine-hut",
+        "@distance": 195.7,
+        "@id": "w96705271",
+        "@changeset": 78712954,
+        "@timestamp": "2019-12-21T13:47:34Z",
+        "@version": 5,
+        "@uid": 10575005,
+        "@user": "CalvinL",
+        "beds": "60",
+        "building": "yes",
+        "ele": 1967,
+        "fee": "yes",
+        "internet_access": "no",
+        "name": "Refuge d'Espingo",
+        "operator": "Club Alpin Français",
+        "phone": "+33 5 61 79 20 01",
+        "reservation": "recommended",
+        "toilets": "yes",
+        "tourism": "alpine_hut",
+        "website": "http://refugedespingo.ffcam.fr/",
+        "winter_room": "15"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4995703,
+          42.7305195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_wilderness-hut",
         "@distance": 38.4,
         "@id": "w115025749",
@@ -42224,30 +42227,6 @@
         "coordinates": [
           0.6074964,
           42.7956861
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 7.2,
-        "@id": "w315884655",
-        "@changeset": 27260812,
-        "@timestamp": "2014-12-05T12:10:44Z",
-        "@version": 1,
-        "@uid": 358508,
-        "@user": "jabali",
-        "name": "Camping Pène Blanche",
-        "stars": "2",
-        "tourism": "camp_site",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.4049506,
-          42.7961655
         ]
       }
     },
@@ -44674,6 +44653,30 @@
         "coordinates": [
           -0.3592789,
           42.9568084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 7.2,
+        "@id": "w315884655",
+        "@changeset": 27260812,
+        "@timestamp": "2014-12-05T12:10:44Z",
+        "@version": 1,
+        "@uid": 358508,
+        "@user": "jabali",
+        "name": "Camping Pène Blanche",
+        "stars": "2",
+        "tourism": "camp_site",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4049506,
+          42.7961655
         ]
       }
     },
