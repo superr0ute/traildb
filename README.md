@@ -1,6 +1,6 @@
 ### traildb version 2022-03-05
 - 108 trails (41 unroutable, 38 routable, 28 broken, 1 complete)
-- 685MiB data (188MiB trails, 334MiB elevation, 127MiB poi, 36MiB dist)
+- 686MiB data (188MiB trails, 334MiB elevation, 128MiB poi, 36MiB dist)
 - trail status: ❌ unroutable ✔️ routable ❌❌ broken ✔️✔️ complete
 
 | status | srId | srName | srColor | updated | poi |
@@ -60,12 +60,12 @@
 |❌❌|[HRP](https://superroute.org/HRP)|Haute Randonnée Pyrénéenne [osm](https://osm.org/relation/2018553) [wiki](https://wikidata.org/wiki/Q924990)|![#FF0000](https://via.placeholder.com/14/FF0000/000000?text=+) #FF0000|2021-07-30|2065|
 |✔️|[ICEH](https://superroute.org/ICEH)|GR 131 El Hierro [osm](https://osm.org/relation/448364) [wiki](https://wikidata.org/wiki/Q106697831)|![#FFCC00](https://via.placeholder.com/14/FFCC00/000000?text=+) #FFCC00|2022-02-19|72|
 |✔️|[ICFV](https://superroute.org/ICFV)|GR 131 Fuerteventura [osm](https://osm.org/relation/3353722) [wiki](https://wikidata.org/wiki/Q106697784)|![#FFCC00](https://via.placeholder.com/14/FFCC00/000000?text=+) #FFCC00|2022-01-09|90|
-|❌❌|[ICLG](https://superroute.org/ICLG)|GR 131 La Gomera [osm](https://osm.org/relation/65529) [wiki](https://wikidata.org/wiki/Q106697747)|![#FFCC00](https://via.placeholder.com/14/FFCC00/000000?text=+) #FFCC00|2021-06-28|78|
+|❌❌|[ICLG](https://superroute.org/ICLG)|GR 131 La Gomera [osm](https://osm.org/relation/65529) [wiki](https://wikidata.org/wiki/Q106697747)|![#FFCC00](https://via.placeholder.com/14/FFCC00/000000?text=+) #FFCC00|2021-06-28|79|
 |❌❌|[ICLP1](https://superroute.org/ICLP1)|GR-130 La Palma Costa [osm](https://osm.org/relation/1361083) [wiki](https://wikidata.org/wiki/Q63453861)|![#0768A9](https://via.placeholder.com/14/0768A9/000000?text=+) #0768A9|2021-12-13|282|
 |❌❌|[ICLP2](https://superroute.org/ICLP2)|GR 131 La Palma Ruta Alta [osm](https://osm.org/relation/49155) [wiki](https://wikidata.org/wiki/Q106697756)|![#FFCC00](https://via.placeholder.com/14/FFCC00/000000?text=+) #FFCC00|2021-10-24|167|
 |✔️|[ICLZ](https://superroute.org/ICLZ)|GR 131 Lanzarote [osm](https://osm.org/relation/6171552) [wiki](https://wikidata.org/wiki/Q106697770)|![#FFCC00](https://via.placeholder.com/14/FFCC00/000000?text=+) #FFCC00|2022-02-08|149|
 |✔️|[ICTF](https://superroute.org/ICTF)|GR 131 Tenerife [osm](https://osm.org/relation/1122328) [wiki](https://wikidata.org/wiki/Q106697794)|![#FFCC00](https://via.placeholder.com/14/FFCC00/000000?text=+) #FFCC00|2021-10-17|472|
-|✔️|[INT](https://superroute.org/INT)|Israel National Trail [osm](https://osm.org/relation/282071) [wiki](https://wikidata.org/wiki/Q583897)|![#0035B9](https://via.placeholder.com/14/0035B9/000000?text=+) #0035B9|2022-03-03|3345|
+|✔️|[INT](https://superroute.org/INT)|Israel National Trail [osm](https://osm.org/relation/282071) [wiki](https://wikidata.org/wiki/Q583897)|![#0035B9](https://via.placeholder.com/14/0035B9/000000?text=+) #0035B9|2022-03-03|3346|
 |❌|[J2D](https://superroute.org/J2D)|Jomsom to Dolpo Trek [osm](https://osm.org/relation/11107384) [wiki](https://wikidata.org/wiki/Q106773605)||2021-11-29||
 |✔️|[JHT](https://superroute.org/JHT)|Jugal Himal Trek [osm](https://osm.org/relation/12658318) [wiki](https://wikidata.org/wiki/Q106773664)|![#85FF81](https://via.placeholder.com/14/85FF81/000000?text=+) #85FF81|2021-05-28|6|
 |❌|[JKT](https://superroute.org/JKT)|Julius Kugy Alpine Trail [osm](https://osm.org/relation/10909145) [wiki](https://wikidata.org/wiki/Q106099233)||today||
@@ -92,7 +92,7 @@
 |❌|[SIL](https://superroute.org/SIL)|Sentiero Italia - Lombardia [osm](https://osm.org/relation/7029512) [wiki](https://wikidata.org/wiki/Q106567865)|![#008C45](https://via.placeholder.com/14/008C45/000000?text=+) #008C45|today||
 |❌|[SIP](https://superroute.org/SIP)|Sentiero Italia - Piemonte [osm](https://osm.org/relation/7029511) [wiki](https://wikidata.org/wiki/Q106567766)|![#008C45](https://via.placeholder.com/14/008C45/000000?text=+) #008C45|2022-03-02||
 |✔️|[SIS](https://superroute.org/SIS)|Sentiero Italia - Sicilia [osm](https://osm.org/relation/7011950) [wiki](https://wikidata.org/wiki/Q106567599)|![#008C45](https://via.placeholder.com/14/008C45/000000?text=+) #008C45|2022-02-28|594|
-|❌❌|[SNP](https://superroute.org/SNP)|Cesta hrdinov SNP [osm](https://osm.org/relation/7700604) [wiki](https://wikidata.org/wiki/Q3512223)|![#11457E](https://via.placeholder.com/14/11457E/000000?text=+) #11457E|2022-01-28|4272|
+|❌❌|[SNP](https://superroute.org/SNP)|Cesta hrdinov SNP [osm](https://osm.org/relation/7700604) [wiki](https://wikidata.org/wiki/Q3512223)|![#11457E](https://via.placeholder.com/14/11457E/000000?text=+) #11457E|2022-01-28|4271|
 |❌❌|[SSA](https://superroute.org/SSA)|Sentiero di Spartiacque Appenninico [osm](https://osm.org/relation/136334) [wiki](https://wikidata.org/wiki/Q106099636)||2021-12-28|1162|
 |❌|[SZL](https://superroute.org/SZL)|Sarchu Zanskar Lamayuru [osm](https://osm.org/relation/11229978) [wiki](https://wikidata.org/wiki/Q106774333)||2022-01-30||
 |❌|[TAN](https://superroute.org/TAN)|Te Araroa North [osm](https://osm.org/relation/8518624) [wiki](https://wikidata.org/wiki/Q106564271)||today||
@@ -114,7 +114,7 @@
 |❌|[WES](https://superroute.org/WES)|Westweg [osm](https://osm.org/relation/62900) [wiki](https://wikidata.org/wiki/Q2565728)||2022-03-01||
 |✔️|[WON](https://superroute.org/WON)|Wonderland Trail [osm](https://osm.org/relation/4111743) [wiki](https://wikidata.org/wiki/Q3498361)|![#7968FF](https://via.placeholder.com/14/7968FF/000000?text=+) #7968FF|2022-01-18|85|
 
-### poidb version 2022-03-04
+### poidb version 2022-03-05
 
 | name | selector | maxDistance |
 |  --- | --- | --- |
