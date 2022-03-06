@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-03-04T23:59:59Z",
-    "timestamp_osm_base": "2022-03-05T05:13:40Z",
+    "timestamp_osm_date": "2022-03-05T23:59:59Z",
+    "timestamp_osm_base": "2022-03-06T05:17:17Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9074,8 +9074,8 @@
       "user": "kayle",
       "uid": 51917,
       "tags": {
-        "name": "COOP Jednota",
-        "shop": "convenience"
+        "shop": "convenience",
+        "name": "COOP Jednota"
       }
     },
     {
@@ -9120,12 +9120,12 @@
       "user": "aceman444",
       "uid": 1617449,
       "tags": {
+        "website": "https://tesco.sk/obchody/detail-obchodu/nova-dubnica-supermarket/",
         "branch": "Nová Dubnica",
         "name": "Tesco Supermarket",
         "opening_hours": "Mo-Sa 06:00-21:00; Su 07:00-21:00",
         "operator": "Tesco Stores SR",
-        "shop": "supermarket",
-        "website": "https://tesco.sk/obchody/detail-obchodu/nova-dubnica-supermarket/"
+        "shop": "supermarket"
       }
     },
     {
@@ -19094,6 +19094,26 @@
     },
     {
       "type": "way",
+      "id": 277764427,
+      "timestamp": "2022-03-05T14:39:54Z",
+      "version": 2,
+      "changeset": 118128731,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.2128674,
+        "lon": 17.8791892
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport",
+        "source": "czuk:km"
+      }
+    },
+    {
+      "type": "way",
       "id": 279335877,
       "timestamp": "2015-08-23T18:05:29Z",
       "version": 2,
@@ -19690,6 +19710,30 @@
         "phone": "+420604236631",
         "tourism": "camp_site",
         "website": "https://www.eurocamping.cz/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 529197664,
+      "timestamp": "2022-03-05T15:15:59Z",
+      "version": 2,
+      "changeset": 118129983,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.1084928,
+        "lon": 17.6973562
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "building:flats": "1",
+        "building:levels": "1",
+        "building:ruian:type": "7",
+        "name": "Můjobchod - Potraviny QeeTee",
+        "ref:ruian:building": "3826163",
+        "shop": "convenience",
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -20911,11 +20955,11 @@
     {
       "type": "way",
       "id": 946140102,
-      "timestamp": "2021-05-23T20:21:30Z",
-      "version": 1,
-      "changeset": 105183677,
-      "user": "vrabcak",
-      "uid": 8007,
+      "timestamp": "2022-03-05T21:29:55Z",
+      "version": 2,
+      "changeset": 118141198,
+      "user": "LeoBardonaro",
+      "uid": 573826,
       "center": {
         "lat": 49.0929655,
         "lon": 17.6692501
@@ -20923,6 +20967,7 @@
       "nodes": [],
       "tags": {
         "amenity": "shelter",
+        "building": "yes",
         "shelter_type": "public_transport"
       }
     },
@@ -22271,6 +22316,63 @@
       "center": {
         "lat": 49.0735566,
         "lon": 17.8214854
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1037356856,
+      "timestamp": "2022-03-05T15:15:59Z",
+      "version": 1,
+      "changeset": 118129983,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.1015671,
+        "lon": 17.6977437
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1037356866,
+      "timestamp": "2022-03-05T15:15:59Z",
+      "version": 1,
+      "changeset": 118129983,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.1125361,
+        "lon": 17.6944635
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1037426205,
+      "timestamp": "2022-03-05T21:29:55Z",
+      "version": 1,
+      "changeset": 118141198,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.0988569,
+        "lon": 17.6607024
       },
       "nodes": [],
       "tags": {
