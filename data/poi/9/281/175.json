@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-03-05T23:59:59Z",
-    "timestamp_osm_base": "2022-03-06T05:17:17Z",
+    "timestamp_osm_date": "2022-03-06T23:59:59Z",
+    "timestamp_osm_base": "2022-03-07T05:16:08Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6915,13 +6915,13 @@
     {
       "type": "node",
       "id": 1598988239,
-      "lat": 49.2223608,
-      "lon": 17.9135289,
-      "timestamp": "2016-01-05T09:47:41Z",
-      "version": 3,
-      "changeset": 36376567,
-      "user": "Baryduke",
-      "uid": 1737909,
+      "lat": 49.2223431,
+      "lon": 17.9134604,
+      "timestamp": "2022-03-06T13:09:02Z",
+      "version": 4,
+      "changeset": 118158124,
+      "user": "LeoBardonaro",
+      "uid": 573826,
       "tags": {
         "name": "Bratřejov",
         "name:cs": "Bratřejov",
@@ -9068,14 +9068,15 @@
       "id": 3213064809,
       "lat": 48.936445,
       "lon": 18.14662,
-      "timestamp": "2014-11-30T19:35:28Z",
-      "version": 1,
-      "changeset": 27139348,
-      "user": "kayle",
-      "uid": 51917,
+      "timestamp": "2022-03-06T01:07:53Z",
+      "version": 2,
+      "changeset": 118144879,
+      "user": "KuboF",
+      "uid": 1235579,
       "tags": {
-        "shop": "convenience",
-        "name": "COOP Jednota"
+        "name": "COOP Jednota",
+        "opening_hours": "Mo-Fr 09:00-17:00; Sa,Su off",
+        "shop": "convenience"
       }
     },
     {
@@ -9114,18 +9115,19 @@
       "id": 3253954231,
       "lat": 48.9369894,
       "lon": 18.14154,
-      "timestamp": "2020-08-27T11:44:18Z",
-      "version": 2,
-      "changeset": 90025040,
-      "user": "aceman444",
-      "uid": 1617449,
+      "timestamp": "2022-03-06T01:07:56Z",
+      "version": 3,
+      "changeset": 118144879,
+      "user": "KuboF",
+      "uid": 1235579,
       "tags": {
-        "website": "https://tesco.sk/obchody/detail-obchodu/nova-dubnica-supermarket/",
         "branch": "Nová Dubnica",
+        "check_date:opening_hours": "2022-03-05",
         "name": "Tesco Supermarket",
         "opening_hours": "Mo-Sa 06:00-21:00; Su 07:00-21:00",
         "operator": "Tesco Stores SR",
-        "shop": "supermarket"
+        "shop": "supermarket",
+        "website": "https://tesco.sk/obchody/detail-obchodu/nova-dubnica-supermarket/"
       }
     },
     {
@@ -19137,23 +19139,26 @@
     {
       "type": "way",
       "id": 288342860,
-      "timestamp": "2017-11-14T11:13:05Z",
-      "version": 5,
-      "changeset": 53768077,
-      "user": "JandaM",
-      "uid": 2169558,
+      "timestamp": "2022-03-06T13:09:02Z",
+      "version": 6,
+      "changeset": 118158124,
+      "user": "LeoBardonaro",
+      "uid": 573826,
       "center": {
         "lat": 49.2212399,
         "lon": 17.9138854
       },
       "nodes": [],
       "tags": {
+        "brand": "COOP Jednota",
+        "brand:wikidata": "Q41629254",
+        "brand:wikipedia": "sk:COOP Jednota Slovensko",
         "building": "civic",
         "building:levels": "1",
         "building:ruian:type": "15",
         "name": "Jednota - COOP",
         "ref:ruian:building": "3947645",
-        "shop": "supermarket",
+        "shop": "convenience",
         "source": "cuzk:ruian"
       }
     },
@@ -19493,8 +19498,8 @@
       "user": "Patrik590",
       "uid": 1736257,
       "center": {
-        "lat": 49.2209685,
-        "lon": 17.9130394
+        "lat": 49.2209617,
+        "lon": 17.9130274
       },
       "nodes": [],
       "tags": {
@@ -22373,6 +22378,63 @@
       "center": {
         "lat": 49.0988569,
         "lon": 17.6607024
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1037534594,
+      "timestamp": "2022-03-06T11:59:16Z",
+      "version": 1,
+      "changeset": 118155776,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.2349868,
+        "lon": 17.8989654
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1037696179,
+      "timestamp": "2022-03-06T13:09:02Z",
+      "version": 1,
+      "changeset": 118158124,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.2213311,
+        "lon": 17.9144556
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1037696180,
+      "timestamp": "2022-03-06T13:09:02Z",
+      "version": 1,
+      "changeset": 118158124,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.2171912,
+        "lon": 17.9197213
       },
       "nodes": [],
       "tags": {
