@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-03-07T23:59:59Z",
-    "timestamp_osm_base": "2022-03-08T05:37:09Z",
+    "timestamp_osm_date": "2022-03-08T23:59:59Z",
+    "timestamp_osm_base": "2022-03-09T05:26:25Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4352,11 +4352,11 @@
       "id": 976378487,
       "lat": 49.3562874,
       "lon": 19.5963833,
-      "timestamp": "2020-12-08T20:35:11Z",
-      "version": 7,
-      "changeset": 95510343,
-      "user": "Dodko",
-      "uid": 1944033,
+      "timestamp": "2022-03-08T18:36:55Z",
+      "version": 8,
+      "changeset": 118247953,
+      "user": "NKLMCK",
+      "uid": 15263782,
       "tags": {
         "addr:city": "Trstená",
         "addr:country": "SK",
@@ -4364,15 +4364,17 @@
         "addr:postcode": "028 01",
         "addr:street": "Západ",
         "addr:streetnumber": "1",
-        "name": "BILLA",
-        "opening_hours": "Mo-Sa 07:00-20:00 Sun 08:00-20:00",
-        "operator": "BILLA",
+        "brand": "CBA",
+        "brand:wikidata": "Q779845",
+        "brand:wikipedia": "en:CBA (food retail)",
+        "name": "CBA",
+        "not:brand:wikidata": "Q537781",
+        "opening_hours": "Mo-Sun 07:00-19:00",
+        "operator": "CBA",
         "payment:cash": "yes",
         "payment:coins": "yes",
         "payment:debit_cards": "yes",
-        "phone": "+421 918 719 320",
-        "shop": "supermarket",
-        "website": "https://billa.sk/"
+        "shop": "convenience"
       }
     },
     {
@@ -83821,14 +83823,14 @@
     {
       "type": "way",
       "id": 65419119,
-      "timestamp": "2020-12-08T20:35:11Z",
-      "version": 6,
-      "changeset": 95510343,
-      "user": "Dodko",
-      "uid": 1944033,
+      "timestamp": "2022-03-08T14:30:36Z",
+      "version": 7,
+      "changeset": 118239090,
+      "user": "NKLMCK",
+      "uid": 15263782,
       "center": {
-        "lat": 49.3326424,
-        "lon": 19.5545176
+        "lat": 49.3326529,
+        "lon": 19.5545739
       },
       "nodes": [],
       "tags": {
@@ -85893,6 +85895,39 @@
         "amenity": "shelter",
         "bench": "yes",
         "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1038218284,
+      "timestamp": "2022-03-08T10:34:43Z",
+      "version": 1,
+      "changeset": 118230340,
+      "user": "Pavol33",
+      "uid": 15262530,
+      "center": {
+        "lat": 48.9503164,
+        "lon": 19.2623286
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Liptovská Osada",
+        "addr:housenumber": "317",
+        "addr:postcode": "03473",
+        "addr:street": "Liptovská Osada",
+        "brand": "CBA",
+        "brand:wikidata": "Q779845",
+        "brand:wikipedia": "en:CBA (food retail)",
+        "building": "yes",
+        "layer": "1",
+        "name": "CBA",
+        "opening_hours": "Mo-Fr 06:30-18:00",
+        "opening_hours:covid19": "Sa 06:30-14:00",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "phone": "0444311910",
+        "shop": "supermarket"
       }
     }
   ]

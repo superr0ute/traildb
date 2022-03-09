@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-03-07T23:59:59Z",
-    "timestamp_osm_base": "2022-03-08T04:40:20Z",
+    "timestamp_osm_date": "2022-03-08T23:59:59Z",
+    "timestamp_osm_base": "2022-03-09T05:26:25Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2950,11 +2950,11 @@
       "id": 26036911,
       "lat": 49.0107214,
       "lon": 21.5423299,
-      "timestamp": "2022-01-23T19:08:37Z",
-      "version": 11,
-      "changeset": 116511708,
-      "user": "Filip009",
-      "uid": 10553599,
+      "timestamp": "2022-03-08T13:39:35Z",
+      "version": 12,
+      "changeset": 118237297,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
         "city_id": "544094",
         "ele": "253",
@@ -2966,6 +2966,7 @@
         "postal_code": "094 34",
         "region_id": "713",
         "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "http://www.obecbystre.sk/",
         "wikidata": "Q1018689",
         "wikipedia": "sk:Bystré (okres Vranov nad Topľou)"
       }
@@ -11970,27 +11971,6 @@
     },
     {
       "type": "node",
-      "id": 3286588363,
-      "lat": 49.0198933,
-      "lon": 21.5482605,
-      "timestamp": "2021-01-14T19:19:49Z",
-      "version": 2,
-      "changeset": 97512878,
-      "user": "*Martin*",
-      "uid": 4815,
-      "tags": {
-        "ele": "152.9",
-        "import_ref": "mp2002",
-        "name": "Kyselka pri Topli",
-        "natural": "spring",
-        "ref": "PV-07",
-        "sazp:type": "spring",
-        "source": "SAZP",
-        "water_characteristic": "mineral"
-      }
-    },
-    {
-      "type": "node",
       "id": 3286588364,
       "lat": 48.9330226,
       "lon": 21.55163,
@@ -14216,21 +14196,6 @@
       "tags": {
         "name": "Kojatická Dolina",
         "place": "hamlet"
-      }
-    },
-    {
-      "type": "node",
-      "id": 6536492173,
-      "lat": 49.0196278,
-      "lon": 21.5483596,
-      "timestamp": "2019-06-10T07:35:12Z",
-      "version": 1,
-      "changeset": 71090903,
-      "user": "MartorCZ",
-      "uid": 8954340,
-      "tags": {
-        "amenity": "shelter",
-        "shelter_type": "gazebo"
       }
     },
     {
@@ -17880,6 +17845,124 @@
         "building": "roof",
         "fireplace": "no",
         "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1038196430,
+      "timestamp": "2022-03-08T09:07:34Z",
+      "version": 1,
+      "changeset": 118227202,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 49.0198472,
+        "lon": 21.5482511
+      },
+      "nodes": [],
+      "tags": {
+        "alt_name": "Kyselka pri Topli",
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "drinking_water": "yes",
+        "ele": "152.9",
+        "import_ref": "mp2002",
+        "name": "Ščevica - prameň č. 1",
+        "natural": "spring",
+        "ref": "PV-07",
+        "sazp:type": "spring",
+        "shelter_type": "weather_shelter",
+        "source": "SAZP",
+        "water_characteristic": "mineral"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1038196434,
+      "timestamp": "2022-03-08T09:07:34Z",
+      "version": 1,
+      "changeset": 118227202,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 49.0196021,
+        "lon": 21.5485352
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "drinking_water": "yes",
+        "ele": "153.9",
+        "import_ref": "mp2002",
+        "man_made": "water_well",
+        "name": "Ščevica - prameň č. 2",
+        "ref": "PV-105",
+        "sazp:type": "prospect_hole",
+        "shelter_type": "weather_shelter",
+        "source": "SAZP",
+        "water_characteristic": "mineral"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1038196435,
+      "timestamp": "2022-03-08T09:07:34Z",
+      "version": 1,
+      "changeset": 118227202,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 49.0196953,
+        "lon": 21.5479306
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1038260521,
+      "timestamp": "2022-03-08T13:39:35Z",
+      "version": 1,
+      "changeset": 118237297,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 49.005459,
+        "lon": 21.5438702
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1038260522,
+      "timestamp": "2022-03-08T13:39:35Z",
+      "version": 1,
+      "changeset": 118237297,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 49.0053194,
+        "lon": 21.5436092
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "shelter_type": "public_transport"
       }
     }
   ]
