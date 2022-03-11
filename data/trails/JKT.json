@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-03-09T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-03-10T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10909145,
-      "timestamp": "2022-03-09T08:28:30Z",
-      "version": 1511,
-      "changeset": 118267770,
+      "timestamp": "2022-03-10T21:24:37Z",
+      "version": 1512,
+      "changeset": 118340369,
       "user": "Wulz",
       "uid": 10773975,
       "members": [
@@ -1358,6 +1358,7 @@
         {"type": "way", "ref": 145486356, "role": ""},
         {"type": "way", "ref": 140622001, "role": ""},
         {"type": "way", "ref": 793884355, "role": ""},
+        {"type": "way", "ref": 1039184476, "role": ""},
         {"type": "way", "ref": 140622006, "role": ""},
         {"type": "way", "ref": 140622007, "role": ""},
         {"type": "way", "ref": 145486360, "role": ""},
@@ -3878,6 +3879,32 @@
         "old_ref": "SS465",
         "ref": "SR465",
         "reg_ref": "SR465",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1039184476,
+      "timestamp": "2022-03-10T21:24:37Z",
+      "version": 1,
+      "changeset": 118340369,
+      "user": "Wulz",
+      "uid": 10773975,
+      "nodes": [347344159, 1540327628],
+      "geometry": [
+        {"lat": 46.5532764, "lon": 12.8505426},
+        {"lat": 46.5532845, "lon": 12.8505208}
+      ],
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Via della Vittoria",
+        "old_ref": "SS355",
+        "ref": "SR355",
+        "reg_ref": "SR355",
+        "source": "survey 09.2021",
+        "source:maxspeed": "sign",
         "surface": "asphalt"
       }
     },
@@ -11486,11 +11513,11 @@
     {
       "type": "way",
       "id": 144539011,
-      "timestamp": "2022-01-03T17:54:24Z",
-      "version": 8,
-      "changeset": 115722511,
-      "user": "maicolgalante",
-      "uid": 3217726,
+      "timestamp": "2022-03-10T21:36:06Z",
+      "version": 9,
+      "changeset": 118340680,
+      "user": "Wulz",
+      "uid": 10773975,
       "nodes": [1580180779, 402995724],
       "geometry": [
         {"lat": 46.5685333, "lon": 12.8544796},
@@ -11523,6 +11550,7 @@
         "highway": "path",
         "incline": "15%",
         "motor_vehicle": "yes",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: \n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 24a, 151\n+ lwn:",
         "sac_scale": "mountain_hiking",
         "surface": "gravel",
         "width": "2"
@@ -11619,9 +11647,9 @@
     {
       "type": "way",
       "id": 144539049,
-      "timestamp": "2020-04-20T15:11:12Z",
-      "version": 5,
-      "changeset": 83829351,
+      "timestamp": "2022-03-10T21:36:06Z",
+      "version": 6,
+      "changeset": 118340680,
       "user": "Wulz",
       "uid": 10773975,
       "nodes": [402995724, 402995793],
@@ -11641,7 +11669,7 @@
       "tags": {
         "highway": "residential",
         "lanes": "1",
-        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n Nr. 151\n",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: \n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 24a, 151, Sent. della Fede\n+ lwn:",
         "surface": "asphalt"
       }
     },
@@ -36603,11 +36631,11 @@
     {
       "type": "way",
       "id": 34647534,
-      "timestamp": "2020-04-19T14:07:29Z",
-      "version": 15,
-      "changeset": 83774189,
-      "user": "Wulz",
-      "uid": 10773975,
+      "timestamp": "2022-03-10T21:44:09Z",
+      "version": 16,
+      "changeset": 118340842,
+      "user": "Igorzo",
+      "uid": 2842498,
       "nodes": [403054518, 403055813],
       "geometry": [
         {"lat": 46.5217571, "lon": 12.7390377},
@@ -36759,6 +36787,7 @@
         {"lat": 46.5157358, "lon": 12.7233055},
         {"lat": 46.5156718, "lon": 12.7230603},
         {"lat": 46.5156289, "lon": 12.7229548},
+        {"lat": 46.5156027, "lon": 12.7229331},
         {"lat": 46.515575, "lon": 12.7229103},
         {"lat": 46.515546, "lon": 12.72293},
         {"lat": 46.5155265, "lon": 12.7229788},
@@ -70039,22 +70068,22 @@
     {
       "type": "way",
       "id": 793884355,
-      "timestamp": "2021-09-14T18:39:21Z",
-      "version": 2,
-      "changeset": 111209969,
-      "user": "jeka p",
-      "uid": 2385757,
-      "nodes": [1540327595, 1540327628],
+      "timestamp": "2022-03-10T21:24:37Z",
+      "version": 3,
+      "changeset": 118340369,
+      "user": "Wulz",
+      "uid": 10773975,
+      "nodes": [1540327595, 347344159],
       "geometry": [
         {"lat": 46.5532038, "lon": 12.8507175},
-        {"lat": 46.5532764, "lon": 12.8505426},
-        {"lat": 46.5532845, "lon": 12.8505208}
+        {"lat": 46.5532764, "lon": 12.8505426}
       ],
       "tags": {
         "highway": "primary",
         "lanes": "2",
         "maxspeed": "30",
         "name": "Via della Vittoria",
+        "note": "Julius-Kugy-Dreiländerweg + Anbindung E 24a",
         "old_ref": "SS355",
         "ref": "SR355",
         "reg_ref": "SR355",
