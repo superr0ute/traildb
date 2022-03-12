@@ -19142,17 +19142,14 @@
         "@poi": "water_drinking-water",
         "@distance": 510.3,
         "@id": "n6781569986",
-        "@changeset": 86907103,
-        "@timestamp": "2020-06-20T10:42:56Z",
-        "@version": 2,
-        "@uid": 740452,
-        "@user": "CTrachsel",
-        "access": "yes",
+        "@changeset": 118356217,
+        "@timestamp": "2022-03-11T10:07:14Z",
+        "@version": 3,
+        "@uid": 4894936,
+        "@user": "RaiJjet",
         "amenity": "drinking_water",
         "bottle": "yes",
         "fee": "no",
-        "name": "Trinkwasser",
-        "name:en": "Drink water fountain",
         "wheelchair": "yes"
       },
       "geometry": {
@@ -21795,21 +21792,27 @@
         "@poi": "foodshop_supermarket",
         "@distance": 6326.1,
         "@id": "w44368140",
-        "@changeset": 102258159,
-        "@timestamp": "2021-04-04T06:17:23Z",
-        "@version": 4,
-        "@uid": 1894634,
-        "@user": "Wikilux",
+        "@changeset": 118357493,
+        "@timestamp": "2022-03-11T10:34:58Z",
+        "@version": 10,
+        "@uid": 718651,
+        "@user": "globosound",
+        "addr:housenumber": "2",
+        "addr:street": "Bahnhofstrasse",
         "brand": "Migros",
         "brand:wikidata": "Q680727",
         "brand:wikipedia": "en:Migros",
-        "building": "yes",
+        "building": "apartments",
+        "building:levels": "3",
         "cash_withdrawal": "postfinance_card",
         "cash_withdrawal:fee": "no",
         "cash_withdrawal:purchase_required": "no",
         "cash_withdrawal:type": "checkout",
         "name": "Migros",
+        "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-17:00",
         "operator": "Micros",
+        "roof:levels": "1",
+        "roof:shape": "gabled",
         "shop": "supermarket"
       },
       "geometry": {
@@ -23238,6 +23241,28 @@
         "coordinates": [
           8.2319896,
           46.7375762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 455.4,
+        "@id": "n9570495298",
+        "@changeset": 118356217,
+        "@timestamp": "2022-03-11T10:07:14Z",
+        "@version": 1,
+        "@uid": 4894936,
+        "@user": "RaiJjet",
+        "name": "avec",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.1846551,
+          46.7273183
         ]
       }
     },
@@ -25901,6 +25926,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 500.8,
+        "@id": "w1039286092",
+        "@changeset": 118356217,
+        "@timestamp": "2022-03-11T10:07:14Z",
+        "@version": 1,
+        "@uid": 4894936,
+        "@user": "RaiJjet",
+        "amenity": "shelter",
+        "building": "yes",
+        "building:levels": "1",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.184067,
+          46.7272271
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 336.5,
         "@id": "n4917655439",
@@ -26989,32 +27038,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 9450.7,
-        "@id": "n4374665095",
-        "@changeset": 75586188,
-        "@timestamp": "2019-10-11T21:15:03Z",
-        "@version": 2,
-        "@uid": 1514673,
-        "@user": "amilopowers",
-        "cash_withdrawal": "postfinance_card",
-        "cash_withdrawal:fee": "no",
-        "cash_withdrawal:purchase_required": "no",
-        "cash_withdrawal:type": "checkout",
-        "name": "Migros",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.9049829,
-          46.5241009
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 1.4,
         "@id": "n7734639656",
@@ -27233,6 +27256,32 @@
         "coordinates": [
           9.5430575,
           47.1125695
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 9450.7,
+        "@id": "n4374665095",
+        "@changeset": 75586188,
+        "@timestamp": "2019-10-11T21:15:03Z",
+        "@version": 2,
+        "@uid": 1514673,
+        "@user": "amilopowers",
+        "cash_withdrawal": "postfinance_card",
+        "cash_withdrawal:fee": "no",
+        "cash_withdrawal:purchase_required": "no",
+        "cash_withdrawal:type": "checkout",
+        "name": "Migros",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9049829,
+          46.5241009
         ]
       }
     },
@@ -29841,28 +29890,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
-        "@distance": 1194,
-        "@id": "w615637202",
-        "@changeset": 61513823,
-        "@timestamp": "2018-08-09T21:29:07Z",
-        "@version": 1,
-        "@uid": 3078118,
-        "@user": "SelfishSeahorse",
-        "amenity": "shelter",
-        "shelter_type": "public_transport"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.9257081,
-          46.4216309
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
         "@distance": 1845.3,
         "@id": "w852389400",
         "@changeset": 91641596,
@@ -29961,6 +29988,28 @@
         "coordinates": [
           9.5097771,
           47.1752875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1194,
+        "@id": "w615637202",
+        "@changeset": 61513823,
+        "@timestamp": "2018-08-09T21:29:07Z",
+        "@version": 1,
+        "@uid": 3078118,
+        "@user": "SelfishSeahorse",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9257081,
+          46.4216309
         ]
       }
     },
