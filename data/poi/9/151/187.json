@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-03-11T23:59:59Z",
-    "timestamp_osm_base": "2022-03-12T03:46:20Z",
+    "timestamp_osm_date": "2022-03-12T23:59:59Z",
+    "timestamp_osm_base": "2022-03-13T03:45:58Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1168,11 +1168,11 @@
       "id": 158826692,
       "lat": 43.1722983,
       "lon": -73.3276101,
-      "timestamp": "2008-12-06T16:39:12Z",
-      "version": 2,
-      "changeset": 158653,
-      "user": "davidearl",
-      "uid": 3582,
+      "timestamp": "2022-03-12T16:53:40Z",
+      "version": 3,
+      "changeset": 118405333,
+      "user": "hshore29",
+      "uid": 1181596,
       "tags": {
         "census:population": "901;2006",
         "ele": "147",
@@ -1185,8 +1185,10 @@
         "import_uuid": "bb7269ee-502a-5391-8056-e3ce0e66489c",
         "is_in": "Washington,New York,N.Y.,NY,USA",
         "name": "Salem",
-        "place": "village",
-        "population": "901"
+        "place": "hamlet",
+        "population": "901",
+        "wikidata": "Q984132",
+        "wikipedia": "en:Salem (hamlet), New York"
       }
     },
     {
@@ -1891,17 +1893,19 @@
       "id": 158856659,
       "lat": 43.555764,
       "lon": -73.403778,
-      "timestamp": "2022-03-07T23:58:14Z",
-      "version": 6,
-      "changeset": 118216697,
-      "user": "ke9tv",
-      "uid": 591186,
+      "timestamp": "2022-03-12T17:24:50Z",
+      "version": 7,
+      "changeset": 118406446,
+      "user": "hshore29",
+      "uid": 1181596,
       "tags": {
         "ele": "48",
         "gnis:feature_id": "971145",
         "name": "Whitehall",
         "place": "village",
-        "population": "3948"
+        "population": "3948",
+        "wikidata": "Q3461864",
+        "wikipedia": "en:Whitehall (village), New York"
       }
     },
     {
@@ -5554,30 +5558,6 @@
     },
     {
       "type": "node",
-      "id": 365214769,
-      "lat": 43.5499833,
-      "lon": -73.3981732,
-      "timestamp": "2021-10-07T19:49:02Z",
-      "version": 3,
-      "changeset": 112232816,
-      "user": "Necessarycoot72",
-      "uid": 10882995,
-      "tags": {
-        "addr:city": "Whitehall",
-        "addr:housenumber": "60",
-        "addr:postcode": "12887",
-        "addr:state": "NY",
-        "addr:street": "Poultney Street",
-        "brand": "Stewart's Shops",
-        "brand:wikidata": "Q7615690",
-        "brand:wikipedia": "en:Stewart's Shops",
-        "name": "Stewart's Shops",
-        "shop": "convenience",
-        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=260"
-      }
-    },
-    {
-      "type": "node",
       "id": 365214772,
       "lat": 43.1749922,
       "lon": -73.3273201,
@@ -6517,26 +6497,6 @@
         "amenity": "shelter",
         "name": "Lake Ann Lean-to",
         "shelter_type": "lean_to"
-      }
-    },
-    {
-      "type": "node",
-      "id": 5359060223,
-      "lat": 43.0839823,
-      "lon": -73.1472933,
-      "timestamp": "2018-04-24T14:41:52Z",
-      "version": 2,
-      "changeset": 58376163,
-      "user": "GITNE",
-      "uid": 1836535,
-      "tags": {
-        "addr:housenumber": "48",
-        "addr:postcode": "05250",
-        "addr:street": "Camping on the Battenkill",
-        "name": "Camping on the Battenkill",
-        "phone": "+1 802 3756663",
-        "tourism": "camp_site",
-        "website": "https://campingonthebattenkillvt.com"
       }
     },
     {
@@ -9775,6 +9735,57 @@
         "level": "0",
         "name": "A & S Newsstand",
         "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1039669897,
+      "timestamp": "2022-03-12T17:43:00Z",
+      "version": 1,
+      "changeset": 118406992,
+      "user": "hshore29",
+      "uid": 1181596,
+      "center": {
+        "lat": 43.5499771,
+        "lon": -73.3981429
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Whitehall",
+        "addr:housenumber": "60",
+        "addr:postcode": "12887",
+        "addr:state": "NY",
+        "addr:street": "Poultney Street",
+        "brand": "Stewart's Shops",
+        "brand:wikidata": "Q7615690",
+        "brand:wikipedia": "en:Stewart's Shops",
+        "building": "yes",
+        "name": "Stewart's Shops",
+        "shop": "convenience",
+        "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=260"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1039718363,
+      "timestamp": "2022-03-12T21:50:49Z",
+      "version": 1,
+      "changeset": 118413592,
+      "user": "Martin868",
+      "uid": 2567631,
+      "center": {
+        "lat": 43.0840344,
+        "lon": -73.1482774
+      },
+      "nodes": [],
+      "tags": {
+        "addr:housenumber": "48",
+        "addr:postcode": "05250",
+        "addr:street": "Camping on the Battenkill",
+        "name": "Camping on the Battenkill",
+        "phone": "+1 802 3756663",
+        "tourism": "camp_site",
+        "website": "https://campingonthebattenkillvt.com"
       }
     }
   ]
