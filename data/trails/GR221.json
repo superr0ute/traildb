@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-03-01T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-03-15T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -967,11 +967,11 @@
     {
       "type": "way",
       "id": 102855760,
-      "timestamp": "2016-08-19T12:29:46Z",
-      "version": 8,
-      "changeset": 41555226,
-      "user": "solitone",
-      "uid": 584192,
+      "timestamp": "2022-03-15T13:30:24Z",
+      "version": 9,
+      "changeset": 118511827,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [1184909875, 352809093],
       "geometry": [
         {"lat": 39.8224631, "lon": 2.9043118},
@@ -994,17 +994,18 @@
         "incline": "down",
         "mtb:scale": "1",
         "mtb:scale:uphill": "4",
-        "ref": "GR-221"
+        "ref": "GR-221",
+        "surface": "rock"
       }
     },
     {
       "type": "way",
       "id": 102855761,
-      "timestamp": "2021-12-30T09:44:27Z",
-      "version": 10,
-      "changeset": 115555234,
-      "user": "pedrojuan01",
-      "uid": 1948725,
+      "timestamp": "2022-03-15T13:30:22Z",
+      "version": 11,
+      "changeset": 118511816,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [352809066, 1184909875],
       "geometry": [
         {"lat": 39.827019, "lon": 2.908408},
@@ -1046,6 +1047,7 @@
         "highway": "track",
         "mtb:scale": "2",
         "ref": "GR-221",
+        "smoothness": "horrible",
         "surface": "gravel",
         "tracktype": "grade2"
       }
@@ -1130,7 +1132,7 @@
       "nodes": [314015143, 314015141],
       "geometry": [
         {"lat": 39.7664859, "lon": 2.7147307},
-        {"lat": 39.7665065, "lon": 2.7146972}
+        {"lat": 39.7665045, "lon": 2.714695}
       ],
       "tags": {
         "highway": "residential",
@@ -5632,7 +5634,7 @@
       "uid": 11276832,
       "nodes": [314015141, 26764088],
       "geometry": [
-        {"lat": 39.7665065, "lon": 2.7146972},
+        {"lat": 39.7665045, "lon": 2.714695},
         {"lat": 39.7664709, "lon": 2.714609},
         {"lat": 39.7663526, "lon": 2.7141899},
         {"lat": 39.7662438, "lon": 2.7139265}
@@ -5907,11 +5909,11 @@
     {
       "type": "way",
       "id": 29016331,
-      "timestamp": "2021-12-19T15:50:24Z",
-      "version": 12,
-      "changeset": 115130788,
-      "user": "pedrojuan01",
-      "uid": 1948725,
+      "timestamp": "2022-03-15T13:30:31Z",
+      "version": 13,
+      "changeset": 118511816,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [319105980, 659941575],
       "geometry": [
         {"lat": 39.8218145, "lon": 2.887071},
@@ -5927,6 +5929,7 @@
       "tags": {
         "highway": "track",
         "name": "camí de Son Amer",
+        "smoothness": "bad",
         "surface": "compacted",
         "tracktype": "grade3"
       }
@@ -7790,11 +7793,11 @@
     {
       "type": "way",
       "id": 33167973,
-      "timestamp": "2022-02-08T07:59:00Z",
-      "version": 22,
-      "changeset": 117148189,
-      "user": "Voonosm",
-      "uid": 4378872,
+      "timestamp": "2022-03-15T13:30:20Z",
+      "version": 24,
+      "changeset": 118511816,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [670699107, 674724237],
       "geometry": [
         {"lat": 39.8387438, "lon": 2.9092365},
@@ -7856,7 +7859,13 @@
         {"lat": 39.8340749, "lon": 2.9121328},
         {"lat": 39.8339936, "lon": 2.9121987}
       ],
-      "tags": {"highway": "unclassified", "ref": "GR-221", "surface": "asphalt"}
+      "tags": {
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "ref": "GR-221",
+        "smoothness": "intermediate",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -8809,11 +8818,11 @@
     {
       "type": "way",
       "id": 40242690,
-      "timestamp": "2022-01-25T06:46:26Z",
-      "version": 17,
-      "changeset": 116570674,
-      "user": "pedrojuan01",
-      "uid": 1948725,
+      "timestamp": "2022-03-15T13:30:17Z",
+      "version": 18,
+      "changeset": 118511820,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [1293531238, 1293531213],
       "geometry": [
         {"lat": 39.8478332, "lon": 2.9149664},
@@ -8857,6 +8866,7 @@
         "mtb:scale:uphill": "0",
         "name": "Camí Vell de Pollença",
         "ref": "GR 221",
+        "surface": "rock",
         "tracktype": "grade3"
       }
     },
@@ -9134,11 +9144,11 @@
     {
       "type": "way",
       "id": 437965938,
-      "timestamp": "2016-08-19T12:17:48Z",
-      "version": 1,
-      "changeset": 41555002,
-      "user": "solitone",
-      "uid": 584192,
+      "timestamp": "2022-03-15T13:30:16Z",
+      "version": 2,
+      "changeset": 118511827,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [485230648, 1293530951],
       "geometry": [
         {"lat": 39.8518041, "lon": 2.9260084},
@@ -9158,7 +9168,8 @@
         "incline": "down",
         "mtb:scale": "1",
         "mtb:scale:uphill": "4",
-        "ref": "GR 221"
+        "ref": "GR 221",
+        "surface": "dirt"
       }
     },
     {
@@ -9241,11 +9252,11 @@
     {
       "type": "way",
       "id": 437965941,
-      "timestamp": "2022-01-25T06:46:26Z",
-      "version": 4,
-      "changeset": 116570674,
-      "user": "pedrojuan01",
-      "uid": 1948725,
+      "timestamp": "2022-03-15T13:30:19Z",
+      "version": 5,
+      "changeset": 118511820,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [352808905, 1293531238],
       "geometry": [
         {"lat": 39.8421554, "lon": 2.9098534},
@@ -9282,6 +9293,7 @@
         "mtb:scale": "0",
         "name": "Camí Vell de Pollença",
         "ref": "GR 221",
+        "surface": "rock",
         "tracktype": "grade3"
       }
     },
@@ -12212,11 +12224,11 @@
     {
       "type": "way",
       "id": 48164936,
-      "timestamp": "2016-11-15T07:59:36Z",
-      "version": 4,
-      "changeset": 43663395,
-      "user": "thetornado76",
-      "uid": 1624486,
+      "timestamp": "2022-03-15T13:30:33Z",
+      "version": 5,
+      "changeset": 118511816,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [319105980, 302919215],
       "geometry": [
         {"lat": 39.8218145, "lon": 2.887071},
@@ -12229,6 +12241,7 @@
         "lanes": "2",
         "lit": "yes",
         "ref": "Ma-2140",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -13385,11 +13398,11 @@
     {
       "type": "way",
       "id": 53082130,
-      "timestamp": "2016-08-19T12:29:48Z",
-      "version": 8,
-      "changeset": 41555226,
-      "user": "solitone",
-      "uid": 584192,
+      "timestamp": "2022-03-15T13:30:30Z",
+      "version": 10,
+      "changeset": 118511851,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [659941575, 319106069],
       "geometry": [
         {"lat": 39.8194515, "lon": 2.8906679},
@@ -13422,7 +13435,9 @@
         "incline": "up",
         "mtb:scale": "2",
         "mtb:scale:uphill": "4",
-        "name": "camí de Son Amer"
+        "name": "camí de Son Amer",
+        "smoothness": "very_bad",
+        "surface": "sett"
       }
     },
     {
@@ -16749,11 +16764,11 @@
     {
       "type": "way",
       "id": 84802703,
-      "timestamp": "2016-11-04T15:43:09Z",
-      "version": 8,
-      "changeset": 43403762,
-      "user": "Coc33",
-      "uid": 3273214,
+      "timestamp": "2022-03-15T13:30:25Z",
+      "version": 10,
+      "changeset": 118511851,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [352810837, 352810756],
       "geometry": [
         {"lat": 39.8161243, "lon": 2.8983555},
@@ -16792,17 +16807,19 @@
         "incline": "up",
         "mtb:scale": "1",
         "mtb:scale:uphill": "4",
-        "name": "camí de l'Ermita"
+        "name": "camí de l'Ermita",
+        "smoothness": "very_bad",
+        "surface": "sett"
       }
     },
     {
       "type": "way",
       "id": 84802704,
-      "timestamp": "2021-12-28T18:25:46Z",
-      "version": 12,
-      "changeset": 115483424,
-      "user": "pedrojuan01",
-      "uid": 1948725,
+      "timestamp": "2022-03-15T13:30:26Z",
+      "version": 13,
+      "changeset": 118511816,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [352810837, 1121804089],
       "geometry": [
         {"lat": 39.8161243, "lon": 2.8983555},
@@ -16815,6 +16832,7 @@
       "tags": {
         "highway": "track",
         "ref": "GR-221",
+        "smoothness": "horrible",
         "surface": "gravel",
         "tracktype": "grade3"
       }
