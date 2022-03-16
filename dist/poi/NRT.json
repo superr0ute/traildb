@@ -1042,25 +1042,19 @@
         "@poi": "place_village",
         "@distance": 2113.1,
         "@id": "n158899730",
-        "@changeset": 43657517,
-        "@timestamp": "2016-11-14T23:52:03Z",
-        "@version": 3,
-        "@uid": 472018,
-        "@user": "DenisCarriere",
+        "@changeset": 118527220,
+        "@timestamp": "2022-03-15T20:57:27Z",
+        "@version": 4,
+        "@uid": 591186,
+        "@user": "ke9tv",
         "census:population": "186;2006",
         "ele": 355,
-        "gnis:Class": "Populated Place",
-        "gnis:County": "Hamilton",
-        "gnis:County_num": "041",
-        "gnis:ST_alpha": "NY",
-        "gnis:ST_num": "36",
         "gnis:id": "972223",
-        "import_uuid": "bb7269ee-502a-5391-8056-e3ce0e66489c",
-        "is_in": "Hamilton,New York,N.Y.,NY,USA",
         "name": "Benson",
         "place": "village",
         "population": 186,
-        "wikidata": "Q3501740"
+        "wikidata": "Q3501740",
+        "wikipedia": "en:Benson, New York"
       },
       "geometry": {
         "type": "Point",
@@ -1081,28 +1075,84 @@
         "@version": 6,
         "@uid": 11107901,
         "@user": "bardny",
-        "admin_level": "8",
-        "census:population": "1159;2006",
-        "ele": 246,
         "gnis:Class": "Populated Place",
         "gnis:County": "Fulton",
         "gnis:County_num": "035",
         "gnis:ST_alpha": "NY",
         "gnis:ST_num": "36",
-        "gnis:id": "958987",
         "import_uuid": "bb7269ee-502a-5391-8056-e3ce0e66489c",
         "is_in": "Fulton,New York,N.Y.,NY,USA",
-        "name": "Northville",
-        "place": "village",
+        "wikipedia": "en:Northville, Fulton County, New York",
         "population": 1099,
         "wikidata": "Q3459759",
-        "wikipedia": "en:Northville, Fulton County, New York"
+        "place": "village",
+        "admin_level": "8",
+        "census:population": "1159;2006",
+        "ele": 246,
+        "gnis:id": "958987",
+        "name": "Northville"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           -74.172478,
           43.226193
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 1174.4,
+        "@id": "n357549600",
+        "@changeset": 52452553,
+        "@timestamp": "2017-09-28T17:24:04Z",
+        "@version": 2,
+        "@uid": 364,
+        "@user": "Edward",
+        "ele": 866,
+        "gnis:county_id": "041",
+        "gnis:created": "01/23/1980",
+        "gnis:feature_id": "944330",
+        "gnis:state_id": "36",
+        "name": "Blue Ridge Mountain",
+        "natural": "peak",
+        "wikidata": "Q34805786"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.4037515,
+          43.2759034
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 2008.2,
+        "@id": "n357551109",
+        "@changeset": 52452553,
+        "@timestamp": "2017-09-28T17:25:19Z",
+        "@version": 2,
+        "@uid": 364,
+        "@user": "Edward",
+        "ele": 660,
+        "gnis:county_id": "041",
+        "gnis:created": "01/23/1980",
+        "gnis:feature_id": "944977",
+        "gnis:state_id": "36",
+        "name": "Brush Mountain",
+        "natural": "peak",
+        "wikidata": "Q34806405"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.4518133,
+          43.4195134
         ]
       }
     },
@@ -2255,62 +2305,6 @@
         "coordinates": [
           -74.38543,
           43.9077808
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 1174.4,
-        "@id": "n357549600",
-        "@changeset": 52452553,
-        "@timestamp": "2017-09-28T17:24:04Z",
-        "@version": 2,
-        "@uid": 364,
-        "@user": "Edward",
-        "ele": 866,
-        "gnis:county_id": "041",
-        "gnis:created": "01/23/1980",
-        "gnis:feature_id": "944330",
-        "gnis:state_id": "36",
-        "name": "Blue Ridge Mountain",
-        "natural": "peak",
-        "wikidata": "Q34805786"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.4037515,
-          43.2759034
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 2008.2,
-        "@id": "n357551109",
-        "@changeset": 52452553,
-        "@timestamp": "2017-09-28T17:25:19Z",
-        "@version": 2,
-        "@uid": 364,
-        "@user": "Edward",
-        "ele": 660,
-        "gnis:county_id": "041",
-        "gnis:created": "01/23/1980",
-        "gnis:feature_id": "944977",
-        "gnis:state_id": "36",
-        "name": "Brush Mountain",
-        "natural": "peak",
-        "wikidata": "Q34806405"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -74.4518133,
-          43.4195134
         ]
       }
     },
@@ -4342,12 +4336,12 @@
         "@version": 6,
         "@uid": 11107901,
         "@user": "bardny",
-        "admin_level": "7",
-        "name": "Northampton",
-        "place": "town",
+        "wikipedia": "en:Northampton, Fulton County, New York",
         "population": 2670,
         "wikidata": "Q7057574",
-        "wikipedia": "en:Northampton, Fulton County, New York"
+        "name": "Northampton",
+        "admin_level": "7",
+        "place": "town"
       },
       "geometry": {
         "type": "Point",
