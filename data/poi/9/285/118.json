@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-03-15T23:59:59Z",
-    "timestamp_osm_base": "2022-03-16T05:35:23Z",
+    "timestamp_osm_date": "2022-03-18T23:59:59Z",
+    "timestamp_osm_base": "2022-03-19T05:38:09Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -63,6 +63,20 @@
       "tags": {
         "drinking_water": "yes",
         "intermittent": "no",
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1839074949,
+      "lat": 69.0340434,
+      "lon": 21.0804976,
+      "timestamp": "2022-03-17T07:48:21Z",
+      "version": 2,
+      "changeset": 118579532,
+      "user": "|Yucca|",
+      "uid": 3391786,
+      "tags": {
         "natural": "spring"
       }
     },
@@ -179,40 +193,6 @@
       "changeset": 79470921,
       "user": "operaman",
       "uid": 10646352,
-      "tags": {
-        "amenity": "shelter",
-        "fixme": "Position may be off ± 50 meters. What type of shelter is this?",
-        "source": "Facebook group Vindskydd i Norden",
-        "source:url": "https://is.gd/rjlDvK"
-      }
-    },
-    {
-      "type": "node",
-      "id": 7125723333,
-      "lat": 69.054883,
-      "lon": 20.863097,
-      "timestamp": "2020-01-12T09:47:15Z",
-      "version": 1,
-      "changeset": 79470921,
-      "user": "operaman",
-      "uid": 10646352,
-      "tags": {
-        "amenity": "shelter",
-        "fixme": "Position may be off ± 50 meters. What type of shelter is this?",
-        "source": "Facebook group Vindskydd i Norden",
-        "source:url": "https://is.gd/rjlDvK"
-      }
-    },
-    {
-      "type": "node",
-      "id": 7125723334,
-      "lat": 69.0458162,
-      "lon": 20.887816,
-      "timestamp": "2020-09-05T18:36:19Z",
-      "version": 2,
-      "changeset": 90461556,
-      "user": "sähkö",
-      "uid": 8432644,
       "tags": {
         "amenity": "shelter",
         "fixme": "Position may be off ± 50 meters. What type of shelter is this?",
@@ -446,36 +426,6 @@
     },
     {
       "type": "way",
-      "id": 170395723,
-      "timestamp": "2019-04-23T13:40:16Z",
-      "version": 6,
-      "changeset": 69489860,
-      "user": "frspp",
-      "uid": 76015,
-      "center": {
-        "lat": 69.054873,
-        "lon": 20.8631187
-      },
-      "nodes": [],
-      "tags": {
-        "addr:city": "Enontekiö",
-        "bin": "yes",
-        "building": "cabin",
-        "building:levels": "1",
-        "description": "For day use only, no sleeping",
-        "ele": "690",
-        "fireplace": "stove",
-        "gas": "yes",
-        "name": "Saanajärvi päivätupa",
-        "name:en": "Saanajärvi Day Trip Hut",
-        "operator": "Metsähallitus",
-        "snowmobile": "yes",
-        "tourism": "wilderness_hut",
-        "website": "https://nationalparks.fi/kasivarsi"
-      }
-    },
-    {
-      "type": "way",
       "id": 355321726,
       "timestamp": "2019-10-04T19:43:20Z",
       "version": 5,
@@ -573,17 +523,18 @@
     {
       "type": "way",
       "id": 606318952,
-      "timestamp": "2019-04-23T13:40:16Z",
-      "version": 3,
-      "changeset": 69489860,
-      "user": "frspp",
-      "uid": 76015,
+      "timestamp": "2022-03-17T08:26:52Z",
+      "version": 4,
+      "changeset": 118580955,
+      "user": "|Yucca|",
+      "uid": 3391786,
       "center": {
         "lat": 69.046009,
         "lon": 20.8875436
       },
       "nodes": [],
       "tags": {
+        "amenity": "shelter",
         "bench": "yes",
         "bin": "yes",
         "building": "hut",
@@ -592,7 +543,6 @@
         "operator": "Metsähallitus",
         "shelter_type": "basic_hut",
         "snowmobile": "yes",
-        "tourism": "wilderness_hut",
         "website": "https://nationalparks.fi/kasivarsi"
       }
     },
