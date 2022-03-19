@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-03-15T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-03-18T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2158,11 +2158,11 @@
     {
       "type": "way",
       "id": 148181610,
-      "timestamp": "2021-03-09T14:04:32Z",
-      "version": 6,
-      "changeset": 100716119,
-      "user": "pedrojuan01",
-      "uid": 1948725,
+      "timestamp": "2022-03-16T16:08:57Z",
+      "version": 7,
+      "changeset": 118558119,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [26785534, 26785546],
       "geometry": [
         {"lat": 39.7920715, "lon": 2.8238246},
@@ -2194,17 +2194,18 @@
         "highway": "path",
         "mtb:scale": "1",
         "name": "GR-221",
+        "smoothness": "impassable",
         "surface": "compacted"
       }
     },
     {
       "type": "way",
       "id": 148181611,
-      "timestamp": "2017-07-05T11:29:59Z",
-      "version": 2,
-      "changeset": 50056474,
-      "user": "hofoen",
-      "uid": 52797,
+      "timestamp": "2022-03-16T16:08:57Z",
+      "version": 3,
+      "changeset": 118558119,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [1612870768, 26785534],
       "geometry": [
         {"lat": 39.7919836, "lon": 2.8238677},
@@ -2216,6 +2217,7 @@
         "highway": "footway",
         "layer": "1",
         "mtb:scale": "1",
+        "smoothness": "impassable",
         "surface": "compacted"
       }
     },
@@ -2573,11 +2575,11 @@
     {
       "type": "way",
       "id": 149360747,
-      "timestamp": "2021-12-13T20:36:35Z",
-      "version": 5,
-      "changeset": 114897156,
-      "user": "pedrojuan01",
-      "uid": 1948725,
+      "timestamp": "2022-03-16T16:37:07Z",
+      "version": 6,
+      "changeset": 118558120,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [375497741, 1280164878],
       "geometry": [
         {"lat": 39.7875714, "lon": 2.8284301},
@@ -2598,7 +2600,7 @@
         {"lat": 39.7887221, "lon": 2.8254144},
         {"lat": 39.7889553, "lon": 2.8253338}
       ],
-      "tags": {"highway": "path", "name": "GR-221"}
+      "tags": {"highway": "path", "name": "GR-221", "surface": "dirt"}
     },
     {
       "type": "way",
@@ -2739,11 +2741,11 @@
     {
       "type": "way",
       "id": 149945746,
-      "timestamp": "2021-05-25T10:31:37Z",
-      "version": 7,
-      "changeset": 105283843,
-      "user": "pedrojuan01",
-      "uid": 1948725,
+      "timestamp": "2022-03-16T16:08:57Z",
+      "version": 8,
+      "changeset": 118558120,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [485247112, 485247048],
       "geometry": [
         {"lat": 39.7895566, "lon": 2.8312857},
@@ -2784,7 +2786,12 @@
         {"lat": 39.8012758, "lon": 2.8406551},
         {"lat": 39.8014218, "lon": 2.8408074}
       ],
-      "tags": {"highway": "path", "mtb:scale": "3", "name": "Comellar des Prat"}
+      "tags": {
+        "highway": "path",
+        "mtb:scale": "3",
+        "name": "Comellar des Prat",
+        "surface": "dirt"
+      }
     },
     {
       "type": "way",
@@ -5220,11 +5227,11 @@
     {
       "type": "way",
       "id": 243685878,
-      "timestamp": "2022-03-01T09:22:39Z",
-      "version": 8,
-      "changeset": 117971611,
-      "user": "pi=3",
-      "uid": 10178286,
+      "timestamp": "2022-03-16T16:08:58Z",
+      "version": 9,
+      "changeset": 118558120,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [485247048, 485247004],
       "geometry": [
         {"lat": 39.8014218, "lon": 2.8408074},
@@ -5341,16 +5348,21 @@
         {"lat": 39.8066676, "lon": 2.8499082},
         {"lat": 39.8065663, "lon": 2.8499148}
       ],
-      "tags": {"highway": "path", "mtb:scale": "4", "name": "GR-221"}
+      "tags": {
+        "highway": "path",
+        "mtb:scale": "4",
+        "name": "GR-221",
+        "surface": "dirt"
+      }
     },
     {
       "type": "way",
       "id": 243685879,
-      "timestamp": "2018-10-03T19:50:14Z",
-      "version": 3,
-      "changeset": 63172823,
-      "user": "Jou64",
-      "uid": 43641,
+      "timestamp": "2022-03-16T16:36:05Z",
+      "version": 5,
+      "changeset": 118558119,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [2498089618, 660784849],
       "geometry": [
         {"lat": 39.8196697, "lon": 2.8809376},
@@ -5409,7 +5421,12 @@
         {"lat": 39.8206917, "lon": 2.8723659},
         {"lat": 39.8206362, "lon": 2.8723022}
       ],
-      "tags": {"highway": "path", "mtb:scale": "2"}
+      "tags": {
+        "highway": "path",
+        "mtb:scale": "2",
+        "smoothness": "very_bad",
+        "surface": "sett"
+      }
     },
     {
       "type": "way",
@@ -6565,11 +6582,11 @@
     {
       "type": "way",
       "id": 31526137,
-      "timestamp": "2016-08-19T12:29:46Z",
-      "version": 13,
-      "changeset": 41555226,
-      "user": "solitone",
-      "uid": 584192,
+      "timestamp": "2022-03-17T13:10:11Z",
+      "version": 14,
+      "changeset": 118593429,
+      "user": "pedrojuan01",
+      "uid": 1948725,
       "nodes": [352810740, 352810756],
       "geometry": [
         {"lat": 39.8183246, "lon": 2.9034986},
@@ -6583,6 +6600,7 @@
         {"lat": 39.819153, "lon": 2.902288},
         {"lat": 39.8191306, "lon": 2.9022637},
         {"lat": 39.8190019, "lon": 2.9023016},
+        {"lat": 39.8188612, "lon": 2.9024844},
         {"lat": 39.8187604, "lon": 2.9026154},
         {"lat": 39.8185797, "lon": 2.902703},
         {"lat": 39.8184268, "lon": 2.9026874},
@@ -7546,11 +7564,11 @@
     {
       "type": "way",
       "id": 33040248,
-      "timestamp": "2012-10-22T08:38:11Z",
-      "version": 4,
-      "changeset": 13589819,
-      "user": "somenxavier",
-      "uid": 86282,
+      "timestamp": "2022-03-17T15:03:14Z",
+      "version": 5,
+      "changeset": 118598323,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [26783422, 372484987],
       "geometry": [
         {"lat": 39.7662425, "lon": 2.7516108},
@@ -7559,17 +7577,18 @@
       "tags": {
         "bridge": "yes",
         "highway": "path",
-        "sac_scale": "mountain_hiking"
+        "sac_scale": "mountain_hiking",
+        "surface": "wood"
       }
     },
     {
       "type": "way",
       "id": 33040249,
-      "timestamp": "2012-10-22T08:38:11Z",
-      "version": 4,
-      "changeset": 13589819,
-      "user": "somenxavier",
-      "uid": 86282,
+      "timestamp": "2022-03-17T15:03:15Z",
+      "version": 5,
+      "changeset": 118598323,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [372484992, 372484991],
       "geometry": [
         {"lat": 39.7662335, "lon": 2.7501884},
@@ -7578,17 +7597,18 @@
       "tags": {
         "bridge": "yes",
         "highway": "path",
-        "sac_scale": "mountain_hiking"
+        "sac_scale": "mountain_hiking",
+        "surface": "wood"
       }
     },
     {
       "type": "way",
       "id": 33040250,
-      "timestamp": "2020-11-10T10:48:25Z",
-      "version": 19,
-      "changeset": 93855245,
-      "user": "pedrojuan01",
-      "uid": 1948725,
+      "timestamp": "2022-03-17T15:03:16Z",
+      "version": 21,
+      "changeset": 118598324,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [372484991, 7691784978],
       "geometry": [
         {"lat": 39.7662172, "lon": 2.750122},
@@ -7607,6 +7627,8 @@
         "mtb:scale": "2",
         "name": "camí del Barranc (GR-221)",
         "sac_scale": "hiking",
+        "smoothness": "very_bad",
+        "surface": "sett",
         "trail_visibility": "excellent"
       }
     },
@@ -10213,11 +10235,11 @@
     {
       "type": "way",
       "id": 4387129,
-      "timestamp": "2022-03-01T11:01:33Z",
-      "version": 12,
-      "changeset": 117975382,
-      "user": "pi=3",
-      "uid": 10178286,
+      "timestamp": "2022-03-17T15:03:14Z",
+      "version": 14,
+      "changeset": 118598324,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [26783424, 372484992],
       "geometry": [
         {"lat": 39.7664318, "lon": 2.7509741},
@@ -10240,17 +10262,19 @@
         "highway": "path",
         "mtb:scale": "2",
         "name": "GR-221",
-        "sac_scale": "hiking"
+        "sac_scale": "hiking",
+        "smoothness": "very_bad",
+        "surface": "sett"
       }
     },
     {
       "type": "way",
       "id": 4387130,
-      "timestamp": "2020-11-10T10:48:25Z",
-      "version": 15,
-      "changeset": 93855245,
-      "user": "pedrojuan01",
-      "uid": 1948725,
+      "timestamp": "2022-03-17T15:03:13Z",
+      "version": 17,
+      "changeset": 118598324,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [26783412, 26783422],
       "geometry": [
         {"lat": 39.7641014, "lon": 2.7533023},
@@ -10282,17 +10306,19 @@
         "mtb:scale": "2",
         "name": "GR-221",
         "sac_scale": "hiking",
+        "smoothness": "very_bad",
+        "surface": "sett",
         "trail_visibility": "excellent"
       }
     },
     {
       "type": "way",
       "id": 4387131,
-      "timestamp": "2022-03-01T11:01:33Z",
-      "version": 14,
-      "changeset": 117975382,
-      "user": "pi=3",
-      "uid": 10178286,
+      "timestamp": "2022-03-17T15:03:12Z",
+      "version": 16,
+      "changeset": 118598324,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [26783373, 26783412],
       "geometry": [
         {"lat": 39.7645968, "lon": 2.7558008},
@@ -10358,17 +10384,19 @@
         "mtb:scale": "2",
         "name": "GR-221",
         "sac_scale": "hiking",
+        "smoothness": "very_bad",
+        "surface": "sett",
         "trail_visibility": "excellent"
       }
     },
     {
       "type": "way",
       "id": 4387132,
-      "timestamp": "2022-03-01T11:01:33Z",
-      "version": 17,
-      "changeset": 117975382,
-      "user": "pi=3",
-      "uid": 10178286,
+      "timestamp": "2022-03-17T15:03:11Z",
+      "version": 19,
+      "changeset": 118598324,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [26783337, 26783373],
       "geometry": [
         {"lat": 39.7617331, "lon": 2.7562477},
@@ -10446,6 +10474,8 @@
         "mtb:scale": "2",
         "name": "GR-221",
         "sac_scale": "mountain_hiking",
+        "smoothness": "very_bad",
+        "surface": "sett",
         "trail_visibility": "excellent"
       }
     },
@@ -10831,11 +10861,11 @@
     {
       "type": "way",
       "id": 4387560,
-      "timestamp": "2021-04-03T12:20:58Z",
-      "version": 10,
-      "changeset": 102233841,
-      "user": "maximsadym",
-      "uid": 405255,
+      "timestamp": "2022-03-16T16:08:57Z",
+      "version": 11,
+      "changeset": 118558119,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [1280164878, 1612870768],
       "geometry": [
         {"lat": 39.7889553, "lon": 2.8253338},
@@ -10856,17 +10886,18 @@
         "highway": "path",
         "mtb:scale": "1",
         "name": "GR-221",
+        "smoothness": "impassable",
         "surface": "compacted"
       }
     },
     {
       "type": "way",
       "id": 4387561,
-      "timestamp": "2013-10-27T17:51:41Z",
-      "version": 14,
-      "changeset": 18570783,
-      "user": "Jou64",
-      "uid": 43641,
+      "timestamp": "2022-03-16T16:37:32Z",
+      "version": 15,
+      "changeset": 118558119,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [26785546, 26785572],
       "geometry": [
         {"lat": 39.7933327, "lon": 2.8163428},
@@ -10922,6 +10953,7 @@
         "highway": "path",
         "mtb:scale": "1",
         "name": "GR-221",
+        "smoothness": "bad",
         "surface": "compacted"
       }
     },
@@ -12793,11 +12825,11 @@
     {
       "type": "way",
       "id": 51782094,
-      "timestamp": "2021-12-19T15:50:24Z",
-      "version": 12,
-      "changeset": 115130788,
-      "user": "pedrojuan01",
-      "uid": 1948725,
+      "timestamp": "2022-03-16T16:13:26Z",
+      "version": 14,
+      "changeset": 118558119,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [564631036, 2498089618],
       "geometry": [
         {"lat": 39.8195371, "lon": 2.8834644},
@@ -12825,16 +12857,16 @@
         {"lat": 39.8196493, "lon": 2.8810026},
         {"lat": 39.8196697, "lon": 2.8809376}
       ],
-      "tags": {"highway": "path"}
+      "tags": {"highway": "path", "smoothness": "very_bad", "surface": "sett"}
     },
     {
       "type": "way",
       "id": 51785571,
-      "timestamp": "2022-03-01T08:36:10Z",
-      "version": 22,
-      "changeset": 117970099,
-      "user": "pi=3",
-      "uid": 10178286,
+      "timestamp": "2022-03-16T16:08:58Z",
+      "version": 24,
+      "changeset": 118558119,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [660784849, 660786933],
       "geometry": [
         {"lat": 39.8206362, "lon": 2.8723022},
@@ -13030,17 +13062,18 @@
         "foot": "yes",
         "highway": "path",
         "name": "camí de ses Voltes d'en Galileu (GR-221)",
-        "surface": "cobblestone"
+        "smoothness": "very_bad",
+        "surface": "sett"
       }
     },
     {
       "type": "way",
       "id": 51785933,
-      "timestamp": "2022-03-01T08:53:55Z",
-      "version": 10,
-      "changeset": 117970584,
-      "user": "pi=3",
-      "uid": 10178286,
+      "timestamp": "2022-03-16T16:08:58Z",
+      "version": 11,
+      "changeset": 118558120,
+      "user": "Willhelm_Mueller",
+      "uid": 308224,
       "nodes": [660831965, 660787257],
       "geometry": [
         {"lat": 39.8116381, "lon": 2.8580813},
@@ -13197,7 +13230,7 @@
         {"lat": 39.8151771, "lon": 2.8545995},
         {"lat": 39.8152845, "lon": 2.8544398}
       ],
-      "tags": {"highway": "path", "name": "GR-221"}
+      "tags": {"highway": "path", "name": "GR-221", "surface": "rock"}
     },
     {
       "type": "way",
