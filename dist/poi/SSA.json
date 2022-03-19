@@ -10317,15 +10317,18 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_spring",
+        "@poi": "water_drinking-water",
         "@distance": 36.2,
         "@id": "n5645218196",
-        "@changeset": 59306320,
-        "@timestamp": "2018-05-27T05:29:30Z",
-        "@version": 1,
-        "@uid": 3335899,
-        "@user": "GBAB",
-        "natural": "spring"
+        "@changeset": 118562923,
+        "@timestamp": "2022-03-16T18:22:31Z",
+        "@version": 2,
+        "@uid": 15317822,
+        "@user": "ivan guerrini",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "wheelchair": "limited"
       },
       "geometry": {
         "type": "Point",
@@ -16572,11 +16575,13 @@
         "@poi": "foodshop_convenience",
         "@distance": 5229.6,
         "@id": "n6469164454",
-        "@changeset": 70177002,
-        "@timestamp": "2019-05-13T05:21:58Z",
-        "@version": 1,
+        "@changeset": 118613758,
+        "@timestamp": "2022-03-17T22:59:47Z",
+        "@version": 2,
         "@uid": 7078274,
         "@user": "gabriele_sani",
+        "addr:housenumber": "58",
+        "addr:street": "Via Molino",
         "name": "Alimentari Guidi Francesco",
         "shop": "convenience"
       },
@@ -16607,6 +16612,29 @@
         "coordinates": [
           11.8421928,
           43.8092969
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 12.1,
+        "@id": "n6707981249",
+        "@changeset": 113182066,
+        "@timestamp": "2021-10-31T07:54:25Z",
+        "@version": 3,
+        "@uid": 2083953,
+        "@user": "markusifer",
+        "name": "Sorgente Lamone",
+        "natural": "spring",
+        "note": "dry 2021-09-02"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4841986,
+          44.0343308
         ]
       }
     },
@@ -18024,29 +18052,6 @@
         "coordinates": [
           10.8069279,
           44.0867114
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 12.1,
-        "@id": "n6707981249",
-        "@changeset": 113182066,
-        "@timestamp": "2021-10-31T07:54:25Z",
-        "@version": 3,
-        "@uid": 2083953,
-        "@user": "markusifer",
-        "name": "Sorgente Lamone",
-        "natural": "spring",
-        "note": "dry 2021-09-02"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.4841986,
-          44.0343308
         ]
       }
     },
@@ -24735,6 +24740,27 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_spring",
+        "@distance": 868.2,
+        "@id": "n9026763417",
+        "@changeset": 110072366,
+        "@timestamp": "2021-08-22T17:39:41Z",
+        "@version": 1,
+        "@uid": 1669056,
+        "@user": "Maurizio Melani (forwalk)",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8487957,
+          44.051038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
         "@distance": 1313.1,
         "@id": "n7473526124",
         "@changeset": 84520221,
@@ -25601,27 +25627,6 @@
         "coordinates": [
           10.9902198,
           44.1335091
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 868.2,
-        "@id": "n9026763417",
-        "@changeset": 110072366,
-        "@timestamp": "2021-08-22T17:39:41Z",
-        "@version": 1,
-        "@uid": 1669056,
-        "@user": "Maurizio Melani (forwalk)",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.8487957,
-          44.051038
         ]
       }
     },

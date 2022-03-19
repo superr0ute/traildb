@@ -4929,11 +4929,11 @@
         "@poi": "foodshop_supermarket",
         "@distance": 1239.5,
         "@id": "n357198361",
-        "@changeset": 90849215,
-        "@timestamp": "2020-09-14T07:40:56Z",
-        "@version": 10,
-        "@uid": 1894634,
-        "@user": "Wikilux",
+        "@changeset": 118598510,
+        "@timestamp": "2022-03-17T15:06:45Z",
+        "@version": 11,
+        "@uid": 298209,
+        "@user": "elumbella",
         "addr:city": "Fiesch",
         "addr:country": "CH",
         "addr:housenumber": "46",
@@ -4948,7 +4948,7 @@
         "cash_withdrawal:type": "checkout",
         "name": "Migros",
         "name:de": "Migros",
-        "opening_hours": "Mo-Fr 07:30-18:30; Sa 07:30-17:00; Su 08:00-12:30, 14:00-18:30",
+        "opening_hours": "Mo-Su 08:00-19:00",
         "operator": "Migros",
         "phone": "+41587264005",
         "shop": "supermarket"
@@ -11474,6 +11474,50 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1113.6,
+        "@id": "n1500628068",
+        "@changeset": 9808387,
+        "@timestamp": "2011-11-12T21:20:46Z",
+        "@version": 2,
+        "@uid": 67547,
+        "@user": "gregus_",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9768448,
+          46.0299389
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1113.6,
+        "@id": "n1500628073",
+        "@changeset": 12019262,
+        "@timestamp": "2012-06-26T07:19:03Z",
+        "@version": 2,
+        "@uid": 52778,
+        "@user": "rudolf",
+        "amenity": "shelter",
+        "fireplace": "no",
+        "shelter_type": "lean_to"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9925516,
+          46.0384023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 62.6,
         "@id": "n484264459",
@@ -12469,12 +12513,17 @@
         "@poi": "foodshop_supermarket",
         "@distance": 112.3,
         "@id": "n1309304667",
-        "@changeset": 72198080,
-        "@timestamp": "2019-07-12T21:16:14Z",
-        "@version": 4,
+        "@changeset": 118627619,
+        "@timestamp": "2022-03-18T10:51:44Z",
+        "@version": 5,
         "@uid": 2931351,
         "@user": "Zaniglaser",
-        "name": "Denner Satellit",
+        "branch": "Satellit",
+        "brand": "Denner",
+        "brand:wikidata": "Q379911",
+        "brand:wikipedia": "en:Denner (supermarket)",
+        "name": "Denner",
+        "operator": "Denner",
         "shop": "supermarket"
       },
       "geometry": {
@@ -14639,44 +14688,24 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1113.6,
-        "@id": "n1500628068",
-        "@changeset": 9808387,
-        "@timestamp": "2011-11-12T21:20:46Z",
-        "@version": 2,
-        "@uid": 67547,
-        "@user": "gregus_",
-        "amenity": "shelter"
+        "@poi": "peak_peak",
+        "@distance": 966,
+        "@id": "n1373156814",
+        "@changeset": 84295827,
+        "@timestamp": "2020-04-28T23:37:00Z",
+        "@version": 4,
+        "@uid": 1416503,
+        "@user": "asdf2",
+        "ele": 1981,
+        "name": "Pointe des Ombrieux",
+        "natural": "peak",
+        "wikidata": "Q22434606"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.9768448,
-          46.0299389
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1113.6,
-        "@id": "n1500628073",
-        "@changeset": 12019262,
-        "@timestamp": "2012-06-26T07:19:03Z",
-        "@version": 2,
-        "@uid": 52778,
-        "@user": "rudolf",
-        "amenity": "shelter",
-        "fireplace": "no",
-        "shelter_type": "lean_to"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.9925516,
-          46.0384023
+          6.8649338,
+          46.2801905
         ]
       }
     },
@@ -15780,12 +15809,13 @@
         "@poi": "water_drinking-water",
         "@distance": 1409.3,
         "@id": "n1399798604",
-        "@changeset": 21012254,
-        "@timestamp": "2014-03-09T19:17:25Z",
-        "@version": 2,
-        "@uid": 84770,
-        "@user": "berolinux",
-        "amenity": "drinking_water"
+        "@changeset": 118598496,
+        "@timestamp": "2022-03-17T15:06:14Z",
+        "@version": 3,
+        "@uid": 298209,
+        "@user": "elumbella",
+        "amenity": "drinking_water",
+        "check_date": "2022-03-17"
       },
       "geometry": {
         "type": "Point",
@@ -15822,12 +15852,13 @@
         "@poi": "water_drinking-water",
         "@distance": 182,
         "@id": "n1400233612",
-        "@changeset": 9030727,
-        "@timestamp": "2011-08-15T19:45:43Z",
-        "@version": 1,
-        "@uid": 239509,
-        "@user": "brainsail",
-        "amenity": "drinking_water"
+        "@changeset": 118560507,
+        "@timestamp": "2022-03-16T17:06:55Z",
+        "@version": 2,
+        "@uid": 298209,
+        "@user": "elumbella",
+        "amenity": "drinking_water",
+        "check_date": "2022-03-16"
       },
       "geometry": {
         "type": "Point",
@@ -15843,12 +15874,13 @@
         "@poi": "water_drinking-water",
         "@distance": 1246,
         "@id": "n1403922423",
-        "@changeset": 9060201,
-        "@timestamp": "2011-08-18T20:05:47Z",
-        "@version": 1,
-        "@uid": 239509,
-        "@user": "brainsail",
-        "amenity": "drinking_water"
+        "@changeset": 118598496,
+        "@timestamp": "2022-03-17T15:07:20Z",
+        "@version": 2,
+        "@uid": 298209,
+        "@user": "elumbella",
+        "amenity": "drinking_water",
+        "check_date": "2022-03-17"
       },
       "geometry": {
         "type": "Point",
@@ -16376,12 +16408,13 @@
         "@poi": "water_drinking-water",
         "@distance": 215,
         "@id": "n1861602883",
-        "@changeset": 12724749,
-        "@timestamp": "2012-08-14T09:52:37Z",
-        "@version": 2,
-        "@uid": 707281,
-        "@user": "Thusm",
-        "amenity": "drinking_water"
+        "@changeset": 118560507,
+        "@timestamp": "2022-03-16T17:08:51Z",
+        "@version": 3,
+        "@uid": 298209,
+        "@user": "elumbella",
+        "amenity": "drinking_water",
+        "check_date": "2022-03-16"
       },
       "geometry": {
         "type": "Point",
@@ -17596,30 +17629,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "peak_peak",
-        "@distance": 966,
-        "@id": "n1373156814",
-        "@changeset": 84295827,
-        "@timestamp": "2020-04-28T23:37:00Z",
-        "@version": 4,
-        "@uid": 1416503,
-        "@user": "asdf2",
-        "ele": 1981,
-        "name": "Pointe des Ombrieux",
-        "natural": "peak",
-        "wikidata": "Q22434606"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.8649338,
-          46.2801905
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
         "@distance": 2279.9,
         "@id": "n1373162136",
         "@changeset": 46256420,
@@ -18251,27 +18260,6 @@
         "coordinates": [
           7.5322697,
           46.2554289
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 2639.1,
-        "@id": "n3387987641",
-        "@changeset": 29313807,
-        "@timestamp": "2015-03-07T18:09:53Z",
-        "@version": 1,
-        "@uid": 2736151,
-        "@user": "briqo",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.5852652,
-          46.2151884
         ]
       }
     },
@@ -18923,12 +18911,13 @@
         "@poi": "water_drinking-water",
         "@distance": 275.4,
         "@id": "n2657383739",
-        "@changeset": 20409631,
-        "@timestamp": "2014-02-06T11:02:37Z",
-        "@version": 1,
-        "@uid": 84770,
-        "@user": "berolinux",
-        "amenity": "drinking_water"
+        "@changeset": 118560507,
+        "@timestamp": "2022-03-16T17:19:33Z",
+        "@version": 2,
+        "@uid": 298209,
+        "@user": "elumbella",
+        "amenity": "drinking_water",
+        "check_date": "2022-03-16"
       },
       "geometry": {
         "type": "Point",
@@ -18944,39 +18933,19 @@
         "@poi": "water_drinking-water",
         "@distance": 208.7,
         "@id": "n2657409115",
-        "@changeset": 20409631,
-        "@timestamp": "2014-02-06T11:24:00Z",
-        "@version": 1,
-        "@uid": 84770,
-        "@user": "berolinux",
-        "amenity": "drinking_water"
+        "@changeset": 118560507,
+        "@timestamp": "2022-03-16T17:06:25Z",
+        "@version": 2,
+        "@uid": 298209,
+        "@user": "elumbella",
+        "amenity": "drinking_water",
+        "check_date": "2022-03-16"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           8.146274,
           46.3993932
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 306.6,
-        "@id": "n2657427346",
-        "@changeset": 21266424,
-        "@timestamp": "2014-03-23T15:34:24Z",
-        "@version": 2,
-        "@uid": 84770,
-        "@user": "berolinux",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.1441353,
-          46.3984319
         ]
       }
     },
@@ -19979,6 +19948,27 @@
         "coordinates": [
           6.9513581,
           46.0539178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 2639.1,
+        "@id": "n3387987641",
+        "@changeset": 29313807,
+        "@timestamp": "2015-03-07T18:09:53Z",
+        "@version": 1,
+        "@uid": 2736151,
+        "@user": "briqo",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.5852652,
+          46.2151884
         ]
       }
     },
@@ -23485,6 +23475,45 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 2284,
+        "@id": "n2133958394",
+        "@changeset": 85495461,
+        "@timestamp": "2020-05-20T11:15:55Z",
+        "@version": 9,
+        "@uid": 507417,
+        "@user": "tartiflex",
+        "addr:city": "Châtel",
+        "addr:housenumber": "125",
+        "addr:postcode": "74390",
+        "addr:street": "Chemin de l'Étringa",
+        "brand": "Sherpa",
+        "brand:wikidata": "Q3481967",
+        "brand:wikipedia": "fr:Sherpa (enseigne)",
+        "contact:email": "chatel@sherpa.net",
+        "contact:phone": "+33 4 50 73 21 54",
+        "contact:website": "https://www.sherpa.net/magasins/chatel",
+        "name": "Sherpa",
+        "official_name": "Sherpa Supermarché Châtel",
+        "opening_hours": "Oct 01-May 31 Mo-Su 07:30-12:30, 15:00-19:15; Jun 01-Sep 30 Mo-Su 07:30-12:15, 15:30-19:00",
+        "operator": "Vanessa & Benoît Gurliat",
+        "payment:coins": "yes",
+        "payment:mastercard": "yes",
+        "payment:notes": "yes",
+        "payment:visa": "yes",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8403359,
+          46.2636875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 137.8,
         "@id": "n3144314562",
@@ -26215,45 +26244,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 2284,
-        "@id": "n2133958394",
-        "@changeset": 85495461,
-        "@timestamp": "2020-05-20T11:15:55Z",
-        "@version": 9,
-        "@uid": 507417,
-        "@user": "tartiflex",
-        "addr:city": "Châtel",
-        "addr:housenumber": "125",
-        "addr:postcode": "74390",
-        "addr:street": "Chemin de l'Étringa",
-        "brand": "Sherpa",
-        "brand:wikidata": "Q3481967",
-        "brand:wikipedia": "fr:Sherpa (enseigne)",
-        "contact:email": "chatel@sherpa.net",
-        "contact:phone": "+33 4 50 73 21 54",
-        "contact:website": "https://www.sherpa.net/magasins/chatel",
-        "name": "Sherpa",
-        "official_name": "Sherpa Supermarché Châtel",
-        "opening_hours": "Oct 01-May 31 Mo-Su 07:30-12:30, 15:00-19:15; Jun 01-Sep 30 Mo-Su 07:30-12:15, 15:30-19:00",
-        "operator": "Vanessa & Benoît Gurliat",
-        "payment:coins": "yes",
-        "payment:mastercard": "yes",
-        "payment:notes": "yes",
-        "payment:visa": "yes",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.8403359,
-          46.2636875
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 1843.4,
         "@id": "n2346492714",
@@ -28615,6 +28605,27 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 0.8,
+        "@id": "n6574850760",
+        "@changeset": 71674604,
+        "@timestamp": "2019-06-27T14:13:22Z",
+        "@version": 1,
+        "@uid": 160521,
+        "@user": "François2",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.001488,
+          46.0577166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 6117.3,
         "@id": "n8426950597",
@@ -30122,27 +30133,6 @@
         "coordinates": [
           6.8540248,
           46.382908
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 0.8,
-        "@id": "n6574850760",
-        "@changeset": 71674604,
-        "@timestamp": "2019-06-27T14:13:22Z",
-        "@version": 1,
-        "@uid": 160521,
-        "@user": "François2",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.001488,
-          46.0577166
         ]
       }
     },
@@ -34682,25 +34672,21 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "alpine-hut",
-        "@distance": 1362.2,
-        "@id": "w112395108",
-        "@changeset": 17614598,
-        "@timestamp": "2013-09-01T10:11:21Z",
-        "@version": 2,
-        "@uid": 86289,
-        "@user": "Gustry",
-        "building": "yes",
-        "ele": 2191,
-        "name": "Chalet du Col de Balme",
-        "source": "Bing",
-        "tourism": "alpine_hut"
+        "@poi": "water_drinking-water",
+        "@distance": 2635.2,
+        "@id": "n3888036475",
+        "@changeset": 35890331,
+        "@timestamp": "2015-12-11T18:41:08Z",
+        "@version": 1,
+        "@uid": 507417,
+        "@user": "tartiflex",
+        "amenity": "drinking_water"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.9700666,
-          46.0266857
+          6.7655609,
+          46.3307375
         ]
       }
     },
@@ -34948,27 +34934,6 @@
         "coordinates": [
           8.7992888,
           46.4765198
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 2635.2,
-        "@id": "n3888036475",
-        "@changeset": 35890331,
-        "@timestamp": "2015-12-11T18:41:08Z",
-        "@version": 1,
-        "@uid": 507417,
-        "@user": "tartiflex",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.7655609,
-          46.3307375
         ]
       }
     },
@@ -35289,6 +35254,53 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 8423.7,
+        "@id": "n4404670012",
+        "@changeset": 42210694,
+        "@timestamp": "2016-09-16T18:51:53Z",
+        "@version": 1,
+        "@uid": 42938,
+        "@user": "Xanadu",
+        "name": "coop",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0063135,
+          46.2177956
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "alpine-hut",
+        "@distance": 1362.2,
+        "@id": "w112395108",
+        "@changeset": 17614598,
+        "@timestamp": "2013-09-01T10:11:21Z",
+        "@version": 2,
+        "@uid": 86289,
+        "@user": "Gustry",
+        "building": "yes",
+        "ele": 2191,
+        "name": "Chalet du Col de Balme",
+        "source": "Bing",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9700666,
+          46.0266857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 683.5,
         "@id": "n3642142018",
@@ -35329,28 +35341,6 @@
         "coordinates": [
           8.8978199,
           46.5058957
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 8423.7,
-        "@id": "n4404670012",
-        "@changeset": 42210694,
-        "@timestamp": "2016-09-16T18:51:53Z",
-        "@version": 1,
-        "@uid": 42938,
-        "@user": "Xanadu",
-        "name": "coop",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0063135,
-          46.2177956
         ]
       }
     },
@@ -35763,218 +35753,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 81.2,
-        "@id": "w309588279",
-        "@changeset": 117919037,
-        "@timestamp": "2022-02-27T19:00:41Z",
-        "@version": 4,
-        "@uid": 4671660,
-        "@user": "Halbtax",
-        "amenity": "shelter",
-        "building": "train_station",
-        "ele": 1129,
-        "shelter_type": "public_transport"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.9578708,
-          46.0602841
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 84.7,
-        "@id": "w417318351",
-        "@changeset": 39245001,
-        "@timestamp": "2016-05-11T15:29:36Z",
-        "@version": 1,
-        "@uid": 97547,
-        "@user": "datendelphin",
-        "email": "colforclazhotel@bluewin.ch",
-        "fax": "+41 27 723 18 07",
-        "name": "Camping de l'Arpille",
-        "phone": "+41 27 722 26 88",
-        "tourism": "camp_site",
-        "website": "http://coldelaforclaz.ch"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0013673,
-          46.0584844
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 2932.6,
-        "@id": "n3977833822",
-        "@changeset": 98418555,
-        "@timestamp": "2021-01-30T15:29:18Z",
-        "@version": 4,
-        "@uid": 12577026,
-        "@user": "Piemong",
-        "ele": 3324,
-        "name": "Petit Grépillon",
-        "natural": "peak",
-        "wikidata": "Q3647009"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0618835,
-          45.9116313
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 1567.8,
-        "@id": "n4044275560",
-        "@changeset": 84295827,
-        "@timestamp": "2020-04-28T23:37:29Z",
-        "@version": 2,
-        "@uid": 1416503,
-        "@user": "asdf2",
-        "ele": 2803,
-        "name": "Bonhomme du Tsapi",
-        "natural": "peak",
-        "wikidata": "Q22580403"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.233757,
-          45.9633256
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 3879.7,
-        "@id": "n4095457698",
-        "@changeset": 84295827,
-        "@timestamp": "2020-04-28T23:36:44Z",
-        "@version": 2,
-        "@uid": 1416503,
-        "@user": "asdf2",
-        "ele": 2999,
-        "name": "Aiguille de la Cabane",
-        "natural": "peak",
-        "wikidata": "Q22370953"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0681199,
-          46.0063154
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 1564.8,
-        "@id": "n4095457699",
-        "@changeset": 66168729,
-        "@timestamp": "2019-01-09T16:55:05Z",
-        "@version": 2,
-        "@uid": 364,
-        "@user": "Edward",
-        "ele": 2374,
-        "name": "La Breya",
-        "natural": "peak",
-        "wikidata": "Q136990"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0977502,
-          46.0187527
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 2146,
-        "@id": "n4095457701",
-        "@changeset": 84295827,
-        "@timestamp": "2020-04-28T23:37:38Z",
-        "@version": 2,
-        "@uid": 1416503,
-        "@user": "asdf2",
-        "ele": 2826,
-        "name": "Six Carro",
-        "natural": "peak",
-        "wikidata": "Q22632609"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0515394,
-          46.0253671
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 114.9,
-        "@id": "n4291032310",
-        "@changeset": 40581660,
-        "@timestamp": "2016-07-08T17:32:32Z",
-        "@version": 1,
-        "@uid": 125897,
-        "@user": "overflorian",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0968713,
-          45.9314665
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 136.8,
-        "@id": "n4291104512",
-        "@changeset": 41141235,
-        "@timestamp": "2016-07-31T10:05:27Z",
-        "@version": 2,
-        "@uid": 2030591,
-        "@user": "MichaOSM",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.0936661,
-          45.9334788
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "place_hamlet",
         "@distance": 11.9,
         "@id": "n5077804029",
@@ -36232,6 +36010,218 @@
         "coordinates": [
           6.8793917,
           46.3154283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 81.2,
+        "@id": "w309588279",
+        "@changeset": 117919037,
+        "@timestamp": "2022-02-27T19:00:41Z",
+        "@version": 4,
+        "@uid": 4671660,
+        "@user": "Halbtax",
+        "amenity": "shelter",
+        "building": "train_station",
+        "ele": 1129,
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9578708,
+          46.0602841
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 84.7,
+        "@id": "w417318351",
+        "@changeset": 39245001,
+        "@timestamp": "2016-05-11T15:29:36Z",
+        "@version": 1,
+        "@uid": 97547,
+        "@user": "datendelphin",
+        "email": "colforclazhotel@bluewin.ch",
+        "fax": "+41 27 723 18 07",
+        "name": "Camping de l'Arpille",
+        "phone": "+41 27 722 26 88",
+        "tourism": "camp_site",
+        "website": "http://coldelaforclaz.ch"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0013673,
+          46.0584844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 2932.6,
+        "@id": "n3977833822",
+        "@changeset": 98418555,
+        "@timestamp": "2021-01-30T15:29:18Z",
+        "@version": 4,
+        "@uid": 12577026,
+        "@user": "Piemong",
+        "ele": 3324,
+        "name": "Petit Grépillon",
+        "natural": "peak",
+        "wikidata": "Q3647009"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0618835,
+          45.9116313
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 1567.8,
+        "@id": "n4044275560",
+        "@changeset": 84295827,
+        "@timestamp": "2020-04-28T23:37:29Z",
+        "@version": 2,
+        "@uid": 1416503,
+        "@user": "asdf2",
+        "ele": 2803,
+        "name": "Bonhomme du Tsapi",
+        "natural": "peak",
+        "wikidata": "Q22580403"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.233757,
+          45.9633256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 3879.7,
+        "@id": "n4095457698",
+        "@changeset": 84295827,
+        "@timestamp": "2020-04-28T23:36:44Z",
+        "@version": 2,
+        "@uid": 1416503,
+        "@user": "asdf2",
+        "ele": 2999,
+        "name": "Aiguille de la Cabane",
+        "natural": "peak",
+        "wikidata": "Q22370953"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0681199,
+          46.0063154
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 1564.8,
+        "@id": "n4095457699",
+        "@changeset": 66168729,
+        "@timestamp": "2019-01-09T16:55:05Z",
+        "@version": 2,
+        "@uid": 364,
+        "@user": "Edward",
+        "ele": 2374,
+        "name": "La Breya",
+        "natural": "peak",
+        "wikidata": "Q136990"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0977502,
+          46.0187527
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 2146,
+        "@id": "n4095457701",
+        "@changeset": 84295827,
+        "@timestamp": "2020-04-28T23:37:38Z",
+        "@version": 2,
+        "@uid": 1416503,
+        "@user": "asdf2",
+        "ele": 2826,
+        "name": "Six Carro",
+        "natural": "peak",
+        "wikidata": "Q22632609"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0515394,
+          46.0253671
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 114.9,
+        "@id": "n4291032310",
+        "@changeset": 40581660,
+        "@timestamp": "2016-07-08T17:32:32Z",
+        "@version": 1,
+        "@uid": 125897,
+        "@user": "overflorian",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0968713,
+          45.9314665
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 136.8,
+        "@id": "n4291104512",
+        "@changeset": 41141235,
+        "@timestamp": "2016-07-31T10:05:27Z",
+        "@version": 2,
+        "@uid": 2030591,
+        "@user": "MichaOSM",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.0936661,
+          45.9334788
         ]
       }
     },
@@ -36681,6 +36671,146 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 3645.1,
+        "@id": "n6631280686",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:29:03Z",
+        "@version": 5,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
+        "brand": "Volg",
+        "brand:wikidata": "Q2530746",
+        "brand:wikipedia": "de:Volg",
+        "cash_withdrawal": "yes",
+        "cash_withdrawal:fee": "no",
+        "cash_withdrawal:operator": "sonect",
+        "cash_withdrawal:purchase_required": "no",
+        "cash_withdrawal:type": "checkout",
+        "name": "Volg",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9288455,
+          46.2785809
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_cave",
+        "@distance": 2285.7,
+        "@id": "n6698745578",
+        "@changeset": 73218133,
+        "@timestamp": "2019-08-10T10:50:45Z",
+        "@version": 1,
+        "@uid": 9598800,
+        "@user": "dwarfclimbs",
+        "name": "La Cathedrale",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.787056,
+          46.1294133
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_cave",
+        "@distance": 1733,
+        "@id": "n6700100065",
+        "@changeset": 73239036,
+        "@timestamp": "2019-08-11T11:31:36Z",
+        "@version": 1,
+        "@uid": 481447,
+        "@user": "BTH",
+        "name": "OC 18-6",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7502695,
+          46.3493496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_cave",
+        "@distance": 1792.5,
+        "@id": "n6700143600",
+        "@changeset": 73240237,
+        "@timestamp": "2019-08-11T12:23:16Z",
+        "@version": 4,
+        "@uid": 481447,
+        "@user": "BTH",
+        "name": "PP 14-4",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7520794,
+          46.3457937
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_cave",
+        "@distance": 1788.5,
+        "@id": "n6700180756",
+        "@changeset": 73240375,
+        "@timestamp": "2019-08-11T12:28:40Z",
+        "@version": 2,
+        "@uid": 481447,
+        "@user": "BTH",
+        "name": "PP 14-5",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.75207,
+          46.3458674
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_cave",
+        "@distance": 1799.8,
+        "@id": "n6700216960",
+        "@changeset": 73240521,
+        "@timestamp": "2019-08-11T12:35:01Z",
+        "@version": 1,
+        "@uid": 481447,
+        "@user": "BTH",
+        "name": "PP 14-6",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7515607,
+          46.3462198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "alpine-hut",
         "@distance": 1518,
         "@id": "n4399832720",
@@ -36863,146 +36993,6 @@
         "coordinates": [
           7.3313863,
           46.0185892
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 3645.1,
-        "@id": "n6631280686",
-        "@changeset": 113983736,
-        "@timestamp": "2021-11-19T10:29:03Z",
-        "@version": 5,
-        "@uid": 145231,
-        "@user": "woodpeck_repair",
-        "brand": "Volg",
-        "brand:wikidata": "Q2530746",
-        "brand:wikipedia": "de:Volg",
-        "cash_withdrawal": "yes",
-        "cash_withdrawal:fee": "no",
-        "cash_withdrawal:operator": "sonect",
-        "cash_withdrawal:purchase_required": "no",
-        "cash_withdrawal:type": "checkout",
-        "name": "Volg",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.9288455,
-          46.2785809
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_cave",
-        "@distance": 2285.7,
-        "@id": "n6698745578",
-        "@changeset": 73218133,
-        "@timestamp": "2019-08-10T10:50:45Z",
-        "@version": 1,
-        "@uid": 9598800,
-        "@user": "dwarfclimbs",
-        "name": "La Cathedrale",
-        "natural": "cave_entrance"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.787056,
-          46.1294133
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_cave",
-        "@distance": 1733,
-        "@id": "n6700100065",
-        "@changeset": 73239036,
-        "@timestamp": "2019-08-11T11:31:36Z",
-        "@version": 1,
-        "@uid": 481447,
-        "@user": "BTH",
-        "name": "OC 18-6",
-        "natural": "cave_entrance"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.7502695,
-          46.3493496
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_cave",
-        "@distance": 1792.5,
-        "@id": "n6700143600",
-        "@changeset": 73240237,
-        "@timestamp": "2019-08-11T12:23:16Z",
-        "@version": 4,
-        "@uid": 481447,
-        "@user": "BTH",
-        "name": "PP 14-4",
-        "natural": "cave_entrance"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.7520794,
-          46.3457937
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_cave",
-        "@distance": 1788.5,
-        "@id": "n6700180756",
-        "@changeset": 73240375,
-        "@timestamp": "2019-08-11T12:28:40Z",
-        "@version": 2,
-        "@uid": 481447,
-        "@user": "BTH",
-        "name": "PP 14-5",
-        "natural": "cave_entrance"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.75207,
-          46.3458674
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_cave",
-        "@distance": 1799.8,
-        "@id": "n6700216960",
-        "@changeset": 73240521,
-        "@timestamp": "2019-08-11T12:35:01Z",
-        "@version": 1,
-        "@uid": 481447,
-        "@user": "BTH",
-        "name": "PP 14-6",
-        "natural": "cave_entrance"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.7515607,
-          46.3462198
         ]
       }
     },
@@ -37472,6 +37462,56 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 3528,
+        "@id": "n7656997249",
+        "@changeset": 87210684,
+        "@timestamp": "2020-06-26T19:43:45Z",
+        "@version": 1,
+        "@uid": 266672,
+        "@user": "tf66",
+        "name": "Denner",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8535617,
+          46.3843531
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 5808.7,
+        "@id": "n7750118686",
+        "@changeset": 96277887,
+        "@timestamp": "2020-12-22T19:31:54Z",
+        "@version": 2,
+        "@uid": 1856092,
+        "@user": "imagoiq",
+        "bulk_purchase": "only",
+        "email": "chezmamie.monthey@bluewin.ch",
+        "name": "Chez Mamie",
+        "opening_hours": "Mo-Fr 09:00-12:00,13:30-18:30; Sa 09:00-17:00",
+        "organic": "only",
+        "shop": "convenience",
+        "website": "https://chezmamie-biovrac.ch/",
+        "zero_waste": "only"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9484283,
+          46.2511366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "peak_peak",
         "@distance": 2550.9,
         "@id": "n4993486810",
@@ -37532,56 +37572,6 @@
         "coordinates": [
           7.03315,
           46.0563271
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 3528,
-        "@id": "n7656997249",
-        "@changeset": 87210684,
-        "@timestamp": "2020-06-26T19:43:45Z",
-        "@version": 1,
-        "@uid": 266672,
-        "@user": "tf66",
-        "name": "Denner",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.8535617,
-          46.3843531
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 5808.7,
-        "@id": "n7750118686",
-        "@changeset": 96277887,
-        "@timestamp": "2020-12-22T19:31:54Z",
-        "@version": 2,
-        "@uid": 1856092,
-        "@user": "imagoiq",
-        "bulk_purchase": "only",
-        "email": "chezmamie.monthey@bluewin.ch",
-        "name": "Chez Mamie",
-        "opening_hours": "Mo-Fr 09:00-12:00,13:30-18:30; Sa 09:00-17:00",
-        "organic": "only",
-        "shop": "convenience",
-        "website": "https://chezmamie-biovrac.ch/",
-        "zero_waste": "only"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.9484283,
-          46.2511366
         ]
       }
     },
@@ -38026,6 +38016,172 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 16.9,
+        "@id": "n9051075983",
+        "@changeset": 110516858,
+        "@timestamp": "2021-08-31T14:02:11Z",
+        "@version": 1,
+        "@uid": 10331253,
+        "@user": "N31m4d",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8490364,
+          46.2347212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 57.7,
+        "@id": "n9057207984",
+        "@changeset": 110640136,
+        "@timestamp": "2021-09-02T21:02:44Z",
+        "@version": 1,
+        "@uid": 14028383,
+        "@user": "Krigu",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7968915,
+          46.3710071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 52.1,
+        "@id": "n9057207985",
+        "@changeset": 110640136,
+        "@timestamp": "2021-09-02T21:02:44Z",
+        "@version": 1,
+        "@uid": 14028383,
+        "@user": "Krigu",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8024644,
+          46.3752894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 42.7,
+        "@id": "n9057207986",
+        "@changeset": 110640136,
+        "@timestamp": "2021-09-02T21:02:44Z",
+        "@version": 1,
+        "@uid": 14028383,
+        "@user": "Krigu",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.806688,
+          46.3844283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 64.3,
+        "@id": "n9057207987",
+        "@changeset": 110640136,
+        "@timestamp": "2021-09-02T21:02:44Z",
+        "@version": 1,
+        "@uid": 14028383,
+        "@user": "Krigu",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8058856,
+          46.3891694
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 7650.2,
+        "@id": "n9060627206",
+        "@changeset": 110684821,
+        "@timestamp": "2021-09-03T15:51:52Z",
+        "@version": 1,
+        "@uid": 129299,
+        "@user": "Rémi Bovard",
+        "name": "Afroshop",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.857079,
+          46.4526725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 2882.5,
+        "@id": "n9069398256",
+        "@changeset": 110836333,
+        "@timestamp": "2021-09-07T06:49:40Z",
+        "@version": 1,
+        "@uid": 14028383,
+        "@user": "Krigu",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.767882,
+          46.3975307
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "mountain-pass",
         "@distance": 28.7,
         "@id": "n5082234989",
@@ -38231,172 +38387,6 @@
         "coordinates": [
           7.2008033,
           45.8630594
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 16.9,
-        "@id": "n9051075983",
-        "@changeset": 110516858,
-        "@timestamp": "2021-08-31T14:02:11Z",
-        "@version": 1,
-        "@uid": 10331253,
-        "@user": "N31m4d",
-        "amenity": "shelter",
-        "shelter_type": "picnic_shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.8490364,
-          46.2347212
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 57.7,
-        "@id": "n9057207984",
-        "@changeset": 110640136,
-        "@timestamp": "2021-09-02T21:02:44Z",
-        "@version": 1,
-        "@uid": 14028383,
-        "@user": "Krigu",
-        "access": "yes",
-        "amenity": "drinking_water",
-        "bottle": "yes",
-        "fee": "no",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.7968915,
-          46.3710071
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 52.1,
-        "@id": "n9057207985",
-        "@changeset": 110640136,
-        "@timestamp": "2021-09-02T21:02:44Z",
-        "@version": 1,
-        "@uid": 14028383,
-        "@user": "Krigu",
-        "access": "yes",
-        "amenity": "drinking_water",
-        "bottle": "yes",
-        "fee": "no",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.8024644,
-          46.3752894
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 42.7,
-        "@id": "n9057207986",
-        "@changeset": 110640136,
-        "@timestamp": "2021-09-02T21:02:44Z",
-        "@version": 1,
-        "@uid": 14028383,
-        "@user": "Krigu",
-        "access": "yes",
-        "amenity": "drinking_water",
-        "bottle": "yes",
-        "fee": "no",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.806688,
-          46.3844283
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 64.3,
-        "@id": "n9057207987",
-        "@changeset": 110640136,
-        "@timestamp": "2021-09-02T21:02:44Z",
-        "@version": 1,
-        "@uid": 14028383,
-        "@user": "Krigu",
-        "access": "yes",
-        "amenity": "drinking_water",
-        "bottle": "yes",
-        "fee": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.8058856,
-          46.3891694
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 7650.2,
-        "@id": "n9060627206",
-        "@changeset": 110684821,
-        "@timestamp": "2021-09-03T15:51:52Z",
-        "@version": 1,
-        "@uid": 129299,
-        "@user": "Rémi Bovard",
-        "name": "Afroshop",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.857079,
-          46.4526725
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 2882.5,
-        "@id": "n9069398256",
-        "@changeset": 110836333,
-        "@timestamp": "2021-09-07T06:49:40Z",
-        "@version": 1,
-        "@uid": 14028383,
-        "@user": "Krigu",
-        "amenity": "drinking_water",
-        "bottle": "yes",
-        "fee": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.767882,
-          46.3975307
         ]
       }
     },
@@ -39108,74 +39098,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 6914.9,
-        "@id": "n7404825089",
-        "@changeset": 83579586,
-        "@timestamp": "2020-04-15T09:10:58Z",
-        "@version": 1,
-        "@uid": 1669056,
-        "@user": "Maurizio Melani (forwalk)",
-        "addr:city": "Etroubles",
-        "addr:housenumber": "1",
-        "addr:postcode": "11014",
-        "addr:street": "Rue Chevrières",
-        "name": "Sfizio dolce e salato",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.2291799,
-          45.8190915
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 286.2,
-        "@id": "n8097004905",
-        "@changeset": 93801487,
-        "@timestamp": "2020-11-09T13:19:01Z",
-        "@version": 1,
-        "@uid": 10989573,
-        "@user": "Divinerites",
-        "access": "customers",
-        "addr:city": "Arolla",
-        "addr:housenumber": "8",
-        "addr:postcode": "1986",
-        "addr:street": "Route de Tsalion",
-        "capacity": 100,
-        "dog": "leashed",
-        "ele": 1950,
-        "fee": "yes",
-        "image": "https://www.camping-arolla.com/images/camping/vuegen_1_hu156e5fe42060c70d36c0061dc98b3680_200096_964x642_fill_q75_catmullrom_smart1.jpg",
-        "internet_access": "wlan",
-        "name": "Camping Arolla",
-        "operator": "SARL Camping Arolla",
-        "payment:cash": "yes",
-        "payment:credit_cards": "yes",
-        "phone": "+41 272832295",
-        "power_supply": "yes",
-        "sanitary_dump_station": "yes",
-        "shower": "yes",
-        "toilets": "yes",
-        "tourism": "camp_site",
-        "website": "https://www.camping-arolla.com"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.4857741,
-          46.0268832
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 3710,
         "@id": "w225313399",
@@ -39269,6 +39191,74 @@
         "coordinates": [
           6.7936621,
           46.3447991
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 6914.9,
+        "@id": "n7404825089",
+        "@changeset": 83579586,
+        "@timestamp": "2020-04-15T09:10:58Z",
+        "@version": 1,
+        "@uid": 1669056,
+        "@user": "Maurizio Melani (forwalk)",
+        "addr:city": "Etroubles",
+        "addr:housenumber": "1",
+        "addr:postcode": "11014",
+        "addr:street": "Rue Chevrières",
+        "name": "Sfizio dolce e salato",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2291799,
+          45.8190915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 286.2,
+        "@id": "n8097004905",
+        "@changeset": 93801487,
+        "@timestamp": "2020-11-09T13:19:01Z",
+        "@version": 1,
+        "@uid": 10989573,
+        "@user": "Divinerites",
+        "access": "customers",
+        "addr:city": "Arolla",
+        "addr:housenumber": "8",
+        "addr:postcode": "1986",
+        "addr:street": "Route de Tsalion",
+        "capacity": 100,
+        "dog": "leashed",
+        "ele": 1950,
+        "fee": "yes",
+        "image": "https://www.camping-arolla.com/images/camping/vuegen_1_hu156e5fe42060c70d36c0061dc98b3680_200096_964x642_fill_q75_catmullrom_smart1.jpg",
+        "internet_access": "wlan",
+        "name": "Camping Arolla",
+        "operator": "SARL Camping Arolla",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+41 272832295",
+        "power_supply": "yes",
+        "sanitary_dump_station": "yes",
+        "shower": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "website": "https://www.camping-arolla.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4857741,
+          46.0268832
         ]
       }
     },
@@ -39903,6 +39893,54 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 7835.4,
+        "@id": "w930707704",
+        "@changeset": 103263285,
+        "@timestamp": "2021-04-20T10:47:27Z",
+        "@version": 3,
+        "@uid": 616774,
+        "@user": "mueschel",
+        "addr:city": "Morzine",
+        "addr:postcode": "74110",
+        "addr:street": "Taille de Mas du Pleney",
+        "building": "yes",
+        "cuisine": "dessert;crepe",
+        "name": "Chez Martine",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7024595,
+          46.1804915
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 54,
+        "@id": "w979387972",
+        "@changeset": 110690414,
+        "@timestamp": "2021-09-03T18:00:12Z",
+        "@version": 1,
+        "@uid": 507417,
+        "@user": "tartiflex",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.804571,
+          46.3942517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "alpine-hut",
         "@distance": 1205.1,
         "@id": "w208112912",
@@ -40152,54 +40190,6 @@
         "coordinates": [
           7.2172695,
           46.0201289
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 7835.4,
-        "@id": "w930707704",
-        "@changeset": 103263285,
-        "@timestamp": "2021-04-20T10:47:27Z",
-        "@version": 3,
-        "@uid": 616774,
-        "@user": "mueschel",
-        "addr:city": "Morzine",
-        "addr:postcode": "74110",
-        "addr:street": "Taille de Mas du Pleney",
-        "building": "yes",
-        "cuisine": "dessert;crepe",
-        "name": "Chez Martine",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.7024595,
-          46.1804915
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 54,
-        "@id": "w979387972",
-        "@changeset": 110690414,
-        "@timestamp": "2021-09-03T18:00:12Z",
-        "@version": 1,
-        "@uid": 507417,
-        "@user": "tartiflex",
-        "amenity": "shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.804571,
-          46.3942517
         ]
       }
     },

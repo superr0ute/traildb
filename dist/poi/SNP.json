@@ -25188,20 +25188,22 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_spring",
-        "@distance": 846,
+        "@distance": 876.4,
         "@id": "n6991722468",
-        "@changeset": 77309232,
-        "@timestamp": "2019-11-20T08:26:42Z",
-        "@version": 1,
-        "@uid": 4815,
-        "@user": "*Martin*",
-        "natural": "spring"
+        "@changeset": 118546582,
+        "@timestamp": "2022-03-16T11:00:50Z",
+        "@version": 2,
+        "@uid": 10913816,
+        "@user": "sipka",
+        "natural": "spring",
+        "refitted": "yes",
+        "source": "survey"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.421745,
-          48.566105
+          17.4213521,
+          48.5662514
         ]
       }
     },
@@ -25838,13 +25840,13 @@
         "@poi": "foodshop_convenience",
         "@distance": 5604.5,
         "@id": "n914004710",
-        "@changeset": 109132613,
-        "@timestamp": "2021-08-04T08:32:32Z",
-        "@version": 7,
-        "@uid": 587752,
-        "@user": "d-sky",
+        "@changeset": 118639349,
+        "@timestamp": "2022-03-18T16:19:47Z",
+        "@version": 8,
+        "@uid": 29762,
+        "@user": "Jose Riha",
         "name": "Sendy",
-        "opening_hours": "Mo-Su 07:00-20:00",
+        "opening_hours": "Mo-Sa 07:00-19:00; Su 08:00-19:00",
         "payment:cash": "yes",
         "payment:maestro": "yes",
         "payment:visa_debit": "yes",
@@ -28471,6 +28473,28 @@
         "coordinates": [
           17.7198685,
           48.885351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 301.7,
+        "@id": "n1658828643",
+        "@changeset": 118544984,
+        "@timestamp": "2022-03-16T10:18:06Z",
+        "@version": 2,
+        "@uid": 21515,
+        "@user": "lubosb",
+        "name": "Terno",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0692093,
+          48.8976059
         ]
       }
     },
@@ -41159,21 +41183,21 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_cave",
-        "@distance": 1752.9,
+        "@distance": 1819.1,
         "@id": "n4353124913",
-        "@changeset": 41498283,
-        "@timestamp": "2016-08-16T20:14:07Z",
-        "@version": 1,
-        "@uid": 4815,
-        "@user": "*Martin*",
+        "@changeset": 118649323,
+        "@timestamp": "2022-03-18T22:08:42Z",
+        "@version": 2,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
         "name": "Prepadlisko",
         "natural": "cave_entrance"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.9778968,
-          48.8270283
+          18.9772397,
+          48.827438
         ]
       }
     },
@@ -41487,6 +41511,28 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_cave",
+        "@distance": 1082.7,
+        "@id": "n5655427276",
+        "@changeset": 118649323,
+        "@timestamp": "2022-03-18T22:08:42Z",
+        "@version": 2,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
+        "natural": "cave_entrance",
+        "source": "LIDAR:ÚGKK SR DMR5.0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9805877,
+          48.8163946
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "peak_peak",
         "@distance": 2437.6,
         "@id": "n5657427660",
@@ -41675,28 +41721,6 @@
         "coordinates": [
           18.8297318,
           48.7859349
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 7597.6,
-        "@id": "n6758732748",
-        "@changeset": 73907628,
-        "@timestamp": "2019-08-30T07:05:55Z",
-        "@version": 1,
-        "@uid": 51917,
-        "@user": "kayle",
-        "name": "COOP Jednota",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.8841985,
-          48.8233148
         ]
       }
     },
@@ -52205,6 +52229,28 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 7597.6,
+        "@id": "n6758732748",
+        "@changeset": 73907628,
+        "@timestamp": "2019-08-30T07:05:55Z",
+        "@version": 1,
+        "@uid": 51917,
+        "@user": "kayle",
+        "name": "COOP Jednota",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8841985,
+          48.8233148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 1631.3,
         "@id": "n6876081264",
@@ -59182,17 +59228,18 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
+        "@poi": "foodshop_convenience",
         "@distance": 1228,
         "@id": "n4874956475",
-        "@changeset": 113815487,
-        "@timestamp": "2021-11-15T17:28:56Z",
-        "@version": 3,
-        "@uid": 6990611,
-        "@user": "l0cKy",
+        "@changeset": 118578917,
+        "@timestamp": "2022-03-17T07:31:17Z",
+        "@version": 4,
+        "@uid": 1617449,
+        "@user": "aceman444",
         "name": "Žabka",
-        "opening_hours": "Mo-Fr 06:30-21:30; Sa 08:00-15:00; Su off",
-        "shop": "supermarket",
+        "opening_hours": "Mo-Su 06:00-23:00",
+        "operator": "Tesco franchise stores SR",
+        "shop": "convenience",
         "source": "survey"
       },
       "geometry": {
@@ -61334,6 +61381,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_spring",
+        "@distance": 2497.7,
+        "@id": "n9588740382",
+        "@changeset": 118649323,
+        "@timestamp": "2022-03-18T22:08:42Z",
+        "@version": 1,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
+        "drinking_water": "yes",
+        "name": "prameň BARTOŠKA",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9652455,
+          48.834408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 4209.1,
         "@id": "w37474552",
@@ -61942,29 +62012,6 @@
         "coordinates": [
           18.6087145,
           48.7802552
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "alpine-hut",
-        "@distance": 58,
-        "@id": "w734247694",
-        "@changeset": 75632508,
-        "@timestamp": "2019-10-13T19:07:21Z",
-        "@version": 1,
-        "@uid": 2175,
-        "@user": "laznik",
-        "building": "yes",
-        "name": "chata Štyri chotáre",
-        "tourism": "alpine_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.7227934,
-          48.8379123
         ]
       }
     },
@@ -66788,6 +66835,51 @@
         "coordinates": [
           21.1913958,
           48.9237462
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 387.7,
+        "@id": "n9583362378",
+        "@changeset": 118558252,
+        "@timestamp": "2022-03-16T16:12:14Z",
+        "@version": 1,
+        "@uid": 7169223,
+        "@user": "Klerik7",
+        "name": "Lidl",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2666713,
+          49.2943415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 825,
+        "@id": "n9585691595",
+        "@changeset": 118598945,
+        "@timestamp": "2022-03-17T15:17:20Z",
+        "@version": 1,
+        "@uid": 7169223,
+        "@user": "Klerik7",
+        "name": "MAKOS",
+        "shop": "convenience",
+        "website": "http://www.makos.sk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2719841,
+          49.3036266
         ]
       }
     },
@@ -72132,6 +72224,29 @@
         "coordinates": [
           18.3167899,
           48.9336713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "alpine-hut",
+        "@distance": 58,
+        "@id": "w734247694",
+        "@changeset": 75632508,
+        "@timestamp": "2019-10-13T19:07:21Z",
+        "@version": 1,
+        "@uid": 2175,
+        "@user": "laznik",
+        "building": "yes",
+        "name": "chata Štyri chotáre",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7227934,
+          48.8379123
         ]
       }
     },
@@ -79615,31 +79730,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 2495.8,
-        "@id": "n9146883294",
-        "@changeset": 112317684,
-        "@timestamp": "2021-10-09T23:34:08Z",
-        "@version": 2,
-        "@uid": 1617449,
-        "@user": "aceman444",
-        "level": "-1",
-        "name": "malina",
-        "opening_hours": "Mo-Su 05:30-23:00",
-        "shop": "convenience",
-        "website": "http://www.malina.sk"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.1295133,
-          48.1465349
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 1466.8,
         "@id": "w1030193126",
@@ -80881,29 +80971,6 @@
         "coordinates": [
           17.5961251,
           48.8672359
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2276.7,
-        "@id": "w804830009",
-        "@changeset": 86883397,
-        "@timestamp": "2020-06-19T15:05:22Z",
-        "@version": 2,
-        "@uid": 4130016,
-        "@user": "Milo12",
-        "amenity": "shelter",
-        "building": "yes",
-        "shelter_type": "picnic_shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.0750567,
-          48.9150523
         ]
       }
     },
@@ -85420,11 +85487,11 @@
         "@poi": "foodshop_supermarket",
         "@distance": 2791.7,
         "@id": "n6105499039",
-        "@changeset": 108756617,
-        "@timestamp": "2021-07-28T11:58:31Z",
-        "@version": 7,
-        "@uid": 6322444,
-        "@user": "Rick Richards",
+        "@changeset": 118641626,
+        "@timestamp": "2022-03-18T17:25:33Z",
+        "@version": 8,
+        "@uid": 15312507,
+        "@user": "POI Maper",
         "addr:city": "Košice",
         "addr:housenumber": "11",
         "addr:postcode": "04001",
@@ -85447,6 +85514,7 @@
         "payment:visa": "yes",
         "payment:visa_debit": "yes",
         "payment:visa_electron": "yes",
+        "self_checkout": "yes",
         "shop": "supermarket",
         "start_date": "2018-11-30",
         "website": "https://www.freshobchod.sk/",
@@ -86743,6 +86811,31 @@
         "coordinates": [
           21.2228656,
           48.8821273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 2495.8,
+        "@id": "n9146883294",
+        "@changeset": 112317684,
+        "@timestamp": "2021-10-09T23:34:08Z",
+        "@version": 2,
+        "@uid": 1617449,
+        "@user": "aceman444",
+        "level": "-1",
+        "name": "malina",
+        "opening_hours": "Mo-Su 05:30-23:00",
+        "shop": "convenience",
+        "website": "http://www.malina.sk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1295133,
+          48.1465349
         ]
       }
     },
@@ -88750,6 +88843,29 @@
         "coordinates": [
           17.1242231,
           48.1254118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2276.7,
+        "@id": "w804830009",
+        "@changeset": 86883397,
+        "@timestamp": "2020-06-19T15:05:22Z",
+        "@version": 2,
+        "@uid": 4130016,
+        "@user": "Milo12",
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0750567,
+          48.9150523
         ]
       }
     },
@@ -95838,17 +95954,17 @@
         "@poi": "foodshop_supermarket",
         "@distance": 3628,
         "@id": "w443103825",
-        "@changeset": 114851403,
-        "@timestamp": "2021-12-12T16:11:34Z",
-        "@version": 16,
-        "@uid": 29717,
-        "@user": "eumiro",
+        "@changeset": 118567902,
+        "@timestamp": "2022-03-16T21:08:37Z",
+        "@version": 17,
+        "@uid": 11998528,
+        "@user": "freemap-operations",
         "addr:city": "Bratislava",
         "addr:conscriptionnumber": "3964",
         "addr:country": "SK",
         "addr:housenumber": "3964/6",
         "addr:postcode": "851 03",
-        "addr:street": "Nám. hraničiarov",
+        "addr:street": "Námestie hraničiarov",
         "addr:streetnumber": "6",
         "addr:suburb": "Petržalka",
         "branch": "Námestie hraničiarov",

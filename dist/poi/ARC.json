@@ -1910,6 +1910,27 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_spring",
+        "@distance": 1727.5,
+        "@id": "n1839074949",
+        "@changeset": 118579532,
+        "@timestamp": "2022-03-17T07:48:21Z",
+        "@version": 2,
+        "@uid": 3391786,
+        "@user": "|Yucca|",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.0804976,
+          69.0340434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 26.1,
         "@id": "n2212074979",
@@ -2027,54 +2048,6 @@
         "coordinates": [
           20.861981,
           69.012231
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2079.2,
-        "@id": "n7125723333",
-        "@changeset": 79470921,
-        "@timestamp": "2020-01-12T09:47:15Z",
-        "@version": 1,
-        "@uid": 10646352,
-        "@user": "operaman",
-        "amenity": "shelter",
-        "fixme": "Position may be off ± 50 meters. What type of shelter is this?",
-        "source": "Facebook group Vindskydd i Norden",
-        "source:url": "https://is.gd/rjlDvK"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.863097,
-          69.054883
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1263.3,
-        "@id": "n7125723334",
-        "@changeset": 90461556,
-        "@timestamp": "2020-09-05T18:36:19Z",
-        "@version": 2,
-        "@uid": 8432644,
-        "@user": "sähkö",
-        "amenity": "shelter",
-        "fixme": "Position may be off ± 50 meters. What type of shelter is this?",
-        "source": "Facebook group Vindskydd i Norden",
-        "source:url": "https://is.gd/rjlDvK"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.887816,
-          69.0458162
         ]
       }
     },
@@ -2313,40 +2286,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_wilderness-hut",
-        "@distance": 2078,
-        "@id": "w170395723",
-        "@changeset": 69489860,
-        "@timestamp": "2019-04-23T13:40:16Z",
-        "@version": 6,
-        "@uid": 76015,
-        "@user": "frspp",
-        "addr:city": "Enontekiö",
-        "bin": "yes",
-        "building": "cabin",
-        "building:levels": "1",
-        "description": "For day use only, no sleeping",
-        "ele": 690,
-        "fireplace": "stove",
-        "gas": "yes",
-        "name": "Saanajärvi päivätupa",
-        "name:en": "Saanajärvi Day Trip Hut",
-        "operator": "Metsähallitus",
-        "snowmobile": "yes",
-        "tourism": "wilderness_hut",
-        "website": "https://nationalparks.fi/kasivarsi"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.8631187,
-          69.054873
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
         "@distance": 140.3,
         "@id": "w355321726",
         "@changeset": 75301849,
@@ -2454,14 +2393,15 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_wilderness-hut",
+        "@poi": "shelter_shelter",
         "@distance": 1275.4,
         "@id": "w606318952",
-        "@changeset": 69489860,
-        "@timestamp": "2019-04-23T13:40:16Z",
-        "@version": 3,
-        "@uid": 76015,
-        "@user": "frspp",
+        "@changeset": 118580955,
+        "@timestamp": "2022-03-17T08:26:52Z",
+        "@version": 4,
+        "@uid": 3391786,
+        "@user": "|Yucca|",
+        "amenity": "shelter",
         "bench": "yes",
         "bin": "yes",
         "building": "hut",
@@ -2470,7 +2410,6 @@
         "operator": "Metsähallitus",
         "shelter_type": "basic_hut",
         "snowmobile": "yes",
-        "tourism": "wilderness_hut",
         "website": "https://nationalparks.fi/kasivarsi"
       },
       "geometry": {
