@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-03-18T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-03-19T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -8522,26 +8522,28 @@
     {
       "type": "way",
       "id": 128944706,
-      "timestamp": "2022-01-28T00:24:06Z",
-      "version": 10,
-      "changeset": 116686762,
-      "user": "KingCZE",
-      "uid": 13552526,
-      "nodes": [355413515, 5891495463],
+      "timestamp": "2022-03-19T07:03:51Z",
+      "version": 11,
+      "changeset": 118655519,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [355413515, 9589218552],
       "geometry": [
-        {"lat": -36.8522627, "lon": 174.7705795},
-        {"lat": -36.8524906, "lon": 174.7705984},
-        {"lat": -36.8525549, "lon": 174.7706046},
-        {"lat": -36.8528321, "lon": 174.7706341}
+        {"lat": -36.8522403, "lon": 174.7706075},
+        {"lat": -36.852378, "lon": 174.7706192},
+        {"lat": -36.8525383, "lon": 174.7706344},
+        {"lat": -36.8528141, "lon": 174.7706621},
+        {"lat": -36.8528931, "lon": 174.7706696},
+        {"lat": -36.853041, "lon": 174.7706812},
+        {"lat": -36.8530811, "lon": 174.7706492}
       ],
       "tags": {
         "foot": "no",
         "highway": "secondary",
-        "lanes": "3",
-        "lanes:backward": "2",
-        "lanes:forward": "1",
+        "lanes": "1",
         "maxspeed": "30",
         "name": "Grafton Road",
+        "oneway": "yes",
         "source:maxspeed": "Speed Limits Bylaw 2020",
         "surface": "asphalt"
       }
@@ -46093,37 +46095,32 @@
     {
       "type": "way",
       "id": 34324413,
-      "timestamp": "2022-01-28T00:24:06Z",
-      "version": 19,
-      "changeset": 116686762,
-      "user": "KingCZE",
-      "uid": 13552526,
+      "timestamp": "2022-03-19T07:03:51Z",
+      "version": 20,
+      "changeset": 118655519,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [25769966, 355413515],
       "geometry": [
         {"lat": -36.8519293, "lon": 174.7703133},
-        {"lat": -36.8519955, "lon": 174.770393},
-        {"lat": -36.8520119, "lon": 174.7704158},
-        {"lat": -36.852031, "lon": 174.7704424},
-        {"lat": -36.8520667, "lon": 174.7704886},
-        {"lat": -36.8520857, "lon": 174.7705098},
-        {"lat": -36.852098, "lon": 174.7705202},
-        {"lat": -36.8521057, "lon": 174.7705264},
-        {"lat": -36.8521492, "lon": 174.7705525},
-        {"lat": -36.8521848, "lon": 174.7705688},
-        {"lat": -36.8522627, "lon": 174.7705795}
+        {"lat": -36.8519676, "lon": 174.7704621},
+        {"lat": -36.8520091, "lon": 174.770516},
+        {"lat": -36.8520515, "lon": 174.7705523},
+        {"lat": -36.8520996, "lon": 174.7705787},
+        {"lat": -36.8521666, "lon": 174.7705961},
+        {"lat": -36.8522403, "lon": 174.7706075}
       ],
       "tags": {
         "foot": "no",
         "highway": "secondary",
-        "lanes": "3",
+        "lanes": "1",
         "lanes:backward": "2",
         "lanes:forward": "1",
         "maxspeed": "30",
         "name": "Grafton Road",
+        "oneway": "yes",
         "source:maxspeed": "Speed Limits Bylaw 2020",
-        "surface": "asphalt",
-        "turn:lanes:backward": "left|right",
-        "turn:lanes:forward": "none"
+        "surface": "asphalt"
       }
     },
     {
@@ -73663,25 +73660,33 @@
     {
       "type": "way",
       "id": 623917419,
-      "timestamp": "2022-01-28T00:24:06Z",
-      "version": 7,
-      "changeset": 116686762,
-      "user": "KingCZE",
-      "uid": 13552526,
-      "nodes": [5891495463, 258986069],
+      "timestamp": "2022-03-19T07:03:51Z",
+      "version": 8,
+      "changeset": 118655519,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [9589218552, 25769966],
       "geometry": [
-        {"lat": -36.8528321, "lon": 174.7706341},
-        {"lat": -36.8528988, "lon": 174.77064},
-        {"lat": -36.8529576, "lon": 174.7706478}
+        {"lat": -36.8530811, "lon": 174.7706492},
+        {"lat": -36.8530512, "lon": 174.7706208},
+        {"lat": -36.8529511, "lon": 174.770609},
+        {"lat": -36.8529075, "lon": 174.770603},
+        {"lat": -36.8528687, "lon": 174.7705987},
+        {"lat": -36.8523916, "lon": 174.7705473},
+        {"lat": -36.8522307, "lon": 174.7705217},
+        {"lat": -36.8521563, "lon": 174.7704937},
+        {"lat": -36.8521094, "lon": 174.7704631},
+        {"lat": -36.852074, "lon": 174.7704216},
+        {"lat": -36.8520459, "lon": 174.7703786},
+        {"lat": -36.8519293, "lon": 174.7703133}
       ],
       "tags": {
         "foot": "no",
         "highway": "secondary",
-        "lanes": "3",
-        "lanes:backward": "1",
-        "lanes:forward": "2",
+        "lanes": "2",
         "maxspeed": "30",
         "name": "Grafton Road",
+        "oneway": "yes",
         "source:maxspeed": "Speed Limits Bylaw 2020",
         "surface": "asphalt"
       }
@@ -89883,15 +89888,14 @@
     {
       "type": "way",
       "id": 772329359,
-      "timestamp": "2022-01-28T00:24:06Z",
-      "version": 4,
-      "changeset": 116686762,
-      "user": "KingCZE",
-      "uid": 13552526,
-      "nodes": [258986069, 422797839],
+      "timestamp": "2022-03-19T07:03:51Z",
+      "version": 5,
+      "changeset": 118655519,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [9589218552, 422797839],
       "geometry": [
-        {"lat": -36.8529576, "lon": 174.7706478},
-        {"lat": -36.8530382, "lon": 174.7706443},
+        {"lat": -36.8530811, "lon": 174.7706492},
         {"lat": -36.8532273, "lon": 174.7706658}
       ],
       "tags": {

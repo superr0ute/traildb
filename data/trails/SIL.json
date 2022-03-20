@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-03-18T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-03-19T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1004,9 +1004,9 @@
     {
       "type": "relation",
       "id": 7670328,
-      "timestamp": "2022-03-18T14:58:27Z",
-      "version": 32,
-      "changeset": 118636482,
+      "timestamp": "2022-03-19T15:14:17Z",
+      "version": 33,
+      "changeset": 118669097,
       "user": "Sergio P",
       "uid": 633272,
       "members": [
@@ -1117,6 +1117,7 @@
         {"type": "way", "ref": 161078843, "role": ""},
         {"type": "way", "ref": 159844208, "role": ""},
         {"type": "way", "ref": 41848492, "role": ""},
+        {"type": "way", "ref": 1041701597, "role": ""},
         {"type": "way", "ref": 72523598, "role": ""},
         {"type": "way", "ref": 72523295, "role": ""},
         {"type": "way", "ref": 159044977, "role": ""},
@@ -1256,11 +1257,11 @@
     {
       "type": "relation",
       "id": 7690499,
-      "timestamp": "2022-01-03T17:59:56Z",
-      "version": 27,
-      "changeset": 115722699,
-      "user": "Tungmar",
-      "uid": 427807,
+      "timestamp": "2022-03-19T11:09:44Z",
+      "version": 28,
+      "changeset": 118661922,
+      "user": "MarcoTagliabue",
+      "uid": 1798405,
       "members": [
         {"type": "way", "ref": 438296411, "role": ""},
         {"type": "way", "ref": 48278841, "role": ""},
@@ -1270,6 +1271,7 @@
         {"type": "way", "ref": 370354074, "role": ""},
         {"type": "way", "ref": 371532239, "role": ""},
         {"type": "way", "ref": 536586644, "role": ""},
+        {"type": "way", "ref": 1041661984, "role": ""},
         {"type": "way", "ref": 132757347, "role": ""},
         {"type": "way", "ref": 340249790, "role": ""},
         {"type": "way", "ref": 340249791, "role": ""},
@@ -1401,11 +1403,11 @@
     {
       "type": "relation",
       "id": 7690500,
-      "timestamp": "2021-10-05T07:18:37Z",
-      "version": 19,
-      "changeset": 112107474,
-      "user": "LorenzoBassi_SICAI_Team",
-      "uid": 3286661,
+      "timestamp": "2022-03-19T11:09:44Z",
+      "version": 20,
+      "changeset": 118661922,
+      "user": "MarcoTagliabue",
+      "uid": 1798405,
       "members": [
         {"type": "way", "ref": 189574902, "role": ""},
         {"type": "way", "ref": 536586662, "role": ""},
@@ -1440,15 +1442,21 @@
         {"type": "way", "ref": 294801905, "role": ""},
         {"type": "way", "ref": 703111026, "role": ""},
         {"type": "way", "ref": 330909819, "role": ""},
+        {"type": "way", "ref": 1041661971, "role": ""},
         {"type": "way", "ref": 130333973, "role": ""},
         {"type": "way", "ref": 536586672, "role": ""},
-        {"type": "way", "ref": 538197382, "role": ""},
+        {"type": "way", "ref": 1041661974, "role": ""},
+        {"type": "way", "ref": 1041661972, "role": ""},
+        {"type": "way", "ref": 1041661973, "role": ""},
         {"type": "way", "ref": 538197384, "role": ""},
         {"type": "way", "ref": 785791453, "role": ""},
         {"type": "way", "ref": 785791452, "role": ""},
+        {"type": "way", "ref": 1041662022, "role": ""},
+        {"type": "way", "ref": 1041662023, "role": ""},
         {"type": "way", "ref": 301906080, "role": ""},
         {"type": "way", "ref": 536586680, "role": ""},
         {"type": "way", "ref": 140947916, "role": ""},
+        {"type": "way", "ref": 1041662025, "role": ""},
         {"type": "way", "ref": 912472805, "role": ""},
         {"type": "way", "ref": 536586681, "role": ""},
         {"type": "way", "ref": 912472804, "role": ""},
@@ -5885,6 +5893,197 @@
         "sac_scale": "mountain_hiking",
         "surface": "ground",
         "tracktype": "grade2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1041661971,
+      "timestamp": "2022-03-19T11:09:44Z",
+      "version": 1,
+      "changeset": 118661922,
+      "user": "MarcoTagliabue",
+      "uid": 1798405,
+      "nodes": [1435840121, 1435840188],
+      "geometry": [
+        {"lat": 45.8320329, "lon": 8.9208771},
+        {"lat": 45.8320013, "lon": 8.9205573},
+        {"lat": 45.8320806, "lon": 8.920203},
+        {"lat": 45.8321847, "lon": 8.920009},
+        {"lat": 45.8323078, "lon": 8.9199056}
+      ],
+      "tags": {"highway": "path"}
+    },
+    {
+      "type": "way",
+      "id": 1041661972,
+      "timestamp": "2022-03-19T11:09:44Z",
+      "version": 1,
+      "changeset": 118661922,
+      "user": "MarcoTagliabue",
+      "uid": 1798405,
+      "nodes": [1435840254, 9589784586],
+      "geometry": [
+        {"lat": 45.8285845, "lon": 8.9236224},
+        {"lat": 45.8285453, "lon": 8.923739},
+        {"lat": 45.828599, "lon": 8.924118},
+        {"lat": 45.8286505, "lon": 8.9245462},
+        {"lat": 45.8286741, "lon": 8.9247927},
+        {"lat": 45.8286891, "lon": 8.9250176},
+        {"lat": 45.8287042, "lon": 8.9252826},
+        {"lat": 45.8287128, "lon": 8.9255661},
+        {"lat": 45.8287385, "lon": 8.9257324},
+        {"lat": 45.8287664, "lon": 8.9258865},
+        {"lat": 45.8288137, "lon": 8.925982},
+        {"lat": 45.8288665, "lon": 8.9260611}
+      ],
+      "tags": {"highway": "path"}
+    },
+    {
+      "type": "way",
+      "id": 1041661973,
+      "timestamp": "2022-03-19T11:09:44Z",
+      "version": 1,
+      "changeset": 118661922,
+      "user": "MarcoTagliabue",
+      "uid": 1798405,
+      "nodes": [9589784586, 3778231765],
+      "geometry": [
+        {"lat": 45.8288665, "lon": 8.9260611},
+        {"lat": 45.8284911, "lon": 8.9269858},
+        {"lat": 45.8283332, "lon": 8.9271801},
+        {"lat": 45.828085, "lon": 8.9272665}
+      ],
+      "tags": {"highway": "path"}
+    },
+    {
+      "type": "way",
+      "id": 1041661974,
+      "timestamp": "2022-03-19T11:09:44Z",
+      "version": 1,
+      "changeset": 118661922,
+      "user": "MarcoTagliabue",
+      "uid": 1798405,
+      "nodes": [1435840371, 1435840254],
+      "geometry": [
+        {"lat": 45.8299207, "lon": 8.9249854},
+        {"lat": 45.8296976, "lon": 8.924805},
+        {"lat": 45.829437, "lon": 8.9245686},
+        {"lat": 45.8292011, "lon": 8.9243102},
+        {"lat": 45.8289137, "lon": 8.9239897},
+        {"lat": 45.8285845, "lon": 8.9236224}
+      ],
+      "tags": {"highway": "unclassified"}
+    },
+    {
+      "type": "way",
+      "id": 1041661984,
+      "timestamp": "2022-03-19T11:09:44Z",
+      "version": 1,
+      "changeset": 118661922,
+      "user": "MarcoTagliabue",
+      "uid": 1798405,
+      "nodes": [9589784612, 3740613954],
+      "geometry": [
+        {"lat": 45.831928, "lon": 8.9621455},
+        {"lat": 45.8320464, "lon": 8.9621258},
+        {"lat": 45.8322573, "lon": 8.9621339},
+        {"lat": 45.8324683, "lon": 8.9621763},
+        {"lat": 45.8326648, "lon": 8.9623117},
+        {"lat": 45.8328405, "lon": 8.9624196},
+        {"lat": 45.83301, "lon": 8.9624879},
+        {"lat": 45.8331272, "lon": 8.9624567},
+        {"lat": 45.8332892, "lon": 8.9623395},
+        {"lat": 45.8334265, "lon": 8.9621725},
+        {"lat": 45.8336133, "lon": 8.9619043},
+        {"lat": 45.8336954, "lon": 8.9617012}
+      ],
+      "tags": {"highway": "residential", "name": "Via Somazzo", "oneway": "no"}
+    },
+    {
+      "type": "way",
+      "id": 1041662022,
+      "timestamp": "2022-03-19T11:09:44Z",
+      "version": 1,
+      "changeset": 118661922,
+      "user": "MarcoTagliabue",
+      "uid": 1798405,
+      "nodes": [9589784825, 7345554545],
+      "geometry": [
+        {"lat": 45.8293122, "lon": 8.9294637},
+        {"lat": 45.8288842, "lon": 8.929503},
+        {"lat": 45.828452, "lon": 8.9295093},
+        {"lat": 45.8279614, "lon": 8.9294746},
+        {"lat": 45.8274866, "lon": 8.9294451},
+        {"lat": 45.8271534, "lon": 8.9293736},
+        {"lat": 45.8270164, "lon": 8.9293328},
+        {"lat": 45.8264525, "lon": 8.929087},
+        {"lat": 45.8259381, "lon": 8.9287295},
+        {"lat": 45.8253298, "lon": 8.928316},
+        {"lat": 45.8249321, "lon": 8.9281951},
+        {"lat": 45.8247483, "lon": 8.9283745},
+        {"lat": 45.8246549, "lon": 8.9283548}
+      ],
+      "tags": {"highway": "track", "tracktype": "grade2"}
+    },
+    {
+      "type": "way",
+      "id": 1041662023,
+      "timestamp": "2022-03-19T11:09:44Z",
+      "version": 1,
+      "changeset": 118661922,
+      "user": "MarcoTagliabue",
+      "uid": 1798405,
+      "nodes": [9589784826, 9589784825],
+      "geometry": [
+        {"lat": 45.8293931, "lon": 8.9294468},
+        {"lat": 45.8293122, "lon": 8.9294637}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "track",
+        "layer": "1",
+        "tracktype": "grade2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1041662025,
+      "timestamp": "2022-03-19T11:09:44Z",
+      "version": 1,
+      "changeset": 118661922,
+      "user": "MarcoTagliabue",
+      "uid": 1798405,
+      "nodes": [1014367412, 3793744713],
+      "geometry": [
+        {"lat": 45.8333733, "lon": 8.9346323},
+        {"lat": 45.8332258, "lon": 8.9343297},
+        {"lat": 45.8331582, "lon": 8.9341372},
+        {"lat": 45.8331184, "lon": 8.9339847}
+      ],
+      "tags": {
+        "highway": "track",
+        "mtb:scale": "0",
+        "surface": "asphalt",
+        "tracktype": "grade1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1041701597,
+      "timestamp": "2022-03-19T15:14:17Z",
+      "version": 1,
+      "changeset": 118669097,
+      "user": "Sergio P",
+      "uid": 633272,
+      "nodes": [372547453, 4357226972],
+      "geometry": [
+        {"lat": 46.0958809, "lon": 8.7447814},
+        {"lat": 46.0958432, "lon": 8.7447101}
+      ],
+      "tags": {
+        "highway": "residential",
+        "source": "Regione Lombardia - La banca dati territoriali CTR10000 e' prodotta da Regione Lombardia - Infrastruttura per l'Informazione Territoriale",
+        "surface": "paved"
       }
     },
     {
@@ -11160,17 +11359,13 @@
     {
       "type": "way",
       "id": 130333973,
-      "timestamp": "2019-07-10T14:35:39Z",
-      "version": 6,
-      "changeset": 72098253,
-      "user": "Elle83",
-      "uid": 2033783,
-      "nodes": [1435840121, 1435840205],
+      "timestamp": "2022-03-19T11:09:44Z",
+      "version": 7,
+      "changeset": 118661922,
+      "user": "MarcoTagliabue",
+      "uid": 1798405,
+      "nodes": [1435840188, 1435840205],
       "geometry": [
-        {"lat": 45.8320329, "lon": 8.9208771},
-        {"lat": 45.8320013, "lon": 8.9205573},
-        {"lat": 45.8320806, "lon": 8.920203},
-        {"lat": 45.8321847, "lon": 8.920009},
         {"lat": 45.8323078, "lon": 8.9199056},
         {"lat": 45.8323952, "lon": 8.9200572},
         {"lat": 45.8325227, "lon": 8.9203238},
@@ -11200,7 +11395,7 @@
         {"lat": 45.8310401, "lon": 8.925536},
         {"lat": 45.8309056, "lon": 8.925589},
         {"lat": 45.8307261, "lon": 8.925595},
-        {"lat": 45.8306007, "lon": 8.9256027}
+        {"lat": 45.8306235, "lon": 8.9255513}
       ],
       "tags": {"highway": "path", "name": "Gran fondo Longobardi"}
     },
@@ -11718,12 +11913,12 @@
     {
       "type": "way",
       "id": 132757347,
-      "timestamp": "2020-06-22T19:30:03Z",
-      "version": 8,
-      "changeset": 86996153,
-      "user": "LukeDH",
-      "uid": 9616185,
-      "nodes": [3474644996, 3740613954],
+      "timestamp": "2022-03-19T11:09:44Z",
+      "version": 9,
+      "changeset": 118661922,
+      "user": "MarcoTagliabue",
+      "uid": 1798405,
+      "nodes": [3474644996, 9589784612],
       "geometry": [
         {"lat": 45.829272, "lon": 8.9611347},
         {"lat": 45.8293224, "lon": 8.9611962},
@@ -11738,17 +11933,7 @@
         {"lat": 45.8313005, "lon": 8.9622733},
         {"lat": 45.8315501, "lon": 8.9622369},
         {"lat": 45.8318342, "lon": 8.9621611},
-        {"lat": 45.8320464, "lon": 8.9621258},
-        {"lat": 45.8322573, "lon": 8.9621339},
-        {"lat": 45.8324683, "lon": 8.9621763},
-        {"lat": 45.8326648, "lon": 8.9623117},
-        {"lat": 45.8328405, "lon": 8.9624196},
-        {"lat": 45.83301, "lon": 8.9624879},
-        {"lat": 45.8331272, "lon": 8.9624567},
-        {"lat": 45.8332892, "lon": 8.9623395},
-        {"lat": 45.8334265, "lon": 8.9621725},
-        {"lat": 45.8336133, "lon": 8.9619043},
-        {"lat": 45.8336954, "lon": 8.9617012}
+        {"lat": 45.831928, "lon": 8.9621455}
       ],
       "tags": {"highway": "residential", "name": "Via Somazzo", "oneway": "no"}
     },
@@ -12362,16 +12547,13 @@
     {
       "type": "way",
       "id": 140947916,
-      "timestamp": "2021-03-01T17:29:57Z",
-      "version": 6,
-      "changeset": 100222108,
-      "user": "snow_21",
-      "uid": 12495164,
-      "nodes": [1014367412, 3060720767],
+      "timestamp": "2022-03-19T11:09:44Z",
+      "version": 7,
+      "changeset": 118661922,
+      "user": "MarcoTagliabue",
+      "uid": 1798405,
+      "nodes": [3793744713, 3060720767],
       "geometry": [
-        {"lat": 45.8333733, "lon": 8.9346323},
-        {"lat": 45.8332258, "lon": 8.9343297},
-        {"lat": 45.8331582, "lon": 8.9341372},
         {"lat": 45.8331184, "lon": 8.9339847},
         {"lat": 45.8330965, "lon": 8.9339009},
         {"lat": 45.8331384, "lon": 8.9338105},
@@ -42120,12 +42302,12 @@
     {
       "type": "way",
       "id": 301906080,
-      "timestamp": "2020-03-30T07:22:36Z",
-      "version": 6,
-      "changeset": 82808564,
-      "user": "G4rp",
-      "uid": 2265854,
-      "nodes": [3379379647, 7345554545],
+      "timestamp": "2022-03-19T11:09:44Z",
+      "version": 7,
+      "changeset": 118661922,
+      "user": "MarcoTagliabue",
+      "uid": 1798405,
+      "nodes": [3379379647, 9589784826],
       "geometry": [
         {"lat": 45.8346511, "lon": 8.9307911},
         {"lat": 45.834486, "lon": 8.930588},
@@ -42137,16 +42319,7 @@
         {"lat": 45.8314989, "lon": 8.9292745},
         {"lat": 45.8306798, "lon": 8.9291991},
         {"lat": 45.8300525, "lon": 8.9293086},
-        {"lat": 45.8288907, "lon": 8.929552},
-        {"lat": 45.8284081, "lon": 8.9295747},
-        {"lat": 45.827911, "lon": 8.9295773},
-        {"lat": 45.8270001, "lon": 8.9294052},
-        {"lat": 45.8264525, "lon": 8.929087},
-        {"lat": 45.8259381, "lon": 8.9287295},
-        {"lat": 45.8253298, "lon": 8.928316},
-        {"lat": 45.8249321, "lon": 8.9281951},
-        {"lat": 45.8247483, "lon": 8.9283745},
-        {"lat": 45.8246549, "lon": 8.9283548}
+        {"lat": 45.8293931, "lon": 8.9294468}
       ],
       "tags": {"highway": "track", "tracktype": "grade2"}
     },
@@ -59326,14 +59499,13 @@
     {
       "type": "way",
       "id": 41848492,
-      "timestamp": "2021-06-14T13:34:33Z",
-      "version": 9,
-      "changeset": 106340373,
-      "user": "Andrea Del Sarto",
-      "uid": 3215770,
-      "nodes": [372547453, 860979831],
+      "timestamp": "2022-03-19T15:14:17Z",
+      "version": 10,
+      "changeset": 118669097,
+      "user": "Sergio P",
+      "uid": 633272,
+      "nodes": [4357226972, 860979831],
       "geometry": [
-        {"lat": 46.0958809, "lon": 8.7447814},
         {"lat": 46.0958432, "lon": 8.7447101},
         {"lat": 46.0957777, "lon": 8.7446391}
       ],
@@ -72163,7 +72335,7 @@
       "uid": 1928626,
       "nodes": [1435840205, 1435840371],
       "geometry": [
-        {"lat": 45.8306007, "lon": 8.9256027},
+        {"lat": 45.8306235, "lon": 8.9255513},
         {"lat": 45.8299207, "lon": 8.9249854}
       ],
       "tags": {"highway": "unclassified"}
@@ -75613,25 +75785,6 @@
         "name": "Via Paolo Carcano",
         "ref": "SS583"
       }
-    },
-    {
-      "type": "way",
-      "id": 538197382,
-      "timestamp": "2017-11-04T09:48:45Z",
-      "version": 1,
-      "changeset": 53499568,
-      "user": "Gianfranco2014",
-      "uid": 1928626,
-      "nodes": [1435840371, 3778231765],
-      "geometry": [
-        {"lat": 45.8299207, "lon": 8.9249854},
-        {"lat": 45.8292358, "lon": 8.9255609},
-        {"lat": 45.8289425, "lon": 8.9258739},
-        {"lat": 45.8284911, "lon": 8.9269858},
-        {"lat": 45.8283332, "lon": 8.9271801},
-        {"lat": 45.828085, "lon": 8.9272665}
-      ],
-      "tags": {"highway": "path"}
     },
     {
       "type": "way",
