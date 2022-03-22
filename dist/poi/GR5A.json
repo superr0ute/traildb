@@ -21103,6 +21103,42 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 4782.2,
+        "@id": "n3120020256",
+        "@changeset": 118737600,
+        "@timestamp": "2022-03-21T13:53:43Z",
+        "@version": 5,
+        "@uid": 369869,
+        "@user": "Rommar",
+        "amenity": "fuel",
+        "brand": "Avia",
+        "brand:wikidata": "Q300147",
+        "brand:wikipedia": "de:Avia International",
+        "compressed_air": "yes",
+        "fuel:diesel": "yes",
+        "fuel:e10": "yes",
+        "fuel:octane_98": "yes",
+        "hgv:lanes": "yes",
+        "name": "Avia",
+        "ref:FR:prix-carburants": "74190005",
+        "shop": "convenience",
+        "source": "Ministère de l'Economie, de l'Industrie et du Numérique - 03/2020",
+        "toilets": "yes",
+        "vending": "fuel",
+        "vending_machine": "fuel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7184138,
+          45.9140015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "peak_peak",
         "@distance": 3711.3,
         "@id": "n3149270109",
@@ -23071,33 +23107,6 @@
         "coordinates": [
           6.967595,
           44.3814419
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 50.5,
-        "@id": "w358443770",
-        "@changeset": 68426046,
-        "@timestamp": "2019-03-22T20:05:49Z",
-        "@version": 4,
-        "@uid": 188930,
-        "@user": "JLZIMMERMANN",
-        "contact:email": "camping.st.etienne.tinee@orange.fr",
-        "contact:phone": "+33 4 93 02 41 57",
-        "landuse": "tourism",
-        "name": "Les Trinitaires Saint-Étienne-de-Tinée",
-        "stars": "2",
-        "tourism": "camp_site",
-        "website": "http://campingduplandeau.com/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.9216854,
-          44.2584282
         ]
       }
     },
@@ -25582,52 +25591,27 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 3092.3,
-        "@id": "w72837860",
-        "@changeset": 98841053,
-        "@timestamp": "2021-02-07T08:17:41Z",
-        "@version": 6,
+        "@poi": "campsite",
+        "@distance": 50.5,
+        "@id": "w358443770",
+        "@changeset": 68426046,
+        "@timestamp": "2019-03-22T20:05:49Z",
+        "@version": 4,
         "@uid": 188930,
         "@user": "JLZIMMERMANN",
-        "brand": "Lidl",
-        "brand:wikidata": "Q151954",
-        "brand:wikipedia": "en:Lidl",
-        "building": "retail",
-        "name": "Lidl",
-        "shop": "supermarket",
-        "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010",
-        "supermarket": "yes",
-        "supermarket:FR": "supermarché"
+        "contact:email": "camping.st.etienne.tinee@orange.fr",
+        "contact:phone": "+33 4 93 02 41 57",
+        "landuse": "tourism",
+        "name": "Les Trinitaires Saint-Étienne-de-Tinée",
+        "stars": "2",
+        "tourism": "camp_site",
+        "website": "http://campingduplandeau.com/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.5950991,
-          44.8640981
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 131.5,
-        "@id": "w73569523",
-        "@changeset": 16146138,
-        "@timestamp": "2013-05-15T23:56:42Z",
-        "@version": 3,
-        "@uid": 407766,
-        "@user": "K_Peignot",
-        "amenity": "shelter",
-        "building": "yes",
-        "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.639557,
-          44.8987468
+          6.9216854,
+          44.2584282
         ]
       }
     },
@@ -28431,6 +28415,58 @@
         "coordinates": [
           6.6750102,
           45.1909525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 3092.3,
+        "@id": "w72837860",
+        "@changeset": 98841053,
+        "@timestamp": "2021-02-07T08:17:41Z",
+        "@version": 6,
+        "@uid": 188930,
+        "@user": "JLZIMMERMANN",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "retail",
+        "name": "Lidl",
+        "shop": "supermarket",
+        "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010",
+        "supermarket": "yes",
+        "supermarket:FR": "supermarché"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5950991,
+          44.8640981
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 131.5,
+        "@id": "w73569523",
+        "@changeset": 16146138,
+        "@timestamp": "2013-05-15T23:56:42Z",
+        "@version": 3,
+        "@uid": 407766,
+        "@user": "K_Peignot",
+        "amenity": "shelter",
+        "building": "yes",
+        "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.639557,
+          44.8987468
         ]
       }
     },
@@ -32368,50 +32404,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 554.7,
-        "@id": "w1004119478",
-        "@changeset": 113961448,
-        "@timestamp": "2021-11-18T20:22:35Z",
-        "@version": 1,
-        "@uid": 591881,
-        "@user": "Patchi",
-        "amenity": "shelter",
-        "shelter_type": "public_transport"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.798398,
-          44.7581751
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1425.2,
-        "@id": "w1004119484",
-        "@changeset": 113961448,
-        "@timestamp": "2021-11-18T20:22:35Z",
-        "@version": 1,
-        "@uid": 591881,
-        "@user": "Patchi",
-        "amenity": "shelter",
-        "shelter_type": "public_transport"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.7716506,
-          44.7476746
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "shelter_cave",
         "@distance": 171.7,
         "@id": "n9522364438",
@@ -35407,6 +35399,50 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
+        "@distance": 554.7,
+        "@id": "w1004119478",
+        "@changeset": 113961448,
+        "@timestamp": "2021-11-18T20:22:35Z",
+        "@version": 1,
+        "@uid": 591881,
+        "@user": "Patchi",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.798398,
+          44.7581751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1425.2,
+        "@id": "w1004119484",
+        "@changeset": 113961448,
+        "@timestamp": "2021-11-18T20:22:35Z",
+        "@version": 1,
+        "@uid": 591881,
+        "@user": "Patchi",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7716506,
+          44.7476746
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
         "@distance": 156.8,
         "@id": "w1004581423",
         "@changeset": 114009998,
@@ -36284,6 +36320,35 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 74.2,
+        "@id": "w940901527",
+        "@changeset": 104384445,
+        "@timestamp": "2021-05-09T05:22:23Z",
+        "@version": 1,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "beds": "2",
+        "building": "yes",
+        "capacity": 2,
+        "description": "2019-06 : C'est une toute petite cabane de tôle avec un lit un poêle une porte qui ferme, toutefois un ménage d'importance devra être effectué pour y passer la nuit. Sinon c'est un bon petit abri à la fois isolé et aux portes de la ville",
+        "fireplace": "no",
+        "name": "Cabane des Graus",
+        "stove": "yes",
+        "tourism": "wilderness_hut",
+        "website": "https://www.refuges.info/point/6654/cabane-non-gardee/Prealpes-de-Grasse/cabane-des-Graus/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2582451,
+          43.7546942
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 499.1,
         "@id": "n3610800650",
@@ -37026,35 +37091,6 @@
         "coordinates": [
           6.7356755,
           45.5751259
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 74.2,
-        "@id": "w940901527",
-        "@changeset": 104384445,
-        "@timestamp": "2021-05-09T05:22:23Z",
-        "@version": 1,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "beds": "2",
-        "building": "yes",
-        "capacity": 2,
-        "description": "2019-06 : C'est une toute petite cabane de tôle avec un lit un poêle une porte qui ferme, toutefois un ménage d'importance devra être effectué pour y passer la nuit. Sinon c'est un bon petit abri à la fois isolé et aux portes de la ville",
-        "fireplace": "no",
-        "name": "Cabane des Graus",
-        "stove": "yes",
-        "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/6654/cabane-non-gardee/Prealpes-de-Grasse/cabane-des-Graus/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.2582451,
-          43.7546942
         ]
       }
     },
@@ -38392,31 +38428,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2771.8,
-        "@id": "w97322447",
-        "@changeset": 37807903,
-        "@timestamp": "2016-03-13T21:21:32Z",
-        "@version": 4,
-        "@uid": 835140,
-        "@user": "nounours77",
-        "amenity": "shelter",
-        "bench": "yes",
-        "building": "yes",
-        "shelter_type": "public_transport",
-        "wall": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.862833,
-          45.9147787
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "peak_peak",
         "@distance": 1439.6,
         "@id": "n6422616569",
@@ -39003,6 +39014,31 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
+        "@distance": 2771.8,
+        "@id": "w97322447",
+        "@changeset": 37807903,
+        "@timestamp": "2016-03-13T21:21:32Z",
+        "@version": 4,
+        "@uid": 835140,
+        "@user": "nounours77",
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "shelter_type": "public_transport",
+        "wall": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.862833,
+          45.9147787
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
         "@distance": 1754.6,
         "@id": "w97322679",
         "@changeset": 37807903,
@@ -39466,32 +39502,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "alpine-hut",
-        "@distance": 77.8,
-        "@id": "w208039495",
-        "@changeset": 25286343,
-        "@timestamp": "2014-09-07T13:04:34Z",
-        "@version": 2,
-        "@uid": 510327,
-        "@user": "Benoit Friry",
-        "building": "yes",
-        "ele": 2009,
-        "name": "Refuge de la Balme",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
-        "tourism": "alpine_hut",
-        "website": "http://www.refuge-balme-tarentaise.fr"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.6691435,
-          45.6322019
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 36.9,
         "@id": "n7814893185",
@@ -39817,6 +39827,32 @@
         "coordinates": [
           6.7265243,
           46.3271203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "alpine-hut",
+        "@distance": 77.8,
+        "@id": "w208039495",
+        "@changeset": 25286343,
+        "@timestamp": "2014-09-07T13:04:34Z",
+        "@version": 2,
+        "@uid": 510327,
+        "@user": "Benoit Friry",
+        "building": "yes",
+        "ele": 2009,
+        "name": "Refuge de la Balme",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
+        "tourism": "alpine_hut",
+        "website": "http://www.refuge-balme-tarentaise.fr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6691435,
+          45.6322019
         ]
       }
     },

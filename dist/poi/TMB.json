@@ -4976,6 +4976,42 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 4721.5,
+        "@id": "n3120020256",
+        "@changeset": 118737600,
+        "@timestamp": "2022-03-21T13:53:43Z",
+        "@version": 5,
+        "@uid": 369869,
+        "@user": "Rommar",
+        "amenity": "fuel",
+        "brand": "Avia",
+        "brand:wikidata": "Q300147",
+        "brand:wikipedia": "de:Avia International",
+        "compressed_air": "yes",
+        "fuel:diesel": "yes",
+        "fuel:e10": "yes",
+        "fuel:octane_98": "yes",
+        "hgv:lanes": "yes",
+        "name": "Avia",
+        "ref:FR:prix-carburants": "74190005",
+        "shop": "convenience",
+        "source": "Ministère de l'Economie, de l'Industrie et du Numérique - 03/2020",
+        "toilets": "yes",
+        "vending": "fuel",
+        "vending_machine": "fuel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7184138,
+          45.9140015
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "peak_peak",
         "@distance": 3728.8,
         "@id": "n3149270109",
@@ -5471,31 +5507,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "peak_peak",
-        "@distance": 2590,
-        "@id": "n4062329913",
-        "@changeset": 53080405,
-        "@timestamp": "2017-10-19T19:32:40Z",
-        "@version": 2,
-        "@uid": 364,
-        "@user": "Edward",
-        "ele": 2447,
-        "historic": "wayside_cross",
-        "name": "Bec de Lachat",
-        "natural": "peak",
-        "wikidata": "Q31660508"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.9572358,
-          45.9865764
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 5837.4,
         "@id": "n5128796123",
@@ -5565,6 +5576,31 @@
         "coordinates": [
           7.160347,
           46.0329283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 2590,
+        "@id": "n4062329913",
+        "@changeset": 53080405,
+        "@timestamp": "2017-10-19T19:32:40Z",
+        "@version": 2,
+        "@uid": 364,
+        "@user": "Edward",
+        "ele": 2447,
+        "historic": "wayside_cross",
+        "name": "Bec de Lachat",
+        "natural": "peak",
+        "wikidata": "Q31660508"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9572358,
+          45.9865764
         ]
       }
     },
@@ -9377,54 +9413,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1161,
-        "@id": "w97320559",
-        "@changeset": 14626989,
-        "@timestamp": "2013-01-12T20:38:51Z",
-        "@version": 3,
-        "@uid": 362997,
-        "@user": "Virgile1994",
-        "amenity": "shelter",
-        "building": "yes",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.9269025,
-          45.9820318
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2603.9,
-        "@id": "w97322447",
-        "@changeset": 37807903,
-        "@timestamp": "2016-03-13T21:21:32Z",
-        "@version": 4,
-        "@uid": 835140,
-        "@user": "nounours77",
-        "amenity": "shelter",
-        "bench": "yes",
-        "building": "yes",
-        "shelter_type": "public_transport",
-        "wall": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.862833,
-          45.9147787
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "peak_peak",
         "@distance": 2424.9,
         "@id": "n2637917659",
@@ -9566,6 +9554,54 @@
         "coordinates": [
           7.1469723,
           45.8786795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1161,
+        "@id": "w97320559",
+        "@changeset": 14626989,
+        "@timestamp": "2013-01-12T20:38:51Z",
+        "@version": 3,
+        "@uid": 362997,
+        "@user": "Virgile1994",
+        "amenity": "shelter",
+        "building": "yes",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9269025,
+          45.9820318
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2603.9,
+        "@id": "w97322447",
+        "@changeset": 37807903,
+        "@timestamp": "2016-03-13T21:21:32Z",
+        "@version": 4,
+        "@uid": 835140,
+        "@user": "nounours77",
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "shelter_type": "public_transport",
+        "wall": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.862833,
+          45.9147787
         ]
       }
     },
