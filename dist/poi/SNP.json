@@ -11297,13 +11297,13 @@
       "type": "Feature",
       "properties": {
         "@poi": "place_city",
-        "@distance": 4071.4,
+        "@distance": 4046,
         "@id": "n26037569",
-        "@changeset": 116511708,
-        "@timestamp": "2022-01-23T19:08:37Z",
-        "@version": 19,
-        "@uid": 10553599,
-        "@user": "Filip009",
+        "@changeset": 118784967,
+        "@timestamp": "2022-03-22T16:06:11Z",
+        "@version": 21,
+        "@uid": 6297500,
+        "@user": "infitter",
         "city_id": "524140",
         "city_type": "region_city",
         "ele": 227,
@@ -11333,8 +11333,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.2401811,
-          48.9975724
+          21.2392122,
+          49.0000074
         ]
       }
     },
@@ -57856,6 +57856,31 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 1523.7,
+        "@id": "n4162100190",
+        "@changeset": 118837196,
+        "@timestamp": "2022-03-23T20:21:45Z",
+        "@version": 2,
+        "@uid": 1617449,
+        "@user": "aceman444",
+        "level": "0",
+        "name": "Žabka",
+        "opening_hours": "Mo-Su 06:00-23:00",
+        "shop": "convenience",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1173979,
+          48.1503366
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_spring",
         "@distance": 697.1,
         "@id": "n4173472429",
@@ -59465,27 +59490,6 @@
         "coordinates": [
           17.2228426,
           48.412331
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 193.1,
-        "@id": "n5034465850",
-        "@changeset": 51109286,
-        "@timestamp": "2017-08-14T12:08:02Z",
-        "@version": 1,
-        "@uid": 3209611,
-        "@user": "mapycz",
-        "amenity": "shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.9761959,
-          48.1755026
         ]
       }
     },
@@ -67237,19 +67241,20 @@
         "@poi": "foodshop_supermarket",
         "@distance": 3320.7,
         "@id": "w93947317",
-        "@changeset": 114851025,
-        "@timestamp": "2021-12-12T15:58:24Z",
-        "@version": 8,
-        "@uid": 29717,
-        "@user": "eumiro",
+        "@changeset": 118774393,
+        "@timestamp": "2022-03-22T11:22:43Z",
+        "@version": 9,
+        "@uid": 6297500,
+        "@user": "infitter",
         "addr:city": "Prešov",
         "addr:conscriptionnumber": "11285",
         "addr:housenumber": "40",
+        "addr:postcode": "08001",
         "addr:street": "Levočská",
         "addr:streetnumber": "40",
         "brand": "Kaufland",
         "brand:wikidata": "Q685967",
-        "brand:wikipedia": "sk:Kaufland",
+        "brand:wikipedia": "en:Kaufland",
         "building": "yes",
         "name": "Kaufland",
         "opening_hours": "Mo-Su 07:00-22:00",
@@ -68527,6 +68532,27 @@
         "coordinates": [
           21.2692829,
           48.7528996
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 193.1,
+        "@id": "n5034465850",
+        "@changeset": 51109286,
+        "@timestamp": "2017-08-14T12:08:02Z",
+        "@version": 1,
+        "@uid": 3209611,
+        "@user": "mapycz",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.9761959,
+          48.1755026
         ]
       }
     },
@@ -70401,37 +70427,6 @@
         "coordinates": [
           17.2429978,
           48.4538494
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 2694.3,
-        "@id": "n7296980018",
-        "@changeset": 82219802,
-        "@timestamp": "2020-03-15T15:15:36Z",
-        "@version": 1,
-        "@uid": 1617449,
-        "@user": "aceman444",
-        "name": "Slnečnica",
-        "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-12:30",
-        "organic": "only",
-        "payment:coins": "yes",
-        "payment:notes": "yes",
-        "payment:visa_debit": "yes",
-        "payment:visa_electron": "yes",
-        "shop": "convenience",
-        "source": "survey",
-        "website": "https://www.slnecnica.sk/",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.1333054,
-          48.1502918
         ]
       }
     },
@@ -77555,6 +77550,37 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_convenience",
+        "@distance": 2694.3,
+        "@id": "n7296980018",
+        "@changeset": 82219802,
+        "@timestamp": "2020-03-15T15:15:36Z",
+        "@version": 1,
+        "@uid": 1617449,
+        "@user": "aceman444",
+        "name": "Slnečnica",
+        "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-12:30",
+        "organic": "only",
+        "payment:coins": "yes",
+        "payment:notes": "yes",
+        "payment:visa_debit": "yes",
+        "payment:visa_electron": "yes",
+        "shop": "convenience",
+        "source": "survey",
+        "website": "https://www.slnecnica.sk/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1333054,
+          48.1502918
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
         "@distance": 2508.9,
         "@id": "n7297042490",
         "@changeset": 82221787,
@@ -79749,52 +79775,6 @@
         "coordinates": [
           17.1280986,
           48.1474383
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 2495.8,
-        "@id": "n9146883294",
-        "@changeset": 112317684,
-        "@timestamp": "2021-10-09T23:34:08Z",
-        "@version": 2,
-        "@uid": 1617449,
-        "@user": "aceman444",
-        "level": "-1",
-        "name": "malina",
-        "opening_hours": "Mo-Su 05:30-23:00",
-        "shop": "convenience",
-        "website": "http://www.malina.sk"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.1295133,
-          48.1465349
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 2264.6,
-        "@id": "n9147999598",
-        "@changeset": 112115016,
-        "@timestamp": "2021-10-05T10:15:21Z",
-        "@version": 1,
-        "@uid": 7169223,
-        "@user": "Klerik7",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.0970734,
-          48.2477887
         ]
       }
     },
@@ -86882,6 +86862,52 @@
         "coordinates": [
           21.2228656,
           48.8821273
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 2495.8,
+        "@id": "n9146883294",
+        "@changeset": 112317684,
+        "@timestamp": "2021-10-09T23:34:08Z",
+        "@version": 2,
+        "@uid": 1617449,
+        "@user": "aceman444",
+        "level": "-1",
+        "name": "malina",
+        "opening_hours": "Mo-Su 05:30-23:00",
+        "shop": "convenience",
+        "website": "http://www.malina.sk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1295133,
+          48.1465349
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 2264.6,
+        "@id": "n9147999598",
+        "@changeset": 112115016,
+        "@timestamp": "2021-10-05T10:15:21Z",
+        "@version": 1,
+        "@uid": 7169223,
+        "@user": "Klerik7",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0970734,
+          48.2477887
         ]
       }
     },
