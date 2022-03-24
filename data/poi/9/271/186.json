@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-03-21T23:59:59Z",
-    "timestamp_osm_base": "2022-03-22T05:02:01Z",
+    "timestamp_osm_date": "2022-03-23T23:59:59Z",
+    "timestamp_osm_base": "2022-03-24T05:01:04Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -28889,13 +28889,15 @@
       "id": 3268946967,
       "lat": 43.6019441,
       "lon": 10.7053014,
-      "timestamp": "2015-01-04T15:01:39Z",
-      "version": 2,
-      "changeset": 27911641,
-      "user": "mastro elfo",
-      "uid": 2268490,
+      "timestamp": "2022-03-22T18:44:22Z",
+      "version": 3,
+      "changeset": 118790325,
+      "user": "DnaX",
+      "uid": 69259,
       "tags": {
-        "amenity": "drinking_water"
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes"
       }
     },
     {
@@ -42322,6 +42324,44 @@
       }
     },
     {
+      "type": "node",
+      "id": 9598012267,
+      "lat": 43.602627,
+      "lon": 10.7058973,
+      "timestamp": "2022-03-22T18:44:22Z",
+      "version": 1,
+      "changeset": 118790325,
+      "user": "DnaX",
+      "uid": 69259,
+      "tags": {
+        "addr:city": "Forcoli",
+        "addr:housenumber": "6",
+        "addr:street": "Via Antonio Gramsci",
+        "brand": "Carrefour Market",
+        "brand:wikidata": "Q2689639",
+        "brand:wikipedia": "fr:Carrefour Market",
+        "name": "Carrefour Market",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9600452463,
+      "lat": 43.8758988,
+      "lon": 11.0993702,
+      "timestamp": "2022-03-23T17:21:13Z",
+      "version": 1,
+      "changeset": 118831060,
+      "user": "giuliobranchetti",
+      "uid": 11329839,
+      "tags": {
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
+        "name": "Fontanello Via Pomeria"
+      }
+    },
+    {
       "type": "way",
       "id": 27776513,
       "timestamp": "2020-06-03T07:27:07Z",
@@ -43083,28 +43123,6 @@
       "tags": {
         "building": "yes",
         "name": "Penny Market",
-        "shop": "supermarket"
-      }
-    },
-    {
-      "type": "way",
-      "id": 165939633,
-      "timestamp": "2020-07-12T10:06:26Z",
-      "version": 3,
-      "changeset": 87872991,
-      "user": "mastro elfo",
-      "uid": 2268490,
-      "center": {
-        "lat": 43.6027754,
-        "lon": 10.7059631
-      },
-      "nodes": [],
-      "tags": {
-        "addr:city": "Forcoli",
-        "addr:housenumber": "6",
-        "addr:street": "Via Antonio Gramsci",
-        "building": "yes",
-        "name": "SIMPLY SMA",
         "shop": "supermarket"
       }
     },
