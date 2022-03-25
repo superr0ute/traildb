@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-03-22T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-03-24T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1736379,
-      "timestamp": "2022-03-05T15:11:36Z",
-      "version": 578,
-      "changeset": 118129812,
-      "user": "diegomodolo",
-      "uid": 8109808,
+      "timestamp": "2022-03-24T16:21:08Z",
+      "version": 580,
+      "changeset": 118871983,
+      "user": "Flight777",
+      "uid": 9925732,
       "members": [
         {"type": "node", "ref": 1779769997, "role": ""},
         {"type": "node", "ref": 475738007, "role": ""},
@@ -1244,8 +1244,12 @@
         {"type": "way", "ref": 28588676, "role": ""},
         {"type": "way", "ref": 28588678, "role": ""},
         {"type": "way", "ref": 175707472, "role": ""},
+        {"type": "way", "ref": 1043485670, "role": ""},
+        {"type": "way", "ref": 1043485671, "role": ""},
         {"type": "way", "ref": 130293279, "role": ""},
         {"type": "way", "ref": 112052147, "role": ""},
+        {"type": "way", "ref": 1043485551, "role": ""},
+        {"type": "way", "ref": 1043485550, "role": ""},
         {"type": "way", "ref": 112052141, "role": ""},
         {"type": "way", "ref": 89698916, "role": ""},
         {"type": "way", "ref": 141073268, "role": ""},
@@ -2347,6 +2351,90 @@
         {"lat": 45.7663035, "lon": 12.3135893}
       ],
       "tags": {"highway": "residential", "name": "Via dei Fanti"}
+    },
+    {
+      "type": "way",
+      "id": 1043485550,
+      "timestamp": "2022-03-24T16:20:20Z",
+      "version": 1,
+      "changeset": 118871944,
+      "user": "Flight777",
+      "uid": 9925732,
+      "nodes": [1274766382, 9603624630],
+      "geometry": [
+        {"lat": 45.8970643, "lon": 12.1936959},
+        {"lat": 45.8971598, "lon": 12.1938406},
+        {"lat": 45.8974721, "lon": 12.194431}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Fornaci di Collalto",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1043485551,
+      "timestamp": "2022-03-24T16:20:20Z",
+      "version": 1,
+      "changeset": 118871944,
+      "user": "Flight777",
+      "uid": 9925732,
+      "nodes": [9603624630, 1274766742],
+      "geometry": [
+        {"lat": 45.8974721, "lon": 12.194431},
+        {"lat": 45.8975239, "lon": 12.1945289}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "name": "Via Fornaci di Collalto",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1043485670,
+      "timestamp": "2022-03-24T16:21:08Z",
+      "version": 1,
+      "changeset": 118871983,
+      "user": "Flight777",
+      "uid": 9925732,
+      "nodes": [9603623735, 314013257],
+      "geometry": [
+        {"lat": 45.9004354, "lon": 12.1994816},
+        {"lat": 45.9005954, "lon": 12.1993886},
+        {"lat": 45.9008127, "lon": 12.1993353},
+        {"lat": 45.9010188, "lon": 12.1992448},
+        {"lat": 45.9010706, "lon": 12.1992252}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Fornaci di Collalto",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1043485671,
+      "timestamp": "2022-03-24T16:21:08Z",
+      "version": 1,
+      "changeset": 118871983,
+      "user": "Flight777",
+      "uid": 9925732,
+      "nodes": [9603623736, 9603623735],
+      "geometry": [
+        {"lat": 45.9003501, "lon": 12.1995312},
+        {"lat": 45.9004354, "lon": 12.1994816}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "name": "Via Fornaci di Collalto",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -3997,11 +4085,11 @@
     {
       "type": "way",
       "id": 112052141,
-      "timestamp": "2011-09-17T15:09:52Z",
-      "version": 2,
-      "changeset": 9323589,
-      "user": "kkklllppp",
-      "uid": 504502,
+      "timestamp": "2022-03-24T16:19:48Z",
+      "version": 3,
+      "changeset": 118871933,
+      "user": "Flight777",
+      "uid": 9925732,
       "nodes": [1039456176, 1274766382],
       "geometry": [
         {"lat": 45.8945316, "lon": 12.1916859},
@@ -4018,20 +4106,22 @@
         {"lat": 45.8968449, "lon": 12.1935532},
         {"lat": 45.8970643, "lon": 12.1936959}
       ],
-      "tags": {"highway": "unclassified", "name": "Via Toti dal Monte"}
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Toti dal Monte",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 112052147,
-      "timestamp": "2012-08-12T09:54:47Z",
-      "version": 3,
-      "changeset": 12699112,
-      "user": "Odysseus-DPB",
-      "uid": 5167,
-      "nodes": [1274766382, 1435489398],
+      "timestamp": "2022-03-24T16:20:20Z",
+      "version": 4,
+      "changeset": 118871944,
+      "user": "Flight777",
+      "uid": 9925732,
+      "nodes": [1274766742, 1435489398],
       "geometry": [
-        {"lat": 45.8970643, "lon": 12.1936959},
-        {"lat": 45.8971598, "lon": 12.1938406},
         {"lat": 45.8975239, "lon": 12.1945289},
         {"lat": 45.8976, "lon": 12.1946941},
         {"lat": 45.8980436, "lon": 12.1958996},
@@ -4046,7 +4136,11 @@
         {"lat": 45.8987319, "lon": 12.1976551},
         {"lat": 45.898703, "lon": 12.1978932}
       ],
-      "tags": {"highway": "unclassified", "name": "Via Fornaci di Collalto"}
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Fornaci di Collalto",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -7012,23 +7106,24 @@
     {
       "type": "way",
       "id": 130293279,
-      "timestamp": "2012-09-04T09:07:23Z",
-      "version": 2,
-      "changeset": 12978853,
-      "user": "kkklllppp",
-      "uid": 504502,
-      "nodes": [1435489398, 314013257],
+      "timestamp": "2022-03-24T16:21:08Z",
+      "version": 3,
+      "changeset": 118871983,
+      "user": "Flight777",
+      "uid": 9925732,
+      "nodes": [1435489398, 9603623736],
       "geometry": [
         {"lat": 45.898703, "lon": 12.1978932},
         {"lat": 45.8996722, "lon": 12.1995218},
         {"lat": 45.8999565, "lon": 12.1996669},
         {"lat": 45.9001489, "lon": 12.1996481},
-        {"lat": 45.9005954, "lon": 12.1993886},
-        {"lat": 45.9008127, "lon": 12.1993353},
-        {"lat": 45.9010188, "lon": 12.1992448},
-        {"lat": 45.9010706, "lon": 12.1992252}
+        {"lat": 45.9003501, "lon": 12.1995312}
       ],
-      "tags": {"highway": "unclassified", "name": "Via Fornaci di Collalto"}
+      "tags": {
+        "highway": "unclassified",
+        "name": "Via Fornaci di Collalto",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -24058,11 +24153,11 @@
     {
       "type": "way",
       "id": 28586190,
-      "timestamp": "2017-04-03T21:04:13Z",
-      "version": 9,
-      "changeset": 47425126,
-      "user": "Davide_sd",
-      "uid": 1932792,
+      "timestamp": "2022-03-24T16:22:38Z",
+      "version": 10,
+      "changeset": 118872034,
+      "user": "Flight777",
+      "uid": 9925732,
       "nodes": [313982215, 314013385],
       "geometry": [
         {"lat": 45.9133762, "lon": 12.2006517},
@@ -24100,23 +24195,28 @@
         {"lat": 45.9018406, "lon": 12.1984099},
         {"lat": 45.9017731, "lon": 12.1984727}
       ],
-      "tags": {"highway": "secondary", "name": "Via Casale", "ref": "SP86bis"}
+      "tags": {
+        "highway": "secondary",
+        "name": "Via Casale",
+        "ref": "SP86bis",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 28588676,
-      "timestamp": "2015-04-28T12:14:27Z",
-      "version": 3,
-      "changeset": 30579343,
-      "user": "kkklllppp",
-      "uid": 504502,
+      "timestamp": "2022-03-24T16:23:26Z",
+      "version": 4,
+      "changeset": 118872063,
+      "user": "Flight777",
+      "uid": 9925732,
       "nodes": [314013385, 314013388],
       "geometry": [
         {"lat": 45.9017731, "lon": 12.1984727},
         {"lat": 45.9016279, "lon": 12.198539},
         {"lat": 45.9015641, "lon": 12.1985723}
       ],
-      "tags": {"highway": "secondary", "oneway": "yes"}
+      "tags": {"highway": "secondary", "oneway": "yes", "surface": "asphalt"}
     },
     {
       "type": "way",
@@ -41203,19 +41303,20 @@
     {
       "type": "way",
       "id": 53538391,
-      "timestamp": "2021-05-03T14:50:40Z",
-      "version": 10,
-      "changeset": 104064513,
-      "user": "copossum",
-      "uid": 7712,
+      "timestamp": "2022-03-24T22:18:49Z",
+      "version": 11,
+      "changeset": 118885013,
+      "user": "Mtngy",
+      "uid": 14937997,
       "nodes": [676377027, 883431558],
       "geometry": [
         {"lat": 47.3399987, "lon": 11.4657855},
         {"lat": 47.3398678, "lon": 11.4655492},
         {"lat": 47.3397942, "lon": 11.4655014},
         {"lat": 47.3397408, "lon": 11.465438},
-        {"lat": 47.3397199, "lon": 11.4653956},
-        {"lat": 47.3396891, "lon": 11.4654083},
+        {"lat": 47.3397006, "lon": 11.4653978},
+        {"lat": 47.3396713, "lon": 11.4654178},
+        {"lat": 47.3396504, "lon": 11.4654618},
         {"lat": 47.3396464, "lon": 11.4654897},
         {"lat": 47.3396641, "lon": 11.4656768},
         {"lat": 47.339565, "lon": 11.4659533},
@@ -43654,15 +43755,16 @@
     {
       "type": "way",
       "id": 607671266,
-      "timestamp": "2020-04-24T21:18:37Z",
-      "version": 2,
-      "changeset": 84082167,
-      "user": "Hungerburg",
-      "uid": 1885585,
+      "timestamp": "2022-03-24T22:18:49Z",
+      "version": 3,
+      "changeset": 118885013,
+      "user": "Mtngy",
+      "uid": 14937997,
       "nodes": [5758426687, 676376885],
       "geometry": [
         {"lat": 47.3274522, "lon": 11.4868712},
-        {"lat": 47.3274166, "lon": 11.4869632}
+        {"lat": 47.3274507, "lon": 11.4869206},
+        {"lat": 47.3274231, "lon": 11.4869536}
       ],
       "tags": {"highway": "path", "sac_scale": "hiking"}
     },
@@ -45670,7 +45772,7 @@
       "geometry": [
         {"lat": 47.3272757, "lon": 11.4875121},
         {"lat": 47.3273358, "lon": 11.4872199},
-        {"lat": 47.3274166, "lon": 11.4869632}
+        {"lat": 47.3274231, "lon": 11.4869536}
       ],
       "tags": {
         "highway": "path",
@@ -45853,7 +45955,7 @@
         {"lat": 47.3295356, "lon": 11.4868615},
         {"lat": 47.3294367, "lon": 11.4871667},
         {"lat": 47.3291433, "lon": 11.4875917},
-        {"lat": 47.328915, "lon": 11.4876417},
+        {"lat": 47.3289032, "lon": 11.4876127},
         {"lat": 47.3284983, "lon": 11.4872583},
         {"lat": 47.32798, "lon": 11.4870133},
         {"lat": 47.327523, "lon": 11.4867746},
