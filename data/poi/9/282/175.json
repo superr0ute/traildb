@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-03-23T23:59:59Z",
-    "timestamp_osm_base": "2022-03-24T05:29:37Z",
+    "timestamp_osm_date": "2022-03-24T23:59:59Z",
+    "timestamp_osm_base": "2022-03-25T05:30:53Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -8319,13 +8319,13 @@
     {
       "type": "node",
       "id": 1878143744,
-      "lat": 49.213022,
-      "lon": 18.8479213,
-      "timestamp": "2022-01-23T19:12:50Z",
-      "version": 6,
-      "changeset": 116511805,
-      "user": "Filip009",
-      "uid": 10553599,
+      "lat": 49.2127399,
+      "lon": 18.8478998,
+      "timestamp": "2022-03-24T08:13:22Z",
+      "version": 7,
+      "changeset": 118852094,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
         "name": "Gbeľany",
         "name:hu": "Egbelény",
@@ -8333,6 +8333,7 @@
         "population": "1244",
         "postal_code": "013 02",
         "source:name": "http://www.statistics.sk",
+        "website": "https://www.gbelany.eu/",
         "wikidata": "Q987804",
         "wikipedia": "sk:Gbeľany"
       }
@@ -15632,21 +15633,6 @@
     },
     {
       "type": "node",
-      "id": 4173342024,
-      "lat": 49.2366895,
-      "lon": 18.8258151,
-      "timestamp": "2016-05-08T19:24:30Z",
-      "version": 1,
-      "changeset": 39187721,
-      "user": "t_ja",
-      "uid": 103618,
-      "tags": {
-        "amenity": "shelter",
-        "shelter_type": "weather_shelter"
-      }
-    },
-    {
-      "type": "node",
       "id": 4187519416,
       "lat": 49.0928673,
       "lon": 18.8294956,
@@ -18306,6 +18292,23 @@
     },
     {
       "type": "node",
+      "id": 5789140558,
+      "lat": 49.2353205,
+      "lon": 18.7937504,
+      "timestamp": "2022-03-24T20:34:31Z",
+      "version": 3,
+      "changeset": 118882005,
+      "user": "Filip009",
+      "uid": 10553599,
+      "tags": {
+        "amenity": "shelter",
+        "fireplace": "yes",
+        "shelter_type": "picnic_shelter",
+        "source": "survey, GPS"
+      }
+    },
+    {
+      "type": "node",
       "id": 5789140559,
       "lat": 49.2343695,
       "lon": 18.7862912,
@@ -18812,13 +18815,16 @@
       "id": 5917987917,
       "lat": 49.241739,
       "lon": 18.8146671,
-      "timestamp": "2018-09-20T09:40:32Z",
-      "version": 1,
-      "changeset": 62756666,
-      "user": "12JakubD",
-      "uid": 8143226,
+      "timestamp": "2022-03-24T17:23:16Z",
+      "version": 2,
+      "changeset": 118874185,
+      "user": "Filip009",
+      "uid": 10553599,
       "tags": {
-        "name": "COOP Jednota Potraviny",
+        "brand": "COOP Jednota",
+        "brand:wikidata": "Q41629254",
+        "brand:wikipedia": "sk:COOP Jednota Slovensko",
+        "name": "COOP Jednota",
         "shop": "convenience"
       }
     },
@@ -26345,6 +26351,42 @@
         "amenity": "shelter",
         "bench": "yes",
         "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1043360821,
+      "timestamp": "2022-03-24T08:13:22Z",
+      "version": 1,
+      "changeset": 118852094,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 49.212504,
+        "lon": 18.8488521
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1043556176,
+      "timestamp": "2022-03-24T20:34:31Z",
+      "version": 1,
+      "changeset": 118882005,
+      "user": "Filip009",
+      "uid": 10553599,
+      "center": {
+        "lat": 49.2366626,
+        "lon": 18.8257904
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "weather_shelter"
       }
     }
   ]
