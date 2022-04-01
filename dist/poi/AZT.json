@@ -5791,6 +5791,32 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_spring",
+        "@distance": 1551.2,
+        "@id": "n2006091727",
+        "@changeset": 13818586,
+        "@timestamp": "2012-11-10T09:54:54Z",
+        "@version": 1,
+        "@uid": 292665,
+        "@user": "Dr Kludge",
+        "fcode": "45800",
+        "gnis:feature_id": "37456",
+        "gnis:name": "Orchard Spring",
+        "name": "Orchard Spring",
+        "natural": "spring",
+        "source": "NHD"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.7353644,
+          32.4626112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "place_village",
         "@distance": 495.5,
         "@id": "n150969200",
@@ -10350,6 +10376,72 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 5743.2,
+        "@id": "n9607741717",
+        "@changeset": 118932105,
+        "@timestamp": "2022-03-26T01:04:17Z",
+        "@version": 1,
+        "@uid": 11913048,
+        "@user": "Januarytraveler",
+        "name": "Family Dollar",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.1017213,
+          33.2888701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 702.8,
+        "@id": "n9625416317",
+        "@changeset": 119138566,
+        "@timestamp": "2022-03-31T02:52:44Z",
+        "@version": 1,
+        "@uid": 11913048,
+        "@user": "Januarytraveler",
+        "amenity": "drinking_water",
+        "name": "Clean water spigot 24 hrs"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.1331461,
+          33.6706213
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 350.3,
+        "@id": "n9625416617",
+        "@changeset": 119138566,
+        "@timestamp": "2022-03-31T02:52:47Z",
+        "@version": 1,
+        "@uid": 11913048,
+        "@user": "Januarytraveler",
+        "name": "Marina Convenience Store",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.1352572,
+          33.6679698
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_spring",
         "@distance": 3046.5,
         "@id": "n2006098251",
@@ -10624,32 +10716,6 @@
         "coordinates": [
           -110.735968,
           32.6068273
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 1551.2,
-        "@id": "n2006091727",
-        "@changeset": 13818586,
-        "@timestamp": "2012-11-10T09:54:54Z",
-        "@version": 1,
-        "@uid": 292665,
-        "@user": "Dr Kludge",
-        "fcode": "45800",
-        "gnis:feature_id": "37456",
-        "gnis:name": "Orchard Spring",
-        "name": "Orchard Spring",
-        "natural": "spring",
-        "source": "NHD"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -110.7353644,
-          32.4626112
         ]
       }
     },
@@ -12831,20 +12897,22 @@
         "@poi": "campsite",
         "@distance": 8.6,
         "@id": "w894337977",
-        "@changeset": 105190051,
-        "@timestamp": "2021-05-24T02:45:04Z",
-        "@version": 2,
+        "@changeset": 119140125,
+        "@timestamp": "2022-03-31T04:28:39Z",
+        "@version": 3,
         "@uid": 9941767,
         "@user": "BubbaJuice",
+        "access": "permit",
         "backcountry": "yes",
         "bbq": "no",
         "cabins": "no",
         "camp_site": "basic",
-        "capacity": 18,
         "capacity:caravans": "0",
         "capacity:persons": "18",
         "caravans": "no",
+        "charge": "8 USD",
         "dog": "no",
+        "drinking_water": "conditional",
         "fee": "yes",
         "group_only": "no",
         "hot_water": "no",
@@ -12856,6 +12924,10 @@
         "nudism": "permissive",
         "openfire": "no",
         "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "operator:wikipedia": "en:National Park Service",
         "permanent_camping": "no",
         "picnic_table": "no",
         "power_supply": "no",
@@ -12869,7 +12941,7 @@
         "tourism": "camp_site",
         "washing_machine": "no",
         "waste_disposal": "no",
-        "website": "https://www.nps.gov/sagu/planyourvisit/camping.htm, https://www.recreation.gov/camping/campsites/10031916"
+        "website": "https://www.nps.gov/sagu/planyourvisit/camping.htm;https://www.recreation.gov/camping/campsites/10031916"
       },
       "geometry": {
         "type": "Point",
