@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-03-22T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-03-31T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11123868,
-      "timestamp": "2022-03-20T22:11:46Z",
-      "version": 204,
-      "changeset": 118712176,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-03-29T06:33:24Z",
+      "version": 208,
+      "changeset": 119051942,
+      "user": "Sanniu",
+      "uid": 1206509,
       "members": [
         {"type": "way", "ref": 723053761, "role": ""},
         {"type": "way", "ref": 853340709, "role": ""},
@@ -19,8 +19,7 @@
         {"type": "way", "ref": 29185963, "role": ""},
         {"type": "way", "ref": 853829307, "role": ""},
         {"type": "way", "ref": 29185958, "role": ""},
-        {"type": "way", "ref": 332250127, "role": ""},
-        {"type": "way", "ref": 29161506, "role": ""},
+        {"type": "way", "ref": 1044440140, "role": ""},
         {"type": "way", "ref": 808777714, "role": ""},
         {"type": "way", "ref": 808777713, "role": ""},
         {"type": "way", "ref": 332133552, "role": ""},
@@ -362,12 +361,19 @@
         {"type": "way", "ref": 108294577, "role": ""},
         {"type": "way", "ref": 813347297, "role": ""},
         {"type": "way", "ref": 813347298, "role": ""},
+        {"type": "way", "ref": 1045112843, "role": ""},
+        {"type": "way", "ref": 1045119956, "role": ""},
         {"type": "way", "ref": 287441003, "role": ""},
         {"type": "way", "ref": 1020043475, "role": ""},
         {"type": "way", "ref": 234106315, "role": ""},
         {"type": "way", "ref": 78508615, "role": ""},
         {"type": "way", "ref": 83808994, "role": ""},
         {"type": "way", "ref": 93263479, "role": ""},
+        {"type": "way", "ref": 83811236, "role": ""},
+        {"type": "way", "ref": 83811237, "role": ""},
+        {"type": "way", "ref": 223061166, "role": ""},
+        {"type": "way", "ref": 223061137, "role": ""},
+        {"type": "way", "ref": 285047216, "role": ""},
         {"type": "way", "ref": 372816928, "role": ""},
         {"type": "way", "ref": 372816927, "role": ""},
         {"type": "way", "ref": 329747078, "role": ""},
@@ -714,11 +720,6 @@
         {"type": "way", "ref": 56019580, "role": ""},
         {"type": "way", "ref": 56031042, "role": ""},
         {"type": "way", "ref": 810403111, "role": ""},
-        {"type": "way", "ref": 83811236, "role": ""},
-        {"type": "way", "ref": 83811237, "role": ""},
-        {"type": "way", "ref": 223061166, "role": ""},
-        {"type": "way", "ref": 223061137, "role": ""},
-        {"type": "way", "ref": 285047216, "role": ""},
         {"type": "way", "ref": 223061158, "role": ""},
         {"type": "way", "ref": 319161040, "role": ""},
         {"type": "way", "ref": 223061162, "role": ""},
@@ -2195,7 +2196,10 @@
         {"type": "way", "ref": 1041693026, "role": ""},
         {"type": "way", "ref": 1041693027, "role": ""},
         {"type": "way", "ref": 1041693029, "role": ""},
-        {"type": "way", "ref": 1041715877, "role": ""}
+        {"type": "way", "ref": 1041715877, "role": ""},
+        {"type": "way", "ref": 165073815, "role": ""},
+        {"type": "way", "ref": 853277813, "role": ""},
+        {"type": "way", "ref": 853277814, "role": ""}
       ],
       "tags": {
         "colour": "yellow",
@@ -3923,6 +3927,67 @@
         {"lat": 32.6848545, "lon": 35.391556}
       ],
       "tags": {"colour": "black", "highway": "path"}
+    },
+    {
+      "type": "way",
+      "id": 1044440140,
+      "timestamp": "2022-03-27T09:53:36Z",
+      "version": 1,
+      "changeset": 118974475,
+      "user": "Ilanride22",
+      "uid": 2376044,
+      "nodes": [9610533218, 7963707162],
+      "geometry": [
+        {"lat": 29.5471047, "lon": 34.9685205},
+        {"lat": 29.5469836, "lon": 34.9684708},
+        {"lat": 29.5471044, "lon": 34.968132},
+        {"lat": 29.5473252, "lon": 34.9680507},
+        {"lat": 29.5473608, "lon": 34.9679364}
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "pedestrian",
+        "name": "טיילת השלום",
+        "name:en": "HaShalom Promenade",
+        "name:he": "טיילת השלום"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1045112843,
+      "timestamp": "2022-03-28T18:02:16Z",
+      "version": 1,
+      "changeset": 119033580,
+      "user": "Yitzchak M",
+      "uid": 8724982,
+      "nodes": [7597484446, 2910439022],
+      "geometry": [
+        {"lat": 31.6687886, "lon": 34.9264232},
+        {"lat": 31.6690026, "lon": 34.9263989}
+      ],
+      "tags": {"highway": "path"}
+    },
+    {
+      "type": "way",
+      "id": 1045119956,
+      "timestamp": "2022-03-29T06:33:24Z",
+      "version": 2,
+      "changeset": 119051942,
+      "user": "Sanniu",
+      "uid": 1206509,
+      "nodes": [2485592755, 2910439022],
+      "geometry": [
+        {"lat": 31.6690329, "lon": 34.9262966},
+        {"lat": 31.6690026, "lon": 34.9263989}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "colour": "green",
+        "foot": "yes",
+        "highway": "service",
+        "source": "GPS",
+        "surface": "paved"
+      }
     },
     {
       "type": "way",
@@ -7549,6 +7614,31 @@
         "colour": "red",
         "foot": "yes",
         "highway": "track"
+      }
+    },
+    {
+      "type": "way",
+      "id": 165073815,
+      "timestamp": "2022-03-27T09:53:36Z",
+      "version": 6,
+      "changeset": 118974475,
+      "user": "Ilanride22",
+      "uid": 2376044,
+      "nodes": [7959501716, 7956125903],
+      "geometry": [
+        {"lat": 29.546056, "lon": 34.9715817},
+        {"lat": 29.5463195, "lon": 34.9708125},
+        {"lat": 29.5471047, "lon": 34.9685205},
+        {"lat": 29.5471549, "lon": 34.9683739},
+        {"lat": 29.5471797, "lon": 34.968327},
+        {"lat": 29.5472109, "lon": 34.968283},
+        {"lat": 29.5472477, "lon": 34.968243}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "name": "טיילת השלום",
+        "name:en": "HaShalom Promenade",
+        "name:he": "טיילת השלום"
       }
     },
     {
@@ -14323,15 +14413,14 @@
     {
       "type": "way",
       "id": 287441003,
-      "timestamp": "2022-01-10T16:40:11Z",
-      "version": 6,
-      "changeset": 115989500,
-      "user": "hatul",
-      "uid": 686490,
-      "nodes": [2485592755, 2430357312],
+      "timestamp": "2022-03-28T17:03:35Z",
+      "version": 7,
+      "changeset": 119031110,
+      "user": "Yitzchak M",
+      "uid": 8724982,
+      "nodes": [2910439022, 2430357312],
       "geometry": [
-        {"lat": 31.6690354, "lon": 34.9262259},
-        {"lat": 31.6691157, "lon": 34.9264806},
+        {"lat": 31.6690026, "lon": 34.9263989},
         {"lat": 31.669443, "lon": 34.926685},
         {"lat": 31.669986, "lon": 34.926925},
         {"lat": 31.670032, "lon": 34.926965},
@@ -14346,7 +14435,7 @@
       ],
       "tags": {
         "bicycle": "yes",
-        "colour": "black",
+        "colour": "green",
         "foot": "yes",
         "highway": "service"
       }
@@ -14983,29 +15072,6 @@
     },
     {
       "type": "way",
-      "id": 29161506,
-      "timestamp": "2020-10-01T14:42:29Z",
-      "version": 12,
-      "changeset": 91832521,
-      "user": "BMM994",
-      "uid": 189946,
-      "nodes": [1085345497, 7956120841],
-      "geometry": [
-        {"lat": 29.5461027, "lon": 34.971218},
-        {"lat": 29.5466903, "lon": 34.9695386},
-        {"lat": 29.5466138, "lon": 34.9695073},
-        {"lat": 29.5470568, "lon": 34.9682009}
-      ],
-      "tags": {
-        "foot": "yes",
-        "highway": "pedestrian",
-        "name": "טיילת השלום",
-        "name:en": "HaShalom footway",
-        "name:he": "טיילת השלום"
-      }
-    },
-    {
-      "type": "way",
       "id": 29161511,
       "timestamp": "2020-10-06T14:38:50Z",
       "version": 24,
@@ -15093,11 +15159,11 @@
     {
       "type": "way",
       "id": 29185958,
-      "timestamp": "2020-10-01T14:42:29Z",
-      "version": 5,
-      "changeset": 91832521,
-      "user": "BMM994",
-      "uid": 189946,
+      "timestamp": "2022-03-27T09:53:36Z",
+      "version": 6,
+      "changeset": 118974475,
+      "user": "Ilanride22",
+      "uid": 2376044,
       "nodes": [7956120847, 7963707162],
       "geometry": [
         {"lat": 29.5474937, "lon": 34.9675096},
@@ -15107,7 +15173,10 @@
         "bridge": "yes",
         "foot": "yes",
         "highway": "pedestrian",
-        "layer": "1"
+        "layer": "1",
+        "name": "טיילת השלום",
+        "name:en": "HaShalom Promenade",
+        "name:he": "טיילת השלום"
       }
     },
     {
@@ -23201,29 +23270,6 @@
     },
     {
       "type": "way",
-      "id": 332250127,
-      "timestamp": "2020-10-01T14:42:29Z",
-      "version": 2,
-      "changeset": 91832521,
-      "user": "BMM994",
-      "uid": 189946,
-      "nodes": [7963707162, 7956120841],
-      "geometry": [
-        {"lat": 29.5473608, "lon": 34.9679364},
-        {"lat": 29.5473252, "lon": 34.9680507},
-        {"lat": 29.5471221, "lon": 34.968134},
-        {"lat": 29.5470568, "lon": 34.9682009}
-      ],
-      "tags": {
-        "foot": "yes",
-        "highway": "pedestrian",
-        "name": "טיילת השלום",
-        "name:en": "HaShalom footway",
-        "name:he": "טיילת השלום"
-      }
-    },
-    {
-      "type": "way",
       "id": 332406370,
       "timestamp": "2022-03-03T05:41:58Z",
       "version": 5,
@@ -29214,11 +29260,11 @@
     {
       "type": "way",
       "id": 397074447,
-      "timestamp": "2016-02-10T11:57:01Z",
-      "version": 1,
-      "changeset": 37122804,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-03-31T14:49:42Z",
+      "version": 2,
+      "changeset": 119164610,
+      "user": "hatul",
+      "uid": 686490,
       "nodes": [3998986187, 3998986165],
       "geometry": [
         {"lat": 31.7963837, "lon": 35.1674179},
@@ -29231,12 +29277,7 @@
         {"lat": 31.7958906, "lon": 35.1662018},
         {"lat": 31.7955704, "lon": 35.1660782}
       ],
-      "tags": {
-        "colour": "blue",
-        "highway": "track",
-        "source": "GPS",
-        "tracktype": "grade2"
-      }
+      "tags": {"colour": "blue", "highway": "track", "source": "GPS"}
     },
     {
       "type": "way",
@@ -51222,12 +51263,12 @@
     {
       "type": "way",
       "id": 808777714,
-      "timestamp": "2020-10-04T11:59:35Z",
-      "version": 3,
-      "changeset": 91930112,
-      "user": "Sanniu",
-      "uid": 1206509,
-      "nodes": [3392530456, 1085345497],
+      "timestamp": "2022-03-27T09:53:36Z",
+      "version": 4,
+      "changeset": 118974475,
+      "user": "Ilanride22",
+      "uid": 2376044,
+      "nodes": [3392530456, 7956125889],
       "geometry": [
         {"lat": 29.553025, "lon": 34.973068},
         {"lat": 29.552815, "lon": 34.9731657},
@@ -51240,12 +51281,7 @@
         {"lat": 29.5472562, "lon": 34.9726326},
         {"lat": 29.5460661, "lon": 34.9724013},
         {"lat": 29.545723, "lon": 34.9722937},
-        {"lat": 29.5456739, "lon": 34.9722486},
-        {"lat": 29.5455576, "lon": 34.9719389},
-        {"lat": 29.5455587, "lon": 34.9718431},
-        {"lat": 29.5455632, "lon": 34.9714572},
-        {"lat": 29.5455246, "lon": 34.9712073},
-        {"lat": 29.5461027, "lon": 34.971218}
+        {"lat": 29.5456739, "lon": 34.9722486}
       ],
       "tags": {"highway": "path"}
     },
@@ -56468,16 +56504,15 @@
     {
       "type": "way",
       "id": 813347298,
-      "timestamp": "2022-01-10T19:45:37Z",
-      "version": 2,
-      "changeset": 115995876,
-      "user": "hatul",
-      "uid": 686490,
-      "nodes": [7597484445, 2485592755],
+      "timestamp": "2022-03-28T18:02:16Z",
+      "version": 3,
+      "changeset": 119033580,
+      "user": "Yitzchak M",
+      "uid": 8724982,
+      "nodes": [7597484445, 7597484446],
       "geometry": [
         {"lat": 31.668213, "lon": 34.9263438},
-        {"lat": 31.6687886, "lon": 34.9264232},
-        {"lat": 31.6690354, "lon": 34.9262259}
+        {"lat": 31.6687886, "lon": 34.9264232}
       ],
       "tags": {"highway": "path"}
     },
@@ -68108,6 +68143,45 @@
         "segregated": "no",
         "surface": "paved"
       }
+    },
+    {
+      "type": "way",
+      "id": 853277813,
+      "timestamp": "2020-09-30T12:08:36Z",
+      "version": 2,
+      "changeset": 91767515,
+      "user": "BMM994",
+      "uid": 189946,
+      "nodes": [7959501716, 7959501715],
+      "geometry": [
+        {"lat": 29.546056, "lon": 34.9715817},
+        {"lat": 29.5460286, "lon": 34.9716618}
+      ],
+      "tags": {"bridge": "yes", "highway": "unclassified", "layer": "1"}
+    },
+    {
+      "type": "way",
+      "id": 853277814,
+      "timestamp": "2020-09-30T12:08:19Z",
+      "version": 1,
+      "changeset": 91767515,
+      "user": "BMM994",
+      "uid": 189946,
+      "nodes": [7959501715, 7956140367],
+      "geometry": [
+        {"lat": 29.5460286, "lon": 34.9716618},
+        {"lat": 29.5460153, "lon": 34.9717005},
+        {"lat": 29.545993, "lon": 34.971754},
+        {"lat": 29.5459641, "lon": 34.9718053},
+        {"lat": 29.5459302, "lon": 34.9718554},
+        {"lat": 29.5458927, "lon": 34.9719051},
+        {"lat": 29.545853, "lon": 34.9719555},
+        {"lat": 29.5458127, "lon": 34.9720075},
+        {"lat": 29.5457732, "lon": 34.9720618},
+        {"lat": 29.5457359, "lon": 34.9721195},
+        {"lat": 29.5457206, "lon": 34.9721477}
+      ],
+      "tags": {"highway": "unclassified"}
     },
     {
       "type": "way",

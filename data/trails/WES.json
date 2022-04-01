@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-03-25T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-03-31T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -4576,11 +4576,11 @@
     {
       "type": "way",
       "id": 121769463,
-      "timestamp": "2020-01-31T19:32:10Z",
-      "version": 4,
-      "changeset": 80390822,
-      "user": "slavey",
-      "uid": 481005,
+      "timestamp": "2022-03-27T08:44:13Z",
+      "version": 5,
+      "changeset": 118972578,
+      "user": "Mig369",
+      "uid": 6105467,
       "nodes": [288488076, 7176022260],
       "geometry": [
         {"lat": 48.2922095, "lon": 8.2025254},
@@ -4602,7 +4602,14 @@
         {"lat": 48.2906633, "lon": 8.2027344},
         {"lat": 48.2904835, "lon": 8.2024914}
       ],
-      "tags": {"highway": "path", "surface": "ground"}
+      "tags": {
+        "highway": "path",
+        "incline": "-20%",
+        "mtb:scale": "3",
+        "mtb:scale:uphill": "3",
+        "sac_scale": "T2",
+        "surface": "ground"
+      }
     },
     {
       "type": "way",
@@ -16675,11 +16682,11 @@
     {
       "type": "way",
       "id": 27844109,
-      "timestamp": "2014-08-28T19:40:04Z",
-      "version": 8,
-      "changeset": 25081773,
-      "user": "Blunauer",
-      "uid": 35468,
+      "timestamp": "2022-03-28T20:54:06Z",
+      "version": 9,
+      "changeset": 119039818,
+      "user": "Schröcker",
+      "uid": 4533268,
       "nodes": [274323990, 274324004],
       "geometry": [
         {"lat": 48.7003445, "lon": 8.4068483},
@@ -16700,6 +16707,7 @@
         {"lat": 48.6977833, "lon": 8.4009719},
         {"lat": 48.6975941, "lon": 8.4006794},
         {"lat": 48.6974125, "lon": 8.4003508},
+        {"lat": 48.6972241, "lon": 8.400098},
         {"lat": 48.6971502, "lon": 8.3999988},
         {"lat": 48.6969957, "lon": 8.3995023},
         {"lat": 48.6969257, "lon": 8.3992431},
@@ -21641,20 +21649,25 @@
     {
       "type": "way",
       "id": 29448884,
-      "timestamp": "2015-05-20T21:04:26Z",
-      "version": 6,
-      "changeset": 31327748,
-      "user": "sperlingskauz",
-      "uid": 1858485,
+      "timestamp": "2022-03-30T19:14:50Z",
+      "version": 7,
+      "changeset": 119129587,
+      "user": "Schröcker",
+      "uid": 4533268,
       "nodes": [327065609, 271382405],
       "geometry": [
-        {"lat": 48.6839742, "lon": 8.3694326},
-        {"lat": 48.6842517, "lon": 8.369351},
-        {"lat": 48.6844598, "lon": 8.3692328},
-        {"lat": 48.6845676, "lon": 8.3691388},
+        {"lat": 48.6839615, "lon": 8.369448},
+        {"lat": 48.6842517, "lon": 8.3693644},
+        {"lat": 48.6844598, "lon": 8.3692491},
+        {"lat": 48.6845784, "lon": 8.3691647},
         {"lat": 48.6847248, "lon": 8.3690572}
       ],
-      "tags": {"highway": "track", "surface": "paved", "tracktype": "grade1"}
+      "tags": {
+        "highway": "track",
+        "name": "Winterhardtstraße",
+        "surface": "paved",
+        "tracktype": "grade1"
+      }
     },
     {
       "type": "way",
@@ -22685,7 +22698,7 @@
         {"lat": 48.6853559, "lon": 8.3713068},
         {"lat": 48.6852478, "lon": 8.3714936},
         {"lat": 48.6852245, "lon": 8.3716055},
-        {"lat": 48.6852241, "lon": 8.3717517}
+        {"lat": 48.6852063, "lon": 8.3717979}
       ],
       "tags": {
         "highway": "path",
@@ -26988,9 +27001,9 @@
     {
       "type": "way",
       "id": 36878270,
-      "timestamp": "2022-03-23T12:51:01Z",
-      "version": 10,
-      "changeset": 118820305,
+      "timestamp": "2022-03-31T14:46:11Z",
+      "version": 11,
+      "changeset": 119164433,
       "user": "Schröcker",
       "uid": 4533268,
       "nodes": [271382391, 327065609],
@@ -27046,9 +27059,14 @@
         {"lat": 48.6845065, "lon": 8.3689579},
         {"lat": 48.6843522, "lon": 8.3691674},
         {"lat": 48.6842374, "lon": 8.3692735},
-        {"lat": 48.6839742, "lon": 8.3694326}
+        {"lat": 48.6839615, "lon": 8.369448}
       ],
-      "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade2"}
+      "tags": {
+        "highway": "track",
+        "name": "Langenbergweg",
+        "surface": "gravel",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
@@ -31454,11 +31472,11 @@
     {
       "type": "way",
       "id": 473113469,
-      "timestamp": "2018-04-04T04:50:39Z",
-      "version": 2,
-      "changeset": 57790845,
-      "user": "fx99",
-      "uid": 130472,
+      "timestamp": "2022-03-28T19:25:18Z",
+      "version": 3,
+      "changeset": 119036588,
+      "user": "Herrenälber",
+      "uid": 539763,
       "nodes": [4672935397, 4672935397],
       "geometry": [
         {"lat": 48.807736, "lon": 8.5277557},
@@ -31470,7 +31488,7 @@
       "tags": {
         "amenity": "shelter",
         "building": "shed",
-        "name": "Rudolfshütte",
+        "note": "das ist nicht die Rudolfshütte - diese befindet sich ca. 150 m westlich",
         "shelter_type": "lean_to"
       }
     },
@@ -35771,9 +35789,9 @@
     {
       "type": "way",
       "id": 58672448,
-      "timestamp": "2022-02-14T19:19:13Z",
-      "version": 11,
-      "changeset": 117407502,
+      "timestamp": "2022-03-28T20:56:13Z",
+      "version": 12,
+      "changeset": 119039902,
       "user": "Schröcker",
       "uid": 4533268,
       "nodes": [335923317, 335923344],
@@ -35796,6 +35814,7 @@
         "highway": "track",
         "incline": "-15%",
         "mtb:scale": "1",
+        "ref": "4",
         "sac_scale": "hiking",
         "sac_scale_ref": "T1",
         "surface": "ground",
@@ -35840,19 +35859,21 @@
     {
       "type": "way",
       "id": 58672450,
-      "timestamp": "2016-04-25T16:25:21Z",
-      "version": 5,
-      "changeset": 38861006,
-      "user": "FrischLuftWege",
-      "uid": 2046386,
+      "timestamp": "2022-03-30T21:14:29Z",
+      "version": 6,
+      "changeset": 119133243,
+      "user": "Schröcker",
+      "uid": 4533268,
       "nodes": [335923789, 428790183],
       "geometry": [
-        {"lat": 48.6852241, "lon": 8.3717517},
+        {"lat": 48.6852063, "lon": 8.3717979},
         {"lat": 48.6850785, "lon": 8.3716549},
         {"lat": 48.6849509, "lon": 8.371437},
         {"lat": 48.6848993, "lon": 8.3712951},
+        {"lat": 48.6848831, "lon": 8.3712313},
         {"lat": 48.6848649, "lon": 8.3711599},
         {"lat": 48.6848219, "lon": 8.3708921},
+        {"lat": 48.6847889, "lon": 8.3705205},
         {"lat": 48.6847742, "lon": 8.3703542},
         {"lat": 48.6847153, "lon": 8.3698183},
         {"lat": 48.6847188, "lon": 8.3697237}
@@ -35883,11 +35904,11 @@
     {
       "type": "way",
       "id": 58692135,
-      "timestamp": "2015-05-20T21:04:22Z",
-      "version": 3,
-      "changeset": 31327748,
-      "user": "sperlingskauz",
-      "uid": 1858485,
+      "timestamp": "2022-03-28T21:49:54Z",
+      "version": 4,
+      "changeset": 119041602,
+      "user": "Schröcker",
+      "uid": 4533268,
       "nodes": [428790116, 279844507],
       "geometry": [
         {"lat": 48.6847205, "lon": 8.3693971},
@@ -35898,6 +35919,7 @@
         {"lat": 48.6854564, "lon": 8.3679102}
       ],
       "tags": {
+        "access": "destination",
         "highway": "track",
         "name": "Brunnenweg",
         "sac_scale": "hiking",

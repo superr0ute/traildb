@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-03-15T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-03-31T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -612,11 +612,11 @@
     {
       "type": "relation",
       "id": 6814202,
-      "timestamp": "2020-09-22T16:24:26Z",
-      "version": 9,
-      "changeset": 91309305,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2022-03-31T01:43:10Z",
+      "version": 10,
+      "changeset": 119137695,
+      "user": "GustavoE",
+      "uid": 2500882,
       "members": [
         {"type": "way", "ref": 849934919, "role": ""},
         {"type": "way", "ref": 461245326, "role": ""},
@@ -663,11 +663,17 @@
         {"type": "way", "ref": 667571666, "role": ""}
       ],
       "tags": {
-        "name": "Greater Patagonian Trail Section 21: Lago Todos Los Santos",
+        "distance": "24.38",
+        "from": "Lago Todos Los Santos",
+        "name": "Greater Patagonian Trail Section 21: Valle el Callao",
         "network": "rwn",
         "old_ref": "GPT15",
+        "operator": "CONAF",
         "ref": "GPT21",
+        "roundtrip": "no",
         "route": "hiking",
+        "source": "https://suda.io/activity/avOgaMysPx",
+        "to": "Lago Rupanco",
         "type": "route",
         "website": "http://www.wikiexplora.com/index.php/Greater_Patagonian_Trail"
       }
@@ -675,11 +681,11 @@
     {
       "type": "relation",
       "id": 6814214,
-      "timestamp": "2020-09-22T15:20:26Z",
-      "version": 4,
-      "changeset": 91305529,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2022-03-31T01:43:10Z",
+      "version": 5,
+      "changeset": 119137695,
+      "user": "GustavoE",
+      "uid": 2500882,
       "members": [
         {"type": "way", "ref": 125433234, "role": ""},
         {"type": "way", "ref": 220286634, "role": ""},
@@ -689,7 +695,8 @@
         {"type": "way", "ref": 461247568, "role": ""},
         {"type": "way", "ref": 461247563, "role": ""},
         {"type": "way", "ref": 850168683, "role": ""},
-        {"type": "way", "ref": 461247562, "role": ""}
+        {"type": "way", "ref": 461247562, "role": ""},
+        {"type": "way", "ref": 1046717164, "role": ""}
       ],
       "tags": {
         "name": "Greater Patagonian Trail Section 20: Volcán Antillanca",
@@ -2318,6 +2325,33 @@
         "highway": "path",
         "layer": "1",
         "name": "Pasarela Pichirrincón"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1046717164,
+      "timestamp": "2022-03-31T01:43:10Z",
+      "version": 1,
+      "changeset": 119137695,
+      "user": "GustavoE",
+      "uid": 2500882,
+      "nodes": [4567824021, 4567777574],
+      "geometry": [
+        {"lat": -40.8807746, "lon": -72.1794892},
+        {"lat": -40.8811222, "lon": -72.1796876},
+        {"lat": -40.881575, "lon": -72.1799767},
+        {"lat": -40.8817022, "lon": -72.1801034}
+      ],
+      "tags": {
+        "access": "permissive",
+        "foot": "yes",
+        "highway": "track",
+        "name": "Travesía Valle el Callao",
+        "sac_scale": "demanding_mountain_hiking",
+        "smoothness": "very_bad",
+        "source": "https://suda.io/activity/avOgaMysPx",
+        "surface": "ground",
+        "trail_visibility": "excellent"
       }
     },
     {
@@ -5854,14 +5888,15 @@
     {
       "type": "way",
       "id": 144286037,
-      "timestamp": "2012-01-05T17:37:07Z",
-      "version": 1,
-      "changeset": 10303383,
-      "user": "dbusse",
-      "uid": 149876,
+      "timestamp": "2022-03-30T20:18:53Z",
+      "version": 2,
+      "changeset": 119131687,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [1578463450, 1578463446],
       "geometry": [
         {"lat": -37.0763153, "lon": -71.3954394},
+        {"lat": -37.0760379, "lon": -71.3950173},
         {"lat": -37.0755508, "lon": -71.3942143}
       ],
       "tags": {
@@ -10801,11 +10836,11 @@
     {
       "type": "way",
       "id": 25733674,
-      "timestamp": "2021-09-06T15:36:15Z",
-      "version": 11,
-      "changeset": 110809883,
-      "user": "Baron Harkonnen",
-      "uid": 2704608,
+      "timestamp": "2022-03-31T21:41:47Z",
+      "version": 12,
+      "changeset": 119178513,
+      "user": "GustavoE",
+      "uid": 2500882,
       "nodes": [280590323, 280549184],
       "geometry": [
         {"lat": -41.381046, "lon": -72.29634},
@@ -10944,6 +10979,7 @@
         "chile:surface": "ripio",
         "highway": "tertiary",
         "name": "Ralún - Lago Cayutúe",
+        "ref": "V-705",
         "source": "vialidad.cl",
         "surface": "unpaved"
       }
@@ -17047,11 +17083,11 @@
     {
       "type": "way",
       "id": 381227336,
-      "timestamp": "2020-09-22T19:14:39Z",
-      "version": 12,
-      "changeset": 91316076,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2022-03-31T01:43:10Z",
+      "version": 13,
+      "changeset": 119137695,
+      "user": "GustavoE",
+      "uid": 2500882,
       "nodes": [3844672186, 7931685117],
       "geometry": [
         {"lat": -41.0510831, "lon": -72.1640977},
@@ -17279,9 +17315,12 @@
         "access": "permissive",
         "foot": "yes",
         "highway": "path",
-        "name": "Lago Todos Los Santos a Rupanco",
+        "name": "Travesía Valle el Callao",
+        "sac_scale": "demanding_mountain_hiking",
         "smoothness": "very_bad",
-        "surface": "ground"
+        "source": "https://suda.io/activity/avOgaMysPx",
+        "surface": "ground",
+        "trail_visibility": "excellent"
       }
     },
     {
@@ -23217,17 +23256,16 @@
     {
       "type": "way",
       "id": 458859597,
-      "timestamp": "2016-12-10T14:14:10Z",
-      "version": 1,
-      "changeset": 44304091,
-      "user": "ATGardner",
-      "uid": 287860,
+      "timestamp": "2022-03-30T20:18:53Z",
+      "version": 2,
+      "changeset": 119131687,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [343572038, 1578463450],
       "geometry": [
-        {"lat": -37.0753713, "lon": -71.4059556},
-        {"lat": -37.0754278, "lon": -71.4058376},
-        {"lat": -37.0754676, "lon": -71.4057878},
-        {"lat": -37.0756789, "lon": -71.4055782},
+        {"lat": -37.075439, "lon": -71.4058073},
+        {"lat": -37.0755385, "lon": -71.4056839},
+        {"lat": -37.0756263, "lon": -71.40559},
         {"lat": -37.0761465, "lon": -71.4052396},
         {"lat": -37.0766042, "lon": -71.4050834},
         {"lat": -37.0771973, "lon": -71.4049134},
@@ -24434,11 +24472,11 @@
     {
       "type": "way",
       "id": 458859629,
-      "timestamp": "2022-03-15T18:25:32Z",
-      "version": 3,
-      "changeset": 118522578,
-      "user": "intrepidzen",
-      "uid": 15323463,
+      "timestamp": "2022-03-31T19:11:30Z",
+      "version": 4,
+      "changeset": 119174337,
+      "user": "jptolosa",
+      "uid": 1975220,
       "nodes": [1730986780, 1738798090],
       "geometry": [
         {"lat": -37.3942277, "lon": -71.4149863},
@@ -24459,7 +24497,7 @@
         "attribution": "Vialidad",
         "chile:region": "8",
         "chile:surface": "ripio",
-        "highway": "tertiary",
+        "highway": "primary",
         "name": "Cruce Ruta 177 (Los Ángeles) - Antuco - Laguna Laja - Paso Pichachén",
         "ref": "Q-45",
         "source": "vialidad.cl",
@@ -26663,7 +26701,7 @@
         {"lat": -37.0750418, "lon": -71.4055542},
         {"lat": -37.0751455, "lon": -71.4055729},
         {"lat": -37.0752449, "lon": -71.405699},
-        {"lat": -37.0753713, "lon": -71.4059556}
+        {"lat": -37.075439, "lon": -71.4058073}
       ],
       "tags": {
         "highway": "track",
@@ -28755,9 +28793,9 @@
     {
       "type": "way",
       "id": 459231496,
-      "timestamp": "2016-12-20T06:40:03Z",
-      "version": 2,
-      "changeset": 44533305,
+      "timestamp": "2022-03-31T19:11:30Z",
+      "version": 3,
+      "changeset": 119174337,
       "user": "jptolosa",
       "uid": 1975220,
       "nodes": [4551348061, 1730986780],
@@ -28769,7 +28807,7 @@
         "attribution": "Vialidad",
         "chile:region": "8",
         "chile:surface": "ripio",
-        "highway": "tertiary",
+        "highway": "primary",
         "name": "Cruce Ruta 177 (Los Ángeles) - Antuco - Laguna Laja - Paso Pichachén",
         "ref": "Q-45",
         "source": "vialidad.cl",
@@ -47817,11 +47855,11 @@
     {
       "type": "way",
       "id": 461245326,
-      "timestamp": "2020-09-22T16:24:26Z",
-      "version": 4,
-      "changeset": 91309305,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2022-03-31T01:43:10Z",
+      "version": 5,
+      "changeset": 119137695,
+      "user": "GustavoE",
+      "uid": 2500882,
       "nodes": [4567777569, 7929396388],
       "geometry": [
         {"lat": -40.8818036, "lon": -72.1794971},
@@ -47834,21 +47872,25 @@
         {"lat": -40.8823179, "lon": -72.1788831}
       ],
       "tags": {
+        "access": "permissive",
+        "foot": "yes",
         "highway": "track",
-        "smoothness": "horrible",
-        "source": "Bing",
+        "name": "Travesía Valle el Callao",
+        "sac_scale": "demanding_mountain_hiking",
+        "smoothness": "very_bad",
+        "source": "https://suda.io/activity/avOgaMysPx",
         "surface": "ground",
-        "tracktype": "grade3"
+        "trail_visibility": "excellent"
       }
     },
     {
       "type": "way",
       "id": 461245327,
-      "timestamp": "2016-12-23T00:03:52Z",
-      "version": 1,
-      "changeset": 44606688,
-      "user": "jptolosa",
-      "uid": 1975220,
+      "timestamp": "2022-03-31T21:41:47Z",
+      "version": 2,
+      "changeset": 119178513,
+      "user": "GustavoE",
+      "uid": 2500882,
       "nodes": [4567782287, 4567777584],
       "geometry": [
         {"lat": -41.3007832, "lon": -72.2720165},
@@ -47857,16 +47899,16 @@
         {"lat": -41.3018792, "lon": -72.2711006},
         {"lat": -41.3023076, "lon": -72.2706663}
       ],
-      "tags": {"highway": "track"}
+      "tags": {"highway": "track", "name": "Travesía Paso Vuriloche"}
     },
     {
       "type": "way",
       "id": 461245328,
-      "timestamp": "2021-04-21T11:44:27Z",
-      "version": 2,
-      "changeset": 103337544,
-      "user": "AndjelaS",
-      "uid": 8951082,
+      "timestamp": "2022-03-31T21:41:47Z",
+      "version": 3,
+      "changeset": 119178513,
+      "user": "GustavoE",
+      "uid": 2500882,
       "nodes": [4567777584, 280549184],
       "geometry": [
         {"lat": -41.3023076, "lon": -72.2706663},
@@ -47882,7 +47924,12 @@
         {"lat": -41.3069708, "lon": -72.2683615},
         {"lat": -41.308286, "lon": -72.268524}
       ],
-      "tags": {"highway": "unclassified"}
+      "tags": {
+        "highway": "tertiary",
+        "name": "Ralún - Lago Cayutúe",
+        "ref": "V-705",
+        "surface": "dirt"
+      }
     },
     {
       "type": "way",
@@ -47918,11 +47965,11 @@
     {
       "type": "way",
       "id": 461245330,
-      "timestamp": "2020-09-22T19:14:39Z",
-      "version": 2,
-      "changeset": 91316076,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2022-03-31T21:41:47Z",
+      "version": 3,
+      "changeset": 119178513,
+      "user": "GustavoE",
+      "uid": 2500882,
       "nodes": [4567782238, 4567782245],
       "geometry": [
         {"lat": -41.2278648, "lon": -72.2669206},
@@ -47973,16 +48020,21 @@
         {"lat": -41.2543839, "lon": -72.2629979},
         {"lat": -41.2551128, "lon": -72.2627058}
       ],
-      "tags": {"highway": "path", "smoothness": "very_bad", "surface": "ground"}
+      "tags": {
+        "highway": "path",
+        "name": "Sendero Lago Cayutué - Lago Todos Los Santos",
+        "smoothness": "very_bad",
+        "surface": "ground"
+      }
     },
     {
       "type": "way",
       "id": 461245331,
-      "timestamp": "2016-12-23T00:03:52Z",
-      "version": 1,
-      "changeset": 44606688,
-      "user": "jptolosa",
-      "uid": 1975220,
+      "timestamp": "2022-03-31T21:41:47Z",
+      "version": 2,
+      "changeset": 119178513,
+      "user": "GustavoE",
+      "uid": 2500882,
       "nodes": [4567782245, 4567782295],
       "geometry": [
         {"lat": -41.2551128, "lon": -72.2627058},
@@ -47997,6 +48049,7 @@
         {"lat": -41.2566953, "lon": -72.2648176},
         {"lat": -41.256773, "lon": -72.2650355},
         {"lat": -41.2569961, "lon": -72.2652495},
+        {"lat": -41.2572484, "lon": -72.2654263},
         {"lat": -41.2580428, "lon": -72.2659829},
         {"lat": -41.2592842, "lon": -72.266881},
         {"lat": -41.2602599, "lon": -72.2674314},
@@ -48026,16 +48079,20 @@
         {"lat": -41.2817762, "lon": -72.2691285},
         {"lat": -41.2834665, "lon": -72.2693666}
       ],
-      "tags": {"highway": "path"}
+      "tags": {
+        "highway": "path",
+        "name": "Sendero Lago Cayutué - Lago Todos Los Santos",
+        "surface": "ground"
+      }
     },
     {
       "type": "way",
       "id": 461245332,
-      "timestamp": "2016-12-23T00:03:52Z",
-      "version": 1,
-      "changeset": 44606688,
-      "user": "jptolosa",
-      "uid": 1975220,
+      "timestamp": "2022-03-31T21:41:47Z",
+      "version": 2,
+      "changeset": 119178513,
+      "user": "GustavoE",
+      "uid": 2500882,
       "nodes": [4567782295, 4567782287],
       "geometry": [
         {"lat": -41.2834665, "lon": -72.2693666},
@@ -48085,17 +48142,21 @@
         {"lat": -41.3006545, "lon": -72.2721083},
         {"lat": -41.3007832, "lon": -72.2720165}
       ],
-      "tags": {"highway": "path"}
+      "tags": {
+        "highway": "path",
+        "name": "Travesía Paso Vuriloche",
+        "surface": "ground"
+      }
     },
     {
       "type": "way",
       "id": 461247562,
-      "timestamp": "2020-09-22T15:20:26Z",
-      "version": 3,
-      "changeset": 91305529,
-      "user": "felipeeugenio",
-      "uid": 337684,
-      "nodes": [7931620038, 4567777574],
+      "timestamp": "2022-03-31T01:43:10Z",
+      "version": 4,
+      "changeset": 119137695,
+      "user": "GustavoE",
+      "uid": 2500882,
+      "nodes": [7931620038, 4567824021],
       "geometry": [
         {"lat": -40.8767823, "lon": -72.1797747},
         {"lat": -40.8770025, "lon": -72.1796841},
@@ -48103,10 +48164,7 @@
         {"lat": -40.8786015, "lon": -72.1793687},
         {"lat": -40.8793295, "lon": -72.1793872},
         {"lat": -40.8800465, "lon": -72.1794225},
-        {"lat": -40.8807746, "lon": -72.1794892},
-        {"lat": -40.8811222, "lon": -72.1796876},
-        {"lat": -40.881575, "lon": -72.1799767},
-        {"lat": -40.8817022, "lon": -72.1801034}
+        {"lat": -40.8807746, "lon": -72.1794892}
       ],
       "tags": {
         "highway": "track",
@@ -89587,11 +89645,11 @@
     {
       "type": "way",
       "id": 849934919,
-      "timestamp": "2020-09-21T21:11:59Z",
-      "version": 1,
-      "changeset": 91250108,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2022-03-31T01:43:10Z",
+      "version": 2,
+      "changeset": 119137695,
+      "user": "GustavoE",
+      "uid": 2500882,
       "nodes": [4567777574, 4567777569],
       "geometry": [
         {"lat": -40.8817022, "lon": -72.1801034},
@@ -89602,21 +89660,25 @@
         {"lat": -40.8818036, "lon": -72.1794971}
       ],
       "tags": {
+        "access": "permissive",
+        "foot": "yes",
         "highway": "track",
-        "smoothness": "horrible",
-        "source": "Bing",
+        "name": "Travesía Valle el Callao",
+        "sac_scale": "demanding_mountain_hiking",
+        "smoothness": "very_bad",
+        "source": "https://suda.io/activity/avOgaMysPx",
         "surface": "ground",
-        "tracktype": "grade3"
+        "trail_visibility": "excellent"
       }
     },
     {
       "type": "way",
       "id": 849934920,
-      "timestamp": "2020-09-22T15:20:26Z",
-      "version": 2,
-      "changeset": 91305529,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2022-03-31T01:43:10Z",
+      "version": 3,
+      "changeset": 119137695,
+      "user": "GustavoE",
+      "uid": 2500882,
       "nodes": [4567777554, 3844680865],
       "geometry": [
         {"lat": -40.8841904, "lon": -72.1796608},
@@ -89633,11 +89695,15 @@
         {"lat": -40.8883729, "lon": -72.1792258}
       ],
       "tags": {
+        "access": "permissive",
+        "foot": "yes",
         "highway": "track",
-        "smoothness": "horrible",
-        "source": "Bing",
+        "name": "Travesía Valle el Callao",
+        "sac_scale": "demanding_mountain_hiking",
+        "smoothness": "very_bad",
+        "source": "https://suda.io/activity/avOgaMysPx",
         "surface": "ground",
-        "tracktype": "grade5"
+        "trail_visibility": "excellent"
       }
     },
     {
@@ -89659,11 +89725,11 @@
     {
       "type": "way",
       "id": 850168687,
-      "timestamp": "2022-02-17T22:54:48Z",
-      "version": 2,
-      "changeset": 117540993,
-      "user": "felipeeugenio",
-      "uid": 337684,
+      "timestamp": "2022-03-31T01:43:10Z",
+      "version": 3,
+      "changeset": 119137695,
+      "user": "GustavoE",
+      "uid": 2500882,
       "nodes": [7931685117, 3844680865],
       "geometry": [
         {"lat": -40.9062436, "lon": -72.1678215},
@@ -89715,26 +89781,30 @@
         {"lat": -40.8883729, "lon": -72.1792258}
       ],
       "tags": {
-        "access": "private",
+        "access": "permissive",
         "foot": "yes",
-        "highway": "track",
-        "name": "Lago Todos Los Santos a Rupanco",
-        "smoothness": "horrible",
+        "highway": "path",
+        "name": "Travesía Valle el Callao",
+        "sac_scale": "demanding_mountain_hiking",
+        "smoothness": "very_bad",
+        "source": "https://suda.io/activity/avOgaMysPx",
         "surface": "ground",
-        "tracktype": "grade5"
+        "trail_visibility": "excellent"
       }
     },
     {
       "type": "way",
       "id": 850200110,
-      "timestamp": "2020-09-22T16:24:26Z",
-      "version": 1,
-      "changeset": 91309305,
-      "user": "felipeeugenio",
-      "uid": 337684,
-      "nodes": [7929396390, 4567777554],
+      "timestamp": "2022-03-31T01:43:10Z",
+      "version": 2,
+      "changeset": 119137695,
+      "user": "GustavoE",
+      "uid": 2500882,
+      "nodes": [7929396388, 4567777554],
       "geometry": [
-        {"lat": -40.8825751, "lon": -72.1795222},
+        {"lat": -40.8823179, "lon": -72.1788831},
+        {"lat": -40.8825078, "lon": -72.1792394},
+        {"lat": -40.8826643, "lon": -72.1794256},
         {"lat": -40.8827526, "lon": -72.1794972},
         {"lat": -40.8828621, "lon": -72.1795374},
         {"lat": -40.8830142, "lon": -72.1795831},
@@ -89744,11 +89814,15 @@
         {"lat": -40.8841904, "lon": -72.1796608}
       ],
       "tags": {
+        "access": "permissive",
+        "foot": "yes",
         "highway": "track",
-        "smoothness": "horrible",
-        "source": "Bing",
+        "name": "Travesía Valle el Callao",
+        "sac_scale": "demanding_mountain_hiking",
+        "smoothness": "very_bad",
+        "source": "https://suda.io/activity/avOgaMysPx",
         "surface": "ground",
-        "tracktype": "grade3"
+        "trail_visibility": "excellent"
       }
     },
     {

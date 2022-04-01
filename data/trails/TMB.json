@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-03-19T02:41:16Z"},
+  "osm3s": {"timestamp_osm_base": "2022-04-01T03:18:12Z"},
   "elements": [
     {
       "type": "relation",
@@ -22819,7 +22819,7 @@
         {"lat": 46.0119108, "lon": 7.1195505, "z": 1237.4},
         {"lat": 46.012041, "lon": 7.1196521, "z": 1239.3},
         {"lat": 46.0121253, "lon": 7.1196697, "z": 1243.1},
-        {"lat": 46.0122484, "lon": 7.1196298, "z": 1250.3},
+        {"lat": 46.0122575, "lon": 7.1196444, "z": 1250.3},
         {"lat": 46.0123737, "lon": 7.1196491, "z": 1256},
         {"lat": 46.0124915, "lon": 7.1196515, "z": 1261.9},
         {"lat": 46.0126193, "lon": 7.1196711, "z": 1268.1},
@@ -29079,16 +29079,17 @@
     {
       "type": "way",
       "id": 876067741,
-      "timestamp": "2020-11-23T08:58:16Z",
-      "version": 1,
-      "changeset": 94624225,
-      "user": "Wikilux",
-      "uid": 1894634,
+      "timestamp": "2022-03-27T08:04:39Z",
+      "version": 2,
+      "changeset": 118971678,
+      "user": "BaboucheVerte",
+      "uid": 6296343,
       "nodes": [8153797098, 8153797099],
       "geometry": [
         {"lat": 46.0552323, "lon": 6.9936872, "z": 1305},
         {"lat": 46.0550397, "lon": 6.9937143, "z": 1304.3},
         {"lat": 46.0547592, "lon": 6.9937112, "z": 1303.3},
+        {"lat": 46.0546081, "lon": 6.993684, "z": 1302.7},
         {"lat": 46.0545817, "lon": 6.9936793, "z": 1302.6}
       ],
       "tags": {"highway": "unclassified", "name": "Le Planet"}
@@ -30677,17 +30678,22 @@
     {
       "type": "way",
       "id": 97262490,
-      "timestamp": "2021-09-03T17:49:47Z",
-      "version": 2,
-      "changeset": 110689969,
-      "user": "OSM52",
-      "uid": 2518853,
+      "timestamp": "2022-03-26T09:24:16Z",
+      "version": 3,
+      "changeset": 118939237,
+      "user": "BaboucheVerte",
+      "uid": 6296343,
       "nodes": [619717078, 83209061],
       "geometry": [
         {"lat": 46.0524733, "lon": 6.9940163, "z": 1305.9},
         {"lat": 46.0525387, "lon": 6.9942405, "z": 1306.5}
       ],
-      "tags": {"bridge": "yes", "highway": "residential", "layer": "1"}
+      "tags": {
+        "bridge": "yes",
+        "highway": "residential",
+        "layer": "1",
+        "maxweight": "18"
+      }
     },
     {
       "type": "way",
