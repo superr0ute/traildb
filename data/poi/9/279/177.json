@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-04-02T23:59:59Z",
-    "timestamp_osm_base": "2022-04-03T05:23:18Z",
+    "timestamp_osm_date": "2022-04-04T23:59:59Z",
+    "timestamp_osm_base": "2022-04-05T05:47:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -8642,11 +8642,11 @@
       "id": 324469105,
       "lat": 48.2097797,
       "lon": 16.3471534,
-      "timestamp": "2019-09-28T00:19:25Z",
-      "version": 10,
-      "changeset": 75029535,
-      "user": "korridor",
-      "uid": 2464030,
+      "timestamp": "2022-04-03T06:54:40Z",
+      "version": 11,
+      "changeset": 119254273,
+      "user": "eumiro",
+      "uid": 29717,
       "tags": {
         "addr:city": "Wien",
         "addr:country": "AT",
@@ -8656,6 +8656,7 @@
         "brand": "Spar",
         "brand:wikidata": "Q610492",
         "brand:wikipedia": "en:Spar (retailer)",
+        "check_date:opening_hours": "2022-04-02",
         "name": "Spar",
         "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00",
         "operator": "Spar",
@@ -82810,14 +82811,14 @@
     {
       "type": "way",
       "id": 720586354,
-      "timestamp": "2021-11-14T16:57:04Z",
-      "version": 3,
-      "changeset": 113770729,
+      "timestamp": "2022-04-03T10:27:38Z",
+      "version": 6,
+      "changeset": 119259356,
       "user": "Thomas Lamprecht",
       "uid": 6331986,
       "center": {
-        "lat": 48.1887797,
-        "lon": 16.3527109
+        "lat": 48.1887733,
+        "lon": 16.3527287
       },
       "nodes": [],
       "tags": {
@@ -82834,6 +82835,8 @@
         "name": "Hofer",
         "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00",
         "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:debit_cards": "yes",
         "payment:maestro": "yes",
         "phone": "+43 (0)1 544 08 54",
         "shop": "supermarket",
@@ -91246,6 +91249,38 @@
       "tags": {
         "amenity": "shelter",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1047709116,
+      "timestamp": "2022-04-03T19:27:09Z",
+      "version": 1,
+      "changeset": 119276339,
+      "user": "publicbetamax",
+      "uid": 6089731,
+      "center": {
+        "lat": 48.2405845,
+        "lon": 16.4608044
+      },
+      "nodes": [],
+      "tags": {
+        "access": "yes",
+        "backcountry": "yes",
+        "capacity:persons": "40",
+        "internet_access": "no",
+        "name": "Camp für die Lobau (Grätzl 1)",
+        "openfire": "yes",
+        "opening_hours": "24/7",
+        "operator": "Lobau? Bleibt!",
+        "power_supply": "no",
+        "source": "local knowledge",
+        "stars": "5S",
+        "start_date": "2021-08-30",
+        "tourism": "camp_site",
+        "website": "https://lobaubleibt.at/",
+        "wikidata": "Q110881683",
+        "wikipedia": "de:Stadtstraße (Wien)"
       }
     }
   ]

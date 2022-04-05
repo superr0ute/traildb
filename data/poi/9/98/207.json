@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-04-02T23:59:59Z",
-    "timestamp_osm_base": "2022-04-03T03:37:24Z",
+    "timestamp_osm_date": "2022-04-04T23:59:59Z",
+    "timestamp_osm_base": "2022-04-05T03:15:50Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4280,13 +4280,15 @@
       "id": 3083717673,
       "lat": 32.2328225,
       "lon": -110.952211,
-      "timestamp": "2022-04-02T22:15:37Z",
-      "version": 2,
-      "changeset": 119248787,
+      "timestamp": "2022-04-03T15:43:05Z",
+      "version": 3,
+      "changeset": 119269438,
       "user": "wille",
       "uid": 360183,
       "tags": {
         "name": "Arizona Market",
+        "opening_hours": "Mo-Fr 07:30-22:00; Sa-Su 09:00-21:00",
+        "phone": "+1 520 621 5340",
         "shop": "convenience",
         "website": "https://union.arizona.edu/dining/sumc/arizonamarket"
       }
@@ -5430,60 +5432,6 @@
     },
     {
       "type": "node",
-      "id": 7271024472,
-      "lat": 32.1804475,
-      "lon": -110.648237,
-      "timestamp": "2022-03-31T04:28:39Z",
-      "version": 3,
-      "changeset": 119140125,
-      "user": "BubbaJuice",
-      "uid": 9941767,
-      "tags": {
-        "access": "permit",
-        "backcountry": "yes",
-        "bbq": "yes",
-        "cabins": "no",
-        "camp_site": "basic",
-        "capacity:caravans": "0",
-        "capacity:persons": "18",
-        "caravans": "no",
-        "charge": "8 USD",
-        "dog": "no",
-        "drinking_water": "conditional",
-        "ele": "1823",
-        "fee": "yes",
-        "group_only": "no",
-        "hot_water": "no",
-        "internet_access": "no",
-        "kitchen": "no",
-        "lit": "no",
-        "motor_vehicle": "no",
-        "name": "Juniper Basin",
-        "nudism": "permissive",
-        "openfire": "yes",
-        "operator": "National Park Service",
-        "operator:short": "NPS",
-        "operator:type": "public",
-        "operator:wikidata": "Q308439",
-        "operator:wikipedia": "en:National Park Service",
-        "permanent_camping": "no",
-        "picnic_table": "no",
-        "power_supply": "no",
-        "sanitary_dump_station": "no",
-        "scout": "no",
-        "shower": "no",
-        "static_caravans": "no",
-        "swimming_pool": "no",
-        "tents": "yes",
-        "toilets": "yes",
-        "tourism": "camp_site",
-        "washing_machine": "no",
-        "waste_disposal": "no",
-        "website": "https://www.nps.gov/sagu/planyourvisit/camping.htm;https://www.recreation.gov/camping/campsites/10031911"
-      }
-    },
-    {
-      "type": "node",
       "id": 7593478640,
       "lat": 32.4271009,
       "lon": -110.7586563,
@@ -6622,6 +6570,67 @@
       "uid": 9941767,
       "tags": {
         "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9633874317,
+      "lat": 32.243195,
+      "lon": -110.90999,
+      "timestamp": "2022-04-03T16:53:48Z",
+      "version": 1,
+      "changeset": 119271734,
+      "user": "wille",
+      "uid": 360183,
+      "tags": {
+        "name": "Salama Market",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9634771613,
+      "lat": 32.2482541,
+      "lon": -110.9095775,
+      "timestamp": "2022-04-04T04:37:04Z",
+      "version": 1,
+      "changeset": 119284641,
+      "user": "mycota",
+      "uid": 7541348,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9634785437,
+      "lat": 32.2484756,
+      "lon": -110.9078977,
+      "timestamp": "2022-04-04T04:37:04Z",
+      "version": 1,
+      "changeset": 119284641,
+      "user": "mycota",
+      "uid": 7541348,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9641350417,
+      "lat": 32.1464246,
+      "lon": -110.918166,
+      "timestamp": "2022-04-04T20:41:25Z",
+      "version": 2,
+      "changeset": 119317688,
+      "user": "wille",
+      "uid": 360183,
+      "tags": {
+        "brand": "Circle K",
+        "brand:wikidata": "Q3268010",
+        "brand:wikipedia": "en:Circle K",
+        "name": "Circle K",
+        "shop": "convenience"
       }
     },
     {
@@ -14155,17 +14164,19 @@
     {
       "type": "way",
       "id": 833100623,
-      "timestamp": "2020-08-02T05:16:03Z",
-      "version": 1,
-      "changeset": 88829636,
-      "user": "GREGMAP1",
-      "uid": 10666051,
+      "timestamp": "2022-04-03T16:53:43Z",
+      "version": 2,
+      "changeset": 119271734,
+      "user": "wille",
+      "uid": 360183,
       "center": {
         "lat": 32.2284902,
         "lon": -110.9099111
       },
       "nodes": [],
       "tags": {
+        "addr:housenumber": "3856",
+        "addr:street": "East 5th Street",
         "brand": "7-Eleven",
         "brand:wikidata": "Q259340",
         "brand:wikipedia": "en:7-Eleven",
@@ -33043,8 +33054,8 @@
       "user": "GREGMAP1",
       "uid": 10666051,
       "center": {
-        "lat": 32.2376776,
-        "lon": -110.9523589
+        "lat": 32.2376775,
+        "lon": -110.9523593
       },
       "nodes": [],
       "tags": {
@@ -39137,6 +39148,63 @@
         "amenity": "shelter",
         "building": "yes",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1047781102,
+      "timestamp": "2022-04-04T05:55:53Z",
+      "version": 1,
+      "changeset": 119286584,
+      "user": "BubbaJuice",
+      "uid": 9941767,
+      "center": {
+        "lat": 32.1807919,
+        "lon": -110.6481486
+      },
+      "nodes": [],
+      "tags": {
+        "access": "permit",
+        "backcountry": "yes",
+        "bbq": "yes",
+        "cabins": "no",
+        "camp_site": "basic",
+        "capacity:caravans": "0",
+        "capacity:persons": "18",
+        "caravans": "no",
+        "charge": "8 USD",
+        "dog": "no",
+        "drinking_water": "conditional",
+        "ele": "1823",
+        "fee": "yes",
+        "group_only": "no",
+        "hot_water": "no",
+        "internet_access": "no",
+        "kitchen": "no",
+        "lit": "no",
+        "motor_vehicle": "no",
+        "name": "Juniper Basin",
+        "nudism": "permissive",
+        "openfire": "yes",
+        "operator": "National Park Service",
+        "operator:short": "NPS",
+        "operator:type": "public",
+        "operator:wikidata": "Q308439",
+        "operator:wikipedia": "en:National Park Service",
+        "permanent_camping": "no",
+        "picnic_table": "no",
+        "power_supply": "no",
+        "sanitary_dump_station": "no",
+        "scout": "no",
+        "shower": "no",
+        "static_caravans": "no",
+        "swimming_pool": "no",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "washing_machine": "no",
+        "waste_disposal": "no",
+        "website": "https://www.nps.gov/sagu/planyourvisit/camping.htm;https://www.recreation.gov/camping/campsites/10031911"
       }
     }
   ]
