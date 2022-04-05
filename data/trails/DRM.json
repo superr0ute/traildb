@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-03T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-04-04T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1736379,
-      "timestamp": "2022-04-03T17:52:21Z",
-      "version": 582,
-      "changeset": 119273642,
-      "user": "marcoSt",
-      "uid": 1281932,
+      "timestamp": "2022-04-04T21:32:24Z",
+      "version": 583,
+      "changeset": 119318933,
+      "user": "miramikes",
+      "uid": 538397,
       "members": [
         {"type": "node", "ref": 1779769997, "role": ""},
         {"type": "node", "ref": 475738007, "role": ""},
@@ -589,6 +589,7 @@
         {"type": "way", "ref": 919109776, "role": ""},
         {"type": "way", "ref": 53572565, "role": ""},
         {"type": "way", "ref": 53572550, "role": ""},
+        {"type": "way", "ref": 1049151621, "role": ""},
         {"type": "way", "ref": 175281490, "role": ""},
         {"type": "way", "ref": 58527621, "role": ""},
         {"type": "way", "ref": 308630632, "role": ""},
@@ -2515,6 +2516,35 @@
         "ref": "St 2072",
         "surface": "asphalt",
         "tmc": "DE:27480/27481"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1049151621,
+      "timestamp": "2022-04-04T21:32:24Z",
+      "version": 1,
+      "changeset": 119318933,
+      "user": "miramikes",
+      "uid": 538397,
+      "nodes": [676775318, 676775328],
+      "geometry": [
+        {"lat": 47.1970171, "lon": 11.6359896},
+        {"lat": 47.1969521, "lon": 11.6360771},
+        {"lat": 47.1969171, "lon": 11.6363387},
+        {"lat": 47.1968703, "lon": 11.6364881},
+        {"lat": 47.1968465, "lon": 11.6366278},
+        {"lat": 47.1968282, "lon": 11.6369374},
+        {"lat": 47.1967829, "lon": 11.6370889},
+        {"lat": 47.1967781, "lon": 11.6373136},
+        {"lat": 47.1967152, "lon": 11.6374833}
+      ],
+      "tags": {
+        "access": "no",
+        "foot": "yes",
+        "highway": "track",
+        "name": "Zirbenweg Wattener Lizum",
+        "tracktype": "grade3",
+        "trail_visibility": "excellent"
       }
     },
     {
@@ -9169,11 +9199,11 @@
     {
       "type": "way",
       "id": 156225685,
-      "timestamp": "2016-07-21T07:20:26Z",
-      "version": 4,
-      "changeset": 40913429,
-      "user": "zarl",
-      "uid": 29003,
+      "timestamp": "2022-04-04T17:14:31Z",
+      "version": 5,
+      "changeset": 119307929,
+      "user": "TravelerHiker",
+      "uid": 325837,
       "nodes": [1684963553, 1323447678],
       "geometry": [
         {"lat": 48.0744094, "lon": 11.5383666},
@@ -9181,6 +9211,7 @@
       ],
       "tags": {
         "bicycle": "yes",
+        "check_date:surface": "2022-04-04",
         "highway": "footway",
         "layer": "-1",
         "lit": "yes",
@@ -9192,11 +9223,11 @@
     {
       "type": "way",
       "id": 156225693,
-      "timestamp": "2016-07-21T07:20:26Z",
-      "version": 2,
-      "changeset": 40913429,
-      "user": "zarl",
-      "uid": 29003,
+      "timestamp": "2022-04-04T17:10:56Z",
+      "version": 3,
+      "changeset": 119307929,
+      "user": "TravelerHiker",
+      "uid": 325837,
       "nodes": [1323447678, 138081247],
       "geometry": [
         {"lat": 48.0742795, "lon": 11.5383875},
@@ -9204,6 +9235,7 @@
       ],
       "tags": {
         "bicycle": "yes",
+        "check_date:surface": "2022-04-04",
         "highway": "footway",
         "lit": "yes",
         "smoothness": "good",
@@ -9213,11 +9245,11 @@
     {
       "type": "way",
       "id": 156225694,
-      "timestamp": "2016-07-21T07:20:26Z",
-      "version": 2,
-      "changeset": 40913429,
-      "user": "zarl",
-      "uid": 29003,
+      "timestamp": "2022-04-04T17:10:51Z",
+      "version": 3,
+      "changeset": 119307929,
+      "user": "TravelerHiker",
+      "uid": 325837,
       "nodes": [138075749, 1684963553],
       "geometry": [
         {"lat": 48.074472, "lon": 11.5383557},
@@ -9225,6 +9257,7 @@
       ],
       "tags": {
         "bicycle": "yes",
+        "check_date:surface": "2022-04-04",
         "highway": "footway",
         "lit": "yes",
         "smoothness": "good",
@@ -41694,12 +41727,12 @@
     {
       "type": "way",
       "id": 53572550,
-      "timestamp": "2021-03-19T10:24:24Z",
-      "version": 7,
-      "changeset": 101319470,
-      "user": "Tobias Lizumerhütte",
-      "uid": 12873563,
-      "nodes": [676775427, 676775328],
+      "timestamp": "2022-04-04T21:32:24Z",
+      "version": 8,
+      "changeset": 119318933,
+      "user": "miramikes",
+      "uid": 538397,
+      "nodes": [676775427, 676775318],
       "geometry": [
         {"lat": 47.2043567, "lon": 11.6319917},
         {"lat": 47.2042767, "lon": 11.6320281},
@@ -41734,21 +41767,15 @@
         {"lat": 47.1982406, "lon": 11.6354582},
         {"lat": 47.1977212, "lon": 11.6356832},
         {"lat": 47.1974057, "lon": 11.6358329},
-        {"lat": 47.1970171, "lon": 11.6359896},
-        {"lat": 47.1969521, "lon": 11.6360771},
-        {"lat": 47.1969171, "lon": 11.6363387},
-        {"lat": 47.1968703, "lon": 11.6364881},
-        {"lat": 47.1968465, "lon": 11.6366278},
-        {"lat": 47.1968282, "lon": 11.6369374},
-        {"lat": 47.1967829, "lon": 11.6370889},
-        {"lat": 47.1967781, "lon": 11.6373136},
-        {"lat": 47.1967152, "lon": 11.6374833}
+        {"lat": 47.1970171, "lon": 11.6359896}
       ],
       "tags": {
         "access": "no",
         "foot": "yes",
         "highway": "track",
         "name": "Zirbenweg Wattener Lizum",
+        "piste:difficulty": "easy",
+        "piste:type": "skitour",
         "tracktype": "grade3",
         "trail_visibility": "excellent"
       }
@@ -41950,11 +41977,11 @@
     {
       "type": "way",
       "id": 53572565,
-      "timestamp": "2021-03-19T10:24:24Z",
-      "version": 8,
-      "changeset": 101319470,
-      "user": "Tobias Lizumerhütte",
-      "uid": 12873563,
+      "timestamp": "2022-04-04T21:32:24Z",
+      "version": 9,
+      "changeset": 119318933,
+      "user": "miramikes",
+      "uid": 538397,
       "nodes": [676775392, 676775427],
       "geometry": [
         {"lat": 47.2081297, "lon": 11.6253016},
@@ -41989,6 +42016,8 @@
         "foot": "yes",
         "highway": "path",
         "name": "Zirbenweg Wattener Lizum",
+        "piste:difficulty": "easy",
+        "piste:type": "skitour",
         "ref": "AV Weg Nr. 314 \"Lizumer Zirbenweg\"",
         "sac_scale": "mountain_hiking",
         "surface": "ground",
@@ -43418,11 +43447,11 @@
     {
       "type": "way",
       "id": 56329410,
-      "timestamp": "2021-03-29T08:45:55Z",
-      "version": 8,
-      "changeset": 101906663,
-      "user": "Tobias Lizumerhütte",
-      "uid": 12873563,
+      "timestamp": "2022-04-04T21:32:24Z",
+      "version": 9,
+      "changeset": 119318933,
+      "user": "miramikes",
+      "uid": 538397,
       "nodes": [706722736, 1832923771],
       "geometry": [
         {"lat": 47.1669711, "lon": 11.641623},
@@ -43448,6 +43477,8 @@
         "foot": "yes",
         "highway": "track",
         "motor_vehicle": "private",
+        "piste:difficulty": "easy",
+        "piste:type": "skitour",
         "tracktype": "grade2"
       }
     },
@@ -52269,11 +52300,11 @@
     {
       "type": "way",
       "id": 86382071,
-      "timestamp": "2021-04-08T07:23:00Z",
-      "version": 17,
-      "changeset": 102534803,
-      "user": "map per",
-      "uid": 11758604,
+      "timestamp": "2022-04-04T17:14:32Z",
+      "version": 20,
+      "changeset": 119311016,
+      "user": "TravelerHiker",
+      "uid": 325837,
       "nodes": [417235436, 138078483],
       "geometry": [
         {"lat": 48.0747464, "lon": 11.5392613},
@@ -52297,9 +52328,12 @@
         "horse": "no",
         "incline": "12%",
         "lane_markings": "no",
+        "lit": "yes",
         "maxspeed": "20",
         "motor_vehicle": "designated",
         "name": "Höllerer Berg",
+        "oneway": "no",
+        "sidewalk": "no",
         "smoothness": "intermediate",
         "surface": "asphalt",
         "width": "4"
@@ -54384,11 +54418,11 @@
     {
       "type": "way",
       "id": 919109776,
-      "timestamp": "2021-03-19T10:24:24Z",
-      "version": 1,
-      "changeset": 101319470,
-      "user": "Tobias Lizumerhütte",
-      "uid": 12873563,
+      "timestamp": "2022-04-04T21:32:24Z",
+      "version": 2,
+      "changeset": 119318933,
+      "user": "miramikes",
+      "uid": 538397,
       "nodes": [676775392, 333504926],
       "geometry": [
         {"lat": 47.2081297, "lon": 11.6253016},
@@ -54409,6 +54443,8 @@
         "lanes": "2",
         "maxspeed": "30",
         "motor_vehicle": "private",
+        "piste:difficulty": "easy",
+        "piste:type": "skitour",
         "surface": "asphalt",
         "trail_visibility": "good"
       }
