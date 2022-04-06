@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-04-04T23:59:59Z",
-    "timestamp_osm_base": "2022-04-05T05:09:07Z",
+    "timestamp_osm_date": "2022-04-05T23:59:59Z",
+    "timestamp_osm_base": "2022-04-06T05:47:13Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -424,11 +424,11 @@
       "id": 26037611,
       "lat": 48.9336423,
       "lon": 18.0384653,
-      "timestamp": "2020-01-05T14:00:40Z",
-      "version": 13,
-      "changeset": 79213399,
-      "user": "yzal",
-      "uid": 5769889,
+      "timestamp": "2022-04-05T17:31:31Z",
+      "version": 14,
+      "changeset": 119353858,
+      "user": "Dodko",
+      "uid": 1944033,
       "tags": {
         "city_id": "506044",
         "import_ref": "city_import_sk_1",
@@ -440,6 +440,7 @@
         "region_id": "309",
         "source": "statistics.sk",
         "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.obec-hrabovka.sk/",
         "wikidata": "Q1044256",
         "wikipedia": "sk:Hrabovka (okres Trenčín)"
       }
@@ -2086,13 +2087,13 @@
     {
       "type": "node",
       "id": 671451415,
-      "lat": 49.3057599,
-      "lon": 17.8314015,
-      "timestamp": "2015-08-08T14:51:55Z",
-      "version": 3,
-      "changeset": 33202221,
-      "user": "Jezevec",
-      "uid": 102554,
+      "lat": 49.3056533,
+      "lon": 17.8313601,
+      "timestamp": "2022-04-05T11:38:15Z",
+      "version": 4,
+      "changeset": 119340183,
+      "user": "LeoBardonaro",
+      "uid": 573826,
       "tags": {
         "name": "Podkopná Lhota",
         "name:cs": "Podkopná Lhota",
@@ -17312,6 +17313,36 @@
       }
     },
     {
+      "type": "node",
+      "id": 9643000084,
+      "lat": 49.298423,
+      "lon": 17.8439993,
+      "timestamp": "2022-04-05T11:38:15Z",
+      "version": 1,
+      "changeset": 119340183,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "tags": {
+        "name": "Enapo",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9643000085,
+      "lat": 49.3011571,
+      "lon": 17.8424764,
+      "timestamp": "2022-04-05T11:38:15Z",
+      "version": 1,
+      "changeset": 119340183,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "tags": {
+        "name": "Korýtko",
+        "natural": "spring"
+      }
+    },
+    {
       "type": "way",
       "id": 30995348,
       "timestamp": "2021-07-24T22:16:47Z",
@@ -17593,26 +17624,31 @@
     {
       "type": "way",
       "id": 51689866,
-      "timestamp": "2014-08-23T06:09:35Z",
-      "version": 4,
-      "changeset": 24948393,
-      "user": "lubosb",
-      "uid": 21515,
+      "timestamp": "2022-04-05T15:44:22Z",
+      "version": 5,
+      "changeset": 119350188,
+      "user": "Dodko",
+      "uid": 1944033,
       "center": {
         "lat": 48.9771879,
         "lon": 18.2007454
       },
       "nodes": [],
       "tags": {
-        "addr:city": "Prejta",
+        "addr:city": "Dubnica nad Váhom",
         "addr:conscriptionnumber": "47",
         "addr:country": "SK",
-        "addr:housenumber": "47",
+        "addr:housenumber": "47/48",
         "addr:postcode": "01841",
+        "addr:street": "Prejtská",
+        "addr:streetnumber": "48",
+        "addr:suburb": "Prejta",
         "building": "yes",
         "name": "Potraviny",
+        "ref:minvskaddress": "23285317",
         "shop": "convenience",
-        "source": "kapor2"
+        "source": "kapor2",
+        "source:addr": "minvskaddress 2022-04"
       }
     },
     {
@@ -22659,6 +22695,44 @@
       "center": {
         "lat": 49.270878,
         "lon": 17.9569307
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1049287776,
+      "timestamp": "2022-04-05T11:38:15Z",
+      "version": 1,
+      "changeset": 119340183,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.2989182,
+        "lon": 17.8441851
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1049287785,
+      "timestamp": "2022-04-05T11:38:15Z",
+      "version": 1,
+      "changeset": 119340183,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.3098769,
+        "lon": 17.8285267
       },
       "nodes": [],
       "tags": {
