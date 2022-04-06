@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-03T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-04-05T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1142,11 +1142,11 @@
     {
       "type": "relation",
       "id": 7674777,
-      "timestamp": "2021-06-13T19:52:27Z",
-      "version": 15,
-      "changeset": 106295722,
-      "user": "Peter:D",
-      "uid": 9196866,
+      "timestamp": "2022-04-05T15:15:17Z",
+      "version": 17,
+      "changeset": 119349049,
+      "user": "Sergio P",
+      "uid": 633272,
       "members": [
         {"type": "way", "ref": 41847955, "role": ""},
         {"type": "way", "ref": 159045000, "role": ""},
@@ -1160,7 +1160,9 @@
         {"type": "way", "ref": 159044982, "role": ""},
         {"type": "way", "ref": 159044975, "role": ""},
         {"type": "way", "ref": 159044992, "role": ""},
+        {"type": "way", "ref": 1049312583, "role": ""},
         {"type": "way", "ref": 159044957, "role": ""},
+        {"type": "way", "ref": 1049356484, "role": ""},
         {"type": "way", "ref": 95201955, "role": ""},
         {"type": "way", "ref": 95201956, "role": ""},
         {"type": "way", "ref": 159044993, "role": ""},
@@ -2202,9 +2204,9 @@
     {
       "type": "relation",
       "id": 7700285,
-      "timestamp": "2021-12-05T16:03:44Z",
-      "version": 19,
-      "changeset": 114586928,
+      "timestamp": "2022-04-05T15:23:08Z",
+      "version": 20,
+      "changeset": 119349377,
       "user": "Martino Scaglione",
       "uid": 10901495,
       "members": [
@@ -2252,14 +2254,15 @@
         {"type": "way", "ref": 219229735, "role": ""},
         {"type": "way", "ref": 427569772, "role": ""},
         {"type": "way", "ref": 99801810, "role": ""},
+        {"type": "way", "ref": 1049358874, "role": ""},
         {"type": "way", "ref": 99801818, "role": ""},
         {"type": "way", "ref": 99801815, "role": ""},
         {"type": "way", "ref": 99801829, "role": ""},
         {"type": "way", "ref": 99801758, "role": ""},
         {"type": "way", "ref": 99801785, "role": ""},
-        {"type": "way", "ref": 442572282, "role": ""},
-        {"type": "way", "ref": 980638398, "role": ""},
         {"type": "way", "ref": 980638397, "role": ""},
+        {"type": "way", "ref": 980638398, "role": ""},
+        {"type": "way", "ref": 442572282, "role": ""},
         {"type": "way", "ref": 537357549, "role": ""},
         {"type": "way", "ref": 537357550, "role": ""},
         {"type": "way", "ref": 103591276, "role": ""},
@@ -6108,6 +6111,85 @@
         "sac_scale": "hiking",
         "surface": "ground",
         "trail_visibility": "excellent"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1049312583,
+      "timestamp": "2022-04-05T12:53:19Z",
+      "version": 1,
+      "changeset": 119343406,
+      "user": "Sergio P",
+      "uid": 633272,
+      "nodes": [781867131, 1704424505],
+      "geometry": [
+        {"lat": 46.0861575, "lon": 8.8016515},
+        {"lat": 46.0862126, "lon": 8.8017597},
+        {"lat": 46.086346, "lon": 8.8019128},
+        {"lat": 46.0863761, "lon": 8.8020137},
+        {"lat": 46.0863741, "lon": 8.8020461}
+      ],
+      "tags": {
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "surface": "ground",
+        "tracktype": "grade2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1049356484,
+      "timestamp": "2022-04-05T15:15:17Z",
+      "version": 1,
+      "changeset": 119349049,
+      "user": "Sergio P",
+      "uid": 633272,
+      "nodes": [1104409512, 1104409521],
+      "geometry": [
+        {"lat": 46.0840123, "lon": 8.8000815},
+        {"lat": 46.0840147, "lon": 8.800285},
+        {"lat": 46.0840593, "lon": 8.8004674},
+        {"lat": 46.0842454, "lon": 8.8006498},
+        {"lat": 46.0844388, "lon": 8.8007785},
+        {"lat": 46.0846398, "lon": 8.8009287},
+        {"lat": 46.0847142, "lon": 8.8012291},
+        {"lat": 46.0846026, "lon": 8.801551},
+        {"lat": 46.0846249, "lon": 8.8017012},
+        {"lat": 46.0847439, "lon": 8.8018621},
+        {"lat": 46.0847514, "lon": 8.8019802},
+        {"lat": 46.0846546, "lon": 8.8023879},
+        {"lat": 46.0846695, "lon": 8.8026132},
+        {"lat": 46.0847737, "lon": 8.8028492},
+        {"lat": 46.0849225, "lon": 8.8030101}
+      ],
+      "tags": {
+        "highway": "track",
+        "motor_vehicle": "permit",
+        "smoothness": "very_bad",
+        "surface": "ground",
+        "tracktype": "grade2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1049358874,
+      "timestamp": "2022-04-05T15:23:08Z",
+      "version": 1,
+      "changeset": 119349377,
+      "user": "Martino Scaglione",
+      "uid": 10901495,
+      "nodes": [9643525389, 1153686806],
+      "geometry": [
+        {"lat": 46.2070769, "lon": 9.4603105},
+        {"lat": 46.2070003, "lon": 9.4602972}
+      ],
+      "tags": {
+        "alt_name": "Via Ex SS",
+        "bridge": "yes",
+        "highway": "unclassified",
+        "layer": "1",
+        "name": "Via Statale Vecchia",
+        "source": "bing"
       }
     },
     {
@@ -15108,17 +15190,13 @@
     {
       "type": "way",
       "id": 159044992,
-      "timestamp": "2021-06-21T14:44:38Z",
-      "version": 3,
-      "changeset": 106722434,
-      "user": "Andrea Del Sarto",
-      "uid": 3215770,
-      "nodes": [781867131, 781867174],
+      "timestamp": "2022-04-05T12:53:19Z",
+      "version": 4,
+      "changeset": 119343406,
+      "user": "Sergio P",
+      "uid": 633272,
+      "nodes": [1704424505, 781867174],
       "geometry": [
-        {"lat": 46.0861575, "lon": 8.8016515},
-        {"lat": 46.0862126, "lon": 8.8017597},
-        {"lat": 46.086346, "lon": 8.8019128},
-        {"lat": 46.0863761, "lon": 8.8020137},
         {"lat": 46.0863741, "lon": 8.8020461},
         {"lat": 46.0864529, "lon": 8.8021561},
         {"lat": 46.0865529, "lon": 8.8021841},
@@ -100452,27 +100530,13 @@
     {
       "type": "way",
       "id": 95201955,
-      "timestamp": "2021-05-01T14:44:03Z",
-      "version": 4,
-      "changeset": 103960217,
-      "user": "dario morganti",
-      "uid": 5848028,
-      "nodes": [1104409512, 1104409494],
+      "timestamp": "2022-04-05T15:15:17Z",
+      "version": 5,
+      "changeset": 119349049,
+      "user": "Sergio P",
+      "uid": 633272,
+      "nodes": [1104409521, 1104409494],
       "geometry": [
-        {"lat": 46.0840123, "lon": 8.8000815},
-        {"lat": 46.0840147, "lon": 8.800285},
-        {"lat": 46.0840593, "lon": 8.8004674},
-        {"lat": 46.0842454, "lon": 8.8006498},
-        {"lat": 46.0844388, "lon": 8.8007785},
-        {"lat": 46.0846398, "lon": 8.8009287},
-        {"lat": 46.0847142, "lon": 8.8012291},
-        {"lat": 46.0846026, "lon": 8.801551},
-        {"lat": 46.0846249, "lon": 8.8017012},
-        {"lat": 46.0847439, "lon": 8.8018621},
-        {"lat": 46.0847514, "lon": 8.8019802},
-        {"lat": 46.0846546, "lon": 8.8023879},
-        {"lat": 46.0846695, "lon": 8.8026132},
-        {"lat": 46.0847737, "lon": 8.8028492},
         {"lat": 46.0849225, "lon": 8.8030101},
         {"lat": 46.0849746, "lon": 8.8031281},
         {"lat": 46.0849746, "lon": 8.8032891},
@@ -103890,11 +103954,11 @@
     {
       "type": "way",
       "id": 99801810,
-      "timestamp": "2021-05-27T13:11:06Z",
-      "version": 13,
-      "changeset": 105428810,
-      "user": "f_gonella",
-      "uid": 8716397,
+      "timestamp": "2022-04-05T15:23:08Z",
+      "version": 14,
+      "changeset": 119349377,
+      "user": "Martino Scaglione",
+      "uid": 10901495,
       "nodes": [1153686806, 298246840],
       "geometry": [
         {"lat": 46.2070003, "lon": 9.4602972},
@@ -103916,7 +103980,12 @@
         {"lat": 46.2036782, "lon": 9.4589685},
         {"lat": 46.2032398, "lon": 9.4589988}
       ],
-      "tags": {"highway": "unclassified", "source": "bing"}
+      "tags": {
+        "alt_name": "Via Ex SS",
+        "highway": "unclassified",
+        "name": "Via Statale Vecchia",
+        "source": "bing"
+      }
     },
     {
       "type": "way",
@@ -103964,15 +104033,15 @@
     {
       "type": "way",
       "id": 99801818,
-      "timestamp": "2013-04-28T12:49:56Z",
-      "version": 3,
-      "changeset": 15895335,
-      "user": "morsi",
-      "uid": 139580,
-      "nodes": [1153685556, 1153686806],
+      "timestamp": "2022-04-05T15:23:08Z",
+      "version": 4,
+      "changeset": 119349377,
+      "user": "Martino Scaglione",
+      "uid": 10901495,
+      "nodes": [1153685556, 9643525389],
       "geometry": [
         {"lat": 46.2071354, "lon": 9.4603208},
-        {"lat": 46.2070003, "lon": 9.4602972}
+        {"lat": 46.2070769, "lon": 9.4603105}
       ],
       "tags": {
         "bridge": "yes",
