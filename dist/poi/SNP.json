@@ -961,11 +961,11 @@
         "@poi": "place_village",
         "@distance": 3817.3,
         "@id": "n26037611",
-        "@changeset": 79213399,
-        "@timestamp": "2020-01-05T14:00:40Z",
-        "@version": 13,
-        "@uid": 5769889,
-        "@user": "yzal",
+        "@changeset": 119353858,
+        "@timestamp": "2022-04-05T17:31:31Z",
+        "@version": 14,
+        "@uid": 1944033,
+        "@user": "Dodko",
         "city_id": "506044",
         "import_ref": "city_import_sk_1",
         "name": "Hrabovka",
@@ -976,6 +976,7 @@
         "region_id": "309",
         "source": "statistics.sk",
         "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.obec-hrabovka.sk/",
         "wikidata": "Q1044256",
         "wikipedia": "sk:Hrabovka (okres Trenčín)"
       },
@@ -59669,20 +59670,25 @@
         "@poi": "foodshop_convenience",
         "@distance": 6627.7,
         "@id": "w51689866",
-        "@changeset": 24948393,
-        "@timestamp": "2014-08-23T06:09:35Z",
-        "@version": 4,
-        "@uid": 21515,
-        "@user": "lubosb",
-        "addr:city": "Prejta",
+        "@changeset": 119350188,
+        "@timestamp": "2022-04-05T15:44:22Z",
+        "@version": 5,
+        "@uid": 1944033,
+        "@user": "Dodko",
+        "addr:city": "Dubnica nad Váhom",
         "addr:conscriptionnumber": "47",
         "addr:country": "SK",
-        "addr:housenumber": "47",
+        "addr:housenumber": "47/48",
         "addr:postcode": "01841",
+        "addr:street": "Prejtská",
+        "addr:streetnumber": "48",
+        "addr:suburb": "Prejta",
         "building": "yes",
         "name": "Potraviny",
+        "ref:minvskaddress": "23285317",
         "shop": "convenience",
-        "source": "kapor2"
+        "source": "kapor2",
+        "source:addr": "minvskaddress 2022-04"
       },
       "geometry": {
         "type": "Point",
@@ -61342,29 +61348,6 @@
         "coordinates": [
           18.0372466,
           48.8910935
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 815.1,
-        "@id": "n6003208985",
-        "@changeset": 63733236,
-        "@timestamp": "2018-10-21T17:22:04Z",
-        "@version": 1,
-        "@uid": 379917,
-        "@user": "Tombo",
-        "amenity": "shelter",
-        "shelter_type": "picnic_shelter",
-        "source": "DigitalGlobe Premium Imagery, survey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.6797378,
-          48.8862472
         ]
       }
     },
@@ -70884,22 +70867,22 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
-        "@distance": 3094.3,
-        "@id": "w1027664157",
-        "@changeset": 116999098,
-        "@timestamp": "2022-02-04T10:15:50Z",
+        "@distance": 815.1,
+        "@id": "n6003208985",
+        "@changeset": 63733236,
+        "@timestamp": "2018-10-21T17:22:04Z",
         "@version": 1,
-        "@uid": 573826,
-        "@user": "LeoBardonaro",
+        "@uid": 379917,
+        "@user": "Tombo",
         "amenity": "shelter",
-        "building": "yes",
-        "shelter_type": "public_transport"
+        "shelter_type": "picnic_shelter",
+        "source": "DigitalGlobe Premium Imagery, survey"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.6270033,
-          48.9300082
+          17.6797378,
+          48.8862472
         ]
       }
     },
@@ -79881,6 +79864,29 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
+        "@distance": 3094.3,
+        "@id": "w1027664157",
+        "@changeset": 116999098,
+        "@timestamp": "2022-02-04T10:15:50Z",
+        "@version": 1,
+        "@uid": 573826,
+        "@user": "LeoBardonaro",
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6270033,
+          48.9300082
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
         "@distance": 1466.8,
         "@id": "w1030193126",
         "@changeset": 117263831,
@@ -80288,6 +80294,29 @@
         "coordinates": [
           18.0314842,
           48.8837325
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 1465.6,
+        "@id": "n9643692455",
+        "@changeset": 119352041,
+        "@timestamp": "2022-04-05T16:35:58Z",
+        "@version": 1,
+        "@uid": 21515,
+        "@user": "lubosb",
+        "natural": "spring",
+        "refitted": "yes",
+        "wikimedia_commons": "File:Prameň v k.ú. Kubrica, wgs84 48.87915N 18.1109E.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1108949,
+          48.879138
         ]
       }
     },
@@ -81122,29 +81151,6 @@
         "coordinates": [
           18.023635,
           48.8626845
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2894,
-        "@id": "w698378969",
-        "@changeset": 71419963,
-        "@timestamp": "2019-06-20T00:27:16Z",
-        "@version": 1,
-        "@uid": 4018695,
-        "@user": "🇨🇿 Roman Horník",
-        "amenity": "shelter",
-        "building": "yes",
-        "shelter_type": "gazebo"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.5961251,
-          48.8672359
         ]
       }
     },
@@ -88634,13 +88640,14 @@
         "@poi": "foodshop_convenience",
         "@distance": 4096.6,
         "@id": "w60803333",
-        "@changeset": 113513801,
-        "@timestamp": "2021-11-08T09:42:16Z",
-        "@version": 4,
-        "@uid": 587752,
-        "@user": "d-sky",
-        "addr:conscriptionnumber": "167",
-        "addr:housenumber": "167",
+        "@changeset": 119358772,
+        "@timestamp": "2022-04-05T20:20:22Z",
+        "@version": 5,
+        "@uid": 1617449,
+        "@user": "aceman444",
+        "addr:city": "Bratislava",
+        "addr:conscriptionnumber": "10472",
+        "addr:housenumber": "10472/167",
         "addr:street": "Vajnorská",
         "addr:streetnumber": "167",
         "building": "retail",
@@ -89004,6 +89011,29 @@
         "coordinates": [
           17.1242231,
           48.1254118
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2894,
+        "@id": "w698378969",
+        "@changeset": 71419963,
+        "@timestamp": "2019-06-20T00:27:16Z",
+        "@version": 1,
+        "@uid": 4018695,
+        "@user": "🇨🇿 Roman Horník",
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "gazebo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5961251,
+          48.8672359
         ]
       }
     },
