@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-04-05T23:59:59Z",
-    "timestamp_osm_base": "2022-04-06T05:47:13Z",
+    "timestamp_osm_date": "2022-04-06T23:59:59Z",
+    "timestamp_osm_base": "2022-04-07T05:40:04Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2089,11 +2089,11 @@
       "id": 671451415,
       "lat": 49.3056533,
       "lon": 17.8313601,
-      "timestamp": "2022-04-05T11:38:15Z",
-      "version": 4,
-      "changeset": 119340183,
-      "user": "LeoBardonaro",
-      "uid": 573826,
+      "timestamp": "2022-04-06T07:22:59Z",
+      "version": 5,
+      "changeset": 119372574,
+      "user": "Milancer",
+      "uid": 1189910,
       "tags": {
         "name": "Podkopná Lhota",
         "name:cs": "Podkopná Lhota",
@@ -2101,7 +2101,9 @@
         "population": "342",
         "ref:cobe": "123846",
         "ref:zsj": "123846",
-        "source": "csu:uir-zsj"
+        "source": "csu:uir-zsj",
+        "wikidata": "Q661961",
+        "wikipedia": "cs:Podkopná Lhota"
       }
     },
     {
@@ -6111,13 +6113,13 @@
     {
       "type": "node",
       "id": 1598988188,
-      "lat": 49.1049052,
-      "lon": 17.8099724,
-      "timestamp": "2015-08-08T14:50:53Z",
-      "version": 2,
-      "changeset": 33202221,
-      "user": "Jezevec",
-      "uid": 102554,
+      "lat": 49.1048849,
+      "lon": 17.8099123,
+      "timestamp": "2022-04-06T09:22:51Z",
+      "version": 3,
+      "changeset": 119376876,
+      "user": "LeoBardonaro",
+      "uid": 573826,
       "tags": {
         "name": "Petrůvka",
         "name:cs": "Petrůvka",
@@ -10832,6 +10834,21 @@
       "uid": 115815,
       "tags": {
         "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4227167011,
+      "lat": 49.1816021,
+      "lon": 17.9763678,
+      "timestamp": "2022-04-06T21:28:34Z",
+      "version": 2,
+      "changeset": 119404127,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
       }
     },
     {
@@ -16337,36 +16354,6 @@
     },
     {
       "type": "node",
-      "id": 8757660204,
-      "lat": 49.1064358,
-      "lon": 17.8091718,
-      "timestamp": "2021-05-23T11:25:50Z",
-      "version": 1,
-      "changeset": 105161669,
-      "user": "vrabcak",
-      "uid": 8007,
-      "tags": {
-        "amenity": "shelter",
-        "shelter_type": "public_transport"
-      }
-    },
-    {
-      "type": "node",
-      "id": 8757660205,
-      "lat": 49.1066158,
-      "lon": 17.8093341,
-      "timestamp": "2021-05-23T11:25:50Z",
-      "version": 1,
-      "changeset": 105161669,
-      "user": "vrabcak",
-      "uid": 8007,
-      "tags": {
-        "amenity": "shelter",
-        "shelter_type": "public_transport"
-      }
-    },
-    {
-      "type": "node",
       "id": 8757665825,
       "lat": 49.1092588,
       "lon": 17.8427001,
@@ -18508,6 +18495,29 @@
     },
     {
       "type": "way",
+      "id": 203358119,
+      "timestamp": "2022-04-06T09:22:51Z",
+      "version": 3,
+      "changeset": 119376876,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.1053775,
+        "lon": 17.8096413
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "building:levels": "1",
+        "building:ruian:type": "7",
+        "name": "Petrovjanka",
+        "ref:ruian:building": "4075391",
+        "shop": "convenience",
+        "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "way",
       "id": 211163970,
       "timestamp": "2021-04-26T18:18:50Z",
       "version": 4,
@@ -18550,6 +18560,53 @@
         "building": "yes",
         "shelter_type": "public_transport",
         "source": "cuzk:km"
+      }
+    },
+    {
+      "type": "way",
+      "id": 211945319,
+      "timestamp": "2022-04-06T21:28:34Z",
+      "version": 3,
+      "changeset": 119404127,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.1775705,
+        "lon": 17.9826432
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "building:levels": "1",
+        "building:ruian:type": "5",
+        "name": "Smíšené zboží U Manišů",
+        "ref:ruian:building": "4034864",
+        "shop": "convenience",
+        "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "way",
+      "id": 211945331,
+      "timestamp": "2022-04-06T21:28:34Z",
+      "version": 4,
+      "changeset": 119404127,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.1773112,
+        "lon": 17.9825269
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "building:flats": "1",
+        "building:levels": "1",
+        "building:ruian:type": "5",
+        "name": "Můj obchod",
+        "ref:ruian:building": "4034228",
+        "shop": "convenience",
+        "source": "cuzk:ruian"
       }
     },
     {
@@ -22733,6 +22790,120 @@
       "center": {
         "lat": 49.3098769,
         "lon": 17.8285267
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1049545590,
+      "timestamp": "2022-04-06T09:22:51Z",
+      "version": 1,
+      "changeset": 119376876,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.1066128,
+        "lon": 17.8093404
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1049545591,
+      "timestamp": "2022-04-06T09:22:51Z",
+      "version": 1,
+      "changeset": 119376876,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.1064288,
+        "lon": 17.8091736
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1049598640,
+      "timestamp": "2022-04-06T13:14:32Z",
+      "version": 1,
+      "changeset": 119387142,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.1702692,
+        "lon": 17.9878558
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1049733136,
+      "timestamp": "2022-04-06T21:28:34Z",
+      "version": 1,
+      "changeset": 119404127,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.1761422,
+        "lon": 17.9814683
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1049733141,
+      "timestamp": "2022-04-06T21:28:34Z",
+      "version": 1,
+      "changeset": 119404127,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.1777774,
+        "lon": 17.9827802
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1049733143,
+      "timestamp": "2022-04-06T21:28:34Z",
+      "version": 1,
+      "changeset": 119404127,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.1826181,
+        "lon": 17.981497
       },
       "nodes": [],
       "tags": {
