@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-05T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-04-06T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -13150,11 +13150,11 @@
     {
       "type": "way",
       "id": 175106606,
-      "timestamp": "2021-05-20T16:17:58Z",
-      "version": 7,
-      "changeset": 105039231,
-      "user": "Relloz",
-      "uid": 2904536,
+      "timestamp": "2022-04-06T14:36:54Z",
+      "version": 10,
+      "changeset": 119390795,
+      "user": "wurzelast",
+      "uid": 2066394,
       "nodes": [1726300223, 1726300170],
       "geometry": [
         {"lat": 48.0577757, "lon": 11.5254382},
@@ -13167,6 +13167,7 @@
         {"lat": 48.056986, "lon": 11.524065},
         {"lat": 48.0569275, "lon": 11.523929},
         {"lat": 48.0568742, "lon": 11.523802},
+        {"lat": 48.0568671, "lon": 11.5237351},
         {"lat": 48.0568643, "lon": 11.5237093},
         {"lat": 48.0568686, "lon": 11.5235741}
       ],
@@ -13176,7 +13177,10 @@
         "lit": "yes",
         "maxspeed": "30",
         "name": "Heilmannstraße",
-        "surface": "asphalt"
+        "sidewalk": "both",
+        "source:width": "ARCore",
+        "surface": "asphalt",
+        "width": "5.9"
       }
     },
     {
@@ -39089,11 +39093,11 @@
     {
       "type": "way",
       "id": 467775088,
-      "timestamp": "2021-03-19T10:24:24Z",
-      "version": 2,
-      "changeset": 101319470,
-      "user": "Tobias Lizumerhütte",
-      "uid": 12873563,
+      "timestamp": "2022-04-06T18:04:28Z",
+      "version": 3,
+      "changeset": 119398189,
+      "user": "miramikes",
+      "uid": 538397,
       "nodes": [4623768772, 4623769181],
       "geometry": [
         {"lat": 47.1568892, "lon": 11.6441874},
@@ -39215,6 +39219,8 @@
         "fixme": "check this part",
         "foot": "yes",
         "highway": "path",
+        "piste:difficulty": "easy",
+        "piste:type": "skitour",
         "sac_scale": "demanding_mountain_hiking",
         "trail_visibility": "good"
       }
@@ -39222,11 +39228,11 @@
     {
       "type": "way",
       "id": 467775090,
-      "timestamp": "2021-03-19T10:24:24Z",
-      "version": 3,
-      "changeset": 101319470,
-      "user": "Tobias Lizumerhütte",
-      "uid": 12873563,
+      "timestamp": "2022-04-06T18:04:28Z",
+      "version": 4,
+      "changeset": 119398189,
+      "user": "miramikes",
+      "uid": 538397,
       "nodes": [4623769181, 1563591778],
       "geometry": [
         {"lat": 47.1475428, "lon": 11.6419929},
@@ -39286,6 +39292,8 @@
         "highway": "path",
         "layer": "1",
         "name": "Aufstieg Geier",
+        "piste:difficulty": "easy",
+        "piste:type": "skitour",
         "sac_scale": "demanding_mountain_hiking",
         "sac_scale_ref": "T2",
         "trail_visibility": "intermediate"
@@ -39294,11 +39302,11 @@
     {
       "type": "way",
       "id": 467775092,
-      "timestamp": "2021-03-19T10:24:24Z",
-      "version": 3,
-      "changeset": 101319470,
-      "user": "Tobias Lizumerhütte",
-      "uid": 12873563,
+      "timestamp": "2022-04-06T18:04:28Z",
+      "version": 4,
+      "changeset": 119398189,
+      "user": "miramikes",
+      "uid": 538397,
       "nodes": [8536334207, 4623768772],
       "geometry": [
         {"lat": 47.1611376, "lon": 11.642437},
@@ -39323,6 +39331,8 @@
         "access": "no",
         "foot": "yes",
         "highway": "track",
+        "piste:difficulty": "easy",
+        "piste:type": "skitour",
         "tracktype": "grade3",
         "trail_visibility": "excellent"
       }
@@ -54463,11 +54473,11 @@
     {
       "type": "way",
       "id": 919109781,
-      "timestamp": "2021-03-19T10:24:24Z",
-      "version": 1,
-      "changeset": 101319470,
-      "user": "Tobias Lizumerhütte",
-      "uid": 12873563,
+      "timestamp": "2022-04-06T18:04:28Z",
+      "version": 2,
+      "changeset": 119398189,
+      "user": "miramikes",
+      "uid": 538397,
       "nodes": [677898056, 8536334215],
       "geometry": [
         {"lat": 47.1655331, "lon": 11.6423385},
@@ -54479,17 +54489,19 @@
         "access": "no",
         "foot": "yes",
         "highway": "track",
+        "piste:difficulty": "easy",
+        "piste:type": "skitour",
         "tracktype": "grade3"
       }
     },
     {
       "type": "way",
       "id": 919109782,
-      "timestamp": "2021-03-19T10:24:24Z",
-      "version": 1,
-      "changeset": 101319470,
-      "user": "Tobias Lizumerhütte",
-      "uid": 12873563,
+      "timestamp": "2022-04-06T18:04:28Z",
+      "version": 2,
+      "changeset": 119398189,
+      "user": "miramikes",
+      "uid": 538397,
       "nodes": [333371937, 333371939],
       "geometry": [
         {"lat": 47.1615469, "lon": 11.6424491},
@@ -54501,6 +54513,8 @@
         "foot": "yes",
         "highway": "track",
         "layer": "1",
+        "piste:difficulty": "easy",
+        "piste:type": "skitour",
         "surface": "wood",
         "tracktype": "grade3"
       }
@@ -54508,11 +54522,11 @@
     {
       "type": "way",
       "id": 919109783,
-      "timestamp": "2021-03-19T10:24:24Z",
-      "version": 1,
-      "changeset": 101319470,
-      "user": "Tobias Lizumerhütte",
-      "uid": 12873563,
+      "timestamp": "2022-04-06T18:04:28Z",
+      "version": 2,
+      "changeset": 119398189,
+      "user": "miramikes",
+      "uid": 538397,
       "nodes": [8536334205, 8536334212],
       "geometry": [
         {"lat": 47.1618511, "lon": 11.6425196},
@@ -54525,17 +54539,19 @@
         "access": "no",
         "foot": "yes",
         "highway": "path",
+        "piste:difficulty": "easy",
+        "piste:type": "skitour",
         "tracktype": "grade3"
       }
     },
     {
       "type": "way",
       "id": 919109784,
-      "timestamp": "2021-03-19T10:24:24Z",
-      "version": 1,
-      "changeset": 101319470,
-      "user": "Tobias Lizumerhütte",
-      "uid": 12873563,
+      "timestamp": "2022-04-06T18:04:28Z",
+      "version": 2,
+      "changeset": 119398189,
+      "user": "miramikes",
+      "uid": 538397,
       "nodes": [8536334206, 8536334205],
       "geometry": [
         {"lat": 47.1618615, "lon": 11.6425678},
@@ -54547,17 +54563,19 @@
         "foot": "yes",
         "highway": "track",
         "layer": "1",
+        "piste:difficulty": "easy",
+        "piste:type": "skitour",
         "tracktype": "grade3"
       }
     },
     {
       "type": "way",
       "id": 919109785,
-      "timestamp": "2021-03-19T10:24:24Z",
-      "version": 1,
-      "changeset": 101319470,
-      "user": "Tobias Lizumerhütte",
-      "uid": 12873563,
+      "timestamp": "2022-04-06T18:04:28Z",
+      "version": 2,
+      "changeset": 119398189,
+      "user": "miramikes",
+      "uid": 538397,
       "nodes": [333371939, 8536334207],
       "geometry": [
         {"lat": 47.161487, "lon": 11.6423851},
@@ -54568,6 +54586,8 @@
         "access": "no",
         "foot": "yes",
         "highway": "path",
+        "piste:difficulty": "easy",
+        "piste:type": "skitour",
         "tracktype": "grade3",
         "trail_visibility": "excellent"
       }
@@ -54575,11 +54595,11 @@
     {
       "type": "way",
       "id": 919109786,
-      "timestamp": "2021-03-19T10:24:24Z",
-      "version": 1,
-      "changeset": 101319470,
-      "user": "Tobias Lizumerhütte",
-      "uid": 12873563,
+      "timestamp": "2022-04-06T18:04:28Z",
+      "version": 2,
+      "changeset": 119398189,
+      "user": "miramikes",
+      "uid": 538397,
       "nodes": [8536334212, 333371937],
       "geometry": [
         {"lat": 47.1616774, "lon": 11.6425164},
@@ -54590,17 +54610,19 @@
         "access": "no",
         "foot": "yes",
         "highway": "track",
+        "piste:difficulty": "easy",
+        "piste:type": "skitour",
         "tracktype": "grade3"
       }
     },
     {
       "type": "way",
       "id": 919109787,
-      "timestamp": "2021-03-19T10:24:24Z",
-      "version": 1,
-      "changeset": 101319470,
-      "user": "Tobias Lizumerhütte",
-      "uid": 12873563,
+      "timestamp": "2022-04-06T18:04:28Z",
+      "version": 2,
+      "changeset": 119398189,
+      "user": "miramikes",
+      "uid": 538397,
       "nodes": [8536334214, 8536334206],
       "geometry": [
         {"lat": 47.1635111, "lon": 11.6424751},
@@ -54613,17 +54635,19 @@
         "access": "no",
         "foot": "yes",
         "highway": "track",
+        "piste:difficulty": "easy",
+        "piste:type": "skitour",
         "tracktype": "grade3"
       }
     },
     {
       "type": "way",
       "id": 919109788,
-      "timestamp": "2021-03-19T10:24:24Z",
-      "version": 1,
-      "changeset": 101319470,
-      "user": "Tobias Lizumerhütte",
-      "uid": 12873563,
+      "timestamp": "2022-04-06T18:04:28Z",
+      "version": 2,
+      "changeset": 119398189,
+      "user": "miramikes",
+      "uid": 538397,
       "nodes": [8536334215, 8536334214],
       "geometry": [
         {"lat": 47.1635511, "lon": 11.6424711},
@@ -54635,6 +54659,8 @@
         "foot": "yes",
         "highway": "track",
         "layer": "1",
+        "piste:difficulty": "easy",
+        "piste:type": "skitour",
         "tracktype": "grade3"
       }
     },
