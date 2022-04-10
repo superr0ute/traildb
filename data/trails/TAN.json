@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-06T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-04-09T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2150,9 +2150,9 @@
     {
       "type": "relation",
       "id": 9599093,
-      "timestamp": "2021-12-25T23:57:50Z",
-      "version": 20,
-      "changeset": 115373805,
+      "timestamp": "2022-04-09T07:32:10Z",
+      "version": 21,
+      "changeset": 119493318,
       "user": "kylenz",
       "uid": 10140394,
       "members": [
@@ -2189,6 +2189,7 @@
         {"type": "way", "ref": 461051260, "role": ""},
         {"type": "way", "ref": 461051259, "role": ""},
         {"type": "way", "ref": 373839633, "role": ""},
+        {"type": "way", "ref": 1050458498, "role": ""},
         {"type": "way", "ref": 781191645, "role": ""},
         {"type": "way", "ref": 373839638, "role": ""},
         {"type": "way", "ref": 690785227, "role": ""},
@@ -7104,6 +7105,26 @@
         "highway": "footway",
         "name": "Ihumatao walkway",
         "surface": "gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1050458498,
+      "timestamp": "2022-04-09T07:32:10Z",
+      "version": 1,
+      "changeset": 119493318,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [875576995, 875577181],
+      "geometry": [
+        {"lat": -36.7317888, "lon": 174.7533461},
+        {"lat": -36.731796, "lon": 174.7534464},
+        {"lat": -36.7317952, "lon": 174.7536}
+      ],
+      "tags": {
+        "highway": "footway",
+        "is_in": "Cliff Top Walkway",
+        "old_name": "Torquay"
       }
     },
     {
@@ -38582,7 +38603,7 @@
         {"lat": -41.2851396, "lon": 174.7756415},
         {"lat": -41.2849543, "lon": 174.7755599},
         {"lat": -41.2847245, "lon": 174.7754866},
-        {"lat": -41.2844497, "lon": 174.7754525},
+        {"lat": -41.2844623, "lon": 174.7754373},
         {"lat": -41.2842519, "lon": 174.7754426},
         {"lat": -41.2841709, "lon": 174.7754463}
       ],
@@ -50745,15 +50766,13 @@
     {
       "type": "way",
       "id": 373839633,
-      "timestamp": "2021-08-22T11:01:53Z",
-      "version": 5,
-      "changeset": 110056285,
+      "timestamp": "2022-04-09T07:32:10Z",
+      "version": 6,
+      "changeset": 119493318,
       "user": "kylenz",
       "uid": 10140394,
-      "nodes": [875576995, 875577184],
+      "nodes": [875577181, 875577184],
       "geometry": [
-        {"lat": -36.7317888, "lon": 174.7533461},
-        {"lat": -36.731796, "lon": 174.7534464},
         {"lat": -36.7317952, "lon": 174.7536},
         {"lat": -36.7317617, "lon": 174.7536138},
         {"lat": -36.7317367, "lon": 174.7536404},
