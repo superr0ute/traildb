@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-08T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-04-10T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1736379,
-      "timestamp": "2022-04-04T21:32:24Z",
-      "version": 583,
-      "changeset": 119318933,
-      "user": "miramikes",
-      "uid": 538397,
+      "timestamp": "2022-04-10T09:58:45Z",
+      "version": 584,
+      "changeset": 119529238,
+      "user": "Strubbl",
+      "uid": 536583,
       "members": [
         {"type": "node", "ref": 1779769997, "role": ""},
         {"type": "node", "ref": 475738007, "role": ""},
@@ -24,6 +24,7 @@
         {"type": "way", "ref": 863394114, "role": ""},
         {"type": "way", "ref": 863383155, "role": ""},
         {"type": "way", "ref": 176214336, "role": ""},
+        {"type": "way", "ref": 1050728777, "role": ""},
         {"type": "way", "ref": 436996281, "role": ""},
         {"type": "way", "ref": 436996279, "role": ""},
         {"type": "way", "ref": 23462033, "role": ""},
@@ -2547,6 +2548,26 @@
         "name": "Zirbenweg Wattener Lizum",
         "tracktype": "grade3",
         "trail_visibility": "excellent"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1050728777,
+      "timestamp": "2022-04-10T09:58:48Z",
+      "version": 3,
+      "changeset": 119529232,
+      "user": "Strubbl",
+      "uid": 536583,
+      "nodes": [2473615248, 1368309489],
+      "geometry": [
+        {"lat": 48.1348794, "lon": 11.5812818},
+        {"lat": 48.1348469, "lon": 11.5814912}
+      ],
+      "tags": {
+        "highway": "footway",
+        "lit": "yes",
+        "smoothness": "intermediate",
+        "surface": "sett"
       }
     },
     {
@@ -17594,20 +17615,24 @@
     {
       "type": "way",
       "id": 176214336,
-      "timestamp": "2021-05-06T09:06:29Z",
-      "version": 5,
-      "changeset": 104237207,
-      "user": "whellmut",
-      "uid": 513434,
-      "nodes": [274115140, 1368309489],
+      "timestamp": "2022-04-10T09:58:48Z",
+      "version": 9,
+      "changeset": 119529232,
+      "user": "Strubbl",
+      "uid": 536583,
+      "nodes": [274115140, 2473615248],
       "geometry": [
         {"lat": 48.1350311, "lon": 11.5812696},
         {"lat": 48.1350047, "lon": 11.5812735},
         {"lat": 48.1349247, "lon": 11.5812601},
-        {"lat": 48.1348794, "lon": 11.5812818},
-        {"lat": 48.1348469, "lon": 11.5814912}
+        {"lat": 48.1348794, "lon": 11.5812818}
       ],
-      "tags": {"highway": "footway", "lit": "yes", "surface": "paving_stones"}
+      "tags": {
+        "highway": "footway",
+        "lit": "yes",
+        "smoothness": "good",
+        "surface": "paving_stones"
+      }
     },
     {
       "type": "way",
@@ -52178,11 +52203,11 @@
     {
       "type": "way",
       "id": 863394114,
-      "timestamp": "2021-09-20T18:20:43Z",
-      "version": 3,
-      "changeset": 111461601,
-      "user": "Hannes Röst",
-      "uid": 289221,
+      "timestamp": "2022-04-10T09:58:03Z",
+      "version": 4,
+      "changeset": 119529219,
+      "user": "Strubbl",
+      "uid": 536583,
       "nodes": [8042917607, 2545258011],
       "geometry": [
         {"lat": 48.1364966, "lon": 11.5770922},
@@ -52196,6 +52221,7 @@
         "lit": "yes",
         "name": "Viktualienmarkt",
         "psv": "yes",
+        "smoothness": "excellent",
         "surface": "asphalt",
         "taxi": "no",
         "wikipedia": "de:Viktualienmarkt"
