@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-11T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-04-13T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11123868,
-      "timestamp": "2022-04-07T15:10:48Z",
-      "version": 213,
-      "changeset": 119434182,
+      "timestamp": "2022-04-13T09:06:58Z",
+      "version": 214,
+      "changeset": 119657238,
       "user": "hatul",
       "uid": 686490,
       "members": [
@@ -1751,6 +1751,7 @@
         {"type": "way", "ref": 309623679, "role": ""},
         {"type": "way", "ref": 309623684, "role": ""},
         {"type": "way", "ref": 309623681, "role": ""},
+        {"type": "way", "ref": 1051471483, "role": ""},
         {"type": "way", "ref": 309620777, "role": ""},
         {"type": "way", "ref": 814492156, "role": ""},
         {"type": "way", "ref": 814492157, "role": ""},
@@ -4126,6 +4127,34 @@
         {"lat": 31.0735328, "lon": 35.3415889}
       ],
       "tags": {"colour": "black", "highway": "track", "source": "GPS"}
+    },
+    {
+      "type": "way",
+      "id": 1051471483,
+      "timestamp": "2022-04-13T09:06:58Z",
+      "version": 1,
+      "changeset": 119657238,
+      "user": "hatul",
+      "uid": 686490,
+      "nodes": [3149556269, 685665513],
+      "geometry": [
+        {"lat": 32.708203, "lon": 35.3996219},
+        {"lat": 32.7080665, "lon": 35.3996012},
+        {"lat": 32.7079148, "lon": 35.3995547},
+        {"lat": 32.70765, "lon": 35.3994213},
+        {"lat": 32.7075932, "lon": 35.3993763},
+        {"lat": 32.7075005, "lon": 35.3992537}
+      ],
+      "tags": {
+        "colour": "red",
+        "highway": "track",
+        "name": "דרך נוף בית קשת",
+        "name:ar": "طريق بيت كيشت",
+        "name:en": "Beit Keshet scenic road",
+        "name:he": "דרך נוף בית קשת",
+        "source": "GPS",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
@@ -20336,11 +20365,11 @@
     {
       "type": "way",
       "id": 309623679,
-      "timestamp": "2020-09-22T06:30:08Z",
-      "version": 7,
-      "changeset": 91267023,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-04-13T09:06:58Z",
+      "version": 8,
+      "changeset": 119657238,
+      "user": "hatul",
+      "uid": 686490,
       "nodes": [536525005, 3149586089],
       "geometry": [
         {"lat": 32.7048713, "lon": 35.3876056},
@@ -20366,7 +20395,7 @@
         {"lat": 32.7025114, "lon": 35.383443}
       ],
       "tags": {
-        "colour": "red",
+        "colour": "blue",
         "highway": "track",
         "name": "דרך נוף בית קשת",
         "name:ar": "طريق بيت كيشت",
@@ -20379,25 +20408,19 @@
     {
       "type": "way",
       "id": 309623681,
-      "timestamp": "2020-09-22T06:30:08Z",
-      "version": 5,
-      "changeset": 91267023,
-      "user": "zstadler",
-      "uid": 3127,
-      "nodes": [3149556269, 3149586060],
+      "timestamp": "2022-04-13T09:06:58Z",
+      "version": 6,
+      "changeset": 119657238,
+      "user": "hatul",
+      "uid": 686490,
+      "nodes": [685665513, 3149586060],
       "geometry": [
-        {"lat": 32.708203, "lon": 35.3996219},
-        {"lat": 32.7080665, "lon": 35.3996012},
-        {"lat": 32.7079148, "lon": 35.3995547},
-        {"lat": 32.70765, "lon": 35.3994213},
-        {"lat": 32.7075932, "lon": 35.3993763},
         {"lat": 32.7075005, "lon": 35.3992537},
         {"lat": 32.7074591, "lon": 35.3991933},
         {"lat": 32.7074088, "lon": 35.3990695},
         {"lat": 32.7073295, "lon": 35.3988743},
         {"lat": 32.7072265, "lon": 35.3984965},
-        {"lat": 32.7071163, "lon": 35.3981898},
-        {"lat": 32.7071157, "lon": 35.3981884},
+        {"lat": 32.707116, "lon": 35.3981891},
         {"lat": 32.7069669, "lon": 35.3978571},
         {"lat": 32.7066804, "lon": 35.3972916},
         {"lat": 32.7065962, "lon": 35.3970917},
@@ -20437,7 +20460,8 @@
         {"lat": 32.7055278, "lon": 35.3880951}
       ],
       "tags": {
-        "colour": "red",
+        "colour": "black",
+        "fixme": "הצבע האדום הוחלף לשחור אבל לא ברור אם ממשיך צפונה או מזרחה",
         "highway": "track",
         "name": "דרך נוף בית קשת",
         "name:ar": "طريق بيت كيشت",
@@ -20450,11 +20474,11 @@
     {
       "type": "way",
       "id": 309623684,
-      "timestamp": "2020-09-22T06:30:08Z",
-      "version": 7,
-      "changeset": 91267023,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-04-13T11:19:10Z",
+      "version": 8,
+      "changeset": 119663203,
+      "user": "hatul",
+      "uid": 686490,
       "nodes": [536525005, 3149586060],
       "geometry": [
         {"lat": 32.7048713, "lon": 35.3876056},
@@ -20464,7 +20488,7 @@
         {"lat": 32.7055278, "lon": 35.3880951}
       ],
       "tags": {
-        "colour": "red",
+        "colour": "black",
         "highway": "track",
         "name": "דרך נוף בית קשת",
         "name:ar": "طريق بيت كيشت",
