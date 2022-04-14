@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-04-12T23:59:59Z",
-    "timestamp_osm_base": "2022-04-13T05:50:57Z",
+    "timestamp_osm_date": "2022-04-13T23:59:59Z",
+    "timestamp_osm_base": "2022-04-14T05:52:45Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -16030,11 +16030,11 @@
       "id": 788818302,
       "lat": 48.1762968,
       "lon": 16.3619715,
-      "timestamp": "2019-06-08T15:09:48Z",
-      "version": 9,
-      "changeset": 71053089,
-      "user": "Johannes M",
-      "uid": 4453208,
+      "timestamp": "2022-04-13T17:36:18Z",
+      "version": 10,
+      "changeset": 119679110,
+      "user": "eumiro",
+      "uid": 29717,
       "tags": {
         "addr:city": "Wien",
         "addr:country": "AT",
@@ -16045,6 +16045,7 @@
         "brand:wikidata": "Q537781",
         "brand:wikipedia": "en:Billa (supermarket)",
         "name": "Billa",
+        "opening_hours": "Mo-Fr 07:30-19:50; Sa 07:40-18:00; PH,Su off",
         "shop": "supermarket",
         "wheelchair": "yes"
       }
@@ -20187,34 +20188,6 @@
         "phone": "+4315953524",
         "shop": "supermarket",
         "website": "https://www.billa.at/",
-        "wheelchair": "yes"
-      }
-    },
-    {
-      "type": "node",
-      "id": 1067943808,
-      "lat": 48.2194337,
-      "lon": 16.3259348,
-      "timestamp": "2019-08-21T23:09:30Z",
-      "version": 4,
-      "changeset": 73599580,
-      "user": "korridor",
-      "uid": 2464030,
-      "tags": {
-        "addr:city": "Wien",
-        "addr:housenumber": "103-105",
-        "addr:postcode": "1170",
-        "addr:street": "Hernalser Hauptstraße",
-        "brand": "Lidl",
-        "brand:wikidata": "Q151954",
-        "brand:wikipedia": "en:Lidl",
-        "name": "Lidl",
-        "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00",
-        "payment:cash": "yes",
-        "payment:coins": "yes",
-        "payment:credit_cards": "yes",
-        "payment:debit_cards": "yes",
-        "shop": "supermarket",
         "wheelchair": "yes"
       }
     },
@@ -57307,13 +57280,15 @@
       "id": 8887946834,
       "lat": 48.2210652,
       "lon": 16.3223684,
-      "timestamp": "2021-07-02T14:45:25Z",
-      "version": 1,
-      "changeset": 107316601,
-      "user": "SKald",
-      "uid": 38313,
+      "timestamp": "2022-04-13T14:31:53Z",
+      "version": 2,
+      "changeset": 119671355,
+      "user": "emergency99",
+      "uid": 1832939,
       "tags": {
         "amenity": "drinking_water",
+        "emergency": "fire_hydrant",
+        "fire_hydrant:type": "pillar",
         "wheelchair": "yes"
       }
     },
@@ -61931,8 +61906,8 @@
       "user": "Johannes M",
       "uid": 4453208,
       "center": {
-        "lat": 48.1750319,
-        "lon": 16.3580105
+        "lat": 48.1750347,
+        "lon": 16.3580107
       },
       "nodes": [],
       "tags": {
@@ -69696,6 +69671,27 @@
       "tags": {
         "amenity": "shelter",
         "building": "roof",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 220607203,
+      "timestamp": "2022-04-13T19:17:10Z",
+      "version": 2,
+      "changeset": 119682553,
+      "user": "kosmozaut",
+      "uid": 4560799,
+      "center": {
+        "lat": 48.2367471,
+        "lon": 16.349107
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "layer": "1",
         "shelter_type": "public_transport"
       }
     },
@@ -77813,11 +77809,11 @@
     {
       "type": "way",
       "id": 378663920,
-      "timestamp": "2021-07-12T16:29:33Z",
-      "version": 5,
-      "changeset": 107851765,
-      "user": "fdemmer",
-      "uid": 58402,
+      "timestamp": "2022-04-13T17:33:39Z",
+      "version": 6,
+      "changeset": 119678997,
+      "user": "eumiro",
+      "uid": 29717,
       "center": {
         "lat": 48.1698239,
         "lon": 16.3421249
@@ -77832,7 +77828,7 @@
         "brand": "Lidl",
         "brand:wikidata": "Q151954",
         "brand:wikipedia": "en:Lidl",
-        "building": "yes",
+        "building": "retail",
         "building:levels": "1",
         "name": "Lidl",
         "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00",
