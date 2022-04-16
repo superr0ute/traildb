@@ -1429,13 +1429,12 @@
         "@poi": "place_village",
         "@distance": 775.6,
         "@id": "n63629061",
-        "@changeset": 56981116,
-        "@timestamp": "2018-03-07T21:11:39Z",
-        "@version": 7,
-        "@uid": 417672,
-        "@user": "Guidus",
+        "@changeset": 119743966,
+        "@timestamp": "2022-04-15T09:51:49Z",
+        "@version": 8,
+        "@uid": 11220113,
+        "@user": "ivanbranco",
         "gfoss_id": "87",
-        "is_in": "Torino, Piemonte, Italy",
         "name": "Claviere",
         "name:fr": "Clavières",
         "name:pms": "Clavier",
@@ -4613,6 +4612,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "mountain-pass",
+        "@distance": 30.7,
+        "@id": "n1331257001",
+        "@changeset": 63949103,
+        "@timestamp": "2018-10-28T12:40:35Z",
+        "@version": 6,
+        "@uid": 584192,
+        "@user": "solitone",
+        "ele": 2194,
+        "name": "Col des Thures",
+        "natural": "saddle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6310052,
+          45.0543126
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "peak_peak",
         "@distance": 616.4,
         "@id": "n888673483",
@@ -7174,29 +7196,6 @@
         "coordinates": [
           6.9089539,
           45.4684843
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "mountain-pass",
-        "@distance": 30.7,
-        "@id": "n1331257001",
-        "@changeset": 63949103,
-        "@timestamp": "2018-10-28T12:40:35Z",
-        "@version": 6,
-        "@uid": 584192,
-        "@user": "solitone",
-        "ele": 2194,
-        "name": "Col des Thures",
-        "natural": "saddle"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.6310052,
-          45.0543126
         ]
       }
     },
@@ -25472,6 +25471,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 16.2,
+        "@id": "w72650134",
+        "@changeset": 50766066,
+        "@timestamp": "2017-08-01T22:38:43Z",
+        "@version": 2,
+        "@uid": 1052229,
+        "@user": "Exilko",
+        "amenity": "shelter",
+        "building": "yes",
+        "source": "BDOrtho + survey",
+        "wall": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8073835,
+          44.6895051
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "campsite",
         "@distance": 50.5,
         "@id": "w358443770",
@@ -28278,30 +28301,6 @@
         "coordinates": [
           6.85658,
           45.35976
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 16.2,
-        "@id": "w72650134",
-        "@changeset": 50766066,
-        "@timestamp": "2017-08-01T22:38:43Z",
-        "@version": 2,
-        "@uid": 1052229,
-        "@user": "Exilko",
-        "amenity": "shelter",
-        "building": "yes",
-        "source": "BDOrtho + survey",
-        "wall": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.8073835,
-          44.6895051
         ]
       }
     },
@@ -39760,16 +39759,17 @@
         "@poi": "foodshop_supermarket",
         "@distance": 6396.9,
         "@id": "w131090708",
-        "@changeset": 109530477,
-        "@timestamp": "2021-08-11T17:52:51Z",
-        "@version": 12,
-        "@uid": 10232116,
-        "@user": "Patrick78",
+        "@changeset": 119742557,
+        "@timestamp": "2022-04-15T09:12:47Z",
+        "@version": 13,
+        "@uid": 13079289,
+        "@user": "SorryImAnOctopus",
         "brand": "Super U",
         "brand:wikidata": "Q2529029",
         "brand:wikipedia": "en:Système U",
         "building": "retail",
         "building:levels": "2",
+        "diet:halal": "yes",
         "name": "Super U",
         "opening_hours": "Mo-Sa 08:00-19:30; Su 08:00-12:30",
         "operator": "Super U",
@@ -40021,32 +40021,6 @@
         "coordinates": [
           6.8588642,
           45.9166537
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "alpine-hut",
-        "@distance": 77.8,
-        "@id": "w208039495",
-        "@changeset": 25286343,
-        "@timestamp": "2014-09-07T13:04:34Z",
-        "@version": 2,
-        "@uid": 510327,
-        "@user": "Benoit Friry",
-        "building": "yes",
-        "ele": 2009,
-        "name": "Refuge de la Balme",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
-        "tourism": "alpine_hut",
-        "website": "http://www.refuge-balme-tarentaise.fr"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.6691435,
-          45.6322019
         ]
       }
     },
@@ -42952,6 +42926,32 @@
         "coordinates": [
           6.7265243,
           46.3271203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "alpine-hut",
+        "@distance": 77.8,
+        "@id": "w208039495",
+        "@changeset": 25286343,
+        "@timestamp": "2014-09-07T13:04:34Z",
+        "@version": 2,
+        "@uid": 510327,
+        "@user": "Benoit Friry",
+        "building": "yes",
+        "ele": 2009,
+        "name": "Refuge de la Balme",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2013",
+        "tourism": "alpine_hut",
+        "website": "http://www.refuge-balme-tarentaise.fr"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6691435,
+          45.6322019
         ]
       }
     },
@@ -47829,6 +47829,72 @@
         "coordinates": [
           7.2622149,
           43.726255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2457.3,
+        "@id": "w1052085229",
+        "@changeset": 119756973,
+        "@timestamp": "2022-04-15T16:03:58Z",
+        "@version": 1,
+        "@uid": 591881,
+        "@user": "Patchi",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2878982,
+          43.7043483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 615.6,
+        "@id": "w1052085231",
+        "@changeset": 119756973,
+        "@timestamp": "2022-04-15T16:03:58Z",
+        "@version": 1,
+        "@uid": 591881,
+        "@user": "Patchi",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.264466,
+          43.7114848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 568.2,
+        "@id": "w1052085233",
+        "@changeset": 119756973,
+        "@timestamp": "2022-04-15T16:03:58Z",
+        "@version": 1,
+        "@uid": 591881,
+        "@user": "Patchi",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2641465,
+          43.7096567
         ]
       }
     },
