@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-13T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-04-16T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10462123,
-      "timestamp": "2019-12-23T22:06:34Z",
-      "version": 2,
-      "changeset": 78791083,
-      "user": "Adamkn",
-      "uid": 10241091,
+      "timestamp": "2022-04-16T07:30:37Z",
+      "version": 3,
+      "changeset": 119773641,
+      "user": "danbag",
+      "uid": 3493476,
       "members": [
         {"type": "way", "ref": 683701970, "role": ""},
         {"type": "way", "ref": 230804336, "role": ""},
@@ -33,6 +33,7 @@
         {"type": "way", "ref": 89802597, "role": ""},
         {"type": "way", "ref": 534166311, "role": ""},
         {"type": "way", "ref": 176937361, "role": ""},
+        {"type": "way", "ref": 1052197018, "role": ""},
         {"type": "way", "ref": 534166309, "role": ""},
         {"type": "way", "ref": 80706994, "role": ""}
       ],
@@ -6157,6 +6158,21 @@
         "surface": "ground",
         "tracktype": "grade4"
       }
+    },
+    {
+      "type": "way",
+      "id": 1052197018,
+      "timestamp": "2022-04-16T07:30:37Z",
+      "version": 1,
+      "changeset": 119773641,
+      "user": "danbag",
+      "uid": 3493476,
+      "nodes": [941306496, 871554827],
+      "geometry": [
+        {"lat": 46.3275631, "lon": 8.279559},
+        {"lat": 46.3275343, "lon": 8.2793891}
+      ],
+      "tags": {"highway": "track", "tracktype": "grade3"}
     },
     {
       "type": "way",
@@ -44268,11 +44284,11 @@
     {
       "type": "way",
       "id": 262237990,
-      "timestamp": "2019-04-06T09:13:54Z",
-      "version": 5,
-      "changeset": 68947175,
-      "user": "Francoerbi41",
-      "uid": 4982687,
+      "timestamp": "2022-04-16T06:26:20Z",
+      "version": 6,
+      "changeset": 119772348,
+      "user": "danbag",
+      "uid": 3493476,
       "nodes": [693410043, 693409999],
       "geometry": [
         {"lat": 46.3252685, "lon": 8.2746406},
@@ -44311,7 +44327,7 @@
         {"lat": 46.3231515, "lon": 8.2652257},
         {"lat": 46.3230857, "lon": 8.2647562}
       ],
-      "tags": {"highway": "path", "ref": "H98a"}
+      "tags": {"highway": "path"}
     },
     {
       "type": "way",
@@ -46023,11 +46039,11 @@
     {
       "type": "way",
       "id": 264141009,
-      "timestamp": "2019-09-10T09:25:14Z",
-      "version": 7,
-      "changeset": 74298529,
-      "user": "openpablo3",
-      "uid": 708145,
+      "timestamp": "2022-04-16T06:26:20Z",
+      "version": 8,
+      "changeset": 119772348,
+      "user": "danbag",
+      "uid": 3493476,
       "nodes": [693409971, 693409976],
       "geometry": [
         {"lat": 46.3174819, "lon": 8.2611217},
@@ -46041,7 +46057,7 @@
         {"lat": 46.3188949, "lon": 8.2615333},
         {"lat": 46.3192147, "lon": 8.2617164}
       ],
-      "tags": {"highway": "track", "ref": "H15", "tracktype": "grade2"}
+      "tags": {"highway": "track", "tracktype": "grade2"}
     },
     {
       "type": "way",
@@ -62854,7 +62870,7 @@
         {"lat": 45.2168758, "lon": 7.043704},
         {"lat": 45.2167927, "lon": 7.043752},
         {"lat": 45.2167017, "lon": 7.0437483},
-        {"lat": 45.2165742, "lon": 7.0438029},
+        {"lat": 45.2165081, "lon": 7.0437761},
         {"lat": 45.2164854, "lon": 7.0437217},
         {"lat": 45.2162918, "lon": 7.0435189},
         {"lat": 45.2162077, "lon": 7.0432934},
@@ -76170,20 +76186,19 @@
     {
       "type": "way",
       "id": 534166309,
-      "timestamp": "2020-02-29T16:07:19Z",
-      "version": 3,
-      "changeset": 81623686,
+      "timestamp": "2022-04-16T07:30:37Z",
+      "version": 4,
+      "changeset": 119773641,
       "user": "danbag",
       "uid": 3493476,
-      "nodes": [871554822, 871554827],
+      "nodes": [871554822, 941306496],
       "geometry": [
         {"lat": 46.3275452, "lon": 8.2811531},
         {"lat": 46.3276782, "lon": 8.2807282},
         {"lat": 46.3276781, "lon": 8.2802753},
         {"lat": 46.3276135, "lon": 8.2796675},
         {"lat": 46.3275836, "lon": 8.279613},
-        {"lat": 46.3275631, "lon": 8.279559},
-        {"lat": 46.3275343, "lon": 8.2793891}
+        {"lat": 46.3275631, "lon": 8.279559}
       ],
       "tags": {"highway": "track", "tracktype": "grade3"}
     },
@@ -87401,11 +87416,11 @@
     {
       "type": "way",
       "id": 683700888,
-      "timestamp": "2019-04-14T14:09:09Z",
-      "version": 1,
-      "changeset": 69203559,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2022-04-16T06:26:20Z",
+      "version": 2,
+      "changeset": 119772348,
+      "user": "danbag",
+      "uid": 3493476,
       "nodes": [693409976, 317048788],
       "geometry": [
         {"lat": 46.3192147, "lon": 8.2617164},
@@ -87417,7 +87432,7 @@
         {"lat": 46.3201712, "lon": 8.2622067},
         {"lat": 46.3202755, "lon": 8.2621825}
       ],
-      "tags": {"highway": "track", "ref": "H15", "tracktype": "grade2"}
+      "tags": {"highway": "track", "tracktype": "grade2"}
     },
     {
       "type": "way",
@@ -95577,11 +95592,11 @@
     {
       "type": "way",
       "id": 80706977,
-      "timestamp": "2019-04-06T09:13:54Z",
-      "version": 4,
-      "changeset": 68947175,
-      "user": "Francoerbi41",
-      "uid": 4982687,
+      "timestamp": "2022-04-16T06:26:20Z",
+      "version": 5,
+      "changeset": 119772348,
+      "user": "danbag",
+      "uid": 3493476,
       "nodes": [693409999, 317048788],
       "geometry": [
         {"lat": 46.3230857, "lon": 8.2647562},
@@ -95621,7 +95636,7 @@
         {"lat": 46.3203243, "lon": 8.2623265},
         {"lat": 46.3202755, "lon": 8.2621825}
       ],
-      "tags": {"highway": "path", "ref": "H98a", "surface": "ground"}
+      "tags": {"highway": "path", "surface": "ground"}
     },
     {
       "type": "way",

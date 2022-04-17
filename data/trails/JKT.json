@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-15T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-04-16T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10909145,
-      "timestamp": "2022-04-10T06:55:01Z",
-      "version": 1520,
-      "changeset": 119524487,
-      "user": "mcliquid",
-      "uid": 1213571,
+      "timestamp": "2022-04-16T19:14:56Z",
+      "version": 1521,
+      "changeset": 119795932,
+      "user": "BohneMPs",
+      "uid": 14014515,
       "members": [
         {"type": "node", "ref": 4007110375, "role": ""},
         {"type": "way", "ref": 1004393561, "role": ""},
@@ -733,23 +733,24 @@
         {"type": "way", "ref": 788082032, "role": ""},
         {"type": "way", "ref": 788082157, "role": ""},
         {"type": "way", "ref": 421569112, "role": ""},
+        {"type": "way", "ref": 1052307585, "role": ""},
         {"type": "way", "ref": 421569121, "role": ""},
         {"type": "way", "ref": 1005515437, "role": ""},
         {"type": "way", "ref": 1000623437, "role": ""},
-        {"type": "way", "ref": 995882461, "role": ""},
         {"type": "way", "ref": 1005956196, "role": ""},
+        {"type": "way", "ref": 995882461, "role": ""},
         {"type": "way", "ref": 1003381666, "role": ""},
         {"type": "way", "ref": 995882463, "role": ""},
-        {"type": "way", "ref": 995883685, "role": ""},
-        {"type": "way", "ref": 880372892, "role": ""},
-        {"type": "way", "ref": 344727650, "role": ""},
-        {"type": "way", "ref": 344727674, "role": ""},
-        {"type": "way", "ref": 788183177, "role": ""},
         {"type": "way", "ref": 788183092, "role": ""},
         {"type": "way", "ref": 947857764, "role": ""},
         {"type": "way", "ref": 947857765, "role": ""},
         {"type": "way", "ref": 485182905, "role": ""},
         {"type": "way", "ref": 788085804, "role": ""},
+        {"type": "way", "ref": 995883685, "role": ""},
+        {"type": "way", "ref": 880372892, "role": ""},
+        {"type": "way", "ref": 344727650, "role": ""},
+        {"type": "way", "ref": 344727674, "role": ""},
+        {"type": "way", "ref": 788183177, "role": ""},
         {"type": "way", "ref": 539062979, "role": ""},
         {"type": "way", "ref": 539062975, "role": ""},
         {"type": "way", "ref": 27716110, "role": ""},
@@ -4079,6 +4080,27 @@
         "ref": "908",
         "source": "survey",
         "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1052307585,
+      "timestamp": "2022-04-16T19:14:56Z",
+      "version": 1,
+      "changeset": 119795932,
+      "user": "BohneMPs",
+      "uid": 14014515,
+      "nodes": [4213192497, 3952894622],
+      "geometry": [
+        {"lat": 46.45339, "lon": 14.0867119},
+        {"lat": 46.4533704, "lon": 14.0869493}
+      ],
+      "tags": {
+        "highway": "unclassified",
+        "name": "Cesta v Rovte",
+        "note": "Beim „Julius Kugy Alpine Trail“ trifft man auf\n + iwn: \n + nrw: \n + rwn: \n + lwn: Julius-Kugy-Dreiländerweg v 30 dneh - povezava prek  E 9b",
+        "sac_scale": "hiking",
+        "source:name": "GURS"
       }
     },
     {
@@ -14825,11 +14847,11 @@
     {
       "type": "way",
       "id": 166878199,
-      "timestamp": "2021-05-17T18:57:06Z",
-      "version": 14,
-      "changeset": 104844453,
-      "user": "Wulz",
-      "uid": 10773975,
+      "timestamp": "2022-04-16T21:04:18Z",
+      "version": 15,
+      "changeset": 119798708,
+      "user": "KPatterer",
+      "uid": 15384900,
       "nodes": [2683778702, 1782969990],
       "geometry": [
         {"lat": 46.6887006, "lon": 13.1602765},
@@ -14898,10 +14920,13 @@
         {"lat": 46.6937981, "lon": 13.2075227},
         {"lat": 46.6936083, "lon": 13.2085054},
         {"lat": 46.6937098, "lon": 13.2090462},
-        {"lat": 46.6937834, "lon": 13.2097757},
-        {"lat": 46.6932683, "lon": 13.2102478},
-        {"lat": 46.6929739, "lon": 13.2105697},
-        {"lat": 46.692709, "lon": 13.2107628},
+        {"lat": 46.6937143, "lon": 13.2095321},
+        {"lat": 46.6936454, "lon": 13.2097811},
+        {"lat": 46.6935304, "lon": 13.2099062},
+        {"lat": 46.6933409, "lon": 13.2100846},
+        {"lat": 46.6932103, "lon": 13.210402},
+        {"lat": 46.6929693, "lon": 13.2105026},
+        {"lat": 46.6926483, "lon": 13.2106984},
         {"lat": 46.6927237, "lon": 13.2109344},
         {"lat": 46.6925913, "lon": 13.2110846}
       ],
@@ -14909,7 +14934,7 @@
         "access": "no",
         "foot": "yes",
         "highway": "path",
-        "note": "Beim \"Julius-Kugy-Dreiländerweg in 30 Tagen\" trifft man auf:\n + iwn: \n + nrw: \n + rwn: Gailtaler Höhenweg 229, Julius-Kugy-Dreiländerweg - Anbindung über E 27b\n + lwn:",
+        "note": "Beim \"Julius-Kugy-Dreiländerweg in 30 Tagen\" trifft man auf: + iwn: + nrw: + rwn: Gailtaler Höhenweg 229, Julius-Kugy-Dreiländerweg - Anbindung über E 27b + lwn:",
         "surface": "gravel",
         "width": "1"
       }
@@ -44060,19 +44085,18 @@
     {
       "type": "way",
       "id": 421569121,
-      "timestamp": "2022-01-01T21:27:51Z",
-      "version": 7,
-      "changeset": 115651820,
-      "user": "Wulz",
-      "uid": 10773975,
-      "nodes": [3952894621, 3952894622],
+      "timestamp": "2022-04-16T19:14:56Z",
+      "version": 8,
+      "changeset": 119795932,
+      "user": "BohneMPs",
+      "uid": 14014515,
+      "nodes": [3952894621, 4213192497],
       "geometry": [
         {"lat": 46.4533149, "lon": 14.0859391},
         {"lat": 46.4533905, "lon": 14.0862842},
         {"lat": 46.4534034, "lon": 14.0864505},
         {"lat": 46.4533929, "lon": 14.0866772},
-        {"lat": 46.45339, "lon": 14.0867119},
-        {"lat": 46.4533704, "lon": 14.0869493}
+        {"lat": 46.45339, "lon": 14.0867119}
       ],
       "tags": {
         "highway": "unclassified",
