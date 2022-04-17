@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-04-15T23:59:59Z",
-    "timestamp_osm_base": "2022-04-16T03:00:52Z",
+    "timestamp_osm_date": "2022-04-16T23:59:59Z",
+    "timestamp_osm_base": "2022-04-17T03:03:59Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -827,18 +827,20 @@
     {
       "type": "node",
       "id": 3185322521,
-      "lat": 42.2972528,
-      "lon": -123.7308561,
-      "timestamp": "2020-05-15T03:30:31Z",
-      "version": 3,
-      "changeset": 85231093,
+      "lat": 42.297231,
+      "lon": -123.7307113,
+      "timestamp": "2022-04-16T19:55:21Z",
+      "version": 4,
+      "changeset": 119797035,
       "user": "Adam Schneider",
       "uid": 5403394,
       "tags": {
         "caravans": "no",
+        "fee": "yes",
         "name": "Sixmile Campground",
         "tents": "yes",
-        "tourism": "camp_site"
+        "tourism": "camp_site",
+        "website": "https://www.fs.usda.gov/recarea/rogue-siskiyou/recarea/?recid=70674"
       }
     },
     {
@@ -1294,6 +1296,27 @@
       }
     },
     {
+      "type": "node",
+      "id": 9670896212,
+      "lat": 42.2948459,
+      "lon": -123.7385148,
+      "timestamp": "2022-04-16T19:55:17Z",
+      "version": 1,
+      "changeset": 119797035,
+      "user": "Adam Schneider",
+      "uid": 5403394,
+      "tags": {
+        "caravans": "no",
+        "description": "Walk-in riverside campsites",
+        "drinking_water": "no",
+        "fee": "yes",
+        "name": "River Bench Campground",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "website": "https://www.fs.usda.gov/recarea/rogue-siskiyou/recarea/?recid=70634"
+      }
+    },
+    {
       "type": "way",
       "id": 203096386,
       "timestamp": "2013-01-27T12:45:15Z",
@@ -1647,6 +1670,42 @@
         "amenity": "shelter",
         "shelter_type": "weather_shelter",
         "tourism": "picnic_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 582134906,
+      "timestamp": "2022-04-16T19:55:21Z",
+      "version": 3,
+      "changeset": 119797035,
+      "user": "Adam Schneider",
+      "uid": 5403394,
+      "center": {
+        "lat": 42.2971175,
+        "lon": -123.7318039
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 582134908,
+      "timestamp": "2022-04-16T19:55:21Z",
+      "version": 3,
+      "changeset": 119797035,
+      "user": "Adam Schneider",
+      "uid": 5403394,
+      "center": {
+        "lat": 42.2970586,
+        "lon": -123.7320774
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
       }
     },
     {
