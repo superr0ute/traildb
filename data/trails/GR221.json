@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-16T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-04-17T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -738,11 +738,11 @@
     {
       "type": "way",
       "id": 101275260,
-      "timestamp": "2022-02-19T19:58:52Z",
-      "version": 14,
-      "changeset": 117617566,
-      "user": "HaPe-CZ",
-      "uid": 11276832,
+      "timestamp": "2022-04-17T16:31:28Z",
+      "version": 18,
+      "changeset": 119822881,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [614105013, 369813970],
       "geometry": [
         {"lat": 39.686214, "lon": 2.5125124},
@@ -768,9 +768,13 @@
       "tags": {
         "cycleway:both": "no",
         "highway": "tertiary",
+        "lane_markings": "no",
+        "lit": "yes",
         "maxspeed": "40",
         "name": "carrer de la Baronia",
         "ref": "Ma-10",
+        "sidewalk": "no",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
@@ -3341,11 +3345,11 @@
     {
       "type": "way",
       "id": 160794280,
-      "timestamp": "2020-09-12T11:35:26Z",
-      "version": 6,
-      "changeset": 90791613,
-      "user": "pedrojuan01",
-      "uid": 1948725,
+      "timestamp": "2022-04-17T14:11:18Z",
+      "version": 9,
+      "changeset": 119817840,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [1623667092, 1060157027],
       "geometry": [
         {"lat": 39.6688988, "lon": 2.5751955},
@@ -3362,7 +3366,10 @@
       ],
       "tags": {
         "highway": "residential",
+        "lit": "yes",
         "name": "Costa de Sant Pere",
+        "oneway": "-1",
+        "sidewalk": "right",
         "surface": "asphalt",
         "width": "2"
       }
@@ -3370,17 +3377,18 @@
     {
       "type": "way",
       "id": 160794282,
-      "timestamp": "2015-12-02T15:33:41Z",
-      "version": 3,
-      "changeset": 35708621,
-      "user": "lermin",
-      "uid": 2706893,
+      "timestamp": "2022-04-17T14:09:17Z",
+      "version": 4,
+      "changeset": 119818091,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [1728238516, 369367102],
       "geometry": [
         {"lat": 39.6686679, "lon": 2.5775077},
         {"lat": 39.6688184, "lon": 2.5774497}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "tertiary",
         "lanes": "2",
         "ref": "Ma-1040",
@@ -3390,17 +3398,17 @@
     {
       "type": "way",
       "id": 160794292,
-      "timestamp": "2012-04-23T18:06:27Z",
-      "version": 1,
-      "changeset": 11398006,
-      "user": "ciclista",
-      "uid": 73405,
+      "timestamp": "2022-04-17T14:11:14Z",
+      "version": 3,
+      "changeset": 119817840,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [1060157027, 1728238516],
       "geometry": [
         {"lat": 39.6686579, "lon": 2.57693},
         {"lat": 39.6686679, "lon": 2.5775077}
       ],
-      "tags": {"highway": "footway"}
+      "tags": {"highway": "footway", "lit": "yes", "surface": "sett"}
     },
     {
       "type": "way",
@@ -3446,26 +3454,32 @@
     {
       "type": "way",
       "id": 162399665,
-      "timestamp": "2012-05-06T14:56:15Z",
-      "version": 1,
-      "changeset": 11519325,
-      "user": "ciclista",
-      "uid": 73405,
+      "timestamp": "2022-04-17T14:09:10Z",
+      "version": 4,
+      "changeset": 119817840,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [369367054, 560525531],
       "geometry": [
         {"lat": 39.669812, "lon": 2.5788662},
         {"lat": 39.669688, "lon": 2.5786683}
       ],
-      "tags": {"highway": "residential", "name": "Carrer Nou de Sant Pere"}
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Carrer Nou de Sant Pere",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 162407809,
-      "timestamp": "2012-05-06T15:40:43Z",
-      "version": 2,
-      "changeset": 11519806,
-      "user": "ciclista",
-      "uid": 73405,
+      "timestamp": "2022-04-17T14:09:16Z",
+      "version": 5,
+      "changeset": 119817840,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [369367102, 560525528],
       "geometry": [
         {"lat": 39.6688184, "lon": 2.5774497},
@@ -3475,25 +3489,34 @@
       ],
       "tags": {
         "highway": "residential",
+        "lit": "yes",
         "name": "Carrer Nou de Sant Pere",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sidewalk": "both",
+        "surface": "paving_stones"
       }
     },
     {
       "type": "way",
       "id": 162587726,
-      "timestamp": "2021-01-03T14:28:21Z",
-      "version": 2,
-      "changeset": 96849155,
-      "user": "pedrojuan01",
-      "uid": 1948725,
+      "timestamp": "2022-04-17T14:09:08Z",
+      "version": 5,
+      "changeset": 119817840,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [433071774, 369367054],
       "geometry": [
         {"lat": 39.6699058, "lon": 2.5790451},
         {"lat": 39.6698207, "lon": 2.5788827},
         {"lat": 39.669812, "lon": 2.5788662}
       ],
-      "tags": {"highway": "residential", "name": "Placeta des Pla"}
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Placeta des Pla",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -4692,11 +4715,11 @@
     {
       "type": "way",
       "id": 220784987,
-      "timestamp": "2021-06-20T14:51:24Z",
-      "version": 7,
-      "changeset": 106669092,
-      "user": "pedrojuan01",
-      "uid": 1948725,
+      "timestamp": "2022-04-17T16:12:30Z",
+      "version": 10,
+      "changeset": 119822882,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [369813972, 369813976],
       "geometry": [
         {"lat": 39.6871261, "lon": 2.5138248},
@@ -4714,8 +4737,10 @@
       ],
       "tags": {
         "highway": "residential",
+        "lit": "yes",
         "name": "Carrer Jeroni Albertí",
-        "surface": "paved",
+        "sidewalk": "no",
+        "surface": "asphalt",
         "width": "2"
       }
     },
@@ -7211,11 +7236,11 @@
     {
       "type": "way",
       "id": 32821778,
-      "timestamp": "2014-07-01T08:08:03Z",
-      "version": 6,
-      "changeset": 23406019,
-      "user": "pedrojuan01",
-      "uid": 1948725,
+      "timestamp": "2022-04-17T16:16:46Z",
+      "version": 7,
+      "changeset": 119823068,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [369813970, 369813972],
       "geometry": [
         {"lat": 39.6871838, "lon": 2.513456},
@@ -7225,6 +7250,7 @@
       "tags": {
         "highway": "residential",
         "name": "Plaça de la Vila",
+        "oneway": "no",
         "surface": "paved",
         "width": "2"
       }
@@ -7232,11 +7258,11 @@
     {
       "type": "way",
       "id": 32821782,
-      "timestamp": "2020-11-03T10:46:16Z",
-      "version": 13,
-      "changeset": 93475950,
-      "user": "pedrojuan01",
-      "uid": 1948725,
+      "timestamp": "2022-04-17T16:05:28Z",
+      "version": 14,
+      "changeset": 119822633,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [369813978, 369813993],
       "geometry": [
         {"lat": 39.6869241, "lon": 2.5155038},
@@ -7297,6 +7323,7 @@
       ],
       "tags": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Camí de la Font de la Vila (GR-221)",
         "surface": "asphalt",
         "tracktype": "grade2",
@@ -7550,11 +7577,11 @@
     {
       "type": "way",
       "id": 33040246,
-      "timestamp": "2022-03-01T11:01:33Z",
-      "version": 10,
-      "changeset": 117975382,
-      "user": "pi=3",
-      "uid": 10178286,
+      "timestamp": "2022-04-17T07:52:09Z",
+      "version": 11,
+      "changeset": 119806619,
+      "user": "pedrojuan01",
+      "uid": 1948725,
       "nodes": [372484987, 26783424],
       "geometry": [
         {"lat": 39.7662775, "lon": 2.7515163},
@@ -7567,7 +7594,7 @@
       ],
       "tags": {
         "highway": "path",
-        "name": "GR-221",
+        "name": "camí del Barranc (GR-221)",
         "sac_scale": "hiking",
         "trail_visibility": "excellent"
       }
@@ -7653,7 +7680,7 @@
       "uid": 86282,
       "nodes": [372484999, 372484996],
       "geometry": [
-        {"lat": 39.7670753, "lon": 2.7433403},
+        {"lat": 39.7671024, "lon": 2.7433797},
         {"lat": 39.7670424, "lon": 2.7432527}
       ],
       "tags": {
@@ -7733,7 +7760,7 @@
       "uid": 1948725,
       "nodes": [372485007, 26783475],
       "geometry": [
-        {"lat": 39.7687091, "lon": 2.7378628},
+        {"lat": 39.7687068, "lon": 2.7378861},
         {"lat": 39.7687353, "lon": 2.7378642},
         {"lat": 39.7687973, "lon": 2.7378676},
         {"lat": 39.7690882, "lon": 2.7378594},
@@ -7763,7 +7790,7 @@
       "nodes": [372485005, 372485007],
       "geometry": [
         {"lat": 39.7686316, "lon": 2.7378381},
-        {"lat": 39.7687091, "lon": 2.7378628}
+        {"lat": 39.7687068, "lon": 2.7378861}
       ],
       "tags": {
         "bridge": "yes",
@@ -10203,11 +10230,11 @@
     {
       "type": "way",
       "id": 4387128,
-      "timestamp": "2022-03-01T11:01:33Z",
-      "version": 18,
-      "changeset": 117975382,
-      "user": "pi=3",
-      "uid": 10178286,
+      "timestamp": "2022-04-17T07:52:09Z",
+      "version": 19,
+      "changeset": 119806619,
+      "user": "pedrojuan01",
+      "uid": 1948725,
       "nodes": [26783446, 372484999],
       "geometry": [
         {"lat": 39.7667592, "lon": 2.7455682},
@@ -10225,22 +10252,21 @@
         {"lat": 39.7668732, "lon": 2.745171},
         {"lat": 39.7668366, "lon": 2.7451878},
         {"lat": 39.7668255, "lon": 2.7451725},
-        {"lat": 39.7669396, "lon": 2.7450551},
+        {"lat": 39.7669542, "lon": 2.745062},
         {"lat": 39.7670242, "lon": 2.7448225},
         {"lat": 39.7670074, "lon": 2.7448113},
-        {"lat": 39.7669489, "lon": 2.7448783},
-        {"lat": 39.766924, "lon": 2.744855},
+        {"lat": 39.7669489, "lon": 2.7448991},
+        {"lat": 39.7669173, "lon": 2.7448931},
         {"lat": 39.7670291, "lon": 2.7445738},
-        {"lat": 39.7670227, "lon": 2.7444202},
-        {"lat": 39.7669761, "lon": 2.7443819},
+        {"lat": 39.7670347, "lon": 2.7444366},
+        {"lat": 39.7669847, "lon": 2.7444157},
         {"lat": 39.766974, "lon": 2.7442715},
         {"lat": 39.7669719, "lon": 2.74418},
         {"lat": 39.7670204, "lon": 2.7437479},
         {"lat": 39.7671283, "lon": 2.743578},
         {"lat": 39.767018, "lon": 2.7436064},
         {"lat": 39.7671717, "lon": 2.7433761},
-        {"lat": 39.7670951, "lon": 2.7433797},
-        {"lat": 39.7670753, "lon": 2.7433403}
+        {"lat": 39.7671024, "lon": 2.7433797}
       ],
       "tags": {
         "highway": "path",
@@ -10253,11 +10279,11 @@
     {
       "type": "way",
       "id": 4387129,
-      "timestamp": "2022-03-17T15:03:14Z",
-      "version": 14,
-      "changeset": 118598324,
-      "user": "Willhelm_Mueller",
-      "uid": 308224,
+      "timestamp": "2022-04-17T07:52:09Z",
+      "version": 15,
+      "changeset": 119806619,
+      "user": "pedrojuan01",
+      "uid": 1948725,
       "nodes": [26783424, 372484992],
       "geometry": [
         {"lat": 39.7664318, "lon": 2.7509741},
@@ -10279,7 +10305,7 @@
       "tags": {
         "highway": "path",
         "mtb:scale": "2",
-        "name": "GR-221",
+        "name": "camí del Barranc (GR-221)",
         "sac_scale": "hiking",
         "smoothness": "very_bad",
         "surface": "sett"
@@ -10288,11 +10314,11 @@
     {
       "type": "way",
       "id": 4387130,
-      "timestamp": "2022-03-17T15:03:13Z",
-      "version": 17,
-      "changeset": 118598324,
-      "user": "Willhelm_Mueller",
-      "uid": 308224,
+      "timestamp": "2022-04-17T07:52:09Z",
+      "version": 18,
+      "changeset": 119806619,
+      "user": "pedrojuan01",
+      "uid": 1948725,
       "nodes": [26783412, 26783422],
       "geometry": [
         {"lat": 39.7641014, "lon": 2.7533023},
@@ -10322,7 +10348,7 @@
       "tags": {
         "highway": "path",
         "mtb:scale": "2",
-        "name": "GR-221",
+        "name": "camí del Barranc (GR-221)",
         "sac_scale": "hiking",
         "smoothness": "very_bad",
         "surface": "sett",
@@ -10410,11 +10436,11 @@
     {
       "type": "way",
       "id": 4387132,
-      "timestamp": "2022-03-17T15:03:11Z",
-      "version": 19,
-      "changeset": 118598324,
-      "user": "Willhelm_Mueller",
-      "uid": 308224,
+      "timestamp": "2022-04-17T07:52:09Z",
+      "version": 20,
+      "changeset": 119806619,
+      "user": "pedrojuan01",
+      "uid": 1948725,
       "nodes": [26783337, 26783373],
       "geometry": [
         {"lat": 39.7617331, "lon": 2.7562477},
@@ -10430,19 +10456,20 @@
         {"lat": 39.7625064, "lon": 2.7566907},
         {"lat": 39.7624376, "lon": 2.7564968},
         {"lat": 39.7624187, "lon": 2.7564032},
-        {"lat": 39.7624114, "lon": 2.7562732},
-        {"lat": 39.7624332, "lon": 2.7562048},
-        {"lat": 39.7624849, "lon": 2.7561753},
-        {"lat": 39.7625482, "lon": 2.7561711},
+        {"lat": 39.7623784, "lon": 2.7562893},
+        {"lat": 39.7624332, "lon": 2.7562196},
+        {"lat": 39.7624849, "lon": 2.7561901},
+        {"lat": 39.7625369, "lon": 2.7561926},
         {"lat": 39.762614, "lon": 2.7562036},
         {"lat": 39.7626846, "lon": 2.7561907},
         {"lat": 39.7627209, "lon": 2.7561494},
         {"lat": 39.7626989, "lon": 2.7561078},
         {"lat": 39.7625918, "lon": 2.7560814},
         {"lat": 39.7624992, "lon": 2.7560214},
-        {"lat": 39.7624593, "lon": 2.7559427},
-        {"lat": 39.7624573, "lon": 2.7558616},
-        {"lat": 39.7625276, "lon": 2.7559175},
+        {"lat": 39.7624304, "lon": 2.7559628},
+        {"lat": 39.7624212, "lon": 2.7559122},
+        {"lat": 39.7624491, "lon": 2.7559099},
+        {"lat": 39.7625224, "lon": 2.7559416},
         {"lat": 39.7625891, "lon": 2.7559366},
         {"lat": 39.7627211, "lon": 2.7558595},
         {"lat": 39.7627913, "lon": 2.7557632},
@@ -10993,26 +11020,32 @@
     {
       "type": "way",
       "id": 44107966,
-      "timestamp": "2012-05-06T15:21:38Z",
-      "version": 4,
-      "changeset": 11519571,
-      "user": "ciclista",
-      "uid": 73405,
+      "timestamp": "2022-04-17T14:09:12Z",
+      "version": 7,
+      "changeset": 119817840,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [560525532, 560525528],
       "geometry": [
         {"lat": 39.6696016, "lon": 2.5785614},
         {"lat": 39.6695729, "lon": 2.5785234}
       ],
-      "tags": {"highway": "residential", "name": "Carrer Nou de Sant Pere"}
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Carrer Nou de Sant Pere",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 44107967,
-      "timestamp": "2012-05-06T14:56:19Z",
-      "version": 3,
-      "changeset": 11519325,
-      "user": "ciclista",
-      "uid": 73405,
+      "timestamp": "2022-04-17T14:09:12Z",
+      "version": 7,
+      "changeset": 119817840,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [560525531, 560525532],
       "geometry": [
         {"lat": 39.669688, "lon": 2.5786683},
@@ -11022,7 +11055,11 @@
         "bridge": "yes",
         "highway": "residential",
         "layer": "1",
-        "name": "Carrer Nou de Sant Pere"
+        "lit": "yes",
+        "maxweight:signed": "no",
+        "name": "Carrer Nou de Sant Pere",
+        "sidewalk": "both",
+        "surface": "asphalt"
       }
     },
     {
@@ -12609,11 +12646,11 @@
     {
       "type": "way",
       "id": 48344285,
-      "timestamp": "2020-09-12T11:35:26Z",
-      "version": 5,
-      "changeset": 90791613,
-      "user": "pedrojuan01",
-      "uid": 1948725,
+      "timestamp": "2022-04-17T14:13:26Z",
+      "version": 6,
+      "changeset": 119817598,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [614105294, 1623667092],
       "geometry": [
         {"lat": 39.6683748, "lon": 2.5739615},
@@ -12627,6 +12664,7 @@
         "highway": "track",
         "name": "camí des Correu",
         "surface": "asphalt",
+        "tracktype": "grade1",
         "width": "2"
       }
     },
