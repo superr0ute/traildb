@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-17T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-04-18T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -4649,11 +4649,11 @@
     {
       "type": "way",
       "id": 217950153,
-      "timestamp": "2016-01-03T11:59:49Z",
-      "version": 2,
-      "changeset": 36336490,
-      "user": "Galbinus",
-      "uid": 162630,
+      "timestamp": "2022-04-18T09:33:53Z",
+      "version": 3,
+      "changeset": 119848086,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [317943032, 2272592343],
       "geometry": [
         {"lat": 39.5530025, "lon": 2.3783539},
@@ -4668,7 +4668,7 @@
         "incline": "down",
         "mtb:scale": "3",
         "name": "DH Cala Egos",
-        "surface": "ground"
+        "surface": "rock"
       }
     },
     {
@@ -5128,11 +5128,11 @@
     {
       "type": "way",
       "id": 243665834,
-      "timestamp": "2018-11-10T16:59:15Z",
-      "version": 2,
-      "changeset": 64356974,
-      "user": "Paco Nusuba",
-      "uid": 7506040,
+      "timestamp": "2022-04-18T11:29:57Z",
+      "version": 3,
+      "changeset": 119853547,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [317943865, 317943274],
       "geometry": [
         {"lat": 39.5700631, "lon": 2.3679172},
@@ -5147,7 +5147,8 @@
       "tags": {
         "highway": "path",
         "incline": "down",
-        "note": "sac_scale is at least mountain_hiking here - did not survey here but only the most western path"
+        "note": "sac_scale is at least mountain_hiking here - did not survey here but only the most western path",
+        "surface": "rock"
       }
     },
     {
@@ -5777,11 +5778,11 @@
     {
       "type": "way",
       "id": 28922869,
-      "timestamp": "2018-11-10T16:59:11Z",
-      "version": 6,
-      "changeset": 64356974,
-      "user": "Paco Nusuba",
-      "uid": 7506040,
+      "timestamp": "2022-04-18T11:30:03Z",
+      "version": 7,
+      "changeset": 119853547,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [317943820, 317943856],
       "geometry": [
         {"lat": 39.571623, "lon": 2.369279},
@@ -5804,7 +5805,8 @@
         "foot": "yes",
         "highway": "path",
         "mtb:scale": "2",
-        "sac_scale": "hiking"
+        "sac_scale": "hiking",
+        "surface": "ground"
       }
     },
     {
@@ -8125,11 +8127,11 @@
     {
       "type": "way",
       "id": 389361806,
-      "timestamp": "2016-01-03T11:59:47Z",
-      "version": 1,
-      "changeset": 36336490,
-      "user": "Galbinus",
-      "uid": 162630,
+      "timestamp": "2022-04-18T09:33:55Z",
+      "version": 2,
+      "changeset": 119848086,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [3917262142, 2168540672],
       "geometry": [
         {"lat": 39.5537567, "lon": 2.3777404},
@@ -8147,17 +8149,17 @@
         "incline": "-21%",
         "mtb:scale": "3",
         "name": "DH Cala Egos",
-        "surface": "ground"
+        "surface": "rock"
       }
     },
     {
       "type": "way",
       "id": 389361807,
-      "timestamp": "2016-01-03T11:59:47Z",
-      "version": 1,
-      "changeset": 36336490,
-      "user": "Galbinus",
-      "uid": 162630,
+      "timestamp": "2022-04-18T09:50:54Z",
+      "version": 2,
+      "changeset": 119848086,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [3925290866, 3925290863],
       "geometry": [
         {"lat": 39.5544918, "lon": 2.3740714},
@@ -8193,7 +8195,7 @@
         "incline": "-21%",
         "mtb:scale": "3",
         "name": "DH Cala Egos",
-        "surface": "ground"
+        "surface": "rock"
       }
     },
     {
@@ -8935,11 +8937,11 @@
     {
       "type": "way",
       "id": 40855976,
-      "timestamp": "2021-10-23T08:34:18Z",
-      "version": 8,
-      "changeset": 112865852,
-      "user": "meinertt",
-      "uid": 588730,
+      "timestamp": "2022-04-18T12:07:14Z",
+      "version": 10,
+      "changeset": 119853559,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [7684581423, 364644862],
       "geometry": [
         {"lat": 39.5763136, "lon": 2.3568337},
@@ -8950,16 +8952,21 @@
         {"lat": 39.5764391, "lon": 2.3558978},
         {"lat": 39.5767303, "lon": 2.3557857}
       ],
-      "tags": {"highway": "track", "tracktype": "grade3"}
+      "tags": {
+        "highway": "track",
+        "smoothness": "very_bad",
+        "surface": "asphalt",
+        "tracktype": "grade3"
+      }
     },
     {
       "type": "way",
       "id": 40855977,
-      "timestamp": "2018-11-08T23:26:37Z",
-      "version": 8,
-      "changeset": 64309821,
-      "user": "Paco Nusuba",
-      "uid": 7506040,
+      "timestamp": "2022-04-18T12:07:20Z",
+      "version": 13,
+      "changeset": 119855374,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [364644862, 1916303024],
       "geometry": [
         {"lat": 39.5767303, "lon": 2.3557857},
@@ -8967,8 +8974,13 @@
       ],
       "tags": {
         "description": "stairs in bad condition",
+        "handrail": "yes",
         "highway": "steps",
-        "incline": "down"
+        "incline": "down",
+        "lit": "no",
+        "ramp": "no",
+        "step_count": "55",
+        "surface": "concrete"
       }
     },
     {
@@ -14374,11 +14386,11 @@
     {
       "type": "way",
       "id": 642910822,
-      "timestamp": "2018-11-10T16:59:10Z",
-      "version": 1,
-      "changeset": 64356974,
-      "user": "Paco Nusuba",
-      "uid": 7506040,
+      "timestamp": "2022-04-18T11:30:03Z",
+      "version": 2,
+      "changeset": 119853547,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [317943816, 317943820],
       "geometry": [
         {"lat": 39.571961, "lon": 2.36889},
@@ -14393,17 +14405,18 @@
         "highway": "path",
         "mtb:scale": "3",
         "sac_scale": "mountain_hiking",
-        "smoothness": "impassable"
+        "smoothness": "impassable",
+        "surface": "ground"
       }
     },
     {
       "type": "way",
       "id": 642910823,
-      "timestamp": "2018-11-10T16:59:10Z",
-      "version": 1,
-      "changeset": 64356974,
-      "user": "Paco Nusuba",
-      "uid": 7506040,
+      "timestamp": "2022-04-18T11:30:04Z",
+      "version": 2,
+      "changeset": 119853547,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [305067064, 317943816],
       "geometry": [
         {"lat": 39.5716844, "lon": 2.3677815},
@@ -14419,7 +14432,8 @@
         "foot": "yes",
         "highway": "path",
         "mtb:scale": "1",
-        "sac_scale": "hiking"
+        "sac_scale": "hiking",
+        "surface": "ground"
       }
     },
     {
@@ -18000,31 +18014,34 @@
     {
       "type": "way",
       "id": 995805610,
-      "timestamp": "2021-10-23T08:34:18Z",
-      "version": 1,
-      "changeset": 112865852,
-      "user": "meinertt",
-      "uid": 588730,
+      "timestamp": "2022-04-18T09:33:55Z",
+      "version": 4,
+      "changeset": 119848090,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [2168540672, 317943032],
       "geometry": [
         {"lat": 39.5530297, "lon": 2.3782717},
         {"lat": 39.5530025, "lon": 2.3783539}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "unclassified",
         "incline": "down",
+        "lane_markings": "no",
         "name": "camí de Cala Egos",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 995805612,
-      "timestamp": "2021-10-23T08:34:18Z",
-      "version": 1,
-      "changeset": 112865852,
-      "user": "meinertt",
-      "uid": 588730,
+      "timestamp": "2022-04-18T09:50:51Z",
+      "version": 3,
+      "changeset": 119848090,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [3925290863, 3917262142],
       "geometry": [
         {"lat": 39.5538638, "lon": 2.3774848},
@@ -18035,18 +18052,20 @@
       "tags": {
         "highway": "unclassified",
         "incline": "down",
+        "lane_markings": "no",
         "name": "camí de Cala Egos",
+        "smoothness": "excellent",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 995805615,
-      "timestamp": "2021-10-23T08:34:18Z",
-      "version": 1,
-      "changeset": 112865852,
-      "user": "meinertt",
-      "uid": 588730,
+      "timestamp": "2022-04-18T09:51:00Z",
+      "version": 2,
+      "changeset": 119848090,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [1141308590, 317943071],
       "geometry": [
         {"lat": 39.5547138, "lon": 2.3717242},
@@ -18055,16 +18074,21 @@
         {"lat": 39.5552166, "lon": 2.3719839},
         {"lat": 39.555319, "lon": 2.372076}
       ],
-      "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade4"}
+      "tags": {
+        "highway": "track",
+        "smoothness": "bad",
+        "surface": "gravel",
+        "tracktype": "grade4"
+      }
     },
     {
       "type": "way",
       "id": 995805616,
-      "timestamp": "2021-10-23T08:34:18Z",
-      "version": 1,
-      "changeset": 112865852,
-      "user": "meinertt",
-      "uid": 588730,
+      "timestamp": "2022-04-18T09:50:59Z",
+      "version": 2,
+      "changeset": 119848090,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [317943071, 2168554560],
       "geometry": [
         {"lat": 39.555319, "lon": 2.372076},
@@ -18074,6 +18098,7 @@
         "highway": "track",
         "incline": "down",
         "name": "camí de Cala Egos",
+        "smoothness": "bad",
         "surface": "fine_gravel",
         "tracktype": "grade3"
       }
@@ -18195,11 +18220,11 @@
     {
       "type": "way",
       "id": 995805621,
-      "timestamp": "2021-10-23T08:34:18Z",
-      "version": 1,
-      "changeset": 112865852,
-      "user": "meinertt",
-      "uid": 588730,
+      "timestamp": "2022-04-18T11:30:09Z",
+      "version": 4,
+      "changeset": 119853559,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [1268654713, 305067064],
       "geometry": [
         {"lat": 39.5708914, "lon": 2.3647063},
@@ -18234,16 +18259,22 @@
         {"lat": 39.5717073, "lon": 2.3676216},
         {"lat": 39.5716844, "lon": 2.3677815}
       ],
-      "tags": {"highway": "track", "name": "camí de Cala en Tió"}
+      "tags": {
+        "highway": "track",
+        "name": "camí de Cala en Tió",
+        "smoothness": "bad",
+        "surface": "compacted",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
       "id": 995805622,
-      "timestamp": "2021-10-23T08:34:18Z",
-      "version": 1,
-      "changeset": 112865852,
-      "user": "meinertt",
-      "uid": 588730,
+      "timestamp": "2022-04-18T11:57:09Z",
+      "version": 3,
+      "changeset": 119853559,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [668986555, 254958038],
       "geometry": [
         {"lat": 39.5753153, "lon": 2.3578057},
@@ -18262,7 +18293,8 @@
       "tags": {
         "highway": "track",
         "name": "camí de sa Pineta",
-        "surface": "unpaved",
+        "smoothness": "intermediate",
+        "surface": "concrete",
         "tracktype": "grade3"
       }
     },
@@ -18284,11 +18316,11 @@
     {
       "type": "way",
       "id": 995805625,
-      "timestamp": "2021-10-23T08:34:18Z",
-      "version": 1,
-      "changeset": 112865852,
-      "user": "meinertt",
-      "uid": 588730,
+      "timestamp": "2022-04-18T12:07:25Z",
+      "version": 6,
+      "changeset": 119855374,
+      "user": "DoggoOfSpeed",
+      "uid": 12457656,
       "nodes": [1916303041, 1916303024],
       "geometry": [
         {"lat": 39.5780188, "lon": 2.3543796},
@@ -18305,8 +18337,13 @@
         "highway": "residential",
         "incline": "3",
         "lanes": "1",
+        "lit": "yes",
         "name": "carrer de Cala es Conills",
-        "oneway": "yes"
+        "oneway": "yes",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
+        "smoothness": "good",
+        "surface": "asphalt"
       }
     },
     {
