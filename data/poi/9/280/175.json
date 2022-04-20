@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-04-18T23:59:59Z",
-    "timestamp_osm_base": "2022-04-19T06:26:41Z",
+    "timestamp_osm_date": "2022-04-19T23:59:59Z",
+    "timestamp_osm_base": "2022-04-20T06:35:32Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1733,6 +1733,23 @@
       "tags": {
         "amenity": "shelter",
         "source": "gps"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1006600378,
+      "lat": 49.1514108,
+      "lon": 17.0808366,
+      "timestamp": "2022-04-19T19:46:00Z",
+      "version": 3,
+      "changeset": 119923177,
+      "user": "mahdi1234",
+      "uid": 8244053,
+      "tags": {
+        "name": "Minimarket u Petra",
+        "opening_hours": "Mo-Sa 07:15-20:00; Su 08:00-17:00",
+        "shop": "convenience",
+        "wheelchair": "yes"
       }
     },
     {
@@ -4927,13 +4944,13 @@
     {
       "type": "node",
       "id": 1598988191,
-      "lat": 49.1817679,
-      "lon": 17.5613391,
-      "timestamp": "2015-08-08T14:49:00Z",
-      "version": 2,
-      "changeset": 33202221,
-      "user": "Jezevec",
-      "uid": 102554,
+      "lat": 49.1817628,
+      "lon": 17.5614329,
+      "timestamp": "2022-04-19T11:27:38Z",
+      "version": 3,
+      "changeset": 119902390,
+      "user": "LeoBardonaro",
+      "uid": 573826,
       "tags": {
         "name": "Oldřichovice",
         "name:cs": "Oldřichovice",
@@ -12212,13 +12229,13 @@
     {
       "type": "node",
       "id": 5598909221,
-      "lat": 49.1565746,
-      "lon": 17.4171661,
-      "timestamp": "2018-05-05T15:34:51Z",
-      "version": 1,
-      "changeset": 58709789,
-      "user": "washeck",
-      "uid": 501441,
+      "lat": 49.1565761,
+      "lon": 17.4170622,
+      "timestamp": "2022-04-19T10:41:01Z",
+      "version": 2,
+      "changeset": 119900257,
+      "user": "LeoBardonaro",
+      "uid": 573826,
       "tags": {
         "name": "Smíšené zboží Jana Klementová",
         "shop": "convenience"
@@ -15457,6 +15474,21 @@
       }
     },
     {
+      "type": "node",
+      "id": 9676892106,
+      "lat": 49.1560417,
+      "lon": 17.4175483,
+      "timestamp": "2022-04-19T10:41:01Z",
+      "version": 1,
+      "changeset": 119900257,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
       "type": "way",
       "id": 28900783,
       "timestamp": "2019-10-24T09:14:53Z",
@@ -17902,6 +17934,29 @@
     },
     {
       "type": "way",
+      "id": 263732821,
+      "timestamp": "2022-04-19T11:27:38Z",
+      "version": 2,
+      "changeset": 119902390,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.1802694,
+        "lon": 17.5578175
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "building:levels": "1",
+        "building:ruian:type": "15",
+        "name": "Potraviny TOMA",
+        "ref:ruian:building": "3898059",
+        "shop": "convenience",
+        "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "way",
       "id": 271347421,
       "timestamp": "2022-02-27T00:05:13Z",
       "version": 3,
@@ -20168,6 +20223,82 @@
       "center": {
         "lat": 49.2857752,
         "lon": 17.2795828
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1052988477,
+      "timestamp": "2022-04-19T10:41:01Z",
+      "version": 1,
+      "changeset": 119900257,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.1556182,
+        "lon": 17.4176935
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "gazebo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1053000539,
+      "timestamp": "2022-04-19T11:27:38Z",
+      "version": 1,
+      "changeset": 119902390,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.1819421,
+        "lon": 17.5615759
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1053054902,
+      "timestamp": "2022-04-19T14:59:44Z",
+      "version": 1,
+      "changeset": 119911937,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.2001576,
+        "lon": 17.5461887
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1053054920,
+      "timestamp": "2022-04-19T14:59:44Z",
+      "version": 1,
+      "changeset": 119911937,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.1985346,
+        "lon": 17.5258594
       },
       "nodes": [],
       "tags": {

@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-04-18T23:59:59Z",
-    "timestamp_osm_base": "2022-04-19T07:16:24Z",
+    "timestamp_osm_date": "2022-04-19T23:59:59Z",
+    "timestamp_osm_base": "2022-04-20T07:09:55Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1521,6 +1521,8 @@
       "user": "Vejoson",
       "uid": 11422772,
       "tags": {
+        "wikipedia": "he:צופית (מושב)",
+        "wikidata": "Q2908691",
         "gns_ref": "-781908",
         "name": "צופית",
         "name:ar": "تسوفيت",
@@ -1532,9 +1534,7 @@
         "name:pl": "Cofit",
         "name:vi": "Tzofit",
         "place": "village",
-        "source": "GEOnet Names Server (gns)",
-        "wikidata": "Q2908691",
-        "wikipedia": "he:צופית (מושב)"
+        "source": "GEOnet Names Server (gns)"
       }
     },
     {
@@ -2700,13 +2700,13 @@
       "user": "Jacksonville",
       "uid": 12732985,
       "tags": {
+        "name:ur": "نیر ایلِیاہُو",
         "alt_name:ur": "نِیر ایلِیَّاہُو",
         "gns_ref": "-780900",
         "name": "ניר אליהו",
         "name:en": "Nir Eliyahu",
         "name:fr": "Nir Eliyahu",
         "name:he": "ניר אליהו",
-        "name:ur": "نیر ایلِیاہُو",
         "place": "village",
         "source": "GEOnet Names Server (gns)",
         "website": "http://www.nirel.org.il",
@@ -6282,6 +6282,8 @@
       "user": "Yamílo",
       "uid": 11332999,
       "tags": {
+        "wikipedia": "en:Ra'anana",
+        "name:ur": "رعنانا",
         "contact:website": "http://www.raanana.muni.il/",
         "description": "עיר פרברית בשרון בגודל בינוני. בעיר רמת חיים טובה, פארק יפה, ואוכלוסיה מגוונת. עקב אחוז דתיים גדול, מרכז העיר סגור בשבתות ואין בו חיי לילה.",
         "description:he": "עיר פרברית בשרון בגודל בינוני. בעיר רמת חיים טובה, פארק יפה, ואוכלוסיה מגוונת. עקב אחוז דתיים גדול, מרכז העיר סגור בשבתות ואין בו חיי לילה.",
@@ -6296,12 +6298,10 @@
         "name:lt": "Ranana",
         "name:ml": "റാനാന",
         "name:ru": "Раанана",
-        "name:ur": "رعنانا",
         "place": "city",
         "population": "90000",
         "website": "http://www.raanana.muni.il/",
-        "wikidata": "Q309164",
-        "wikipedia": "en:Ra'anana"
+        "wikidata": "Q309164"
       }
     },
     {
@@ -30994,14 +30994,13 @@
       "id": 4806076423,
       "lat": 32.0058519,
       "lon": 34.7436034,
-      "timestamp": "2017-06-06T09:16:47Z",
-      "version": 2,
-      "changeset": 49299149,
-      "user": "SafwatHalaby_bot",
-      "uid": 5816834,
+      "timestamp": "2022-04-19T07:09:47Z",
+      "version": 3,
+      "changeset": 119890859,
+      "user": "Street_stalker_03",
+      "uid": 10853339,
       "tags": {
-        "website": "http://facebook.com/mamaisrael",
-        "phone": "0548811959",
+        "addr:city": "בת ים",
         "addr:housenumber": "11",
         "addr:street": "קוממיות",
         "name": "מאמא האמא של המעדניות",
@@ -31009,7 +31008,9 @@
         "name:he": "מאמא האמא של המעדניות",
         "name:ru": "Мама",
         "opening_hours": "Su-Th 08:00-21:00; Fr 08:00-19:00; Sa 09:00-18:00",
-        "shop": "convenience"
+        "phone": "+972-54-881-1959",
+        "shop": "convenience",
+        "website": "http://facebook.com/mamaisrael"
       }
     },
     {
@@ -45315,6 +45316,34 @@
       }
     },
     {
+      "type": "node",
+      "id": 9676464590,
+      "lat": 32.1797318,
+      "lon": 34.8027621,
+      "timestamp": "2022-04-19T07:55:51Z",
+      "version": 1,
+      "changeset": 119892788,
+      "user": "VELOCITY_club",
+      "uid": 5556216,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9676480652,
+      "lat": 32.1579571,
+      "lon": 34.7956225,
+      "timestamp": "2022-04-19T07:54:17Z",
+      "version": 1,
+      "changeset": 119892714,
+      "user": "VELOCITY_club",
+      "uid": 5556216,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
       "type": "way",
       "id": 26757008,
       "timestamp": "2021-10-27T08:21:32Z",
@@ -46478,7 +46507,7 @@
       "user": "Vejoson",
       "uid": 11422772,
       "center": {
-        "lat": 31.9594853,
+        "lat": 31.9594571,
         "lon": 34.9290319
       },
       "nodes": [],
@@ -52476,6 +52505,27 @@
         "amenity": "shelter",
         "building": "yes",
         "shelter_type": "gazebo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1052998067,
+      "timestamp": "2022-04-19T11:18:35Z",
+      "version": 1,
+      "changeset": 119901991,
+      "user": "superware",
+      "uid": 349949,
+      "center": {
+        "lat": 31.9588029,
+        "lon": 34.9339077
+      },
+      "nodes": [],
+      "tags": {
+        "name": "כרם בן שמן",
+        "name:en": "Kerem Ben Shemen",
+        "name:he": "כרם בן שמן",
+        "place": "village",
+        "population": "85"
       }
     }
   ]
