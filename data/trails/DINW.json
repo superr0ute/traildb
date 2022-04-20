@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-13T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-04-19T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -826,11 +826,11 @@
     {
       "type": "relation",
       "id": 7388161,
-      "timestamp": "2020-11-03T12:45:48Z",
-      "version": 28,
-      "changeset": 93484239,
-      "user": "Ivan Habunek",
-      "uid": 6733298,
+      "timestamp": "2022-04-19T09:50:52Z",
+      "version": 29,
+      "changeset": 119897856,
+      "user": "debeli75",
+      "uid": 730886,
       "members": [
         {"type": "way", "ref": 506672907, "role": ""},
         {"type": "way", "ref": 506672908, "role": ""},
@@ -848,6 +848,7 @@
         {"type": "way", "ref": 206039135, "role": ""},
         {"type": "way", "ref": 229077195, "role": ""},
         {"type": "way", "ref": 866645995, "role": ""},
+        {"type": "way", "ref": 1052972270, "role": ""},
         {"type": "way", "ref": 733666783, "role": ""},
         {"type": "way", "ref": 834173769, "role": ""},
         {"type": "way", "ref": 651012011, "role": ""},
@@ -3250,6 +3251,37 @@
         {"lat": 45.3496338, "lon": 14.6292258}
       ],
       "tags": {"highway": "track", "name": "R.P.O."}
+    },
+    {
+      "type": "way",
+      "id": 1052972270,
+      "timestamp": "2022-04-19T09:50:52Z",
+      "version": 1,
+      "changeset": 119897856,
+      "user": "debeli75",
+      "uid": 730886,
+      "nodes": [2377138163, 2377138143],
+      "geometry": [
+        {"lat": 44.263934, "lon": 15.6559781},
+        {"lat": 44.2639286, "lon": 15.6559307},
+        {"lat": 44.2638893, "lon": 15.6558035},
+        {"lat": 44.2638804, "lon": 15.6556887},
+        {"lat": 44.2639268, "lon": 15.655524},
+        {"lat": 44.2639567, "lon": 15.6554729},
+        {"lat": 44.263951, "lon": 15.6554314},
+        {"lat": 44.2639308, "lon": 15.6553891},
+        {"lat": 44.2639239, "lon": 15.655337},
+        {"lat": 44.2638257, "lon": 15.6552096},
+        {"lat": 44.2637527, "lon": 15.6550648},
+        {"lat": 44.2637209, "lon": 15.6549215}
+      ],
+      "tags": {
+        "bicycle": "no",
+        "highway": "path",
+        "horse": "no",
+        "sac_scale": "demanding_mountain_hiking",
+        "source": "http://info.hps.hr/putovi/putovi?p[view]=981"
+      }
     },
     {
       "type": "way",
@@ -16350,11 +16382,11 @@
     {
       "type": "way",
       "id": 229012089,
-      "timestamp": "2013-07-06T21:37:38Z",
-      "version": 1,
-      "changeset": 16853889,
-      "user": "Janjko",
-      "uid": 244754,
+      "timestamp": "2022-04-19T09:48:15Z",
+      "version": 2,
+      "changeset": 119897739,
+      "user": "debeli75",
+      "uid": 730886,
       "nodes": [2376537731, 2376537779],
       "geometry": [
         {"lat": 44.2625866, "lon": 15.8397859},
@@ -16381,7 +16413,11 @@
         {"lat": 44.2632484, "lon": 15.83987},
         {"lat": 44.2632479, "lon": 15.8398207}
       ],
-      "tags": {"highway": "path", "source": "http://gps-planine.com"}
+      "tags": {
+        "highway": "path",
+        "sac_scale": "alpine_hiking",
+        "source": "http://gps-planine.com"
+      }
     },
     {
       "type": "way",
@@ -32102,11 +32138,11 @@
     {
       "type": "way",
       "id": 44449540,
-      "timestamp": "2021-05-16T20:09:36Z",
-      "version": 15,
-      "changeset": 104783757,
-      "user": "Badojo",
-      "uid": 8189075,
+      "timestamp": "2022-04-19T06:36:02Z",
+      "version": 16,
+      "changeset": 119889401,
+      "user": "Lutalica_1974",
+      "uid": 2096672,
       "nodes": [8736990694, 747992928],
       "geometry": [
         {"lat": 43.659774, "lon": 16.7507006},
@@ -32133,6 +32169,7 @@
         {"lat": 43.6526014, "lon": 16.7542818},
         {"lat": 43.6522055, "lon": 16.7545607},
         {"lat": 43.6514399, "lon": 16.7551817},
+        {"lat": 43.6512618, "lon": 16.7553426},
         {"lat": 43.6509353, "lon": 16.7556376},
         {"lat": 43.6507975, "lon": 16.7557919},
         {"lat": 43.6504675, "lon": 16.756154},
@@ -32147,6 +32184,7 @@
         {"lat": 43.6481375, "lon": 16.7586271},
         {"lat": 43.6480265, "lon": 16.7588484},
         {"lat": 43.647794, "lon": 16.7593796},
+        {"lat": 43.6476876, "lon": 16.7595071},
         {"lat": 43.6475402, "lon": 16.7596838},
         {"lat": 43.6471465, "lon": 16.7603859},
         {"lat": 43.6469591, "lon": 16.7607742},
@@ -55123,11 +55161,11 @@
     {
       "type": "way",
       "id": 733666783,
-      "timestamp": "2021-03-11T17:25:24Z",
-      "version": 8,
-      "changeset": 100855994,
-      "user": "pantagana",
-      "uid": 8650645,
+      "timestamp": "2022-04-19T09:50:52Z",
+      "version": 9,
+      "changeset": 119897856,
+      "user": "debeli75",
+      "uid": 730886,
       "nodes": [2377138143, 8507754784],
       "geometry": [
         {"lat": 44.2637209, "lon": 15.6549215},
@@ -55139,7 +55177,7 @@
         "highway": "path",
         "horse": "no",
         "name": "1004 Tulove grede",
-        "sac_scale": "mountain_hiking",
+        "sac_scale": "demanding_mountain_hiking",
         "source": "http://info.hps.hr/putovi/putovi?p[view]=981"
       }
     },
@@ -56460,11 +56498,11 @@
     {
       "type": "way",
       "id": 834173769,
-      "timestamp": "2021-03-11T17:25:24Z",
-      "version": 4,
-      "changeset": 100855994,
-      "user": "pantagana",
-      "uid": 8650645,
+      "timestamp": "2022-04-19T09:50:52Z",
+      "version": 5,
+      "changeset": 119897856,
+      "user": "debeli75",
+      "uid": 730886,
       "nodes": [8507754784, 8019103032],
       "geometry": [
         {"lat": 44.2635537, "lon": 15.6546197},
@@ -56487,7 +56525,7 @@
         "highway": "path",
         "horse": "no",
         "name": "1004 Tulove grede - tehnički zahtjevno",
-        "sac_scale": "demanding_mountain_hiking",
+        "sac_scale": "demanding_alpine_hiking",
         "source": "http://info.hps.hr/putovi/putovi?p[view]=981"
       }
     },
@@ -57765,12 +57803,12 @@
     {
       "type": "way",
       "id": 866645995,
-      "timestamp": "2020-11-03T12:45:48Z",
-      "version": 1,
-      "changeset": 93484239,
-      "user": "Ivan Habunek",
-      "uid": 6733298,
-      "nodes": [2377138191, 2377138143],
+      "timestamp": "2022-04-19T09:50:52Z",
+      "version": 2,
+      "changeset": 119897856,
+      "user": "debeli75",
+      "uid": 730886,
+      "nodes": [2377138191, 2377138163],
       "geometry": [
         {"lat": 44.264579, "lon": 15.6570659},
         {"lat": 44.264529, "lon": 15.6570235},
@@ -57786,18 +57824,7 @@
         {"lat": 44.2638232, "lon": 15.6562226},
         {"lat": 44.2638447, "lon": 15.6561552},
         {"lat": 44.2638706, "lon": 15.6560888},
-        {"lat": 44.263934, "lon": 15.6559781},
-        {"lat": 44.2639286, "lon": 15.6559307},
-        {"lat": 44.2638893, "lon": 15.6558035},
-        {"lat": 44.2638804, "lon": 15.6556887},
-        {"lat": 44.2639268, "lon": 15.655524},
-        {"lat": 44.2639567, "lon": 15.6554729},
-        {"lat": 44.263951, "lon": 15.6554314},
-        {"lat": 44.2639308, "lon": 15.6553891},
-        {"lat": 44.2639239, "lon": 15.655337},
-        {"lat": 44.2638257, "lon": 15.6552096},
-        {"lat": 44.2637527, "lon": 15.6550648},
-        {"lat": 44.2637209, "lon": 15.6549215}
+        {"lat": 44.263934, "lon": 15.6559781}
       ],
       "tags": {
         "bicycle": "no",
