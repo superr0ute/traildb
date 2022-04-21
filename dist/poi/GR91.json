@@ -1584,13 +1584,13 @@
       "type": "Feature",
       "properties": {
         "@poi": "mountain-pass",
-        "@distance": 52.3,
+        "@distance": 50.7,
         "@id": "n1460013821",
-        "@changeset": 73474496,
-        "@timestamp": "2019-08-18T21:50:07Z",
-        "@version": 4,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 119971676,
+        "@timestamp": "2022-04-20T20:30:12Z",
+        "@version": 5,
+        "@uid": 12588228,
+        "@user": "Lephilippe",
         "ele": 1655,
         "mountain_pass": "yes",
         "name": "Col du Pison",
@@ -1600,8 +1600,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.477069,
-          44.8011436
+          5.4770483,
+          44.8011445
         ]
       }
     },
@@ -7299,13 +7299,15 @@
         "@poi": "water_spring",
         "@distance": 2309,
         "@id": "n9339928703",
-        "@changeset": 114955579,
-        "@timestamp": "2021-12-15T09:28:25Z",
-        "@version": 1,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
+        "@changeset": 119971676,
+        "@timestamp": "2022-04-20T20:30:12Z",
+        "@version": 2,
+        "@uid": 12588228,
+        "@user": "Lephilippe",
+        "intermittent": "yes",
         "name": "Fontaine de Viresac",
         "natural": "spring",
+        "note": "Avril 2022 : pas d'eau. Juste le rocher humide.",
         "website": "https://www.refuges.info/point/1718/point-d-eau/Vercors/Fontaine-de-viresac/"
       },
       "geometry": {
@@ -7351,13 +7353,13 @@
         "@poi": "water_spring",
         "@distance": 389.3,
         "@id": "n9339931452",
-        "@changeset": 114955347,
-        "@timestamp": "2021-12-15T09:21:58Z",
-        "@version": 1,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "description": "2021-08 : A partir de la baraque du Pison , descendre 200m vers le(sud ouest), la source est sur la gauche du chemin. Difficile à trouver",
-        "ele": 1490,
+        "@changeset": 119971676,
+        "@timestamp": "2022-04-20T20:30:12Z",
+        "@version": 2,
+        "@uid": 12588228,
+        "@user": "Lephilippe",
+        "description": "2021-08 : A partir de la baraque du Pison , descendre 200m vers le(sud ouest), la source est sur la gauche du chemin. Difficile à trouver. Débit insignifiant même au printemps. Bassin rempli de débris végétaux.",
+        "ele": 1553,
         "name": "Fontaine de l'Ours",
         "natural": "spring",
         "website": "https://www.refuges.info/point/1216/point-d-eau/Vercors/Fontaine-de-l-Ours/"
@@ -10861,29 +10863,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 707.8,
-        "@id": "w687219985",
-        "@changeset": 74004734,
-        "@timestamp": "2019-09-02T15:06:17Z",
-        "@version": 2,
-        "@uid": 4158457,
-        "@user": "fadany",
-        "building": "yes",
-        "name": "abri de la Fauge",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.575354,
-          45.0463164
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 7876.6,
         "@id": "n2466226891",
@@ -11343,16 +11322,40 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_wilderness-hut",
+        "@distance": 707.8,
+        "@id": "w687219985",
+        "@changeset": 74004734,
+        "@timestamp": "2019-09-02T15:06:17Z",
+        "@version": 2,
+        "@uid": 4158457,
+        "@user": "fadany",
+        "building": "yes",
+        "name": "abri de la Fauge",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.575354,
+          45.0463164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
         "@distance": 264.4,
         "@id": "w713673710",
-        "@changeset": 115464349,
-        "@timestamp": "2021-12-28T10:57:03Z",
-        "@version": 3,
-        "@uid": 8080027,
-        "@user": "octalish",
+        "@changeset": 119971676,
+        "@timestamp": "2022-04-20T20:30:12Z",
+        "@version": 4,
+        "@uid": 12588228,
+        "@user": "Lephilippe",
         "building": "yes",
         "capacity": 3,
         "description": "2019-07 : Ensemble assez bien tenu, un poêle, une table assez grande, un banc. L'abri semble bien isolé et pratique",
+        "fee": "no",
         "fireplace": "no",
         "name": "Refuge ONF du Pison",
         "operator": "Office National des Forêts",

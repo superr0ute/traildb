@@ -19337,23 +19337,27 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
-        "@distance": 7346.1,
+        "@distance": 7341.6,
         "@id": "n6605390181",
-        "@changeset": 119821317,
-        "@timestamp": "2022-04-17T15:31:55Z",
-        "@version": 2,
+        "@changeset": 119972078,
+        "@timestamp": "2022-04-20T20:44:45Z",
+        "@version": 5,
         "@uid": 128281,
         "@user": "razor74",
+        "addr:city": "Poiana Mărului",
+        "addr:housenumber": "339B",
+        "addr:postcode": "507160",
         "addr:street": "Principală",
         "cuisine": "regional",
-        "name": "Sergiana",
+        "name": "Sergiana Prăvălie",
+        "phone": "+40368001176",
         "shop": "supermarket"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          25.304969,
-          45.6062906
+          25.3050847,
+          45.6061907
         ]
       }
     },
@@ -19368,10 +19372,10 @@
         "@version": 4,
         "@uid": 128281,
         "@user": "razor74",
-        "name": "Alimentar─â",
-        "name:en": "Supermarket",
+        "shop": "supermarket",
         "opening_hours": "Mo-Su 08:00-21:00",
-        "shop": "supermarket"
+        "name:en": "Supermarket",
+        "name": "Alimentar─â"
       },
       "geometry": {
         "type": "Point",
@@ -19649,6 +19653,54 @@
         "coordinates": [
           24.910756,
           45.6078854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 7352.2,
+        "@id": "n9681111794",
+        "@changeset": 119971938,
+        "@timestamp": "2022-04-20T20:39:22Z",
+        "@version": 1,
+        "@uid": 128281,
+        "@user": "razor74",
+        "addr:city": "Poiana Mărului",
+        "addr:street": "Strada Principală",
+        "name": "Magazin",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3036299,
+          45.6069345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 7392.1,
+        "@id": "n9681111814",
+        "@changeset": 119971938,
+        "@timestamp": "2022-04-20T20:39:22Z",
+        "@version": 1,
+        "@uid": 128281,
+        "@user": "razor74",
+        "addr:city": "Poiana Mărului",
+        "addr:street": "Strada Principală",
+        "name": "Magazin alimentar",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3008286,
+          45.6084901
         ]
       }
     },
@@ -30401,6 +30453,49 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "campsite",
+        "@distance": 10.6,
+        "@id": "n7772119870",
+        "@changeset": 88766735,
+        "@timestamp": "2020-07-31T07:12:31Z",
+        "@version": 1,
+        "@uid": 4648211,
+        "@user": "Mihai Mandea",
+        "name": "Camping Lotrioara",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2378844,
+          45.5647142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 151.9,
+        "@id": "n7834933089",
+        "@changeset": 89781263,
+        "@timestamp": "2020-08-22T13:20:25Z",
+        "@version": 1,
+        "@uid": 3836539,
+        "@user": "czhunty",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.3883018,
+          45.581891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "place_village",
         "@distance": 3538.5,
         "@id": "w75219715",
@@ -33357,49 +33452,6 @@
         "coordinates": [
           22.6938795,
           44.9819405
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 10.6,
-        "@id": "n7772119870",
-        "@changeset": 88766735,
-        "@timestamp": "2020-07-31T07:12:31Z",
-        "@version": 1,
-        "@uid": 4648211,
-        "@user": "Mihai Mandea",
-        "name": "Camping Lotrioara",
-        "tourism": "camp_site"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.2378844,
-          45.5647142
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 151.9,
-        "@id": "n7834933089",
-        "@changeset": 89781263,
-        "@timestamp": "2020-08-22T13:20:25Z",
-        "@version": 1,
-        "@uid": 3836539,
-        "@user": "czhunty",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          24.3883018,
-          45.581891
         ]
       }
     },
