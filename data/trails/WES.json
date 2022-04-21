@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-18T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-04-20T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -596,11 +596,11 @@
     {
       "type": "relation",
       "id": 2497945,
-      "timestamp": "2021-08-16T12:31:48Z",
-      "version": 13,
-      "changeset": 109749994,
-      "user": "uwe-s",
-      "uid": 235018,
+      "timestamp": "2022-04-20T07:48:39Z",
+      "version": 14,
+      "changeset": 119939123,
+      "user": "Karthoo",
+      "uid": 3232636,
       "members": [
         {"type": "node", "ref": 1957400209, "role": "guidepost"},
         {"type": "node", "ref": 1964846914, "role": "guidepost"},
@@ -616,6 +616,8 @@
         {"type": "way", "ref": 136893188, "role": ""},
         {"type": "way", "ref": 180670538, "role": ""},
         {"type": "way", "ref": 24646180, "role": ""},
+        {"type": "way", "ref": 109980827, "role": ""},
+        {"type": "way", "ref": 52116605, "role": ""},
         {"type": "way", "ref": 185795726, "role": ""},
         {"type": "way", "ref": 129640731, "role": ""},
         {"type": "way", "ref": 4810609, "role": ""},
@@ -3274,6 +3276,22 @@
         {"lat": 47.6886693, "lon": 7.6483511}
       ],
       "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade4"}
+    },
+    {
+      "type": "way",
+      "id": 109980827,
+      "timestamp": "2018-09-20T12:56:02Z",
+      "version": 3,
+      "changeset": 62762271,
+      "user": "BeKri",
+      "uid": 14390,
+      "nodes": [267909499, 664142466],
+      "geometry": [
+        {"lat": 47.8735079, "lon": 8.0415798},
+        {"lat": 47.8733807, "lon": 8.0415229},
+        {"lat": 47.8730956, "lon": 8.0412711}
+      ],
+      "tags": {"highway": "track", "tracktype": "grade2"}
     },
     {
       "type": "way",
@@ -13483,16 +13501,13 @@
     {
       "type": "way",
       "id": 24646180,
-      "timestamp": "2020-12-10T18:48:16Z",
-      "version": 16,
-      "changeset": 95635910,
-      "user": "DD1GJ",
-      "uid": 39381,
-      "nodes": [664142468, 267909507],
+      "timestamp": "2022-04-20T07:48:39Z",
+      "version": 17,
+      "changeset": 119939123,
+      "user": "Karthoo",
+      "uid": 3232636,
+      "nodes": [267909499, 267909507],
       "geometry": [
-        {"lat": 47.8729481, "lon": 8.0404153},
-        {"lat": 47.8730955, "lon": 8.040605},
-        {"lat": 47.8733579, "lon": 8.0413043},
         {"lat": 47.8735079, "lon": 8.0415798},
         {"lat": 47.8737988, "lon": 8.0420501},
         {"lat": 47.8740566, "lon": 8.0423995},
@@ -32654,6 +32669,30 @@
         "highway": "track",
         "source": "survey",
         "tracktype": "grade5"
+      }
+    },
+    {
+      "type": "way",
+      "id": 52116605,
+      "timestamp": "2022-04-20T07:48:39Z",
+      "version": 12,
+      "changeset": 119939123,
+      "user": "Karthoo",
+      "uid": 3232636,
+      "nodes": [664142466, 664142468],
+      "geometry": [
+        {"lat": 47.8730956, "lon": 8.0412711},
+        {"lat": 47.8731135, "lon": 8.041138},
+        {"lat": 47.8731074, "lon": 8.040989},
+        {"lat": 47.8730736, "lon": 8.0408132},
+        {"lat": 47.8729481, "lon": 8.0404153}
+      ],
+      "tags": {
+        "highway": "track",
+        "motor_vehicle": "forestry",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "width": "3"
       }
     },
     {
