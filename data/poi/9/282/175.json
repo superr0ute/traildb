@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-04-20T23:59:59Z",
-    "timestamp_osm_base": "2022-04-21T06:20:44Z",
+    "timestamp_osm_date": "2022-04-21T23:59:59Z",
+    "timestamp_osm_base": "2022-04-22T06:33:13Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1605,24 +1605,26 @@
     {
       "type": "node",
       "id": 26036860,
-      "lat": 49.0245126,
-      "lon": 18.8606072,
-      "timestamp": "2020-06-20T18:19:28Z",
-      "version": 11,
-      "changeset": 86917788,
-      "user": "t_ja",
-      "uid": 103618,
+      "lat": 49.0246885,
+      "lon": 18.8606957,
+      "timestamp": "2022-04-21T16:25:04Z",
+      "version": 12,
+      "changeset": 120008951,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
         "city_id": "512664",
         "ele": "446",
         "import_ref": "city_import_sk_1",
         "name": "Trebostovo",
         "name:hu": "Kistorboszló",
+        "name:sk": "Trebostovo",
         "place": "village",
         "population": "481",
         "postal_code": "038 41",
         "region_id": "506",
         "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "http://www.trebostovo.sk/cms/",
         "wikidata": "Q1112349",
         "wikipedia": "sk:Trebostovo"
       }
@@ -26744,6 +26746,45 @@
         "tourism": "attraction",
         "tower:construction": "wood",
         "tower:type": "observation"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1053666059,
+      "timestamp": "2022-04-21T16:25:04Z",
+      "version": 1,
+      "changeset": 120008951,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 49.0252375,
+        "lon": 18.8661884
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1053666060,
+      "timestamp": "2022-04-21T16:25:04Z",
+      "version": 1,
+      "changeset": 120008951,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 49.0239245,
+        "lon": 18.8576263
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
       }
     }
   ]
