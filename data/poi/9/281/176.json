@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-04-21T23:59:59Z",
-    "timestamp_osm_base": "2022-04-22T06:31:07Z",
+    "timestamp_osm_date": "2022-04-22T23:59:59Z",
+    "timestamp_osm_base": "2022-04-23T05:49:16Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -15185,15 +15185,12 @@
       "id": 4474595475,
       "lat": 48.8013738,
       "lon": 18.1131194,
-      "timestamp": "2019-06-13T10:47:49Z",
-      "version": 7,
-      "changeset": 71213174,
-      "user": "misko903",
-      "uid": 132334,
+      "timestamp": "2022-04-22T15:42:27Z",
+      "version": 8,
+      "changeset": 120057957,
+      "user": "yzal",
+      "uid": 5769889,
       "tags": {
-        "addr:housenumber": "275",
-        "addr:postcode": "91322",
-        "addr:street": "Trenčianske Jastrabie",
         "brand": "COOP Jednota",
         "brand:wikidata": "Q41629254",
         "brand:wikipedia": "sk:COOP Jednota Slovensko",
@@ -18353,29 +18350,6 @@
       "uid": 1722705,
       "tags": {
         "amenity": "shelter"
-      }
-    },
-    {
-      "type": "node",
-      "id": 5918369566,
-      "lat": 48.8007745,
-      "lon": 18.1117752,
-      "timestamp": "2019-03-01T07:43:55Z",
-      "version": 2,
-      "changeset": 67676054,
-      "user": "misko903",
-      "uid": 132334,
-      "tags": {
-        "addr:city": "Trenčianske Jastrabie",
-        "addr:country": "SK",
-        "addr:district": "Trenčín",
-        "addr:housenumber": "250",
-        "addr:postcode": "91322",
-        "addr:street": "Trenčianske Jastrabie",
-        "name": "Potraviny HELD",
-        "opening_hours": "Mo-Fr 07:00-15:00, Sa 07:00-11:00",
-        "operator": "H.E.L.D., s.r.o.",
-        "shop": "supermarket"
       }
     },
     {
@@ -22465,18 +22439,24 @@
     {
       "type": "way",
       "id": 61128005,
-      "timestamp": "2017-09-27T17:22:46Z",
-      "version": 3,
-      "changeset": 52420237,
-      "user": "aceman444",
-      "uid": 1617449,
+      "timestamp": "2022-04-22T14:49:50Z",
+      "version": 4,
+      "changeset": 120055494,
+      "user": "yzal",
+      "uid": 5769889,
       "center": {
         "lat": 48.5692359,
         "lon": 18.1640487
       },
       "nodes": [],
       "tags": {
+        "addr:city": "Topoľčany",
+        "addr:conscriptionnumber": "2729",
+        "addr:country": "SK",
+        "addr:housenumber": "2729/14",
+        "addr:postcode": "95501",
         "addr:street": "Sedmikrásková",
+        "addr:streetnumber": "14",
         "building": "yes",
         "import": "budovy201004",
         "name": "Artemis",
@@ -22661,22 +22641,25 @@
     {
       "type": "way",
       "id": 102891916,
-      "timestamp": "2021-12-12T16:11:34Z",
-      "version": 3,
-      "changeset": 114851403,
-      "user": "eumiro",
-      "uid": 29717,
+      "timestamp": "2022-04-22T14:39:08Z",
+      "version": 4,
+      "changeset": 120054797,
+      "user": "yzal",
+      "uid": 5769889,
       "center": {
         "lat": 48.5581943,
-        "lon": 18.1811915
+        "lon": 18.1811946
       },
       "nodes": [],
       "tags": {
         "addr:city": "Topoľčany",
-        "addr:conscriptionnumber": "2773",
+        "addr:conscriptionnumber": "4188",
+        "addr:country": "38",
+        "addr:housenumber": "4188/1A",
         "addr:postcode": "95501",
         "addr:state": "SK",
-        "addr:street": "Pavla Országha Hviezdoslava",
+        "addr:street": "P. O. Hviezdoslava",
+        "addr:streetnumber": "1A",
         "brand": "Billa",
         "brand:wikidata": "Q537781",
         "brand:wikipedia": "sk:BILLA",
@@ -22893,6 +22876,38 @@
         "shop": "convenience",
         "source": "kapor2",
         "source:conscriptionnumber": "kapor2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 240407035,
+      "timestamp": "2022-04-22T15:42:27Z",
+      "version": 6,
+      "changeset": 120057957,
+      "user": "yzal",
+      "uid": 5769889,
+      "center": {
+        "lat": 48.800754,
+        "lon": 18.1117786
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Trenčianske Jastrabie",
+        "addr:conscriptionnumber": "250",
+        "addr:country": "SK",
+        "addr:housenumber": "250",
+        "addr:place": "Trenčianske Jastrabie",
+        "addr:postcode": "91322",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Potraviny HELD",
+        "opening_hours": "Mo-Fr 07:00-15:00, Sa 07:00-11:00",
+        "operator": "H.E.L.D., s.r.o.",
+        "ref:minvskaddress": "31070523",
+        "roof:shape": "gabled",
+        "shop": "supermarket",
+        "source": "kapor2",
+        "source:addr": "minvskaddress 2020-12"
       }
     },
     {
