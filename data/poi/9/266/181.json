@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-04-23T23:59:59Z",
-    "timestamp_osm_base": "2022-04-24T04:48:14Z",
+    "timestamp_osm_date": "2022-04-24T23:59:59Z",
+    "timestamp_osm_base": "2022-04-25T05:20:25Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -27504,20 +27504,24 @@
       "id": 9429476268,
       "lat": 46.2931586,
       "lon": 7.5318561,
-      "timestamp": "2022-01-18T20:59:37Z",
-      "version": 1,
-      "changeset": 116315962,
-      "user": "BBMaper",
-      "uid": 384661,
+      "timestamp": "2022-04-24T12:44:44Z",
+      "version": 3,
+      "changeset": 120122788,
+      "user": "imagoiq",
+      "uid": 1856092,
       "tags": {
         "addr:housenumber": "9b",
         "addr:street": "Avenue du Rothorn",
+        "bulk_purchase": "only",
         "description": "Votre épicerie vrac à Sierre, proposant des produits bio et/ou locaux et sans emballage",
+        "email": "info@brut-vrac.ch",
         "name": "Brüt Vrac Bio",
         "opening_hours": "Mo 14:00-18:30; Tu-Fr 09:00-13:00, 14:00-18:30; Sa 09:00-13:00",
+        "organic": "yes",
         "phone": "+41 76 545 50 22",
         "shop": "convenience",
-        "website": "http://www.brut-vrac.ch/"
+        "website": "http://www.brut-vrac.ch/",
+        "zero_waste": "only"
       }
     },
     {
@@ -27752,6 +27756,20 @@
         "access": "yes",
         "amenity": "drinking_water",
         "wheelchair": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9689288142,
+      "lat": 46.2440634,
+      "lon": 7.3274526,
+      "timestamp": "2022-04-24T08:29:46Z",
+      "version": 1,
+      "changeset": 120114896,
+      "user": "Thierry Vouillamoz",
+      "uid": 11227806,
+      "tags": {
+        "amenity": "drinking_water"
       }
     },
     {
@@ -30806,6 +30824,7 @@
       },
       "nodes": [],
       "tags": {
+        "roof:levels": "0",
         "brand": "Coop Pronto",
         "brand:wikidata": "Q1129777",
         "brand:wikipedia": "de:Coop Mineraloel",
@@ -30820,7 +30839,6 @@
         "name": "Coop Pronto",
         "opening_hours": "Mo-Su 06:00-22:00",
         "roof:colour": "#b9bcb9",
-        "roof:levels": "0",
         "roof:shape": "flat",
         "shop": "convenience",
         "source:height": "calculated estimate"
