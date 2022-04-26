@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-22T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-04-25T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1004,9 +1004,9 @@
     {
       "type": "relation",
       "id": 7670328,
-      "timestamp": "2022-03-19T15:14:17Z",
-      "version": 33,
-      "changeset": 118669097,
+      "timestamp": "2022-04-25T15:29:13Z",
+      "version": 34,
+      "changeset": 120171776,
       "user": "Sergio P",
       "uid": 633272,
       "members": [
@@ -1086,7 +1086,9 @@
         {"type": "way", "ref": 287077519, "role": ""},
         {"type": "way", "ref": 158487337, "role": ""},
         {"type": "way", "ref": 316228051, "role": ""},
+        {"type": "way", "ref": 1054798667, "role": ""},
         {"type": "way", "ref": 316228049, "role": ""},
+        {"type": "way", "ref": 1054798666, "role": ""},
         {"type": "way", "ref": 159355035, "role": ""},
         {"type": "way", "ref": 38807571, "role": ""},
         {"type": "way", "ref": 38807573, "role": ""},
@@ -6380,6 +6382,48 @@
         "highway": "residential",
         "name": "Via San Rocco",
         "source": "PCN ortofoto a colori 2006, CTR al tratto"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1054798666,
+      "timestamp": "2022-04-25T15:29:13Z",
+      "version": 1,
+      "changeset": 120171776,
+      "user": "Sergio P",
+      "uid": 633272,
+      "nodes": [9692749706, 460384601],
+      "geometry": [
+        {"lat": 46.0429547, "lon": 8.7323925},
+        {"lat": 46.0429999, "lon": 8.7324019}
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "footway",
+        "sac_scale": "hiking",
+        "tracktype": "grade2",
+        "width": "2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1054798667,
+      "timestamp": "2022-04-25T15:29:13Z",
+      "version": 1,
+      "changeset": 120171776,
+      "user": "Sergio P",
+      "uid": 633272,
+      "nodes": [2628697764, 460384611],
+      "geometry": [
+        {"lat": 46.0412291, "lon": 8.7322693},
+        {"lat": 46.0412491, "lon": 8.7320578}
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "footway",
+        "sac_scale": "hiking",
+        "tracktype": "grade2",
+        "width": "2"
       }
     },
     {
@@ -46557,14 +46601,13 @@
     {
       "type": "way",
       "id": 316228049,
-      "timestamp": "2018-04-02T13:10:05Z",
-      "version": 2,
-      "changeset": 57739042,
-      "user": "Alecs01",
-      "uid": 1476146,
-      "nodes": [2628697764, 460384601],
+      "timestamp": "2022-04-25T15:29:13Z",
+      "version": 3,
+      "changeset": 120171776,
+      "user": "Sergio P",
+      "uid": 633272,
+      "nodes": [460384611, 9692749706],
       "geometry": [
-        {"lat": 46.0412291, "lon": 8.7322693},
         {"lat": 46.0412491, "lon": 8.7320578},
         {"lat": 46.041378, "lon": 8.7320821},
         {"lat": 46.0415349, "lon": 8.7321628},
@@ -46574,7 +46617,7 @@
         {"lat": 46.0425285, "lon": 8.7323866},
         {"lat": 46.0426894, "lon": 8.7323808},
         {"lat": 46.0428567, "lon": 8.7323721},
-        {"lat": 46.0429999, "lon": 8.7324019}
+        {"lat": 46.0429547, "lon": 8.7323925}
       ],
       "tags": {
         "foot": "yes",

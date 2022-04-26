@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-24T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-04-25T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2268,11 +2268,11 @@
     {
       "type": "relation",
       "id": 905955,
-      "timestamp": "2021-10-15T18:14:46Z",
-      "version": 65,
-      "changeset": 112553775,
-      "user": "Karthoo",
-      "uid": 3232636,
+      "timestamp": "2022-04-25T16:17:23Z",
+      "version": 66,
+      "changeset": 120173687,
+      "user": "jeroenrozema74",
+      "uid": 183483,
       "members": [
         {"type": "node", "ref": 276379071, "role": "night_stop"},
         {"type": "node", "ref": 727816366, "role": "join:5"},
@@ -2387,6 +2387,8 @@
         {"type": "way", "ref": 993109957, "role": ""},
         {"type": "way", "ref": 993109956, "role": ""},
         {"type": "way", "ref": 25352559, "role": ""},
+        {"type": "way", "ref": 1054809664, "role": ""},
+        {"type": "way", "ref": 1054809665, "role": ""},
         {"type": "way", "ref": 25352560, "role": ""},
         {"type": "way", "ref": 25361895, "role": ""},
         {"type": "way", "ref": 58765089, "role": ""},
@@ -2397,6 +2399,7 @@
         {"type": "way", "ref": 25370655, "role": ""},
         {"type": "way", "ref": 25402340, "role": ""},
         {"type": "way", "ref": 590800564, "role": ""},
+        {"type": "way", "ref": 1054809663, "role": ""},
         {"type": "way", "ref": 25402341, "role": ""},
         {"type": "way", "ref": 137270666, "role": ""},
         {"type": "way", "ref": 58760351, "role": "last"},
@@ -3200,6 +3203,85 @@
         "highway": "track",
         "surface": "fine_gravel",
         "tracktype": "grade2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1054809663,
+      "timestamp": "2022-04-25T16:17:23Z",
+      "version": 1,
+      "changeset": 120173687,
+      "user": "jeroenrozema74",
+      "uid": 183483,
+      "nodes": [9692840850, 276843134],
+      "geometry": [
+        {"lat": 48.2847243, "lon": 8.1738818},
+        {"lat": 48.284752, "lon": 8.173985}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Hauptstraße",
+        "ref": "K 5359",
+        "sidewalk": "both",
+        "surface": "asphalt",
+        "zone:traffic": "DE:urban"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1054809664,
+      "timestamp": "2022-04-25T16:17:23Z",
+      "version": 1,
+      "changeset": 120173687,
+      "user": "jeroenrozema74",
+      "uid": 183483,
+      "nodes": [7924984239, 253946200],
+      "geometry": [
+        {"lat": 48.2853276, "lon": 8.1809033},
+        {"lat": 48.2853041, "lon": 8.1811471}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "lcn": "yes",
+        "maxspeed": "50",
+        "name": "Eisenbahnstraße",
+        "ref": "K 5359",
+        "sidewalk": "both",
+        "source:maxspeed": "DE:urban",
+        "surface": "asphalt",
+        "zone:traffic": "DE:urban"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1054809665,
+      "timestamp": "2022-04-25T16:17:23Z",
+      "version": 1,
+      "changeset": 120173687,
+      "user": "jeroenrozema74",
+      "uid": 183483,
+      "nodes": [276288026, 7924984239],
+      "geometry": [
+        {"lat": 48.2855162, "lon": 8.1796968},
+        {"lat": 48.2854479, "lon": 8.179963},
+        {"lat": 48.2853966, "lon": 8.1802805},
+        {"lat": 48.2853473, "lon": 8.1806975},
+        {"lat": 48.2853276, "lon": 8.1809033}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "lcn": "yes",
+        "maxspeed": "50",
+        "name": "Eisenbahnstraße",
+        "ref": "K 5359",
+        "sidewalk": "both",
+        "source:maxspeed": "DE:urban",
+        "surface": "asphalt",
+        "zone:traffic": "DE:urban"
       }
     },
     {
@@ -14475,19 +14557,14 @@
     {
       "type": "way",
       "id": 25352559,
-      "timestamp": "2020-09-20T09:14:06Z",
-      "version": 25,
-      "changeset": 91169512,
-      "user": "okilimu",
-      "uid": 212111,
-      "nodes": [276288026, 2960574535],
+      "timestamp": "2022-04-25T16:17:23Z",
+      "version": 26,
+      "changeset": 120173687,
+      "user": "jeroenrozema74",
+      "uid": 183483,
+      "nodes": [253946200, 2960574535],
       "geometry": [
-        {"lat": 48.2855162, "lon": 8.1796968},
-        {"lat": 48.2854479, "lon": 8.179963},
-        {"lat": 48.2853966, "lon": 8.1802805},
-        {"lat": 48.2853509, "lon": 8.1807002},
-        {"lat": 48.2853222, "lon": 8.180973},
-        {"lat": 48.2853121, "lon": 8.1810693},
+        {"lat": 48.2853041, "lon": 8.1811471},
         {"lat": 48.2852845, "lon": 8.1813792},
         {"lat": 48.285276, "lon": 8.181477},
         {"lat": 48.2852534, "lon": 8.1817772},
@@ -14642,9 +14719,9 @@
       "uid": 35560,
       "nodes": [276843137, 253946193],
       "geometry": [
-        {"lat": 48.2849049, "lon": 8.1745481},
-        {"lat": 48.2849142, "lon": 8.1745843},
-        {"lat": 48.2849477, "lon": 8.1746613},
+        {"lat": 48.2849013, "lon": 8.1745494},
+        {"lat": 48.2849187, "lon": 8.1745923},
+        {"lat": 48.2849557, "lon": 8.1746828},
         {"lat": 48.2850167, "lon": 8.1748202}
       ],
       "tags": {
@@ -14661,17 +14738,17 @@
     {
       "type": "way",
       "id": 25402341,
-      "timestamp": "2020-08-04T16:23:56Z",
-      "version": 9,
-      "changeset": 88939379,
-      "user": "Peilscheibe",
-      "uid": 35560,
-      "nodes": [253946192, 276843134],
+      "timestamp": "2022-04-25T16:17:23Z",
+      "version": 10,
+      "changeset": 120173687,
+      "user": "jeroenrozema74",
+      "uid": 183483,
+      "nodes": [253946192, 9692840850],
       "geometry": [
         {"lat": 48.2846311, "lon": 8.1734952},
         {"lat": 48.2846446, "lon": 8.1735501},
         {"lat": 48.2846635, "lon": 8.1736253},
-        {"lat": 48.2847136, "lon": 8.1738266}
+        {"lat": 48.2847243, "lon": 8.1738818}
       ],
       "tags": {
         "bridge": "yes",
@@ -40496,15 +40573,15 @@
     {
       "type": "way",
       "id": 590800564,
-      "timestamp": "2020-08-04T16:23:56Z",
-      "version": 2,
-      "changeset": 88939379,
-      "user": "Peilscheibe",
-      "uid": 35560,
+      "timestamp": "2022-04-25T16:17:23Z",
+      "version": 3,
+      "changeset": 120173687,
+      "user": "jeroenrozema74",
+      "uid": 183483,
       "nodes": [276843134, 276843137],
       "geometry": [
-        {"lat": 48.2847136, "lon": 8.1738266},
-        {"lat": 48.2849049, "lon": 8.1745481}
+        {"lat": 48.284752, "lon": 8.173985},
+        {"lat": 48.2849013, "lon": 8.1745494}
       ],
       "tags": {
         "highway": "tertiary",

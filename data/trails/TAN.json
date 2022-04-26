@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-23T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-04-25T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11380683,
-      "timestamp": "2022-01-15T10:10:02Z",
-      "version": 13,
-      "changeset": 116176651,
-      "user": "KingCZE",
-      "uid": 13552526,
+      "timestamp": "2022-04-25T05:18:47Z",
+      "version": 14,
+      "changeset": 120147017,
+      "user": "kylenz",
+      "uid": 10140394,
       "members": [
         {"type": "way", "ref": 662359332, "role": ""},
         {"type": "way", "ref": 675572673, "role": ""},
@@ -58,6 +58,7 @@
         {"type": "way", "ref": 1002555762, "role": ""},
         {"type": "way", "ref": 1002555761, "role": ""},
         {"type": "way", "ref": 1002555760, "role": ""},
+        {"type": "way", "ref": 1054609661, "role": ""},
         {"type": "way", "ref": 1002555781, "role": ""},
         {"type": "way", "ref": 734151897, "role": ""},
         {"type": "way", "ref": 740959494, "role": ""},
@@ -3974,9 +3975,9 @@
     {
       "type": "way",
       "id": 1002555760,
-      "timestamp": "2021-11-15T08:58:12Z",
-      "version": 1,
-      "changeset": 113794907,
+      "timestamp": "2022-04-25T05:18:47Z",
+      "version": 2,
+      "changeset": 120147017,
       "user": "kylenz",
       "uid": 10140394,
       "nodes": [9252630178, 982175375],
@@ -3984,6 +3985,7 @@
         {"lat": -36.5809143, "lon": 174.6943166},
         {"lat": -36.5810376, "lon": 174.6943523},
         {"lat": -36.5810573, "lon": 174.6943601},
+        {"lat": -36.58137, "lon": 174.6945043},
         {"lat": -36.5814057, "lon": 174.6945207},
         {"lat": -36.5814322, "lon": 174.6945323},
         {"lat": -36.5820147, "lon": 174.6947871},
@@ -4096,9 +4098,9 @@
     {
       "type": "way",
       "id": 1002555766,
-      "timestamp": "2021-11-15T08:58:12Z",
-      "version": 1,
-      "changeset": 113794907,
+      "timestamp": "2022-04-25T05:18:47Z",
+      "version": 2,
+      "changeset": 120147017,
       "user": "kylenz",
       "uid": 10140394,
       "nodes": [982175088, 7947038236],
@@ -4111,8 +4113,7 @@
       "tags": {
         "highway": "service",
         "lit": "yes",
-        "name": "Millennium Walk",
-        "service": "driveway",
+        "name": "Marine Parade",
         "surface": "dirt/sand"
       }
     },
@@ -4140,9 +4141,9 @@
     {
       "type": "way",
       "id": 1002555769,
-      "timestamp": "2021-11-15T08:58:12Z",
-      "version": 1,
-      "changeset": 113794907,
+      "timestamp": "2022-04-25T05:18:47Z",
+      "version": 2,
+      "changeset": 120147017,
       "user": "kylenz",
       "uid": 10140394,
       "nodes": [2843272288, 9252630204],
@@ -4159,17 +4160,16 @@
       "tags": {
         "highway": "service",
         "lit": "yes",
-        "name": "Millennium Walk",
-        "service": "driveway",
+        "name": "Marine Parade",
         "surface": "dirt/sand"
       }
     },
     {
       "type": "way",
       "id": 1002555772,
-      "timestamp": "2021-11-15T08:58:12Z",
-      "version": 1,
-      "changeset": 113794907,
+      "timestamp": "2022-04-25T05:18:47Z",
+      "version": 2,
+      "changeset": 120147017,
       "user": "kylenz",
       "uid": 10140394,
       "nodes": [9252630216, 2843272288],
@@ -4184,26 +4184,20 @@
       "tags": {
         "highway": "service",
         "lit": "yes",
-        "name": "Millennium Walk",
-        "service": "driveway",
+        "name": "Marine Parade",
         "surface": "dirt/sand"
       }
     },
     {
       "type": "way",
       "id": 1002555781,
-      "timestamp": "2021-11-15T08:58:12Z",
-      "version": 1,
-      "changeset": 113794907,
+      "timestamp": "2022-04-25T05:18:47Z",
+      "version": 2,
+      "changeset": 120147017,
       "user": "kylenz",
       "uid": 10140394,
-      "nodes": [982175375, 6875312099],
+      "nodes": [982175819, 6875312099],
       "geometry": [
-        {"lat": -36.5841944, "lon": 174.6957536},
-        {"lat": -36.5842196, "lon": 174.6957859},
-        {"lat": -36.5844403, "lon": 174.695847},
-        {"lat": -36.5844865, "lon": 174.6958394},
-        {"lat": -36.5845465, "lon": 174.6958565},
         {"lat": -36.5851473, "lon": 174.6961843},
         {"lat": -36.5852625, "lon": 174.6962629},
         {"lat": -36.5854408, "lon": 174.6963244},
@@ -4220,10 +4214,9 @@
         {"lat": -36.5861081, "lon": 174.6966521}
       ],
       "tags": {
-        "highway": "service",
+        "highway": "footway",
         "lit": "yes",
         "name": "Millennium Walk",
-        "service": "driveway",
         "surface": "dirt/sand"
       }
     },
@@ -7338,6 +7331,30 @@
         "oneway": "yes",
         "ref": "SH 1",
         "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1054609661,
+      "timestamp": "2022-04-25T05:18:47Z",
+      "version": 1,
+      "changeset": 120147017,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [982175375, 982175819],
+      "geometry": [
+        {"lat": -36.5841944, "lon": 174.6957536},
+        {"lat": -36.5842196, "lon": 174.6957859},
+        {"lat": -36.5844403, "lon": 174.695847},
+        {"lat": -36.5844865, "lon": 174.6958394},
+        {"lat": -36.5845465, "lon": 174.6958565},
+        {"lat": -36.5851473, "lon": 174.6961843}
+      ],
+      "tags": {
+        "highway": "service",
+        "lit": "yes",
+        "name": "Marine Parade",
+        "surface": "dirt/sand"
       }
     },
     {
@@ -17565,19 +17582,23 @@
     {
       "type": "way",
       "id": 169037217,
-      "timestamp": "2019-03-06T06:48:30Z",
-      "version": 9,
-      "changeset": 67832485,
+      "timestamp": "2022-04-25T04:30:12Z",
+      "version": 10,
+      "changeset": 120145652,
       "user": "AlwynWellington",
       "uid": 567640,
       "nodes": [333948510, 333949586],
       "geometry": [
-        {"lat": -41.2184152, "lon": 174.7900778},
-        {"lat": -41.2183518, "lon": 174.7902126},
+        {"lat": -41.2184314, "lon": 174.7900778},
+        {"lat": -41.2183793, "lon": 174.7901358},
+        {"lat": -41.2183388, "lon": 174.7902233},
         {"lat": -41.2183047, "lon": 174.7904162},
-        {"lat": -41.2182414, "lon": 174.7905405},
-        {"lat": -41.2181373, "lon": 174.7905556},
-        {"lat": -41.2180438, "lon": 174.7905147},
+        {"lat": -41.2182668, "lon": 174.7904965},
+        {"lat": -41.2182277, "lon": 174.7905396},
+        {"lat": -41.2181827, "lon": 174.7905589},
+        {"lat": -41.2181326, "lon": 174.7905518},
+        {"lat": -41.2180445, "lon": 174.7905067},
+        {"lat": -41.2179889, "lon": 174.7904572},
         {"lat": -41.217943, "lon": 174.7903856},
         {"lat": -41.217805, "lon": 174.7900264},
         {"lat": -41.2177668, "lon": 174.7898353},
@@ -46610,7 +46631,7 @@
       "uid": 567640,
       "nodes": [333948510, 6374687328],
       "geometry": [
-        {"lat": -41.2184152, "lon": 174.7900778},
+        {"lat": -41.2184314, "lon": 174.7900778},
         {"lat": -41.2183513, "lon": 174.7900771},
         {"lat": -41.2182772, "lon": 174.7900322},
         {"lat": -41.2182625, "lon": 174.7899331},
@@ -64536,17 +64557,18 @@
     {
       "type": "way",
       "id": 460852406,
-      "timestamp": "2021-02-24T16:23:21Z",
-      "version": 11,
-      "changeset": 99918372,
-      "user": "LACDH",
-      "uid": 4994674,
+      "timestamp": "2022-04-25T05:18:47Z",
+      "version": 12,
+      "changeset": 120147017,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [4611600448, 4611587968],
       "geometry": [
         {"lat": -36.5911673, "lon": 174.6989439},
         {"lat": -36.5916383, "lon": 174.6991359},
         {"lat": -36.5922434, "lon": 174.6994047},
         {"lat": -36.592304, "lon": 174.6992717},
+        {"lat": -36.5927077, "lon": 174.6994299},
         {"lat": -36.5930843, "lon": 174.6995776}
       ],
       "tags": {
@@ -86982,11 +87004,11 @@
     {
       "type": "way",
       "id": 741652891,
-      "timestamp": "2020-12-20T11:52:53Z",
-      "version": 6,
-      "changeset": 96136626,
-      "user": "LACDH",
-      "uid": 4994674,
+      "timestamp": "2022-04-25T05:18:47Z",
+      "version": 7,
+      "changeset": 120147017,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [961403822, 7784539643],
       "geometry": [
         {"lat": -36.6004992, "lon": 174.6964519},
@@ -86997,12 +87019,7 @@
         {"lat": -36.6003827, "lon": 174.6967332},
         {"lat": -36.6003881, "lon": 174.6967784}
       ],
-      "tags": {
-        "highway": "path",
-        "lit": "yes",
-        "name": "access to Orewa Estuary Path",
-        "surface": "concrete"
-      }
+      "tags": {"highway": "path", "lit": "yes", "surface": "concrete"}
     },
     {
       "type": "way",
@@ -93713,11 +93730,11 @@
     {
       "type": "way",
       "id": 833906800,
-      "timestamp": "2020-08-04T22:54:00Z",
-      "version": 3,
-      "changeset": 88950537,
-      "user": "AlwynWellington",
-      "uid": 567640,
+      "timestamp": "2022-04-25T05:18:47Z",
+      "version": 4,
+      "changeset": 120147017,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [961403802, 961403775],
       "geometry": [
         {"lat": -36.6005079, "lon": 174.6970575},
@@ -93727,12 +93744,7 @@
         {"lat": -36.6005728, "lon": 174.6968765},
         {"lat": -36.6005804, "lon": 174.6967766}
       ],
-      "tags": {
-        "highway": "footway",
-        "lit": "yes",
-        "name": "access to Orewa Estuary Path",
-        "surface": "concrete"
-      }
+      "tags": {"highway": "footway", "lit": "yes", "surface": "concrete"}
     },
     {
       "type": "way",
@@ -95461,17 +95473,20 @@
     {
       "type": "way",
       "id": 84529090,
-      "timestamp": "2021-11-15T08:58:12Z",
-      "version": 14,
-      "changeset": 113794907,
+      "timestamp": "2022-04-25T05:18:47Z",
+      "version": 15,
+      "changeset": 120147017,
       "user": "kylenz",
       "uid": 10140394,
       "nodes": [982175265, 9252630216],
       "geometry": [
         {"lat": -36.5753483, "lon": 174.6920292},
+        {"lat": -36.5754419, "lon": 174.6920662},
         {"lat": -36.5754912, "lon": 174.6920857},
-        {"lat": -36.5756092, "lon": 174.692126},
-        {"lat": -36.575686, "lon": 174.692225},
+        {"lat": -36.5755407, "lon": 174.6921164},
+        {"lat": -36.5756382, "lon": 174.6922021},
+        {"lat": -36.5756669, "lon": 174.6922303},
+        {"lat": -36.5756997, "lon": 174.6922623},
         {"lat": -36.5757628, "lon": 174.6923002},
         {"lat": -36.5760799, "lon": 174.6924186},
         {"lat": -36.5761541, "lon": 174.6924463},
@@ -96116,14 +96131,15 @@
     {
       "type": "way",
       "id": 85134372,
-      "timestamp": "2022-01-13T21:26:04Z",
-      "version": 18,
-      "changeset": 116125104,
-      "user": "LACDH",
-      "uid": 4994674,
+      "timestamp": "2022-04-25T05:18:47Z",
+      "version": 19,
+      "changeset": 120147017,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [987488303, 982175482],
       "geometry": [
         {"lat": -36.5748644, "lon": 174.6905334},
+        {"lat": -36.5749391, "lon": 174.6905485},
         {"lat": -36.5750786, "lon": 174.6905766}
       ],
       "tags": {
@@ -98292,31 +98308,26 @@
     {
       "type": "way",
       "id": 886652613,
-      "timestamp": "2020-12-20T11:52:53Z",
-      "version": 1,
-      "changeset": 96136626,
-      "user": "LACDH",
-      "uid": 4994674,
+      "timestamp": "2022-04-25T05:18:47Z",
+      "version": 2,
+      "changeset": 120147017,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [8244705126, 961403802],
       "geometry": [
         {"lat": -36.6004594, "lon": 174.6969411},
         {"lat": -36.6005079, "lon": 174.6970575}
       ],
-      "tags": {
-        "highway": "path",
-        "lit": "yes",
-        "name": "access to Orewa Estuary Path",
-        "surface": "concrete"
-      }
+      "tags": {"highway": "path", "lit": "yes", "surface": "concrete"}
     },
     {
       "type": "way",
       "id": 886652614,
-      "timestamp": "2020-12-20T11:52:53Z",
-      "version": 1,
-      "changeset": 96136626,
-      "user": "LACDH",
-      "uid": 4994674,
+      "timestamp": "2022-04-25T05:18:47Z",
+      "version": 2,
+      "changeset": 120147017,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [7784539643, 8244705126],
       "geometry": [
         {"lat": -36.6003881, "lon": 174.6967784},
@@ -98326,7 +98337,6 @@
         "covered": "yes",
         "highway": "path",
         "lit": "yes",
-        "name": "access to Orewa Estuary Path",
         "surface": "concrete"
       }
     },
