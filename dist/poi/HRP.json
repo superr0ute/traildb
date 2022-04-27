@@ -19975,13 +19975,16 @@
         "@poi": "shelter_shelter",
         "@distance": 28,
         "@id": "n7725215491",
-        "@changeset": 88158045,
-        "@timestamp": "2020-07-17T19:10:38Z",
-        "@version": 1,
-        "@uid": 3221240,
-        "@user": "alfonsocg1983",
+        "@changeset": 120229649,
+        "@timestamp": "2022-04-26T20:34:09Z",
+        "@version": 2,
+        "@uid": 6692235,
+        "@user": "Hartz Beltza",
         "amenity": "shelter",
-        "name": "Refugio Izandorre"
+        "name": "Izandorre",
+        "name:es": "Refugio de Izandorre",
+        "name:eu": "Izandorreko aterpea",
+        "name:fr": "Refuge d'Izandorre"
       },
       "geometry": {
         "type": "Point",
@@ -20408,29 +20411,6 @@
         "coordinates": [
           -0.8141808,
           42.9801982
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_cave",
-        "@distance": 1188.8,
-        "@id": "n9568485147",
-        "@changeset": 119497533,
-        "@timestamp": "2022-04-09T09:56:57Z",
-        "@version": 10,
-        "@uid": 6672338,
-        "@user": "Baxe Nafarroa",
-        "man_made": "adit",
-        "name": "Arbantako Minak",
-        "natural": "cave_entrance"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.2863715,
-          43.0494018
         ]
       }
     },
@@ -23243,15 +23223,40 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_cave",
-        "@distance": 918.4,
-        "@id": "n9571340902",
-        "@changeset": 118374038,
-        "@timestamp": "2022-03-11T17:57:09Z",
-        "@version": 1,
+        "@distance": 1188.8,
+        "@id": "n9568485147",
+        "@changeset": 119497533,
+        "@timestamp": "2022-04-09T09:56:57Z",
+        "@version": 10,
         "@uid": 6672338,
         "@user": "Baxe Nafarroa",
         "man_made": "adit",
+        "name": "Arbantako Minak",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2863715,
+          43.0494018
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_cave",
+        "@distance": 918.4,
+        "@id": "n9571340902",
+        "@changeset": 120229649,
+        "@timestamp": "2022-04-26T20:34:09Z",
+        "@version": 2,
+        "@uid": 6692235,
+        "@user": "Hartz Beltza",
+        "man_made": "adit",
         "name": "Minas Bezunartea",
+        "name:es": "Minas Bezunartea",
+        "name:eu": "Bezunarteko mealekuak",
         "natural": "cave_entrance"
       },
       "geometry": {
@@ -23332,28 +23337,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_spring",
-        "@distance": 727.6,
-        "@id": "n9583538175",
-        "@changeset": 120123309,
-        "@timestamp": "2022-04-24T12:57:51Z",
-        "@version": 5,
-        "@uid": 6672338,
-        "@user": "Baxe Nafarroa",
-        "name": "Abrevadero",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.2728162,
-          43.0495731
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 1004.1,
         "@id": "n9659155024",
@@ -23396,15 +23379,20 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_spring",
+        "@poi": "water_drinking-water",
         "@distance": 1150.1,
         "@id": "n9689662200",
-        "@changeset": 120123177,
-        "@timestamp": "2022-04-24T12:54:38Z",
-        "@version": 1,
-        "@uid": 6672338,
-        "@user": "Baxe Nafarroa",
-        "name": "Abrevadero",
+        "@changeset": 120225499,
+        "@timestamp": "2022-04-26T18:32:03Z",
+        "@version": 2,
+        "@uid": 6692235,
+        "@user": "Hartz Beltza",
+        "amenity": "drinking_water",
+        "animal": "yes",
+        "name": "Harraska",
+        "name:es": "Abrevadero",
+        "name:eu": "Harraska",
+        "name:fr": "Abreuvoir",
         "natural": "spring"
       },
       "geometry": {
@@ -23412,6 +23400,58 @@
         "coordinates": [
           -1.280017,
           43.0512144
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 733,
+        "@id": "n9695770786",
+        "@changeset": 120225499,
+        "@timestamp": "2022-04-26T18:32:03Z",
+        "@version": 1,
+        "@uid": 6692235,
+        "@user": "Hartz Beltza",
+        "amenity": "drinking_water",
+        "animal": "yes",
+        "name": "Harraska",
+        "name:es": "Abrevadero",
+        "name:eu": "Harraska",
+        "name:fr": "Abreuvoir",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2728205,
+          43.0496237
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "mountain-pass",
+        "@distance": 23.3,
+        "@id": "n9696043838",
+        "@changeset": 120229649,
+        "@timestamp": "2022-04-26T20:34:09Z",
+        "@version": 1,
+        "@uid": 6692235,
+        "@user": "Hartz Beltza",
+        "ele": 1317.55,
+        "name": "Intzondorreko lepoa",
+        "name:eu": "Intzondorreko lepoa",
+        "name:fr": "Col d'Intzondorre",
+        "natural": "saddle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2887211,
+          43.0372215
         ]
       }
     },
@@ -23647,13 +23687,16 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 28.7,
         "@id": "w179292975",
-        "@changeset": 111837264,
-        "@timestamp": "2021-09-28T20:46:16Z",
-        "@version": 7,
-        "@uid": 16897,
-        "@user": "pyrenees",
+        "@changeset": 120229649,
+        "@timestamp": "2022-04-26T20:34:09Z",
+        "@version": 8,
+        "@uid": 6692235,
+        "@user": "Hartz Beltza",
         "building": "yes",
-        "name": "Cabane d'Izandorre",
+        "name": "Izandorre",
+        "name:es": "Refugio de Izandorre",
+        "name:eu": "Izandorreko aterpea",
+        "name:fr": "Refuge d'Izandorre",
         "note": "SOS service",
         "operator": "Gobierno de Navarra",
         "source": "Association Refuges et cabanes des Pyrenees",

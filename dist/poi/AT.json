@@ -1623,20 +1623,20 @@
         "@version": 4,
         "@uid": 3769434,
         "@user": "manoharuss",
-        "census:population": "29028;2006",
-        "ele": 84,
         "gnis:Class": "Populated Place",
         "gnis:County": "Dutchess",
         "gnis:County_num": "027",
         "gnis:ST_alpha": "NY",
         "gnis:ST_num": "36",
-        "gnis:id": "972417",
         "import_uuid": "bb7269ee-502a-5391-8056-e3ce0e66489c",
         "is_in": "Dutchess,New York,N.Y.,NY,USA",
-        "name": "East Fishkill",
-        "place": "town",
+        "wikidata": "Q3250383",
         "population": 29028,
-        "wikidata": "Q3250383"
+        "place": "town",
+        "name": "East Fishkill",
+        "gnis:id": "972417",
+        "census:population": "29028;2006",
+        "ele": 84
       },
       "geometry": {
         "type": "Point",
@@ -1652,24 +1652,15 @@
         "@poi": "place_village",
         "@distance": 3534.9,
         "@id": "n158813790",
-        "@changeset": 158653,
-        "@timestamp": "2008-12-06T16:38:04Z",
-        "@version": 2,
-        "@uid": 3582,
-        "@user": "davidearl",
-        "census:population": "2292;2006",
+        "@changeset": 120233932,
+        "@timestamp": "2022-04-26T23:44:24Z",
+        "@version": 3,
+        "@uid": 591186,
+        "@user": "ke9tv",
         "ele": 141,
-        "gnis:Class": "Populated Place",
-        "gnis:County": "Dutchess",
-        "gnis:County_num": "027",
-        "gnis:ST_alpha": "NY",
-        "gnis:ST_num": "36",
         "gnis:id": "960006",
-        "import_uuid": "bb7269ee-502a-5391-8056-e3ce0e66489c",
-        "is_in": "Dutchess,New York,N.Y.,NY,USA",
         "name": "Pawling",
-        "place": "village",
-        "population": 2292
+        "place": "village"
       },
       "geometry": {
         "type": "Point",
@@ -14566,21 +14557,21 @@
         "@version": 5,
         "@uid": 2456367,
         "@user": "hdevine825",
-        "census:population": "14907;2006",
-        "ele": 115,
         "gnis:Class": "Populated Place",
         "gnis:County": "Dutchess",
         "gnis:County_num": "027",
         "gnis:ST_alpha": "NY",
         "gnis:ST_num": "36",
-        "gnis:id": "943544",
         "import_uuid": "bb7269ee-502a-5391-8056-e3ce0e66489c",
         "is_in": "Dutchess,New York,N.Y.,NY,USA",
-        "name": "Beekman",
-        "place": "town",
+        "wikipedia": "en:Beekman, New York",
         "population": 14907,
         "wikidata": "Q920518",
-        "wikipedia": "en:Beekman, New York"
+        "place": "town",
+        "census:population": "14907;2006",
+        "ele": 115,
+        "gnis:id": "943544",
+        "name": "Beekman"
       },
       "geometry": {
         "type": "Point",
@@ -48502,6 +48493,34 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "peak_peak",
+        "@distance": 3774,
+        "@id": "n359272351",
+        "@changeset": 82904174,
+        "@timestamp": "2020-04-01T06:38:08Z",
+        "@version": 2,
+        "@uid": 364,
+        "@user": "Edward",
+        "ele": 464,
+        "gnis:county_id": "005",
+        "gnis:created": "09/12/1979",
+        "gnis:feature_id": "212239",
+        "gnis:state_id": "09",
+        "name": "Woodbury Mountain",
+        "natural": "peak",
+        "wikidata": "Q31808844"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.3487302,
+          41.7984283
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 9714.7,
         "@id": "w143932164",
@@ -55312,34 +55331,6 @@
         "coordinates": [
           -73.1545497,
           42.6414151
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 3774,
-        "@id": "n359272351",
-        "@changeset": 82904174,
-        "@timestamp": "2020-04-01T06:38:08Z",
-        "@version": 2,
-        "@uid": 364,
-        "@user": "Edward",
-        "ele": 464,
-        "gnis:county_id": "005",
-        "gnis:created": "09/12/1979",
-        "gnis:feature_id": "212239",
-        "gnis:state_id": "09",
-        "name": "Woodbury Mountain",
-        "natural": "peak",
-        "wikidata": "Q31808844"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -73.3487302,
-          41.7984283
         ]
       }
     },
