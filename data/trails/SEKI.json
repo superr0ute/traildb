@@ -1,15 +1,16 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-01-26T02:41:29Z"},
+  "osm3s": {"timestamp_osm_base": "2022-04-28T04:15:52Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11628437,
-      "timestamp": "2021-12-27T19:27:31Z",
-      "version": 22,
-      "changeset": 115440885,
+      "timestamp": "2022-04-27T16:00:21Z",
+      "version": 23,
+      "changeset": 120266707,
       "user": "OddlyAngled",
       "uid": 11607814,
       "members": [
+        {"type": "way", "ref": 1055449254, "role": ""},
         {"type": "way", "ref": 907479450, "role": ""},
         {"type": "way", "ref": 907479449, "role": ""},
         {"type": "way", "ref": 139422064, "role": ""},
@@ -58,6 +59,7 @@
         {"type": "way", "ref": 1015935300, "role": ""},
         {"type": "way", "ref": 39456082, "role": ""},
         {"type": "way", "ref": 989160575, "role": ""},
+        {"type": "way", "ref": 1055449255, "role": ""},
         {"type": "way", "ref": 989160576, "role": ""}
       ],
       "tags": {
@@ -4614,6 +4616,55 @@
         {"lat": 36.7892398, "lon": -118.5533434, "z": 1562.1},
         {"lat": 36.7892892, "lon": -118.5530578, "z": 1562.5},
         {"lat": 36.789291, "lon": -118.5528349, "z": 1561.4}
+      ],
+      "tags": {
+        "bicycle": "no",
+        "foot": "designated",
+        "highway": "path",
+        "horse": "yes",
+        "motor_vehicle": "no",
+        "name": "Paradise Valley Trail",
+        "sac_scale": "hiking",
+        "source": "GPX + USGS Topo + Bing Imagery",
+        "surface": "dirt",
+        "trail_visibility": "excellent"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1055449254,
+      "timestamp": "2022-04-27T16:00:21Z",
+      "version": 1,
+      "changeset": 120266707,
+      "user": "OddlyAngled",
+      "uid": 11607814,
+      "nodes": [87496499, 2149851344],
+      "geometry": [
+        {"lat": 36.7961846, "lon": -118.5837382, "z": 1535.9},
+        {"lat": 36.79631, "lon": -118.5838289, "z": 1537.1},
+        {"lat": 36.7965047, "lon": -118.5835595, "z": 1542.2}
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "path",
+        "motor_vehicle": "no",
+        "name": "Copper Creek Trail",
+        "source": "GPX, Satellite imaging; USGS Topo, Satellite Imaging, GPX",
+        "surface": "dirt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1055449255,
+      "timestamp": "2022-04-27T16:00:21Z",
+      "version": 1,
+      "changeset": 120266707,
+      "user": "OddlyAngled",
+      "uid": 11607814,
+      "nodes": [6649059414, 9142600996],
+      "geometry": [
+        {"lat": 36.7945108, "lon": -118.5810199, "z": 1534.6},
+        {"lat": 36.7945038, "lon": -118.5808947, "z": 1535.2}
       ],
       "tags": {
         "bicycle": "no",
@@ -15174,15 +15225,13 @@
     {
       "type": "way",
       "id": 907479450,
-      "timestamp": "2021-10-03T16:16:17Z",
-      "version": 2,
-      "changeset": 112040102,
+      "timestamp": "2022-04-27T16:00:21Z",
+      "version": 3,
+      "changeset": 120266707,
       "user": "OddlyAngled",
       "uid": 11607814,
-      "nodes": [87496499, 7952833660],
+      "nodes": [2149851344, 7952833660],
       "geometry": [
-        {"lat": 36.7961846, "lon": -118.5837382, "z": 1535.9},
-        {"lat": 36.79631, "lon": -118.5838289, "z": 1537.1},
         {"lat": 36.7965047, "lon": -118.5835595, "z": 1542.2},
         {"lat": 36.7967243, "lon": -118.5834283, "z": 1547.6},
         {"lat": 36.7969643, "lon": -118.5833628, "z": 1553.3},
@@ -18610,12 +18659,12 @@
     {
       "type": "way",
       "id": 989160576,
-      "timestamp": "2021-10-03T16:16:17Z",
-      "version": 1,
-      "changeset": 112040102,
+      "timestamp": "2022-04-27T16:00:21Z",
+      "version": 2,
+      "changeset": 120266707,
       "user": "OddlyAngled",
       "uid": 11607814,
-      "nodes": [1283224782, 9142600996],
+      "nodes": [1283224782, 6649059414],
       "geometry": [
         {"lat": 36.7946467, "lon": -118.5829364, "z": 1530.4},
         {"lat": 36.7946479, "lon": -118.5827682, "z": 1530.5},
@@ -18625,8 +18674,7 @@
         {"lat": 36.7944794, "lon": -118.5817411, "z": 1532.3},
         {"lat": 36.7944703, "lon": -118.5816831, "z": 1532.4},
         {"lat": 36.7945134, "lon": -118.5813817, "z": 1533.1},
-        {"lat": 36.7945108, "lon": -118.5810199, "z": 1534.6},
-        {"lat": 36.7945038, "lon": -118.5808947, "z": 1535.2}
+        {"lat": 36.7945108, "lon": -118.5810199, "z": 1534.6}
       ],
       "tags": {
         "bicycle": "no",
