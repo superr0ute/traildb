@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-28T04:07:52Z"},
+  "osm3s": {"timestamp_osm_base": "2022-04-29T03:26:40Z"},
   "elements": [
     {
       "type": "relation",
       "id": 2704286,
-      "timestamp": "2022-04-27T06:36:08Z",
-      "version": 818,
-      "changeset": 120242174,
-      "user": "billybug",
-      "uid": 397998,
+      "timestamp": "2022-04-28T20:46:59Z",
+      "version": 819,
+      "changeset": 120322484,
+      "user": "Patchi",
+      "uid": 591881,
       "members": [
         {"type": "way", "ref": 406957507, "role": ""},
         {"type": "way", "ref": 177843000, "role": ""},
@@ -1747,6 +1747,7 @@
         {"type": "way", "ref": 814038210, "role": ""},
         {"type": "way", "ref": 814038218, "role": ""},
         {"type": "way", "ref": 27506056, "role": ""},
+        {"type": "way", "ref": 1055822250, "role": ""},
         {"type": "way", "ref": 281186486, "role": ""},
         {"type": "way", "ref": 281186483, "role": ""},
         {"type": "way", "ref": 329741596, "role": ""},
@@ -3056,6 +3057,32 @@
         "lit": "yes",
         "maxspeed:type": "FR:rural",
         "name": "Avenue Castellane",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1055822250,
+      "timestamp": "2022-04-28T20:46:59Z",
+      "version": 1,
+      "changeset": 120322484,
+      "user": "Patchi",
+      "uid": 591881,
+      "nodes": [451897225, 9681000548],
+      "geometry": [
+        {"lat": 43.7095272, "lon": 7.2560169, "z": 34.5},
+        {"lat": 43.7094804, "lon": 7.2560177, "z": 34.4}
+      ],
+      "tags": {
+        "cycleway": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Boulevard Gambetta",
         "sidewalk": "both",
         "surface": "asphalt"
       }
@@ -23766,14 +23793,13 @@
     {
       "type": "way",
       "id": 281186486,
-      "timestamp": "2022-04-20T19:53:47Z",
-      "version": 20,
-      "changeset": 119970592,
+      "timestamp": "2022-04-28T20:46:59Z",
+      "version": 21,
+      "changeset": 120322484,
       "user": "Patchi",
       "uid": 591881,
-      "nodes": [451897225, 276878106],
+      "nodes": [9681000548, 276878106],
       "geometry": [
-        {"lat": 43.7095272, "lon": 7.2560169, "z": 34.5},
         {"lat": 43.7094804, "lon": 7.2560177, "z": 34.4},
         {"lat": 43.7094167, "lon": 7.2560198, "z": 34.3},
         {"lat": 43.7091687, "lon": 7.2560214, "z": 33.8},
