@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-29T03:26:40Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-01T03:40:55Z"},
   "elements": [
     {
       "type": "relation",
       "id": 2704286,
-      "timestamp": "2022-04-28T20:46:59Z",
-      "version": 819,
-      "changeset": 120322484,
+      "timestamp": "2022-04-30T14:32:36Z",
+      "version": 820,
+      "changeset": 120387485,
       "user": "Patchi",
       "uid": 591881,
       "members": [
@@ -1752,6 +1752,7 @@
         {"type": "way", "ref": 281186483, "role": ""},
         {"type": "way", "ref": 329741596, "role": ""},
         {"type": "way", "ref": 329741593, "role": ""},
+        {"type": "way", "ref": 1056228811, "role": ""},
         {"type": "way", "ref": 235857220, "role": ""},
         {"type": "way", "ref": 235857225, "role": ""},
         {"type": "way", "ref": 281196813, "role": ""},
@@ -3073,6 +3074,32 @@
       "geometry": [
         {"lat": 43.7095272, "lon": 7.2560169, "z": 34.5},
         {"lat": 43.7094804, "lon": 7.2560177, "z": 34.4}
+      ],
+      "tags": {
+        "cycleway": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "lanes:backward": "2",
+        "lanes:forward": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Boulevard Gambetta",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1056228811,
+      "timestamp": "2022-04-30T14:32:35Z",
+      "version": 1,
+      "changeset": 120387485,
+      "user": "Patchi",
+      "uid": 591881,
+      "nodes": [9705312283, 250257338],
+      "geometry": [
+        {"lat": 43.702747, "lon": 7.2561542, "z": 20.6},
+        {"lat": 43.7026758, "lon": 7.2561524, "z": 20.6}
       ],
       "tags": {
         "cycleway": "no",
@@ -19780,8 +19807,8 @@
       "uid": 397998,
       "nodes": [250257338, 2439286128],
       "geometry": [
-        {"lat": 43.7027893, "lon": 7.2561513, "z": 20.6},
-        {"lat": 43.7026009, "lon": 7.2561458, "z": 20.6},
+        {"lat": 43.7026758, "lon": 7.2561524, "z": 20.6},
+        {"lat": 43.7026053, "lon": 7.2561545, "z": 20.5},
         {"lat": 43.7021358, "lon": 7.2561761, "z": 20.4}
       ],
       "tags": {
@@ -25377,11 +25404,11 @@
     {
       "type": "way",
       "id": 298256737,
-      "timestamp": "2021-10-19T09:25:33Z",
-      "version": 8,
-      "changeset": 112688089,
-      "user": "dwarfclimbs",
-      "uid": 9598800,
+      "timestamp": "2022-04-30T11:35:18Z",
+      "version": 9,
+      "changeset": 120381183,
+      "user": "user_2735",
+      "uid": 2735,
       "nodes": [3021652108, 849421116],
       "geometry": [
         {"lat": 46.0591856, "lon": 6.745762, "z": 735.4},
@@ -25395,7 +25422,7 @@
         "highway": "unclassified",
         "lanes": "1",
         "layer": "1",
-        "name": "Pont du Sougey",
+        "name": "Pont du Perret",
         "sac_scale": "mountain_hiking",
         "source": "survey",
         "surface": "asphalt"
@@ -31533,15 +31560,15 @@
     {
       "type": "way",
       "id": 329741593,
-      "timestamp": "2022-03-29T20:33:11Z",
-      "version": 15,
-      "changeset": 119087768,
+      "timestamp": "2022-04-30T14:32:36Z",
+      "version": 16,
+      "changeset": 120387485,
       "user": "Patchi",
       "uid": 591881,
-      "nodes": [1964224625, 250257338],
+      "nodes": [1964224625, 9705312283],
       "geometry": [
         {"lat": 43.7029662, "lon": 7.2561598, "z": 20.7},
-        {"lat": 43.7027893, "lon": 7.2561513, "z": 20.6}
+        {"lat": 43.702747, "lon": 7.2561542, "z": 20.6}
       ],
       "tags": {
         "cycleway": "no",
@@ -31559,17 +31586,18 @@
     {
       "type": "way",
       "id": 329741596,
-      "timestamp": "2021-04-17T17:57:12Z",
-      "version": 14,
-      "changeset": 103113020,
-      "user": "EvanE",
-      "uid": 184969,
+      "timestamp": "2022-04-30T14:32:36Z",
+      "version": 15,
+      "changeset": 120387485,
+      "user": "Patchi",
+      "uid": 591881,
       "nodes": [275660430, 1964224625],
       "geometry": [
         {"lat": 43.7039268, "lon": 7.2561387, "z": 22},
         {"lat": 43.7035389, "lon": 7.2561472, "z": 21.5},
         {"lat": 43.7032012, "lon": 7.2561546, "z": 21.1},
         {"lat": 43.7031454, "lon": 7.2561559, "z": 21},
+        {"lat": 43.7029981, "lon": 7.2561593, "z": 20.8},
         {"lat": 43.7029662, "lon": 7.2561598, "z": 20.7}
       ],
       "tags": {

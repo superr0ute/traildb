@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-25T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-04-30T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 130310,
-      "timestamp": "2022-03-07T18:23:18Z",
-      "version": 130,
-      "changeset": 118207878,
-      "user": "eutill",
-      "uid": 7558658,
+      "timestamp": "2022-04-30T17:57:44Z",
+      "version": 131,
+      "changeset": 120394674,
+      "user": "rbuffat",
+      "uid": 9560206,
       "members": [
         {"type": "node", "ref": 8480355403, "role": "guidepost"},
         {"type": "node", "ref": 391094668, "role": "guidepost"},
@@ -116,8 +116,6 @@
         {"type": "node", "ref": 928565134, "role": "guidepost"},
         {"type": "node", "ref": 928565092, "role": "guidepost"},
         {"type": "node", "ref": 928565028, "role": "guidepost"},
-        {"type": "node", "ref": 928565184, "role": "guidepost"},
-        {"type": "node", "ref": 928565126, "role": "guidepost"},
         {"type": "node", "ref": 928564977, "role": "guidepost"},
         {"type": "node", "ref": 3292898642, "role": "guidepost"},
         {"type": "node", "ref": 3293149856, "role": "guidepost"},
@@ -434,22 +432,28 @@
         {"type": "way", "ref": 29264623, "role": ""},
         {"type": "way", "ref": 79570450, "role": ""},
         {"type": "way", "ref": 79570441, "role": ""},
-        {"type": "way", "ref": 79570444, "role": ""},
-        {"type": "way", "ref": 28224909, "role": ""},
-        {"type": "way", "ref": 79570438, "role": ""},
-        {"type": "way", "ref": 28224912, "role": ""},
-        {"type": "way", "ref": 28224911, "role": ""},
-        {"type": "way", "ref": 79570440, "role": ""},
-        {"type": "way", "ref": 560819681, "role": ""},
-        {"type": "way", "ref": 560819680, "role": ""},
-        {"type": "way", "ref": 525167827, "role": ""},
-        {"type": "way", "ref": 525167830, "role": ""},
-        {"type": "way", "ref": 27001089, "role": ""},
-        {"type": "way", "ref": 319270874, "role": ""},
-        {"type": "way", "ref": 319270875, "role": ""},
-        {"type": "way", "ref": 569686577, "role": ""},
-        {"type": "way", "ref": 185028516, "role": ""},
-        {"type": "way", "ref": 569686576, "role": "last"}
+        {"type": "way", "ref": 686338861, "role": ""},
+        {"type": "way", "ref": 37024747, "role": ""},
+        {"type": "way", "ref": 37024728, "role": ""},
+        {"type": "way", "ref": 1056275193, "role": ""},
+        {"type": "way", "ref": 25670941, "role": ""},
+        {"type": "way", "ref": 25670942, "role": ""},
+        {"type": "way", "ref": 904203875, "role": ""},
+        {"type": "way", "ref": 1056275195, "role": ""},
+        {"type": "way", "ref": 1056275196, "role": ""},
+        {"type": "way", "ref": 1056275198, "role": ""},
+        {"type": "way", "ref": 683710508, "role": ""},
+        {"type": "way", "ref": 683710510, "role": ""},
+        {"type": "way", "ref": 1047452738, "role": ""},
+        {"type": "way", "ref": 1056275199, "role": ""},
+        {"type": "way", "ref": 24063877, "role": ""},
+        {"type": "way", "ref": 168398192, "role": ""},
+        {"type": "way", "ref": 722822754, "role": ""},
+        {"type": "way", "ref": 711092756, "role": ""},
+        {"type": "way", "ref": 132752361, "role": ""},
+        {"type": "way", "ref": 711036541, "role": ""},
+        {"type": "way", "ref": 24063883, "role": ""},
+        {"type": "way", "ref": 722822731, "role": ""}
       ],
       "tags": {
         "description": "Titisee - Todtmoos - Hohe Möhr - Hohe Flum - Degerfelden - Basel",
@@ -3167,6 +3171,26 @@
     },
     {
       "type": "way",
+      "id": 1047452738,
+      "timestamp": "2022-04-02T16:43:20Z",
+      "version": 1,
+      "changeset": 119240614,
+      "user": "Mister Kanister",
+      "uid": 392336,
+      "nodes": [6685138174, 6404354033],
+      "geometry": [
+        {"lat": 47.56204, "lon": 7.6251183},
+        {"lat": 47.5622938, "lon": 7.6260644},
+        {"lat": 47.5623274, "lon": 7.626164}
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
       "id": 104784769,
       "timestamp": "2019-04-05T17:28:30Z",
       "version": 4,
@@ -3283,6 +3307,120 @@
         "surface": "asphalt",
         "zone:traffic": "DE:urban"
       }
+    },
+    {
+      "type": "way",
+      "id": 1056275193,
+      "timestamp": "2022-04-30T17:57:44Z",
+      "version": 1,
+      "changeset": 120394674,
+      "user": "rbuffat",
+      "uid": 9560206,
+      "nodes": [430600861, 279852768],
+      "geometry": [
+        {"lat": 47.5641365, "lon": 7.6357466},
+        {"lat": 47.5637997, "lon": 7.6354615}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Hörnliallee",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1056275195,
+      "timestamp": "2022-04-30T17:57:44Z",
+      "version": 1,
+      "changeset": 120394674,
+      "user": "rbuffat",
+      "uid": 9560206,
+      "nodes": [8397602704, 8397602703],
+      "geometry": [
+        {"lat": 47.5627971, "lon": 7.6292291},
+        {"lat": 47.5628416, "lon": 7.6292295},
+        {"lat": 47.5628903, "lon": 7.6292311}
+      ],
+      "tags": {"highway": "footway", "lit": "yes", "surface": "asphalt"}
+    },
+    {
+      "type": "way",
+      "id": 1056275196,
+      "timestamp": "2022-04-30T17:57:44Z",
+      "version": 1,
+      "changeset": 120394674,
+      "user": "rbuffat",
+      "uid": 9560206,
+      "nodes": [8397602704, 3813570991],
+      "geometry": [
+        {"lat": 47.5627971, "lon": 7.6292291},
+        {"lat": 47.5627962, "lon": 7.6290768},
+        {"lat": 47.5627926, "lon": 7.6288716},
+        {"lat": 47.5627808, "lon": 7.6286872},
+        {"lat": 47.5627614, "lon": 7.6284921},
+        {"lat": 47.562736, "lon": 7.6282601},
+        {"lat": 47.5626786, "lon": 7.6277679},
+        {"lat": 47.5626464, "lon": 7.6275319},
+        {"lat": 47.5626048, "lon": 7.6272972},
+        {"lat": 47.5625062, "lon": 7.6268721},
+        {"lat": 47.5624318, "lon": 7.6266089}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "cycleway:surface": "asphalt",
+        "footway:surface": "asphalt",
+        "highway": "footway",
+        "lit": "yes",
+        "segregated": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1056275198,
+      "timestamp": "2022-04-30T17:57:44Z",
+      "version": 1,
+      "changeset": 120394674,
+      "user": "rbuffat",
+      "uid": 9560206,
+      "nodes": [3813570991, 3813570985],
+      "geometry": [
+        {"lat": 47.5624318, "lon": 7.6266089},
+        {"lat": 47.5624124, "lon": 7.6265292},
+        {"lat": 47.5623973, "lon": 7.6264671}
+      ],
+      "tags": {"highway": "footway", "lit": "yes", "surface": "asphalt"}
+    },
+    {
+      "type": "way",
+      "id": 1056275199,
+      "timestamp": "2022-04-30T17:57:44Z",
+      "version": 1,
+      "changeset": 120394674,
+      "user": "rbuffat",
+      "uid": 9560206,
+      "nodes": [6685138174, 1097093984],
+      "geometry": [
+        {"lat": 47.56204, "lon": 7.6251183},
+        {"lat": 47.5619758, "lon": 7.6248739},
+        {"lat": 47.5618336, "lon": 7.6243439},
+        {"lat": 47.5616373, "lon": 7.6236598},
+        {"lat": 47.561542, "lon": 7.6233125},
+        {"lat": 47.561491, "lon": 7.6231264},
+        {"lat": 47.5614626, "lon": 7.6230229},
+        {"lat": 47.5610514, "lon": 7.6215714},
+        {"lat": 47.5610301, "lon": 7.6214961},
+        {"lat": 47.5609611, "lon": 7.6212697},
+        {"lat": 47.5609437, "lon": 7.6212125},
+        {"lat": 47.5608159, "lon": 7.6206966},
+        {"lat": 47.5607681, "lon": 7.6205249},
+        {"lat": 47.5606394, "lon": 7.6200617},
+        {"lat": 47.5603577, "lon": 7.6190485},
+        {"lat": 47.5602836, "lon": 7.618782}
+      ],
+      "tags": {"footway": "sidewalk", "highway": "footway"}
     },
     {
       "type": "way",
@@ -6986,6 +7124,30 @@
     },
     {
       "type": "way",
+      "id": 132752361,
+      "timestamp": "2022-03-16T17:34:09Z",
+      "version": 8,
+      "changeset": 118557293,
+      "user": "hanfi",
+      "uid": 772660,
+      "nodes": [6684450121, 6685124447],
+      "geometry": [
+        {"lat": 47.5592082, "lon": 7.6135232},
+        {"lat": 47.5592124, "lon": 7.6135375},
+        {"lat": 47.5592188, "lon": 7.6135578},
+        {"lat": 47.5592302, "lon": 7.6135948}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "lit": "yes",
+        "note": "Fussweg, Radfahren gestattet",
+        "segregated": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
       "id": 133180122,
       "timestamp": "2022-03-24T05:03:29Z",
       "version": 6,
@@ -9292,6 +9454,30 @@
     },
     {
       "type": "way",
+      "id": 168398192,
+      "timestamp": "2020-12-16T20:15:21Z",
+      "version": 9,
+      "changeset": 95961869,
+      "user": "floeschen",
+      "uid": 213763,
+      "nodes": [71469379, 6780219496],
+      "geometry": [
+        {"lat": 47.5596163, "lon": 7.6156378},
+        {"lat": 47.5595875, "lon": 7.6154593},
+        {"lat": 47.559394, "lon": 7.6142138},
+        {"lat": 47.5593824, "lon": 7.614129}
+      ],
+      "tags": {
+        "highway": "residential",
+        "lcn": "yes",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Eisenbahnweg",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
       "id": 171350326,
       "timestamp": "2021-10-15T18:08:07Z",
       "version": 9,
@@ -10899,33 +11085,6 @@
         {"lat": 47.8962144, "lon": 8.1400532}
       ],
       "tags": {"highway": "residential", "name": "Bühlhofweg"}
-    },
-    {
-      "type": "way",
-      "id": 185028516,
-      "timestamp": "2021-08-08T08:22:17Z",
-      "version": 10,
-      "changeset": 109335123,
-      "user": "MeisterP",
-      "uid": 8955911,
-      "nodes": [5478277417, 5478277416],
-      "geometry": [
-        {"lat": 47.5622112, "lon": 7.6351594},
-        {"lat": 47.562267, "lon": 7.634913},
-        {"lat": 47.5622778, "lon": 7.6348661}
-      ],
-      "tags": {
-        "covered": "yes",
-        "cycleway": "lane",
-        "highway": "primary",
-        "lanes": "2",
-        "lanes:backward": "1",
-        "lanes:forward": "1",
-        "maxspeed": "30",
-        "name": "Hörnle",
-        "ref": "B 34",
-        "surface": "asphalt"
-      }
     },
     {
       "type": "way",
@@ -13299,6 +13458,58 @@
     },
     {
       "type": "way",
+      "id": 24063877,
+      "timestamp": "2022-04-30T17:57:44Z",
+      "version": 9,
+      "changeset": 120394674,
+      "user": "rbuffat",
+      "uid": 9560206,
+      "nodes": [1097093984, 71469379],
+      "geometry": [
+        {"lat": 47.5602836, "lon": 7.618782},
+        {"lat": 47.5600875, "lon": 7.6180532},
+        {"lat": 47.5598983, "lon": 7.6173109},
+        {"lat": 47.5598563, "lon": 7.6171497},
+        {"lat": 47.559797, "lon": 7.6169149},
+        {"lat": 47.5597164, "lon": 7.6164066},
+        {"lat": 47.5596228, "lon": 7.6157744},
+        {"lat": 47.5596163, "lon": 7.6156378}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "lit": "yes",
+        "name": "Grenzacher-Promenade",
+        "note": "Fussweg, Radfahren gestattet",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 24063883,
+      "timestamp": "2022-02-16T17:58:49Z",
+      "version": 11,
+      "changeset": 117481018,
+      "user": "hanfi",
+      "uid": 772660,
+      "nodes": [261052841, 6684450122],
+      "geometry": [
+        {"lat": 47.5589549, "lon": 7.6127482},
+        {"lat": 47.5589816, "lon": 7.6127937},
+        {"lat": 47.5589942, "lon": 7.6128252}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "lit": "yes",
+        "motor_vehicle": "delivery",
+        "note": "Fussweg, Radfahren gestattet",
+        "segregated": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
       "id": 241567537,
       "timestamp": "2013-10-11T00:26:18Z",
       "version": 2,
@@ -14793,6 +15004,66 @@
     },
     {
       "type": "way",
+      "id": 25670941,
+      "timestamp": "2022-02-28T17:40:44Z",
+      "version": 7,
+      "changeset": 117950811,
+      "user": "hanfi",
+      "uid": 772660,
+      "nodes": [279852768, 279852778],
+      "geometry": [
+        {"lat": 47.5637997, "lon": 7.6354615},
+        {"lat": 47.5642315, "lon": 7.6345514},
+        {"lat": 47.5643958, "lon": 7.6341214},
+        {"lat": 47.5644697, "lon": 7.6339265},
+        {"lat": 47.564497, "lon": 7.6337923},
+        {"lat": 47.5643152, "lon": 7.6331791},
+        {"lat": 47.5642302, "lon": 7.6328924},
+        {"lat": 47.5640591, "lon": 7.6323153},
+        {"lat": 47.5639985, "lon": 7.6321809},
+        {"lat": 47.563721, "lon": 7.6315647}
+      ],
+      "tags": {
+        "cycleway": "opposite",
+        "highway": "service",
+        "name": "Bettingerweg",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 25670942,
+      "timestamp": "2022-04-30T17:57:44Z",
+      "version": 5,
+      "changeset": 120394674,
+      "user": "rbuffat",
+      "uid": 9560206,
+      "nodes": [279852778, 6778924630],
+      "geometry": [
+        {"lat": 47.563721, "lon": 7.6315647},
+        {"lat": 47.5636436, "lon": 7.631365},
+        {"lat": 47.5636126, "lon": 7.6312765},
+        {"lat": 47.5635637, "lon": 7.6311256},
+        {"lat": 47.563415, "lon": 7.6306597},
+        {"lat": 47.563336, "lon": 7.6304367},
+        {"lat": 47.5631994, "lon": 7.6301078},
+        {"lat": 47.5631927, "lon": 7.6300911},
+        {"lat": 47.5629692, "lon": 7.629531},
+        {"lat": 47.5629228, "lon": 7.6294149},
+        {"lat": 47.5629038, "lon": 7.6293956}
+      ],
+      "tags": {
+        "cycleway": "opposite",
+        "highway": "service",
+        "name": "Bettingerweg",
+        "oneway": "yes",
+        "oneway:bicycle": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
       "id": 257762408,
       "timestamp": "2019-04-16T20:00:14Z",
       "version": 2,
@@ -15849,38 +16120,6 @@
         "name": "Obere Straße",
         "surface": "gravel",
         "tracktype": "grade2"
-      }
-    },
-    {
-      "type": "way",
-      "id": 27001089,
-      "timestamp": "2021-08-08T08:22:17Z",
-      "version": 23,
-      "changeset": 109335123,
-      "user": "MeisterP",
-      "uid": 8955911,
-      "nodes": [5109426531, 60178578],
-      "geometry": [
-        {"lat": 47.5588855, "lon": 7.641826},
-        {"lat": 47.5590349, "lon": 7.6415733},
-        {"lat": 47.5591912, "lon": 7.6413138},
-        {"lat": 47.5593487, "lon": 7.6410523},
-        {"lat": 47.559838, "lon": 7.6402551},
-        {"lat": 47.5602465, "lon": 7.6395881},
-        {"lat": 47.5606939, "lon": 7.6388273},
-        {"lat": 47.5608973, "lon": 7.6384421}
-      ],
-      "tags": {
-        "cycleway:both": "lane",
-        "highway": "primary",
-        "lanes": "2",
-        "lanes:backward": "1",
-        "lanes:forward": "1",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Hörnle",
-        "ref": "B 34",
-        "surface": "asphalt"
       }
     },
     {
@@ -17445,68 +17684,6 @@
         "maxspeed": "30",
         "maxspeed:type": "sign",
         "name": "Erlenweg",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
-      "id": 28224909,
-      "timestamp": "2020-08-18T23:17:44Z",
-      "version": 3,
-      "changeset": 89598744,
-      "user": "xDSF-DFSx",
-      "uid": 4803523,
-      "nodes": [310004461, 310004464],
-      "geometry": [
-        {"lat": 47.5598471, "lon": 7.6431342},
-        {"lat": 47.5598664, "lon": 7.6432564},
-        {"lat": 47.5599191, "lon": 7.6436817},
-        {"lat": 47.5599511, "lon": 7.6437328},
-        {"lat": 47.5600086, "lon": 7.6437776}
-      ],
-      "tags": {
-        "highway": "residential",
-        "name": "Riehener Weg",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
-      "id": 28224911,
-      "timestamp": "2014-12-28T16:26:55Z",
-      "version": 2,
-      "changeset": 27756983,
-      "user": "q_un_go",
-      "uid": 11374,
-      "nodes": [74095204, 310004466],
-      "geometry": [
-        {"lat": 47.5590512, "lon": 7.6428921},
-        {"lat": 47.5587512, "lon": 7.6427856}
-      ],
-      "tags": {
-        "highway": "residential",
-        "name": "Im Rippel",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
-      "id": 28224912,
-      "timestamp": "2020-08-18T23:17:44Z",
-      "version": 4,
-      "changeset": 89598744,
-      "user": "xDSF-DFSx",
-      "uid": 4803523,
-      "nodes": [74095204, 74095186],
-      "geometry": [
-        {"lat": 47.5590512, "lon": 7.6428921},
-        {"lat": 47.5591642, "lon": 7.642942},
-        {"lat": 47.5594198, "lon": 7.6430257},
-        {"lat": 47.5595461, "lon": 7.64304}
-      ],
-      "tags": {
-        "highway": "residential",
-        "name": "Im Rippel",
         "surface": "paved"
       }
     },
@@ -23595,67 +23772,6 @@
     },
     {
       "type": "way",
-      "id": 319270874,
-      "timestamp": "2021-08-08T08:22:17Z",
-      "version": 5,
-      "changeset": 109335123,
-      "user": "MeisterP",
-      "uid": 8955911,
-      "nodes": [60178578, 297866200],
-      "geometry": [
-        {"lat": 47.5608973, "lon": 7.6384421},
-        {"lat": 47.5611754, "lon": 7.6378616}
-      ],
-      "tags": {
-        "cycleway": "lane",
-        "highway": "primary",
-        "lanes": "3",
-        "lanes:backward": "2",
-        "lanes:forward": "1",
-        "maxspeed": "50",
-        "name": "Hörnle",
-        "ref": "B 34",
-        "surface": "asphalt",
-        "turn:lanes:backward": "left|through"
-      }
-    },
-    {
-      "type": "way",
-      "id": 319270875,
-      "timestamp": "2021-08-08T08:22:17Z",
-      "version": 10,
-      "changeset": 109335123,
-      "user": "MeisterP",
-      "uid": 8955911,
-      "nodes": [297866200, 1651698971],
-      "geometry": [
-        {"lat": 47.5611754, "lon": 7.6378616},
-        {"lat": 47.561686, "lon": 7.636795},
-        {"lat": 47.5617822, "lon": 7.636596},
-        {"lat": 47.5618218, "lon": 7.6365105},
-        {"lat": 47.5618824, "lon": 7.6363618},
-        {"lat": 47.5619561, "lon": 7.6361738},
-        {"lat": 47.5619863, "lon": 7.6360888},
-        {"lat": 47.5620102, "lon": 7.636013},
-        {"lat": 47.5620219, "lon": 7.6359683},
-        {"lat": 47.5620757, "lon": 7.6357646},
-        {"lat": 47.5621859, "lon": 7.6352706}
-      ],
-      "tags": {
-        "cycleway": "lane",
-        "highway": "primary",
-        "lanes": "2",
-        "lanes:backward": "1",
-        "lanes:forward": "1",
-        "lit": "yes",
-        "maxspeed": "50",
-        "name": "Hörnle",
-        "ref": "B 34",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
       "id": 319303681,
       "timestamp": "2014-12-28T19:47:43Z",
       "version": 1,
@@ -27318,6 +27434,55 @@
         "tracktype": "grade3",
         "width": "2.5"
       }
+    },
+    {
+      "type": "way",
+      "id": 37024728,
+      "timestamp": "2020-10-19T16:08:02Z",
+      "version": 10,
+      "changeset": 92719214,
+      "user": "kto",
+      "uid": 135290,
+      "nodes": [430600861, 1265898151],
+      "geometry": [
+        {"lat": 47.5641365, "lon": 7.6357466},
+        {"lat": 47.5637605, "lon": 7.6367847},
+        {"lat": 47.5635529, "lon": 7.6374111},
+        {"lat": 47.5632912, "lon": 7.6382706},
+        {"lat": 47.5632247, "lon": 7.638425},
+        {"lat": 47.5631554, "lon": 7.6385463},
+        {"lat": 47.5630067, "lon": 7.6387541},
+        {"lat": 47.5623583, "lon": 7.6396599},
+        {"lat": 47.562113, "lon": 7.6400048},
+        {"lat": 47.5619212, "lon": 7.6402756},
+        {"lat": 47.5615665, "lon": 7.6409348},
+        {"lat": 47.5615491, "lon": 7.6409893},
+        {"lat": 47.5615392, "lon": 7.6410375}
+      ],
+      "tags": {"highway": "track", "tracktype": "grade1"}
+    },
+    {
+      "type": "way",
+      "id": 37024747,
+      "timestamp": "2022-04-30T17:57:44Z",
+      "version": 5,
+      "changeset": 120394674,
+      "user": "rbuffat",
+      "uid": 9560206,
+      "nodes": [1265898151, 430601060],
+      "geometry": [
+        {"lat": 47.5615392, "lon": 7.6410375},
+        {"lat": 47.561501, "lon": 7.6410751},
+        {"lat": 47.5614462, "lon": 7.6411156},
+        {"lat": 47.561342, "lon": 7.6412206},
+        {"lat": 47.5613167, "lon": 7.6412602},
+        {"lat": 47.5613102, "lon": 7.6412964},
+        {"lat": 47.5613103, "lon": 7.6413685},
+        {"lat": 47.5613185, "lon": 7.6429531},
+        {"lat": 47.5613107, "lon": 7.6434077},
+        {"lat": 47.5613248, "lon": 7.6437191}
+      ],
+      "tags": {"highway": "path"}
     },
     {
       "type": "way",
@@ -32779,67 +32944,6 @@
     },
     {
       "type": "way",
-      "id": 525167827,
-      "timestamp": "2020-11-17T06:53:21Z",
-      "version": 3,
-      "changeset": 94249835,
-      "user": "kaeru",
-      "uid": 21029,
-      "nodes": [5109426522, 5109426523],
-      "geometry": [
-        {"lat": 47.5591183, "lon": 7.6421318},
-        {"lat": 47.5590526, "lon": 7.6420101}
-      ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "path",
-        "layer": "-1",
-        "lcn": "yes",
-        "segregated": "no",
-        "surface": "asphalt",
-        "tunnel": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 525167830,
-      "timestamp": "2020-11-17T06:53:21Z",
-      "version": 6,
-      "changeset": 94249835,
-      "user": "kaeru",
-      "uid": 21029,
-      "nodes": [5109426523, 5109426531],
-      "geometry": [
-        {"lat": 47.5590526, "lon": 7.6420101},
-        {"lat": 47.5590315, "lon": 7.6419738},
-        {"lat": 47.5590275, "lon": 7.641942},
-        {"lat": 47.5590368, "lon": 7.6419115},
-        {"lat": 47.5591503, "lon": 7.6417968},
-        {"lat": 47.5591674, "lon": 7.6417647},
-        {"lat": 47.5591705, "lon": 7.6417308},
-        {"lat": 47.559166, "lon": 7.6416992},
-        {"lat": 47.5591532, "lon": 7.6416733},
-        {"lat": 47.5591325, "lon": 7.6416578},
-        {"lat": 47.5591087, "lon": 7.6416563},
-        {"lat": 47.5590885, "lon": 7.6416671},
-        {"lat": 47.5590728, "lon": 7.6416882},
-        {"lat": 47.5589836, "lon": 7.6418844},
-        {"lat": 47.5589708, "lon": 7.6418968},
-        {"lat": 47.5589394, "lon": 7.6418877},
-        {"lat": 47.5588855, "lon": 7.641826}
-      ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "path",
-        "lcn": "yes",
-        "segregated": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
       "id": 52572041,
       "timestamp": "2021-06-27T10:02:08Z",
       "version": 8,
@@ -33630,54 +33734,6 @@
         "highway": "path",
         "sac_scale": "mountain_hiking",
         "surface": "ground"
-      }
-    },
-    {
-      "type": "way",
-      "id": 560819680,
-      "timestamp": "2020-11-17T06:53:21Z",
-      "version": 5,
-      "changeset": 94249835,
-      "user": "kaeru",
-      "uid": 21029,
-      "nodes": [5408283713, 5109426522],
-      "geometry": [
-        {"lat": 47.5585932, "lon": 7.6429151},
-        {"lat": 47.5585712, "lon": 7.6428456},
-        {"lat": 47.5585827, "lon": 7.6428222},
-        {"lat": 47.55866, "lon": 7.6427285},
-        {"lat": 47.5588993, "lon": 7.6425253},
-        {"lat": 47.5591347, "lon": 7.6422379},
-        {"lat": 47.5591486, "lon": 7.64221},
-        {"lat": 47.5591458, "lon": 7.6421826},
-        {"lat": 47.5591183, "lon": 7.6421318}
-      ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "designated",
-        "highway": "path",
-        "lcn": "yes",
-        "segregated": "no",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
-      "id": 560819681,
-      "timestamp": "2018-02-12T21:30:55Z",
-      "version": 1,
-      "changeset": 56306378,
-      "user": "j1scad",
-      "uid": 5853411,
-      "nodes": [5408283713, 74095075],
-      "geometry": [
-        {"lat": 47.5585932, "lon": 7.6429151},
-        {"lat": 47.5586493, "lon": 7.6428637}
-      ],
-      "tags": {
-        "highway": "residential",
-        "name": "Im Rippel",
-        "surface": "paved"
       }
     },
     {
@@ -34523,55 +34579,6 @@
         "surface": "ground",
         "trail_visibility": "excellent",
         "width": "1"
-      }
-    },
-    {
-      "type": "way",
-      "id": 569686576,
-      "timestamp": "2021-08-08T08:22:17Z",
-      "version": 2,
-      "changeset": 109335123,
-      "user": "MeisterP",
-      "uid": 8955911,
-      "nodes": [5478277416, 2833643010],
-      "geometry": [
-        {"lat": 47.5622778, "lon": 7.6348661},
-        {"lat": 47.5622897, "lon": 7.634813}
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "lanes:backward": "1",
-        "lanes:forward": "1",
-        "maxspeed": "30",
-        "name": "Hörnle",
-        "ref": "B 34",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
-      "id": 569686577,
-      "timestamp": "2021-08-08T08:22:17Z",
-      "version": 3,
-      "changeset": 109335123,
-      "user": "MeisterP",
-      "uid": 8955911,
-      "nodes": [1651698971, 5478277417],
-      "geometry": [
-        {"lat": 47.5621859, "lon": 7.6352706},
-        {"lat": 47.5621966, "lon": 7.6352236},
-        {"lat": 47.5622112, "lon": 7.6351594}
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "lanes:backward": "1",
-        "lanes:forward": "1",
-        "maxspeed": "30",
-        "name": "Hörnle",
-        "ref": "B 34",
-        "surface": "asphalt"
       }
     },
     {
@@ -42127,6 +42134,42 @@
     },
     {
       "type": "way",
+      "id": 683710508,
+      "timestamp": "2022-02-28T17:56:58Z",
+      "version": 3,
+      "changeset": 117951319,
+      "user": "hanfi",
+      "uid": 772660,
+      "nodes": [3813570985, 6404354032],
+      "geometry": [
+        {"lat": 47.5623973, "lon": 7.6264671},
+        {"lat": 47.5623894, "lon": 7.6264355},
+        {"lat": 47.562394, "lon": 7.6264282}
+      ],
+      "tags": {"highway": "footway", "lit": "yes", "surface": "asphalt"}
+    },
+    {
+      "type": "way",
+      "id": 683710510,
+      "timestamp": "2022-04-02T16:43:20Z",
+      "version": 2,
+      "changeset": 119240614,
+      "user": "Mister Kanister",
+      "uid": 392336,
+      "nodes": [6404354033, 6404354032],
+      "geometry": [
+        {"lat": 47.5623274, "lon": 7.626164},
+        {"lat": 47.562394, "lon": 7.6264282}
+      ],
+      "tags": {
+        "departures_board": "timetable",
+        "highway": "platform",
+        "name": "Allmendstrasse",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "type": "way",
       "id": 68414400,
       "timestamp": "2020-02-22T20:15:20Z",
       "version": 10,
@@ -42678,6 +42721,29 @@
     },
     {
       "type": "way",
+      "id": 686338861,
+      "timestamp": "2020-10-19T10:26:29Z",
+      "version": 3,
+      "changeset": 92700493,
+      "user": "kto",
+      "uid": 135290,
+      "nodes": [928564952, 430601060],
+      "geometry": [
+        {"lat": 47.5607502, "lon": 7.6437993},
+        {"lat": 47.5612551, "lon": 7.6437559},
+        {"lat": 47.5613248, "lon": 7.6437191}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "designated",
+        "highway": "path",
+        "name": "Riehener Weg",
+        "surface": "unpaved",
+        "width": "2"
+      }
+    },
+    {
+      "type": "way",
       "id": 68690179,
       "timestamp": "2021-05-09T13:59:38Z",
       "version": 10,
@@ -42848,6 +42914,54 @@
         "source": "survey",
         "tracktype": "grade3",
         "width": "2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 711036541,
+      "timestamp": "2022-02-24T19:42:23Z",
+      "version": 9,
+      "changeset": 117820255,
+      "user": "hanfi",
+      "uid": 772660,
+      "nodes": [6684450122, 6684450121],
+      "geometry": [
+        {"lat": 47.5589942, "lon": 7.6128252},
+        {"lat": 47.5592082, "lon": 7.6135232}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "layer": "-1",
+        "lit": "yes",
+        "motor_vehicle": "delivery",
+        "segregated": "no",
+        "surface": "asphalt",
+        "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 711092756,
+      "timestamp": "2020-12-16T20:15:35Z",
+      "version": 4,
+      "changeset": 95961869,
+      "user": "floeschen",
+      "uid": 213763,
+      "nodes": [6685124447, 3761345501],
+      "geometry": [
+        {"lat": 47.5592302, "lon": 7.6135948},
+        {"lat": 47.5593176, "lon": 7.6139217}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "layer": "-1",
+        "lit": "yes",
+        "note": "Fussweg, Radfahren gestattet",
+        "segregated": "no",
+        "surface": "asphalt",
+        "tunnel": "yes"
       }
     },
     {
@@ -43090,6 +43204,48 @@
         "name": "Wiesendamm-Promenade",
         "surface": "asphalt",
         "tracktype": "grade2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 722822731,
+      "timestamp": "2022-04-30T17:57:44Z",
+      "version": 4,
+      "changeset": 120394674,
+      "user": "rbuffat",
+      "uid": 9560206,
+      "nodes": [6780195928, 261052841],
+      "geometry": [
+        {"lat": 47.5592894, "lon": 7.6125797},
+        {"lat": 47.5589549, "lon": 7.6127482}
+      ],
+      "tags": {
+        "highway": "service",
+        "motor_vehicle": "delivery",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 722822754,
+      "timestamp": "2020-12-16T20:15:36Z",
+      "version": 4,
+      "changeset": 95961869,
+      "user": "floeschen",
+      "uid": 213763,
+      "nodes": [6780219496, 3761345501],
+      "geometry": [
+        {"lat": 47.5593824, "lon": 7.614129},
+        {"lat": 47.5593436, "lon": 7.6140746},
+        {"lat": 47.5593176, "lon": 7.6139217}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "lit": "yes",
+        "note": "Fussweg, Radfahren gestattet",
+        "segregated": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -45527,26 +45683,6 @@
     },
     {
       "type": "way",
-      "id": 79570438,
-      "timestamp": "2015-01-11T14:14:06Z",
-      "version": 3,
-      "changeset": 28063090,
-      "user": "PapaWe",
-      "uid": 2440160,
-      "nodes": [74095186, 310004461],
-      "geometry": [
-        {"lat": 47.5595461, "lon": 7.64304},
-        {"lat": 47.5597722, "lon": 7.6431108},
-        {"lat": 47.5598471, "lon": 7.6431342}
-      ],
-      "tags": {
-        "highway": "residential",
-        "name": "Im Rippel",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
       "id": 79570439,
       "timestamp": "2022-03-25T20:28:41Z",
       "version": 2,
@@ -45563,26 +45699,6 @@
         {"lat": 47.5543014, "lon": 7.6777288}
       ],
       "tags": {"highway": "path", "sac_scale": "hiking"}
-    },
-    {
-      "type": "way",
-      "id": 79570440,
-      "timestamp": "2014-12-28T16:26:55Z",
-      "version": 2,
-      "changeset": 27756983,
-      "user": "q_un_go",
-      "uid": 11374,
-      "nodes": [74095075, 310004466],
-      "geometry": [
-        {"lat": 47.5586493, "lon": 7.6428637},
-        {"lat": 47.5587512, "lon": 7.6427856}
-      ],
-      "tags": {
-        "hgv": "destination",
-        "highway": "residential",
-        "name": "Im Rippel",
-        "surface": "paved"
-      }
     },
     {
       "type": "way",
@@ -45640,30 +45756,6 @@
         "maxspeed:type": "sign",
         "name": "Im Proli",
         "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
-      "id": 79570444,
-      "timestamp": "2020-10-19T10:26:29Z",
-      "version": 6,
-      "changeset": 92700493,
-      "user": "kto",
-      "uid": 135290,
-      "nodes": [310004464, 928564952],
-      "geometry": [
-        {"lat": 47.5600086, "lon": 7.6437776},
-        {"lat": 47.5602775, "lon": 7.6438322},
-        {"lat": 47.5605223, "lon": 7.6438441},
-        {"lat": 47.5607502, "lon": 7.6437993}
-      ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "designated",
-        "highway": "path",
-        "name": "Riehener Weg",
-        "surface": "unpaved",
-        "width": "2"
       }
     },
     {
@@ -47640,6 +47732,23 @@
         {"lat": 47.6719539, "lon": 7.8876104}
       ],
       "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade4"}
+    },
+    {
+      "type": "way",
+      "id": 904203875,
+      "timestamp": "2022-02-28T17:47:52Z",
+      "version": 3,
+      "changeset": 117951319,
+      "user": "hanfi",
+      "uid": 772660,
+      "nodes": [8397602703, 6778924630],
+      "geometry": [
+        {"lat": 47.5628903, "lon": 7.6292311},
+        {"lat": 47.5628908, "lon": 7.6292787},
+        {"lat": 47.5629111, "lon": 7.6293196},
+        {"lat": 47.5629038, "lon": 7.6293956}
+      ],
+      "tags": {"highway": "footway", "lit": "yes", "surface": "asphalt"}
     },
     {
       "type": "way",
