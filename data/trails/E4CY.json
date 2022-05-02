@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-08T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-01T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -829,11 +829,11 @@
     {
       "type": "way",
       "id": 1007370031,
-      "timestamp": "2021-11-29T14:31:12Z",
-      "version": 1,
-      "changeset": 114364018,
-      "user": "Leszek Ziemnik",
-      "uid": 8339024,
+      "timestamp": "2022-05-01T13:23:29Z",
+      "version": 2,
+      "changeset": 120420354,
+      "user": "Juli03",
+      "uid": 13921498,
       "nodes": [2013993460, 2013992282],
       "geometry": [
         {"lat": 34.9131854, "lon": 32.3326598},
@@ -849,17 +849,18 @@
       "tags": {
         "highway": "track",
         "source": "Survey 20121114",
+        "surface": "rock",
         "tracktype": "grade3"
       }
     },
     {
       "type": "way",
       "id": 1007370032,
-      "timestamp": "2021-12-02T16:10:58Z",
-      "version": 2,
-      "changeset": 114489459,
-      "user": "ratrun",
-      "uid": 474183,
+      "timestamp": "2022-05-01T13:23:34Z",
+      "version": 5,
+      "changeset": 120420405,
+      "user": "Juli03",
+      "uid": 13921498,
       "nodes": [2013992282, 2013992053],
       "geometry": [
         {"lat": 34.9106567, "lon": 32.3330042},
@@ -869,8 +870,12 @@
       ],
       "tags": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "source": "Survey 20121114",
-        "tracktype": "grade3"
+        "source:width": "ARCore",
+        "surface": "asphalt",
+        "tracktype": "grade3",
+        "width": "3.6"
       }
     },
     {
@@ -7782,11 +7787,11 @@
     {
       "type": "way",
       "id": 190778779,
-      "timestamp": "2021-11-29T14:31:12Z",
-      "version": 3,
-      "changeset": 114364018,
-      "user": "Leszek Ziemnik",
-      "uid": 8339024,
+      "timestamp": "2022-05-01T13:23:42Z",
+      "version": 5,
+      "changeset": 120420405,
+      "user": "Juli03",
+      "uid": 13921498,
       "nodes": [2013991117, 1983624821],
       "geometry": [
         {"lat": 34.9068342, "lon": 32.3330424},
@@ -7802,9 +7807,12 @@
       ],
       "tags": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "source": "Survey 20121114",
+        "source:width": "ARCore",
         "surface": "asphalt",
-        "tracktype": "grade1"
+        "tracktype": "grade1",
+        "width": "4.1"
       }
     },
     {
@@ -7848,11 +7856,11 @@
     {
       "type": "way",
       "id": 190778805,
-      "timestamp": "2022-02-15T16:05:55Z",
-      "version": 10,
-      "changeset": 117442489,
-      "user": "Oisín",
-      "uid": 57844,
+      "timestamp": "2022-05-01T13:23:38Z",
+      "version": 13,
+      "changeset": 120420405,
+      "user": "Juli03",
+      "uid": 13921498,
       "nodes": [2013991970, 2013991117],
       "geometry": [
         {"lat": 34.9094104, "lon": 32.3338918},
@@ -7888,8 +7896,12 @@
       ],
       "tags": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "source": "Survey 20121114",
-        "tracktype": "grade3"
+        "source:width": "ARCore",
+        "surface": "asphalt",
+        "tracktype": "grade3",
+        "width": "4.7"
       }
     },
     {
@@ -8013,11 +8025,11 @@
     {
       "type": "way",
       "id": 190923580,
-      "timestamp": "2012-11-15T15:34:08Z",
-      "version": 1,
-      "changeset": 13884229,
-      "user": "dcp",
-      "uid": 44221,
+      "timestamp": "2022-05-01T13:24:04Z",
+      "version": 3,
+      "changeset": 120420351,
+      "user": "Juli03",
+      "uid": 13921498,
       "nodes": [267191140, 1983624821],
       "geometry": [
         {"lat": 34.9016749, "lon": 32.3327423},
@@ -8031,8 +8043,10 @@
       ],
       "tags": {
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Astrou Botamou",
-        "source": "Survey 20121114"
+        "source": "Survey 20121114",
+        "surface": "asphalt"
       }
     },
     {
@@ -22601,11 +22615,11 @@
     {
       "type": "way",
       "id": 527833841,
-      "timestamp": "2019-06-03T05:06:18Z",
-      "version": 3,
-      "changeset": 70871839,
-      "user": "wardmuylaert",
-      "uid": 296252,
+      "timestamp": "2022-05-01T17:57:28Z",
+      "version": 4,
+      "changeset": 120430250,
+      "user": "Palgrave Peter",
+      "uid": 11471297,
       "nodes": [5130764493, 339841488],
       "geometry": [
         {"lat": 34.8851257, "lon": 33.6091242},
@@ -22616,7 +22630,12 @@
         {"lat": 34.8861559, "lon": 33.6088368},
         {"lat": 34.8866202, "lon": 33.6082058}
       ],
-      "tags": {"highway": "unclassified", "oneway": "no", "surface": "asphalt"}
+      "tags": {
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "oneway": "no",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
