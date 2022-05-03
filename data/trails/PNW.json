@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-28T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-02T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -67,11 +67,11 @@
     {
       "type": "relation",
       "id": 11225404,
-      "timestamp": "2022-01-29T18:55:58Z",
-      "version": 10,
-      "changeset": 116756321,
-      "user": "Mark Clayton",
-      "uid": 12191449,
+      "timestamp": "2022-05-02T15:43:20Z",
+      "version": 11,
+      "changeset": 120467071,
+      "user": "leefrance",
+      "uid": 4003599,
       "members": [
         {"type": "way", "ref": 82583153, "role": ""},
         {"type": "way", "ref": 550727805, "role": ""},
@@ -98,6 +98,7 @@
         {"type": "way", "ref": 898590552, "role": ""},
         {"type": "way", "ref": 5722381, "role": ""},
         {"type": "way", "ref": 5726464, "role": ""},
+        {"type": "way", "ref": 1056655929, "role": ""},
         {"type": "way", "ref": 5722388, "role": ""},
         {"type": "way", "ref": 5540556, "role": ""},
         {"type": "way", "ref": 818255251, "role": ""},
@@ -2351,6 +2352,49 @@
         {"lat": 48.1924903, "lon": -122.708648}
       ],
       "tags": {"highway": "footway", "name": "Bluff Trail"}
+    },
+    {
+      "type": "way",
+      "id": 1056655929,
+      "timestamp": "2022-05-02T15:43:20Z",
+      "version": 1,
+      "changeset": 120467071,
+      "user": "leefrance",
+      "uid": 4003599,
+      "nodes": [43183759, 43319702],
+      "geometry": [
+        {"lat": 48.749968, "lon": -114.496001},
+        {"lat": 48.750465, "lon": -114.494983},
+        {"lat": 48.751405, "lon": -114.493059},
+        {"lat": 48.751798, "lon": -114.491842},
+        {"lat": 48.752982, "lon": -114.487163},
+        {"lat": 48.753144, "lon": -114.486753},
+        {"lat": 48.753512, "lon": -114.486106},
+        {"lat": 48.753867, "lon": -114.485276},
+        {"lat": 48.754066, "lon": -114.484811},
+        {"lat": 48.754664, "lon": -114.484063},
+        {"lat": 48.755128, "lon": -114.482492},
+        {"lat": 48.755532, "lon": -114.480163},
+        {"lat": 48.755549, "lon": -114.480066},
+        {"lat": 48.755461, "lon": -114.479247},
+        {"lat": 48.755446, "lon": -114.479039},
+        {"lat": 48.755439, "lon": -114.478969},
+        {"lat": 48.755439, "lon": -114.478852},
+        {"lat": 48.755454, "lon": -114.478659},
+        {"lat": 48.755476, "lon": -114.478549}
+      ],
+      "tags": {
+        "highway": "track",
+        "name": "Hay Creek Road",
+        "name_1": "National Forest Development Road 376",
+        "surface": "ground",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Flathead, MT",
+        "tiger:name_base": "Hay Creek",
+        "tiger:name_base_1": "Natl Forest Develop Road 376",
+        "tiger:name_type": "Rd",
+        "tiger:reviewed": "no"
+      }
     },
     {
       "type": "way",
@@ -43370,11 +43414,11 @@
     {
       "type": "way",
       "id": 5540556,
-      "timestamp": "2007-09-04T10:31:55Z",
-      "version": 1,
-      "changeset": 319043,
-      "user": "DaveHansenTiger",
-      "uid": 7168,
+      "timestamp": "2022-05-02T15:43:20Z",
+      "version": 2,
+      "changeset": 120467071,
+      "user": "leefrance",
+      "uid": 4003599,
       "nodes": [40745214, 40745303],
       "geometry": [
         {"lat": 48.7290071, "lon": -114.5455654},
@@ -43411,14 +43455,10 @@
         {"lat": 48.737157, "lon": -114.52501}
       ],
       "tags": {
-        "highway": "residential",
+        "highway": "track",
         "tiger:cfcc": "A41",
         "tiger:county": "Flathead, MT",
-        "tiger:reviewed": "no",
-        "tiger:separated": "no",
-        "tiger:source": "tiger_import_dch_v0.6_20070813",
-        "tiger:tlid": "204066894:204066909:204066861",
-        "tiger:upload_uuid": "bulk_upload.pl-59c1f515-5748-4975-b432-7202bb88cd29"
+        "tiger:reviewed": "no"
       }
     },
     {
@@ -44737,11 +44777,11 @@
     {
       "type": "way",
       "id": 5722388,
-      "timestamp": "2020-06-22T03:34:15Z",
-      "version": 3,
-      "changeset": 86952613,
-      "user": "Shawn Noble",
-      "uid": 1791301,
+      "timestamp": "2022-05-02T15:43:20Z",
+      "version": 4,
+      "changeset": 120467071,
+      "user": "leefrance",
+      "uid": 4003599,
       "nodes": [40745303, 43183759],
       "geometry": [
         {"lat": 48.737157, "lon": -114.52501},
@@ -44779,9 +44819,10 @@
         {"lat": 48.749968, "lon": -114.496001}
       ],
       "tags": {
-        "highway": "residential",
+        "highway": "track",
         "name": "National Forest Development Road 376",
         "name_1": "Hay Creek Road",
+        "surface": "ground",
         "tiger:cfcc": "A41",
         "tiger:county": "Flathead, MT",
         "tiger:name_base": "Natl Forest Develop Road 376",
@@ -44794,31 +44835,13 @@
     {
       "type": "way",
       "id": 5726464,
-      "timestamp": "2010-04-02T20:15:34Z",
-      "version": 2,
-      "changeset": 4307325,
-      "user": "balrog-kun",
-      "uid": 20587,
-      "nodes": [43183759, 43182266],
+      "timestamp": "2022-05-02T15:43:20Z",
+      "version": 3,
+      "changeset": 120467071,
+      "user": "leefrance",
+      "uid": 4003599,
+      "nodes": [43319702, 43182266],
       "geometry": [
-        {"lat": 48.749968, "lon": -114.496001},
-        {"lat": 48.750465, "lon": -114.494983},
-        {"lat": 48.751405, "lon": -114.493059},
-        {"lat": 48.751798, "lon": -114.491842},
-        {"lat": 48.752982, "lon": -114.487163},
-        {"lat": 48.753144, "lon": -114.486753},
-        {"lat": 48.753512, "lon": -114.486106},
-        {"lat": 48.753867, "lon": -114.485276},
-        {"lat": 48.754066, "lon": -114.484811},
-        {"lat": 48.754664, "lon": -114.484063},
-        {"lat": 48.755128, "lon": -114.482492},
-        {"lat": 48.755532, "lon": -114.480163},
-        {"lat": 48.755549, "lon": -114.480066},
-        {"lat": 48.755461, "lon": -114.479247},
-        {"lat": 48.755446, "lon": -114.479039},
-        {"lat": 48.755439, "lon": -114.478969},
-        {"lat": 48.755439, "lon": -114.478852},
-        {"lat": 48.755454, "lon": -114.478659},
         {"lat": 48.755476, "lon": -114.478549},
         {"lat": 48.755511, "lon": -114.47844},
         {"lat": 48.755558, "lon": -114.478329},
@@ -45291,15 +45314,13 @@
         "highway": "residential",
         "name": "Hay Creek Road",
         "name_1": "National Forest Development Road 376",
+        "surface": "ground",
         "tiger:cfcc": "A41",
         "tiger:county": "Flathead, MT",
         "tiger:name_base": "Hay Creek",
         "tiger:name_base_1": "Natl Forest Develop Road 376",
         "tiger:name_type": "Rd",
-        "tiger:reviewed": "no",
-        "tiger:separated": "no",
-        "tiger:source": "tiger_import_dch_v0.6_20070813",
-        "tiger:tlid": "204183194:204139263:204183192:204183193:204139273:204139278:204065808:204139121:204139122:204183196:204139288:204183197:204065946:204139123:204139124:204139291:204139293:204139295"
+        "tiger:reviewed": "no"
       }
     },
     {
