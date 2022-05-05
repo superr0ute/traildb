@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-04-29T23:59:59Z",
-    "timestamp_osm_base": "2022-04-30T05:17:08Z",
+    "timestamp_osm_date": "2022-05-04T23:59:59Z",
+    "timestamp_osm_base": "2022-05-05T05:28:29Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3352,13 +3352,13 @@
     {
       "type": "node",
       "id": 297023039,
-      "lat": 46.1656155,
-      "lon": 7.3966457,
-      "timestamp": "2013-08-29T05:08:24Z",
-      "version": 2,
-      "changeset": 17565706,
-      "user": "Chrigel",
-      "uid": 438441,
+      "lat": 46.1656564,
+      "lon": 7.3966238,
+      "timestamp": "2022-05-04T15:26:11Z",
+      "version": 3,
+      "changeset": 120549885,
+      "user": "bednride",
+      "uid": 9854971,
       "tags": {
         "name": "Prolin",
         "place": "village"
@@ -21008,16 +21008,17 @@
       "id": 5144831021,
       "lat": 46.2313009,
       "lon": 7.4036493,
-      "timestamp": "2021-11-19T10:37:42Z",
-      "version": 4,
-      "changeset": 113983736,
-      "user": "woodpeck_repair",
-      "uid": 145231,
+      "timestamp": "2022-04-30T15:24:42Z",
+      "version": 5,
+      "changeset": 120389574,
+      "user": "billyonthemountain",
+      "uid": 3130748,
       "tags": {
         "addr:street": "Rue du Vieux-Village",
         "name": "Edelweiss market",
         "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-17:00",
-        "shop": "convenience"
+        "shop": "convenience",
+        "wheelchair": "yes"
       }
     },
     {
@@ -25467,21 +25468,6 @@
     },
     {
       "type": "node",
-      "id": 8831707721,
-      "lat": 46.1256136,
-      "lon": 7.153037,
-      "timestamp": "2021-06-14T10:51:00Z",
-      "version": 1,
-      "changeset": 106329958,
-      "user": "Dirtbagonwheels",
-      "uid": 8757993,
-      "tags": {
-        "amenity": "shelter",
-        "name": "Shelter"
-      }
-    },
-    {
-      "type": "node",
       "id": 8838229774,
       "lat": 46.3343977,
       "lon": 7.4576045,
@@ -28917,6 +28903,24 @@
     },
     {
       "type": "way",
+      "id": 224272014,
+      "timestamp": "2022-05-01T14:14:33Z",
+      "version": 4,
+      "changeset": 120422394,
+      "user": "billyonthemountain",
+      "uid": 3130748,
+      "center": {
+        "lat": 46.1964168,
+        "lon": 7.4417624
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "field_shelter"
+      }
+    },
+    {
+      "type": "way",
       "id": 225855274,
       "timestamp": "2019-03-15T22:05:53Z",
       "version": 3,
@@ -30884,6 +30888,80 @@
       "tags": {
         "amenity": "shelter",
         "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1056422186,
+      "timestamp": "2022-05-01T14:06:32Z",
+      "version": 1,
+      "changeset": 120422048,
+      "user": "billyonthemountain",
+      "uid": 3130748,
+      "center": {
+        "lat": 46.1877136,
+        "lon": 7.4541117
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "roof",
+        "shelter_type": "weather_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1056436750,
+      "timestamp": "2022-05-01T14:14:33Z",
+      "version": 1,
+      "changeset": 120422394,
+      "user": "billyonthemountain",
+      "uid": 3130748,
+      "center": {
+        "lat": 46.1973395,
+        "lon": 7.4329775
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "field_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1056436751,
+      "timestamp": "2022-05-01T14:14:33Z",
+      "version": 1,
+      "changeset": 120422394,
+      "user": "billyonthemountain",
+      "uid": 3130748,
+      "center": {
+        "lat": 46.1964093,
+        "lon": 7.4419787
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "field_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1056789364,
+      "timestamp": "2022-05-03T04:08:12Z",
+      "version": 1,
+      "changeset": 120485027,
+      "user": "Tempus",
+      "uid": 254549,
+      "center": {
+        "lat": 46.1255186,
+        "lon": 7.1532639
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "name": "Mayen Moret",
+        "shelter_type": "picnic_shelter"
       }
     }
   ]
