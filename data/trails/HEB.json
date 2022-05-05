@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-04-06T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-04T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -3580,11 +3580,11 @@
     {
       "type": "way",
       "id": 36127471,
-      "timestamp": "2021-01-02T09:10:44Z",
-      "version": 6,
-      "changeset": 96798440,
-      "user": "AdVerburg",
-      "uid": 2831457,
+      "timestamp": "2022-05-04T13:49:52Z",
+      "version": 11,
+      "changeset": 120545611,
+      "user": "aembleton",
+      "uid": 356864,
       "nodes": [386166338, 4102761134],
       "geometry": [
         {"lat": 57.7666359, "lon": -7.0250608},
@@ -3593,12 +3593,19 @@
         {"lat": 57.7669835, "lon": -7.0243509}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "tertiary",
+        "lanes": "4",
+        "lanes:backward": "3",
+        "lanes:forward": "1",
+        "lit": "yes",
         "maxspeed": "30 mph",
         "name": "Rathad an Aiseag",
         "name:en": "Ferry Road",
         "name:gd": "Rathad an Aiseag",
-        "source": "survey"
+        "sidewalk": "both",
+        "source": "survey",
+        "surface": "asphalt"
       }
     },
     {
@@ -10281,7 +10288,7 @@
       "geometry": [
         {"lat": 58.212543, "lon": -6.3917038},
         {"lat": 58.2122755, "lon": -6.3910973},
-        {"lat": 58.2118815, "lon": -6.3903312},
+        {"lat": 58.2118568, "lon": -6.3903325},
         {"lat": 58.2118553, "lon": -6.3902802}
       ],
       "tags": {"highway": "unclassified", "source": "OS_OpenData_StreetView"}
@@ -11332,11 +11339,11 @@
     {
       "type": "way",
       "id": 782868921,
-      "timestamp": "2021-01-02T09:10:44Z",
-      "version": 2,
-      "changeset": 96798440,
-      "user": "AdVerburg",
-      "uid": 2831457,
+      "timestamp": "2022-05-04T13:48:30Z",
+      "version": 7,
+      "changeset": 120545611,
+      "user": "aembleton",
+      "uid": 356864,
       "nodes": [7310854189, 4102761134],
       "geometry": [
         {"lat": 57.7671221, "lon": -7.0240367},
@@ -11345,13 +11352,18 @@
         {"lat": 57.7669835, "lon": -7.0243509}
       ],
       "tags": {
+        "cycleway:left": "no",
         "highway": "tertiary",
+        "lanes": "3",
+        "lit": "yes",
         "maxspeed": "30 mph",
         "name": "Rathad an Aiseag",
         "name:en": "Ferry Road",
         "name:gd": "Rathad an Aiseag",
         "oneway": "yes",
-        "source": "survey"
+        "sidewalk": "both",
+        "source": "survey",
+        "surface": "asphalt"
       }
     },
     {
