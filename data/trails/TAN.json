@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-04T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-05T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -852,18 +852,20 @@
     {
       "type": "relation",
       "id": 9464775,
-      "timestamp": "2021-11-12T22:46:04Z",
-      "version": 29,
-      "changeset": 113715055,
-      "user": "Daniel Palenski",
-      "uid": 9102093,
+      "timestamp": "2022-05-05T20:41:03Z",
+      "version": 30,
+      "changeset": 120605169,
+      "user": "AlwynWellington",
+      "uid": 567640,
       "members": [
         {"type": "way", "ref": 25775174, "role": ""},
         {"type": "way", "ref": 412590160, "role": ""},
-        {"type": "way", "ref": 435922825, "role": ""},
-        {"type": "way", "ref": 192183187, "role": ""},
-        {"type": "way", "ref": 192183190, "role": ""},
-        {"type": "way", "ref": 412590206, "role": ""},
+        {"type": "way", "ref": 1057735149, "role": ""},
+        {"type": "way", "ref": 727331917, "role": ""},
+        {"type": "way", "ref": 819654215, "role": ""},
+        {"type": "way", "ref": 819654217, "role": ""},
+        {"type": "way", "ref": 819654216, "role": ""},
+        {"type": "way", "ref": 1057735152, "role": ""},
         {"type": "way", "ref": 435922819, "role": ""},
         {"type": "way", "ref": 167311770, "role": ""},
         {"type": "way", "ref": 848246332, "role": ""},
@@ -7380,6 +7382,44 @@
     },
     {
       "type": "way",
+      "id": 1057735149,
+      "timestamp": "2022-05-05T20:41:03Z",
+      "version": 1,
+      "changeset": 120605169,
+      "user": "AlwynWellington",
+      "uid": 567640,
+      "nodes": [6816194791, 291559781],
+      "geometry": [
+        {"lat": -40.2324281, "lon": 175.5737166},
+        {"lat": -40.2324496, "lon": 175.5736498},
+        {"lat": -40.2324963, "lon": 175.5735239},
+        {"lat": -40.2325209, "lon": 175.5734665}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "maxspeed": "50",
+        "name": "East Street",
+        "oneway": "no",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1057735152,
+      "timestamp": "2022-05-05T20:41:03Z",
+      "version": 1,
+      "changeset": 120605169,
+      "user": "AlwynWellington",
+      "uid": 567640,
+      "nodes": [7654065142, 9718967779],
+      "geometry": [
+        {"lat": -40.2395313, "lon": 175.5808185},
+        {"lat": -40.2395755, "lon": 175.580856}
+      ],
+      "tags": {"highway": "path"}
+    },
+    {
+      "type": "way",
       "id": 106226834,
       "timestamp": "2022-01-20T08:13:32Z",
       "version": 8,
@@ -9632,15 +9672,16 @@
     {
       "type": "way",
       "id": 143680750,
-      "timestamp": "2021-07-08T00:39:50Z",
-      "version": 8,
-      "changeset": 107593860,
-      "user": "Robert Ancell",
-      "uid": 1430787,
+      "timestamp": "2022-05-05T10:13:18Z",
+      "version": 9,
+      "changeset": 120581127,
+      "user": "skyewantsmaps",
+      "uid": 15846799,
       "nodes": [8902420404, 1572427102],
       "geometry": [
         {"lat": -39.002004, "lon": 175.3716267},
         {"lat": -39.00192, "lon": 175.3709442},
+        {"lat": -39.0018673, "lon": 175.3703501},
         {"lat": -39.0014386, "lon": 175.365521},
         {"lat": -39.0014332, "lon": 175.3653109}
       ],
@@ -21287,66 +21328,6 @@
         {"lat": -39.1819414, "lon": 175.4693576}
       ],
       "tags": {"highway": "service", "surface": "gravel"}
-    },
-    {
-      "type": "way",
-      "id": 192183187,
-      "timestamp": "2020-07-30T10:27:52Z",
-      "version": 8,
-      "changeset": 88726699,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
-      "nodes": [4338170626, 297887766],
-      "geometry": [
-        {"lat": -40.2330156, "lon": 175.5737672},
-        {"lat": -40.2333131, "lon": 175.5739458},
-        {"lat": -40.2338096, "lon": 175.5742017},
-        {"lat": -40.2358376, "lon": 175.5751799},
-        {"lat": -40.2367407, "lon": 175.5755859},
-        {"lat": -40.2369259, "lon": 175.5756785},
-        {"lat": -40.2371405, "lon": 175.5758023},
-        {"lat": -40.2373229, "lon": 175.5759308},
-        {"lat": -40.23746, "lon": 175.5760475},
-        {"lat": -40.2376131, "lon": 175.576216},
-        {"lat": -40.2377389, "lon": 175.57639},
-        {"lat": -40.2378732, "lon": 175.5766188},
-        {"lat": -40.2380478, "lon": 175.5769924}
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "80",
-        "name": "Waughs Road",
-        "oneway": "no",
-        "ref": "SH 54",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
-      "id": 192183190,
-      "timestamp": "2020-07-30T10:27:52Z",
-      "version": 6,
-      "changeset": 88726699,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
-      "nodes": [297887766, 1912321466],
-      "geometry": [
-        {"lat": -40.2380478, "lon": 175.5769924},
-        {"lat": -40.238382, "lon": 175.5776993},
-        {"lat": -40.238854, "lon": 175.5787245}
-      ],
-      "tags": {
-        "bridge": "yes",
-        "highway": "primary",
-        "lanes": "2",
-        "layer": "1",
-        "maxspeed": "80",
-        "name": "Waughs Road",
-        "oneway": "no",
-        "ref": "SH 54",
-        "surface": "paved"
-      }
     },
     {
       "type": "way",
@@ -61464,33 +61445,6 @@
     },
     {
       "type": "way",
-      "id": 412590206,
-      "timestamp": "2020-07-30T10:27:52Z",
-      "version": 2,
-      "changeset": 88726699,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
-      "nodes": [1912321466, 1794188677],
-      "geometry": [
-        {"lat": -40.238854, "lon": 175.5787245},
-        {"lat": -40.239033, "lon": 175.5791009},
-        {"lat": -40.2392321, "lon": 175.5794654},
-        {"lat": -40.2394456, "lon": 175.5798133},
-        {"lat": -40.2396398, "lon": 175.5800989},
-        {"lat": -40.2398728, "lon": 175.5804309}
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "80",
-        "name": "Waughs Road",
-        "oneway": "no",
-        "ref": "SH 54",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
       "id": 412590207,
       "timestamp": "2021-11-24T21:01:31Z",
       "version": 4,
@@ -62994,24 +62948,24 @@
     {
       "type": "way",
       "id": 435922819,
-      "timestamp": "2021-11-15T02:07:38Z",
-      "version": 4,
-      "changeset": 113783922,
-      "user": "Robert Ancell",
-      "uid": 1430787,
-      "nodes": [1794188677, 4338170631],
+      "timestamp": "2022-05-05T20:41:03Z",
+      "version": 5,
+      "changeset": 120605169,
+      "user": "AlwynWellington",
+      "uid": 567640,
+      "nodes": [9718967779, 4338170631],
       "geometry": [
-        {"lat": -40.2398728, "lon": 175.5804309},
-        {"lat": -40.239669, "lon": 175.5806755},
-        {"lat": -40.2395894, "lon": 175.5808194},
+        {"lat": -40.2395755, "lon": 175.580856},
         {"lat": -40.2395526, "lon": 175.5809163},
+        {"lat": -40.2395453, "lon": 175.5809601},
         {"lat": -40.2395432, "lon": 175.5810141},
         {"lat": -40.2395628, "lon": 175.5811091},
-        {"lat": -40.2396204, "lon": 175.5812072},
+        {"lat": -40.2395805, "lon": 175.5811574},
+        {"lat": -40.2396093, "lon": 175.5812171},
+        {"lat": -40.2396653, "lon": 175.5812772},
         {"lat": -40.239726, "lon": 175.5813267},
-        {"lat": -40.2398248, "lon": 175.5813777},
-        {"lat": -40.2401337, "lon": 175.5816064},
-        {"lat": -40.2402501, "lon": 175.581708},
+        {"lat": -40.2401309, "lon": 175.5816059},
+        {"lat": -40.2401793, "lon": 175.5816394},
         {"lat": -40.2403748, "lon": 175.5818342},
         {"lat": -40.2405159, "lon": 175.5819943},
         {"lat": -40.2411726, "lon": 175.5827567},
@@ -63021,29 +62975,6 @@
         "highway": "tertiary",
         "maxspeed": "80",
         "name": "Campbell Road",
-        "surface": "paved"
-      }
-    },
-    {
-      "type": "way",
-      "id": 435922825,
-      "timestamp": "2020-07-30T10:27:52Z",
-      "version": 2,
-      "changeset": 88726699,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
-      "nodes": [291559781, 4338170626],
-      "geometry": [
-        {"lat": -40.2325209, "lon": 175.5734665},
-        {"lat": -40.2330156, "lon": 175.5737672}
-      ],
-      "tags": {
-        "highway": "primary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Waughs Road",
-        "oneway": "no",
-        "ref": "SH 54",
         "surface": "paved"
       }
     },
@@ -85259,6 +85190,51 @@
     },
     {
       "type": "way",
+      "id": 727331917,
+      "timestamp": "2022-05-05T20:41:03Z",
+      "version": 3,
+      "changeset": 120605169,
+      "user": "AlwynWellington",
+      "uid": 567640,
+      "nodes": [6816194791, 6816194808],
+      "geometry": [
+        {"lat": -40.2324281, "lon": 175.5737166},
+        {"lat": -40.2325486, "lon": 175.5737155},
+        {"lat": -40.2327611, "lon": 175.573771},
+        {"lat": -40.2331428, "lon": 175.5739986},
+        {"lat": -40.2336056, "lon": 175.5742475},
+        {"lat": -40.2339266, "lon": 175.5744084},
+        {"lat": -40.2343237, "lon": 175.5745857},
+        {"lat": -40.2347728, "lon": 175.574767},
+        {"lat": -40.2351391, "lon": 175.5749272},
+        {"lat": -40.2354041, "lon": 175.5750571},
+        {"lat": -40.2359138, "lon": 175.5753013},
+        {"lat": -40.2364193, "lon": 175.575541},
+        {"lat": -40.2368955, "lon": 175.5757567},
+        {"lat": -40.2369504, "lon": 175.5757959},
+        {"lat": -40.236986, "lon": 175.5758253},
+        {"lat": -40.2375114, "lon": 175.5763128},
+        {"lat": -40.2377286, "lon": 175.5765806},
+        {"lat": -40.237874, "lon": 175.5767898},
+        {"lat": -40.2379416, "lon": 175.576932}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "dog": "leashed",
+        "foot": "yes",
+        "highway": "path",
+        "horse": "permit",
+        "motor_vehicle": "no",
+        "name": "Timona Park Walkway",
+        "smoothness": "good",
+        "stroller": "yes",
+        "surface": "asphalt",
+        "wheelchair": "limited",
+        "width": "1.5"
+      }
+    },
+    {
+      "type": "way",
       "id": 727370379,
       "timestamp": "2021-01-10T09:48:57Z",
       "version": 5,
@@ -92449,6 +92425,78 @@
         "segregated": "no",
         "surface": "asphalt",
         "wikidata": "Q81498537"
+      }
+    },
+    {
+      "type": "way",
+      "id": 819654215,
+      "timestamp": "2022-05-05T20:41:03Z",
+      "version": 2,
+      "changeset": 120605169,
+      "user": "AlwynWellington",
+      "uid": 567640,
+      "nodes": [6816194808, 7654065131],
+      "geometry": [
+        {"lat": -40.2379416, "lon": 175.576932},
+        {"lat": -40.2380135, "lon": 175.5770197}
+      ],
+      "tags": {"bicycle": "yes", "highway": "footway"}
+    },
+    {
+      "type": "way",
+      "id": 819654216,
+      "timestamp": "2022-05-05T20:41:03Z",
+      "version": 3,
+      "changeset": 120605169,
+      "user": "AlwynWellington",
+      "uid": 567640,
+      "nodes": [7654065132, 7654065142],
+      "geometry": [
+        {"lat": -40.2388108, "lon": 175.5787588},
+        {"lat": -40.2389386, "lon": 175.5790623},
+        {"lat": -40.2390092, "lon": 175.5792687},
+        {"lat": -40.2391785, "lon": 175.5796107},
+        {"lat": -40.2392561, "lon": 175.5796847},
+        {"lat": -40.2395078, "lon": 175.5800883},
+        {"lat": -40.239693, "lon": 175.5803511},
+        {"lat": -40.2397143, "lon": 175.5804079},
+        {"lat": -40.2397195, "lon": 175.5804611},
+        {"lat": -40.2397092, "lon": 175.5805161},
+        {"lat": -40.2396941, "lon": 175.5805548},
+        {"lat": -40.239638, "lon": 175.5806405},
+        {"lat": -40.2395854, "lon": 175.580723},
+        {"lat": -40.2395313, "lon": 175.5808185}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "highway": "footway",
+        "horse": "no",
+        "motor_vehicle": "no",
+        "surface": "concrete"
+      }
+    },
+    {
+      "type": "way",
+      "id": 819654217,
+      "timestamp": "2020-07-02T09:55:25Z",
+      "version": 2,
+      "changeset": 87445546,
+      "user": "Aleksandar1994",
+      "uid": 3733993,
+      "nodes": [7654065131, 7654065132],
+      "geometry": [
+        {"lat": -40.2380135, "lon": 175.5770197},
+        {"lat": -40.2388108, "lon": 175.5787588}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "bridge": "yes",
+        "fixme": "This foot path is attached, but separated by a barrier, from the main road bridge - may need to be adjusted to be connected somehow",
+        "highway": "footway",
+        "horse": "no",
+        "layer": "1",
+        "motor_vehicle": "no",
+        "surface": "concrete:plates"
       }
     },
     {
@@ -100802,16 +100850,21 @@
     {
       "type": "way",
       "id": 962423496,
-      "timestamp": "2021-07-16T23:56:32Z",
-      "version": 2,
-      "changeset": 108143664,
-      "user": "Robert Ancell",
-      "uid": 1430787,
+      "timestamp": "2022-05-05T10:13:18Z",
+      "version": 3,
+      "changeset": 120581127,
+      "user": "skyewantsmaps",
+      "uid": 15846799,
       "nodes": [1572427106, 8902420403],
       "geometry": [
         {"lat": -39.0024738, "lon": 175.376814},
         {"lat": -39.0024672, "lon": 175.3767536},
         {"lat": -39.0024209, "lon": 175.3763297},
+        {"lat": -39.0024158, "lon": 175.3762714},
+        {"lat": -39.0023789, "lon": 175.3758531},
+        {"lat": -39.0023439, "lon": 175.3754558},
+        {"lat": -39.002269, "lon": 175.374605},
+        {"lat": -39.002123, "lon": 175.3729485},
         {"lat": -39.0020938, "lon": 175.372617}
       ],
       "tags": {
