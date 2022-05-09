@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-08T03:14:13Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-09T03:20:36Z"},
   "elements": [
     {
       "type": "relation",
@@ -521,11 +521,11 @@
     {
       "type": "way",
       "id": 1039561116,
-      "timestamp": "2022-03-12T11:04:51Z",
-      "version": 1,
-      "changeset": 118393814,
-      "user": "Mariusz Dykierek",
-      "uid": 238534,
+      "timestamp": "2022-05-08T11:15:47Z",
+      "version": 3,
+      "changeset": 120698193,
+      "user": "witkoo",
+      "uid": 11515391,
       "nodes": [288002073, 1411343974],
       "geometry": [
         {"lat": 49.4306244, "lon": 21.68849, "z": 441.3},
@@ -541,6 +541,7 @@
         {"lat": 49.4325075, "lon": 21.6880985, "z": 446.6}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "primary",
         "highway:category:pl": "1",
         "int_ref": "E 371",
@@ -548,6 +549,7 @@
         "maxaxleload": "11.5",
         "maxspeed": "70",
         "ref": "19",
+        "shoulder": "no",
         "source:maxaxleload": "Dz.U. 2011 nr 222 poz. 1321 Art. 2 pkt. 11",
         "surface": "asphalt"
       }
@@ -555,11 +557,11 @@
     {
       "type": "way",
       "id": 1039561117,
-      "timestamp": "2022-03-12T11:04:51Z",
-      "version": 1,
-      "changeset": 118393814,
-      "user": "Mariusz Dykierek",
-      "uid": 238534,
+      "timestamp": "2022-05-08T08:54:01Z",
+      "version": 3,
+      "changeset": 120693420,
+      "user": "witkoo",
+      "uid": 11515391,
       "nodes": [31372196, 1397394639],
       "geometry": [
         {"lat": 49.4363286, "lon": 21.6905271, "z": 441.7},
@@ -568,6 +570,7 @@
         {"lat": 49.4369285, "lon": 21.6907427, "z": 439.3}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "primary",
         "highway:category:pl": "1",
         "int_ref": "E 371",
@@ -575,6 +578,7 @@
         "maxaxleload": "11.5",
         "maxspeed": "70",
         "ref": "19",
+        "shoulder": "no",
         "source:maxaxleload": "Dz.U. 2011 nr 222 poz. 1321 Art. 2 pkt. 11",
         "surface": "asphalt"
       }
@@ -5686,11 +5690,11 @@
     {
       "type": "way",
       "id": 225819394,
-      "timestamp": "2021-10-19T13:20:59Z",
-      "version": 14,
-      "changeset": 112698165,
-      "user": "painkill",
-      "uid": 389325,
+      "timestamp": "2022-05-08T08:49:46Z",
+      "version": 15,
+      "changeset": 120693420,
+      "user": "witkoo",
+      "uid": 11515391,
       "nodes": [33853199, 1838431559],
       "geometry": [
         {"lat": 49.4756179, "lon": 21.7082952, "z": 391.3},
@@ -5714,6 +5718,7 @@
         "maxspeed:hgv:conditional": "90 @ (weight<=3.5);70 @ (weight>3.5)",
         "maxspeed:trailer": "70",
         "ref": "897",
+        "shoulder": "no",
         "source:maxspeed": "PL:rural",
         "surface": "asphalt"
       }
@@ -9659,17 +9664,18 @@
     {
       "type": "way",
       "id": 437730802,
-      "timestamp": "2020-06-12T02:30:33Z",
-      "version": 3,
-      "changeset": 86539513,
-      "user": "osmdk",
-      "uid": 9013068,
+      "timestamp": "2022-05-08T11:26:33Z",
+      "version": 4,
+      "changeset": 120698189,
+      "user": "witkoo",
+      "uid": 11515391,
       "nodes": [4355301413, 4355301411],
       "geometry": [
         {"lat": 49.4222228, "lon": 21.6933702, "z": 475},
         {"lat": 49.4213041, "lon": 21.6939077, "z": 478.4}
       ],
       "tags": {
+        "cycleway:right": "no",
         "highway": "primary",
         "highway:category:pl": "1",
         "int_ref": "E 371",
@@ -9711,11 +9717,11 @@
     {
       "type": "way",
       "id": 437730805,
-      "timestamp": "2022-03-12T11:04:51Z",
-      "version": 8,
-      "changeset": 118393814,
-      "user": "Mariusz Dykierek",
-      "uid": 238534,
+      "timestamp": "2022-05-08T11:16:07Z",
+      "version": 9,
+      "changeset": 120698193,
+      "user": "witkoo",
+      "uid": 11515391,
       "nodes": [4355301414, 4406934230],
       "geometry": [
         {"lat": 49.4301781, "lon": 21.6887349, "z": 440.8},
@@ -9731,6 +9737,7 @@
         "layer": "1",
         "maxaxleload": "11.5",
         "ref": "19",
+        "shoulder": "left",
         "source:maxaxleload": "Dz.U. 2011 nr 222 poz. 1321 Art. 2 pkt. 11",
         "surface": "asphalt"
       }
@@ -9765,11 +9772,11 @@
     {
       "type": "way",
       "id": 437730807,
-      "timestamp": "2020-06-12T02:30:33Z",
-      "version": 4,
-      "changeset": 86539513,
-      "user": "osmdk",
-      "uid": 9013068,
+      "timestamp": "2022-05-08T08:54:49Z",
+      "version": 5,
+      "changeset": 120693275,
+      "user": "witkoo",
+      "uid": 11515391,
       "nodes": [4355301413, 4355301414],
       "geometry": [
         {"lat": 49.4222228, "lon": 21.6933702, "z": 475},
@@ -9781,6 +9788,7 @@
         {"lat": 49.4301781, "lon": 21.6887349, "z": 440.8}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "primary",
         "highway:category:pl": "1",
         "int_ref": "E 371",
@@ -11000,11 +11008,11 @@
     {
       "type": "way",
       "id": 610665343,
-      "timestamp": "2022-03-23T15:46:23Z",
-      "version": 3,
-      "changeset": 118827277,
-      "user": "lordmcdrake",
-      "uid": 11196564,
+      "timestamp": "2022-05-08T18:36:18Z",
+      "version": 4,
+      "changeset": 120714600,
+      "user": "witkoo",
+      "uid": 11515391,
       "nodes": [2827666168, 9600020194],
       "geometry": [
         {"lat": 49.4177132, "lon": 21.6960865, "z": 496.1},
@@ -11012,6 +11020,7 @@
         {"lat": 49.4176352, "lon": 21.6961356, "z": 496.2}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "primary",
         "highway:category:pl": "1",
         "int_ref": "E 371",
