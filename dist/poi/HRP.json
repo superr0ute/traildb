@@ -2855,6 +2855,39 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "place_town",
+        "@distance": 9480.7,
+        "@id": "n26695245",
+        "@changeset": 120783442,
+        "@timestamp": "2022-05-10T09:16:49Z",
+        "@version": 29,
+        "@uid": 34555,
+        "@user": "Max--",
+        "capital": "7",
+        "name": "Prades",
+        "name:ca": "Prada",
+        "name:fr": "Prades",
+        "name:oc": "Prada de Conflent",
+        "place": "town",
+        "population": 6124,
+        "population:date": "2017",
+        "ref:FR:SIREN": "216601492",
+        "source:name:oc": "ieo-bdtopoc",
+        "source:population": "INSEE 2020",
+        "wikidata": "Q212450",
+        "wikipedia": "fr:Prades (Pyrénées-Orientales)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4230925,
+          42.6181232
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "place_village",
         "@distance": 8,
         "@id": "n26695735",
@@ -23452,6 +23485,50 @@
         "coordinates": [
           -1.2887211,
           43.0372215
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 38.8,
+        "@id": "n9729753745",
+        "@changeset": 120789873,
+        "@timestamp": "2022-05-10T11:50:42Z",
+        "@version": 1,
+        "@uid": 8567894,
+        "@user": "jaelik",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9383501,
+          42.9660217
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 20.8,
+        "@id": "n9729789077",
+        "@changeset": 120789873,
+        "@timestamp": "2022-05-10T11:50:43Z",
+        "@version": 1,
+        "@uid": 8567894,
+        "@user": "jaelik",
+        "description": "local premium products and a small range of other products",
+        "name": "Epiceri des chalets de iraty",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0352219,
+          43.036486
         ]
       }
     },
@@ -46107,6 +46184,50 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_spring",
+        "@distance": 138.1,
+        "@id": "n9729769657",
+        "@changeset": 120789873,
+        "@timestamp": "2022-05-10T11:50:41Z",
+        "@version": 1,
+        "@uid": 8567894,
+        "@user": "jaelik",
+        "name": "Quelle",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4571345,
+          43.0968216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 68.1,
+        "@id": "n9729773436",
+        "@changeset": 120789873,
+        "@timestamp": "2022-05-10T11:50:40Z",
+        "@version": 1,
+        "@uid": 8567894,
+        "@user": "jaelik",
+        "amenity": "drinking_water",
+        "name": "Trinkwasser"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5951818,
+          43.247047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 1654.7,
         "@id": "w40070436",
@@ -46161,29 +46282,6 @@
         "coordinates": [
           -1.7586082,
           43.3733575
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 1603.5,
-        "@id": "w71285036",
-        "@changeset": 63793742,
-        "@timestamp": "2018-10-23T12:14:46Z",
-        "@version": 6,
-        "@uid": 128938,
-        "@user": "Patchanka",
-        "name": "Les Acacias",
-        "stars": "3",
-        "tourism": "camp_site"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.7479665,
-          43.3711787
         ]
       }
     },
@@ -46531,15 +46629,14 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
+        "@poi": "shelter_wilderness-hut",
         "@distance": 2594.9,
         "@id": "w198857022",
-        "@changeset": 91288820,
-        "@timestamp": "2020-09-22T11:08:40Z",
-        "@version": 9,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
+        "@changeset": 120789213,
+        "@timestamp": "2022-05-10T11:35:22Z",
+        "@version": 10,
+        "@uid": 605366,
+        "@user": "EliziR",
         "building": "yes",
         "capacity": 16,
         "description:fr": "2016-01 : - Abri métallique, intérieur bois - Isolation excellente (sas d'entrée) - 1 Table - Banc, Tabourets - Couvertures peu nombreuses et anciennes ... donc très usées ... - Poste de secours",
@@ -46555,6 +46652,7 @@
         "shower": "no",
         "stove": "no",
         "toilets": "no",
+        "tourism": "wilderness_hut",
         "website": "http://www.uec.cat/refugis/"
       },
       "geometry": {
@@ -47512,6 +47610,29 @@
         "coordinates": [
           2.3959181,
           42.5089617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 1603.5,
+        "@id": "w71285036",
+        "@changeset": 63793742,
+        "@timestamp": "2018-10-23T12:14:46Z",
+        "@version": 6,
+        "@uid": 128938,
+        "@user": "Patchanka",
+        "name": "Les Acacias",
+        "stars": "3",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7479665,
+          43.3711787
         ]
       }
     },
