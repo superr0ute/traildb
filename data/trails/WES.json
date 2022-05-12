@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-08T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-11T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2174,11 +2174,11 @@
     {
       "type": "relation",
       "id": 905950,
-      "timestamp": "2021-10-15T18:08:07Z",
-      "version": 33,
-      "changeset": 112553565,
-      "user": "Karthoo",
-      "uid": 3232636,
+      "timestamp": "2022-05-11T20:28:01Z",
+      "version": 34,
+      "changeset": 120857377,
+      "user": "machapuchare",
+      "uid": 6697443,
       "members": [
         {"type": "node", "ref": 387503112, "role": "night_stop"},
         {"type": "node", "ref": 3035714928, "role": "join:4"},
@@ -2218,6 +2218,7 @@
         {"type": "way", "ref": 25216242, "role": ""},
         {"type": "way", "ref": 43270120, "role": ""},
         {"type": "way", "ref": 36134158, "role": ""},
+        {"type": "way", "ref": 1059384238, "role": ""},
         {"type": "way", "ref": 43270119, "role": ""},
         {"type": "way", "ref": 58733666, "role": ""},
         {"type": "way", "ref": 58733780, "role": ""},
@@ -3421,6 +3422,41 @@
         {"lat": 47.5602836, "lon": 7.618782}
       ],
       "tags": {"footway": "sidewalk", "highway": "footway"}
+    },
+    {
+      "type": "way",
+      "id": 1059384238,
+      "timestamp": "2022-05-11T20:28:01Z",
+      "version": 1,
+      "changeset": 120857377,
+      "user": "machapuchare",
+      "uid": 6697443,
+      "nodes": [421965189, 727776754],
+      "geometry": [
+        {"lat": 48.4488896, "lon": 8.2688935},
+        {"lat": 48.4486992, "lon": 8.2688141},
+        {"lat": 48.4484126, "lon": 8.2686784},
+        {"lat": 48.4476995, "lon": 8.2684448},
+        {"lat": 48.4471336, "lon": 8.2683931},
+        {"lat": 48.4469522, "lon": 8.2683393},
+        {"lat": 48.4468209, "lon": 8.2682653},
+        {"lat": 48.4466148, "lon": 8.268075},
+        {"lat": 48.4464246, "lon": 8.2678224},
+        {"lat": 48.4460829, "lon": 8.2673231},
+        {"lat": 48.4458152, "lon": 8.2670967},
+        {"lat": 48.4454902, "lon": 8.2668604},
+        {"lat": 48.4450378, "lon": 8.2665045},
+        {"lat": 48.4443164, "lon": 8.2659145},
+        {"lat": 48.4434753, "lon": 8.2652588},
+        {"lat": 48.4432496, "lon": 8.2650372},
+        {"lat": 48.4430885, "lon": 8.2649612}
+      ],
+      "tags": {
+        "highway": "path",
+        "mtb:scale": "0+",
+        "sac_scale": "hiking",
+        "surface": "ground"
+      }
     },
     {
       "type": "way",
@@ -12622,11 +12658,11 @@
     {
       "type": "way",
       "id": 22724074,
-      "timestamp": "2016-06-06T17:30:13Z",
-      "version": 15,
-      "changeset": 39843837,
-      "user": "maction",
-      "uid": 62423,
+      "timestamp": "2022-05-11T18:01:03Z",
+      "version": 16,
+      "changeset": 120852441,
+      "user": "sola29",
+      "uid": 6319200,
       "nodes": [243732288, 243744442],
       "geometry": [
         {"lat": 48.8465989, "lon": 8.587817},
@@ -12644,17 +12680,18 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Marktstraße",
-        "ref": "L 338"
+        "ref": "L 338",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 22731139,
-      "timestamp": "2020-03-02T21:16:04Z",
-      "version": 18,
-      "changeset": 81698512,
-      "user": "EmilioZ",
-      "uid": 93126,
+      "timestamp": "2022-05-11T18:01:03Z",
+      "version": 19,
+      "changeset": 120852441,
+      "user": "sola29",
+      "uid": 6319200,
       "nodes": [243744442, 322254807],
       "geometry": [
         {"lat": 48.8464769, "lon": 8.5885479},
@@ -12667,17 +12704,18 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Marktstraße",
-        "ref": "L 381"
+        "ref": "L 381",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 22731162,
-      "timestamp": "2019-11-27T17:15:20Z",
-      "version": 24,
-      "changeset": 77646274,
-      "user": "Geofreund1",
-      "uid": 179581,
+      "timestamp": "2022-05-11T18:01:03Z",
+      "version": 25,
+      "changeset": 120852441,
+      "user": "sola29",
+      "uid": 6319200,
       "nodes": [243731589, 244721433],
       "geometry": [
         {"lat": 48.846649, "lon": 8.58752},
@@ -12695,7 +12733,8 @@
         "lanes": "2",
         "maxspeed": "50",
         "name": "Alte Pforzheimer Straße",
-        "ref": "L 338"
+        "ref": "L 338",
+        "surface": "asphalt"
       }
     },
     {
@@ -30365,29 +30404,13 @@
     {
       "type": "way",
       "id": 43270119,
-      "timestamp": "2015-01-17T13:17:19Z",
-      "version": 7,
-      "changeset": 28208699,
-      "user": "guenz",
-      "uid": 176514,
-      "nodes": [421965189, 421965240],
+      "timestamp": "2022-05-11T20:28:01Z",
+      "version": 8,
+      "changeset": 120857377,
+      "user": "machapuchare",
+      "uid": 6697443,
+      "nodes": [727776754, 421965240],
       "geometry": [
-        {"lat": 48.4488896, "lon": 8.2688935},
-        {"lat": 48.4486992, "lon": 8.2688141},
-        {"lat": 48.4484126, "lon": 8.2686784},
-        {"lat": 48.4476995, "lon": 8.2684448},
-        {"lat": 48.4471336, "lon": 8.2683931},
-        {"lat": 48.4469522, "lon": 8.2683393},
-        {"lat": 48.4468209, "lon": 8.2682653},
-        {"lat": 48.4466148, "lon": 8.268075},
-        {"lat": 48.4464246, "lon": 8.2678224},
-        {"lat": 48.4460829, "lon": 8.2673231},
-        {"lat": 48.4458152, "lon": 8.2670967},
-        {"lat": 48.4454902, "lon": 8.2668604},
-        {"lat": 48.4450378, "lon": 8.2665045},
-        {"lat": 48.4443164, "lon": 8.2659145},
-        {"lat": 48.4434753, "lon": 8.2652588},
-        {"lat": 48.4432496, "lon": 8.2650372},
         {"lat": 48.4430885, "lon": 8.2649612},
         {"lat": 48.4429613, "lon": 8.2649201},
         {"lat": 48.4428, "lon": 8.2648107},
