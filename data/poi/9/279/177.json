@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-05-12T23:59:59Z",
-    "timestamp_osm_base": "2022-05-13T06:38:44Z",
+    "timestamp_osm_date": "2022-05-13T23:59:59Z",
+    "timestamp_osm_base": "2022-05-14T06:41:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1666,18 +1666,19 @@
     {
       "type": "node",
       "id": 61274400,
-      "lat": 48.2168206,
-      "lon": 16.3856834,
-      "timestamp": "2020-10-21T14:30:56Z",
-      "version": 10,
-      "changeset": 92839660,
-      "user": "Flugschwein",
-      "uid": 9408468,
+      "lat": 48.2167993,
+      "lon": 16.3856625,
+      "timestamp": "2022-05-13T16:41:23Z",
+      "version": 11,
+      "changeset": 120945478,
+      "user": "Robot8A",
+      "uid": 393359,
       "tags": {
         "contact:website": "http://nakwon.at",
         "description": "Asiatische Waren",
-        "name": "Nawkon",
+        "name": "Nakwon",
         "opening_hours": "Mo-Fr 10:00-18:55; Sa 10:00-17:55",
+        "origin": "asian",
         "shop": "supermarket",
         "wheelchair": "no"
       }
@@ -10139,13 +10140,14 @@
       "id": 360607257,
       "lat": 48.1147032,
       "lon": 16.2501297,
-      "timestamp": "2014-03-21T10:03:43Z",
-      "version": 4,
-      "changeset": 21224546,
-      "user": "Hendric Stattmann",
-      "uid": 33458,
+      "timestamp": "2022-05-13T15:20:30Z",
+      "version": 5,
+      "changeset": 120941472,
+      "user": "globosound",
+      "uid": 718651,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "check_date": "2022-05-13"
       }
     },
     {
@@ -60201,6 +60203,22 @@
     },
     {
       "type": "node",
+      "id": 9508366402,
+      "lat": 48.1915257,
+      "lon": 16.3839281,
+      "timestamp": "2022-05-13T09:34:28Z",
+      "version": 2,
+      "changeset": 120925902,
+      "user": "xv15",
+      "uid": 6854528,
+      "tags": {
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "node",
       "id": 9510651717,
       "lat": 48.2772111,
       "lon": 16.3543465,
@@ -60509,16 +60527,20 @@
       "id": 9578972805,
       "lat": 48.2106792,
       "lon": 16.3307583,
-      "timestamp": "2022-03-14T18:37:34Z",
-      "version": 1,
-      "changeset": 118481673,
-      "user": "stefanschauer",
-      "uid": 3925985,
+      "timestamp": "2022-05-13T19:48:29Z",
+      "version": 2,
+      "changeset": 120952672,
+      "user": "Dosenpfand",
+      "uid": 484548,
       "tags": {
+        "addr:city": "Wien",
         "addr:housenumber": "58",
+        "addr:postcode": "1160",
         "addr:street": "Haberlgasse",
-        "name": "Mila",
-        "shop": "supermarket",
+        "name": "Mila Minimarkt",
+        "opening_hours": "Fr 09:00-19:00; Sa 08:00-18:00; PH off",
+        "operator": "Mila",
+        "shop": "convenience",
         "website": "https://www.mila.wien/de/"
       }
     },
@@ -92155,6 +92177,24 @@
       "tags": {
         "amenity": "shelter",
         "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1059965220,
+      "timestamp": "2022-05-13T21:12:51Z",
+      "version": 1,
+      "changeset": 120955295,
+      "user": "emergency99",
+      "uid": 1832939,
+      "center": {
+        "lat": 48.2995771,
+        "lon": 16.4678418
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
         "shelter_type": "public_transport"
       }
     }

@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-05-12T23:59:59Z",
-    "timestamp_osm_base": "2022-05-13T03:56:45Z",
+    "timestamp_osm_date": "2022-05-13T23:59:59Z",
+    "timestamp_osm_base": "2022-05-14T04:10:00Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1319,20 +1319,31 @@
     {
       "type": "way",
       "id": 203096386,
-      "timestamp": "2013-01-27T12:45:15Z",
-      "version": 1,
-      "changeset": 14806927,
-      "user": "ThorstenNeumann",
-      "uid": 178711,
+      "timestamp": "2022-05-13T03:35:28Z",
+      "version": 2,
+      "changeset": 120912235,
+      "user": "archpdx",
+      "uid": 12493764,
       "center": {
-        "lat": 42.1639135,
-        "lon": -123.6479062
+        "lat": 42.1639088,
+        "lon": -123.6479276
       },
       "nodes": [],
       "tags": {
-        "shop": "supermarket",
+        "addr:city": "Cave Junction",
+        "addr:housenumber": "205",
+        "addr:postcode": "97523",
+        "addr:state": "OR",
+        "addr:street": "West Watkins Street",
+        "branch": "Cave Junction",
+        "building": "retail",
+        "fax": "+1-541-592-2919",
         "name": "Shop Smart",
-        "building": "commercial"
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "phone": "+1-541-592-3333",
+        "ref": "28",
+        "shop": "supermarket",
+        "website": "https://www.shopsmartfoods.com/StoreLocator/Store/?L=28"
       }
     },
     {
@@ -1966,6 +1977,61 @@
         "building": "yes",
         "operator": "In-N-Out Burger",
         "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1059731777,
+      "timestamp": "2022-05-13T03:35:28Z",
+      "version": 1,
+      "changeset": 120912235,
+      "user": "archpdx",
+      "uid": 12493764,
+      "center": {
+        "lat": 42.1634329,
+        "lon": -123.6482175
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Cave Junction",
+        "addr:housenumber": "330",
+        "addr:postcode": "97523",
+        "addr:state": "OR",
+        "addr:street": "Redwood Highway",
+        "branch": "Cave Junction",
+        "brand": "Grocery Outlet",
+        "brand:wikidata": "Q5609934",
+        "building": "retail",
+        "email": "cavejunction@groceryoutlet.com",
+        "name": "Grocery Outlet",
+        "official_name": "Grocery Outlet Bargain Market",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "operator": "Ethan Lane",
+        "phone": "+1-541-592-2767",
+        "ref": "372",
+        "shop": "supermarket",
+        "start_date": "2018-12-06"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1059731808,
+      "timestamp": "2022-05-13T03:35:28Z",
+      "version": 1,
+      "changeset": 120912235,
+      "user": "archpdx",
+      "uid": 12493764,
+      "center": {
+        "lat": 42.1668274,
+        "lon": -123.6468377
+      },
+      "nodes": [],
+      "tags": {
+        "brand": "Circle K",
+        "brand:wikidata": "Q3268010",
+        "building": "yes",
+        "name": "Circle K",
+        "shop": "convenience"
       }
     }
   ]
