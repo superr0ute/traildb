@@ -20216,6 +20216,32 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 1131.2,
+        "@id": "w250861905",
+        "@changeset": 119276873,
+        "@timestamp": "2022-04-03T19:48:03Z",
+        "@version": 4,
+        "@uid": 7078274,
+        "@user": "gabriele_sani",
+        "building": "yes",
+        "capacity": 16,
+        "fee": "no",
+        "fireplace": "yes",
+        "name": "Bivacco Monte dei Gralli",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6705774,
+          43.9407866
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 148.1,
         "@id": "n6142885523",
@@ -21197,30 +21223,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_spring",
-        "@distance": 754.5,
-        "@id": "n6965527996",
-        "@changeset": 77087841,
-        "@timestamp": "2019-11-14T17:39:48Z",
-        "@version": 2,
-        "@uid": 517569,
-        "@user": "Vespucci",
-        "drinking_water": "yes",
-        "natural": "spring",
-        "seasonal": "no",
-        "survey:date": "2019-11-10"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.8122025,
-          44.1081415
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 9086.9,
         "@id": "n4607858564",
@@ -21480,32 +21482,6 @@
         "coordinates": [
           10.9875917,
           44.019526
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 1131.2,
-        "@id": "w250861905",
-        "@changeset": 119276873,
-        "@timestamp": "2022-04-03T19:48:03Z",
-        "@version": 4,
-        "@uid": 7078274,
-        "@user": "gabriele_sani",
-        "building": "yes",
-        "capacity": 16,
-        "fee": "no",
-        "fireplace": "yes",
-        "name": "Bivacco Monte dei Gralli",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.6705774,
-          43.9407866
         ]
       }
     },
@@ -22743,6 +22719,30 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_spring",
+        "@distance": 754.5,
+        "@id": "n6965527996",
+        "@changeset": 77087841,
+        "@timestamp": "2019-11-14T17:39:48Z",
+        "@version": 2,
+        "@uid": 517569,
+        "@user": "Vespucci",
+        "drinking_water": "yes",
+        "natural": "spring",
+        "seasonal": "no",
+        "survey:date": "2019-11-10"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8122025,
+          44.1081415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
         "@distance": 2603.3,
         "@id": "n7096324568",
         "@changeset": 79026915,
@@ -22970,51 +22970,6 @@
         "coordinates": [
           11.0684196,
           44.0942788
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 1410.3,
-        "@id": "n8736153906",
-        "@changeset": 104768870,
-        "@timestamp": "2021-05-16T13:22:56Z",
-        "@version": 1,
-        "@uid": 11329839,
-        "@user": "giuliobranchetti",
-        "name": "Fonte dell'Acqua Bona",
-        "natural": "spring",
-        "source": "gps",
-        "source:name": "Piano Sviluppo Aree Protette Provincia di Prato"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.1615399,
-          44.1053751
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 1726.3,
-        "@id": "n8736153913",
-        "@changeset": 104768870,
-        "@timestamp": "2021-05-16T13:22:56Z",
-        "@version": 1,
-        "@uid": 11329839,
-        "@user": "giuliobranchetti",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.1603614,
-          44.1081587
         ]
       }
     },
@@ -23741,6 +23696,51 @@
         "coordinates": [
           9.8864702,
           44.3705023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 1410.3,
+        "@id": "n8736153906",
+        "@changeset": 104768870,
+        "@timestamp": "2021-05-16T13:22:56Z",
+        "@version": 1,
+        "@uid": 11329839,
+        "@user": "giuliobranchetti",
+        "name": "Fonte dell'Acqua Bona",
+        "natural": "spring",
+        "source": "gps",
+        "source:name": "Piano Sviluppo Aree Protette Provincia di Prato"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1615399,
+          44.1053751
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 1726.3,
+        "@id": "n8736153913",
+        "@changeset": 104768870,
+        "@timestamp": "2021-05-16T13:22:56Z",
+        "@version": 1,
+        "@uid": 11329839,
+        "@user": "giuliobranchetti",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1603614,
+          44.1081587
         ]
       }
     },
