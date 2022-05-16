@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-05-14T23:59:59Z",
-    "timestamp_osm_base": "2022-05-15T06:47:10Z",
+    "timestamp_osm_date": "2022-05-15T23:59:59Z",
+    "timestamp_osm_base": "2022-05-16T06:35:09Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -676,15 +676,18 @@
       "id": 444677702,
       "lat": -35.2047136,
       "lon": 149.0332609,
-      "timestamp": "2022-05-13T07:14:37Z",
-      "version": 8,
-      "changeset": 120918988,
-      "user": "TheSwavu",
-      "uid": 2622285,
+      "timestamp": "2022-05-15T12:31:34Z",
+      "version": 9,
+      "changeset": 121010612,
+      "user": "DNOR71",
+      "uid": 15797614,
       "tags": {
         "addr:housenumber": "27",
         "addr:street": "Charnwood Place",
-        "name": "Woolworths Charnwood",
+        "branch": "Charnwood",
+        "brand": "Woolworths",
+        "brand:wikidata": "Q3249145",
+        "name": "Woolworths",
         "operator": "Woolworths Limited",
         "shop": "supermarket",
         "website": "https://www.woolworths.com.au/Shop/StoreLocator/ACT-Charnwood-1358"
@@ -1162,16 +1165,17 @@
       "id": 2387094476,
       "lat": -35.2055985,
       "lon": 149.0331871,
-      "timestamp": "2022-05-13T07:14:37Z",
-      "version": 3,
-      "changeset": 120918988,
-      "user": "TheSwavu",
-      "uid": 2622285,
+      "timestamp": "2022-05-15T12:16:05Z",
+      "version": 4,
+      "changeset": 121010120,
+      "user": "DNOR71",
+      "uid": 15797614,
       "tags": {
         "addr:housenumber": "1",
         "addr:street": "Charnwood Place",
         "amenity": "fuel",
-        "brand": "Shell",
+        "brand": "Coles Express",
+        "brand:wikidata": "Q5144653",
         "fuel:diesel": "yes",
         "fuel:e10": "yes",
         "fuel:lpg": "yes",
@@ -3749,6 +3753,70 @@
         "bin": "yes",
         "building": "yes",
         "operator": "Acton",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1060171147,
+      "timestamp": "2022-05-15T02:45:36Z",
+      "version": 1,
+      "changeset": 120997874,
+      "user": "DNOR71",
+      "uid": 15797614,
+      "center": {
+        "lat": -35.2055915,
+        "lon": 149.0352768
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "lit": "yes",
+        "operator": "Acton",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1060172619,
+      "timestamp": "2022-05-15T03:11:10Z",
+      "version": 1,
+      "changeset": 120998085,
+      "user": "DNOR71",
+      "uid": 15797614,
+      "center": {
+        "lat": -35.2059876,
+        "lon": 149.0352446
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1060191137,
+      "timestamp": "2022-05-15T06:21:29Z",
+      "version": 1,
+      "changeset": 121000665,
+      "user": "DNOR71",
+      "uid": 15797614,
+      "center": {
+        "lat": -35.2023796,
+        "lon": 149.0416104
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "no",
+        "building": "yes",
+        "lit": "no",
         "shelter_type": "public_transport"
       }
     }

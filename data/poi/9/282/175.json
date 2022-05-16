@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-05-14T23:59:59Z",
-    "timestamp_osm_base": "2022-05-15T05:55:25Z",
+    "timestamp_osm_date": "2022-05-15T23:59:59Z",
+    "timestamp_osm_base": "2022-05-16T05:55:38Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -18977,25 +18977,6 @@
     },
     {
       "type": "node",
-      "id": 6315751941,
-      "lat": 49.1956539,
-      "lon": 18.8950521,
-      "timestamp": "2019-03-04T10:13:03Z",
-      "version": 1,
-      "changeset": 67761064,
-      "user": "Kudej",
-      "uid": 1558400,
-      "tags": {
-        "ele": "486",
-        "email": "fatranka@stonline.sk",
-        "name": "Chata Fatranka",
-        "note": "overiť polohu",
-        "phone": "+421 415 692 156;+421 903 511 703",
-        "tourism": "alpine_hut"
-      }
-    },
-    {
-      "type": "node",
       "id": 6324885585,
       "lat": 48.962323,
       "lon": 18.6061413,
@@ -21024,18 +21005,19 @@
     {
       "type": "node",
       "id": 7800586338,
-      "lat": 49.1792681,
-      "lon": 18.8916469,
-      "timestamp": "2021-07-06T06:42:58Z",
-      "version": 3,
-      "changeset": 107474803,
-      "user": "Mirecnet",
-      "uid": 2323152,
+      "lat": 49.1792208,
+      "lon": 18.8916657,
+      "timestamp": "2022-05-15T16:04:05Z",
+      "version": 5,
+      "changeset": 121018520,
+      "user": "Filip009",
+      "uid": 10553599,
       "tags": {
         "drinking_water": "yes",
         "name": "Dobrá voda",
         "natural": "spring",
-        "refitted": "yes"
+        "refitted": "yes",
+        "start_date": "2020"
       }
     },
     {
@@ -24095,6 +24077,20 @@
       }
     },
     {
+      "type": "node",
+      "id": 9740961650,
+      "lat": 49.3162278,
+      "lon": 18.7644325,
+      "timestamp": "2022-05-15T10:37:42Z",
+      "version": 1,
+      "changeset": 121007262,
+      "user": "Klerik7",
+      "uid": 7169223,
+      "tags": {
+        "amenity": "shelter"
+      }
+    },
+    {
       "type": "way",
       "id": 51145992,
       "timestamp": "2020-10-17T11:13:16Z",
@@ -26830,6 +26826,47 @@
         "amenity": "shelter",
         "building": "yes",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1060200383,
+      "timestamp": "2022-05-15T07:29:41Z",
+      "version": 1,
+      "changeset": 121002186,
+      "user": "Filip009",
+      "uid": 10553599,
+      "center": {
+        "lat": 49.1956666,
+        "lon": 18.895064
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "ele": "486",
+        "email": "fatranka@stonline.sk",
+        "name": "Chata Fatranka",
+        "phone": "+421 415 692 156;+421 903 511 703",
+        "tourism": "alpine_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1060200391,
+      "timestamp": "2022-05-15T07:29:41Z",
+      "version": 1,
+      "changeset": 121002186,
+      "user": "Filip009",
+      "uid": 10553599,
+      "center": {
+        "lat": 49.2005807,
+        "lon": 18.9196675
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "fireplace": "yes",
+        "shelter_type": "picnic_shelter"
       }
     }
   ]
