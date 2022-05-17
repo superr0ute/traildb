@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-14T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-16T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1736379,
-      "timestamp": "2022-04-10T09:58:45Z",
-      "version": 584,
-      "changeset": 119529238,
-      "user": "Strubbl",
-      "uid": 536583,
+      "timestamp": "2022-05-16T08:14:28Z",
+      "version": 585,
+      "changeset": 121039028,
+      "user": "Luca Frare",
+      "uid": 10680508,
       "members": [
         {"type": "node", "ref": 1779769997, "role": ""},
         {"type": "node", "ref": 475738007, "role": ""},
@@ -1159,6 +1159,7 @@
         {"type": "way", "ref": 25075335, "role": ""},
         {"type": "way", "ref": 908428134, "role": ""},
         {"type": "way", "ref": 908428133, "role": ""},
+        {"type": "way", "ref": 1060442821, "role": ""},
         {"type": "way", "ref": 66058598, "role": ""},
         {"type": "way", "ref": 66058601, "role": ""},
         {"type": "way", "ref": 399913728, "role": ""},
@@ -2569,6 +2570,22 @@
         "smoothness": "intermediate",
         "surface": "sett"
       }
+    },
+    {
+      "type": "way",
+      "id": 1060442821,
+      "timestamp": "2022-05-16T08:14:28Z",
+      "version": 1,
+      "changeset": 121039028,
+      "user": "Luca Frare",
+      "uid": 10680508,
+      "nodes": [279361229, 1862275961],
+      "geometry": [
+        {"lat": 46.1396412, "lon": 12.2162171},
+        {"lat": 46.1395542, "lon": 12.2161984},
+        {"lat": 46.139534, "lon": 12.2162043}
+      ],
+      "tags": {"highway": "pedestrian"}
     },
     {
       "type": "way",
@@ -5977,8 +5994,8 @@
       ],
       "tags": {
         "bicycle": "designated",
-        "foot": "designated",
-        "highway": "cycleway"
+        "highway": "cycleway",
+        "foot": "designated"
       }
     },
     {
@@ -37290,9 +37307,9 @@
         {"lat": 45.448503, "lon": 12.4317204}
       ],
       "tags": {
+        "highway": "cycleway",
         "bicycle": "designated",
-        "foot": "designated",
-        "highway": "cycleway"
+        "foot": "designated"
       }
     },
     {
@@ -44955,15 +44972,13 @@
     {
       "type": "way",
       "id": 66058598,
-      "timestamp": "2021-03-01T18:56:45Z",
-      "version": 5,
-      "changeset": 100225867,
-      "user": "diegomodolo",
-      "uid": 8109808,
-      "nodes": [279361229, 802058537],
+      "timestamp": "2022-05-16T08:14:28Z",
+      "version": 6,
+      "changeset": 121039028,
+      "user": "Luca Frare",
+      "uid": 10680508,
+      "nodes": [1862275961, 802058537],
       "geometry": [
-        {"lat": 46.1396412, "lon": 12.2162171},
-        {"lat": 46.1395542, "lon": 12.2161984},
         {"lat": 46.139534, "lon": 12.2162043},
         {"lat": 46.1394463, "lon": 12.2162365},
         {"lat": 46.1393556, "lon": 12.2162846},
