@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-16T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-17T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1736379,
-      "timestamp": "2022-05-16T08:14:28Z",
-      "version": 585,
-      "changeset": 121039028,
-      "user": "Luca Frare",
-      "uid": 10680508,
+      "timestamp": "2022-05-17T22:24:01Z",
+      "version": 587,
+      "changeset": 121120027,
+      "user": "Robhubi",
+      "uid": 3105686,
       "members": [
         {"type": "node", "ref": 1779769997, "role": ""},
         {"type": "node", "ref": 475738007, "role": ""},
@@ -1434,6 +1434,7 @@
         {"type": "way", "ref": 261700562, "role": ""},
         {"type": "way", "ref": 261700563, "role": ""},
         {"type": "way", "ref": 320007908, "role": ""},
+        {"type": "way", "ref": 1061208529, "role": ""},
         {"type": "way", "ref": 128634586, "role": ""},
         {"type": "way", "ref": 438979444, "role": ""},
         {"type": "way", "ref": 128634588, "role": ""},
@@ -1498,6 +1499,7 @@
         {"type": "way", "ref": 439024546, "role": ""},
         {"type": "way", "ref": 123440513, "role": ""},
         {"type": "way", "ref": 116720439, "role": ""},
+        {"type": "way", "ref": 1060896330, "role": ""},
         {"type": "way", "ref": 157275281, "role": ""},
         {"type": "way", "ref": 137300321, "role": ""},
         {"type": "way", "ref": 175898065, "role": ""},
@@ -2586,6 +2588,40 @@
         {"lat": 46.139534, "lon": 12.2162043}
       ],
       "tags": {"highway": "pedestrian"}
+    },
+    {
+      "type": "way",
+      "id": 1060896330,
+      "timestamp": "2022-05-17T00:15:59Z",
+      "version": 1,
+      "changeset": 121073463,
+      "user": "Robhubi",
+      "uid": 3105686,
+      "nodes": [4295562418, 1989028024],
+      "geometry": [
+        {"lat": 45.4472763, "lon": 12.4249621},
+        {"lat": 45.4472821, "lon": 12.4249503}
+      ],
+      "tags": {"bicycle": "dismount", "highway": "footway"}
+    },
+    {
+      "type": "way",
+      "id": 1061208529,
+      "timestamp": "2022-05-17T22:24:01Z",
+      "version": 1,
+      "changeset": 121120027,
+      "user": "Robhubi",
+      "uid": 3105686,
+      "nodes": [4753324734, 9750283118],
+      "geometry": [
+        {"lat": 45.5360455, "lon": 12.6380979},
+        {"lat": 45.5360097, "lon": 12.6382999},
+        {"lat": 45.5359898, "lon": 12.6383919}
+      ],
+      "tags": {
+        "fixme": "to be checked if this is really legally designated to bicycles",
+        "highway": "footway"
+      }
     },
     {
       "type": "way",
@@ -4906,16 +4942,15 @@
     {
       "type": "way",
       "id": 116720439,
-      "timestamp": "2020-05-12T10:36:04Z",
-      "version": 5,
-      "changeset": 85080742,
-      "user": "Jrachi",
-      "uid": 2976645,
-      "nodes": [1315168459, 1989028024],
+      "timestamp": "2022-05-17T00:15:59Z",
+      "version": 6,
+      "changeset": 121073463,
+      "user": "Robhubi",
+      "uid": 3105686,
+      "nodes": [1315168459, 4295562418],
       "geometry": [
-        {"lat": 45.447343, "lon": 12.4250969},
-        {"lat": 45.4472763, "lon": 12.4249621},
-        {"lat": 45.4472821, "lon": 12.4249503}
+        {"lat": 45.447256, "lon": 12.4250023},
+        {"lat": 45.4472763, "lon": 12.4249621}
       ],
       "tags": {"bicycle": "dismount", "highway": "footway"}
     },
@@ -5980,22 +6015,24 @@
     {
       "type": "way",
       "id": 123440513,
-      "timestamp": "2022-05-13T09:28:41Z",
-      "version": 11,
-      "changeset": 120925582,
-      "user": "Flight777",
-      "uid": 9925732,
+      "timestamp": "2022-05-17T00:15:59Z",
+      "version": 12,
+      "changeset": 121073463,
+      "user": "Robhubi",
+      "uid": 3105686,
       "nodes": [1315168459, 4366479657],
       "geometry": [
-        {"lat": 45.447343, "lon": 12.4250969},
+        {"lat": 45.447256, "lon": 12.4250023},
         {"lat": 45.4473061, "lon": 12.4252673},
-        {"lat": 45.4472168, "lon": 12.4254255},
+        {"lat": 45.4473542, "lon": 12.4255341},
+        {"lat": 45.4472478, "lon": 12.4255975},
         {"lat": 45.4472757, "lon": 12.4257138}
       ],
       "tags": {
-        "bicycle": "designated",
-        "highway": "cycleway",
-        "foot": "designated"
+        "bicycle": "yes",
+        "foot": "designated",
+        "highway": "footway",
+        "name": "Lungomare Punta Sabbioni"
       }
     },
     {
@@ -6841,15 +6878,14 @@
     {
       "type": "way",
       "id": 128634586,
-      "timestamp": "2017-03-24T17:47:30Z",
-      "version": 4,
-      "changeset": 47130697,
-      "user": "voschix",
-      "uid": 305001,
-      "nodes": [4753324734, 1421051212],
+      "timestamp": "2022-05-17T22:24:01Z",
+      "version": 5,
+      "changeset": 121120027,
+      "user": "Robhubi",
+      "uid": 3105686,
+      "nodes": [9750283118, 1421051212],
       "geometry": [
-        {"lat": 45.5360455, "lon": 12.6380979},
-        {"lat": 45.5360097, "lon": 12.6382999},
+        {"lat": 45.5359898, "lon": 12.6383919},
         {"lat": 45.5359524, "lon": 12.6385647},
         {"lat": 45.5359171, "lon": 12.6388388},
         {"lat": 45.5358075, "lon": 12.6394145},
@@ -6875,7 +6911,7 @@
       "geometry": [
         {"lat": 45.5352286, "lon": 12.6407704},
         {"lat": 45.535172, "lon": 12.6408898},
-        {"lat": 45.5352631, "lon": 12.6409541}
+        {"lat": 45.5352561, "lon": 12.6409588}
       ],
       "tags": {
         "fixme": "to be checked if this is really legally designated to bicycles",
@@ -37035,9 +37071,9 @@
       "uid": 6689594,
       "nodes": [1421051277, 421828436],
       "geometry": [
-        {"lat": 45.5352631, "lon": 12.6409541},
-        {"lat": 45.5352343, "lon": 12.6409878},
-        {"lat": 45.5351875, "lon": 12.6411212},
+        {"lat": 45.5352561, "lon": 12.6409588},
+        {"lat": 45.5352428, "lon": 12.6409912},
+        {"lat": 45.5352021, "lon": 12.6410977},
         {"lat": 45.5351716, "lon": 12.6412169},
         {"lat": 45.5351165, "lon": 12.6413262},
         {"lat": 45.5350799, "lon": 12.6414211},
@@ -37275,11 +37311,11 @@
     {
       "type": "way",
       "id": 439024546,
-      "timestamp": "2022-05-13T09:29:45Z",
-      "version": 2,
-      "changeset": 120925636,
-      "user": "Flight777",
-      "uid": 9925732,
+      "timestamp": "2022-05-17T00:15:59Z",
+      "version": 3,
+      "changeset": 121073463,
+      "user": "Robhubi",
+      "uid": 3105686,
       "nodes": [4366479657, 4307321014],
       "geometry": [
         {"lat": 45.4472757, "lon": 12.4257138},
@@ -37307,9 +37343,10 @@
         {"lat": 45.448503, "lon": 12.4317204}
       ],
       "tags": {
-        "highway": "cycleway",
         "bicycle": "designated",
-        "foot": "designated"
+        "foot": "designated",
+        "highway": "cycleway",
+        "segregated": "no"
       }
     },
     {
