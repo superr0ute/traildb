@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-08T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-18T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1783,12 +1783,12 @@
         {"lat": 35.2564456, "lon": 25.1810701}
       ],
       "tags": {
-        "bridge": "yes",
         "highway": "primary",
+        "reg_ref": "ΕΠ30",
+        "bridge": "yes",
         "int_name": "Knossos - Charakas",
         "layer": "1",
-        "name": "Κνωσσός - Χάρακας",
-        "reg_ref": "ΕΠ30"
+        "name": "Κνωσσός - Χάρακας"
       }
     },
     {
@@ -16971,7 +16971,7 @@
         {"lat": 35.2418641, "lon": 25.1622905},
         {"lat": 35.241935, "lon": 25.1622627}
       ],
-      "tags": {"highway": "secondary", "lanes": "1", "oneway": "yes"}
+      "tags": {"highway": "secondary", "oneway": "yes", "lanes": "1"}
     },
     {
       "type": "way",
@@ -19237,9 +19237,9 @@
       ],
       "tags": {
         "highway": "secondary",
+        "oneway": "yes",
         "name": "Ηρωων Ρολυτεχνειου",
-        "name:de": "Iroon Politechniou",
-        "oneway": "yes"
+        "name:de": "Iroon Politechniou"
       }
     },
     {
@@ -20546,11 +20546,11 @@
     {
       "type": "way",
       "id": 384661889,
-      "timestamp": "2022-04-30T20:00:04Z",
-      "version": 9,
-      "changeset": 120398185,
-      "user": "JTE Dimandix",
-      "uid": 7035655,
+      "timestamp": "2022-05-18T23:48:55Z",
+      "version": 10,
+      "changeset": 121168217,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [3493252685, 3493212018],
       "geometry": [
         {"lat": 35.1436081, "lon": 24.8757593},
@@ -20722,9 +20722,8 @@
       "tags": {
         "highway": "secondary",
         "name": "Άνω Ζαρός - Βορίζια",
-        "ref": "ΕΠ11",
         "reg_ref": "ΕΠ11",
-        "source:ref": "ΦΕΚ Α 47/8.2.1956"
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
@@ -28207,9 +28206,9 @@
       ],
       "tags": {
         "highway": "secondary",
+        "oneway": "no",
         "lanes": "2",
-        "maxspeed": "30",
-        "oneway": "no"
+        "maxspeed": "30"
       }
     },
     {
@@ -31030,11 +31029,11 @@
     {
       "type": "way",
       "id": 534550055,
-      "timestamp": "2021-07-26T16:43:04Z",
-      "version": 5,
-      "changeset": 108636704,
-      "user": "loammosspeat",
-      "uid": 12040609,
+      "timestamp": "2022-05-18T19:13:01Z",
+      "version": 6,
+      "changeset": 121161127,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [297353929, 512117679],
       "geometry": [
         {"lat": 35.1947372, "lon": 25.034182},
@@ -31048,7 +31047,7 @@
         {"lat": 35.1962186, "lon": 25.0350679}
       ],
       "tags": {
-        "highway": "primary",
+        "highway": "secondary",
         "name": "Παλαιά Εθνική Οδός 97",
         "old_ref": "ΕΟ97"
       }
@@ -31573,11 +31572,11 @@
     {
       "type": "way",
       "id": 536708905,
-      "timestamp": "2022-04-30T20:00:04Z",
-      "version": 7,
-      "changeset": 120398185,
-      "user": "JTE Dimandix",
-      "uid": 7035655,
+      "timestamp": "2022-05-18T23:48:55Z",
+      "version": 8,
+      "changeset": 121168217,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [417796371, 3493134267],
       "geometry": [
         {"lat": 35.1509038, "lon": 24.8448361},
@@ -31718,19 +31717,18 @@
       "tags": {
         "highway": "secondary",
         "name": "Βορίζια - Καμάρες",
-        "ref": "ΕΠ11",
         "reg_ref": "ΕΠ11",
-        "source:ref": "ΦΕΚ Α 47/8.2.1956"
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
       "type": "way",
       "id": 536708913,
-      "timestamp": "2021-08-19T04:23:15Z",
-      "version": 2,
-      "changeset": 109905538,
-      "user": "AtacamaDesert",
-      "uid": 12492057,
+      "timestamp": "2022-05-18T23:48:55Z",
+      "version": 3,
+      "changeset": 121168217,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [3493212018, 417796371],
       "geometry": [
         {"lat": 35.1509511, "lon": 24.8449466},
@@ -31742,7 +31740,7 @@
         "layer": "1",
         "name": "Ζαρός - Λοχριά",
         "reg_ref": "ΕΠ11",
-        "source:ref": "ΦΕΚ Α 47/8.2.1956"
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
@@ -34815,10 +34813,10 @@
       ],
       "tags": {
         "highway": "primary",
+        "surface": "asphalt",
         "int_name": "Patsides - Epano Archanes",
         "name": "Πατσίδες - Επάνω Αρχάνες",
-        "reg_ref": "ΕΠ31",
-        "surface": "asphalt"
+        "reg_ref": "ΕΠ31"
       }
     },
     {
@@ -34947,9 +34945,9 @@
       ],
       "tags": {
         "highway": "primary",
+        "reg_ref": "ΕΠ30",
         "int_name": "Knossos - Charakas",
-        "name": "Κνωσσός - Χάρακας",
-        "reg_ref": "ΕΠ30"
+        "name": "Κνωσσός - Χάρακας"
       }
     },
     {
@@ -34973,9 +34971,9 @@
       ],
       "tags": {
         "highway": "primary",
+        "reg_ref": "ΕΠ30",
         "int_name": "Knossos - Charakas",
-        "name": "Κνωσσός - Χάρακας",
-        "reg_ref": "ΕΠ30"
+        "name": "Κνωσσός - Χάρακας"
       }
     },
     {
@@ -35671,11 +35669,11 @@
     {
       "type": "way",
       "id": 556874053,
-      "timestamp": "2020-12-11T17:16:03Z",
-      "version": 7,
-      "changeset": 95694519,
-      "user": "tugceyildiz",
-      "uid": 9278384,
+      "timestamp": "2022-05-18T23:48:55Z",
+      "version": 8,
+      "changeset": 121168217,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [317004884, 1880602259],
       "geometry": [
         {"lat": 35.1920203, "lon": 24.9976921},
@@ -35696,9 +35694,8 @@
       "tags": {
         "highway": "secondary",
         "name": "Ἁγίας Βαρβάρας - Ἁγίου Μύρωνος",
-        "ref": "ΕΠ10",
         "reg_ref": "ΕΠ10",
-        "source:ref": "ΦΕΚ Α 47/8.2.1956"
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
@@ -45778,7 +45775,7 @@
         {"lat": 35.1858818, "lon": 25.0618027},
         {"lat": 35.185812, "lon": 25.0620141}
       ],
-      "tags": {"bridge": "yes", "highway": "tertiary", "layer": "1"}
+      "tags": {"highway": "tertiary", "layer": "1", "bridge": "yes"}
     },
     {
       "type": "way",
@@ -45793,7 +45790,7 @@
         {"lat": 35.1860172, "lon": 25.061692},
         {"lat": 35.1858818, "lon": 25.0618027}
       ],
-      "tags": {"bridge": "yes", "highway": "tertiary", "layer": "1"}
+      "tags": {"highway": "tertiary", "layer": "1", "bridge": "yes"}
     },
     {
       "type": "way",
@@ -47728,8 +47725,8 @@
       ],
       "tags": {
         "highway": "secondary",
-        "name": "Ηρώων Πολυτεχνείου",
-        "name:de": "Iroon Politechniou"
+        "name:de": "Iroon Politechniou",
+        "name": "Ηρώων Πολυτεχνείου"
       }
     },
     {
@@ -51274,9 +51271,9 @@
       ],
       "tags": {
         "highway": "secondary",
+        "oneway": "yes",
         "name": "Ηρώων Πολυτεχνείου",
-        "name:de": "Iroon Politechniou",
-        "oneway": "yes"
+        "name:de": "Iroon Politechniou"
       }
     },
     {
