@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-05-17T23:59:59Z",
-    "timestamp_osm_base": "2022-05-18T04:05:39Z",
+    "timestamp_osm_date": "2022-05-18T23:59:59Z",
+    "timestamp_osm_base": "2022-05-19T04:09:00Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4845,25 +4845,6 @@
     },
     {
       "type": "node",
-      "id": 5509597518,
-      "lat": 32.3222725,
-      "lon": -111.043603,
-      "timestamp": "2020-10-27T18:50:54Z",
-      "version": 3,
-      "changeset": 93138787,
-      "user": "jbanales",
-      "uid": 3314380,
-      "tags": {
-        "brand": "Sprouts Farmers Market",
-        "brand:wikidata": "Q7581369",
-        "brand:wikipedia": "en:Sprouts Farmers Market",
-        "name": "Sprouts Farmers Market",
-        "shop": "supermarket",
-        "short_name": "Sprouts"
-      }
-    },
-    {
-      "type": "node",
       "id": 5623667508,
       "lat": 32.1613949,
       "lon": -110.99047,
@@ -8164,13 +8145,13 @@
       },
       "nodes": [],
       "tags": {
+        "building": "yes",
+        "shop": "convenience",
+        "phone": "+1 520 825 8063",
         "brand": "Circle K",
         "brand:wikidata": "Q3268010",
         "brand:wikipedia": "en:Circle K",
-        "building": "yes",
-        "name": "Circle K",
-        "phone": "+1 520 825 8063",
-        "shop": "convenience"
+        "name": "Circle K"
       }
     },
     {
@@ -40923,6 +40904,67 @@
         "amenity": "shelter",
         "building": "yes",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1061544500,
+      "timestamp": "2022-05-18T23:32:42Z",
+      "version": 1,
+      "changeset": 121168030,
+      "user": "GREGMAP1",
+      "uid": 10666051,
+      "center": {
+        "lat": 32.3115526,
+        "lon": -111.0331638
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1061544501,
+      "timestamp": "2022-05-18T23:32:42Z",
+      "version": 1,
+      "changeset": 121168030,
+      "user": "GREGMAP1",
+      "uid": 10666051,
+      "center": {
+        "lat": 32.3115529,
+        "lon": -111.033026
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1061544625,
+      "timestamp": "2022-05-18T23:32:42Z",
+      "version": 1,
+      "changeset": 121168030,
+      "user": "GREGMAP1",
+      "uid": 10666051,
+      "center": {
+        "lat": 32.3222528,
+        "lon": -111.0434204
+      },
+      "nodes": [],
+      "tags": {
+        "brand": "Sprouts Farmers Market",
+        "brand:wikidata": "Q7581369",
+        "brand:wikipedia": "en:Sprouts Farmers Market",
+        "building": "yes",
+        "name": "Sprouts Farmers Market",
+        "shop": "supermarket",
+        "short_name": "Sprouts"
       }
     }
   ]
