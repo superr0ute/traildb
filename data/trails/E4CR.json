@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-18T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-19T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1920350,
-      "timestamp": "2021-12-20T21:50:56Z",
-      "version": 256,
-      "changeset": 115182886,
-      "user": "JTE Dimandix",
-      "uid": 7035655,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 258,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "members": [
         {"type": "node", "ref": 1783588258, "role": ""},
         {"type": "node", "ref": 4566984590, "role": ""},
@@ -317,6 +317,7 @@
         {"type": "way", "ref": 217188232, "role": ""},
         {"type": "way", "ref": 773777742, "role": ""},
         {"type": "way", "ref": 217188254, "role": ""},
+        {"type": "way", "ref": 1061826271, "role": ""},
         {"type": "way", "ref": 217188246, "role": ""},
         {"type": "way", "ref": 217188247, "role": ""},
         {"type": "way", "ref": 31765523, "role": ""},
@@ -387,6 +388,7 @@
         {"type": "way", "ref": 34424578, "role": ""},
         {"type": "way", "ref": 1013881918, "role": ""},
         {"type": "way", "ref": 41807171, "role": ""},
+        {"type": "way", "ref": 1061826269, "role": ""},
         {"type": "way", "ref": 173322833, "role": ""},
         {"type": "way", "ref": 27951219, "role": ""},
         {"type": "way", "ref": 130073941, "role": ""},
@@ -501,6 +503,7 @@
         {"type": "way", "ref": 635228892, "role": ""},
         {"type": "way", "ref": 177631132, "role": ""},
         {"type": "way", "ref": 373496248, "role": ""},
+        {"type": "way", "ref": 1061873937, "role": ""},
         {"type": "way", "ref": 24513781, "role": ""},
         {"type": "way", "ref": 373413466, "role": ""},
         {"type": "way", "ref": 41241520, "role": ""},
@@ -1304,21 +1307,21 @@
     {
       "type": "way",
       "id": 1013881918,
-      "timestamp": "2022-02-19T20:49:18Z",
-      "version": 3,
-      "changeset": 117619004,
-      "user": "JTE Dimandix",
-      "uid": 7035655,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 4,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [516032967, 516032494],
       "geometry": [
         {"lat": 35.3165503, "lon": 24.4111821},
-        {"lat": 35.3166035, "lon": 24.4110683},
-        {"lat": 35.3166076, "lon": 24.4110578},
-        {"lat": 35.3166459, "lon": 24.4109602}
+        {"lat": 35.3165784, "lon": 24.4111191},
+        {"lat": 35.3166063, "lon": 24.4110424},
+        {"lat": 35.3166346, "lon": 24.410951}
       ],
       "tags": {
         "destination:backward": "Άνω Βαλσαμόνερο, Κάτω Μαλάκι;Άνω Μαλάκι",
-        "highway": "tertiary"
+        "highway": "secondary_link"
       }
     },
     {
@@ -1766,11 +1769,11 @@
     {
       "type": "way",
       "id": 105957821,
-      "timestamp": "2021-08-02T11:37:51Z",
-      "version": 6,
-      "changeset": 109027976,
-      "user": "Absarokan",
-      "uid": 10334722,
+      "timestamp": "2022-05-19T02:12:23Z",
+      "version": 7,
+      "changeset": 121170121,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [32472556, 1220028487],
       "geometry": [
         {"lat": 35.2564828, "lon": 25.1807955},
@@ -1783,22 +1786,23 @@
         {"lat": 35.2564456, "lon": 25.1810701}
       ],
       "tags": {
-        "highway": "primary",
-        "reg_ref": "ΕΠ30",
         "bridge": "yes",
+        "highway": "secondary",
         "int_name": "Knossos - Charakas",
         "layer": "1",
-        "name": "Κνωσσός - Χάρακας"
+        "name": "Κνωσσός - Χάρακας",
+        "reg_ref": "ΕΠ30",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
       "type": "way",
       "id": 106081168,
-      "timestamp": "2021-08-19T03:23:00Z",
-      "version": 20,
-      "changeset": 109903705,
-      "user": "YarraRiver",
-      "uid": 10461155,
+      "timestamp": "2022-05-19T15:35:46Z",
+      "version": 21,
+      "changeset": 121201564,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [32464697, 32464712],
       "geometry": [
         {"lat": 35.2089883, "lon": 25.3367006},
@@ -1837,19 +1841,20 @@
         {"lat": 35.2089798, "lon": 25.325708}
       ],
       "tags": {
-        "highway": "primary",
+        "highway": "secondary",
         "name": "Άγιες Παρασκιές - Καστέλλι",
-        "reg_ref": "ΕΠ44"
+        "reg_ref": "ΕΠ44",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
       "type": "way",
       "id": 106081169,
-      "timestamp": "2021-08-17T07:41:10Z",
-      "version": 11,
-      "changeset": 109792322,
-      "user": "KazakhSteppe",
-      "uid": 10334811,
+      "timestamp": "2022-05-19T15:35:46Z",
+      "version": 12,
+      "changeset": 121201564,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1163903283, 741703729],
       "geometry": [
         {"lat": 35.2189517, "lon": 25.2940692},
@@ -1885,9 +1890,111 @@
         {"lat": 35.2188399, "lon": 25.2775374}
       ],
       "tags": {
-        "highway": "primary",
+        "highway": "secondary",
         "name": "Άγιες Παρασκιές - Καστέλλι",
-        "reg_ref": "ΕΠ44"
+        "reg_ref": "ΕΠ44",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1061826269,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 1,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
+      "nodes": [1841661530, 307005223],
+      "geometry": [
+        {"lat": 35.3024436, "lon": 24.4233915},
+        {"lat": 35.3024235, "lon": 24.4233209},
+        {"lat": 35.3024279, "lon": 24.4231841},
+        {"lat": 35.3025603, "lon": 24.4229387},
+        {"lat": 35.302754, "lon": 24.4226825},
+        {"lat": 35.3028161, "lon": 24.422529},
+        {"lat": 35.3029423, "lon": 24.4221783},
+        {"lat": 35.3030614, "lon": 24.4218754},
+        {"lat": 35.3032201, "lon": 24.4217162},
+        {"lat": 35.3033342, "lon": 24.4216461},
+        {"lat": 35.3036378, "lon": 24.4215732},
+        {"lat": 35.3037999, "lon": 24.4214776},
+        {"lat": 35.3038792, "lon": 24.4213977},
+        {"lat": 35.3039255, "lon": 24.4213185},
+        {"lat": 35.3039487, "lon": 24.421192}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ8",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1061826271,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 1,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
+      "nodes": [8979342965, 1375338574],
+      "geometry": [
+        {"lat": 35.1959631, "lon": 24.2887666},
+        {"lat": 35.195942, "lon": 24.2888302},
+        {"lat": 35.195828, "lon": 24.2890006},
+        {"lat": 35.1955524, "lon": 24.2893647},
+        {"lat": 35.1953036, "lon": 24.2897429},
+        {"lat": 35.195091, "lon": 24.2900003},
+        {"lat": 35.1948591, "lon": 24.2902153},
+        {"lat": 35.1942658, "lon": 24.2906038},
+        {"lat": 35.1939074, "lon": 24.2908265},
+        {"lat": 35.1937901, "lon": 24.2908908},
+        {"lat": 35.1934537, "lon": 24.2910384},
+        {"lat": 35.1932115, "lon": 24.2911671},
+        {"lat": 35.1930306, "lon": 24.2912731},
+        {"lat": 35.192955, "lon": 24.2913455},
+        {"lat": 35.1928564, "lon": 24.2914662},
+        {"lat": 35.1927145, "lon": 24.2916712},
+        {"lat": 35.1925972, "lon": 24.2917954},
+        {"lat": 35.1924991, "lon": 24.2918685},
+        {"lat": 35.1923939, "lon": 24.2919208},
+        {"lat": 35.1922503, "lon": 24.2919449},
+        {"lat": 35.1921451, "lon": 24.2919141},
+        {"lat": 35.1920695, "lon": 24.2918685},
+        {"lat": 35.1920048, "lon": 24.2917632},
+        {"lat": 35.1919834, "lon": 24.2916734},
+        {"lat": 35.1919689, "lon": 24.2915828}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ4",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1061873937,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 1,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
+      "nodes": [762087146, 265868423],
+      "geometry": [
+        {"lat": 35.2869032, "lon": 24.889413},
+        {"lat": 35.2868025, "lon": 24.8894767},
+        {"lat": 35.2863701, "lon": 24.8897517},
+        {"lat": 35.2862294, "lon": 24.8898717},
+        {"lat": 35.2861446, "lon": 24.8899763},
+        {"lat": 35.2860756, "lon": 24.8900849},
+        {"lat": 35.2859951, "lon": 24.8903404},
+        {"lat": 35.2859623, "lon": 24.8904531},
+        {"lat": 35.2857789, "lon": 24.8908775}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "name": "Ηράκλειο - Ανώγεια",
+        "reg_ref": "ΕΠ29",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
@@ -4703,26 +4810,30 @@
     {
       "type": "way",
       "id": 126564051,
-      "timestamp": "2018-10-17T09:13:59Z",
-      "version": 5,
-      "changeset": 63603606,
-      "user": "JeanBaguette",
-      "uid": 695719,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 6,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1402762167, 1402762163],
       "geometry": [
         {"lat": 35.353979, "lon": 24.7237816},
         {"lat": 35.3538202, "lon": 24.7238658}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ26",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
       "id": 126564054,
-      "timestamp": "2021-07-30T04:37:31Z",
-      "version": 5,
-      "changeset": 108856722,
-      "user": "KrugerPark",
-      "uid": 10019185,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 6,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [959751495, 1402761650],
       "geometry": [
         {"lat": 35.3319979, "lon": 24.6885109},
@@ -4802,16 +4913,20 @@
         {"lat": 35.3350996, "lon": 24.6965508},
         {"lat": 35.335267, "lon": 24.6966192}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ28",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
       "id": 126564056,
-      "timestamp": "2021-07-30T05:31:40Z",
-      "version": 7,
-      "changeset": 108859961,
-      "user": "KrugerPark",
-      "uid": 10019185,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 8,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1402761782, 1402762167],
       "geometry": [
         {"lat": 35.3390654, "lon": 24.7129512},
@@ -4954,16 +5069,20 @@
         {"lat": 35.3538964, "lon": 24.7237377},
         {"lat": 35.353979, "lon": 24.7237816}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ28",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
       "id": 126564057,
-      "timestamp": "2021-07-31T05:14:48Z",
-      "version": 8,
-      "changeset": 108916587,
-      "user": "KrugerPark",
-      "uid": 10019185,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 9,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1402761650, 1402761782],
       "geometry": [
         {"lat": 35.335267, "lon": 24.6966192},
@@ -5093,7 +5212,11 @@
         {"lat": 35.3394067, "lon": 24.7125006},
         {"lat": 35.3390654, "lon": 24.7129512}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ28",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -5246,11 +5369,11 @@
     {
       "type": "way",
       "id": 130073941,
-      "timestamp": "2020-02-26T13:32:29Z",
-      "version": 4,
-      "changeset": 81505750,
-      "user": "tugceyildiz",
-      "uid": 9278384,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 5,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [293037078, 293037404],
       "geometry": [
         {"lat": 35.3111346, "lon": 24.4568655},
@@ -5285,7 +5408,11 @@
         {"lat": 35.3090151, "lon": 24.4478324},
         {"lat": 35.3089919, "lon": 24.4476332}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ7",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -6351,12 +6478,12 @@
     {
       "type": "way",
       "id": 173322833,
-      "timestamp": "2021-07-20T18:25:22Z",
-      "version": 10,
-      "changeset": 108334188,
-      "user": "4TL4S",
-      "uid": 12781275,
-      "nodes": [516022657, 307005223],
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 11,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
+      "nodes": [516022657, 1841661530],
       "geometry": [
         {"lat": 35.3075169, "lon": 24.4430859},
         {"lat": 35.3076631, "lon": 24.4430301},
@@ -6474,32 +6601,22 @@
         {"lat": 35.3027433, "lon": 24.4235839},
         {"lat": 35.3026727, "lon": 24.4235216},
         {"lat": 35.3025382, "lon": 24.4234654},
-        {"lat": 35.3024436, "lon": 24.4233915},
-        {"lat": 35.3024235, "lon": 24.4233209},
-        {"lat": 35.3024279, "lon": 24.4231841},
-        {"lat": 35.3025603, "lon": 24.4229387},
-        {"lat": 35.302754, "lon": 24.4226825},
-        {"lat": 35.3028161, "lon": 24.422529},
-        {"lat": 35.3029423, "lon": 24.4221783},
-        {"lat": 35.3030614, "lon": 24.4218754},
-        {"lat": 35.3032201, "lon": 24.4217162},
-        {"lat": 35.3033342, "lon": 24.4216461},
-        {"lat": 35.3036378, "lon": 24.4215732},
-        {"lat": 35.3037999, "lon": 24.4214776},
-        {"lat": 35.3038792, "lon": 24.4213977},
-        {"lat": 35.3039255, "lon": 24.4213185},
-        {"lat": 35.3039487, "lon": 24.421192}
+        {"lat": 35.3024436, "lon": 24.4233915}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ7",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
       "id": 173587101,
-      "timestamp": "2021-08-17T07:34:49Z",
-      "version": 18,
-      "changeset": 109791937,
-      "user": "YarraRiver",
-      "uid": 10461155,
+      "timestamp": "2022-05-19T15:35:46Z",
+      "version": 19,
+      "changeset": 121201564,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [32464697, 273858037],
       "geometry": [
         {"lat": 35.2089883, "lon": 25.3367006},
@@ -6535,17 +6652,18 @@
         "reg_ref": "ΕΠ44",
         "source": "bing",
         "source:ref": "ΦΕΚ Β 319/23.7.1963",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 177627555,
-      "timestamp": "2021-08-16T06:40:49Z",
-      "version": 14,
-      "changeset": 109729255,
-      "user": "KaruraForest",
-      "uid": 10810982,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 15,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [5239786381, 269540936],
       "geometry": [
         {"lat": 35.2961103, "lon": 24.8591286},
@@ -6654,22 +6772,27 @@
         {"lat": 35.289618, "lon": 24.876865},
         {"lat": 35.2895064, "lon": 24.8771547}
       ],
-      "tags": {"highway": "secondary", "source": "Bing Sat, GPS"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ29",
+        "source": "Bing Sat, GPS",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
       "id": 177631132,
-      "timestamp": "2015-12-06T13:24:30Z",
-      "version": 2,
-      "changeset": 35784744,
-      "user": "JayCBR",
-      "uid": 2700471,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 3,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1880497957, 265868415],
       "geometry": [
         {"lat": 35.2902395, "lon": 24.8862582},
         {"lat": 35.2901511, "lon": 24.8862849}
       ],
-      "tags": {"highway": "secondary"}
+      "tags": {"highway": "tertiary", "old_ref": "ΕΠ29"}
     },
     {
       "type": "way",
@@ -6799,11 +6922,11 @@
     {
       "type": "way",
       "id": 183887999,
-      "timestamp": "2021-08-19T04:14:55Z",
-      "version": 14,
-      "changeset": 109905243,
-      "user": "KroonsPolders",
-      "uid": 10811097,
+      "timestamp": "2022-05-19T02:12:23Z",
+      "version": 15,
+      "changeset": 121170121,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [5371386303, 3783997474],
       "geometry": [
         {"lat": 35.1879726, "lon": 25.0666287},
@@ -6872,17 +6995,22 @@
         {"lat": 35.1909483, "lon": 25.0757991},
         {"lat": 35.1908299, "lon": 25.0761129},
         {"lat": 35.1906293, "lon": 25.0766064},
-        {"lat": 35.1905482, "lon": 25.0767472},
-        {"lat": 35.1905296, "lon": 25.0768378},
-        {"lat": 35.1905433, "lon": 25.0769102},
-        {"lat": 35.1906074, "lon": 25.0770336},
-        {"lat": 35.1907017, "lon": 25.0771818},
-        {"lat": 35.1907471, "lon": 25.0772448},
-        {"lat": 35.1907707, "lon": 25.0772924},
-        {"lat": 35.1907828, "lon": 25.0773675},
-        {"lat": 35.1907876, "lon": 25.0775868}
+        {"lat": 35.1905935, "lon": 25.0767303},
+        {"lat": 35.1905749, "lon": 25.0768209},
+        {"lat": 35.1905886, "lon": 25.0768933},
+        {"lat": 35.1906326, "lon": 25.0770059},
+        {"lat": 35.1907269, "lon": 25.0771541},
+        {"lat": 35.1907811, "lon": 25.0772402},
+        {"lat": 35.1908135, "lon": 25.0772924},
+        {"lat": 35.1908407, "lon": 25.0773521},
+        {"lat": 35.1908441, "lon": 25.0774133},
+        {"lat": 35.1908342, "lon": 25.0775729}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ28",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -8105,11 +8233,11 @@
     {
       "type": "way",
       "id": 217188246,
-      "timestamp": "2021-08-04T12:11:59Z",
-      "version": 3,
-      "changeset": 109144386,
-      "user": "HawkeyeRun",
-      "uid": 10811074,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 4,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1375338574, 330144968],
       "geometry": [
         {"lat": 35.1919689, "lon": 24.2915828},
@@ -8152,16 +8280,20 @@
         {"lat": 35.1922569, "lon": 24.2965583},
         {"lat": 35.1922097, "lon": 24.2968668}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ4",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
       "id": 217188247,
-      "timestamp": "2021-08-04T09:19:20Z",
-      "version": 5,
-      "changeset": 109134883,
-      "user": "HawkeyeRun",
-      "uid": 10811074,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 6,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [330144968, 29452447],
       "geometry": [
         {"lat": 35.1922097, "lon": 24.2968668},
@@ -8227,17 +8359,21 @@
         {"lat": 35.1916365, "lon": 24.3077579},
         {"lat": 35.1920958, "lon": 24.3079135}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ4",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
       "id": 217188254,
-      "timestamp": "2021-08-04T08:22:14Z",
-      "version": 6,
-      "changeset": 109132086,
-      "user": "HawkeyeRun",
-      "uid": 10811074,
-      "nodes": [5394216161, 1375338574],
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 7,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
+      "nodes": [5394216161, 8979342965],
       "geometry": [
         {"lat": 35.1986265, "lon": 24.279812},
         {"lat": 35.1986117, "lon": 24.2798549},
@@ -8319,31 +8455,7 @@
         {"lat": 35.1959557, "lon": 24.2885573},
         {"lat": 35.1959711, "lon": 24.2886492},
         {"lat": 35.19597, "lon": 24.2887263},
-        {"lat": 35.1959574, "lon": 24.2887853},
-        {"lat": 35.195942, "lon": 24.2888302},
-        {"lat": 35.195828, "lon": 24.2890006},
-        {"lat": 35.1955524, "lon": 24.2893647},
-        {"lat": 35.1953036, "lon": 24.2897429},
-        {"lat": 35.195091, "lon": 24.2900003},
-        {"lat": 35.1948591, "lon": 24.2902153},
-        {"lat": 35.1942658, "lon": 24.2906038},
-        {"lat": 35.1939074, "lon": 24.2908265},
-        {"lat": 35.1937901, "lon": 24.2908908},
-        {"lat": 35.1934537, "lon": 24.2910384},
-        {"lat": 35.1932115, "lon": 24.2911671},
-        {"lat": 35.1930306, "lon": 24.2912731},
-        {"lat": 35.192955, "lon": 24.2913455},
-        {"lat": 35.1928564, "lon": 24.2914662},
-        {"lat": 35.1927145, "lon": 24.2916712},
-        {"lat": 35.1925972, "lon": 24.2917954},
-        {"lat": 35.1924991, "lon": 24.2918685},
-        {"lat": 35.1923939, "lon": 24.2919208},
-        {"lat": 35.1922503, "lon": 24.2919449},
-        {"lat": 35.1921451, "lon": 24.2919141},
-        {"lat": 35.1920695, "lon": 24.2918685},
-        {"lat": 35.1920048, "lon": 24.2917632},
-        {"lat": 35.1919834, "lon": 24.2916734},
-        {"lat": 35.1919689, "lon": 24.2915828}
+        {"lat": 35.1959631, "lon": 24.2887666}
       ],
       "tags": {"highway": "tertiary"}
     },
@@ -9675,11 +9787,11 @@
     {
       "type": "way",
       "id": 239896034,
-      "timestamp": "2021-07-28T11:02:50Z",
-      "version": 7,
-      "changeset": 108751509,
-      "user": "Kahayan",
-      "uid": 12652580,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 8,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [313825880, 2476694032],
       "geometry": [
         {"lat": 35.3086422, "lon": 24.8058227},
@@ -9849,7 +9961,7 @@
         {"lat": 35.3146754, "lon": 24.819286},
         {"lat": 35.3147515, "lon": 24.8193236}
       ],
-      "tags": {"highway": "secondary"}
+      "tags": {"highway": "tertiary"}
     },
     {
       "type": "way",
@@ -10104,27 +10216,33 @@
     {
       "type": "way",
       "id": 240806010,
-      "timestamp": "2018-02-14T19:13:42Z",
-      "version": 4,
-      "changeset": 56363049,
-      "user": "usberlin",
-      "uid": 537693,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 5,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [2484980645, 728206680],
       "geometry": [
         {"lat": 35.3104762, "lon": 24.3949175},
         {"lat": 35.3105328, "lon": 24.3948268},
         {"lat": 35.3106096, "lon": 24.394775}
       ],
-      "tags": {"bridge": "yes", "highway": "tertiary", "layer": "1"}
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "reg_ref": "ΕΠ6",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
       "id": 240806022,
-      "timestamp": "2022-02-19T20:49:18Z",
-      "version": 7,
-      "changeset": 117619004,
-      "user": "JTE Dimandix",
-      "uid": 7035655,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 8,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [728206680, 728206718],
       "geometry": [
         {"lat": 35.3106096, "lon": 24.394775},
@@ -10142,8 +10260,10 @@
       ],
       "tags": {
         "destination:backward": "Καλονικτης;Παλαίλιμνος",
-        "highway": "tertiary",
-        "priority_road": "designated"
+        "highway": "secondary",
+        "priority_road": "designated",
+        "reg_ref": "ΕΠ6",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
@@ -10902,11 +11022,11 @@
     {
       "type": "way",
       "id": 24805676,
-      "timestamp": "2021-07-29T05:26:57Z",
-      "version": 18,
-      "changeset": 108792416,
-      "user": "Kahayan",
-      "uid": 12652580,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 19,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [265868438, 1880456799],
       "geometry": [
         {"lat": 35.2955224, "lon": 24.8397405},
@@ -10951,7 +11071,11 @@
         {"lat": 35.2945351, "lon": 24.8367941},
         {"lat": 35.29459, "lon": 24.8366663}
       ],
-      "tags": {"highway": "secondary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ30",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -11381,11 +11505,11 @@
     {
       "type": "way",
       "id": 25635997,
-      "timestamp": "2022-04-30T20:00:04Z",
-      "version": 10,
-      "changeset": 120398185,
-      "user": "JTE Dimandix",
-      "uid": 7035655,
+      "timestamp": "2022-05-19T19:01:14Z",
+      "version": 11,
+      "changeset": 121209103,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [279414924, 279415021],
       "geometry": [
         {"lat": 35.29869, "lon": 24.5490764},
@@ -11443,13 +11567,14 @@
         {"lat": 35.3037867, "lon": 24.5434957},
         {"lat": 35.3037309, "lon": 24.5432906},
         {"lat": 35.3036545, "lon": 24.5431049},
-        {"lat": 35.3035721, "lon": 24.5429503}
+        {"lat": 35.3035984, "lon": 24.5430066}
       ],
       "tags": {
         "highway": "secondary",
         "maxspeed": "60",
         "name": "Πρασιές - Απόστολοι",
-        "reg_ref": "ΕΠ13"
+        "reg_ref": "ΕΠ13",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
@@ -14769,11 +14894,11 @@
     {
       "type": "way",
       "id": 27951219,
-      "timestamp": "2021-07-20T18:25:22Z",
-      "version": 14,
-      "changeset": 108334188,
-      "user": "4TL4S",
-      "uid": 12781275,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 15,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [293037404, 516022657],
       "geometry": [
         {"lat": 35.3089919, "lon": 24.4476332},
@@ -14807,7 +14932,11 @@
         {"lat": 35.3074316, "lon": 24.4431406},
         {"lat": 35.3075169, "lon": 24.4430859}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ7",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -14928,11 +15057,11 @@
     {
       "type": "way",
       "id": 28568928,
-      "timestamp": "2021-08-20T05:17:54Z",
-      "version": 18,
-      "changeset": 109963860,
-      "user": "Karoo02",
-      "uid": 10529464,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 19,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [313824924, 5992652680],
       "geometry": [
         {"lat": 35.3277527, "lon": 24.7773356},
@@ -15081,7 +15210,11 @@
         {"lat": 35.3103472, "lon": 24.7909364},
         {"lat": 35.310692, "lon": 24.7912046}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ30",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -15786,11 +15919,11 @@
     {
       "type": "way",
       "id": 301081911,
-      "timestamp": "2020-11-02T11:07:55Z",
-      "version": 7,
-      "changeset": 93415244,
-      "user": "kavousion",
-      "uid": 11367491,
+      "timestamp": "2022-05-19T15:35:46Z",
+      "version": 8,
+      "changeset": 121201564,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [418124246, 3051905961],
       "geometry": [
         {"lat": 35.1960034, "lon": 25.3833459},
@@ -15807,7 +15940,13 @@
         {"lat": 35.1966088, "lon": 25.3857638},
         {"lat": 35.1966681, "lon": 25.3858866}
       ],
-      "tags": {"highway": "tertiary", "name": "Χωμα", "surface": "ground"}
+      "tags": {
+        "highway": "secondary",
+        "name": "Χωμα",
+        "reg_ref": "ΕΠ44",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956",
+        "surface": "ground"
+      }
     },
     {
       "type": "way",
@@ -16014,11 +16153,11 @@
     {
       "type": "way",
       "id": 31765523,
-      "timestamp": "2021-08-04T09:19:20Z",
-      "version": 9,
-      "changeset": 109134883,
-      "user": "HawkeyeRun",
-      "uid": 10811074,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 10,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [29452447, 3541405417],
       "geometry": [
         {"lat": 35.1920958, "lon": 24.3079135},
@@ -16062,7 +16201,11 @@
         {"lat": 35.2010194, "lon": 24.3120497},
         {"lat": 35.2010845, "lon": 24.3120414}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ4",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -16412,7 +16555,7 @@
       "uid": 7035655,
       "nodes": [516032494, 728206718],
       "geometry": [
-        {"lat": 35.3166459, "lon": 24.4109602},
+        {"lat": 35.3166346, "lon": 24.410951},
         {"lat": 35.315725, "lon": 24.4092917},
         {"lat": 35.315175, "lon": 24.4077467},
         {"lat": 35.3144515, "lon": 24.4046393},
@@ -16930,11 +17073,11 @@
     {
       "type": "way",
       "id": 35763779,
-      "timestamp": "2021-07-20T09:06:05Z",
-      "version": 5,
-      "changeset": 108303141,
-      "user": "Mendips",
-      "uid": 10409558,
+      "timestamp": "2022-05-19T15:35:46Z",
+      "version": 6,
+      "changeset": 121201564,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1202268355, 418124246],
       "geometry": [
         {"lat": 35.1938038, "lon": 25.3802439},
@@ -16952,16 +17095,21 @@
         {"lat": 35.1958992, "lon": 25.3831433},
         {"lat": 35.1960034, "lon": 25.3833459}
       ],
-      "tags": {"highway": "tertiary", "source": "Bing"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ44",
+        "source": "Bing",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
       "id": 35787068,
-      "timestamp": "2021-08-03T11:43:16Z",
-      "version": 11,
-      "changeset": 109090365,
-      "user": "Absarokan",
-      "uid": 10334722,
+      "timestamp": "2022-05-19T02:12:23Z",
+      "version": 12,
+      "changeset": 121170121,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [3726634833, 972510214],
       "geometry": [
         {"lat": 35.24156, "lon": 25.1621991},
@@ -16971,7 +17119,12 @@
         {"lat": 35.2418641, "lon": 25.1622905},
         {"lat": 35.241935, "lon": 25.1622627}
       ],
-      "tags": {"highway": "secondary", "oneway": "yes", "lanes": "1"}
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "1",
+        "old_ref": "ΕΠ31",
+        "oneway": "yes"
+      }
     },
     {
       "type": "way",
@@ -18449,11 +18602,11 @@
     {
       "type": "way",
       "id": 370023147,
-      "timestamp": "2021-07-28T08:40:05Z",
-      "version": 4,
-      "changeset": 108738518,
-      "user": "CapitolHill",
-      "uid": 10461085,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 5,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [746618386, 395490092],
       "geometry": [
         {"lat": 35.2963142, "lon": 24.3676086},
@@ -18497,7 +18650,11 @@
         {"lat": 35.2895857, "lon": 24.371594},
         {"lat": 35.2895727, "lon": 24.3717479}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ5",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -19219,11 +19376,11 @@
     {
       "type": "way",
       "id": 372814356,
-      "timestamp": "2021-08-03T13:17:02Z",
-      "version": 8,
-      "changeset": 109095935,
-      "user": "Absarokan",
-      "uid": 10334722,
+      "timestamp": "2022-05-19T02:12:23Z",
+      "version": 9,
+      "changeset": 121170121,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [274072715, 1161019856],
       "geometry": [
         {"lat": 35.2372317, "lon": 25.1591595},
@@ -19236,10 +19393,11 @@
         {"lat": 35.2366745, "lon": 25.1578691}
       ],
       "tags": {
-        "highway": "secondary",
-        "oneway": "yes",
+        "highway": "tertiary",
         "name": "Ηρωων Ρολυτεχνειου",
-        "name:de": "Iroon Politechniou"
+        "name:de": "Iroon Politechniou",
+        "old_ref": "ΕΠ31",
+        "oneway": "yes"
       }
     },
     {
@@ -19371,11 +19529,11 @@
     {
       "type": "way",
       "id": 373413466,
-      "timestamp": "2021-08-13T12:27:43Z",
-      "version": 4,
-      "changeset": 109628702,
-      "user": "KaruraForest",
-      "uid": 10810982,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 5,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1880657521, 266581253],
       "geometry": [
         {"lat": 35.2854847, "lon": 24.8910985},
@@ -19398,17 +19556,21 @@
         {"lat": 35.2843136, "lon": 24.8896256},
         {"lat": 35.284104, "lon": 24.889517}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ33",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
       "id": 373496248,
-      "timestamp": "2021-08-16T08:47:59Z",
-      "version": 10,
-      "changeset": 109736425,
-      "user": "KaruraForest",
-      "uid": 10810982,
-      "nodes": [265868415, 265868423],
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 11,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
+      "nodes": [265868415, 762087146],
       "geometry": [
         {"lat": 35.2901511, "lon": 24.8862849},
         {"lat": 35.2899902, "lon": 24.8861977},
@@ -19433,17 +19595,13 @@
         {"lat": 35.2872723, "lon": 24.8887658},
         {"lat": 35.2872073, "lon": 24.8888978},
         {"lat": 35.2870991, "lon": 24.8891173},
-        {"lat": 35.2869032, "lon": 24.889413},
-        {"lat": 35.2868025, "lon": 24.8894767},
-        {"lat": 35.2863701, "lon": 24.8897517},
-        {"lat": 35.2862294, "lon": 24.8898717},
-        {"lat": 35.2861446, "lon": 24.8899763},
-        {"lat": 35.2860756, "lon": 24.8900849},
-        {"lat": 35.2859951, "lon": 24.8903404},
-        {"lat": 35.2859623, "lon": 24.8904531},
-        {"lat": 35.2857789, "lon": 24.8908775}
+        {"lat": 35.2869032, "lon": 24.889413}
       ],
-      "tags": {"highway": "secondary", "name": "Ηράκλειο - Ανώγεια"}
+      "tags": {
+        "highway": "tertiary",
+        "name": "Ηράκλειο - Ανώγεια",
+        "old_ref": "ΕΠ29"
+      }
     },
     {
       "type": "way",
@@ -22435,11 +22593,11 @@
     {
       "type": "way",
       "id": 41241520,
-      "timestamp": "2021-08-13T12:27:43Z",
-      "version": 32,
-      "changeset": 109628702,
-      "user": "KaruraForest",
-      "uid": 10810982,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 33,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [266581253, 5198749889],
       "geometry": [
         {"lat": 35.284104, "lon": 24.889517},
@@ -22468,7 +22626,12 @@
         {"lat": 35.2827013, "lon": 24.8880292},
         {"lat": 35.2826146, "lon": 24.8882919}
       ],
-      "tags": {"highway": "tertiary", "surface": "asphalt"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ33",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -22532,11 +22695,11 @@
     {
       "type": "way",
       "id": 41806686,
-      "timestamp": "2022-05-08T17:52:52Z",
-      "version": 6,
-      "changeset": 120712684,
-      "user": "JTE Dimandix",
-      "uid": 7035655,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 7,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [516022360, 293037078],
       "geometry": [
         {"lat": 35.3125856, "lon": 24.4618239},
@@ -22553,17 +22716,19 @@
       ],
       "tags": {
         "destination:forward": "Κάστελλος;Κάτω Μαλάκι",
-        "highway": "tertiary"
+        "highway": "secondary",
+        "reg_ref": "ΕΠ7",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
       "type": "way",
       "id": 41806687,
-      "timestamp": "2022-05-08T15:11:38Z",
-      "version": 20,
-      "changeset": 120706860,
-      "user": "JTE Dimandix",
-      "uid": 7035655,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 21,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [516022360, 1140848025],
       "geometry": [
         {"lat": 35.3125856, "lon": 24.4618239},
@@ -22578,17 +22743,18 @@
         "highway": "secondary",
         "name": "Ρέθυμνο - Σπήλι",
         "name:de": "Rethymno - Agias Galinis",
-        "reg_ref": "ΕΠ3"
+        "reg_ref": "ΕΠ3",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
       "type": "way",
       "id": 41807171,
-      "timestamp": "2021-12-20T21:50:56Z",
-      "version": 8,
-      "changeset": 115182886,
-      "user": "JTE Dimandix",
-      "uid": 7035655,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 9,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [307005223, 516032967],
       "geometry": [
         {"lat": 35.3039487, "lon": 24.421192},
@@ -22713,7 +22879,11 @@
         {"lat": 35.3163811, "lon": 24.4113135},
         {"lat": 35.3165503, "lon": 24.4111821}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ8",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -24417,11 +24587,11 @@
     {
       "type": "way",
       "id": 438660766,
-      "timestamp": "2019-08-20T19:47:56Z",
-      "version": 4,
-      "changeset": 73554362,
-      "user": "Discostu36",
-      "uid": 8265165,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 5,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [937867611, 504010738],
       "geometry": [
         {"lat": 35.2183914, "lon": 24.8696573},
@@ -24598,16 +24768,21 @@
         {"lat": 35.2142915, "lon": 24.8312691},
         {"lat": 35.21423, "lon": 24.8311634}
       ],
-      "tags": {"highway": "tertiary", "surface": "asphalt"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ33",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 438660771,
-      "timestamp": "2017-09-17T23:08:20Z",
-      "version": 2,
-      "changeset": 52128813,
-      "user": "JayCBR",
-      "uid": 2700471,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 3,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [504010738, 290576585],
       "geometry": [
         {"lat": 35.21423, "lon": 24.8311634},
@@ -24658,7 +24833,12 @@
         {"lat": 35.2060236, "lon": 24.8346305},
         {"lat": 35.2058583, "lon": 24.8346592}
       ],
-      "tags": {"highway": "tertiary", "surface": "asphalt"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ33",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -25002,11 +25182,11 @@
     {
       "type": "way",
       "id": 445954449,
-      "timestamp": "2021-08-18T10:38:32Z",
-      "version": 12,
-      "changeset": 109866276,
-      "user": "YarraRiver",
-      "uid": 10461155,
+      "timestamp": "2022-05-19T15:35:46Z",
+      "version": 13,
+      "changeset": 121201564,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [418124034, 268557810],
       "geometry": [
         {"lat": 35.1928676, "lon": 25.3757475},
@@ -25213,17 +25393,18 @@
         "highway": "secondary",
         "name": "Καστέλλι - Κασταμονίτσα",
         "reg_ref": "ΕΠ44",
-        "source": "Bing"
+        "source": "Bing",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
       "type": "way",
       "id": 445954474,
-      "timestamp": "2021-07-20T09:18:40Z",
-      "version": 6,
-      "changeset": 108304155,
-      "user": "Mendips",
-      "uid": 10409558,
+      "timestamp": "2022-05-19T15:35:46Z",
+      "version": 7,
+      "changeset": 121201564,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1202268355, 1202268372],
       "geometry": [
         {"lat": 35.1938038, "lon": 25.3802439},
@@ -25258,20 +25439,21 @@
         {"lat": 35.1935918, "lon": 25.3767952}
       ],
       "tags": {
-        "highway": "tertiary",
+        "highway": "secondary",
         "name": "Καστέλλι - Κασταμονίτσα",
         "reg_ref": "ΕΠ44",
-        "source": "Bing"
+        "source": "Bing",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
       "type": "way",
       "id": 445954505,
-      "timestamp": "2021-08-19T02:59:37Z",
-      "version": 9,
-      "changeset": 109903280,
-      "user": "YarraRiver",
-      "uid": 10461155,
+      "timestamp": "2022-05-19T15:35:46Z",
+      "version": 10,
+      "changeset": 121201564,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [268557769, 268557810],
       "geometry": [
         {"lat": 35.2077849, "lon": 25.3505033},
@@ -25414,6 +25596,7 @@
         "highway": "secondary",
         "name": "Καστέλλι - Κασταμονίτσα",
         "reg_ref": "ΕΠ44",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956",
         "surface": "asphalt"
       }
     },
@@ -25883,11 +26066,11 @@
     {
       "type": "way",
       "id": 461178308,
-      "timestamp": "2021-08-19T08:43:28Z",
-      "version": 2,
-      "changeset": 109918140,
-      "user": "Karoo02",
-      "uid": 10529464,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 3,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [313824462, 313824924],
       "geometry": [
         {"lat": 35.3333425, "lon": 24.7656298},
@@ -25933,7 +26116,11 @@
         {"lat": 35.3278856, "lon": 24.7772638},
         {"lat": 35.3277527, "lon": 24.7773356}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ30",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -27452,11 +27639,11 @@
     {
       "type": "way",
       "id": 518509872,
-      "timestamp": "2017-08-25T08:03:14Z",
-      "version": 1,
-      "changeset": 51426795,
-      "user": "JeanBaguette",
-      "uid": 695719,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 2,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [5057774788, 3541405460],
       "geometry": [
         {"lat": 35.2013231, "lon": 24.3126552},
@@ -27507,16 +27694,20 @@
         {"lat": 35.2023075, "lon": 24.3135555},
         {"lat": 35.2023787, "lon": 24.3135716}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ4",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
       "id": 518509874,
-      "timestamp": "2021-09-15T21:38:06Z",
-      "version": 2,
-      "changeset": 111263283,
-      "user": "Hannes Röst",
-      "uid": 289221,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 3,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [355589556, 2484968454],
       "geometry": [
         {"lat": 35.2006155, "lon": 24.3150984},
@@ -27524,7 +27715,11 @@
         {"lat": 35.2005136, "lon": 24.3151675},
         {"lat": 35.2004971, "lon": 24.3151957}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ4",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -28031,11 +28226,11 @@
     {
       "type": "way",
       "id": 529064036,
-      "timestamp": "2018-10-16T06:56:43Z",
-      "version": 2,
-      "changeset": 63565584,
-      "user": "JeanBaguette",
-      "uid": 695719,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 3,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [728206109, 1140700412],
       "geometry": [
         {"lat": 35.2955517, "lon": 24.3857688},
@@ -28064,7 +28259,11 @@
         {"lat": 35.3023408, "lon": 24.3898015},
         {"lat": 35.3022748, "lon": 24.3900424}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ6",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -28172,11 +28371,11 @@
     {
       "type": "way",
       "id": 529552374,
-      "timestamp": "2021-08-03T09:52:58Z",
-      "version": 5,
-      "changeset": 109082599,
-      "user": "Absarokan",
-      "uid": 10334722,
+      "timestamp": "2022-05-19T02:12:23Z",
+      "version": 6,
+      "changeset": 121170121,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [3726634833, 274072715],
       "geometry": [
         {"lat": 35.24156, "lon": 25.1621991},
@@ -28205,10 +28404,11 @@
         {"lat": 35.2372317, "lon": 25.1591595}
       ],
       "tags": {
-        "highway": "secondary",
-        "oneway": "no",
+        "highway": "tertiary",
         "lanes": "2",
-        "maxspeed": "30"
+        "maxspeed": "30",
+        "old_ref": "ΕΠ31",
+        "oneway": "no"
       }
     },
     {
@@ -31974,11 +32174,11 @@
     {
       "type": "way",
       "id": 541925187,
-      "timestamp": "2017-11-20T17:54:40Z",
-      "version": 1,
-      "changeset": 53956187,
-      "user": "thomashoetzl",
-      "uid": 477807,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 2,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1880456879, 1880456878],
       "geometry": [
         {"lat": 35.2966945, "lon": 24.8529121},
@@ -31988,17 +32188,19 @@
         "bridge": "yes",
         "highway": "secondary",
         "layer": "1",
-        "source": "Bing Sat, GPS"
+        "reg_ref": "ΕΠ29",
+        "source": "Bing Sat, GPS",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
       "type": "way",
       "id": 541925188,
-      "timestamp": "2021-08-16T06:40:49Z",
-      "version": 3,
-      "changeset": 109729255,
-      "user": "KaruraForest",
-      "uid": 10810982,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 4,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1843807621, 1880456879],
       "geometry": [
         {"lat": 35.2974615, "lon": 24.8522966},
@@ -32010,7 +32212,12 @@
         {"lat": 35.2967194, "lon": 24.8528284},
         {"lat": 35.2966945, "lon": 24.8529121}
       ],
-      "tags": {"highway": "secondary", "source": "Bing Sat, GPS"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ29",
+        "source": "Bing Sat, GPS",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -32057,11 +32264,11 @@
     {
       "type": "way",
       "id": 541925192,
-      "timestamp": "2017-11-20T17:54:41Z",
-      "version": 1,
-      "changeset": 53956187,
-      "user": "thomashoetzl",
-      "uid": 477807,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 2,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1843821952, 5239786381],
       "geometry": [
         {"lat": 35.2960076, "lon": 24.8590962},
@@ -32071,17 +32278,19 @@
         "bridge": "yes",
         "highway": "secondary",
         "layer": "1",
-        "source": "Bing Sat, GPS"
+        "reg_ref": "ΕΠ29",
+        "source": "Bing Sat, GPS",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
       "type": "way",
       "id": 541925193,
-      "timestamp": "2021-08-16T06:40:49Z",
-      "version": 5,
-      "changeset": 109729255,
-      "user": "KaruraForest",
-      "uid": 10810982,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 6,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1880456878, 1843821952],
       "geometry": [
         {"lat": 35.296692, "lon": 24.853043},
@@ -32125,7 +32334,12 @@
         {"lat": 35.295975, "lon": 24.8590524},
         {"lat": 35.2960076, "lon": 24.8590962}
       ],
-      "tags": {"highway": "secondary", "source": "Bing Sat, GPS"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ29",
+        "source": "Bing Sat, GPS",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -34594,11 +34808,11 @@
     {
       "type": "way",
       "id": 556873990,
-      "timestamp": "2021-08-19T03:09:41Z",
-      "version": 6,
-      "changeset": 109903458,
-      "user": "YarraRiver",
-      "uid": 10461155,
+      "timestamp": "2022-05-19T15:35:46Z",
+      "version": 7,
+      "changeset": 121201564,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [273858037, 3089393613],
       "geometry": [
         {"lat": 35.2097817, "lon": 25.3385791},
@@ -34644,6 +34858,7 @@
         "highway": "secondary",
         "name": "Καστέλλι - Κασταμονίτσα",
         "reg_ref": "ΕΠ44",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956",
         "surface": "asphalt"
       }
     },
@@ -34681,9 +34896,9 @@
     {
       "type": "way",
       "id": 556873996,
-      "timestamp": "2018-01-29T23:43:24Z",
-      "version": 1,
-      "changeset": 55876565,
+      "timestamp": "2022-05-19T15:35:46Z",
+      "version": 2,
+      "changeset": 121201564,
       "user": "ika-chan!",
       "uid": 4763179,
       "nodes": [5371385672, 5371386130],
@@ -34694,7 +34909,12 @@
         {"lat": 35.2283143, "lon": 25.2364352},
         {"lat": 35.2282179, "lon": 25.2364124}
       ],
-      "tags": {"highway": "secondary", "note": "Realignment", "reg_ref": "ΕΠ48"}
+      "tags": {
+        "highway": "secondary",
+        "note": "Realignment",
+        "reg_ref": "ΕΠ48",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -34751,11 +34971,11 @@
     {
       "type": "way",
       "id": 556874001,
-      "timestamp": "2021-08-03T12:04:53Z",
-      "version": 9,
-      "changeset": 109091829,
-      "user": "Absarokan",
-      "uid": 10334722,
+      "timestamp": "2022-05-19T02:12:23Z",
+      "version": 10,
+      "changeset": 121170121,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [972510214, 5371386144],
       "geometry": [
         {"lat": 35.241935, "lon": 25.1622627},
@@ -34812,11 +35032,12 @@
         {"lat": 35.2536437, "lon": 25.1740363}
       ],
       "tags": {
-        "highway": "primary",
-        "surface": "asphalt",
+        "highway": "secondary",
         "int_name": "Patsides - Epano Archanes",
         "name": "Πατσίδες - Επάνω Αρχάνες",
-        "reg_ref": "ΕΠ31"
+        "reg_ref": "ΕΠ31",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956",
+        "surface": "asphalt"
       }
     },
     {
@@ -34925,11 +35146,11 @@
     {
       "type": "way",
       "id": 556874009,
-      "timestamp": "2021-08-02T11:37:51Z",
-      "version": 3,
-      "changeset": 109027976,
-      "user": "Absarokan",
-      "uid": 10334722,
+      "timestamp": "2022-05-19T02:12:23Z",
+      "version": 4,
+      "changeset": 121170121,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1220028487, 32472562],
       "geometry": [
         {"lat": 35.2564456, "lon": 25.1810701},
@@ -34944,20 +35165,21 @@
         {"lat": 35.2574213, "lon": 25.1819368}
       ],
       "tags": {
-        "highway": "primary",
-        "reg_ref": "ΕΠ30",
+        "highway": "secondary",
         "int_name": "Knossos - Charakas",
-        "name": "Κνωσσός - Χάρακας"
+        "name": "Κνωσσός - Χάρακας",
+        "reg_ref": "ΕΠ30",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
       "type": "way",
       "id": 556874010,
-      "timestamp": "2021-08-02T11:37:51Z",
-      "version": 3,
-      "changeset": 109027976,
-      "user": "Absarokan",
-      "uid": 10334722,
+      "timestamp": "2022-05-19T02:12:23Z",
+      "version": 4,
+      "changeset": 121170121,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [32472554, 32472556],
       "geometry": [
         {"lat": 35.256957, "lon": 25.1809517},
@@ -34970,10 +35192,11 @@
         {"lat": 35.2564828, "lon": 25.1807955}
       ],
       "tags": {
-        "highway": "primary",
-        "reg_ref": "ΕΠ30",
+        "highway": "secondary",
         "int_name": "Knossos - Charakas",
-        "name": "Κνωσσός - Χάρακας"
+        "name": "Κνωσσός - Χάρακας",
+        "reg_ref": "ΕΠ30",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
@@ -35225,7 +35448,7 @@
         {"lat": 35.1916924, "lon": 25.0775801},
         {"lat": 35.1915324, "lon": 25.0775787},
         {"lat": 35.1913023, "lon": 25.0775975},
-        {"lat": 35.1907876, "lon": 25.0775868}
+        {"lat": 35.1908342, "lon": 25.0775729}
       ],
       "tags": {"highway": "unclassified"}
     },
@@ -35392,11 +35615,11 @@
     {
       "type": "way",
       "id": 556874040,
-      "timestamp": "2021-08-19T04:25:05Z",
-      "version": 2,
-      "changeset": 109905596,
-      "user": "KroonsPolders",
-      "uid": 10811097,
+      "timestamp": "2022-05-19T02:12:23Z",
+      "version": 3,
+      "changeset": 121170121,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [5371386307, 512118230],
       "geometry": [
         {"lat": 35.1859426, "lon": 25.0638346},
@@ -35414,7 +35637,11 @@
         {"lat": 35.1878926, "lon": 25.0659487},
         {"lat": 35.1878805, "lon": 25.066001}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ28",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -35438,11 +35665,11 @@
     {
       "type": "way",
       "id": 556874044,
-      "timestamp": "2021-07-23T16:46:21Z",
-      "version": 4,
-      "changeset": 108504462,
-      "user": "sasQuach",
-      "uid": 9917894,
+      "timestamp": "2022-05-19T02:12:23Z",
+      "version": 5,
+      "changeset": 121170121,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1943091862, 5371386320],
       "geometry": [
         {"lat": 35.185812, "lon": 25.0620141},
@@ -35451,7 +35678,11 @@
         {"lat": 35.1856663, "lon": 25.0621159},
         {"lat": 35.185365, "lon": 25.062175}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ28",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -38008,11 +38239,11 @@
     {
       "type": "way",
       "id": 561863439,
-      "timestamp": "2022-05-08T15:11:38Z",
-      "version": 4,
-      "changeset": 120706860,
-      "user": "JTE Dimandix",
-      "uid": 7035655,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 5,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [293557209, 293557221],
       "geometry": [
         {"lat": 35.2259879, "lon": 24.4690723},
@@ -38047,10 +38278,10 @@
         {"lat": 35.2208584, "lon": 24.4755817}
       ],
       "tags": {
-        "highway": "tertiary",
+        "highway": "secondary",
         "name": "Κοξαρέ - Φαράγγι Κουρταλιώτη",
-        "ref": "E4",
-        "reg_ref": "ΕΠ9"
+        "reg_ref": "ΕΠ9",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
@@ -38222,11 +38453,11 @@
     {
       "type": "way",
       "id": 565847622,
-      "timestamp": "2022-05-08T15:11:38Z",
-      "version": 7,
-      "changeset": 120706860,
-      "user": "JTE Dimandix",
-      "uid": 7035655,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 8,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [29451608, 5354948576],
       "geometry": [
         {"lat": 35.2055061, "lon": 24.5415615},
@@ -38244,17 +38475,18 @@
         "lanes": "2",
         "name": "Σπήλι - Μέλαμπες",
         "reg_ref": "ΕΠ3",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 565847624,
-      "timestamp": "2022-05-08T15:11:38Z",
-      "version": 5,
-      "changeset": 120706860,
-      "user": "JTE Dimandix",
-      "uid": 7035655,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 6,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [2995723670, 29451608],
       "geometry": [
         {"lat": 35.2028825, "lon": 24.5431355},
@@ -38284,7 +38516,8 @@
       "tags": {
         "highway": "secondary",
         "name": "Σπήλι - Μέλαμπες",
-        "reg_ref": "ΕΠ3"
+        "reg_ref": "ΕΠ3",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
@@ -38745,11 +38978,11 @@
     {
       "type": "way",
       "id": 566103742,
-      "timestamp": "2022-05-08T15:11:38Z",
-      "version": 4,
-      "changeset": 120706860,
-      "user": "JTE Dimandix",
-      "uid": 7035655,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 5,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1142290326, 5354948556],
       "geometry": [
         {"lat": 35.2199279, "lon": 24.5205384},
@@ -38774,7 +39007,8 @@
       "tags": {
         "highway": "secondary",
         "name": "Ρέθυμνο - Σπήλι",
-        "reg_ref": "ΕΠ3"
+        "reg_ref": "ΕΠ3",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
@@ -41654,11 +41888,11 @@
     {
       "type": "way",
       "id": 634599388,
-      "timestamp": "2018-10-16T06:56:42Z",
-      "version": 1,
-      "changeset": 63565584,
-      "user": "JeanBaguette",
-      "uid": 695719,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 2,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [395490045, 746618386],
       "geometry": [
         {"lat": 35.2978884, "lon": 24.3672363},
@@ -41673,7 +41907,11 @@
         {"lat": 35.2964313, "lon": 24.3675679},
         {"lat": 35.2963142, "lon": 24.3676086}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ5",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -41702,11 +41940,11 @@
     {
       "type": "way",
       "id": 634599393,
-      "timestamp": "2021-07-28T08:40:05Z",
-      "version": 2,
-      "changeset": 108738518,
-      "user": "CapitolHill",
-      "uid": 10461085,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 3,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [5988264023, 395490116],
       "geometry": [
         {"lat": 35.2892521, "lon": 24.3731706},
@@ -41732,16 +41970,20 @@
         {"lat": 35.2864181, "lon": 24.3744805},
         {"lat": 35.2863539, "lon": 24.3745569}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ5",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
       "id": 634599396,
-      "timestamp": "2021-07-20T20:29:04Z",
-      "version": 2,
-      "changeset": 108338530,
-      "user": "4TL4S",
-      "uid": 12781275,
+      "timestamp": "2022-05-19T18:03:23Z",
+      "version": 3,
+      "changeset": 121207134,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1140700422, 2484980645],
       "geometry": [
         {"lat": 35.3032266, "lon": 24.3901329},
@@ -41819,7 +42061,11 @@
         {"lat": 35.3104663, "lon": 24.3949734},
         {"lat": 35.3104762, "lon": 24.3949175}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ6",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -41990,11 +42236,11 @@
     {
       "type": "way",
       "id": 634881314,
-      "timestamp": "2021-08-12T06:12:19Z",
-      "version": 7,
-      "changeset": 109549874,
-      "user": "Taranaki34",
-      "uid": 10461177,
+      "timestamp": "2022-05-19T19:01:14Z",
+      "version": 8,
+      "changeset": 121209103,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [5990277559, 1882458238],
       "geometry": [
         {"lat": 35.289283, "lon": 24.5202988},
@@ -42092,7 +42338,11 @@
         {"lat": 35.2986868, "lon": 24.5331748},
         {"lat": 35.299059, "lon": 24.5327966}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ16",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -42584,18 +42834,23 @@
     {
       "type": "way",
       "id": 634881341,
-      "timestamp": "2021-12-01T14:07:34Z",
-      "version": 3,
-      "changeset": 114445533,
-      "user": "JTE Dimandix",
-      "uid": 7035655,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 4,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [3534090587, 530987004],
       "geometry": [
         {"lat": 35.3157269, "lon": 24.6411089},
         {"lat": 35.3155323, "lon": 24.6409473},
         {"lat": 35.3154176, "lon": 24.6407958}
       ],
-      "tags": {"highway": "tertiary", "name": "Ρούπες - Μονή Αρκαδίου"}
+      "tags": {
+        "highway": "secondary",
+        "name": "Ρούπες - Μονή Αρκαδίου",
+        "reg_ref": "ΕΠ23",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -42671,11 +42926,11 @@
     {
       "type": "way",
       "id": 634881351,
-      "timestamp": "2021-07-30T06:04:20Z",
-      "version": 4,
-      "changeset": 108862176,
-      "user": "LaMariscal",
-      "uid": 10811204,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 5,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [530986888, 3534090569],
       "geometry": [
         {"lat": 35.3291554, "lon": 24.6694317},
@@ -42702,10 +42957,12 @@
         {"lat": 35.3272406, "lon": 24.6666858}
       ],
       "tags": {
-        "highway": "tertiary",
+        "highway": "secondary",
         "lit": "yes",
         "maxspeed": "50",
+        "reg_ref": "ΕΠ24",
         "source:maxspeed": "GR:urban",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956",
         "surface": "asphalt",
         "zone:traffic": "GR:urban"
       }
@@ -42975,11 +43232,11 @@
     {
       "type": "way",
       "id": 635225903,
-      "timestamp": "2021-07-30T06:37:04Z",
-      "version": 3,
-      "changeset": 108864682,
-      "user": "KrugerPark",
-      "uid": 10019185,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 4,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [959751495, 304113039],
       "geometry": [
         {"lat": 35.3319979, "lon": 24.6885109},
@@ -43063,7 +43320,12 @@
         {"lat": 35.3213549, "lon": 24.6874286},
         {"lat": 35.3213112, "lon": 24.6872637}
       ],
-      "tags": {"highway": "tertiary", "surface": "asphalt"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ24",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -43259,11 +43521,11 @@
     {
       "type": "way",
       "id": 635225910,
-      "timestamp": "2021-07-22T10:20:48Z",
-      "version": 2,
-      "changeset": 108420054,
-      "user": "Kahayan",
-      "uid": 12652580,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 3,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [4340802592, 313824462],
       "geometry": [
         {"lat": 35.3409337, "lon": 24.7562119},
@@ -43325,7 +43587,11 @@
         {"lat": 35.3335733, "lon": 24.765328},
         {"lat": 35.3333425, "lon": 24.7656298}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ30",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -43351,11 +43617,11 @@
     {
       "type": "way",
       "id": 635225913,
-      "timestamp": "2021-07-26T11:36:16Z",
-      "version": 8,
-      "changeset": 108620961,
-      "user": "Artibonite",
-      "uid": 9535085,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 9,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [313825672, 313825880],
       "geometry": [
         {"lat": 35.3108693, "lon": 24.7925498},
@@ -43460,7 +43726,11 @@
         {"lat": 35.3085995, "lon": 24.8056242},
         {"lat": 35.3086422, "lon": 24.8058227}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ30",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -43570,11 +43840,11 @@
     {
       "type": "way",
       "id": 635228892,
-      "timestamp": "2021-08-16T07:07:26Z",
-      "version": 2,
-      "changeset": 109730762,
-      "user": "KaruraForest",
-      "uid": 10810982,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 3,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1329689275, 1880497957],
       "geometry": [
         {"lat": 35.2905912, "lon": 24.8857203},
@@ -43585,7 +43855,7 @@
         {"lat": 35.2903503, "lon": 24.8862085},
         {"lat": 35.2902395, "lon": 24.8862582}
       ],
-      "tags": {"highway": "secondary"}
+      "tags": {"highway": "tertiary", "old_ref": "ΕΠ29"}
     },
     {
       "type": "way",
@@ -43740,9 +44010,9 @@
     {
       "type": "way",
       "id": 635237102,
-      "timestamp": "2021-09-03T20:28:54Z",
-      "version": 5,
-      "changeset": 110692270,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 6,
+      "changeset": 121212013,
       "user": "ika-chan!",
       "uid": 4763179,
       "nodes": [5992728828, 937867611],
@@ -43917,7 +44187,12 @@
         {"lat": 35.2187323, "lon": 24.8705028},
         {"lat": 35.2183914, "lon": 24.8696573}
       ],
-      "tags": {"highway": "tertiary", "surface": "asphalt"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ33",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -45765,41 +46040,53 @@
     {
       "type": "way",
       "id": 772164192,
-      "timestamp": "2020-02-13T14:06:06Z",
-      "version": 1,
-      "changeset": 80962061,
-      "user": "tugceyildiz",
-      "uid": 9278384,
+      "timestamp": "2022-05-19T02:12:23Z",
+      "version": 2,
+      "changeset": 121170121,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1943091867, 1943091862],
       "geometry": [
         {"lat": 35.1858818, "lon": 25.0618027},
         {"lat": 35.185812, "lon": 25.0620141}
       ],
-      "tags": {"highway": "tertiary", "layer": "1", "bridge": "yes"}
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "reg_ref": "ΕΠ28",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
       "id": 772164193,
-      "timestamp": "2020-02-13T14:06:06Z",
-      "version": 1,
-      "changeset": 80962061,
-      "user": "tugceyildiz",
-      "uid": 9278384,
+      "timestamp": "2022-05-19T02:12:23Z",
+      "version": 2,
+      "changeset": 121170121,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [7208552076, 1943091867],
       "geometry": [
         {"lat": 35.1860172, "lon": 25.061692},
         {"lat": 35.1858818, "lon": 25.0618027}
       ],
-      "tags": {"highway": "tertiary", "layer": "1", "bridge": "yes"}
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "reg_ref": "ΕΠ28",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
       "id": 772164194,
-      "timestamp": "2021-07-23T16:46:21Z",
-      "version": 2,
-      "changeset": 108504462,
-      "user": "sasQuach",
-      "uid": 9917894,
+      "timestamp": "2022-05-19T02:12:23Z",
+      "version": 3,
+      "changeset": 121170121,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [512118149, 7208552076],
       "geometry": [
         {"lat": 35.1868556, "lon": 25.0599934},
@@ -45810,7 +46097,11 @@
         {"lat": 35.1862448, "lon": 25.0615125},
         {"lat": 35.1860172, "lon": 25.061692}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ28",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -46259,9 +46550,9 @@
     {
       "type": "way",
       "id": 77931600,
-      "timestamp": "2018-01-29T23:43:35Z",
-      "version": 2,
-      "changeset": 55876565,
+      "timestamp": "2022-05-19T15:35:46Z",
+      "version": 3,
+      "changeset": 121201564,
       "user": "ika-chan!",
       "uid": 4763179,
       "nodes": [1159858426, 915888668],
@@ -46271,7 +46562,12 @@
         {"lat": 35.2341232, "lon": 25.2123074},
         {"lat": 35.2342033, "lon": 25.2122274}
       ],
-      "tags": {"highway": "tertiary", "source": "Bing"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ49",
+        "source": "Bing",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -46418,26 +46714,32 @@
     {
       "type": "way",
       "id": 784775398,
-      "timestamp": "2020-03-26T12:21:24Z",
-      "version": 1,
-      "changeset": 82662124,
-      "user": "tugceyildiz",
-      "uid": 9278384,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 2,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1880456799, 1880456801],
       "geometry": [
         {"lat": 35.29459, "lon": 24.8366663},
         {"lat": 35.2946461, "lon": 24.8365483}
       ],
-      "tags": {"bridge": "yes", "highway": "secondary", "layer": "1"}
+      "tags": {
+        "bridge": "yes",
+        "highway": "secondary",
+        "layer": "1",
+        "reg_ref": "ΕΠ30",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
       "id": 784775399,
-      "timestamp": "2021-07-29T04:53:12Z",
-      "version": 6,
-      "changeset": 108790256,
-      "user": "Kahayan",
-      "uid": 12652580,
+      "timestamp": "2022-05-19T20:16:33Z",
+      "version": 7,
+      "changeset": 121212013,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1880456801, 1880456874],
       "geometry": [
         {"lat": 35.2946461, "lon": 24.8365483},
@@ -46473,7 +46775,11 @@
         {"lat": 35.2965196, "lon": 24.829288},
         {"lat": 35.2965054, "lon": 24.8291351}
       ],
-      "tags": {"highway": "secondary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ30",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -46516,11 +46822,11 @@
     {
       "type": "way",
       "id": 80457357,
-      "timestamp": "2021-08-16T12:14:59Z",
-      "version": 6,
-      "changeset": 109749022,
-      "user": "KroonsPolders",
-      "uid": 10811097,
+      "timestamp": "2022-05-19T15:35:46Z",
+      "version": 7,
+      "changeset": 121201564,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [938778215, 938779725],
       "geometry": [
         {"lat": 35.2616215, "lon": 25.2012232},
@@ -46602,7 +46908,11 @@
         {"lat": 35.2394449, "lon": 25.2087495},
         {"lat": 35.2392571, "lon": 25.208819}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ49",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
@@ -47695,11 +48005,11 @@
     {
       "type": "way",
       "id": 83522378,
-      "timestamp": "2021-08-03T08:50:55Z",
-      "version": 14,
-      "changeset": 109078521,
-      "user": "Absarokan",
-      "uid": 10334722,
+      "timestamp": "2022-05-19T02:12:23Z",
+      "version": 15,
+      "changeset": 121170121,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [274072726, 1161019856],
       "geometry": [
         {"lat": 35.2346432, "lon": 25.1575814},
@@ -47724,9 +48034,10 @@
         {"lat": 35.2366745, "lon": 25.1578691}
       ],
       "tags": {
-        "highway": "secondary",
+        "highway": "tertiary",
+        "name": "Ηρώων Πολυτεχνείου",
         "name:de": "Iroon Politechniou",
-        "name": "Ηρώων Πολυτεχνείου"
+        "old_ref": "ΕΠ31"
       }
     },
     {
@@ -49019,11 +49330,11 @@
     {
       "type": "way",
       "id": 930699900,
-      "timestamp": "2021-08-06T05:19:59Z",
-      "version": 3,
-      "changeset": 109233571,
-      "user": "KrugerPark",
-      "uid": 10019185,
+      "timestamp": "2022-05-19T15:35:46Z",
+      "version": 4,
+      "changeset": 121201564,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [957288078, 1163903283],
       "geometry": [
         {"lat": 35.2112973, "lon": 25.3102604},
@@ -49058,19 +49369,20 @@
         {"lat": 35.2189517, "lon": 25.2940692}
       ],
       "tags": {
-        "highway": "primary",
+        "highway": "secondary",
         "name": "Άγιες Παρασκιές - Καστέλλι",
-        "reg_ref": "ΕΠ44"
+        "reg_ref": "ΕΠ44",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
       "type": "way",
       "id": 930699901,
-      "timestamp": "2021-08-05T11:32:42Z",
-      "version": 2,
-      "changeset": 109197855,
-      "user": "KrugerPark",
-      "uid": 10019185,
+      "timestamp": "2022-05-19T15:35:46Z",
+      "version": 3,
+      "changeset": 121201564,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1163677042, 957288078],
       "geometry": [
         {"lat": 35.2099616, "lon": 25.3184934},
@@ -49093,19 +49405,20 @@
         {"lat": 35.2112973, "lon": 25.3102604}
       ],
       "tags": {
-        "highway": "primary",
+        "highway": "secondary",
         "name": "Άγιες Παρασκιές - Καστέλλι",
-        "reg_ref": "ΕΠ44"
+        "reg_ref": "ΕΠ44",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
       "type": "way",
       "id": 930699902,
-      "timestamp": "2021-08-05T10:15:58Z",
-      "version": 3,
-      "changeset": 109193023,
-      "user": "KrugerPark",
-      "uid": 10019185,
+      "timestamp": "2022-05-19T15:35:46Z",
+      "version": 4,
+      "changeset": 121201564,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [32464712, 1163677042],
       "geometry": [
         {"lat": 35.2089798, "lon": 25.325708},
@@ -49124,19 +49437,20 @@
         {"lat": 35.2099616, "lon": 25.3184934}
       ],
       "tags": {
-        "highway": "primary",
+        "highway": "secondary",
         "name": "Άγιες Παρασκιές - Καστέλλι",
-        "reg_ref": "ΕΠ44"
+        "reg_ref": "ΕΠ44",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
       "type": "way",
       "id": 930699907,
-      "timestamp": "2021-07-20T09:18:40Z",
-      "version": 2,
-      "changeset": 108304155,
-      "user": "Mendips",
-      "uid": 10409558,
+      "timestamp": "2022-05-19T15:35:46Z",
+      "version": 3,
+      "changeset": 121201564,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1202268372, 418124034],
       "geometry": [
         {"lat": 35.1935918, "lon": 25.3767952},
@@ -49148,10 +49462,11 @@
         {"lat": 35.1928676, "lon": 25.3757475}
       ],
       "tags": {
-        "highway": "tertiary",
+        "highway": "secondary",
         "name": "Καστέλλι - Κασταμονίτσα",
         "reg_ref": "ΕΠ44",
-        "source": "Bing"
+        "source": "Bing",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
@@ -49471,11 +49786,11 @@
     {
       "type": "way",
       "id": 935755876,
-      "timestamp": "2021-08-12T05:58:45Z",
-      "version": 3,
-      "changeset": 109549187,
-      "user": "Taranaki34",
-      "uid": 10461177,
+      "timestamp": "2022-05-19T19:01:14Z",
+      "version": 4,
+      "changeset": 121209103,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1882458238, 279415021],
       "geometry": [
         {"lat": 35.299059, "lon": 24.5327966},
@@ -49596,24 +49911,26 @@
         {"lat": 35.3037103, "lon": 24.5436637},
         {"lat": 35.3036873, "lon": 24.5435247},
         {"lat": 35.3036551, "lon": 24.543385},
-        {"lat": 35.3035872, "lon": 24.5431599},
-        {"lat": 35.3035727, "lon": 24.5430952},
-        {"lat": 35.303569, "lon": 24.543035},
-        {"lat": 35.3035721, "lon": 24.5429503}
+        {"lat": 35.3035609, "lon": 24.5431626},
+        {"lat": 35.3035552, "lon": 24.5431113},
+        {"lat": 35.3035668, "lon": 24.5430565},
+        {"lat": 35.3035984, "lon": 24.5430066}
       ],
       "tags": {
         "destination:backward": "Μύρθιος - Myrthios;Σελλί - Selli;Γενή - Geni;Όρος - Oros;Γουλεδιανά - Goulediana",
-        "highway": "tertiary"
+        "highway": "secondary",
+        "reg_ref": "ΕΠ16",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
       "type": "way",
       "id": 935755890,
-      "timestamp": "2022-04-30T20:00:04Z",
-      "version": 4,
-      "changeset": 120398185,
-      "user": "JTE Dimandix",
-      "uid": 7035655,
+      "timestamp": "2022-05-19T19:01:14Z",
+      "version": 5,
+      "changeset": 121209103,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [279414981, 279414998],
       "geometry": [
         {"lat": 35.2917849, "lon": 24.5597712},
@@ -49640,17 +49957,18 @@
         "highway": "secondary",
         "maxspeed": "60",
         "name": "Πρασιές - Απόστολοι",
-        "reg_ref": "ΕΠ13"
+        "reg_ref": "ΕΠ13",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
       "type": "way",
       "id": 935755891,
-      "timestamp": "2022-04-30T20:00:04Z",
-      "version": 3,
-      "changeset": 120398185,
-      "user": "JTE Dimandix",
-      "uid": 7035655,
+      "timestamp": "2022-05-19T19:01:14Z",
+      "version": 4,
+      "changeset": 121209103,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [279414921, 279414924],
       "geometry": [
         {"lat": 35.2970574, "lon": 24.5511853},
@@ -49668,17 +49986,18 @@
         "highway": "secondary",
         "maxspeed": "60",
         "name": "Πρασιές - Απόστολοι",
-        "reg_ref": "ΕΠ13"
+        "reg_ref": "ΕΠ13",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
       "type": "way",
       "id": 935755892,
-      "timestamp": "2022-04-30T20:00:04Z",
-      "version": 3,
-      "changeset": 120398185,
-      "user": "JTE Dimandix",
-      "uid": 7035655,
+      "timestamp": "2022-05-19T19:01:14Z",
+      "version": 4,
+      "changeset": 121209103,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [279414998, 279414921],
       "geometry": [
         {"lat": 35.2939691, "lon": 24.5549335},
@@ -49700,17 +50019,18 @@
         "highway": "secondary",
         "maxspeed": "60",
         "name": "Πρασιές - Απόστολοι",
-        "reg_ref": "ΕΠ13"
+        "reg_ref": "ΕΠ13",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
       "type": "way",
       "id": 942926342,
-      "timestamp": "2021-08-17T05:24:49Z",
-      "version": 3,
-      "changeset": 109785098,
-      "user": "KazakhSteppe",
-      "uid": 10334811,
+      "timestamp": "2022-05-19T15:35:46Z",
+      "version": 4,
+      "changeset": 121201564,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [741703729, 1163905596],
       "geometry": [
         {"lat": 35.2188399, "lon": 25.2775374},
@@ -49747,9 +50067,10 @@
         {"lat": 35.2173855, "lon": 25.2630673}
       ],
       "tags": {
-        "highway": "primary",
+        "highway": "secondary",
         "name": "Άγιες Παρασκιές - Καστέλλι",
-        "reg_ref": "ΕΠ44"
+        "reg_ref": "ΕΠ44",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
       }
     },
     {
@@ -51255,11 +51576,11 @@
     {
       "type": "way",
       "id": 970039269,
-      "timestamp": "2021-08-03T12:02:10Z",
-      "version": 3,
-      "changeset": 109091637,
-      "user": "GaziBaba",
-      "uid": 10210136,
+      "timestamp": "2022-05-19T02:12:23Z",
+      "version": 4,
+      "changeset": 121170121,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [274072726, 8976690433],
       "geometry": [
         {"lat": 35.2346432, "lon": 25.1575814},
@@ -51270,10 +51591,11 @@
         {"lat": 35.2345249, "lon": 25.1575847}
       ],
       "tags": {
-        "highway": "secondary",
-        "oneway": "yes",
+        "highway": "tertiary",
         "name": "Ηρώων Πολυτεχνείου",
-        "name:de": "Iroon Politechniou"
+        "name:de": "Iroon Politechniou",
+        "old_ref": "ΕΠ31",
+        "oneway": "yes"
       }
     },
     {
@@ -52378,32 +52700,40 @@
     {
       "type": "way",
       "id": 983714799,
-      "timestamp": "2021-09-15T21:38:06Z",
-      "version": 1,
-      "changeset": 111263283,
-      "user": "Hannes Röst",
-      "uid": 289221,
+      "timestamp": "2022-05-19T15:35:46Z",
+      "version": 2,
+      "changeset": 121201564,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [938779725, 9009912331],
       "geometry": [
         {"lat": 35.2392571, "lon": 25.208819},
         {"lat": 35.2391981, "lon": 25.2089041}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ49",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
       "id": 983714801,
-      "timestamp": "2021-09-15T21:38:06Z",
-      "version": 1,
-      "changeset": 111263283,
-      "user": "Hannes Röst",
-      "uid": 289221,
+      "timestamp": "2022-05-19T02:12:23Z",
+      "version": 2,
+      "changeset": 121170121,
+      "user": "ika-chan!",
+      "uid": 4763179,
       "nodes": [1309402172, 8979527625],
       "geometry": [
         {"lat": 35.2052853, "lon": 25.096122},
         {"lat": 35.2053365, "lon": 25.0961379}
       ],
-      "tags": {"highway": "tertiary"}
+      "tags": {
+        "highway": "secondary",
+        "reg_ref": "ΕΠ27",
+        "source:reg_ref": "ΦΕΚ Α 47/8.2.1956"
+      }
     },
     {
       "type": "way",
