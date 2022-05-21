@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-19T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-20T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2855,11 +2855,11 @@
     {
       "type": "relation",
       "id": 12243442,
-      "timestamp": "2022-03-07T04:55:26Z",
-      "version": 6,
-      "changeset": 118181643,
-      "user": "Hervé TUC",
-      "uid": 922338,
+      "timestamp": "2022-05-20T08:46:28Z",
+      "version": 7,
+      "changeset": 121231046,
+      "user": "Sylvain M",
+      "uid": 672931,
       "members": [
         {"type": "way", "ref": 779286842, "role": ""},
         {"type": "way", "ref": 779286843, "role": ""},
@@ -2919,6 +2919,8 @@
         {"type": "way", "ref": 573202377, "role": ""},
         {"type": "way", "ref": 132705603, "role": ""},
         {"type": "way", "ref": 691765476, "role": ""},
+        {"type": "way", "ref": 1062012548, "role": ""},
+        {"type": "way", "ref": 1062012549, "role": ""},
         {"type": "way", "ref": 132705604, "role": ""},
         {"type": "way", "ref": 355766547, "role": ""},
         {"type": "way", "ref": 859904395, "role": ""},
@@ -6413,6 +6415,45 @@
         {"lat": 43.8851532, "lon": 7.4342013}
       ],
       "tags": {"highway": "residential", "name": "Chemin de Sainte-Marie"}
+    },
+    {
+      "type": "way",
+      "id": 1062012548,
+      "timestamp": "2022-05-20T08:46:28Z",
+      "version": 1,
+      "changeset": 121231046,
+      "user": "Sylvain M",
+      "uid": 672931,
+      "nodes": [9756769723, 1459845211],
+      "geometry": [
+        {"lat": 44.0772841, "lon": 7.2467554},
+        {"lat": 44.0772615, "lon": 7.2467243},
+        {"lat": 44.0771579, "lon": 7.246603}
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Chemin du Vallon de Saint-Nicolas"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1062012549,
+      "timestamp": "2022-05-20T08:46:28Z",
+      "version": 1,
+      "changeset": 121231046,
+      "user": "Sylvain M",
+      "uid": 672931,
+      "nodes": [1459845217, 9756769723],
+      "geometry": [
+        {"lat": 44.0773479, "lon": 7.2468433},
+        {"lat": 44.0772841, "lon": 7.2467554}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "residential",
+        "layer": "1",
+        "name": "Chemin du Vallon de Saint-Nicolas"
+      }
     },
     {
       "type": "way",
@@ -16136,17 +16177,15 @@
     {
       "type": "way",
       "id": 132705604,
-      "timestamp": "2017-06-12T20:16:53Z",
-      "version": 3,
-      "changeset": 49480661,
-      "user": "jcr83",
-      "uid": 234940,
-      "nodes": [1459845215, 1459845211],
+      "timestamp": "2022-05-20T08:46:28Z",
+      "version": 4,
+      "changeset": 121231046,
+      "user": "Sylvain M",
+      "uid": 672931,
+      "nodes": [1459845215, 1459845217],
       "geometry": [
         {"lat": 44.0773311, "lon": 7.247221},
-        {"lat": 44.0773479, "lon": 7.2468433},
-        {"lat": 44.0772615, "lon": 7.2467243},
-        {"lat": 44.0771579, "lon": 7.246603}
+        {"lat": 44.0773479, "lon": 7.2468433}
       ],
       "tags": {
         "highway": "residential",
@@ -54810,22 +54849,24 @@
     {
       "type": "way",
       "id": 343330628,
-      "timestamp": "2020-08-12T21:08:19Z",
-      "version": 8,
-      "changeset": 89322541,
-      "user": "EvanE",
-      "uid": 184969,
+      "timestamp": "2022-05-20T21:08:51Z",
+      "version": 9,
+      "changeset": 121260857,
+      "user": "Patchi",
+      "uid": 591881,
       "nodes": [293182668, 5505994802],
       "geometry": [
         {"lat": 44.0656581, "lon": 7.1924065},
         {"lat": 44.065652, "lon": 7.1924873},
         {"lat": 44.0656487, "lon": 7.1925149},
-        {"lat": 44.0656214, "lon": 7.1927397},
+        {"lat": 44.0656393, "lon": 7.1925969},
+        {"lat": 44.0656281, "lon": 7.1926934},
         {"lat": 44.0655818, "lon": 7.1930477},
         {"lat": 44.0655728, "lon": 7.1931177},
         {"lat": 44.0655469, "lon": 7.1932557},
         {"lat": 44.0654091, "lon": 7.1938544},
         {"lat": 44.0653629, "lon": 7.194117},
+        {"lat": 44.0653656, "lon": 7.1942499},
         {"lat": 44.0653781, "lon": 7.1943766},
         {"lat": 44.0655711, "lon": 7.195504},
         {"lat": 44.065606, "lon": 7.1958898},
@@ -55399,11 +55440,11 @@
     {
       "type": "way",
       "id": 35283048,
-      "timestamp": "2021-03-14T09:14:32Z",
-      "version": 5,
-      "changeset": 100980960,
-      "user": "kordesh",
-      "uid": 1559275,
+      "timestamp": "2022-05-20T08:46:28Z",
+      "version": 6,
+      "changeset": 121231046,
+      "user": "Sylvain M",
+      "uid": 672931,
       "nodes": [279196851, 413575017],
       "geometry": [
         {"lat": 44.0780487, "lon": 7.2512193},
@@ -55411,20 +55452,16 @@
         {"lat": 44.0786869, "lon": 7.2508659},
         {"lat": 44.0787026, "lon": 7.2507297}
       ],
-      "tags": {
-        "destroyed:highway": "unclassified",
-        "end_date": "2020-10-02",
-        "highway": "unclassified"
-      }
+      "tags": {"destroyed:highway": "unclassified", "end_date": "2020-10-02"}
     },
     {
       "type": "way",
       "id": 35283049,
-      "timestamp": "2021-03-14T09:14:32Z",
-      "version": 7,
-      "changeset": 100980960,
-      "user": "kordesh",
-      "uid": 1559275,
+      "timestamp": "2022-05-20T08:46:28Z",
+      "version": 8,
+      "changeset": 121231046,
+      "user": "Sylvain M",
+      "uid": 672931,
       "nodes": [843939652, 843781754],
       "geometry": [
         {"lat": 44.0787266, "lon": 7.2503979},
@@ -55433,11 +55470,7 @@
         {"lat": 44.0783874, "lon": 7.2503231},
         {"lat": 44.0781823, "lon": 7.2502321}
       ],
-      "tags": {
-        "destroyed:highway": "unclassified",
-        "end_date": "2020-10-02",
-        "highway": "unclassified"
-      }
+      "tags": {"destroyed:highway": "unclassified", "end_date": "2020-10-02"}
     },
     {
       "type": "way",
@@ -55520,11 +55553,11 @@
     {
       "type": "way",
       "id": 355766529,
-      "timestamp": "2021-03-14T09:14:32Z",
-      "version": 6,
-      "changeset": 100980960,
-      "user": "kordesh",
-      "uid": 1559275,
+      "timestamp": "2022-05-20T21:08:51Z",
+      "version": 7,
+      "changeset": 121260857,
+      "user": "Patchi",
+      "uid": 591881,
       "nodes": [279196848, 279196851],
       "geometry": [
         {"lat": 44.0772327, "lon": 7.2510081},
@@ -55536,7 +55569,6 @@
       "tags": {
         "destroyed:highway": "tertiary",
         "end_date": "2020-10-02",
-        "highway": "unclassified",
         "name": "Avenue Eugénie Raiberti",
         "ref": "M 94"
       }
@@ -55603,11 +55635,11 @@
     {
       "type": "way",
       "id": 355766539,
-      "timestamp": "2020-10-17T00:45:29Z",
-      "version": 2,
-      "changeset": 92608458,
-      "user": "pyrog",
-      "uid": 270456,
+      "timestamp": "2022-05-20T08:46:28Z",
+      "version": 3,
+      "changeset": 121231046,
+      "user": "Sylvain M",
+      "uid": 672931,
       "nodes": [276349567, 413575023],
       "geometry": [
         {"lat": 44.0785231, "lon": 7.2497994},
@@ -55618,7 +55650,7 @@
         {"lat": 44.0780161, "lon": 7.2498218}
       ],
       "tags": {
-        "highway": "secondary",
+        "highway": "service",
         "name": "Route de la Colmiane dite 31",
         "ref": "M 2565",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2010"
@@ -66962,7 +66994,7 @@
       "uid": 688484,
       "nodes": [280224192, 559644232],
       "geometry": [
-        {"lat": 44.0709329, "lon": 7.2220377},
+        {"lat": 44.0709329, "lon": 7.2220414},
         {"lat": 44.0709627, "lon": 7.2220253},
         {"lat": 44.0711289, "lon": 7.2219168}
       ],
@@ -77741,11 +77773,11 @@
     {
       "type": "way",
       "id": 573202374,
-      "timestamp": "2022-03-07T04:55:26Z",
-      "version": 5,
-      "changeset": 118181643,
-      "user": "Hervé TUC",
-      "uid": 922338,
+      "timestamp": "2022-05-20T21:08:51Z",
+      "version": 6,
+      "changeset": 121260857,
+      "user": "Patchi",
+      "uid": 591881,
       "nodes": [276349432, 280224192],
       "geometry": [
         {"lat": 44.0709099, "lon": 7.2236603},
@@ -77757,8 +77789,10 @@
         {"lat": 44.0710669, "lon": 7.2224608},
         {"lat": 44.0710556, "lon": 7.2224043},
         {"lat": 44.0710364, "lon": 7.2223433},
+        {"lat": 44.0710072, "lon": 7.2222786},
         {"lat": 44.0709837, "lon": 7.2222188},
-        {"lat": 44.0709329, "lon": 7.2220377}
+        {"lat": 44.0709687, "lon": 7.2221696},
+        {"lat": 44.0709329, "lon": 7.2220414}
       ],
       "tags": {"highway": "secondary", "maxspeed": "30", "ref": "M 2565"}
     },
@@ -101546,15 +101580,16 @@
     {
       "type": "way",
       "id": 892240342,
-      "timestamp": "2022-01-21T09:07:31Z",
-      "version": 2,
-      "changeset": 116419968,
-      "user": "Jrachi",
-      "uid": 2976645,
+      "timestamp": "2022-05-20T07:20:06Z",
+      "version": 3,
+      "changeset": 121227338,
+      "user": "Martj9",
+      "uid": 675302,
       "nodes": [475560291, 475560360],
       "geometry": [
-        {"lat": 45.1128022, "lon": 6.8833819},
-        {"lat": 45.1128139, "lon": 6.8835084},
+        {"lat": 45.1128435, "lon": 6.8833889},
+        {"lat": 45.1128346, "lon": 6.8834652},
+        {"lat": 45.1128918, "lon": 6.8835475},
         {"lat": 45.112892, "lon": 6.8835684},
         {"lat": 45.1128497, "lon": 6.8836468},
         {"lat": 45.1129896, "lon": 6.8837667},
@@ -101690,7 +101725,7 @@
         {"lat": 45.1120412, "lon": 6.8831402},
         {"lat": 45.1122568, "lon": 6.883294},
         {"lat": 45.1124004, "lon": 6.8832628},
-        {"lat": 45.1128022, "lon": 6.8833819}
+        {"lat": 45.1128435, "lon": 6.8833889}
       ],
       "tags": {"highway": "path", "sac_scale": "hiking"}
     },
