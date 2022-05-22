@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-20T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-21T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2022,9 +2022,9 @@
     {
       "type": "relation",
       "id": 9592461,
-      "timestamp": "2022-04-15T08:34:47Z",
-      "version": 11,
-      "changeset": 119741167,
+      "timestamp": "2022-05-21T07:02:34Z",
+      "version": 12,
+      "changeset": 121269889,
       "user": "kylenz",
       "uid": 10140394,
       "members": [
@@ -2032,6 +2032,7 @@
         {"type": "way", "ref": 59289427, "role": ""},
         {"type": "way", "ref": 59289424, "role": ""},
         {"type": "way", "ref": 59289426, "role": ""},
+        {"type": "way", "ref": 1062254673, "role": ""},
         {"type": "way", "ref": 675276314, "role": ""},
         {"type": "way", "ref": 812585087, "role": ""},
         {"type": "way", "ref": 198666171, "role": ""},
@@ -2535,9 +2536,9 @@
     {
       "type": "relation",
       "id": 9606135,
-      "timestamp": "2021-12-21T05:21:37Z",
-      "version": 26,
-      "changeset": 115190079,
+      "timestamp": "2022-05-21T06:48:54Z",
+      "version": 27,
+      "changeset": 121269580,
       "user": "ChookMan",
       "uid": 11144302,
       "members": [
@@ -2584,8 +2585,8 @@
         {"type": "way", "ref": 374784375, "role": ""},
         {"type": "way", "ref": 676291350, "role": ""},
         {"type": "way", "ref": 1013951409, "role": ""},
-        {"type": "way", "ref": 1013951410, "role": ""},
         {"type": "way", "ref": 448444844, "role": ""},
+        {"type": "way", "ref": 1013951410, "role": ""},
         {"type": "way", "ref": 684808598, "role": ""},
         {"type": "way", "ref": 954543218, "role": ""},
         {"type": "way", "ref": 684808601, "role": ""},
@@ -2604,11 +2605,11 @@
         {"type": "way", "ref": 99466261, "role": ""},
         {"type": "way", "ref": 987255275, "role": ""},
         {"type": "way", "ref": 930541980, "role": ""},
-        {"type": "way", "ref": 1011390957, "role": ""},
         {"type": "way", "ref": 930541981, "role": ""},
+        {"type": "way", "ref": 1011390957, "role": ""},
+        {"type": "way", "ref": 65597604, "role": ""},
         {"type": "way", "ref": 615737633, "role": ""},
-        {"type": "way", "ref": 615737634, "role": ""},
-        {"type": "way", "ref": 65597604, "role": ""}
+        {"type": "way", "ref": 615737634, "role": ""}
       ],
       "tags": {
         "description": "cross under a major bridge to Mangere foreshore and skirt around Auckland International Airport. NOTE: the original Mangere Bridge was closed in November 2018 as unsafe.",
@@ -5072,14 +5073,14 @@
     {
       "type": "way",
       "id": 1011390957,
-      "timestamp": "2021-12-12T08:00:47Z",
-      "version": 1,
-      "changeset": 114838459,
-      "user": "kylenz",
-      "uid": 10140394,
-      "nodes": [7797729135, 8628132570],
+      "timestamp": "2022-05-21T06:48:54Z",
+      "version": 2,
+      "changeset": 121269580,
+      "user": "ChookMan",
+      "uid": 11144302,
+      "nodes": [9758791000, 8628132570],
       "geometry": [
-        {"lat": -36.9979541, "lon": 174.8307441},
+        {"lat": -36.9977739, "lon": 174.8310779},
         {"lat": -36.9975987, "lon": 174.8314291},
         {"lat": -36.9976264, "lon": 174.831496},
         {"lat": -36.9975912, "lon": 174.8315717}
@@ -7471,6 +7472,33 @@
         {"lat": -36.8432172, "lon": 174.7672811}
       ],
       "tags": {"footway": "sidewalk", "highway": "footway"}
+    },
+    {
+      "type": "way",
+      "id": 1062254673,
+      "timestamp": "2022-05-21T07:02:34Z",
+      "version": 1,
+      "changeset": 121269889,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [716521, 3858657078],
+      "geometry": [
+        {"lat": -36.5161931, "lon": 174.6693246},
+        {"lat": -36.5165032, "lon": 174.6695311},
+        {"lat": -36.5167883, "lon": 174.6697495},
+        {"lat": -36.5170063, "lon": 174.6699637}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "trunk",
+        "lanes": "2",
+        "maxspeed": "80",
+        "name": "State Highway 1",
+        "oneway": "no",
+        "ref": "SH 1",
+        "surface": "paved"
+      }
     },
     {
       "type": "way",
@@ -66440,9 +66468,9 @@
     {
       "type": "way",
       "id": 47892361,
-      "timestamp": "2022-04-15T08:34:47Z",
-      "version": 19,
-      "changeset": 119741167,
+      "timestamp": "2022-05-21T07:02:34Z",
+      "version": 20,
+      "changeset": 121269889,
       "user": "kylenz",
       "uid": 10140394,
       "nodes": [9667666949, 716446],
@@ -66461,7 +66489,7 @@
         "bicycle": "yes",
         "destination": "Auckland;Waiwera",
         "foot": "yes",
-        "highway": "trunk_link",
+        "highway": "primary_link",
         "junction:ref": "388",
         "lanes": "1",
         "maxspeed": "80",
@@ -79206,16 +79234,13 @@
     {
       "type": "way",
       "id": 675276314,
-      "timestamp": "2022-04-15T08:34:47Z",
-      "version": 5,
-      "changeset": 119741167,
+      "timestamp": "2022-05-21T07:02:34Z",
+      "version": 6,
+      "changeset": 121269889,
       "user": "kylenz",
       "uid": 10140394,
-      "nodes": [716521, 716507],
+      "nodes": [3858657078, 716507],
       "geometry": [
-        {"lat": -36.5161931, "lon": 174.6693246},
-        {"lat": -36.5165032, "lon": 174.6695311},
-        {"lat": -36.5167883, "lon": 174.6697495},
         {"lat": -36.5170063, "lon": 174.6699637},
         {"lat": -36.5172728, "lon": 174.6702295},
         {"lat": -36.517395, "lon": 174.670413},
@@ -89732,11 +89757,11 @@
     {
       "type": "way",
       "id": 766800553,
-      "timestamp": "2020-08-06T20:07:04Z",
-      "version": 4,
-      "changeset": 89056157,
-      "user": "swapnav",
-      "uid": 10023916,
+      "timestamp": "2022-05-21T07:02:34Z",
+      "version": 5,
+      "changeset": 121269889,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [2405610602, 716442],
       "geometry": [
         {"lat": -36.5331679, "lon": 174.6808497},
@@ -89748,7 +89773,7 @@
       "tags": {
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "trunk_link",
+        "highway": "primary_link",
         "lanes": "1",
         "maxspeed:forward": "80",
         "name": "Hibiscus Coast Highway",
@@ -89760,11 +89785,11 @@
     {
       "type": "way",
       "id": 766800554,
-      "timestamp": "2020-08-04T20:49:39Z",
-      "version": 3,
-      "changeset": 88947982,
-      "user": "AlwynWellington",
-      "uid": 567640,
+      "timestamp": "2022-05-21T07:02:34Z",
+      "version": 4,
+      "changeset": 121269889,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [716446, 2405610602],
       "geometry": [
         {"lat": -36.5329439, "lon": 174.6801699},
@@ -89774,7 +89799,7 @@
       "tags": {
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "trunk_link",
+        "highway": "primary_link",
         "lanes": "2",
         "name": "Hibiscus Coast Highway",
         "old_ref": "SH 17",
@@ -99588,12 +99613,12 @@
     {
       "type": "way",
       "id": 930541980,
-      "timestamp": "2021-12-22T05:24:55Z",
-      "version": 3,
-      "changeset": 115234965,
+      "timestamp": "2022-05-21T06:48:54Z",
+      "version": 4,
+      "changeset": 121269580,
       "user": "ChookMan",
       "uid": 11144302,
-      "nodes": [7797729090, 7797729134],
+      "nodes": [7797729090, 9758791005],
       "geometry": [
         {"lat": -37.0014807, "lon": 174.8096453},
         {"lat": -37.0015397, "lon": 174.8096968},
@@ -99647,7 +99672,7 @@
         {"lat": -36.9984698, "lon": 174.8296172},
         {"lat": -36.9983441, "lon": 174.8299655},
         {"lat": -36.9982312, "lon": 174.830219},
-        {"lat": -36.9980143, "lon": 174.8306256}
+        {"lat": -36.9980488, "lon": 174.830561}
       ],
       "tags": {
         "bicycle": "designated",
@@ -99662,15 +99687,17 @@
     {
       "type": "way",
       "id": 930541981,
-      "timestamp": "2021-12-12T08:00:47Z",
-      "version": 2,
-      "changeset": 114838459,
-      "user": "kylenz",
-      "uid": 10140394,
-      "nodes": [7797729134, 7797729135],
+      "timestamp": "2022-05-21T06:48:54Z",
+      "version": 3,
+      "changeset": 121269580,
+      "user": "ChookMan",
+      "uid": 11144302,
+      "nodes": [9758791005, 9758791000],
       "geometry": [
+        {"lat": -36.9980488, "lon": 174.830561},
         {"lat": -36.9980143, "lon": 174.8306256},
-        {"lat": -36.9979541, "lon": 174.8307441}
+        {"lat": -36.9979541, "lon": 174.8307441},
+        {"lat": -36.9977739, "lon": 174.8310779}
       ],
       "tags": {
         "bicycle": "designated",

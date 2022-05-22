@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-20T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-21T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -143,11 +143,11 @@
     {
       "type": "relation",
       "id": 2925549,
-      "timestamp": "2022-04-05T22:22:40Z",
-      "version": 34,
-      "changeset": 119361678,
-      "user": "micheleOSM3",
-      "uid": 3538539,
+      "timestamp": "2022-05-21T09:34:31Z",
+      "version": 35,
+      "changeset": 121274355,
+      "user": "alessandrocarmeli",
+      "uid": 12294600,
       "members": [
         {"type": "way", "ref": 166888024, "role": "route"},
         {"type": "way", "ref": 166888110, "role": "route"},
@@ -198,8 +198,7 @@
         {"type": "way", "ref": 198352585, "role": "route"},
         {"type": "way", "ref": 162818714, "role": "route"},
         {"type": "way", "ref": 162818715, "role": "route"},
-        {"type": "way", "ref": 671122582, "role": "route"},
-        {"type": "way", "ref": 162818726, "role": "route"},
+        {"type": "way", "ref": 222709127, "role": ""},
         {"type": "way", "ref": 30746449, "role": "route"},
         {"type": "way", "ref": 166817996, "role": "route"},
         {"type": "way", "ref": 166817998, "role": "route"},
@@ -6277,28 +6276,6 @@
         "railway": "abandoned",
         "segregated": "no",
         "surface": "gravel"
-      }
-    },
-    {
-      "type": "way",
-      "id": 162818726,
-      "timestamp": "2022-04-05T21:00:40Z",
-      "version": 6,
-      "changeset": 119359873,
-      "user": "micheleOSM3",
-      "uid": 3538539,
-      "nodes": [340037042, 293023413],
-      "geometry": [
-        {"lat": 45.6277344, "lon": 13.8721045},
-        {"lat": 45.6277703, "lon": 13.8719532},
-        {"lat": 45.62783, "lon": 13.8718063},
-        {"lat": 45.6279493, "lon": 13.8716312}
-      ],
-      "tags": {
-        "highway": "service",
-        "noname": "yes",
-        "service": "parking_aisle",
-        "surface": "asphalt"
       }
     },
     {
@@ -13690,6 +13667,28 @@
         {"lat": 45.5873377, "lon": 13.7807348}
       ],
       "tags": {"highway": "track", "tracktype": "grade2"}
+    },
+    {
+      "type": "way",
+      "id": 222709127,
+      "timestamp": "2022-04-05T21:00:40Z",
+      "version": 5,
+      "changeset": 119359873,
+      "user": "micheleOSM3",
+      "uid": 3538539,
+      "nodes": [340037042, 2316514767],
+      "geometry": [
+        {"lat": 45.6277344, "lon": 13.8721045},
+        {"lat": 45.6277346, "lon": 13.8719559},
+        {"lat": 45.6277125, "lon": 13.8718339},
+        {"lat": 45.6276548, "lon": 13.8717342}
+      ],
+      "tags": {
+        "highway": "service",
+        "noname": "yes",
+        "service": "parking_aisle",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -26693,23 +26692,6 @@
         {"lat": 45.6290132, "lon": 13.8600504}
       ],
       "tags": {"highway": "path"}
-    },
-    {
-      "type": "way",
-      "id": 671122582,
-      "timestamp": "2022-04-05T21:00:40Z",
-      "version": 8,
-      "changeset": 119359873,
-      "user": "micheleOSM3",
-      "uid": 3538539,
-      "nodes": [293023413, 2316514767],
-      "geometry": [
-        {"lat": 45.6279493, "lon": 13.8716312},
-        {"lat": 45.6277857, "lon": 13.8716528},
-        {"lat": 45.6277271, "lon": 13.8716756},
-        {"lat": 45.6276548, "lon": 13.8717342}
-      ],
-      "tags": {"highway": "tertiary", "noname": "yes", "surface": "asphalt"}
     },
     {
       "type": "way",
