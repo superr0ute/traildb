@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-19T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-22T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -5324,11 +5324,11 @@
     {
       "type": "way",
       "id": 119196380,
-      "timestamp": "2021-05-03T14:50:40Z",
-      "version": 8,
-      "changeset": 104064513,
-      "user": "copossum",
-      "uid": 7712,
+      "timestamp": "2022-05-22T00:23:29Z",
+      "version": 9,
+      "changeset": 121301410,
+      "user": "Hungerburg",
+      "uid": 1885585,
       "nodes": [1339924926, 676377027],
       "geometry": [
         {"lat": 47.3424546, "lon": 11.4695091},
@@ -5359,7 +5359,9 @@
         "highway": "path",
         "mtb:scale": "3",
         "sac_scale": "mountain_hiking",
-        "scale:dav": "red"
+        "scale:dav": "red",
+        "smoothness": "impassable",
+        "surface": "gravel"
       }
     },
     {
@@ -12656,11 +12658,11 @@
     {
       "type": "way",
       "id": 174942091,
-      "timestamp": "2019-07-15T09:23:05Z",
-      "version": 4,
-      "changeset": 72253977,
-      "user": "MaPeTh",
-      "uid": 197691,
+      "timestamp": "2022-05-22T00:23:29Z",
+      "version": 5,
+      "changeset": 121301410,
+      "user": "Hungerburg",
+      "uid": 1885585,
       "nodes": [799332696, 676377157],
       "geometry": [
         {"lat": 47.3188831, "lon": 11.5142833},
@@ -12669,14 +12671,12 @@
         {"lat": 47.3172194, "lon": 11.5150578}
       ],
       "tags": {
-        "access": "no",
         "bicycle": "yes",
-        "description": "Rodelbahn",
-        "foot": "yes",
         "highway": "track",
-        "motor_vehicle": "no",
+        "motor_vehicle": "private",
         "mtb:scale": "0",
-        "name": "Halltal",
+        "name": "Halltalstraße",
+        "piste:name": "Halltal",
         "piste:type": "sled",
         "sac_scale": "hiking",
         "surface": "asphalt",
@@ -20670,16 +20670,21 @@
     {
       "type": "way",
       "id": 242910643,
-      "timestamp": "2014-02-23T17:45:43Z",
-      "version": 2,
-      "changeset": 20736401,
-      "user": "ToniE",
-      "uid": 8748,
+      "timestamp": "2022-05-22T19:53:56Z",
+      "version": 3,
+      "changeset": 121334268,
+      "user": "mountaincrest",
+      "uid": 2024658,
       "nodes": [259256881, 267875344],
       "geometry": [
-        {"lat": 47.9556956, "lon": 11.4697786},
-        {"lat": 47.9572282, "lon": 11.4730481},
-        {"lat": 47.9576814, "lon": 11.4739635},
+        {"lat": 47.9557037, "lon": 11.4697665},
+        {"lat": 47.9557413, "lon": 11.4698468},
+        {"lat": 47.9557862, "lon": 11.469978},
+        {"lat": 47.9566029, "lon": 11.4716925},
+        {"lat": 47.9569838, "lon": 11.4724883},
+        {"lat": 47.9572569, "lon": 11.4730521},
+        {"lat": 47.9576859, "lon": 11.4739461},
+        {"lat": 47.9579791, "lon": 11.474528},
         {"lat": 47.9581484, "lon": 11.4748203},
         {"lat": 47.9585209, "lon": 11.4753634},
         {"lat": 47.9588005, "lon": 11.4756516},
@@ -21205,11 +21210,11 @@
     {
       "type": "way",
       "id": 24658739,
-      "timestamp": "2012-11-07T21:42:27Z",
-      "version": 10,
-      "changeset": 13790763,
-      "user": "unixasket",
-      "uid": 661499,
+      "timestamp": "2022-05-22T15:09:10Z",
+      "version": 11,
+      "changeset": 121323083,
+      "user": "Chris1269",
+      "uid": 13411784,
       "nodes": [261002048, 261002052],
       "geometry": [
         {"lat": 47.8575653, "lon": 11.505759},
@@ -21225,6 +21230,7 @@
       ],
       "tags": {
         "bicycle": "designated",
+        "check_date:surface": "2022-05-22",
         "foot": "designated",
         "highway": "cycleway",
         "surface": "compacted",
@@ -23506,7 +23512,7 @@
         {"lat": 47.9538028, "lon": 11.4658914},
         {"lat": 47.954667, "lon": 11.4676626},
         {"lat": 47.9556197, "lon": 11.4696258},
-        {"lat": 47.9556956, "lon": 11.4697786}
+        {"lat": 47.9557037, "lon": 11.4697665}
       ],
       "tags": {
         "foot": "yes",
@@ -25849,11 +25855,11 @@
     {
       "type": "way",
       "id": 32048397,
-      "timestamp": "2016-01-27T22:33:43Z",
-      "version": 13,
-      "changeset": 36847190,
-      "user": "Knoedel_0815",
-      "uid": 3567639,
+      "timestamp": "2022-05-22T15:09:04Z",
+      "version": 14,
+      "changeset": 121323083,
+      "user": "Chris1269",
+      "uid": 13411784,
       "nodes": [261002052, 404149172],
       "geometry": [
         {"lat": 47.8556741, "lon": 11.5089961},
@@ -25865,7 +25871,12 @@
         {"lat": 47.8555713, "lon": 11.5108482},
         {"lat": 47.8556334, "lon": 11.5110016}
       ],
-      "tags": {"foot": "yes", "highway": "cycleway", "lit": "no"}
+      "tags": {
+        "foot": "yes",
+        "highway": "cycleway",
+        "lit": "no",
+        "surface": "compacted"
+      }
     },
     {
       "type": "way",
@@ -37067,14 +37078,13 @@
     {
       "type": "way",
       "id": 438979299,
-      "timestamp": "2018-08-21T12:55:11Z",
-      "version": 3,
-      "changeset": 61855365,
-      "user": "Roberto Zucchetto",
-      "uid": 6689594,
-      "nodes": [1421051277, 421828436],
+      "timestamp": "2022-05-22T23:22:08Z",
+      "version": 4,
+      "changeset": 121339121,
+      "user": "Robhubi",
+      "uid": 3105686,
+      "nodes": [1421051252, 421828436],
       "geometry": [
-        {"lat": 45.5352561, "lon": 12.6409588},
         {"lat": 45.5352428, "lon": 12.6409912},
         {"lat": 45.5352021, "lon": 12.6410977},
         {"lat": 45.5351716, "lon": 12.6412169},
@@ -41642,11 +41652,11 @@
     {
       "type": "way",
       "id": 53538391,
-      "timestamp": "2022-03-24T22:18:49Z",
-      "version": 11,
-      "changeset": 118885013,
-      "user": "Mtngy",
-      "uid": 14937997,
+      "timestamp": "2022-05-22T00:23:29Z",
+      "version": 12,
+      "changeset": 121301410,
+      "user": "Hungerburg",
+      "uid": 1885585,
       "nodes": [676377027, 883431558],
       "geometry": [
         {"lat": 47.3399987, "lon": 11.4657855},
@@ -41732,7 +41742,9 @@
       "tags": {
         "bicycle": "no",
         "highway": "path",
-        "sac_scale": "mountain_hiking"
+        "sac_scale": "mountain_hiking",
+        "smoothness": "impassable",
+        "surface": "gravel"
       }
     },
     {

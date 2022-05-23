@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-21T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-22T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1304,11 +1304,11 @@
     {
       "type": "relation",
       "id": 9579941,
-      "timestamp": "2021-12-30T07:05:38Z",
-      "version": 7,
-      "changeset": 115549850,
-      "user": "StenSoft",
-      "uid": 255936,
+      "timestamp": "2022-05-22T04:24:02Z",
+      "version": 8,
+      "changeset": 121303650,
+      "user": "skgrange",
+      "uid": 1892481,
       "members": [
         {"type": "way", "ref": 116816580, "role": ""},
         {"type": "way", "ref": 373511475, "role": ""},
@@ -1318,6 +1318,7 @@
         {"type": "way", "ref": 556408414, "role": ""},
         {"type": "way", "ref": 464496890, "role": ""},
         {"type": "way", "ref": 138381752, "role": ""},
+        {"type": "way", "ref": 1062492777, "role": ""},
         {"type": "way", "ref": 218340954, "role": ""},
         {"type": "way", "ref": 218333886, "role": ""},
         {"type": "way", "ref": 218333885, "role": ""},
@@ -7602,6 +7603,28 @@
     },
     {
       "type": "way",
+      "id": 1062492777,
+      "timestamp": "2022-05-22T04:24:02Z",
+      "version": 1,
+      "changeset": 121303650,
+      "user": "skgrange",
+      "uid": 1892481,
+      "nodes": [1517309225, 9760843815],
+      "geometry": [
+        {"lat": -35.2266512, "lon": 173.9691571},
+        {"lat": -35.2249746, "lon": 173.9675731},
+        {"lat": -35.2248914, "lon": 173.9675322},
+        {"lat": -35.224847, "lon": 173.9675128},
+        {"lat": -35.2248021, "lon": 173.9675014},
+        {"lat": -35.224732, "lon": 173.967494},
+        {"lat": -35.2240828, "lon": 173.9675022},
+        {"lat": -35.2238148, "lon": 173.967503},
+        {"lat": -35.2237703, "lon": 173.9675031}
+      ],
+      "tags": {"highway": "residential", "name": "Pa Road", "surface": "paved"}
+    },
+    {
+      "type": "way",
       "id": 106486372,
       "timestamp": "2021-12-30T06:42:14Z",
       "version": 7,
@@ -9334,20 +9357,14 @@
     {
       "type": "way",
       "id": 138381752,
-      "timestamp": "2020-07-29T09:59:49Z",
-      "version": 9,
-      "changeset": 88670449,
-      "user": "aleksaJov",
-      "uid": 7436199,
-      "nodes": [1517309225, 1517309168],
+      "timestamp": "2022-05-22T04:24:02Z",
+      "version": 10,
+      "changeset": 121303650,
+      "user": "skgrange",
+      "uid": 1892481,
+      "nodes": [9760843815, 1517309168],
       "geometry": [
-        {"lat": -35.2266512, "lon": 173.9691571},
-        {"lat": -35.2249746, "lon": 173.9675731},
-        {"lat": -35.2248914, "lon": 173.9675322},
-        {"lat": -35.224847, "lon": 173.9675128},
-        {"lat": -35.2248021, "lon": 173.9675014},
-        {"lat": -35.224732, "lon": 173.967494},
-        {"lat": -35.2240828, "lon": 173.9675022},
+        {"lat": -35.2237703, "lon": 173.9675031},
         {"lat": -35.2235467, "lon": 173.9675037},
         {"lat": -35.223411, "lon": 173.9674559},
         {"lat": -35.2227299, "lon": 173.9669119},
@@ -9364,7 +9381,12 @@
         {"lat": -35.2213878, "lon": 173.9648023},
         {"lat": -35.2213612, "lon": 173.9648094}
       ],
-      "tags": {"highway": "residential", "name": "Pa Road", "surface": "paved"}
+      "tags": {
+        "highway": "residential",
+        "incline": "13%",
+        "name": "Pa Road",
+        "surface": "paved"
+      }
     },
     {
       "type": "way",
