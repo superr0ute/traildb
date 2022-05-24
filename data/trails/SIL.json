@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-21T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-23T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -8306,11 +8306,11 @@
       "uid": 5310347,
       "nodes": [2620780716, 2707097136],
       "geometry": [
-        {"lat": 45.929376, "lon": 8.8788149},
-        {"lat": 45.9292817, "lon": 8.8788065},
-        {"lat": 45.9291026, "lon": 8.8787609},
-        {"lat": 45.9290184, "lon": 8.878649},
-        {"lat": 45.9288825, "lon": 8.8785785},
+        {"lat": 45.9294366, "lon": 8.8786921},
+        {"lat": 45.9293726, "lon": 8.8786996},
+        {"lat": 45.9292073, "lon": 8.87865},
+        {"lat": 45.9290515, "lon": 8.8786015},
+        {"lat": 45.9289293, "lon": 8.8785072},
         {"lat": 45.9287105, "lon": 8.8783386},
         {"lat": 45.9283859, "lon": 8.8780985},
         {"lat": 45.9281885, "lon": 8.8781145},
@@ -12588,11 +12588,11 @@
     {
       "type": "way",
       "id": 132757347,
-      "timestamp": "2022-03-19T11:09:44Z",
-      "version": 9,
-      "changeset": 118661922,
-      "user": "MarcoTagliabue",
-      "uid": 1798405,
+      "timestamp": "2022-05-23T19:00:03Z",
+      "version": 12,
+      "changeset": 121385576,
+      "user": "rosskrt",
+      "uid": 15608638,
       "nodes": [3474644996, 9589784612],
       "geometry": [
         {"lat": 45.829272, "lon": 8.9611347},
@@ -12610,7 +12610,14 @@
         {"lat": 45.8318342, "lon": 8.9621611},
         {"lat": 45.831928, "lon": 8.9621455}
       ],
-      "tags": {"highway": "residential", "name": "Via Somazzo", "oneway": "no"}
+      "tags": {
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Via Somazzo",
+        "oneway": "no",
+        "sidewalk": "no",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -49342,11 +49349,11 @@
     {
       "type": "way",
       "id": 340249790,
-      "timestamp": "2015-09-19T22:34:40Z",
-      "version": 2,
-      "changeset": 34130732,
-      "user": "Comasco",
-      "uid": 905066,
+      "timestamp": "2022-05-23T16:57:58Z",
+      "version": 3,
+      "changeset": 121380564,
+      "user": "rosskrt",
+      "uid": 15608638,
       "nodes": [3474644996, 3474645002],
       "geometry": [
         {"lat": 45.829272, "lon": 8.9611347},
@@ -49358,6 +49365,7 @@
         {"lat": 45.8305591, "lon": 8.9648823}
       ],
       "tags": {
+        "check_date:surface": "2022-05-23",
         "highway": "track",
         "mtb:scale": "0",
         "surface": "ground",
@@ -49367,11 +49375,11 @@
     {
       "type": "way",
       "id": 340249791,
-      "timestamp": "2015-10-10T15:29:54Z",
-      "version": 2,
-      "changeset": 34551306,
-      "user": "Alecs01",
-      "uid": 1476146,
+      "timestamp": "2022-05-23T17:02:29Z",
+      "version": 4,
+      "changeset": 121380585,
+      "user": "rosskrt",
+      "uid": 15608638,
       "nodes": [3474645002, 3379352454],
       "geometry": [
         {"lat": 45.8305591, "lon": 8.9648823},
@@ -49393,7 +49401,7 @@
         {"lat": 45.8322037, "lon": 8.9694582},
         {"lat": 45.8319791, "lon": 8.970494}
       ],
-      "tags": {"highway": "track"}
+      "tags": {"highway": "track", "surface": "ground", "tracktype": "grade3"}
     },
     {
       "type": "way",
@@ -87574,22 +87582,21 @@
     {
       "type": "way",
       "id": 699051559,
-      "timestamp": "2020-02-16T18:33:41Z",
-      "version": 2,
-      "changeset": 81078590,
-      "user": "itineralp",
-      "uid": 5310347,
+      "timestamp": "2022-05-23T08:01:14Z",
+      "version": 3,
+      "changeset": 121353564,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [6564471099, 2620780716],
       "geometry": [
         {"lat": 45.9301007, "lon": 8.8780957},
         {"lat": 45.9300503, "lon": 8.8783103},
         {"lat": 45.9299729, "lon": 8.8784716},
         {"lat": 45.9299198, "lon": 8.8786107},
-        {"lat": 45.9298451, "lon": 8.8787424},
-        {"lat": 45.9296866, "lon": 8.878769},
-        {"lat": 45.9294984, "lon": 8.8787608},
-        {"lat": 45.9294067, "lon": 8.8788334},
-        {"lat": 45.929376, "lon": 8.8788149}
+        {"lat": 45.9298176, "lon": 8.8787107},
+        {"lat": 45.9297141, "lon": 8.8787136},
+        {"lat": 45.9295783, "lon": 8.8786974},
+        {"lat": 45.9294366, "lon": 8.8786921}
       ],
       "tags": {
         "access": "yes",
