@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-23T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-24T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2158,11 +2158,11 @@
     {
       "type": "relation",
       "id": 9599093,
-      "timestamp": "2022-04-09T07:32:10Z",
-      "version": 21,
-      "changeset": 119493318,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-05-24T08:05:50Z",
+      "version": 22,
+      "changeset": 121408033,
+      "user": "LACDH",
+      "uid": 4994674,
       "members": [
         {"type": "way", "ref": 97467659, "role": ""},
         {"type": "way", "ref": 373835440, "role": ""},
@@ -2237,6 +2237,7 @@
         {"type": "way", "ref": 355419990, "role": ""},
         {"type": "way", "ref": 373839627, "role": ""},
         {"type": "way", "ref": 613096900, "role": ""},
+        {"type": "way", "ref": 1063169807, "role": ""},
         {"type": "way", "ref": 445409133, "role": ""},
         {"type": "way", "ref": 445407659, "role": ""},
         {"type": "way", "ref": 539769695, "role": ""},
@@ -7622,6 +7623,31 @@
         {"lat": -35.2237703, "lon": 173.9675031}
       ],
       "tags": {"highway": "residential", "name": "Pa Road", "surface": "paved"}
+    },
+    {
+      "type": "way",
+      "id": 1063169807,
+      "timestamp": "2022-05-24T08:05:50Z",
+      "version": 1,
+      "changeset": 121408033,
+      "user": "LACDH",
+      "uid": 4994674,
+      "nodes": [4428411722, 4428411731],
+      "geometry": [
+        {"lat": -36.7649561, "lon": 174.7652773},
+        {"lat": -36.7650604, "lon": 174.7652114}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "3",
+        "lanes:backward": "1",
+        "lanes:forward": "2",
+        "maxspeed": "50",
+        "name": "Beach Road",
+        "surface": "asphalt",
+        "turn:lanes:backward": "none",
+        "turn:lanes:forward": "none|right"
+      }
     },
     {
       "type": "way",
@@ -46056,11 +46082,11 @@
     {
       "type": "way",
       "id": 337113212,
-      "timestamp": "2021-10-30T04:13:24Z",
-      "version": 8,
-      "changeset": 113147361,
-      "user": "michael60634",
-      "uid": 10036384,
+      "timestamp": "2022-05-24T09:18:23Z",
+      "version": 9,
+      "changeset": 121411671,
+      "user": "howdystranger",
+      "uid": 1839337,
       "nodes": [172713937, 7018237751],
       "geometry": [
         {"lat": -41.3416655, "lon": 174.7847863},
@@ -46136,6 +46162,7 @@
         {"lat": -41.3434861, "lon": 174.774392},
         {"lat": -41.3433154, "lon": 174.7742476},
         {"lat": -41.3430931, "lon": 174.7740306},
+        {"lat": -41.3430751, "lon": 174.7740044},
         {"lat": -41.3430417, "lon": 174.7739559},
         {"lat": -41.3430092, "lon": 174.7738899},
         {"lat": -41.3429795, "lon": 174.7737986},
@@ -62582,15 +62609,16 @@
     {
       "type": "way",
       "id": 412605737,
-      "timestamp": "2020-11-29T07:52:09Z",
-      "version": 8,
-      "changeset": 94973960,
-      "user": "Seagnoid",
-      "uid": 633206,
+      "timestamp": "2022-05-24T09:18:23Z",
+      "version": 9,
+      "changeset": 121411671,
+      "user": "howdystranger",
+      "uid": 1839337,
       "nodes": [7018237755, 4395606191],
       "geometry": [
         {"lat": -41.3434178, "lon": 174.7722861},
         {"lat": -41.3433479, "lon": 174.7720972},
+        {"lat": -41.3432016, "lon": 174.7714626},
         {"lat": -41.3430842, "lon": 174.7709533},
         {"lat": -41.3429825, "lon": 174.7704583}
       ],
@@ -71151,16 +71179,15 @@
     {
       "type": "way",
       "id": 613096900,
-      "timestamp": "2019-05-17T19:02:19Z",
-      "version": 4,
-      "changeset": 70370319,
-      "user": "AlwynWellington",
-      "uid": 567640,
-      "nodes": [4428411721, 4428411731],
+      "timestamp": "2022-05-24T08:05:50Z",
+      "version": 5,
+      "changeset": 121408033,
+      "user": "LACDH",
+      "uid": 4994674,
+      "nodes": [4428411721, 4428411722],
       "geometry": [
         {"lat": -36.7648479, "lon": 174.7653211},
-        {"lat": -36.7649561, "lon": 174.7652773},
-        {"lat": -36.7650604, "lon": 174.7652114}
+        {"lat": -36.7649561, "lon": 174.7652773}
       ],
       "tags": {
         "highway": "secondary",
@@ -90203,15 +90230,15 @@
     {
       "type": "way",
       "id": 771543102,
-      "timestamp": "2020-08-04T20:42:15Z",
-      "version": 3,
-      "changeset": 88947787,
-      "user": "AlwynWellington",
-      "uid": 567640,
+      "timestamp": "2022-05-24T08:05:50Z",
+      "version": 4,
+      "changeset": 121408033,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [265708421, 7202587182],
       "geometry": [
         {"lat": -36.7024123, "lon": 174.7209364},
-        {"lat": -36.7023801, "lon": 174.7210385},
+        {"lat": -36.7024055, "lon": 174.721105},
         {"lat": -36.7025091, "lon": 174.721469},
         {"lat": -36.7025145, "lon": 174.7215293},
         {"lat": -36.7025037, "lon": 174.7215722},
@@ -90220,9 +90247,10 @@
       "tags": {
         "highway": "secondary",
         "lanes": "1",
+        "maxspeed": "50",
         "name": "East Coast Road",
         "oneway": "yes",
-        "surface": "paved"
+        "surface": "asphalt"
       }
     },
     {
