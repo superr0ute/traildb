@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-05-23T23:59:59Z",
-    "timestamp_osm_base": "2022-05-24T05:29:42Z",
+    "timestamp_osm_date": "2022-05-24T23:59:59Z",
+    "timestamp_osm_base": "2022-05-25T05:21:40Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4113,18 +4113,18 @@
     {
       "type": "node",
       "id": 650183272,
-      "lat": 45.1440713,
-      "lon": 7.2987891,
-      "timestamp": "2010-02-22T11:54:44Z",
-      "version": 1,
-      "changeset": 3942769,
-      "user": "glaucos",
-      "uid": 113023,
+      "lat": 45.1441682,
+      "lon": 7.298111,
+      "timestamp": "2022-05-24T14:01:11Z",
+      "version": 2,
+      "changeset": 121426401,
+      "user": "Andrea996",
+      "uid": 9338439,
       "tags": {
         "ele": "1150",
         "gfoss_id": "866",
         "istat_id": "109320008",
-        "name": "Garneri-Magnotti",
+        "name": "Garneri",
         "place": "hamlet",
         "population": "13",
         "source": "Istat 2001 - geodati.gfoss.it"
@@ -10011,13 +10011,18 @@
       "id": 1264694355,
       "lat": 45.1024054,
       "lon": 7.67431,
-      "timestamp": "2014-04-15T18:22:45Z",
-      "version": 2,
-      "changeset": 21714813,
-      "user": "fabrydr",
-      "uid": 330777,
+      "timestamp": "2022-05-24T15:48:28Z",
+      "version": 3,
+      "changeset": 121431979,
+      "user": "WikiLuke",
+      "uid": 12501347,
       "tags": {
-        "amenity": "drinking_water"
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
+        "operator": "SMAT",
+        "wheelchair": "yes"
       }
     },
     {
@@ -50672,6 +50677,40 @@
       }
     },
     {
+      "type": "node",
+      "id": 9767294850,
+      "lat": 45.1439961,
+      "lon": 7.2997623,
+      "timestamp": "2022-05-24T14:01:11Z",
+      "version": 1,
+      "changeset": 121426401,
+      "user": "Andrea996",
+      "uid": 9338439,
+      "tags": {
+        "name": "Magnotti",
+        "place": "hamlet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9767558370,
+      "lat": 45.1018986,
+      "lon": 7.6775991,
+      "timestamp": "2022-05-24T15:48:28Z",
+      "version": 1,
+      "changeset": 121431979,
+      "user": "WikiLuke",
+      "uid": 12501347,
+      "tags": {
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
+        "operator": "SMAT",
+        "wheelchair": "yes"
+      }
+    },
+    {
       "type": "way",
       "id": 23107384,
       "timestamp": "2021-08-21T21:44:45Z",
@@ -53659,23 +53698,6 @@
     },
     {
       "type": "way",
-      "id": 673608549,
-      "timestamp": "2022-05-23T09:36:22Z",
-      "version": 2,
-      "changeset": 121358366,
-      "user": "GPar",
-      "uid": 2000482,
-      "center": {
-        "lat": 45.1867274,
-        "lon": 7.6454235
-      },
-      "nodes": [],
-      "tags": {
-        "amenity": "shelter"
-      }
-    },
-    {
-      "type": "way",
       "id": 683848910,
       "timestamp": "2020-06-13T16:13:40Z",
       "version": 2,
@@ -54246,26 +54268,6 @@
     },
     {
       "type": "way",
-      "id": 1062855293,
-      "timestamp": "2022-05-23T09:36:22Z",
-      "version": 2,
-      "changeset": 121358366,
-      "user": "GPar",
-      "uid": 2000482,
-      "center": {
-        "lat": 45.1905098,
-        "lon": 7.6424452
-      },
-      "nodes": [],
-      "tags": {
-        "amenity": "shelter",
-        "building": "yes",
-        "layer": "1",
-        "source": "microsoft/BuildingFootprints"
-      }
-    },
-    {
-      "type": "way",
       "id": 1062855294,
       "timestamp": "2022-05-23T09:16:03Z",
       "version": 1,
@@ -54283,82 +54285,6 @@
         "layer": "1",
         "shelter_type": "lean_to",
         "source": "microsoft/BuildingFootprints"
-      }
-    },
-    {
-      "type": "way",
-      "id": 1062855300,
-      "timestamp": "2022-05-23T09:36:22Z",
-      "version": 2,
-      "changeset": 121358366,
-      "user": "GPar",
-      "uid": 2000482,
-      "center": {
-        "lat": 45.1931897,
-        "lon": 7.6424133
-      },
-      "nodes": [],
-      "tags": {
-        "amenity": "shelter",
-        "building": "yes",
-        "layer": "1",
-        "source": "microsoft/BuildingFootprints"
-      }
-    },
-    {
-      "type": "way",
-      "id": 1062855301,
-      "timestamp": "2022-05-23T09:16:03Z",
-      "version": 1,
-      "changeset": 121357416,
-      "user": "GPar",
-      "uid": 2000482,
-      "center": {
-        "lat": 45.1946676,
-        "lon": 7.6435577
-      },
-      "nodes": [],
-      "tags": {
-        "amenity": "shelter",
-        "building": "yes",
-        "shelter_type": "lean_to",
-        "source": "microsoft/BuildingFootprints"
-      }
-    },
-    {
-      "type": "way",
-      "id": 1062855302,
-      "timestamp": "2022-05-23T09:36:22Z",
-      "version": 2,
-      "changeset": 121358366,
-      "user": "GPar",
-      "uid": 2000482,
-      "center": {
-        "lat": 45.1949957,
-        "lon": 7.6425866
-      },
-      "nodes": [],
-      "tags": {
-        "amenity": "shelter",
-        "building": "yes",
-        "source": "microsoft/BuildingFootprints"
-      }
-    },
-    {
-      "type": "way",
-      "id": 1062860399,
-      "timestamp": "2022-05-23T09:36:22Z",
-      "version": 1,
-      "changeset": 121358366,
-      "user": "GPar",
-      "uid": 2000482,
-      "center": {
-        "lat": 45.1944159,
-        "lon": 7.6426635
-      },
-      "nodes": [],
-      "tags": {
-        "amenity": "shelter"
       }
     },
     {
