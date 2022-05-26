@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-05-24T23:59:59Z",
-    "timestamp_osm_base": "2022-05-25T04:09:42Z",
+    "timestamp_osm_date": "2022-05-25T23:59:59Z",
+    "timestamp_osm_base": "2022-05-26T04:19:15Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3384,11 +3384,11 @@
       "id": 442749194,
       "lat": 39.7373229,
       "lon": -104.9979428,
-      "timestamp": "2021-10-05T11:07:38Z",
-      "version": 13,
-      "changeset": 112117424,
-      "user": "CptAmasa",
-      "uid": 13615332,
+      "timestamp": "2022-05-25T21:41:09Z",
+      "version": 14,
+      "changeset": 121493960,
+      "user": "torapa",
+      "uid": 5446055,
       "tags": {
         "addr:city": "Denver",
         "addr:housenumber": "1331",
@@ -3399,7 +3399,7 @@
         "brand:wikidata": "Q6412065",
         "brand:wikipedia": "en:King Soopers",
         "name": "King Soopers",
-        "opening_hours": "Mo-Su 05:00-00:00",
+        "opening_hours": "Mo-Su 05:00-24:00",
         "phone": "3035715566",
         "shop": "supermarket",
         "website": "https://www.kingsoopers.com/stores/details/620/00001"
@@ -16552,24 +16552,6 @@
     },
     {
       "type": "node",
-      "id": 9438353503,
-      "lat": 39.8566197,
-      "lon": -105.164578,
-      "timestamp": "2022-01-27T16:34:45Z",
-      "version": 2,
-      "changeset": 116673915,
-      "user": "Bike 2 End",
-      "uid": 2529030,
-      "tags": {
-        "brand": "7-Eleven",
-        "brand:wikidata": "Q259340",
-        "brand:wikipedia": "en:7-Eleven",
-        "name": "7-Eleven",
-        "shop": "convenience"
-      }
-    },
-    {
-      "type": "node",
       "id": 9438394631,
       "lat": 39.8694077,
       "lon": -105.2164024,
@@ -16825,6 +16807,33 @@
         "phone": "+1-303-456-2413",
         "shop": "convenience",
         "website": "https://locations.valero.com/en-us/LocationDetails/Index/7396-W-92ND-AVE/0000021148",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9770360113,
+      "lat": 39.8560204,
+      "lon": -105.0828796,
+      "timestamp": "2022-05-25T18:01:55Z",
+      "version": 1,
+      "changeset": 121487308,
+      "user": "Luis Garcia-Lopez",
+      "uid": 4764681,
+      "tags": {
+        "addr:city": "Westminster",
+        "addr:housenumber": "7680",
+        "addr:postcode": "80005",
+        "addr:state": "CO",
+        "addr:street": "West 88th Avenue",
+        "air_conditioning": "yes",
+        "brand": "Valero",
+        "brand:wikidata": "Q1283291",
+        "name": "Valero",
+        "phone": "+1-303-423-2870",
+        "shop": "convenience",
+        "stroller": "limited",
+        "website": "https://locations.valero.com/en-us/LocationDetails/Index/7680-W-88TH-AVE/0000020654",
         "wheelchair": "limited"
       }
     },
@@ -35941,6 +35950,41 @@
     },
     {
       "type": "way",
+      "id": 743748900,
+      "timestamp": "2022-05-25T19:21:45Z",
+      "version": 2,
+      "changeset": 121490122,
+      "user": "Luis Garcia-Lopez",
+      "uid": 4764681,
+      "center": {
+        "lat": 39.8565693,
+        "lon": -105.1644718
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Arvada",
+        "addr:housenumber": "8790",
+        "addr:postcode": "80005",
+        "addr:state": "CO",
+        "addr:street": "Indiana Street",
+        "air_conditioning": "yes",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "brand:wikipedia": "en:7-Eleven",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "opening_hours:covid19": "same",
+        "phone": "+1-720-357-1618",
+        "shop": "convenience",
+        "stroller": "limited",
+        "website": "https://www.7-eleven.com/locations/co/arvada/8790-indiana-st-38226",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
       "id": 747183395,
       "timestamp": "2019-11-20T04:55:05Z",
       "version": 1,
@@ -43994,6 +44038,40 @@
     },
     {
       "type": "way",
+      "id": 1012322861,
+      "timestamp": "2022-05-25T18:57:58Z",
+      "version": 2,
+      "changeset": 121489407,
+      "user": "Luis Garcia-Lopez",
+      "uid": 4764681,
+      "center": {
+        "lat": 39.8491993,
+        "lon": -105.1642978
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Arvada",
+        "addr:housenumber": "14725",
+        "addr:postcode": "80005",
+        "addr:state": "CO",
+        "addr:street": "West 84th Place",
+        "air_conditioning": "yes",
+        "brand": "Kum & Go",
+        "brand:wikidata": "Q6443340",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Kum & Go",
+        "opening_hours": "24/7",
+        "opening_hours:covid19": "same",
+        "phone": "+1-719-895-1130",
+        "shop": "convenience",
+        "stroller": "yes",
+        "website": "https://www.kumandgo.com/stores/2306/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
       "id": 1013590096,
       "timestamp": "2021-12-19T22:11:40Z",
       "version": 1,
@@ -45895,6 +45973,73 @@
         "opening_hours": "Mo-Su 08:00-9:05",
         "operator": "Natural Foods Store",
         "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1063693367,
+      "timestamp": "2022-05-25T17:19:36Z",
+      "version": 1,
+      "changeset": 121485875,
+      "user": "Luis Garcia-Lopez",
+      "uid": 4764681,
+      "center": {
+        "lat": 39.8624683,
+        "lon": -105.0636047
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Westminster",
+        "addr:housenumber": "9175",
+        "addr:postcode": "80031",
+        "addr:state": "CO",
+        "addr:street": "Harlan Street",
+        "air_conditioning": "yes",
+        "brand": "Conoco",
+        "brand:wikidata": "Q109341187",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Conoco",
+        "phone": "+1-303-429-8107",
+        "shop": "convenience",
+        "stroller": "limited",
+        "website": "https://www.conoco.com/station/CON-ER-STORE-INC-0000870135",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1063710261,
+      "timestamp": "2022-05-25T18:37:38Z",
+      "version": 1,
+      "changeset": 121488494,
+      "user": "Luis Garcia-Lopez",
+      "uid": 4764681,
+      "center": {
+        "lat": 39.8559466,
+        "lon": -105.1002342
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Westminster",
+        "addr:housenumber": "9180",
+        "addr:postcode": "80005",
+        "addr:state": "CO",
+        "addr:street": "West 88th Avenue",
+        "air_conditioning": "yes",
+        "brand": "Circle K",
+        "brand:wikidata": "Q3268010",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Circle K",
+        "opening_hours": "24/7",
+        "opening_hours:covid19": "same",
+        "operator": "Circle K",
+        "phone": "+1-303-425-5168",
+        "shop": "convenience",
+        "stroller": "limited",
+        "website": "https://www.circlek.com/store-locator/US/westminster/9180-w-88th-ave/2741180",
+        "wheelchair": "limited"
       }
     }
   ]
