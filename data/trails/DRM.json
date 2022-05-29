@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-27T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-28T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -10668,11 +10668,11 @@
     {
       "type": "way",
       "id": 163972888,
-      "timestamp": "2012-08-08T15:00:15Z",
-      "version": 5,
-      "changeset": 12658036,
-      "user": "Odysseus-DPB",
-      "uid": 5167,
+      "timestamp": "2022-05-28T14:58:32Z",
+      "version": 6,
+      "changeset": 121620913,
+      "user": "egmont",
+      "uid": 387761,
       "nodes": [439542165, 439542183],
       "geometry": [
         {"lat": 47.8370515, "lon": 11.5117394},
@@ -10687,16 +10687,22 @@
         {"lat": 47.8362448, "lon": 11.512522},
         {"lat": 47.8360854, "lon": 11.5126291}
       ],
-      "tags": {"highway": "path", "sac_scale": "hiking"}
+      "tags": {
+        "access": "no",
+        "highway": "path",
+        "sac_scale": "hiking",
+        "surface": "ground",
+        "width": "1"
+      }
     },
     {
       "type": "way",
       "id": 163972890,
-      "timestamp": "2021-05-07T14:51:28Z",
-      "version": 9,
-      "changeset": 104325700,
-      "user": "map per",
-      "uid": 11758604,
+      "timestamp": "2022-05-28T15:05:20Z",
+      "version": 10,
+      "changeset": 121621190,
+      "user": "egmont",
+      "uid": 387761,
       "nodes": [1756294319, 1002860947],
       "geometry": [
         {"lat": 47.8348801, "lon": 11.5164931},
@@ -10771,7 +10777,12 @@
         {"lat": 47.815551, "lon": 11.5383183},
         {"lat": 47.8153719, "lon": 11.5385165}
       ],
-      "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade3"}
+      "tags": {
+        "highway": "track",
+        "motor_vehicle": "no",
+        "surface": "gravel",
+        "tracktype": "grade3"
+      }
     },
     {
       "type": "way",
@@ -10804,11 +10815,11 @@
     {
       "type": "way",
       "id": 164381516,
-      "timestamp": "2014-05-02T19:32:42Z",
-      "version": 4,
-      "changeset": 22092372,
-      "user": "heilbron",
-      "uid": 78613,
+      "timestamp": "2022-05-28T11:33:29Z",
+      "version": 6,
+      "changeset": 121612806,
+      "user": "Biclmont",
+      "uid": 6285042,
       "nodes": [299278281, 1719673839],
       "geometry": [
         {"lat": 48.0524505, "lon": 11.52049},
@@ -10822,7 +10833,8 @@
         "maxspeed": "30",
         "maxweight": "2.5",
         "name": "Josef-Breher-Platz",
-        "surface": "paved",
+        "sidewalk": "left",
+        "surface": "asphalt",
         "width": "5"
       }
     },
@@ -12140,11 +12152,11 @@
     {
       "type": "way",
       "id": 171555708,
-      "timestamp": "2012-07-14T19:50:43Z",
-      "version": 1,
-      "changeset": 12221026,
-      "user": "wor123gap",
-      "uid": 648772,
+      "timestamp": "2022-05-28T14:58:32Z",
+      "version": 2,
+      "changeset": 121620913,
+      "user": "egmont",
+      "uid": 387761,
       "nodes": [439542152, 439542160],
       "geometry": [
         {"lat": 47.8368036, "lon": 11.5108713},
@@ -12154,16 +12166,22 @@
         {"lat": 47.8367865, "lon": 11.5114875},
         {"lat": 47.8368139, "lon": 11.5114693}
       ],
-      "tags": {"highway": "path", "sac_scale": "mountain_hiking"}
+      "tags": {
+        "access": "no",
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "surface": "ground",
+        "width": "1"
+      }
     },
     {
       "type": "way",
       "id": 172068551,
-      "timestamp": "2021-03-11T21:58:42Z",
-      "version": 7,
-      "changeset": 100866387,
-      "user": "Felix Jaeger",
-      "uid": 3611558,
+      "timestamp": "2022-05-28T11:53:26Z",
+      "version": 9,
+      "changeset": 121612768,
+      "user": "Biclmont",
+      "uid": 6285042,
       "nodes": [1719673839, 305793390],
       "geometry": [
         {"lat": 48.0519532, "lon": 11.520246},
@@ -12209,9 +12227,10 @@
       "tags": {
         "bicycle": "yes",
         "highway": "footway",
+        "lit": "no",
         "name": "Josef-Breher-Weg",
         "segregated": "no",
-        "surface": "unpaved",
+        "surface": "fine_gravel",
         "width": "3"
       }
     },
@@ -25534,17 +25553,18 @@
     {
       "type": "way",
       "id": 314391667,
-      "timestamp": "2014-11-25T10:34:36Z",
-      "version": 1,
-      "changeset": 27018300,
-      "user": "SchwartzKS",
-      "uid": 1318885,
+      "timestamp": "2022-05-28T14:57:36Z",
+      "version": 2,
+      "changeset": 121620876,
+      "user": "egmont",
+      "uid": 387761,
       "nodes": [404149219, 404149218],
       "geometry": [
         {"lat": 47.8428183, "lon": 11.5126149},
         {"lat": 47.8431146, "lon": 11.5130099}
       ],
       "tags": {
+        "access": "yes",
         "highway": "steps",
         "horse": "no",
         "incline": "down",
@@ -25553,6 +25573,7 @@
         "motorcycle": "no",
         "sac_scale": "demanding_mountain_hiking",
         "surface": "ground",
+        "tactile_paving": "no",
         "width": "1"
       }
     },
@@ -26705,11 +26726,11 @@
     {
       "type": "way",
       "id": 34707803,
-      "timestamp": "2017-03-30T17:54:40Z",
-      "version": 10,
-      "changeset": 47300535,
-      "user": "fliegerwichtl",
-      "uid": 662224,
+      "timestamp": "2022-05-28T14:57:36Z",
+      "version": 11,
+      "changeset": 121620876,
+      "user": "egmont",
+      "uid": 387761,
       "nodes": [404149239, 404149219],
       "geometry": [
         {"lat": 47.8411173, "lon": 11.5094652},
@@ -26725,6 +26746,7 @@
         {"lat": 47.8428183, "lon": 11.5126149}
       ],
       "tags": {
+        "bicycle": "no",
         "highway": "footway",
         "horse": "no",
         "incline": "down",
@@ -30242,11 +30264,11 @@
     {
       "type": "way",
       "id": 37533755,
-      "timestamp": "2012-07-14T19:50:43Z",
-      "version": 2,
-      "changeset": 12221026,
-      "user": "wor123gap",
-      "uid": 648772,
+      "timestamp": "2022-05-28T14:58:32Z",
+      "version": 3,
+      "changeset": 121620913,
+      "user": "egmont",
+      "uid": 387761,
       "nodes": [439542130, 1825674982],
       "geometry": [
         {"lat": 47.838093, "lon": 11.5087165},
@@ -30256,7 +30278,13 @@
         {"lat": 47.8373548, "lon": 11.5094003},
         {"lat": 47.8371722, "lon": 11.5097784}
       ],
-      "tags": {"highway": "path", "sac_scale": "mountain_hiking"}
+      "tags": {
+        "access": "no",
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "surface": "ground",
+        "width": "1"
+      }
     },
     {
       "type": "way",
@@ -30281,18 +30309,24 @@
     {
       "type": "way",
       "id": 37533757,
-      "timestamp": "2012-08-08T15:00:17Z",
-      "version": 7,
-      "changeset": 12658036,
-      "user": "Odysseus-DPB",
-      "uid": 5167,
+      "timestamp": "2022-05-28T14:58:32Z",
+      "version": 8,
+      "changeset": 121620913,
+      "user": "egmont",
+      "uid": 387761,
       "nodes": [439542162, 439542165],
       "geometry": [
         {"lat": 47.8368451, "lon": 11.5115019},
         {"lat": 47.8369389, "lon": 11.5115764},
         {"lat": 47.8370515, "lon": 11.5117394}
       ],
-      "tags": {"highway": "path", "sac_scale": "hiking"}
+      "tags": {
+        "access": "no",
+        "highway": "path",
+        "sac_scale": "hiking",
+        "surface": "ground",
+        "width": "1"
+      }
     },
     {
       "type": "way",
@@ -33534,11 +33568,11 @@
     {
       "type": "way",
       "id": 40323170,
-      "timestamp": "2020-01-13T19:44:51Z",
-      "version": 10,
-      "changeset": 79531144,
-      "user": "fir99",
-      "uid": 8709168,
+      "timestamp": "2022-05-28T15:00:09Z",
+      "version": 11,
+      "changeset": 121620999,
+      "user": "egmont",
+      "uid": 387761,
       "nodes": [439542183, 1800908798],
       "geometry": [
         {"lat": 47.8360854, "lon": 11.5126291},
@@ -33550,7 +33584,16 @@
         {"lat": 47.8347104, "lon": 11.514911},
         {"lat": 47.8344913, "lon": 11.5157904}
       ],
-      "tags": {"highway": "path", "tracktype": "grade2"}
+      "tags": {
+        "access": "no",
+        "foot": "yes",
+        "highway": "path",
+        "motor_vehicle": "no",
+        "sac_scale": "hiking",
+        "surface": "ground",
+        "tracktype": "grade2",
+        "width": "1"
+      }
     },
     {
       "type": "way",

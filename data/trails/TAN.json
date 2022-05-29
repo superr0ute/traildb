@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-27T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-28T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2731,11 +2731,11 @@
     {
       "type": "relation",
       "id": 9607154,
-      "timestamp": "2022-04-05T23:05:12Z",
-      "version": 29,
-      "changeset": 119362482,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-05-28T11:18:05Z",
+      "version": 30,
+      "changeset": 121612239,
+      "user": "LACDH",
+      "uid": 4994674,
       "members": [
         {"type": "way", "ref": 61384361, "role": ""},
         {"type": "way", "ref": 731599968, "role": ""},
@@ -2793,7 +2793,11 @@
         {"type": "way", "ref": 61459997, "role": ""},
         {"type": "way", "ref": 661722179, "role": ""},
         {"type": "way", "ref": 691971922, "role": ""},
+        {"type": "way", "ref": 1064527992, "role": ""},
         {"type": "way", "ref": 818678228, "role": ""},
+        {"type": "way", "ref": 1064527988, "role": ""},
+        {"type": "way", "ref": 1064527991, "role": ""},
+        {"type": "way", "ref": 1064527987, "role": ""},
         {"type": "way", "ref": 818678229, "role": ""},
         {"type": "way", "ref": 822304569, "role": ""},
         {"type": "way", "ref": 834611474, "role": ""},
@@ -2806,7 +2810,6 @@
         {"type": "way", "ref": 180856572, "role": ""},
         {"type": "way", "ref": 180856571, "role": ""},
         {"type": "way", "ref": 334663230, "role": ""},
-        {"type": "way", "ref": 618345321, "role": ""},
         {"type": "way", "ref": 618345322, "role": ""},
         {"type": "way", "ref": 618345323, "role": ""},
         {"type": "way", "ref": 618345325, "role": ""},
@@ -7750,6 +7753,110 @@
         "layer": "1",
         "name": "Waiotoi Road",
         "oneway": "alternating"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1064527987,
+      "timestamp": "2022-05-28T11:18:05Z",
+      "version": 1,
+      "changeset": 121612239,
+      "user": "LACDH",
+      "uid": 4994674,
+      "nodes": [824260581, 559463910],
+      "geometry": [
+        {"lat": -37.0622603, "lon": 174.947861},
+        {"lat": -37.0622493, "lon": 174.9478809},
+        {"lat": -37.0622417, "lon": 174.9479031}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "maxspeed": "50",
+        "name": "Clevedon / Marne Road roundabout",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1064527988,
+      "timestamp": "2022-05-28T11:18:05Z",
+      "version": 1,
+      "changeset": 121612239,
+      "user": "LACDH",
+      "uid": 4994674,
+      "nodes": [7645425094, 7645425099],
+      "geometry": [
+        {"lat": -37.062304, "lon": 174.9480569},
+        {"lat": -37.0623373, "lon": 174.9480631},
+        {"lat": -37.0623702, "lon": 174.9480548},
+        {"lat": -37.0623989, "lon": 174.9480331}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "maxspeed": "50",
+        "name": "Clevedon / Marne Road roundabout",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1064527991,
+      "timestamp": "2022-05-28T11:18:05Z",
+      "version": 1,
+      "changeset": 121612239,
+      "user": "LACDH",
+      "uid": 4994674,
+      "nodes": [559463910, 7645425094],
+      "geometry": [
+        {"lat": -37.0622417, "lon": 174.9479031},
+        {"lat": -37.062237, "lon": 174.9479407},
+        {"lat": -37.0622418, "lon": 174.9479784},
+        {"lat": -37.0622555, "lon": 174.9480124},
+        {"lat": -37.062277, "lon": 174.9480394},
+        {"lat": -37.062304, "lon": 174.9480569}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "maxspeed": "50",
+        "name": "Clevedon / Marne Road roundabout",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1064527992,
+      "timestamp": "2022-05-28T11:18:05Z",
+      "version": 1,
+      "changeset": 121612239,
+      "user": "LACDH",
+      "uid": 4994674,
+      "nodes": [559463896, 824260581],
+      "geometry": [
+        {"lat": -37.0624191, "lon": 174.9478782},
+        {"lat": -37.0623994, "lon": 174.9478484},
+        {"lat": -37.0623732, "lon": 174.9478277},
+        {"lat": -37.0623432, "lon": 174.9478184},
+        {"lat": -37.0623124, "lon": 174.9478212},
+        {"lat": -37.0622838, "lon": 174.9478359},
+        {"lat": -37.0622603, "lon": 174.947861}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "junction": "roundabout",
+        "lanes": "1",
+        "maxspeed": "50",
+        "name": "Clevedon / Marne Road roundabout",
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -46053,11 +46160,11 @@
     {
       "type": "way",
       "id": 334663230,
-      "timestamp": "2020-07-31T10:29:34Z",
-      "version": 4,
-      "changeset": 88776588,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2022-05-28T11:18:05Z",
+      "version": 5,
+      "changeset": 121612239,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [5844658083, 1913122880],
       "geometry": [
         {"lat": -37.0695668, "lon": 174.9467596},
@@ -46071,7 +46178,7 @@
         "maxspeed": "50",
         "name": "Settlement Road",
         "source:maxspeed": "https://data-atgis.opendata.arcgis.com/datasets/d43c489e7027489b88bcdedffc3be6c6_3/data",
-        "surface": "paved"
+        "surface": "asphalt"
       }
     },
     {
@@ -72663,15 +72770,15 @@
     },
     {
       "type": "way",
-      "id": 618345321,
-      "timestamp": "2020-07-31T10:29:34Z",
-      "version": 3,
-      "changeset": 88776588,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
-      "nodes": [5844658084, 5844658083],
+      "id": 618345322,
+      "timestamp": "2022-05-28T11:18:05Z",
+      "version": 5,
+      "changeset": 121612239,
+      "user": "LACDH",
+      "uid": 4994674,
+      "nodes": [1843716492, 5844658083],
       "geometry": [
-        {"lat": -37.0696658, "lon": 174.9465367},
+        {"lat": -37.0697458, "lon": 174.946369},
         {"lat": -37.0695668, "lon": 174.9467596}
       ],
       "tags": {
@@ -72682,33 +72789,7 @@
         "maxspeed": "50",
         "name": "Settlement Road",
         "source:maxspeed": "https://data-atgis.opendata.arcgis.com/datasets/d43c489e7027489b88bcdedffc3be6c6_3/data",
-        "surface": "paved",
-        "turn:lanes:backward": "none|right",
-        "turn:lanes:forward": "none"
-      }
-    },
-    {
-      "type": "way",
-      "id": 618345322,
-      "timestamp": "2020-07-31T10:29:34Z",
-      "version": 4,
-      "changeset": 88776588,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
-      "nodes": [1843716492, 5844658084],
-      "geometry": [
-        {"lat": -37.0697458, "lon": 174.946369},
-        {"lat": -37.0696658, "lon": 174.9465367}
-      ],
-      "tags": {
-        "highway": "secondary",
-        "lanes": "3",
-        "lanes:backward": "2",
-        "lanes:forward": "1",
-        "maxspeed": "50",
-        "name": "Settlement Road",
-        "source:maxspeed": "https://data-atgis.opendata.arcgis.com/datasets/d43c489e7027489b88bcdedffc3be6c6_3/data",
-        "surface": "paved",
+        "surface": "asphalt",
         "turn:lanes:backward": "left;through|right",
         "turn:lanes:forward": "none"
       }
@@ -76883,11 +76964,11 @@
     {
       "type": "way",
       "id": 661722179,
-      "timestamp": "2021-03-24T05:45:20Z",
-      "version": 4,
-      "changeset": 101614737,
-      "user": "ChookMan",
-      "uid": 11144302,
+      "timestamp": "2022-05-28T11:18:05Z",
+      "version": 5,
+      "changeset": 121612239,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [6195066514, 6195066518],
       "geometry": [
         {"lat": -37.0618698, "lon": 174.9470623},
@@ -76901,12 +76982,13 @@
       ],
       "tags": {
         "highway": "tertiary",
+        "lanes": "1",
         "maxspeed": "50",
         "name": "Prictor Street",
         "oneway": "yes",
         "source:geometry": "Linz Aerial Imagery",
         "source:maxspeed": "https://data-atgis.opendata.arcgis.com/datasets/d43c489e7027489b88bcdedffc3be6c6_3/data",
-        "surface": "paved"
+        "surface": "asphalt"
       }
     },
     {
@@ -83925,11 +84007,11 @@
     {
       "type": "way",
       "id": 691971922,
-      "timestamp": "2020-07-31T10:29:34Z",
-      "version": 3,
-      "changeset": 88776588,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2022-05-28T11:18:05Z",
+      "version": 4,
+      "changeset": 121612239,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [6195066518, 824260581],
       "geometry": [
         {"lat": -37.0623426, "lon": 174.9474688},
@@ -83944,7 +84026,7 @@
         "lanes": "1",
         "name": "Clevedon Road",
         "oneway": "yes",
-        "surface": "paved"
+        "surface": "asphalt"
       }
     },
     {
@@ -86671,9 +86753,9 @@
     {
       "type": "way",
       "id": 734151897,
-      "timestamp": "2022-05-20T01:23:48Z",
-      "version": 7,
-      "changeset": 121219079,
+      "timestamp": "2022-05-28T07:25:07Z",
+      "version": 8,
+      "changeset": 121604289,
       "user": "LACDH",
       "uid": 4994674,
       "nodes": [982175819, 6875242072],
@@ -86694,7 +86776,12 @@
         {"lat": -36.5861081, "lon": 174.6966521},
         {"lat": -36.5862044, "lon": 174.6962725}
       ],
-      "tags": {"highway": "footway", "lit": "yes", "name": "Millennium Walk"}
+      "tags": {
+        "highway": "footway",
+        "lit": "yes",
+        "name": "Millennium Walk",
+        "surface": "concrete"
+      }
     },
     {
       "type": "way",
@@ -92420,40 +92507,26 @@
     {
       "type": "way",
       "id": 818678228,
-      "timestamp": "2021-03-24T05:45:20Z",
-      "version": 4,
-      "changeset": 101614737,
-      "user": "ChookMan",
-      "uid": 11144302,
-      "nodes": [7645425093, 7645425093],
+      "timestamp": "2022-05-28T11:18:05Z",
+      "version": 5,
+      "changeset": 121612239,
+      "user": "LACDH",
+      "uid": 4994674,
+      "nodes": [7645425099, 559463896],
       "geometry": [
-        {"lat": -37.0622493, "lon": 174.9478809},
-        {"lat": -37.0622417, "lon": 174.9479031},
-        {"lat": -37.062237, "lon": 174.9479407},
-        {"lat": -37.0622418, "lon": 174.9479784},
-        {"lat": -37.0622555, "lon": 174.9480124},
-        {"lat": -37.062277, "lon": 174.9480394},
-        {"lat": -37.062304, "lon": 174.9480569},
-        {"lat": -37.0623373, "lon": 174.9480631},
-        {"lat": -37.0623702, "lon": 174.9480548},
         {"lat": -37.0623989, "lon": 174.9480331},
         {"lat": -37.0624203, "lon": 174.9480002},
         {"lat": -37.0624314, "lon": 174.9479602},
         {"lat": -37.062431, "lon": 174.9479178},
-        {"lat": -37.0624191, "lon": 174.9478782},
-        {"lat": -37.0623994, "lon": 174.9478484},
-        {"lat": -37.0623732, "lon": 174.9478277},
-        {"lat": -37.0623432, "lon": 174.9478184},
-        {"lat": -37.0623124, "lon": 174.9478212},
-        {"lat": -37.0622838, "lon": 174.9478359},
-        {"lat": -37.0622603, "lon": 174.947861},
-        {"lat": -37.0622493, "lon": 174.9478809}
+        {"lat": -37.0624191, "lon": 174.9478782}
       ],
       "tags": {
         "highway": "secondary",
         "junction": "roundabout",
         "lanes": "1",
+        "maxspeed": "50",
         "name": "Clevedon / Marne Road roundabout",
+        "oneway": "yes",
         "surface": "asphalt"
       }
     },
