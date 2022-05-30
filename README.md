@@ -1,4 +1,4 @@
-### traildb version 2022-05-28
+### traildb version 2022-05-29
 - 108 trails (41 unroutable, 35 routable, 31 broken, 1 complete)
 - 690MiB data (190MiB trails, 334MiB elevation, 130MiB poi, 36MiB dist)
 - trail status: ❌ unroutable ✔️ routable ❌❌ broken ✔️✔️ complete
@@ -8,11 +8,11 @@
 |❌❌|[AAT](https://superroute.org/AAT)|Alpe Adria Trail [osm](https://osm.org/relation/3176522) [wiki](https://wikidata.org/wiki/Q15782535)||2022-02-21|42|
 |✔️|[ACT](https://superroute.org/ACT)|Arctic Circle Trail [osm](https://osm.org/relation/8350961) [wiki](https://wikidata.org/wiki/Q638049)|![#FF73D7](https://via.placeholder.com/14/FF73D7/000000?text=+) #FF73D7|2021-06-08|28|
 |❌❌|[ADR](https://superroute.org/ADR)|Via Adriatica [osm](https://osm.org/relation/12205135) [wiki](https://wikidata.org/wiki/Q106421315)|![#00CAC7](https://via.placeholder.com/14/00CAC7/000000?text=+) #00CAC7|2021-07-12|717|
-|❌|[ALPB](https://superroute.org/ALPB)|Via Alpina Blue [osm](https://osm.org/relation/2389235) [wiki](https://wikidata.org/wiki/Q106564042)||2022-05-26||
+|❌|[ALPB](https://superroute.org/ALPB)|Via Alpina Blue [osm](https://osm.org/relation/2389235) [wiki](https://wikidata.org/wiki/Q106564042)||today||
 |❌❌|[ALPG](https://superroute.org/ALPG)|Via Alpina Green [osm](https://osm.org/relation/12579662) [wiki](https://wikidata.org/wiki/Q106564102)|![#70DD62](https://via.placeholder.com/14/70DD62/000000?text=+) #70DD62|2021-07-26|1297|
 |❌|[ALPP](https://superroute.org/ALPP)|Via Alpina Purple [osm](https://osm.org/relation/271352) [wiki](https://wikidata.org/wiki/Q106564113)||today||
 |❌|[ALPR](https://superroute.org/ALPR)|Via Alpina Red [osm](https://osm.org/relation/1665395) [wiki](https://wikidata.org/wiki/Q106171807)||today||
-|❌|[ALPY](https://superroute.org/ALPY)|Via Alpina Yellow [osm](https://osm.org/relation/2122176) [wiki](https://wikidata.org/wiki/Q106564125)||today||
+|❌|[ALPY](https://superroute.org/ALPY)|Via Alpina Yellow [osm](https://osm.org/relation/2122176) [wiki](https://wikidata.org/wiki/Q106564125)||2022-05-28||
 |❌|[ANA](https://superroute.org/ANA)|Annapurna Circuit [osm](https://osm.org/relation/1187310) [wiki](https://wikidata.org/wiki/Q381683)||2022-05-22||
 |❌❌|[AND](https://superroute.org/AND)|GRP Andorra [osm](https://osm.org/relation/5511920) [wiki](https://wikidata.org/wiki/Q105993387)|![#FFA500](https://via.placeholder.com/14/FFA500/000000?text=+) #FFA500|2021-04-25|278|
 |✔️|[AOS1](https://superroute.org/AOS1)|Alta Via della Valle d'Aosta n. 1 [osm](https://osm.org/relation/1706143) [wiki](https://wikidata.org/wiki/Q3128549)|![#7B7DE2](https://via.placeholder.com/14/7B7DE2/000000?text=+) #7B7DE2|2022-05-22|687|
@@ -28,8 +28,8 @@
 |✔️|[CPT](https://superroute.org/CPT)|Ciudad Perdida Trail [osm](https://osm.org/relation/1562608) [wiki](https://wikidata.org/wiki/Q106357278)|![#FCD116](https://via.placeholder.com/14/FCD116/000000?text=+) #FCD116|2021-04-25|28|
 |❌❌|[CT](https://superroute.org/CT)|Colorado Trail [osm](https://osm.org/relation/3445384) [wiki](https://wikidata.org/wiki/Q5148975)|![#E309DF](https://via.placeholder.com/14/E309DF/000000?text=+) #E309DF|2021-09-19|231|
 |❌|[DING](https://superroute.org/DING)|Via Dinarica Green [osm](https://osm.org/relation/8817040) [wiki](https://wikidata.org/wiki/Q106565041)||2022-04-07||
-|❌|[DINW](https://superroute.org/DINW)|Via Dinarica White [osm](https://osm.org/relation/7388026) [wiki](https://wikidata.org/wiki/Q106564826)||today||
-|❌|[DRM](https://superroute.org/DRM)|Dream Path Munich-Venice [osm](https://osm.org/relation/1736379) [wiki](https://wikidata.org/wiki/Q2450378)||today||
+|❌|[DINW](https://superroute.org/DINW)|Via Dinarica White [osm](https://osm.org/relation/7388026) [wiki](https://wikidata.org/wiki/Q106564826)||2022-05-28||
+|❌|[DRM](https://superroute.org/DRM)|Dream Path Munich-Venice [osm](https://osm.org/relation/1736379) [wiki](https://wikidata.org/wiki/Q2450378)||2022-05-28||
 |❌|[DT](https://superroute.org/DT)|Dhaulagiri Trek [osm](https://osm.org/relation/11096629) [wiki](https://wikidata.org/wiki/Q106773635)||2022-04-22||
 |❌|[DW](https://superroute.org/DW)|Dingle Way [osm](https://osm.org/relation/21664) [wiki](https://wikidata.org/wiki/Q5278223)||2022-05-25||
 |❌|[E4CR](https://superroute.org/E4CR)|E4 Crete [osm](https://osm.org/relation/1920350) [wiki](https://wikidata.org/wiki/Q106595475)||2022-05-22||
@@ -80,10 +80,10 @@
 |❌|[MST](https://superroute.org/MST)|Mountains-to-Sea Trail [osm](https://osm.org/relation/1395404) [wiki](https://wikidata.org/wiki/Q6925667)||2022-05-23||
 |✔️✔️|[MVT](https://superroute.org/MVT)|Malolotja Valley Traverse [osm](https://osm.org/relation/12209914) [wiki](https://wikidata.org/wiki/Q106100344)|![#3C5EBA](https://via.placeholder.com/14/3C5EBA/000000?text=+) #3C5EBA|2021-06-27|7|
 |❌❌|[MWT](https://superroute.org/MWT)|Mountain Wreath Trail [osm](https://osm.org/relation/6172937) [wiki](https://wikidata.org/wiki/Q106563698)|![#C9009E](https://via.placeholder.com/14/C9009E/000000?text=+) #C9009E|2021-08-02|1197|
-|❌|[NPT](https://superroute.org/NPT)|Naar-Phu Trek [osm](https://osm.org/relation/1634863) [wiki](https://wikidata.org/wiki/Q106773689)||2022-05-26||
+|❌|[NPT](https://superroute.org/NPT)|Naar-Phu Trek [osm](https://osm.org/relation/1634863) [wiki](https://wikidata.org/wiki/Q106773689)||today||
 |✔️|[NRT](https://superroute.org/NRT)|Northville Placid Trail [osm](https://osm.org/relation/4286650) [wiki](https://wikidata.org/wiki/Q7059877)||2022-02-05|173|
 |❌❌|[PCT](https://superroute.org/PCT)|Pacific Crest Trail [osm](https://osm.org/relation/1225378) [wiki](https://wikidata.org/wiki/Q2003736)|![#B22234](https://via.placeholder.com/14/B22234/000000?text=+) #B22234|2021-10-11|1445|
-|❌|[PNW](https://superroute.org/PNW)|Pacific Northwest Trail [osm](https://osm.org/relation/11225405) [wiki](https://wikidata.org/wiki/Q3360192)||2022-05-19||
+|❌|[PNW](https://superroute.org/PNW)|Pacific Northwest Trail [osm](https://osm.org/relation/11225405) [wiki](https://wikidata.org/wiki/Q3360192)||today||
 |❌❌|[POB](https://superroute.org/POB)|Peaks of the Balkans [osm](https://osm.org/relation/4726204) [wiki](https://wikidata.org/wiki/Q19298341)|![#00C72B](https://via.placeholder.com/14/00C72B/000000?text=+) #00C72B|2022-02-10|472|
 |✔️|[PZC](https://superroute.org/PZC)|Premužić trail [osm](https://osm.org/relation/3059569) [wiki](https://wikidata.org/wiki/Q2108725)|![#C90000](https://via.placeholder.com/14/C90000/000000?text=+) #C90000|2021-12-05|74|
 |❌|[RYF](https://superroute.org/RYF)|Ryfylkestien Trail [osm](https://osm.org/relation/7078769) [wiki](https://wikidata.org/wiki/Q106595320)||2022-05-22||
@@ -98,9 +98,9 @@
 |❌|[TAN](https://superroute.org/TAN)|Te Araroa North [osm](https://osm.org/relation/8518624) [wiki](https://wikidata.org/wiki/Q106564271)||today||
 |❌❌|[TAS](https://superroute.org/TAS)|Te Araroa South [osm](https://osm.org/relation/8518626) [wiki](https://wikidata.org/wiki/Q106541620)|![#4177FF](https://via.placeholder.com/14/4177FF/000000?text=+) #4177FF|2021-08-21|405|
 |✔️|[TCRT](https://superroute.org/TCRT)|Тranscarpathian Trail [osm](https://osm.org/relation/2970399) [wiki](https://wikidata.org/wiki/Q30915066)|![#FFD500](https://via.placeholder.com/14/FFD500/000000?text=+) #FFD500|2022-05-13|1460|
-|❌|[TCT](https://superroute.org/TCT)|Transcaucasian Trail [osm](https://osm.org/relation/8928052) [wiki](https://wikidata.org/wiki/Q55636112)||2022-05-25||
+|❌|[TCT](https://superroute.org/TCT)|Transcaucasian Trail [osm](https://osm.org/relation/8928052) [wiki](https://wikidata.org/wiki/Q55636112)||today||
 |✔️|[TMB](https://superroute.org/TMB)|Tour du Mont Blanc [osm](https://osm.org/relation/124456) [wiki](https://wikidata.org/wiki/Q24777)|![#05F6FA](https://via.placeholder.com/14/05F6FA/000000?text=+) #05F6FA|2022-05-21|482|
-|❌|[TMR](https://superroute.org/TMR)|Tour de Monte Rosa [osm](https://osm.org/relation/10353523) [wiki](https://wikidata.org/wiki/Q3533768)||2022-04-26||
+|❌|[TMR](https://superroute.org/TMR)|Tour de Monte Rosa [osm](https://osm.org/relation/10353523) [wiki](https://wikidata.org/wiki/Q3533768)||today||
 |✔️|[TPO](https://superroute.org/TPO)|Torres del Paine O Circuit [osm](https://osm.org/relation/7705906) [wiki](https://wikidata.org/wiki/Q106577166)||2022-02-08|13|
 |❌|[TPW](https://superroute.org/TPW)|Torres del Paine W Circuit [osm](https://osm.org/relation/2203617) [wiki](https://wikidata.org/wiki/Q106577165)||2021-10-19||
 |✔️|[TRT](https://superroute.org/TRT)|Tahoe Rim Trail [osm](https://osm.org/relation/3094865) [wiki](https://wikidata.org/wiki/Q925069)|![#69FFF5](https://via.placeholder.com/14/69FFF5/000000?text=+) #69FFF5|2022-05-08|115|
@@ -109,7 +109,7 @@
 |❌|[UD](https://superroute.org/UD)|Upper Dolpo Circuit [osm](https://osm.org/relation/11104197) [wiki](https://wikidata.org/wiki/Q106773619)||2022-04-10||
 |✔️|[VAC](https://superroute.org/VAC)|Vuelta al Cocuy [osm](https://osm.org/relation/1297764) [wiki](https://wikidata.org/wiki/Q106577178)|![#CE1126](https://via.placeholder.com/14/CE1126/000000?text=+) #CE1126|2021-09-03|31|
 |✔️|[VAH](https://superroute.org/VAH)|Vuelta al Hielo [osm](https://osm.org/relation/2294544) [wiki](https://wikidata.org/wiki/Q106577168)|![#872399](https://via.placeholder.com/14/872399/000000?text=+) #872399|2022-01-27|56|
-|❌|[VIT](https://superroute.org/VIT)|Vancouver Island Trail [osm](https://osm.org/relation/12038457) [wiki](https://wikidata.org/wiki/Q7914213)||2022-05-27||
+|❌|[VIT](https://superroute.org/VIT)|Vancouver Island Trail [osm](https://osm.org/relation/12038457) [wiki](https://wikidata.org/wiki/Q7914213)||today||
 |✔️|[WCT](https://superroute.org/WCT)|West Coast Trail [osm](https://osm.org/relation/6955341) [wiki](https://wikidata.org/wiki/Q3434548)|![#7499C7](https://via.placeholder.com/14/7499C7/000000?text=+) #7499C7|2021-11-13|20|
 |❌|[WES](https://superroute.org/WES)|Westweg [osm](https://osm.org/relation/62900) [wiki](https://wikidata.org/wiki/Q2565728)||today||
 |✔️|[WON](https://superroute.org/WON)|Wonderland Trail [osm](https://osm.org/relation/4111743) [wiki](https://wikidata.org/wiki/Q3498361)|![#7968FF](https://via.placeholder.com/14/7968FF/000000?text=+) #7968FF|2022-05-20|85|
