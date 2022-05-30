@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-05-28T23:59:59Z",
-    "timestamp_osm_base": "2022-05-29T06:19:26Z",
+    "timestamp_osm_date": "2022-05-29T23:59:59Z",
+    "timestamp_osm_base": "2022-05-30T06:32:04Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -62,13 +62,13 @@
     {
       "type": "node",
       "id": 26035855,
-      "lat": 48.6499018,
-      "lon": 19.1563125,
-      "timestamp": "2018-07-01T19:55:55Z",
-      "version": 9,
-      "changeset": 60329178,
-      "user": "JM82",
-      "uid": 2641694,
+      "lat": 48.6528649,
+      "lon": 19.1565244,
+      "timestamp": "2022-05-29T08:52:22Z",
+      "version": 10,
+      "changeset": 121645494,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
         "city_id": "580236",
         "ele": "285",
@@ -76,11 +76,15 @@
         "loc_name": "Garansek",
         "name": "Hronsek",
         "name:hu": "Garamszeg",
+        "name:sk": "Hronsek",
         "place": "village",
         "population": "631",
         "postal_code": "976 31",
         "region_id": "601",
-        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk"
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.hronsek.sk/",
+        "wikidata": "Q922622",
+        "wikipedia": "sk:Hronsek"
       }
     },
     {
@@ -19389,12 +19393,14 @@
       "id": 8226789928,
       "lat": 48.6529476,
       "lon": 19.1561182,
-      "timestamp": "2020-12-14T07:21:27Z",
-      "version": 1,
-      "changeset": 95789453,
-      "user": "synalik",
-      "uid": 463033,
+      "timestamp": "2022-05-29T08:52:22Z",
+      "version": 2,
+      "changeset": 121645494,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
+        "brand": "COOP Jednota",
+        "brand:wikidata": "Q41629254",
         "name": "COOP Jednota",
         "shop": "convenience",
         "source": "survey"
@@ -26552,14 +26558,14 @@
     {
       "type": "way",
       "id": 62054319,
-      "timestamp": "2022-02-25T08:58:32Z",
-      "version": 5,
-      "changeset": 117840525,
-      "user": "laznik",
-      "uid": 2175,
+      "timestamp": "2022-05-29T18:46:27Z",
+      "version": 6,
+      "changeset": 121674039,
+      "user": "mapperue",
+      "uid": 4887311,
       "center": {
-        "lat": 48.844128,
-        "lon": 19.2029761
+        "lat": 48.8441159,
+        "lon": 19.2029901
       },
       "nodes": [],
       "tags": {
@@ -26568,11 +26574,17 @@
         "addr:country": "SK",
         "addr:housenumber": "109",
         "addr:place": "Baláže",
+        "addr:postcode": "97611",
         "amenity": "shelter",
         "building": "yes",
+        "contact:facebook": "https://www.facebook.com/UtulnaNaKrame",
+        "contact:instagram": "https://www.instagram.com/utulnanakrame/",
+        "email": "utuln@nakra.me",
         "name": "Na Kráme",
+        "outdoor_seating": "yes",
         "shelter_type": "basic_hut",
-        "source:conscriptionnumber": "kapor2"
+        "source:conscriptionnumber": "kapor2",
+        "website": "http://www.nakra.me/"
       }
     },
     {
@@ -28385,6 +28397,26 @@
         "amenity": "shelter",
         "building": "cabin",
         "shelter_type": "weather_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1064799793,
+      "timestamp": "2022-05-29T08:52:22Z",
+      "version": 1,
+      "changeset": 121645494,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 48.6530243,
+        "lon": 19.1564057
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "shelter_type": "public_transport"
       }
     }
   ]
