@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-28T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-29T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1083,11 +1083,11 @@
     {
       "type": "relation",
       "id": 62897,
-      "timestamp": "2022-04-17T20:16:50Z",
-      "version": 215,
-      "changeset": 119830460,
-      "user": "Karthoo",
-      "uid": 3232636,
+      "timestamp": "2022-05-29T10:54:38Z",
+      "version": 217,
+      "changeset": 121650496,
+      "user": "Ze0zohk1",
+      "uid": 4565074,
       "members": [
         {"type": "node", "ref": 1955826026, "role": "guidepost"},
         {"type": "node", "ref": 1955825919, "role": "guidepost"},
@@ -1224,8 +1224,10 @@
         {"type": "way", "ref": 837666872, "role": ""},
         {"type": "way", "ref": 837666871, "role": ""},
         {"type": "way", "ref": 884416600, "role": ""},
+        {"type": "way", "ref": 1064816635, "role": ""},
         {"type": "way", "ref": 56692636, "role": ""},
         {"type": "way", "ref": 441964133, "role": ""},
+        {"type": "way", "ref": 1064790987, "role": ""},
         {"type": "way", "ref": 507218166, "role": ""},
         {"type": "way", "ref": 56694385, "role": ""},
         {"type": "way", "ref": 56360005, "role": ""},
@@ -3454,6 +3456,56 @@
       "tags": {
         "highway": "path",
         "mtb:scale": "0+",
+        "sac_scale": "hiking",
+        "surface": "ground"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1064790987,
+      "timestamp": "2022-05-29T07:39:18Z",
+      "version": 1,
+      "changeset": 121641219,
+      "user": "Ze0zohk1",
+      "uid": 4565074,
+      "nodes": [288205393, 3485082082],
+      "geometry": [
+        {"lat": 47.8876527, "lon": 8.0854247},
+        {"lat": 47.8875433, "lon": 8.0849865},
+        {"lat": 47.8875433, "lon": 8.0848026},
+        {"lat": 47.8875751, "lon": 8.0846205},
+        {"lat": 47.8875586, "lon": 8.0842051}
+      ],
+      "tags": {
+        "highway": "track",
+        "mtb:scale": "0",
+        "sac_scale": "hiking",
+        "surface": "gravel",
+        "tracktype": "grade3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1064816635,
+      "timestamp": "2022-05-29T10:54:39Z",
+      "version": 2,
+      "changeset": 121650496,
+      "user": "Ze0zohk1",
+      "uid": 4565074,
+      "nodes": [2489965711, 3485082079],
+      "geometry": [
+        {"lat": 47.8921421, "lon": 8.0911278},
+        {"lat": 47.8918534, "lon": 8.0912643},
+        {"lat": 47.8916919, "lon": 8.091215},
+        {"lat": 47.891449, "lon": 8.0911088},
+        {"lat": 47.8912659, "lon": 8.0909893},
+        {"lat": 47.8910369, "lon": 8.0906972},
+        {"lat": 47.8908335, "lon": 8.0905284},
+        {"lat": 47.8907327, "lon": 8.0905014}
+      ],
+      "tags": {
+        "highway": "path",
+        "mtb:scale": "0",
         "sac_scale": "hiking",
         "surface": "ground"
       }
@@ -6530,11 +6582,11 @@
     {
       "type": "way",
       "id": 131189888,
-      "timestamp": "2022-05-15T18:38:18Z",
-      "version": 7,
-      "changeset": 121022190,
-      "user": "mboesch",
-      "uid": 148698,
+      "timestamp": "2022-05-29T10:54:43Z",
+      "version": 8,
+      "changeset": 121650504,
+      "user": "Ze0zohk1",
+      "uid": 4565074,
       "nodes": [709036256, 288205243],
       "geometry": [
         {"lat": 47.8951003, "lon": 8.0952052},
@@ -6550,6 +6602,7 @@
         "foot": "yes",
         "highway": "track",
         "mtb:scale": "0",
+        "surface": "fine_gravel",
         "tracktype": "grade3"
       }
     },
@@ -10503,11 +10556,11 @@
     {
       "type": "way",
       "id": 180674231,
-      "timestamp": "2015-02-12T11:26:34Z",
-      "version": 4,
-      "changeset": 28792838,
-      "user": "celsius11",
-      "uid": 116463,
+      "timestamp": "2022-05-29T06:32:25Z",
+      "version": 5,
+      "changeset": 121641219,
+      "user": "Ze0zohk1",
+      "uid": 4565074,
       "nodes": [1911208784, 288205548],
       "geometry": [
         {"lat": 47.8872665, "lon": 8.0500332},
@@ -10515,6 +10568,7 @@
       ],
       "tags": {
         "bridge": "yes",
+        "check_date:tracktype": "2022-05-29",
         "highway": "track",
         "layer": "1",
         "name": "Rufensteg",
@@ -11190,11 +11244,11 @@
     {
       "type": "way",
       "id": 185173350,
-      "timestamp": "2015-04-28T20:00:16Z",
-      "version": 2,
-      "changeset": 30594912,
-      "user": "fanzinies",
-      "uid": 1212632,
+      "timestamp": "2022-05-29T07:25:51Z",
+      "version": 4,
+      "changeset": 121640670,
+      "user": "Ze0zohk1",
+      "uid": 4565074,
       "nodes": [644711286, 30890649],
       "geometry": [
         {"lat": 47.8882528, "lon": 8.0709788},
@@ -11203,11 +11257,13 @@
         {"lat": 47.88819, "lon": 8.0701181}
       ],
       "tags": {
+        "check_date:tracktype": "2022-05-29",
         "fixme": "Check way name",
         "highway": "track",
         "motorcar": "forestry",
         "motorcycle": "forestry",
         "name": "Ospelewaldweg",
+        "surface": "fine_gravel",
         "tracktype": "grade2"
       }
     },
@@ -11282,27 +11338,27 @@
     {
       "type": "way",
       "id": 185173363,
-      "timestamp": "2018-09-20T04:09:38Z",
-      "version": 2,
-      "changeset": 62749197,
-      "user": "BeKri",
-      "uid": 14390,
+      "timestamp": "2022-05-29T07:25:53Z",
+      "version": 3,
+      "changeset": 121641219,
+      "user": "Ze0zohk1",
+      "uid": 4565074,
       "nodes": [706753558, 706753719],
       "geometry": [
         {"lat": 47.8874519, "lon": 8.0765457},
         {"lat": 47.8875344, "lon": 8.0759189},
         {"lat": 47.8876579, "lon": 8.0754058}
       ],
-      "tags": {"highway": "track", "tracktype": "grade3"}
+      "tags": {"highway": "track", "tracktype": "grade2"}
     },
     {
       "type": "way",
       "id": 185173368,
-      "timestamp": "2012-10-10T20:56:24Z",
-      "version": 1,
-      "changeset": 13447022,
-      "user": "Stefan Karl",
-      "uid": 101348,
+      "timestamp": "2022-05-29T07:25:52Z",
+      "version": 2,
+      "changeset": 121642409,
+      "user": "Ze0zohk1",
+      "uid": 4565074,
       "nodes": [1957400147, 706753558],
       "geometry": [
         {"lat": 47.8873677, "lon": 8.0774037},
@@ -11310,7 +11366,12 @@
         {"lat": 47.8874137, "lon": 8.0768225},
         {"lat": 47.8874519, "lon": 8.0765457}
       ],
-      "tags": {"highway": "path", "mtb:scale": "0", "sac_scale": "hiking"}
+      "tags": {
+        "highway": "path",
+        "mtb:scale": "0",
+        "sac_scale": "hiking",
+        "surface": "ground"
+      }
     },
     {
       "type": "way",
@@ -15416,11 +15477,11 @@
     {
       "type": "way",
       "id": 26307978,
-      "timestamp": "2020-12-13T17:03:41Z",
-      "version": 12,
-      "changeset": 95763257,
-      "user": "*abq*",
-      "uid": 3696195,
+      "timestamp": "2022-05-29T10:54:51Z",
+      "version": 15,
+      "changeset": 121650516,
+      "user": "Ze0zohk1",
+      "uid": 4565074,
       "nodes": [302382368, 302382371],
       "geometry": [
         {"lat": 47.8968936, "lon": 8.1020103},
@@ -15432,9 +15493,12 @@
       ],
       "tags": {
         "highway": "residential",
+        "lit": "no",
         "maxspeed": "30",
         "motor_vehicle": "destination",
-        "name": "Am Kesslerberg"
+        "name": "Am Kesslerberg",
+        "sidewalk": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -30884,12 +30948,12 @@
     {
       "type": "way",
       "id": 441964133,
-      "timestamp": "2018-09-20T04:09:46Z",
-      "version": 3,
-      "changeset": 62749197,
-      "user": "BeKri",
-      "uid": 14390,
-      "nodes": [288205352, 3485082082],
+      "timestamp": "2022-05-29T07:39:18Z",
+      "version": 4,
+      "changeset": 121641219,
+      "user": "Ze0zohk1",
+      "uid": 4565074,
+      "nodes": [288205352, 288205393],
       "geometry": [
         {"lat": 47.888877, "lon": 8.0900055},
         {"lat": 47.8888153, "lon": 8.0899125},
@@ -30906,11 +30970,7 @@
         {"lat": 47.8877036, "lon": 8.0869495},
         {"lat": 47.8876349, "lon": 8.0864166},
         {"lat": 47.8876298, "lon": 8.0860031},
-        {"lat": 47.8876527, "lon": 8.0854247},
-        {"lat": 47.8875433, "lon": 8.0849865},
-        {"lat": 47.8875433, "lon": 8.0848026},
-        {"lat": 47.8875751, "lon": 8.0846205},
-        {"lat": 47.8875586, "lon": 8.0842051}
+        {"lat": 47.8876527, "lon": 8.0854247}
       ],
       "tags": {
         "highway": "track",
@@ -32770,11 +32830,11 @@
     {
       "type": "way",
       "id": 507218166,
-      "timestamp": "2017-07-13T08:07:32Z",
-      "version": 1,
-      "changeset": 50250354,
-      "user": "martingr",
-      "uid": 1667456,
+      "timestamp": "2022-05-29T07:39:17Z",
+      "version": 2,
+      "changeset": 121642409,
+      "user": "Ze0zohk1",
+      "uid": 4565074,
       "nodes": [3485082082, 288205409],
       "geometry": [
         {"lat": 47.8875586, "lon": 8.0842051},
@@ -32786,7 +32846,7 @@
         "highway": "path",
         "mtb:scale": "0",
         "sac_scale": "hiking",
-        "surface": "gravel"
+        "surface": "fine_gravel"
       }
     },
     {
@@ -33869,17 +33929,22 @@
     {
       "type": "way",
       "id": 56360005,
-      "timestamp": "2012-10-10T20:56:38Z",
-      "version": 4,
-      "changeset": 13447022,
-      "user": "Stefan Karl",
-      "uid": 101348,
+      "timestamp": "2022-05-29T07:39:15Z",
+      "version": 5,
+      "changeset": 121641219,
+      "user": "Ze0zohk1",
+      "uid": 4565074,
       "nodes": [709053415, 288205406],
       "geometry": [
         {"lat": 47.8877163, "lon": 8.0826907},
         {"lat": 47.8876795, "lon": 8.0825526}
       ],
-      "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade2"}
+      "tags": {
+        "check_date:tracktype": "2022-05-29",
+        "highway": "track",
+        "surface": "gravel",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
@@ -34161,20 +34226,13 @@
     {
       "type": "way",
       "id": 56692636,
-      "timestamp": "2020-12-13T17:03:41Z",
-      "version": 13,
-      "changeset": 95763257,
-      "user": "*abq*",
-      "uid": 3696195,
-      "nodes": [2489965711, 288205352],
+      "timestamp": "2022-05-29T10:54:38Z",
+      "version": 14,
+      "changeset": 121650496,
+      "user": "Ze0zohk1",
+      "uid": 4565074,
+      "nodes": [3485082079, 288205352],
       "geometry": [
-        {"lat": 47.8921421, "lon": 8.0911278},
-        {"lat": 47.8918534, "lon": 8.0912643},
-        {"lat": 47.8916919, "lon": 8.091215},
-        {"lat": 47.891449, "lon": 8.0911088},
-        {"lat": 47.8912659, "lon": 8.0909893},
-        {"lat": 47.8910369, "lon": 8.0906972},
-        {"lat": 47.8908335, "lon": 8.0905284},
         {"lat": 47.8907327, "lon": 8.0905014},
         {"lat": 47.8905702, "lon": 8.0904791},
         {"lat": 47.8903845, "lon": 8.0905284},
@@ -34366,11 +34424,11 @@
     {
       "type": "way",
       "id": 56694382,
-      "timestamp": "2012-10-10T20:56:40Z",
-      "version": 3,
-      "changeset": 13447022,
-      "user": "Stefan Karl",
-      "uid": 101348,
+      "timestamp": "2022-05-29T07:39:15Z",
+      "version": 5,
+      "changeset": 121642824,
+      "user": "Ze0zohk1",
+      "uid": 4565074,
       "nodes": [288205406, 288205423],
       "geometry": [
         {"lat": 47.8876795, "lon": 8.0825526},
@@ -34382,22 +34440,29 @@
         {"lat": 47.8875549, "lon": 8.0802985},
         {"lat": 47.8875787, "lon": 8.0800487}
       ],
-      "tags": {"highway": "path", "mtb:scale": "0", "sac_scale": "hiking"}
+      "tags": {
+        "highway": "path",
+        "mtb:scale": "0",
+        "sac_scale": "hiking",
+        "smoothness": "very_bad",
+        "surface": "fine_gravel"
+      }
     },
     {
       "type": "way",
       "id": 56694385,
-      "timestamp": "2015-10-31T23:44:32Z",
-      "version": 3,
-      "changeset": 35002922,
-      "user": "Seetroll",
-      "uid": 135562,
+      "timestamp": "2022-05-29T07:39:16Z",
+      "version": 4,
+      "changeset": 121641219,
+      "user": "Ze0zohk1",
+      "uid": 4565074,
       "nodes": [288205409, 709053415],
       "geometry": [
         {"lat": 47.8876076, "lon": 8.083016},
         {"lat": 47.8877163, "lon": 8.0826907}
       ],
       "tags": {
+        "check_date:tracktype": "2022-05-29",
         "highway": "track",
         "incline": "12%",
         "surface": "gravel",
@@ -40808,11 +40873,11 @@
     {
       "type": "way",
       "id": 59864213,
-      "timestamp": "2019-09-10T13:58:26Z",
-      "version": 5,
-      "changeset": 74311620,
-      "user": "Peilscheibe",
-      "uid": 35560,
+      "timestamp": "2022-05-29T06:38:50Z",
+      "version": 6,
+      "changeset": 121641294,
+      "user": "theophrastos",
+      "uid": 96069,
       "nodes": [310928037, 26618900],
       "geometry": [
         {"lat": 48.7972225, "lon": 8.4941817},
@@ -40830,6 +40895,7 @@
         "priority_road": "designated",
         "ref": "L 340",
         "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
         "smoothness": "good",
         "source:maxspeed": "sign",
         "surface": "asphalt",
@@ -46059,11 +46125,11 @@
     {
       "type": "way",
       "id": 80530023,
-      "timestamp": "2022-01-10T08:53:11Z",
-      "version": 7,
-      "changeset": 115972048,
-      "user": "townlion",
-      "uid": 12466125,
+      "timestamp": "2022-05-29T06:38:50Z",
+      "version": 8,
+      "changeset": 121641294,
+      "user": "theophrastos",
+      "uid": 96069,
       "nodes": [9407007241, 726929243],
       "geometry": [
         {"lat": 48.7977429, "lon": 8.4952299},
@@ -46079,6 +46145,7 @@
         "priority_road": "designated",
         "ref": "L 340",
         "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
         "smoothness": "good",
         "source:maxspeed": "sign",
         "surface": "asphalt",
@@ -47419,11 +47486,11 @@
     {
       "type": "way",
       "id": 884416601,
-      "timestamp": "2020-12-13T17:03:41Z",
-      "version": 1,
-      "changeset": 95763257,
-      "user": "*abq*",
-      "uid": 3696195,
+      "timestamp": "2022-05-29T10:54:49Z",
+      "version": 4,
+      "changeset": 121650516,
+      "user": "Ze0zohk1",
+      "uid": 4565074,
       "nodes": [302382371, 288205225],
       "geometry": [
         {"lat": 47.8968685, "lon": 8.1010764},
@@ -47431,9 +47498,12 @@
       ],
       "tags": {
         "highway": "residential",
+        "lit": "no",
         "maxspeed": "30",
         "motor_vehicle": "destination",
-        "name": "Am Kesslerberg"
+        "name": "Am Kesslerberg",
+        "sidewalk": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -48622,11 +48692,11 @@
     {
       "type": "way",
       "id": 929116680,
-      "timestamp": "2021-04-11T07:27:00Z",
-      "version": 1,
-      "changeset": 102726043,
-      "user": "Baiuvarius",
-      "uid": 5336855,
+      "timestamp": "2022-05-29T06:38:50Z",
+      "version": 2,
+      "changeset": 121641294,
+      "user": "theophrastos",
+      "uid": 96069,
       "nodes": [726929243, 310928037],
       "geometry": [
         {"lat": 48.7975129, "lon": 8.4948017},
@@ -48641,6 +48711,7 @@
         "priority_road": "designated",
         "ref": "L 340",
         "sidewalk": "both",
+        "sidewalk:both:surface": "paving_stones",
         "smoothness": "good",
         "source:maxspeed": "sign",
         "surface": "asphalt",
