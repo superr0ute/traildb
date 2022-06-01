@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-28T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-05-31T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1736379,
-      "timestamp": "2022-05-17T22:24:01Z",
-      "version": 587,
-      "changeset": 121120027,
-      "user": "Robhubi",
-      "uid": 3105686,
+      "timestamp": "2022-05-31T14:59:10Z",
+      "version": 588,
+      "changeset": 121772682,
+      "user": "Badojo",
+      "uid": 8189075,
       "members": [
         {"type": "node", "ref": 1779769997, "role": ""},
         {"type": "node", "ref": 475738007, "role": ""},
@@ -1493,6 +1493,7 @@
         {"type": "way", "ref": 200344730, "role": ""},
         {"type": "way", "ref": 186594680, "role": ""},
         {"type": "way", "ref": 175820553, "role": ""},
+        {"type": "way", "ref": 1065564409, "role": ""},
         {"type": "way", "ref": 431523977, "role": ""},
         {"type": "way", "ref": 431523979, "role": ""},
         {"type": "way", "ref": 431523978, "role": ""},
@@ -2745,6 +2746,25 @@
         "highway": "track",
         "sac_scale": "mountain_hiking",
         "tracktype": "grade2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1065564409,
+      "timestamp": "2022-05-31T14:59:10Z",
+      "version": 1,
+      "changeset": 121772682,
+      "user": "Badojo",
+      "uid": 8189075,
+      "nodes": [9785802112, 1376562475],
+      "geometry": [
+        {"lat": 45.4493109, "lon": 12.4356754},
+        {"lat": 45.4493279, "lon": 12.4357811}
+      ],
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway"
       }
     },
     {
@@ -23264,11 +23284,11 @@
     {
       "type": "way",
       "id": 261700563,
-      "timestamp": "2020-05-19T00:14:08Z",
-      "version": 7,
-      "changeset": 85406880,
-      "user": "Piggei",
-      "uid": 171989,
+      "timestamp": "2022-05-31T13:43:57Z",
+      "version": 8,
+      "changeset": 121769592,
+      "user": "Badojo",
+      "uid": 8189075,
       "nodes": [2672984169, 4753324730],
       "geometry": [
         {"lat": 45.539522, "lon": 12.6126687},
@@ -23335,7 +23355,7 @@
         {"lat": 45.5359985, "lon": 12.637876}
       ],
       "tags": {
-        "highway": "unclassified",
+        "highway": "residential",
         "maxspeed": "50",
         "name": "Via Drago Jesolo"
       }
@@ -36728,15 +36748,15 @@
     {
       "type": "way",
       "id": 431523977,
-      "timestamp": "2022-05-13T09:30:39Z",
-      "version": 2,
-      "changeset": 120925679,
-      "user": "Flight777",
-      "uid": 9925732,
-      "nodes": [1376562599, 1376562475],
+      "timestamp": "2022-05-31T14:59:10Z",
+      "version": 3,
+      "changeset": 121772682,
+      "user": "Badojo",
+      "uid": 8189075,
+      "nodes": [1376562599, 9785802112],
       "geometry": [
         {"lat": 45.4492671, "lon": 12.4354039},
-        {"lat": 45.4493279, "lon": 12.4357811}
+        {"lat": 45.4493109, "lon": 12.4356754}
       ],
       "tags": {
         "bicycle": "designated",

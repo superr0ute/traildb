@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-31T03:25:24Z"},
+  "osm3s": {"timestamp_osm_base": "2022-06-01T04:09:24Z"},
   "elements": [
     {
       "type": "relation",
@@ -9302,11 +9302,11 @@
     {
       "type": "way",
       "id": 207753452,
-      "timestamp": "2021-07-10T06:57:31Z",
-      "version": 5,
-      "changeset": 107735850,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-05-31T09:48:36Z",
+      "version": 7,
+      "changeset": 121758850,
+      "user": "frymo",
+      "uid": 4636272,
       "nodes": [2180024300, 2180024135],
       "geometry": [
         {"lat": 32.7098767, "lon": 34.9773283, "z": 170.7},
@@ -9401,7 +9401,13 @@
         {"lat": 32.71312, "lon": 34.975976, "z": 61.5},
         {"lat": 32.713103, "lon": 34.97604, "z": 62}
       ],
-      "tags": {"colour": "black", "highway": "footway", "source": "GPS"}
+      "tags": {
+        "colour": "black",
+        "highway": "footway",
+        "lit": "no",
+        "source": "GPS",
+        "surface": "rock"
+      }
     },
     {
       "type": "way",
@@ -9437,11 +9443,11 @@
     {
       "type": "way",
       "id": 207753460,
-      "timestamp": "2020-09-14T08:29:44Z",
-      "version": 4,
-      "changeset": 90850383,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-05-31T14:41:14Z",
+      "version": 6,
+      "changeset": 121771913,
+      "user": "frymo",
+      "uid": 4636272,
       "nodes": [2180024135, 762583994],
       "geometry": [
         {"lat": 32.713103, "lon": 34.97604, "z": 62},
@@ -9454,7 +9460,13 @@
         {"lat": 32.713538, "lon": 34.976626, "z": 49.6},
         {"lat": 32.713592, "lon": 34.976743, "z": 48.1}
       ],
-      "tags": {"colour": "black", "highway": "steps", "source": "GPS"}
+      "tags": {
+        "colour": "black",
+        "handrail": "no",
+        "highway": "steps",
+        "ramp": "no",
+        "source": "GPS"
+      }
     },
     {
       "type": "way",
@@ -10978,11 +10990,11 @@
     {
       "type": "way",
       "id": 217524059,
-      "timestamp": "2020-05-18T13:19:02Z",
-      "version": 9,
-      "changeset": 85386514,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-05-31T08:44:02Z",
+      "version": 10,
+      "changeset": 121755635,
+      "user": "Ophirh2",
+      "uid": 9903468,
       "nodes": [759810269, 7494106450],
       "geometry": [
         {"lat": 32.74814, "lon": 35.0793351, "z": 10},
@@ -10991,6 +11003,7 @@
         {"lat": 32.7484098, "lon": 35.079992, "z": 9.5},
         {"lat": 32.7484394, "lon": 35.0802274, "z": 9},
         {"lat": 32.7484684, "lon": 35.0804587, "z": 8.6},
+        {"lat": 32.7484696, "lon": 35.0804753, "z": 8.6},
         {"lat": 32.7484827, "lon": 35.0806563, "z": 8.4}
       ],
       "tags": {"highway": "secondary", "ref": "7223"}
