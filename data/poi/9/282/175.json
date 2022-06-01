@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-05-30T23:59:59Z",
-    "timestamp_osm_base": "2022-05-31T06:23:43Z",
+    "timestamp_osm_date": "2022-05-31T23:59:59Z",
+    "timestamp_osm_base": "2022-06-01T07:05:37Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -24116,6 +24116,20 @@
       }
     },
     {
+      "type": "node",
+      "id": 9785214840,
+      "lat": 49.0999212,
+      "lon": 18.6091665,
+      "timestamp": "2022-05-31T10:54:25Z",
+      "version": 1,
+      "changeset": 121762126,
+      "user": "Ľubomír Chladný",
+      "uid": 10832814,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
       "type": "way",
       "id": 51145992,
       "timestamp": "2020-10-17T11:13:16Z",
@@ -24696,11 +24710,11 @@
     {
       "type": "way",
       "id": 155837580,
-      "timestamp": "2022-05-14T22:30:46Z",
-      "version": 11,
-      "changeset": 120994693,
-      "user": "l0cKy",
-      "uid": 6990611,
+      "timestamp": "2022-05-31T16:59:34Z",
+      "version": 12,
+      "changeset": 121777318,
+      "user": "t_ja",
+      "uid": 103618,
       "center": {
         "lat": 49.2121157,
         "lon": 18.7565915
@@ -24709,9 +24723,11 @@
       "tags": {
         "addr:city": "Žilina",
         "addr:conscriptionnumber": "8083",
-        "addr:housenumber": "37",
+        "addr:housenumber": "8083/37",
         "addr:postcode": "01001",
         "addr:street": "Vysokoškolákov",
+        "addr:streetnumber": "37",
+        "addr:suburb": "Vlčince",
         "brand": "Kaufland",
         "brand:wikidata": "Q685967",
         "brand:wikipedia": "sk:Kaufland",
@@ -26107,6 +26123,34 @@
     },
     {
       "type": "way",
+      "id": 965367684,
+      "timestamp": "2022-05-31T18:47:28Z",
+      "version": 2,
+      "changeset": 121780638,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 49.2477553,
+        "lon": 18.9866672
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Belá",
+        "addr:postcode": "01305",
+        "contact:facebook": "https://www.facebook.com/campingBela/",
+        "contact:instagram": "https://www.instagram.com/camping_bela/",
+        "email": "camp@bela.sk",
+        "fee": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Camping Belá Nižné Kamence",
+        "phone": "+421 905 742 514",
+        "tourism": "camp_site",
+        "website": "http://www.campingbela.eu/"
+      }
+    },
+    {
+      "type": "way",
       "id": 977368563,
       "timestamp": "2021-08-28T15:23:30Z",
       "version": 1,
@@ -26920,6 +26964,45 @@
       "tags": {
         "amenity": "shelter",
         "fireplace": "yes",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1065683890,
+      "timestamp": "2022-05-31T18:47:28Z",
+      "version": 1,
+      "changeset": 121780638,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 49.2469143,
+        "lon": 18.9744674
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1065692060,
+      "timestamp": "2022-05-31T19:14:17Z",
+      "version": 1,
+      "changeset": 121781517,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 49.223849,
+        "lon": 18.9008508
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
         "shelter_type": "picnic_shelter"
       }
     }

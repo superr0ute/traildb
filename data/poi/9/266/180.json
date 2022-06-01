@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-05-30T23:59:59Z",
-    "timestamp_osm_base": "2022-05-31T05:40:06Z",
+    "timestamp_osm_date": "2022-05-31T23:59:59Z",
+    "timestamp_osm_base": "2022-06-01T06:25:59Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -40546,6 +40546,40 @@
       }
     },
     {
+      "type": "node",
+      "id": 9785460664,
+      "lat": 46.9576928,
+      "lon": 7.4342979,
+      "timestamp": "2022-05-31T12:38:26Z",
+      "version": 1,
+      "changeset": 121766804,
+      "user": "habi",
+      "uid": 15671,
+      "tags": {
+        "name": "Rüedu",
+        "opening_hours": "24/7",
+        "payment:cash": "no",
+        "payment:contactless": "yes",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9786764791,
+      "lat": 47.0292784,
+      "lon": 7.3910219,
+      "timestamp": "2022-05-31T20:14:19Z",
+      "version": 1,
+      "changeset": 121783542,
+      "user": "dafadllyn",
+      "uid": 7494825,
+      "tags": {
+        "amenity": "shelter",
+        "building": "hut",
+        "name": "Hudelhütte"
+      }
+    },
+    {
       "type": "way",
       "id": 23711568,
       "timestamp": "2020-02-19T16:03:45Z",
@@ -49833,42 +49867,6 @@
     },
     {
       "type": "way",
-      "id": 680040296,
-      "timestamp": "2019-03-28T10:59:36Z",
-      "version": 1,
-      "changeset": 68620680,
-      "user": "SelfishSeahorse",
-      "uid": 3078118,
-      "center": {
-        "lat": 46.932795,
-        "lon": 7.4920096
-      },
-      "nodes": [],
-      "tags": {
-        "amenity": "shelter",
-        "shelter_type": "public_transport"
-      }
-    },
-    {
-      "type": "way",
-      "id": 680040298,
-      "timestamp": "2019-03-28T10:59:36Z",
-      "version": 1,
-      "changeset": 68620680,
-      "user": "SelfishSeahorse",
-      "uid": 3078118,
-      "center": {
-        "lat": 46.9330176,
-        "lon": 7.4924323
-      },
-      "nodes": [],
-      "tags": {
-        "amenity": "shelter",
-        "shelter_type": "public_transport"
-      }
-    },
-    {
-      "type": "way",
       "id": 680721675,
       "timestamp": "2019-03-31T15:34:09Z",
       "version": 1,
@@ -50835,6 +50833,54 @@
         "building": "transit_shelter",
         "building:levels": "1",
         "nohousenumber": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 744443396,
+      "timestamp": "2022-05-31T10:52:27Z",
+      "version": 2,
+      "changeset": 121762058,
+      "user": "habi",
+      "uid": 15671,
+      "center": {
+        "lat": 46.9330176,
+        "lon": 7.4924321
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Gümligen",
+        "addr:country": "CH",
+        "addr:housenumber": "4a",
+        "addr:postcode": "3073",
+        "addr:street": "Seidenberggässchen",
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 744443397,
+      "timestamp": "2022-05-31T10:52:27Z",
+      "version": 2,
+      "changeset": 121762058,
+      "user": "habi",
+      "uid": 15671,
+      "center": {
+        "lat": 46.9327967,
+        "lon": 7.4920099
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Gümligen",
+        "addr:country": "CH",
+        "addr:housenumber": "4b",
+        "addr:postcode": "3073",
+        "addr:street": "Seidenberggässchen",
+        "amenity": "shelter",
+        "building": "yes",
         "shelter_type": "public_transport"
       }
     },
