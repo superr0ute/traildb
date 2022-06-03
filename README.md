@@ -53,7 +53,7 @@
 |❌❌|[GR50](https://superroute.org/GR50)|GR50 - Tour du Parc National des Écrins [osm](https://osm.org/relation/11097196) [wiki](https://wikidata.org/wiki/Q3478730)||2022-03-04|744|
 |❌❌|[GR54](https://superroute.org/GR54)|GR 54 [osm](https://osm.org/relation/2909096) [wiki](https://wikidata.org/wiki/Q16009876)|![#E336A9](https://via.placeholder.com/14/E336A9/000000?text=+) #E336A9|2021-08-13|313|
 |❌❌|[GR5A](https://superroute.org/GR5A)|GR5 - Alpes Côte d'Azur [osm](https://osm.org/relation/2704286) [wiki](https://wikidata.org/wiki/Q106566889)|![#9E36E3](https://via.placeholder.com/14/9E36E3/000000?text=+) #9E36E3|2022-04-30|2226|
-|❌❌|[GR91](https://superroute.org/GR91)|GR 91 [osm](https://osm.org/relation/9920921) [wiki](https://wikidata.org/wiki/Q107745584)||2022-03-12|603|
+|❌❌|[GR91](https://superroute.org/GR91)|GR 91 [osm](https://osm.org/relation/9920921) [wiki](https://wikidata.org/wiki/Q107745584)||2022-03-12|604|
 |❌❌|[GR93](https://superroute.org/GR93)|GR 93 - Traversée du Vercors Ouest-Est [osm](https://osm.org/relation/2785107) [wiki](https://wikidata.org/wiki/Q107554011)||2022-03-06|451|
 |❌|[GTA](https://superroute.org/GTA)|Grande Traversata delle Alpi [osm](https://osm.org/relation/3159979) [wiki](https://wikidata.org/wiki/Q942020)||2022-06-01||
 |❌|[HEB](https://superroute.org/HEB)|Hebridean Way [osm](https://osm.org/relation/7610425) [wiki](https://wikidata.org/wiki/Q106595335)||2022-05-26||
@@ -82,16 +82,16 @@
 |❌❌|[MWT](https://superroute.org/MWT)|Mountain Wreath Trail [osm](https://osm.org/relation/6172937) [wiki](https://wikidata.org/wiki/Q106563698)|![#C9009E](https://via.placeholder.com/14/C9009E/000000?text=+) #C9009E|2021-08-02|1197|
 |❌|[NPT](https://superroute.org/NPT)|Naar-Phu Trek [osm](https://osm.org/relation/1634863) [wiki](https://wikidata.org/wiki/Q106773689)||2022-05-29||
 |✔️|[NRT](https://superroute.org/NRT)|Northville Placid Trail [osm](https://osm.org/relation/4286650) [wiki](https://wikidata.org/wiki/Q7059877)||2022-02-05|173|
-|❌❌|[PCT](https://superroute.org/PCT)|Pacific Crest Trail [osm](https://osm.org/relation/1225378) [wiki](https://wikidata.org/wiki/Q2003736)|![#B22234](https://via.placeholder.com/14/B22234/000000?text=+) #B22234|2021-10-11|1446|
+|❌❌|[PCT](https://superroute.org/PCT)|Pacific Crest Trail [osm](https://osm.org/relation/1225378) [wiki](https://wikidata.org/wiki/Q2003736)|![#B22234](https://via.placeholder.com/14/B22234/000000?text=+) #B22234|2021-10-11|1448|
 |❌|[PNW](https://superroute.org/PNW)|Pacific Northwest Trail [osm](https://osm.org/relation/11225405) [wiki](https://wikidata.org/wiki/Q3360192)||2022-05-29||
 |❌❌|[POB](https://superroute.org/POB)|Peaks of the Balkans [osm](https://osm.org/relation/4726204) [wiki](https://wikidata.org/wiki/Q19298341)|![#00C72B](https://via.placeholder.com/14/00C72B/000000?text=+) #00C72B|2022-02-10|472|
 |✔️|[PZC](https://superroute.org/PZC)|Premužić trail [osm](https://osm.org/relation/3059569) [wiki](https://wikidata.org/wiki/Q2108725)|![#C90000](https://via.placeholder.com/14/C90000/000000?text=+) #C90000|2021-12-05|74|
 |❌|[RYF](https://superroute.org/RYF)|Ryfylkestien Trail [osm](https://osm.org/relation/7078769) [wiki](https://wikidata.org/wiki/Q106595320)||2022-05-22||
-|✔️|[SEKI](https://superroute.org/SEKI)|Big SEKI Loop [osm](https://osm.org/relation/11628437) [wiki](https://wikidata.org/wiki/Q106414679)|![#2294B4](https://via.placeholder.com/14/2294B4/000000?text=+) #2294B4|today|101|
+|✔️|[SEKI](https://superroute.org/SEKI)|Big SEKI Loop [osm](https://osm.org/relation/11628437) [wiki](https://wikidata.org/wiki/Q106414679)|![#2294B4](https://via.placeholder.com/14/2294B4/000000?text=+) #2294B4|today|98|
 |❌❌|[SIC](https://superroute.org/SIC)|Sentiero Italia - Calabria [osm](https://osm.org/relation/7125614) [wiki](https://wikidata.org/wiki/Q106567747)|![#008C45](https://via.placeholder.com/14/008C45/000000?text=+) #008C45|2021-12-24|449|
 |❌|[SIL](https://superroute.org/SIL)|Sentiero Italia - Lombardia [osm](https://osm.org/relation/7029512) [wiki](https://wikidata.org/wiki/Q106567865)|![#008C45](https://via.placeholder.com/14/008C45/000000?text=+) #008C45|2022-05-31||
 |❌|[SIP](https://superroute.org/SIP)|Sentiero Italia - Piemonte [osm](https://osm.org/relation/7029511) [wiki](https://wikidata.org/wiki/Q106567766)|![#008C45](https://via.placeholder.com/14/008C45/000000?text=+) #008C45|2022-06-01||
-|✔️|[SIS](https://superroute.org/SIS)|Sentiero Italia - Sicilia [osm](https://osm.org/relation/7011950) [wiki](https://wikidata.org/wiki/Q106567599)|![#008C45](https://via.placeholder.com/14/008C45/000000?text=+) #008C45|2022-05-29|608|
+|✔️|[SIS](https://superroute.org/SIS)|Sentiero Italia - Sicilia [osm](https://osm.org/relation/7011950) [wiki](https://wikidata.org/wiki/Q106567599)|![#008C45](https://via.placeholder.com/14/008C45/000000?text=+) #008C45|2022-05-29|609|
 |❌❌|[SNP](https://superroute.org/SNP)|Cesta hrdinov SNP [osm](https://osm.org/relation/7700604) [wiki](https://wikidata.org/wiki/Q3512223)|![#11457E](https://via.placeholder.com/14/11457E/000000?text=+) #11457E|2022-01-28|4320|
 |✔️|[SSA](https://superroute.org/SSA)|Sentiero di Spartiacque Appenninico [osm](https://osm.org/relation/136334) [wiki](https://wikidata.org/wiki/Q106099636)||2022-05-31|1184|
 |❌|[SZL](https://superroute.org/SZL)|Sarchu Zanskar Lamayuru [osm](https://osm.org/relation/11229978) [wiki](https://wikidata.org/wiki/Q106774333)||today||
@@ -104,17 +104,17 @@
 |✔️|[TPO](https://superroute.org/TPO)|Torres del Paine O Circuit [osm](https://osm.org/relation/7705906) [wiki](https://wikidata.org/wiki/Q106577166)||2022-02-08|13|
 |❌|[TPW](https://superroute.org/TPW)|Torres del Paine W Circuit [osm](https://osm.org/relation/2203617) [wiki](https://wikidata.org/wiki/Q106577165)||2021-10-19||
 |✔️|[TRT](https://superroute.org/TRT)|Tahoe Rim Trail [osm](https://osm.org/relation/3094865) [wiki](https://wikidata.org/wiki/Q925069)|![#69FFF5](https://via.placeholder.com/14/69FFF5/000000?text=+) #69FFF5|2022-05-08|115|
-|✔️|[TST](https://superroute.org/TST)|Theodore Solomons Trail [osm](https://osm.org/relation/5549623) [wiki](https://wikidata.org/wiki/Q19578063)||today|118|
+|✔️|[TST](https://superroute.org/TST)|Theodore Solomons Trail [osm](https://osm.org/relation/5549623) [wiki](https://wikidata.org/wiki/Q19578063)||today|114|
 |✔️|[TVT](https://superroute.org/TVT)|Tsum Valley Trek [osm](https://osm.org/relation/11074323) [wiki](https://wikidata.org/wiki/Q106773720)|![#BB0C0C](https://via.placeholder.com/14/BB0C0C/000000?text=+) #BB0C0C|2021-05-27|11|
 |❌|[UD](https://superroute.org/UD)|Upper Dolpo Circuit [osm](https://osm.org/relation/11104197) [wiki](https://wikidata.org/wiki/Q106773619)||2022-04-10||
 |✔️|[VAC](https://superroute.org/VAC)|Vuelta al Cocuy [osm](https://osm.org/relation/1297764) [wiki](https://wikidata.org/wiki/Q106577178)|![#CE1126](https://via.placeholder.com/14/CE1126/000000?text=+) #CE1126|2021-09-03|31|
 |✔️|[VAH](https://superroute.org/VAH)|Vuelta al Hielo [osm](https://osm.org/relation/2294544) [wiki](https://wikidata.org/wiki/Q106577168)|![#872399](https://via.placeholder.com/14/872399/000000?text=+) #872399|2022-01-27|56|
 |❌|[VIT](https://superroute.org/VIT)|Vancouver Island Trail [osm](https://osm.org/relation/12038457) [wiki](https://wikidata.org/wiki/Q7914213)||today||
-|✔️|[WCT](https://superroute.org/WCT)|West Coast Trail [osm](https://osm.org/relation/6955341) [wiki](https://wikidata.org/wiki/Q3434548)|![#7499C7](https://via.placeholder.com/14/7499C7/000000?text=+) #7499C7|2021-11-13|20|
+|✔️|[WCT](https://superroute.org/WCT)|West Coast Trail [osm](https://osm.org/relation/6955341) [wiki](https://wikidata.org/wiki/Q3434548)|![#7499C7](https://via.placeholder.com/14/7499C7/000000?text=+) #7499C7|2021-11-13|21|
 |❌|[WES](https://superroute.org/WES)|Westweg [osm](https://osm.org/relation/62900) [wiki](https://wikidata.org/wiki/Q2565728)||2022-05-31||
 |✔️|[WON](https://superroute.org/WON)|Wonderland Trail [osm](https://osm.org/relation/4111743) [wiki](https://wikidata.org/wiki/Q3498361)|![#7968FF](https://via.placeholder.com/14/7968FF/000000?text=+) #7968FF|2022-05-20|85|
 
-### poidb version 2022-06-01
+### poidb version 2022-06-02
 
 | name | selector | maxDistance |
 |  --- | --- | --- |
