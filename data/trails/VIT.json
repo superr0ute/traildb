@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-29T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-06-02T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -9214,7 +9214,7 @@
         {"lat": 49.6098632, "lon": -125.0170448},
         {"lat": 49.610145, "lon": -125.0166872},
         {"lat": 49.6105345, "lon": -125.0161687},
-        {"lat": 49.6109145, "lon": -125.0158318}
+        {"lat": 49.6108771, "lon": -125.0158599}
       ],
       "tags": {
         "bicycle": "yes",
@@ -13279,11 +13279,11 @@
         {"lat": 49.616775, "lon": -125.048289}
       ],
       "tags": {
-        "highway": "path",
-        "mtb:scale:imba": "1",
         "name": "Porky's Path",
         "surface": "dirt",
-        "width": "1"
+        "width": "1",
+        "highway": "path",
+        "mtb:scale:imba": "1"
       }
     },
     {
@@ -25260,15 +25260,15 @@
     {
       "type": "way",
       "id": 886596831,
-      "timestamp": "2022-05-07T22:33:39Z",
-      "version": 4,
-      "changeset": 120684597,
+      "timestamp": "2022-06-02T04:03:04Z",
+      "version": 5,
+      "changeset": 121833240,
       "user": "StarWagon",
       "uid": 14517845,
       "nodes": [3093595646, 3093595640],
       "geometry": [
-        {"lat": 49.6109145, "lon": -125.0158318},
-        {"lat": 49.6108748, "lon": -125.0155895},
+        {"lat": 49.6108771, "lon": -125.0158599},
+        {"lat": 49.6108454, "lon": -125.0155931},
         {"lat": 49.6108671, "lon": -125.015391},
         {"lat": 49.6108978, "lon": -125.0150009},
         {"lat": 49.6109096, "lon": -125.0146165},
@@ -25276,19 +25276,7 @@
         {"lat": 49.6109028, "lon": -125.0138633},
         {"lat": 49.6108843, "lon": -125.0135555}
       ],
-      "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "track",
-        "motor_vehicle": "yes",
-        "mtb:scale:imba": "2",
-        "name": "50:1",
-        "smoothness": "bad",
-        "source": "survey 2014-09-20",
-        "surface": "gravel",
-        "tracktype": "grade3",
-        "width": "3"
-      }
+      "tags": {"highway": "track", "name": "Logging Road (Minor)"}
     },
     {
       "type": "way",
@@ -25438,6 +25426,7 @@
         {"lat": 49.5860006, "lon": -125.014463}
       ],
       "tags": {
+        "surface": "gravel",
         "attribution": "GeoBase®",
         "geobase:acquisitionTechnique": "GPS",
         "highway": "unclassified",
@@ -25445,8 +25434,7 @@
         "maxspeed": "60",
         "motor_vehicle": "private",
         "name": "Trent River Main",
-        "source": "Geobase_Import_2009",
-        "surface": "gravel"
+        "source": "Geobase_Import_2009"
       }
     },
     {
@@ -33890,10 +33878,10 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "cycleway",
-        "horse": "no",
-        "name": "Rhizome",
+        "width": "1",
         "surface": "ground",
-        "width": "1"
+        "horse": "no",
+        "name": "Rhizome"
       }
     },
     {
