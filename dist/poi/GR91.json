@@ -6437,11 +6437,12 @@
         "@poi": "water_spring",
         "@distance": 358.6,
         "@id": "n7589534520",
-        "@changeset": 86138030,
-        "@timestamp": "2020-06-03T13:03:33Z",
-        "@version": 1,
+        "@changeset": 121889575,
+        "@timestamp": "2022-06-03T11:19:21Z",
+        "@version": 2,
         "@uid": 10564232,
         "@user": "RedfishTheCat",
+        "intermittent": "yes",
         "name": "Source du Berger",
         "natural": "spring"
       },
@@ -6459,12 +6460,13 @@
         "@poi": "shelter_shelter",
         "@distance": 136.6,
         "@id": "n7589542082",
-        "@changeset": 86138410,
-        "@timestamp": "2020-06-03T13:12:47Z",
-        "@version": 1,
+        "@changeset": 121889575,
+        "@timestamp": "2022-06-03T11:19:21Z",
+        "@version": 2,
         "@uid": 10564232,
         "@user": "RedfishTheCat",
-        "amenity": "shelter"
+        "amenity": "shelter",
+        "shelter_type": "weather_shelter"
       },
       "geometry": {
         "type": "Point",
@@ -13173,6 +13175,34 @@
         "coordinates": [
           5.7090098,
           45.1747724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 5948.3,
+        "@id": "n6470853869",
+        "@changeset": 121901195,
+        "@timestamp": "2022-06-03T15:22:36Z",
+        "@version": 3,
+        "@uid": 495543,
+        "@user": "apitux",
+        "addr:city": "Grenoble",
+        "addr:housenumber": "162 bis",
+        "addr:postcode": "38000",
+        "addr:street": "Cours Berriat",
+        "bulk_purchase": "yes",
+        "name": "Le Petit Ravito",
+        "organic": "yes",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.7059531,
+          45.1889824
         ]
       }
     },
