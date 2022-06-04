@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-31T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-06-03T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -3420,9 +3420,9 @@
     {
       "type": "relation",
       "id": 7705278,
-      "timestamp": "2022-05-30T19:13:01Z",
-      "version": 34,
-      "changeset": 121735551,
+      "timestamp": "2022-06-03T12:34:19Z",
+      "version": 35,
+      "changeset": 121893204,
       "user": "kaitu",
       "uid": 69717,
       "members": [
@@ -3504,7 +3504,7 @@
         {"type": "way", "ref": 400326130, "role": ""},
         {"type": "way", "ref": 152478078, "role": ""},
         {"type": "way", "ref": 152400426, "role": ""},
-        {"type": "way", "ref": 921343878, "role": ""},
+        {"type": "way", "ref": 921343877, "role": ""},
         {"type": "way", "ref": 152400476, "role": ""},
         {"type": "way", "ref": 28615367, "role": ""},
         {"type": "way", "ref": 223311633, "role": ""},
@@ -16186,15 +16186,16 @@
     {
       "type": "way",
       "id": 159044975,
-      "timestamp": "2017-10-29T08:05:20Z",
-      "version": 3,
-      "changeset": 53334479,
-      "user": "Gianfranco2014",
-      "uid": 1928626,
+      "timestamp": "2022-06-03T12:17:03Z",
+      "version": 4,
+      "changeset": 121892343,
+      "user": "Andrea Del Sarto",
+      "uid": 3215770,
       "nodes": [781867174, 781867179],
       "geometry": [
         {"lat": 46.0870791, "lon": 8.8025138},
         {"lat": 46.0878015, "lon": 8.8019691},
+        {"lat": 46.0878738, "lon": 8.8018777},
         {"lat": 46.0880376, "lon": 8.8016706},
         {"lat": 46.0881799, "lon": 8.8011856},
         {"lat": 46.0883869, "lon": 8.8009384},
@@ -101381,19 +101382,22 @@
     },
     {
       "type": "way",
-      "id": 921343878,
-      "timestamp": "2021-03-23T14:23:35Z",
-      "version": 1,
-      "changeset": 101580887,
-      "user": "LorenzoBassi_SICAI_Team",
-      "uid": 3286661,
-      "nodes": [2856127358, 420807637],
+      "id": 921343877,
+      "timestamp": "2022-06-03T12:34:19Z",
+      "version": 2,
+      "changeset": 121893204,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [420807637, 2856127358],
       "geometry": [
-        {"lat": 45.8384855, "lon": 9.1581748},
-        {"lat": 45.8384877, "lon": 9.1581648}
+        {"lat": 45.8384877, "lon": 9.1581648},
+        {"lat": 45.8384855, "lon": 9.1581748}
       ],
       "tags": {
+        "foot": "yes",
         "highway": "path",
+        "mtb:scale": "2",
+        "ref": "1",
         "sac_scale": "hiking",
         "source": "survey, GPS track",
         "surface": "ground",

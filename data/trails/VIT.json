@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-06-02T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-06-03T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 12038457,
-      "timestamp": "2022-05-25T05:58:12Z",
-      "version": 167,
-      "changeset": 121456265,
+      "timestamp": "2022-06-03T01:05:11Z",
+      "version": 168,
+      "changeset": 121872260,
       "user": "StarWagon",
       "uid": 14517845,
       "members": [
@@ -238,9 +238,10 @@
         {"type": "way", "ref": 886596819, "role": ""},
         {"type": "way", "ref": 886596818, "role": ""},
         {"type": "way", "ref": 405134767, "role": ""},
-        {"type": "way", "ref": 886596820, "role": ""},
+        {"type": "way", "ref": 1066280788, "role": ""},
         {"type": "way", "ref": 886596821, "role": ""},
         {"type": "way", "ref": 886596824, "role": ""},
+        {"type": "way", "ref": 886596820, "role": ""},
         {"type": "way", "ref": 886596823, "role": ""},
         {"type": "way", "ref": 1034657125, "role": ""},
         {"type": "way", "ref": 886596822, "role": ""},
@@ -2495,6 +2496,22 @@
         {"lat": 48.4440082, "lon": -123.5447804}
       ],
       "tags": {"highway": "service", "surface": "gravel"}
+    },
+    {
+      "type": "way",
+      "id": 1066280788,
+      "timestamp": "2022-06-03T02:27:51Z",
+      "version": 2,
+      "changeset": 121872985,
+      "user": "StarWagon",
+      "uid": 14517845,
+      "nodes": [9775978492, 9775978494],
+      "geometry": [
+        {"lat": 49.6174352, "lon": -125.0385649},
+        {"lat": 49.6175372, "lon": -125.0385368},
+        {"lat": 49.6176507, "lon": -125.0384929}
+      ],
+      "tags": {"highway": "path", "name": "Porky's Path", "surface": "dirt"}
     },
     {
       "type": "way",
@@ -13243,35 +13260,43 @@
     {
       "type": "way",
       "id": 405134767,
-      "timestamp": "2022-05-29T17:51:37Z",
-      "version": 8,
-      "changeset": 121671858,
+      "timestamp": "2022-06-03T02:27:26Z",
+      "version": 10,
+      "changeset": 121872985,
       "user": "StarWagon",
       "uid": 14517845,
-      "nodes": [4073553927, 4073553949],
+      "nodes": [9775978492, 4073553949],
       "geometry": [
-        {"lat": 49.6176131, "lon": -125.0391024},
-        {"lat": 49.6175673, "lon": -125.0392981},
-        {"lat": 49.6174745, "lon": -125.0395755},
+        {"lat": 49.6174352, "lon": -125.0385649},
+        {"lat": 49.6173983, "lon": -125.0386122},
+        {"lat": 49.6173325, "lon": -125.0387404},
+        {"lat": 49.6172962, "lon": -125.0389438},
+        {"lat": 49.617278, "lon": -125.0391295},
+        {"lat": 49.6172761, "lon": -125.0393771},
+        {"lat": 49.617278, "lon": -125.0395156},
         {"lat": 49.6172417, "lon": -125.0396346},
+        {"lat": 49.6172361, "lon": -125.0396565},
         {"lat": 49.6171565, "lon": -125.0399776},
         {"lat": 49.6171671, "lon": -125.0402205},
         {"lat": 49.6171269, "lon": -125.0406848},
         {"lat": 49.6171507, "lon": -125.0411999},
         {"lat": 49.6171367, "lon": -125.0415759},
-        {"lat": 49.6171637, "lon": -125.0421517},
-        {"lat": 49.6171526, "lon": -125.0425563},
-        {"lat": 49.6171271, "lon": -125.0428773},
-        {"lat": 49.6171868, "lon": -125.0431397},
-        {"lat": 49.617217, "lon": -125.043541},
-        {"lat": 49.6172786, "lon": -125.0446346},
+        {"lat": 49.6171807, "lon": -125.0420003},
+        {"lat": 49.6172088, "lon": -125.0422717},
+        {"lat": 49.6171885, "lon": -125.0424297},
+        {"lat": 49.6171757, "lon": -125.0428759},
+        {"lat": 49.6171687, "lon": -125.043139},
+        {"lat": 49.6171598, "lon": -125.0435642},
+        {"lat": 49.6172663, "lon": -125.0440956},
+        {"lat": 49.6172485, "lon": -125.0445504},
+        {"lat": 49.6172635, "lon": -125.0448527},
         {"lat": 49.6172532, "lon": -125.0450038},
         {"lat": 49.6172488, "lon": -125.0455148},
         {"lat": 49.617262, "lon": -125.0456193},
-        {"lat": 49.6170783, "lon": -125.0460877},
+        {"lat": 49.6171385, "lon": -125.0461845},
         {"lat": 49.6170553, "lon": -125.0464841},
-        {"lat": 49.6170416, "lon": -125.0466398},
-        {"lat": 49.6169892, "lon": -125.0468338},
+        {"lat": 49.6170115, "lon": -125.046574},
+        {"lat": 49.6169676, "lon": -125.0467033},
         {"lat": 49.616904, "lon": -125.0471141},
         {"lat": 49.6168214, "lon": -125.0474114},
         {"lat": 49.6168089, "lon": -125.0476295},
@@ -13279,11 +13304,10 @@
         {"lat": 49.616775, "lon": -125.048289}
       ],
       "tags": {
-        "name": "Porky's Path",
-        "surface": "dirt",
-        "width": "1",
         "highway": "path",
-        "mtb:scale:imba": "1"
+        "mtb:scale:imba": "1",
+        "name": "Orchard Trail",
+        "surface": "dirt"
       }
     },
     {
@@ -25260,9 +25284,9 @@
     {
       "type": "way",
       "id": 886596831,
-      "timestamp": "2022-06-02T04:03:04Z",
-      "version": 5,
-      "changeset": 121833240,
+      "timestamp": "2022-06-03T05:05:22Z",
+      "version": 7,
+      "changeset": 121875338,
       "user": "StarWagon",
       "uid": 14517845,
       "nodes": [3093595646, 3093595640],
@@ -25276,7 +25300,12 @@
         {"lat": 49.6109028, "lon": -125.0138633},
         {"lat": 49.6108843, "lon": -125.0135555}
       ],
-      "tags": {"highway": "track", "name": "Logging Road (Minor)"}
+      "tags": {
+        "highway": "track",
+        "name": "Logging Road (Minor)",
+        "surface": "compacted",
+        "tracktype": "grade3"
+      }
     },
     {
       "type": "way",
@@ -25413,9 +25442,9 @@
     {
       "type": "way",
       "id": 886596843,
-      "timestamp": "2022-05-25T05:58:12Z",
-      "version": 3,
-      "changeset": 121456265,
+      "timestamp": "2022-06-03T02:29:14Z",
+      "version": 4,
+      "changeset": 121873003,
       "user": "StarWagon",
       "uid": 14517845,
       "nodes": [7098764649, 4226423367],
@@ -25426,15 +25455,16 @@
         {"lat": 49.5860006, "lon": -125.014463}
       ],
       "tags": {
-        "surface": "gravel",
         "attribution": "GeoBase®",
         "geobase:acquisitionTechnique": "GPS",
         "highway": "unclassified",
         "lanes": "2",
+        "lit": "no",
         "maxspeed": "60",
         "motor_vehicle": "private",
         "name": "Trent River Main",
-        "source": "Geobase_Import_2009"
+        "source": "Geobase_Import_2009",
+        "surface": "gravel"
       }
     },
     {
@@ -33851,11 +33881,11 @@
     {
       "type": "way",
       "id": 980733030,
-      "timestamp": "2021-09-07T23:22:06Z",
-      "version": 1,
-      "changeset": 110882437,
-      "user": "TeLewis",
-      "uid": 10135746,
+      "timestamp": "2022-06-03T02:25:09Z",
+      "version": 3,
+      "changeset": 121872977,
+      "user": "StarWagon",
+      "uid": 14517845,
       "nodes": [3702105810, 3702105820],
       "geometry": [
         {"lat": 49.59472, "lon": -125.001266},
@@ -33875,13 +33905,11 @@
         {"lat": 49.5953653, "lon": -124.999596}
       ],
       "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
-        "highway": "cycleway",
-        "width": "1",
-        "surface": "ground",
+        "highway": "path",
         "horse": "no",
-        "name": "Rhizome"
+        "mtb:scale:imba": "3",
+        "name": "Rhizome",
+        "surface": "ground"
       }
     },
     {

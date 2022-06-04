@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-31T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-06-03T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1083,11 +1083,11 @@
     {
       "type": "relation",
       "id": 62897,
-      "timestamp": "2022-05-29T10:54:38Z",
-      "version": 217,
-      "changeset": 121650496,
-      "user": "Ze0zohk1",
-      "uid": 4565074,
+      "timestamp": "2022-06-03T13:31:59Z",
+      "version": 218,
+      "changeset": 121896100,
+      "user": "dave8ba",
+      "uid": 12302311,
       "members": [
         {"type": "node", "ref": 1955826026, "role": "guidepost"},
         {"type": "node", "ref": 1955825919, "role": "guidepost"},
@@ -1549,6 +1549,7 @@
         {"type": "way", "ref": 24218436, "role": ""},
         {"type": "way", "ref": 24218437, "role": ""},
         {"type": "way", "ref": 180879775, "role": ""},
+        {"type": "way", "ref": 1066421516, "role": ""},
         {"type": "way", "ref": 840693944, "role": ""},
         {"type": "way", "ref": 68690179, "role": ""},
         {"type": "way", "ref": 732738011, "role": ""},
@@ -3527,6 +3528,29 @@
         {"lat": 48.355047, "lon": 8.1730648}
       ],
       "tags": {"highway": "tertiary"}
+    },
+    {
+      "type": "way",
+      "id": 1066421516,
+      "timestamp": "2022-06-03T13:31:59Z",
+      "version": 1,
+      "changeset": 121896100,
+      "user": "dave8ba",
+      "uid": 12302311,
+      "nodes": [7844582033, 3775794464],
+      "geometry": [
+        {"lat": 47.5920496, "lon": 7.646095},
+        {"lat": 47.5911544, "lon": 7.6450029},
+        {"lat": 47.5911407, "lon": 7.6449868}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "highway": "track",
+        "motor_vehicle": "agricultural",
+        "name": "Am Wiesengriener",
+        "surface": "asphalt",
+        "tracktype": "grade1"
+      }
     },
     {
       "type": "way",
@@ -46801,15 +46825,13 @@
     {
       "type": "way",
       "id": 840693944,
-      "timestamp": "2020-08-25T21:55:34Z",
-      "version": 1,
-      "changeset": 89936247,
-      "user": "xDSF-DFSx",
-      "uid": 4803523,
-      "nodes": [7844582033, 262221993],
+      "timestamp": "2022-06-03T13:31:59Z",
+      "version": 2,
+      "changeset": 121896100,
+      "user": "dave8ba",
+      "uid": 12302311,
+      "nodes": [3775794464, 262221993],
       "geometry": [
-        {"lat": 47.5920496, "lon": 7.646095},
-        {"lat": 47.5911544, "lon": 7.6450029},
         {"lat": 47.5911407, "lon": 7.6449868},
         {"lat": 47.5906688, "lon": 7.6444225},
         {"lat": 47.5896055, "lon": 7.643151},
