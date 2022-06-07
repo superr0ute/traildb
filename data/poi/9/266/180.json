@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-06-05T23:59:59Z",
-    "timestamp_osm_base": "2022-06-06T05:27:59Z",
+    "timestamp_osm_date": "2022-06-06T23:59:59Z",
+    "timestamp_osm_base": "2022-06-07T05:43:22Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -28261,16 +28261,18 @@
       "id": 4135620173,
       "lat": 46.7620117,
       "lon": 7.2088514,
-      "timestamp": "2016-05-03T15:52:50Z",
-      "version": 3,
-      "changeset": 39069658,
-      "user": "SimoneSchwarz",
-      "uid": 3850556,
+      "timestamp": "2022-06-06T11:44:59Z",
+      "version": 4,
+      "changeset": 122020880,
+      "user": "vmicho",
+      "uid": 1849074,
       "tags": {
         "addr:city": "Giffers",
         "addr:housenumber": "15",
         "addr:postcode": "1735",
         "addr:street": "Dorfstrasse",
+        "brand": "Coop",
+        "brand:wikidata": "Q432564",
         "name": "Coop",
         "opening_hours": "Mo-Fr 07:00-19:00; Th off; Sa 07:00-16:00",
         "opening_hours:url": "www.coop.ch/de/services/standorte-und-oeffnungszeiten/detail.html/coop-supermarkt-giffers?from=widget&id=3715",
@@ -40597,6 +40599,20 @@
       }
     },
     {
+      "type": "node",
+      "id": 9799278124,
+      "lat": 46.754868,
+      "lon": 7.2136113,
+      "timestamp": "2022-06-06T17:13:40Z",
+      "version": 2,
+      "changeset": 122035912,
+      "user": "vmicho",
+      "uid": 1849074,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
       "type": "way",
       "id": 23711568,
       "timestamp": "2020-02-19T16:03:45Z",
@@ -44565,11 +44581,11 @@
     {
       "type": "way",
       "id": 238108596,
-      "timestamp": "2018-06-01T09:48:24Z",
-      "version": 4,
-      "changeset": 59453436,
-      "user": "marc_marc_repair",
-      "uid": 8333620,
+      "timestamp": "2022-06-06T14:17:38Z",
+      "version": 5,
+      "changeset": 122028564,
+      "user": "habi",
+      "uid": 15671,
       "center": {
         "lat": 46.6316429,
         "lon": 7.2048433
@@ -44580,6 +44596,7 @@
         "building": "yes",
         "ele": "1474",
         "name": "Tissinèva",
+        "outdoor_seating": "yes",
         "tourism": "alpine_hut"
       }
     },
@@ -53709,6 +53726,44 @@
       "tags": {
         "amenity": "shelter",
         "building": "roof",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1067155402,
+      "timestamp": "2022-06-06T11:42:19Z",
+      "version": 1,
+      "changeset": 122020759,
+      "user": "vmicho",
+      "uid": 1849074,
+      "center": {
+        "lat": 46.7617762,
+        "lon": 7.2093792
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1067158008,
+      "timestamp": "2022-06-06T11:53:20Z",
+      "version": 1,
+      "changeset": 122021310,
+      "user": "vmicho",
+      "uid": 1849074,
+      "center": {
+        "lat": 46.7496164,
+        "lon": 7.2045114
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
         "shelter_type": "public_transport"
       }
     }

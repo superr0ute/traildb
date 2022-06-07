@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-06-05T23:59:59Z",
-    "timestamp_osm_base": "2022-06-06T03:56:52Z",
+    "timestamp_osm_date": "2022-06-06T23:59:59Z",
+    "timestamp_osm_base": "2022-06-07T03:28:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -469,52 +469,6 @@
         "name": "Mammoth Mine",
         "natural": "cave_entrance",
         "wikidata": "Q49429306"
-      }
-    },
-    {
-      "type": "node",
-      "id": 813634423,
-      "lat": 35.6057425,
-      "lon": -117.6746406,
-      "timestamp": "2019-10-30T13:25:41Z",
-      "version": 3,
-      "changeset": 76395191,
-      "user": "stangoodman",
-      "uid": 224610,
-      "tags": {
-        "brand": "Albertsons",
-        "brand:wikidata": "Q4712282",
-        "brand:wikipedia": "en:Albertsons",
-        "name": "Albertsons",
-        "shop": "supermarket",
-        "source": "usgs_imagery_2008;survey;image",
-        "source_ref": "AM909_DSCW1673"
-      }
-    },
-    {
-      "type": "node",
-      "id": 813634428,
-      "lat": 35.6065894,
-      "lon": -117.666947,
-      "timestamp": "2018-06-16T22:37:31Z",
-      "version": 5,
-      "changeset": 59903707,
-      "user": "squishter",
-      "uid": 2960570,
-      "tags": {
-        "addr:city": "Ridgecrest",
-        "addr:country": "US",
-        "addr:housenumber": "201",
-        "addr:postcode": "93555",
-        "addr:state": "CA",
-        "addr:street": "E Bowman Road",
-        "name": "Walmart Supercenter",
-        "opening_hours": "Mo-Su 06:00-24:00",
-        "operator": "Walmart",
-        "phone": "+1-760-371-4974",
-        "ref:walmart": "1600",
-        "shop": "supermarket",
-        "website": "https://www.walmart.com/store/1600/ridgecrest-ca/whats-new"
       }
     },
     {
@@ -1320,6 +1274,56 @@
         "building": "retail",
         "name": "Shell",
         "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1067037605,
+      "timestamp": "2022-06-06T02:20:38Z",
+      "version": 1,
+      "changeset": 122000406,
+      "user": "telcodude",
+      "uid": 11609320,
+      "center": {
+        "lat": 35.6057388,
+        "lon": -117.6746236
+      },
+      "nodes": [],
+      "tags": {
+        "brand": "Albertsons",
+        "brand:wikidata": "Q2831861",
+        "building": "yes",
+        "name": "Albertsons",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1067037606,
+      "timestamp": "2022-06-06T02:20:38Z",
+      "version": 1,
+      "changeset": 122000406,
+      "user": "telcodude",
+      "uid": 11609320,
+      "center": {
+        "lat": 35.6066318,
+        "lon": -117.6669751
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Ridgecrest",
+        "addr:housenumber": "201",
+        "addr:postcode": "93555",
+        "addr:state": "CA",
+        "addr:street": "East Bowman Road",
+        "brand": "Walmart",
+        "brand:wikidata": "Q483551",
+        "building": "yes",
+        "name": "Walmart Supercenter",
+        "opening_hours": "Mo-Su 06:00-24:00",
+        "phone": "+1-760-371-4974",
+        "shop": "supermarket",
+        "website": "https://www.walmart.com/store/1600/ridgecrest-ca/whats-new"
       }
     }
   ]
