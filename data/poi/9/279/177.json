@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-06-06T23:59:59Z",
-    "timestamp_osm_base": "2022-06-07T06:07:38Z",
+    "timestamp_osm_date": "2022-06-07T23:59:59Z",
+    "timestamp_osm_base": "2022-06-08T06:42:33Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9636,6 +9636,26 @@
     },
     {
       "type": "node",
+      "id": 346283154,
+      "lat": 48.216828,
+      "lon": 16.3412114,
+      "timestamp": "2022-06-07T11:52:43Z",
+      "version": 6,
+      "changeset": 122069181,
+      "user": "evod",
+      "uid": 298560,
+      "tags": {
+        "addr:city": "Wien",
+        "addr:country": "AT",
+        "addr:housenumber": "43",
+        "addr:postcode": "1170",
+        "addr:street": "Hernalser Gürtel",
+        "name": "Ario",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
       "id": 347349863,
       "lat": 48.2034995,
       "lon": 16.389882,
@@ -15258,16 +15278,19 @@
     {
       "type": "node",
       "id": 741566865,
-      "lat": 48.1649557,
-      "lon": 16.3265874,
-      "timestamp": "2021-11-06T14:59:50Z",
-      "version": 3,
-      "changeset": 113449788,
-      "user": "MichaelGregor",
-      "uid": 8905451,
+      "lat": 48.1649042,
+      "lon": 16.3265482,
+      "timestamp": "2022-06-07T08:14:33Z",
+      "version": 4,
+      "changeset": 122058487,
+      "user": "BLa88",
+      "uid": 67749,
       "tags": {
         "amenity": "drinking_water",
-        "check_date": "2021-11-06"
+        "bottle": "no",
+        "check_date": "2021-11-06",
+        "fee": "no",
+        "wheelchair": "limited"
       }
     },
     {
@@ -18313,7 +18336,7 @@
       "timestamp": "2021-10-20T16:22:16Z",
       "version": 11,
       "changeset": 112752214,
-      "user": "woqo",
+      "user": "somix2",
       "uid": 12089572,
       "tags": {
         "addr:city": "Wien",
@@ -48746,15 +48769,20 @@
     {
       "type": "node",
       "id": 5457780693,
-      "lat": 48.2175994,
-      "lon": 16.3336549,
-      "timestamp": "2020-01-20T22:54:23Z",
-      "version": 4,
-      "changeset": 79820157,
-      "user": "korridor",
-      "uid": 2464030,
+      "lat": 48.2176655,
+      "lon": 16.3332325,
+      "timestamp": "2022-06-07T10:57:02Z",
+      "version": 5,
+      "changeset": 122066611,
+      "user": "evod",
+      "uid": 298560,
       "tags": {
+        "addr:city": "Wien",
+        "addr:country": "AT",
+        "addr:housenumber": "59",
         "addr:postcode": "1170",
+        "addr:street": "Hernalser Hauptstraße",
+        "at_bev:addr_date": "2022-04-01",
         "brand": "Lidl",
         "brand:wikidata": "Q151954",
         "brand:wikipedia": "en:Lidl",
@@ -86400,9 +86428,9 @@
       },
       "nodes": [],
       "tags": {
-        "amenity": "shelter",
+        "shelter_type": "public_transport",
         "building": "yes",
-        "shelter_type": "public_transport"
+        "amenity": "shelter"
       }
     },
     {
@@ -86419,9 +86447,9 @@
       },
       "nodes": [],
       "tags": {
-        "amenity": "shelter",
+        "shelter_type": "public_transport",
         "building": "yes",
-        "shelter_type": "public_transport"
+        "amenity": "shelter"
       }
     },
     {
@@ -88554,11 +88582,11 @@
     {
       "type": "way",
       "id": 961142129,
-      "timestamp": "2021-07-03T22:19:07Z",
-      "version": 1,
-      "changeset": 107370827,
-      "user": "emergency99",
-      "uid": 1832939,
+      "timestamp": "2022-06-07T17:36:49Z",
+      "version": 2,
+      "changeset": 122082389,
+      "user": "Sam35",
+      "uid": 2939996,
       "center": {
         "lat": 48.0252981,
         "lon": 16.7787506
@@ -88566,6 +88594,9 @@
       "nodes": [],
       "tags": {
         "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
+        "lit": "no",
         "shelter_type": "public_transport"
       }
     },
