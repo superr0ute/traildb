@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-06-05T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-06-09T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -7269,17 +7269,17 @@
         {"lat": -36.5284938, "lon": 174.6778255}
       ],
       "tags": {
+        "highway": "trunk",
+        "name": "State Highway 1",
+        "surface": "paved",
+        "ref": "SH 1",
         "bicycle": "yes",
         "bridge": "yes",
         "foot": "yes",
-        "highway": "trunk",
         "lanes": "1",
         "layer": "1",
         "maxspeed": "80",
-        "name": "State Highway 1",
-        "oneway": "yes",
-        "ref": "SH 1",
-        "surface": "paved"
+        "oneway": "yes"
       }
     },
     {
@@ -7300,15 +7300,15 @@
         {"lat": -36.5305414, "lon": 174.6777765}
       ],
       "tags": {
+        "highway": "trunk",
+        "name": "State Highway 1",
+        "surface": "paved",
+        "ref": "SH 1",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "trunk",
         "lanes": "1",
         "maxspeed": "80",
-        "name": "State Highway 1",
-        "oneway": "yes",
-        "ref": "SH 1",
-        "surface": "paved"
+        "oneway": "yes"
       }
     },
     {
@@ -10521,11 +10521,11 @@
         {"lat": -39.1724622, "lon": 175.392504}
       ],
       "tags": {
+        "name": "Fisher Road (Te Araroa Trail)",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "unclassified",
         "motor_vehicle": "private",
-        "name": "Fisher Road (Te Araroa Trail)",
         "oneway": "no",
         "segregated": "no",
         "surface": "gravel",
@@ -12895,26 +12895,26 @@
         {"lat": -39.1656795, "lon": 175.3587061}
       ],
       "tags": {
+        "surface": "gravel",
         "attribution": "http://wiki.osm.org/wiki/Attribution#LINZ",
-        "bicycle": "yes",
         "emergency": "yes",
-        "foot": "yes",
         "goods": "yes",
         "hgv": "yes",
-        "highway": "service",
         "linz:RoadID": "9925",
         "linz:garmin_road_class": "0",
         "linz:garmin_type": "0x6",
         "linz:sufi": "1030000045946",
         "maxspeed": "56",
-        "motor_vehicle": "private",
-        "motorcar": "yes",
         "name": "Kurua Road / Fishers Track (Te Araroa Trail)",
         "oneway": "no",
         "psv": "yes",
         "source_ref": "http://www.linz.govt.nz/topography/topo-maps/",
-        "surface": "gravel",
-        "taxi": "yes"
+        "taxi": "yes",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "service",
+        "motor_vehicle": "private",
+        "motorcar": "yes"
       }
     },
     {
@@ -15282,11 +15282,11 @@
         "linz:sufi": "1030000007721",
         "maxspeed": "56",
         "motorcar": "yes",
-        "name": "Remiger Road",
         "psv": "yes",
         "source": "LINZ & NZ Open GIS",
-        "surface": "unpaved",
-        "taxi": "yes"
+        "taxi": "yes",
+        "name": "Remiger Road",
+        "surface": "unpaved"
       }
     },
     {
@@ -22797,15 +22797,15 @@
         {"lat": -36.5283626, "lon": 174.6778266}
       ],
       "tags": {
+        "highway": "trunk",
+        "name": "State Highway 1",
+        "surface": "paved",
+        "ref": "SH 1",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "trunk",
         "lanes": "1",
         "maxspeed": "80",
-        "name": "State Highway 1",
-        "oneway": "yes",
-        "ref": "SH 1",
-        "surface": "paved"
+        "oneway": "yes"
       }
     },
     {
@@ -33735,11 +33735,11 @@
     {
       "type": "way",
       "id": 24812585,
-      "timestamp": "2020-11-13T04:56:29Z",
-      "version": 11,
-      "changeset": 94032332,
-      "user": "StenSoft",
-      "uid": 255936,
+      "timestamp": "2022-06-09T10:27:09Z",
+      "version": 12,
+      "changeset": 122158009,
+      "user": "CoyKoi",
+      "uid": 3757297,
       "nodes": [8113744576, 6209413512],
       "geometry": [
         {"lat": -35.984603, "lon": 174.4473134},
@@ -33747,6 +33747,7 @@
         {"lat": -35.9844468, "lon": 174.4474118},
         {"lat": -35.9840985, "lon": 174.4477069},
         {"lat": -35.9839436, "lon": 174.447847},
+        {"lat": -35.9832044, "lon": 174.4484822},
         {"lat": -35.9827698, "lon": 174.4488516}
       ],
       "tags": {
@@ -36401,15 +36402,15 @@
         {"lat": -39.1718541, "lon": 175.376362}
       ],
       "tags": {
+        "tracktype": "grade2",
+        "name": "Kurua Road / Fishers Track (Te Araroa Trail)",
+        "surface": "gravel",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "service",
         "motor_vehicle": "private",
-        "name": "Kurua Road / Fishers Track (Te Araroa Trail)",
         "oneway": "no",
-        "segregated": "no",
-        "surface": "gravel",
-        "tracktype": "grade2"
+        "segregated": "no"
       }
     },
     {
@@ -48619,30 +48620,44 @@
     {
       "type": "way",
       "id": 373544369,
-      "timestamp": "2020-08-10T07:59:40Z",
-      "version": 10,
-      "changeset": 89184625,
-      "user": "aleksaJov",
-      "uid": 7436199,
+      "timestamp": "2022-06-09T09:48:12Z",
+      "version": 12,
+      "changeset": 122155947,
+      "user": "CoyKoi",
+      "uid": 3757297,
       "nodes": [7800340213, 7800340214],
       "geometry": [
-        {"lat": -36.01862, "lon": 174.4916598},
-        {"lat": -36.0185067, "lon": 174.4915206},
-        {"lat": -36.0179518, "lon": 174.4908916},
-        {"lat": -36.0175088, "lon": 174.4905778},
-        {"lat": -36.0171528, "lon": 174.4903519},
-        {"lat": -36.016935, "lon": 174.4901382},
-        {"lat": -36.0167397, "lon": 174.4898756},
-        {"lat": -36.0163291, "lon": 174.4891554},
-        {"lat": -36.0161149, "lon": 174.4888652},
-        {"lat": -36.0156458, "lon": 174.4883805},
-        {"lat": -36.0155185, "lon": 174.4881794},
-        {"lat": -36.0154442, "lon": 174.4879974},
-        {"lat": -36.0153751, "lon": 174.4877612},
-        {"lat": -36.0152777, "lon": 174.487354},
-        {"lat": -36.0151285, "lon": 174.4866193},
-        {"lat": -36.0149334, "lon": 174.4859059},
-        {"lat": -36.0148177, "lon": 174.4855548}
+        {"lat": -36.0186058, "lon": 174.4916922},
+        {"lat": -36.01848, "lon": 174.4915447},
+        {"lat": -36.0181491, "lon": 174.4911799},
+        {"lat": -36.0178953, "lon": 174.4909331},
+        {"lat": -36.0177315, "lon": 174.4908178},
+        {"lat": -36.0175417, "lon": 174.4906971},
+        {"lat": -36.01729, "lon": 174.4905496},
+        {"lat": -36.0171316, "lon": 174.4904423},
+        {"lat": -36.0169993, "lon": 174.490331},
+        {"lat": -36.0168854, "lon": 174.4902103},
+        {"lat": -36.0167693, "lon": 174.4900587},
+        {"lat": -36.0166793, "lon": 174.4899246},
+        {"lat": -36.016586, "lon": 174.4897704},
+        {"lat": -36.0165101, "lon": 174.4896068},
+        {"lat": -36.0164103, "lon": 174.4894083},
+        {"lat": -36.0163029, "lon": 174.4892192},
+        {"lat": -36.0161825, "lon": 174.4890583},
+        {"lat": -36.0160707, "lon": 174.4889228},
+        {"lat": -36.015869, "lon": 174.4887163},
+        {"lat": -36.0156314, "lon": 174.4884481},
+        {"lat": -36.0155392, "lon": 174.4883287},
+        {"lat": -36.0154752, "lon": 174.4882026},
+        {"lat": -36.0154004, "lon": 174.4880109},
+        {"lat": -36.015332, "lon": 174.487756},
+        {"lat": -36.0152659, "lon": 174.4873779},
+        {"lat": -36.0152127, "lon": 174.4870761},
+        {"lat": -36.015147, "lon": 174.4867856},
+        {"lat": -36.0151172, "lon": 174.4866537},
+        {"lat": -36.0150261, "lon": 174.4863157},
+        {"lat": -36.0149133, "lon": 174.4859214},
+        {"lat": -36.0147983, "lon": 174.4855727}
       ],
       "tags": {
         "highway": "secondary",
@@ -48654,11 +48669,11 @@
     {
       "type": "way",
       "id": 373544370,
-      "timestamp": "2020-08-04T13:57:59Z",
-      "version": 4,
-      "changeset": 88933323,
-      "user": "aleksaJov",
-      "uid": 7436199,
+      "timestamp": "2022-06-09T09:48:12Z",
+      "version": 6,
+      "changeset": 122155947,
+      "user": "CoyKoi",
+      "uid": 3757297,
       "nodes": [7784349663, 1586573253],
       "geometry": [
         {"lat": -36.0420952, "lon": 174.5003497},
@@ -48790,9 +48805,12 @@
         {"lat": -36.0233042, "lon": 174.4926265},
         {"lat": -36.0231656, "lon": 174.4925623},
         {"lat": -36.0229461, "lon": 174.4925337},
+        {"lat": -36.0227934, "lon": 174.4925811},
         {"lat": -36.0226701, "lon": 174.4926194},
         {"lat": -36.0223735, "lon": 174.4928061},
-        {"lat": -36.0207677, "lon": 174.4940142}
+        {"lat": -36.0223006, "lon": 174.4928612},
+        {"lat": -36.0207897, "lon": 174.4940032},
+        {"lat": -36.020721, "lon": 174.4940552}
       ],
       "tags": {
         "highway": "unclassified",
@@ -50041,22 +50059,22 @@
       ],
       "tags": {
         "bicycle": "yes",
+        "surface": "unpaved",
         "emergency": "yes",
         "foot": "yes",
         "goods": "yes",
         "hgv": "yes",
         "highway": "unclassified",
+        "name": "Remiger Road",
         "linz:RoadID": "9662",
         "linz:garmin_road_class": "0",
         "linz:garmin_type": "0x6",
         "linz:sufi": "1030000007721",
         "maxspeed": "50",
         "motorcar": "yes",
-        "name": "Remiger Road",
+        "taxi": "yes",
         "psv": "yes",
-        "source": "LINZ & NZ Open GIS",
-        "surface": "unpaved",
-        "taxi": "yes"
+        "source": "LINZ & NZ Open GIS"
       }
     },
     {
@@ -54055,13 +54073,13 @@
         {"lat": -36.5118992, "lon": 174.6618335}
       ],
       "tags": {
+        "name": "Puhoi Pioneers Memorial Park",
         "bridge": "yes",
         "highway": "service",
         "lanes": "1",
         "layer": "1",
         "lit": "yes",
         "maxspeed": "10",
-        "name": "Puhoi Pioneers Memorial Park",
         "oneway": "alternating",
         "surface": "asphalt"
       }
@@ -66739,11 +66757,11 @@
         {"lat": -36.5329439, "lon": 174.6801699}
       ],
       "tags": {
-        "bicycle": "yes",
         "destination": "Auckland;Waiwera",
-        "foot": "yes",
         "highway": "primary_link",
         "junction:ref": "388",
+        "bicycle": "yes",
+        "foot": "yes",
         "lanes": "1",
         "maxspeed": "80",
         "name": "Hibiscus Coast Highway",
@@ -70610,11 +70628,11 @@
         {"lat": -36.5343982, "lon": 174.7083571}
       ],
       "tags": {
+        "name": "Schishka Road",
         "highway": "unclassified",
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "30",
-        "name": "Schishka Road",
         "sidewalk": "no",
         "surface": "asphalt"
       }
@@ -70835,8 +70853,8 @@
         {"lat": -36.5119936, "lon": 174.6614673}
       ],
       "tags": {
-        "highway": "service",
         "name": "Puhoi Pioneers Memorial Park",
+        "highway": "service",
         "surface": "asphalt"
       }
     },
@@ -79462,9 +79480,9 @@
         {"lat": -36.5118888, "lon": 174.6618737}
       ],
       "tags": {
+        "name": "Puhoi Pioneers Memorial Park",
         "highway": "service",
         "layer": "1",
-        "name": "Puhoi Pioneers Memorial Park",
         "surface": "asphalt"
       }
     },
@@ -79495,15 +79513,15 @@
         {"lat": -36.5221205, "lon": 174.6755772}
       ],
       "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "trunk",
-        "lanes": "2",
-        "maxspeed": "80",
         "name": "State Highway 1",
+        "surface": "paved",
+        "maxspeed": "80",
         "oneway": "no",
         "ref": "SH 1",
-        "surface": "paved"
+        "bicycle": "yes",
+        "foot": "yes",
+        "lanes": "2"
       }
     },
     {
@@ -90026,9 +90044,9 @@
         {"lat": -36.5341689, "lon": 174.6836388}
       ],
       "tags": {
+        "highway": "primary_link",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary_link",
         "lanes": "1",
         "maxspeed:forward": "80",
         "name": "Hibiscus Coast Highway",
@@ -90052,9 +90070,9 @@
         {"lat": -36.5331679, "lon": 174.6808497}
       ],
       "tags": {
+        "highway": "primary_link",
         "bicycle": "yes",
         "foot": "yes",
-        "highway": "primary_link",
         "lanes": "2",
         "name": "Hibiscus Coast Highway",
         "old_ref": "SH 17",
@@ -91572,15 +91590,15 @@
         {"lat": -36.5243147, "lon": 174.6767012}
       ],
       "tags": {
-        "bicycle": "yes",
-        "foot": "yes",
         "highway": "trunk",
-        "lanes": "2",
-        "maxspeed": "80",
         "name": "State Highway 1",
+        "surface": "paved",
+        "maxspeed": "80",
         "oneway": "no",
         "ref": "SH 1",
-        "surface": "paved"
+        "bicycle": "yes",
+        "foot": "yes",
+        "lanes": "2"
       }
     },
     {
@@ -94004,10 +94022,10 @@
         {"lat": -36.5326328, "lon": 174.7107445}
       ],
       "tags": {
+        "name": "Schishka Road",
         "cycleway:both": "no",
         "highway": "unclassified",
         "lanes": "2",
-        "name": "Schishka Road",
         "surface": "asphalt"
       }
     },
@@ -95114,11 +95132,11 @@
         {"lat": -36.5369692, "lon": 174.7045646}
       ],
       "tags": {
+        "name": "Schishka Road",
         "cycleway:both": "no",
         "highway": "unclassified",
         "lanes": "2",
         "maxspeed": "80",
-        "name": "Schishka Road",
         "surface": "asphalt"
       }
     },
@@ -95297,26 +95315,33 @@
     {
       "type": "way",
       "id": 835693537,
-      "timestamp": "2020-08-10T07:59:40Z",
-      "version": 1,
-      "changeset": 89184625,
-      "user": "aleksaJov",
-      "uid": 7436199,
+      "timestamp": "2022-06-09T08:36:13Z",
+      "version": 2,
+      "changeset": 122152436,
+      "user": "CoyKoi",
+      "uid": 3757297,
       "nodes": [1586573253, 7800340213],
       "geometry": [
-        {"lat": -36.0207677, "lon": 174.4940142},
-        {"lat": -36.0205688, "lon": 174.4937495},
-        {"lat": -36.0203567, "lon": 174.4934936},
-        {"lat": -36.0201282, "lon": 174.4933412},
-        {"lat": -36.0200085, "lon": 174.4932871},
-        {"lat": -36.0197801, "lon": 174.4931971},
-        {"lat": -36.019603, "lon": 174.4930942},
-        {"lat": -36.019436, "lon": 174.4929501},
-        {"lat": -36.0193149, "lon": 174.4927978},
-        {"lat": -36.0192415, "lon": 174.4926559},
-        {"lat": -36.0190695, "lon": 174.4922689},
-        {"lat": -36.0189555, "lon": 174.4920718},
-        {"lat": -36.01862, "lon": 174.4916598}
+        {"lat": -36.020721, "lon": 174.4940552},
+        {"lat": -36.0205799, "lon": 174.4938406},
+        {"lat": -36.0204769, "lon": 174.4937119},
+        {"lat": -36.0203218, "lon": 174.4935523},
+        {"lat": -36.020235, "lon": 174.4934852},
+        {"lat": -36.0201352, "lon": 174.4934329},
+        {"lat": -36.0200007, "lon": 174.49339},
+        {"lat": -36.0197599, "lon": 174.4932961},
+        {"lat": -36.0196471, "lon": 174.4932345},
+        {"lat": -36.0195614, "lon": 174.4931647},
+        {"lat": -36.0194692, "lon": 174.4930923},
+        {"lat": -36.0193814, "lon": 174.4929917},
+        {"lat": -36.0193195, "lon": 174.4929193},
+        {"lat": -36.0192718, "lon": 174.4928429},
+        {"lat": -36.0191959, "lon": 174.4927074},
+        {"lat": -36.019134, "lon": 174.4925599},
+        {"lat": -36.0190267, "lon": 174.4923078},
+        {"lat": -36.0189138, "lon": 174.4920972},
+        {"lat": -36.0187967, "lon": 174.4919376},
+        {"lat": -36.0186058, "lon": 174.4916922}
       ],
       "tags": {
         "highway": "secondary",
@@ -95329,21 +95354,23 @@
     {
       "type": "way",
       "id": 835693538,
-      "timestamp": "2020-08-10T07:59:40Z",
-      "version": 1,
-      "changeset": 89184625,
-      "user": "aleksaJov",
-      "uid": 7436199,
+      "timestamp": "2022-06-09T08:36:13Z",
+      "version": 2,
+      "changeset": 122152436,
+      "user": "CoyKoi",
+      "uid": 3757297,
       "nodes": [7800340214, 7800340215],
       "geometry": [
-        {"lat": -36.0148177, "lon": 174.4855548},
-        {"lat": -36.0146403, "lon": 174.4850162},
-        {"lat": -36.0143324, "lon": 174.4842368},
-        {"lat": -36.0141932, "lon": 174.4839452},
-        {"lat": -36.0140249, "lon": 174.483669},
-        {"lat": -36.0138641, "lon": 174.4835362},
-        {"lat": -36.013609, "lon": 174.4833622},
-        {"lat": -36.0126743, "lon": 174.4827806}
+        {"lat": -36.0147983, "lon": 174.4855727},
+        {"lat": -36.0146117, "lon": 174.4850443},
+        {"lat": -36.0145043, "lon": 174.4847412},
+        {"lat": -36.0143113, "lon": 174.4842383},
+        {"lat": -36.0141778, "lon": 174.4839741},
+        {"lat": -36.0140737, "lon": 174.48384},
+        {"lat": -36.0139685, "lon": 174.483726},
+        {"lat": -36.0138209, "lon": 174.4836187},
+        {"lat": -36.0135042, "lon": 174.4834176},
+        {"lat": -36.0126418, "lon": 174.4828986}
       ],
       "tags": {
         "highway": "secondary",
@@ -95356,17 +95383,22 @@
     {
       "type": "way",
       "id": 835693539,
-      "timestamp": "2020-08-10T07:59:40Z",
-      "version": 1,
-      "changeset": 89184625,
-      "user": "aleksaJov",
-      "uid": 7436199,
+      "timestamp": "2022-06-09T10:04:46Z",
+      "version": 4,
+      "changeset": 122156830,
+      "user": "CoyKoi",
+      "uid": 3757297,
       "nodes": [7800340215, 1586573209],
       "geometry": [
-        {"lat": -36.0126743, "lon": 174.4827806},
-        {"lat": -36.0044454, "lon": 174.4776609},
-        {"lat": -36.0011848, "lon": 174.4756072},
-        {"lat": -36.0001644, "lon": 174.4749645}
+        {"lat": -36.0126418, "lon": 174.4828986},
+        {"lat": -36.0118146, "lon": 174.4823797},
+        {"lat": -36.0102237, "lon": 174.4813818},
+        {"lat": -36.0091725, "lon": 174.4807045},
+        {"lat": -36.0064853, "lon": 174.4790214},
+        {"lat": -36.0044261, "lon": 174.4777353},
+        {"lat": -36.0040639, "lon": 174.4775053},
+        {"lat": -36.0011464, "lon": 174.4756526},
+        {"lat": -36.0001493, "lon": 174.4750397}
       ],
       "tags": {
         "highway": "secondary",
@@ -95378,15 +95410,17 @@
     {
       "type": "way",
       "id": 835693540,
-      "timestamp": "2020-08-10T07:59:40Z",
-      "version": 1,
-      "changeset": 89184625,
-      "user": "aleksaJov",
-      "uid": 7436199,
+      "timestamp": "2022-06-09T10:19:34Z",
+      "version": 3,
+      "changeset": 122157641,
+      "user": "CoyKoi",
+      "uid": 3757297,
       "nodes": [1586573209, 7800317322],
       "geometry": [
-        {"lat": -36.0001644, "lon": 174.4749645},
+        {"lat": -36.0001493, "lon": 174.4750397},
+        {"lat": -35.9991146, "lon": 174.4743876},
         {"lat": -35.9977241, "lon": 174.4735114},
+        {"lat": -35.9966169, "lon": 174.4728079},
         {"lat": -35.9963381, "lon": 174.4726308},
         {"lat": -35.9958978, "lon": 174.472306}
       ],
