@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-06-09T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-06-10T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1893,11 +1893,11 @@
     {
       "type": "relation",
       "id": 9590477,
-      "timestamp": "2022-01-12T06:18:56Z",
-      "version": 12,
-      "changeset": 116051567,
-      "user": "StenSoft",
-      "uid": 255936,
+      "timestamp": "2022-06-10T01:07:11Z",
+      "version": 13,
+      "changeset": 122187392,
+      "user": "kylenz",
+      "uid": 10140394,
       "members": [
         {"type": "way", "ref": 155085130, "role": ""},
         {"type": "way", "ref": 732757060, "role": ""},
@@ -1937,6 +1937,7 @@
         {"type": "way", "ref": 373811067, "role": ""},
         {"type": "way", "ref": 733109554, "role": ""},
         {"type": "way", "ref": 733109558, "role": ""},
+        {"type": "way", "ref": 1068365561, "role": ""},
         {"type": "way", "ref": 373811058, "role": ""},
         {"type": "way", "ref": 158474972, "role": ""}
       ],
@@ -7258,9 +7259,9 @@
     {
       "type": "way",
       "id": 1052011844,
-      "timestamp": "2022-04-15T08:34:47Z",
-      "version": 1,
-      "changeset": 119741167,
+      "timestamp": "2022-06-10T01:59:00Z",
+      "version": 2,
+      "changeset": 122187742,
       "user": "kylenz",
       "uid": 10140394,
       "nodes": [9667666954, 2087708921],
@@ -7269,46 +7270,43 @@
         {"lat": -36.5284938, "lon": 174.6778255}
       ],
       "tags": {
-        "highway": "trunk",
-        "name": "State Highway 1",
-        "surface": "paved",
-        "ref": "SH 1",
         "bicycle": "yes",
         "bridge": "yes",
         "foot": "yes",
+        "highway": "primary",
         "lanes": "1",
         "layer": "1",
         "maxspeed": "80",
-        "oneway": "yes"
+        "name": "Old State Highway 1",
+        "old_ref": "SH 1",
+        "oneway": "yes",
+        "surface": "paved"
       }
     },
     {
       "type": "way",
       "id": 1052011845,
-      "timestamp": "2022-04-15T08:34:47Z",
-      "version": 1,
-      "changeset": 119741167,
+      "timestamp": "2022-06-10T01:59:00Z",
+      "version": 2,
+      "changeset": 122187742,
       "user": "kylenz",
       "uid": 10140394,
-      "nodes": [2087708921, 9667666949],
+      "nodes": [2087708921, 2087708861],
       "geometry": [
         {"lat": -36.5284938, "lon": 174.6778255},
         {"lat": -36.5290201, "lon": 174.6777962},
-        {"lat": -36.529808, "lon": 174.6777304},
-        {"lat": -36.5301313, "lon": 174.677725},
-        {"lat": -36.5303554, "lon": 174.6777465},
-        {"lat": -36.5305414, "lon": 174.6777765}
+        {"lat": -36.529808, "lon": 174.6777304}
       ],
       "tags": {
-        "highway": "trunk",
-        "name": "State Highway 1",
-        "surface": "paved",
-        "ref": "SH 1",
         "bicycle": "yes",
         "foot": "yes",
+        "highway": "primary",
         "lanes": "1",
         "maxspeed": "80",
-        "oneway": "yes"
+        "name": "Old State Highway 1",
+        "old_ref": "SH 1",
+        "oneway": "yes",
+        "surface": "paved"
       }
     },
     {
@@ -7495,7 +7493,7 @@
         {"lat": -36.5161931, "lon": 174.6693246},
         {"lat": -36.5165032, "lon": 174.6695311},
         {"lat": -36.5167883, "lon": 174.6697495},
-        {"lat": -36.5170063, "lon": 174.6699637}
+        {"lat": -36.5170245, "lon": 174.6699087}
       ],
       "tags": {
         "bicycle": "yes",
@@ -7931,6 +7929,25 @@
         "name": "Mangere Bridge",
         "name:en": "Mangere Bridge",
         "start_date": "1983-02-23"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1068365561,
+      "timestamp": "2022-06-10T01:07:11Z",
+      "version": 1,
+      "changeset": 122187392,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [9807605727, 2540595127],
+      "geometry": [
+        {"lat": -36.5006009, "lon": 174.6183809},
+        {"lat": -36.5005741, "lon": 174.6183298}
+      ],
+      "tags": {
+        "highway": "residential",
+        "name": "Remiger Road",
+        "surface": "unpaved"
       }
     },
     {
@@ -10337,11 +10354,11 @@
     {
       "type": "way",
       "id": 144634114,
-      "timestamp": "2020-07-20T08:26:49Z",
-      "version": 7,
-      "changeset": 88232383,
-      "user": "ShakyIsles",
-      "uid": 1968467,
+      "timestamp": "2022-06-10T00:42:49Z",
+      "version": 8,
+      "changeset": 122187171,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [1581573024, 290679137],
       "geometry": [
         {"lat": -39.1718541, "lon": 175.376362},
@@ -10521,11 +10538,11 @@
         {"lat": -39.1724622, "lon": 175.392504}
       ],
       "tags": {
-        "name": "Fisher Road (Te Araroa Trail)",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "unclassified",
         "motor_vehicle": "private",
+        "name": "Fisher Road",
         "oneway": "no",
         "segregated": "no",
         "surface": "gravel",
@@ -12796,11 +12813,11 @@
     {
       "type": "way",
       "id": 156148695,
-      "timestamp": "2020-08-18T19:07:54Z",
-      "version": 9,
-      "changeset": 89592150,
-      "user": "swapnav",
-      "uid": 10023916,
+      "timestamp": "2022-06-10T00:42:49Z",
+      "version": 10,
+      "changeset": 122187171,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [1684361172, 1581572886],
       "geometry": [
         {"lat": -39.1683417, "lon": 175.3367623},
@@ -12895,26 +12912,16 @@
         {"lat": -39.1656795, "lon": 175.3587061}
       ],
       "tags": {
-        "surface": "gravel",
-        "attribution": "http://wiki.osm.org/wiki/Attribution#LINZ",
-        "emergency": "yes",
-        "goods": "yes",
-        "hgv": "yes",
-        "linz:RoadID": "9925",
-        "linz:garmin_road_class": "0",
-        "linz:garmin_type": "0x6",
-        "linz:sufi": "1030000045946",
-        "maxspeed": "56",
-        "name": "Kurua Road / Fishers Track (Te Araroa Trail)",
-        "oneway": "no",
-        "psv": "yes",
-        "source_ref": "http://www.linz.govt.nz/topography/topo-maps/",
-        "taxi": "yes",
+        "alt_name": "Fishers Track",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "service",
         "motor_vehicle": "private",
-        "motorcar": "yes"
+        "motorcar": "yes",
+        "name": "Kurua Road / Fishers Track",
+        "official_name": "Kurua Road",
+        "oneway": "no",
+        "surface": "gravel"
       }
     },
     {
@@ -15243,11 +15250,11 @@
     {
       "type": "way",
       "id": 158474972,
-      "timestamp": "2020-09-03T08:45:39Z",
-      "version": 7,
-      "changeset": 90348749,
-      "user": "miroslavuzice87",
-      "uid": 4611642,
+      "timestamp": "2022-06-10T01:07:11Z",
+      "version": 8,
+      "changeset": 122187392,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [3666951855, 3132237366],
       "geometry": [
         {"lat": -36.5004723, "lon": 174.6275639},
@@ -15263,28 +15270,16 @@
         {"lat": -36.5011922, "lon": 174.6229757},
         {"lat": -36.5011367, "lon": 174.6227394},
         {"lat": -36.501193, "lon": 174.6221745},
-        {"lat": -36.5011904, "lon": 174.6217124},
+        {"lat": -36.5012273, "lon": 174.6219555},
+        {"lat": -36.5012141, "lon": 174.6217366},
         {"lat": -36.5006383, "lon": 174.619692},
         {"lat": -36.5006029, "lon": 174.6193995},
         {"lat": -36.500643, "lon": 174.6189325},
-        {"lat": -36.500707, "lon": 174.6185838}
+        {"lat": -36.5006906, "lon": 174.6187313},
+        {"lat": -36.5006908, "lon": 174.6185677}
       ],
       "tags": {
-        "bicycle": "yes",
-        "emergency": "yes",
-        "foot": "yes",
-        "goods": "yes",
-        "hgv": "yes",
-        "highway": "unclassified",
-        "linz:RoadID": "9662",
-        "linz:garmin_road_class": "0",
-        "linz:garmin_type": "0x6",
-        "linz:sufi": "1030000007721",
-        "maxspeed": "56",
-        "motorcar": "yes",
-        "psv": "yes",
-        "source": "LINZ & NZ Open GIS",
-        "taxi": "yes",
+        "highway": "residential",
         "name": "Remiger Road",
         "surface": "unpaved"
       }
@@ -22775,37 +22770,39 @@
     {
       "type": "way",
       "id": 198666171,
-      "timestamp": "2022-04-15T08:34:47Z",
-      "version": 5,
-      "changeset": 119741167,
+      "timestamp": "2022-06-10T01:59:00Z",
+      "version": 6,
+      "changeset": 122187742,
       "user": "kylenz",
       "uid": 10140394,
       "nodes": [716505, 9667666954],
       "geometry": [
         {"lat": -36.5243147, "lon": 174.6767012},
-        {"lat": -36.5249714, "lon": 174.6771779},
-        {"lat": -36.5252301, "lon": 174.6773656},
+        {"lat": -36.5245436, "lon": 174.6769193},
+        {"lat": -36.5249467, "lon": 174.6772202},
+        {"lat": -36.5252193, "lon": 174.6773983},
         {"lat": -36.5254628, "lon": 174.6775105},
         {"lat": -36.5256698, "lon": 174.677607},
-        {"lat": -36.5258637, "lon": 174.6776768},
+        {"lat": -36.5258593, "lon": 174.6776632},
         {"lat": -36.5260922, "lon": 174.6777143},
         {"lat": -36.526325, "lon": 174.6777411},
         {"lat": -36.5268595, "lon": 174.6777626},
+        {"lat": -36.5273386, "lon": 174.6777857},
         {"lat": -36.5274156, "lon": 174.6777894},
-        {"lat": -36.5278596, "lon": 174.6778109},
+        {"lat": -36.5280421, "lon": 174.677819},
         {"lat": -36.5281915, "lon": 174.677827},
         {"lat": -36.5283626, "lon": 174.6778266}
       ],
       "tags": {
-        "highway": "trunk",
-        "name": "State Highway 1",
-        "surface": "paved",
-        "ref": "SH 1",
         "bicycle": "yes",
         "foot": "yes",
+        "highway": "primary",
         "lanes": "1",
         "maxspeed": "80",
-        "oneway": "yes"
+        "name": "Old State Highway 1",
+        "old_ref": "SH 1",
+        "oneway": "yes",
+        "surface": "paved"
       }
     },
     {
@@ -36263,11 +36260,11 @@
     {
       "type": "way",
       "id": 26520992,
-      "timestamp": "2020-05-25T09:09:50Z",
-      "version": 8,
-      "changeset": 85710390,
-      "user": "auckland_outdoors",
-      "uid": 606768,
+      "timestamp": "2022-06-10T00:42:49Z",
+      "version": 9,
+      "changeset": 122187171,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [1581572886, 1581573024],
       "geometry": [
         {"lat": -39.1656795, "lon": 175.3587061},
@@ -36402,15 +36399,17 @@
         {"lat": -39.1718541, "lon": 175.376362}
       ],
       "tags": {
-        "tracktype": "grade2",
-        "name": "Kurua Road / Fishers Track (Te Araroa Trail)",
-        "surface": "gravel",
+        "alt_name": "Fishers Track",
         "bicycle": "yes",
         "foot": "yes",
         "highway": "service",
         "motor_vehicle": "private",
+        "name": "Kurua Road / Fishers Track",
+        "official_name": "Kurua Road",
         "oneway": "no",
-        "segregated": "no"
+        "segregated": "no",
+        "surface": "gravel",
+        "tracktype": "grade2"
       }
     },
     {
@@ -50047,34 +50046,23 @@
     {
       "type": "way",
       "id": 373811058,
-      "timestamp": "2020-09-03T08:45:39Z",
-      "version": 3,
-      "changeset": 90348749,
-      "user": "miroslavuzice87",
-      "uid": 4611642,
-      "nodes": [3132237366, 2540595127],
+      "timestamp": "2022-06-10T01:07:11Z",
+      "version": 4,
+      "changeset": 122187392,
+      "user": "kylenz",
+      "uid": 10140394,
+      "nodes": [3132237366, 9807605727],
       "geometry": [
-        {"lat": -36.500707, "lon": 174.6185838},
-        {"lat": -36.5006481, "lon": 174.6184133}
+        {"lat": -36.5006908, "lon": 174.6185677},
+        {"lat": -36.5006009, "lon": 174.6183809}
       ],
       "tags": {
-        "bicycle": "yes",
-        "surface": "unpaved",
-        "emergency": "yes",
-        "foot": "yes",
-        "goods": "yes",
-        "hgv": "yes",
-        "highway": "unclassified",
+        "bridge": "yes",
+        "highway": "residential",
+        "layer": "1",
         "name": "Remiger Road",
-        "linz:RoadID": "9662",
-        "linz:garmin_road_class": "0",
-        "linz:garmin_type": "0x6",
-        "linz:sufi": "1030000007721",
-        "maxspeed": "50",
-        "motorcar": "yes",
-        "taxi": "yes",
-        "psv": "yes",
-        "source": "LINZ & NZ Open GIS"
+        "oneway": "alternating",
+        "surface": "unpaved"
       }
     },
     {
@@ -53764,7 +53752,7 @@
       "uid": 3506556,
       "nodes": [3801716212, 2986613356],
       "geometry": [
-        {"lat": -36.5118888, "lon": 174.6618737},
+        {"lat": -36.5118681, "lon": 174.6619391},
         {"lat": -36.5118135, "lon": 174.6620916},
         {"lat": -36.5119224, "lon": 174.6622163},
         {"lat": -36.5118894, "lon": 174.662273},
@@ -54062,24 +54050,25 @@
     {
       "type": "way",
       "id": 385385501,
-      "timestamp": "2021-10-18T08:18:19Z",
-      "version": 8,
-      "changeset": 112640435,
-      "user": "LACDH",
-      "uid": 4994674,
+      "timestamp": "2022-06-10T01:07:11Z",
+      "version": 9,
+      "changeset": 122187392,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [735153682, 735153647],
       "geometry": [
-        {"lat": -36.5119936, "lon": 174.6614673},
-        {"lat": -36.5118992, "lon": 174.6618335}
+        {"lat": -36.5119981, "lon": 174.6614608},
+        {"lat": -36.5119427, "lon": 174.6616369},
+        {"lat": -36.5118991, "lon": 174.6618338}
       ],
       "tags": {
-        "name": "Puhoi Pioneers Memorial Park",
         "bridge": "yes",
         "highway": "service",
         "lanes": "1",
         "layer": "1",
         "lit": "yes",
         "maxspeed": "10",
+        "name": "Domain Road",
         "oneway": "alternating",
         "surface": "asphalt"
       }
@@ -65314,11 +65303,11 @@
     {
       "type": "way",
       "id": 464496892,
-      "timestamp": "2019-03-14T07:15:45Z",
-      "version": 4,
-      "changeset": 68126224,
-      "user": "Chris Bell in California",
-      "uid": 194231,
+      "timestamp": "2022-06-10T04:27:15Z",
+      "version": 5,
+      "changeset": 122189588,
+      "user": "skgrange",
+      "uid": 1892481,
       "nodes": [4595953316, 1316090178],
       "geometry": [
         {"lat": -35.2208098, "lon": 173.9619693},
@@ -65331,13 +65320,12 @@
         {"lat": -35.2207001, "lon": 173.9616555},
         {"lat": -35.2206317, "lon": 173.9616083},
         {"lat": -35.2205718, "lon": 173.9616188},
-        {"lat": -35.2204678, "lon": 173.9617026},
-        {"lat": -35.2204264, "lon": 173.9617514},
-        {"lat": -35.2203323, "lon": 173.961823},
-        {"lat": -35.2202767, "lon": 173.9618753},
-        {"lat": -35.2202397, "lon": 173.9619382},
-        {"lat": -35.2201997, "lon": 173.9619835},
-        {"lat": -35.2201527, "lon": 173.9620342},
+        {"lat": -35.2204449, "lon": 173.9616768},
+        {"lat": -35.2203737, "lon": 173.9617105},
+        {"lat": -35.2202708, "lon": 173.96178},
+        {"lat": -35.2202081, "lon": 173.9618861},
+        {"lat": -35.2201435, "lon": 173.9619469},
+        {"lat": -35.2200894, "lon": 173.9619955},
         {"lat": -35.2199602, "lon": 173.9621389},
         {"lat": -35.2197635, "lon": 173.9622174},
         {"lat": -35.2195564, "lon": 173.9622527},
@@ -66739,14 +66727,16 @@
     {
       "type": "way",
       "id": 47892361,
-      "timestamp": "2022-05-21T07:02:34Z",
-      "version": 20,
-      "changeset": 121269889,
+      "timestamp": "2022-06-10T01:59:00Z",
+      "version": 21,
+      "changeset": 122187742,
       "user": "kylenz",
       "uid": 10140394,
-      "nodes": [9667666949, 716446],
+      "nodes": [2087708861, 716446],
       "geometry": [
-        {"lat": -36.5305414, "lon": 174.6777765},
+        {"lat": -36.529808, "lon": 174.6777304},
+        {"lat": -36.530148, "lon": 174.6777403},
+        {"lat": -36.5304952, "lon": 174.6777815},
         {"lat": -36.5308899, "lon": 174.6779182},
         {"lat": -36.5311727, "lon": 174.6780394},
         {"lat": -36.5314245, "lon": 174.678181},
@@ -66757,11 +66747,9 @@
         {"lat": -36.5329439, "lon": 174.6801699}
       ],
       "tags": {
-        "destination": "Auckland;Waiwera",
-        "highway": "primary_link",
-        "junction:ref": "388",
         "bicycle": "yes",
         "foot": "yes",
+        "highway": "primary",
         "lanes": "1",
         "maxspeed": "80",
         "name": "Hibiscus Coast Highway",
@@ -67753,7 +67741,7 @@
       "uid": 2516862,
       "nodes": [3413775179, 907672687],
       "geometry": [
-        {"lat": -41.2864631, "lon": 174.7762425},
+        {"lat": -41.2864651, "lon": 174.7762412},
         {"lat": -41.2863157, "lon": 174.7761892},
         {"lat": -41.2859019, "lon": 174.7759814},
         {"lat": -41.2857539, "lon": 174.7758963},
@@ -69689,9 +69677,9 @@
     {
       "type": "way",
       "id": 556408415,
-      "timestamp": "2018-01-28T06:30:37Z",
-      "version": 1,
-      "changeset": 55821641,
+      "timestamp": "2022-06-10T02:55:07Z",
+      "version": 2,
+      "changeset": 122188244,
       "user": "skgrange",
       "uid": 1892481,
       "nodes": [5367490494, 4595953294],
@@ -69699,7 +69687,9 @@
         {"lat": -35.2208992, "lon": 173.9631059},
         {"lat": -35.2208563, "lon": 173.9630561},
         {"lat": -35.2208286, "lon": 173.9628159},
-        {"lat": -35.2207939, "lon": 173.9623543},
+        {"lat": -35.2207914, "lon": 173.9623574},
+        {"lat": -35.2207767, "lon": 173.9622282},
+        {"lat": -35.2208382, "lon": 173.9622207},
         {"lat": -35.2208368, "lon": 173.9622044}
       ],
       "tags": {"highway": "footway"}
@@ -70598,11 +70588,11 @@
     {
       "type": "way",
       "id": 59286508,
-      "timestamp": "2022-02-04T03:44:27Z",
-      "version": 17,
-      "changeset": 116987514,
-      "user": "StenSoft",
-      "uid": 255936,
+      "timestamp": "2022-06-10T01:07:11Z",
+      "version": 18,
+      "changeset": 122187392,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [3842224194, 3840411036],
       "geometry": [
         {"lat": -36.5369692, "lon": 174.7045646},
@@ -70628,11 +70618,11 @@
         {"lat": -36.5343982, "lon": 174.7083571}
       ],
       "tags": {
-        "name": "Schishka Road",
         "highway": "unclassified",
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "30",
+        "name": "Schischka Road",
         "sidewalk": "no",
         "surface": "asphalt"
       }
@@ -70842,19 +70832,19 @@
     {
       "type": "way",
       "id": 59289429,
-      "timestamp": "2021-10-18T08:18:02Z",
-      "version": 4,
-      "changeset": 112640435,
-      "user": "LACDH",
-      "uid": 4994674,
+      "timestamp": "2022-06-10T01:07:11Z",
+      "version": 5,
+      "changeset": 122187392,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [735153929, 735153682],
       "geometry": [
         {"lat": -36.5120633, "lon": 174.6612038},
-        {"lat": -36.5119936, "lon": 174.6614673}
+        {"lat": -36.5119981, "lon": 174.6614608}
       ],
       "tags": {
-        "name": "Puhoi Pioneers Memorial Park",
         "highway": "service",
+        "name": "Domain Road",
         "surface": "asphalt"
       }
     },
@@ -75886,7 +75876,7 @@
       "geometry": [
         {"lat": -41.2866726, "lon": 174.7761258},
         {"lat": -41.2865448, "lon": 174.776197},
-        {"lat": -41.2864631, "lon": 174.7762425}
+        {"lat": -41.2864651, "lon": 174.7762412}
       ],
       "tags": {
         "access:lanes:forward": "yes|yes",
@@ -79469,34 +79459,34 @@
     {
       "type": "way",
       "id": 675276313,
-      "timestamp": "2021-10-18T08:18:18Z",
-      "version": 4,
-      "changeset": 112640435,
-      "user": "LACDH",
-      "uid": 4994674,
+      "timestamp": "2022-06-10T01:07:11Z",
+      "version": 5,
+      "changeset": 122187392,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [735153647, 3801716212],
       "geometry": [
-        {"lat": -36.5118992, "lon": 174.6618335},
-        {"lat": -36.5118888, "lon": 174.6618737}
+        {"lat": -36.5118991, "lon": 174.6618338},
+        {"lat": -36.5118681, "lon": 174.6619391}
       ],
       "tags": {
-        "name": "Puhoi Pioneers Memorial Park",
         "highway": "service",
         "layer": "1",
+        "name": "Domain Road",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 675276314,
-      "timestamp": "2022-05-21T07:02:34Z",
-      "version": 6,
-      "changeset": 121269889,
+      "timestamp": "2022-06-10T01:59:00Z",
+      "version": 7,
+      "changeset": 122187742,
       "user": "kylenz",
       "uid": 10140394,
       "nodes": [3858657078, 716507],
       "geometry": [
-        {"lat": -36.5170063, "lon": 174.6699637},
+        {"lat": -36.5170245, "lon": 174.6699087},
         {"lat": -36.5172728, "lon": 174.6702295},
         {"lat": -36.517395, "lon": 174.670413},
         {"lat": -36.5182215, "lon": 174.6716612},
@@ -79513,15 +79503,16 @@
         {"lat": -36.5221205, "lon": 174.6755772}
       ],
       "tags": {
-        "highway": "trunk",
-        "name": "State Highway 1",
-        "surface": "paved",
-        "maxspeed": "80",
-        "oneway": "no",
-        "ref": "SH 1",
         "bicycle": "yes",
         "foot": "yes",
-        "lanes": "2"
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "80",
+        "name": "Old State Highway 1",
+        "note": "temporarily oneway only",
+        "old_ref": "SH 1",
+        "oneway": "yes",
+        "surface": "paved"
       }
     },
     {
@@ -83371,9 +83362,9 @@
     {
       "type": "way",
       "id": 689276508,
-      "timestamp": "2020-01-04T01:59:44Z",
-      "version": 3,
-      "changeset": 79179070,
+      "timestamp": "2022-06-10T04:27:15Z",
+      "version": 4,
+      "changeset": 122189588,
       "user": "skgrange",
       "uid": 1892481,
       "nodes": [3769594169, 2275834705],
@@ -83389,23 +83380,27 @@
         {"lat": -35.2190048, "lon": 173.9239597},
         {"lat": -35.2186921, "lon": 173.92534},
         {"lat": -35.2180912, "lon": 173.926277},
-        {"lat": -35.2177044, "lon": 173.9270729},
-        {"lat": -35.2175068, "lon": 173.9273147},
-        {"lat": -35.2171693, "lon": 173.9275868},
-        {"lat": -35.2170706, "lon": 173.9279998},
-        {"lat": -35.2166672, "lon": 173.9284935},
-        {"lat": -35.2162392, "lon": 173.9292592},
-        {"lat": -35.216017, "lon": 173.9295111},
-        {"lat": -35.2157536, "lon": 173.9298738},
-        {"lat": -35.2149058, "lon": 173.9302466},
-        {"lat": -35.2138028, "lon": 173.9308108},
-        {"lat": -35.2133336, "lon": 173.9309821},
-        {"lat": -35.2127162, "lon": 173.9314455},
-        {"lat": -35.2124528, "lon": 173.9319392},
-        {"lat": -35.2117531, "lon": 173.9328157},
+        {"lat": -35.2177942, "lon": 173.92714},
+        {"lat": -35.2176777, "lon": 173.9272959},
+        {"lat": -35.2170837, "lon": 173.9280052},
+        {"lat": -35.2167307, "lon": 173.9285042},
+        {"lat": -35.2163137, "lon": 173.9293048},
+        {"lat": -35.2161068, "lon": 173.929546},
+        {"lat": -35.2158719, "lon": 173.9298443},
+        {"lat": -35.2154645, "lon": 173.9301943},
+        {"lat": -35.2148992, "lon": 173.9304558},
+        {"lat": -35.2138138, "lon": 173.9310254},
+        {"lat": -35.2133139, "lon": 173.9312771},
+        {"lat": -35.2130063, "lon": 173.9314968},
+        {"lat": -35.2127118, "lon": 173.9317647},
+        {"lat": -35.2124638, "lon": 173.9319875},
+        {"lat": -35.2121218, "lon": 173.9326428},
+        {"lat": -35.2118999, "lon": 173.9329605},
         {"lat": -35.2116132, "lon": 173.9333699},
+        {"lat": -35.2114259, "lon": 173.933581},
         {"lat": -35.2113004, "lon": 173.9337225},
         {"lat": -35.2110205, "lon": 173.9338837},
+        {"lat": -35.2106112, "lon": 173.9338837},
         {"lat": -35.2099504, "lon": 173.9338837},
         {"lat": -35.209654, "lon": 173.9342162},
         {"lat": -35.2094482, "lon": 173.9347098},
@@ -85989,11 +85984,11 @@
     {
       "type": "way",
       "id": 733109558,
-      "timestamp": "2019-10-09T22:17:21Z",
-      "version": 1,
-      "changeset": 75484537,
-      "user": "ShakyIsles",
-      "uid": 1968467,
+      "timestamp": "2022-06-10T01:07:11Z",
+      "version": 2,
+      "changeset": 122187392,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [6865092025, 2540595127],
       "geometry": [
         {"lat": -36.501798, "lon": 174.6118631},
@@ -86002,7 +85997,8 @@
         {"lat": -36.5017937, "lon": 174.6134934},
         {"lat": -36.5010562, "lon": 174.6161894},
         {"lat": -36.5006884, "lon": 174.6182841},
-        {"lat": -36.5006481, "lon": 174.6184133}
+        {"lat": -36.5006427, "lon": 174.6183024},
+        {"lat": -36.5005741, "lon": 174.6183298}
       ],
       "tags": {"highway": "path", "name": "Dunns Ridge Track"}
     },
@@ -90030,9 +90026,9 @@
     {
       "type": "way",
       "id": 766800553,
-      "timestamp": "2022-05-21T07:02:34Z",
-      "version": 5,
-      "changeset": 121269889,
+      "timestamp": "2022-06-10T01:59:00Z",
+      "version": 6,
+      "changeset": 122187742,
       "user": "kylenz",
       "uid": 10140394,
       "nodes": [2405610602, 716442],
@@ -90044,9 +90040,9 @@
         {"lat": -36.5341689, "lon": 174.6836388}
       ],
       "tags": {
-        "highway": "primary_link",
         "bicycle": "yes",
         "foot": "yes",
+        "highway": "primary",
         "lanes": "1",
         "maxspeed:forward": "80",
         "name": "Hibiscus Coast Highway",
@@ -90058,9 +90054,9 @@
     {
       "type": "way",
       "id": 766800554,
-      "timestamp": "2022-05-21T07:02:34Z",
-      "version": 4,
-      "changeset": 121269889,
+      "timestamp": "2022-06-10T01:59:00Z",
+      "version": 5,
+      "changeset": 122187742,
       "user": "kylenz",
       "uid": 10140394,
       "nodes": [716446, 2405610602],
@@ -90070,9 +90066,9 @@
         {"lat": -36.5331679, "lon": 174.6808497}
       ],
       "tags": {
-        "highway": "primary_link",
         "bicycle": "yes",
         "foot": "yes",
+        "highway": "primary",
         "lanes": "2",
         "name": "Hibiscus Coast Highway",
         "old_ref": "SH 17",
@@ -91574,11 +91570,11 @@
     {
       "type": "way",
       "id": 812585087,
-      "timestamp": "2020-06-03T15:01:27Z",
-      "version": 1,
-      "changeset": 86142551,
-      "user": "melisramer",
-      "uid": 7496319,
+      "timestamp": "2022-06-10T01:59:00Z",
+      "version": 2,
+      "changeset": 122187742,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [716507, 716505],
       "geometry": [
         {"lat": -36.5221205, "lon": 174.6755772},
@@ -91590,15 +91586,16 @@
         {"lat": -36.5243147, "lon": 174.6767012}
       ],
       "tags": {
-        "highway": "trunk",
-        "name": "State Highway 1",
-        "surface": "paved",
-        "maxspeed": "80",
-        "oneway": "no",
-        "ref": "SH 1",
         "bicycle": "yes",
         "foot": "yes",
-        "lanes": "2"
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "80",
+        "name": "Old State Highway 1",
+        "note": "temporarily oneway only",
+        "old_ref": "SH 1",
+        "oneway": "yes",
+        "surface": "paved"
       }
     },
     {
@@ -94002,11 +93999,11 @@
     {
       "type": "way",
       "id": 833906795,
-      "timestamp": "2022-02-04T03:44:27Z",
-      "version": 6,
-      "changeset": 116987514,
-      "user": "StenSoft",
-      "uid": 255936,
+      "timestamp": "2022-06-10T01:07:11Z",
+      "version": 7,
+      "changeset": 122187392,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [3840411036, 3772520720],
       "geometry": [
         {"lat": -36.5343982, "lon": 174.7083571},
@@ -94022,10 +94019,10 @@
         {"lat": -36.5326328, "lon": 174.7107445}
       ],
       "tags": {
-        "name": "Schishka Road",
         "cycleway:both": "no",
         "highway": "unclassified",
         "lanes": "2",
+        "name": "Schischka Road",
         "surface": "asphalt"
       }
     },
@@ -95112,11 +95109,11 @@
     {
       "type": "way",
       "id": 834817392,
-      "timestamp": "2022-02-04T03:44:27Z",
-      "version": 6,
-      "changeset": 116987514,
-      "user": "StenSoft",
-      "uid": 255936,
+      "timestamp": "2022-06-10T01:07:11Z",
+      "version": 7,
+      "changeset": 122187392,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [3840411178, 3842224194],
       "geometry": [
         {"lat": -36.5377025, "lon": 174.7037113},
@@ -95132,11 +95129,11 @@
         {"lat": -36.5369692, "lon": 174.7045646}
       ],
       "tags": {
-        "name": "Schishka Road",
         "cycleway:both": "no",
         "highway": "unclassified",
         "lanes": "2",
         "maxspeed": "80",
+        "name": "Schischka Road",
         "surface": "asphalt"
       }
     },

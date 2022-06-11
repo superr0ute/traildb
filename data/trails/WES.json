@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-06-05T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-06-10T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 130310,
-      "timestamp": "2022-04-30T17:57:44Z",
-      "version": 131,
-      "changeset": 120394674,
-      "user": "rbuffat",
-      "uid": 9560206,
+      "timestamp": "2022-06-10T21:59:17Z",
+      "version": 132,
+      "changeset": 122230025,
+      "user": "Karthoo",
+      "uid": 3232636,
       "members": [
         {"type": "node", "ref": 8480355403, "role": "guidepost"},
         {"type": "node", "ref": 391094668, "role": "guidepost"},
@@ -185,6 +185,7 @@
         {"type": "way", "ref": 26652148, "role": ""},
         {"type": "way", "ref": 717273331, "role": ""},
         {"type": "way", "ref": 25187419, "role": ""},
+        {"type": "way", "ref": 1068667486, "role": ""},
         {"type": "way", "ref": 28831330, "role": ""},
         {"type": "way", "ref": 27847056, "role": ""},
         {"type": "way", "ref": 34157566, "role": ""},
@@ -3555,6 +3556,26 @@
         "name": "Am Wiesengriener",
         "surface": "asphalt",
         "tracktype": "grade1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1068667486,
+      "timestamp": "2022-06-10T21:59:17Z",
+      "version": 1,
+      "changeset": 122230025,
+      "user": "Karthoo",
+      "uid": 3232636,
+      "nodes": [274574309, 3685570612],
+      "geometry": [
+        {"lat": 47.8400539, "lon": 8.0190237},
+        {"lat": 47.8400227, "lon": 8.0190235}
+      ],
+      "tags": {
+        "highway": "track",
+        "source": "survey",
+        "surface": "compacted",
+        "tracktype": "grade2"
       }
     },
     {
@@ -19835,14 +19856,13 @@
     {
       "type": "way",
       "id": 28831330,
-      "timestamp": "2021-06-04T20:52:47Z",
-      "version": 13,
-      "changeset": 105860084,
-      "user": "tosent",
-      "uid": 1925271,
-      "nodes": [274574309, 305736636],
+      "timestamp": "2022-06-10T21:59:17Z",
+      "version": 14,
+      "changeset": 122230025,
+      "user": "Karthoo",
+      "uid": 3232636,
+      "nodes": [3685570612, 305736636],
       "geometry": [
-        {"lat": 47.8400539, "lon": 8.0190237},
         {"lat": 47.8400227, "lon": 8.0190235},
         {"lat": 47.8391875, "lon": 8.0190169},
         {"lat": 47.8391452, "lon": 8.0190008},
@@ -36625,9 +36645,9 @@
         {"lat": 48.6618238, "lon": 8.2430053},
         {"lat": 48.6613992, "lon": 8.242767},
         {"lat": 48.6608199, "lon": 8.2424828},
-        {"lat": 48.6604791, "lon": 8.2422543},
-        {"lat": 48.6600611, "lon": 8.2419169},
-        {"lat": 48.6598339, "lon": 8.2417103},
+        {"lat": 48.6604745, "lon": 8.2422987},
+        {"lat": 48.6600765, "lon": 8.2418819},
+        {"lat": 48.6598647, "lon": 8.2416496},
         {"lat": 48.6596203, "lon": 8.2413804}
       ],
       "tags": {
