@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-06-07T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-06-12T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -305,11 +305,11 @@
     {
       "type": "relation",
       "id": 9234975,
-      "timestamp": "2021-10-16T17:42:29Z",
-      "version": 12,
-      "changeset": 112588247,
-      "user": "mfbehrens99",
-      "uid": 9645335,
+      "timestamp": "2022-06-11T14:32:40Z",
+      "version": 13,
+      "changeset": 122251784,
+      "user": "Schnabeltier2",
+      "uid": 46958,
       "members": [
         {"type": "way", "ref": 751003266, "role": "approach"},
         {"type": "way", "ref": 50759249, "role": "approach"},
@@ -323,6 +323,7 @@
         {"type": "way", "ref": 23236657, "role": "main"},
         {"type": "way", "ref": 596851747, "role": "main"},
         {"type": "way", "ref": 233833484, "role": "main"},
+        {"type": "way", "ref": 1068805680, "role": "main"},
         {"type": "way", "ref": 129573143, "role": "main"},
         {"type": "way", "ref": 129573149, "role": "main"},
         {"type": "way", "ref": 129573144, "role": "main"},
@@ -360,13 +361,14 @@
     {
       "type": "relation",
       "id": 9235092,
-      "timestamp": "2021-10-16T17:42:29Z",
-      "version": 19,
-      "changeset": 112588247,
-      "user": "mfbehrens99",
-      "uid": 9645335,
+      "timestamp": "2022-06-11T14:32:40Z",
+      "version": 20,
+      "changeset": 122251784,
+      "user": "Schnabeltier2",
+      "uid": 46958,
       "members": [
         {"type": "way", "ref": 77031419, "role": "main"},
+        {"type": "way", "ref": 1068805671, "role": "main"},
         {"type": "way", "ref": 232453823, "role": "main"},
         {"type": "way", "ref": 596851746, "role": "main"},
         {"type": "way", "ref": 511347650, "role": "main"},
@@ -423,7 +425,8 @@
         {"type": "way", "ref": 233832866, "role": "main"},
         {"type": "way", "ref": 153168131, "role": "main"},
         {"type": "way", "ref": 631955743, "role": "main"},
-        {"type": "way", "ref": 22327700, "role": "main"}
+        {"type": "way", "ref": 22327700, "role": "main"},
+        {"type": "way", "ref": 1068805668, "role": "main"}
       ],
       "tags": {
         "ascent": "713",
@@ -452,12 +455,13 @@
     {
       "type": "relation",
       "id": 9237283,
-      "timestamp": "2021-10-16T17:42:29Z",
-      "version": 14,
-      "changeset": 112588247,
-      "user": "mfbehrens99",
-      "uid": 9645335,
+      "timestamp": "2022-06-11T14:32:40Z",
+      "version": 15,
+      "changeset": 122251784,
+      "user": "Schnabeltier2",
+      "uid": 46958,
       "members": [
+        {"type": "way", "ref": 1068805668, "role": "approach"},
         {"type": "way", "ref": 22327700, "role": "approach"},
         {"type": "way", "ref": 631955743, "role": "approach"},
         {"type": "way", "ref": 153168131, "role": "approach"},
@@ -1322,6 +1326,78 @@
         {"lat": 46.1164448, "lon": 7.9306065}
       ],
       "tags": {"highway": "track", "tracktype": "grade2"}
+    },
+    {
+      "type": "way",
+      "id": 1068805668,
+      "timestamp": "2022-06-11T14:32:40Z",
+      "version": 1,
+      "changeset": 122251784,
+      "user": "Schnabeltier2",
+      "uid": 46958,
+      "nodes": [240052951, 240052955],
+      "geometry": [
+        {"lat": 46.0234826, "lon": 7.7479616},
+        {"lat": 46.0234754, "lon": 7.7479571},
+        {"lat": 46.023308, "lon": 7.7478445},
+        {"lat": 46.0228145, "lon": 7.7475397},
+        {"lat": 46.0227461, "lon": 7.7474992},
+        {"lat": 46.0223112, "lon": 7.7472669},
+        {"lat": 46.0222436, "lon": 7.7472348}
+      ],
+      "tags": {
+        "electric_car": "yes",
+        "highway": "pedestrian",
+        "lit": "yes",
+        "motor_vehicle": "no",
+        "name": "Bahnhofstrasse",
+        "psv": "yes",
+        "surface": "sett"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1068805671,
+      "timestamp": "2022-06-11T14:32:40Z",
+      "version": 1,
+      "changeset": 122251784,
+      "user": "Schnabeltier2",
+      "uid": 46958,
+      "nodes": [471606511, 471606536],
+      "geometry": [
+        {"lat": 46.1031069, "lon": 7.8060223},
+        {"lat": 46.103013, "lon": 7.8062208},
+        {"lat": 46.1029335, "lon": 7.8064138},
+        {"lat": 46.1028496, "lon": 7.8066358},
+        {"lat": 46.1027515, "lon": 7.8069172},
+        {"lat": 46.1033571, "lon": 7.8067037},
+        {"lat": 46.103084, "lon": 7.8071355},
+        {"lat": 46.103018, "lon": 7.8073817},
+        {"lat": 46.1033713, "lon": 7.8072217},
+        {"lat": 46.103423, "lon": 7.8071092},
+        {"lat": 46.1035865, "lon": 7.8070161}
+      ],
+      "tags": {
+        "highway": "path",
+        "name": "Europaweg",
+        "sac_scale": "mountain_hiking"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1068805680,
+      "timestamp": "2022-06-11T14:32:40Z",
+      "version": 1,
+      "changeset": 122251784,
+      "user": "Schnabeltier2",
+      "uid": 46958,
+      "nodes": [1429334750, 1429334745],
+      "geometry": [
+        {"lat": 46.1725246, "lon": 7.8279398},
+        {"lat": 46.1721753, "lon": 7.8283058},
+        {"lat": 46.17194, "lon": 7.8284446}
+      ],
+      "tags": {"highway": "residential"}
     },
     {
       "type": "way",
@@ -4326,9 +4402,9 @@
       "uid": 149704,
       "nodes": [1458721678, 1458721743],
       "geometry": [
-        {"lat": 46.0748386, "lon": 7.7924275},
-        {"lat": 46.0749437, "lon": 7.7924354},
-        {"lat": 46.0754152, "lon": 7.7926446}
+        {"lat": 46.0748249, "lon": 7.7924275},
+        {"lat": 46.07493, "lon": 7.7924354},
+        {"lat": 46.0754015, "lon": 7.7926446}
       ],
       "tags": {
         "covered": "yes",
@@ -4367,7 +4443,7 @@
       "uid": 149704,
       "nodes": [1458721743, 1458721753],
       "geometry": [
-        {"lat": 46.0754152, "lon": 7.7926446},
+        {"lat": 46.0754015, "lon": 7.7926446},
         {"lat": 46.0754629, "lon": 7.7927149},
         {"lat": 46.0755234, "lon": 7.7926609}
       ],
@@ -4476,7 +4552,7 @@
         {"lat": 46.0747271, "lon": 7.7924065},
         {"lat": 46.0747539, "lon": 7.7924451},
         {"lat": 46.0748114, "lon": 7.7924608},
-        {"lat": 46.0748386, "lon": 7.7924275}
+        {"lat": 46.0748249, "lon": 7.7924275}
       ],
       "tags": {
         "highway": "path",
@@ -6200,19 +6276,13 @@
     {
       "type": "way",
       "id": 22327700,
-      "timestamp": "2020-12-22T08:07:47Z",
-      "version": 25,
-      "changeset": 96240823,
-      "user": "sandstorm",
-      "uid": 77501,
-      "nodes": [240052951, 1254580952],
+      "timestamp": "2022-06-11T14:32:40Z",
+      "version": 26,
+      "changeset": 122251784,
+      "user": "Schnabeltier2",
+      "uid": 46958,
+      "nodes": [240052955, 1254580952],
       "geometry": [
-        {"lat": 46.0234826, "lon": 7.7479616},
-        {"lat": 46.0234754, "lon": 7.7479571},
-        {"lat": 46.023308, "lon": 7.7478445},
-        {"lat": 46.0228145, "lon": 7.7475397},
-        {"lat": 46.0227461, "lon": 7.7474992},
-        {"lat": 46.0223112, "lon": 7.7472669},
         {"lat": 46.0222436, "lon": 7.7472348},
         {"lat": 46.0218663, "lon": 7.7470734},
         {"lat": 46.0214132, "lon": 7.7469083},
@@ -6531,12 +6601,12 @@
     {
       "type": "way",
       "id": 233833484,
-      "timestamp": "2018-06-12T09:56:04Z",
-      "version": 6,
-      "changeset": 59771458,
-      "user": "dikkeknodel",
-      "uid": 3485107,
-      "nodes": [3149418424, 1429334745],
+      "timestamp": "2022-06-11T14:32:40Z",
+      "version": 7,
+      "changeset": 122251784,
+      "user": "Schnabeltier2",
+      "uid": 46958,
+      "nodes": [3149418424, 1429334750],
       "geometry": [
         {"lat": 46.1751009, "lon": 7.8260946},
         {"lat": 46.1749985, "lon": 7.8261264},
@@ -6544,9 +6614,7 @@
         {"lat": 46.1743157, "lon": 7.8264628},
         {"lat": 46.1732311, "lon": 7.8274043},
         {"lat": 46.1727642, "lon": 7.8277342},
-        {"lat": 46.1725246, "lon": 7.8279398},
-        {"lat": 46.1721753, "lon": 7.8283058},
-        {"lat": 46.17194, "lon": 7.8284446}
+        {"lat": 46.1725246, "lon": 7.8279398}
       ],
       "tags": {"highway": "residential"}
     },
@@ -18900,23 +18968,13 @@
     {
       "type": "way",
       "id": 77031419,
-      "timestamp": "2019-01-19T14:41:55Z",
-      "version": 5,
-      "changeset": 66455299,
-      "user": "Francoerbi41",
-      "uid": 4982687,
-      "nodes": [471606511, 6221236214],
+      "timestamp": "2022-06-11T14:32:40Z",
+      "version": 6,
+      "changeset": 122251784,
+      "user": "Schnabeltier2",
+      "uid": 46958,
+      "nodes": [471606536, 6221236214],
       "geometry": [
-        {"lat": 46.1031069, "lon": 7.8060223},
-        {"lat": 46.103013, "lon": 7.8062208},
-        {"lat": 46.1029335, "lon": 7.8064138},
-        {"lat": 46.1028496, "lon": 7.8066358},
-        {"lat": 46.1027515, "lon": 7.8069172},
-        {"lat": 46.1033571, "lon": 7.8067037},
-        {"lat": 46.103084, "lon": 7.8071355},
-        {"lat": 46.103018, "lon": 7.8073817},
-        {"lat": 46.1033713, "lon": 7.8072217},
-        {"lat": 46.103423, "lon": 7.8071092},
         {"lat": 46.1035865, "lon": 7.8070161},
         {"lat": 46.103803, "lon": 7.806883},
         {"lat": 46.103961, "lon": 7.8067837},

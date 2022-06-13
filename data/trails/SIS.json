@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-06-04T03:12:13Z"},
+  "osm3s": {"timestamp_osm_base": "2022-06-13T03:38:46Z"},
   "elements": [
     {
       "type": "relation",
@@ -1580,11 +1580,11 @@
     {
       "type": "relation",
       "id": 8465238,
-      "timestamp": "2021-08-02T16:38:16Z",
-      "version": 25,
-      "changeset": 109043518,
-      "user": "aldoct",
-      "uid": 923271,
+      "timestamp": "2022-06-12T16:22:34Z",
+      "version": 27,
+      "changeset": 122288898,
+      "user": "grifo2",
+      "uid": 7742978,
       "members": [
         {"type": "way", "ref": 59229888, "role": ""},
         {"type": "way", "ref": 59229889, "role": ""},
@@ -1606,11 +1606,14 @@
         {"type": "way", "ref": 609706108, "role": ""},
         {"type": "way", "ref": 609706110, "role": ""},
         {"type": "way", "ref": 609706980, "role": ""},
+        {"type": "way", "ref": 1068989839, "role": ""},
         {"type": "way", "ref": 76677879, "role": ""},
         {"type": "way", "ref": 96331586, "role": ""},
         {"type": "way", "ref": 609708260, "role": ""},
         {"type": "way", "ref": 700923432, "role": ""},
         {"type": "way", "ref": 700923433, "role": ""},
+        {"type": "way", "ref": 1069014030, "role": ""},
+        {"type": "way", "ref": 1069014029, "role": ""},
         {"type": "way", "ref": 609708261, "role": ""},
         {"type": "way", "ref": 792795825, "role": ""},
         {"type": "way", "ref": 609708263, "role": ""},
@@ -2693,6 +2696,68 @@
         "highway": "secondary",
         "name": "Via Alessandro Manzoni",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1068989839,
+      "timestamp": "2022-06-12T14:26:02Z",
+      "version": 1,
+      "changeset": 122283706,
+      "user": "grifo2",
+      "uid": 7742978,
+      "nodes": [417480954, 5774761517],
+      "geometry": [
+        {"lat": 37.9678903, "lon": 12.9127904, "z": 50.3},
+        {"lat": 37.9679519, "lon": 12.9110007, "z": 55.1}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada statale Settentrionale Sicula",
+        "ref": "SS113"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1069014029,
+      "timestamp": "2022-06-12T16:22:34Z",
+      "version": 1,
+      "changeset": 122288898,
+      "user": "grifo2",
+      "uid": 7742978,
+      "nodes": [5774785019, 9812665765],
+      "geometry": [
+        {"lat": 37.969749, "lon": 12.9227387, "z": 57.4},
+        {"lat": 37.9693159, "lon": 12.9219999, "z": 54.3}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "name": "Strada statale Settentrionale Sicula",
+        "ref": "SS113"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1069014030,
+      "timestamp": "2022-06-12T16:22:34Z",
+      "version": 1,
+      "changeset": 122288898,
+      "user": "grifo2",
+      "uid": 7742978,
+      "nodes": [9812665765, 9812665766],
+      "geometry": [
+        {"lat": 37.9693159, "lon": 12.9219999, "z": 54.3},
+        {"lat": 37.9692384, "lon": 12.9218675, "z": 53.7}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "layer": "-1",
+        "name": "Strada statale Settentrionale Sicula",
+        "ref": "SS113",
+        "tunnel": "yes"
       }
     },
     {
@@ -10830,11 +10895,11 @@
     {
       "type": "way",
       "id": 257930021,
-      "timestamp": "2015-06-14T15:36:42Z",
-      "version": 7,
-      "changeset": 31964779,
-      "user": "pippinu",
-      "uid": 613873,
+      "timestamp": "2022-06-11T13:07:19Z",
+      "version": 8,
+      "changeset": 122248671,
+      "user": "Robbetto",
+      "uid": 1765781,
       "nodes": [1153079437, 1844987224],
       "geometry": [
         {"lat": 38.0896909, "lon": 15.4164297, "z": 835},
@@ -11013,6 +11078,7 @@
         "name:scn": "Strada Militari",
         "old_ref": "SP50 bis",
         "ref": "SPA115",
+        "smoothness": "very_horrible",
         "surface": "dirt",
         "tracktype": "grade4"
       }
@@ -46613,14 +46679,14 @@
     {
       "type": "way",
       "id": 700923433,
-      "timestamp": "2020-04-17T06:25:46Z",
-      "version": 2,
-      "changeset": 83684057,
-      "user": "aldoct",
-      "uid": 923271,
-      "nodes": [5774785019, 6582460652],
+      "timestamp": "2022-06-12T16:22:34Z",
+      "version": 3,
+      "changeset": 122288898,
+      "user": "grifo2",
+      "uid": 7742978,
+      "nodes": [9812665766, 6582460652],
       "geometry": [
-        {"lat": 37.969749, "lon": 12.9227387, "z": 57.4},
+        {"lat": 37.9692384, "lon": 12.9218675, "z": 53.7},
         {"lat": 37.9688828, "lon": 12.9212611, "z": 50.6},
         {"lat": 37.9688666, "lon": 12.9212335, "z": 50.5}
       ],
@@ -48991,20 +49057,19 @@
     {
       "type": "way",
       "id": 76677879,
-      "timestamp": "2020-04-16T15:58:49Z",
-      "version": 17,
-      "changeset": 83657805,
-      "user": "aldoct",
-      "uid": 923271,
-      "nodes": [268592656, 5774761517],
+      "timestamp": "2022-06-12T14:26:02Z",
+      "version": 18,
+      "changeset": 122283706,
+      "user": "grifo2",
+      "uid": 7742978,
+      "nodes": [268592656, 417480954],
       "geometry": [
         {"lat": 37.9677129, "lon": 12.9178851, "z": 41.9},
         {"lat": 37.9676896, "lon": 12.9173201, "z": 43},
         {"lat": 37.9677192, "lon": 12.9166281, "z": 44.4},
         {"lat": 37.9677941, "lon": 12.9147008, "z": 45.7},
         {"lat": 37.9678099, "lon": 12.9142981, "z": 45.8},
-        {"lat": 37.9678903, "lon": 12.9127904, "z": 50.3},
-        {"lat": 37.9679519, "lon": 12.9110007, "z": 55.1}
+        {"lat": 37.9678903, "lon": 12.9127904, "z": 50.3}
       ],
       "tags": {
         "highway": "secondary",
