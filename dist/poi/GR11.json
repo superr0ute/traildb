@@ -25683,6 +25683,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 1265.2,
+        "@id": "n9812605374",
+        "@changeset": 122286867,
+        "@timestamp": "2022-06-12T15:36:49Z",
+        "@version": 2,
+        "@uid": 6672338,
+        "@user": "Baxe Nafarroa",
+        "amenity": "drinking_water",
+        "animal": "yes",
+        "name": "Harraska",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3887874,
+          43.0207394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "campsite",
         "@distance": 573.2,
         "@id": "w121102956",
@@ -27356,17 +27380,20 @@
         "@poi": "foodshop_supermarket",
         "@distance": 2320.1,
         "@id": "n3928793749",
-        "@changeset": 87266391,
-        "@timestamp": "2020-06-29T03:04:57Z",
-        "@version": 6,
-        "@uid": 2163609,
-        "@user": "CarlosMG",
+        "@changeset": 122285480,
+        "@timestamp": "2022-06-12T15:07:15Z",
+        "@version": 7,
+        "@uid": 465052,
+        "@user": "hecktor",
         "addr:city": "Canillo",
         "brand": "Caprabo",
         "brand:wikidata": "Q1980781",
         "brand:wikipedia": "en:Caprabo",
-        "name": "Caprabo",
-        "shop": "supermarket"
+        "level": "0",
+        "name": "Carrefour City",
+        "opening_hours": "Mo-Sa 09:00-21:00; Su 09:00-15:00; PH closed; Su 16:30-20:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
       },
       "geometry": {
         "type": "Point",
@@ -40009,6 +40036,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 2143.1,
+        "@id": "n9812543334",
+        "@changeset": 122285480,
+        "@timestamp": "2022-06-12T15:07:15Z",
+        "@version": 1,
+        "@uid": 465052,
+        "@user": "hecktor",
+        "brand": "Bonjour",
+        "name": "Bonjour",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5962794,
+          42.5658836
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "peak_peak",
         "@distance": 31.4,
         "@id": "n4194781960",
@@ -48406,6 +48456,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 3286.4,
+        "@id": "n9812418643",
+        "@changeset": 122282722,
+        "@timestamp": "2022-06-12T14:01:42Z",
+        "@version": 1,
+        "@uid": 6888408,
+        "@user": "Rooart",
+        "name": "Supermercat Carles",
+        "opening_hours": "Mo-Su 10:00-13:30, 18:00-20:00",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1233536,
+          42.6269292
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "alpine-hut",
         "@distance": 0.8,
         "@id": "w188492298",
@@ -48642,35 +48715,6 @@
         "coordinates": [
           0.920646,
           42.6242508
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 2006.7,
-        "@id": "w278716585",
-        "@changeset": 91288820,
-        "@timestamp": "2020-09-22T11:08:40Z",
-        "@version": 3,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "building": "hut",
-        "capacity": 2,
-        "description:fr": "2017-07 : Cabane ouverte, solide. Une cheminée. Un torrent. Du bois aux alentours.",
-        "ele": 1808,
-        "fireplace": "yes",
-        "name": "Cabana deth Vertedèro",
-        "stove": "no",
-        "tourism": "wilderness_hut",
-        "website": "https://www.refuges.info/point/5883/cabane-non-gardee/Val-d-Aran/Cabana-Vertedero/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.9336721,
-          42.6508753
         ]
       }
     },
@@ -50347,6 +50391,35 @@
         "coordinates": [
           -1.6277772,
           43.2940741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 2006.7,
+        "@id": "w278716585",
+        "@changeset": 91288820,
+        "@timestamp": "2020-09-22T11:08:40Z",
+        "@version": 3,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "building": "hut",
+        "capacity": 2,
+        "description:fr": "2017-07 : Cabane ouverte, solide. Une cheminée. Un torrent. Du bois aux alentours.",
+        "ele": 1808,
+        "fireplace": "yes",
+        "name": "Cabana deth Vertedèro",
+        "stove": "no",
+        "tourism": "wilderness_hut",
+        "website": "https://www.refuges.info/point/5883/cabane-non-gardee/Val-d-Aran/Cabana-Vertedero/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9336721,
+          42.6508753
         ]
       }
     },

@@ -275,6 +275,36 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 8207.6,
+        "@id": "n356578447",
+        "@changeset": 122296836,
+        "@timestamp": "2022-06-12T20:11:23Z",
+        "@version": 4,
+        "@uid": 15654264,
+        "@user": "Krob44",
+        "addr:city": "Tahoma",
+        "addr:housenumber": "6890",
+        "addr:postcode": "96142",
+        "addr:state": "CA",
+        "addr:street": "West Lake Boulevard",
+        "name": "Tahoma Market and Deli",
+        "opening_hours": "Mo-Su 07:00-19:00",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.130964,
+          39.0685632
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "peak_peak",
         "@distance": 53.8,
         "@id": "n357557559",
@@ -2027,6 +2057,28 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "campsite",
+        "@distance": 52.5,
+        "@id": "n6758197986",
+        "@changeset": 73901745,
+        "@timestamp": "2019-08-30T00:31:39Z",
+        "@version": 1,
+        "@uid": 7640196,
+        "@user": "Mochilão Sabático",
+        "name": "Showers Lake",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0348383,
+          38.7430209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 9778,
         "@id": "w242317234",
@@ -2061,28 +2113,6 @@
         "coordinates": [
           -119.7784513,
           39.1115768
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 52.5,
-        "@id": "n6758197986",
-        "@changeset": 73901745,
-        "@timestamp": "2019-08-30T00:31:39Z",
-        "@version": 1,
-        "@uid": 7640196,
-        "@user": "Mochilão Sabático",
-        "name": "Showers Lake",
-        "tourism": "camp_site"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.0348383,
-          38.7430209
         ]
       }
     },
@@ -2323,6 +2353,8 @@
         "@version": 4,
         "@uid": 9232223,
         "@user": "Sequencer",
+        "toilets": "yes",
+        "shop": "supermarket",
         "addr:city": "South Lake Tahoe",
         "addr:housenumber": "3600a",
         "addr:postcode": "96150",
@@ -2333,9 +2365,7 @@
         "brand:wikipedia": "en:Whole Foods Market",
         "building": "commercial",
         "name": "Whole Foods Market",
-        "opening_hours": "Mo-Su 08:00-22:00",
-        "shop": "supermarket",
-        "toilets": "yes"
+        "opening_hours": "Mo-Su 08:00-22:00"
       },
       "geometry": {
         "type": "Point",
@@ -2646,6 +2676,40 @@
         "coordinates": [
           -120.1542483,
           39.1405245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 9121.2,
+        "@id": "w1069096549",
+        "@changeset": 122300493,
+        "@timestamp": "2022-06-12T23:22:30Z",
+        "@version": 1,
+        "@uid": 3207726,
+        "@user": "beddy",
+        "addr:city": "South Lake Tahoe",
+        "addr:housenumber": "800",
+        "addr:postcode": "96150",
+        "addr:state": "CA",
+        "addr:street": "Emerald Bay Road",
+        "brand": "7-Eleven",
+        "brand:wikidata": "Q259340",
+        "building": "yes",
+        "name": "7-Eleven",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0110223,
+          38.9175235
         ]
       }
     },
