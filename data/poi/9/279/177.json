@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-06-11T23:59:59Z",
-    "timestamp_osm_base": "2022-06-12T06:28:43Z",
+    "timestamp_osm_date": "2022-06-12T23:59:59Z",
+    "timestamp_osm_base": "2022-06-13T06:30:55Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -7438,15 +7438,19 @@
       "id": 292464372,
       "lat": 48.0608855,
       "lon": 16.2519221,
-      "timestamp": "2020-12-30T19:55:12Z",
-      "version": 8,
-      "changeset": 96688319,
-      "user": "Notspecified",
-      "uid": 8642914,
+      "timestamp": "2022-06-12T10:38:52Z",
+      "version": 9,
+      "changeset": 122274852,
+      "user": "bergradler69",
+      "uid": 359465,
       "tags": {
+        "access": "yes",
         "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
         "name": "Hans Riffer Quelle",
-        "natural": "spring"
+        "natural": "spring",
+        "temporary": "yes"
       }
     },
     {
@@ -10715,11 +10719,11 @@
       "id": 394830989,
       "lat": 48.1805805,
       "lon": 16.3758164,
-      "timestamp": "2020-10-14T09:11:44Z",
-      "version": 9,
-      "changeset": 92461320,
-      "user": "Maverick12",
-      "uid": 591863,
+      "timestamp": "2022-06-12T20:10:07Z",
+      "version": 10,
+      "changeset": 122296791,
+      "user": "Ashburn",
+      "uid": 10221799,
       "tags": {
         "addr:city": "Wien",
         "addr:country": "AT",
@@ -10729,6 +10733,7 @@
         "brand": "Hofer",
         "brand:wikidata": "Q15815751",
         "brand:wikipedia": "de:Hofer KG",
+        "check_date:opening_hours": "2022-06-12",
         "contact:phone": "+43 57 0303 3004",
         "name": "Hofer",
         "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00",
@@ -23963,13 +23968,14 @@
       "id": 1329744318,
       "lat": 48.2818433,
       "lon": 16.3503139,
-      "timestamp": "2011-06-18T15:45:10Z",
-      "version": 1,
-      "changeset": 8474668,
-      "user": "Peter-Alexander",
-      "uid": 50650,
+      "timestamp": "2022-06-12T15:39:21Z",
+      "version": 2,
+      "changeset": 122286982,
+      "user": "Helium314",
+      "uid": 8620055,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "check_date": "2022-06-11"
       }
     },
     {
@@ -24796,13 +24802,14 @@
       "id": 1400124854,
       "lat": 48.2203095,
       "lon": 16.3130382,
-      "timestamp": "2012-01-31T19:05:02Z",
-      "version": 2,
-      "changeset": 10552344,
-      "user": "oida wappler",
-      "uid": 597358,
+      "timestamp": "2022-06-12T18:43:36Z",
+      "version": 3,
+      "changeset": 122294057,
+      "user": "laenger",
+      "uid": 6493743,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "check_date": "2022-06-12"
       }
     },
     {
@@ -40592,21 +40599,6 @@
         "name": "Hür-Paş",
         "opening_hours": "Mo-Sa 10:00-18:00",
         "shop": "supermarket"
-      }
-    },
-    {
-      "type": "node",
-      "id": 3622988102,
-      "lat": 48.0626242,
-      "lon": 16.2576009,
-      "timestamp": "2015-06-28T08:32:30Z",
-      "version": 1,
-      "changeset": 32258064,
-      "user": "hynx",
-      "uid": 710376,
-      "tags": {
-        "amenity": "drinking_water",
-        "source": "http://watersupply.at/details.php?id=c8ef8c684759973afb99d9fd2dda7f4f59154f5f"
       }
     },
     {
@@ -61627,6 +61619,34 @@
         "bottle": "yes",
         "fee": "no",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9812011174,
+      "lat": 48.2031312,
+      "lon": 16.3810917,
+      "timestamp": "2022-06-12T09:45:59Z",
+      "version": 1,
+      "changeset": 122273145,
+      "user": "eumiro",
+      "uid": 29717,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9812650442,
+      "lat": 48.345408,
+      "lon": 16.2381718,
+      "timestamp": "2022-06-12T15:58:27Z",
+      "version": 1,
+      "changeset": 122287853,
+      "user": "Helium314",
+      "uid": 8620055,
+      "tags": {
+        "amenity": "drinking_water"
       }
     },
     {
@@ -90062,18 +90082,18 @@
     {
       "type": "way",
       "id": 1014176039,
-      "timestamp": "2022-01-30T16:55:01Z",
-      "version": 2,
-      "changeset": 116788080,
-      "user": "eumiro",
-      "uid": 29717,
+      "timestamp": "2022-06-12T14:58:43Z",
+      "version": 3,
+      "changeset": 122285121,
+      "user": "OSMorpheus",
+      "uid": 16234713,
       "center": {
         "lat": 48.1178237,
         "lon": 16.3967652
       },
       "nodes": [],
       "tags": {
-        "addr:city": "Wien",
+        "addr:city": "Leopoldsdorf",
         "addr:country": "AT",
         "addr:housenumber": "59",
         "addr:postcode": "2333",

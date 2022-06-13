@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-06-11T23:59:59Z",
-    "timestamp_osm_base": "2022-06-12T05:52:08Z",
+    "timestamp_osm_date": "2022-06-12T23:59:59Z",
+    "timestamp_osm_base": "2022-06-13T06:02:18Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -10469,13 +10469,12 @@
       "id": 1343074309,
       "lat": 45.5317495,
       "lon": 7.6864526,
-      "timestamp": "2017-03-01T17:15:45Z",
-      "version": 4,
-      "changeset": 46499451,
-      "user": "sbiribizio",
-      "uid": 354284,
+      "timestamp": "2022-06-12T18:52:12Z",
+      "version": 5,
+      "changeset": 122294360,
+      "user": "Andrea Musuruane",
+      "uid": 90379,
       "tags": {
-        "addr:postcode": "10080",
         "ele": "1078",
         "name": "Fondo",
         "place": "hamlet",
@@ -36661,11 +36660,11 @@
     {
       "type": "node",
       "id": 5984139408,
-      "lat": 45.2043732,
-      "lon": 7.6003921,
-      "timestamp": "2022-06-11T08:24:53Z",
-      "version": 2,
-      "changeset": 122239238,
+      "lat": 45.2044167,
+      "lon": 7.6003894,
+      "timestamp": "2022-06-12T06:16:28Z",
+      "version": 3,
+      "changeset": 122266384,
       "user": "canfe",
       "uid": 6645382,
       "tags": {
@@ -39731,31 +39730,6 @@
       "tags": {
         "name": "Case Pré",
         "place": "hamlet"
-      }
-    },
-    {
-      "type": "node",
-      "id": 6814360876,
-      "lat": 45.1584162,
-      "lon": 7.6541976,
-      "timestamp": "2021-05-16T17:59:58Z",
-      "version": 2,
-      "changeset": 104779745,
-      "user": "canfe",
-      "uid": 6645382,
-      "tags": {
-        "addr:city": "Borgaro Torinese",
-        "addr:housenumber": "213",
-        "addr:postcode": "10071",
-        "addr:street": "Via Lanzo",
-        "brand": "Aldi",
-        "brand:wikidata": "Q125054",
-        "brand:wikipedia": "en:Aldi",
-        "name": "Aldi",
-        "opening_hours": "Mo-Sa 08:30-21:00; Su 09:00-20:00",
-        "payment:cash": "yes",
-        "payment:visa": "yes",
-        "shop": "supermarket"
       }
     },
     {
@@ -53981,6 +53955,36 @@
         "amenity": "shelter",
         "building": "yes",
         "shelter_type": "gazebo",
+        "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1068886041,
+      "timestamp": "2022-06-12T06:36:47Z",
+      "version": 1,
+      "changeset": 122266983,
+      "user": "canfe",
+      "uid": 6645382,
+      "center": {
+        "lat": 45.1583901,
+        "lon": 7.6540292
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Borgaro Torinese",
+        "addr:housenumber": "213",
+        "addr:postcode": "10071",
+        "addr:street": "Via Lanzo",
+        "brand": "Aldi",
+        "brand:wikidata": "Q125054",
+        "brand:wikipedia": "en:Aldi",
+        "building": "yes",
+        "name": "Aldi",
+        "opening_hours": "Mo-Sa 08:30-21:00; Su 09:00-20:00",
+        "payment:cash": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket",
         "source": "microsoft/BuildingFootprints"
       }
     }
