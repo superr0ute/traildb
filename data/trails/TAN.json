@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-06-12T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-06-13T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -8949,13 +8949,13 @@
         {"lat": -36.854185, "lon": 174.7708716}
       ],
       "tags": {
+        "surface": "asphalt",
+        "oneway": "yes",
+        "name": "Grafton Road",
+        "maxspeed": "50",
         "foot": "no",
         "highway": "secondary",
-        "lanes": "2",
-        "maxspeed": "50",
-        "name": "Grafton Road",
-        "oneway": "yes",
-        "surface": "asphalt"
+        "lanes": "2"
       }
     },
     {
@@ -18401,15 +18401,16 @@
     {
       "type": "way",
       "id": 173226553,
-      "timestamp": "2020-07-31T10:29:57Z",
-      "version": 9,
-      "changeset": 88776605,
-      "user": "Aleksandar Matejevic",
-      "uid": 8724788,
+      "timestamp": "2022-06-13T06:59:32Z",
+      "version": 10,
+      "changeset": 122309312,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [6331060681, 6197640517],
       "geometry": [
         {"lat": -37.0345616, "lon": 174.9285236},
         {"lat": -37.0349957, "lon": 174.9287453},
+        {"lat": -37.0351122, "lon": 174.9288029},
         {"lat": -37.0360499, "lon": 174.9292669}
       ],
       "tags": {
@@ -46751,6 +46752,8 @@
         {"lat": -36.8522403, "lon": 174.7706075}
       ],
       "tags": {
+        "surface": "asphalt",
+        "source:maxspeed": "Speed Limits Bylaw 2020",
         "foot": "no",
         "highway": "secondary",
         "lanes": "1",
@@ -46758,9 +46761,7 @@
         "lanes:forward": "1",
         "maxspeed": "30",
         "name": "Grafton Road",
-        "oneway": "yes",
-        "source:maxspeed": "Speed Limits Bylaw 2020",
-        "surface": "asphalt"
+        "oneway": "yes"
       }
     },
     {
@@ -70141,11 +70142,11 @@
     {
       "type": "way",
       "id": 57007479,
-      "timestamp": "2020-01-17T22:12:19Z",
-      "version": 7,
-      "changeset": 79717461,
-      "user": "Not my first choice",
-      "uid": 10670594,
+      "timestamp": "2022-06-13T04:58:15Z",
+      "version": 8,
+      "changeset": 122305276,
+      "user": "ralley",
+      "uid": 670820,
       "nodes": [712833813, 712835165],
       "geometry": [
         {"lat": -35.7157731, "lon": 174.5202172},
@@ -70156,6 +70157,7 @@
         "bridge": "yes",
         "foot": "permissive",
         "highway": "footway",
+        "layer": "1",
         "lit": "no",
         "name": "Pataua Footbridge",
         "surface": "paved"
@@ -75797,6 +75799,7 @@
         {"lat": -36.8539428, "lon": 174.7707648}
       ],
       "tags": {
+        "turn:lanes:forward": "left;through|through|right",
         "foot": "no",
         "highway": "secondary",
         "lanes": "4",
@@ -75806,8 +75809,7 @@
         "name": "Grafton Road",
         "source:maxspeed": "Speed Limits Bylaw 2020",
         "surface": "asphalt",
-        "turn:lanes:backward": "none",
-        "turn:lanes:forward": "left;through|through|right"
+        "turn:lanes:backward": "none"
       }
     },
     {
