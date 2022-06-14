@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-06-12T23:59:59Z",
-    "timestamp_osm_base": "2022-06-13T04:01:03Z",
+    "timestamp_osm_date": "2022-06-13T23:59:59Z",
+    "timestamp_osm_base": "2022-06-14T04:12:50Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6310,19 +6310,17 @@
     {
       "type": "way",
       "id": 769592312,
-      "timestamp": "2021-11-03T01:13:10Z",
-      "version": 4,
-      "changeset": 113307483,
-      "user": "Sequencer",
-      "uid": 9232223,
+      "timestamp": "2022-06-13T01:38:32Z",
+      "version": 5,
+      "changeset": 122302087,
+      "user": "beddy",
+      "uid": 3207726,
       "center": {
         "lat": 38.9471282,
         "lon": -119.959266
       },
       "nodes": [],
       "tags": {
-        "toilets": "yes",
-        "shop": "supermarket",
         "addr:city": "South Lake Tahoe",
         "addr:housenumber": "3600a",
         "addr:postcode": "96150",
@@ -6332,8 +6330,12 @@
         "brand:wikidata": "Q1809448",
         "brand:wikipedia": "en:Whole Foods Market",
         "building": "commercial",
+        "building:levels": "1",
         "name": "Whole Foods Market",
-        "opening_hours": "Mo-Su 08:00-22:00"
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "roof:levels": "1",
+        "shop": "supermarket",
+        "toilets": "yes"
       }
     },
     {
@@ -6863,6 +6865,25 @@
         "payment:contactless": "yes",
         "payment:credit_cards": "yes",
         "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1069309385,
+      "timestamp": "2022-06-13T15:17:13Z",
+      "version": 1,
+      "changeset": 122330209,
+      "user": "beddy",
+      "uid": 3207726,
+      "center": {
+        "lat": 38.9534389,
+        "lon": -119.7654734
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "gazebo"
       }
     }
   ]

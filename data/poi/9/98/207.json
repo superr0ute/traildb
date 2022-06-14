@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-06-12T23:59:59Z",
-    "timestamp_osm_base": "2022-06-13T04:28:18Z",
+    "timestamp_osm_date": "2022-06-13T23:59:59Z",
+    "timestamp_osm_base": "2022-06-14T04:42:23Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -756,17 +756,16 @@
       "id": 359251329,
       "lat": 32.2102539,
       "lon": -110.9923378,
-      "timestamp": "2022-02-23T04:30:06Z",
-      "version": 6,
-      "changeset": 117751050,
+      "timestamp": "2022-06-13T22:16:58Z",
+      "version": 7,
+      "changeset": 122345567,
       "user": "BubbaJuice",
       "uid": 9941767,
       "tags": {
         "alt_name": "'A' Mountain",
         "ele": "884.2",
-        "gnis:county_id": "019",
         "gnis:feature_id": "11085",
-        "gnis:state_id": "04",
+        "loc_name": "'A' Mountain",
         "name": "Sentinel Peak",
         "natural": "peak",
         "old_name": "Picket Post Butte",
@@ -4341,20 +4340,6 @@
       "tags": {
         "name": "Basha's (vacant)",
         "shop": "supermarket"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4041258198,
-      "lat": 32.2089164,
-      "lon": -110.9970284,
-      "timestamp": "2016-03-05T06:50:10Z",
-      "version": 1,
-      "changeset": 37621974,
-      "user": "ianmcorvidae",
-      "uid": 589637,
-      "tags": {
-        "amenity": "shelter"
       }
     },
     {
@@ -42287,6 +42272,42 @@
         "amenity": "shelter",
         "building": "roof",
         "layer": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1069425559,
+      "timestamp": "2022-06-13T22:16:58Z",
+      "version": 1,
+      "changeset": 122345567,
+      "user": "BubbaJuice",
+      "uid": 9941767,
+      "center": {
+        "lat": 32.2089136,
+        "lon": -110.9970276
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1069438245,
+      "timestamp": "2022-06-13T23:38:03Z",
+      "version": 1,
+      "changeset": 122346833,
+      "user": "BubbaJuice",
+      "uid": 9941767,
+      "center": {
+        "lat": 32.374951,
+        "lon": -110.969032
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "roof",
+        "shelter_type": "picnic_shelter"
       }
     }
   ]
