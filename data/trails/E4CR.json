@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-06-12T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-06-14T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1920350,
-      "timestamp": "2022-06-06T22:23:08Z",
-      "version": 263,
-      "changeset": 122045234,
-      "user": "n76",
-      "uid": 318696,
+      "timestamp": "2022-06-14T18:49:58Z",
+      "version": 264,
+      "changeset": 122385128,
+      "user": "Map-Finder",
+      "uid": 9221753,
       "members": [
         {"type": "node", "ref": 1783588258, "role": ""},
         {"type": "node", "ref": 4566984590, "role": ""},
@@ -757,7 +757,8 @@
         {"type": "way", "ref": 819092131, "role": ""},
         {"type": "way", "ref": 59429831, "role": ""},
         {"type": "way", "ref": 819092147, "role": ""},
-        {"type": "way", "ref": 819092148, "role": ""},
+        {"type": "way", "ref": 1069670169, "role": ""},
+        {"type": "way", "ref": 1069670171, "role": ""},
         {"type": "way", "ref": 819092151, "role": ""},
         {"type": "way", "ref": 819092150, "role": ""},
         {"type": "way", "ref": 819092157, "role": ""},
@@ -2380,6 +2381,46 @@
         "lanes": "2",
         "maxspeed": "40",
         "oneway": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1069670169,
+      "timestamp": "2022-06-14T19:04:01Z",
+      "version": 2,
+      "changeset": 122385758,
+      "user": "Map-Finder",
+      "uid": 9221753,
+      "nodes": [1549389332, 7649428726],
+      "geometry": [
+        {"lat": 35.0546503, "lon": 25.7929794},
+        {"lat": 35.0549416, "lon": 25.7930737}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "reg_ref": "ΕΠ20Α",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1069670171,
+      "timestamp": "2022-06-14T19:04:01Z",
+      "version": 2,
+      "changeset": 122385758,
+      "user": "Map-Finder",
+      "uid": 9221753,
+      "nodes": [9817871295, 1549389332],
+      "geometry": [
+        {"lat": 35.0545935, "lon": 25.7929537},
+        {"lat": 35.0546503, "lon": 25.7929794}
+      ],
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "reg_ref": "ΕΠ20Α",
         "surface": "asphalt"
       }
     },
@@ -26961,18 +27002,18 @@
     {
       "type": "way",
       "id": 490352899,
-      "timestamp": "2022-02-13T14:52:17Z",
-      "version": 5,
-      "changeset": 117357111,
-      "user": "kavousion",
-      "uid": 11367491,
+      "timestamp": "2022-06-14T19:04:01Z",
+      "version": 6,
+      "changeset": 122385758,
+      "user": "Map-Finder",
+      "uid": 9221753,
       "nodes": [1917255615, 7649428736],
       "geometry": [
         {"lat": 35.0508782, "lon": 25.7914068},
         {"lat": 35.0516796, "lon": 25.7917259},
         {"lat": 35.0521364, "lon": 25.7919078}
       ],
-      "tags": {"highway": "secondary", "ref": "ΕΠ20Α"}
+      "tags": {"highway": "secondary", "reg_ref": "ΕΠ20Α"}
     },
     {
       "type": "way",
@@ -40555,19 +40596,24 @@
     {
       "type": "way",
       "id": 59429831,
-      "timestamp": "2022-02-13T14:52:17Z",
-      "version": 6,
-      "changeset": 117357111,
-      "user": "kavousion",
-      "uid": 11367491,
+      "timestamp": "2022-06-14T19:04:01Z",
+      "version": 8,
+      "changeset": 122385758,
+      "user": "Map-Finder",
+      "uid": 9221753,
       "nodes": [415447003, 7649428727],
       "geometry": [
         {"lat": 35.0556342, "lon": 25.7932924},
         {"lat": 35.0555668, "lon": 25.793296},
         {"lat": 35.05551, "lon": 25.7932829},
-        {"lat": 35.0550302, "lon": 25.7930992}
+        {"lat": 35.0550266, "lon": 25.7931036}
       ],
-      "tags": {"highway": "secondary", "ref": "ΕΠ20Α"}
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "reg_ref": "ΕΠ20Α",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -47726,37 +47772,22 @@
     {
       "type": "way",
       "id": 819092147,
-      "timestamp": "2022-02-13T14:52:17Z",
-      "version": 2,
-      "changeset": 117357111,
-      "user": "kavousion",
-      "uid": 11367491,
+      "timestamp": "2022-06-14T19:04:01Z",
+      "version": 3,
+      "changeset": 122385758,
+      "user": "Map-Finder",
+      "uid": 9221753,
       "nodes": [7649428727, 7649428726],
       "geometry": [
-        {"lat": 35.0550302, "lon": 25.7930992},
-        {"lat": 35.0549517, "lon": 25.7930693}
+        {"lat": 35.0550266, "lon": 25.7931036},
+        {"lat": 35.0549416, "lon": 25.7930737}
       ],
       "tags": {
         "bridge": "yes",
         "highway": "secondary",
         "layer": "1",
-        "ref": "ΕΠ20Α"
+        "reg_ref": "ΕΠ20Α"
       }
-    },
-    {
-      "type": "way",
-      "id": 819092148,
-      "timestamp": "2022-02-13T14:52:17Z",
-      "version": 2,
-      "changeset": 117357111,
-      "user": "kavousion",
-      "uid": 11367491,
-      "nodes": [7649428726, 32530062],
-      "geometry": [
-        {"lat": 35.0549517, "lon": 25.7930693},
-        {"lat": 35.0546532, "lon": 25.7929512}
-      ],
-      "tags": {"highway": "secondary", "ref": "ΕΠ20Α"}
     },
     {
       "type": "way",
@@ -47781,18 +47812,22 @@
     {
       "type": "way",
       "id": 819092151,
-      "timestamp": "2022-02-13T14:52:17Z",
-      "version": 2,
-      "changeset": 117357111,
-      "user": "kavousion",
-      "uid": 11367491,
-      "nodes": [7649428730, 32530062],
+      "timestamp": "2022-06-14T18:49:58Z",
+      "version": 3,
+      "changeset": 122385128,
+      "user": "Map-Finder",
+      "uid": 9221753,
+      "nodes": [7649428730, 9817871295],
       "geometry": [
         {"lat": 35.0540574, "lon": 25.7927105},
-        {"lat": 35.0546022, "lon": 25.7929323},
-        {"lat": 35.0546532, "lon": 25.7929512}
+        {"lat": 35.0545935, "lon": 25.7929537}
       ],
-      "tags": {"highway": "secondary", "ref": "ΕΠ20Α"}
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "ref": "ΕΠ20Α",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -47817,18 +47852,24 @@
     {
       "type": "way",
       "id": 819092157,
-      "timestamp": "2022-02-13T14:52:17Z",
-      "version": 2,
-      "changeset": 117357111,
-      "user": "kavousion",
-      "uid": 11367491,
+      "timestamp": "2022-06-14T19:04:01Z",
+      "version": 3,
+      "changeset": 122385758,
+      "user": "Map-Finder",
+      "uid": 9221753,
       "nodes": [7649428735, 7649428731],
       "geometry": [
         {"lat": 35.0522044, "lon": 25.7919349},
         {"lat": 35.0524635, "lon": 25.7920389},
+        {"lat": 35.0537931, "lon": 25.7925991},
         {"lat": 35.0539906, "lon": 25.7926823}
       ],
-      "tags": {"highway": "secondary", "ref": "ΕΠ20Α"}
+      "tags": {
+        "highway": "secondary",
+        "lanes": "2",
+        "reg_ref": "ΕΠ20Α",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",

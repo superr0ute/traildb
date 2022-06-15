@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-06-10T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-06-14T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10909145,
-      "timestamp": "2022-05-27T12:04:05Z",
-      "version": 1524,
-      "changeset": 121573108,
-      "user": "gebux",
-      "uid": 1870749,
+      "timestamp": "2022-06-14T09:11:28Z",
+      "version": 1525,
+      "changeset": 122362320,
+      "user": "micheleOSM3",
+      "uid": 3538539,
       "members": [
         {"type": "node", "ref": 4007110375, "role": ""},
         {"type": "way", "ref": 1004393561, "role": ""},
@@ -1296,6 +1296,7 @@
         {"type": "way", "ref": 904743426, "role": ""},
         {"type": "way", "ref": 871565015, "role": ""},
         {"type": "way", "ref": 40109536, "role": ""},
+        {"type": "way", "ref": 1069532719, "role": ""},
         {"type": "way", "ref": 793385824, "role": ""},
         {"type": "way", "ref": 268429051, "role": ""},
         {"type": "way", "ref": 268429053, "role": ""},
@@ -4790,6 +4791,36 @@
         "maxspeed": "30",
         "name": "Via del Foro",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1069532719,
+      "timestamp": "2022-06-14T09:11:28Z",
+      "version": 1,
+      "changeset": 122362320,
+      "user": "micheleOSM3",
+      "uid": 3538539,
+      "nodes": [403063583, 7418608821],
+      "geometry": [
+        {"lat": 46.4800032, "lon": 12.7483017},
+        {"lat": 46.479991, "lon": 12.7483244},
+        {"lat": 46.4799726, "lon": 12.7483301},
+        {"lat": 46.479921, "lon": 12.7483184}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "incline": "5%",
+        "motor_vehicle": "yes",
+        "motorcar": "yes",
+        "motorcycle": "yes",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: + iwn: Via Alpina Yellow B5 + nrw: + rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22a, 220 + lwn: 4a",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
+        "tracktype": "grade1",
+        "width": "3"
       }
     },
     {
@@ -43391,12 +43422,12 @@
     {
       "type": "way",
       "id": 40109536,
-      "timestamp": "2022-02-26T20:38:50Z",
-      "version": 15,
-      "changeset": 117891249,
-      "user": "Wulz",
-      "uid": 10773975,
-      "nodes": [274966785, 7418608821],
+      "timestamp": "2022-06-14T09:11:28Z",
+      "version": 16,
+      "changeset": 122362320,
+      "user": "micheleOSM3",
+      "uid": 3538539,
+      "nodes": [274966785, 403063583],
       "geometry": [
         {"lat": 46.4802467, "lon": 12.755131},
         {"lat": 46.4802001, "lon": 12.7548652},
@@ -43423,8 +43454,7 @@
         {"lat": 46.481466, "lon": 12.748892},
         {"lat": 46.480714, "lon": 12.7484961},
         {"lat": 46.480217, "lon": 12.748447},
-        {"lat": 46.4800432, "lon": 12.7483361},
-        {"lat": 46.4799311, "lon": 12.7483261}
+        {"lat": 46.4800032, "lon": 12.7483017}
       ],
       "tags": {
         "bicycle": "yes",
@@ -43434,7 +43464,7 @@
         "motor_vehicle": "yes",
         "motorcar": "yes",
         "motorcycle": "yes",
-        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: \n+ iwn: Via Alpina Yellow B5\n+ nrw: \n+ rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22a, 220\n+ lwn: 4a",
+        "note": "The “Julius Kugy Alpine Trail” is accompanied by the following national and regional hiking trails: + iwn: Via Alpina Yellow B5 + nrw: + rwn: Julius-Kugy-DLW in 30 tappe - collegamento via E 22a, 220 + lwn: 4a",
         "smoothness": "intermediate",
         "surface": "asphalt",
         "tracktype": "grade1",
@@ -69965,7 +69995,7 @@
       "uid": 10773975,
       "nodes": [7418608821, 2737595831],
       "geometry": [
-        {"lat": 46.4799311, "lon": 12.7483261},
+        {"lat": 46.479921, "lon": 12.7483184},
         {"lat": 46.479504, "lon": 12.748157},
         {"lat": 46.479169, "lon": 12.748118},
         {"lat": 46.478306, "lon": 12.748222},

@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-06-13T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-06-14T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2328,11 +2328,11 @@
     {
       "type": "relation",
       "id": 9605870,
-      "timestamp": "2022-05-17T07:09:38Z",
-      "version": 40,
-      "changeset": 121083022,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-06-14T03:42:08Z",
+      "version": 41,
+      "changeset": 122349740,
+      "user": "StenSoft",
+      "uid": 255936,
       "members": [
         {"type": "way", "ref": 149336310, "role": ""},
         {"type": "way", "ref": 1009823792, "role": ""},
@@ -2377,6 +2377,7 @@
         {"type": "way", "ref": 34324413, "role": ""},
         {"type": "way", "ref": 128944706, "role": ""},
         {"type": "way", "ref": 623917419, "role": ""},
+        {"type": "way", "ref": 1069460974, "role": ""},
         {"type": "way", "ref": 772329359, "role": ""},
         {"type": "way", "ref": 623917420, "role": ""},
         {"type": "way", "ref": 639208225, "role": ""},
@@ -7952,6 +7953,38 @@
     },
     {
       "type": "way",
+      "id": 1069460974,
+      "timestamp": "2022-06-14T03:42:08Z",
+      "version": 1,
+      "changeset": 122349740,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [9816209921, 25769966],
+      "geometry": [
+        {"lat": -36.8524542, "lon": 174.7705541},
+        {"lat": -36.8523916, "lon": 174.7705473},
+        {"lat": -36.8522307, "lon": 174.7705217},
+        {"lat": -36.8521941, "lon": 174.7705116},
+        {"lat": -36.8521563, "lon": 174.7704937},
+        {"lat": -36.8521094, "lon": 174.7704631},
+        {"lat": -36.8520798, "lon": 174.7704247},
+        {"lat": -36.8520346, "lon": 174.7703864},
+        {"lat": -36.8519062, "lon": 174.7703367}
+      ],
+      "tags": {
+        "foot": "no",
+        "highway": "secondary",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Grafton Road",
+        "oneway": "yes",
+        "source:maxspeed": "Speed Limits Bylaw 2020",
+        "surface": "asphalt",
+        "turn:lanes": "left|right"
+      }
+    },
+    {
+      "type": "way",
       "id": 106976564,
       "timestamp": "2018-11-26T12:39:35Z",
       "version": 6,
@@ -8911,18 +8944,20 @@
     {
       "type": "way",
       "id": 118778197,
-      "timestamp": "2022-01-28T00:24:06Z",
-      "version": 9,
-      "changeset": 116686762,
-      "user": "KingCZE",
-      "uid": 13552526,
+      "timestamp": "2022-06-14T03:51:03Z",
+      "version": 10,
+      "changeset": 122349894,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [1235406187, 437988287],
       "geometry": [
         {"lat": -36.8548756, "lon": 174.7709802},
-        {"lat": -36.8549594, "lon": 174.7710221},
-        {"lat": -36.8550901, "lon": 174.7711413},
-        {"lat": -36.8551173, "lon": 174.7711661},
-        {"lat": -36.8551588, "lon": 174.771204}
+        {"lat": -36.8549338, "lon": 174.7710107},
+        {"lat": -36.855002, "lon": 174.7710523},
+        {"lat": -36.8550568, "lon": 174.7710916},
+        {"lat": -36.8551033, "lon": 174.7711299},
+        {"lat": -36.8551297, "lon": 174.7711517},
+        {"lat": -36.8551654, "lon": 174.7711988}
       ],
       "tags": {
         "foot": "no",
@@ -8938,24 +8973,27 @@
     {
       "type": "way",
       "id": 118778198,
-      "timestamp": "2022-01-28T00:24:06Z",
-      "version": 7,
-      "changeset": 116686762,
-      "user": "KingCZE",
-      "uid": 13552526,
+      "timestamp": "2022-06-14T03:48:54Z",
+      "version": 8,
+      "changeset": 122349860,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [25770129, 5078709195],
       "geometry": [
         {"lat": -36.8539428, "lon": 174.7707648},
         {"lat": -36.854185, "lon": 174.7708716}
       ],
       "tags": {
-        "surface": "asphalt",
-        "oneway": "yes",
-        "name": "Grafton Road",
-        "maxspeed": "50",
+        "destination": "Hospital;Grafton",
+        "destination:ref": "SH 1;SH 16",
+        "destination:symbol": "hospital",
         "foot": "no",
         "highway": "secondary",
-        "lanes": "2"
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Grafton Road",
+        "oneway": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -9235,11 +9273,11 @@
     {
       "type": "way",
       "id": 128944706,
-      "timestamp": "2022-03-19T07:03:51Z",
-      "version": 11,
-      "changeset": 118655519,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-06-14T03:42:08Z",
+      "version": 12,
+      "changeset": 122349740,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [355413515, 9589218552],
       "geometry": [
         {"lat": -36.8522403, "lon": 174.7706075},
@@ -9247,8 +9285,9 @@
         {"lat": -36.8525383, "lon": 174.7706344},
         {"lat": -36.8528141, "lon": 174.7706621},
         {"lat": -36.8528931, "lon": 174.7706696},
-        {"lat": -36.853041, "lon": 174.7706812},
-        {"lat": -36.8530811, "lon": 174.7706492}
+        {"lat": -36.8529736, "lon": 174.7706727},
+        {"lat": -36.8530429, "lon": 174.7706679},
+        {"lat": -36.8531342, "lon": 174.7706601}
       ],
       "tags": {
         "foot": "no",
@@ -46736,14 +46775,14 @@
     {
       "type": "way",
       "id": 34324413,
-      "timestamp": "2022-03-19T07:03:51Z",
-      "version": 20,
-      "changeset": 118655519,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-06-14T03:42:08Z",
+      "version": 21,
+      "changeset": 122349740,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [25769966, 355413515],
       "geometry": [
-        {"lat": -36.8519293, "lon": 174.7703133},
+        {"lat": -36.8519062, "lon": 174.7703367},
         {"lat": -36.8519676, "lon": 174.7704621},
         {"lat": -36.8520091, "lon": 174.770516},
         {"lat": -36.8520515, "lon": 174.7705523},
@@ -46752,8 +46791,8 @@
         {"lat": -36.8522403, "lon": 174.7706075}
       ],
       "tags": {
-        "surface": "asphalt",
-        "source:maxspeed": "Speed Limits Bylaw 2020",
+        "destination": "Hospital;Newmarket",
+        "destination:symbol": "hospital",
         "foot": "no",
         "highway": "secondary",
         "lanes": "1",
@@ -46761,7 +46800,9 @@
         "lanes:forward": "1",
         "maxspeed": "30",
         "name": "Grafton Road",
-        "oneway": "yes"
+        "oneway": "yes",
+        "source:maxspeed": "Speed Limits Bylaw 2020",
+        "surface": "asphalt"
       }
     },
     {
@@ -51819,17 +51860,18 @@
     {
       "type": "way",
       "id": 373848770,
-      "timestamp": "2020-12-18T04:32:08Z",
-      "version": 10,
-      "changeset": 96039095,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-06-14T03:42:08Z",
+      "version": 11,
+      "changeset": 122349740,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [294050427, 25769966],
       "geometry": [
         {"lat": -36.8517707, "lon": 174.7700625},
-        {"lat": -36.8518185, "lon": 174.7701599},
-        {"lat": -36.8518655, "lon": 174.770225},
-        {"lat": -36.8519293, "lon": 174.7703133}
+        {"lat": -36.8518029, "lon": 174.7701576},
+        {"lat": -36.8518224, "lon": 174.7702087},
+        {"lat": -36.8518425, "lon": 174.7702452},
+        {"lat": -36.8519062, "lon": 174.7703367}
       ],
       "tags": {
         "access": "private",
@@ -73584,17 +73626,19 @@
     {
       "type": "way",
       "id": 619203604,
-      "timestamp": "2022-01-15T10:10:02Z",
-      "version": 9,
-      "changeset": 116176651,
-      "user": "KingCZE",
-      "uid": 13552526,
+      "timestamp": "2022-06-14T05:17:02Z",
+      "version": 10,
+      "changeset": 122352094,
+      "user": "kylenz",
+      "uid": 10140394,
       "nodes": [5850030360, 5851726483],
       "geometry": [
         {"lat": -36.6699999, "lon": 174.6823233},
         {"lat": -36.669544, "lon": 174.6817834},
         {"lat": -36.668506, "lon": 174.6805541},
         {"lat": -36.6679415, "lon": 174.6799533},
+        {"lat": -36.6673686, "lon": 174.679511},
+        {"lat": -36.6671107, "lon": 174.679312},
         {"lat": -36.6652209, "lon": 174.6778531},
         {"lat": -36.6641549, "lon": 174.6770866},
         {"lat": -36.6638604, "lon": 174.6768133},
@@ -74030,8 +74074,8 @@
       "uid": 13552526,
       "nodes": [437988287, 25770127],
       "geometry": [
-        {"lat": -36.8551588, "lon": 174.771204},
-        {"lat": -36.8551889, "lon": 174.7712853}
+        {"lat": -36.8551654, "lon": 174.7711988},
+        {"lat": -36.8552013, "lon": 174.7712667}
       ],
       "tags": {
         "foot": "no",
@@ -74236,25 +74280,20 @@
     {
       "type": "way",
       "id": 623917419,
-      "timestamp": "2022-03-19T07:03:51Z",
-      "version": 8,
-      "changeset": 118655519,
-      "user": "kylenz",
-      "uid": 10140394,
-      "nodes": [9589218552, 25769966],
+      "timestamp": "2022-06-14T03:42:08Z",
+      "version": 9,
+      "changeset": 122349740,
+      "user": "StenSoft",
+      "uid": 255936,
+      "nodes": [9589218552, 9816209921],
       "geometry": [
-        {"lat": -36.8530811, "lon": 174.7706492},
-        {"lat": -36.8530512, "lon": 174.7706208},
+        {"lat": -36.8531342, "lon": 174.7706601},
+        {"lat": -36.8530468, "lon": 174.7706333},
+        {"lat": -36.8530002, "lon": 174.770618},
         {"lat": -36.8529511, "lon": 174.770609},
         {"lat": -36.8529075, "lon": 174.770603},
         {"lat": -36.8528687, "lon": 174.7705987},
-        {"lat": -36.8523916, "lon": 174.7705473},
-        {"lat": -36.8522307, "lon": 174.7705217},
-        {"lat": -36.8521563, "lon": 174.7704937},
-        {"lat": -36.8521094, "lon": 174.7704631},
-        {"lat": -36.852074, "lon": 174.7704216},
-        {"lat": -36.8520459, "lon": 174.7703786},
-        {"lat": -36.8519293, "lon": 174.7703133}
+        {"lat": -36.8524542, "lon": 174.7705541}
       ],
       "tags": {
         "foot": "no",
@@ -75787,19 +75826,21 @@
     {
       "type": "way",
       "id": 639208225,
-      "timestamp": "2022-01-28T00:24:06Z",
-      "version": 5,
-      "changeset": 116686762,
-      "user": "KingCZE",
-      "uid": 13552526,
+      "timestamp": "2022-06-14T03:48:54Z",
+      "version": 6,
+      "changeset": 122349860,
+      "user": "StenSoft",
+      "uid": 255936,
       "nodes": [6023586665, 25770129],
       "geometry": [
         {"lat": -36.8536678, "lon": 174.7707173},
+        {"lat": -36.8537606, "lon": 174.7707331},
+        {"lat": -36.8538077, "lon": 174.7707411},
         {"lat": -36.8538604, "lon": 174.77075},
         {"lat": -36.8539428, "lon": 174.7707648}
       ],
       "tags": {
-        "turn:lanes:forward": "left;through|through|right",
+        "destination:backward": "University",
         "foot": "no",
         "highway": "secondary",
         "lanes": "4",
@@ -75809,7 +75850,8 @@
         "name": "Grafton Road",
         "source:maxspeed": "Speed Limits Bylaw 2020",
         "surface": "asphalt",
-        "turn:lanes:backward": "none"
+        "turn:lanes:backward": "none",
+        "turn:lanes:forward": "left;through|through|right"
       }
     },
     {
@@ -82845,11 +82887,11 @@
     {
       "type": "way",
       "id": 684808600,
-      "timestamp": "2020-08-05T05:36:18Z",
-      "version": 5,
-      "changeset": 88959721,
-      "user": "AlwynWellington",
-      "uid": 567640,
+      "timestamp": "2022-06-14T08:06:46Z",
+      "version": 6,
+      "changeset": 122359332,
+      "user": "ChookMan",
+      "uid": 11144302,
       "nodes": [6416423185, 6416423250],
       "geometry": [
         {"lat": -37.001217, "lon": 174.7906895},
@@ -82907,6 +82949,7 @@
         {"lat": -36.9995197, "lon": 174.7968821},
         {"lat": -36.9995454, "lon": 174.7969197},
         {"lat": -36.9995497, "lon": 174.796968},
+        {"lat": -36.9992797, "lon": 174.7979553},
         {"lat": -36.999118, "lon": 174.7985465},
         {"lat": -36.9991073, "lon": 174.7985693},
         {"lat": -36.9990945, "lon": 174.7985921},
@@ -90532,7 +90575,7 @@
       "uid": 10140394,
       "nodes": [9589218552, 422797839],
       "geometry": [
-        {"lat": -36.8530811, "lon": 174.7706492},
+        {"lat": -36.8531342, "lon": 174.7706601},
         {"lat": -36.8532273, "lon": 174.7706658}
       ],
       "tags": {
@@ -98866,7 +98909,7 @@
       "nodes": [437979902, 25770127],
       "geometry": [
         {"lat": -36.8552222, "lon": 174.7713733},
-        {"lat": -36.8551889, "lon": 174.7712853}
+        {"lat": -36.8552013, "lon": 174.7712667}
       ],
       "tags": {
         "highway": "service",

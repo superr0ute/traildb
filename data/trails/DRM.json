@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-06-12T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-06-14T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -11351,9 +11351,9 @@
     {
       "type": "way",
       "id": 16830071,
-      "timestamp": "2022-06-07T19:44:39Z",
-      "version": 23,
-      "changeset": 122087393,
+      "timestamp": "2022-06-14T17:50:34Z",
+      "version": 25,
+      "changeset": 122382857,
       "user": "Silence37",
       "uid": 12430749,
       "nodes": [731246574, 3352002096],
@@ -11365,7 +11365,9 @@
         {"lat": 45.4558129, "lon": 12.4890874}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "unclassified",
+        "lane_markings": "no",
         "name": "Via delle Batterie",
         "surface": "asphalt"
       }
@@ -28995,11 +28997,11 @@
     {
       "type": "way",
       "id": 37052095,
-      "timestamp": "2020-10-30T15:39:47Z",
-      "version": 14,
-      "changeset": 93298933,
-      "user": "Marcello Perathoner",
-      "uid": 8199540,
+      "timestamp": "2022-06-14T09:03:13Z",
+      "version": 15,
+      "changeset": 122361892,
+      "user": "Perseus",
+      "uid": 109752,
       "nodes": [310106483, 430921519],
       "geometry": [
         {"lat": 46.6502921, "lon": 11.814703},
@@ -29115,7 +29117,8 @@
         "name": "Günther Messner Steig",
         "name:de": "Günther Messner Steig",
         "name:it": "Alta Via G. Messner",
-        "sac_scale": "mountain_hiking"
+        "sac_scale": "mountain_hiking",
+        "surface": "rock"
       }
     },
     {
@@ -36259,11 +36262,11 @@
     {
       "type": "way",
       "id": 42674988,
-      "timestamp": "2020-10-30T15:39:47Z",
-      "version": 16,
-      "changeset": 93298933,
-      "user": "Marcello Perathoner",
-      "uid": 8199540,
+      "timestamp": "2022-06-14T07:56:04Z",
+      "version": 18,
+      "changeset": 122358907,
+      "user": "Perseus",
+      "uid": 109752,
       "nodes": [533638191, 430921545],
       "geometry": [
         {"lat": 46.6733279, "lon": 11.8134053},
@@ -36329,6 +36332,8 @@
         "mtb:scale:uphill": "1",
         "ref": "8A",
         "sac_scale": "hiking",
+        "smoothness": "intermediate",
+        "surface": "compacted",
         "tracktype": "grade2"
       }
     },
@@ -36388,11 +36393,11 @@
     {
       "type": "way",
       "id": 42675863,
-      "timestamp": "2021-09-03T00:33:31Z",
-      "version": 8,
-      "changeset": 110643978,
-      "user": "martinst",
-      "uid": 132000,
+      "timestamp": "2022-06-14T08:00:33Z",
+      "version": 12,
+      "changeset": 122358907,
+      "user": "Perseus",
+      "uid": 109752,
       "nodes": [472899111, 430921545],
       "geometry": [
         {"lat": 46.6636778, "lon": 11.808209},
@@ -36441,6 +36446,8 @@
         "motor_vehicle": "agricultural",
         "ref": "8a",
         "sac_scale": "hiking",
+        "smoothness": "bad",
+        "surface": "fine_gravel",
         "tracktype": "grade2"
       }
     },
@@ -37459,11 +37466,11 @@
     {
       "type": "way",
       "id": 439024546,
-      "timestamp": "2022-05-17T00:15:59Z",
-      "version": 3,
-      "changeset": 121073463,
-      "user": "Robhubi",
-      "uid": 3105686,
+      "timestamp": "2022-06-14T08:56:50Z",
+      "version": 4,
+      "changeset": 122361276,
+      "user": "Silence37",
+      "uid": 12430749,
       "nodes": [4366479657, 4307321014],
       "geometry": [
         {"lat": 45.4472757, "lon": 12.4257138},
@@ -37494,7 +37501,8 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
-        "segregated": "no"
+        "segregated": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -48430,11 +48438,11 @@
     {
       "type": "way",
       "id": 79309591,
-      "timestamp": "2020-10-30T15:39:47Z",
-      "version": 9,
-      "changeset": 93298933,
-      "user": "Marcello Perathoner",
-      "uid": 8199540,
+      "timestamp": "2022-06-14T08:31:36Z",
+      "version": 11,
+      "changeset": 122360433,
+      "user": "Perseus",
+      "uid": 109752,
       "nodes": [430921519, 472899111],
       "geometry": [
         {"lat": 46.6538533, "lon": 11.8057398},
@@ -48578,7 +48586,9 @@
         "highway": "path",
         "name": "Rundweg Peitlerkofel",
         "ref": "8A",
-        "sac_scale": "mountain_hiking"
+        "sac_scale": "mountain_hiking",
+        "smoothness": "horrible",
+        "surface": "gravel"
       }
     },
     {
