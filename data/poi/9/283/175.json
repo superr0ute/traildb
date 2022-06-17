@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-06-13T23:59:59Z",
-    "timestamp_osm_base": "2022-06-14T07:17:18Z",
+    "timestamp_osm_date": "2022-06-16T23:59:59Z",
+    "timestamp_osm_base": "2022-06-17T06:40:33Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3070,21 +3070,23 @@
     {
       "type": "node",
       "id": 261637498,
-      "lat": 49.2592195,
-      "lon": 19.0305185,
-      "timestamp": "2020-05-05T10:10:21Z",
-      "version": 11,
-      "changeset": 84684615,
-      "user": "Pan Perníček",
-      "uid": 9641379,
+      "lat": 49.2580251,
+      "lon": 19.0304784,
+      "timestamp": "2022-06-14T19:18:58Z",
+      "version": 12,
+      "changeset": 122386374,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
         "ele": "518",
         "name": "Terchová",
         "name:hu": "Terhely",
+        "name:sk": "Terchová",
         "place": "village",
         "population": "4078",
         "postal_code": "013 06",
         "source:name": "http://www.statistics.sk",
+        "website": "https://www.terchova.sk/",
         "wikidata": "Q932854",
         "wikipedia": "sk:Terchová"
       }
@@ -88990,11 +88992,11 @@
     {
       "type": "way",
       "id": 1032748449,
-      "timestamp": "2022-02-18T01:57:59Z",
-      "version": 1,
-      "changeset": 117543573,
-      "user": "Jan Vojtek",
-      "uid": 4112032,
+      "timestamp": "2022-06-14T19:18:58Z",
+      "version": 2,
+      "changeset": 122386374,
+      "user": "mapperue",
+      "uid": 4887311,
       "center": {
         "lat": 49.2577857,
         "lon": 19.0329615
@@ -89003,7 +89005,8 @@
       "tags": {
         "amenity": "shelter",
         "bench": "yes",
-        "building": "yes"
+        "building": "yes",
+        "shelter_type": "public_transport"
       }
     },
     {
@@ -89177,6 +89180,51 @@
         "bench": "yes",
         "building": "yes",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1069606646,
+      "timestamp": "2022-06-14T14:14:01Z",
+      "version": 1,
+      "changeset": 122374644,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 49.2497904,
+        "lon": 19.0319731
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1069907633,
+      "timestamp": "2022-06-15T11:19:29Z",
+      "version": 1,
+      "changeset": 122413251,
+      "user": "branuloo",
+      "uid": 11325221,
+      "center": {
+        "lat": 49.3223399,
+        "lon": 19.5424523
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Tvrdošín",
+        "addr:housenumber": "397/37",
+        "addr:postcode": "027 44",
+        "addr:street": "Nová",
+        "brand": "Kaufland",
+        "brand:wikidata": "Q685967",
+        "building": "yes",
+        "name": "Kaufland",
+        "operator": "KAUFLAND",
+        "shop": "supermarket"
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-06-13T23:59:59Z",
-    "timestamp_osm_base": "2022-06-14T06:58:09Z",
+    "timestamp_osm_date": "2022-06-16T23:59:59Z",
+    "timestamp_osm_base": "2022-06-17T06:25:38Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9839,6 +9839,10 @@
       "user": "Jezevec",
       "uid": 102554,
       "tags": {
+        "website": "https://www.jednota-hodonin.cz/",
+        "shop": "supermarket",
+        "ref:ruian:addr": "13628909",
+        "name": "COOP Jednota",
         "addr:city": "Vracov",
         "addr:conscriptionnumber": "593",
         "addr:housenumber": "593",
@@ -9847,11 +9851,7 @@
         "addr:street": "Okružní",
         "brand": "COOP Jednota",
         "brand:wikidata": "Q41629254",
-        "brand:wikipedia": "sk:COOP Jednota Slovensko",
-        "name": "COOP Jednota",
-        "ref:ruian:addr": "13628909",
-        "shop": "supermarket",
-        "website": "https://www.jednota-hodonin.cz/"
+        "brand:wikipedia": "sk:COOP Jednota Slovensko"
       }
     },
     {
@@ -18025,6 +18025,50 @@
         "building": "yes",
         "building:ruian:type": "17",
         "ref:ruian:building": "47579439",
+        "shelter_type": "public_transport",
+        "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "way",
+      "id": 260766870,
+      "timestamp": "2022-06-14T10:24:22Z",
+      "version": 3,
+      "changeset": 122366159,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.2238666,
+        "lon": 17.3952227
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "building:ruian:type": "5",
+        "ref:ruian:building": "39059537",
+        "shelter_type": "public_transport",
+        "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "way",
+      "id": 260766916,
+      "timestamp": "2022-06-14T10:24:22Z",
+      "version": 3,
+      "changeset": 122366159,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.2174713,
+        "lon": 17.4021336
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "building:ruian:type": "17",
+        "ref:ruian:building": "45002215",
         "shelter_type": "public_transport",
         "source": "cuzk:ruian"
       }

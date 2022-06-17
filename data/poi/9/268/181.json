@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-06-13T23:59:59Z",
-    "timestamp_osm_base": "2022-06-14T06:17:38Z",
+    "timestamp_osm_date": "2022-06-16T23:59:59Z",
+    "timestamp_osm_base": "2022-06-17T05:46:06Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1023,15 +1023,16 @@
       "id": 212849271,
       "lat": 46.1121639,
       "lon": 8.8306408,
-      "timestamp": "2017-02-20T21:20:42Z",
-      "version": 8,
-      "changeset": 46256420,
-      "user": "ouleyang",
-      "uid": 22827,
+      "timestamp": "2022-06-16T03:12:41Z",
+      "version": 9,
+      "changeset": 122440554,
+      "user": "lpalli",
+      "uid": 48434,
       "tags": {
         "ele": "1734",
         "name": "Monte Gambarogno",
         "natural": "peak",
+        "summit:register": "yes",
         "wikidata": "Q2816668",
         "wikipedia": "it:Monte Gambarogno"
       }
@@ -4692,13 +4693,12 @@
       "id": 691039123,
       "lat": 46.316514,
       "lon": 8.4712184,
-      "timestamp": "2015-03-18T19:39:35Z",
-      "version": 3,
-      "changeset": 29577510,
-      "user": "G4rp",
-      "uid": 2265854,
+      "timestamp": "2022-06-14T02:20:59Z",
+      "version": 4,
+      "changeset": 122348596,
+      "user": "lpalli",
+      "uid": 48434,
       "tags": {
-        "wikipedia": "it:Capanna Grossalp",
         "capacity": "36",
         "ele": "1907",
         "name": "Capanna Grossalp",
@@ -4706,7 +4706,9 @@
         "rooms": "4",
         "tourism": "alpine_hut",
         "website": "http://www.capannagrossalp.ch",
-        "wikidata": "Q166779"
+        "wheelchair": "no",
+        "wikidata": "Q166779",
+        "wikipedia": "it:Capanna Grossalp"
       }
     },
     {
@@ -36051,18 +36053,21 @@
       "id": 8483212894,
       "lat": 46.31662,
       "lon": 8.4913613,
-      "timestamp": "2022-04-19T16:53:28Z",
-      "version": 4,
-      "changeset": 119916339,
-      "user": "Pascal Mages",
-      "uid": 30566,
+      "timestamp": "2022-06-14T02:19:51Z",
+      "version": 7,
+      "changeset": 122348596,
+      "user": "lpalli",
+      "uid": 48434,
       "tags": {
-        "shop": "convenience",
-        "opening_hours": "Mo 09:00-12:00; Tu-Fr 09:00-12:00, 15:00-18:00; Sa 09:00-12:00, 15:00-17:00",
-        "name": "Coop",
         "brand": "Coop",
         "brand:wikidata": "Q432564",
-        "brand:wikipedia": "de:Coop (Schweiz)"
+        "brand:wikipedia": "de:Coop (Schweiz)",
+        "diet:halal": "no",
+        "diet:kosher": "no",
+        "name": "Coop",
+        "opening_hours": "Mo 09:00-12:00; Tu-Fr 09:00-12:00, 15:00-18:00; Sa 09:00-12:00, 15:00-17:00",
+        "shop": "convenience",
+        "wheelchair": "no"
       }
     },
     {
@@ -39453,6 +39458,21 @@
       }
     },
     {
+      "type": "node",
+      "id": 9820770416,
+      "lat": 46.2212351,
+      "lon": 8.7421166,
+      "timestamp": "2022-06-15T19:09:28Z",
+      "version": 1,
+      "changeset": 122431697,
+      "user": "geo-ranger",
+      "uid": 117958,
+      "tags": {
+        "name": "TCS Camping Gordevio-Valle Maggia",
+        "shop": "convenience"
+      }
+    },
+    {
       "type": "way",
       "id": 54564817,
       "timestamp": "2021-06-08T04:29:21Z",
@@ -40577,9 +40597,9 @@
     {
       "type": "way",
       "id": 308754336,
-      "timestamp": "2022-06-13T19:39:57Z",
-      "version": 4,
-      "changeset": 122340706,
+      "timestamp": "2022-06-15T19:09:28Z",
+      "version": 6,
+      "changeset": 122431697,
       "user": "geo-ranger",
       "uid": 117958,
       "center": {
@@ -40589,7 +40609,7 @@
       "nodes": [],
       "tags": {
         "alt_name": "TCS Camping Gordevio Valle Maggia",
-        "name": "Campeggio TCS Gordevio",
+        "name": "TCS Camping Gordevio-Valle Maggia",
         "tourism": "camp_site"
       }
     },

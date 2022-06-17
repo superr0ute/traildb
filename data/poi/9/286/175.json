@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-06-13T23:59:59Z",
-    "timestamp_osm_base": "2022-06-14T07:29:23Z",
+    "timestamp_osm_date": "2022-06-16T23:59:59Z",
+    "timestamp_osm_base": "2022-06-17T06:40:33Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -6966,13 +6966,17 @@
       "id": 893225032,
       "lat": 48.9930912,
       "lon": 21.2440106,
-      "timestamp": "2010-09-02T18:02:07Z",
-      "version": 1,
-      "changeset": 5664292,
-      "user": "solinko",
-      "uid": 279638,
+      "timestamp": "2022-06-16T12:24:15Z",
+      "version": 2,
+      "changeset": 122462299,
+      "user": "infitter",
+      "uid": 6297500,
       "tags": {
-        "amenity": "drinking_water"
+        "access": "yes",
+        "amenity": "drinking_water",
+        "fee": "no",
+        "name": "Pitná fontána",
+        "operator": "Mesto Prešov"
       }
     },
     {
@@ -7361,12 +7365,13 @@
       "id": 1011773528,
       "lat": 48.9712026,
       "lon": 21.5044777,
-      "timestamp": "2010-11-28T22:34:50Z",
-      "version": 1,
-      "changeset": 6482790,
-      "user": "*Martin*",
-      "uid": 4815,
+      "timestamp": "2022-06-15T06:48:35Z",
+      "version": 2,
+      "changeset": 122400851,
+      "user": "PavolG",
+      "uid": 428967,
       "tags": {
+        "fixme": "position maybe misaligned",
         "name": "Hermanovská studnička",
         "natural": "spring"
       }
@@ -7388,31 +7393,17 @@
     },
     {
       "type": "node",
-      "id": 1052423128,
-      "lat": 48.9809308,
-      "lon": 21.1903535,
-      "timestamp": "2014-01-18T23:07:21Z",
-      "version": 2,
-      "changeset": 20076303,
-      "user": "*Martin*",
-      "uid": 4815,
-      "tags": {
-        "amenity": "shelter",
-        "shelter_type": "weather_shelter"
-      }
-    },
-    {
-      "type": "node",
       "id": 1052423878,
       "lat": 48.9670146,
       "lon": 21.190766,
-      "timestamp": "2010-12-20T20:12:59Z",
-      "version": 1,
-      "changeset": 6719491,
-      "user": "*Martin*",
-      "uid": 4815,
+      "timestamp": "2022-06-16T12:24:15Z",
+      "version": 2,
+      "changeset": 122462299,
+      "user": "infitter",
+      "uid": 6297500,
       "tags": {
-        "amenity": "shelter"
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
       }
     },
     {
@@ -16924,6 +16915,132 @@
       }
     },
     {
+      "type": "node",
+      "id": 9822586974,
+      "lat": 48.9608898,
+      "lon": 21.2325711,
+      "timestamp": "2022-06-16T12:24:15Z",
+      "version": 1,
+      "changeset": 122462299,
+      "user": "infitter",
+      "uid": 6297500,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9822586975,
+      "lat": 48.9609466,
+      "lon": 21.2325279,
+      "timestamp": "2022-06-16T12:24:15Z",
+      "version": 1,
+      "changeset": 122462299,
+      "user": "infitter",
+      "uid": 6297500,
+      "tags": {
+        "name": "Borkút",
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9822586977,
+      "lat": 48.9653921,
+      "lon": 21.2310423,
+      "timestamp": "2022-06-16T12:24:15Z",
+      "version": 1,
+      "changeset": 122462299,
+      "user": "infitter",
+      "uid": 6297500,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9822586979,
+      "lat": 48.9624597,
+      "lon": 21.2272641,
+      "timestamp": "2022-06-16T12:24:15Z",
+      "version": 1,
+      "changeset": 122462299,
+      "user": "infitter",
+      "uid": 6297500,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9822586980,
+      "lat": 48.9625229,
+      "lon": 21.2272934,
+      "timestamp": "2022-06-16T12:24:15Z",
+      "version": 1,
+      "changeset": 122462299,
+      "user": "infitter",
+      "uid": 6297500,
+      "tags": {
+        "name": "Čurek",
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9823511438,
+      "lat": 48.9925801,
+      "lon": 21.2004998,
+      "timestamp": "2022-06-16T20:16:26Z",
+      "version": 1,
+      "changeset": 122480220,
+      "user": "infitter",
+      "uid": 6297500,
+      "tags": {
+        "addr:city": "Prešov",
+        "addr:housenumber": "2643",
+        "addr:postcode": "08001",
+        "addr:street": "Vydumanec",
+        "name": "Potraviny Kamilka",
+        "opening_hours": "Mo-Fr 07:00-18:00; Sa 07:00-12:00",
+        "phone": "051/774 18 02",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9823511440,
+      "lat": 48.9809151,
+      "lon": 21.1903714,
+      "timestamp": "2022-06-16T20:16:26Z",
+      "version": 1,
+      "changeset": 122480220,
+      "user": "infitter",
+      "uid": 6297500,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9823511452,
+      "lat": 48.9628354,
+      "lon": 21.2289436,
+      "timestamp": "2022-06-16T20:16:26Z",
+      "version": 1,
+      "changeset": 122480220,
+      "user": "infitter",
+      "uid": 6297500,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
       "type": "way",
       "id": 50431252,
       "timestamp": "2021-08-06T21:34:10Z",
@@ -18344,6 +18461,25 @@
       "center": {
         "lat": 48.9352769,
         "lon": 21.4460119
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1070295741,
+      "timestamp": "2022-06-16T12:24:15Z",
+      "version": 1,
+      "changeset": 122462299,
+      "user": "infitter",
+      "uid": 6297500,
+      "center": {
+        "lat": 48.9629503,
+        "lon": 21.2296145
       },
       "nodes": [],
       "tags": {
