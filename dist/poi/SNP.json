@@ -22873,10 +22873,10 @@
         "@version": 3,
         "@uid": 6297500,
         "@user": "infitter",
-        "brand": "Milk-Agro",
-        "brand:wikidata": "Q64173785",
+        "shop": "supermarket",
         "name": "Milk-Agro",
-        "shop": "supermarket"
+        "brand:wikidata": "Q64173785",
+        "brand": "Milk-Agro"
       },
       "geometry": {
         "type": "Point",
@@ -27811,32 +27811,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_convenience",
-        "@distance": 9955.5,
-        "@id": "n962095127",
-        "@changeset": 121490683,
-        "@timestamp": "2022-05-25T19:39:54Z",
-        "@version": 5,
-        "@uid": 10317199,
-        "@user": "adam 12",
-        "brand": "COOP Jednota",
-        "brand:wikidata": "Q41629254",
-        "brand:wikipedia": "sk:COOP Jednota Slovensko",
-        "name": "COOP Jednota",
-        "operator": "COOP Jednota Slovensko",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.8382856,
-          48.8283391
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
         "@distance": 8781.9,
         "@id": "n962095129",
         "@changeset": 6151113,
@@ -28400,6 +28374,50 @@
         "coordinates": [
           17.7198685,
           48.885351
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 301.7,
+        "@id": "n1658828643",
+        "@changeset": 118544984,
+        "@timestamp": "2022-03-16T10:18:06Z",
+        "@version": 2,
+        "@uid": 21515,
+        "@user": "lubosb",
+        "name": "Terno",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0692093,
+          48.8976059
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 487.5,
+        "@id": "n1658828647",
+        "@changeset": 41807827,
+        "@timestamp": "2016-08-30T17:35:07Z",
+        "@version": 2,
+        "@uid": 4130016,
+        "@user": "Milo12",
+        "name": "COOP Jednota",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0736618,
+          48.8989989
         ]
       }
     },
@@ -39566,50 +39584,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 301.7,
-        "@id": "n1658828643",
-        "@changeset": 118544984,
-        "@timestamp": "2022-03-16T10:18:06Z",
-        "@version": 2,
-        "@uid": 21515,
-        "@user": "lubosb",
-        "name": "Terno",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.0692093,
-          48.8976059
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 487.5,
-        "@id": "n1658828647",
-        "@changeset": 41807827,
-        "@timestamp": "2016-08-30T17:35:07Z",
-        "@version": 2,
-        "@uid": 4130016,
-        "@user": "Milo12",
-        "name": "COOP Jednota",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.0736618,
-          48.8989989
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_spring",
         "@distance": 1977.6,
         "@id": "n1722681810",
@@ -47544,21 +47518,21 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
-        "@distance": 1289.7,
+        "@distance": 1288.1,
         "@id": "n3201830176",
-        "@changeset": 26977268,
-        "@timestamp": "2014-11-23T16:46:38Z",
-        "@version": 1,
-        "@uid": 4815,
-        "@user": "*Martin*",
+        "@changeset": 122523722,
+        "@timestamp": "2022-06-17T20:20:30Z",
+        "@version": 2,
+        "@uid": 15784928,
+        "@user": "BelKed",
         "amenity": "shelter",
         "shelter_type": "weather_shelter"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.2314021,
-          48.764077
+          21.2313391,
+          48.764096
         ]
       }
     },
@@ -47566,21 +47540,23 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
-        "@distance": 1287.7,
+        "@distance": 1281.3,
         "@id": "n3201830177",
-        "@changeset": 26977268,
-        "@timestamp": "2014-11-23T16:46:38Z",
-        "@version": 1,
-        "@uid": 4815,
-        "@user": "*Martin*",
+        "@changeset": 122523722,
+        "@timestamp": "2022-06-17T20:20:30Z",
+        "@version": 2,
+        "@uid": 15784928,
+        "@user": "BelKed",
         "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
         "shelter_type": "weather_shelter"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.2313546,
-          48.7640827
+          21.2311809,
+          48.7641119
         ]
       }
     },
@@ -61374,6 +61350,29 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 815.1,
+        "@id": "n6003208985",
+        "@changeset": 63733236,
+        "@timestamp": "2018-10-21T17:22:04Z",
+        "@version": 1,
+        "@uid": 379917,
+        "@user": "Tombo",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter",
+        "source": "DigitalGlobe Premium Imagery, survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6797378,
+          48.8862472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "peak_peak",
         "@distance": 3796.6,
         "@id": "n5563583513",
@@ -67228,6 +67227,72 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
+        "@distance": 596,
+        "@id": "n9826588752",
+        "@changeset": 122526629,
+        "@timestamp": "2022-06-17T22:55:34Z",
+        "@version": 1,
+        "@uid": 6297500,
+        "@user": "infitter",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1917764,
+          48.9899713
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1052.2,
+        "@id": "n9826588770",
+        "@changeset": 122526629,
+        "@timestamp": "2022-06-17T22:55:34Z",
+        "@version": 1,
+        "@uid": 6297500,
+        "@user": "infitter",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1937078,
+          48.9853458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2975.7,
+        "@id": "n9826589317",
+        "@changeset": 122526629,
+        "@timestamp": "2022-06-17T22:55:34Z",
+        "@version": 1,
+        "@uid": 6297500,
+        "@user": "infitter",
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.225418,
+          48.9900734
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
         "@distance": 744.3,
         "@id": "w55924299",
         "@changeset": 64202184,
@@ -67962,65 +68027,6 @@
         "coordinates": [
           21.2566998,
           49.0133064
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 469.4,
-        "@id": "w829884508",
-        "@changeset": 120994693,
-        "@timestamp": "2022-05-14T22:30:46Z",
-        "@version": 3,
-        "@uid": 6990611,
-        "@user": "l0cKy",
-        "addr:city": "Svidník",
-        "addr:conscriptionnumber": "2292",
-        "addr:country": "SK",
-        "addr:housenumber": "133",
-        "addr:postcode": "08901",
-        "addr:street": "Sovietskych hrdinov",
-        "brand": "Kaufland",
-        "brand:wikidata": "Q685967",
-        "brand:wikipedia": "sk:Kaufland",
-        "building": "commercial",
-        "check_date": "2022-05-14",
-        "name": "Kaufland",
-        "opening_hours": "Mo-Sa 07:00-21:00; Su 08:00-20:00",
-        "operator": "Kaufland Slovenská republika v.o.s.",
-        "shop": "supermarket",
-        "website": "https://www.kaufland.sk/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.5719717,
-          49.3130934
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 128.5,
-        "@id": "w844848408",
-        "@changeset": 90492932,
-        "@timestamp": "2020-09-06T20:42:27Z",
-        "@version": 1,
-        "@uid": 8819348,
-        "@user": "Dobinger",
-        "amenity": "shelter",
-        "building": "yes",
-        "shelter_type": "picnic_shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.2040066,
-          49.2464921
         ]
       }
     },
@@ -70887,29 +70893,6 @@
         "coordinates": [
           17.8345392,
           48.9365832
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 815.1,
-        "@id": "n6003208985",
-        "@changeset": 63733236,
-        "@timestamp": "2018-10-21T17:22:04Z",
-        "@version": 1,
-        "@uid": 379917,
-        "@user": "Tombo",
-        "amenity": "shelter",
-        "shelter_type": "picnic_shelter",
-        "source": "DigitalGlobe Premium Imagery, survey"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.6797378,
-          48.8862472
         ]
       }
     },
@@ -76587,6 +76570,65 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 469.4,
+        "@id": "w829884508",
+        "@changeset": 120994693,
+        "@timestamp": "2022-05-14T22:30:46Z",
+        "@version": 3,
+        "@uid": 6990611,
+        "@user": "l0cKy",
+        "addr:city": "Svidník",
+        "addr:conscriptionnumber": "2292",
+        "addr:country": "SK",
+        "addr:housenumber": "133",
+        "addr:postcode": "08901",
+        "addr:street": "Sovietskych hrdinov",
+        "brand": "Kaufland",
+        "brand:wikidata": "Q685967",
+        "brand:wikipedia": "sk:Kaufland",
+        "building": "commercial",
+        "check_date": "2022-05-14",
+        "name": "Kaufland",
+        "opening_hours": "Mo-Sa 07:00-21:00; Su 08:00-20:00",
+        "operator": "Kaufland Slovenská republika v.o.s.",
+        "shop": "supermarket",
+        "website": "https://www.kaufland.sk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.5719717,
+          49.3130934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 128.5,
+        "@id": "w844848408",
+        "@changeset": 90492932,
+        "@timestamp": "2020-09-06T20:42:27Z",
+        "@version": 1,
+        "@uid": 8819348,
+        "@user": "Dobinger",
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2040066,
+          49.2464921
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 6498.2,
         "@id": "w847825647",
@@ -77904,27 +77946,6 @@
         "coordinates": [
           21.1499366,
           48.8133455
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1421.6,
-        "@id": "n5994936599",
-        "@changeset": 63636423,
-        "@timestamp": "2018-10-18T08:38:53Z",
-        "@version": 1,
-        "@uid": 6974745,
-        "@user": "MM_KE_MM",
-        "amenity": "shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.141552,
-          48.8144334
         ]
       }
     },
@@ -80968,22 +80989,22 @@
         "@version": 9,
         "@uid": 1617449,
         "@user": "aceman444",
+        "addr:hamlet": "Belá",
+        "wheelchair": "yes",
+        "addr:street": "Belá",
+        "website": "https://tesco.sk/obchody/detail-obchodu/trencin-hypermarket/",
+        "source": "kapor2",
         "addr:city": "Trenčín",
         "addr:conscriptionnumber": "6469",
         "addr:country": "SK",
-        "addr:hamlet": "Belá",
         "addr:housenumber": "6469",
         "addr:postcode": "91101",
-        "addr:street": "Belá",
         "branch": "Trenčín",
         "building": "retail",
         "name": "Tesco Hypermarket",
         "opening_hours": "Mo-Su 06:00-22:00",
         "operator": "Tesco Stores SR",
-        "shop": "supermarket",
-        "source": "kapor2",
-        "website": "https://tesco.sk/obchody/detail-obchodu/trencin-hypermarket/",
-        "wheelchair": "yes"
+        "shop": "supermarket"
       },
       "geometry": {
         "type": "Point",
@@ -85626,6 +85647,27 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
+        "@distance": 1421.6,
+        "@id": "n5994936599",
+        "@changeset": 63636423,
+        "@timestamp": "2018-10-18T08:38:53Z",
+        "@version": 1,
+        "@uid": 6974745,
+        "@user": "MM_KE_MM",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.141552,
+          48.8144334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
         "@distance": 1616.3,
         "@id": "n5994959821",
         "@changeset": 80810808,
@@ -89494,6 +89536,35 @@
         "coordinates": [
           17.6101675,
           48.5237913
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 9956.2,
+        "@id": "w889011626",
+        "@changeset": 122514828,
+        "@timestamp": "2022-06-17T16:03:14Z",
+        "@version": 3,
+        "@uid": 21515,
+        "@user": "lubosb",
+        "brand": "COOP Jednota",
+        "brand:wikidata": "Q41629254",
+        "brand:wikipedia": "sk:COOP Jednota Slovensko",
+        "building": "yes",
+        "name": "COOP Jednota",
+        "opening_hours": "Mo-Fr 06:00-18:00; Sa 06:00-12:00",
+        "opening_hours:url": "https://www.azet.sk/firma/pobocka/68789/74510/250072/coop-jednota-trencin-bosaca/#otvaracie-hodiny",
+        "operator": "COOP Jednota Slovensko",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8382548,
+          48.8283436
         ]
       }
     },
