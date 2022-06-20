@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-06-18T23:59:59Z",
-    "timestamp_osm_base": "2022-06-19T05:53:36Z",
+    "timestamp_osm_date": "2022-06-19T23:59:59Z",
+    "timestamp_osm_base": "2022-06-20T05:47:40Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -15233,23 +15233,6 @@
         "name": "Kreuzspitze",
         "natural": "peak",
         "wikidata": "Q21878307"
-      }
-    },
-    {
-      "type": "node",
-      "id": 1453574187,
-      "lat": 47.109515,
-      "lon": 9.414399,
-      "timestamp": "2015-12-21T12:19:43Z",
-      "version": 2,
-      "changeset": 36084089,
-      "user": "asdf2",
-      "uid": 1416503,
-      "tags": {
-        "ele": "2343",
-        "name": "Gipfelhütte Alvier",
-        "tourism": "alpine_hut",
-        "website": "http://www.vs-wallis.ch/stgallen/huetverz/alvier.html"
       }
     },
     {
@@ -42555,18 +42538,36 @@
     },
     {
       "type": "node",
-      "id": 9794584179,
-      "lat": 47.3561095,
-      "lon": 9.677054,
-      "timestamp": "2022-06-04T11:17:21Z",
-      "version": 1,
-      "changeset": 121935104,
+      "id": 9794301495,
+      "lat": 47.3592444,
+      "lon": 9.6731391,
+      "timestamp": "2022-06-19T07:48:31Z",
+      "version": 2,
+      "changeset": 122569698,
       "user": "Kwatrecht",
       "uid": 15871836,
       "tags": {
         "amenity": "drinking_water",
-        "bottle": "yes",
-        "fee": "yes"
+        "colour": "red",
+        "emergency": "fire_hydrant",
+        "fee": "no",
+        "fire_hydrant:type": "pillar",
+        "water_source": "main"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9794584179,
+      "lat": 47.3561095,
+      "lon": 9.677054,
+      "timestamp": "2022-06-19T07:48:31Z",
+      "version": 2,
+      "changeset": 122569698,
+      "user": "Kwatrecht",
+      "uid": 15871836,
+      "tags": {
+        "amenity": "drinking_water",
+        "fee": "no"
       }
     },
     {
@@ -42763,6 +42764,20 @@
       "tags": {
         "amenity": "drinking_water",
         "description": "Wasserhahn mit 1m Schlauch direkt neben der Zapfsäule"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9830951771,
+      "lat": 47.179887,
+      "lon": 9.3295752,
+      "timestamp": "2022-06-19T13:21:29Z",
+      "version": 1,
+      "changeset": 122579539,
+      "user": "schoen6",
+      "uid": 2395427,
+      "tags": {
+        "amenity": "shelter"
       }
     },
     {
@@ -45739,21 +45754,22 @@
     {
       "type": "way",
       "id": 147112361,
-      "timestamp": "2019-01-09T18:37:30Z",
-      "version": 4,
-      "changeset": 66171875,
-      "user": "Edward",
-      "uid": 364,
+      "timestamp": "2022-06-19T14:55:03Z",
+      "version": 5,
+      "changeset": 122582565,
+      "user": "drfurgi",
+      "uid": 13987944,
       "center": {
-        "lat": 47.0440654,
-        "lon": 9.6836669
+        "lat": 47.0440581,
+        "lon": 9.6837046
       },
       "nodes": [],
       "tags": {
         "building": "yes",
         "ele": "1908",
         "email": "info@schesaplana-huette.ch",
-        "name": "Schesaplanahütte - SAC",
+        "name": "Schesaplanahütte",
+        "operator": "SAC - CAS",
         "phone": "+41 81 325 11 63",
         "tourism": "alpine_hut",
         "website": "http://www.schesaplana-huette.ch",
@@ -47242,6 +47258,27 @@
     },
     {
       "type": "way",
+      "id": 203884059,
+      "timestamp": "2022-06-19T14:47:04Z",
+      "version": 2,
+      "changeset": 122582299,
+      "user": "drfurgi",
+      "uid": 13987944,
+      "center": {
+        "lat": 47.1095463,
+        "lon": 9.4142748
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "ele": "2243",
+        "name": "Gipfelhütte Alvier",
+        "source": "bing",
+        "tourism": "alpine_hut"
+      }
+    },
+    {
+      "type": "way",
       "id": 204545791,
       "timestamp": "2020-07-15T01:40:49Z",
       "version": 4,
@@ -47595,11 +47632,11 @@
     {
       "type": "way",
       "id": 210985370,
-      "timestamp": "2022-06-16T08:04:29Z",
-      "version": 5,
-      "changeset": 122450041,
-      "user": "mcliquid",
-      "uid": 1213571,
+      "timestamp": "2022-06-19T14:52:41Z",
+      "version": 6,
+      "changeset": 122582485,
+      "user": "drfurgi",
+      "uid": 13987944,
       "center": {
         "lat": 47.2332481,
         "lon": 9.3761485
@@ -47609,6 +47646,7 @@
         "building": "yes",
         "ele": "1999",
         "name": "Zwinglipasshütte",
+        "operator": "SAC - CAS",
         "phone": "+41 71 999 24 36",
         "tourism": "alpine_hut",
         "website": "http://www.sac-toggenburg.ch/clubhuette/",
@@ -47619,11 +47657,11 @@
     {
       "type": "way",
       "id": 210985382,
-      "timestamp": "2022-06-16T13:54:43Z",
-      "version": 5,
-      "changeset": 122466207,
-      "user": "mcliquid",
-      "uid": 1213571,
+      "timestamp": "2022-06-19T14:53:42Z",
+      "version": 6,
+      "changeset": 122582522,
+      "user": "drfurgi",
+      "uid": 13987944,
       "center": {
         "lat": 47.2548294,
         "lon": 9.4222366
@@ -47633,7 +47671,7 @@
         "building": "yes",
         "ele": "1551",
         "name": "Hundsteinhütte SAC",
-        "operator": "SAC",
+        "operator": "SAC - CAS",
         "phone": "+41 71 799 15 81",
         "reg_name": "Glarner und St. Galler Alpen, Alpstein",
         "tourism": "alpine_hut",
