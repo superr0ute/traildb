@@ -2356,11 +2356,11 @@
         "@poi": "place_city",
         "@distance": 6365.5,
         "@id": "n278471086",
-        "@changeset": 120860457,
-        "@timestamp": "2022-05-11T22:15:21Z",
-        "@version": 16,
-        "@uid": 2188716,
-        "@user": "EnumMapper",
+        "@changeset": 122638443,
+        "@timestamp": "2022-06-20T20:34:12Z",
+        "@version": 17,
+        "@uid": 12732985,
+        "@user": "Jacksonville",
         "accuracy": "minutes",
         "alt_name:ru": "Яффо",
         "description": "part of Tel Aviv-Yafo, which was Jafo before 1951 year",
@@ -2383,6 +2383,7 @@
         "name:it": "Giaffa",
         "name:ml": "യാഫ",
         "name:ru": "Яффа",
+        "name:ur": "یافا",
         "name:zh": "雅法",
         "place": "city",
         "population": 46,
@@ -21895,17 +21896,19 @@
         "@poi": "shelter_cave",
         "@distance": 2528,
         "@id": "n5510370906",
-        "@changeset": 96391606,
-        "@timestamp": "2020-12-24T14:24:28Z",
-        "@version": 3,
-        "@uid": 1772368,
-        "@user": "pizzaiolo",
+        "@changeset": 122610184,
+        "@timestamp": "2022-06-20T08:48:09Z",
+        "@version": 4,
+        "@uid": 686490,
+        "@user": "hatul",
         "access:conditional": "no@(Nov 01-Apr 01)",
         "name": "מערת ספונים",
         "name:en": "Sfunim",
         "name:he": "מערת ספונים",
         "natural": "cave_entrance",
-        "wikidata": "Q26769776"
+        "wikidata": "Q26769776",
+        "wikipedia": "he:מערת ספונים",
+        "wikipedia:he": "מערת ספונים"
       },
       "geometry": {
         "type": "Point",
@@ -21974,11 +21977,11 @@
         "@poi": "place_city",
         "@distance": 9400.8,
         "@id": "n278478190",
-        "@changeset": 99860075,
-        "@timestamp": "2021-02-24T00:26:12Z",
-        "@version": 30,
-        "@uid": 11422772,
-        "@user": "Vejoson",
+        "@changeset": 122638387,
+        "@timestamp": "2022-06-20T20:32:49Z",
+        "@version": 31,
+        "@uid": 12732985,
+        "@user": "Jacksonville",
         "accuracy": "minutes",
         "alt_name:cs": "Dcera Moře",
         "contact:website": "http://bat-yam.muni.il/",
@@ -21992,11 +21995,12 @@
         "name:et": "Bat Yam",
         "name:fr": "Bat Yam",
         "name:he": "בת ים",
-        "name:hi": "बात याम",
+        "name:hi": "बत याम",
         "name:lt": "Bat Jamas",
         "name:pl": "Bat Jam",
         "name:ru": "Бат-Ям",
         "name:uk": "Бат-Ям",
+        "name:ur": "بت یام",
         "place": "city",
         "population": 130000,
         "source": "GEOnet Names Server (gns)",
@@ -38470,13 +38474,13 @@
         "@version": 6,
         "@uid": 11422772,
         "@user": "Vejoson",
+        "place": "town",
+        "name:he": "מבשרת ציון",
         "alt_name:ar": "مفسيرت تسيون",
         "name": "מבשרת ציון",
         "name:ar": "مفسيرت تصيون",
         "name:en": "Mevaseret Tsiyon",
-        "name:fr": "Mevasseret Tsion",
-        "name:he": "מבשרת ציון",
-        "place": "town"
+        "name:fr": "Mevasseret Tsion"
       },
       "geometry": {
         "type": "Point",
@@ -49964,11 +49968,13 @@
         "@poi": "water_spring",
         "@distance": 340.3,
         "@id": "n3286753092",
-        "@changeset": 103975890,
-        "@timestamp": "2021-05-01T22:45:01Z",
-        "@version": 4,
-        "@uid": 11422772,
-        "@user": "Vejoson",
+        "@changeset": 122623684,
+        "@timestamp": "2022-06-20T13:08:44Z",
+        "@version": 5,
+        "@uid": 6798982,
+        "@user": "yarongolan",
+        "description": "יבש, נכון ל18.6.22",
+        "description:he": "יבש, נכון ל18.6.22",
         "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Israel_Hiking_Map_עין_חילה.jpeg",
         "name": "עין חילה",
         "name:fr": "Ein Hila",
@@ -55531,28 +55537,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 57.4,
-        "@id": "n4464858165",
-        "@changeset": 43193157,
-        "@timestamp": "2016-10-26T13:37:46Z",
-        "@version": 1,
-        "@uid": 3127,
-        "@user": "zstadler",
-        "amenity": "drinking_water",
-        "source": "GPS"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.118163,
-          31.725369
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 2653.8,
         "@id": "n4422257829",
@@ -60065,6 +60049,28 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 57.4,
+        "@id": "n4464858165",
+        "@changeset": 43193157,
+        "@timestamp": "2016-10-26T13:37:46Z",
+        "@version": 1,
+        "@uid": 3127,
+        "@user": "zstadler",
+        "amenity": "drinking_water",
+        "source": "GPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.118163,
+          31.725369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_cave",
         "@distance": 2336,
         "@id": "n4485381725",
@@ -64443,36 +64449,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "place_village",
-        "@distance": 881.9,
-        "@id": "w91562897",
-        "@changeset": 102011577,
-        "@timestamp": "2021-03-30T22:20:15Z",
-        "@version": 10,
-        "@uid": 11422772,
-        "@user": "Vejoson",
-        "ele": 103,
-        "landuse": "residential",
-        "name": "כחל",
-        "name:cs": "Kachal",
-        "name:en": "Kachal",
-        "name:fr": "Kahal",
-        "name:he": "כחל",
-        "place": "village",
-        "population": 383,
-        "wikipedia": "en:Kahal"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.5103383,
-          32.8917905
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "place_town",
         "@distance": 3423.7,
         "@id": "n3997917865",
@@ -67881,6 +67857,36 @@
       "type": "Feature",
       "properties": {
         "@poi": "place_village",
+        "@distance": 881.9,
+        "@id": "w91562897",
+        "@changeset": 102011577,
+        "@timestamp": "2021-03-30T22:20:15Z",
+        "@version": 10,
+        "@uid": 11422772,
+        "@user": "Vejoson",
+        "ele": 103,
+        "landuse": "residential",
+        "name": "כחל",
+        "name:cs": "Kachal",
+        "name:en": "Kachal",
+        "name:fr": "Kahal",
+        "name:he": "כחל",
+        "place": "village",
+        "population": 383,
+        "wikipedia": "en:Kahal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5103383,
+          32.8917905
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_village",
         "@distance": 1266.4,
         "@id": "w91562899",
         "@changeset": 114953653,
@@ -68726,34 +68732,6 @@
         "coordinates": [
           35.3763405,
           32.9653686
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "place_village",
-        "@distance": 2294.8,
-        "@id": "w613796284",
-        "@changeset": 121706516,
-        "@timestamp": "2022-05-30T10:12:54Z",
-        "@version": 8,
-        "@uid": 189946,
-        "@user": "BMM994",
-        "landuse": "residential",
-        "name": "الجش",
-        "name:ar": "الجش",
-        "name:cs": "al-Džiš",
-        "name:en": "Jish",
-        "name:fr": "Jish",
-        "name:he": "ג'יש",
-        "place": "village"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.4472669,
-          33.023919
         ]
       }
     },
@@ -71352,6 +71330,34 @@
         "coordinates": [
           34.9396466,
           31.9485464
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_village",
+        "@distance": 2294.8,
+        "@id": "w613796284",
+        "@changeset": 121706516,
+        "@timestamp": "2022-05-30T10:12:54Z",
+        "@version": 8,
+        "@uid": 189946,
+        "@user": "BMM994",
+        "landuse": "residential",
+        "name": "الجش",
+        "name:ar": "الجش",
+        "name:cs": "al-Džiš",
+        "name:en": "Jish",
+        "name:fr": "Jish",
+        "name:he": "ג'יש",
+        "place": "village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4472669,
+          33.023919
         ]
       }
     },
@@ -85480,33 +85486,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "place_village",
-        "@distance": 3390.5,
-        "@id": "w732421723",
-        "@changeset": 103084745,
-        "@timestamp": "2021-04-17T00:28:10Z",
-        "@version": 3,
-        "@uid": 11422772,
-        "@user": "Vejoson",
-        "landuse": "residential",
-        "name": "בית יתיר",
-        "name:ar": "بيت يتير",
-        "name:en": "Beit Yatir",
-        "name:fr": "Beit Yatir",
-        "name:he": "בית יתיר",
-        "place": "village"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.1120375,
-          31.3662109
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "place_village",
         "@distance": 1823.2,
         "@id": "w84654112",
         "@changeset": 109560393,
@@ -87034,6 +87013,33 @@
         "coordinates": [
           34.9232774,
           32.5145979
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_village",
+        "@distance": 3390.5,
+        "@id": "w732421723",
+        "@changeset": 103084745,
+        "@timestamp": "2021-04-17T00:28:10Z",
+        "@version": 3,
+        "@uid": 11422772,
+        "@user": "Vejoson",
+        "landuse": "residential",
+        "name": "בית יתיר",
+        "name:ar": "بيت يتير",
+        "name:en": "Beit Yatir",
+        "name:fr": "Beit Yatir",
+        "name:he": "בית יתיר",
+        "place": "village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1120375,
+          31.3662109
         ]
       }
     },

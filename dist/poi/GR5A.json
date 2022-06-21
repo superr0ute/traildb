@@ -15454,11 +15454,12 @@
         "@poi": "water_drinking-water",
         "@distance": 39.8,
         "@id": "n3623571516",
-        "@changeset": 100804171,
-        "@timestamp": "2021-03-10T22:29:14Z",
-        "@version": 3,
+        "@changeset": 122609384,
+        "@timestamp": "2022-06-20T08:30:17Z",
+        "@version": 4,
         "@uid": 675302,
         "@user": "Martj9",
+        "access": "yes",
         "amenity": "drinking_water",
         "bottle": "yes",
         "drinking_water": "yes",
@@ -30012,32 +30013,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
-        "@distance": 1921.8,
-        "@id": "w234543298",
-        "@changeset": 81363262,
-        "@timestamp": "2020-02-23T11:24:22Z",
-        "@version": 5,
-        "@uid": 224440,
-        "@user": "Syl",
-        "amenity": "shelter",
-        "bench": "yes",
-        "building": "yes",
-        "lit": "no",
-        "shelter_type": "public_transport",
-        "wall": "no"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.6241389,
-          44.9111291
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
         "@distance": 1829.3,
         "@id": "w942059245",
         "@changeset": 104549969,
@@ -32455,6 +32430,32 @@
         "coordinates": [
           6.83944,
           45.36667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1921.8,
+        "@id": "w234543298",
+        "@changeset": 81363262,
+        "@timestamp": "2020-02-23T11:24:22Z",
+        "@version": 5,
+        "@uid": 224440,
+        "@user": "Syl",
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "lit": "no",
+        "shelter_type": "public_transport",
+        "wall": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6241389,
+          44.9111291
         ]
       }
     },
@@ -51001,18 +51002,44 @@
         "@poi": "water_drinking-water",
         "@distance": 1432.3,
         "@id": "n7823723732",
-        "@changeset": 92300126,
-        "@timestamp": "2020-10-11T12:18:09Z",
-        "@version": 2,
-        "@uid": 507417,
-        "@user": "tartiflex",
-        "amenity": "drinking_water"
+        "@changeset": 122629492,
+        "@timestamp": "2022-06-20T15:30:29Z",
+        "@version": 3,
+        "@uid": 9598800,
+        "@user": "dwarfclimbs",
+        "access": "permissive",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
+        "wheelchair": "no"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
           6.7707769,
           46.1192753
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_cave",
+        "@distance": 885.6,
+        "@id": "n7833257648",
+        "@changeset": 89761433,
+        "@timestamp": "2020-08-21T19:31:21Z",
+        "@version": 1,
+        "@uid": 481447,
+        "@user": "BTH",
+        "name": "Darbon 19-11",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7259035,
+          46.3354407
         ]
       }
     },
@@ -51906,28 +51933,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_cave",
-        "@distance": 885.6,
-        "@id": "n7833257648",
-        "@changeset": 89761433,
-        "@timestamp": "2020-08-21T19:31:21Z",
-        "@version": 1,
-        "@uid": 481447,
-        "@user": "BTH",
-        "name": "Darbon 19-11",
-        "natural": "cave_entrance"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.7259035,
-          46.3354407
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_cave",
         "@distance": 408.8,
         "@id": "n7910075598",
         "@changeset": 90942947,
@@ -52604,6 +52609,31 @@
         "coordinates": [
           6.7907748,
           46.1122198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 874.2,
+        "@id": "n9833831104",
+        "@changeset": 122629492,
+        "@timestamp": "2022-06-20T15:30:29Z",
+        "@version": 1,
+        "@uid": 9598800,
+        "@user": "dwarfclimbs",
+        "access": "permissive",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.7525253,
+          46.135372
         ]
       }
     },
@@ -53874,9 +53904,9 @@
         "@poi": "alpine-hut",
         "@distance": 1521.2,
         "@id": "w173940317",
-        "@changeset": 89755652,
-        "@timestamp": "2020-08-21T16:28:22Z",
-        "@version": 10,
+        "@changeset": 122629492,
+        "@timestamp": "2022-06-20T15:30:29Z",
+        "@version": 11,
         "@uid": 9598800,
         "@user": "dwarfclimbs",
         "beds": "70",
@@ -53892,10 +53922,13 @@
         "name": "Refuge de Bostan",
         "old_name": "Refuge Tornay",
         "operator": "Marie Palamara",
+        "payment:cash": "yes",
+        "payment:notes": "yes",
         "reservation": "yes",
         "rooms": "7",
         "shower": "yes",
         "tourism": "alpine_hut",
+        "wheelchair": "no",
         "wikimedia_commons": "Category:Refuge de Bostan"
       },
       "geometry": {
