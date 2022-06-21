@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-06-19T23:59:59Z",
-    "timestamp_osm_base": "2022-06-20T05:29:31Z",
+    "timestamp_osm_date": "2022-06-20T23:59:59Z",
+    "timestamp_osm_base": "2022-06-21T05:29:08Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -29114,22 +29114,6 @@
     },
     {
       "type": "node",
-      "id": 3020321692,
-      "lat": 46.5163512,
-      "lon": 6.7025513,
-      "timestamp": "2016-09-12T19:43:38Z",
-      "version": 2,
-      "changeset": 42108976,
-      "user": "Jonathan Masur",
-      "uid": 2965963,
-      "tags": {
-        "name": "La Croix",
-        "official_name": "La Croix-sur-Lutry",
-        "place": "village"
-      }
-    },
-    {
-      "type": "node",
       "id": 3020321693,
       "lat": 46.4809252,
       "lon": 6.7924928,
@@ -29375,13 +29359,13 @@
     {
       "type": "node",
       "id": 3048896727,
-      "lat": 46.1297779,
-      "lon": 6.7525847,
-      "timestamp": "2014-08-29T12:43:56Z",
-      "version": 1,
-      "changeset": 25095725,
-      "user": "DBigg",
-      "uid": 1363171,
+      "lat": 46.1297669,
+      "lon": 6.7525521,
+      "timestamp": "2022-06-20T15:30:29Z",
+      "version": 2,
+      "changeset": 122629492,
+      "user": "dwarfclimbs",
+      "uid": 9598800,
       "tags": {
         "ele": "1770",
         "name": "Col des Cramots",
@@ -29773,13 +29757,13 @@
     {
       "type": "node",
       "id": 3074540903,
-      "lat": 46.0865219,
-      "lon": 6.7291578,
-      "timestamp": "2014-09-13T07:15:14Z",
-      "version": 1,
-      "changeset": 25404993,
-      "user": "tartiflex",
-      "uid": 507417,
+      "lat": 46.0872214,
+      "lon": 6.7289057,
+      "timestamp": "2022-06-20T11:51:38Z",
+      "version": 2,
+      "changeset": 122619858,
+      "user": "dwarfclimbs",
+      "uid": 9598800,
       "tags": {
         "name": "La Grangiat",
         "place": "hamlet"
@@ -48650,13 +48634,17 @@
       "id": 7823723732,
       "lat": 46.1192753,
       "lon": 6.7707769,
-      "timestamp": "2020-10-11T12:18:09Z",
-      "version": 2,
-      "changeset": 92300126,
-      "user": "tartiflex",
-      "uid": 507417,
+      "timestamp": "2022-06-20T15:30:29Z",
+      "version": 3,
+      "changeset": 122629492,
+      "user": "dwarfclimbs",
+      "uid": 9598800,
       "tags": {
-        "amenity": "drinking_water"
+        "access": "permissive",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
+        "wheelchair": "no"
       }
     },
     {
@@ -53403,6 +53391,24 @@
       }
     },
     {
+      "type": "node",
+      "id": 9833831104,
+      "lat": 46.135372,
+      "lon": 6.7525253,
+      "timestamp": "2022-06-20T15:30:29Z",
+      "version": 1,
+      "changeset": 122629492,
+      "user": "dwarfclimbs",
+      "uid": 9598800,
+      "tags": {
+        "access": "permissive",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
       "type": "way",
       "id": 24677528,
       "timestamp": "2019-04-10T15:16:45Z",
@@ -56073,9 +56079,9 @@
     {
       "type": "way",
       "id": 173940317,
-      "timestamp": "2020-08-21T16:28:22Z",
-      "version": 10,
-      "changeset": 89755652,
+      "timestamp": "2022-06-20T15:30:29Z",
+      "version": 11,
+      "changeset": 122629492,
       "user": "dwarfclimbs",
       "uid": 9598800,
       "center": {
@@ -56097,10 +56103,13 @@
         "name": "Refuge de Bostan",
         "old_name": "Refuge Tornay",
         "operator": "Marie Palamara",
+        "payment:cash": "yes",
+        "payment:notes": "yes",
         "reservation": "yes",
         "rooms": "7",
         "shower": "yes",
         "tourism": "alpine_hut",
+        "wheelchair": "no",
         "wikimedia_commons": "Category:Refuge de Bostan"
       }
     },

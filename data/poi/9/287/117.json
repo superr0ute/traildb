@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-06-19T23:59:59Z",
-    "timestamp_osm_base": "2022-06-20T06:49:25Z",
+    "timestamp_osm_date": "2022-06-20T23:59:59Z",
+    "timestamp_osm_base": "2022-06-21T06:46:04Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -36,39 +36,21 @@
     {
       "type": "node",
       "id": 1288154337,
-      "lat": 69.3337231,
-      "lon": 21.9543028,
-      "timestamp": "2017-09-02T20:16:09Z",
-      "version": 4,
-      "changeset": 51678935,
+      "lat": 69.3337155,
+      "lon": 21.9542572,
+      "timestamp": "2022-06-20T14:39:06Z",
+      "version": 5,
+      "changeset": 122627654,
       "user": "NKA",
       "uid": 3497659,
       "tags": {
-        "fixme": "position",
+        "amenity": "shelter",
         "idrettsanleggregisteret:iid": "1942004202",
-        "name": "Stakerhytta",
+        "name": "Naustihytta",
         "network": "Den Norske Turistforening",
         "owner": "Troms Turlag",
-        "source": "Idrettsanleggregisteret",
-        "tourism": "alpine_hut"
-      }
-    },
-    {
-      "type": "node",
-      "id": 1935061650,
-      "lat": 69.2132355,
-      "lon": 22.4636736,
-      "timestamp": "2019-04-25T13:48:50Z",
-      "version": 4,
-      "changeset": 69565926,
-      "user": "pangoSE",
-      "uid": 987207,
-      "tags": {
-        "designation": "Stastskog (locked)",
-        "name": "Ráisjávrihytta",
-        "name:no": "Reisvannhytta",
-        "source": "GPS",
-        "tourism": "alpine_hut"
+        "ref:kartverket:hytte": "9999",
+        "shelter": "basic_hut"
       }
     },
     {
@@ -76,15 +58,18 @@
       "id": 1935081999,
       "lat": 69.2953085,
       "lon": 22.0107021,
-      "timestamp": "2012-09-27T16:26:19Z",
-      "version": 2,
-      "changeset": 13270227,
-      "user": "ClickTheShutter",
-      "uid": 275746,
+      "timestamp": "2022-06-20T16:08:44Z",
+      "version": 3,
+      "changeset": 122630765,
+      "user": "NKA",
+      "uid": 3497659,
       "tags": {
+        "amenity": "shelter",
         "designation": "Stastskog (open)",
         "name": "Immogammen",
-        "source": "GPS",
+        "operator": "Statskog",
+        "ref:kartverket:hytte": "3088",
+        "shelter_type": "lean_to",
         "tourism": "alpine_hut"
       }
     },
@@ -93,14 +78,16 @@
       "id": 9606935556,
       "lat": 69.2842769,
       "lon": 22.0485816,
-      "timestamp": "2022-03-25T20:24:21Z",
-      "version": 1,
-      "changeset": 118926723,
-      "user": "LuckyLukeStrikes",
-      "uid": 8209514,
+      "timestamp": "2022-06-20T16:08:44Z",
+      "version": 2,
+      "changeset": 122630765,
+      "user": "NKA",
+      "uid": 3497659,
       "tags": {
         "amenity": "shelter",
-        "fixme": "approximate position",
+        "name": "Luovdigammen/Arthurgammen",
+        "operator": "Statskog",
+        "ref:kartverket:hytte": "3091",
         "shelter_type": "lean_to"
       }
     },
