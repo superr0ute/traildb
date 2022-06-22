@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-06-20T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-06-21T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 130310,
-      "timestamp": "2022-06-10T21:59:17Z",
-      "version": 132,
-      "changeset": 122230025,
+      "timestamp": "2022-06-21T20:23:12Z",
+      "version": 133,
+      "changeset": 122684561,
       "user": "Karthoo",
       "uid": 3232636,
       "members": [
@@ -136,6 +136,7 @@
         {"type": "way", "ref": 304444038, "role": ""},
         {"type": "way", "ref": 304444044, "role": ""},
         {"type": "way", "ref": 86272582, "role": ""},
+        {"type": "way", "ref": 1072083161, "role": ""},
         {"type": "way", "ref": 4566777, "role": ""},
         {"type": "way", "ref": 8431379, "role": ""},
         {"type": "way", "ref": 23968105, "role": ""},
@@ -3576,6 +3577,27 @@
         "source": "survey",
         "surface": "compacted",
         "tracktype": "grade2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1072083161,
+      "timestamp": "2022-06-21T20:23:12Z",
+      "version": 1,
+      "changeset": 122684561,
+      "user": "Karthoo",
+      "uid": 3232636,
+      "nodes": [28797743, 958342548],
+      "geometry": [
+        {"lat": 47.8715754, "lon": 8.0981577},
+        {"lat": 47.8716218, "lon": 8.098214},
+        {"lat": 47.8716374, "lon": 8.0982301},
+        {"lat": 47.8716549, "lon": 8.0982501}
+      ],
+      "tags": {
+        "highway": "service",
+        "name": "Bahnhofstraße",
+        "service": "driveway"
       }
     },
     {
@@ -47225,16 +47247,13 @@
     {
       "type": "way",
       "id": 86272582,
-      "timestamp": "2022-02-10T20:45:03Z",
-      "version": 7,
-      "changeset": 117261633,
-      "user": "skyper",
-      "uid": 152744,
-      "nodes": [28797743, 3990854736],
+      "timestamp": "2022-06-21T20:23:12Z",
+      "version": 8,
+      "changeset": 122684561,
+      "user": "Karthoo",
+      "uid": 3232636,
+      "nodes": [958342548, 3990854736],
       "geometry": [
-        {"lat": 47.8715754, "lon": 8.0981577},
-        {"lat": 47.8716218, "lon": 8.098214},
-        {"lat": 47.8716374, "lon": 8.0982301},
         {"lat": 47.8716549, "lon": 8.0982501},
         {"lat": 47.871833, "lon": 8.0985429},
         {"lat": 47.8719937, "lon": 8.0988158},
