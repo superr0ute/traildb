@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-06-20T23:59:59Z",
-    "timestamp_osm_base": "2022-06-21T05:47:23Z",
+    "timestamp_osm_date": "2022-06-21T23:59:59Z",
+    "timestamp_osm_base": "2022-06-22T05:38:11Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -20294,15 +20294,16 @@
     {
       "type": "node",
       "id": 2369049457,
-      "lat": 47.2494434,
-      "lon": 9.4491863,
-      "timestamp": "2013-07-01T18:27:08Z",
-      "version": 1,
-      "changeset": 16781391,
-      "user": "Xinfe",
-      "uid": 167945,
+      "lat": 47.2495308,
+      "lon": 9.4491266,
+      "timestamp": "2022-06-21T18:03:39Z",
+      "version": 2,
+      "changeset": 122679546,
+      "user": "mcliquid",
+      "uid": 1213571,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "bottle": "yes"
       }
     },
     {
@@ -42785,16 +42786,18 @@
       "id": 9834150960,
       "lat": 47.3485374,
       "lon": 9.6737251,
-      "timestamp": "2022-06-20T19:11:23Z",
-      "version": 1,
-      "changeset": 122636025,
+      "timestamp": "2022-06-21T18:00:16Z",
+      "version": 3,
+      "changeset": 122679440,
       "user": "Kwatrecht",
       "uid": 15871836,
       "tags": {
         "amenity": "drinking_water",
         "fountain": "drinking",
         "name": "Schwefelbrunnen",
-        "url": "https://www.hohenems.travel/de/der-schwefelbrunnen-und-das-schwefelbad"
+        "name:en": "Sulfurwell",
+        "url": "https://www.hohenems.travel/de/der-schwefelbrunnen-und-das-schwefelbad",
+        "wikipedia": "https://de.wikipedia.org/wiki/Schwefel-Bad_(Hohenems)"
       }
     },
     {
@@ -42802,13 +42805,107 @@
       "id": 9834150961,
       "lat": 47.3460722,
       "lon": 9.6718112,
-      "timestamp": "2022-06-20T19:11:23Z",
+      "timestamp": "2022-06-21T18:00:16Z",
+      "version": 2,
+      "changeset": 122679440,
+      "user": "Kwatrecht",
+      "uid": 15871836,
+      "tags": {
+        "amenity": "drinking_water",
+        "name": "Bruno's Brünnele",
+        "operator": "Funkenzunft Schwefel",
+        "start_date": "2007"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9836175469,
+      "lat": 47.332969,
+      "lon": 9.653136,
+      "timestamp": "2022-06-21T14:05:13Z",
       "version": 1,
-      "changeset": 122636025,
+      "changeset": 122670944,
+      "user": "Thomas Summer",
+      "uid": 6075579,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9836359431,
+      "lat": 47.3326411,
+      "lon": 9.6431696,
+      "timestamp": "2022-06-21T15:30:03Z",
+      "version": 2,
+      "changeset": 122674207,
+      "user": "Kwatrecht",
+      "uid": 15871836,
+      "tags": {
+        "amenity": "drinking_water",
+        "emergency": "fire_hydrant",
+        "water_source": "main"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9836712302,
+      "lat": 47.3536317,
+      "lon": 9.685148,
+      "timestamp": "2022-06-21T18:00:16Z",
+      "version": 1,
+      "changeset": 122679440,
       "user": "Kwatrecht",
       "uid": 15871836,
       "tags": {
         "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9836765198,
+      "lat": 47.2516846,
+      "lon": 9.4395679,
+      "timestamp": "2022-06-21T18:03:39Z",
+      "version": 1,
+      "changeset": 122679546,
+      "user": "mcliquid",
+      "uid": 1213571,
+      "tags": {
+        "natural": "spring"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9836765200,
+      "lat": 47.2530303,
+      "lon": 9.4245398,
+      "timestamp": "2022-06-21T18:03:39Z",
+      "version": 1,
+      "changeset": 122679546,
+      "user": "mcliquid",
+      "uid": 1213571,
+      "tags": {
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "indoor": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9836765206,
+      "lat": 47.2492212,
+      "lon": 9.4613649,
+      "timestamp": "2022-06-21T18:03:39Z",
+      "version": 1,
+      "changeset": 122679546,
+      "user": "mcliquid",
+      "uid": 1213571,
+      "tags": {
+        "amenity": "shelter",
+        "name": "Tobelegg",
+        "shelter_type": "lean_to",
+        "start_date": "1986"
       }
     },
     {
@@ -45830,11 +45927,11 @@
     {
       "type": "way",
       "id": 147553545,
-      "timestamp": "2021-06-13T17:03:05Z",
-      "version": 5,
-      "changeset": 106290616,
-      "user": "Bathyscapher",
-      "uid": 8889564,
+      "timestamp": "2022-06-21T18:00:16Z",
+      "version": 6,
+      "changeset": 122679440,
+      "user": "Kwatrecht",
+      "uid": 15871836,
       "center": {
         "lat": 47.3481203,
         "lon": 9.672544
@@ -60574,6 +60671,25 @@
       "tags": {
         "amenity": "shelter",
         "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1071918642,
+      "timestamp": "2022-06-21T10:41:15Z",
+      "version": 1,
+      "changeset": 122660886,
+      "user": "RobinHx",
+      "uid": 15255510,
+      "center": {
+        "lat": 47.4684733,
+        "lon": 9.7578912
+      },
+      "nodes": [],
+      "tags": {
+        "landuse": "residential",
+        "name": "Frickenesch",
+        "place": "hamlet"
       }
     }
   ]
