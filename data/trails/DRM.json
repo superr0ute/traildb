@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-06-22T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-06-23T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1736379,
-      "timestamp": "2022-06-22T10:39:46Z",
-      "version": 590,
-      "changeset": 122705401,
-      "user": "diegomodolo",
-      "uid": 8109808,
+      "timestamp": "2022-06-23T00:20:16Z",
+      "version": 591,
+      "changeset": 122732818,
+      "user": "nahundfern",
+      "uid": 876679,
       "members": [
         {"type": "node", "ref": 1779769997, "role": ""},
         {"type": "node", "ref": 475738007, "role": ""},
@@ -697,6 +697,7 @@
         {"type": "way", "ref": 39682436, "role": ""},
         {"type": "way", "ref": 353058870, "role": ""},
         {"type": "way", "ref": 353058871, "role": ""},
+        {"type": "way", "ref": 1072468505, "role": ""},
         {"type": "way", "ref": 87086678, "role": ""},
         {"type": "way", "ref": 87086692, "role": ""},
         {"type": "way", "ref": 33754512, "role": ""},
@@ -2971,6 +2972,42 @@
         "name": "Via Mandon",
         "surface": "asphalt",
         "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1072468505,
+      "timestamp": "2022-06-23T00:20:16Z",
+      "version": 1,
+      "changeset": 122732818,
+      "user": "nahundfern",
+      "uid": 876679,
+      "nodes": [1012809399, 9484427328],
+      "geometry": [
+        {"lat": 46.9583213, "lon": 11.6716332},
+        {"lat": 46.9584703, "lon": 11.6715802},
+        {"lat": 46.9585632, "lon": 11.6715098},
+        {"lat": 46.9586355, "lon": 11.6715293},
+        {"lat": 46.9587234, "lon": 11.671536},
+        {"lat": 46.9588103, "lon": 11.6714957},
+        {"lat": 46.9588607, "lon": 11.6714589},
+        {"lat": 46.9588941, "lon": 11.6714749},
+        {"lat": 46.9589815, "lon": 11.6714615},
+        {"lat": 46.9590918, "lon": 11.6713616},
+        {"lat": 46.9591669, "lon": 11.6713502},
+        {"lat": 46.9592053, "lon": 11.6712711},
+        {"lat": 46.9593179, "lon": 11.6712765},
+        {"lat": 46.9593856, "lon": 11.6712932},
+        {"lat": 46.9594547, "lon": 11.6712644},
+        {"lat": 46.9595037, "lon": 11.671312},
+        {"lat": 46.9595179, "lon": 11.6713978},
+        {"lat": 46.9595957, "lon": 11.6713811},
+        {"lat": 46.9595903, "lon": 11.6715064}
+      ],
+      "tags": {
+        "highway": "path",
+        "ref": "8",
+        "sac_scale": "demanding_mountain_hiking"
       }
     },
     {
@@ -27313,12 +27350,12 @@
     {
       "type": "way",
       "id": 353058871,
-      "timestamp": "2022-02-06T20:04:31Z",
-      "version": 6,
-      "changeset": 117092959,
-      "user": "Jorisbo",
-      "uid": 1983103,
-      "nodes": [3588384459, 1012809399],
+      "timestamp": "2022-06-23T00:20:16Z",
+      "version": 7,
+      "changeset": 122732818,
+      "user": "nahundfern",
+      "uid": 876679,
+      "nodes": [3588384459, 9484427328],
       "geometry": [
         {"lat": 46.9702589, "lon": 11.6635458},
         {"lat": 46.9701267, "lon": 11.663606},
@@ -27561,24 +27598,9 @@
         {"lat": 46.959809, "lon": 11.6714798},
         {"lat": 46.9596785, "lon": 11.6715205},
         {"lat": 46.9596474, "lon": 11.6715247},
-        {"lat": 46.9595903, "lon": 11.6715064},
-        {"lat": 46.9595521, "lon": 11.6715131},
-        {"lat": 46.9595068, "lon": 11.6715624},
-        {"lat": 46.9594552, "lon": 11.6716259},
-        {"lat": 46.9593685, "lon": 11.6717587},
-        {"lat": 46.9593322, "lon": 11.6717995},
-        {"lat": 46.959271, "lon": 11.6718523},
-        {"lat": 46.9592154, "lon": 11.6718723},
-        {"lat": 46.9591351, "lon": 11.6718711},
-        {"lat": 46.9590597, "lon": 11.6718506},
-        {"lat": 46.9589619, "lon": 11.6717918},
-        {"lat": 46.9588692, "lon": 11.6717817},
-        {"lat": 46.9587014, "lon": 11.6717654},
-        {"lat": 46.9585194, "lon": 11.6718333},
-        {"lat": 46.9584088, "lon": 11.671778},
-        {"lat": 46.9583181, "lon": 11.6716122}
+        {"lat": 46.9595903, "lon": 11.6715064}
       ],
-      "tags": {"ref": "8", "highway": "path"}
+      "tags": {"highway": "path", "ref": "8", "sac_scale": "mountain_hiking"}
     },
     {
       "type": "way",
@@ -32446,11 +32468,11 @@
     {
       "type": "way",
       "id": 39682436,
-      "timestamp": "2017-04-20T18:33:25Z",
-      "version": 7,
-      "changeset": 47980775,
-      "user": "beastdominator",
-      "uid": 3236969,
+      "timestamp": "2022-06-23T00:20:16Z",
+      "version": 8,
+      "changeset": 122732818,
+      "user": "nahundfern",
+      "uid": 876679,
       "nodes": [475738020, 1334925886],
       "geometry": [
         {"lat": 46.9752667, "lon": 11.6582985},
@@ -32499,7 +32521,7 @@
         {"lat": 46.9704441, "lon": 11.6636133},
         {"lat": 46.9704264, "lon": 11.6636316}
       ],
-      "tags": {"ref": "8", "highway": "path"}
+      "tags": {"highway": "path", "ref": "8", "sac_scale": "mountain_hiking"}
     },
     {
       "type": "way",
@@ -37877,11 +37899,11 @@
     {
       "type": "way",
       "id": 441608887,
-      "timestamp": "2020-12-31T11:56:03Z",
-      "version": 4,
-      "changeset": 96729955,
-      "user": "Marcello Perathoner",
-      "uid": 8199540,
+      "timestamp": "2022-06-23T00:20:16Z",
+      "version": 5,
+      "changeset": 122732818,
+      "user": "nahundfern",
+      "uid": 876679,
       "nodes": [4393478821, 475738007],
       "geometry": [
         {"lat": 46.9796179, "lon": 11.6569518},
@@ -37896,7 +37918,7 @@
         {"lat": 46.9787609, "lon": 11.6583502},
         {"lat": 46.9784977, "lon": 11.6584991}
       ],
-      "tags": {"highway": "path"}
+      "tags": {"highway": "path", "sac_scale": "hiking"}
     },
     {
       "type": "way",
@@ -41042,20 +41064,21 @@
     {
       "type": "way",
       "id": 506657550,
-      "timestamp": "2020-12-31T11:56:03Z",
-      "version": 3,
-      "changeset": 96729955,
-      "user": "Marcello Perathoner",
-      "uid": 8199540,
+      "timestamp": "2022-06-23T00:20:16Z",
+      "version": 4,
+      "changeset": 122732818,
+      "user": "nahundfern",
+      "uid": 876679,
       "nodes": [4963482089, 4393478824],
       "geometry": [
         {"lat": 46.9798694, "lon": 11.6553379},
         {"lat": 46.9795689, "lon": 11.6557604},
         {"lat": 46.9794861, "lon": 11.655935},
         {"lat": 46.9794712, "lon": 11.6562229},
+        {"lat": 46.9795862, "lon": 11.6566056},
         {"lat": 46.9795974, "lon": 11.656643}
       ],
-      "tags": {"highway": "path"}
+      "tags": {"highway": "path", "sac_scale": "hiking"}
     },
     {
       "type": "way",
@@ -48869,11 +48892,11 @@
     {
       "type": "way",
       "id": 802132252,
-      "timestamp": "2020-05-10T10:32:17Z",
-      "version": 1,
-      "changeset": 84966742,
-      "user": "enz1an",
-      "uid": 9098126,
+      "timestamp": "2022-06-23T00:20:16Z",
+      "version": 2,
+      "changeset": 122732818,
+      "user": "nahundfern",
+      "uid": 876679,
       "nodes": [475738007, 475738020],
       "geometry": [
         {"lat": 46.9784977, "lon": 11.6584991},
@@ -48889,7 +48912,7 @@
         {"lat": 46.9753117, "lon": 11.6582213},
         {"lat": 46.9752667, "lon": 11.6582985}
       ],
-      "tags": {"highway": "path"}
+      "tags": {"highway": "path", "sac_scale": "mountain_hiking"}
     },
     {
       "type": "way",
@@ -53188,14 +53211,15 @@
     {
       "type": "way",
       "id": 87086678,
-      "timestamp": "2022-02-06T20:04:31Z",
-      "version": 5,
-      "changeset": 117092959,
-      "user": "Jorisbo",
-      "uid": 1983103,
+      "timestamp": "2022-06-23T00:20:16Z",
+      "version": 6,
+      "changeset": 122732818,
+      "user": "nahundfern",
+      "uid": 876679,
       "nodes": [1012809399, 1012809514],
       "geometry": [
-        {"lat": 46.9583181, "lon": 11.6716122},
+        {"lat": 46.9583213, "lon": 11.6716332},
+        {"lat": 46.9582761, "lon": 11.6716447},
         {"lat": 46.9580653, "lon": 11.6716122},
         {"lat": 46.9578325, "lon": 11.6716264},
         {"lat": 46.9576834, "lon": 11.6715546},
@@ -53289,9 +53313,9 @@
         {"lat": 46.9506078, "lon": 11.6694351}
       ],
       "tags": {
-        "sac_scale": "demanding_alpine_hiking",
         "highway": "path",
-        "ref": "8"
+        "ref": "8",
+        "sac_scale": "demanding_mountain_hiking"
       }
     },
     {
