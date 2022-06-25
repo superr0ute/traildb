@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-06-23T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-06-24T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2791,11 +2791,11 @@
     {
       "type": "relation",
       "id": 12243436,
-      "timestamp": "2022-06-04T09:38:44Z",
-      "version": 3,
-      "changeset": 121931868,
-      "user": "Patchi",
-      "uid": 591881,
+      "timestamp": "2022-06-24T13:54:35Z",
+      "version": 4,
+      "changeset": 122804721,
+      "user": "jcr83",
+      "uid": 234940,
       "members": [
         {"type": "way", "ref": 901055883, "role": ""},
         {"type": "way", "ref": 169704285, "role": ""},
@@ -2816,7 +2816,7 @@
         {"type": "way", "ref": 106225123, "role": ""},
         {"type": "way", "ref": 350932262, "role": ""},
         {"type": "way", "ref": 169704290, "role": ""},
-        {"type": "way", "ref": 120578672, "role": ""},
+        {"type": "way", "ref": 169704290, "role": ""},
         {"type": "way", "ref": 120578669, "role": ""},
         {"type": "way", "ref": 355759635, "role": ""},
         {"type": "way", "ref": 351133774, "role": ""},
@@ -3368,11 +3368,11 @@
     {
       "type": "relation",
       "id": 3354069,
-      "timestamp": "2020-09-02T15:44:42Z",
-      "version": 14,
-      "changeset": 90313031,
-      "user": "VulpesVulpes68",
-      "uid": 9034543,
+      "timestamp": "2022-06-24T09:14:59Z",
+      "version": 15,
+      "changeset": 122792895,
+      "user": "dusteagle",
+      "uid": 9375142,
       "members": [
         {"type": "way", "ref": 832520637, "role": ""},
         {"type": "way", "ref": 832520638, "role": ""},
@@ -3412,7 +3412,10 @@
         {"type": "way", "ref": 119830601, "role": ""},
         {"type": "way", "ref": 843585080, "role": ""},
         {"type": "way", "ref": 843585079, "role": ""},
-        {"type": "way", "ref": 119821224, "role": ""}
+        {"type": "way", "ref": 119821224, "role": ""},
+        {"type": "way", "ref": 1072966120, "role": ""},
+        {"type": "way", "ref": 119821225, "role": ""},
+        {"type": "way", "ref": 39171344, "role": ""}
       ],
       "tags": {
         "description": "Larche - Bousiéyas",
@@ -6085,7 +6088,7 @@
         {"lat": 46.4210069, "lon": 8.4173271},
         {"lat": 46.4210319, "lon": 8.4173277},
         {"lat": 46.4210494, "lon": 8.4173262},
-        {"lat": 46.4210842, "lon": 8.4173055}
+        {"lat": 46.4210623, "lon": 8.4173142}
       ],
       "tags": {
         "highway": "service",
@@ -6774,6 +6777,26 @@
         "mtb": "yes",
         "sac_scale": "mountain_hiking",
         "trail_visibility": "excellent"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1072966120,
+      "timestamp": "2022-06-24T09:14:59Z",
+      "version": 1,
+      "changeset": 122792895,
+      "user": "dusteagle",
+      "uid": 9375142,
+      "nodes": [1345160526, 301804296],
+      "geometry": [
+        {"lat": 44.45061, "lon": 6.8470425},
+        {"lat": 44.4505835, "lon": 6.8471134}
+      ],
+      "tags": {
+        "highway": "primary",
+        "maxspeed": "50",
+        "name": "Route de la Madeleine",
+        "ref": "D 900"
       }
     },
     {
@@ -10242,6 +10265,27 @@
     },
     {
       "type": "way",
+      "id": 119821225,
+      "timestamp": "2018-07-05T16:49:40Z",
+      "version": 3,
+      "changeset": 60442288,
+      "user": "Pa413",
+      "uid": 688484,
+      "nodes": [301804295, 1345160526],
+      "geometry": [
+        {"lat": 44.4507254, "lon": 6.8467693},
+        {"lat": 44.45061, "lon": 6.8470425}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "primary",
+        "layer": "1",
+        "maxspeed": "50",
+        "ref": "D 900"
+      }
+    },
+    {
+      "type": "way",
       "id": 119830601,
       "timestamp": "2020-09-02T15:44:42Z",
       "version": 3,
@@ -10703,21 +10747,6 @@
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009",
         "trail_visibility": "excellent"
       }
-    },
-    {
-      "type": "way",
-      "id": 120578672,
-      "timestamp": "2015-06-23T14:51:54Z",
-      "version": 7,
-      "changeset": 32163363,
-      "user": "panarchos",
-      "uid": 75131,
-      "nodes": [293182815, 1222861102],
-      "geometry": [
-        {"lat": 44.0895436, "lon": 7.0864234},
-        {"lat": 44.0896171, "lon": 7.0865952}
-      ],
-      "tags": {"highway": "unclassified"}
     },
     {
       "type": "way",
@@ -21996,16 +22025,17 @@
     {
       "type": "way",
       "id": 169704290,
-      "timestamp": "2012-07-01T11:56:18Z",
-      "version": 1,
-      "changeset": 12074976,
-      "user": "sergio7826",
-      "uid": 411998,
-      "nodes": [293182814, 293182815],
+      "timestamp": "2022-06-24T13:54:35Z",
+      "version": 2,
+      "changeset": 122804721,
+      "user": "jcr83",
+      "uid": 234940,
+      "nodes": [293182814, 1222861102],
       "geometry": [
         {"lat": 44.0896309, "lon": 7.0860229},
         {"lat": 44.0895207, "lon": 7.0863134},
-        {"lat": 44.0895436, "lon": 7.0864234}
+        {"lat": 44.0895436, "lon": 7.0864234},
+        {"lat": 44.0896171, "lon": 7.0865952}
       ],
       "tags": {"highway": "unclassified"}
     },
@@ -55059,9 +55089,9 @@
     {
       "type": "way",
       "id": 343329757,
-      "timestamp": "2015-06-02T15:50:38Z",
-      "version": 2,
-      "changeset": 31668048,
+      "timestamp": "2022-06-24T13:54:35Z",
+      "version": 3,
+      "changeset": 122804721,
       "user": "jcr83",
       "uid": 234940,
       "nodes": [1222860995, 293182812],
@@ -55074,7 +55104,7 @@
         {"lat": 44.0905293, "lon": 7.0856069},
         {"lat": 44.0903941, "lon": 7.0855229}
       ],
-      "tags": {"highway": "unclassified", "source": "Bing"}
+      "tags": {"highway": "unclassified"}
     },
     {
       "type": "way",
@@ -62331,6 +62361,21 @@
         {"lat": 45.5399242, "lon": 7.5369}
       ],
       "tags": {"highway": "path"}
+    },
+    {
+      "type": "way",
+      "id": 39171344,
+      "timestamp": "2018-07-05T16:49:40Z",
+      "version": 3,
+      "changeset": 60442288,
+      "user": "Pa413",
+      "uid": 688484,
+      "nodes": [301804294, 301804295],
+      "geometry": [
+        {"lat": 44.45089, "lon": 6.8464842},
+        {"lat": 44.4507254, "lon": 6.8467693}
+      ],
+      "tags": {"highway": "primary", "maxspeed": "50", "ref": "D 900"}
     },
     {
       "type": "way",
@@ -79112,20 +79157,20 @@
     {
       "type": "way",
       "id": 603746632,
-      "timestamp": "2022-04-26T09:03:48Z",
-      "version": 6,
-      "changeset": 120201447,
-      "user": "Andrea Del Sarto",
-      "uid": 3215770,
+      "timestamp": "2022-06-24T15:09:33Z",
+      "version": 7,
+      "changeset": 122807689,
+      "user": "openpablo3",
+      "uid": 708145,
       "nodes": [437297492, 290159691],
       "geometry": [
-        {"lat": 46.4225838, "lon": 8.41716},
-        {"lat": 46.422535, "lon": 8.4173294},
-        {"lat": 46.4224417, "lon": 8.4173994},
-        {"lat": 46.4223258, "lon": 8.4174321},
-        {"lat": 46.4220522, "lon": 8.4174461},
-        {"lat": 46.4219266, "lon": 8.4174228},
-        {"lat": 46.4218139, "lon": 8.4173434},
+        {"lat": 46.4225888, "lon": 8.4171802},
+        {"lat": 46.422523, "lon": 8.4173164},
+        {"lat": 46.4224327, "lon": 8.4173777},
+        {"lat": 46.4223109, "lon": 8.4174046},
+        {"lat": 46.4220472, "lon": 8.417423},
+        {"lat": 46.4219266, "lon": 8.4174011},
+        {"lat": 46.4218149, "lon": 8.4173203},
         {"lat": 46.4217238, "lon": 8.4172547},
         {"lat": 46.4216176, "lon": 8.4171613},
         {"lat": 46.4213308, "lon": 8.4170185},
@@ -79133,6 +79178,7 @@
       ],
       "tags": {
         "highway": "unclassified",
+        "noexit": "yes",
         "source": "PCN_ortofoto_colore_2006",
         "surface": "asphalt"
       }
@@ -93073,14 +93119,16 @@
     {
       "type": "way",
       "id": 757975824,
-      "timestamp": "2021-02-16T10:44:56Z",
-      "version": 2,
-      "changeset": 99372791,
-      "user": "Jrachi",
-      "uid": 2976645,
+      "timestamp": "2022-06-24T15:09:33Z",
+      "version": 3,
+      "changeset": 122807689,
+      "user": "openpablo3",
+      "uid": 708145,
       "nodes": [290159692, 290159691],
       "geometry": [
-        {"lat": 46.4210842, "lon": 8.4173055},
+        {"lat": 46.4210623, "lon": 8.4173142},
+        {"lat": 46.4209958, "lon": 8.4171106},
+        {"lat": 46.4209411, "lon": 8.4169503},
         {"lat": 46.4209097, "lon": 8.416867}
       ],
       "tags": {"highway": "secondary", "surface": "asphalt"}
