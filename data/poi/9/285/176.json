@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-06-26T23:59:59Z",
-    "timestamp_osm_base": "2022-06-27T07:06:07Z",
+    "timestamp_osm_date": "2022-06-27T23:59:59Z",
+    "timestamp_osm_base": "2022-06-28T07:07:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -15227,13 +15227,13 @@
     {
       "type": "node",
       "id": 4172790488,
-      "lat": 48.7014647,
-      "lon": 20.5747834,
-      "timestamp": "2016-05-08T12:27:46Z",
-      "version": 1,
-      "changeset": 39180258,
-      "user": "vajko1970",
-      "uid": 445131,
+      "lat": 48.7013943,
+      "lon": 20.5747023,
+      "timestamp": "2022-06-27T18:34:50Z",
+      "version": 2,
+      "changeset": 122922367,
+      "user": "Dodko",
+      "uid": 1944033,
       "tags": {
         "natural": "spring"
       }
@@ -17331,14 +17331,15 @@
       "id": 5634209735,
       "lat": 48.8189458,
       "lon": 20.8909897,
-      "timestamp": "2020-11-16T08:15:06Z",
-      "version": 2,
-      "changeset": 94187617,
+      "timestamp": "2022-06-27T06:13:17Z",
+      "version": 3,
+      "changeset": 122890852,
       "user": "*Martin*",
       "uid": 4815,
       "tags": {
-        "refitted": "yes",
-        "natural": "spring"
+        "natural": "spring",
+        "note": "damaged",
+        "refitted": "yes"
       }
     },
     {
@@ -24470,6 +24471,55 @@
       }
     },
     {
+      "type": "node",
+      "id": 9849467457,
+      "lat": 48.8114442,
+      "lon": 20.9149345,
+      "timestamp": "2022-06-27T06:30:43Z",
+      "version": 2,
+      "changeset": 122890852,
+      "user": "*Martin*",
+      "uid": 4815,
+      "tags": {
+        "name": "Karolinka",
+        "natural": "spring",
+        "note": "dry",
+        "refitted": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9849467463,
+      "lat": 48.8143564,
+      "lon": 20.913759,
+      "timestamp": "2022-06-27T06:30:43Z",
+      "version": 2,
+      "changeset": 122890852,
+      "user": "*Martin*",
+      "uid": 4815,
+      "tags": {
+        "drinking_water": "yes",
+        "name": "Rimevka u Janíčka",
+        "natural": "spring",
+        "refitted": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9849536883,
+      "lat": 48.8115869,
+      "lon": 20.9073579,
+      "timestamp": "2022-06-27T06:42:24Z",
+      "version": 1,
+      "changeset": 122890852,
+      "user": "*Martin*",
+      "uid": 4815,
+      "tags": {
+        "name": "Sabi",
+        "shop": "convenience"
+      }
+    },
+    {
       "type": "way",
       "id": 54368329,
       "timestamp": "2021-10-15T07:32:06Z",
@@ -26788,6 +26838,44 @@
       "tags": {
         "amenity": "shelter",
         "building": "hut",
+        "shelter_type": "weather_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1073738253,
+      "timestamp": "2022-06-27T06:13:17Z",
+      "version": 1,
+      "changeset": 122890852,
+      "user": "*Martin*",
+      "uid": 4815,
+      "center": {
+        "lat": 48.8031239,
+        "lon": 20.9170609
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1073738254,
+      "timestamp": "2022-06-27T06:13:17Z",
+      "version": 1,
+      "changeset": 122890852,
+      "user": "*Martin*",
+      "uid": 4815,
+      "center": {
+        "lat": 48.8032981,
+        "lon": 20.9172431
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "roof",
+        "note": "looks like it could be used tyo overnight, but is open",
         "shelter_type": "weather_shelter"
       }
     }
