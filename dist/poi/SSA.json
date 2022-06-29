@@ -1059,11 +1059,11 @@
         "@poi": "place_village",
         "@distance": 3466.4,
         "@id": "n333342595",
-        "@changeset": 20329879,
-        "@timestamp": "2014-02-02T08:42:35Z",
-        "@version": 2,
-        "@uid": 480488,
-        "@user": "GiuseppeAmici_IT",
+        "@changeset": 122903412,
+        "@timestamp": "2022-06-27T10:38:43Z",
+        "@version": 3,
+        "@uid": 11329839,
+        "@user": "giuliobranchetti",
         "ele": 722,
         "gfoss_id": "41062",
         "is_in": "Camugnano, Bologna, Emilia Romagna, Italy",
@@ -1071,7 +1071,8 @@
         "name": "Stagno",
         "place": "village",
         "population": 12,
-        "source": "Istat 2001 - geodati.gfoss.it"
+        "source": "Istat 2001 - geodati.gfoss.it",
+        "wikidata": "Q18438734"
       },
       "geometry": {
         "type": "Point",
@@ -7869,6 +7870,31 @@
         "coordinates": [
           11.0499602,
           44.0169719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 43.8,
+        "@id": "n1349189484",
+        "@changeset": 122903412,
+        "@timestamp": "2022-06-27T10:38:43Z",
+        "@version": 4,
+        "@uid": 11329839,
+        "@user": "giuliobranchetti",
+        "ele": 1098,
+        "name": "Poggio Roncomannaio",
+        "natural": "peak",
+        "summit:cross": "yes",
+        "wikidata": "Q31223354"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0831838,
+          44.0798629
         ]
       }
     },
@@ -19616,34 +19642,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 8566.2,
-        "@id": "n4373684997",
-        "@changeset": 101941568,
-        "@timestamp": "2021-03-29T21:39:42Z",
-        "@version": 3,
-        "@uid": 482753,
-        "@user": "lorenzoguidotti",
-        "addr:housenumber": "125",
-        "addr:postcode": "51100",
-        "addr:street": "Largo San Biagio",
-        "brand": "Conad City",
-        "brand:wikidata": "Q57543102",
-        "name": "Conad City",
-        "opening_hours": "Mo-Sa 07:30-20:00; Su 08:30-13:00",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.9069155,
-          43.9353684
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_spring",
         "@distance": 330,
         "@id": "n9007163439",
@@ -21247,6 +21245,34 @@
         "coordinates": [
           10.6638091,
           44.1071123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 8566.2,
+        "@id": "n4373684997",
+        "@changeset": 101941568,
+        "@timestamp": "2021-03-29T21:39:42Z",
+        "@version": 3,
+        "@uid": 482753,
+        "@user": "lorenzoguidotti",
+        "addr:housenumber": "125",
+        "addr:postcode": "51100",
+        "addr:street": "Largo San Biagio",
+        "brand": "Conad City",
+        "brand:wikidata": "Q57543102",
+        "name": "Conad City",
+        "opening_hours": "Mo-Sa 07:30-20:00; Su 08:30-13:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.9069155,
+          43.9353684
         ]
       }
     },
@@ -23386,31 +23412,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 7637.9,
-        "@id": "n7824954552",
-        "@changeset": 89607877,
-        "@timestamp": "2020-08-19T05:35:36Z",
-        "@version": 1,
-        "@uid": 1669056,
-        "@user": "Maurizio Melani (forwalk)",
-        "addr:city": "Chiesina Montalese",
-        "addr:housenumber": "23",
-        "addr:street": "Via della Chiesina",
-        "name": "DiMarket",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.9730087,
-          43.9316116
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 1362.6,
         "@id": "n5578721848",
@@ -24280,26 +24281,25 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 5.3,
-        "@id": "w114542461",
-        "@changeset": 44287146,
-        "@timestamp": "2016-12-09T17:28:02Z",
-        "@version": 6,
-        "@uid": 3455425,
-        "@user": "Matteo Calosi",
-        "amenity": "shelter",
-        "building": "roof",
-        "capacity": 8,
-        "description": "Bivacco dotato di stufa, aperto nei giorni di chiusura del rifugio",
-        "name": "Bivacco Musiani",
-        "shelter_type": "basic_hut"
+        "@poi": "foodshop_convenience",
+        "@distance": 7637.9,
+        "@id": "n7824954552",
+        "@changeset": 89607877,
+        "@timestamp": "2020-08-19T05:35:36Z",
+        "@version": 1,
+        "@uid": 1669056,
+        "@user": "Maurizio Melani (forwalk)",
+        "addr:city": "Chiesina Montalese",
+        "addr:housenumber": "23",
+        "addr:street": "Via della Chiesina",
+        "name": "DiMarket",
+        "shop": "convenience"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.806171,
-          44.1187727
+          10.9730087,
+          43.9316116
         ]
       }
     },
@@ -25213,6 +25213,32 @@
         "coordinates": [
           10.2141888,
           44.2660706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 5.3,
+        "@id": "w114542461",
+        "@changeset": 44287146,
+        "@timestamp": "2016-12-09T17:28:02Z",
+        "@version": 6,
+        "@uid": 3455425,
+        "@user": "Matteo Calosi",
+        "amenity": "shelter",
+        "building": "roof",
+        "capacity": 8,
+        "description": "Bivacco dotato di stufa, aperto nei giorni di chiusura del rifugio",
+        "name": "Bivacco Musiani",
+        "shelter_type": "basic_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.806171,
+          44.1187727
         ]
       }
     },
@@ -26481,31 +26507,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 1255.9,
-        "@id": "w323462757",
-        "@changeset": 92812385,
-        "@timestamp": "2020-10-21T07:41:45Z",
-        "@version": 2,
-        "@uid": 11329839,
-        "@user": "giuliobranchetti",
-        "building": "yes",
-        "fee": "no",
-        "fireplace": "yes",
-        "name": "Bivacco Il Frassino",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.0584059,
-          44.0019252
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_spring",
         "@distance": 2364,
         "@id": "n9130397816",
@@ -27228,6 +27229,31 @@
         "coordinates": [
           10.3752835,
           44.255854
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 1255.9,
+        "@id": "w323462757",
+        "@changeset": 92812385,
+        "@timestamp": "2020-10-21T07:41:45Z",
+        "@version": 2,
+        "@uid": 11329839,
+        "@user": "giuliobranchetti",
+        "building": "yes",
+        "fee": "no",
+        "fireplace": "yes",
+        "name": "Bivacco Il Frassino",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0584059,
+          44.0019252
         ]
       }
     },

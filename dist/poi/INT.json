@@ -2039,21 +2039,26 @@
         "@poi": "place_town",
         "@distance": 5430.4,
         "@id": "n278432314",
-        "@changeset": 101195643,
-        "@timestamp": "2021-03-17T14:16:48Z",
-        "@version": 11,
-        "@uid": 12867672,
-        "@user": "Ty789",
+        "@changeset": 122962533,
+        "@timestamp": "2022-06-28T15:13:40Z",
+        "@version": 12,
+        "@uid": 15543111,
+        "@user": "Peter Maris",
         "alt_name": "קרית אונו",
         "description": "פארק צהל קריית אונו",
         "description:he": "פארק צהל קריית אונו",
         "gns_ref": "-781104",
         "name": "קריית אונו",
         "name:ar": "كريات أونو",
+        "name:de": "Kiryat Ono",
         "name:en": "Kiryat Ono",
+        "name:es": "Kiryat Ono",
         "name:fr": "Kiryat Ono",
         "name:he": "קריית אונו",
+        "name:hy": "Կիրյաթ Օնո",
         "name:ru": "Кирьят-Оно",
+        "name:uk": "Кір'ят-Оно",
+        "name:ur": "کریات اونو",
         "place": "town",
         "source": "GEOnet Names Server (gns)"
       },
@@ -3923,6 +3928,34 @@
         "coordinates": [
           34.8508746,
           30.800886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 4466.1,
+        "@id": "n379442588",
+        "@changeset": 122947297,
+        "@timestamp": "2022-06-28T09:29:11Z",
+        "@version": 5,
+        "@uid": 5549012,
+        "@user": "theipu",
+        "addr:city": "מדרשת בן גוריון",
+        "addr:postcode": "849000",
+        "name": "סופר ציון",
+        "opening_hours": "Su-Th 08:00-19:00, Fr 08:00-14:00",
+        "operator": "Benny",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.783393,
+          30.8508662
         ]
       }
     },
@@ -26948,11 +26981,13 @@
         "@poi": "campsite",
         "@distance": 976.2,
         "@id": "n8174595213",
-        "@changeset": 122763013,
-        "@timestamp": "2022-06-23T14:29:50Z",
-        "@version": 2,
+        "@changeset": 122882083,
+        "@timestamp": "2022-06-26T21:31:14Z",
+        "@version": 3,
         "@uid": 686490,
         "@user": "hatul",
+        "description": "חניון עם שולחנות, ברז ושירותים ומעט עצים.",
+        "description:he": "חניון עם שולחנות, ברז ושירותים ומעט עצים.",
         "name": "חניון לילה הר אלון",
         "name:he": "חניון לילה הר אלון",
         "tourism": "camp_site"
@@ -29243,30 +29278,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 7399.2,
-        "@id": "n432302792",
-        "@changeset": 49548816,
-        "@timestamp": "2017-06-15T06:26:18Z",
-        "@version": 2,
-        "@uid": 5816834,
-        "@user": "SafwatHalaby_bot",
-        "name": "Supermarket",
-        "name:ar": "بقالة",
-        "name:en": "Supermarket",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.9773847,
-          32.1647582
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "place_village",
         "@distance": 1972.8,
         "@id": "n344227581",
@@ -31434,36 +31445,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "place_village",
-        "@distance": 2446.7,
-        "@id": "n278477663",
-        "@changeset": 101850879,
-        "@timestamp": "2021-03-27T19:13:38Z",
-        "@version": 7,
-        "@uid": 11422772,
-        "@user": "Vejoson",
-        "gns_ref": "-780326",
-        "name": "כרי דשא",
-        "name:de": "Kare Deshe",
-        "name:en": "Karay Deshe",
-        "name:en1": "Karei-Deshe",
-        "name:fr": "Karay Deshe",
-        "name:he": "כרי דשא",
-        "place": "village",
-        "source": "GEOnet Names Server (gns)",
-        "wikidata": "Q6786300"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.5392877,
-          32.8655716
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_spring",
         "@distance": 2697.4,
         "@id": "n278477704",
@@ -33161,6 +33142,30 @@
         "coordinates": [
           35.0809866,
           32.7412958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 7399.2,
+        "@id": "n432302792",
+        "@changeset": 49548816,
+        "@timestamp": "2017-06-15T06:26:18Z",
+        "@version": 2,
+        "@uid": 5816834,
+        "@user": "SafwatHalaby_bot",
+        "name": "Supermarket",
+        "name:ar": "بقالة",
+        "name:en": "Supermarket",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9773847,
+          32.1647582
         ]
       }
     },
@@ -43228,35 +43233,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 1088.2,
-        "@id": "n1065507428",
-        "@changeset": 52345502,
-        "@timestamp": "2017-09-25T06:32:25Z",
-        "@version": 7,
-        "@uid": 2138064,
-        "@user": "SafwatHalaby",
-        "brand": "Tiv Ta'am",
-        "brand:wikidata": "Q2903718",
-        "brand:wikipedia": "en:Tiv Ta'am",
-        "name": "טיב טעם",
-        "name:en": "Tiv Ta'am",
-        "name:he": "טיב טעם",
-        "name:ru": "Тив Та'ам",
-        "shop": "supermarket",
-        "website": "https://www.tivtaam.co.il"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.7748488,
-          32.0873279
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "place_village",
         "@distance": 1908.5,
         "@id": "n1080455114",
@@ -46585,6 +46561,35 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
+        "@distance": 1088.2,
+        "@id": "n1065507428",
+        "@changeset": 52345502,
+        "@timestamp": "2017-09-25T06:32:25Z",
+        "@version": 7,
+        "@uid": 2138064,
+        "@user": "SafwatHalaby",
+        "brand": "Tiv Ta'am",
+        "brand:wikidata": "Q2903718",
+        "brand:wikipedia": "en:Tiv Ta'am",
+        "name": "טיב טעם",
+        "name:en": "Tiv Ta'am",
+        "name:he": "טיב טעם",
+        "name:ru": "Тив Та'ам",
+        "shop": "supermarket",
+        "website": "https://www.tivtaam.co.il"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7748488,
+          32.0873279
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
         "@distance": 919.4,
         "@id": "n1065507449",
         "@changeset": 121989417,
@@ -48776,13 +48781,13 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_convenience",
-        "@distance": 1412.3,
+        "@distance": 1409.4,
         "@id": "n1522754582",
-        "@changeset": 49299149,
-        "@timestamp": "2017-06-06T09:06:56Z",
-        "@version": 4,
-        "@uid": 5816834,
-        "@user": "SafwatHalaby_bot",
+        "@changeset": 122975913,
+        "@timestamp": "2022-06-28T21:49:28Z",
+        "@version": 5,
+        "@uid": 1298075,
+        "@user": "Sokuya",
         "addr:housenumber": "1",
         "addr:street": "שדרות אבא אבן",
         "name": "Injoy Market",
@@ -48794,8 +48799,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          34.8107739,
-          32.1611157
+          34.8107752,
+          32.1612133
         ]
       }
     },
@@ -64454,6 +64459,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_spring",
+        "@distance": 139.3,
+        "@id": "n9850278217",
+        "@changeset": 122905707,
+        "@timestamp": "2022-06-27T11:28:56Z",
+        "@version": 1,
+        "@uid": 12113237,
+        "@user": "mosherf",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/IHM_הירדנית.jpeg",
+        "name": "הירדנית",
+        "name:he": "הירדנית",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5696886,
+          32.7093562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "place_village",
         "@distance": 956.2,
         "@id": "w91312309",
@@ -64528,37 +64557,6 @@
         "coordinates": [
           35.302398,
           32.7786633
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "place_village",
-        "@distance": 1653.1,
-        "@id": "w91562334",
-        "@changeset": 117967477,
-        "@timestamp": "2022-03-01T06:49:28Z",
-        "@version": 13,
-        "@uid": 189946,
-        "@user": "BMM994",
-        "ele": 107,
-        "landuse": "residential",
-        "name": "קדרים",
-        "name:cs": "Kadarim",
-        "name:en": "Kaddarim",
-        "name:fr": "Kadarim",
-        "name:he": "קדרים",
-        "place": "village",
-        "population": 206,
-        "wikidata": "Q165623",
-        "wikipedia": "he:קדרים"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.4725708,
-          32.899723
         ]
       }
     },
@@ -66396,29 +66394,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 2846,
-        "@id": "n4742686100",
-        "@changeset": 49294617,
-        "@timestamp": "2017-06-06T06:33:21Z",
-        "@version": 2,
-        "@uid": 5816834,
-        "@user": "SafwatHalaby_bot",
-        "name": "Yellow",
-        "name:en": "Yellow",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.8455173,
-          32.0818599
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 1004.9,
         "@id": "n5732066550",
@@ -67973,6 +67948,37 @@
       "type": "Feature",
       "properties": {
         "@poi": "place_village",
+        "@distance": 1653.1,
+        "@id": "w91562334",
+        "@changeset": 117967477,
+        "@timestamp": "2022-03-01T06:49:28Z",
+        "@version": 13,
+        "@uid": 189946,
+        "@user": "BMM994",
+        "ele": 107,
+        "landuse": "residential",
+        "name": "קדרים",
+        "name:cs": "Kadarim",
+        "name:en": "Kaddarim",
+        "name:fr": "Kadarim",
+        "name:he": "קדרים",
+        "place": "village",
+        "population": 206,
+        "wikidata": "Q165623",
+        "wikipedia": "he:קדרים"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4725708,
+          32.899723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_village",
         "@distance": 881.9,
         "@id": "w91562897",
         "@changeset": 102011577,
@@ -68003,13 +68009,13 @@
       "type": "Feature",
       "properties": {
         "@poi": "place_village",
-        "@distance": 1266.4,
+        "@distance": 1389.6,
         "@id": "w91562899",
-        "@changeset": 114953653,
-        "@timestamp": "2021-12-15T08:33:35Z",
-        "@version": 16,
-        "@uid": 1206509,
-        "@user": "Sanniu",
+        "@changeset": 122926828,
+        "@timestamp": "2022-06-27T20:08:23Z",
+        "@version": 19,
+        "@uid": 189946,
+        "@user": "BMM994",
         "alt_name": "גנוסר",
         "alt_name:en": "Ginosar;Ginneisar;Genossar",
         "ele": -203,
@@ -68030,8 +68036,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.522401,
-          32.8467293
+          35.5236497,
+          32.847365
         ]
       }
     },
@@ -68039,13 +68045,13 @@
       "type": "Feature",
       "properties": {
         "@poi": "place_village",
-        "@distance": 2446.9,
+        "@distance": 2391.9,
         "@id": "w91563720",
-        "@changeset": 102011577,
-        "@timestamp": "2021-03-30T22:20:15Z",
-        "@version": 5,
-        "@uid": 11422772,
-        "@user": "Vejoson",
+        "@changeset": 122957320,
+        "@timestamp": "2022-06-28T13:13:18Z",
+        "@version": 7,
+        "@uid": 189946,
+        "@user": "BMM994",
         "landuse": "residential",
         "name": "כרי דשא",
         "name:en": "Karay Deshe",
@@ -68056,8 +68062,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.53913,
-          32.8662753
+          35.5385522,
+          32.8661816
         ]
       }
     },
@@ -68715,13 +68721,13 @@
       "type": "Feature",
       "properties": {
         "@poi": "place_village",
-        "@distance": 2024.1,
+        "@distance": 2006.3,
         "@id": "w610619805",
-        "@changeset": 117702901,
-        "@timestamp": "2022-02-21T22:23:45Z",
-        "@version": 3,
-        "@uid": 11332999,
-        "@user": "Yamílo",
+        "@changeset": 122869214,
+        "@timestamp": "2022-06-26T14:14:30Z",
+        "@version": 4,
+        "@uid": 160949,
+        "@user": "eric22",
         "landuse": "residential",
         "name": "الرينة",
         "name:ar": "الرينة",
@@ -68735,7 +68741,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          35.3104077,
+          35.3106561,
           32.7209168
         ]
       }
@@ -68848,6 +68854,29 @@
         "coordinates": [
           35.3763405,
           32.9653686
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 2846,
+        "@id": "n4742686100",
+        "@changeset": 49294617,
+        "@timestamp": "2017-06-06T06:33:21Z",
+        "@version": 2,
+        "@uid": 5816834,
+        "@user": "SafwatHalaby_bot",
+        "name": "Yellow",
+        "name:en": "Yellow",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8455173,
+          32.0818599
         ]
       }
     },
@@ -72597,86 +72626,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "place_village",
-        "@distance": 876,
-        "@id": "w642173379",
-        "@changeset": 122362995,
-        "@timestamp": "2022-06-14T09:23:25Z",
-        "@version": 5,
-        "@uid": 189946,
-        "@user": "BMM994",
-        "landuse": "residential",
-        "name": "דגניה ב'",
-        "name:cs": "Deganja Bet",
-        "name:en": "Deganya B",
-        "name:fr": "Degania Bet",
-        "name:he": "דגניה ב'",
-        "place": "village"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.575485,
-          32.6995155
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "place_village",
-        "@distance": 623,
-        "@id": "w642173393",
-        "@changeset": 122324982,
-        "@timestamp": "2022-06-13T12:55:52Z",
-        "@version": 8,
-        "@uid": 189946,
-        "@user": "BMM994",
-        "landuse": "residential",
-        "name": "דגניה א'",
-        "name:en": "Deganya Alef",
-        "name:fr": "Degania",
-        "name:he": "דגניה א'",
-        "place": "village"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.5747543,
-          32.7073926
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "place_village",
-        "@distance": 2524.1,
-        "@id": "w642217398",
-        "@changeset": 120837073,
-        "@timestamp": "2022-05-11T11:57:17Z",
-        "@version": 6,
-        "@uid": 189946,
-        "@user": "BMM994",
-        "landuse": "residential",
-        "name": "מנחמיה",
-        "name:cs": "Menachamija",
-        "name:en": "Menahamiya",
-        "name:fr": "Ménahamia",
-        "name:he": "מנחמיה",
-        "place": "village"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          35.5554965,
-          32.668439
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 454.7,
         "@id": "n5291590322",
@@ -73870,30 +73819,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 1409.2,
-        "@id": "n6018987075",
-        "@changeset": 85311424,
-        "@timestamp": "2020-05-16T17:14:54Z",
-        "@version": 2,
-        "@uid": 2138064,
-        "@user": "SafwatHalaby",
-        "name": "Injoy market",
-        "name:en": "Injoy market",
-        "opening_hours": "24/7",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          34.8107717,
-          32.1612068
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 1182.6,
         "@id": "n6024560104",
@@ -74850,6 +74775,86 @@
         "coordinates": [
           34.9362057,
           31.7083209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_village",
+        "@distance": 876,
+        "@id": "w642173379",
+        "@changeset": 122362995,
+        "@timestamp": "2022-06-14T09:23:25Z",
+        "@version": 5,
+        "@uid": 189946,
+        "@user": "BMM994",
+        "landuse": "residential",
+        "name": "דגניה ב'",
+        "name:cs": "Deganja Bet",
+        "name:en": "Deganya B",
+        "name:fr": "Degania Bet",
+        "name:he": "דגניה ב'",
+        "place": "village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.575485,
+          32.6995155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_village",
+        "@distance": 623,
+        "@id": "w642173393",
+        "@changeset": 122324982,
+        "@timestamp": "2022-06-13T12:55:52Z",
+        "@version": 8,
+        "@uid": 189946,
+        "@user": "BMM994",
+        "landuse": "residential",
+        "name": "דגניה א'",
+        "name:en": "Deganya Alef",
+        "name:fr": "Degania",
+        "name:he": "דגניה א'",
+        "place": "village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5747543,
+          32.7073926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_village",
+        "@distance": 2524.1,
+        "@id": "w642217398",
+        "@changeset": 120837073,
+        "@timestamp": "2022-05-11T11:57:17Z",
+        "@version": 6,
+        "@uid": 189946,
+        "@user": "BMM994",
+        "landuse": "residential",
+        "name": "מנחמיה",
+        "name:cs": "Menachamija",
+        "name:en": "Menahamiya",
+        "name:fr": "Ménahamia",
+        "name:he": "מנחמיה",
+        "place": "village"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5554965,
+          32.668439
         ]
       }
     },
@@ -79008,16 +79013,20 @@
         "@poi": "place_town",
         "@distance": 5284.3,
         "@id": "n8281800632",
-        "@changeset": 99271551,
-        "@timestamp": "2021-02-15T00:48:17Z",
-        "@version": 2,
-        "@uid": 11422772,
-        "@user": "Vejoson",
+        "@changeset": 122962533,
+        "@timestamp": "2022-06-28T15:13:40Z",
+        "@version": 3,
+        "@uid": 15543111,
+        "@user": "Peter Maris",
         "name": "סביון",
-        "name:ar": "ساڤيون",
+        "name:ar": "سافيون",
+        "name:de": "Savjon",
         "name:en": "Savyon",
+        "name:es": "Savyon",
+        "name:fa": "ساویون",
         "name:fr": "Savyon",
         "name:he": "סביון",
+        "name:uk": "Савьон",
         "place": "town",
         "wikidata": "Q592526"
       },
@@ -85702,11 +85711,11 @@
         "@poi": "place_village",
         "@distance": 3152.8,
         "@id": "w84844214",
-        "@changeset": 99766924,
-        "@timestamp": "2021-02-22T19:09:57Z",
-        "@version": 20,
-        "@uid": 11422772,
-        "@user": "Vejoson",
+        "@changeset": 122918099,
+        "@timestamp": "2022-06-27T16:27:43Z",
+        "@version": 21,
+        "@uid": 1363117,
+        "@user": "herdelkuz",
         "landuse": "residential",
         "name": "אביאל",
         "name:en": "Aviel",
