@@ -1730,75 +1730,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "mountain-pass",
-        "@distance": 89.2,
-        "@id": "n35553170",
-        "@changeset": 86746297,
-        "@timestamp": "2020-06-17T02:40:21Z",
-        "@version": 5,
-        "@uid": 5403394,
-        "@user": "Adam Schneider",
-        "mountain_pass": "yes",
-        "name": "Jackson Gap",
-        "natural": "saddle"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.8767415,
-          42.029709
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "mountain-pass",
-        "@distance": 35.4,
-        "@id": "n976441273",
-        "@changeset": 86746297,
-        "@timestamp": "2020-06-17T02:40:24Z",
-        "@version": 3,
-        "@uid": 5403394,
-        "@user": "Adam Schneider",
-        "mountain_pass": "yes",
-        "name": "Wards Fork Gap",
-        "natural": "saddle"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -122.9176064,
-          41.9838539
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 464.4,
-        "@id": "n1008616843",
-        "@changeset": 70263039,
-        "@timestamp": "2019-05-15T07:22:43Z",
-        "@version": 2,
-        "@uid": 539772,
-        "@user": "Joseph E",
-        "alt_name": "Reeves Ranch Spring",
-        "name": "Reeves' Ranch Spring",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -123.0113005,
-          41.931729
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "mountain-pass",
         "@distance": 56.8,
         "@id": "n94489273",
         "@changeset": 86737515,
@@ -2283,6 +2214,75 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "mountain-pass",
+        "@distance": 89.2,
+        "@id": "n35553170",
+        "@changeset": 86746297,
+        "@timestamp": "2020-06-17T02:40:21Z",
+        "@version": 5,
+        "@uid": 5403394,
+        "@user": "Adam Schneider",
+        "mountain_pass": "yes",
+        "name": "Jackson Gap",
+        "natural": "saddle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.8767415,
+          42.029709
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "mountain-pass",
+        "@distance": 35.4,
+        "@id": "n976441273",
+        "@changeset": 86746297,
+        "@timestamp": "2020-06-17T02:40:24Z",
+        "@version": 3,
+        "@uid": 5403394,
+        "@user": "Adam Schneider",
+        "mountain_pass": "yes",
+        "name": "Wards Fork Gap",
+        "natural": "saddle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.9176064,
+          41.9838539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 464.4,
+        "@id": "n1008616843",
+        "@changeset": 70263039,
+        "@timestamp": "2019-05-15T07:22:43Z",
+        "@version": 2,
+        "@uid": 539772,
+        "@user": "Joseph E",
+        "alt_name": "Reeves Ranch Spring",
+        "name": "Reeves' Ranch Spring",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.0113005,
+          41.931729
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "campsite",
         "@distance": 263.6,
         "@id": "n2522855256",
@@ -2575,13 +2575,13 @@
       "type": "Feature",
       "properties": {
         "@poi": "mountain-pass",
-        "@distance": 1.4,
+        "@distance": 3.6,
         "@id": "n1003344920",
-        "@changeset": 121307027,
-        "@timestamp": "2022-05-22T07:35:55Z",
-        "@version": 4,
-        "@uid": 4622040,
-        "@user": "Greg_Rose",
+        "@changeset": 122989060,
+        "@timestamp": "2022-06-29T08:01:27Z",
+        "@version": 5,
+        "@uid": 5403394,
+        "@user": "Adam Schneider",
         "mountain_pass": "yes",
         "name": "Rock Creek Pass",
         "natural": "saddle"
@@ -2589,8 +2589,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.043102,
-          45.7491074
+          -122.0431396,
+          45.7490943
         ]
       }
     },
@@ -16600,17 +16600,22 @@
         "@poi": "foodshop_supermarket",
         "@distance": 9788.4,
         "@id": "n6734171086",
-        "@changeset": 80695496,
-        "@timestamp": "2020-02-07T14:12:34Z",
-        "@version": 2,
-        "@uid": 2888253,
-        "@user": "mapman44",
+        "@changeset": 123016659,
+        "@timestamp": "2022-06-29T19:28:13Z",
+        "@version": 3,
+        "@uid": 3207726,
+        "@user": "beddy",
+        "addr:housenumber": "37",
+        "addr:street": "Old Mammoth Road",
         "brand": "Grocery Outlet",
         "brand:wikidata": "Q5609934",
         "brand:wikipedia": "en:Grocery Outlet",
         "name": "Grocery Outlet",
         "official_name": "Grocery Outlet Bargain Market",
-        "shop": "supermarket"
+        "opening_hours": "Mo-Su 07:00-21:00",
+        "phone": "+1 (760) 934-1510",
+        "shop": "supermarket",
+        "website": "https://www.groceryoutlet.com/grand-opening/mammoth-lakes-ca"
       },
       "geometry": {
         "type": "Point",
@@ -25354,35 +25359,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 9919,
-        "@id": "w238693062",
-        "@changeset": 67268887,
-        "@timestamp": "2019-02-17T03:56:12Z",
-        "@version": 4,
-        "@uid": 5800005,
-        "@user": "b-jazz",
-        "addr:housenumber": "850",
-        "addr:postcode": "96145",
-        "addr:street": "North Lake Boulevard",
-        "building": "yes",
-        "name": "Safeway",
-        "opening_hours": "06:00-22:00",
-        "ref": "2258",
-        "shop": "supermarket",
-        "website": "https://local.safeway.com/ca/tahoe-city-2258.html"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -120.1368143,
-          39.1733047
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_spring",
         "@distance": 1549,
         "@id": "n5202942939",
@@ -30549,6 +30525,35 @@
         "coordinates": [
           -116.530319,
           32.8227486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 9919,
+        "@id": "w238693062",
+        "@changeset": 67268887,
+        "@timestamp": "2019-02-17T03:56:12Z",
+        "@version": 4,
+        "@uid": 5800005,
+        "@user": "b-jazz",
+        "addr:housenumber": "850",
+        "addr:postcode": "96145",
+        "addr:street": "North Lake Boulevard",
+        "building": "yes",
+        "name": "Safeway",
+        "opening_hours": "06:00-22:00",
+        "ref": "2258",
+        "shop": "supermarket",
+        "website": "https://local.safeway.com/ca/tahoe-city-2258.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1368143,
+          39.1733047
         ]
       }
     },
