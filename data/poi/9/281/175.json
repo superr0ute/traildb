@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-06-28T23:59:59Z",
-    "timestamp_osm_base": "2022-06-29T07:05:08Z",
+    "timestamp_osm_date": "2022-06-29T23:59:59Z",
+    "timestamp_osm_base": "2022-06-30T06:50:54Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9305,14 +9305,15 @@
       "id": 3414816396,
       "lat": 48.9815646,
       "lon": 17.8959275,
-      "timestamp": "2015-03-23T19:51:38Z",
-      "version": 1,
-      "changeset": 29686848,
-      "user": "*Martin*",
-      "uid": 4815,
+      "timestamp": "2022-06-29T14:28:39Z",
+      "version": 2,
+      "changeset": 123006059,
+      "user": "lubosb",
+      "uid": 21515,
       "tags": {
         "covered": "yes",
-        "natural": "spring"
+        "natural": "spring",
+        "refitted": "yes"
       }
     },
     {
@@ -10922,15 +10923,17 @@
       "id": 4266815310,
       "lat": 48.9957874,
       "lon": 17.8728308,
-      "timestamp": "2016-06-26T18:17:46Z",
-      "version": 1,
-      "changeset": 40305969,
-      "user": "Miroslav Suchý",
-      "uid": 589904,
+      "timestamp": "2022-06-29T14:39:09Z",
+      "version": 3,
+      "changeset": 123006562,
+      "user": "lubosb",
+      "uid": 21515,
       "tags": {
         "name": "Studna pod Lokovem",
         "natural": "spring",
-        "source": "gps"
+        "refitted": "yes",
+        "source": "gps",
+        "wikimedia_commons": "File:Studna pod Lokovem.jpg"
       }
     },
     {
@@ -17634,6 +17637,37 @@
       }
     },
     {
+      "type": "node",
+      "id": 9855677711,
+      "lat": 48.923058,
+      "lon": 18.105665,
+      "timestamp": "2022-06-29T13:01:00Z",
+      "version": 2,
+      "changeset": 123002372,
+      "user": "moonraver",
+      "uid": 16387610,
+      "tags": {
+        "name": "Potraviny SAMA",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9855864489,
+      "lat": 49.0183464,
+      "lon": 17.915508,
+      "timestamp": "2022-06-29T14:28:39Z",
+      "version": 1,
+      "changeset": 123006059,
+      "user": "lubosb",
+      "uid": 21515,
+      "tags": {
+        "name": "Pramen Olšavy",
+        "natural": "spring",
+        "refitted": "yes"
+      }
+    },
+    {
       "type": "way",
       "id": 30995348,
       "timestamp": "2021-07-24T22:16:47Z",
@@ -18623,26 +18657,6 @@
         "shop": "supermarket",
         "source": "kapor2",
         "source:conscriptionnumber": "kapor2"
-      }
-    },
-    {
-      "type": "way",
-      "id": 155023692,
-      "timestamp": "2017-02-01T21:55:06Z",
-      "version": 3,
-      "changeset": 45727851,
-      "user": "aceman444",
-      "uid": 1617449,
-      "center": {
-        "lat": 48.9231175,
-        "lon": 18.1056783
-      },
-      "nodes": [],
-      "tags": {
-        "building": "retail",
-        "name": "COOP Jednota",
-        "shop": "convenience",
-        "source": "kapor2"
       }
     },
     {
@@ -19883,20 +19897,19 @@
     {
       "type": "way",
       "id": 320203201,
-      "timestamp": "2018-11-07T10:27:52Z",
-      "version": 4,
-      "changeset": 64257579,
-      "user": "Jaroslav Kardoš",
-      "uid": 7769037,
+      "timestamp": "2022-06-29T22:03:33Z",
+      "version": 5,
+      "changeset": 123021326,
+      "user": "moonraver",
+      "uid": 16387610,
       "center": {
-        "lat": 48.9338365,
-        "lon": 18.1210074
+        "lat": 48.9338367,
+        "lon": 18.1209991
       },
       "nodes": [],
       "tags": {
         "building": "yes",
-        "name": "Potraviny",
-        "operator": "Gazdík",
+        "name": "Potraviny MG Market - Ján Gazdík",
         "payment:cards": "yes",
         "payment:cash": "yes",
         "shop": "convenience",
