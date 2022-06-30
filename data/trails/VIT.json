@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-06-28T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-06-29T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -7517,11 +7517,11 @@
     {
       "type": "way",
       "id": 27553759,
-      "timestamp": "2021-10-06T18:54:05Z",
-      "version": 14,
-      "changeset": 112183307,
-      "user": "amillergisosm",
-      "uid": 14131184,
+      "timestamp": "2022-06-29T05:02:18Z",
+      "version": 16,
+      "changeset": 122982161,
+      "user": "3ocene",
+      "uid": 14400915,
       "nodes": [5170540492, 302491308],
       "geometry": [
         {"lat": 48.4388205, "lon": -123.5094908},
@@ -7532,10 +7532,12 @@
         {"lat": 48.4392217, "lon": -123.5101142}
       ],
       "tags": {
-        "cycleway": "lane",
+        "cycleway:both": "lane",
+        "cycleway:both:lane": "exclusive",
         "highway": "tertiary",
         "maxspeed": "50",
-        "name": "Kelly Road"
+        "name": "Kelly Road",
+        "surface": "asphalt"
       }
     },
     {
@@ -16381,31 +16383,36 @@
     {
       "type": "way",
       "id": 476628425,
-      "timestamp": "2021-10-06T18:54:05Z",
-      "version": 2,
-      "changeset": 112183307,
-      "user": "amillergisosm",
-      "uid": 14131184,
+      "timestamp": "2022-06-29T05:08:53Z",
+      "version": 7,
+      "changeset": 122982253,
+      "user": "3ocene",
+      "uid": 14400915,
       "nodes": [302491303, 4701295640],
       "geometry": [
         {"lat": 48.4382485, "lon": -123.5071224},
         {"lat": 48.4383225, "lon": -123.5074616}
       ],
       "tags": {
-        "cycleway": "lane",
+        "cycleway:both": "lane",
+        "cycleway:both:lane": "exclusive",
         "highway": "tertiary",
+        "lanes": "4",
+        "lit": "yes",
         "maxspeed": "50",
-        "name": "Kelly Road"
+        "name": "Kelly Road",
+        "sidewalk": "both",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 476628427,
-      "timestamp": "2017-02-23T12:06:43Z",
-      "version": 1,
-      "changeset": 46336357,
-      "user": "georges_telenav",
-      "uid": 5245700,
+      "timestamp": "2022-06-29T05:07:54Z",
+      "version": 4,
+      "changeset": 122982246,
+      "user": "3ocene",
+      "uid": 14400915,
       "nodes": [4701295644, 302491303],
       "geometry": [
         {"lat": 48.4382191, "lon": -123.5067013},
@@ -16413,10 +16420,15 @@
         {"lat": 48.4382485, "lon": -123.5071224}
       ],
       "tags": {
-        "cycleway": "lane",
+        "cycleway:both": "lane",
+        "cycleway:both:lane": "exclusive",
         "highway": "tertiary",
+        "lanes": "5",
+        "lanes:backward": "2",
+        "lanes:forward": "3",
         "maxspeed": "50",
-        "name": "Kelly Road"
+        "name": "Kelly Road",
+        "surface": "asphalt"
       }
     },
     {
@@ -21424,11 +21436,11 @@
     {
       "type": "way",
       "id": 687485089,
-      "timestamp": "2021-10-06T18:54:05Z",
-      "version": 2,
-      "changeset": 112183307,
-      "user": "amillergisosm",
-      "uid": 14131184,
+      "timestamp": "2022-06-29T05:04:35Z",
+      "version": 7,
+      "changeset": 122982253,
+      "user": "3ocene",
+      "uid": 14400915,
       "nodes": [5248170247, 5170540492],
       "geometry": [
         {"lat": 48.4385285, "lon": -123.5083406},
@@ -21437,10 +21449,15 @@
         {"lat": 48.4388205, "lon": -123.5094908}
       ],
       "tags": {
-        "cycleway": "lane",
+        "cycleway:both": "lane",
+        "cycleway:both:lane": "exclusive",
         "highway": "tertiary",
+        "lanes": "2",
+        "lit": "yes",
         "maxspeed": "50",
-        "name": "Kelly Road"
+        "name": "Kelly Road",
+        "sidewalk": "both",
+        "surface": "asphalt"
       }
     },
     {
@@ -23027,11 +23044,11 @@
     {
       "type": "way",
       "id": 819278465,
-      "timestamp": "2022-06-28T18:36:06Z",
-      "version": 8,
-      "changeset": 122969597,
-      "user": "QuigleyJones",
-      "uid": 297740,
+      "timestamp": "2022-06-29T17:12:53Z",
+      "version": 9,
+      "changeset": 123012168,
+      "user": "alester",
+      "uid": 307202,
       "nodes": [470217736, 417773260],
       "geometry": [
         {"lat": 48.4086343, "lon": -123.369495},
@@ -23044,7 +23061,7 @@
       "tags": {
         "bicycle": "designated",
         "foot": "designated",
-        "highway": "cycleway",
+        "highway": "path",
         "name": "Dallas Road Waterfront Trail",
         "segregated": "no",
         "surface": "asphalt",
@@ -23346,11 +23363,11 @@
     {
       "type": "way",
       "id": 835596705,
-      "timestamp": "2022-06-28T18:36:06Z",
-      "version": 5,
-      "changeset": 122969597,
-      "user": "QuigleyJones",
-      "uid": 297740,
+      "timestamp": "2022-06-29T17:12:53Z",
+      "version": 6,
+      "changeset": 123012168,
+      "user": "alester",
+      "uid": 307202,
       "nodes": [470217733, 470217736],
       "geometry": [
         {"lat": 48.4087796, "lon": -123.3689906},
@@ -23361,7 +23378,7 @@
       "tags": {
         "bicycle": "designated",
         "foot": "designated",
-        "highway": "cycleway",
+        "highway": "path",
         "name": "Dallas Road Waterfront Trail",
         "segregated": "no",
         "surface": "asphalt",
@@ -23625,11 +23642,11 @@
     {
       "type": "way",
       "id": 86774531,
-      "timestamp": "2021-05-23T10:29:58Z",
-      "version": 5,
-      "changeset": 105160007,
-      "user": "smithkm",
-      "uid": 93326,
+      "timestamp": "2022-06-29T22:01:21Z",
+      "version": 6,
+      "changeset": 123021270,
+      "user": "QuigleyJones",
+      "uid": 297740,
       "nodes": [278613279, 8757595567],
       "geometry": [
         {"lat": 48.4248408, "lon": -123.370342},
@@ -23639,6 +23656,7 @@
         {"lat": 48.4254965, "lon": -123.3707509},
         {"lat": 48.4260563, "lon": -123.3708716},
         {"lat": 48.4260391, "lon": -123.3710738},
+        {"lat": 48.4260797, "lon": -123.3710796},
         {"lat": 48.4268175, "lon": -123.3711997},
         {"lat": 48.4268241, "lon": -123.3710892},
         {"lat": 48.4268663, "lon": -123.3710651},
@@ -23791,11 +23809,11 @@
     {
       "type": "way",
       "id": 886411149,
-      "timestamp": "2022-06-28T18:36:06Z",
-      "version": 6,
-      "changeset": 122969597,
-      "user": "QuigleyJones",
-      "uid": 297740,
+      "timestamp": "2022-06-29T17:12:53Z",
+      "version": 7,
+      "changeset": 123012168,
+      "user": "alester",
+      "uid": 307202,
       "nodes": [1514990643, 417773260],
       "geometry": [
         {"lat": 48.4091478, "lon": -123.371673},
@@ -23808,7 +23826,7 @@
       "tags": {
         "bicycle": "designated",
         "foot": "designated",
-        "highway": "cycleway",
+        "highway": "path",
         "name": "Dallas Road Waterfront Trail",
         "segregated": "no",
         "surface": "asphalt",
@@ -31278,14 +31296,15 @@
     {
       "type": "way",
       "id": 945995627,
-      "timestamp": "2022-04-23T16:19:09Z",
-      "version": 2,
-      "changeset": 120096933,
-      "user": "niggi_over9000",
-      "uid": 13523823,
+      "timestamp": "2022-06-29T22:07:32Z",
+      "version": 3,
+      "changeset": 123021410,
+      "user": "QuigleyJones",
+      "uid": 297740,
       "nodes": [3271521280, 8757595553],
       "geometry": [
         {"lat": 48.4240125, "lon": -123.3704546},
+        {"lat": 48.4239386, "lon": -123.3704243},
         {"lat": 48.4238981, "lon": -123.3704086},
         {"lat": 48.4238293, "lon": -123.3703783},
         {"lat": 48.4237966, "lon": -123.3703625},
@@ -31927,17 +31946,17 @@
     {
       "type": "way",
       "id": 95320785,
-      "timestamp": "2021-05-23T10:29:58Z",
-      "version": 6,
-      "changeset": 105160007,
-      "user": "smithkm",
-      "uid": 93326,
+      "timestamp": "2022-06-29T22:07:32Z",
+      "version": 7,
+      "changeset": 123021410,
+      "user": "QuigleyJones",
+      "uid": 297740,
       "nodes": [278613278, 3271521280],
       "geometry": [
         {"lat": 48.4244497, "lon": -123.3702758},
         {"lat": 48.4243888, "lon": -123.370308},
         {"lat": 48.4243642, "lon": -123.370667},
-        {"lat": 48.4243257, "lon": -123.3707044},
+        {"lat": 48.4243322, "lon": -123.3707064},
         {"lat": 48.4242934, "lon": -123.3707009},
         {"lat": 48.4242514, "lon": -123.3706964},
         {"lat": 48.4241897, "lon": -123.370692},
@@ -31945,6 +31964,7 @@
         {"lat": 48.4241215, "lon": -123.3706375},
         {"lat": 48.4240805, "lon": -123.3705682},
         {"lat": 48.424053, "lon": -123.3705211},
+        {"lat": 48.4240434, "lon": -123.3705051},
         {"lat": 48.4240125, "lon": -123.3704546}
       ],
       "tags": {

@@ -1,15 +1,16 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-06-28T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-06-29T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1078763,
-      "timestamp": "2022-06-28T13:39:12Z",
-      "version": 345,
-      "changeset": 122958543,
-      "user": "Dardy",
-      "uid": 1096195,
+      "timestamp": "2022-06-29T09:14:15Z",
+      "version": 346,
+      "changeset": 122992342,
+      "user": "dusteagle",
+      "uid": 9375142,
       "members": [
+        {"type": "node", "ref": 9853367364, "role": "guidepost"},
         {"type": "way", "ref": 934669276, "role": ""},
         {"type": "way", "ref": 683225401, "role": ""},
         {"type": "way", "ref": 683225402, "role": ""},
@@ -567,6 +568,7 @@
         {"type": "way", "ref": 903749758, "role": ""},
         {"type": "way", "ref": 84234909, "role": ""},
         {"type": "way", "ref": 983889450, "role": ""},
+        {"type": "way", "ref": 983889451, "role": ""},
         {"type": "way", "ref": 170306802, "role": ""},
         {"type": "way", "ref": 983891102, "role": ""},
         {"type": "way", "ref": 527213160, "role": ""},
@@ -575,7 +577,6 @@
         {"type": "way", "ref": 903749760, "role": ""},
         {"type": "way", "ref": 677970641, "role": ""},
         {"type": "way", "ref": 34729843, "role": ""},
-        {"type": "way", "ref": 983889451, "role": ""},
         {"type": "way", "ref": 228558794, "role": ""},
         {"type": "way", "ref": 170123067, "role": ""},
         {"type": "way", "ref": 228558798, "role": ""},
@@ -602,7 +603,7 @@
         {"type": "way", "ref": 71738813, "role": ""},
         {"type": "way", "ref": 237744174, "role": ""},
         {"type": "way", "ref": 71738814, "role": ""},
-        {"type": "way", "ref": 527213166, "role": ""},
+        {"type": "way", "ref": 1074457592, "role": ""},
         {"type": "way", "ref": 317664025, "role": ""},
         {"type": "way", "ref": 532556769, "role": ""},
         {"type": "way", "ref": 532556768, "role": ""},
@@ -628,8 +629,7 @@
         {"type": "way", "ref": 115596310, "role": ""},
         {"type": "way", "ref": 160821017, "role": ""},
         {"type": "way", "ref": 229142993, "role": ""},
-        {"type": "way", "ref": 166523856, "role": ""},
-        {"type": "node", "ref": 9853367364, "role": "guidepost"}
+        {"type": "way", "ref": 166523856, "role": ""}
       ],
       "tags": {
         "fixme": "Please confirm that these ways belong to the GTA and add them to an appropriate relation. For an example see realtion 3158370 (https://www.openstreetmap.org/relation/3158370)",
@@ -3339,6 +3339,27 @@
         "highway": "residential",
         "name": "Via Adua",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1074457592,
+      "timestamp": "2022-06-29T09:14:15Z",
+      "version": 1,
+      "changeset": 122992342,
+      "user": "dusteagle",
+      "uid": 9375142,
+      "nodes": [2456213468, 3239494131],
+      "geometry": [
+        {"lat": 44.4812177, "lon": 7.1720712},
+        {"lat": 44.4813398, "lon": 7.1719967},
+        {"lat": 44.4814731, "lon": 7.1719736}
+      ],
+      "tags": {
+        "highway": "tertiary",
+        "ref": "SP116",
+        "surface": "paved",
+        "width": "5"
       }
     },
     {
@@ -10613,11 +10634,11 @@
     {
       "type": "way",
       "id": 167172182,
-      "timestamp": "2019-03-19T18:16:04Z",
-      "version": 7,
-      "changeset": 68305305,
-      "user": "AlfredoSP",
-      "uid": 2175620,
+      "timestamp": "2022-06-29T09:14:15Z",
+      "version": 8,
+      "changeset": 122992342,
+      "user": "dusteagle",
+      "uid": 9375142,
       "nodes": [2456133820, 3239540883],
       "geometry": [
         {"lat": 44.4832648, "lon": 7.1758824},
@@ -10626,7 +10647,7 @@
         {"lat": 44.4833535, "lon": 7.176045},
         {"lat": 44.4833579, "lon": 7.1761055}
       ],
-      "tags": {"highway": "track", "name": "Po", "sac_scale": "hiking"}
+      "tags": {"highway": "track", "sac_scale": "hiking"}
     },
     {
       "type": "way",
@@ -44314,18 +44335,18 @@
     {
       "type": "way",
       "id": 520766711,
-      "timestamp": "2017-09-02T10:38:55Z",
-      "version": 1,
-      "changeset": 51666025,
-      "user": "achim becker",
-      "uid": 2153674,
+      "timestamp": "2022-06-29T09:14:15Z",
+      "version": 2,
+      "changeset": 122992342,
+      "user": "dusteagle",
+      "uid": 9375142,
       "nodes": [852784981, 2456133820],
       "geometry": [
         {"lat": 44.4834488, "lon": 7.1754787},
         {"lat": 44.4834319, "lon": 7.1755782},
         {"lat": 44.4832648, "lon": 7.1758824}
       ],
-      "tags": {"highway": "service", "name": "Po", "sac_scale": "hiking"}
+      "tags": {"highway": "service", "sac_scale": "hiking"}
     },
     {
       "type": "way",
@@ -45721,11 +45742,11 @@
     {
       "type": "way",
       "id": 527213155,
-      "timestamp": "2017-09-24T07:22:43Z",
-      "version": 1,
-      "changeset": 52321413,
-      "user": "Gianfranco2014",
-      "uid": 1928626,
+      "timestamp": "2022-06-29T09:14:15Z",
+      "version": 2,
+      "changeset": 122992342,
+      "user": "dusteagle",
+      "uid": 9375142,
       "nodes": [1833673189, 1808482824],
       "geometry": [
         {"lat": 44.5028866, "lon": 7.1266236},
@@ -45741,7 +45762,6 @@
         "incline": "up",
         "mtb:scale": "3",
         "mtb:scale:uphill": "4",
-        "name": "GTA / PO",
         "sac_scale": "mountain_hiking"
       }
     },
@@ -45792,11 +45812,11 @@
     {
       "type": "way",
       "id": 527213161,
-      "timestamp": "2021-02-04T10:41:00Z",
-      "version": 4,
-      "changeset": 98698864,
-      "user": "Ezio Michelis",
-      "uid": 8954174,
+      "timestamp": "2022-06-29T09:14:15Z",
+      "version": 5,
+      "changeset": 122992342,
+      "user": "dusteagle",
+      "uid": 9375142,
       "nodes": [404728668, 3238149183],
       "geometry": [
         {"lat": 44.4912148, "lon": 7.1468693},
@@ -45810,7 +45830,6 @@
       "tags": {
         "bicycle": "no",
         "highway": "path",
-        "name": "Po",
         "sac_scale": "hiking",
         "width": "1"
       }
@@ -45891,30 +45910,6 @@
         "sac_scale": "alpine_hiking",
         "surface": "ground",
         "width": "1"
-      }
-    },
-    {
-      "type": "way",
-      "id": 527213166,
-      "timestamp": "2017-09-24T07:22:44Z",
-      "version": 1,
-      "changeset": 52321413,
-      "user": "Gianfranco2014",
-      "uid": 1928626,
-      "nodes": [2456213468, 852784884],
-      "geometry": [
-        {"lat": 44.4812177, "lon": 7.1720712},
-        {"lat": 44.4813398, "lon": 7.1719967},
-        {"lat": 44.4814731, "lon": 7.1719736},
-        {"lat": 44.4817517, "lon": 7.1719213},
-        {"lat": 44.4821206, "lon": 7.1719123},
-        {"lat": 44.4823243, "lon": 7.1719256}
-      ],
-      "tags": {
-        "highway": "tertiary",
-        "ref": "SP116",
-        "surface": "paved",
-        "width": "5"
       }
     },
     {
@@ -66032,11 +66027,11 @@
     {
       "type": "way",
       "id": 903749760,
-      "timestamp": "2021-02-04T10:41:00Z",
-      "version": 1,
-      "changeset": 98698864,
-      "user": "Ezio Michelis",
-      "uid": 8954174,
+      "timestamp": "2022-06-29T09:14:15Z",
+      "version": 2,
+      "changeset": 122992342,
+      "user": "dusteagle",
+      "uid": 9375142,
       "nodes": [3238149183, 404728676],
       "geometry": [
         {"lat": 44.490508, "lon": 7.1457699},
@@ -66046,7 +66041,6 @@
       "tags": {
         "bicycle": "no",
         "highway": "path",
-        "name": "Po",
         "sac_scale": "hiking",
         "width": "1"
       }
