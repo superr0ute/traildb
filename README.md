@@ -43,9 +43,9 @@
 |❌|[GOL](https://superroute.org/GOL)|Golani Trail [osm](https://osm.org/relation/11123868) [wiki](https://wikidata.org/wiki/Q51142585)||2022-06-29||
 |❌|[GPT](https://superroute.org/GPT)|Greater Patagonia Trail [osm](https://osm.org/relation/6814279) [wiki](https://wikidata.org/wiki/Q96379895)||2022-06-29||
 |❌❌|[GR10](https://superroute.org/GR10)|GR 10 [osm](https://osm.org/relation/7411272) [wiki](https://wikidata.org/wiki/Q1486783)|![#0000FF](https://via.placeholder.com/14/0000FF/000000?text=+) #0000FF|2021-06-17|2366|
-|❌❌|[GR11](https://superroute.org/GR11)|GR 11 [osm](https://osm.org/relation/8865914) [wiki](https://wikidata.org/wiki/Q3176636)|![#00FF00](https://via.placeholder.com/14/00FF00/000000?text=+) #00FF00|2021-08-21|2175|
+|❌❌|[GR11](https://superroute.org/GR11)|GR 11 [osm](https://osm.org/relation/8865914) [wiki](https://wikidata.org/wiki/Q3176636)|![#00FF00](https://via.placeholder.com/14/00FF00/000000?text=+) #00FF00|2021-08-21|2176|
 |❌|[GR15](https://superroute.org/GR15)|GR 15 Aragon [osm](https://osm.org/relation/2916867) [wiki](https://wikidata.org/wiki/Q13049100)||2022-06-21||
-|✔️|[GR20](https://superroute.org/GR20)|GR 20 [osm](https://osm.org/relation/101692) [wiki](https://wikidata.org/wiki/Q262374)|![#FFF281](https://via.placeholder.com/14/FFF281/000000?text=+) #FFF281|today|280|
+|✔️|[GR20](https://superroute.org/GR20)|GR 20 [osm](https://osm.org/relation/101692) [wiki](https://wikidata.org/wiki/Q262374)|![#FFF281](https://via.placeholder.com/14/FFF281/000000?text=+) #FFF281|today|281|
 |❌|[GR221](https://superroute.org/GR221)|GR 221 Ruta de Piedra en Sec [osm](https://osm.org/relation/383060) [wiki](https://wikidata.org/wiki/Q1551534)||2022-06-18||
 |❌❌|[GR223](https://superroute.org/GR223)|GR 223 Camí de Cavalls [osm](https://osm.org/relation/1501400) [wiki](https://wikidata.org/wiki/Q1031801)|![#FBE705](https://via.placeholder.com/14/FBE705/000000?text=+) #FBE705|2022-06-20|167|
 |✔️|[GR30](https://superroute.org/GR30)|GR 30 [osm](https://osm.org/relation/10699408) [wiki](https://wikidata.org/wiki/Q3478706)||2022-06-28|260|
@@ -92,12 +92,12 @@
 |❌|[SIL](https://superroute.org/SIL)|Sentiero Italia - Lombardia [osm](https://osm.org/relation/7029512) [wiki](https://wikidata.org/wiki/Q106567865)|![#008C45](https://via.placeholder.com/14/008C45/000000?text=+) #008C45|today||
 |❌|[SIP](https://superroute.org/SIP)|Sentiero Italia - Piemonte [osm](https://osm.org/relation/7029511) [wiki](https://wikidata.org/wiki/Q106567766)|![#008C45](https://via.placeholder.com/14/008C45/000000?text=+) #008C45|today||
 |✔️|[SIS](https://superroute.org/SIS)|Sentiero Italia - Sicilia [osm](https://osm.org/relation/7011950) [wiki](https://wikidata.org/wiki/Q106567599)|![#008C45](https://via.placeholder.com/14/008C45/000000?text=+) #008C45|2022-06-26|609|
-|❌❌|[SNP](https://superroute.org/SNP)|Cesta hrdinov SNP [osm](https://osm.org/relation/7700604) [wiki](https://wikidata.org/wiki/Q3512223)|![#11457E](https://via.placeholder.com/14/11457E/000000?text=+) #11457E|2022-01-28|4335|
+|❌❌|[SNP](https://superroute.org/SNP)|Cesta hrdinov SNP [osm](https://osm.org/relation/7700604) [wiki](https://wikidata.org/wiki/Q3512223)|![#11457E](https://via.placeholder.com/14/11457E/000000?text=+) #11457E|2022-01-28|4333|
 |❌❌|[SSA](https://superroute.org/SSA)|Sentiero di Spartiacque Appenninico [osm](https://osm.org/relation/136334) [wiki](https://wikidata.org/wiki/Q106099636)||2022-06-06|1199|
 |❌|[SZL](https://superroute.org/SZL)|Sarchu Zanskar Lamayuru [osm](https://osm.org/relation/11229978) [wiki](https://wikidata.org/wiki/Q106774333)||2022-06-26||
 |❌|[TAN](https://superroute.org/TAN)|Te Araroa North [osm](https://osm.org/relation/8518624) [wiki](https://wikidata.org/wiki/Q106564271)||2022-06-28||
 |❌❌|[TAS](https://superroute.org/TAS)|Te Araroa South [osm](https://osm.org/relation/8518626) [wiki](https://wikidata.org/wiki/Q106541620)|![#4177FF](https://via.placeholder.com/14/4177FF/000000?text=+) #4177FF|2021-08-21|404|
-|✔️|[TCRT](https://superroute.org/TCRT)|Тranscarpathian Trail [osm](https://osm.org/relation/2970399) [wiki](https://wikidata.org/wiki/Q30915066)|![#FFD500](https://via.placeholder.com/14/FFD500/000000?text=+) #FFD500|today|1460|
+|✔️|[TCRT](https://superroute.org/TCRT)|Тranscarpathian Trail [osm](https://osm.org/relation/2970399) [wiki](https://wikidata.org/wiki/Q30915066)|![#FFD500](https://via.placeholder.com/14/FFD500/000000?text=+) #FFD500|today|1461|
 |❌|[TCT](https://superroute.org/TCT)|Transcaucasian Trail [osm](https://osm.org/relation/8928052) [wiki](https://wikidata.org/wiki/Q55636112)||2022-06-29||
 |✔️|[TMB](https://superroute.org/TMB)|Tour du Mont Blanc [osm](https://osm.org/relation/124456) [wiki](https://wikidata.org/wiki/Q24777)|![#05F6FA](https://via.placeholder.com/14/05F6FA/000000?text=+) #05F6FA|2022-06-13|482|
 |❌|[TMR](https://superroute.org/TMR)|Tour de Monte Rosa [osm](https://osm.org/relation/10353523) [wiki](https://wikidata.org/wiki/Q3533768)||2022-06-28||
@@ -114,7 +114,7 @@
 |❌|[WES](https://superroute.org/WES)|Westweg [osm](https://osm.org/relation/62900) [wiki](https://wikidata.org/wiki/Q2565728)||today||
 |✔️|[WON](https://superroute.org/WON)|Wonderland Trail [osm](https://osm.org/relation/4111743) [wiki](https://wikidata.org/wiki/Q3498361)|![#7968FF](https://via.placeholder.com/14/7968FF/000000?text=+) #7968FF|2022-05-20|85|
 
-### poidb version 2022-06-29
+### poidb version 2022-06-30
 
 | name | selector | maxDistance |
 |  --- | --- | --- |
