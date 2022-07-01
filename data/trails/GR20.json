@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-05-16T03:05:39Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-01T03:55:55Z"},
   "elements": [
     {
       "type": "relation",
@@ -33,11 +33,11 @@
     {
       "type": "relation",
       "id": 12484370,
-      "timestamp": "2022-02-20T07:12:47Z",
-      "version": 13,
-      "changeset": 117627247,
-      "user": "PhilLL",
-      "uid": 1710208,
+      "timestamp": "2022-06-30T14:38:18Z",
+      "version": 14,
+      "changeset": 123048448,
+      "user": "gebux",
+      "uid": 1870749,
       "members": [
         {"type": "node", "ref": 1944206724, "role": ""},
         {"type": "way", "ref": 686156389, "role": ""},
@@ -69,7 +69,10 @@
         {"type": "way", "ref": 37560723, "role": ""},
         {"type": "way", "ref": 724945484, "role": ""},
         {"type": "way", "ref": 724945483, "role": ""},
-        {"type": "way", "ref": 725090587, "role": ""},
+        {"type": "way", "ref": 37574123, "role": ""},
+        {"type": "way", "ref": 715286243, "role": ""},
+        {"type": "way", "ref": 715286244, "role": ""},
+        {"type": "way", "ref": 715286242, "role": ""},
         {"type": "way", "ref": 28161851, "role": ""},
         {"type": "way", "ref": 350664471, "role": ""},
         {"type": "way", "ref": 350664469, "role": ""},
@@ -2898,11 +2901,11 @@
     {
       "type": "way",
       "id": 28161851,
-      "timestamp": "2021-03-03T03:43:38Z",
-      "version": 15,
-      "changeset": 100313679,
-      "user": "Hervé TUC",
-      "uid": 922338,
+      "timestamp": "2022-06-30T14:38:18Z",
+      "version": 16,
+      "changeset": 123048448,
+      "user": "gebux",
+      "uid": 1870749,
       "nodes": [292072959, 4902499612],
       "geometry": [
         {"lat": 42.3037205, "lon": 8.8753623, "z": 1406.9},
@@ -2946,7 +2949,8 @@
         "name": "GR20",
         "sac_scale": "mountain_hiking",
         "source": "extrapolation;gps",
-        "surface": "ground"
+        "surface": "ground",
+        "trail_visibility": "excellent"
       }
     },
     {
@@ -5087,11 +5091,11 @@
     {
       "type": "way",
       "id": 350664471,
-      "timestamp": "2015-06-01T19:27:28Z",
-      "version": 1,
-      "changeset": 31645677,
-      "user": "ameyer3000",
-      "uid": 536199,
+      "timestamp": "2022-06-30T14:38:18Z",
+      "version": 2,
+      "changeset": 123048448,
+      "user": "gebux",
+      "uid": 1870749,
       "nodes": [1364453412, 292072959],
       "geometry": [
         {"lat": 42.3035029, "lon": 8.8748785, "z": 1417.2},
@@ -5104,7 +5108,8 @@
       "tags": {
         "highway": "path",
         "sac_scale": "mountain_hiking",
-        "source": "gps"
+        "source": "gps",
+        "trail_visibility": "good"
       }
     },
     {
@@ -6928,11 +6933,11 @@
     {
       "type": "way",
       "id": 37561401,
-      "timestamp": "2021-03-03T03:43:38Z",
-      "version": 6,
-      "changeset": 100313679,
-      "user": "Hervé TUC",
-      "uid": 922338,
+      "timestamp": "2022-06-30T14:38:18Z",
+      "version": 7,
+      "changeset": 123048448,
+      "user": "gebux",
+      "uid": 1870749,
       "nodes": [439653661, 292072955],
       "geometry": [
         {"lat": 42.3030442, "lon": 8.875385, "z": 1406.6},
@@ -6951,7 +6956,8 @@
         "highway": "path",
         "name": "GR20",
         "sac_scale": "mountain_hiking",
-        "source": "gps"
+        "source": "gps",
+        "trail_visibility": "excellent"
       }
     },
     {
@@ -8223,6 +8229,26 @@
         "surface": "ground",
         "trail_visibility": "excellent",
         "width": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 37574123,
+      "timestamp": "2019-09-16T13:41:45Z",
+      "version": 7,
+      "changeset": 74533547,
+      "user": "PhilLL",
+      "uid": 1710208,
+      "nodes": [292072978, 6722733366],
+      "geometry": [
+        {"lat": 42.306889, "lon": 8.8775942, "z": 1441.4},
+        {"lat": 42.3066592, "lon": 8.8776686, "z": 1436.3},
+        {"lat": 42.3064794, "lon": 8.8777327, "z": 1431.5}
+      ],
+      "tags": {
+        "highway": "path",
+        "sac_scale": "mountain_hiking",
+        "source": "gps"
       }
     },
     {
@@ -10053,6 +10079,68 @@
     },
     {
       "type": "way",
+      "id": 715286242,
+      "timestamp": "2022-06-30T14:38:18Z",
+      "version": 2,
+      "changeset": 123048448,
+      "user": "gebux",
+      "uid": 1870749,
+      "nodes": [4902499612, 6722733361],
+      "geometry": [
+        {"lat": 42.3063283, "lon": 8.8772004, "z": 1427},
+        {"lat": 42.3063321, "lon": 8.8773694, "z": 1427.1}
+      ],
+      "tags": {
+        "highway": "path",
+        "sac_scale": "hiking",
+        "trail_visibility": "good"
+      }
+    },
+    {
+      "type": "way",
+      "id": 715286243,
+      "timestamp": "2022-06-30T14:38:18Z",
+      "version": 2,
+      "changeset": 123048448,
+      "user": "gebux",
+      "uid": 1870749,
+      "nodes": [6722733362, 6722733366],
+      "geometry": [
+        {"lat": 42.306397, "lon": 8.877606, "z": 1428.7},
+        {"lat": 42.3064554, "lon": 8.8776037, "z": 1430.5},
+        {"lat": 42.3064721, "lon": 8.877629, "z": 1431.1},
+        {"lat": 42.3064235, "lon": 8.8776918, "z": 1429.6},
+        {"lat": 42.3064794, "lon": 8.8777327, "z": 1431.5}
+      ],
+      "tags": {
+        "highway": "path",
+        "sac_scale": "demanding_mountain_hiking",
+        "trail_visibility": "good"
+      }
+    },
+    {
+      "type": "way",
+      "id": 715286244,
+      "timestamp": "2022-06-30T14:38:18Z",
+      "version": 4,
+      "changeset": 123048448,
+      "user": "gebux",
+      "uid": 1870749,
+      "nodes": [6722733361, 6722733362],
+      "geometry": [
+        {"lat": 42.3063321, "lon": 8.8773694, "z": 1427.1},
+        {"lat": 42.306397, "lon": 8.877606, "z": 1428.7}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "path",
+        "layer": "1",
+        "sac_scale": "hiking",
+        "trail_visibility": "good"
+      }
+    },
+    {
+      "type": "way",
       "id": 71963123,
       "timestamp": "2014-12-10T21:13:05Z",
       "version": 4,
@@ -10158,11 +10246,11 @@
     {
       "type": "way",
       "id": 724945483,
-      "timestamp": "2019-09-16T08:58:21Z",
-      "version": 1,
-      "changeset": 74519577,
-      "user": "PhilLL",
-      "uid": 1710208,
+      "timestamp": "2022-06-30T14:38:18Z",
+      "version": 2,
+      "changeset": 123048448,
+      "user": "gebux",
+      "uid": 1870749,
       "nodes": [292072978, 292073002],
       "geometry": [
         {"lat": 42.306889, "lon": 8.8775942, "z": 1441.4},
@@ -10266,17 +10354,18 @@
         "name": "GR20",
         "sac_scale": "mountain_hiking",
         "source": "extrapolation;gps",
-        "surface": "ground"
+        "surface": "ground",
+        "trail_visibility": "excellent"
       }
     },
     {
       "type": "way",
       "id": 724945484,
-      "timestamp": "2021-10-04T22:36:48Z",
-      "version": 11,
-      "changeset": 112097467,
-      "user": "mytrails92",
-      "uid": 13561022,
+      "timestamp": "2022-06-30T14:38:18Z",
+      "version": 12,
+      "changeset": 123048448,
+      "user": "gebux",
+      "uid": 1870749,
       "nodes": [292073002, 309323770],
       "geometry": [
         {"lat": 42.3134293, "lon": 8.8682145, "z": 1592.6},
@@ -10614,35 +10703,8 @@
         "name": "GR20",
         "sac_scale": "mountain_hiking",
         "source": "extrapolation;gps",
-        "surface": "ground"
-      }
-    },
-    {
-      "type": "way",
-      "id": 725090587,
-      "timestamp": "2019-09-16T13:41:45Z",
-      "version": 1,
-      "changeset": 74533547,
-      "user": "PhilLL",
-      "uid": 1710208,
-      "nodes": [4902499612, 292072978],
-      "geometry": [
-        {"lat": 42.3063283, "lon": 8.8772004, "z": 1427},
-        {"lat": 42.3066472, "lon": 8.8771015, "z": 1432.6},
-        {"lat": 42.3068837, "lon": 8.8770846, "z": 1436},
-        {"lat": 42.3069075, "lon": 8.8771436, "z": 1436.9},
-        {"lat": 42.3069134, "lon": 8.8771784, "z": 1437.3},
-        {"lat": 42.3069214, "lon": 8.8773635, "z": 1439.3},
-        {"lat": 42.3069511, "lon": 8.8774453, "z": 1440.9},
-        {"lat": 42.3069333, "lon": 8.877515, "z": 1441.5},
-        {"lat": 42.306889, "lon": 8.8775942, "z": 1441.4}
-      ],
-      "tags": {
-        "highway": "path",
-        "name": "GR20",
-        "sac_scale": "mountain_hiking",
-        "source": "extrapolation;gps",
-        "surface": "ground"
+        "surface": "ground",
+        "trail_visibility": "excellent"
       }
     },
     {
