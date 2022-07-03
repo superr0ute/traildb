@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-07-01T23:59:59Z",
-    "timestamp_osm_base": "2022-07-02T06:12:24Z",
+    "timestamp_osm_date": "2022-07-02T23:59:59Z",
+    "timestamp_osm_base": "2022-07-03T05:54:22Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -18186,21 +18186,6 @@
     },
     {
       "type": "node",
-      "id": 2411367099,
-      "lat": 44.007075,
-      "lon": 11.5235077,
-      "timestamp": "2017-11-12T14:04:52Z",
-      "version": 2,
-      "changeset": 53713540,
-      "user": "Matteo Calosi",
-      "uid": 3455425,
-      "tags": {
-        "amenity": "shelter",
-        "name": "Capanna Castellina"
-      }
-    },
-    {
-      "type": "node",
       "id": 2411388349,
       "lat": 43.9517224,
       "lon": 11.5610019,
@@ -32208,16 +32193,18 @@
     {
       "type": "node",
       "id": 9828697522,
-      "lat": 44.0071672,
-      "lon": 11.5434136,
-      "timestamp": "2022-06-18T17:17:07Z",
-      "version": 1,
-      "changeset": 122554516,
-      "user": "AleZan",
-      "uid": 1873901,
+      "lat": 44.0071451,
+      "lon": 11.5435096,
+      "timestamp": "2022-07-02T15:04:04Z",
+      "version": 2,
+      "changeset": 123123382,
+      "user": "gabriele_sani",
+      "uid": 7078274,
       "tags": {
         "access": "yes",
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no"
       }
     },
     {
@@ -32267,6 +32254,21 @@
       "tags": {
         "name": "Villaggio La Brocchi",
         "place": "hamlet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9862380178,
+      "lat": 44.0061254,
+      "lon": 11.5258362,
+      "timestamp": "2022-07-02T15:04:04Z",
+      "version": 1,
+      "changeset": 123123382,
+      "user": "gabriele_sani",
+      "uid": 7078274,
+      "tags": {
+        "intermittent": "yes",
+        "natural": "spring"
       }
     },
     {
@@ -35384,6 +35386,29 @@
         "building": "yes",
         "image": "https://it.wikiloc.com/percorsi-escursionismo/compiobbi-lago-romena-bagazzano-villa-gamberaia-settignano-anello-95888473/photo-62631831",
         "shelter_type": "gazebo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1075351139,
+      "timestamp": "2022-07-02T15:04:04Z",
+      "version": 1,
+      "changeset": 123123382,
+      "user": "gabriele_sani",
+      "uid": 7078274,
+      "center": {
+        "lat": 44.0070604,
+        "lon": 11.5235088
+      },
+      "nodes": [],
+      "tags": {
+        "bench": "yes",
+        "building": "yes",
+        "fee": "no",
+        "fireplace": "yes",
+        "name": "Rifugio Castellina",
+        "table": "yes",
+        "tourism": "wilderness_hut"
       }
     }
   ]
