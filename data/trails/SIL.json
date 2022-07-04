@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-02T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-03T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1865,9 +1865,9 @@
     {
       "type": "relation",
       "id": 7700146,
-      "timestamp": "2022-07-02T10:10:50Z",
-      "version": 24,
-      "changeset": 123114393,
+      "timestamp": "2022-07-03T13:59:52Z",
+      "version": 25,
+      "changeset": 123152503,
       "user": "kaitu",
       "uid": 69717,
       "members": [
@@ -1891,6 +1891,8 @@
         {"type": "way", "ref": 1007077322, "role": ""},
         {"type": "way", "ref": 280656382, "role": ""},
         {"type": "way", "ref": 280656390, "role": ""},
+        {"type": "way", "ref": 1075533662, "role": ""},
+        {"type": "way", "ref": 1075533663, "role": ""},
         {"type": "way", "ref": 237394853, "role": ""},
         {"type": "way", "ref": 119057804, "role": ""},
         {"type": "way", "ref": 280656395, "role": ""},
@@ -7639,6 +7641,45 @@
         "surface": "ground",
         "symbol": "red-white bars",
         "trail_visibility": "good"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1075533662,
+      "timestamp": "2022-07-03T13:59:52Z",
+      "version": 1,
+      "changeset": 123152503,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [9853711377, 1312213469],
+      "geometry": [
+        {"lat": 46.0355022, "lon": 9.2145012},
+        {"lat": 46.0354719, "lon": 9.214531}
+      ],
+      "tags": {
+        "highway": "footway",
+        "name": "Piazza del Tavolo",
+        "surface": "cobblestone"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1075533663,
+      "timestamp": "2022-07-03T13:59:52Z",
+      "version": 1,
+      "changeset": 123152503,
+      "user": "kaitu",
+      "uid": 69717,
+      "nodes": [1312213469, 2847301144],
+      "geometry": [
+        {"lat": 46.0354719, "lon": 9.214531},
+        {"lat": 46.035468, "lon": 9.2146259},
+        {"lat": 46.0354652, "lon": 9.2146593}
+      ],
+      "tags": {
+        "highway": "footway",
+        "name": "Piazza del Tavolo",
+        "surface": "cobblestone"
       }
     },
     {
@@ -29678,39 +29719,42 @@
     {
       "type": "way",
       "id": 237394853,
-      "timestamp": "2022-06-28T16:38:54Z",
-      "version": 4,
-      "changeset": 122965472,
+      "timestamp": "2022-07-03T13:59:52Z",
+      "version": 5,
+      "changeset": 123152503,
       "user": "kaitu",
       "uid": 69717,
-      "nodes": [1312213469, 1338506864],
+      "nodes": [2847301144, 1338506864],
       "geometry": [
-        {"lat": 46.0354719, "lon": 9.214531},
-        {"lat": 46.035468, "lon": 9.2146259},
         {"lat": 46.0354652, "lon": 9.2146593},
         {"lat": 46.0355101, "lon": 9.2147318},
         {"lat": 46.0355445, "lon": 9.2148055},
         {"lat": 46.0355594, "lon": 9.214884},
-        {"lat": 46.0355652, "lon": 9.2149079},
+        {"lat": 46.0355624, "lon": 9.2149206},
         {"lat": 46.0355241, "lon": 9.2150527},
         {"lat": 46.0355413, "lon": 9.2151435},
         {"lat": 46.035577, "lon": 9.2152603}
       ],
-      "tags": {"highway": "footway", "surface": "cobblestone"}
+      "tags": {
+        "highway": "footway",
+        "name": "Via del Tavolo",
+        "surface": "cobblestone"
+      }
     },
     {
       "type": "way",
       "id": 237394854,
-      "timestamp": "2022-06-28T16:38:54Z",
-      "version": 4,
-      "changeset": 122965472,
+      "timestamp": "2022-07-03T19:49:39Z",
+      "version": 5,
+      "changeset": 123163354,
       "user": "kaitu",
       "uid": 69717,
       "nodes": [1338508283, 2453022370],
       "geometry": [
-        {"lat": 46.0363824, "lon": 9.2155026},
+        {"lat": 46.0363886, "lon": 9.215483},
         {"lat": 46.0363876, "lon": 9.2155155},
-        {"lat": 46.0363888, "lon": 9.2155857},
+        {"lat": 46.0363808, "lon": 9.2155674},
+        {"lat": 46.0363859, "lon": 9.2155905},
         {"lat": 46.0363936, "lon": 9.2156048},
         {"lat": 46.036438, "lon": 9.215702}
       ],
@@ -38188,15 +38232,16 @@
     {
       "type": "way",
       "id": 280656340,
-      "timestamp": "2022-06-28T13:35:04Z",
-      "version": 2,
-      "changeset": 122958350,
+      "timestamp": "2022-07-03T19:49:39Z",
+      "version": 3,
+      "changeset": 123163354,
       "user": "kaitu",
       "uid": 69717,
       "nodes": [1338508283, 2847303232],
       "geometry": [
-        {"lat": 46.0363824, "lon": 9.2155026},
-        {"lat": 46.0363709, "lon": 9.2155238},
+        {"lat": 46.0363886, "lon": 9.215483},
+        {"lat": 46.0363783, "lon": 9.2154842},
+        {"lat": 46.0363651, "lon": 9.2155202},
         {"lat": 46.0362637, "lon": 9.215466},
         {"lat": 46.0361308, "lon": 9.2153616},
         {"lat": 46.0360347, "lon": 9.2152915},
@@ -38236,17 +38281,16 @@
     {
       "type": "way",
       "id": 280656390,
-      "timestamp": "2022-06-28T16:38:54Z",
-      "version": 2,
-      "changeset": 122965472,
+      "timestamp": "2022-07-03T13:59:52Z",
+      "version": 3,
+      "changeset": 123152503,
       "user": "kaitu",
       "uid": 69717,
-      "nodes": [1312213467, 1312213469],
+      "nodes": [1312213467, 9853711377],
       "geometry": [
         {"lat": 46.0356174, "lon": 9.2144796},
         {"lat": 46.035575, "lon": 9.2144748},
-        {"lat": 46.0355022, "lon": 9.2145012},
-        {"lat": 46.0354719, "lon": 9.214531}
+        {"lat": 46.0355022, "lon": 9.2145012}
       ],
       "tags": {"highway": "footway", "surface": "cobblestone"}
     },

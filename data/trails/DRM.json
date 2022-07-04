@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-02T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-03T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -5521,11 +5521,11 @@
     {
       "type": "way",
       "id": 118856408,
-      "timestamp": "2021-05-03T14:50:40Z",
-      "version": 8,
-      "changeset": 104064513,
-      "user": "copossum",
-      "uid": 7712,
+      "timestamp": "2022-07-03T11:51:20Z",
+      "version": 9,
+      "changeset": 123148265,
+      "user": "Pauli69",
+      "uid": 11827005,
       "nodes": [474598467, 1361211717],
       "geometry": [
         {"lat": 47.3430244, "lon": 11.4707727},
@@ -5582,8 +5582,9 @@
         {"lat": 47.3500236, "lon": 11.4770105}
       ],
       "tags": {
-        "bicycle": "no",
+        "bicycle": "yes",
         "highway": "path",
+        "mtb:scale": "3",
         "name": "223",
         "sac_scale": "mountain_hiking"
       }
@@ -5591,11 +5592,11 @@
     {
       "type": "way",
       "id": 119196380,
-      "timestamp": "2022-05-22T00:23:29Z",
-      "version": 9,
-      "changeset": 121301410,
-      "user": "Hungerburg",
-      "uid": 1885585,
+      "timestamp": "2022-07-03T11:51:20Z",
+      "version": 10,
+      "changeset": 123148265,
+      "user": "Pauli69",
+      "uid": 11827005,
       "nodes": [1339924926, 676377027],
       "geometry": [
         {"lat": 47.3424546, "lon": 11.4695091},
@@ -5622,12 +5623,11 @@
         {"lat": 47.3399987, "lon": 11.4657855}
       ],
       "tags": {
-        "bicycle": "no",
+        "bicycle": "yes",
         "highway": "path",
-        "mtb:scale": "3",
+        "mtb:scale": "2",
         "sac_scale": "mountain_hiking",
         "scale:dav": "red",
-        "smoothness": "impassable",
         "surface": "gravel"
       }
     },
@@ -6009,11 +6009,11 @@
     {
       "type": "way",
       "id": 121659822,
-      "timestamp": "2020-05-11T13:03:50Z",
-      "version": 5,
-      "changeset": 85027192,
-      "user": "windmaker",
-      "uid": 11160009,
+      "timestamp": "2022-07-03T11:51:20Z",
+      "version": 6,
+      "changeset": 123148265,
+      "user": "Pauli69",
+      "uid": 11827005,
       "nodes": [1361211719, 1361211738],
       "geometry": [
         {"lat": 47.3500647, "lon": 11.4771817},
@@ -6044,7 +6044,12 @@
         {"lat": 47.352325, "lon": 11.4754752},
         {"lat": 47.3524384, "lon": 11.4753945}
       ],
-      "tags": {"highway": "path", "name": "223", "sac_scale": "mountain_hiking"}
+      "tags": {
+        "highway": "path",
+        "mtb:scale": "4",
+        "name": "223",
+        "sac_scale": "mountain_hiking"
+      }
     },
     {
       "type": "way",
@@ -15890,11 +15895,11 @@
     {
       "type": "way",
       "id": 175581394,
-      "timestamp": "2020-12-09T15:13:54Z",
-      "version": 7,
-      "changeset": 95561699,
-      "user": "ADAC Kartographie",
-      "uid": 11360996,
+      "timestamp": "2022-07-03T15:23:44Z",
+      "version": 8,
+      "changeset": 123155530,
+      "user": "dvdzero",
+      "uid": 351361,
       "nodes": [469726063, 244269089],
       "geometry": [
         {"lat": 46.4874216, "lon": 11.8129625},
@@ -15905,6 +15910,7 @@
         {"lat": 46.4875413, "lon": 11.8122264}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "primary",
         "incline": "up",
         "lanes": "2",
@@ -21357,16 +21363,17 @@
     {
       "type": "way",
       "id": 244931786,
-      "timestamp": "2022-03-22T11:59:26Z",
-      "version": 7,
-      "changeset": 118773987,
-      "user": "Đuro Jiří",
-      "uid": 14617702,
+      "timestamp": "2022-07-03T22:33:01Z",
+      "version": 8,
+      "changeset": 123166458,
+      "user": "Mimmo61",
+      "uid": 10368945,
       "nodes": [340300241, 340300898],
       "geometry": [
-        {"lat": 45.6243045, "lon": 12.5627019},
-        {"lat": 45.6241341, "lon": 12.5625164},
-        {"lat": 45.6239868, "lon": 12.5622884}
+        {"lat": 45.6243003, "lon": 12.5627198},
+        {"lat": 45.6241278, "lon": 12.5625507},
+        {"lat": 45.6240575, "lon": 12.5624329},
+        {"lat": 45.623968, "lon": 12.5622959}
       ],
       "tags": {
         "alt_name": "Via XXIV Maggio",
@@ -25728,10 +25735,10 @@
       "uid": 14617702,
       "nodes": [340300241, 340300546],
       "geometry": [
-        {"lat": 45.6243045, "lon": 12.5627019},
-        {"lat": 45.6243957, "lon": 12.5628696},
-        {"lat": 45.624425, "lon": 12.5629727},
-        {"lat": 45.6244364, "lon": 12.5630911}
+        {"lat": 45.6243003, "lon": 12.5627198},
+        {"lat": 45.624378, "lon": 12.5628949},
+        {"lat": 45.6244042, "lon": 12.5629995},
+        {"lat": 45.6244301, "lon": 12.563103}
       ],
       "tags": {
         "highway": "tertiary",
@@ -26227,17 +26234,17 @@
     {
       "type": "way",
       "id": 324257719,
-      "timestamp": "2017-06-02T11:48:46Z",
-      "version": 3,
-      "changeset": 49194053,
-      "user": "simone_girardelli",
-      "uid": 607510,
+      "timestamp": "2022-07-03T15:23:22Z",
+      "version": 4,
+      "changeset": 123155522,
+      "user": "dvdzero",
+      "uid": 351361,
       "nodes": [297360351, 469726063],
       "geometry": [
         {"lat": 46.4869273, "lon": 11.8129399},
         {"lat": 46.4874216, "lon": 11.8129625}
       ],
-      "tags": {"highway": "service"}
+      "tags": {"highway": "service", "surface": "asphalt"}
     },
     {
       "type": "way",
@@ -32303,11 +32310,11 @@
     {
       "type": "way",
       "id": 39592602,
-      "timestamp": "2021-05-03T14:50:40Z",
-      "version": 8,
-      "changeset": 104064513,
-      "user": "copossum",
-      "uid": 7712,
+      "timestamp": "2022-07-03T11:51:20Z",
+      "version": 9,
+      "changeset": 123148265,
+      "user": "Pauli69",
+      "uid": 11827005,
       "nodes": [474598467, 411327255],
       "geometry": [
         {"lat": 47.3430244, "lon": 11.4707727},
@@ -32316,8 +32323,9 @@
         {"lat": 47.3426542, "lon": 11.4702722}
       ],
       "tags": {
-        "bicycle": "no",
+        "bicycle": "yes",
         "highway": "path",
+        "mtb:scale": "2",
         "sac_scale": "mountain_hiking"
       }
     },
@@ -36829,7 +36837,7 @@
       "uid": 2548835,
       "nodes": [340300898, 537622810],
       "geometry": [
-        {"lat": 45.6239868, "lon": 12.5622884},
+        {"lat": 45.623968, "lon": 12.5622959},
         {"lat": 45.6233773, "lon": 12.5607651},
         {"lat": 45.6232933, "lon": 12.5604303},
         {"lat": 45.6232513, "lon": 12.5600441},
@@ -40601,11 +40609,11 @@
     {
       "type": "way",
       "id": 497667769,
-      "timestamp": "2018-07-31T16:41:50Z",
-      "version": 2,
-      "changeset": 61235622,
-      "user": "Gianfranco2014",
-      "uid": 1928626,
+      "timestamp": "2022-07-03T15:25:42Z",
+      "version": 3,
+      "changeset": 123155599,
+      "user": "dvdzero",
+      "uid": 351361,
       "nodes": [297360352, 297360351],
       "geometry": [
         {"lat": 46.4863561, "lon": 11.8135434},
@@ -40617,7 +40625,7 @@
         "highway": "path",
         "mtb:scale": "1",
         "sac_scale": "hiking",
-        "surface": "unpaved",
+        "surface": "gravel",
         "tracktype": "grade3",
         "trail_visibility": "excellent"
       }
@@ -41934,11 +41942,11 @@
     {
       "type": "way",
       "id": 53538390,
-      "timestamp": "2021-05-03T14:50:40Z",
-      "version": 7,
-      "changeset": 104064513,
-      "user": "copossum",
-      "uid": 7712,
+      "timestamp": "2022-07-03T11:51:20Z",
+      "version": 8,
+      "changeset": 123148265,
+      "user": "Pauli69",
+      "uid": 11827005,
       "nodes": [411327255, 1339924926],
       "geometry": [
         {"lat": 47.3426542, "lon": 11.4702722},
@@ -41946,8 +41954,10 @@
         {"lat": 47.3424546, "lon": 11.4695091}
       ],
       "tags": {
-        "bicycle": "no",
+        "bicycle": "yes",
         "highway": "path",
+        "mtb:scale": "2",
+        "mtb:scale:uphill": "3",
         "sac_scale": "mountain_hiking",
         "scale:dav": "red"
       }
@@ -41955,11 +41965,11 @@
     {
       "type": "way",
       "id": 53538391,
-      "timestamp": "2022-05-22T00:23:29Z",
-      "version": 12,
-      "changeset": 121301410,
-      "user": "Hungerburg",
-      "uid": 1885585,
+      "timestamp": "2022-07-03T11:51:20Z",
+      "version": 13,
+      "changeset": 123148265,
+      "user": "Pauli69",
+      "uid": 11827005,
       "nodes": [676377027, 883431558],
       "geometry": [
         {"lat": 47.3399987, "lon": 11.4657855},
@@ -42045,6 +42055,8 @@
       "tags": {
         "bicycle": "no",
         "highway": "path",
+        "mtb:scale": "2",
+        "mtb:scale:uphill": "3",
         "sac_scale": "mountain_hiking",
         "smoothness": "impassable",
         "surface": "gravel"
@@ -48171,11 +48183,11 @@
     {
       "type": "way",
       "id": 756565816,
-      "timestamp": "2020-09-07T15:53:09Z",
-      "version": 2,
-      "changeset": 90539945,
-      "user": "TheNet1996",
-      "uid": 1853649,
+      "timestamp": "2022-07-03T15:23:51Z",
+      "version": 3,
+      "changeset": 123155530,
+      "user": "dvdzero",
+      "uid": 351361,
       "nodes": [7066421172, 244269088],
       "geometry": [
         {"lat": 46.4877409, "lon": 11.811843},
@@ -48183,6 +48195,7 @@
         {"lat": 46.4880394, "lon": 11.8113184}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "primary",
         "lanes": "2",
         "name": "Strada Statale 48 delle Dolomiti",
@@ -56364,7 +56377,7 @@
       "nodes": [500902592, 340300542],
       "geometry": [
         {"lat": 45.6245507, "lon": 12.5630555},
-        {"lat": 45.6244375, "lon": 12.5631209}
+        {"lat": 45.6244354, "lon": 12.5631284}
       ],
       "tags": {
         "bicycle": "designated",
@@ -56386,8 +56399,8 @@
       "uid": 14617702,
       "nodes": [340300542, 340300546],
       "geometry": [
-        {"lat": 45.6244375, "lon": 12.5631209},
-        {"lat": 45.6244364, "lon": 12.5630911}
+        {"lat": 45.6244354, "lon": 12.5631284},
+        {"lat": 45.6244301, "lon": 12.563103}
       ],
       "tags": {"highway": "tertiary", "name": "Via Piave", "surface": "asphalt"}
     },
