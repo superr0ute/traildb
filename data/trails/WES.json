@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-06-30T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-04T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1085,11 +1085,11 @@
     {
       "type": "relation",
       "id": 62897,
-      "timestamp": "2022-06-30T12:28:06Z",
-      "version": 219,
-      "changeset": 123043401,
-      "user": "*abq*",
-      "uid": 3696195,
+      "timestamp": "2022-07-04T21:00:11Z",
+      "version": 220,
+      "changeset": 123207782,
+      "user": "Karthoo",
+      "uid": 3232636,
       "members": [
         {"type": "node", "ref": 1955826026, "role": "guidepost"},
         {"type": "node", "ref": 1955825919, "role": "guidepost"},
@@ -1102,7 +1102,6 @@
         {"type": "node", "ref": 1957400211, "role": "guidepost"},
         {"type": "node", "ref": 1957400007, "role": "guidepost"},
         {"type": "node", "ref": 1957400006, "role": "guidepost"},
-        {"type": "node", "ref": 1957400018, "role": "guidepost"},
         {"type": "node", "ref": 3759223098, "role": "guidepost"},
         {"type": "node", "ref": 1957400209, "role": "guidepost"},
         {"type": "node", "ref": 1957400210, "role": "guidepost"},
@@ -1209,6 +1208,7 @@
         {"type": "way", "ref": 35589855, "role": ""},
         {"type": "way", "ref": 35589856, "role": ""},
         {"type": "way", "ref": 56692670, "role": ""},
+        {"type": "way", "ref": 1075877986, "role": ""},
         {"type": "way", "ref": 131189887, "role": ""},
         {"type": "way", "ref": 56692672, "role": ""},
         {"type": "way", "ref": 41957947, "role": ""},
@@ -1243,6 +1243,7 @@
         {"type": "way", "ref": 884407528, "role": ""},
         {"type": "way", "ref": 29223567, "role": ""},
         {"type": "way", "ref": 26307979, "role": ""},
+        {"type": "way", "ref": 1075877987, "role": ""},
         {"type": "way", "ref": 29223568, "role": ""},
         {"type": "way", "ref": 180674231, "role": ""},
         {"type": "way", "ref": 180674233, "role": ""},
@@ -3599,6 +3600,48 @@
         "name": "Bahnhofstraße",
         "service": "driveway"
       }
+    },
+    {
+      "type": "way",
+      "id": 1075877986,
+      "timestamp": "2022-07-04T21:00:11Z",
+      "version": 1,
+      "changeset": 123207782,
+      "user": "Karthoo",
+      "uid": 3232636,
+      "nodes": [361409797, 361409837],
+      "geometry": [
+        {"lat": 47.8978959, "lon": 8.1277459},
+        {"lat": 47.8979126, "lon": 8.1278229},
+        {"lat": 47.8979396, "lon": 8.1279517},
+        {"lat": 47.8980548, "lon": 8.1281924},
+        {"lat": 47.8981807, "lon": 8.128771},
+        {"lat": 47.898208, "lon": 8.1291007},
+        {"lat": 47.8981277, "lon": 8.1297107},
+        {"lat": 47.8981255, "lon": 8.1302735},
+        {"lat": 47.8981684, "lon": 8.1305504},
+        {"lat": 47.8982312, "lon": 8.1308344},
+        {"lat": 47.8983861, "lon": 8.1312132},
+        {"lat": 47.8984759, "lon": 8.1314391},
+        {"lat": 47.8986245, "lon": 8.131811}
+      ],
+      "tags": {"highway": "track", "tracktype": "grade5"}
+    },
+    {
+      "type": "way",
+      "id": 1075877987,
+      "timestamp": "2022-07-04T21:00:11Z",
+      "version": 1,
+      "changeset": 123207782,
+      "user": "Karthoo",
+      "uid": 3232636,
+      "nodes": [2640848645, 321428724],
+      "geometry": [
+        {"lat": 47.8912564, "lon": 8.0583236},
+        {"lat": 47.8909646, "lon": 8.0581028},
+        {"lat": 47.8907878, "lon": 8.0579445}
+      ],
+      "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade2"}
     },
     {
       "type": "way",
@@ -15590,21 +15633,19 @@
     {
       "type": "way",
       "id": 26307979,
-      "timestamp": "2020-12-10T18:48:16Z",
-      "version": 17,
-      "changeset": 95635910,
-      "user": "DD1GJ",
-      "uid": 39381,
-      "nodes": [478068536, 321428724],
+      "timestamp": "2022-07-04T21:00:11Z",
+      "version": 18,
+      "changeset": 123207782,
+      "user": "Karthoo",
+      "uid": 3232636,
+      "nodes": [478068536, 2640848645],
       "geometry": [
         {"lat": 47.893189, "lon": 8.061212},
         {"lat": 47.892429, "lon": 8.0600761},
         {"lat": 47.8921127, "lon": 8.0594996},
         {"lat": 47.8917681, "lon": 8.0589251},
         {"lat": 47.8915548, "lon": 8.0586149},
-        {"lat": 47.8912564, "lon": 8.0583236},
-        {"lat": 47.8909646, "lon": 8.0581028},
-        {"lat": 47.8907878, "lon": 8.0579445}
+        {"lat": 47.8912564, "lon": 8.0583236}
       ],
       "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade2"}
     },
@@ -34341,25 +34382,13 @@
     {
       "type": "way",
       "id": 56692670,
-      "timestamp": "2021-06-02T18:29:15Z",
-      "version": 5,
-      "changeset": 105735148,
-      "user": "Mateusz Konieczny - bot account",
-      "uid": 3199858,
-      "nodes": [361409797, 361409875],
+      "timestamp": "2022-07-04T21:00:11Z",
+      "version": 6,
+      "changeset": 123207782,
+      "user": "Karthoo",
+      "uid": 3232636,
+      "nodes": [361409837, 361409875],
       "geometry": [
-        {"lat": 47.8978959, "lon": 8.1277459},
-        {"lat": 47.8979126, "lon": 8.1278229},
-        {"lat": 47.8979396, "lon": 8.1279517},
-        {"lat": 47.8980548, "lon": 8.1281924},
-        {"lat": 47.8981807, "lon": 8.128771},
-        {"lat": 47.898208, "lon": 8.1291007},
-        {"lat": 47.8981277, "lon": 8.1297107},
-        {"lat": 47.8981255, "lon": 8.1302735},
-        {"lat": 47.8981684, "lon": 8.1305504},
-        {"lat": 47.8982312, "lon": 8.1308344},
-        {"lat": 47.8983861, "lon": 8.1312132},
-        {"lat": 47.8984759, "lon": 8.1314391},
         {"lat": 47.8986245, "lon": 8.131811},
         {"lat": 47.8986045, "lon": 8.132058},
         {"lat": 47.8985371, "lon": 8.1323276},

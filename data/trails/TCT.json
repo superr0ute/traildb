@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-06-29T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-04T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -16999,11 +16999,11 @@
     {
       "type": "way",
       "id": 290262732,
-      "timestamp": "2022-05-23T07:36:26Z",
-      "version": 7,
-      "changeset": 121351906,
-      "user": "Sidapo",
-      "uid": 872501,
+      "timestamp": "2022-07-04T17:46:44Z",
+      "version": 9,
+      "changeset": 123201945,
+      "user": "unmbp",
+      "uid": 16367141,
       "nodes": [6449320030, 2242761590],
       "geometry": [
         {"lat": 40.7388011, "lon": 44.8499564},
@@ -17013,7 +17013,12 @@
         {"lat": 40.7398372, "lon": 44.8512765},
         {"lat": 40.7397833, "lon": 44.8518485}
       ],
-      "tags": {"highway": "residential", "oneway": "yes"}
+      "tags": {
+        "highway": "residential",
+        "name": "Kalinini",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -17077,11 +17082,11 @@
     {
       "type": "way",
       "id": 290463829,
-      "timestamp": "2021-01-24T11:17:41Z",
-      "version": 27,
-      "changeset": 98053022,
-      "user": "aslanosm",
-      "uid": 2985213,
+      "timestamp": "2022-07-04T17:48:21Z",
+      "version": 30,
+      "changeset": 123201982,
+      "user": "unmbp",
+      "uid": 16367141,
       "nodes": [2860746953, 2242761590],
       "geometry": [
         {"lat": 40.7409363, "lon": 44.8429482},
@@ -17102,6 +17107,8 @@
       ],
       "tags": {
         "highway": "trunk",
+        "lane_markings": "no",
+        "lit": "yes",
         "maxspeed": "60",
         "name": "Կալինինի փողոց",
         "name:en": "Kalinini street",
@@ -17110,6 +17117,7 @@
         "old_ref": "A 330",
         "ref": "Մ-8",
         "ref:en": "M-8",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -31368,17 +31376,24 @@
     {
       "type": "way",
       "id": 486601992,
-      "timestamp": "2019-04-10T18:36:33Z",
-      "version": 3,
-      "changeset": 69093452,
-      "user": "AleMambelli",
-      "uid": 3222962,
+      "timestamp": "2022-07-04T17:47:46Z",
+      "version": 6,
+      "changeset": 123201971,
+      "user": "unmbp",
+      "uid": 16367141,
       "nodes": [4791882429, 6397035351],
       "geometry": [
         {"lat": 40.7403268, "lon": 44.8709826},
         {"lat": 40.7404668, "lon": 44.8709123}
       ],
-      "tags": {"highway": "steps", "surface": "unpaved", "width": "1"}
+      "tags": {
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "down",
+        "ramp": "no",
+        "surface": "unpaved",
+        "width": "1"
+      }
     },
     {
       "type": "way",
@@ -38626,11 +38641,11 @@
     {
       "type": "way",
       "id": 633255192,
-      "timestamp": "2018-10-12T09:23:41Z",
-      "version": 1,
-      "changeset": 63447873,
-      "user": "Sidapo",
-      "uid": 872501,
+      "timestamp": "2022-07-04T17:47:39Z",
+      "version": 4,
+      "changeset": 123201971,
+      "user": "unmbp",
+      "uid": 16367141,
       "nodes": [5977910469, 5977910466],
       "geometry": [
         {"lat": 40.7397258, "lon": 44.8697052},
@@ -38638,7 +38653,12 @@
         {"lat": 40.7396364, "lon": 44.8697868},
         {"lat": 40.7396104, "lon": 44.8698093}
       ],
-      "tags": {"highway": "steps"}
+      "tags": {
+        "handrail": "yes",
+        "highway": "steps",
+        "incline": "up",
+        "ramp": "no"
+      }
     },
     {
       "type": "way",
@@ -39979,11 +39999,11 @@
     {
       "type": "way",
       "id": 643923825,
-      "timestamp": "2018-11-13T19:19:40Z",
-      "version": 1,
-      "changeset": 64454843,
-      "user": "AleMambelli",
-      "uid": 3222962,
+      "timestamp": "2022-07-04T17:48:05Z",
+      "version": 3,
+      "changeset": 123201963,
+      "user": "unmbp",
+      "uid": 16367141,
       "nodes": [6030246415, 5988700043],
       "geometry": [
         {"lat": 40.7398546, "lon": 44.8633785},
@@ -39994,16 +40014,16 @@
         {"lat": 40.7402578, "lon": 44.8651432},
         {"lat": 40.7402669, "lon": 44.8652867}
       ],
-      "tags": {"highway": "footway", "surface": "paved"}
+      "tags": {"highway": "footway", "lit": "no", "surface": "grass"}
     },
     {
       "type": "way",
       "id": 643939620,
-      "timestamp": "2018-11-13T20:03:33Z",
-      "version": 1,
-      "changeset": 64456194,
-      "user": "AleMambelli",
-      "uid": 3222962,
+      "timestamp": "2022-07-04T17:46:55Z",
+      "version": 3,
+      "changeset": 123201963,
+      "user": "unmbp",
+      "uid": 16367141,
       "nodes": [5988700286, 6030246415],
       "geometry": [
         {"lat": 40.7382143, "lon": 44.8550092},
@@ -40014,7 +40034,7 @@
         {"lat": 40.7395185, "lon": 44.8621184},
         {"lat": 40.7398546, "lon": 44.8633785}
       ],
-      "tags": {"highway": "footway", "surface": "paved"}
+      "tags": {"highway": "footway", "lit": "no", "surface": "grass"}
     },
     {
       "type": "way",
