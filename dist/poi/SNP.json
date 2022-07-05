@@ -1334,31 +1334,33 @@
       "type": "Feature",
       "properties": {
         "@poi": "place_village",
-        "@distance": 229,
+        "@distance": 50,
         "@id": "n26036134",
-        "@changeset": 79213399,
-        "@timestamp": "2020-01-05T14:00:40Z",
-        "@version": 9,
-        "@uid": 5769889,
-        "@user": "yzal",
+        "@changeset": 123192385,
+        "@timestamp": "2022-07-04T13:31:17Z",
+        "@version": 10,
+        "@uid": 4887311,
+        "@user": "mapperue",
         "city_id": "505960",
         "ele": 238,
         "import_ref": "city_import_sk_1",
         "name": "Drietoma",
         "name:hu": "Drétoma",
+        "name:sk": "Drietoma",
         "place": "village",
         "population": 2228,
         "postal_code": "913 03",
         "region_id": "309",
         "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.drietoma.sk/",
         "wikidata": "Q910353",
         "wikipedia": "sk:Drietoma"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.9545746,
-          48.8957791
+          17.9563471,
+          48.8944123
         ]
       }
     },
@@ -6948,12 +6950,13 @@
         "@poi": "water_spring",
         "@distance": 0.5,
         "@id": "n503872740",
-        "@changeset": 115892595,
-        "@timestamp": "2022-01-07T21:18:26Z",
-        "@version": 4,
-        "@uid": 1944033,
-        "@user": "Dodko",
+        "@changeset": 123158231,
+        "@timestamp": "2022-07-03T16:54:08Z",
+        "@version": 5,
+        "@uid": 21515,
+        "@user": "lubosb",
         "natural": "spring",
+        "refitted": "yes",
         "source": "survey, GPS"
       },
       "geometry": {
@@ -22800,34 +22803,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 4293.1,
-        "@id": "n893225075",
-        "@changeset": 122528862,
-        "@timestamp": "2022-06-18T02:14:37Z",
-        "@version": 4,
-        "@uid": 6297500,
-        "@user": "infitter",
-        "addr:city": "Prešov",
-        "addr:housenumber": "2",
-        "addr:postcode": "08001",
-        "addr:street": "Hlavná",
-        "brand": "Milk-Agro",
-        "brand:wikidata": "Q64173785",
-        "name": "Milk-Agro",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.2436632,
-          48.9939798
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "place_village",
         "@distance": 2964.1,
         "@id": "n530544482",
@@ -24890,15 +24865,16 @@
         "@poi": "foodshop_supermarket",
         "@distance": 7220,
         "@id": "n5745804522",
-        "@changeset": 100707242,
-        "@timestamp": "2021-03-09T11:39:26Z",
-        "@version": 2,
-        "@uid": 12814494,
-        "@user": "Richard Popelis",
+        "@changeset": 123142805,
+        "@timestamp": "2022-07-03T08:33:02Z",
+        "@version": 3,
+        "@uid": 44943,
+        "@user": "Jožo Schwarz",
         "brand": "COOP Jednota",
         "brand:wikidata": "Q41629254",
         "brand:wikipedia": "sk:COOP Jednota Slovensko",
         "name": "COOP Jednota",
+        "opening_hours": "Mo-Fr 06:00-12:00,13:00-17:30; Sa 06:00-11:00",
         "shop": "supermarket"
       },
       "geometry": {
@@ -27360,14 +27336,25 @@
         "@poi": "foodshop_convenience",
         "@distance": 3240.8,
         "@id": "n3213064809",
-        "@changeset": 118144879,
-        "@timestamp": "2022-03-06T01:07:53Z",
-        "@version": 2,
-        "@uid": 1235579,
-        "@user": "KuboF",
-        "name": "COOP Jednota",
-        "opening_hours": "Mo-Fr 09:00-17:00; Sa,Su off",
-        "shop": "convenience"
+        "@changeset": 123207575,
+        "@timestamp": "2022-07-04T20:52:07Z",
+        "@version": 3,
+        "@uid": 10681641,
+        "@user": "EyalAndOmer",
+        "addr:city": "Nová Dubnica",
+        "addr:conscriptionnumber": "50",
+        "addr:country": "SK",
+        "addr:housenumber": "50/58",
+        "addr:postcode": "01851",
+        "addr:street": "SNP",
+        "addr:streetnumber": "58",
+        "name": "Môj obchod - Potraviny u Elenky",
+        "opening_hours": "Mo-Fr 06:00-18:00, Sa 6:00-12:00; PH off",
+        "operator": "Elena Repová, Elbozo s.r.o., Pribinove sady 31/5, 01851 Nová Dubnica",
+        "shop": "convenience",
+        "source:conscriptionnumber": "kapor2",
+        "source:street": "municipality",
+        "source:streetnumber": "municipality"
       },
       "geometry": {
         "type": "Point",
@@ -32765,6 +32752,34 @@
         "coordinates": [
           21.7033112,
           49.402843
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 4293.1,
+        "@id": "n893225075",
+        "@changeset": 122528862,
+        "@timestamp": "2022-06-18T02:14:37Z",
+        "@version": 4,
+        "@uid": 6297500,
+        "@user": "infitter",
+        "addr:city": "Prešov",
+        "addr:housenumber": "2",
+        "addr:postcode": "08001",
+        "addr:street": "Hlavná",
+        "brand": "Milk-Agro",
+        "brand:wikidata": "Q64173785",
+        "name": "Milk-Agro",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2436632,
+          48.9939798
         ]
       }
     },
@@ -39483,28 +39498,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_spring",
-        "@distance": 1782.9,
-        "@id": "n5776520766",
-        "@changeset": 118481816,
-        "@timestamp": "2022-03-14T18:41:29Z",
-        "@version": 3,
-        "@uid": 12858372,
-        "@user": "Miro1180",
-        "name": "Kolačínsky potok",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.1948574,
-          48.9327504
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
         "@distance": 1977.6,
         "@id": "n1722681810",
         "@changeset": 122289584,
@@ -42992,17 +42985,18 @@
       "type": "Feature",
       "properties": {
         "@poi": "peak_peak",
-        "@distance": 2175.2,
+        "@distance": 2176.4,
         "@id": "n4015271795",
-        "@changeset": 81118307,
-        "@timestamp": "2020-02-17T13:45:15Z",
-        "@version": 3,
-        "@uid": 6125147,
-        "@user": "Kookykooky",
+        "@changeset": 123206102,
+        "@timestamp": "2022-07-04T20:04:14Z",
+        "@version": 4,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
         "ele": 1391,
         "import_ref": "Záväzné názvoslovie vrchov",
         "name": "Ostré brdo",
         "natural": "peak",
+        "source": "survey, GPS",
         "source:name": "skgeodesy.sk",
         "wikidata": "Q18042803",
         "wikipedia": "cs:Ostré Brdo"
@@ -43010,8 +43004,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.10405,
-          48.8992
+          19.1040715,
+          48.8992123
         ]
       }
     },
@@ -50292,6 +50286,28 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_spring",
+        "@distance": 1782.9,
+        "@id": "n5776520766",
+        "@changeset": 118481816,
+        "@timestamp": "2022-03-14T18:41:29Z",
+        "@version": 3,
+        "@uid": 12858372,
+        "@user": "Miro1180",
+        "name": "Kolačínsky potok",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1948574,
+          48.9327504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
         "@distance": 2263.6,
         "@id": "n5776520793",
         "@changeset": 116435530,
@@ -51652,13 +51668,13 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
-        "@distance": 923.5,
+        "@distance": 927.7,
         "@id": "n4498656936",
-        "@changeset": 90820606,
-        "@timestamp": "2020-09-13T13:55:46Z",
-        "@version": 2,
-        "@uid": 21515,
-        "@user": "lubosb",
+        "@changeset": 123210633,
+        "@timestamp": "2022-07-04T23:03:46Z",
+        "@version": 3,
+        "@uid": 16387610,
+        "@user": "moonraver",
         "amenity": "shelter",
         "name": "Dobranský altánok",
         "shelter_type": "picnic_shelter"
@@ -51666,8 +51682,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.1311436,
-          48.9067376
+          18.131149,
+          48.9067768
         ]
       }
     },
@@ -54004,21 +54020,22 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_spring",
-        "@distance": 2168.4,
+        "@distance": 2154.6,
         "@id": "n5397649908",
-        "@changeset": 59726221,
-        "@timestamp": "2018-06-11T03:50:02Z",
-        "@version": 2,
+        "@changeset": 123206102,
+        "@timestamp": "2022-07-04T20:04:14Z",
+        "@version": 3,
         "@uid": 2323152,
         "@user": "Mirecnet",
         "name": "prameň rieky Revúca",
-        "natural": "spring"
+        "natural": "spring",
+        "source": "survey, GPS"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.0884679,
-          48.8959407
+          19.0884196,
+          48.8958023
         ]
       }
     },
@@ -55331,9 +55348,9 @@
         "@poi": "foodshop_supermarket",
         "@distance": 2689.4,
         "@id": "n4423791489",
-        "@changeset": 119659737,
-        "@timestamp": "2022-04-13T10:01:18Z",
-        "@version": 4,
+        "@changeset": 123168029,
+        "@timestamp": "2022-07-04T00:33:39Z",
+        "@version": 5,
         "@uid": 6297500,
         "@user": "infitter",
         "addr:city": "Prešov - Sídlisko IIIB",
@@ -55345,6 +55362,7 @@
         "brand:wikipedia": "de:Billa",
         "email": "info@billa.sk",
         "name": "Billa",
+        "opening_hours": "Mo-Su 09:00-21:00",
         "operator": "BILLA s.r.o.",
         "shop": "supermarket",
         "website": "https://www.billa.sk"
@@ -62954,11 +62972,11 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_spring",
-        "@distance": 1426.7,
+        "@distance": 1442.7,
         "@id": "n7376946386",
-        "@changeset": 83218971,
-        "@timestamp": "2020-04-07T21:43:51Z",
-        "@version": 1,
+        "@changeset": 123204468,
+        "@timestamp": "2022-07-04T19:09:23Z",
+        "@version": 2,
         "@uid": 2323152,
         "@user": "Mirecnet",
         "natural": "spring",
@@ -62967,8 +62985,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          19.1155083,
-          48.8931391
+          19.1154439,
+          48.8932802
         ]
       }
     },
@@ -64910,28 +64928,6 @@
         "coordinates": [
           19.325155,
           48.9204777
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 3033.2,
-        "@id": "n8174717405",
-        "@changeset": 94961104,
-        "@timestamp": "2020-11-28T22:22:15Z",
-        "@version": 1,
-        "@uid": 2323152,
-        "@user": "Mirecnet",
-        "natural": "spring",
-        "source": "survey, GPS"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.3250303,
-          48.9204006
         ]
       }
     },
@@ -72441,6 +72437,28 @@
         "coordinates": [
           19.4374779,
           48.9284434
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 3033.2,
+        "@id": "n8174717405",
+        "@changeset": 94961104,
+        "@timestamp": "2020-11-28T22:22:15Z",
+        "@version": 1,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
+        "natural": "spring",
+        "source": "survey, GPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.3250303,
+          48.9204006
         ]
       }
     },
@@ -89750,6 +89768,51 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 22,
+        "@id": "n9864203850",
+        "@changeset": 123158231,
+        "@timestamp": "2022-07-03T16:54:08Z",
+        "@version": 1,
+        "@uid": 21515,
+        "@user": "lubosb",
+        "amenity": "shelter",
+        "shelter_type": "rock_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3264124,
+          48.9393003
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 59.5,
+        "@id": "n9864203851",
+        "@changeset": 123158231,
+        "@timestamp": "2022-07-03T16:54:08Z",
+        "@version": 1,
+        "@uid": 21515,
+        "@user": "lubosb",
+        "amenity": "shelter",
+        "fireplace": "yes",
+        "shelter_type": "weather_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.330899,
+          48.9304304
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 963,
         "@id": "w58505759",
@@ -90101,6 +90164,142 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_spring",
+        "@distance": 1162.7,
+        "@id": "n9866598413",
+        "@changeset": 123204468,
+        "@timestamp": "2022-07-04T19:09:23Z",
+        "@version": 1,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
+        "drinking_water": "yes",
+        "man_made": "spring_box",
+        "natural": "spring",
+        "refitted": "yes",
+        "source": "survey;GPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0964638,
+          48.8882379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_cave",
+        "@distance": 2204.4,
+        "@id": "n9866702172",
+        "@changeset": 123206102,
+        "@timestamp": "2022-07-04T20:04:14Z",
+        "@version": 1,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
+        "length": "3",
+        "natural": "cave_entrance",
+        "source": "survey, GPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0998991,
+          48.8988992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 1872.6,
+        "@id": "n9866702316",
+        "@changeset": 123206102,
+        "@timestamp": "2022-07-04T20:04:14Z",
+        "@version": 1,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
+        "natural": "spring",
+        "source": "survey, GPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0877956,
+          48.8930563
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 1860.1,
+        "@id": "n9866702329",
+        "@changeset": 123206102,
+        "@timestamp": "2022-07-04T20:04:14Z",
+        "@version": 1,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
+        "natural": "spring",
+        "source": "survey, GPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0876159,
+          48.8929029
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 1831.8,
+        "@id": "n9866702356",
+        "@changeset": 123206102,
+        "@timestamp": "2022-07-04T20:04:14Z",
+        "@version": 1,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
+        "natural": "spring",
+        "source": "survey, GPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0874295,
+          48.8926023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 1826.8,
+        "@id": "n9866702360",
+        "@changeset": 123206102,
+        "@timestamp": "2022-07-04T20:04:14Z",
+        "@version": 1,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
+        "natural": "spring",
+        "source": "survey, GPS"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0876588,
+          48.8926031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_wilderness-hut",
         "@distance": 120.1,
         "@id": "w30955562",
@@ -90408,55 +90607,6 @@
         "coordinates": [
           19.1330767,
           48.7257959
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 1458.5,
-        "@id": "w493325053",
-        "@changeset": 88685481,
-        "@timestamp": "2020-07-29T14:54:28Z",
-        "@version": 2,
-        "@uid": 10707560,
-        "@user": "WiatingPL",
-        "building": "cabin",
-        "fee": "no",
-        "fireplace": "yes",
-        "name": "Poľovnícka chata Tajch",
-        "shelter_type": "basic_hut",
-        "tourism": "wilderness_hut",
-        "url": "https://hiking.sk/hk/ar/3129/polovnicky_zrub_tajch_pod_vel_chochulou.html"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.3423547,
-          48.8821725
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2789,
-        "@id": "w507397429",
-        "@changeset": 71378389,
-        "@timestamp": "2019-06-18T19:38:48Z",
-        "@version": 2,
-        "@uid": 850621,
-        "@user": "mgpx",
-        "amenity": "shelter",
-        "shelter_type": "weather_shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          19.0400998,
-          48.816621
         ]
       }
     },
@@ -91293,6 +91443,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 901.2,
+        "@id": "w974217347",
+        "@changeset": 122878888,
+        "@timestamp": "2022-06-26T19:18:20Z",
+        "@version": 2,
+        "@uid": 4815,
+        "@user": "*Martin*",
+        "amenity": "shelter",
+        "building": "yes",
+        "fireplace": "yes",
+        "shelter_type": "picnic_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.863971,
+          48.7869939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 1331.5,
         "@id": "n7807209827",
@@ -91845,13 +92019,13 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_spring",
-        "@distance": 457.8,
+        "@distance": 452.5,
         "@id": "n8626022085",
-        "@changeset": 119515795,
-        "@timestamp": "2022-04-09T20:15:47Z",
-        "@version": 3,
-        "@uid": 4815,
-        "@user": "*Martin*",
+        "@changeset": 123151975,
+        "@timestamp": "2022-07-03T13:41:51Z",
+        "@version": 4,
+        "@uid": 15784928,
+        "@user": "BelKed",
         "ele": 515,
         "name": "Juhaz",
         "natural": "spring"
@@ -91859,8 +92033,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.1814335,
-          48.7802993
+          21.181518,
+          48.7802701
         ]
       }
     },
@@ -94943,6 +95117,55 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 1458.5,
+        "@id": "w493325053",
+        "@changeset": 88685481,
+        "@timestamp": "2020-07-29T14:54:28Z",
+        "@version": 2,
+        "@uid": 10707560,
+        "@user": "WiatingPL",
+        "building": "cabin",
+        "fee": "no",
+        "fireplace": "yes",
+        "name": "Poľovnícka chata Tajch",
+        "shelter_type": "basic_hut",
+        "tourism": "wilderness_hut",
+        "url": "https://hiking.sk/hk/ar/3129/polovnicky_zrub_tajch_pod_vel_chochulou.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.3423547,
+          48.8821725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2789,
+        "@id": "w507397429",
+        "@changeset": 71378389,
+        "@timestamp": "2019-06-18T19:38:48Z",
+        "@version": 2,
+        "@uid": 850621,
+        "@user": "mgpx",
+        "amenity": "shelter",
+        "shelter_type": "weather_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0400998,
+          48.816621
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "campsite",
         "@distance": 32.6,
         "@id": "w509067702",
@@ -95157,6 +95380,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 1208.5,
+        "@id": "w1075853890",
+        "@changeset": 123204468,
+        "@timestamp": "2022-07-04T19:09:23Z",
+        "@version": 1,
+        "@uid": 2323152,
+        "@user": "Mirecnet",
+        "building": "farm_auxiliary",
+        "name": "Salaš pod Ostredkom",
+        "source": "survey;GPS",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.102942,
+          48.8901482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_spring",
         "@distance": 3066.3,
         "@id": "n3782586919",
@@ -95224,30 +95471,6 @@
         "coordinates": [
           19.6906346,
           48.9264171
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 901.2,
-        "@id": "w974217347",
-        "@changeset": 122878888,
-        "@timestamp": "2022-06-26T19:18:20Z",
-        "@version": 2,
-        "@uid": 4815,
-        "@user": "*Martin*",
-        "amenity": "shelter",
-        "building": "yes",
-        "fireplace": "yes",
-        "shelter_type": "picnic_shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.863971,
-          48.7869939
         ]
       }
     },

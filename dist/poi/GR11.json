@@ -33118,14 +33118,15 @@
         "@poi": "foodshop_supermarket",
         "@distance": 187.9,
         "@id": "n4321915274",
-        "@changeset": 84913628,
-        "@timestamp": "2020-05-08T19:42:31Z",
-        "@version": 3,
-        "@uid": 3392826,
-        "@user": "Hugoren Martinako",
+        "@changeset": 123160348,
+        "@timestamp": "2022-07-03T18:00:46Z",
+        "@version": 4,
+        "@uid": 13731704,
+        "@user": "zaturox",
         "brand": "BM",
         "brand:wikidata": "Q62073462",
         "name": "BM",
+        "opening_hours": "Mo-Sa 09:30-21:30",
         "shop": "supermarket"
       },
       "geometry": {
@@ -43735,13 +43736,15 @@
         "@poi": "foodshop_supermarket",
         "@distance": 2506.6,
         "@id": "n5288596525",
-        "@changeset": 61022492,
-        "@timestamp": "2018-07-24T12:46:27Z",
-        "@version": 2,
-        "@uid": 7262124,
-        "@user": "Colcolt",
+        "@changeset": 123149419,
+        "@timestamp": "2022-07-03T12:24:30Z",
+        "@version": 3,
+        "@uid": 12507004,
+        "@user": "Flappy Pigeon",
         "addr:street": "Avinguda Sant Antoni",
-        "name": "BonArea",
+        "brand": "BonÀrea",
+        "brand:wikidata": "Q11924743",
+        "name": "BonÀrea",
         "shop": "supermarket"
       },
       "geometry": {
@@ -45176,29 +45179,6 @@
         "coordinates": [
           -0.1595999,
           42.7163816
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1354.4,
-        "@id": "w517072913",
-        "@changeset": 51282632,
-        "@timestamp": "2017-08-20T17:53:49Z",
-        "@version": 1,
-        "@uid": 118157,
-        "@user": "Inghuimischar",
-        "amenity": "shelter",
-        "building": "yes",
-        "shelter_type": "weather_shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.6592758,
-          42.8306245
         ]
       }
     },
@@ -46676,23 +46656,23 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "mountain-pass",
-        "@distance": 48.8,
-        "@id": "n9741114756",
-        "@changeset": 121010242,
-        "@timestamp": "2022-05-15T12:20:10Z",
+        "@poi": "shelter_shelter",
+        "@distance": 1354.4,
+        "@id": "w517072913",
+        "@changeset": 51282632,
+        "@timestamp": "2017-08-20T17:53:49Z",
         "@version": 1,
-        "@uid": 6692235,
-        "@user": "Hartz Beltza",
-        "ele": 1164.08,
-        "name": "Enekorriko lepoa",
-        "natural": "saddle"
+        "@uid": 118157,
+        "@user": "Inghuimischar",
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "weather_shelter"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.4930608,
-          43.0410927
+          -0.6592758,
+          42.8306245
         ]
       }
     },
@@ -48358,6 +48338,29 @@
         "coordinates": [
           -1.881998,
           43.3081719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "mountain-pass",
+        "@distance": 48.8,
+        "@id": "n9741114756",
+        "@changeset": 121010242,
+        "@timestamp": "2022-05-15T12:20:10Z",
+        "@version": 1,
+        "@uid": 6692235,
+        "@user": "Hartz Beltza",
+        "ele": 1164.08,
+        "name": "Enekorriko lepoa",
+        "natural": "saddle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4930608,
+          43.0410927
         ]
       }
     },
@@ -53227,34 +53230,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 3693.3,
-        "@id": "w1023726653",
-        "@changeset": 116480873,
-        "@timestamp": "2022-01-22T21:21:34Z",
-        "@version": 1,
-        "@uid": 6296343,
-        "@user": "BaboucheVerte",
-        "amenity": "fuel",
-        "building": "roof",
-        "fuel:diesel": "yes",
-        "fuel:octane_95": "yes",
-        "layer": "1",
-        "name": "Garatea",
-        "phone": "+33 5 59 37 56 78",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.4266987,
-          43.0976817
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 2508.5,
         "@id": "w837388825",
@@ -54195,6 +54170,57 @@
         "coordinates": [
           2.3288209,
           42.3992408
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 3693.3,
+        "@id": "w1023726653",
+        "@changeset": 116480873,
+        "@timestamp": "2022-01-22T21:21:34Z",
+        "@version": 1,
+        "@uid": 6296343,
+        "@user": "BaboucheVerte",
+        "amenity": "fuel",
+        "building": "roof",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "layer": "1",
+        "name": "Garatea",
+        "phone": "+33 5 59 37 56 78",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4266987,
+          43.0976817
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2383.6,
+        "@id": "w1075878060",
+        "@changeset": 123207813,
+        "@timestamp": "2022-07-04T21:01:18Z",
+        "@version": 1,
+        "@uid": 392288,
+        "@user": "Kalepom",
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7605498,
+          43.3627912
         ]
       }
     },
