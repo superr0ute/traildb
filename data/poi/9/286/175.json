@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-07-03T23:59:59Z",
-    "timestamp_osm_base": "2022-07-04T07:16:23Z",
+    "timestamp_osm_date": "2022-07-04T23:59:59Z",
+    "timestamp_osm_base": "2022-07-05T06:58:41Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -495,24 +495,28 @@
     {
       "type": "node",
       "id": 26035896,
-      "lat": 49.3209514,
-      "lon": 21.1085187,
-      "timestamp": "2022-01-23T19:08:37Z",
-      "version": 9,
-      "changeset": 116511708,
-      "user": "Filip009",
-      "uid": 10553599,
+      "lat": 49.3207509,
+      "lon": 21.1096089,
+      "timestamp": "2022-07-04T12:41:01Z",
+      "version": 10,
+      "changeset": 123190459,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
         "city_id": "519189",
         "ele": "329",
         "import_ref": "city_import_sk_1",
         "name": "Gerlachov",
         "name:hu": "Gerlachfalva",
+        "name:sk": "Gerlachov",
         "place": "village",
         "population": "1011",
         "postal_code": "086 04",
         "region_id": "701",
-        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk"
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.gerlachov-bj.sk/",
+        "wikidata": "Q963246",
+        "wikipedia": "sk:Gerlachov (okres Bardejov)"
       }
     },
     {
@@ -13438,13 +13442,12 @@
       "id": 4423791489,
       "lat": 49.017537,
       "lon": 21.2250417,
-      "timestamp": "2022-04-13T10:01:18Z",
-      "version": 4,
-      "changeset": 119659737,
+      "timestamp": "2022-07-04T00:33:39Z",
+      "version": 5,
+      "changeset": 123168029,
       "user": "infitter",
       "uid": 6297500,
       "tags": {
-        "website": "https://www.billa.sk",
         "addr:city": "Prešov - Sídlisko IIIB",
         "addr:housenumber": "37",
         "addr:postcode": "08001",
@@ -13454,8 +13457,10 @@
         "brand:wikipedia": "de:Billa",
         "email": "info@billa.sk",
         "name": "Billa",
+        "opening_hours": "Mo-Su 09:00-21:00",
         "operator": "BILLA s.r.o.",
-        "shop": "supermarket"
+        "shop": "supermarket",
+        "website": "https://www.billa.sk"
       }
     },
     {
@@ -18746,6 +18751,26 @@
         "amenity": "shelter",
         "building": "yes",
         "shelter_type": "gazebo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1075762318,
+      "timestamp": "2022-07-04T12:41:01Z",
+      "version": 1,
+      "changeset": 123190459,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 49.3206825,
+        "lon": 21.1094601
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "shelter_type": "public_transport"
       }
     }
   ]

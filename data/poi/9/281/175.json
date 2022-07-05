@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-07-03T23:59:59Z",
-    "timestamp_osm_base": "2022-07-04T07:16:23Z",
+    "timestamp_osm_date": "2022-07-04T23:59:59Z",
+    "timestamp_osm_base": "2022-07-05T06:44:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9094,15 +9094,26 @@
       "id": 3213064809,
       "lat": 48.936445,
       "lon": 18.14662,
-      "timestamp": "2022-03-06T01:07:53Z",
-      "version": 2,
-      "changeset": 118144879,
-      "user": "KuboF",
-      "uid": 1235579,
+      "timestamp": "2022-07-04T20:52:07Z",
+      "version": 3,
+      "changeset": 123207575,
+      "user": "EyalAndOmer",
+      "uid": 10681641,
       "tags": {
-        "name": "COOP Jednota",
-        "opening_hours": "Mo-Fr 09:00-17:00; Sa,Su off",
-        "shop": "convenience"
+        "addr:city": "Nová Dubnica",
+        "addr:conscriptionnumber": "50",
+        "addr:country": "SK",
+        "addr:housenumber": "50/58",
+        "addr:postcode": "01851",
+        "addr:street": "SNP",
+        "addr:streetnumber": "58",
+        "name": "Môj obchod - Potraviny u Elenky",
+        "opening_hours": "Mo-Fr 06:00-18:00, Sa 6:00-12:00; PH off",
+        "operator": "Elena Repová, Elbozo s.r.o., Pribinove sady 31/5, 01851 Nová Dubnica",
+        "shop": "convenience",
+        "source:conscriptionnumber": "kapor2",
+        "source:street": "municipality",
+        "source:streetnumber": "municipality"
       }
     },
     {
@@ -9319,13 +9330,13 @@
     {
       "type": "node",
       "id": 3414816558,
-      "lat": 49.0221349,
-      "lon": 17.9311575,
-      "timestamp": "2021-07-07T21:26:59Z",
-      "version": 2,
-      "changeset": 107590049,
-      "user": "Mar4s",
-      "uid": 461574,
+      "lat": 49.0221777,
+      "lon": 17.9311896,
+      "timestamp": "2022-07-04T12:34:23Z",
+      "version": 3,
+      "changeset": 123190226,
+      "user": "LeoBardonaro",
+      "uid": 573826,
       "tags": {
         "amenity": "shelter",
         "fireplace": "yes",
@@ -20184,6 +20195,52 @@
     },
     {
       "type": "way",
+      "id": 440549531,
+      "timestamp": "2022-07-04T13:05:29Z",
+      "version": 2,
+      "changeset": 123191413,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.0461979,
+        "lon": 17.89774
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "building:ruian:type": "19",
+        "name": "MůjObchod - Potraviny Podhájka",
+        "ref:ruian:building": "30368995",
+        "shop": "convenience",
+        "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "way",
+      "id": 440549638,
+      "timestamp": "2022-07-04T13:05:29Z",
+      "version": 2,
+      "changeset": 123191413,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.0449264,
+        "lon": 17.8976345
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "building:levels": "1",
+        "building:ruian:type": "5",
+        "name": "Hruška",
+        "operator": "Hruška",
+        "ref:ruian:building": "4000099",
+        "shop": "convenience",
+        "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "way",
       "id": 440701106,
       "timestamp": "2021-05-23T20:42:57Z",
       "version": 2,
@@ -24141,6 +24198,25 @@
         "amenity": "shelter",
         "building": "yes",
         "shelter_type": "gazebo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1075768417,
+      "timestamp": "2022-07-04T13:05:29Z",
+      "version": 1,
+      "changeset": 123191413,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.045608,
+        "lon": 17.8980188
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
       }
     }
   ]
