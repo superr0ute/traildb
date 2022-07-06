@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-04T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-05T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2517,11 +2517,11 @@
     {
       "type": "relation",
       "id": 12185623,
-      "timestamp": "2021-09-26T05:39:03Z",
-      "version": 3,
-      "changeset": 111707714,
-      "user": "vbertola",
-      "uid": 4347030,
+      "timestamp": "2022-07-05T09:29:07Z",
+      "version": 4,
+      "changeset": 123225504,
+      "user": "dusteagle",
+      "uid": 9375142,
       "members": [
         {"type": "way", "ref": 37667475, "role": ""},
         {"type": "way", "ref": 228557987, "role": ""},
@@ -2533,6 +2533,7 @@
         {"type": "way", "ref": 228558009, "role": ""},
         {"type": "way", "ref": 987048117, "role": ""},
         {"type": "way", "ref": 389384171, "role": ""},
+        {"type": "way", "ref": 1076007330, "role": ""},
         {"type": "way", "ref": 837571139, "role": ""},
         {"type": "way", "ref": 180876710, "role": ""}
       ],
@@ -2554,13 +2555,14 @@
     {
       "type": "relation",
       "id": 12185712,
-      "timestamp": "2021-12-28T16:51:53Z",
-      "version": 6,
-      "changeset": 115479735,
-      "user": "lucadelu",
-      "uid": 13591,
+      "timestamp": "2022-07-05T09:29:07Z",
+      "version": 7,
+      "changeset": 123225504,
+      "user": "dusteagle",
+      "uid": 9375142,
       "members": [
         {"type": "way", "ref": 530729760, "role": ""},
+        {"type": "way", "ref": 1076007329, "role": ""},
         {"type": "way", "ref": 26815885, "role": ""},
         {"type": "way", "ref": 50894214, "role": ""},
         {"type": "way", "ref": 37771135, "role": ""},
@@ -6870,6 +6872,50 @@
         "highway": "track",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012",
         "trail_visibility": "excellent"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1076007329,
+      "timestamp": "2022-07-05T09:29:07Z",
+      "version": 1,
+      "changeset": 123225504,
+      "user": "dusteagle",
+      "uid": 9375142,
+      "nodes": [7817276938, 1814668276],
+      "geometry": [
+        {"lat": 44.5398467, "lon": 7.0897778},
+        {"lat": 44.5397956, "lon": 7.0898141}
+      ],
+      "tags": {
+        "access": "permit",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "residential",
+        "horse": "yes",
+        "surface": "paved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1076007330,
+      "timestamp": "2022-07-05T09:29:07Z",
+      "version": 1,
+      "changeset": 123225504,
+      "user": "dusteagle",
+      "uid": 9375142,
+      "nodes": [1814668279, 2018569998],
+      "geometry": [
+        {"lat": 44.5398924, "lon": 7.0902025},
+        {"lat": 44.539871, "lon": 7.0903028}
+      ],
+      "tags": {
+        "access": "permit",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "residential",
+        "horse": "yes",
+        "surface": "paved"
       }
     },
     {
@@ -52913,11 +52959,11 @@
     {
       "type": "way",
       "id": 315802709,
-      "timestamp": "2021-12-28T16:51:53Z",
-      "version": 4,
-      "changeset": 115479735,
-      "user": "lucadelu",
-      "uid": 13591,
+      "timestamp": "2022-07-05T09:29:07Z",
+      "version": 5,
+      "changeset": 123225504,
+      "user": "dusteagle",
+      "uid": 9375142,
       "nodes": [854367095, 3217876683],
       "geometry": [
         {"lat": 44.4886029, "lon": 7.0402059},
@@ -53019,7 +53065,9 @@
         {"lat": 44.5031391, "lon": 7.0462665},
         {"lat": 44.5035418, "lon": 7.0458248},
         {"lat": 44.5036016, "lon": 7.0455396},
+        {"lat": 44.5036523, "lon": 7.0455054},
         {"lat": 44.5037093, "lon": 7.045467},
+        {"lat": 44.5038173, "lon": 7.0455609},
         {"lat": 44.5040243, "lon": 7.0457409},
         {"lat": 44.5042555, "lon": 7.0457689},
         {"lat": 44.5046702, "lon": 7.046149},
@@ -60916,11 +60964,11 @@
     {
       "type": "way",
       "id": 37771138,
-      "timestamp": "2021-12-28T16:51:53Z",
-      "version": 8,
-      "changeset": 115479735,
-      "user": "lucadelu",
-      "uid": 13591,
+      "timestamp": "2022-07-05T09:29:07Z",
+      "version": 9,
+      "changeset": 123225504,
+      "user": "dusteagle",
+      "uid": 9375142,
       "nodes": [443071963, 443071959],
       "geometry": [
         {"lat": 44.5439172, "lon": 7.0584779},
@@ -60936,7 +60984,6 @@
         "incline": "up",
         "mtb:scale": "1",
         "mtb:scale:uphill": "1",
-        "name": "PO / GTA",
         "sac_scale": "hiking",
         "width": "2"
       }
@@ -71398,11 +71445,11 @@
     {
       "type": "way",
       "id": 511199549,
-      "timestamp": "2017-07-29T06:22:22Z",
-      "version": 1,
-      "changeset": 50664342,
-      "user": "solitone",
-      "uid": 584192,
+      "timestamp": "2022-07-05T09:29:07Z",
+      "version": 2,
+      "changeset": 123225504,
+      "user": "dusteagle",
+      "uid": 9375142,
       "nodes": [443094297, 443094300],
       "geometry": [
         {"lat": 44.4918382, "lon": 6.9259275},
@@ -71412,7 +71459,6 @@
       ],
       "tags": {
         "highway": "track",
-        "name": "Percorso Occitano",
         "sac_scale": "hiking",
         "tracktype": "grade1",
         "width": "2"
@@ -74547,14 +74593,13 @@
     {
       "type": "way",
       "id": 530729760,
-      "timestamp": "2021-09-26T05:39:03Z",
-      "version": 3,
-      "changeset": 111707714,
-      "user": "vbertola",
-      "uid": 4347030,
-      "nodes": [7817276938, 294162705],
+      "timestamp": "2022-07-05T09:29:07Z",
+      "version": 4,
+      "changeset": 123225504,
+      "user": "dusteagle",
+      "uid": 9375142,
+      "nodes": [1814668276, 294162705],
       "geometry": [
-        {"lat": 44.5398467, "lon": 7.0897778},
         {"lat": 44.5397956, "lon": 7.0898141},
         {"lat": 44.5397137, "lon": 7.089856}
       ],
@@ -98585,12 +98630,12 @@
     {
       "type": "way",
       "id": 837571139,
-      "timestamp": "2021-09-26T05:39:03Z",
-      "version": 2,
-      "changeset": 111707714,
-      "user": "vbertola",
-      "uid": 4347030,
-      "nodes": [7817276938, 2018569998],
+      "timestamp": "2022-07-05T09:29:07Z",
+      "version": 3,
+      "changeset": 123225504,
+      "user": "dusteagle",
+      "uid": 9375142,
+      "nodes": [7817276938, 1814668279],
       "geometry": [
         {"lat": 44.5398467, "lon": 7.0897778},
         {"lat": 44.5399454, "lon": 7.0897946},
@@ -98601,8 +98646,7 @@
         {"lat": 44.5401303, "lon": 7.0900648},
         {"lat": 44.5400613, "lon": 7.0900909},
         {"lat": 44.5399799, "lon": 7.0901268},
-        {"lat": 44.5398924, "lon": 7.0902025},
-        {"lat": 44.539871, "lon": 7.0903028}
+        {"lat": 44.5398924, "lon": 7.0902025}
       ],
       "tags": {
         "access": "permit",
