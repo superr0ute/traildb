@@ -10015,28 +10015,39 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
-        "@distance": 3253.7,
+        "@distance": 3254.2,
         "@id": "n2987381654",
-        "@changeset": 113983736,
-        "@timestamp": "2021-11-19T10:35:25Z",
-        "@version": 6,
-        "@uid": 145231,
-        "@user": "woodpeck_repair",
+        "@changeset": 123252030,
+        "@timestamp": "2022-07-05T21:31:25Z",
+        "@version": 7,
+        "@uid": 392336,
+        "@user": "Mister Kanister",
+        "branch": "Innertkirchen",
+        "brand": "Volg",
+        "brand:wikidata": "Q2530746",
         "cash_withdrawal": "yes",
         "cash_withdrawal:fee": "no",
         "cash_withdrawal:operator": "sonect",
         "cash_withdrawal:purchase_required": "no",
         "cash_withdrawal:type": "checkout",
+        "currency:CHF": "yes",
+        "currency:EUR": "yes",
         "name": "Volg",
-        "opening_hours": "Mo-Fr 07:00-12:00,14:00-18:30; Sa 07:00-16:00; Su 08:00-11:00",
+        "opening_hours": "Mo-Fr 07:00-18:30; Sa,Su,PH 07:00-16:00",
+        "payment:contactless": "yes",
+        "payment:girocard": "yes",
+        "payment:twint": "yes",
+        "payment:visa": "yes",
+        "post_office": "post_partner",
+        "post_office:brand": "Die Post AG",
         "shop": "supermarket",
         "wheelchair": "yes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.229345,
-          46.7052853
+          8.229323,
+          46.7052461
         ]
       }
     },
@@ -23575,12 +23586,15 @@
         "@poi": "foodshop_convenience",
         "@distance": 196,
         "@id": "n9570495298",
-        "@changeset": 118356217,
-        "@timestamp": "2022-03-11T10:07:14Z",
-        "@version": 1,
-        "@uid": 4894936,
-        "@user": "RaiJjet",
+        "@changeset": 123252768,
+        "@timestamp": "2022-07-05T22:07:33Z",
+        "@version": 2,
+        "@uid": 392336,
+        "@user": "Mister Kanister",
+        "brand": "avec",
+        "brand:wikidata": "Q103863974",
         "name": "avec",
+        "opening_hours": "Mo-Sa 06:00-21:00; Su,PH 07:00-21:00",
         "shop": "convenience"
       },
       "geometry": {
@@ -25331,41 +25345,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 9545.6,
-        "@id": "w305192595",
-        "@changeset": 113983736,
-        "@timestamp": "2021-11-19T10:14:18Z",
-        "@version": 4,
-        "@uid": 145231,
-        "@user": "woodpeck_repair",
-        "addr:city": "Wolfenschiessen",
-        "addr:housenumber": "21",
-        "addr:postcode": "6386",
-        "addr:street": "Hauptstrasse",
-        "brand": "Volg",
-        "brand:wikidata": "Q2530746",
-        "brand:wikipedia": "de:Volg",
-        "building": "yes",
-        "cash_withdrawal": "yes",
-        "cash_withdrawal:fee": "no",
-        "cash_withdrawal:operator": "sonect",
-        "cash_withdrawal:purchase_required": "no",
-        "cash_withdrawal:type": "checkout",
-        "name": "Volg",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.3954518,
-          46.9069143
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 1497.5,
         "@id": "n7902390373",
@@ -25922,6 +25901,41 @@
         "coordinates": [
           6.8923334,
           46.454379
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 9545.6,
+        "@id": "w305192595",
+        "@changeset": 113983736,
+        "@timestamp": "2021-11-19T10:14:18Z",
+        "@version": 4,
+        "@uid": 145231,
+        "@user": "woodpeck_repair",
+        "addr:city": "Wolfenschiessen",
+        "addr:housenumber": "21",
+        "addr:postcode": "6386",
+        "addr:street": "Hauptstrasse",
+        "brand": "Volg",
+        "brand:wikidata": "Q2530746",
+        "brand:wikipedia": "de:Volg",
+        "building": "yes",
+        "cash_withdrawal": "yes",
+        "cash_withdrawal:fee": "no",
+        "cash_withdrawal:operator": "sonect",
+        "cash_withdrawal:purchase_required": "no",
+        "cash_withdrawal:type": "checkout",
+        "name": "Volg",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3954518,
+          46.9069143
         ]
       }
     },
