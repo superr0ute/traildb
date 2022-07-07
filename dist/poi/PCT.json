@@ -10632,17 +10632,18 @@
         "@poi": "shelter_shelter",
         "@distance": 199,
         "@id": "n7824581970",
-        "@changeset": 89599824,
-        "@timestamp": "2020-08-19T00:34:28Z",
-        "@version": 1,
-        "@uid": 5403394,
-        "@user": "Adam Schneider",
-        "amenity": "shelter"
+        "@changeset": 123291920,
+        "@timestamp": "2022-07-06T20:12:27Z",
+        "@version": 2,
+        "@uid": 182584,
+        "@user": "daugman",
+        "amenity": "shelter",
+        "description": "old, half standing"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -121.4484662,
+          -121.448466,
           46.964314
         ]
       }
@@ -10728,6 +10729,32 @@
         "coordinates": [
           -121.3977735,
           47.0363618
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 713.8,
+        "@id": "n9871061309",
+        "@changeset": 123291996,
+        "@timestamp": "2022-07-06T20:15:03Z",
+        "@version": 1,
+        "@uid": 182584,
+        "@user": "daugman",
+        "access": "yes",
+        "backcountry": "yes",
+        "name": "Basin Lake",
+        "operator": "USFS",
+        "toilets": "no",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -121.4414369,
+          46.9535518
         ]
       }
     },
@@ -12140,19 +12167,24 @@
         "@poi": "campsite",
         "@distance": 243.1,
         "@id": "n5082616344",
-        "@changeset": 51764629,
-        "@timestamp": "2017-09-05T22:13:58Z",
-        "@version": 1,
-        "@uid": 2629499,
-        "@user": "ejain",
+        "@changeset": 123291682,
+        "@timestamp": "2022-07-06T20:05:04Z",
+        "@version": 3,
+        "@uid": 182584,
+        "@user": "daugman",
+        "access": "yes",
+        "fee": "yes",
         "name": "Meadows Campground",
         "operator": "Forest Service",
-        "tourism": "camp_site"
+        "payment:cash": "yes",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "water": "no"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -120.6742417,
+          -120.674241,
           48.7082348
         ]
       }
@@ -12163,13 +12195,20 @@
         "@poi": "campsite",
         "@distance": 119.5,
         "@id": "n5082616345",
-        "@changeset": 51764629,
-        "@timestamp": "2017-09-05T22:13:58Z",
-        "@version": 1,
-        "@uid": 2629499,
-        "@user": "ejain",
+        "@changeset": 123291720,
+        "@timestamp": "2022-07-06T20:06:17Z",
+        "@version": 3,
+        "@uid": 182584,
+        "@user": "daugman",
+        "access": "yes",
+        "electricity": "no",
+        "emergency_telephone_code": "no",
+        "fee": "yes",
+        "internet": "no",
         "name": "Harts Pass Campground",
         "operator": "Forest Service",
+        "payment:cash": "yes",
+        "tents": "yes",
         "tourism": "camp_site"
       },
       "geometry": {
@@ -34171,6 +34210,37 @@
         "coordinates": [
           -117.2770038,
           34.2433216
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 1381.6,
+        "@id": "n9847165963",
+        "@changeset": 122852791,
+        "@timestamp": "2022-06-25T23:54:30Z",
+        "@version": 1,
+        "@uid": 1906004,
+        "@user": "Kai Johnson",
+        "camp_site": "basic",
+        "drinking_water": "no",
+        "fee": "no",
+        "impromptu": "yes",
+        "name": "Stockton Flats Yellow Post Sites",
+        "openfire": "permit",
+        "operator": "US Forest Service",
+        "reservation": "no",
+        "toilets": "no",
+        "tourism": "camp_site",
+        "website": "https://www.fs.usda.gov/recarea/sbnf/recarea/?recid=34161"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.5902319,
+          34.2967832
         ]
       }
     }
