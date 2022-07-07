@@ -1,17 +1,18 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-02-06T02:45:03Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-07T03:52:55Z"},
   "elements": [
     {
       "type": "relation",
       "id": 4286650,
-      "timestamp": "2021-05-17T19:33:39Z",
-      "version": 21,
-      "changeset": 104845845,
-      "user": "ECRock",
-      "uid": 809546,
+      "timestamp": "2022-07-06T00:18:46Z",
+      "version": 22,
+      "changeset": 123254587,
+      "user": "bardny",
+      "uid": 11107901,
       "members": [
         {"type": "way", "ref": 372779576, "role": ""},
         {"type": "way", "ref": 372779574, "role": ""},
+        {"type": "way", "ref": 1076212775, "role": ""},
         {"type": "way", "ref": 311586257, "role": ""},
         {"type": "way", "ref": 311586255, "role": ""},
         {"type": "way", "ref": 311586251, "role": ""},
@@ -143,6 +144,35 @@
         "wiki:symbol": "Symbol_Northville-Placid_Trail.svg",
         "wikidata": "Q7059877",
         "wikipedia": "en:Northville-Placid Trail"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1076212775,
+      "timestamp": "2022-07-06T00:18:46Z",
+      "version": 1,
+      "changeset": 123254587,
+      "user": "bardny",
+      "uid": 11107901,
+      "nodes": [9869303732, 212171672],
+      "geometry": [
+        {"lat": 43.2258226, "lon": -74.1723359, "z": 246.4},
+        {"lat": 43.2258912, "lon": -74.1720365, "z": 246.3},
+        {"lat": 43.2259197, "lon": -74.1719122, "z": 246.2}
+      ],
+      "tags": {
+        "abandoned:highway": "primary",
+        "highway": "tertiary",
+        "lanes": "3",
+        "maxspeed": "30 mph",
+        "name": "Bridge Street",
+        "old_ref": "NY 30",
+        "surface": "asphalt",
+        "tiger:cfcc": "A41",
+        "tiger:county": "Fulton, NY",
+        "tiger:name_base": "Bridge",
+        "tiger:name_type": "St",
+        "turn:lanes:forward": "left|right"
       }
     },
     {
@@ -2827,20 +2857,25 @@
     {
       "type": "way",
       "id": 311586257,
-      "timestamp": "2021-05-29T02:47:44Z",
-      "version": 4,
-      "changeset": 105517129,
-      "user": "pokey",
-      "uid": 163396,
-      "nodes": [2461583461, 212171672],
+      "timestamp": "2022-07-06T00:18:46Z",
+      "version": 5,
+      "changeset": 123254587,
+      "user": "bardny",
+      "uid": 11107901,
+      "nodes": [2461583461, 9869303732],
       "geometry": [
         {"lat": 43.2253521, "lon": -74.1761543, "z": 244.3},
+        {"lat": 43.2253902, "lon": -74.1758157, "z": 244.4},
         {"lat": 43.2254031, "lon": -74.1757008, "z": 244.5},
+        {"lat": 43.2254143, "lon": -74.1756004, "z": 244.5},
+        {"lat": 43.2255305, "lon": -74.1745598, "z": 245.4},
         {"lat": 43.2255396, "lon": -74.1744783, "z": 245.5},
+        {"lat": 43.2255506, "lon": -74.1743846, "z": 245.5},
         {"lat": 43.2256795, "lon": -74.1732878, "z": 246.1},
+        {"lat": 43.2256863, "lon": -74.173221, "z": 246.2},
         {"lat": 43.2257204, "lon": -74.1728837, "z": 246.3},
         {"lat": 43.2258073, "lon": -74.1724029, "z": 246.4},
-        {"lat": 43.2259197, "lon": -74.1719122, "z": 246.2}
+        {"lat": 43.2258226, "lon": -74.1723359, "z": 246.4}
       ],
       "tags": {
         "abandoned:highway": "primary",
@@ -8853,14 +8888,15 @@
     {
       "type": "way",
       "id": 372779574,
-      "timestamp": "2015-09-29T01:47:27Z",
-      "version": 1,
-      "changeset": 34316148,
-      "user": "ke9tv",
-      "uid": 591186,
+      "timestamp": "2022-07-06T00:18:46Z",
+      "version": 2,
+      "changeset": 123254587,
+      "user": "bardny",
+      "uid": 11107901,
       "nodes": [3763274863, 212171672],
       "geometry": [
         {"lat": 43.2256082, "lon": -74.1717561, "z": 246},
+        {"lat": 43.225824, "lon": -74.1718642, "z": 246.2},
         {"lat": 43.2259197, "lon": -74.1719122, "z": 246.2}
       ],
       "tags": {
@@ -8879,14 +8915,15 @@
     {
       "type": "way",
       "id": 372779576,
-      "timestamp": "2015-09-29T01:47:27Z",
-      "version": 1,
-      "changeset": 34316148,
-      "user": "ke9tv",
-      "uid": 591186,
+      "timestamp": "2022-07-06T00:18:46Z",
+      "version": 2,
+      "changeset": 123254587,
+      "user": "bardny",
+      "uid": 11107901,
       "nodes": [3763274863, 3763273673],
       "geometry": [
         {"lat": 43.2256082, "lon": -74.1717561, "z": 246},
+        {"lat": 43.2256301, "lon": -74.1716728, "z": 245.7},
         {"lat": 43.2256339, "lon": -74.1716583, "z": 245.7},
         {"lat": 43.2256498, "lon": -74.171598, "z": 245.5}
       ],
