@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-07-06T23:59:59Z",
-    "timestamp_osm_base": "2022-07-07T06:56:24Z",
+    "timestamp_osm_date": "2022-07-07T23:59:59Z",
+    "timestamp_osm_base": "2022-07-08T06:32:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -3322,13 +3322,13 @@
     {
       "type": "node",
       "id": 1598911100,
-      "lat": 49.2995171,
-      "lon": 17.5406679,
-      "timestamp": "2021-12-31T11:52:18Z",
-      "version": 3,
-      "changeset": 115605820,
-      "user": "Milancer",
-      "uid": 1189910,
+      "lat": 49.2995473,
+      "lon": 17.5408186,
+      "timestamp": "2022-07-07T10:53:51Z",
+      "version": 4,
+      "changeset": 123313676,
+      "user": "LeoBardonaro",
+      "uid": 573826,
       "tags": {
         "name": "Ludslavice",
         "name:cs": "Ludslavice",
@@ -11092,17 +11092,18 @@
       "id": 4151022168,
       "lat": 49.1547427,
       "lon": 17.3869417,
-      "timestamp": "2016-04-27T11:05:40Z",
-      "version": 1,
-      "changeset": 38916526,
-      "user": "Mirdak",
-      "uid": 1475545,
+      "timestamp": "2022-07-07T08:56:15Z",
+      "version": 2,
+      "changeset": 123308013,
+      "user": "LeoBardonaro",
+      "uid": 573826,
       "tags": {
         "addr:city": "Jankovice",
         "addr:housenumber": "198",
         "addr:postcode": "68704",
         "addr:street": "Jankovice",
         "name": "Hruška - SMÍŠENÉ ZBOŽÍ - Vojtíková",
+        "operator": "Hruška",
         "shop": "convenience",
         "website": "www.mohruska.cz"
       }
@@ -11697,14 +11698,16 @@
       "id": 5112543112,
       "lat": 49.0684066,
       "lon": 17.4596037,
-      "timestamp": "2021-07-15T16:06:17Z",
-      "version": 4,
-      "changeset": 108063589,
+      "timestamp": "2022-07-07T13:55:12Z",
+      "version": 5,
+      "changeset": 123321975,
       "user": "Jakub Trojan",
       "uid": 273212,
       "tags": {
         "name": "Enfin potraviny",
         "opening_hours": "Mo-Fr 06:30-18:00, Sa 06:30-11:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
         "shop": "convenience",
         "wheelchair": "yes"
       }
@@ -13248,13 +13251,13 @@
     {
       "type": "node",
       "id": 6793640366,
-      "lat": 49.3026354,
-      "lon": 17.5343259,
-      "timestamp": "2019-09-13T17:46:32Z",
-      "version": 1,
-      "changeset": 74449277,
-      "user": "Pontiac_CZ",
-      "uid": 175649,
+      "lat": 49.3026278,
+      "lon": 17.5343059,
+      "timestamp": "2022-07-07T11:12:29Z",
+      "version": 2,
+      "changeset": 123314700,
+      "user": "LeoBardonaro",
+      "uid": 573826,
       "tags": {
         "amenity": "shelter",
         "shelter_type": "picnic_shelter"
@@ -17891,6 +17894,30 @@
     },
     {
       "type": "way",
+      "id": 256027539,
+      "timestamp": "2022-07-07T11:12:29Z",
+      "version": 3,
+      "changeset": 123314700,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.2990899,
+        "lon": 17.540022
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "building:levels": "1",
+        "building:ruian:type": "15",
+        "name": "COOP HB",
+        "operator": "Coop",
+        "ref:ruian:building": "10215301",
+        "shop": "convenience",
+        "source": "cuzk:ruian"
+      }
+    },
+    {
+      "type": "way",
       "id": 256436299,
       "timestamp": "2021-02-24T11:59:22Z",
       "version": 4,
@@ -20842,6 +20869,63 @@
       "center": {
         "lat": 49.230084,
         "lon": 17.2693098
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1076516396,
+      "timestamp": "2022-07-07T08:56:15Z",
+      "version": 1,
+      "changeset": 123308013,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.1496891,
+        "lon": 17.3934102
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1076516400,
+      "timestamp": "2022-07-07T08:56:15Z",
+      "version": 1,
+      "changeset": 123308013,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.1546248,
+        "lon": 17.3867707
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1076516407,
+      "timestamp": "2022-07-07T08:56:15Z",
+      "version": 1,
+      "changeset": 123308013,
+      "user": "LeoBardonaro",
+      "uid": 573826,
+      "center": {
+        "lat": 49.1596923,
+        "lon": 17.3808158
       },
       "nodes": [],
       "tags": {
