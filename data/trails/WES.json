@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-05T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-08T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -3632,18 +3632,22 @@
     {
       "type": "way",
       "id": 1075877987,
-      "timestamp": "2022-07-04T21:00:11Z",
-      "version": 1,
-      "changeset": 123207782,
-      "user": "Karthoo",
-      "uid": 3232636,
+      "timestamp": "2022-07-08T18:06:43Z",
+      "version": 2,
+      "changeset": 123376705,
+      "user": "*abq*",
+      "uid": 3696195,
       "nodes": [2640848645, 321428724],
       "geometry": [
         {"lat": 47.8912564, "lon": 8.0583236},
         {"lat": 47.8909646, "lon": 8.0581028},
         {"lat": 47.8907878, "lon": 8.0579445}
       ],
-      "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade2"}
+      "tags": {
+        "highway": "track",
+        "surface": "compacted",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
@@ -15677,11 +15681,11 @@
     {
       "type": "way",
       "id": 26307979,
-      "timestamp": "2022-07-04T21:00:11Z",
-      "version": 18,
-      "changeset": 123207782,
-      "user": "Karthoo",
-      "uid": 3232636,
+      "timestamp": "2022-07-08T18:06:43Z",
+      "version": 19,
+      "changeset": 123376705,
+      "user": "*abq*",
+      "uid": 3696195,
       "nodes": [478068536, 2640848645],
       "geometry": [
         {"lat": 47.893189, "lon": 8.061212},
@@ -15691,7 +15695,11 @@
         {"lat": 47.8915548, "lon": 8.0586149},
         {"lat": 47.8912564, "lon": 8.0583236}
       ],
-      "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade2"}
+      "tags": {
+        "highway": "track",
+        "surface": "compacted",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
@@ -21414,9 +21422,9 @@
     {
       "type": "way",
       "id": 29223568,
-      "timestamp": "2021-02-15T16:34:58Z",
-      "version": 15,
-      "changeset": 99322633,
+      "timestamp": "2022-07-08T18:06:43Z",
+      "version": 16,
+      "changeset": 123376705,
       "user": "*abq*",
       "uid": 3696195,
       "nodes": [321428724, 1911208784],
@@ -21456,7 +21464,7 @@
         "highway": "track",
         "piste:oneway": "yes",
         "piste:type": "nordic",
-        "surface": "gravel",
+        "surface": "compacted",
         "tracktype": "grade2"
       }
     },
@@ -28007,9 +28015,9 @@
     {
       "type": "way",
       "id": 37386842,
-      "timestamp": "2021-06-21T12:30:50Z",
-      "version": 10,
-      "changeset": 106715619,
+      "timestamp": "2022-07-08T21:05:06Z",
+      "version": 11,
+      "changeset": 123381692,
       "user": "SPG2LD",
       "uid": 2105403,
       "nodes": [4995496315, 728633885],
@@ -28024,6 +28032,7 @@
         {"lat": 48.1429381, "lon": 8.1736624},
         {"lat": 48.1426106, "lon": 8.1735263},
         {"lat": 48.1422818, "lon": 8.1732275},
+        {"lat": 48.142151, "lon": 8.1731967},
         {"lat": 48.1420648, "lon": 8.1731764},
         {"lat": 48.141581, "lon": 8.1731239},
         {"lat": 48.1414756, "lon": 8.1731125},
@@ -40869,9 +40878,9 @@
     {
       "type": "way",
       "id": 59571704,
-      "timestamp": "2021-02-15T17:05:25Z",
-      "version": 8,
-      "changeset": 99324007,
+      "timestamp": "2022-07-08T18:15:23Z",
+      "version": 9,
+      "changeset": 123376992,
       "user": "*abq*",
       "uid": 3696195,
       "nodes": [259834453, 259834428],
@@ -40909,12 +40918,12 @@
         "foot": "yes",
         "highway": "track",
         "incline": "down",
+        "motor_vehicle": "forestry",
         "name": "Lachenrütteweg",
         "piste:oneway": "yes",
         "piste:type": "nordic",
         "surface": "fine_gravel",
         "tracktype": "grade2",
-        "vehicle": "forestry",
         "width": "3"
       }
     },
@@ -46806,11 +46815,11 @@
     {
       "type": "way",
       "id": 837586481,
-      "timestamp": "2022-02-01T17:34:03Z",
-      "version": 2,
-      "changeset": 116878237,
-      "user": "Tannebur",
-      "uid": 14993042,
+      "timestamp": "2022-07-08T18:15:23Z",
+      "version": 3,
+      "changeset": 123376992,
+      "user": "*abq*",
+      "uid": 3696195,
       "nodes": [1409025000, 28795224],
       "geometry": [
         {"lat": 47.8573664, "lon": 8.0718211},
@@ -46831,7 +46840,7 @@
         "foot": "yes",
         "highway": "track",
         "incline": "up",
-        "motor_vehicle": "no",
+        "motor_vehicle": "forestry",
         "mtb:scale": "0",
         "name": "Zweiseenblickweg",
         "surface": "fine_gravel",
