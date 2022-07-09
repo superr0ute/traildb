@@ -1077,12 +1077,13 @@
         "@poi": "foodshop_convenience",
         "@distance": 9794.9,
         "@id": "n399589356",
-        "@changeset": 36893615,
-        "@timestamp": "2016-01-30T07:29:20Z",
-        "@version": 6,
-        "@uid": 227306,
-        "@user": "caminaspe",
+        "@changeset": 123348115,
+        "@timestamp": "2022-07-08T07:37:55Z",
+        "@version": 7,
+        "@uid": 11150450,
+        "@user": "mo465",
         "name": "Epicerie",
+        "opening_hours": "Mo-Su 08:30-19:00",
         "shop": "convenience"
       },
       "geometry": {
@@ -31184,6 +31185,33 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "peak_peak",
+        "@distance": 1069.3,
+        "@id": "n3708102403",
+        "@changeset": 115421310,
+        "@timestamp": "2021-12-27T11:32:41Z",
+        "@version": 3,
+        "@uid": 11725140,
+        "@user": "jmaspons",
+        "ele": 2661.5,
+        "name": "Agulles d'Amitges",
+        "name:ca": "Agulles d'Amitges",
+        "natural": "peak",
+        "source": "Institut Cartogràfic de Catalunya",
+        "wikidata": "Q11904378",
+        "wikipedia": "ca:Agulles d'Amitges"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9844191,
+          42.6031886
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 583.7,
         "@id": "n4874445164",
@@ -35218,33 +35246,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "peak_peak",
-        "@distance": 1069.3,
-        "@id": "n3708102403",
-        "@changeset": 115421310,
-        "@timestamp": "2021-12-27T11:32:41Z",
-        "@version": 3,
-        "@uid": 11725140,
-        "@user": "jmaspons",
-        "ele": 2661.5,
-        "name": "Agulles d'Amitges",
-        "name:ca": "Agulles d'Amitges",
-        "natural": "peak",
-        "source": "Institut Cartogràfic de Catalunya",
-        "wikidata": "Q11904378",
-        "wikipedia": "ca:Agulles d'Amitges"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.9844191,
-          42.6031886
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
         "@distance": 2476.9,
         "@id": "n3708102404",
         "@changeset": 115421310,
@@ -35751,6 +35752,28 @@
         "coordinates": [
           1.1392296,
           42.5771484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 1553.1,
+        "@id": "n4584551650",
+        "@changeset": 90368517,
+        "@timestamp": "2020-09-03T14:42:14Z",
+        "@version": 2,
+        "@uid": 428521,
+        "@user": "janes",
+        "name": "Font",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0726249,
+          42.5974872
         ]
       }
     },
@@ -39440,28 +39463,6 @@
         "coordinates": [
           0.0536217,
           42.661497
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 1553.1,
-        "@id": "n4584551650",
-        "@changeset": 90368517,
-        "@timestamp": "2020-09-03T14:42:14Z",
-        "@version": 2,
-        "@uid": 428521,
-        "@user": "janes",
-        "name": "Font",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.0726249,
-          42.5974872
         ]
       }
     },
@@ -45185,29 +45186,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1354.4,
-        "@id": "w517072913",
-        "@changeset": 51282632,
-        "@timestamp": "2017-08-20T17:53:49Z",
-        "@version": 1,
-        "@uid": 118157,
-        "@user": "Inghuimischar",
-        "amenity": "shelter",
-        "building": "yes",
-        "shelter_type": "weather_shelter"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.6592758,
-          42.8306245
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "alpine-hut",
         "@distance": 25,
         "@id": "w289289283",
@@ -46673,6 +46651,29 @@
         "coordinates": [
           -1.4636434,
           43.0358884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1354.4,
+        "@id": "w517072913",
+        "@changeset": 51282632,
+        "@timestamp": "2017-08-20T17:53:49Z",
+        "@version": 1,
+        "@uid": 118157,
+        "@user": "Inghuimischar",
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "weather_shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6592758,
+          42.8306245
         ]
       }
     },
@@ -52589,9 +52590,9 @@
         "@poi": "foodshop_supermarket",
         "@distance": 9330.1,
         "@id": "n9007181541",
-        "@changeset": 122056324,
-        "@timestamp": "2022-06-07T07:25:38Z",
-        "@version": 3,
+        "@changeset": 123363282,
+        "@timestamp": "2022-07-08T13:15:13Z",
+        "@version": 4,
         "@uid": 2179792,
         "@user": "votre_solution_de_visibilite_digitale_locale",
         "brand": "Biocoop",

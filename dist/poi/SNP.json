@@ -21509,27 +21509,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_spring",
-        "@distance": 105.2,
-        "@id": "n2788745770",
-        "@changeset": 21670330,
-        "@timestamp": "2014-04-13T17:53:41Z",
-        "@version": 1,
-        "@uid": 4815,
-        "@user": "*Martin*",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          20.7986612,
-          48.7300912
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 9103.2,
         "@id": "n1236392783",
@@ -32331,22 +32310,47 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 9654.4,
-        "@id": "n2791299598",
-        "@changeset": 109342557,
-        "@timestamp": "2021-08-08T12:04:47Z",
-        "@version": 4,
-        "@uid": 1944033,
-        "@user": "Dodko",
-        "name": "Fresh",
-        "shop": "convenience"
+        "@poi": "water_spring",
+        "@distance": 105.2,
+        "@id": "n2788745770",
+        "@changeset": 21670330,
+        "@timestamp": "2014-04-13T17:53:41Z",
+        "@version": 1,
+        "@uid": 4815,
+        "@user": "*Martin*",
+        "natural": "spring"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9740889,
-          48.6831022
+          20.7986612,
+          48.7300912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 9651.9,
+        "@id": "n2791299598",
+        "@changeset": 123348906,
+        "@timestamp": "2022-07-08T08:01:37Z",
+        "@version": 5,
+        "@uid": 4887311,
+        "@user": "mapperue",
+        "brand": "Fresh",
+        "brand:wikidata": "Q50737403",
+        "name": "Fresh",
+        "opening_hours": "Mo-Fr 05:30-17:30; Sa 05:30-12:00",
+        "shop": "convenience",
+        "website": "https://www.freshobchod.sk/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9741278,
+          48.6831174
         ]
       }
     },
@@ -32691,22 +32695,27 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 9580.6,
+        "@poi": "foodshop_convenience",
+        "@distance": 9586.3,
         "@id": "n3337470606",
-        "@changeset": 109342557,
-        "@timestamp": "2021-08-08T12:07:25Z",
-        "@version": 3,
-        "@uid": 1944033,
-        "@user": "Dodko",
+        "@changeset": 123348906,
+        "@timestamp": "2022-07-08T08:01:37Z",
+        "@version": 4,
+        "@uid": 4887311,
+        "@user": "mapperue",
+        "brand": "CBA",
+        "brand:wikidata": "Q779845",
         "name": "CBA",
-        "shop": "supermarket"
+        "opening_hours": "Mo-Fr 07:00-18:00; Sa: 07:00-12:00; Su 07:00-11:00",
+        "phone": "+421 905 636 643",
+        "shop": "convenience",
+        "website": "https://www.komfos.sk/potraviny-cba-komfos--a42-68"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.9745812,
-          48.6836909
+          20.9745316,
+          48.6836484
         ]
       }
     },
@@ -70709,20 +70718,29 @@
         "@poi": "foodshop_supermarket",
         "@distance": 4047.6,
         "@id": "w441381323",
-        "@changeset": 123053204,
-        "@timestamp": "2022-06-30T16:41:01Z",
-        "@version": 6,
+        "@changeset": 123381259,
+        "@timestamp": "2022-07-08T20:45:04Z",
+        "@version": 7,
         "@uid": 12921005,
         "@user": "LiJu09",
         "addr:city": "Nová Dubnica",
+        "addr:conscriptionnumber": "992",
+        "addr:country": "SK",
+        "addr:housenumber": "992/6",
+        "addr:postcode": "01851",
+        "addr:street": "Na Hlinách",
+        "addr:streetnumber": "6",
+        "addr:suburb": "Nová Dubnica",
         "brand": "Lidl",
         "brand:wikidata": "Q151954",
         "building": "retail",
         "building:levels": "2",
         "name": "Lidl",
+        "ref:minvskaddress": "7101372014",
         "roof:shape": "pitched",
         "shop": "supermarket",
-        "source": "kapor2"
+        "source": "kapor2",
+        "source:addr": "minvskaddress 2022-07"
       },
       "geometry": {
         "type": "Point",
