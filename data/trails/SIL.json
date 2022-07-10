@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-08T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-09T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2223,9 +2223,9 @@
     {
       "type": "relation",
       "id": 7700285,
-      "timestamp": "2022-04-05T15:23:08Z",
-      "version": 20,
-      "changeset": 119349377,
+      "timestamp": "2022-07-09T16:34:20Z",
+      "version": 21,
+      "changeset": 123406386,
       "user": "Martino Scaglione",
       "uid": 10901495,
       "members": [
@@ -2277,6 +2277,7 @@
         {"type": "way", "ref": 99801818, "role": ""},
         {"type": "way", "ref": 99801815, "role": ""},
         {"type": "way", "ref": 99801829, "role": ""},
+        {"type": "way", "ref": 1077189114, "role": ""},
         {"type": "way", "ref": 99801758, "role": ""},
         {"type": "way", "ref": 99801785, "role": ""},
         {"type": "way", "ref": 980638397, "role": ""},
@@ -7800,6 +7801,25 @@
         "oneway": "yes",
         "surface": "asphalt"
       }
+    },
+    {
+      "type": "way",
+      "id": 1077189114,
+      "timestamp": "2022-07-09T16:34:20Z",
+      "version": 1,
+      "changeset": 123406386,
+      "user": "Martino Scaglione",
+      "uid": 10901495,
+      "nodes": [298246832, 1153687040],
+      "geometry": [
+        {"lat": 46.2085522, "lon": 9.4598101},
+        {"lat": 46.2083948, "lon": 9.4599535},
+        {"lat": 46.2081928, "lon": 9.460099},
+        {"lat": 46.207782, "lon": 9.4603635},
+        {"lat": 46.2077159, "lon": 9.4604065},
+        {"lat": 46.2076827, "lon": 9.4603515}
+      ],
+      "tags": {"highway": "unclassified", "noname": "yes"}
     },
     {
       "type": "way",
@@ -105965,23 +105985,18 @@
     {
       "type": "way",
       "id": 99801758,
-      "timestamp": "2013-04-28T12:49:57Z",
-      "version": 3,
-      "changeset": 15895335,
-      "user": "morsi",
-      "uid": 139580,
-      "nodes": [1153687608, 1153687040],
+      "timestamp": "2022-07-09T16:34:20Z",
+      "version": 4,
+      "changeset": 123406386,
+      "user": "Martino Scaglione",
+      "uid": 10901495,
+      "nodes": [1153687608, 298246832],
       "geometry": [
         {"lat": 46.2085234, "lon": 9.4597423},
         {"lat": 46.2085505, "lon": 9.4597753},
-        {"lat": 46.2085522, "lon": 9.4598101},
-        {"lat": 46.2083948, "lon": 9.4599535},
-        {"lat": 46.2081928, "lon": 9.460099},
-        {"lat": 46.207782, "lon": 9.4603635},
-        {"lat": 46.2077159, "lon": 9.4604065},
-        {"lat": 46.2076827, "lon": 9.4603515}
+        {"lat": 46.2085522, "lon": 9.4598101}
       ],
-      "tags": {"highway": "unclassified", "source": "bing"}
+      "tags": {"highway": "service"}
     },
     {
       "type": "way",
@@ -106043,11 +106058,11 @@
     {
       "type": "way",
       "id": 99801815,
-      "timestamp": "2013-04-28T12:49:57Z",
-      "version": 3,
-      "changeset": 15895335,
-      "user": "morsi",
-      "uid": 139580,
+      "timestamp": "2022-07-09T16:34:20Z",
+      "version": 4,
+      "changeset": 123406386,
+      "user": "Martino Scaglione",
+      "uid": 10901495,
       "nodes": [1153685926, 1153685556],
       "geometry": [
         {"lat": 46.2076197, "lon": 9.4602302},
@@ -106057,7 +106072,7 @@
         {"lat": 46.2072728, "lon": 9.4603375},
         {"lat": 46.2071354, "lon": 9.4603208}
       ],
-      "tags": {"highway": "unclassified", "source": "bing"}
+      "tags": {"highway": "unclassified", "noname": "yes", "source": "bing"}
     },
     {
       "type": "way",
@@ -106086,9 +106101,9 @@
     {
       "type": "way",
       "id": 99801818,
-      "timestamp": "2022-04-05T15:23:08Z",
-      "version": 4,
-      "changeset": 119349377,
+      "timestamp": "2022-07-09T16:34:20Z",
+      "version": 5,
+      "changeset": 123406386,
       "user": "Martino Scaglione",
       "uid": 10901495,
       "nodes": [1153685556, 9643525389],
@@ -106100,6 +106115,7 @@
         "bridge": "yes",
         "highway": "unclassified",
         "layer": "1",
+        "noname": "yes",
         "source": "bing"
       }
     },
@@ -106134,17 +106150,22 @@
     {
       "type": "way",
       "id": 99801829,
-      "timestamp": "2013-04-28T12:49:56Z",
-      "version": 2,
-      "changeset": 15895335,
-      "user": "morsi",
-      "uid": 139580,
+      "timestamp": "2022-07-09T16:34:20Z",
+      "version": 3,
+      "changeset": 123406386,
+      "user": "Martino Scaglione",
+      "uid": 10901495,
       "nodes": [1153687040, 1153685926],
       "geometry": [
         {"lat": 46.2076827, "lon": 9.4603515},
         {"lat": 46.2076197, "lon": 9.4602302}
       ],
-      "tags": {"highway": "unclassified", "layer": "-1", "tunnel": "yes"}
+      "tags": {
+        "highway": "unclassified",
+        "layer": "-1",
+        "noname": "yes",
+        "tunnel": "yes"
+      }
     },
     {
       "type": "way",
