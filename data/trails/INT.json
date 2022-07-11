@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-08T03:45:08Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-11T03:34:23Z"},
   "elements": [
     {
       "type": "relation",
       "id": 282071,
-      "timestamp": "2022-06-23T14:37:53Z",
-      "version": 1806,
-      "changeset": 122763314,
+      "timestamp": "2022-07-10T21:24:25Z",
+      "version": 1808,
+      "changeset": 123447795,
       "user": "hatul",
       "uid": 686490,
       "members": [
@@ -899,11 +899,6 @@
         {"type": "way", "ref": 979870407, "role": ""},
         {"type": "way", "ref": 30780427, "role": ""},
         {"type": "way", "ref": 60954179, "role": ""},
-        {"type": "way", "ref": 104702322, "role": ""},
-        {"type": "way", "ref": 104702330, "role": ""},
-        {"type": "way", "ref": 172796214, "role": ""},
-        {"type": "way", "ref": 104702332, "role": ""},
-        {"type": "way", "ref": 963301168, "role": ""},
         {"type": "way", "ref": 344407790, "role": ""},
         {"type": "way", "ref": 98819432, "role": ""},
         {"type": "way", "ref": 98819433, "role": ""},
@@ -2116,7 +2111,13 @@
         {"type": "way", "ref": 211454871, "role": ""},
         {"type": "way", "ref": 640825096, "role": ""},
         {"type": "way", "ref": 61294952, "role": ""},
-        {"type": "way", "ref": 44181790, "role": ""}
+        {"type": "way", "ref": 44181790, "role": ""},
+        {"type": "way", "ref": 104702331, "role": ""},
+        {"type": "way", "ref": 104702326, "role": ""},
+        {"type": "way", "ref": 30780582, "role": ""},
+        {"type": "way", "ref": 1077530080, "role": ""},
+        {"type": "way", "ref": 104702332, "role": ""},
+        {"type": "way", "ref": 963301168, "role": ""}
       ],
       "tags": {
         "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/PikiWiki_Israel_12132_Geography_of_Israel.jpg",
@@ -4803,39 +4804,50 @@
     },
     {
       "type": "way",
-      "id": 104702322,
-      "timestamp": "2021-07-04T09:06:38Z",
-      "version": 12,
-      "changeset": 107381162,
-      "user": "hatul",
-      "uid": 686490,
-      "nodes": [340378253, 1207717557],
+      "id": 104702326,
+      "timestamp": "2022-07-10T19:36:30Z",
+      "version": 3,
+      "changeset": 123444903,
+      "user": "Ilya Kogan",
+      "uid": 280322,
+      "nodes": [1207717623, 1207717630],
       "geometry": [
-        {"lat": 32.0968124, "lon": 34.7842268, "z": 7},
-        {"lat": 32.0968197, "lon": 34.7864069, "z": 4},
-        {"lat": 32.0968337, "lon": 34.7864953, "z": 4},
-        {"lat": 32.0971085, "lon": 34.7882304, "z": 4.9}
+        {"lat": 32.0972118, "lon": 34.788219, "z": 5},
+        {"lat": 32.0971974, "lon": 34.7881255, "z": 5.2}
       ],
-      "tags": {"foot": "yes", "highway": "track", "surface": "asphalt"}
+      "tags": {
+        "bicycle": "designated",
+        "bridge": "yes",
+        "foot": "designated",
+        "highway": "cycleway",
+        "segregated": "yes",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
-      "id": 104702330,
-      "timestamp": "2020-05-18T13:19:02Z",
-      "version": 4,
-      "changeset": 85386514,
-      "user": "zstadler",
-      "uid": 3127,
-      "nodes": [1207717557, 1207717610],
+      "id": 104702331,
+      "timestamp": "2022-07-10T19:36:30Z",
+      "version": 9,
+      "changeset": 123444903,
+      "user": "Ilya Kogan",
+      "uid": 280322,
+      "nodes": [1207717630, 340378253],
       "geometry": [
-        {"lat": 32.0971085, "lon": 34.7882304, "z": 4.9},
-        {"lat": 32.0971216, "lon": 34.788313, "z": 4.7}
+        {"lat": 32.0971974, "lon": 34.7881255, "z": 5.2},
+        {"lat": 32.0970461, "lon": 34.7871485, "z": 6.3},
+        {"lat": 32.0968549, "lon": 34.7865236, "z": 4.2},
+        {"lat": 32.0968472, "lon": 34.7864892, "z": 4.1},
+        {"lat": 32.0968383, "lon": 34.7864487, "z": 4},
+        {"lat": 32.0968312, "lon": 34.7863162, "z": 4},
+        {"lat": 32.0968229, "lon": 34.7842522, "z": 7},
+        {"lat": 32.0968124, "lon": 34.7842268, "z": 7}
       ],
       "tags": {
-        "bridge": "yes",
-        "cycleway": "track",
-        "foot": "yes",
-        "highway": "footway",
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "segregated": "yes",
         "surface": "asphalt"
       }
     },
@@ -5592,6 +5604,27 @@
         "highway": "path",
         "layer": "-1",
         "tunnel": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077530080,
+      "timestamp": "2022-07-10T21:24:25Z",
+      "version": 1,
+      "changeset": 123447795,
+      "user": "hatul",
+      "uid": 686490,
+      "nodes": [340378133, 1836491196],
+      "geometry": [
+        {"lat": 32.0980565, "lon": 34.7931929, "z": 2.8},
+        {"lat": 32.0980272, "lon": 34.7932341, "z": 2.5},
+        {"lat": 32.0980005, "lon": 34.7932724, "z": 2.3},
+        {"lat": 32.0979768, "lon": 34.7933781, "z": 2}
+      ],
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway"
       }
     },
     {
@@ -6710,11 +6743,11 @@
     {
       "type": "way",
       "id": 131670995,
-      "timestamp": "2020-05-18T13:19:02Z",
-      "version": 12,
-      "changeset": 85386514,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-07-10T19:43:30Z",
+      "version": 13,
+      "changeset": 123445063,
+      "user": "Ilya Kogan",
+      "uid": 280322,
       "nodes": [340374771, 679321465],
       "geometry": [
         {"lat": 32.1025724, "lon": 34.7775157, "z": 3.1},
@@ -6732,8 +6765,10 @@
       "tags": {
         "bicycle": "designated",
         "foot": "designated",
-        "highway": "path",
-        "segregated": "yes"
+        "highway": "cycleway",
+        "oneway": "no",
+        "segregated": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -8124,26 +8159,6 @@
         {"lat": 31.6833415, "lon": 34.9815857, "z": 281.6}
       ],
       "tags": {"highway": "track"}
-    },
-    {
-      "type": "way",
-      "id": 172796214,
-      "timestamp": "2020-05-18T13:19:02Z",
-      "version": 9,
-      "changeset": 85386514,
-      "user": "zstadler",
-      "uid": 3127,
-      "nodes": [1836491196, 1207717610],
-      "geometry": [
-        {"lat": 32.0979768, "lon": 34.7933781, "z": 2},
-        {"lat": 32.0979566, "lon": 34.7931253, "z": 2.7},
-        {"lat": 32.0976934, "lon": 34.7918527, "z": 3.9},
-        {"lat": 32.0973494, "lon": 34.7904184, "z": 1.9},
-        {"lat": 32.0971533, "lon": 34.7885863, "z": 3.9},
-        {"lat": 32.0971339, "lon": 34.7884054, "z": 4.4},
-        {"lat": 32.0971216, "lon": 34.788313, "z": 4.7}
-      ],
-      "tags": {"highway": "track", "surface": "asphalt"}
     },
     {
       "type": "way",
@@ -21520,11 +21535,11 @@
     {
       "type": "way",
       "id": 30779779,
-      "timestamp": "2020-05-18T13:19:00Z",
-      "version": 16,
-      "changeset": 85386514,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-07-10T19:43:30Z",
+      "version": 17,
+      "changeset": 123445063,
+      "user": "Ilya Kogan",
+      "uid": 280322,
       "nodes": [340374772, 340374774],
       "geometry": [
         {"lat": 32.1025111, "lon": 34.7774192, "z": 3.2},
@@ -21532,32 +21547,41 @@
         {"lat": 32.1018494, "lon": 34.7763812, "z": 4.8}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "designated",
         "bridge": "yes",
-        "highway": "path",
+        "foot": "designated",
+        "highway": "cycleway",
         "layer": "1",
         "motor_vehicle": "no",
         "name": "גשר רדינג ווקופ",
         "name:en": "Reading Wokop",
         "name:he": "גשר רדינג ווקופ",
+        "oneway": "no",
+        "segregated": "yes",
         "surface": "wood"
       }
     },
     {
       "type": "way",
       "id": 30779826,
-      "timestamp": "2017-03-19T10:30:56Z",
-      "version": 8,
-      "changeset": 46976560,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-07-10T19:43:30Z",
+      "version": 9,
+      "changeset": 123445063,
+      "user": "Ilya Kogan",
+      "uid": 280322,
       "nodes": [340374772, 340374771],
       "geometry": [
         {"lat": 32.1025111, "lon": 34.7774192, "z": 3.2},
         {"lat": 32.1025483, "lon": 34.7774798, "z": 3.1},
         {"lat": 32.1025724, "lon": 34.7775157, "z": 3.1}
       ],
-      "tags": {"bicycle": "yes", "highway": "path"}
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "oneway": "no",
+        "segregated": "yes"
+      }
     },
     {
       "type": "way",
@@ -21622,6 +21646,33 @@
         {"lat": 32.0992105, "lon": 34.7772502, "z": 4.8}
       ],
       "tags": {"bicycle": "yes", "highway": "path", "surface": "paving_stones"}
+    },
+    {
+      "type": "way",
+      "id": 30780582,
+      "timestamp": "2022-07-10T19:36:30Z",
+      "version": 12,
+      "changeset": 123444903,
+      "user": "Ilya Kogan",
+      "uid": 280322,
+      "nodes": [340378133, 1207717623],
+      "geometry": [
+        {"lat": 32.0980565, "lon": 34.7931929, "z": 2.8},
+        {"lat": 32.0979912, "lon": 34.7929237, "z": 3.3},
+        {"lat": 32.0977864, "lon": 34.7918204, "z": 3.8},
+        {"lat": 32.0974446, "lon": 34.7903956, "z": 1.7},
+        {"lat": 32.0973467, "lon": 34.7894715, "z": 1.8},
+        {"lat": 32.097252, "lon": 34.7885766, "z": 3.9},
+        {"lat": 32.0972192, "lon": 34.788267, "z": 4.8},
+        {"lat": 32.0972118, "lon": 34.788219, "z": 5}
+      ],
+      "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
+        "highway": "cycleway",
+        "segregated": "yes",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -31023,11 +31074,11 @@
     {
       "type": "way",
       "id": 41698487,
-      "timestamp": "2022-06-26T16:24:02Z",
-      "version": 26,
-      "changeset": 122873753,
-      "user": "VELOCITY_club",
-      "uid": 5556216,
+      "timestamp": "2022-07-10T19:43:30Z",
+      "version": 27,
+      "changeset": 123445063,
+      "user": "Ilya Kogan",
+      "uid": 280322,
       "nodes": [1747121248, 513063432],
       "geometry": [
         {"lat": 32.1220255, "lon": 34.7832482, "z": 3.7},
@@ -31090,17 +31141,18 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway",
+        "oneway": "no",
         "segregated": "yes"
       }
     },
     {
       "type": "way",
       "id": 41698529,
-      "timestamp": "2020-05-18T13:19:00Z",
-      "version": 16,
-      "changeset": 85386514,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-07-10T19:43:30Z",
+      "version": 17,
+      "changeset": 123445063,
+      "user": "Ilya Kogan",
+      "uid": 280322,
       "nodes": [513063432, 679321465],
       "geometry": [
         {"lat": 32.1068492, "lon": 34.7767933, "z": 2.4},
@@ -31119,7 +31171,8 @@
         "foot": "designated",
         "highway": "path",
         "layer": "1",
-        "segregated": "no",
+        "oneway": "no",
+        "segregated": "yes",
         "surface": "wood"
       }
     },
@@ -66013,11 +66066,11 @@
     {
       "type": "way",
       "id": 77885187,
-      "timestamp": "2020-05-18T13:19:02Z",
-      "version": 8,
-      "changeset": 85386514,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-07-10T19:30:57Z",
+      "version": 9,
+      "changeset": 123444750,
+      "user": "Ilya Kogan",
+      "uid": 280322,
       "nodes": [358530898, 1207693392],
       "geometry": [
         {"lat": 32.099565, "lon": 34.808253, "z": 8.3},
@@ -66025,7 +66078,7 @@
         {"lat": 32.0996013, "lon": 34.8076983, "z": 10}
       ],
       "tags": {
-        "bicycle": "yes",
+        "bicycle": "no",
         "cycleway": "track",
         "foot": "yes",
         "highway": "path",

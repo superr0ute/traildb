@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-07T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-10T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1717,11 +1717,11 @@
     {
       "type": "relation",
       "id": 12136119,
-      "timestamp": "2021-08-28T08:33:59Z",
-      "version": 6,
-      "changeset": 110370888,
-      "user": "Curieux de découvertes",
-      "uid": 7570173,
+      "timestamp": "2022-07-10T05:40:16Z",
+      "version": 7,
+      "changeset": 123419982,
+      "user": "Martj9",
+      "uid": 675302,
       "members": [
         {"type": "node", "ref": 3043359929, "role": ""},
         {"type": "way", "ref": 39672225, "role": ""},
@@ -1741,6 +1741,7 @@
         {"type": "way", "ref": 37949931, "role": ""},
         {"type": "way", "ref": 902344372, "role": ""},
         {"type": "way", "ref": 24987005, "role": ""},
+        {"type": "way", "ref": 1077364243, "role": ""},
         {"type": "way", "ref": 24987010, "role": ""},
         {"type": "way", "ref": 788106757, "role": ""},
         {"type": "way", "ref": 902344371, "role": ""},
@@ -7171,6 +7172,29 @@
         "sac_scale": "mountain_hiking",
         "surface": "dirt",
         "trail_visibility": "good"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077364243,
+      "timestamp": "2022-07-10T05:40:16Z",
+      "version": 1,
+      "changeset": 123419982,
+      "user": "Martj9",
+      "uid": 675302,
+      "nodes": [271627888, 9042447716],
+      "geometry": [
+        {"lat": 45.2225769, "lon": 6.9402842},
+        {"lat": 45.2225777, "lon": 6.9404215}
+      ],
+      "tags": {
+        "highway": "track",
+        "incline": "down",
+        "motor_vehicle": "no",
+        "smoothness": "bad",
+        "surface": "gravel",
+        "tracktype": "grade2",
+        "width": "3"
       }
     },
     {
@@ -44497,14 +44521,13 @@
     {
       "type": "way",
       "id": 24987005,
-      "timestamp": "2021-08-28T08:33:59Z",
-      "version": 15,
-      "changeset": 110370888,
-      "user": "Curieux de découvertes",
-      "uid": 7570173,
-      "nodes": [271627888, 271627898],
+      "timestamp": "2022-07-10T05:40:16Z",
+      "version": 16,
+      "changeset": 123419982,
+      "user": "Martj9",
+      "uid": 675302,
+      "nodes": [9042447716, 271627898],
       "geometry": [
-        {"lat": 45.2225769, "lon": 6.9402842},
         {"lat": 45.2225777, "lon": 6.9404215},
         {"lat": 45.2225783, "lon": 6.9405356},
         {"lat": 45.2225655, "lon": 6.9406984},
@@ -44543,11 +44566,11 @@
     {
       "type": "way",
       "id": 24987010,
-      "timestamp": "2022-01-12T21:23:27Z",
-      "version": 18,
-      "changeset": 116083187,
-      "user": "Danalieth73",
-      "uid": 4970229,
+      "timestamp": "2022-07-10T08:20:56Z",
+      "version": 19,
+      "changeset": 123423355,
+      "user": "Martj9",
+      "uid": 675302,
       "nodes": [271627888, 7368389403],
       "geometry": [
         {"lat": 45.2225769, "lon": 6.9402842},
@@ -44661,7 +44684,6 @@
         "foot": "yes",
         "highway": "track",
         "motor_vehicle": "no",
-        "name": "Route interdite à la circulation (juin 2021)",
         "smoothness": "bad",
         "surface": "gravel",
         "tracktype": "grade2",
@@ -69574,9 +69596,9 @@
     {
       "type": "way",
       "id": 468264643,
-      "timestamp": "2021-10-25T10:31:30Z",
-      "version": 4,
-      "changeset": 112940253,
+      "timestamp": "2022-07-10T08:20:56Z",
+      "version": 5,
+      "changeset": 123423355,
       "user": "Martj9",
       "uid": 675302,
       "nodes": [4628068674, 476527357],
@@ -69696,7 +69718,6 @@
         "foot": "yes",
         "highway": "track",
         "motor_vehicle": "no",
-        "name": "Route interdite à la circulation (juin 2021)",
         "smoothness": "bad",
         "surface": "gravel",
         "tracktype": "grade2",
