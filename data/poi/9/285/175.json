@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-07-09T23:59:59Z",
-    "timestamp_osm_base": "2022-07-10T06:20:55Z",
+    "timestamp_osm_date": "2022-07-10T23:59:59Z",
+    "timestamp_osm_base": "2022-07-11T06:52:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -5990,20 +5990,21 @@
     {
       "type": "node",
       "id": 1423356393,
-      "lat": 49.0383677,
-      "lon": 20.943262,
-      "timestamp": "2021-03-30T13:37:27Z",
-      "version": 4,
-      "changeset": 101989601,
-      "user": "Jany48",
-      "uid": 2038836,
+      "lat": 49.0383778,
+      "lon": 20.943258,
+      "timestamp": "2022-07-10T10:34:21Z",
+      "version": 5,
+      "changeset": 123426916,
+      "user": "*Martin*",
+      "uid": 4815,
       "tags": {
-        "amenity": "shelter",
+        "drinking_water": "yes",
         "ele": "506.0",
         "import_ref": "mp2002",
         "name": "Sultánka",
         "natural": "spring",
         "ref": "PV-74",
+        "refitted": "yes",
         "sazp:type": "spring",
         "shelter": "yes",
         "source": "survey;SAZP",
@@ -10414,20 +10415,6 @@
     },
     {
       "type": "node",
-      "id": 3138257318,
-      "lat": 49.2056647,
-      "lon": 20.6819168,
-      "timestamp": "2020-12-13T19:29:03Z",
-      "version": 2,
-      "changeset": 95768285,
-      "user": "menganito",
-      "uid": 11199632,
-      "tags": {
-        "amenity": "shelter"
-      }
-    },
-    {
-      "type": "node",
       "id": 3138273399,
       "lat": 49.1906408,
       "lon": 20.5362009,
@@ -12189,20 +12176,6 @@
       "tags": {
         "natural": "spring",
         "refitted": "yes"
-      }
-    },
-    {
-      "type": "node",
-      "id": 3428529030,
-      "lat": 49.0820207,
-      "lon": 20.5620881,
-      "timestamp": "2022-02-06T09:16:56Z",
-      "version": 2,
-      "changeset": 117069339,
-      "user": "*Martin*",
-      "uid": 4815,
-      "tags": {
-        "amenity": "shelter"
       }
     },
     {
@@ -15680,20 +15653,6 @@
     },
     {
       "type": "node",
-      "id": 7975731953,
-      "lat": 49.0463398,
-      "lon": 20.8714297,
-      "timestamp": "2020-10-05T06:29:40Z",
-      "version": 1,
-      "changeset": 91961244,
-      "user": "menganito",
-      "uid": 11199632,
-      "tags": {
-        "amenity": "shelter"
-      }
-    },
-    {
-      "type": "node",
       "id": 8000875085,
       "lat": 48.9546571,
       "lon": 20.5372553,
@@ -16092,13 +16051,14 @@
       "id": 8130582561,
       "lat": 49.1101508,
       "lon": 20.9754459,
-      "timestamp": "2020-11-17T17:10:24Z",
-      "version": 1,
-      "changeset": 94294140,
-      "user": "menganito",
-      "uid": 11199632,
+      "timestamp": "2022-07-10T10:34:21Z",
+      "version": 2,
+      "changeset": 123426916,
+      "user": "*Martin*",
+      "uid": 4815,
       "tags": {
-        "amenity": "shelter"
+        "amenity": "shelter",
+        "shelter_type": "lean_to"
       }
     },
     {
@@ -16121,20 +16081,6 @@
       "id": 8130582600,
       "lat": 49.1098115,
       "lon": 21.0132313,
-      "timestamp": "2020-11-17T17:10:24Z",
-      "version": 1,
-      "changeset": 94294140,
-      "user": "menganito",
-      "uid": 11199632,
-      "tags": {
-        "amenity": "shelter"
-      }
-    },
-    {
-      "type": "node",
-      "id": 8130582603,
-      "lat": 49.1139801,
-      "lon": 21.0172099,
       "timestamp": "2020-11-17T17:10:24Z",
       "version": 1,
       "changeset": 94294140,
@@ -18060,11 +18006,11 @@
     {
       "type": "way",
       "id": 68916334,
-      "timestamp": "2016-09-26T10:22:04Z",
-      "version": 3,
-      "changeset": 42441395,
-      "user": "kaporskaddress_bot",
-      "uid": 3081077,
+      "timestamp": "2022-07-10T10:34:21Z",
+      "version": 4,
+      "changeset": 123426916,
+      "user": "*Martin*",
+      "uid": 4815,
       "center": {
         "lat": 49.0066729,
         "lon": 20.7312733
@@ -18079,6 +18025,7 @@
         "amenity": "shelter",
         "building": "yes",
         "import": "budovy201004",
+        "shelter_type": "gazebo",
         "source": "kapor2",
         "source:conscriptionnumber": "kapor2"
       }
@@ -18379,6 +18326,26 @@
       "tags": {
         "amenity": "shelter",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 279710376,
+      "timestamp": "2022-07-10T10:34:21Z",
+      "version": 2,
+      "changeset": 123426916,
+      "user": "*Martin*",
+      "uid": 4815,
+      "center": {
+        "lat": 49.0383778,
+        "lon": 20.943256
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "roof",
+        "shelter_type": "weather_shelter",
+        "source": "kapor2"
       }
     },
     {
@@ -18957,19 +18924,20 @@
     {
       "type": "way",
       "id": 738351240,
-      "timestamp": "2019-10-24T20:13:50Z",
-      "version": 1,
-      "changeset": 76173352,
+      "timestamp": "2022-07-10T10:34:21Z",
+      "version": 2,
+      "changeset": 123426916,
       "user": "*Martin*",
       "uid": 4815,
       "center": {
-        "lat": 49.1566888,
-        "lon": 20.8095081
+        "lat": 49.1567011,
+        "lon": 20.8095202
       },
       "nodes": [],
       "tags": {
         "amenity": "shelter",
-        "building": "hut"
+        "building": "hut",
+        "shelter_type": "basic_hut"
       }
     },
     {
@@ -19020,27 +18988,6 @@
         "bench": "yes",
         "bin": "yes",
         "building": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 810025820,
-      "timestamp": "2021-03-28T20:23:28Z",
-      "version": 2,
-      "changeset": 101888566,
-      "user": "menganito",
-      "uid": 11199632,
-      "center": {
-        "lat": 49.2946466,
-        "lon": 20.5141349
-      },
-      "nodes": [],
-      "tags": {
-        "amenity": "shelter",
-        "bench": "yes",
-        "building": "yes",
-        "name": "Ferova búda",
-        "operator": "LO javor podolinec"
       }
     },
     {
@@ -19104,30 +19051,31 @@
     {
       "type": "way",
       "id": 855255695,
-      "timestamp": "2020-10-05T06:29:40Z",
-      "version": 1,
-      "changeset": 91961244,
-      "user": "menganito",
-      "uid": 11199632,
+      "timestamp": "2022-07-10T10:34:21Z",
+      "version": 2,
+      "changeset": 123426916,
+      "user": "*Martin*",
+      "uid": 4815,
       "center": {
-        "lat": 49.0464187,
-        "lon": 20.8715627
+        "lat": 49.0464178,
+        "lon": 20.8716049
       },
       "nodes": [],
       "tags": {
         "amenity": "shelter",
         "building": "yes",
-        "name": "Útulňa Vresovianka"
+        "name": "Útulňa Vresovianka",
+        "shelter_type": "basic_hut"
       }
     },
     {
       "type": "way",
       "id": 873147999,
-      "timestamp": "2020-11-17T17:34:22Z",
-      "version": 1,
-      "changeset": 94295756,
-      "user": "menganito",
-      "uid": 11199632,
+      "timestamp": "2022-07-10T13:21:39Z",
+      "version": 2,
+      "changeset": 123432243,
+      "user": "*Martin*",
+      "uid": 4815,
       "center": {
         "lat": 49.3038464,
         "lon": 20.5571034
@@ -19135,18 +19083,19 @@
       "nodes": [],
       "tags": {
         "amenity": "shelter",
-        "building": "yes",
-        "layer": "1"
+        "building": "roof",
+        "layer": "1",
+        "shelter_type": "spring_shelter"
       }
     },
     {
       "type": "way",
       "id": 876053323,
-      "timestamp": "2020-11-23T08:19:19Z",
-      "version": 1,
-      "changeset": 94621714,
-      "user": "menganito",
-      "uid": 11199632,
+      "timestamp": "2022-07-10T10:34:21Z",
+      "version": 2,
+      "changeset": 123426916,
+      "user": "*Martin*",
+      "uid": 4815,
       "center": {
         "lat": 49.0937854,
         "lon": 20.9642905
@@ -19154,17 +19103,18 @@
       "nodes": [],
       "tags": {
         "amenity": "shelter",
-        "building": "yes"
+        "building": "yes",
+        "shelter_type": "picnic_shelter"
       }
     },
     {
       "type": "way",
       "id": 884637544,
-      "timestamp": "2020-12-14T07:48:11Z",
-      "version": 1,
-      "changeset": 95791049,
-      "user": "menganito",
-      "uid": 11199632,
+      "timestamp": "2022-07-10T10:34:21Z",
+      "version": 2,
+      "changeset": 123426916,
+      "user": "*Martin*",
+      "uid": 4815,
       "center": {
         "lat": 49.1737336,
         "lon": 20.6388858
@@ -19172,7 +19122,8 @@
       "nodes": [],
       "tags": {
         "amenity": "shelter",
-        "building": "yes"
+        "building": "yes",
+        "shelter_type": "picnic_shelter"
       }
     },
     {
@@ -20088,6 +20039,25 @@
     },
     {
       "type": "way",
+      "id": 1028590983,
+      "timestamp": "2022-07-10T10:34:21Z",
+      "version": 2,
+      "changeset": 123426916,
+      "user": "*Martin*",
+      "uid": 4815,
+      "center": {
+        "lat": 49.0820173,
+        "lon": 20.5620788
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "roof",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
       "id": 1034910754,
       "timestamp": "2022-02-24T21:00:22Z",
       "version": 1,
@@ -20129,11 +20099,11 @@
     {
       "type": "way",
       "id": 1037395192,
-      "timestamp": "2022-03-05T18:26:27Z",
-      "version": 1,
-      "changeset": 118136426,
-      "user": "menganito",
-      "uid": 11199632,
+      "timestamp": "2022-07-10T10:34:21Z",
+      "version": 2,
+      "changeset": 123426916,
+      "user": "*Martin*",
+      "uid": 4815,
       "center": {
         "lat": 49.2126838,
         "lon": 20.6811123
@@ -20141,7 +20111,8 @@
       "nodes": [],
       "tags": {
         "amenity": "shelter",
-        "building": "yes"
+        "building": "hut",
+        "shelter_type": "basic_hut"
       }
     },
     {
@@ -20322,6 +20293,44 @@
         "amenity": "shelter",
         "building": "yes",
         "fireplace": "yes",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077397749,
+      "timestamp": "2022-07-10T10:34:21Z",
+      "version": 1,
+      "changeset": 123426916,
+      "user": "*Martin*",
+      "uid": 4815,
+      "center": {
+        "lat": 49.2056649,
+        "lon": 20.6819153
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "hut",
+        "shelter_type": "basic_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077401128,
+      "timestamp": "2022-07-10T10:50:34Z",
+      "version": 1,
+      "changeset": 123426916,
+      "user": "*Martin*",
+      "uid": 4815,
+      "center": {
+        "lat": 49.0463473,
+        "lon": 20.8714484
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "roof",
         "shelter_type": "picnic_shelter"
       }
     }
