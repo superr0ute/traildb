@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-06T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-11T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 12038457,
-      "timestamp": "2022-06-28T05:37:55Z",
-      "version": 169,
-      "changeset": 122937370,
-      "user": "sssmc",
-      "uid": 3365078,
+      "timestamp": "2022-07-11T16:44:10Z",
+      "version": 170,
+      "changeset": 123483519,
+      "user": "Solarisphere",
+      "uid": 8285516,
       "members": [
         {"type": "way", "ref": 434320517, "role": "terminus"},
         {"type": "way", "ref": 434320516, "role": ""},
@@ -198,6 +198,8 @@
         {"type": "way", "ref": 886600226, "role": ""},
         {"type": "way", "ref": 886600227, "role": ""},
         {"type": "way", "ref": 339852002, "role": ""},
+        {"type": "way", "ref": 1077736514, "role": ""},
+        {"type": "way", "ref": 1077736515, "role": ""},
         {"type": "way", "ref": 339851799, "role": ""},
         {"type": "way", "ref": 980727314, "role": ""},
         {"type": "way", "ref": 886599247, "role": ""},
@@ -2534,6 +2536,53 @@
         {"lat": 48.4319978, "lon": -123.3776707}
       ],
       "tags": {"footway": "sidewalk", "highway": "footway"}
+    },
+    {
+      "type": "way",
+      "id": 1077736514,
+      "timestamp": "2022-07-11T16:44:10Z",
+      "version": 1,
+      "changeset": 123483519,
+      "user": "Solarisphere",
+      "uid": 8285516,
+      "nodes": [1878916357, 3470636391],
+      "geometry": [
+        {"lat": 49.6526754, "lon": -125.1376989},
+        {"lat": 49.652624, "lon": -125.137462},
+        {"lat": 49.6525784, "lon": -125.1372887}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "horse": "no",
+        "name": "Cabin Fever",
+        "surface": "ground",
+        "width": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077736515,
+      "timestamp": "2022-07-11T16:44:10Z",
+      "version": 1,
+      "changeset": 123483519,
+      "user": "Solarisphere",
+      "uid": 8285516,
+      "nodes": [3701719073, 1878916357],
+      "geometry": [
+        {"lat": 49.6526163, "lon": -125.1380626},
+        {"lat": 49.6526754, "lon": -125.1376989}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "horse": "no",
+        "name": "Cabin Fever",
+        "surface": "ground",
+        "width": "1"
+      }
     },
     {
       "type": "way",
@@ -10765,12 +10814,12 @@
     {
       "type": "way",
       "id": 339852002,
-      "timestamp": "2022-03-26T23:27:03Z",
-      "version": 5,
-      "changeset": 118965425,
-      "user": "TeLewis",
-      "uid": 10135746,
-      "nodes": [1895084958, 3470636391],
+      "timestamp": "2022-07-11T16:44:10Z",
+      "version": 6,
+      "changeset": 123483519,
+      "user": "Solarisphere",
+      "uid": 8285516,
+      "nodes": [1895084958, 3701719073],
       "geometry": [
         {"lat": 49.6562132, "lon": -125.1437142},
         {"lat": 49.6562857, "lon": -125.1432704},
@@ -10812,10 +10861,7 @@
         {"lat": 49.65281, "lon": -125.138464},
         {"lat": 49.652758, "lon": -125.138369},
         {"lat": 49.652694, "lon": -125.138174},
-        {"lat": 49.6526163, "lon": -125.1380626},
-        {"lat": 49.6526754, "lon": -125.1376989},
-        {"lat": 49.652624, "lon": -125.137462},
-        {"lat": 49.6525784, "lon": -125.1372887}
+        {"lat": 49.6526163, "lon": -125.1380626}
       ],
       "tags": {
         "bicycle": "yes",
@@ -29848,11 +29894,11 @@
     {
       "type": "way",
       "id": 889074343,
-      "timestamp": "2022-03-26T22:29:58Z",
-      "version": 3,
-      "changeset": 118964506,
-      "user": "TeLewis",
-      "uid": 10135746,
+      "timestamp": "2022-07-11T19:35:17Z",
+      "version": 4,
+      "changeset": 123489372,
+      "user": "Solarisphere",
+      "uid": 8285516,
       "nodes": [3128712958, 8265594805],
       "geometry": [
         {"lat": 49.3983251, "lon": -124.9146832},
@@ -30025,6 +30071,7 @@
         {"lat": 49.42155, "lon": -124.91865},
         {"lat": 49.42175, "lon": -124.9187},
         {"lat": 49.421983, "lon": -124.918467},
+        {"lat": 49.4222372, "lon": -124.9183214},
         {"lat": 49.422568, "lon": -124.918317},
         {"lat": 49.422773, "lon": -124.918153},
         {"lat": 49.42294, "lon": -124.917846},

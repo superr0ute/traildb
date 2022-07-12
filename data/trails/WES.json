@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-10T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-11T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1085,9 +1085,9 @@
     {
       "type": "relation",
       "id": 62897,
-      "timestamp": "2022-07-04T21:00:11Z",
-      "version": 220,
-      "changeset": 123207782,
+      "timestamp": "2022-07-11T18:36:37Z",
+      "version": 221,
+      "changeset": 123487415,
       "user": "Karthoo",
       "uid": 3232636,
       "members": [
@@ -1325,6 +1325,7 @@
         {"type": "way", "ref": 135295234, "role": ""},
         {"type": "way", "ref": 101598880, "role": ""},
         {"type": "way", "ref": 28831470, "role": ""},
+        {"type": "way", "ref": 1077759795, "role": ""},
         {"type": "way", "ref": 26546327, "role": ""},
         {"type": "way", "ref": 28977112, "role": ""},
         {"type": "way", "ref": 131190071, "role": ""},
@@ -1334,8 +1335,10 @@
         {"type": "way", "ref": 43177960, "role": ""},
         {"type": "way", "ref": 47434121, "role": ""},
         {"type": "way", "ref": 191382716, "role": ""},
+        {"type": "way", "ref": 1077759798, "role": ""},
         {"type": "way", "ref": 288668504, "role": ""},
         {"type": "way", "ref": 28770855, "role": ""},
+        {"type": "way", "ref": 1077759800, "role": ""},
         {"type": "way", "ref": 448538778, "role": ""},
         {"type": "way", "ref": 28770880, "role": ""},
         {"type": "way", "ref": 28770977, "role": ""},
@@ -3690,6 +3693,90 @@
         {"lat": 47.9648753, "lon": 8.1312347}
       ],
       "tags": {"highway": "path"}
+    },
+    {
+      "type": "way",
+      "id": 1077759795,
+      "timestamp": "2022-07-11T18:36:37Z",
+      "version": 1,
+      "changeset": 123487415,
+      "user": "Karthoo",
+      "uid": 3232636,
+      "nodes": [290959012, 3094297188],
+      "geometry": [
+        {"lat": 47.8451222, "lon": 7.8667683},
+        {"lat": 47.8451332, "lon": 7.8666437}
+      ],
+      "tags": {
+        "highway": "track",
+        "motor_vehicle": "agricultural",
+        "name": "Heidsteinweg",
+        "surface": "gravel",
+        "tracktype": "grade2",
+        "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077759798,
+      "timestamp": "2022-07-11T18:36:37Z",
+      "version": 1,
+      "changeset": 123487415,
+      "user": "Karthoo",
+      "uid": 3232636,
+      "nodes": [307687875, 290959695],
+      "geometry": [
+        {"lat": 47.8229157, "lon": 7.8372334},
+        {"lat": 47.8224758, "lon": 7.8375448},
+        {"lat": 47.8223559, "lon": 7.8375896},
+        {"lat": 47.8222327, "lon": 7.8375676},
+        {"lat": 47.8221114, "lon": 7.8375146},
+        {"lat": 47.8217014, "lon": 7.8370883},
+        {"lat": 47.8212117, "lon": 7.8367619},
+        {"lat": 47.820563, "lon": 7.83623},
+        {"lat": 47.8204147, "lon": 7.8360996},
+        {"lat": 47.8203721, "lon": 7.8359762},
+        {"lat": 47.8203469, "lon": 7.8357562},
+        {"lat": 47.8203178, "lon": 7.8356728},
+        {"lat": 47.8202842, "lon": 7.8356683}
+      ],
+      "tags": {
+        "bicycle": "no",
+        "highway": "path",
+        "sac_scale": "hiking",
+        "source:bicycle": "width; LWaldG",
+        "surface": "ground",
+        "trail_visibility": "excellent",
+        "width": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077759800,
+      "timestamp": "2022-07-11T18:36:37Z",
+      "version": 1,
+      "changeset": 123487415,
+      "user": "Karthoo",
+      "uid": 3232636,
+      "nodes": [265756437, 307688255],
+      "geometry": [
+        {"lat": 47.8199277, "lon": 7.8355201},
+        {"lat": 47.8198682, "lon": 7.8353535},
+        {"lat": 47.8198476, "lon": 7.8352446},
+        {"lat": 47.8198529, "lon": 7.8351381}
+      ],
+      "tags": {
+        "access": "no",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "service",
+        "motorcar": "no",
+        "motorcycle": "no",
+        "name": "Belchen",
+        "piste:type": "sled",
+        "psv": "no",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -7257,11 +7344,11 @@
     {
       "type": "way",
       "id": 131550642,
-      "timestamp": "2011-09-27T21:51:16Z",
-      "version": 1,
-      "changeset": 9415218,
-      "user": "Stefan Karl",
-      "uid": 101348,
+      "timestamp": "2022-07-11T07:10:20Z",
+      "version": 2,
+      "changeset": 123458533,
+      "user": "an_OSM",
+      "uid": 1975433,
       "nodes": [387495076, 1447486724],
       "geometry": [
         {"lat": 48.3026755, "lon": 8.1909866},
@@ -7274,7 +7361,13 @@
         {"lat": 48.3039837, "lon": 8.1923535},
         {"lat": 48.3040895, "lon": 8.1924644}
       ],
-      "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade2"}
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "surface": "gravel",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
@@ -12225,12 +12318,12 @@
     {
       "type": "way",
       "id": 191382716,
-      "timestamp": "2022-02-06T10:02:23Z",
-      "version": 8,
-      "changeset": 117072707,
-      "user": "DD1GJ",
-      "uid": 39381,
-      "nodes": [290959536, 290959695],
+      "timestamp": "2022-07-11T18:36:37Z",
+      "version": 9,
+      "changeset": 123487415,
+      "user": "Karthoo",
+      "uid": 3232636,
+      "nodes": [290959536, 307687875],
       "geometry": [
         {"lat": 47.8250926, "lon": 7.8391294},
         {"lat": 47.8248281, "lon": 7.8390449},
@@ -12256,19 +12349,7 @@
         {"lat": 47.8237149, "lon": 7.836113},
         {"lat": 47.823599, "lon": 7.8364188},
         {"lat": 47.8230636, "lon": 7.8371271},
-        {"lat": 47.8229157, "lon": 7.8372334},
-        {"lat": 47.8224758, "lon": 7.8375448},
-        {"lat": 47.8223559, "lon": 7.8375896},
-        {"lat": 47.8222327, "lon": 7.8375676},
-        {"lat": 47.8221114, "lon": 7.8375146},
-        {"lat": 47.8217014, "lon": 7.8370883},
-        {"lat": 47.8212117, "lon": 7.8367619},
-        {"lat": 47.820563, "lon": 7.83623},
-        {"lat": 47.8204147, "lon": 7.8360996},
-        {"lat": 47.8203721, "lon": 7.8359762},
-        {"lat": 47.8203469, "lon": 7.8357562},
-        {"lat": 47.8203178, "lon": 7.8356728},
-        {"lat": 47.8202842, "lon": 7.8356683}
+        {"lat": 47.8229157, "lon": 7.8372334}
       ],
       "tags": {
         "bicycle": "no",
@@ -15914,14 +15995,13 @@
     {
       "type": "way",
       "id": 26546327,
-      "timestamp": "2019-08-08T10:16:17Z",
-      "version": 16,
-      "changeset": 73146889,
-      "user": "Tungmar",
-      "uid": 427807,
-      "nodes": [290959012, 290959120],
+      "timestamp": "2022-07-11T18:36:37Z",
+      "version": 17,
+      "changeset": 123487415,
+      "user": "Karthoo",
+      "uid": 3232636,
+      "nodes": [3094297188, 290959120],
       "geometry": [
-        {"lat": 47.8451222, "lon": 7.8667683},
         {"lat": 47.8451332, "lon": 7.8666437},
         {"lat": 47.8451531, "lon": 7.8665112},
         {"lat": 47.8452586, "lon": 7.866159},
@@ -19687,21 +19767,18 @@
     {
       "type": "way",
       "id": 28770855,
-      "timestamp": "2021-08-01T10:40:54Z",
-      "version": 13,
-      "changeset": 108968962,
-      "user": "Sudo_piko",
-      "uid": 11617288,
-      "nodes": [2922201277, 307688255],
+      "timestamp": "2022-07-11T18:36:37Z",
+      "version": 14,
+      "changeset": 123487415,
+      "user": "Karthoo",
+      "uid": 3232636,
+      "nodes": [2922201277, 265756437],
       "geometry": [
         {"lat": 47.8201941, "lon": 7.8357491},
         {"lat": 47.8201266, "lon": 7.8357457},
         {"lat": 47.8200743, "lon": 7.8357328},
         {"lat": 47.8200091, "lon": 7.8356512},
-        {"lat": 47.8199277, "lon": 7.8355201},
-        {"lat": 47.8198682, "lon": 7.8353535},
-        {"lat": 47.8198476, "lon": 7.8352446},
-        {"lat": 47.8198529, "lon": 7.8351381}
+        {"lat": 47.8199277, "lon": 7.8355201}
       ],
       "tags": {
         "access": "no",
@@ -21474,11 +21551,11 @@
     {
       "type": "way",
       "id": 292240138,
-      "timestamp": "2014-07-10T22:21:58Z",
-      "version": 1,
-      "changeset": 24072753,
-      "user": "wycbtma",
-      "uid": 1020680,
+      "timestamp": "2022-07-11T07:10:20Z",
+      "version": 2,
+      "changeset": 123458533,
+      "user": "an_OSM",
+      "uid": 1975433,
       "nodes": [772413722, 2957884027],
       "geometry": [
         {"lat": 48.3218805, "lon": 8.1900729},
@@ -21488,7 +21565,12 @@
         {"lat": 48.3221471, "lon": 8.1916708},
         {"lat": 48.3221939, "lon": 8.191941}
       ],
-      "tags": {"highway": "track", "source": "Maps4BW LGL www.lgl-bw.de"}
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "source": "Maps4BW LGL www.lgl-bw.de"
+      }
     },
     {
       "type": "way",
@@ -31133,11 +31215,11 @@
     {
       "type": "way",
       "id": 441964133,
-      "timestamp": "2022-05-29T07:39:18Z",
-      "version": 4,
-      "changeset": 121641219,
-      "user": "Ze0zohk1",
-      "uid": 4565074,
+      "timestamp": "2022-07-11T17:37:42Z",
+      "version": 5,
+      "changeset": 123485426,
+      "user": "*abq*",
+      "uid": 3696195,
       "nodes": [288205352, 288205393],
       "geometry": [
         {"lat": 47.888877, "lon": 8.0900055},
@@ -31161,7 +31243,7 @@
         "highway": "track",
         "mtb:scale": "0",
         "sac_scale": "hiking",
-        "surface": "gravel",
+        "surface": "fine_gravel",
         "tracktype": "grade3"
       }
     },
@@ -41627,11 +41709,11 @@
     {
       "type": "way",
       "id": 62227665,
-      "timestamp": "2016-05-11T18:38:00Z",
-      "version": 6,
-      "changeset": 39249562,
-      "user": "rosamap",
-      "uid": 429734,
+      "timestamp": "2022-07-11T07:10:20Z",
+      "version": 7,
+      "changeset": 123458533,
+      "user": "an_OSM",
+      "uid": 1975433,
       "nodes": [288482125, 288482127],
       "geometry": [
         {"lat": 48.2881151, "lon": 8.1991579},
@@ -41643,7 +41725,10 @@
         {"lat": 48.2887436, "lon": 8.2005634}
       ],
       "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
+        "horse": "yes",
         "incline": "12%",
         "name": "Spitzfelsenweg",
         "surface": "gravel",
@@ -44328,11 +44413,11 @@
     {
       "type": "way",
       "id": 75344503,
-      "timestamp": "2013-07-15T16:38:40Z",
-      "version": 3,
-      "changeset": 16964523,
-      "user": "forfex",
-      "uid": 106577,
+      "timestamp": "2022-07-11T07:10:20Z",
+      "version": 4,
+      "changeset": 123458533,
+      "user": "an_OSM",
+      "uid": 1975433,
       "nodes": [780166710, 1447486724],
       "geometry": [
         {"lat": 48.3049675, "lon": 8.1943589},
@@ -44347,7 +44432,13 @@
         {"lat": 48.3040041, "lon": 8.1924711},
         {"lat": 48.3040895, "lon": 8.1924644}
       ],
-      "tags": {"highway": "track", "surface": "gravel", "tracktype": "grade2"}
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "track",
+        "surface": "gravel",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
@@ -44468,11 +44559,11 @@
     {
       "type": "way",
       "id": 768637422,
-      "timestamp": "2020-01-31T19:32:10Z",
-      "version": 1,
-      "changeset": 80390822,
-      "user": "slavey",
-      "uid": 481005,
+      "timestamp": "2022-07-11T07:10:20Z",
+      "version": 2,
+      "changeset": 123458533,
+      "user": "an_OSM",
+      "uid": 1975433,
       "nodes": [288482166, 288482127],
       "geometry": [
         {"lat": 48.2904282, "lon": 8.202174},
@@ -44486,7 +44577,12 @@
         {"lat": 48.2889203, "lon": 8.2007611},
         {"lat": 48.2887436, "lon": 8.2005634}
       ],
-      "tags": {"highway": "path", "surface": "ground"}
+      "tags": {
+        "bicycle": "no",
+        "highway": "path",
+        "horse": "no",
+        "surface": "ground"
+      }
     },
     {
       "type": "way",
@@ -44553,18 +44649,21 @@
     {
       "type": "way",
       "id": 771405618,
-      "timestamp": "2020-02-10T19:06:54Z",
-      "version": 1,
-      "changeset": 80811820,
-      "user": "hikingeurope",
-      "uid": 9364727,
+      "timestamp": "2022-07-11T07:10:20Z",
+      "version": 2,
+      "changeset": 123458533,
+      "user": "an_OSM",
+      "uid": 1975433,
       "nodes": [7176022260, 288482166],
       "geometry": [
         {"lat": 48.2904835, "lon": 8.2024914},
         {"lat": 48.2904282, "lon": 8.202174}
       ],
       "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
+        "horse": "yes",
         "name": "Spitzfelsenweg",
         "tracktype": "grade2",
         "width": "3"
@@ -45839,11 +45938,11 @@
     {
       "type": "way",
       "id": 793639484,
-      "timestamp": "2020-04-19T22:15:22Z",
-      "version": 1,
-      "changeset": 83786958,
-      "user": "machapuchare",
-      "uid": 6697443,
+      "timestamp": "2022-07-11T07:10:20Z",
+      "version": 2,
+      "changeset": 123458533,
+      "user": "an_OSM",
+      "uid": 1975433,
       "nodes": [288488195, 288488194],
       "geometry": [
         {"lat": 48.2963813, "lon": 8.2040172},
@@ -45854,6 +45953,8 @@
         {"lat": 48.2959925, "lon": 8.2035933}
       ],
       "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
         "highway": "track",
         "name": "Spitzfelsenweg",
         "surface": "ground",
