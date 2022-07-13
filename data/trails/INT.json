@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-11T03:34:23Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-13T03:42:00Z"},
   "elements": [
     {
       "type": "relation",
       "id": 282071,
-      "timestamp": "2022-07-10T21:24:25Z",
-      "version": 1808,
-      "changeset": 123447795,
+      "timestamp": "2022-07-12T07:04:20Z",
+      "version": 1810,
+      "changeset": 123502949,
       "user": "hatul",
       "uid": 686490,
       "members": [
@@ -94,9 +94,10 @@
         {"type": "way", "ref": 1060204387, "role": ""},
         {"type": "way", "ref": 1060204389, "role": ""},
         {"type": "way", "ref": 1060204390, "role": ""},
+        {"type": "way", "ref": 1060204385, "role": ""},
+        {"type": "way", "ref": 1077879316, "role": ""},
         {"type": "way", "ref": 445495545, "role": ""},
         {"type": "way", "ref": 948938509, "role": ""},
-        {"type": "way", "ref": 1060204385, "role": ""},
         {"type": "way", "ref": 378229003, "role": ""},
         {"type": "way", "ref": 446072277, "role": ""},
         {"type": "way", "ref": 446072282, "role": ""},
@@ -5024,11 +5025,11 @@
     {
       "type": "way",
       "id": 1060204386,
-      "timestamp": "2022-05-26T09:47:06Z",
-      "version": 2,
-      "changeset": 121513553,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-07-11T21:19:09Z",
+      "version": 3,
+      "changeset": 123492282,
+      "user": "hatul",
+      "uid": 686490,
       "nodes": [9740774980, 4439511241],
       "geometry": [
         {"lat": 32.9901201, "lon": 35.4061273, "z": 1092.2},
@@ -5045,16 +5046,16 @@
         {"lat": 32.99029, "lon": 35.407984, "z": 1078.8},
         {"lat": 32.990296, "lon": 35.408862, "z": 1081.3}
       ],
-      "tags": {"colour": "purple", "highway": "track"}
+      "tags": {"colour": "blue", "highway": "track"}
     },
     {
       "type": "way",
       "id": 1060204387,
-      "timestamp": "2022-05-26T09:47:06Z",
-      "version": 3,
-      "changeset": 121513553,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-07-11T21:19:09Z",
+      "version": 4,
+      "changeset": 123492282,
+      "user": "hatul",
+      "uid": 686490,
       "nodes": [9740774980, 9740774985],
       "geometry": [
         {"lat": 32.9901201, "lon": 35.4061273, "z": 1092.2},
@@ -5064,7 +5065,7 @@
         {"lat": 32.9894488, "lon": 35.4059311, "z": 1084}
       ],
       "tags": {
-        "colour": "purple",
+        "colour": "blue",
         "highway": "track",
         "source": "local knowledge"
       }
@@ -5072,9 +5073,9 @@
     {
       "type": "way",
       "id": 1060204389,
-      "timestamp": "2022-05-27T15:30:50Z",
-      "version": 3,
-      "changeset": 121582491,
+      "timestamp": "2022-07-11T21:19:09Z",
+      "version": 4,
+      "changeset": 123492282,
       "user": "hatul",
       "uid": 686490,
       "nodes": [3561086579, 9740774985],
@@ -5091,7 +5092,7 @@
       ],
       "tags": {
         "bicycle": "no",
-        "colour": "blue",
+        "colour": "purple",
         "highway": "track",
         "mtb:scale": "2"
       }
@@ -5625,6 +5626,28 @@
         "bicycle": "designated",
         "foot": "designated",
         "highway": "cycleway"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1077879316,
+      "timestamp": "2022-07-12T07:04:20Z",
+      "version": 1,
+      "changeset": 123502949,
+      "user": "hatul",
+      "uid": 686490,
+      "nodes": [4439512186, 4439512184],
+      "geometry": [
+        {"lat": 32.9846198, "lon": 35.4151124, "z": 1027},
+        {"lat": 32.9843865, "lon": 35.4153116, "z": 1025.7}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "colour": "green",
+        "foot": "yes",
+        "highway": "track",
+        "source": "GPS",
+        "surface": "dirt"
       }
     },
     {
@@ -33515,12 +33538,12 @@
     {
       "type": "way",
       "id": 445495545,
-      "timestamp": "2021-10-10T21:20:36Z",
-      "version": 8,
-      "changeset": 112349473,
-      "user": "zstadler",
-      "uid": 3127,
-      "nodes": [3059301721, 4439512186],
+      "timestamp": "2022-07-11T21:33:44Z",
+      "version": 9,
+      "changeset": 123492603,
+      "user": "hatul",
+      "uid": 686490,
+      "nodes": [3059301721, 4439512184],
       "geometry": [
         {"lat": 32.981953, "lon": 35.418221, "z": 999.8},
         {"lat": 32.982284, "lon": 35.418458, "z": 1002.5},
@@ -33543,8 +33566,9 @@
         {"lat": 32.9843274, "lon": 35.4163243, "z": 1017.5},
         {"lat": 32.9843411, "lon": 35.4161697, "z": 1018.3},
         {"lat": 32.9843889, "lon": 35.4160339, "z": 1019.3},
-        {"lat": 32.9845346, "lon": 35.4155848, "z": 1023.2},
-        {"lat": 32.9846198, "lon": 35.4151124, "z": 1027}
+        {"lat": 32.9843339, "lon": 35.4158323, "z": 1021.3},
+        {"lat": 32.9843884, "lon": 35.4155972, "z": 1023.4},
+        {"lat": 32.9843865, "lon": 35.4153116, "z": 1025.7}
       ],
       "tags": {"colour": "purple", "highway": "track", "surface": "dirt"}
     },
@@ -33736,11 +33760,11 @@
     {
       "type": "way",
       "id": 446072274,
-      "timestamp": "2021-10-10T21:20:36Z",
-      "version": 3,
-      "changeset": 112349473,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-07-11T21:33:44Z",
+      "version": 4,
+      "changeset": 123492603,
+      "user": "hatul",
+      "uid": 686490,
       "nodes": [4434032258, 4434032005],
       "geometry": [
         {"lat": 32.9766028, "lon": 35.439112, "z": 744.8},
@@ -33768,8 +33792,11 @@
         {"lat": 32.9774528, "lon": 35.4378208, "z": 719.9},
         {"lat": 32.9775474, "lon": 35.4378239, "z": 717.2},
         {"lat": 32.9776002, "lon": 35.4377473, "z": 713.8},
-        {"lat": 32.9775689, "lon": 35.4376772, "z": 712.9},
-        {"lat": 32.9776185, "lon": 35.4375779, "z": 709},
+        {"lat": 32.9776008, "lon": 35.4377084, "z": 712.8},
+        {"lat": 32.9774361, "lon": 35.4376162, "z": 715.5},
+        {"lat": 32.9773917, "lon": 35.4375582, "z": 715.4},
+        {"lat": 32.9774402, "lon": 35.4374586, "z": 711.5},
+        {"lat": 32.9775256, "lon": 35.4374464, "z": 708.6},
         {"lat": 32.9780114, "lon": 35.4375693, "z": 699},
         {"lat": 32.9781112, "lon": 35.4375447, "z": 696.8},
         {"lat": 32.978305, "lon": 35.4375906, "z": 694.4},

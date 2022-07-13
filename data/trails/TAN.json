@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-11T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-12T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -33192,11 +33192,11 @@
     {
       "type": "way",
       "id": 23973507,
-      "timestamp": "2021-09-05T11:04:19Z",
-      "version": 7,
-      "changeset": 110744659,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-07-12T08:00:44Z",
+      "version": 9,
+      "changeset": 123505634,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [259936373, 259936374],
       "geometry": [
         {"lat": -36.7603127, "lon": 174.7674231},
@@ -33211,8 +33211,9 @@
       "tags": {
         "highway": "service",
         "is_in": "Castor Bay beach",
+        "lit": "yes",
         "name": "The Esplanade",
-        "surface": "paved"
+        "surface": "asphalt"
       }
     },
     {
@@ -51317,9 +51318,9 @@
     {
       "type": "way",
       "id": 373839627,
-      "timestamp": "2021-02-25T12:02:30Z",
-      "version": 12,
-      "changeset": 99975028,
+      "timestamp": "2022-07-12T08:01:10Z",
+      "version": 13,
+      "changeset": 123505634,
       "user": "LACDH",
       "uid": 4994674,
       "nodes": [3610345655, 4428411721],
@@ -51353,6 +51354,7 @@
       "tags": {
         "highway": "secondary",
         "lanes": "2",
+        "lit": "yes",
         "maxspeed": "50",
         "name": "Beach Road",
         "surface": "asphalt"
@@ -51759,18 +51761,22 @@
     {
       "type": "way",
       "id": 373839656,
-      "timestamp": "2021-09-05T11:04:19Z",
-      "version": 4,
-      "changeset": 110744659,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-07-12T08:01:00Z",
+      "version": 5,
+      "changeset": 123505644,
+      "user": "LACDH",
+      "uid": 4994674,
       "nodes": [3610345648, 259936373],
       "geometry": [
         {"lat": -36.7602364, "lon": 174.7671662},
         {"lat": -36.7602882, "lon": 174.7673631},
         {"lat": -36.7603127, "lon": 174.7674231}
       ],
-      "tags": {"highway": "footway", "is_in": "Castor Bay beach"}
+      "tags": {
+        "highway": "footway",
+        "is_in": "Castor Bay beach",
+        "surface": "concrete"
+      }
     },
     {
       "type": "way",
