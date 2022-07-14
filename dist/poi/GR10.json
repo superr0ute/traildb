@@ -25374,21 +25374,22 @@
         "@poi": "foodshop_supermarket",
         "@distance": 74.7,
         "@id": "n5023038712",
-        "@changeset": 83644631,
-        "@timestamp": "2020-04-16T11:08:51Z",
-        "@version": 5,
-        "@uid": 11006350,
-        "@user": "yoyoatvg",
+        "@changeset": 123572172,
+        "@timestamp": "2022-07-13T16:10:55Z",
+        "@version": 6,
+        "@uid": 12181378,
+        "@user": "anicetbe",
         "addr:city": "Luz-Saint-Sauveur",
         "addr:postcode": "65120",
         "addr:street": "Place Augé de Coufitte",
-        "brand": "Carrefour Montagne",
-        "brand:wikidata": "Q2940193",
+        "branch": "Montagne",
+        "brand": "Carrefour",
+        "brand:wikidata": "Q217599",
         "brand:wikipedia": "fr:Carrefour Montagne",
         "delivery:covid19": "yes",
         "description:covid19": "Livraison à domicile : appeler la veille pour communiquer la liste",
         "email": "frhjapc@carrefourcity.fr",
-        "name": "Carrefour Montagne",
+        "name": "Carrefour",
         "opening_hours": "Mo-Fr 08:00-12:30,14:30-19:30; Sa 08:00-19:30; Su 08:00-12:30",
         "opening_hours:covid19": "Mo-Sa 08:00-13:00,16:00-19:00",
         "phone": "+33 6 42 17 96 61",
@@ -31349,30 +31350,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 6652.3,
-        "@id": "n4485480134",
-        "@changeset": 82693630,
-        "@timestamp": "2020-03-27T05:20:42Z",
-        "@version": 2,
-        "@uid": 1443767,
-        "@user": "Olyon",
-        "brand": "Vival",
-        "brand:wikidata": "Q7937525",
-        "name": "Epicerie Vival",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.686514,
-          43.3911539
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 3058.2,
         "@id": "n4487786968",
@@ -34329,15 +34306,16 @@
         "@poi": "foodshop_supermarket",
         "@distance": 4513.4,
         "@id": "w64236018",
-        "@changeset": 117976589,
-        "@timestamp": "2022-03-01T11:35:31Z",
-        "@version": 14,
-        "@uid": 8571856,
-        "@user": "TopoGeeK",
+        "@changeset": 123553398,
+        "@timestamp": "2022-07-13T09:07:53Z",
+        "@version": 15,
+        "@uid": 321684,
+        "@user": "sebastien fayolle",
         "brand": "Lidl",
         "brand:wikidata": "Q151954",
         "brand:wikipedia": "fr:Lidl",
         "building": "retail",
+        "building:levels": "1",
         "name": "Lidl",
         "name:es": "Lidl",
         "opening_hours": "Mo-Sa 08:30-19:30",
@@ -34473,13 +34451,13 @@
       "type": "Feature",
       "properties": {
         "@poi": "peak_peak",
-        "@distance": 2783.3,
+        "@distance": 2762.8,
         "@id": "n4644559948",
-        "@changeset": 73527056,
-        "@timestamp": "2019-08-20T08:19:14Z",
-        "@version": 6,
-        "@uid": 548834,
-        "@user": "dr_grijando",
+        "@changeset": 123577880,
+        "@timestamp": "2022-07-13T19:13:56Z",
+        "@version": 7,
+        "@uid": 3498572,
+        "@user": "Imain",
         "alt_name": "Irubelakaskoa",
         "ele": 965,
         "name": "Alkaxuri",
@@ -34491,8 +34469,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.4099088,
-          43.2396061
+          -1.4099198,
+          43.2393102
         ]
       }
     },
@@ -37040,41 +37018,6 @@
         "coordinates": [
           -0.1991591,
           42.9605815
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "campsite",
-        "@distance": 779.6,
-        "@id": "w171634698",
-        "@changeset": 75232061,
-        "@timestamp": "2019-10-03T12:38:06Z",
-        "@version": 10,
-        "@uid": 7053591,
-        "@user": "Régis Vrignaud",
-        "addr:city": "Arrens-Marsous",
-        "addr:postcode": "65400",
-        "addr:street": "Rue Mauhourat",
-        "capacity": 60,
-        "caravans": "yes",
-        "internet_access": "wlan",
-        "name": "Camping GCU de Arrens-Marsous",
-        "operator": "Groupement des Campeurs Universitaires de France",
-        "phone": "+33 5 62 97 43 06",
-        "sanitary_dump_station": "customers",
-        "stars": "2",
-        "tents": "yes",
-        "tourism": "camp_site",
-        "website": "https://www.gcu.asso.fr/",
-        "wheelchair": "limited"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.2139193,
-          42.9575191
         ]
       }
     },
@@ -40160,6 +40103,41 @@
         "coordinates": [
           -1.2375567,
           43.1677224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 779.6,
+        "@id": "w171634698",
+        "@changeset": 75232061,
+        "@timestamp": "2019-10-03T12:38:06Z",
+        "@version": 10,
+        "@uid": 7053591,
+        "@user": "Régis Vrignaud",
+        "addr:city": "Arrens-Marsous",
+        "addr:postcode": "65400",
+        "addr:street": "Rue Mauhourat",
+        "capacity": 60,
+        "caravans": "yes",
+        "internet_access": "wlan",
+        "name": "Camping GCU de Arrens-Marsous",
+        "operator": "Groupement des Campeurs Universitaires de France",
+        "phone": "+33 5 62 97 43 06",
+        "sanitary_dump_station": "customers",
+        "stars": "2",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "website": "https://www.gcu.asso.fr/",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2139193,
+          42.9575191
         ]
       }
     },
@@ -51158,9 +51136,9 @@
         "@poi": "foodshop_supermarket",
         "@distance": 5206.8,
         "@id": "n9545143217",
-        "@changeset": 117946194,
-        "@timestamp": "2022-02-28T14:11:47Z",
-        "@version": 2,
+        "@changeset": 123549566,
+        "@timestamp": "2022-07-13T07:43:59Z",
+        "@version": 3,
         "@uid": 2179792,
         "@user": "votre_solution_de_visibilite_digitale_locale",
         "contact:city": "Saint-Pée-sur-Nivelle",
@@ -51169,6 +51147,7 @@
         "contact:street": "Zac De Lizardia",
         "name": "Les Comptoirs De La Bio",
         "official_name": "Les Comptoirs De La Bio Saint-Pee-Sur-Nivelle",
+        "opening_hours": "Mo-Sa 09:00-19:00",
         "organic": "only",
         "ref:FR:SIRET": "89369009900013",
         "shop": "supermarket",
