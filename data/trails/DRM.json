@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-12T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-13T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -7180,9 +7180,9 @@
     {
       "type": "way",
       "id": 128634588,
-      "timestamp": "2022-07-04T14:54:51Z",
-      "version": 5,
-      "changeset": 123196343,
+      "timestamp": "2022-07-13T16:06:00Z",
+      "version": 8,
+      "changeset": 123571323,
       "user": "Đuro Jiří",
       "uid": 14617702,
       "nodes": [1421051207, 1421051277],
@@ -7191,7 +7191,13 @@
         {"lat": 45.535172, "lon": 12.6408898},
         {"lat": 45.5352561, "lon": 12.6409588}
       ],
-      "tags": {"foot": "designated", "highway": "cycleway"}
+      "tags": {
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "yes",
+        "segregated": "no",
+        "surface": "paving_stones"
+      }
     },
     {
       "type": "way",
@@ -17776,11 +17782,11 @@
     {
       "type": "way",
       "id": 175820264,
-      "timestamp": "2014-03-26T20:36:14Z",
-      "version": 3,
-      "changeset": 21332351,
-      "user": "SldrHartman",
-      "uid": 64392,
+      "timestamp": "2022-07-13T16:30:02Z",
+      "version": 5,
+      "changeset": 123572896,
+      "user": "Đuro Jiří",
+      "uid": 14617702,
       "nodes": [421828436, 27215981],
       "geometry": [
         {"lat": 45.5336175, "lon": 12.6382271},
@@ -17792,8 +17798,10 @@
       ],
       "tags": {
         "highway": "residential",
+        "lit": "yes",
         "name": "Via Sant'Antonio",
-        "oneway": "no"
+        "oneway": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -37407,9 +37415,9 @@
     {
       "type": "way",
       "id": 438979444,
-      "timestamp": "2022-07-04T14:54:51Z",
-      "version": 3,
-      "changeset": 123196343,
+      "timestamp": "2022-07-13T16:05:44Z",
+      "version": 5,
+      "changeset": 123571978,
       "user": "Đuro Jiří",
       "uid": 14617702,
       "nodes": [1421051207, 1421051212],
@@ -37418,7 +37426,13 @@
         {"lat": 45.5352782, "lon": 12.640643},
         {"lat": 45.5353584, "lon": 12.6406864}
       ],
-      "tags": {"foot": "designated", "highway": "cycleway", "lit": "yes"}
+      "tags": {
+        "foot": "designated",
+        "highway": "cycleway",
+        "lit": "yes",
+        "segregated": "no",
+        "surface": "paving_stones"
+      }
     },
     {
       "type": "way",
@@ -49483,7 +49497,7 @@
         {"lat": 46.8427949, "lon": 11.7292444},
         {"lat": 46.8428045, "lon": 11.7293089}
       ],
-      "tags": {"highway": "unclassified", "name": "Georg-Lantschner-Straße"}
+      "tags": {"name": "Georg-Lantschner-Straße", "highway": "unclassified"}
     },
     {
       "type": "way",

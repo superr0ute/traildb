@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-11T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-13T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -624,33 +624,44 @@
     {
       "type": "way",
       "id": 116823486,
-      "timestamp": "2018-08-06T08:24:11Z",
-      "version": 2,
-      "changeset": 61394428,
-      "user": "Marabu_Too",
-      "uid": 745875,
+      "timestamp": "2022-07-13T04:48:38Z",
+      "version": 3,
+      "changeset": 123543141,
+      "user": "VictorIE",
+      "uid": 2008037,
       "nodes": [1316141262, 31228104],
       "geometry": [
         {"lat": 52.25802, "lon": -9.7355695},
         {"lat": 52.2580914, "lon": -9.7355369}
       ],
-      "tags": {"highway": "primary", "maxspeed": "50", "ref": "N86"}
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "ref": "N86",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 116823493,
-      "timestamp": "2017-09-05T14:49:31Z",
-      "version": 2,
-      "changeset": 51753334,
-      "user": "MacLondon",
-      "uid": 322039,
+      "timestamp": "2022-07-13T04:48:38Z",
+      "version": 3,
+      "changeset": 123543141,
+      "user": "VictorIE",
+      "uid": 2008037,
       "nodes": [1316141114, 279474470],
       "geometry": [
         {"lat": 52.258389, "lon": -9.7357055},
         {"lat": 52.2584416, "lon": -9.7357142},
         {"lat": 52.258478, "lon": -9.73572}
       ],
-      "tags": {"highway": "residential", "name": "Strand Road"}
+      "tags": {
+        "highway": "residential",
+        "lanes": "2",
+        "name": "Strand Road",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -1035,11 +1046,11 @@
     {
       "type": "way",
       "id": 203255294,
-      "timestamp": "2013-03-09T15:29:01Z",
-      "version": 2,
-      "changeset": 15303713,
-      "user": "mackerski",
-      "uid": 6367,
+      "timestamp": "2022-07-13T04:35:28Z",
+      "version": 3,
+      "changeset": 123542823,
+      "user": "VictorIE",
+      "uid": 2008037,
       "nodes": [31227673, 2192710253],
       "geometry": [
         {"lat": 52.150968, "lon": -10.0571339},
@@ -1048,29 +1059,33 @@
       "tags": {
         "bridge": "yes",
         "highway": "primary",
+        "lanes": "2",
         "layer": "1",
-        "ref": "N86"
+        "ref": "N86",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 203255295,
-      "timestamp": "2021-09-19T16:34:23Z",
-      "version": 7,
-      "changeset": 111416368,
-      "user": "Binnette",
-      "uid": 918586,
+      "timestamp": "2022-07-13T04:35:28Z",
+      "version": 8,
+      "changeset": 123542823,
+      "user": "VictorIE",
+      "uid": 2008037,
       "nodes": [2192710253, 31227676],
       "geometry": [
         {"lat": 52.151078, "lon": -10.0567837},
         {"lat": 52.1511374, "lon": -10.0565837},
         {"lat": 52.1512325, "lon": -10.0559211},
         {"lat": 52.151286, "lon": -10.0554319},
-        {"lat": 52.1513372, "lon": -10.0549628}
+        {"lat": 52.151317, "lon": -10.055148},
+        {"lat": 52.1513487, "lon": -10.0549856}
       ],
       "tags": {
         "cycleway:both": "no",
         "highway": "primary",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Main Street",
         "ref": "N86",
@@ -1358,9 +1373,9 @@
     {
       "type": "way",
       "id": 209029881,
-      "timestamp": "2021-02-15T09:43:23Z",
-      "version": 11,
-      "changeset": 99297270,
+      "timestamp": "2022-07-13T04:35:28Z",
+      "version": 12,
+      "changeset": 123542823,
       "user": "VictorIE",
       "uid": 2008037,
       "nodes": [2192710272, 31227676],
@@ -1399,24 +1414,24 @@
         {"lat": 52.1517879, "lon": -10.0481012},
         {"lat": 52.1517394, "lon": -10.0488367},
         {"lat": 52.1516906, "lon": -10.0495764},
-        {"lat": 52.1516502, "lon": -10.0501757},
-        {"lat": 52.1516446, "lon": -10.0502593},
-        {"lat": 52.1516391, "lon": -10.0503409},
-        {"lat": 52.1516277, "lon": -10.0505105},
-        {"lat": 52.1516162, "lon": -10.0506808},
-        {"lat": 52.1516092, "lon": -10.0507852},
-        {"lat": 52.1515949, "lon": -10.0509976},
-        {"lat": 52.1515889, "lon": -10.0510861},
-        {"lat": 52.1515816, "lon": -10.0511947},
-        {"lat": 52.1515742, "lon": -10.0512798},
-        {"lat": 52.1515098, "lon": -10.0520194},
-        {"lat": 52.1514529, "lon": -10.0526738},
-        {"lat": 52.1514317, "lon": -10.0529176},
-        {"lat": 52.1513937, "lon": -10.0533542},
-        {"lat": 52.1513689, "lon": -10.0536716},
+        {"lat": 52.1516568, "lon": -10.0501757},
+        {"lat": 52.1516526, "lon": -10.0502578},
+        {"lat": 52.1516476, "lon": -10.0503409},
+        {"lat": 52.1516353, "lon": -10.0505113},
+        {"lat": 52.1516238, "lon": -10.0506808},
+        {"lat": 52.1516177, "lon": -10.0507883},
+        {"lat": 52.1516044, "lon": -10.0509976},
+        {"lat": 52.1515965, "lon": -10.0510892},
+        {"lat": 52.1515818, "lon": -10.0512798},
+        {"lat": 52.1515278, "lon": -10.0520286},
+        {"lat": 52.1514718, "lon": -10.0526907},
+        {"lat": 52.1514515, "lon": -10.0529392},
+        {"lat": 52.1514173, "lon": -10.0533727},
+        {"lat": 52.1513869, "lon": -10.0536731},
         {"lat": 52.1512805, "lon": -10.0548008},
-        {"lat": 52.1513189, "lon": -10.0549104},
-        {"lat": 52.1513372, "lon": -10.0549628}
+        {"lat": 52.1512927, "lon": -10.0548905},
+        {"lat": 52.1513131, "lon": -10.054964},
+        {"lat": 52.1513487, "lon": -10.0549856}
       ],
       "tags": {"highway": "unclassified", "lanes": "2", "surface": "asphalt"}
     },
@@ -1566,11 +1581,11 @@
     {
       "type": "way",
       "id": 211133505,
-      "timestamp": "2015-04-01T20:44:28Z",
-      "version": 2,
-      "changeset": 29915090,
-      "user": "mackerski",
-      "uid": 6367,
+      "timestamp": "2022-07-13T04:35:28Z",
+      "version": 3,
+      "changeset": 123542823,
+      "user": "VictorIE",
+      "uid": 2008037,
       "nodes": [31218228, 2211362824],
       "geometry": [
         {"lat": 52.140849, "lon": -10.1657666},
@@ -1579,25 +1594,33 @@
       "tags": {
         "bridge": "yes",
         "highway": "primary",
+        "lanes": "2",
         "layer": "1",
         "maxspeed": "60",
-        "ref": "N86"
+        "ref": "N86",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 211133506,
-      "timestamp": "2015-04-01T20:44:28Z",
-      "version": 5,
-      "changeset": 29915090,
-      "user": "mackerski",
-      "uid": 6367,
+      "timestamp": "2022-07-13T04:35:28Z",
+      "version": 6,
+      "changeset": 123542823,
+      "user": "VictorIE",
+      "uid": 2008037,
       "nodes": [2211362824, 31218218],
       "geometry": [
         {"lat": 52.1407793, "lon": -10.1664873},
         {"lat": 52.1407651, "lon": -10.1667905}
       ],
-      "tags": {"highway": "primary", "maxspeed": "60", "ref": "N86"}
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "60",
+        "ref": "N86",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -1698,11 +1721,11 @@
     {
       "type": "way",
       "id": 218167890,
-      "timestamp": "2021-01-18T22:13:16Z",
-      "version": 3,
-      "changeset": 97723519,
-      "user": "eireidium",
-      "uid": 146307,
+      "timestamp": "2022-07-13T04:35:28Z",
+      "version": 4,
+      "changeset": 123542823,
+      "user": "VictorIE",
+      "uid": 2008037,
       "nodes": [2211362804, 31218228],
       "geometry": [
         {"lat": 52.1409829, "lon": -10.1649845},
@@ -1710,7 +1733,13 @@
         {"lat": 52.1409053, "lon": -10.1653641},
         {"lat": 52.140849, "lon": -10.1657666}
       ],
-      "tags": {"highway": "primary", "maxspeed": "60", "ref": "N86"}
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "60",
+        "ref": "N86",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -2888,11 +2917,11 @@
     {
       "type": "way",
       "id": 25639392,
-      "timestamp": "2022-02-16T16:34:15Z",
-      "version": 11,
-      "changeset": 117484336,
-      "user": "eireidium",
-      "uid": 146307,
+      "timestamp": "2022-07-13T04:48:38Z",
+      "version": 12,
+      "changeset": 123543141,
+      "user": "VictorIE",
+      "uid": 2008037,
       "nodes": [2429576946, 4135802396],
       "geometry": [
         {"lat": 52.2209047, "lon": -9.9089317},
@@ -2926,7 +2955,7 @@
         {"lat": 52.2237826, "lon": -9.9113209},
         {"lat": 52.2238381, "lon": -9.9113204}
       ],
-      "tags": {"highway": "residential"}
+      "tags": {"highway": "residential", "lanes": "2", "surface": "asphalt"}
     },
     {
       "type": "way",
@@ -3064,15 +3093,15 @@
     {
       "type": "way",
       "id": 25660271,
-      "timestamp": "2021-09-19T18:46:41Z",
-      "version": 7,
-      "changeset": 111420731,
-      "user": "Binnette",
-      "uid": 918586,
+      "timestamp": "2022-07-13T04:35:28Z",
+      "version": 8,
+      "changeset": 123542823,
+      "user": "VictorIE",
+      "uid": 2008037,
       "nodes": [31227667, 31218605],
       "geometry": [
         {"lat": 52.1483932, "lon": -10.0608892},
-        {"lat": 52.1483369, "lon": -10.0608601},
+        {"lat": 52.1483484, "lon": -10.0608648},
         {"lat": 52.1481543, "lon": -10.0607848},
         {"lat": 52.1480527, "lon": -10.0607458},
         {"lat": 52.1479302, "lon": -10.0607408},
@@ -3097,6 +3126,7 @@
       "tags": {
         "cycleway:both": "no",
         "highway": "secondary",
+        "lanes": "2",
         "maxspeed": "80",
         "ref": "R561",
         "surface": "asphalt"
@@ -4871,11 +4901,11 @@
     {
       "type": "way",
       "id": 25664192,
-      "timestamp": "2022-03-03T11:11:20Z",
-      "version": 11,
-      "changeset": 118051838,
-      "user": "eireidium",
-      "uid": 146307,
+      "timestamp": "2022-07-13T04:48:38Z",
+      "version": 12,
+      "changeset": 123543141,
+      "user": "VictorIE",
+      "uid": 2008037,
       "nodes": [279474742, 279474763],
       "geometry": [
         {"lat": 52.2124379, "lon": -9.9053817},
@@ -4919,16 +4949,16 @@
         {"lat": 52.2208944, "lon": -9.908835},
         {"lat": 52.2209171, "lon": -9.9088563}
       ],
-      "tags": {"highway": "unclassified", "lanes": "1", "surface": "asphalt"}
+      "tags": {"highway": "unclassified", "lanes": "2", "surface": "asphalt"}
     },
     {
       "type": "way",
       "id": 25664194,
-      "timestamp": "2021-09-19T18:46:28Z",
-      "version": 8,
-      "changeset": 111420731,
-      "user": "Binnette",
-      "uid": 918586,
+      "timestamp": "2022-07-13T04:35:28Z",
+      "version": 9,
+      "changeset": 123542823,
+      "user": "VictorIE",
+      "uid": 2008037,
       "nodes": [31227667, 31227673],
       "geometry": [
         {"lat": 52.1483932, "lon": -10.0608892},
@@ -4953,6 +4983,7 @@
       "tags": {
         "cycleway:both": "no",
         "highway": "primary",
+        "lanes": "2",
         "maxspeed": "50",
         "ref": "N86",
         "surface": "asphalt"
@@ -6549,11 +6580,11 @@
     {
       "type": "way",
       "id": 38030763,
-      "timestamp": "2017-09-05T14:49:31Z",
-      "version": 8,
-      "changeset": 51753334,
-      "user": "MacLondon",
-      "uid": 322039,
+      "timestamp": "2022-07-13T04:48:38Z",
+      "version": 9,
+      "changeset": 123543141,
+      "user": "VictorIE",
+      "uid": 2008037,
       "nodes": [31228104, 1066932097],
       "geometry": [
         {"lat": 52.2580914, "lon": -9.7355369},
@@ -6561,7 +6592,7 @@
         {"lat": 52.2581573, "lon": -9.7356317},
         {"lat": 52.2581798, "lon": -9.7356498}
       ],
-      "tags": {"highway": "residential"}
+      "tags": {"highway": "residential", "lanes": "2", "surface": "asphalt"}
     },
     {
       "type": "way",
@@ -7538,11 +7569,11 @@
     {
       "type": "way",
       "id": 4846988,
-      "timestamp": "2022-07-11T02:57:54Z",
-      "version": 10,
-      "changeset": 123452181,
-      "user": "MacLondon",
-      "uid": 322039,
+      "timestamp": "2022-07-13T04:48:38Z",
+      "version": 11,
+      "changeset": 123543141,
+      "user": "VictorIE",
+      "uid": 2008037,
       "nodes": [31228101, 1066932074],
       "geometry": [
         {"lat": 52.2548177, "lon": -9.7368062},
@@ -7554,14 +7585,17 @@
         {"lat": 52.2560566, "lon": -9.7353991},
         {"lat": 52.2566469, "lon": -9.735363},
         {"lat": 52.2566735, "lon": -9.7353659},
+        {"lat": 52.2568019, "lon": -9.73538},
         {"lat": 52.2569304, "lon": -9.7353941},
         {"lat": 52.2573312, "lon": -9.7354381}
       ],
       "tags": {
         "highway": "primary",
+        "lanes": "2",
         "maxspeed": "50",
         "name": "Main Street",
-        "ref": "N86"
+        "ref": "N86",
+        "surface": "asphalt"
       }
     },
     {
@@ -8811,11 +8845,11 @@
     {
       "type": "way",
       "id": 91819021,
-      "timestamp": "2015-09-03T02:58:34Z",
-      "version": 7,
-      "changeset": 33764228,
-      "user": "choess",
-      "uid": 396743,
+      "timestamp": "2022-07-13T04:48:38Z",
+      "version": 8,
+      "changeset": 123543141,
+      "user": "VictorIE",
+      "uid": 2008037,
       "nodes": [1066932097, 1316141114],
       "geometry": [
         {"lat": 52.2581798, "lon": -9.7356498},
@@ -8825,7 +8859,9 @@
         "bridge": "movable",
         "bridge:movable": "swing",
         "highway": "residential",
-        "layer": "1"
+        "lanes": "2",
+        "layer": "1",
+        "surface": "asphalt"
       }
     },
     {
@@ -8887,17 +8923,23 @@
     {
       "type": "way",
       "id": 988457672,
-      "timestamp": "2021-10-01T01:18:00Z",
-      "version": 1,
-      "changeset": 111940275,
-      "user": "MacLondon",
-      "uid": 322039,
+      "timestamp": "2022-07-13T04:48:38Z",
+      "version": 2,
+      "changeset": 123543141,
+      "user": "VictorIE",
+      "uid": 2008037,
       "nodes": [2429576946, 279474763],
       "geometry": [
         {"lat": 52.2209047, "lon": -9.9089317},
         {"lat": 52.2209171, "lon": -9.9088563}
       ],
-      "tags": {"highway": "primary", "maxspeed": "50", "ref": "N86"}
+      "tags": {
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "ref": "N86",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
