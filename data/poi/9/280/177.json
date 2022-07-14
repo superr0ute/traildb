@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-07-12T23:59:59Z",
-    "timestamp_osm_base": "2022-07-13T06:36:09Z",
+    "timestamp_osm_date": "2022-07-13T23:59:59Z",
+    "timestamp_osm_base": "2022-07-14T06:39:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -2152,27 +2152,30 @@
     {
       "type": "node",
       "id": 26038420,
-      "lat": 48.1420549,
-      "lon": 17.3348601,
-      "timestamp": "2020-06-09T15:02:30Z",
-      "version": 11,
-      "changeset": 86414905,
-      "user": "City-busz",
-      "uid": 36129,
+      "lat": 48.142097,
+      "lon": 17.3341269,
+      "timestamp": "2022-07-13T06:37:24Z",
+      "version": 12,
+      "changeset": 123546672,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
         "city_id": "508276",
         "ele": "128",
         "import_ref": "city_import_sk_1",
-        "loc_name": "Fel,Fél",
         "name": "Tomášov",
         "name:de": "Feilendorf",
         "name:hu": "Fél",
+        "name:sk": "Tomášov",
+        "old_name:sk": "Fel;Fél;Pél",
         "place": "village",
         "population": "2271",
-        "postal_code": "900 44",
+        "postal_code": "90044",
         "region_id": "108",
         "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
-        "wikidata": "Q771281"
+        "website": "https://www.tomasov.sk/",
+        "wikidata": "Q771281",
+        "wikipedia": "sk:Tomášov"
       }
     },
     {
@@ -19173,17 +19176,18 @@
     {
       "type": "node",
       "id": 5720311239,
-      "lat": 48.1417392,
-      "lon": 17.3361501,
-      "timestamp": "2019-03-09T15:42:03Z",
-      "version": 3,
-      "changeset": 67963539,
-      "user": "aceman444",
-      "uid": 1617449,
+      "lat": 48.1417509,
+      "lon": 17.3361005,
+      "timestamp": "2022-07-13T06:37:24Z",
+      "version": 4,
+      "changeset": 123546672,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
-        "name": "Moja Samoška",
-        "opening_hours": "06:00-20:00",
+        "name": "Terno",
+        "opening_hours": "Mo-Fr 06:00-20:00; Sa 07:00-18:00; Su 08:00-16:00",
         "shop": "convenience",
+        "website": "https://www.terno.sk/",
         "wheelchair": "yes"
       }
     },
@@ -25178,9 +25182,9 @@
     {
       "type": "way",
       "id": 32797006,
-      "timestamp": "2022-07-09T12:46:57Z",
-      "version": 10,
-      "changeset": 123398392,
+      "timestamp": "2022-07-13T08:09:25Z",
+      "version": 11,
+      "changeset": 123550693,
       "user": "Dodko",
       "uid": 1944033,
       "center": {
@@ -25190,10 +25194,13 @@
       "nodes": [],
       "tags": {
         "addr:city": "Bratislava",
+        "addr:conscriptionnumber": "11821",
         "addr:country": "SK",
-        "addr:housenumber": "6",
-        "addr:postcode": "8106",
-        "addr:street": "Kazanská",
+        "addr:housenumber": "11821/8",
+        "addr:postcode": "82107",
+        "addr:street": "Uzbecká",
+        "addr:streetnumber": "8",
+        "addr:suburb": "Podunajské Biskupice",
         "brand": "Billa",
         "brand:wikidata": "Q537781",
         "brand:wikipedia": "sk:BILLA",
@@ -25203,7 +25210,9 @@
         "opening_hours": "Mo-Sa 06:30-22:00; Su 08:00-21:00",
         "operator": "BILLA s.r.o.",
         "phone": "+421 903 627 109",
+        "ref:minvskaddress": "7100213835",
         "shop": "supermarket",
+        "source:addr": "minvskaddress 2022-07",
         "website": "https://www.billa.sk"
       }
     },
@@ -31935,6 +31944,26 @@
         "amenity": "shelter",
         "bench": "yes",
         "bin": "yes",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1078118397,
+      "timestamp": "2022-07-13T06:37:24Z",
+      "version": 1,
+      "changeset": 123546672,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 48.1417331,
+        "lon": 17.3728614
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
         "building": "yes",
         "shelter_type": "public_transport"
       }
