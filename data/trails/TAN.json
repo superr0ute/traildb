@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-13T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-14T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2633,9 +2633,9 @@
     {
       "type": "relation",
       "id": 9606505,
-      "timestamp": "2021-12-22T05:24:55Z",
-      "version": 17,
-      "changeset": 115234965,
+      "timestamp": "2022-07-14T07:06:16Z",
+      "version": 18,
+      "changeset": 123593226,
       "user": "ChookMan",
       "uid": 11144302,
       "members": [
@@ -2699,6 +2699,8 @@
         {"type": "way", "ref": 298213782, "role": ""},
         {"type": "way", "ref": 539116373, "role": ""},
         {"type": "way", "ref": 539116374, "role": ""},
+        {"type": "way", "ref": 1078399863, "role": ""},
+        {"type": "way", "ref": 1078399864, "role": ""},
         {"type": "way", "ref": 298213222, "role": ""},
         {"type": "way", "ref": 399136992, "role": ""},
         {"type": "way", "ref": 675108994, "role": ""},
@@ -8312,6 +8314,54 @@
         "fixme": "path upgraded in 2021 from grass to gravel + boardwalk. route probably realigned too.",
         "highway": "path",
         "surface": "grass"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1078399863,
+      "timestamp": "2022-07-14T07:06:16Z",
+      "version": 1,
+      "changeset": 123593226,
+      "user": "ChookMan",
+      "uid": 11144302,
+      "nodes": [3021157872, 9886605521],
+      "geometry": [
+        {"lat": -37.0071153, "lon": 174.8978693},
+        {"lat": -37.0071287, "lon": 174.8980035},
+        {"lat": -37.007129, "lon": 174.8980244}
+      ],
+      "tags": {
+        "highway": "footway",
+        "lit": "no",
+        "segregated": "no",
+        "surface": "concrete",
+        "width": "2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1078399864,
+      "timestamp": "2022-07-14T07:06:16Z",
+      "version": 1,
+      "changeset": 123593226,
+      "user": "ChookMan",
+      "uid": 11144302,
+      "nodes": [9886605521, 3464952404],
+      "geometry": [
+        {"lat": -37.007129, "lon": 174.8980244},
+        {"lat": -37.007131, "lon": 174.8980854},
+        {"lat": -37.0071292, "lon": 174.8981047},
+        {"lat": -37.0071252, "lon": 174.8981186},
+        {"lat": -37.0070986, "lon": 174.8982171}
+      ],
+      "tags": {
+        "bridge": "boardwalk",
+        "highway": "footway",
+        "layer": "1",
+        "lit": "no",
+        "segregated": "no",
+        "surface": "concrete",
+        "width": "2"
       }
     },
     {
@@ -40694,16 +40744,13 @@
     {
       "type": "way",
       "id": 298213222,
-      "timestamp": "2021-07-07T08:58:24Z",
-      "version": 13,
-      "changeset": 107547620,
-      "user": "kylenz",
-      "uid": 10140394,
-      "nodes": [3021157872, 3464952384],
+      "timestamp": "2022-07-14T07:06:16Z",
+      "version": 14,
+      "changeset": 123593226,
+      "user": "ChookMan",
+      "uid": 11144302,
+      "nodes": [3464952404, 3464952384],
       "geometry": [
-        {"lat": -37.0071153, "lon": 174.8978693},
-        {"lat": -37.0071287, "lon": 174.8980035},
-        {"lat": -37.0071252, "lon": 174.8981186},
         {"lat": -37.0070986, "lon": 174.8982171},
         {"lat": -37.0070562, "lon": 174.8983043},
         {"lat": -37.0070026, "lon": 174.8983331},
@@ -40737,15 +40784,18 @@
     {
       "type": "way",
       "id": 298213782,
-      "timestamp": "2021-07-07T08:58:24Z",
-      "version": 13,
-      "changeset": 107547620,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-07-14T07:06:16Z",
+      "version": 14,
+      "changeset": 123593226,
+      "user": "ChookMan",
+      "uid": 11144302,
       "nodes": [3021168197, 1061334420],
       "geometry": [
-        {"lat": -37.0067168, "lon": 174.8978279},
-        {"lat": -37.0066679, "lon": 174.8976646},
+        {"lat": -37.0067455, "lon": 174.8978228},
+        {"lat": -37.0067213, "lon": 174.8978144},
+        {"lat": -37.0067, "lon": 174.8977975},
+        {"lat": -37.0066882, "lon": 174.8977734},
+        {"lat": -37.0066605, "lon": 174.8976661},
         {"lat": -37.0065752, "lon": 174.8975334},
         {"lat": -37.0064194, "lon": 174.8973424},
         {"lat": -37.0061572, "lon": 174.8970388},
@@ -67971,7 +68021,7 @@
       "geometry": [
         {"lat": -37.0069551, "lon": 174.8977929},
         {"lat": -37.0068987, "lon": 174.8977786},
-        {"lat": -37.0067168, "lon": 174.8978279}
+        {"lat": -37.0067455, "lon": 174.8978228}
       ],
       "tags": {
         "bridge": "yes",

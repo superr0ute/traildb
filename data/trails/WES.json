@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-13T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-14T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1674,11 +1674,11 @@
     {
       "type": "relation",
       "id": 905947,
-      "timestamp": "2022-03-07T18:23:18Z",
-      "version": 69,
-      "changeset": 118207878,
-      "user": "eutill",
-      "uid": 7558658,
+      "timestamp": "2022-07-14T23:26:39Z",
+      "version": 70,
+      "changeset": 123628785,
+      "user": "whb",
+      "uid": 202726,
       "members": [
         {"type": "node", "ref": 428790179, "role": "night_stop"},
         {"type": "node", "ref": 468583022, "role": "guidepost"},
@@ -1687,7 +1687,7 @@
         {"type": "node", "ref": 726929257, "role": "guidepost"},
         {"type": "node", "ref": 5141448658, "role": "guidepost"},
         {"type": "node", "ref": 473836253, "role": "viewpoint"},
-        {"type": "node", "ref": 448098407, "role": "shelter"},
+        {"type": "way", "ref": 1078677212, "role": "shelter"},
         {"type": "node", "ref": 726929237, "role": "guidepost"},
         {"type": "node", "ref": 726929236, "role": "guidepost"},
         {"type": "node", "ref": 726929187, "role": "guidepost"},
@@ -3776,6 +3776,38 @@
         "piste:type": "sled",
         "psv": "no",
         "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1078677212,
+      "timestamp": "2022-07-14T23:26:39Z",
+      "version": 1,
+      "changeset": 123628785,
+      "user": "whb",
+      "uid": 202726,
+      "nodes": [9888645972, 9888645972],
+      "geometry": [
+        {"lat": 48.7673629, "lon": 8.4550056},
+        {"lat": 48.7673596, "lon": 8.45504},
+        {"lat": 48.7673397, "lon": 8.4550515},
+        {"lat": 48.7673228, "lon": 8.4550318},
+        {"lat": 48.7673261, "lon": 8.4549975},
+        {"lat": 48.7673459, "lon": 8.454986},
+        {"lat": 48.7673629, "lon": 8.4550056}
+      ],
+      "tags": {
+        "access": "yes",
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "no",
+        "building": "yes",
+        "description": "mit Blitzableiter und Glasscheiben",
+        "ele": "835",
+        "name": "Schweizerkopfhütte",
+        "shelter_type": "weather_shelter",
+        "surface": "rock",
+        "table": "no"
       }
     },
     {
