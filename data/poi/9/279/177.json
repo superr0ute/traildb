@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-07-14T23:59:59Z",
-    "timestamp_osm_base": "2022-07-15T06:32:44Z",
+    "timestamp_osm_date": "2022-07-15T23:59:59Z",
+    "timestamp_osm_base": "2022-07-16T06:05:52Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -29731,11 +29731,11 @@
       "id": 1973687753,
       "lat": 48.1972592,
       "lon": 16.4032094,
-      "timestamp": "2020-11-30T16:00:27Z",
-      "version": 10,
-      "changeset": 95055240,
-      "user": "AhmadHB",
-      "uid": 10182045,
+      "timestamp": "2022-07-15T10:05:36Z",
+      "version": 11,
+      "changeset": 123645442,
+      "user": "Helium314",
+      "uid": 8620055,
       "tags": {
         "addr:city": "Wien",
         "addr:country": "AT",
@@ -29747,7 +29747,7 @@
         "brand:wikipedia": "en:Billa (supermarket)",
         "name": "Billa",
         "name:fa": "بیلا",
-        "opening_hours": "Mo-Fr 07:40-20:00; Sa 07:40-18:00; Su off; PH off",
+        "opening_hours": "Mo-Fr 07:30-19:50; Sa 07:40-18:00; Su off; PH off",
         "operator": "Rewe International",
         "phone": "+43 1 9610380",
         "shop": "supermarket",
@@ -31051,24 +31051,6 @@
       "tags": {
         "name": "Tobel",
         "natural": "cave_entrance"
-      }
-    },
-    {
-      "type": "node",
-      "id": 2351586706,
-      "lat": 48.1054393,
-      "lon": 16.8647499,
-      "timestamp": "2019-07-14T19:16:46Z",
-      "version": 3,
-      "changeset": 72240655,
-      "user": "jnettels",
-      "uid": 3945282,
-      "tags": {
-        "fixme": "Duplikat?",
-        "name": "Tennishalle & Camping Peiritsch",
-        "operator": "Tennishalle & Camping Peiritsch",
-        "tourism": "camp_site",
-        "website": "http://www.tennishalle-petronell.at/camping"
       }
     },
     {
@@ -52674,11 +52656,11 @@
       "id": 7047465748,
       "lat": 48.1973434,
       "lon": 16.3365063,
-      "timestamp": "2022-03-20T15:55:26Z",
-      "version": 3,
-      "changeset": 118701484,
-      "user": "Findus23",
-      "uid": 1727602,
+      "timestamp": "2022-07-15T20:04:38Z",
+      "version": 4,
+      "changeset": 123667710,
+      "user": "Nielkrokodil",
+      "uid": 571107,
       "tags": {
         "addr:city": "Wien",
         "addr:country": "AT",
@@ -52690,6 +52672,7 @@
         "brand:wikidata": "Q151954",
         "brand:wikipedia": "en:Lidl",
         "name": "Lidl",
+        "opening_hours": "Mo-Fr 08:30-21:00; Sa 08:30-18:00",
         "shop": "supermarket",
         "wheelchair": "yes"
       }
@@ -62031,6 +62014,20 @@
       "changeset": 123438804,
       "user": "StefanTiran",
       "uid": 56870,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9889392789,
+      "lat": 48.1975509,
+      "lon": 16.3525414,
+      "timestamp": "2022-07-15T09:56:05Z",
+      "version": 1,
+      "changeset": 123644977,
+      "user": "l0cKy",
+      "uid": 6990611,
       "tags": {
         "amenity": "drinking_water"
       }
@@ -94024,6 +94021,40 @@
       "tags": {
         "amenity": "shelter",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1078760638,
+      "timestamp": "2022-07-15T09:15:00Z",
+      "version": 1,
+      "changeset": 123642904,
+      "user": "OSM-Bastler",
+      "uid": 670134,
+      "center": {
+        "lat": 48.1056124,
+        "lon": 16.8643555
+      },
+      "nodes": [],
+      "tags": {
+        "access": "yes",
+        "addr:city": "Petronell-Carnuntum",
+        "addr:housenumber": "28",
+        "addr:postcode": "2404",
+        "addr:street": "Brucker Straße",
+        "capacity:caravans": "8",
+        "capacity:tents": "15",
+        "caravans": "yes",
+        "drinking_water": "yes",
+        "fee": "yes",
+        "name": "Camping Peiritsch",
+        "operator": "Tennishalle & Camping Peiritsch",
+        "power_supply": "yes",
+        "shower": "yes",
+        "tents": "yes",
+        "toilets": "yes",
+        "tourism": "camp_site",
+        "website": "http://www.tennishalle-petronell.at/camping"
       }
     }
   ]

@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-07-14T23:59:59Z",
-    "timestamp_osm_base": "2022-07-15T04:26:52Z",
+    "timestamp_osm_date": "2022-07-15T23:59:59Z",
+    "timestamp_osm_base": "2022-07-16T03:59:45Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4896,10 +4896,10 @@
       "user": "3xodus",
       "uid": 8110903,
       "tags": {
-        "name": "7-Eleven",
-        "shop": "convenience",
+        "source_ref": "AM909_DSCP7476",
         "source": "image;survey;usgs_imagery",
-        "source_ref": "AM909_DSCP7476"
+        "name": "7-Eleven",
+        "shop": "convenience"
       }
     },
     {
@@ -5078,6 +5078,27 @@
         "name": "Bald Peak",
         "natural": "peak",
         "wikidata": "Q35725521"
+      }
+    },
+    {
+      "type": "node",
+      "id": 628641597,
+      "lat": 33.9672019,
+      "lon": -118.116444,
+      "timestamp": "2022-07-15T22:50:11Z",
+      "version": 2,
+      "changeset": 123671349,
+      "user": "Timothy Smith",
+      "uid": 115918,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Shell",
+        "brand:wikidata": "Q110716465",
+        "fuel:diesel": "yes",
+        "name": "Shell",
+        "shop": "convenience",
+        "source": "survey;image;usgs_imagery",
+        "source_ref": "AM909_DSCS2728"
       }
     },
     {
@@ -7791,10 +7812,10 @@
       "type": "node",
       "id": 1527196023,
       "lat": 33.9189987,
-      "lon": -117.8893899,
-      "timestamp": "2019-03-08T04:16:33Z",
-      "version": 3,
-      "changeset": 67908953,
+      "lon": -117.889389,
+      "timestamp": "2022-07-15T16:52:42Z",
+      "version": 4,
+      "changeset": 123661785,
       "user": "Timothy Smith",
       "uid": 115918,
       "tags": {
@@ -7802,7 +7823,8 @@
         "brand:wikidata": "Q7581369",
         "brand:wikipedia": "en:Sprouts Farmers Market",
         "name": "Sprouts Farmers Market",
-        "shop": "supermarket"
+        "shop": "supermarket",
+        "short_name": "Sprouts"
       }
     },
     {
@@ -9908,6 +9930,24 @@
     },
     {
       "type": "node",
+      "id": 2906670183,
+      "lat": 33.8471815,
+      "lon": -117.975888,
+      "timestamp": "2022-07-15T16:43:03Z",
+      "version": 2,
+      "changeset": 123661492,
+      "user": "Timothy Smith",
+      "uid": 115918,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "76",
+        "brand:wikidata": "Q1658320",
+        "name": "76",
+        "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
       "id": 2906670234,
       "lat": 33.8593984,
       "lon": -117.9807962,
@@ -11479,13 +11519,13 @@
       "user": "fossosm",
       "uid": 3686832,
       "tags": {
+        "shop": "convenience",
+        "addr:street": "Colima Road",
+        "name": "AMPM",
         "addr:city": "Hacienda Heights",
         "addr:housenumber": "17175",
         "addr:postcode": "91745",
-        "addr:state": "CA",
-        "addr:street": "Colima Road",
-        "name": "AMPM",
-        "shop": "convenience"
+        "addr:state": "CA"
       }
     },
     {
@@ -18222,9 +18262,9 @@
       "user": "Reiuji",
       "uid": 14255396,
       "tags": {
+        "shop": "convenience",
         "addr:street": "West Lincoln Avenue",
-        "name": "7 Eleven",
-        "shop": "convenience"
+        "name": "7 Eleven"
       }
     },
     {
@@ -18238,9 +18278,9 @@
       "user": "Reiuji",
       "uid": 14255396,
       "tags": {
+        "shop": "convenience",
         "addr:street": "West Ball Road",
-        "name": "7 Eleven",
-        "shop": "convenience"
+        "name": "7 Eleven"
       }
     },
     {
@@ -18301,15 +18341,17 @@
       "type": "node",
       "id": 9161255618,
       "lat": 33.8601894,
-      "lon": -118.0017756,
-      "timestamp": "2021-10-09T20:06:25Z",
-      "version": 1,
-      "changeset": 112313882,
-      "user": "Reiuji",
-      "uid": 14255396,
+      "lon": -118.001775,
+      "timestamp": "2022-07-15T16:35:04Z",
+      "version": 2,
+      "changeset": 123661219,
+      "user": "Timothy Smith",
+      "uid": 115918,
       "tags": {
         "addr:street": "Western Avenue",
-        "name": "Stater Bros",
+        "brand": "Stater Bros.",
+        "brand:wikidata": "Q7604016",
+        "name": "Stater Bros.",
         "shop": "supermarket"
       }
     },
@@ -19064,14 +19106,15 @@
       "id": 9465287886,
       "lat": 34.1576839,
       "lon": -118.0864452,
-      "timestamp": "2022-02-01T07:54:42Z",
-      "version": 1,
-      "changeset": 116854647,
-      "user": "LabM0nster",
-      "uid": 14989915,
+      "timestamp": "2022-07-15T00:53:13Z",
+      "version": 2,
+      "changeset": 123629765,
+      "user": "BubbaJuice",
+      "uid": 9941767,
       "tags": {
+        "access": "yes",
         "amenity": "drinking_water",
-        "access": "yes"
+        "fee": "no"
       }
     },
     {
@@ -19542,6 +19585,20 @@
         "brand:wikidata": "Q306960",
         "name": "ampm",
         "shop": "convenience"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9888688302,
+      "lat": 34.1572806,
+      "lon": -118.0863625,
+      "timestamp": "2022-07-15T00:53:13Z",
+      "version": 1,
+      "changeset": 123629765,
+      "user": "BubbaJuice",
+      "uid": 9941767,
+      "tags": {
+        "amenity": "drinking_water"
       }
     },
     {
@@ -20184,6 +20241,25 @@
     },
     {
       "type": "way",
+      "id": 124105135,
+      "timestamp": "2022-07-15T16:52:42Z",
+      "version": 4,
+      "changeset": 123661785,
+      "user": "Timothy Smith",
+      "uid": 115918,
+      "center": {
+        "lat": 33.9144318,
+        "lon": -117.9022491
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "gazebo"
+      }
+    },
+    {
+      "type": "way",
       "id": 124127756,
       "timestamp": "2019-06-16T18:52:46Z",
       "version": 5,
@@ -20378,11 +20454,11 @@
     {
       "type": "way",
       "id": 129613806,
-      "timestamp": "2019-02-18T23:40:44Z",
-      "version": 12,
-      "changeset": 67333686,
-      "user": "b-jazz-bot",
-      "uid": 9451067,
+      "timestamp": "2022-07-15T16:52:42Z",
+      "version": 13,
+      "changeset": 123661785,
+      "user": "Timothy Smith",
+      "uid": 115918,
       "center": {
         "lat": 33.9305728,
         "lon": -117.8930998
@@ -20393,8 +20469,11 @@
         "addr:housenumber": "780",
         "addr:postcode": "92821",
         "addr:street": "North Brea Boulevard",
+        "branch": "2326",
+        "brand": "Vons",
+        "brand:wikidata": "Q7941609",
         "building": "yes",
-        "name": "Vons 2326",
+        "name": "Vons",
         "old_name": "Safeway 2326",
         "opening_hours": "Mo-Su 05:00-01:00",
         "shop": "supermarket",
@@ -24526,24 +24605,30 @@
     {
       "type": "way",
       "id": 403902728,
-      "timestamp": "2018-02-24T21:39:29Z",
-      "version": 3,
-      "changeset": 56646599,
-      "user": "whereismystreet",
-      "uid": 7662246,
+      "timestamp": "2022-07-15T16:35:04Z",
+      "version": 4,
+      "changeset": 123661219,
+      "user": "Timothy Smith",
+      "uid": 115918,
       "center": {
         "lat": 33.869721,
         "lon": -118.082966
       },
       "nodes": [],
       "tags": {
+        "brand": "99 Ranch Market",
+        "brand:wikidata": "Q4646307",
         "building": "yes",
         "building:units": "1",
+        "cuisine": "asian",
         "ele": "28.8",
         "height": "11.1",
         "lacounty:ain": "7035014038",
         "lacounty:bld_id": "536491774897",
-        "name": "99 Ranch",
+        "name": "99 Ranch Market",
+        "name:en": "99 Ranch Market",
+        "name:zh-Hans": "大华超级市场",
+        "name:zh-Hant": "大華超級市場",
         "shop": "supermarket",
         "start_date": "2003"
       }
@@ -26609,6 +26694,25 @@
         "name": "Albertsons",
         "shop": "supermarket",
         "start_date": "1983"
+      }
+    },
+    {
+      "type": "way",
+      "id": 461267415,
+      "timestamp": "2022-07-15T22:50:11Z",
+      "version": 2,
+      "changeset": 123671349,
+      "user": "Timothy Smith",
+      "uid": 115918,
+      "center": {
+        "lat": 33.9347555,
+        "lon": -118.1023021
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "gazebo"
       }
     },
     {
@@ -29961,14 +30065,14 @@
       },
       "nodes": [],
       "tags": {
+        "start_date": "1975",
+        "shop": "convenience",
         "building": "yes",
         "ele": "77.0",
         "height": "5.3",
         "lacounty:ain": "8141036019",
         "lacounty:bld_id": "550177810701",
-        "name": "7-Eleven",
-        "shop": "convenience",
-        "start_date": "1975"
+        "name": "7-Eleven"
       }
     },
     {
@@ -31978,6 +32082,30 @@
     },
     {
       "type": "way",
+      "id": 556145994,
+      "timestamp": "2022-07-15T04:01:16Z",
+      "version": 2,
+      "changeset": 123632032,
+      "user": "BubbaJuice",
+      "uid": 9941767,
+      "center": {
+        "lat": 34.1504125,
+        "lon": -118.0828768
+      },
+      "nodes": [],
+      "tags": {
+        "brand": "76",
+        "brand:wikidata": "Q1658320",
+        "building": "yes",
+        "lacounty:ain": "5752020043",
+        "lacounty:bld_id": "PAS55029",
+        "name": "76",
+        "shop": "convenience",
+        "start_date": "1965"
+      }
+    },
+    {
+      "type": "way",
       "id": 558382892,
       "timestamp": "2018-02-04T01:13:30Z",
       "version": 1,
@@ -32922,13 +33050,13 @@
       },
       "nodes": [],
       "tags": {
+        "brand:wikidata": "Q154950",
         "addr:city": "La Habra",
         "addr:housenumber": "101",
         "addr:postcode": "90631",
         "addr:state": "CA",
         "addr:street": "East Imperial Highway",
         "brand": "Shell",
-        "brand:wikidata": "Q154950",
         "brand:wikipedia": "en:Royal Dutch Shell",
         "building": "yes",
         "name": "Shell",
@@ -40922,11 +41050,11 @@
     {
       "type": "way",
       "id": 1061800620,
-      "timestamp": "2022-05-19T16:35:07Z",
-      "version": 1,
-      "changeset": 121203790,
-      "user": "VLD193",
-      "uid": 14737971,
+      "timestamp": "2022-07-15T16:52:42Z",
+      "version": 2,
+      "changeset": 123661785,
+      "user": "Timothy Smith",
+      "uid": 115918,
       "center": {
         "lat": 33.8466999,
         "lon": -117.9049791
@@ -40938,6 +41066,8 @@
         "addr:postcode": "92805",
         "addr:state": "CA",
         "addr:street": "North East Street",
+        "brand": "ampm",
+        "brand:wikidata": "Q306960",
         "building": "yes",
         "height": "5.49",
         "name": "ampm",
