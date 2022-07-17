@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-15T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-16T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10909145,
-      "timestamp": "2022-06-14T09:11:28Z",
-      "version": 1525,
-      "changeset": 122362320,
-      "user": "micheleOSM3",
-      "uid": 3538539,
+      "timestamp": "2022-07-16T14:33:11Z",
+      "version": 1527,
+      "changeset": 123691709,
+      "user": "WaWei",
+      "uid": 9940746,
       "members": [
         {"type": "node", "ref": 4007110375, "role": ""},
         {"type": "way", "ref": 1004393561, "role": ""},
@@ -1096,9 +1096,10 @@
         {"type": "way", "ref": 250569239, "role": ""},
         {"type": "way", "ref": 250569238, "role": ""},
         {"type": "way", "ref": 250570210, "role": ""},
+        {"type": "way", "ref": 1079040621, "role": ""},
         {"type": "way", "ref": 445557271, "role": ""},
         {"type": "way", "ref": 445557270, "role": ""},
-        {"type": "way", "ref": 445557266, "role": ""},
+        {"type": "way", "ref": 1079038576, "role": ""},
         {"type": "way", "ref": 458814893, "role": ""},
         {"type": "way", "ref": 27440228, "role": ""},
         {"type": "way", "ref": 27440227, "role": ""},
@@ -5479,6 +5480,53 @@
         "surface": "gravel",
         "trail_visibility": "excellent",
         "width": "1"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1079038576,
+      "timestamp": "2022-07-16T14:22:11Z",
+      "version": 1,
+      "changeset": 123691353,
+      "user": "WaWei",
+      "uid": 9940746,
+      "nodes": [4429654776, 301286027],
+      "geometry": [
+        {"lat": 46.4000389, "lon": 13.1844196},
+        {"lat": 46.4000141, "lon": 13.185257},
+        {"lat": 46.4000285, "lon": 13.1856217},
+        {"lat": 46.3999983, "lon": 13.1857965},
+        {"lat": 46.3999608, "lon": 13.185817}
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "cycleway",
+        "incline": "0%",
+        "surface": "asphalt",
+        "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1079040621,
+      "timestamp": "2022-07-16T14:33:11Z",
+      "version": 1,
+      "changeset": 123691709,
+      "user": "WaWei",
+      "uid": 9940746,
+      "nodes": [2569926014, 9891669596],
+      "geometry": [
+        {"lat": 46.3983434, "lon": 13.1808265},
+        {"lat": 46.3984891, "lon": 13.1813445}
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "cycleway",
+        "incline": "0%",
+        "railway": "abandoned",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "width": "3"
       }
     },
     {
@@ -27605,14 +27653,14 @@
     {
       "type": "way",
       "id": 250570210,
-      "timestamp": "2020-04-17T14:34:24Z",
-      "version": 7,
-      "changeset": 83712666,
-      "user": "Wulz",
-      "uid": 10773975,
-      "nodes": [2569926014, 2569926033],
+      "timestamp": "2022-07-16T14:33:11Z",
+      "version": 8,
+      "changeset": 123691709,
+      "user": "WaWei",
+      "uid": 9940746,
+      "nodes": [9891669596, 2569926033],
       "geometry": [
-        {"lat": 46.3983434, "lon": 13.1808265},
+        {"lat": 46.3984891, "lon": 13.1813445},
         {"lat": 46.3990365, "lon": 13.1832905},
         {"lat": 46.3991152, "lon": 13.1835592},
         {"lat": 46.3991546, "lon": 13.1837876}
@@ -47868,44 +47916,6 @@
         "sac_scale": "hiking",
         "surface": "grass",
         "width": "2"
-      }
-    },
-    {
-      "type": "way",
-      "id": 445557266,
-      "timestamp": "2020-06-28T13:16:22Z",
-      "version": 3,
-      "changeset": 87250159,
-      "user": "WaWei",
-      "uid": 9940746,
-      "nodes": [4429654763, 301286027],
-      "geometry": [
-        {"lat": 46.3984829, "lon": 13.1801318},
-        {"lat": 46.3985327, "lon": 13.180132},
-        {"lat": 46.398602, "lon": 13.1801823},
-        {"lat": 46.3986613, "lon": 13.1803386},
-        {"lat": 46.398805, "lon": 13.1806668},
-        {"lat": 46.3990512, "lon": 13.1811462},
-        {"lat": 46.3992955, "lon": 13.1814562},
-        {"lat": 46.3995794, "lon": 13.1818652},
-        {"lat": 46.3997716, "lon": 13.1823054},
-        {"lat": 46.3999045, "lon": 13.1826832},
-        {"lat": 46.4000303, "lon": 13.1830557},
-        {"lat": 46.4000824, "lon": 13.1834334},
-        {"lat": 46.4001129, "lon": 13.1836887},
-        {"lat": 46.4000896, "lon": 13.1839336},
-        {"lat": 46.4000303, "lon": 13.184353},
-        {"lat": 46.4000141, "lon": 13.185257},
-        {"lat": 46.4000285, "lon": 13.1856217},
-        {"lat": 46.3999983, "lon": 13.1857965},
-        {"lat": 46.3999608, "lon": 13.185817}
-      ],
-      "tags": {
-        "foot": "yes",
-        "highway": "cycleway",
-        "incline": "0%",
-        "surface": "asphalt",
-        "width": "3"
       }
     },
     {
