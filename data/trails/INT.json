@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-17T03:44:39Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-18T03:47:39Z"},
   "elements": [
     {
       "type": "relation",
       "id": 282071,
-      "timestamp": "2022-07-12T07:04:20Z",
-      "version": 1810,
-      "changeset": 123502949,
+      "timestamp": "2022-07-17T13:22:44Z",
+      "version": 1811,
+      "changeset": 123721090,
       "user": "hatul",
       "uid": 686490,
       "members": [
@@ -104,6 +104,8 @@
         {"type": "way", "ref": 446072273, "role": ""},
         {"type": "way", "ref": 446072274, "role": ""},
         {"type": "way", "ref": 446072286, "role": ""},
+        {"type": "way", "ref": 1079227992, "role": ""},
+        {"type": "way", "ref": 1079227993, "role": ""},
         {"type": "way", "ref": 446072283, "role": ""},
         {"type": "way", "ref": 446714889, "role": ""},
         {"type": "way", "ref": 446714891, "role": ""},
@@ -5669,6 +5671,38 @@
         {"lat": 30.5965615, "lon": 34.9346413, "z": 486.6}
       ],
       "tags": {"colour": "black", "highway": "path"}
+    },
+    {
+      "type": "way",
+      "id": 1079227992,
+      "timestamp": "2022-07-17T13:22:44Z",
+      "version": 1,
+      "changeset": 123721090,
+      "user": "hatul",
+      "uid": 686490,
+      "nodes": [2957733733, 526964286],
+      "geometry": [
+        {"lat": 32.9792451, "lon": 35.4410599, "z": 671.6},
+        {"lat": 32.9792568, "lon": 35.4412655, "z": 669.5},
+        {"lat": 32.9791824, "lon": 35.4415028, "z": 665.3},
+        {"lat": 32.9789901, "lon": 35.4421167, "z": 658.6}
+      ],
+      "tags": {"colour": "purple", "highway": "track", "surface": "dirt"}
+    },
+    {
+      "type": "way",
+      "id": 1079227993,
+      "timestamp": "2022-07-17T13:22:44Z",
+      "version": 1,
+      "changeset": 123721090,
+      "user": "hatul",
+      "uid": 686490,
+      "nodes": [526964286, 4434032305],
+      "geometry": [
+        {"lat": 32.9789901, "lon": 35.4421167, "z": 658.6},
+        {"lat": 32.979027, "lon": 35.4423736, "z": 658.7}
+      ],
+      "tags": {"colour": "purple", "highway": "track", "surface": "dirt"}
     },
     {
       "type": "way",
@@ -34115,22 +34149,23 @@
     {
       "type": "way",
       "id": 446072283,
-      "timestamp": "2021-10-10T21:20:36Z",
-      "version": 4,
-      "changeset": 112349473,
-      "user": "zstadler",
-      "uid": 3127,
-      "nodes": [2957733733, 427697617],
+      "timestamp": "2022-07-17T13:22:44Z",
+      "version": 5,
+      "changeset": 123721090,
+      "user": "hatul",
+      "uid": 686490,
+      "nodes": [4434032305, 427697617],
       "geometry": [
-        {"lat": 32.9792451, "lon": 35.4410599, "z": 671.6},
-        {"lat": 32.9792568, "lon": 35.4412655, "z": 669.5},
-        {"lat": 32.9791824, "lon": 35.4415028, "z": 665.3},
-        {"lat": 32.9789901, "lon": 35.4421167, "z": 658.6},
         {"lat": 32.979027, "lon": 35.4423736, "z": 658.7},
         {"lat": 32.9790794, "lon": 35.4425821, "z": 659.6},
         {"lat": 32.979473, "lon": 35.4433384, "z": 658.7}
       ],
-      "tags": {"colour": "purple", "highway": "track", "surface": "dirt"}
+      "tags": {
+        "colour": "purple",
+        "highway": "track",
+        "surface": "unpaved",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
@@ -47008,7 +47043,7 @@
         {"lat": 32.111979, "lon": 34.9130636, "z": 25},
         {"lat": 32.1119183, "lon": 34.912789, "z": 24.9},
         {"lat": 32.1120435, "lon": 34.9123876, "z": 24.4},
-        {"lat": 32.1121932, "lon": 34.9120464, "z": 23.8},
+        {"lat": 32.1121743, "lon": 34.9120347, "z": 23.8},
         {"lat": 32.1121954, "lon": 34.9116379, "z": 22.9}
       ],
       "tags": {"highway": "track", "source": "GPS", "tracktype": "grade2"}
