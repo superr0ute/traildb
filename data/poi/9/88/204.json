@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-07-16T23:59:59Z",
-    "timestamp_osm_base": "2022-07-17T04:17:09Z",
+    "timestamp_osm_date": "2022-07-17T23:59:59Z",
+    "timestamp_osm_base": "2022-07-18T04:21:20Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4978,6 +4978,49 @@
         "shop": "convenience",
         "source": "survey;image;usgs_imagery",
         "source_ref": "AM909_DSCQ1080"
+      }
+    },
+    {
+      "type": "node",
+      "id": 580751411,
+      "lat": 34.0514289,
+      "lon": -118.000031,
+      "timestamp": "2022-07-17T04:13:49Z",
+      "version": 3,
+      "changeset": 123707555,
+      "user": "Timothy Smith",
+      "uid": 115918,
+      "tags": {
+        "amenity": "fuel",
+        "atm": "yes",
+        "brand": "76",
+        "brand:wikidata": "Q1658320",
+        "fuel:diesel": "yes",
+        "name": "76",
+        "shop": "convenience",
+        "source": "bing_imagery_0.06m_200801;survey;image",
+        "source_ref": "AM909_DSCQ1175"
+      }
+    },
+    {
+      "type": "node",
+      "id": 580751561,
+      "lat": 34.0348258,
+      "lon": -117.97527,
+      "timestamp": "2022-07-17T04:13:49Z",
+      "version": 2,
+      "changeset": 123707555,
+      "user": "Timothy Smith",
+      "uid": 115918,
+      "tags": {
+        "amenity": "fuel",
+        "brand": "Shell",
+        "brand:wikidata": "Q110716465",
+        "fuel:diesel": "yes",
+        "name": "Shell",
+        "shop": "convenience",
+        "source": "survey;image;usgs_imagery",
+        "source_ref": "AM909_DSCQ1195"
       }
     },
     {
@@ -11601,20 +11644,22 @@
       "type": "node",
       "id": 4047327242,
       "lat": 33.9958827,
-      "lon": -117.8878624,
-      "timestamp": "2016-03-08T05:21:26Z",
-      "version": 1,
-      "changeset": 37679216,
-      "user": "fossosm",
-      "uid": 3686832,
+      "lon": -117.887862,
+      "timestamp": "2022-07-17T03:41:46Z",
+      "version": 2,
+      "changeset": 123707266,
+      "user": "Timothy Smith",
+      "uid": 115918,
       "tags": {
-        "shop": "convenience",
-        "addr:street": "South Nogales Street",
-        "name": "AMPM",
         "addr:city": "Rowland Heights",
         "addr:housenumber": "1100",
         "addr:postcode": "91748",
-        "addr:state": "CA"
+        "addr:state": "CA",
+        "addr:street": "South Nogales Street",
+        "brand": "ampm",
+        "brand:wikidata": "Q306960",
+        "name": "ampm",
+        "shop": "convenience"
       }
     },
     {
@@ -11635,29 +11680,6 @@
         "addr:street": "Colima Road",
         "brand": "ampm",
         "brand:wikidata": "Q306960",
-        "name": "ampm",
-        "shop": "convenience"
-      }
-    },
-    {
-      "type": "node",
-      "id": 4047375255,
-      "lat": 34.0050626,
-      "lon": -117.9655396,
-      "timestamp": "2020-02-25T15:34:11Z",
-      "version": 2,
-      "changeset": 81462017,
-      "user": "mapman44",
-      "uid": 2888253,
-      "tags": {
-        "addr:city": "Hacienda Heights",
-        "addr:housenumber": "1401",
-        "addr:postcode": "91745",
-        "addr:state": "CA",
-        "addr:street": "South Hacienda Boulevard",
-        "brand": "ampm",
-        "brand:wikidata": "Q306960",
-        "brand:wikipedia": "en:Ampm",
         "name": "ampm",
         "shop": "convenience"
       }
@@ -12132,21 +12154,25 @@
       "type": "node",
       "id": 4283574289,
       "lat": 34.083305,
-      "lon": -117.9686096,
-      "timestamp": "2016-07-05T04:17:36Z",
-      "version": 1,
-      "changeset": 40491081,
-      "user": "TFOOTE",
-      "uid": 4003734,
+      "lon": -117.968609,
+      "timestamp": "2022-07-17T03:29:00Z",
+      "version": 2,
+      "changeset": 123707158,
+      "user": "Timothy Smith",
+      "uid": 115918,
       "tags": {
-        "website": "http://vallartasupermarkets.com",
-        "shop": "supermarket",
-        "phone": "(626) 480-8960",
-        "name": "Vallarta Supermarket",
-        "opening_hours": "Mo-Su 06:30-23:00",
         "addr:housenumber": "13940",
         "addr:postcode": "91706",
-        "addr:street": "Ramona Parkway"
+        "addr:street": "Ramona Parkway",
+        "brand": "Vallarta",
+        "brand:wikidata": "Q7911833",
+        "cuisine": "latin_american",
+        "name": "Vallarta",
+        "official_name": "Vallarta Supermarkets",
+        "opening_hours": "Mo-Su 06:30-23:00",
+        "phone": "(626) 480-8960",
+        "shop": "supermarket",
+        "website": "http://vallartasupermarkets.com"
       }
     },
     {
@@ -20979,6 +21005,10 @@
       },
       "nodes": [],
       "tags": {
+        "website": "https://local.vons.com/ca/huntington-beach-2090.html",
+        "shop": "supermarket",
+        "ref": "2090",
+        "name": "Vons 2090",
         "addr:city": "Huntington Beach",
         "addr:housenumber": "5922",
         "addr:postcode": "92649",
@@ -20986,11 +21016,7 @@
         "building": "yes",
         "designation": "Safeway 2090",
         "height": "3.4",
-        "name": "Vons 2090",
-        "opening_hours": "06:00-01:00",
-        "ref": "2090",
-        "shop": "supermarket",
-        "website": "https://local.vons.com/ca/huntington-beach-2090.html"
+        "opening_hours": "06:00-01:00"
       }
     },
     {
@@ -24715,6 +24741,38 @@
         "building": "yes",
         "name": "ampm",
         "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 402322932,
+      "timestamp": "2022-07-17T03:41:46Z",
+      "version": 3,
+      "changeset": 123707266,
+      "user": "Timothy Smith",
+      "uid": 115918,
+      "center": {
+        "lat": 34.0050626,
+        "lon": -117.9655312
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Hacienda Heights",
+        "addr:housenumber": "1401",
+        "addr:postcode": "91745",
+        "addr:state": "CA",
+        "addr:street": "South Hacienda Boulevard",
+        "brand": "ampm",
+        "brand:wikidata": "Q306960",
+        "brand:wikipedia": "en:Ampm",
+        "building": "commercial",
+        "ele": "113.6",
+        "height": "4.4",
+        "lacounty:ain": "8219019047",
+        "lacounty:bld_id": "572121824225",
+        "name": "ampm",
+        "shop": "convenience",
+        "start_date": "1989"
       }
     },
     {
@@ -29355,18 +29413,17 @@
     {
       "type": "way",
       "id": 470644925,
-      "timestamp": "2020-11-10T21:04:15Z",
-      "version": 4,
-      "changeset": 93883937,
-      "user": "heimweh17",
-      "uid": 11725977,
+      "timestamp": "2022-07-17T03:41:46Z",
+      "version": 5,
+      "changeset": 123707266,
+      "user": "Timothy Smith",
+      "uid": 115918,
       "center": {
         "lat": 33.9984293,
         "lon": -117.9322878
       },
       "nodes": [],
       "tags": {
-        "website": "https://www.walmart.com/store/2251/city-of%20industry-ca/whats-new",
         "addr:city": "City Of Industry",
         "addr:country": "US",
         "addr:housenumber": "17150",
@@ -29388,7 +29445,8 @@
         "phone": "+1-626-854-1166",
         "ref:walmart": "2251",
         "shop": "supermarket",
-        "start_date": "1995"
+        "start_date": "1995",
+        "website": "https://www.walmart.com/store/2251-city-of-industry-ca"
       }
     },
     {
