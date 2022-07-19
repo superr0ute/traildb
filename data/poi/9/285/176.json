@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-07-17T23:59:59Z",
-    "timestamp_osm_base": "2022-07-18T07:24:09Z",
+    "timestamp_osm_date": "2022-07-18T23:59:59Z",
+    "timestamp_osm_base": "2022-07-19T07:27:02Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -536,13 +536,12 @@
       "id": 26036582,
       "lat": 48.6330044,
       "lon": 20.5517553,
-      "timestamp": "2022-01-23T18:53:16Z",
-      "version": 7,
-      "changeset": 116511329,
-      "user": "Filip009",
-      "uid": 10553599,
+      "timestamp": "2022-07-18T06:10:46Z",
+      "version": 8,
+      "changeset": 123744527,
+      "user": "Dodko",
+      "uid": 1944033,
       "tags": {
-        "wikidata": "Q786635",
         "city_id": "560049",
         "ele": "290",
         "import_ref": "city_import_sk_1",
@@ -553,7 +552,9 @@
         "population": "714",
         "postal_code": "049 45",
         "region_id": "808",
-        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk"
+        "source:name": "http://earth-info.nga.mil/gns/html/cntry_files.html,www.statistics.sk",
+        "website": "https://www.obecjovice.sk/",
+        "wikidata": "Q786635"
       }
     },
     {
@@ -24973,6 +24974,60 @@
         "shop": "convenience",
         "source": "kapor2",
         "source:addr": "minvskaddress 2021-10"
+      }
+    },
+    {
+      "type": "way",
+      "id": 71772498,
+      "timestamp": "2022-07-18T06:22:58Z",
+      "version": 2,
+      "changeset": 123744527,
+      "user": "Dodko",
+      "uid": 1944033,
+      "center": {
+        "lat": 48.6322386,
+        "lon": 20.5525519
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "import": "budovy201004",
+        "shelter_type": "public_transport",
+        "source": "Ortofotomozaika SR"
+      }
+    },
+    {
+      "type": "way",
+      "id": 71772553,
+      "timestamp": "2022-07-18T06:10:46Z",
+      "version": 6,
+      "changeset": 123744527,
+      "user": "Dodko",
+      "uid": 1944033,
+      "center": {
+        "lat": 48.6325116,
+        "lon": 20.5530544
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Jovice",
+        "addr:conscriptionnumber": "75",
+        "addr:housenumber": "75/2",
+        "addr:postcode": "04945",
+        "addr:street": "Jasná",
+        "addr:streetnumber": "2",
+        "building": "commercial",
+        "import": "budovy201004",
+        "mobile": "+421 905 906 019",
+        "name": "COOP Jednota",
+        "opening_hours": "Mo-Fr 06:45-12:00,13:00-16:00; Sa 07:00-11:00",
+        "phone": "+421 58 734 7024",
+        "ref:minvskaddress": "26915559",
+        "shop": "convenience",
+        "source": "kapor2",
+        "source:conscriptionnumber": "kapor2",
+        "source:streetnumber": "minvskaddress 2020-11"
       }
     },
     {
