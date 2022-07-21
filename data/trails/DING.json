@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-18T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-20T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -218,11 +218,11 @@
     {
       "type": "relation",
       "id": 8814381,
-      "timestamp": "2022-03-01T15:36:52Z",
-      "version": 4,
-      "changeset": 117984482,
-      "user": "isvedic",
-      "uid": 331318,
+      "timestamp": "2022-07-20T05:44:42Z",
+      "version": 5,
+      "changeset": 123832935,
+      "user": "gscholz",
+      "uid": 109705,
       "members": [
         {"type": "way", "ref": 273324024, "role": ""},
         {"type": "way", "ref": 908483580, "role": ""},
@@ -245,6 +245,8 @@
         {"type": "way", "ref": 224873162, "role": ""},
         {"type": "way", "ref": 374160643, "role": ""},
         {"type": "way", "ref": 374160645, "role": ""},
+        {"type": "way", "ref": 1079922818, "role": ""},
+        {"type": "way", "ref": 1079922819, "role": ""},
         {"type": "way", "ref": 381091056, "role": ""},
         {"type": "way", "ref": 484830404, "role": ""},
         {"type": "way", "ref": 484830402, "role": ""},
@@ -851,6 +853,46 @@
         "highway": "footway",
         "sac_scale": "mountain_hiking",
         "trail_visibility": "bad"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1079922818,
+      "timestamp": "2022-07-20T05:44:42Z",
+      "version": 1,
+      "changeset": 123832935,
+      "user": "gscholz",
+      "uid": 109705,
+      "nodes": [3775519856, 3775520564],
+      "geometry": [
+        {"lat": 45.2550308, "lon": 15.1983707},
+        {"lat": 45.2548163, "lon": 15.1986457},
+        {"lat": 45.2543807, "lon": 15.2000232}
+      ],
+      "tags": {"highway": "track", "surface": "unpaved"}
+    },
+    {
+      "type": "way",
+      "id": 1079922819,
+      "timestamp": "2022-07-20T05:44:42Z",
+      "version": 1,
+      "changeset": 123832935,
+      "user": "gscholz",
+      "uid": 109705,
+      "nodes": [3775519851, 3775519856],
+      "geometry": [
+        {"lat": 45.2553044, "lon": 15.1974221},
+        {"lat": 45.255309, "lon": 15.1975407},
+        {"lat": 45.255309, "lon": 15.197791},
+        {"lat": 45.2552766, "lon": 15.1980808},
+        {"lat": 45.2551653, "lon": 15.1982192},
+        {"lat": 45.2550308, "lon": 15.1983707}
+      ],
+      "tags": {
+        "highway": "path",
+        "name": "Planinarska staza",
+        "sac_scale": "hiking",
+        "surface": "dirt"
       }
     },
     {
@@ -6277,20 +6319,13 @@
     {
       "type": "way",
       "id": 374160645,
-      "timestamp": "2022-01-29T16:11:51Z",
-      "version": 2,
-      "changeset": 116750623,
-      "user": "isvedic",
-      "uid": 331318,
-      "nodes": [3775519851, 3775520604],
+      "timestamp": "2022-07-20T05:44:42Z",
+      "version": 3,
+      "changeset": 123832935,
+      "user": "gscholz",
+      "uid": 109705,
+      "nodes": [3775520564, 3775520604],
       "geometry": [
-        {"lat": 45.2553044, "lon": 15.1974221},
-        {"lat": 45.255309, "lon": 15.1975407},
-        {"lat": 45.255309, "lon": 15.197791},
-        {"lat": 45.2552766, "lon": 15.1980808},
-        {"lat": 45.2551653, "lon": 15.1982192},
-        {"lat": 45.2550308, "lon": 15.1983707},
-        {"lat": 45.2548163, "lon": 15.1986457},
         {"lat": 45.2543807, "lon": 15.2000232},
         {"lat": 45.2544326, "lon": 15.2002151},
         {"lat": 45.2544373, "lon": 15.2005181},

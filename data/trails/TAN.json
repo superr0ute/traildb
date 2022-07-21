@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-18T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-20T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -589,11 +589,11 @@
     {
       "type": "relation",
       "id": 9448532,
-      "timestamp": "2021-12-09T20:24:10Z",
-      "version": 23,
-      "changeset": 114758681,
-      "user": "asgw",
-      "uid": 410700,
+      "timestamp": "2022-07-20T05:47:47Z",
+      "version": 24,
+      "changeset": 123833051,
+      "user": "jmar312",
+      "uid": 8343123,
       "members": [
         {"type": "way", "ref": 362515215, "role": ""},
         {"type": "way", "ref": 640846056, "role": ""},
@@ -607,6 +607,7 @@
         {"type": "way", "ref": 263451908, "role": ""},
         {"type": "way", "ref": 288403634, "role": ""},
         {"type": "way", "ref": 208546712, "role": ""},
+        {"type": "way", "ref": 1079923130, "role": ""},
         {"type": "way", "ref": 288402983, "role": ""},
         {"type": "way", "ref": 288402976, "role": ""},
         {"type": "way", "ref": 676663418, "role": ""},
@@ -8371,6 +8372,21 @@
     },
     {
       "type": "way",
+      "id": 1079923130,
+      "timestamp": "2022-07-20T05:47:47Z",
+      "version": 1,
+      "changeset": 123833051,
+      "user": "jmar312",
+      "uid": 8343123,
+      "nodes": [2188333285, 6332083537],
+      "geometry": [
+        {"lat": -41.2888622, "lon": 174.777674},
+        {"lat": -41.2888822, "lon": 174.7778511}
+      ],
+      "tags": {"highway": "path", "name": "City to Sea Bridge Walkway"}
+    },
+    {
+      "type": "way",
       "id": 108555905,
       "timestamp": "2020-09-03T09:00:17Z",
       "version": 7,
@@ -11855,18 +11871,28 @@
     {
       "type": "way",
       "id": 153924647,
-      "timestamp": "2019-01-02T04:45:21Z",
-      "version": 5,
-      "changeset": 65948421,
-      "user": "RandomEditor",
-      "uid": 8498292,
+      "timestamp": "2022-07-20T05:47:47Z",
+      "version": 6,
+      "changeset": 123833051,
+      "user": "jmar312",
+      "uid": 8343123,
       "nodes": [1197576604, 2188341385],
       "geometry": [
         {"lat": -41.2879087, "lon": 174.7794413},
+        {"lat": -41.2879173, "lon": 174.7791807},
+        {"lat": -41.2879391, "lon": 174.7789838},
+        {"lat": -41.2880057, "lon": 174.7789986},
+        {"lat": -41.2880316, "lon": 174.7789827},
+        {"lat": -41.2880445, "lon": 174.7789584},
+        {"lat": -41.2880539, "lon": 174.7789271},
+        {"lat": -41.2880515, "lon": 174.7788931},
+        {"lat": -41.288038, "lon": 174.778868},
+        {"lat": -41.2880209, "lon": 174.778851},
+        {"lat": -41.2879581, "lon": 174.7788357},
         {"lat": -41.2879816, "lon": 174.7786463},
         {"lat": -41.2879903, "lon": 174.7785552}
       ],
-      "tags": {"highway": "path"}
+      "tags": {"highway": "path", "surface": "asphalt"}
     },
     {
       "type": "way",
@@ -25473,11 +25499,11 @@
     {
       "type": "way",
       "id": 208547591,
-      "timestamp": "2020-12-21T07:13:55Z",
-      "version": 2,
-      "changeset": 96173688,
-      "user": "Zismac",
-      "uid": 9957668,
+      "timestamp": "2022-07-20T05:47:47Z",
+      "version": 3,
+      "changeset": 123833051,
+      "user": "jmar312",
+      "uid": 8343123,
       "nodes": [2188341385, 2188341413],
       "geometry": [
         {"lat": -41.2879903, "lon": 174.7785552},
@@ -25485,7 +25511,7 @@
         {"lat": -41.2882791, "lon": 174.7786156},
         {"lat": -41.288304, "lon": 174.7786208}
       ],
-      "tags": {"highway": "path"}
+      "tags": {"highway": "path", "surface": "wood"}
     },
     {
       "type": "way",
@@ -40193,11 +40219,11 @@
     {
       "type": "way",
       "id": 288402976,
-      "timestamp": "2017-01-26T00:45:45Z",
-      "version": 2,
-      "changeset": 45495256,
-      "user": "rabon",
-      "uid": 1972608,
+      "timestamp": "2022-07-20T05:47:47Z",
+      "version": 3,
+      "changeset": 123833051,
+      "user": "jmar312",
+      "uid": 8343123,
       "nodes": [2188341415, 2919693486],
       "geometry": [
         {"lat": -41.2885332, "lon": 174.7786312},
@@ -40208,35 +40234,39 @@
         "bridge": "yes",
         "highway": "path",
         "layer": "1",
-        "name": "City to Sea Bridge Walkway"
+        "name": "City to Sea Bridge Walkway",
+        "surface": "paved"
       }
     },
     {
       "type": "way",
       "id": 288402983,
-      "timestamp": "2019-03-11T23:54:41Z",
-      "version": 2,
-      "changeset": 68042375,
-      "user": "AlwynWellington",
-      "uid": 567640,
-      "nodes": [2188333285, 2919693486],
+      "timestamp": "2022-07-20T05:47:47Z",
+      "version": 3,
+      "changeset": 123833051,
+      "user": "jmar312",
+      "uid": 8343123,
+      "nodes": [6332083537, 2919693486],
       "geometry": [
-        {"lat": -41.2888622, "lon": 174.777674},
         {"lat": -41.2888822, "lon": 174.7778511},
-        {"lat": -41.2889062, "lon": 174.778064},
-        {"lat": -41.2888684, "lon": 174.7783383},
+        {"lat": -41.2889042, "lon": 174.7780224},
+        {"lat": -41.2888684, "lon": 174.7783195},
         {"lat": -41.2888309, "lon": 174.7783344}
       ],
-      "tags": {"highway": "path", "name": "City to Sea Bridge Walkway"}
+      "tags": {
+        "highway": "path",
+        "name": "City to Sea Bridge Walkway",
+        "surface": "paved"
+      }
     },
     {
       "type": "way",
       "id": 288403634,
-      "timestamp": "2021-12-23T21:43:06Z",
-      "version": 5,
-      "changeset": 115313797,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-07-20T05:47:47Z",
+      "version": 6,
+      "changeset": 123833051,
+      "user": "jmar312",
+      "uid": 8343123,
       "nodes": [2188333292, 4301689440],
       "geometry": [
         {"lat": -41.2888261, "lon": 174.7775225},
@@ -40246,7 +40276,7 @@
         {"lat": -41.2886881, "lon": 174.7765796},
         {"lat": -41.2886012, "lon": 174.7762645}
       ],
-      "tags": {"highway": "path"}
+      "tags": {"highway": "path", "surface": "paved"}
     },
     {
       "type": "way",
@@ -80536,11 +80566,11 @@
     {
       "type": "way",
       "id": 676142212,
-      "timestamp": "2019-03-11T23:54:39Z",
-      "version": 1,
-      "changeset": 68042375,
-      "user": "AlwynWellington",
-      "uid": 567640,
+      "timestamp": "2022-07-20T05:47:47Z",
+      "version": 2,
+      "changeset": 123833051,
+      "user": "jmar312",
+      "uid": 8343123,
       "nodes": [6332083535, 6030940988],
       "geometry": [
         {"lat": -41.289644, "lon": 174.7804606},
@@ -80551,17 +80581,18 @@
         "foot": "yes",
         "highway": "path",
         "name": "Te Papa Promenade",
-        "segregated": "no"
+        "segregated": "no",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 676142213,
-      "timestamp": "2019-03-11T23:54:40Z",
-      "version": 1,
-      "changeset": 68042375,
-      "user": "AlwynWellington",
-      "uid": 567640,
+      "timestamp": "2022-07-20T05:47:47Z",
+      "version": 2,
+      "changeset": 123833051,
+      "user": "jmar312",
+      "uid": 8343123,
       "nodes": [6332083536, 6332083535],
       "geometry": [
         {"lat": -41.2896356, "lon": 174.7805705},
@@ -80574,7 +80605,8 @@
         "highway": "path",
         "layer": "1",
         "name": "Te Papa Promenade",
-        "segregated": "no"
+        "segregated": "no",
+        "surface": "wood"
       }
     },
     {
@@ -81696,15 +81728,15 @@
     {
       "type": "way",
       "id": 680246483,
-      "timestamp": "2019-03-29T02:22:31Z",
-      "version": 1,
-      "changeset": 68649153,
+      "timestamp": "2022-07-20T05:47:47Z",
+      "version": 2,
+      "changeset": 123833051,
       "user": "jmar312",
       "uid": 8343123,
       "nodes": [6332083532, 6332083533],
       "geometry": [
         {"lat": -41.2905723, "lon": 174.784017},
-        {"lat": -41.2906153, "lon": 174.7835521}
+        {"lat": -41.2906161, "lon": 174.783552}
       ],
       "tags": {
         "bicycle": "yes",
@@ -81713,7 +81745,8 @@
         "highway": "path",
         "layer": "1",
         "name": "Ara Moana",
-        "segregated": "no"
+        "segregated": "no",
+        "surface": "wood"
       }
     },
     {
@@ -91664,15 +91697,17 @@
     {
       "type": "way",
       "id": 81133958,
-      "timestamp": "2021-07-06T21:23:59Z",
-      "version": 8,
-      "changeset": 107521966,
-      "user": "kylenz",
-      "uid": 10140394,
+      "timestamp": "2022-07-20T22:12:18Z",
+      "version": 9,
+      "changeset": 123868372,
+      "user": "ChookMan",
+      "uid": 11144302,
       "nodes": [4011938082, 2780589785],
       "geometry": [
         {"lat": -37.0062306, "lon": 174.8449435},
         {"lat": -37.0062573, "lon": 174.8450488},
+        {"lat": -37.0062857, "lon": 174.8451698},
+        {"lat": -37.0062841, "lon": 174.8452211},
         {"lat": -37.006236, "lon": 174.8452996},
         {"lat": -37.0060521, "lon": 174.8454595},
         {"lat": -37.0058471, "lon": 174.8455107},
@@ -96822,14 +96857,15 @@
     {
       "type": "way",
       "id": 85454488,
-      "timestamp": "2022-03-24T05:42:27Z",
-      "version": 13,
-      "changeset": 118847264,
-      "user": "VaibhavNZ",
-      "uid": 4164103,
+      "timestamp": "2022-07-20T05:47:47Z",
+      "version": 14,
+      "changeset": 123833051,
+      "user": "jmar312",
+      "uid": 8343123,
       "nodes": [266942004, 6332083532],
       "geometry": [
         {"lat": -41.2906421, "lon": 174.7859359},
+        {"lat": -41.2905948, "lon": 174.7854832},
         {"lat": -41.2905104, "lon": 174.7846618},
         {"lat": -41.2905183, "lon": 174.7845816},
         {"lat": -41.2905691, "lon": 174.784055},
@@ -96840,17 +96876,18 @@
         "foot": "yes",
         "highway": "path",
         "name": "Ara Moana",
-        "segregated": "no"
+        "segregated": "no",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 85456116,
-      "timestamp": "2021-10-30T04:13:24Z",
-      "version": 22,
-      "changeset": 113147361,
-      "user": "michael60634",
-      "uid": 10036384,
+      "timestamp": "2022-07-20T02:49:27Z",
+      "version": 23,
+      "changeset": 123829527,
+      "user": "jmar312",
+      "uid": 8343123,
       "nodes": [6152712936, 990585483],
       "geometry": [
         {"lat": -41.2910209, "lon": 174.7899191},
@@ -96874,7 +96911,7 @@
         {"lat": -41.2911143, "lon": 174.7946998},
         {"lat": -41.2910895, "lon": 174.7948568},
         {"lat": -41.2910473, "lon": 174.7950736},
-        {"lat": -41.2910213, "lon": 174.7951951},
+        {"lat": -41.2910386, "lon": 174.7951143},
         {"lat": -41.2910112, "lon": 174.7952488},
         {"lat": -41.2908948, "lon": 174.7958482},
         {"lat": -41.2908194, "lon": 174.7961292},
@@ -96899,7 +96936,8 @@
         "foot": "designated",
         "highway": "cycleway",
         "name": "Waterfront Shared Path",
-        "segregated": "no"
+        "segregated": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -98747,17 +98785,16 @@
     {
       "type": "way",
       "id": 88273576,
-      "timestamp": "2022-02-11T10:12:50Z",
-      "version": 12,
-      "changeset": 117281056,
-      "user": "VaibhavNZ",
-      "uid": 4164103,
+      "timestamp": "2022-07-20T05:47:47Z",
+      "version": 13,
+      "changeset": 123833051,
+      "user": "jmar312",
+      "uid": 8343123,
       "nodes": [1025399561, 6332083536],
       "geometry": [
-        {"lat": -41.2906179, "lon": 174.7835203},
-        {"lat": -41.2904646, "lon": 174.783488},
-        {"lat": -41.2904581, "lon": 174.7834867},
-        {"lat": -41.2904176, "lon": 174.7834767},
+        {"lat": -41.2906179, "lon": 174.7834959},
+        {"lat": -41.2904673, "lon": 174.7834783},
+        {"lat": -41.2904176, "lon": 174.7834714},
         {"lat": -41.2903214, "lon": 174.7834537},
         {"lat": -41.2902122, "lon": 174.7834257},
         {"lat": -41.290112, "lon": 174.7834001},
@@ -98774,7 +98811,8 @@
         "foot": "yes",
         "highway": "path",
         "name": "Te Papa Promenade",
-        "segregated": "no"
+        "segregated": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -98875,11 +98913,11 @@
     {
       "type": "way",
       "id": 886889769,
-      "timestamp": "2020-12-21T07:13:55Z",
-      "version": 1,
-      "changeset": 96173688,
-      "user": "Zismac",
-      "uid": 9957668,
+      "timestamp": "2022-07-20T05:47:47Z",
+      "version": 2,
+      "changeset": 123833051,
+      "user": "jmar312",
+      "uid": 8343123,
       "nodes": [8246924272, 1197576604],
       "geometry": [
         {"lat": -41.2879211, "lon": 174.77952},
@@ -98889,17 +98927,18 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
-        "segregated": "no"
+        "segregated": "no",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 886889771,
-      "timestamp": "2020-12-21T07:13:55Z",
-      "version": 1,
-      "changeset": 96173688,
-      "user": "Zismac",
-      "uid": 9957668,
+      "timestamp": "2022-07-20T05:47:47Z",
+      "version": 2,
+      "changeset": 123833051,
+      "user": "jmar312",
+      "uid": 8343123,
       "nodes": [8246924270, 8246924269],
       "geometry": [
         {"lat": -41.2883089, "lon": 174.780027},
@@ -98909,7 +98948,8 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
-        "segregated": "no"
+        "segregated": "no",
+        "surface": "asphalt"
       }
     },
     {
@@ -99250,11 +99290,11 @@
     {
       "type": "way",
       "id": 899343693,
-      "timestamp": "2022-03-24T05:42:27Z",
-      "version": 2,
-      "changeset": 118847264,
-      "user": "VaibhavNZ",
-      "uid": 4164103,
+      "timestamp": "2022-07-20T02:49:27Z",
+      "version": 3,
+      "changeset": 123829527,
+      "user": "jmar312",
+      "uid": 8343123,
       "nodes": [6152712934, 6152712936],
       "geometry": [
         {"lat": -41.2916124, "lon": 174.7865305},
@@ -99273,7 +99313,7 @@
       "tags": {
         "bicycle": "no",
         "foot": "designated",
-        "highway": "path",
+        "highway": "footway",
         "name": "Waterfront Shared Path -- Oriental Parade",
         "segregated": "no",
         "source": "Bing"
@@ -104550,11 +104590,11 @@
     {
       "type": "way",
       "id": 997618121,
-      "timestamp": "2021-10-30T04:13:24Z",
-      "version": 1,
-      "changeset": 113147361,
-      "user": "michael60634",
-      "uid": 10036384,
+      "timestamp": "2022-07-20T02:49:27Z",
+      "version": 2,
+      "changeset": 123829527,
+      "user": "jmar312",
+      "uid": 8343123,
       "nodes": [990585483, 1102492556],
       "geometry": [
         {"lat": -41.2885007, "lon": 174.7987807},
@@ -104566,28 +104606,30 @@
         "foot": "designated",
         "highway": "cycleway",
         "name": "Waterfront Shared Path",
-        "segregated": "no"
+        "segregated": "no",
+        "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 997618122,
-      "timestamp": "2021-10-30T04:13:24Z",
-      "version": 1,
-      "changeset": 113147361,
-      "user": "michael60634",
-      "uid": 10036384,
+      "timestamp": "2022-07-20T05:47:47Z",
+      "version": 2,
+      "changeset": 123833051,
+      "user": "jmar312",
+      "uid": 8343123,
       "nodes": [6332083533, 1025399561],
       "geometry": [
-        {"lat": -41.2906153, "lon": 174.7835521},
-        {"lat": -41.2906179, "lon": 174.7835203}
+        {"lat": -41.2906161, "lon": 174.783552},
+        {"lat": -41.2906179, "lon": 174.7834959}
       ],
       "tags": {
         "bicycle": "yes",
         "foot": "yes",
         "highway": "path",
         "name": "Te Papa Promenade",
-        "segregated": "no"
+        "segregated": "no",
+        "surface": "asphalt"
       }
     },
     {
