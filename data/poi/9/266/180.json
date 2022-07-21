@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-07-18T23:59:59Z",
-    "timestamp_osm_base": "2022-07-19T06:03:53Z",
+    "timestamp_osm_date": "2022-07-20T23:59:59Z",
+    "timestamp_osm_base": "2022-07-21T05:58:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -17547,13 +17547,15 @@
       "id": 1419909552,
       "lat": 46.8094474,
       "lon": 7.1441586,
-      "timestamp": "2011-09-01T09:01:49Z",
-      "version": 1,
-      "changeset": 9182676,
-      "user": "efred",
-      "uid": 125339,
+      "timestamp": "2022-07-19T20:28:19Z",
+      "version": 2,
+      "changeset": 123823527,
+      "user": "vmicho",
+      "uid": 1849074,
       "tags": {
-        "name": "coop",
+        "brand": "Coop",
+        "brand:wikidata": "Q432564",
+        "name": "Coop",
         "shop": "supermarket",
         "wheelchair": "yes"
       }
@@ -18874,13 +18876,13 @@
       "user": "yobr",
       "uid": 5306357,
       "tags": {
+        "website": "http://www.comptoir-des-thes.ch",
         "addr:country": "CH",
         "addr:housenumber": "82",
         "addr:postcode": "1700",
         "addr:street": "Rue de Lausanne",
         "name": "Le comptoir des thés",
-        "shop": "convenience",
-        "website": "http://www.comptoir-des-thes.ch"
+        "shop": "convenience"
       }
     },
     {
@@ -23740,12 +23742,14 @@
       "id": 2527809360,
       "lat": 46.8100834,
       "lon": 7.1480661,
-      "timestamp": "2019-10-11T21:15:03Z",
-      "version": 4,
-      "changeset": 75586188,
-      "user": "amilopowers",
-      "uid": 1514673,
+      "timestamp": "2022-07-19T20:28:19Z",
+      "version": 5,
+      "changeset": 123823527,
+      "user": "vmicho",
+      "uid": 1849074,
       "tags": {
+        "brand": "Migros",
+        "brand:wikidata": "Q680727",
         "cash_withdrawal": "postfinance_card",
         "cash_withdrawal:fee": "no",
         "cash_withdrawal:purchase_required": "no",
@@ -23761,12 +23765,14 @@
       "id": 2527809361,
       "lat": 46.8101882,
       "lon": 7.1480737,
-      "timestamp": "2019-10-11T20:13:56Z",
-      "version": 4,
-      "changeset": 75584849,
-      "user": "amilopowers",
-      "uid": 1514673,
+      "timestamp": "2022-07-19T20:28:19Z",
+      "version": 5,
+      "changeset": 123823527,
+      "user": "vmicho",
+      "uid": 1849074,
       "tags": {
+        "brand": "Denner",
+        "brand:wikidata": "Q379911",
         "cash_withdrawal": "migros_bank;postfinance_card",
         "cash_withdrawal:fee": "no",
         "cash_withdrawal:purchase_required": "no",
@@ -36652,6 +36658,7 @@
       "user": "solin917",
       "uid": 14370955,
       "tags": {
+        "wheelchair": "no",
         "addr:city": "Fribourg",
         "addr:postcode": "1700",
         "addr:street": "Place du Petit-Saint-Jean / St. Johann-Platz",
@@ -36665,8 +36672,7 @@
         "payment:visa": "yes",
         "phone": "+41 26 321 28 79",
         "shop": "convenience",
-        "website": "https://www.boulangerie-ecureuil.ch/",
-        "wheelchair": "no"
+        "website": "https://www.boulangerie-ecureuil.ch/"
       }
     },
     {
@@ -41113,11 +41119,11 @@
     {
       "type": "way",
       "id": 32703708,
-      "timestamp": "2021-03-17T18:37:29Z",
-      "version": 3,
-      "changeset": 101208273,
-      "user": "sovereign_ch",
-      "uid": 5755216,
+      "timestamp": "2022-07-19T15:33:39Z",
+      "version": 4,
+      "changeset": 123813658,
+      "user": "vmicho",
+      "uid": 1849074,
       "center": {
         "lat": 46.8114765,
         "lon": 7.1390719
@@ -41129,6 +41135,8 @@
         "addr:housenumber": "73",
         "addr:postcode": "1700",
         "addr:street": "Route du Jura",
+        "brand": "Migrolino",
+        "brand:wikidata": "Q56745088",
         "building": "commercial",
         "name": "Migrolino",
         "opening_hours": "Mo-Su 06:00-21:00; Su 6:00-19:00",
@@ -52146,19 +52154,21 @@
     {
       "type": "way",
       "id": 867827371,
-      "timestamp": "2020-11-06T19:31:44Z",
-      "version": 1,
-      "changeset": 93681919,
-      "user": "Tungmar",
-      "uid": 427807,
+      "timestamp": "2022-07-19T20:43:33Z",
+      "version": 2,
+      "changeset": 123823896,
+      "user": "Mike Lehmann",
+      "uid": 127903,
       "center": {
-        "lat": 46.5996645,
-        "lon": 7.2388411
+        "lat": 46.5996535,
+        "lon": 7.2388453
       },
       "nodes": [],
       "tags": {
         "amenity": "shelter",
-        "building": "hut"
+        "bench": "yes",
+        "building": "hut",
+        "shelter_type": "public_transport"
       }
     },
     {
@@ -54205,6 +54215,25 @@
       "center": {
         "lat": 46.7799241,
         "lon": 7.1151096
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1079859026,
+      "timestamp": "2022-07-19T20:41:44Z",
+      "version": 1,
+      "changeset": 123823843,
+      "user": "vmicho",
+      "uid": 1849074,
+      "center": {
+        "lat": 46.8109226,
+        "lon": 7.1392464
       },
       "nodes": [],
       "tags": {
