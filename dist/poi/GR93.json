@@ -1175,17 +1175,17 @@
         "@poi": "foodshop_supermarket",
         "@distance": 3388.9,
         "@id": "n1070094138",
-        "@changeset": 68216070,
-        "@timestamp": "2019-03-16T23:08:47Z",
-        "@version": 5,
-        "@uid": 9451067,
-        "@user": "b-jazz-bot",
+        "@changeset": 123878788,
+        "@timestamp": "2022-07-21T07:21:09Z",
+        "@version": 6,
+        "@uid": 1694090,
+        "@user": "Al Harawi",
         "addr:city": "Gap",
         "addr:housenumber": "3",
         "addr:postcode": "05000",
         "addr:street": "Rue Alphonse Daudet",
         "bulk_purchase": "yes",
-        "name": "Le Grenier Bicoop",
+        "name": "Le Grenier Biocoop",
         "operator": "Biocoop",
         "organic": "only",
         "shop": "supermarket",
@@ -4035,29 +4035,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "mountain-pass",
-        "@distance": 1,
-        "@id": "n5812152589",
-        "@changeset": 101411024,
-        "@timestamp": "2021-03-20T18:41:15Z",
-        "@version": 3,
-        "@uid": 1022304,
-        "@user": "LLORIA Alain",
-        "ele": 1416,
-        "name": "Col de Chironne 1416 m",
-        "natural": "saddle"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.3878525,
-          44.8425539
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 1664.8,
         "@id": "n2973604640",
@@ -5207,6 +5184,29 @@
         "coordinates": [
           6.1045111,
           44.5682594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "mountain-pass",
+        "@distance": 1,
+        "@id": "n5812152589",
+        "@changeset": 101411024,
+        "@timestamp": "2021-03-20T18:41:15Z",
+        "@version": 3,
+        "@uid": 1022304,
+        "@user": "LLORIA Alain",
+        "ele": 1416,
+        "name": "Col de Chironne 1416 m",
+        "natural": "saddle"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3878525,
+          44.8425539
         ]
       }
     },
@@ -6900,60 +6900,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "water_spring",
-        "@distance": 762,
-        "@id": "n9339359554",
-        "@changeset": 114945028,
-        "@timestamp": "2021-12-15T02:19:26Z",
-        "@version": 1,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "description": "2012-06 : Coule faiblement et proche du sol, au bord du chemin, à droite en montant, dans un petit virage à gauche, au niveau d'un petit embranchement, juste après un bout de grange.",
-        "ele": 1350,
-        "name": "Fontaine Morte",
-        "natural": "spring",
-        "website": "https://www.refuges.info/point/3700/point-d-eau/Vercors/Fontaine-Morte/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.5669,
-          44.74894
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 715.4,
-        "@id": "n9339359566",
-        "@changeset": 114945028,
-        "@timestamp": "2021-12-15T02:19:26Z",
-        "@version": 1,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
-        "beds": "0",
-        "building": "yes",
-        "ele": 1310,
-        "fireplace": "no",
-        "name": "Cabane du Fond du Ranc",
-        "shelter_type": "weather_shelter",
-        "stove": "no",
-        "website": "https://www.refuges.info/point/5334/cabane-non-gardee/Vercors/Cabane-du-Fond-du-Ranc/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.57347,
-          44.73587
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
         "@distance": 2368.5,
         "@id": "n5213769210",
         "@changeset": 53547960,
@@ -7914,6 +7860,60 @@
         "coordinates": [
           6.034161,
           44.4596472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 762,
+        "@id": "n9339359554",
+        "@changeset": 114945028,
+        "@timestamp": "2021-12-15T02:19:26Z",
+        "@version": 1,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "description": "2012-06 : Coule faiblement et proche du sol, au bord du chemin, à droite en montant, dans un petit virage à gauche, au niveau d'un petit embranchement, juste après un bout de grange.",
+        "ele": 1350,
+        "name": "Fontaine Morte",
+        "natural": "spring",
+        "website": "https://www.refuges.info/point/3700/point-d-eau/Vercors/Fontaine-Morte/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5669,
+          44.74894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 715.4,
+        "@id": "n9339359566",
+        "@changeset": 114945028,
+        "@timestamp": "2021-12-15T02:19:26Z",
+        "@version": 1,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "beds": "0",
+        "building": "yes",
+        "ele": 1310,
+        "fireplace": "no",
+        "name": "Cabane du Fond du Ranc",
+        "shelter_type": "weather_shelter",
+        "stove": "no",
+        "website": "https://www.refuges.info/point/5334/cabane-non-gardee/Vercors/Cabane-du-Fond-du-Ranc/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.57347,
+          44.73587
         ]
       }
     },
@@ -9984,62 +9984,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 342.4,
-        "@id": "w450542306",
-        "@changeset": 114954814,
-        "@timestamp": "2021-12-15T09:07:24Z",
-        "@version": 4,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
-        "beds": "0",
-        "building": "yes",
-        "capacity": 40,
-        "description": "2021-01 : L'intérieure de la grange est en deux parties: l'une complètement éboulée, l'autre parait bien stable. Reste donc une zone d'environ 20m2, terre au sol et un semblant de porte pour éventuellement fermer l'entrée la nuit.",
-        "ele": 1692,
-        "fireplace": "no",
-        "name": "Grange de Saint-Roman",
-        "shelter_type": "weather_shelter",
-        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2017",
-        "stove": "no",
-        "website": "https://www.refuges.info/point/421/cabane-non-gardee/Vercors/grange-de-St-Roman/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.470318,
-          44.7771651
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "alpine-hut",
-        "@distance": 17.6,
-        "@id": "w470800009",
-        "@changeset": 68338647,
-        "@timestamp": "2019-03-20T14:36:38Z",
-        "@version": 2,
-        "@uid": 9543192,
-        "@user": "Nicogre",
-        "building": "yes",
-        "name": "Esprit Refuge",
-        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2017",
-        "tourism": "alpine_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.3200613,
-          44.8990526
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 4512.7,
         "@id": "w72651204",
@@ -10349,6 +10293,62 @@
         "coordinates": [
           6.0047307,
           44.4582724
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 342.4,
+        "@id": "w450542306",
+        "@changeset": 114954814,
+        "@timestamp": "2021-12-15T09:07:24Z",
+        "@version": 4,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "beds": "0",
+        "building": "yes",
+        "capacity": 40,
+        "description": "2021-01 : L'intérieure de la grange est en deux parties: l'une complètement éboulée, l'autre parait bien stable. Reste donc une zone d'environ 20m2, terre au sol et un semblant de porte pour éventuellement fermer l'entrée la nuit.",
+        "ele": 1692,
+        "fireplace": "no",
+        "name": "Grange de Saint-Roman",
+        "shelter_type": "weather_shelter",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2017",
+        "stove": "no",
+        "website": "https://www.refuges.info/point/421/cabane-non-gardee/Vercors/grange-de-St-Roman/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.470318,
+          44.7771651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "alpine-hut",
+        "@distance": 17.6,
+        "@id": "w470800009",
+        "@changeset": 68338647,
+        "@timestamp": "2019-03-20T14:36:38Z",
+        "@version": 2,
+        "@uid": 9543192,
+        "@user": "Nicogre",
+        "building": "yes",
+        "name": "Esprit Refuge",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2017",
+        "tourism": "alpine_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.3200613,
+          44.8990526
         ]
       }
     },

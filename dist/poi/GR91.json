@@ -1073,11 +1073,12 @@
         "@poi": "mountain-pass",
         "@distance": 2.9,
         "@id": "n49284477",
-        "@changeset": 112293313,
-        "@timestamp": "2021-10-09T09:22:18Z",
-        "@version": 4,
-        "@uid": 10296811,
-        "@user": "Luc Gential",
+        "@changeset": 123832131,
+        "@timestamp": "2022-07-20T05:16:17Z",
+        "@version": 5,
+        "@uid": 918586,
+        "@user": "Binnette",
+        "direction": "80",
         "ele": 1239,
         "mountain_pass": "yes",
         "name": "Col de Boircon",
@@ -2491,6 +2492,32 @@
         "coordinates": [
           5.5509242,
           45.070162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 1670.4,
+        "@id": "n2331259326",
+        "@changeset": 123768570,
+        "@timestamp": "2022-07-18T15:03:22Z",
+        "@version": 6,
+        "@uid": 5758494,
+        "@user": "BrieucP",
+        "name": "Terra terre",
+        "opening_hours": "Mo-Sa 09:00-12:30,15:00-19:00; Su 09:00-12:30",
+        "ref:FR:FINESS": "380012252",
+        "shop": "convenience",
+        "source": "Celtipharm - 10/2014",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5511534,
+          45.0716406
         ]
       }
     },
@@ -5818,50 +5845,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_spring",
-        "@distance": 116.1,
-        "@id": "n7562467209",
-        "@changeset": 85826733,
-        "@timestamp": "2020-05-27T10:42:30Z",
-        "@version": 1,
-        "@uid": 352762,
-        "@user": "dargaud",
-        "drinking_water": "yes",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.5908219,
-          45.0570431
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 661.3,
-        "@id": "n7562840426",
-        "@changeset": 85833910,
-        "@timestamp": "2020-05-27T12:47:05Z",
-        "@version": 1,
-        "@uid": 352762,
-        "@user": "dargaud",
-        "name": "Fontaine de Machiret",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.5931309,
-          45.0778192
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 7102.6,
         "@id": "n1764741324",
@@ -6399,6 +6382,50 @@
         "coordinates": [
           5.6239399,
           45.1171306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 116.1,
+        "@id": "n7562467209",
+        "@changeset": 85826733,
+        "@timestamp": "2020-05-27T10:42:30Z",
+        "@version": 1,
+        "@uid": 352762,
+        "@user": "dargaud",
+        "drinking_water": "yes",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5908219,
+          45.0570431
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 661.3,
+        "@id": "n7562840426",
+        "@changeset": 85833910,
+        "@timestamp": "2020-05-27T12:47:05Z",
+        "@version": 1,
+        "@uid": 352762,
+        "@user": "dargaud",
+        "name": "Fontaine de Machiret",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5931309,
+          45.0778192
         ]
       }
     },
@@ -8739,6 +8766,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_cave",
+        "@distance": 1765.3,
+        "@id": "n9900280161",
+        "@changeset": 123861392,
+        "@timestamp": "2022-07-20T17:46:49Z",
+        "@version": 1,
+        "@uid": 3036559,
+        "@user": "mygueux",
+        "description": "Gouffre situé sur l'itinéraire balisé qui part au sud de la Cabane du Serre du Play",
+        "fixme": "Emplacement exact à corriger (grosso modo à 50m au sud sud-est de la cabane du serre du play)",
+        "name": "Gouffre sans nom",
+        "natural": "cave_entrance"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5269191,
+          44.9909353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 1485.2,
         "@id": "w61282498",
@@ -10482,38 +10533,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 463.9,
-        "@id": "w450542306",
-        "@changeset": 114954814,
-        "@timestamp": "2021-12-15T09:07:24Z",
-        "@version": 4,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
-        "beds": "0",
-        "building": "yes",
-        "capacity": 40,
-        "description": "2021-01 : L'intérieure de la grange est en deux parties: l'une complètement éboulée, l'autre parait bien stable. Reste donc une zone d'environ 20m2, terre au sol et un semblant de porte pour éventuellement fermer l'entrée la nuit.",
-        "ele": 1692,
-        "fireplace": "no",
-        "name": "Grange de Saint-Roman",
-        "shelter_type": "weather_shelter",
-        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2017",
-        "stove": "no",
-        "website": "https://www.refuges.info/point/421/cabane-non-gardee/Vercors/grange-de-St-Roman/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.470318,
-          44.7771651
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 5399.9,
         "@id": "n2434830735",
@@ -11200,6 +11219,38 @@
         "coordinates": [
           5.6201865,
           45.1552834
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 463.9,
+        "@id": "w450542306",
+        "@changeset": 114954814,
+        "@timestamp": "2021-12-15T09:07:24Z",
+        "@version": 4,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "beds": "0",
+        "building": "yes",
+        "capacity": 40,
+        "description": "2021-01 : L'intérieure de la grange est en deux parties: l'une complètement éboulée, l'autre parait bien stable. Reste donc une zone d'environ 20m2, terre au sol et un semblant de porte pour éventuellement fermer l'entrée la nuit.",
+        "ele": 1692,
+        "fireplace": "no",
+        "name": "Grange de Saint-Roman",
+        "shelter_type": "weather_shelter",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2017",
+        "stove": "no",
+        "website": "https://www.refuges.info/point/421/cabane-non-gardee/Vercors/grange-de-St-Roman/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.470318,
+          44.7771651
         ]
       }
     },
@@ -12200,13 +12251,13 @@
         "@poi": "foodshop_convenience",
         "@distance": 7876.1,
         "@id": "n3763724786",
-        "@changeset": 118284968,
-        "@timestamp": "2022-03-09T16:07:55Z",
-        "@version": 4,
+        "@changeset": 123730759,
+        "@timestamp": "2022-07-17T18:17:14Z",
+        "@version": 5,
         "@uid": 8833442,
         "@user": "NicolasGrosjean",
-        "name": "Alimentation Générale Primeur",
-        "opening_hours": "Mo-Sa 10:30-19:30; Su 10:30-15:00",
+        "name": "Goshen Alimentation Exotique",
+        "opening_hours": "Mo-Su 11:00-19:00",
         "shop": "convenience",
         "wheelchair": "limited"
       },
