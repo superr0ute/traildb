@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-07-20T23:59:59Z",
-    "timestamp_osm_base": "2022-07-21T06:32:00Z",
+    "timestamp_osm_date": "2022-07-21T23:59:59Z",
+    "timestamp_osm_base": "2022-07-22T06:41:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4625,20 +4625,21 @@
       "id": 240089534,
       "lat": 48.0221946,
       "lon": 16.6356209,
-      "timestamp": "2022-07-04T10:06:42Z",
-      "version": 14,
-      "changeset": 123182657,
-      "user": "Max Smits",
-      "uid": 1454334,
+      "timestamp": "2022-07-21T04:50:38Z",
+      "version": 15,
+      "changeset": 123873633,
+      "user": "Luzandro",
+      "uid": 365601,
       "tags": {
-        "name": "Trautmannsdorf",
-        "wikipedia": "de:Trautmannsdorf an der Leitha",
         "ele": "168",
+        "name": "Trautmannsdorf an der Leitha",
         "place": "village",
         "population": "2811",
         "postal_code": "2454",
+        "short_name": "Trautmannsdorf",
         "website": "www.trautmannsdorf.at",
-        "wikidata": "Q670580"
+        "wikidata": "Q670580",
+        "wikipedia": "de:Trautmannsdorf an der Leitha"
       }
     },
     {
@@ -30798,13 +30799,14 @@
       "id": 2297625105,
       "lat": 48.2391701,
       "lon": 16.4191654,
-      "timestamp": "2013-05-09T21:48:09Z",
-      "version": 1,
-      "changeset": 16055961,
-      "user": "rfuegen",
-      "uid": 109152,
+      "timestamp": "2022-07-21T11:38:01Z",
+      "version": 2,
+      "changeset": 123890077,
+      "user": "mblaettler",
+      "uid": 3087317,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "check_date": "2022-06-19"
       }
     },
     {
@@ -41758,6 +41760,23 @@
     },
     {
       "type": "node",
+      "id": 3837044720,
+      "lat": 48.0091212,
+      "lon": 16.8082831,
+      "timestamp": "2022-07-21T08:49:10Z",
+      "version": 2,
+      "changeset": 123882569,
+      "user": "TBKMrt",
+      "uid": 781412,
+      "tags": {
+        "ele": "217",
+        "name": "Geißberg",
+        "natural": "peak",
+        "wikidata": "Q21870867"
+      }
+    },
+    {
+      "type": "node",
       "id": 3837327963,
       "lat": 48.2586245,
       "lon": 16.4093283,
@@ -41823,13 +41842,14 @@
       "id": 3838712239,
       "lat": 48.239071,
       "lon": 16.4193027,
-      "timestamp": "2015-11-16T10:36:42Z",
-      "version": 1,
-      "changeset": 35346647,
-      "user": "emergency99",
-      "uid": 1832939,
+      "timestamp": "2022-07-21T11:38:01Z",
+      "version": 2,
+      "changeset": 123890077,
+      "user": "mblaettler",
+      "uid": 3087317,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "check_date": "2022-06-19"
       }
     },
     {
@@ -86853,6 +86873,47 @@
     },
     {
       "type": "way",
+      "id": 906121379,
+      "timestamp": "2022-07-21T16:41:05Z",
+      "version": 2,
+      "changeset": 123901782,
+      "user": "Sam35",
+      "uid": 2939996,
+      "center": {
+        "lat": 47.9919982,
+        "lon": 16.8517529
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
+        "building": "yes",
+        "lit": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 906121383,
+      "timestamp": "2022-07-21T16:41:05Z",
+      "version": 2,
+      "changeset": 123901782,
+      "user": "Sam35",
+      "uid": 2939996,
+      "center": {
+        "lat": 47.9920982,
+        "lon": 16.8519822
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
       "id": 906128980,
       "timestamp": "2021-02-11T11:04:30Z",
       "version": 1,
@@ -94262,6 +94323,42 @@
       "tags": {
         "amenity": "shelter",
         "direction": "south",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080294408,
+      "timestamp": "2022-07-21T14:04:26Z",
+      "version": 1,
+      "changeset": 123896057,
+      "user": "emergency99",
+      "uid": 1832939,
+      "center": {
+        "lat": 48.0669564,
+        "lon": 16.3333419
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080294409,
+      "timestamp": "2022-07-21T14:04:26Z",
+      "version": 1,
+      "changeset": 123896057,
+      "user": "emergency99",
+      "uid": 1832939,
+      "center": {
+        "lat": 48.0680166,
+        "lon": 16.3307153
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
         "shelter_type": "public_transport"
       }
     }

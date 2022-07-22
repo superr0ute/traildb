@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-07-20T23:59:59Z",
-    "timestamp_osm_base": "2022-07-21T04:43:25Z",
+    "timestamp_osm_date": "2022-07-21T23:59:59Z",
+    "timestamp_osm_base": "2022-07-22T04:45:55Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -408,11 +408,11 @@
       "id": 153895139,
       "lat": 35.7884241,
       "lon": -83.5543329,
-      "timestamp": "2022-01-12T19:50:02Z",
-      "version": 7,
-      "changeset": 116080454,
-      "user": "Krissmed",
-      "uid": 14675238,
+      "timestamp": "2022-07-21T04:57:07Z",
+      "version": 8,
+      "changeset": 123873790,
+      "user": "cmitchell",
+      "uid": 10176409,
       "tags": {
         "census:population": "5913;2006",
         "ele": "305",
@@ -424,7 +424,7 @@
         "import_uuid": "bb7269ee-502a-5391-8056-e3ce0e66489c",
         "name": "Pigeon Forge",
         "place": "town",
-        "population": "5913",
+        "population": "6343",
         "wikidata": "Q2078145",
         "wikipedia": "en:Pigeon Forge, Tennessee"
       }
@@ -9432,14 +9432,16 @@
       "id": 4036071565,
       "lat": 35.7841438,
       "lon": -83.5507936,
-      "timestamp": "2017-08-31T21:01:15Z",
-      "version": 2,
-      "changeset": 51627973,
-      "user": "HubMiner",
-      "uid": 238419,
+      "timestamp": "2022-07-21T02:14:07Z",
+      "version": 3,
+      "changeset": 123871288,
+      "user": "cmitchell",
+      "uid": 10176409,
       "tags": {
-        "shop": "supermarket",
-        "name": "Food City"
+        "brand": "Food City",
+        "brand:wikidata": "Q16981107",
+        "name": "Food City",
+        "shop": "supermarket"
       }
     },
     {
@@ -10245,20 +10247,36 @@
       "id": 9896160624,
       "lat": 35.755436,
       "lon": -83.45596,
-      "timestamp": "2022-07-18T20:55:25Z",
-      "version": 1,
-      "changeset": 123779660,
-      "user": "Chadz85",
-      "uid": 9557515,
+      "timestamp": "2022-07-21T05:45:34Z",
+      "version": 2,
+      "changeset": 123875015,
+      "user": "cmitchell",
+      "uid": 10176409,
       "tags": {
         "addr:housenumber": "1088",
         "addr:postcode": "37738",
         "addr:street": "Powdermill Road",
         "internet_access": "wlan",
+        "leisure": "resort",
         "name": "Elk Springs Resort",
         "phone": "+1 (865) 233-2390",
         "tourism": "alpine_hut",
         "website": "http://elkspringsresort.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9902312820,
+      "lat": 35.7118583,
+      "lon": -83.5131641,
+      "timestamp": "2022-07-21T16:49:14Z",
+      "version": 1,
+      "changeset": 123902077,
+      "user": "cmitchell",
+      "uid": 10176409,
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "gazebo"
       }
     },
     {
@@ -11538,6 +11556,24 @@
     },
     {
       "type": "way",
+      "id": 952381288,
+      "timestamp": "2022-07-21T05:05:33Z",
+      "version": 2,
+      "changeset": 123873980,
+      "user": "cmitchell",
+      "uid": 10176409,
+      "center": {
+        "lat": 35.9341606,
+        "lon": -83.5882692
+      },
+      "nodes": [],
+      "tags": {
+        "name": "Two Rivers Landing RV Resort",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
       "id": 961081479,
       "timestamp": "2021-07-03T16:27:27Z",
       "version": 1,
@@ -11641,6 +11677,186 @@
         "building": "yes",
         "name": "Sevierville Gazebo",
         "shelter_type": "gazebo"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080158058,
+      "timestamp": "2022-07-21T01:48:10Z",
+      "version": 1,
+      "changeset": 123871050,
+      "user": "cmitchell",
+      "uid": 10176409,
+      "center": {
+        "lat": 35.797967,
+        "lon": -83.5847544
+      },
+      "nodes": [],
+      "tags": {
+        "name": "Clabough's Campground",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080158081,
+      "timestamp": "2022-07-21T01:48:10Z",
+      "version": 1,
+      "changeset": 123871050,
+      "user": "cmitchell",
+      "uid": 10176409,
+      "center": {
+        "lat": 35.7942916,
+        "lon": -83.5902784
+      },
+      "nodes": [],
+      "tags": {
+        "name": "King's Holly Haven RV Park",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080158488,
+      "timestamp": "2022-07-21T01:56:08Z",
+      "version": 1,
+      "changeset": 123871123,
+      "user": "cmitchell",
+      "uid": 10176409,
+      "center": {
+        "lat": 35.7912436,
+        "lon": -83.6025498
+      },
+      "nodes": [],
+      "tags": {
+        "name": "Pigeon Forge RV Resort",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080158489,
+      "timestamp": "2022-07-21T01:56:08Z",
+      "version": 1,
+      "changeset": 123871123,
+      "user": "cmitchell",
+      "uid": 10176409,
+      "center": {
+        "lat": 35.79035,
+        "lon": -83.6104992
+      },
+      "nodes": [],
+      "tags": {
+        "name": "Brookside RV Resort",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080159842,
+      "timestamp": "2022-07-21T02:21:51Z",
+      "version": 1,
+      "changeset": 123871354,
+      "user": "cmitchell",
+      "uid": 10176409,
+      "center": {
+        "lat": 35.7925263,
+        "lon": -83.5423638
+      },
+      "nodes": [],
+      "tags": {
+        "name": "Pigeon Forge Jellystone Park",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080160482,
+      "timestamp": "2022-07-21T02:37:11Z",
+      "version": 1,
+      "changeset": 123871516,
+      "user": "cmitchell",
+      "uid": 10176409,
+      "center": {
+        "lat": 35.7317147,
+        "lon": -83.4506282
+      },
+      "nodes": [],
+      "tags": {
+        "name": "Camp LeConte Luxury Outdoor Resort",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080161786,
+      "timestamp": "2022-07-21T03:02:23Z",
+      "version": 1,
+      "changeset": 123871778,
+      "user": "cmitchell",
+      "uid": 10176409,
+      "center": {
+        "lat": 35.7278458,
+        "lon": -83.458442
+      },
+      "nodes": [],
+      "tags": {
+        "name": "Gatlinburg Creekside RV Resort",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080167472,
+      "timestamp": "2022-07-21T03:52:31Z",
+      "version": 1,
+      "changeset": 123872496,
+      "user": "cmitchell",
+      "uid": 10176409,
+      "center": {
+        "lat": 35.7252442,
+        "lon": -83.4835454
+      },
+      "nodes": [],
+      "tags": {
+        "name": "Twin Creek RV Resort",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080175781,
+      "timestamp": "2022-07-21T05:08:27Z",
+      "version": 1,
+      "changeset": 123874047,
+      "user": "cmitchell",
+      "uid": 10176409,
+      "center": {
+        "lat": 35.9291872,
+        "lon": -83.5886151
+      },
+      "nodes": [],
+      "tags": {
+        "name": "Riverside RV Park & Resort",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080175965,
+      "timestamp": "2022-07-21T05:09:11Z",
+      "version": 1,
+      "changeset": 123874062,
+      "user": "cmitchell",
+      "uid": 10176409,
+      "center": {
+        "lat": 35.9220131,
+        "lon": -83.5826998
+      },
+      "nodes": [],
+      "tags": {
+        "name": "Ripplin Waters RV Park & Cabin Rentals",
+        "tourism": "camp_site"
       }
     }
   ]
