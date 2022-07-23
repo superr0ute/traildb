@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-22T03:50:50Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-23T03:35:21Z"},
   "elements": [
     {
       "type": "relation",
       "id": 282071,
-      "timestamp": "2022-07-18T15:02:35Z",
-      "version": 1812,
-      "changeset": 123768543,
-      "user": "BMM994",
-      "uid": 189946,
+      "timestamp": "2022-07-22T13:36:57Z",
+      "version": 1813,
+      "changeset": 123940371,
+      "user": "zstadler",
+      "uid": 3127,
       "members": [
         {"type": "node", "ref": 2910439022, "role": ""},
         {"type": "way", "ref": 53814760, "role": ""},
@@ -2121,7 +2121,9 @@
         {"type": "way", "ref": 30780582, "role": ""},
         {"type": "way", "ref": 1077530080, "role": ""},
         {"type": "way", "ref": 104702332, "role": ""},
-        {"type": "way", "ref": 963301168, "role": ""}
+        {"type": "way", "ref": 963301168, "role": ""},
+        {"type": "way", "ref": 1080550096, "role": ""},
+        {"type": "way", "ref": 1080550098, "role": ""}
       ],
       "tags": {
         "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/PikiWiki_Israel_12132_Geography_of_Israel.jpg",
@@ -5723,6 +5725,46 @@
         "highway": "service",
         "source": "GPS",
         "surface": "dirt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080550096,
+      "timestamp": "2022-07-22T13:36:57Z",
+      "version": 1,
+      "changeset": 123940371,
+      "user": "zstadler",
+      "uid": 3127,
+      "nodes": [9904176869, 9904176870],
+      "geometry": [
+        {"lat": 32.9792337, "lon": 35.4428787, "z": 659.1},
+        {"lat": 32.9795442, "lon": 35.4430978, "z": 656.7}
+      ],
+      "tags": {"colour": "purple", "highway": "path"}
+    },
+    {
+      "type": "way",
+      "id": 1080550098,
+      "timestamp": "2022-07-22T13:36:57Z",
+      "version": 1,
+      "changeset": 123940371,
+      "user": "zstadler",
+      "uid": 3127,
+      "nodes": [9904176870, 9904176871],
+      "geometry": [
+        {"lat": 32.9795442, "lon": 35.4430978, "z": 656.7},
+        {"lat": 32.9795946, "lon": 35.4433295, "z": 656.7}
+      ],
+      "tags": {
+        "colour": "purple",
+        "coulvert": "yes",
+        "highway": "path",
+        "name": "נחל מירון",
+        "name:en": "Nahal Meron",
+        "name:fr": "Nahal Meron",
+        "name:he": "נחל מירון",
+        "waterway": "stream",
+        "wikidata": "Q7017564"
       }
     },
     {
@@ -34179,16 +34221,16 @@
     {
       "type": "way",
       "id": 446072283,
-      "timestamp": "2022-07-17T13:22:44Z",
-      "version": 5,
-      "changeset": 123721090,
-      "user": "hatul",
-      "uid": 686490,
-      "nodes": [4434032305, 427697617],
+      "timestamp": "2022-07-22T13:36:57Z",
+      "version": 6,
+      "changeset": 123940371,
+      "user": "zstadler",
+      "uid": 3127,
+      "nodes": [4434032305, 9904176869],
       "geometry": [
         {"lat": 32.979027, "lon": 35.4423736, "z": 658.7},
         {"lat": 32.9790794, "lon": 35.4425821, "z": 659.6},
-        {"lat": 32.979473, "lon": 35.4433384, "z": 658.7}
+        {"lat": 32.9792337, "lon": 35.4428787, "z": 659.1}
       ],
       "tags": {
         "colour": "purple",
@@ -36058,14 +36100,14 @@
     {
       "type": "way",
       "id": 446714889,
-      "timestamp": "2020-05-18T08:08:08Z",
-      "version": 3,
-      "changeset": 85368364,
+      "timestamp": "2022-07-22T13:36:57Z",
+      "version": 4,
+      "changeset": 123940371,
       "user": "zstadler",
       "uid": 3127,
-      "nodes": [427697617, 4439512407],
+      "nodes": [9904176871, 4439512407],
       "geometry": [
-        {"lat": 32.979473, "lon": 35.4433384, "z": 658.7},
+        {"lat": 32.9795946, "lon": 35.4433295, "z": 656.7},
         {"lat": 32.9797971, "lon": 35.4436738, "z": 657.5},
         {"lat": 32.9800021, "lon": 35.4440882, "z": 654.7},
         {"lat": 32.9800225, "lon": 35.4443218, "z": 652.7},

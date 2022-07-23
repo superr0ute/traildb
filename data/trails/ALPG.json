@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-20T03:41:34Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-23T03:30:15Z"},
   "elements": [
     {
       "type": "relation",
@@ -22796,11 +22796,11 @@
     {
       "type": "way",
       "id": 363722065,
-      "timestamp": "2022-03-28T07:42:35Z",
-      "version": 5,
-      "changeset": 119008344,
-      "user": "Voonosm",
-      "uid": 4378872,
+      "timestamp": "2022-07-22T19:33:51Z",
+      "version": 8,
+      "changeset": 123953571,
+      "user": "giustizieri25",
+      "uid": 13973223,
       "nodes": [424261920, 80003208],
       "geometry": [
         {"lat": 46.7286016, "lon": 8.1884681, "z": 595.1},
@@ -22811,10 +22811,13 @@
         {"lat": 46.7274703, "lon": 8.1872168, "z": 597.4}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "residential",
+        "lane_markings": "no",
         "maxspeed": "50",
         "maxspeed:type": "CH:urban",
         "name": "Kirchgasse",
+        "sidewalk": "both",
         "surface": "asphalt"
       }
     },
@@ -33217,18 +33220,25 @@
     {
       "type": "way",
       "id": 44771784,
-      "timestamp": "2021-05-26T15:24:08Z",
-      "version": 2,
-      "changeset": 105367259,
-      "user": "orycteropus1",
-      "uid": 10240271,
+      "timestamp": "2022-07-22T19:10:17Z",
+      "version": 5,
+      "changeset": 123952836,
+      "user": "giustizieri25",
+      "uid": 13973223,
       "nodes": [567803312, 460441869],
       "geometry": [
         {"lat": 46.7278843, "lon": 8.1926917, "z": 623.8},
         {"lat": 46.7278681, "lon": 8.1928018, "z": 624.1},
         {"lat": 46.7277873, "lon": 8.1929993, "z": 624.5}
       ],
-      "tags": {"foot": "yes", "highway": "residential", "name": "Underem Gfell"}
+      "tags": {
+        "foot": "yes",
+        "highway": "residential",
+        "name": "Underem Gfell",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
