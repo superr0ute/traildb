@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-07-22T23:59:59Z",
-    "timestamp_osm_base": "2022-07-23T05:42:30Z",
+    "timestamp_osm_date": "2022-07-23T23:59:59Z",
+    "timestamp_osm_base": "2022-07-24T05:50:54Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -25460,17 +25460,20 @@
       "id": 3303882792,
       "lat": 47.4313942,
       "lon": 9.3963374,
-      "timestamp": "2020-07-02T21:34:21Z",
-      "version": 6,
-      "changeset": 87471573,
-      "user": "Hannes Röst",
-      "uid": 289221,
+      "timestamp": "2022-07-23T15:47:18Z",
+      "version": 7,
+      "changeset": 123981134,
+      "user": "Patrik Eschle",
+      "uid": 6460,
       "tags": {
         "addr:city": "St.Gallen",
         "addr:housenumber": "150",
         "addr:postcode": "9000",
         "addr:street": "Rorschacherstrasse",
-        "name": "Migros Grossacker",
+        "branch": "Grossacker",
+        "brand": "Migros",
+        "brand:wikidata": "Q680727",
+        "name": "Migros",
         "opening_hours": "Mo-Fr 08:30-19:00; Th 08:30-20:00; Sa 08:00-17:00",
         "operator": "Migros",
         "shop": "supermarket",
@@ -40004,12 +40007,14 @@
       "id": 8661923300,
       "lat": 47.4307763,
       "lon": 9.3947481,
-      "timestamp": "2021-04-24T11:38:39Z",
-      "version": 1,
-      "changeset": 103532459,
-      "user": "gallenblog",
-      "uid": 2101989,
+      "timestamp": "2022-07-23T15:47:18Z",
+      "version": 2,
+      "changeset": 123981134,
+      "user": "Patrik Eschle",
+      "uid": 6460,
       "tags": {
+        "brand": "Denner",
+        "brand:wikidata": "Q379911",
         "name": "Denner",
         "shop": "supermarket"
       }
@@ -43450,6 +43455,36 @@
         "amenity": "drinking_water",
         "operator": "Stadt Dornbirn",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9906195767,
+      "lat": 47.3993015,
+      "lon": 9.3119521,
+      "timestamp": "2022-07-23T16:23:33Z",
+      "version": 1,
+      "changeset": 123982452,
+      "user": "CreCrePL",
+      "uid": 2793520,
+      "tags": {
+        "amenity": "drinking_water",
+        "fee": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9906620270,
+      "lat": 47.3089347,
+      "lon": 9.6246347,
+      "timestamp": "2022-07-23T21:58:09Z",
+      "version": 1,
+      "changeset": 123991495,
+      "user": "mcliquid",
+      "uid": 1213571,
+      "tags": {
+        "amenity": "drinking_water",
+        "bottle": "yes"
       }
     },
     {
@@ -61334,6 +61369,24 @@
       "tags": {
         "fee": "yes",
         "name": "Bikers Camping Area",
+        "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080707241,
+      "timestamp": "2022-07-23T09:06:37Z",
+      "version": 1,
+      "changeset": 123967493,
+      "user": "sk94",
+      "uid": 469696,
+      "center": {
+        "lat": 47.4613584,
+        "lon": 9.3648774
+      },
+      "nodes": [],
+      "tags": {
+        "name": "Leebrücke",
         "tourism": "camp_site"
       }
     }
