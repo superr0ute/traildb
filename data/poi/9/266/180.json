@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-07-23T23:59:59Z",
-    "timestamp_osm_base": "2022-07-24T05:39:30Z",
+    "timestamp_osm_date": "2022-07-24T23:59:59Z",
+    "timestamp_osm_base": "2022-07-25T05:55:08Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -8870,8 +8870,8 @@
       "user": "KaiPankrath",
       "uid": 4067009,
       "tags": {
-        "name": "Richigen",
-        "place": "village"
+        "place": "village",
+        "name": "Richigen"
       }
     },
     {
@@ -25655,11 +25655,11 @@
       "id": 3210751248,
       "lat": 46.9587865,
       "lon": 7.5236329,
-      "timestamp": "2021-10-15T18:59:45Z",
-      "version": 2,
-      "changeset": 112555597,
-      "user": "dafadllyn",
-      "uid": 7494825,
+      "timestamp": "2022-07-24T11:26:08Z",
+      "version": 3,
+      "changeset": 124004613,
+      "user": "wheelmap_visitor",
+      "uid": 290680,
       "tags": {
         "brand:wikidata": "Q610492",
         "check_date:opening_hours": "2021-10-15",
@@ -25672,7 +25672,8 @@
         "post_office:parcel_from": "yes",
         "post_office:parcel_pickup": "yes",
         "post_office:parcel_to": "yes",
-        "shop": "convenience"
+        "shop": "convenience",
+        "wheelchair": "yes"
       }
     },
     {
@@ -30808,13 +30809,13 @@
     {
       "type": "node",
       "id": 4782992080,
-      "lat": 46.8024784,
-      "lon": 7.1662708,
-      "timestamp": "2017-04-08T13:57:44Z",
-      "version": 1,
-      "changeset": 47568427,
-      "user": "Loremo",
-      "uid": 795660,
+      "lat": 46.8024552,
+      "lon": 7.1663546,
+      "timestamp": "2022-07-24T13:13:55Z",
+      "version": 2,
+      "changeset": 124009404,
+      "user": "vmicho",
+      "uid": 1849074,
       "tags": {
         "amenity": "drinking_water"
       }
@@ -31494,13 +31495,13 @@
     {
       "type": "node",
       "id": 5075602322,
-      "lat": 46.803793,
-      "lon": 7.1616213,
-      "timestamp": "2017-09-02T16:46:41Z",
-      "version": 1,
-      "changeset": 51674316,
-      "user": "fr6",
-      "uid": 136546,
+      "lat": 46.8038085,
+      "lon": 7.161624,
+      "timestamp": "2022-07-24T13:42:05Z",
+      "version": 2,
+      "changeset": 124010377,
+      "user": "vmicho",
+      "uid": 1849074,
       "tags": {
         "amenity": "drinking_water"
       }
@@ -34466,11 +34467,11 @@
       "id": 6541934447,
       "lat": 46.9581546,
       "lon": 7.4537816,
-      "timestamp": "2020-09-02T11:34:18Z",
-      "version": 6,
-      "changeset": 90301387,
-      "user": "habi",
-      "uid": 15671,
+      "timestamp": "2022-07-24T11:40:55Z",
+      "version": 8,
+      "changeset": 124004613,
+      "user": "wheelmap_visitor",
+      "uid": 290680,
       "tags": {
         "addr:city": "Bern",
         "addr:housenumber": "11",
@@ -34492,7 +34493,9 @@
         "opening_hours": "Mo-Fr 07:30-20:00, Sa 07:30-17:00; PH off",
         "operator": "Genossenschaft Migros Aare",
         "shop": "supermarket",
-        "website": "https://filialen.migros.ch/de/migros-supermarkt-bern-breitenrain"
+        "toilets:wheelchair": "yes",
+        "website": "https://filialen.migros.ch/de/migros-supermarkt-bern-breitenrain",
+        "wheelchair": "yes"
       }
     },
     {
@@ -41030,6 +41033,22 @@
       "uid": 11235514,
       "tags": {
         "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9907621627,
+      "lat": 46.9604089,
+      "lon": 7.6723806,
+      "timestamp": "2022-07-24T13:28:39Z",
+      "version": 1,
+      "changeset": 124009923,
+      "user": "uschoen",
+      "uid": 595452,
+      "tags": {
+        "name": "Obergoldbach",
+        "place": "village",
+        "wikidata": "Q113252683"
       }
     },
     {
@@ -54227,6 +54246,44 @@
       "center": {
         "lat": 46.8109226,
         "lon": 7.1392464
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080924525,
+      "timestamp": "2022-07-24T11:31:05Z",
+      "version": 1,
+      "changeset": 124005925,
+      "user": "vmicho",
+      "uid": 1849074,
+      "center": {
+        "lat": 46.81192,
+        "lon": 7.1504328
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1080972579,
+      "timestamp": "2022-07-24T16:27:17Z",
+      "version": 1,
+      "changeset": 124016407,
+      "user": "vmicho",
+      "uid": 1849074,
+      "center": {
+        "lat": 46.8006887,
+        "lon": 7.1745469
       },
       "nodes": [],
       "tags": {
