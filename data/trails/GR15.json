@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-11T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-07-24T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 2916867,
-      "timestamp": "2022-06-21T23:03:25Z",
-      "version": 110,
-      "changeset": 122686911,
-      "user": "ansuta",
-      "uid": 3188422,
+      "timestamp": "2022-07-24T12:02:06Z",
+      "version": 111,
+      "changeset": 124006828,
+      "user": "DGerveno",
+      "uid": 2536370,
       "members": [
         {"type": "node", "ref": 6422904211, "role": ""},
         {"type": "node", "ref": 4190109092, "role": ""},
@@ -244,7 +244,6 @@
         {"type": "way", "ref": 694442009, "role": ""},
         {"type": "way", "ref": 501149821, "role": ""},
         {"type": "way", "ref": 445749797, "role": ""},
-        {"type": "way", "ref": 694377024, "role": ""},
         {"type": "way", "ref": 285288748, "role": ""},
         {"type": "way", "ref": 285288753, "role": ""},
         {"type": "way", "ref": 223569151, "role": ""},
@@ -8583,14 +8582,13 @@
     {
       "type": "way",
       "id": 223569151,
-      "timestamp": "2017-06-18T08:50:56Z",
-      "version": 4,
-      "changeset": 49630093,
+      "timestamp": "2022-07-24T11:50:37Z",
+      "version": 5,
+      "changeset": 124006455,
       "user": "DGerveno",
       "uid": 2536370,
-      "nodes": [1371813659, 530090273],
+      "nodes": [4921799075, 530090273],
       "geometry": [
-        {"lat": 42.5993343, "lon": -0.1274329},
         {"lat": 42.5993073, "lon": -0.1274467},
         {"lat": 42.5991964, "lon": -0.1275032},
         {"lat": 42.5991415, "lon": -0.1276121},
@@ -12671,12 +12669,12 @@
     {
       "type": "way",
       "id": 285288748,
-      "timestamp": "2019-06-03T23:14:47Z",
-      "version": 3,
-      "changeset": 70903105,
-      "user": "ottokar55",
-      "uid": 101355,
-      "nodes": [530090280, 2889639283],
+      "timestamp": "2022-07-24T12:02:06Z",
+      "version": 4,
+      "changeset": 124006828,
+      "user": "DGerveno",
+      "uid": 2536370,
+      "nodes": [530090280, 530090371],
       "geometry": [
         {"lat": 42.5986878, "lon": -0.1283328},
         {"lat": 42.5986902, "lon": -0.1283837},
@@ -12692,7 +12690,8 @@
         {"lat": 42.5991207, "lon": -0.1287318},
         {"lat": 42.5991368, "lon": -0.1287597},
         {"lat": 42.5991507, "lon": -0.1288183},
-        {"lat": 42.5992186, "lon": -0.129082}
+        {"lat": 42.5992186, "lon": -0.129082},
+        {"lat": 42.5992512, "lon": -0.1291962}
       ],
       "tags": {
         "highway": "residential",
@@ -15214,13 +15213,14 @@
     {
       "type": "way",
       "id": 501149823,
-      "timestamp": "2017-06-17T10:17:28Z",
-      "version": 1,
-      "changeset": 49611223,
+      "timestamp": "2022-07-24T11:50:37Z",
+      "version": 2,
+      "changeset": 124006455,
       "user": "DGerveno",
       "uid": 2536370,
-      "nodes": [1371813659, 4266957322],
+      "nodes": [4921799075, 4266957322],
       "geometry": [
+        {"lat": 42.5993073, "lon": -0.1274467},
         {"lat": 42.5993343, "lon": -0.1274329},
         {"lat": 42.5993929, "lon": -0.1274283},
         {"lat": 42.5994462, "lon": -0.1274385},
@@ -15860,25 +15860,6 @@
         "name": "Carretera de Ordesa",
         "ref": "N-260a",
         "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
-      "id": 694377024,
-      "timestamp": "2019-06-03T23:14:47Z",
-      "version": 1,
-      "changeset": 70903105,
-      "user": "ottokar55",
-      "uid": 101355,
-      "nodes": [2889639283, 530090371],
-      "geometry": [
-        {"lat": 42.5992186, "lon": -0.129082},
-        {"lat": 42.5992512, "lon": -0.1291962}
-      ],
-      "tags": {
-        "highway": "residential",
-        "name": "Calle Traconera",
-        "surface": "paved"
       }
     },
     {
