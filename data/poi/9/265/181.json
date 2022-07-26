@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-07-24T23:59:59Z",
-    "timestamp_osm_base": "2022-07-25T05:49:08Z",
+    "timestamp_osm_date": "2022-07-25T23:59:59Z",
+    "timestamp_osm_base": "2022-07-26T06:07:09Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -5476,6 +5476,25 @@
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008",
         "wikidata": "Q924799",
         "wikipedia": "fr:Mont Chauffé"
+      }
+    },
+    {
+      "type": "node",
+      "id": 366350459,
+      "lat": 46.3346943,
+      "lon": 6.7518059,
+      "timestamp": "2022-07-25T18:11:16Z",
+      "version": 4,
+      "changeset": 124063689,
+      "user": "tartiflex",
+      "uid": 507417,
+      "tags": {
+        "ele": "2069",
+        "name": "Pointe de Bénévent",
+        "natural": "peak",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre ; mise à jour : 2008",
+        "summit:cross": "yes",
+        "wikidata": "Q49753300"
       }
     },
     {
@@ -51860,23 +51879,26 @@
       "id": 9274078117,
       "lat": 46.3536346,
       "lon": 6.4441357,
-      "timestamp": "2022-07-21T13:55:15Z",
-      "version": 8,
-      "changeset": 123895701,
+      "timestamp": "2022-07-25T08:42:45Z",
+      "version": 10,
+      "changeset": 124040216,
       "user": "votre_solution_de_visibilite_digitale_locale",
       "uid": 2179792,
       "tags": {
-        "addr:city": "Thonon-les-Bains",
-        "addr:housenumber": "120",
-        "addr:postcode": "74200",
-        "addr:street": "Avenue De Genève",
+        "brand": "Biocoop",
+        "brand:wikidata": "Q2904039",
+        "contact:city": "Thonon-les-Bains",
+        "contact:housenumber": "6",
         "contact:phone": "+33 4 50 16 12 05",
+        "contact:postcode": "74200",
+        "contact:street": "Route De La Visitation",
         "contact:website": "https://www.biocoop-thonon.fr",
         "name": "Biocoop",
         "official_name": "Biocoop Thonon-Les-Bains",
         "opening_hours": "Mo-Sa 09:00-19:30",
         "organic": "only",
-        "shop": "convenience"
+        "shop": "supermarket",
+        "website": "https://www.biocoop-thonon.fr"
       }
     },
     {
@@ -53551,6 +53573,20 @@
       "changeset": 123983202,
       "user": "kariboo",
       "uid": 2955029,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9909804115,
+      "lat": 46.461673,
+      "lon": 6.8352963,
+      "timestamp": "2022-07-25T15:13:42Z",
+      "version": 1,
+      "changeset": 124057112,
+      "user": "jambamkin",
+      "uid": 53626,
       "tags": {
         "amenity": "drinking_water"
       }
@@ -58410,11 +58446,11 @@
     {
       "type": "way",
       "id": 361136254,
-      "timestamp": "2020-06-10T12:06:44Z",
-      "version": 6,
-      "changeset": 86463085,
-      "user": "tartiflex",
-      "uid": 507417,
+      "timestamp": "2022-07-25T10:40:57Z",
+      "version": 7,
+      "changeset": 124045730,
+      "user": "Maedhros",
+      "uid": 16639158,
       "center": {
         "lat": 46.2100627,
         "lon": 6.6733864
@@ -58435,7 +58471,7 @@
         "drive_through": "yes",
         "name": "Carrefour Market",
         "official_name": "Carrefour Market Saint-Jean-D'aulps",
-        "opening_hours": "Mo-Fr 09:00-12:30, 15:00-19:30; Sa 09:00-19:30",
+        "opening_hours": "Mo-Sa 08:30-19:30; Su 08:30-12:30",
         "operator": "Groupe Carrefour",
         "operator:wikidata": "Q3117359",
         "operator:wikipedia": "fr:Groupe Carrefour",
@@ -63591,6 +63627,28 @@
         "building": "yes",
         "height": "2.6",
         "roof:shape": "flat",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1081074481,
+      "timestamp": "2022-07-25T07:00:55Z",
+      "version": 1,
+      "changeset": 124035790,
+      "user": "Nathann Morand",
+      "uid": 16637163,
+      "center": {
+        "lat": 46.5134822,
+        "lon": 6.5462502
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "name": "Saint-sulpice - Castolin",
+        "operator": "MBC",
         "shelter_type": "public_transport"
       }
     }
