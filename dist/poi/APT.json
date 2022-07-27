@@ -9644,48 +9644,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 152.5,
-        "@id": "n1349149844",
-        "@changeset": 8629003,
-        "@timestamp": "2011-07-04T12:38:43Z",
-        "@version": 1,
-        "@uid": 131835,
-        "@user": "DarkFlash",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.705118,
-          46.5488614
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 63.7,
-        "@id": "n1349149861",
-        "@changeset": 8629003,
-        "@timestamp": "2011-07-04T12:38:44Z",
-        "@version": 1,
-        "@uid": 131835,
-        "@user": "DarkFlash",
-        "amenity": "drinking_water"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.7306554,
-          46.5435924
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "peak_peak",
         "@distance": 3793.1,
         "@id": "n606362619",
@@ -12947,6 +12905,48 @@
         "coordinates": [
           9.125095,
           46.62278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 152.5,
+        "@id": "n1349149844",
+        "@changeset": 8629003,
+        "@timestamp": "2011-07-04T12:38:43Z",
+        "@version": 1,
+        "@uid": 131835,
+        "@user": "DarkFlash",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.705118,
+          46.5488614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 63.7,
+        "@id": "n1349149861",
+        "@changeset": 8629003,
+        "@timestamp": "2011-07-04T12:38:44Z",
+        "@version": 1,
+        "@uid": 131835,
+        "@user": "DarkFlash",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7306554,
+          46.5435924
         ]
       }
     },
@@ -22079,36 +22079,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_convenience",
-        "@distance": 39.4,
-        "@id": "n3281627564",
-        "@changeset": 28070019,
-        "@timestamp": "2015-01-11T18:39:52Z",
-        "@version": 2,
-        "@uid": 2265854,
-        "@user": "G4rp",
-        "addr:city": "Airolo",
-        "addr:country": "CH",
-        "addr:postcode": "6780",
-        "addr:street": "Via San Gottardo",
-        "amenity": "convenience",
-        "name": "Negozi Alimentari Ramelli",
-        "opening_hours": "Mo-Fr 08:00-12:00,14:00-18:00; Sa 08:00-12:00,14:00-17:00",
-        "operator": "Crai",
-        "shop": "convenience",
-        "source": "survey and website"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.6084746,
-          46.5290529
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
         "@distance": 7172.1,
         "@id": "n4257294908",
         "@changeset": 110721712,
@@ -23290,6 +23260,40 @@
         "coordinates": [
           9.1749317,
           46.7788925
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 38.7,
+        "@id": "n5869402307",
+        "@changeset": 79109228,
+        "@timestamp": "2020-01-02T10:51:19Z",
+        "@version": 6,
+        "@uid": 5672310,
+        "@user": "Amanning",
+        "addr:city": "Ilanz",
+        "addr:housenumber": "4",
+        "addr:postcode": "7130",
+        "addr:street": "Poststrasse",
+        "brand": "Migros",
+        "brand:wikidata": "Q680727",
+        "brand:wikipedia": "en:Migros",
+        "cash_withdrawal": "postfinance_card",
+        "cash_withdrawal:fee": "no",
+        "cash_withdrawal:purchase_required": "no",
+        "cash_withdrawal:type": "checkout",
+        "name": "Migros",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-17:00",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2076589,
+          46.774599
         ]
       }
     },
@@ -24747,6 +24751,36 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_convenience",
+        "@distance": 39.4,
+        "@id": "n3281627564",
+        "@changeset": 28070019,
+        "@timestamp": "2015-01-11T18:39:52Z",
+        "@version": 2,
+        "@uid": 2265854,
+        "@user": "G4rp",
+        "addr:city": "Airolo",
+        "addr:country": "CH",
+        "addr:postcode": "6780",
+        "addr:street": "Via San Gottardo",
+        "amenity": "convenience",
+        "name": "Negozi Alimentari Ramelli",
+        "opening_hours": "Mo-Fr 08:00-12:00,14:00-18:00; Sa 08:00-12:00,14:00-17:00",
+        "operator": "Crai",
+        "shop": "convenience",
+        "source": "survey and website"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6084746,
+          46.5290529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
         "@distance": 29.9,
         "@id": "n3281627566",
         "@changeset": 68475823,
@@ -24887,40 +24921,6 @@
         "coordinates": [
           8.6103169,
           46.5291556
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 38.7,
-        "@id": "n5869402307",
-        "@changeset": 79109228,
-        "@timestamp": "2020-01-02T10:51:19Z",
-        "@version": 6,
-        "@uid": 5672310,
-        "@user": "Amanning",
-        "addr:city": "Ilanz",
-        "addr:housenumber": "4",
-        "addr:postcode": "7130",
-        "addr:street": "Poststrasse",
-        "brand": "Migros",
-        "brand:wikidata": "Q680727",
-        "brand:wikipedia": "en:Migros",
-        "cash_withdrawal": "postfinance_card",
-        "cash_withdrawal:fee": "no",
-        "cash_withdrawal:purchase_required": "no",
-        "cash_withdrawal:type": "checkout",
-        "name": "Migros",
-        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-17:00",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.2076589,
-          46.774599
         ]
       }
     },
@@ -27860,6 +27860,48 @@
         "coordinates": [
           9.0989845,
           46.654472
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 1107.1,
+        "@id": "n9911652323",
+        "@changeset": 124094964,
+        "@timestamp": "2022-07-26T12:34:31Z",
+        "@version": 1,
+        "@uid": 16018687,
+        "@user": "xyvi",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9553027,
+          46.5630005
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 792.6,
+        "@id": "n9911712082",
+        "@changeset": 124095493,
+        "@timestamp": "2022-07-26T12:46:48Z",
+        "@version": 1,
+        "@uid": 16018687,
+        "@user": "xyvi",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9502812,
+          46.561417
         ]
       }
     },
@@ -36123,6 +36165,48 @@
         "coordinates": [
           8.6233064,
           46.5286562
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 1658.3,
+        "@id": "n9911349825",
+        "@changeset": 124087950,
+        "@timestamp": "2022-07-26T10:07:57Z",
+        "@version": 1,
+        "@uid": 16018687,
+        "@user": "xyvi",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9605179,
+          46.5421072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 1861.3,
+        "@id": "n9911500048",
+        "@changeset": 124091022,
+        "@timestamp": "2022-07-26T11:15:29Z",
+        "@version": 1,
+        "@uid": 16018687,
+        "@user": "xyvi",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9628583,
+          46.5499075
         ]
       }
     },
