@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-25T03:53:23Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-05T04:00:57Z"},
   "elements": [
     {
       "type": "relation",
       "id": 4726204,
-      "timestamp": "2022-07-21T15:04:30Z",
-      "version": 133,
-      "changeset": 123898327,
-      "user": "Stadtigel",
-      "uid": 597150,
+      "timestamp": "2022-08-04T09:30:56Z",
+      "version": 134,
+      "changeset": 124470879,
+      "user": "Radiat47",
+      "uid": 14300582,
       "members": [
         {"type": "way", "ref": 847912597, "role": ""},
         {"type": "way", "ref": 847913914, "role": ""},
@@ -88,7 +88,6 @@
         {"type": "way", "ref": 534587374, "role": ""},
         {"type": "way", "ref": 539878783, "role": ""},
         {"type": "way", "ref": 534587380, "role": ""},
-        {"type": "way", "ref": 334595567, "role": ""},
         {"type": "way", "ref": 178554507, "role": ""},
         {"type": "way", "ref": 524347228, "role": ""},
         {"type": "way", "ref": 391337366, "role": ""},
@@ -205,11 +204,11 @@
     {
       "type": "way",
       "id": 1030058092,
-      "timestamp": "2022-02-10T14:12:25Z",
-      "version": 1,
-      "changeset": 117248074,
-      "user": "woy_cb",
-      "uid": 284094,
+      "timestamp": "2022-08-04T09:30:56Z",
+      "version": 2,
+      "changeset": 124470879,
+      "user": "Radiat47",
+      "uid": 14300582,
       "nodes": [3416349159, 3416349145],
       "geometry": [
         {"lat": 42.5559226, "lon": 20.0723744, "z": 2149.6},
@@ -242,11 +241,14 @@
       ],
       "tags": {
         "bicycle": "no",
+        "colour": "red",
         "foot": "yes",
         "highway": "path",
         "horse": "yes",
         "maintenance": "poor",
         "name": "Peaks of the Balkans",
+        "route": "hiking",
+        "sac_scale": "mountain_hiking",
         "source": "bing;mapbox-satellite;survey;gps;knowledge;local-info",
         "source_ref:url": "https://www.flickr.com/photos/openstreetmap-albania",
         "wheelchair": "no"
@@ -258,7 +260,7 @@
       "timestamp": "2022-05-28T07:15:37Z",
       "version": 2,
       "changeset": 121603971,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [3416618056, 3416618044],
       "geometry": [
@@ -311,7 +313,7 @@
       "timestamp": "2022-05-28T07:12:07Z",
       "version": 1,
       "changeset": 121603871,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [3416618044, 3416618032],
       "geometry": [
@@ -798,27 +800,32 @@
     {
       "type": "way",
       "id": 173945094,
-      "timestamp": "2015-03-24T20:58:10Z",
-      "version": 3,
-      "changeset": 29713904,
-      "user": "Krawujewatz",
-      "uid": 1238662,
+      "timestamp": "2022-08-04T09:30:56Z",
+      "version": 4,
+      "changeset": 124470879,
+      "user": "Radiat47",
+      "uid": 14300582,
       "nodes": [1846908465, 1846908463],
       "geometry": [
         {"lat": 42.5257755, "lon": 19.8448559, "z": 1030},
         {"lat": 42.5257306, "lon": 19.8450551, "z": 1030.5},
         {"lat": 42.52578, "lon": 19.8460626, "z": 1034.9}
       ],
-      "tags": {"highway": "residential"}
+      "tags": {
+        "colour": "red",
+        "highway": "residential",
+        "route": "hiking",
+        "sac_scale": "hiking"
+      }
     },
     {
       "type": "way",
       "id": 178554505,
-      "timestamp": "2019-10-02T22:24:50Z",
-      "version": 9,
-      "changeset": 75204294,
-      "user": "MapsterBlaster",
-      "uid": 9917905,
+      "timestamp": "2022-08-04T09:30:56Z",
+      "version": 10,
+      "changeset": 124470879,
+      "user": "Radiat47",
+      "uid": 14300582,
       "nodes": [1846908463, 1888857332],
       "geometry": [
         {"lat": 42.52578, "lon": 19.8460626, "z": 1034.9},
@@ -846,29 +853,33 @@
       "tags": {
         "access": "yes",
         "bicycle": "yes",
+        "colour": "red",
         "foot": "yes",
         "highway": "residential",
         "motor_vehicle": "no",
+        "route": "hiking",
+        "sac_scale": "hiking",
         "surface": "dirt"
       }
     },
     {
       "type": "way",
       "id": 178554507,
-      "timestamp": "2017-11-14T20:49:27Z",
-      "version": 6,
-      "changeset": 53783117,
-      "user": "gjergjde",
-      "uid": 1279692,
+      "timestamp": "2022-08-04T09:30:56Z",
+      "version": 7,
+      "changeset": 124470879,
+      "user": "Radiat47",
+      "uid": 14300582,
       "nodes": [1888857294, 1888857613],
       "geometry": [
         {"lat": 42.5093376, "lon": 19.8955669, "z": 1770.4},
         {"lat": 42.5093796, "lon": 19.8957218, "z": 1776.4},
         {"lat": 42.5094779, "lon": 19.8959115, "z": 1784.7},
-        {"lat": 42.5094727, "lon": 19.896012, "z": 1788.2},
-        {"lat": 42.5094556, "lon": 19.8960817, "z": 1790.3},
-        {"lat": 42.5094113, "lon": 19.8962229, "z": 1794.4},
-        {"lat": 42.5092, "lon": 19.8969956, "z": 1816.5}
+        {"lat": 42.509504, "lon": 19.8960423, "z": 1789.8},
+        {"lat": 42.5095003, "lon": 19.8962304, "z": 1796.5},
+        {"lat": 42.5094471, "lon": 19.8965324, "z": 1806.1},
+        {"lat": 42.5093425, "lon": 19.8967213, "z": 1810},
+        {"lat": 42.5092224, "lon": 19.8968742, "z": 1813}
       ],
       "tags": {"highway": "path"}
     },
@@ -929,7 +940,7 @@
       "timestamp": "2021-08-03T14:26:00Z",
       "version": 30,
       "changeset": 109098806,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [2238855965, 5307548604],
       "geometry": [
@@ -1468,11 +1479,11 @@
     {
       "type": "way",
       "id": 334572453,
-      "timestamp": "2022-02-10T14:03:36Z",
-      "version": 18,
-      "changeset": 117247731,
-      "user": "woy_cb",
-      "uid": 284094,
+      "timestamp": "2022-08-04T09:30:56Z",
+      "version": 19,
+      "changeset": 124470879,
+      "user": "Radiat47",
+      "uid": 14300582,
       "nodes": [2262107845, 3416349208],
       "geometry": [
         {"lat": 42.5719542, "lon": 20.0857144, "z": 2096.7},
@@ -1552,6 +1563,8 @@
         "horse": "yes",
         "maintenance": "poor",
         "name": "Peaks of the Balkans",
+        "route": "hiking",
+        "sac_scale": "hiking",
         "source": "bing;mapbox-satellite;survey;gps;knowledge;local-info",
         "source_ref:url": "https://www.flickr.com/photos/openstreetmap-albania",
         "wheelchair": "no"
@@ -1563,7 +1576,7 @@
       "timestamp": "2019-12-16T10:38:19Z",
       "version": 11,
       "changeset": 78468912,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [3416349186, 3416349159],
       "geometry": [
@@ -1761,27 +1774,11 @@
     },
     {
       "type": "way",
-      "id": 334595567,
-      "timestamp": "2017-10-23T15:24:48Z",
-      "version": 10,
-      "changeset": 53181009,
-      "user": "Mercator 1958",
-      "uid": 1118354,
-      "nodes": [1888857613, 3416588636],
-      "geometry": [
-        {"lat": 42.5092, "lon": 19.8969956, "z": 1816.5},
-        {"lat": 42.5097544, "lon": 19.8982226, "z": 1863.4},
-        {"lat": 42.5106702, "lon": 19.8986511, "z": 1899.5}
-      ],
-      "tags": {"highway": "path"}
-    },
-    {
-      "type": "way",
       "id": 334595568,
       "timestamp": "2021-10-04T10:50:47Z",
       "version": 13,
       "changeset": 112070931,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [2262123259, 3416597380],
       "geometry": [
@@ -1943,7 +1940,7 @@
       "uid": 7882299,
       "nodes": [5508843212, 3416597498],
       "geometry": [
-        {"lat": 42.5686897, "lon": 20.0301807, "z": 2035.5},
+        {"lat": 42.5687026, "lon": 20.0301685, "z": 2035.6},
         {"lat": 42.5689147, "lon": 20.0300563, "z": 2036.8},
         {"lat": 42.5689876, "lon": 20.0300099, "z": 2037.4},
         {"lat": 42.569093, "lon": 20.0298963, "z": 2038.2},
@@ -2076,7 +2073,7 @@
       "timestamp": "2021-06-16T10:29:36Z",
       "version": 8,
       "changeset": 106457996,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [4219432416, 3416597598],
       "geometry": [
@@ -2740,7 +2737,7 @@
       "timestamp": "2021-08-03T14:30:53Z",
       "version": 11,
       "changeset": 109098806,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [3418253635, 3990326885],
       "geometry": [
@@ -3619,7 +3616,7 @@
       "timestamp": "2016-07-20T14:21:03Z",
       "version": 4,
       "changeset": 40897430,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [3416588645, 3920315009],
       "geometry": [
@@ -3633,11 +3630,11 @@
     {
       "type": "way",
       "id": 391337366,
-      "timestamp": "2018-07-02T19:12:13Z",
-      "version": 9,
-      "changeset": 60356737,
-      "user": "DenisJu",
-      "uid": 712336,
+      "timestamp": "2022-08-04T11:20:37Z",
+      "version": 11,
+      "changeset": 124475891,
+      "user": "Radiat47",
+      "uid": 14300582,
       "nodes": [1888857336, 1888857603],
       "geometry": [
         {"lat": 42.5193702, "lon": 19.8650058, "z": 1246.7},
@@ -3923,10 +3920,12 @@
       ],
       "tags": {
         "bicycle": "no",
+        "colour": "red",
         "foot": "yes",
         "highway": "path",
         "horse": "yes",
-        "sac_scale": "demanding_mountain_hiking",
+        "route": "hiking",
+        "sac_scale": "mountain_hiking",
         "smoothness": "bad",
         "surface": "ground",
         "trail_visibility": "intermediate"
@@ -3935,11 +3934,11 @@
     {
       "type": "way",
       "id": 391604129,
-      "timestamp": "2019-10-02T22:24:50Z",
-      "version": 6,
-      "changeset": 75204294,
-      "user": "MapsterBlaster",
-      "uid": 9917905,
+      "timestamp": "2022-08-04T09:30:56Z",
+      "version": 7,
+      "changeset": 124470879,
+      "user": "Radiat47",
+      "uid": 14300582,
       "nodes": [1888857823, 1888857336],
       "geometry": [
         {"lat": 42.5246745, "lon": 19.8500439, "z": 1106.3},
@@ -3991,13 +3990,17 @@
       "tags": {
         "access": "yes",
         "bicycle": "yes",
+        "colour": "red",
         "foot": "yes",
         "highway": "track",
         "motor_vehicle": "no",
         "motorcycle": "yes",
         "mtb:scale": "1",
+        "route": "hiking",
+        "sac_scale": "hiking",
         "smoothness": "intermediate",
-        "surface": "dirt"
+        "surface": "dirt",
+        "tracktype": "grade3"
       }
     },
     {
@@ -4006,7 +4009,7 @@
       "timestamp": "2016-07-20T14:21:03Z",
       "version": 2,
       "changeset": 40897430,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [3920315009, 3920315006],
       "geometry": [
@@ -6747,11 +6750,11 @@
     {
       "type": "way",
       "id": 524347228,
-      "timestamp": "2017-11-14T20:49:26Z",
-      "version": 2,
-      "changeset": 53783117,
-      "user": "gjergjde",
-      "uid": 1279692,
+      "timestamp": "2022-08-04T09:30:56Z",
+      "version": 3,
+      "changeset": 124470879,
+      "user": "Radiat47",
+      "uid": 14300582,
       "nodes": [1888857603, 1888857294],
       "geometry": [
         {"lat": 42.5107761, "lon": 19.8925189, "z": 1686.1},
@@ -6808,7 +6811,12 @@
         {"lat": 42.5093229, "lon": 19.8954325, "z": 1765.7},
         {"lat": 42.5093376, "lon": 19.8955669, "z": 1770.4}
       ],
-      "tags": {"highway": "path"}
+      "tags": {
+        "colour": "red",
+        "highway": "path",
+        "route": "hiking",
+        "sac_scale": "mountain_hiking"
+      }
     },
     {
       "type": "way",
@@ -6870,12 +6878,12 @@
         {"lat": 42.5741018, "lon": 20.0871469, "z": 2135.1},
         {"lat": 42.5738964, "lon": 20.0872449, "z": 2130.1},
         {"lat": 42.5737299, "lon": 20.0872939, "z": 2125.6},
-        {"lat": 42.5736051, "lon": 20.0873994, "z": 2123.3},
-        {"lat": 42.573569, "lon": 20.0874597, "z": 2123.2},
-        {"lat": 42.5735218, "lon": 20.0874748, "z": 2122.2},
-        {"lat": 42.5734968, "lon": 20.0874258, "z": 2120.8},
-        {"lat": 42.5735024, "lon": 20.0873617, "z": 2119.8},
-        {"lat": 42.5735329, "lon": 20.0872977, "z": 2119.4},
+        {"lat": 42.5736163, "lon": 20.0874146, "z": 2124},
+        {"lat": 42.573569, "lon": 20.0874354, "z": 2122.7},
+        {"lat": 42.5735419, "lon": 20.0874111, "z": 2121.6},
+        {"lat": 42.5735057, "lon": 20.0873499, "z": 2119.7},
+        {"lat": 42.5734957, "lon": 20.0872676, "z": 2118.1},
+        {"lat": 42.5735463, "lon": 20.0872218, "z": 2118.4},
         {"lat": 42.5736162, "lon": 20.0872035, "z": 2120.1},
         {"lat": 42.5737327, "lon": 20.0871055, "z": 2122},
         {"lat": 42.5738631, "lon": 20.0870188, "z": 2124.2},
@@ -7404,7 +7412,7 @@
       "timestamp": "2018-03-27T15:41:59Z",
       "version": 2,
       "changeset": 57571287,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [3945435011, 3920413558],
       "geometry": [
@@ -7963,7 +7971,7 @@
       "timestamp": "2020-09-16T08:41:56Z",
       "version": 4,
       "changeset": 90971832,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [3418237254, 3418237279],
       "geometry": [
@@ -8601,7 +8609,7 @@
       "timestamp": "2018-03-27T15:41:56Z",
       "version": 1,
       "changeset": 57571287,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [3920413558, 3920413573],
       "geometry": [
@@ -8746,7 +8754,7 @@
       "timestamp": "2018-03-27T16:43:06Z",
       "version": 1,
       "changeset": 57571836,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [3416597380, 2262123630],
       "geometry": [
@@ -9152,7 +9160,7 @@
       "timestamp": "2022-05-28T07:12:07Z",
       "version": 2,
       "changeset": 121603871,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [3951452777, 3416618056],
       "geometry": [
@@ -9196,11 +9204,11 @@
     {
       "type": "way",
       "id": 591631482,
-      "timestamp": "2019-10-02T22:24:50Z",
-      "version": 3,
-      "changeset": 75204294,
-      "user": "MapsterBlaster",
-      "uid": 9917905,
+      "timestamp": "2022-08-04T09:30:56Z",
+      "version": 4,
+      "changeset": 124470879,
+      "user": "Radiat47",
+      "uid": 14300582,
       "nodes": [1888857332, 1888857823],
       "geometry": [
         {"lat": 42.5249146, "lon": 19.8493026, "z": 1092.2},
@@ -9213,20 +9221,23 @@
       "tags": {
         "access": "yes",
         "bicycle": "yes",
+        "colour": "red",
         "foot": "yes",
         "highway": "residential",
         "motor_vehicle": "no",
+        "route": "hiking",
+        "sac_scale": "hiking",
         "surface": "dirt"
       }
     },
     {
       "type": "way",
       "id": 594886976,
-      "timestamp": "2022-02-10T14:12:25Z",
-      "version": 8,
-      "changeset": 117248074,
-      "user": "woy_cb",
-      "uid": 284094,
+      "timestamp": "2022-08-04T09:30:56Z",
+      "version": 9,
+      "changeset": 124470879,
+      "user": "Radiat47",
+      "uid": 14300582,
       "nodes": [3416349145, 3416349107],
       "geometry": [
         {"lat": 42.5532053, "lon": 20.0731615, "z": 2050},
@@ -9291,11 +9302,14 @@
       ],
       "tags": {
         "bicycle": "no",
+        "colour": "red",
         "foot": "yes",
         "highway": "path",
         "horse": "yes",
         "maintenance": "poor",
         "name": "Peaks of the Balkans",
+        "route": "hiking",
+        "sac_scale": "mountain_hiking",
         "source": "bing;mapbox-satellite;survey;gps;knowledge;local-info",
         "source_ref:url": "https://www.flickr.com/photos/openstreetmap-albania",
         "wheelchair": "no"
@@ -10104,11 +10118,11 @@
     {
       "type": "way",
       "id": 596000068,
-      "timestamp": "2018-07-03T07:59:54Z",
-      "version": 3,
-      "changeset": 60369153,
-      "user": "DenisJu",
-      "uid": 712336,
+      "timestamp": "2022-08-04T09:30:56Z",
+      "version": 4,
+      "changeset": 124470879,
+      "user": "Radiat47",
+      "uid": 14300582,
       "nodes": [3416348642, 3416348659],
       "geometry": [
         {"lat": 42.5152813, "lon": 20.0086668, "z": 1913.1},
@@ -10160,7 +10174,7 @@
         "maintenance": "poor",
         "mtb:scale": "2",
         "name": "Peaks of the Balkans",
-        "sac_scale": "mountain_hiking",
+        "sac_scale": "hiking",
         "smoothness": "bad",
         "source": "bing;mapbox-satellite;survey;gps;knowledge;local-info",
         "source_ref:url": "https://www.flickr.com/photos/openstreetmap-albania",
@@ -12154,7 +12168,7 @@
       "timestamp": "2021-08-03T13:21:17Z",
       "version": 2,
       "changeset": 109096129,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [6358322708, 5226972545],
       "geometry": [
@@ -12803,7 +12817,7 @@
       "timestamp": "2020-09-16T08:41:56Z",
       "version": 1,
       "changeset": 90971832,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [3418237279, 3418237303],
       "geometry": [
@@ -12835,7 +12849,7 @@
       "nodes": [2262123259, 5508843212],
       "geometry": [
         {"lat": 42.5684717, "lon": 20.0303012, "z": 2035},
-        {"lat": 42.5686897, "lon": 20.0301807, "z": 2035.5}
+        {"lat": 42.5687026, "lon": 20.0301685, "z": 2035.6}
       ],
       "tags": {
         "highway": "unclassified",
@@ -12874,9 +12888,9 @@
     {
       "type": "way",
       "id": 970097404,
-      "timestamp": "2022-07-24T23:05:14Z",
-      "version": 3,
-      "changeset": 124026671,
+      "timestamp": "2022-08-04T09:30:56Z",
+      "version": 4,
+      "changeset": 124470879,
       "user": "Radiat47",
       "uid": 14300582,
       "nodes": [4228817768, 2262108160],
@@ -13016,12 +13030,14 @@
         {"lat": 42.5858078, "lon": 20.0884666, "z": 2206.7},
         {"lat": 42.5852206, "lon": 20.087755, "z": 2201.3},
         {"lat": 42.5849406, "lon": 20.0872397, "z": 2200.5},
-        {"lat": 42.5843692, "lon": 20.0869636, "z": 2186.4},
-        {"lat": 42.5838024, "lon": 20.08689, "z": 2174.1},
+        {"lat": 42.5843755, "lon": 20.0868992, "z": 2187.8},
+        {"lat": 42.5837866, "lon": 20.08686, "z": 2174.3},
         {"lat": 42.5836845, "lon": 20.0869281, "z": 2171}
       ],
       "tags": {
         "highway": "path",
+        "route": "hiking",
+        "sac_scale": "hiking",
         "smoothness": "horrible",
         "source": "bingMaps",
         "surface": "ground",
@@ -13034,7 +13050,7 @@
       "timestamp": "2021-08-03T12:47:15Z",
       "version": 2,
       "changeset": 109094408,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [7912469717, 3951451858],
       "geometry": [
@@ -13087,7 +13103,7 @@
       "timestamp": "2021-08-03T12:47:15Z",
       "version": 1,
       "changeset": 109094408,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [3951451858, 3951452777],
       "geometry": [
@@ -13117,7 +13133,7 @@
       "timestamp": "2021-08-03T13:21:17Z",
       "version": 1,
       "changeset": 109096129,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [5226972545, 3418237494],
       "geometry": [
@@ -13146,7 +13162,7 @@
       "timestamp": "2021-08-03T14:27:43Z",
       "version": 2,
       "changeset": 109098806,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [5307548604, 2238855872],
       "geometry": [
@@ -13255,7 +13271,7 @@
       "timestamp": "2021-08-03T14:27:43Z",
       "version": 1,
       "changeset": 109098806,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [2238855872, 7912469717],
       "geometry": [
@@ -13302,7 +13318,7 @@
       "timestamp": "2021-08-03T14:30:26Z",
       "version": 1,
       "changeset": 109098806,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [3418308341, 3416349453],
       "geometry": [
@@ -13347,7 +13363,7 @@
       "timestamp": "2021-08-03T14:30:53Z",
       "version": 1,
       "changeset": 109098806,
-      "user": "Green Mountain",
+      "user": "user_1737004",
       "uid": 1737004,
       "nodes": [3990326885, 3418308341],
       "geometry": [

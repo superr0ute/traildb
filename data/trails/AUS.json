@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-16T03:25:23Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-05T03:48:38Z"},
   "elements": [
     {
       "type": "relation",
       "id": 1644959,
-      "timestamp": "2022-06-21T03:33:05Z",
-      "version": 243,
-      "changeset": 122644406,
-      "user": "Jack Boschert",
-      "uid": 15207166,
+      "timestamp": "2022-08-02T10:13:36Z",
+      "version": 244,
+      "changeset": 124383991,
+      "user": "rennicm",
+      "uid": 365931,
       "members": [
         {"type": "way", "ref": 934867696, "role": ""},
         {"type": "way", "ref": 934867692, "role": ""},
@@ -325,7 +325,8 @@
         {"type": "way", "ref": 128146221, "role": ""},
         {"type": "way", "ref": 42745344, "role": ""},
         {"type": "way", "ref": 42745349, "role": ""},
-        {"type": "way", "ref": 42745350, "role": ""}
+        {"type": "way", "ref": 813760876, "role": ""},
+        {"type": "way", "ref": 42745348, "role": ""}
       ],
       "tags": {
         "colour": "yellow",
@@ -16988,6 +16989,28 @@
     },
     {
       "type": "way",
+      "id": 42745348,
+      "timestamp": "2022-08-02T10:13:36Z",
+      "version": 6,
+      "changeset": 124383991,
+      "user": "rennicm",
+      "uid": 365931,
+      "nodes": [534502638, 534476776],
+      "geometry": [
+        {"lat": -37.9414525, "lon": 146.4519505, "z": 348.7},
+        {"lat": -37.9414829, "lon": 146.45207, "z": 348.1}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "foot": "yes",
+        "highway": "path",
+        "layer": "1",
+        "source": "survey",
+        "source:geometry": "Esri World Imagery"
+      }
+    },
+    {
+      "type": "way",
       "id": 42745349,
       "timestamp": "2020-06-08T04:17:39Z",
       "version": 3,
@@ -17007,21 +17030,6 @@
         "source:geometry": "Esri World Imagery",
         "source:name": "Vicmap.Transport:services.land.vic.gov.au"
       }
-    },
-    {
-      "type": "way",
-      "id": 42745350,
-      "timestamp": "2009-10-18T03:18:44Z",
-      "version": 1,
-      "changeset": 2879395,
-      "user": "Rhubarb",
-      "uid": 69319,
-      "nodes": [534502640, 534502636],
-      "geometry": [
-        {"lat": -37.941437, "lon": 146.4518918, "z": 349},
-        {"lat": -37.9414894, "lon": 146.4518281, "z": 348.9}
-      ],
-      "tags": {"highway": "steps", "source": "survey", "step_count": "17"}
     },
     {
       "type": "way",
@@ -21845,6 +21853,28 @@
         "informal": "probably",
         "name": "Australian Alps Walking Track",
         "surface": "unpaved"
+      }
+    },
+    {
+      "type": "way",
+      "id": 813760876,
+      "timestamp": "2020-06-08T04:17:39Z",
+      "version": 1,
+      "changeset": 86327118,
+      "user": "breno-au",
+      "uid": 859676,
+      "nodes": [534502640, 534502638],
+      "geometry": [
+        {"lat": -37.941437, "lon": 146.4518918, "z": 349},
+        {"lat": -37.9414525, "lon": 146.4519505, "z": 348.7}
+      ],
+      "tags": {
+        "foot": "yes",
+        "highway": "path",
+        "name": "Lodge Walk",
+        "source": "survey",
+        "source:geometry": "Esri World Imagery",
+        "source:name": "Vicmap.Transport:services.land.vic.gov.au"
       }
     },
     {
