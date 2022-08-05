@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-07-26T23:59:59Z",
-    "timestamp_osm_base": "2022-07-27T06:06:06Z",
+    "timestamp_osm_date": "2022-08-04T23:59:59Z",
+    "timestamp_osm_base": "2022-08-05T06:26:08Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -448,11 +448,11 @@
       "id": 340370753,
       "lat": 42.5430298,
       "lon": 8.9352746,
-      "timestamp": "2013-12-12T01:23:32Z",
-      "version": 5,
-      "changeset": 19405183,
-      "user": "RedFox",
-      "uid": 10610,
+      "timestamp": "2022-07-31T16:43:11Z",
+      "version": 7,
+      "changeset": 124310701,
+      "user": "Garmin-User",
+      "uid": 177389,
       "tags": {
         "name": "Feliceto",
         "place": "village"
@@ -463,13 +463,13 @@
       "id": 340395021,
       "lat": 42.5457744,
       "lon": 8.9357694,
-      "timestamp": "2016-12-28T15:47:29Z",
-      "version": 5,
-      "changeset": 44734174,
-      "user": "gsimon",
-      "uid": 1668080,
+      "timestamp": "2022-07-27T15:11:19Z",
+      "version": 6,
+      "changeset": 124146164,
+      "user": "Gerard PIETRY",
+      "uid": 8806013,
       "tags": {
-        "name": "Stambolaccie",
+        "name": "E Strambulaccie",
         "place": "hamlet",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2009"
       }
@@ -1319,16 +1319,16 @@
       "id": 486144984,
       "lat": 42.5082063,
       "lon": 8.8523867,
-      "timestamp": "2020-10-04T19:10:54Z",
-      "version": 6,
-      "changeset": 91943755,
-      "user": "emersion",
-      "uid": 687595,
+      "timestamp": "2022-07-30T13:40:32Z",
+      "version": 7,
+      "changeset": 124268868,
+      "user": "atisne",
+      "uid": 821843,
       "tags": {
         "brand": "Spar",
         "brand:wikidata": "Q610492",
         "name": "Spar",
-        "opening_hours": "Mo-Sa 08:30-12:30, 15:00-19:30; Su 08:30-12:30",
+        "opening_hours": "Mo-Sa 08:30-20:00; Su 08:30-13:00",
         "operator": "Spar",
         "shop": "supermarket"
       }
@@ -8725,6 +8725,21 @@
       }
     },
     {
+      "type": "node",
+      "id": 9928090943,
+      "lat": 42.4556027,
+      "lon": 8.9037531,
+      "timestamp": "2022-08-02T21:11:38Z",
+      "version": 1,
+      "changeset": 124409964,
+      "user": "Gustry",
+      "uid": 86289,
+      "tags": {
+        "drinking_water": "yes",
+        "natural": "spring"
+      }
+    },
+    {
       "type": "way",
       "id": 35061836,
       "timestamp": "2021-02-20T15:30:51Z",
@@ -9339,19 +9354,18 @@
     {
       "type": "way",
       "id": 237852704,
-      "timestamp": "2019-08-19T15:04:24Z",
-      "version": 5,
-      "changeset": 73503378,
-      "user": "PhilLL",
-      "uid": 1710208,
+      "timestamp": "2022-08-02T21:11:38Z",
+      "version": 6,
+      "changeset": 124409964,
+      "user": "Gustry",
+      "uid": 86289,
       "center": {
         "lat": 42.4651958,
         "lon": 8.9068818
       },
       "nodes": [],
       "tags": {
-        "building": "yes",
-        "capacity": "32",
+        "building": "ruins",
         "ele": "1520",
         "name": "Refuge de l´Ortu di u Piobbu",
         "operator": "Parc Naturel Régional de Corse",
@@ -10824,6 +10838,48 @@
       "tags": {
         "name": "E Canicce",
         "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1082724374,
+      "timestamp": "2022-07-31T17:02:56Z",
+      "version": 1,
+      "changeset": 124311448,
+      "user": "esteban713",
+      "uid": 9650281,
+      "center": {
+        "lat": 42.4727338,
+        "lon": 9.127042
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Moltifao",
+        "addr:postcode": "20218",
+        "addr:street": "Route d'Asco",
+        "fee": "yes",
+        "name": "Camping Cabanella",
+        "payment:cash": "yes",
+        "tourism": "camp_site",
+        "website": "https://camping-cabanella.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1083328604,
+      "timestamp": "2022-08-02T21:11:38Z",
+      "version": 1,
+      "changeset": 124409964,
+      "user": "Gustry",
+      "uid": 86289,
+      "center": {
+        "lat": 42.4646657,
+        "lon": 8.9060727
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes"
       }
     }
   ]

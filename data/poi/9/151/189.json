@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-07-26T23:59:59Z",
-    "timestamp_osm_base": "2022-07-27T05:13:19Z",
+    "timestamp_osm_date": "2022-08-04T23:59:59Z",
+    "timestamp_osm_base": "2022-08-05T05:30:58Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4934,19 +4934,24 @@
     {
       "type": "node",
       "id": 365214732,
-      "lat": 42.4019219,
-      "lon": -73.6951151,
-      "timestamp": "2022-07-05T23:52:17Z",
-      "version": 4,
-      "changeset": 123253612,
-      "user": "andrewpmk",
-      "uid": 1679,
+      "lat": 42.4020029,
+      "lon": -73.6951946,
+      "timestamp": "2022-07-29T14:18:12Z",
+      "version": 5,
+      "changeset": 124234107,
+      "user": "convissor",
+      "uid": 1484939,
       "tags": {
         "addr:city": "Kinderhook",
+        "addr:housenumber": "61",
+        "addr:postcode": "12106",
+        "addr:state": "NY",
+        "addr:street": "Chatham Street",
         "amenity": "fuel",
         "brand": "Stewart's",
         "brand:wikidata": "Q7615690",
         "name": "Stewart's",
+        "nysgissam:nysaddresspointid": "COLU030448",
         "shop": "convenience",
         "url": "http://stewartsshops.com/LocationFinder/index.cfm?InstanceID=1013&step=show_detail&LocationFinderID=237"
       }
@@ -5400,17 +5405,27 @@
     {
       "type": "node",
       "id": 710883894,
-      "lat": 42.4334505,
-      "lon": -73.6577457,
-      "timestamp": "2011-04-12T15:25:54Z",
-      "version": 2,
-      "changeset": 7843664,
-      "user": "nfgusedautoparts",
-      "uid": 113450,
+      "lat": 42.4334842,
+      "lon": -73.6577658,
+      "timestamp": "2022-07-27T12:20:28Z",
+      "version": 3,
+      "changeset": 124138767,
+      "user": "convissor",
+      "uid": 1484939,
       "tags": {
+        "addr:city": "Valatie",
+        "addr:housenumber": "965",
+        "addr:postcode": "12184",
+        "addr:state": "NY",
+        "addr:street": "Route 28",
         "amenity": "fuel",
-        "brand": "Citgo",
-        "name": "Niverville Quick Stop",
+        "brand": "Sunoco",
+        "brand:wikidata": "Q1423218",
+        "fuel:diesel": "yes",
+        "fuel:gasoline": "yes",
+        "name": "Sunoco",
+        "nysgissam:nysaddresspointid": "COLU008713",
+        "self_service": "yes",
         "shop": "convenience"
       }
     },
@@ -7452,6 +7467,48 @@
         "amenity": "shelter",
         "building": "yes",
         "shelter_type": "lean_to"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1081648095,
+      "timestamp": "2022-07-27T01:21:48Z",
+      "version": 1,
+      "changeset": 124117143,
+      "user": "convissor",
+      "uid": 1484939,
+      "center": {
+        "lat": 42.5387554,
+        "lon": -73.6083816
+      },
+      "nodes": [],
+      "tags": {
+        "access": "customers",
+        "amenity": "shelter",
+        "bin": "yes",
+        "building": "yes",
+        "lit": "yes",
+        "operator": "Jimmy's Lakeside Grill",
+        "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1082786129,
+      "timestamp": "2022-08-01T01:41:50Z",
+      "version": 1,
+      "changeset": 124322454,
+      "user": "convissor",
+      "uid": 1484939,
+      "center": {
+        "lat": 42.2545534,
+        "lon": -73.799629
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "gazebo"
       }
     }
   ]
