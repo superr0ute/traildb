@@ -140,16 +140,18 @@
         "@poi": "foodshop_supermarket",
         "@distance": 307.4,
         "@id": "n1403599492",
-        "@changeset": 82492748,
-        "@timestamp": "2020-03-22T19:36:51Z",
-        "@version": 4,
-        "@uid": 214436,
-        "@user": "PanierAvide",
+        "@changeset": 124531485,
+        "@timestamp": "2022-08-05T16:34:46Z",
+        "@version": 5,
+        "@uid": 1198089,
+        "@user": "GeorgeKaplan",
         "brand": "Intermarché",
         "brand:wikidata": "Q3153200",
         "brand:wikipedia": "fr:Intermarché",
         "name": "Intermarché Super",
+        "opening_hours": "Mo-Sa 08:30-19:30; Su 08:30-12:30",
         "operator": "Groupement des Mousquetaires",
+        "phone": "04 73 81 04 66",
         "shop": "supermarket"
       },
       "geometry": {
@@ -4335,6 +4337,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 461.8,
+        "@id": "n9922502761",
+        "@changeset": 124304975,
+        "@timestamp": "2022-07-31T14:08:47Z",
+        "@version": 1,
+        "@uid": 3304272,
+        "@user": "Plumf",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "drinking_water": "yes",
+        "man_made": "water_tap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.9461419,
+          45.5742725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 928.9,
         "@id": "w63136103",
@@ -5124,6 +5150,50 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1366.4,
+        "@id": "w1083542072",
+        "@changeset": 124441191,
+        "@timestamp": "2022-08-03T14:59:27Z",
+        "@version": 1,
+        "@uid": 4057819,
+        "@user": "Papa-Yankee-Bzh",
+        "amenity": "shelter"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.939858,
+          45.5501087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "campsite",
+        "@distance": 1054.6,
+        "@id": "w1083542078",
+        "@changeset": 124441191,
+        "@timestamp": "2022-08-03T14:59:27Z",
+        "@version": 1,
+        "@uid": 4057819,
+        "@user": "Papa-Yankee-Bzh",
+        "camp_site": "standard",
+        "description": "camping à la ferme",
+        "tourism": "camp_site"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.9384233,
+          45.5526708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 1463.6,
         "@id": "n5838432122",
@@ -5249,19 +5319,24 @@
         "@poi": "shelter_shelter",
         "@distance": 1252.3,
         "@id": "w605050834",
-        "@changeset": 60415874,
-        "@timestamp": "2018-07-04T17:58:25Z",
-        "@version": 1,
-        "@uid": 7053591,
-        "@user": "Régis Vrignaud",
+        "@changeset": 124531485,
+        "@timestamp": "2022-08-05T16:34:46Z",
+        "@version": 2,
+        "@uid": 1198089,
+        "@user": "GeorgeKaplan",
         "amenity": "shelter",
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "note": "Navette thermale, n°3",
+        "public_transport": "platform",
         "shelter_type": "public_transport"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.8075594,
-          45.5786219
+          2.80756,
+          45.578622
         ]
       }
     },
@@ -5647,11 +5722,12 @@
         "@poi": "water_spring",
         "@distance": 2133.4,
         "@id": "n7685395663",
-        "@changeset": 87561844,
-        "@timestamp": "2020-07-05T17:35:19Z",
-        "@version": 1,
-        "@uid": 536563,
-        "@user": "BARO",
+        "@changeset": 124531485,
+        "@timestamp": "2022-08-05T16:34:46Z",
+        "@version": 2,
+        "@uid": 1198089,
+        "@user": "GeorgeKaplan",
+        "access": "no",
         "drinking_water": "yes",
         "name": "Source Fenestre",
         "natural": "spring"
@@ -6039,14 +6115,22 @@
         "@poi": "campsite",
         "@distance": 332.3,
         "@id": "w603929256",
-        "@changeset": 60314384,
-        "@timestamp": "2018-07-01T05:02:05Z",
-        "@version": 1,
-        "@uid": 7053591,
-        "@user": "Régis Vrignaud",
+        "@changeset": 124531485,
+        "@timestamp": "2022-08-05T16:34:46Z",
+        "@version": 2,
+        "@uid": 1198089,
+        "@user": "GeorgeKaplan",
+        "caravans": "yes",
+        "email": "contact@campinglamarmotte.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "mobile": "0649670114",
         "name": "La Marmotte",
+        "phone": "04.73.65.95.87",
         "stars": "3",
-        "tourism": "camp_site"
+        "tents": "yes",
+        "tourism": "camp_site",
+        "website": "http://www.campinglamarmotte.com"
       },
       "geometry": {
         "type": "Point",

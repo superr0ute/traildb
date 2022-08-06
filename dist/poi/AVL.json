@@ -2146,13 +2146,13 @@
       "type": "Feature",
       "properties": {
         "@poi": "peak_peak",
-        "@distance": 3326.1,
+        "@distance": 3293.3,
         "@id": "n2911098296",
-        "@changeset": 84155028,
-        "@timestamp": "2020-04-26T19:10:13Z",
-        "@version": 2,
-        "@uid": 1416503,
-        "@user": "asdf2",
+        "@changeset": 124216470,
+        "@timestamp": "2022-07-29T07:40:01Z",
+        "@version": 3,
+        "@uid": 5076905,
+        "@user": "gbal45",
         "ele": 2030,
         "name": "Torrion",
         "natural": "peak",
@@ -2161,8 +2161,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.1969943,
-          46.2414337
+          9.1975405,
+          46.2414379
         ]
       }
     },
@@ -4393,18 +4393,26 @@
         "@poi": "foodshop_supermarket",
         "@distance": 6318.7,
         "@id": "n5942650939",
-        "@changeset": 119292825,
-        "@timestamp": "2022-04-04T08:42:59Z",
-        "@version": 2,
-        "@uid": 10901495,
-        "@user": "Martino Scaglione",
+        "@changeset": 124384265,
+        "@timestamp": "2022-08-02T10:19:08Z",
+        "@version": 3,
+        "@uid": 4555725,
+        "@user": "Andreas Lattmann",
         "brand": "Iperal",
         "brand:wikidata": "Q3801481",
         "brand:wikipedia": "it:Iperal",
+        "cash_withdrawal": "yes",
+        "changing_table": "yes",
+        "changing_table:fee": "no",
+        "kids_area:indoor": "yes",
         "level": "1",
         "name": "Iperal Fuentes",
+        "organic": "yes",
         "ref:vatin": "IT03248050969",
         "shop": "supermarket",
+        "toilets": "yes",
+        "toilets:access": "permissive",
+        "toilets:wheelchair": "yes",
         "wheelchair": "yes"
       },
       "geometry": {
@@ -5602,32 +5610,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "place_village",
-        "@distance": 3817.7,
-        "@id": "n2844294284",
-        "@changeset": 46761933,
-        "@timestamp": "2017-03-11T13:02:34Z",
-        "@version": 2,
-        "@uid": 354284,
-        "@user": "sbiribizio",
-        "addr:postcode": "22017",
-        "ele": 320,
-        "name": "Loveno",
-        "place": "village",
-        "wikidata": "Q576455",
-        "wikipedia": "it:Loveno (Menaggio)"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.2313709,
-          46.0272816
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 2430.2,
         "@id": "n8927253497",
@@ -5949,6 +5931,32 @@
         "coordinates": [
           9.3827296,
           46.3055127
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "place_village",
+        "@distance": 3817.7,
+        "@id": "n2844294284",
+        "@changeset": 46761933,
+        "@timestamp": "2017-03-11T13:02:34Z",
+        "@version": 2,
+        "@uid": 354284,
+        "@user": "sbiribizio",
+        "addr:postcode": "22017",
+        "ele": 320,
+        "name": "Loveno",
+        "place": "village",
+        "wikidata": "Q576455",
+        "wikipedia": "it:Loveno (Menaggio)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2313709,
+          46.0272816
         ]
       }
     },
@@ -7218,6 +7226,56 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 9867.1,
+        "@id": "n3826805725",
+        "@changeset": 124524272,
+        "@timestamp": "2022-08-05T13:32:25Z",
+        "@version": 6,
+        "@uid": 16232597,
+        "@user": "super_saiyan20",
+        "addr:city": "Bellagio",
+        "addr:housenumber": "40",
+        "addr:postcode": "22021",
+        "addr:street": "Via Alessandro Volta",
+        "name": "Consorzio Agrario Migross Market",
+        "opening_hours": "Mo-Sa 08:30-12:30,15:30-19:30; Su 08:30-12:30",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2581689,
+          45.976072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 4315.6,
+        "@id": "n3866439377",
+        "@changeset": 88095298,
+        "@timestamp": "2020-07-16T15:23:57Z",
+        "@version": 6,
+        "@uid": 9830089,
+        "@user": "OneTwoThreeFour",
+        "name": "Bottari",
+        "opening_hours": "Mo 08:00-12:30; Tu-Sa 08:00-12:30,15:00-19:00",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1697525,
+          46.041683
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 3094.4,
         "@id": "w368631955",
@@ -7273,55 +7331,6 @@
         "coordinates": [
           9.396395,
           46.2768114
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 9867.1,
-        "@id": "n3826805725",
-        "@changeset": 69897963,
-        "@timestamp": "2019-05-05T08:51:18Z",
-        "@version": 5,
-        "@uid": 1175301,
-        "@user": "o_s_m_app_er",
-        "addr:city": "Bellagio",
-        "addr:housenumber": "40",
-        "addr:postcode": "22021",
-        "addr:street": "Via Alessandro Volta",
-        "name": "Consorzio Agrario Migross Market",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.2581689,
-          45.976072
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 4315.6,
-        "@id": "n3866439377",
-        "@changeset": 88095298,
-        "@timestamp": "2020-07-16T15:23:57Z",
-        "@version": 6,
-        "@uid": 9830089,
-        "@user": "OneTwoThreeFour",
-        "name": "Bottari",
-        "opening_hours": "Mo 08:00-12:30; Tu-Sa 08:00-12:30,15:00-19:00",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.1697525,
-          46.041683
         ]
       }
     },
@@ -7854,29 +7863,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 7945.4,
-        "@id": "w343211556",
-        "@changeset": 31230725,
-        "@timestamp": "2015-05-17T15:48:14Z",
-        "@version": 2,
-        "@uid": 1476146,
-        "@user": "Alecs01",
-        "building": "commercial",
-        "name": "Minimarket",
-        "shop": "convenience"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.1269215,
-          46.0280858
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 22.9,
         "@id": "n7686823718",
@@ -7914,6 +7900,29 @@
         "coordinates": [
           9.1510668,
           46.0417526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 7945.4,
+        "@id": "w343211556",
+        "@changeset": 31230725,
+        "@timestamp": "2015-05-17T15:48:14Z",
+        "@version": 2,
+        "@uid": 1476146,
+        "@user": "Alecs01",
+        "building": "commercial",
+        "name": "Minimarket",
+        "shop": "convenience"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1269215,
+          46.0280858
         ]
       }
     },

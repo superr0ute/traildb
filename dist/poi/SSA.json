@@ -11793,6 +11793,48 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "water_spring",
+        "@distance": 513.7,
+        "@id": "n3642949443",
+        "@changeset": 32523346,
+        "@timestamp": "2015-07-09T16:23:43Z",
+        "@version": 1,
+        "@uid": 2006024,
+        "@user": "ilBiondo",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3778985,
+          44.0619773
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 624.1,
+        "@id": "n3642949444",
+        "@changeset": 32523346,
+        "@timestamp": "2015-07-09T16:23:43Z",
+        "@version": 1,
+        "@uid": 2006024,
+        "@user": "ilBiondo",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3794953,
+          44.0620192
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "place_village",
         "@distance": 2357.1,
         "@id": "n1769317505",
@@ -12887,48 +12929,6 @@
         "coordinates": [
           11.2844954,
           44.0932766
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 513.7,
-        "@id": "n3642949443",
-        "@changeset": 32523346,
-        "@timestamp": "2015-07-09T16:23:43Z",
-        "@version": 1,
-        "@uid": 2006024,
-        "@user": "ilBiondo",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.3778985,
-          44.0619773
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 624.1,
-        "@id": "n3642949444",
-        "@changeset": 32523346,
-        "@timestamp": "2015-07-09T16:23:43Z",
-        "@version": 1,
-        "@uid": 2006024,
-        "@user": "ilBiondo",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.3794953,
-          44.0620192
         ]
       }
     },
@@ -20312,90 +20312,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2183.7,
-        "@id": "w200045637",
-        "@changeset": 14566112,
-        "@timestamp": "2013-01-07T18:53:02Z",
-        "@version": 2,
-        "@uid": 592817,
-        "@user": "colasurf",
-        "amenity": "shelter",
-        "fireplace": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.6920744,
-          43.8638367
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 2779.9,
-        "@id": "w203157938",
-        "@changeset": 71061264,
-        "@timestamp": "2019-06-09T00:09:40Z",
-        "@version": 7,
-        "@uid": 7078274,
-        "@user": "gabriele_sani",
-        "building": "cabin",
-        "capacity": 10,
-        "description": "Rifugio non gestito dotato di 10 posti letto con materasso, stufa/cucina economica e focolare",
-        "fee": "no",
-        "fireplace": "no",
-        "mattress": "yes",
-        "name": "Prati Piani",
-        "shower": "no",
-        "source": "survey",
-        "stove": "yes",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.5187261,
-          44.0484992
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 1320.5,
-        "@id": "w207085599",
-        "@changeset": 118199119,
-        "@timestamp": "2022-03-07T14:10:54Z",
-        "@version": 6,
-        "@uid": 7078274,
-        "@user": "gabriele_sani",
-        "building": "hut",
-        "capacity": 6,
-        "fee": "no",
-        "fireplace": "yes",
-        "locked": "no",
-        "mattress": "no",
-        "name": "Bivacco Borbotto",
-        "note": "edificio in muratura sempre aperto dotato di camino",
-        "shelter_type": "weather_shelter",
-        "toilets": "no",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.6871953,
-          43.8831567
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 148.1,
         "@id": "n6142885523",
@@ -21308,19 +21224,22 @@
         "@poi": "shelter_wilderness-hut",
         "@distance": 177.9,
         "@id": "n6762628488",
-        "@changeset": 81354307,
-        "@timestamp": "2020-02-22T20:47:53Z",
-        "@version": 4,
-        "@uid": 160229,
-        "@user": "sorcrosc",
+        "@changeset": 124484719,
+        "@timestamp": "2022-08-04T14:52:00Z",
+        "@version": 5,
+        "@uid": 175882,
+        "@user": "MarcoR",
         "addr:city": "Montepiano",
         "addr:postcode": "59026",
         "addr:street": "Via della Badia",
+        "capacity": 14,
         "description": "Posto tappa GEA 14 posti letto cucina docce calde",
         "name": "Posto tappa GEA Grande Escursione Appenninica",
         "operator": "Pro Loco Montepiano - CAI Montepiano",
-        "phone": "+339 1831692",
+        "phone": "+39 339 1831692",
         "reservation": "required",
+        "shower": "hot",
+        "stove": "yes",
         "tourism": "wilderness_hut"
       },
       "geometry": {
@@ -21615,6 +21534,90 @@
         "coordinates": [
           10.9875917,
           44.019526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2183.7,
+        "@id": "w200045637",
+        "@changeset": 14566112,
+        "@timestamp": "2013-01-07T18:53:02Z",
+        "@version": 2,
+        "@uid": 592817,
+        "@user": "colasurf",
+        "amenity": "shelter",
+        "fireplace": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6920744,
+          43.8638367
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 2779.9,
+        "@id": "w203157938",
+        "@changeset": 71061264,
+        "@timestamp": "2019-06-09T00:09:40Z",
+        "@version": 7,
+        "@uid": 7078274,
+        "@user": "gabriele_sani",
+        "building": "cabin",
+        "capacity": 10,
+        "description": "Rifugio non gestito dotato di 10 posti letto con materasso, stufa/cucina economica e focolare",
+        "fee": "no",
+        "fireplace": "no",
+        "mattress": "yes",
+        "name": "Prati Piani",
+        "shower": "no",
+        "source": "survey",
+        "stove": "yes",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5187261,
+          44.0484992
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 1321.8,
+        "@id": "w207085599",
+        "@changeset": 118199119,
+        "@timestamp": "2022-03-07T14:10:54Z",
+        "@version": 6,
+        "@uid": 7078274,
+        "@user": "gabriele_sani",
+        "building": "hut",
+        "capacity": 6,
+        "fee": "no",
+        "fireplace": "yes",
+        "locked": "no",
+        "mattress": "no",
+        "name": "Bivacco Borbotto",
+        "note": "edificio in muratura sempre aperto dotato di camino",
+        "shelter_type": "weather_shelter",
+        "toilets": "no",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6871953,
+          43.8831391
         ]
       }
     },
@@ -26515,35 +26518,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_wilderness-hut",
-        "@distance": 784.6,
-        "@id": "w304594085",
-        "@changeset": 123086615,
-        "@timestamp": "2022-07-01T13:16:30Z",
-        "@version": 7,
-        "@uid": 11329839,
-        "@user": "giuliobranchetti",
-        "access": "permissive",
-        "building": "hut",
-        "description": "Cannicciaia della distrutta cascina di Cerliano, oggi adibita a bivacco per gli escursionisti",
-        "fee": "no",
-        "fireplace": "no",
-        "name": "Casotto di Cerliano",
-        "shelter_type": "basic_hut",
-        "source": "Le Mappe dei Cittadini - Quaderno n. 2",
-        "tourism": "wilderness_hut"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.0668839,
-          44.0129097
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_spring",
         "@distance": 2364,
         "@id": "n9130397816",
@@ -26883,6 +26857,48 @@
         "coordinates": [
           9.9603326,
           44.4273485
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 985.4,
+        "@id": "n9920708893",
+        "@changeset": 124262576,
+        "@timestamp": "2022-07-30T10:31:15Z",
+        "@version": 1,
+        "@uid": 14617702,
+        "@user": "Đuro Jiří",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.110118,
+          44.3605178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 889.8,
+        "@id": "n9924422478",
+        "@changeset": 124337185,
+        "@timestamp": "2022-08-01T10:14:18Z",
+        "@version": 1,
+        "@uid": 11240088,
+        "@user": "TheMapperFromCalice",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1192565,
+          44.342947
         ]
       }
     },
@@ -27369,6 +27385,35 @@
         "coordinates": [
           10.9894403,
           44.1360811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 784.6,
+        "@id": "w304594085",
+        "@changeset": 123086615,
+        "@timestamp": "2022-07-01T13:16:30Z",
+        "@version": 7,
+        "@uid": 11329839,
+        "@user": "giuliobranchetti",
+        "access": "permissive",
+        "building": "hut",
+        "description": "Cannicciaia della distrutta cascina di Cerliano, oggi adibita a bivacco per gli escursionisti",
+        "fee": "no",
+        "fireplace": "no",
+        "name": "Casotto di Cerliano",
+        "shelter_type": "basic_hut",
+        "source": "Le Mappe dei Cittadini - Quaderno n. 2",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.0668839,
+          44.0129097
         ]
       }
     },
@@ -28125,6 +28170,30 @@
         "coordinates": [
           10.0646755,
           44.352383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_wilderness-hut",
+        "@distance": 900,
+        "@id": "w1082910052",
+        "@changeset": 124337185,
+        "@timestamp": "2022-08-01T10:14:18Z",
+        "@version": 1,
+        "@uid": 11240088,
+        "@user": "TheMapperFromCalice",
+        "building": "yes",
+        "fireplace": "yes",
+        "name": "Capanna dei Salarini",
+        "tourism": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.119154,
+          44.343012
         ]
       }
     },
