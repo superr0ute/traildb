@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-08-05T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-06T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -7339,9 +7339,9 @@
     {
       "type": "way",
       "id": 186155586,
-      "timestamp": "2022-08-05T19:05:48Z",
-      "version": 6,
-      "changeset": 124536497,
+      "timestamp": "2022-08-06T10:01:05Z",
+      "version": 7,
+      "changeset": 124554953,
       "user": "Oisín",
       "uid": 57844,
       "nodes": [1968503115, 1968503140],
@@ -7366,7 +7366,11 @@
         {"lat": 35.029596, "lon": 32.6428468},
         {"lat": 35.0295192, "lon": 32.6434402}
       ],
-      "tags": {"highway": "track", "tracktype": "grade2"}
+      "tags": {
+        "highway": "track",
+        "surface": "pebblestone",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
@@ -20257,11 +20261,11 @@
     {
       "type": "way",
       "id": 385774512,
-      "timestamp": "2016-02-11T19:24:02Z",
-      "version": 3,
-      "changeset": 37153420,
-      "user": "Gero",
-      "uid": 473445,
+      "timestamp": "2022-08-06T10:01:07Z",
+      "version": 4,
+      "changeset": 124554953,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [1968503162, 1968503140],
       "geometry": [
         {"lat": 35.031367, "lon": 32.6456444},
@@ -20273,7 +20277,7 @@
         {"lat": 35.0295826, "lon": 32.643975},
         {"lat": 35.0295192, "lon": 32.6434402}
       ],
-      "tags": {"highway": "service", "surface": "paved"}
+      "tags": {"highway": "service", "surface": "pebblestone"}
     },
     {
       "type": "way",
@@ -20341,11 +20345,11 @@
     {
       "type": "way",
       "id": 385774515,
-      "timestamp": "2022-02-28T14:24:24Z",
-      "version": 6,
-      "changeset": 117945914,
-      "user": "housy76",
-      "uid": 4930265,
+      "timestamp": "2022-08-06T10:00:56Z",
+      "version": 7,
+      "changeset": 124554936,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [979253269, 292147768],
       "geometry": [
         {"lat": 35.0250567, "lon": 32.6347745},
@@ -20456,7 +20460,12 @@
         {"lat": 35.0236663, "lon": 32.6318407},
         {"lat": 35.0237527, "lon": 32.6317388}
       ],
-      "tags": {"highway": "tertiary", "ref": "F723", "surface": "asphalt"}
+      "tags": {
+        "highway": "tertiary",
+        "lanes": "2",
+        "ref": "F723",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",

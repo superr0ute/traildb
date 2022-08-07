@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-08-05T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-06T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2602,11 +2602,11 @@
     {
       "type": "relation",
       "id": 907521,
-      "timestamp": "2022-07-31T15:44:32Z",
-      "version": 47,
-      "changeset": 124308565,
-      "user": "Karthoo",
-      "uid": 3232636,
+      "timestamp": "2022-08-06T10:00:13Z",
+      "version": 48,
+      "changeset": 124554910,
+      "user": "*abq*",
+      "uid": 3696195,
       "members": [
         {"type": "node", "ref": 683291995, "role": "nightstop"},
         {"type": "node", "ref": 708128116, "role": "night_stop"},
@@ -2644,6 +2644,7 @@
         {"type": "node", "ref": 1310992006, "role": "guidepost"},
         {"type": "node", "ref": 3292898642, "role": "guidepost"},
         {"type": "node", "ref": 5842363385, "role": "join:10"},
+        {"type": "node", "ref": 9212096494, "role": ""},
         {"type": "way", "ref": 58827775, "role": "first"},
         {"type": "way", "ref": 975198977, "role": ""},
         {"type": "way", "ref": 319538361, "role": ""},
@@ -2681,6 +2682,7 @@
         {"type": "way", "ref": 58848797, "role": ""},
         {"type": "way", "ref": 58848978, "role": ""},
         {"type": "way", "ref": 58848976, "role": ""},
+        {"type": "way", "ref": 1084203100, "role": ""},
         {"type": "way", "ref": 1082474951, "role": ""},
         {"type": "way", "ref": 58848977, "role": ""},
         {"type": "way", "ref": 900432604, "role": ""},
@@ -2741,8 +2743,7 @@
         {"type": "way", "ref": 58862212, "role": ""},
         {"type": "way", "ref": 58862248, "role": ""},
         {"type": "way", "ref": 1082712027, "role": ""},
-        {"type": "way", "ref": 1082712025, "role": "last"},
-        {"type": "node", "ref": 9212096494, "role": ""}
+        {"type": "way", "ref": 1082712025, "role": "last"}
       ],
       "tags": {
         "description": "Kalte Herberge - Titisee",
@@ -3307,11 +3308,11 @@
     {
       "type": "way",
       "id": 1054809665,
-      "timestamp": "2022-04-25T16:17:23Z",
-      "version": 1,
-      "changeset": 120173687,
-      "user": "jeroenrozema74",
-      "uid": 183483,
+      "timestamp": "2022-08-06T16:18:01Z",
+      "version": 2,
+      "changeset": 124569270,
+      "user": "tobim91",
+      "uid": 3233303,
       "nodes": [276288026, 7924984239],
       "geometry": [
         {"lat": 48.2855162, "lon": 8.1796968},
@@ -3328,6 +3329,7 @@
         "name": "Eisenbahnstraße",
         "ref": "K 5359",
         "sidewalk": "both",
+        "smoothness": "good",
         "source:maxspeed": "DE:urban",
         "surface": "asphalt",
         "zone:traffic": "DE:urban"
@@ -3967,17 +3969,16 @@
     {
       "type": "way",
       "id": 1082474951,
-      "timestamp": "2022-07-30T08:46:07Z",
-      "version": 1,
-      "changeset": 124259191,
-      "user": "Karthoo",
-      "uid": 3232636,
-      "nodes": [729128591, 1370939563],
+      "timestamp": "2022-08-06T10:00:13Z",
+      "version": 2,
+      "changeset": 124554910,
+      "user": "*abq*",
+      "uid": 3696195,
+      "nodes": [729128591, 436553053],
       "geometry": [
         {"lat": 47.9793684, "lon": 8.1336919},
         {"lat": 47.9795292, "lon": 8.1338709},
-        {"lat": 47.9796401, "lon": 8.134102},
-        {"lat": 47.9797029, "lon": 8.1342915}
+        {"lat": 47.9796401, "lon": 8.134102}
       ],
       "tags": {"highway": "service", "name": "Hohlengraben"}
     },
@@ -4145,6 +4146,21 @@
         "tracktype": "grade2",
         "width": "2"
       }
+    },
+    {
+      "type": "way",
+      "id": 1084203100,
+      "timestamp": "2022-08-06T10:00:13Z",
+      "version": 1,
+      "changeset": 124554910,
+      "user": "*abq*",
+      "uid": 3696195,
+      "nodes": [436553053, 1370939563],
+      "geometry": [
+        {"lat": 47.9796401, "lon": 8.134102},
+        {"lat": 47.9797029, "lon": 8.1342915}
+      ],
+      "tags": {"highway": "service", "name": "Hohlengraben"}
     },
     {
       "type": "way",
@@ -15506,11 +15522,11 @@
     {
       "type": "way",
       "id": 25352559,
-      "timestamp": "2022-04-25T16:17:23Z",
-      "version": 26,
-      "changeset": 120173687,
-      "user": "jeroenrozema74",
-      "uid": 183483,
+      "timestamp": "2022-08-06T16:17:47Z",
+      "version": 27,
+      "changeset": 124569270,
+      "user": "tobim91",
+      "uid": 3233303,
       "nodes": [253946200, 2960574535],
       "geometry": [
         {"lat": 48.2853041, "lon": 8.1811471},
@@ -15531,6 +15547,7 @@
         "name": "Eisenbahnstraße",
         "ref": "K 5359",
         "sidewalk": "both",
+        "smoothness": "good",
         "source:maxspeed": "DE:urban",
         "surface": "asphalt",
         "zone:traffic": "DE:urban"
@@ -18838,7 +18855,7 @@
       "uid": 4321419,
       "nodes": [315583788, 436552943],
       "geometry": [
-        {"lat": 48.0399801, "lon": 8.1732003},
+        {"lat": 48.0399794, "lon": 8.1732011},
         {"lat": 48.0407164, "lon": 8.173877},
         {"lat": 48.0407822, "lon": 8.1740189},
         {"lat": 48.0408042, "lon": 8.1741743},
@@ -18990,11 +19007,11 @@
     {
       "type": "way",
       "id": 28436312,
-      "timestamp": "2019-08-21T18:39:43Z",
-      "version": 5,
-      "changeset": 73593145,
-      "user": "bergfrei",
-      "uid": 327035,
+      "timestamp": "2022-08-06T09:38:17Z",
+      "version": 6,
+      "changeset": 124553935,
+      "user": "*abq*",
+      "uid": 3696195,
       "nodes": [312426395, 883258076],
       "geometry": [
         {"lat": 47.8522257, "lon": 8.0258204},
@@ -19016,13 +19033,11 @@
         {"lat": 47.8537681, "lon": 8.0275612}
       ],
       "tags": {
-        "bicycle": "no",
         "foot": "yes",
         "highway": "path",
         "horse": "no",
-        "motorcar": "no",
+        "motor_vehicle": "no",
         "sac_scale": "hiking",
-        "snowmobile": "no",
         "surface": "unpaved",
         "trail_visibility": "good",
         "width": "2"
@@ -28247,11 +28262,11 @@
     {
       "type": "way",
       "id": 37118544,
-      "timestamp": "2021-03-08T17:16:42Z",
-      "version": 11,
-      "changeset": 100652797,
-      "user": "Powerfuzzy",
-      "uid": 10691734,
+      "timestamp": "2022-08-06T08:43:51Z",
+      "version": 12,
+      "changeset": 124551599,
+      "user": "YannDroid",
+      "uid": 12243422,
       "nodes": [416036247, 1497649774],
       "geometry": [
         {"lat": 47.7435529, "lon": 7.6958825},
@@ -28265,16 +28280,21 @@
         {"lat": 47.7440552, "lon": 7.6966044},
         {"lat": 47.7440492, "lon": 7.6968036}
       ],
-      "tags": {"highway": "track", "sac_scale": "hiking", "tracktype": "grade1"}
+      "tags": {
+        "highway": "track",
+        "sac_scale": "hiking",
+        "surface": "asphalt",
+        "tracktype": "grade1"
+      }
     },
     {
       "type": "way",
       "id": 37118545,
-      "timestamp": "2012-11-14T18:05:57Z",
-      "version": 12,
-      "changeset": 13874429,
-      "user": "gruene_schliengen",
-      "uid": 175989,
+      "timestamp": "2022-08-06T09:39:38Z",
+      "version": 13,
+      "changeset": 124553990,
+      "user": "YannDroid",
+      "uid": 12243422,
       "nodes": [1372397509, 549271603],
       "geometry": [
         {"lat": 47.7617274, "lon": 7.7083921},
@@ -28288,6 +28308,7 @@
         "highway": "track",
         "name": "Hexenplatzweg",
         "sac_scale": "hiking",
+        "surface": "fine_gravel",
         "tracktype": "grade2"
       }
     },
@@ -33284,7 +33305,7 @@
       "uid": 327035,
       "nodes": [315583788, 4945373578],
       "geometry": [
-        {"lat": 48.0399801, "lon": 8.1732003},
+        {"lat": 48.0399794, "lon": 8.1732011},
         {"lat": 48.0399294, "lon": 8.1731568}
       ],
       "tags": {
@@ -38764,11 +38785,11 @@
     {
       "type": "way",
       "id": 58765089,
-      "timestamp": "2021-12-03T08:20:24Z",
-      "version": 11,
-      "changeset": 114512453,
-      "user": "günter",
-      "uid": 444084,
+      "timestamp": "2022-08-06T10:22:27Z",
+      "version": 12,
+      "changeset": 124552689,
+      "user": "tobim91",
+      "uid": 3233303,
       "nodes": [253946197, 276283875],
       "geometry": [
         {"lat": 48.2858604, "lon": 8.1772439},
@@ -38787,6 +38808,7 @@
         "name": "Eisenbahnstraße",
         "ref": "K 5359",
         "sidewalk": "both",
+        "smoothness": "good",
         "surface": "asphalt",
         "zone:traffic": "DE:urban"
       }
@@ -47166,11 +47188,11 @@
     {
       "type": "way",
       "id": 816685956,
-      "timestamp": "2020-06-16T23:23:11Z",
-      "version": 1,
-      "changeset": 86743638,
-      "user": "Netzwolf",
-      "uid": 32786,
+      "timestamp": "2022-08-06T09:39:46Z",
+      "version": 2,
+      "changeset": 124553990,
+      "user": "YannDroid",
+      "uid": 12243422,
       "nodes": [549271603, 416036286],
       "geometry": [
         {"lat": 47.7620269, "lon": 7.7089138},
@@ -47182,6 +47204,7 @@
         "highway": "track",
         "name": "Hexenplatzweg",
         "sac_scale": "hiking",
+        "surface": "fine_gravel",
         "tracktype": "grade2"
       }
     },

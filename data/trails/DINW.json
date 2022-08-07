@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-08-04T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-06T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -133,14 +133,15 @@
     {
       "type": "relation",
       "id": 7385900,
-      "timestamp": "2017-07-12T08:56:07Z",
-      "version": 4,
-      "changeset": 50223020,
-      "user": "Janjko",
-      "uid": 244754,
+      "timestamp": "2022-08-06T10:52:12Z",
+      "version": 6,
+      "changeset": 124556955,
+      "user": "ross-map",
+      "uid": 8215303,
       "members": [
         {"type": "way", "ref": 209258145, "role": ""},
         {"type": "way", "ref": 506437876, "role": ""},
+        {"type": "way", "ref": 1084210051, "role": ""},
         {"type": "way", "ref": 506437880, "role": ""},
         {"type": "way", "ref": 124808826, "role": ""},
         {"type": "way", "ref": 209317220, "role": ""},
@@ -150,6 +151,7 @@
         {"type": "way", "ref": 506437878, "role": ""},
         {"type": "way", "ref": 279960274, "role": ""},
         {"type": "way", "ref": 124804188, "role": ""},
+        {"type": "way", "ref": 1084209692, "role": ""},
         {"type": "way", "ref": 155080133, "role": ""},
         {"type": "way", "ref": 401925957, "role": ""},
         {"type": "way", "ref": 401925956, "role": ""},
@@ -883,13 +885,13 @@
     {
       "type": "relation",
       "id": 7388367,
-      "timestamp": "2021-10-05T21:00:57Z",
-      "version": 12,
-      "changeset": 112140960,
-      "user": "debeli75",
-      "uid": 730886,
+      "timestamp": "2022-08-06T14:29:22Z",
+      "version": 13,
+      "changeset": 124564971,
+      "user": "ivanbranco",
+      "uid": 11220113,
       "members": [
-        {"type": "node", "ref": 3657979343, "role": ""},
+        {"type": "node", "ref": 3657979343, "role": "stop"},
         {"type": "way", "ref": 92747482, "role": ""},
         {"type": "way", "ref": 506708663, "role": ""},
         {"type": "way", "ref": 506705481, "role": ""},
@@ -3720,6 +3722,57 @@
     },
     {
       "type": "way",
+      "id": 1084209692,
+      "timestamp": "2022-08-06T10:48:58Z",
+      "version": 1,
+      "changeset": 124556772,
+      "user": "ross-map",
+      "uid": 8215303,
+      "nodes": [1387863122, 1387863125],
+      "geometry": [
+        {"lat": 45.4162023, "lon": 14.7017269},
+        {"lat": 45.4163912, "lon": 14.7021954},
+        {"lat": 45.416705, "lon": 14.7026235}
+      ],
+      "tags": {"highway": "residential", "name": "Bela Vodica"}
+    },
+    {
+      "type": "way",
+      "id": 1084210051,
+      "timestamp": "2022-08-06T10:52:12Z",
+      "version": 1,
+      "changeset": 124556955,
+      "user": "ross-map",
+      "uid": 8215303,
+      "nodes": [4312319288, 295239209],
+      "geometry": [
+        {"lat": 45.4234363, "lon": 14.7060569},
+        {"lat": 45.423322, "lon": 14.7059834},
+        {"lat": 45.4231872, "lon": 14.7059361},
+        {"lat": 45.4224601, "lon": 14.7058967},
+        {"lat": 45.4219326, "lon": 14.7058252},
+        {"lat": 45.4216358, "lon": 14.7057849},
+        {"lat": 45.4214703, "lon": 14.7057739},
+        {"lat": 45.421362, "lon": 14.7057667},
+        {"lat": 45.4212154, "lon": 14.7058117},
+        {"lat": 45.4206685, "lon": 14.7060598},
+        {"lat": 45.4205659, "lon": 14.7060867},
+        {"lat": 45.4204313, "lon": 14.7060987},
+        {"lat": 45.4203268, "lon": 14.7060907},
+        {"lat": 45.4202383, "lon": 14.7060733},
+        {"lat": 45.420083, "lon": 14.7060196},
+        {"lat": 45.4199907, "lon": 14.7059794},
+        {"lat": 45.4198989, "lon": 14.705932}
+      ],
+      "tags": {
+        "highway": "primary",
+        "name": "1. Maja",
+        "ref": "D32",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
       "id": 110185606,
       "timestamp": "2021-11-22T06:59:42Z",
       "version": 7,
@@ -4456,15 +4509,13 @@
     {
       "type": "way",
       "id": 124804188,
-      "timestamp": "2019-05-08T12:01:54Z",
-      "version": 5,
-      "changeset": 70023602,
-      "user": "DAI",
-      "uid": 450910,
-      "nodes": [1387863122, 1387863136],
+      "timestamp": "2022-08-06T10:48:58Z",
+      "version": 6,
+      "changeset": 124556772,
+      "user": "ross-map",
+      "uid": 8215303,
+      "nodes": [1387863125, 1387863136],
       "geometry": [
-        {"lat": 45.4162023, "lon": 14.7017269},
-        {"lat": 45.4163912, "lon": 14.7021954},
         {"lat": 45.416705, "lon": 14.7026235},
         {"lat": 45.4168222, "lon": 14.7025858},
         {"lat": 45.4170112, "lon": 14.7025885},
@@ -4477,7 +4528,7 @@
         {"lat": 45.4182582, "lon": 14.7044378},
         {"lat": 45.4184053, "lon": 14.7046179}
       ],
-      "tags": {"highway": "residential"}
+      "tags": {"highway": "residential", "name": "Risnjak"}
     },
     {
       "type": "way",
@@ -6731,11 +6782,11 @@
     {
       "type": "way",
       "id": 155080133,
-      "timestamp": "2017-07-10T11:43:43Z",
-      "version": 4,
-      "changeset": 50174220,
-      "user": "Janjko",
-      "uid": 244754,
+      "timestamp": "2022-08-06T10:48:58Z",
+      "version": 5,
+      "changeset": 124556772,
+      "user": "ross-map",
+      "uid": 8215303,
       "nodes": [379738728, 1387863122],
       "geometry": [
         {"lat": 45.4186843, "lon": 14.6943605},
@@ -6752,7 +6803,7 @@
         {"lat": 45.4162265, "lon": 14.7014049},
         {"lat": 45.4162023, "lon": 14.7017269}
       ],
-      "tags": {"highway": "tertiary", "ref": "58112"}
+      "tags": {"highway": "tertiary", "name": "Bela Vodica", "ref": "58112"}
     },
     {
       "type": "way",
@@ -14839,14 +14890,15 @@
     {
       "type": "way",
       "id": 209318496,
-      "timestamp": "2015-11-10T19:58:55Z",
-      "version": 2,
-      "changeset": 35225149,
-      "user": "idelac",
-      "uid": 183676,
+      "timestamp": "2022-08-06T13:08:25Z",
+      "version": 3,
+      "changeset": 124561442,
+      "user": "ross-map",
+      "uid": 8215303,
       "nodes": [2195416206, 2194784028],
       "geometry": [
         {"lat": 45.4831012, "lon": 14.7017359},
+        {"lat": 45.4831424, "lon": 14.7016386},
         {"lat": 45.4832029, "lon": 14.7014958},
         {"lat": 45.4833298, "lon": 14.7014136},
         {"lat": 45.4835469, "lon": 14.7013628},
@@ -23217,18 +23269,18 @@
     {
       "type": "way",
       "id": 279960274,
-      "timestamp": "2017-07-10T11:43:43Z",
-      "version": 2,
-      "changeset": 50174220,
-      "user": "Janjko",
-      "uid": 244754,
+      "timestamp": "2022-08-06T10:48:58Z",
+      "version": 3,
+      "changeset": 124556772,
+      "user": "ross-map",
+      "uid": 8215303,
       "nodes": [2841422725, 1387863136],
       "geometry": [
         {"lat": 45.418602, "lon": 14.7044778},
         {"lat": 45.4185037, "lon": 14.7045338},
         {"lat": 45.4184053, "lon": 14.7046179}
       ],
-      "tags": {"highway": "residential"}
+      "tags": {"highway": "residential", "name": "Risnjak"}
     },
     {
       "type": "way",
@@ -35552,12 +35604,12 @@
     {
       "type": "way",
       "id": 506437876,
-      "timestamp": "2022-03-21T19:22:47Z",
-      "version": 4,
-      "changeset": 118749463,
-      "user": "vojtechzaboril",
-      "uid": 8971394,
-      "nodes": [1387903055, 295239209],
+      "timestamp": "2022-08-06T10:52:12Z",
+      "version": 5,
+      "changeset": 124556955,
+      "user": "ross-map",
+      "uid": 8215303,
+      "nodes": [1387903055, 4312319288],
       "geometry": [
         {"lat": 45.4478877, "lon": 14.7115304},
         {"lat": 45.447832, "lon": 14.7115128},
@@ -35696,50 +35748,34 @@
         {"lat": 45.4241795, "lon": 14.7067277},
         {"lat": 45.4241051, "lon": 14.7067036},
         {"lat": 45.4240251, "lon": 14.7066674},
-        {"lat": 45.4234363, "lon": 14.7060569},
-        {"lat": 45.423322, "lon": 14.7059834},
-        {"lat": 45.4231872, "lon": 14.7059361},
-        {"lat": 45.4224601, "lon": 14.7058967},
-        {"lat": 45.4219326, "lon": 14.7058252},
-        {"lat": 45.4216358, "lon": 14.7057849},
-        {"lat": 45.4214703, "lon": 14.7057739},
-        {"lat": 45.421362, "lon": 14.7057667},
-        {"lat": 45.4212154, "lon": 14.7058117},
-        {"lat": 45.4206685, "lon": 14.7060598},
-        {"lat": 45.4205659, "lon": 14.7060867},
-        {"lat": 45.4204313, "lon": 14.7060987},
-        {"lat": 45.4203268, "lon": 14.7060907},
-        {"lat": 45.4202383, "lon": 14.7060733},
-        {"lat": 45.420083, "lon": 14.7060196},
-        {"lat": 45.4199907, "lon": 14.7059794},
-        {"lat": 45.4198989, "lon": 14.705932}
+        {"lat": 45.4234363, "lon": 14.7060569}
       ],
       "tags": {"highway": "primary", "ref": "D32", "surface": "asphalt"}
     },
     {
       "type": "way",
       "id": 506437878,
-      "timestamp": "2017-07-10T11:43:40Z",
-      "version": 1,
-      "changeset": 50174220,
-      "user": "Janjko",
-      "uid": 244754,
+      "timestamp": "2022-08-06T10:48:58Z",
+      "version": 2,
+      "changeset": 124556772,
+      "user": "ross-map",
+      "uid": 8215303,
       "nodes": [2841422725, 2841422727],
       "geometry": [
         {"lat": 45.418602, "lon": 14.7044778},
         {"lat": 45.4187528, "lon": 14.7048794},
         {"lat": 45.4188041, "lon": 14.7051032}
       ],
-      "tags": {"highway": "residential"}
+      "tags": {"highway": "residential", "name": "Školska"}
     },
     {
       "type": "way",
       "id": 506437880,
-      "timestamp": "2017-07-10T11:43:40Z",
-      "version": 1,
-      "changeset": 50174220,
-      "user": "Janjko",
-      "uid": 244754,
+      "timestamp": "2022-08-06T10:48:58Z",
+      "version": 2,
+      "changeset": 124556772,
+      "user": "ross-map",
+      "uid": 8215303,
       "nodes": [2841422727, 295239209],
       "geometry": [
         {"lat": 45.4188041, "lon": 14.7051032},
@@ -35750,16 +35786,21 @@
         {"lat": 45.4198707, "lon": 14.7057748},
         {"lat": 45.4198989, "lon": 14.705932}
       ],
-      "tags": {"highway": "secondary", "ref": "5032", "surface": "asphalt"}
+      "tags": {
+        "highway": "secondary",
+        "name": "Selska",
+        "ref": "5032",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 506437882,
-      "timestamp": "2017-07-10T11:43:40Z",
-      "version": 1,
-      "changeset": 50174220,
-      "user": "Janjko",
-      "uid": 244754,
+      "timestamp": "2022-08-06T10:48:58Z",
+      "version": 2,
+      "changeset": 124556772,
+      "user": "ross-map",
+      "uid": 8215303,
       "nodes": [4043350425, 379738728],
       "geometry": [
         {"lat": 45.4182864, "lon": 14.6863212},
@@ -35779,7 +35820,7 @@
         {"lat": 45.4187337, "lon": 14.694012},
         {"lat": 45.4186843, "lon": 14.6943605}
       ],
-      "tags": {"highway": "tertiary", "ref": "58112"}
+      "tags": {"highway": "tertiary", "name": "Bela Vodica", "ref": "58112"}
     },
     {
       "type": "way",
