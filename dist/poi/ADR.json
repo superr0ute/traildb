@@ -4489,56 +4489,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_drinking-water",
-        "@distance": 9.7,
-        "@id": "n3722715974",
-        "@changeset": 63413781,
-        "@timestamp": "2018-10-11T11:30:11Z",
-        "@version": 6,
-        "@uid": 244754,
-        "@user": "Janjko",
-        "amenity": "drinking_water",
-        "drinking_water": "seasonal",
-        "man_made": "water_well",
-        "mapillary": "KAtWWAo8WRXhlzE9aMnv6w",
-        "name": "Izvor Marasovac",
-        "name:en": "Marasovac drinking well"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.4763039,
-          44.3800592
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 546.1,
-        "@id": "n3743546398",
-        "@changeset": 106091902,
-        "@timestamp": "2021-06-09T11:33:29Z",
-        "@version": 3,
-        "@uid": 730886,
-        "@user": "debeli75",
-        "ele": 1705,
-        "name": "Liburnija",
-        "natural": "peak",
-        "wikidata": "Q26224725"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.5139957,
-          44.3548173
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "place_village",
         "@distance": 2464.6,
         "@id": "n1560164070",
@@ -5444,19 +5394,26 @@
         "@poi": "foodshop_supermarket",
         "@distance": 5996.7,
         "@id": "n4407032862",
-        "@changeset": 42251459,
-        "@timestamp": "2016-09-18T16:50:08Z",
-        "@version": 1,
-        "@uid": 3242890,
-        "@user": "danwax",
+        "@changeset": 124569485,
+        "@timestamp": "2022-08-06T16:23:54Z",
+        "@version": 2,
+        "@uid": 511582,
+        "@user": "hbuksa",
         "addr:city": "Pula",
         "addr:housenumber": "19",
         "addr:postcode": "52100",
         "addr:street": "Vukovarska",
+        "brand": "Konzum",
+        "brand:wikidata": "Q518563",
         "level": "0",
         "name": "Konzum",
         "opening_hours": "Mo-Sa 7:00-21:00 Su 7:00-14:00",
-        "shop": "supermarket"
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+385 800 400 000",
+        "shop": "supermarket",
+        "website": "https://www.konzum.hr/"
       },
       "geometry": {
         "type": "Point",
@@ -8048,6 +8005,56 @@
         "coordinates": [
           15.1830544,
           44.4850021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 9.7,
+        "@id": "n3722715974",
+        "@changeset": 63413781,
+        "@timestamp": "2018-10-11T11:30:11Z",
+        "@version": 6,
+        "@uid": 244754,
+        "@user": "Janjko",
+        "amenity": "drinking_water",
+        "drinking_water": "seasonal",
+        "man_made": "water_well",
+        "mapillary": "KAtWWAo8WRXhlzE9aMnv6w",
+        "name": "Izvor Marasovac",
+        "name:en": "Marasovac drinking well"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4763039,
+          44.3800592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "peak_peak",
+        "@distance": 546.1,
+        "@id": "n3743546398",
+        "@changeset": 106091902,
+        "@timestamp": "2021-06-09T11:33:29Z",
+        "@version": 3,
+        "@uid": 730886,
+        "@user": "debeli75",
+        "ele": 1705,
+        "name": "Liburnija",
+        "natural": "peak",
+        "wikidata": "Q26224725"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5139957,
+          44.3548173
         ]
       }
     },
@@ -16396,29 +16403,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "place_village",
-        "@distance": 3303.7,
-        "@id": "n9811868476",
-        "@changeset": 122268324,
-        "@timestamp": "2022-06-12T07:21:50Z",
-        "@version": 1,
-        "@uid": 8660990,
-        "@user": "Arisuaq",
-        "name": "Leska",
-        "place": "village",
-        "population": 3
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.6684222,
-          45.4162366
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "water_spring",
         "@distance": 682.1,
         "@id": "n9828988615",
@@ -16458,30 +16442,6 @@
         "coordinates": [
           14.5694477,
           45.2743927
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 4623.2,
-        "@id": "w37203598",
-        "@changeset": 15215524,
-        "@timestamp": "2013-03-01T22:13:06Z",
-        "@version": 4,
-        "@uid": 244754,
-        "@user": "Janjko",
-        "building": "yes",
-        "name": "Konzum",
-        "ref:vatin": "HR29955634590",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.3456684,
-          45.3649834
         ]
       }
     },
@@ -16778,6 +16738,30 @@
         "coordinates": [
           13.9513107,
           45.1126055
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 4623.2,
+        "@id": "w37203598",
+        "@changeset": 15215524,
+        "@timestamp": "2013-03-01T22:13:06Z",
+        "@version": 4,
+        "@uid": 244754,
+        "@user": "Janjko",
+        "building": "yes",
+        "name": "Konzum",
+        "ref:vatin": "HR29955634590",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3456684,
+          45.3649834
         ]
       }
     },

@@ -627,6 +627,46 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_convenience",
+        "@distance": 1798.4,
+        "@id": "n333091561",
+        "@changeset": 124570207,
+        "@timestamp": "2022-08-06T16:43:54Z",
+        "@version": 8,
+        "@uid": 16741131,
+        "@user": "Mael_P",
+        "addr:city": "Villard-de-Lans",
+        "addr:housenumber": "531",
+        "addr:postcode": "38250",
+        "addr:street": "Avenue du Général de Gaulle",
+        "amenity": "fuel",
+        "brand": "Avia",
+        "brand:wikidata": "Q300147",
+        "compressed_air": "yes",
+        "fuel:diesel": "yes",
+        "fuel:octane_95": "yes",
+        "fuel:octane_98": "yes",
+        "hgv:lanes": "yes",
+        "name": "Avia",
+        "opening_hours": "24/7",
+        "operator": "Avia",
+        "ref:FR:prix-carburants": "38250003",
+        "shop": "convenience",
+        "source": "Ministère de l'Economie, de l'Industrie et du Numérique - 03/2020",
+        "vending": "fuel",
+        "vending_machine": "fuel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5532088,
+          45.0746326
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "water_drinking-water",
         "@distance": 1619,
         "@id": "n333095736",
@@ -4211,29 +4251,29 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_convenience",
-        "@distance": 4300.5,
+        "@distance": 4546.1,
         "@id": "n2434829218",
-        "@changeset": 124488620,
-        "@timestamp": "2022-08-04T16:26:10Z",
-        "@version": 3,
+        "@changeset": 124568364,
+        "@timestamp": "2022-08-06T15:54:58Z",
+        "@version": 4,
         "@uid": 148831,
         "@user": "chimel38",
         "addr:city": "Saint-Paul-de-Varces",
         "addr:housenumber": "1662 B",
         "addr:postcode": "38760",
-        "addr:street": "Route du Vercors",
         "brand": "Vival",
         "brand:wikidata": "Q7937525",
         "brand:wikipedia": "en:Vival (shop)",
         "description": "Sert aussi de point relais pour MondialRelay",
         "name": "Vival",
-        "shop": "convenience"
+        "shop": "convenience",
+        "wheelchair": "yes"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.6566472,
-          45.0723486
+          5.6611795,
+          45.0749547
         ]
       }
     },
@@ -5775,73 +5815,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_spring",
-        "@distance": 413.5,
-        "@id": "n7562467207",
-        "@changeset": 85956899,
-        "@timestamp": "2020-05-29T16:12:34Z",
-        "@version": 2,
-        "@uid": 3304613,
-        "@user": "aetius",
-        "drinking_water": "yes",
-        "name": "Fontaine de Pissavache",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.5953244,
-          45.0567298
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 207.4,
-        "@id": "n7562467208",
-        "@changeset": 85826733,
-        "@timestamp": "2020-05-27T10:42:30Z",
-        "@version": 1,
-        "@uid": 352762,
-        "@user": "dargaud",
-        "drinking_water": "yes",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.592324,
-          45.0566604
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "water_spring",
-        "@distance": 116.1,
-        "@id": "n7562467209",
-        "@changeset": 85826733,
-        "@timestamp": "2020-05-27T10:42:30Z",
-        "@version": 1,
-        "@uid": 352762,
-        "@user": "dargaud",
-        "drinking_water": "yes",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.5908219,
-          45.0570431
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 7102.6,
         "@id": "n1764741324",
@@ -6357,6 +6330,73 @@
         "coordinates": [
           5.6239399,
           45.1171306
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 413.5,
+        "@id": "n7562467207",
+        "@changeset": 85956899,
+        "@timestamp": "2020-05-29T16:12:34Z",
+        "@version": 2,
+        "@uid": 3304613,
+        "@user": "aetius",
+        "drinking_water": "yes",
+        "name": "Fontaine de Pissavache",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5953244,
+          45.0567298
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 207.4,
+        "@id": "n7562467208",
+        "@changeset": 85826733,
+        "@timestamp": "2020-05-27T10:42:30Z",
+        "@version": 1,
+        "@uid": 352762,
+        "@user": "dargaud",
+        "drinking_water": "yes",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.592324,
+          45.0566604
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 116.1,
+        "@id": "n7562467209",
+        "@changeset": 85826733,
+        "@timestamp": "2020-05-27T10:42:30Z",
+        "@version": 1,
+        "@uid": 352762,
+        "@user": "dargaud",
+        "drinking_water": "yes",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5908219,
+          45.0570431
         ]
       }
     },
@@ -6950,36 +6990,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 344.9,
-        "@id": "n9339328583",
-        "@changeset": 114944677,
-        "@timestamp": "2021-12-15T01:43:13Z",
-        "@version": 1,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "amenity": "shelter",
-        "beds": "5",
-        "capacity": 5,
-        "description": "2016-11 : La bergerie appartient au berger et lui est réservée. Il laisse une partie ouverte pour dépanner. Couchage un peu n'importe comment avec des blocs de mousse jaune",
-        "ele": 1920,
-        "fireplace": "no",
-        "name": "Bergerie de Laval d'Aix",
-        "shelter_type": "basic_hut",
-        "stove": "no",
-        "website": "https://www.refuges.info/point/17/cabane-non-gardee/Vercors/Bergerie-de-Laval-d-Aix/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.4655635,
-          44.7574682
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 4555.1,
         "@id": "n1993647374",
@@ -7324,6 +7334,36 @@
         "coordinates": [
           5.6116024,
           45.1207323
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 344.9,
+        "@id": "n9339328583",
+        "@changeset": 114944677,
+        "@timestamp": "2021-12-15T01:43:13Z",
+        "@version": 1,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "amenity": "shelter",
+        "beds": "5",
+        "capacity": 5,
+        "description": "2016-11 : La bergerie appartient au berger et lui est réservée. Il laisse une partie ouverte pour dépanner. Couchage un peu n'importe comment avec des blocs de mousse jaune",
+        "ele": 1920,
+        "fireplace": "no",
+        "name": "Bergerie de Laval d'Aix",
+        "shelter_type": "basic_hut",
+        "stove": "no",
+        "website": "https://www.refuges.info/point/17/cabane-non-gardee/Vercors/Bergerie-de-Laval-d-Aix/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4655635,
+          44.7574682
         ]
       }
     },
@@ -8764,39 +8804,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1485.2,
-        "@id": "w61282498",
-        "@changeset": 114955347,
-        "@timestamp": "2021-12-15T09:21:58Z",
-        "@version": 4,
-        "@uid": 922338,
-        "@user": "Hervé TUC",
-        "access": "private",
-        "amenity": "shelter",
-        "beds": "0",
-        "building": "yes",
-        "capacity": 4,
-        "description": "2013-05 : Dans le petit bâtiment annexe à la Bergerie (au premier plan sur la photo) une lucarne étroite permet d'accèder au plancher du comble. Aucun équipement, juste les murs et le toit. C'est déjà ça.",
-        "ele": 1627,
-        "fireplace": "no",
-        "name": "Bergerie Jas de Jasneuf",
-        "shelter_type": "basic_hut",
-        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
-        "stove": "no",
-        "website": "https://www.refuges.info/point/458/cabane-non-gardee/Vercors/Bergerie-de-Jasneuf/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.4952194,
-          44.8013882
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "foodshop_convenience",
         "@distance": 6377.5,
         "@id": "n2177128649",
@@ -9466,6 +9473,39 @@
         "coordinates": [
           5.5427021,
           45.1745892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1485.2,
+        "@id": "w61282498",
+        "@changeset": 114955347,
+        "@timestamp": "2021-12-15T09:21:58Z",
+        "@version": 4,
+        "@uid": 922338,
+        "@user": "Hervé TUC",
+        "access": "private",
+        "amenity": "shelter",
+        "beds": "0",
+        "building": "yes",
+        "capacity": 4,
+        "description": "2013-05 : Dans le petit bâtiment annexe à la Bergerie (au premier plan sur la photo) une lucarne étroite permet d'accèder au plancher du comble. Aucun équipement, juste les murs et le toit. C'est déjà ça.",
+        "ele": 1627,
+        "fireplace": "no",
+        "name": "Bergerie Jas de Jasneuf",
+        "shelter_type": "basic_hut",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "stove": "no",
+        "website": "https://www.refuges.info/point/458/cabane-non-gardee/Vercors/Bergerie-de-Jasneuf/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4952194,
+          44.8013882
         ]
       }
     },
