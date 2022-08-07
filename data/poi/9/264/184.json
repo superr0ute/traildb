@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-08-05T23:59:59Z",
-    "timestamp_osm_base": "2022-08-06T05:24:14Z",
+    "timestamp_osm_date": "2022-08-06T23:59:59Z",
+    "timestamp_osm_base": "2022-08-07T05:26:09Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -12269,24 +12269,24 @@
     {
       "type": "node",
       "id": 2434829218,
-      "lat": 45.0723486,
-      "lon": 5.6566472,
-      "timestamp": "2022-08-04T16:26:10Z",
-      "version": 3,
-      "changeset": 124488620,
+      "lat": 45.0749547,
+      "lon": 5.6611795,
+      "timestamp": "2022-08-06T15:54:58Z",
+      "version": 4,
+      "changeset": 124568364,
       "user": "chimel38",
       "uid": 148831,
       "tags": {
         "addr:city": "Saint-Paul-de-Varces",
         "addr:housenumber": "1662 B",
         "addr:postcode": "38760",
-        "addr:street": "Route du Vercors",
         "brand": "Vival",
         "brand:wikidata": "Q7937525",
         "brand:wikipedia": "en:Vival (shop)",
         "description": "Sert aussi de point relais pour MondialRelay",
         "name": "Vival",
-        "shop": "convenience"
+        "shop": "convenience",
+        "wheelchair": "yes"
       }
     },
     {
@@ -17241,15 +17241,17 @@
       "id": 4379779966,
       "lat": 44.8728245,
       "lon": 5.673416,
-      "timestamp": "2021-11-30T08:51:56Z",
-      "version": 4,
-      "changeset": 114392898,
-      "user": "r2d",
-      "uid": 2210139,
+      "timestamp": "2022-08-06T13:57:03Z",
+      "version": 5,
+      "changeset": 124563529,
+      "user": "StC",
+      "uid": 220314,
       "tags": {
+        "lwn_name": "Pas du Berlioz",
         "mountain_pass": "yes",
         "name": "Pas du Berlioz",
         "natural": "saddle",
+        "network:type": "node_network",
         "source": "IGN - 2021-06"
       }
     },
@@ -25723,6 +25725,37 @@
       }
     },
     {
+      "type": "node",
+      "id": 9935978990,
+      "lat": 44.778171,
+      "lon": 5.8291228,
+      "timestamp": "2022-08-06T17:11:24Z",
+      "version": 1,
+      "changeset": 124571191,
+      "user": "r2d",
+      "uid": 2210139,
+      "tags": {
+        "ele": "2373",
+        "name": "Col de Rattier",
+        "natural": "saddle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9936022925,
+      "lat": 44.7877556,
+      "lon": 5.7878154,
+      "timestamp": "2022-08-06T17:50:08Z",
+      "version": 1,
+      "changeset": 124572638,
+      "user": "r2d",
+      "uid": 2210139,
+      "tags": {
+        "name": "Les Ours",
+        "place": "hamlet"
+      }
+    },
+    {
       "type": "way",
       "id": 4372508,
       "timestamp": "2021-12-18T14:50:47Z",
@@ -26912,8 +26945,8 @@
       "user": "Virgile1994",
       "uid": 362997,
       "center": {
-        "lat": 45.0703939,
-        "lon": 5.6507525
+        "lat": 45.0703961,
+        "lon": 5.6507452
       },
       "nodes": [],
       "tags": {
@@ -28586,21 +28619,22 @@
     {
       "type": "way",
       "id": 289781149,
-      "timestamp": "2017-11-06T07:57:14Z",
-      "version": 3,
-      "changeset": 53547584,
-      "user": "Cumulus38",
-      "uid": 5810645,
+      "timestamp": "2022-08-06T17:11:24Z",
+      "version": 4,
+      "changeset": 124571191,
+      "user": "r2d",
+      "uid": 2210139,
       "center": {
         "lat": 44.7849604,
         "lon": 5.8152169
       },
       "nodes": [],
       "tags": {
+        "amenity": "shelter",
         "building": "yes",
         "building:levels": "1",
         "name": "Refuge de Rochassac",
-        "tourism": "alpine_hut"
+        "tourism": "wilderness_hut"
       }
     },
     {
