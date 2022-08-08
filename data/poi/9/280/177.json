@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-08-06T23:59:59Z",
-    "timestamp_osm_base": "2022-08-07T06:39:09Z",
+    "timestamp_osm_date": "2022-08-07T23:59:59Z",
+    "timestamp_osm_base": "2022-08-08T06:25:52Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -8044,13 +8044,14 @@
       "id": 988827062,
       "lat": 48.3836935,
       "lon": 17.2594189,
-      "timestamp": "2022-02-21T20:36:12Z",
-      "version": 2,
-      "changeset": 117700067,
+      "timestamp": "2022-08-07T06:43:52Z",
+      "version": 3,
+      "changeset": 124584736,
       "user": "sipka",
       "uid": 10913816,
       "tags": {
         "natural": "spring",
+        "refitted": "yes",
         "source": "survey"
       }
     },
@@ -16658,17 +16659,21 @@
     {
       "type": "node",
       "id": 4416133991,
-      "lat": 48.0515216,
-      "lon": 17.3514468,
-      "timestamp": "2016-09-26T18:48:00Z",
-      "version": 2,
-      "changeset": 42453355,
-      "user": "aceman444",
-      "uid": 1617449,
+      "lat": 48.051513,
+      "lon": 17.351445,
+      "timestamp": "2022-08-07T04:51:23Z",
+      "version": 3,
+      "changeset": 124583098,
+      "user": "mapperue",
+      "uid": 4887311,
       "tags": {
+        "branch": "Potraviny UNO-MIX",
+        "brand": "Fresh",
+        "brand:wikidata": "Q50737403",
+        "name": "Fresh",
+        "opening_hours": "Mo-Fr 05:15-18:00; Sa 05:15:12:00",
         "shop": "convenience",
-        "name:en": "Minimarket",
-        "name": "Obchod"
+        "website": "https://www.freshobchod.sk/"
       }
     },
     {
@@ -20818,23 +20823,6 @@
     },
     {
       "type": "node",
-      "id": 7385437687,
-      "lat": 48.3207003,
-      "lon": 16.9163434,
-      "timestamp": "2020-04-09T12:17:36Z",
-      "version": 1,
-      "changeset": 83308267,
-      "user": "mapperue",
-      "uid": 4887311,
-      "tags": {
-        "amenity": "shelter",
-        "bin": "yes",
-        "material": "wood",
-        "shelter_type": "picnic_shelter"
-      }
-    },
-    {
-      "type": "node",
       "id": 7385994821,
       "lat": 48.3831591,
       "lon": 17.3987111,
@@ -21692,14 +21680,15 @@
       "id": 7865070289,
       "lat": 48.3718775,
       "lon": 17.2544874,
-      "timestamp": "2021-04-03T14:48:18Z",
-      "version": 3,
-      "changeset": 102239287,
-      "user": "platlas23",
-      "uid": 115468,
+      "timestamp": "2022-08-07T06:45:10Z",
+      "version": 4,
+      "changeset": 124584755,
+      "user": "sipka",
+      "uid": 10913816,
       "tags": {
-        "name": "prameň Michaela",
-        "natural": "spring"
+        "name": "Michaela",
+        "natural": "spring",
+        "refitted": "yes"
       }
     },
     {
@@ -29358,9 +29347,9 @@
     {
       "type": "way",
       "id": 301608563,
-      "timestamp": "2021-08-12T18:59:11Z",
-      "version": 24,
-      "changeset": 109590074,
+      "timestamp": "2022-08-07T18:28:21Z",
+      "version": 26,
+      "changeset": 124608569,
       "user": "mapperue",
       "uid": 4887311,
       "center": {
@@ -32349,6 +32338,46 @@
         "bin": "yes",
         "building": "yes",
         "shelter_type": "shopping_cart"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1084353492,
+      "timestamp": "2022-08-07T04:51:23Z",
+      "version": 1,
+      "changeset": 124583098,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 48.0517121,
+        "lon": 17.3518174
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1084418206,
+      "timestamp": "2022-08-07T11:59:02Z",
+      "version": 1,
+      "changeset": 124594303,
+      "user": "mapperue",
+      "uid": 4887311,
+      "center": {
+        "lat": 48.3207455,
+        "lon": 16.9163118
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bin": "yes",
+        "material": "wood",
+        "shelter_type": "picnic_shelter"
       }
     }
   ]
