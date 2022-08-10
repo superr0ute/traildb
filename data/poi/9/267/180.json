@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-08-08T23:59:59Z",
-    "timestamp_osm_base": "2022-08-09T05:39:23Z",
+    "timestamp_osm_date": "2022-08-09T23:59:59Z",
+    "timestamp_osm_base": "2022-08-10T05:31:09Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -12796,24 +12796,6 @@
         "name": "Bock",
         "natural": "peak",
         "wikidata": "Q22579269"
-      }
-    },
-    {
-      "type": "node",
-      "id": 2692556526,
-      "lat": 46.5790581,
-      "lon": 8.3833388,
-      "timestamp": "2021-07-18T09:09:46Z",
-      "version": 5,
-      "changeset": 108184455,
-      "user": "Bullroarer",
-      "uid": 505667,
-      "tags": {
-        "name": "Rhonequelle",
-        "name:ar": "عين الرون",
-        "name:de": "Rhonequelle",
-        "name:fr": "Source du Rhône",
-        "natural": "spring"
       }
     },
     {
@@ -29877,22 +29859,6 @@
     },
     {
       "type": "node",
-      "id": 9438418166,
-      "lat": 46.8769349,
-      "lon": 8.0144528,
-      "timestamp": "2022-03-28T08:32:18Z",
-      "version": 2,
-      "changeset": 119010301,
-      "user": "FischersFritz",
-      "uid": 74900,
-      "tags": {
-        "name": "Campingplatz Thorbach",
-        "phone": "+41 79 742 11 04",
-        "tourism": "camp_site"
-      }
-    },
-    {
-      "type": "node",
       "id": 9438426304,
       "lat": 46.8097963,
       "lon": 8.4229128,
@@ -32292,14 +32258,14 @@
     {
       "type": "way",
       "id": 164577477,
-      "timestamp": "2021-12-02T10:53:42Z",
-      "version": 4,
-      "changeset": 114478416,
-      "user": "Voonosm",
-      "uid": 4378872,
+      "timestamp": "2022-08-09T20:05:24Z",
+      "version": 5,
+      "changeset": 124701680,
+      "user": "Bullroarer",
+      "uid": 505667,
       "center": {
-        "lat": 46.8766637,
-        "lon": 8.013172
+        "lat": 46.8767751,
+        "lon": 8.0131733
       },
       "nodes": [],
       "tags": {
@@ -32818,11 +32784,11 @@
     {
       "type": "way",
       "id": 215481314,
-      "timestamp": "2021-12-07T17:37:29Z",
-      "version": 3,
-      "changeset": 114670386,
-      "user": "wobi9000",
-      "uid": 10708323,
+      "timestamp": "2022-08-09T07:23:19Z",
+      "version": 8,
+      "changeset": 124670485,
+      "user": "wjtje",
+      "uid": 11949970,
       "center": {
         "lat": 46.6885792,
         "lon": 7.8780211
@@ -32837,9 +32803,14 @@
         "brand": "ALDI",
         "brand:wikidata": "Q41171672",
         "brand:wikipedia": "en:Aldi",
-        "building": "yes",
+        "building": "retail",
+        "building:levels": "1",
         "name": "ALDI",
-        "shop": "supermarket"
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-17:00",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "shop": "supermarket",
+        "wheelchair": "yes"
       }
     },
     {
@@ -35924,30 +35895,6 @@
     },
     {
       "type": "way",
-      "id": 1008415962,
-      "timestamp": "2022-03-28T08:32:18Z",
-      "version": 2,
-      "changeset": 119010301,
-      "user": "FischersFritz",
-      "uid": 74900,
-      "center": {
-        "lat": 46.8768994,
-        "lon": 8.0144559
-      },
-      "nodes": [],
-      "tags": {
-        "addr:city": "Flühli LU",
-        "addr:housenumber": "12",
-        "addr:postcode": "6173",
-        "addr:street": "Thorbachstrasse",
-        "building": "yes",
-        "name": "Campingplatz Thorbach",
-        "phone": "+41 79 742 11 04",
-        "tourism": "camp_site"
-      }
-    },
-    {
-      "type": "way",
       "id": 1026444139,
       "timestamp": "2022-01-31T16:01:21Z",
       "version": 1,
@@ -36060,6 +36007,30 @@
         "building": "yes",
         "lit": "no",
         "shelter_type": "picnic_shelter"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1085180679,
+      "timestamp": "2022-08-09T20:05:24Z",
+      "version": 1,
+      "changeset": 124701680,
+      "user": "Bullroarer",
+      "uid": 505667,
+      "center": {
+        "lat": 46.8768606,
+        "lon": 8.0144693
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Flühli LU",
+        "addr:housenumber": "12",
+        "addr:postcode": "6173",
+        "addr:street": "Thorbachstrasse",
+        "building": "yes",
+        "name": "Campingplatz Thorbach",
+        "phone": "+41 79 742 11 04",
+        "tourism": "camp_site"
       }
     }
   ]
