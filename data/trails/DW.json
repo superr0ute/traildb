@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-07-19T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-09T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 21664,
-      "timestamp": "2022-05-25T10:39:16Z",
-      "version": 146,
-      "changeset": 121468819,
-      "user": "b-jazz-bot",
-      "uid": 9451067,
+      "timestamp": "2022-08-09T17:38:34Z",
+      "version": 147,
+      "changeset": 124696345,
+      "user": "StreetSailor",
+      "uid": 1950076,
       "members": [
         {"type": "way", "ref": 235842264, "role": ""},
         {"type": "way", "ref": 235841110, "role": ""},
@@ -164,6 +164,7 @@
         {"type": "way", "ref": 355262444, "role": ""},
         {"type": "way", "ref": 25662342, "role": ""},
         {"type": "way", "ref": 203255301, "role": ""},
+        {"type": "way", "ref": 1085144737, "role": ""},
         {"type": "way", "ref": 316500307, "role": ""},
         {"type": "way", "ref": 25664201, "role": ""},
         {"type": "way", "ref": 25662438, "role": ""},
@@ -464,6 +465,30 @@
         {"lat": 52.2506697, "lon": -10.0070263}
       ],
       "tags": {"bridge": "yes", "highway": "unclassified", "layer": "1"}
+    },
+    {
+      "type": "way",
+      "id": 1085144737,
+      "timestamp": "2022-08-09T17:38:34Z",
+      "version": 1,
+      "changeset": 124696345,
+      "user": "StreetSailor",
+      "uid": 1950076,
+      "nodes": [3226255055, 3709286091],
+      "geometry": [
+        {"lat": 52.1125992, "lon": -10.3827619},
+        {"lat": 52.1126277, "lon": -10.3828143},
+        {"lat": 52.112146, "lon": -10.383157},
+        {"lat": 52.1118471, "lon": -10.3832778},
+        {"lat": 52.1115358, "lon": -10.383418},
+        {"lat": 52.1104997, "lon": -10.3841455},
+        {"lat": 52.1096102, "lon": -10.3851734},
+        {"lat": 52.109591, "lon": -10.3852851},
+        {"lat": 52.1096474, "lon": -10.3863925},
+        {"lat": 52.1097295, "lon": -10.3873186},
+        {"lat": 52.1098204, "lon": -10.3885436}
+      ],
+      "tags": {"highway": "track", "surface": "ground", "tracktype": "grade5"}
     },
     {
       "type": "way",
@@ -1223,11 +1248,11 @@
     {
       "type": "way",
       "id": 207555297,
-      "timestamp": "2014-12-10T15:54:22Z",
-      "version": 6,
-      "changeset": 27380276,
-      "user": "brianboru",
-      "uid": 9065,
+      "timestamp": "2022-08-09T17:38:47Z",
+      "version": 7,
+      "changeset": 124696348,
+      "user": "StreetSailor",
+      "uid": 1950076,
       "nodes": [274638693, 2273128737],
       "geometry": [
         {"lat": 52.1203884, "lon": -10.4586969},
@@ -1248,7 +1273,7 @@
         {"lat": 52.122852, "lon": -10.4585464},
         {"lat": 52.1229289, "lon": -10.45856}
       ],
-      "tags": {"highway": "unclassified"}
+      "tags": {"cycleway:both": "no", "highway": "unclassified"}
     },
     {
       "type": "way",
@@ -2695,11 +2720,11 @@
     {
       "type": "way",
       "id": 245264425,
-      "timestamp": "2020-12-10T10:27:54Z",
-      "version": 3,
-      "changeset": 95608518,
-      "user": "eireidium",
-      "uid": 146307,
+      "timestamp": "2022-08-09T17:38:38Z",
+      "version": 4,
+      "changeset": 124696348,
+      "user": "StreetSailor",
+      "uid": 1950076,
       "nodes": [279757189, 3228378670],
       "geometry": [
         {"lat": 52.1236721, "lon": -10.4583122},
@@ -2708,7 +2733,7 @@
         {"lat": 52.1244431, "lon": -10.4592279},
         {"lat": 52.1245674, "lon": -10.4593566}
       ],
-      "tags": {"highway": "unclassified"}
+      "tags": {"cycleway:both": "no", "highway": "unclassified"}
     },
     {
       "type": "way",
@@ -3813,7 +3838,7 @@
       "timestamp": "2014-04-18T16:23:52Z",
       "version": 7,
       "changeset": 21771881,
-      "user": "Heyheyitshay",
+      "user": "CrimsonCaribou",
       "uid": 1680091,
       "nodes": [279757240, 2178160139],
       "geometry": [
@@ -3835,7 +3860,7 @@
       "timestamp": "2014-04-18T16:23:52Z",
       "version": 4,
       "changeset": 21771881,
-      "user": "Heyheyitshay",
+      "user": "CrimsonCaribou",
       "uid": 1680091,
       "nodes": [279757227, 279757237],
       "geometry": [
@@ -5007,11 +5032,11 @@
     {
       "type": "way",
       "id": 25664201,
-      "timestamp": "2021-06-02T10:50:46Z",
-      "version": 9,
-      "changeset": 105718316,
-      "user": "eireidium",
-      "uid": 146307,
+      "timestamp": "2022-08-09T17:38:37Z",
+      "version": 11,
+      "changeset": 124696350,
+      "user": "StreetSailor",
+      "uid": 1950076,
       "nodes": [274638373, 274638416],
       "geometry": [
         {"lat": 52.1112042, "lon": -10.393579},
@@ -5061,10 +5086,12 @@
         {"lat": 52.1057741, "lon": -10.4051989}
       ],
       "tags": {
+        "cycleway:both": "no",
         "highway": "secondary",
         "maxspeed": "80",
         "ref": "R559",
-        "scenic": "yes"
+        "scenic": "yes",
+        "shoulder": "no"
       }
     },
     {
@@ -5115,11 +5142,11 @@
     {
       "type": "way",
       "id": 25664209,
-      "timestamp": "2020-12-10T21:39:40Z",
-      "version": 6,
-      "changeset": 95642629,
-      "user": "eireidium",
-      "uid": 146307,
+      "timestamp": "2022-08-09T17:38:42Z",
+      "version": 7,
+      "changeset": 124696348,
+      "user": "StreetSailor",
+      "uid": 1950076,
       "nodes": [31216273, 279763984],
       "geometry": [
         {"lat": 52.1508108, "lon": -10.4598526},
@@ -5157,16 +5184,16 @@
         {"lat": 52.1546736, "lon": -10.4538},
         {"lat": 52.1549748, "lon": -10.4538282}
       ],
-      "tags": {"highway": "secondary", "ref": "R559"}
+      "tags": {"cycleway:both": "no", "highway": "secondary", "ref": "R559"}
     },
     {
       "type": "way",
       "id": 25664212,
-      "timestamp": "2020-12-10T21:28:00Z",
-      "version": 6,
-      "changeset": 95642231,
-      "user": "eireidium",
-      "uid": 146307,
+      "timestamp": "2022-08-09T17:38:43Z",
+      "version": 7,
+      "changeset": 124696348,
+      "user": "StreetSailor",
+      "uid": 1950076,
       "nodes": [31216261, 31216253],
       "geometry": [
         {"lat": 52.1580431, "lon": -10.454937},
@@ -5199,7 +5226,7 @@
         {"lat": 52.159455, "lon": -10.442285},
         {"lat": 52.1594429, "lon": -10.4420668}
       ],
-      "tags": {"highway": "secondary", "ref": "R559"}
+      "tags": {"cycleway:both": "no", "highway": "secondary", "ref": "R559"}
     },
     {
       "type": "way",
@@ -5409,7 +5436,7 @@
       "timestamp": "2014-04-18T16:23:50Z",
       "version": 1,
       "changeset": 21771881,
-      "user": "Heyheyitshay",
+      "user": "CrimsonCaribou",
       "uid": 1680091,
       "nodes": [279757238, 279757240],
       "geometry": [
@@ -5521,7 +5548,7 @@
       "timestamp": "2014-04-18T16:46:13Z",
       "version": 1,
       "changeset": 21772329,
-      "user": "Heyheyitshay",
+      "user": "CrimsonCaribou",
       "uid": 1680091,
       "nodes": [2799212583, 279749966],
       "geometry": [
@@ -5565,7 +5592,7 @@
       "timestamp": "2014-04-20T17:39:15Z",
       "version": 1,
       "changeset": 21819616,
-      "user": "Heyheyitshay",
+      "user": "CrimsonCaribou",
       "uid": 1680091,
       "nodes": [279749999, 279749994],
       "geometry": [
@@ -5583,7 +5610,7 @@
       "timestamp": "2014-04-20T17:39:15Z",
       "version": 1,
       "changeset": 21819616,
-      "user": "Heyheyitshay",
+      "user": "CrimsonCaribou",
       "uid": 1680091,
       "nodes": [2804302724, 2804302722],
       "geometry": [
@@ -5745,23 +5772,13 @@
     {
       "type": "way",
       "id": 316500307,
-      "timestamp": "2015-08-22T14:38:06Z",
-      "version": 3,
-      "changeset": 33506519,
-      "user": "Bernd_BDP",
-      "uid": 38617,
-      "nodes": [3226255055, 274638373],
+      "timestamp": "2022-08-09T17:38:34Z",
+      "version": 4,
+      "changeset": 124696345,
+      "user": "StreetSailor",
+      "uid": 1950076,
+      "nodes": [3709286091, 274638373],
       "geometry": [
-        {"lat": 52.1125992, "lon": -10.3827619},
-        {"lat": 52.1126277, "lon": -10.3828143},
-        {"lat": 52.112146, "lon": -10.383157},
-        {"lat": 52.1118471, "lon": -10.3832778},
-        {"lat": 52.1115358, "lon": -10.383418},
-        {"lat": 52.1104997, "lon": -10.3841455},
-        {"lat": 52.1096102, "lon": -10.3851734},
-        {"lat": 52.109591, "lon": -10.3852851},
-        {"lat": 52.1096474, "lon": -10.3863925},
-        {"lat": 52.1097295, "lon": -10.3873186},
         {"lat": 52.1098204, "lon": -10.3885436},
         {"lat": 52.1098716, "lon": -10.3887641},
         {"lat": 52.1099088, "lon": -10.3890182},
@@ -5796,11 +5813,11 @@
     {
       "type": "way",
       "id": 316679980,
-      "timestamp": "2014-12-10T15:54:19Z",
-      "version": 1,
-      "changeset": 27380276,
-      "user": "brianboru",
-      "uid": 9065,
+      "timestamp": "2022-08-09T17:38:38Z",
+      "version": 2,
+      "changeset": 124696348,
+      "user": "StreetSailor",
+      "uid": 1950076,
       "nodes": [3228351735, 279757189],
       "geometry": [
         {"lat": 52.1230716, "lon": -10.4585688},
@@ -5808,16 +5825,16 @@
         {"lat": 52.1234167, "lon": -10.458431},
         {"lat": 52.1236721, "lon": -10.4583122}
       ],
-      "tags": {"highway": "unclassified"}
+      "tags": {"cycleway:both": "no", "highway": "unclassified"}
     },
     {
       "type": "way",
       "id": 316681962,
-      "timestamp": "2014-12-10T16:13:52Z",
-      "version": 1,
-      "changeset": 27380762,
-      "user": "brianboru",
-      "uid": 9065,
+      "timestamp": "2022-08-09T17:38:40Z",
+      "version": 2,
+      "changeset": 124696348,
+      "user": "StreetSailor",
+      "uid": 1950076,
       "nodes": [3228378670, 2178160076],
       "geometry": [
         {"lat": 52.1245674, "lon": -10.4593566},
@@ -5825,7 +5842,7 @@
         {"lat": 52.1248782, "lon": -10.4595829},
         {"lat": 52.1254774, "lon": -10.4599701}
       ],
-      "tags": {"highway": "unclassified"}
+      "tags": {"cycleway:both": "no", "highway": "unclassified"}
     },
     {
       "type": "way",

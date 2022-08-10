@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-08-09T03:44:40Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-10T03:10:50Z"},
   "elements": [
     {
       "type": "relation",
@@ -470,9 +470,9 @@
     {
       "type": "way",
       "id": 1029584691,
-      "timestamp": "2022-08-07T19:38:07Z",
-      "version": 2,
-      "changeset": 124610809,
+      "timestamp": "2022-08-09T18:12:20Z",
+      "version": 3,
+      "changeset": 124697622,
       "user": "LafarM",
       "uid": 478109,
       "nodes": [269651906, 269651903],
@@ -497,9 +497,9 @@
     {
       "type": "way",
       "id": 1029584695,
-      "timestamp": "2022-08-07T19:37:50Z",
-      "version": 3,
-      "changeset": 124610812,
+      "timestamp": "2022-08-09T18:13:42Z",
+      "version": 5,
+      "changeset": 124697577,
       "user": "LafarM",
       "uid": 478109,
       "nodes": [5459745066, 9492179568],
@@ -518,6 +518,8 @@
         "oneway": "yes",
         "ref": "897",
         "shoulder": "no",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
         "source": "geoportal.gov.pl:ortofoto",
         "source:maxspeed": "PL:urban",
         "surface": "asphalt"
@@ -637,11 +639,11 @@
     {
       "type": "way",
       "id": 1041104599,
-      "timestamp": "2022-03-17T11:16:25Z",
-      "version": 1,
-      "changeset": 118588184,
-      "user": "englu",
-      "uid": 4325924,
+      "timestamp": "2022-08-09T18:14:05Z",
+      "version": 3,
+      "changeset": 124697577,
+      "user": "LafarM",
+      "uid": 478109,
       "nodes": [9163093175, 269651903],
       "geometry": [
         {"lat": 49.2130701, "lon": 22.328212, "z": 561.3},
@@ -659,9 +661,11 @@
       "tags": {
         "highway": "secondary",
         "highway:category:pl": "2",
+        "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
         "ref": "893",
+        "sidewalk": "separate",
         "source:maxspeed": "PL:urban",
         "surface": "asphalt"
       }
@@ -669,11 +673,11 @@
     {
       "type": "way",
       "id": 1041104601,
-      "timestamp": "2022-03-17T11:16:25Z",
-      "version": 1,
-      "changeset": 118588184,
-      "user": "englu",
-      "uid": 4325924,
+      "timestamp": "2022-08-09T18:11:41Z",
+      "version": 2,
+      "changeset": 124697577,
+      "user": "LafarM",
+      "uid": 478109,
       "nodes": [5459745066, 278140739],
       "geometry": [
         {"lat": 49.2109122, "lon": 22.3294722, "z": 558.9},
@@ -694,6 +698,7 @@
         "maxspeed": "50",
         "oneway": "no",
         "ref": "897",
+        "sidewalk": "separate",
         "source": "geoportal.gov.pl:ortofoto",
         "source:maxspeed": "PL:urban",
         "surface": "asphalt"
@@ -6205,11 +6210,11 @@
     {
       "type": "way",
       "id": 25523173,
-      "timestamp": "2021-10-15T16:07:15Z",
-      "version": 23,
-      "changeset": 112549379,
-      "user": "englu",
-      "uid": 4325924,
+      "timestamp": "2022-08-09T11:32:44Z",
+      "version": 24,
+      "changeset": 124675620,
+      "user": "LafarM",
+      "uid": 478109,
       "nodes": [861175673, 278140212],
       "geometry": [
         {"lat": 49.1468574, "lon": 22.3662597, "z": 1090.9},
@@ -6682,7 +6687,7 @@
         {"lat": 49.2072628, "lon": 22.3329949, "z": 582.1},
         {"lat": 49.2074187, "lon": 22.3330378, "z": 580.8}
       ],
-      "tags": {"highway": "path", "sac_scale": "hiking"}
+      "tags": {"highway": "path", "lit": "no", "sac_scale": "hiking"}
     },
     {
       "type": "way",
@@ -13235,9 +13240,9 @@
     {
       "type": "way",
       "id": 991707641,
-      "timestamp": "2022-08-07T19:38:02Z",
-      "version": 6,
-      "changeset": 124610809,
+      "timestamp": "2022-08-09T18:13:00Z",
+      "version": 8,
+      "changeset": 124697577,
       "user": "LafarM",
       "uid": 478109,
       "nodes": [9492179568, 269651906],
@@ -13252,9 +13257,12 @@
         "highway": "secondary",
         "highway:category:pl": "2",
         "junction": "roundabout",
+        "lane_markings": "no",
         "lanes": "1",
         "lit": "yes",
         "ref": "897",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
         "source:maxspeed": "PL:urban",
         "surface": "asphalt"
       }
