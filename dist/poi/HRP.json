@@ -7,13 +7,14 @@
         "@poi": "place_town",
         "@distance": 515.7,
         "@id": "n26691407",
-        "@changeset": 81229417,
-        "@timestamp": "2020-02-19T15:57:21Z",
-        "@version": 68,
-        "@uid": 193291,
-        "@user": "MapMakinMeyers",
+        "@changeset": 124694009,
+        "@timestamp": "2022-08-09T16:30:09Z",
+        "@version": 69,
+        "@uid": 11707888,
+        "@user": "Odhran Gwydhenn",
         "addr:postcode": "64700",
         "name": "Hendaye",
+        "name:br": "Hendaia",
         "name:en": "Hendaye",
         "name:es": "Hendaya",
         "name:eu": "Hendaia",
@@ -23,6 +24,7 @@
         "place": "town",
         "ref:FR:SIREN": "216402602",
         "source:name": "INSEE COG",
+        "source:name:br": "same as name",
         "source:name:oc": "Lo Congrès",
         "stars": "0",
         "website": "https://www.booking.com/hotel/fr/apartment-appartement-t3-hendaye-proche-plage-1.html",
@@ -43,11 +45,11 @@
         "@poi": "place_town",
         "@distance": 2689,
         "@id": "n27552575",
-        "@changeset": 72355677,
-        "@timestamp": "2019-07-17T15:57:47Z",
-        "@version": 14,
-        "@uid": 2802925,
-        "@user": "Juan_Carlos_G_F-imports",
+        "@changeset": 124694009,
+        "@timestamp": "2022-08-09T16:30:09Z",
+        "@version": 15,
+        "@uid": 11707888,
+        "@user": "Odhran Gwydhenn",
         "addr:country": "ES",
         "admin_level": "8",
         "alt_name:ar": "آرن",
@@ -55,6 +57,7 @@
         "ele": 9,
         "name": "Irun",
         "name:ar": "إرون",
+        "name:br": "Irun",
         "name:de": "Irun",
         "name:el": "Ιρούν",
         "name:en": "Irun",
@@ -70,6 +73,7 @@
         "source:ele": "MDT5",
         "source:file": "http://centrodedescargas.cnig.es/CentroDescargas/equipamiento/BD_Municipios-Entidades.zip",
         "source:name": "Nomenclátor Geográfico de Municipios y Entidades de Población",
+        "source:name:br": "same as name",
         "wikidata": "Q200201",
         "wikipedia": "eu:Irun"
       },
@@ -12211,27 +12215,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "water_spring",
-        "@distance": 7.8,
-        "@id": "n1304545949",
-        "@changeset": 24246402,
-        "@timestamp": "2014-07-20T00:16:28Z",
-        "@version": 2,
-        "@uid": 2132462,
-        "@user": "CL971",
-        "natural": "spring"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.0782285,
-          42.5026793
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "peak_peak",
         "@distance": 1952.7,
         "@id": "n763492193",
@@ -13851,13 +13834,14 @@
         "@poi": "place_town",
         "@distance": 7691.6,
         "@id": "n1690923793",
-        "@changeset": 102058922,
-        "@timestamp": "2021-03-31T13:27:43Z",
-        "@version": 53,
-        "@uid": 8578296,
-        "@user": "enekorga",
+        "@changeset": 124694009,
+        "@timestamp": "2022-08-09T16:30:09Z",
+        "@version": 54,
+        "@uid": 11707888,
+        "@user": "Odhran Gwydhenn",
         "addr:postcode": "64500",
         "name": "Saint-Jean-de-Luz",
+        "name:br": "Donibane Lohizune",
         "name:el": "Σαιν-Ζαν-ντε-Λυζ",
         "name:es": "San Juan de Luz",
         "name:eu": "Donibane Lohizune",
@@ -13866,6 +13850,7 @@
         "place": "town",
         "population": 14093,
         "ref:FR:SIREN": "216404830",
+        "source:name:br": "same as name",
         "source:name:oc": "Lo Congrès",
         "wikidata": "Q232135",
         "wikipedia": "fr:Saint-Jean-de-Luz"
@@ -16360,6 +16345,27 @@
         "coordinates": [
           1.4276501,
           42.7114775
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_spring",
+        "@distance": 7.8,
+        "@id": "n1304545949",
+        "@changeset": 24246402,
+        "@timestamp": "2014-07-20T00:16:28Z",
+        "@version": 2,
+        "@uid": 2132462,
+        "@user": "CL971",
+        "natural": "spring"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0782285,
+          42.5026793
         ]
       }
     },
@@ -37216,6 +37222,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2073.5,
+        "@id": "n9942674086",
+        "@changeset": 124687816,
+        "@timestamp": "2022-08-09T14:00:44Z",
+        "@version": 1,
+        "@uid": 9641379,
+        "@user": "Pan Perníček",
+        "amenity": "shelter",
+        "capacity": 4,
+        "name": "Cabana deth Tronet",
+        "shelter_type": "wilderness_hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6460046,
+          42.9075407
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "alpine-hut",
         "@distance": 148.3,
         "@id": "w70176000",
@@ -48557,33 +48587,6 @@
       "type": "Feature",
       "properties": {
         "@poi": "shelter_shelter",
-        "@distance": 0.3,
-        "@id": "w226919736",
-        "@changeset": 98797978,
-        "@timestamp": "2021-02-06T01:05:00Z",
-        "@version": 3,
-        "@uid": 6692235,
-        "@user": "Hartz Beltza",
-        "amenity": "shelter",
-        "building": "yes",
-        "capacity": 4,
-        "description": "C'est une ancienne venta en ruine, elle est en très mauvais état mais permet de s'abriter voire de dormir sur le sol en cas de mauvais temps. Elle semble squattée et quelques matelas et débris y sont présents.",
-        "ele": 322,
-        "shelter_type": "basic_hut",
-        "website": "https://www.refuges.info/point/4083/cabane-non-gardee/Pays-Basque/Venta-espagnole/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.6277772,
-          43.2940741
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
         "@distance": 3093.9,
         "@id": "w188495783",
         "@changeset": 82532117,
@@ -48633,14 +48636,15 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "shelter_wilderness-hut",
+        "@poi": "shelter_shelter",
         "@distance": 2594.9,
         "@id": "w198857022",
-        "@changeset": 120789213,
-        "@timestamp": "2022-05-10T11:35:22Z",
-        "@version": 10,
-        "@uid": 605366,
-        "@user": "EliziR",
+        "@changeset": 124660274,
+        "@timestamp": "2022-08-08T22:47:17Z",
+        "@version": 11,
+        "@uid": 2491053,
+        "@user": "ManelG",
+        "amenity": "shelter",
         "building": "yes",
         "capacity": 16,
         "description:fr": "2016-01 : - Abri métallique, intérieur bois - Isolation excellente (sas d'entrée) - 1 Table - Banc, Tabourets - Couvertures peu nombreuses et anciennes ... donc très usées ... - Poste de secours",
@@ -50028,6 +50032,33 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 0.3,
+        "@id": "w226919736",
+        "@changeset": 98797978,
+        "@timestamp": "2021-02-06T01:05:00Z",
+        "@version": 3,
+        "@uid": 6692235,
+        "@user": "Hartz Beltza",
+        "amenity": "shelter",
+        "building": "yes",
+        "capacity": 4,
+        "description": "C'est une ancienne venta en ruine, elle est en très mauvais état mais permet de s'abriter voire de dormir sur le sol en cas de mauvais temps. Elle semble squattée et quelques matelas et débris y sont présents.",
+        "ele": 322,
+        "shelter_type": "basic_hut",
+        "website": "https://www.refuges.info/point/4083/cabane-non-gardee/Pays-Basque/Venta-espagnole/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6277772,
+          43.2940741
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 5635,
         "@id": "w247435799",
@@ -50572,32 +50603,6 @@
         "coordinates": [
           -1.7721073,
           43.3619841
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 1170.5,
-        "@id": "w965196432",
-        "@changeset": 110191384,
-        "@timestamp": "2021-08-24T19:51:55Z",
-        "@version": 2,
-        "@uid": 10953870,
-        "@user": "Note Control",
-        "brand": "Lidl",
-        "brand:wikidata": "Q151954",
-        "brand:wikipedia": "en:Lidl",
-        "building": "retail",
-        "name": "Lidl",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.7712011,
-          43.3485247
         ]
       }
     },
@@ -52755,6 +52760,32 @@
         "coordinates": [
           2.6509743,
           42.4671844
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 1170.5,
+        "@id": "w965196432",
+        "@changeset": 110191384,
+        "@timestamp": "2021-08-24T19:51:55Z",
+        "@version": 2,
+        "@uid": 10953870,
+        "@user": "Note Control",
+        "brand": "Lidl",
+        "brand:wikidata": "Q151954",
+        "brand:wikipedia": "en:Lidl",
+        "building": "retail",
+        "name": "Lidl",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7712011,
+          43.3485247
         ]
       }
     },

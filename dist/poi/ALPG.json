@@ -21818,11 +21818,11 @@
         "@poi": "foodshop_supermarket",
         "@distance": 2246.1,
         "@id": "w256616814",
-        "@changeset": 114971557,
-        "@timestamp": "2021-12-15T16:34:31Z",
-        "@version": 6,
-        "@uid": 7004717,
-        "@user": "polettif",
+        "@changeset": 124690057,
+        "@timestamp": "2022-08-09T14:54:47Z",
+        "@version": 7,
+        "@uid": 15671,
+        "@user": "habi",
         "addr:city": "Flüelen",
         "addr:housenumber": "45",
         "addr:postcode": "6454",
@@ -21831,7 +21831,14 @@
         "brand:wikidata": "Q151954",
         "brand:wikipedia": "en:Lidl",
         "building": "yes",
+        "check_date": "2022-08-09",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
         "name": "Lidl",
+        "opening_hours": "Mo-Th 07:30-18:30; Fr 07:30-20:00; Sa 07:30-17:00",
+        "payment:mastercard": "yes",
+        "payment:twint": "yes",
+        "payment:visa": "yes",
         "shop": "supermarket"
       },
       "geometry": {
@@ -24930,6 +24937,48 @@
         "coordinates": [
           8.0306576,
           46.6226923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 62.7,
+        "@id": "n9939773404",
+        "@changeset": 124649913,
+        "@timestamp": "2022-08-08T17:09:58Z",
+        "@version": 1,
+        "@uid": 1833486,
+        "@user": "tomrrr",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2090061,
+          46.7329363
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "water_drinking-water",
+        "@distance": 391.6,
+        "@id": "n9939785511",
+        "@changeset": 124649913,
+        "@timestamp": "2022-08-08T17:10:02Z",
+        "@version": 1,
+        "@uid": 1833486,
+        "@user": "tomrrr",
+        "amenity": "drinking_water"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.2146825,
+          46.7313053
         ]
       }
     },
@@ -28851,6 +28900,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "peak_peak",
+        "@distance": 4037.9,
+        "@id": "n9673671951",
+        "@changeset": 121655295,
+        "@timestamp": "2022-05-29T12:36:17Z",
+        "@version": 2,
+        "@uid": 1213571,
+        "@user": "mcliquid",
+        "ele": 2163,
+        "name": "Girenspitz",
+        "natural": "peak",
+        "wikidata": "Q22644898"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4262378,
+          47.0981442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "foodshop_supermarket",
         "@distance": 351.9,
         "@id": "n5428703277",
@@ -29151,30 +29224,6 @@
         "coordinates": [
           6.8901071,
           46.3403683
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "peak_peak",
-        "@distance": 4037.9,
-        "@id": "n9673671951",
-        "@changeset": 121655295,
-        "@timestamp": "2022-05-29T12:36:17Z",
-        "@version": 2,
-        "@uid": 1213571,
-        "@user": "mcliquid",
-        "ele": 2163,
-        "name": "Girenspitz",
-        "natural": "peak",
-        "wikidata": "Q22644898"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.4262378,
-          47.0981442
         ]
       }
     },
@@ -30590,44 +30639,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 9511,
-        "@id": "w66784328",
-        "@changeset": 85676786,
-        "@timestamp": "2020-05-24T09:56:43Z",
-        "@version": 9,
-        "@uid": 507417,
-        "@user": "tartiflex",
-        "addr:city": "Saint-Gingolph",
-        "addr:housenumber": "40",
-        "addr:postcode": "74500",
-        "addr:street": "Rue Nationale",
-        "brand": "Casino Shop",
-        "brand:wikidata": "Q89029601",
-        "brand:wikipedia": "fr:Casino Shop",
-        "building": "retail",
-        "building:levels": "1",
-        "contact:phone": "+33 4 50 76 75 14",
-        "contact:website": "https://magasins.lepetitcasino.com/fr/s/casino-shop-saint-gingolph",
-        "name": "Casino Shop",
-        "official_name": "Casino Shop Saint-Gingolph",
-        "opening_hours": "Mo-Sa 08:00-12:30, 15:00-19:30; Su 08:00-12:30",
-        "operator": "Casino",
-        "shop": "convenience",
-        "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.8012024,
-          46.3936114
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "shelter_wilderness-hut",
         "@distance": 2885.9,
         "@id": "w298855563",
@@ -31185,6 +31196,44 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_convenience",
+        "@distance": 9511,
+        "@id": "w66784328",
+        "@changeset": 85676786,
+        "@timestamp": "2020-05-24T09:56:43Z",
+        "@version": 9,
+        "@uid": 507417,
+        "@user": "tartiflex",
+        "addr:city": "Saint-Gingolph",
+        "addr:housenumber": "40",
+        "addr:postcode": "74500",
+        "addr:street": "Rue Nationale",
+        "brand": "Casino Shop",
+        "brand:wikidata": "Q89029601",
+        "brand:wikipedia": "fr:Casino Shop",
+        "building": "retail",
+        "building:levels": "1",
+        "contact:phone": "+33 4 50 76 75 14",
+        "contact:website": "https://magasins.lepetitcasino.com/fr/s/casino-shop-saint-gingolph",
+        "name": "Casino Shop",
+        "official_name": "Casino Shop Saint-Gingolph",
+        "opening_hours": "Mo-Sa 08:00-12:30, 15:00-19:30; Su 08:00-12:30",
+        "operator": "Casino",
+        "shop": "convenience",
+        "source": "extraction vectorielle v1 cadastre-dgi-fr source : Direction Générale des Impôts - Cadas. Mise à jour : 2010",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8012024,
+          46.3936114
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
         "@distance": 499.6,
         "@id": "w104979314",
         "@changeset": 109208116,
@@ -31452,33 +31501,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 3840.4,
-        "@id": "w388677872",
-        "@changeset": 75586188,
-        "@timestamp": "2019-10-11T21:15:03Z",
-        "@version": 2,
-        "@uid": 1514673,
-        "@user": "amilopowers",
-        "building": "yes",
-        "cash_withdrawal": "postfinance_card",
-        "cash_withdrawal:fee": "no",
-        "cash_withdrawal:purchase_required": "no",
-        "cash_withdrawal:type": "checkout",
-        "name": "Migros",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.9217546,
-          46.3905651
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 2889.6,
         "@id": "w829198374",
@@ -31519,6 +31541,33 @@
         "coordinates": [
           9.5091299,
           47.172098
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 3840.4,
+        "@id": "w388677872",
+        "@changeset": 75586188,
+        "@timestamp": "2019-10-11T21:15:03Z",
+        "@version": 2,
+        "@uid": 1514673,
+        "@user": "amilopowers",
+        "building": "yes",
+        "cash_withdrawal": "postfinance_card",
+        "cash_withdrawal:fee": "no",
+        "cash_withdrawal:purchase_required": "no",
+        "cash_withdrawal:type": "checkout",
+        "name": "Migros",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.9217546,
+          46.3905651
         ]
       }
     },
