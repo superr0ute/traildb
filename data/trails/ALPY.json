@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-08-09T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-10T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -316,11 +316,11 @@
     {
       "type": "relation",
       "id": 2925581,
-      "timestamp": "2022-07-11T13:50:35Z",
-      "version": 40,
-      "changeset": 123476674,
-      "user": "micheleOSM3",
-      "uid": 3538539,
+      "timestamp": "2022-08-10T15:31:13Z",
+      "version": 41,
+      "changeset": 124737384,
+      "user": "voschix",
+      "uid": 305001,
       "members": [
         {"type": "way", "ref": 199873974, "role": ""},
         {"type": "way", "ref": 199871879, "role": ""},
@@ -455,7 +455,9 @@
         {"type": "way", "ref": 944247458, "role": ""},
         {"type": "way", "ref": 245077636, "role": ""},
         {"type": "way", "ref": 966120755, "role": ""},
+        {"type": "way", "ref": 1085380219, "role": ""},
         {"type": "way", "ref": 940967374, "role": ""},
+        {"type": "way", "ref": 1085380217, "role": ""},
         {"type": "way", "ref": 940967373, "role": ""},
         {"type": "way", "ref": 940967375, "role": ""},
         {"type": "way", "ref": 944143256, "role": ""}
@@ -2045,6 +2047,50 @@
         "surface": "gravel",
         "tracktype": "grade2",
         "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1085380217,
+      "timestamp": "2022-08-10T15:31:13Z",
+      "version": 1,
+      "changeset": 124737384,
+      "user": "voschix",
+      "uid": 305001,
+      "nodes": [8714547543, 8714547521],
+      "geometry": [
+        {"lat": 45.7693805, "lon": 13.6391023},
+        {"lat": 45.7688636, "lon": 13.6391404}
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "lit": "yes",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "wheelchair": "yes",
+        "width": "3"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1085380219,
+      "timestamp": "2022-08-10T15:31:13Z",
+      "version": 1,
+      "changeset": 124737384,
+      "user": "voschix",
+      "uid": 305001,
+      "nodes": [6983547727, 436626362],
+      "geometry": [
+        {"lat": 45.7714131, "lon": 13.6372564},
+        {"lat": 45.7712765, "lon": 13.6374802},
+        {"lat": 45.771227, "lon": 13.6375647}
+      ],
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -11389,11 +11435,11 @@
     {
       "type": "way",
       "id": 200403684,
-      "timestamp": "2022-04-18T10:51:18Z",
-      "version": 17,
-      "changeset": 119851575,
-      "user": "alessandrocarmeli",
-      "uid": 12294600,
+      "timestamp": "2022-08-10T15:31:13Z",
+      "version": 18,
+      "changeset": 124737384,
+      "user": "voschix",
+      "uid": 305001,
       "nodes": [436625948, 288963104],
       "geometry": [
         {"lat": 45.7604304, "lon": 13.6407927},
@@ -11401,7 +11447,6 @@
         {"lat": 45.7597177, "lon": 13.6416484}
       ],
       "tags": {
-        "access": "yes",
         "bicycle": "no",
         "covered": "no",
         "foot": "no",
@@ -18850,11 +18895,11 @@
     {
       "type": "way",
       "id": 33885987,
-      "timestamp": "2021-12-24T18:42:34Z",
-      "version": 15,
-      "changeset": 115344581,
-      "user": "alessandrocarmeli",
-      "uid": 12294600,
+      "timestamp": "2022-08-10T10:07:00Z",
+      "version": 16,
+      "changeset": 124722919,
+      "user": "voschix",
+      "uid": 305001,
       "nodes": [388243145, 7801341328],
       "geometry": [
         {"lat": 45.7579558, "lon": 13.6433778},
@@ -18863,6 +18908,7 @@
         {"lat": 45.7584078, "lon": 13.6427131}
       ],
       "tags": {
+        "cycleway": "no",
         "highway": "primary",
         "lanes": "2",
         "lanes:backward": "1",
@@ -18873,6 +18919,10 @@
         "old_ref": "SS14",
         "oneway": "no",
         "ref": "SR14",
+        "shoulder": "both",
+        "shoulder:surface": "asphalt",
+        "shoulder:width": "1.5",
+        "source:maxspeed": "sign",
         "surface": "asphalt"
       }
     },
@@ -29286,9 +29336,9 @@
     {
       "type": "way",
       "id": 83015356,
-      "timestamp": "2022-07-08T17:37:50Z",
-      "version": 8,
-      "changeset": 123375817,
+      "timestamp": "2022-08-10T16:00:46Z",
+      "version": 9,
+      "changeset": 124738623,
       "user": "alessandrocarmeli",
       "uid": 12294600,
       "nodes": [332425519, 299329494],
@@ -29326,11 +29376,7 @@
         {"lat": 45.6000384, "lon": 13.7679811},
         {"lat": 45.6002081, "lon": 13.7677252}
       ],
-      "tags": {
-        "highway": "residential",
-        "name": "Via Natale Colarich",
-        "oneway": "-1"
-      }
+      "tags": {"highway": "residential", "name": "Via Natale Colarich"}
     },
     {
       "type": "way",
@@ -29567,11 +29613,11 @@
     {
       "type": "way",
       "id": 835801844,
-      "timestamp": "2021-12-24T18:42:34Z",
-      "version": 6,
-      "changeset": 115344581,
-      "user": "alessandrocarmeli",
-      "uid": 12294600,
+      "timestamp": "2022-08-10T10:07:00Z",
+      "version": 7,
+      "changeset": 124722919,
+      "user": "voschix",
+      "uid": 305001,
       "nodes": [7801341328, 7801341317],
       "geometry": [
         {"lat": 45.7584078, "lon": 13.6427131},
@@ -29582,6 +29628,7 @@
         {"lat": 45.7591393, "lon": 13.6421057}
       ],
       "tags": {
+        "cycleway": "no",
         "highway": "primary",
         "lanes": "2",
         "lanes:backward": "1",
@@ -29592,17 +29639,21 @@
         "old_ref": "SS14",
         "oneway": "no",
         "ref": "SR14",
+        "shoulder": "both",
+        "shoulder:surface": "asphalt",
+        "shoulder:width": "1.5",
+        "source:maxspeed": "sign",
         "surface": "asphalt"
       }
     },
     {
       "type": "way",
       "id": 835801845,
-      "timestamp": "2021-12-24T18:42:34Z",
-      "version": 6,
-      "changeset": 115344581,
-      "user": "alessandrocarmeli",
-      "uid": 12294600,
+      "timestamp": "2022-08-10T14:53:39Z",
+      "version": 7,
+      "changeset": 124735795,
+      "user": "voschix",
+      "uid": 305001,
       "nodes": [7801341317, 288963104],
       "geometry": [
         {"lat": 45.7591393, "lon": 13.6421057},
@@ -29611,6 +29662,7 @@
         {"lat": 45.7597177, "lon": 13.6416484}
       ],
       "tags": {
+        "cycleway": "no",
         "highway": "primary",
         "lanes": "2",
         "lanes:backward": "1",
@@ -29621,6 +29673,7 @@
         "old_ref": "SS14",
         "oneway": "no",
         "ref": "SR14",
+        "shoulder": "no",
         "surface": "asphalt"
       }
     },
@@ -30663,15 +30716,13 @@
     {
       "type": "way",
       "id": 940967374,
-      "timestamp": "2022-07-08T17:37:50Z",
-      "version": 4,
-      "changeset": 123375817,
-      "user": "alessandrocarmeli",
-      "uid": 12294600,
-      "nodes": [6983547727, 8714547521],
+      "timestamp": "2022-08-10T15:31:13Z",
+      "version": 5,
+      "changeset": 124737384,
+      "user": "voschix",
+      "uid": 305001,
+      "nodes": [436626362, 8714547543],
       "geometry": [
-        {"lat": 45.7714131, "lon": 13.6372564},
-        {"lat": 45.7712765, "lon": 13.6374802},
         {"lat": 45.771227, "lon": 13.6375647},
         {"lat": 45.7711466, "lon": 13.637728},
         {"lat": 45.7709037, "lon": 13.6380923},
@@ -30697,14 +30748,19 @@
         {"lat": 45.7696562, "lon": 13.6390193},
         {"lat": 45.7695907, "lon": 13.6390536},
         {"lat": 45.769538, "lon": 13.6390756},
-        {"lat": 45.7693927, "lon": 13.639101},
-        {"lat": 45.7688636, "lon": 13.6391404}
+        {"lat": 45.7693805, "lon": 13.6391023}
       ],
       "tags": {
+        "bicycle": "designated",
+        "foot": "designated",
         "footway": "sidewalk",
-        "highway": "footway",
+        "highway": "path",
         "lit": "yes",
-        "surface": "asphalt"
+        "segregated": "no",
+        "smoothness": "good",
+        "surface": "paving_stones",
+        "wheelchair": "yes",
+        "width": "3"
       }
     },
     {
@@ -30753,11 +30809,11 @@
     {
       "type": "way",
       "id": 944143256,
-      "timestamp": "2021-12-14T15:33:00Z",
-      "version": 3,
-      "changeset": 114929350,
-      "user": "damjang",
-      "uid": 97922,
+      "timestamp": "2022-08-10T14:53:39Z",
+      "version": 4,
+      "changeset": 124735795,
+      "user": "voschix",
+      "uid": 305001,
       "nodes": [3287284967, 8714547546],
       "geometry": [
         {"lat": 45.7636155, "lon": 13.6392927},
@@ -30790,7 +30846,12 @@
         {"lat": 45.76688, "lon": 13.6387477},
         {"lat": 45.7668979, "lon": 13.6387535}
       ],
-      "tags": {"footway": "sidewalk", "highway": "footway"}
+      "tags": {
+        "footway": "sidewalk",
+        "highway": "footway",
+        "surfacae": "as",
+        "width": "2"
+      }
     },
     {
       "type": "way",
