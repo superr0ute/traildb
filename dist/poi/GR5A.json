@@ -9545,12 +9545,16 @@
         "@poi": "water_drinking-water",
         "@distance": 14.1,
         "@id": "n1969332116",
-        "@changeset": 13526594,
-        "@timestamp": "2012-10-17T02:49:16Z",
-        "@version": 1,
-        "@uid": 970061,
-        "@user": "gordyh",
-        "amenity": "drinking_water"
+        "@changeset": 124742872,
+        "@timestamp": "2022-08-10T17:55:08Z",
+        "@version": 2,
+        "@uid": 10232116,
+        "@user": "Patrick78",
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
+        "wheelchair": "yes"
       },
       "geometry": {
         "type": "Point",
@@ -9566,12 +9570,13 @@
         "@poi": "water_drinking-water",
         "@distance": 83.3,
         "@id": "n1969332382",
-        "@changeset": 13526594,
-        "@timestamp": "2012-10-17T02:49:26Z",
-        "@version": 1,
-        "@uid": 970061,
-        "@user": "gordyh",
-        "amenity": "drinking_water"
+        "@changeset": 124732698,
+        "@timestamp": "2022-08-10T13:40:39Z",
+        "@version": 2,
+        "@uid": 16786302,
+        "@user": "randomneur",
+        "amenity": "drinking_water",
+        "check_date": "2022-08-08"
       },
       "geometry": {
         "type": "Point",
@@ -25550,14 +25555,16 @@
         "@poi": "water_drinking-water",
         "@distance": 16.2,
         "@id": "n7827821595",
-        "@changeset": 89655443,
-        "@timestamp": "2020-08-19T21:57:23Z",
-        "@version": 1,
-        "@uid": 8490885,
-        "@user": "divulmappeur",
+        "@changeset": 124742872,
+        "@timestamp": "2022-08-10T17:55:08Z",
+        "@version": 2,
+        "@uid": 10232116,
+        "@user": "Patrick78",
+        "access": "yes",
         "amenity": "drinking_water",
         "bottle": "yes",
-        "fee": "no"
+        "fee": "no",
+        "wheelchair": "yes"
       },
       "geometry": {
         "type": "Point",
@@ -30028,6 +30035,30 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 9398.5,
+        "@id": "w229560852",
+        "@changeset": 114452794,
+        "@timestamp": "2021-12-01T17:59:21Z",
+        "@version": 2,
+        "@uid": 886958,
+        "@user": "Bonbadil",
+        "building": "yes",
+        "name": "Aldi",
+        "not:brand:wikidata": "Q41171373",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5585133,
+          44.797522
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 1829.3,
         "@id": "w942059245",
@@ -31202,6 +31233,31 @@
         "coordinates": [
           7.1877963,
           43.6837805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_supermarket",
+        "@distance": 5743,
+        "@id": "n9487845304",
+        "@changeset": 117134943,
+        "@timestamp": "2022-02-07T20:31:46Z",
+        "@version": 1,
+        "@uid": 12977733,
+        "@user": "Iweego06",
+        "addr:city": "Saint-Laurent-du-Var",
+        "addr:postcode": "06700",
+        "addr:street": "Allée des Peintres",
+        "name": "Cedeo saint laurent du var",
+        "shop": "supermarket"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.1877283,
+          43.6839719
         ]
       }
     },
@@ -32426,30 +32482,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 9398.5,
-        "@id": "w229560852",
-        "@changeset": 114452794,
-        "@timestamp": "2021-12-01T17:59:21Z",
-        "@version": 2,
-        "@uid": 886958,
-        "@user": "Bonbadil",
-        "building": "yes",
-        "name": "Aldi",
-        "not:brand:wikidata": "Q41171373",
-        "shop": "supermarket"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.5585133,
-          44.797522
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@poi": "shelter_shelter",
         "@distance": 240.2,
         "@id": "w234491703",
@@ -33299,24 +33331,31 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_supermarket",
-        "@distance": 5743,
-        "@id": "n9487845304",
-        "@changeset": 117134943,
-        "@timestamp": "2022-02-07T20:31:46Z",
-        "@version": 1,
-        "@uid": 12977733,
-        "@user": "Iweego06",
-        "addr:city": "Saint-Laurent-du-Var",
-        "addr:postcode": "06700",
-        "addr:street": "Allée des Peintres",
-        "name": "Cedeo saint laurent du var",
-        "shop": "supermarket"
+        "@distance": 530.4,
+        "@id": "w753750156",
+        "@changeset": 98841053,
+        "@timestamp": "2021-02-07T08:17:41Z",
+        "@version": 4,
+        "@uid": 188930,
+        "@user": "JLZIMMERMANN",
+        "brand": "Biocoop",
+        "brand:wikidata": "Q2904039",
+        "brand:wikipedia": "fr:Biocoop",
+        "building": "retail",
+        "layer": "-1",
+        "name": "Biocoop",
+        "organic": "only",
+        "phone": "+33 4 92 51 53 22",
+        "shop": "supermarket",
+        "supermarket": "yes",
+        "supermarket:FR": "supermarché",
+        "website": "https://www.biocoop-epinevinette.com/"
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.1877283,
-          43.6839719
+          6.6268182,
+          44.8850328
         ]
       }
     },
@@ -36091,38 +36130,6 @@
         "coordinates": [
           6.7391592,
           45.5712566
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_supermarket",
-        "@distance": 530.4,
-        "@id": "w753750156",
-        "@changeset": 98841053,
-        "@timestamp": "2021-02-07T08:17:41Z",
-        "@version": 4,
-        "@uid": 188930,
-        "@user": "JLZIMMERMANN",
-        "brand": "Biocoop",
-        "brand:wikidata": "Q2904039",
-        "brand:wikipedia": "fr:Biocoop",
-        "building": "retail",
-        "layer": "-1",
-        "name": "Biocoop",
-        "organic": "only",
-        "phone": "+33 4 92 51 53 22",
-        "shop": "supermarket",
-        "supermarket": "yes",
-        "supermarket:FR": "supermarché",
-        "website": "https://www.biocoop-epinevinette.com/"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.6268182,
-          44.8850328
         ]
       }
     },
@@ -43534,6 +43541,28 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 1140.6,
+        "@id": "w1044292910",
+        "@changeset": 118953858,
+        "@timestamp": "2022-03-26T16:19:24Z",
+        "@version": 1,
+        "@uid": 591881,
+        "@user": "Patchi",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2712224,
+          43.710682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_cave",
         "@distance": 2438,
         "@id": "n4455070407",
@@ -44556,28 +44585,6 @@
         "coordinates": [
           6.6638747,
           45.648318
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 1140.6,
-        "@id": "w1044292910",
-        "@changeset": 118953858,
-        "@timestamp": "2022-03-26T16:19:24Z",
-        "@version": 1,
-        "@uid": 591881,
-        "@user": "Patchi",
-        "amenity": "shelter",
-        "shelter_type": "public_transport"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.2712224,
-          43.710682
         ]
       }
     },
@@ -50765,6 +50772,50 @@
     {
       "type": "Feature",
       "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 349.5,
+        "@id": "w1052215502",
+        "@changeset": 119777907,
+        "@timestamp": "2022-04-16T10:06:59Z",
+        "@version": 1,
+        "@uid": 591881,
+        "@user": "Patchi",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2618526,
+          43.7004045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "shelter_shelter",
+        "@distance": 2326,
+        "@id": "w1052215507",
+        "@changeset": 119777907,
+        "@timestamp": "2022-04-16T10:06:59Z",
+        "@version": 1,
+        "@uid": 591881,
+        "@user": "Patchi",
+        "amenity": "shelter",
+        "shelter_type": "public_transport"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2866849,
+          43.6951826
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@poi": "shelter_cave",
         "@distance": 1411.5,
         "@id": "n6785963785",
@@ -51449,50 +51500,6 @@
         "coordinates": [
           7.0534721,
           45.3741136
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 349.5,
-        "@id": "w1052215502",
-        "@changeset": 119777907,
-        "@timestamp": "2022-04-16T10:06:59Z",
-        "@version": 1,
-        "@uid": 591881,
-        "@user": "Patchi",
-        "amenity": "shelter",
-        "shelter_type": "public_transport"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.2618526,
-          43.7004045
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "shelter_shelter",
-        "@distance": 2326,
-        "@id": "w1052215507",
-        "@changeset": 119777907,
-        "@timestamp": "2022-04-16T10:06:59Z",
-        "@version": 1,
-        "@uid": 591881,
-        "@user": "Patchi",
-        "amenity": "shelter",
-        "shelter_type": "public_transport"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.2866849,
-          43.6951826
         ]
       }
     },
@@ -53285,6 +53292,43 @@
       "type": "Feature",
       "properties": {
         "@poi": "foodshop_convenience",
+        "@distance": 7004,
+        "@id": "n9945007456",
+        "@changeset": 124728299,
+        "@timestamp": "2022-08-10T12:05:00Z",
+        "@version": 1,
+        "@uid": 4774522,
+        "@user": "Djiril",
+        "addr:city": "Morzine",
+        "addr:housenumber": "535",
+        "addr:postcode": "74110",
+        "addr:street": "Route de la Plagne",
+        "brand": "Casino Shop",
+        "brand:wikidata": "Q89029601",
+        "brand:wikipedia": "fr:Casino Shop",
+        "building": "retail",
+        "building:levels": "1",
+        "contact:phone": "+33 4 50 79 07 32",
+        "contact:website": "https://magasins.lepetitcasino.com/fr/s/casino-shop-morzine",
+        "name": "Casino Shop",
+        "official_name": "Casino Shop Morzine",
+        "opening_hours": "Mo-Sa 08:00-12:30, 15:00-19:00; Su off",
+        "operator": "Casino",
+        "shop": "convenience",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6985952,
+          46.1847715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@poi": "foodshop_convenience",
         "@distance": 5937.1,
         "@id": "w66784328",
         "@changeset": 85676786,
@@ -55009,43 +55053,6 @@
         "coordinates": [
           6.8129488,
           46.1964501
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@poi": "foodshop_convenience",
-        "@distance": 7016.5,
-        "@id": "w775407941",
-        "@changeset": 124609638,
-        "@timestamp": "2022-08-07T19:01:58Z",
-        "@version": 3,
-        "@uid": 4774522,
-        "@user": "Djiril",
-        "addr:city": "Morzine",
-        "addr:housenumber": "535",
-        "addr:postcode": "74110",
-        "addr:street": "Route de la Plagne",
-        "brand": "Casino Shop",
-        "brand:wikidata": "Q89029601",
-        "brand:wikipedia": "fr:Casino Shop",
-        "building": "retail",
-        "building:levels": "1",
-        "contact:phone": "+33 4 50 79 07 32",
-        "contact:website": "https://magasins.lepetitcasino.com/fr/s/casino-shop-morzine",
-        "name": "Casino Shop",
-        "official_name": "Casino Shop Morzine",
-        "opening_hours": "Mo-Sa 08:00-12:30, 15:00-19:00; Su off",
-        "operator": "Casino",
-        "shop": "convenience",
-        "wheelchair": "yes"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.6984741,
-          46.1846956
         ]
       }
     },
