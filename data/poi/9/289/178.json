@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-08-09T23:59:59Z",
-    "timestamp_osm_base": "2022-08-10T06:29:06Z",
+    "timestamp_osm_date": "2022-08-10T23:59:59Z",
+    "timestamp_osm_base": "2022-08-11T06:37:54Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -7657,11 +7657,11 @@
       },
       "nodes": [],
       "tags": {
-        "building": "yes",
+        "operator": "Metro",
         "is_in": "Baia Mare; Maramureș; România",
         "name": "Metro",
-        "operator": "Metro",
-        "shop": "supermarket"
+        "shop": "supermarket",
+        "building": "yes"
       }
     },
     {
@@ -8000,12 +8000,12 @@
       },
       "nodes": [],
       "tags": {
-        "addr:city": "Baia Mare",
-        "addr:housenumber": "44",
-        "addr:street": "Bulevardul București",
         "building": "yes",
+        "addr:street": "Bulevardul București",
         "name": "Selgros",
-        "shop": "supermarket"
+        "shop": "supermarket",
+        "addr:housenumber": "44",
+        "addr:city": "Baia Mare"
       }
     },
     {
@@ -8184,6 +8184,30 @@
         "building:levels": "1",
         "layer": "1",
         "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1085365172,
+      "timestamp": "2022-08-10T14:18:45Z",
+      "version": 1,
+      "changeset": 124734361,
+      "user": "lawrencebanks",
+      "uid": 3829221,
+      "center": {
+        "lat": 47.6497056,
+        "lon": 23.5413418
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Baia Mare",
+        "addr:housenumber": "100",
+        "addr:street": "Bulevardul București",
+        "brand": "Kaufland",
+        "brand:wikidata": "Q685967",
+        "building": "yes",
+        "name": "Kaufland",
+        "shop": "supermarket"
       }
     }
   ]
