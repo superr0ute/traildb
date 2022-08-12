@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-08-10T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-11T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1091,9 +1091,9 @@
     {
       "type": "relation",
       "id": 62897,
-      "timestamp": "2022-08-04T17:20:01Z",
-      "version": 223,
-      "changeset": 124490571,
+      "timestamp": "2022-08-11T15:18:50Z",
+      "version": 224,
+      "changeset": 124781063,
       "user": "*abq*",
       "uid": 3696195,
       "members": [
@@ -1321,8 +1321,10 @@
         {"type": "way", "ref": 29215178, "role": ""},
         {"type": "way", "ref": 595866056, "role": ""},
         {"type": "way", "ref": 595866055, "role": ""},
+        {"type": "way", "ref": 1085632443, "role": ""},
         {"type": "way", "ref": 25964001, "role": ""},
         {"type": "way", "ref": 1083837219, "role": ""},
+        {"type": "way", "ref": 1085632442, "role": ""},
         {"type": "way", "ref": 56696043, "role": ""},
         {"type": "way", "ref": 167628298, "role": ""},
         {"type": "way", "ref": 28769225, "role": ""},
@@ -4121,9 +4123,9 @@
     {
       "type": "way",
       "id": 1083837219,
-      "timestamp": "2022-08-04T17:20:01Z",
-      "version": 1,
-      "changeset": 124490571,
+      "timestamp": "2022-08-11T15:18:50Z",
+      "version": 2,
+      "changeset": 124781063,
       "user": "*abq*",
       "uid": 3696195,
       "nodes": [321348063, 709069032],
@@ -4149,7 +4151,8 @@
         "highway": "track",
         "motor_vehicle": "forestry",
         "mtb:scale": "0",
-        "name": "Notschreiweg",
+        "name": "Langenbachweg",
+        "smoothness": "bad",
         "surface": "fine_gravel",
         "tracktype": "grade2",
         "width": "2"
@@ -4169,6 +4172,57 @@
         {"lat": 47.9797029, "lon": 8.1342915}
       ],
       "tags": {"highway": "service", "name": "Hohlengraben"}
+    },
+    {
+      "type": "way",
+      "id": 1085632442,
+      "timestamp": "2022-08-11T15:18:50Z",
+      "version": 1,
+      "changeset": 124781063,
+      "user": "*abq*",
+      "uid": 3696195,
+      "nodes": [709069032, 548739124],
+      "geometry": [
+        {"lat": 47.8737013, "lon": 7.894268},
+        {"lat": 47.87362, "lon": 7.8941483},
+        {"lat": 47.8735152, "lon": 7.8940618},
+        {"lat": 47.873244, "lon": 7.8938894},
+        {"lat": 47.8731777, "lon": 7.8938014},
+        {"lat": 47.8731119, "lon": 7.8936554}
+      ],
+      "tags": {
+        "highway": "track",
+        "incline": "10%",
+        "mtb:scale": "0",
+        "name": "Langenbachweg",
+        "surface": "fine_gravel",
+        "tracktype": "grade3",
+        "width": "2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1085632443,
+      "timestamp": "2022-08-11T15:18:50Z",
+      "version": 1,
+      "changeset": 124781063,
+      "user": "*abq*",
+      "uid": 3696195,
+      "nodes": [5677999259, 666111957],
+      "geometry": [
+        {"lat": 47.8745586, "lon": 7.9049756},
+        {"lat": 47.8745529, "lon": 7.9047484}
+      ],
+      "tags": {
+        "highway": "track",
+        "motor_vehicle": "forestry",
+        "mtb:scale": "0",
+        "name": "Notschreiweg",
+        "smoothness": "bad",
+        "surface": "fine_gravel",
+        "tracktype": "grade2",
+        "width": "2"
+      }
     },
     {
       "type": "way",
@@ -9788,11 +9842,11 @@
     {
       "type": "way",
       "id": 156857750,
-      "timestamp": "2021-09-12T13:32:35Z",
-      "version": 9,
-      "changeset": 111096647,
-      "user": "mapBaer",
-      "uid": 77424,
+      "timestamp": "2022-08-11T18:58:37Z",
+      "version": 10,
+      "changeset": 124789007,
+      "user": "*abq*",
+      "uid": 3696195,
       "nodes": [7552829770, 307685989],
       "geometry": [
         {"lat": 47.857737, "lon": 7.8779242},
@@ -9835,7 +9889,7 @@
       "tags": {
         "bicycle": "no",
         "highway": "path",
-        "mtb:scale": "5",
+        "mtb:scale": "1",
         "sac_scale": "hiking",
         "surface": "ground",
         "trail_visibility": "excellent",
@@ -10078,11 +10132,11 @@
     {
       "type": "way",
       "id": 167628298,
-      "timestamp": "2016-09-01T19:36:41Z",
-      "version": 4,
-      "changeset": 41855668,
-      "user": "skyper",
-      "uid": 152744,
+      "timestamp": "2022-08-11T15:18:50Z",
+      "version": 5,
+      "changeset": 124781063,
+      "user": "*abq*",
+      "uid": 3696195,
       "nodes": [329394227, 270797093],
       "geometry": [
         {"lat": 47.8726219, "lon": 7.8917206},
@@ -10105,7 +10159,9 @@
       "tags": {
         "highway": "path",
         "mtb:scale": "0",
+        "sac_scale": "hiking",
         "surface": "ground",
+        "trail_visibility": "good",
         "width": "2"
       }
     },
@@ -15922,14 +15978,13 @@
     {
       "type": "way",
       "id": 25964001,
-      "timestamp": "2022-08-04T17:20:01Z",
-      "version": 19,
-      "changeset": 124490571,
+      "timestamp": "2022-08-11T15:18:50Z",
+      "version": 20,
+      "changeset": 124781063,
       "user": "*abq*",
       "uid": 3696195,
-      "nodes": [5677999259, 321348063],
+      "nodes": [666111957, 321348063],
       "geometry": [
-        {"lat": 47.8745586, "lon": 7.9049756},
         {"lat": 47.8745529, "lon": 7.9047484},
         {"lat": 47.8746107, "lon": 7.9044183},
         {"lat": 47.8746979, "lon": 7.9041035},
@@ -15946,7 +16001,8 @@
         "highway": "track",
         "motor_vehicle": "forestry",
         "mtb:scale": "0",
-        "name": "Notschreiweg",
+        "name": "Langenbachweg",
+        "smoothness": "bad",
         "surface": "fine_gravel",
         "tracktype": "grade2",
         "width": "2"
@@ -20098,9 +20154,9 @@
     {
       "type": "way",
       "id": 28769225,
-      "timestamp": "2022-08-04T13:33:20Z",
-      "version": 15,
-      "changeset": 124481653,
+      "timestamp": "2022-08-11T19:01:21Z",
+      "version": 16,
+      "changeset": 124789099,
       "user": "*abq*",
       "uid": 3696195,
       "nodes": [270797093, 270797128],
@@ -20148,6 +20204,7 @@
       "tags": {
         "highway": "track",
         "mtb:scale": "0",
+        "smoothness": "bad",
         "surface": "fine_gravel",
         "tracktype": "grade2"
       }
@@ -20453,11 +20510,11 @@
     {
       "type": "way",
       "id": 28831330,
-      "timestamp": "2022-06-10T21:59:17Z",
-      "version": 14,
-      "changeset": 122230025,
-      "user": "Karthoo",
-      "uid": 3232636,
+      "timestamp": "2022-08-11T14:49:12Z",
+      "version": 15,
+      "changeset": 124780043,
+      "user": "*abq*",
+      "uid": 3696195,
       "nodes": [3685570612, 305736636],
       "geometry": [
         {"lat": 47.8400227, "lon": 8.0190235},
@@ -20483,7 +20540,8 @@
         "highway": "track",
         "source": "survey",
         "surface": "compacted",
-        "tracktype": "grade2"
+        "tracktype": "grade2",
+        "width": "2.5"
       }
     },
     {
@@ -21276,11 +21334,11 @@
     {
       "type": "way",
       "id": 29090867,
-      "timestamp": "2021-11-02T15:04:14Z",
-      "version": 4,
-      "changeset": 113289176,
-      "user": "nurdafur",
-      "uid": 3172019,
+      "timestamp": "2022-08-11T18:06:56Z",
+      "version": 5,
+      "changeset": 124787200,
+      "user": "Ronald Erwt",
+      "uid": 16789877,
       "nodes": [122316962, 122317420],
       "geometry": [
         {"lat": 48.6777691, "lon": 8.3616773},
@@ -21293,6 +21351,7 @@
       "tags": {
         "highway": "residential",
         "lcn": "yes",
+        "lit": "yes",
         "name": "Eckstraße",
         "surface": "asphalt"
       }
@@ -21708,9 +21767,9 @@
     {
       "type": "way",
       "id": 29215171,
-      "timestamp": "2017-10-30T19:26:57Z",
-      "version": 20,
-      "changeset": 53376776,
+      "timestamp": "2022-08-11T18:58:37Z",
+      "version": 21,
+      "changeset": 124789007,
       "user": "*abq*",
       "uid": 3696195,
       "nodes": [270797132, 310557706],
@@ -21723,17 +21782,13 @@
         {"lat": 47.860544, "lon": 7.8809079}
       ],
       "tags": {
-        "access": "agricultural",
         "bicycle": "yes",
-        "foot": "yes",
         "highway": "path",
         "horse": "yes",
-        "motorcar": "no",
-        "motorcycle": "no",
+        "motor_vehicle": "agricultural",
         "mtb:scale": "0",
         "sac_scale": "hiking",
         "surface": "gravel",
-        "tracktype": "grade4",
         "trail_visibility": "excellent",
         "width": "2"
       }
@@ -28915,11 +28970,11 @@
     {
       "type": "way",
       "id": 374089628,
-      "timestamp": "2021-09-12T13:32:35Z",
-      "version": 6,
-      "changeset": 111096647,
-      "user": "mapBaer",
-      "uid": 77424,
+      "timestamp": "2022-08-11T18:58:37Z",
+      "version": 7,
+      "changeset": 124789007,
+      "user": "*abq*",
+      "uid": 3696195,
       "nodes": [310557706, 7552829770],
       "geometry": [
         {"lat": 47.860544, "lon": 7.8809079},
@@ -28942,8 +28997,6 @@
       "tags": {
         "bicycle": "no",
         "highway": "path",
-        "motorcar": "no",
-        "motorcycle": "no",
         "mtb:scale": "1",
         "sac_scale": "hiking",
         "surface": "ground",
@@ -35185,18 +35238,13 @@
     {
       "type": "way",
       "id": 56696043,
-      "timestamp": "2022-08-04T13:33:20Z",
-      "version": 5,
-      "changeset": 124481653,
+      "timestamp": "2022-08-11T15:18:50Z",
+      "version": 6,
+      "changeset": 124781063,
       "user": "*abq*",
       "uid": 3696195,
-      "nodes": [709069032, 329394227],
+      "nodes": [548739124, 329394227],
       "geometry": [
-        {"lat": 47.8737013, "lon": 7.894268},
-        {"lat": 47.87362, "lon": 7.8941483},
-        {"lat": 47.8735152, "lon": 7.8940618},
-        {"lat": 47.873244, "lon": 7.8938894},
-        {"lat": 47.8731777, "lon": 7.8938014},
         {"lat": 47.8731119, "lon": 7.8936554},
         {"lat": 47.8730564, "lon": 7.8934776},
         {"lat": 47.8730228, "lon": 7.8932333},
@@ -35210,13 +35258,14 @@
         {"lat": 47.8726219, "lon": 7.8917206}
       ],
       "tags": {
-        "highway": "track",
+        "highway": "path",
         "incline": "10%",
         "mtb:scale": "0",
         "name": "Langenbachweg",
-        "surface": "fine_gravel",
-        "tracktype": "grade4",
-        "width": "2"
+        "sac_scale": "hiking",
+        "surface": "ground",
+        "trail_visibility": "good",
+        "width": "1.5"
       }
     },
     {
