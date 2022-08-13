@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-08-07T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-12T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 11123868,
-      "timestamp": "2022-08-04T18:53:41Z",
-      "version": 221,
-      "changeset": 124493499,
-      "user": "hatul",
-      "uid": 686490,
+      "timestamp": "2022-08-12T11:34:11Z",
+      "version": 222,
+      "changeset": 124814682,
+      "user": "Maki869",
+      "uid": 11964496,
       "members": [
         {"type": "way", "ref": 723053761, "role": ""},
         {"type": "way", "ref": 853340709, "role": ""},
@@ -645,7 +645,6 @@
         {"type": "way", "ref": 400034417, "role": ""},
         {"type": "way", "ref": 812589086, "role": ""},
         {"type": "way", "ref": 429292878, "role": ""},
-        {"type": "way", "ref": 812589088, "role": ""},
         {"type": "way", "ref": 812589089, "role": ""},
         {"type": "way", "ref": 522485658, "role": ""},
         {"type": "way", "ref": 779980527, "role": ""},
@@ -15072,11 +15071,11 @@
     {
       "type": "way",
       "id": 290367998,
-      "timestamp": "2020-09-14T08:29:45Z",
-      "version": 5,
-      "changeset": 90850383,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-08-12T12:50:45Z",
+      "version": 6,
+      "changeset": 124817512,
+      "user": "Itzik Arzoni",
+      "uid": 5685982,
       "nodes": [2872818852, 1276881805],
       "geometry": [
         {"lat": 31.8173296, "lon": 35.0307881},
@@ -15123,7 +15122,7 @@
       "tags": {
         "colour": "red",
         "highway": "track",
-        "surface": "paved",
+        "surface": "dirt",
         "tracktype": "grade1"
       }
     },
@@ -31786,12 +31785,12 @@
     {
       "type": "way",
       "id": 429292878,
-      "timestamp": "2021-12-09T18:39:39Z",
-      "version": 5,
-      "changeset": 114755549,
+      "timestamp": "2022-08-12T11:34:11Z",
+      "version": 6,
+      "changeset": 124814682,
       "user": "Maki869",
       "uid": 11964496,
-      "nodes": [4284130039, 3481478300],
+      "nodes": [4284130039, 4284130080],
       "geometry": [
         {"lat": 31.4576777, "lon": 34.52105},
         {"lat": 31.457816, "lon": 34.521253},
@@ -31812,6 +31811,7 @@
         {"lat": 31.4632, "lon": 34.52492},
         {"lat": 31.463277, "lon": 34.524972},
         {"lat": 31.463373, "lon": 34.525067},
+        {"lat": 31.4637824, "lon": 34.5255677},
         {"lat": 31.4638516, "lon": 34.5256524},
         {"lat": 31.4652266, "lon": 34.5273343},
         {"lat": 31.466016, "lon": 34.5283},
@@ -31840,8 +31840,7 @@
         {"lat": 31.469985, "lon": 34.527488},
         {"lat": 31.470188, "lon": 34.527237},
         {"lat": 31.470571, "lon": 34.526579},
-        {"lat": 31.470759, "lon": 34.526341},
-        {"lat": 31.470881, "lon": 34.52616}
+        {"lat": 31.470759, "lon": 34.526341}
       ],
       "tags": {"highway": "track"}
     },
@@ -46420,11 +46419,11 @@
     {
       "type": "way",
       "id": 72050000,
-      "timestamp": "2016-05-18T21:34:08Z",
-      "version": 3,
-      "changeset": 39411597,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-08-12T12:49:56Z",
+      "version": 4,
+      "changeset": 124817512,
+      "user": "Itzik Arzoni",
+      "uid": 5685982,
       "nodes": [856564440, 351210200],
       "geometry": [
         {"lat": 31.8180755, "lon": 35.0260759},
@@ -46432,16 +46431,21 @@
         {"lat": 31.8178622, "lon": 35.0261191},
         {"lat": 31.8177117, "lon": 35.0261763}
       ],
-      "tags": {"colour": "black", "highway": "track", "tracktype": "grade2"}
+      "tags": {
+        "colour": "black",
+        "highway": "track",
+        "surface": "dirt",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
       "id": 72050014,
-      "timestamp": "2016-05-18T21:34:08Z",
-      "version": 3,
-      "changeset": 39411597,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-08-12T12:50:03Z",
+      "version": 4,
+      "changeset": 124817512,
+      "user": "Itzik Arzoni",
+      "uid": 5685982,
       "nodes": [856564440, 432263031],
       "geometry": [
         {"lat": 31.8180755, "lon": 35.0260759},
@@ -46453,6 +46457,7 @@
         "colour": "black",
         "foot": "yes",
         "highway": "track",
+        "surface": "dirt",
         "tracktype": "grade2"
       }
     },
@@ -55847,21 +55852,6 @@
     },
     {
       "type": "way",
-      "id": 812589088,
-      "timestamp": "2020-06-03T15:22:13Z",
-      "version": 1,
-      "changeset": 86143242,
-      "user": "dudigolani",
-      "uid": 10984507,
-      "nodes": [3481478300, 328297574],
-      "geometry": [
-        {"lat": 31.470881, "lon": 34.52616},
-        {"lat": 31.4712939, "lon": 34.5257111}
-      ],
-      "tags": {"highway": "track"}
-    },
-    {
-      "type": "way",
       "id": 812589089,
       "timestamp": "2020-06-03T15:22:13Z",
       "version": 1,
@@ -56114,15 +56104,14 @@
     {
       "type": "way",
       "id": 812589103,
-      "timestamp": "2021-12-09T18:29:47Z",
-      "version": 3,
-      "changeset": 114755264,
+      "timestamp": "2022-08-12T11:32:47Z",
+      "version": 4,
+      "changeset": 124814622,
       "user": "Maki869",
       "uid": 11964496,
       "nodes": [2353670080, 603771502],
       "geometry": [
         {"lat": 31.5060937, "lon": 34.5502165},
-        {"lat": 31.5061791, "lon": 34.5524558},
         {"lat": 31.5061868, "lon": 34.5526577},
         {"lat": 31.5061961, "lon": 34.5529016},
         {"lat": 31.5062433, "lon": 34.5541297},
@@ -58310,11 +58299,11 @@
     {
       "type": "way",
       "id": 813818987,
-      "timestamp": "2020-09-14T08:29:48Z",
-      "version": 2,
-      "changeset": 90850383,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-08-12T12:50:38Z",
+      "version": 3,
+      "changeset": 124817512,
+      "user": "Itzik Arzoni",
+      "uid": 5685982,
       "nodes": [351210200, 2872818852],
       "geometry": [
         {"lat": 31.8177117, "lon": 35.0261763},
@@ -58336,7 +58325,12 @@
         {"lat": 31.817382, "lon": 35.0308176},
         {"lat": 31.8173296, "lon": 35.0307881}
       ],
-      "tags": {"colour": "red", "highway": "track", "tracktype": "grade2"}
+      "tags": {
+        "colour": "red",
+        "highway": "track",
+        "surface": "dirt",
+        "tracktype": "grade2"
+      }
     },
     {
       "type": "way",
@@ -69930,11 +69924,11 @@
     {
       "type": "way",
       "id": 88298963,
-      "timestamp": "2020-04-09T14:30:42Z",
-      "version": 7,
-      "changeset": 83314714,
-      "user": "valleyofdawn",
-      "uid": 356970,
+      "timestamp": "2022-08-12T12:50:52Z",
+      "version": 8,
+      "changeset": 124817512,
+      "user": "Itzik Arzoni",
+      "uid": 5685982,
       "nodes": [432263031, 1005252134],
       "geometry": [
         {"lat": 31.8183086, "lon": 35.0250726},
@@ -69975,6 +69969,7 @@
         "colour": "black",
         "highway": "track",
         "source": "GPS",
+        "surface": "dirt",
         "tracktype": "grade2"
       }
     },
