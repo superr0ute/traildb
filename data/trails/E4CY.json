@@ -1,12 +1,12 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-08-12T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-14T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 157354,
-      "timestamp": "2022-08-11T06:50:57Z",
-      "version": 208,
-      "changeset": 124760086,
+      "timestamp": "2022-08-14T07:14:11Z",
+      "version": 209,
+      "changeset": 124876210,
       "user": "mboesch",
       "uid": 148698,
       "members": [
@@ -513,6 +513,8 @@
         {"type": "way", "ref": 43846573, "role": ""},
         {"type": "way", "ref": 82226260, "role": ""},
         {"type": "way", "ref": 23110224, "role": ""},
+        {"type": "way", "ref": 1086139526, "role": ""},
+        {"type": "way", "ref": 1086139528, "role": ""},
         {"type": "way", "ref": 4044179, "role": ""},
         {"type": "way", "ref": 4044178, "role": ""},
         {"type": "way", "ref": 396757020, "role": ""},
@@ -1867,6 +1869,56 @@
     },
     {
       "type": "way",
+      "id": 1086139526,
+      "timestamp": "2022-08-14T07:14:11Z",
+      "version": 1,
+      "changeset": 124876210,
+      "user": "mboesch",
+      "uid": 148698,
+      "nodes": [21422538, 249498788],
+      "geometry": [
+        {"lat": 35.00271, "lon": 34.0418064},
+        {"lat": 35.0024776, "lon": 34.0415304},
+        {"lat": 35.0022625, "lon": 34.0413187},
+        {"lat": 35.0020481, "lon": 34.0408972},
+        {"lat": 35.0018999, "lon": 34.0403017},
+        {"lat": 35.0018654, "lon": 34.0400031},
+        {"lat": 35.0017692, "lon": 34.0394898},
+        {"lat": 35.0017135, "lon": 34.0393104},
+        {"lat": 35.0011749, "lon": 34.0383828},
+        {"lat": 35.001017, "lon": 34.0381974},
+        {"lat": 35.0007363, "lon": 34.0379924},
+        {"lat": 35.0002478, "lon": 34.0375972},
+        {"lat": 35.0001149, "lon": 34.0375045},
+        {"lat": 34.9999519, "lon": 34.0374317},
+        {"lat": 34.9997073, "lon": 34.0372984},
+        {"lat": 34.9994096, "lon": 34.0370749},
+        {"lat": 34.9992224, "lon": 34.0368896},
+        {"lat": 34.9989342, "lon": 34.036658}
+      ],
+      "tags": {"highway": "unclassified", "surface": "unpaved"}
+    },
+    {
+      "type": "way",
+      "id": 1086139528,
+      "timestamp": "2022-08-14T07:14:11Z",
+      "version": 1,
+      "changeset": 124876210,
+      "user": "mboesch",
+      "uid": 148698,
+      "nodes": [950314116, 21422538],
+      "geometry": [
+        {"lat": 35.0028276, "lon": 34.0427368},
+        {"lat": 35.0028512, "lon": 34.0425814},
+        {"lat": 35.0028678, "lon": 34.0424006},
+        {"lat": 35.0028512, "lon": 34.0421809},
+        {"lat": 35.0027986, "lon": 34.0419917},
+        {"lat": 35.00271, "lon": 34.0418064}
+      ],
+      "tags": {"highway": "unclassified", "surface": "unpaved"}
+    },
+    {
+      "type": "way",
       "id": 116952095,
       "timestamp": "2013-11-29T14:26:04Z",
       "version": 4,
@@ -2588,11 +2640,11 @@
     {
       "type": "way",
       "id": 137718024,
-      "timestamp": "2022-08-08T12:53:59Z",
-      "version": 8,
-      "changeset": 124639276,
-      "user": "juhanjuku",
-      "uid": 152305,
+      "timestamp": "2022-08-14T14:36:32Z",
+      "version": 9,
+      "changeset": 124890460,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [1510243688, 3184822528],
       "geometry": [
         {"lat": 34.9148575, "lon": 32.8704995},
@@ -2695,6 +2747,7 @@
       "tags": {
         "highway": "track",
         "name": "E4",
+        "surface": "fine_gravel",
         "tracktype": "grade2",
         "width": "4"
       }
@@ -15119,11 +15172,11 @@
     {
       "type": "way",
       "id": 249953987,
-      "timestamp": "2014-11-12T19:06:58Z",
-      "version": 4,
-      "changeset": 26741988,
-      "user": "dcp",
-      "uid": 44221,
+      "timestamp": "2022-08-14T14:36:43Z",
+      "version": 5,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [1510243688, 29354273],
       "geometry": [
         {"lat": 34.9148575, "lon": 32.8704995},
@@ -15142,7 +15195,8 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "dirt"
       }
     },
     {
@@ -16415,11 +16469,11 @@
     {
       "type": "way",
       "id": 312080348,
-      "timestamp": "2014-11-13T16:55:24Z",
-      "version": 2,
-      "changeset": 26759878,
-      "user": "dcp",
-      "uid": 44221,
+      "timestamp": "2022-08-14T14:37:21Z",
+      "version": 3,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [3158448667, 310732686],
       "geometry": [
         {"lat": 34.9026959, "lon": 32.8699428},
@@ -16429,17 +16483,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "dirt"
       }
     },
     {
       "type": "way",
       "id": 312472965,
-      "timestamp": "2018-09-28T14:02:32Z",
-      "version": 2,
-      "changeset": 63010185,
-      "user": "dudone",
-      "uid": 607648,
+      "timestamp": "2022-08-14T14:37:04Z",
+      "version": 3,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [29354541, 29354562],
       "geometry": [
         {"lat": 34.9083743, "lon": 32.8681557},
@@ -16455,17 +16510,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "dirt"
       }
     },
     {
       "type": "way",
       "id": 312472967,
-      "timestamp": "2018-09-28T14:02:32Z",
-      "version": 2,
-      "changeset": 63010185,
-      "user": "dudone",
-      "uid": 607648,
+      "timestamp": "2022-08-14T14:37:05Z",
+      "version": 3,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [29354598, 29354646],
       "geometry": [
         {"lat": 34.9074977, "lon": 32.8679359},
@@ -16488,17 +16544,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "dirt"
       }
     },
     {
       "type": "way",
       "id": 312472970,
-      "timestamp": "2018-09-28T14:02:32Z",
-      "version": 2,
-      "changeset": 63010185,
-      "user": "dudone",
-      "uid": 607648,
+      "timestamp": "2022-08-14T14:36:49Z",
+      "version": 3,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [29354338, 29354451],
       "geometry": [
         {"lat": 34.9104179, "lon": 32.8695366},
@@ -16515,17 +16572,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "dirt"
       }
     },
     {
       "type": "way",
       "id": 312472971,
-      "timestamp": "2014-11-12T19:06:56Z",
-      "version": 1,
-      "changeset": 26741988,
-      "user": "dcp",
-      "uid": 44221,
+      "timestamp": "2022-08-14T14:37:07Z",
+      "version": 3,
+      "changeset": 124890488,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [29354646, 29354650],
       "geometry": [
         {"lat": 34.9054162, "lon": 32.8685929},
@@ -16533,20 +16591,22 @@
       ],
       "tags": {
         "bicycle": "no",
+        "handrail": "no",
         "highway": "steps",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "ramp": "no"
       }
     },
     {
       "type": "way",
       "id": 312472972,
-      "timestamp": "2014-11-12T19:06:56Z",
-      "version": 1,
-      "changeset": 26741988,
-      "user": "dcp",
-      "uid": 44221,
+      "timestamp": "2022-08-14T14:37:09Z",
+      "version": 2,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [3183282924, 29354676],
       "geometry": [
         {"lat": 34.9037456, "lon": 32.869492},
@@ -16558,17 +16618,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "wood"
       }
     },
     {
       "type": "way",
       "id": 312472974,
-      "timestamp": "2014-11-12T19:06:57Z",
-      "version": 1,
-      "changeset": 26741988,
-      "user": "dcp",
-      "uid": 44221,
+      "timestamp": "2022-08-14T14:37:08Z",
+      "version": 2,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [3183282925, 3183282924],
       "geometry": [
         {"lat": 34.9038011, "lon": 32.8694259},
@@ -16579,17 +16640,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "dirt"
       }
     },
     {
       "type": "way",
       "id": 312472975,
-      "timestamp": "2014-11-12T19:06:57Z",
-      "version": 1,
-      "changeset": 26741988,
-      "user": "dcp",
-      "uid": 44221,
+      "timestamp": "2022-08-14T14:37:11Z",
+      "version": 2,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [3183282922, 29354688],
       "geometry": [
         {"lat": 34.9031721, "lon": 32.8696766},
@@ -16600,17 +16662,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "dirt"
       }
     },
     {
       "type": "way",
       "id": 312472977,
-      "timestamp": "2014-11-12T19:06:57Z",
-      "version": 1,
-      "changeset": 26741988,
-      "user": "dcp",
-      "uid": 44221,
+      "timestamp": "2022-08-14T14:36:44Z",
+      "version": 2,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [29354282, 29354288],
       "geometry": [
         {"lat": 34.9124951, "lon": 32.869325},
@@ -16621,17 +16684,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "dirt"
       }
     },
     {
       "type": "way",
       "id": 312472978,
-      "timestamp": "2014-11-12T19:06:57Z",
-      "version": 1,
-      "changeset": 26741988,
-      "user": "dcp",
-      "uid": 44221,
+      "timestamp": "2022-08-14T14:36:48Z",
+      "version": 2,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [3158448719, 29354338],
       "geometry": [
         {"lat": 34.9104893, "lon": 32.8694227},
@@ -16643,17 +16707,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "wood"
       }
     },
     {
       "type": "way",
       "id": 312472979,
-      "timestamp": "2014-11-12T19:06:57Z",
-      "version": 1,
-      "changeset": 26741988,
-      "user": "dcp",
-      "uid": 44221,
+      "timestamp": "2022-08-14T14:37:08Z",
+      "version": 2,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [29354672, 3183282925],
       "geometry": [
         {"lat": 34.903831, "lon": 32.8693266},
@@ -16665,17 +16730,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "wood"
       }
     },
     {
       "type": "way",
       "id": 312472980,
-      "timestamp": "2014-11-12T19:06:57Z",
-      "version": 1,
-      "changeset": 26741988,
-      "user": "dcp",
-      "uid": 44221,
+      "timestamp": "2022-08-14T14:37:11Z",
+      "version": 2,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [29354685, 3183282922],
       "geometry": [
         {"lat": 34.9032807, "lon": 32.8697123},
@@ -16687,17 +16753,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "wood"
       }
     },
     {
       "type": "way",
       "id": 312472981,
-      "timestamp": "2014-11-12T19:06:57Z",
-      "version": 1,
-      "changeset": 26741988,
-      "user": "dcp",
-      "uid": 44221,
+      "timestamp": "2022-08-14T14:37:04Z",
+      "version": 2,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [29354562, 29354598],
       "geometry": [
         {"lat": 34.9075184, "lon": 32.8680192},
@@ -16709,17 +16776,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "wood"
       }
     },
     {
       "type": "way",
       "id": 312472982,
-      "timestamp": "2014-11-12T19:06:57Z",
-      "version": 1,
-      "changeset": 26741988,
-      "user": "dcp",
-      "uid": 44221,
+      "timestamp": "2022-08-14T14:36:43Z",
+      "version": 2,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [29354273, 29354282],
       "geometry": [
         {"lat": 34.9125697, "lon": 32.8694114},
@@ -16731,17 +16799,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "wood"
       }
     },
     {
       "type": "way",
       "id": 312472983,
-      "timestamp": "2018-09-28T14:02:33Z",
-      "version": 2,
-      "changeset": 63010185,
-      "user": "dudone",
-      "uid": 607648,
+      "timestamp": "2022-08-14T14:36:45Z",
+      "version": 3,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [29354288, 3158448690],
       "geometry": [
         {"lat": 34.9120652, "lon": 32.8693249},
@@ -16753,17 +16822,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "wood"
       }
     },
     {
       "type": "way",
       "id": 312472984,
-      "timestamp": "2018-09-28T14:02:33Z",
-      "version": 2,
-      "changeset": 63010185,
-      "user": "dudone",
-      "uid": 607648,
+      "timestamp": "2022-08-14T14:36:55Z",
+      "version": 6,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [29354451, 29354459],
       "geometry": [
         {"lat": 34.9095943, "lon": 32.8690392},
@@ -16773,20 +16843,24 @@
       ],
       "tags": {
         "bicycle": "no",
+        "handrail": "yes",
         "highway": "steps",
+        "incline": "down",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "ramp": "no",
+        "surface": "paving_stones"
       }
     },
     {
       "type": "way",
       "id": 312472985,
-      "timestamp": "2014-11-12T19:06:57Z",
-      "version": 1,
-      "changeset": 26741988,
-      "user": "dcp",
-      "uid": 44221,
+      "timestamp": "2022-08-14T14:37:10Z",
+      "version": 2,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [29354676, 29354685],
       "geometry": [
         {"lat": 34.9036929, "lon": 32.8695532},
@@ -16799,17 +16873,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "paving_stones"
       }
     },
     {
       "type": "way",
       "id": 312472986,
-      "timestamp": "2014-11-12T19:06:57Z",
-      "version": 1,
-      "changeset": 26741988,
-      "user": "dcp",
-      "uid": 44221,
+      "timestamp": "2022-08-14T14:37:06Z",
+      "version": 2,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [29354650, 29354672],
       "geometry": [
         {"lat": 34.905244, "lon": 32.8687267},
@@ -16825,17 +16900,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "dirt"
       }
     },
     {
       "type": "way",
       "id": 312472987,
-      "timestamp": "2014-11-12T19:06:58Z",
-      "version": 1,
-      "changeset": 26741988,
-      "user": "dcp",
-      "uid": 44221,
+      "timestamp": "2022-08-14T14:36:56Z",
+      "version": 2,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [29354459, 29354513],
       "geometry": [
         {"lat": 34.9095834, "lon": 32.8687792},
@@ -16852,17 +16928,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "dirt"
       }
     },
     {
       "type": "way",
       "id": 312472988,
-      "timestamp": "2018-09-28T14:02:33Z",
-      "version": 2,
-      "changeset": 63010185,
-      "user": "dudone",
-      "uid": 607648,
+      "timestamp": "2022-08-14T14:36:47Z",
+      "version": 3,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [29354298, 3158448719],
       "geometry": [
         {"lat": 34.9117398, "lon": 32.8692278},
@@ -16878,7 +16955,8 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "dirt"
       }
     },
     {
@@ -21438,12 +21516,12 @@
     {
       "type": "way",
       "id": 4044179,
-      "timestamp": "2018-12-28T12:07:22Z",
-      "version": 13,
-      "changeset": 65838829,
-      "user": "Hons084",
-      "uid": 976599,
-      "nodes": [21422514, 249498788],
+      "timestamp": "2022-08-14T07:14:11Z",
+      "version": 14,
+      "changeset": 124876210,
+      "user": "mboesch",
+      "uid": 148698,
+      "nodes": [21422514, 950314116],
       "geometry": [
         {"lat": 34.9905515, "lon": 34.0602308},
         {"lat": 34.9909051, "lon": 34.0596298},
@@ -21541,29 +21619,7 @@
         {"lat": 35.002447, "lon": 34.0430393},
         {"lat": 35.0026795, "lon": 34.0429125},
         {"lat": 35.002764, "lon": 34.0428399},
-        {"lat": 35.0028276, "lon": 34.0427368},
-        {"lat": 35.0028512, "lon": 34.0425814},
-        {"lat": 35.0028678, "lon": 34.0424006},
-        {"lat": 35.0028512, "lon": 34.0421809},
-        {"lat": 35.0027986, "lon": 34.0419917},
-        {"lat": 35.0026363, "lon": 34.0417535},
-        {"lat": 35.0024776, "lon": 34.0415304},
-        {"lat": 35.0022625, "lon": 34.0413187},
-        {"lat": 35.0020481, "lon": 34.0408972},
-        {"lat": 35.0018999, "lon": 34.0403017},
-        {"lat": 35.0018654, "lon": 34.0400031},
-        {"lat": 35.0017692, "lon": 34.0394898},
-        {"lat": 35.0017135, "lon": 34.0393104},
-        {"lat": 35.0011749, "lon": 34.0383828},
-        {"lat": 35.001017, "lon": 34.0381974},
-        {"lat": 35.0007363, "lon": 34.0379924},
-        {"lat": 35.0002478, "lon": 34.0375972},
-        {"lat": 35.0001149, "lon": 34.0375045},
-        {"lat": 34.9999519, "lon": 34.0374317},
-        {"lat": 34.9997073, "lon": 34.0372984},
-        {"lat": 34.9994096, "lon": 34.0370749},
-        {"lat": 34.9992224, "lon": 34.0368896},
-        {"lat": 34.9989342, "lon": 34.036658}
+        {"lat": 35.0028276, "lon": 34.0427368}
       ],
       "tags": {"highway": "unclassified", "surface": "unpaved"}
     },
@@ -23744,11 +23800,11 @@
     {
       "type": "way",
       "id": 628809927,
-      "timestamp": "2018-09-28T14:02:25Z",
-      "version": 1,
-      "changeset": 63010185,
-      "user": "dudone",
-      "uid": 607648,
+      "timestamp": "2022-08-14T14:36:46Z",
+      "version": 2,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [5936900115, 29354298],
       "geometry": [
         {"lat": 34.9117407, "lon": 32.8693476},
@@ -23760,17 +23816,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "wood"
       }
     },
     {
       "type": "way",
       "id": 628809928,
-      "timestamp": "2018-09-28T14:02:25Z",
-      "version": 1,
-      "changeset": 63010185,
-      "user": "dudone",
-      "uid": 607648,
+      "timestamp": "2022-08-14T14:36:46Z",
+      "version": 2,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [3158448690, 5936900115],
       "geometry": [
         {"lat": 34.9120226, "lon": 32.8693945},
@@ -23781,17 +23838,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "wood"
       }
     },
     {
       "type": "way",
       "id": 628809930,
-      "timestamp": "2018-09-28T14:02:25Z",
-      "version": 1,
-      "changeset": 63010185,
-      "user": "dudone",
-      "uid": 607648,
+      "timestamp": "2022-08-14T14:36:59Z",
+      "version": 2,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [29354534, 29354537],
       "geometry": [
         {"lat": 34.9087561, "lon": 32.8681918},
@@ -23802,17 +23860,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "rock"
       }
     },
     {
       "type": "way",
       "id": 628809933,
-      "timestamp": "2018-09-28T14:02:25Z",
-      "version": 1,
-      "changeset": 63010185,
-      "user": "dudone",
-      "uid": 607648,
+      "timestamp": "2022-08-14T14:36:57Z",
+      "version": 2,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [29354530, 29354534],
       "geometry": [
         {"lat": 34.9088227, "lon": 32.8681449},
@@ -23824,17 +23883,18 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "wood"
       }
     },
     {
       "type": "way",
       "id": 628809934,
-      "timestamp": "2018-09-28T14:02:25Z",
-      "version": 1,
-      "changeset": 63010185,
-      "user": "dudone",
-      "uid": 607648,
+      "timestamp": "2022-08-14T14:37:03Z",
+      "version": 7,
+      "changeset": 124890497,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [29354537, 29354541],
       "geometry": [
         {"lat": 34.9085509, "lon": 32.8682051},
@@ -23842,20 +23902,26 @@
       ],
       "tags": {
         "bicycle": "no",
+        "handrail": "no",
         "highway": "steps",
+        "incline": "down",
+        "lit": "no",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "ramp": "no",
+        "step_count": "13",
+        "surface": "dirt"
       }
     },
     {
       "type": "way",
       "id": 628809935,
-      "timestamp": "2018-09-28T14:02:26Z",
-      "version": 1,
-      "changeset": 63010185,
-      "user": "dudone",
-      "uid": 607648,
+      "timestamp": "2022-08-14T14:36:58Z",
+      "version": 2,
+      "changeset": 124890469,
+      "user": "Oisín",
+      "uid": 57844,
       "nodes": [29354513, 29354530],
       "geometry": [
         {"lat": 34.9089444, "lon": 32.8681446},
@@ -23867,7 +23933,8 @@
         "highway": "path",
         "name": "Kaledonia trail",
         "name:en": "Kaledonia trail",
-        "name:lt": "Kaledonijos takas"
+        "name:lt": "Kaledonijos takas",
+        "surface": "dirt"
       }
     },
     {
