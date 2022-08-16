@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-08-09T03:47:49Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-16T03:49:34Z"},
   "elements": [
     {
       "type": "relation",
@@ -942,8 +942,8 @@
         {"lat": 28.7241158, "lon": -13.8768459, "z": 45.6},
         {"lat": 28.7240442, "lon": -13.8768649, "z": 45.9},
         {"lat": 28.7239567, "lon": -13.8769083, "z": 46.3},
-        {"lat": 28.7239031, "lon": -13.877045, "z": 47},
-        {"lat": 28.7237506, "lon": -13.877743, "z": 50.5},
+        {"lat": 28.7239186, "lon": -13.877068, "z": 47.1},
+        {"lat": 28.7237972, "lon": -13.8777501, "z": 50.5},
         {"lat": 28.7236426, "lon": -13.8784911, "z": 53.8},
         {"lat": 28.7233406, "lon": -13.8799076, "z": 62},
         {"lat": 28.7232616, "lon": -13.8802594, "z": 64.9}
@@ -5842,11 +5842,11 @@
     {
       "type": "way",
       "id": 249400319,
-      "timestamp": "2013-12-01T16:34:53Z",
-      "version": 1,
-      "changeset": 19214026,
-      "user": "Traildino",
-      "uid": 716637,
+      "timestamp": "2022-08-15T13:37:03Z",
+      "version": 3,
+      "changeset": 124928861,
+      "user": "corna",
+      "uid": 3824817,
       "nodes": [367897079, 334344007],
       "geometry": [
         {"lat": 28.0495886, "lon": -14.3526174, "z": 12.2},
@@ -5855,7 +5855,9 @@
       "tags": {
         "foot": "yes",
         "highway": "footway",
-        "name": "Peatonal El Balandro"
+        "lit": "yes",
+        "name": "Peatonal El Balandro",
+        "surface": "paving_stones"
       }
     },
     {
@@ -6808,11 +6810,11 @@
     {
       "type": "way",
       "id": 30323407,
-      "timestamp": "2021-10-21T19:56:00Z",
-      "version": 4,
-      "changeset": 112808543,
-      "user": "korni",
-      "uid": 526156,
+      "timestamp": "2022-08-15T13:35:05Z",
+      "version": 6,
+      "changeset": 124928861,
+      "user": "corna",
+      "uid": 3824817,
       "nodes": [332426186, 334344007],
       "geometry": [
         {"lat": 28.0495567, "lon": -14.3520748, "z": 9.3},
@@ -6822,7 +6824,12 @@
         {"lat": 28.0494964, "lon": -14.3525058, "z": 11.3},
         {"lat": 28.0494644, "lon": -14.3525906, "z": 11.6}
       ],
-      "tags": {"foot": "designated", "highway": "footway"}
+      "tags": {
+        "foot": "designated",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "paving_stones"
+      }
     },
     {
       "type": "way",

@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-08-14T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-15T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -2924,9 +2924,9 @@
     {
       "type": "relation",
       "id": 7704541,
-      "timestamp": "2022-08-14T09:30:58Z",
-      "version": 30,
-      "changeset": 124879927,
+      "timestamp": "2022-08-15T09:34:54Z",
+      "version": 31,
+      "changeset": 124919038,
       "user": "gmarzio",
       "uid": 107284,
       "members": [
@@ -2965,6 +2965,7 @@
         {"type": "way", "ref": 286797146, "role": ""},
         {"type": "way", "ref": 286797142, "role": ""},
         {"type": "way", "ref": 286797151, "role": ""},
+        {"type": "way", "ref": 1086378897, "role": ""},
         {"type": "way", "ref": 286797148, "role": ""},
         {"type": "way", "ref": 537834792, "role": ""},
         {"type": "way", "ref": 537834791, "role": ""},
@@ -4533,9 +4534,9 @@
     {
       "type": "way",
       "id": 1004256810,
-      "timestamp": "2022-08-12T18:51:54Z",
-      "version": 2,
-      "changeset": 124830388,
+      "timestamp": "2022-08-15T20:09:09Z",
+      "version": 3,
+      "changeset": 124944044,
       "user": "gmarzio",
       "uid": 107284,
       "nodes": [1376709337, 761202086],
@@ -4544,7 +4545,7 @@
         {"lat": 46.5246392, "lon": 10.1344331},
         {"lat": 46.5249952, "lon": 10.1345709}
       ],
-      "tags": {"bicycle": "yes", "highway": "track", "name": "N100"}
+      "tags": {"bicycle": "yes", "highway": "track", "name": "100"}
     },
     {
       "type": "way",
@@ -9563,9 +9564,9 @@
     {
       "type": "way",
       "id": 1085858933,
-      "timestamp": "2022-08-12T18:51:54Z",
-      "version": 2,
-      "changeset": 124830388,
+      "timestamp": "2022-08-15T20:09:09Z",
+      "version": 3,
+      "changeset": 124944044,
       "user": "gmarzio",
       "uid": 107284,
       "nodes": [1935722697, 1935722699],
@@ -9573,7 +9574,7 @@
         {"lat": 46.5097295, "lon": 10.1279529},
         {"lat": 46.5098893, "lon": 10.1280521}
       ],
-      "tags": {"highway": "path", "incline": "down", "name": "N100"}
+      "tags": {"highway": "path", "incline": "down", "name": "100"}
     },
     {
       "type": "way",
@@ -10545,6 +10546,24 @@
         {"lat": 46.215375, "lon": 10.1683429}
       ],
       "tags": {"highway": "residential", "name": "Via Roma", "oneway": "yes"}
+    },
+    {
+      "type": "way",
+      "id": 1086378897,
+      "timestamp": "2022-08-15T09:34:54Z",
+      "version": 1,
+      "changeset": 124919038,
+      "user": "gmarzio",
+      "uid": 107284,
+      "nodes": [2904681884, 2904684553],
+      "geometry": [
+        {"lat": 46.2186257, "lon": 10.1537811},
+        {"lat": 46.2184902, "lon": 10.1537676},
+        {"lat": 46.218132, "lon": 10.1537516},
+        {"lat": 46.2178462, "lon": 10.1537328},
+        {"lat": 46.2176659, "lon": 10.1537235}
+      ],
+      "tags": {"highway": "footway"}
     },
     {
       "type": "way",
@@ -12754,9 +12773,9 @@
     {
       "type": "way",
       "id": 124251475,
-      "timestamp": "2022-08-12T18:51:54Z",
-      "version": 4,
-      "changeset": 124830388,
+      "timestamp": "2022-08-15T20:09:09Z",
+      "version": 5,
+      "changeset": 124944044,
       "user": "gmarzio",
       "uid": 107284,
       "nodes": [1383409514, 1376709337],
@@ -12765,14 +12784,14 @@
         {"lat": 46.5244859, "lon": 10.1342753},
         {"lat": 46.5245466, "lon": 10.1343378}
       ],
-      "tags": {"bicycle": "yes", "highway": "track", "name": "N100"}
+      "tags": {"bicycle": "yes", "highway": "track", "name": "100"}
     },
     {
       "type": "way",
       "id": 124251476,
-      "timestamp": "2022-08-12T18:51:54Z",
-      "version": 2,
-      "changeset": 124830388,
+      "timestamp": "2022-08-15T20:09:09Z",
+      "version": 3,
+      "changeset": 124944044,
       "user": "gmarzio",
       "uid": 107284,
       "nodes": [1383409505, 1383409514],
@@ -12785,7 +12804,7 @@
         "bridge": "yes",
         "highway": "track",
         "layer": "1",
-        "name": "N100"
+        "name": "100"
       }
     },
     {
@@ -23052,9 +23071,9 @@
     {
       "type": "way",
       "id": 175228859,
-      "timestamp": "2022-08-12T18:51:54Z",
-      "version": 4,
-      "changeset": 124830388,
+      "timestamp": "2022-08-15T20:09:09Z",
+      "version": 5,
+      "changeset": 124944044,
       "user": "gmarzio",
       "uid": 107284,
       "nodes": [761202086, 761202076],
@@ -23076,7 +23095,7 @@
       "tags": {
         "bicycle": "yes",
         "highway": "track",
-        "name": "N100",
+        "name": "100",
         "surface": "asphalt",
         "tracktype": "grade1"
       }
@@ -23231,9 +23250,9 @@
     {
       "type": "way",
       "id": 175569487,
-      "timestamp": "2022-08-12T18:51:54Z",
-      "version": 2,
-      "changeset": 124830388,
+      "timestamp": "2022-08-15T20:09:09Z",
+      "version": 3,
+      "changeset": 124944044,
       "user": "gmarzio",
       "uid": 107284,
       "nodes": [751512803, 1376709415],
@@ -23254,7 +23273,7 @@
         "bicycle": "yes",
         "foot": "yes",
         "highway": "track",
-        "name": "N100"
+        "name": "100"
       }
     },
     {
@@ -31459,9 +31478,9 @@
     {
       "type": "way",
       "id": 233886222,
-      "timestamp": "2022-08-12T18:51:54Z",
-      "version": 6,
-      "changeset": 124830388,
+      "timestamp": "2022-08-15T20:09:09Z",
+      "version": 7,
+      "changeset": 124944044,
       "user": "gmarzio",
       "uid": 107284,
       "nodes": [1935722697, 592280274],
@@ -31508,7 +31527,7 @@
         "foot": "yes",
         "highway": "path",
         "mtb:scale": "1",
-        "name": "N100"
+        "name": "100"
       }
     },
     {
@@ -41600,12 +41619,12 @@
     {
       "type": "way",
       "id": 286797148,
-      "timestamp": "2019-09-06T18:17:14Z",
-      "version": 3,
-      "changeset": 74188969,
-      "user": "Axel Mauruszat",
-      "uid": 171055,
-      "nodes": [2904684656, 2904684553],
+      "timestamp": "2022-08-15T09:34:54Z",
+      "version": 4,
+      "changeset": 124919038,
+      "user": "gmarzio",
+      "uid": 107284,
+      "nodes": [2904684656, 2904681884],
       "geometry": [
         {"lat": 46.2179872, "lon": 10.1548307},
         {"lat": 46.218197, "lon": 10.154693},
@@ -41617,11 +41636,7 @@
         {"lat": 46.2183844, "lon": 10.1540198},
         {"lat": 46.2185032, "lon": 10.1539313},
         {"lat": 46.218583, "lon": 10.1538562},
-        {"lat": 46.2186257, "lon": 10.1537811},
-        {"lat": 46.2184902, "lon": 10.1537676},
-        {"lat": 46.218132, "lon": 10.1537516},
-        {"lat": 46.2178462, "lon": 10.1537328},
-        {"lat": 46.2176659, "lon": 10.1537235}
+        {"lat": 46.2186257, "lon": 10.1537811}
       ],
       "tags": {"highway": "footway"}
     },
@@ -59473,9 +59488,9 @@
     {
       "type": "way",
       "id": 37801201,
-      "timestamp": "2022-08-12T18:51:54Z",
-      "version": 12,
-      "changeset": 124830388,
+      "timestamp": "2022-08-15T20:09:09Z",
+      "version": 13,
+      "changeset": 124944044,
       "user": "gmarzio",
       "uid": 107284,
       "nodes": [292358729, 500840139],
@@ -59506,7 +59521,7 @@
         {"lat": 46.5287675, "lon": 10.1367271},
         {"lat": 46.5287181, "lon": 10.1367304}
       ],
-      "tags": {"highway": "residential", "name": "N100"}
+      "tags": {"highway": "residential", "name": "100"}
     },
     {
       "type": "way",
@@ -69679,9 +69694,9 @@
     {
       "type": "way",
       "id": 46345715,
-      "timestamp": "2022-08-12T18:51:54Z",
-      "version": 13,
-      "changeset": 124830388,
+      "timestamp": "2022-08-15T20:09:09Z",
+      "version": 14,
+      "changeset": 124944044,
       "user": "gmarzio",
       "uid": 107284,
       "nodes": [2422057465, 1383409505],
@@ -69718,7 +69733,7 @@
         "foot": "yes",
         "highway": "path",
         "mtb:scale": "0",
-        "name": "N100"
+        "name": "100"
       }
     },
     {
@@ -70790,9 +70805,9 @@
     {
       "type": "way",
       "id": 472150709,
-      "timestamp": "2022-08-12T18:51:54Z",
-      "version": 3,
-      "changeset": 124830388,
+      "timestamp": "2022-08-15T20:09:09Z",
+      "version": 4,
+      "changeset": 124944044,
       "user": "gmarzio",
       "uid": 107284,
       "nodes": [500840139, 80116039],
@@ -70812,7 +70827,7 @@
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
-        "name": "N100",
+        "name": "100",
         "nat_ref": "SS301",
         "ref": "SS301",
         "sidewalk": "none",
@@ -75482,9 +75497,9 @@
     {
       "type": "way",
       "id": 534591171,
-      "timestamp": "2022-08-12T18:51:54Z",
-      "version": 3,
-      "changeset": 124830388,
+      "timestamp": "2022-08-15T20:09:09Z",
+      "version": 4,
+      "changeset": 124944044,
       "user": "gmarzio",
       "uid": 107284,
       "nodes": [1935722699, 2422057465],
@@ -75496,7 +75511,7 @@
         {"lat": 46.510988, "lon": 10.1282455},
         {"lat": 46.5111684, "lon": 10.1282698}
       ],
-      "tags": {"highway": "path", "incline": "down", "name": "N100"}
+      "tags": {"highway": "path", "incline": "down", "name": "100"}
     },
     {
       "type": "way",
@@ -78849,9 +78864,9 @@
     {
       "type": "way",
       "id": 537927485,
-      "timestamp": "2022-08-12T18:51:54Z",
-      "version": 2,
-      "changeset": 124830388,
+      "timestamp": "2022-08-15T20:09:09Z",
+      "version": 3,
+      "changeset": 124944044,
       "user": "gmarzio",
       "uid": 107284,
       "nodes": [292358718, 292358729],
@@ -78860,14 +78875,14 @@
         {"lat": 46.53419, "lon": 10.1421076},
         {"lat": 46.5340428, "lon": 10.1421073}
       ],
-      "tags": {"highway": "residential", "name": "N100"}
+      "tags": {"highway": "residential", "name": "100"}
     },
     {
       "type": "way",
       "id": 537927487,
-      "timestamp": "2022-08-12T18:51:54Z",
-      "version": 3,
-      "changeset": 124830388,
+      "timestamp": "2022-08-15T20:09:09Z",
+      "version": 4,
+      "changeset": 124944044,
       "user": "gmarzio",
       "uid": 107284,
       "nodes": [80116039, 761202076],
@@ -78883,7 +78898,7 @@
         "highway": "tertiary",
         "lanes": "2",
         "maxspeed": "50",
-        "name": "N100"
+        "name": "100"
       }
     },
     {
@@ -87295,9 +87310,9 @@
     {
       "type": "way",
       "id": 636203663,
-      "timestamp": "2022-08-12T18:51:54Z",
-      "version": 3,
-      "changeset": 124830388,
+      "timestamp": "2022-08-15T20:09:09Z",
+      "version": 4,
+      "changeset": 124944044,
       "user": "gmarzio",
       "uid": 107284,
       "nodes": [751512859, 751512803],
@@ -87310,14 +87325,14 @@
         {"lat": 46.5359712, "lon": 10.1428465},
         {"lat": 46.5359835, "lon": 10.1428577}
       ],
-      "tags": {"highway": "unclassified", "name": "N100"}
+      "tags": {"highway": "unclassified", "name": "100"}
     },
     {
       "type": "way",
       "id": 636203664,
-      "timestamp": "2022-08-12T18:51:54Z",
-      "version": 2,
-      "changeset": 124830388,
+      "timestamp": "2022-08-15T20:09:09Z",
+      "version": 3,
+      "changeset": 124944044,
       "user": "gmarzio",
       "uid": 107284,
       "nodes": [751513128, 292358718],
@@ -87337,15 +87352,15 @@
         "highway": "path",
         "mtb:scale": "2",
         "mtb:scale:uphill": "3",
-        "name": "N100"
+        "name": "100"
       }
     },
     {
       "type": "way",
       "id": 636203665,
-      "timestamp": "2022-08-12T18:51:54Z",
-      "version": 2,
-      "changeset": 124830388,
+      "timestamp": "2022-08-15T20:09:09Z",
+      "version": 3,
+      "changeset": 124944044,
       "user": "gmarzio",
       "uid": 107284,
       "nodes": [751513128, 751512859],
@@ -87353,7 +87368,7 @@
         {"lat": 46.5354698, "lon": 10.1424553},
         {"lat": 46.5354919, "lon": 10.1425402}
       ],
-      "tags": {"highway": "unclassified", "name": "N100"}
+      "tags": {"highway": "unclassified", "name": "100"}
     },
     {
       "type": "way",
