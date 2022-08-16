@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-08-14T23:59:59Z",
-    "timestamp_osm_base": "2022-08-15T06:27:09Z",
+    "timestamp_osm_date": "2022-08-15T23:59:59Z",
+    "timestamp_osm_base": "2022-08-16T06:14:52Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -23244,15 +23244,16 @@
     {
       "type": "node",
       "id": 2357987095,
-      "lat": 45.2827866,
-      "lon": 6.0743999,
-      "timestamp": "2013-06-23T23:05:44Z",
-      "version": 1,
-      "changeset": 16677228,
-      "user": "sly",
-      "uid": 24572,
+      "lat": 45.2827774,
+      "lon": 6.0744468,
+      "timestamp": "2022-08-15T22:29:57Z",
+      "version": 2,
+      "changeset": 124947535,
+      "user": "Binnette",
+      "uid": 918586,
       "tags": {
-        "amenity": "drinking_water"
+        "amenity": "drinking_water",
+        "survey:date": "2022-08-15"
       }
     },
     {
@@ -24176,6 +24177,40 @@
         "survey:date": "2019-01-26",
         "website": "http://grenoble-lafontaine.eau-vive.com/",
         "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2415879882,
+      "lat": 45.1883686,
+      "lon": 5.7259432,
+      "timestamp": "2022-08-15T16:13:21Z",
+      "version": 12,
+      "changeset": 124935576,
+      "user": "FlyingWitchDog",
+      "uid": 14052707,
+      "tags": {
+        "addr:city": "Grenoble",
+        "addr:housenumber": "8",
+        "addr:postcode": "38000",
+        "addr:street": "Boulevard Agutte Sembat",
+        "brand": "Biocoop",
+        "brand:wikidata": "Q2904039",
+        "brand:wikipedia": "fr:Biocoop",
+        "bulk_purchase": "yes",
+        "contact:city": "Grenoble",
+        "contact:housenumber": "8",
+        "contact:phone": "+33 4 38 86 37 32",
+        "contact:postcode": "38000",
+        "contact:street": "Boulevard Agutte Sembat",
+        "name": "Biocoop",
+        "official_name": "Biocoop Grenoble Champollion",
+        "opening_hours": "Mo 14:00-19:30; Tu-Sa 10:00-19:30",
+        "organic": "only",
+        "phone": "+33 4 38 86 37 32",
+        "shop": "supermarket",
+        "survey:date": "2019-11-21",
+        "website": "https://www.biocoopchampollion.fr"
       }
     },
     {
@@ -53052,6 +53087,49 @@
       }
     },
     {
+      "type": "node",
+      "id": 9954017735,
+      "lat": 45.2712702,
+      "lon": 6.095929,
+      "timestamp": "2022-08-15T06:51:45Z",
+      "version": 1,
+      "changeset": 124913080,
+      "user": "Binnette",
+      "uid": 918586,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9955800155,
+      "lat": 45.2812149,
+      "lon": 6.0729883,
+      "timestamp": "2022-08-15T22:30:20Z",
+      "version": 1,
+      "changeset": 124947539,
+      "user": "Binnette",
+      "uid": 918586,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9955801866,
+      "lat": 45.1709793,
+      "lon": 5.7490843,
+      "timestamp": "2022-08-15T22:29:57Z",
+      "version": 1,
+      "changeset": 124947535,
+      "user": "Binnette",
+      "uid": 918586,
+      "tags": {
+        "amenity": "drinking_water",
+        "survey:date": "2022-08-15"
+      }
+    },
+    {
       "type": "way",
       "id": 24881687,
       "timestamp": "2021-05-18T20:23:37Z",
@@ -54307,24 +54385,29 @@
     {
       "type": "way",
       "id": 64002774,
-      "timestamp": "2019-08-24T16:27:10Z",
-      "version": 2,
-      "changeset": 73699714,
-      "user": "CrazyPops",
-      "uid": 37737,
+      "timestamp": "2022-08-15T08:12:11Z",
+      "version": 3,
+      "changeset": 124915643,
+      "user": "Binnette",
+      "uid": 918586,
       "center": {
         "lat": 45.2714096,
         "lon": 6.0959952
       },
       "nodes": [],
       "tags": {
+        "access": "yes",
         "building": "yes",
-        "ele": "1450",
+        "capacity": "8",
+        "drinking_water": "yes",
+        "ele": "1430",
         "fireplace": "yes",
         "mattress": "yes",
         "name": "Premier chalet de Combe Madame",
         "shower": "no",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010",
+        "survey:date": "2022-08-15",
+        "toilets": "yes",
         "tourism": "wilderness_hut",
         "wall": "yes"
       }
