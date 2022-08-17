@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-08-15T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-16T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -21360,9 +21360,9 @@
     {
       "type": "way",
       "id": 165571349,
-      "timestamp": "2022-08-14T17:06:37Z",
-      "version": 7,
-      "changeset": 124896138,
+      "timestamp": "2022-08-16T12:18:32Z",
+      "version": 8,
+      "changeset": 124969816,
       "user": "elorigoni",
       "uid": 4774117,
       "nodes": [1770428411, 1240638944],
@@ -21511,7 +21511,7 @@
         "highway": "steps",
         "historic": "mule_path",
         "incline": "down",
-        "name": "109 - Via Nostra Signora della Serta",
+        "name": "CAI 109 - Via Nostra Signora della Serta",
         "sac_scale": "mountain_hiking",
         "step_count": "1442",
         "surface": "cobblestone",
@@ -41675,17 +41675,22 @@
     {
       "type": "way",
       "id": 286797151,
-      "timestamp": "2014-09-05T04:02:20Z",
-      "version": 2,
-      "changeset": 25240121,
-      "user": "mcheckimport",
-      "uid": 893327,
+      "timestamp": "2022-08-16T07:56:57Z",
+      "version": 3,
+      "changeset": 124958513,
+      "user": "marcomile",
+      "uid": 1761856,
       "nodes": [2904684553, 2904684537],
       "geometry": [
         {"lat": 46.2176659, "lon": 10.1537235},
         {"lat": 46.2176829, "lon": 10.1533251}
       ],
-      "tags": {"bridge": "yes", "highway": "footway", "layer": "1"}
+      "tags": {
+        "bridge": "yes",
+        "highway": "footway",
+        "layer": "1",
+        "surface": "wood"
+      }
     },
     {
       "type": "way",
@@ -68159,47 +68164,61 @@
     {
       "type": "way",
       "id": 448183780,
-      "timestamp": "2016-10-17T16:49:35Z",
-      "version": 1,
-      "changeset": 42963753,
-      "user": "luschi",
-      "uid": 1714220,
+      "timestamp": "2022-08-16T22:11:14Z",
+      "version": 5,
+      "changeset": 124992729,
+      "user": "RColombo",
+      "uid": 412766,
       "nodes": [4452191782, 4452191766],
       "geometry": [
         {"lat": 45.942326, "lon": 9.4513678},
         {"lat": 45.9423354, "lon": 9.4515418}
       ],
-      "tags": {"highway": "unclassified", "name": "Via Fornace Merlo"}
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lanes": "2",
+        "name": "Via Fornace Merlo",
+        "smoothness": "good",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 448183781,
-      "timestamp": "2016-10-17T16:49:35Z",
-      "version": 1,
-      "changeset": 42963753,
-      "user": "luschi",
-      "uid": 1714220,
+      "timestamp": "2022-08-16T22:11:25Z",
+      "version": 4,
+      "changeset": 124992615,
+      "user": "RColombo",
+      "uid": 412766,
       "nodes": [4452191785, 2498535537],
       "geometry": [
         {"lat": 45.9423547, "lon": 9.4519217},
         {"lat": 45.9423611, "lon": 9.4520477}
       ],
-      "tags": {"highway": "unclassified", "name": "Via Fornace Merlo"}
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "unclassified",
+        "lane_markings": "no",
+        "name": "Via Fornace Merlo",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 448183782,
-      "timestamp": "2022-01-25T19:38:31Z",
-      "version": 3,
-      "changeset": 116599303,
-      "user": "Martino Scaglione",
-      "uid": 10901495,
+      "timestamp": "2022-08-16T22:10:20Z",
+      "version": 4,
+      "changeset": 124992636,
+      "user": "RColombo",
+      "uid": 412766,
       "nodes": [4452191775, 4452191776],
       "geometry": [
         {"lat": 45.942382, "lon": 9.4512204},
         {"lat": 45.9424607, "lon": 9.4511537}
       ],
       "tags": {
+        "cycleway:right": "no",
         "highway": "secondary",
         "maxspeed": "50",
         "oneway": "yes",
@@ -70730,11 +70749,11 @@
     {
       "type": "way",
       "id": 472038105,
-      "timestamp": "2022-01-25T19:38:31Z",
-      "version": 2,
-      "changeset": 116599303,
-      "user": "Martino Scaglione",
-      "uid": 10901495,
+      "timestamp": "2022-08-16T22:10:56Z",
+      "version": 3,
+      "changeset": 124992636,
+      "user": "RColombo",
+      "uid": 412766,
       "nodes": [4452191782, 4452191775],
       "geometry": [
         {"lat": 45.942326, "lon": 9.4513678},
@@ -70747,6 +70766,7 @@
         {"lat": 45.942382, "lon": 9.4512204}
       ],
       "tags": {
+        "cycleway:right": "no",
         "highway": "secondary",
         "junction": "roundabout",
         "maxspeed": "50",
@@ -72762,9 +72782,9 @@
     {
       "type": "way",
       "id": 493035970,
-      "timestamp": "2022-08-14T17:06:37Z",
-      "version": 2,
-      "changeset": 124896138,
+      "timestamp": "2022-08-16T12:18:32Z",
+      "version": 3,
+      "changeset": 124969816,
       "user": "elorigoni",
       "uid": 4774117,
       "nodes": [1240638885, 4849800005],
@@ -72785,7 +72805,7 @@
       ],
       "tags": {
         "highway": "path",
-        "name": "109",
+        "name": "CAI 109",
         "sac_scale": "hiking",
         "surface": "ground",
         "trail_visibility": "excellent"
@@ -87310,9 +87330,9 @@
     {
       "type": "way",
       "id": 636203663,
-      "timestamp": "2022-08-15T20:09:09Z",
-      "version": 4,
-      "changeset": 124944044,
+      "timestamp": "2022-08-16T07:03:41Z",
+      "version": 5,
+      "changeset": 124956382,
       "user": "gmarzio",
       "uid": 107284,
       "nodes": [751512859, 751512803],
@@ -87325,7 +87345,7 @@
         {"lat": 46.5359712, "lon": 10.1428465},
         {"lat": 46.5359835, "lon": 10.1428577}
       ],
-      "tags": {"highway": "unclassified", "name": "100"}
+      "tags": {"highway": "unclassified", "name": "Via dali Strozia"}
     },
     {
       "type": "way",
@@ -87358,9 +87378,9 @@
     {
       "type": "way",
       "id": 636203665,
-      "timestamp": "2022-08-15T20:09:09Z",
-      "version": 3,
-      "changeset": 124944044,
+      "timestamp": "2022-08-16T07:03:41Z",
+      "version": 4,
+      "changeset": 124956382,
       "user": "gmarzio",
       "uid": 107284,
       "nodes": [751513128, 751512859],
@@ -87368,7 +87388,7 @@
         {"lat": 46.5354698, "lon": 10.1424553},
         {"lat": 46.5354919, "lon": 10.1425402}
       ],
-      "tags": {"highway": "unclassified", "name": "100"}
+      "tags": {"highway": "unclassified", "name": "Via dali Strozia"}
     },
     {
       "type": "way",
