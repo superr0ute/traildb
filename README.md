@@ -1,6 +1,6 @@
 ### traildb version 2022-08-17
-- 108 trails (40 unroutable, 36 routable, 31 broken, 1 complete)
-- 700MiB data (192MiB trails, 335MiB elevation, 134MiB poi, 39MiB dist)
+- 109 trails (40 unroutable, 37 routable, 31 broken, 1 complete)
+- 700MiB data (193MiB trails, 335MiB elevation, 134MiB poi, 39MiB dist)
 - trail status: ❌ unroutable ✔️ routable ❌❌ broken ✔️✔️ complete
 
 | status | srId | srName | srColor | updated | poi |
@@ -99,6 +99,7 @@
 |❌❌|[TAS](https://superroute.org/TAS)|Te Araroa South [osm](https://osm.org/relation/8518626) [wiki](https://wikidata.org/wiki/Q106541620)|![#4177FF](https://via.placeholder.com/14/4177FF/000000?text=+) #4177FF|2021-08-21|407|
 |✔️|[TCRT](https://superroute.org/TCRT)|Тranscarpathian Trail [osm](https://osm.org/relation/2970399) [wiki](https://wikidata.org/wiki/Q30915066)|![#FFD500](https://via.placeholder.com/14/FFD500/000000?text=+) #FFD500|2022-08-12|1471|
 |❌|[TCT](https://superroute.org/TCT)|Transcaucasian Trail [osm](https://osm.org/relation/8928052) [wiki](https://wikidata.org/wiki/Q55636112)||2022-08-15||
+|✔️|[TI](https://superroute.org/TI)|Travesia de Ishinca [osm](https://osm.org/relation/14471412) [wiki](https://wikidata.org/wiki/Q113548936)||2022-08-18|0|
 |✔️|[TMB](https://superroute.org/TMB)|Tour du Mont Blanc [osm](https://osm.org/relation/124456) [wiki](https://wikidata.org/wiki/Q24777)|![#05F6FA](https://via.placeholder.com/14/05F6FA/000000?text=+) #05F6FA|today|496|
 |❌|[TMR](https://superroute.org/TMR)|Tour de Monte Rosa [osm](https://osm.org/relation/10353523) [wiki](https://wikidata.org/wiki/Q3533768)||today||
 |✔️|[TPO](https://superroute.org/TPO)|Torres del Paine O Circuit [osm](https://osm.org/relation/7705906) [wiki](https://wikidata.org/wiki/Q106577166)||2022-06-30|13|
