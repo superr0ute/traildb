@@ -91,11 +91,11 @@ import { loadJson, toMiB } from "../src/common";
             : properties["cachedDate"].split("T")[0],
           properties["status"] === "unroutable"
             ? ""
-            : JSON.parse(
+            : fs.existsSync(`./dist/poi/${properties["srId"]}.json`) ? JSON.parse(
                 fs.readFileSync(`./dist/poi/${properties["srId"]}.json`, {
                   encoding: "utf8",
                 })
-              ).features.length,
+              ).features.length : 0,
         ].join("|")}|`
     )
     .join(`\n`);
