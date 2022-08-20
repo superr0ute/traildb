@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-08-15T23:59:59Z",
-    "timestamp_osm_base": "2022-08-16T06:37:24Z",
+    "timestamp_osm_date": "2022-08-19T23:59:59Z",
+    "timestamp_osm_base": "2022-08-20T06:32:54Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -9333,13 +9333,13 @@
     {
       "type": "node",
       "id": 1577255392,
-      "lat": 46.8295148,
-      "lon": 9.5467539,
-      "timestamp": "2019-06-03T11:23:55Z",
-      "version": 2,
-      "changeset": 70882391,
-      "user": "asdf2",
-      "uid": 1416503,
+      "lat": 46.8294247,
+      "lon": 9.5474768,
+      "timestamp": "2022-08-18T20:34:06Z",
+      "version": 3,
+      "changeset": 125080139,
+      "user": "feuerstein",
+      "uid": 194843,
       "tags": {
         "name": "Passugg",
         "place": "village",
@@ -27764,6 +27764,20 @@
       }
     },
     {
+      "type": "node",
+      "id": 9963514173,
+      "lat": 46.8458378,
+      "lon": 9.527196,
+      "timestamp": "2022-08-19T09:41:12Z",
+      "version": 1,
+      "changeset": 125098104,
+      "user": "feuerstein",
+      "uid": 194843,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
       "type": "way",
       "id": 25771453,
       "timestamp": "2021-09-01T11:33:20Z",
@@ -28755,19 +28769,25 @@
     {
       "type": "way",
       "id": 304136651,
-      "timestamp": "2022-02-15T10:48:18Z",
-      "version": 4,
-      "changeset": 117430246,
-      "user": "SnowDiver",
-      "uid": 2234515,
+      "timestamp": "2022-08-18T11:25:26Z",
+      "version": 5,
+      "changeset": 125057373,
+      "user": "bpw85",
+      "uid": 16310,
       "center": {
         "lat": 46.8241937,
         "lon": 9.2816257
       },
       "nodes": [],
       "tags": {
-        "name": "Camping Flims",
-        "tourism": "camp_site"
+        "addr:city": "Flims Waldhaus",
+        "addr:housenumber": "4",
+        "addr:postcode": "7018",
+        "addr:street": "Via Prau la Selva",
+        "fee": "yes",
+        "name": "TCS Camping Flims",
+        "tourism": "camp_site",
+        "website": "https://www.tcs.ch/en/camping-travelling/camping-insider/campsites/tcs-campsites/campsite-flims.php"
       }
     },
     {
@@ -29270,23 +29290,29 @@
     },
     {
       "type": "way",
-      "id": 401830359,
-      "timestamp": "2019-02-04T15:32:34Z",
-      "version": 4,
-      "changeset": 66906808,
-      "user": "SWF8",
-      "uid": 3524812,
+      "id": 401830357,
+      "timestamp": "2022-08-19T08:11:53Z",
+      "version": 5,
+      "changeset": 125093971,
+      "user": "Azch64",
+      "uid": 13205205,
       "center": {
-        "lat": 46.9139996,
-        "lon": 9.7777147
+        "lat": 46.9141412,
+        "lon": 9.7775985
       },
       "nodes": [],
       "tags": {
+        "addr:city": "Küblis",
         "addr:country": "CH",
-        "addr:housenumber": "4",
+        "addr:housenumber": "2",
+        "addr:postcode": "7240",
         "addr:street": "Untergassa",
+        "brand": "Coop",
+        "brand:wikidata": "Q432564",
         "building": "yes",
         "name": "Coop",
+        "opening_hours": "Mo-Fr 08:00-19:00, Sa 08:00-18:00",
+        "operator": "Coop Schweiz",
         "shop": "supermarket"
       }
     },
@@ -30746,6 +30772,25 @@
       "nodes": [],
       "tags": {
         "amenity": "shelter",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1087424485,
+      "timestamp": "2022-08-19T08:17:33Z",
+      "version": 1,
+      "changeset": 125094223,
+      "user": "Azch64",
+      "uid": 13205205,
+      "center": {
+        "lat": 46.91394,
+        "lon": 9.753333
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
         "shelter_type": "public_transport"
       }
     }
