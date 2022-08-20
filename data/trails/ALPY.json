@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-08-17T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-19T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1765,17 +1765,22 @@
     {
       "type": "way",
       "id": 1049459880,
-      "timestamp": "2022-04-05T22:57:26Z",
-      "version": 1,
-      "changeset": 119362355,
-      "user": "micheleOSM3",
-      "uid": 3538539,
+      "timestamp": "2022-08-19T17:56:57Z",
+      "version": 2,
+      "changeset": 125119899,
+      "user": "Gorka115",
+      "uid": 9458168,
       "nodes": [340037313, 1231374390],
       "geometry": [
         {"lat": 45.618559, "lon": 13.8844264},
         {"lat": 45.618539, "lon": 13.8845049}
       ],
-      "tags": {"highway": "track", "sac_scale": "hiking", "surface": "ground"}
+      "tags": {
+        "highway": "track",
+        "sac_scale": "hiking",
+        "surface": "ground",
+        "tracktype": "grade3"
+      }
     },
     {
       "type": "way",
@@ -3517,11 +3522,11 @@
     {
       "type": "way",
       "id": 148097078,
-      "timestamp": "2021-10-14T12:10:45Z",
-      "version": 11,
-      "changeset": 112501171,
-      "user": "GBAB",
-      "uid": 3335899,
+      "timestamp": "2022-08-19T09:32:18Z",
+      "version": 12,
+      "changeset": 125097689,
+      "user": "Gorka115",
+      "uid": 9458168,
       "nodes": [1685780787, 1612013469],
       "geometry": [
         {"lat": 45.6190724, "lon": 13.8663761},
@@ -3626,7 +3631,8 @@
         "highway": "path",
         "name": "1",
         "old_name": "37",
-        "sac_scale": "mountain_hiking"
+        "sac_scale": "mountain_hiking",
+        "surface": "ground"
       }
     },
     {
@@ -6349,11 +6355,11 @@
     {
       "type": "way",
       "id": 162818714,
-      "timestamp": "2022-04-05T21:00:40Z",
-      "version": 11,
-      "changeset": 119359873,
-      "user": "micheleOSM3",
-      "uid": 3538539,
+      "timestamp": "2022-08-19T09:41:05Z",
+      "version": 13,
+      "changeset": 125098025,
+      "user": "Gorka115",
+      "uid": 9458168,
       "nodes": [857397498, 293023810],
       "geometry": [
         {"lat": 45.6267963, "lon": 13.8714612},
@@ -6369,16 +6375,22 @@
         {"lat": 45.626429, "lon": 13.8697346},
         {"lat": 45.626417, "lon": 13.8695663}
       ],
-      "tags": {"highway": "tertiary", "noname": "yes", "surface": "asphalt"}
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "noname": "yes",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
       "id": 162818715,
-      "timestamp": "2022-04-05T21:00:40Z",
-      "version": 13,
-      "changeset": 119359873,
-      "user": "micheleOSM3",
-      "uid": 3538539,
+      "timestamp": "2022-08-19T09:40:59Z",
+      "version": 15,
+      "changeset": 125098025,
+      "user": "Gorka115",
+      "uid": 9458168,
       "nodes": [2316514767, 857397498],
       "geometry": [
         {"lat": 45.6276548, "lon": 13.8717342},
@@ -6395,7 +6407,13 @@
         {"lat": 45.6268774, "lon": 13.8715549},
         {"lat": 45.6267963, "lon": 13.8714612}
       ],
-      "tags": {"highway": "tertiary", "noname": "yes", "surface": "asphalt"}
+      "tags": {
+        "cycleway:both": "no",
+        "highway": "tertiary",
+        "lane_markings": "no",
+        "noname": "yes",
+        "surface": "asphalt"
+      }
     },
     {
       "type": "way",
@@ -6509,11 +6527,11 @@
     {
       "type": "way",
       "id": 162818733,
-      "timestamp": "2022-04-05T22:22:40Z",
-      "version": 10,
-      "changeset": 119361678,
-      "user": "micheleOSM3",
-      "uid": 3538539,
+      "timestamp": "2022-08-19T17:55:52Z",
+      "version": 11,
+      "changeset": 125119868,
+      "user": "Gorka115",
+      "uid": 9458168,
       "nodes": [337405287, 1237183732],
       "geometry": [
         {"lat": 45.6149618, "lon": 13.8839039},
@@ -6533,6 +6551,7 @@
         "highway": "unclassified",
         "motor_vehicle": "permit",
         "noname": "yes",
+        "oneway": "no",
         "surface": "compacted",
         "width": "2.5"
       }
@@ -8938,11 +8957,11 @@
     {
       "type": "way",
       "id": 198352585,
-      "timestamp": "2022-04-05T21:00:40Z",
-      "version": 9,
-      "changeset": 119359873,
-      "user": "micheleOSM3",
-      "uid": 3538539,
+      "timestamp": "2022-08-19T17:57:34Z",
+      "version": 10,
+      "changeset": 125119884,
+      "user": "Gorka115",
+      "uid": 9458168,
       "nodes": [987581303, 293023810],
       "geometry": [
         {"lat": 45.628159, "lon": 13.8652918},
@@ -8986,6 +9005,7 @@
       "tags": {
         "highway": "path",
         "sac_scale": "hiking",
+        "surface": "ground",
         "trail_visibility": "good"
       }
     },
@@ -14853,11 +14873,11 @@
     {
       "type": "way",
       "id": 244518832,
-      "timestamp": "2022-04-05T22:22:40Z",
-      "version": 7,
-      "changeset": 119361678,
-      "user": "micheleOSM3",
-      "uid": 3538539,
+      "timestamp": "2022-08-19T09:32:39Z",
+      "version": 8,
+      "changeset": 125097689,
+      "user": "Gorka115",
+      "uid": 9458168,
       "nodes": [293738838, 340176816],
       "geometry": [
         {"lat": 45.6193035, "lon": 13.8670129},
@@ -14916,6 +14936,7 @@
         "highway": "path",
         "note": "The first part is wider and sac_scale just hiking",
         "sac_scale": "hiking",
+        "surface": "ground",
         "width": "1"
       }
     },
@@ -29705,11 +29726,11 @@
     {
       "type": "way",
       "id": 85143140,
-      "timestamp": "2022-04-05T21:00:40Z",
-      "version": 10,
-      "changeset": 119359873,
-      "user": "micheleOSM3",
-      "uid": 3538539,
+      "timestamp": "2022-08-19T17:59:39Z",
+      "version": 11,
+      "changeset": 125119884,
+      "user": "Gorka115",
+      "uid": 9458168,
       "nodes": [987581157, 987581303],
       "geometry": [
         {"lat": 45.6278138, "lon": 13.8614334},
@@ -29752,7 +29773,7 @@
         {"lat": 45.6282111, "lon": 13.8651833},
         {"lat": 45.628159, "lon": 13.8652918}
       ],
-      "tags": {"highway": "path", "sac_scale": "hiking"}
+      "tags": {"highway": "path", "sac_scale": "hiking", "surface": "ground"}
     },
     {
       "type": "way",
