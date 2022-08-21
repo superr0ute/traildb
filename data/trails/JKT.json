@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-08-17T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-20T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
       "id": 10909145,
-      "timestamp": "2022-08-15T09:19:25Z",
-      "version": 1531,
-      "changeset": 124918367,
-      "user": "gt3400",
-      "uid": 610648,
+      "timestamp": "2022-08-20T18:20:15Z",
+      "version": 1532,
+      "changeset": 125157952,
+      "user": "mk2k22",
+      "uid": 16531246,
       "members": [
         {"type": "node", "ref": 4007110375, "role": ""},
         {"type": "way", "ref": 1004393561, "role": ""},
@@ -723,6 +723,7 @@
         {"type": "way", "ref": 788014954, "role": ""},
         {"type": "way", "ref": 291483165, "role": ""},
         {"type": "way", "ref": 839955617, "role": ""},
+        {"type": "way", "ref": 1087755060, "role": ""},
         {"type": "way", "ref": 293187362, "role": ""},
         {"type": "way", "ref": 788017743, "role": ""},
         {"type": "way", "ref": 788079380, "role": ""},
@@ -5669,6 +5670,36 @@
         "surface": "unpaved",
         "tracktype": "grade3",
         "width": "2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1087755060,
+      "timestamp": "2022-08-20T18:20:15Z",
+      "version": 1,
+      "changeset": 125157952,
+      "user": "mk2k22",
+      "uid": 16531246,
+      "nodes": [3710790551, 2949468237],
+      "geometry": [
+        {"lat": 46.4252313, "lon": 14.1539303},
+        {"lat": 46.4247698, "lon": 14.1540329},
+        {"lat": 46.4245743, "lon": 14.154089},
+        {"lat": 46.4243941, "lon": 14.1542287},
+        {"lat": 46.4243461, "lon": 14.1543912},
+        {"lat": 46.424303, "lon": 14.1545579},
+        {"lat": 46.4242492, "lon": 14.1545852},
+        {"lat": 46.4242013, "lon": 14.1546571},
+        {"lat": 46.4240921, "lon": 14.154822}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "highway": "path",
+        "incline": "5%",
+        "note": "Beim „Julius Kugy Alpine Trail“ trifft man auf\n + iwn:  \n + nrw: \n + rwn: \n + lwn: Julius-Kugy-Dreiländerweg v 30 dneh - povezava prek E 8a, Slovenska geološka pot",
+        "source": "gps survey",
+        "surface": "gravel",
+        "width": "1"
       }
     },
     {
@@ -30973,12 +31004,12 @@
     {
       "type": "way",
       "id": 293187362,
-      "timestamp": "2021-11-19T15:39:22Z",
-      "version": 8,
-      "changeset": 113996050,
-      "user": "Wulz",
-      "uid": 10773975,
-      "nodes": [2412214797, 2949468237],
+      "timestamp": "2022-08-20T18:57:53Z",
+      "version": 10,
+      "changeset": 125158966,
+      "user": "mk2k22",
+      "uid": 16531246,
+      "nodes": [2412214797, 3710790551],
       "geometry": [
         {"lat": 46.4265392, "lon": 14.1472974},
         {"lat": 46.4265657, "lon": 14.1476838},
@@ -31008,15 +31039,7 @@
         {"lat": 46.4256153, "lon": 14.1533778},
         {"lat": 46.4255654, "lon": 14.1535751},
         {"lat": 46.4253584, "lon": 14.1538065},
-        {"lat": 46.4252313, "lon": 14.1539303},
-        {"lat": 46.4247698, "lon": 14.1540329},
-        {"lat": 46.4245743, "lon": 14.154089},
-        {"lat": 46.4243941, "lon": 14.1542287},
-        {"lat": 46.4243461, "lon": 14.1543912},
-        {"lat": 46.424303, "lon": 14.1545579},
-        {"lat": 46.4242492, "lon": 14.1545852},
-        {"lat": 46.4242013, "lon": 14.1546571},
-        {"lat": 46.4240921, "lon": 14.154822}
+        {"lat": 46.4252313, "lon": 14.1539303}
       ],
       "tags": {
         "bicycle": "yes",
