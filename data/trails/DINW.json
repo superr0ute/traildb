@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-08-19T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-21T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -961,9 +961,9 @@
     {
       "type": "relation",
       "id": 7388422,
-      "timestamp": "2021-07-11T12:10:56Z",
-      "version": 14,
-      "changeset": 107779553,
+      "timestamp": "2022-08-21T10:55:50Z",
+      "version": 15,
+      "changeset": 125178134,
       "user": "Badojo",
       "uid": 8189075,
       "members": [
@@ -975,8 +975,10 @@
         {"type": "way", "ref": 963388337, "role": ""},
         {"type": "way", "ref": 963388335, "role": ""},
         {"type": "way", "ref": 506708665, "role": ""},
-        {"type": "way", "ref": 94483129, "role": ""},
+        {"type": "way", "ref": 1087867943, "role": ""},
+        {"type": "way", "ref": 1087867942, "role": ""},
         {"type": "way", "ref": 627545275, "role": ""},
+        {"type": "way", "ref": 94483129, "role": ""},
         {"type": "way", "ref": 168739548, "role": ""},
         {"type": "way", "ref": 168739549, "role": ""},
         {"type": "way", "ref": 168739547, "role": ""},
@@ -4308,6 +4310,55 @@
         "highway": "unclassified",
         "smoothness": "very_bad",
         "surface": "gravel"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1087867942,
+      "timestamp": "2022-08-21T10:55:50Z",
+      "version": 1,
+      "changeset": 125178134,
+      "user": "Badojo",
+      "uid": 8189075,
+      "nodes": [1799581707, 2926388051],
+      "geometry": [
+        {"lat": 44.2729247, "lon": 15.923362},
+        {"lat": 44.2729768, "lon": 15.9242537}
+      ],
+      "tags": {
+        "designation": "državna cesta",
+        "highway": "primary",
+        "incline": "up",
+        "lanes": "3",
+        "lanes:backward": "2",
+        "maxspeed": "60",
+        "ref": "D1",
+        "surface": "asphalt",
+        "turn:lanes:backward": "left|through;right"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1087867943,
+      "timestamp": "2022-08-21T10:55:50Z",
+      "version": 1,
+      "changeset": 125178134,
+      "user": "Badojo",
+      "uid": 8189075,
+      "nodes": [1569158325, 1799581707],
+      "geometry": [
+        {"lat": 44.2728832, "lon": 15.9226523},
+        {"lat": 44.2729247, "lon": 15.923362}
+      ],
+      "tags": {
+        "designation": "državna cesta",
+        "highway": "primary",
+        "lanes": "3",
+        "lanes:forward": "2",
+        "maxspeed": "60",
+        "ref": "D1",
+        "surface": "asphalt",
+        "turn:lanes:forward": "left|through;right"
       }
     },
     {
@@ -13928,9 +13979,9 @@
     {
       "type": "way",
       "id": 206641736,
-      "timestamp": "2022-06-22T11:54:08Z",
-      "version": 15,
-      "changeset": 122708587,
+      "timestamp": "2022-08-21T19:26:18Z",
+      "version": 16,
+      "changeset": 125196674,
       "user": "soliMM",
       "uid": 7613148,
       "nodes": [1862669475, 282359939],
@@ -13943,6 +13994,7 @@
         {"lat": 42.9580783, "lon": 19.5778768},
         {"lat": 42.9584925, "lon": 19.5778688},
         {"lat": 42.9589558, "lon": 19.5779519},
+        {"lat": 42.9593651, "lon": 19.5780489},
         {"lat": 42.959718, "lon": 19.5781325}
       ],
       "tags": {
@@ -13951,6 +14003,7 @@
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
+        "overtaking": "no",
         "ref": "M-2",
         "surface": "asphalt"
       }
@@ -27855,9 +27908,9 @@
     {
       "type": "way",
       "id": 374442579,
-      "timestamp": "2022-06-22T11:54:08Z",
-      "version": 9,
-      "changeset": 122708587,
+      "timestamp": "2022-08-21T19:26:18Z",
+      "version": 10,
+      "changeset": 125196674,
       "user": "soliMM",
       "uid": 7613148,
       "nodes": [282359939, 2166806955],
@@ -27872,6 +27925,7 @@
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "50",
+        "overtaking": "no",
         "ref": "M-2",
         "surface": "asphalt"
       }
@@ -38507,12 +38561,12 @@
     {
       "type": "way",
       "id": 506708665,
-      "timestamp": "2021-07-11T12:10:56Z",
-      "version": 5,
-      "changeset": 107779553,
+      "timestamp": "2022-08-21T10:55:50Z",
+      "version": 6,
+      "changeset": 125178134,
       "user": "Badojo",
       "uid": 8189075,
-      "nodes": [8911404960, 1799581707],
+      "nodes": [8911404960, 1569158325],
       "geometry": [
         {"lat": 44.279997, "lon": 15.8955055},
         {"lat": 44.2794355, "lon": 15.8965913},
@@ -38538,9 +38592,7 @@
         {"lat": 44.2728439, "lon": 15.9187161},
         {"lat": 44.2727636, "lon": 15.9194095},
         {"lat": 44.2727771, "lon": 15.9200592},
-        {"lat": 44.272833, "lon": 15.9216651},
-        {"lat": 44.2728741, "lon": 15.9225273},
-        {"lat": 44.272926, "lon": 15.9234066}
+        {"lat": 44.2728832, "lon": 15.9226523}
       ],
       "tags": {
         "designation": "državna cesta",
@@ -50887,15 +50939,14 @@
     {
       "type": "way",
       "id": 627545275,
-      "timestamp": "2019-10-10T04:36:33Z",
-      "version": 2,
-      "changeset": 75489606,
-      "user": "Serpico",
-      "uid": 11618,
-      "nodes": [1799581707, 1569158310],
+      "timestamp": "2022-08-21T10:55:50Z",
+      "version": 3,
+      "changeset": 125178134,
+      "user": "Badojo",
+      "uid": 8189075,
+      "nodes": [2926388051, 1569158310],
       "geometry": [
-        {"lat": 44.272926, "lon": 15.9234066},
-        {"lat": 44.2729998, "lon": 15.9245219},
+        {"lat": 44.2729768, "lon": 15.9242537},
         {"lat": 44.273043, "lon": 15.9250958},
         {"lat": 44.2731073, "lon": 15.9256272},
         {"lat": 44.2735054, "lon": 15.9278866},

@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-08-18T04:10:22Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-22T04:01:01Z"},
   "elements": [
     {
       "type": "relation",
@@ -138,11 +138,11 @@
     {
       "type": "relation",
       "id": 9678362,
-      "timestamp": "2022-08-09T06:25:50Z",
-      "version": 62,
-      "changeset": 124668166,
-      "user": "gscholz",
-      "uid": 109705,
+      "timestamp": "2022-08-21T23:06:01Z",
+      "version": 64,
+      "changeset": 125202212,
+      "user": "tartiflex",
+      "uid": 507417,
       "members": [
         {"type": "way", "ref": 217673748, "role": ""},
         {"type": "way", "ref": 433033836, "role": ""},
@@ -744,9 +744,9 @@
         {"type": "way", "ref": 433039968, "role": ""},
         {"type": "way", "ref": 433039966, "role": ""},
         {"type": "way", "ref": 128816489, "role": ""},
-        {"type": "way", "ref": 433039911, "role": ""},
+        {"type": "way", "ref": 1088022908, "role": ""},
+        {"type": "way", "ref": 1088022909, "role": ""},
         {"type": "way", "ref": 433039912, "role": ""},
-        {"type": "way", "ref": 239791211, "role": ""},
         {"type": "way", "ref": 217676387, "role": ""},
         {"type": "way", "ref": 433039946, "role": ""},
         {"type": "way", "ref": 433039930, "role": ""},
@@ -1443,6 +1443,62 @@
     },
     {
       "type": "way",
+      "id": 1088022908,
+      "timestamp": "2022-08-21T23:06:01Z",
+      "version": 1,
+      "changeset": 125202212,
+      "user": "tartiflex",
+      "uid": 507417,
+      "nodes": [529400207, 529400210],
+      "geometry": [
+        {"lat": 45.9054118, "lon": 6.8100161, "z": 1379.4},
+        {"lat": 45.9054025, "lon": 6.8098779, "z": 1378.5},
+        {"lat": 45.9053984, "lon": 6.8098415, "z": 1378.2},
+        {"lat": 45.9053934, "lon": 6.8098081, "z": 1377.7},
+        {"lat": 45.9053866, "lon": 6.809772, "z": 1377.2},
+        {"lat": 45.9053211, "lon": 6.8094783, "z": 1372.2}
+      ],
+      "tags": {
+        "hazard": "rock_slide",
+        "highway": "service",
+        "lanes": "2",
+        "name": "Chemin de Merlet",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "source": "survey",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1088022909,
+      "timestamp": "2022-08-21T23:06:01Z",
+      "version": 1,
+      "changeset": 125202212,
+      "user": "tartiflex",
+      "uid": 507417,
+      "nodes": [529400215, 529400207],
+      "geometry": [
+        {"lat": 45.9054436, "lon": 6.8107573, "z": 1381.5},
+        {"lat": 45.905451, "lon": 6.8106665, "z": 1382.2},
+        {"lat": 45.9054517, "lon": 6.8106096, "z": 1382.4},
+        {"lat": 45.9054118, "lon": 6.8100161, "z": 1379.4}
+      ],
+      "tags": {
+        "hazard": "rock_slide",
+        "highway": "service",
+        "lanes": "1",
+        "lit": "no",
+        "name": "Chemin de Merlet",
+        "oneway": "yes",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "source": "survey",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
       "id": 112688659,
       "timestamp": "2020-11-22T22:45:47Z",
       "version": 2,
@@ -2126,7 +2182,7 @@
       "uid": 67547,
       "nodes": [529400210, 1011895291],
       "geometry": [
-        {"lat": 45.9053179, "lon": 6.8094798, "z": 1371.9},
+        {"lat": 45.9053211, "lon": 6.8094783, "z": 1372.2},
         {"lat": 45.9052239, "lon": 6.8093894, "z": 1364.1},
         {"lat": 45.905158, "lon": 6.8098217, "z": 1359.3},
         {"lat": 45.9050351, "lon": 6.8098246, "z": 1350},
@@ -7436,26 +7492,29 @@
     {
       "type": "way",
       "id": 217676387,
-      "timestamp": "2016-07-25T13:55:07Z",
-      "version": 3,
-      "changeset": 41012781,
-      "user": "ATGardner",
-      "uid": 287860,
+      "timestamp": "2022-08-21T23:06:01Z",
+      "version": 4,
+      "changeset": 125202212,
+      "user": "tartiflex",
+      "uid": 507417,
       "nodes": [1253135350, 529400217],
       "geometry": [
         {"lat": 45.906224, "lon": 6.8134402, "z": 1428.1},
         {"lat": 45.906112, "lon": 6.812893, "z": 1421.1},
         {"lat": 45.9060168, "lon": 6.8131215, "z": 1414.2},
         {"lat": 45.9059104, "lon": 6.8127964, "z": 1406.3},
-        {"lat": 45.9057481, "lon": 6.8120916, "z": 1397.4},
-        {"lat": 45.905605, "lon": 6.811753, "z": 1388.9}
+        {"lat": 45.9057147, "lon": 6.8121564, "z": 1394.5},
+        {"lat": 45.9056912, "lon": 6.81205, "z": 1393.4},
+        {"lat": 45.9056496, "lon": 6.8119301, "z": 1391.1},
+        {"lat": 45.9056185, "lon": 6.8118145, "z": 1389.6},
+        {"lat": 45.9056141, "lon": 6.8118057, "z": 1389.3},
+        {"lat": 45.9056087, "lon": 6.811796, "z": 1388.9},
+        {"lat": 45.9055747, "lon": 6.8117543, "z": 1386.7}
       ],
       "tags": {
-        "access": "forestry",
-        "highway": "track",
+        "highway": "path",
         "sac_scale": "mountain_hiking",
-        "surface": "gravel",
-        "tracktype": "grade3"
+        "surface": "gravel"
       }
     },
     {
@@ -8904,27 +8963,6 @@
         {"lat": 45.9610488, "lon": 6.8869879, "z": 1879.4}
       ],
       "tags": {"highway": "path", "sac_scale": "mountain_hiking"}
-    },
-    {
-      "type": "way",
-      "id": 239791211,
-      "timestamp": "2016-07-25T13:54:58Z",
-      "version": 2,
-      "changeset": 41012781,
-      "user": "ATGardner",
-      "uid": 287860,
-      "nodes": [529400217, 529400215],
-      "geometry": [
-        {"lat": 45.905605, "lon": 6.811753, "z": 1388.9},
-        {"lat": 45.9055357, "lon": 6.8112757, "z": 1386.5},
-        {"lat": 45.9054632, "lon": 6.810825, "z": 1382.7}
-      ],
-      "tags": {
-        "highway": "service",
-        "name": "Chemin de Merlet",
-        "source": "survey",
-        "surface": "asphalt"
-      }
     },
     {
       "type": "way",
@@ -25135,42 +25173,31 @@
     },
     {
       "type": "way",
-      "id": 433039911,
-      "timestamp": "2016-07-25T13:54:13Z",
-      "version": 1,
-      "changeset": 41012781,
-      "user": "ATGardner",
-      "uid": 287860,
-      "nodes": [529400207, 529400210],
-      "geometry": [
-        {"lat": 45.9054051, "lon": 6.8100171, "z": 1378.9},
-        {"lat": 45.9053761, "lon": 6.8096758, "z": 1376.5},
-        {"lat": 45.9053179, "lon": 6.8094798, "z": 1371.9}
-      ],
-      "tags": {
-        "highway": "service",
-        "name": "Chemin de Merlet",
-        "source": "survey",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
       "id": 433039912,
-      "timestamp": "2016-07-25T13:54:13Z",
-      "version": 1,
-      "changeset": 41012781,
-      "user": "ATGardner",
-      "uid": 287860,
-      "nodes": [529400215, 529400207],
+      "timestamp": "2022-08-21T23:06:01Z",
+      "version": 3,
+      "changeset": 125202212,
+      "user": "tartiflex",
+      "uid": 507417,
+      "nodes": [529400217, 529400215],
       "geometry": [
-        {"lat": 45.9054632, "lon": 6.810825, "z": 1382.7},
-        {"lat": 45.9054363, "lon": 6.8104487, "z": 1381.5},
-        {"lat": 45.9054051, "lon": 6.8100171, "z": 1378.9}
+        {"lat": 45.9055747, "lon": 6.8117543, "z": 1386.7},
+        {"lat": 45.9055677, "lon": 6.8117018, "z": 1386.5},
+        {"lat": 45.9055616, "lon": 6.8116441, "z": 1386.3},
+        {"lat": 45.9055564, "lon": 6.8115704, "z": 1386.4},
+        {"lat": 45.9055521, "lon": 6.8115208, "z": 1386.3},
+        {"lat": 45.9055453, "lon": 6.8114636, "z": 1386.2},
+        {"lat": 45.905536, "lon": 6.8114031, "z": 1385.8},
+        {"lat": 45.9054436, "lon": 6.8107573, "z": 1381.5}
       ],
       "tags": {
+        "hazard": "rock_slide",
         "highway": "service",
+        "lanes": "2",
+        "maxspeed": "30",
         "name": "Chemin de Merlet",
+        "sidewalk": "no",
+        "smoothness": "good",
         "source": "survey",
         "surface": "asphalt"
       }
