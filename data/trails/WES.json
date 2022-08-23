@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-08-21T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-22T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -1827,9 +1827,9 @@
     {
       "type": "relation",
       "id": 905948,
-      "timestamp": "2022-08-21T15:47:35Z",
-      "version": 82,
-      "changeset": 125188927,
+      "timestamp": "2022-08-22T16:56:57Z",
+      "version": 83,
+      "changeset": 125236403,
       "user": "Karthoo",
       "uid": 3232636,
       "members": [
@@ -1905,6 +1905,7 @@
         {"type": "way", "ref": 58667197, "role": ""},
         {"type": "way", "ref": 25161569, "role": ""},
         {"type": "way", "ref": 25161568, "role": ""},
+        {"type": "way", "ref": 1088222691, "role": ""},
         {"type": "way", "ref": 121099479, "role": ""},
         {"type": "way", "ref": 122983886, "role": ""},
         {"type": "way", "ref": 19393494, "role": ""},
@@ -4221,6 +4222,33 @@
         "surface": "fine_gravel",
         "tracktype": "grade2",
         "width": "2"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1088222691,
+      "timestamp": "2022-08-22T16:56:57Z",
+      "version": 1,
+      "changeset": 125236403,
+      "user": "Karthoo",
+      "uid": 3232636,
+      "nodes": [256541886, 256541888],
+      "geometry": [
+        {"lat": 48.6021619, "lon": 8.2002034},
+        {"lat": 48.6022577, "lon": 8.2001679},
+        {"lat": 48.6023288, "lon": 8.2001559},
+        {"lat": 48.6025016, "lon": 8.2001555},
+        {"lat": 48.602705, "lon": 8.2001773},
+        {"lat": 48.6028876, "lon": 8.200228},
+        {"lat": 48.6030922, "lon": 8.2002806}
+      ],
+      "tags": {
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "service",
+        "motor_vehicle": "no",
+        "mtb": "yes",
+        "surface": "asphalt"
       }
     },
     {
@@ -15186,19 +15214,13 @@
     {
       "type": "way",
       "id": 25161568,
-      "timestamp": "2021-02-26T09:17:28Z",
-      "version": 11,
-      "changeset": 100036055,
-      "user": "thetornado76",
-      "uid": 1624486,
-      "nodes": [256541886, 274282499],
+      "timestamp": "2022-08-22T16:56:57Z",
+      "version": 12,
+      "changeset": 125236403,
+      "user": "Karthoo",
+      "uid": 3232636,
+      "nodes": [256541888, 274282499],
       "geometry": [
-        {"lat": 48.6021619, "lon": 8.2002034},
-        {"lat": 48.6022577, "lon": 8.2001679},
-        {"lat": 48.6023288, "lon": 8.2001559},
-        {"lat": 48.6025016, "lon": 8.2001555},
-        {"lat": 48.602705, "lon": 8.2001773},
-        {"lat": 48.6028876, "lon": 8.200228},
         {"lat": 48.6030922, "lon": 8.2002806},
         {"lat": 48.6034938, "lon": 8.2003877},
         {"lat": 48.6039126, "lon": 8.2005043},
@@ -20639,18 +20661,18 @@
     {
       "type": "way",
       "id": 28845460,
-      "timestamp": "2017-12-30T21:22:00Z",
-      "version": 10,
-      "changeset": 55045257,
-      "user": "q_un_go",
-      "uid": 11374,
+      "timestamp": "2022-08-22T07:20:57Z",
+      "version": 11,
+      "changeset": 125211808,
+      "user": "*abq*",
+      "uid": 3696195,
       "nodes": [408488898, 1373084671],
       "geometry": [
         {"lat": 47.92976, "lon": 8.1279841},
         {"lat": 47.9296969, "lon": 8.1279411},
         {"lat": 47.9294921, "lon": 8.1277849}
       ],
-      "tags": {"highway": "service", "surface": "gravel"}
+      "tags": {"highway": "service", "surface": "compacted"}
     },
     {
       "type": "way",

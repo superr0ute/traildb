@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-08-06T03:29:24Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-23T04:19:53Z"},
   "elements": [
     {
       "type": "relation",
       "id": 3094865,
-      "timestamp": "2021-11-25T16:47:14Z",
-      "version": 114,
-      "changeset": 114230908,
-      "user": "btwhite92",
-      "uid": 730573,
+      "timestamp": "2022-08-22T08:41:25Z",
+      "version": 115,
+      "changeset": 125214871,
+      "user": "BCNorwich",
+      "uid": 322785,
       "members": [
         {"type": "way", "ref": 851786473, "role": ""},
         {"type": "way", "ref": 918799809, "role": ""},
@@ -61,6 +61,8 @@
         {"type": "way", "ref": 845671451, "role": ""},
         {"type": "way", "ref": 439973652, "role": ""},
         {"type": "way", "ref": 439973655, "role": ""},
+        {"type": "way", "ref": 1088097300, "role": ""},
+        {"type": "way", "ref": 1088097301, "role": ""},
         {"type": "way", "ref": 83343774, "role": ""},
         {"type": "way", "ref": 521693940, "role": ""},
         {"type": "way", "ref": 521693941, "role": ""},
@@ -1802,6 +1804,67 @@
         {"lat": 39.1675224, "lon": -120.1485617, "z": 1916.3}
       ],
       "tags": {"highway": "unclassified", "name": "Fairway Drive"}
+    },
+    {
+      "type": "way",
+      "id": 1088097300,
+      "timestamp": "2022-08-22T08:41:25Z",
+      "version": 1,
+      "changeset": 125214871,
+      "user": "BCNorwich",
+      "uid": 322785,
+      "nodes": [5019544584, 5180118411],
+      "geometry": [
+        {"lat": 38.8343894, "lon": -120.0437728, "z": 2268.3},
+        {"lat": 38.8344525, "lon": -120.0437933, "z": 2266.9},
+        {"lat": 38.8345073, "lon": -120.0438419, "z": 2265.3},
+        {"lat": 38.8345397, "lon": -120.0439371, "z": 2264.5},
+        {"lat": 38.8345815, "lon": -120.0441329, "z": 2263.4},
+        {"lat": 38.8346421, "lon": -120.0442322, "z": 2262.4}
+      ],
+      "tags": {
+        "alt_name": "Pacific Crest National Scenic Trail",
+        "bicycle": "no",
+        "foot": "yes",
+        "highway": "unclassified",
+        "horse": "yes",
+        "motor_vehicle": "no",
+        "name": "Echo Lakes Road",
+        "network": "nwn",
+        "ref": "NFR 1105",
+        "source": "GPS",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1088097301,
+      "timestamp": "2022-08-22T08:41:25Z",
+      "version": 1,
+      "changeset": 125214871,
+      "user": "BCNorwich",
+      "uid": 322785,
+      "nodes": [5180118411, 969803616],
+      "geometry": [
+        {"lat": 38.8346421, "lon": -120.0442322, "z": 2262.4},
+        {"lat": 38.8347429, "lon": -120.0442352, "z": 2261.3},
+        {"lat": 38.8347897, "lon": -120.044234, "z": 2260.9},
+        {"lat": 38.8348177, "lon": -120.0442327, "z": 2260.6},
+        {"lat": 38.8348338, "lon": -120.0442329, "z": 2260.4},
+        {"lat": 38.83485, "lon": -120.0443402, "z": 2260.2}
+      ],
+      "tags": {
+        "alt_name": "Pacific Crest National Scenic Trail",
+        "bicycle": "no",
+        "foot": "yes",
+        "highway": "path",
+        "horse": "yes",
+        "motor_vehicle": "no",
+        "name": "Pacific Crest National Scenic Trail #2000",
+        "network": "nwn",
+        "ref": "PCT",
+        "source": "GPS"
+      }
     },
     {
       "type": "way",
@@ -8877,12 +8940,12 @@
     {
       "type": "way",
       "id": 439973655,
-      "timestamp": "2021-04-01T15:00:28Z",
-      "version": 9,
-      "changeset": 102134938,
-      "user": "Palolo",
-      "uid": 385046,
-      "nodes": [969954619, 969803616],
+      "timestamp": "2022-08-22T08:41:25Z",
+      "version": 10,
+      "changeset": 125214871,
+      "user": "BCNorwich",
+      "uid": 322785,
+      "nodes": [969954619, 5019544584],
       "geometry": [
         {"lat": 38.8339825, "lon": -120.0421535, "z": 2293.9},
         {"lat": 38.8340487, "lon": -120.0422229, "z": 2292.6},
@@ -8900,17 +8963,7 @@
         {"lat": 38.8342571, "lon": -120.043508, "z": 2275.6},
         {"lat": 38.8342602, "lon": -120.0435664, "z": 2274.4},
         {"lat": 38.8343438, "lon": -120.0437124, "z": 2270.2},
-        {"lat": 38.8343894, "lon": -120.0437728, "z": 2268.3},
-        {"lat": 38.8344525, "lon": -120.0437933, "z": 2266.9},
-        {"lat": 38.8345073, "lon": -120.0438419, "z": 2265.3},
-        {"lat": 38.8345397, "lon": -120.0439371, "z": 2264.5},
-        {"lat": 38.8345815, "lon": -120.0441329, "z": 2263.4},
-        {"lat": 38.8346421, "lon": -120.0442322, "z": 2262.4},
-        {"lat": 38.8347429, "lon": -120.0442352, "z": 2261.3},
-        {"lat": 38.8347897, "lon": -120.044234, "z": 2260.9},
-        {"lat": 38.8348177, "lon": -120.0442327, "z": 2260.6},
-        {"lat": 38.8348338, "lon": -120.0442329, "z": 2260.4},
-        {"lat": 38.83485, "lon": -120.0443402, "z": 2260.2}
+        {"lat": 38.8343894, "lon": -120.0437728, "z": 2268.3}
       ],
       "tags": {
         "alt_name": "Pacific Crest National Scenic Trail",
