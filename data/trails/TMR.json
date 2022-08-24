@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-08-21T23:59:59Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-23T23:59:59Z"},
   "elements": [
     {
       "type": "relation",
@@ -308,11 +308,11 @@
     {
       "type": "relation",
       "id": 9234975,
-      "timestamp": "2022-06-11T14:32:40Z",
-      "version": 13,
-      "changeset": 122251784,
-      "user": "Schnabeltier2",
-      "uid": 46958,
+      "timestamp": "2022-08-23T16:48:05Z",
+      "version": 14,
+      "changeset": 125280632,
+      "user": "Renloc",
+      "uid": 8575144,
       "members": [
         {"type": "way", "ref": 751003266, "role": "approach"},
         {"type": "way", "ref": 50759249, "role": "approach"},
@@ -333,6 +333,7 @@
         {"type": "way", "ref": 307350443, "role": "main"},
         {"type": "way", "ref": 129573147, "role": "main"},
         {"type": "way", "ref": 307350434, "role": "main"},
+        {"type": "way", "ref": 1088517734, "role": "main"},
         {"type": "way", "ref": 39362559, "role": "main"},
         {"type": "way", "ref": 39362562, "role": "main"},
         {"type": "way", "ref": 664642996, "role": "main"}
@@ -1545,6 +1546,36 @@
         "sac_scale": "mountain_hiking",
         "surface": "ground",
         "trail_visibility": "excellent"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1088517734,
+      "timestamp": "2022-08-23T16:48:05Z",
+      "version": 1,
+      "changeset": 125280632,
+      "user": "Renloc",
+      "uid": 8575144,
+      "nodes": [637552882, 637552849],
+      "geometry": [
+        {"lat": 46.1545869, "lon": 7.8239405},
+        {"lat": 46.154868, "lon": 7.823854},
+        {"lat": 46.155189, "lon": 7.823904},
+        {"lat": 46.155978, "lon": 7.823717},
+        {"lat": 46.156414, "lon": 7.823819},
+        {"lat": 46.156711, "lon": 7.823787},
+        {"lat": 46.156964, "lon": 7.823883},
+        {"lat": 46.157181, "lon": 7.824083},
+        {"lat": 46.157375, "lon": 7.824097},
+        {"lat": 46.157859, "lon": 7.824285},
+        {"lat": 46.158162, "lon": 7.824516},
+        {"lat": 46.158359, "lon": 7.824581},
+        {"lat": 46.158771, "lon": 7.824959}
+      ],
+      "tags": {
+        "highway": "path",
+        "name": "Europaweg",
+        "sac_scale": "alpine_hiking"
       }
     },
     {
@@ -14009,12 +14040,12 @@
     {
       "type": "way",
       "id": 39362559,
-      "timestamp": "2015-12-25T01:07:04Z",
-      "version": 12,
-      "changeset": 36152253,
-      "user": "kuede",
-      "uid": 8296,
-      "nodes": [471606578, 637552849],
+      "timestamp": "2022-08-23T16:48:05Z",
+      "version": 13,
+      "changeset": 125280632,
+      "user": "Renloc",
+      "uid": 8575144,
+      "nodes": [471606578, 637552882],
       "geometry": [
         {"lat": 46.1116524, "lon": 7.8129106},
         {"lat": 46.1117757, "lon": 7.8127149},
@@ -14267,23 +14298,14 @@
         {"lat": 46.153814, "lon": 7.823906},
         {"lat": 46.1541559, "lon": 7.8239834},
         {"lat": 46.1543788, "lon": 7.8239405},
-        {"lat": 46.1545869, "lon": 7.8239405},
-        {"lat": 46.154868, "lon": 7.823854},
-        {"lat": 46.155189, "lon": 7.823904},
-        {"lat": 46.155978, "lon": 7.823717},
-        {"lat": 46.156414, "lon": 7.823819},
-        {"lat": 46.156711, "lon": 7.823787},
-        {"lat": 46.156964, "lon": 7.823883},
-        {"lat": 46.157181, "lon": 7.824083},
-        {"lat": 46.157375, "lon": 7.824097},
-        {"lat": 46.157859, "lon": 7.824285},
-        {"lat": 46.158162, "lon": 7.824516},
-        {"lat": 46.158359, "lon": 7.824581},
-        {"lat": 46.158771, "lon": 7.824959}
+        {"lat": 46.1545869, "lon": 7.8239405}
       ],
       "tags": {
+        "access": "no",
+        "bicycle": "no",
+        "foot": "no",
         "highway": "path",
-        "name": "Europaweg",
+        "name": "Old Europaweg (Not passable)",
         "sac_scale": "alpine_hiking"
       }
     },
