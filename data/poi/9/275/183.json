@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-08-20T23:59:59Z",
-    "timestamp_osm_base": "2022-08-21T06:43:54Z",
+    "timestamp_osm_date": "2022-08-26T23:59:59Z",
+    "timestamp_osm_base": "2022-08-27T07:26:10Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -26595,15 +26595,19 @@
       "id": 7656360840,
       "lat": 45.5446389,
       "lon": 13.725465,
-      "timestamp": "2021-09-28T16:31:06Z",
-      "version": 2,
-      "changeset": 111827555,
-      "user": "Mark Martinec",
-      "uid": 58976,
+      "timestamp": "2022-08-24T13:27:00Z",
+      "version": 3,
+      "changeset": 125316872,
+      "user": "Pavol33",
+      "uid": 15262530,
       "tags": {
+        "access": "yes",
         "amenity": "drinking_water",
         "bottle": "yes",
-        "man_made": "drinking_fountain"
+        "fee": "no",
+        "man_made": "drinking_fountain",
+        "source": "survey",
+        "wheelchair": "yes"
       }
     },
     {
@@ -32090,6 +32094,45 @@
       }
     },
     {
+      "type": "node",
+      "id": 9974910705,
+      "lat": 45.5448072,
+      "lon": 13.7239268,
+      "timestamp": "2022-08-24T13:27:00Z",
+      "version": 1,
+      "changeset": 125316872,
+      "user": "Pavol33",
+      "uid": 15262530,
+      "tags": {
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
+        "source": "survey",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9974944129,
+      "lat": 45.5459216,
+      "lon": 13.7266156,
+      "timestamp": "2022-08-24T13:27:00Z",
+      "version": 1,
+      "changeset": 125316872,
+      "user": "Pavol33",
+      "uid": 15262530,
+      "tags": {
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "fee": "no",
+        "man_made": "drinking_fountain",
+        "source": "survey",
+        "wheelchair": "yes"
+      }
+    },
+    {
       "type": "way",
       "id": 23549305,
       "timestamp": "2022-06-22T12:54:35Z",
@@ -32709,11 +32752,11 @@
     {
       "type": "way",
       "id": 166918547,
-      "timestamp": "2016-08-20T08:56:15Z",
-      "version": 13,
-      "changeset": 41572530,
-      "user": "frariho",
-      "uid": 2358911,
+      "timestamp": "2022-08-22T06:12:42Z",
+      "version": 14,
+      "changeset": 125209110,
+      "user": "raul_lezameta",
+      "uid": 3449692,
       "center": {
         "lat": 45.1883888,
         "lon": 13.5943317
@@ -32724,9 +32767,12 @@
         "addr:postcode": "51000",
         "addr:street": "Bijela Uvala - Funtana",
         "building": "yes",
-        "name": "Istarski Supermarketi",
+        "check_date": "2022-08-22",
+        "name": "Lito Market",
         "opening_hours": "Apr Fr[-1] - Sep 30 07:00-22:00",
         "operator": "Diona market",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
         "shop": "supermarket",
         "wheelchair": "yes"
       }

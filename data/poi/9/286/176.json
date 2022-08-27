@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-08-20T23:59:59Z",
-    "timestamp_osm_base": "2022-08-21T07:19:40Z",
+    "timestamp_osm_date": "2022-08-26T23:59:59Z",
+    "timestamp_osm_base": "2022-08-27T08:12:54Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -15700,23 +15700,6 @@
     },
     {
       "type": "node",
-      "id": 3456414462,
-      "lat": 48.470633,
-      "lon": 21.468788,
-      "timestamp": "2015-04-14T21:38:53Z",
-      "version": 1,
-      "changeset": 30223155,
-      "user": "szali",
-      "uid": 610781,
-      "tags": {
-        "amenity": "drinking_water",
-        "source": "turistautak.hu",
-        "source:date": "2011-05-08",
-        "url": "http://turistautak.hu/poi.php?id=9628"
-      }
-    },
-    {
-      "type": "node",
       "id": 3456414464,
       "lat": 48.47158,
       "lon": 21.5087,
@@ -18332,24 +18315,6 @@
     },
     {
       "type": "node",
-      "id": 5429278647,
-      "lat": 48.7366921,
-      "lon": 21.2414708,
-      "timestamp": "2019-08-14T20:03:15Z",
-      "version": 2,
-      "changeset": 73363541,
-      "user": "gazember8",
-      "uid": 2166799,
-      "tags": {
-        "name": "Mňam Mňam",
-        "opening_hours": "Mo-Fr 07:00-18:00; Sa 07:00-15:00",
-        "operator": "Plaspod PK, s.r.o.",
-        "shop": "convenience",
-        "wheelchair": "no"
-      }
-    },
-    {
-      "type": "node",
       "id": 5480871830,
       "lat": 48.7245219,
       "lon": 21.2541627,
@@ -18426,16 +18391,18 @@
     {
       "type": "node",
       "id": 5522156623,
-      "lat": 48.706169,
-      "lon": 21.127862,
-      "timestamp": "2022-04-24T09:45:47Z",
-      "version": 2,
-      "changeset": 120117240,
-      "user": "PavolG",
-      "uid": 428967,
+      "lat": 48.7061537,
+      "lon": 21.127861,
+      "timestamp": "2022-08-24T16:06:01Z",
+      "version": 3,
+      "changeset": 125322965,
+      "user": "BelKed",
+      "uid": 15784928,
       "tags": {
-        "name": "Mihokova prameň",
-        "natural": "spring"
+        "name": "Mihokova",
+        "natural": "spring",
+        "refitted": "yes",
+        "source": "ÚGKK SR DMR 5.0"
       }
     },
     {
@@ -30823,6 +30790,50 @@
         "amenity": "shelter",
         "shelter_type": "picnic_shelter",
         "source": "DMR5"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1088335322,
+      "timestamp": "2022-08-24T16:43:54Z",
+      "version": 2,
+      "changeset": 125324390,
+      "user": "Rick Richards",
+      "uid": 6322444,
+      "center": {
+        "lat": 48.6928587,
+        "lon": 21.2814194
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "email": "bukovecka@dekort.sk",
+        "name": "Klas",
+        "opening_hours": "Mo-Sa 06:00-20:30; Su 07:00-20:30",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "supermarket",
+        "website": "https://www.iklas.sk"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1088835721,
+      "timestamp": "2022-08-24T15:04:45Z",
+      "version": 1,
+      "changeset": 125320641,
+      "user": "bordaben",
+      "uid": 9368411,
+      "center": {
+        "lat": 48.5429738,
+        "lon": 21.7227126
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "shelter_type": "gazebo"
       }
     }
   ]

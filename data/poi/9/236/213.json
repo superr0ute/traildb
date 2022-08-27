@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-08-20T23:59:59Z",
-    "timestamp_osm_base": "2022-08-21T05:49:10Z",
+    "timestamp_osm_date": "2022-08-26T23:59:59Z",
+    "timestamp_osm_base": "2022-08-27T06:34:10Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -404,15 +404,16 @@
       "id": 321433113,
       "lat": 28.7382204,
       "lon": -13.8679541,
-      "timestamp": "2022-01-23T23:22:41Z",
-      "version": 4,
-      "changeset": 116518359,
-      "user": "ray331",
-      "uid": 11726860,
+      "timestamp": "2022-08-25T19:32:11Z",
+      "version": 5,
+      "changeset": 125376608,
+      "user": "itsrich",
+      "uid": 260436,
       "tags": {
         "brand": "HiperDino",
         "brand:wikidata": "Q105955292",
         "name": "HiperDino",
+        "opening_hours": "Mo-Su 08:00-22:00",
         "operator": "DinoSol",
         "operator:wikidata": "Q5278478",
         "operator:wikipedia": "es:Dinosol Supermercados, S.L.",
@@ -2177,6 +2178,28 @@
     },
     {
       "type": "node",
+      "id": 8998318662,
+      "lat": 28.7117994,
+      "lon": -13.8704233,
+      "timestamp": "2022-08-24T15:02:11Z",
+      "version": 6,
+      "changeset": 125320546,
+      "user": "itsrich",
+      "uid": 260436,
+      "tags": {
+        "addr:city": "Corralejo",
+        "addr:housenumber": "11",
+        "addr:postcode": "35660",
+        "addr:street": "Calle Guirre",
+        "name": "Lidl",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "operator": "Lidl",
+        "shop": "supermarket",
+        "website": "www.lidl.es"
+      }
+    },
+    {
+      "type": "node",
       "id": 9370393516,
       "lat": 28.8582777,
       "lon": -13.8421219,
@@ -2315,11 +2338,11 @@
     {
       "type": "way",
       "id": 219378248,
-      "timestamp": "2021-10-02T11:08:11Z",
-      "version": 5,
-      "changeset": 111996167,
-      "user": "jmsbert",
-      "uid": 3484277,
+      "timestamp": "2022-08-26T08:51:05Z",
+      "version": 7,
+      "changeset": 125395620,
+      "user": "itsrich",
+      "uid": 260436,
       "center": {
         "lat": 28.6797144,
         "lon": -13.9410193
@@ -2327,9 +2350,10 @@
       "nodes": [],
       "tags": {
         "brand": "SuperDino",
-        "building": "yes",
+        "building": "retail",
         "building:levels": "1",
         "name": "Superdino",
+        "nohousenumber": "yes",
         "opening_hours": "Mo-Sa 08:30-21:00; Su 09:00-15:00",
         "shop": "supermarket",
         "wikidata": "Q105955304"

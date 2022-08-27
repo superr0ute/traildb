@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-08-20T23:59:59Z",
-    "timestamp_osm_base": "2022-08-21T05:13:28Z",
+    "timestamp_osm_date": "2022-08-26T23:59:59Z",
+    "timestamp_osm_base": "2022-08-27T05:55:37Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4095,7 +4095,7 @@
       "timestamp": "2020-01-02T06:34:10Z",
       "version": 3,
       "changeset": 79101342,
-      "user": "forest51690",
+      "user": "mountain1200",
       "uid": 1113558,
       "tags": {
         "amenity": "shelter",
@@ -5837,27 +5837,6 @@
     },
     {
       "type": "node",
-      "id": 9380824517,
-      "lat": 38.1863786,
-      "lon": -79.2296446,
-      "timestamp": "2022-05-22T21:08:11Z",
-      "version": 2,
-      "changeset": 121336340,
-      "user": "Augusta Co VA Address and Building Import",
-      "uid": 16041093,
-      "tags": {
-        "addr:city": "Swoope",
-        "addr:county": "Augusta",
-        "addr:housenumber": "2968",
-        "addr:postcode": "24479",
-        "addr:state": "VA",
-        "addr:street": "Parkersburg Turnpike",
-        "name": "Junction Convenience",
-        "shop": "convenience"
-      }
-    },
-    {
-      "type": "node",
       "id": 9380824717,
       "lat": 38.0769827,
       "lon": -79.3859611,
@@ -5892,6 +5871,36 @@
         "brand:wikipedia": "en:Food Lion",
         "name": "Food Lion",
         "shop": "supermarket"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9971317202,
+      "lat": 37.7907792,
+      "lon": -79.4353487,
+      "timestamp": "2022-08-23T03:21:51Z",
+      "version": 1,
+      "changeset": 125250074,
+      "user": "clnd",
+      "uid": 16415189,
+      "tags": {
+        "amenity": "shelter",
+        "name": "Old Barracks Sentinel Box"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9980312983,
+      "lat": 37.791516,
+      "lon": -79.4368232,
+      "timestamp": "2022-08-26T18:34:46Z",
+      "version": 1,
+      "changeset": 125419061,
+      "user": "clnd",
+      "uid": 16415189,
+      "tags": {
+        "amenity": "shelter",
+        "name": "Third Barracks Sentinel Box"
       }
     },
     {
@@ -7567,6 +7576,50 @@
         "opening_hours": "Mo-Su 05:30-21:00",
         "phone": "+1 (434) 263-5024",
         "shop": "convenience"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1089048423,
+      "timestamp": "2022-08-25T11:04:17Z",
+      "version": 1,
+      "changeset": 125355735,
+      "user": "pmfox",
+      "uid": 15487335,
+      "center": {
+        "lat": 38.1863719,
+        "lon": -79.2296142
+      },
+      "nodes": [],
+      "tags": {
+        "addr:city": "Swoope",
+        "addr:county": "Augusta",
+        "addr:housenumber": "2968",
+        "addr:postcode": "24479",
+        "addr:state": "VA",
+        "addr:street": "Parkersburg Turnpike",
+        "building": "yes",
+        "name": "Junction Convenience",
+        "shop": "convenience",
+        "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1089526328,
+      "timestamp": "2022-08-26T18:34:46Z",
+      "version": 1,
+      "changeset": 125419061,
+      "user": "clnd",
+      "uid": 16415189,
+      "center": {
+        "lat": 37.7924675,
+        "lon": -79.433386
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes"
       }
     }
   ]

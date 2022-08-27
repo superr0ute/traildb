@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-08-20T23:59:59Z",
-    "timestamp_osm_base": "2022-08-21T04:33:55Z",
+    "timestamp_osm_date": "2022-08-26T23:59:59Z",
+    "timestamp_osm_base": "2022-08-27T05:10:44Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -4723,6 +4723,24 @@
       "uid": 9944370,
       "tags": {
         "amenity": "shelter"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9973845059,
+      "lat": 33.3218818,
+      "lon": -111.7217116,
+      "timestamp": "2022-08-24T02:25:06Z",
+      "version": 1,
+      "changeset": 125294168,
+      "user": "LightningCloud",
+      "uid": 13528727,
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:postcode": "85296",
+        "addr:state": "AZ",
+        "name": "Air Guitar",
+        "shop": "convenience"
       }
     },
     {
@@ -9885,11 +9903,11 @@
     {
       "type": "way",
       "id": 558677416,
-      "timestamp": "2021-04-05T03:18:55Z",
-      "version": 4,
-      "changeset": 102294310,
-      "user": "HJUdall",
-      "uid": 10521928,
+      "timestamp": "2022-08-21T05:53:26Z",
+      "version": 7,
+      "changeset": 125169424,
+      "user": "dfsek",
+      "uid": 13741504,
       "center": {
         "lat": 33.4658165,
         "lon": -111.6846168
@@ -9904,8 +9922,11 @@
         "brand": "Circle K",
         "brand:wikidata": "Q3268010",
         "brand:wikipedia": "en:Circle K",
-        "building": "yes",
+        "building": "retail",
+        "building:levels": "1",
         "name": "Circle K",
+        "opening_hours": "Mo-Su 06:00",
+        "roof:levels": "0",
         "shop": "convenience"
       }
     },
@@ -14422,23 +14443,29 @@
     {
       "type": "way",
       "id": 851332342,
-      "timestamp": "2020-09-25T00:33:55Z",
-      "version": 1,
-      "changeset": 91472451,
-      "user": "HJUdall",
-      "uid": 10521928,
+      "timestamp": "2022-08-24T23:36:56Z",
+      "version": 2,
+      "changeset": 125336032,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
       "center": {
         "lat": 33.3639339,
-        "lon": -111.6366204
+        "lon": -111.63662
       },
       "nodes": [],
       "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "9151",
+        "addr:postcode": "85212",
+        "addr:state": "AZ",
+        "addr:street": "East Guadalupe Road",
         "brand": "Shell",
-        "brand:wikidata": "Q154950",
+        "brand:wikidata": "Q110716465",
         "brand:wikipedia": "en:Royal Dutch Shell",
         "building": "yes",
         "name": "Shell",
-        "shop": "convenience"
+        "shop": "convenience",
+        "source": "esri/USA_NAD_Addresses"
       }
     },
     {
@@ -15578,14 +15605,14 @@
     {
       "type": "way",
       "id": 918954933,
-      "timestamp": "2022-05-14T21:33:51Z",
-      "version": 3,
-      "changeset": 120993759,
+      "timestamp": "2022-08-26T22:44:12Z",
+      "version": 4,
+      "changeset": 125425742,
       "user": "TheDutchMan13",
       "uid": 1330847,
       "center": {
-        "lat": 33.3791604,
-        "lon": -111.6872617
+        "lat": 33.3791602,
+        "lon": -111.6872613
       },
       "nodes": [],
       "tags": {
@@ -15594,6 +15621,7 @@
         "bin": "yes",
         "building": "yes",
         "lit": "yes",
+        "operator": "Valley Metro Org",
         "shelter_type": "public_transport"
       }
     },
@@ -21259,19 +21287,23 @@
     {
       "type": "way",
       "id": 1075397999,
-      "timestamp": "2022-07-02T19:39:01Z",
-      "version": 1,
-      "changeset": 123131329,
-      "user": "LightningCloud",
-      "uid": 13528727,
+      "timestamp": "2022-08-25T19:24:57Z",
+      "version": 2,
+      "changeset": 125376345,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
       "center": {
-        "lat": 33.3259073,
-        "lon": -111.6867663
+        "lat": 33.3259075,
+        "lon": -111.6867658
       },
       "nodes": [],
       "tags": {
         "amenity": "shelter",
+        "bench": "yes",
+        "bin": "yes",
         "building": "yes",
+        "lit": "yes",
+        "operator": "Valley Metro Org",
         "shelter_type": "public_transport"
       }
     },
@@ -21902,6 +21934,27 @@
         "amenity": "shelter",
         "building": "yes",
         "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1089572633,
+      "timestamp": "2022-08-26T22:44:12Z",
+      "version": 1,
+      "changeset": 125425742,
+      "user": "TheDutchMan13",
+      "uid": 1330847,
+      "center": {
+        "lat": 33.3800587,
+        "lon": -111.6877111
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "bench": "yes",
+        "building": "yes",
+        "lit": "yes",
+        "shelter_type": "public_transport"
       }
     }
   ]

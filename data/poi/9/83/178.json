@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-08-20T23:59:59Z",
-    "timestamp_osm_base": "2022-08-21T03:59:12Z",
+    "timestamp_osm_date": "2022-08-26T23:59:59Z",
+    "timestamp_osm_base": "2022-08-27T04:22:06Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -331,27 +331,13 @@
       "id": 349018384,
       "lat": 47.568016,
       "lon": -121.2121716,
-      "timestamp": "2021-09-14T01:43:24Z",
-      "version": 4,
-      "changeset": 111170017,
-      "user": "jake-low",
-      "uid": 8794039,
+      "timestamp": "2022-08-26T02:55:23Z",
+      "version": 5,
+      "changeset": 125384788,
+      "user": "Adam Schneider",
+      "uid": 5403394,
       "tags": {
-        "ele": "2262",
-        "gnis:Cell": "Mount Daniel",
-        "gnis:Class": "Summit",
-        "gnis:County": "King",
-        "gnis:County_num": "33",
-        "gnis:ST_alph": "WA",
-        "gnis:ST_num": "53",
-        "gnis:county_id": "033",
-        "gnis:created": "09/10/1979",
-        "gnis:feature_id": "1520820",
-        "gnis:id": "1520820",
-        "gnis:state_id": "53",
-        "is_in:country": "USA",
-        "is_in:county": "King",
-        "is_in:state_code": "WA",
+        "ele": "2283.6",
         "name": "Mount Hinman",
         "natural": "peak",
         "source": "USGS",
@@ -420,38 +406,6 @@
         "natural": "peak",
         "source": "USGS",
         "wikidata": "Q49075380"
-      }
-    },
-    {
-      "type": "node",
-      "id": 356544710,
-      "lat": 47.562596,
-      "lon": -121.1720115,
-      "timestamp": "2020-07-22T14:09:25Z",
-      "version": 5,
-      "changeset": 88353988,
-      "user": "ArtOfTheTrek_Sayyed",
-      "uid": 10959285,
-      "tags": {
-        "ele": "2402",
-        "gnis:Cell": "Mount Daniel",
-        "gnis:Class": "Summit",
-        "gnis:County": "Kittitas",
-        "gnis:County_num": "27",
-        "gnis:ST_alph": "WA",
-        "gnis:ST_num": "37",
-        "gnis:county_id": "037",
-        "gnis:created": "09/10/1979",
-        "gnis:feature_id": "1518479",
-        "gnis:id": "1518479",
-        "gnis:state_id": "53",
-        "is_in:country": "USA",
-        "is_in:county": "Kittitas",
-        "is_in:state_code": "WA",
-        "name": "Mount Daniel",
-        "natural": "peak",
-        "source": "USGS",
-        "wikidata": "Q476822"
       }
     },
     {
@@ -1870,6 +1824,25 @@
     },
     {
       "type": "node",
+      "id": 7705568033,
+      "lat": 47.5650192,
+      "lon": -121.1808809,
+      "timestamp": "2022-08-26T02:55:23Z",
+      "version": 2,
+      "changeset": 125384788,
+      "user": "Adam Schneider",
+      "uid": 5403394,
+      "tags": {
+        "ele": "2427",
+        "name": "Mount Daniel",
+        "natural": "peak",
+        "note": "This is the West Peak of Mt. Daniel. From several trip reports reported to be slightly higher than the East Peak which is marked as Mount Daniel on the map. West Peak is in King County by a small margin.",
+        "source": "PeakBagger.com",
+        "wikidata": "Q476822"
+      }
+    },
+    {
+      "type": "node",
       "id": 7786617140,
       "lat": 47.9607538,
       "lon": -121.1522618,
@@ -2162,6 +2135,20 @@
       }
     },
     {
+      "type": "node",
+      "id": 9980320767,
+      "lat": 47.5190864,
+      "lon": -121.070787,
+      "timestamp": "2022-08-26T18:12:42Z",
+      "version": 1,
+      "changeset": 125418346,
+      "user": "Adam Schneider",
+      "uid": 5403394,
+      "tags": {
+        "tourism": "camp_site"
+      }
+    },
+    {
       "type": "way",
       "id": 179561687,
       "timestamp": "2012-09-05T04:37:38Z",
@@ -2386,6 +2373,32 @@
         "operator": "USFS",
         "tourism": "camp_site",
         "website": "https://www.fs.usda.gov/recarea/okawen/recreation/camping-cabins/recarea/?recid=58945&actid=29"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1089522072,
+      "timestamp": "2022-08-26T18:12:42Z",
+      "version": 1,
+      "changeset": 125418346,
+      "user": "Adam Schneider",
+      "uid": 5403394,
+      "center": {
+        "lat": 47.5239227,
+        "lon": -121.0732594
+      },
+      "nodes": [],
+      "tags": {
+        "capacity": "5",
+        "caravans": "no",
+        "drinking_water": "no",
+        "fee": "no",
+        "name": "Fish Lake Campground",
+        "operator": "US Forest Service",
+        "reservation": "no",
+        "tents": "yes",
+        "tourism": "camp_site",
+        "website": "https://www.fs.usda.gov/recarea/okawen/recarea/?recid=57507"
       }
     }
   ]

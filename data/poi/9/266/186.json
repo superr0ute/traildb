@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-08-20T23:59:59Z",
-    "timestamp_osm_base": "2022-08-21T06:20:41Z",
+    "timestamp_osm_date": "2022-08-26T23:59:59Z",
+    "timestamp_osm_base": "2022-08-27T06:57:39Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -16141,21 +16141,16 @@
       "id": 3876751106,
       "lat": 43.7105263,
       "lon": 7.263381,
-      "timestamp": "2019-03-23T16:43:43Z",
-      "version": 4,
-      "changeset": 68449342,
-      "user": "b-jazz-bot",
-      "uid": 9451067,
+      "timestamp": "2022-08-25T15:58:53Z",
+      "version": 5,
+      "changeset": 125368731,
+      "user": "Fabimaru",
+      "uid": 324552,
       "tags": {
-        "brand": "Naturalia",
-        "brand:wikidata": "Q3337081",
-        "brand:wikipedia": "fr:Naturalia",
-        "bulk_purchase": "yes",
-        "name": "Naturalia",
-        "operator": "Groupe Casino",
-        "organic": "only",
-        "shop": "supermarket",
-        "website": "https://naturalia.fr/"
+        "diet:kosher": "only",
+        "name": "André Krief",
+        "shop": "convenience",
+        "website": "https://www.andrekrief.fr/"
       }
     },
     {
@@ -19155,20 +19150,6 @@
     },
     {
       "type": "node",
-      "id": 5504058042,
-      "lat": 43.6971272,
-      "lon": 7.276365,
-      "timestamp": "2018-03-25T23:22:21Z",
-      "version": 1,
-      "changeset": 57519717,
-      "user": "rusefkuma",
-      "uid": 7637564,
-      "tags": {
-        "amenity": "drinking_water"
-      }
-    },
-    {
-      "type": "node",
       "id": 5504097712,
       "lat": 43.7270832,
       "lon": 7.4183801,
@@ -19220,16 +19201,17 @@
       "id": 5519044765,
       "lat": 43.7048827,
       "lon": 7.2629232,
-      "timestamp": "2020-03-23T03:17:52Z",
-      "version": 2,
-      "changeset": 82500335,
-      "user": "Olyon",
-      "uid": 1443767,
+      "timestamp": "2022-08-26T11:53:13Z",
+      "version": 3,
+      "changeset": 125403994,
+      "user": "Bilykralik16",
+      "uid": 12087838,
       "tags": {
         "brand": "Carrefour Express",
         "brand:wikidata": "Q2940190",
         "brand:wikipedia": "fr:Carrefour Express",
         "name": "Carrefour Express",
+        "opening_hours": "Mo-Su 10:00-17:15",
         "operator": "Carrefour",
         "shop": "supermarket"
       }
@@ -21931,11 +21913,11 @@
       "id": 6886127128,
       "lat": 43.7015166,
       "lon": 7.2803578,
-      "timestamp": "2020-12-30T18:15:18Z",
-      "version": 3,
-      "changeset": 96685057,
-      "user": "divulmappeur",
-      "uid": 8490885,
+      "timestamp": "2022-08-26T10:47:54Z",
+      "version": 4,
+      "changeset": 125401191,
+      "user": "Bilykralik16",
+      "uid": 12087838,
       "tags": {
         "brand": "Carrefour Express",
         "brand:wikidata": "Q2940190",
@@ -21943,6 +21925,7 @@
         "name": "Carrefour Express",
         "name:en": "Carrefour Express",
         "name:fr": "Carrefour Express",
+        "opening_hours": "Mo-Sa 08:00-21:00; Su 09:00-21:00",
         "shop": "convenience"
       }
     },
@@ -27913,6 +27896,24 @@
       }
     },
     {
+      "type": "node",
+      "id": 9974292757,
+      "lat": 43.7307452,
+      "lon": 7.4203263,
+      "timestamp": "2022-08-24T07:28:38Z",
+      "version": 1,
+      "changeset": 125301460,
+      "user": "wardmuylaert",
+      "uid": 296252,
+      "tags": {
+        "access": "yes",
+        "amenity": "drinking_water",
+        "bottle": "yes",
+        "covered": "no",
+        "fee": "no"
+      }
+    },
+    {
       "type": "way",
       "id": 16120082,
       "timestamp": "2019-04-04T14:31:15Z",
@@ -30506,11 +30507,11 @@
     {
       "type": "way",
       "id": 142352863,
-      "timestamp": "2020-11-16T15:20:18Z",
-      "version": 9,
-      "changeset": 94210570,
-      "user": "JLZIMMERMANN",
-      "uid": 188930,
+      "timestamp": "2022-08-25T18:16:27Z",
+      "version": 11,
+      "changeset": 125373932,
+      "user": "Bilykralik16",
+      "uid": 12087838,
       "center": {
         "lat": 43.717445,
         "lon": 7.2863285
@@ -30525,9 +30526,12 @@
         "brand:wikidata": "Q151954",
         "brand:wikipedia": "fr:Lidl",
         "building": "retail",
+        "building:levels": "1",
         "height": "3",
         "name": "Lidl",
+        "opening_hours": "Mo-Sa 08:30-20:00; Su 08:30-12:30",
         "operator": "Lidl",
+        "roof:levels": "0",
         "shop": "supermarket",
         "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
         "supermarket": "yes",
@@ -50168,6 +50172,101 @@
         "operator": "Éclaireuses Éclaireurs de France",
         "scout": "yes",
         "tourism": "camp_site"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1087967932,
+      "timestamp": "2022-08-21T17:40:23Z",
+      "version": 1,
+      "changeset": 125193052,
+      "user": "Kalepom",
+      "uid": 392288,
+      "center": {
+        "lat": 43.657642,
+        "lon": 7.1224166
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1087967933,
+      "timestamp": "2022-08-21T17:40:23Z",
+      "version": 1,
+      "changeset": 125193052,
+      "user": "Kalepom",
+      "uid": 392288,
+      "center": {
+        "lat": 43.6581511,
+        "lon": 7.1214636
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1087967934,
+      "timestamp": "2022-08-21T17:40:23Z",
+      "version": 1,
+      "changeset": 125193052,
+      "user": "Kalepom",
+      "uid": 392288,
+      "center": {
+        "lat": 43.6586689,
+        "lon": 7.1213067
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1087967935,
+      "timestamp": "2022-08-21T17:40:23Z",
+      "version": 1,
+      "changeset": 125193052,
+      "user": "Kalepom",
+      "uid": 392288,
+      "center": {
+        "lat": 43.6594588,
+        "lon": 7.1200195
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1087967936,
+      "timestamp": "2022-08-21T17:40:23Z",
+      "version": 1,
+      "changeset": 125193052,
+      "user": "Kalepom",
+      "uid": 392288,
+      "center": {
+        "lat": 43.6594785,
+        "lon": 7.1199924
+      },
+      "nodes": [],
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "shelter_type": "public_transport"
       }
     }
   ]

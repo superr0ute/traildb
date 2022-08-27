@@ -1,7 +1,7 @@
 {
   "osm3s": {
-    "timestamp_osm_date": "2022-08-20T23:59:59Z",
-    "timestamp_osm_base": "2022-08-21T08:08:24Z",
+    "timestamp_osm_date": "2022-08-26T23:59:59Z",
+    "timestamp_osm_base": "2022-08-27T08:45:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1737,15 +1737,16 @@
     {
       "type": "node",
       "id": 2679535324,
-      "lat": 27.8354941,
-      "lon": 87.0759013,
-      "timestamp": "2014-02-18T22:32:20Z",
-      "version": 1,
-      "changeset": 20646818,
-      "user": "4rch",
-      "uid": 1772211,
+      "lat": 27.8353111,
+      "lon": 87.0760564,
+      "timestamp": "2022-08-25T20:13:10Z",
+      "version": 3,
+      "changeset": 125377974,
+      "user": "xsivlychilly",
+      "uid": 14432931,
       "tags": {
-        "name": "Makalu Basecamp",
+        "ele": "4830",
+        "name": "Makalu Base Camp",
         "tourism": "camp_site"
       }
     },
@@ -2865,6 +2866,22 @@
     },
     {
       "type": "node",
+      "id": 5215045241,
+      "lat": 27.7589539,
+      "lon": 87.1665589,
+      "timestamp": "2022-08-24T12:01:31Z",
+      "version": 2,
+      "changeset": 125312710,
+      "user": "xsivlychilly",
+      "uid": 14432931,
+      "tags": {
+        "ele": "3634",
+        "name": "Yangle Kharka",
+        "place": "hamlet"
+      }
+    },
+    {
+      "type": "node",
       "id": 5223535427,
       "lat": 27.8320673,
       "lon": 86.5201463,
@@ -3297,30 +3314,15 @@
     },
     {
       "type": "node",
-      "id": 6468145105,
-      "lat": 27.8101228,
-      "lon": 87.0808545,
-      "timestamp": "2019-05-12T14:29:35Z",
-      "version": 1,
-      "changeset": 70162064,
-      "user": "cschab",
-      "uid": 7004132,
-      "tags": {
-        "amenity": "shelter"
-      }
-    },
-    {
-      "type": "node",
       "id": 6468145106,
       "lat": 27.8099939,
       "lon": 87.0807481,
-      "timestamp": "2019-05-12T14:29:36Z",
-      "version": 1,
-      "changeset": 70162064,
-      "user": "cschab",
-      "uid": 7004132,
+      "timestamp": "2022-08-25T15:06:39Z",
+      "version": 2,
+      "changeset": 125366787,
+      "user": "xsivlychilly",
+      "uid": 14432931,
       "tags": {
-        "name:en": "Shersong",
         "tourism": "camp_site"
       }
     },
@@ -3718,6 +3720,20 @@
       }
     },
     {
+      "type": "node",
+      "id": 9975489735,
+      "lat": 27.79773,
+      "lon": 87.1268255,
+      "timestamp": "2022-08-24T18:18:24Z",
+      "version": 1,
+      "changeset": 125327858,
+      "user": "xsivlychilly",
+      "uid": 14432931,
+      "tags": {
+        "amenity": "drinking_water"
+      }
+    },
+    {
       "type": "way",
       "id": 36479489,
       "timestamp": "2022-05-01T03:19:59Z",
@@ -3951,6 +3967,68 @@
     },
     {
       "type": "way",
+      "id": 537686649,
+      "timestamp": "2022-08-24T16:58:24Z",
+      "version": 3,
+      "changeset": 125324919,
+      "user": "xsivlychilly",
+      "uid": 14432931,
+      "center": {
+        "lat": 27.791204,
+        "lon": 87.1523853
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "name": "Tadosa Tea House",
+        "operator": "Sayali Sherpa",
+        "tourism": "alpine_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 537686656,
+      "timestamp": "2022-08-24T18:18:24Z",
+      "version": 2,
+      "changeset": 125327858,
+      "user": "xsivlychilly",
+      "uid": 14432931,
+      "center": {
+        "lat": 27.7975971,
+        "lon": 87.1267261
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "description": "Sat phone service may be available",
+        "name": "Langmale Kharka Teahouse",
+        "operator": "Ang Pemba Sherpa",
+        "tourism": "alpine_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 537728103,
+      "timestamp": "2022-08-25T16:19:47Z",
+      "version": 2,
+      "changeset": 125369498,
+      "user": "xsivlychilly",
+      "uid": 14432931,
+      "center": {
+        "lat": 27.8357179,
+        "lon": 87.0759728
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "description": "Sat phone service may be available",
+        "name": "Yak Hotel & Lodge",
+        "operator": "Lakpa Kipa Sherpa",
+        "tourism": "alpine_hut"
+      }
+    },
+    {
+      "type": "way",
       "id": 539950959,
       "timestamp": "2017-11-12T06:47:10Z",
       "version": 1,
@@ -4020,6 +4098,47 @@
         "landuse": "residential",
         "name": "Cheplung",
         "place": "village"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1088759271,
+      "timestamp": "2022-08-25T18:41:30Z",
+      "version": 2,
+      "changeset": 125374715,
+      "user": "xsivlychilly",
+      "uid": 14432931,
+      "center": {
+        "lat": 27.7389991,
+        "lon": 87.1858872
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "description": "Weather dependent CDMA telephone available",
+        "name": "Phematang Tea House",
+        "operator": "Ang Dawa Sherpa",
+        "tourism": "alpine_hut"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1088805228,
+      "timestamp": "2022-08-24T12:59:29Z",
+      "version": 1,
+      "changeset": 125315614,
+      "user": "xsivlychilly",
+      "uid": 14432931,
+      "center": {
+        "lat": 27.758223,
+        "lon": 87.1679452
+      },
+      "nodes": [],
+      "tags": {
+        "building": "yes",
+        "ele": "3646",
+        "name": "Yangle Kharka Tea House",
+        "tourism": "alpine_hut"
       }
     }
   ]
