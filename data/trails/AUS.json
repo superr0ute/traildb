@@ -1,5 +1,5 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-08-22T03:58:56Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-28T03:59:22Z"},
   "elements": [
     {
       "type": "relation",
@@ -478,9 +478,9 @@
     {
       "type": "way",
       "id": 1023153840,
-      "timestamp": "2022-08-21T09:40:42Z",
-      "version": 4,
-      "changeset": 125175394,
+      "timestamp": "2022-08-27T09:46:53Z",
+      "version": 5,
+      "changeset": 125435904,
       "user": "breno-au",
       "uid": 859676,
       "nodes": [249065209, 249065276],
@@ -538,6 +538,7 @@
         "bus:conditional": "yes @ (Nov-May); yes @ (permit AND Jun-Oct)",
         "highway": "primary",
         "maxspeed": "80",
+        "motor_vehicle:conditional": "yes; permit @ (destination AND Jun-Oct)",
         "name": "Great Alpine Road",
         "oneway": "no",
         "ref": "B500",
@@ -545,16 +546,15 @@
         "source": "survey",
         "source:maxspeed:sign": "mapillary",
         "surface": "asphalt",
-        "toll": "yes",
         "winter_service": "yes"
       }
     },
     {
       "type": "way",
       "id": 1023154821,
-      "timestamp": "2022-08-21T09:40:42Z",
-      "version": 4,
-      "changeset": 125175394,
+      "timestamp": "2022-08-27T09:46:53Z",
+      "version": 5,
+      "changeset": 125435904,
       "user": "breno-au",
       "uid": 859676,
       "nodes": [249065327, 249065331],
@@ -570,6 +570,7 @@
         "bus:conditional": "yes @ (Nov-May); yes @ (permit AND Jun-Oct)",
         "highway": "primary",
         "maxspeed": "80",
+        "motor_vehicle:conditional": "yes; permit @ (destination AND Jun-Oct)",
         "name": "Great Alpine Road",
         "oneway": "no",
         "ref": "B500",
@@ -577,16 +578,15 @@
         "source": "survey",
         "source:maxspeed:sign": "mapillary",
         "surface": "asphalt",
-        "toll": "yes",
         "winter_service": "yes"
       }
     },
     {
       "type": "way",
       "id": 1023156826,
-      "timestamp": "2022-08-21T09:40:42Z",
-      "version": 4,
-      "changeset": 125175394,
+      "timestamp": "2022-08-27T09:46:53Z",
+      "version": 5,
+      "changeset": 125435904,
       "user": "breno-au",
       "uid": 859676,
       "nodes": [34105526, 2106924790],
@@ -606,6 +606,7 @@
         "bus:conditional": "yes @ (Nov-May); yes @ (permit AND Jun-Oct)",
         "highway": "primary",
         "maxspeed": "60",
+        "motor_vehicle:conditional": "yes; permit @ (destination AND Jun-Oct)",
         "name": "Great Alpine Road",
         "oneway": "no",
         "ref": "B500",
@@ -614,7 +615,6 @@
         "source:geometry": "Esri World Imagery",
         "source:maxspeed:sign": "mapillary",
         "surface": "asphalt",
-        "toll": "yes",
         "winter_service": "yes"
       }
     },
@@ -648,9 +648,9 @@
     {
       "type": "way",
       "id": 1023156829,
-      "timestamp": "2022-08-21T09:40:42Z",
-      "version": 4,
-      "changeset": 125175394,
+      "timestamp": "2022-08-27T09:46:53Z",
+      "version": 5,
+      "changeset": 125435904,
       "user": "breno-au",
       "uid": 859676,
       "nodes": [2106924814, 7184300438],
@@ -666,6 +666,7 @@
         "highway": "primary",
         "maxspeed": "60",
         "maxspeed:advisory": "35",
+        "motor_vehicle:conditional": "yes; permit @ (destination AND Jun-Oct)",
         "name": "Great Alpine Road",
         "oneway": "no",
         "ref": "B500",
@@ -674,7 +675,6 @@
         "source:geometry": "Esri World Imagery",
         "source:maxspeed:sign": "mapillary",
         "surface": "asphalt",
-        "toll": "yes",
         "winter_service": "yes"
       }
     },
@@ -5103,9 +5103,9 @@
     {
       "type": "way",
       "id": 180518535,
-      "timestamp": "2022-08-21T09:40:42Z",
-      "version": 9,
-      "changeset": 125175394,
+      "timestamp": "2022-08-27T09:46:53Z",
+      "version": 10,
+      "changeset": 125435904,
       "user": "breno-au",
       "uid": 859676,
       "nodes": [249064996, 249065109],
@@ -5181,6 +5181,7 @@
         "bus:conditional": "yes @ (Nov-May); yes @ (permit AND Jun-Oct)",
         "highway": "primary",
         "maxspeed": "80",
+        "motor_vehicle:conditional": "yes; permit @ (destination AND Jun-Oct)",
         "name": "Great Alpine Road",
         "oneway": "no",
         "ref": "B500",
@@ -5188,7 +5189,6 @@
         "source": "survey",
         "source:maxspeed:sign": "mapillary",
         "surface": "asphalt",
-        "toll": "yes",
         "winter_service": "yes"
       }
     },
@@ -13967,9 +13967,9 @@
     {
       "type": "way",
       "id": 255766146,
-      "timestamp": "2022-08-21T09:40:42Z",
-      "version": 6,
-      "changeset": 125175394,
+      "timestamp": "2022-08-27T09:46:53Z",
+      "version": 7,
+      "changeset": 125435904,
       "user": "breno-au",
       "uid": 859676,
       "nodes": [249065109, 249065209],
@@ -14052,6 +14052,7 @@
         "highway": "primary",
         "incline": "up",
         "maxspeed": "80",
+        "motor_vehicle:conditional": "yes; permit @ (destination AND Jun-Oct)",
         "name": "Great Alpine Road",
         "oneway": "no",
         "ref": "B500",
@@ -14060,7 +14061,6 @@
         "source:alt_name": "voice",
         "source:maxspeed:sign": "mapillary",
         "surface": "asphalt",
-        "toll": "yes",
         "winter_service": "yes"
       }
     },
@@ -21396,9 +21396,9 @@
     {
       "type": "way",
       "id": 769651344,
-      "timestamp": "2022-08-21T09:40:42Z",
-      "version": 8,
-      "changeset": 125175394,
+      "timestamp": "2022-08-27T09:46:53Z",
+      "version": 9,
+      "changeset": 125435904,
       "user": "breno-au",
       "uid": 859676,
       "nodes": [7184300438, 34105568],
@@ -21422,6 +21422,7 @@
         "bus:conditional": "yes @ (Nov-May); yes @ (permit AND Jun-Oct)",
         "highway": "primary",
         "maxspeed": "60",
+        "motor_vehicle:conditional": "yes; permit @ (destination AND Jun-Oct)",
         "name": "Great Alpine Road",
         "oneway": "no",
         "ref": "B500",
@@ -21430,16 +21431,15 @@
         "source:geometry": "Esri World Imagery",
         "source:maxspeed:sign": "mapillary",
         "surface": "asphalt",
-        "toll": "yes",
         "winter_service": "yes"
       }
     },
     {
       "type": "way",
       "id": 770238352,
-      "timestamp": "2022-08-21T09:40:42Z",
-      "version": 7,
-      "changeset": 125175394,
+      "timestamp": "2022-08-27T09:46:53Z",
+      "version": 8,
+      "changeset": 125435904,
       "user": "breno-au",
       "uid": 859676,
       "nodes": [249065400, 34105526],
@@ -21507,6 +21507,7 @@
         "bus:conditional": "yes @ (Nov-May); yes @ (permit AND Jun-Oct)",
         "highway": "primary",
         "maxspeed": "60",
+        "motor_vehicle:conditional": "yes; permit @ (destination AND Jun-Oct)",
         "name": "Great Alpine Road",
         "oneway": "no",
         "ref": "B500",
@@ -21514,7 +21515,6 @@
         "source": "survey",
         "source:maxspeed:sign": "mapillary",
         "surface": "asphalt",
-        "toll": "yes",
         "winter_service": "yes"
       }
     },
