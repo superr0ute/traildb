@@ -1,14 +1,14 @@
 {
-  "osm3s": {"timestamp_osm_base": "2022-08-28T04:03:20Z"},
+  "osm3s": {"timestamp_osm_base": "2022-08-29T04:14:35Z"},
   "elements": [
     {
       "type": "relation",
       "id": 282071,
-      "timestamp": "2022-08-20T14:47:45Z",
-      "version": 1817,
-      "changeset": 125150927,
-      "user": "Yitzchak M",
-      "uid": 8724982,
+      "timestamp": "2022-08-28T08:13:48Z",
+      "version": 1819,
+      "changeset": 125466801,
+      "user": "hatul",
+      "uid": 686490,
       "members": [
         {"type": "node", "ref": 2910439022, "role": ""},
         {"type": "way", "ref": 53814760, "role": ""},
@@ -755,12 +755,12 @@
         {"type": "way", "ref": 316362413, "role": ""},
         {"type": "way", "ref": 781422253, "role": ""},
         {"type": "way", "ref": 107674072, "role": ""},
-        {"type": "way", "ref": 34138268, "role": ""},
-        {"type": "way", "ref": 28071676, "role": ""},
-        {"type": "way", "ref": 781422257, "role": ""},
-        {"type": "way", "ref": 781422258, "role": ""},
-        {"type": "way", "ref": 781899696, "role": ""},
-        {"type": "way", "ref": 781899695, "role": ""},
+        {"type": "way", "ref": 1089810861, "role": ""},
+        {"type": "way", "ref": 1089807802, "role": ""},
+        {"type": "way", "ref": 854231958, "role": ""},
+        {"type": "way", "ref": 854231589, "role": ""},
+        {"type": "way", "ref": 854231957, "role": ""},
+        {"type": "way", "ref": 1089807803, "role": ""},
         {"type": "way", "ref": 260439602, "role": ""},
         {"type": "way", "ref": 666317012, "role": ""},
         {"type": "way", "ref": 260439603, "role": ""},
@@ -2121,7 +2121,8 @@
         {"type": "way", "ref": 104702332, "role": ""},
         {"type": "way", "ref": 963301168, "role": ""},
         {"type": "way", "ref": 1080550096, "role": ""},
-        {"type": "way", "ref": 1080550098, "role": ""}
+        {"type": "way", "ref": 1080550098, "role": ""},
+        {"type": "way", "ref": 260439602, "role": ""}
       ],
       "tags": {
         "image": "https://upload.wikimedia.org/wikipedia/commons/9/90/PikiWiki_Israel_12132_Geography_of_Israel.jpg",
@@ -5996,6 +5997,52 @@
         {"lat": 31.3828567, "lon": 34.8757732, "z": 437.3}
       ],
       "tags": {"highway": "track"}
+    },
+    {
+      "type": "way",
+      "id": 1089807802,
+      "timestamp": "2022-08-28T07:52:43Z",
+      "version": 1,
+      "changeset": 125466296,
+      "user": "hatul",
+      "uid": 686490,
+      "nodes": [1787009395, 7966484290],
+      "geometry": [
+        {"lat": 32.2891424, "lon": 34.8433211, "z": 33.5},
+        {"lat": 32.2890048, "lon": 34.8431057, "z": 34.5}
+      ],
+      "tags": {"foot": "yes", "highway": "footway", "surface": "paved"}
+    },
+    {
+      "type": "way",
+      "id": 1089807803,
+      "timestamp": "2022-08-28T07:52:43Z",
+      "version": 1,
+      "changeset": 125466296,
+      "user": "hatul",
+      "uid": 686490,
+      "nodes": [462216120, 7966484291],
+      "geometry": [
+        {"lat": 32.2876713, "lon": 34.842699, "z": 35.3},
+        {"lat": 32.2878309, "lon": 34.8427099, "z": 35.3}
+      ],
+      "tags": {"highway": "track", "name:en1": "Shvil Israel"}
+    },
+    {
+      "type": "way",
+      "id": 1089810861,
+      "timestamp": "2022-08-28T08:13:48Z",
+      "version": 1,
+      "changeset": 125466801,
+      "user": "hatul",
+      "uid": 686490,
+      "nodes": [1787009395, 391447224],
+      "geometry": [
+        {"lat": 32.2891424, "lon": 34.8433211, "z": 33.5},
+        {"lat": 32.2893102, "lon": 34.843373, "z": 33.1},
+        {"lat": 32.2894837, "lon": 34.8435379, "z": 32.3}
+      ],
+      "tags": {"foot": "yes", "highway": "footway", "surface": "paved"}
     },
     {
       "type": "way",
@@ -15517,21 +15564,6 @@
         {"lat": 31.0056388, "lon": 35.2853348, "z": -10.7}
       ],
       "tags": {"colour": "red", "highway": "path"}
-    },
-    {
-      "type": "way",
-      "id": 28071676,
-      "timestamp": "2020-03-14T23:21:58Z",
-      "version": 8,
-      "changeset": 82206027,
-      "user": "hatul",
-      "uid": 686490,
-      "nodes": [308237281, 3224699490],
-      "geometry": [
-        {"lat": 32.2894689, "lon": 34.8427452, "z": 34.6},
-        {"lat": 32.2896577, "lon": 34.8428575, "z": 34}
-      ],
-      "tags": {"highway": "service"}
     },
     {
       "type": "way",
@@ -25769,22 +25801,6 @@
         {"lat": 31.694732, "lon": 34.959014, "z": 295.7}
       ],
       "tags": {"highway": "track"}
-    },
-    {
-      "type": "way",
-      "id": 34138268,
-      "timestamp": "2018-01-18T20:28:13Z",
-      "version": 5,
-      "changeset": 55560300,
-      "user": "eric22",
-      "uid": 160949,
-      "nodes": [391447224, 3224699490],
-      "geometry": [
-        {"lat": 32.2894837, "lon": 34.8435379, "z": 32.3},
-        {"lat": 32.2894718, "lon": 34.8431727, "z": 33.4},
-        {"lat": 32.2896577, "lon": 34.8428575, "z": 34}
-      ],
-      "tags": {"foot": "yes", "highway": "footway", "surface": "paved"}
     },
     {
       "type": "way",
@@ -52014,11 +52030,11 @@
     {
       "type": "way",
       "id": 591663134,
-      "timestamp": "2020-05-18T13:19:05Z",
-      "version": 2,
-      "changeset": 85386514,
-      "user": "zstadler",
-      "uid": 3127,
+      "timestamp": "2022-08-28T14:47:26Z",
+      "version": 3,
+      "changeset": 125481145,
+      "user": "Yitzchak M",
+      "uid": 8724982,
       "nodes": [890319752, 527214346],
       "geometry": [
         {"lat": 32.1226411, "lon": 34.8911996, "z": 17.6},
@@ -52032,7 +52048,7 @@
         {"lat": 32.122528, "lon": 34.897799, "z": 21.7},
         {"lat": 32.122528, "lon": 34.898054, "z": 21.4}
       ],
-      "tags": {"highway": "track"}
+      "tags": {"highway": "track", "tracktype": "grade2"}
     },
     {
       "type": "way",
@@ -66488,63 +66504,6 @@
     },
     {
       "type": "way",
-      "id": 781422257,
-      "timestamp": "2021-07-10T06:57:31Z",
-      "version": 2,
-      "changeset": 107735850,
-      "user": "zstadler",
-      "uid": 3127,
-      "nodes": [308237106, 308237281],
-      "geometry": [
-        {"lat": 32.2876929, "lon": 34.8430207, "z": 35.5},
-        {"lat": 32.2879487, "lon": 34.8429567, "z": 35.3},
-        {"lat": 32.2886743, "lon": 34.8428365, "z": 35.8},
-        {"lat": 32.2888215, "lon": 34.8428187, "z": 35.5},
-        {"lat": 32.2894689, "lon": 34.8427452, "z": 34.6}
-      ],
-      "tags": {
-        "highway": "secondary",
-        "lanes": "2",
-        "maxspeed": "60",
-        "name": "בן גוריון",
-        "name:ar": "بن غوريون",
-        "name:en": "Ben Gurion",
-        "name:en1": "David Ben Gurion",
-        "name:he": "בן גוריון",
-        "name:he1": "דוד בן גוריון",
-        "name:ru": "Давид Бен-Гурион",
-        "oneway": "yes"
-      }
-    },
-    {
-      "type": "way",
-      "id": 781422258,
-      "timestamp": "2020-03-14T23:21:58Z",
-      "version": 1,
-      "changeset": 82206027,
-      "user": "hatul",
-      "uid": 686490,
-      "nodes": [308237106, 308237138],
-      "geometry": [
-        {"lat": 32.2876929, "lon": 34.8430207, "z": 35.5},
-        {"lat": 32.2875832, "lon": 34.8428148, "z": 35}
-      ],
-      "tags": {
-        "highway": "secondary",
-        "name": "שלום עליכם",
-        "name:ar": "شلوم عليخيم",
-        "name:en": "Shalom Aleichem",
-        "name:en1": "Shalom Aleychem",
-        "name:en2": "Shalom Alechem",
-        "name:he": "שלום עליכם",
-        "name:ru": "Шолом-Алейхема",
-        "oneway": "yes",
-        "ref": "5611",
-        "surface": "asphalt"
-      }
-    },
-    {
-      "type": "way",
       "id": 781522971,
       "timestamp": "2020-04-16T16:04:34Z",
       "version": 2,
@@ -66563,48 +66522,6 @@
         "colour": "blue",
         "foot": "designated",
         "highway": "path"
-      }
-    },
-    {
-      "type": "way",
-      "id": 781899695,
-      "timestamp": "2020-03-16T20:04:02Z",
-      "version": 1,
-      "changeset": 82272769,
-      "user": "hatul",
-      "uid": 686490,
-      "nodes": [462216120, 462216121],
-      "geometry": [
-        {"lat": 32.2876713, "lon": 34.842699, "z": 35.3},
-        {"lat": 32.2877218, "lon": 34.8427828, "z": 35}
-      ],
-      "tags": {"highway": "track", "note": "fixme"}
-    },
-    {
-      "type": "way",
-      "id": 781899696,
-      "timestamp": "2021-07-10T06:57:31Z",
-      "version": 2,
-      "changeset": 107735850,
-      "user": "zstadler",
-      "uid": 3127,
-      "nodes": [462216121, 308237138],
-      "geometry": [
-        {"lat": 32.2877218, "lon": 34.8427828, "z": 35},
-        {"lat": 32.2875832, "lon": 34.8428148, "z": 35}
-      ],
-      "tags": {
-        "highway": "secondary",
-        "lanes": "2",
-        "maxspeed": "60",
-        "name": "בן גוריון",
-        "name:ar": "بن غوريون",
-        "name:en": "Ben Gurion",
-        "name:en1": "David Ben Gurion",
-        "name:he": "בן גוריון",
-        "name:he1": "דוד בן גוריון",
-        "name:ru": "Давид Бен-Гурион",
-        "oneway": "yes"
       }
     },
     {
@@ -70923,6 +70840,71 @@
         {"lat": 31.029049, "lon": 35.325961, "z": -262.4}
       ],
       "tags": {"colour": "blue", "highway": "track", "source": "Bing"}
+    },
+    {
+      "type": "way",
+      "id": 854231589,
+      "timestamp": "2020-11-01T16:10:15Z",
+      "version": 2,
+      "changeset": 93373645,
+      "user": "SafwatHalaby",
+      "uid": 2138064,
+      "nodes": [7966481989, 7966481990],
+      "geometry": [
+        {"lat": 32.2878781, "lon": 34.8424375, "z": 36.5},
+        {"lat": 32.2882475, "lon": 34.843219, "z": 35.5}
+      ],
+      "tags": {
+        "bridge": "yes",
+        "highway": "path",
+        "layer": "1",
+        "name": "גשר",
+        "name:he": "גשר"
+      }
+    },
+    {
+      "type": "way",
+      "id": 854231957,
+      "timestamp": "2022-08-28T07:52:43Z",
+      "version": 2,
+      "changeset": 125466296,
+      "user": "hatul",
+      "uid": 686490,
+      "nodes": [7966484291, 7966481989],
+      "geometry": [
+        {"lat": 32.2878309, "lon": 34.8427099, "z": 35.3},
+        {"lat": 32.287861, "lon": 34.8426898, "z": 35.4},
+        {"lat": 32.2879513, "lon": 34.8425455, "z": 36.1},
+        {"lat": 32.2880868, "lon": 34.8425176, "z": 36.4},
+        {"lat": 32.288171, "lon": 34.8423803, "z": 37.1},
+        {"lat": 32.2881869, "lon": 34.8421913, "z": 38},
+        {"lat": 32.2881381, "lon": 34.8421282, "z": 38.2},
+        {"lat": 32.2880338, "lon": 34.8420853, "z": 38.2},
+        {"lat": 32.2879397, "lon": 34.8421202, "z": 37.8},
+        {"lat": 32.2878921, "lon": 34.8421765, "z": 37.5},
+        {"lat": 32.2878649, "lon": 34.842261, "z": 37.2},
+        {"lat": 32.2878781, "lon": 34.8424375, "z": 36.5}
+      ],
+      "tags": {"highway": "path"}
+    },
+    {
+      "type": "way",
+      "id": 854231958,
+      "timestamp": "2020-10-02T14:17:19Z",
+      "version": 1,
+      "changeset": 91870068,
+      "user": "VELOCITY_club",
+      "uid": 5556216,
+      "nodes": [7966481990, 7966484290],
+      "geometry": [
+        {"lat": 32.2882475, "lon": 34.843219, "z": 35.5},
+        {"lat": 32.2883246, "lon": 34.8432631, "z": 35.5},
+        {"lat": 32.2884143, "lon": 34.8432479, "z": 35.4},
+        {"lat": 32.288533, "lon": 34.8431057, "z": 35.5},
+        {"lat": 32.2888039, "lon": 34.8430469, "z": 35.1},
+        {"lat": 32.2890048, "lon": 34.8431057, "z": 34.5}
+      ],
+      "tags": {"highway": "path"}
     },
     {
       "type": "way",
